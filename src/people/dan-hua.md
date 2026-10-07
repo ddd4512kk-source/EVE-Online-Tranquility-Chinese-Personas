@@ -1,0 +1,25 @@
+---
+character_id: 2116540636
+cn_name: 蛋花
+aliases: [Dan Hua]
+epithet: 建号九个月开着 Erebus 上了 M2-XFE，三年后拿了 AT 冠军。
+tags: [00区, "AKINA mountain family", AT19冠军]
+---
+
+蛋花，游戏名 Dan Hua，2020 年 3 月建号，FRT 的 AT19 冠军队员。角色简介是空的，头衔就两个字：“蛋花”。
+
+::: 红料 从 ST 来的冠军队员
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2023 年队长杯之后，FRT 比赛队“successfully recruited Garveen Airuta and Dan Hua, former teammates from the ST”——蛋花和[慕容](../2114279817/)是 ST 时期的老队友，一起被拉进了 FRT 的比赛队，随后拿下第十九届联盟锦标赛冠军。
+:::
+
+::: 红料 M2-XFE：开着 Erebus 上了史上最贵一仗
+2020 年 12 月 30 日到 31 日，M2-XFE 打了一场被称为 EVE 史上最具破坏性的旗舰战，十四个小时打掉两百五十多条泰坦。蛋花那个月的击杀总额是 **1.4 万亿**——他开着一条 **Erebus** 泰坦，上了十六张泰坦的击毁记录，比如这条 [Ragnarok](https://zkillboard.com/kill/89617016/)，他打出 21494 点伤害。
+
+这时候，他的号才建了九个月。
+
+zKillboard 上，他生涯击杀一千零六十多，用得最多的是 Muninn，接着就是 Erebus（47 次）、Thunderchild、Nyx（32 次）、Moros——泰坦、超旗、无畏都开。
+:::
+
+::: 评
+蛋花的履历很快：建号九个月开泰坦打 M2-XFE，三年后拿 AT 冠军。简介空白，头衔两个字，比赛复盘里一句话，KB 上十六条泰坦——话少的人，战绩自己会说话。
+:::

@@ -1,0 +1,30 @@
+---
+character_id: 2115988005
+cn_name: 低调
+aliases: [LED Apterbringer, 低调de黯淡]
+epithet: 名叫低调，简介是一排 FRT 星城的墓碑。
+tags: [00区, DC]
+---
+
+低调，游戏名 LED Apterbringer，宽带山（Kuan.Dai.Shan）的 CEO，军团简介里也叫他“低调de黯淡”。宽带山自称“国服十年老牌军团”，2020 年 1 月在欧服建团，先挂 The Army of Mango Alliance（AOM，[军用馒头](../2115140351/)建的联盟），2022 年 1 月转进 DC（Dracarys.）。低调建号后不到一个月就进了宽带山，一直待到今天。
+
+2021 年 9 月，FRT 在 A1-AUH 一带打掉了 AOM 一批超旗。四个月后，宽带山换到了 DC。
+
+::: 红料 FRT 的墓园
+低调的角色简介是一份墓碑名录，每一行开头是“FRT 某某之墓”：
+
+- **FRT 故土之墓**：2023 年 3 月 Nalvula，FRT 建筑公司的一座 Fortizar，配文“我来过了，我带走了你的首都星城”；
+- **FRT 黑渊之墓**：一串 Keepstar，其中 2023 年 4 月 X47L-Q 那座，[KM](https://zkillboard.com/kill/108161468/) 上两千八百多人；旁边还配着一句“帝国，谁给你的自信直接来打X47”；
+- **FRT 对舞之墓**：2026 年 4 月 Oijanen 的 Keepstar；
+- **FRT 寂静谷之墓**：2026 年 4 月 28 日，4-HWWF 的 Keepstar（[KM](https://zkillboard.com/kill/135096173/)），配文“我在4-H等你”，末行又补一句：“我来过了，然后我带走了你的母星！”
+
+4-HWWF 是 FRT 的老家。
+:::
+
+::: 红料 KB：一万杀，六万七千亿
+zKillboard 生涯击杀 **10438**，打掉 **6.7 万亿 ISK**，自己只损失 1202 亿。用得最多的是 Rapier（两千多次），其次是 Monitor、Muninn、Cerberus——一个专门拖人、抓人的侦察舰手。2026 年 4 月那个月，单月击杀 5914 亿。
+:::
+
+::: 评
+低调人如其名吗？不。简介是一排墓碑，配文是“我来过了，我带走了你的母星”。当然，KM 上和他一起“来过”的还有两千多人——墓志铭写成第一人称，是 CEO 的特权。
+:::

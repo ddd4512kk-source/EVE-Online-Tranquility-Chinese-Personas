@@ -1,0 +1,40 @@
+{
+  "id": 2115325500,
+  "name": "Gone With Windy",
+  "birthday": "2019-06-05T16:58:20Z",
+  "current_corporation": {
+    "id": 98601548,
+    "name": "SummerHall",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98601548,
+      "name": "SummerHall",
+      "ticker": "SUMMH"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2019-06-05T16:58:00Z",
+      "end": "2019-06-05T17:04:00Z"
+    },
+    {
+      "corporation_id": 98601548,
+      "name": "SummerHall",
+      "npc": false,
+      "start": "2019-06-05T17:04:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

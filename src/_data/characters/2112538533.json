@@ -1,0 +1,68 @@
+{
+  "id": 2112538533,
+  "name": "Drone Wang",
+  "birthday": "2017-03-15T15:53:34Z",
+  "current_corporation": {
+    "id": 98703703,
+    "name": "Black Frame",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98703703,
+      "name": "Black Frame",
+      "ticker": "B.FRA"
+    },
+    "alliance": {
+      "id": 99014187,
+      "name": "Dawn's Light",
+      "ticker": "DNLT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2017-03-15T15:54:00Z",
+      "end": "2017-03-17T11:32:00Z"
+    },
+    {
+      "corporation_id": 98456550,
+      "name": "Eternity Pavilion",
+      "npc": false,
+      "start": "2017-03-17T11:32:00Z",
+      "end": "2017-04-28T13:06:00Z"
+    },
+    {
+      "corporation_id": 1000066,
+      "name": "Viziam",
+      "npc": true,
+      "start": "2017-04-28T13:06:00Z",
+      "end": "2017-04-28T13:11:00Z"
+    },
+    {
+      "corporation_id": 98509938,
+      "name": "Ranger Warrior",
+      "npc": false,
+      "start": "2017-04-28T13:11:00Z",
+      "end": "2022-01-15T11:55:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-01-15T11:55:00Z",
+      "end": "2022-01-15T12:01:00Z"
+    },
+    {
+      "corporation_id": 98703703,
+      "name": "Black Frame",
+      "npc": false,
+      "start": "2022-01-15T12:01:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

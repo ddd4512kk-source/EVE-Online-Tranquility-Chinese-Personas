@@ -1,0 +1,47 @@
+{
+  "id": 2113316712,
+  "name": "Akagi Mic",
+  "birthday": "2017-10-14T01:17:15Z",
+  "current_corporation": {
+    "id": 98456980,
+    "name": "Dragonborn of New Eden",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98456980,
+      "name": "Dragonborn of New Eden",
+      "ticker": "D.N.E"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2017-10-14T01:17:00Z",
+      "end": "2017-12-07T22:25:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-12-07T22:25:00Z",
+      "end": "2017-12-12T22:48:00Z"
+    },
+    {
+      "corporation_id": 98456980,
+      "name": "Dragonborn of New Eden",
+      "npc": false,
+      "start": "2017-12-12T22:48:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

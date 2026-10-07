@@ -1,0 +1,16 @@
+---
+layout: base.njk
+permalink: /tags/
+pageTitle: 标签
+---
+<section class="intro">
+  <h1>标签</h1>
+  <p>按标签浏览，括号内为人数。</p>
+</section>
+{% if collections.tagMap.length %}
+<p class="chips chips-lg">
+  {%- for t in collections.tagMap %}<a class="chip" href="{{ ('/tags/' + t.name + '/') | url }}">{{ t.name }}<small>{{ t.items.length }}</small></a>{% endfor %}
+</p>
+{% else %}
+<p class="empty">暂无标签。</p>
+{% endif %}

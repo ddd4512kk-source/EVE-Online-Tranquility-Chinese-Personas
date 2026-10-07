@@ -1,0 +1,54 @@
+{
+  "id": 2114409630,
+  "name": "Greed jf cyno",
+  "birthday": "2018-08-12T04:41:47Z",
+  "current_corporation": {
+    "id": 98688253,
+    "name": "FRT Holding",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98688253,
+      "name": "FRT Holding",
+      "ticker": "FRTHD"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2018-08-12T04:42:00Z",
+      "end": "2018-09-21T08:13:00Z"
+    },
+    {
+      "corporation_id": 98241771,
+      "name": "Fraternity Holding",
+      "npc": false,
+      "start": "2018-09-21T08:13:00Z",
+      "end": "2021-07-25T12:45:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-07-25T12:45:00Z",
+      "end": "2021-07-25T12:46:00Z"
+    },
+    {
+      "corporation_id": 98688253,
+      "name": "FRT Holding",
+      "npc": false,
+      "start": "2021-07-25T12:46:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

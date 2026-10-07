@@ -1,0 +1,40 @@
+{
+  "id": 133854609,
+  "name": "NeisonHammer",
+  "birthday": "2009-07-31T13:57:00Z",
+  "current_corporation": {
+    "id": 1097611545,
+    "name": "Light of the moon",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 1097611545,
+      "name": "Light of the moon",
+      "ticker": "LOTM"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2009-07-31T13:57:00Z",
+      "end": "2009-12-02T17:36:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2009-12-02T17:36:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 2114223298,
+  "name": "Karl Booker",
+  "birthday": "2018-06-18T08:16:55Z",
+  "current_corporation": {
+    "id": 98589755,
+    "name": "Hidden Star Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98589755,
+      "name": "Hidden Star Legion",
+      "ticker": ".HSL."
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-06-18T08:17:00Z",
+      "end": "2018-09-30T02:51:00Z"
+    },
+    {
+      "corporation_id": 98554713,
+      "name": "Hidden Star Corps",
+      "npc": false,
+      "start": "2018-09-30T02:51:00Z",
+      "end": "2019-03-01T08:03:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-03-01T08:03:00Z",
+      "end": "2019-03-01T08:03:00Z"
+    },
+    {
+      "corporation_id": 98589755,
+      "name": "Hidden Star Legion",
+      "npc": false,
+      "start": "2019-03-01T08:03:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

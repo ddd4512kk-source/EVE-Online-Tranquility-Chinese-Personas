@@ -1,0 +1,40 @@
+{
+  "id": 2121799880,
+  "name": "Renard42",
+  "birthday": "2023-11-17T06:13:00Z",
+  "current_corporation": {
+    "id": 98755298,
+    "name": "Fox of Resistance",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98755298,
+      "name": "Fox of Resistance",
+      "ticker": "FOXOR"
+    },
+    "alliance": {
+      "id": 1727758877,
+      "name": "Northern Coalition.",
+      "ticker": "NC"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2023-11-17T06:13:00Z",
+      "end": "2023-11-17T06:43:00Z"
+    },
+    {
+      "corporation_id": 98755298,
+      "name": "Fox of Resistance",
+      "npc": false,
+      "start": "2023-11-17T06:43:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 2114228690,
+  "name": "Zark Chastot",
+  "birthday": "2018-06-19T22:43:18Z",
+  "current_corporation": {
+    "id": 98588509,
+    "name": "Noobs Collecttion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98588509,
+      "name": "Noobs Collecttion",
+      "ticker": "NBCLT"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2018-06-19T22:43:00Z",
+      "end": "2018-10-15T23:50:00Z"
+    },
+    {
+      "corporation_id": 98575582,
+      "name": "Noobs No.217",
+      "npc": false,
+      "start": "2018-10-15T23:50:00Z",
+      "end": "2018-10-19T13:26:00Z"
+    },
+    {
+      "corporation_id": 1000111,
+      "name": "Aliastra",
+      "npc": true,
+      "start": "2018-10-19T13:26:00Z",
+      "end": "2018-10-19T15:06:00Z"
+    },
+    {
+      "corporation_id": 98557354,
+      "name": "The Home Of Peace",
+      "npc": false,
+      "start": "2018-10-19T15:06:00Z",
+      "end": "2018-11-04T16:55:00Z"
+    },
+    {
+      "corporation_id": 98575582,
+      "name": "Noobs No.217",
+      "npc": false,
+      "start": "2018-11-04T16:55:00Z",
+      "end": "2018-11-14T04:07:00Z"
+    },
+    {
+      "corporation_id": 98557354,
+      "name": "The Home Of Peace",
+      "npc": false,
+      "start": "2018-11-14T04:07:00Z",
+      "end": "2018-12-01T15:58:00Z"
+    },
+    {
+      "corporation_id": 98582526,
+      "name": "Nimbus2018",
+      "npc": false,
+      "start": "2018-12-01T15:58:00Z",
+      "end": "2019-05-18T04:21:00Z"
+    },
+    {
+      "corporation_id": 98588509,
+      "name": "Noobs Collecttion",
+      "npc": false,
+      "start": "2019-05-18T04:21:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

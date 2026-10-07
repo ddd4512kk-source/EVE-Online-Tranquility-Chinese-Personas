@@ -1,0 +1,131 @@
+{
+  "id": 480362957,
+  "name": "Cyncia Geass",
+  "birthday": "2009-05-01T01:01:00Z",
+  "current_corporation": {
+    "id": 1000165,
+    "name": "Hedion University",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98599770,
+      "name": "Fraternity Building Management",
+      "ticker": "FRTBM"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": "2025-11-19T13:17:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000165,
+      "name": "Hedion University",
+      "npc": true,
+      "start": "2009-05-01T01:01:00Z",
+      "end": "2009-09-21T13:15:00Z"
+    },
+    {
+      "corporation_id": 1619726607,
+      "name": "Great Sage Equaling Heaven",
+      "npc": false,
+      "start": "2009-09-21T13:15:00Z",
+      "end": "2011-01-01T15:18:00Z"
+    },
+    {
+      "corporation_id": 98010141,
+      "name": "Kung Fu Roguer",
+      "npc": false,
+      "start": "2011-01-01T15:18:00Z",
+      "end": "2011-01-18T02:36:00Z"
+    },
+    {
+      "corporation_id": 1619726607,
+      "name": "Great Sage Equaling Heaven",
+      "npc": false,
+      "start": "2011-01-18T02:36:00Z",
+      "end": "2011-07-15T08:31:00Z"
+    },
+    {
+      "corporation_id": 98053643,
+      "name": "Die Valkyrja",
+      "npc": false,
+      "start": "2011-07-15T08:31:00Z",
+      "end": "2012-06-10T13:07:00Z"
+    },
+    {
+      "corporation_id": 286735762,
+      "name": "Dragon Warrior.",
+      "npc": false,
+      "start": "2012-06-10T13:07:00Z",
+      "end": "2012-12-23T14:13:00Z"
+    },
+    {
+      "corporation_id": 98053643,
+      "name": "Die Valkyrja",
+      "npc": false,
+      "start": "2012-12-23T14:13:00Z",
+      "end": "2013-02-18T12:52:00Z"
+    },
+    {
+      "corporation_id": 262369075,
+      "name": "Requiem of Hades",
+      "npc": false,
+      "start": "2013-02-18T12:52:00Z",
+      "end": "2013-03-14T14:41:00Z"
+    },
+    {
+      "corporation_id": 98053643,
+      "name": "Die Valkyrja",
+      "npc": false,
+      "start": "2013-03-14T14:41:00Z",
+      "end": "2017-02-03T14:35:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-02-03T14:35:00Z",
+      "end": "2019-10-02T04:43:00Z"
+    },
+    {
+      "corporation_id": 98509792,
+      "name": "Immortal Valkyrie",
+      "npc": false,
+      "start": "2019-10-02T04:43:00Z",
+      "end": "2020-03-08T08:53:00Z"
+    },
+    {
+      "corporation_id": 98599770,
+      "name": "Fraternity Building Management",
+      "npc": false,
+      "start": "2020-03-08T08:53:00Z",
+      "end": "2023-01-05T17:03:00Z"
+    },
+    {
+      "corporation_id": 1000165,
+      "name": "Hedion University",
+      "npc": true,
+      "start": "2023-01-05T17:03:00Z",
+      "end": "2023-05-05T13:54:00Z"
+    },
+    {
+      "corporation_id": 98599770,
+      "name": "Fraternity Building Management",
+      "npc": false,
+      "start": "2023-05-05T13:54:00Z",
+      "end": "2025-11-19T13:17:00Z"
+    },
+    {
+      "corporation_id": 1000165,
+      "name": "Hedion University",
+      "npc": true,
+      "start": "2025-11-19T13:17:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

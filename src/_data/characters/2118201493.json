@@ -1,0 +1,47 @@
+{
+  "id": 2118201493,
+  "name": "coppercn",
+  "birthday": "2021-01-31T11:33:01Z",
+  "current_corporation": {
+    "id": 98749004,
+    "name": "25yrs old man playing genshin impact at 4am",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98749004,
+      "name": "25yrs old man playing genshin impact at 4am",
+      "ticker": "HO.YO"
+    },
+    "alliance": {
+      "id": 99011441,
+      "name": "N E R V.",
+      "ticker": "NERV"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-01-31T11:33:00Z",
+      "end": "2021-02-03T09:19:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2021-02-03T09:19:00Z",
+      "end": "2025-05-28T16:14:00Z"
+    },
+    {
+      "corporation_id": 98749004,
+      "name": "25yrs old man playing genshin impact at 4am",
+      "npc": false,
+      "start": "2025-05-28T16:14:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 2121401697,
+  "name": "laohei2333333",
+  "birthday": "2023-07-06T09:01:05Z",
+  "current_corporation": {
+    "id": 98725234,
+    "name": "Alkaid Broken Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725234,
+      "name": "Alkaid Broken Army",
+      "ticker": "YAO.G"
+    },
+    "alliance": {
+      "id": 1900696668,
+      "name": "The Initiative.",
+      "ticker": "INIT."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2023-07-06T09:01:00Z",
+      "end": "2023-07-06T10:37:00Z"
+    },
+    {
+      "corporation_id": 98738067,
+      "name": "Why So Sage",
+      "npc": false,
+      "start": "2023-07-06T10:37:00Z",
+      "end": "2023-11-03T15:40:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2023-11-03T15:40:00Z",
+      "end": "2023-11-03T15:43:00Z"
+    },
+    {
+      "corporation_id": 98725234,
+      "name": "Alkaid Broken Army",
+      "npc": false,
+      "start": "2023-11-03T15:43:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

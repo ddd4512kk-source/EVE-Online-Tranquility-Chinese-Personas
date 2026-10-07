@@ -1,0 +1,75 @@
+{
+  "id": 2112869932,
+  "name": "Reatha Mirandia",
+  "birthday": "2017-06-03T11:34:23Z",
+  "current_corporation": {
+    "id": 98509792,
+    "name": "Immortal Valkyrie",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98509792,
+      "name": "Immortal Valkyrie",
+      "ticker": "-KATE"
+    },
+    "alliance": {
+      "id": 99006406,
+      "name": "Fraternity University",
+      "ticker": "FRT-U"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2017-06-03T11:34:00Z",
+      "end": "2017-06-04T07:21:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-06-04T07:21:00Z",
+      "end": "2017-09-20T02:34:00Z"
+    },
+    {
+      "corporation_id": 98509792,
+      "name": "Immortal Valkyrie",
+      "npc": false,
+      "start": "2017-09-20T02:34:00Z",
+      "end": "2020-03-10T14:32:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2020-03-10T14:32:00Z",
+      "end": "2020-03-17T06:40:00Z"
+    },
+    {
+      "corporation_id": 98108175,
+      "name": "Thunders Claw Fleet",
+      "npc": false,
+      "start": "2020-03-17T06:40:00Z",
+      "end": "2020-12-26T07:13:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2020-12-26T07:13:00Z",
+      "end": "2021-01-14T18:52:00Z"
+    },
+    {
+      "corporation_id": 98509792,
+      "name": "Immortal Valkyrie",
+      "npc": false,
+      "start": "2021-01-14T18:52:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

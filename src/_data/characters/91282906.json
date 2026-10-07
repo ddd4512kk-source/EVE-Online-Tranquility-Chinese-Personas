@@ -1,0 +1,89 @@
+{
+  "id": 91282906,
+  "name": "Water Brother",
+  "birthday": "2011-10-07T10:27:00Z",
+  "current_corporation": {
+    "id": 1000168,
+    "name": "Federal Navy Academy",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98588384,
+      "name": "YeLuo-XingHai",
+      "ticker": "YELUO"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": "2025-08-31T01:51:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2011-10-07T10:27:00Z",
+      "end": "2011-10-07T15:52:00Z"
+    },
+    {
+      "corporation_id": 98010141,
+      "name": "Kung Fu Roguer",
+      "npc": false,
+      "start": "2011-10-07T15:52:00Z",
+      "end": "2011-12-06T14:11:00Z"
+    },
+    {
+      "corporation_id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "npc": false,
+      "start": "2011-12-06T14:11:00Z",
+      "end": "2012-02-14T14:56:00Z"
+    },
+    {
+      "corporation_id": 98076151,
+      "name": "BLOODY EDEN",
+      "npc": false,
+      "start": "2012-02-14T14:56:00Z",
+      "end": "2012-02-16T05:35:00Z"
+    },
+    {
+      "corporation_id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "npc": false,
+      "start": "2012-02-16T05:35:00Z",
+      "end": "2012-05-13T13:55:00Z"
+    },
+    {
+      "corporation_id": 98108175,
+      "name": "Thunders Claw Fleet",
+      "npc": false,
+      "start": "2012-05-13T13:55:00Z",
+      "end": "2019-05-07T03:02:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-05-07T03:02:00Z",
+      "end": "2020-01-22T01:29:00Z"
+    },
+    {
+      "corporation_id": 98588384,
+      "name": "YeLuo-XingHai",
+      "npc": false,
+      "start": "2020-01-22T01:29:00Z",
+      "end": "2025-08-31T01:51:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2025-08-31T01:51:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

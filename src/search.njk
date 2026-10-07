@@ -1,0 +1,27 @@
+---
+layout: base.njk
+permalink: /search/
+pageTitle: 搜索
+bodyClass: page-search
+---
+<section class="intro">
+  <h1>全文搜索</h1>
+  <p>搜索全部列传正文、名字与外号。</p>
+</section>
+<link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}">
+<div id="search"></div>
+<noscript><p class="empty">搜索需要启用 JavaScript。</p></noscript>
+<script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const ui = new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      showImages: true,
+      resetStyles: false,
+      translations: { placeholder: "输入名字、外号或任意关键词…", zero_results: "没有找到与 [SEARCH_TERM] 相关的列传" },
+    });
+    const q = new URLSearchParams(location.search).get("q");
+    if (q) ui.triggerSearch(q);
+  });
+</script>

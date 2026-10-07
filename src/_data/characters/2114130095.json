@@ -1,0 +1,61 @@
+{
+  "id": 2114130095,
+  "name": "bingxuan 123",
+  "birthday": "2018-05-23T04:13:34Z",
+  "current_corporation": {
+    "id": 98550682,
+    "name": "Stardust-Guardian",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98550682,
+      "name": "Stardust-Guardian",
+      "ticker": "SG.CN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2018-05-23T04:14:00Z",
+      "end": "2018-05-24T10:35:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2018-05-24T10:35:00Z",
+      "end": "2018-07-23T15:35:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2018-07-23T15:35:00Z",
+      "end": "2018-07-28T03:35:00Z"
+    },
+    {
+      "corporation_id": 98567944,
+      "name": "Stardust Guardian Logistics",
+      "npc": false,
+      "start": "2018-07-28T03:35:00Z",
+      "end": "2018-08-05T06:16:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2018-08-05T06:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

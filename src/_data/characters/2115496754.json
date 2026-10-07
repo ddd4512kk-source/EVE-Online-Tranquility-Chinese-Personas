@@ -1,0 +1,47 @@
+{
+  "id": 2115496754,
+  "name": "Amethyst Shock",
+  "birthday": "2019-07-21T10:40:30Z",
+  "current_corporation": {
+    "id": 98524084,
+    "name": "Chi Gua",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98524084,
+      "name": "Chi Gua",
+      "ticker": ".233."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2019-07-21T10:40:00Z",
+      "end": "2019-07-22T11:41:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2019-07-22T11:41:00Z",
+      "end": "2020-03-31T19:50:00Z"
+    },
+    {
+      "corporation_id": 98524084,
+      "name": "Chi Gua",
+      "npc": false,
+      "start": "2020-03-31T19:50:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

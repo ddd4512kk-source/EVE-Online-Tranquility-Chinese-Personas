@@ -1,0 +1,36 @@
+{
+  "id": 2121110970,
+  "name": "Grand Bright",
+  "birthday": "2023-04-09T13:09:44Z",
+  "current_corporation": {
+    "id": 98738907,
+    "name": "U Fly Like Noraus",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98738907,
+      "name": "U Fly Like Noraus",
+      "ticker": "URPIG"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2023-04-09T13:10:00Z",
+      "end": "2023-04-22T17:29:00Z"
+    },
+    {
+      "corporation_id": 98738907,
+      "name": "U Fly Like Noraus",
+      "npc": false,
+      "start": "2023-04-22T17:29:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

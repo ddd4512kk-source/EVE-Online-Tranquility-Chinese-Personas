@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if pageTitle %}{{ pageTitle }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ pageDescription or site.description }}">
+  <meta name="color-scheme" content="dark light">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}?v={{ site.build }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
+  {% block head %}{% endblock %}
+</head>
+<body class="{{ bodyClass }}">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | url }}">
+        <span class="brand-seal" aria-hidden="true">{{ site.seal }}</span>
+        <span class="brand-text">{{ site.title }}<small>{{ site.subtitle }}</small></span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="{{ '/' | url }}">列传</a>
+        <a href="{{ '/tags/' | url }}">标签</a>
+        <a href="{{ '/search/' | url }}">搜索</a>
+        <a href="{{ '/random/' | url }}" class="nav-random" title="随机翻开一篇">随机</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>本站为玩家社区创作，所写皆为游戏内外轶事与评论，博君一笑，请勿当真。角色数据为抓取时快照，来自 <a href="https://evewho.com" rel="noopener">EveWho</a> 与 CCP ESI。</p>
+      <p><a href="{{ site.repo }}" rel="noopener">GitHub 仓库</a> · 欢迎提交 PR 补充列传</p>
+    </div>
+  </footer>
+</body>
+</html>

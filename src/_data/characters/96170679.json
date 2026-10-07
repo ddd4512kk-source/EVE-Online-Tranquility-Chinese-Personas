@@ -1,0 +1,61 @@
+{
+  "id": 96170679,
+  "name": "Veritas Totient",
+  "birthday": "2016-01-17T23:50:07Z",
+  "current_corporation": {
+    "id": 98556933,
+    "name": "Infinity Avenger",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98556933,
+      "name": "Infinity Avenger",
+      "ticker": "AVDOT"
+    },
+    "alliance": {
+      "id": 99004901,
+      "name": "Snuffed Out",
+      "ticker": "B B C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2016-01-17T23:50:00Z",
+      "end": "2016-01-23T02:05:00Z"
+    },
+    {
+      "corporation_id": 98439450,
+      "name": "JiangNanP'ige",
+      "npc": false,
+      "start": "2016-01-23T02:05:00Z",
+      "end": "2017-02-22T12:53:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2017-02-22T12:53:00Z",
+      "end": "2017-02-22T12:55:00Z"
+    },
+    {
+      "corporation_id": 98389944,
+      "name": "Tai-Chi",
+      "npc": false,
+      "start": "2017-02-22T12:55:00Z",
+      "end": "2018-10-30T14:54:00Z"
+    },
+    {
+      "corporation_id": 98556933,
+      "name": "Infinity Avenger",
+      "npc": false,
+      "start": "2018-10-30T14:54:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

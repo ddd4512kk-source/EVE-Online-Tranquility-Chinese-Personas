@@ -1,0 +1,68 @@
+{
+  "id": 2113239951,
+  "name": "Qi Mo",
+  "birthday": "2017-09-23T11:54:15Z",
+  "current_corporation": {
+    "id": 98825044,
+    "name": "Navigators' Union",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98825044,
+      "name": "Navigators' Union",
+      "ticker": "N-V-U"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2017-09-23T11:54:00Z",
+      "end": "2017-09-30T12:31:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2017-09-30T12:31:00Z",
+      "end": "2017-11-07T07:33:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2017-11-07T07:33:00Z",
+      "end": "2018-06-27T12:16:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2018-06-27T12:16:00Z",
+      "end": "2018-12-04T15:09:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2018-12-04T15:09:00Z",
+      "end": "2026-02-14T23:15:00Z"
+    },
+    {
+      "corporation_id": 98825044,
+      "name": "Navigators' Union",
+      "npc": false,
+      "start": "2026-02-14T23:15:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

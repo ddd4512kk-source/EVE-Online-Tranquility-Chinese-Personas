@@ -1,0 +1,12 @@
+{#- 显示军团与联盟。传入 char（角色缓存数据）。 -#}
+{%- set aff = char.affiliation -%}
+{%- if aff -%}
+<span class="aff">
+  <span class="aff-corp">{{ aff.corporation.name }}{% if aff.corporation.ticker %} <span class="ticker">[{{ aff.corporation.ticker }}]</span>{% endif %}</span>
+  {%- if aff.alliance %}<span class="aff-sep"> · </span><span class="aff-ally">{{ aff.alliance.name }}{% if aff.alliance.ticker %} <span class="ticker">&lt;{{ aff.alliance.ticker }}&gt;</span>{% endif %}</span>{% endif %}
+  {%- if aff.left_at %} <span class="aff-left">（{{ aff.left_at | ym }} 离开）</span>{% endif %}
+</span>
+{%- else -%}
+<span class="aff aff-none">从未加入玩家军团</span>
+{%- endif -%}
+{%- if char.current_corporation.id == 1000001 %} <span class="aff-deleted">已删号</span>{% endif -%}

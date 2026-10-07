@@ -1,0 +1,18 @@
+{#- 目录卡片。传入 p（列传页面对象）。 -#}
+{%- set d = p.data -%}
+{%- set char = d.char -%}
+{%- set y = char.birthday | ymd | truncate(4, true, "") -%}
+<li class="card{% if yearStart %} year-start{% endif %}" data-key="{{ d | searchKey }}" data-year="{{ y }}" data-tags="|{{ d.labels | join('|') }}|">
+  <span class="year-tag" aria-hidden="true">{{ y }}</span>
+  <a href="{{ p.url | url }}">
+    <img class="portrait" src="{{ ('/portraits/' + d.character_id + '.jpg') | url }}" alt="" width="72" height="72" loading="lazy" decoding="async">
+    <span class="card-body">
+      <span class="card-name">{{ d.displayName }}{% if d.cn_name %} <small lang="en">{{ char.name }}</small>{% endif %}</span>
+      {% if d.epithet %}<span class="card-epithet">{{ d.epithet }}</span>{% endif %}
+      <span class="card-meta">
+        {%- if d.liao.hong or d.liao.hei %}<span class="liao-count">{% if d.liao.hong %}<span class="lc-hong" title="红料 {{ d.liao.hong }} 条">红 {{ d.liao.hong }}</span>{% endif %}{% if d.liao.hei %}<span class="lc-hei" title="黑料 {{ d.liao.hei }} 条">黑 {{ d.liao.hei }}</span>{% endif %}</span>{% endif -%}
+        <time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time> · {% include "affiliation.njk" %}
+      </span>
+    </span>
+  </a>
+</li>

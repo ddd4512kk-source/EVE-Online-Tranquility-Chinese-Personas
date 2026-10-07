@@ -1,0 +1,60 @@
+---
+layout: base.njk
+bodyClass: page-person
+---
+{%- set prev = collections.people | getPreviousCollectionItem(page) -%}
+{%- set next = collections.people | getNextCollectionItem(page) -%}
+<nav class="back" data-pagefind-ignore>
+  <a href="{{ '/' | url }}" id="back-link">← 返回目录</a>
+</nav>
+<script>
+  // 从本站页面点进来时，用浏览器后退返回，保留原页面的滚动位置与筛选内容
+  document.getElementById("back-link").addEventListener("click", (e) => {
+    try {
+      if (history.length > 1 && new URL(document.referrer).origin === location.origin) {
+        e.preventDefault();
+        history.back();
+      }
+    } catch {}
+  });
+</script>
+<article class="bio" data-pagefind-body>
+  <header class="bio-head">
+    <img class="portrait portrait-lg" src="{{ ('/portraits/' + character_id + '.jpg') | url }}" alt="{{ char.name }} 的头像" width="160" height="160" data-pagefind-meta="image[src]">
+    <div class="bio-id">
+      <h1 class="bio-name"><span data-pagefind-meta="title">{{ displayName }}</span><span class="bio-suffix">列传</span></h1>
+      {% if cn_name %}<p class="bio-charname" lang="en">{{ char.name }}</p>{% endif %}
+      {% if aliases and aliases.length %}<p class="bio-aliases">又名 {% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+      {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
+    </div>
+  </header>
+
+  <dl class="bio-facts" data-pagefind-ignore>
+    <div><dt>创号</dt><dd><time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time></dd></div>
+    <div><dt>{% if char.affiliation and char.affiliation.left_at %}最近{% else %}现属{% endif %}</dt><dd>{% include "affiliation.njk" %}</dd></div>
+    {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
+  </dl>
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+
+  <details class="employment" data-pagefind-ignore>
+    <summary>雇佣记录（{{ char.history.length }} 段）</summary>
+    <ol>
+      {%- for h in char.history | reverse %}
+      <li class="{% if h.npc %}is-npc{% endif %}">
+        <span class="emp-date">{{ h.start | ymd }} — {% if h.end %}{{ h.end | ymd }}{% else %}至今{% endif %}</span>
+        <span class="emp-corp">{{ h.name }}</span>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="snapshot">数据快照：{{ char.fetched_at }} · <a href="https://evewho.com/character/{{ character_id }}" rel="noopener">EveWho</a> · <a href="https://zkillboard.com/character/{{ character_id }}/" rel="noopener">zKillboard</a></p>
+  </details>
+</article>
+
+<nav class="pager" aria-label="按创号时间翻页" data-pagefind-ignore>
+  {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>前一位</small>{{ prev.data.displayName }}</a>{% else %}<span></span>{% endif %}
+  <a class="pager-random" href="{{ '/random/' | url }}">随机</a>
+  {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>后一位</small>{{ next.data.displayName }}</a>{% else %}<span></span>{% endif %}
+</nav>

@@ -1,0 +1,47 @@
+{
+  "id": 2114949006,
+  "name": "MC jiaming",
+  "birthday": "2019-02-11T04:43:13Z",
+  "current_corporation": {
+    "id": 98626494,
+    "name": "STARCHASER Inc",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626494,
+      "name": "STARCHASER Inc",
+      "ticker": "SC-UN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-02-11T04:43:00Z",
+      "end": "2019-04-29T14:48:00Z"
+    },
+    {
+      "corporation_id": 98221842,
+      "name": "STARCHASER Inc.",
+      "npc": false,
+      "start": "2019-04-29T14:48:00Z",
+      "end": "2020-02-03T07:12:00Z"
+    },
+    {
+      "corporation_id": 98626494,
+      "name": "STARCHASER Inc",
+      "npc": false,
+      "start": "2020-02-03T07:12:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}
