@@ -1,0 +1,61 @@
+{
+  "id": 2115988005,
+  "name": "LED Apterbringer",
+  "birthday": "2019-12-02T05:27:46Z",
+  "current_corporation": {
+    "id": 98626718,
+    "name": "Kuan.Dai.Shan",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "ticker": "KD.S"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-12-02T05:28:00Z",
+      "end": "2019-12-05T10:48:00Z"
+    },
+    {
+      "corporation_id": 98610658,
+      "name": "Forever Of Knights",
+      "npc": false,
+      "start": "2019-12-05T10:48:00Z",
+      "end": "2019-12-08T14:36:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2019-12-08T14:36:00Z",
+      "end": "2019-12-08T15:01:00Z"
+    },
+    {
+      "corporation_id": 98608042,
+      "name": "Mist Forever",
+      "npc": false,
+      "start": "2019-12-08T15:01:00Z",
+      "end": "2020-01-07T12:14:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "npc": false,
+      "start": "2020-01-07T12:14:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

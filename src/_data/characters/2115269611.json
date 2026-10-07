@@ -1,0 +1,54 @@
+{
+  "id": 2115269611,
+  "name": "M'r olddriver",
+  "birthday": "2019-05-24T10:05:39Z",
+  "current_corporation": {
+    "id": 98601277,
+    "name": "Fuente Vacio",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98601277,
+      "name": "Fuente Vacio",
+      "ticker": "FV."
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2019-05-24T10:06:00Z",
+      "end": "2019-05-25T10:33:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2019-05-25T10:33:00Z",
+      "end": "2019-06-07T07:19:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-06-07T07:19:00Z",
+      "end": "2019-06-07T12:59:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "name": "Fuente Vacio",
+      "npc": false,
+      "start": "2019-06-07T12:59:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

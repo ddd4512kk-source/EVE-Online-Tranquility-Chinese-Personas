@@ -1,0 +1,61 @@
+{
+  "id": 2115478949,
+  "name": "GeLanChuan Erata",
+  "birthday": "2019-07-17T13:35:41Z",
+  "current_corporation": {
+    "id": 98598862,
+    "name": "Chaos arbiter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598862,
+      "name": "Chaos arbiter",
+      "ticker": "CACX"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2019-07-17T13:36:00Z",
+      "end": "2019-07-19T14:56:00Z"
+    },
+    {
+      "corporation_id": 98602384,
+      "name": "VVV Advance Alliance",
+      "npc": false,
+      "start": "2019-07-19T14:56:00Z",
+      "end": "2019-07-26T10:14:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2019-07-26T10:14:00Z",
+      "end": "2019-07-30T07:24:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2019-07-30T07:24:00Z",
+      "end": "2019-07-30T08:00:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2019-07-30T08:00:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

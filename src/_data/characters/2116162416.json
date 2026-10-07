@@ -1,0 +1,110 @@
+{
+  "id": 2116162416,
+  "name": "Six bamboo",
+  "birthday": "2020-01-09T15:49:22Z",
+  "current_corporation": {
+    "id": 98702000,
+    "name": "Snow Moon City",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98702000,
+      "name": "Snow Moon City",
+      "ticker": ".SMAC"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2020-01-09T15:49:00Z",
+      "end": "2020-01-14T13:15:00Z"
+    },
+    {
+      "corporation_id": 98618638,
+      "name": "Tian-Shan",
+      "npc": false,
+      "start": "2020-01-14T13:15:00Z",
+      "end": "2020-01-16T15:15:00Z"
+    },
+    {
+      "corporation_id": 1000072,
+      "name": "Imperial Shipment",
+      "npc": true,
+      "start": "2020-01-16T15:15:00Z",
+      "end": "2020-01-17T15:16:00Z"
+    },
+    {
+      "corporation_id": 98622034,
+      "name": "Happy Game Club",
+      "npc": false,
+      "start": "2020-01-17T15:16:00Z",
+      "end": "2020-09-24T02:51:00Z"
+    },
+    {
+      "corporation_id": 1000072,
+      "name": "Imperial Shipment",
+      "npc": true,
+      "start": "2020-09-24T02:51:00Z",
+      "end": "2020-09-24T03:56:00Z"
+    },
+    {
+      "corporation_id": 98629614,
+      "name": "Vision CN",
+      "npc": false,
+      "start": "2020-09-24T03:56:00Z",
+      "end": "2020-09-24T17:22:00Z"
+    },
+    {
+      "corporation_id": 1000072,
+      "name": "Imperial Shipment",
+      "npc": true,
+      "start": "2020-09-24T17:22:00Z",
+      "end": "2020-09-25T05:55:00Z"
+    },
+    {
+      "corporation_id": 98624715,
+      "name": "Naval Intelligence Agency",
+      "npc": false,
+      "start": "2020-09-25T05:55:00Z",
+      "end": "2020-10-03T13:52:00Z"
+    },
+    {
+      "corporation_id": 1000072,
+      "name": "Imperial Shipment",
+      "npc": true,
+      "start": "2020-10-03T13:52:00Z",
+      "end": "2020-10-03T13:53:00Z"
+    },
+    {
+      "corporation_id": 98622034,
+      "name": "Happy Game Club",
+      "npc": false,
+      "start": "2020-10-03T13:53:00Z",
+      "end": "2021-12-28T13:25:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2021-12-28T13:25:00Z",
+      "end": "2021-12-28T13:26:00Z"
+    },
+    {
+      "corporation_id": 98702000,
+      "name": "Snow Moon City",
+      "npc": false,
+      "start": "2021-12-28T13:26:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

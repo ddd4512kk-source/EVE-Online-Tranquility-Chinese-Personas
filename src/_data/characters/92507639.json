@@ -1,0 +1,68 @@
+{
+  "id": 92507639,
+  "name": "Rabbit P",
+  "birthday": "2012-10-06T04:30:20Z",
+  "current_corporation": {
+    "id": 98178881,
+    "name": "Nuwa Foundation",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98178881,
+      "name": "Nuwa Foundation",
+      "ticker": "NUWA"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2012-10-06T04:30:00Z",
+      "end": "2012-10-11T02:48:00Z"
+    },
+    {
+      "corporation_id": 98141719,
+      "name": "Pangu legacy",
+      "npc": false,
+      "start": "2012-10-11T02:48:00Z",
+      "end": "2012-10-25T13:20:00Z"
+    },
+    {
+      "corporation_id": 1000080,
+      "name": "Ministry of War",
+      "npc": true,
+      "start": "2012-10-25T13:20:00Z",
+      "end": "2013-05-19T04:30:00Z"
+    },
+    {
+      "corporation_id": 98053643,
+      "name": "Die Valkyrja",
+      "npc": false,
+      "start": "2013-05-19T04:30:00Z",
+      "end": "2014-01-11T12:44:00Z"
+    },
+    {
+      "corporation_id": 98245551,
+      "name": "23rd Tier Overseer's Personal Effects",
+      "npc": false,
+      "start": "2014-01-11T12:44:00Z",
+      "end": "2014-04-11T14:44:00Z"
+    },
+    {
+      "corporation_id": 98178881,
+      "name": "Nuwa Foundation",
+      "npc": false,
+      "start": "2014-04-11T14:44:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

@@ -1,0 +1,75 @@
+{
+  "id": 96262961,
+  "name": "Gauzeee Military",
+  "birthday": "2016-03-02T06:04:33Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2016-03-02T06:05:00Z",
+      "end": "2016-03-02T07:47:00Z"
+    },
+    {
+      "corporation_id": 98285865,
+      "name": "Jian Sheng",
+      "npc": false,
+      "start": "2016-03-02T07:47:00Z",
+      "end": "2016-03-07T11:04:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2016-03-07T11:04:00Z",
+      "end": "2016-03-09T03:52:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2016-03-09T03:52:00Z",
+      "end": "2017-08-29T11:50:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2017-08-29T11:50:00Z",
+      "end": "2018-04-24T11:49:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2018-04-24T11:49:00Z",
+      "end": "2020-03-16T04:31:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2020-03-16T04:31:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

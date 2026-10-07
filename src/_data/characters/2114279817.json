@@ -1,0 +1,40 @@
+{
+  "id": 2114279817,
+  "name": "Garveen Airuta",
+  "birthday": "2018-07-07T06:54:29Z",
+  "current_corporation": {
+    "id": 98185110,
+    "name": "Fuxi Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98185110,
+      "name": "Fuxi Legion",
+      "ticker": "FUXI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2018-07-07T06:54:00Z",
+      "end": "2018-07-17T04:37:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-07-17T04:37:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

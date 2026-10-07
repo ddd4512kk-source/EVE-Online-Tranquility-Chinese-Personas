@@ -1,0 +1,22 @@
+{
+  "name": "eve-tq-chinese-personas",
+  "private": true,
+  "type": "module",
+  "description": "EVE Online 宁静服（欧服）华人名人群像列传 — 静态网站",
+  "scripts": {
+    "find": "node scripts/find-character.mjs",
+    "fetch": "node scripts/fetch-characters.mjs",
+    "check": "node scripts/fetch-characters.mjs --check",
+    "build": "node scripts/fetch-characters.mjs && eleventy && pagefind --site _site",
+    "serve": "npm run build && eleventy --serve"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "gray-matter": "^4.0.3",
+    "markdown-it-container": "^4.0.0",
+    "pagefind": "^1.5.2"
+  }
+}

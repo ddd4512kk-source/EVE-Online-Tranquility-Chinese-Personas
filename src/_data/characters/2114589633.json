@@ -1,0 +1,68 @@
+{
+  "id": 2114589633,
+  "name": "s2eirio",
+  "birthday": "2018-10-13T13:56:46Z",
+  "current_corporation": {
+    "id": 98598862,
+    "name": "Chaos arbiter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598862,
+      "name": "Chaos arbiter",
+      "ticker": "CACX"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-10-13T13:57:00Z",
+      "end": "2018-10-14T05:48:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2018-10-14T05:48:00Z",
+      "end": "2018-11-02T14:01:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2018-11-02T14:01:00Z",
+      "end": "2018-11-09T04:45:00Z"
+    },
+    {
+      "corporation_id": 98540691,
+      "name": "NINE Continent",
+      "npc": false,
+      "start": "2018-11-09T04:45:00Z",
+      "end": "2018-12-31T15:54:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2018-12-31T15:54:00Z",
+      "end": "2019-10-12T15:22:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2019-10-12T15:22:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

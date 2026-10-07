@@ -1,0 +1,54 @@
+{
+  "id": 2112491643,
+  "name": "Alice Seraph",
+  "birthday": "2017-03-04T18:56:39Z",
+  "current_corporation": {
+    "id": 98538918,
+    "name": "Foredawn Business Corporation",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "ticker": "FORED"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2017-03-04T18:57:00Z",
+      "end": "2017-03-08T16:47:00Z"
+    },
+    {
+      "corporation_id": 98285865,
+      "name": "Jian Sheng",
+      "npc": false,
+      "start": "2017-03-08T16:47:00Z",
+      "end": "2017-12-08T15:35:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2017-12-08T15:35:00Z",
+      "end": "2017-12-08T15:37:00Z"
+    },
+    {
+      "corporation_id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "npc": false,
+      "start": "2017-12-08T15:37:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

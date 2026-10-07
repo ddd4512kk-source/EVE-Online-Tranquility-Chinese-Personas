@@ -1,0 +1,40 @@
+{
+  "id": 2113791371,
+  "name": "Apple Reborn",
+  "birthday": "2018-02-09T02:39:24Z",
+  "current_corporation": {
+    "id": 98547771,
+    "name": "B.O.P Supplication For Glorious",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98547771,
+      "name": "B.O.P Supplication For Glorious",
+      "ticker": ".BOP"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2018-02-09T02:39:00Z",
+      "end": "2018-02-09T03:09:00Z"
+    },
+    {
+      "corporation_id": 98547771,
+      "name": "B.O.P Supplication For Glorious",
+      "npc": false,
+      "start": "2018-02-09T03:09:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

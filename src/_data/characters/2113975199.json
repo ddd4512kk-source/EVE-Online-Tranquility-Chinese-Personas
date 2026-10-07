@@ -1,0 +1,40 @@
+{
+  "id": 2113975199,
+  "name": "Night Spear",
+  "birthday": "2018-04-05T13:19:45Z",
+  "current_corporation": {
+    "id": 98529628,
+    "name": "New Boreas",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98529628,
+      "name": "New Boreas",
+      "ticker": "BFZR"
+    },
+    "alliance": {
+      "id": 1354830081,
+      "name": "Goonswarm Federation",
+      "ticker": "CONDI"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2018-04-05T13:20:00Z",
+      "end": "2018-04-05T14:46:00Z"
+    },
+    {
+      "corporation_id": 98529628,
+      "name": "New Boreas",
+      "npc": false,
+      "start": "2018-04-05T14:46:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 2112979015,
+  "name": "wy yang",
+  "birthday": "2017-07-05T09:24:13Z",
+  "current_corporation": {
+    "id": 98108175,
+    "name": "Thunders Claw Fleet",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98108175,
+      "name": "Thunders Claw Fleet",
+      "ticker": "T C F"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2017-07-05T09:24:00Z",
+      "end": "2017-07-05T15:46:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-07-05T15:46:00Z",
+      "end": "2017-12-21T19:40:00Z"
+    },
+    {
+      "corporation_id": 98108175,
+      "name": "Thunders Claw Fleet",
+      "npc": false,
+      "start": "2017-12-21T19:40:00Z",
+      "end": "2018-03-16T10:25:00Z"
+    },
+    {
+      "corporation_id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "npc": false,
+      "start": "2018-03-16T10:25:00Z",
+      "end": "2018-06-28T01:20:00Z"
+    },
+    {
+      "corporation_id": 98108175,
+      "name": "Thunders Claw Fleet",
+      "npc": false,
+      "start": "2018-06-28T01:20:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

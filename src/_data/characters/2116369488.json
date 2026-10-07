@@ -1,0 +1,110 @@
+{
+  "id": 2116369488,
+  "name": "YM sakura",
+  "birthday": "2020-02-24T05:59:19Z",
+  "current_corporation": {
+    "id": 98648061,
+    "name": "Tu Zi Fei Corporation",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98648061,
+      "name": "Tu Zi Fei Corporation",
+      "ticker": "TU ZI"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2020-02-24T05:59:00Z",
+      "end": "2020-04-07T03:48:00Z"
+    },
+    {
+      "corporation_id": 98632312,
+      "name": "Sylvanas Argeir Military Academy",
+      "npc": false,
+      "start": "2020-04-07T03:48:00Z",
+      "end": "2020-04-19T09:46:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2020-04-19T09:46:00Z",
+      "end": "2020-04-19T10:13:00Z"
+    },
+    {
+      "corporation_id": 98631370,
+      "name": "Lang Jiang Hu Elite",
+      "npc": false,
+      "start": "2020-04-19T10:13:00Z",
+      "end": "2020-11-28T15:52:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2020-11-28T15:52:00Z",
+      "end": "2020-11-29T06:30:00Z"
+    },
+    {
+      "corporation_id": 98632312,
+      "name": "Sylvanas Argeir Military Academy",
+      "npc": false,
+      "start": "2020-11-29T06:30:00Z",
+      "end": "2021-01-08T12:20:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-01-08T12:20:00Z",
+      "end": "2021-01-08T14:46:00Z"
+    },
+    {
+      "corporation_id": 98547771,
+      "name": "B.O.P Supplication For Glorious",
+      "npc": false,
+      "start": "2021-01-08T14:46:00Z",
+      "end": "2022-06-15T16:32:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-06-15T16:32:00Z",
+      "end": "2022-06-17T13:40:00Z"
+    },
+    {
+      "corporation_id": 98704682,
+      "name": "Rogue Herring.",
+      "npc": false,
+      "start": "2022-06-17T13:40:00Z",
+      "end": "2022-07-15T13:20:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-07-15T13:20:00Z",
+      "end": "2022-07-15T13:25:00Z"
+    },
+    {
+      "corporation_id": 98648061,
+      "name": "Tu Zi Fei Corporation",
+      "npc": false,
+      "start": "2022-07-15T13:25:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

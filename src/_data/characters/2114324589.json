@@ -1,0 +1,68 @@
+{
+  "id": 2114324589,
+  "name": "DY HEII K",
+  "birthday": "2018-07-20T17:07:17Z",
+  "current_corporation": {
+    "id": 98626494,
+    "name": "STARCHASER Inc",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626494,
+      "name": "STARCHASER Inc",
+      "ticker": "SC-UN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2018-07-20T17:07:00Z",
+      "end": "2018-07-21T13:49:00Z"
+    },
+    {
+      "corporation_id": 98522729,
+      "name": "Pipixia Let's Go",
+      "npc": false,
+      "start": "2018-07-21T13:49:00Z",
+      "end": "2018-08-19T14:21:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2018-08-19T14:21:00Z",
+      "end": "2018-08-20T12:33:00Z"
+    },
+    {
+      "corporation_id": 98221842,
+      "name": "STARCHASER Inc.",
+      "npc": false,
+      "start": "2018-08-20T12:33:00Z",
+      "end": "2020-02-03T11:33:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2020-02-03T11:33:00Z",
+      "end": "2020-02-03T11:33:00Z"
+    },
+    {
+      "corporation_id": 98626494,
+      "name": "STARCHASER Inc",
+      "npc": false,
+      "start": "2020-02-03T11:33:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

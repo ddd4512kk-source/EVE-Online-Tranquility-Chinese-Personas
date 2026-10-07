@@ -1,0 +1,40 @@
+{
+  "id": 2115619622,
+  "name": "Kiki Kyo",
+  "birthday": "2019-08-23T09:08:19Z",
+  "current_corporation": {
+    "id": 98629605,
+    "name": "F1 Monkey.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98629605,
+      "name": "F1 Monkey.",
+      "ticker": "F1GOU"
+    },
+    "alliance": {
+      "id": 99010007,
+      "name": "Esports Petopia",
+      "ticker": "PET."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2019-08-23T09:08:00Z",
+      "end": "2020-02-01T04:33:00Z"
+    },
+    {
+      "corporation_id": 98629605,
+      "name": "F1 Monkey.",
+      "npc": false,
+      "start": "2020-02-01T04:33:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

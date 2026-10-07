@@ -1,0 +1,36 @@
+---
+character_id: 2114324589
+cn_name: 橘子
+aliases: [DY HEII K]
+epithet: 采星者七周年，自家联盟把他的无畏打了。
+tags: [00区, FRT, 采星]
+---
+
+橘子，游戏名 DY HEII K，头衔“橘子（CEO）”——采星者（STARCHASER Inc）的现任 CEO。注意，他不是[柑橘战士](../92130708/)。
+
+2018 年建号，一个月后进了老采星者 STARCHASER Inc.（带点的那家），在采星者联盟（STARCHASER Alliance）。按军团简介，采星者联盟 2017 年 6 月 1 日成立，2020 年 1 月“响应联盟群的联盟合并号召”并入 FRT，另立了不带点的 STARCHASER Inc。橘子跟着过去，一直待到今天。[银色汤勺](../2114949006/)、[山竹](../2113053705/)都出自采星者一系。
+
+::: 红料 KB：两千杀，两万七千亿
+zKillboard 生涯击杀 2122，打掉 **2.72 万亿 ISK**，单杀 164。用得最多的是 Hecate 和 Gnosis。
+
+2021 年 9 月 17 日，FRT 在 A1-AUH 一带大量击杀 The Army of Mango Alliance 的超旗，橘子那个月击杀 1.2 万亿。代价也在同一天：他自己在 H-NOU5 被打掉了一条 **Revenant**，价值 1689 亿，一百五十多人围殴。
+:::
+
+::: 红料 简介里的泰坦生意
+橘子的角色简介最后写着：
+
+> 俄洛巴斯级抢不过勒维亚坦级
+> 接泰坦订单
+
+（俄洛巴斯、勒维亚坦即 Erebus 和 Leviathan，两种泰坦。）旁边挂着一条 2026 年 3 月的[击杀](https://zkillboard.com/kill/133727798/)：六个人在 MC6O-F 打掉 The Initiative. 的一条 Revelation 无畏，最后一击是橘子。
+:::
+
+::: 黑料 七周年，炸的是自己
+2024 年 6 月 1 日，采星者联盟成立七周年。当天 TO21-U，FRT 九十多人打掉了一座名叫 **“STARCHASER Tranquility 7th Anniversary”** 的 Astrahus（[KM](https://zkillboard.com/kill/118308865/)）；三分钟后，又是八十多个 FRT 的人，打掉了橘子自己的 Naglfar 无畏（[KM](https://zkillboard.com/kill/118308907/)），zKillboard 给这条标的是 awox——自己人打自己人。
+
+两条 KM 都被橘子挂进了角色简介，一条写“击杀：空堡”，一条写“击杀：DY HEII K（纳迦法级）”。
+:::
+
+::: 评
+橘子守着采星者这块老招牌：联盟没了，招牌改成军团接着挂；七周年没有烟花，就拿一座空堡和自己的一条无畏当烟花放。别人把战绩挂简介，他把自己被炸也挂上去——还写明“接泰坦订单”，生意照做。
+:::

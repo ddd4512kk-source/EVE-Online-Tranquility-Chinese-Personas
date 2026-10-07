@@ -1,0 +1,82 @@
+{
+  "id": 2113941665,
+  "name": "Den Like Raven",
+  "birthday": "2018-03-26T11:31:22Z",
+  "current_corporation": {
+    "id": 98702890,
+    "name": "Descendants of Shen Nong",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "ticker": ".DSN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2018-03-26T11:31:00Z",
+      "end": "2018-03-26T13:40:00Z"
+    },
+    {
+      "corporation_id": 98532838,
+      "name": "Nuclear Explosion Fleet",
+      "npc": false,
+      "start": "2018-03-26T13:40:00Z",
+      "end": "2018-11-20T15:21:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2018-11-20T15:21:00Z",
+      "end": "2018-11-20T15:25:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2018-11-20T15:25:00Z",
+      "end": "2019-12-03T14:05:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2019-12-03T14:05:00Z",
+      "end": "2019-12-03T14:06:00Z"
+    },
+    {
+      "corporation_id": 98532838,
+      "name": "Nuclear Explosion Fleet",
+      "npc": false,
+      "start": "2019-12-03T14:06:00Z",
+      "end": "2022-02-09T04:09:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2022-02-09T04:09:00Z",
+      "end": "2022-02-09T04:10:00Z"
+    },
+    {
+      "corporation_id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "npc": false,
+      "start": "2022-02-09T04:10:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

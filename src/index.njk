@@ -1,0 +1,39 @@
+---
+layout: base.njk
+bodyClass: page-index
+---
+{%- set people = collections.people -%}
+<section class="intro">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}按主角色创号先后为序，共收 <strong>{{ people.length }}</strong> 人。</p>
+</section>
+
+<div class="toolbar" role="search">
+  <input id="filter" type="search" placeholder="筛选：中文名、角色名、外号、标签…" autocomplete="off" aria-label="按名字或标签筛选">
+  <button id="order" type="button" aria-pressed="false" title="按创号时间排序，再点切换正序/倒序">创号 ↑</button>
+  <button id="shuffle" type="button" aria-pressed="false" title="随机排序，再点重新洗牌"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7h3c5 0 7 10 12 10h3M17 13l4 4-4 4M3 17h3c1.5 0 2.7-.9 3.8-2.3M14.2 9.3C15.3 7.9 16.5 7 18 7h3M17 3l4 4-4 4"/></svg><span>随机<span class="shuffle-more">排序</span></span></button>
+  <a class="toolbar-full" href="{{ '/search/' | url }}">全文搜索 →</a>
+</div>
+
+{%- set groups = people | groupByYear %}
+{%- if collections.tagMap.length %}
+<div class="tag-wrap">
+  <nav class="tag-bar" id="tag-bar" aria-label="按标签筛选">
+    <button type="button" class="chip is-active" data-tag="" aria-pressed="true">全部<small>{{ people.length }}</small></button>
+    {%- for t in collections.tagMap %}<button type="button" class="chip" data-tag="{{ t.name }}" aria-pressed="false">{{ t.name }}<small>{{ t.items.length }}</small></button>{% endfor %}
+  </nav>
+  <button type="button" class="tag-more" aria-controls="tag-bar" aria-expanded="false" hidden>展开 ▾</button>
+</div>
+{%- endif %}
+<p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
+
+<ol id="roster" class="cards roster">
+{%- for g in groups %}
+  {%- for p in g.items %}
+    {%- set yearStart = loop.first %}
+    {% include "card.njk" %}
+  {%- endfor %}
+{%- endfor %}
+</ol>
+
+<script src="{{ '/assets/js/roster.js' | url }}?v={{ site.build }}" defer></script>

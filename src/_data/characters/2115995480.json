@@ -1,0 +1,68 @@
+{
+  "id": 2115995480,
+  "name": "FRT BaishanTvT",
+  "birthday": "2019-12-04T02:31:09Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2019-12-04T02:31:00Z",
+      "end": "2019-12-05T02:50:00Z"
+    },
+    {
+      "corporation_id": 98622581,
+      "name": "holy moly.",
+      "npc": false,
+      "start": "2019-12-05T02:50:00Z",
+      "end": "2022-01-29T09:39:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-01-29T09:39:00Z",
+      "end": "2022-01-29T09:47:00Z"
+    },
+    {
+      "corporation_id": 98704932,
+      "name": "Get Start NJZK",
+      "npc": false,
+      "start": "2022-01-29T09:47:00Z",
+      "end": "2022-08-28T13:34:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-08-28T13:34:00Z",
+      "end": "2022-08-30T07:51:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2022-08-30T07:51:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

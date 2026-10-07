@@ -1,0 +1,54 @@
+{
+  "id": 2112829674,
+  "name": "GuangTou Qiang",
+  "birthday": "2017-05-23T20:16:13Z",
+  "current_corporation": {
+    "id": 992634837,
+    "name": "Thunder Mercenary Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "ticker": "TNND"
+    },
+    "alliance": {
+      "id": 99001952,
+      "name": "Polaris Mercenary Alliance",
+      "ticker": "PM"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2017-05-23T20:16:00Z",
+      "end": "2017-05-24T13:41:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-05-24T13:41:00Z",
+      "end": "2018-08-08T09:09:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2018-08-08T09:09:00Z",
+      "end": "2018-08-08T10:07:00Z"
+    },
+    {
+      "corporation_id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "npc": false,
+      "start": "2018-08-08T10:07:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

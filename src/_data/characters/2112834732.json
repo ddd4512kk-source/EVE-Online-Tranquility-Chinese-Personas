@@ -1,0 +1,36 @@
+{
+  "id": 2112834732,
+  "name": "DUDU Li",
+  "birthday": "2017-05-25T10:04:06Z",
+  "current_corporation": {
+    "id": 98221842,
+    "name": "STARCHASER Inc.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98221842,
+      "name": "STARCHASER Inc.",
+      "ticker": "SCERS"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2017-05-25T10:04:00Z",
+      "end": "2017-05-30T08:37:00Z"
+    },
+    {
+      "corporation_id": 98221842,
+      "name": "STARCHASER Inc.",
+      "npc": false,
+      "start": "2017-05-30T08:37:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

@@ -1,0 +1,96 @@
+{
+  "id": 2121096598,
+  "name": "Rosina",
+  "birthday": "2023-04-05T11:25:53Z",
+  "current_corporation": {
+    "id": 98640194,
+    "name": "Salted Fish Inc",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98640194,
+      "name": "Salted Fish Inc",
+      "ticker": ".SFI"
+    },
+    "alliance": {
+      "id": 99014738,
+      "name": "The Black Shores",
+      "ticker": "BLKSH"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2023-04-05T11:26:00Z",
+      "end": "2023-04-05T14:35:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2023-04-05T14:35:00Z",
+      "end": "2023-06-30T12:26:00Z"
+    },
+    {
+      "corporation_id": 98049623,
+      "name": "Formosa Research Center",
+      "npc": false,
+      "start": "2023-06-30T12:26:00Z",
+      "end": "2023-07-21T15:45:00Z"
+    },
+    {
+      "corporation_id": 98745569,
+      "name": "Cyclonic Torpedo Team",
+      "npc": false,
+      "start": "2023-07-21T15:45:00Z",
+      "end": "2025-06-10T15:33:00Z"
+    },
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2025-06-10T15:33:00Z",
+      "end": "2025-06-10T15:33:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2025-06-10T15:33:00Z",
+      "end": "2025-06-27T13:52:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2025-06-27T13:52:00Z",
+      "end": "2025-06-30T22:48:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2025-06-30T22:48:00Z",
+      "end": "2026-06-15T12:45:00Z"
+    },
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2026-06-15T12:45:00Z",
+      "end": "2026-06-15T16:44:00Z"
+    },
+    {
+      "corporation_id": 98640194,
+      "name": "Salted Fish Inc",
+      "npc": false,
+      "start": "2026-06-15T16:44:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

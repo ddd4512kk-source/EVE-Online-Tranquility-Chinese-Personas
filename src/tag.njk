@@ -1,0 +1,20 @@
+---
+layout: base.njk
+pagination:
+  data: collections.tagMap
+  size: 1
+  alias: tag
+eleventyComputed:
+  permalink: "/tags/{{ tag.name }}/"
+  pageTitle: "标签：{{ tag.name }}"
+---
+<section class="intro">
+  <p class="crumbs"><a href="{{ '/tags/' | url }}">标签</a> /</p>
+  <h1>{{ tag.name }}</h1>
+  <p>共 {{ tag.items.length }} 人，按创号先后排列。</p>
+</section>
+<ol class="cards">
+{%- for p in tag.items %}
+  {% include "card.njk" %}
+{%- endfor %}
+</ol>

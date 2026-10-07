@@ -1,0 +1,68 @@
+{
+  "id": 2120416670,
+  "name": "Cat's Shining",
+  "birthday": "2022-09-24T10:03:37Z",
+  "current_corporation": {
+    "id": 98799349,
+    "name": "The Skies Descend",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98799349,
+      "name": "The Skies Descend",
+      "ticker": "CYCIE"
+    },
+    "alliance": {
+      "id": 99004901,
+      "name": "Snuffed Out",
+      "ticker": "B B C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000165,
+      "name": "Hedion University",
+      "npc": true,
+      "start": "2022-09-24T10:04:00Z",
+      "end": "2023-04-03T17:37:00Z"
+    },
+    {
+      "corporation_id": 98707963,
+      "name": "Parchment And Spice",
+      "npc": false,
+      "start": "2023-04-03T17:37:00Z",
+      "end": "2024-01-05T15:18:00Z"
+    },
+    {
+      "corporation_id": 1000165,
+      "name": "Hedion University",
+      "npc": true,
+      "start": "2024-01-05T15:18:00Z",
+      "end": "2024-01-05T15:18:00Z"
+    },
+    {
+      "corporation_id": 98743097,
+      "name": "FRT Mission Hub",
+      "npc": false,
+      "start": "2024-01-05T15:18:00Z",
+      "end": "2025-03-19T12:23:00Z"
+    },
+    {
+      "corporation_id": 1000165,
+      "name": "Hedion University",
+      "npc": true,
+      "start": "2025-03-19T12:23:00Z",
+      "end": "2025-03-20T01:55:00Z"
+    },
+    {
+      "corporation_id": 98799349,
+      "name": "The Skies Descend",
+      "npc": false,
+      "start": "2025-03-20T01:55:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

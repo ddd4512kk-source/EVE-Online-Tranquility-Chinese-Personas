@@ -1,0 +1,22 @@
+---
+layout: base.njk
+permalink: /random/
+pageTitle: 随机
+---
+{%- set urls = [] -%}
+{%- for p in collections.people -%}{%- set urls = (urls.push(p.url | url), urls) -%}{%- endfor %}
+<section class="intro">
+  <h1>随机翻开一篇……</h1>
+  <p id="random-msg">{% if urls.length %}正在跳转。{% else %}还没有任何列传。{% endif %}</p>
+</section>
+<script>
+  (() => {
+    const urls = {{ urls | json | safe }};
+    if (!urls.length) return;
+    // 尽量不落回刚看过的那一篇
+    let from = "";
+    try { from = new URL(document.referrer).pathname; } catch {}
+    const pool = urls.length > 1 ? urls.filter((u) => u !== from) : urls;
+    location.replace(pool[Math.floor(Math.random() * pool.length)]);
+  })();
+</script>

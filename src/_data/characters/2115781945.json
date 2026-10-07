@@ -1,0 +1,40 @@
+{
+  "id": 2115781945,
+  "name": "Queen Kate",
+  "birthday": "2019-10-21T08:05:47Z",
+  "current_corporation": {
+    "id": 98688253,
+    "name": "FRT Holding",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98688253,
+      "name": "FRT Holding",
+      "ticker": "FRTHD"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2019-10-21T08:06:00Z",
+      "end": "2021-07-19T14:23:00Z"
+    },
+    {
+      "corporation_id": 98688253,
+      "name": "FRT Holding",
+      "npc": false,
+      "start": "2021-07-19T14:23:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

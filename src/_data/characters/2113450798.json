@@ -1,0 +1,40 @@
+{
+  "id": 2113450798,
+  "name": "peter li peter",
+  "birthday": "2017-11-18T11:31:21Z",
+  "current_corporation": {
+    "id": 98524084,
+    "name": "Chi Gua",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98524084,
+      "name": "Chi Gua",
+      "ticker": ".233."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2017-11-18T11:31:00Z",
+      "end": "2017-11-18T15:08:00Z"
+    },
+    {
+      "corporation_id": 98524084,
+      "name": "Chi Gua",
+      "npc": false,
+      "start": "2017-11-18T15:08:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

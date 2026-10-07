@@ -1,0 +1,61 @@
+{
+  "id": 2117425552,
+  "name": "jimzzz",
+  "birthday": "2020-08-20T02:36:38Z",
+  "current_corporation": {
+    "id": 98725089,
+    "name": "Arknights.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725089,
+      "name": "Arknights.",
+      "ticker": "AMIYA"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2020-08-20T02:37:00Z",
+      "end": "2020-08-24T14:19:00Z"
+    },
+    {
+      "corporation_id": 98618638,
+      "name": "Tian-Shan",
+      "npc": false,
+      "start": "2020-08-24T14:19:00Z",
+      "end": "2022-07-06T14:31:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-07-06T14:31:00Z",
+      "end": "2022-07-06T14:32:00Z"
+    },
+    {
+      "corporation_id": 98588384,
+      "name": "YeLuo-XingHai",
+      "npc": false,
+      "start": "2022-07-06T14:32:00Z",
+      "end": "2022-11-02T12:21:00Z"
+    },
+    {
+      "corporation_id": 98725089,
+      "name": "Arknights.",
+      "npc": false,
+      "start": "2022-11-02T12:21:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

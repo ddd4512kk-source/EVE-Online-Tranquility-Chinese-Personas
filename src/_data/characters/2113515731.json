@@ -1,0 +1,124 @@
+{
+  "id": 2113515731,
+  "name": "FACT IN",
+  "birthday": "2017-12-06T17:57:44Z",
+  "current_corporation": {
+    "id": 98524084,
+    "name": "Chi Gua",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98524084,
+      "name": "Chi Gua",
+      "ticker": ".233."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2017-12-06T17:58:00Z",
+      "end": "2017-12-07T02:38:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-12-07T02:38:00Z",
+      "end": "2017-12-13T09:45:00Z"
+    },
+    {
+      "corporation_id": 98221842,
+      "name": "STARCHASER Inc.",
+      "npc": false,
+      "start": "2017-12-13T09:45:00Z",
+      "end": "2018-01-02T04:35:00Z"
+    },
+    {
+      "corporation_id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "npc": false,
+      "start": "2018-01-02T04:35:00Z",
+      "end": "2018-01-02T13:06:00Z"
+    },
+    {
+      "corporation_id": 98532838,
+      "name": "Nuclear Explosion Fleet",
+      "npc": false,
+      "start": "2018-01-02T13:06:00Z",
+      "end": "2018-01-08T01:01:00Z"
+    },
+    {
+      "corporation_id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "npc": false,
+      "start": "2018-01-08T01:01:00Z",
+      "end": "2018-07-08T01:14:00Z"
+    },
+    {
+      "corporation_id": 98524084,
+      "name": "Chi Gua",
+      "npc": false,
+      "start": "2018-07-08T01:14:00Z",
+      "end": "2021-03-15T01:52:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2021-03-15T01:52:00Z",
+      "end": "2021-03-15T01:54:00Z"
+    },
+    {
+      "corporation_id": 98652614,
+      "name": "Temple of Tuvan Orth",
+      "npc": false,
+      "start": "2021-03-15T01:54:00Z",
+      "end": "2022-07-14T12:17:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2022-07-14T12:17:00Z",
+      "end": "2022-07-14T12:18:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2022-07-14T12:18:00Z",
+      "end": "2023-07-05T15:14:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2023-07-05T15:14:00Z",
+      "end": "2024-02-10T11:19:00Z"
+    },
+    {
+      "corporation_id": 98652614,
+      "name": "Temple of Tuvan Orth",
+      "npc": false,
+      "start": "2024-02-10T11:19:00Z",
+      "end": "2026-04-20T09:21:00Z"
+    },
+    {
+      "corporation_id": 98524084,
+      "name": "Chi Gua",
+      "npc": false,
+      "start": "2026-04-20T09:21:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

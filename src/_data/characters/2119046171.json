@@ -1,0 +1,54 @@
+{
+  "id": 2119046171,
+  "name": "Aniki S",
+  "birthday": "2021-08-30T17:20:01Z",
+  "current_corporation": {
+    "id": 98575144,
+    "name": "Phoenix City",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98575144,
+      "name": "Phoenix City",
+      "ticker": "P  C"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2021-08-30T17:20:00Z",
+      "end": "2022-04-04T21:48:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2022-04-04T21:48:00Z",
+      "end": "2022-07-04T18:42:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2022-07-04T18:42:00Z",
+      "end": "2022-07-25T09:31:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2022-07-25T09:31:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

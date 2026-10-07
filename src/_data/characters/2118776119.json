@@ -1,0 +1,61 @@
+{
+  "id": 2118776119,
+  "name": "Mina Dethahal",
+  "birthday": "2021-06-04T10:51:51Z",
+  "current_corporation": {
+    "id": 98185110,
+    "name": "Fuxi Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98185110,
+      "name": "Fuxi Legion",
+      "ticker": "FUXI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2021-06-04T10:52:00Z",
+      "end": "2021-06-09T13:51:00Z"
+    },
+    {
+      "corporation_id": 98104875,
+      "name": "Blue Dream Fleet",
+      "npc": false,
+      "start": "2021-06-09T13:51:00Z",
+      "end": "2021-07-18T12:39:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2021-07-18T12:39:00Z",
+      "end": "2022-06-24T16:55:00Z"
+    },
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2022-06-24T16:55:00Z",
+      "end": "2022-06-24T16:56:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2022-06-24T16:56:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

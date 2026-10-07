@@ -1,0 +1,54 @@
+{
+  "id": 2113291934,
+  "name": "JC Alba",
+  "birthday": "2017-10-07T09:16:11Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2017-10-07T09:16:00Z",
+      "end": "2017-10-08T01:33:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2017-10-08T01:33:00Z",
+      "end": "2017-11-06T13:58:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2017-11-06T13:58:00Z",
+      "end": "2017-11-06T13:58:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2017-11-06T13:58:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

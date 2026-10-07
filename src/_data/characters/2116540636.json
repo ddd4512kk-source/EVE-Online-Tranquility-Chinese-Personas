@@ -1,0 +1,75 @@
+{
+  "id": 2116540636,
+  "name": "Dan Hua",
+  "birthday": "2020-03-27T14:05:38Z",
+  "current_corporation": {
+    "id": 98615098,
+    "name": "AKINA mountain family",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98615098,
+      "name": "AKINA mountain family",
+      "ticker": "AE868"
+    },
+    "alliance": {
+      "id": 99011168,
+      "name": "Average camping enjoyer",
+      "ticker": "CAMP."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2020-03-27T14:06:00Z",
+      "end": "2020-04-07T15:26:00Z"
+    },
+    {
+      "corporation_id": 98585972,
+      "name": "Inverse Entropy Fleet",
+      "npc": false,
+      "start": "2020-04-07T15:26:00Z",
+      "end": "2020-09-02T07:10:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-09-02T07:10:00Z",
+      "end": "2020-09-02T07:10:00Z"
+    },
+    {
+      "corporation_id": 98571414,
+      "name": "Golden Fleece Fleet",
+      "npc": false,
+      "start": "2020-09-02T07:10:00Z",
+      "end": "2020-12-29T14:03:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2020-12-29T14:03:00Z",
+      "end": "2020-12-29T14:08:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2020-12-29T14:08:00Z",
+      "end": "2021-09-24T12:47:00Z"
+    },
+    {
+      "corporation_id": 98615098,
+      "name": "AKINA mountain family",
+      "npc": false,
+      "start": "2021-09-24T12:47:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

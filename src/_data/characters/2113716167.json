@@ -1,0 +1,89 @@
+{
+  "id": 2113716167,
+  "name": "Ranger YL",
+  "birthday": "2018-01-21T05:11:07Z",
+  "current_corporation": {
+    "id": 98446928,
+    "name": "Setcreasea Pallida Corporation",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98446928,
+      "name": "Setcreasea Pallida Corporation",
+      "ticker": "SETCR"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2018-01-21T05:11:00Z",
+      "end": "2018-01-21T09:30:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-01-21T09:30:00Z",
+      "end": "2018-03-19T09:29:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2018-03-19T09:29:00Z",
+      "end": "2018-04-05T10:28:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-04-05T10:28:00Z",
+      "end": "2018-04-20T16:34:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2018-04-20T16:34:00Z",
+      "end": "2018-05-06T12:41:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-05-06T12:41:00Z",
+      "end": "2018-05-25T00:39:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2018-05-25T00:39:00Z",
+      "end": "2018-05-27T11:34:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2018-05-27T11:34:00Z",
+      "end": "2018-06-13T08:58:00Z"
+    },
+    {
+      "corporation_id": 98446928,
+      "name": "Setcreasea Pallida Corporation",
+      "npc": false,
+      "start": "2018-06-13T08:58:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

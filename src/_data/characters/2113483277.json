@@ -1,0 +1,82 @@
+{
+  "id": 2113483277,
+  "name": "Trumps Bloodthirst Feynman",
+  "birthday": "2017-11-28T09:04:38Z",
+  "current_corporation": {
+    "id": 98540583,
+    "name": "Special law enforcement department",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98540583,
+      "name": "Special law enforcement department",
+      "ticker": "SARD."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2017-11-28T09:05:00Z",
+      "end": "2017-11-28T17:00:00Z"
+    },
+    {
+      "corporation_id": 98538766,
+      "name": "unique legal operation department",
+      "npc": false,
+      "start": "2017-11-28T17:00:00Z",
+      "end": "2017-12-13T13:37:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2017-12-13T13:37:00Z",
+      "end": "2017-12-13T13:39:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2017-12-13T13:39:00Z",
+      "end": "2018-01-22T14:48:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2018-01-22T14:48:00Z",
+      "end": "2018-01-22T14:50:00Z"
+    },
+    {
+      "corporation_id": 98537522,
+      "name": "Pink Torpedo Inc.",
+      "npc": false,
+      "start": "2018-01-22T14:50:00Z",
+      "end": "2018-04-29T13:43:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2018-04-29T13:43:00Z",
+      "end": "2018-04-29T13:44:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2018-04-29T13:44:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

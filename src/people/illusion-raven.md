@@ -1,0 +1,52 @@
+---
+character_id: 2114202706
+aliases: [Illusion Raven, 菜菜菜霸梦幻宝贝]
+epithet: 伏羲的新人课本作者，简介里给自己写了“50% 办事惩罚”。
+tags: [00区, FRT, 伏羲]
+---
+
+Illusion Raven，头衔：
+
+> ❤菜菜菜霸梦幻宝贝❤
+
+2018 年 6 月建号，进了伏羲，除了 2020 年去 Trisolaris Military Academy 待过一周，一直没走。
+
+角色简介仿照游戏里的舰船属性，给自己写了一份加成表：
+
+> Pilot Characteristics:
+> · FC
+> · Always Stressed.
+> FC bonuses (per skill level):
+> 100% bonus to people listening.
+> Role Bonus:
+> 50% penalty in 'Getting Shit Done'
+> 50% bonus to 'Getting Shit Done'
+> · Preferred Ship: Sleipnir
+
+“办事”一项，减益 50%，增益也 50%，两相抵消。
+
+::: 红料 给萌新写的课本
+2020 年夏天，他在凛冬论坛接连开了一个系列，标题统一是“给萌新的”：《给萌新写的：EVE武器系统》《EVE武器系统2 炮和弹药的那些事》《舰船简介-常规篇》《舰船简介-旗舰篇》《舰船简介-工业篇》，还有《新人教程：lp出货攻略（砸单）》《新人福音：刷怪新思路 - 中白刷兔子》。伏羲的新人教程，有一大块是他写的。
+
+2021 年 10 月，[HY](../985265753/) 回归，带伏羲去 5ZXX 开荒海盗四级任务，他又开了一帖[《5ZXX开荒 - 新人问题汇总》](https://forums.winterco.org/t/topic/12294)：
+
+> 4级任务和5级任务的区别——这是我在伏羲群最常看到的问题，没有之一。
+
+开头还先劝一句：“无论是新人老人有问题都先翻翻论坛……能大大减少公司管理和新人教官的压力。”
+:::
+
+::: 黑料 弓头鲸算不算旗舰
+2020 年 10 月，他开了一帖[《公开讨论：货舰，跳货，弓头鲸算旗舰吗？》](https://forums.winterco.org/t/topic/9256)，说“这个争议已经很久了”，然后一条一条列证据：开旗舰要旗舰技能，弓头鲸不用；旗舰只能过白诱导；旗舰进不了高安；旗舰不能过泰坦桥；最后搬出 EVE wiki 的英文定义。结论是：不算。
+
+一个困扰联盟“很久”的争议，他用五张截图和一段英文定义结了案。
+:::
+
+::: 红料 KB：四百九十杀
+zKillboard 生涯击杀 498，打掉 1.18 万亿 ISK，用得最多的是 Rokh、Muninn、Machariel、Cerberus，还开过 Revelation 无畏。常去 Otsasai、Atioth——低安和凛冬的前线。简介里写着最爱 Sleipnir，KB 上却没进前十。
+:::
+
+::: 评
+Illusion Raven 是伏羲的课代表：武器、舰船、LP、刷怪，一门一门给新人写；新人问得多了，就开帖汇总，顺便劝一句“先翻论坛”。连弓头鲸算不算旗舰这种问题，他也要立案审理。
+
+简介里的“Always Stressed”，大概就是这么来的。
+:::

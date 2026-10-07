@@ -1,0 +1,57 @@
+{
+  "id": 2113937178,
+  "name": "DarKdeZ Ever",
+  "birthday": "2018-03-25T03:31:56Z",
+  "current_corporation": {
+    "id": 98650406,
+    "name": "D-Line Force",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98650406,
+      "name": "D-Line Force",
+      "ticker": "D-LN"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2018-03-25T03:32:00Z",
+      "end": "2018-03-26T02:32:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2018-03-26T02:32:00Z",
+      "end": "2020-11-22T04:51:00Z"
+    },
+    {
+      "corporation_id": 98650406,
+      "name": "D-Line Force",
+      "npc": false,
+      "start": "2020-11-22T04:51:00Z",
+      "end": "2026-04-17T17:56:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2026-04-17T17:56:00Z",
+      "end": "2026-04-25T10:43:00Z"
+    },
+    {
+      "corporation_id": 98650406,
+      "name": "D-Line Force",
+      "npc": false,
+      "start": "2026-04-25T10:43:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

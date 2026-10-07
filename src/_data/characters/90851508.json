@@ -1,0 +1,68 @@
+{
+  "id": 90851508,
+  "name": "Heavy chest",
+  "birthday": "2011-06-10T10:24:00Z",
+  "current_corporation": {
+    "id": 1000111,
+    "name": "Aliastra",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98389944,
+      "name": "Tai-Chi",
+      "ticker": "TAIJI"
+    },
+    "alliance": {
+      "id": 1727758877,
+      "name": "Northern Coalition.",
+      "ticker": "NC"
+    },
+    "left_at": "2016-12-07T15:32:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2011-06-10T10:24:00Z",
+      "end": "2011-08-01T05:39:00Z"
+    },
+    {
+      "corporation_id": 1589700670,
+      "name": "bAdBoY Services",
+      "npc": false,
+      "start": "2011-08-01T05:39:00Z",
+      "end": "2013-06-20T16:33:00Z"
+    },
+    {
+      "corporation_id": 98194671,
+      "name": "Iron Prestige",
+      "npc": false,
+      "start": "2013-06-20T16:33:00Z",
+      "end": "2015-05-16T16:29:00Z"
+    },
+    {
+      "corporation_id": 1000111,
+      "name": "Aliastra",
+      "npc": true,
+      "start": "2015-05-16T16:29:00Z",
+      "end": "2015-05-18T10:57:00Z"
+    },
+    {
+      "corporation_id": 98389944,
+      "name": "Tai-Chi",
+      "npc": false,
+      "start": "2015-05-18T10:57:00Z",
+      "end": "2016-12-07T15:32:00Z"
+    },
+    {
+      "corporation_id": 1000111,
+      "name": "Aliastra",
+      "npc": true,
+      "start": "2016-12-07T15:32:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-06"
+}

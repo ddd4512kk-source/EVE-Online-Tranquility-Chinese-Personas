@@ -1,0 +1,54 @@
+{
+  "id": 2114202706,
+  "name": "Illusion Raven",
+  "birthday": "2018-06-12T00:13:04Z",
+  "current_corporation": {
+    "id": 98185110,
+    "name": "Fuxi Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98185110,
+      "name": "Fuxi Legion",
+      "ticker": "FUXI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2018-06-12T00:13:00Z",
+      "end": "2018-06-14T01:48:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-06-14T01:48:00Z",
+      "end": "2020-07-07T00:40:00Z"
+    },
+    {
+      "corporation_id": 98633272,
+      "name": "Trisolaris Military Academy",
+      "npc": false,
+      "start": "2020-07-07T00:40:00Z",
+      "end": "2020-07-14T19:53:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2020-07-14T19:53:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}
