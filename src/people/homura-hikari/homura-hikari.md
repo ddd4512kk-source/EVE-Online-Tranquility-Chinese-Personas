@@ -1,7 +1,7 @@
 ---
 character_id: 2114027991
 cn_name: 冷剑
-aliases: [Homura Hikari]
+aliases: [Homura Hikari, 冷箭]
 epithet: 一剑可当百万师，联盟叫普通蹲点爱好者，最爱异度神剑。
 tags: [00区, 著名FC, "AKINA mountain family"]
 ---

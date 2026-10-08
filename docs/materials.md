@@ -1,6 +1,6 @@
 # 人物素材索引
 
-故事、原帖、角色对应与检索缺口按人物放在各自目录；尚未确认人物的资料放在 `docs/leads/`。本页只用于导航。任职、规模与渠道结果主要为 2026-10-07 的查询快照；收录状态以现有列传文件为准。
+故事、原帖、角色对应与检索缺口按人物放在各自目录；尚未确认人物的资料放在 `docs/leads/`。本页只用于导航。任职、规模与渠道结果为各素材标注日期的查询快照（包括 2026-10-07、2026-10-08）；收录状态以现有列传文件为准。
 
 **查阅入口**：[取材方法](research-method.md) · [角色核对备忘录](pending-characters.md) · [术语表](glossary.md) · [列传模板](person-template.md)。
 
@@ -10,6 +10,9 @@
 
 | 人物 | 角色 / ID | 收录状态 |
 | --- | --- | --- |
+| <a id="ai-luo"></a><a id="ai-ruo"></a>[艾若 / 艾洛 / 艾洛尼亚](../src/people/ai-ruo/materials-ai-ruo.md) | Tina Ortini / 2114798437；Airluonear noder / 2116531837 为同人关联号 | 已收录；护航收费争执、招新与制造、公开 RMT 言论及 Atioth 战果；[列传源文件](../src/people/ai-ruo/ai-ruo.md) |
+| <a id="yun-sen"></a>[云森](../src/people/yun-sen/materials-yun-sen.md) | Forever0 / 2114130858 | 已收录；德莉莎现任 CEO、资料协助与论坛互动；[列传源文件](../src/people/yun-sen/yun-sen.md) |
+| <a id="qian-nian"></a>[千年](../src/people/qian-nian/materials-qian-nian.md) | Kororo Asanari / 2113055864 | 已收录；德莉莎工业集团一代目、回忆录作者、“女装招新诈骗嫌疑人”；[列传源文件](../src/people/qian-nian/qian-nian.md) |
 | <a id="xiaoyang-6666666-6"></a>[小洋](../src/people/6666666-6/materials-6666666-6.md) | 6666666-6 / 2114834014 | 已有列传 |
 | <a id="acr-impact"></a>[ACR](../src/people/acr-impact/materials-acr-impact.md) | acr-impact / 2115611133 | 已有列传；素材待补 |
 | <a id="akagi-mic"></a>[Akagi](../src/people/akagi-mic/materials-akagi-mic.md) | Akagi Mic / 2113316712 | 已有列传 |
@@ -22,7 +25,9 @@
 | <a id="asuka-holic"></a>[HOLIC](../src/people/asuka-holic/materials-asuka-holic.md) | asuka-holic / 2114686544 | 已有列传；素材待补 |
 | <a id="auradan"></a>[奥拉蛋](../src/people/auradan/materials-auradan.md) | Auradan / 2122058537 | 已有列传；RMT 封号仅为贴吧传闻 |
 | <a id="azure-bluesky"></a>[天兵](../src/people/azure-bluesky/materials-azure-bluesky.md) | Azure bluesky / 2114644820 | 已有列传 |
-| <a id="badyu"></a>[BADYU](leads/badyu.md) | 见人物线索 | 角色对应待核对 |
+| <a id="badyu"></a>[BADYU](../src/people/bad-yu/materials-bad-yu.md) | bad yu / 2113461386 | 已收录；FBC 借船与 Nyx 争议、已核实的超旗损失；[列传源文件](../src/people/bad-yu/bad-yu.md) |
+| <a id="ban-zhan-zui-yan-hong"></a>[半盏醉颜红](../src/people/one-half-wine/materials-one-half-wine.md) | One Half wine / 2113409073；B 站 UID 24773167 | 已有列传 |
+| <a id="boge"></a>[波哥 / 塞纳波哥](../src/people/pogue-was/materials-pogue-was.md) | pogue 'was / 2119468347 | 已有列传 |
 | <a id="bingbing-audeles"></a>[bingbing Audeles](../src/people/bingbing-audeles/materials-bingbing-audeles.md) | bingbing Audeles / 92637945 | 已有列传 |
 | <a id="bingxuan-123"></a>[冰轩](../src/people/bingxuan-123/materials-bingxuan-123.md) | bingxuan 123 / 2114130095 | 已有列传 |
 | <a id="born-reaper"></a>[阿进](../src/people/born-reaper/materials-born-reaper.md) | born reaper / 2114253465 | 已有列传 |
@@ -36,7 +41,7 @@
 | <a id="cho-wong"></a>[胡捏](../src/people/cho-wong/materials-cho-wong.md) | Cho Wong / 1479807223 | 已有列传 |
 | <a id="cleaner-sk"></a>[大花](../src/people/cleaner-sk/materials-cleaner-sk.md) | Cleaner Sk / 982439287 | 已有列传 |
 | <a id="coppercn"></a>[copper](../src/people/coppercn/materials-coppercn.md) | coppercn / 2118201493 | 已有列传 |
-| <a id="crysisdeathgun-yorha"></a>[死枪](../src/people/crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md) | crysisdeathgun-yorha / 2114324057 | 已有列传；素材待补 |
+| <a id="crysisdeathgun-yorha"></a><a id="eve-shenqi"></a>[死枪 / EVE神崎](../src/people/crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md) | CrysisDeathgun YoRHa / 2114324057；B 站 UID 10126340 | 已有列传；UP 账号对应已确认，素材已合并 |
 | <a id="cyncia-geass"></a>[H叔](../src/people/cyncia-geass/materials-cyncia-geass.md) | Cyncia Geass / 480362957 | 已有列传 |
 | <a id="d-manson"></a>[D哥哥 / D manson](../src/people/d-manson/materials-d-manson.md) | D manson / 690534767 | 已有列传；现金 RMT 待补出处 |
 | <a id="dan-hua"></a>[蛋花](../src/people/dan-hua/materials-dan-hua.md) | Dan Hua / 2116540636 | 已有列传 |
@@ -55,10 +60,9 @@
 | <a id="fliet99"></a>[舵主](../src/people/fliet99/materials-fliet99.md) | fliet99 / 91254848 | 已有列传 |
 | <a id="flyingbee"></a>[蜜蜂](../src/people/flyingbee/materials-flyingbee.md) | FlyingBee / 425711775 | 已有列传 |
 | <a id="frt-baishantvt"></a>[白杉](../src/people/frt-baishantvt/materials-frt-baishantvt.md) | frt-baishantvt / 2115995480 | 已有列传；素材待补 |
-| <a id="fox-industrial-debt"></a>[FOX 旗舰定金欠款争议](leads/fox-industrial-debt.md) | 已并入四十二列传 | 已写入 |
+| <a id="fox-industrial-debt"></a>[FOX 旗舰定金欠款争议](leads/fox-industrial-debt.md) | 已并入四十二列传 | 已写入；苦主为 WLIing，“猥琐的中后卫”为 FOX 付款方 |
 | <a id="galaxy-feather"></a>[Galaxy Feather（小G）](leads/galaxy-feather.md) | Galaxy Feather / 2114069885 | 待收录，事件来自群聊 |
-| <a id="xiao-chen"></a>[小尘](leads/xiao-chen.md) | ice Kusoni / 2115224698；Tas Oramara / 2122676937 | 待收录，已写入两千列传 |
-| <a id="mu-xing"></a>[牧星军团的崩盘](leads/mu-xing.md) | 已并入王答答列传 | 已写入 |
+| <a id="xiao-chen"></a>[小尘](../src/people/xiao-chen/materials-xiao-chen.md) | ice Kusoni / 2115224698；Tas Oramara / 2122676937 | 已有列传 |
 | <a id="goons-shit-list"></a>[Goons 月度 Shit List 对昆仑、星华的评语](leads/goons-shit-list.md) | 组织级备用素材；暂无个人归属 | 备用，待补原帖与日期 |
 | <a id="fu1crum"></a>[表妹](../src/people/fu1crum/materials-fu1crum.md) | Lv223 / 2113228175 | 已有列传 |
 | <a id="fubuki-waifu"></a>[黑莲](../src/people/fubuki-waifu/materials-fubuki-waifu.md) | Fubuki Waifu / 2115433044 | 已有列传 |
@@ -81,13 +85,13 @@
 | <a id="jc-alba"></a>[加一](../src/people/jc-alba/materials-jc-alba.md) | AhulaMazda / 2113399287 | 已有列传 |
 | <a id="jezz-zena"></a>[墨辉](../src/people/jezz-zena/materials-jezz-zena.md) | Jezz Zena / 536107961 | 已有列传 |
 | <a id="jimzzz"></a>[肖宁](../src/people/jimzzz/materials-jimzzz.md) | jimzzz / 2117425552 | 已有列传 |
-| <a id="jing-ji"></a>[景纪](leads/jing-ji.md) | 见人物线索 | 角色对应待核对 |
+| <a id="jing-ji"></a>[景纪](../src/people/jing-ji/materials-jing-ji.md) | Pinkpuma / 2114000623 | 已有列传 |
 | <a id="jion-kautsuo"></a>[厚黑](../src/people/jion-kautsuo/materials-jion-kautsuo.md) | jion-kautsuo / 93252593 | 已有列传；素材待补 |
 | <a id="jj-soulmate"></a>[汉兰达](../src/people/jj-soulmate/materials-jj-soulmate.md) | JJ SoulMate / 2115597604 | 已有列传 |
 | <a id="jojomarsk-annages"></a>[两千](../src/people/jojomarsk-annages/materials-jojomarsk-annages.md) | jojomarsk Annages / 2114301554 | 已有列传 |
 | <a id="jolange-joestar"></a>[瓜瓜](../src/people/jolange-joestar/materials-jolange-joestar.md) | Jolange Joestar / 2116389402 | 已有列传 |
 | <a id="junle-yu"></a>[老俞](../src/people/junle-yu/materials-junle-yu.md) | Junle Yu / 90965470 | 已有列传 |
-| <a id="ka-diao"></a>[卡吊](leads/ka-diao.md) | 见人物线索 | 角色对应待核对 |
+| <a id="ka-diao"></a>[卡吊 / 卡迪加利刃](../src/people/ka-diao/materials-ka-diao.md) | Carla Malukker / 93230738 | 已有列传；The.Ring 旧负责人、欧服带队与教学；目前退游 |
 | <a id="karl-booker"></a>[隐星白嫖王](../src/people/karl-booker/materials-karl-booker.md) | karl-booker / 2114223298 | 已有列传；素材待补 |
 | <a id="kei-hazard"></a>[Kei](../src/people/kei-hazard/materials-kei-hazard.md) | kei-hazard / 92761922 | 已有列传；素材待补 |
 | <a id="koko1-k"></a>[咪咪 / 彭铁柱](../src/people/koko1-k/materials-koko1-k.md) | koko1 k / 2115205475 | 已有列传 |
@@ -184,3 +188,26 @@
 | <a id="zark-chastot"></a>[Zark Chastot](../src/people/zark-chastot/materials-zark-chastot.md) | zark-chastot / 2114228690 | 已有列传；素材待补 |
 | <a id="zhui-chen"></a>[坠尘](leads/zhui-chen.md) | 见人物线索 | 角色对应待核对 |
 | <a id="zidian-bloodthirsty"></a>[紫电](../src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md) | zidian bloodthirsty / 2115311168 | 已有列传 |
+| <a id="freakdog-otto"></a>[奥托](../src/people/freakdog-otto/materials-freakdog-otto.md) | Freakdog Otto / 97259613 | 已收录；龙骑前管理与金主、星城被炸后的低安连载、-78B 扣款争议；[列传源文件](../src/people/freakdog-otto/freakdog-otto.md) |
+| <a id="magicfai-rynew"></a>[鸟哥](../src/people/magicfai-rynew/materials-magicfai-rynew.md) | MAgiCfai RynEW / 2114001176；rain Dense / 95045595 | 已收录；2022 年“鸟门的世界”与鸟盟陷落；[列传源文件](../src/people/magicfai-rynew/magicfai-rynew.md) |
+| <a id="ctirx"></a>[某族长](../src/people/ctirx/materials-ctirx.md) | CTIRx / 2120894709；CTIRxx / 2122570624 | 已收录；高安任务主播、低价区充值两度永封；[列传源文件](../src/people/ctirx/ctirx.md) |
+| <a id="nanhua-college"></a>[南华 / 南华大学](../src/people/nanhua-college/materials-nanhua-college.md) | nanhua college / 2113876442；stupid pig / 945958765 | 已收录；灵魂收割者、46DP 星城首爆、“名字倒过来写”；[列传源文件](../src/people/nanhua-college/nanhua-college.md) |
+| <a id="yinhun-lrd"></a>[银魂](../src/people/yinhun-lrd/materials-yinhun-lrd.md) | yinhun LRD / 2113249587；yinhun yinhun / 2113284566 | 已收录；天朝之刃 CEO、2018 RR 分家与录音截图、转投 Red Alliance；[列传源文件](../src/people/yinhun-lrd/yinhun-lrd.md) |
+| <a id="zhong-ma"></a>[种马](../src/people/zhong-ma/materials-zhong-ma.md) | Ger-ee / 95312516（RR 执行军团管理小号，头衔“种马 Alliance Diplo”；主号未找到） | 已收录；RR 三巨头之一、2018 骂人录音、SARD 出走“搞死全团”；[列传源文件](../src/people/zhong-ma/zhong-ma.md) |
+| <a id="treenewbee-ribbons"></a>[李疯子](../src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md) | Treenewbee Ribbons / 2113831237 | 已收录；2019 年 Tiamat 后被 RR 开除、两条征服者、墩子号、“FRT 菜比太多”；[列传源文件](../src/people/treenewbee-ribbons/treenewbee-ribbons.md) |
+| <a id="clzd"></a>[CLZD](leads/clzd.md) | CLZD-MISS NERC / 2113342140（待确认） | 待收录；RR 指定超旗制造商，被骂“超旗奸商” |
+| <a id="jiamei-dongzhu"></a>[假寐洞主](../src/people/jiamei-dongzhu/materials-jiamei-dongzhu.md) | BlueIce Spy / 2122032468（十开中的一个） | 已收录；J152006 洞主，无畏截图、AFK 玩手游、2025-12 洞被拆光；[列传源文件](../src/people/jiamei-dongzhu/jiamei-dongzhu.md) |
+| <a id="san-ming-zhi"></a>[三明治 / 二五治](leads/san-ming-zhi.md) | 角色待核对 | 待收录；《二五之日》spy 回忆录作者 |
+| <a id="gongcheng-xiangmu"></a>[工程项目](../src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md) | obyta / 208043276 | 已收录；ES 帝皇之镰军团长、送冥府策反咪咪、代驾归魂被打、2025 ES 分裂；[列传源文件](../src/people/gongcheng-xiangmu/gongcheng-xiangmu.md) |
+| <a id="lulu-naiba"></a>[LULU奶爸](../src/people/lulu-love/materials-lulu-love.md) | lulu love / 92189699 | 已收录；早期 FRT 财务管理、联盟分裂回忆录、会计解释与管理争议；[列传源文件](../src/people/lulu-love/lulu-love.md) |
+| <a id="suo-si"></a>[所思](leads/suo-si.md) | 角色待核对 | 待收录；TCF 早期掌事人、盘古分裂中的关键人物；优先追查 |
+| <a id="black-investor"></a>[黑老板 / Black](leads/black-investor.md) | 角色待核对 | 待收录；联盟投资者、滑稽经营及交接争议人物；优先追查 |
+| <a id="bei-shang"></a>[北上](../src/people/kitakamile-l/materials-kitakamile-l.md) | KitakamiLE L / 2115947381 | 已收录；神韵新人课堂、答疑与禁言自述、咸鱼管理辩护；[列传源文件](../src/people/kitakamile-l/kitakamile-l.md) |
+| <a id="imnot-mangou"></a>[幼儿园大班长](../src/people/imnot-mangou/materials-imnot-mangou.md) | ImNot ManGou / 2113646368 | 已收录；新手教官、烂仔舰队招队与蓝加规则争议、四张尾刀；[列传源文件](../src/people/imnot-mangou/imnot-mangou.md) |
+| <a id="roadhardt"></a>[Roadhardt](leads/roadhardt.md) | 角色待核对 | 待收录；中文 T1 护卫 PVP 指南翻译项目发布者；优先追查 |
+| <a id="jin-peng-translator"></a>[◆金鹏级](leads/jin-peng-translator.md) | 角色待核对 | 待收录；Jin’taan 指挥入门教程中文翻译发布者；补充追查 |
+| <a id="shenmo-incursion"></a>[shenmo-](leads/shenmo-incursion.md) | 角色待核对 | 待收录；高安入侵教程与资源翻译作者；补充追查 |
+| <a id="yi-kun-lan-jiao-dai"></a>[一捆烂胶带](leads/yi-kun-lan-jiao-dai.md) | B 站 UID 9468015；角色待核对 | 待收录；PLA 兔子团教学、欧服活动攻略与战斗录像作者；补充追查 |
+| <a id="dzkell"></a>[dzkell](leads/dzkell.md) | B 站 UID 13329368；角色待核对 | 待收录；欧服新闻与海外战斗视频搬运、字幕传播者；补充追查 |
+| <a id="shen-hua-hidden-star"></a>[神话（隐星管理）](leads/shen-hua-hidden-star.md) | 角色待核对 | 待收录；隐星管理、泰坦驾驶员，借款与团内处置争议人物；优先追查 |
+| <a id="fei-lu"></a>[肥鹿](leads/fei-lu.md) | 角色待核对 | 待收录；散打带队者、公开言语冲突与跨社区争议人物；优先追查 |

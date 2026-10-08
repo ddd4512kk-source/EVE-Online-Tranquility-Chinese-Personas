@@ -1,0 +1,36 @@
+{
+  "id": 95312516,
+  "name": "Ger-ee",
+  "birthday": "2015-01-20T23:27:07Z",
+  "current_corporation": {
+    "id": 98508837,
+    "name": "Sanlu Dairy Group",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98508837,
+      "name": "Sanlu Dairy Group",
+      "ticker": "SANLU"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2015-01-20T23:27:00Z",
+      "end": "2017-04-06T17:42:00Z"
+    },
+    {
+      "corporation_id": 98508837,
+      "name": "Sanlu Dairy Group",
+      "npc": false,
+      "start": "2017-04-06T17:42:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

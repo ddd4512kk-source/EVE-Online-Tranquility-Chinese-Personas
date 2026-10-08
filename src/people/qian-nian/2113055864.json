@@ -1,0 +1,40 @@
+{
+  "id": 2113055864,
+  "name": "Kororo Asanari",
+  "birthday": "2017-07-30T17:15:40Z",
+  "current_corporation": {
+    "id": 98542815,
+    "name": "Beng beng Begn",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98542815,
+      "name": "Beng beng Begn",
+      "ticker": "DE LI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2017-07-30T17:16:00Z",
+      "end": "2017-12-31T11:13:00Z"
+    },
+    {
+      "corporation_id": 98542815,
+      "name": "Beng beng Begn",
+      "npc": false,
+      "start": "2017-12-31T11:13:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

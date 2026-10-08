@@ -1,0 +1,47 @@
+{
+  "id": 2115947381,
+  "name": "KitakamiLE L",
+  "birthday": "2019-11-23T14:58:54Z",
+  "current_corporation": {
+    "id": 98725089,
+    "name": "Arknights.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725089,
+      "name": "Arknights.",
+      "ticker": "AMIYA"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2019-11-23T14:59:00Z",
+      "end": "2019-11-24T06:05:00Z"
+    },
+    {
+      "corporation_id": 98538099,
+      "name": "Starry Sky Fleet",
+      "npc": false,
+      "start": "2019-11-24T06:05:00Z",
+      "end": "2026-05-07T00:10:00Z"
+    },
+    {
+      "corporation_id": 98725089,
+      "name": "Arknights.",
+      "npc": false,
+      "start": "2026-05-07T00:10:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 2114000623,
+  "name": "Pinkpuma",
+  "birthday": "2018-04-13T16:38:24Z",
+  "current_corporation": {
+    "id": 98610910,
+    "name": "Cuite panther",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98610910,
+      "name": "Cuite panther",
+      "ticker": "CUPB"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-04-13T16:38:00Z",
+      "end": "2019-02-27T03:37:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2019-02-27T03:37:00Z",
+      "end": "2019-08-12T01:19:00Z"
+    },
+    {
+      "corporation_id": 98610910,
+      "name": "Cuite panther",
+      "npc": false,
+      "start": "2019-08-12T01:19:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}
