@@ -1,0 +1,82 @@
+{
+  "id": 2114834014,
+  "name": "6666666 6",
+  "birthday": "2019-01-04T05:58:50Z",
+  "current_corporation": {
+    "id": 98190062,
+    "name": "Peoples Liberation Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98190062,
+      "name": "Peoples Liberation Army",
+      "ticker": "P.L.A"
+    },
+    "alliance": {
+      "id": 1354830081,
+      "name": "Goonswarm Federation",
+      "ticker": "CONDI"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-01-04T05:59:00Z",
+      "end": "2019-01-04T11:29:00Z"
+    },
+    {
+      "corporation_id": 98583358,
+      "name": "M.LGB War University",
+      "npc": false,
+      "start": "2019-01-04T11:29:00Z",
+      "end": "2019-02-02T13:05:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2019-02-02T13:05:00Z",
+      "end": "2019-02-02T13:07:00Z"
+    },
+    {
+      "corporation_id": 98556640,
+      "name": "Make Life Great Better",
+      "npc": false,
+      "start": "2019-02-02T13:07:00Z",
+      "end": "2021-08-07T09:11:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2021-08-07T09:11:00Z",
+      "end": "2021-08-08T00:52:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2021-08-08T00:52:00Z",
+      "end": "2022-01-27T09:16:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2022-01-27T09:16:00Z",
+      "end": "2024-02-28T05:57:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2024-02-28T05:57:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-07"
+}

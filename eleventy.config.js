@@ -1,11 +1,25 @@
 import markdownItContainer from "markdown-it-container";
+import fs from "node:fs";
+import path from "node:path";
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = (n) => String(n).padStart(2, "0");
 const utc = (iso) => (iso ? new Date(iso) : null);
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets", "src/portraits": "portraits" });
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  for (const person of fs.readdirSync("src/people", { withFileTypes: true })) {
+    if (!person.isDirectory()) continue;
+    for (const file of fs.readdirSync(path.join("src/people", person.name))) {
+      const match = file.match(/^portrait-(\d+)\.jpg$/);
+      if (match) {
+        eleventyConfig.addPassthroughCopy({
+          [`src/people/${person.name}/${file}`]: `portraits/${match[1]}.jpg`,
+        });
+      }
+    }
+  }
+  eleventyConfig.ignores.add("src/people/*/materials-*.md");
   eleventyConfig.ignores.add("src/people/_*.md");
 
   eleventyConfig.amendLibrary("md", (md) => {
@@ -38,7 +52,7 @@ export default function (eleventyConfig) {
 
   // 列传集合：按主角色创号时间升序
   eleventyConfig.addCollection("people", (api) => {
-    const people = api.getFilteredByGlob("src/people/*.md");
+    const people = api.getFilteredByGlob("src/people/*/*.md");
     for (const p of people) {
       if (!p.data.char) {
         throw new Error(
@@ -57,7 +71,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("tagMap", (api) => {
     const map = new Map();
     const people = api
-      .getFilteredByGlob("src/people/*.md")
+      .getFilteredByGlob("src/people/*/*.md")
       .filter((p) => p.data.char)
       .sort((a, b) => Date.parse(a.data.char.birthday) - Date.parse(b.data.char.birthday));
     for (const p of people) {

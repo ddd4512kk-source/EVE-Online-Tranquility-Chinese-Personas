@@ -14,8 +14,6 @@ import matter from "gray-matter";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
-const DATA_DIR = path.join(ROOT, "src/_data/characters");
-const PORTRAIT_DIR = path.join(ROOT, "src/portraits");
 
 const ESI = "https://esi.evetech.net/latest";
 const EVEWHO = "https://evewho.com/api";
@@ -190,11 +188,11 @@ async function fetchCharacter(id) {
   };
 }
 
-async function fetchPortrait(id) {
+async function fetchPortrait(id, directory) {
   const res = await request(`${IMAGES}/characters/${id}/portrait?size=256`, {
     headers: { Accept: "image/jpeg" },
   });
-  await fs.writeFile(path.join(PORTRAIT_DIR, `${id}.jpg`), Buffer.from(await res.arrayBuffer()));
+  await fs.writeFile(path.join(directory, `portrait-${id}.jpg`), Buffer.from(await res.arrayBuffer()));
 }
 
 // ---------- 主流程 ----------
@@ -243,11 +241,19 @@ function validate(file, data, body, lineOffset) {
 }
 
 async function readPeople() {
-  const files = (await fs.readdir(PEOPLE_DIR)).filter((f) => f.endsWith(".md") && !f.startsWith("_"));
+  const directories = (await fs.readdir(PEOPLE_DIR, { withFileTypes: true }))
+    .filter((entry) => entry.isDirectory() && !entry.name.startsWith("_"))
+    .map((entry) => entry.name);
   const people = [];
   const errors = [];
   const seen = new Map();
-  for (const file of files) {
+  for (const slug of directories) {
+    const file = `${slug}/${slug}.md`;
+    const directory = path.join(PEOPLE_DIR, slug);
+    if (!(await fs.access(path.join(PEOPLE_DIR, file)).then(() => true, () => false))) {
+      errors.push(`${file}：缺少列传 Markdown 文件`);
+      continue;
+    }
     let parsed, raw;
     try {
       raw = await fs.readFile(path.join(PEOPLE_DIR, file), "utf8");
@@ -270,7 +276,7 @@ async function readPeople() {
       continue;
     }
     seen.set(id, file);
-    people.push({ file, id });
+    people.push({ file, id, directory });
   }
   return { people, errors };
 }
@@ -283,9 +289,6 @@ async function main() {
   const refresh = args.includes("--refresh");
   const refreshIds = new Set(args.filter((a) => /^\d+$/.test(a)).map(Number));
 
-  await fs.mkdir(DATA_DIR, { recursive: true });
-  await fs.mkdir(PORTRAIT_DIR, { recursive: true });
-
   const { people, errors } = await readPeople();
   if (errors.length) {
     console.error(errors.join("\n"));
@@ -294,8 +297,8 @@ async function main() {
 
   const todo = [];
   for (const p of people) {
-    const dataFile = path.join(DATA_DIR, `${p.id}.json`);
-    const portrait = path.join(PORTRAIT_DIR, `${p.id}.jpg`);
+    const dataFile = path.join(p.directory, `${p.id}.json`);
+    const portrait = path.join(p.directory, `portrait-${p.id}.jpg`);
     const forced = refresh && (refreshIds.size === 0 || refreshIds.has(p.id));
     if (forced || !(await exists(dataFile)) || !(await exists(portrait))) todo.push(p);
   }
@@ -314,8 +317,8 @@ async function main() {
     console.log(`[${i + 1}/${todo.length}] ${p.file} → ${p.id}`);
     try {
       const data = await fetchCharacter(p.id);
-      await fetchPortrait(p.id);
-      await fs.writeFile(path.join(DATA_DIR, `${p.id}.json`), JSON.stringify(data, null, 2) + "\n");
+      await fetchPortrait(p.id, p.directory);
+      await fs.writeFile(path.join(p.directory, `${p.id}.json`), JSON.stringify(data, null, 2) + "\n");
       console.log(`  ✓ ${data.name}，创号 ${data.birthday?.slice(0, 10)}`);
     } catch (e) {
       failed++;
