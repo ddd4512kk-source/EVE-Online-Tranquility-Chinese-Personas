@@ -1,0 +1,68 @@
+{
+  "id": 1687651723,
+  "name": "Asher Elias",
+  "birthday": "2009-02-12T04:31:00Z",
+  "current_corporation": {
+    "id": 667531913,
+    "name": "GoonWaffe",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 667531913,
+      "name": "GoonWaffe",
+      "ticker": "GEWNS"
+    },
+    "alliance": {
+      "id": 1354830081,
+      "name": "Goonswarm Federation",
+      "ticker": "CONDI"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2009-02-12T04:31:00Z",
+      "end": "2009-02-12T07:13:00Z"
+    },
+    {
+      "corporation_id": 546628329,
+      "name": "Player Versus Organs",
+      "npc": false,
+      "start": "2009-02-12T07:13:00Z",
+      "end": "2009-03-01T22:30:00Z"
+    },
+    {
+      "corporation_id": 1466494089,
+      "name": "IDLE THEORY",
+      "npc": false,
+      "start": "2009-03-01T22:30:00Z",
+      "end": "2009-03-24T21:10:00Z"
+    },
+    {
+      "corporation_id": 870880979,
+      "name": "Black Varge",
+      "npc": false,
+      "start": "2009-03-24T21:10:00Z",
+      "end": "2009-04-02T17:57:00Z"
+    },
+    {
+      "corporation_id": 477108859,
+      "name": "Unforgiven Legion",
+      "npc": false,
+      "start": "2009-04-02T17:57:00Z",
+      "end": "2013-03-09T23:16:00Z"
+    },
+    {
+      "corporation_id": 667531913,
+      "name": "GoonWaffe",
+      "npc": false,
+      "start": "2013-03-09T23:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

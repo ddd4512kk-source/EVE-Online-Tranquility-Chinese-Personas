@@ -1,0 +1,96 @@
+{
+  "id": 2113823279,
+  "name": "Undead0027",
+  "birthday": "2018-02-18T17:03:10Z",
+  "current_corporation": {
+    "id": 98733239,
+    "name": "Schale.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98733239,
+      "name": "Schale.",
+      "ticker": "SCH.L"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2018-02-18T17:03:00Z",
+      "end": "2018-03-06T19:19:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2018-03-06T19:19:00Z",
+      "end": "2018-03-06T19:39:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2018-03-06T19:39:00Z",
+      "end": "2018-03-07T21:16:00Z"
+    },
+    {
+      "corporation_id": 98551152,
+      "name": "Fuyue Industry Inc.",
+      "npc": false,
+      "start": "2018-03-07T21:16:00Z",
+      "end": "2018-03-09T06:43:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2018-03-09T06:43:00Z",
+      "end": "2018-03-10T15:55:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2018-03-10T15:55:00Z",
+      "end": "2018-03-10T16:46:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2018-03-10T16:46:00Z",
+      "end": "2018-03-15T13:30:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2018-03-15T13:30:00Z",
+      "end": "2018-03-17T17:27:00Z"
+    },
+    {
+      "corporation_id": 98551152,
+      "name": "Fuyue Industry Inc.",
+      "npc": false,
+      "start": "2018-03-17T17:27:00Z",
+      "end": "2023-04-30T12:30:00Z"
+    },
+    {
+      "corporation_id": 98733239,
+      "name": "Schale.",
+      "npc": false,
+      "start": "2023-04-30T12:30:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

@@ -1,0 +1,96 @@
+{
+  "id": 2114980045,
+  "name": "Vagabond z",
+  "birthday": "2019-02-21T10:14:40Z",
+  "current_corporation": {
+    "id": 98648061,
+    "name": "Tu Zi Fei Corporation",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98648061,
+      "name": "Tu Zi Fei Corporation",
+      "ticker": "TU ZI"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-02-21T10:15:00Z",
+      "end": "2019-02-21T14:40:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2019-02-21T14:40:00Z",
+      "end": "2019-02-21T15:11:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-02-21T15:11:00Z",
+      "end": "2019-02-22T16:21:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2019-02-22T16:21:00Z",
+      "end": "2019-02-25T14:10:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-02-25T14:10:00Z",
+      "end": "2019-02-26T09:26:00Z"
+    },
+    {
+      "corporation_id": 98583620,
+      "name": "Power Of Hurricane",
+      "npc": false,
+      "start": "2019-02-26T09:26:00Z",
+      "end": "2019-06-13T16:32:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-06-13T16:32:00Z",
+      "end": "2019-06-13T16:48:00Z"
+    },
+    {
+      "corporation_id": 98589755,
+      "name": "Hidden Star Legion",
+      "npc": false,
+      "start": "2019-06-13T16:48:00Z",
+      "end": "2022-12-31T03:45:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2022-12-31T03:45:00Z",
+      "end": "2022-12-31T04:01:00Z"
+    },
+    {
+      "corporation_id": 98648061,
+      "name": "Tu Zi Fei Corporation",
+      "npc": false,
+      "start": "2022-12-31T04:01:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

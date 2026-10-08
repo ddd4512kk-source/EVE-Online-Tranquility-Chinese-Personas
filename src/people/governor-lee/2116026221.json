@@ -1,0 +1,40 @@
+{
+  "id": 2116026221,
+  "name": "Governor Lee",
+  "birthday": "2019-12-10T17:50:06Z",
+  "current_corporation": {
+    "id": 98595110,
+    "name": "Absolute Order",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98595110,
+      "name": "Absolute Order",
+      "ticker": "ABSOD"
+    },
+    "alliance": {
+      "id": 99010386,
+      "name": "Absolute Honor",
+      "ticker": "ABSOH"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2019-12-10T17:50:00Z",
+      "end": "2019-12-11T10:09:00Z"
+    },
+    {
+      "corporation_id": 98595110,
+      "name": "Absolute Order",
+      "npc": false,
+      "start": "2019-12-11T10:09:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}
