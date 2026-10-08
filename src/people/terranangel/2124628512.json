@@ -1,0 +1,47 @@
+{
+  "id": 2124628512,
+  "name": "Vellygalle Colin Stenier-Tian",
+  "birthday": "2026-08-11T12:22:37Z",
+  "current_corporation": {
+    "id": 98787453,
+    "name": "Brigade of the Lost Capsuleer",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98787453,
+      "name": "Brigade of the Lost Capsuleer",
+      "ticker": "BOLC-"
+    },
+    "alliance": {
+      "id": 99014522,
+      "name": "Fireball.",
+      "ticker": "FIRE"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2026-08-11T12:23:00Z",
+      "end": "2026-08-11T13:22:00Z"
+    },
+    {
+      "corporation_id": 98819319,
+      "name": "New Eden Capsuleers",
+      "npc": false,
+      "start": "2026-08-11T13:22:00Z",
+      "end": "2026-09-08T03:38:00Z"
+    },
+    {
+      "corporation_id": 98787453,
+      "name": "Brigade of the Lost Capsuleer",
+      "npc": false,
+      "start": "2026-09-08T03:38:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

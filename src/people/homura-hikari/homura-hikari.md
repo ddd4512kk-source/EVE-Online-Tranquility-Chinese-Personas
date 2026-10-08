@@ -48,8 +48,10 @@ FBC 的[军团战记](https://forums.winterco.org/t/topic/288)介绍打架玩法
 zKillboard 生涯击杀 9049，打掉约 11.3 万亿 ISK；超旗、泰坦都开——论坛上自称“拉格纳洛克驾驶员不请自来”。
 :::
 
-::: 黑料 一条 2625 亿的 Revenant
-2024 年 11 月 29 日，冷剑驾驶 Revenant 超级航母在 1N-FJ8 被击毁。[Killmail](https://zkillboard.com/kill/122868505/)记录总损失约 2625 亿 ISK；冷剑在战斗中造成约 1201 万伤害，但不是最后一击。船很贵，数字也很直白，战报没有替这次损失写操作检讨。
+::: 黑料 1N-FJ8：一天一万亿
+2024 年 11 月 29 日，INIT 在 1N-FJ8 设伏，冷剑的两个号同场被打爆：小号 HikariHomura 的 Azariel 泰坦先走（[Killmail](https://zkillboard.com/kill/122868462/)，约 7686 亿 ISK），一分钟后主号的 Revenant 超级航母跟上（[Killmail](https://zkillboard.com/kill/122868505/)，约 2625 亿 ISK）；冷剑在战斗中造成约 1201 万伤害，但不是最后一击。两张 KM 合计一万亿出头，两张上都签着 INIT 掌门 [Dark Shines](../1869573834/) 的名字。
+
+欧服吧当天开帖[《当老外错估了中国玩家的实力会是什么下场》](https://tieba.baidu.com/p/9295291727)，楼下有人改了一段孔乙己：“冷少，你又死势力泰坦了！”船很贵，数字也很直白，战报没有替这次损失写操作检讨。
 :::
 
 ::: 评
