@@ -7,9 +7,10 @@
 //   - 每段玩家军团雇佣 + 当时所在联盟（逐个查 alliancehistory，CODE./Goonswarm 之类只藏在这里）
 //   - zKillboard 统计：击杀/损失、常用船、常去星系、联盟分布、ISK 最高的月份
 //   - 凛冬论坛：本人全部主题与回帖标题、别人提到他的帖子
-// 只读公开接口，不写仓库。依赖仓库里的角色缓存 src/_data/characters/<ID>.json。
+// 只读公开接口，不写仓库。依赖 src/people/<短名>/<ID>.json 中的角色缓存。
 
 import fs from "node:fs";
+import path from "node:path";
 
 const id = process.argv[2];
 let forumUser = process.argv[3];
@@ -46,8 +47,12 @@ const p = (s = "") => out.push(s);
 
 // ---------- ESI ----------
 const ch = await json(`https://esi.evetech.net/latest/characters/${id}/`);
-const cachePath = `src/_data/characters/${id}.json`;
-let cache = fs.existsSync(cachePath) ? JSON.parse(fs.readFileSync(cachePath, "utf8")) : null;
+const peopleDir = path.resolve(import.meta.dirname, "../../src/people");
+const cachePath = fs.readdirSync(peopleDir, { withFileTypes: true })
+  .filter((entry) => entry.isDirectory())
+  .map((entry) => path.join(peopleDir, entry.name, `${id}.json`))
+  .find((file) => fs.existsSync(file));
+let cache = cachePath ? JSON.parse(fs.readFileSync(cachePath, "utf8")) : null;
 if (!cache) {
   // 还没建列传的人没有缓存：直接读 EveWho 雇佣记录
   const ew = await json(`https://evewho.com/api/character/${id}`);

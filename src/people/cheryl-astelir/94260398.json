@@ -1,0 +1,75 @@
+{
+  "id": 94260398,
+  "name": "Cheryl Astelir",
+  "birthday": "2014-01-25T10:55:00Z",
+  "current_corporation": {
+    "id": 98799349,
+    "name": "The Skies Descend",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98799349,
+      "name": "The Skies Descend",
+      "ticker": "CYCIE"
+    },
+    "alliance": {
+      "id": 99004901,
+      "name": "Snuffed Out",
+      "ticker": "B B C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2014-01-25T10:55:00Z",
+      "end": "2018-12-20T03:58:00Z"
+    },
+    {
+      "corporation_id": 98528442,
+      "name": "C.Aurora.thinktanks",
+      "npc": false,
+      "start": "2018-12-20T03:58:00Z",
+      "end": "2019-04-27T00:51:00Z"
+    },
+    {
+      "corporation_id": 1000066,
+      "name": "Viziam",
+      "npc": true,
+      "start": "2019-04-27T00:51:00Z",
+      "end": "2019-05-13T12:54:00Z"
+    },
+    {
+      "corporation_id": 98528442,
+      "name": "C.Aurora.thinktanks",
+      "npc": false,
+      "start": "2019-05-13T12:54:00Z",
+      "end": "2020-03-06T12:22:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2020-03-06T12:22:00Z",
+      "end": "2025-04-19T11:25:00Z"
+    },
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2025-04-19T11:25:00Z",
+      "end": "2025-04-23T15:45:00Z"
+    },
+    {
+      "corporation_id": 98799349,
+      "name": "The Skies Descend",
+      "npc": false,
+      "start": "2025-04-23T15:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

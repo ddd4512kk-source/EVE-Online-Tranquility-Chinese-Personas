@@ -20,10 +20,11 @@ if (!input) {
 
 async function existing() {
   const map = new Map();
-  for (const f of await fs.readdir(PEOPLE_DIR)) {
-    if (!f.endsWith(".md") || f.startsWith("_")) continue;
-    const { data } = matter(await fs.readFile(path.join(PEOPLE_DIR, f), "utf8"));
-    map.set(Number(data.character_id), f);
+  for (const entry of await fs.readdir(PEOPLE_DIR, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
+    const file = `${entry.name}/${entry.name}.md`;
+    const { data } = matter(await fs.readFile(path.join(PEOPLE_DIR, file), "utf8"));
+    map.set(Number(data.character_id), file);
   }
   return map;
 }

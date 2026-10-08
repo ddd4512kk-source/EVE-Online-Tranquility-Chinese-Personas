@@ -1,0 +1,40 @@
+{
+  "id": 2113399287,
+  "name": "AhulaMazda",
+  "birthday": "2017-11-04T13:20:53Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2017-11-04T13:21:00Z",
+      "end": "2017-11-05T12:01:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2017-11-05T12:01:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

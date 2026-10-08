@@ -1,0 +1,36 @@
+{
+  "id": 2122058537,
+  "name": "Auradan",
+  "birthday": "2024-02-08T12:40:35Z",
+  "current_corporation": {
+    "id": 98742553,
+    "name": "ISK MONSTERS",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98742553,
+      "name": "ISK MONSTERS",
+      "ticker": "ISKM"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2024-02-08T12:41:00Z",
+      "end": "2024-02-08T12:42:00Z"
+    },
+    {
+      "corporation_id": 98742553,
+      "name": "ISK MONSTERS",
+      "npc": false,
+      "start": "2024-02-08T12:42:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

@@ -1,0 +1,28 @@
+<a id="peter-li-peter"></a>
+
+## 污龟 / peter li peter
+
+收录角色：**peter li peter（2113450798）**。已有[列传源文件](peter-li-peter.md)。
+
+身份与取材方向：污龟就是 peter li peter（2113450798），吃瓜二代 CEO；教程与奖金自述、荣耀对吃瓜二代目的指控均归入此人，保留各篇来源立场。
+
+[ESI](https://esi.evetech.net/latest/characters/2113450798/)头衔“污龟 MAIN”，[2018 年本人帖子](https://forums.winterco.org/t/topic/14573)标题直接署“污龟出品”，作者 peter_li_peter，人物与角色对应清楚。
+
+- **红料，中**：为吃瓜编入门教程，称 Word 版有目录、多图、文件约 21 MB，在新人群提供，是具体社区服务。
+- **轻梗，中**：发帖自己说听说在这里发有 N 老板奖金，因此来发布。授业之心与奖金之心可以一并写，不编实际领款。
+- **关联争议，中，人物对应已确认**：荣耀旧帖所指“吃瓜二代目”就是污龟 / **peter li peter**，原文写作 **perter li perter**。[2025-03-28 原帖](https://forum.pla-eve.com/topic/249-frt-chi-gua-corp-loss-7-athanor/)指责其发布吃瓜基本法、用 AI 爽文在贴吧 diss 荣耀，末尾建议把两任 CEO 送 AVR 电疗。已写入污龟列传，并与荣耀列传互链；人物对应已解决，AI 写作、动机与基本法内容仍属于荣耀的说法，不能把身份确认当作所有指控都已确认。
+- **现状**：当前 Chi Gua 的游戏 CEO 是 Nine -L（2115444624），头衔老九。老九不承担旧爆料所指的责任。
+
+荣耀 2025 年旧帖写 CEO perter li perter，并指控其用 AI 爽文对线；污龟本人教程署名 peter_li_peter。
+
+[荣耀原帖](https://forum.pla-eve.com/topic/249-frt-chi-gua-corp-loss-7-athanor/)、[污龟教程](https://forums.winterco.org/t/topic/14573)
+
+角色对应已确认：peter li peter（2113450798）就是污龟、吃瓜二代 CEO，旧帖的 perter li perter 归于此人。此前查到的现任游戏 CEO Nine -L（2115444624，老九）与二代目区分，不承担旧帖指控。
+
+待补材料：吃瓜基本法全文、荣耀所指 AI 爽文的原帖与污龟的回应；任职起止日期尚无完整记录，不编具体交接时间。身份对应从备忘录待核对表移除，转入已确认关系。
+
+### 检索记录与缺口
+
+- 画像 / KB：命中，[角色 / KB](https://zkillboard.com/character/2113450798/)；论坛：peter_li_peter：主题 1 / 回帖 1；中文搜索：百度/360 回退；必应 10 条，未取得对应本人新料；其他材料：本人教程命中。
+- 2026-10-07：污龟与吃瓜二代 CEO 的对应已确认；重新读取荣耀原帖，将关联争议写入现有列传，未取得基本法及被指为 AI 爽文的原文，相关指控注明作者。列传现为两条红料、一条黑料。
+

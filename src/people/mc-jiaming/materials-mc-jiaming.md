@@ -1,0 +1,24 @@
+<a id="mc-jiaming"></a>
+
+## 银色汤勺 / MC jiaming
+
+收录角色：**MC jiaming（2114949006）**。已有[列传源文件](mc-jiaming.md)。
+
+身份与取材方向：已确认角色；EVE 战报作者、游戏视频博主。角色已定，继续补本人视频及社区素材。
+
+**银色汤勺就是 MC jiaming。** `npm run find` 经 ESI 解析为 **2114949006**，正式大小写为 **MC jiaming**；[ESI 头衔](https://esi.evetech.net/latest/characters/2114949006/)也直接写“银色汤勺”。已收录，见本节的列传源文件。[EveWho 角色入口](https://evewho.com/character/2114949006)。
+
+B 站 [银色汤勺主页](https://space.bilibili.com/54969171)与[2022 年本人回应视频](https://www.bilibili.com/list/54969171?bvid=BV1Cg411s7ik&oid=520041348)直接对应视频作者；**54969171 是 B 站 UID，不是 EVE 角色 ID**。
+
+- **红料，中重**：长期制作 EVE 战报、会战及玩家答疑视频，2022 年视频直接以“做了三年 EVE 视频”自述。是社区传播人物，不因不是 CEO 而漏掉。
+- **红料，中**：[玩家入坑回忆](https://forums.winterco.org/t/topic/10443)作者说进入游戏前已经通过汤勺看过 EVE 视频，后来继续在 B 站、贴吧找教程。是有原作者的传播效果旁证，不虚报其带来多少新人。
+- **素材方向，中**：本人频道有硬核 EVE 玩家体验原神、崩坏和星穹铁道的系列，能追其公开自嘲和游戏鄙视链讨论。视频标题是线索，尚未取得完整字幕，不能按标题编其说过什么。
+- **黑料待补**：本人回应视频值得全文看，先核对具体问题、原始质疑及回应；不能把“回应问题”直接叫道歉、翻车或诈骗。国服光点学院招新视频是另服内容，不能由此推断其欧服军团和 CEO 任职。
+- **角色确认**：采用 MC jiaming；旧同名猜测 Silver Spoon、Silverspoon、TangShao、Silver TS 均废弃，不再作为待确认候选。身份已确认，已有列传。
+
+百度检索、360 被拦，国内必应两组检索为无关页；补充网页搜索命中本人视频。论坛中文检索“汤勺”命中入坑回忆，另一条是做菜帖，与人物无关。已按确认的角色 MC jiaming 完成画像：角色简介为空；EveWho 可对上采星者旧公司 STARCHASER Inc. 与现公司 STARCHASER Inc，以及相应的采星者联盟、FRT 历史；zKillboard 常用船为 Deimos、Muninn、Zealot。这些只作取材背景，不据此编指挥或战斗事故。凛冬论坛账号 MC_jiaming 的公开 user_actions 返回主题 0 / 回帖 0，仍需留意旧站导入帖。
+
+### 检索记录与缺口
+
+- 画像 / KB：命中，[MC jiaming / KB](https://zkillboard.com/character/2114949006/)；头衔直接对应；论坛：MC_jiaming：主题 0 / 回帖 0；外号命中入坑回忆；中文搜索：百度/360 拦截，必应两组无关结果；其他材料：本人 B 站回应与游戏系列命中；全文待读。
+

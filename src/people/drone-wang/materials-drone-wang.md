@@ -1,0 +1,31 @@
+<a id="drone-wang"></a>
+
+## 王答答 / Drone Wang
+
+收录角色：**Drone Wang（2112538533）**。已有[列传源文件](drone-wang.md)。
+
+原帖入口：[2017 年天使区华人介绍](https://forums.winterco.org/t/topic/14294) · [RR 简史贴吧原帖](https://c.tieba.baidu.com/p/5688249663?fr=good) · [文字转载](https://www.getit01.com/p2018052136624210/) · [2018 年中文玩家采访](https://www.gamersky.com/zl/201803/1027453_2.shtml)。共用来源的立场与阅读限制见[共用来源](../../../docs/shared-sources.md)。
+
+素材要点：RR 创立时 CEO 王答答；创业早期 AFK 与联盟英语教学
+
+头衔“诱导燃料未携带者·放跑归魂”是本人自嘲，需另查对应事故。
+
+### RMT 方向补查与卖盟争议（2026-10-07，资料已归档）
+
+- **换盟主公告与公开争执，中**：[贴吧《RR联盟正式公告》](https://tieba.baidu.com/p/6279894268)的[2019-09-29 Wayback 快照](https://web.archive.org/web/20190929212830id_/https://tieba.baidu.com/p/6279894268)可读。楼主公告宣布将 CEO 让位于路小兔，自己负责战斗、台风负责杂务和主权战；10 楼又称“任何人在任何地方攻击联盟的CEO，即等于攻击RR”。回复出现“钞能力”“收购”等说法，但公告没有交易金额或人民币付款内容。该页快照只有一页，不等于抓到了所有后来回复。
+- **王答答发布的澄清，中**：[2019-09-30 u/DroneWang 的 RR 英文声明](https://www.reddit.com/r/Eve/comments/db6uwt/official_statement_from_ranger_regiment_for/)否认 RR 被收购或雇佣，称新 CEO 将投资基础设施及舰队，并重申不允许 RMT。回帖者 spyfromserenity 指称给 Drone Wang “捐”五万亿 ISK 即可得到 RR；这是具体玩家指控，不能把 ISK 改成人民币，也不能把声明里的禁止 RMT 当作承认参与 RMT。
+- **路小兔回应与聊天截图，中**：[贴吧《只回应一次，请勿私聊》](https://tieba.baidu.com/p/6279926094)的[Wayback 原始快照](https://web.archive.org/web/20190929213036id_/https://tieba.baidu.com/p/6279926094)可读，页面显示发帖日期 2019-09-30。路小兔称决定是一时兴起、不会有任何 RMT 行为、不改变 RR 现状、没有干爹或计划。[同期 Reddit 转载](https://www.reddit.com/r/Eve/comments/db1p1p/leaks_from_baidu_on_winter_coalition_their/)保留两帖快照入口和[聊天截图](https://imgur.com/lycU1Et)。已查看截图：有人问买 RR 花了多少，另一人猜“几十 t”，路小兔回“5”；对追问“5T?”，她回“我又不管”。截图没有王答答发言或人民币转账，不把网友填出的单位写成当事人明确确认。只归档游戏事件，不转载截图中的现实照片。
+- **采访节目入口**：[2019-10-07 TIS《Miss Rabbit Buys Ranger Regiment》](https://www.talkinginstations.com/2019/10/miss-rabbit-buys-ranger-regiment/)及[2019-10-14 AOM 访谈提纲](https://www.talkinginstations.com/2019/10/army-of-mangos-perspective/)讨论收购、买到领导职位等说法；后者提纲明确写 ISK。页面提纲已读，节目音频未逐段听，不补造对白。
+- **列传补写**：已把王答答本人贴吧换帅公告、英文声明和 `spyfromserenity` 的“5 万亿 ISK 捐款换 RR”指控写进原篇。金额只归评论者，不写成可核验的收款；没有个人现金 RMT 实证。
+- **目前边界**：找到王答答出让联盟的具体指控、本人澄清及中文原帖快照，可据此继续写卖盟争议；尚未找到明确指向王答答本人进行人民币交易的帖子、交易截图或处罚记录。RMT 线索继续保留，不将联盟层面的泛指直接归责到个人。
+
+### 检索记录与缺口
+
+- 2026-10-07 复核时的历史料块数：4 → 9；此后已有红黑重分及修订，不代表当前条数。
+- RMT 专项：百度“王答答 RMT eve欧服吧 snapshot”遇安全验证，另用完整中文 URL 查询“王答答 RMT”同样失败；360“王答答 RMT eve欧服吧”遇访问异常；必应返回移民签证等无关结果，不能记作人物零料。补搜王答答/王达达/Drone Wang/DroneWang + RMT、卖ISK、卖盟、人民币、封号及贴吧限定，未取得明确个人人民币交易来源。
+- 贴吧快照：普通 PC / c.tieba 页面 403；Wayback 普通回放及网页工具读取失败，但 `20190929212830id_`、`20190929213036id_` 原始 HTML 入口分别取得上述两帖正文与当时首屏回复。其他帖子存档不能保证同样可读。RR 简史帖的 Wayback 可用性 / CDX 查询分别遇 429 / 503，未取得存档；现有搜索索引仍能返回该帖部分正文。
+- **2026-10-08 补充**：eve欧服吧截图（帖子号未知）第 25 楼，2023-11-27：国服二服开服，王哒哒为维纳尔毒蜥任务点（“一天能卖2万r”）带全服围攻台风 700 打 300，结构轮台风哭问“真的要做这么绝吗”，王哒哒不回话直接拆结构；楼中楼“赚钱嘛，手足兄弟也能卖个好价钱”；楼主“第七舰队司令部”称王哒哒开服至今在埃索、贝斯挂脚本，“rmt的不知道多少”。脚本/RMT 为单一吧友指控。星华 2026 年通告另称台风“历史上就有与王哒哒的类似嫌疑”（语义不明，未写入本页）。已写入一块黑料。
+- **2026-10-08 补充（牧星 / Charon1）**：据社区说法，牧星 CEO 即王答答，Charon1（2119928531）也是他的号。ESI：Dawn's LightP（DNLTP，98781311），2024-08-21 成立，创建者 JupiterD（2122641372），CEO Charon1，2814 角色（2026-10 快照）；联盟史：2025-09-13 Dawn's Light，09-17 退，2025-11-14 再入 Dawn's Light，2026-08-11 退，08-12 入 Celestial Palace.。简介“24年10月份成立，累积接待超过1000位新人”，活动以 C6CG-W 为中心。EveWho：Charon1 2022-04-24 至 2024-08-22 在 ChuangShi，后 Dawn's LightP（2024-09 曾一日在 Dawn's Light 98781234）。Drone Wang 现在 Black Frame（98703703），联盟 Dawn's Light。
+- **私聊（讲述者要求匿名，不记录身份，不贴原图）**：牧星（对方误写“木星”）集结近 200 人两个月掉到 20 人；进军故土崩一半，12 月“这个b踏马非要去曙光带队拿钱”（曙光 = 国服曙光服，已确认），牧星没人管又崩一半；“wdd干的”；“100w+我找个小学生他都知道干什么”“给wdd他还要r几手”（列传按“嫌花大价钱还被 RMT 一道”推测解读）。
+- **Goons Shit List**：划线条目“Black Frame - 2 - March, April”，见 [Goons 线索](../../../docs/leads/goons-shit-list.md)。
+- 注意：卡戎（Mordiggianking，2122236063）是另一人，与 Charon1 无关。已写入一块红料、两块黑料。
