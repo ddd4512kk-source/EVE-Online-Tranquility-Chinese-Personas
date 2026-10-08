@@ -1,0 +1,89 @@
+{
+  "id": 92189699,
+  "name": "lulu love",
+  "birthday": "2012-06-26T09:36:44Z",
+  "current_corporation": {
+    "id": 1097611545,
+    "name": "Light of the moon",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 1097611545,
+      "name": "Light of the moon",
+      "ticker": "LOTM"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2012-06-26T09:37:00Z",
+      "end": "2012-07-08T16:26:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2012-07-08T16:26:00Z",
+      "end": "2012-07-12T03:04:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2012-07-12T03:04:00Z",
+      "end": "2012-07-12T05:28:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2012-07-12T05:28:00Z",
+      "end": "2012-07-31T05:34:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2012-07-31T05:34:00Z",
+      "end": "2012-08-01T02:31:00Z"
+    },
+    {
+      "corporation_id": 98129603,
+      "name": "lulu love Corporation",
+      "npc": false,
+      "start": "2012-08-01T02:31:00Z",
+      "end": "2013-01-07T09:39:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2013-01-07T09:39:00Z",
+      "end": "2017-02-07T03:46:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2017-02-07T03:46:00Z",
+      "end": "2017-02-24T02:45:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2017-02-24T02:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

@@ -15,7 +15,7 @@ LINKIN HY，社区也叫影枫；伏羲 CEO 角色 Gary CHGS 也是他。盘古�
 据[《新伊甸的往事》](https://forums.winterco.org/t/topic/25836)，盘古末期“盘大事件逼走 LINKIN HY”；2015 年 PLA 被 Hita 踢出 FRT 后，“曾想要加回 FRT 但被 HY 拒绝，后加入 FCON”。PLA 和 FRT 此后十年的仇，有一扇门是 HY 关上的。
 
 ::: 红料 老板们下线，他还在台上
-早期 FRT 驻 F-QQ 时，旧管理陆续 AFK，HY 与 Heavy Chest、奶爸接手管理；后来联盟再分家，又由他把 FRT 带回 OSY。[编年史](https://forums.winterco.org/t/topic/3336)与 FlyingBee 的回忆都写到了这段接班。
+早期 FRT 驻 F-QQ 时，旧管理陆续 AFK，HY 与 [Heavy Chest](../90851508/)、[LULU奶爸](../92189699/)接手管理；后来联盟再分家，又由他把 FRT 带回 OSY。[编年史](https://forums.winterco.org/t/topic/3336)与 FlyingBee 的回忆都写到了这段接班。
 
 接一个热闹联盟，叫当老板；接一个老板们都下线的联盟，多少像看店。闹归闹，这个摊子他确实接过。
 :::

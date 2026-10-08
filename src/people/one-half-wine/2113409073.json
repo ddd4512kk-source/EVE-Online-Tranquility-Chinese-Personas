@@ -1,0 +1,484 @@
+{
+  "id": 2113409073,
+  "name": "One Half wine",
+  "birthday": "2017-11-06T15:08:43Z",
+  "current_corporation": {
+    "id": 98552685,
+    "name": "Thunder and Sword",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98552685,
+      "name": "Thunder and Sword",
+      "ticker": "THSSA"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2017-11-06T15:09:00Z",
+      "end": "2017-11-07T17:55:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2017-11-07T17:55:00Z",
+      "end": "2017-11-08T16:26:00Z"
+    },
+    {
+      "corporation_id": 98473826,
+      "name": "Catalyst Unit 8",
+      "npc": false,
+      "start": "2017-11-08T16:26:00Z",
+      "end": "2017-12-24T01:44:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2017-12-24T01:44:00Z",
+      "end": "2017-12-24T05:21:00Z"
+    },
+    {
+      "corporation_id": 98537637,
+      "name": "Supremacy of Strength's Classroom",
+      "npc": false,
+      "start": "2017-12-24T05:21:00Z",
+      "end": "2018-05-26T15:37:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2018-05-26T15:37:00Z",
+      "end": "2018-05-26T15:37:00Z"
+    },
+    {
+      "corporation_id": 98342382,
+      "name": "Vision Partners",
+      "npc": false,
+      "start": "2018-05-26T15:37:00Z",
+      "end": "2018-06-02T15:55:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2018-06-02T15:55:00Z",
+      "end": "2018-06-12T14:15:00Z"
+    },
+    {
+      "corporation_id": 98537660,
+      "name": "Black Rabbit Fleet",
+      "npc": false,
+      "start": "2018-06-12T14:15:00Z",
+      "end": "2018-06-27T22:20:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2018-06-27T22:20:00Z",
+      "end": "2018-06-28T12:11:00Z"
+    },
+    {
+      "corporation_id": 98537637,
+      "name": "Supremacy of Strength's Classroom",
+      "npc": false,
+      "start": "2018-06-28T12:11:00Z",
+      "end": "2018-08-11T13:29:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2018-08-11T13:29:00Z",
+      "end": "2018-08-11T13:30:00Z"
+    },
+    {
+      "corporation_id": 98537660,
+      "name": "Black Rabbit Fleet",
+      "npc": false,
+      "start": "2018-08-11T13:30:00Z",
+      "end": "2018-09-26T14:26:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2018-09-26T14:26:00Z",
+      "end": "2018-09-26T14:26:00Z"
+    },
+    {
+      "corporation_id": 98507110,
+      "name": "4 Tengus 6 Scimitars Legendary",
+      "npc": false,
+      "start": "2018-09-26T14:26:00Z",
+      "end": "2018-10-18T03:24:00Z"
+    },
+    {
+      "corporation_id": 98556933,
+      "name": "Infinity Avenger",
+      "npc": false,
+      "start": "2018-10-18T03:24:00Z",
+      "end": "2019-02-24T02:45:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-02-24T02:45:00Z",
+      "end": "2019-02-27T03:02:00Z"
+    },
+    {
+      "corporation_id": 98537660,
+      "name": "Black Rabbit Fleet",
+      "npc": false,
+      "start": "2019-02-27T03:02:00Z",
+      "end": "2019-03-19T14:27:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-03-19T14:27:00Z",
+      "end": "2019-04-06T14:48:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2019-04-06T14:48:00Z",
+      "end": "2019-05-12T14:43:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-05-12T14:43:00Z",
+      "end": "2019-05-12T14:44:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2019-05-12T14:44:00Z",
+      "end": "2019-10-20T22:47:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-10-20T22:47:00Z",
+      "end": "2019-10-20T22:47:00Z"
+    },
+    {
+      "corporation_id": 98589708,
+      "name": "Moonlight snow night",
+      "npc": false,
+      "start": "2019-10-20T22:47:00Z",
+      "end": "2019-10-23T00:59:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-10-23T00:59:00Z",
+      "end": "2019-10-24T14:46:00Z"
+    },
+    {
+      "corporation_id": 98613940,
+      "name": "The Strange Tide",
+      "npc": false,
+      "start": "2019-10-24T14:46:00Z",
+      "end": "2020-02-20T15:38:00Z"
+    },
+    {
+      "corporation_id": 1000182,
+      "name": "Tribal Liberation Force",
+      "npc": true,
+      "start": "2020-02-20T15:38:00Z",
+      "end": "2020-02-20T17:16:00Z"
+    },
+    {
+      "corporation_id": 98589708,
+      "name": "Moonlight snow night",
+      "npc": false,
+      "start": "2020-02-20T17:16:00Z",
+      "end": "2020-03-13T22:27:00Z"
+    },
+    {
+      "corporation_id": 98631795,
+      "name": "Lazy Man Star",
+      "npc": false,
+      "start": "2020-03-13T22:27:00Z",
+      "end": "2020-05-14T14:58:00Z"
+    },
+    {
+      "corporation_id": 98634515,
+      "name": "Higgs Cats",
+      "npc": false,
+      "start": "2020-05-14T14:58:00Z",
+      "end": "2020-05-20T13:03:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-05-20T13:03:00Z",
+      "end": "2020-05-20T13:03:00Z"
+    },
+    {
+      "corporation_id": 98595842,
+      "name": "Avari Ring",
+      "npc": false,
+      "start": "2020-05-20T13:03:00Z",
+      "end": "2020-05-31T14:26:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-05-31T14:26:00Z",
+      "end": "2020-05-31T14:27:00Z"
+    },
+    {
+      "corporation_id": 98629605,
+      "name": "F1 Monkey.",
+      "npc": false,
+      "start": "2020-05-31T14:27:00Z",
+      "end": "2020-06-04T03:30:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-06-04T03:30:00Z",
+      "end": "2020-06-04T11:30:00Z"
+    },
+    {
+      "corporation_id": 98639996,
+      "name": "Atlas armed forces",
+      "npc": false,
+      "start": "2020-06-04T11:30:00Z",
+      "end": "2020-06-07T16:51:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-06-07T16:51:00Z",
+      "end": "2020-06-07T16:52:00Z"
+    },
+    {
+      "corporation_id": 98645350,
+      "name": "CHAI QIAN BAN",
+      "npc": false,
+      "start": "2020-06-07T16:52:00Z",
+      "end": "2020-06-10T14:03:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-06-10T14:03:00Z",
+      "end": "2020-06-11T00:18:00Z"
+    },
+    {
+      "corporation_id": 98630961,
+      "name": "Qi Yue Soldiers",
+      "npc": false,
+      "start": "2020-06-11T00:18:00Z",
+      "end": "2020-07-20T05:17:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-07-20T05:17:00Z",
+      "end": "2020-07-20T06:31:00Z"
+    },
+    {
+      "corporation_id": 98649204,
+      "name": "Arena Independent Groups",
+      "npc": false,
+      "start": "2020-07-20T06:31:00Z",
+      "end": "2020-07-27T03:26:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-07-27T03:26:00Z",
+      "end": "2020-07-27T11:21:00Z"
+    },
+    {
+      "corporation_id": 98630961,
+      "name": "Qi Yue Soldiers",
+      "npc": false,
+      "start": "2020-07-27T11:21:00Z",
+      "end": "2020-11-18T11:53:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-11-18T11:53:00Z",
+      "end": "2020-12-02T14:31:00Z"
+    },
+    {
+      "corporation_id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "npc": false,
+      "start": "2020-12-02T14:31:00Z",
+      "end": "2021-01-03T07:05:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-01-03T07:05:00Z",
+      "end": "2021-01-03T15:40:00Z"
+    },
+    {
+      "corporation_id": 98630961,
+      "name": "Qi Yue Soldiers",
+      "npc": false,
+      "start": "2021-01-03T15:40:00Z",
+      "end": "2021-01-08T10:31:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-01-08T10:31:00Z",
+      "end": "2021-01-08T11:19:00Z"
+    },
+    {
+      "corporation_id": 98537981,
+      "name": "Galactic Empire Co LTD",
+      "npc": false,
+      "start": "2021-01-08T11:19:00Z",
+      "end": "2021-01-28T12:28:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-01-28T12:28:00Z",
+      "end": "2021-01-28T12:31:00Z"
+    },
+    {
+      "corporation_id": 98670400,
+      "name": "We Love Cody",
+      "npc": false,
+      "start": "2021-01-28T12:31:00Z",
+      "end": "2021-05-07T12:50:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-05-07T12:50:00Z",
+      "end": "2021-05-07T12:51:00Z"
+    },
+    {
+      "corporation_id": 98635575,
+      "name": "Mogu Heavy Industry",
+      "npc": false,
+      "start": "2021-05-07T12:51:00Z",
+      "end": "2021-09-03T16:38:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-09-03T16:38:00Z",
+      "end": "2021-10-15T12:02:00Z"
+    },
+    {
+      "corporation_id": 98505151,
+      "name": "Country House",
+      "npc": false,
+      "start": "2021-10-15T12:02:00Z",
+      "end": "2022-08-07T02:39:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-08-07T02:39:00Z",
+      "end": "2022-08-07T02:39:00Z"
+    },
+    {
+      "corporation_id": 98552685,
+      "name": "Thunder and Sword",
+      "npc": false,
+      "start": "2022-08-07T02:39:00Z",
+      "end": "2023-03-08T12:13:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2023-03-08T12:13:00Z",
+      "end": "2023-03-08T12:15:00Z"
+    },
+    {
+      "corporation_id": 98734438,
+      "name": "The Wolf Shark Navy Lost Fleet",
+      "npc": false,
+      "start": "2023-03-08T12:15:00Z",
+      "end": "2024-03-18T12:21:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-03-18T12:21:00Z",
+      "end": "2024-04-05T13:51:00Z"
+    },
+    {
+      "corporation_id": 98552685,
+      "name": "Thunder and Sword",
+      "npc": false,
+      "start": "2024-04-05T13:51:00Z",
+      "end": "2024-11-07T10:46:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-11-07T10:46:00Z",
+      "end": "2024-11-07T12:05:00Z"
+    },
+    {
+      "corporation_id": 98639667,
+      "name": "Fountain Hunter",
+      "npc": false,
+      "start": "2024-11-07T12:05:00Z",
+      "end": "2026-02-12T12:21:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2026-02-12T12:21:00Z",
+      "end": "2026-05-10T02:45:00Z"
+    },
+    {
+      "corporation_id": 98552685,
+      "name": "Thunder and Sword",
+      "npc": false,
+      "start": "2026-05-10T02:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

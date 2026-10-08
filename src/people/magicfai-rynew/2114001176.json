@@ -1,0 +1,50 @@
+{
+  "id": 2114001176,
+  "name": "MAgiCfai RynEW",
+  "birthday": "2018-04-13T19:13:45Z",
+  "current_corporation": {
+    "id": 98353957,
+    "name": "Silver spark tree",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98353957,
+      "name": "Silver spark tree",
+      "ticker": "DDFAA"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2018-04-13T19:14:00Z",
+      "end": "2018-04-20T13:41:00Z"
+    },
+    {
+      "corporation_id": 98353957,
+      "name": "Silver spark tree",
+      "npc": false,
+      "start": "2018-04-20T13:41:00Z",
+      "end": "2023-06-15T10:01:00Z"
+    },
+    {
+      "corporation_id": 98742906,
+      "name": "CiTy Of tHE CAngHuaNg",
+      "npc": false,
+      "start": "2023-06-15T10:01:00Z",
+      "end": "2023-06-19T07:49:00Z"
+    },
+    {
+      "corporation_id": 98353957,
+      "name": "Silver spark tree",
+      "npc": false,
+      "start": "2023-06-19T07:49:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

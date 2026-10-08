@@ -14,3 +14,7 @@
 - **mura 红料，中**：共同的版本翻译栏目、中文资料校对署名；[2017 年官方论坛问答](https://forums.eveonline.com/t/project-discovery-exoplanets-live-on-singularity/6065)向 CCP 询问新旧 Project Discovery 的机制。问答本身不是黑料。
 - **mura 黑料待补**：尚未取到具体错译争论、冲突或个人轶事。不要把普通矿船战损当故事。现存 [2013 年机制答疑](https://forums-archive.eveonline.com/message/2721117/)可作为早期社区活动入口。
 
+### 2026-10-08 轻审补充
+
+- 凛冬论坛搜索命中羊叔署名的多篇 2017 年版本译文，包括 [《Odyssey：黑客破译》](https://forums.winterco.org/t/topic/13724)、[《Rhea：EVE 介面的新面貌》](https://forums.winterco.org/t/topic/13786)和[《新纪元：入侵资料片完整更新内容》](https://forums.winterco.org/t/topic/13676)。可以挑一两篇具体作品补强“长期翻译”红料；论坛署名能证明其发布译文，不代表译文由他独自完成。
+- 本轮网页检索“ MuraSaki Siki / 羊叔 EVE”也有命中，上述论坛主题均可打开；另见 [EVE 官方论坛 Project Discovery 讨论](https://forums.eveonline.com/t/project-discovery-exoplanets-live-on-singularity/6065)，为其本人向 CCP 提问的早期资料。

@@ -11,6 +11,8 @@ tags: [00区, FRT, "Navigators' Union"]
 ::: 红料 版本翻译的另一半
 羊叔与兔仔猪长期合作翻译 CCP 的开发日志与版本更新，作品收在[凛冬百科](https://wiki.winterco.org/zh/dev_blog_and_patchnote/start)；2015 年一份中文资料 PDF 的末页，校对署名也是 Rabbit P 和 MuraSaki Siki。2017 年 [H叔](../480362957/)在论坛一篇战略巡洋舰改动的译文下喊：“伟大的兔叔和羊叔万岁！”
 
+2017 年，他还在凛冬论坛署名发布多篇更新译文，从[《Odyssey：黑客破译》](https://forums.winterco.org/t/topic/13724)、[《Rhea：EVE 介面的新面貌》](https://forums.winterco.org/t/topic/13786)，到[《Mosaic：是时候展示更多的涂装了》](https://forums.winterco.org/t/topic/13803)。新 UI、破译玩法、SKIN 系统，一版接一版搬进中文社区。
+
 他在 EVE 官方论坛也出现过，2017 年就 Project Discovery 新旧版本的机制问过 CCP 开发者。
 :::
 

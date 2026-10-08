@@ -10,7 +10,7 @@
 - **红料，轻**：KB 击杀 4011、约 3058.6B；2026-04 单月击杀 471.7B。
 - **黑料，中，本人言论**：[B-9C24 视频](https://www.bilibili.com/video/BV1L8cxzQELt/)评论区被说“宋捞湿依旧反frt先锋”，本人回复“我向来对N老板忠心耿耿……一向维护FRT正统性”；两个月后发《4-H旁FRT大溃败》。
 - **黑料，中，本人简介**：视频简介的招新广告在“INIT 旗下 ES 帝皇之镰 / INIT CN 社区”和“D.C 龙焰旗下 TU ZI 军团”之间来回切换（2026-02-11 INIT，02-13 TU ZI，04-28 INIT，05-31 与 06-07 TU ZI，07-06 INIT，07-11 TU ZI）。《4-H》评论区：老黑233 问“宋神是init还是dc的”，埔饭幽助答“宋神是大馒帝国Aom双面间谍”。只写他自己的广告与评论区反应，不推断他另有 TU ZI 小号（未核实）。B 站“老黑233”与已收录的老黑是否同一人未确认，未互链。
-- **黑料，中，评论区对线**：2026-05-31 低安旗舰冲突后，EVE神崎发[《哈也没用，哈马无畏突袭》](https://www.bilibili.com/video/BV1XpVU6ZE5C/)，本人在该评论区留“急急急，哈！”并贴自己视频求赞；本人视频[《哈马哈气大作战》](https://www.bilibili.com/video/BV11vVU6SEXZ/)简介“闹麻了就这点东西还有脸发? 你已急哭”。第三方 UP 猎獒青春版[《这能被哈气宋骑了》](https://www.bilibili.com/video/BV1eFVS6YECL/)，评论区@他“哈气宋视角”。
+- **黑料，中，评论区对线**：2026-05-31 低安旗舰冲突后，[死枪 / EVE神崎](../crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md)发[《哈也没用，哈马无畏突袭》](https://www.bilibili.com/video/BV1XpVU6ZE5C/)，本人在该评论区留“急急急，哈！”并贴自己视频求赞；本人视频[《哈马哈气大作战》](https://www.bilibili.com/video/BV11vVU6SEXZ/)简介“闹麻了就这点东西还有脸发? 你已急哭”。第三方 UP 猎獒青春版[《这能被哈气宋骑了》](https://www.bilibili.com/video/BV1eFVS6YECL/)，评论区@他“哈气宋视角”。
 - **杂料，轻**：求关注一律“喵”；《不是怎么老被刀啊》简介“我多开器有问题……不要拷打”。
 
 ### 检索记录与缺口

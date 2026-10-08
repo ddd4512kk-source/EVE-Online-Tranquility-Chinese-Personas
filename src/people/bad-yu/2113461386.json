@@ -1,0 +1,57 @@
+{
+  "id": 2113461386,
+  "name": "bad yu",
+  "birthday": "2017-11-21T14:24:27Z",
+  "current_corporation": {
+    "id": 98527542,
+    "name": "Violent Rabbit Hutch",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98527542,
+      "name": "Violent Rabbit Hutch",
+      "ticker": "R.B.T"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2017-11-21T14:24:00Z",
+      "end": "2017-11-21T16:44:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-11-21T16:44:00Z",
+      "end": "2017-12-02T16:19:00Z"
+    },
+    {
+      "corporation_id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "npc": false,
+      "start": "2017-12-02T16:19:00Z",
+      "end": "2018-08-17T13:58:00Z"
+    },
+    {
+      "corporation_id": 1000060,
+      "name": "Native Freshfood",
+      "npc": true,
+      "start": "2018-08-17T13:58:00Z",
+      "end": "2018-08-17T13:59:00Z"
+    },
+    {
+      "corporation_id": 98527542,
+      "name": "Violent Rabbit Hutch",
+      "npc": false,
+      "start": "2018-08-17T13:59:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-08"
+}

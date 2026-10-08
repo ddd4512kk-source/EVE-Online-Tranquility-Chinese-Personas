@@ -1,12 +1,12 @@
 ---
 character_id: 2114324057
 cn_name: 死枪
-aliases: [CrysisDeathgun YoRHa, CrysisDeathgun]
+aliases: [CrysisDeathgun YoRHa, CrysisDeathgun, EVE神崎]
 epithet: 怯薛出走，养老团当家；那句嘲讽，是他捎给 N 老板的。
 tags: [00区, 低安, "Obsidian Armament"]
 ---
 
-死枪，游戏名 CrysisDeathgun YoRHa——名字像是把《孤岛危机》、《刀剑神域》里的死枪和《尼尔》的寄叶部队拼在了一起，头衔“丁真珍珠”。2018 年 7 月建号，角色简介是一大块用符号拼出来的异星文字，底下挂一排 KM：一条 Avatar 泰坦、一条 Revenant 超旗、一座 Keepstar、一条 Naglfar。
+死枪，也是 B 站 UP 主[EVE神崎](https://space.bilibili.com/10126340)，游戏名 CrysisDeathgun YoRHa——名字像是把《孤岛危机》、《刀剑神域》里的死枪和《尼尔》的寄叶部队拼在了一起，头衔“丁真珍珠”。2018 年 7 月建号，角色简介是一大块用符号拼出来的异星文字，底下挂一排 KM：一条 Avatar 泰坦、一条 Revenant 超旗、一座 Keepstar、一条 Naglfar。
 
 他在 FRT 待了将近七年：先是紫竹梅（Setcreasea Pallida Corporation），2021 年转进 Hephaestus and Aphrodite，2022 年 1 月进了怯薛（KheshigFleet）。**2025 年 4 月 27 日**，他和[扎克](../2114270880/)同一天离开怯薛，进了三天前刚成立的 Obsidian Armament——简介写着“Loser Corporation, Please Ignore. 低安养老团”。第二天，[漆黑](../2121708576/)也来了。2026 年 6 月，养老团前任 CEO 卸任时把位子交给了他，死枪成了养老团的当家。
 
