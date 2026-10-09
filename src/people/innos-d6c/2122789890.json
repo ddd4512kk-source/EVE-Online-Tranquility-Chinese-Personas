@@ -1,0 +1,40 @@
+{
+  "id": 2122789890,
+  "name": "innosD6c",
+  "birthday": "2024-10-11T15:14:51Z",
+  "current_corporation": {
+    "id": 98702890,
+    "name": "Descendants of Shen Nong",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "ticker": ".DSN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2024-10-11T15:15:00Z",
+      "end": "2024-10-17T14:53:00Z"
+    },
+    {
+      "corporation_id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "npc": false,
+      "start": "2024-10-17T14:53:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

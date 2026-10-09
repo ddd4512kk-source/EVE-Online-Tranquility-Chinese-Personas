@@ -1,9 +1,9 @@
 ---
 character_id: 2116041057
 cn_name: 白菜
-aliases: [CabbageTimil]
+aliases: [CabbageTimil, B站]
 epithet: DC 的官方合作 UP 主，简介里画了一只猪和一辆小火车。
-tags: [00区, DC]
+tags: [00区, DC, B站]
 ---
 
 白菜，游戏名 CabbageTimil，2019 年 12 月建号，2020 年 5 月起在[随风](../2115325500/)的 DC（Dracarys.），先后在 Steel Feather Special Air Corps 和 Faceless.，至今没离开。游戏头衔：

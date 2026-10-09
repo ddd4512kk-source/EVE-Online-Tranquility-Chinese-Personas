@@ -1,9 +1,9 @@
 ---
 character_id: 95742512
 cn_name: 辣酱
-aliases: [不是甜酱是辣酱, Mogami Chaos]
+aliases: [不是甜酱是辣酱, Mogami Chaos, B站]
 epithet: 狂暴队团灭转了三回，回回都说一声 RIP
-tags: [低安, AVDOT]
+tags: [低安, AVDOT, B站]
 ---
 
 辣酱，角色 Mogami Chaos，头衔写着“辣酱”，B站账号也叫“不是甜酱是辣酱”，签名“曲终人不见 江上数峰青”——这句话也写在华语军团 Infinity Avenger（AVDOT）的公司简介里。2018 年 5 月他进了 AVDOT，先后跟着 Black Legion、Snuffed Out 在低安和 00 打仗。

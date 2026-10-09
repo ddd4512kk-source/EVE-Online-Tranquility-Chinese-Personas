@@ -1,0 +1,75 @@
+{
+  "id": 2114508645,
+  "name": "Sickle Alter",
+  "birthday": "2018-09-12T06:34:06Z",
+  "current_corporation": {
+    "id": 98190062,
+    "name": "Peoples Liberation Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98190062,
+      "name": "Peoples Liberation Army",
+      "ticker": "P.L.A"
+    },
+    "alliance": {
+      "id": 1354830081,
+      "name": "Goonswarm Federation",
+      "ticker": "CONDI"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2018-09-12T06:34:00Z",
+      "end": "2018-09-13T17:33:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2018-09-13T17:33:00Z",
+      "end": "2022-05-08T11:37:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2022-05-08T11:37:00Z",
+      "end": "2022-11-25T06:01:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2022-11-25T06:01:00Z",
+      "end": "2024-10-03T08:41:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2024-10-03T08:41:00Z",
+      "end": "2024-10-10T14:05:00Z"
+    },
+    {
+      "corporation_id": 98524939,
+      "name": "Sing Hua",
+      "npc": false,
+      "start": "2024-10-10T14:05:00Z",
+      "end": "2026-02-08T06:38:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2026-02-08T06:38:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

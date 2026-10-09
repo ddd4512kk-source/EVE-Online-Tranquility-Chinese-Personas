@@ -1,9 +1,9 @@
 ---
 character_id: 2114949006
 cn_name: 银色汤勺
-aliases: [汤勺, MC jiaming]
+aliases: [汤勺, MC jiaming, B站]
 epithet: 六万粉丝的 EVE 博主，有人还没进游戏，先看过他的视频。
-tags: [00区, FRT, 采星]
+tags: [00区, FRT, 采星, B站]
 ---
 
 银色汤勺，游戏名 MC jiaming，头衔就是“银色汤勺”。2019 年建号，一直在采星者（STARCHASER）一系，2020 年起随 STARCHASER Inc 挂 FRT。在 B 站是 EVE 视频博主，粉丝六万四千多，投稿一百八十多条。

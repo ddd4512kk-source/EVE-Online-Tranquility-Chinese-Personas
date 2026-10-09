@@ -1,0 +1,61 @@
+{
+  "id": 2121669020,
+  "name": "ACE-008",
+  "birthday": "2023-10-05T03:52:24Z",
+  "current_corporation": {
+    "id": 98598862,
+    "name": "Chaos arbiter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598862,
+      "name": "Chaos arbiter",
+      "ticker": "CACX"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2023-10-05T03:52:00Z",
+      "end": "2023-10-07T12:05:00Z"
+    },
+    {
+      "corporation_id": 98633527,
+      "name": "Venomous Rebels Industries",
+      "npc": false,
+      "start": "2023-10-07T12:05:00Z",
+      "end": "2023-10-07T14:32:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2023-10-07T14:32:00Z",
+      "end": "2023-10-07T14:56:00Z"
+    },
+    {
+      "corporation_id": 98707431,
+      "name": "Serenity Moe University",
+      "npc": false,
+      "start": "2023-10-07T14:56:00Z",
+      "end": "2023-10-09T16:46:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2023-10-09T16:46:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

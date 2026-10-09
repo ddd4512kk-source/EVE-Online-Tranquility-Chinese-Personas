@@ -1,0 +1,40 @@
+{
+  "id": 2121130491,
+  "name": "ForUndeadAsuka",
+  "birthday": "2023-04-15T17:50:09Z",
+  "current_corporation": {
+    "id": 98570132,
+    "name": "EF air force",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98570132,
+      "name": "EF air force",
+      "ticker": "E..F."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2023-04-15T17:50:00Z",
+      "end": "2023-04-16T14:02:00Z"
+    },
+    {
+      "corporation_id": 98570132,
+      "name": "EF air force",
+      "npc": false,
+      "start": "2023-04-16T14:02:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

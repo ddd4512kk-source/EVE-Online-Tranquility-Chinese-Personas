@@ -1,9 +1,9 @@
 ---
 character_id: 425711775
 cn_name: 蜜蜂
-aliases: [FlyingBee]
+aliases: [FlyingBee, B站]
 epithet: 想当历史见证者，先被历史搬来搬去。
-tags: [00区, FRT, 女娲]
+tags: [00区, FRT, 女娲, B站]
 ---
 
 FlyingBee，自家人叫蜜蜂，盘古、早期 FRT 的老成员，后来经办补损，也写社区回忆。老朋友称他的经历差不多就是华人在欧服 00 区的历史；读他的帖子，诸侯的宏图大业便多了一个现场观众。

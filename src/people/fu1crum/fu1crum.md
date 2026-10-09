@@ -1,9 +1,9 @@
 ---
 character_id: 2113228175
 cn_name: 表妹
-aliases: [故作温柔, Fu1crum, Lv223]
+aliases: [故作温柔, Fu1crum, Lv223, B站]
 epithet: AOM 的总监，小号追星追进了洋人精英盟，视频配乐用葬礼进行曲。
-tags: [00区, AOM]
+tags: [00区, AOM, B站]
 ---
 
 表妹，游戏名 Lv223，头衔写的是“Fu1crum”，YY 上叫“故作温柔”，[馒头](../2115140351/)麾下 AOM 的总监。2017 年 9 月建号，头一年半在 PLA，2019 年 5 月 AOM 刚建盟就进了 AOM 主力军团 Mango.，至今没挪。另有一个小号就叫 Fu1crum。

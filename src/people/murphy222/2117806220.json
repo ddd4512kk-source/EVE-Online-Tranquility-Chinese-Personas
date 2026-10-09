@@ -1,0 +1,47 @@
+{
+  "id": 2117806220,
+  "name": "Murphy222",
+  "birthday": "2020-11-06T06:35:24Z",
+  "current_corporation": {
+    "id": 1097611545,
+    "name": "Light of the moon",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 1097611545,
+      "name": "Light of the moon",
+      "ticker": "LOTM"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2020-11-06T06:35:00Z",
+      "end": "2020-11-07T04:55:00Z"
+    },
+    {
+      "corporation_id": 98648061,
+      "name": "Tu Zi Fei Corporation",
+      "npc": false,
+      "start": "2020-11-07T04:55:00Z",
+      "end": "2021-10-08T03:44:00Z"
+    },
+    {
+      "corporation_id": 1097611545,
+      "name": "Light of the moon",
+      "npc": false,
+      "start": "2021-10-08T03:44:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

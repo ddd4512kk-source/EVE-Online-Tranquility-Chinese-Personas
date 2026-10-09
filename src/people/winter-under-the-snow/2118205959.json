@@ -1,0 +1,82 @@
+{
+  "id": 2118205959,
+  "name": "WinterUnderTheSnow",
+  "birthday": "2021-02-01T00:56:22Z",
+  "current_corporation": {
+    "id": 98694557,
+    "name": "KheshigFleet",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98694557,
+      "name": "KheshigFleet",
+      "ticker": "KHESH"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-02-01T00:56:00Z",
+      "end": "2022-10-31T07:07:00Z"
+    },
+    {
+      "corporation_id": 98614214,
+      "name": "Gaze into the Abyss",
+      "npc": false,
+      "start": "2022-10-31T07:07:00Z",
+      "end": "2023-01-09T07:33:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2023-01-09T07:33:00Z",
+      "end": "2023-06-26T05:56:00Z"
+    },
+    {
+      "corporation_id": 98739300,
+      "name": "Fraternity Pochven Mining Industry",
+      "npc": false,
+      "start": "2023-06-26T05:56:00Z",
+      "end": "2023-07-12T12:03:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2023-07-12T12:03:00Z",
+      "end": "2023-07-12T12:06:00Z"
+    },
+    {
+      "corporation_id": 98705642,
+      "name": "Chuangshi College",
+      "npc": false,
+      "start": "2023-07-12T12:06:00Z",
+      "end": "2023-07-27T13:49:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2023-07-27T13:49:00Z",
+      "end": "2024-06-15T13:20:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2024-06-15T13:20:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

@@ -1,9 +1,9 @@
 ---
 character_id: 2115311168
 cn_name: 紫电
-aliases: [天策府紫电]
+aliases: [天策府紫电, B站]
 epithet: 替 RR 宣布散伙，四天后自己开了张。
-tags: [00区]
+tags: [00区, B站]
 ---
 
 紫电，游戏名 zidian bloodthirsty，B 站 UP 主“天策府紫电”，墨家联盟（Mohist Alliance）旗下墨者军团（Mohist Army）的 CEO。
