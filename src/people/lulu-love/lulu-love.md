@@ -41,9 +41,9 @@ lulu love，社区署名“LULU的奶爸”，早期 FRT 财务总监、行星�
 :::
 
 ::: 红料 财务也上过 Keepstar 的账单
-2018 年 5 月 24 日，88A-RA 一座属于 Legion of xXDEATHXx 的 [Keepstar 被击毁](https://zkillboard.com/kill/70156883/)，估值约 **2792 亿 ISK**。奶爸开 Tengu 出现在攻击名单里。
+2018 年 5 月 24 日，88A-RA 一座属于 Black Legion of xXDEATHXx 的 [Keepstar 被击毁](https://zkillboard.com/kill/70156883/)，估值约 **2792 亿 ISK**。奶爸开金鹏出现在攻击名单里。
 
-他也不是只坐在表格后面。[KB](https://zkillboard.com/character/92189699/)快照累计 540 次击杀，常用船有 Ishtar、Zealot，也有 Revelation 和 Avatar。平时算自己人的补损，出门也能帮别人做资产减值。
+他也不是只坐在表格后面。[KB](https://zkillboard.com/character/92189699/)快照累计 540 次击杀，常用船有伊什塔、狂热，也有神示和神使。平时算自己人的补损，出门也能帮别人做资产减值。
 :::
 
 ::: 黑料 管理失灵，责任名单里也有自己

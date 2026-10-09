@@ -1,0 +1,40 @@
+{
+  "id": 2115243663,
+  "name": "GoldMining Owner",
+  "birthday": "2019-05-15T09:08:25Z",
+  "current_corporation": {
+    "id": 98563606,
+    "name": "Iron-Bank",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98563606,
+      "name": "Iron-Bank",
+      "ticker": "I-BAN"
+    },
+    "alliance": {
+      "id": 99007221,
+      "name": "Iron Crown",
+      "ticker": "I.S.K"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2019-05-15T09:08:00Z",
+      "end": "2019-05-19T14:39:00Z"
+    },
+    {
+      "corporation_id": 98563606,
+      "name": "Iron-Bank",
+      "npc": false,
+      "start": "2019-05-19T14:39:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

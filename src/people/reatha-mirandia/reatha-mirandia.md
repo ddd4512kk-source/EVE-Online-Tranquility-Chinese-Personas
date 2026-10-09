@@ -23,7 +23,7 @@ Reatha Mirandia，论坛上有人直接喊“米兰达”。2017 年 6 月建号
 :::
 
 ::: 红料 KB：三千四百杀
-zKillboard 生涯击杀 3400，打掉 3.35 万亿 ISK，只亏 119 亿。用得最多的是 Tempest、Cynabal、Retribution、Eagle、Lachesis——常去 OSY-UD、H-ADOC，老 OSY 人的路数。2018 年 5 月单月击杀 1.13 万亿，那个月凛冬和盟友在 C-LTXS 伏击 DRF 转移的超旗舰队。
+zKillboard 生涯击杀 3400，打掉 3.35 万亿 ISK，只亏 119 亿。用得最多的是狂暴、塞纳波、审判者、银鹰、拉克希斯——常去 OSY-UD、H-ADOC，老 OSY 人的路数。2018 年 5 月单月击杀 1.13 万亿，那个月凛冬和盟友在 C-LTXS 伏击 DRF 转移的超旗舰队。
 :::
 
 ::: 黑料 “别总只有n老板在写”

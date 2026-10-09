@@ -1,0 +1,40 @@
+{
+  "id": 2119837654,
+  "name": "yuenhc12",
+  "birthday": "2022-03-28T15:38:37Z",
+  "current_corporation": {
+    "id": 98740294,
+    "name": "Asian Neutral Industries",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98740294,
+      "name": "Asian Neutral Industries",
+      "ticker": "ANEU"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-03-28T15:39:00Z",
+      "end": "2023-05-11T15:09:00Z"
+    },
+    {
+      "corporation_id": 98740294,
+      "name": "Asian Neutral Industries",
+      "npc": false,
+      "start": "2023-05-11T15:09:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

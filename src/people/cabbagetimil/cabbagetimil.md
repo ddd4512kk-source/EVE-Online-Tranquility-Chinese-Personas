@@ -15,7 +15,7 @@ tags: [00区, DC]
 :::
 
 ::: 红料 KB：两千三百杀
-zKillboard 生涯击杀 2352，单杀 122 次，用得最多的是 Paladin、Machariel、Vargur。
+zKillboard 生涯击杀 2352，单杀 122 次，用得最多的是帕拉丁、马克瑞、恶狼。
 :::
 
 ::: 黑料 Atioth 泰坦战中的“造谣带节奏”指控

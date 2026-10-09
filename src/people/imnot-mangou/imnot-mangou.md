@@ -31,9 +31,9 @@ ImNot ManGou，署名“幼儿园大班长”，2018 年以极光智库新手教
 :::
 
 ::: 红料 简介里的四张尾刀，都是真的
-他的角色简介自称擅长会战最后一击，列了四张 KM。核下来还真不是随手蹭名：2018 年在 Old Man Star 用 Vexor 收下 [Revelation 的最后一击](https://zkillboard.com/kill/71515991/)；2020 年 2 月 25 日开 Hound，在 **25 分钟内**先后收下[两](https://zkillboard.com/kill/81868896/)[条 Hel](https://zkillboard.com/kill/81869196/)，合计约 **572 亿 ISK**；2025 年又用 Purifier 收下 [Orca 的最后一击](https://zkillboard.com/kill/126614688/)。
+他的角色简介自称擅长会战最后一击，列了四张 KM。核下来还真不是随手蹭名：2018 年在 Old Man Star 用狂怒者收下 [神示的最后一击](https://zkillboard.com/kill/71515991/)；2020 年 2 月 25 日开猎犬，在 **25 分钟内**先后收下[两](https://zkillboard.com/kill/81868896/)[条冥府](https://zkillboard.com/kill/81869196/)，合计约 **572 亿 ISK**；2025 年又用净化收下 [逆戟鲸的最后一击](https://zkillboard.com/kill/126614688/)。
 
-[KB](https://zkillboard.com/character/2113646368/)快照累计 748 次击杀，常用船以 Purifier、Hound 为首。另一位教官[北上](../2115947381/)也拿过小船击杀 Hel 的尾刀。老师们的毕业纪念册，确实很会挑落款的位置。
+[KB](https://zkillboard.com/character/2113646368/)快照累计 748 次击杀，常用船以净化、猎犬为首。另一位教官[北上](../2115947381/)也拿过小船击杀冥府的尾刀。老师们的毕业纪念册，确实很会挑落款的位置。
 :::
 
 ::: 黑料 全宇宙白名，熟人的蓝加也照打

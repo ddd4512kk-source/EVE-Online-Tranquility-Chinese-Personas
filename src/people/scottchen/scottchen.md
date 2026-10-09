@@ -30,7 +30,7 @@ FRCC 2011 年先在 CareBear Union，2013 年在 Apocalypse Now.，2013 年 9 �
 :::
 
 ::: 红料 KB：九百杀，一万九千亿
-zKillboard 上击杀 959，打掉 1.92 万亿 ISK，自己十五年只损失 132 亿。用得最多的是 Eagle 和 Ishtar。
+zKillboard 上击杀 959，打掉 1.92 万亿 ISK，自己十五年只损失 132 亿。用得最多的是银鹰和伊什塔。
 :::
 
 ::: 评

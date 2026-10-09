@@ -14,7 +14,7 @@ tags: [00区]
 
 **华人公司的开山人，先在蜜蜂干了一年**
 
-Cleaner Sk 这个号的雇佣记录，开头并不“华人”：2006 年在 HCIB Industrial，2007 年 4 月进了一家叫 **Motto Oppai Enterprises** 的军团（日语 Oppai 什么意思，自己查），两周后转进 Visual I.D——挂的是 **GoonSwarm**，一直待到 2008 年 3 月。
+Cleaner Sk 这个号的雇佣记录，开头并不“华人”：2006 年在 HCIB Industrial，2007 年 4 月进了一家叫 **Motto Oppai Enterprises** 的军团——日语 Oppai 是“胸部”，两周后转进 Visual I.D，挂在 **GoonSwarm** 旗下，一直待到 2008 年 3 月。
 
 后来华人圈天天骂的蜜蜂，大花是早期会员。
 
@@ -24,7 +24,7 @@ Cleaner Sk 这个号的雇佣记录，开头并不“华人”：2006 年在 HCI
 
 2013 年盘古分裂，Wind 带走一半公司另立 FRT。据[大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)，继续留在盘古的有 PLA、SOCM，还有大花当时所在的 **23rd Tier Overseer's Personal Effects**。大花这个号此后一直待在这家军团，盘古 2015 年灭灯后再没挂过联盟。
 
-zKillboard 上，他生涯击杀 92，用得最多的是 Dominix，还开过 Rorqual；KB 最后一条记录在 2012 年。角色简介是一张英文打怪抗性表——老板的号，主业是刷。
+zKillboard 上，他生涯击杀 92，用得最多的是多米尼克斯，还开过大鱼；KB 最后一条记录在 2012 年。角色简介是一张英文打怪抗性表——老板的号，主业是刷。
 
 ::: 红料 华人老公司的创始人
 据[大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)：

@@ -1,0 +1,82 @@
+{
+  "id": 2124239778,
+  "name": "Focalors Servant",
+  "birthday": "2026-03-25T15:48:49Z",
+  "current_corporation": {
+    "id": 98808817,
+    "name": "Knight of Zero Ultra",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98808817,
+      "name": "Knight of Zero Ultra",
+      "ticker": "K Z U"
+    },
+    "alliance": {
+      "id": 99010877,
+      "name": "Out of the Blue.",
+      "ticker": "VAPOR"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2026-03-25T15:49:00Z",
+      "end": "2026-04-18T04:23:00Z"
+    },
+    {
+      "corporation_id": 98787309,
+      "name": "Chi Gua University",
+      "npc": false,
+      "start": "2026-04-18T04:23:00Z",
+      "end": "2026-04-22T03:56:00Z"
+    },
+    {
+      "corporation_id": 98524084,
+      "name": "Chi Gua",
+      "npc": false,
+      "start": "2026-04-22T03:56:00Z",
+      "end": "2026-05-10T09:45:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2026-05-10T09:45:00Z",
+      "end": "2026-05-12T12:02:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2026-05-12T12:02:00Z",
+      "end": "2026-05-14T10:18:00Z"
+    },
+    {
+      "corporation_id": 98805140,
+      "name": "Sunset Red Activity Club",
+      "npc": false,
+      "start": "2026-05-14T10:18:00Z",
+      "end": "2026-06-18T10:35:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2026-06-18T10:35:00Z",
+      "end": "2026-06-18T15:30:00Z"
+    },
+    {
+      "corporation_id": 98808817,
+      "name": "Knight of Zero Ultra",
+      "npc": false,
+      "start": "2026-06-18T15:30:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

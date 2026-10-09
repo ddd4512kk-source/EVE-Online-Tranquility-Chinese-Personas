@@ -45,15 +45,13 @@ tags: [00区]
 :::
 
 ::: 红料 KB：黑隐猎手
-zKillboard 生涯击杀六千二百多，用得最多的是 Redeemer（820 次），一条黑隐战列舰。
+zKillboard 生涯击杀六千二百多，用得最多的是救世（820 次），一条黑隐战列舰。
 :::
 
 ::: 黑料 RR 的 RMT 爆料：船没交，帖子先没了
 2019 年 12 月，Reddit 用户 huahuahua1 发了[《RMT alliance ranger regiment.the ceo is an idiot.》](https://www.reddit.com/r/Eve/comments/e6dv20/)，指控 RR 管理层涉及 RMT。他在回帖里称，一名新人付了人民币买超旗，迟迟没拿到船，随后起了纠纷；并点名台风，称自己在中文 EVE 论坛被封了十天，相关消息也被删掉。
 
-同帖另一位用户听完录音后的转述，把收钱卖船者指向 RR 下属 beidaxiyang 军团的 CEO。卖船的人另有其人，台风这边的戏份是压帖：RMT 的讨论一冒头，论坛就先清净了。楼主还贴了[B 站录音入口](https://www.bilibili.com/audio/au1189746)，阿姨压得住论坛，压不住录音。
-
-按爆料者的说法，船还没交到新人手里，讨论倒先从论坛上消失了。阿姨教新人入门，吧务教新人闭嘴。
+同帖另一位用户转述录音内容，把收钱卖船者指向 RR 下属 beidaxiyang 军团的 CEO；楼主则指台风封了自己十天，并删掉相关讨论。帖中还附了[B 站录音入口](https://www.bilibili.com/audio/au1189746)。这场争议里，卖船指控落在别人身上，台风留下的名声却和删帖连在了一起。
 :::
 
 ::: 黑料 RMT 封号传闻：星华守护者，星华先被清出去

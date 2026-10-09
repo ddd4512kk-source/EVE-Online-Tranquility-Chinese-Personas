@@ -25,7 +25,7 @@ Link Noel，林克，伏羲总监、新人手册主编之一。读他的自述�
 
 > The Million Dollar battle's witness of C-LTXS
 
-2018 年 5 月的 C-LTXS 一战，他当月击杀总额 1.08 万亿，是生涯单月最高。简介里挂着那一仗的战报比分——“Blue : Red : Green : Purple = 2908.93B : 604.16B : 36.7B : 22.68B”——还挂着三座 Keepstar 的击毁记录：Legion of xXDEATHXx、TEST、UAGs 各一座。最后一句：“Winter Coalition is always growing up!”
+2018 年 5 月的 C-LTXS 一战，他当月击杀总额 1.08 万亿，是生涯单月最高。简介里挂着那一仗的战报比分——“Blue : Red : Green : Purple = 2908.93B : 604.16B : 36.7B : 22.68B”——还挂着三座 Keepstar 的击毁记录：Black Legion of xXDEATHXx、TEST、UAGs 各一座。最后一句：“Winter Coalition is always growing up!”
 :::
 
 ::: 红料 一个军团，九年

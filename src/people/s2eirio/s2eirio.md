@@ -25,7 +25,7 @@ E姐，游戏名 s2eirio，混沌仲裁者（Chaos arbiter，CACX）的 CEO。�
 :::
 
 ::: 红料 KB：两千五百杀
-zKillboard 生涯击杀 2595，打掉 9313 亿，损失 488 亿。用得最多的是 Huginn 和 Flycatcher；常去的星系除了 00 区，还有 Amamake、Hadozeko、Frerstorn 这几个出了名的低安海盗窝。
+zKillboard 生涯击杀 2595，打掉 9313 亿，损失 488 亿。用得最多的是休津和飞燕；常去的星系除了 00 区，还有 Amamake、Hadozeko、Frerstorn 这几个出了名的低安海盗窝。
 :::
 
 ::: 评

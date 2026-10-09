@@ -1,12 +1,14 @@
 import markdownItContainer from "markdown-it-container";
 import fs from "node:fs";
 import path from "node:path";
+import { glossaryEntries, glossaryLinks } from "./scripts/glossary.mjs";
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = (n) => String(n).padStart(2, "0");
 const utc = (iso) => (iso ? new Date(iso) : null);
 
 export default function (eleventyConfig) {
+  eleventyConfig.addGlobalData("glossaryEntries", glossaryEntries);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   for (const person of fs.readdirSync("src/people", { withFileTypes: true })) {
     if (!person.isDirectory()) continue;
@@ -48,6 +50,7 @@ export default function (eleventyConfig) {
         },
       });
     }
+    md.use(glossaryLinks);
   });
 
   // 列传集合：按主角色创号时间升序
@@ -104,6 +107,9 @@ export default function (eleventyConfig) {
     return groups;
   });
   eleventyConfig.addFilter("json", (v) => JSON.stringify(v));
+  eleventyConfig.addFilter("glossaryUsed", (content) =>
+    glossaryEntries.filter((entry) => String(content).includes(`data-glossary-id="${entry.id}"`)),
+  );
   // 供首页即时筛选用的检索串
   eleventyConfig.addFilter("searchKey", (d) =>
     [d.cn_name, d.char?.name, ...(d.aliases ?? []), ...(d.labels ?? []), d.epithet]

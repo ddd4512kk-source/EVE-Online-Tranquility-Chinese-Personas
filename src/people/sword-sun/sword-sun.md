@@ -28,10 +28,10 @@ tags: [00区, FRT, 凤凰城]
 在游戏里也一样。2021 年 4 月，他在凛冬论坛发[《PC公司师徒系统分享》](https://forums.winterco.org/t/topic/11037)，介绍凤凰城的做法：招新官建师傅库，按时区和专长给新人配师傅，带满两三个月给师傅奖励和专属头衔。“不太爱说话的，需要师傅去教，提高存活率”，结果是“军团内有不同的师门，很有意思”。帖子最后一句：“如果人人都献出一点爱，时间将变成美好的人间。”
 :::
 
-::: 红料 Atioth 屠泰坦，Vulture 在场
-2026 年 4 月 7 日，Atioth 一场大战里，一条 Azariel、五条 Leviathan，外加 Ragnarok 和 Vendetta 各一条被打掉，大多是 Goons 的。[zKillboard](https://zkillboard.com/kill/134564723/) 上，参与击杀 Azariel 的 612 人里有连山，开的是指挥舰 Vulture。这一个月，他的击杀总价值冲到 2.1 万亿 ISK，此前最高的月份不过 1381 亿。
+::: 红料 Atioth 屠泰坦，兀鹫在场
+2026 年 4 月 7 日，Atioth 一场大战里，一条阿扎里尔、五条勒维亚坦，外加拉格纳洛克和仇恨各一条被打掉，大多是 Goons 的。[zKillboard](https://zkillboard.com/kill/134564723/) 上，参与击杀阿扎里尔的 612 人里有连山，开的是指挥舰兀鹫。这一个月，他的击杀总价值冲到 2.1 万亿 ISK，此前最高的月份不过 1381 亿。
 
-平时的成绩单也不难看：[zKillboard](https://zkillboard.com/character/94321893/) 记着 3824 次击杀，最常用 Eagle、Sabre、Muninn，最常去的是 D7-ZAC。
+平时的成绩单也不难看：[zKillboard](https://zkillboard.com/character/94321893/) 记着 3824 次击杀，最常用银鹰、剑齿虎、缪宁，最常去的是 D7-ZAC。
 :::
 
 ::: 黑料 严禁，不是严谨

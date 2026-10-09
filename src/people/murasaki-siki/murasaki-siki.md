@@ -17,7 +17,7 @@ tags: [00区, FRT, "Navigators' Union"]
 :::
 
 ::: 红料 KB：开驱逐和拦截
-zKillboard 生涯击杀 735，用得最多的是 Sleipnir 和 Svipul，单杀 57 次。
+zKillboard 生涯击杀 735，用得最多的是斯雷普尼和斯威普，单杀 57 次。
 :::
 
 ::: 黑料 简介：DUST 514 的战斗服

@@ -42,11 +42,11 @@ Illusion Raven，头衔：
 :::
 
 ::: 红料 KB：四百九十杀
-zKillboard 生涯击杀 498，打掉 1.18 万亿 ISK，用得最多的是 Rokh、Muninn、Machariel、Cerberus，还开过 Revelation 无畏。常去 Otsasai、Atioth——低安和凛冬的前线。简介里写着最爱 Sleipnir，KB 上却没进前十。
+zKillboard 生涯击杀 498，打掉 1.18 万亿 ISK，用得最多的是鹏鲲、缪宁、马克瑞、希尔博拉斯，还开过神示无畏。常去 Otsasai、Atioth——低安和凛冬的前线。简介里写着最爱斯雷普尼，KB 上却没进前十。
 :::
 
 ::: 评
-Illusion Raven 是伏羲的课代表：武器、舰船、LP、刷怪，一门一门给新人写；新人问得多了，就开帖汇总，顺便劝一句“先翻论坛”。连弓头鲸算不算旗舰这种问题，他也要立案审理。
+Illusion 乌鸦是伏羲的课代表：武器、舰船、LP、刷怪，一门一门给新人写；新人问得多了，就开帖汇总，顺便劝一句“先翻论坛”。连弓头鲸算不算旗舰这种问题，他也要立案审理。
 
 简介里的“Always Stressed”，大概就是这么来的。
 :::

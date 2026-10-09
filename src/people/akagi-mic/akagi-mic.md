@@ -11,9 +11,9 @@ Akagi，游戏名 Akagi Mic，龙裔（Dragonborn of New Eden，DNE）的 CEO。
 龙裔 2016 年建团，2016 年 10 月起挂 FRT，2020 年 12 月退出 FRT，三个月后的 2021 年 3 月又回来了。
 
 ::: 红料 KB：三千五百杀，四万二千亿
-zKillboard 生涯击杀 3558，打掉 **4.25 万亿 ISK**，自己只损失 380 亿。用得最多的是 Huginn、Zealot、Muninn。
+zKillboard 生涯击杀 3558，打掉 **4.25 万亿 ISK**，自己只损失 380 亿。用得最多的是休津、狂热、缪宁。
 
-2018 年 5 月 20 日，C-LTXS 一战，KM 上是一排 Erebus、Avatar 泰坦；Akagi 那个月击杀 **1.19 万亿**。
+2018 年 5 月 20 日，C-LTXS 一战，KM 上是一排俄洛巴斯、神使泰坦；Akagi 那个月击杀 **1.19 万亿**。
 :::
 
 ::: 红料 龙裔的团风

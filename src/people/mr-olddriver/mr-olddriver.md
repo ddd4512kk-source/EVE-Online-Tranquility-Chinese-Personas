@@ -19,7 +19,7 @@ tags: [00区, DC]
 > Kill: CCP Bee (Capsule)
 > Kill: CCP Bee (Flycatcher)
 
-KM 上，2023 年 1 月 20 日，两位叫 FC Spider、FC Bee 的玩家，所在军团名为 **C C P**——一条 Drake Navy Issue、一条 Flycatcher 连同逃生舱，最后一击都是老司机补的。另外还有一条 Thanatos 航母、一座古斯塔斯的 Sotiyo。
+KM 上，2023 年 1 月 20 日，两位叫 FC Spider、FC Bee 的玩家，所在军团名为 **C C P**——一条幼龙型、一条飞燕连同逃生舱，最后一击都是老司机补的。另外还有一条绝念航母、一座古斯塔斯的 Sotiyo。
 
 简介最后一行是给自己的定位：
 
@@ -27,7 +27,7 @@ KM 上，2023 年 1 月 20 日，两位叫 FC Spider、FC Bee 的玩家，所在
 :::
 
 ::: 红料 KB：两千杀，单杀近两百
-zKillboard 生涯击杀 2183，单杀 198，用得最多的是 Exequror Navy Issue（207 次）、Vedmak、Muninn、Nightmare，还开过 67 次 Nyx 超级航母。击杀里 AOM 时期一千张、PH 时期八百多张、DC 时期两百张，三家联盟的 KM 他都签得不少。
+zKillboard 生涯击杀 2183，单杀 198，用得最多的是送葬者207 次）、维德马克、缪宁、噩梦，还开过 67 次夜神超级航母。击杀里 AOM 时期一千张、PH 时期八百多张、DC 时期两百张，三家联盟的 KM 他都签得不少。
 :::
 
 ::: 评

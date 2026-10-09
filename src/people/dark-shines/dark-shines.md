@@ -5,20 +5,20 @@ epithet: 宇宙老三，专挑老二最忙的时候来。
 tags: [00区, INIT, 著名FC, 非华人]
 ---
 
-Dark Shines，2004 年 11 月建号，四人里资格最老。2011 年起一直在 The Initiative.（INIT）旗下，从 Vanishing Point.、Project Valhalla. 一路换到 The Fuel Cartel.、Void of Eden.，联盟一直没变，是 INIT 的掌门人。吧里叫他 Darkshine，FRT 那边叫他“黑暗闪耀”，叫法里透着点咬牙切齿。
+Dark Shines 是 The Initiative.（INIT）的领头人。2004 年建号，2011 年加入 INIT 体系；2012 年曾短暂去 Pandemic Legion，之后又回到 INIT。此后他辗转 Vanishing Point.、Project Valhalla.、The Fuel Cartel.、Void of Eden. 等军团，始终在同一个联盟里。贴吧常写作 Darkshine，FRT 玩家则叫他“黑暗闪耀”，听着就不怎么亲热。
 
-他的 KB 是四人里最吓人的：zKillboard 上 35225 个击杀、近 35 万亿 ISK，单杀 531；最常开的是 Monitor，九千多次——那是 FC 的指挥船。角色简介只有一行，挂着 Twitch 频道 zehpando，后面跟一句“Pando Feet Pics”。[HY](../985265753/) 在 PH 崩盘回顾里顺带提过一句，EVE 里有几个大联盟 CEO，“其实是依靠其所建立的大社区来赚钱（比如Darkshine）”。
+他的 KB 有 35,225 条击杀记录，涉及近 35 万亿 ISK，单杀 531 次；最常出现在记录里的船是监视者，共九千多次。这样的数字能看出他长期活跃在战斗里，却不能单靠 KB 证明每场都由他指挥。角色简介倒很短，只挂着 Twitch 频道 zehpando，后面跟一句“Pando Feet Pics”。[HY](../985265753/) 在 PH 崩盘回顾里顺带提过，EVE 有些大联盟 CEO“其实是依靠其所建立的大社区来赚钱（比如 Darkshine）”。
 
 INIT 多年是帝国联盟群的二号种子。2025 年元旦，它和帝国重置声望，宣布独立；此后宇宙变成三家：老大蜜蜂、老二凛冬、老三 INIT。FRT 和他的交情，就是在这一年翻了脸。
 
 ::: 红料 1N-FJ8：二十分钟，六条超旗
-2024 年 11 月 29 日，INIT 在 1N-FJ8 设伏，FRT 一方出动旗舰救场，结果撞进了口袋。短短二十多分钟，[冷剑](../2114027991/)两个号的旗舰先后爆炸：小号 HikariHomura 的 Azariel 泰坦（[KM](https://zkillboard.com/kill/122868462/)，7686 亿）和主号的 Revenant 超级航母（[KM](https://zkillboard.com/kill/122868505/)，2625 亿）；FRT 的 Vanquisher、Komodo 两条泰坦各丢了七千多亿，外加一条 Erebus、一条 Ragnarok。六张 KM 上，都签着 Dark Shines 的名字。他这个月的击杀总额将近三万亿，生涯最高。
+2024 年 11 月 29 日，INIT 在 1N-FJ8 设伏，FRT 一方派旗舰救场，结果撞进口袋。二十多分钟里，[冷剑](../2114027991/)两个号的旗舰先后被击毁：小号 HikariHomura 的阿扎里尔泰坦（[KM](https://zkillboard.com/kill/122868462/)，7686 亿）和主号的归魂者超级航母（[KM](https://zkillboard.com/kill/122868505/)，2625 亿）。FRT 的征服者、科莫多两条泰坦各损失七千多亿，另有一条俄洛巴斯和一条拉格纳洛克。六张 KM 的参战名单上都有 Dark Shines；这些记录不等于六条旗舰都是他亲手击毁。这个月他的击杀总额将近三万亿，是生涯最高。
 
 欧服吧当天的标题是[《当老外错估了中国玩家的实力会是什么下场》](https://tieba.baidu.com/p/9295291727)，楼下一片哈哈哈；有人接着唱：“不管怎么说，FRT 的大鱼救下来了，战略上胜利了！……什么？大鱼也死了？”
 :::
 
 ::: 红料 2026 年 7 月：点名自家华人团的脚本号
-2026 年 7 月，INIT 旗下华人军团 Emperor Scythes 的管理[阿进](../2114253465/)被曝长期挂脚本。据[吧里的帖子](https://tieba.baidu.com/p/10854600210)，是联盟 CEO Darkshine 亲自点名，脚本号被踢出军团，所在 auth 账号全部拉黑。楼下拍手：“天天喜欢说别人是脚本的，天道好轮回。”
+2026 年 7 月，INIT 旗下华人军团 Emperor Scythes 的管理[阿进](../2114253465/)被曝长期挂脚本。据[吧里的帖子](https://tieba.baidu.com/p/10854600210)，联盟 CEO Darkshine 亲自点名处理：涉事角色被踢出军团，相关 auth 账号被拉黑。楼下有人拍手：“天天喜欢说别人是脚本的，天道好轮回。”
 
 在一个被对手骂“脚本联盟”的圈子里，盟主亲手抓脚本，这一条算他的。
 :::
@@ -68,7 +68,7 @@ PH 散伙后，吧里有人抱怨 FRT 天天拿“服务器生态”说事，被
 :::
 
 ::: 黑料 杂料
-- 2026 年 10 月 3 日，Dark Shines 的一艘 Leviathan 泰坦在 C-N4OD 被击毁，[KM](https://zkillboard.com/kill/138885892/) 上 1118 名凶手，1117 个是 INIT 自己人。和 Asher 两个月前那艘一样，看样子是自家办的活动；老三这回倒是和老大步调一致。
+- 2026 年 10 月 3 日，Dark Shines 的一艘勒维亚坦泰坦在 C-N4OD 被击毁，[KM](https://zkillboard.com/kill/138885892/) 上 1118 名凶手，1117 个是 INIT 自己人。和 Asher 两个月前那艘一样，看样子是自家办的活动；老三这回倒是和老大步调一致。
 - 吧里另一句评价，出自一篇回忆录的楼下：“米塔尼、asher、n老板、darkshine这些人物没那么傻，他们是真的很牛逼很有本事。”（[帖子](https://tieba.baidu.com/p/10587378180)）
 :::
 

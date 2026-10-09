@@ -14,13 +14,13 @@ Nan Li Leo，北极星（PMA）虫洞圈的老成员。[2025 年 3 月的帝国�
 ::: 红料 队伍散了，还想叫人救场
 [帝国新闻社转述的旧队内争执](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)里，一次对 DC 的战斗失利后，原指挥被指先行跳走下线。按这份转述，Nan Li Leo 叫后续成员进场救队友，最终仍没赶上。指挥先跑了，留下来喊人救场的是他，这一回至少站对了位置。
 
-[zKillboard](https://zkillboard.com/character/2113744134/)有 251 次击杀、18 次单杀，常用 Tornado、Stiletto 和 Legion。
+[zKillboard](https://zkillboard.com/character/2113744134/)有 251 次击杀、18 次单杀，常用龙卷风、短剑和圣卒。
 :::
 
 ::: 红料 亲手把旧交易摆上桌
 2025 年 3 月，帝国新闻社刊出[交易梳理与对他的采访](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)；随后 Reddit 的[英文爆料帖](https://www.reddit.com/r/Eve/comments/1jmkw13/)署名 We Love Cody 的 CEO Code Earth。Nan Li Leo 在评论区说，帖子由他代 Code Earth 发布。
 
-报道列出了卖家、买家、三艘 Cybele 和双方聊天截图。肯把自己放进中间人名单，确实让这笔交易有了一个可追问的人；也让自己从旁观者变成了当事人。
+报道列出卖家、买家、三艘西布勒和双方的聊天内容。肯把自己放进中间人名单，确实让这笔交易有了一个可追问的人；也让自己从旁观者变成了当事人。
 :::
 
 ::: 黑料 牵线时在场，揭发时也在场
@@ -36,9 +36,9 @@ Nan Li Leo，北极星（PMA）虫洞圈的老成员。[2025 年 3 月的帝国�
 :::
 
 ::: 黑料 爆料爆到现实身份，连采访者都看不下去
-同一篇[报道](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)还记载，Nan Li Leo 的关联角色曾在游戏本地频道公开对方的现实身份与联系方式。撰稿人对此明确谴责，并写 Nan Li Leo 承认这样做不妥。
+同一篇[报道](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)还记载，Nan Li Leo 的关联角色曾在游戏本地频道公开对方的现实身份与联系方式。撰稿人谴责了这种做法，Nan Li Leo 也承认这样不妥。
 
-这件事只能写到这里：现实身份资料不转述、不链接截图。游戏里揭交易可以对着船和合同讲，把真人资料扔进本地频道，是这场报复里最不该学的一招。
+游戏里揭交易可以对着船和合同讲，把真人资料扔进本地频道，才是这场报复里最越线的一步。
 :::
 
 ::: 评
