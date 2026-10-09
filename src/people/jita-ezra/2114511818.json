@@ -1,0 +1,57 @@
+{
+  "id": 2114511818,
+  "name": "jita ezra",
+  "birthday": "2018-09-13T16:32:11Z",
+  "current_corporation": {
+    "id": 1000044,
+    "name": "School of Applied Knowledge",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98651999,
+      "name": "Violent Star Reviewers",
+      "ticker": "NCT-V"
+    },
+    "alliance": null,
+    "left_at": "2023-04-29T03:10:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-09-13T16:32:00Z",
+      "end": "2019-10-09T14:20:00Z"
+    },
+    {
+      "corporation_id": 98614214,
+      "name": "Gaze into the Abyss",
+      "npc": false,
+      "start": "2019-10-09T14:20:00Z",
+      "end": "2020-08-05T02:19:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2020-08-05T02:19:00Z",
+      "end": "2020-08-05T02:22:00Z"
+    },
+    {
+      "corporation_id": 98651999,
+      "name": "Violent Star Reviewers",
+      "npc": false,
+      "start": "2020-08-05T02:22:00Z",
+      "end": "2023-04-29T03:10:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2023-04-29T03:10:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

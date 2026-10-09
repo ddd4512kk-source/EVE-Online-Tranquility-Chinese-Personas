@@ -22,6 +22,7 @@
   --zhu: #e0554a;          /* 朱砂 */
   --zhu-bg: rgba(224, 85, 74, 0.08);
   --link: #d9b673;
+  --term-link: #8fc4ee;
   --focus: #7fb4ff;
   --hong: #c23b30;         /* 红料 */
   --hong-bg: rgba(194, 59, 48, 0.07);
@@ -60,6 +61,7 @@
     --zhu: #b0322a;
     --zhu-bg: rgba(176, 50, 42, 0.06);
     --link: #7b5a1e;
+    --term-link: #175a92;
     --focus: #2563eb;
     --hong: #b52d24;
     --hong-bg: rgba(181, 45, 36, 0.05);
@@ -316,6 +318,29 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .prose table { border-collapse: collapse; width: 100%; font-size: .92em; display: block; overflow-x: auto; }
 .prose th, .prose td { border: 1px solid var(--line); padding: .35em .6em; }
 .prose del { color: var(--text-faint); }
+.prose .term-link { color: var(--term-link); text-decoration: underline dotted; text-underline-offset: .16em; cursor: help; }
+.prose .term-link:hover { text-decoration-style: solid; }
+
+.glossary-dialog {
+  width: min(30rem, calc(100% - 32px)); max-height: min(75vh, 40rem);
+  padding: 1.25rem 1.5rem; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--bg-raised); color: var(--text); box-shadow: 0 1rem 3rem rgba(0, 0, 0, .4);
+  font-family: var(--sans); line-height: 1.7;
+}
+.glossary-dialog::backdrop { background: rgba(0, 0, 0, .65); }
+.glossary-dialog h2 { font: 700 1.25rem var(--serif); margin: 0 2rem .7rem 0; }
+.glossary-dialog p { margin: .5rem 0 1rem; }
+.glossary-close { position: absolute; top: .45rem; right: .65rem; padding: .1rem .45rem; border: 0; background: none; color: var(--text); font: 1.6rem var(--sans); cursor: pointer; }
+.glossary-avoid { display: block; color: var(--text-dim); margin-top: .5rem; }
+.glossary-page { max-width: var(--measure); margin: auto; }
+.glossary-page h1 { font-family: var(--serif); }
+.glossary-page > p { color: var(--text-dim); }
+.glossary-list { margin: 1.5rem 0; }
+.glossary-list > div { padding: .8rem 0; border-top: 1px solid var(--line-soft); scroll-margin-top: 5rem; overflow-wrap: anywhere; }
+.glossary-list > div:target { border-left: 3px solid var(--term-link); padding-left: .8rem; background: var(--bg-raised); }
+.glossary-list dt { font-weight: 700; color: var(--term-link); }
+.glossary-list dd { margin: .3rem 0 0; }
+.glossary-draft { margin-left: .6em; color: var(--text-dim); font: 400 .7rem var(--sans); vertical-align: middle; }
 
 /* 朱批：::: 评 */
 .zhupi {

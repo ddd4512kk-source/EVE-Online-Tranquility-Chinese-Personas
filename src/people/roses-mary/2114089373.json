@@ -1,0 +1,89 @@
+{
+  "id": 2114089373,
+  "name": "roses mary",
+  "birthday": "2018-05-09T05:15:23Z",
+  "current_corporation": {
+    "id": 98725234,
+    "name": "Alkaid Broken Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725234,
+      "name": "Alkaid Broken Army",
+      "ticker": "YAO.G"
+    },
+    "alliance": {
+      "id": 1900696668,
+      "name": "The Initiative.",
+      "ticker": "INIT."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-05-09T05:15:00Z",
+      "end": "2018-05-12T04:44:00Z"
+    },
+    {
+      "corporation_id": 98540691,
+      "name": "NINE Continent",
+      "npc": false,
+      "start": "2018-05-12T04:44:00Z",
+      "end": "2019-05-27T12:57:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2019-05-27T12:57:00Z",
+      "end": "2019-05-27T13:20:00Z"
+    },
+    {
+      "corporation_id": 98589708,
+      "name": "Moonlight snow night",
+      "npc": false,
+      "start": "2019-05-27T13:20:00Z",
+      "end": "2019-05-27T13:21:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2019-05-27T13:21:00Z",
+      "end": "2019-05-27T13:21:00Z"
+    },
+    {
+      "corporation_id": 98568863,
+      "name": "Moriya Military Industry Complex",
+      "npc": false,
+      "start": "2019-05-27T13:21:00Z",
+      "end": "2019-07-02T13:37:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2019-07-02T13:37:00Z",
+      "end": "2019-10-22T01:20:00Z"
+    },
+    {
+      "corporation_id": 98614214,
+      "name": "Gaze into the Abyss",
+      "npc": false,
+      "start": "2019-10-22T01:20:00Z",
+      "end": "2023-03-09T12:30:00Z"
+    },
+    {
+      "corporation_id": 98725234,
+      "name": "Alkaid Broken Army",
+      "npc": false,
+      "start": "2023-03-09T12:30:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

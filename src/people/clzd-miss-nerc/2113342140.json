@@ -1,0 +1,68 @@
+{
+  "id": 2113342140,
+  "name": "CLZD-MISS NERC",
+  "birthday": "2017-10-21T13:49:52Z",
+  "current_corporation": {
+    "id": 98825114,
+    "name": "Euphoria.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98825114,
+      "name": "Euphoria.",
+      "ticker": "E0."
+    },
+    "alliance": {
+      "id": 99015206,
+      "name": "Celestial Palace.",
+      "ticker": "CP."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2017-10-21T13:50:00Z",
+      "end": "2017-10-23T13:48:00Z"
+    },
+    {
+      "corporation_id": 98531304,
+      "name": "Sacred Order Empire",
+      "npc": false,
+      "start": "2017-10-23T13:48:00Z",
+      "end": "2017-11-25T08:38:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2017-11-25T08:38:00Z",
+      "end": "2017-11-25T08:39:00Z"
+    },
+    {
+      "corporation_id": 98509938,
+      "name": "Ranger Warrior",
+      "npc": false,
+      "start": "2017-11-25T08:39:00Z",
+      "end": "2026-08-14T10:44:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2026-08-14T10:44:00Z",
+      "end": "2026-08-14T10:45:00Z"
+    },
+    {
+      "corporation_id": 98825114,
+      "name": "Euphoria.",
+      "npc": false,
+      "start": "2026-08-14T10:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

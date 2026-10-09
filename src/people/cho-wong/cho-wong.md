@@ -16,7 +16,7 @@ tags: [00区, FRT]
 ::: 红料 洋人圈里打出来的老海盗
 胡捏不是华人联盟里长大的。他 2009 年建号，前几年混的全是洋人联盟：Gentlemen's Club、Northern Coalition.、Against ALL Authorities（-A-）、Verge of Collapse、Snuffed Out……2014 年才第一次进女娲、挂上 FRT。
 
-zKillboard 上，他生涯击杀 **9854**，打掉约 6.6 万亿 ISK，单杀 939 次，用得最多的船是 Sabre（1054 次）——专门拉泡泡堵人的拦截舰。KM 上挂着他名字的大船有：2011 年 Red Alliance 的一条 Nyx、2012 年一条 Erebus 泰坦、2013 年 Pandemic Legion 的一条 Nyx。
+zKillboard 上，他生涯击杀 **9854**，打掉约 6.6 万亿 ISK，单杀 939 次，用得最多的船是剑齿虎（1054 次）——专门拉泡泡堵人的拦截舰。KM 上挂着他名字的大船有：2011 年 Red Alliance 的一条夜神、2012 年一条俄洛巴斯泰坦、2013 年 Pandemic Legion 的一条夜神。
 
 角色简介是一份仿制的“DED 数据库查询结果”：
 
@@ -30,17 +30,17 @@ zKillboard 上，他生涯击杀 **9854**，打掉约 6.6 万亿 ISK，单杀 93
 :::
 
 ::: 黑料 进团当天，杀团友
-2012 年，胡捏有几次入团只待一两天，zKillboard 给这几张 KM 打上了 **awox**（击杀自己军团成员）的标签：
+2012 年，胡捏有几次入团只待一两天，zKillboard 给这几张 KM 打上了**打蓝**标签：
 
-- 4 月 17 日进 Eclipse Navy，第二天在 27-HP0 单杀了一位团友的 Cheetah；
-- 4 月 18 日进 Breathe.，当天就在高安 Shuria [单杀了一位团友的 Paladin](https://zkillboard.com/kill/23398542/)，1.62B，当天离团；
-- 5 月 1 日进 Refine Trade And Transportation，第二天在高安连杀两位团友，一条 Noctis、一条 Rifter。
+- 4 月 17 日进 Eclipse Navy，第二天在 27-HP0 单杀了一位团友的猎豹；
+- 4 月 18 日进 Breathe.，当天就在高安 Shuria [单杀了一位团友的帕拉丁](https://zkillboard.com/kill/23398542/)，1.62B，当天离团；
+- 5 月 1 日进 Refine Trade And Transportation，第二天在高安连杀两位团友，一条黑夜、一条裂谷。
 
 后来 PLA 指控他“用马甲进 PLA 把 POS 里的船弄出去击毁”，放在这几张 KM 旁边看，手法倒是一脉相承。
 :::
 
 ::: 黑料 团先退了，蓝加就不算了吗
-据[荣耀编写的大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)，2013 年末胡捏退出女娲，跑去打 PLA 新人的 Noctis 和工业船；该文还指控他用马甲进入 PLA，把 POS 里的船弄出去击毁，之后又回到 FRT。
+据[荣耀编写的大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)，2013 年末胡捏退出女娲，跑去打 PLA 新人的黑夜和工业船；该文还指控他用马甲进入 PLA，把 POS 里的船弄出去击毁，之后又回到 FRT。
 
 这套退团、动手、回团的经过，是 PLA 一方记下的旧怨，也是双方吵翻的核心：个人摘掉军团牌子之后，原来的组织到底还要不要负责？
 

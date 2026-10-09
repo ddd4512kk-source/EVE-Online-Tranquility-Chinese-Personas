@@ -35,7 +35,7 @@ tags: [FRT, 00区]
 :::
 
 ::: 红料 Atioth，真给泰坦打过伤害
-2026 年 4 月 7 日，Tina Ortini 在 Atioth 驾驶 Revelation Navy Issue，参与了 [DreadB0mb 的 Leviathan](https://zkillboard.com/kill/134564876/)、[Orc Foxy 的 Erebus](https://zkillboard.com/kill/134564373/)以及 [Samsid Way 的 Leviathan](https://zkillboard.com/kill/134565951/)击杀。三张 KM 中，这个角色分别打了约 14.7 万、6.1 万、6.1 万伤害；各条泰坦估值都在 1600 亿 ISK 以上。
+2026 年 4 月 7 日，Tina Ortini 驾驶神示级，在 Atioth 出现在三张泰坦 KM 上：一条 [DreadB0mb 的勒维亚坦](https://zkillboard.com/kill/134564876/)、一条 [Orc Foxy 的俄洛巴斯](https://zkillboard.com/kill/134564373/)和一条 [Samsid Way 的勒维亚坦](https://zkillboard.com/kill/134565951/)。三张 KM 中，这个角色分别打了约 14.7 万、6.1 万、6.1 万伤害；各条泰坦估值都在 1600 亿 ISK 以上。
 
 他的论坛发言常像在算经营账，战场上也不是只来发表经营意见。刷怪护航之外，大会战的旗舰席位，他确实坐过。
 :::

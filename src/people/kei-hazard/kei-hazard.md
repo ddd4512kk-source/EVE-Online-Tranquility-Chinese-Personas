@@ -33,7 +33,7 @@ Kei Hazard，2012 年 12 月建号，却在 NPC 军团里躺了四年多，2017 
 
 > 永远不要说：“请给一个XX舰船的配置，谢谢”
 
-KB 也是小队选手的样子：zKillboard 生涯击杀 1621，用得最多的是 Hyena（414 次）、Magus、Stiletto，常去 H-ADOC、1L-OEK——OSY 门口。
+KB 也是小队选手的样子：zKillboard 生涯击杀 1621，用得最多的是土狼（414 次）、占星、短剑，常去 H-ADOC、1L-OEK——OSY 门口。
 :::
 
 ::: 评

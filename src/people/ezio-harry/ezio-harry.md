@@ -36,7 +36,7 @@ tags: [00区, FRT, 著名FC, Arknights.]
 :::
 
 ::: 红料 KB：一万一千杀，十万亿
-zKillboard 生涯击杀 11186，打掉约 10.4 万亿 ISK，Monitor 开了 2095 次。
+zKillboard 生涯击杀 11186，打掉约 10.4 万亿 ISK，监视者开了 2095 次。
 :::
 
 ::: 评

@@ -13,7 +13,7 @@ tags: [00区, 虫洞, 凌晨四点玩原神, AT19冠军, 低安]
 :::
 
 ::: 红料 KB：七千杀
-zKillboard 生涯击杀 7454，用得最多的是 Nightmare、Loki、Orthrus。
+zKillboard 生涯击杀 7454，用得最多的是噩梦、洛基、奥苏斯。
 :::
 
 ::: 黑料 WWB2 打到一半，从蜜蜂过来

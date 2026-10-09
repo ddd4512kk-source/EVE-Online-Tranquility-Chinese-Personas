@@ -9,13 +9,13 @@ tags: [00区, FRT, 女娲]
 兔仔猪，游戏头衔写作“兔宰猪”，游戏名 Rabbit P，2012 年建号。盘古时期在 Die Valkyrja、大花的 23rd Tier Overseer's Personal Effects，2014 年 4 月进女娲，十二年没挪窝。他和[羊叔](../92484561/)是凛冬多年的版本更新翻译。
 
 ::: 红料 二百九十篇版本翻译
-兔仔猪在凛冬论坛开了 **290 个主题**，几乎全是 CCP 开发日志和版本更新的中文翻译：从 Crucible、Inferno、Retribution 一路翻到 Ascension、Into The Abyss，还有一个总目录帖《╰(^∀^ )/ EVE 歷來版本更新摘要總薈ヽ( ^∀^)ﾉ》。后来这些整理成了[凛冬百科的版本更新翻译站](https://wiki.winterco.org/zh/dev_blog_and_patchnote/start)，2020 年联盟会议纪要还点名他自愿协助移植、维护 Wiki。
+兔仔猪在凛冬论坛开了 **290 个主题**，几乎全是 CCP 开发日志和版本更新的中文翻译：从 Crucible、Inferno、审判者一路翻到 Ascension、Into The Abyss，还有一个总目录帖《╰(^∀^ )/ EVE 歷來版本更新摘要總薈ヽ( ^∀^)ﾉ》。后来这些整理成了[凛冬百科的版本更新翻译站](https://wiki.winterco.org/zh/dev_blog_and_patchnote/start)，2020 年联盟会议纪要还点名他自愿协助移植、维护 Wiki。
 
 2012 年 Fanfest 的 DUST 514 主题演讲，ECF 上的中文整理也出自他手。[H叔](../480362957/)当年在论坛喊过一句“伟大的兔叔和羊叔万岁！”
 :::
 
 ::: 红料 KB：开隐轰和激光
-zKillboard 生涯击杀 932，用得最多的是 Phantasm 和 Confessor。翻译员也上战场，只是战场上用的字数少。
+zKillboard 生涯击杀 932，用得最多的是幽灵和忏悔者。翻译员也上战场，只是战场上用的字数少。
 :::
 
 ::: 黑料 简介：一份舰船属性表

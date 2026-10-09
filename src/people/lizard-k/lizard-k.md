@@ -9,7 +9,7 @@ tags: [00区, 图万·奥斯神殿]
 LK，游戏名 LIZARD K，2009 年建号，熊猫、Dragon Warrior.、功夫流氓一路走来的老人，盘古时期在老男人公司（Dear Old Loong Man），后来在 FRT 的伏羲、TCF 和闪电。如今在 OSY 的图万·奥斯神殿（Temple of Tuvan Orth）——那家军团的 CEO 是[舵主](../91254848/)。
 
 ::: 红料 KB：一万四千杀
-zKillboard 生涯击杀 14118，单杀 382 次，用得最多的是 Gnosis；最常出没的星系是 OSY-UD 和 H-ADOC。老 OSY 的常驻火力。
+zKillboard 生涯击杀 14118，单杀 382 次，用得最多的是灵感；最常出没的星系是 OSY-UD 和 H-ADOC。老 OSY 的常驻火力。
 :::
 
 ::: 黑料 头衔：侍中、守尚书令，加太尉，封安宁公

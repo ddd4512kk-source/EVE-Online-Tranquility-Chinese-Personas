@@ -21,7 +21,7 @@ tags: [00区, 低安]
 按雇佣记录，竹叶青 2023 年 8 月先后进过 Cosmic Potion（贴吧称“copo”“魔药”）和墨家的 MAD.unicorn（独角兽），都只待了几天。同年 11 月起自建 WEI-Dynasty Phoenix Divine Empress Empire（魏凤皇庭），之后又建了三个联盟：The Theocracy-Valkyrie Imperial Church（TTVIC）、Goddesses Council of Eternal Revenge 和 WormNest Will Empress Forever，创建人都是这个号。其间在 FRT 的银鹰骑士团和创世、PLA、星华、东风都短暂待过，PLA 那段是 2024 年 2 月的 16 天。2026 年初在新八区的 Super Miao，4 月转去 Lunar Luminescence，带着自己的战斗姐妹修道院（DED Battle Sisters Convent Sanctorum）至今。
 
 ::: 红料 KB：八百多个击杀
-zKillboard 上 835 个击杀、540B，单杀 92 个，击杀次数最多的船是 Exequror Navy Issue。最贵的一张是 2024 年 2 月在 PLA 时跟着大部队打掉的一个泰坦级目标，单张 247B。
+zKillboard 上 835 个击杀、540B，单杀 92 个，击杀次数最多的船是送葬者最贵的一张是 2024 年 2 月在 PLA 时跟着大部队打掉的一个泰坦级目标，单张 247B。
 :::
 
 ::: 红料 一个月的天钩，收率 82%

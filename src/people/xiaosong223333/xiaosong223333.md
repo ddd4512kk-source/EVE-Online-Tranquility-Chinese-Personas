@@ -13,7 +13,7 @@ tags: [00区, INIT]
 ::: 红料 会战录像专业户
 B 站投稿二十来条，几乎都是大场面的第一视角，每条简介都老老实实贴上 BR 链接：4-H 旁 FRT 大溃败、欧加仑的葬礼、导致 GS 超旗队被困的节点崩溃、故土铁壁四小时鏖战……其中[《4-H旁FRT大溃败》](https://www.bilibili.com/video/BV1zWodBYECW/)（2026 年 4 月）播放近六千，是他的代表作，简介里感慨“低 tidi 爽射难得啊，没想到还有这种局，震撼”。
 
-他对自己的定位也很诚实：[《早起的后勤有牢坐》](https://www.bilibili.com/video/BV1L8cxzQELt/)、[《后勤摸鱼日记》](https://www.bilibili.com/video/BV1G7zVBdEtN/)、[《好像什么也没干的重拦》](https://www.bilibili.com/video/BV1ApZRBuEyZ/)。zKillboard 上常用船前三是 Huginn、Malediction、Scythe，一个远程上网、一个抓人、一个奶人，确实是跟队干脏活的路数。
+他对自己的定位也很诚实：[《早起的后勤有牢坐》](https://www.bilibili.com/video/BV1L8cxzQELt/)、[《后勤摸鱼日记》](https://www.bilibili.com/video/BV1G7zVBdEtN/)、[《好像什么也没干的重拦》](https://www.bilibili.com/video/BV1ApZRBuEyZ/)。zKillboard 上常用船前三是休津、咒灭、镰刀，一个远程上网、一个抓人、一个奶人，确实是跟队干脏活的路数。
 :::
 
 ::: 红料 四千击杀

@@ -14,8 +14,8 @@ tags: [00区, DC, AT19冠军]
 据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，那一年 F1 和 PMA 两支华人队不参赛，“Sarion Ikaruga, and Chess Player from the Esports Petopia team”等人加入了 FRT 的队伍。复盘对这批人的评价是：少数有大赛经验的华人玩家里“真正的 PVP 玩家”。
 :::
 
-::: 红料 KB：两千四百次 Nestor
-zKillboard 生涯击杀 10236，单杀 248 次，用得最多的是 Nestor（2446 次）——一条后勤战列舰。比赛队的奶妈，KB 照样过万。
+::: 红料 KB：两千四百次涅斯托
+zKillboard 生涯击杀 10236，单杀 248 次，用得最多的是涅斯托（2446 次）——一条后勤战列舰。比赛队的奶妈，KB 照样过万。
 :::
 
 ::: 黑料 Be Humble，然后指路退出游戏
@@ -32,7 +32,7 @@ zKillboard 生涯击杀 10236，单杀 248 次，用得最多的是 Nestor（244
 
 > Most of the people who disparaging Sarion for many years have... extremely low self-esteem, and their IQ decreases year by year, and finally they are completely stupid... Haters who disparaging Sarion have a strong anti-social inclination. They are destabilizing and endanger the lives of normal people.
 
-黑斑鸠的人，智商逐年下降，最后彻底变傻，还有反社会倾向、危害正常人生命——中文网上那种“黑某某的人都……”的段子，被他翻成英文挂在了简介里。（原文还有几句人身攻击，本传不转。）
+黑斑鸠的人，智商逐年下降，最后彻底变傻，还有反社会倾向、危害正常人生命——中文网上那种“黑某某的人都……”的段子，被他翻成英文挂在了简介里。
 
 “Be Humble”和这段声讨，隔着三行。
 :::

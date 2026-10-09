@@ -2,7 +2,7 @@
 character_id: 2114686544
 cn_name: HOLIC
 aliases: [Asuka Holic]
-epithet: 用 Python 当天蛇奸商，劝新人“可能是 QUIT 的时机了”。
+epithet: 用巨蟒当天蛇奸商，劝新人“可能是 QUIT 的时机了”。
 tags: [00区]
 ---
 

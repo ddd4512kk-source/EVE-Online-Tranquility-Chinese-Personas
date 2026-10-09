@@ -4,6 +4,7 @@ bodyClass: page-person
 ---
 {%- set prev = collections.people | getPreviousCollectionItem(page) -%}
 {%- set next = collections.people | getNextCollectionItem(page) -%}
+{%- set usedGlossary = content | glossaryUsed -%}
 <nav class="back" data-pagefind-ignore>
   <a href="{{ '/' | url }}" id="back-link">← 返回目录</a>
 </nav>
@@ -52,6 +53,19 @@ bodyClass: page-person
     <p class="snapshot">数据快照：{{ char.fetched_at }} · <a href="https://evewho.com/character/{{ character_id }}" rel="noopener">EveWho</a> · <a href="https://zkillboard.com/character/{{ character_id }}/" rel="noopener">zKillboard</a></p>
   </details>
 </article>
+
+{% if usedGlossary.length %}<dialog class="glossary-dialog" id="glossary-dialog" aria-label="术语解释" data-pagefind-ignore>
+  <button type="button" class="glossary-close" aria-label="关闭术语解释">×</button>
+  {% for entry in usedGlossary %}
+  <section id="dialog-{{ entry.id }}" hidden>
+    <h2>{{ entry.term }}{% if entry.status == '待复核' %}<small class="glossary-draft">待复核</small>{% endif %}</h2>
+    <p><strong>{{ entry.meaning }}</strong>。{{ entry.note }}</p>
+    {% if entry.avoid %}<p class="glossary-avoid">不要误作：{{ entry.avoid }}。</p>{% endif %}
+    <a href="{{ '/glossary/' | url }}#{{ entry.id }}">在术语表中查看</a>
+  </section>
+  {% endfor %}
+</dialog>
+<script src="{{ '/assets/js/glossary.js' | url }}?v={{ site.build }}" defer></script>{% endif %}
 
 <nav class="pager" aria-label="按创号时间翻页" data-pagefind-ignore>
   {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>前一位</small>{{ prev.data.displayName }}</a>{% else %}<span></span>{% endif %}

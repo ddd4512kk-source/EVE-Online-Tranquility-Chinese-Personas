@@ -1,0 +1,82 @@
+{
+  "id": 2119763431,
+  "name": "Weightless",
+  "birthday": "2022-03-06T07:12:06Z",
+  "current_corporation": {
+    "id": 98618014,
+    "name": "Family Planning Commission",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98618014,
+      "name": "Family Planning Commission",
+      "ticker": ".FPC."
+    },
+    "alliance": {
+      "id": 99011356,
+      "name": "National Development and Reform Commission",
+      "ticker": "NDRC"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-03-06T07:12:00Z",
+      "end": "2022-03-06T08:45:00Z"
+    },
+    {
+      "corporation_id": 98645589,
+      "name": "Faceless.",
+      "npc": false,
+      "start": "2022-03-06T08:45:00Z",
+      "end": "2022-03-20T04:21:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-03-20T04:21:00Z",
+      "end": "2022-03-23T00:55:00Z"
+    },
+    {
+      "corporation_id": 917701062,
+      "name": "EVE University",
+      "npc": false,
+      "start": "2022-03-23T00:55:00Z",
+      "end": "2022-05-20T02:44:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-05-20T02:44:00Z",
+      "end": "2022-05-20T02:46:00Z"
+    },
+    {
+      "corporation_id": 98699012,
+      "name": "Stain Train",
+      "npc": false,
+      "start": "2022-05-20T02:46:00Z",
+      "end": "2022-07-04T14:01:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-07-04T14:01:00Z",
+      "end": "2022-07-06T13:01:00Z"
+    },
+    {
+      "corporation_id": 98618014,
+      "name": "Family Planning Commission",
+      "npc": false,
+      "start": "2022-07-06T13:01:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

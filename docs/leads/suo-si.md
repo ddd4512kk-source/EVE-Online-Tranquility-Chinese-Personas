@@ -25,6 +25,14 @@
 - B 站：已按人物名搜 UP，返回同名候选，但没有可靠 EVE 及本人对应；不把同名账号当本人，投稿与评论待身份确认后补查。
 - 游戏画像 / 本人论坛：角色尚未确认，画像及本人论坛全量须待对应后查询；没有用相似名字代填 ID。
 
+## TCF 历任 CEO 反查（2026-10-09）
+
+- [TCF ESI](https://esi.evetech.net/latest/corporations/98108175/)：Thunders Claw Fleet，2012-04-14 建团，创建者 **Thunder andy（468540318）**，现 CEO D manson。
+- [DOTLAN 军团事件](https://evemaps.dotlan.net/corp/Thunders_Claw_Fleet/events)（第一页只回溯到 2014-04）：Thunder andy → Rabbit RX（2014-10-29）→ andy shen（2014-11-08）→ cpt hongkai（2014-12-02）→ Thunder andy（2015-04-13）→ D manson（2016-03-15 前后）。2013 年当时 CEO 未见直接记录；andy 是创建者，2014-10 时仍为 CEO，推定 2013 年在任。
+- [《EVE欧服华人势力发展简史》6656022309](https://tieba.baidu.com/p/6656022309)：#42 称“andy（安迪，闪电CEO）”；#16 称北极星“由闪电公司老板Thunder ebon牵头成立”；楼中楼 NNS_INVITATION 写“手心和所思达成协议：所思代表萨满向参加前线战役的38人道歉”。
+- Thunder andy 简介自称“閃電專業斥候（等待EBON王者归来）”。Thunder ebon（166847438）已收录，2012-04 起亦在 TCF。
+- 结论：所思应是 TCF 管事的人，候选为 Thunder andy（挂名 CEO）或 Thunder ebon（“闪电老板”），原文未把“所思”与任一角色名连上，暂不配对。萨满已收录为 [Ctril](../../src/people/ctril/materials-ctril.md)。
+
 ## 待补
 
-沿 TCF、盘古、2013 年罚款事件找原邮件和本人发言；核对其是否已有另一角色列传。
+找“所思”与 andy / ebon 的直接对应（ECF 旧帖、令狐冲记录、LULU 回忆录其他楼层的署名）。

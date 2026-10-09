@@ -8,6 +8,7 @@
 
 - **游戏数据画像**：`profile.mjs 342545170`。建号 2006-12-17；2008–2015 多段 Pandemic Legion（North Eastern Swat、Sniggerdly）；2015-04-05 起 Pandemic Horde，至今仍挂 Pandemic Horde Hld. / Pandemic Horde。头衔 Pandemic Horde Alliance Leader；简介称是 Admiral “muh medals” Goberius 的小号，联系 Discord gobbins1。击杀 1341（561.9B），常用 Arazu、Cheetah；2011-09 有一串一日游军团记录（大概是间谍/刷号，未写入）。
 - **凛冬论坛**：本人无账号。他人提及：Murphy222 回忆录 [25836](https://forums.winterco.org/t/topic/25836)（含 HY《PH 崩盘启示录》全文）、[25851](https://forums.winterco.org/t/topic/25851)（TAGN 译文）、[25860](https://forums.winterco.org/t/topic/25860)；Norausdot [9163](https://forums.winterco.org/t/topic/9163)。
+- **《星河如棋——PH 崩盘启示录》**：将 PH 崩盘归于联盟管理问题：扩张收益没有分给联盟群成员，内部 CN 社区裂痕未处理；放弃关键地区、撤退决策与执行又加速盟友离心。与已归档的 HY 回顾论点重合，不另计独立来源。
 - **贴吧**：`eve欧服 哥布林`、`eve欧服 Gobbins` 命中数十帖。已读：10204128276 / 10204110524（哥布林十宗罪，前者在国服 eve 吧）、10190847123（Asher 讲话译文）、10194498493、10193695279（建筑卖给 FRT）、10197400172（6NJ8 星城 KM 与元帅）、10194304100（武幽本纪）、10191653864（PH 成员亲历）、9067120500、9008702415、7690266473、7688425006、9130913838、6689748515、9090728605、5933546387（搜索摘要）。
 - **KM**：R-AG7W Keepstar [131126432](https://zkillboard.com/kill/131126432/)（2025-11-10，3753 人）。
 - **B 站**：本次未单独检索，待补。

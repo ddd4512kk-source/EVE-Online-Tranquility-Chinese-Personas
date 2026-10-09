@@ -1,0 +1,19 @@
+---
+layout: base.njk
+permalink: /glossary/index.html
+pageTitle: 术语表
+bodyClass: page-glossary
+---
+<nav class="back"><a href="{{ '/' | url }}">← 返回目录</a></nav>
+<article class="glossary-page">
+  <h1>术语表</h1>
+  <p>列传里的蓝色词语可以点开解释。以下解释也可直接浏览；词义会随具体战斗和发言语境变化。</p>
+  <dl class="glossary-list">
+    {% for entry in glossaryEntries %}
+    <div id="{{ entry.id }}">
+      <dt>{{ entry.term }}{% if entry.status == '待复核' %}<small class="glossary-draft">待复核</small>{% endif %}</dt>
+      <dd><strong>{{ entry.meaning }}</strong>。{{ entry.note }}{% if entry.avoid %}<span class="glossary-avoid">不要误作：{{ entry.avoid }}。</span>{% endif %}</dd>
+    </div>
+    {% endfor %}
+  </dl>
+</article>

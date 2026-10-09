@@ -20,10 +20,10 @@ Sayler，2017 年 10 月建号，安全等级 -8.9。现在是华语军团 **Inf
 > Sayler Never FEED
 > NoNo Never Feed
 
-下面是两条 Erebus、一条 Ragnarok——三条泰坦的 KM。
+下面是两条俄洛巴斯、一条拉格纳洛克——三条泰坦的 KM。
 
 ::: 红料 KB：一万六千杀，两万一千亿
-zKillboard 生涯击杀 **15968**，打掉 **21.03 万亿 ISK**，单杀 439。最常用的是 Machariel（1955 次），其次 Legion、Bhaalgorn、Muninn、Tengu、Vindicator。常去 Tama、Siseide、Kinakka——Snuffed Out 的低安地盘。一百零一个月有击杀记录，单月最高是 2021 年 8 月的 8979 亿。
+zKillboard 生涯击杀 **15968**，打掉 **21.03 万亿 ISK**，单杀 439。最常用的是马克瑞（1955 次），其次圣卒、巴戈龙、缪宁、金鹏、复仇者。常去 Tama、Siseide、Kinakka——Snuffed Out 的低安地盘。一百零一个月有击杀记录，单月最高是 2021 年 8 月的 8979 亿。
 
 2019 年 6 月，B 站有人写战报，开头一句是：“最近几天，一群来自中国的EVE玩家Infinity Avenger[AVDOT]，拖家带口来到了M低安的Lantorn星系。”
 :::

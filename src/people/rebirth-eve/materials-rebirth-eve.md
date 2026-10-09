@@ -17,3 +17,5 @@
 
 - 画像 / KB：命中，[角色 / KB](https://zkillboard.com/character/93209504/)；论坛：Rebirth_EVE：主题 0 / 回帖 6；中文搜索：百度/360 回退；必应 10 条，未取得对应本人新料；其他材料：本人旧招新、吧务回帖、荣耀旧账命中。
 
+
+- **2026-05-16 荣耀再提打捞（社交媒体信源）**：芙水之乱 PDF“后记的后记”所附群聊截图，荣耀贴出 Rebirth EVE 角色档案（Chi Gua，雇佣记录红框标 Peoples Liberation Army），称“垃圾人 开垃圾团”“左手加了我的团 抢打捞 给他说了不听 直接踢了”。详见[荣耀素材](../silvitni/materials-silvitni.md)。

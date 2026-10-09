@@ -1,0 +1,54 @@
+{
+  "id": 2118344406,
+  "name": "Autumn oak",
+  "birthday": "2021-02-24T09:32:48Z",
+  "current_corporation": {
+    "id": 98731561,
+    "name": "Xuanwu college",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98731561,
+      "name": "Xuanwu college",
+      "ticker": "KR.N"
+    },
+    "alliance": {
+      "id": 99012320,
+      "name": "Jade Kirin Alliance",
+      "ticker": "J.K.A"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2021-02-24T09:33:00Z",
+      "end": "2021-02-25T17:18:00Z"
+    },
+    {
+      "corporation_id": 98638378,
+      "name": "High White Black",
+      "npc": false,
+      "start": "2021-02-25T17:18:00Z",
+      "end": "2023-01-19T16:06:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2023-01-19T16:06:00Z",
+      "end": "2023-01-19T16:59:00Z"
+    },
+    {
+      "corporation_id": 98731561,
+      "name": "Xuanwu college",
+      "npc": false,
+      "start": "2023-01-19T16:59:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

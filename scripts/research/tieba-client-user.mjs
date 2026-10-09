@@ -14,12 +14,13 @@ if (!file || !who) {
 
 const data = JSON.parse(await readFile(file, "utf8"));
 const users = data.pages.flatMap((page) => page.user_list || []);
-const user = users.find((item) => (item.name_show || item.name || "").includes(who));
+// 贴吧可能把展示名改成“贴吧用户_...”，但原用户名仍留在 name。
+const user = users.find((item) => [item.name_show, item.name].some((name) => String(name || "").includes(who)));
 if (!user) {
   console.error(`帖子里没有名字含“${who}”的账号。已有账号：${users.map((item) => item.name_show).join("、")}`);
   process.exit(1);
 }
-console.log(`用户 ${user.name_show}（uid ${user.id}）`);
+console.log(`用户 ${user.name_show || user.name}（原用户名 ${user.name || "未提供"}，uid ${user.id}）`);
 
 function sign(params) {
   params.sign = createHash("md5")

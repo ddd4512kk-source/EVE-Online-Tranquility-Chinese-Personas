@@ -1,7 +1,7 @@
 // 取材用的贴吧帖子列表（匿名客户端接口，不弹验证码）：按最新回复顺序翻吧内主题，输出 TSV。
 // node scripts/research/tieba-client-forum.mjs <吧名> <起始页> <结束页> <输出.tsv>
 // 例：node scripts/research/tieba-client-forum.mjs eve欧服 1 110 temp/frs.tsv
-// 每行：主题ID<TAB>创建日期<TAB>回复数<TAB>标题<TAB>浏览数<TAB>楼主昵称<TAB>首楼摘要（前 600 字）。
+// 每行：主题ID<TAB>创建日期<TAB>回复数<TAB>标题<TAB>浏览数<TAB>楼主展示名<TAB>首楼摘要（前 600 字）<TAB>楼主 uid<TAB>楼主原用户名。
 // 不要只按标题里的名人名字或回复数筛：标题常是文学化的（“飞鸟尽良弓藏”），当事人也常是无名小号。
 // 要连同首楼摘要按叙事词打分，并按楼主聚合找连载和高产发帖人，见 research-method.md“发现新人物”。
 // 限制：翻到约第 110 页（约 2024 年中）后接口返回空页；更早的帖子用 tieba-client-search.mjs 站内搜索。
@@ -56,6 +56,8 @@ for (let pn = from; pn <= to; pn++) {
         thread.view_num ?? "",
         (author.name_show || author.name || "").replace(/\s+/g, " "),
         firstPost.map((part) => part.text || "").join("").replace(/\s+/g, " ").slice(0, 600),
+        thread.author_id || "",
+        (author.name || "").replace(/\s+/g, " "),
       ].join("\t");
     });
     await appendFile(output, lines.join("\n") + "\n");

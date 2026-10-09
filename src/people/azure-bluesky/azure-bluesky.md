@@ -15,7 +15,7 @@ tags: [00区, DC]
 2018 年建号，2019 年在 PLA 的 PLA Associates 待过一个月，同年秋天进 DC（Dracarys.），先在 Nega Nebulas.、Steel Feather Special Air Corps，2020 年 6 月进了刚成立十天的无面者，一直到今天。无面者如今七百多个角色，[白菜](../2116041057/)也在这家。
 
 ::: 红料 KB：四千杀
-zKillboard 生涯击杀 4045，打掉 **2.26 万亿 ISK**。用得最多的是 Claymore——给全队加增益的指挥舰，开了六百多次。
+zKillboard 生涯击杀 4045，打掉 **2.26 万亿 ISK**。用得最多的是月刃——给全队加增益的指挥舰，开了六百多次。
 :::
 
 ::: 评
