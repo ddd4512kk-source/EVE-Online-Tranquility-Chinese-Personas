@@ -1,9 +1,9 @@
 ---
 character_id: 2114000623
 cn_name: 景纪
-aliases: [Pinkpuma]
+aliases: [Pinkpuma, B站]
 epithet: 日入百亿？先把一天刷成二十三小时。
-tags: [高安]
+tags: [高安, B站]
 ---
 
 景纪，收录角色 Pinkpuma，2018 年建号。角色头衔写着“不是魔像的我不开！”，B 站和贴吧里则长期经营另一门生意：把高安任务拆成一张张流程表，再把导弹、炮术和船型配置讲到你能自己算。

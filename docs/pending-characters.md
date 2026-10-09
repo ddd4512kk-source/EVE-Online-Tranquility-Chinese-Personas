@@ -17,12 +17,11 @@
 | Roadhardt | 确认贴吧署名 Roadhardt，尚无 ESI 精确对应角色；B 站同名 UID 21781211 是待核对候选，未确认属于本人 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/roadhardt.md) |
 | ◆金鹏级 | 这是贴吧作者署名，不是把 Tengu 船型收成人物；暂无角色对应 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/jin-peng-translator.md) |
 | shenmo- | 确认贴吧署名 shenmo-，暂无游戏角色及 B 站账号对应 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/shenmo-incursion.md) |
-| 一捆烂胶带 | B 站 UID 9468015 已确认；签名直接写在 EVE 欧服帝国联盟群玩，暂无游戏角色对应 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/yi-kun-lan-jiao-dai.md) |
-| dzkell | B 站 UID 13329368 已确认频道；贴吧存在同名互动，仅作候选对应，暂无游戏角色 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/dzkell.md) |
 | 肥鹿 | 社区外号“肥鹿”；招队帖作者为黑小璐，游戏频道写“肥鹿散打小队”，仍需确认操作者及任一角色 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/fei-lu.md) |
 | 三明治 / 二五治 | 贴吧“一块三明治🌋”（uid 1678870349）；《二五之日》回忆录作者，2018 年在 RR 系；游戏角色未知 | 本人任一角色的准确名字 / ID？《二五之日》原帖在哪？ | [人物素材](leads/san-ming-zhi.md) |
 | 贴吧高产发帖人（4 个账号） | 贴吧用户_0361KU1、卯月爱丽丝、饿死恶龙、hwzbd；2024—2026 各发帖 15—30 篇，库内无记录（天启阿柒、sunge252 已对应） | 各自的游戏角色？是否够立传？ | [潜在素材](leads/tieba-prolific-posters.md) |
-| 昆仑 / VAPOR 群聊人物 | 群聊提及“帆天”“雷伊”“小马”及一名昆仑当事人；KM 136736970 对应受害者 zhayu111（2124287871），相关昵称尚未对应 | 昵称分别对应哪些角色？是否属于水哥 7 月炸鱼/30B 事件？ | [群聊与 KM 素材](leads/kunlun-vapor-machariel.md) |
+| 昆仑 / VAPOR 群聊人物 | 2026-10-10 补读：半抹秋光映海棠 = Iba La Sotken（2119472256，Kun-Lun，头衔“一八”）；御天之骑，铭刻编年 = zhayu111（2124287871，KZU）；炽天 = 已收录 chitian。Mortol = 水哥（shikongsa）；其余昵称未对应；KM 136736970。该事件即水哥素材里的炸鱼 30B 事件。御天另有 daitiao111（同头衔）。 | 剩余昵称对应哪些角色？ | [群聊与 KM 素材](leads/kunlun-vapor-machariel.md) |
+| Zhongcaizhe MAX 等本地对喷 | Zhongcaizhe MAX（96494513，DAMSR/Dracarys.）对 AK Hendar、Hikari Homura（2114003356，即已收录的冷剑的另一角色）、Optimus Mecca、Casualness 等。 | 事件时间、4-H 星城背景？是否够立传？ | [线索](leads/zhongcaizhe-max-local-chat.md) |
 | 娃上将 | 贴吧“国际小米兰”，国服 ID“挖挖啊娃娃”；2017—2018 FRT 采星开泰坦“飙车”，后去 INIT“鸽群” | 欧服角色名字 / ID？ | [老帖线索](leads/old-threads-2016-2024.md) |
 | 法师虚竹 | 斗鱼 EVE 主播，挂人帖称游戏 ID“城南暮雨”（查无此角色）；2020 年被挂挪用军团物资冲榜、小号刷榜、骗萌新 | 本人任一欧服角色的准确名字 / ID？ | [人物素材](leads/fa-shi-xu-zhu.md) |
 | 华义 | 浮岳重工团员，“再买一条，下次一定听指挥”；仅陌然回忆录一处来源 | 角色名字 / ID？是否够立传？ | [人物素材](leads/fuyue.md) |

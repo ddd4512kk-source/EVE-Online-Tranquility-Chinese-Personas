@@ -1,9 +1,9 @@
 ---
 character_id: 2122750675
 cn_name: 夫鲁
-aliases: [夫鲁土豆, Khezu knight, 夫鲁老师, 小夫鲁]
+aliases: [夫鲁土豆, Khezu knight, 夫鲁老师, 小夫鲁, B站]
 epithet: 四个联盟的表情包出自一人之手，咪将军说是盗版。
-tags: [00区, INIT]
+tags: [00区, INIT, B站]
 ---
 
 夫鲁，游戏名 Khezu knight，贴吧账号“夫鲁土豆”，名字取自怪物猎人里的奇怪龙（Khezu，日文名フルフル）。角色简介只有一句：“鲨鱼的老公小夫鲁，夫鲁夫鲁最最可爱。”头衔是“夫鲁夫鲁”。

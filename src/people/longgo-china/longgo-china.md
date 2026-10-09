@@ -6,7 +6,7 @@ epithet: 简介是收购价目表，暴雷一次就秽土转生一次。
 tags: [00区, FRT]
 ---
 
-龙哥，游戏名 longgo china，2018 年 6 月建号。2019、2020 年两度在 PLA，当时 PLA 挂在蜜蜂（Goonswarm Federation）旗下；2021 年 9 月转进 FRT 的银鹰骑士团（Knights of the Silver Eagle，K-SE），待到 2023 年 9 月。WC 远征频道里另有一个手速极快的“龙哥（宁德时代）”，做的是同一门生意。
+龙哥，游戏名 longgo china，2018 年 6 月建号。2019、2020 年两度在 PLA，当时 PLA 挂在蜜蜂（Goonswarm Federation）旗下；2021 年 9 月转进 FRT 的银鹰骑士团（Knights of the Silver Eagle，K-SE），待到 2023 年 9 月。WC 远征频道里那个手速极快的“宁德时代”，也是他——换了个马甲，做的还是同一门生意。
 
 他的角色简介开头一句是：
 

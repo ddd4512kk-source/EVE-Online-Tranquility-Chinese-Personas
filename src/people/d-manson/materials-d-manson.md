@@ -38,3 +38,9 @@
 - 互链已接到 andy、ebon、墨辉、LK、N老板；andy 和 ebon 的开篇已补回链。第 25 楼截图可见 lizard k 名字，与既有 LK 角色对应一致；月矿堡产权反对者的贴吧外号不自动对应本站其他同名人物。
 - 待补：现金 RMT 的独立原帖或明确交易截图；my sky 资产流水与最终处理；两船的完整归属与交接约定；其余双方回应。第 2 楼部分图片下载超时，其他材料已读；不把未读图补成证据，也不以缺少定论删掉已署名的具体爆料。
 
+
+## B 站 Dmanson（2026-10-10 补）
+
+- UID 2874813，即 TCF 招募帖所挂比赛录像的上传账号；来源可靠的账号归属说明。投稿 138，第 1 页 50 条已读标题与简介开头。
+- 2021-12 起以 YouTube 搬运为主（附原链接、BR 与中文简评）：SOLO饿狼极限坦克1,441,436伤害！（BV1WT4y1B7TP，5102）、T3海神 PROTEUS PVP solo（BV19U1BYXE6P，6319）、3000DPS+巨蟒级官员AT黑隐 ESS PVP 猛鬼队（BV1jNTEz7Eix，7425）、一言不合就TT骑人（BV1Jm4y1d7Gx，8008）、HOW BIG The Avatar REALLY Is!（神使级 熟肉）、100条黑隐大队绝地反击 Anti Krab Coalition vs Bee Hive 等；2026 年仍在更新（海莫洛 低安简短solo、Solo Machariel 等）。
+- 2022-08-17 “毛子哥饿狼 vs local fleet”标为【EVE-ONLINE国服】：“ibeats国服杀得风生水起233333”。

@@ -1,9 +1,9 @@
 ---
 character_id: 2114027991
 cn_name: 冷剑
-aliases: [Homura Hikari, 冷箭]
+aliases: [Homura Hikari, 冷箭, B站]
 epithet: 一剑可当百万师，联盟叫普通蹲点爱好者，最爱异度神剑。
-tags: [00区, 著名FC, "AKINA mountain family"]
+tags: [00区, 著名FC, "AKINA mountain family", B站]
 ---
 
 冷剑，游戏名 Homura Hikari，2018 年建号。早年在 FRT 的 FBC（Foredawn Business Corporation）带队，后来自立门户：军团叫 **AKINA mountain family**（秋名山家族，ticker AE868），联盟叫 **Average camping enjoyer**（普通蹲点爱好者）。游戏头衔：

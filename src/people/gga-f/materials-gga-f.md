@@ -2,7 +2,7 @@
 
 ## 人物与角色
 
-- **GGA F**（[2116449124](https://evewho.com/character/2116449124)）：新中文频道的主人，TieDao（98807018，铁道军团）CEO。2020-03-12 建号，头衔“啃馒头的Doro”。2025-06-19 进 TieDao，是该团第一个成员；TieDao 现有 86 人，挂在 Absolute Will（肃正联盟，见[李将军](../../src/people/governor-lee/materials-governor-lee.md)）旗下（DOTLAN，2026-10-09）。贴吧账号未知。
+- **GGA F**（[2116449124](https://evewho.com/character/2116449124)）：新中文频道的主人，TieDao（98807018，铁道军团）CEO。2020-03-12 建号，头衔“啃馒头的Doro”。2025-06-19 进 TieDao，是该团第一个成员；TieDao 现有 86 人，挂在 Absolute Will（肃正联盟，见[李将军](../governor-lee/materials-governor-lee.md)）旗下（DOTLAN，2026-10-09）。贴吧账号未知。
 - **亮神 / lightgod**（[2122051226](https://evewho.com/character/2122051226)，贴吧“亮神3”，uid 1058646646）：铁道军团总监，不是 CEO。2024-02 建号；2025-06-21 进 TieDao，06-27 起在高安分团 TieDaoXingChen（98807522）。2024 年新中文频道的宣传帖和 2025 年铁道的招新帖、护航帖都是他发的。
 
 ## 新中文频道（2024 起）

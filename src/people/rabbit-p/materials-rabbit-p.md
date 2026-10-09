@@ -14,3 +14,11 @@
 - **兔仔猪红料，中**：[2012 年 Fanfest 报道汇总](https://c.tieba.baidu.com/p/1472108204?fr=good)引用其在 ECF 的 DUST 514 Keynote 整理；[2020 年联盟会议纲要](https://wiki.winterco.org/zh/alliance_news_and_update/2020.11.1)点名其自愿协助移植、维护 Wiki。版本翻译不是某大军团的附属战功，应作独立主线。
 - **兔仔猪黑/梗，中**：[本人简介](https://esi.evetech.net/latest/characters/92507639/)用舰船属性格式列写作、读新闻、翻译与交流加成，最后加打字速度加成。可以沿其自我戏仿写社区笔杆子的形象，不需要虚构错译。
 
+
+## B 站“兔仔豬”（2026-10-10 补）
+
+- UID 2250709，来源可靠的账号归属说明。投稿 143，第 1 页 50 条（2024-04—2026-10）已读标题与简介开头。
+- 几乎全为 CCP 官方视频中文字幕/搬运：版本宣传片（[Equinox 预告](https://www.bilibili.com/video/BV1DM4m1Z7G4) 37415、Legion 宣传片 28438、战争摇篮宣传片 19749）、“聚焦 EVE”系列（[Catalyst 新型舰船](https://www.bilibili.com/video/BV1eokCBHETo) 29299、Equinox 全新昇威舰船 29444）、Fanfest 美术演示、联盟杯奖励舰船、EVE Vanguard/Frontier/Galaxy Conquest 预告。
+- 【视角传媒】（游戏内 Scope 新闻译制）：PanFam 瓦解於 R-AG7W（“帝國對 PH 的首都星系 R-AG7W 發動進攻，Gobbins 已卸任聯盟領袖職務”）、1DQ1-A 星城摧毁仪式、天堂之战終結、兰多恩毁灭冲突、星城不断于新伊甸被毁等。
+- 标题与简介简繁混用（如“EVE Fanfest 2026 : 美術演示”配简体简介）。
+- 少侠 L-Nex 视频《CCP 1.2亿美元易主》简介：“本期素材主要来源@兔仔豬 老师”。

@@ -14,6 +14,20 @@ export const glossaryEntries = source.split("\n")
   });
 
 const byTerm = new Map(glossaryEntries.map((entry) => [entry.term, entry]));
+// 这些舰船中文名同时是人物外号（台风、乌鸦王、黑鸦……）或日常词（复仇、灵感、实践……），
+// 自动蓝字会把人名、普通话误标成舰船；术语页词条保留，只是正文不自动加蓝。
+const ambiguousShipNames = new Set([
+  "台风", "乌鸦", "黑鸦", "塞纳波", "娜迦",
+  "复仇", "流浪", "幽灵", "分裂", "实践", "预言", "灵感", "挑战", "星空", "爆发", "回声", "激进",
+  "破天", "守卫", "先驱", "异端", "恶意", "罪恶", "恶魔", "启示", "奉献", "磨难", "警惕", "促进",
+  "神示", "仇恨", "使徒", "教皇", "先知", "猛烈", "黑夜", "猎获", "唤风", "暴君", "富豪",
+]);
+// 舰船名后面跟这些字时其实是军团/联盟名（凤凰城、银鹰骑士团……），不加蓝。
+const wordFollowedByName = {
+  "凤凰": /^(城|联盟群)/,
+  "银鹰": /^(骑士团|军团)/,
+  "冥府": /^之/,
+};
 const linkedTerms = [
   ["auth", "auth"], ["seat", "seat"], ["ping", "ping"], ["awox", "awox"], ["打蓝", "awox"],
   ["Monitor", "Monitor"], ["监视者", "Monitor"], ["泡泡", "bubble / warp disruption bubble"],
@@ -30,7 +44,7 @@ const linkedTerms = [
   ["轻拦", "轻拦 / 重拦"], ["重拦", "轻拦 / 重拦"], ["跳刀", "跳刀"],
   ["铁壁", "星城 / 铁壁"], ["星城", "星城 / 铁壁"], ["反诱导", "反诱导"],
   ...glossaryEntries
-    .filter((entry) => entry.note.startsWith("舰船名；"))
+    .filter((entry) => entry.note.startsWith("舰船名；") && !ambiguousShipNames.has(entry.meaning))
     .map((entry) => [entry.meaning, entry.term]),
 ];
 
@@ -63,7 +77,8 @@ export function glossaryLinks(md) {
             const found = patterns.find(({ word }) => value.startsWith(word, i) &&
               (!/^[A-Za-z]/.test(word) || !/[A-Za-z0-9]/.test(value[i - 1] ?? "")) &&
               (!/[A-Za-z]$/.test(word) || !/[A-Za-z0-9]/.test(value[i + word.length] ?? "")) &&
-              !(word === "泡泡" && /^(船|手|仙人|金仙)/.test(value.slice(i + 2))));
+              !(word === "泡泡" && /^(船|手|仙人|金仙)/.test(value.slice(i + 2))) &&
+              !(wordFollowedByName[word] && wordFollowedByName[word].test(value.slice(i + word.length))));
             if (!found) { i++; continue; }
             if (i > start) {
               const plain = new state.Token("text", "", 0);

@@ -1,9 +1,9 @@
 ---
 character_id: 91309503
 cn_name: 拉面林
-aliases: [Remeleen, 拉面]
+aliases: [Remeleen, 拉面, B站]
 epithet: 新 CEO 上任，贴吧先问：拉面林是谁？
-tags: [00区, FRT, 著名FC, 女娲, AT19冠军]
+tags: [00区, FRT, 著名FC, 女娲, AT19冠军, B站]
 ---
 
 Remeleen，拉面林，女娲、东厂 Stay Alive 圈里的老面孔，既发布招募和战斗视频，也参与比赛队建设。认人依据有[AT XIX 队员署名](https://fubukiwaifu.top/archives/1704426912155)：Remeleen 对应拉面林。此人宣传本团的风格也很直白，强的时候给你看操作，翻车的时候也不介意给你看乐子。

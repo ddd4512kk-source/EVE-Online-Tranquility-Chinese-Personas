@@ -1,9 +1,9 @@
 ---
 character_id: 690534767
 cn_name: D哥哥
-aliases: [D manson, Dmanson, DM, DD, D鸽鸽]
+aliases: [D manson, Dmanson, DM, DD, D鸽鸽, B站]
 epithet: 兄弟归兄弟，资产另有解释。
-tags: [00区, FRT, TCF]
+tags: [00区, FRT, TCF, B站]
 ---
 
 D哥哥，D manson，TCF（Thunders Claw Fleet）的 CEO。TCF 的创建者是[andy](../468540318/)，老闪电那条线上还有[ebon](../166847438/)、[墨辉](../536107961/)等人。招募广告讲的是老牌 PVP、兄弟情分、小而精；后来老成员上贴吧翻账，讲的却是账号、机库、大航去了哪里。
@@ -16,6 +16,8 @@ D哥哥，D manson，TCF（Thunders Claw Fleet）的 CEO。TCF 的创建者是[a
 他在[2020 年 TCF 招募帖](https://forums.winterco.org/t/topic/2613)里挂了比赛与小队战视频，其中有署名 Dmanson 的 [FRT 对 Hard Knocks 比赛录像](https://www.bilibili.com/video/av8092615/)，也有 [ATXVI 比赛记录与分析讲解](https://www.bilibili.com/video/av29187189/)。
 
 把比赛过程和讲解留下，后来的人至少有东西可看。只在群里说自己懂比赛，和真把录像拿出来，还是有点区别。
+
+这些录像出自他自己的 B 站账号 [Dmanson](https://space.bilibili.com/2874813)。后来频道改了路数，一百三十多条投稿多是从 YouTube 搬来的老外单刷、小队战录像，配上中文标题和一句点评：[《SOLO饿狼极限坦克1,441,436伤害！》](https://www.bilibili.com/video/BV1WT4y1B7TP)、[《T3海神 PROTEUS PVP solo》](https://www.bilibili.com/video/BV19U1BYXE6P)、[《3000DPS+巨蟒级官员AT黑隐 ESS PVP 猛鬼队》](https://www.bilibili.com/video/BV1jNTEz7Eix)。播放最高的一条叫[《一言不合就TT骑人》](https://www.bilibili.com/video/BV1Jm4y1d7Gx)，八千多。自己打的比赛少了，看别人打的倒一直没停。
 :::
 
 ::: 红料 KB 上确实有活

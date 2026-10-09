@@ -1,9 +1,9 @@
 ---
 character_id: 2113409073
 cn_name: 半盏醉颜红
-aliases: ["One Half wine"]
+aliases: ["One Half wine", B站]
 epithet: 低安小船飞成日记，配装讲成连续剧。
-tags: [低安]
+tags: [低安, B站]
 ---
 
 半盏醉颜红，游戏角色 One Half wine。2017 年建号，长期玩低安小船 PVP；B 站有五十个投稿，从单收实战、配装教学到“颜红的低安日记”，把一趟趟出门打架剪成了连载。除此之外，他还在 EVE 贴吧挂过翻译署名，算是既写游戏，也打游戏。

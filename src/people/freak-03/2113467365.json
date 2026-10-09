@@ -1,0 +1,75 @@
+{
+  "id": 2113467365,
+  "name": "Freak 03",
+  "birthday": "2017-11-23T22:00:10Z",
+  "current_corporation": {
+    "id": 98725089,
+    "name": "Arknights.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725089,
+      "name": "Arknights.",
+      "ticker": "AMIYA"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2017-11-23T22:00:00Z",
+      "end": "2018-06-13T03:02:00Z"
+    },
+    {
+      "corporation_id": 98519093,
+      "name": "The Silent Seven",
+      "npc": false,
+      "start": "2018-06-13T03:02:00Z",
+      "end": "2018-07-06T01:29:00Z"
+    },
+    {
+      "corporation_id": 98303242,
+      "name": "Rolled Out",
+      "npc": false,
+      "start": "2018-07-06T01:29:00Z",
+      "end": "2018-11-12T05:39:00Z"
+    },
+    {
+      "corporation_id": 1000066,
+      "name": "Viziam",
+      "npc": true,
+      "start": "2018-11-12T05:39:00Z",
+      "end": "2018-11-13T10:59:00Z"
+    },
+    {
+      "corporation_id": 98577775,
+      "name": "Hephaestus and Aphrodite",
+      "npc": false,
+      "start": "2018-11-13T10:59:00Z",
+      "end": "2022-01-07T08:27:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2022-01-07T08:27:00Z",
+      "end": "2022-11-04T02:16:00Z"
+    },
+    {
+      "corporation_id": 98725089,
+      "name": "Arknights.",
+      "npc": false,
+      "start": "2022-11-04T02:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}
