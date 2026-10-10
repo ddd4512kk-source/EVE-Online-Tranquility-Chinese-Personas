@@ -1,0 +1,54 @@
+{
+  "id": 2115483774,
+  "name": "Illegal-ChenYi Mist",
+  "birthday": "2019-07-18T14:57:10Z",
+  "current_corporation": {
+    "id": 98696463,
+    "name": "Light Spot Poacher",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98696463,
+      "name": "Light Spot Poacher",
+      "ticker": "LSP."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2019-07-18T14:57:00Z",
+      "end": "2019-07-18T15:02:00Z"
+    },
+    {
+      "corporation_id": 98608042,
+      "name": "Mist Forever",
+      "npc": false,
+      "start": "2019-07-18T15:02:00Z",
+      "end": "2022-04-23T04:06:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-04-23T04:06:00Z",
+      "end": "2022-04-23T04:07:00Z"
+    },
+    {
+      "corporation_id": 98696463,
+      "name": "Light Spot Poacher",
+      "npc": false,
+      "start": "2022-04-23T04:07:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

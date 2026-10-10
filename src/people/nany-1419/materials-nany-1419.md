@@ -38,3 +38,7 @@
 
 - 贴吧客户端：“Nany 1419”3 条全部读取；“Nany”“taitan”多为撞词。
 - B 站：未查到本人账号。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- [昆仑 Kun-Lun](https://esi.evetech.net/latest/corporations/98825941/)（Goons，810 角色）简介自称“小蜜蜂华人核心力量之一”，公司理念“无为而治，随便玩玩”。联系人栏：CEO YAGAHA（中文，AUTZ；ESI CEO 角色名 YAGAHA3）；**Director：Nany 1419（EN/中文/日本語，EUTZ）**；Director 兼外交 Fauux（EN/DE）；俄语外交 Rosa Ictus。列传已补他在昆仑任总监。

@@ -28,3 +28,11 @@
 - [多开教程](https://forums.winterco.org/t/10-20/24315)仍可读。本人提到手动切窗及举报疑似同步器；不能据此认定使用违规同步器，也不能把本人声称的开火秒数写成 CCP 判罚标准。
 - 本次重写保留 4 条红料、7 条黑料；人物重心为强暴、骗术旧闻及对苦主的炫耀嘲讽，数据只作故事佐证。
 
+
+### 2026 年联盟名单
+
+- [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 MrDiao/PuppyHanson 负责情报；[中文公务员名单](https://wiki.winterco.org/zh/coalition/leadership)（2026-09-06）列 Fuxi-MrDiao 为黑名单管理员。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- [伏羲 Fuxi Legion](https://esi.evetech.net/latest/corporations/98185110/)（FRT，3522 角色；ESI CEO Gary CHGS）简介招新官栏：“男招新官：Andrea Alfrir、**Mrdiao**、Hugyyyy、chujunyu、AchanM；女招新官：Shirley Yang、LszYGoatGoat（禁止骚扰）”。简介还自称“OSY华人社区缔造者，EVE宁静服务器原生中文军团”“欧服华人十五年来首次在AT赛夺冠的小队，也有伏羲的一份”，军团红线“不攻击友军，不脚本，不RMT”。

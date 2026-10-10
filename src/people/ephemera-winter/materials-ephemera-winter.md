@@ -12,3 +12,7 @@
 - [《常见的跟队注意事项以及原因》](https://forums.winterco.org/t/topic/4452)
 - [《WC语录（真》](https://forums.winterco.org/t/topic/4913)
 - [《馒狗陪审团的大笑话》](https://forums.winterco.org/t/topic/7104)
+
+### 2026 年联盟名单
+
+- [中文公务员名单](https://wiki.winterco.org/zh/coalition/leadership)（2026-09-06）列 NBCLT-Ephemera Winter 蜉蝣于外交组。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。

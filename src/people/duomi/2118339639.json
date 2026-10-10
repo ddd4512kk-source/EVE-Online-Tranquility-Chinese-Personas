@@ -1,0 +1,103 @@
+{
+  "id": 2118339639,
+  "name": "Aitt duominx",
+  "birthday": "2021-02-23T11:56:40Z",
+  "current_corporation": {
+    "id": 98817310,
+    "name": "Dusk dreadnought.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98817310,
+      "name": "Dusk dreadnought.",
+      "ticker": "DUSK0"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2021-02-23T11:57:00Z",
+      "end": "2021-02-25T16:32:00Z"
+    },
+    {
+      "corporation_id": 98675145,
+      "name": "donminx's heavy industry inc",
+      "npc": false,
+      "start": "2021-02-25T16:32:00Z",
+      "end": "2021-03-01T08:31:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2021-03-01T08:31:00Z",
+      "end": "2021-03-01T10:26:00Z"
+    },
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2021-03-01T10:26:00Z",
+      "end": "2021-03-01T12:19:00Z"
+    },
+    {
+      "corporation_id": 98675145,
+      "name": "donminx's heavy industry inc",
+      "npc": false,
+      "start": "2021-03-01T12:19:00Z",
+      "end": "2021-03-25T01:47:00Z"
+    },
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2021-03-25T01:47:00Z",
+      "end": "2021-03-25T01:48:00Z"
+    },
+    {
+      "corporation_id": 98677681,
+      "name": "Han Dynasty.",
+      "npc": false,
+      "start": "2021-03-25T01:48:00Z",
+      "end": "2021-07-14T02:00:00Z"
+    },
+    {
+      "corporation_id": 98683358,
+      "name": "Dragon Scales",
+      "npc": false,
+      "start": "2021-07-14T02:00:00Z",
+      "end": "2022-01-03T15:43:00Z"
+    },
+    {
+      "corporation_id": 98631475,
+      "name": "Profane Proverb",
+      "npc": false,
+      "start": "2022-01-03T15:43:00Z",
+      "end": "2025-11-10T00:56:00Z"
+    },
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2025-11-10T00:56:00Z",
+      "end": "2025-11-10T00:56:00Z"
+    },
+    {
+      "corporation_id": 98817310,
+      "name": "Dusk dreadnought.",
+      "npc": false,
+      "start": "2025-11-10T00:56:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

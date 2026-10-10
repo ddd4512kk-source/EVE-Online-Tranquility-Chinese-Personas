@@ -1,0 +1,28 @@
+# 火锅素材
+
+## 角色与账号对应
+
+- 游戏主号 Zeus008 / 2121593859：[ESI](https://esi.evetech.net/latest/characters/2121593859/?datasource=tranquility)、[EveWho](https://evewho.com/character/2121593859)。角色头衔“火锅，德克萨斯”，简介挂着自己的两份击杀报告；2023-09-09 建号。当前为 [Texas.](https://evewho.com/corporation/98806126)（原 Texas of Requiem，T.X.R，2025-06-08 由其创建）的 CEO。此前误收的 Texas / 2117487937 是 NPC 军团里的无关同名号，已弃用。
+- 同军团小号：Yuki 007 / 2123262345（与贴吧旧名“希大酱Yuki”相合），Zeus002 / 2121619873、Zeus005 / 2121593844、Zeus589 / 2122778562、Zeus886 / 2121728332、Zeus996 / 2122616623、ZeusDSN / 2121619890、ZeusGTR / 2121676163，均在 Texas. 军团（EveWho 成员列表），按“名字近似 + 同军团”判为本人小号，主号仍是 Zeus008。
+- 军团脉络：[Bronze Fury 的 DOTLAN 事件记录](https://evemaps.dotlan.net/corp/Bronze_Fury/events)显示 2024-04-26 入 Dragon Riders Legion、2024-06-06 入 Mohist Alliance、2024-08-12 入 Goonswarm Federation、2025-06-08 退盟；2026-05-13 Zeus008 才卸任 CEO，任命 Alan Vu Tuder 接任。Zeus008 于 2024-04-09 创建 Bronze Fury；EveWho 雇佣记录显示他在 2025-06-08 退团，同日创建 Texas of Requiem；后者随后历经 Shadow Cartel、Dawn's Light、Texas.（ARK）等联盟。退盟记录只证实日期，不记原因。
+- [B 站 Texas火锅 UID 2129407463](https://space.bilibili.com/2129407463)，短链 https://b23.tv/GhNdNPJ 指向该账号。贴吧[招新帖 #2](https://tieba.baidu.com/p/11045446984)由楼主自己贴出同一账号短链，故贴吧与 B 站账号可直接对应。
+- 贴吧展示名“贴吧用户_G4tJC7A”，原用户名“希大酱Yuki”，uid 5681413192；客户端作者查询列出下列本人主题。楼里他人称“火锅大酱”。
+
+## 公开帖子与视频
+
+- [2024-11-17《蜜蜂旗下 某乡下小团fc 收割吹牛帖》](https://tieba.baidu.com/p/9273828491)：#1—#48，发帖延续到 2025-04-27。#2 招 Bronze Fury；#3、#4 贴 BR；#9 “小吃一波”；#22 “晚上睡不着？ ess吃掠夺！”；#31 “海送葬 初战”。#44 对手称其队伍曾被打掉两条魔像，是楼中对手说法，未在正文归责。
+- [2025-01-23《新人小克1v22无双老外主播队》](https://tieba.baidu.com/p/9439272578)：#1 “拼尽全力无法战胜”；#2 半小时后“再次爽射”；#3 一小时后“再次团灭主播队”。#9 吧友称“火锅大酱”。首楼第一张 BR 截图可见 Team A (4)、Team B (18)，对面 26 船损失；这张图本身不支持单人对 22 名对手的读法，也不能排除标题合并了截图之外的交战。战果不归到具体角色名下。
+- [2025-09-23《分享一下低安乡下小团故土PVP记录》](https://tieba.baidu.com/p/10065172306)：#5 详述 9 月 21 日乌特拉两波战斗；第一波自述击杀 5、己损 2 乌鸦和 2 轻拦，第二波逐步撤走。#2 另述克莫与 TI LOH 的 1v1 后遭第三方加入。
+- [2026-09-22《德克萨斯故土团招新》](https://tieba.baidu.com/p/11045446984)：#1 “12开及以上”“PVE：5B isk/h”为招新原话，不当实测收益；#2 本人贴 B 站号；#5 “这是上班啊”；#6 Doonsky 问“12开？人均同步器吧需要”；#13 “17开最低标准”；#16 友军称语音两三人共 30—40 个号，属旁人观察；#22 骑士荣光称“故土高科技大军，太可怕了”。“同步器”“高科技”在此处都影射脚本作弊，是吧友怀疑，不是已证实使用。
+- [B 站“很好的巴盖斯，使我的涡轮激光炮旋转”](https://www.bilibili.com/video/BV1wreJ62EqK)公开元数据确认 UP 为 Texas火锅；其账号投稿列表曾返回 21 条，含《Best In Pochven》《镇压PH武装农民起义！》等，标题不可当战果核验。
+- 投稿列表还见[《故土“同步器”Be Like》](https://www.bilibili.com/video/BV1m9RFBmEnT)（2026-05-03）。只核到标题；不能据标题认定他本人使用同步器，也不能忽略招新帖里吧友对脚本的质疑。
+
+- Bronze Fury 前科：帝国圈内流传的说法是 Bronze Fury 因挂脚本、低出勤和刷怪纠纷被 Goonswarm Federation 踢出；来源类型为联盟成员的社区回忆，非联盟公告。DOTLAN 证实 2025-06-08 退盟与 Zeus008 当时仍任 CEO，不能单独证实三项理由。
+
+## 检索记录与待补
+
+- 游戏画像：Zeus008 角色、军团、联盟 ESI；zKillboard 统计接口本次无可读结果。其他小号的完整名单未核，不在正文枚举。
+- 贴吧：命中同一 uid 的 2024—2026 多条主题及招新帖。
+- 搜索引擎：精确“Texas火锅”与 EVE 结果主要混入食物/地名，属于同名噪声；以贴吧 uid 取材。
+- 英文网页搜索“Bronze Fury”+ botting/kicked 无公开报道命中（属搜索失败，不等于无此事）。
+- B 站：投稿列表命中；单篇视频脚本评论请求 HTTP 412，属搜索失败，未据视频画面归战果。

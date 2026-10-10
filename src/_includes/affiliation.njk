@@ -2,8 +2,8 @@
 {%- set aff = char.affiliation -%}
 {%- if aff -%}
 <span class="aff">
-  <span class="aff-corp">{{ aff.corporation.name }}{% if aff.corporation.ticker %} <span class="ticker">[{{ aff.corporation.ticker }}]</span>{% endif %}</span>
-  {%- if aff.alliance %}<span class="aff-sep"> · </span><span class="aff-ally">{{ aff.alliance.name }}{% if aff.alliance.ticker %} <span class="ticker">&lt;{{ aff.alliance.ticker }}&gt;</span>{% endif %}</span>{% endif %}
+  <span class="aff-corp">{% if affLink %}<a href="https://evewho.com/corporation/{{ aff.corporation.id }}" rel="noopener">{{ aff.corporation.name }}</a>{% else %}{{ aff.corporation.name }}{% endif %}{% if aff.corporation.ticker %} <span class="ticker">[{{ aff.corporation.ticker }}]</span>{% endif %}</span>
+  {%- if aff.alliance %}<span class="aff-sep"> · </span><span class="aff-ally">{% if affLink %}<a href="https://evewho.com/alliance/{{ aff.alliance.id }}" rel="noopener">{{ aff.alliance.name }}</a>{% else %}{{ aff.alliance.name }}{% endif %}{% if aff.alliance.ticker %} <span class="ticker">&lt;{{ aff.alliance.ticker }}&gt;</span>{% endif %}</span>{% endif %}
   {%- if aff.left_at %} <span class="aff-left">（{{ aff.left_at | ym }} 离开）</span>{% endif %}
 </span>
 {%- else -%}

@@ -14,3 +14,7 @@
 
 - 2026-10-07 复核时的历史料块数：4 → 10；此后已有红黑重分及修订，不代表当前条数。
 
+
+### 2026 年联盟名单
+
+- [中文公务员名单](https://wiki.winterco.org/zh/coalition/leadership)（2026-09-06）列 NUWA-FlyingBee 蜜蜂于后勤燃料组、补损组。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。

@@ -20,6 +20,13 @@
 - **重，交站的直接后果**：[帝国成员 Wilhelm 1 月 11 日记录](https://tagn.wordpress.com/2022/01/11/the-army-of-mango-alliance-implodes/)附克隆删除界面，记录 3,277 个克隆及成员另寻归宿；不是删角色，也不是三千多名真人。[1 月 19 日现场记述](https://tagn.wordpress.com/2022/01/19/the-battle-of-the-loot-pinata-at-r-arkn/)记录废弃星城毁灭、仓库战利品争抢。两篇对撤离时长有 24/48 小时差异，正文引用公告期限，不强行拼成统一小时数。拆站和战损本身不是本人黑料；归因限定于交出控制权、接纳方案落空和成员撤离后果。
 - **多方背景**：[FRT 当时公告](https://wiki.winterco.org/zh/alliance_news_and_update/2022.01.09)和[N老板战后总结](https://forums.winterco.org/t/topic/12736)均已读；用于守站、驱逐与后续背景，作者为对手阵营。FRT 堵站行为与帝国处理合并/星城分开归属，不把所有后续行动都说成米塔尼亲自实施。
 - **中轻，制度争议**：[《馒狗陪审团的大笑话》](https://forums.winterco.org/t/topic/7104)已通过公开 JSON 读取全部七楼，Forever0、Rosina 质疑作秀与缺少第三方监督；收入列传为具体制度争议，不据此编造操纵案件。首楼两张图片尚未读到，不引用图片里的未确认内容。
+### 2019 年移民欧服：r/Eve 早期帖（2026-10-10 用 `reddit-thread.mjs` 读全帖）
+
+- **重，PIBC 全体大会纪要**：[《The Latest News From PIBC Meeting》beqjsi](https://www.reddit.com/r/Eve/comments/beqjsi/)（2019-04-18，Angry_Pandaa，196 评）。会议公开，频道 2138 人；纪要译文 11 条：准备艰难开局、放下派系敌意、先在吉他附近低安落脚、联盟名 The Army of Mango Alliance、对外国军团与个人开放、可与外国势力合作、**不当任何势力的宠物**、不评论 FRT 与 RR（“馒头总统个人倾向避免与其他华人势力冲突”）、开局不站队、**移民不为 ISK，反对 BOT 和 RMT**、放弃霸权主义、不搞极端民族主义。Mortiferum 逐条译思维导图：“我们不了解 TQ 的 bot 风气”“不是来刷金的”“不包庇 botter”“不 RMT”“遇到辱华，想回嘴可以，重点仍是发展”；已在其他联盟的 AOM 成员不召回。sthuajie：纪要当夜出中英文版和思维导图，“宣传机器堪比 goons”。Thomas_Lot：“像毒枭来美国说不为钱、还要禁毒”。Angry_Pandaa：Serenity 已死，芒果每天掉人，只能移民；馒头说 TQ 建盟不等于国服 PIBC 解散。
+- **中，联盟名公告**：[ben767](https://www.reddit.com/r/Eve/comments/ben767/)（2019-04-18，FRT-panda，标题称“国服所有敌人 = 朋友 全蓝”，附公告图）。JHXSMatthew、TGlam、441243206（自称 PIBC/AOM）译公告：PIBC 是“正义联盟”，不怕间谍，继续用 YY；放下恩怨，到欧服都是兄弟；反对 BOT 和 RMT；暂无补损；移民自愿，国服业务照常。ZenosEbeth、murkar 质疑是先放话做危机公关。LefthandedLunatic 指 Rooks and Kings 视频讲过“芒果”名字由来。
+- **中，传闻**：[bhtamb](https://www.reddit.com/r/Eve/comments/bhtamb/)（2019-04-27，anothersider）：传 PGL 与 Mantou EVE 会面，PIBC 将与 TEST 结盟、搬去 Omist。sthuajie：AOM 已否认，但传闻来自国服“北方联盟”泄露的通知，称已在 TQ 的成员须从 Delve 搬去 Omist、加入其新建联盟（AOM 一部分），否则会被踢出国服 PIBC 名单；gongtu 也见过类似截图，自称无法判真伪。未见后续证实，正文只写“坊间传、AOM 否认”。
+- 2019 年 Baidu 泄露 WinterCo 帖（db1p1p）已在王答答素材中，不重复。
+
 - **待追线索**：《帝国的意志》另提歹佬录音、手游 AOM 灭灯与 RMT 说法，但未给出完整经过及原始证据；保留检索入口，未凭一句带过的指控扩写为独立事件。
 
 ### 检索记录与缺口
@@ -29,3 +36,14 @@
 - 负面方向检索包含 `馒头 eve欧服吧 封号 洗号 骗 跑路 谴责`、`馒头 eve 骗 跑路 封号`、陪审团、米塔尼及歹佬录音；后续百度/360 多次验证码，部分页面未得到有效结果。补用必应与网页搜索，未取得歹佬事件原始内容；记为搜索失败/待追，不是无黑料。B 站首次打开只得登录导航，重试后取得完整正文。
 - 2026-10-07 复核时的历史料块数：5 → 7；此后已有红黑重分及修订，不代表当前条数。
 
+### 军团简介（2026-10-10 ESI 快照）
+
+- [大坝科研 DAMSR](https://esi.evetech.net/latest/corporations/98606029/)（原 AOM 军团，现 Dracarys.）简介：“由于 那个男人 让AOM 联盟 直接GG，全部木大，我们现已加入DC”。没点名，大概指馒头（AOM 2022-01 脱壳并 RR 后被帝国除名）。同一简介挂着 2020-12-14 AOM 围殴自家总监 Lv223 监视者的 KM，详见[表妹素材](../fu1crum/materials-fu1crum.md)。
+- [幽魂特勤舰队 Ghost Recon Fleet](https://esi.evetech.net/latest/corporations/98578671/)（Dracarys.，204 角色；CEO Silly Anna）简介：“原国服军团……来自于国服卫队海盗联盟AOC,AOM 以及00联盟GF / 我们是最后的反馒斗士”。
+
+### 知乎（2026-10-10，用 `scripts/research/zhihu.mjs` 读全文与评论）
+
+- [《如何看待军用馒头在AOM会议上将华人势力凛冬联盟群称为香蕉人？》](https://www.zhihu.com/question/347027023)（2019-09）：唯一回答 879909495（知乎匿名用户，编辑于 2019-11-03，AOM 立场）称此举“极为严重的错误”，馒头已于“9·27号当晚联盟大会中为此次错误言论正式致歉”，附 B 站 av69203775《9·27 军用馒头为此前不正当言论正式致歉》。已写入列传。待核：B 站 av69203775 是否仍在、录音原话。
+- [《如何看待网游EVE最大联盟PIBC在游戏中征募专业人士成立法务部这一现象？》](https://www.zhihu.com/question/407207780)（2020-07）：汉家苏定方（1365160708）称法务/陪审团源于“欧服部AOM有个联盟罚单遭到了当事人的质疑”，此后罚单须经陪审审批，并大段称赞馒头决策能力；熊猫人探归（1342903927）称 AOM 欧服刷怪制度不合理、管理混乱，“宇宙的另一边都每天能看到aom各种罚款的笑话”。已写入列传陪审团块。
+- [《如何看待EVE欧服中华人联盟FRT的联盟执行军团账户截图显示负一万亿？》](https://www.zhihu.com/question/422728628)：FRT 一方回答反指“楼主东家pibc，公然在国服挂脚本卖金，收取RMB保护费”；评论“aom莫名其妙少了那么多账户。也没有解释”。对手单方说法，未入文。
+- 知乎戏文《EVE欧服——馒族入侵》（李华梅，2017-10）评论区有对馒头现实身份（学校、教师姓名）的猜测与辟谣，属现实隐私，不留存。

@@ -32,7 +32,7 @@ bodyClass: page-person
 
   <dl class="bio-facts" data-pagefind-ignore>
     <div><dt>创号</dt><dd><time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time></dd></div>
-    <div><dt>{% if char.affiliation and char.affiliation.left_at %}最近{% else %}现属{% endif %}</dt><dd>{% include "affiliation.njk" %}</dd></div>
+    <div><dt>{% if char.affiliation and char.affiliation.left_at %}最近{% else %}现属{% endif %}</dt><dd>{% set affLink = true %}{% include "affiliation.njk" %}</dd></div>
     {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
   </dl>
 
@@ -46,7 +46,7 @@ bodyClass: page-person
       {%- for h in char.history | reverse %}
       <li class="{% if h.npc %}is-npc{% endif %}">
         <span class="emp-date">{{ h.start | ymd }} — {% if h.end %}{{ h.end | ymd }}{% else %}至今{% endif %}</span>
-        <span class="emp-corp">{{ h.name }}</span>
+        <span class="emp-corp">{% if h.npc %}{{ h.name }}{% else %}<a href="https://evewho.com/corporation/{{ h.corporation_id }}" rel="noopener">{{ h.name }}</a>{% endif %}</span>
       </li>
       {%- endfor %}
     </ol>

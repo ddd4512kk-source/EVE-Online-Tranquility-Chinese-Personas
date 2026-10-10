@@ -16,3 +16,11 @@
 
 - 2026-10-07 复核时的历史料块数：3 → 7；此后已有红黑重分及修订，不代表当前条数。
 
+
+### 2026 年联盟名单
+
+- [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 Remeleen 为 Acting FRT CEO，并在 CN 执行领导组、CN 军事组。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- [Stay Alive.](https://esi.evetech.net/latest/corporations/98504153/) 简介（“全员误国”）贴着 noraus 的聊天记录：“if I found you play R6 again / during my cta / ill find u / and ill kill u(in game stop filing tickets jeeez)”。没点名；结合他公开的 R6 档期，看样子说的是他。详见 [N老板素材](../noraus/materials-noraus.md)。

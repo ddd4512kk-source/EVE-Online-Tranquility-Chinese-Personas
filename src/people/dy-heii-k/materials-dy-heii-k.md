@@ -17,3 +17,6 @@
 - 撰写时新增：2024-06-01 采星者七周年，FRT 打掉“STARCHASER Tranquility 7th Anniversary”空堡（[118308865](https://zkillboard.com/kill/118308865/)）后三分钟又打掉橘子的 Naglfar（[118308907](https://zkillboard.com/kill/118308907/)，zKill 标 awox），两条都挂在其简介；2021-09-17 在 H-NOU5 损失 Revenant（[95176606](https://zkillboard.com/kill/95176606/)，168.9B）。
 - 画像 / KB：命中，[角色 / KB](https://zkillboard.com/character/2114324589/)；论坛：DY_HEII_K：主题 0 / 回帖 0；中文搜索：百度/360 回退；必应 10 条，未取得对应本人新料；其他材料：团方重组介绍；具体战报未细读。
 
+### 军团简介（2026-10-10 ESI 快照）
+
+- 小号 **DY HEII S（2118432947）** 是 [STARCHASER Consortium（SC-CN）](https://esi.evetech.net/latest/corporations/98640492/) 的 ESI CEO：FRT，44 角色，简介全文“你瞅啥”。与 DY HEII K 同名仅差一字母、同在 FRT，按小号处理。

@@ -1,0 +1,47 @@
+{
+  "id": 2122617868,
+  "name": "innosD9c",
+  "birthday": "2024-08-12T23:55:38Z",
+  "current_corporation": {
+    "id": 98702890,
+    "name": "Descendants of Shen Nong",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "ticker": ".DSN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2024-08-12T23:56:00Z",
+      "end": "2024-08-14T15:41:00Z"
+    },
+    {
+      "corporation_id": 98745899,
+      "name": "Fragrant grass",
+      "npc": false,
+      "start": "2024-08-14T15:41:00Z",
+      "end": "2024-08-15T14:52:00Z"
+    },
+    {
+      "corporation_id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "npc": false,
+      "start": "2024-08-15T14:52:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

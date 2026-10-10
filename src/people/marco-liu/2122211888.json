@@ -1,0 +1,43 @@
+{
+  "id": 2122211888,
+  "name": "Mr Marco Liu",
+  "birthday": "2024-04-02T06:03:38Z",
+  "current_corporation": {
+    "id": 98835078,
+    "name": "Genesis Brothers",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98835078,
+      "name": "Genesis Brothers",
+      "ticker": "CSXD"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2024-04-02T06:04:00Z",
+      "end": "2024-04-03T07:21:00Z"
+    },
+    {
+      "corporation_id": 98768515,
+      "name": "Genesis Brothers Club",
+      "npc": false,
+      "start": "2024-04-03T07:21:00Z",
+      "end": "2026-05-31T22:38:00Z"
+    },
+    {
+      "corporation_id": 98835078,
+      "name": "Genesis Brothers",
+      "npc": false,
+      "start": "2026-05-31T22:38:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

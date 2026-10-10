@@ -20,3 +20,8 @@
 
 - 贴吧客户端站内搜索“木木三/叶利木/dear mumusan”及 BOP、DC、无畏、管理等组合；吧务撤销公告里的“木木三”均为其他贴吧同名账号，已排除。
 - 缺口：本人贴吧账号未确认；“叶利木”改名后的角色未查；DC 2026 年变动是否属实无官方证据；无 B 站、论坛核查。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- 小号 **mumusan Chen（2114818738）** 是 [It's MyGO.（MYGO.）](https://esi.evetech.net/latest/corporations/98794444/) 的 ESI CEO：DC，14 角色，简介“隶属于DC的FC团 / 还有为什么要演奏春日影？”。
+- [北方重工 North Heavy Industry Group（N.HI）](https://esi.evetech.net/latest/corporations/98634173/)（Dracarys.，34 角色；CEO Clear Love 777）简介全文：“木木三-沉 同志是我们北方重工集团创始人之一，为集团发展作出了不可磨灭的贡献，将永远活在我们心中。”——人还活着，简介先写成了悼词。与贴吧“已破产的北方重工集团前 CEO 路过”对得上。

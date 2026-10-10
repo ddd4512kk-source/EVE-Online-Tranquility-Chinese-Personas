@@ -1,0 +1,47 @@
+{
+  "id": 2121980797,
+  "name": "M-AP",
+  "birthday": "2024-01-12T13:55:56Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2024-01-12T13:56:00Z",
+      "end": "2024-03-22T07:44:00Z"
+    },
+    {
+      "corporation_id": 98705642,
+      "name": "Chuangshi College",
+      "npc": false,
+      "start": "2024-03-22T07:44:00Z",
+      "end": "2024-04-10T11:16:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2024-04-10T11:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

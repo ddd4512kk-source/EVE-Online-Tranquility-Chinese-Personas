@@ -30,3 +30,7 @@
 ## 渠道记录
 
 - 贴吧客户端：“Freak 03”“Freak_03”结果为撞词。
+
+### 2026 年联盟名单
+
+- [中文公务员名单](https://wiki.winterco.org/zh/coalition/leadership)（2026-09-06）列 AMIYA-Freak 03 于补损组。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。

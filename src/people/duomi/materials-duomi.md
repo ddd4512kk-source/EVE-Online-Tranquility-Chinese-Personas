@@ -1,8 +1,14 @@
 <a id="duomi"></a>
 
-## 多米 / Duomi D03
+## 多米 / Aitt duominx
 
-收录角色已确认：**Duomi D03（2118786461）**，与 **夺米台风 / DomiTyphoon（2113029856）不是同一人**。已有[列传源文件](duomi.md)。宫斗与散场炫耀是主线，采用社交媒体信源；军团招新文案只作轻料，不代替人物事件。
+收录角色：**Aitt duominx（2118339639）**。同系列的 **Tantami duominx（2117947295）**、**Duomi D01–D03**均留有对应线索；D03（2118786461）是 Dusk 的创建者与 CEO。此人与 **夺米台风 / DomiTyphoon（2113029856）不是同一人**。已有[列传源文件](duomi.md)。宫斗与散场炫耀是主线，采用社交媒体信源；军团招新文案只作轻料，不代替人物事件。
+
+- **角色选择（2026-10-10）**：[Aitt duominx](https://zkillboard.com/character/2118339639/) 7902 击杀、312 损失；[Tantami duominx](https://zkillboard.com/character/2117947295/) 234 击杀、102 损失；[Duomi D01](https://zkillboard.com/character/2118744005/) 0 击杀、15 损失；[D02](https://zkillboard.com/character/2118767881/) 与 [D03](https://zkillboard.com/character/2118786461/) 都是 0 击杀、1 损失。Aitt 是已确认角色中 KB 最活跃的收录号；D03 的 CEO 事实仍按 D03 记录。
+- **身份对应**：[Aitt 的 ESI 资料](https://esi.evetech.net/latest/characters/2118339639/)头衔“多米 CEO”，[Tantami](https://esi.evetech.net/latest/characters/2117947295/)头衔“多米 已认证”；二者现均在 Dusk dreadnought.。Aitt、Tantami 与 Duomi D01–D03 的 [EveWho 雇佣记录](https://evewho.com/character/2118339639)在 Han Dynasty.、Dragon Scales、Profane Proverb 等军团有同步交集，2025 年 11 月又相继转入 Dusk。姓名、本人头衔、当前军团和多年平行履历合在一起，支持对应同一人；单靠 duomi 词形不够。
+- **前缀扩展检索回顾**：上轮只查 `Duomi D0` 至 `Duomi D9`，漏掉 duominx 变体并误选 D01。现按 duomi、duominx 及军团履历扩展；不能把“D01–D03 为零击杀”外推为多米本人没有战斗记录。
+
+- **《最新消息ph华人社区内乱》**（[9067120500](https://tieba.baidu.com/p/9067120500)，2024-06-26，楼主烧鸭饭和螺蛳粉）：“pf华人社区多个军团宣布，因不满多米大元帅暴政，宣布反叛。已经有大量军团离开m-j驻地。”3 楼有人称造谣，楼中楼“我们团就从mj走了”；9 楼“说好的ph不要求出勤呢”；14 楼“招募要求就是放屁，不出勤就踢团”；18 楼“欢迎伤心ph朋友来帝国 直接复仇多米”；20 楼称只有一个团去了蜜蜂。已入正文。哥布林列传也引此帖。
 
 ### 素材与证据边界
 

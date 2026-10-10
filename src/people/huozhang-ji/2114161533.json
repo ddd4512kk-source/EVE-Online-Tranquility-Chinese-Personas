@@ -1,0 +1,61 @@
+{
+  "id": 2114161533,
+  "name": "huozhang ji",
+  "birthday": "2018-06-01T21:47:38Z",
+  "current_corporation": {
+    "id": 98617920,
+    "name": "Advanced Weapon Supplement League",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98617920,
+      "name": "Advanced Weapon Supplement League",
+      "ticker": "AWSL."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-06-01T21:48:00Z",
+      "end": "2018-06-15T13:59:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2018-06-15T13:59:00Z",
+      "end": "2018-06-24T15:03:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2018-06-24T15:03:00Z",
+      "end": "2018-06-24T15:23:00Z"
+    },
+    {
+      "corporation_id": 98221842,
+      "name": "STARCHASER Inc.",
+      "npc": false,
+      "start": "2018-06-24T15:23:00Z",
+      "end": "2020-02-07T17:53:00Z"
+    },
+    {
+      "corporation_id": 98617920,
+      "name": "Advanced Weapon Supplement League",
+      "npc": false,
+      "start": "2020-02-07T17:53:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

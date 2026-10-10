@@ -3,7 +3,7 @@ character_id: 2116162416
 cn_name: 六竹
 aliases: [Six bamboo]
 epithet: 把别人骂他的话，整整齐齐挂在自己简介里。
-tags: [00区, FRT, 雪月城]
+tags: [00区, FRT, 雪月城, B站]
 ---
 
 六竹，游戏名 Six bamboo，头衔“总监~六竹”，雪月城（Snow Moon City）的 CEO。2020 年 1 月建号，在 FRT 的 Happy Game Club 待了将近两年；2021 年 12 月 28 日雪月城挂进 FRT 那天，六竹进了雪月城，至今是 CEO。雪月城现在一千一百多个角色。

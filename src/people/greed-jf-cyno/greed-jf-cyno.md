@@ -1,7 +1,7 @@
 ---
 character_id: 2114409630
 cn_name: 龙根
-aliases: [Greed jf cyno, 龙根]
+aliases: [Greed jf cyno, Greed, Greed Island, 龙根]
 epithet: 快递是他黑的，理由是你态度不好。
 tags: [00区, FRT, 工业, "FRT Holding"]
 ---
@@ -12,6 +12,8 @@ tags: [00区, FRT, 工业, "FRT Holding"]
 2022 年春节纳瓦拉一战，N老板的[战后总结](https://forums.winterco.org/t/topic/12874)写：前线各路 FC 分工组队，“场外有瓜瓜和龙根在负责后勤”。[瓜瓜](../2116389402/)管工业，龙根管建筑和物流，前线打得多热闹，后面的燃料、克隆、跳桥都得有人续上。
 
 凛冬论坛上，跳桥要加燃料、铁壁要上克隆、旗舰工厂什么时候下，版主的回复都是同一句：“CC @Greed_jf_cyno”。
+
+六年后这副担子还在他肩上。2026 年 10 月的[凛冬联盟管理名单](https://wiki.winterco.org/en/coalition/leadership)上，龙根一个人占三行：FRT 的主权后勤与基建由 Greed 分管 Vale、Tribute 和 West Geminate 三块地盘；税务那一栏，CN 也写着 Greed；联盟的 ACL（谁能进哪座建筑的权限表）归 Greed Island。燃料是他加，税是他收，门禁也是他管——一手花钱、一手收钱、一手卡人，账本大概只有他自己看得懂。
 :::
 
 ::: 红料 搬运 PH 的工业教程

@@ -34,11 +34,12 @@
 | --- | --- |
 | 站内搜索 | `node scripts/research/tieba-client-search.mjs "eve欧服 关键词" 4 eve` |
 | 翻帖子列表（约两年） | `node scripts/research/tieba-client-forum.mjs eve欧服 1 110 temp/frs.tsv` |
-| 读帖 | `tieba-client-read.mjs <帖子ID> <临时.json> [页数]`，再 `tieba-client-dump.mjs <临时.json>`；加 `--images <楼层数> <目录>` 下载截图 |
+| 读帖 | `tieba-client-read.mjs <帖子ID> <临时.json> [页数]`，再 `tieba-client-dump.mjs <临时.json>`（默认全文，文末列出正文所贴聊天记录的发言人）；加 `--images <楼层数> <目录>` 下载截图 |
 | 某账号全部发帖 | `tieba-client-user.mjs <帖子.json> <用户名片段> [1主题\|0回帖]` |
 
 - 关键词带“eve欧服”；外号撞常用词时改搜事件词、联盟名、英文角色名。
-- 搜索命中常只是一句回帖，点进主题读完整楼层。截图里的聊天人名、KM 常常就是角色名。检索脚本的结果可能混入其他吧，逐条确认吧名；前三页没命中目标吧，不算零结果。
+- 搜索命中常只是一句回帖，点进主题读完整楼层。截图里的聊天人名、KM 常常就是角色名。
+- **判“角色对不上”前，每层楼都要读全文，不看截断的摘要。** 长帖作者常在后期楼层贴游戏聊天记录（`[ 2025.02.28 13:44:48 ] 某某 > ……`），自己的角色名就在其中；先看最新楼层（网页“倒序”，客户端接口加 `r=1`）。再拿帖中回忆的具体击杀（日期、船型、总值、掉落）去 zKillboard 对，用户名的变体（binkcn → Bink Wang）用 `npm run find` 试。检索脚本的结果可能混入其他吧，逐条确认吧名；前三页没命中目标吧，不算零结果。
 - 账号追踪同时核对客户端的展示名 `name_show`、原用户名 `name` 和 uid。展示名变成“贴吧用户_……”时不能因此判断此人没发帖；`hide_post=1` 只说明回复列表隐藏，转查主题、站内命中与他参与的帖。
 - 原始输出可能含现实隐私，只放临时目录。
 
@@ -61,12 +62,41 @@
 `node scripts/research/bilibili.mjs <命令>`：`user <关键词>` 搜 UP、`search` 搜视频、`videos <mid>` 列全部投稿、`video <BV号> [评论页数]` 读简介与评论、`dynamics <mid>` 动态。
 
 - 先用 Google/必应 `site:bilibili.com 外号` 找账号，再跑脚本；请求间隔 10–20 秒，被 412/-352 拦就冷却。
+- **跨平台认号看整条链**：先确认贴吧发言的 UID 与本人对应；若他用第一人称说“我做了什么”，紧接着贴同一事件的视频或主页，而 UP 名与其外号同名、拆字、谐音或惯用变体相合，就认定这是本人 B 站号，记 UID、视频和逐段对应依据，并更新列传 `aliases`、`B站` 标签。例：“焱”拆成“三火”再加“魔”，属于有来源链支持的名字变体。不要只因字面相近就合并无关账号。
 - 评论区与弹幕是料的主要来源：本人回怼、对面来骂、熟人揭短都记下。
 - 也在别人的会战复盘、周刊、对面视角里搜他。
 
+### 知乎（有料，别跳过）
+
+知乎有当事人亲笔长答（本人解释被封、联盟史专栏）和“如何看待某某事件”的对线，贴吧没有的细节常在这里。脚本和无头浏览器一律 403，用有头浏览器工具，遇验证码请维护者手动过，无需知乎账号：
+
+| 要做什么 | 命令 |
+| --- | --- |
+| 搜索（经搜狗知乎站内，知乎自带搜索未登录无结果） | `node scripts/research/zhihu.mjs search "关键词1" "关键词2" [页数]` |
+| 读问题全部回答 / 文章，含评论 | `node scripts/research/zhihu.mjs read <网址>...` |
+| 列某人全部文章与回答 | `node scripts/research/zhihu.mjs user <主页或url_token>` |
+
+- 宽泛关键词（“eve欧服”）九成是萌新问答，费验证码；搜事件词和人名：`eve FRT`、`如何看待 某联盟`、`某某 eve`。标题含“如何看待/如何评价”加事件的优先读。
+- 评论区常有本人现身回复；“知乎用户”匿名答主可凭评论区署名或内容认人。
+
 ### 其他渠道
 
-知乎（“如何评价某某”）、百家号“EVE领航员”、PLA 论坛 forum.pla-eve.com、外网（Reddit、forums.eveonline.com 的 `search.json`、凛冬论坛、帖中链接的 Google Docs）。外国联盟的戏多在英文圈。
+百家号“EVE领航员”、PLA 论坛 forum.pla-eve.com。
+
+### 外网（外国联盟、华人被老外爆料的戏多在这里）
+
+- **Reddit（r/Eve）**：reddit.com 网页、`.json` 都被拦，代理自带网页搜索也几乎搜不到具体帖。读帖一律用 `node scripts/research/reddit-thread.mjs <帖子ID或网址> <临时.json>`：走 pullpush.io 存档，打印正文和**全部**评论（评论编号 ← 上级编号、作者、日期），原始数据存进临时文件。
+  - 按关键词找帖：`node scripts/research/reddit-search.mjs "\"Army of Mango\"" [posts|comments] [subreddit=Eve] [条数]`（同走 pullpush）。网页搜索找不到帖子时，先找引用过 r/Eve 的英文二手文章（Talking in Stations 节目页、tagn.wordpress.com、imperium.news、New Eden Post），它们的链接列表常给出原帖编号。
+  - **限流**：pullpush 对密集请求回 429（并声明不给代理免费抓取），Wayback 也会 429。脚本遇 429 立即退出；隔十几分钟再跑，一次只读一两个帖，不循环重试、不换站硬刷。
+  - 存档接口一次最多回 100 条评论，脚本会自动翻页；不要手写单次请求，曾因此漏掉三分之二评论，包括认出当事人的那条。
+  - 网址里 `?c=…` 这类分享参数不是评论编号，定位不到具体评论，直接读全帖。
+  - 截图只有 `preview.redd.it` 链接，存档不描述图片内容；需要时另行下载。
+  - 涉及华人的帖，评论区常贴贴吧或 B 站链接，顺着去读；爆料人常把军团介绍、联系方式昵称和角色名对起来，这类评论最有用。
+  - 帖中说的角色名常有出入（缺前缀、拼写差一点）：ESI `POST /universe/ids/` 查名字，再看相关军团的 `ceo_id`、`creator_id`，用 `npm run find` 确认。
+- **官方论坛**：forums.eveonline.com 的 `search.json?q=关键词`，多试几组英文关键词（人名、联盟名、事件词）。
+- **凛冬论坛**（forums.winterco.org，有 `.json` 接口）：常有 r/Eve 戏的中文转述。
+- **帖中链接的 Google Docs**：`/export?format=txt` 取全文。
+- 只跑一两次网页搜索就说“外网查不到”不算数。
 
 ## 三、原帖读不到时
 
@@ -92,5 +122,6 @@
 ## 五、已知的坑
 
 - 角色名以本人或当事联盟写法为准；同一外号可能指不同人，用游戏数据或原帖区分。
+- **小号检索**：找到收录号后，按名字词根搜同前缀、加数字、`I`/`l`、`m`/`rn` 等形近变体（zKillboard 自动补全只回前 10 项，要分段搜；再翻本人军团名册），并查同头衔角色和军团创建者。名字极相近且同军团或同联盟的，直接认作本人小号，不另立“可能同人”的保留；只有名字近但军团、联盟、时间都对不上的才存疑。
 - B 站视频被删且认不出作者时不引用。
 - Playwright 报 “Executable doesn't exist”：运行 `node node_modules/playwright/cli.js install chromium`。

@@ -23,3 +23,31 @@
 - 2026-10-07 复核时的历史料块数：5 → 9；此后已有红黑重分及修订，不代表当前条数。
 - 2026-10-09：怯薛盗号案通报（[9923182853](https://tieba.baidu.com/p/9923182853) #6 转载）写入“心腹公司，心腹大患”块，详见[汤圆素材](../tang-yuan/materials-tang-yuan.md)。
 
+
+### 2026 年联盟名单
+
+- [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 Noraus 为 Exec，并负责对外外交（与 Arrowspeeed）。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+
+### 知乎（2026-10-10，用 `scripts/research/zhihu.mjs` 读全文与评论，已写入列传）
+
+- [《如何看待EVE欧服中华人联盟FRT的联盟执行军团账户截图显示负一万亿？》](https://www.zhihu.com/question/422728628)（2020-09-24 提问）。题干：2020-09-24 49 超旗战，AOM 一名 B 站主播直播中与 FRT 成员冲突，放出贴吧流传的执行军团账户截图。
+  - 回答 1491285815（知乎匿名用户，2020-09-24）：“扣成负是因为花美刀买金，给团员补损。被发现了把非法所得扣掉了。官方严厉打击的是卖金。”并反指 PIBC 国服挂脚本卖金。
+  - 回答 1491970273（momo，2020-09-25，以凛冬口吻）：N老板封号事件源于凛冬在底特里德对抗 TEST 时期；联盟账户用于补损、设施维护致资金不足；此前用信用卡买 PLEX 补损的 N老板“以收保护费的名义、实际用现金从Kids With Guns联盟买金”；“N老板的十几个游戏账号被封，FRT联盟执行军团钱包被扣掉一万亿”。文末“先占坑”，未续写。
+  - 回答 1493065964（大尾巴狼）：反方长串质问，含“NNN暴政”“联盟鼓励挂脚本”等贴吧说法转述，另有涉及家人的句子，不入文。
+- [《如何看待2020年9月30号下午EVE欧服FRT联盟内部诸多军团开始反FRT？》](https://www.zhihu.com/question/423610107)：回答 1503260688（Away，2020-10-02）“创世 SARD 凤凰城 伏羲 神韵 采星 叶落 几个FRT数的过来的大团全部造反.结果就是第二天早上N老板直接武力镇压造反大鱼 直接处决了13条还有一条大航”；回答 1510176456（我选C，自称 fuxi 养老总监）“卢比扬卡的床很舒服”。待核：“处决 13 条”的船型（无畏？）与 zKillboard 2020-10-01 前后 FRT 内部击杀对照。
+- [《如何看待2018年7月19日eve欧服ualx-3星系爆发的超旗战？》](https://www.zhihu.com/question/285967560)：回答 455877561（山人Li，凛冬视角）记 UALX 监狱约 6 天、PL 领队越狱，其间 N老板叫人进会议室、TEST 叫人待命，“随后会议室里传来了N老板唱歌的声音”。评论 ShadowSong 反驳称 TEST 并不累、越狱是 PY。
+- 台风知乎专栏[《移民联盟：RR游骑兵简史》](https://zhuanlan.zhihu.com/p/36624210)：2017 南方战争 FCON 拆铁壁，N老板安慰台风“我爆了4个铁壁，你比我还强呢”；FR46 铁壁归 CURE，N老板改名 domityphoon sleepbag。
+- 同专栏：N老板按规定发给 RR 8B 星系夺取奖励；锚定铁壁未知会 noraus/wind/HY 是台风自认的错误之一。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- [Stay Alive.](https://esi.evetech.net/latest/corporations/98504153/)（FRT，111 角色；CEO 与外交 Mcdreamer Shepherd）简介开头四字“全员误国”，下面直接贴了一段聊天记录当招牌：
+
+  > [08:32:02] noraus > get in fleet
+  > [08:32:22] noraus > if I found you play R6 again
+  > [08:32:24] noraus > during my cta
+  > [08:32:27] noraus > ill find u
+  > [08:32:29] noraus and ill kill u(in game stop filing tickets jeeez)
+
+  被点名的人简介里没写。圈里最出名的“R6 误国”是[拉面林](../remeleen/materials-remeleen.md)（自称“玩完 EFT 就重新玩 R6”，吧友提起他先想到 r6），大概就是他；未证实，写入时用“看样子”。
+- FRT 军团 [Attack On CALDARI（AOCAL）](https://esi.evetech.net/latest/corporations/98599181/) 简介：“你已经进入猪头的少妇雷达防空识别区，我方所有行为均受猪头指使！”。“猪头”是他的外号，看样子说的是他。详见[毛蛋素材](../napoleon-codie/materials-napoleon-codie.md)。

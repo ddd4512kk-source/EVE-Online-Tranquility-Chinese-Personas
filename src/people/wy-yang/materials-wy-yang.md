@@ -15,3 +15,7 @@
 
 
 - **轻拦教学补充（中，主楼自述）**：原帖主楼记载卡吊在 1L 带队后专门找 YY，教本人轻拦探针与保命技巧。[卡吊素材](../ka-diao/materials-ka-diao.md)已对应到 Carla Malukker（93230738）；列传已补互链。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- [TCF Thunders Claw Fleet](https://esi.evetech.net/latest/corporations/98108175/)（FRT，83 角色）英文简介：Corp CEO D manson；Executive Director Detering Tank；Adviser 一栏写“D'Alessandro wy yang”（大概是两名顾问并列）。简介称“a group of veteran players who have returned to EVE after an extended break”，入团要 100mil SP，不够 50mil 的建议去伏羲；自称背后有“Chinese big family（Winter Collection）”。

@@ -1,0 +1,40 @@
+{
+  "id": 2118244824,
+  "name": "Docter Hikanami",
+  "birthday": "2021-02-08T02:00:52Z",
+  "current_corporation": {
+    "id": 98588384,
+    "name": "YeLuo-XingHai",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98588384,
+      "name": "YeLuo-XingHai",
+      "ticker": "YELUO"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-02-08T02:01:00Z",
+      "end": "2021-02-08T09:42:00Z"
+    },
+    {
+      "corporation_id": 98588384,
+      "name": "YeLuo-XingHai",
+      "npc": false,
+      "start": "2021-02-08T09:42:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

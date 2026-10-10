@@ -20,3 +20,8 @@
 - 画像 / KB：命中，[角色 / KB](https://zkillboard.com/character/2113213717/)，击杀 8940、损失 578、单杀 674；论坛：Fley_Den，10 主题 54 回帖；贴吧站内搜索：命中上述帖；贴吧 2019-02 回帖称“因宣传盾抗旗舰被踢出群”：[6042290280](https://tieba.baidu.com/p/6042290280)（FRT—凤凰城招新帖）回复原文“我是乌鸦王 我因为在群里宣传盾抗旗舰被踢出群 请大家支援我 捐款给fley den谢谢！”，2026-10-09 按署名写入黑料（是否冒名未核，正文点明）。
 - 2024 年“精英行动 #1赛季”赛程帖中有队名“乌鸦王为什么不带队”（第三名）；与本人关系未核对，未写入。
 - B 站：此前搜索无可靠本人账号；未用主号名重搜。
+
+### 军团简介（2026-10-10 ESI 快照）
+
+- [彩虹天马 Rainbow Pegasus Squadron](https://esi.evetech.net/latest/corporations/98531953/)（FRT，70 角色；ESI CEO Rainbow Pegasus Holder）简介：“彩虹天马现已合并至 Descendants of Shen Nong 神农裔……目前常务请联系 Fley Den 乌鸦王”，后接“At last, everypony, I love you all.”。RPS 自述由国服马厨团 Rainbow Pegasus 转服而来，“由一群爱好彩虹小马的中国马迷组成”；联系人另列 Winder Feather。
+- [神农裔 DSN](https://esi.evetech.net/latest/corporations/98702890/) 当前 ESI CEO 为小号 Den Like Raven（2113941665），977 角色。
