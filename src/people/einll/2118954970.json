@@ -1,0 +1,89 @@
+{
+  "id": 2118954970,
+  "name": "EinLL",
+  "birthday": "2021-07-31T13:06:31Z",
+  "current_corporation": {
+    "id": 98725089,
+    "name": "Arknights.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725089,
+      "name": "Arknights.",
+      "ticker": "AMIYA"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-07-31T13:07:00Z",
+      "end": "2021-08-02T14:30:00Z"
+    },
+    {
+      "corporation_id": 98648061,
+      "name": "Tu Zi Fei Corporation",
+      "npc": false,
+      "start": "2021-08-02T14:30:00Z",
+      "end": "2021-09-28T08:06:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-09-28T08:06:00Z",
+      "end": "2021-09-28T08:07:00Z"
+    },
+    {
+      "corporation_id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "npc": false,
+      "start": "2021-09-28T08:07:00Z",
+      "end": "2022-06-26T16:15:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-06-26T16:15:00Z",
+      "end": "2022-06-26T16:16:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2022-06-26T16:16:00Z",
+      "end": "2025-01-16T04:12:00Z"
+    },
+    {
+      "corporation_id": 98456980,
+      "name": "Dragonborn of New Eden",
+      "npc": false,
+      "start": "2025-01-16T04:12:00Z",
+      "end": "2025-03-30T10:24:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2025-03-30T10:24:00Z",
+      "end": "2025-03-30T10:24:00Z"
+    },
+    {
+      "corporation_id": 98725089,
+      "name": "Arknights.",
+      "npc": false,
+      "start": "2025-03-30T10:24:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

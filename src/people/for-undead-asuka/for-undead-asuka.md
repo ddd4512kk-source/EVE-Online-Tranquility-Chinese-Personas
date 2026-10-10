@@ -3,7 +3,7 @@ character_id: 2121130491
 cn_name: 飛鳥
 aliases: [ForUndeadAsuka, 狂血兔与木棉花, 飞鸟]
 epithet: 立志当 EF 击坠王，简介里挂的是六百人分的一条 FAX。
-tags: [00区, FRT, 低安]
+tags: [00区, FRT, 低安, B站]
 ---
 
 飛鳥，游戏名 ForUndeadAsuka，B 站 UP 主“狂血兔与木棉花”。2023 年 4 月建号，第二天进了 FRT 旗下的 EF air force——招新简介里自己解释：“EF就是你想的那个EF”“没错就是东联”，联邦空军。此后三年半没换过军团，安全等级刷到了 -6.3。

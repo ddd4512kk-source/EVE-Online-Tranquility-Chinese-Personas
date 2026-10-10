@@ -3,7 +3,7 @@ character_id: 2122051226
 cn_name: 亮神
 aliases: [lightgod, 亮神3, 亮神惊天战神]
 epithet: 阿巴宗护航四十四回，战损也很响。
-tags: [低安, 高安]
+tags: [低安, 高安, B站]
 ---
 
 亮神，游戏名 lightgod，2024 年 2 月建号，头衔就是“亮神”。贴吧叫“亮神3”，B 站叫“亮神惊天战神”。他是 [GGA F](../2116449124/) 名下铁道军团（TieDao）的总监，带着高安分团 TieDaoXingChen；早先在 KFC Crazy Thursday 联盟的 North Shore Ghost Army 待了一年多，还在 49 City. 待过一个月。

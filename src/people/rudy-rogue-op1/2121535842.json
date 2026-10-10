@@ -1,0 +1,110 @@
+{
+  "id": 2121535842,
+  "name": "Rogue Operative 1",
+  "birthday": "2023-08-20T07:23:57Z",
+  "current_corporation": {
+    "id": 98784372,
+    "name": "Corp of Management",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98784372,
+      "name": "Corp of Management",
+      "ticker": ".AWAY"
+    },
+    "alliance": {
+      "id": 99013537,
+      "name": "Insidious.",
+      "ticker": "EVIL."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2023-08-20T07:24:00Z",
+      "end": "2023-08-20T07:55:00Z"
+    },
+    {
+      "corporation_id": 98728601,
+      "name": "Astrology Club.",
+      "npc": false,
+      "start": "2023-08-20T07:55:00Z",
+      "end": "2024-06-23T18:28:00Z"
+    },
+    {
+      "corporation_id": 98773866,
+      "name": "Discord Online",
+      "npc": false,
+      "start": "2024-06-23T18:28:00Z",
+      "end": "2024-09-30T05:00:00Z"
+    },
+    {
+      "corporation_id": 98728601,
+      "name": "Astrology Club.",
+      "npc": false,
+      "start": "2024-09-30T05:00:00Z",
+      "end": "2025-03-20T23:47:00Z"
+    },
+    {
+      "corporation_id": 98784372,
+      "name": "Corp of Management",
+      "npc": false,
+      "start": "2025-03-20T23:47:00Z",
+      "end": "2025-04-27T13:32:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2025-04-27T13:32:00Z",
+      "end": "2025-04-27T17:07:00Z"
+    },
+    {
+      "corporation_id": 98728601,
+      "name": "Astrology Club.",
+      "npc": false,
+      "start": "2025-04-27T17:07:00Z",
+      "end": "2025-05-15T17:49:00Z"
+    },
+    {
+      "corporation_id": 98784372,
+      "name": "Corp of Management",
+      "npc": false,
+      "start": "2025-05-15T17:49:00Z",
+      "end": "2025-08-29T15:30:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2025-08-29T15:30:00Z",
+      "end": "2025-08-29T15:31:00Z"
+    },
+    {
+      "corporation_id": 98728601,
+      "name": "Astrology Club.",
+      "npc": false,
+      "start": "2025-08-29T15:31:00Z",
+      "end": "2026-07-01T20:21:00Z"
+    },
+    {
+      "corporation_id": 98822134,
+      "name": "Insidious Inc",
+      "npc": false,
+      "start": "2026-07-01T20:21:00Z",
+      "end": "2026-07-25T03:27:00Z"
+    },
+    {
+      "corporation_id": 98784372,
+      "name": "Corp of Management",
+      "npc": false,
+      "start": "2026-07-25T03:27:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

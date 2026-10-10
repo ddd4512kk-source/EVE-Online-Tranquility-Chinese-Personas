@@ -1,0 +1,103 @@
+{
+  "id": 2119060315,
+  "name": "Kerrum Pithy",
+  "birthday": "2021-09-04T08:24:32Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-09-04T08:25:00Z",
+      "end": "2021-10-24T13:45:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2021-10-24T13:45:00Z",
+      "end": "2022-05-06T20:26:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-05-06T20:26:00Z",
+      "end": "2023-06-28T02:56:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2023-06-28T02:56:00Z",
+      "end": "2023-06-29T03:12:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2023-06-29T03:12:00Z",
+      "end": "2023-07-04T01:42:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2023-07-04T01:42:00Z",
+      "end": "2023-08-20T00:38:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2023-08-20T00:38:00Z",
+      "end": "2023-09-05T21:59:00Z"
+    },
+    {
+      "corporation_id": 98705642,
+      "name": "Chuangshi College",
+      "npc": false,
+      "start": "2023-09-05T21:59:00Z",
+      "end": "2023-10-02T03:57:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2023-10-02T03:57:00Z",
+      "end": "2023-11-22T18:44:00Z"
+    },
+    {
+      "corporation_id": 98705642,
+      "name": "Chuangshi College",
+      "npc": false,
+      "start": "2023-11-22T18:44:00Z",
+      "end": "2023-11-29T03:03:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2023-11-29T03:03:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-09"
+}

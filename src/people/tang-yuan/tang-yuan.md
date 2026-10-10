@@ -1,14 +1,14 @@
 ---
 character_id: 2117147972
 cn_name: 汤圆
-aliases: [Tang Yuan, Silver Magician, 怯薛王]
+aliases: [Tang Yuan, Silver Magician, Light Cone, 怯薛王]
 epithet: 自封怯薛王，一觉醒来怯薛没了。
 tags: [00区, FRT, FRTBM]
 ---
 
-汤圆，游戏名 Tang Yuan，2020 年 7 月建号，一直在 FRT：伏龙芝军事学院、Hephaestus and Aphrodite、怯薛（KheshigFleet）、女娲，2023 年 6 月起进了 **Fraternity Building Management**——FRT 管联盟建筑的军团（和[龙根](../2114409630/)同一家）。另有小号 Silver Magician，在冬凛公务员名单上挂“KHESH-Silver Magician 汤圆”，任外交组组长。
+汤圆，游戏名 Tang Yuan，2020 年 7 月建号，一直在 FRT：伏龙芝军事学院、Hephaestus and Aphrodite、怯薛（KheshigFleet）、女娲，2023 年 6 月起进了 **Fraternity Building Management**——FRT 管联盟建筑的军团（和[龙根](../2114409630/)同一家）。另有小号 Silver Magician，在冬凛公务员名单上挂“KHESH-Silver Magician 汤圆”，任外交组组长。还有一个小号 Light Cone，如今正是怯薛（KheshigFleet）的现任 CEO——主号挂在 FRTBM，怯薛的法人却是小号坐着，“怯薛王”的名号倒是实打实。
 
-这个小号的角色简介只有一句，写得很有气势：
+Silver Magician 这个小号的角色简介只有一句，写得很有气势：
 
 > 鲜衣怒马汤圆郎，谁人不识怯薛王！
 

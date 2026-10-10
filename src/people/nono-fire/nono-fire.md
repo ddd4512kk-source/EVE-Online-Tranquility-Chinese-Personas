@@ -3,7 +3,7 @@ character_id: 2113426221
 cn_name: NoNoOwO
 aliases: [NoNoFire]
 epithet: 战报剪得勤，洗过南华机库，也“拾”过一条泰坦。
-tags: [低安, AVDOT]
+tags: [低安, AVDOT, B站]
 ---
 
 NoNoOwO 对应游戏角色 NoNoFire。2017 年建号，早年在 China Soul Reaper，2019 年进 Infinity Avenger（AVDOT），之后长期跟 Snuffed Out 活动。圈里留下他的，不只是击杀记录，还有一批从装甲排、无畏到旗舰会战的 B 站录像。别人剪战报挑高光，他有时连自己手忙脚乱、炮都没开出来的镜头也照样发。

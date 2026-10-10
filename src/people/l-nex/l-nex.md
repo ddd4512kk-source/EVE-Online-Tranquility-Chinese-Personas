@@ -3,7 +3,7 @@ character_id: 2118354268
 cn_name: 少侠
 aliases: [L-Nex, 少侠LNP, LNP]
 epithet: 简介写满泰坦超旗，标题老实写着 Involved。
-tags: [低安, 00区]
+tags: [低安, 00区, B站]
 ---
 
 少侠，游戏名 L-Nex，B 站 UP 主“少侠LNP”，签名“行于米德加与拉卡帕斯的裂隙之间…”——FF7 的地名，频道里还真有他自己录的 FF7 官方小说中文有声书。2021 年 2 月建号，5 个月后进了 FRT 的 Stardust-Guardian，一待将近四年；2025 年 3 月离开 FRT，转去 Snuffed Out 的 The Skies Descend，从此在低安蹲旗舰。

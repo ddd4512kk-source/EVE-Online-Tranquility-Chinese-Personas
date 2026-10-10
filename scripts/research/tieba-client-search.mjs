@@ -40,7 +40,7 @@ for (let pn = 1; pn <= pages; pn++) {
     break;
   }
   for (const item of list) {
-    if (forum && item.forum_name && !item.forum_name.includes(forum.replace(/吧$/, ""))) continue;
+    if (forum && !(item.forum_name || item.fname || "").includes(forum.replace(/吧$/, ""))) continue;
     const id = item.tid || item.thread_id || item.pid;
     if (seen.has(id)) continue;
     seen.add(id);

@@ -1,0 +1,47 @@
+{
+  "id": 2120434064,
+  "name": "Hugyyyy",
+  "birthday": "2022-09-28T09:56:29Z",
+  "current_corporation": {
+    "id": 98185110,
+    "name": "Fuxi Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98185110,
+      "name": "Fuxi Legion",
+      "ticker": "FUXI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-09-28T09:56:00Z",
+      "end": "2023-06-01T06:27:00Z"
+    },
+    {
+      "corporation_id": 98633272,
+      "name": "Trisolaris Military Academy",
+      "npc": false,
+      "start": "2023-06-01T06:27:00Z",
+      "end": "2024-02-24T08:16:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2024-02-24T08:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

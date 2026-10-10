@@ -13,7 +13,7 @@ tags: [00区]
 2026 年 7 月，欧服吧一篇帖子让这两个字出了名。
 
 ::: 黑料 被联盟 CEO 点名挂脚本
-2026 年 7 月 9 日，欧服吧出现[《ES帝皇之镰管理阿进挂脚本被联盟CEO实锤》](https://tieba.baidu.com/p/10854600210)。INIT 联盟 CEO Dark Shines 在 Discord 通知：
+2026 年 7 月 9 日，欧服吧出现[《ES帝皇之镰管理阿进挂脚本被联盟CEO实锤》](https://tieba.baidu.com/p/10854600210)。INIT 联盟 CEO 黑暗闪耀 在 Discord 通知：
 
 > Hey guys, one of your members "born reaper" is being kicked for botting. Can you have his characters removed as soon as possible please.
 

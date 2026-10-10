@@ -3,7 +3,7 @@ character_id: 2118205959
 cn_name: 小冬
 aliases: [WinterUnderTheSnow, 厚雪下的冬天]
 epithet: 老东家退盟的速报，结尾附了自家招新群和邀请链接。
-tags: [00区, FRT]
+tags: [00区, FRT, B站]
 ---
 
 小冬，游戏名 WinterUnderTheSnow，B 站 UP 主“厚雪下的冬天”，签名“歌颂平凡，传奇不朽。”2021 年 2 月建号，一年多没进玩家军团，2022 年 10 月才进了 FRT 的九州二世（Gaze into the Abyss）；2023 年 1 月进了创世倾域（ChuangShi），中间在 FRT 的故土矿团和创世学院各待过半个月，2024 年 6 月转进怯薛（KheshigFleet），一直到现在。
