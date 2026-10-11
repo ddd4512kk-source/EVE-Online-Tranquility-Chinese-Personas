@@ -33,7 +33,7 @@ async function request(url, init = {}, { tries = 3 } = {}) {
       headers: { "User-Agent": USER_AGENT, Accept: "application/json", ...init.headers },
     });
     if (res.ok) return res;
-    if (res.status === 404 || i >= tries) {
+    if ([403, 404, 429, 412].includes(res.status) || i >= tries) {
       throw new Error(`${res.status} ${res.statusText} — ${url}`);
     }
     await sleep(1000 * i);

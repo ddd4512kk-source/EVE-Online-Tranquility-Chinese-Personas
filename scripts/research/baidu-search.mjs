@@ -12,8 +12,8 @@
 //   node scripts/research/baidu-search.mjs --so "夺米台风 吧主"       # 改用 360 搜索（百度弹验证码时的备用）
 //   node scripts/research/baidu-search.mjs --bing "MrDiao eve"        # 改用必应（百度、360 都被拦时；英文角色名效果较好）
 //
-// 百度连续搜十来次就会弹滑块验证码，此时换 --so（360 搜索，对贴吧收录同样好），再不行换 --bing，隔一阵再回百度。
-// 输出“【搜索失败】”表示被验证码拦截，不等于没有料；必须换引擎或稍后重搜，并记进取材记录。
+// 按需选择单个引擎；遇验证码即停止，不因失败自动轮换或重试。
+// 输出“【搜索失败】”表示被验证码拦截，不等于没有料；停止本轮请求，并记进取材记录。
 
 import { chromium } from "playwright";
 
@@ -31,7 +31,7 @@ async function report(items, engine) {
   const title = await page.title();
   const blocked = /验证|captcha|异常/i.test(title) || (await page.locator("text=安全验证").count()) > 0;
   if (blocked) {
-    console.log(`【搜索失败】${engine}弹了验证码（页面标题：${title}）。这不是“没有结果”，换引擎或稍后重搜。`);
+    console.log(`【搜索失败】${engine}弹了验证码（页面标题：${title}）。这不是“没有结果”，本轮停止，不自动重试。`);
     process.exitCode = 2;
   } else if (!items.length) {
     console.log(`【零结果】${engine}没有返回结果（页面标题：${title}）。换关键词（外号/英文名/简称）再搜。`);

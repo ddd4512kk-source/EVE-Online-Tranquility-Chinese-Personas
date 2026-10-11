@@ -1,0 +1,68 @@
+{
+  "id": 2118508390,
+  "name": "Ed Bassmaster",
+  "birthday": "2021-03-30T05:23:07Z",
+  "current_corporation": {
+    "id": 98535868,
+    "name": "ChuangShi",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98535868,
+      "name": "ChuangShi",
+      "ticker": "CSQY"
+    },
+    "alliance": {
+      "id": 99014783,
+      "name": "Wings Freedom.",
+      "ticker": "WINGS"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-03-30T05:23:00Z",
+      "end": "2021-03-30T08:16:00Z"
+    },
+    {
+      "corporation_id": 98678769,
+      "name": "Covert Operations",
+      "npc": false,
+      "start": "2021-03-30T08:16:00Z",
+      "end": "2021-06-13T11:07:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-06-13T11:07:00Z",
+      "end": "2021-06-20T02:07:00Z"
+    },
+    {
+      "corporation_id": 98636576,
+      "name": "1 Royal Fleet Corps",
+      "npc": false,
+      "start": "2021-06-20T02:07:00Z",
+      "end": "2022-07-24T01:44:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-07-24T01:44:00Z",
+      "end": "2022-07-27T15:08:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2022-07-27T15:08:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

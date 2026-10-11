@@ -1,0 +1,61 @@
+{
+  "id": 2122857798,
+  "name": "SuperCyno owo",
+  "birthday": "2024-11-03T05:29:19Z",
+  "current_corporation": {
+    "id": 98626494,
+    "name": "STARCHASER Inc",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626494,
+      "name": "STARCHASER Inc",
+      "ticker": "SC-UN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2024-11-03T05:29:00Z",
+      "end": "2024-11-08T12:09:00Z"
+    },
+    {
+      "corporation_id": 98626494,
+      "name": "STARCHASER Inc",
+      "npc": false,
+      "start": "2024-11-08T12:09:00Z",
+      "end": "2026-01-28T08:21:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2026-01-28T08:21:00Z",
+      "end": "2026-07-08T08:09:00Z"
+    },
+    {
+      "corporation_id": 98667045,
+      "name": "STARCHASER University",
+      "npc": false,
+      "start": "2026-07-08T08:09:00Z",
+      "end": "2026-08-10T12:16:00Z"
+    },
+    {
+      "corporation_id": 98626494,
+      "name": "STARCHASER Inc",
+      "npc": false,
+      "start": "2026-08-10T12:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

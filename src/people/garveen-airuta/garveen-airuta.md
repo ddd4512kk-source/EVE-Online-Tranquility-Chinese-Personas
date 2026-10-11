@@ -1,7 +1,7 @@
 ---
 character_id: 2114279817
 cn_name: 慕容
-aliases: [Garveen]
+aliases: [Garveen, Garveen Doomsday]
 epithet: 联赛冠军，简介里只挂了一条邀请链接。
 tags: [00区, FRT, 著名FC, 伏羲, AT19冠军]
 ---
@@ -29,6 +29,12 @@ tags: [00区, FRT, 著名FC, 伏羲, AT19冠军]
 
 ::: 红料 KB：防火墙的出处
 zKillboard 生涯击杀 11424，用得最多的是巴戈龙（763 次）——专吸对方电容的战列舰，“防火墙”的称号在 KB 上找得到出处。
+
+2020 年 12 月的 [M2-XFE 首战](https://zkillboard.com/kill/89616365/)，慕容驾驶勒维亚坦，参与了对方泰坦的击杀。进入这种万亿级会战，他有坐进泰坦的经历；可联盟需要人干活时，冠军也得换座位。2021 年 9 月 [A1-AUH](https://zkillboard.com/kill/95187540/)，他开的是奥尼克斯，做起重拦的工种。
+
+2025 年 6 月 [Siseide](https://zkillboard.com/kill/128026903/)，慕容又驾驶监视者参与指挥；2026 年 4 月 [Atioth](https://zkillboard.com/kill/134566163/)，则驾驶勒维亚坦，重回泰坦战列。到同年 10 月各方损失约 6.64T 的 Obe，他既有[阔刀](https://zkillboard.com/kill/139046684/)记录，也有[神使](https://zkillboard.com/kill/139047582/)记录。重拦和泰坦都是慕容自己的战场经历，不能只看其中一个座位。
+
+比赛队要他，日常有人找他处理申诉，会战又在重拦、监视者和泰坦之间换工种。头衔只留一句 AT19 冠军，领奖台之外需要他干的活却不少。
 :::
 
 ::: 黑料 “依据是快递员的良心”

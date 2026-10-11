@@ -1,3 +1,4 @@
+import { researchFetch } from "./request-guard.mjs";
 // 取材用的 Reddit 搜索入口：走 pullpush.io 存档，不访问 reddit.com，不接入网站构建。
 // node scripts/research/reddit-search.mjs "关键词" [posts|comments] [subreddit=Eve] [最多条数=300]
 // 关键词支持引号短语，如 "\"Army of Mango\""。结果按时间倒序打印；读全帖用 reddit-thread.mjs。
@@ -10,19 +11,9 @@ if (!q || !["posts", "comments"].includes(kind) || !Number.isInteger(max) || max
 
 const endpoint = `https://api.pullpush.io/reddit/search/${kind === "posts" ? "submission" : "comment"}/`;
 const get = async (url) => {
-  for (let i = 0; i < 3; i++) {
-    const res = await fetch(url, { headers: { "User-Agent": "eve-yeshi-research" } });
-    if (res.ok) {
-      await new Promise((r) => setTimeout(r, 1500)); // 放慢节奏，存档站对密集请求会限流
-      return (await res.json()).data || [];
-    }
-    if (res.status === 429) {
-      console.error("pullpush 限流（429）：已停止。隔十几分钟再跑，不要循环重试。");
-      process.exit(2);
-    }
-    await new Promise((r) => setTimeout(r, 2000 * (i + 1)));
-  }
-  throw new Error(`请求失败：${url}`);
+  const res = await researchFetch(url, { headers: { "User-Agent": "eve-yeshi-research" } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}：请求失败，不自动重试`);
+  return (await res.json()).data || [];
 };
 
 // 每页最多 100 条，按时间往前翻页。

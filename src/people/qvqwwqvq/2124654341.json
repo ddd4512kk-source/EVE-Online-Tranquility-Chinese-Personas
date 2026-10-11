@@ -1,0 +1,40 @@
+{
+  "id": 2124654341,
+  "name": "qvqwwqvq",
+  "birthday": "2026-08-22T02:18:00Z",
+  "current_corporation": {
+    "id": 98808817,
+    "name": "Knight of Zero Ultra",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98808817,
+      "name": "Knight of Zero Ultra",
+      "ticker": "K Z U"
+    },
+    "alliance": {
+      "id": 99010877,
+      "name": "Out of the Blue.",
+      "ticker": "VAPOR"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000077,
+      "name": "Royal Amarr Institute",
+      "npc": true,
+      "start": "2026-08-22T02:18:00Z",
+      "end": "2026-08-22T02:44:00Z"
+    },
+    {
+      "corporation_id": 98808817,
+      "name": "Knight of Zero Ultra",
+      "npc": false,
+      "start": "2026-08-22T02:44:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

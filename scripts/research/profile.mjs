@@ -1,4 +1,5 @@
-// 人物画像工具：一次拉齐 research-method.md 第二节第 1、2 步的必查数据，输出 Markdown。
+import { researchFetch } from "./request-guard.mjs";
+// 人物画像工具：按预算汇总 research-method.md 第二节第 1、2 步的数据，输出 Markdown。
 //
 //   node scripts/research/profile.mjs <角色ID> [论坛用户名]  > 画像.md
 //
@@ -6,7 +7,7 @@
 //   - ESI 头衔、角色简介全文（已解码）
 //   - 每段玩家军团雇佣 + 当时所在联盟（逐个查 alliancehistory，CODE./Goonswarm 之类只藏在这里）
 //   - zKillboard 统计：击杀/损失、常用船、常去星系、联盟分布、ISK 最高的月份
-//   - 凛冬论坛：本人全部主题与回帖标题、别人提到他的帖子
+//   - 凛冬论坛：本人主题与回帖标题（预算内分页）、别人提到他的帖子
 // 只读公开接口，不写仓库。依赖 src/people/<短名>/<ID>.json 中的角色缓存。
 
 import fs from "node:fs";
@@ -20,17 +21,18 @@ if (!id) {
 }
 const UA = { "User-Agent": "eve-personas-research (github.com/ddd4512kk-source)" };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const responseCache = new Map();
 async function json(url, opts = {}) {
-  for (let i = 0; i < 3; i++) {
-    try {
-      const r = await fetch(url, { ...opts, headers: { ...UA, Accept: "application/json", ...(opts.headers || {}) } });
-      if (r.status === 404) return null;
-      if (r.status === 429) { await sleep(5000); continue; }
-      if (!r.ok) { await sleep(1500); continue; }
-      return await r.json();
-    } catch { await sleep(1500); }
-  }
-  return null;
+  const key = JSON.stringify([url, opts.method || "GET", opts.body || ""]);
+  if (responseCache.has(key)) return responseCache.get(key);
+  let result = null;
+  try {
+    const response = await researchFetch(url, { ...opts, headers: { ...UA, Accept: "application/json", ...(opts.headers || {}) } });
+    if (response.ok) result = await response.json();
+    else if (response.status !== 404) console.error(`HTTP ${response.status}：不自动重试`);
+  } catch (error) { console.error(error.message); }
+  responseCache.set(key, result);
+  return result;
 }
 const nameCache = {};
 async function names(ids) {

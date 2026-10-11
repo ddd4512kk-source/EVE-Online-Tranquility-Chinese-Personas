@@ -1,0 +1,47 @@
+{
+  "id": 2121840947,
+  "name": "Onlystone",
+  "birthday": "2023-11-26T13:54:06Z",
+  "current_corporation": {
+    "id": 98598862,
+    "name": "Chaos arbiter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598862,
+      "name": "Chaos arbiter",
+      "ticker": "CACX"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2023-11-26T13:54:00Z",
+      "end": "2023-11-28T12:40:00Z"
+    },
+    {
+      "corporation_id": 98707431,
+      "name": "Serenity Moe University",
+      "npc": false,
+      "start": "2023-11-28T12:40:00Z",
+      "end": "2023-12-15T16:28:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2023-12-15T16:28:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

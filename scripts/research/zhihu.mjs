@@ -38,7 +38,8 @@ async function isBlocked() {
   return /"code":\s*40362|系统监测到您的网络环境存在异常|请输入验证码/.test(body);
 }
 
-// 遇到验证：提示维护者手动完成，最多等 10 分钟。
+const stoppedHosts = new Set();
+let opened = 0;
 async function waitHuman() {
   if (!(await isBlocked())) return true;
   console.error("【请手动验证】浏览器窗口里出现了安全验证（知乎或搜狗），请完成验证，完成后会自动继续……");
@@ -56,10 +57,14 @@ async function waitHuman() {
 }
 
 async function open(url) {
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 }).catch((e) => console.error("打开失败", e.message));
+  const host = new URL(url).hostname;
+  if (stoppedHosts.has(host) || opened >= 10) return false;
+  opened++;
+  const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => null);
+  if (!response || [403, 429, 412].includes(response.status()) && !(await isBlocked())) { stoppedHosts.add(host); return false; }
   await sleep(2500);
   if (await isBlocked()) {
-    if (!(await waitHuman())) return false;
+    if (!(await waitHuman())) { stoppedHosts.add(host); return false; }
     // 验证后知乎常跳回首页，重开一次目标页。
     if (!page.url().startsWith(url.split("?")[0])) {
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => {});
@@ -103,10 +108,12 @@ async function comments(type, id) {
       const text = (c.content || "").replace(/<[^>]+>/g, "").replace(/&gt;/g, ">").replace(/&lt;/g, "<").replace(/&amp;/g, "&");
       out.push(`${indent}【${who}${to ? " 回复 " + to : ""}｜${t}｜赞${c.like_count ?? c.vote_count ?? 0}】${text}`);
     };
+    let requested = 0;
     const pages = async (url, cb) => {
-      for (let i = 0; url && i < 50; i++) {
+      for (; url && requested < 10; requested++) {
+        await new Promise(resolve => setTimeout(resolve, 2000));
         const r = await fetch(url, { credentials: "include" });
-        if (!r.ok) { out.push(`（评论接口 ${r.status}）`); return; }
+        if (!r.ok) throw new Error(`评论接口 HTTP ${r.status}，停止本轮读取`);
         const j = await r.json();
         for (const c of j.data || []) await cb(c);
         if (j.paging?.is_end) return;

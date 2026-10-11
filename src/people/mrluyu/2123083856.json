@@ -1,0 +1,61 @@
+{
+  "id": 2123083856,
+  "name": "Mrluyu",
+  "birthday": "2025-01-16T14:45:02Z",
+  "current_corporation": {
+    "id": 98524084,
+    "name": "Chi Gua",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98524084,
+      "name": "Chi Gua",
+      "ticker": ".233."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2025-01-16T14:45:00Z",
+      "end": "2025-01-17T00:32:00Z"
+    },
+    {
+      "corporation_id": 98707431,
+      "name": "Serenity Moe University",
+      "npc": false,
+      "start": "2025-01-17T00:32:00Z",
+      "end": "2025-02-04T14:55:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2025-02-04T14:55:00Z",
+      "end": "2026-02-11T16:01:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2026-02-11T16:01:00Z",
+      "end": "2026-02-12T10:16:00Z"
+    },
+    {
+      "corporation_id": 98524084,
+      "name": "Chi Gua",
+      "npc": false,
+      "start": "2026-02-12T10:16:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

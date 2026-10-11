@@ -1,0 +1,54 @@
+{
+  "id": 2113208414,
+  "name": "Enterprise Tadaruwa",
+  "birthday": "2017-09-16T04:34:05Z",
+  "current_corporation": {
+    "id": 98538918,
+    "name": "Foredawn Business Corporation",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "ticker": "FORED"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2017-09-16T04:34:00Z",
+      "end": "2017-12-02T02:43:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2017-12-02T02:43:00Z",
+      "end": "2018-02-26T07:55:00Z"
+    },
+    {
+      "corporation_id": 98541233,
+      "name": "VIS-VIVA",
+      "npc": false,
+      "start": "2018-02-26T07:55:00Z",
+      "end": "2019-02-10T08:46:00Z"
+    },
+    {
+      "corporation_id": 98538918,
+      "name": "Foredawn Business Corporation",
+      "npc": false,
+      "start": "2019-02-10T08:46:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

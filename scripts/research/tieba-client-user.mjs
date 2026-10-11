@@ -1,5 +1,6 @@
-// 取材用：列出某贴吧账号的全部公开主题或回帖（匿名客户端接口，不弹验证码）。
-// node scripts/research/tieba-client-user.mjs <帖子.json> <用户名片段> [1=主题（默认）|0=回帖]
+import { researchFetch } from "./request-guard.mjs";
+// 取材用：分页列出某贴吧账号的公开主题或回帖（匿名客户端接口，不弹验证码）。
+// node scripts/research/tieba-client-user.mjs <帖子.json> <UID或用户名片段> [1=主题（默认）|0=回帖]
 // 先用 tieba-client-read.mjs 读一个该账号发过言的帖子存成 JSON，本脚本从其中的 user_list 找到 uid 再查此人的发帖。
 // 输出每行：主题ID | 日期 | 吧名 | 标题 | 正文片段。适合做“本人发帖全量”检查：自述、辩解、旧帖往往就是最好的料。
 // 限制：回帖列表接口常返回 hide_post=1（用户隐藏），此时只能靠站内搜索（tieba-client-search.mjs）补；主题通常能全部列出。
@@ -7,15 +8,26 @@ import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 
 const [file, who, isThread = "1"] = process.argv.slice(2);
-if (!file || !who) {
-  console.error("用法：node scripts/research/tieba-client-user.mjs <帖子.json> <用户名片段> [1|0]");
+if (!file || !who || !["0", "1"].includes(isThread)) {
+  console.error("用法：node scripts/research/tieba-client-user.mjs <帖子.json> <UID或用户名片段> [1|0]");
   process.exit(1);
 }
 
 const data = JSON.parse(await readFile(file, "utf8"));
-const users = data.pages.flatMap((page) => page.user_list || []);
+const pages = [...data.pages, ...(data.reverse_pages || [])];
+const users = [...new Map(pages.flatMap((page) => [
+  ...(page.user_list || []),
+  ...page.post_list.flatMap((post) => [post.author, ...(post.sub_post_list?.sub_post_list || []).map((sub) => sub.author)].filter(Boolean)),
+]).map((user) => [String(user.id), user])).values()];
 // 贴吧可能把展示名改成“贴吧用户_...”，但原用户名仍留在 name。
-const user = users.find((item) => [item.name_show, item.name].some((name) => String(name || "").includes(who)));
+const byId = /^\d+$/.test(who);
+const exact = users.filter((item) => byId ? String(item.id) === who : [item.name_show, item.name].includes(who));
+const matches = exact.length || byId ? exact : users.filter((item) => [item.name_show, item.name].some((name) => String(name || "").includes(who)));
+if (matches.length > 1) {
+  console.error(`匹配到多个不同 UID，请用 UID 重试：${matches.map((item) => `${item.id} ${item.name_show || item.name}`).join("；")}`);
+  process.exit(1);
+}
+const user = matches[0];
 if (!user) {
   console.error(`帖子里没有名字含“${who}”的账号。已有账号：${users.map((item) => item.name_show).join("、")}`);
   process.exit(1);
@@ -31,11 +43,12 @@ function sign(params) {
 
 for (let pn = 1; pn <= 10; pn++) {
   const params = sign({ _client_type: "2", _client_version: "12.1.1.0", uid: String(user.id), pn: String(pn), rn: "50", is_thread: isThread, need_content: "1" });
-  const response = await fetch("https://c.tieba.baidu.com/c/u/feed/userpost", {
+  const response = await researchFetch("https://c.tieba.baidu.com/c/u/feed/userpost", {
     method: "POST",
     body: new URLSearchParams(params),
     signal: AbortSignal.timeout(30000),
   });
+  if (response.ok === false) throw new Error(`HTTP ${response.status}`);
   const result = await response.json();
   if (Number(result.error_code)) {
     console.error(`第 ${pn} 页失败：${result.error_code} ${result.error_msg}`);
@@ -54,6 +67,11 @@ for (let pn = 1; pn <= 10; pn++) {
     const clean = parts.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").slice(0, 200);
     const date = new Date(Number(item.create_time) * 1000).toISOString().slice(0, 10);
     console.log([item.thread_id, date, item.forum_name, item.title, clean].join(" | "));
+  }
+  if (pn === 10) {
+    console.error("【覆盖缺口】达到十页上限，尚未确认主题/回帖列表结束；不能称本人发帖全量完成。");
+    process.exitCode = 2;
+    break;
   }
   await new Promise((resolve) => setTimeout(resolve, 800));
 }
