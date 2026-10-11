@@ -1,7 +1,7 @@
 ---
 character_id: 1387156123
 cn_name: 叼爷
-aliases: [MrDiao, 吊哥, diao哥]
+aliases: [MrDiao, 吊哥, diao哥, Not Mrdiao, DiaoMoney]
 epithet: 教程留给新人，录音留给苦主。
 tags: [00区, FRT, 高安, 强暴, 工业, 伏羲]
 ---
@@ -32,10 +32,10 @@ tags: [00区, FRT, 高安, 强暴, 工业, 伏羲]
 这种资料整理费工夫，也有用。叼爷既会写操作手册，也会给社区搬长瓜，这一面不假。
 :::
 
-::: 红料 B-R5RB，确实在场
-2014 年 B-R5RB 大战，他作为 Goonswarm 一员开着纳迦法参战，[泰坦击杀记录](https://zkillboard.com/kill/36255172/)上留着他的名字。
+::: 红料 教程之外的实战页
+叼爷写过运输教程，也干过高安强暴，机库里却不只有拆货船的工具。2014 年 1 月的 [B-R5RB](https://zkillboard.com/kill/36255172/)，他开的是纳迦法：华人圈后来熟悉的那位老师傅，早就把无畏开进过泰坦成片爆炸的战场。七年后，2021 年 9 月的 [A1-AUH](https://zkillboard.com/kill/95187540/) 换成缪宁，仍在旗舰围猎里出勤。教新人怎么上手和自己上场，这是两门课，他都修过。
 
-大战参与者这块招牌，他挂得起。至于其他旧事，不能拿一张大战纪念照通通盖过去。
+到 2025 年 6 月，Lantorn 与 Siseide 接连开打，他把泽尼塔和[纳迦法级舰队型](https://zkillboard.com/kill/127954538/)送进 [Lantorn](https://zkillboard.com/kill/127953772/) 的无畏战场，又在 [Siseide](https://zkillboard.com/kill/128026903/) 驾驶兀鹫。2026 年 4 月的 Atioth，他既有[纳迦法](https://zkillboard.com/kill/134557132/)出勤，也有[勒维亚坦](https://zkillboard.com/kill/134566212/)参战记录；10 月的 Obe，[乌鸦](https://zkillboard.com/kill/139046684/)和[勒维亚坦](https://zkillboard.com/kill/139047592/)都开上了场。教别人运输、拆别人的运输船、给联盟开旗舰，叼爷的机库倒没按教材目录分科。恶名留在骗术与录音旧闻里，本事也确实留在战场上；最讨人嫌的地方，大概正是他真会的那些东西，既能拿来教人，也能拿来坑人。
 :::
 
 ::: 黑料 跳货老师，也在路上拆跳货

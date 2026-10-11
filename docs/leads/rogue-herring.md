@@ -1,5 +1,7 @@
 # Rogue Herring. / Deepwater Hooligans 军团线索
 
+> 2026-10-11：RHG 创建者兼长期 CEO 已收录为[汉堡](../../src/people/hanbo-han/materials-hanbo-han.md)（Hanbo HAN / never left），Turnur 战报争议已写入其列传；下文保留作原始记录。
+
 ## 招新与战报争议
 
 - [Family Guy.（98798876）EveWho 页面](https://evewho.com/corporation/98798876)显示该团属于 Deepwater Hooligans；[DOTLAN 联盟军团表](https://evemaps.dotlan.net/alliance/Deepwater_Hooligans/corporations)记其 2025-03-16 加入。该时间晚于下述 RHG 争议，且两者是不同军团。

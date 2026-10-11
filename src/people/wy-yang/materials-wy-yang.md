@@ -19,3 +19,11 @@
 ### 军团简介（2026-10-10 ESI 快照）
 
 - [TCF Thunders Claw Fleet](https://esi.evetech.net/latest/corporations/98108175/)（FRT，83 角色）英文简介：Corp CEO D manson；Executive Director Detering Tank；Adviser 一栏写“D'Alessandro wy yang”（大概是两名顾问并列）。简介称“a group of veteran players who have returned to EVE after an extended break”，入团要 100mil SP，不够 50mil 的建议去伏羲；自称背后有“Chinese big family（Winter Collection）”。
+
+## 2026-10-11：1T 大战核对
+
+[共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。只据 KM 写该角色的参战、船型和损失；Monitor 记录支持参与指挥。
+
+### 2026-04-06/07 Atioth / 角色 2112979015
+- 战斗规模：近 10T；阵营口径：FRT、PH 等与帝国系。
+- 样本中出现于 1 条攻击者名单；代表 [KM 134556788](https://zkillboard.com/kill/134556788/)，2026-04-07T00:34:15Z，本人驾驶 太空舱，战时联盟 ID 99003581，本条伤害 41145。

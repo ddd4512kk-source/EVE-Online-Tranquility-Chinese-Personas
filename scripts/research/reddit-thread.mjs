@@ -1,3 +1,4 @@
+import { researchFetch } from "./request-guard.mjs";
 // 取材用的 Reddit 帖子读取入口：走 pullpush.io 存档，不访问 reddit.com（会被拦），不接入网站构建。
 // node scripts/research/reddit-thread.mjs <帖子ID或网址> <临时输出.json>
 // 输出原始公开材料并在终端打印正文与全部评论；截图链接（preview.redd.it）需另行下载查看。
@@ -14,19 +15,9 @@ if (!id || !output) {
 
 const api = "https://api.pullpush.io/reddit/search";
 const get = async (url) => {
-  for (let i = 0; i < 3; i++) {
-    const res = await fetch(url, { headers: { "User-Agent": "eve-yeshi-research" } });
-    if (res.ok) {
-      await new Promise((r) => setTimeout(r, 1500)); // 放慢节奏，存档站对密集请求会限流
-      return (await res.json()).data || [];
-    }
-    if (res.status === 429) {
-      console.error("pullpush 限流（429）：已停止。隔十几分钟再跑，不要循环重试。");
-      process.exit(2);
-    }
-    await new Promise((r) => setTimeout(r, 2000 * (i + 1)));
-  }
-  throw new Error(`请求失败：${url}`);
+  const res = await researchFetch(url, { headers: { "User-Agent": "eve-yeshi-research" } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}：请求失败，不自动重试`);
+  return (await res.json()).data || [];
 };
 
 const [post] = await get(`${api}/submission/?ids=${id}`);
@@ -38,17 +29,17 @@ if (!post) {
 // 评论每页最多 100 条，按时间往后翻页直到取完。
 const comments = [];
 const seen = new Set();
-let after = 0;
-for (;;) {
+let after = 0, complete = false, error;
+try { for (;;) {
   const page = await get(`${api}/comment/?link_id=${id}&size=100&sort=asc&sort_type=created_utc&after=${after}`);
   const fresh = page.filter((c) => !seen.has(c.id));
-  if (!fresh.length) break;
+  if (!fresh.length) { complete = true; break; }
   for (const c of fresh) seen.add(c.id), comments.push(c);
   after = Math.max(...page.map((c) => c.created_utc));
-  if (page.length < 100) break;
-}
+  if (page.length < 100) { complete = true; break; }
+} } catch (failure) { error = failure.message; console.error(error); process.exitCode = 2; }
 
-await writeFile(output, JSON.stringify({ source: `https://www.reddit.com/r/${post.subreddit}/comments/${id}/`, fetched_at: new Date().toISOString(), post, comments }, null, 2));
+await writeFile(output, JSON.stringify({ source: `https://www.reddit.com/r/${post.subreddit}/comments/${id}/`, fetched_at: new Date().toISOString(), post, comments, complete, error }, null, 2));
 
 const date = (t) => new Date(t * 1000).toISOString().slice(0, 10);
 console.log(`[${date(post.created_utc)}] ${post.author} | ${post.title}\n${post.selftext || post.url}\n`);

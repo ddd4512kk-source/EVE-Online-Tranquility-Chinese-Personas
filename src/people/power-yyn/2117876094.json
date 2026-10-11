@@ -1,0 +1,89 @@
+{
+  "id": 2117876094,
+  "name": "Power YYN",
+  "birthday": "2020-11-22T14:42:08Z",
+  "current_corporation": {
+    "id": 1000167,
+    "name": "State War Academy",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98694557,
+      "name": "KheshigFleet",
+      "ticker": "KHESH"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": "2023-12-10T02:35:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2020-11-22T14:42:00Z",
+      "end": "2020-11-22T15:31:00Z"
+    },
+    {
+      "corporation_id": 98627479,
+      "name": "Poker of Darkness",
+      "npc": false,
+      "start": "2020-11-22T15:31:00Z",
+      "end": "2021-02-08T04:07:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-02-08T04:07:00Z",
+      "end": "2021-02-12T01:54:00Z"
+    },
+    {
+      "corporation_id": 98577775,
+      "name": "Hephaestus and Aphrodite",
+      "npc": false,
+      "start": "2021-02-12T01:54:00Z",
+      "end": "2021-10-09T08:56:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-10-09T08:56:00Z",
+      "end": "2021-10-09T09:36:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2021-10-09T09:36:00Z",
+      "end": "2022-06-06T12:11:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2022-06-06T12:11:00Z",
+      "end": "2022-07-11T14:58:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2022-07-11T14:58:00Z",
+      "end": "2023-12-10T02:35:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2023-12-10T02:35:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

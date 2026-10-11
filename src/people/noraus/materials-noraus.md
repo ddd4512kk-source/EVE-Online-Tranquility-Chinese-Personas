@@ -34,7 +34,7 @@
   - 回答 1491285815（知乎匿名用户，2020-09-24）：“扣成负是因为花美刀买金，给团员补损。被发现了把非法所得扣掉了。官方严厉打击的是卖金。”并反指 PIBC 国服挂脚本卖金。
   - 回答 1491970273（momo，2020-09-25，以凛冬口吻）：N老板封号事件源于凛冬在底特里德对抗 TEST 时期；联盟账户用于补损、设施维护致资金不足；此前用信用卡买 PLEX 补损的 N老板“以收保护费的名义、实际用现金从Kids With Guns联盟买金”；“N老板的十几个游戏账号被封，FRT联盟执行军团钱包被扣掉一万亿”。文末“先占坑”，未续写。
   - 回答 1493065964（大尾巴狼）：反方长串质问，含“NNN暴政”“联盟鼓励挂脚本”等贴吧说法转述，另有涉及家人的句子，不入文。
-- [《如何看待2020年9月30号下午EVE欧服FRT联盟内部诸多军团开始反FRT？》](https://www.zhihu.com/question/423610107)：回答 1503260688（Away，2020-10-02）“创世 SARD 凤凰城 伏羲 神韵 采星 叶落 几个FRT数的过来的大团全部造反.结果就是第二天早上N老板直接武力镇压造反大鱼 直接处决了13条还有一条大航”；回答 1510176456（我选C，自称 fuxi 养老总监）“卢比扬卡的床很舒服”。待核：“处决 13 条”的船型（无畏？）与 zKillboard 2020-10-01 前后 FRT 内部击杀对照。
+- [《如何看待2020年9月30号下午EVE欧服FRT联盟内部诸多军团开始反FRT？》](https://www.zhihu.com/question/423610107)：回答 1503260688（Away，2020-10-02）“创世 SARD 凤凰城 伏羲 神韵 采星 叶落 几个FRT数的过来的大团全部造反.结果就是第二天早上N老板直接武力镇压造反大鱼 直接处决了13条还有一条大航”；回答 1510176456（我选C，自称 fuxi 养老总监）“卢比扬卡的床很舒服”。**判定：谣言、恶搞帖，并无此事**（2026-10-10 订正），已从列传删除，不再入文。
 - [《如何看待2018年7月19日eve欧服ualx-3星系爆发的超旗战？》](https://www.zhihu.com/question/285967560)：回答 455877561（山人Li，凛冬视角）记 UALX 监狱约 6 天、PL 领队越狱，其间 N老板叫人进会议室、TEST 叫人待命，“随后会议室里传来了N老板唱歌的声音”。评论 ShadowSong 反驳称 TEST 并不累、越狱是 PY。
 - 台风知乎专栏[《移民联盟：RR游骑兵简史》](https://zhuanlan.zhihu.com/p/36624210)：2017 南方战争 FCON 拆铁壁，N老板安慰台风“我爆了4个铁壁，你比我还强呢”；FR46 铁壁归 CURE，N老板改名 domityphoon sleepbag。
 - 同专栏：N老板按规定发给 RR 8B 星系夺取奖励；锚定铁壁未知会 noraus/wind/HY 是台风自认的错误之一。
@@ -51,3 +51,39 @@
 
   被点名的人简介里没写。圈里最出名的“R6 误国”是[拉面林](../remeleen/materials-remeleen.md)（自称“玩完 EFT 就重新玩 R6”，吧友提起他先想到 r6），大概就是他；未证实，写入时用“看样子”。
 - FRT 军团 [Attack On CALDARI（AOCAL）](https://esi.evetech.net/latest/corporations/98599181/) 简介：“你已经进入猪头的少妇雷达防空识别区，我方所有行为均受猪头指使！”。“猪头”是他的外号，看样子说的是他。详见[毛蛋素材](../napoleon-codie/materials-napoleon-codie.md)。
+
+## B 站 EVE曼努尔（FBC，[曼努尔素材](../manuer/materials-manuer.md)）的 N老板系列（2026-10-10 归档；Slasher 一条已入正文）
+
+- BV1vBBFYhE41《N老板开伐木运泰坦原图被害》2024-12-15 / BV1TufUYMEph《游戏公会CEO竟会犯如此低级错误？泰坦蓝图灰飞烟灭!》2025-01-28：KM [69997390](https://zkillboard.com/kill/69997390/)，2018-05-16 FMH-OV，Slasher 107.54B，05:55 UTC。受害角色 Randolph Yuan（126517376，Fraternity Holding / Fraternity.），当时由 N老板使用，属其小号（视频标题亦称 N老板）；已写入 aliases。攻击者仅 ThatGuyToxic Tox（95863191，Naked Oiled Bodybuilders / Parasitic Legion.），开 Moa。货舱：Avatar Blueprint（原图，摧毁），及 Capital Jump Drive / Doomsday Weapon Mount / Clone Vat Bay / Jump Bridge Array / Siege Array / Sensor Cluster / Capacitor Battery / Construction Parts / Cargo Bay / Drone Bay 等旗舰组件原图，其中 Construction Parts、Doomsday Weapon Mount、Cargo Bay、一张 Drone Bay 掉落。
+- BV1Yt4y1r7GM《N老板勒维亚坦生前最后影像》：KM 89452535（Esoteria Stain，2020-12-23 E-VKJV，95.07B），简介“第二天因为在铁壁挂机被撞出去白给了，qq群里充满了欢乐的气息”。
+- BV1SwdLBaEtA《N老板：快点！给我传口电！》2026-04-17：“N老板的审判KB” KM 134812449，Norausdot 的 Retribution，9-GBPD，62 人。
+- BV1Tf4y1s7RP《POS记得加锶包》简介：“N老板：钱可以再赚，但KB可以嘲讽一年”。
+- BV1q44y1p7cS《那一晚，N老板失去了5毛钱》、BV1mW4y1U77V《N老板：像我这种FC都8比0了》、BV1sy4y1v7en《N老板：你竟然不是个sb》、BV1mTH96XE8p《骑在龙根背上的N老板？》。
+
+### 2026-10-11：算准服务器的称赞与反方
+
+[10621125230](https://tieba.baidu.com/p/10621125230)，6主楼1楼中楼，全部文字已读。首楼称N算准服务器、蜜蜂、狂怒，后续有人认为蜜蜂塞6000人促成崩服与主权丢失；听歌不闹反驳星城能否掉与断线关系不大、己方也担心不能开火，且认为不掉线可能拆得更快。另一人拿M2类比、Doonsky说帝国自己想复刻M2却玩脱。是成员解读，不当N实际提前设计崩服的证据；正文原已有N本人承认幸运的战后记录，不能只截首楼神机妙算。
+
+## 已对应小号的战役复查（2026-10-11）
+
+归属沿用本文件已有角色对应；按人合并参战经历，同场不重复计为两场，各号 KB 累计不直接相加。窗口、阵营、规模见[共同战斗来源](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+- [Randolph Yuan（126517376）](https://zkillboard.com/character/126517376/)：击杀 586，参与击杀价值 426.6B ISK。
+- UALX-3，Randolph Yuan 驾驶使徒，受害者，[71332828](https://zkillboard.com/kill/71332828/)，2018-07-19T07:09:42Z；记录 1 条。
+
+### 2026-10-11 RR简史正倒序及楼中楼文字回查
+
+[5688249663](https://tieba.baidu.com/p/5688249663)可见217条主楼、222条楼中楼文字已通读；楼层编号跳跃保留实际编号，不当644条可见主楼。接口显示479回复，楼中楼另有38条计数差，删失不补造，附图及正文所列视频待核。
+
+#113记2018-05-13 D-0小型旗舰战，四大航、WC48混编/TEST74含8无畏，总损44.2B不到大战阈值；原战报30000461/201805132100与视频av23415217未再核，不因标题当泰坦战。#122台风回忆N安慰被拆首座铁壁“我爆了4个，你才1个”，#124一系列名言含“买泰坦和买酱油一样”“敌人spy都有discord”，指其公开幽默口吻，不当财富审计。
+
+- RR简史5688249663#118游戏聊天附图：Noraus找星华可开航母的新手装肉，要求EHP抗、选择合适电抗/伤害，台风答可由自己来；#115正文说计划因对手警觉失败，不写成钓鱼成功。#89银魂问Randolph Yuan军团并误问租地，对方答FRT执行军团，银魂省略号；角色同人依据沿用原有KM与视频材料。
+
+## 2026-10-11：小号对应补录
+
+角色对应记录按同人并入本篇，不另立小号传。名字与角色 ID 以 CCP ESI 查询为准。
+
+- **10seconds（2119903834）**：[角色页](https://evewho.com/character/2119903834)；角色对应已明确，名称查询已命中。
+- **nextorian（343563816）**：[角色页](https://evewho.com/character/343563816)；公开头衔“Noraus”与人物对应相合。
+- **larren lawson（2119358424）**：[角色页](https://evewho.com/character/2119358424)；角色对应已明确，名称查询已命中。
+- nextorian 头衔直接写 Noraus。10seconds 还出现在猫娘 xzl520 的公开简介奖杯墙：小鹰与太空舱 KM 118368185、118368385；这只证明简介展示这两条记录，缘由不明，不据此编造处罚或内讧。larren lawson 当前已退团，不将其状态代替 noraus 收录号的当前归属。

@@ -1,0 +1,61 @@
+{
+  "id": 2117766543,
+  "name": "GodHand Kk",
+  "birthday": "2020-10-28T09:58:30Z",
+  "current_corporation": {
+    "id": 1000045,
+    "name": "Science and Trade Institute",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98633149,
+      "name": "49 City.",
+      "ticker": "4.9.C"
+    },
+    "alliance": {
+      "id": 99003995,
+      "name": "Invidia Gloriae Comes",
+      "ticker": "IGC"
+    },
+    "left_at": "2023-04-02T02:54:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2020-10-28T09:58:00Z",
+      "end": "2020-10-28T10:32:00Z"
+    },
+    {
+      "corporation_id": 98662162,
+      "name": "49 City WILL ALWAYS BE BRILLIANT",
+      "npc": false,
+      "start": "2020-10-28T10:32:00Z",
+      "end": "2020-11-10T15:37:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2020-11-10T15:37:00Z",
+      "end": "2020-11-10T15:38:00Z"
+    },
+    {
+      "corporation_id": 98633149,
+      "name": "49 City.",
+      "npc": false,
+      "start": "2020-11-10T15:38:00Z",
+      "end": "2023-04-02T02:54:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2023-04-02T02:54:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

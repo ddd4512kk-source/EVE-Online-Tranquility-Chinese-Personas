@@ -124,7 +124,12 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 .site-nav a:hover { color: var(--text); background: var(--bg-raised); }
 .site-nav .nav-random { color: var(--gold); }
+/* 访问计数徽章：窄屏只隐藏不移除，图片照常加载计数 */
+.hits { height: 20px; margin-left: auto; }
 
+@media (max-width: 640px) {
+  .hits { display: none; }
+}
 @media (max-width: 480px) {
   .brand-text small { display: none; }
   .site-nav a { padding: .4rem .45rem; }
@@ -258,6 +263,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 .card-meta { font-size: .78rem; color: var(--text-faint); line-height: 1.4; margin-top: auto; overflow-wrap: anywhere; }
 .card-meta .aff-corp, .card-meta .aff-ally { color: var(--text-dim); }
+.card-updated { display: block; }
 
 /* ---------- 列传页 ---------- */
 .back { max-width: var(--measure); margin: 0 auto; font-size: .9rem; }

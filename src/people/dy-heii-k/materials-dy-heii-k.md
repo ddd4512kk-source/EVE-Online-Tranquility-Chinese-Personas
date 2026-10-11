@@ -20,3 +20,15 @@
 ### 军团简介（2026-10-10 ESI 快照）
 
 - 小号 **DY HEII S（2118432947）** 是 [STARCHASER Consortium（SC-CN）](https://esi.evetech.net/latest/corporations/98640492/) 的 ESI CEO：FRT，44 角色，简介全文“你瞅啥”。与 DY HEII K 同名仅差一字母、同在 FRT，按小号处理。
+
+## 2026-10-11：1T 大战核对
+
+[共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。只据 KM 写该角色的参战、船型和损失；Monitor 记录支持参与指挥。
+
+### 2021-09-17 A1-AUH / 角色 2114324589
+- 战斗规模：至少 1.20T；阵营口径：Winter Coalition 与帝国、PHEW 等；此处不重建完整阵营。
+- 样本中出现于 12 条攻击者名单；代表 [KM 95187540](https://zkillboard.com/kill/95187540/)，2021-09-17T16:07:14Z，本人驾驶 奇奇莫拉，战时联盟 ID 99003581，本条伤害 24275。
+
+### 2026-10-10 Obe / 角色 2114324589
+- 战斗规模：6.64T；阵营口径：FRT 及友军／Snuffed Out 及友军／INIT 三组。
+- 样本中出现于 2 条攻击者名单；代表 [KM 139047561](https://zkillboard.com/kill/139047561/)，2026-10-10T10:53:13.000Z，本人驾驶 勒维亚坦，战时联盟 ID 99003581，本条伤害 1318571。

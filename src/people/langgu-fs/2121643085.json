@@ -1,0 +1,75 @@
+{
+  "id": 2121643085,
+  "name": "LangGu FS",
+  "birthday": "2023-09-26T11:26:46Z",
+  "current_corporation": {
+    "id": 1000167,
+    "name": "State War Academy",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98746392,
+      "name": "North Shore Ghost Army",
+      "ticker": "NSGY"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": "2024-11-29T08:15:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2023-09-26T11:27:00Z",
+      "end": "2023-10-15T07:21:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2023-10-15T07:21:00Z",
+      "end": "2024-01-08T16:40:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-01-08T16:40:00Z",
+      "end": "2024-01-09T04:11:00Z"
+    },
+    {
+      "corporation_id": 98742946,
+      "name": "Zhuque squad",
+      "npc": false,
+      "start": "2024-01-09T04:11:00Z",
+      "end": "2024-03-05T11:54:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-03-05T11:54:00Z",
+      "end": "2024-03-08T16:31:00Z"
+    },
+    {
+      "corporation_id": 98746392,
+      "name": "North Shore Ghost Army",
+      "npc": false,
+      "start": "2024-03-08T16:31:00Z",
+      "end": "2024-11-29T08:15:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-11-29T08:15:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

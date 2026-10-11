@@ -8,12 +8,52 @@
 
 各大联盟华人军团简介里的 CEO、总监、外交、招新官（2026-10-10 ESI，163 家）：[简介职务快照](leads/corp-descriptions-2026.md)。
 
+贴吧逆序与楼中楼查补（2026-10-10）见[回查记录](tieba-review-2026-10-10.md)，覆盖清单区分抽查、全可见分页与人工归档。普通建团日记见[日记线索](leads/tieba-corp-diaries.md)，原帖回复内的漏收互链见[互链队列](leads/tieba-linked-threads-2026-10-11.tsv)，简史中尚待对应的人物与事件见[历史回复线索](leads/tieba-history-replies.md)。
+
+凤凰城普通招新帖的[教官与回复人物](leads/tieba-phoenix-replies.md)保留菊花、两个翻车账号和合同福利说法。
+
+混沌争议里的[待对应回复账号](leads/tieba-cacx-reply-accounts.md)保留判官旧帖及北海发言。
+
 共用原帖的阅读边界见[共用来源](shared-sources.md)。RHG / Deepwater 的军团争议见[待归属线索](leads/rogue-herring.md)。
+
+两份新料已消化为[KZU—昆仑事件摘要](sources/kzu-kunlun-2026-07.md)和[玉麒麟处分摘要](sources/jade-kirin-disciplinary-2024-03-05.md)：补写炽天、水哥、浪骨；新增可乐锅、娜乌西卡、一八、御天、小十亿。
+
+12 场 ≥1T 大战的人物补漏见[核对清单](battle-review-2026-10-11.md)与[共用战斗素材](sources/capital-battles-2026-10-11.md)。新增叉子、晓天、July Karin、超级大汉堡、建军、筱橘、苏帕。
+
+执行军团找人入口与首批榜单见[取材清单](leads/executor-corps-2026-10-11.md)；新增执画、猫娘，已确认的小号并回原人物。
+
+飞飞的 `tuzifei` 系列新增八个已确认小号；按本人合并的战绩及未查缺口见[飞飞素材](../src/people/ym-sakura/materials-ym-sakura.md)。
 
 ## 人物索引
 
 | 人物 | 角色 / ID | 收录状态 |
 | --- | --- | --- |
+| [肥皂泡](../src/people/free-zaopao/materials-free-zaopao.md) | Free Zaopao / 2122336292；B 站进击的小肥皂泡 | 已收录；简介耻辱榜、同对手找回场子；B站视频待展开 |
+| [执画](../src/people/ed-bassmaster/materials-ed-bassmaster.md) | Ed Bassmaster / 2118508390 | 已收录；thebosszang 同人、ESS 简介告示 |
+| [猫娘](../src/people/xzl520/materials-xzl520.md) | xzl520 / 2121282068 | 已收录；FC 总览、Lantorn 指挥、N老板小号奖杯墙 |
+| [石头](../src/people/onlystone/materials-onlystone.md) | Onlystone / 2121840947 | 已收录；清同卫队蹭子、舰队等配装争论；[列传](../src/people/onlystone/onlystone.md) |
+| [叉子](../src/people/orc-foxy/materials-orc-foxy.md) | 2114751711 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/orc-foxy/orc-foxy.md) |
+| [晓天](../src/people/guifangq-hate/materials-guifangq-hate.md) | 2115476544 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/guifangq-hate/guifangq-hate.md) |
+| [July Karin](../src/people/july-karin/materials-july-karin.md) | 2115105670 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/july-karin/july-karin.md) |
+| [超级大汉堡](../src/people/raok-hilanen/materials-raok-hilanen.md) | 2122530222 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/raok-hilanen/raok-hilanen.md) |
+| [建军](../src/people/jianjun-aideron/materials-jianjun-aideron.md) | 96280212 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/jianjun-aideron/jianjun-aideron.md) |
+| [筱橘](../src/people/mikanorg/materials-mikanorg.md) | 2121532056 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/mikanorg/mikanorg.md) |
+| [苏帕](../src/people/supercyno-owo/materials-supercyno-owo.md) | 2122857798 | 已收录；1T 大战参战／指挥或高价值损失；[列传](../src/people/supercyno-owo/supercyno-owo.md) |
+| [可乐锅](../src/people/colapan/materials-colapan.md) | ColaPan / 2114013279；ColaPanna、ColaGuo合并 | 已收录；双倍索赔、天宫两边门牌、卡戎邀请风波；[列传](../src/people/colapan/colapan.md) |
+| [娜乌西卡／西卡](../src/people/qvqwwqvq/materials-qvqwwqvq.md) | qvqwwqvq / 2124654341；同词根同头衔小号合并 | 已收录；日志对线、昆仑生产地点与黑隐队撒气计划；[列传](../src/people/qvqwwqvq/qvqwwqvq.md) |
+| [一八](../src/people/iba-la-sotken/materials-iba-la-sotken.md) | Iba La Sotken / 2119472256 | 已收录；两组电鱼与三百亿索赔上诉、追回29B；[列传](../src/people/iba-la-sotken/iba-la-sotken.md) |
+| [御天](../src/people/zhayu111/materials-zhayu111.md) | zhayu111 / 2124287871；daitiao111与多开队合并 | 已收录；生产事故、日志争论与初判后复审；[列传](../src/people/zhayu111/zhayu111.md) |
+| [小十亿](../src/people/xiao-shi-yivi/materials-xiao-shi-yivi.md) | Xiao Shi YiVI / 2117043365 | 已收录；玉麒麟首号泄密指控与玄武开除；[列传](../src/people/xiao-shi-yivi/xiao-shi-yivi.md) |
+| [六色](../src/people/guaji01/materials-guaji01.md) | GuaJi01 / 2117557515；截图头衔六色 | 已收录；游戏邮件自称脚本挂机求别打、卖手与SAO五百亿赌约后续；[列传](../src/people/guaji01/guaji01.md) |
+| [梦夜飞雪](../src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.md) | WISI VIDA WISIVADA / 2114863677；贴吧殇镬之場 | 已收录；SAO农民练兵、脚本/间谍骂战、五百亿赌局与重复答辩；[列传](../src/people/wisi-vida-wisivada/wisi-vida-wisivada.md) |
+| [曼努尔](../src/people/manuer/materials-manuer.md) | Enterprise Tadaruwa / 2113208414；B站 EVE曼努尔 172859920；贴吧 -曼努尔- | 已收录；N老板翻车录像、卖家秀/空间站爆款、三条海神、贴吧“云玩家”对线、2026 同人系列；[列传](../src/people/manuer/manuer.md) |
+| [Choice Of Fate](../src/people/choice-of-fate/materials-choice-of-fate.md) | Choice Of Fate / 2114002659；贴吧1643528892a | 已收录；普通建团日记、哲学纲领、欢迎信与新人后勤；[列传](../src/people/choice-of-fate/choice-of-fate.md) |
+| [KK / 四九CEO](../src/people/godhand-kk/materials-godhand-kk.md) | GodHand Kk / 2117766543；GodHand zZZ 为小号 | 已收录；泰坦帮搬、认爸爸、3B手续费与本人外交算盘；[列传](../src/people/godhand-kk/godhand-kk.md) |
+| [花不语](../src/people/huabuyu/materials-huabuyu.md) | huabuyu / 2122242721 | 已收录；单浪求助帖、首个雷毅战果、逃泡经验和白魔爪招新；[列传](../src/people/huabuyu/huabuyu.md) |
+| [浪骨](../src/people/langgu-fs/materials-langgu-fs.md) | LangGu FS / 2121643085；同人多开号合并 | 已收录；完整处分、位置／部署泄密指控、收购规章争议、法尔索图对线；[列传](../src/people/langgu-fs/langgu-fs.md) |
+| <a id="wllng"></a>[清水 / WLIing](../src/people/wllng/materials-wllng.md) | WLlng / 2122271544 | 已收录；FOX 期货泰坦苦主、自顶七个月要账帖、夜神结案、转 FRT；[列传源文件](../src/people/wllng/wllng.md) |
+| <a id="bulanbulan"></a>[不懒 / 黑珍珠号](../src/people/bulanbulan/materials-bulanbulan.md) | bulanbulan Dadunur / 2112533427 | 已收录；黑珍珠海盗群、CEO 女装招新、loot 争议、教程只出 01 期、神使击杀；[列传源文件](../src/people/bulanbulan/bulanbulan.md) |
+| [牢陆 / 陆羽](../src/people/mrluyu/materials-mrluyu.md) | Mrluyu / 2123083856；mrluyu06 为小号 | 已收录；混沌劝退、二十四小时搬家、护团发言回旋镖与挂机争议；[列传](../src/people/mrluyu/mrluyu.md) |
 | <a id="einll"></a>[阿阳 / 阴弟](../src/people/einll/materials-einll.md) | EinLL / 2118954970 | 已收录；贴吧黑豹、DO6H-Q 星城、纪念建筑、《阿阳屠夫 show》及高概率贴吧号线索；[列传源文件](../src/people/einll/einll.md) |
 | <a id="marco-liu"></a>[刘漂亮 / Mr Marco Liu](../src/people/marco-liu/materials-marco-liu.md) | Mr Marco Liu / 2122211888 | 已收录；r/Eve 爆料 64 个阿尔法预警农场、贴吧自称“预警系统”辩解；[列传源文件](../src/people/marco-liu/marco-liu.md) |
 | <a id="yuenhc12"></a>[艾玛将军 / 圣光](../src/people/yuenhc12/materials-yuenhc12.md) | yuenhc12 / 2119837654 | 已收录；东风大群解散争议、入盟叫板、首都决战动员、使徒下水礼；[列传源文件](../src/people/yuenhc12/yuenhc12.md) |
@@ -45,7 +85,7 @@
 | <a id="bunny225-lu"></a>[路小兔](../src/people/bunny225-lu/materials-bunny225-lu.md) | Bunny225 Lu / 2115301692 | 已有列传 |
 | <a id="cabbagetimil"></a>[白菜](../src/people/cabbagetimil/materials-cabbagetimil.md) | CabbageTimil / 2116041057 | 已有列传 |
 | <a id="casimir-exusiai"></a>[马哥](../src/people/casimir-exusiai/materials-casimir-exusiai.md) | Casimir Exusiai / 2115198804 | 已有列传 |
-| <a id="cats-shining"></a>[折纸](../src/people/cheryl-astelir/materials-cheryl-astelir.md) | Cheryl Astelir / 94260398（主号）；Cat's Shining / 2120416670 | 已有列传 |
+| <a id="cats-shining"></a>[折纸](../src/people/cheryl-astelir/materials-cheryl-astelir.md) | Cheryl Astelir / 94260398（主号）；Cat's Shining / 2120416670；Cat's Gneiss / 2116708093；Fujed Cericy / 2116465308 | 已有列传；FC 与小号旗舰经历已补 |
 | <a id="chessplayer"></a>[青衣](../src/people/chessplayer/materials-chessplayer.md) | Chess Player / 2114736322 | 已有列传 |
 | <a id="chitian"></a>[炽天 / KZU CEO](../src/people/chitian/materials-chitian.md) | chitian / 2120421439 | 已有列传；宫斗细节待补 |
 | <a id="cho-wong"></a>[胡捏](../src/people/cho-wong/materials-cho-wong.md) | Cho Wong / 1479807223 | 已有列传 |
@@ -69,7 +109,7 @@
 | <a id="ephemera-winter"></a>[蜉蝣](../src/people/ephemera-winter/materials-ephemera-winter.md) | ephemera-winter / 2114882441 | 已有列传；素材待补 |
 | <a id="ezio-harry"></a>[战歌](../src/people/ezio-harry/materials-ezio-harry.md) | Ezio Harry / 2113606055 | 已有列传 |
 | <a id="fact-in"></a>[飞袖李](../src/people/fact-in/materials-fact-in.md) | fact-in / 2113515731 | 已有列传；素材待补 |
-| <a id="flashing-shark"></a>[星星](../src/people/flashing-shark/materials-flashing-shark.md) | Flashing shark / 2114362964 | 已有列传 |
+| <a id="flashing-shark"></a>[星星](../src/people/flashing-shark/materials-flashing-shark.md) | Flashing shark / 2114362964 | 已收录；牢陆劝退决策、搬家善后与芙水之乱 |
 | <a id="fliet99"></a>[舵主](../src/people/fliet99/materials-fliet99.md) | fliet99 / 91254848 | 已有列传 |
 | <a id="flyingbee"></a>[蜜蜂](../src/people/flyingbee/materials-flyingbee.md) | FlyingBee / 425711775 | 已有列传 |
 | <a id="frt-baishantvt"></a>[白杉](../src/people/frt-baishantvt/materials-frt-baishantvt.md) | frt-baishantvt / 2115995480 | 已有列传；素材待补 |
@@ -125,7 +165,7 @@
 | <a id="linghu-cong"></a>[令狐聪](../src/people/linghu-cong/materials-linghu-cong.md) | Linghu Cong / 624049117 | 已有列传 |
 | <a id="link-noel"></a>[林克](../src/people/link-noel/materials-link-noel.md) | Link Noel / 2113219719 | 已有列传 |
 | <a id="linkin-hy"></a>[HY](../src/people/linkin-hy/materials-linkin-hy.md) | LINKIN HY / 985265753 | 已有列传 |
-| <a id="lizard-k"></a>[LK](../src/people/lizard-k/materials-lizard-k.md) | LIZARD K / 983162808 | 已有列传 |
+| <a id="lizard-k"></a>[LK](../src/people/lizard-k/materials-lizard-k.md) | LIZARD K / 983162808 | 已有列传；补录 LIZARD MK |
 | <a id="longgo-china"></a>[龙哥](../src/people/longgo-china/materials-longgo-china.md) | longgo-china / 2123637325（主号 Sirikka Soikutsu；旧号 longgo china 2114242959） | 已有列传；补入卿雪群聊与小号名单 |
 | <a id="louis-chen"></a>[金克丝](../src/people/louis-chen/materials-louis-chen.md) | Louis-CHEN / 2122410906 | 已有列传 |
 | <a id="luna"></a>[Luna](leads/luna.md) | 见人物线索 | 角色对应待核对 |
@@ -141,11 +181,11 @@
 | <a id="martianpower"></a>[火星](../src/people/martianpower/materials-martianpower.md) | MartianPower / 1384619695 | 已有列传 |
 | <a id="master-zachary"></a>[扎克](../src/people/master-zachary/materials-master-zachary.md) | Master Zachary / 2114270880 | 已有列传 |
 | <a id="mc-jiaming"></a>[银色汤勺](../src/people/mc-jiaming/materials-mc-jiaming.md) | MC jiaming / 2114949006 | 已有列传 |
-| <a id="mina-dethahal"></a>[瞑衍](../src/people/mina-dethahal/materials-mina-dethahal.md) | Mina Dethahal / 2118776119 | 已有列传 |
+| <a id="mina-dethahal"></a>[瞑衍](../src/people/mina-dethahal/materials-mina-dethahal.md) | Mina Dethahal / 2118776119 | 已有列传；补录 Mechanics 系列、Mina TT 与 Obe 参战 |
 | <a id="mo-yan"></a>[魔焱](../src/people/gipsydanger-066/materials-gipsydanger-066.md) | GipsyDanger -066 / 2115357062（同前缀多号）；B 站“魔三火” UID 221218622 | 已收录；eve欧服吧小吧主、六级洞攻略、两轮北方战争记录、官员元帅断跳刀与《离谱操作》；[列传源文件](../src/people/gipsydanger-066/gipsydanger-066.md) |
-| <a id="monster0001"></a>[大黑](../src/people/monster0001/materials-monster0001.md) | Monster0001 / 2122641476 | 已有列传 |
+| <a id="monster0001"></a>[大黑](../src/people/monster0001/materials-monster0001.md) | Monster0001 / 2122641476 | 已收录；楼中楼封号传闻及反驳 |
 | <a id="ka-rong"></a>[卡戎](../src/people/mordiggianking/materials-mordiggianking.md) | Mordiggianking / 2122236063 | 已有列传 |
-| <a id="mr-diao"></a>[叼爷](../src/people/mr-diao/materials-mr-diao.md) | MrDiao / 1387156123 | 已有列传 |
+| <a id="mr-diao"></a>[叼爷](../src/people/mr-diao/materials-mr-diao.md) | MrDiao / 1387156123 | 已有列传；补录 Not Mrdiao、DiaoMoney 与小号参战 |
 | <a id="mr-olddriver"></a>[老司机](../src/people/mr-olddriver/materials-mr-olddriver.md) | mr-olddriver / 2115269611 | 已有列传；素材待补 |
 | <a id="murasaki-siki"></a>[羊叔](../src/people/murasaki-siki/materials-murasaki-siki.md) | MuraSaki Siki / 92484561 | 已有列传 |
 | <a id="nan-li-leo"></a>[Nan Li Leo](../src/people/nan-li-leo/materials-nan-li-leo.md) | Nan Li Leo / 2113744134 | 已有列传；北极星虫洞圈 |
@@ -172,12 +212,12 @@
 | <a id="rebirth-eve"></a>[左手](../src/people/rebirth-eve/materials-rebirth-eve.md) | Rebirth EVE / 93209504 | 已有列传 |
 | <a id="reiko-hita"></a>[Reiko Hita](../src/people/reiko-hita/materials-reiko-hita.md) | Reiko Hita / 91163205 | 已有列传 |
 | <a id="reisen-evil"></a>[兔总](../src/people/reisen-evil/materials-reisen-evil.md) | reisen-evil / 91874271 | 已有列传；素材待补 |
-| <a id="remeleen"></a>[拉面林](../src/people/remeleen/materials-remeleen.md) | Remeleen / 91309503 | 已有列传 |
+| <a id="remeleen"></a>[拉面林](../src/people/remeleen/materials-remeleen.md) | Remeleen / 91309503 | 已有列传；已补 2026-10-10 Obe 旗舰大战 |
 | <a id="renard42"></a>[42 / 四十二](../src/people/renard42/materials-renard42.md) | Renard42 / 2121799880 | 已有列传 |
 | <a id="roseattack"></a>[ROSE](../src/people/roseattack/materials-roseattack.md) | roseattack / 224870524 | 已有列传 |
 | <a id="rosina"></a>[彗星](../src/people/rosina/materials-rosina.md) | rosina / 2121096598 | 已有列传；素材待补 |
 | <a id="runers"></a>[runers](../src/people/runers/materials-runers.md) | runers / 752658252 | 已有列传 |
-| <a id="s2eirio"></a>[E姐](../src/people/s2eirio/materials-s2eirio.md) | s2eirio / 2114589633 | 已有列传 |
+| <a id="s2eirio"></a>[E姐](../src/people/s2eirio/materials-s2eirio.md) | s2eirio / 2114589633 | 已收录；牢陆劝退、贡献点争议、LP回收和拼车皮肤争议 |
 | <a id="sa-man"></a>[萨满](../src/people/ctril/materials-ctril.md) | Ctril / 437052497 | 已收录；2013 CTA 期间收死亡邮件、5B 罚款与道歉信、TCF 退盟促成 FRT；[列传源文件](../src/people/ctril/ctril.md) |
 | <a id="sarion-ikaruga"></a>[斑鸠](../src/people/sarion-ikaruga/materials-sarion-ikaruga.md) | Sarion Ikaruga / 2113386745 | 已有列传 |
 | <a id="sayler"></a>[Sayler](../src/people/sayler/materials-sayler.md) | Sayler / 2113271910 | 已有列传 |
@@ -195,7 +235,7 @@
 | <a id="tang-yuan"></a>[汤圆](../src/people/tang-yuan/materials-tang-yuan.md) | Tang Yuan / 2117147972 | 已有列传 |
 | <a id="thunder-andy"></a>[Thunder andy](../src/people/thunder-andy/materials-thunder-andy.md) | Thunder andy / 468540318 | 已有列传 |
 | <a id="thunder-ebon"></a>[Thunder ebon](../src/people/thunder-ebon/materials-thunder-ebon.md) | Thunder ebon / 166847438 | 已有列传 |
-| <a id="trumps-bloodthirst-feynman"></a>[嗜血](../src/people/trumps-bloodthirst-feynman/materials-trumps-bloodthirst-feynman.md) | Trumps Bloodthirst Feynman / 2113483277 | 已有列传 |
+| <a id="trumps-bloodthirst-feynman"></a>[嗜血](../src/people/trumps-bloodthirst-feynman/materials-trumps-bloodthirst-feynman.md) | Trumps Bloodthirst Feynman / 2113483277 | 已有列传；已补 2026-10-10 Obe 旗舰大战 |
 | <a id="van-007"></a>['007'](../src/people/van-007/materials-van-007.md) | van-007 / 90931436 | 已有列传；2026-10-09 补“我才是 007”、多开封号传闻 |
 | <a id="veritas-totient"></a>[储葛亮](../src/people/veritas-totient/materials-veritas-totient.md) | Veritas Totient / 96170679 | 已有列传 |
 | <a id="water-brother"></a>[水哥](../src/people/water-brother/materials-water-brother.md) | Water Brother / 91282906 | 已有列传 |
@@ -227,7 +267,7 @@
 | <a id="zhongcaizhe-max-local-chat"></a>[Zhongcaizhe MAX 本地对喷](leads/zhongcaizhe-max-local-chat.md) | Zhongcaizhe MAX / 96494513 等 | 潜在素材；本地频道对喷，无单独可写事件 |
 | <a id="old-threads-2016-2024"></a>[2024 年中以前的未读老帖](leads/old-threads-2016-2024.md) | 冲突词检索所得，约 17 篇 | 潜在素材；欧服吧 4 篇已读，其余多属他吧 |
 | <a id="mrpro"></a>[陌然](../src/people/mrpro/materials-mrpro.md) | MrPRO / 2114453889 | 已收录；《一个无名小卒的回忆录》作者，ECM 脉冲波同时 E 两支舰队，天使泰坦图，承天府；[列传源文件](../src/people/mrpro/mrpro.md) |
-| <a id="taishang-laojun"></a>[胡汉三 / 青馆](../src/people/taishang-laojun/materials-taishang-laojun.md) | Taishang Laojun / 2119107966（已删号） | 已收录；SC/RHG/Snuffed Out 低安堵门，1.35 万杀、塔玛 3517 杀，三进 SC；[列传源文件](../src/people/taishang-laojun/taishang-laojun.md) |
+| <a id="taishang-laojun"></a>[胡汉三 / 青馆](../src/people/taishang-laojun/materials-taishang-laojun.md) | Taishang Laojun / 2119107966（已删号） | 已收录；TaiBaiJinXIng / 2119449883 同人，低安堵门、两场超级战役、泰坦超旗战果；[列传源文件](../src/people/taishang-laojun/taishang-laojun.md) |
 | <a id="undead0027"></a>[梦雨](../src/people/undead0027/materials-undead0027.md) | Undead0027 / 2113823279 | 已收录；浮岳重工 CEO（2018—2023），111-F1 弃产业、维京之夜、老雷接班；[列传源文件](../src/people/undead0027/undead0027.md) |
 | <a id="fuyue"></a>[华义](leads/fuyue.md) | 浮岳重工团员，角色未知 | 潜在素材；单一来源 |
 | <a id="tianqi-aqi"></a>[天启阿柒](../src/people/tianqi-aqi/materials-tianqi-aqi.md) | 268425 / 2119831838 | 已收录；PHCN 单走 Marauder，隐投账本，与荣耀互视奸 KB，骂 FRT 指挥；[列传源文件](../src/people/tianqi-aqi/tianqi-aqi.md) |
@@ -238,7 +278,7 @@
 | <a id="san-ming-zhi"></a>[三明治 / 二五治](leads/san-ming-zhi.md) | 角色待核对 | 待收录；《二五之日》spy 回忆录作者 |
 | <a id="gongcheng-xiangmu"></a>[工程项目](../src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md) | obyta / 208043276 | 已收录；ES 帝皇之镰军团长、送冥府策反咪咪、代驾归魂被打、2025 ES 分裂；[列传源文件](../src/people/gongcheng-xiangmu/gongcheng-xiangmu.md) |
 | <a id="lulu-naiba"></a>[LULU奶爸](../src/people/lulu-love/materials-lulu-love.md) | lulu love / 92189699 | 已收录；早期 FRT 财务管理、联盟分裂回忆录、会计解释与管理争议；[列传源文件](../src/people/lulu-love/lulu-love.md) |
-| <a id="suo-si"></a>[所思](leads/suo-si.md) | 角色待核对（候选 Thunder andy / Thunder ebon，未连上） | 待收录；TCF 早期掌事人、盘古分裂中的关键人物；优先追查 |
+| <a id="suo-si"></a>[所思](../src/people/hitoming/materials-hitoming.md) | HiToMinG / 759807191 | 已收录；旧帖明确对应、罚款会议道歉、愿补五十亿及 TCF 退盟；[列传](../src/people/hitoming/hitoming.md) |
 | <a id="black-investor"></a>[黑老板 / Black](../src/people/goldmining-owner/materials-goldmining-owner.md) | GoldMining Owner / 2115243663；Black Gregory / 90350071（滑稽创建号） | 已收录；滑稽一代目、股票罢免卡布、1 ISK 送路小兔、代发声明；[列传源文件](../src/people/goldmining-owner/goldmining-owner.md) |
 | <a id="bei-shang"></a>[北上](../src/people/kitakamile-l/materials-kitakamile-l.md) | KitakamiLE L / 2115947381 | 已收录；神韵新人课堂、答疑与禁言自述、咸鱼管理辩护；[列传源文件](../src/people/kitakamile-l/kitakamile-l.md) |
 | <a id="imnot-mangou"></a>[幼儿园大班长](../src/people/imnot-mangou/materials-imnot-mangou.md) | ImNot ManGou / 2113646368 | 已收录；新手教官、烂仔舰队招队与蓝加规则争议、四张尾刀；[列传源文件](../src/people/imnot-mangou/imnot-mangou.md) |
@@ -247,7 +287,7 @@
 | <a id="shenmo-incursion"></a>[shenmo-](leads/shenmo-incursion.md) | 角色待核对 | 待收录；高安入侵教程与资源翻译作者；补充追查 |
 | <a id="yi-kun-lan-jiao-dai"></a>[一捆烂胶带](../src/people/sickle-alter/materials-sickle-alter.md) | Sickle Alter / 2114508645；B 站 UID 9468015 | 已收录；星华转 PLA 兔子团、九千击杀、“内部资料勿外传”、简介“好耶”KM；[列传源文件](../src/people/sickle-alter/sickle-alter.md) |
 | <a id="dzkell"></a>[W佬 / dzkell](../src/people/jubah-musanji/materials-jubah-musanji.md) | Jubah Musanji / 93331025；B 站 UID 13329368 | 已收录；FRT 反时区 FC、dzkell 搬运新闻台、简介挂 Mr Majestic 差评；[列传源文件](../src/people/jubah-musanji/jubah-musanji.md) |
-| <a id="nany-1419"></a>[幻象 / Nany 1419](../src/people/nany-1419/materials-nany-1419.md) | Nany 1419 / 2114944316；小号 I'm a Taitan / 2122788996 | 已收录；“IM TAITAN”泰坦损失与 Reddit 梗、自嘲小号、M2 监狱收超旗；[列传源文件](../src/people/nany-1419/nany-1419.md) |
+| <a id="nany-1419"></a>[幻象 / Nany 1419](../src/people/nany-1419/materials-nany-1419.md) | Nany 1419 / 2114944316；小号 I'm a Taitan / 2122788996 | 已收录；补录 Nany 1440、1450–1462；“IM TAITAN”泰坦损失与 Reddit 梗、自嘲小号、M2 监狱收超旗；[列传源文件](../src/people/nany-1419/nany-1419.md) |
 | <a id="irving-zh"></a>[老赵](../src/people/irving-zh/materials-irving-zh.md) | IrvingZH / 2120715980；B 站 irrrrv UID 485259323 | 已收录；创世招新与华人势力采访、简介“一生之耻”与“感谢我爹们”；[列传源文件](../src/people/irving-zh/irving-zh.md) |
 | <a id="for-undead-asuka"></a>[飛鳥](../src/people/for-undead-asuka/materials-for-undead-asuka.md) | ForUndeadAsuka / 2121130491；B 站“狂血兔与木棉花”UID 50869069 | 已收录；EF 单杀玩家、三百单杀、简介挂 614 人 FAX；[列传源文件](../src/people/for-undead-asuka/for-undead-asuka.md) |
 | <a id="l-nex"></a>[少侠](../src/people/l-nex/materials-l-nex.md) | L-Nex / 2118354268；B 站“少侠LNP”UID 25786471 | 已收录；FRT 转 Snuffed Out、中文新闻解读、简介 Involved 旗舰墙；[列传源文件](../src/people/l-nex/l-nex.md) |
@@ -278,3 +318,25 @@
 | <a id="texas"></a>[火锅](../src/people/texas/materials-texas.md) | Zeus008 / 2121593859；B 站 UID 2129407463 | 已收录；Bronze Fury 收割连载、故土两波战斗与十二开招新；[列传源文件](../src/people/texas/texas.md) |
 | <a id="kerrum-pithy"></a>[皮卡](../src/people/kerrum-pithy/materials-kerrum-pithy.md) | Kerrum Pithy / 2119060315（小号 Vocan Hephaes、Ashemi Shaishi）；B 站 UID 646042741 | 已收录；舰船装配教程、多账号活动流程与创世会战录像；[列传源文件](../src/people/kerrum-pithy/kerrum-pithy.md) |
 | <a id="yingying76"></a>[76](../src/people/yingying76/materials-yingying76.md) | YingYing76 / 2117010442；B 站 BeliEVE76 UID 393683258 | 已收录；战地记者、拍自家被团灭、AFK 后播报照发；B 站评论区待补；[列传源文件](../src/people/yingying76/yingying76.md) |
+| <a id="hanbo-han"></a>[汉堡](../src/people/hanbo-han/materials-hanbo-han.md) | Hanbo HAN / 2117524558；RHG 创建者 never left / 2117064646 为同人角色 | 已收录；RHG 埋号推萌新洞、2023-12 被 FRT 拉红、Turnur 半份战报、VCS 高级总监风波；[列传源文件](../src/people/hanbo-han/hanbo-han.md) |
+| <a id="nature00-soul"></a>[天籁 / 梦之天籁](../src/people/nature00-soul/materials-nature00-soul.md) | nature00 soul / 2113266423；B 站 UID 7163834；贴吧 我也曾有爱情 | 已收录；DC FC 与 B 站教程、《帝国的意志》、Q 群战神、链接钱风波丢小吧；[列传源文件](../src/people/nature00-soul/nature00-soul.md) |
+| <a id="zerohuang-ss"></a>[Zero煌](../src/people/zerohuang-ss/materials-zerohuang-ss.md) | ZeroHuang SS / 2113438156；B 站 UID 8370281；贴吧 uid 897085836 | 已收录；FRT 泰坦视角编年、十年势力泰坦、砖皮视频播放碾压、4-H 贴吧夜战；[列传源文件](../src/people/zerohuang-ss/zerohuang-ss.md) |
+| <a id="endless-i-journey"></a>[七七](../src/people/endless-i-journey/materials-endless-i-journey.md) | Endless I Journey / 2121733921；B 站 UID 272419368 | 已收录；DC/YSS 刷子，魔像单杀五百余、直面七十隐轰、一月丢十条魔像；[列传源文件](../src/people/endless-i-journey/endless-i-journey.md) |
+| <a id="kurusugawa-himeko"></a>[费娜希雅 / 姬子](../src/people/kurusugawa-himeko/materials-kurusugawa-himeko.md) | Kurusugawa Himeko / 2112819299；B 站 UID 45580 | 已收录；FRT 缪宁手、Obe 九条泰坦、一千四百模块开高安航母；[列传源文件](../src/people/kurusugawa-himeko/kurusugawa-himeko.md) |
+| <a id="power-yyn"></a>[盖瑞](../src/people/power-yyn/materials-power-yyn.md) | Power YYN / 2117876094；Super Gary / 2118682661、GaryYYN / 2117795623（旗舰号，后归汉堡）为同人角色；贴吧 ☞盖瑞☜ | 已收录；被疑 spy 自爆神使、《FRT泰坦自爆事件真相》、旗舰号卖给汉堡、2023-12 被 FRT 公告移除；[列传源文件](../src/people/power-yyn/power-yyn.md) |
+
+- [陌然回忆录低安人物](leads/mrpro-lowsec-accounts.md)：刀哥、Fel、咫尺、扎枪、卡卡等角色与事件线索；刀哥已对应LN1P历史并收录，其余继续对应。
+
+- [刀哥素材](../src/people/woaidao-2/materials-woaidao-2.md)：woaidao 2已收录；Xiaohui Yan、woaidao 1及六个编号号并回本人，补2019年星城参战与117B灵感单杀。
+
+- [关联帖补抓覆盖](leads/tieba-linked-coverage-2026-10-11.tsv)：57帖本轮请求完成，46帖取得可见主楼分页、11帖删除或不可读；楼中楼缺口与人工阅读另列，不当成57帖全文完成。
+
+- [RR早期军团人物](leads/rr-early-corps.md)：紫瞳、七秒、慕利亚诺兰待角色对应；附图补出制造、指挥、快递事件。
+
+凤凰城旧招新帖互链引出的新人踢团争议：[二甩](../src/people/ershuai-lee/materials-ershuai-lee.md)、[团长别开枪](../src/people/warhawk-wh/materials-warhawk-wh.md)已收录；执行决定有 CEO 署名，后台认定原因尚不清楚。
+
+BOP 2019 秋季招新回复：苹二增补新人福利与团规执行争议，木木三保留招新联系人范围；[168及回复账号](leads/tieba-bop-replies.md)继续待对应。
+
+叶落新春招新后段：青春增补实物周边与入团规则追问，新增[花间笑](../src/people/huajianxiao/materials-huajianxiao.md)；[比赛组织者璞凡](leads/tieba-yeluo-replies.md)待对应角色。
+
+- 叶落新春招新回复账号Acrad已收录为Titan Acrad；神使制造、总监周边与自挂夜神损失见[素材](../src/people/titan-acrad/materials-titan-acrad.md)。

@@ -1,0 +1,54 @@
+{
+  "id": 2122271544,
+  "name": "WLlng",
+  "birthday": "2024-04-23T12:35:38Z",
+  "current_corporation": {
+    "id": 98598862,
+    "name": "Chaos arbiter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598862,
+      "name": "Chaos arbiter",
+      "ticker": "CACX"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2024-04-23T12:36:00Z",
+      "end": "2024-04-23T13:03:00Z"
+    },
+    {
+      "corporation_id": 98755298,
+      "name": "Fox of Resistance",
+      "npc": false,
+      "start": "2024-04-23T13:03:00Z",
+      "end": "2025-08-13T11:42:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2025-08-13T11:42:00Z",
+      "end": "2025-08-13T11:58:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2025-08-13T11:58:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

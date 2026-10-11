@@ -36,3 +36,43 @@
 ### 军团简介（2026-10-10 ESI 快照）
 
 - [伏羲 Fuxi Legion](https://esi.evetech.net/latest/corporations/98185110/)（FRT，3522 角色；ESI CEO Gary CHGS）简介招新官栏：“男招新官：Andrea Alfrir、**Mrdiao**、Hugyyyy、chujunyu、AchanM；女招新官：Shirley Yang、LszYGoatGoat（禁止骚扰）”。简介还自称“OSY华人社区缔造者，EVE宁静服务器原生中文军团”“欧服华人十五年来首次在AT赛夺冠的小队，也有伏羲的一份”，军团红线“不攻击友军，不脚本，不RMT”。
+
+## 2026-10-11：1T 大战核对
+
+[共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。只据 KM 写该角色的参战、船型和损失；Monitor 记录支持参与指挥。
+
+### 2014-01-27/28 B-R5RB / 角色 1387156123
+- 战斗规模：11T；阵营口径：CFC／俄罗斯联军与 N3／PL。
+- 样本中出现于 17 条攻击者名单；代表 [KM 36255172](https://zkillboard.com/kill/36255172/)，2014-01-28T06:39:00Z，本人驾驶 纳迦法，战时联盟 ID 1354830081，本条伤害 0。
+
+### 2021-09-17 A1-AUH / 角色 1387156123
+- 战斗规模：至少 1.20T；阵营口径：Winter Coalition 与帝国、PHEW 等；此处不重建完整阵营。
+- 样本中出现于 13 条攻击者名单；代表 [KM 95187540](https://zkillboard.com/kill/95187540/)，2021-09-17T16:07:14Z，本人驾驶 缪宁，战时联盟 ID 99003581，本条伤害 0。
+
+### 2025-06-17/18 Lantorn / 角色 1387156123
+- 战斗规模：3.2T；阵营口径：FRT 及友军与 Snuffed Out、帝国等。
+- 样本中出现于 7 条攻击者名单；代表 [KM 127953772](https://zkillboard.com/kill/127953772/)，2025-06-17T21:22:31Z，本人驾驶 泽尼塔，战时联盟 ID 99003581，本条伤害 34231。
+- 本人损失：[KM 127953912](https://zkillboard.com/kill/127953912/)，2025-06-17T21:29:07Z，泽尼塔，现行估值 9.13B，战时联盟 ID 99003581。普通船损不另作黑料。
+
+### 2025-06-21 Siseide / 角色 1387156123
+- 战斗规模：至少 2.84T；阵营口径：FRT 及友军与 Snuffed Out 等；此处不重建完整阵营。
+- 样本中出现于 1 条攻击者名单；代表 [KM 128026903](https://zkillboard.com/kill/128026903/)，2025-06-21T04:58:05Z，本人驾驶 兀鹫，战时联盟 ID 99003581，本条伤害 460。
+
+### 2026-04-06/07 Atioth / 角色 1387156123
+- 战斗规模：近 10T；阵营口径：FRT、PH 等与帝国系。
+- 样本中出现于 4 条攻击者名单；代表 [KM 134557132](https://zkillboard.com/kill/134557132/)，2026-04-07T00:49:20Z，本人驾驶 纳迦法，战时联盟 ID 99003581，本条伤害 268373。
+
+### 2026-10-10 Obe / 角色 1387156123
+- 战斗规模：6.64T；阵营口径：FRT 及友军／Snuffed Out 及友军／INIT 三组。
+- 样本中出现于 16 条攻击者名单；代表 [KM 139046684](https://zkillboard.com/kill/139046684/)，2026-10-10T10:10:37.000Z，本人驾驶 乌鸦，战时联盟 ID 99003581，本条伤害 6698。
+
+
+## 2026-10-11：小号补录
+
+- **Not Mrdiao（2118070113）**、**DiaoMoney（712912091）**归入同一人；两号当前军团均为 587384056，联盟 FRT（99003581）。Not Mrdiao 保留完整主号名并加否定前缀，DiaoMoney 保留 Diao 词根并加用途后缀。已补 aliases；不另立传。
+- 公开资料：[Not Mrdiao ESI](https://esi.evetech.net/latest/characters/2118070113/)、[DiaoMoney ESI](https://esi.evetech.net/latest/characters/712912091/)。ESI 名字解析核对正式大小写。
+- 各号 zKillboard 生涯参与击杀独立记录：Not Mrdiao 3337 杀 / 4621.51B；DiaoMoney 536 杀 / 406.60B；不能与主号直接相加。
+- **Not Mrdiao / Lantorn**：2025-06-17T21:59:37Z，[KM 127954538](https://zkillboard.com/kill/127954538/)，纳迦法级舰队型（73793），FRT；两页高值样本共命中 7 条，6 条有此船型，1 条未列船型。
+- **Not Mrdiao / Atioth**：2026-04-07T10:44:23Z，[KM 134566212](https://zkillboard.com/kill/134566212/)，勒维亚坦（3764），FRT；高值样本命中 7 条，其中 5 条勒维亚坦，另有普通舰船座位，不把全场均认成泰坦。
+- **Not Mrdiao / Obe**：2026-10-10，[KM 139047592](https://zkillboard.com/kill/139047592/)，勒维亚坦（3764），FRT；共用 WarBeacon 公开战报列表命中 5 条攻击者名单，均为勒维亚坦。三场规模与阵营沿用[共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。
+- DiaoMoney 在本轮 B-R、M2、A1、黑色星期五、Lantorn、Siseide、Atioth 高值样本及 Obe 列表中未命中；样本零命中不等于未参战。

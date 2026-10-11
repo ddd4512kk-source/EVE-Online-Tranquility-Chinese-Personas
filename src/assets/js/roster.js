@@ -1,4 +1,4 @@
-// 首页名录：即时筛选 + 正序/倒序/随机排序。无 JS 时页面照常可读。
+// 首页名录：即时筛选 + 创号正序/倒序、最近更新、随机排序。无 JS 时页面照常可读。
 // 目录是一整块连续网格；每年第一张“可见”卡片挂年份签，筛选或换序后重新计算。
 // 筛选 = 文字筛选 ∧ 标签筛选（标签栏单选，再点一次取消）。
 (() => {
@@ -6,6 +6,7 @@
   const input = document.getElementById("filter");
   const orderBtn = document.getElementById("order");
   const shuffleBtn = document.getElementById("shuffle");
+  const recentBtn = document.getElementById("recent");
   const status = document.getElementById("filter-status");
   const tagBar = document.querySelector(".tag-bar");
   let activeTag = "";
@@ -18,7 +19,7 @@
     let prev = null;
     for (const c of roster.children) {
       c.classList.remove("year-start");
-      if (c.hidden || shuffled) continue;
+      if (c.hidden || mode !== "birth") continue;
       const y = c.dataset.year;
       if (y !== prev) {
         c.classList.add("year-start");
@@ -53,39 +54,48 @@
   }
 
   // 排序：cards 保持构建时的创号升序，按当前模式重排 DOM
+  // mode：birth（创号时间）| recent（最近更新在前）| shuffle；只有 birth 挂年份签
   let descending = false;
-  let shuffled = false;
+  let mode = "birth";
   function placeCards(list) {
     for (const c of list) roster.appendChild(c);
     markYears();
   }
 
   function toggleOrder() {
-    // 随机模式下点创号按钮：回到按时间排序，方向不变
-    if (shuffled) setShuffled(false);
+    // 其他模式下点创号按钮：回到按创号排序，方向不变
+    if (mode !== "birth") setMode("birth");
     else descending = !descending;
     orderBtn.setAttribute("aria-pressed", String(descending));
     orderBtn.textContent = descending ? "创号 ↓" : "创号 ↑";
     placeCards(descending ? [...cards].reverse() : cards);
   }
 
-  // 每点一次重新洗牌；随机时不挂年份签
+  // 最近更新的在前；同一次提交更新的保持创号顺序
+  function sortRecent() {
+    setMode("recent");
+    placeCards([...cards].sort((a, b) => Date.parse(b.dataset.updated) - Date.parse(a.dataset.updated)));
+  }
+
+  // 每点一次重新洗牌
   function shuffle() {
     const list = [...cards];
     for (let i = list.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [list[i], list[j]] = [list[j], list[i]];
     }
-    setShuffled(true);
+    setMode("shuffle");
     placeCards(list);
   }
 
-  function setShuffled(on) {
-    shuffled = on;
-    roster.classList.toggle("is-shuffled", on);
-    shuffleBtn.classList.toggle("is-active", on);
-    shuffleBtn.setAttribute("aria-pressed", String(on));
-    orderBtn.classList.toggle("is-dimmed", on);
+  function setMode(m) {
+    mode = m;
+    roster.classList.toggle("is-shuffled", m !== "birth");
+    shuffleBtn.classList.toggle("is-active", m === "shuffle");
+    shuffleBtn.setAttribute("aria-pressed", String(m === "shuffle"));
+    recentBtn?.classList.toggle("is-active", m === "recent");
+    recentBtn?.setAttribute("aria-pressed", String(m === "recent"));
+    orderBtn.classList.toggle("is-dimmed", m !== "birth");
   }
 
   function setTag(tag) {
@@ -114,6 +124,7 @@
   });
   orderBtn.addEventListener("click", toggleOrder);
   shuffleBtn.addEventListener("click", shuffle);
+  recentBtn?.addEventListener("click", sortRecent);
   tagBar?.addEventListener("click", (e) => {
     const b = e.target.closest("button");
     if (!b) return;

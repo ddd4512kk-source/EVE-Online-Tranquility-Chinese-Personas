@@ -16,3 +16,31 @@
 历史画像曾记损失 694.5B；正常游戏损失不当黑料。此处 Revenant 属高价值超旗损失，已单独列入正文。
 
 - **2026-10-10 补充：另一角色 Hikari Homura（2114003356）**：见[本地频道对喷线索](../../../docs/leads/zhongcaizhe-max-local-chat.md)。该角色 ESI 头衔同为“冷剑”，建号 2018-04-14（Homura Hikari 为 2018-04-21），现 Arknights.（AMIYA，FRT），与 Optimus Mecca 同团；在本地频道说“我6个月没玩EVE照样一针抓你投送黑隐”。确为冷剑本人的另一角色，与 Homura Hikari 同属一人。
+
+## 2026-10-11：1T 大战核对
+
+[共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。只据 KM 写该角色的参战、船型和损失；Monitor 记录支持参与指挥。
+
+### 2021-09-17 A1-AUH / 角色 2114027991
+- 战斗规模：至少 1.20T；阵营口径：Winter Coalition 与帝国、PHEW 等；此处不重建完整阵营。
+- 样本中出现于 12 条攻击者名单；代表 [KM 95191703](https://zkillboard.com/kill/95191703/)，2021-09-17T17:55:26Z，本人驾驶 缪宁，战时联盟 ID 99003581，本条伤害 13721。
+
+### 2024-11-29 1N-FJ8 黑色星期五 / 角色 2114027991
+- 战斗规模：至少 2.95T；阵营口径：Winter Coalition 与帝国系；此处不重建完整阵营。
+- 本人损失：[KM 122868505](https://zkillboard.com/kill/122868505/)，2024-11-29T13:19:56Z，归魂者，现行估值 262.49B，战时联盟 ID 99011168。普通船损不另作黑料。
+
+### 2025-06-17/18 Lantorn / 角色 2114027991
+- 战斗规模：3.2T；阵营口径：FRT 及友军与 Snuffed Out、帝国等。
+- 样本中出现于 18 条攻击者名单；代表 [KM 127953587](https://zkillboard.com/kill/127953587/)，2025-06-17T21:14:12Z，本人驾驶 泽尼塔，战时联盟 ID 99011168，本条伤害 7893。
+
+## 已对应小号的战役复查（2026-10-11）
+
+归属沿用本文件已有角色对应；按人合并参战经历，同场不重复计为两场，各号 KB 累计不直接相加。窗口、阵营、规模见[共同战斗来源](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+- [Hikari Homura（2114003356）](https://zkillboard.com/character/2114003356/)：击杀 1657，参与击杀价值 2811.4B ISK。
+- [HikariHomura（2117561817）](https://zkillboard.com/character/2117561817/)：击杀 897，参与击杀价值 3153.5B ISK。
+- A1-AUH，Hikari Homura 驾驶休津，攻击者，[95187540](https://zkillboard.com/kill/95187540/)，2021-09-17T16:07:14Z；记录 50 条。
+- 1N-FJ8 黑色星期五，HikariHomura 驾驶阿扎里尔，受害者，[122868462](https://zkillboard.com/kill/122868462/)，2024-11-29T13:18:43Z；记录 1 条。
+  - 本号高价值舰船损失：阿扎里尔，[122868462](https://zkillboard.com/kill/122868462/)，768.6B ISK。
+- Lantorn，HikariHomura 驾驶泽尼塔，攻击者，[127953974](https://zkillboard.com/kill/127953974/)，2025-06-17T21:31:58Z；记录 16 条。
+- Obe，HikariHomura 驾驶阿扎里尔，攻击者，[139048623](https://zkillboard.com/kill/139048623/)，2026-10-10T11:50:00.000Z；记录 1 条。

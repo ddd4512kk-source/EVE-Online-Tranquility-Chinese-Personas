@@ -1,0 +1,54 @@
+{
+  "id": 2113438156,
+  "name": "ZeroHuang SS",
+  "birthday": "2017-11-14T06:43:17Z",
+  "current_corporation": {
+    "id": 98540583,
+    "name": "Special law enforcement department",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98540583,
+      "name": "Special law enforcement department",
+      "ticker": "SARD."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2017-11-14T06:43:00Z",
+      "end": "2019-01-29T04:24:00Z"
+    },
+    {
+      "corporation_id": 98583458,
+      "name": "Ibis Fleet",
+      "npc": false,
+      "start": "2019-01-29T04:24:00Z",
+      "end": "2019-04-24T11:36:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-04-24T11:36:00Z",
+      "end": "2019-04-25T04:45:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2019-04-25T04:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

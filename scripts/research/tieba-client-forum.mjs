@@ -1,3 +1,4 @@
+import { researchFetch } from "./request-guard.mjs";
 // 取材用的贴吧帖子列表（匿名客户端接口，不弹验证码）：按最新回复顺序翻吧内主题，输出 TSV。
 // node scripts/research/tieba-client-forum.mjs <吧名> <起始页> <结束页> <输出.tsv>
 // 例：node scripts/research/tieba-client-forum.mjs eve欧服 1 110 temp/frs.tsv
@@ -28,11 +29,12 @@ function sign(params) {
 for (let pn = from; pn <= to; pn++) {
   const params = sign({ _client_type: "2", _client_version: "12.1.1.0", kw: forum, pn: String(pn), rn: "50", sort_type: "1" });
   try {
-    const response = await fetch("https://c.tieba.baidu.com/c/f/frs/page", {
+    const response = await researchFetch("https://c.tieba.baidu.com/c/f/frs/page", {
       method: "POST",
       body: new URLSearchParams(params),
       signal: AbortSignal.timeout(30000),
     });
+    if (response.ok === false) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     if (Number(data.error_code) !== 0) {
       console.error(`第 ${pn} 页失败：${data.error_code} ${data.error_msg}`);

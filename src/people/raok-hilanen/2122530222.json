@@ -1,0 +1,68 @@
+{
+  "id": 2122530222,
+  "name": "Raok Hilanen",
+  "birthday": "2024-07-11T18:48:01Z",
+  "current_corporation": {
+    "id": 98694557,
+    "name": "KheshigFleet",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98694557,
+      "name": "KheshigFleet",
+      "ticker": "KHESH"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-07-11T18:48:00Z",
+      "end": "2024-07-16T10:39:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2024-07-16T10:39:00Z",
+      "end": "2025-04-11T08:54:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2025-04-11T08:54:00Z",
+      "end": "2025-04-11T09:32:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2025-04-11T09:32:00Z",
+      "end": "2025-04-25T08:52:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2025-04-25T08:52:00Z",
+      "end": "2025-04-25T08:53:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2025-04-25T08:53:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

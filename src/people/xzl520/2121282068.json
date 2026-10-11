@@ -1,0 +1,54 @@
+{
+  "id": 2121282068,
+  "name": "xzl520",
+  "birthday": "2023-06-02T14:37:43Z",
+  "current_corporation": {
+    "id": 98185110,
+    "name": "Fuxi Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98185110,
+      "name": "Fuxi Legion",
+      "ticker": "FUXI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2023-06-02T14:38:00Z",
+      "end": "2023-06-03T03:31:00Z"
+    },
+    {
+      "corporation_id": 98588384,
+      "name": "YeLuo-XingHai",
+      "npc": false,
+      "start": "2023-06-03T03:31:00Z",
+      "end": "2024-06-16T13:48:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "name": "KheshigFleet",
+      "npc": false,
+      "start": "2024-06-16T13:48:00Z",
+      "end": "2025-04-23T11:55:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2025-04-23T11:55:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

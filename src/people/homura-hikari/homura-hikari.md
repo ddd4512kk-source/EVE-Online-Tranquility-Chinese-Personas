@@ -1,7 +1,7 @@
 ---
 character_id: 2114027991
 cn_name: 冷剑
-aliases: [Homura Hikari, 冷箭, B站]
+aliases: [Homura Hikari, 冷箭, B站, Hikari Homura, HikariHomura]
 epithet: 一剑可当百万师，联盟叫普通蹲点爱好者，最爱异度神剑。
 tags: [00区, 著名FC, "AKINA mountain family", B站]
 ---
@@ -45,7 +45,13 @@ FBC 的[军团战记](https://forums.winterco.org/t/topic/288)介绍打架玩法
 :::
 
 ::: 红料 KB：九千杀，十一万亿
-zKillboard 生涯击杀 9049，打掉约 11.3 万亿 ISK；超旗、泰坦都开——论坛上自称“拉格纳洛克驾驶员不请自来”。
+zKillboard 生涯击杀 9049，参与击杀累计约 11.3 万亿 ISK；超旗、泰坦都开——论坛上自称“拉格纳洛克驾驶员不请自来”。
+
+冷剑自题“一剑可当百万师”，2021 年 9 月的 [A1-AUH](https://zkillboard.com/kill/95191703/) 却开缪宁，另一号 Hikari Homura 开[休津](https://zkillboard.com/kill/95187540/)，也在同场的攻击者名单里。诗里的百万师是排场，战场上的两个座位各有工种。到了 2024 年 11 月的 [1N-FJ8 黑色星期五](https://zkillboard.com/kill/122868462/)，小号 HikariHomura 的阿扎里尔与主号归魂者先后被打爆，一次缴税把两个号的贵船都卷了进去，账单见下文。
+
+贵船没了，参战记录没有就此断掉。2025 年 6 月的 [Lantorn](https://zkillboard.com/kill/127953587/)，他同时开了两条泽尼塔，其中[另一条](https://zkillboard.com/kill/127953974/)上场。2026 年 10 月的 [Obe](https://zkillboard.com/kill/139048623/)，他又开阿扎里尔参与 Obe 会战，这一回在攻击者那一栏。两条同型无畏出勤，后来再上势力泰坦，足够把“缴税先锋”的机库尺寸写清楚。
+
+昂贵的船赔过，贵船又开出去过，带队与参战也并没有随着那张万亿账单收工。这一剑到底能当多少师，诗里可以任他吹；跨年的战报只证明，他确实不止在简介里转战。
 :::
 
 ::: 黑料 1N-FJ8：一天一万亿

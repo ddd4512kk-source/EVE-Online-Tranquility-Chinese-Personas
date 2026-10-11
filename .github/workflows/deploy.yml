@@ -23,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 完整历史：列传“更新日期”取自 git 提交时间
       - uses: actions/setup-node@v4
         with:
           node-version: 22

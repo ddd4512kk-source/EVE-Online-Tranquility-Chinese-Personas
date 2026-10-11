@@ -1,0 +1,82 @@
+{
+  "id": 2115105670,
+  "name": "July Karin",
+  "birthday": "2019-04-06T04:27:22Z",
+  "current_corporation": {
+    "id": 98799349,
+    "name": "The Skies Descend",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98799349,
+      "name": "The Skies Descend",
+      "ticker": "CYCIE"
+    },
+    "alliance": {
+      "id": 99004901,
+      "name": "Snuffed Out",
+      "ticker": "B B C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2019-04-06T04:27:00Z",
+      "end": "2019-05-19T03:55:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2019-05-19T03:55:00Z",
+      "end": "2020-06-29T15:31:00Z"
+    },
+    {
+      "corporation_id": 1000009,
+      "name": "Caldari Provisions",
+      "npc": true,
+      "start": "2020-06-29T15:31:00Z",
+      "end": "2021-12-22T10:31:00Z"
+    },
+    {
+      "corporation_id": 98550682,
+      "name": "Stardust-Guardian",
+      "npc": false,
+      "start": "2021-12-22T10:31:00Z",
+      "end": "2025-04-04T13:30:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2025-04-04T13:30:00Z",
+      "end": "2025-12-01T11:58:00Z"
+    },
+    {
+      "corporation_id": 98707963,
+      "name": "Parchment And Spice",
+      "npc": false,
+      "start": "2025-12-01T11:58:00Z",
+      "end": "2026-06-24T14:12:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2026-06-24T14:12:00Z",
+      "end": "2026-06-24T14:13:00Z"
+    },
+    {
+      "corporation_id": 98799349,
+      "name": "The Skies Descend",
+      "npc": false,
+      "start": "2026-06-24T14:13:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

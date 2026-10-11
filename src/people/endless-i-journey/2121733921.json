@@ -1,0 +1,68 @@
+{
+  "id": 2121733921,
+  "name": "Endless I Journey",
+  "birthday": "2023-10-28T16:41:52Z",
+  "current_corporation": {
+    "id": 98738067,
+    "name": "Why So Sage",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98738067,
+      "name": "Why So Sage",
+      "ticker": "Y.S.S"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2023-10-28T16:42:00Z",
+      "end": "2023-10-30T18:48:00Z"
+    },
+    {
+      "corporation_id": 98738067,
+      "name": "Why So Sage",
+      "npc": false,
+      "start": "2023-10-30T18:48:00Z",
+      "end": "2024-01-04T01:17:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2024-01-04T01:17:00Z",
+      "end": "2024-01-28T14:03:00Z"
+    },
+    {
+      "corporation_id": 98738067,
+      "name": "Why So Sage",
+      "npc": false,
+      "start": "2024-01-28T14:03:00Z",
+      "end": "2024-11-27T08:07:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2024-11-27T08:07:00Z",
+      "end": "2025-03-21T23:02:00Z"
+    },
+    {
+      "corporation_id": 98738067,
+      "name": "Why So Sage",
+      "npc": false,
+      "start": "2025-03-21T23:02:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

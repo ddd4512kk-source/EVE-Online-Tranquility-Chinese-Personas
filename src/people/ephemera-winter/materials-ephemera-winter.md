@@ -16,3 +16,11 @@
 ### 2026 年联盟名单
 
 - [中文公务员名单](https://wiki.winterco.org/zh/coalition/leadership)（2026-09-06）列 NBCLT-Ephemera Winter 蜉蝣于外交组。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+
+## 2026-10-11：1T 大战核对
+
+[共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。只据 KM 写该角色的参战、船型和损失；Monitor 记录支持参与指挥。
+
+### 2021-09-17 A1-AUH / 角色 2114882441
+- 战斗规模：至少 1.20T；阵营口径：Winter Coalition 与帝国、PHEW 等；此处不重建完整阵营。
+- 样本中出现于 2 条攻击者名单；代表 [KM 95189762](https://zkillboard.com/kill/95189762/)，2021-09-17T17:07:30Z，本人驾驶 猎犬，战时联盟 ID 99003581，本条伤害 2716。

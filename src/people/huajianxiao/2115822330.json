@@ -1,0 +1,82 @@
+{
+  "id": 2115822330,
+  "name": "LZ-PPHV-2",
+  "birthday": "2019-11-02T09:52:03Z",
+  "current_corporation": {
+    "id": 98540583,
+    "name": "Special law enforcement department",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98540583,
+      "name": "Special law enforcement department",
+      "ticker": "SARD."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2019-11-02T09:52:00Z",
+      "end": "2020-03-19T03:09:00Z"
+    },
+    {
+      "corporation_id": 98588384,
+      "name": "YeLuo-XingHai",
+      "npc": false,
+      "start": "2020-03-19T03:09:00Z",
+      "end": "2024-09-30T16:03:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-09-30T16:03:00Z",
+      "end": "2024-09-30T16:38:00Z"
+    },
+    {
+      "corporation_id": 98699728,
+      "name": "M-IOI-M",
+      "npc": false,
+      "start": "2024-09-30T16:38:00Z",
+      "end": "2024-10-29T16:07:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-10-29T16:07:00Z",
+      "end": "2024-10-29T16:14:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2024-10-29T16:14:00Z",
+      "end": "2025-11-09T16:11:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2025-11-09T16:11:00Z",
+      "end": "2025-11-09T16:13:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2025-11-09T16:13:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

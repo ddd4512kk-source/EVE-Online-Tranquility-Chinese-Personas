@@ -1,0 +1,89 @@
+{
+  "id": 2119472256,
+  "name": "Iba La Sotken",
+  "birthday": "2021-12-17T07:25:18Z",
+  "current_corporation": {
+    "id": 98825941,
+    "name": "Kun-Lun",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98825941,
+      "name": "Kun-Lun",
+      "ticker": "KN-L"
+    },
+    "alliance": {
+      "id": 1354830081,
+      "name": "Goonswarm Federation",
+      "ticker": "CONDI"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2021-12-17T07:25:00Z",
+      "end": "2022-01-06T16:57:00Z"
+    },
+    {
+      "corporation_id": 98675765,
+      "name": "Titan Federation",
+      "npc": false,
+      "start": "2022-01-06T16:57:00Z",
+      "end": "2022-01-12T15:32:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2022-01-12T15:32:00Z",
+      "end": "2022-01-14T16:06:00Z"
+    },
+    {
+      "corporation_id": 98679934,
+      "name": "Federal Armed Force 01",
+      "npc": false,
+      "start": "2022-01-14T16:06:00Z",
+      "end": "2022-01-18T18:17:00Z"
+    },
+    {
+      "corporation_id": 98675765,
+      "name": "Titan Federation",
+      "npc": false,
+      "start": "2022-01-18T18:17:00Z",
+      "end": "2024-06-08T12:46:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2024-06-08T12:46:00Z",
+      "end": "2024-06-08T12:46:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2024-06-08T12:46:00Z",
+      "end": "2026-05-30T17:14:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2026-05-30T17:14:00Z",
+      "end": "2026-05-30T17:14:00Z"
+    },
+    {
+      "corporation_id": 98825941,
+      "name": "Kun-Lun",
+      "npc": false,
+      "start": "2026-05-30T17:14:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-10"
+}

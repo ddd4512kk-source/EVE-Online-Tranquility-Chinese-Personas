@@ -42,3 +42,10 @@ Tang Yuan（2117147972）已收录；Silver Magician（2117571969）为同一人
 ### 2026 年联盟名单
 
 - [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 Tang Yuan 于 EN/CN 战略协调、CN 内部外交、FRT 规则协调（CN，与 GrandMiracle 即大聪明并列）、FAX 与 FRT-U（CN）；[中文公务员名单](https://wiki.winterco.org/zh/coalition/leadership)（2026-09-06）列 KHESH-Silver Magician 汤圆为外交组组长（与炒鸡并列）。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+
+## 已对应小号的战役复查（2026-10-11）
+
+归属沿用本文件已有角色对应；按人合并参战经历，同场不重复计为两场，各号 KB 累计不直接相加。窗口、阵营、规模见[共同战斗来源](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+- [Light Cone（2118258666）](https://zkillboard.com/character/2118258666/)：击杀 52，参与击杀价值 181.6B ISK。
+- 1N-FJ8 黑色星期五，Light Cone 驾驶神使，攻击者，[122868712](https://zkillboard.com/kill/122868712/)，2024-11-29T13:26:37Z；记录 3 条。

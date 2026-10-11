@@ -1,45 +1,8 @@
 // 贴吧读帖工具（有头浏览器）：打开一个看得见的浏览器窗口，逐个读取贴吧帖子全部楼层。
 //
 // 为什么需要它：脚本直接访问贴吧、百度会弹“安全验证”。本工具不破解验证码——
-// 遇到验证时暂停，由维护者在弹出的窗口里手动完成验证，之后自动继续。
-// 浏览器资料保存在 ~/.cache/personas-browser，验证通过后的登录态可在下次复用。
-//
-// 用法：
-//   node scripts/research/tieba-read.mjs <输出目录> <帖子ID或网址>... [--search "百度关键词"]...
-//   node scripts/research/tieba-read.mjs out 11003073829 6282295426 --search "拉面林 eve欧服吧"
-// 每个帖子写一个 <ID>.txt（每页最多读 5 页），每个搜索写一个 search-<序号>.txt。
-
-import { chromium } from "playwright";
-import fs from "node:fs";
-import os from "node:os";
-import path from "node:path";
-
-const [outDir, ...rest] = process.argv.slice(2);
-if (!outDir || !rest.length) {
-  console.log("用法：node scripts/research/tieba-read.mjs <输出目录> <帖子ID或网址>... [--search \"关键词\"]");
-  process.exit(1);
-}
-fs.mkdirSync(outDir, { recursive: true });
-
-const jobs = [];
-for (let i = 0; i < rest.length; i++) {
-  if (rest[i] === "--search") jobs.push({ search: rest[++i] });
-  else jobs.push({ id: (rest[i].match(/(\d{6,})/) || [])[1] });
-}
-
-const ctx = await chromium.launchPersistentContext(path.join(os.homedir(), ".cache", "personas-browser"), {
-  headless: false,
-  locale: "zh-CN",
-  viewport: { width: 1200, height: 900 },
-});
-const page = ctx.pages()[0] || (await ctx.newPage());
-
-async function isBlocked() {
-  const title = await page.title().catch(() => "");
-  return /验证|captcha|异常/i.test(title) || (await page.locator("text=安全验证").count().catch(() => 0)) > 0;
-}
-
-// 遇到验证码：提示维护者手动完成，最多等 10 分钟。
+const stoppedHosts = new Set();
+let opened = 0;
 async function waitHuman() {
   if (!(await isBlocked())) return true;
   console.log("【请手动验证】浏览器窗口里出现了百度安全验证，请完成验证，完成后会自动继续……");
@@ -57,9 +20,15 @@ async function waitHuman() {
 }
 
 async function open(url) {
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 }).catch((e) => console.log("打开失败", e.message));
+  const host = new URL(url).hostname;
+  if (stoppedHosts.has(host) || opened >= 10) return false;
+  opened++;
+  const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => null);
+  if (!response || [403, 429, 412].includes(response.status()) && !(await isBlocked())) { stoppedHosts.add(host); return false; }
   await page.waitForTimeout(2500);
-  return waitHuman();
+  const ok = await waitHuman();
+  if (!ok) stoppedHosts.add(host);
+  return ok;
 }
 
 async function readPage() {

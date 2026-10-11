@@ -34,6 +34,8 @@
 | LSP.-Illegal-ChenYi Mist 非法 | [非法](../../src/people/illegal-chenyi-mist/materials-illegal-chenyi-mist.md)，主号 Illegal-ChenYi Mist；LSP. CEO 号 Naoxina | 势力战争管理组，C-Guard 战争负责人 |
 | DOCTOR | 大概是[黑色乌鸦 / Docter Hikanami](../../src/people/docter-hikanami/)，仅凭名字形近，未核 | EN/CN 战略协调 |
 
+| KHESH-Raok Hilanen 汉堡 | [汉堡](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 市场监测；Atioth Monitor 参战记录已入列传 |
+
 ### 尚未收录的华人成员
 
 角色 ID 由 `npm run find` 按名单上的角色名查得。
@@ -60,7 +62,6 @@
 | .LOS-lessnamefox 红衣 | lessnamefox（2122884178） | 黑名单管理员 |
 | AMIYA-W HDXG 灿星 | W HDXG（2112788428） | 黑名单管理员 |
 | AMIYA-Tofu Hunter 豆腐 | Tofu Hunter（2116612115） | 新人教官培训 |
-| KHESH-Raok Hilanen 汉堡 | Raok Hilanen（2122530222） | 市场监测 |
 | LOTM-bossboss wang 王老板 | bossboss wang（2113994416） | 频道配置 |
 | NUWA-Jimmy Marbles 吉米 | Jimmy Marbles（90011513） | 商会指引 |
 | .CCT.-DF Titan 兑方 | DF Titan（2113391424） | 仓库管理 |

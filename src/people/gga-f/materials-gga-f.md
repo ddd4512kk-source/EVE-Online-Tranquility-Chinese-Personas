@@ -32,3 +32,9 @@
 - 新中文宣传帖 [8935399498](https://tieba.baidu.com/p/8935399498) 发帖账号 HELENAovo，口吻是频道管理（“频道主理人只用上面发钱截图里那个号宣传”），与 GGA F 的对应未证实；列传未写 HELENAovo。吧友称“无论这频道幕后BOSS是谁”，GGA F 是新中文主人由补充说明给出。
 - B 站 UP“亮神惊天战神”（391605312）：阿巴宗护航系列，标题序号与贴吧“亮神3”一致，按同一人处理。例：[BV1jx3HzNEHK](https://www.bilibili.com/video/BV1jx3HzNEHK)（第十一次，“老外称呼我们为英雄”）、[BV1LSa8zVEM8](https://www.bilibili.com/video/BV1LSa8zVEM8)（第二十六次，战损 9e 比 74e，锚定建筑）、[BV155xBzmEy6](https://www.bilibili.com/video/BV155xBzmEy6)（第三十四次，千人会战）、[BV1bNXMBiEAa](https://www.bilibili.com/video/BV1bNXMBiEAa)（2026-03，联合舰队第四十四次）。视频与评论未读。
 - 未了：GGA F 的贴吧 / B 站号、“eve大学校长”所指（[9831329735](https://tieba.baidu.com/p/9831329735) #61）、“贴吧用户_5VE8J5P”自称铁道总监与亮神的关系、龙骑冲突与 Reddit 致谢帖原文。
+
+### 2026-10-11：招新与诈骗合同问帖复读
+
+[10033376970](https://tieba.baidu.com/p/10033376970)，5主楼1楼中楼，文字已读，招新附图待核。团长开心说法原已有；2026年1月楼主亮神3回应阿巴宗护航仍组织，但此前很多事、力量尚需壮大，未展开事件，不能凭此补编。
+
+[10503947521](https://tieba.baidu.com/p/10503947521)，4主楼无楼中楼，全文已读。首楼只是在群外问诈骗合同截图，#2说当事人否认是本人，#3—4明确是大商人的高仿号。原正文只取首楼，现补澄清，不将冒名合同算被冒名者本人诈骗。

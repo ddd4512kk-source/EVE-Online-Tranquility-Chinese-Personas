@@ -1,0 +1,75 @@
+{
+  "id": 2114953484,
+  "name": "WarHawk-WH",
+  "birthday": "2019-02-12T19:32:55Z",
+  "current_corporation": {
+    "id": 1000168,
+    "name": "Federal Navy Academy",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98582520,
+      "name": "Doomsday Ark",
+      "ticker": "D.AK"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": "2019-02-23T15:24:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-02-12T19:33:00Z",
+      "end": "2019-02-14T10:49:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2019-02-14T10:49:00Z",
+      "end": "2019-02-17T09:36:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-02-17T09:36:00Z",
+      "end": "2019-02-17T10:07:00Z"
+    },
+    {
+      "corporation_id": 98582520,
+      "name": "Doomsday Ark",
+      "npc": false,
+      "start": "2019-02-17T10:07:00Z",
+      "end": "2019-02-23T15:24:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2019-02-23T15:24:00Z",
+      "end": "2024-02-19T14:34:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2024-02-19T14:34:00Z",
+      "end": "2024-02-21T12:34:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2024-02-21T12:34:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}
