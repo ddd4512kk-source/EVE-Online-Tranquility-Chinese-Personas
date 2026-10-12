@@ -1,0 +1,40 @@
+{
+  "id": 2115847829,
+  "name": "virustao wang",
+  "birthday": "2019-11-08T14:51:54Z",
+  "current_corporation": {
+    "id": 98547771,
+    "name": "B.O.P Supplication For Glorious",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98547771,
+      "name": "B.O.P Supplication For Glorious",
+      "ticker": ".BOP"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-11-08T14:52:00Z",
+      "end": "2019-11-11T12:35:00Z"
+    },
+    {
+      "corporation_id": 98547771,
+      "name": "B.O.P Supplication For Glorious",
+      "npc": false,
+      "start": "2019-11-11T12:35:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

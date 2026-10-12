@@ -3,7 +3,7 @@ character_id: 2122159532
 cn_name: 水母
 aliases: [Ezburra]
 epithet: 替芙出头，一路出到芙进了联盟黑名单。
-tags: [00区, DC]
+tags: ["00区", "DC", "RS21K"]
 ---
 
 水母，游戏名 Ezburra fofo，QQ 上就叫 Ezburra。2024 年 3 月建号，头一年在创世（ChuangShi），后来去对面 PH 的 Fox of Resistance 待了三个月，2025 年 7 月进了混沌（Chaos arbiter，CACX）。

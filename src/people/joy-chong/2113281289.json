@@ -1,0 +1,61 @@
+{
+  "id": 2113281289,
+  "name": "j0y Chong",
+  "birthday": "2017-10-04T02:35:54Z",
+  "current_corporation": {
+    "id": 98540583,
+    "name": "Special law enforcement department",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98540583,
+      "name": "Special law enforcement department",
+      "ticker": "SARD."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2017-10-04T02:36:00Z",
+      "end": "2018-05-03T13:36:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-05-03T13:36:00Z",
+      "end": "2020-04-17T06:33:00Z"
+    },
+    {
+      "corporation_id": 1000111,
+      "name": "Aliastra",
+      "npc": true,
+      "start": "2020-04-17T06:33:00Z",
+      "end": "2021-12-01T10:52:00Z"
+    },
+    {
+      "corporation_id": 98588384,
+      "name": "YeLuo-XingHai",
+      "npc": false,
+      "start": "2021-12-01T10:52:00Z",
+      "end": "2025-11-11T00:06:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2025-11-11T00:06:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

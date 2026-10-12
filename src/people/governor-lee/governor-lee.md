@@ -3,7 +3,7 @@ character_id: 2116026221
 cn_name: 李将军
 aliases: [Governor Lee, GovLee, 曹丕李, 曹呸李, General Lee]
 epithet: 带着两万多老外喊 Ave，他坚称那是罗马礼。
-tags: [高安, 00区, 低安, 著名FC, 肃正]
+tags: ["高安", "00区", "低安", "著名FC", "肃正", "ABSOD"]
 ---
 
 Governor Lee，贴吧号 GovLee🍺，吧里叫他李将军，也有人叫他曹丕李。2019 年春，他还用一个叫 Governor Mrlee 的号在 Fade 替租地联盟招人，被吧友追问“到底是租地团还是主权团”，答曰“目前租地，目标主权”（[帖子](https://tieba.baidu.com/p/6065284894)）。几天后，他的小号 Governor Alt Mrlee 开了个军团，叫 Absolute Order。同年 12 月他建了 Governor Lee，第二天进团当 CEO，此后七年没挪过窝。
@@ -24,6 +24,8 @@ Absolute Order，他自己的解释是“肃杀的秩序”；后来为了好记
 李将军的角色简介第一行挂着 CCP 官推的链接：World First FW level 5 Supression。2023 年 11 月，肃正在 Faction Warfare 里打出全服第一个五级镇压，官方点了名。
 
 他自己的 KB 是 2221 杀、两万亿 ISK，用得最多的船是监视者（902 次）。简介里还挂着他的 FC 总览设置，名字叫“We Triumphe”；2024 年 2 月，他在 Camal、Sieh、Y-MPWL 三座 Keepstar 的 KM 上都有名字（[1](https://zkillboard.com/kill/115543432/)、[2](https://zkillboard.com/kill/115593836/)、[3](https://zkillboard.com/kill/115743779/)），那个月击杀进账 8900 亿。
+
+李将军的前线也不只在高安和主权招募帖里。2023 年 5 月 27 日，[Old Man Star 的大型战役](https://br.evetools.org/br/64717fa0afc8fc4c3fe95e24)各方损失约 564.53B，他在 Absolute Honor 一方驾驶[夜鹰](https://zkillboard.com/kill/109208202/)参战，被原报分进 FRT、帝国等所在的第二组。头衔把几万名官兵挂在自己名下，这一天却是一条具体的指挥舰座位，不是把几万个人的军功全装进个人简介。半年后五级镇压获官方点名，才又有了另一张宣传牌；从早年的十人招募到这些实际集结，肃正的扩张故事里，老板自己也确实开过船。
 :::
 
 ::: 红料 替肃正洗清拆碑冤案

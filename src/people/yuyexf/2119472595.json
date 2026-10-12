@@ -1,0 +1,40 @@
+{
+  "id": 2119472595,
+  "name": "yuyexf",
+  "birthday": "2021-12-17T10:39:20Z",
+  "current_corporation": {
+    "id": 98190062,
+    "name": "Peoples Liberation Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98190062,
+      "name": "Peoples Liberation Army",
+      "ticker": "P.L.A"
+    },
+    "alliance": {
+      "id": 1354830081,
+      "name": "Goonswarm Federation",
+      "ticker": "CONDI"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2021-12-17T10:39:00Z",
+      "end": "2024-12-22T12:57:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2024-12-22T12:57:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

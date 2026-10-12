@@ -3,7 +3,7 @@ character_id: 2121593859
 cn_name: 火锅
 aliases: [Texas火锅, Texas, Zeus008, Yuki 007, 火锅大酱, 希大酱Yuki]
 epithet: 招人先问能不能十二开。
-tags: [00区, 低安, 故土, B站]
+tags: ["00区", "低安", "故土", "B站", "T.X.R"]
 ---
 
 火锅，游戏主号 Zeus008，角色头衔直接写着“火锅，德克萨斯”；现任 Texas of Requiem（后改名 Texas.）的 CEO。B 站叫 Texas火锅，贴吧旧用户名是“希大酱Yuki”。2024 年在帝国系的 Bronze Fury 发收割帖、招人，后来把战场搬到故土；帖子从“今天又吃了什么”一路写成“你至少得有十二个号”。

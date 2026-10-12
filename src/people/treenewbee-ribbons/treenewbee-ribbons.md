@@ -3,7 +3,7 @@ character_id: 2113831237
 cn_name: 李疯子
 aliases: [Treenewbee Ribbons, 李老板, 李憨子, Reabbions]
 epithet: 两个月爆了三条泰坦，一条比一条贵。
-tags: [00区]
+tags: ["00区", "MO."]
 ---
 
 李疯子，游戏名 Treenewbee Ribbons，名字取自高达 00 里的反派利冯兹·阿尔马克（Ribbons Almark，中文圈俗称“李疯子”）——前半截 Treenewbee 则是“吹牛逼”的中式英语。这两半名字，他后来都兑现了。

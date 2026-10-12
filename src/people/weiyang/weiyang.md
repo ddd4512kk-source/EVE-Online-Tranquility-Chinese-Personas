@@ -3,7 +3,7 @@ character_id: 2119796256
 cn_name: 未央
 aliases: [WEIYANG, Weiyang Koraka, 可爱的灭帝, 九卡萌]
 epithet: 五千 PLEX 少个零，民法典跟着上线。
-tags: [FRT]
+tags: ["FRT", "DE LI"]
 ---
 
 未央，游戏名 WEIYANGWEIYANGWEIYANG，FRT 旗下的职业卡商，在中文频道卖月卡。这个号 2022 年 3 月 17 日出生，当天就进了 FRT 的 Beng beng Begn。贴吧账号“可爱的灭帝”。

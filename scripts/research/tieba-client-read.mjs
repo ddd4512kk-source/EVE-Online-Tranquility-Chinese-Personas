@@ -62,7 +62,7 @@ for (const reverse of orders) {
     }
   } catch (error) {
     errors.push({ order: name, message: error.message });
-    if (/HTTP (429|403|412)|请求预算/.test(error.message)) rateLimited = true;
+    if (/HTTP (429|403|412)|请求预算|挑战页/.test(error.message)) rateLimited = true;
   }
 }
 // 正倒序以 post ID 去重；每层单独记覆盖，不能以预览代替全文。
@@ -120,7 +120,7 @@ for (const post of posts.values()) {
       }
     } catch (error) {
       state.error = error.message; errors.push({ pid: state.pid, message: error.message });
-      if (/HTTP (429|403|412)|请求预算/.test(error.message)) rateLimited = true;
+      if (/HTTP (429|403|412)|请求预算|挑战页/.test(error.message)) rateLimited = true;
     }
   }
 }

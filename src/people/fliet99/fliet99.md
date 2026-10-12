@@ -3,7 +3,7 @@ character_id: 91254848
 cn_name: 舵主
 aliases: [fliet99]
 epithet: 两家蓝加的钱都收，收完连雇主一起官宣。
-tags: [00区, 图万·奥斯神殿]
+tags: ["00区", "OSYTM"]
 ---
 
 舵主，游戏名 fliet99，头衔“舵主☆黑PA”。他是 OSY 军团 **Temple of Tuvan Orth**（图万·奥斯神殿，ticker OSYTM）的 CEO，军团四百五十人，是 Guardians of Tranquility 联盟的执政军团。早年在 FRT 的伏羲待了三年半，2020 年转到北极星的佛系军团 Buddha Like，同年 8 月接手图万·奥斯神殿。

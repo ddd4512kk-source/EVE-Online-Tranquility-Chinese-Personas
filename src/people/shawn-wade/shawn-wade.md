@@ -3,7 +3,7 @@ character_id: 2115855515
 cn_name: 肖恩
 aliases: [Shawn wade, 忏悔人柱力]
 epithet: 蜜蜂补损单十一条，八条是我死的。
-tags: [PLA, 蜜蜂]
+tags: ["蜜蜂", "P.L.A"]
 ---
 
 肖恩，游戏名 Shawn wade，角色头衔“肖恩#”加一串数字。2019 年 11 月建号，从彩虹天马中队（Rainbow Pegasus Squadron）起步，一度做到军团招新组；之后在 AOM 系军团、帝皇之镰、Bronze Fury 一路转过来，2026 年 4 月又回到 PLA。他是[荣耀](../1664583033/)那份《PLA SB RECORD》里点名的五人之一，不过册子只列了名字，没写缘由。

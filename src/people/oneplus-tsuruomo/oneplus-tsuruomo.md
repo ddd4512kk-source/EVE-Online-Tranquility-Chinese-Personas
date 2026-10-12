@@ -3,7 +3,7 @@ character_id: 2113461373
 cn_name: 东梧
 aliases: [OnEplus Tsuruomo]
 epithet: 手册发起人，摸鱼点名榜常驻嘉宾。
-tags: [00区, FRT, 伏羲]
+tags: ["00区", "FRT", "FUXI"]
 ---
 
 OnEplus Tsuruomo，东梧，伏羲管理、新人手册发起人。管理身份见[2018 年伏羲招募帖](https://forums.winterco.org/t/topic/14508)，而他的传世评语，来自同僚[林克](../2113219719/)——篇幅不长，火力倒很集中。

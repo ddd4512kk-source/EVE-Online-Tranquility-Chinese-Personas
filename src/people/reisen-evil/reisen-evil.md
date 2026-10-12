@@ -3,7 +3,7 @@ character_id: 91874271
 cn_name: 兔总
 aliases: [Reisen Evil, 腹黑兔, 91兔先生, ENPL兔总]
 epithet: ENPL 之主，被他打爆还能三倍赔付；“Quit EVE = Win EVE”。
-tags: [00区, DC]
+tags: ["00区", "DC", "EN-PL"]
 ---
 
 兔总，游戏名 Reisen Evil，2012 年 4 月建号，欧服华人里的老资格：第一家军团是紫禁城（The Forbidden City）里的功夫流氓（Kung Fu Roguer），2013 年底进过 FRT 的 TCF，2015 年在伏羲待过半年。2016 年 4 月，他自己开了一家军团——**Eternity Pavilion**，圈内叫 **ENPL**。

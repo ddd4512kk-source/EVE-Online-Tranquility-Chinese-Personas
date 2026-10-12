@@ -3,7 +3,7 @@ character_id: 2114161533
 cn_name: 季火掌
 aliases: [huozhang ji, 火掌, 炉管第一, 火鸡掌, 火鸡, 掌火季]
 epithet: 催管理交水电费被禁言，论坛一口气急了三十六次。
-tags: [00区, FRT]
+tags: ["00区", "FRT", "AWSL."]
 ---
 
 季火掌，游戏名 huozhang ji，名字借的是魔兽世界里那位火金派熊猫人大师；贴吧账号叫“炉管第一”，自己在帖子里认过：“我是huozhang ji 23333”。2018 年 6 月建号，先在采星者混了一年半，2020 年 2 月进了[山竹](../2113053705/)的 AWSL（Advanced Weapon Supplement League），跟着挂进 FRT，在团里当总监。

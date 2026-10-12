@@ -1,12 +1,14 @@
 ---
 character_id: 2115476544
 cn_name: 晓天
-aliases: [Guifangq Hate]
+aliases: [Guifangq Hate, Guifangq]
 epithet: 神使没能回港，名字倒是留在两边账上。
-tags: [低安]
+tags: ["低安", "AVDOT"]
 ---
 
 晓天，游戏名 Guifangq Hate，角色头衔直写“晓天”。如今在 Snuffed Out 的 Infinity Avenger；2026 年 Obe 大战，先上了别人的旗舰 KM，自己的神使也没能回家。
+
+另一个号 Guifangq 也挂着“晓天”的头衔，如今同在 Infinity Avenger。他在这个号的简介里挂满击杀链接，中间直写“杀杀杀frt”，末尾又喊“我勒个官员元帅啊”。别人把战绩墙当履历，他把它写成了喊话筒。
 
 ::: 红料 别人的 KM，自己的神使
 zKillboard 记录 670 次参与击杀，累计约 4.08 万亿 ISK，单杀 2 次。最常开神示级海军型，常去 Turnur、Ahbazon、Sahtogas 一带；日常玩法偏低安舰队与无畏，大仗只是这份履历里最贵的几页。

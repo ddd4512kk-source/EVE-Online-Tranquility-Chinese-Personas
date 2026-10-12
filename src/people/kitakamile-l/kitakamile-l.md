@@ -3,7 +3,7 @@ character_id: 2115947381
 cn_name: 北上
 aliases: [KitakamiLE L, 北上♂又懒床℃, 北上Sama]
 epithet: 课堂教新人，骂完顺便招新人。
-tags: [00区, 高安, FRT, Arknights.]
+tags: ["00区", "高安", "FRT", "AMIYA"]
 ---
 
 北上，KitakamiLE L，神韵星空舰队时期开过新人语音课，也在贴吧摆过答疑摊。这个老师讲得了合同、配船与导弹，等问题问得太细，又会把学生赶去对线。

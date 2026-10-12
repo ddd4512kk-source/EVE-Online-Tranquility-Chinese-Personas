@@ -1,3 +1,4 @@
+import "../runtime.mjs";
 import { researchFetch } from "./request-guard.mjs";
 // 人物画像工具：按预算汇总 research-method.md 第二节第 1、2 步的数据，输出 Markdown。
 //
@@ -48,13 +49,13 @@ const out = [];
 const p = (s = "") => out.push(s);
 
 // ---------- ESI ----------
-const ch = await json(`https://esi.evetech.net/latest/characters/${id}/`);
 const peopleDir = path.resolve(import.meta.dirname, "../../src/people");
 const cachePath = fs.readdirSync(peopleDir, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
   .map((entry) => path.join(peopleDir, entry.name, `${id}.json`))
   .find((file) => fs.existsSync(file));
 let cache = cachePath ? JSON.parse(fs.readFileSync(cachePath, "utf8")) : null;
+const ch = await json(`https://esi.evetech.net/latest/characters/${id}/`);
 if (!cache) {
   // 还没建列传的人没有缓存：直接读 EveWho 雇佣记录
   const ew = await json(`https://evewho.com/api/character/${id}`);

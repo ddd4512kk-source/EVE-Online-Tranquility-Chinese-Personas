@@ -3,6 +3,7 @@
 //   npm run find -- "Water Sky"
 //   npm run find -- https://evewho.com/character/1996305710
 
+import "./runtime.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";

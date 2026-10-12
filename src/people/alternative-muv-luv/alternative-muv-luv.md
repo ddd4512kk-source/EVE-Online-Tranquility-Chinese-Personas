@@ -3,7 +3,7 @@ character_id: 95072457
 cn_name: 黄鳝
 aliases: [Alternative Muv-Luv]
 epithet: AT 冠军队的创始成员，WWB2 前半场在蜜蜂那边。
-tags: [00区, 虫洞, 凌晨四点玩原神, AT19冠军, 低安]
+tags: ["00区", "虫洞", "AT19冠军", "低安", "HO.YO"]
 ---
 
 黄鳝，游戏名 Alternative Muv-Luv（取自同名游戏），2014 年建号，2018 年才真正上线。先后在低安的 End of Natural Lifetime、蜜蜂、虫洞联盟 Scary Wormhole People、INIT 待过，2021 年进 FRT，如今在“凌晨四点玩原神的 25 岁男人”。角色简介是空的。

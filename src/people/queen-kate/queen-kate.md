@@ -3,7 +3,7 @@ character_id: 2115781945
 cn_name: 凯特
 aliases: [凯特女王, KT, Dispredestination 凯特]
 epithet: 头衔是女王陛下，干的是史官和群管的活。
-tags: [00区, FRT, "FRT Holding"]
+tags: ["00区", "FRT", "FRTHD"]
 ---
 
 Queen Kate，人称凯特，QQ 群里叫“Dispredestination 凯特”，简称 KT。游戏头衔写的是：

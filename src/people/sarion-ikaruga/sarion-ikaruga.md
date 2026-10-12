@@ -3,7 +3,7 @@ character_id: 2113386745
 cn_name: 斑鸠
 aliases: [Sarion Ikaruga, Sarion]
 epithet: 简介第一句 Be Humble，第二句 PVP 教程指向退出游戏。
-tags: [00区, DC, AT19冠军]
+tags: ["00区", "DC", "AT19冠军", "MYGO."]
 ---
 
 斑鸠，游戏名 Sarion Ikaruga，2017 年建号，华人比赛圈 F1 Monkey.（Esports Petopia）的老队员，2023 年作为“雇佣兵”加入 FRT 的 AT19 阵容并夺冠。早年挂过 Black Legion. 和 Snuffed Out，2026 年 8 月转进 DC 的 It's MyGO.。

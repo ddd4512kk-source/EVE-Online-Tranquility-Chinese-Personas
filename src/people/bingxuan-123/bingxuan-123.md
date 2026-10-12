@@ -3,7 +3,7 @@ character_id: 2114130095
 cn_name: 冰轩
 aliases: [bingxuan 123]
 epithet: 头衔“活菩萨”，没拦住团里开银行，也没拦住团裂成两半。
-tags: [00区, FRT]
+tags: ["00区", "FRT", "SG.CN"]
 ---
 
 冰轩，游戏名 bingxuan 123，2018 年建号，从那年起就是星尘守护（Stardust-Guardian，SGCN）的 CEO。星尘守护 2018 年先挂 RR，同年 6 月转进 FRT，后来长成了 FRT 第二大的成员军团。游戏头衔：

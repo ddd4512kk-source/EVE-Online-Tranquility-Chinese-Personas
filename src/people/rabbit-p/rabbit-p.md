@@ -3,7 +3,7 @@ character_id: 92507639
 cn_name: 兔仔猪
 aliases: [兔宰猪, Rabbit P, 兔叔, B站]
 epithet: 二百九十篇版本翻译，技能加成写在简介里：打字速度 +100%。
-tags: [00区, FRT, 女娲, B站]
+tags: ["00区", "FRT", "B站", "NUWA"]
 ---
 
 兔仔猪，游戏头衔写作“兔宰猪”，游戏名 Rabbit P，2012 年建号。盘古时期在 Die Valkyrja、大花的 23rd Tier Overseer's Personal Effects，2014 年 4 月进女娲，十二年没挪窝。他和[羊叔](../92484561/)是凛冬多年的版本更新翻译。

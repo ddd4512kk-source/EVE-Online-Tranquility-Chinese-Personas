@@ -3,7 +3,7 @@ character_id: 2121812924
 cn_name: 八云
 aliases: [Matasaburo, matasaburo, 夜鹿]
 epithet: 卖号是假的，追问老鹰是真的。
-tags: [00区, FRT]
+tags: ["00区", "FRT", "JCYU"]
 ---
 
 八云，收录角色 Matasaburo，头衔“夜鹿”。这个号 2023 年底进了 FRT 的 JCYU；更早在[老鹰](../2118344406/)的玄武学院学习、碰过低安钉子的是他的旧角色。2024 年 4 月，玄武与朱雀把他当成换团还留群的可疑人物，他便开了一篇[《进来吃个 IGC 旗下朱雀战术小队的瓜》](https://tieba.baidu.com/p/8968264055)，把自己怎样入门、怎样想走、怎样被怀疑，一楼楼讲了出来。

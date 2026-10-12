@@ -2,7 +2,7 @@
 character_id: 2115105670
 aliases: [QY]
 epithet: 俄洛巴斯开了火，也结了账。
-tags: [低安]
+tags: ["低安", "CYCIE"]
 ---
 
 July Karin，角色头衔“QY”，曾在 FRT 的 Stardust-Guardian 活动，如今跟着 The Skies Descend 在 Snuffed Out。2026 年 10 月的 Obe 大战，他开着俄洛巴斯参战，战果和损失都留下了名字。

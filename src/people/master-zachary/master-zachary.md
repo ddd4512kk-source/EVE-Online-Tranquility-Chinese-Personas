@@ -3,7 +3,7 @@ character_id: 2114270880
 cn_name: 扎克
 aliases: [Master Zachary]
 epithet: 怯薛前老板，低安养老团新招牌。
-tags: [00区, "Obsidian Armament"]
+tags: ["00区", "OADS."]
 ---
 
 扎克，游戏名 Master Zachary，头衔就两个字：“扎克”。他曾任 FRT 旗下怯薛（KheshigFleet，取名自成吉思汗的禁卫军）CEO。社区说法称，他当初是受[N老板](../1618197191/)委托管理怯薛，N老板原本打算经由扎克把怯薛经营成直属军团。

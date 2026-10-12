@@ -3,7 +3,7 @@ character_id: 2113438156
 cn_name: Zero煌
 aliases: [ZeroHuang SS, Zero煌S, 元気😺布偶零ლ, 剑的天成]
 epithet: 十年攒出一条势力泰坦，播放量输给一块枪皮。
-tags: [00区, FRT, B站]
+tags: ["00区", "FRT", "B站", "SARD."]
 ---
 
 Zero煌，游戏名 ZeroHuang SS，头衔“Zero煌”，角色简介只挂了一个 B 站主页——UP 主 [Zero煌](https://space.bilibili.com/8370281)。2017 年 11 月建号，2019 年 1 月才进 RR，三个月后转进[嗜血](../2113483277/)的 Special law enforcement department（SARD.），跟着它从 RR 到 The Therapists，2019 年 11 月进 FRT，一待就是七年，再没换过军团。
@@ -19,6 +19,8 @@ Zero煌，游戏名 ZeroHuang SS，头衔“Zero煌”，角色简介只挂了�
 - 2026 年 4 月[《艾蒂斯超旗战 FRT 泰坦视角》](https://www.bilibili.com/video/BV1E5DkBrEuh)：“全程打了 20 多个小时”，剪辑软件崩了，换两个软件才剪出来。
 
 那个月他的 KB 击杀价值一下子到了 **1.3 万亿 ISK**，生涯 1365 杀、2.42 万亿，一半以上是开狂热打出来的。损失 129 次，总共 131 亿——泰坦一条没丢过。
+
+Zero煌把 M2 越狱和旗舰视角剪给别人看，到了 2026 年 4 月 25 日，本人又驾驶[帕拉丁](https://zkillboard.com/kill/135009043/)参加 FRT 一方的[北方大型战役](https://br.evetools.org/br/69ed1bc7bcb5710012f06fd3)，整窗损失约 969B。七年没换 SARD，战场却从源泉的泰坦局转到北方家门口；会战视频不是只有围观镜头，人物自己也还在按集结换船。泰坦、无畏与这天的掠夺舰放在一处，才能看见“旗舰 UP”的另一面：频道里有大场面，日常机库里仍得准备常规队的座位。
 :::
 
 ::: 红料 十年一条势力泰坦

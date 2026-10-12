@@ -3,7 +3,7 @@ character_id: 2113316712
 cn_name: Akagi
 aliases: [Akagi Mic, あかぎ]
 epithet: 龙裔 CEO，一句“鹅神 nb”是拿女装换的。
-tags: [00区, FRT]
+tags: ["00区", "FRT", "D.N.E"]
 ---
 
 Akagi，游戏名 Akagi Mic，龙裔（Dragonborn of New Eden，DNE）的 CEO。2017 年 10 月建号，12 月进龙裔，九年没换过公司。角色简介是一行“あかぎ”，加两句谁也看不懂的外文。
@@ -14,6 +14,8 @@ Akagi，游戏名 Akagi Mic，龙裔（Dragonborn of New Eden，DNE）的 CEO。
 zKillboard 生涯击杀 3558，打掉 **4.25 万亿 ISK**，自己只损失 380 亿。用得最多的是休津、狂热、缪宁。
 
 2018 年 5 月 20 日，C-LTXS 一战，KM 上是一排俄洛巴斯、神使泰坦；Akagi 那个月击杀 **1.19 万亿**。
+
+2026 年 4 月 25 日，龙裔老板驾驶[帕拉丁](https://zkillboard.com/kill/135002243/)，在 FRT 一方进入[约 969B 的北方大型战役](https://br.evetools.org/br/69ed1bc7bcb5710012f06fd3)。军团招新说无强制出勤、现实生活第一，老板自己仍有这种重船上场的日子。以前休津、狂热、缪宁用得多，这一页把掠夺舰也接进九年老军团的生活。团风可以松，战线到家门口时总还会有人出门；Akagi 的名片没有写长篇兵法，战报倒给了他一张比沉默更具体的座位。
 :::
 
 ::: 红料 龙裔的团风

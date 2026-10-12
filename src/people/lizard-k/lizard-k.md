@@ -3,7 +3,7 @@ character_id: 983162808
 cn_name: LK
 aliases: [LIZARD K, LIZARD MK]
 epithet: 头衔封了三公一国公，简介自挂东南枝五次。
-tags: [00区, 图万·奥斯神殿]
+tags: ["00区", "OSYTM"]
 ---
 
 LK，游戏名 LIZARD K，2009 年建号，熊猫、Dragon Warrior.、功夫流氓一路走来的老人，盘古时期在老男人公司（Dear Old Loong Man），后来在 FRT 的伏羲、TCF 和闪电。如今在 OSY 的图万·奥斯神殿（Temple of Tuvan Orth）——那家军团的 CEO 是[舵主](../91254848/)。
@@ -17,7 +17,7 @@ LK 的老本行在 OSY，KB 里灵感最多，2021 年 1 月 3 日的 [M2-XFE �
 :::
 
 ::: 红料 堡垒丢了，赔款到账
-2020 年贴吧那篇[《扒一扒TCF军团现任ceo D manson其人》](https://tieba.baidu.com/p/6619933254)，第 28 楼代 Cristiano LaoBe 讲了一笔账：他和阿龙想挖月矿，向 [D哥哥](../690534767/)要 OSY 附近的堡垒，D 说免费给，还顺手送了 K-M 的两座。后来 S-E 的堡垒被打、联盟放弃防守，D 却通知他们要向 LK 赔钱——两人最后分摊了 **5B ISK**。楼里的截图上，也看得到 lizard k 的名字。
+2020 年贴吧那篇[《扒一扒TCF军团现任ceo D manson其人》](https://tieba.baidu.com/p/6619933254)，第 28 楼代 Cristiano LaoBe 讲了一笔账：他和[阿龙](../1902361257/)想挖月矿，向 [D哥哥](../690534767/)要 OSY 附近的堡垒，D 说免费给，还顺手送了 K-M 的两座。后来 S-E 的堡垒被打、联盟放弃防守，D 却通知他们要向 LK 赔钱——两人最后分摊了 **5B ISK**。楼里的截图上，也看得到 lizard k 的名字。
 
 堡垒是别人白领的，丢了是别人赔的，钱落在 LK 手里。一位自封太尉的老兵，从头到尾没露面，就把一座失守的堡垒算成了稳赚。权臣做生意，大概就是这个样子。
 :::

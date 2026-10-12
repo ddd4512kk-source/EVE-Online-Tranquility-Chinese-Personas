@@ -1,0 +1,47 @@
+{
+  "id": 2121450438,
+  "name": "qiaobu123",
+  "birthday": "2023-07-23T11:08:21Z",
+  "current_corporation": {
+    "id": 98742946,
+    "name": "Zhuque squad",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98742946,
+      "name": "Zhuque squad",
+      "ticker": "KR.S"
+    },
+    "alliance": {
+      "id": 99003995,
+      "name": "Invidia Gloriae Comes",
+      "ticker": "IGC"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2023-07-23T11:08:00Z",
+      "end": "2023-07-23T12:37:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2023-07-23T12:37:00Z",
+      "end": "2024-01-08T12:57:00Z"
+    },
+    {
+      "corporation_id": 98742946,
+      "name": "Zhuque squad",
+      "npc": false,
+      "start": "2024-01-08T12:57:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

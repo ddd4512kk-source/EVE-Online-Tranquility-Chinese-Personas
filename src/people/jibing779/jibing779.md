@@ -3,7 +3,7 @@ character_id: 2116540192
 cn_name: 极冰
 aliases: [jibing779, jibing779-G1, jibing779-G2, 极冰丶779, 极冰779, B站]
 epithet: 一个人一支舰队，连白给都是自己小号亲手送的。
-tags: [00区, FRT, 伏羲, 高安, 低安, B站]
+tags: ["00区", "FRT", "高安", "低安", "B站", "SSFSY"]
 ---
 
 极冰，B 站 UP 主“极冰丶779”。游戏里他不是一个人，是一串号：主号 jibing779 之外，还有 G1、G2、2、3、4、C1、D1、D2、Y1、Y2、Y4，名字全是 jibing779 开头，头衔多半写着“极冰”。主号 2020 年 3 月建号，当天进了 FRT 的星空舰队（Starry Sky Fleet）；真正杀人的两个号 G1、G2，2021 年进了 FRT 大学旗下的三体军事学院（Trisolaris Military Academy），2024 年 9 月一起转进伏羲（Fuxi Legion）。

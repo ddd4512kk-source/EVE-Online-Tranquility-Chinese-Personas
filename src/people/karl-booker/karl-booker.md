@@ -3,7 +3,7 @@ character_id: 2114223298
 cn_name: 隐星白嫖王
 aliases: [Karl Booker, 艾瑞]
 epithet: 泰坦扣在手，七十亿还得等。
-tags: [00区, DC]
+tags: ["00区", "DC", ".HSL."]
 ---
 
 Karl Booker，头衔一串：

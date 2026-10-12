@@ -4,29 +4,43 @@ import { researchFetch } from "./request-guard.mjs";
 // 加 --images <最多楼层> <输出目录> 时，同时下载前若干楼的原图，供人工看截图（截图常有角色名、聊天记录和雇佣记录）。
 // 文末汇总正文里贴出的游戏聊天记录（[ 2025.02.28 13:44:48 ] 某某 > ……）的发言人，作者自己的角色名常在其中。
 // 输出可能含现实隐私，只在临时目录使用，整理后再归档。
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 
 const args = process.argv.slice(2);
 const file = args[0];
 const maxChars = Number(args[1] && !args[1].startsWith("--") ? args[1] : 0) || Infinity;
 const imageIndex = args.indexOf("--images");
-if (!file) {
-  console.error("用法：node scripts/research/tieba-client-dump.mjs <帖子.json> [每层最多字数] [--images <最多楼层> <输出目录>]");
+if (!file || args.includes('--help')) {
+  console.log("用法：node scripts/research/tieba-client-dump.mjs <帖子.json> [每层最多字数] [--floors <起始楼层:结束楼层>] [--images <最多楼层> <输出目录>]");
+  process.exit(file ? 0 : 1);
+}
+const floorIndex = args.indexOf('--floors');
+const range = floorIndex >= 0 ? args[floorIndex + 1]?.match(/^(\d+):(\d+)$/) : null;
+if (floorIndex >= 0 && (!range || Number(range[1]) < 1 || Number(range[2]) < Number(range[1]))) {
+  console.error('--floors 需要有效的起始楼层:结束楼层，如 31:60');
   process.exit(1);
 }
 
 const data = JSON.parse(await readFile(file, "utf8"));
+if (!data.pages?.length && !data.reverse_pages?.length) {
+  console.error('没有取得主楼；请查看原始文件的 errors/coverage，不能当作无料。');
+  process.exit(2);
+}
 const text = (content) =>
   (content || []).map((part) => part.text || (String(part.type) === "3" ? "[图]" : part.c || "")).join("").replace(/\s+/g, " ");
 
 const chatLine = /\[\s*\d{4}[./-]\d{2}[./-]\d{2}[^\]]*\]\s*([^\[\]>]{2,40}?)\s*>/g;
 const speakers = new Map();
 
-console.log(`## ${data.pages[0].thread?.title} ${data.source}`);
+console.log(`## ${(data.pages?.[0] || data.reverse_pages?.[0]).thread?.title || '未取得标题'} ${data.source}`);
 if (data.coverage) console.log(`覆盖：${JSON.stringify(data.coverage.orders)}；主楼 ${data.coverage.main_posts}；楼中楼 ${data.coverage.subposts_fetched}；完整 ${data.complete}`);
-const pages = [...data.pages, ...(data.reverse_pages || [])];
+const pages = [...(data.pages || []), ...(data.reverse_pages || [])];
 const users = Object.fromEntries(pages.flatMap((page) => (page.user_list || []).map((user) => [user.id, `${user.name_show || user.name}（uid ${user.id}，原名 ${user.name || "未提供"}）`])));
-const posts = [...new Map(pages.flatMap((page) => page.post_list).map((post) => [String(post.id), post])).values()].sort((a, b) => Number(a.floor) - Number(b.floor));
+const posts = [...new Map(pages.flatMap((page) => page.post_list || []).map((post) => [String(post.id), post])).values()]
+  .sort((a, b) => Number(a.floor) - Number(b.floor))
+  .filter(post => !range || Number(post.floor) >= Number(range[1]) && Number(post.floor) <= Number(range[2]));
+if (range) console.log(`本次仅输出第 ${range[1]}–${range[2]} 楼及其楼中楼；其他楼层尚未在此输出。`);
 for (const post of posts) {
     const date = new Date(Number(post.time) * 1000).toISOString().slice(0, 10);
     const author = users[post.author_id] || post.author?.name_show || post.author_id;
@@ -64,9 +78,15 @@ if (imageIndex >= 0) {
       for (const part of item.content || []) {
         const url = part.origin_src || part.big_cdn_src || part.cdn_src;
         if (!url) continue;
+        // 输出目录可能复用；只复用同一 URL，避免同楼层编号串到另一帖的图。
+        const sourceKey = createHash('sha256').update(url).digest('hex').slice(0, 16);
+        const name = `${outDir}/${item.prefix}-${index++}-${sourceKey}.jpg`;
+        if (await access(name).then(() => true, error => { if (error.code === 'ENOENT') return false; throw error; })) {
+          console.error(`图片已缓存 ${name}`);
+          continue;
+        }
         const response = await researchFetch(url, { headers: { "User-Agent": "Mozilla/5.0" }, signal: AbortSignal.timeout(30000) });
         if (!response.ok) { console.error(`图片 HTTP ${response.status}：${url}`); process.exitCode = 2; continue; }
-        const name = `${outDir}/${item.prefix}-${index++}.jpg`;
         await writeFile(name, Buffer.from(await response.arrayBuffer()));
         console.error(`图片 ${name}`);
       }

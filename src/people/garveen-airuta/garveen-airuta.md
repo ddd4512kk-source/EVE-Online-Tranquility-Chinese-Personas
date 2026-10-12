@@ -3,7 +3,7 @@ character_id: 2114279817
 cn_name: 慕容
 aliases: [Garveen, Garveen Doomsday]
 epithet: 联赛冠军，简介里只挂了一条邀请链接。
-tags: [00区, FRT, 著名FC, 伏羲, AT19冠军]
+tags: ["00区", "FRT", "著名FC", "AT19冠军", "FUXI"]
 ---
 
 慕容，游戏名 Garveen Airuta，伏羲军团（Fuxi Legion）成员，FRT 的 FC。游戏头衔只有一句：
@@ -35,6 +35,8 @@ zKillboard 生涯击杀 11424，用得最多的是巴戈龙（763 次）——�
 2025 年 6 月 [Siseide](https://zkillboard.com/kill/128026903/)，慕容又驾驶监视者参与指挥；2026 年 4 月 [Atioth](https://zkillboard.com/kill/134566163/)，则驾驶勒维亚坦，重回泰坦战列。到同年 10 月各方损失约 6.64T 的 Obe，他既有[阔刀](https://zkillboard.com/kill/139046684/)记录，也有[神使](https://zkillboard.com/kill/139047582/)记录。重拦和泰坦都是慕容自己的战场经历，不能只看其中一个座位。
 
 比赛队要他，日常有人找他处理申诉，会战又在重拦、监视者和泰坦之间换工种。头衔只留一句 AT19 冠军，领奖台之外需要他干的活却不少。
+
+慕容在 2022 年 12 月 3 日的 [H-PA29 大型战役](https://br.evetools.org/br/638be6e5e878fa0c98ffbfa8)不只开了一条船。主号在 FRT 一方驾驶[阔刀](https://zkillboard.com/kill/105129018/)，已对应的小号 Garveen 则驾驶[监视者](https://zkillboard.com/kill/105127879/)参与指挥，整窗总损失约 413.16B。重拦和指挥船归到同一个人的经历里，才看得出这位“什么都管一点”的 FC 在做什么。次年 AT 冠军又添比赛队的一页；冠军头衔很整齐，早年的实际工作却常常是几个号、几种工种一起上，名片只有一句，机库忙得多。
 :::
 
 ::: 黑料 “依据是快递员的良心”

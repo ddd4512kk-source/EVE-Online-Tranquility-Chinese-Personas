@@ -3,7 +3,7 @@ character_id: 2113791371
 cn_name: 苹二
 aliases: [Apple Reborn, 锅大王]
 epithet: 自封锅大王；坐穿梭机运了四百五十亿。
-tags: [00区, DC]
+tags: ["00区", "DC", ".BOP"]
 ---
 
 苹二，游戏名 Apple Reborn，B.O.P Supplication For Glorious（BOP）的 CEO。头衔：

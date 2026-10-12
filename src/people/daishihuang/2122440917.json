@@ -1,0 +1,54 @@
+{
+  "id": 2122440917,
+  "name": "daishihuang",
+  "birthday": "2024-06-16T11:37:38Z",
+  "current_corporation": {
+    "id": 98809395,
+    "name": "Pyre of the Twenty-One",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98809395,
+      "name": "Pyre of the Twenty-One",
+      "ticker": "RS21K"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2024-06-16T11:38:00Z",
+      "end": "2024-06-17T06:45:00Z"
+    },
+    {
+      "corporation_id": 98568863,
+      "name": "Moriya Military Industry Complex",
+      "npc": false,
+      "start": "2024-06-17T06:45:00Z",
+      "end": "2025-02-23T11:32:00Z"
+    },
+    {
+      "corporation_id": 98794444,
+      "name": "It's MyGO.",
+      "npc": false,
+      "start": "2025-02-23T11:32:00Z",
+      "end": "2025-07-22T23:59:00Z"
+    },
+    {
+      "corporation_id": 98809395,
+      "name": "Pyre of the Twenty-One",
+      "npc": false,
+      "start": "2025-07-22T23:59:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

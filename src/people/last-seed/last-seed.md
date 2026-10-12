@@ -3,7 +3,7 @@ character_id: 2117196631
 cn_name: 种子
 aliases: [种皇, last-seed, 血狱冥竹]
 epithet: ping 不出人，先问是 FC 的锅还是 DC 的锅。
-tags: [00区, DC]
+tags: ["00区", "DC", "WAHE"]
 ---
 
 种子，游戏名 last-seed，角色头衔就是“种子”，粉丝尊称“种皇”，贴吧账号“血狱冥竹”。2020 年建号，一直在龙焰联盟（DC）一系：先是[随风](../2115325500/)的 Faceless.，2021 年 12 月自立门户，开了 WAAAGH THE HELLLL 军团（简称 WAHE，军团简介：“晨曦远征军，征战新的宇宙（DAWN）——使劲打，用力冲”）。

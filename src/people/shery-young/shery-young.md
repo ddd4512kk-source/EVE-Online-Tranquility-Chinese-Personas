@@ -1,7 +1,7 @@
 ---
 character_id: 2113251721
 epithet: 教程署名【H叔出品】，邀请链接是 Shery 的。
-tags: [00区, FRT, 伏羲]
+tags: ["00区", "FRT", "FUXI"]
 ---
 
 Shery Young，伏羲军团（Fuxi Legion）的老人，欧服华人新人的接线员。

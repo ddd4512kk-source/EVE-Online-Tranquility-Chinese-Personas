@@ -3,7 +3,7 @@ character_id: 91282906
 cn_name: 水哥
 aliases: [阿水]
 epithet: 炸弹负责扬名，星门负责断人财路。
-tags: [00区, FRT, 叶落星海]
+tags: ["00区"]
 ---
 
 水哥是 Water Brother，别与 Water Sky 水天串了传。早期华人战史里的阿水，出场道具往往很小：一条快船、一座星门，然后别人的大船便开始觉得宇宙太窄。

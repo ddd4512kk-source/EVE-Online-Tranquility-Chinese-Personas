@@ -3,7 +3,7 @@ character_id: 1901851878
 cn_name: Wind
 aliases: [Wind Spirits]
 epithet: 外交能续命，AFK能换朝。
-tags: [00区, FRT]
+tags: ["00区", "FRT", "I.R.P"]
 ---
 
 早年欧服华人诸侯里，Wind 是个很有用、也很让接班人头疼的人物。别人出门看总览，他出门大约先看通讯录：这一家能借住，那一家能借兵，谈成了便有地方落脚。至于谈完以后谁来上班，那是下一章的事。

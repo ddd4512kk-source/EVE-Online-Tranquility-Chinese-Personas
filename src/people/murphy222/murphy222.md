@@ -3,7 +3,7 @@ character_id: 2117806220
 cn_name: 墨菲
 aliases: [Murphy222, Murphy_eve, B站]
 epithet: 给新伊甸修史，正文每段结尾带个“喵”。
-tags: [00区, FRT, 行星之光, B站]
+tags: ["00区", "FRT", "B站", "LOTM"]
 ---
 
 墨菲，游戏名 Murphy222，B 站 UP 主 Murphy_eve。2020 年 11 月建号，先在兔子飞（Tu Zi Fei Corporation）待了一年，2021 年 10 月进了 FRT 的老牌军团行星之光（Light of the moon），此后再没挪过窝。角色简介只有一行英文：

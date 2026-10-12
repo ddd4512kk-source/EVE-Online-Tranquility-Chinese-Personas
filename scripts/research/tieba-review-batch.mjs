@@ -46,7 +46,7 @@ for (const {item,edge} of work) {
   child.on('error',reject);child.on('close',resolve);
  });
  const result=await json(file);
- if(result?.errors.some(e=>/HTTP (429|403|412)|请求预算/.test(e.message))) { console.error('【限流暂停】保留当前进度，下轮沿原目录续跑。');process.exitCode=2;break; }
+ if(result?.errors.some(e=>/HTTP (429|403|412)|请求预算|挑战页/.test(e.message))) { console.error('【限流暂停】保留当前进度，下轮沿原目录续跑。');process.exitCode=2;break; }
  if(status && !result) { console.error('未生成覆盖记录，停止，避免掩盖程序故障。');process.exitCode=2;break; }
  await pause(1500);
 }

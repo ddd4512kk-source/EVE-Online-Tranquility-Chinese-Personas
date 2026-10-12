@@ -3,7 +3,7 @@ character_id: 2121733921
 cn_name: 七七
 aliases: [Endless I Journey, 七七真的啥都不会]
 epithet: 刷怪的魔像打出一千六百杀，ID 还叫“啥都不会”。
-tags: [00区, DC, B站]
+tags: ["00区", "DC", "B站", "Y.S.S"]
 ---
 
 七七，游戏名 Endless I Journey，头衔“七七”，2023 年 10 月建号，从建号到现在只待过一家军团：DC（Dracarys.）旗下的 Why So Sage（YSS）。B 站 UP 主[七七真的啥都不会](https://space.bilibili.com/272419368)，十九个视频，三百多粉丝。
@@ -18,7 +18,7 @@ zKillboard 上，七七击杀 1682 次、打掉 1.0 万亿 ISK，其中**单杀 
 > DC旗下Why So Sage招新。
 > 想见识欧服华人最抽象的军团CEO吗？来YSS就对啦！
 
-最后一行是“风里雨里，YSS 等你”。至于那位“最抽象的 CEO”，YSS 现任 CEO 的头衔写着“YSS 最菜帅逼”，两边对得上。
+最后一行是“风里雨里，YSS 等你”。至于那位“最抽象的 CEO”，YSS 现任 CEO [2gg](../2119781938/)的头衔写着“YSS 最菜帅逼”，两边对得上。
 :::
 
 ::: 红料 刷标直面七十条隐轰

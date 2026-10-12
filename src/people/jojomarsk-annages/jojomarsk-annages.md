@@ -3,7 +3,7 @@ character_id: 2114301554
 cn_name: 两千
 aliases: ["2000", 大爷, jojomarsk]
 epithet: 头衔秦始皇，一统了创世的舰队，没统一创世的人心。
-tags: [00区, 创世, 著名FC]
+tags: ["00区", "著名FC", "CSQY"]
 ---
 
 两千，也写作 2000，人称“大爷”，游戏名 jojomarsk Annages，创世（ChuangShi）军团的指挥。游戏头衔：
