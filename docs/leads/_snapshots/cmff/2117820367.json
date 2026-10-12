@@ -1,0 +1,54 @@
+{
+  "id": 2117820367,
+  "name": "CMFF",
+  "birthday": "2020-11-09T06:37:11Z",
+  "current_corporation": {
+    "id": 98598483,
+    "name": "Stars Corporate Group",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598483,
+      "name": "Stars Corporate Group",
+      "ticker": "C-SCG"
+    },
+    "alliance": {
+      "id": 1900696668,
+      "name": "The Initiative.",
+      "ticker": "INIT."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2020-11-09T06:37:00Z",
+      "end": "2020-11-09T10:33:00Z"
+    },
+    {
+      "corporation_id": 98601618,
+      "name": "AMD YES ACG",
+      "npc": false,
+      "start": "2020-11-09T10:33:00Z",
+      "end": "2020-11-09T10:58:00Z"
+    },
+    {
+      "corporation_id": 1000181,
+      "name": "Federal Defense Union",
+      "npc": true,
+      "start": "2020-11-09T10:58:00Z",
+      "end": "2020-11-28T11:25:00Z"
+    },
+    {
+      "corporation_id": 98598483,
+      "name": "Stars Corporate Group",
+      "npc": false,
+      "start": "2020-11-28T11:25:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

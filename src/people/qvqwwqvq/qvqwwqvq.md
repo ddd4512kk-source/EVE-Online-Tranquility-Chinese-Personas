@@ -3,7 +3,7 @@ character_id: 2124654341
 cn_name: 娜乌西卡
 aliases: [西卡, qvqwwqvq, qvqwwqvq2, qvqwwqvq3, qvqwwqvq4, qvqwwqvq6]
 epithet: 群里等数据，出门找地方撒气。
-tags: [00区, KZU, 蓝章鱼]
+tags: ["00区", "蓝章鱼", "K Z U"]
 ---
 
 娜乌西卡，圈里也叫西卡，收录角色 qvqwwqvq。[炽天](../2120421439/)的 KZU 与昆仑争刷怪地盘、争赔偿时，他在自家群里有话，在外面也想找地方撒气。名牌挂着 KZU 和“西卡”，军团权限表里也有他的配置、机库权限；至于官名叫什么，不如先看他怎么说话。

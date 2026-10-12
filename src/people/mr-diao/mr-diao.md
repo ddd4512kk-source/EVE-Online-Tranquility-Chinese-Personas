@@ -3,7 +3,7 @@ character_id: 1387156123
 cn_name: 叼爷
 aliases: [MrDiao, 吊哥, diao哥, Not Mrdiao, DiaoMoney]
 epithet: 教程留给新人，录音留给苦主。
-tags: [00区, FRT, 高安, 强暴, 工业, 伏羲]
+tags: ["00区", "FRT", "高安", "强暴", "工业", "FUXI"]
 ---
 
 叼爷，游戏名 MrDiao。早年混紫禁城、盘古，后来待过 Goonswarm，也进过 CODE.、Safety.，再到伏羲。欧服华人圈里，读过他教程的人不少，听过他恶名的人也不少。
@@ -36,6 +36,8 @@ tags: [00区, FRT, 高安, 强暴, 工业, 伏羲]
 叼爷写过运输教程，也干过高安强暴，机库里却不只有拆货船的工具。2014 年 1 月的 [B-R5RB](https://zkillboard.com/kill/36255172/)，他开的是纳迦法：华人圈后来熟悉的那位老师傅，早就把无畏开进过泰坦成片爆炸的战场。七年后，2021 年 9 月的 [A1-AUH](https://zkillboard.com/kill/95187540/) 换成缪宁，仍在旗舰围猎里出勤。教新人怎么上手和自己上场，这是两门课，他都修过。
 
 到 2025 年 6 月，Lantorn 与 Siseide 接连开打，他把泽尼塔和[纳迦法级舰队型](https://zkillboard.com/kill/127954538/)送进 [Lantorn](https://zkillboard.com/kill/127953772/) 的无畏战场，又在 [Siseide](https://zkillboard.com/kill/128026903/) 驾驶兀鹫。2026 年 4 月的 Atioth，他既有[纳迦法](https://zkillboard.com/kill/134557132/)出勤，也有[勒维亚坦](https://zkillboard.com/kill/134566212/)参战记录；10 月的 Obe，[乌鸦](https://zkillboard.com/kill/139046684/)和[勒维亚坦](https://zkillboard.com/kill/139047592/)都开上了场。教别人运输、拆别人的运输船、给联盟开旗舰，叼爷的机库倒没按教材目录分科。恶名留在骗术与录音旧闻里，本事也确实留在战场上；最讨人嫌的地方，大概正是他真会的那些东西，既能拿来教人，也能拿来坑人。
+
+叼爷的实战不只发生在高安受害者旁边。2026 年 4 月 25 日，[北方战报](https://br.evetools.org/br/69ed1bc7bcb5710012f06fd3)总损失约 969B，他在 FRT 一方驾驶[纳迦法](https://zkillboard.com/kill/134999006/)进入 4-H 的交战，坐进了无畏舰。早年混过盘古、蜜蜂，后来写教程、打强暴、留下一堆恶名，这天又回到联盟大队的重船座位。教人怎么玩是真本事，怎样使用那份本事则有许多面孔；这场无畏出勤给战绩添了一笔，列传里那些关于骗术的旧账照样占着自己的位置。
 :::
 
 ::: 黑料 跳货老师，也在路上拆跳货

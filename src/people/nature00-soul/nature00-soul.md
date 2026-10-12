@@ -3,7 +3,7 @@ character_id: 2113266423
 cn_name: 天籁
 aliases: [梦之天籁, nature00 soul, 我也曾有爱情, 天籁大酱, Q群战神]
 epithet: DC 的嘴、DC 的课、DC 的群管；最火的视频叫“告辞”。
-tags: [00区, DC, 著名FC, B站]
+tags: ["00区", "DC", "著名FC", "B站", ".BOP"]
 ---
 
 天籁，游戏名 nature00 soul，头衔“天籁”，B 站 UP 主[梦之天籁](https://space.bilibili.com/7163834)，贴吧 ID“我也曾有爱情”。2017 年 9 月建号，第一站是 FRT 的伏羲，待了不到半年；2018 年底进了 RR 旗下的 BOP（B.O.P Supplication For Glorious），2020 年 2 月跟着 BOP 转进 DC（Dracarys.），从此再没挪窝。

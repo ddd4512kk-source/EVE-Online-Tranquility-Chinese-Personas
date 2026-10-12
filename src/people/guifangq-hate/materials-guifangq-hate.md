@@ -24,3 +24,10 @@
 zKillboard 记录 670 次参与击杀，累计约 4.08 万亿 ISK，单杀 2 次。最常开神示级海军型，常去 Turnur、Ahbazon、Sahtogas 一带；日常玩法偏低安舰队与无畏，大仗只是这份履历里最贵的几页。
 
 统计来源为上列角色 zKillboard 页面。累计价值是参与过的击杀记录，不是独立输出、个人收益或某一战役总损失。
+
+## 2026-10-12：军团历史榜反查同人号
+
+- [Family Guy军团统计](https://zkillboard.com/api/stats/corporationID/98798876/)历史榜第25：Guifangq（2115482062），1136条参与击杀、1,713,875,533,246.21 ISK。这是军团历史范围，不能并入Guifangq Hate的全生涯统计。
+- [角色ESI](https://esi.evetech.net/latest/characters/2115482062/)头衔“晓天”、当前军团Infinity Avenger（98556933）；与Guifangq Hate（2115476544）同词根、同中文头衔、同当前军团，归同一人，补aliases。
+- 本人简介有多条击杀链接，中间原话“杀杀杀frt”，后部“我勒个官员元帅啊”并接Nerfman元帅击杀链接。正文只写其本人战绩墙与口号；未取这些KM详情，不根据链接文本追加战果、日期或指挥责任。
+- 其他主小号、Monitor与未取得月榜的缺口见[成员榜反查](../../../docs/leads/corp-top-characters-2026-10-12.md)。

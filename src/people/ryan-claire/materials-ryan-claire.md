@@ -28,3 +28,30 @@
 - 贴吧客户端搜索“eve欧服 云曦 / 云曦º / Ryan Claire / 我不是猫猫人”，只命中上述 EVE 回复；单搜“云曦”大量《完美世界》同名角色噪声。按 uid 查该账号主题命中其他游戏内容，回帖列表隐藏。搜索受限不等于零结果。
 - B 站桌面空间页及部分 API 触发验证码、`-352` 或 `-799`；移动空间页、旧投稿接口、视频元数据与 `sort=2` 评论接口读取成功。视频画面与未标字幕口播未逐段核实。
 - zKillboard 普通击杀与损失暂未找到足以独立成段的旗舰大事；不把普通战损当黑料。
+
+## 2026-10-11：Grim-Gangsters、Hyrd Geten 与 Obe
+
+- Grim-Gangsters（2123892628）、Hyrd Geten（2117006543）均为云曦的角色，并入 aliases，不另立人物。
+- 两个角色的 ESI 公开头衔均写“♥云曦【小麦の专属性奴】♥”，简介均复用“人物特性 Personality”“手量星图学”“乞讨理论”“误国理论”等相同内容，与 Ryan Claire 已归档简介一致。属于游戏内自嘲头衔，不解释为现实关系。
+- Grim-Gangsters 2025-11-11 创号；当前 Fuxi Military Academy（98824507）／Fraternity Auxiliary（99013541）。Hyrd Geten 2020-06-04 创号，当前 Fuxi Legion（98185110）／FRT（99003581）。列传仍使用 Ryan Claire 快照决定 FRT 标签；战时辅助联盟不能改写成该角色直接属于 FRT 本盟。
+- ESI 来源：[Grim](https://esi.evetech.net/latest/characters/2123892628/)、[Hyrd](https://esi.evetech.net/latest/characters/2117006543/)。
+- 逐号 KB：Ryan Claire 765 次击杀、281393302412 ISK、单杀 15；Grim-Gangsters 98 次击杀、1232003206616 ISK（约 1.232T）、单杀 3；Hyrd Geten 80 次击杀、19828340580 ISK（约 19.8B）、单杀 3。各号不相加，正文综合统计按 Ryan Claire 指定范围。
+- 统计来源：[Ryan](https://zkillboard.com/api/stats/characterID/2122641296/)、[Grim](https://zkillboard.com/api/stats/characterID/2123892628/)、[Hyrd](https://zkillboard.com/api/stats/characterID/2117006543/)。Hyrd 低于 100B，本轮不逐月扩查；共用战役回查无命中不等于没参战。
+
+### 2026-10-10 Obe 超级战役
+
+- 沿用[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)与 WarBeacon 公开报告原始列表：全场约 6.64T；凛冬、Snuff 及友军、INIT 三组。Grim 战时军团 98824507、联盟 99013541，属凛冬一方；本人驾驶拉格纳洛克（23773），没有监视者或指挥发言依据，不写指挥。
+- 命中八条泰坦击杀名单：七艘 Erebus（671），一艘 Avatar（11567）；七条有伤害，一条零伤害。舰队总战果，不算本人八次单杀。
+
+- [KM 139047582](https://zkillboard.com/kill/139047582/)：2026-10-10T10:53:51.000Z，受害船型 671，本人伤害 794868，final_blow=false。
+- [KM 139047319](https://zkillboard.com/kill/139047319/)：2026-10-10T10:42:31.000Z，受害船型 671，本人伤害 12106，final_blow=false。
+- [KM 139047172](https://zkillboard.com/kill/139047172/)：2026-10-10T10:34:14.000Z，受害船型 671，本人伤害 35627，final_blow=false。
+- [KM 139047046](https://zkillboard.com/kill/139047046/)：2026-10-10T10:27:27.000Z，受害船型 671，本人伤害 27047，final_blow=false。
+- [KM 139046901](https://zkillboard.com/kill/139046901/)：2026-10-10T10:20:32.000Z，受害船型 671，本人伤害 37903，final_blow=false。
+- [KM 139046784](https://zkillboard.com/kill/139046784/)：2026-10-10T10:14:41.000Z，受害船型 671，本人伤害 0，final_blow=false。
+- [KM 139046725](https://zkillboard.com/kill/139046725/)：2026-10-10T10:12:50.000Z，受害船型 11567，本人伤害 2212，final_blow=false。
+- [KM 139046717](https://zkillboard.com/kill/139046717/)：2026-10-10T10:12:24.000Z，受害船型 671，本人伤害 580382，final_blow=false。
+
+- 最后一条有伤害记录 139047582 伤害 794868；139046717 伤害 580382；139046784 伤害为零，仅名单参战。没有将同号累计 1.232T 直接当作本场个人造成损失。
+- Ryan Claire 在本地超级战役样本未命中，未据此否定本人小号参战；现在以自然人合并 Obe，经由已确认同人补入列传。
+- 本轮与 ACR 合计 26 次请求，预算细项见 ACR 素材；未再联网请求 B 站、未重读旧视频和贴吧。其他高值月份仍留覆盖缺口。

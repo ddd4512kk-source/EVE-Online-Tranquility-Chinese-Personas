@@ -3,7 +3,7 @@ character_id: 2113208414
 cn_name: 曼努尔
 aliases: [EVE曼努尔, -曼努尔-, Enterprise Tadaruwa]
 epithet: N老板的起居注，一半是战报，一半是罪证。
-tags: [00区, FRT, B站]
+tags: ["00区", "FRT", "B站", "FORED"]
 ---
 
 Enterprise Tadaruwa，头衔“♚ 曼努尔 ♚”，B 站 UP 主 [EVE曼努尔](https://space.bilibili.com/172859920)。2017 年秋天建号，年底进伏羲（Fuxi Legion）入了 FRT，2019 年起落脚 FBC（Foredawn Business Corporation），一待就是七年多，再没挪过窝。角色简介不写身世也不写格言，整页都是自家视频目录，打头一句“B站关注EVE曼努尔”。

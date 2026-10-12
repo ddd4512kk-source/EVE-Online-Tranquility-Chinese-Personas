@@ -30,3 +30,5 @@
 ### 2026-10-11：故土记录独立楼中楼
 
 [10065172306](https://tieba.baidu.com/p/10065172306)，8主楼2楼中楼，可见分页已请求结束仍有计数差；文字已读，战果图待核。两波乌鸦战与1v1被第三方搅局的细节原已有；#2本人楼中贴同事件视频短链，原账号归属另有招新互链，不能从视频标题独认单杀。最后thouge问“里面的是同步器吗”，依据伤害相近，只有其怀疑且没有答复，不作确认作弊。
+
+2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Yuki 007（2123262345）](https://zkillboard.com/character/2123262345/) 3396.9B ISK；[Zeus002（2121619873）](https://zkillboard.com/character/2121619873/) 2562.1B ISK；[Zeus005（2121593844）](https://zkillboard.com/character/2121593844/) 1784.6B ISK；[Zeus589（2122778562）](https://zkillboard.com/character/2122778562/) 3536.3B ISK；[Zeus886（2121728332）](https://zkillboard.com/character/2121728332/) 3022.3B ISK；[Zeus996（2122616623）](https://zkillboard.com/character/2122616623/) 3337.1B ISK；[ZeusDSN（2121619890）](https://zkillboard.com/character/2121619890/) 3838.3B ISK；[ZeusGTR（2121676163）](https://zkillboard.com/character/2121676163/) 3407.5B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。

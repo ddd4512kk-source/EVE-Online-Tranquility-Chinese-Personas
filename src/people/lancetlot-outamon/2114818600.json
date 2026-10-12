@@ -1,0 +1,68 @@
+{
+  "id": 2114818600,
+  "name": "Lancetlot Outamon",
+  "birthday": "2018-12-29T14:11:59Z",
+  "current_corporation": {
+    "id": 98185110,
+    "name": "Fuxi Legion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98185110,
+      "name": "Fuxi Legion",
+      "ticker": "FUXI"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2018-12-29T14:12:00Z",
+      "end": "2018-12-29T16:35:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2018-12-29T16:35:00Z",
+      "end": "2019-01-06T06:03:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2019-01-06T06:03:00Z",
+      "end": "2019-01-06T14:53:00Z"
+    },
+    {
+      "corporation_id": 98579692,
+      "name": "Gaizack Process Development Corp",
+      "npc": false,
+      "start": "2019-01-06T14:53:00Z",
+      "end": "2020-07-05T19:40:00Z"
+    },
+    {
+      "corporation_id": 1000006,
+      "name": "Deep Core Mining Inc.",
+      "npc": true,
+      "start": "2020-07-05T19:40:00Z",
+      "end": "2020-07-06T08:51:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2020-07-06T08:51:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

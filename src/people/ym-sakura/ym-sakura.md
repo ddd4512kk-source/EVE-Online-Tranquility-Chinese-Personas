@@ -3,7 +3,7 @@ character_id: 2116369488
 cn_name: 飞飞
 aliases: [YM sakura, 小Sakura, tuzifei404, tuzifei001, tuzifei002, tuzifei003, tuzifei101, tuzifei102, tuzifei103, tuzifei404 X1, tuzifei404 X2]
 epithet: 自称萌新小 Sakura，团员称“敬爱的飞飞大统领阁下”。
-tags: [00区, DC]
+tags: ["00区", "DC", "TU ZI"]
 ---
 
 飞飞，游戏名 YM sakura，头衔“★飞飞★”，兔飞军团（Tu Zi Fei Corporation）的 CEO。角色简介只有一句：
@@ -36,6 +36,8 @@ tags: [00区, DC]
 4 月 28 日，他又参加了 [Aunenen 的 FRT 星城击杀](https://zkillboard.com/kill/135092442/)，这张 KM 有 408 名攻击者，建筑现行估值约 231.3B。前面替团员攒一张无畏纪念照，后面跟舰队拆一座星城，飞飞的履历比那句“萌新小 Sakura”忙得多。
 
 两场星城出勤之间，还有 2026 年 2 月 22 日的 [Taff 大型无畏战](https://eve-kill.com/battle/626401)：飞飞驾驶[泽尼塔](https://zkillboard.com/kill/133568044/)，在 DC 一方进入无畏混战。以前帮助团员拿第一张无畏 KM，换来一封“大统领阁下”的颂词；到了这一回，自己也坐进无畏。招新时自称萌新，成员称他大统领，机库里却已经有了跟大队上场的重家伙。那份感谢信固然写得像登基诏书，飞飞也确实过着带新人和自己参战两种日子。
+
+4 月 28 日拆星城以前，飞飞已赶上 4 月 25 日的[北方大型战役](https://br.evetools.org/br/69ed1bc7bcb5710012f06fd3)：整窗总损失约 969B，他在 DC 一方驾驶鹏鲲，出现在 [8TPX-N 的 FRT 俄洛巴斯泰坦攻击者名单](https://zkillboard.com/kill/135008430/)里。带新人拿第一张无畏 KM，换来“大统领阁下”的颂词；自己到了几千人的战场，也有从战列座位参与泰坦击杀的经历。2 月的泽尼塔、4 月的鹏鲲与后来的星城出勤接起来，兔飞的萌新称号愈发客气，大统领却也没有只在团员的感谢信里开疆拓土。
 :::
 
 ::: 黑料 AFK 欠税，被 FRT 清退

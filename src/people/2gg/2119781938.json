@@ -1,0 +1,40 @@
+{
+  "id": 2119781938,
+  "name": "xxxzzzz",
+  "birthday": "2022-03-12T15:32:23Z",
+  "current_corporation": {
+    "id": 98738067,
+    "name": "Why So Sage",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98738067,
+      "name": "Why So Sage",
+      "ticker": "Y.S.S"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000115,
+      "name": "University of Caille",
+      "npc": true,
+      "start": "2022-03-12T15:32:00Z",
+      "end": "2023-04-11T03:31:00Z"
+    },
+    {
+      "corporation_id": 98738067,
+      "name": "Why So Sage",
+      "npc": false,
+      "start": "2023-04-11T03:31:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

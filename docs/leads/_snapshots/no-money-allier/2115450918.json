@@ -1,0 +1,61 @@
+{
+  "id": 2115450918,
+  "name": "No money Allier",
+  "birthday": "2019-07-10T16:03:12Z",
+  "current_corporation": {
+    "id": 98626718,
+    "name": "Kuan.Dai.Shan",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "ticker": "KD.S"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-07-10T16:03:00Z",
+      "end": "2019-07-11T15:39:00Z"
+    },
+    {
+      "corporation_id": 98605384,
+      "name": "Veteran Crusader",
+      "npc": false,
+      "start": "2019-07-11T15:39:00Z",
+      "end": "2019-08-21T14:13:00Z"
+    },
+    {
+      "corporation_id": 1000111,
+      "name": "Aliastra",
+      "npc": true,
+      "start": "2019-08-21T14:13:00Z",
+      "end": "2019-09-17T15:11:00Z"
+    },
+    {
+      "corporation_id": 98605384,
+      "name": "Veteran Crusader",
+      "npc": false,
+      "start": "2019-09-17T15:11:00Z",
+      "end": "2020-01-06T12:52:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "npc": false,
+      "start": "2020-01-06T12:52:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

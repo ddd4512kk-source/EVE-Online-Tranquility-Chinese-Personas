@@ -3,7 +3,7 @@ character_id: 2119831838
 cn_name: 天启阿柒
 aliases: ['268425', 天启, 天启大酱]
 epithet: 单开 Marauder 满宇宙找架打，死了就发帖，帖名比战损还长。
-tags: [00区]
+tags: ["00区", "499"]
 ---
 
 天启阿柒，游戏名是一串数字：268425。2022 年建号，在新手军团里待了快两年，2024 年 2 月进了 PH 旗下的“乡下小团”Alkaid Broken Army，此后一直跟着它：2025 年 11 月 PH 解散，团转去 INIT；2026 年 6 月离开，7 月进了一家叫 GOD LOVE 499 的军团，联盟名是 **34-yrs-old men get nagged by wives for playing EVE**（三十四岁男人玩 EVE 被老婆唠叨）。

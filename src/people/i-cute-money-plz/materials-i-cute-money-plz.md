@@ -39,3 +39,11 @@
 - [《一起翻译今天的更新公告吧！看看CCP又在搞什么幺蛾子！》](https://forums.winterco.org/t/topic/3786)
 - [防蹲刷怪指南](https://forums.winterco.org/t/topic/10271)
 - [《听说写诗也有PAP》](https://forums.winterco.org/t/topic/2359)
+
+## B站账号对应（2026-10-12）
+
+账号 `一只_炒鸡` 对应本人。既有公开评论素材：曼努尔视频 [BV1q44y1p7cS](https://www.bilibili.com/video/BV1q44y1p7cS)《那一晚，N老板失去了5毛钱》，2022-01-29；“一只_炒鸡”评论“@Bateau 给钱”，既有记录点赞28，楼中楼有人用“noraus：dsb,dsb！（超大声）”接梗。一只_炒鸡对应炒鸡、Bateau对应N老板，已补别名与B站标签。评论证明这句互动，不写成实际付款或欠款；账号UID暂无，不能拿近似昵称补造。
+
+## 2026-10-13反时区语录增量
+
+共同来源、逐楼内容与图片边界见[首批语录摘要](../../../docs/sources/frt-offtimezone-quotes-2025.md)。第1、9、11／19、15楼：炒鸡性玩笑、猫娘相关恶搞称号、MSXH匿名表白模板、点名norausdot刷怪不报点。I-cute money plz名牌与已收录对应；表白是MSXH发布的梗，不写实际恋爱；第15楼是本人投诉，不补实际处罚。

@@ -4,7 +4,7 @@
 
 收录角色：**Focalors Servant（2124239778）**。已有[列传源文件](focalors-servant.md)。
 
-角色对应：芙水之乱 PDF 中 QQ 群名片“CG-憨憨的芙芙/Focalors Servant”“CACX-憨憨的芙芙/Focalors Servant”“0lp-成都-超级聪明的芙芙！Focalors Servant”，私聊昵称“芙”、QQ 昵称“雷电将军的狗”；EveWho：Chi Gua 2026-04-22—05-10 09:45 UTC，Chaos arbiter 05-10—05-12 12:02 UTC（与 05-12 20:00 北京时间混沌 Ping 踢人吻合）。群名片里的地区信息不进正文。事件全貌与人物名单见[芙水之乱线索](../../../docs/leads/fushui-zhiluan.md)。
+角色对应：芙水之乱 PDF 中 QQ 群名片“CG-憨憨的芙芙/Focalors Servant”“CACX-憨憨的芙芙/Focalors Servant”“0lp-成都-超级聪明的芙芙！Focalors Servant”，私聊昵称“芙”、QQ 昵称“雷电将军的狗”；EveWho：Chi Gua 2026-04-22—05-10 09:45 UTC，Chaos arbiter 05-10—05-12 12:02 UTC（与 05-12 20:00 北京时间混沌 Ping 踢人吻合）。群名片里的地区信息不进正文。事件全貌与人物名单见[芙水之乱线索](../../../docs/sources/fushui-zhiluan-2026-05.md)。
 
 ### 游戏画像（2026-10-09，profile.mjs）
 
@@ -31,3 +31,13 @@
 
 - 贴吧客户端：“Focalors Servant”零结果；“芙芙 eve”“芙 吃瓜”“芙 CACX”“雷电将军的狗 eve”除摘要帖外无相关。B 站未找到账号（以 Focalors Servant 搜索无相关）。
 - 待补：Sunset Red Activity Club、KZU 时期是否另有事件。
+
+## 2026-04-25 北方大型战役
+
+整窗 06:00–20:00 UTC，31 星系，各方总损失 969.119810713B；窗口、分组、未分组差额与完整核对范围见[共享战报材料](../../../docs/sources/northern-battles-2026-04-25.md)。本人在两处主战留下记录，按自然人合并；本次角色为参战。仅 Monitor 支持指挥，不指定总指挥或决策责任。
+
+| 角色 ID | 舰船 type ID | 星系 | 当时联盟 ID | 记录 |
+| --- | --- | --- | --- | --- |
+| 2124239778 | 29344 | 4-HWWF | 99003581 | [135002517](https://zkillboard.com/kill/135002517/)，攻击者 |
+
+正文已将本场经历并入战绩红料，原综合 KB 与其他战役保留；常规舰损失只作参战依据，不增黑料。

@@ -8,9 +8,11 @@
 //   npm run fetch -- --refresh 123 456 只重新抓取指定角色
 //   npm run fetch -- --check           只校验，不联网（缺数据则报错）
 
+import "./runtime.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { validateCorporationTags } from "./corporation-tags.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
@@ -276,12 +278,24 @@ async function readPeople() {
       continue;
     }
     seen.set(id, file);
-    people.push({ file, id, directory });
+    people.push({ file, id, directory, tags: data.tags ?? [] });
   }
   return { people, errors };
 }
 
 const exists = (p) => fs.access(p).then(() => true, () => false);
+
+async function checkCorporationTags(people) {
+  const snapshots = await Promise.all(people.map(async (p) =>
+    JSON.parse(await fs.readFile(path.join(p.directory, `${p.id}.json`), "utf8"))));
+  const corporations = snapshots.map((c) => c.affiliation?.corporation).filter(Boolean);
+  const errors = people.flatMap((p, i) =>
+    validateCorporationTags(p.tags, snapshots[i], corporations).map((e) => `${p.file}：${e}`));
+  if (errors.length) {
+    console.error(errors.join("\n"));
+    process.exit(1);
+  }
+}
 
 async function main() {
   const args = process.argv.slice(2);
@@ -304,6 +318,7 @@ async function main() {
   }
 
   if (!todo.length) {
+    await checkCorporationTags(people);
     console.log(`角色数据齐全（${people.length} 人），无需抓取。`);
     return;
   }
@@ -330,6 +345,7 @@ async function main() {
     console.error(`${failed} 个角色抓取失败。`);
     process.exit(1);
   }
+  await checkCorporationTags(people);
 }
 
 main();

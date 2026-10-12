@@ -1,0 +1,54 @@
+{
+  "id": 2118767266,
+  "name": "LS-Somber",
+  "birthday": "2021-06-02T05:48:26Z",
+  "current_corporation": {
+    "id": 98725234,
+    "name": "Alkaid Broken Army",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98725234,
+      "name": "Alkaid Broken Army",
+      "ticker": "YAO.G"
+    },
+    "alliance": {
+      "id": 1900696668,
+      "name": "The Initiative.",
+      "ticker": "INIT."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2021-06-02T05:48:00Z",
+      "end": "2021-06-03T04:44:00Z"
+    },
+    {
+      "corporation_id": 98614214,
+      "name": "Gaze into the Abyss",
+      "npc": false,
+      "start": "2021-06-03T04:44:00Z",
+      "end": "2022-11-10T10:14:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2022-11-10T10:14:00Z",
+      "end": "2022-11-10T10:29:00Z"
+    },
+    {
+      "corporation_id": 98725234,
+      "name": "Alkaid Broken Army",
+      "npc": false,
+      "start": "2022-11-10T10:29:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

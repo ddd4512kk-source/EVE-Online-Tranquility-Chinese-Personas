@@ -3,7 +3,7 @@ character_id: 2117737129
 cn_name: 伊利法尔
 aliases: [Yilifaer, yilifaerr, Yilifaer-Eli, 法尔]
 epithet: 中文请去语音，选票请给我。
-tags: [00区, IGC]
+tags: ["00区", "IGC", "UREX"]
 ---
 
 伊利法尔在 IGC 当过 FC、外交官和联盟总监，后来自己建了 Your Ex's，CEO 挂在小号 Yilifaer-Eli 名下。管过联盟的人再管自己的军团，法尔的规矩也有了新门牌：他说中文玩家在公共频道用中文是“丢人现眼”，转头又站出来竞选 CSM，要替中文玩家发声。

@@ -1,0 +1,40 @@
+{
+  "id": 2120556332,
+  "name": "Hoshino X",
+  "birthday": "2022-11-07T14:12:01Z",
+  "current_corporation": {
+    "id": 98715582,
+    "name": "Emperor Scythes",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98715582,
+      "name": "Emperor Scythes",
+      "ticker": "E   S"
+    },
+    "alliance": {
+      "id": 1900696668,
+      "name": "The Initiative.",
+      "ticker": "INIT."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-11-07T14:12:00Z",
+      "end": "2022-11-09T11:53:00Z"
+    },
+    {
+      "corporation_id": 98715582,
+      "name": "Emperor Scythes",
+      "npc": false,
+      "start": "2022-11-09T11:53:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-11"
+}

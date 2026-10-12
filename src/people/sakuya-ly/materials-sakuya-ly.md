@@ -15,7 +15,7 @@
 
 - 建号 2018-09-02。雇佣：Golden Fleece Fleet（Ranger Regiment）2018-09—2019-01 → Inverse Entropy Fleet（FRT）2019-01—2022-03 → Inverse Entropy Fleet Zero（FRT，2022-04 起 Dracarys.）2022-03—2024-07 → ChuangShi 2024-07—09 → Golden Fleece 2024-09 至今（FRT 2024-09—2025-04-30、PH 2025-05-02—11-08、IGC 2025-11-09 至今）。Golden Fleece 创建于 2024-09-15，创建者 Sakuya Z（2122534297），名字与收录号极近且同团，按小号处理。
 - KB：628 杀（291.0B）、294 损；常用 Retribution 228；击杀 ISK 高月 2026-06/07/01。
-- **角色简介**：四条 killReport，标为“击杀：CCP Monty（塔纳尼斯级*）”“CCP Monty（太空舱*）”“CCP Zelus（太空舱*）”“CCP Bee（太空舱*）”，末尾“芜湖~”。ESI 核对：[128920408](https://zkillboard.com/kill/128920408/) 2025-08-01 14:39 JNG7-K，受害者 **FC Monty**（2123327205，2025-04 建号）驾驶 Taranis，sakuya ly 最后一击，3 名攻击者；[128920661](https://zkillboard.com/kill/128920661/) 14:48 同星系，受害者 **FC Zelus**（2119788568）太空舱，单人。两名受害者所在军团名为“**C C P**”，是玩家军团，非 CCP 官方开发者账号。
+- **角色简介**：四条 killReport，标为“击杀：CCP Monty（塔纳尼斯级*）”“CCP Monty（太空舱*）”“CCP Zelus（太空舱*）”“CCP Bee（太空舱*）”，末尾“芜湖~”。ESI 核对：[128920408](https://zkillboard.com/kill/128920408/) 2025-08-01 14:39 JNG7-K，受害者 **FC Monty**（2123327205，2025-04 建号）驾驶 Taranis，sakuya ly 最后一击，3 名攻击者；[128920661](https://zkillboard.com/kill/128920661/) 14:48 同星系，受害者 **FC Zelus**（2119788568）太空舱，单人。两名受害者战时军团ID均为109299958。2026-10-12核对该ID的ESI简介，明确为官方CCP军团；此前将其认作冒牌玩家军团的判断已撤销。简介文字CCP与现名FC不能单独证明冒牌。
 
 ## 军团渊源
 
@@ -30,3 +30,14 @@
 - 贴吧：`eve欧服 莜叶 金羊毛` 主要命中斯凯长帖；`eve欧服 筱葉 金羊毛` 零结果。尚未找到本人长帖。
 - [zKillboard 一条 2025-08 的金羊毛角色 KM](https://zkillboard.com/kill/129008969/)只证明当时该角色在团，不证明参与斯凯帖中的具体战斗。
 - B 站、百度：未检索，不能记为零结果。
+
+## 2026-10-12：官方军团误判更正
+
+- [军团109299958 ESI](https://esi.evetech.net/latest/corporations/109299958/)名称C C P、ticker -CCP-，简介原文“The official CCP corporation.”，联盟434243723／C C P Alliance。另[Game Masters](https://esi.evetech.net/latest/corporations/216121397/)简介也明确为官方GM军团。官网[图像服务文档](https://docs.esi.evetech.net/docs/image_server.html)与[CCP Swift官方回复](https://forums.eveonline.com/t/image-eveonline-com-issues/406248/7)均用109299958与434243723作军团／联盟示例。
+- 重读原始[Monty KM](https://esi.evetech.net/latest/killmails/128920408/4512ec4f1110edb418952499f694324a4f5755e0/)与[Zelus KM](https://esi.evetech.net/latest/killmails/128920661/8427c0dcbdc996ffd162585b266ae32d9b98e6e2/)，两人战时均在109299958。正文保留击杀和本人“芜湖”主线，撤掉“冒牌”“狗牌自己缝”等失去依据的讥讽。未取得角色改名时间与原因，不解释FC前缀。
+
+## 2026-10-12：红黑分类与重大线索复审
+
+已复核本人素材、共享索引与既有斐德线索，本次未找到可归本人且未入文的重大黑料。撤销原“打不动就咕”与“心情不好可以去骂CEO”两个黑料分类，事情仍完整保留：普通拆桥受挫、撤退不算黑料；找团帖本意是赞支援和补损、拿能找CEO求安慰做亲近调侃，也不是滥权证据。并回联军经历及带队／福利红料，保留8月12日、8月30—31日与9月22日各次行动。加回素材已有综合KB628杀、291.0B与常用复仇者，不以累计量认指挥。官方CCP军团误判已撤销，不复活“冒牌”叙事。国服特纳仅是同名招牌渊源，不把莜叶本人写成已证实在国服活动；本人欧服经历始于2018年。另有具体重大事件时须另补出处与人物桥，不能拿换盟或普通战败补黑料。
+
+2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Sakuya Z（2122534297）](https://zkillboard.com/character/2122534297/) 0.0B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。

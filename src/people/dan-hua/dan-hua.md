@@ -3,7 +3,7 @@ character_id: 2116540636
 cn_name: 蛋花
 aliases: [Dan Hua]
 epithet: 建号九个月开着俄洛巴斯上了 M2-XFE，三年后拿了 AT 冠军。
-tags: [00区, "AKINA mountain family", AT19冠军]
+tags: ["00区", "AT19冠军", "AE868"]
 ---
 
 蛋花，游戏名 Dan Hua，2020 年 3 月建号，FRT 的 AT19 冠军队员。角色简介是空的，头衔就两个字：“蛋花”。

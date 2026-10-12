@@ -2,7 +2,7 @@
 
 ## 炽天 / chitian / KZU CEO
 
-收录角色：**chitian（2120421439）**。已有[列传源文件](chitian.md)。[ESI 角色头衔](https://esi.evetech.net/latest/characters/2120421439/)为“炽天 清风不语，明月自来”；[Knight of Zero Ultra（98808817）](https://esi.evetech.net/latest/corporations/98808817/)创建者和现任 CEO 都是此号，军团简介亦直接以游戏角色链接署名“炽天”。KZU 是军团简称，不是另一个玩家名；chitian xiao、chitian hehehe、chitian huhuhu 等相近名字尚未有直接的小号归属证据，不另收，也不把其战绩加到此号。
+收录角色：**chitian（2120421439）**。已有[列传源文件](chitian.md)。[ESI 角色头衔](https://esi.evetech.net/latest/characters/2120421439/)为“炽天 清风不语，明月自来”；[Knight of Zero Ultra（98808817）](https://esi.evetech.net/latest/corporations/98808817/)创建者和现任 CEO 都是此号，军团简介亦直接以游戏角色链接署名“炽天”。KZU 是军团简称，不是另一个玩家名；chitian hehehe与chitian xiao已由后述2026-10-12军团榜反查合并；chitian huhuhu仍缺对应记录。不将各号统计相加。
 
 ### 素材与证据边界
 
@@ -39,8 +39,23 @@
 
 - **KZU 雇 OSY（重，黑料；社交媒体 + OSY 舵主宣布）**：群聊回忆称起因是 KZU 雇 OSY 打蓝家，荣耀随后在 OSY 本地击毁铁壁、空堡并提交 Asher 与联盟决议；群友评“kzu是真坏啊，雇佣红减打蓝家第一人！”。OSY 舵主宣布（经 PP 总监“山之内花音”转述）：KZU 私下联系舵主要求为其复仇，击毁荣耀泰坦一艘；OSY 此前对 KZU 的袭击为荣耀出资。泰坦 KM 见 [zKillboard 138999128](https://zkillboard.com/kill/138999128/)（2026-10-08，H-ADOC，Guardians of Tranquility 31/60 攻击者）。
 
-- **2026-10-10 补充：炸鱼纠纷中的说法（轻，据社交媒体）**：KZU 成员 zhayu111 在马克瑞被电死后，炽天向转述者说“马先到的／雷伊进来就开电”，即认为是昆仑一方后进场才电死了小马。争论细节见[线索](../../../docs/leads/kunlun-vapor-machariel.md)。
+- **2026-10-10 补充：炸鱼纠纷中的说法（轻，据社交媒体）**：KZU 成员 zhayu111 在马克瑞被电死后，炽天向转述者说“马先到的／雷伊进来就开电”，即认为是昆仑一方后进场才电死了小马。争论细节见[线索](../../../docs/sources/kzu-kunlun-2026-07.md)。
 
 ## 2026-10-11 补充
 
 新增3黑：三百亿索赔中的双倍报喜、先后争议、40秒日志缺段指控与29B退款；橙子“尽管挤，反正别闹出来KM就好”；团内传授悄悄下POS、被抓后切割。可乐锅、娜乌西卡、一八、御天各自立传。来源：[KZU—昆仑事件摘要](../../../docs/sources/kzu-kunlun-2026-07.md)。群友职务未对应的不写成管理本人，故意剪辑仍归给昆仑指控。
+
+## 2026-10-12：Family Guy历史榜反查同人号
+
+- chitian hehehe（2113788113）：[角色ESI](https://esi.evetech.net/latest/characters/2113788113/)头衔“炽天 清风不语，明月自来”，当前Knight of Zero Ultra（98808817），与收录号同词根、同中文头衔、同当前军团，归同一人。简介连续两次招募白魔爪，第二次原话“【已报备】白魔爪友爱小团招新，新人生产全补”。正文据本人简介写招募口径，不证明补偿实际兑现。
+- [Family Guy军团历史统计](https://zkillboard.com/api/stats/corporationID/98798876/)中hehehe排第27：994条参与击杀、414,400,507,945.46 ISK；chitian xiao（2114917439）排第40：729条、275,075,283,465.19 ISK。两号同词根且同历史军团，按同词根同军团规则归本人，补aliases。xiao当前头衔、归属未取，历史参与不当当前成员名册。
+- 上述均为该军团历史范围，不与收录号或彼此直接相加。没有逐场新增战役或Monitor证据，不凭榜单写指挥。chitian huhuhu未在此次已取得的四团榜里取得对应证据，继续留缺口。
+
+
+### 社区 BR 续查（2026-10-12）
+
+共用原报、编组及叙事边界见[续查材料](../../../docs/sources/community-br-review-2026-10-12.md)。保留原有综合 KB 评价，新增经历与原有战役并列，不累加主小号累计。
+
+**R-AG7W**，2025-11-06 16:00–2025-11-07 16:00 UTC，各方总损失 1,196,441,560,722 ISK（超级）。
+
+- 角色 2120421439；死亡漩涡（24694）；战时 IGC（联盟 99010877／军团 98808817）；攻击者记录 14 条，代表 [KM 131025030](https://zkillboard.com/kill/131025030/)。

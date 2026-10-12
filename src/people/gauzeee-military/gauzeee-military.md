@@ -3,7 +3,7 @@ character_id: 96262961
 cn_name: 纱布
 aliases: [纱启强, Gauzeee, Arri AlexaMini, Shabumaru]
 epithet: 简介写了八百字创世人回忆录，成员的泰坦蓝图没写进去。
-tags: [00区, 创世, 著名FC]
+tags: ["00区", "著名FC", "CSQY"]
 ---
 
 纱布，游戏名 Gauzeee Military（三个 e），创世（ChuangShi）军团的老人、FC。游戏头衔：

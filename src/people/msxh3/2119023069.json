@@ -1,0 +1,71 @@
+{
+  "id": 2119023069,
+  "name": "msxh3",
+  "birthday": "2021-08-23T18:53:13Z",
+  "current_corporation": {
+    "id": 98786009,
+    "name": "msxxx",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98786009,
+      "name": "msxxx",
+      "ticker": "MSXXX"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-08-23T18:53:00Z",
+      "end": "2021-10-23T09:36:00Z"
+    },
+    {
+      "corporation_id": 98538099,
+      "name": "Starry Sky Fleet",
+      "npc": false,
+      "start": "2021-10-23T09:36:00Z",
+      "end": "2022-11-05T15:40:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-11-05T15:40:00Z",
+      "end": "2022-11-20T05:12:00Z"
+    },
+    {
+      "corporation_id": 98538099,
+      "name": "Starry Sky Fleet",
+      "npc": false,
+      "start": "2022-11-20T05:12:00Z",
+      "end": "2023-02-14T01:59:00Z"
+    },
+    {
+      "corporation_id": 98632312,
+      "name": "Sylvanas Argeir Military Academy",
+      "npc": false,
+      "start": "2023-02-14T01:59:00Z",
+      "end": "2023-06-03T05:21:00Z"
+    },
+    {
+      "corporation_id": 98538099,
+      "name": "Starry Sky Fleet",
+      "npc": false,
+      "start": "2023-06-03T05:21:00Z",
+      "end": "2026-03-05T20:40:00Z"
+    },
+    {
+      "corporation_id": 98786009,
+      "name": "msxxx",
+      "npc": false,
+      "start": "2026-03-05T20:40:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

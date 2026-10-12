@@ -3,7 +3,7 @@ character_id: 224870524
 cn_name: ROSE
 aliases: [roseattack, rose]
 epithet: 盘古的创始人之一，开的是一家租地生产团。
-tags: [00区, 创世]
+tags: ["00区", "CSQY"]
 ---
 
 ROSE，游戏名 roseattack，头衔就一个词：“ROSE”。2009 年建号，Cappuccino Cafe 的当家人，盘古联盟的发起人之一。后来在 FRT 的 Iron Prestige 待了将近八年，2021 年进创世，2022 年停了两年半，2025 年 4 月又回了创世。

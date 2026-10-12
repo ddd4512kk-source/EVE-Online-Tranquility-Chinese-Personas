@@ -28,3 +28,5 @@
 - 头衔“✪ 贝斯城管 ✪”：[贴吧《创世与frt的爱恨情仇》](https://tieba.baidu.com/p/10490169293) 9 楼称，绝地时期创世曾捐款并得到专属称号“[贝斯城管]”，“但是捐款的人大部分都留在 jjg 了”。该帖主楼为攻击创世高层的长文（楼内自称 AI 版本，多人质疑），未涉及皮卡本人，仅作头衔来历线索；若要写，需另找来源。
 - 凛冬论坛：Kerrum_Pithy 无主题、无回帖。
 - 贴吧：搜“eve欧服 皮卡 贝斯城管”“notHenryZ”“Kerrum Pithy”“PEKKA 创世”均零结果（“皮卡”撞词）；必应搜“皮卡 创世”仅得无关结果。B 站 API 本次 HTTP 412【搜索失败】；知乎未查。待办：B 站评论区、创世官号会战复盘里的皮卡视角、其他两小号 KM（Vocan Hephaes 损失里有 20 艘同一船型，type 22460 待查）。
+
+2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Ashemi Shaishi（2120636233）](https://zkillboard.com/character/2120636233/) 103.1B ISK；[Vocan Hephaes（2120556255）](https://zkillboard.com/character/2120556255/) 77.6B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。

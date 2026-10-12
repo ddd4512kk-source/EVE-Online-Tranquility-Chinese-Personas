@@ -1,0 +1,40 @@
+{
+  "id": 2116327225,
+  "name": "AK Hendar",
+  "birthday": "2020-02-15T07:24:16Z",
+  "current_corporation": {
+    "id": 98588509,
+    "name": "Noobs Collecttion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98588509,
+      "name": "Noobs Collecttion",
+      "ticker": "NBCLT"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2020-02-15T07:24:00Z",
+      "end": "2020-03-24T14:19:00Z"
+    },
+    {
+      "corporation_id": 98588509,
+      "name": "Noobs Collecttion",
+      "npc": false,
+      "start": "2020-03-24T14:19:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

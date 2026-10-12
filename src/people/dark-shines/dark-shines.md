@@ -3,7 +3,7 @@ character_id: 1869573834
 cn_name: 黑暗闪耀
 aliases: [Darkshine, Dark Shine, Shines, 黑色闪光, 黑暗中的闪光]
 epithet: 宇宙老三，专挑老二最忙的时候来。
-tags: [00区, INIT, 著名FC, 非华人]
+tags: ["00区", "INIT", "著名FC", "非华人", "M0LOK"]
 ---
 
 黑暗闪耀（Dark Shines）是 The Initiative.（INIT）的领头人。2004 年建号，2011 年加入 INIT 体系；2012 年曾短暂去 Pandemic Legion，之后又回到 INIT。此后他辗转 Vanishing Point.、Project Valhalla.、The Fuel Cartel.、Void of Eden. 等军团，始终在同一个联盟里。
@@ -22,6 +22,10 @@ Dark Shines 的九千多次监视者记录，是长期履历，不是每一张 K
 2025 年 6 月的 [Lantorn](https://zkillboard.com/kill/127955429/)，INIT 已宣布独立，他又驾驶监视者参与低安大战的指挥。从帝国体系内的伏击到独立后的会战，才看得出这位领头人的活动线：不是新闻里等到最后才来分账的“老三”，舰队出门时，他自己也往往坐在那条不会抢火力头功的船上。
 
 2026 年 2 月 22 日的 [Taff](https://br.evetools.org/related/30002100/202602221400)，黑暗闪耀驾驶[监视者](https://zkillboard.com/kill/133568918/)，在 INIT 一方参与这场大型无畏战的指挥。与帝国重置声望以后，“老三”有了自己的路线，到了低安仍会与其他势力同场交手。早年 A1 的马克瑞、后来 Lantorn 与这回的指挥船，留下的是几个不同位置；领头人的招牌很大，实务仍要落到具体的一天、一条船，不能只靠宇宙座次替舰队上班。
+
+2026 年 4 月 25 日，战线到了 FRT 的 4-HWWF 老家。[这一天的北方战报](https://br.evetools.org/br/69ed1bc7bcb5710012f06fd3)各方损失约 969B，INIT 单列一组；Shines 驾驶短剑，出现在[4-H 的神使](https://zkillboard.com/kill/135014991/)和 [8TPX-N 的俄洛巴斯](https://zkillboard.com/kill/135008430/)两条泰坦的攻击者名单里。前面说自己是独立的第三极，后面又与阿舍一道打向老二的家门，两人的交情也就有了具体战场。这回留下的是截击舰座位，和 Taff 的监视者不同；盟主既会找人商量“那会很有趣”，也真的会自己开船去看看究竟多有趣。
+
+“宇宙老三”独立以前，还有一页在 2022 年 12 月 3 日的 [H-PA29](https://br.evetools.org/br/638be6e5e878fa0c98ffbfa8)，各方损失约 413.16B。Shines 驾驶[监视者](https://zkillboard.com/kill/105128011/)，在 INIT 一方参与指挥；当时 INIT 仍在帝国体系里，与后来单干的身份不同。维纳尔一座铁壁引来多方舰队，他和阿舍都留下指挥船记录。几年后两位领头人在 4-H 又碰到同一条战线上，这段关系不是突然从一句“那会很有趣”开始的，早年的舰队座位已经把他们放进同一个战场。
 :::
 
 ::: 红料 2026 年 7 月：点名自家华人团的脚本号

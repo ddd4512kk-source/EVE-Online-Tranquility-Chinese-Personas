@@ -3,7 +3,7 @@ character_id: 2113239951
 cn_name: 墨琦
 aliases: [墨奇, 墨绮, moqi, Qi Mo, 黑土王奇]
 epithet: 招募一个新人，附送半本国际关系史。
-tags: [00区, FRT, "Navigators' Union"]
+tags: ["00区", "FRT", "N-V-U"]
 ---
 
 墨琦，游戏名 Qi Mo，创世倾域的老招募官。[2024 年创世招新视频](https://www.bilibili.com/video/BV1j2421L712/)里，[加一](../2113399287/)挂执行总监，墨琦挂招募专员。一家军团有人带队、有人搬货，也得有人守着门，把想入团的人领进来。

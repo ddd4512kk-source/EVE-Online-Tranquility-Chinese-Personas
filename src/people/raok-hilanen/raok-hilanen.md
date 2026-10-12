@@ -3,7 +3,7 @@ character_id: 2122530222
 cn_name: 超级大汉堡
 aliases: [Raok Hilanen, 汉堡]
 epithet: 头衔管审批，简介负责喊寄。
-tags: [00区, FRT, 著名FC]
+tags: ["00区", "FRT", "著名FC", "KHESH"]
 ---
 
 超级大汉堡，游戏名 Raok Hilanen，怯薛的人。角色头衔从“超级大汉堡”一路写到 Fleet Command、总监、审批、SRP，凛冬职务名单又给他安排了市场监测。头衔像一张办公桌，角色简介却像食堂：“一节更比一节强，三节更是王中王。”

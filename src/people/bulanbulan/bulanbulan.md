@@ -3,7 +3,7 @@ character_id: 2112533427
 cn_name: 不懒
 aliases: [小懒不懒, 小懒懒, 黑珍珠号-不懒, bulanbulan]
 epithet: 签名写着勤快开组，教程只出了第一期。
-tags: [00区, B站]
+tags: ["00区", "B站", "ZMGC"]
 ---
 
 不懒，游戏名 bulanbulan Dadunur，B 站 UP 主[黑珍珠号-不懒](https://space.bilibili.com/94609129)，签名“EVE欧服海盗散打，不懒（勤快开组）”。角色建于 2017 年，2017 年底进创世，2018 年起在 China Zhan Hun 待了两年多，2020 年回创世没几个月就退团，一歇将近四年。

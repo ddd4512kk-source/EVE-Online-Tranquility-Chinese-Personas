@@ -1,0 +1,47 @@
+{
+  "id": 2119439404,
+  "name": "Burningleek",
+  "birthday": "2021-12-08T13:03:02Z",
+  "current_corporation": {
+    "id": 98626718,
+    "name": "Kuan.Dai.Shan",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "ticker": "KD.S"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2021-12-08T13:03:00Z",
+      "end": "2022-01-09T13:45:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2022-01-09T13:45:00Z",
+      "end": "2022-01-11T14:40:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "npc": false,
+      "start": "2022-01-11T14:40:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

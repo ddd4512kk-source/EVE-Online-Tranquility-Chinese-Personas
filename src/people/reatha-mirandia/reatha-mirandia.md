@@ -3,7 +3,7 @@ character_id: 2112869932
 cn_name: 米兰达
 aliases: [Reatha Mirandia]
 epithet: 写了凛冬论坛的使用说明书，催 FC 写作业。
-tags: [00区]
+tags: ["00区", "-KATE"]
 ---
 
 Reatha Mirandia，论坛上有人直接喊“米兰达”。2017 年 6 月建号，先在伏羲，9 月进了[凯特女王](../2115781945/)创立的女武神（Immortal Valkyrie）——招新帖原话是“我们有后勤姬和战斗姬！还有女装大佬！”。中间去 TCF、创世转过，2021 年又回了女武神，至今没走。

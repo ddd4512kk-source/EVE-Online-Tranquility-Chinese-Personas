@@ -3,7 +3,7 @@ character_id: 208043276
 cn_name: 工程项目
 aliases: [obyta, 工程]
 epithet: 一条冥府没换来咪将军，一个阿进送走了半个团。
-tags: [00区, INIT]
+tags: ["00区", "INIT", "E   S"]
 ---
 
 工程项目，游戏名 obyta，吧里简称“工程”，INIT 旗下华人军团帝皇之镰（Emperor Scythes，简称 ES）的军团长。头衔一口气写了三个：“工程项目 帝皇之手 暗夜潜者”；角色简介只有一句：

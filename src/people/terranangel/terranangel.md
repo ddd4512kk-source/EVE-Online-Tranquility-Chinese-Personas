@@ -3,7 +3,7 @@ character_id: 2124628512
 cn_name: terranangel
 aliases: [Vellygalle Colin Stenier-Tian, Tian, 赛博讨口子]
 epithet: 不是讨饭，是要；不是乞丐，是伸手党。
-tags: [高安]
+tags: ["高安", "BOLC-"]
 ---
 
 terranangel 是他的贴吧账号，游戏角色叫 Vellygalle Colin Stenier-Tian，2026 年 8 月 11 日建号，角色简介只有一句：“My name is Tian. I am a new User.”他说自己是星际争霸、X4、纪元 2070 和三国志战略版的玩家，选 EVE 欧服是因为“未来宇宙不是咱一个国家的”，想提前看看宇宙里的人“是好人还是暴徒还是其他”。

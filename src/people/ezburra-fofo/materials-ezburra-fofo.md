@@ -4,7 +4,7 @@
 
 收录角色：**Ezburra fofo（2122159532）**。已有[列传源文件](ezburra-fofo.md)。
 
-角色对应：芙水之乱 PDF 中 QQ 群名片“CACX-水母/Ezburra fofo”、私聊昵称“Ezburra”；EveWho 雇佣记录 Chaos arbiter 2025-07-31—2026-05-23，与“由 CACX 劝退”吻合。事件全貌、其他人物名单见[芙水之乱线索](../../../docs/leads/fushui-zhiluan.md)。
+角色对应：芙水之乱 PDF 中 QQ 群名片“CACX-水母/Ezburra fofo”、私聊昵称“Ezburra”；EveWho 雇佣记录 Chaos arbiter 2025-07-31—2026-05-23，与“由 CACX 劝退”吻合。事件全貌、其他人物名单见[芙水之乱线索](../../../docs/sources/fushui-zhiluan-2026-05.md)。
 
 ### 游戏画像（2026-10-09，profile.mjs）
 

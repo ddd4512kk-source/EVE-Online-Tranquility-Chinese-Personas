@@ -3,7 +3,7 @@ character_id: 2114589633
 cn_name: E姐
 aliases: [s2eirio, EIRIO Uchonela]
 epithet: 六千人欢迎入团，二十四小时请走。
-tags: [00区, FRT, 混沌仲裁]
+tags: ["00区", "FRT", "CACX"]
 ---
 
 E姐，游戏名 s2eirio，混沌仲裁者（Chaos arbiter，CACX）的 CEO。游戏头衔写得很冲：

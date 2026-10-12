@@ -42,3 +42,5 @@
 
 - [jibing779-G2（2118269183）](https://zkillboard.com/character/2118269183/)：击杀 4681，参与击杀价值 2130.6B ISK。
 - Atioth，jibing779-G2 驾驶狂怒者，攻击者，[134556788](https://zkillboard.com/kill/134556788/)，2026-04-07T00:34:15Z；记录 2 条。
+
+2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[jibing779-G1（2117930122）](https://zkillboard.com/character/2117930122/) 458.9B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。

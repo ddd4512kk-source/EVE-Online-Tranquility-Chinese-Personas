@@ -2,7 +2,7 @@
 character_id: 2114202706
 aliases: [Illusion Raven, 菜菜菜霸梦幻宝贝]
 epithet: 伏羲的新人课本作者，简介里给自己写了“50% 办事惩罚”。
-tags: [00区, FRT, 伏羲]
+tags: ["00区", "FRT", "FUXI"]
 ---
 
 Illusion Raven，头衔：

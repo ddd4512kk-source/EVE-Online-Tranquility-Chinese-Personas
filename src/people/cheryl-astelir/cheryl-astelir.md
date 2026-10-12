@@ -3,7 +3,7 @@ character_id: 94260398
 cn_name: 折纸
 aliases: [Cat's Shining, Cat's Gneiss, Fujed Cericy, Astelir]
 epithet: 舰队会带，银行号先被带走。
-tags: [00区, 低安, 著名FC, Snuffed Out]
+tags: ["00区", "低安", "著名FC", "Snuffed Out", "CYCIE"]
 ---
 
 折纸，主号 Cheryl Astelir，是星尘守护（SGCN）出身的带队 FC。2023 年玩家盘点华人指挥时，就有人把他和纸条并列推荐，也有人说自己跟过折纸的队。2025 年，他从 FRT 带人分出去，另起 The Skies Descend，后来加入 Snuffed Out；军团 CEO 挂在小号 Cat's Shining 上。
@@ -28,6 +28,10 @@ tags: [00区, 低安, 著名FC, Snuffed Out]
 小号 Fujed Cericy 把这段履历接得更清楚：2023 年 7 月在 [Y-1918](https://zkillboard.com/kill/110515300/)驾驶凤凰级海军型参与旗舰交战；到了 2026 年，已驾驶勒维亚坦参加 [Taff](https://zkillboard.com/kill/133568029/)与 [Amamake](https://zkillboard.com/kill/134478683/)的旗舰交战，4 月又出现在 [Aunenen 星城击毁记录](https://zkillboard.com/kill/135092442/)里。自己带团之后，泰坦也确实开到了交火现场。
 
 从 FRT 的会战到 Snuffed Out 的低安旗舰战，阵营换了，战场没离开。银行号出了事，并没有让他从舰队履历里消失；只是后来讲起折纸，大家容易先翻到存款那一页。
+
+折纸分出去以前与以后，在两场大型战役里留下了很清楚的转折。2023 年 5 月 27 日的 [Old Man Star](https://br.evetools.org/br/64717fa0afc8fc4c3fe95e24)各方损失约 564.53B，他还属 FRT，驾驶[净化](https://zkillboard.com/kill/109209232/)参战；同场也留下隐轰损失。那时星尘的带队、军团银行与个人出勤仍在同一段生活里。
+
+2025 年带人分出去以后，7 月 13 日凌晨的 [Arzad](https://br.evetools.org/br/687430c687003700128d7017)总损失约 987.63B，他已驾驶[马克瑞](https://zkillboard.com/kill/128513222/)站在 Snuff 一方，原报把 Snuff、FRT 和龙骑放在同组。离开旧组织，未必每场便和旧东家互打，低安总有临时相逢的座位。两年的变化从隐轰到战列，也从星尘到自己的新团；带队的人换了招牌，战斗生活却接着往前走，银行那笔旧事则仍有它自己的账页。
 :::
 
 ::: 红料 分出去的新团

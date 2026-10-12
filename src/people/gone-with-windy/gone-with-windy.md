@@ -3,7 +3,7 @@ character_id: 2115325500
 cn_name: 随风
 aliases: [Fadek Windy]
 epithet: 守着帝国东大门，进不了蜜蜂家刷怪。
-tags: [00区, DC]
+tags: ["00区", "DC", "SUMMH"]
 ---
 
 随风，游戏名 Gone With Windy，取“随风而逝”之意。龙焰联盟（Dracarys.，简称 DC）CEO，头衔写得干脆：“随风. D.C CEO.”

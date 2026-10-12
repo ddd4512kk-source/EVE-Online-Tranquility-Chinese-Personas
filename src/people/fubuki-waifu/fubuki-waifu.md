@@ -3,7 +3,7 @@ character_id: 2115433044
 cn_name: 黑莲
 aliases: [Fubuki Waifu]
 epithet: 决赛先交学费，冠军再来报销。
-tags: [00区, 著名FC, 凌晨四点玩原神, AT19冠军]
+tags: ["00区", "著名FC", "AT19冠军", "HO.YO"]
 ---
 
 Fubuki Waifu，黑莲，FRT 的 AT XIX 队长、比赛队组织者之一。大联盟通常靠人口和领地出名，他这一支则把联盟名字带到了比赛冠军的位置。更适合野史的是，队长自己写了[夺冠复盘](https://fubukiwaifu.top/archives/1704426912155)，有功劳，也有现场认领的锅。

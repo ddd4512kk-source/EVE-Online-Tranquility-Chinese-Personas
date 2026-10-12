@@ -1,0 +1,75 @@
+{
+  "id": 2118614609,
+  "name": "Bone cat",
+  "birthday": "2021-04-24T15:34:26Z",
+  "current_corporation": {
+    "id": 98626718,
+    "name": "Kuan.Dai.Shan",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "ticker": "KD.S"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-04-24T15:34:00Z",
+      "end": "2021-05-04T07:02:00Z"
+    },
+    {
+      "corporation_id": 98595110,
+      "name": "Absolute Order",
+      "npc": false,
+      "start": "2021-05-04T07:02:00Z",
+      "end": "2021-05-25T06:46:00Z"
+    },
+    {
+      "corporation_id": 98651050,
+      "name": "Absolute Order XVIII",
+      "npc": false,
+      "start": "2021-05-25T06:46:00Z",
+      "end": "2021-05-31T03:44:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2021-05-31T03:44:00Z",
+      "end": "2021-05-31T05:10:00Z"
+    },
+    {
+      "corporation_id": 98598126,
+      "name": "Centralized Interstellar Ally",
+      "npc": false,
+      "start": "2021-05-31T05:10:00Z",
+      "end": "2022-01-07T14:46:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-01-07T14:46:00Z",
+      "end": "2022-01-07T14:54:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "npc": false,
+      "start": "2022-01-07T14:54:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-12"
+}

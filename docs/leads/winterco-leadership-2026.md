@@ -36,6 +36,8 @@
 
 | KHESH-Raok Hilanen 汉堡 | [汉堡](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 市场监测；Atioth Monitor 参战记录已入列传 |
 
+| FUXI-Lancetlot Outamon 朔方 | [朔方](../../src/people/lancetlot-outamon/materials-lancetlot-outamon.md) | WIKI维护组；反时区语录连载已写短传 |
+
 ### 尚未收录的华人成员
 
 角色 ID 由 `npm run find` 按名单上的角色名查得。
@@ -57,7 +59,6 @@
 | KHESH-aiwei abaaba 艾维 | aiwei abaaba（2119184753） | 月色管理组 |
 | LHDG-XiaQiu Chen 虾球 | XiaQiu Chen（92097444） | 顺丰管理组 |
 | P C-C1 Outer | C1 Outer（2121096911） | 美工组 |
-| FUXI-Lancetlot Outamon 朔方 | Lancetlot Outamon（2114818600） | WIKI 维护组 |
 | SARD.-virtual blink 凌云 | virtual blink（2113846915） | WIKI 维护组 |
 | .LOS-lessnamefox 红衣 | lessnamefox（2122884178） | 黑名单管理员 |
 | AMIYA-W HDXG 灿星 | W HDXG（2112788428） | 黑名单管理员 |

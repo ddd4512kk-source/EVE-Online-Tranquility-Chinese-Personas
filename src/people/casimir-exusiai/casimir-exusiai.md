@@ -3,7 +3,7 @@ character_id: 2115198804
 cn_name: 马哥
 aliases: [Casimir Exusiai]
 epithet: 北极星的比赛队长，前东家不参赛，换身队服拿了冠军。
-tags: [00区, AT19冠军]
+tags: ["00区", "AT19冠军", "IQAQI"]
 ---
 
 马哥，游戏名 Casimir Exusiai，2019 年 5 月建号。北极星（PMA，Polaris Mercenary Alliance）比赛队的前队长，2023 年作为“雇佣兵”加入 FRT 的 AT19 阵容并夺冠。角色简介全文只有三个字符：

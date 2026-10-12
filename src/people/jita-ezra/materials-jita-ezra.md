@@ -7,3 +7,5 @@
 - **RMT 永封**：白井（lucy lilith，2114724585）因 RMT 被永久封号。九州的早年脚本与 RMT 名声另见[九州旧帖](https://tieba.baidu.com/p/5706792284)和[2022 话题帖](https://tieba.baidu.com/p/8118623465)；早期事件中其他被封角色及日期仍待对应。
 
 - 2026-10-11 可见回帖复读：[贴吧 5706792284](https://tieba.baidu.com/p/5706792284)。2018年楼主问九州是否等于旧9ZGAME；2019年loco和mfkitoh2回复不是同一批人，旧9z有人重组到Mango/AOM。另有回帖骂九州挂脚本、RMT，但不能把旧9Z角色与后来九州管理直接合并，更不能据此倒推Jita Ezra的CEO任期。7条主楼、5条楼中楼文字已读。
+
+2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[kazuha shirai（2116092520）](https://zkillboard.com/character/2116092520/) 674.9B ISK；[Lynn Mich（2113265419）](https://zkillboard.com/character/2113265419/) 0.0B ISK；[lucy lilith（2114724585）](https://zkillboard.com/character/2114724585/) 0.0B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。

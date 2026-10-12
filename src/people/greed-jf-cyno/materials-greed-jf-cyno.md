@@ -21,3 +21,14 @@
 ### 军团简介（2026-10-10 ESI 快照）
 
 - 小号 **Greed cyno（2117389656）** 是 [Fraternity Panda Investment（FRTPI）](https://esi.evetech.net/latest/corporations/98676128/) 的 ESI CEO。该军团 2021-03-06 建立，66 角色，简介只有一行：“2021年 Fraternity. 战争 商业 工业 债券1期”。名字与 Greed jf cyno 同词根、同在 FRT，按小号处理。
+
+
+### 社区 BR 续查（2026-10-12）
+
+共用原报、编组及叙事边界见[续查材料](../../../docs/sources/community-br-review-2026-10-12.md)。保留原有综合 KB 评价，新增经历与原有战役并列，不累加主小号累计。
+
+**H-PA29**，2022-12-03 17:00–2022-12-04 00:00 UTC，各方总损失 413,155,605,975 ISK（大型）。
+
+- 角色 2114409630；长剑（11963）；战时 FRT（联盟 99003581／军团 98688253）；损失者记录 1 条，代表 [KM 105129054](https://zkillboard.com/kill/105129054/)。
+
+2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Greed cyno（2117389656）](https://zkillboard.com/character/2117389656/) 42.3B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。

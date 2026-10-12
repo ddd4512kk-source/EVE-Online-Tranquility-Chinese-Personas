@@ -3,7 +3,7 @@ character_id: 2115496754
 cn_name: 原姐姐
 aliases: [Amethyst Shock, 原礼辛]
 epithet: 一个人三开 D-Line Force，顺手给凛冬汉化了总览。
-tags: [00区, FRT, 吃瓜]
+tags: ["00区", "FRT", ".233."]
 ---
 
 原姐姐，游戏名 Amethyst Shock，署名“原礼辛”，头衔“原姐姐”。2019 年 7 月建号，先在伏羲，2020 年 3 月转进吃瓜（Chi Gua），之后没再换过。角色简介是名字加一只用字符拼出来的猫——和吃瓜 CEO 老九简介里那只，几乎是同一只。

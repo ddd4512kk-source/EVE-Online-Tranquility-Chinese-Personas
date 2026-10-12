@@ -12,3 +12,7 @@
 - [DOTLAN 的 Fraternity University Holding 页面](https://evemaps.dotlan.net/corp/Fraternity%20University%20Holding)有牛蛙联系信息的搜索摘要；只用于身份交叉，不据此封其为当前 CEO。
 - **黑料待补**：近期热点原帖尚未取得。安全等级、舰船排名均不当黑料。此前近似名 Bullfrog 与本人无对应依据，不采用。
 
+
+## 2026-10-13群聊语录增量
+
+[共同语录第31楼](../../../docs/sources/frt-offtimezone-quotes-2025.md)：名牌FUXI-牛娃/NEWBEEGOGOGO，完整游戏名直接对应已收录牛蛙，牛娃为同音写法，补别名。他发“你们过于变态，使我格格不入.jpg”，再配表情，是对群聊气氛的吐槽；不从这句话补造此前说话者名单或实际性行为。只作本人熟人群里的反差，原有低安负责人、KB与冒名故事保留。
