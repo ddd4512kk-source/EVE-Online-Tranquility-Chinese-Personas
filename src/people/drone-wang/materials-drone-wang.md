@@ -46,3 +46,65 @@
 
 - 本人B站账号 [DroneWang（UID 5877725）](https://space.bilibili.com/5877725)已对应，加入平台标签；不另立人物。
 - 用户搜索取得精确账号：594 粉丝、37 投稿；随后投稿列表请求 `x/series/recArchivesByKeywords` 返回 HTTP 412，本轮停止全部 B站请求。没有取得 37 条标题、视频正文和评论，不能算已读 37 个视频。
+
+
+## B站投稿回查（2026-10-13）
+
+- [公开投稿页](https://space.bilibili.com/5877725/upload/video)当前作者名“DroneWang”，页面显示 37 条投稿；本页可见 37 条标题与不同 BV。简介、影像与评论未读。
+- 标题同时包含欧服、曙光与更早国服内容，按标题逐条区分服务器；RR跟队教程副标题直接调侃“如何成功的打出比夺米台风更高的伤害”。旧稿所记 37 条列表未取得的缺口，现已补齐标题和 BV，内容与评论另待读。
+
+待读作品入口（只保存标题与链接，不凭标题补造事件）：
+
+| 视频 | 标题 |
+| --- | --- |
+| [BV1iy9pBFE9u](https://www.bilibili.com/video/BV1iy9pBFE9u/) | 【EVE欧服】3.28 牧星 散打 VS DC LSK末日 |
+| [BV1yRA7zJEnp](https://www.bilibili.com/video/BV1yRA7zJEnp/) | 【EVE欧服】3.19 牧星 VS PLA |
+| [BV14hbVz6EhZ](https://www.bilibili.com/video/BV14hbVz6EhZ/) | 【EVE欧服】8.10 牧星击杀大航 |
+| [BV1rixvexEVu](https://www.bilibili.com/video/BV1rixvexEVu/) | 后勤大爹的自我修养 |
+| [BV1boxYePEaj](https://www.bilibili.com/video/BV1boxYePEaj/) | 火力狗的自我修养 |
+| [BV1i24y1V7jv](https://www.bilibili.com/video/BV1i24y1V7jv/) | 蜂群战斗人员教程-火力狗如何跟随点名 |
+| [BV1fb411D7Jy](https://www.bilibili.com/video/BV1fb411D7Jy/) | 蜂群战斗人员教程-如何跟随走位 |
+| [BV1aM41117bG](https://www.bilibili.com/video/BV1aM41117bG/) | 【EVE曙光】12.26 嗜杀蜂群 VS 特格拉 噩梦对撸 |
+| [BV1cY411U75c](https://www.bilibili.com/video/BV1cY411U75c/) | 【EVE曙光】12.25 嗜杀蜂群 VS 特格拉 噩梦对轰 |
+| [BV1w8411H7jr](https://www.bilibili.com/video/BV1w8411H7jr/) | 【EVE曙光】12.20 嗜杀蜂群VS特格拉 噩梦队对轰 |
+| [BV13R4y167du](https://www.bilibili.com/video/BV13R4y167du/) | 【EVE曙光】12.03 嗜杀蜂群 VS 特格拉 圣狂守 VS 噩梦 |
+| [BV138411W7jY](https://www.bilibili.com/video/BV138411W7jY/) | 【EVE曙光】 12.17 嗜杀蜂群VS特格拉 圣卒狂热守卫VS噩梦先驱曲剑 |
+| [BV1ye411w7Kp](https://www.bilibili.com/video/BV1ye411w7Kp/) | EVE曙光 12.16 嗜杀蜂群+猎阿联军 VS 特格拉+ Simple game UEXO大战 |
+| [BV1Dt4y1E7NU](https://www.bilibili.com/video/BV1Dt4y1E7NU/) | EVE曙光 8.29 嗜杀蜂群 第五次团灭 毛子哥 （毛子哥，俺们不是工作室，只是单纯的人多~） |
+| [BV1Zd4y137tQ](https://www.bilibili.com/video/BV1Zd4y137tQ/) | EVE曙光服 8.25晚 嗜杀蜂群 VS IBeast战巡巡洋 |
+| [BV1uT411F7v1](https://www.bilibili.com/video/BV1uT411F7v1/) | EVE曙光服8.24 首场小队战 嗜杀蜂群VS毛子Ibeast |
+| [BV16T411w7Lw](https://www.bilibili.com/video/BV16T411w7Lw/) | EVE新人教程--- 六、职业代理人之工业 |
+| [BV1BB4y1x7Cu](https://www.bilibili.com/video/BV1BB4y1x7Cu/) | EVE新人教程--- 五、职业代理人之自由战士 |
+| [BV1X14y147AB](https://www.bilibili.com/video/BV1X14y147AB/) | EVE新人教程--- 四、职业代理人之执法者 |
+| [BV1og41167yE](https://www.bilibili.com/video/BV1og41167yE/) | EVE新人教程--- 三、基础界面的认识 |
+| [BV1FG41147iV](https://www.bilibili.com/video/BV1FG41147iV/) | EVE新人教程--- 二、新人教程 |
+| [BV1zV4y1s7FP](https://www.bilibili.com/video/BV1zV4y1s7FP/) | EVE新人教程--- 一、进入游戏之后创建角色 |
+| [BV1FY4113749](https://www.bilibili.com/video/BV1FY4113749/) | 【EVE欧服】3.11 CP天宫联盟 低安 旗舰战 |
+| [BV1KT4y1X7P9](https://www.bilibili.com/video/BV1KT4y1X7P9/) | 【EVE欧服】 2.11 旗舰战 CP VS 低安毛子土著 |
+| [BV1Tq4y187W4](https://www.bilibili.com/video/BV1Tq4y187W4/) | 【EVE欧服】CP 战列小队VS 低安毛子土著 |
+| [BV13b4y187fF](https://www.bilibili.com/video/BV13b4y187fF/) | 【EVE】血袭者10-10 PLD打法教学进出加起来15分钟，可以缩短到13分钟左右 |
+| [BV1Rb4y1S7HG](https://www.bilibili.com/video/BV1Rb4y1S7HG/) | 【EVE】RR北方黑隐隐投队 |
+| [BV1hZ4y1N7nP](https://www.bilibili.com/video/BV1hZ4y1N7nP/) | 【EVE】RR-如何在4天内吃掉10条黑隐 |
+| [BV1u54y1X7xi](https://www.bilibili.com/video/BV1u54y1X7xi/) | [EVE欧服]RR 联盟2020年春季招新 |
+| [BV1bJ411t75W](https://www.bilibili.com/video/BV1bJ411t75W/) | 【EVE】12.19 RKE-CP战斗 《血特拉锯战》第一集 晚安 特纳 RR电影制片厂 |
+| [BV1u441127df](https://www.bilibili.com/video/BV1u441127df/) | RR成员的跟队基础教程（F1狗的基本修养，如何成功的打出比夺米台风更高的伤害） |
+| [BV1Lx411R7wa](https://www.bilibili.com/video/BV1Lx411R7wa/) | 【EVE】RR-王答答第二期SOLO+勾引小队作战视频 |
+| [BV1yt411p75P](https://www.bilibili.com/video/BV1yt411p75P/) | 联盟标准片头（所有战斗视频都要用，视频内可以用其他图片遮盖作为各军团招新）需要更高清晰度可以找王答答 |
+| [BV14W411c7q3](https://www.bilibili.com/video/BV14W411c7q3/) | 【EVE】RR剧本 Goon 蓝加抓人兴趣小组 RGSU |
+| [BV1VW411j7Lc](https://www.bilibili.com/video/BV1VW411j7Lc/) | 【EVE】RR无人机王答答无双小合集 |
+| [BV1ax411y7ag](https://www.bilibili.com/video/BV1ax411y7ag/) | 【EVE】SWTO+FOF+希拉+RAC+TGA联合吃冥府 |
+| [BV1Ax411K7qG](https://www.bilibili.com/video/BV1Ax411K7qG/) | 8.21晚PIBC银鹰队吉他打砸抢，与永恒国度和专业杀手接火（转自优酷） |
+
+## 2026-10-15：按关注度消化RR作品
+
+先用粗筛：公开播放不足1000且评论不足10，两项都低的作品不再主动续读；有一项明显受关注仍可读，不因不足阈值删除已有材料或已认可正文。本轮同一作者DroneWang／5877725的三篇作品已读公开简介、42个主评论线程及直接显示回复，没有看影像或字幕，未展开其余回复。
+
+- [RR跟队基础教程](https://www.bilibili.com/video/BV1u441127df/)：公开3817播放、reply13，实际读10个主线程。简介列火力、后勤与航母三部分，技能要求与操作提醒夹着对台风的游戏操作调侃，也自嘲自己的点按钮准确度。观众说标题在“迫害阿姨”、要求补铁骑操作等教学；2022年的可见回复说RR已没，2026年台风回“现在是CP了”。这些是多年后评论，不当原教程在新联盟已经复用的证明。关于伤害或未输出的起哄不作为人物贡献、能力或参战态度依据，未沿用0伤害论据。
+- [四天吃掉十条黑隐](https://www.bilibili.com/video/BV1hZ4y1N7nP/)：公开1858播放、reply21，实际读18个主线程。简介自称4条元帅、6条其他黑隐，不把作者集体战果计成个人独占。观众起哄“放出王哒哒，协助无人机”、询问招新；另有评论者说少录了一段。未据剪辑标题指定实际指挥或还原各次交战，评论的伤害／签名比较不用作贡献评价。
+- [第二期SOLO与勾引小队](https://www.bilibili.com/video/BV1Lx411R7wa/)：公开1531播放、reply18，实际读14个主线程。简介自称使用毒蜥、响尾蛇，本来想攒100星再发，因星门挂机丢两条50星毒蜥、操作失误丢一条45星毒蜥，击杀标记重置，只好从头开始、先请观众三连。普通巡洋损失只作本人发表作品和计划打断的背景，不另列黑料或推断金额。观众把他的操作与台风相比，另有人以联盟底层身份拒绝三连；作者回答配装问题，均归公开作品互动，不从观众评价认定实际录像操作。
+
+### 低关注入口与待筛范围
+
+[联盟标准片头](https://www.bilibili.com/video/BV1yt411p75P/)当前308播放、reply1；[牧星3.28小队作品](https://www.bilibili.com/video/BV1iy9pBFE9u/)501播放、reply3。页面容器已取得，正文、评论内容未继续人工阅读或消化；仅保存标题和计数，依粗筛不列下一步。不是判定作品质量或其中没有故事。
+
+其余投稿先按现有可见播放与评论计数筛，未取得计数的也不先通读。曙光作品继续与宁静分开；不为凑全频道覆盖而补冷门视频；相关人物事件改沿可读文字来源续查。

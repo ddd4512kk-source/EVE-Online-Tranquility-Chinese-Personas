@@ -34,4 +34,4 @@
 
 - 贴吧客户端：“eve欧服 南华 灵魂收割者”“eve欧服 南华大学”“eve欧服 南华 46DP”“eve 南华 国服 名将”有效。
 - 未查 B 站（接口限流）；“席拉守望者”微信公众号未查；国服时代事迹只用欧服吧可见材料。
-- 待修订线索：[NoNoFire](../nono-fire/materials-nono-fire.md) 列传未写 2018-10 洗南华 SKQ 机库一事。
+- [NoNoFire](../nono-fire/materials-nono-fire.md)已写2018-10洗南华SKQ机库一事，旧待修订提示关闭；相关说法与出处沿本人素材复用。

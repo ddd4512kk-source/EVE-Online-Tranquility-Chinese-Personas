@@ -1,12 +1,12 @@
 ---
 character_id: 2113791371
 cn_name: 苹二
-aliases: [Apple Reborn, 锅大王]
+aliases: [Apple Reborn, 苹果, solitarymax encounter, 锅大王]
 epithet: 自封锅大王；坐穿梭机运了四百五十亿。
 tags: ["00区", "DC", ".BOP"]
 ---
 
-苹二，游戏名 Apple Reborn，B.O.P Supplication For Glorious（BOP）的 CEO。头衔：
+苹二，也就是 DC 执行军团 SummerHall 里的苹果，收录角色是 Apple Reborn，另有 solitarymax encounter。他是 B.O.P Supplication For Glorious（BOP）的 CEO。Apple Reborn 的头衔：
 
 > 苹二,锅大王,甲级战犯
 

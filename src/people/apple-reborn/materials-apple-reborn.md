@@ -4,6 +4,12 @@
 
 收录角色：**Apple Reborn（2113791371）**。已有[列传源文件](apple-reborn.md)。
 
+### DC执行军团的苹果
+
+苹二与DC执行军团SummerHall的“苹果”为同一人；关联角色 **solitarymax encounter（2113803780）**，归回本篇，不另立传。已有角色公开头衔“苹果”、简介“who am i?”，SummerHall（98601548）现役名册也直接列出本号。称呼“苹果”及角色名加入aliases，收录号仍用Apple Reborn。
+
+SummerHall历史榜本号1796条、参与击杀目标约638.5B，限定执行军团历史范围；不与Apple Reborn个人累计相加，不据执行团成员身份另认联盟CEO或总指挥。原始角色核读与名册见[执行军团调查](../../../docs/leads/executor-corps-2026-10-11.md)。具体小号战役与岗位继续补查。
+
 身份与取材方向：[B.O.P Supplication For Glorious](https://esi.evetech.net/latest/corporations/98547771/)游戏 CEO；624 角色，D.C。老团招新及本人称号；重料待补。
 
 [Apple Reborn](https://esi.evetech.net/latest/characters/2113791371/)头衔为“苹二，锅大王，甲级战犯”，ESI 与[中文维基军团表](https://eve.huijiwiki.com/wiki/联盟军团)均将其列作 BOP CEO。
@@ -48,3 +54,7 @@
 楼主 Shmily_YTPZ 只留下 dear mumusan 或 akissone 两个联系人，不能据此把 UID746398886 同时对应两个人；“168”“三修龙神”梗与其他回复人物先见[待对应素材](../../../docs/leads/tieba-bop-replies.md)。
 
 补读其余附图：第46楼为2019-09-04 Z-L061，Pierot le Fou 的洛基，3名攻击者，aijianjian wo 贡献81.2%，hharbor和sharp harbor同属RR，不能认作单杀。第51楼为2019-09-09 NM-OEA，Jack Narrii 的海神，6人；Cloud RAN Pappotte 最后一击与57.4%伤害，另有CLOUD DF、Iaya Purvanen、Hegdg Inventor、wu yishui、Apple Reborn，苹二以拉克希斯签名、显示0伤害，不能从零伤害断言没贡献或认定指挥。第140楼为2019-10-24 C4C-Z4，Phunas 的洛基，4名攻击者，soulembers Omanid贡献69.4%，另有Iaya Purvanen、ranran2 small、solitaryman encounter。其余补读图片是表情和影视梗，不增加事件，消化为文字后不保存图片原件。
+
+## BOP历史榜前50名片增量（2026-10-14）
+
+本次ESI头衔仍“苹二，锅大王，甲级战犯”、当前BOP；本人简介空，没有新增具体背锅／指挥事故。CEO、2019主事者与苹果／solitarymax encounter对应复用已有材料，不从这次累计榜倒推任期。队列新增怡红院参谋长等职责名片、以及其他成员同人组；没有把成员普通失舰、交易或泛泛自嘲统归CEO黑料。

@@ -1,0 +1,47 @@
+{
+  "id": 2120025597,
+  "name": "WhyYouSoFW",
+  "birthday": "2022-05-24T03:02:16Z",
+  "current_corporation": {
+    "id": 98702890,
+    "name": "Descendants of Shen Nong",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "ticker": ".DSN"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2022-05-24T03:02:00Z",
+      "end": "2022-05-25T02:40:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2022-05-25T02:40:00Z",
+      "end": "2026-02-13T17:52:00Z"
+    },
+    {
+      "corporation_id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "npc": false,
+      "start": "2026-02-13T17:52:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-14"
+}

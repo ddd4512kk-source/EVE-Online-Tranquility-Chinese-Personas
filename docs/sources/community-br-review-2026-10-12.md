@@ -49,7 +49,7 @@ R-AG7W 为单星系 24 小时包围战窗口，3,446 张 KM，含泰坦、超旗
 | [文华](../../src/people/ranger-yl/ranger-yl.md) | H-PA29 |
 | [六竹](../../src/people/six-bamboo/six-bamboo.md) | H-PA29 |
 | [Freak](../../src/people/freak-03/freak-03.md) | H-PA29 |
-| [执画](../../src/people/ed-bassmaster/ed-bassmaster.md) | H-PA29 |
+| [执画](../../src/people/ed-bassmaster/materials-ed-bassmaster.md) | H-PA29 |
 | [阙](../../src/people/qwquqaq/qwquqaq.md) | H-PA29 |
 | [噩梦](../../src/people/make-nightmare/make-nightmare.md) | H-PA29 |
 | [云森](../../src/people/yun-sen/yun-sen.md) | H-PA29 |
@@ -83,3 +83,5 @@ R-AG7W 为单星系 24 小时包围战窗口，3,446 张 KM，含泰坦、超旗
 | [小绿特](../../src/people/lvte-xiao/lvte-xiao.md) | R-AG7W |
 
 监视者反查：Garveen（2119220143）已归回慕容；Target Chaser（少年）、Coke Chen、Boo Me 的角色与监视者线索已在[DC／PLA 候选材料](../leads/dc-br-monthly-discovery-2026-10-12.md)登记，不重复建立待核页。其他仅有外语简介者不能凭 FRT、DC 或 Goons 旗号认作华人。本轮未扫尽所有联盟历史或全部小号。
+
+2026-10-13人物增量：随风新对应小号Baba s Gandurasa，105128559永灭在H-PA29窗口内，补本人正文与素材。旧“25人”是当时核对数，不代表本次补漏后冻结总人数。

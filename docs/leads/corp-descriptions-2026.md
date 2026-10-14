@@ -104,7 +104,7 @@ nany-1419（昆仑总监）、sword-sun（凤凰城总监）、wy-yang（TCF 顾
 | FRT | Liberal heavy cavalry | Goodman john nebert = 2114662137 |
 | FRT | Lilliburlero Pro. | Brownie Moreau = 2120927262 |
 | FRT | Mighty Putty Inc | Cnda Adian = 1785404874 |
-| FRT | My Little Pony. | (空链接) = 2113506157；nozxbfax = 2114570124；IG LenMo = 2114725189；Nan y = 2118240127；Sakura Snow = 2118437506；Helsingen = 2118973224 |
+| FRT | My Little Pony. | Kylin Effel（原空字链接，2026-10-13查名） = 2113506157；nozxbfax = 2114570124；IG LenMo = 2114725189；Nan y = 2118240127；Sakura Snow = 2118437506；Helsingen = 2118973224 |
 | FRT | Navigators' Union | Rayyyyyyyy = 2121351100 |
 | FRT | Noobs Collecttion | summer Heluene = 2113731219 |
 | FRT | Panda With Red Group | Cai Zhuanxu = 2113795191 |

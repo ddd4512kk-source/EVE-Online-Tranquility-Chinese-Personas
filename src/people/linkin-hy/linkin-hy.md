@@ -1,7 +1,7 @@
 ---
 character_id: 985265753
 cn_name: HY
-aliases: [影枫, Gary CHGS]
+aliases: [影枫, Gary CHGS, SS Model]
 epithet: 麦克风抢到了，旗舰指挥权丢了。
 tags: ["00区", "VRGOD"]
 ---

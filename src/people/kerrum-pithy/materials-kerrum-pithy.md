@@ -30,3 +30,13 @@
 - 贴吧：搜“eve欧服 皮卡 贝斯城管”“notHenryZ”“Kerrum Pithy”“PEKKA 创世”均零结果（“皮卡”撞词）；必应搜“皮卡 创世”仅得无关结果。B 站 API 本次 HTTP 412【搜索失败】；知乎未查。待办：B 站评论区、创世官号会战复盘里的皮卡视角、其他两小号 KM（Vocan Hephaes 损失里有 20 艘同一船型，type 22460 待查）。
 
 2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Ashemi Shaishi（2120636233）](https://zkillboard.com/character/2120636233/) 103.1B ISK；[Vocan Hephaes（2120556255）](https://zkillboard.com/character/2120556255/) 77.6B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+
+## B站公开视频补读（2026-10-13）
+
+- [《[EVE Online 星战前夜] 舰船装配101（非纯新人向扫盲）第零期》](https://www.bilibili.com/video/BV115eszUEWi/)：简介邀请评论纠错，列EVE University Wiki、EVE Ref、Hoboleaks三个资料入口；页面总评论数2，未读。
+- 公开视频页与简介已取得，评论数来自公开元数据，不等于已读评论。
+
+## B站文字评论续查（2026-10-14）
+
+[《舰船装配101》第零期](https://www.bilibili.com/video/BV115eszUEWi/)当前已加载的1个主评论线程及其可见作者补充已读：notHenryZ自己抱怨“画质怎么这么糊”，说之后看看怎么改，随后表示前几期先当播客听、懒得重录。是作者对教学作品制作质量的自评和处理办法；不据此评价未看过的讲解内容。未看影像或听音频。

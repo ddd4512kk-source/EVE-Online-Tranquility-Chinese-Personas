@@ -25,3 +25,84 @@
 ### 2024-11-29 1N-FJ8 黑色星期五 / 角色 2113426221
 - 战斗规模：至少 2.95T；阵营口径：Winter Coalition 与帝国系；此处不重建完整阵营。
 - 样本中出现于 6 条攻击者名单；代表 [KM 122868462](https://zkillboard.com/kill/122868462/)，2024-11-29T13:18:43Z，本人驾驶 莫洛，战时联盟 ID 99004901，本条伤害 28463。
+
+## 漆黑向其报司令泰坦行踪
+
+[共用事件摘要](../../../docs/sources/qihei-siling-titan-intel-2025.md)：NoNo为“龙王的狱友”／漆黑报点的收件人。漆黑连续告知司令泰坦UMI动向，询问无畏并催准备，击杀未成功。公告裁图只展示漆黑单方发言，无NoNo回复/出击/伤害记录；不把收件直接写成NoNo策划或执行，也不记作其击杀战绩。
+
+
+## B站投稿回查（2026-10-13）
+
+- [公开投稿页](https://space.bilibili.com/729015/upload/video)当前作者名“NoNoOwO”，页面显示 160 条投稿；本页可见 40 条标题与不同 BV。简介、影像与评论未读。 其余投稿须按网页分页续读；本轮不宣称全量。
+- 当前160条、4页，本轮首40条；合作稿只说明出现在频道中，需按视频作者、联合投稿和具体视角核对本人贡献。
+
+待读作品入口（只保存标题与链接，不凭标题补造事件）：
+
+| 视频 | 标题 |
+| --- | --- |
+| [BV1a7eJ6wEqo](https://www.bilibili.com/video/BV1a7eJ6wEqo/) | 华人梦之队挺近EVE联盟锦标赛正赛！ |
+| [BV1x2YJ6EE3C](https://www.bilibili.com/video/BV1x2YJ6EE3C/) | [EVE Online]官方紧急安全公告：数百万角色和军团钱包数据泄露的漏洞已解决 |
+| [BV1JWti66ERx](https://www.bilibili.com/video/BV1JWti66ERx/) | [EVE Online]2026年，现在是回坑和入坑EVE的最好时机吗？——带你回顾2024-2026年EVE欧服的大事件、重要更新与改版内容 |
+| [BV1ydtV6JEz5](https://www.bilibili.com/video/BV1ydtV6JEz5/) | [EVE Online]加达里合众国日来了！—免费PLEX以及全新涂装速览 |
+| [BV1fNtW6NEFA](https://www.bilibili.com/video/BV1fNtW6NEFA/) | [EVE Online]第22届AT赛——全新瑞士轮赛制 |
+| [BV1NM4U6jEyo](https://www.bilibili.com/video/BV1NM4U6jEyo/) | [EVE Online]⚡️⚡️一次次的爆蛋刺痛我的心⚡️⚡️ |
+| [BV1hsh563Eao](https://www.bilibili.com/video/BV1hsh563Eao/) | 【EVE ONLINE】侠盗猎坦手 Grand Theft Titan 第一集 |
+| [BV1HDhN6aEK8](https://www.bilibili.com/video/BV1HDhN6aEK8/) | [EVE Online]PLEX、ISK与战争：一场长达八年的金融狂欢与资产泡沫 |
+| [BV1pw8K6cEu2](https://www.bilibili.com/video/BV1pw8K6cEu2/) | [EVE Online]正式官宣：与Google DeepMind展开AI研究合作 |
+| [BV1fng369ENv](https://www.bilibili.com/video/BV1fng369ENv/) | [EVE Online]舰船操作仪表盘改版前瞻公告解析 |
+| [BV1kYuL6MENU](https://www.bilibili.com/video/BV1kYuL6MENU/) | [EVE Online]直到你的船变成一颗蛋 |
+| [BV1emGF6WEAf](https://www.bilibili.com/video/BV1emGF6WEAf/) | 【SnuffedOut】Ignoitton-轰一把900b的旗舰 |
+| [BV1KK3M6hEb1](https://www.bilibili.com/video/BV1KK3M6hEb1/) | [EVE Online]黑隐队是什么？如何从0组建一支黑隐队？ |
+| [BV1CnNE6uErg](https://www.bilibili.com/video/BV1CnNE6uErg/) | EVE Online开源23年引擎代码，万人同屏不卡顿有救了？ |
+| [BV1umVV6REQA](https://www.bilibili.com/video/BV1umVV6REQA/) | [EVE Online]WWB2：长达一年的战争，横跨六年的复仇 |
+| [BV1KDGU62EPM](https://www.bilibili.com/video/BV1KDGU62EPM/) | [EVE Online]《战争摇篮》夏季新版本前瞻全解析 |
+| [BV19rLz6rECN](https://www.bilibili.com/video/BV19rLz6rECN/) | [EVE Online]全新新手星域——始源星域开放！ |
+| [BV13H5r6gEeP](https://www.bilibili.com/video/BV13H5r6gEeP/) | [EVE Online]26年夏季大更新——战争摇篮资料片解读 |
+| [BV1MY5C66EtJ](https://www.bilibili.com/video/BV1MY5C66EtJ/) | [EVE Online]吉他星系独立！海四空间站20年没改的克隆体服务终于实装！ |
+| [BV1F65N6HEXz](https://www.bilibili.com/video/BV1F65N6HEXz/) | [EVE Online]4月份经济报告——大型主权战争导致通货膨胀？ |
+| [BV1FZRtBSEod](https://www.bilibili.com/video/BV1FZRtBSEod/) | 《EVE Online》开发商1.2亿美元易主：更名Fenris Creations，联手Google谷歌搞AI？ |
+| [BV1gt9SBdEkh](https://www.bilibili.com/video/BV1gt9SBdEkh/) | 【SnuffedOut】奥尼能-无膨胀纯享拆星城＆炮决死亡漩涡 |
+| [BV1UbSoBYEUn](https://www.bilibili.com/video/BV1UbSoBYEUn/) | 【EVE ONLINE】超旗不是用来挂靠的。2万古击杀。 |
+| [BV1zMAXzBEvt](https://www.bilibili.com/video/BV1zMAXzBEvt/) | 【EVE ONLINE真视界】联盟队的“救赎” - FRTvs十国联军 1400人720b战损 Taff塔夫旗舰战导演剪辑版。 |
+| [BV157fqBkE5s](https://www.bilibili.com/video/BV157fqBkE5s/) | 【EVE Online】Taff旗舰战。BBC+深水+帝国+INIT VS FRT 末日改版泰坦视角，700b战损。 |
+| [BV1gfrYB7EwX](https://www.bilibili.com/video/BV1gfrYB7EwX/) | 【EVE ONLINE】黑隐Vlog，万古、阿里艾尔、归魂者击杀 |
+| [BV16HhmzaE8W](https://www.bilibili.com/video/BV16HhmzaE8W/) | 【EVE Online】开桥的时候跳跃，跳跃的时候开桥。老人星之战，1T战损。 |
+| [BV1YANozLErj](https://www.bilibili.com/video/BV1YANozLErj/) | 【EVE Online】Lantorn旗舰战，三万亿战损，306条无畏陨落，INIT+SNUFF+FL33T+俄罗斯社区 VS FRT+BIGAB+SC等 |
+| [BV11KJTzcErR](https://www.bilibili.com/video/BV11KJTzcErR/) | 【EVE ONLINE】恰两个大航小零食 180B击杀。 |
+| [BV1LkzJYWEvn](https://www.bilibili.com/video/BV1LkzJYWEvn/) | 【DOTA2】FRT SGCN军团阿阳屠夫show，输出一万七。拉面林直呼不是人，瓜瓜生理不适直接昏迷。阿阳：“逼事真多” |
+| [BV1YxzrYyEZQ](https://www.bilibili.com/video/BV1YxzrYyEZQ/) | 【EVE ONLINE】5泰坦（3势力）1归魂击杀。SNUFF+INIT VS FRAT 天使泰坦（第二次击杀） |
+| [BV1q9HxeEEDn](https://www.bilibili.com/video/BV1q9HxeEEDn/) | 【EVE ONLINE】顶尖虫洞队伍对决 N2H.RUS VS WAW AI字幕失败了，英译中制作中。 |
+| [BV1qRe4eSEAp](https://www.bilibili.com/video/BV1qRe4eSEAp/) | 【EVE ONLINE】无畏遭遇战BBC+TAMA VS SC+Sedition |
+| [BV1upvQekEBR](https://www.bilibili.com/video/BV1upvQekEBR/) | 【EVE ONLINE】1400亿击杀，元帅队团灭。 |
+| [BV1qrv4eHE9A](https://www.bilibili.com/video/BV1qrv4eHE9A/) | 【EVE ONLINE】原神联盟 waw avdot 击毁DC过路大航 |
+| [BV1Cxvwe4EHd](https://www.bilibili.com/video/BV1Cxvwe4EHd/) | 【EVE Online】耶舒尔矿机拆除。SGCN + Chuangshi + BBC VS Bigab + Sedition + SC |
+| [BV1e58ueJE4s](https://www.bilibili.com/video/BV1e58ueJE4s/) | 【EVE ONLINE】Chiffas&Lussylou纪录片《虫洞入侵》第三集。EVICTION Ep.3 低安小团入镜 |
+| [BV1XMb9eMES9](https://www.bilibili.com/video/BV1XMb9eMES9/) | 【EVE ONLINE】16亿的月矿矿机引发的2万亿惨案，伊格诺无畏战。 |
+| [BV1GM4m1f75p](https://www.bilibili.com/video/BV1GM4m1f75p/) | 【EVE ONLINE】新版本预告，关爱空巢老人，工作几辈子，Upwell在行动。（熟肉2k） |
+
+## 宁静访谈AVDOT一期（2026-10-13）
+
+[《华人圈数一数二的PVP军团，排行榜位列前面的强大公司。欢迎avdot的到来！》](https://www.bilibili.com/video/BV1mt4y137zJ/)，EVE白杉（UID1273724812），2022-08-04，单P5105秒。作者置顶点名制作宁静周刊编辑部，主持白杉、六一，嘉宾NoNo、小派，后期文华、NarcissaAa。多个评论重复“我是小派铁粉 派XO”，NoNoOwO留言“LGD- AME -小派”；以既有UP身份归本人。小派尚未对上收录角色，不从同场嘉宾关系编其游戏号。标题不作PVP第一名或指挥证据。页面、简介及最多20个已加载主评论线程已读；影像未看、未自动翻页／展开楼中楼，公开reply总数27不等于全读。这是白杉投稿，不增NoNo本人作品推荐数量。
+
+
+## 怯薛争议附图续读
+
+见[共享摘要](../../../docs/sources/kheshig-removal-debate-2025.md)：7张主楼附图已读，Kuroda Kanbee头衔、同团经历及历史CEO对应归扎克；流传欢迎词点名折纸并感谢NoNo，未将其作为Snuff官方任命或具体组织迁移的证明。旧出勤截图缺窗口，不补整体统计。
+
+## 2026-10-14：Taff投稿与评论续查
+
+[《联盟队的“救赎”》](https://www.bilibili.com/video/BV1zMAXzBEvt)作者NoNoOwO（729015）；简介“编剧少侠，编舞表妹”，不能因提到少侠就把视频归成少侠投稿。已读19个主评论线程及直接显示回复：NoNo确认海哥哥与故作温柔一直在玩，CabbageTimil质疑“十国联军”为标题党、称只数出六国；另有观众复述战局、贴出另一BR，来源与后续入口均归[共享素材](../../../docs/sources/large-battles-2026-10-11.md#b站文字评论续查2026-10-14)。未读折叠回复，未看影像。
+
+2026-10-14继续消化：作品协作署名、白菜的“六国／UC党”批评，以及NoNo关于海哥哥和故作温柔近况的回应已入列传。战局的观众复述仍留共享材料，不据其安排人物总指挥或细化未核命令；新BR窗口仍待核。
+
+“救赎”“十国联军”与编剧／编舞／合舞的包装按反串、嘲讽与言不由衷理解；这部分及白菜拆台改归黑料，不作为真诚赞誉或创作成绩的红料。NoNo关于海哥哥、故作温柔仍在玩的回应单独保留为正文背景。
+
+## 北方战争：向 Asher 递送内部舰队统计
+
+- **公开出处**：[《重要消息！凛冬太子深夜叛逃帝国》](https://tieba.baidu.com/p/8754812128)，eve欧服吧，干将莫邪（tsarwolfox），2023-11-29。主楼附图的 NoNo 与 Asher 对话已读；同帖明确讨论 Snuff、AVDOT、Noraus 及 B2 北方战争，沿用既有 NoNoFire／NoNoOwO 对应。主楼称 Noraus 在“猪头歌会”痛斥 NoNo，属帖主说法，没有取得对应讲话。
+- **对话经过**：NoNo 先要求保证绝密，称可持续提供有价值的机密；Asher 回“I don't share info”。NoNo 随后列 BFL 的 Nightmare、Horde 的 TFI／AHA、NC 的 TFI 与无畏、FRT 中英文 TFI 及中文 Muninn 队信息。数量被涂挡，不还原。NoNo 强调是对方内部统计，因此数字更准确，称以后可能取得无畏数量，自己没睡着便发送，并叮嘱“Don't lose to them”。Asher 分别回复“thank you”“ok thanks”，最后“will try our best”。
+- **措辞校正**：“I don't share info”由 Asher 说，不是 NoNo 的“I don't leak intel”。可见对话是主动递送情报，无报价、付款或谈报酬；正文写递送内部统计，不写已收钱卖情报。
+- **同期反应**：#7 楼中楼神奇的忽悠解释 NoNo 提供船型与数量，还想补无畏数；#15 hwzbd 嫌没有消息，称 Asher 的两个致谢像打发叫花子；#16 俞晟eee 骂“这种垃圾Intel狗都不要好伐”；#24 愚民无罪称热脸贴冷屁股，认为蜜蜂不需别人通报对手编制。低劣评价来自评论，不据此断言 Asher 拒收、认定消息无用或具体泄露动机。
+- **公开过程与说法**：圈内说法称 Asher 将聊天放上论坛；#9 卯月爱丽丝也推测图只能是 Asher 放出，认为能搅乱 Snuff／FRT 潜在关系；#22 板栗小DD称“A皇出卖Nono”。Asher 首发论坛帖子、发帖日期与公开原因仍待找，现有贴吧转载日不当作聊天日；不把因情报低劣而公开写成 Asher 本人表态。
+- **其他待补材料**：#3 骑士荣光称二人曾是私下朋友、Noraus 被捅两刀；#18—19 乃散7用“我有一个朋友”讥讽其跟 FRT 队却给 Snuff 透露消息，并称旧系列已删；#29 弋魔称 NoNo 曾因怀疑 spy 踢掉 AVDOT 十年成员；#30 寂寞大叔爱你吗称 FRT 入寂静谷后 NoNo 向 Snuff 提供超旗行踪并归因双方仇怨。均留作具体现任期、事件及当事人的续查线索，不凭这些概括补出另一场击杀、踢人经过或责任。
+- **阅读覆盖与检索缺口（2026-10-15）**：正倒序各1页，29个可见主楼、17个可见楼中楼文字均已读，#28楼中楼仅2/3，#32附图未读。主楼聊天图已消化为文字，不长期保存原图。网页英文检索未取得相关原帖；Reddit 存档检索 `nono` 时 api.pullpush.io 返回 HTTP429，立即停止，属于取材失败。帖子已读部分的事件与争论已入列传；首发论坛链和上述另案细节仍待补。

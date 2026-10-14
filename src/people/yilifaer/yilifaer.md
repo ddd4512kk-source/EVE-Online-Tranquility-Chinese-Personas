@@ -1,9 +1,9 @@
 ---
 character_id: 2117737129
 cn_name: 伊利法尔
-aliases: [Yilifaer, yilifaerr, Yilifaer-Eli, 法尔]
+aliases: [Yilifaer, yilifaerr, Yilifaer-Eli, yilifaerrrrrrr, 法尔]
 epithet: 中文请去语音，选票请给我。
-tags: ["00区", "IGC", "UREX"]
+tags: ["00区", "IGC", "UREX", "B站"]
 ---
 
 伊利法尔在 IGC 当过 FC、外交官和联盟总监，后来自己建了 Your Ex's，CEO 挂在小号 Yilifaer-Eli 名下。管过联盟的人再管自己的军团，法尔的规矩也有了新门牌：他说中文玩家在公共频道用中文是“丢人现眼”，转头又站出来竞选 CSM，要替中文玩家发声。
@@ -12,6 +12,12 @@ tags: ["00区", "IGC", "UREX"]
 从玄武的新手教学到朱雀的零安队伍，法尔一路做到了 IGC 管理层。2025 年他在联盟里自建 [Your Ex's](https://evewho.com/corporation/98806948)：主号 yilifaer 是创建人，CEO 是他的小号 Yilifaer-Eli。军团后来挂着三百多号人，已不是随便拉个群就能充数的小摊。
 
 同年他以 yilifaerr 的名字[竞选 CSM 20](https://forums.eveonline.com/t/yilifaerr-for-csm-20-the-voices-of-new-players-small-alliance-and-the-chinese-community/498435)，[CCP 候选人名单](https://www.eveonline.com/news/view/csm-20-candidate-announcements)也列了他。竞选稿不光讲要替新人、小联盟和中文社区说话，还提出给军团 LP 转账加交易记录、补齐建筑相关 ESI 接口、把倒计时显示成准确时间。组人、带队、自己开团，再拿出这些具体问题，履历确实拿得出手；至于“替谁说话”，还得接着看他平时怎样跟自己人说话。
+:::
+
+::: 红料 黑色星期五，双方都赢了
+2024 年 11 月，法尔转发[黑色星期五的 INIT 视角](https://www.bilibili.com/video/BV1REzjYGE3R/)，评论区有人宣布 FRT 赢了，他却说双方都赢，自己觉得 FRT 赢得更多：“因为泰坦都开了DD 很爽。”别人还在算战损，他先替驾驶员算爽度；旗舰大战难得开成一次，外交官也懂得把胜负说成两边都有节目。
+
+有人讥讽投大鱼还跳泰坦救，他又回“相互剧本，大家都等着呢”。这一回的公共频道规矩倒宽：你可以笑对手，也可以夸对手，最后留一句 GF，账本就先让位给热闹。观众催中文字幕，他承认昨晚弄得太晚、没加；替中文玩家发声的那个人，也有忙完一夜顾不上翻译的时候。
 :::
 
 ::: 黑料 KB 公开战报，也要问是哪位线人

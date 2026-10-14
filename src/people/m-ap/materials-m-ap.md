@@ -31,3 +31,32 @@
 - 贴吧：命中一条回复提及；同名词撞大量战锤资料，未找到可核的本人完整事件帖。
 - 搜索引擎：精确名加 EVE、B 站视频检索零结果；泛词结果主要为同名噪声。
 - B 站：短链和 UID 命中；公开名片接口显示 25 条投稿。搜索引擎索引的账号投稿页可见《小型矿队出站》《给我抽爽了》《对面驱逐舰估计已经麻了》等标题，但未核具体游戏与视频内容，暂不归入 EVE 事迹。2026-10-10 间隔数小时重试投稿列表仍为 HTTP 412，属搜索失败；后续按 UID 重试投稿、评论和动态。
+
+
+## B站投稿回查（2026-10-13）
+
+- [公开投稿页](https://space.bilibili.com/355678453/upload/video)当前作者名“一般路过的机械神甫”，页面显示 22 条投稿；本页可见 22 条标题与不同 BV。简介、影像与评论未读。
+- 列表当前为22条，旧名片25条保留为历史快照；当前页明确有WINGS突袭大鱼和8F无畏战，原先索引里的“小型矿队”等其他作品仍须按具体游戏核对。
+
+待读作品入口（只保存标题与链接，不凭标题补造事件）：
+
+| 视频 | 标题 |
+| --- | --- |
+| [BV1DbeqzoEyi](https://www.bilibili.com/video/BV1DbeqzoEyi/) | 小型矿队出站 |
+| [BV168TWzvEv1](https://www.bilibili.com/video/BV168TWzvEv1/) | 给我抽爽了 |
+| [BV11V94Y4ESh](https://www.bilibili.com/video/BV11V94Y4ESh/) | 对面驱逐舰估计已经麻了 |
+| [BV11sFPeGEtf](https://www.bilibili.com/video/BV11sFPeGEtf/) | 粉色赖皮弹必玩项目秒超轻巡 |
+| [BV12u4y1779D](https://www.bilibili.com/video/BV12u4y1779D/) | 我要没记错的话，这个广告里的画面是个早就凉透的游戏叫破碎空间 |
+| [BV1yW4y1Z7e4](https://www.bilibili.com/video/BV1yW4y1Z7e4/) | 到底是0721，内战还剩8点血都能翻盘 |
+| [BV12v4y1y78y](https://www.bilibili.com/video/BV12v4y1y78y/) | 搁QQ看点刷到果冻被营销号当素材了 |
+| [BV1qe411w7wJ](https://www.bilibili.com/video/BV1qe411w7wJ/) | 现代战舰，飞天航母活动 |
+| [BV1rW4y1Y7wZ](https://www.bilibili.com/video/BV1rW4y1Y7wZ/) | 总算是买到白天鹅了，期待了好久 |
+| [BV1dB4y1v7E3](https://www.bilibili.com/video/BV1dB4y1v7E3/) | 普通的次元斩挑战 |
+| [BV1ZB4y1y7Vi](https://www.bilibili.com/video/BV1ZB4y1y7Vi/) | 神降临在我身边 |
+| [BV1gY411c7Ss](https://www.bilibili.com/video/BV1gY411c7Ss/) | 现代战舰，055匹配实战 |
+| [BV1ca41187Rj](https://www.bilibili.com/video/BV1ca41187Rj/) | 现代战舰15级萌新的第一条三级航母 |
+| [BV1KS4y137Jf](https://www.bilibili.com/video/BV1KS4y137Jf/) | 战舰联盟每日挑战普通的42过关打法 |
+| [BV1Bq4y1h7oy](https://www.bilibili.com/video/BV1Bq4y1h7oy/) | （战舰联盟）这什么鬼bug，巡洋上反航母装置了？？ |
+| [BV1BY411t7Vt](https://www.bilibili.com/video/BV1BY411t7Vt/) | 萌新的地平线真人对局 |
+| [BV1Em4y1X7Di](https://www.bilibili.com/video/BV1Em4y1X7Di/) | 萌新第一艘金条船人机尝试 |
+| [BV1Wv411H7Mk](https://www.bilibili.com/video/BV1Wv411H7Mk/) | 奇数骑4回合然后对面人没了 |

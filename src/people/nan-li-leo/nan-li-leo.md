@@ -18,7 +18,7 @@ Nan Li Leo，北极星（PMA）虫洞圈的老成员。[2025 年 3 月的帝国�
 :::
 
 ::: 红料 亲手把旧交易摆上桌
-2025 年 3 月，帝国新闻社刊出[交易梳理与对他的采访](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)；随后 Reddit 的[英文爆料帖](https://www.reddit.com/r/Eve/comments/1jmkw13/)署名 We Love Cody 的 CEO Code Earth。Nan Li Leo 在评论区说，帖子由他代 Code Earth 发布。
+2025 年 3 月，帝国新闻社刊出[交易梳理与对他的采访](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)；随后 Reddit 的[英文爆料帖](https://www.reddit.com/r/Eve/comments/1jmkw13/)署名 We Love Cody 的 CEO [Code Earth](../2112856066/)。Nan Li Leo 在评论区说，帖子由他代 Code Earth 发布。
 
 报道列出卖家、买家、三艘西布勒和双方的聊天内容。肯把自己放进中间人名单，确实让这笔交易有了一个可追问的人；也让自己从旁观者变成了当事人。
 :::

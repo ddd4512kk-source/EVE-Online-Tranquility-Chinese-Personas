@@ -25,14 +25,14 @@
 | Maria Taylor | [Maria](../../src/people/maria-taylor/materials-maria-taylor.md) | IT 联系人；中文页最后修订人 |
 | FUXI-Mina Dethahal 瞑衍 | [瞑衍](../../src/people/mina-dethahal/materials-mina-dethahal.md) | 势力战争管理组，A 低安战争负责人 |
 | CACX-Flashing shark 星星定乾坤 | [星星](../../src/people/flashing-shark/materials-flashing-shark.md) | 总人事 |
-| NUWA-FlyingBee 蜜蜂 | [蜜蜂](../../src/people/flyingbee/) | 后勤燃料组；补损组 |
-| AMIYA-Freak 03 | [Freak](../../src/people/freak-03/) | 补损组 |
+| NUWA-FlyingBee 蜜蜂 | [蜜蜂](../../src/people/flyingbee) | 后勤燃料组；补损组 |
+| AMIYA-Freak 03 | [Freak](../../src/people/freak-03) | 补损组 |
 | NBCLT-Ephemera Winter 蜉蝣 | [蜉蝣](../../src/people/ephemera-winter/materials-ephemera-winter.md) | CN 外交组 |
 | Nolange | [瓜瓜 / Jolange Joestar](../../src/people/jolange-joestar/materials-jolange-joestar.md)；Nolange（2117214189）是其号 | CN 执行领导组；CN 军事 |
 | Rexanna | [七夜 / SeVenNight Deng](../../src/people/seven-night-deng/materials-seven-night-deng.md)；Rexanna（1433608019，2007 年建号）是其号 | CN 执行领导组；CN 军事 |
 | AWSL.-huozhang ji 季火掌 | [季火掌](../../src/people/huozhang-ji/materials-huozhang-ji.md) | 仓库管理 |
 | LSP.-Illegal-ChenYi Mist 非法 | [非法](../../src/people/illegal-chenyi-mist/materials-illegal-chenyi-mist.md)，主号 Illegal-ChenYi Mist；LSP. CEO 号 Naoxina | 势力战争管理组，C-Guard 战争负责人 |
-| DOCTOR | 大概是[黑色乌鸦 / Docter Hikanami](../../src/people/docter-hikanami/)，仅凭名字形近，未核 | EN/CN 战略协调 |
+| DOCTOR | 大概是[黑色乌鸦 / Docter Hikanami](../../src/people/docter-hikanami)，仅凭名字形近，未核 | EN/CN 战略协调 |
 
 | KHESH-Raok Hilanen 汉堡 | [汉堡](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 市场监测；Atioth Monitor 参战记录已入列传 |
 

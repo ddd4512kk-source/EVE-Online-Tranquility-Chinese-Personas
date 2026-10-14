@@ -84,3 +84,7 @@
 **H-PA29**，2022-12-03 17:00–2022-12-04 00:00 UTC，各方总损失 413,155,605,975 ISK（大型）。
 
 - 角色 690534767；流浪（11999）；战时 FRT（联盟 99003581／军团 98108175）；攻击者记录 6 条，代表 [KM 105127635](https://zkillboard.com/kill/105127635/)。
+
+## 2024猎獒记录与对方配文（2026-10-14核）
+
+[117323348](https://zkillboard.com/kill/117323348/)，2024-04-26 13:23:45 UTC，D manson／TCF／FRT损失猎獒60764，共15攻击者。珅的主号JiaShen Yangg在DC／SCG一方、伤害27，简介挂此KM并配“Tracking distrupting a missile ship is so worth it”。它是对方的点评，不是D哥哥自述配装或承认操作失误；原始名单不能独立证实具体跟踪干扰操作。普通猎獒战损不按泰坦／超旗黑料；战果及人物互链归[珅素材](../jiashen-yang/materials-jiashen-yang.md)。

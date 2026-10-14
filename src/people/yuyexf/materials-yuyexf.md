@@ -7,3 +7,7 @@ ESI yuyexf／2119472595（2026-10-12），头衔“雨夜星峰”，当前PLA�
 PLA zrxzhh／2122520286公开简介“一切坏事都是yuyexf指示的”，是戏仿题签，不是具体指控，不合并两号为同人。
 
 本轮未刷新B站专栏，使用已消化材料；先前全文与平台读取边界仍适用。
+
+## Feng Tsero号与AOM旧月榜
+
+2026-10-13读取[ESI角色2115928904](https://esi.evetech.net/latest/characters/2115928904/)：Feng Tsero，中文头衔雨夜星峰（括号昵称春梦），当前PLA／98190062，与yuyexf的相同中文头衔、同军团对应本人，归入别名；不保留头衔平台编号。[AOM 2021年9月榜](https://zkillboard.com/alliance/99009082/top/year/2021/month/9/)列本号第1、529条参与击杀。月榜支持该号当月在AOM参与战斗，不是529场出勤，不认具体指挥。完整队列见[共用续查表](../../../docs/leads/aom-monthly-2021-09.md)。

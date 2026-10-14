@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+import { readBilibiliSession } from "./bilibili-session.mjs";
 import { researchFetch, markResearchHostStopped } from "./request-guard.mjs";
-// B 站取材工具（只用于取材，不接入构建）。匿名访问公开接口，不需要登录。
+// B站取材工具（只用于取材，不接入构建）。优先复用已授权Chrome中的B站会话；没有会话时匿名访问。
 //
 // 用法：
 //   node scripts/research/bilibili.mjs user <关键词> [页]    搜 UP 主（mid、昵称、粉丝、签名）
@@ -10,8 +11,8 @@ import { researchFetch, markResearchHostStopped } from "./request-guard.mjs";
 //   node scripts/research/bilibili.mjs video <BV号[,BV号…]> [评论页数] 视频简介、分 P、热门评论；多个 BV 用逗号分隔，间隔 20 秒
 //   node scripts/research/bilibili.mjs dynamics <mid>        UP 主近期动态（含专栏/图文）
 //
-// 接口被风控（-352、-412、412）时脚本立即报【搜索失败】并退出，不重试：IP 已被锁，重试只会延长封锁。
-// 冷却至少 30 分钟，期间不要再以任何方式请求 B 站（含 curl）；不能当成零结果。
+// 接口被风控（-352、-412、412）时停止 API 请求并冷却至少 30 分钟；不证明整个 IP 不可用，不能当成零结果。
+// Chrome 公开网页回查另用 bilibili-chrome-read.mjs，按取材手册的会话、覆盖与浏览器停止规则执行；不借此续打 API。
 // 成功的响应缓存在 .cache/bilibili/，重跑同一命令复用缓存（加 --fresh 强制刷新）；只有真要联网时才取 cookie。
 // 多个视频仍请用一次 video 调用批量读。
 
@@ -24,6 +25,8 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 let cookie = '';
 
 async function initCookie() {
+  cookie = await readBilibiliSession();
+  if (cookie) return;
   const r = await researchFetch('https://www.bilibili.com/', { headers: { 'User-Agent': UA } });
   const set = r.headers.getSetCookie?.() ?? [];
   cookie = set.map(c => c.split(';')[0]).join('; ');
@@ -62,7 +65,7 @@ async function api(url, referer = 'https://www.bilibili.com/') {
   const why = j ? `接口返回 ${j.code} ${j.message ?? ''}` : `HTTP ${r.status}`;
   const limited = r.status === 412 || j?.code === -352 || j?.code === -412;
   if (limited) markResearchHostStopped('bilibili.com');
-  fail(limited ? `${why}（风控：冷却至少 30 分钟，期间不要再请求 B 站）` : why);
+  fail(limited ? `${why}（API风控：冷却至少30分钟，期间不要再请求B站API；Chrome网页回查见取材手册）` : why);
 }
 
 function fail(msg) {
@@ -74,6 +77,7 @@ function fail(msg) {
 const MIXIN = [46, 47, 18, 2, 53, 8, 23, 32, 15, 50, 10, 31, 58, 3, 45, 35, 27, 43, 5, 49, 33, 9, 42, 19, 29, 28, 14, 39, 12, 38, 41, 13, 37, 48, 7, 16, 24, 55, 40, 61, 26, 17, 0, 1, 60, 51, 30, 4, 22, 25, 54, 21, 56, 59, 6, 63, 57, 62, 11, 36, 20, 34, 44, 52];
 let mixinKey;
 async function wbi(params) {
+  if (!cookie) await initCookie();
   if (!mixinKey) {
     const nav = await (await researchFetch('https://api.bilibili.com/x/web-interface/nav', { headers: { 'User-Agent': UA, Cookie: cookie } })).json();
     const key = f => f.slice(f.lastIndexOf('/') + 1).split('.')[0];

@@ -23,3 +23,54 @@
 - **本人论坛发帖：搜索失败 / 未完成全量。** 按角色名查询没有可靠的论坛本人账号或完整发帖列表。贴吧账号只在已读帖子中按发言核对，未建立完整账号发帖清单。
 - **B 站：部分命中，内容核读未完成。** 搜索命中 EVE波格得 UID 17754851；投稿列表接口调用无输出，热门视频简介与评论未能完成核读。当前角色简介的直播间与该 UP 身份未合并。
 - **封禁：只有社区说法。** 未找到 CCP 官方处罚公告或可核验封禁原因。正文仅作为贴吧爆料，且把旧号与当前角色分开。
+
+
+## B站投稿回查（2026-10-13）
+
+- [公开投稿页](https://space.bilibili.com/17754851/upload/video)当前作者名“EVE波格得”，页面显示 333 条投稿；本页可见 40 条标题与不同 BV。简介、影像与评论未读。 其余投稿须按网页分页续读；本轮不宣称全量。
+- 当前页有“国服商业／国服超核”标题；宁静角色与此 UP、直播间的对应仍未桥接，不把这些视频自动套给欧服波格得。
+
+待读作品入口（只保存标题与链接，不凭标题补造事件）：
+
+| 视频 | 标题 |
+| --- | --- |
+| [BV12ZpE6REhb](https://www.bilibili.com/video/BV12ZpE6REhb/) | 【10/11日记】渔业资源丰富！ |
+| [BV1o2hk6fEDy](https://www.bilibili.com/video/BV1o2hk6fEDy/) | EVE直播趣事分享 |
+| [BV1cft366EA1](https://www.bilibili.com/video/BV1cft366EA1/) | 【9/01日记】被打了，请不要退模块 |
+| [BV1Jftn6hEpE](https://www.bilibili.com/video/BV1Jftn6hEpE/) | 【8/30日记】渔业资源枯竭，开始抢死亡 |
+| [BV1hx496uEsW](https://www.bilibili.com/video/BV1hx496uEsW/) | 【逛街日记】单浪性价比之王丰碑级 |
+| [BV1pM8g6kEPh](https://www.bilibili.com/video/BV1pM8g6kEPh/) | 【逛街日记】顶级侧向漂移起步战列！ |
+| [BV1WjgP65ERC](https://www.bilibili.com/video/BV1WjgP65ERC/) | 【逛街日记】28抗PLD的确硬~ |
+| [BV1M2gs65EYs](https://www.bilibili.com/video/BV1M2gs65EYs/) | 【逛街日记】一针一条掠夺，运气很好！ |
+| [BV1FBuB6PEZZ](https://www.bilibili.com/video/BV1FBuB6PEZZ/) | 【逛街日记】双注的魔像的确很硬，8月11日记 |
+| [BV1tcNc6FEmk](https://www.bilibili.com/video/BV1tcNc6FEmk/) | 【国服商业】超核礼包 |
+| [BV1rPN76wEZu](https://www.bilibili.com/video/BV1rPN76wEZu/) | 【国服商业】回收国服超核礼包！ |
+| [BV1L6Mj6bELM](https://www.bilibili.com/video/BV1L6Mj6bELM/) | 【直播趣事】国服超核5折啦~ |
+| [BV17PM36UE1e](https://www.bilibili.com/video/BV17PM36UE1e/) | 【直播趣事】单浪高价值击杀合集 |
+| [BV1mujR6kEmb](https://www.bilibili.com/video/BV1mujR6kEmb/) | 【直播趣事】截击暴打奥苏斯，只能掉头就跑~ |
+| [BV1sXjE6qEn5](https://www.bilibili.com/video/BV1sXjE6qEn5/) | 【直播趣事】宇宙最强截击，复刻全场！！ |
+| [BV1FcEC6TEoG](https://www.bilibili.com/video/BV1FcEC6TEoG/) | 【直播趣事】拦截虎就位，请交税！ |
+| [BV1BS7D6XE1p](https://www.bilibili.com/video/BV1BS7D6XE1p/) | 【直播趣事】我被泡了，怎么走？ |
+| [BV14c7C6VENd](https://www.bilibili.com/video/BV14c7C6VENd/) | 【直播趣事】你好，停船，请接爱检查！ |
+| [BV1izVB6TEJr](https://www.bilibili.com/video/BV1izVB6TEJr/) | 【直播趣事】ESS专业税管记录 |
+| [BV1WhVh68Ett](https://www.bilibili.com/video/BV1WhVh68Ett/) | 【直播趣事】5月29日逛街 |
+| [BV1GQG16EEQY](https://www.bilibili.com/video/BV1GQG16EEQY/) | 【直播趣事】5月27日逛街 |
+| [BV1ZPLe6aEDi](https://www.bilibili.com/video/BV1ZPLe6aEDi/) | 【直播趣事】5月21日逛街 |
+| [BV1Ry5v6FEsp](https://www.bilibili.com/video/BV1Ry5v6FEsp/) | 今天换个工具爬坡，零消耗！ |
+| [BV1N35b6bEHw](https://www.bilibili.com/video/BV1N35b6bEHw/) | 【直播趣事】5月11日逛街 |
+| [BV1wG5s6GET8](https://www.bilibili.com/video/BV1wG5s6GET8/) | 【直播趣事】5月10日逛街 |
+| [BV1VjR9BCE9C](https://www.bilibili.com/video/BV1VjR9BCE9C/) | 【直播趣事】5月9日逛街 |
+| [BV1phRSBmEY8](https://www.bilibili.com/video/BV1phRSBmEY8/) | 又到了每天能出车的日子啦！ |
+| [BV1AadGBLEuC](https://www.bilibili.com/video/BV1AadGBLEuC/) | 【直播趣事】5月8日逛街 |
+| [BV1uXRsBxEm4](https://www.bilibili.com/video/BV1uXRsBxEm4/) | 整座山被花香包裹着🚴‍♂️ |
+| [BV1DY9hBzEsZ](https://www.bilibili.com/video/BV1DY9hBzEsZ/) | 【EVE波格得】最新视频来袭，快来看看吧！ |
+| [BV1ySoQBFEaS](https://www.bilibili.com/video/BV1ySoQBFEaS/) | 【直播趣事】4月25日击杀记录 |
+| [BV1oqo5BCEkJ](https://www.bilibili.com/video/BV1oqo5BCEkJ/) | 【直播趣事】4月24日击杀记录 |
+| [BV1fKoeBvE15](https://www.bilibili.com/video/BV1fKoeBvE15/) | 【直播趣事】支援恶狼跳0米，不知道怎么想的~ |
+| [BV1W1o4BdEiJ](https://www.bilibili.com/video/BV1W1o4BdEiJ/) | 正元数字服务中心 |
+| [BV111oKBNEL8](https://www.bilibili.com/video/BV111oKBNEL8/) | 【直播趣事】诱杀官员爆狼级~ |
+| [BV1bbdzBwEMU](https://www.bilibili.com/video/BV1bbdzBwEMU/) | 【直播趣事】难得一见的刷怪蛇鹈级！ |
+| [BV1gPdBB8Euu](https://www.bilibili.com/video/BV1gPdBB8Euu/) | 【EVE波格得】视频已打包，欢迎围观！ |
+| [BV1sndhBvEZ1](https://www.bilibili.com/video/BV1sndhBvEZ1/) | 【直播趣事】今天吃好喝好了！ |
+| [BV1ahQEBvEeH](https://www.bilibili.com/video/BV1ahQEBvEeH/) | 【直播趣事】跟VVV好朋友练手 |
+| [BV1j5DQBaE5J](https://www.bilibili.com/video/BV1j5DQBaE5J/) | 【直播趣事】VVV的0MV首星ESS战斗记录 |

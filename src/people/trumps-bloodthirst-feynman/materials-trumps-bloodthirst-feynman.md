@@ -68,3 +68,18 @@
 | 2113483277 | 29986 | 4-HWWF | 99003581 | [134999029](https://zkillboard.com/kill/134999029/)，攻击者 |
 
 正文已将本场经历并入战绩红料，原综合 KB 与其他战役保留；常规舰损失只作参战依据，不增黑料。
+
+## 2026-10-13天团活跃争论
+
+共用[来源摘要](../../../docs/sources/corp-vitality-debate-2025.md)。UID2859130668既有本人账号链复用；2025-02说明活跃下降，2026-04晒SARD标300的分组回旧帖，补为社区回应，不把AFK当黑料、角色数当真人、战报截图当个人指挥战果。
+
+
+## 2026年3月：成员用PAP奖励合同招新
+
+来源及阅读覆盖见[新人出勤讨论](../../../docs/leads/newbie-activity-expulsion-2026.md)。wqfjg008自称三个月买神使、泰坦比外面便宜200亿；价格与税率按该成员当时说法，不作为当前市场承诺。附图发行方Trumps Blo、军团全称及PAP备注对应本人，多档伊甸币合同说明公开奖励安排，不证明已全部成交，也不换算ISK。
+
+## 特执前50头衔同人
+
+2026-10-14[RRLF poi／2113745657](https://esi.evetech.net/latest/characters/2113745657/)头衔嗜血、总有刁民想害朕，当前同SARD，归本人另一号。[Deedlit Liu／2112867111](https://esi.evetech.net/latest/characters/2112867111/)也直接自报嗜血，当前FRT；[ESI军团履历](https://esi.evetech.net/latest/characters/2112867111/corporationhistory/)含2018-04-29、2023-11-13、2024-04-30三段入SARD，2025-10-13离SARD到当前98599770，归本人另一号。两号列aliases，不把各号榜数直接相加；其他战役参战沿事件另核，名片不是全历史操作证明。
+
+littleguardsman LBLwings（2112541604）头衔明确“嗜血代管”，当前SARD；仅留代管线索，原号主、具体代管时段及每场操作人未核，不列本人小号，不把全部泰坦损失或击杀自动归本人。来源为[该号ESI](https://esi.evetech.net/latest/characters/2112541604/)。

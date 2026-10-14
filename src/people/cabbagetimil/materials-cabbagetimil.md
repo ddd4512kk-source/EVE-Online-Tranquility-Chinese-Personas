@@ -18,3 +18,7 @@
 - CaiGou CabbageTimil（2116264387）：[ESI角色](https://esi.evetech.net/latest/characters/2116264387/)中文头衔“白菜”，当前军团98617103，与收录号同词根、同中文头衔、同当前军团，归同一人并补aliases，不另立传。
 - Faceless.历史榜第46，1163条参与击杀、772727650920.95 ISK；统计仅限该军团，不与收录号相加。
 - 未新增本人战役或Monitor证明；此次只补角色对应与军团榜范围。
+
+## Taff标题争论（2026-10-14）
+
+[NoNo《联盟队的“救赎”》](https://www.bilibili.com/video/BV1zMAXzBEvt)已读评论中，CabbageTimil说“哪来的十国联军，我数了半天就6国”，并批评“一个个不学好天天UC党”。归本人对同行片名的公开批评；六国是他的计数说法，不替换共享BR分组。评论全文范围和影片实际作者见[共享素材](../../../docs/sources/large-battles-2026-10-11.md#b站文字评论续查2026-10-14)，未看影像。已入列传一块作品互动。

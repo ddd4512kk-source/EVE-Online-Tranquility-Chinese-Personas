@@ -2,7 +2,7 @@
 
 ## 炽天 / chitian / KZU CEO
 
-收录角色：**chitian（2120421439）**。已有[列传源文件](chitian.md)。[ESI 角色头衔](https://esi.evetech.net/latest/characters/2120421439/)为“炽天 清风不语，明月自来”；[Knight of Zero Ultra（98808817）](https://esi.evetech.net/latest/corporations/98808817/)创建者和现任 CEO 都是此号，军团简介亦直接以游戏角色链接署名“炽天”。KZU 是军团简称，不是另一个玩家名；chitian hehehe与chitian xiao已由后述2026-10-12军团榜反查合并；chitian huhuhu仍缺对应记录。不将各号统计相加。
+收录角色：**chitian（2120421439）**。已有[列传源文件](chitian.md)。[ESI 角色头衔](https://esi.evetech.net/latest/characters/2120421439/)为“炽天 清风不语，明月自来”；[Knight of Zero Ultra（98808817）](https://esi.evetech.net/latest/corporations/98808817/)创建者和现任 CEO 都是此号，军团简介亦直接以游戏角色链接署名“炽天”。KZU 是军团简称，不是另一个玩家名；chitian hehehe与chitian xiao已由后述2026-10-12军团榜反查合并；chitian huhuhu已按下述同团同中文头衔记录归本人。不将各号统计相加。
 
 ### 素材与证据边界
 
@@ -48,8 +48,8 @@
 ## 2026-10-12：Family Guy历史榜反查同人号
 
 - chitian hehehe（2113788113）：[角色ESI](https://esi.evetech.net/latest/characters/2113788113/)头衔“炽天 清风不语，明月自来”，当前Knight of Zero Ultra（98808817），与收录号同词根、同中文头衔、同当前军团，归同一人。简介连续两次招募白魔爪，第二次原话“【已报备】白魔爪友爱小团招新，新人生产全补”。正文据本人简介写招募口径，不证明补偿实际兑现。
-- [Family Guy军团历史统计](https://zkillboard.com/api/stats/corporationID/98798876/)中hehehe排第27：994条参与击杀、414,400,507,945.46 ISK；chitian xiao（2114917439）排第40：729条、275,075,283,465.19 ISK。两号同词根且同历史军团，按同词根同军团规则归本人，补aliases。xiao当前头衔、归属未取，历史参与不当当前成员名册。
-- 上述均为该军团历史范围，不与收录号或彼此直接相加。没有逐场新增战役或Monitor证据，不凭榜单写指挥。chitian huhuhu未在此次已取得的四团榜里取得对应证据，继续留缺口。
+- [Family Guy军团历史统计](https://zkillboard.com/api/stats/corporationID/98798876/)中hehehe排第27：994条参与击杀、414,400,507,945.46 ISK；chitian xiao（2114917439）排第40：729条、275,075,283,465.19 ISK。两号同词根且同历史军团，按同词根同军团规则归本人，补aliases。xiao当前头衔、KZU归属已于2026-10-14补核，历史参与不当当前成员名册。
+- 上述均为该军团历史范围，不与收录号或彼此直接相加。没有逐场新增战役或Monitor证据，不凭榜单写指挥。这轮四团榜未取得chitian huhuhu证据；后续已由同KZU与完全相同中文头衔归位，见下文。
 
 
 ### 社区 BR 续查（2026-10-12）
@@ -59,3 +59,27 @@
 **R-AG7W**，2025-11-06 16:00–2025-11-07 16:00 UTC，各方总损失 1,196,441,560,722 ISK（超级）。
 
 - 角色 2120421439；死亡漩涡（24694）；战时 IGC（联盟 99010877／军团 98808817）；攻击者记录 14 条，代表 [KM 131025030](https://zkillboard.com/kill/131025030/)。
+
+
+## B站公开视频补读（2026-10-13）
+
+- [《KZU会议记录0103》](https://www.bilibili.com/video/BV18NiqB3EM9/)：作者哒哒小橙子（289511974），简介为空，视频时长约62分钟，页面总评论数6。会议内容、发言人和评论仍未核读，不据标题认定就是荣耀宫斗。
+- 公开视频页与简介已取得，评论数来自公开元数据，不等于已读评论。
+
+## chitian huhuhu归位与粉魔爪公司
+
+2026-10-13 [ESI2120559143](https://esi.evetech.net/latest/characters/2120559143/)返回 chitian huhuhu、KZU／98808817、蓝章鱼／99010877、头衔“炽天 清风不语，明月自来”，与主号同团、同中文头衔，直接归本人小号，加入aliases，不另立传。
+
+[雇佣历史](https://esi.evetech.net/latest/characters/2120559143/corporationhistory/)显示2025-10-07进入Knights of the Pink Claw／98815170，10-21回KZU，与此前已取得的该军团创建者字段同号吻合；创建粉魔公司属于此号的游戏登记，不能因登记推断此后日记楼主就是炽天。
+
+现CEO chitian wuhu／2120819670头衔为空，当前粉魔公司／Another- Heaven；此次历史仅2025-12-12进入该公司，此前未有玩家军团记录，与huhuhu在团时间不重叠。未把这个CEO号并为炽天，也不把日记里空壳团、后勤回收、轻拦事故直接算炽天操作；完整待归属故事继续见[建团日记线索](../../../docs/leads/tieba-corp-diaries.md)。主号标签不据此加历史粉魔公司或另一联盟。
+
+## B站文字评论续查（2026-10-14）
+
+[《KZU会议记录0103》](https://www.bilibili.com/video/BV18NiqB3EM9/)作者哒哒小橙子（289511974）。已读2个主评论线程：傅里叶JW问会议中的“流水”是否是原国服ISU FC“星云流水”，作者答“是的，来一起玩吗”；反击驾驶员说“上电视了”。这是作者对“流水”称呼及国服指挥旧身份的文字回应，可作为继续核对KZU管理“流水”的入口。流水／星云流水即水哥shikongsa，身份与评论来源已归[水哥素材](../shikongsa/materials-shikongsa.md)；哒哒小橙子账号已归[KZU前总监橙子](../chengzi/materials-chengzi.md)，角色2115027553；会议标题和这两条评论不指认会议内容为荣耀宫斗。其余评论及折叠回复未读，影像和字幕不取材。
+
+## 小号公开争论文本
+
+2026-10-14[chitian xiao／2114917439的ESI](https://esi.evetech.net/latest/characters/2114917439/)头衔完整为炽天清风不语明月自来，当前KZU，原同人关系进一步对上。简介选用长篇以mrpro口吻叙述的耶舒尔／LN1P争论：自述隐投信息泄露、蓝加跟踪，批评朋友多多语音闹事及联盟CEO偏袒，又反驳五级任务攻略剽窃指责，称旧团多人共同制作与改进，公共邮件／贴吧已发布，不该因BGNM修改而改判剽窃。后段提Tony打牧星时被要求停手、王哒哒与牧星、LN1P看戏报情报等指控，结尾以“我是mrpro，是bgnm大将军，我要进京勤王”写要铲LN1P。归为该小号公开选用的争论文本；不把第一人称当炽天亲历、不从复制口吻认其为mrpro、不据此指认谁真正泄露情报或抄袭。原发布处、原作者与具体事件日期仍待桥；现实学历／职业／生活辱骂不保留。
+
+会议作者哒哒小橙子（289511974）已对应KZU前总监橙子／BIGORANGE6 TANORANGE（2115027553），已有文字阅读归[橙子素材](../chengzi/materials-chengzi.md)，不继续深查其频道。

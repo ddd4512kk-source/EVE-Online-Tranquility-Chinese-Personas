@@ -68,3 +68,25 @@ Gone With Windy（2115325500）与 Wind Spirits 是不同玩家；2020 年盟主
 ### 缓存战役补漏
 
 Fadek Windy：2021-09-17 A1-AUH，KM 95188924，战时联盟 99009163，伤害 387，船型未列。共用素材该战总损失下限 1.20T，按超级战役记录。 来源为既有 KM 缓存和[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)，未新增取材请求；Obe 复用完整 Warbeacon 列表。
+
+## 2026-10-13：执行军团小号与战役补漏
+
+[执行军团队列](../../../docs/leads/executor-corps-2026-10-11.md)仍把几个已知或署名号列作待认人，现按本人归位：
+
+- Baba s Gandurasa／93882790，[ESI](https://esi.evetech.net/latest/characters/93882790/)头衔“随风 GWW”、当前SummerHall／98601548、DC／99009163，简介为空；同军团、同中文头衔直接归随风。
+- Natalies Haginen／2113100728，[ESI](https://esi.evetech.net/latest/characters/2113100728/)头衔“北宅（随风）”，当前SummerHall、DC，直接署名同人，北宅纳入别名。
+- Fadek Windy／2115325695复查仍头衔随风，当前Faceless.／98645589、DC，简介仍为无面者招新；复用已有同人链。联系方式不保存。
+
+此次 zKillboard stats 顶层：Baba s Gandurasa 1671次参与击杀、3910130048434 ISK；Natalies Haginen 1385次、1799560298156 ISK。两号不相加，不把同场目标独算本人伤害；主号较薄的旧评价不能代表自然人全部公开记录，正文已据小号增量改写，保留M2、A1-AUH、R-AG7W和既有管理经历与黑料。Natalies暂只有累计统计，未强配战役。
+
+[DC缓存发现索引](../../../docs/sources/dc-br-monthly-discovery-2026-10-12.md)留93882790共17条KM、三个BR入口，旧完整JSON临时文件已不可用，不把索引当完整重读。本次按代表KM复核Baba角色参与，战报窗口／总损失复用已归档共用摘要：
+
+- 2022-12-03T19:17:04Z H-PA29／30001269，[105128559](https://zkillboard.com/kill/105128559/)，Baba驾驶永灭／22474，战时SummerHall、DC，参与击杀龙鸟／37605。共用报17:00至24:00、413155605975 ISK，见[社区BR摘要](../../../docs/sources/community-br-review-2026-10-12.md)。船型不是Monitor，不据永灭或零伤害认指挥职务。
+- 2026-02-22T13:38:33Z Taff／30002100，[133567901](https://zkillboard.com/kill/133567901/)，Baba驾驶神示级海军型／73790，战时SummerHall、DC，参与泽尼塔击杀。落在已核13:30—15:10单星系窗口，720204347322 ISK；见[大型战役摘要](../../../docs/sources/large-battles-2026-10-11.md)。
+- 2026-04-25T15:47:27Z [135007064](https://zkillboard.com/kill/135007064/)与16:18:26Z [135008430](https://zkillboard.com/kill/135008430/)，两条均在8TPX-N／30000242，Baba驾驶兀鹫／22446，战时SummerHall、DC。后者是FRT俄洛巴斯／671损失，本人参与围攻。原报06:00—20:00、31星系、969119810713 ISK，不能认单时刻单星系金额，但角色确在8TPX-N主战，见[北方共用摘要](../../../docs/sources/northern-battles-2026-04-25.md)。
+
+小号不是另一个待立传人物，已归主篇aliases。四条KM有参战依据，无Monitor，不从指挥舰船型补造总指挥身份。此前七个Gone With Wind名字变体仍未核，对不上角色归属的不顺带并入。
+
+## 2026-10-13天团活跃争论
+
+共用[来源摘要](../../../docs/sources/corp-vitality-debate-2025.md)。新增同帖#21中关于踢号与主动离开的不同解释，均为参与者说法；未按估计改人口数字，未撤原ESI限制及其他已确认经历。

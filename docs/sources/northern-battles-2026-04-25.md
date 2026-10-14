@@ -29,7 +29,7 @@
 | [小麦](../../src/people/hugyyyy/hugyyyy.md) | 2120434064 | 11961 | [134999261](https://zkillboard.com/kill/134999261/)，攻击者 |
 | [homura-hikari](../../src/people/homura-hikari/homura-hikari.md) | 2117561817 | 78576 | [134999285](https://zkillboard.com/kill/134999285/)，攻击者 |
 | [zark-chastot](../../src/people/zark-chastot/zark-chastot.md) | 2114228690 | 16238 | [134999289](https://zkillboard.com/kill/134999289/)，攻击者 |
-| [肥皂泡](../../src/people/free-zaopao/free-zaopao.md) | 2122336292 | 4310 | [134999478](https://zkillboard.com/kill/134999478/)，攻击者 |
+| [肥皂泡](../../src/people/free-zaopao/materials-free-zaopao.md) | 2122336292 | 4310 | [134999478](https://zkillboard.com/kill/134999478/)，攻击者 |
 | [瞑衍](../../src/people/mina-dethahal/mina-dethahal.md) | 2118776119 | 19724 | [134999643](https://zkillboard.com/kill/134999643/)，攻击者 |
 | [拉面林](../../src/people/remeleen/remeleen.md) | 91309503 | 28710 | [135000179](https://zkillboard.com/kill/135000179/)，攻击者 |
 | [污龟](../../src/people/peter-li-peter/peter-li-peter.md) | 2113450798 | 73793 | [135000555](https://zkillboard.com/kill/135000555/)，攻击者 |
@@ -71,3 +71,5 @@
 以下八人的命中未出现在两处主战，保留线索，不据此新增主战经历：gipsydanger-066、huabuyu、jibing779、monster0001、roses-mary、xiaosong223333、xzl520、yun-sen。
 
 本轮保存战报口径与逐人核对结果；53 人正文已结合各人的既有故事与具体角色增补；保留原综合 KB 评价与全部原有战役，各人的角色／舰船样本同步归本人素材。
+
+2026-10-13人物增量：随风的Baba s Gandurasa（93882790）通过中文头衔与同军团归本人，135007064、135008430均在8TPX-N主战，驾驶兀鹫。已补入随风列传与素材；原“53人”是此前批次，不当本次增量后的完结总人数。

@@ -70,3 +70,64 @@
 - 第39、40、42楼，东罗马持斧近卫指冷剑给盖瑞扣间谍帽子、在甲板群aoe友军、不肯道歉，且将个人批评扩大成对FRT的攻击；提出冷剑给盖瑞道歉便向冷剑道歉，反复区分冷剑与FRT。此为评论者指控；不认定盖瑞确曾泄漏情报，不补造冷剑的原始定性措辞或联盟处分。第9楼楼中也有“被防了一手就掀桌”的评价，可支撑围绕权限与面子的推演。
 
 正文保留FBC指挥职责、教程、GALGAME、建筑简介、综合KB、A1-AUH／黑色星期五／Lantorn／4-H／Obe和本地投送自吹；补入已有B站雇佣宣传。现实个人信息与辱及出身的回复不归档。10360382632只复读可见文字，仍缺冷剑具体行动，未提升为个人重大黑料。
+
+
+## B站投稿回查（2026-10-13）
+
+- [公开投稿页](https://space.bilibili.com/23747916/upload/video)当前作者名“HomuraHikari”，页面显示 89 条投稿；本页可见 40 条标题与不同 BV。简介、影像与评论未读。 其余投稿须按网页分页续读；本轮不宣称全量。
+- 当前可见页新增或补足“如何在一小时内多开狂送八条隐轰”“四开稀碎操作”等自嘲标题入口，以及图尔鲁尔万亿无畏战；不是据标题已经核对损失或责任。
+
+待读作品入口（只保存标题与链接，不凭标题补造事件）：
+
+| 视频 | 标题 |
+| --- | --- |
+| [BV1BjHKzHE5J](https://www.bilibili.com/video/BV1BjHKzHE5J/) | 【EVE onilne】无畏突袭8AB-Q4 Top damage无畏/黑隐/星城重拦视角 |
+| [BV1vUtLeYEKc](https://www.bilibili.com/video/BV1vUtLeYEKc/) | 【War Thunder】122B+单车核弹 & 直19E拦截核弹失败 |
+| [BV1mT421Y7ZD](https://www.bilibili.com/video/BV1mT421Y7ZD/) | 【EVEonline】蜜蜂端午送大礼 赔完大航死黑隐 |
+| [BV12x4y187Ew](https://www.bilibili.com/video/BV12x4y187Ew/) | 【EVEonline】星城飞龙.exe |
+| [BV13H4y1W7Xk](https://www.bilibili.com/video/BV13H4y1W7Xk/) | 【EVEonline】绝地二连击破！飞龙&海凤凰 |
+| [BV1TH4y1W7RR](https://www.bilibili.com/video/BV1TH4y1W7RR/) | 【EVEonline】突袭埃索特亚，三旗舰一超旗100B击杀 |
+| [BV1Zj421R7mV](https://www.bilibili.com/video/BV1Zj421R7mV/) | 【EVEonline】大鱼-1 |
+| [BV1fm411r72p](https://www.bilibili.com/video/BV1fm411r72p/) | 【EVEonline】凤凰-1 |
+| [BV1HC411h7dm](https://www.bilibili.com/video/BV1HC411h7dm/) | 【EVEonline】百人黑隐队突袭逑瑞斯 |
+| [BV1JK421C7g3](https://www.bilibili.com/video/BV1JK421C7g3/) | 【War Thunder】90105一命八杀赢得胜利！ |
+| [BV1XN4y1n7w2](https://www.bilibili.com/video/BV1XN4y1n7w2/) | 【War Thunder 】超压，不得不品 |
+| [BV1tk4y1U7Sg](https://www.bilibili.com/video/BV1tk4y1U7Sg/) | 【War Thunder】苏联空军骇人轰炸 |
+| [BV16C4y1v7zF](https://www.bilibili.com/video/BV16C4y1v7zF/) | 【War Thunder】9040C：B点对面有个奶妈 |
+| [BV1ew411u7os](https://www.bilibili.com/video/BV1ew411u7os/) | 【War Thunder】 BVVD伙同美军窃取俄联邦航空燃油 |
+| [BV1gQ4y1J7dv](https://www.bilibili.com/video/BV1gQ4y1J7dv/) | 【War Thunder】我在等修车，你在等什么 |
+| [BV1ve411z7iD](https://www.bilibili.com/video/BV1ve411z7iD/) | 【EVEonline】火力优势学说：U-Q巡航导弹射火鸡大赛 |
+| [BV1yb4y1G79v](https://www.bilibili.com/video/BV1yb4y1G79v/) | 【EVEonline】战列太硬，重突太小，战巡射起来刚刚好 |
+| [BV1sM411D7Yp](https://www.bilibili.com/video/BV1sM411D7Yp/) | 【EVEonline】选择女妖只会带来不幸 |
+| [BV1dj411t7cR](https://www.bilibili.com/video/BV1dj411t7cR/) | 【EVE欧服】偷袭绝地NYX |
+| [BV1Pg4y1P7NA](https://www.bilibili.com/video/BV1Pg4y1P7NA/) | 【EVEonline】保护神圣的科尔斯免受帝国老二的入侵 |
+| [BV1MM4y1j72R](https://www.bilibili.com/video/BV1MM4y1j72R/) | 【EVEonline】FRT不讲武德，来钻洞，来偷袭 |
+| [BV1HX4y1q7YY](https://www.bilibili.com/video/BV1HX4y1q7YY/) | 【EVEonline】如何在一小时内多开狂送八条隐轰 |
+| [BV1FX4y187PC](https://www.bilibili.com/video/BV1FX4y187PC/) | 【EVEonline】抓捕GOONS后勤总监的大航 艾拉滋（x3) 视角 |
+| [BV1iV4y167VU](https://www.bilibili.com/video/BV1iV4y167VU/) | 【EVEonline】四开稀碎操作抓捕绝地凯子无畏 |
+| [BV1ym4y1b7cK](https://www.bilibili.com/video/BV1ym4y1b7cK/) | 【EVEonline】超万亿战损！图尔鲁尔无畏战 FRT+PH vs BBC+Deepwater+Goons+INIT |
+| [BV1sj411T7Kb](https://www.bilibili.com/video/BV1sj411T7Kb/) | 【战舰世界】甩狙萨摩，小子 |
+| [BV14e4y1A72d](https://www.bilibili.com/video/BV14e4y1A72d/) | 【战舰世界】对空中小人使用F罢！ |
+| [BV1tP4y1y7d7](https://www.bilibili.com/video/BV1tP4y1y7d7/) | 【EVEonline】突袭贝斯，归魂者击杀 火力/电子战视角 |
+| [BV1Jd4y1C7G4](https://www.bilibili.com/video/BV1Jd4y1C7G4/) | 【EVEonline-异度神剑3】诺亚的太空堡垒 |
+| [BV13G411j7n3](https://www.bilibili.com/video/BV13G411j7n3/) | 【EVEonline】偷袭逑瑞斯 DC超旗击杀 火力/电子战视角 |
+| [BV1SG411g7pY](https://www.bilibili.com/video/BV1SG411g7pY/) | 【EVEonline】塔莫无畏战 剧本BBC无畏队 |
+| [BV1fW4y1e7ka](https://www.bilibili.com/video/BV1fW4y1e7ka/) | 【EVEonline】微梦想&中梦想 |
+| [BV1Pe4y1y73K](https://www.bilibili.com/video/BV1Pe4y1y73K/) | 【EVEonline】归魂者的启航 |
+| [BV1eP411j7jk](https://www.bilibili.com/video/BV1eP411j7jk/) | 【EVEonline】我无畏呢？我刚锁上的无畏呢？ |
+| [BV1r34y1p7Qt](https://www.bilibili.com/video/BV1r34y1p7Qt/) | 【EVEonline】 秋名山一分钟 |
+| [BV1c44y1g7kG](https://www.bilibili.com/video/BV1c44y1g7kG/) | 【EVEonline】B170闪击凤凰级 |
+| [BV1KS4y1b7aZ](https://www.bilibili.com/video/BV1KS4y1b7aZ/) | 【EVEonline】弗列特无畏战 FRT猪卫队 VS Snuffed Out |
+| [BV1uL411L7q7](https://www.bilibili.com/video/BV1uL411L7q7/) | 【EVEonline】 如何使用大鲸鱼配合小航安全高效地进行一个旗舰异常的刷 |
+| [BV1xL4y1H7eR](https://www.bilibili.com/video/BV1xL4y1H7eR/) | 【EVEonline】长须鲸的自我修养：控电，开修及开无敌的时机 |
+| [BV14L4y1W7Za](https://www.bilibili.com/video/BV14L4y1W7Za/) | 【EVEonline】秋名山隐秘部队 |
+
+## 2026-10-13：SGCN 无畏纪律争论
+
+共同内容、人物原话及覆盖见 [事件摘要](../../../docs/sources/sgcn-dread-discipline-2026.md)。同UID1576962246在鸟门解释帖被直接称冷贱并接话，此次又以秋名山第一人称讲自己的无畏泰坦补损，沿此链归本人；显示名Homura℃、原名七剑能天使EXIA及公开回复图ColdSword加别名，不只靠词根。补损规模与机库随取均为本人自述，未认作审计数字。正文写买ISK补损的辩护及PLEX反驳，剔除现实单位、家庭与照片。
+
+9745245593第7楼补强平台对应：麻衣流民直接称同UID1576962246的Homura℃为“冷剑哥”，该账号随后批其联盟与旧经历。具体互动及卡戎否认见 [共同摘要](../../../docs/sources/cacx-tuxedoee-expulsion-2025.md)，现写卡戎相关块，未新增冷剑独立块。
+
+## 贴吧账号对应（2026-10-14）
+
+贴吧Homura为冷剑；已有Homura℃（UID1576962246，原名七剑能天使EXIA）的鸟门称呼、秋名山第一人称补损与“冷剑哥”互动相互吻合。10640440949中同UID对创世“四个满编”的嘲讽也归本人，相关人员说法见[创世提问帖回复人物](../../../docs/leads/tieba-sk-questions-replies.md)，原先不合并的判断撤销。尚无BR，不把嘲讽写成编队人数的客观裁定。

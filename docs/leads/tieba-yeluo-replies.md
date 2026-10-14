@@ -10,3 +10,5 @@
 第8楼带编号的LZ-PPHV号组与花间笑身份已结合中文头衔及离团时点核对，转入[花间笑素材](../../src/people/huajianxiao/materials-huajianxiao.md)，不继续作为未收录角色留在本表。
 
 Acrad丶（UID5092346101）已据同名、叶落军团和制造／战报场景对应Titan Acrad，收录[本人素材](../../src/people/titan-acrad/materials-titan-acrad.md)，不继续列为待对应人物。
+
+2026-10-13名字方向补查：本地已取得角色名表未命中pufan／Pu Fan，网页“EVE 璞凡 叶落”与关联名字搜索无有效游戏角色桥；不是人物不存在。与税率争论中wenpufannb／UID5967386401名字相近，仍没有直接同人依据，留作同军团回复网络入口，不继续反复泛搜外号。

@@ -6,7 +6,7 @@ epithet: 别人的简介写招新，他的简介挂偷钱者的蛋。
 tags: ["00区", "CSQY"]
 ---
 
-执画，收录角色 Ed Bassmaster，另一个号叫 thebosszang。前者待在创世，后者进了 Wings Freedom. 的执行军团 Wings Holding。两张名片分工挺清楚：一张公开头衔直接写“执画”，另一张出现在联盟执行公司的战绩榜上。
+执画，Wings 的核心管理之一，收录角色 Ed Bassmaster，另一个号叫 thebosszang。前者待在创世，后者进了 Wings Freedom. 的执行军团 Wings Holding。两张名片分工挺清楚：一张公开头衔直接写“执画”，另一张出现在联盟执行公司的战绩榜上。
 
 ::: 红料 执行军团里的一张名片
 2026 年 10 月，Wings Holding 的历史角色榜上，thebosszang 有 76 条参与击杀记录，对应约 321.2B ISK。这个数字只算该榜统计到的军团记录，不过足够说明：执画在执行军团里的号也上战场，并非只有一张管理席位的名片。

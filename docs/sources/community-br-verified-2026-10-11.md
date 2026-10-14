@@ -36,7 +36,7 @@
 | --- | --- |
 | [ACR](../../src/people/acr-impact/acr-impact.md) | Old Man Star |
 | [折纸](../../src/people/cheryl-astelir/cheryl-astelir.md) | Old Man Star、Arzad |
-| [执画](../../src/people/ed-bassmaster/ed-bassmaster.md) | Old Man Star |
+| [执画](../../src/people/ed-bassmaster/materials-ed-bassmaster.md) | Old Man Star |
 | [战歌](../../src/people/ezio-harry/ezio-harry.md) | Old Man Star |
 | [星星](../../src/people/flashing-shark/flashing-shark.md) | Arzad |
 | [李将军](../../src/people/governor-lee/governor-lee.md) | Old Man Star |

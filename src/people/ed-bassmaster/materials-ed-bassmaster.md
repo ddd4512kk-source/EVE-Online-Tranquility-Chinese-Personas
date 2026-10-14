@@ -22,7 +22,6 @@ zKillboard 军团榜：Wings Holding / topAllTime / character，thebosszang 76 k
 | --- | --- | --- | --- |
 | 2118508390 | 12038 | 99003581 | [109209926](https://zkillboard.com/kill/109209926/)，攻击者 |
 
-
 ### 社区 BR 续查（2026-10-12）
 
 共用原报、编组及叙事边界见[续查材料](../../../docs/sources/community-br-review-2026-10-12.md)。保留原有综合 KB 评价，新增经历与原有战役并列，不累加主小号累计。
@@ -30,3 +29,7 @@ zKillboard 军团榜：Wings Holding / topAllTime / character，thebosszang 76 k
 **H-PA29**，2022-12-03 17:00–2022-12-04 00:00 UTC，各方总损失 413,155,605,975 ISK（大型）。
 
 - 角色 2118508390；流浪（11999）；战时 FRT（联盟 99003581／军团 98535868）；攻击者记录 9 条，代表 [KM 105127764](https://zkillboard.com/kill/105127764/)。
+
+## 核心管理身份
+
+执画的thebosszang已对应本人，现役归属Wings Holding，联盟执行关系已由ESI核对；按Wings核心管理保留短篇。收录号Ed Bassmaster在创世，联盟／军团标签仍按收录号快照，不从小号回填。执行军团身份不指定其具体人事、外交或财务分工，也不将加一的CEO职务移给他。

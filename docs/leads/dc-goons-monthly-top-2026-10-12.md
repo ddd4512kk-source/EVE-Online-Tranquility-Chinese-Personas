@@ -39,7 +39,7 @@ PLA十月榜另核：Aeviter Cynosure排1，140条；凯撒Reinhard Merlin排59�
 
 本日另读ESI：Jason Yusi为“青春”，简介署B站“青春的工作室”、YouTube“Jason Yus i”，有旗舰刷怪教学入口；Agus Amar为“阿古斯”；Yu Tou为“鱼头”；Jungle Chan为“程正果”；Lin xian deng为“林先登 MVP”；Wenda为“文大”。这几号当前军团与对应月榜军团吻合。
 
-Jason Yusi不凭“青春”并到叶落sk mmmm，名字和军团不同，缺同人桥。鱼头简介挂自己失误的KM，Jungle Chan反复挂本人帕拉丁损失；这里只保留原件入口，不凭重复链接编造多次翻车。程正果的简介自嘲保留短篇；阿古斯仅有总览分享，现退回[单人线索](agus-amar.md)；其他视频、具体事件和社区署名仍待补，不把入文等同全部读完。
+Jason Yusi不凭“青春”并到叶落sk mmmm，名字和军团不同，缺同人桥。鱼头已退回[单人线索](yu-tou.md)，简介自嘲与战果不足单独立传，Jungle Chan反复挂本人帕拉丁损失；这里只保留原件入口，不凭重复链接编造多次翻车。程正果仅有简介自嘲与普通战损，现退回[单人线索](jungle-chan.md)；阿古斯仅有总览分享，现退回[单人线索](agus-amar.md)；其他视频、具体事件和社区署名仍待补，不把入文等同全部读完。
 
 ## 已完成与缺口
 
@@ -51,6 +51,6 @@ Jason Yusi不凭“青春”并到叶落sk mmmm，名字和军团不同，缺同
 
 四团各前20，共80个角色条目，逐号的来源、名次、ID、对应人物、当前处理与下一步集中在[状态表](dc-goons-top20-intake-2026-10-12.tsv)。这是角色条目数，不是80个自然人；主小号归同一人，不重抓已取得的原榜。
 
-先追已有中文名与平台入口：PLA的Jason Yusi、Agus Amar，BOP的Yu Tou、Jungle Chan，宽带山的Lin xian deng、Burningleek，Dusk的Wenda。已有角色的故事与指挥依据分别核对；阿古斯、燃烧的韭菜、没钱要命目前留单人线索，程正果保留具体自嘲故事，金刚保留星城自吹。TC、骨猫属于原80条之外的增量，不回算进前20覆盖。
+先追已有中文名与平台入口：PLA的Jason Yusi、Agus Amar，BOP的Yu Tou、Jungle Chan，宽带山的Lin xian deng、Burningleek，Dusk的Wenda。已有角色的故事与指挥依据分别核对；阿古斯、燃烧的韭菜、没钱要命目前留单人线索，程正果的简介自嘲仅归线索，待独立事件或CEO／FC依据，金刚的简介星城自吹仅归[线索](kongo-ijn.md)。TC、骨猫属于原80条之外的增量，不回算进前20覆盖。
 
 2026-10-12离线对照旧DC战报集合，21个前20条目有缓存BR入口，已存状态表；参与者索引不自动认作主战场或指挥。宽带山前20全部能对上[公开账号组](kds-account-groups-2026-10-12.md)，分组取得不等于故事已读。赤翼与TC的具体KM及同人依据归本人素材。

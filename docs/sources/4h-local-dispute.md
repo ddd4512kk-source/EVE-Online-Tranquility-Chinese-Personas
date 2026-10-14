@@ -1,6 +1,6 @@
 # 4-H星城话题引出的本地频道对喷
 
-来源：社交媒体中的游戏本地频道记录；归档2026-10-10，事件日期、星系未显示。2026-10-12已用于雪山飞鸟、雪域孤狼、大尾巴娃娃、浅空四篇短传和冷剑增补。仅记录游戏言行，地域、出身、家庭方面的攻击不保存。
+来源：社交媒体中的游戏本地频道记录；归档2026-10-10，事件日期、星系未显示。雪山飞鸟、雪域孤狼、浅空仅普通对喷，2026-10-14撤回独立列传；娃娃已据本人B站创作与互动恢复列传，角色对应与原话保留；冷剑增补保留。仅记录游戏言行，地域、出身、家庭方面的攻击不保存。
 
 ## 已读内容
 
@@ -12,12 +12,12 @@ Zhongcaizhe MAX说“没拿到4-H星城KM确实遗憾”，Hikari Homura接“�
 
 | 角色 | ID | 游戏内头衔与归属（2026-10-10查询） |
 | --- | --- | --- |
-| Zhongcaizhe MAX | 96494513 | 雪山飞鸟，DAMSR／DC；对面反复贴此角色KB，现已立传 |
+| Zhongcaizhe MAX | 96494513 | 雪山飞鸟，DAMSR／DC；对面反复贴此角色KB，暂撤列传 |
 | Hikari Homura | 2114003356 | 冷剑，AMIYA／FRT；与Homura Hikari同头衔，沿用已有人物对应 |
 | CH-MAX | 2117562356 | 迈克斯，SARD.／FRT |
-| AK Hendar | 2116327225 | 雪域孤狼，Noobs Collecttion／FRT；已收录 |
-| Optimus Mecca | 96548383 | 大尾巴娃娃，AMIYA／FRT；已收录，JJ-soulmate列传已提同团队友 |
-| Casualness | 2124277866 | 浅空，SARD.／FRT；已收录 |
+| AK Hendar | 2116327225 | 雪域孤狼，Noobs Collecttion／FRT；暂撤列传 |
+| Optimus Mecca | 96548383 | 娃娃（大尾巴娃娃），AMIYA／FRT；已恢复列传，JJ-soulmate列传已提同团队友 |
+| Casualness | 2124277866 | 浅空，SARD.／FRT；暂撤列传 |
 | mashangshuijiao | 2122328976 | 娜娜奇，STARCHASER Inc／FRT |
 | KaoLengmian | 2122754474 | Tu Zi Fei Corporation／DC |
 
@@ -25,4 +25,4 @@ Zhongcaizhe MAX说“没拿到4-H星城KM确实遗憾”，Hikari Homura接“�
 
 ## 留待补充
 
-4-H星城战的时间、星系、具体KM及所谓贴吧造谣证据未定位，不能从本地对话造出战斗结果。Dodgy Bob（786787363候选）、O'Nell Z、Jedi POMA、xiaonimeia、lingzai未对应；雪域孤狼、大尾巴娃娃、浅空已按各自言行写短篇，不再排为待写人物。雪山飞鸟综合KB尚未读取，不把对手嘲讽写成客观战绩评价。
+4-H星城战的时间、星系、具体KM及所谓贴吧造谣证据未定位，不能从本地对话造出战斗结果。Dodgy Bob（786787363候选）、O'Nell Z、Jedi POMA、xiaonimeia、lingzai未对应；雪域孤狼、浅空连同雪山飞鸟均退回本人线索；娃娃已据B站创作与互动恢复列传；其余人物待独立故事或CEO／FC依据。雪山飞鸟综合KB尚未读取，不把对手嘲讽写成客观战绩评价。

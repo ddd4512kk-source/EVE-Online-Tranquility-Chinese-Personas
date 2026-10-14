@@ -25,7 +25,7 @@
 - 吃瓜：带鱼（新成员，冒犯者，无角色名）；华沁 / hUA DIUDIU；叔同；蛇皮 / Snow without return（烟火时光，“隐蔽战线”整理情报）；[切茜 / Chersea](../../src/people/chersea/materials-chersea.md)（2118635264，全员禁言；原文称小狼）；[铭 / Mikoyan Anzomi](../../src/people/mikoyan-anzomi/materials-mikoyan-anzomi.md)（2113483168，禁言水母十分钟）；绿特 / Lvte Xiao（[已收录](../../src/people/lvte-xiao/materials-lvte-xiao.md)）；老九 / Nine -L（已收录）；三丸 / Pineapple balls；干饭人1号 / Mamimami Hong；银星 / Agstarl；希尔 / PinkMomo（M-M-P）。
 - 混沌：星星定乾坤（[已收录](../../src/people/flashing-shark/materials-flashing-shark.md)，PDF 称“CACX 军团 CEO”）；008 / 阿捌 / ACE-008（2121669020，总监，汇总各方记录）；星鱼 / Mawa Tsuruomo（2123313573）；外交老猪、夕律、老 J（星星 Ping 称新一代外交一年处理纠纷 320 起；老一代外交“鱼”和“哈哈哈”做了四年）；水月；adv@_@；远行锲行；涅青；最后一页；Laeon。
 - 地板群：[小唐 / Esther Annabelle](../../src/people/esther-annabelle/materials-esther-annabelle.md)（2123454246，已收录；鼓动内战的发言归本人素材）；五更琉璃；流莹天下无双；Edelweiß（“cacx没了frt得死一半”）；孤独者；红叶墟庭；格蓝川（[已收录](../../src/people/gelanchuan-erata/gelanchuan-erata.md)，劝“先别急”）；影子喵喵喵；摆渡人家-duke；呵呵一neojerry；VladilenaSan；小丑2.0 pingyza。
-- 荣耀所在群：jincarry、CC、yuan、枫、鹏洛客、千叶、skyNovo、无所谓。。。、飞舞哈基人、牛虻、Hä?。
+- 荣耀所在群：[老李／jincarry](../../src/people/fact-in/materials-fact-in.md)（FACT IN／Lao li）、CC、yuan、枫、鹏洛客、千叶、skyNovo、无所谓。。。、飞舞哈基人、牛虻、Hä?。
 - 凛冬：nuwa noraus（N老板，[已收录](../../src/people/noraus/materials-noraus.md)）、FUXI-MrDio / MrDiao。
 - 他团声明：某团集结群管理员（名字打码）发声明尊重性取向但禁止借此肆意妄为；另一打码者称“我们曾经招过一个，现在为他立了个建筑。就叫‘YL NO NANIANG’”。
 

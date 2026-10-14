@@ -28,7 +28,7 @@
 | 14 | B.O.P Supplication For Glorious / 98547771 | Dracarys. | 194 / 151 | Apple Reborn / 2113791371 | 2026-10-11 | 已收录；[人物素材](../../src/people/apple-reborn/materials-apple-reborn.md) |
 | 15 | Fox of Resistance / 98755298 | Northern Coalition. | 188 / 141 | Renard42 / 2121799880 | 2026-10-12 | 已收录；[人物素材](../../src/people/renard42/materials-renard42.md) |
 | 16 | YeLuo-XingHai / 98588384 | Fraternity. | 288 / 201 | AsunaZX / 2119592670 | 2026-10-11 | 登记号与青春的关系待核；[青春素材](../../src/people/sk-mmmm/materials-sk-mmmm.md) |
-| 17 | HongLou / 98642382 | Goonswarm Federation | 200 / 167 | Captain Bo / 96638675 | 2026-10-12 | 候选待取材 |
+| 17 | HongLou / 98642382 | Goonswarm Federation | 200 / 167 | Captain Bo / 96638675 | 2026-10-12 | 已收录老许；2025-04-05从Dema1接任CEO，[任期见素材](../../src/people/captain-bo/materials-captain-bo.md) |
 | 18 | PLA Fleet / 98576141 | People's Liberation Alliance | 306 / 246 | 无有效CEO（ceo_id=1） | 2026-10-12 | 接口显示0成员、ceo_id=1；无有效现任CEO，历史任职待查 |
 | 19 | Temple of Tuvan Orth / 98652614 | Guardians of Tranquility | 154 / 133 | fliet99 / 91254848 | 2026-10-12 | 已收录；[人物素材](../../src/people/fliet99/materials-fliet99.md) |
 | 20 | Chi Gua / 98524084 | Fraternity. | 128 / 109 | Nine -L / 2115444624 | 2026-10-12 | 已收录；[人物素材](../../src/people/nine-l/materials-nine-l.md) |
@@ -71,7 +71,7 @@
 | --- | --- | --- |
 | 5 | YAGAHA3 / 2119032128 | 简介另列 CEO YAGAHA（2118729398）；名字同词根，按同军团规则核对两号归属后合并；娜乌西卡是总监，不代替 CEO |
 | 16 | AsunaZX / 2119592670 | 登记号与青春的关系待核；[青春素材](../../src/people/sk-mmmm/materials-sk-mmmm.md) |
-| 17 | Captain Bo / 96638675 | 简介招新联系人 Dema1；未取得 CEO 的中文外号与本人故事 |
+| 17 | Captain Bo / 96638675 | 已核头衔老许及现任CEO，短篇已写；Dema1是前任CEO兼入团邮件联系人，两人不合并；任期自2025-04-05起已核，实际管理事务待补 |
 | 18 | 无有效CEO / 1 | PLA Fleet 已为0成员；需历史CEO及注销时间，不能由创建者字段替代任职证明 |
 | 21 | saber lv1 / 2116737842 | 简介称 +8 洞团；阔阔、彗星是成员，不用成员事迹替 CEO 立传 |
 | 23 | Cyan nomi / 2122229391 | 保留“糯米”外号方向；见[账号线索](cyan-nomi.md) |
@@ -173,3 +173,7 @@
 - 空离的登记接任时间为2026-08-17，前任XXXHolic-TK X的头衔为“泡泡很忙”；前任与现任同人关系未定。取材见[kongli](kongli.md)。
 - Family Guy创建者与现任CEO均为Cyan nomi；本次查高KM前10的头衔、简介，未取得糯米主号或贴吧认号桥梁。记录见[糯米线索](cyan-nomi.md)。
 - 深挖复用本地材料与缓存，再查ESI头衔、zKB统计、DOTLAN当前事件页、军团历史击杀前10。约30次首轮预算已用至上限附近；停在任期缺页、本人账号和具体战役待查处。B站及EveWho冷却未绕过；最新月榜仍未取得。
+
+## B站旧失败范围（2026-10-14）
+
+本表旧B站失败用于取得军团活跃月榜，不是50位CEO各自的UP账号或作品。2026年9月原榜已读并用于上述名单，名单获取缺口关闭；不再转作“未找到全部人物B站”的总任务。人物具体账号与故事各归本人素材或现有线索，视频、字幕和录音不作为本任务续查方式。

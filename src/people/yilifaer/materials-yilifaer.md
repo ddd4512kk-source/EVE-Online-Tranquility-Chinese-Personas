@@ -37,3 +37,17 @@
 B 站检索命中伊利法尔（UID 74600404）2024-11-29 视频[“eve 黑色星期五：Taitan to kill! :getin: :getin:”](https://www.bilibili.com/video/BV1REzjYGE3R)。本轮视频正文请求返回 412；未据标题推定本人参战或指挥，后续补读画面和评论。1N-FJ8 战斗的达标依据见[共用素材](../../../docs/sources/capital-battles-2026-10-11.md)。
 
 2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Yilifaer-Eli（2123197012）](https://zkillboard.com/character/2123197012/) 0.0B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+
+## B站公开视频补读（2026-10-13）
+
+- [《eve 黑色星期五：Taitan to kill! :getin: :getin:》](https://www.bilibili.com/video/BV1REzjYGE3R/)：简介附YouTube原片，并写“看看INIT视角吧”；两P分别为4S Corp/Flight Deck与INIT黑色星期五录像。视频是其他阵营视角入口，不据上传认定伊利法尔本人参战；32条评论未读。
+- 公开视频页与简介已取得，评论数来自公开元数据，不等于已读评论。
+
+## 成员榜近名号对应（2026-10-13）
+
+[yilifaerrrrrrr（2121295606）](https://esi.evetech.net/latest/characters/2121295606/)头衔“#Eli-Yilifaer”，当前Your Ex's（98806948）／IGC，与收录号同词根、同当前军团，归本人小号；加入aliases。朱雀历史榜第8、2964条、4,288,521,374,547.73 ISK只属于该团历史口径，不与主号累计相加。简介挂Dark Shines、Pandoralica、Vex Tsnipe、CCP Bee、CCP Monty、Heinrich IV等KM及Twitch片段，原始KM未核，留作下一步，不据挂链接声称已击杀某位FC。
+
+## B站文字评论续查（2026-10-14）
+
+[《黑色星期五：Taitan to kill!》](https://www.bilibili.com/video/BV1REzjYGE3R/)已读13个主评论线程及直接显示回复。简介明示转自YouTube、让观众看INIT视角，不当法尔本人视角或指挥记录。观众问谁赢，法尔回“双方都赢了，我个人觉得FRT赢的更多点，因为泰坦都开了DD 很爽。难得有这样的机会”；面对“投大鱼还跳泰坦救”的嘲讽，他说“相互剧本，大家都等着呢”；对中文字幕请求，他回昨天弄太晚、没加。观众的“明知剧本硬跳”说法未点名人物，不能扣到法尔或其他已收录者；评论里的“图书馆／菜市场”是观众评价，不当作者听过语音的证据。共享战役出处见[旗舰战素材](../../../docs/sources/capital-battles-2026-10-11.md)，其余回复未展开，未看影像。

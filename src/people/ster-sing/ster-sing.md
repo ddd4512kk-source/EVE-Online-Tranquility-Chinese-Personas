@@ -3,7 +3,7 @@ character_id: 2113282069
 cn_name: 归梦
 aliases: [ster sing]
 epithet: 头衔比广播长，别问先别艾特。
-tags: ["00区", "FRT", "FUXI", "著名FC"]
+tags: ["00区", "FRT", "FUXI", "FC"]
 ---
 
 归梦，游戏名 ster sing。在熟人语录里，他给自己摆出一串很难一口气念完的名头：反时区殿堂级 FC、奶龙、bait 应对者、凌晨寂静服的明灯，后面还接着 W牢与芬亨戴利复制人。点名点到他这里，大概得先留一口长气。

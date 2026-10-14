@@ -28,7 +28,7 @@
 - 属 eve欧服吧：6064853777（娃上将）、8738371316（陌然浅浅笑回忆录）、7767970074（DC 说实话被踢）、6283916580（fbc 高中生）。
 - 旧轮曾按不属eve欧服吧暂缓（不能据吧名直接排除，须读正文中的欧服交集）：7158414039（黑历史汇总，内容多为国服 PIBC、3V、北萌、王师）、7201460392（安东大酱）、7584038715 与 7251880874（SMU）、8335170666（冲三杀手）、7572914253（阿鲁纳奇）。其余未读条目也需先核吧名。
 - 8738371316 → 已收录：作者[陌然（MrPRO）](../../src/people/mrpro/materials-mrpro.md)，文中的胡汉三也已收录为[Taishang Laojun](../../src/people/taishang-laojun/materials-taishang-laojun.md)。浮岳重工 CEO 梦雨已收录为[Undead0027](../../src/people/undead0027/materials-undead0027.md)；华义见[线索](fuyue.md)，低安人物见[后续线索](mrpro-lowsec-accounts.md)，刀哥已对应收录。
-- 6064853777：娃上将（贴吧“国际小米兰”，国服 ID“挖挖啊娃娃”），2017 年回坑欧服进 FRT 采星，开泰坦“飙车”，2018 年底因脚本、RMT 与管理不作为离开 FRT 去 INIT“鸽群”；楼中有人批其“个人主义的飙超期”。欧服角色未知。2026-10-09 客户端读全帖（64 楼）：#5 徐朗接待入采星、赞助脑浆和神装 Thanatos；#18 开朋友的 Avatar 去 UALX 全程掉线，关服前五秒落到诱导铁壁；#21 买拉格纳洛克波色、“为了波色交了好几次罚款”、“逆时区波色，被抓了跑到老外 mumble 疯狂呼救”；#26 基友“宁宁（游戏 id：Roso si）”，朋友列扎克、托克、徐朗、kuokuo，离开原因为采星 x40 脚本事件、“脚本刷钱买矿造超期”及管理不作为；#28 窝窝518888“除了 n 老板第二个随意飚 tt 的”；#39 蓝色松露“人如 ID，玩心太重……个人主义的飙超期”。B 站有教程（#23、#60 提及），`bilibili.mjs user 娃上将` 零结果。另见 [5887448721](https://tieba.baidu.com/p/5887448721)（熊猫牧场被踢事件，称娃上将也被踢）。线索：查 Roso si 的雇佣与 KB 交集，或 2018 年采星 Ragnarok 驾驶员。
+- 6064853777：娃上将已对应娃娃／Optimus Mecca（96548383）；本人回忆录、对老李回应、斥候捡大航与采星退群澄清已归入[本人素材](../../src/people/optimus-mecca/materials-optimus-mecca.md)，补入列传。周年帖最高楼64，现存主楼43，楼中楼有计数差，覆盖和续查缺口以本人素材为准。
 - 7767970074：2022-03 FRT 卡商 WEIYANGWEIYANGWEIYANG 把 5000 PLEX 误以 14.9 亿挂合同，被 DC/BOP 的 twilight Dracula 接走；发帖人“以真理的名义”（想想，Weightless，原 D.OK）为苦主说话后被踢。已收录为[未央](../../src/people/weiyang/materials-weiyang.md)与[twilight Dracula](../../src/people/twilight-dracula/materials-twilight-dracula.md)。
 - 6283916580：WC fbc 拂晓成员的短回忆，料薄。
 

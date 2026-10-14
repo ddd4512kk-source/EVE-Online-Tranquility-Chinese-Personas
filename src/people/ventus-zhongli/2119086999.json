@@ -1,0 +1,54 @@
+{
+  "id": 2119086999,
+  "name": "Ventus ZhongLi",
+  "birthday": "2021-09-13T20:31:41Z",
+  "current_corporation": {
+    "id": 98645589,
+    "name": "Faceless.",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98645589,
+      "name": "Faceless.",
+      "ticker": "D.OK"
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2021-09-13T20:32:00Z",
+      "end": "2021-09-14T05:50:00Z"
+    },
+    {
+      "corporation_id": 98598126,
+      "name": "Centralized Interstellar Ally",
+      "npc": false,
+      "start": "2021-09-14T05:50:00Z",
+      "end": "2022-03-03T19:03:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2022-03-03T19:03:00Z",
+      "end": "2022-03-04T12:19:00Z"
+    },
+    {
+      "corporation_id": 98645589,
+      "name": "Faceless.",
+      "npc": false,
+      "start": "2022-03-04T12:19:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-13"
+}

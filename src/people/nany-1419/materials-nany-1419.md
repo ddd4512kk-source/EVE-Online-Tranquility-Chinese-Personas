@@ -98,3 +98,21 @@ ESI 精确名字批量核对 Nany 1400–1499 及 Nany 14，zKillboard 自动补
 - 角色 2114944316；死亡漩涡（24694）；战时 Goons（联盟 1354830081／军团 98524939）；攻击者记录 1 条，代表 [KM 131025030](https://zkillboard.com/kill/131025030/)。
 
 2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[I'm a Taitan（2122788996）](https://zkillboard.com/character/2122788996/) 0.0B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+## 2026-10-14：xiang sss归本人
+
+[2114250524](https://esi.evetech.net/latest/characters/2114250524/)游戏名xiang sss，公开头衔“幻象”，当前同Kun-Lun98825941／Goons。与收录号同中文头衔、同当前团，按同头衔同团规则直接并号，不另收一个幻象。简介仅“图尔基矿业二号”，作本人展示留存，不据此认矿业管理职务；个人KB、历史参战尚未新核，原榜数据不累加到主号。
+
+## 昆仑前50头衔同人
+
+2026-10-14核读以下角色ESI，均同“幻象”头衔、同当前昆仑，直接归本人并列aliases，不因英文名不同另收一人：
+
+- [Nemer1987／2115069949](https://esi.evetech.net/latest/characters/2115069949/)：幻象，简介图尔基矿业八号舰，同当前昆仑归Nany 1419。
+- [Kamatar Vagaer／2115070101](https://esi.evetech.net/latest/characters/2115070101/)：幻象，简介图尔基矿业六号舰，归Nany 1419。
+- [SHIROE233 CN2／2115410920](https://esi.evetech.net/latest/characters/2115410920/)：幻象，简介空，归Nany 1419。
+- [pang pang ju／2114713256](https://esi.evetech.net/latest/characters/2114713256/)：幻象，简介空，归Nany 1419。
+- [MSDN 576／2115070097](https://esi.evetech.net/latest/characters/2115070097/)：幻象，简介图尔基矿业五号舰，归Nany 1419。
+- [Laya A／2114862325](https://esi.evetech.net/latest/characters/2114862325/)：幻象，简介图尔基矿业三号，归Nany 1419。
+- [Nassy Blacky／2114798954](https://esi.evetech.net/latest/characters/2114798954/)：幻象，简介图尔基矿业七号舰，归Nany 1419。
+
+Nany 1440（2123834339）本轮头衔仍为幻象，既有关系复用。编号矿业舰名只支持同人名片，不证明他担任图尔基矿业主管、实际开过哪艘船或所有统计由本人操作。各号历史榜数不直接相加；具体战役以原始KM和事件另核。
