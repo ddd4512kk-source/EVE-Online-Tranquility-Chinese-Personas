@@ -1,0 +1,61 @@
+{
+  "id": 2116157769,
+  "name": "JNNN",
+  "birthday": "2020-01-08T13:33:44Z",
+  "current_corporation": {
+    "id": 98755298,
+    "name": "Fox of Resistance",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98755298,
+      "name": "Fox of Resistance",
+      "ticker": "FOXOR"
+    },
+    "alliance": {
+      "id": 1727758877,
+      "name": "Northern Coalition.",
+      "ticker": "NC"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2020-01-08T13:34:00Z",
+      "end": "2020-01-11T15:00:00Z"
+    },
+    {
+      "corporation_id": 98627343,
+      "name": "Sunset Rollercoaster",
+      "npc": false,
+      "start": "2020-01-11T15:00:00Z",
+      "end": "2020-01-26T16:42:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2020-01-26T16:42:00Z",
+      "end": "2020-01-26T16:42:00Z"
+    },
+    {
+      "corporation_id": 98629074,
+      "name": "Dark wing flag Soldier",
+      "npc": false,
+      "start": "2020-01-26T16:42:00Z",
+      "end": "2024-07-04T14:36:00Z"
+    },
+    {
+      "corporation_id": 98755298,
+      "name": "Fox of Resistance",
+      "npc": false,
+      "start": "2024-07-04T14:36:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-14"
+}

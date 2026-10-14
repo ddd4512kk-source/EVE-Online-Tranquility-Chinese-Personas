@@ -1,0 +1,40 @@
+{
+  "id": 2112441816,
+  "name": "KIddsis Wang",
+  "birthday": "2017-02-22T14:24:03Z",
+  "current_corporation": {
+    "id": 98755298,
+    "name": "Fox of Resistance",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98755298,
+      "name": "Fox of Resistance",
+      "ticker": "FOXOR"
+    },
+    "alliance": {
+      "id": 1727758877,
+      "name": "Northern Coalition.",
+      "ticker": "NC"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2017-02-22T14:24:00Z",
+      "end": "2024-12-30T07:02:00Z"
+    },
+    {
+      "corporation_id": 98755298,
+      "name": "Fox of Resistance",
+      "npc": false,
+      "start": "2024-12-30T07:02:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-14"
+}

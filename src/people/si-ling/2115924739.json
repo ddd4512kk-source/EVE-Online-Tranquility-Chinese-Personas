@@ -1,0 +1,54 @@
+{
+  "id": 2115924739,
+  "name": "Ahulamumu",
+  "birthday": "2019-11-18T18:29:47Z",
+  "current_corporation": {
+    "id": 98540583,
+    "name": "Special law enforcement department",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98540583,
+      "name": "Special law enforcement department",
+      "ticker": "SARD."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2019-11-18T18:30:00Z",
+      "end": "2019-11-20T17:12:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2019-11-20T17:12:00Z",
+      "end": "2026-02-14T11:58:00Z"
+    },
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2026-02-14T11:58:00Z",
+      "end": "2026-02-14T11:58:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2026-02-14T11:58:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-13"
+}

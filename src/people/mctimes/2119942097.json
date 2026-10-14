@@ -1,0 +1,61 @@
+{
+  "id": 2119942097,
+  "name": "MCtimes",
+  "birthday": "2022-04-29T03:38:06Z",
+  "current_corporation": {
+    "id": 98598862,
+    "name": "Chaos arbiter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98598862,
+      "name": "Chaos arbiter",
+      "ticker": "CACX"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2022-04-29T03:38:00Z",
+      "end": "2022-04-29T13:41:00Z"
+    },
+    {
+      "corporation_id": 98667045,
+      "name": "STARCHASER University",
+      "npc": false,
+      "start": "2022-04-29T13:41:00Z",
+      "end": "2022-05-17T04:09:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2022-05-17T04:09:00Z",
+      "end": "2022-05-17T04:18:00Z"
+    },
+    {
+      "corporation_id": 98707431,
+      "name": "Serenity Moe University",
+      "npc": false,
+      "start": "2022-05-17T04:18:00Z",
+      "end": "2022-06-09T10:33:00Z"
+    },
+    {
+      "corporation_id": 98598862,
+      "name": "Chaos arbiter",
+      "npc": false,
+      "start": "2022-06-09T10:33:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-14"
+}

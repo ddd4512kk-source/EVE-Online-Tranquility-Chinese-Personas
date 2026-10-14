@@ -3,7 +3,7 @@ character_id: 2120938298
 cn_name: 小可
 aliases: [CyrusXiaoKe]
 epithet: 简介告别章鱼，内斗帖又把他点到。
-tags: [00区, DC, .OTN., 著名FC]
+tags: [00区, DC, .OTN., FC]
 ---
 
 小可，游戏名 CyrusXiaoKe，DC 的 Sand Storm Town INC. 主事角色，公开头衔写“小可，CEO”。2024 年 4 月至 11 月，他在 Pandemic Horde Inc.，之后到了 DC；简介中英双语说“再见，小章鱼”，后面挂着一座空堡的击杀链接；2026 年 DC 的 FC 内斗帖里，名字却又被退团者点了出来。

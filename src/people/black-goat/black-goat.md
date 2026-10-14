@@ -3,7 +3,7 @@ character_id: 2115488091
 cn_name: 黑山羊
 aliases: [War martyrdom Freedom]
 epithet: 矿物表留在简介，指挥船开到矿上
-tags: [00区, INIT, YAO.G, 著名FC]
+tags: [00区, INIT, YAO.G, FC]
 ---
 
 黑山羊，游戏名 War martyrdom Freedom，瑶光军团的 FC。他的角色简介放着从 R4 到 R64 的矿物资料，还整理了市场、扫描和虫洞查询入口。到了 2026 年九月，瑶光两位驾驶监视者参与作战的人里，有他，也有[小白菜](../2116339735/)。

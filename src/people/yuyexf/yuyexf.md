@@ -1,7 +1,7 @@
 ---
 character_id: 2119472595
 cn_name: 雨夜星峰
-aliases: [yuyexf, 雨夜]
+aliases: [yuyexf, 雨夜, Feng Tsero, 春梦]
 epithet: 搬家的人求空窗，他先回一个能。
 tags: [00区, 蜜蜂, P.L.A]
 ---

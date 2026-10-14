@@ -1,7 +1,7 @@
 ---
 character_id: 2114253465
 cn_name: 阿进
-aliases: [born reaper]
+aliases: [born reaper, Ajin Shizhu]
 epithet: 逢人就说别人开脚本，最后被联盟 CEO 点名的是自己。
 tags: [00区]
 ---

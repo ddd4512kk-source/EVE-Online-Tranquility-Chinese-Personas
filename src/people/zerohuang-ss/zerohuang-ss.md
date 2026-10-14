@@ -1,7 +1,7 @@
 ---
 character_id: 2113438156
 cn_name: Zero煌
-aliases: [ZeroHuang SS, Zero煌S, 元気😺布偶零ლ, 剑的天成]
+aliases: [Even Rose, ZeroHuang SS, Zero煌S, 元気😺布偶零ლ, 剑的天成]
 epithet: 十年攒出一条势力泰坦，播放量输给一块枪皮。
 tags: ["00区", "FRT", "B站", "SARD."]
 ---

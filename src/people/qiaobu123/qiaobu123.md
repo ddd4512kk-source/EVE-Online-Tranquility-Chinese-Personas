@@ -3,7 +3,7 @@ character_id: 2121450438
 cn_name: 乔布
 aliases: [qiaobu123]
 epithet: 带队是职务，GM也得给战绩墙腾地方。
-tags: [00区, 著名FC, IGC, KR.S]
+tags: [00区, FC, IGC, KR.S]
 ---
 
 乔布，朱雀军团的 Head-FC，游戏名 qiaobu123。军团简介把他放在指挥位置，他自己的简介倒像一面猎物墙：普通玩家、[刀哥](../2119125805/)，再往下还有 GM Nito 和 Zelus。职务表负责说他带队，战绩墙负责说他出去找谁的麻烦。

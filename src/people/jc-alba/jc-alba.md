@@ -46,6 +46,8 @@ tags: ["00区", "工业", "CSQY"]
 
 [NACHO Alliance 在 2026 年 1 月的报道](https://www.nachoalliance.space/archives/4232)转述了 JC Alba 在军团会议上宣布离开 WinterCo、筹建新联盟的消息，也记载 Phoenix Coalition 欢迎创世合作。报道的宣布日期，与[军团联盟历史](https://esi.evetech.net/latest/corporations/98535868/alliancehistory/)里的实际变更分开看：创世在 2 月离开 FRT，随后加入 Wings Freedom.。这一页翻过去，昔日的首席仲裁员，已经带着自己的军团走向另一张桌子。
 
+新桌子还有一张注册牌。[Wings Holding](https://esi.evetech.net/latest/corporations/98825876/)在 2026 年 2 月 7 日成立，创建者与此次查询的 CEO 都是他的 Black Hand F。以前替别人的联盟处理纠纷，后来自己另起联盟，连执行公司的名下也挂着自己的号。仲裁员换了会场，这回不必再去别人的办公室借一张椅子。
+
 ::: 黑料 挂机回来，发现自己被“架空”
 据 2026 年 2 月欧服吧[爆料帖](https://tieba.baidu.com/p/10489881442)，加一 AFK 了很长时间，回来时创世已经去了绝地半年，“一看创世变成了2000的模样”。他想拿回联盟的权限，没拿回来。
 

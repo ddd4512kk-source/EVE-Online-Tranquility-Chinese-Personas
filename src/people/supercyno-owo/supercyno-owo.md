@@ -1,12 +1,12 @@
 ---
 character_id: 2122857798
-cn_name: 苏帕
-aliases: [SuperCyno owo, 苏帕·赛诺·欧乌瓯]
+cn_name: 此方
+aliases: [此方此方此, SuperCyno owo, 苏帕, 苏帕·赛诺·欧乌瓯]
 epithet: 名字是诱导，战场坐进指挥船。
 tags: ["00区", "FRT", "著名FC", "SC-UN"]
 ---
 
-苏帕，游戏名 SuperCyno owo，头衔把英文拆成“苏帕·赛诺·欧乌瓯”，如今在 FRT 的 STARCHASER Inc.。名字挂着 Cyno，实际大战记录里却不只干诱导的活：Atioth 和 Obe，他都坐过监视者。
+此方，游戏名 SuperCyno owo，也叫苏帕，头衔把英文拆成“苏帕·赛诺·欧乌瓯”，如今在 FRT 的 STARCHASER Inc.。名字挂着 Cyno，实际大战记录里却不只干诱导的活：Atioth 和 Obe，他都坐过监视者。
 
 ::: 红料 名字挂诱导，船上有指挥
 zKillboard 记录 3703 次参与击杀，累计约 4.47 万亿 ISK，单杀 44 次，损失约 24.9B。常用船榜首是监视者（561 次），之后是洛基、阔刀、休津；名字挂着诱导，日常干的活却不只点一盏灯。

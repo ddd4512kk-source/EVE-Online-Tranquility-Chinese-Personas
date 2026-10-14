@@ -1,12 +1,14 @@
 ---
 character_id: 2122252155
 cn_name: 水哥
-aliases: [shikongsa, Mortol, Captain shikongsa]
+aliases: [shikongsa, Mortol, Captain shikongsa, 流水, 星云流水]
 epithet: 认就认，联盟一来退二百九十亿。
 tags: ["00区", "蓝章鱼", "K Z U"]
 ---
 
-水哥，游戏名 shikongsa，角色头衔就是“水哥”，群聊里挂的名牌是“Mortol (Kzu shikongsa)”。2024 年 4 月建号，先是在龙焰联盟（DC）的 Moriya Military Industry Complex 住了一年多，中间两度去虫洞的 Salted Fish Inc 串门；2025 年 12 月转进蓝章鱼（Out of the Blue.）旗下的 Knight of Zero Ultra，也就是社区里的“KZU”，据说是蓝章鱼最大的华人军团，在军团里是管理层的一员。
+水哥，也叫流水、星云流水，游戏名 shikongsa，角色头衔就是“水哥”，群聊里挂的名牌是“Mortol (Kzu shikongsa)”。2024 年 4 月建号，先是在龙焰联盟（DC）的 Moriya Military Industry Complex 住了一年多，中间两度去虫洞的 Salted Fish Inc 串门；2025 年 12 月转进蓝章鱼（Out of the Blue.）旗下的 Knight of Zero Ultra，也就是社区里的“KZU”，据说是蓝章鱼最大的华人军团，在军团里是管理层的一员。
+
+他在国服 ISU 时就以“星云流水”之名当过 FC。到了宁静服，外号缩成了流水，仍出现在 KZU 的会议里：[《KZU会议记录0103》](https://www.bilibili.com/video/BV18NiqB3EM9/)评论区有人问是不是原来国服 ISU 的那位，作者答“是的，来一起玩吗”。老熟人认出了指挥，后来友军认熟的，却是他那句“认就认，不认就找联盟”。
 
 ## 档案
 

@@ -1,12 +1,12 @@
 ---
-character_id: 2115619622
+character_id: 848736312
 cn_name: 大林
 aliases: [Alasker, Kiki Kyo, 大林Allen, 大林Alsk]
 epithet: 建了华人第一个虫洞联盟，竞选帖底下被要求“按 X 删除掠夺舰”。
-tags: ["虫洞", "00区", "F1GOU"]
+tags: ["虫洞", "00区", "499", "B站"]
 ---
 
-大林，收录角色 Kiki Kyo（头衔“大林Allen”），另一个常用角色叫 **Alasker**。他是 F1 Monkey. 的 CEO、Esports Petopia（华人比赛联盟）的创建角色，也带过华人虫洞联盟 War and Wormhole（WAW）。
+大林，主号 **Alasker**，另一个常用角色 Kiki Kyo 的头衔是“大林Allen”。他用 Kiki Kyo 担任 F1 Monkey. 的 CEO、创建 Esports Petopia（华人比赛联盟），也带过华人虫洞联盟 War and Wormhole（WAW）。
 
 ::: 红料 华人第一个虫洞联盟，和一个比赛联盟
 2022 年 Alasker 参选第 17 届 CSM，[竞选帖](https://forums.eveonline.com/t/alasker-for-csm17/363516)自我介绍：2009 年在晨曦服入坑，2017 年来宁静服；2018 年建了“the first Chinese wormhole alliance ‘War and Wormhole’”，2019 年又建了专打小队战和比赛的 Esports Petopia；2021 年和 CCP Aurora 合办了面向澳洲和中国时区的夏季锦标赛；当时还挂着 DC（Dracarys.）“prime fleet commander”的头衔。
@@ -16,6 +16,12 @@ tags: ["虫洞", "00区", "F1GOU"]
 
 ::: 红料 贴吧的虫洞教程
 2019 年 10 月，他以“大林 Alsk”在 eve欧服吧发了[《虫洞入洞和洞主基础分享》](https://c.tieba.baidu.com/p/6284566761?fr=good)，进了精品区。开头交代自己是 WAW 的 CEO、新上任的吧务；还写了奇奇莫拉、抓人截击、KB 使用、虫洞选址等一串教程。Kiki Kyo 的 KB 上用得最多的船就是奇奇莫拉（511 次）——军团名 Kiki. Legion 也是从这条船来的。
+:::
+
+::: 红料 二百个赞，换一场锦标赛
+2022 年 5 月，大林和[斑鸠](../2113386745/)一起参加[宁静访谈](https://www.bilibili.com/video/BV183411P7vt/)，从WAW立国聊到虫洞、PVP环境、AT和他的CSM竞选。[白杉](../2115995480/)在评论里替他挂出承诺：“点赞过200，今年会再次举办华人PVP锦标赛！”
+
+选CSM要玩家投票，办比赛也先请玩家动手点赞。到了6月，评论区已经有人催：“超两百了，赶紧办。”联盟老板的一句热场话，转眼就变成观众手里的催办单；看样子想让大林再开赛，大家还得先替节目做一轮拉票。
 :::
 
 ::: 黑料 竞选帖底下的“爱”

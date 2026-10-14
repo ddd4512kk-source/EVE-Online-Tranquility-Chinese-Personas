@@ -1,0 +1,64 @@
+{
+  "id": 2116939692,
+  "name": "iqoldsister iq",
+  "birthday": "2020-05-19T04:05:47Z",
+  "current_corporation": {
+    "id": 98585972,
+    "name": "Inverse Entropy Fleet",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98585972,
+      "name": "Inverse Entropy Fleet",
+      "ticker": "CNIEF"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2020-05-19T04:06:00Z",
+      "end": "2020-05-23T05:34:00Z"
+    },
+    {
+      "corporation_id": 98575144,
+      "name": "Phoenix City",
+      "npc": false,
+      "start": "2020-05-23T05:34:00Z",
+      "end": "2020-06-29T17:10:00Z"
+    },
+    {
+      "corporation_id": 98585972,
+      "name": "Inverse Entropy Fleet",
+      "npc": false,
+      "start": "2020-06-29T17:10:00Z",
+      "end": "2021-04-01T14:27:00Z"
+    },
+    {
+      "corporation_id": 98626494,
+      "name": "STARCHASER Inc",
+      "npc": false,
+      "start": "2021-04-01T14:27:00Z",
+      "end": "2021-06-10T11:32:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "name": "Center for Advanced Studies",
+      "npc": true,
+      "start": "2021-06-10T11:32:00Z",
+      "end": "2021-06-10T11:33:00Z"
+    },
+    {
+      "corporation_id": 98585972,
+      "name": "Inverse Entropy Fleet",
+      "npc": false,
+      "start": "2021-06-10T11:33:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-13"
+}
