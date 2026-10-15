@@ -3,7 +3,7 @@ character_id: 2114069885
 cn_name: 小G
 aliases: [Galaxy Feather]
 epithet: 抓脚本先写勒索信，被踢出联盟才想起有举报这回事。
-tags: ["00区", "INIT", "C-SCG"]
+tags: ["00区", "INIT.", "C-SCG"]
 ---
 
 小G，游戏名 Galaxy Feather，2018 年建号。角色简介只有一句：“生于忧患，死于安乐。”此后八年他在北极星、滑稽、FRT、三巨头之间来回打工，KB 打得很漂亮。不过圈里传得最多的，是下面这场抓脚本的事。

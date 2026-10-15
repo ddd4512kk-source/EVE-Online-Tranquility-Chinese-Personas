@@ -3,7 +3,7 @@ character_id: 2114511818
 cn_name: 白井
 aliases: [jita ezra, kazuha shirai, Lynn Mich, lucy lilith]
 epithet: 九州 CEO 换了号，RMT 永封没换人。
-tags: [00区]
+tags: ["00区", "CEO", "RMT", "脚本"]
 ---
 
 白井用主号 jita ezra 给九州二世 NCT 招人，招新帖的 CEO 栏填的就是白井。游戏里的 CEO 角色随后从他的小号 kazuha shirai 换到 Lynn Mich，椅子看着换了人，其实还是他自己坐。2021 年交到简素言手里，2024 年又交回白井的小号 lucy lilith。给这趟换号接班收尾的，却是 RMT 永久封号。

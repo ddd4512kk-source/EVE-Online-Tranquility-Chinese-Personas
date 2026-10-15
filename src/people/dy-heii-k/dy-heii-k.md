@@ -3,7 +3,7 @@ character_id: 2114324589
 cn_name: 橘子
 aliases: [DY HEII K]
 epithet: 采星者七周年，自家联盟把他的无畏打了。
-tags: ["00区", "FRT", "SC-UN"]
+tags: ["00区", "FRT", "SC-UN", "CEO"]
 ---
 
 橘子，游戏名 DY HEII K，头衔“橘子（CEO）”——采星者（STARCHASER Inc）的现任 CEO。注意，他不是[柑橘战士](../92130708/)。

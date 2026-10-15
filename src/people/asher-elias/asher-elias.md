@@ -3,7 +3,7 @@ character_id: 1687651723
 cn_name: 阿舍
 aliases: [Asher, asher皇帝, 新帝]
 epithet: 骂别人是懦夫，打 FRT 时也得拉上老三。
-tags: ["00区", "蜜蜂", "著名FC", "非华人", "GEWNS"]
+tags: ["00区", "CONDI", "著名FC", "非华人", "GEWNS", "联盟高层", "CEO"]
 ---
 
 阿舍（Asher Elias），2009 年建号，在 Unforgiven Legion 待了四年，2013 年 3 月进 GoonWaffe，此后一直没挪窝。他是蜜蜂的招牌 FC：2015 年创办特种行动组 Reavers，带过联盟锦标赛队，WWB 期间当帝国的“天空元帅”（sky marshal）。zKillboard 上三万多个击杀，最常开的船是监视者和圣卒，在蜜蜂里按击杀数排第一。

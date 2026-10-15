@@ -3,7 +3,7 @@ character_id: 2115995480
 cn_name: 白杉
 aliases: [舰长白杉, 白杉杉杉, FRT BaishanTvT, B站]
 epithet: 一个击杀的 KB，五万粉丝的编年史。
-tags: ["00区", "B站", "CSQY"]
+tags: ["00区", "WINGS", "B站", "CSQY"]
 ---
 
 白杉，游戏名 FRT BaishanTvT，头衔就两个字“白杉”。2019 年 12 月建号，第一站是凛冬的高安阿尔法小号军团 holy moly.，2022 年自己开了一家军团，8 月进了创世（ChuangShi），一直待到现在——2026 年 2 月创世离开 FRT，他也跟着去了 Wings Freedom.。

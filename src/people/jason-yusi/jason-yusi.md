@@ -3,7 +3,7 @@ character_id: 2114969276
 cn_name: 青春（PLA）
 aliases: [Jason Yusi, 青春的工作室, Jason Yus i, 青春丶男神, 青春✆º, KISSMYASSTHX]
 epithet: 视频教刷血袭，贴吧教认马甲。
-tags: [00区, 蜜蜂, P.L.A, B站]
+tags: ["00区", "CONDI", "P.L.A", "B站"]
 ---
 
 青春，PLA 的 Jason Yusi，B站叫“青春的工作室”。他把血袭者异常、10/10 和旗舰刷怪演示摆进角色简介：大航、小航、无畏，生产工具一排排摆好；视频下面又给[荣耀](../1664583033/)的 PLA 招人。教程教怎么赚钱，广告告诉你赚完往哪家走。另一个号 KISSMYASSTHX 同样在 PLA，2021 年的角色信息里还挂着 FC 与后勤部门头衔，招生之外，也有舰队里的差事。

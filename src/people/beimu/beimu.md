@@ -3,7 +3,7 @@ character_id: 2121410019
 cn_name: 北暮
 aliases: [BeiMu, 北慕, 北岸的暮色]
 epithet: 群里先禁言，楼里再约谈
-tags: [00区, Goons, NSGY, FC]
+tags: ["00区", "CONDI", "NSGY", "FC", "CEO"]
 ---
 
 北暮，北岸军团 NSGY 的主事人，游戏角色 BeiMu。2025 年初，他碰到的麻烦不是敌人来拆家，而是自家人退了群、换了团，还把一肚子气带进了[贴吧](https://tieba.baidu.com/p/9427784051)。此生说管理乱禁言，CEO 偏袒内务大总管；北暮赶来答辩，先把对方的身份纠正了一遍：你自己也是管理，怎么就成了受气的小团员？

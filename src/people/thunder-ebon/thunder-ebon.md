@@ -2,7 +2,7 @@
 character_id: 166847438
 aliases: [ebon]
 epithet: 先把自己人打了，再把联盟建了。
-tags: ["00区", "北极星", "TNND"]
+tags: ["00区", "PM", "TNND", "CEO"]
 ---
 
 Thunder ebon，早期闪电与北极星这条线上的老名字。在 Stain 的那些华人往事里，诸侯未必每天谈建国，能找几个人出去打架，往往就已经过得很开心。

@@ -3,7 +3,7 @@ character_id: 2122520286
 cn_name: zrxz
 aliases: [zrxzhh, 战场食尸鬼]
 epithet: 总览签自己名，坏事先签雨夜名
-tags: [00区, 蜜蜂, P.L.A, 著名FC]
+tags: ["00区", "CONDI", "P.L.A", "著名FC"]
 ---
 
 zrxz，PLA 的 zrxzhh，头衔自挂“战场食尸鬼”。他的简介把加成、后勤频道和“zrxz宝的总览”摆成工具箱，开头却先放一句：“一切坏事都是 yuyexf 指示的。”同团的[雨夜星峰](../2119472595/)，就这么先于操作说明登了场。

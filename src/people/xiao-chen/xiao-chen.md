@@ -3,7 +3,7 @@ character_id: 2115224698
 cn_name: 小尘
 aliases: [Tas Oramara, 祖尔金]
 epithet: 带过故土舰队，也给深水带过路。
-tags: [故土]
+tags: ["故土", "RMT"]
 ---
 
 小尘以 **ice Kusoni** 活动，后来换成 **Tas Oramara**，外号“祖尔金”。他是创世故土舰队的 FC，既组织出勤，也经常自己下场：zKillboard 记录 ice Kusoni 有 2200 次击杀、437 次损失，击毁价值约 1.01 万亿 ISK。

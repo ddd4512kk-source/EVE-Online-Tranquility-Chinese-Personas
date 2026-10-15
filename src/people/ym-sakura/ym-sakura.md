@@ -3,7 +3,7 @@ character_id: 2116369488
 cn_name: 飞飞
 aliases: [YM sakura, 小Sakura, tuzifei404, tuzifei001, tuzifei002, tuzifei003, tuzifei101, tuzifei102, tuzifei103, tuzifei404 X1, tuzifei404 X2]
 epithet: 自称萌新小 Sakura，团员称“敬爱的飞飞大统领阁下”。
-tags: ["00区", "DC", "TU ZI"]
+tags: ["00区", "D.C", "TU ZI", "CEO"]
 ---
 
 飞飞，游戏名 YM sakura，头衔“★飞飞★”，兔飞军团（Tu Zi Fei Corporation）的 CEO。角色简介只有一句：

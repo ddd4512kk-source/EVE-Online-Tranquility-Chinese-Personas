@@ -3,7 +3,7 @@ character_id: 2119060315
 cn_name: 皮卡
 aliases: [notHenryZ, PEKKA, 贝斯城管, Ashemi Shaishi, Kerrum Pithy, Vocan Hephaes]
 epithet: 教配船，也教多开抠活动奖励。
-tags: ["00区", "B站", "CSQY"]
+tags: ["00区", "WINGS", "B站", "CSQY"]
 ---
 
 皮卡，B 站 notHenryZ，一人三号：主号 Kerrum Pithy（头衔“PEKKA”，自封“✪ 贝斯城管 ✪”），外加 Vocan Hephaes（头衔“皮卡”）和 Ashemi Shaishi（头衔“皮卡小号”），三号同在创世，头衔编号都是 #69530。B 站上，他一会儿讲舰船装配，一会儿剪会战录像，还把多账号做活动的流程拆成了教程。

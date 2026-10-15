@@ -1,7 +1,7 @@
 ---
 character_id: 2115505057
 epithet: 总监被指是间谍，他认疏忽，不认欺骗。
-tags: ["U-O-P"]
+tags: ["K-SE", "U-O-P"]
 ---
 
 creatorlxd，2019 年建号，ESI 头衔只有一个词：quit。2023 年起先后在 SAK（新手学院）、VCS、De Vliegende Hollander 之间进进出出，2024 年 10 月进了 Union Our Power，如今挂在 K-Space Exile 联盟名下。他出名不是因为头衔，而是因为 2026 年 4 月的一场对话：他的军团被踢了，理由是他手下有个总监是间谍。

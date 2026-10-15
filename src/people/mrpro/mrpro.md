@@ -3,7 +3,7 @@ character_id: 2114453889
 cn_name: 陌然
 aliases: [MrPRO, Pro哥, 陌然浅浅笑]
 epithet: 一个 ECM 脉冲波，同时 E 了两支舰队。
-tags: ["低安", "F.GUY"]
+tags: ["低安", "BIGAB", "F.GUY"]
 ---
 
 陌然，贴吧账号“陌然浅浅笑”，楼里有人叫他 Pro 哥。2018 年中秋入坑欧服，跟着发小进了浮岳重工（Fuyue Industry Inc.），从 Brave 跟到 AOM，再跟到 DC。本书收录的是他的低安号 MrPRO：2018 年建号，先在 C 卫队团 sorry4that 混，2022 年起进了 Shadow Cartel 的 LN1P（Late night poets，深夜诗人），2024 年 6 月带人另立承天府（Benigno Numine），2025 年起在深水的 Family Guy。

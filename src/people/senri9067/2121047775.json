@@ -1,0 +1,89 @@
+{
+  "id": 2121047775,
+  "name": "Senri9067",
+  "birthday": "2023-03-22T08:56:31Z",
+  "current_corporation": {
+    "id": 98735560,
+    "name": "Cosmic Potion",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98735560,
+      "name": "Cosmic Potion",
+      "ticker": "COPO."
+    },
+    "alliance": {
+      "id": 99014738,
+      "name": "The Black Shores",
+      "ticker": "BLKSH"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2023-03-22T08:57:00Z",
+      "end": "2023-05-25T03:18:00Z"
+    },
+    {
+      "corporation_id": 98575729,
+      "name": "Roundtable Congress",
+      "npc": false,
+      "start": "2023-05-25T03:18:00Z",
+      "end": "2023-06-05T01:39:00Z"
+    },
+    {
+      "corporation_id": 98715582,
+      "name": "Emperor Scythes",
+      "npc": false,
+      "start": "2023-06-05T01:39:00Z",
+      "end": "2023-10-17T13:14:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2023-10-17T13:14:00Z",
+      "end": "2023-10-17T13:18:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "name": "Kuan.Dai.Shan",
+      "npc": false,
+      "start": "2023-10-17T13:18:00Z",
+      "end": "2023-12-14T13:29:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "name": "Peoples Liberation Army",
+      "npc": false,
+      "start": "2023-12-14T13:29:00Z",
+      "end": "2024-02-05T14:38:00Z"
+    },
+    {
+      "corporation_id": 98735560,
+      "name": "Cosmic Potion",
+      "npc": false,
+      "start": "2024-02-05T14:38:00Z",
+      "end": "2024-03-14T13:27:00Z"
+    },
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2024-03-14T13:27:00Z",
+      "end": "2024-03-30T12:25:00Z"
+    },
+    {
+      "corporation_id": 98735560,
+      "name": "Cosmic Potion",
+      "npc": false,
+      "start": "2024-03-30T12:25:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

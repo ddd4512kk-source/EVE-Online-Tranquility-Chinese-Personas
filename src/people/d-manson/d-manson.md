@@ -3,7 +3,7 @@ character_id: 690534767
 cn_name: D哥哥
 aliases: [D manson, Dmanson, DM, DD, D鸽鸽, B站]
 epithet: 兄弟归兄弟，资产另有解释。
-tags: ["00区", "FRT", "B站", "T C F"]
+tags: ["00区", "FRT", "B站", "T C F", "CEO", "低素质"]
 ---
 
 D哥哥，D manson，TCF（Thunders Claw Fleet）的 CEO。TCF 的创建者是[andy](../468540318/)，老闪电那条线上还有[ebon](../166847438/)、[墨辉](../536107961/)等人。招募广告讲的是老牌 PVP、兄弟情分、小而精；后来老成员上贴吧翻账，讲的却是账号、机库、大航去了哪里。

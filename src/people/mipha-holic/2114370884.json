@@ -1,0 +1,50 @@
+{
+  "id": 2114370884,
+  "name": "Mipha Holic",
+  "birthday": "2018-08-02T10:18:04Z",
+  "current_corporation": {
+    "id": 98639667,
+    "name": "Fountain Hunter",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98639667,
+      "name": "Fountain Hunter",
+      "ticker": "F.H.T"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2018-08-02T10:18:00Z",
+      "end": "2018-08-02T15:20:00Z"
+    },
+    {
+      "corporation_id": 98185110,
+      "name": "Fuxi Legion",
+      "npc": false,
+      "start": "2018-08-02T15:20:00Z",
+      "end": "2019-10-17T05:43:00Z"
+    },
+    {
+      "corporation_id": 992634837,
+      "name": "Thunder Mercenary Army",
+      "npc": false,
+      "start": "2019-10-17T05:43:00Z",
+      "end": "2020-04-23T02:12:00Z"
+    },
+    {
+      "corporation_id": 98639667,
+      "name": "Fountain Hunter",
+      "npc": false,
+      "start": "2020-04-23T02:12:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

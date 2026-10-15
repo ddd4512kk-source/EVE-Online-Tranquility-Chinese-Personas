@@ -3,7 +3,7 @@ character_id: 92189699
 cn_name: LULU奶爸
 aliases: [LULU的奶爸, lulu奶爸, lulu love]
 epithet: ISK 能对账，兄弟情对不上。
-tags: ["00区", "FRT", "LOTM"]
+tags: ["00区", "FRT", "LOTM", "联盟高层"]
 ---
 
 lulu love，社区署名“LULU的奶爸”，早期 FRT 财务总监、行星之光（LOTM）总监。别人回忆联盟，先说自己带过多少人；奶爸回忆联盟，先把启动资金、补损和管理结构摆出来。兄弟会的兄弟负责打仗，总得有人负责算兄弟打仗花了多少钱。

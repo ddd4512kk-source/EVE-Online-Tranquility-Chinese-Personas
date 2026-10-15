@@ -3,7 +3,7 @@ character_id: 2113316712
 cn_name: Akagi
 aliases: [Akagi Mic, あかぎ]
 epithet: 龙裔 CEO，一句“鹅神 nb”是拿女装换的。
-tags: ["00区", "FRT", "D.N.E"]
+tags: ["00区", "FRT", "D.N.E", "CEO"]
 ---
 
 Akagi，游戏名 Akagi Mic，龙裔（Dragonborn of New Eden，DNE）的 CEO。2017 年 10 月建号，12 月进龙裔，九年没换过公司。角色简介是一行“あかぎ”，加两句谁也看不懂的外文。

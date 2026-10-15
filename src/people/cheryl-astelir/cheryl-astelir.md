@@ -3,7 +3,7 @@ character_id: 94260398
 cn_name: 折纸
 aliases: [Cat's Shining, Cat's Gneiss, Fujed Cericy, Astelir]
 epithet: 舰队会带，银行号先被带走。
-tags: ["00区", "低安", "著名FC", "Snuffed Out", "CYCIE"]
+tags: ["00区", "低安", "著名FC", "B B C", "CYCIE", "CEO", "RMT"]
 ---
 
 折纸，主号 Cheryl Astelir，是星尘守护（SGCN）出身的带队 FC。2023 年玩家盘点华人指挥时，就有人把他和纸条并列推荐，也有人说自己跟过折纸的队。2025 年，他从 FRT 带人分出去，另起 The Skies Descend，后来加入 Snuffed Out；军团 CEO 挂在小号 Cat's Shining 上。

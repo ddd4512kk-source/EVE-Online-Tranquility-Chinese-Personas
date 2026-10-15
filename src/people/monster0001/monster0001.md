@@ -3,7 +3,7 @@ character_id: 2122641476
 cn_name: 大黑
 aliases: [Monster0001]
 epithet: 日不落的团长，封号传闻甩不掉。
-tags: ["00区", "FRT", ".RED-", "B站"]
+tags: ["00区", "FRT", ".RED-", "B站", "CEO", "RMT", "脚本"]
 ---
 
 大黑，游戏名 Monster0001，红领鲸军团（Red Scarf Humpback）的 CEO。角色 2024 年 8 月才建，简介还是萌新口吻：

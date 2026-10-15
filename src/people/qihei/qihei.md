@@ -3,7 +3,7 @@ character_id: 2121708576
 cn_name: 漆黑
 aliases: [qihei, QHei, 龙王的狱友]
 epithet: 坐指挥船，也给敌人指路
-tags: ["00区", "DC", "DUSK0"]
+tags: ["00区", "D.C", "DUSK0"]
 ---
 
 漆黑，游戏名 qihei，2023 年 10 月建号，头衔“漆黑 已认证”。先在 FRT 的怯薛（KheshigFleet），2025 年 4 月在[扎克](../2114270880/)离团的次日离开，此后在“低安养老团” Obsidian Armament、OSY 的[图万·奥斯神殿](../91254848/)之间辗转，2026 年 4 月起在 DC（Dracarys.）的 Dusk dreadnought.——黄昏无畏。

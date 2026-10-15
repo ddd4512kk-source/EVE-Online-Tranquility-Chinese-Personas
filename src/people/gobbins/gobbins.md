@@ -3,7 +3,7 @@ character_id: 342545170
 cn_name: 哥布林
 aliases: [Gobbins, 哥尔巴乔夫, 戈尔巴乔夫, 武幽王, 歌便屎]
 epithet: 四万八千人的联盟，败给他自己的一纸撤退公告。
-tags: ["00区", "非华人", "HLDFC"]
+tags: ["00区", "REKTD", "非华人", "HLDFC", "联盟高层", "RMT"]
 ---
 
 哥布林（Gobbins），2025 年 11 月以后华人圈改叫他戈尔巴乔夫。2006 年建号，在 Pandemic Legion 混过好几年，2015 年 4 月转进新成立的 Pandemic Horde（PH），从此当了十年盟主。角色头衔至今写着 Pandemic Horde Alliance Leader，简介让人有事别发邮件，找 Discord：gobbins1。简介最后一行注明，本号是一个叫 Admiral “muh medals” Goberius 的小号。

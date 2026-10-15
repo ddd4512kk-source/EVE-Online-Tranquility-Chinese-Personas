@@ -3,7 +3,7 @@ character_id: 2114324057
 cn_name: 死枪
 aliases: [CrysisDeathgun YoRHa, CrysisDeathgun, EVE神崎, B站]
 epithet: 养老团当家，凌晨替盗号一方送问候。
-tags: ["00区", "低安", "B站", "OADS."]
+tags: ["00区", "低安", "B站", "OADS.", "CEO"]
 ---
 
 死枪，也是 B 站 UP 主[EVE神崎](https://space.bilibili.com/10126340)，游戏名 CrysisDeathgun YoRHa——名字像是把《孤岛危机》、《刀剑神域》里的死枪和《尼尔》的寄叶部队拼在了一起，头衔“丁真珍珠”。2018 年 7 月建号，角色简介是一大块用符号拼出来的异星文字，底下挂一排 KM：一条神使泰坦、一条归魂者超旗、一座 Keepstar、一条纳迦法。

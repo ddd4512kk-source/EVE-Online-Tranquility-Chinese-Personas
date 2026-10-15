@@ -3,7 +3,7 @@ character_id: 2114362964
 cn_name: 星星
 aliases: [星星定乾坤, Flashing shark, B站, XingXing DingQianKun]
 epithet: 给自己打分统帅九十九，政治九十七，武力只有九十。
-tags: ["00区", "FRT", "著名FC", "B站", "CACX"]
+tags: ["00区", "FRT", "著名FC", "B站", "CACX", "联盟高层"]
 ---
 
 星星，游戏名 Flashing shark，B 站 UP 主、主播“星星定乾坤”，混沌仲裁（Chaos arbiter）的老管理、FC。游戏头衔：

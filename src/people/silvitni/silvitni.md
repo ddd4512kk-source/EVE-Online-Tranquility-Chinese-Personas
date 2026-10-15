@@ -3,7 +3,7 @@ character_id: 1664583033
 cn_name: 极端荣耀
 aliases: [荣耀, 农药, Vegetate, Prince Corleone, PLA Fleet CEO, Henry Nakrar]
 epithet: 守则禁骂人，社长开骂榜。
-tags: ["00区", "蜜蜂", "P.L.A"]
+tags: ["00区", "CONDI", "P.L.A", "联盟高层", "CEO", "低素质"]
 ---
 
 极端荣耀，收录角色 Silvitni，PLA 老板，兼任自己人生的新闻发言人。他在[《PLA AND FRT STORY》](https://forum.pla-eve.com/topic/217-pla-and-frt-story/)里自述，2012 年圣诞节从国服来到欧服，先加入行星之光，后来办起 PLA。经营军团之外，还经营“帝国新闻社”：别人打一仗出一张战报，他吵一架能出一套专题。

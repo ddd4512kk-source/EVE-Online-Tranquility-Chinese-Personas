@@ -3,7 +3,7 @@ character_id: 2122410906
 cn_name: 金克丝
 aliases: [JINX, Louis-CHEN, 凛冬, 宝矿力]
 epithet: 二十六天骗垮一个虫洞团，又花一个月一笔笔还清。
-tags: ["虫洞", "HPQ."]
+tags: ["虫洞", "FLAMA", "HPQ."]
 ---
 
 金克丝，游戏名 Louis-CHEN，自建军团叫 JINX.Department。按本人后来的自报家门：“在 ph 叫凛冬，在 frt 用过宝矿力这些名字。”角色简介只有一句：“Why So Serious? Boi.”

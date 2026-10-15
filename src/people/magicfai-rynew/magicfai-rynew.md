@@ -3,7 +3,7 @@ character_id: 2114001176
 cn_name: 鸟哥
 aliases: [MAgiCfai RynEW, rain Dense, 鸟大师, 娜迦哥, 军用鸟头]
 epithet: 自称九年老玩家，进团先要一条娜迦。
-tags: [高安]
+tags: ["高安", "低素质"]
 ---
 
 鸟哥，游戏名 MAgiCfai RynEW，2018 年 4 月建号；另一个角色 rain Dense 是 2014 年 11 月的老号。两个号一直待在同一家军团 Silver spark tree，这家军团 2014 年由 rain Dense 亲手创立，成员常年只有一个人。军团简介写着“紧紧和我抱在一起”“稳定低税率 挑战无极限 招收全世界各地的玩家 热爱和平自由 努力生活 我们将共同分享财富”，联系人一栏：MAgiCfai RynEW（鸟哥）。

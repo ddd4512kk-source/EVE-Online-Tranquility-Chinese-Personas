@@ -3,7 +3,7 @@ character_id: 2116389402
 cn_name: 瓜瓜
 aliases: [Jolange Jogua, Nolange, 瓜giegie]
 epithet: 甲板门槛十个 B，简介愿望一条科莫多。
-tags: ["00区", "FRT", "著名FC", "NUWA"]
+tags: ["00区", "FRT", "著名FC", "NUWA", "联盟高层", "CEO"]
 ---
 
 瓜瓜，游戏名 Jolange Joestar，另有角色 Jolange Jogua。据他 2025 年的 [CSM 竞选帖](https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771)自述：FRT 联盟总监、Arknights. 军团 CEO、FC，兼大工业玩家，2020 年入坑。

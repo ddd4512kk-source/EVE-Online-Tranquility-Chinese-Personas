@@ -3,7 +3,7 @@ character_id: 2113606055
 cn_name: 战歌
 aliases: [Ezio Harry]
 epithet: 支付宝的独裁者兼摄政王，新手团叫 PayPal。
-tags: ["00区", "FRT", "著名FC", "AMIYA"]
+tags: ["00区", "FRT", "著名FC", "AMIYA", "CEO"]
 ---
 
 战歌，游戏名 Ezio Harry，支付宝军团（Alipay.）的掌舵人。游戏头衔一口气挂了九个：

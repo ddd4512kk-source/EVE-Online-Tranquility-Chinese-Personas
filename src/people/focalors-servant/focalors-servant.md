@@ -3,7 +3,7 @@ character_id: 2124239778
 cn_name: 芙
 aliases: [芙芙, 憨憨的芙芙, 雷电将军的狗, Focalors]
 epithet: 两百万悬赏命，十几亿求原谅。
-tags: ["00区", "K Z U"]
+tags: ["00区", "VAPOR", "K Z U", "低素质"]
 ---
 
 芙，游戏名 Focalors Servant，头衔“小兔兔”，QQ 上叫“雷电将军的狗”，群名片写“憨憨的芙芙”，后来改成“超级聪明的芙芙！”。2026 年 3 月底建号，4 月下旬进了吃瓜（Chi Gua），是个刚来欧服的新人。

@@ -2,7 +2,7 @@
 character_id: 2113271910
 aliases: [Sayler, AVDOT]
 epithet: 低安海盗里的华语军团 AVDOT 当家，签过泰坦，也去过原神联盟。
-tags: [低安, AVDOT]
+tags: ["低安", "B B C", "AVDOT", "CEO"]
 ---
 
 Sayler，2017 年 10 月建号，安全等级 -8.9。现在是华语军团 **Infinity Avenger**（AVDOT）的 CEO。AVDOT 的军团简介是：

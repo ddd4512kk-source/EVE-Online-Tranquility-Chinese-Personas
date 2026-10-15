@@ -3,7 +3,7 @@ character_id: 2114027991
 cn_name: 冷剑
 aliases: [Homura, Homura Hikari, 冷箭, B站, Hikari Homura, HikariHomura, Homura℃, 七剑能天使EXIA, ColdSword]
 epithet: 一剑可当百万师，吵架还得要管理员。
-tags: ["00区", "著名FC", "B站", "AE868"]
+tags: ["00区", "CAMP.", "著名FC", "B站", "AE868", "CEO"]
 ---
 
 冷剑，游戏名 Homura Hikari，FBC 出身的 FC，后来建了秋名山家族与 Average camping enjoyer（普通蹲点爱好者）。他给自己题诗“只身转战三千里，一剑可当百万师”，欧服吧给他讲的故事却落在另一种权限上：据“鸟门”群主咪咪的抱怨，不肯给冷剑管理员，是怕他乱踢人；另有吧友说，冷剑吵架后要求禁言没成，索性把团踢了。舰队里的指挥权到了聊天群，看来也想继续通用。

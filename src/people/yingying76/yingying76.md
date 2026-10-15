@@ -3,7 +3,7 @@ character_id: 2117010442
 cn_name: "76"
 aliases: [YingYing76, BeliEVE76, 战地记者76, wite76]
 epithet: 战地记者，爱拍自家被团灭，最后一条新闻是自己的讣告。
-tags: ["00区", "DC", "B站", "FV."]
+tags: ["00区", "D.C", "B站", "FV."]
 ---
 
 76，B 站账号 BeliEVE76，游戏里挂着「76」的头衔，角色简介第一行自封「战地记者76」。2020 年 6 月建号，半个月后进了 Fuente Vacio（FV.，圈里叫“小蜜蜂国人团”），此后六年基本没挪窝，联盟随军团一路 AOM → 戈氏（Goonswarm）→ PH → DC 走下来。

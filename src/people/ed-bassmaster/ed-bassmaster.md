@@ -3,7 +3,7 @@ character_id: 2118508390
 cn_name: 执画
 aliases: [Ed Bassmaster, thebosszang]
 epithet: 别人的简介写招新，他的简介挂偷钱者的蛋。
-tags: ["00区", "CSQY"]
+tags: ["00区", "WINGS", "CSQY", "联盟高层"]
 ---
 
 执画，Wings 的核心管理之一，收录角色 Ed Bassmaster，另一个号叫 thebosszang。前者待在创世，后者进了 Wings Freedom. 的执行军团 Wings Holding。两张名片分工挺清楚：一张公开头衔直接写“执画”，另一张出现在联盟执行公司的战绩榜上。

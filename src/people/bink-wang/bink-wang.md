@@ -2,7 +2,7 @@
 character_id: 2114061886
 aliases: [binkcn, BW]
 epithet: 刷怪恶狼从没被人抓死过——被怪打死了两条。
-tags: ["00区", "INIT", "YAO.G"]
+tags: ["00区", "INIT.", "YAO.G"]
 ---
 
 Bink Wang，贴吧 binkcn，号是 2018 年建的，2024 年 3 月才真正下场，进了 Pandemic Horde 底下的 Profane Proverb。2012 年他就在贴吧聊过“我大 EVE”的任务，回忆录里也自称“国服我也是低安海盗”，算是老海盗换服重新做人。

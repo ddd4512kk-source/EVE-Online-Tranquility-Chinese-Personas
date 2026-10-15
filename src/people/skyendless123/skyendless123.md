@@ -3,7 +3,7 @@ character_id: 2115060797
 cn_name: 斯凯
 aliases: [Skyendless123, Skyendless, skyend, 手表鹰]
 epithet: 在蜜蜂被出勤教做人，转头招新写“不强制出勤”。
-tags: ["00区", "FC", "WTEG"]
+tags: ["00区", "IGC", "FC", "WTEG", "CEO"]
 ---
 
 斯凯，守望之鹰（Watch Eagle，WTEG）的团长，自家人都叫“手表鹰”。2019 年他用 Skyendless 建了这个团，后来换 Skyendless123 坐 CEO 的位子，两个号头衔都写“斯凯”。

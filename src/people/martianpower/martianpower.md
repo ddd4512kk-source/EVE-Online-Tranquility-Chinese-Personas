@@ -3,7 +3,7 @@ character_id: 1384619695
 cn_name: 火星
 aliases: [Martian Force, Martian States]
 epithet: 想把联盟练成精兵，先把友军练成了敌军。
-tags: [00区]
+tags: ["00区", "联盟高层", "CEO"]
 ---
 
 火星，游戏名 MartianPower，早年盘古绕不过去的二代目。读这段野史，常有一种错觉：敌人还在星门外，联盟里已经开始开庭了。

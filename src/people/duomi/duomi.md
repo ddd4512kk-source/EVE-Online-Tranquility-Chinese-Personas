@@ -3,7 +3,7 @@ character_id: 2118339639
 cn_name: 多米
 aliases: [Aitt duominx, Tantami duominx, Duomi D01, Duomi D02, Duomi D03, 多米大元帅]
 epithet: PH 封了大元帅，散场先跑，到龙焰再登基。
-tags: ["00区", "DC", "著名FC", "DUSK0"]
+tags: ["00区", "D.C", "著名FC", "DUSK0", "联盟高层", "CEO"]
 ---
 
 多米，PH 华人圈的 CEO 兼 FC，吧里人称“多米大元帅”。主号 Aitt duominx 头衔写“多米 CEO”，另一个号 Tantami duominx 写“多米 已认证”，还有一串 Duomi D01 到 D03。他和[夺米台风](../2113029856/)是两个人，台风的吧主旧账别算到他头上。

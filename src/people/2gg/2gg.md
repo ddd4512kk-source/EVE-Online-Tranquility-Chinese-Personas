@@ -3,7 +3,7 @@ character_id: 2119781938
 cn_name: 2gg
 aliases: [xxxzzzz, 2GG, 老雷, 大法官, DC大法官, YSS最菜帅逼]
 epithet: 规划写满一年，团长一A全团待机。
-tags: ["00区", "DC", "工业", "Y.S.S"]
+tags: ["00区", "D.C", "工业", "Y.S.S", "CEO"]
 ---
 
 2gg，贴吧叫老雷，Why So Sage（YSS）的创建者和 CEO。2023 年，他和朋友一聊，军团还没建，先把进 TD 联盟的事谈妥了；谈完建团，隔天进 00，随后在贴吧开了本[建团日记](https://tieba.baidu.com/p/8364932821)。船、合同、福利、月报一样样往上添，最缺的那一项却添不上：活人。

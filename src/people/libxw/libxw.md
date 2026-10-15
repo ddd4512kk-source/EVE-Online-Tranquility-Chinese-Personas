@@ -3,7 +3,7 @@ character_id: 2120988347
 cn_name: 烈冰玄武
 aliases: [libxw, lbxw donefread, 玄武]
 epithet: 简介自称傻逼，贴吧专挂别人是傻逼。
-tags: ["低安", "499"]
+tags: ["低安", "NVREN", "499", "低素质"]
 ---
 
 烈冰玄武，主号 libxw，2023 年 3 月建号；小号 lbxw donefread 头衔“玄武”，一直挂在龙骑团的主军团 Silver Fog Dragon Ride。他自称“出生在 AM 低安、战斗成长了三年的萌新”，是[红名](../2114820390/)龙骑团的招新官，在吧里开口就是“我们管理”。

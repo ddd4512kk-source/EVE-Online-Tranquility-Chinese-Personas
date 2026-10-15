@@ -3,7 +3,7 @@ character_id: 2119125805
 cn_name: 刀哥
 aliases: [woaidao, woaidao 2, 我爱刀, Xiaohui Yan, woaidao 1, woaidao 6, woaidao10, woaidao11, woaidao12, woaidao13, woaidao14]
 epithet: 刀没拔，先把对面锁定卸了。
-tags: ["低安", "高安", "LN1P"]
+tags: ["低安", "高安", "SHDWC", "LN1P"]
 ---
 
 刀哥，也叫我爱刀，回忆录里的 woaidao，低安深夜诗人 LN1P 的华人玩家，本书收录他的 woaidao 2。按[陌然的回忆](https://tieba.baidu.com/p/8738371316)，他和 Fel 是带自己认识高低安战斗的两位战斗狂，从创堵门到打高宣，凌晨四点还能冲去多迪谢，找一条装肉恶狼打。

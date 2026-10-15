@@ -3,7 +3,7 @@ character_id: 2114825720
 cn_name: 木木三
 aliases: [dear mumusan, 叶利木, mumusan Chen]
 epithet: DC 操心最多的管理，被团友骂过赔钱卖无畏。
-tags: ["00区", "DC", ".BOP"]
+tags: ["00区", "D.C", ".BOP", "联盟高层"]
 ---
 
 木木三，游戏名 dear mumusan，角色头衔就是“木木三”。2019 年元旦建号，三天后进了 B.O.P Supplication For Glorious（辉煌之祈愿，简称 BOP），此后几年在 BOP 与龙焰联盟（DC）之间来回，2024 年起坐进 DC 执政军团 SummerHall，2026 年 3 月又回到 BOP。BOP 的 CEO 是[苹二](../2113791371/)，DC 的 CEO 是[随风](../2115325500/)，木木三不是 CEO，却是出现在两家招新帖、聊天截图和吧友吐槽里次数最多的名字之一。

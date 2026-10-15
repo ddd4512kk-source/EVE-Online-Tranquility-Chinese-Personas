@@ -3,7 +3,7 @@ character_id: 2118776119
 cn_name: 瞑衍
 aliases: [Mina Dethahal, 溟衍, 冥衍, 冥演, Mechanics4, mechanics5, mechanics6, mechanics7, mechanics8, mechanics41, Mechanics42, mechanics jump, Mina TT]
 epithet: 天国小屋的门房兼FC，一人就是半支舰队。
-tags: ["00区", "FRT", "著名FC", "FUXI"]
+tags: ["00区", "FRT", "著名FC", "FUXI", "联盟高层"]
 ---
 
 瞑衍，游戏名 Mina Dethahal，2021 年 6 月建号，头衔一栏老老实实写着“瞑衍/FC/总监”。角色简介第一行是一份总览设置，备注“国服搬来的通用总览8.0”——人是新号，手是老手。

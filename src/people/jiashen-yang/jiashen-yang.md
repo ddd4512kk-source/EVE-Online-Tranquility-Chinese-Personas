@@ -3,7 +3,7 @@ character_id: 2118018631
 cn_name: 珅
 aliases: [JiaShen Yang, JiaShen Yangg]
 epithet: 外交名片写得正经，主号先扮钟离替身。
-tags: [00区, DC, D.OK]
+tags: ["00区", "D.C", "D.OK", "联盟高层"]
 ---
 
 珅，主号 JiaShen Yangg，在 DC 的无面者（D.OK）活动；另一号 JiaShen Yang 在执行军团 SummerHall，头衔直接写“D.C Diplo，联盟外交”。外交岗位挂在另一个号上，主号名片却不谈外交，改说自己是[钟离](../2119086999/)的替身，又在括号里立刻否认。正经岗位和不正经介绍，被他分在了两个号上。

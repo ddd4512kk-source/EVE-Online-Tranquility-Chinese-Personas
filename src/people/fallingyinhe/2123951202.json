@@ -1,0 +1,40 @@
+{
+  "id": 2123951202,
+  "name": "Fallingyinhe",
+  "birthday": "2025-11-30T19:08:58Z",
+  "current_corporation": {
+    "id": 98841341,
+    "name": "Astral Tide",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98841341,
+      "name": "Astral Tide",
+      "ticker": "ATYDE"
+    },
+    "alliance": {
+      "id": 99014768,
+      "name": "Storm Petrel Alliance",
+      "ticker": "SPA"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000166,
+      "name": "Imperial Academy",
+      "npc": true,
+      "start": "2025-11-30T19:09:00Z",
+      "end": "2026-08-12T15:41:00Z"
+    },
+    {
+      "corporation_id": 98841341,
+      "name": "Astral Tide",
+      "npc": false,
+      "start": "2026-08-12T15:41:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

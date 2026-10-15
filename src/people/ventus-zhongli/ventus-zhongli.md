@@ -3,7 +3,7 @@ character_id: 2119086999
 cn_name: 钟离尘风
 aliases: [Ventus ZhongLi, JIU Shi, 钟离, 钟离财团]
 epithet: 首星捐给联盟，门牌留给自己。
-tags: [00区, DC, D.OK]
+tags: ["00区", "D.C", "D.OK", "联盟高层"]
 ---
 
 钟离尘风，游戏名 Ventus ZhongLi，是无面者（D.OK）的成员、龙焰（DC）联盟的核心管理。角色头衔给自己另挂了一块招牌：“钟离财团创始人”。别人简介里贴战果，他把首星、家园和夜总会排成了地产名录，仿佛新伊甸不是战场，是自家财团的售楼处。

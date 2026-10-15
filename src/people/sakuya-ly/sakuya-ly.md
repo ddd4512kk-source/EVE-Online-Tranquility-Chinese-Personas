@@ -3,7 +3,7 @@ character_id: 2114480990
 cn_name: 莜叶
 aliases: [筱葉, sakuya ly, Sakuya Z, 莜]
 epithet: GM？CCP？先打成简介里的纪念品。
-tags: ["00区", "CNGFF"]
+tags: ["00区", "IGC", "CNGFF", "CEO"]
 ---
 
 莜叶，游戏名 sakuya ly，头衔“筱葉”，金羊毛团长。2025 年夏天，他和手表鹰的[斯凯](../2115060797/)一拍即合，在斐德部署远克、拉友团拆桥，9 月又去拆 FRT 的空堡。金羊毛几个月前还在 FRT，到了小海盗联军里，旧联盟的建筑也成了找架打的地方。

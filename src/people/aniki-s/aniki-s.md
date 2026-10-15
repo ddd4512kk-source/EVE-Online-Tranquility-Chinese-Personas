@@ -3,7 +3,7 @@ character_id: 2119046171
 cn_name: 兄贵
 aliases: [Aniki S]
 epithet: 十二个客户端一小时不掉线，还替 N老板写了回忆录。
-tags: ["00区", "FRT", "工业", "P  C"]
+tags: ["00区", "FRT", "工业", "P  C", "CEO"]
 ---
 
 兄贵，游戏名 Aniki S，头衔“兄♂贵 WalpurgisNacht”——那个“♂”懂的都懂。2021 年建号，2022 年进 FRT 的凤凰城（Phoenix City），中间去星尘守护转了三周又回来，如今是凤凰城的 CEO。凤凰城 2018 年建团，现在一千二百多个角色。

@@ -3,7 +3,7 @@ character_id: 1869573834
 cn_name: 黑暗闪耀
 aliases: [Darkshine, Dark Shine, Shines, 黑色闪光, 黑暗中的闪光]
 epithet: 宇宙老三，专挑老二最忙的时候来。
-tags: ["00区", "INIT", "著名FC", "非华人", "M0LOK"]
+tags: ["00区", "INIT.", "著名FC", "非华人", "M0LOK", "联盟高层", "CEO"]
 ---
 
 黑暗闪耀（Dark Shines）是 The Initiative.（INIT）的领头人。2004 年建号，2011 年加入 INIT 体系；2012 年曾短暂去 Pandemic Legion，之后又回到 INIT。此后他辗转 Vanishing Point.、Project Valhalla.、The Fuel Cartel.、Void of Eden. 等军团，始终在同一个联盟里。
