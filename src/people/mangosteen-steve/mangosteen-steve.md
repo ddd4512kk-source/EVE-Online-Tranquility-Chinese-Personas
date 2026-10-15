@@ -3,7 +3,7 @@ character_id: 2113053705
 cn_name: 山竹
 aliases: [Mangosteen Steve]
 epithet: 公司缩写 AWSL，只收邀请；人在后勤，KB 全是隐轰。
-tags: ["00区", "FRT", "AWSL."]
+tags: ["00区", "FRT", "AWSL.", "CEO"]
 ---
 
 山竹，游戏名 Mangosteen Steve，头衔“山竹 Main”，Advanced Weapon Supplement League 的 CEO。这家公司的缩写是 **AWSL**——网络用语“啊我死了”。军团简介两行：“AWSL.Inc / INVITE ONLY”。

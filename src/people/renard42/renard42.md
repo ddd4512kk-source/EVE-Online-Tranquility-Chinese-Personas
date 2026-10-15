@@ -3,7 +3,7 @@ character_id: 2121799880
 cn_name: 四十二
 aliases: ["42", Renard42, 四十二j, B站]
 epithet: 期货泰坦一条没下水，欠条倒拖了一年半。
-tags: ["00区", "NC", "著名FC", "B站", "FOXOR"]
+tags: ["00区", "NC", "著名FC", "B站", "FOXOR", "CEO"]
 ---
 
 四十二，圈里常写作“42”，游戏名 Renard42，抵抗之狐 **Fox of Resistance（FOXOR）**的创始人兼 CEO。军团简介直接把“CEO 四十二”和 Renard42 写在一起，认人不用猜谜。[官网的历史](https://foxor.cc/about/)也能对上：先在 East Wind.，2024 年 3 月加入 PH，2025 年 11 月离开，次日转入 NC。

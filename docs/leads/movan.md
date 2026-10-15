@@ -21,3 +21,7 @@
 ## 创世榜近名小号
 
 2026-10-14[MOVAN3／2115281693的ESI](https://esi.evetech.net/latest/characters/2115281693/)无头衔，当前同Arknights（98725089）；独特词根MOVAN加3与主号相合，归本人小号。简介有后勤／pvp／逍遥常规会战／重拦预设，另挂Gackel MDC提亚玛特入口；主号素材已留同一KM84534896入口，仍未核该号参与，不凭设置认FC。小号对应不补足独立事件门槛，保持候选，统计不直接相加。
+
+## 他人KM墙中的本人损失
+
+2026-10-15 核[虚实](../../src/people/fauux/materials-fauux.md)简介：[KM122106641](https://zkillboard.com/kill/122106641/)为2024-11-01 LZ-6SU MOVAN（创世）元帅损失，39名攻击者，Fauux最后一击。普通丢船，只作背景，不单独构成事件。

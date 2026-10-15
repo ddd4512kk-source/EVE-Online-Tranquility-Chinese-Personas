@@ -3,7 +3,7 @@ character_id: 2120715980
 cn_name: 老赵
 aliases: [IrvingZH, irrrrv, B站]
 epithet: 自封全 EVE 最好的华人“视屏”剪辑，一生之耻挂在简介第二行。
-tags: ["00区", "B站", "CSQY"]
+tags: ["00区", "WINGS", "B站", "CSQY"]
 ---
 
 老赵，游戏名 IrvingZH，头衔“赵 #57607”，B 站 UP 主 irrrrv。2022 年 12 月建号，一个月后进了创世倾域（ChuangShi）的新人学院，2023 年 3 月转正，此后基本就是创世的人。他的 B 站频道一半是 EVE，一半是彩虹六号、战争雷霆和搬运来的主播切片；EVE 那一半，多是创世的招新片和战斗录像。

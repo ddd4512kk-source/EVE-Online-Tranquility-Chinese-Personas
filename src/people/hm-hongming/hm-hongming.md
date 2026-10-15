@@ -3,7 +3,7 @@ character_id: 2114820390
 cn_name: 红名
 aliases: [hm Hongmin]
 epithet: 不服就干，星城炸了钱包也负了。
-tags: ["低安", "SF.DR"]
+tags: ["低安", "DRL", "SF.DR", "CEO"]
 ---
 
 红名，游戏名 hm Hongming，低安龙骑团的掌舵人：主军团 Silver Fog Dragon Ride 的 CEO 是他，联盟 Dragon Riders Legion（DRL）的 CEO 挂在他另一个号 hm Hongmin 身上——2024 年 5 月前任 Kingof The Universe 离任前[把位子交给了这个号](https://evemaps.dotlan.net/alliance/Dragon_Riders_Legion/events)。一个人，两顶帽子。

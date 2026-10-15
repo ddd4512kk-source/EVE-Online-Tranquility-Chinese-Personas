@@ -2,7 +2,7 @@
 character_id: 2113342140
 aliases: [CLZD]
 epithet: 头衔咸鱼，泰坦卖五百八，半夜打电话推销铁骑。
-tags: ["00区", "工业", "E0."]
+tags: ["00区", "CP.", "工业", "E0."]
 ---
 
 CLZD，游戏名 CLZD-MISS NERC，头衔“咸鱼”。2017 年 10 月建号，一个月后进了 RR（游骑兵，Ranger Regiment）的创始军团 Ranger Warrior，一待就是九年，直到 2026 年 8 月才转去 Celestial Palace. 的 Euphoria.。

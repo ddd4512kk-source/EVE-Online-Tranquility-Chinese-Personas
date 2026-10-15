@@ -3,7 +3,7 @@ character_id: 2119752265
 cn_name: 成风
 aliases: [liethewind]
 epithet: 战术创伤小组的当家，救援按分钟收 PLEX；自己的麒麟被打了，记作“天谴”。
-tags: ["00区", "DC", "-120-"]
+tags: ["00区", "D.C", "-120-", "CEO"]
 ---
 
 成风，游戏名 liethewind，2022 年 3 月建号。头两年半待在一家叫 **ERROR 30000** 的军团，不挂联盟；2024 年 10 月进了 **Tactical Trauma Team**（简称 -120-），后来当上 CEO；军团先挂在蜜蜂（Goonswarm Federation）下面，2025 年 7 月转进 DC，如今军团四百八十多人。中间他还去一家叫 **Litang County**（理塘县）的军团待过四天，那家军团挂的联盟叫 National Development and Reform Commission——国家发展和改革委员会。

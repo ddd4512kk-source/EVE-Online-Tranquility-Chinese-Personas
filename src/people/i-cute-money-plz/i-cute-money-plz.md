@@ -3,7 +3,7 @@ character_id: 2117995654
 cn_name: 炒鸡
 aliases: [I-cute money plz, chaoji, 一只_炒鸡, BOOOOM BOM]
 epithet: 官报记了名，诗帖只领 PAP -1。
-tags: ["00区", "FRT", "SC-UN", B站]
+tags: ["00区", "FRT", "SC-UN", "B站", "联盟高层"]
 ---
 
 炒鸡在凛冬论坛翻更新公告，翻到哪里就吐槽到哪里；上不了战场的诗也写，末尾还问能不能算 PAP。2023 年，CCP 的新闻真写到了他——这回不是他翻公告，是公告点了他的名。

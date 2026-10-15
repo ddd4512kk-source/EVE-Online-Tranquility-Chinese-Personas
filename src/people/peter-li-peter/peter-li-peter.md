@@ -3,7 +3,7 @@ character_id: 2113450798
 cn_name: 污龟
 aliases: [peter li peter, perter li perter, peter li peter1]
 epithet: 教程教新人，基本法惹社长。
-tags: ["00区", "FRT", ".233."]
+tags: ["00区", "FRT", ".233.", "CEO"]
 ---
 
 污龟，游戏名 peter li peter，头衔“污龟 MAIN”，吃瓜军团（Chi Gua）的二代 CEO。2017 年 11 月建号，当天进吃瓜，**九年一家公司**，从没离开过。吃瓜的老人还有[左手](../93209504/)，两人后来一起被[极端荣耀](../1664583033/)写进了新闻社。

@@ -3,7 +3,7 @@ character_id: 2113841083
 cn_name: 十六
 aliases: [16 Puhkastu, sixteen lu]
 epithet: 简介先放狠话，战绩倒是真不少。
-tags: [低安, AVDOT]
+tags: ["低安", "B B C", "AVDOT"]
 ---
 
 十六，收录角色 **shiliu xiaoming**，另有 **16 Puhkastu** 和 **sixteen lu** 两个号。2018 年建号，早年在 Glaring Sword，同年进了 Infinity Avenger（AVDOT），从此跟着 Snuffed Out 在低安一混就是好几年。

@@ -3,7 +3,7 @@ character_id: 2115847829
 cn_name: 赤翼
 aliases: [virustao wang, R virustao, virustao shao, R virushuan, V virushuan]
 epithet: 大炮丈量国土，自己坐进指挥船
-tags: [00区, DC, .BOP, FC]
+tags: ["00区", "D.C", ".BOP", "FC"]
 ---
 
 赤翼，BOP 的 virustao wang，也用 R virustao、virustao shao。头衔挂着“大炮是丈量国土面积”，他的舰队经历里则有另一份工作：坐在监视者里参与指挥，让队伍去开炮。

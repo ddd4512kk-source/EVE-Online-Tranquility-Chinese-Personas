@@ -2,7 +2,7 @@
 
 ## Goons 月度“Shit List”对华人军团的评语
 
-星华清退、昆仑重组的共享素材；台风相关部分已写入[夺米台风列传](../../src/people/domityphoon/domityphoon.md)。本页保留月度贴文原意与未完成的调查。
+星华清退、昆仑重组的共享素材；台风相关部分已写入[夺米台风列传](../../src/people/domityphoon/domityphoon.md)，昆仑CEO嘎子哥（YAGAHA，2026-10-15核头衔“嘎子哥 CEO”）与总监兼外交虚实已立传，见[嘎子哥素材](../../src/people/yagaha/materials-yagaha.md)、[虚实素材](../../src/people/fauux/materials-fauux.md)。本页保留月度贴文原意与未完成的调查。
 
 **来源**：一张网页截图，无网址、无发布日期，只能看出是 Goonswarm Federation（GSF）内部月度贴文，章节名“The Shit List”。顶部是联盟成员军团的 [GS] 标签墙。需补：原帖网址、发布日期、作者。
 

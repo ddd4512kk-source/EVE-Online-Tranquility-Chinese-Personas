@@ -3,7 +3,7 @@ character_id: 2114598179
 cn_name: 青春
 aliases: [sk mmmm, SK, sunge252]
 epithet: 叶落星海的创始人，建号八年，头衔还是“萌新”。
-tags: ["00区", "FRT", "YELUO"]
+tags: ["00区", "FRT", "YELUO", "CEO"]
 ---
 
 青春，游戏名 sk mmmm，叶落星海（YeLuo-XingHai）的创建者——ESI 上这家军团的创建角色就是他，2019 年 1 月 16 日建团，一个多月后挂进 FRT。游戏头衔：

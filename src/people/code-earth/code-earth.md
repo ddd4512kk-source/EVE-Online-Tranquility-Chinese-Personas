@@ -2,13 +2,13 @@
 character_id: 2112856066
 aliases: [Code Earth]
 epithet: 替华人PVP正名，声明由交易中间人代发。
-tags: [虫洞, 00区, 北极星, CODY.]
+tags: ["虫洞", "00区", "PM", "CODY.", "CEO", "RMT"]
 ---
 
 Code Earth，We Love Cody 的玩家，2025 年曾以军团 CEO 的名义对外发声。他说公司最初是一支几个 PVP 爱好者凑起来的小队，住进 2-N 虫洞后加入北极星（PMA）。小队想保住的是一起打架的乐趣，后来公司名义下最响的一份声明，却是在解释三条 AT 奖励船为什么进了现金交易。
 
 ::: 红料 想把PVP和卖船分开
-2025 年 3 月 29 日，一份署名 Code Earth 的[英文声明](https://www.reddit.com/r/Eve/comments/1jmkw13/)公开指责前联盟成员[马哥](../2115198804/)经[Nan Li Leo](../2113744134/)牵线，向买家出售三条 Cybele。文中说，他不愿华人玩家被一概当成刷钱卖钱的人，也不愿每条华人赢来的 AT 奖励船都被怀疑来路，因而以 We Love Cody CEO 的身份出来说明。
+2025 年 3 月 29 日，一份署名 Code Earth 的[英文声明](https://www.reddit.com/r/Eve/comments/1jmkw13/)公开指责前联盟成员[马哥](../2115198804/)经[Nan Li Leo](../2113744134/)牵线，把三条西布勒卖给了 FRT 的[李宝宝](../2114801659/)；三天前帝国新闻社已经[把这笔账摊开](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)，成交价人民币 14,000 元。文中说，他不愿华人玩家被一概当成刷钱卖钱的人，也不愿每条华人赢来的 AT 奖励船都被怀疑来路，因而以 We Love Cody CEO 的身份出来说明。
 
 他自己的船也确实开出去过。收录号累计6196条参与击杀，目标价值约2.01T ISK，单杀663次，损失约204.74B；ATXXI 的[PMA出场名单](https://open.eve-nt.uk/portal/match/3816)里也有 Code Earth。对一个从小队玩到联盟赛的玩家来说，奖励船原本应该替比赛说话，最后却要让交易截图替船说话，大概才是最让他不舒服的地方。
 :::

@@ -3,7 +3,7 @@ character_id: 1387156123
 cn_name: 叼爷
 aliases: [MrDiao, 吊哥, diao哥, Not Mrdiao, DiaoMoney]
 epithet: 教程留给新人，录音留给苦主。
-tags: ["00区", "FRT", "高安", "强暴", "工业", "FUXI"]
+tags: ["00区", "FRT", "高安", "强暴", "工业", "FUXI", "联盟高层"]
 ---
 
 叼爷，游戏名 MrDiao。早年混紫禁城、盘古，后来待过 Goonswarm，也进过 CODE.、Safety.，再到伏羲。欧服华人圈里，读过他教程的人不少，听过他恶名的人也不少。

@@ -3,7 +3,7 @@ character_id: 2113411990
 cn_name: Akiss
 aliases: [akissone, 奶我一口]
 epithet: 招新先招人，进门再抓老板
-tags: [00区, DC, ".BOP"]
+tags: ["00区", "D.C", ".BOP"]
 ---
 
 Akiss，游戏角色 akissone，BOP 的重要管理者之一，负责过军团招新人事。2019 年秋季，[军团招新帖](https://tieba.baidu.com/p/6233897251)把他与[木木三](../2114825720/)并列在人力资源部联系名单上；他自己也在楼里欢迎新人，只是欢迎词很有 BOP 风味：“快来干萍二，活抓168。”

@@ -3,7 +3,7 @@ character_id: 2120847133
 cn_name: 非物
 aliases: [JFK LOL, Royal Champion]
 epithet: 舰队要精英，幼龙先问一句。
-tags: [00区, 蜜蜂, KN-L, FC]
+tags: ["00区", "CONDI", "KN-L", "FC"]
 ---
 
 非物，JFK LOL，昆仑的战斗总监。[公开头衔](https://esi.evetech.net/latest/characters/2120847133/)直接写职务，简介却一边要求“BE ELITE IN FLEET”，一边摆着老问题：“FC Can I bring my Drake?” 一张指挥名片，上半张要求精英，下半张替想开幼龙的人先问了一句。

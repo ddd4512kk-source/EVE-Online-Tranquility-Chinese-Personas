@@ -3,7 +3,7 @@ character_id: 2116339735
 cn_name: 小白菜
 aliases: [Cabbage66, xiaobaicai]
 epithet: 小白菜在场，瑶光的指挥船就有一席
-tags: [00区, INIT, YAO.G, FC]
+tags: ["00区", "INIT.", "YAO.G", "FC"]
 ---
 
 小白菜，游戏号有 Cabbage66、xiaobaicai，瑶光军团的 FC。2026 年九月，他和[黑山羊](../2115488091/)并列出现在军团监视者榜上，各有 27 条参与击杀记录。在这支队伍里，两人都开过指挥船。

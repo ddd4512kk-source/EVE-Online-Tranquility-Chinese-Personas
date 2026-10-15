@@ -3,7 +3,7 @@ character_id: 93209504
 cn_name: 左手
 aliases: [Rebirth EVE, 左手大将]
 epithet: 简介写“又菜又抠脚”，KB 一万杀；荣耀还记着他 2013 年抢打捞。
-tags: ["00区", "FRT", ".233."]
+tags: ["00区", "FRT", ".233.", "CEO"]
 ---
 
 左手，游戏名 Rebirth EVE，头衔“左手 MAIN”，简介只有一句：

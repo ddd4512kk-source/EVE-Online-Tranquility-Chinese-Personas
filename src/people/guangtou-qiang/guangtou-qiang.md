@@ -3,7 +3,7 @@ character_id: 2112829674
 cn_name: 光头强
 aliases: [GuangTou Qiang]
 epithet: 一万两千杀、九百多单杀，简介是一首俄语脏话。
-tags: ["00区", "北极星", "著名FC", "TNND"]
+tags: ["00区", "PM", "著名FC", "TNND"]
 ---
 
 光头强，游戏名 GuangTou Qiang，2017 年 5 月建号。先在 FRT 的伏羲待了一年多，2018 年 8 月起转进闪电（Thunder Mercenary Army），挂北极星至今。游戏头衔：

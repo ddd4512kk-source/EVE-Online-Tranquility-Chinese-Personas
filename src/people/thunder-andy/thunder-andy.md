@@ -2,7 +2,7 @@
 character_id: 468540318
 aliases: [andy]
 epithet: 建了公司不管事，简介里还在等 Ebon 回来。
-tags: ["00区", "北极星", "TNND"]
+tags: ["00区", "PM", "TNND", "CEO"]
 ---
 
 Thunder andy，圈内叫 andy，闪电（Thunder Mercenary Army）的老人，盘古时期 TCF（Thunders Claw Fleet）的创建者。

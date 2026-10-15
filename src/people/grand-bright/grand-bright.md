@@ -3,7 +3,7 @@ character_id: 2121110970
 cn_name: 大聪明
 aliases: [Grand Bright, GrandMiracle, Grand Miracle]
 epithet: 名单上管规则，门牌上损盟主。
-tags: [00区]
+tags: ["00区", "联盟高层", "CEO"]
 ---
 
 灭世星痕招人修百科时，在帖子里留了一个联系人：Grand Bright，大聪明。有人想搬资料、想共同编辑，可以找他；他自己的军团却叫 **U Fly Like Noraus**。百科负责把人叫来，军团门牌负责先损一遍盟主。

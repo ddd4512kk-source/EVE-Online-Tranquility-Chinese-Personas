@@ -61,7 +61,7 @@ nany-1419（昆仑总监）、sword-sun（凤凰城总监）、wy-yang（TCF 顾
 | DC | B.O.P Industrial Market（98768502，33） | Jessica Hu | 联系 Humbert Allen |
 | DC | Tactical Trauma Team（98779710，481） | liethewind | 已收录；“60plex/minute” 救援计费 |
 | TEST | Helen Keller V. Traffic（98787733，24） | — | EN/CN 亚洲时区；联系 Neo alphaSneo |
-| TEST | King For Crazy（98791741，139） | — | 简介只有一张 ASCII 图加“CHINESE ONLY” |
+| TEST | King For Crazy（98791741，139） | DOFsundabi sun | 已收录（[咫中人](../../src/people/dofsundabi-sun/materials-dofsundabi-sun.md)）；简介只有一张 ASCII 图加“CHINESE ONLY” |
 | BOSS | Clouded Depths 姑蘇（98844464，12） | Qiuxia | “BOSS华人社区” |
 | BOSS | Tianshan Imperial Guard 天山禁卫（98833187，9） | sequce | “BOOS联盟其中之一的华人公司” |
 | NC | Baozi-You-Rou（98664369，23） | KeAi XiaoHao | CEO 写 Anveri Vestigo（EN/中文）；Director Alan Artemisa；休眠 |

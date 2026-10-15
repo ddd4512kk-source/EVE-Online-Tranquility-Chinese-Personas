@@ -3,7 +3,7 @@ character_id: 96170679
 cn_name: 储葛亮
 aliases: [Veritas Totient]
 epithet: 给凛冬搭好论坛和语音，自己去低安当了海盗。
-tags: [00区, 低安, AVDOT]
+tags: ["00区", "低安", "B B C", "AVDOT"]
 ---
 
 储葛亮，游戏名 Veritas Totient，头衔“储葛亮”——诸葛亮的“诸”换成了储蓄的“储”。2016 年 1 月建号，第一家军团叫 **JiangNanP'ige**，简称 2CHAN：江南皮革厂。

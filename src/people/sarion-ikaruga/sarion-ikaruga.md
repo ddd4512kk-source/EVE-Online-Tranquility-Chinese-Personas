@@ -3,7 +3,7 @@ character_id: 2113386745
 cn_name: 斑鸠
 aliases: [Sarion Ikaruga, Sarion]
 epithet: 简介第一句 Be Humble，第二句 PVP 教程指向退出游戏。
-tags: ["00区", "DC", "AT19冠军", "MYGO.", "B站"]
+tags: ["00区", "D.C", "AT19冠军", "MYGO.", "B站"]
 ---
 
 斑鸠，游戏名 Sarion Ikaruga，2017 年建号，华人比赛圈 F1 Monkey.（Esports Petopia）的老队员，2023 年作为“雇佣兵”加入 FRT 的 AT19 阵容并夺冠。早年挂过 Black Legion. 和 Snuffed Out，2026 年 8 月转进 DC 的 It's MyGO.。
@@ -16,6 +16,12 @@ tags: ["00区", "DC", "AT19冠军", "MYGO.", "B站"]
 
 ::: 红料 KB：两千四百次涅斯托
 zKillboard 生涯击杀 10236，单杀 248 次，用得最多的是涅斯托（2446 次）——一条后勤战列舰。比赛队的奶妈，KB 照样过万。
+:::
+
+::: 红料 收留马哥，一起拆了 PMA 母洞
+AT19 夺冠后，同为雇佣兵的[马哥](../2115198804/)和北极星（PMA）的老队友闹翻，搬进了斑鸠的 F1 母洞。据[帝国新闻社](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)，2025 年 3 月，马哥和斑鸠一起带着 FRT 一方去打 PMA 的母洞：位标是马哥当年在 PMA 时亲手建的，扫描号早就埋在洞里。3 月 21 日的装甲增强战，进攻方丢约 68B，PMA 一方丢约 225.6B；3 月 23 日结构战，进攻方丢 1.9B，防守方又丢 52.8B，J223511 那座铁壁[就此落幕](https://zkillboard.com/kill/125754046/)。
+
+三年前的 2022 年 3 月，斑鸠还和马哥、[Nan Li Leo](../2113744134/)等 PMA 的人一起线下面基，吃的是 Nan Li Leo 请的帝王蟹。三年后堡拆了，Nan Li Leo 转头就把马哥卖冠军船的聊天记录贴上了论坛。斑鸠这边只管打仗，打得很漂亮；后面那场爆料大戏，他坐在观众席第一排。
 :::
 
 ::: 黑料 节目效果加了醋，真的就坐着

@@ -3,7 +3,7 @@ character_id: 2112117260
 cn_name: 胖虎
 aliases: [Sindron lyka, 夜花胖虎]
 epithet: 说好一起吃点东西，结果自己上了桌。
-tags: ["00区", "低安", "DC", "HY-BB"]
+tags: ["00区", "低安", "D.C", "HY-BB", "CEO"]
 ---
 
 胖虎，游戏名 Sindron lyka，Night Garden 的花园宝宝，角色头衔自封“伟大的CEO-胖虎（跳星城打诱导版）”。头衔很大，括号也很诚实：这位老板真正传遍圈里的故事，是开着一条巨蟒赴约，听懂了“吃点东西”，却没听懂菜单。

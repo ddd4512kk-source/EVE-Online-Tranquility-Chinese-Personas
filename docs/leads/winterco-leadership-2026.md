@@ -36,7 +36,7 @@
 
 | KHESH-Raok Hilanen 汉堡 | [汉堡](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 市场监测；Atioth Monitor 参战记录已入列传 |
 
-| FUXI-Lancetlot Outamon 朔方 | [朔方](../../src/people/lancetlot-outamon/materials-lancetlot-outamon.md) | WIKI维护组；反时区语录连载已写短传 |
+| FUXI-Lancetlot Outamon 朔方 | [朔方](lancetlot-outamon.md) | WIKI维护组；反时区语录连载短传已撤出收录，存线索 |
 
 ### 尚未收录的华人成员
 

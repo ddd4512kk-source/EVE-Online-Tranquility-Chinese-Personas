@@ -3,7 +3,7 @@ character_id: 2114253465
 cn_name: 阿进
 aliases: [born reaper, Ajin Shizhu]
 epithet: 逢人就说别人开脚本，最后被联盟 CEO 点名的是自己。
-tags: [00区]
+tags: ["00区", "脚本"]
 ---
 
 阿进，游戏名 born reaper，2018 年建号，角色简介只有一句：“to be or not to be，this is a question”。

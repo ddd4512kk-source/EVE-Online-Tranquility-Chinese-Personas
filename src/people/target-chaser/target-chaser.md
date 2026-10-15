@@ -3,7 +3,7 @@ character_id: 95601799
 cn_name: 少年
 aliases: [Target Chaser]
 epithet: 北方旗舰战里的帝皇之镰FC
-tags: [00区, INIT, "E   S", 著名FC]
+tags: ["00区", "INIT.", "E   S", "著名FC"]
 ---
 
 少年，帝皇之镰的 Target Chaser。2022年北方打旗舰战时，他随DC参战，坐的是监视者：队伍在前面开火，他参与指挥。角色头衔写着“少年”，简介却摘了 Xiu Mu 的话：“故事最动人的部分始终在过去。”外号年轻，选来挂在门口的话倒很怀旧。

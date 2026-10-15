@@ -16,7 +16,7 @@
 | 2 | Peoples Liberation Army / 98190062 | Goonswarm Federation | 765 / 559 | Silvitni / 1664583033 | 2026-10-11 | 已收录；[人物素材](../../src/people/silvitni/materials-silvitni.md) |
 | 3 | Fuxi Legion / 98185110 | Fraternity. | 560 / 449 | Gary CHGS / 90459120 | 2026-10-11 | 同人号已收录；[人物素材](../../src/people/linkin-hy/materials-linkin-hy.md) |
 | 4 | Special law enforcement department / 98540583 | Fraternity. | 583 / 401 | Trumps Bloodthirst Feynman / 2113483277 | 2026-10-11 | 已收录；[人物素材](../../src/people/trumps-bloodthirst-feynman/materials-trumps-bloodthirst-feynman.md) |
-| 5 | Kun-Lun / 98825941 | Goonswarm Federation | 355 / 261 | YAGAHA3 / 2119032128 | 2026-10-12 | 候选待取材 |
+| 5 | Kun-Lun / 98825941 | Goonswarm Federation | 355 / 261 | YAGAHA3 / 2119032128 | 2026-10-12 | 已收录为[嘎子哥](../../src/people/yagaha/materials-yagaha.md)（YAGAHA，2026-10-15） |
 | 6 | ChuangShi / 98535868 | Wings Freedom. | 600 / 429 | AhulaMazda / 2113399287 | 2026-10-11 | 同人号已收录；[人物素材](../../src/people/jc-alba/materials-jc-alba.md) |
 | 7 | Knight of Zero Ultra / 98808817 | Out of the Blue. | 337 / 255 | chitian / 2120421439 | 2026-10-12 | 已收录；[人物素材](../../src/people/chitian/materials-chitian.md) |
 | 8 | Stardust-Guardian / 98550682 | Fraternity. | 233 / 154 | bingxuan 123 / 2114130095 | 2026-10-11 | 已收录；[人物素材](../../src/people/bingxuan-123/materials-bingxuan-123.md) |
@@ -35,7 +35,7 @@
 | 21 | Salted Fish Inc / 98640194 | The Black Shores | 189 / 110 | saber lv1 / 2116737842 | 2026-10-12 | 候选待取材 |
 | 22 | Descendants of Shen Nong / 98702890 | Fraternity. | 116 / 95 | Den Like Raven / 2113941665 | 2026-10-11 | 同人号已收录；[人物素材](../../src/people/fley-den/materials-fley-den.md) |
 | 23 | Family Guy. / 98798876 | Deepwater Hooligans | 95 / 89 | Cyan nomi / 2122229391 | 2026-10-11 | 候选待取材；[糯米线索](cyan-nomi.md) |
-| 24 | Cosmic-Wanderers / 98769610 | The Initiative. | 140 / 130 | KK Huang / 2121685477 | 2026-10-11 | 候选待取材 |
+| 24 | Cosmic-Wanderers / 98769610 | The Initiative. | 140 / 130 | KK Huang / 2121685477 | 2026-10-11 | 实际主事人已收录为[小黄人](../../src/people/jiao-huang/materials-jiao-huang.md)（Jiao-Huang / 2119497024），KK Huang 为本人号 |
 | 25 | Galactic Empire Co LTD / 98537981 | Fraternity. | 149 / 100 | GECL CEO / 2118333810 | 2026-10-12 | 登记号与简介 CEO Mr Niu 的关系待核 |
 | 26 | Chuangshi College / 98705642 | ChuangShi Federation | 194 / 135 | JXXY Administrator / 2119672942 | 2026-10-12 | 候选待取材 |
 | 27 | Navigators' Union / 98825044 | Fraternity. | 153 / 98 | MOSS 550W / 2120888832 | 2026-10-12 | 同人号已收录；[人物素材](../../src/people/qi-mo/materials-qi-mo.md) |
@@ -69,13 +69,13 @@
 
 | 九月名次 | 登记角色 / ID | 已有线索与待查 |
 | --- | --- | --- |
-| 5 | YAGAHA3 / 2119032128 | 简介另列 CEO YAGAHA（2118729398）；名字同词根，按同军团规则核对两号归属后合并；娜乌西卡是总监，不代替 CEO |
+| 5 | YAGAHA3 / 2119032128 | 简介另列 CEO YAGAHA（2118729398）；名字同词根，按同军团规则核对两号归属后合并；娜乌西卡是总监，不代替 CEO；2026-10-15 两号头衔“嘎子哥 CEO”／“嘎子哥”同团，合并收录YAGAHA |
 | 16 | AsunaZX / 2119592670 | 登记号与青春的关系待核；[青春素材](../../src/people/sk-mmmm/materials-sk-mmmm.md) |
 | 17 | Captain Bo / 96638675 | 已核头衔老许及现任CEO，短篇已写；Dema1是前任CEO兼入团邮件联系人，两人不合并；任期自2025-04-05起已核，实际管理事务待补 |
 | 18 | 无有效CEO / 1 | PLA Fleet 已为0成员；需历史CEO及注销时间，不能由创建者字段替代任职证明 |
 | 21 | saber lv1 / 2116737842 | 简介称 +8 洞团；阔阔、彗星是成员，不用成员事迹替 CEO 立传 |
 | 23 | Cyan nomi / 2122229391 | 保留“糯米”外号方向；见[账号线索](cyan-nomi.md) |
-| 24 | KK Huang / 2121685477 | 简介联系 Xiao HuangRen（2119217172）；沿小黄人方向核对同人 |
+| 24 | KK Huang / 2121685477 | 简介联系人 Xiao HuangRen 与 Jiao-Huang 同人，已收录为[小黄人](../../src/people/jiao-huang/materials-jiao-huang.md)；KK Huang 也是本人号 |
 | 25 | GECL CEO / 2118333810 | 登记号与简介 CEO Mr Niu 的关系待核；核对主事角色的ID、同人依据与交接任期 |
 | 26 | JXXY Administrator / 2119672942 | 简介引用“穆长宁语录”；不能据组织文案将登记号归给穆长宁 |
 | 33 | KEEP STEEL / 2115154285 | 保留 Monitor 榜线索；具体 KM、中文外号与任期待查 |
@@ -148,7 +148,7 @@
 
 ### KK Huang（2121685477）／Cosmic-Wanderers（98769610）
 
-- 现任CEO已对上；简介招新联系Xiao HuangRen（2119217172），两号的名字与同团线索提示小号方向，尚未读取后者角色归属及人物头衔。
+- 已结案：KK Huang、Xiao HuangRen 与 Jiao-Huang 同属一人，已收录为[小黄人](../../src/people/jiao-huang/materials-jiao-huang.md)。
 - 简介自称PVE/PVP军团，配宇宙流浪诗、火力和后勤广播设置；无个人署名，不把军团诗当CEO个人自吹。
 - 网页查询 `EVE "Cosmic-Wanderers" "小黄"` 没有取得相关社区结果；英文角色与小黄人两条方向仍待补查。
 

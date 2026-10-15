@@ -3,7 +3,7 @@ character_id: 848736312
 cn_name: 大林
 aliases: [Alasker, Kiki Kyo, 大林Allen, 大林Alsk]
 epithet: 建了华人第一个虫洞联盟，竞选帖底下被要求“按 X 删除掠夺舰”。
-tags: ["虫洞", "00区", "499", "B站"]
+tags: ["虫洞", "00区", "NVREN", "499", "B站", "联盟高层", "CEO"]
 ---
 
 大林，主号 **Alasker**，另一个常用角色 Kiki Kyo 的头衔是“大林Allen”。他用 Kiki Kyo 担任 F1 Monkey. 的 CEO、创建 Esports Petopia（华人比赛联盟），也带过华人虫洞联盟 War and Wormhole（WAW）。

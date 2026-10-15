@@ -3,7 +3,7 @@ character_id: 2112603797
 cn_name: 小妖
 aliases: [奥巴马, newdog catch, 马巴奥]
 epithet: 斥候被逼上指挥席，后来写诗署名奥巴马。
-tags: ["00区", "著名FC", "CSQY"]
+tags: ["00区", "WINGS", "著名FC", "CSQY"]
 ---
 
 小妖，游戏名 newdog catch，简介落款“奥巴马”，游戏头衔倒过来写成“**马巴奥**”。2017 年 3 月建号，先在 TCF，2017 年 11 月进创世，一待八年多，跟着创世到了 Wings Freedom.。

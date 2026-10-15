@@ -3,7 +3,7 @@ character_id: 2122211888
 cn_name: 刘漂亮
 aliases: [The Marco Liu, 创世兄弟盟CEO]
 epithet: 八台电脑六十四个阿尔法，一个人的“预警系统”，被老外发上了 r/Eve 头条。
-tags: [00区]
+tags: ["00区", "CEO", "脚本"]
 ---
 
 2024 年 4 月，Mr Marco Liu 入坑，次日就拉起一家叫“创世兄弟盟（Genesis Brothers Club）”的军团，抱着“团结、互助、友善”“不惹事，但绝不怕事”的招牌，挂靠 DC（Dracarys）旗下，又造了个顶着微信号当角色名的小号做联盟创建者，招新广告里写满 KOOK、微信、抖音，运营意识相当超前。据说他的中文 ID 就叫“刘漂亮”。

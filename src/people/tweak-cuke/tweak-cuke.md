@@ -3,7 +3,7 @@ character_id: 2122236855
 cn_name: TC
 aliases: [TweakCuke, TweakCukess]
 epithet: 拆堡时，两个号都坐在指挥船里
-tags: [00区, 蜜蜂, P.L.A, FC]
+tags: ["00区", "CONDI", "P.L.A", "FC"]
 ---
 
 TC，PLA 的 TweakCuke，也用 TweakCukess。这两个号同团、同头衔，都曾驾驶监视者；2026 年九月 Goons 拆 FRT 铁壁时，他把两个号一起带进了舰队。

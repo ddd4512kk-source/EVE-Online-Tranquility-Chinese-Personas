@@ -3,7 +3,7 @@ character_id: 2116026221
 cn_name: 李将军
 aliases: [Governor Lee, GovLee, 曹丕李, 曹呸李, General Lee]
 epithet: 带着两万多老外喊 Ave，他坚称那是罗马礼。
-tags: ["高安", "00区", "低安", "著名FC", "肃正", "ABSOD"]
+tags: ["高安", "00区", "低安", "ABSOH", "著名FC", "肃正", "ABSOD", "联盟高层", "CEO"]
 ---
 
 Governor Lee，贴吧号 GovLee🍺，吧里叫他李将军，也有人叫他曹丕李。2019 年春，他还用一个叫 Governor Mrlee 的号在 Fade 替租地联盟招人，被吧友追问“到底是租地团还是主权团”，答曰“目前租地，目标主权”（[帖子](https://tieba.baidu.com/p/6065284894)）。几天后，他的小号 Governor Alt Mrlee 开了个军团，叫 Absolute Order。同年 12 月他建了 Governor Lee，第二天进团当 CEO，此后七年没挪过窝。

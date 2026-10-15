@@ -3,7 +3,7 @@ character_id: 2113975199
 cn_name: 夜色
 aliases: [Night Spear, 北风之刃]
 epithet: 晨曦带来八年老团，在帝国又打了八年。
-tags: ["00区", "蜜蜂", "BFZR"]
+tags: ["00区", "CONDI", "BFZR", "CEO"]
 ---
 
 夜色，游戏名 Night Spear，北风之刃（New Boreas）军团的 CEO。北风之刃是国服晨曦来的整建制移民军团，2017 年来到欧服，一个多月后加入 **Goonswarm Federation**（蜜蜂），从此在帝国一待八年。

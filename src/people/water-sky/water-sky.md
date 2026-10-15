@@ -2,7 +2,7 @@
 character_id: 1996305710
 cn_name: 水天
 epithet: 一个下午建两次军团，一辈子守着一只猴。
-tags: [00区]
+tags: ["00区", "联盟高层", "CEO"]
 ---
 
 水天，游戏名 Water Sky，2008 年冬入坑。

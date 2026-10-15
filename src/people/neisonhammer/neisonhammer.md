@@ -2,7 +2,7 @@
 character_id: 133854609
 cn_name: 内森
 epithet: LOTM 开了十七年，CEO 一天都没换过。
-tags: ["00区", "FRT", "LOTM"]
+tags: ["00区", "FRT", "LOTM", "联盟高层", "CEO"]
 ---
 
 内森，游戏名 NeisonHammer，Light of the moon（LOTM）的创始人。

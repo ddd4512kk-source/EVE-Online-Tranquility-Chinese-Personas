@@ -3,7 +3,7 @@ character_id: 2118201493
 cn_name: copper
 aliases: [coppercn]
 epithet: 给全联盟维护总览，给自己的简介写了一篇红头文件。
-tags: ["00区", "AT19冠军", "HO.YO"]
+tags: ["00区", "NERV", "AT19冠军", "HO.YO"]
 ---
 
 copper，游戏名 coppercn，2021 年建号，在 FRT 的 Stardust-Guardian 待了四年多，2025 年转进“凌晨四点玩原神的 25 岁男人”（[黑莲](../2115433044/)的军团）。FRT AT19 冠军队的组队核心之一。

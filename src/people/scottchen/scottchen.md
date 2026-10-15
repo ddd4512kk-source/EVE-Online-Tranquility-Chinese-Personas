@@ -3,7 +3,7 @@ character_id: 1569089360
 cn_name: 史考特
 aliases: [ScottChen]
 epithet: 2010 年的号，FRT 的元老公司；“公司不是保母”。
-tags: ["00区", "FRT", "工业", "FRCC"]
+tags: ["00区", "FRT", "工业", "FRCC", "CEO"]
 ---
 
 史考特，游戏名 ScottChen，头衔“CEO-史考特”，福尔摩沙研究中心（Formosa Research Center，FRCC）的 CEO。2010 年 6 月建号，是这批人里最老的角色；2011 年 10 月进 FRCC，十五年没换过公司。FRCC 的创办人是 Hazuki Hsieh，军团简介里写得清楚：“[ Founder ] Hazuki Hsieh / [ CEO ] ScottChen”。

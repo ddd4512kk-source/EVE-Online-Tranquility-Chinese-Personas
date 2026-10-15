@@ -3,7 +3,7 @@ character_id: 2113399287
 cn_name: 加一
 aliases: [加1, "+1", AhulaMazda, JC Alba, Black Hand F]
 epithet: 首席仲裁员，亲自下场当事人。
-tags: ["00区", "工业", "CSQY"]
+tags: ["00区", "WINGS", "工业", "CSQY", "联盟高层", "CEO"]
 ---
 
 加一，主号 AhulaMazda，另有 JC Alba、Black Hand F 两个角色，创世倾域的掌事人。创世的[2024 年招新视频](https://www.bilibili.com/video/BV1j2421L712/)把他列为执行总监、CEO；[角色头衔](https://esi.evetech.net/latest/characters/2113291934/)又挂着“FRT首席仲裁员”和“77S8精神的守护者”。军团里有[纱布](../96262961/)、[两千](../2114301554/)这样的指挥，[墨琦](../2113239951/)负责招募。轮到加一，除了管人，还得管快递、管生意、管别人吵架。

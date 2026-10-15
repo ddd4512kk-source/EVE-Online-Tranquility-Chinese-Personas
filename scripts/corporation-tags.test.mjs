@@ -21,10 +21,10 @@ test("有联盟必须同时带当前军团 ticker，不接受旧称或其他军�
 test("ticker 的空格与标点原样保留", () => {
   const corp = { id: 42, name: "Thunders Claw Fleet", ticker: "T C F" };
   const c = { ...character, affiliation: { ...character.affiliation, corporation: corp } };
-  assert.deepEqual(validateCorporationTags(["T C F"], c, [corp]), []);
-  assert.ok(validateCorporationTags(["TCF"], c, [corp]).length);
+  assert.deepEqual(validateCorporationTags(["FRT", "T C F"], c, [corp]), []);
+  assert.ok(validateCorporationTags(["FRT", "TCF"], c, [corp]).length);
   const numeric = { ...corp, ticker: "7959" };
-  assert.deepEqual(validateCorporationTags(["7959"], {
+  assert.deepEqual(validateCorporationTags(["FRT", "7959"], {
     ...c, affiliation: { ...c.affiliation, corporation: numeric },
   }, [numeric]), []);
 });
@@ -48,6 +48,13 @@ test("无联盟可带当前军团，有联盟缺 ticker 时明确报错", () => 
     ...character.affiliation, corporation: { ...corporation, ticker: null },
   } };
   assert.match(check([], missing)[0], /缺少 ticker/);
+});
+
+test("有联盟必须带当前联盟 ticker，不接受联盟俗称", () => {
+  assert.match(check(["CACX"])[0], /联盟标签 "FRT"/);
+  const goons = { ...character, affiliation: { ...character.affiliation, alliance: { ticker: "CONDI" } } };
+  assert.deepEqual(check(["CACX", "CONDI"], goons), []);
+  assert.ok(check(["CACX", "CONDI", "蜜蜂"], goons).length);
 });
 
 test("军团与联盟同缩写时不误删当前联盟标签", () => {

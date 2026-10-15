@@ -3,7 +3,7 @@ character_id: 2115611133
 cn_name: ACR
 aliases: [ACR Impact, ACR Ecoli, Nocolour ACR]
 epithet: 给别人家塞马甲，把自家号删了。
-tags: [00区, 低安]
+tags: ["00区", "低安", "RMT"]
 ---
 
 ACR，游戏名 ACR Impact，2019 年 8 月建号。头一年在 FRT：先是 Eye Of Insight，又去 My Little Pony. 挂在滑稽（Iron Crown）待了一个多月，2019 年 11 月回到 FRT 的 TCF（Thunders Claw Fleet）。2020 年 11 月他转进华语军团 Infinity Avenger（AVDOT），挂的是低安海盗联盟 Snuffed Out，一待五年。2026 年 8 月，ACR Impact 和 ACR Ecoli 两个角色都被删了。

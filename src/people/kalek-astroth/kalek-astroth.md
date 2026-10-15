@@ -1,0 +1,25 @@
+---
+character_id: 848325459
+cn_name: 艾泽
+aliases: [Kalek Astroth, _Aizy^Dx, Aizy]
+epithet: 2004 年的老号，PL 待过，在华人队拿了冠军。
+tags: ["00区", "FRT", "NUWA", "AT19冠军"]
+---
+
+艾泽，游戏名 Kalek Astroth，2004 年 2 月建号，比冠军队里大多数队友的游戏年龄都大。简介里画着一大幅字符画，底下签名“_Aizy^Dx”，再下面一行感叹号：“We are the ATXIX champions！！！”
+
+::: 红料 从 PL 老兵到华人冠军队
+艾泽前半段履历在洋人圈。2004 到 2007 年换了十几家小军团，2008 年底进 Black Omega Security 挂上 Pandemic Legion，2009 年转去 Triumvirate.，2011 年又回 PL 待了一个月。之后断断续续，2016 到 2020 年几乎没上线。
+
+2022 年 9 月他再回来，进的是华人军团：先在 ChuangShi，年底落到 FRT 的女娲（Nuwa Foundation），和同样在 PL 待过四年的[拉面林](../91309503/)成了同团。回归后那几个月正是他最忙的时候，2022 年 10 月一个月 zKillboard 就记了六百多次参与击杀，十八年老号的手感显然没丢。
+:::
+
+::: 红料 AT19 冠军队的底子
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，AT18 输得 0–2 之后，几个队员回 FRT 重新拉人，“successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz”。艾泽和[小D](../2113937178/)、[copper](../2118201493/)、[肖宁](../2117425552/)是这支队伍最早凑齐的那批人，先去打了 2023 年春季队长杯，拿第四，才定下用这套底子冲 AT19，最后夺冠。文末名单写着“Kalek Astroth - 艾泽”。
+
+冠军到手，他把比赛里的两张击杀报告挂进了简介：一条巴盖斯、一条末日沙场级海军型——这两型正是那届复盘里反复讨论的旗舰候选。赛后他跟着几个队友进了“25yrs old man playing genshin impact at 4am”这家团，一年后回到女娲。
+:::
+
+::: 评
+二十年前就在新伊甸打架，PL、Triumvirate. 都住过，中途消失四年，回来进华人团，一年后拿了 AT 冠军。别人的冠军是新号熬出来的，他的冠军是老号攒了快二十年才等到。简介里那排感叹号，一个都不算多。
+:::

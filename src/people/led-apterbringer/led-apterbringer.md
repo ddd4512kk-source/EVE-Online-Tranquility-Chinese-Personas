@@ -3,7 +3,7 @@ character_id: 2115988005
 cn_name: 低调
 aliases: [LED Apterbringer, 低调de黯淡]
 epithet: 名叫低调，简介是一排 FRT 星城的墓碑。
-tags: ["00区", "DC", "KD.S"]
+tags: ["00区", "D.C", "KD.S", "CEO"]
 ---
 
 低调，游戏名 LED Apterbringer，宽带山（Kuan.Dai.Shan）的 CEO，军团简介里也叫他“低调de黯淡”。宽带山自称“国服十年老牌军团”，2020 年 1 月在欧服建团，先挂 The Army of Mango Alliance（AOM，[军用馒头](../2115140351/)建的联盟），2022 年 1 月转进 DC（Dracarys.）。低调建号后不到一个月就进了宽带山，一直待到今天。

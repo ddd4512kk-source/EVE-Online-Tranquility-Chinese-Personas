@@ -3,7 +3,7 @@ character_id: 2123680197
 cn_name: 兔兔
 aliases: [QingQing999]
 epithet: 红楼的监视者，昆仑的兔兔。
-tags: [00区, 蜜蜂, KN-L, FC]
+tags: ["00区", "CONDI", "KN-L", "FC"]
 ---
 
 兔兔，游戏名QingQing999，如今在昆仑活动。他在红楼时期的一页出勤，是开着监视者参与指挥。名片只写“兔兔”，战场上坐的却是指挥岗位的船。

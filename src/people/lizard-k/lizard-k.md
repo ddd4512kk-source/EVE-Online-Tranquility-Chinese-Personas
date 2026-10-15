@@ -3,7 +3,7 @@ character_id: 983162808
 cn_name: LK
 aliases: [LIZARD K, LIZARD MK]
 epithet: 头衔封了三公一国公，简介自挂东南枝五次。
-tags: ["00区", "OSYTM"]
+tags: ["00区", "G.O.T", "OSYTM"]
 ---
 
 LK，游戏名 LIZARD K，2009 年建号，熊猫、Dragon Warrior.、功夫流氓一路走来的老人，盘古时期在老男人公司（Dear Old Loong Man），后来在 FRT 的伏羲、TCF 和闪电。如今在 OSY 的图万·奥斯神殿（Temple of Tuvan Orth）——那家军团的 CEO 是[舵主](../91254848/)。

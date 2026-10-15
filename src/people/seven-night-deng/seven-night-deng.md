@@ -3,7 +3,7 @@ character_id: 92638032
 cn_name: 七夜
 aliases: [SeVenNight Deng, Rexanna]
 epithet: 简介里收藏洋人的垃圾话，群里负责纠正别人的回忆录。
-tags: ["00区", "著名FC", "TAIJI"]
+tags: ["00区", "著名FC", "TAIJI", "联盟高层", "CEO"]
 ---
 
 七夜，游戏名 SeVenNight Deng，太极（Tai-Chi）军团现任 CEO。

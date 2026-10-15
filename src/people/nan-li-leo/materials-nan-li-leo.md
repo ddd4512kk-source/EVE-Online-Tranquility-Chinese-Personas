@@ -6,7 +6,9 @@
 
 - **身份与公开回应，重**：[帝国新闻社 2025-03-26 原帖](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)称采访了中间人 Nan Li Leo，明确给出其当时军团 Thunder Mercenary Army；[EveWho 雇佣记录](https://evewho.com/character/2113744134)交叉吻合。[2025-03-29 Reddit 英文爆料帖](https://www.reddit.com/r/Eve/comments/1jmkw13/)署名 Code Earth，Nan Li Leo 在评论中称由他代发；其他回帖追问为何现在揭发，他解释朋友关系破裂。把他称为爆料人有公开出处。
 - **红料，中，单方复盘**：PLA 报道称旧日一次对 DC 作战，原指挥先行跳走后，Nan Li Leo 叫后续成员进场救队友，最终未赶上。只写据报道尝试救场，不把失败归因给他。[zKillboard 画像](https://zkillboard.com/character/2113744134/)有 251 次击杀、18 次单杀，Tornado、Stiletto、Legion 较常用；统计只作人物背景。公开揭示旧交易是积极行为，仍须连同自己参与的部分一起写。
-- **黑料，重，爆料方叙述**：帝国新闻社称他为三艘 Cybele 现金交易牵线，报道给出的金额为 14,000 元，称未收中介费。原帖有聊天截图入口，但本站没有独立资金流水或 CCP 处罚记录；只写据该报道参与居间，不写已被官方认定 RMT。
+- **黑料，重，已核实**：帝国新闻社称他为三艘 Cybele 现金交易牵线，金额 3500+10500=14,000 元，未收中介费；买家 [Li BaoBao](../li-baobao/materials-li-baobao.md)（FRT Thunders Claw Fleet，微信名RIGHT LEE）。该帖RMT证据已经核实，按确认事实写。全文复读要点（面基、雪茄、指挥跳车、母洞战损、Fortizar KM、卖家小号）统一记在[马哥素材](../casimir-exusiai/materials-casimir-exusiai.md)2026-10-15节，不重复。
+- **小号 Yakumo Aka（2114531200）**：帖明称为 Nan 的小号，在PMA洞内作战时于本地公开阿马现实资料；记入aliases。
+- **离团日期**：Nan 2025-03-21 离开 Thunder Mercenary Army，即帖中第一场装甲增强战当天；正文作时间并列，不替他说动机。
 - **黑料，中，时机争议**：报道说他与[马哥](../casimir-exusiai/materials-casimir-exusiai.md)原本交好，后因队伍争执及 PMA 母洞被进攻而翻脸，随后公开旧交易。Reddit 回帖也有人质疑延迟爆料。把这一动机归给报道与当事人，不猜测更深理由；攻洞本身正常 PVP，不算马哥黑料。
 - **黑料，重，现实隐私边界**：同一篇报道承认他的小号在游戏本地频道公开对方现实身份与联系方式；撰稿人谴责，报道说 Nan Li Leo 认错。列传只写行为与回应，**不保存姓名、地址、电话、截图或可定位这些信息的直链**。
 

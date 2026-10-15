@@ -13,7 +13,7 @@
 - 评论mkcktrq，账号明确“I am Nan Li Leo … posted by me on behalf of Code Earth”，因此**主帖署名者与实际发帖人分开**。不把该账号所有回复自动归Code Earth，也不把Nan认作他的游戏小号。
 - mkcjaeb问为何拖延举报，mkcjz5s自报Nan、称旧友背叛；mkcew2h追问攻洞时曝光现实资料，mkcf3jn说已经退游并向GM自报。它们是代发人的答复，声明被质疑的背景可入文，行为及GM处置不转移到Code Earth。
 - 代发账号mkcg2bz泛称所有2023冠军都会被怀疑，mkcmo36又承认有人没参与；这些笼统指控保留为评论立场，不认所有冠军涉事，也不替Code Earth背这句原话。
-- mkci3yz认可“三船约1600美元”的围观估价；PLA中文原帖另给14000元，两种版本不换算拼成同一已核价格，Code Earth正文不用精确成交额。
+- mkci3yz认可“三船约1600美元”的围观估价；PLA中文原帖另给14000元，两种版本不换算拼成同一价格。2026-10-15起PLA帖RMT证据已核实，Code Earth正文引用14,000元并标明出自帝国新闻社，不说成声明原文；买家为[Li BaoBao](../li-baobao/materials-li-baobao.md)。
 - 主帖及代发账号所有已取得回帖、早期质疑线程已读。pullpush分页到终止，缓存127条原评论、去重122个ID；其余泛论RMT、脚本的评论未全部通读，不把取得评论当全部已读。附图未下载，不保存现实资料。
 
 [PLA 2025-03-26报道](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)文字已复核：Nan为中间人／爆料者；起因涉及马哥攻PMA母洞与此前队伍争吵，现金交易、另一笔170B+50脑浆购船及曝光现实资料分别描述。这里只复用与代发人有关的背景，具体故事归[Nan素材](../nan-li-leo/materials-nan-li-leo.md)；没有证据把Code Earth本人认作现金买卖中间人或曝光隐私者。现实资料、联系方式及可直接定位这些信息的图片不归档。
