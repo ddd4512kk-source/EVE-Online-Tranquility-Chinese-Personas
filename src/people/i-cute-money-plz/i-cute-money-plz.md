@@ -3,7 +3,7 @@ character_id: 2117995654
 cn_name: 炒鸡
 aliases: [I-cute money plz, chaoji, 一只_炒鸡, BOOOOM BOM]
 epithet: 官报记了名，诗帖只领 PAP -1。
-tags: ["00区", "FRT", "SC-UN", "B站", "联盟高层"]
+tags: ["00区", "FRT", "SC-UN", "联盟高层"]
 ---
 
 炒鸡在凛冬论坛翻更新公告，翻到哪里就吐槽到哪里；上不了战场的诗也写，末尾还问能不能算 PAP。2023 年，CCP 的新闻真写到了他——这回不是他翻公告，是公告点了他的名。
@@ -15,7 +15,7 @@ tags: ["00区", "FRT", "SC-UN", "B站", "联盟高层"]
 :::
 
 ::: 红料 外交组组长
-当年写诗求别踢的人，如今在联盟名单上坐了两把椅子。[凛冬的 CN 公务员名单](https://wiki.winterco.org/zh/coalition/leadership)把“I-cute money plz 炒鸡”写成外交组组长，和[汤圆](../2117147972/)并列；2026 年 10 月的[英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)又把 chaoji 放进 EN/CN 战略协调组，和汤圆、[大聪明](../2121110970/)排在一起。
+当年写诗求别踢的人，如今在联盟名单上坐了两把椅子。[凛冬的 CN 公务员名单](https://wiki.winterco.org/zh/coalition/leadership)把“I-cute money plz 炒鸡”写成外交组组长，和[汤圆](../2117147972/)并列；2026 年 10 月的[英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)又把 chaoji 放进 EN/CN 战略协调组，和汤圆、[大聪明](../2116384303/)排在一起。
 
 从“不管有没有PAP先别踢我呗”到替联盟谈外交，炒鸡的话术看来是练出来了。
 

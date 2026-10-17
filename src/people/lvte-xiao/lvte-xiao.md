@@ -1,7 +1,7 @@
 ---
 character_id: 2112612580
 cn_name: 小绿特
-aliases: [绿特, 绿特大将, Demons_x]
+aliases: [绿特, 绿特大将, Demons_x, Heite Xiao]
 epithet: 吃瓜军团的“强力战斗员”，每天定时起队，主要业务是替军团招新。
 tags: ["00区", "FRT", "著名FC", ".233.", "B站"]
 ---

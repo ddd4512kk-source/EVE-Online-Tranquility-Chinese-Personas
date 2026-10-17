@@ -11,6 +11,11 @@ export const legacyAllianceTags = new Set([
   "蜜蜂", "Goons", "DC", "INIT", "蓝章鱼", "北极星", "Snuffed Out", "The Black Shores", "Insidious.",
 ]);
 
+// 已出售的角色：当前军团属于买家，不强制带当前军团与联盟标签。
+export const soldCharacterIds = new Set([
+  2120656041, // 黑鸦 Scorpio D，2025-12 出售
+]);
+
 export function currentCorporation(character) {
   const affiliation = character.affiliation;
   return affiliation && !affiliation.left_at && !character.current_corporation?.npc &&
@@ -34,7 +39,7 @@ export function validateCorporationTags(tags, character, corporations) {
       if (tag !== allianceTicker) errors.push(`军团标签 "${tag}" 不属于快照里的当前军团`);
     }
   }
-  if (current && character.affiliation.alliance) {
+  if (current && character.affiliation.alliance && !soldCharacterIds.has(character.id)) {
     if (!current.ticker) errors.push("当前有联盟，但军团快照缺少 ticker，请刷新角色数据");
     else if (!tags.includes(current.ticker)) errors.push(`当前有联盟，必须添加军团标签 "${current.ticker}"`);
     if (allianceTicker && !tags.includes(allianceTicker)) errors.push(`当前有联盟，必须添加联盟标签 "${allianceTicker}"`);

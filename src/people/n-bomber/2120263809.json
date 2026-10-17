@@ -1,0 +1,96 @@
+{
+  "id": 2120263809,
+  "name": "N-bomber",
+  "birthday": "2022-08-04T13:43:40Z",
+  "current_corporation": {
+    "id": 98769610,
+    "name": "Cosmic-Wanderers",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98769610,
+      "name": "Cosmic-Wanderers",
+      "ticker": "CO.WA"
+    },
+    "alliance": {
+      "id": 1900696668,
+      "name": "The Initiative.",
+      "ticker": "INIT."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2022-08-04T13:44:00Z",
+      "end": "2022-08-10T13:10:00Z"
+    },
+    {
+      "corporation_id": 98638378,
+      "name": "High White Black",
+      "npc": false,
+      "start": "2022-08-10T13:10:00Z",
+      "end": "2024-08-29T11:47:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2024-08-29T11:47:00Z",
+      "end": "2024-08-29T11:58:00Z"
+    },
+    {
+      "corporation_id": 98707431,
+      "name": "Serenity Moe University",
+      "npc": false,
+      "start": "2024-08-29T11:58:00Z",
+      "end": "2024-08-31T05:56:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2024-08-31T05:56:00Z",
+      "end": "2024-08-31T07:31:00Z"
+    },
+    {
+      "corporation_id": 98782113,
+      "name": "N-bombs",
+      "npc": false,
+      "start": "2024-08-31T07:31:00Z",
+      "end": "2024-10-10T13:27:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2024-10-10T13:27:00Z",
+      "end": "2024-10-10T13:27:00Z"
+    },
+    {
+      "corporation_id": 98740294,
+      "name": "Asian Neutral Industries",
+      "npc": false,
+      "start": "2024-10-10T13:27:00Z",
+      "end": "2025-04-17T12:41:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "name": "Science and Trade Institute",
+      "npc": true,
+      "start": "2025-04-17T12:41:00Z",
+      "end": "2025-04-17T12:45:00Z"
+    },
+    {
+      "corporation_id": 98769610,
+      "name": "Cosmic-Wanderers",
+      "npc": false,
+      "start": "2025-04-17T12:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

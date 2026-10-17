@@ -1,7 +1,7 @@
 ---
 character_id: 2114453889
 cn_name: 陌然
-aliases: [MrPRO, Pro哥, 陌然浅浅笑]
+aliases: [MrPRO, Mrpropropro, Pro哥, 陌然浅浅笑]
 epithet: 一个 ECM 脉冲波，同时 E 了两支舰队。
 tags: ["低安", "BIGAB", "F.GUY"]
 ---

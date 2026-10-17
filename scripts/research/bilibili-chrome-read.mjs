@@ -31,6 +31,12 @@ export function revealCommentSection() {
   else window.scrollTo(0, 1600);
 }
 
+export async function loadCommentSection(page) {
+  await page.evaluate(revealCommentSection);
+  await page.mouse.wheel(0, 1100);
+  await page.waitForTimeout(2000);
+}
+
 async function main() {
 const repo = fileURLToPath(new URL('../../', import.meta.url));
 const [input, output, maxArg='30'] = process.argv.slice(2);
@@ -118,8 +124,7 @@ try {
     if ([403,429,412].includes(navStatus)) status='blocked';
     let comments = [];
     if (kind === 'video' && status === 'read') {
-      await page.evaluate(revealCommentSection);
-      await page.waitForTimeout(5000);
+      await loadCommentSection(page);
       comments = await page.evaluate(()=>{
         const root=document.querySelector('bili-comments');
         function text(node) {

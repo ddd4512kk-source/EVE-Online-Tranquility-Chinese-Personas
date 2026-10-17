@@ -118,13 +118,28 @@ async function fetchCharacter(id) {
     console.warn(`  ESI 无法获取角色 ${id}（可能已删号），改用 EveWho 数据：${e.message}`);
   }
 
-  const history = (who.history ?? [])
-    .map((h) => ({
-      corporation_id: h.corporation_id,
-      start: evewhoDate(h.start_date),
-      end: evewhoDate(h.end_date),
-    }))
-    .sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
+  // 雇佣记录优先用 ESI（实时）；EveWho 更新滞后，只在 ESI 拿不到时兜底
+  let esiHistory = null;
+  if (esi) {
+    try {
+      esiHistory = await getJson(`${ESI}/characters/${id}/corporationhistory/`);
+    } catch (e) {
+      console.warn(`  ESI 无法获取角色 ${id} 的雇佣记录，改用 EveWho：${e.message}`);
+    }
+  }
+
+  const history = esiHistory?.length
+    ? [...esiHistory]
+        .sort((a, b) => a.record_id - b.record_id)
+        .map((h) => ({ corporation_id: h.corporation_id, start: h.start_date }))
+        .map((h, i, arr) => ({ ...h, end: arr[i + 1]?.start ?? null }))
+    : (who.history ?? [])
+        .map((h) => ({
+          corporation_id: h.corporation_id,
+          start: evewhoDate(h.start_date),
+          end: evewhoDate(h.end_date),
+        }))
+        .sort((a, b) => Date.parse(a.start) - Date.parse(b.start));
 
   const currentCorpId = esi?.corporation_id ?? info.corporation_id;
   const birthday = esi?.birthday ?? history[0]?.start ?? null;

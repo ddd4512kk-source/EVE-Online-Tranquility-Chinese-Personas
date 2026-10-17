@@ -1,0 +1,103 @@
+{
+  "id": 2114871328,
+  "name": "Cir Benuse",
+  "birthday": "2019-01-16T14:43:27Z",
+  "current_corporation": {
+    "id": 98540583,
+    "name": "Special law enforcement department",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98540583,
+      "name": "Special law enforcement department",
+      "ticker": "SARD."
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2019-01-16T14:43:00Z",
+      "end": "2019-04-26T13:27:00Z"
+    },
+    {
+      "corporation_id": 98539240,
+      "name": "Squad Of Nexus Guardian",
+      "npc": false,
+      "start": "2019-04-26T13:27:00Z",
+      "end": "2019-04-27T06:27:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2019-04-27T06:27:00Z",
+      "end": "2019-04-27T06:27:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "name": "State Protectorate",
+      "npc": true,
+      "start": "2019-04-27T06:27:00Z",
+      "end": "2019-04-27T07:59:00Z"
+    },
+    {
+      "corporation_id": 98560783,
+      "name": "ThisIsATempCorporation",
+      "npc": false,
+      "start": "2019-04-27T07:59:00Z",
+      "end": "2019-09-04T06:07:00Z"
+    },
+    {
+      "corporation_id": 1000114,
+      "name": "Garoun Investment Bank",
+      "npc": true,
+      "start": "2019-09-04T06:07:00Z",
+      "end": "2019-09-05T04:20:00Z"
+    },
+    {
+      "corporation_id": 98613575,
+      "name": "Starry sky.",
+      "npc": false,
+      "start": "2019-09-05T04:20:00Z",
+      "end": "2019-09-08T03:07:00Z"
+    },
+    {
+      "corporation_id": 98560783,
+      "name": "ThisIsATempCorporation",
+      "npc": false,
+      "start": "2019-09-08T03:07:00Z",
+      "end": "2019-09-25T17:15:00Z"
+    },
+    {
+      "corporation_id": 98613940,
+      "name": "The Strange Tide",
+      "npc": false,
+      "start": "2019-09-25T17:15:00Z",
+      "end": "2019-12-15T14:05:00Z"
+    },
+    {
+      "corporation_id": 98599181,
+      "name": "Attack On CALDARI",
+      "npc": false,
+      "start": "2019-12-15T14:05:00Z",
+      "end": "2022-11-29T11:57:00Z"
+    },
+    {
+      "corporation_id": 98540583,
+      "name": "Special law enforcement department",
+      "npc": false,
+      "start": "2022-11-29T11:57:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-16"
+}

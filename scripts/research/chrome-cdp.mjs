@@ -48,9 +48,10 @@ export async function connectChromePages(endpoint) {
       if(event.type==='Document') documentStatus=event.response.status;
       for(const callback of responseCallbacks) callback({url:()=>event.response.url,status:()=>event.response.status});
     });
-    async function evaluate(fn) {
-      const result = await cdp.send('Runtime.evaluate', {expression:`(${fn.toString()})()`,awaitPromise:true,returnByValue:true});
-      if(result.exceptionDetails) throw new Error('Chrome页面求值失败');
+    async function evaluate(fn, arg, timeoutMs) {
+      const expression = `(${fn.toString()})(${arg === undefined ? '' : JSON.stringify(arg)})`;
+      const result = await cdp.send('Runtime.evaluate', {expression,awaitPromise:true,returnByValue:true}, timeoutMs);
+      if(result.exceptionDetails) throw new Error('Chrome页面求值失败：'+(result.exceptionDetails.exception?.description || result.exceptionDetails.text || '').split('\n')[0]);
       return result.result.value;
     }
     return {
@@ -74,6 +75,13 @@ export async function connectChromePages(endpoint) {
       waitForTimeout(ms) {return new Promise(resolve=>setTimeout(resolve,ms));},
       locator(selector) {if(selector!=='body') throw new Error('仅支持公开正文');return {innerText:()=>evaluate(()=>document.body?.innerText || '')};},
       evaluate,
+      mouse: {
+        async wheel(deltaX, deltaY) {
+          await cdp.send('Page.bringToFront');
+          await cdp.send('Input.dispatchMouseEvent', {type:'mouseWheel',x:500,y:500,deltaX,deltaY});
+        },
+      },
+      async screenshot({path}) {const {data}=await cdp.send('Page.captureScreenshot');(await import('node:fs')).writeFileSync(path,Buffer.from(data,'base64'));},
       title() {return evaluate(()=>document.title);},
       url() {return currentUrl;},
       async close() {try {await browser.send('Target.closeTarget',{targetId});} finally {cdp.close();}},

@@ -1,9 +1,9 @@
 ---
 character_id: 1664583033
 cn_name: 极端荣耀
-aliases: [荣耀, 农药, Vegetate, Prince Corleone, PLA Fleet CEO, Henry Nakrar]
+aliases: [荣耀, 农药, Vegetate, Prince Corleone, PLA Fleet CEO, Henry Nakrar, Razor Jaxx]
 epithet: 守则禁骂人，社长开骂榜。
-tags: ["00区", "CONDI", "P.L.A", "联盟高层", "CEO", "低素质"]
+tags: ["00区", "B站", "CONDI", "P.L.A", "联盟高层", "CEO", "低素质"]
 ---
 
 极端荣耀，收录角色 Silvitni，PLA 老板，兼任自己人生的新闻发言人。他在[《PLA AND FRT STORY》](https://forum.pla-eve.com/topic/217-pla-and-frt-story/)里自述，2012 年圣诞节从国服来到欧服，先加入行星之光，后来办起 PLA。经营军团之外，还经营“帝国新闻社”：别人打一仗出一张战报，他吵一架能出一套专题。
@@ -30,6 +30,8 @@ PLA 在蜜蜂（Goonswarm）里挂着“最大华人军团”的牌子，可蜜�
 据他本人整理的[PLA 军团历史](https://forum.pla-eve.com/topic/59-pla军团历史/)，2013 年军团在盘古承担过运输和 POS 维护。
 
 做这些活，既不容易出宣传片，也不容易获得全场欢呼。但没有人加油，诸侯们的远征便很可能停在出门第一步。后勤人的功劳，就是让别人有条件忘记后勤。
+
+他的小号 Razor Jaxx 还挂着[兔子卫队招新](https://esi.evetech.net/latest/characters/945883645/)：启动资金七亿、控场三十人本、战斗战损全补。早年替联盟跑运输，后来替新人安排活动和补贴，社长的另一门本事是把人组织起来。广告先把钱数写明白，至于进门后会不会被记进另一张名单，得继续往下读。
 :::
 
 ::: 红料 小厂也曾造过大家伙

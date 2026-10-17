@@ -1,0 +1,47 @@
+{
+  "id": 2116988530,
+  "name": "DOUCHU001",
+  "birthday": "2020-05-30T16:51:06Z",
+  "current_corporation": {
+    "id": 1000014,
+    "name": "Perkone",
+    "npc": true
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98601277,
+      "name": "Fuente Vacio",
+      "ticker": "FV."
+    },
+    "alliance": {
+      "id": 99009082,
+      "name": "The Army of Mango Alliance",
+      "ticker": "AOM"
+    },
+    "left_at": "2020-10-06T12:04:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "name": "State War Academy",
+      "npc": true,
+      "start": "2020-05-30T16:51:00Z",
+      "end": "2020-05-30T17:05:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "name": "Fuente Vacio",
+      "npc": false,
+      "start": "2020-05-30T17:05:00Z",
+      "end": "2020-10-06T12:04:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "name": "Perkone",
+      "npc": true,
+      "start": "2020-10-06T12:04:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-17"
+}

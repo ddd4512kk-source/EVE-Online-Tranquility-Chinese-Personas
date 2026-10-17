@@ -3,7 +3,7 @@ character_id: 2115357062
 cn_name: 魔焱
 aliases: [GipsyDanger -066, GipsyDanger -SSS, GipsyDanger -715, 虫洞组队刷, 魔三火]
 epithet: 小吧给人打星，史官也会押错题。
-tags: ["00区", "FRT", "B站", "SARD."]
+tags: ["00区", "FRT", "SARD."]
 ---
 
 魔焱，游戏里的一串号以 GipsyDanger 开头，收录号 GipsyDanger -066 的角色头衔就写着“魔焱”。贴吧叫“虫洞组队刷”，曾任 eve欧服吧小吧主；B 站叫“魔三火”，把“焱”拆开就成了账号名。这个名字底下有六级洞攻略、全吧离谱操作打星帖、两轮北方战争记录；他给别人记战报，也没少把自己的翻车和猜错写进去。

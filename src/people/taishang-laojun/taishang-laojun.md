@@ -3,7 +3,7 @@ character_id: 2119107966
 cn_name: 胡汉三
 aliases: [Taishang Laojun, TaiBaiJinXIng, 青馆, 太上老君, 太白金星]
 epithet: 在塔玛门口拿了三千五百杀，最后连号都删了。
-tags: [低安]
+tags: [低安, B站]
 ---
 
 胡汉三，又叫青馆，游戏名 Taishang Laojun（太上老君）。2021 年建号，2022 年初进了低安的 Shadow Cartel，成了 SC 华人团 LN1P（Late night poets，深夜诗人）重组后的元老。

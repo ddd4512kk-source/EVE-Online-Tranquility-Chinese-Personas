@@ -1,7 +1,7 @@
 ---
 character_id: 2117641420
 cn_name: 加利西亚
-aliases: [Galician0, 狼心守望者]
+aliases: [Galician0, 狼心守望者, LentoZero]
 epithet: 名片写绝对胜利，战场先熬四小时。
 tags: [00区, FRT, N-V-U, FC]
 ---

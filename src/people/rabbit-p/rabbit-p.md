@@ -1,7 +1,7 @@
 ---
 character_id: 92507639
 cn_name: 兔仔猪
-aliases: [兔宰猪, Rabbit P, 兔叔, B站]
+aliases: [兔宰猪, Rabbit P, 兔叔]
 epithet: 二百九十篇版本翻译，技能加成写在简介里：打字速度 +100%。
 tags: ["00区", "FRT", "B站", "NUWA"]
 ---

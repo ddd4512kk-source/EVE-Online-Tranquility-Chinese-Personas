@@ -1,0 +1,103 @@
+{
+  "id": 2115958161,
+  "name": "Tenma Gabriel White",
+  "birthday": "2019-11-25T16:17:29Z",
+  "current_corporation": {
+    "id": 98601277,
+    "name": "Fuente Vacio",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98601277,
+      "name": "Fuente Vacio",
+      "ticker": "FV."
+    },
+    "alliance": {
+      "id": 99009163,
+      "name": "Dracarys.",
+      "ticker": "D.C"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2019-11-25T16:17:00Z",
+      "end": "2019-11-30T09:35:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "name": "Fuente Vacio",
+      "npc": false,
+      "start": "2019-11-30T09:35:00Z",
+      "end": "2020-05-23T14:35:00Z"
+    },
+    {
+      "corporation_id": 1000046,
+      "name": "Sebiestor Tribe",
+      "npc": true,
+      "start": "2020-05-23T14:35:00Z",
+      "end": "2020-05-23T17:06:00Z"
+    },
+    {
+      "corporation_id": 98635855,
+      "name": "Stay Cool And Calm Down",
+      "npc": false,
+      "start": "2020-05-23T17:06:00Z",
+      "end": "2020-05-30T10:32:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "name": "Fuente Vacio",
+      "npc": false,
+      "start": "2020-05-30T10:32:00Z",
+      "end": "2022-01-24T13:44:00Z"
+    },
+    {
+      "corporation_id": 98542815,
+      "name": "Beng beng Begn",
+      "npc": false,
+      "start": "2022-01-24T13:44:00Z",
+      "end": "2022-06-11T03:16:00Z"
+    },
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2022-06-11T03:16:00Z",
+      "end": "2022-06-11T03:17:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "name": "Fuente Vacio",
+      "npc": false,
+      "start": "2022-06-11T03:17:00Z",
+      "end": "2022-11-30T14:04:00Z"
+    },
+    {
+      "corporation_id": 1000171,
+      "name": "Republic University",
+      "npc": true,
+      "start": "2022-11-30T14:04:00Z",
+      "end": "2022-11-30T14:05:00Z"
+    },
+    {
+      "corporation_id": 98446928,
+      "name": "Setcreasea Pallida Corporation",
+      "npc": false,
+      "start": "2022-11-30T14:05:00Z",
+      "end": "2024-11-22T16:18:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "name": "Fuente Vacio",
+      "npc": false,
+      "start": "2024-11-22T16:18:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-17"
+}
