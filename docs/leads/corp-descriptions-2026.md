@@ -26,7 +26,7 @@ nany-1419（昆仑总监）、sword-sun（凤凰城总监）、wy-yang（TCF 顾
 | Initiative | Emperor Scythes 帝皇之镰（98715582，648） | Hoshino X | 联系 Zofia Abigail（中/En/日）、Hoshino X |
 | Initiative | Alkaid Broken Army 瑶光（98725234，391） | roses mary | Director ①：Lemmily（“主要负责人/Leader”） |
 | Initiative | Cosmic-Wanderers（98769610，398） | KK Huang | 联系 Xiao HuangRen |
-| FRT | Nuwa Foundation 女娲（98178881，224） | Elizabeth Seven | 招募状态“可有可无” |
+| FRT | Nuwa Foundation 女娲（98178881，224） | Elizabeth Seven（七夜小号） | 招募状态“可有可无” |
 | FRT | Liberal heavy cavalry（98525262，188） | Goodman john nebert | 总监/CEO 同人 |
 | FRT | Glory Navy（98530802，380） | Nuter Zero | — |
 | FRT | Galactic Empire Co LTD（98537981，816） | GECL CEO | 简介 CEO 写 Mr Niu |

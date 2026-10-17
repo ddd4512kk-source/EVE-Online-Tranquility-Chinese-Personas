@@ -3,7 +3,7 @@ character_id: 2114736322
 cn_name: 青衣
 aliases: [Chess Player, 官子青衣-, 红警CZY]
 epithet: 配船讲得通，管贴吧管成瓜。
-tags: ["00区", "低安", "PET.", "AT19冠军", "B站", "F1GOU"]
+tags: ["00区", "B站", "低安", "PET.", "AT19冠军", "F1GOU"]
 ---
 
 青衣，游戏名 Chess Player，2018 年建号，F1 Monkey.（Esports Petopia）的比赛队员，2023 年和[斑鸠](../2113386745/)一起作为“雇佣兵”进了 FRT 的 AT19 阵容并夺冠。角色简介开头是一句日文：“身構えているときには、死神は来ないものだ”（有所防备的时候，死神是不会来的）。

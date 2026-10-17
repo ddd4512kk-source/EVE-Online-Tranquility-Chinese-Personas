@@ -1,8 +1,8 @@
 <a id="roseattack"></a>
 
-## ROSE / roseattack
+## 肉丝 / ROSE / roseattack
 
-收录角色：**roseattack（224870524）**。已有[列传源文件](roseattack.md)。
+中文名：**肉丝**；ROSE、rose 保留为别名。收录角色：**roseattack（224870524）**。已有[列传源文件](roseattack.md)。
 
 素材方向：蜜蜂回忆中的盘古共同创立者、Cappuccino Cafe 管理人物；有“租地生产团与战斗团期待不合”的具体叙述。
 

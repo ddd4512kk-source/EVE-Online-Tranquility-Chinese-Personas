@@ -1,6 +1,7 @@
 ---
 character_id: 2123440570
-aliases: [BB ice2, BB SR-71, BBB ice, 偷偷的坏, 黑鸟2026, 黑鸟]
+cn_name: 黑鸟
+aliases: [BB ice2, BB SR-71, BBB ice, 偷偷的坏, 黑鸟2026]
 epithet: 一边刷短视频一边三开炸鱼，攒神使的路上先给别人送了几十亿。
 tags: ["00区", "INIT.", "CO.WA"]
 ---

@@ -6,6 +6,8 @@
 
 身份与取材方向：[红领鲸 Red Scarf Humpback](https://esi.evetech.net/latest/corporations/98632030/)游戏 CEO；402 角色。多团合流、管理制度与后勤自述。
 
+B站：[《EVE 红领巾反向招新》](https://www.bilibili.com/video/BV1SG8r6gEPF/)里有大黑出镜讲话，但不是他本人账号发的；本人没有已知的UP账号，不带 `B站` 标签。
+
 [Monster0001](https://esi.evetech.net/latest/characters/2122641476/)头衔为大黑，当前红领鲸 CEO。军团简介仍有旧 D.F 描述，ESI 当前联盟已是 FRT，注明简介未必同步，不照抄为现状。
 
 - **红料 / 合团背景，中**：团方说明前 MMP、404 合流成为 TNE，再与莱茵金属合团，强调核心管理从 2018 年起共事；宣称“此为最终番号，不会再有变动”。这是组织史和团方承诺，不证明当前大黑号从 2018 年起就在掌事。
@@ -43,4 +45,4 @@
 
 ## 2026-10-12续批：炸弹马玩家另立传
 
-同文六号按作者的同人对应已收录[UncleCubeO](../unclecubeo/materials-unclecubeo.md)；同一来源不另算新证人。大黑列传仍只写教学及管理争议，不把这些船算成本人战损。六条KM和操作解释留共享摘要，此处不重抄。
+同文六号按作者的同人对应归为UncleCubeO，仅普通丢船，已退回[线索](../../../docs/leads/unclecubeo.md)；同一来源不另算新证人。大黑列传仍只写教学及管理争议，不把这些船算成本人战损。六条KM和操作解释留共享摘要，此处不重抄。

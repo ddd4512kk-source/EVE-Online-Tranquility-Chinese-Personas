@@ -91,3 +91,40 @@
 | [BV1dy8F6TExn](https://www.bilibili.com/video/BV1dy8F6TExn/) | [EVE Online]从一位EVE玩家的角度解构《牛来》——这部电影很有深度 |
 | [BV1gXbU6AEyf](https://www.bilibili.com/video/BV1gXbU6AEyf/) | 深水小流氓直钩钓鱼，720爆头谬宁队【EVE】 |
 | [BV1MFbS6tEYP](https://www.bilibili.com/video/BV1MFbS6tEYP/) | [EVE Online][搬运]FDZ Double Supercarrier |
+
+## 新闻合作署名补核（2026-10-16）
+
+两篇均为上传者；备考与大学生自述归本人，公开团队与原页见[共同署名记录](../../../docs/sources/bilibili-news-collaboration-2026.md)。上传账号不同不等于没有本人参与；只按具体署名保存，不认独立主讲、全部创作或战时总指挥。未看影像、字幕或音频。
+
+## 空间排序入口补取（2026-10-16）
+
+[本人空间UID393683258](https://space.bilibili.com/393683258/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
+
+最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
+
+- [《[EVE Online]泰坦手滑把自己跳进时——敌我双方？》](https://www.bilibili.com/video/BV1nZ421m7QU/)
+- [《[EVE Online]医生姐姐来了！剩个方向盘也给你救回来！》](https://www.bilibili.com/video/BV1nq421F7aj/)
+- [《[EVE Online]指挥让你打会战时不要舔包，你舔不舔？》](https://www.bilibili.com/video/BV11yPreZEUh/)
+- [《[EVE Online]第一视角带你体验真正的千人会战》](https://www.bilibili.com/video/BV15N4y1U7pc/)
+- [《[EVE Online]我:打完会战就睡觉》](https://www.bilibili.com/video/BV1i14y1q7Wy/)
+
+本节只记候选入口，作品核读、精选取舍与仍待补的内容见后文。
+
+## 热门整活与合作精选（2026-10-16）
+
+空间双排序、十三个系列入口已取得。本轮新读最多播放3篇简介、选集和60个已加载主评论线程及可见回复；复用两篇合作新闻简介、团队及公开文字。未看影像、字幕或音频，未展开全部回复，不以评论热度评价音画与剪辑。
+
+- [泰坦手滑](https://www.bilibili.com/video/BV1nZ421m7QU/)：简介仅“整活”，统计389738播放。读者就投送、备用车、救援添油与会战耗时续梗，有人讲FRT投X47时手滑；均为读者故事，不认76本人手滑、驾驶泰坦或指挥救援，不把跨服旧事混成一场欧服战役，未核KM不补战果。
+- [医生姐姐](https://www.bilibili.com/video/BV1nq421F7aj/)：统计82041播放，低于手滑篇，正文最高播放说法已纠正。简介明确“整个活”“素材来源与@NoNoOwO”，按素材来源署名存，不认原素材全部76自录、救援由76实施。读者用手刹、螺丝、照片形容后勤续命，都是玩笑，不作具体维修机制或战果；有人怀疑后勤航挂修，不据此定驾驶员与船型组合。
+- [会战舔包](https://www.bilibili.com/video/BV11yPreZEUh/)：简介“整活”。作者2025-02-06置顶说明何时舔包看舰队情况，掉队会优先被集火，把舔包优先于生死很愚蠢，视频图一乐。读者用缺电池、弹药、锶包等开玩笑，不据此将76写成违纪者，也不认实际遭友军炮决。作者的风险提醒与整活反差已入文。
+
+精选现保留3篇整活；[回坑合作](https://www.bilibili.com/video/BV1JWti66ERx/)与[引擎新闻合作](https://www.bilibili.com/video/BV1CnNE6uErg/)撤出，团队及本人自述保留于[共享材料](../../../docs/sources/bilibili-news-collaboration-2026.md)。资料链外页未继续读，新闻题目不等于本次独立确认技术主张，保留本人列资料、交代了解边界与跨社区协作的创作经历。最多播放的千人会战、打完就睡及历史作品仍有未读内容，不因未选判差；既有毕业考试、战绩、贴吧与创作主线保留。
+
+## 精选取舍（2026-10-17）
+
+以下作品撤出本人推荐，事迹、创作分工及公开互动仍保留：
+
+- [《2026年，现在是回坑和入坑EVE的最好时机吗？》](https://www.bilibili.com/video/BV1JWti66ERx/)：76上传、死枪参演、NoNo策划、少侠调音等八人署名。
+- [《EVE Online开源23年引擎代码》](https://www.bilibili.com/video/BV1CnNE6uErg/)：76上传，死枪策划，另有少侠、NoNo和眠眠渡春合作署名。
+
+当前保留3条精选；其他候选沿上文未读缺口续查。

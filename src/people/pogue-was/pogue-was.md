@@ -1,7 +1,7 @@
 ---
 character_id: 2119468347
 cn_name: 波哥
-aliases: [塞纳波哥, 波格得, "Pogue Was", B站]
+aliases: [塞纳波哥, 波格得, "Pogue Was", "Jita IV-4 ETC"]
 epithet: 塞纳波单收成名，后来把合同栏做成了生意场。
 tags: ["00区", "低安", "PG", "B站", "8.30", "脚本"]
 ---

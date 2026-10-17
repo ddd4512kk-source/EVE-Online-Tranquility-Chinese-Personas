@@ -6,7 +6,7 @@
 
 名单沿用[九月前50军团](top50-corp-ceos-2026-10-11.md)。本轮在共享冷却结束后补齐余下46家历史榜：**50家all-time人物榜均已取得，共4996条历史名次记录**；49家各前100，Deadspace Spearhead返回96个角色，不把返回不足100记成分页失败。另保存接口近期榜490条，范围不是九月。
 
-合计5486条榜单记录，去重4834个角色；全部名字已经ESI批量解析，按当前收录号、aliases及明确同人素材对照。198个不同角色在TSV明确标为已对应当前列传（对应252条榜单记录），4636个未标为已对应当前列传；这些是角色数，不是去重后真人数。名字对照不等于个人调查完成，逐人结果见[清单](corp-top-characters-2026-10-12.tsv)。
+合计5486条榜单记录，去重4834个角色；全部名字已经ESI批量解析，按当前收录号、aliases及明确同人素材对照。247个不同角色在TSV明确标为已对应当前列传（对应319条榜单记录），4587个未标为已对应当前列传；这些是角色数，不是去重后真人数。名字对照不等于个人调查完成，逐人结果见[清单](corp-top-characters-2026-10-12.tsv)。
 
 **首次HTTP批次九月monthly为0/50**：确认公开源码支持`/corporation/<ID>/top/year/2026/month/9/`后，第一张混沌页面即HTTP403；立即停止本轮zKillboard全部请求，没有切换出口、镜像或接口继续取同一数据。此次403不影响此前已经取完的历史响应，但月榜和后续Monitor查询仍有缺口。
 
@@ -30,8 +30,8 @@ AOM历史人物先沿[2021年9月前100固定名单](aom-monthly-2021-09.md)核�
 这是本轮50团成员榜的主 ledger。**榜单取得**与**逐人核读**分栏维护；身份对应不等于已找到故事或已入文。
 
 - 50家历史榜与九月榜均已取得，正式名单保留全部返回名次；不是只存前十。
-- 混沌、PLA、伏羲、特执、昆仑、创世、KZU、星尘、瑶光、宽带山、帝皇之镰、Dusk、BOP、Fox、叶落星海、红楼：历史榜前50的头衔／简介已核读。
-- 采星者前50已读49份名片，第33名ESI404缺头衔／简介；下一轮接PLA Fleet / 98576141前50；Fox其他候选继续补教学、赞助与人物事件；其余军团显示实际已登记名次，未核定连续范围的不冒称前十或前50完成。
+- 混沌、PLA、伏羲、特执、昆仑、创世、KZU、星尘、瑶光、宽带山、帝皇之镰、Dusk、BOP、Fox、叶落星海、红楼、图万神殿、吃瓜、咸鱼、神农：历史榜前50的头衔／简介已核读。
+- 采星者与PLA Fleet前50各已读49份名片，分别第33、37名ESI404缺头衔／简介；吃瓜前50、神农前50、Family Guy前50已读；LP两人及创建者兼CEO Cyan nomi已成文，Cosmic-Wanderers前50已读，核弹、花花已成文；GECL前50已读、daoyan yin成文；创世学院前50已读、白给大师补四号，Navigators Union前50已读、老实成文、小妖补newcat；兔飞前50已读、京介颂词补身份；Faceless前50已读49份、第24名ESI404；Dawn’s LightP前50已读，白凝七号归组；Attack On CALDARI前20已读，夜灵按自报FC成文，续21—30；两B站实际最多排序与合集目录已核，操作者待对应，教程评论补王答答／台风，银光／建军互相提名已归档；Fox其他候选继续补教学、赞助与人物事件；其余军团显示实际已登记名次，未核定连续范围的不冒称前十或前50完成。
 - 月榜个人调查与历史榜另分范围；本栏不把历史榜前50核读改称九月前50完成。AOM另用[2021年9月ledger](aom-monthly-2021-09.md)，前100名单已存、前50名片已核读。
 
 表中“有名片记录”仅表示正式TSV有头衔／简介核读记录；空头衔已读也计入，已有列传但未登记名片的号不自动计入。逐号的成文、待核身份和待补故事见[正式清单](corp-top-characters-2026-10-12.tsv)所指原队列／人物素材。
@@ -39,45 +39,45 @@ AOM历史人物先沿[2021年9月前100固定名单](aom-monthly-2021-09.md)核�
 
 | 九月名次 | 军团 / ID | all-time角色榜取得 | 九月monthly角色榜取得 | 历史榜个人核读范围 / 下一步 | 身份对应进度 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Chaos arbiter（混沌） / 98598862 | [前100](https://zkillboard.com/api/stats/corporationID/98598862/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98598862/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#混沌前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；8个明确对上当前列传 |
+| 1 | Chaos arbiter（混沌） / 98598862 | [前100](https://zkillboard.com/api/stats/corporationID/98598862/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98598862/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#混沌前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；9个明确对上当前列传 |
 | 2 | Peoples Liberation Army（PLA） / 98190062 | [前100](https://zkillboard.com/api/stats/corporationID/98190062/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98190062/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#pla前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；7个明确对上当前列传 |
-| 3 | Fuxi Legion（伏羲） / 98185110 | [前100](https://zkillboard.com/api/stats/corporationID/98185110/kills/)，2026-10-11 | [已取得前100](https://zkillboard.com/corporation/98185110/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#伏羲前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；12个明确对上当前列传 |
-| 4 | Special law enforcement department（特执／SARD） / 98540583 | [前100](https://zkillboard.com/api/stats/corporationID/98540583/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98540583/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#特执前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；9个明确对上当前列传 |
-| 5 | Kun-Lun（昆仑） / 98825941 | [前100](https://zkillboard.com/api/stats/corporationID/98825941/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98825941/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#昆仑前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；12个明确对上当前列传 |
-| 6 | ChuangShi（创世） / 98535868 | [前100](https://zkillboard.com/api/stats/corporationID/98535868/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98535868/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#创世前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；8个明确对上当前列传 |
+| 3 | Fuxi Legion（伏羲） / 98185110 | [前100](https://zkillboard.com/api/stats/corporationID/98185110/kills/)，2026-10-11 | [已取得前100](https://zkillboard.com/corporation/98185110/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#伏羲前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；13个明确对上当前列传 |
+| 4 | Special law enforcement department（特执／SARD） / 98540583 | [前100](https://zkillboard.com/api/stats/corporationID/98540583/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98540583/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#特执前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；10个明确对上当前列传 |
+| 5 | Kun-Lun（昆仑） / 98825941 | [前100](https://zkillboard.com/api/stats/corporationID/98825941/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98825941/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#昆仑前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；14个明确对上当前列传 |
+| 6 | ChuangShi（创世） / 98535868 | [前100](https://zkillboard.com/api/stats/corporationID/98535868/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98535868/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#创世前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；10个明确对上当前列传 |
 | 7 | Knight of Zero Ultra（KZU） / 98808817 | [前100](https://zkillboard.com/api/stats/corporationID/98808817/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98808817/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#kzu前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；6个明确对上当前列传 |
-| 8 | Stardust-Guardian（星尘） / 98550682 | [前100](https://zkillboard.com/api/stats/corporationID/98550682/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98550682/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#星尘前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；7个明确对上当前列传 |
+| 8 | Stardust-Guardian（星尘） / 98550682 | [前100](https://zkillboard.com/api/stats/corporationID/98550682/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98550682/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#星尘前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；10个明确对上当前列传 |
 | 9 | Alkaid Broken Army（瑶光） / 98725234 | [前100](https://zkillboard.com/api/stats/corporationID/98725234/kills/)，2026-10-11 | [已取得前100](https://zkillboard.com/corporation/98725234/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#瑶光前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；11个明确对上当前列传 |
-| 10 | Kuan.Dai.Shan（宽带山） / 98626718 | [前100](https://zkillboard.com/api/stats/corporationID/98626718/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98626718/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#宽带山前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；1个明确对上当前列传 |
+| 10 | Kuan.Dai.Shan（宽带山） / 98626718 | [前100](https://zkillboard.com/api/stats/corporationID/98626718/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98626718/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#宽带山前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；2个明确对上当前列传 |
 | 11 | Emperor Scythes / 98715582 | [前100](https://zkillboard.com/api/stats/corporationID/98715582/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98715582/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#帝皇之镰前50头衔增量2026-10-14)；继续补职责与人物事件 | 100个名字已对照；6个明确对上当前列传 |
 | 12 | STARCHASER Inc / 98626494 | [前100](https://zkillboard.com/api/stats/corporationID/98626494/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98626494/top/year/2026/month/9/)，系统Chrome缓存 | [前50已读49份](#采星者前50头衔增量2026-10-14)；第33名ESI404，头衔／简介缺口保留 | 100个名字已对照；4个明确对上当前列传 |
-| 13 | Dusk dreadnought. / 98817310 | [前100](https://zkillboard.com/api/stats/corporationID/98817310/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98817310/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#dusk前50头衔增量2026-10-14)；优先补总监／社区主持实际事务 | 100个名字已对照；4个明确对上当前列传 |
-| 14 | B.O.P Supplication For Glorious / 98547771 | [前100](https://zkillboard.com/api/stats/corporationID/98547771/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98547771/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#bop前50头衔增量2026-10-14)；优先补参谋长实际职责与人物故事 | 100个名字已对照；11个明确对上当前列传 |
-| 15 | Fox of Resistance / 98755298 | [前100](https://zkillboard.com/api/stats/corporationID/98755298/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98755298/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#fox前50头衔增量2026-10-15)；明确管理职责已写短篇；其他候选待补故事／教学 | 100个名字已对照；15个明确对上当前列传 |
-| 16 | YeLuo-XingHai / 98588384 | [前100](https://zkillboard.com/api/stats/corporationID/98588384/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98588384/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#叶落星海前50头衔增量2026-10-15)；补总监分工、任务交易与人物事件 | 100个名字已对照；5个明确对上当前列传 |
-| 17 | HongLou / 98642382 | [前100](https://zkillboard.com/api/stats/corporationID/98642382/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98642382/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#红楼前50头衔增量2026-10-15)；补实际职责与独立事件 | 100个名字已对照；2个明确对上当前列传 |
-| 18 | PLA Fleet / 98576141 | [前100](https://zkillboard.com/api/stats/corporationID/98576141/kills/)，2026-10-12 | [已取得前0](https://zkillboard.com/corporation/98576141/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：9,15；连续范围待验收 | 100个名字已对照；2个明确对上当前列传 |
-| 19 | Temple of Tuvan Orth / 98652614 | [前100](https://zkillboard.com/api/stats/corporationID/98652614/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98652614/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1；连续范围待验收 | 100个名字已对照；4个明确对上当前列传 |
-| 20 | Chi Gua / 98524084 | [前100](https://zkillboard.com/api/stats/corporationID/98524084/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98524084/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：17；连续范围待验收 | 100个名字已对照；12个明确对上当前列传 |
-| 21 | Salted Fish Inc / 98640194 | [前100](https://zkillboard.com/api/stats/corporationID/98640194/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98640194/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；2个明确对上当前列传 |
-| 22 | Descendants of Shen Nong / 98702890 | [前100](https://zkillboard.com/api/stats/corporationID/98702890/kills/)，2026-10-12 | [已取得前95](https://zkillboard.com/corporation/98702890/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；4个明确对上当前列传 |
-| 23 | Family Guy. / 98798876 | [前100](https://zkillboard.com/api/stats/corporationID/98798876/kills/)，2026-10-11 | [已取得前86](https://zkillboard.com/corporation/98798876/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1,2,3,4,5,6,8,9,10,25,27,40；连续范围待验收 | 100个名字已对照；3个明确对上当前列传 |
-| 24 | Cosmic-Wanderers / 98769610 | [前100](https://zkillboard.com/api/stats/corporationID/98769610/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98769610/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；0个明确对上当前列传 |
-| 25 | Galactic Empire Co LTD / 98537981 | [前100](https://zkillboard.com/api/stats/corporationID/98537981/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98537981/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；3个明确对上当前列传 |
-| 26 | Chuangshi College / 98705642 | [前100](https://zkillboard.com/api/stats/corporationID/98705642/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98705642/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：28,30；连续范围待验收 | 100个名字已对照；0个明确对上当前列传 |
-| 27 | Navigators' Union / 98825044 | [前100](https://zkillboard.com/api/stats/corporationID/98825044/kills/)，2026-10-12 | [已取得前98](https://zkillboard.com/corporation/98825044/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1,2,9,20,22；连续范围待验收 | 100个名字已对照；2个明确对上当前列传 |
-| 28 | Tu Zi Fei Corporation / 98648061 | [前100](https://zkillboard.com/api/stats/corporationID/98648061/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98648061/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：13,21,50；连续范围待验收 | 100个名字已对照；5个明确对上当前列传 |
-| 29 | Faceless. / 98645589 | [前100](https://zkillboard.com/api/stats/corporationID/98645589/kills/)，2026-10-12 | [已取得前95](https://zkillboard.com/corporation/98645589/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：2,3,4,12,18,21,23,31,46；连续范围待验收 | 100个名字已对照；12个明确对上当前列传 |
-| 30 | Dawn's LightP / 98781311 | [前100](https://zkillboard.com/api/stats/corporationID/98781311/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98781311/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：45；连续范围待验收 | 100个名字已对照；1个明确对上当前列传 |
-| 31 | Attack On CALDARI / 98599181 | [前100](https://zkillboard.com/api/stats/corporationID/98599181/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98599181/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：15；连续范围待验收 | 100个名字已对照；1个明确对上当前列传 |
+| 13 | Dusk dreadnought. / 98817310 | [前100](https://zkillboard.com/api/stats/corporationID/98817310/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98817310/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#dusk前50头衔增量2026-10-14)；优先补总监／社区主持实际事务 | 100个名字已对照；5个明确对上当前列传 |
+| 14 | B.O.P Supplication For Glorious / 98547771 | [前100](https://zkillboard.com/api/stats/corporationID/98547771/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98547771/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#bop前50头衔增量2026-10-14)；优先补参谋长实际职责与人物故事 | 100个名字已对照；13个明确对上当前列传 |
+| 15 | Fox of Resistance / 98755298 | [前100](https://zkillboard.com/api/stats/corporationID/98755298/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98755298/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#fox前50头衔增量2026-10-15)；明确管理职责已写短篇；其他候选待补故事／教学 | 100个名字已对照；16个明确对上当前列传 |
+| 16 | YeLuo-XingHai / 98588384 | [前100](https://zkillboard.com/api/stats/corporationID/98588384/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98588384/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#叶落星海前50头衔增量2026-10-15)；补总监分工、任务交易与人物事件 | 100个名字已对照；6个明确对上当前列传 |
+| 17 | HongLou / 98642382 | [前100](https://zkillboard.com/api/stats/corporationID/98642382/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98642382/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#红楼前50头衔增量2026-10-15)；补实际职责与独立事件 | 100个名字已对照；3个明确对上当前列传 |
+| 18 | PLA Fleet / 98576141 | [前100](https://zkillboard.com/api/stats/corporationID/98576141/kills/)，2026-10-12 | [已取得前0](https://zkillboard.com/corporation/98576141/top/year/2026/month/9/)，系统Chrome缓存 | [前50已读49份](#pla-fleet前50头衔增量2026-10-15)；第37名ESI404；老鹰双号归本人 | 100个名字已对照；5个明确对上当前列传 |
+| 19 | Temple of Tuvan Orth / 98652614 | [前100](https://zkillboard.com/api/stats/corporationID/98652614/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98652614/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#图万神殿前50头衔增量2026-10-15)；茅台FC已立传，其他实际职责／故事待补 | 100个名字已对照；6个明确对上当前列传 |
+| 20 | Chi Gua / 98524084 | [前100](https://zkillboard.com/api/stats/corporationID/98524084/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98524084/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#吃瓜第31至50名增量)；喵爷虫洞邀请、天鹅ALT及鹊桥直播继续补故事 | 100个名字已对照；14个明确对上当前列传 |
+| 21 | Salted Fish Inc / 98640194 | [前100](https://zkillboard.com/api/stats/corporationID/98640194/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98640194/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#咸鱼第31至50名增量)；saber CEO已立传，kk七号归一组，其他职责／故事继续 | 100个名字已对照；7个明确对上当前列传 |
+| 22 | Descendants of Shen Nong / 98702890 | [前100](https://zkillboard.com/api/stats/corporationID/98702890/kills/)，2026-10-12 | [已取得前95](https://zkillboard.com/corporation/98702890/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#神农第41至50名与leo成文)；Leo总监已立传，其他实际职责／故事继续 | 100个名字已对照；7个明确对上当前列传 |
+| 23 | Family Guy. / 98798876 | [前100](https://zkillboard.com/api/stats/corporationID/98798876/kills/)，2026-10-11 | [已取得前86](https://zkillboard.com/corporation/98798876/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#family-guy第31至50名增量2026-10-16)；酒云教学入口、P子和686等继续补故事 | 100个名字已对照；5个明确对上当前列传 |
+| 24 | Cosmic-Wanderers / 98769610 | [前100](https://zkillboard.com/api/stats/corporationID/98769610/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98769610/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#cosmic-wanderers第36至50名及gecl前两名2026-10-16)；豆芽／老哥／星光归组，具体人物故事继续补 | 100个名字已对照；9个明确对上当前列传 |
+| 25 | Galactic Empire Co LTD / 98537981 | [前100](https://zkillboard.com/api/stats/corporationID/98537981/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98537981/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#gecl第26至50名与创世学院前六名2026-10-16)；同人组及B站直链等后续故事待补 | 100个名字已对照；5个明确对上当前列传 |
+| 26 | Chuangshi College / 98705642 | [前100](https://zkillboard.com/api/stats/corporationID/98705642/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98705642/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#创世学院第39至50名及navigators-union前23名2026-10-17)；具体人物故事继续补 | 100个名字已对照；0个明确对上当前列传 |
+| 27 | Navigators' Union / 98825044 | [前100](https://zkillboard.com/api/stats/corporationID/98825044/kills/)，2026-10-12 | [已取得前98](https://zkillboard.com/corporation/98825044/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#navigators-union收尾与兔飞前26名2026-10-17)；房子小双号，职责／故事续查 | 100个名字已对照；4个明确对上当前列传 |
+| 28 | Tu Zi Fei Corporation / 98648061 | [前100](https://zkillboard.com/api/stats/corporationID/98648061/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98648061/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#兔飞第27至50名与faceless前十2026-10-17)；梦／京介归双号，小燕子三号，颂词补飞飞 | 100个名字已对照；6个明确对上当前列传 |
+| 29 | Faceless. / 98645589 | [前100](https://zkillboard.com/api/stats/corporationID/98645589/kills/)，2026-10-12 | [已取得前95](https://zkillboard.com/corporation/98645589/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核49份](#faceless收尾与dawns-lightp前十2026-10-17)，第24名ESI404；木木三补Crea1ure | 100个名字已对照；14个明确对上当前列传 |
+| 30 | Dawn's LightP / 98781311 | [前100](https://zkillboard.com/api/stats/corporationID/98781311/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98781311/top/year/2026/month/9/)，系统Chrome缓存 | [前50已核读](#dawns-lightp收尾与aocal前十2026-10-17)；白凝七号，具体故事／职责续查 | 100个名字已对照；2个明确对上当前列传 |
+| 31 | Attack On CALDARI / 98599181 | [前100](https://zkillboard.com/api/stats/corporationID/98599181/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98599181/top/year/2026/month/9/)，系统Chrome缓存 | [前20已核读](#aocal第11至20名与牧星评论入文2026-10-17)；夜灵成文，天堂角落双号；续21—30 | 100个名字已对照；2个明确对上当前列传 |
 | 32 | Serenity Moe University / 98707431 | [前100](https://zkillboard.com/api/stats/corporationID/98707431/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98707431/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：8,49；连续范围待验收 | 100个名字已对照；1个明确对上当前列传 |
 | 33 | Stars Corporate Group / 98598483 | [前100](https://zkillboard.com/api/stats/corporationID/98598483/kills/)，2026-10-12 | [已取得前93](https://zkillboard.com/corporation/98598483/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1,2,6,9,20；连续范围待验收 | 100个名字已对照；3个明确对上当前列传 |
 | 34 | Silver Fog Dragon Ride / 98613748 | [前100](https://zkillboard.com/api/stats/corporationID/98613748/kills/)，2026-10-12 | [已取得前89](https://zkillboard.com/corporation/98613748/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：37；连续范围待验收 | 100个名字已对照；4个明确对上当前列传 |
-| 35 | Baby-Bus / 98777401 | [前100](https://zkillboard.com/api/stats/corporationID/98777401/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98777401/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：11；连续范围待验收 | 100个名字已对照；0个明确对上当前列传 |
+| 35 | Baby-Bus / 98777401 | [前100](https://zkillboard.com/api/stats/corporationID/98777401/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98777401/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：11；连续范围待验收 | 100个名字已对照；3个明确对上当前列传 |
 | 36 | New Eden Light Point College / 98772842 | [前100](https://zkillboard.com/api/stats/corporationID/98772842/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98772842/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；2个明确对上当前列传 |
 | 37 | Foredawn Business Corporation / 98538918 | [前100](https://zkillboard.com/api/stats/corporationID/98538918/kills/)，2026-10-12 | [已取得前49](https://zkillboard.com/corporation/98538918/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；6个明确对上当前列传 |
-| 38 | Deadspace Spearhead / 98841123 | [前96](https://zkillboard.com/api/stats/corporationID/98841123/kills/)，2026-10-12 | [已取得前72](https://zkillboard.com/corporation/98841123/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 96个名字已对照；0个明确对上当前列传 |
-| 39 | Arknights. / 98725089 | [前100](https://zkillboard.com/api/stats/corporationID/98725089/kills/)，2026-10-12 | [已取得前76](https://zkillboard.com/corporation/98725089/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：7,13,15,19,22,26,27,29,31,33,43；连续范围待验收 | 100个名字已对照；7个明确对上当前列传 |
+| 38 | Deadspace Spearhead / 98841123 | [前96](https://zkillboard.com/api/stats/corporationID/98841123/kills/)，2026-10-12 | [已取得前72](https://zkillboard.com/corporation/98841123/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 96个名字已对照；1个明确对上当前列传 |
+| 39 | Arknights. / 98725089 | [前100](https://zkillboard.com/api/stats/corporationID/98725089/kills/)，2026-10-12 | [已取得前76](https://zkillboard.com/corporation/98725089/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：7,13,15,19,22,26,27,29,31,33,43；连续范围待验收 | 100个名字已对照；9个明确对上当前列传 |
 | 40 | Silent Sojourner / 98817783 | [前100](https://zkillboard.com/api/stats/corporationID/98817783/kills/)，2026-10-12 | [已取得前61](https://zkillboard.com/corporation/98817783/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1；连续范围待验收 | 100个名字已对照；0个明确对上当前列传 |
 | 41 | Formosa Research Center / 98049623 | [前100](https://zkillboard.com/api/stats/corporationID/98049623/kills/)，2026-10-12 | [已取得前49](https://zkillboard.com/corporation/98049623/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；3个明确对上当前列传 |
 | 42 | Texas of Requiem / 98806126 | [前100](https://zkillboard.com/api/stats/corporationID/98806126/kills/)，2026-10-12 | [已取得前83](https://zkillboard.com/corporation/98806126/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；2个明确对上当前列传 |
@@ -85,10 +85,10 @@ AOM历史人物先沿[2021年9月前100固定名单](aom-monthly-2021-09.md)核�
 | 44 | Red Scarf Humpback / 98632030 | [前100](https://zkillboard.com/api/stats/corporationID/98632030/kills/)，2026-10-12 | [已取得前85](https://zkillboard.com/corporation/98632030/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；3个明确对上当前列传 |
 | 45 | Glory Navy / 98530802 | [前100](https://zkillboard.com/api/stats/corporationID/98530802/kills/)，2026-10-12 | [已取得前81](https://zkillboard.com/corporation/98530802/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：41；连续范围待验收 | 100个名字已对照；2个明确对上当前列传 |
 | 46 | Infinity Avenger / 98556933 | [前100](https://zkillboard.com/api/stats/corporationID/98556933/kills/)，2026-10-12 | [已取得前28](https://zkillboard.com/corporation/98556933/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：29；连续范围待验收 | 100个名字已对照；9个明确对上当前列传 |
-| 47 | Phoenix City / 98575144 | [前100](https://zkillboard.com/api/stats/corporationID/98575144/kills/)，2026-10-12 | [已取得前56](https://zkillboard.com/corporation/98575144/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；1个明确对上当前列传 |
-| 48 | Zhuque squad / 98742946 | [前100](https://zkillboard.com/api/stats/corporationID/98742946/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98742946/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1,8,42；连续范围待验收 | 100个名字已对照；3个明确对上当前列传 |
+| 47 | Phoenix City / 98575144 | [前100](https://zkillboard.com/api/stats/corporationID/98575144/kills/)，2026-10-12 | [已取得前56](https://zkillboard.com/corporation/98575144/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；2个明确对上当前列传 |
+| 48 | Zhuque squad / 98742946 | [前100](https://zkillboard.com/api/stats/corporationID/98742946/kills/)，2026-10-12 | [已取得前100](https://zkillboard.com/corporation/98742946/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：1,8,42；连续范围待验收 | 100个名字已对照；4个明确对上当前列传 |
 | 49 | Black.King.Bar / 98599315 | [前100](https://zkillboard.com/api/stats/corporationID/98599315/kills/)，2026-10-12 | [已取得前74](https://zkillboard.com/corporation/98599315/top/year/2026/month/9/)，系统Chrome缓存 | 零散人物素材已复用；连续范围未登记 | 100个名字已对照；1个明确对上当前列传 |
-| 50 | Dam Scientific Research / 98606029 | [前100](https://zkillboard.com/api/stats/corporationID/98606029/kills/)，2026-10-12 | [已取得前77](https://zkillboard.com/corporation/98606029/top/year/2026/month/9/)，系统Chrome缓存 | 有名片记录：15；连续范围待验收 | 100个名字已对照；0个明确对上当前列传 |
+| 50 | Dam Scientific Research / 98606029 | [前100](https://zkillboard.com/api/stats/corporationID/98606029/kills/)，2026-10-12 | [已取得前77](https://zkillboard.com/corporation/98606029/top/year/2026/month/9/)，系统Chrome缓存 | [前20已核读](#aocal第11至20名与牧星评论入文2026-10-17)；夜灵成文，天堂角落双号；续21—30 | 100个名字已对照；0个明确对上当前列传 |
 ## 本轮已吸收的故事与同人号
 
 - **黑山羊、小白菜**：已凭指挥依据收录；导演、默、奈何后因仅有参赛／战果退回线索，旧取得记录保留，不再记为当前收录。Thunder ebon已补同场ATXXI经历与互链。
@@ -141,7 +141,7 @@ AOM历史人物先沿[2021年9月前100固定名单](aom-monthly-2021-09.md)核�
 | Zack Raines / 2113144878 | 后天 | 伏羲第7；本人头衔“后天”、简介空；不把其他帖子中的普通时间词当本人。 |
 | SamNeko / 2117340398 | SamNeko | 伏羲第9；头衔同角色名、简介空；身份待查。 |
 
-星尘前十的剑穿天下、3V、911、那年、QY、逐风、楠哥、丁大炮已有[逐人入口](sg-cn-fc-followup-2026-10-12.md)，后续剑穿天下已凭具体Monitor记录立传；丁大炮已核本人BR，现退回线索，3V、911、那年、QY、逐风、楠哥仍缺个人事件。Family Guy前十旧调查见[糯米线索](cyan-nomi.md)。
+星尘前十的剑穿天下、3V、911、那年、QY、逐风、楠哥、丁大炮已有[逐人入口](sg-cn-fc-followup-2026-10-12.md)，后续剑穿天下已凭具体Monitor记录立传；丁大炮已核本人BR，现退回线索，3V、911、那年、QY、逐风、楠哥仍缺个人事件。Family Guy前十旧调查见[Cyan nomi素材](../../src/people/cyan-nomi/materials-cyan-nomi.md)。
 
 ## 剩余覆盖缺口
 
@@ -711,12 +711,12 @@ chitian xiao当前头衔、团籍已经补到，旧待核项撤销。其长文�
 | 46 | julian sakurala／2114977219 | 头衔“Julian”；Julian，当前伏羲，简介符号，中文身份／故事待核 |
 | 47 | Kuro Saky／95460018 | 头衔“望天-牧星7班-初级-猪猪”；望天／牧星7班初级猪猪，当前98807608，自写赤石与毛子投送，具体角色／事件待核 |
 | 48 | fangfeiziwo／2115161526 | 头衔“放飞自我”；放飞自我，当前The Skies Descend，简介自记首次PVP与元帅／无畏战果，实际参与待核 |
-| 49 | priset s／2115571665 | 头衔“神父  七国至尊   垃圾白给王”；神父，公开保护费报价及威胁条款写短传；3V舱收藏的攻击者另为Yen Dunier，未有同人桥，不当本人战果 |
+| 49 | priset s／2115571665 | 头衔“神父  七国至尊   垃圾白给王”；神父，保护费报价不足独立立传，已转回[个人线索](priset-s.md)；3V舱收藏的攻击者另为Yen Dunier，未有同人桥，不当本人战果 |
 | 50 | Marley Olacar／91715106 | 头衔“无”；无头衔、当前退团，简介字符画，只记存在，不评价人物经历 |
 
 小蔡为Nyarlathotep Caos（95664556）、XiaoCaibucai（2119546166），同中文头衔且同当前星尘；败丶泪为Bryen Hummer（2113583390）、Jyhh（2113211269），同个性头衔、同当前The Skies Descend，归各自一人。名字与当前团籍用于身份对应，不由共享资料认岗位。
 1126 Ljw Saken（2116264881）近1125 Ljw Saken词根与编号，同当前星尘，直接归天空纸条；其头衔noraus不覆盖这条角色近名／团籍链，也不是N老板身份桥。GA逍遥、折纸、纸条按已有角色ID归档。
-神父[公开保护费方案](../../src/people/priset-s/materials-priset-s.md)已归本人素材并写短传；名片所挂3V舱KM不是本号参与，未凭收藏追加袭击故事。未核实成交、收费或执行，正文只写公开价目与条件。
+神父[公开保护费方案与补查](priset-s.md)已转回个人线索：价目表的原作者与实际执行未明，综合KB及A1-AUH参战已补，仍缺独立人物事件或职责依据。名片所挂3V舱KM不是本号参与，不凭收藏追加袭击故事。
 
 ## 瑶光前50头衔增量（2026-10-14）
 
@@ -1080,7 +1080,7 @@ Hsleep（2121353014）公开头衔“小特”，当前Stars Corporate Group（9
 赤翼新增R virushuan（2115884297）、V virushuan（2115979807）：同virus词根、同赤翼中文头衔同BOP，V本人写“赤翼小号”，与已有virustao wang／R virustao归同一人，见[本人素材](../../src/people/virustao-wang/materials-virustao-wang.md)。九月为JYDSYHYL（2114753808）、JYDSY（2114852283）、YL JYDSY（2114852301），同独特词根、中文头衔同BOP归三号；三江sanjiang（2115800495）、sanjiang A（2117471417）同词根、中文头衔同团归双号。血肉苦弱Fatemoon2001（2119818368）、Fatemoon2004（2120149665）同词根、中文头衔同当前D.OK归双号；简介另挂Fatemoon01的神示，先留关系线索，不直接认其全部操作或战果。
 饭团团Fan Tuan Tuan（2118880203）、Sun Xing Zhe（2119388568）同中文头衔同BOP归双号；银龙Argyrosaurus（2116484411）、Graceful Lion（2122257758）同中文头衔同团，简介又有同一新人邀请链接，归双号；龙渊Yog-Sothoth Tsasa（2114203575）、Deep-blue Andomer（2113227269）同中文头衔同BOP归双号；飞翔Feixiang Audene（2113686565）、DUDUvDUDu（2116306763）同中文头衔同团归双号。总览、矿表、频道、交易入口与现成诗文不补足独立列传门槛，各组实际事务或人物故事继续沿本队列。
 
-Stone Xiao（2114820480）公开头衔“泡泡很忙”、同当前PLA，与[XXXHolic-TK X／dawnstar091 XX组](kongli.md#泡泡很忙同人号)归同人，不并给空离；仅保存中文称呼，去掉头衔中的联系方式。当前角色对应不倒推每个小号的历史职务。怡红院Yihongyuan（2115480135）名片写“带头造反／参谋长”，保留为职责优先候选；没有具体造反事件或实际参谋事务，不能把绰号扩写成政变或指挥实绩。
+Stone Xiao（2114820480）公开头衔“泡泡很忙”、同当前PLA，与[XXXHolic-TK X／dawnstar091 XX组](../../src/people/kongli/materials-kongli.md#泡泡很忙同人号)归同人，不并给空离；仅保存中文称呼，去掉头衔中的联系方式。当前角色对应不倒推每个小号的历史职务。怡红院Yihongyuan（2115480135）名片写“带头造反／参谋长”，保留为职责优先候选；没有具体造反事件或实际参谋事务，不能把绰号扩写成政变或指挥实绩。
 苹二、赤翼、木木三、天籁复用已有角色、职务与故事；程正果、星痕、催命、其余战果墙候选仍按原门槛保留线索，不把普通失舰或小事重新包装成立传理由。实习舰长Trainee Captain与TC／TweakCuke没有同人桥，不仅凭英文缩写并人。
 
 ## Fox前50头衔增量（2026-10-15）
@@ -1235,7 +1235,7 @@ Stone Xiao（2114820480）公开头衔“泡泡很忙”、同当前PLA，与[XX
 | 11 | Khossion Siha Davaham／2124253445 | 头衔“云苼”；云苼；简介空，待职责／故事 |
 | 12 | E x-calibur／2115747228 | 头衔“咖喱棒”；咖喱棒；Via Breir Arsten头衔EX咖喱棒同团，归同人组；广播不认FC |
 | 13 | DrAndy／2123920625 | 头衔“安迪”；安迪；Andythebest近名同头衔同团归双号；首战KM本人普通参战、INIT那条无本号，不认FC，见下文 |
-| 14 | MSG-MashiMaro／2122590961 | 头衔“曲馨”；曲馨；技能／招新自嘲不认真实机制、实际管理或独立事件 |
+| 14 | MSG-MashiMaro／2122590961 | 头衔“曲馨”；曲馨；技能／招新自嘲不认真实机制、实际管理或独立事件。2026-10-16 B站扫描：本人UP“MSG-Mashimaro曲馨”（UID 489315235），约59条，欧服新手教程系列至第16期、扫描与种菜教学、红楼军团短剧与《红楼战歌》，签名为欧服招新群；持续创作可另评立传，见[B站名单](../bilibili-uploaders.md#候选与线索) |
 | 15 | tuhu zhang／2118494341 | 头衔“肉师傅”；肉师傅；工具、怪抗与远征笔记不认原创教学 |
 | 16 | Isendra／2123652500 | 头衔“字母”；字母；简介空，待职责／故事 |
 | 17 | gkl Olerie／2116772236 | 头衔“无冥”；无冥；gkl asd同词根同中文头衔同团归双号 |
@@ -1277,3 +1277,1110 @@ Stone Xiao（2114820480）公开头衔“泡泡很忙”、同当前PLA，与[XX
 安迪[首战原始KM](https://esi.evetech.net/latest/killmails/132145198/532b027f3c1ac97c2d424163f9bcb58878610c4a/)为2025-12-24T16:11:48Z，本人驾驶17713、取得最后一击；受害者194996051、船12005。[OPS INIT WWW原始KM](https://esi.evetech.net/latest/killmails/136192705/d19e4ee8384eade7c8e32dfc169bb0822c9fa77c/)为2026-06-11T19:28:27Z，受害者2119338678、船11995，无DrAndy本号；未从收藏认FC或猜同人。另两条OPS及其他收藏未核，群友普通嘴仗也不单独立传。
 台风材料提红楼“小丧尸”低价回收物资，当前Komatsuu Nana 02头衔丧尸、同红楼，角色创建早于该2026年叙事，留关联线索；不将一般低价收购升级为骗局。来源沿[台风素材](../../src/people/domityphoon/materials-domityphoon.md)，具体价格／交易方式／影响待补。
 军团联盟历史已取；DOTLAN记DEMA 119于2025-02-10传位Dema1、Dema1于2025-04-05传位老许（2025-03-19入团）。2024年r/Eve评论所述DC红楼bot指控早于老许入团，不归老许；当时CEO为创建者DEMA 119，已归德玛任内。2022年表第76行同名HongLou、标RR；联盟转换日期已留素材，历史表实体判定暂不改，下一步先核这份表的截点与联盟记录口径，不回推全年归属。
+
+## PLA Fleet前50头衔增量（2026-10-15）
+
+历史榜前1—50逐份核读，49份完整名片成功，第37名Lotus Lee为ESI404，继续保留头衔／简介缺口。本次复用已取得的名片，不把取得缓存写成当日重新请求。来源为[ESI公开角色名片](https://esi.evetech.net/latest/characters/2114969276/)，历史榜仍限原军团范围；未读影像／字幕／音轨。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 1 | Jason Yusi／2114969276 | 已归青春，B站／YouTube及刷怪演示入口沿本人素材复用 |
+| 2 | Horizon Agera／2114000295 | 头衔简介空；当前非PLA Fleet，待社区称呼与故事 |
+| 3 | Chirs QY／2113882657 | 无头衔，三条冥府与科莫多等战果收藏；未核本人参与，不凭收藏立传 |
+| 4 | ALL the ofline／2114004640 | 无头衔，马克瑞战果及共享总览，不凭共享设置归小圆脸 |
+| 5 | Beverly HillFolk／92995625 | 伦敦哥；当前Arknights.，自挂多条普通船损并自嘲昂贵生产船，待独立事件 |
+| 6 | MoYan JueYin／2114839704 | 头衔简介空；已离开玩家军团，不仅凭MoYan近名归魔焱 |
+| 7 | Arianrhod Levi／94951545 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 8 | Laferrari BY／2113908175 | 头衔简介空；当前Curse of Angels，待故事／职责 |
+| 9 | Austin Tagelian／2114865948 | 复用旧名片，头衔“描述”、简介空，待故事／职责 |
+| 10 | hisen／2113692343 | 无头衔，仅物品与空间站入口，待故事／职责 |
+| 11 | EVANGELION AT／2114600788 | 无头衔，杜甫《赠卫八处士》与总览，不认本人原创 |
+| 12 | TOGG Hilitari／2114484257 | 头衔简介空；待故事／职责 |
+| 13 | One-act Play／2114152328 | 头衔简介空；当前Curse of Angels，待故事／职责 |
+| 14 | Assassinrose lee／2114597913 | 凌沙；当前CACX，CCP／GM战果收藏与格言，不认本人参与／指挥 |
+| 15 | Anakin Force／94192328 | 帝国隐秘部队；复用旧名片，物品链接不认实际驾驶 |
+| 16 | Cutthroat Kate／1568668285 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 17 | DarkElf Ghost／2112089535 | 无头衔，旧PLA招募及总览；复制团方广告不自动认招新管理 |
+| 18 | EternalStarsea／96174116 | 永恒星海；当前PLA，稀有船物品入口，不凭近名并海哥哥等人 |
+| 19 | fisher -A／2113894826 | 无头衔，绝地海盗改诗、无人机克制笔记及邀请，不凭个人文案立传 |
+| 20 | Cocle／2113870230 | 延卿；当前PLA Fleet，共享卫队总览与广播，待实际职责 |
+| 21 | Razor Jaxx／945883645 | 极端荣耀；当前PLA Fleet，兔子卫队30人本招新承诺；名号与已有PLA Fleet CEO归属相合归荣耀 |
+| 22 | hlen／2113717276 | 白凝；当前Dawn's LightP，复仇名单与矿队／角色线索；未有具体行为后果，待事件 |
+| 23 | Lv223／2113228175 | Fu1crum；已对应收录人物，Rooks and Kings作品分享不认本人作者 |
+| 24 | Sakura WU／2114600094 | 老鹰；朱雀登记CEO同头衔号互链本号、现有玄武朱雀人物关系相合，归老鹰；自述入侵后勤指挥已入文 |
+| 25 | Kingkill Edin／2113180741 | 赐客；当前Golden Fleece，文艺句子与字画，不凭此立传 |
+| 26 | Lydia Y Cooper／2113932111 | 星葉樱怜；当前PLA，首杀／最贵KM收藏，待独立故事／职责 |
+| 27 | Carnagie／668678329 | 阿P哥；当前PLA，简介“加达里海军空代”，普通代刷广告未核履约 |
+| 28 | feather Sun／92837498 | 无头衔，简介“He is a good man.”，无独立事件 |
+| 29 | QingFeng Dallocort／2114854584 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 30 | Cn Oramara／2114280606 | 暗；当前King For Crazy，简介空，待职责／故事 |
+| 31 | yiming zhang／2114621067 | 小猫咪；当前N A T O，RR总览，不据通用外号并人 |
+| 32 | TomX fuweijie Hybwdl510／2114569706 | 汤木木；当前PLA，分享国服搬来的总览，不认本人原创 |
+| 33 | Choi Roamer／91582475 | 小恶魔；当前昆仑，2014—2018战果收藏与频道，未核本人参与 |
+| 34 | ColorTea6666 Evingod／2114644913 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 35 | New Explorer／95239349 | 无头衔，EVE University声望文档入口，不认本人作者 |
+| 36 | Alan Amon／2114577125 | 无头衔，共享总览与频道，不认本人指挥 |
+| 37 | Lotus Lee／2114708150 | ESI404，头衔与简介缺口；不将失败当空简介 |
+| 38 | Samean／936393057 | 头衔简介空；当前PLA Heavenly Host，待故事／职责 |
+| 39 | Orthogonal Olacar／95156618 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 40 | gogostar daydayup／2113606391 | 无头衔，KM收藏与总览；不认全部本人参与或指挥 |
+| 41 | Doub1egy／96597483 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 42 | Abot／2114460361 | 阿爆特；当前PLA，简介“12345 上山打老虎”，普通文案 |
+| 43 | M Big／92632304 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 44 | saber follower／2114858801 | 群星；当前PLA，简介空，待职责／故事 |
+| 45 | Dachui Li／2114116972 | 头衔简介空；已离开玩家军团，待故事／职责 |
+| 46 | Dark Tina／96822153 | 千秋的鱼；当前采星者，简介空，不凭常见千秋称呼并人 |
+| 47 | ftw Wessette／2113278955 | 无头衔，仅一串数字，无独立事件 |
+| 48 | longmeng zeng／2114982763 | 无头衔，配装、PLA Associates军团链接与本人促进损失，不认所属组织管理或同人 |
+| 49 | Photon Particle／2115087351 | 落叶琉璃；当前Interstellar Rosefinch，简介空，待故事／职责 |
+| 50 | Assassin Specter／2114639075 | 鲁提辖；当前神农，PLA总览与战果收藏，不认FC或本人全部参与 |
+
+老鹰的Sakura WU（2114600094）、朱雀登记CEO／创建号ZQ-EAgle-ADMIN（2121322329）同为“老鹰”头衔；后者简介直接列Sakura WU为CEO，团方简介同样具名，结合既有玄武—朱雀社区叙事并回[老鹰素材](../../src/people/lao-ying/materials-lao-ying.md)。入侵后勤指挥自述已补正文；教学链接只留入口，未读影像或字幕，不作作品精选。Razor Jaxx头衔极端荣耀，当前PLA Fleet，与已有PLA Fleet CEO归属相合，归[荣耀素材](../../src/people/silvitni/materials-silvitni.md)，不另立传。
+
+## 图万神殿前50头衔增量（2026-10-15）
+
+历史榜前1—50完整头衔／简介已核读；舵主复用旧ESI名片，LK另补ESI完整名片，不用只有军团履历的构建快照充当简介。本次复用已取得的名片，不把取得缓存写成当日重新请求。来源为[ESI公开角色名片](https://esi.evetech.net/latest/characters/91254848/)，历史榜仍限原军团范围；未读影像／字幕／音轨。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 1 | fliet99／91254848 | 舵主；复用伏羲完整ESI名片，fliet100同词根同团归本人，已补alias |
+| 2 | Hieda Humio／2114849159 | 剑仙；猎獒／诱导自嘲与仿技能文案，不认实际指挥；six small monkey自述卖号另留操作者边界 |
+| 3 | Davian Loyalar／202442262 | 表哥；古制官衔、猎獒与旗舰KM收藏，未核指挥；“会战视角”为总览预设 |
+| 4 | fliet100／2112611896 | 舵主；与fliet99同词根同团、中文头衔相合归小号；D-Scan及普通KM收藏 |
+| 5 | LIZARD K／983162808 | LK；ESI完整名片另核，复用既有列传，不将游戏数据快照当简介 |
+| 6 | NiZhenDeHenPi／2113957965 | 小二／手真红；官员物品与剑仙／表哥角色链接，不凭互链认同人 |
+| 7 | Stella Helena／96685477 | amj；黑手大将军等古制头衔与RIP Aura文案，待具体职责／故事 |
+| 8 | cy Aivoras／2116273864 | 逍遥；当前红楼，简介字画，不据常见称呼并人 |
+| 9 | vanzz Nolm／2113181164 | 丸子；与vanzo Kuha同van词根、中文头衔同团归双号；植入体／旗舰收藏 |
+| 10 | pr yl／2116053187 | 夏未繁；与Alice Aloisia同中文头衔同PLA归双号；诗句不认原创 |
+| 11 | vanzo Kuha／2112538158 | 丸子／打捞员；归vanzz Nolm双号，古制官衔与战果物品收藏 |
+| 12 | S ktial／2114183149 | 星渊；与Rage Bear同中文头衔同团归双号；古制大将军与共享总览不补实际指挥 |
+| 13 | Zzz Wolf／90265839 | 黑妹；与Evergreentree同头衔同团、同《道德经》排版归双号 |
+| 14 | more 9888／1231727668 | 九八；与Horizon 01同中文头衔同团归双号；OSY大将军等戏称不认FC |
+| 15 | GoodBread／2120840885 | 面包；古制官衔、文学句子及神使收藏，不凭收藏立传 |
+| 16 | springcao／96742773 | 曹操；与spring live同词根同头衔同团归双号；现成粗俗文案不认真实经历 |
+| 17 | Kashiwagi Yuki／2114339519 | Yuki；与Yilian Mengbi同头衔同团归双号；运输／战果收藏与价格网站 |
+| 18 | maaple／2114702652 | 红叶／红老板；自称OSY倒卖LP商人及被跳货风筝，待具体事件；与红叶酒馆Red-Leaf分开 |
+| 19 | Guo Andy／91875038 | 安迪；古制官衔与地点笔记，不与红楼安迪仅凭昵称并人 |
+| 20 | six small monkey／2114896218 | 剑仙；四语自述“此号已卖，恩怨两清”，旧操作者／转让时点待核，不将本号历史自动并给现役Hieda Humio |
+| 21 | doubao FF／2114834361 | 豆包；与heidou FF同FF词根同中文头衔同团归双号；估价／报点工具入口 |
+| 22 | sven lestart／91599501 | 茅台；公开自称OSY超旗队首席指挥，按FC收录短篇；非古制官衔推断 |
+| 23 | Alisa zZ／2114870011 | 佩奇；古制官衔、天鹤与普通KM收藏，期货书名不认现实职业 |
+| 24 | Setsuna W／2114538901 | KK；古制参知政事称号、简介空，具体职责待查 |
+| 25 | Rubioh／1003998291 | 电磁炮；与Harlon Smart同头衔同团、重合泰坦／超旗收藏归双号 |
+| 26 | yaxiu haines／2115600469 | 雅修；古制官衔、简介空，实际职责待查 |
+| 27 | Morita Naoki／2118115002 | 米拉；当前红楼，仿技能介绍与利维坦加成玩笑，不认实际驾驶或独立事件 |
+| 28 | 88 1／91976031 | 881；古制官衔、简介空，实际职责待查 |
+| 29 | Rage Bear／92361506 | 星渊；归S ktial双号，虫洞祷文与WiNGSPAN文案不认本人原创／独立事件 |
+| 30 | Zeifutiy Chou／96650763 | 紫冰；多语求放过与古制官衔，不作独立事件 |
+| 31 | Konor alt／2116648588 | 康纳；太子与都督等古制头衔、简介空，实际指挥待查 |
+| 32 | Chris JM／2114897355 | 错觉；古制官衔与字画，待职责／故事 |
+| 33 | Alice Aloisia／2115265476 | 夏未繁；归pr yl双号，同头衔同PLA，简介空 |
+| 34 | spring live／93767683 | 曹操；归springcao双号，文学排版，不认本人原创 |
+| 35 | INGO DK／2115203346 | 无头衔；当前Zhuan Zhuan 2nd Hand，葫芦娃文案不作独立故事 |
+| 36 | LiuFeng OF／2112879416 | 流风；古制官衔及星际总览，待具体职责／故事 |
+| 37 | FleetBeacon／2116000457 | 航标；Top5 Pods战果收藏，不凭收藏认独立故事 |
+| 38 | Preston - Cole／2113430461 | 科尔；古制官衔、简介空，不凭近音认荣耀公告中的“科尔斯” |
+| 39 | Evergreentree／458142350 | 黑妹；归Zzz Wolf双号，同头衔同团及同文案 |
+| 40 | jinpengFTD／2115703459 | 金鹏；古制官衔与虫洞识别、洞口编号笔记，不认原创教学或真实指挥职务 |
+| 41 | heidou FF／2116559586 | 豆包；归doubao FF双号，同FF词根同头衔同团，简介空 |
+| 42 | veg soup won／2113495989 | 汤达人；古制官衔、共享总览、混乱任务无人机笔记与恶狼收藏，不认FC |
+| 43 | Horizon 01／295922774 | 九八；归more 9888双号，同中文头衔同团，字画 |
+| 44 | Yilian Mengbi／96827618 | Yuki；归Kashiwagi Yuki双号，同头衔同团，角色与合同收藏不另认同人 |
+| 45 | LiveviL VoloV／2113345801 | LV；古制官衔、简介空，实际职责待查 |
+| 46 | ShadowMurloc13 Oasis／2114326770 | 十三；移动牵引／黑手自嘲与古制官衔，仅他人角色入口 |
+| 47 | Caldari TT-Phoenix／2116211529 | 祝余；古制官衔、字符画与Blood Sotiyo收藏，未核本人参与 |
+| 48 | SnowHydra／351590083 | 小鱼；爱PVP文案、字画、普通粗口战果签名与共享总览，不单凭这些立传／标低素质 |
+| 49 | Harlon Smart／2116326010 | 电磁炮；归Rubioh双号，同头衔同团、重合旗舰收藏 |
+| 50 | PANDA WSJ／2114851152 | 熊猫；简介空，待职责／独立事件 |
+
+[茅台素材](../../src/people/sven-lestart/materials-sven-lestart.md)有直接FC自称，已写短篇；其余只有古制官衔者继续补实际事务，不能整批认管理。剑仙的已卖号声明独留操作者边界；OSY红叶不与红叶酒馆合并。金鹏的虫洞入门笔记保留识别信号、先存出口、洞口编号、J空间等级与查询入口等内容，但未据转载笔记认原创作者，后续先追社区教学与互动。
+
+本次认号补查另用3次ESI（朱雀公司、登记CEO、LK完整名片），公开检索3组（茅台精确名、OSY中文称呼、Sakura WU与老鹰）；未重新请求旧榜单。新人物快照由正式fetch脚本取得。下一批Chi Gua先核历史榜前十，沿已有名片缓存复用，首批至多10人，ESI及必要身份补查上限30请求；有具体社区入口再转入故事调查。
+
+## 吃瓜前十头衔增量（2026-10-15）
+
+历史榜第1—10完整名片已核读，本批新增10次ESI角色请求，均为当前Chi Gua；无影像／字幕／音轨。名片来源为[ESI](https://esi.evetech.net/latest/characters/2112554347/)。后续第11—50已核读，覆盖见下表；本段仍只记前十的当批取材。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 1 | jian PD／2112554347 | 批地 MAIN；头衔对应中文称呼，简介空，职责／独立故事待查 |
+| 2 | Rebirth EVE／93209504 | 左手 MAIN；归已有列传，普通自嘲不另造事件 |
+| 3 | Lvte Xiao／2112612580 | 小绿特 MAIN；复用既有FC与战役素材，另号Heite Xiao并回本人 |
+| 4 | Nine -L／2115444624 | 老九 MAIN；复用已有CEO列传，字符画不另认原创 |
+| 5 | Mikoyan Anzomi／2113483168 | 铭 MAIN；仅常规禁言已退回[本人线索](mikoyan-anzomi.md)，文学歌词不认本人原创 |
+| 6 | Ame Hana／2113227611 | 伊枫 MAIN；简介空，实际职责／故事待查 |
+| 7 | heisemaoyi／2115189845 | 小辉 MAIN；简介空，实际职责／故事待查 |
+| 8 | a chen／2113894712 | 阿晨 MAIN；改写五德的粗俗现成文案不作独立人物事件，不采其中涉及未成年人的性文案 |
+| 9 | Heite Xiao／2122946394 | 小绿特 ALT；Heite／Lvte Xiao近形同Xiao词根、同中文名同团及MAIN／ALT对应，归小绿特 |
+| 10 | HunShang Si／2113622756 | 四魂 MAIN；突变质体合同网站入口，不认本人经营者或实际交易履约 |
+
+小绿特Heite Xiao已补[本人素材](../../src/people/lvte-xiao/materials-lvte-xiao.md)与aliases，不相加两号历史KB。批地、伊枫、小辉、阿晨、四魂目前只有中文称呼及普通简介，先沿团内公开职责／社区点名补故事，不能拿MAIN字样认重要管理。后续第11—30名已在同一首批30请求上限内推进，第31—50已续读，见下文；不重新抓前十成功名片。
+
+### 吃瓜第11—30名增量
+
+第11—30完整名片已读，复用波波一份2026-10-14名片，新增19次ESI；与前十合计29次角色请求，仍在首批30上限内。历史榜第1—30在该批连续核读完成；后续31—50见下文。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 11 | Alice Shinki／2112816779 | 艾荔丝 MAIN；简介符号，实际职责／独立故事待查 |
+| 12 | 0204 USB／94040366 | 喵爷 MAIN；简介点Sazzina Seii、Jango D、MCMC的游戏内“sons”文案不认真实亲属或小号；根号三第69楼点名邀请进虫洞，见下文 |
+| 13 | yyyyy Keikira／2113650154 | 老五；字画与普通挑衅文案，待实际职责／独立故事 |
+| 14 | peter li peter／2113450798 | 污龟 MAIN；归已有列传，简介空，不抹去旧素材 |
+| 15 | FACT IN／2113515731 | 飞袖李 MAIN；归已有FACT IN列传，简介空，不混另一位污龟 |
+| 16 | Turtle Extraordinaire／825838921 | 三龟 MAIN；二进制“you are dumb”、多语求放过、字画与距离／抗性笔记，不与污龟只凭龟字并人 |
+| 17 | IarchangelI Michael／2114277716 | 波波 MAIN；复用AOM前50名片，当前吃瓜，总览／广播及大航PVE预设不认原创作者或FC |
+| 18 | Lillte Roomate／2113625619 | 无头衔，已离开玩家军团，简介RUA，不认同人或独立事件 |
+| 19 | xiaolang C／2113788641 | 小狼 ALT；简介空；不与当前图万、头衔果喵的xiaolang SM仅凭词根并人，待同组织／历史依据 |
+| 20 | FtheMAG／2116286692 | 四维 MAIN；简介空，待职责／故事 |
+| 21 | xiaolang SM／2113421652 | 果喵；当前图万，古制官衔与朱庇特星域超旗KB等收藏；未核本人参与，不凭收藏立传 |
+| 22 | DennisDDT／2113018076 | QQT ALT；同Dennis词根、同团及MAIN／ALT标记，亦合旧QQT&DDT名牌，归QQT并补alias |
+| 23 | CHU SKY-JU／2113971426 | 天拒 MAIN；简介空，待职责／故事 |
+| 24 | Maria Taylor／2114299824 | 无头衔，当前98664770，简介空，待社区称呼／故事 |
+| 25 | MCMC／2114417578 | 无头衔，当前98749004；简介“have fun and enjoy the game”，喵爷提及不证明其小号 |
+| 26 | Zigeng Z／2113731408 | 子根；已有列传，本次无头衔／简介，旧独立故事保留 |
+| 27 | superparafans／2113622650 | 苏苏 MAIN；多语求放过、总览及Azariel收藏，未核本人参与，不凭收藏立传 |
+| 28 | Amethyst Shock／2115496754 | 原姐姐；已有列传，自署原礼辛及字画，不认字画原创 |
+| 29 | NGEX5／2122012874 | 小寄寄 ALT；萌新击杀收藏、本人灵感损失与广播，先找主号，不凭小号字样造归属 |
+| 30 | Eve Crystick／96762349 | 泡芙 MAIN；仅233数字文案；不与DC泡芙解说只凭同外号并人，待作者／组织桥 |
+
+喵爷／0204 USB的[根号三回忆录第69楼](https://tieba.baidu.com/p/7173850192)已复用缓存核读主楼与两条可见楼中楼：根号三说，先有路小兔提出资助他打FRT、N老板邀请，随后“追杀我的子根等人联系我0204 USB直接邀请同他们一起进洞，我同样拒绝了”。这段定位了邀请者的精确角色和虫洞交集，但只有一次被婉拒的招揽，未交代0204 USB的职务、具体行动后果或其本人更完整的故事；保留入口，不把根号三的成长史移成喵爷经历。简介里的MCMC等被点名者也不由这句话归本人小号。整帖尚有楼中楼计数缺口，本次不声称又完整复读全帖。
+
+DennisDDT已归[QQT素材](../../src/people/dennisqqt/materials-dennisqqt.md)，共享广播单句粗口不新增低素质标签。xiaolang C与xiaolang SM当前不同军团、中文头衔不同；暂保留组织与操作者桥，不为凑同人将“小狼”与“果喵”强并。NGEX5小寄寄只明确ALT，主号继续从后续名片找；泡芙不只凭同名归DC作品作者。后续第31—50已续读，见下文；不重抓前30成功名片。
+
+本轮续查范围：吃瓜历史第31—50、咸鱼历史第1—10，逐批不超过10人；缺失名片与必要身份补查合计上限30请求，复用成功缓存。明确职责／故事再展开，不跑人人船型统计，不读影像／字幕／音轨。
+
+### 吃瓜第31至50名增量
+
+第31—50完整头衔／简介已核读，新增20次ESI角色请求；本团历史榜前50连续核读完成，不等于九月月榜前50或所有人的故事调查完成。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 31 | tence Agnon／2114330319 | 璀璨恒星 MAIN；简介空，实际职责／独立故事待查 |
+| 32 | Tae yeonSS／2114322832 | 血誓 MAIN；共享会战／旗舰总览及远征频道，不凭铭的配置名并本人或认FC |
+| 33 | Oh Dragon／2112135986 | 无头衔，当前98799911，现成励志文案不认独立事件 |
+| 34 | TARI TI／2113072891 | TI MAIN；简介空，实际职责／独立故事待查 |
+| 35 | Vilin Ray Wang／2122776663 | 夜火 MAIN；抗性笔记、稀有船物品与凤凰收藏，不认实际驾驶／原创教学 |
+| 36 | clannad GU／94941521 | 游侠；当前CACX，简介“I was there.”，未点事件，待独立故事／职责 |
+| 37 | Billions Gate／96851001 | 无头衔，已离开玩家军团，反复角色名文案，不认独立事件 |
+| 38 | man in rainy／2122601948 | 半岛铁盒 MAIN；[本人线索](man-in-rainy.md)已对应UP半导你铁盒是也／488303483，飞行地板两作文字及访谈致谢已读；普通互动暂留线索，独立故事／职责与空间排序待补 |
+| 39 | huile chuan／94881773 | 无头衔；已离开玩家军团，战果收藏及普通文案，未核本人参与 |
+| 40 | Little Roomie／2113643777 | 老姚 ALT；与Lillte Roomate近形Room词根、同RUA简介、同吃瓜历史榜归双号；不凭ALT猜其他主号 |
+| 41 | Kenny Zhu／2113260461 | 肯尼 MAIN；简介“筚路蓝缕，以启山林”，待实际职责／故事 |
+| 42 | Aston Aubaris／2113092518 | 阿斯顿 MAIN；简介空，待实际职责／故事 |
+| 43 | Final Warning／2123431283 | 海草 MAIN；远征层次／目标笔记与战果收藏；不与宝宝巴士海草海草／涅磐萝卜仅凭常见外号并人 |
+| 44 | Zeroouf Sky／2113503617 | 左手代驾西瓜账号；只支持左手操作过的西瓜账号，号主／代驾时段分开，不加左手本人小号alias |
+| 45 | wg003 Oksaras／2115255669 | 无头衔，已离开玩家军团，简介空，待故事／职责 |
+| 46 | Snow without return／2122086755 | 蛇皮 MAIN；复用芙水之乱名牌对应，总览／攻略汇集与收藏不补足具体人物事件 |
+| 47 | Mamimami Hong／2115618196 | 干饭人1号 MAIN；文学句子与冥府、长须鲸、无畏等收藏，未核本人参与，不凭收藏立传 |
+| 48 | Starry QI／2113323827 | 无头衔，已离开玩家军团，共享总览，不认原创或FC |
+| 49 | Cygnus Rei／2123997791 | 天鹅 ALT；“很厉害的FC”实际是指向nextorian／Noraus的角色链接，不认天鹅本人FC；旗舰收藏待核 |
+| 50 | CuteCatttt／2122867833 | 鹊桥蜜柠 MAIN；本人简介主动贴直播间8857671，已留个人线索；UP UID／作品文字待读，不把直播间号当UID |
+
+天鹅Cygnus Rei的[ESI简介](https://esi.evetech.net/latest/characters/2123997791/)末尾“很厉害的FC”明确链接角色343563816，沿现有素材即nextorian／Noraus，已把这句他人泛评归[Noraus素材](../../src/people/noraus/materials-noraus.md)；不据此给天鹅套FC。鹊桥蜜柠的本人直播入口与尚未读的作品缺口归[个人线索](cute-catttt.md)，下一步沿确定入口读公开文字、核UID，不逐人搜外号。
+
+老姚双号Lillte Roomate／Little Roomie在同一吃瓜历史榜、近形Room词根且同RUA文案，直接归同人组；前者目前已离开玩家军团。Zeroouf Sky公开头衔明确“左手代驾西瓜账号”，支持左手操作关系，不证明账号属于左手，不将该号完整KB、历史军团或战役归给左手，也不称现时仍由其代驾。蛇皮已有芙水之乱身份对应，简介本轮无新的具体行为／事件；不将攻略收集升级为创作人故事。
+
+## 咸鱼前十头衔增量（2026-10-15）
+
+Salted Fish Inc／98640194历史榜第1—10完整名片已核读，新增10次ESI；本次续查与吃瓜余20名合计30次角色请求，预算用满，未追加个人KM、视频或直播请求。名片来源示例：[zhangke zhangke的ESI](https://esi.evetech.net/latest/characters/2114973381/)。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 1 | zhangke zhangke／2114973381 | kk／可可；与bad Kurvora、creams ice、Kamadainen Motsu同kk头衔同团归四号组；单人旗舰击杀自述与收藏待核 |
+| 2 | bad Kurvora／2115426565 | kk／可可；同四号组，远征KEY、矿石／月矿笔记与快递工具，不认重要管理／原创；成人文案不存原句 |
+| 3 | creams ice／2115230077 | kk／可可；同四号组，运输文档、月矿表与组织链接，不认本人经营／历史任职 |
+| 4 | BAPTISTHE／2112798173 | 文曲；简介空，实际职责／故事待查 |
+| 5 | Kamadainen Motsu／2118065734 | kk／可达鸭；同kk头衔同团归可可四号组；简介只有可达鸭，不造独立事件 |
+| 6 | Konruri／2122898695 | 琉璃；简介自列Konruri、RuriC17、Chihaya Ruri及BV19U4y1W7oo；后两号ID／组织待核，字符画不认本人原创 |
+| 7 | Artoria Neko／2115213993 | 无头衔；简介空，待中文称呼／职责／故事 |
+| 8 | Andrey Jell／93528076 | 茉莉茶；文学句子与字画，未见独立人物事件 |
+| 9 | Ustialod Aelin Adestur／2122626046 | 无头衔，已离开玩家军团，多条普通船战果收藏，未核本人参与 |
+| 10 | Suzutsuki SukiFoever／2117870060 | 涼／Shirokey；领奖励文案实际指向角色面板／退出游戏，另有稀有船与KM收藏；不凭简介整活立传 |
+
+kk／可可四号的同人链、玩法笔记与“单人旗舰击杀”三条待核入口归[同人线索](kk-salted-fish.md)，没有独立故事或职责依据时不只凭这些立传。琉璃简介自列三个名字，但未取得另外两号的ID／军团，保留系列名字与本人B站直链，下一步先在同团后续名片核对，再读确定链接的文字；未看影像／字幕。涼的“如何领取技能点”蓝字实际为打开角色面板、退出游戏等游戏内命令，不当真实领奖教程；“数字僭主”也是物品入口，不归成另一个现实玩家的同人关系。
+
+咸鱼历史第11—30已续读；登记CEO saber lv1在第13，任职已核并写短篇，见下文。前十名片与上述确定链接不重复抓取；已读但无故事者继续保留明确续查入口。
+
+本批继续咸鱼历史第11—30名片与登记CEO取材，逐批至多10人；缺失名片、公司／身份与新人物快照合计上限30请求，复用成功缓存，不重取前十。
+
+### 咸鱼第11至30名增量
+
+第11—30完整名片已核读，新增20次ESI；另1次公司请求核CEO，2组公开检索及1次巴哈姆特帖子读取。该帖HTTP403后停止该站。新人物快照由正式fetch脚本取得；未重抓前十、未读影像／字幕／音轨。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 11 | sabersama／2112963145 | 无头衔，简介空；与saber lv1、saberlv5同saber词根同团归CEO本人 |
+| 12 | Eugene Pax／2112812714 | 文曲；与BAPTISTHE同中文头衔同团归双号，简介空 |
+| 13 | saber lv1／2116737842 | saber；当前公司资料直接登记CEO，已按职责写短篇；不倒推2022任职 |
+| 14 | saberlv5／2115402029 | 无头衔，简介空；同saber词根同团归CEO本人 |
+| 15 | farm Niam／2116445913 | kk；与已读可可四号同头衔同团，归可可第5号，点状文案不认独立事件 |
+| 16 | Kagari Siina／2114263670 | KAG；起跳公式、测试服命令、虫洞工具与装配收藏，不认原创教学或本人实际驾驶稀有船 |
+| 17 | egdie668／2122418752 | 668；当前图万，简介o7，不凭数字外号认其他人物 |
+| 18 | DMITRIY ALEXEECH／91521415 | 黄瓜；价值观文案、估价／LP／虫洞／投送等工具汇集，不认工具经营者或原创教学 |
+| 19 | EVOL kamenrider／2115605949 | 无头衔；简介空，实际职责／独立故事待查 |
+| 20 | DAC OUCS／2115984872 | 龙井；总览与SFI.TEST 0.1预设，不从配置名认本人原创或管理 |
+| 21 | Nothing yy／2116296322 | 灰烬；简介空，实际职责／独立故事待查 |
+| 22 | kekeaai／2121012513 | kk；同中文／字母头衔同团归可可第6号，默认简介 |
+| 23 | tom ACL／2115824208 | 茉莉叉；与茉莉茶Andrey Jell近形称呼、同以吾之力以达天际文案及同字符画同团归双号；总览分享不认原创 |
+| 24 | savior770／2119112903 | 雨声；招呼文案与共享总览，不认独立事件 |
+| 25 | John Eunha／2120070385 | 银河；中文头衔及同义韩文签名，不认其他同名人物 |
+| 26 | TWXiaochen／2118239761 | 小陈；《八大人觉经》与CCP战果收藏，不认本人原创／现实宗教身份或指挥 |
+| 27 | MultithreadedGundam／2117088704 | 无头衔；共享MG总览、广播，不认本人作者或FC |
+| 28 | kuo kuo／2113160766 | 阔阔；复用已有列传与素材，冥府／超旗／长须鲸收藏不自动归全为本人参与 |
+| 29 | silence lyf／2119415693 | 无头衔；当前98777152，简介句点，待社区称呼／故事 |
+| 30 | Felix0433／2115371615 | 菲力锅；简介挂被骂及MTU收藏，普通嘴仗不作独立立传；未核上下文与损失后果 |
+
+[saber素材](../../src/people/saber-lv1/materials-saber-lv1.md)已留当前CEO、+8洞团与零税依据；sabersama／saberlv5归本人，同团saber lv7／saber lv8由本次公开检索的精确角色页补入aliases，不要求空简介再等独立事件。创建号另属2114222466，不将saber写成创团人，不由2026登记回填2022任期。巴哈姆特445招新帖只取得搜索标题，正文403、作者未核，不能与当前+8简介合成具体部署；旧团同名表行仍独留历史实体问题。
+
+kk／可可又增farm Niam（第15）、kekeaai（第22），同kk头衔同团归六号组，[同人素材](kk-salted-fish.md)已同步。文曲BAPTISTHE／Eugene Pax同中文头衔同团归双号；茉莉茶／茉莉叉称呼近形、同个人格言及字符画同团归双号。通用工具、经文、共享总览与普通聊天不当作独立人物事件；没有职责的人仍继续追社区故事。
+
+第31—50已续读，见下文；登记CEO已成文，后续名字系列先对照现有saber／可可／琉璃／文曲／茉莉组，不重复立传。
+
+本批续咸鱼历史第31—50及神农历史前十，逐批至多10人；复用成功缓存，缺失名片及必要身份补查上限30请求；具体职责／故事出现后再展开，未读影像／字幕／音轨。
+
+### 咸鱼第31至50名增量
+
+第31—50完整名片已读，新增20次ESI角色请求；本团历史前50连续核读完成。没有因此把所有成员的社区事件／职责调查标成完成。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 31 | liuyanchen／2121666666 | 无头衔；D哥哥Laelaps及无畏收藏，未核本人参与，不凭收藏立传 |
+| 32 | John Yuju／2120062095 | yinhe；John词根与John Eunha相合、同银河中英头衔同团归双号；默认简介 |
+| 33 | Hold Seven／2114562591 | 没所谓；与Soare、pike william同中文头衔同团归三号组；骷髅符号不认独立事件 |
+| 34 | pillow Ragnarok／2116439454 | 忽悠小强 ALT；当前晨曦98538918，铁壁／神使收藏，待主号及具体职责／故事 |
+| 35 | Soare／2112420212 | 没所谓；归Hold Seven／pike william三号组，简介空 |
+| 36 | LSY6666／2115484363 | 龙井；与DAC OUCS同中文头衔同团归双号；共享总览不认原创 |
+| 37 | liyzh6／94546501 | 杰罗姆；简介空，待职责／故事 |
+| 38 | PavilionCat／2121174844 | 亭台下的猫；格言与ISD战果收藏，不认本人参与或独立事件 |
+| 39 | Srota Buddhist／96338377 | 无头衔，当前98758033，简介短语，不认真实宗教身份或同人 |
+| 40 | YoungC／2118935955 | 波斯猫；共享火力／后勤广播，待职责／故事 |
+| 41 | Outoku Aihaken／2124070335 | kk；同kk头衔同团归可可第7号，默认简介 |
+| 42 | hwd twice／2115640874 | 无头衔；共享总览，待中文称呼／职责／故事 |
+| 43 | pike william／2115337691 | 没所谓；归Hold Seven／Soare三号组，简介空 |
+| 44 | nai qi／2115817969 | 奶老板；字画及游戏阵营粗口，不凭老板称呼认CEO／重要管理或独立事件 |
+| 45 | D RG／2114167607 | DR；普通船战果收藏、PVE与PVP自述及字画，不认指挥／独立事件 |
+| 46 | Nothing ash 4／2119949438 | 执念；默认简介，待职责／故事 |
+| 47 | Joy Darkblade／2118134505 | 乔；默认简介，不与同名乔跨团并人 |
+| 48 | Minmatar KIMI／91906830 | KIMI；简介空，待职责／故事 |
+| 49 | Love I／2118957975 | 羡慕；仿技能表的白给／超网／水群自嘲，不认实际超网经营、具体亏损或独立事件 |
+| 50 | kagerou sama／2122120239 | 无头衔，当前98828269，广播及总览，不认本人原创或重要管理 |
+
+可可第41名Outoku Aihaken同kk头衔同团归第七号，[个人素材](kk-salted-fish.md)已同步。银河John Eunha／John Yuju同John词根、银河中英头衔同团归双号；不与Fallingyinhe／坠落银河仅凭银河词并人。没所谓Hold Seven／Soare／pike william三号、龙井DAC OUCS／LSY6666双号均有同中文头衔同团依据。忽悠小强只明确ALT、当前晨曦，主号继续从其后续名片核；普通现成文案、字画与未核战果不替代独立事件。
+
+## 神农前十头衔增量（2026-10-15）
+
+历史第1—10完整名片已读，新增10次ESI，与咸鱼余20合计30次角色请求，预算用满，未追加视频、船型统计或全量KM请求。来源示例：[chouchou baby的ESI](https://esi.evetech.net/latest/characters/96355155/)。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 1 | chouchou baby／96355155 | 风筝；中俄格言、CCBB总览与《ai诺娃子N老板这么可爱》B站分享，不凭转贴认本人作者 |
+| 2 | undefined-moe-1／2121313190 | undefined／udf一郎；与undefined-moe同词根同中文自署同团归双号，4H／吉他96%回收广告已归个人线索，待重要职责／具体事件 |
+| 3 | bb play／2121093031 | 肉扣热热子；现成粗俗自勉文案不认独立人物事件 |
+| 4 | Fley Den／2113213717 | 乌鸦王；复用已有CEO／AT成员列传，赫尔与长须鲸收藏不另认本人参与 |
+| 5 | ZHU1SH1／2122125627 | 追施；一天泰坦／最速传说为头衔自吹，默认简介，不据此编具体获得泰坦事件 |
+| 6 | Yilinsensei／2123374083 | 卡缪维丹；问候与广播设置，不认FC或具体故事 |
+| 7 | undefined-moe／2118944158 | undefined／udf一郎；归undefined-moe-1双号，总览／弱抗与叠加惩罚笔记不认原创教学 |
+| 8 | LI JIE L／2114730784 | 李杰；总览、广播、工具与洛基／元帅收藏，未核本人参与，不认FC |
+| 9 | Kirin X Yato／2121510874 | 斯卡蒂；简介空，待职责／故事 |
+| 10 | innosD9c／2122617868 | 袖笼；已有列传；2024夜神梦、2025喜提泰坦自述及船链接角色ID2122654383将innosD8c归本人，已补alias和正文 |
+
+[undefined双号](undefined-moe.md)的回收地点、96%计价、一天接单与拒绝倾销条款已归档；目前只是回收业务宣传，不认重要经济管理或已兑现履约。风筝的BV1cT411a7rq标题《ai诺娃子N老板这么可爱》只为简介分享入口，UP归属未核，不能把收藏者认成作者；B站未读影像／字幕，也未因该链接加人物标签。
+
+[袖笼素材](../../src/people/innos-d9c/materials-innos-d9c.md)已补innosD8c：本号自述2025-04-01喜提勒维亚坦，船链接含角色2122654383，合既有同名小号ID；并回aliases、补两次大船心愿，不将船链接写成泰坦战损／指挥，也不把FallNight1纪念KM算本人航母。此前已认可的招新、考勤争议、创作和大战主线均保留。
+
+神农第11—40已续读，见下文；前十只完成名片与上述对应／入文，其他人的实际职责或独立故事继续查。
+
+本批续神农历史第11—40，逐批至多10人；复用成功缓存，缺失名片与必要身份补查合计上限30请求，不读影像／字幕／音轨。具体职责或故事出现后再展开，不把榜单完成当人物调查完成。
+
+### 神农第11至40名增量
+
+第11—40完整名片已核读，新增30次ESI角色请求；没有重抓前十或给每人跑船型统计。另复用已取得的LP争议帖，仅读第1—2楼及第2楼相关回复，没有新请求或整帖复读声明。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 11 | WRYYYYYYYYY Ellecon／2114027940 | XD；CCP太空舱收藏、问候与远征频道，不认本人参与或原创 |
+| 12 | Den Like Raven／2113941665 | 乌鸦王／烏鴉王一郎；复用已有CEO小号与AT正式队员身份，不凭最强传说扩成率队冠军 |
+| 13 | Hoshimati Comet／2120246500 | 无头衔，当前98749004，马克瑞／巴盖斯收藏及BR入口未核，不只凭Comet归彗星 |
+| 14 | KAGERO2／2121977264 | 六点；与KAGERO1同词根同头衔、当前同伏羲归双号，泰坦收藏未核本人参与 |
+| 15 | JACK JIE LI／2114800869 | 李杰；同LI JIE L／LI JIE 3词根、中文头衔同团归三号组；总览与元帅收藏不认FC |
+| 16 | annoyform／2120883392 | 然然；与annoyform2同词根同头衔同团归双号；默认简介 |
+| 17 | ovo mmp／2113480359 | 十八掌；科莫多收藏与凯旋FC总览，配置名不认本人FC |
+| 18 | Orange pai／2120789203 | 蛋挞；LP／市场／估价与远征笔记、旗舰收藏，不认原创教学或本人全部参与 |
+| 19 | FIRST BLOOD Kanjus／2114564689 | 老黑；已有素材明确排除为滑稽老黑GoldMining Owner；简介空，保持独立待查 |
+| 20 | Interstellar dust Sprin／2115186522 | 无头衔，已离开玩家军团，格言不认独立事件 |
+| 21 | 111 project／2119653564 | 111工程；默认简介，待职责／独立故事 |
+| 22 | Frozen Haz／90270787 | 嘟可 MAIN；当前吃瓜，简介起哄举报鹊桥蜜拧与火箭队台词；提及已归鹊桥线索，不认实际举报或同人 |
+| 23 | LI JIE 3／2117065223 | 李杰；归LI JIE L／JACK JIE LI三号组，通用大航总览不认FC |
+| 24 | Weiss schneal／2114342307 | 尾巴；简介空，待职责／独立故事 |
+| 25 | MIAO-NEI／2123083691 | 喵内；总览、广播、普通船KM收藏与字画，不认FC／本人原创 |
+| 26 | OVTAVIA James／2115288365 | 疯子；当前GECL，征服者收藏、超网订单与广播文案，不认具体交易履约／本人指挥，不凭单句粗口标低素质 |
+| 27 | ningmengshiwode／2122692508 | 柠檬是我的；默认简介，不仅凭柠檬近名归其他人物 |
+| 28 | Sky Okanata／2116560291 | 咫尺；简介空，待职责／独立故事 |
+| 29 | Tonydiao／2118626081 | 你的13；死亡准入、幽灵信号、抗性与虫洞编号笔记，不认本人原创或独立教学互动 |
+| 30 | Noone Null／2113219141 | 三三；CCP相关普通粗口与战果收藏，不认实际骚扰事件或FC |
+| 31 | KAGERO1／2121967869 | 六点；归KAGERO2双号，当前伏羲，技能规划与广播不认本人原创／FC |
+| 32 | Kirin X recovery／2121522022 | 斯卡蒂；与Kirin X Yato同Kirin X词根、中文头衔同团归双号；共享广播 |
+| 33 | annoyform2／2121321614 | 然然；归annoyform双号，同词根同头衔同团，默认简介 |
+| 34 | leoheyhey3／2122624060 | leo；同团头衔与129Leo相合，已对应自称DSN总监及LP投诉接诉行动，待快照／成文 |
+| 35 | btvvsr Arzi／2114567293 | 惆怅；共享总览、频道，不认本人原创／FC |
+| 36 | FallNight1／2122596283 | 坠尘；归[坠尘](../../src/people/zhui-chen/materials-zhui-chen.md)小号，已立传；袖笼“a掉的好兄弟”KM为圣诞打蓝，不归袖笼小号 |
+| 37 | li707／2122801621 | 梅州；虫洞安全／出口／洞号笔记与工具入口，不认现实籍贯、原创或独立事件 |
+| 38 | CillianMurphy／2122867177 | 庸医；估价工具、物品与总览，不认真实职业或原创 |
+| 39 | Yuyuko saigyuuji／2112544950 | 西红柿；当前伏羲，抗性／任务掉落／声望与总览笔记，不认本人原创或持续教学 |
+| 40 | fafnfaab fan／2115916938 | 坠尘；已立传收录号（AI恶搞元帅帖、cnmc c p打蓝收藏墙），同头衔FallNight1/4、cnmc c p归本人 |
+
+[Leo／129Leo](../../src/people/leoheyhey3/materials-leoheyhey3.md)已按同昵称／词根、同神农对应角色leoheyhey3（2122624060），后续已成文。原帖第2楼中本人自称DSN总监，向LP投诉人索取角色ID与经过、承诺回去核查，次日楼主称聊天记录已发；这是实际接诉行动，达到职责短篇条件。正式快照与短篇已完成、材料已迁入人物目录，不再用空简介退回普通候选；未知的是核查结论，不是是否有人接投诉。未把其他管理的骂人／踢团／锁船指控摊给Leo。
+
+李杰LI JIE L／JACK JIE LI／LI JIE 3三号、六点KAGERO1／KAGERO2双号、斯卡蒂Kirin X Yato／Kirin X recovery双号、然然annoyform／annoyform2双号、坠尘FallNight1／fafnfaab fan双号均按同词根或中文头衔及同团归组。六点两号当前均在伏羲，不能因其旧神农榜记录把当前团写回DSN。FIRST BLOOD Kanjus“老黑”沿[滑稽老黑既有排除](../../src/people/goldmining-owner/materials-goldmining-owner.md)保持分人，不把该行指向素材当已对应列传。
+
+嘟可对鹊桥蜜柠的简介提及已入[鹊桥线索](cute-catttt.md)，目前只有一句起哄，不补实际举报／骚扰结果。坠尘已立传，见[坠尘素材](../../src/people/zhui-chen/materials-zhui-chen.md)；袖笼纪念的奇美拉是他参与的圣诞打蓝，不是AFK，也不算袖笼战损。通用笔记与配置作者名继续只作入口，不靠总览里的FC字样认指挥。
+
+本团第41—50后续已核读，Leo快照与短传已完成，见下文；不重复抓前40。
+
+本批先完成Leo快照与短篇，再续神农历史第41—50、Family Guy.历史前十；逐批至多10人，快照／缺失名片／必要身份补查合计上限30请求，复用成功缓存，不读影像／字幕／音轨。
+
+### 神农第41至50名与Leo成文
+
+第41—50完整名片已读，新增10次ESI；本团历史前50连续核读完成。[Leo素材](../../src/people/leoheyhey3/materials-leoheyhey3.md)已迁入人物目录、正式快照与短篇已完成；leoheyhey同词根同头衔同团归本人，不再留待撰行。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 41 | Reed Collins／2124092157 | 红月；多语求放过与字画，不凭常见外号归其他人物或认独立事件 |
+| 42 | leoheyhey／2122566259 | leo；与leoheyhey3同词根加数字、同头衔同DSN归总监Leo，已补aliases |
+| 43 | Yvanise Cerd Brinalle／2122786487 | 小白；默认简介，待具体职责／故事，不与同名小白跨团并人 |
+| 44 | Y-cheerss／2123914741 | 疯鱼；纯字符画，不认本人原创或独立事件 |
+| 45 | Dark Traffic Police／2116541917 | 跤警；制造业获数百亿投资自述、神使收藏与他人粗俗聊天，未有交易前因后果，不凭自嘲／收藏立传 |
+| 46 | Uuhushin Tsukaya／2121495926 | 风卿晨；星城／工业建筑及普通舰船收藏，不认本人全参与或指挥 |
+| 47 | Winder Feather／2113267241 | 芳草草；RPS旧简介有联系人线索，自嘲与美洲虎梗；普通联系人不直接认重要管理，待实际事务 |
+| 48 | XENONXXIV／2124202202 | XE；Focus／Choice文案，待职责／独立故事 |
+| 49 | RainbowSlime／2123813857 | 彩虹史莱姆；超网订单、乌鸦王／GM等战果收藏与字画，不认交易履约或实际指挥 |
+| 50 | JI Chai／2115803911 | 无头衔，当前98641376；免费舰船／星币、人生黄字与字画，不认真实福利或具体骗局 |
+
+LP争议10430077310可见46主楼、119楼中楼文字及第1／23楼三张核心图已读；计数仍有缺口，末尾招新图未读。统一事实、2025回收争执、2026接诉与袖笼反驳归[事件摘要](../sources/dsn-lp-dispute-2026.md)，不在三个人素材重复转录。补图直接认出阿巴怪Aba--Guai（2119615259）与投诉人无火的余灰awa-123（2123557648），均已有独立人物事件，[阿巴怪素材](../../src/people/aba-guai/materials-aba-guai.md)、[余灰素材](../../src/people/awa-123/materials-awa-123.md)已归人物目录并成文，后续实际权限／资产结果另查。原话、@与实际执行边界分开，不能把“fuxi管理”红字当原聊天职务，也不把卫队强制回收全部说成DSN本团规定。
+
+袖笼新增自称带新一年130人、对投诉者的现实能力贬低与爷新指责，及对方关于培训／出勤的反驳，已补正文与来源；低素质标签基于2月12—13日公开争吵及现实人身攻击，不是因一句普通粗口。Leo接诉、阿巴怪的回收／权限威胁和袖笼的出勤争论各自归人，不混成总监Leo下令锁船。
+
+## Family Guy前十头衔增量（2026-10-15）
+
+历史榜第1—10完整名片已读，新增10次ESI。与神农余十、Leo正式快照、三张关键图及一次ESI精确名字解析合计在本批30请求上限内；未追加视频、人人船型统计或KM全量扫描。名片来源示例：[MrPRO的ESI](https://esi.evetech.net/latest/characters/2114453889/)。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 1 | knight114514／2119030292 | 无头衔；默认简介，未有中文身份／职责故事；114514为通用梗，不仅凭同团同数字尾巴并cheng114514 |
+| 2 | T zhong／2115476943 | 无头衔；简介空，具体人物／职责待查 |
+| 3 | Tony Pellion／2113191119 | 无头衔；简介空，不仅凭Tony常见名归回忆录中的未认号Tony |
+| 4 | Argent Benuse／2123501229 | 无头衔；默认简介，具体人物／职责待查 |
+| 5 | cheng114514／2118886547 | 无头衔；收藏Caspae／Winston 4Head关于ECM脉冲波图标的聊天，未有本人互链，不因此归MrPRO |
+| 6 | Dominator person／2120430224 | 无头衔；简介空，具体人物／职责待查 |
+| 7 | MrPRO／2114453889 | 陌然；复用已有列传、回忆录与事件；同词根同团Mrpropropro归本人，不将被骂聊天当新事件 |
+| 8 | Yushou Kaka／2119085697 | 无头衔；本人奇基莫拉／伊什塔损失及马克瑞收藏；不只凭Kaka归CodeBoss卡卡，后者当前Space Bass |
+| 9 | Mrpropropro／2114554682 | BLUE KILLER；同Mrpro词根、同Family Guy，重合收藏归MrPRO；头衔不代替具体打蓝事件 |
+| 10 | lIlIlIIllIIIlll／2117919109 | 无头衔；纳迦法收藏配DT掉线一枪文案，不仅凭普通掉线／船损立传，未核本人具体参与 |
+
+[陌然素材](../../src/people/mrpro/materials-mrpro.md)补Mrpropropro（2114554682）同人及BLUE KILLER自署；不由头衔补造新打蓝事件，也不由cheng114514收藏的ECM笑话认同人。低安回忆录中的人物仍沿原[旁支线索](mrpro-lowsec-accounts.md)，本批不把空简介的Tony Pellion、Yushou Kaka自动塞给未对应或已有故事角色。
+
+阿巴怪和无火的余灰快照与列传后续已完成，Family Guy第11—30已续读，见下文；其他实际职责／故事继续沿具体线索补。
+
+2026-10-16本批先完成阿巴怪与无火的余灰正式快照、列传及相关互链，再续Family Guy历史第11—20；快照与缺失名片／必要身份补查合计上限30请求，复用已读LP事件与图片，不读影像／字幕／音轨。新正文按显著发挥验收。
+
+Family Guy第21—30已有两份成功名片可复用，余8份在本批30请求上限的剩余额度内接着核读；不另续预算。
+
+### Family Guy第11至30名增量（2026-10-16）
+
+第11—30完整头衔／简介已核读，复用3份旧成功名片（寻歌2026-10-14、晓天和炽天2026-10-12），新增17次ESI角色请求；旧名片不写作当日刷新。另一请求核军团完整资料，两名新人物的正式快照与上述请求合计在本批30上限内。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 11 | StDiana／2121540507 | 无头衔；默认简介，中文身份／实际职责／故事待查 |
+| 12 | Parker Tan／2121671728 | 无头衔；非EVE译作入口不作为本人EVE创作故事，不追现实身份或保存现实人名／组织细节 |
+| 13 | biebiemi／2122020347 | 无头衔；文艺文案、字画、本人毒蝎损失与广播；指挥官字样为游戏物品入口，不认FC |
+| 14 | Bsjsisnjs／2121930451 | 无头衔；现成英文句子，不认本人创作或独立事件 |
+| 15 | Snowan／2120408402 | 无头衔；DEAD ALLIANCE字画，不从文案认现实联盟解散事件 |
+| 16 | 404-NOTFOUND／2117018265 | 无头衔；稀有船与旗舰收藏、自用总览；不凭收藏认本人全部参与或指挥 |
+| 17 | whutbadmman／2122320120 | 无头衔；简介空，中文身份／实际职责／故事待查 |
+| 18 | McAdamFergus／2119770299 | 无头衔；Fly Safe与安全按钮提示“Set this button red your idiot”，不是指向他人的辱骂事件 |
+| 19 | centaurea0718／2120394420 | 寻歌；复用Dusk 2026-10-14名片，当前Dusk，共享配置及自嘲，不冒充当日刷新 |
+| 20 | dancingf／2113671355 | 无头衔；抗性与技能属性笔记，不认本人原创／教学互动 |
+| 21 | GE ZONG／2115337208 | 686；当前Infinity Avenger，2025-04-14必吃榜榜首自署、铁壁收藏，未有具体事件，不凭自嘲立传 |
+| 22 | Lady Vindicta／90018978 | 无头衔；他人署名总览与1 expensive配置，不凭配置署名并其他人物 |
+| 23 | Bomb Reze／2122641286 | KAKO；当前98799349，字画及泰坦／万古／稀有船收藏，未核本人参与，不仅凭KAKO并已收录卡卡 |
+| 24 | feng fenghua／2113500164 | 无头衔；简介空，中文身份／职责／故事待查 |
+| 25 | Guifangq／2115482062 | 晓天；复用2026-10-12名片，与Guifangq Hate同人已归线索；旗舰收藏与KM墙不补足立传门槛 |
+| 26 | Cockroach Killer／2116307433 | 无头衔；当前98823638，神使超网订单及共享总览，不认交易履约、CEO或指挥 |
+| 27 | chitian hehehe／2113788113 | 炽天；复用2026-10-12名片，同词根同KZU已归已有列传；旧白魔爪广告不改成当前所属 |
+| 28 | SadMU／2121504672 | 无头衔；冥府／神使收藏、广播玩笑，不认本人独立故事或FC |
+| 29 | zixiaoyaojuben001／2118944398 | 无头衔；当前98823638，广播与BIG IS COMING配置，不认本人职责或具体动员 |
+| 30 | pugb 2／2119305945 | 无头衔；当前Family Guy，同pugb词根加2、同团归双号组；绝念收藏未核具体参与 |
+
+[pugb双号](pugb.md)按同词根同Family Guy归组，角色pugb 2／2119305945的简介没有新的独立人物事件或指挥依据。RHG中文招新残留与两组织时间接续仍沿原材料，不由同根号把汉堡、pugb或Family Guy管理并成一人。晓天沿[原个人线索](guifangq-hate.md)保留对应与战果，不因多读几条KM墙恢复列传。
+
+Family Guy最新ESI明确Cyan nomi（2122229391）为创建者兼CEO，2025-03-14成立、当前164角色，简介定位低安小规模团；旧DOTLAN有3月16日加入Deepwater记录。[Cyan nomi材料](../../src/people/cyan-nomi/materials-cyan-nomi.md)已纠正旧“仅岗位履历不写”搁置理由，本轮已按已核创团与CEO职责成文、补快照，以游戏名为标题，不再等糯米中文外号／账号桥。未知外号继续留缺口，不妨碍已核角色任职成文。
+
+## LP双主角成文（2026-10-16）
+
+[阿巴怪素材](../../src/people/aba-guai/materials-aba-guai.md)与[无火的余灰素材](../../src/people/awa-123/materials-awa-123.md)已迁入人物目录、两篇列传与正式快照完成，实际停补损／撤权限和船的后续仍留[共用事件](../sources/dsn-lp-dispute-2026.md)查。阿巴怪两块黑料展开统一回收的理由、训话与三项权限威胁；余灰保留问LP、公开控诉、先懒发长记录后补材料和出勤／教学争论，未把被踢本身当黑料。本人说法与其他人的话分开，未添实际执行结果。
+
+两人按快照挂当前组织：阿巴怪FUXI／FRT，余灰JXXY／CSF.；余灰在DSN的历史记录2025-07-19—2026-01-25，与事件及发帖日期相合，旧DSN／FRT不作其当前标签。Leo、袖笼与两人互链已补，旧待撰入口已撤，不留空壳转跳页。
+
+Cyan nomi正式快照、短篇及Family Guy第31—50后续已完成，见下文；前30和两篇LP人物不重抓成功资料，未完成的后续事件继续按具体入口推进。
+
+2026-10-16续批：先完成Cyan nomi创建者／CEO短篇与正式快照，再分十人续Family Guy历史第31—50；复用成功名片，快照及缺失名片／必要身份补查合计上限30请求。只读公开文字，不读视频、音轨或字幕。
+
+### Family Guy第31至50名增量（2026-10-16）
+
+第31—50完整头衔／简介已核读，其中第40名炽天xiao复用2026-10-14KZU名片，余19份新增ESI。Cyan nomi正式快照6次请求、上述19次ESI及酒云贴吧搜索1次合计26次，在本批30上限内；没有重抓成功月榜、历史榜或旧名片。
+
+| 历史名次 | 角色／ID | 头衔与续查记录 |
+| --- | --- | --- |
+| 31 | S1rpentis／2121813442 | 无头衔；简介仅斜线，中文身份／职责／故事待查 |
+| 32 | Howard Chu／2116448319 | 无头衔；当前98670400，简介空，中文身份／职责／故事待查 |
+| 33 | MyHearTw1llgoOn／2121464600 | 无头衔；当前98799064，4-HWWF与DUTY文案，不认本人具体动员或指挥 |
+| 34 | FanFan Hu／2115181118 | 无头衔；当前98604904，自设Mango Dealer船体加成笑话，不当职业、交易实绩或独立事件 |
+| 35 | Fritz Bratwurst／90470423 | P子；当前Dusk，MrPro’s Favorite Item为物品链接，不据此并陌然；配置与不在提示不认实际职责 |
+| 36 | acetaffy／2121787238 | 无头衔；默认简介，中文身份／职责／故事待查 |
+| 37 | YFdy／2114057918 | 无头衔；简介空，中文身份／职责／故事待查 |
+| 38 | Elize Einzbern／2116470606 | 酒云；当前Dusk，自署教学频道及通用总览；频道为游戏内joinChannel，不是B站，教学内容／持续活动待读 |
+| 39 | LierFan／2119252153 | 无头衔；俄洛巴斯击杀收藏，未核本人具体参与，不由收藏立传 |
+| 40 | chitian xiao／2114917439 | 炽天；复用2026-10-14KZU名片，xiao已归本人；长文为反讽陌然自述，沿已有共享事件，不当炽天新亲历 |
+| 41 | FGDH545／2121575089 | 无头衔；广播按钮、集结／阵营文案与太空舱／帕拉丁收藏，不由按钮认FC或实际动员 |
+| 42 | ababacd／2117181306 | 无头衔；当前98840701，Try to find who I am文案，无本人互链，不按名字猜阿巴怪 |
+| 43 | Gallente Citizen 2115879001／2115879001 | 无头衔；当前默认军团，总览分享，不推断改名原因 |
+| 44 | Bor1as／2121321033 | 无头衔；简介空，中文身份／职责／故事待查 |
+| 45 | Deact S／2116506361 | 无头衔；For the Good of Many文案，无具体独立事件 |
+| 46 | Bediverus／2123289584 | 无头衔；自称要做K头高手及几条KM收藏，不把自嘲和收藏拼成独立故事 |
+| 47 | gaili58／2122810325 | 无头衔；广播设置和植入体物品链接，不认交易、教学或实际职责 |
+| 48 | Wayne 686／2116927240 | 686；当前Infinity Avenger，与GE ZONG相同中文头衔及同当前军团归本人组，独立故事／职责待查 |
+| 49 | cloak and-daggers／2122579634 | 无头衔；默认简介，中文身份／职责／故事待查 |
+| 50 | Ride Volde／95132135 | 无头衔；署名雪莱Ozymandias诗句，不认本人创作或社区事件 |
+
+[酒云](jiuyun.md)的本人教学频道与总览已留入口，但教学内容与持续活动尚未读到；不是从“教学频道”四字就认FC或改成B站UP。[686](686.md)两号同头衔、同Infinity Avenger，归本人组，不把两号KB相加；P子与陌然只有物品玩笑关联，不合并。未出现职责或独立故事的人仍留线索，普通收藏、自嘲和广播按钮不补足门槛。
+
+Cyan nomi已收录，素材迁入[本人目录](../../src/people/cyan-nomi/materials-cyan-nomi.md)，中文“糯米”和贴吧账号仍待桥梁。短篇保留建团两天后入Deepwater、推荐制与炽天招新理念冲突的组织背景，不虚构是谁下令踢人；当前F.GUY／BIGAB按快照标注。旧待写入口已撤。
+
+下一批从第24家Cosmic-Wanderers／98769610历史前十续读。Family Guy前50名片核读完成，不代表其九月榜前50、所有教学／个人故事或50家全部调查完成；酒云和P子等具体人物入口可按增量接着补。
+
+2026-10-16 Cosmic-Wanderers续批：从历史前十开始，逐批最多10人；本批缺失名片与必要身份补查总上限30请求，复用已成功缓存，按增量在额度内续读，不读影像／字幕／音轨。小黄人已收录，先核同人及具体职责，不重复建CEO页。
+
+### Cosmic-Wanderers前20头衔与米奇成文（2026-10-16）
+
+前十、11—20各一批完整名片已读。新增20次角色ESI、2次军团ESI及米奇正式快照6请求，合计28次，未自动续预算；故事优先于更多无职责名片，先完成米奇，不再挤额度抓第21名以后。旧打蓝加事件复用成功缓存，只重读本人发言及相关反应，不重抓原帖。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | FizzyCrow／2123083622 | 科勒，征西将军；同团作战文夹、书签与广播入口，不仅凭将军头衔认实际指挥 |
+| 2 | NightRainCN／2122455340 | 夜雨（御马监），军团唯一雷电法王；字符画，无职责说明，不并其他夜雨行舟或FC |
+| 3 | Xiao HuangRen／2119217172 | 教皇；Xiao HuangRen既有小黄人号，沿用本人身份，收藏不作新增具体战役 |
+| 4 | Xiao Huang Fight／2119362525 | 教皇；Xiao Huang Fight与小黄人同词根、同头衔、同CO.WA，并本人，不相加KB |
+| 5 | Jiao-Huang／2119497024 | 教皇；收录号Jiao-Huang，旧故事／管理FC职责沿原传 |
+| 6 | M Ding／2114624513 | 绝活搓背，镇西将军；小型舰与纪念碑收藏，无明确指挥／职责 |
+| 7 | MC the BallBall／2123310034 | 唔该，征北将军；通用抗性表、总览与广播，不由将军头衔认FC |
+| 8 | geek cc／2116152408 | 出其，镇北将军，审判王；简介空，不因半名并出其东门 |
+| 9 | Chenxi Weiliao／2123400760 | 未了；自署2025-05-05陪伴／不看KB高低文案及救赎收藏，不认独立事件 |
+| 10 | Brax Swag／2114661099 | 夜星行客；elder ricardo god文案，实际职责／故事待查 |
+| 11 | Dunemur Xuan／2123494957 | 小轩；总览、广播与自标首杀的响尾蛇及太空舱等收藏，未核具体事件 |
+| 12 | xg chi／2113530734 | 老蒋；萌新自称、NPC抗性表，无独立故事／实际职责 |
+| 13 | prairie king／2114761643 | 茗茗；多语投降文案与字符画，不当真实投降事件 |
+| 14 | wutangk／2123388238 | 鱼糕；小航等KM收藏、血6／血10／蛇10收购入口，无履约事件或职责 |
+| 15 | babaaini／2116943455 | 表哥，招新官、总监、POS权限；当前Deadspace Spearhead，实际招新／管理职务足以留短篇，下一批补快照成文 |
+| 16 | Vaan1／2123360678 | 林斯特；抗性表、冬眠者箱子提示、总览与广播，未有本人教学活动／独立事件 |
+| 17 | M1kiIy／2123055352 | 米奇，CEO、FC；现Sparrow In Cage创建者兼CEO；同名同CO.WA时间对应错过😳◎，统一回复／插广告／spy解释已成文 |
+| 18 | cloudfog／2122441192 | 无头衔；当前98846275，楼房地基与夕阳比喻，未有具体人物事件 |
+| 19 | cheng he／2114050764 | 程；维德马克收藏与GG评价，未有独立故事／实际职责 |
+| 20 | BB ice／2123440570 | 黑鸟；BB ice既有列传，简介格言及无关金融缩写不追现实活动 |
+
+[小黄人素材](../../src/people/jiao-huang/materials-jiao-huang.md)新增Xiao Huang Fight号；第3／4／5均归同一人，不另立传，不相加逐号统计。[米奇素材](../../src/people/m1kiiy/materials-m1kiiy.md)记录游戏头衔、CO.WA任期、贴吧称呼与统一回复的账号桥，列传保留创建Sparrow In Cage、自称FC及旧团打蓝加争议中的广告／spy口径。已加与小黄人的互链；当前.MU／IGC按快照，不挂旧CO.WA／INIT标签。其历史榜名次不是其当前军团。
+
+[表哥babaaini](../../src/people/babaaini/materials-babaaini.md)已核公开招新官／总监／POS权限，当前Deadspace Spearhead／98841123，CEO是另一角色AlizeeJacotey，不把表哥误称CEO；管理职务足以留短篇。后续已补正式快照、按实际组织职责成文，见下文；Cosmic-Wanderers第21—35已续读。科勒等将军称号、昵称、通用配置与自嘲尚未显示具体职责或独立人物事件，继续沿公开任职／点名补材料，不凭官衔字面批量认FC。
+
+2026-10-16表哥成文续批：先补babaaini正式快照与管理短篇，再逐十人续Cosmic-Wanderers第21—40；正式快照、缺失名片与必要身份补查总上限30请求，缓存优先，不自动续预算，不读影像／字幕／音轨。
+
+### Cosmic-Wanderers第21至35名与管理短篇（2026-10-16）
+
+第21—30及31—35完整名片已读，新增15次角色ESI；表哥简介训练计划另补读两作者ESI2次，核弹CO.WA任职时间补历史ESI1次，加两名正式快照12请求，共30次。第31—40原十人名片均缺成功缓存，预算内只续到35，不自动加预算。职责人物先成文，没有将未读后续名单宣称前50完成。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 21 | AUG U／2121581732 | 鲸落；默认简介，不并其他同外号人物 |
+| 22 | Pop Driver／2122529467 | 派大星；简介空，职责／故事待查 |
+| 23 | ji wuming／2112339969 | 无名；简介空，不仅凭常见外号并已有无名 |
+| 24 | YIGEGE／2123608231 | 益哥；简介自标前两KM及招新广告／广播，与小黄人帖子益哥称呼同团可作入口，未补独立故事 |
+| 25 | teleportor／704527521 | 浩；本人英文自报舰队物资后勤官及对外军团外交；按本人说法留管理短篇，不升格联盟高层 |
+| 26 | hurt Leo／2112645460 | 老刘；新年及坦克字画，无具体独立事件 |
+| 27 | You Siste／2124139415 | 老哥；星点字画，未有职责／事件 |
+| 28 | Qiu-qian／2121853214 | 秋千（大聪明）；中英粗口自嘲及本人损失／旭日／苍鹭收藏，非持续辱骂或独立事件 |
+| 29 | Mu Xu／2114554951 | X7；60KM环绕哨站提示，不当原创教学或实际职责 |
+| 30 | Tdawn／567655533 | 肥肥狒狒；国服搬来的总览链接，非国服人物事件／原创创作 |
+| 31 | N-bomber／2120263809 | 飞奔的核弹；2025-04-17起同CO.WA，旧帖day沈学连被称核弹、替本团辩护并被讥电鱼，身份已接，下一批补快照成文 |
+| 32 | Thunder luck／2116363615 | 无头衔；当前默认军团，广播、总览、NPC抗性及反跳怪笔记，未有本人教学活动／故事 |
+| 33 | Aonehod1337／2124094329 | 绿豆（原红豆，因lolC失败改名绿豆）；自嘲头衔及苍鹭收藏，无完整事件／职责，不解读lolC机制 |
+| 34 | RyersonW／2123515802 | 王；默认简介，职责／故事待查 |
+| 35 | hmy6／2119292241 | 星光，征东将军；同词根编号hmy6-2同历史CO.WA归本人组，主号KM收藏与广播未有具体指挥／故事 |
+
+[表哥素材](../../src/people/babaaini/materials-babaaini.md)迁入人物目录、当前.D.DS／CP.已按快照成文，正文区分本人招新／总监职责与简介转挂的训练计划，不误作原创课程。计划作者DreamM00n／★苏玩★和Siivitni／千里已补读完整名片，角色信息与身份缺口留本人素材，未由作者ID或形近名强并表哥／荣耀。
+
+[浩素材](../../src/people/teleportor/materials-teleportor.md)与短篇完成，按本人英文自述交代保障舰队物资、对外军团外交，不认CEO、FC或INIT联盟外交负责人；当前CO.WA／INIT.。泛战斗自述不造具体战报，抒情段只作门面文风。
+
+[核弹](../../src/people/n-bomber/materials-n-bomber.md)的角色头衔、2025-04-17起CO.WA履历、贴吧#28被称核弹与本人为军团辩护的发言已接成身份链，对手#4孔乙己体与楼中楼电鱼讥刺单列为对方文案。后续已补快照成文并读完该团前50，见下文。[星光](hmy6.md)双号已按同词根加编号、同历史军团归组，第38名hmy6-2完整名片未读，姓名对应不提高连续核读范围。
+
+2026-10-16核弹成文续批：先完成N-bomber正式快照与列传，再分十人续Cosmic-Wanderers第36—50；有剩余额度再接Galactic Empire Co LTD前十。正式快照、缺失名片、必要身份补查总上限30请求，复用成功来源；不读影像、字幕、音轨。
+
+本批Cosmic-Wanderers第36—50与核弹／花花快照完成后，剩余2请求先读Galactic Empire Co LTD第1—2名；不将前两名当作前十完成。花花只沿公开总监任职与已核在团期间讲组织背景，不将同名ES交接人归给他。
+
+### Cosmic-Wanderers第36至50名及GECL前两名（2026-10-16）
+
+第36—45、46—50完整名片分批已读，新增15次角色ESI；核弹与花花两份正式快照12请求、花花关键词搜索1次、GECL前两名ESI2次，合计30次。GECL后续未读，不将前两名改称前十完成；未额外加预算。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 36 | Tu Dou2／2123789981 | 土豆；投降字画及酒云喵00总览，只有作者工具入口，不认实际投降或原创作品 |
+| 37 | ruiruia／2120308783 | 豆芽；现Deadspace Spearhead，同ruiruian词根、同头衔同团归组，打怪笔记、纪念碑收藏不认独立故事 |
+| 38 | hmy6-2／2119666440 | 星光；当前同CO.WA，与hmy6同词根编号同头衔补核，广播及世界观文案不作人物事件 |
+| 39 | Your Siste／2124139355 | 老哥；Your Siste与You Siste同近似词根、同头衔同CO.WA归组，自贴旧KB不认当前统计或能力 |
+| 40 | liu pizi／2114007521 | 卡本；字符画，无实际职责／独立事件 |
+| 41 | D-Alessandro83 Kuha／2116450382 | 达涅；当前Phoenix City，自贴伊什塔损失收藏，不据普通损失立传 |
+| 42 | Man 8／2122619196 | 曼巴；飞龙远征文案，非具体战役／本人指挥或独立故事 |
+| 43 | cherrybone／2121993705 | 花花 总监；本人公开总监任职留管理短篇，CO.WA在团自2025-01-15；不认ES同名交接人 |
+| 44 | JY-SaMa／2123377920 | 久夜；默认简介，无实际职责／独立事件 |
+| 45 | ruiruian／2119606084 | 豆芽；现Deadspace Spearhead，与ruiruia同词根／同头衔／同团归组，总览广播不认原创教学 |
+| 46 | Otsusen Kishunuba／2123242314 | 劳伦；默认简介，与小黄人招新帖劳伦大将称呼同团可作入口，普通船损／昵称不足立传 |
+| 47 | yao666／2123455063 | 大表哥；当前Baby-Bus，字符画，不并babaaini或Dusk表哥 |
+| 48 | 24kzz／2123763873 | 心之；默认简介，无实际职责／独立事件 |
+| 49 | Hybiki Terona／91712473 | 叶子；广播、洗安等及太空舱／苍鹭收藏，无完整人物事件 |
+| 50 | laolaiyihao／2123094840 | 老赖1号；当前Baby-Bus，夸张威胁字画无上下文，不当真实威胁事件或据此立传 |
+
+[豆芽](douya.md)、[老哥](you-siste.md)双号按同词根／同头衔／同当前军团归组；[星光](hmy6.md)编号号完整名片已补，当前同CO.WA且头衔吻合，不相加多号KB。土豆转挂酒云喵00总览，作为[酒云](jiuyun.md)工具传播补充，不把使用者当作者或推教学效果。
+
+[核弹素材](../../src/people/n-bomber/materials-n-bomber.md)迁入人物目录并成文，本人对线与对手戏台分别叙述，未造真实电鱼船损。[花花素材](../../src/people/cherrybone/materials-cherrybone.md)按公开总监任职留短篇，CO.WA履历和军团迁盟作背景，不杜撰具体部门，也不由同名归ES交接旧事。两人当前CO.WA／INIT.，小黄人篇补核弹发言与互链。
+
+GECL前两名已读：第1 Aurora Rinzler／2114098387，头衔银光／黑塔狂热粉丝，当前Arknights.／98725089／FRT；第2 jianjun Aideron／96280212，头衔建军，现怯薛／98694557／FRT，沿已有列传。建军简介年度打窝奖指向银光，银光简介反提建军“我保小”文案与nextorian Monitor收藏；[银光线索](aurora-rinzler.md)记录身份、互相提名及待补事件，不由收藏、单句聊天、AT冠军好兄弟自嘲认其本人战果／夺冠或FC，也不并成建军小号。建军正文已补银光中文称呼，Noraus素材只留第三方简介摘句，不造Monitor损失责任。
+
+GECL第3—25后续已续读，见下文，再沿有效职责与事件展开；Cosmic-Wanderers前50名片完成不等于该团九月月榜、所有人的故事或50团调查完成。
+
+2026-10-16 GECL续批：先读第3—10，再按线索以每批最多10人续读；缺失名片、必要身份补查与可能成文快照合计上限30请求，优先复用缓存，不自动加预算，不读影像／字幕／音轨。
+
+### GECL第3至25名与daoyan yin成文（2026-10-16）
+
+第3—10、11—20、21—25完整名片分批已读，新23次角色ESI；另复核噩梦完整ESI1次，daoyan yin正式快照6请求，共30次。前两名复用旧成功记录，前25形成连续范围；第26以后未读，不自动加预算。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 3 | daoyan yin／2118623409 | 真没招了；当前Arknights.，与噩梦两份简介具体互挂／元帅批注及技能教材互动已成文，六分钟说法仍标本人来源 |
+| 4 | wpbill／2114107719 | 亡术，IV级超级旗舰成员；总览、广播、Gay Niu总览预设（非角色链接）与代驾工作室署名，未有本人经营／脚本或指挥依据 |
+| 5 | KCooperA／2114837657 | 狗汁，银河陆军统帅，IV级超级旗舰成员；字符画，不由风格头衔认FC或实际统帅 |
+| 6 | juli xu／2114290891 | 许杰，II级主力火力成员；KM收藏，不认具体本人故事／职责 |
+| 7 | Puff LY／2114785735 | 帝国，魔王；简介空，职责／故事待查 |
+| 8 | niuniu wei／2115153179 | 再战，IV级泰坦成员；非EVE成人作品入口不展开现实人物／影像；诱导打赏与物品入口，不认交易履约或RMT |
+| 9 | Harry Kewell／2114344694 | 贝塔，II级主力火力成员；小航／无畏／太空舱／空堡收藏，未核实际参与，不单独立传 |
+| 10 | Leepapa／2114286449 | 泡面，IV级大航成员；字符画和恶狼收藏，无独立人物事件／职责 |
+| 11 | Riound cc／2118584000 | 小马宝莉；当前Arknights.，猎犬自损和稀有船／旗舰／CCP船收藏，不认本人全部参与或普通损失黑料 |
+| 12 | Fubuki Waifu／2115433044 | 无中文头衔；黑莲收录号Fubuki Waifu，ATXIX冠军队长自署沿原传，收藏不作新战果 |
+| 13 | dingd xiao／2116196470 | 小叮当；当前Arknights.，简介单句骂辞，不由一行粗口认严重辱骂标签或独立事件 |
+| 14 | suiyue chine／2113955546 | 岁月；会战总览、dscan、补损网站入口，不认本人管理职责或原创作品 |
+| 15 | LY666／2113441162 | 党员；当前Arknights.，仅游戏头衔，不推现实政治身份；总览、广播及地点笔记，无具体职责／故事 |
+| 16 | DreadNaught 723／1289646216 | 723，III级旗舰成员；格言、抗性、队长是我别开枪玩笑与WC黑影值守／信标流程，未明原创及本人教学活动，不认本人值守指挥 |
+| 17 | kun Ohaya／2112982260 | 昆；当前Arknights.，KM收藏及学会五度提示，不认明确带队或事故 |
+| 18 | ALL SET／2112846010 | 云婶，皇家大陆驻新伊甸大使；停止窥探，戏称未指明实际玩家组织外交事务，不升格外交管理 |
+| 19 | lzabbx／2114174154 | 无头衔；当前默认军团，简介空，身份／职责／故事待查 |
+| 20 | Jackie Corvinus／92758044 | 最强萝莉；队友被抓边笑边刷等文案，不从玩笑认真实卖队友或具体行为 |
+| 21 | Maitreya1017／2113999764 | 弥勒，II级主力火力成员；简介空，职责／故事待查 |
+| 22 | M Yilia／2115171347 | MY；诱导／死亡成长及solo失败概率自嘲，不当KB定论或立传事件 |
+| 23 | Wandering GECL／2115119209 | 小猪；性暗示文案无具体事件／职责，不扩成现实行为 |
+| 24 | Leper Gnomee／2114398220 | 无头衔；当前默认军团，格言与RIP NeedsToBeReal署名，背景未明，不猜现实死亡或独立事件 |
+| 25 | W HDXG／2112788428 | 灿星；当前Arknights.，柱公列传文言戏仿，人物／事件和创作互动未对应，另留作者线索 |
+
+[daoyan yin素材](../../src/people/daoyan-yin/materials-daoyan-yin.md)与列传已完成：本人挂噩梦2022年欧贝直播六分钟开席的讥刺，噩梦公开给其四条元帅逐条批注，既有论坛又将他当练技能教材。正文写两边的公开言行，不拿普通损船／KB作立传门槛，不编简介编辑先后，也不由未读BR认定全部号／损失／指挥。游戏名作标题，头衔真没招了入别名，不自行造导演等中文名。
+
+噩梦篇保留全期KB、三场已核战役与逐项批注，新增对方挂回来的六分钟说法及互链；原把蜜蜂半年列黑的块已撤、军团经历并开篇背景，Komodo收藏保留门面而不算本人围杀功劳。黑莲当前收录号与冠军队长自署归原素材，不用本次简介重读替代旧AT／B站调查。[灿星](w-hdxg.md)的文言戏仿先存作品结构、人物缺口，不把戏中对白／辱骂／现实影射当事实。
+
+GECL第26—50后续已读，见下文，继续优先实际职责／人物事件；军团分级、旗舰成员、银河统帅等头衔不单独认FC，皇家大陆大使不在缺组织事务时升格外交管理。
+
+2026-10-16 GECL后半续批：从第26—35开始，逐批最多10人；缺失名片、必要身份补查、可能人物快照共上限30请求，复用成功缓存，不自动追加额度，不读影像／字幕／音轨。
+
+GECL第26—50完整名片核读后，已新增24请求、复用布鲁斯2026-10-14缓存1份；剩余6请求接Chuangshi College／98705642第1—6名，不把前六名称前十完成。
+
+### GECL第26至50名与创世学院前六名（2026-10-16）
+
+GECL第26—35、36—45、46—50完整名片分批已读，新24次ESI，复用布鲁斯2026-10-14名片1份；创世学院第1—6名新6次ESI，共30请求，未自动续预算。前50是GECL历史榜的名片核读，不等于九月榜个人调查或所有故事完成。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 26 | sky chine／2113907530 | 岁月；与suiyue chine同头衔同GECL归组；估价、市场、总览等工具不认原创或管理 |
+| 27 | Alternative Muv-Luv／95072457 | 无头衔；黄鳝收录号Alternative Muv-Luv，当前98749004，空简介，不撤原AT／舰队故事 |
+| 28 | ROSEN SHINKU／95190417 | 帝国；与Puff LY同头衔同GECL归组，Big brother文案不认管理／监视行为 |
+| 29 | Vasuman／2114212214 | 大力，IV级大航成员；简介空，职责／故事待补 |
+| 30 | NSH Ken／2115101507 | 无头衔；当前默认军团，简介空，中文身份／职责／故事待补 |
+| 31 | roger dio／2115179064 | 我最铞；本人直贴B站av33759016，作者／公开文字及是否本人作品未读，不当UP身份 |
+| 32 | Destiny Depran／2115548450 | 一骑，II级火力成员；简介空，职责／故事待补 |
+| 33 | Buzz Kevin／2115488476 | 随风；现特执，暂无与DC随风的同人桥，不以同名合并；工具／交易频道未见具体职责 |
+| 34 | a-piao／2117878863 | 无头衔；当前默认军团，阿飘总览、Noraus太空舱及CCP船收藏，单句粗口不认独立事件 |
+| 35 | MartingAo／2119101671 | 奥利奥；冥府／使徒收藏、建筑管理频道和工具入口，不由频道名认管理职责 |
+| 36 | FUZE TACHANKA／2113366690 | 福泽；燃烧任务操作笔记及总览，未明原创或本人持续教学／互动 |
+| 37 | Anankke Z／2114031696 | 无头衔；当前默认军团，简介空，中文身份／职责／故事待补 |
+| 38 | Cytoophidia／2113986043 | G3毒气，III级旗舰成员；简介空，不认FC或重要管理 |
+| 39 | Polarisdigua Inkunen／2113244982 | 地瓜#02573 AFK，贝斯城管；当前创世，简介空，不由共享城管头衔认管理或指挥 |
+| 40 | hdxxh／2118582384 | 活动星系核，BWF萌新最爱之人；KM收藏，头衔未说明人事／战备／招新等实际职责 |
+| 41 | SnowLeaf／2117177992 | 叶子，II级火力成员；简介空，不并其他军团同名叶子 |
+| 42 | wp billl／2114314764 | 亡术；wp billl与wpbill同词根拼写变体、同头衔同GECL归组；广播不认实际职责 |
+| 43 | Aivio Rotsuda／2118648915 | 丝路；默认简介，职责／故事待补 |
+| 44 | EVEBruceL／2112928634 | 布鲁斯；复用Fox 2026-10-14完整名片，当前混沌，空简介，未作当日刷新 |
+| 45 | xiao mai lin／2115196303 | 阿德；总览、报点与工具入口，未有独立故事／实际职责 |
+| 46 | XJNYDX／2118832755 | 温度；现特执，首次跟队吃超旗自署、飞龙及其他KM收藏、矿石笔记，未核具体参与不凭收藏立传 |
+| 47 | SuFei Dryovernigh／2113458206 | 苏菲；物品交换入口，未有具体交易事件／职责 |
+| 48 | SelilaLee／1944229468 | 洛，IV级泰坦成员；燃烧任务三跳内组队帮做、索取分LP，留服务入口，不认已履约或持续教学 |
+| 49 | lianyicheng／2117319606 | 潋伊晨，II级火力成员；广播入口，职责／故事待补 |
+| 50 | hu jiao／2115143063 | 胡椒；简介空，职责／故事待补 |
+
+[岁月](suiyue-chine.md)、[亡术](wpbill.md)、[帝国](puff-ly.md)各两号按同头衔、同当前GECL及名字变体归组，不相加各号统计；未有独立故事或实际职责时不只凭总览、广播、成员等级立传。[Buzz Kevin](buzz-kevin.md)只确定头衔随风、现特执，与DC随风缺桥先不合并。[洛](selilalee.md)的燃烧任务帮做和分LP条件已留，尚无履约、持续教学或具体玩家反馈。
+
+旧记录把亡术简介“Gay Niu”误写为角色入口，本批核原始href实际为overviewPreset，已更正旧表及TSV，不能拿来认牛团主事者或小号。“Fraternity Building Management”为奥利奥简介入口，不单凭加入频道认建筑管理职务。roger dio本人直贴B站av33759016留作具体入口，作品作者／公开文字未读，不认UP身份、不读视频／音轨／字幕。
+
+创世学院Chuangshi College／98705642第1—6名已核读：
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | Banknote printer／2119749773 | 主团，白给大师#41267；默认简介，不把主团标记认CEO／管理或本人主号 |
+| 2 | Fracture Ray／2117368009 | 主团，碎裂的光芒#11770；手机电容等自设加成玩笑，不作独立人物事件 |
+| 3 | My Fair Lady／92487232 | 主团，明哥#74629；简介空，不与其他团明哥合并 |
+| 4 | Vbndolog／2124182303 | 理想#84540；当前创世，默认简介，职责／故事待补 |
+| 5 | Raziel Maken／2116228249 | 无头衔；当前98806817，Not Friendly文案，职责／故事待补 |
+| 6 | Yuan-Ji／2113881347 | 元吉#88230；当前创世，广播、物品及图形文案，不由短句认指挥／职责 |
+
+创世学院第7—38后续已续读，见下文；第28、30旧名片复用，不把前38写成前50完成。[主团]、成员编号与同名昵称不自动证明职责、本人主号或同人关系。
+
+2026-10-16创世学院续批：从第7—16开始，逐批最多10人，缺失名片及必要身份补查／人物快照合计上限30请求；复用成功名片，不自动追加额度，不读影像／字幕／音轨。
+
+### 创世学院第7至38名与同人组（2026-10-16）
+
+第7—16、17—26、27—36、37—38完整名片分批已读；共32份，其中泽妮塔／神猪复用2026-10-14名片、Thunder luck复用本日Family Guy名片，新增29次角色ESI。另补本人直指主号eroiturete完整ESI1次，共30请求，未自动追加额度；不把主号补查塞入原冻结名单／排名。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 7 | SSJT／2122580617 | 宝宝#68750；与SJJT名字近、同头衔同学院归组，默认简介无职责／独立故事 |
+| 8 | Rulee Krzysztof／2120939713 | 诺克#19560；工业禁PVP与先付500万赔偿申请的英文导师条款，留文本，不认已赔付／诈骗或实际导师任职 |
+| 9 | Lulili／2118454057 | 陆离；当前98613748，文学引句，不认原创或个人事件 |
+| 10 | gameoverbro／2124225436 | 主团CE#99773；简介直指eroiturete／2118525107是主号，补读同CE编号、现创世，明确同人；暂无故事／职责 |
+| 11 | Rnaissance／2123308899 | 薛定谔#85801；当前创世，吃饭文案、签名／KM文字与广播，不认独立事件 |
+| 12 | cruryTAT／2123857553 | 栗子；当前咸鱼，简介空，职责／故事待补 |
+| 13 | Security100／2119788390 | 无头衔；当前默认军团，两条普通KM收藏不认独立事件 |
+| 14 | Big bobomao／2122020572 | 彗星；快递号自署，未有实际服务事件或组织职责 |
+| 15 | we4eta／2118970944 | 豆芽炒土豆#45660；与Buil同头衔同学院归组，默认简介 |
+| 16 | kasumi90／2121560439 | 西行寺幽灵子#44221；当前创世，偏振长尾鲛自夸、KM收藏与露蒂丝称呼，无实际故事／账号桥 |
+| 17 | Assalmitier Neye Actault／2122739346 | 苹果#24114；当前创世，CS首杀自署及稀有船／旗舰收藏，未核本人参与，不据收藏立传 |
+| 18 | Buil／2123983883 | 豆芽炒土豆；与we4eta同中文头衔同学院归组，默认简介 |
+| 19 | Evan W／2118387734 | Иван；当前创世，简介空，职责／故事待补 |
+| 20 | MrBear226／2124070402 | 小白熊#10936；当前创世，默认简介，职责／故事待补 |
+| 21 | Voidborn Specter／2124058308 | 明哥#74629；与My Fair Lady同姓名／相同编号及同历史学院归组，当前创世，不把两号当前团籍写成相同 |
+| 22 | nalemoncha／2121578356 | 谨言慎行#15557；当前创世，同lemon词根／同中文称呼／同团记录归nelemon，广播不认实际管理 |
+| 23 | MyShmily1／2123950325 | 思倾年#61161；当前创世，默认简介，职责／故事待补 |
+| 24 | lzq3／2122479798 | 无头衔；当前98618097，默认简介，职责／故事待补 |
+| 25 | Yokukka 3／2124159381 | 无头衔；当前创世，名字带3但未对上同系列号，默认简介 |
+| 26 | fried chicken leg／2121979971 | 炸鸡腿#60142；当前创世，默认文案与弥米尔收藏，无独立事件／职责 |
+| 27 | SJJT／2122658883 | 主团宝宝#68750；SJJT与SSJT字符序变体、同完整头衔同学院归组，默认简介 |
+| 28 | Zirnitral／2119850771 | 泽妮塔；复用2026-10-14名片，现特执，抗性表；不是驾驶泽尼塔、FC或实际教学依据 |
+| 29 | haonimao／2123802791 | 战灵#74448；当前创世，恶狼收藏和广播，职责／故事待补 |
+| 30 | wevsty／2121046206 | 神猪#47262；复用2026-10-14名片，当前创世，广播与总览，不认实际管理／FC |
+| 31 | Thunder luck／2116363615 | 无头衔；复用本日Family Guy所读Thunder luck名片，当前默认军团；广播和抗性笔记不认原创教学 |
+| 32 | Okar-z／2121377038 | 耶干面#20735；当前创世，简介空，职责／故事待补 |
+| 33 | hutao111／2121568794 | 胡桃#04586；当前创世，海军凤凰收藏、抗性表及文案，未核参与或职责 |
+| 34 | MaxBiao／2120385962 | 无头衔；当前98758183，默认简介，中文身份／职责／故事待补 |
+| 35 | Vandolog／2123503024 | 理想#84540；Vandolog与Vbndolog单字母变化、同编号同创世归组；KM收藏不认独立事件 |
+| 36 | Raisond'etreoF9／2121487664 | 无头衔；当前默认军团，字符画和GM／CCP船收藏，不认本人参与或工作人员身份 |
+| 37 | BGDS-Drone-Z／2122400056 | 白给大师#41267；与Banknote printer及Drone-Y同头衔／相同编号／同学院归三号组，默认简介 |
+| 38 | BGDS-Drone-Y／2122400043 | 白给大师#41267；与Banknote printer及Drone-Z同头衔／相同编号／同学院归三号组，默认简介 |
+
+同人已归正式线索：[白给大师](baige-dashi.md)三号、[宝宝](baobao-ssjt.md)双号、[豆芽炒土豆](douya-chaotudou.md)双号、[明哥](mingge-74629.md)双号、[理想](lixiang-84540.md)双号、[谨言慎行](jinyan-shenxing.md)双号、[CE](ce-eroiturete.md)主小号。姓名、相同编号、同团及本人直指分别记录，不要求再确认；明哥两号当前学院／创世分别写，nelemon旧名片不假称本日刷新。诸号还缺独立事件或明确职责，不用成员／主团标记、默认简介、KB与自嘲拼立传门槛，也不把不同号统计相加。
+
+[诺克](rulee-krzysztof.md)的工业号禁PVP、500万申请费、吉他价赔付、超1B另议和先攻击不赔等文案已吸收保存。只取得简介条款，没有具体付款／赔付、导师任职或本人对应Keyboard Monkey的证据，不写成已发生的赔偿／诈骗故事。
+
+创世学院第39—50后续已读，见下文；前50名片完成不代表九月榜人物调查、全员故事完成。当前已归组者可沿职责／具体事件追加材料，主号补读和别名对应不冒充人物成稿。
+
+2026-10-16学院收尾与Navigators Union续批：从学院第39—48开始，再补49—50；有剩余额度接Navigators Union前十。缺失名片、必要身份补查及人物快照总上限30请求，每批至多10人，缓存优先，不自动追加额度，不读影像／字幕／音轨。
+
+### 创世学院第39至50名及Navigators Union前23名（2026-10-17）
+
+本批于10月16日取得完整名片，17日归档；学院新12份，Navigators Union新18份、复用2026-10-14创世旧名片5份，共30请求、35份名片核读。没有按归档日伪称全部新刷新，未自动追加预算。
+
+| 学院历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 39 | BeiLiujiang／2120606084 | 北流江#60141；当前创世，抗性、燃烧、虫洞笔记与矿工无害自称，不认原创教学或实际职责 |
+| 40 | BGDS-Drone-X／2122400011 | 白给大师#41267；同学院同编号、Drone-X系列归白给大师第四号，默认简介 |
+| 41 | Shiki OvO／2118351278 | 无头衔；当前98680791，简介空，职责／故事待补 |
+| 42 | jita dutu／2120363625 | 夕阳#94042；当前创世，默认文案与广播／物品入口，无独立事件 |
+| 43 | ZZ ceti Fi／2113437541 | 吓死猫；当前98772842，抗性笔记，未有本人教学活动／故事 |
+| 44 | WILLIAMC／2118780792 | 深呼吸#51383；默认简介，职责／故事待补 |
+| 45 | KINGMANBO／2124548992 | KING曼波#36477；字画，无具体人物事件／职责 |
+| 46 | plan fgh／2121916071 | 爱大狗#6198；当前混沌，普通KM及物品入口，不并其他大狗或由收藏立传 |
+| 47 | milk tea1／2121029321 | 波波奶茶#63134；当前创世，大地瓜文字与本人狐鼬损失收藏，无主号链接，不强并地瓜 |
+| 48 | pavlov114／2124382785 | 走136#09930；当前创世，默认简介，职责／故事待补 |
+| 49 | HYHduhe／2121490491 | 渡河#43019；当前Navigators Union，CCP太空舱收藏，不认本人参与或工作人员身份 |
+| 50 | GGQC／2124398661 | 白色小花#39372；当前创世，默认简介，职责／故事待补 |
+
+白给大师Drone-X同编号同团加入[四号组](baige-dashi.md)。学院历史前50至此连续核读完成；普通笔记、自损、角色编号和默认简介仍不替代独立人物故事或实际职责。
+
+| Navigators Union历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | Crazy little sharks／2113451843 | 疯狂小鲨鱼#73675；复用2026-10-14名片，空简介，无实际职责／故事 |
+| 2 | GY1563／2118098339 | 梦中祈愿#32967；复用2026-10-14名片，PVP菜鸟自嘲不构成人物事件 |
+| 3 | ATLantis ZS／2116772995 | Az#54192，内环成员；内环未说明具体组织工作，旗舰收藏与他人台词另存，不单凭称呼认高层／FC |
+| 4 | T95 FV4201／2124231755 | 秃酋#46610；普通舰／铁壁／GM太空舱收藏、广播，不认实际职责／新故事 |
+| 5 | Madyne en Chalune／2121563823 | 摸鱼#38009；阿兹贝尔收藏及广播，与O字系列摸鱼编号不同、名字不近，暂不强并 |
+| 6 | OAOOOOO／2121075817 | 摸鱼#11501；OAOOOOO与OOOOOAO同字母变体、同编号同团归组；YouTube链接不认本人频道 |
+| 7 | Moonfall JL／2114781304 | 落月之夜#71577；简介空，职责／故事待补 |
+| 8 | longxiacun／2117618891 | 龙夏存#84118；抒情句，未有具体人物事件／职责 |
+| 9 | ZI LIAN／2113713154 | 芷恋#83804；复用2026-10-14名片，旗舰／监视者等KM收藏及工具，不认收藏者驾驶Monitor或指挥 |
+| 10 | Monicadede／2113572217 | 飞奔#59359；总览／收藏及juanniaoyuhua转引六竹吐槽，已归六竹材料，不由保存者身份立传 |
+| 11 | Rikimaru98 Lee／2114386210 | 力丸#23288；四条本人阿斯特罗损失配自嘲／警示，无外部互动或独立事件，不凭自挂战损立传 |
+| 12 | JL-Yuzhou／2124283314 | 宇宙#11037；默认简介，职责／故事待补 |
+| 13 | water Bottled／2116281285 | 816#22571；单句粗口、GM／泰坦收藏及广播，无具体人物事件 |
+| 14 | Andrew Cumningham／2119111469 | 决明#40380；征服者收藏与光荣属于欧塔文案，不认本人参赛／夺冠或指挥 |
+| 15 | Ealker Skord／2119111185 | 老徐#29101；总览广播，无实际职责／独立故事 |
+| 16 | black meow cat／2113227777 | 冬玥喵#56084；F1自称与拟人化威胁玩笑，无具体受害人；无敌buff实际退出游戏界面提示，不当真实工具 |
+| 17 | sorryicamelate teacupnight／2116807193 | 水龟#63762；采矿总览入口，无实际教学／管理依据 |
+| 18 | qingkong／2118755954 | 落梦星河#17518；默认文案、广播与总览，无独立故事／职责 |
+| 19 | heiyezhimao cat／95569843 | 吉祥物葉猫儿#26594；总览广播与星城收藏，不凭猫名并冬玥喵 |
+| 20 | Galician0／2117641420 | 加利西亚#00700，狼心守望者；复用2026-10-14名片，已有列传／FC依据沿原人物，格言不补真实背叛事件 |
+| 21 | OOOOOAO／2120859435 | 摸鱼#11501；OOOOOAO与OAOOOOO同字母变体同编号同团归组，未读YouTube频道 |
+| 22 | LY Samoyed／2115423588 | 黎明#33520；复用2026-10-14名片，字符画和广播，无独立人物事件 |
+| 23 | qiuxiaoye／2124366891 | 秋小叶#35457；音乐／其他游戏剪辑的喜好清单，不认本人作品或EVE持续创作 |
+
+[摸鱼O字组](moyu-11501.md)双号同根、同编号同团归并；另一个摸鱼名字不近、编号不同，先不强合。两个猫名中文头衔也不同，不仅凭cat词合人。[Az](atlantis-zs.md)内环称呼及收藏、[Monicadede](monicadede.md)转引六竹的话均已归档；不由内环名片认高层，不由他人台词认保存者本人经历。
+
+六竹篇按被转引的吐槽补进个人印象段，保留两层署名、不写真实感情经过或精神状态。普通DC一天换团撤出黑料、事实留素材；ESS只据公开介绍写教学红料，不声称读视频。原KB、A1、H-PA29与全部他人评语保留，统计不写成开船次数。
+
+Navigators Union第24—45后续已读，见下文；这些是该团历史名片，不是该团前50、九月人物调查或全员故事完成。
+
+2026-10-17离线按当前人物目录的收录号ID补齐19个既有人物的过时收录标记，共305条记录现明确标对应；未新增人物、未刷新名片、未扩充原榜，也未借常见别名推新同人。原头衔／简介核读事实保留，旧“未收录”资格状态不再沿用。
+
+2026-10-17 Navigators Union续批：从第24—33起，逐批最多10人；缺失名片、必要身份补查及人物快照共上限30请求，复用成功缓存，不自动追加预算，不读影像／字幕／音轨。
+
+### Navigators Union第24至45名与老实成文（2026-10-17）
+
+第24—33、34—43、44—45完整名片分批已读，新22次角色ESI；老实正式快照6请求，newcat解析名字及完整名片2请求，共30次，未自动追加预算。优先完成明确公开教学作品，后五名留下一批，不把前45称前50完成。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 24 | LOL-boom／2116573047 | 房子小#56756；四族无畏打油诗、回文诗及字画／长须鲸收藏，不认原创或具体会战／指挥 |
+| 25 | Crazy Sharks／2113480038 | 疯狂小鲨鱼#73675；近名同头衔同当前团归Crazy little sharks，空简介不补故事 |
+| 26 | Aslantic Ops／2124350320 | Az#54192（内环成员）；同编号同团归ATLantis ZS小号，默认简介未补实际职责 |
+| 27 | Bra bear／2119036692 | 奶嘴熊#26368；广播／总览，无独立事件／职责 |
+| 28 | shialen Akiga／97029900 | 白桦#72933；简介空，职责／故事待补 |
+| 29 | XIAN915／2122241170 | 政贤#1330；常规／旗舰收藏及欧服首杀AT自署，未核本人参与／全服首杀，不只凭收藏立传 |
+| 30 | fanms An／2115770922 | 大树；当前混沌，I AM INEVITABLE文案，不认真实事件／职责 |
+| 31 | beichuang233／2116369676 | 悲怆#67418；总览／称呼／给点入口，未有具体交易或人物事件 |
+| 32 | TaihangHistory／2124279433 | 宇宙#11037；与JL-Yuzhou同编号同团归组，默认简介 |
+| 33 | jack zqls／2115957999 | zql早起了#34314；简介空，职责／故事待补 |
+| 34 | Tiger WRC／2119565866 | 飞奔#59359；与Monicadede同编号同团归组，生活格言不作人物事件 |
+| 35 | newdog catch／2112603797 | 马巴奥；小妖收录号，复国诗和收货号沿原传；newcat catch已核同人，错字误判已更正 |
+| 36 | Na2SiO3／2119780455 | 龙夏存#84118；与longxiacun同头衔同团归组，硅酸钠无害文案非实际事件 |
+| 37 | Sextant IV／2112111572 | 有话未曾讲#65188；LP收购、OSY社区及攻略工具入口，无具体经营／管理职责或事件 |
+| 38 | LentoZero／2121410226 | 加利西亚#00700（狼心守望者）；同编号同团归加利西亚小号，格言不作真实背叛事 |
+| 39 | Snowlyhz／2116861785 | 烛安#45649；抒情、工具与KM收藏，无独立事件／职责 |
+| 40 | SilverMoon Pope／2115060237 | 银月教皇#89978；字画、QA物品／总览／KM收藏，不认QA身份或实际指挥 |
+| 41 | LeaMan／2118234078 | 柠檬#65733；任务路线、字画与总览，不因半名并谨言慎行等角色 |
+| 42 | Fargone McStra／91787471 | 老实#57068；本人公开整理11套燃烧配装及操作／测试说明已读，按教学作品成文，不宣称全部原创或实飞效果 |
+| 43 | TaihangYuzhou／2124277346 | 宇宙#11037；同Taihang系列、同编号同团归宇宙三号组，默认简介 |
+| 44 | Xing lang Z／2121423915 | 星狼#04247；当前98827799，建筑管理频道、总览和KM收藏，不认建筑管理员或新战役 |
+| 45 | cold rain TT／2114078284 | 冷雨#09379；单句对喷文案，无具体互动事件，不凭一句粗口加严重辱骂标签 |
+
+[疯狂小鲨鱼](crazy-little-sharks.md)、[Az](atlantis-zs.md)、[宇宙](yuzhou-11037.md)、[飞奔](monicadede.md)、[龙夏存](longxiacun.md)、[加利西亚](../../src/people/galician0/materials-galician0.md)六组补同人；同编号同团为依据，不相加逐号KB，也不凭内环、文案或物品名补管理／FC职责。
+
+[老实素材](../../src/people/fargone-mcstra/materials-fargone-mcstra.md)与列传已完成，九正式、两测试版配装和具体操作说明作为本人公开整理／教学内容；抄字按本人自嘲叙述，不说独立原创、真实侵权或已验证当前版本效果。当前N-V-U／FRT按正式快照。
+
+[小妖素材](../../src/people/newdog-catch/materials-newdog-catch.md)补newcat catch／2112627820，同奥巴马称呼同创世且本人指定收货号，直接归小号；旧错字笑话已纠正。原FC／斥候经历、KB、Atioth与北方战役保留，补小号拿超旗损失调侃资历的原话；不由这句造新船损、角色指挥或主小号累计。不是新增一个自然人或给收货号虚构历史榜名次。
+
+该续批现已完成，见下文Navigators Union收尾与兔飞前26名；其他普通候选继续沿实际职责／具体事件补，不靠诗文、收藏、报价或总览强凑列传。
+
+### Navigators Union收尾与兔飞前26名（2026-10-17）
+
+Navigators Union第46—50及兔飞第1—10、11—20、21—26完整名片分批已读，29次新ESI、2份旧缓存（渡河16日、非物14日）。预算上限30，未继续扩批或转查普通战果；50与26只指历史榜名片覆盖，九月榜个人调查及故事仍未完成。
+
+#### Navigators Union第46—50名
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 46 | Xcorleone／2118631643 | 八爷#03232；雷电与炼狱格言、巴盖斯及特里斯坦收藏，不认文学原创或本人参战 |
+| 47 | Jay Judy／2114250451 | 温克罗德#57678；英文调侃及Judy落款，无独立事件／实际职责 |
+| 48 | XiyeJDG／2120547893 | 兮夜#88439；广播、PLA总览与龙鸟收藏，沛川精英小队为频道入口，不认实际指挥 |
+| 49 | lol-booom／2116651131 | 房子小#56756；同LOL-boom近名同编号同当前团归双号，矿石分级表与字画不认原创教学 |
+| 50 | HYHduhe／2121490491 | 渡河#43019；复用16日名片，CCP太空舱收藏，不认本人击杀或官方身份 |
+
+#### 兔飞第1—26名
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | YDmercer／2118981963 | 你好朋友；QAQ，无独立事件／职责 |
+| 2 | Zhao-Jian-Guo／2115652382 | 赵建国；自列七条长须鲸损失入口及三句修仙调侃；沿已有本人线索，不当七次独立人物故事 |
+| 3 | YM sakura／2116369488 | 飞飞；已有CEO列传，萌新小Sakura自称沿原传 |
+| 4 | Sakanaaaa／2120647491 | 鱼鱼；深空鱼漫游手册实际为总览预设，非已读攻略文章，不认原创作者 |
+| 5 | Iivo Virpio／2120902383 | 精神小伙の仿生人；与suraka同团、头衔明确指主人且同suraka自设入口，归本人双号，QA物品不认测试员 |
+| 6 | Red Sun2022／2116344108 | 六色；简介空，职责／故事待补 |
+| 7 | sena123／2118717687 | 乱套；火力、后勤与传电广播，无独立事件／职责 |
+| 8 | CXKOLG／2117185800 | 飞飞の仿生人；同已确认系列的完整个性头衔、同兔飞归飞飞；后勤首KM为自述，泰坦／冥府收藏待核参与 |
+| 9 | xiao shui／2119496334 | 无头衔；当前非玩家军团，仅广播，不把历史榜当现任兔飞成员 |
+| 10 | Corlos M Constantine／2121413619 | 卡洛斯的仿生人；当前98626718，抗性、感应器、植入体用途表及广播，不认原创或管理 |
+| 11 | Weavers Uers／2122669144 | 火只；普通船损、星城收藏、首旗舰KM自署及估价工具，不仅凭战果集合立传 |
+| 12 | fatbird11／2121523075 | 小燕子；收藏北极星、星城与舰娘入口，不认官方身份；与fatbird14近名且主人称呼同团归双号 |
+| 13 | tuzifei001／2120091139 | 飞飞の仿生人；已有飞飞小号tuzifei001，默认介绍不写世界观 |
+| 14 | yuhang55／2119806899 | 雨杭；当前98556933，自称后勤驾驶员、反TIDI及利夫／使徒损失收藏，非FC证据 |
+| 15 | hua hua hua／2120184051 | 无头衔；当前98720295，空简介，不凭花花重名并已有同人 |
+| 16 | COCO MILK／2121139867 | 大树；当前混沌，I AM PROVIDENCE；与fanms An仅常见头衔相同，英文文案不同，不在缺更多桥梁时并人 |
+| 17 | Liu-Kang-Mei／2115768686 | 无头衔；当前98831820，古诗不当本人原创或战役自述 |
+| 18 | Li BaTian／2115368163 | 霸天；广播、LP／深渊／工业／矿价／运输工具索引，未有实际经营或管理事件 |
+| 19 | KaoLengmian／2122754474 | 烤冷面；简介空，职责／故事待补 |
+| 20 | fatbird14／2122111689 | 小燕子の仿生人；同fatbird11近名／主人称呼同兔飞归双号，默认介绍不作经历 |
+| 21 | JFK LOL／2120847133 | 非物，战斗总监；复用14日名片与已有列传，不重复建总监人物，远征广告沿本人素材 |
+| 22 | Nekkakainen Isula Penken／2120417063 | 饭饭；默认介绍，职责／故事待补 |
+| 23 | kevinyyya／2121189697 | 凯文；当前98529628，监视者与无畏收藏不认本人驾驶Monitor／FC |
+| 24 | Raskiainen Appas Yotosala／2122767179 | 56；本人帕拉丁损失收藏与Chris Harbour CHN角色入口，不由分享直接认同人 |
+| 25 | suraka／2120743274 | 精神小伙；本人suraka自设及外来总览、远征等级入口，与Iivo Virpio归双号，不认所有总览原创 |
+| 26 | ocu9idear／2116322604 | Lonの仿生人；救世收藏、总览与估价工具，主人Lon角色待对，不凭仿生人称呼认飞飞 |
+
+[房子小](lol-boom.md)、[小燕子](fatbird11.md)、[精神小伙](suraka.md)三组同人已归档；[飞飞](../../src/people/ym-sakura/materials-ym-sakura.md)补CXKOLG，原有编号系列不重建人物。赵建国长须鲸收藏与修仙自嘲归[本人线索](zhao-jian-guo.md)，不把收藏条数替代独立人物事件。小水当前非玩家军团，其他人当前军团各以本次ESI记录为准，不将历史榜名册当现任兔飞名单。
+
+深空鱼漫游手册为overviewPreset，并非外部教学文；精神小伙主号的suraka自设同样属于总览入口，未读其具体预设内容或作品互动，不因带“手册／自设”便立传。Lon主人尚未对上，卡洛斯与常见大树称呼继续待具体桥梁；不把所有仿生人都并给飞飞。
+
+兔飞第27—50及Faceless前十已续读，见下文；优先看中文头衔、实际职责、作者入口与具体事件，保留既有失败／排除记录，不读影像、音轨、字幕。2022年一月活跃表仍独立归档，不与历史榜或九月榜相混。
+
+### 兔飞第27至50名与Faceless前十（2026-10-17）
+
+完整名片：兔飞第27—36、37—46、47—50及Faceless前十，34份中28份新ESI、6份复用13／14日缓存；另1次ESI核颂词作者Kyousuke7，共29请求，上限30，没有追加。兔飞前50及Faceless前十为历史榜名片阅读，不代表九月个人调查或故事全收齐。
+
+#### 兔飞第27—50名
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 27 | BK0717／2119616016 | BK；当前98799349，虫洞／Turnur／扎尔扎克路线、收费站频道及BR655b637399730f044eba04e5；收藏不认实际参战或经营收费站 |
+| 28 | Eat oranges／2122086437 | 夜空；英文蝴蝶自述及外来总览个人修改版，无独立社区事件／作品互动 |
+| 29 | Daft Eullon／2115155689 | 摸摸；小八配装与保护船的文案、广播，无独立事件／职责 |
+| 30 | Yashkambim Cansh Noud／2122694243 | YA；建筑与回收服务入口、Vidmak收藏，不认本人经营或建筑管理 |
+| 31 | Vagabond TT／2115041623 | 神话の仿生人；已有神话小号Vagabond TT，任务／虫洞／远征表与自用总览，保留本人旧债务故事 |
+| 32 | X Wanzi／2122499269 | 丸子；默认简介，职责／故事待补 |
+| 33 | indefinitely／2117874977 | 无头衔；当前非玩家军团，童话文案与Laelaps收藏不足独立故事 |
+| 34 | ikun00／2122136359 | 梦の仿生人；与ikun000近名、主人称呼同团归双号，四项团队ECM配装入口与伤害提示非完整实测教程 |
+| 35 | yoimiya11／2122862410 | 小燕子の仿生人；同fatbird系列个性主人称呼／同兔飞归小燕子第三号，烟花抒情句不认独立事迹 |
+| 36 | Kyousuke777／2123179159 | 京介；与Kyousuke7近名同主人头衔同兔飞归双号；估价工具及make by myself未展开具体作品内容 |
+| 37 | Fake-End／2118969207 | 李广；简介空，职责／故事待补 |
+| 38 | jingluo／2118730741 | 欧鹏；长篇爱莉希雅文娱剧情介绍，不挪成EVE人物经历 |
+| 39 | Barbecue camels／2122502799 | 烧烤の仿生人；扫描、LP、合同、深渊、工业、矿价及运输工具，主人准确角色待对 |
+| 40 | Roccano／92005020 | 无头衔；复用14日名片，当前非玩家军团，总览广播及LP／辟邪出售，无具体成交或角色职责 |
+| 41 | WuMinPPP／2123131125 | 葭九；默认简介，职责／故事待补 |
+| 42 | Yudeqiannn／2120189814 | 于德谦；二战老兵文案、宗教语句、字画与KM收藏，不推现实年龄／身份；角色互链不直接认同人 |
+| 43 | BT0925／2121150646 | BT；简介空，职责／故事待补 |
+| 44 | RoninrN13／2121452673 | 肉；虫洞及物流工具、收货号2121310358入口；改善EVE实际链接退出游戏按钮，不当教程 |
+| 45 | hhdd88／2117315164 | hhdd88；退出游戏与打开钱包按钮玩笑、N老板挑衅及Monitor收藏，沿AOM既有线索，不把收藏当本人击杀 |
+| 46 | ikun000／2122018023 | 梦；同ikun00近名、主人称呼同兔飞归双号，深空鱼手册为总览预设 |
+| 47 | Fehnabre Amat Puhkastu／2122774798 | 树叶；70M收摄魂／24小时上线打钱广告、旗舰与CCP收藏、抗性远征对应表，无实际成交／指挥证据 |
+| 48 | tyouki01／2121614283 | 张张；总览、估价与扫描工具，黑豹超载输出文案及无畏收藏，不由自嘲推实战贡献或事故责任 |
+| 49 | Magic Spell／2118936868 | 泽瑞；当前98550682，简介空，职责／故事待补 |
+| 50 | tuzifei003／2120093703 | 飞飞の仿生人；已对应飞飞小号tuzifei003，默认介绍不作世界观经历 |
+
+#### Faceless前十
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | Rainight kurumi／2117046673 | 无头衔；复用13日名片，现非玩家军团，泰坦收藏三KM已核攻击者，沿既有线索，不把TT没了写成本人泰坦损失 |
+| 2 | Soy sauce No／2118118124 | 酱油；复用13日名片，默认简介，职责／故事待补 |
+| 3 | coo en Cedoulain／2114463130 | 系欧欧；复用13日名片，总览与广播，无独立事件／实际职责 |
+| 4 | Qiya Hei／2115982590 | 神奇黑旗，联盟FC；复用13日名片及已有FC短传，公开招新沿本人素材 |
+| 5 | Andromeda XU／2115426304 | 老徐；当前B.O.P，Tree From Andromeda短句，无独立事件／职责 |
+| 6 | Fadek Windy／2115325695 | 随风；已归联盟主事者随风小号Fadek Windy，招新福利不重复建传 |
+| 7 | Kar Erkkinen／92392376 | 烟火黑；简介空，职责／故事待补 |
+| 8 | Pyrion Flax／751405489 | 快乐小超人；当前98833988，简介空，不能凭Pyrion Flax同名套别的公众人物 |
+| 9 | Fan Tuan Tuan／2118880203 | 饭团团；复用14日B.O.P名片，出师表为诸葛亮原文，非本人创作 |
+| 10 | Dr3twa／1629866259 | 那个光头男人；英文歌词，不作本人作品或现实外貌评价 |
+
+[梦](ikun000.md)、[京介](kyousuke777.md)双号已归档，[小燕子](fatbird11.md)增第三号。神话／飞飞／随风已有小号不重建人物；京介的颂词及第一次无畏KM身份补回[飞飞素材](../../src/people/ym-sakura/materials-ym-sakura.md)与原红料块，不从感谢信推飞飞主动让人头或要求个人崇拜。
+
+hhdd88沿[AOM既有线索](aom-monthly-2021-09.md#2026-10-17hhdd88名片入口复核)补退出游戏／钱包按钮的链接性质，Monitor收藏未读原始参与，不添本人旗舰战果。[Rainight](rainight-kurumi.md)三条已成功核读KM仍复用，不再把“TT没了”归其本人损失。其他文娱剧情、古文、宗教语句及默认世界观均不改写成角色本人的现实身份或游戏经历。
+
+Faceless第11—36已续读25份，第24名ESI404，见下文；复用已有名片与列传，优先实际职责、具体事件及作者入口；旧名片日期与本次归档日期分开。2022年一月活跃表继续独立处理，不读视频、音轨、字幕。
+
+### Faceless第11至36名与小小苏成文（2026-10-17）
+
+第11—20、21—30、31—36分批核读，26名取得25份完整名片，第24名Wangzha角色ESI404（未重试、未推删号原因）。本批20次角色ESI含该404，复用6份13／14日缓存；小小苏关键词2次、官方论坛全文1次、标准快照6次，共29请求，上限30。第22名tinggo在首个脚本中成功保存、恢复时复用，仍计一次新请求；成功名片不重取。首个临时脚本遇404退出，修为复用缓存并保留该缺口后继续；未以失败当不存在。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 11 | TricK Dexter／161529106 | 大萝卜；路过者多语文案、字画及starslave战果收藏，与RobertK Neville同中文头衔同团归双号 |
+| 12 | Ventus ZhongLi／2119086999 | 钟离尘风，钟离财团创始人；复用13日完整名片，已有联盟管理与译稿列传，生日字样不存现实年龄 |
+| 13 | Azure bluesky／2114644820 | 天兵，军团首席菜鸡.团灭之星；已有CEO／FC与钢羽故事，不把自嘲当新事故 |
+| 14 | chu meng／2116299695 | 初梦；复用14日Fox名片及已有故事线索，战果收藏不认新事件 |
+| 15 | ZZZ KKKXXX／2113127318 | 余声；本人伊什塔／太空舱／希尔博拉斯损失收藏与字画，不把普通船损独立立传 |
+| 16 | CPwind／2118781235 | 无头衔；当前非玩家军团，首次休津／大航KM、2022旗舰与建筑签名自述留存，未核具体原始参与 |
+| 17 | snkbod／2118139417 | 空空如也；snkbod总览与外来总览分享，具体创作／作品互动与职责待查 |
+| 18 | JiaShen Yangg／2118018631 | 珅（钟离替身，括号否认）；复用14日主号名片，已有联盟外交管理列传，台词与Laelaps收藏沿本人素材 |
+| 19 | RobertK Neville／94605820 | 大萝卜；同TricK Dexter中文称呼同当前无面者归双号，乔丹语录不认本人原创 |
+| 20 | fpsless Guo／2114750098 | 小小苏，CFO；公开自报财务负责人、当前Fox，按重要管理短篇；角色市场26B报价已核，不指定CFO所属组织或任期 |
+| 21 | Tisiphone ALCESS／2115564526 | 悲叹之星；复用14日名片及九条已核KM，不重查幸运击杀榜或据最后一击认FC |
+| 22 | tinggo／2119750000 | TG；完整名片已读，当前银雾龙骑98613748、简介空，职责／故事待补 |
+| 23 | KAT Candy／2115160005 | 糖果猫；同Candy DOG双号归组已在九月线索，EE Logistics报价广告不认本人经营物流或法尔小号 |
+| 24 | Wangzha／2115161793 | ESI404；2026-10-17角色接口缺名片，不写删号原因／头衔；其他名片成功后续读 |
+| 25 | mai shoushou／2115186880 | 卖手手；已收录作者／FC，当前钢羽98617103，军团多项戏谑菜单不单独造事故 |
+| 26 | StarsX／2117051150 | 无头衔；当前非玩家军团，总览与月卡价格入口，不认实际成交或现实交易 |
+| 27 | Wilson Vic／2115685711 | 空城；仅联系方式，不保存现实账号，不凭普通称呼合并其他人 |
+| 28 | Mnemosyne888／167133199 | 无头衔；简介空，职责／故事待补 |
+| 29 | Mature vinegar No-2／2119102346 | 酱油；与Soy sauce No同中文头衔同团，调味品词根及No命名相合归双号，默认介绍不作经历 |
+| 30 | KD Hsueh／2119399734 | Kelly；简介空，职责／故事待补 |
+| 31 | Candy DOG／2115188259 | 糖果猫；复用14日名片，Candy DOG与KAT Candy既有双号组，不算本轮首次认人 |
+| 32 | m yj11／2116148497 | 大泡泡；广播、虫洞／属性技能／任务掉落通用表，无本人署名创作互动或独立事故 |
+| 33 | CabbageTimil／2116041057 | 白菜；已收录CabbageTimil，EVE PARTNER与B站279635057／YouTube入口沿本人素材，非小白菜Cabbage66 |
+| 34 | Captain Thor／2112826041 | 雷神；简介空，职责／故事待补 |
+| 35 | Hurry CHINA／2115891977 | 无头衔；当前非玩家军团，抗性／反跳怪／远征通用说明，不将通用表当独立作品或本人事件 |
+| 36 | howcoolisit／2117147603 | 几度；对JJ SoulMate等人的辱骂配文与舰船收藏、洛基高手自许、掉线元帅说法；只有收藏和片段，未核具体故事／责任 |
+
+[小小苏素材](../../src/people/fpsless-guo/materials-fpsless-guo.md)与短篇已完成，以公开自报CFO这一重要管理身份收录；官方市场26B竞价是正文场景，未以普通买号／战果收藏单独凑门槛。头衔没写所属组织及任期，正文不擅称Fox或无面者财务总监；当前FOXOR／NC按正式快照。成交的是另一位买家的26.5B，不把出售角色归小小苏小号，也不造钱款亏空或成交失败黑料。
+
+[大萝卜](da-luobo.md)、[酱油](soy-sauce-no.md)双号归档；[糖果猫及悲叹之星](dok-monthly-people-2026-10-14.md)沿既有完整归档，不冒称新同人或重读九KM。[白菜](../../src/people/cabbagetimil/materials-cabbagetimil.md)、天兵、钟离、珅与卖手已有传，保留原角色故事；普通首舰KM、通用表、角色链接与自嘲不自动认新事故、教师／管理或同人。
+
+Faceless第37—50已补读，见下文；前50实际49份名片、第24号仍为显式缺口。九月个体故事与其余队列继续保留。2022年一月活跃表独立归档，不与当前ESI或历史榜混同；影像、音轨、字幕未读。
+
+### Faceless收尾与Dawns LightP前十（2026-10-17）
+
+Faceless第37—46、47—50与Dawn’s LightP前十完整名片分批已读，新23次ESI、白菜小号复用12日缓存1份；老魏标准快照6请求，共29次，上限30，未继续扩批。Faceless前50实际读49份，第24名Wangzha的既有404仍保留，没有重试或按失败推删号；Dawn’s LightP只是历史前十，不代表当前成员／九月个人调查完成。
+
+#### Faceless第37—50名
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 37 | lanka TRUMP／2115189906 | 无头衔；当前非玩家军团，简介空，不凭TRUMP名字认其他人物 |
+| 38 | junshengfuxi／2120219685 | 鲸落，元气少女果冻妹妹；特殊舰船配装／物品及CCP Dren收藏，不认实际驾驶／官方身份，不与跨团鲸落并人 |
+| 39 | XIAO WAN WAN／2119051502 | 小万万；火力／后勤广播与总览，没有具体职责／独立事件 |
+| 40 | xiaoxiaohualuo／2121192104 | 潇潇桦落；懒得写，无独立事件／职责 |
+| 41 | xuelian Lin／2115157211 | 林；政治理论文本引用，不据此认现实政治身份／军团管理或本人原创 |
+| 42 | Crea1ure／2116699191 | 木木三；同中文外号同DC社区归dear mumusan小号，曹操155—220 B.C落款笔误已补原传，不认英文译文原创 |
+| 43 | From the sky／2122531853 | 猫娘猫猫；好朋友FENTOU收藏、对FRT文案与舰船／星城收藏，总览抗性表不认实际FC或他盟猫娘 |
+| 44 | Mature vinegar No-4／2119102517 | 酱油；同Mature vinegar No-2系列同头衔同团归第三号，默认介绍不作经历 |
+| 45 | Purple Iris／2118294915 | 9527梦；当前BOP，字画、罪恶／马克瑞／GM太空舱收藏，不认GM身份或具体本人事件 |
+| 46 | CaiGou CabbageTimil／2116264387 | 白菜；复用12日名片，既有CaiGou CabbageTimil小号与本人平台入口，不重复建传 |
+| 47 | Kumiko Tosaka／2116586734 | 御坂；让龙焰再次伟大与罐装知识玩笑，无具体活动／管理依据 |
+| 48 | Doge Patrouette／2113085667 | 安玻；当前神农98779710，简介空，职责／故事待补 |
+| 49 | AK47 CCTV／2113678561 | 无头衔；当前非玩家军团，自嘲文案与旅行者收藏，不推现实学校／性别或违法事件 |
+| 50 | yuan shijieheping／2113239656 | 愿世界和平；双语反战愿望与数字序列，无独立人物故事／实际职责 |
+
+#### Dawn’s LightP前十
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | Z-33H3／2122054135 | 无头衔；当前星城大学98707431，默认简介不作世界观经历 |
+| 2 | Prehonel Aynie Stetille／2122529211 | 老辛；当前混沌98598862，默认简介，职责／故事待补 |
+| 3 | yu le／2122668203 | 老魏，FC；当前宝宝巴士98777401，按本人自报FC成文；预警指南只读本人分享标题，OGC冠军按本人自称 |
+| 4 | Misguider zheng／2122309682 | 误导者；当前混沌，自称萌新不当管理或具体翻车 |
+| 5 | Tench TTTSAI／2113305888 | 放血；当前混沌，in and out短句，无独立事件／职责 |
+| 6 | charon1／2119928531 | 大傻春-牧星6班-班主任-达达；CEO charon1已对应王答答，不因班主任头衔重复建传或撤原CEO依据 |
+| 7 | Shadow Warrior85／2117610404 | 低吟；简介There is nothing here，无独立事件／实际职责 |
+| 8 | Ichie Poljus／2123185557 | 无头衔；当前非玩家军团，荤段子与字画／广播不作独立人物事件 |
+| 9 | SoupOnly／2123302409 | 韩立；天南第一剑修文娱称号、EVE-Scout及星城／加姆／使徒收藏，不认本人全部参与或指挥 |
+| 10 | GainBoast40／2114511679 | 欧欧；简介空，职责／故事待补 |
+
+[老魏素材](../../src/people/yu-le/materials-yu-le.md)与FC短篇已完成，当前B.Y.B／D.C依正式快照；OGC冠军按本人自称，不补赛事全称／规则／年月或胜负，预警指南只是本人分享标题，不当本人原创教学。charon1既有王答答身份与CEO记录复用，不因班主任头衔另起一篇。
+
+[木木三素材](../../src/people/mumusan/materials-mumusan.md)补Crea1ure，同中文外号同DC语境归小号；两号当前分别无面者／BOP，不写成同团，不换收录号或加总KB。曹操落款的B.C笔误补原传轻黑料，旧招新、赔钱卖无畏、管理风波、综合KB与会战均保留。[酱油](soy-sauce-no.md)补Mature vinegar No-4为第三号，不冒称编号系列齐全。猫娘、鲸落等常见外号不跨团套给其他人物。
+
+Dawn’s LightP第11—40后续已读，见下文；其余故事／职责、九月个体与2022一月任期仍在原队列，不以名片覆盖代替全部完成。影像、音轨、字幕未读。
+
+### Dawns LightP第11至40名与同人归档（2026-10-17）
+
+第11—20、21—30、31—40完整名片分批核读，30次新ESI达到本批上限30；另复用15日hlen名片补同人。未再打开B站、查KM或取新快照，入口已归档待下一批，未把预算停点当成作品质量不足。本批没有新增列传，四组同人和具体作者／职责入口仍为实际增量。前40为历史榜名片，不是当前团员或九月个体故事完成。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 11 | Tegi Nakrar／2123194272 | 村口头号杀猪佬；当前98812288，英文海盗赎金模板含占位符与虚构要求，不当真实勒索／海盗职务或本人独立事件 |
+| 12 | holi sily／2115502909 | 阿尔卑斯山；简介空，职责／故事待补 |
+| 13 | ChiYan／2121623978 | 无头衔；当前98811170，简介--，职责／故事待补 |
+| 14 | TempestUdf／2123068426 | 0845 儿子；polapo奥鸟等收藏与本人贴出的B站631118682入口；主页未读，不推现实家庭或已确认UP |
+| 15 | XTiger256／2123454108 | 长文白；同XTiger258系列同头衔同当前98825114归双号，普通狂暴损失不立传 |
+| 16 | Samarkanda／96204081 | 泰山 军团；烟花甚美不过瞬间文案，军团两字不认重要管理／FC |
+| 17 | MoMian／2121623991 | 无头衔；当前98811170，CCP Lumi雷裔收藏，未核本人参与，不认官方身份 |
+| 18 | Altria P／2122713650 | 柿子#26237；当前特执98540583，民不可轻格言，无具体管理／人物故事 |
+| 19 | Ex-KF Ex-KF／2115461883 | 白凝；与hlen及后续三号同头衔同团归五号组，总览工具不认原创教学 |
+| 20 | XTiger258／2123407411 | 长文白；同XTiger数字系列／同当前团归双号，GM与普通舰收藏不认官方身份或职责 |
+| 21 | pluviophy／2123881349 | 破风 六班；默认介绍，六班不认班主任或实际管理职责 |
+| 22 | Frozenstein／2123456542 | 9527；简介空，不以常见数字称呼并9527梦等角色 |
+| 23 | A Speculum／94262190 | 无头衔；当前98840731，GECL火力／后勤广播，无独立事件／职责 |
+| 24 | Panthera America／2115839196 | @；总览与广播，@通用符号不作跨号归属依据 |
+| 25 | Lova 8899／2122318173 | 萌萌；新手教程指B站31544583、广播入门BV1D79vYdEmE，本批未打开，不把分享者当作者；个人总览与GM收藏待具体故事 |
+| 26 | BOSSXRPG／2122368655 | 无头衔；当前非玩家军团，CCP太空舱／铭牌及无畏收藏，无独立人物事件／职责 |
+| 27 | General TAnk／2113898124 | 坦克；当前98777557，多语萌新自嘲与和平文案，不据此推现实身份或能力 |
+| 28 | Baocang／2122781669 | 白凝；同中文头衔同Dawn’s LightP归五号组，恶狼收藏不认指挥／全部参与 |
+| 29 | Misguider Black／2123042985 | 误导者；同Misguider系列／同当前混沌归双号，默认文案不作经历 |
+| 30 | CN luo yu／2122772581 | 无头衔；简介自署洛羽，无独立事件／职责 |
+| 31 | yingkong／2122681921 | 阴空；同yingkong2近名编号／同头衔同混沌归双号，简介空 |
+| 32 | ONETC／2123142334 | 无头衔；当前非玩家军团，卫队总览／教皇自用预设名不认本人是教皇或原创作者 |
+| 33 | super star book／2123275651 | 梦宇-牧星6班-初级-达达；卫队总览与ww专属入口，班级末尾达达沿现有王答答方向，不认本号管理职责 |
+| 34 | yingkong2／2122721996 | 阴空；同yingkong编号／同当前混沌归双号，偏远屏障短句无事件 |
+| 35 | Yue Ban Z／2123101891 | 月半-牧星5班-初级-误导；有误导者带教／联系人方向，字段未释义，不直接认班主任或归本人小号 |
+| 36 | DaBingJiaYiQie／2122657553 | 大饼；当前混沌，奥苏斯收藏无具体本人事件／职责 |
+| 37 | qbnipabupa3／2122781750 | 白凝；同头衔同团归五号组，默认介绍不作经历 |
+| 38 | onepig0022／2122781536 | 白凝；同头衔同团归五号组，默认介绍不作经历 |
+| 39 | Romaneeconti／2122751769 | 蝎子AFK；自称2024军团十大杰出人物／特殊贡献成员、反击所有来犯军团宣言及旗舰／普通舰收藏，实际贡献／管理分工待补 |
+| 40 | NICOLE MOTHER／2119469763 | @；虫洞信号、出口书签、洞口分级／编号／质量寿命／极化通用说明，未识别本人原创或作品互动，不凭@并Panthera |
+
+[长文白](xtiger256.md)、[误导者](misguider-zheng.md)、[阴空](yingkong.md)各双号；[白凝](bai-ning.md)五号同中文头衔／同当前团归组，复仇与矿队名单只保存本人标签和角色入口，未取得具体争执、原言论或战斗，未认全部名单为本人小号。学员名片末尾误导／达达与班号、初级的对应格式保留，实际带教分工继续查，不仅凭成员名片便给误导者补班主任头衔。
+
+[TempestUdf](tempestudf.md)本人贴B站631118682；[萌萌](lova-8899.md)分享31544583主页与BV1D79vYdEmE。均保留确定URL供直读，本批未开主页／作品，不在总表提前登记为已确认UP，不把教程分享认成本人创作。Tegi的海盗文案明确有占位符，要求一万颗椰子、十桶82年朗姆、海盗表情包和辣条，另开价十亿金币、威胁放出连续骂72小时的鹦鹉，落款Blindeye Jerry／Pasture Star No.1二副；保留为模板玩笑，不当真实勒索、入账或军团岗位。Romaneeconti自称十大杰出人物，贡献未展开，不拿奖项自述代替管理工作。
+
+该续批已完成，见下文Dawn’s LightP收尾与AOCAL前十；确定UP入口按实际公开文字另查，影像、音轨、字幕不读。2022年一月活跃表与2026九月／历史榜分开。
+
+### Dawns LightP收尾与AOCAL前十（2026-10-17）
+
+Dawn’s LightP第41—50与AOCAL前十完整名片分批核读，19次新ESI、陆三千复用14日缓存1份。两张B站资料卡与4个公开空间导航已读，含可能匿名引导的预留后本轮≤29次／导航，上限30；未再打开具体视频页、翻评论或取新人物快照。没有新列传，白凝两新号及两个已识别账号名的入口是新增归档。
+
+#### Dawn’s LightP第41—50名
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 41 | CV coin／2122852486 | 本质AFK；默认介绍，AFK自称不当普通船损或职务依据 |
+| 42 | microplumage／2122815675 | 无头衔；当前非玩家军团，简介空，职责／故事待补 |
+| 43 | James Regans／2116587466 | 军团；字画，军团二字不认CEO／重要管理 |
+| 44 | zheng white／2114204689 | 大白；当前98825114，越南语冷面杀手文案，不作真实暴力或社区事件 |
+| 45 | Lu3000／2122953406 | 陆三千；复用14日昆仑名片，CCP／纪念碑收藏及半血王子文案，不推本人参与或原创 |
+| 46 | onepig0033／2122781546 | 白凝；同onepig编号同头衔同团归第六号，默认介绍不作经历 |
+| 47 | WGRY／2120794344 | 无头衔；当前98814317，默认介绍，职责／故事待补 |
+| 48 | yd1008611／2122784036 | 白凝；同头衔同团归第七号，默认介绍不作经历 |
+| 49 | Bel'veth／2120090057 | 维斯；O.o表情复读，无独立人物事件／职责 |
+| 50 | EvilDemon25／2123415335 | 恶鬼；当前混沌98598862，字画／广播／凛冬总览框架，不作独立作品或FC |
+
+#### AOCAL前十
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 1 | Napoleon Codie／2113235803 | 毛蛋王纸等头衔；已有AOCAL CEO／FC列传，人数钱数表单位用途不明已归本人素材，不重建人物 |
+| 2 | sown 001／2113741413 | 猫先生；会战视角实际为overviewPreset总览，不是战斗视频或指挥经历，其他广播／预设待具体故事 |
+| 3 | lizia lizia／2114969932 | 立子；当前98732722，三种旗舰名称／通用抗性表与频道，不认实际驾驶或本人创作 |
+| 4 | Tush Aak／2120607124 | 吉普；默认介绍与广播，无独立事件／实际职责 |
+| 5 | untheshadow／2114371268 | 天堂角落；总览与火力／后勤广播，无独立人物事件／职责 |
+| 6 | wuya Ornulf／2114660222 | 无头衔；当前98732722，旗舰物品入口、通用抗性表与燃烧TEAM伤害提示，未识别本人教学互动或职责 |
+| 7 | Gateraus／2113367034 | 雷电；NoNo Never Feed及天空纸条常规FC总览是共享预设，不认本人为NoNo／纸条或FC |
+| 8 | young Acami／91609641 | 星光；通用抗性表与Eon火力广播，不认实际任职或原创，不凭常见外号并其他星光 |
+| 9 | killyouall NOW／2114215513 | 无头衔；当前98806403，铁壁／CCP太空舱与寡妇收藏，未核本人参与／实际职责 |
+| 10 | XiGuan Allas-Rui／2114524679 | 吸管；自嘲索要太空舱文案，无具体对象、独立事件／指挥依据 |
+
+[白凝](bai-ning.md)现对应七号，所有号统计仍分开；[毛蛋](../../src/people/napoleon-codie/materials-napoleon-codie.md)沿已有CEO／FC身份，人数钱数表只归档，不造税款或分账用途。sown 001的会战视角、Gateraus的FC总览均核为预设，未把蓝字标题认成作品或指挥。
+
+[TempestUdf入口](tempestudf.md)对应账号名EVE牧星军团631118682，[Lova分享入口](lova-8899.md)对应EVE老头乐31544583；两账号已补B站总表候选，未给分享者补个人UP标签。最新首屏分别12／42视频标题已读，资料卡／空间计数差另记，卡片第二计数未当评论数。两组order=click地址与最新页返回相同顺序，最多播放没有实际切换，不称已完成两排序；合集、作品简介及评论未读，标题候选不等于作品推荐或真实泄密／战果。
+
+此续批已完成，见下文AOCAL第11—20名与牧星评论入文；两账号操作者仍待对应。普通角色具体职责／故事、九月个人调查与2022年一月历史任期仍在原队列。只读公开文字，影像、音轨、字幕未读。
+
+### AOCAL第11至20名与牧星评论入文（2026-10-17）
+
+本批9次新ESI、银狐复用14日缓存1份；夜灵正式快照6次；两个公开空间导航及各一次实际点击排序共4动作、合集目录2导航、三作品API公开元数据／一页评论各2次，共27请求／导航动作，上限30。没有自动翻评论、作品分页或加预算。
+
+| 历史名次 | 角色／ID | 已读头衔、身份与下一步 |
+| --- | --- | --- |
+| 11 | xiaotian ORE／2124019653 | 小天；角色背景式种族／血统自述不入正文，无独立人物事件／实际职责 |
+| 12 | JBCNM／2120724936 | CMER；当前98679090，五层轨道及无人机／炸弹操作笔记、估价／预设；夹站外成人链接未打开，不认原创或实教互动 |
+| 13 | Fiery Kylin／2114106058 | 囚梦；广播、跳桥选项、字画及新人连环提问模板，不把模板当本人某次带队或指挥翻车 |
+| 14 | Tofe／2113895481 | 拖肥；总览与星系入口、角色1687651723链接标题Two Asher Elias=One noraus，不认本人是该角色或真实人数／能力换算 |
+| 15 | inconceivabl／2114028684 | 银狐#11309；复用14日名片，通用IV任务防效／递减表含异常800007.08860%显示，不当现行装配建议或独立故事 |
+| 16 | onthe shadow／2113552028 | 天堂角落 王牌飞行员；同shadow近名同头衔同团归untheshadow双号，王牌按自称不认FC |
+| 17 | AK mao／2114582057 | 青稚；简介空，无独立事件／职责 |
+| 18 | Cir Benuse／2114871328 | 亱靈，故土FC，总监；当前SARD98540583，按公开自报FC短篇成文，不补某场总指挥或总监具体分工 |
+| 19 | bigsurge／2120201457 | 风云；联系人标签、nanyuan11骗子标签及通用资料，未有具体交易／损失，不把单方标签当现实犯罪 |
+| 20 | Sistais／2121705499 | 熊二；对喷文案及勒维亚坦收藏，无具体互动事件／指挥依据 |
+
+[夜灵素材](../../src/people/cir-benuse/materials-cir-benuse.md)与短篇已完成，按头衔自报故土FC／总监保留，当前SARD.／FRT按正式快照；不指定实际指挥战役或把英文小队署名认成组织创建记录。[天堂角落](onthe-shadow.md)双号、[银狐](inconceivabl.md)异常任务表、[风云](bigsurge.md)联系人与骗子标签分别归档，普通模板、链接和粗口不补成事件。
+
+两个B站账号已实际点击最多播放并核选中状态，最新／最多首屏及合集目录均有阅读边界。牧星三集合集卡3159与第三集1706分开；旧order=click链接未切换的失败认定保留，未把卡片第二计数当评论数。[第三集的RR／蜜蜂黑名单话题](../sources/muxing-rabbit-tutorial-2026-04.md)8主／9附带回复已读，补王答答与台风原传。EVE老头乐招新12主／8附带、千人会战20主／46附带已归[原账号线索](lova-8899.md)，包括作者自述海盗小队抓掉线鹏鲲；不把别人的会战日期／星系或片段套给他，账号游戏角色仍未对上。
+
+下一批接AOCAL第21—30名；两账号优先找公开游戏角色／中文自报，再沿已读教程、招新、海盗小队经历和作品互动补人物。未读候选不判质量不足，影像、音轨、字幕未读；2022一月活跃表仍独立。

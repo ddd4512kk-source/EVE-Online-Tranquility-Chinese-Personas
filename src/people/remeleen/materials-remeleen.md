@@ -77,3 +77,4 @@
 
 - 角色 91309503；执政官（23757）；战时 FRT（联盟 99003581／军团 98178881）；攻击者记录 2 条，代表 [KM 105130852](https://zkillboard.com/kill/105130852/)。
 - 角色 91309503；未记船型（0）；战时 FRT（联盟 99003581／军团 98178881）；攻击者记录 1 条，代表 [KM 105136443](https://zkillboard.com/kill/105136443/)。
+- **B站账号**：Remeleen丨（UID 5636499，https://space.bilibili.com/5636499 ），与角色名同名。2026-10-16 B站板块扫描读空间首页：投稿60条，代表作《We are Northern Coalition. NC 宣传视频》《Back to Therapist 2.0- 太空女鬼2.0 EVE Online PVP》，另有《[EVE]AT XIX- 00联盟的支付偿还与救赎》《一条baby冥府是如何在旗舰异常出生的》《17岁女高中生7000小时EVE- Vindicator第一视角》、合作《全华班首个EVE世界总冠军！》；BV16x411Y7ba是否在此空间未逐页核对。作品精选待读。

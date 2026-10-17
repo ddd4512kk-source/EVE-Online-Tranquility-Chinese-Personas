@@ -24,3 +24,17 @@
 
 - 贴吧客户端：“ForUndeadAsuka”“狂血兔”零结果；“飞鸟 EF”撞词。
 - 凛冬论坛：账号存在，无主题、无回帖。
+
+## 空间排序入口补取（2026-10-16）
+
+[本人空间UID50869069](https://space.bilibili.com/50869069/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
+
+最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
+
+- [《【EVE宁静SOLO】还是流浪用起来舒服啊（26.7.4）》](https://www.bilibili.com/video/BV1pcMP6qEnN/)
+- [《【EVE宁静SOLO】天下武功，唯快不破！（26.3.2-26.3.6）》](https://www.bilibili.com/video/BV16MP4ziE9E/)
+- [《【EVE宁静】CL6-ZG,黑渊夏之阵，铁炮队对轰！(23.7.30)》](https://www.bilibili.com/video/BV1uz4y1s7Kq/)
+- [《【EVE宁静】6RCQ-V，用INIT的航母炖一锅鸡汤~~（26.2.28）》](https://www.bilibili.com/video/BV1YDAYzMEPV/)
+- [《【EVE宁静SOLO】我想要成为EF的击坠王！！（26.1.14-26.1.20）》](https://www.bilibili.com/video/BV1Y6z5BfEdQ/)
+
+作品精选尚未完成；优先与既有已读作品去重，核具体简介、选集、作者公开文字与合作角色，再定推荐。不取影像、字幕或音频，未读不判作质量不足。

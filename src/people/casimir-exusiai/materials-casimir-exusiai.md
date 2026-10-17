@@ -35,3 +35,4 @@
 - **隐私**：阿马曾付1000元托Nan代买雪茄并发地址；后Nan小号Yakumo Aka在本地频道公开其姓名地址电话。只写行为，不存任何具体信息。
 - **现役小号（2026-10-15）**：[Casimir Platinum（2115162532）](https://zkillboard.com/character/2115162532/)，建号2019-04-21，比本号早；雇佣轨迹与本号多段重合（Victory Belongs Union、Naval Intelligence Agency、49 City.、Redamancy、Thunder Mercenary Army），2022—2023 曾在 We Love Cody；现 Blue Shadow Guard。zKB 514杀（约285.1B）、损失110、单杀26，活跃至2026-06。[Thunder Pony（2118190675）](https://zkillboard.com/character/2118190675/)，建号2021-01-29，zKB 1158杀（约662.2B）、损失347、单杀17，活跃至2026-07。两号均为本人、仍在使用。
 - 帖末另称“FRT N老板之前就因为RMT被永封”，未点名角色，不归给任何人；帖末为蜜蜂联盟招募广告。
+- **B站账号**：Leon7ovol（UID 391818271，https://space.bilibili.com/391818271 ），与小号Leon 7ovol同名。2026-10-16 B站板块扫描读空间首页：唯一投稿《EVE-欧服 重攻金鹏13分半速刷古斯塔斯6/10（有个小失误）因为招新官不会剪视频，正文从25分钟开始》（2020-07-05）。

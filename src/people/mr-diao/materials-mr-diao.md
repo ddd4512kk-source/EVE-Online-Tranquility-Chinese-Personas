@@ -20,6 +20,27 @@
 - **糊弄反间谍审查的本人自述**：[2024 年搬运蜜蜂机库被洗的帖子](https://forums.winterco.org/t/topic/24480)中承认以别人的信息应付审查。正文不写现实身份细节。该帖洗蜜蜂机库的人是 Jay Amazingness，不能误记成 MrDiao。
 - **被盘古踢出及相处评价**：[FlyingBee 回忆](https://forums.winterco.org/t/topic/13924)，作者不知完整经过；不把踢人原因擅改为诈骗、盗号或洗机库。
 
+### 强暴重型运输船统计（2026-10-17 zKB，已入文）
+
+- 口径：`zkill-asearch.mjs`，全时段、`label-ganked`，攻击方为本人角色。受害船分别查 groupID 513（货舰）、902（跳货）与 shipTypeID 28606（逆戟鲸），按 KM ID 合并主号与 Not Mrdiao 后去重。DiaoMoney 的 KB 小（共 536 杀，货舰 2、Industrial Command 11），未查。
+- 主号：货舰 202、跳货 22、逆戟鲸 294；三组合计（含 941 组其他船）592。Not Mrdiao：96 / 10 / 214，合计 386，与主号重合分别为 94 / 10 / 210。去重后：**货舰 204、跳货 22、逆戟鲸 298**，三组合计 600。
+- 对照 zKB stats 的分组击杀数（不限标签，主号）：513 组 208、902 组 25、941 组 379，被强暴标签的占绝大多数。
+- 时段：最早 KM 32755140（2013-08-20），最晚 119261050（2024-07-06）。2013 年的 KM 在 2018 年标签上线之前，标签为 zKB 事后补标。
+- 代表 KM（2024-05/06 Uedama、Sivala、Juunigaishi 一带）：[118132580](https://zkillboard.com/kill/118132580/) 渡神 8.67B、[118130852](https://zkillboard.com/kill/118130852/) 普罗维登斯 7.30B、[118128692](https://zkillboard.com/kill/118128692/) 方尖塔 7.72B（均为 2024-05-25）、[118490483](https://zkillboard.com/kill/118490483/) 普罗维登斯 16.37B（2024-06-08）。查询按 value 排序没有生效，结果按日期排，所以这些只是最近一批里的高值样本，不是生涯最高。
+- 缓存：`.cache/zkill-asearch/gank-haul-*.json`、`gank-<角色ID>-<分组>.json`。
+
+### 2012 Hulkageddon V 排行榜（2026-10-17 补，已入文）
+
+- 活动：Hulkageddon V（Unholy Union），Helicity Boson 主办、Goons 赞助；[TAGN 译介 1551217097](https://tieba.baidu.com/p/1551217097)（2012-04-25）称每杀十条霍克或麦基诺（原译“小麦”）奖一亿 ISK。官网 hulkageddon.goonswarm.com 已失效，读 Wayback 快照（主页内嵌榜单）。
+- 榜单（Champions League 页面，含 MrDiao [MOA]）：
+  - [2012-05-16 快照](https://web.archive.org/web/20120516204500/http://hulkageddon.goonswarm.com:80/)：Most Exhumer/Orca Kills 第 3（106 / 31.29B）；Most T1 Mining Barge Kills 第 5（69 / 19.07B）；Most kills in Amarr Highsec 第 1（110 / 29.97B，第 2 Kaeda Maxwell 109）。
+  - 2012-06-04：Exhumer 榜第 4（120 / 35.55B），T1 矿船第 8，艾玛第 2（127 / 34.43B，第 1 Kaeda Maxwell 165）。
+  - 2012-07-05：Exhumer 榜第 6；2012-08-10：第 7。
+  - [2012-09-10 快照](https://web.archive.org/web/20120910094028/http://hulkageddon.goonswarm.com:80/)（活动后最终）：Exhumer 榜第 8（120 / 35.55B），艾玛第 2（127 / 34.43B）。全活动 Total Kills 21568。
+- 本人帖：ECF thread-378269（原帖不可读）。[1768567390](https://tieba.baidu.com/p/1768567390)（2012-08-03，ztxforever 转）首楼全文转录：3300 击杀、“我现在在全力保住艾玛地区榜首顺便争取住第三的位置，但如果第四那位宅起来的话我可真没办法了”、0.7 以下霍克难找、走 5–6 跳、龙卷风进 0.9/1.0 强杀、“拼名次”、第一名 AMCG 四族游荡、第二名 C 族、第四也是 A 族、“必须想办法让他去G地盘 不然竞争太激烈”。作者归属：[1843851125](https://tieba.baidu.com/p/1843851125) #13 伊芙龙隐天涯（2012-09-06）“OF的叼爷都能发帖公布下这一游戏内容，我就不行？他发帖就没被骂”并贴同一 ECF 378269 链接，称“叼爷的强暴帖”。所述名次与 05-16 快照吻合，原帖时间当在 5 月中旬，贴吧转载日 08-03。
+- zKB 主号 2012 月统计：4 月 66 杀（04-16 起，霍克 25、麦基诺 21、蛋 18），5 月 159 杀（至 05-21，霍克 70、麦基诺 35、妄想 11、蛋 40）；本人船以促进为主（4 月 64、5 月 122），另有龙卷风 11；星系 Fabum、Kamio、Sirseshin、Seil、Madirmilire、Knophtikoo（0.6–0.75）；军团 Dissident Aggressors [DTAS]，联盟 Mordus Angels [MOA]，安等 -10。6 月 11 杀均非矿船，7–8 月无击杀。样本 KM [23615467](https://zkillboard.com/kill/23615467/)（2012-04-30）、[23954894](https://zkillboard.com/kill/23954894/)（2012-05-21）。zKB 数与官网榜单统计口径不同，不互相替代。
+- 1420040853《叼爷组织了强暴队》（2012-02-19）仅一楼“我危险”，无内容；2344016384（2013-05，国服吧问封号）属国服语境，不入文。
+
 ### 检索记录与缺口
 
 - **盗号指控待补**：属于账号安全问题，与游戏内骗 ISK、利用军团权限搬资产不同。尚无可读的原始事件材料，不作为已经证实的事实写进列传；需补账号事件经过、当事方说明或同期记录。

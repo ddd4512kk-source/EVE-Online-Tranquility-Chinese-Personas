@@ -102,3 +102,17 @@ XingXing DingQianKun：Obe 2026-10-10，9 条攻击者记录；代表 KM 1390477
 ## 2026-10-13天团活跃争论
 
 共用[来源摘要](../../../docs/sources/corp-vitality-debate-2025.md)。新增团友Vantler的回忆，覆盖其入欧服、3V与转FRT后一两年在团经历；不推定星星当前是CEO，保留原指挥、访谈、处置争议与自评面板。
+
+## 空间排序入口补取（2026-10-16）
+
+[本人空间UID15346174](https://space.bilibili.com/15346174/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
+
+最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
+
+- [《EVE最长寿最硬核的游戏，愿意来体验一下吗》](https://www.bilibili.com/video/BV1dL4y1x7L6/)
+- [《从EVE宇宙奔赴现实! 50 名公会成员到场，见证军团战友的游戏奔现婚礼》](https://www.bilibili.com/video/BV18dpF65E6e/)
+- [《【EVE进阶教学攻略】小航操作从攻略入门到精通【带详细教学解说】【作者：地平线】》](https://www.bilibili.com/video/BV16c6bB2EZy/)
+- [《【EVE混沌仲裁者教学】【12分钟学会高效多开】【作者：囚鸟】》](https://www.bilibili.com/video/BV1zLzQBrEro/)
+- [《【EVE混沌仲裁者教学】【5分钟速成狞獾高手】【作者：416】》](https://www.bilibili.com/video/BV1BKDLBwETm/)
+
+作品精选尚未完成；优先与既有已读作品去重，核具体简介、选集、作者公开文字与合作角色，再定推荐。不取影像、字幕或音频，未读不判作质量不足。

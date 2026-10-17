@@ -115,7 +115,7 @@ Donwdo 在[瑶光历史榜](https://zkillboard.com/api/stats/corporationID/98725
 - **搜索失败／无有效结果**：EveWho 前缀入口 HTTP 403，本轮立即停止并记冷却；zKillboard 自动补全尝试未获得可用候选数据，不能当有效零命中或穷尽列表。网页两个检索主要是同名噪声，没有新增可用社区证据。
 - **榜单前十排查**：Lemmily（导演）、laohei2333333、laohei233333（老黑／FC king）、Ox00FFFFFFF BIS（奎恩）、268425（当前已离开）、su banana（流氓）、Donwdo（LAOHEI233-）、Temple banana（笑不过三秒）、anna su（链接老黑号）、LS-Somber（幽竹主号）。除上文明确对应者外，不因同团或一起打 KM 就合并。
 - **未完成**：EveWho 完整军团名册未取得；未核 anna su 的互认桥梁、两个退团编号号的履历；Donwdo 完整个体 KB API及未收入现有战报样本的历史战役未查。编号更长、不同词根且不在前十榜单的号仍可能遗漏。这是有界扩查，不宣称找全老黑所有号。
-- 本次不重复抓贴吧长帖或 B 站。此前招新帖及“黑哥5666”的缺口已由下方贴吧回查更新；B 站同名账号仍待对应。
+- 本次不重复抓贴吧长帖或 B 站。此前招新帖及“黑哥5666”的缺口已由下方贴吧回查更新；B 站账号已对应，见下。
 
 
 ## 2026-10-11：贴吧材料回查
@@ -165,3 +165,4 @@ Donwdo 在[瑶光历史榜](https://zkillboard.com/api/stats/corporationID/98725
 2026-10-14[UZI white／93857085](https://esi.evetech.net/latest/characters/93857085/)头衔LAOHEI2333，同老黑独特词根、同当前瑶光，直接归本人另一号。简介本人恶狼收藏和火力／后勤自嘲，不新增事故或战功。[Queen of theDirac-sea／2122466185](https://esi.evetech.net/latest/characters/2122466185/)头衔移动老黑，同当前瑶光，归本人另一号；简介链接自己，写卖远征请链接这个、刺客中英词表及QAQ总览。两号列aliases，当前中文名片对应不替代各场实际操作核查，旧号出生不作本人入坑日期。
 
 原前十已全部读过头衔和简介，本轮复用；laohei23333333（2122428047）也复用既有完整ESI／KM核查，不重取成功来源。anna su仍只有单向链接，未因此转为同人。
+- **B站账号**：老黑233（UID 88162728，https://space.bilibili.com/88162728 ），与别名laohei233相合。2026-10-16 B站板块扫描读空间首页：投稿15条，均为近一年欧服录像：《欧服华人重突队直面洋人超旗群-6rcq会战（init视角）》《欧服华人大战十国联军！-taff旗舰战（bbc视角）》《无畏骑脸怎么输-b9 fuxi投送tt击杀》、FDZ视角归魂与万古击杀、《How to (almost) lose an AT kill》。作品精选待读。

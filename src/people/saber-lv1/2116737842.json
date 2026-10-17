@@ -1,0 +1,47 @@
+{
+  "id": 2116737842,
+  "name": "saber lv1",
+  "birthday": "2020-04-21T13:58:59Z",
+  "current_corporation": {
+    "id": 98640194,
+    "name": "Salted Fish Inc",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98640194,
+      "name": "Salted Fish Inc",
+      "ticker": ".SFI"
+    },
+    "alliance": {
+      "id": 99014738,
+      "name": "The Black Shores",
+      "ticker": "BLKSH"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "name": "School of Applied Knowledge",
+      "npc": true,
+      "start": "2020-04-21T13:59:00Z",
+      "end": "2020-04-25T16:29:00Z"
+    },
+    {
+      "corporation_id": 98615096,
+      "name": "ALL SEX",
+      "npc": false,
+      "start": "2020-04-25T16:29:00Z",
+      "end": "2020-04-29T17:19:00Z"
+    },
+    {
+      "corporation_id": 98640194,
+      "name": "Salted Fish Inc",
+      "npc": false,
+      "start": "2020-04-29T17:19:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

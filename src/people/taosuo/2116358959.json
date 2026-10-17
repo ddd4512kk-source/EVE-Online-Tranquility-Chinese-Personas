@@ -1,0 +1,54 @@
+{
+  "id": 2116358959,
+  "name": "taosuo",
+  "birthday": "2020-02-22T06:18:19Z",
+  "current_corporation": {
+    "id": 98731219,
+    "name": "Gangue hill",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98731219,
+      "name": "Gangue hill",
+      "ticker": "GAN H"
+    },
+    "alliance": {
+      "id": 99003581,
+      "name": "Fraternity.",
+      "ticker": "FRT"
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2020-02-22T06:18:00Z",
+      "end": "2020-02-23T08:56:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "name": "ChuangShi",
+      "npc": false,
+      "start": "2020-02-23T08:56:00Z",
+      "end": "2023-01-15T02:20:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "name": "Republic Military School",
+      "npc": true,
+      "start": "2023-01-15T02:20:00Z",
+      "end": "2023-01-15T02:28:00Z"
+    },
+    {
+      "corporation_id": 98731219,
+      "name": "Gangue hill",
+      "npc": false,
+      "start": "2023-01-15T02:28:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-16"
+}

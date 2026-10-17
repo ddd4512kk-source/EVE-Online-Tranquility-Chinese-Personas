@@ -18,6 +18,11 @@ test("有联盟必须同时带当前军团 ticker，不接受旧称或其他军�
   }
 });
 
+test("已出售角色不强制带买家军团与联盟标签", () => {
+  assert.deepEqual(check([], { ...character, id: 2120656041 }), []);
+  assert.match(check([], { ...character, id: 1 })[0], /必须添加/);
+});
+
 test("ticker 的空格与标点原样保留", () => {
   const corp = { id: 42, name: "Thunders Claw Fleet", ticker: "T C F" };
   const c = { ...character, affiliation: { ...character.affiliation, corporation: corp } };

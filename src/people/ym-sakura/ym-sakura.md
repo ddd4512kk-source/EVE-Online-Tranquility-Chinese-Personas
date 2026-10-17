@@ -1,7 +1,7 @@
 ---
 character_id: 2116369488
 cn_name: 飞飞
-aliases: [YM sakura, 小Sakura, tuzifei404, tuzifei001, tuzifei002, tuzifei003, tuzifei101, tuzifei102, tuzifei103, tuzifei404 X1, tuzifei404 X2]
+aliases: [YM sakura, 小Sakura, tuzifei404, tuzifei001, tuzifei002, tuzifei003, tuzifei101, tuzifei102, tuzifei103, tuzifei404 X1, tuzifei404 X2, CXKOLG]
 epithet: 自称萌新小 Sakura，团员称“敬爱的飞飞大统领阁下”。
 tags: ["00区", "D.C", "TU ZI", "CEO"]
 ---
@@ -25,7 +25,7 @@ tags: ["00区", "D.C", "TU ZI", "CEO"]
 > ……您不仅心系兔飞发展，还在星际舞台上坚定地捍卫兔飞的主权与尊严……
 > 兔飞的领导人帮助我拿下了在新伊甸的第一个无畏KM……再次再一次叩谢兔飞领导人：YM sakura
 
-那条 KM 是 2025 年 8 月 Ahbazon 的一条凤凰无畏，四十五人围殴，[最后一击](https://zkillboard.com/kill/129096137/)给了 Kyousuke7。萌新拿了最后一击，把这份感谢写成颂词，回赠给他口中的兔飞领导人。
+那条 KM 是 2025 年 8 月 Ahbazon 的一条凤凰海军无畏，四十五人围殴，[最后一击](https://zkillboard.com/kill/129096137/)落在京介的小号 Kyousuke7 名下。按京介的说法，这是兔飞领导帮他拿下的第一张无畏 KM；轮到他回礼，一封感谢信便从带队帮助一路写到了主权、尊严与英明领导。第一次无畏战果本来适合留作个人纪念，他却给它配上了整套大统领文书，连“永远紧密团结”都替兔飞人民写好了。看样子，这份人情只回一句谢谢显得太薄，干脆让领导在自己的名片上登一次基。飞飞的萌新自称还挂着，团员的感谢已经替他办起了庆典；一边请人关照，一边收到冬日暖阳般的赞美，小 Sakura 的称号越客气，下面这封信就越热闹。
 :::
 
 ::: 红料 从带新人到跟大队拆星城

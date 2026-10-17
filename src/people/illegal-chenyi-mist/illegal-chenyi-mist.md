@@ -3,7 +3,7 @@ character_id: 2115483774
 cn_name: 非法
 aliases: [Illegal-ChenYi Mist, Naoxina, 薇拉, FeiFa-ChenYi, 宸怡, 非法丨宸怡]
 epithet: LSP 当家，一个人一支后宫舰队，闭月羞花全是小号。
-tags: ["00区", "低安", "FRT", "B站", "LSP.", "联盟高层", "CEO"]
+tags: ["00区", "低安", "FRT", "LSP.", "联盟高层", "CEO"]
 ---
 
 非法，LSP. 的当家，主号 Illegal-ChenYi Mist——英文名翻过来就是“非法”；另一个号干脆叫 FeiFa-ChenYi，拼音也是“非法”。头衔：

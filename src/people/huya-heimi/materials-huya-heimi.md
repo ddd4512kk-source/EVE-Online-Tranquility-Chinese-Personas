@@ -38,7 +38,7 @@
 
 [Azika Gaptain（2113198680）的ESI](https://esi.evetech.net/latest/characters/2113198680/)头衔去颜色标签后为“CEO 空离”，当前Profane Proverb；黑米的头衔为Director 黑米，军团简介列外交。空离与黑米是不同人物；空离尚未收录，按其本人身份取材。角色简介为太极图及古文，无个人事件；空离的任期、社区故事待查，不将黑米材料转给空离。
 
-空离任期补查：DOTLAN于2026-08-17记录XXXHolic-TK X将CEO交给Azika Gaptain，前任角色ESI头衔为“泡泡很忙”。详见[空离独立线索](../../../docs/leads/kongli.md)；角色换任不证明真人管理者更替，黑米与空离仍分别归档。
+空离任期补查：DOTLAN于2026-08-17记录XXXHolic-TK X将CEO交给Azika Gaptain，前任角色ESI头衔为“泡泡很忙”。详见[空离素材](../kongli/materials-kongli.md)；角色换任不证明真人管理者更替，黑米与空离仍分别归档。
 
 ## 2026-10-12：小号对应
 

@@ -1,7 +1,7 @@
 ---
 character_id: 91254848
 cn_name: 舵主
-aliases: [fliet99]
+aliases: [fliet99, fliet100]
 epithet: 两家蓝加的钱都收，收完连雇主一起官宣。
 tags: ["00区", "G.O.T", "OSYTM", "CEO"]
 ---

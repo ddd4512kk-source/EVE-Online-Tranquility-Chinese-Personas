@@ -36,48 +36,90 @@
 | 编号 | 归档位置 | 已读或入口状态 | 剩余工作 |
 | --- | --- | --- | --- |
 | 3 | [cheryl-astelir](../../src/people/cheryl-astelir/materials-cheryl-astelir.md) | 2026-10-14已读20个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；KM127666007已核，不归本人损失 |
-| 5 | [contingency-jctx](../../src/people/contingency-jctx/materials-contingency-jctx.md) | 26条现有标题齐；5个PC作品简介、17个主评论线程已读，战事与作品互动已入文 | 其余14个PC作品、已读页折叠回复和2页评论加载；按所附BR核窗口，不重读手游与其他游戏 |
-| 6 | [ctirx](../../src/people/ctirx/materials-ctirx.md) | 5个作品页、92个主评论线程及本人封号专栏文字已读；辩解、收益与互动已入文 | 频道其余作品及历史分页、折叠回复；专栏工单配图未逐张读，不将转述当GM官方原文 |
-| 7 | [drone-wang](../../src/people/drone-wang/materials-drone-wang.md) | UP5877725已对应；3个RR作品简介及42个主评论线程已读，教学与作品互动入文 | 余下作品先筛播放／评论；低关注片头及牧星小战报不续读；较受关注作品的折叠回复待补，曙光与宁静分开 |
-| 8 | [freak-03](../../src/people/freak-03/materials-freak-03.md) | 2026-10-14已读2个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程；目标驾驶员与KM，标题不作本人战损 |
-| 9 | [freakdog-otto](../../src/people/freakdog-otto/materials-freakdog-otto.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 10 | [frt-baishantvt](../../src/people/frt-baishantvt/materials-frt-baishantvt.md) | [投稿页](https://space.bilibili.com/27285042/upload/video)可读（页面显示295条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 11 | [fu1crum](../../src/people/fu1crum/materials-fu1crum.md) | 《WC众》简介及20个主评论线程已读，作品批评与本人回应入文；另两条埋伏作品评论未加载 | 两条高关注埋伏作品评论持续加载，定点补查无新增后暂停；其他作品先筛关注度，不自动读满65条 |
+| 5 | [contingency-jctx](../../src/people/contingency-jctx/materials-contingency-jctx.md) | 26条现有标题齐；5个PC作品简介、17个主评论线程已读，战事与作品互动已入文；作品精选5条已补，角色／来源归本人素材 | 其余14个PC作品、已读页折叠回复和2页评论加载；按所附BR核窗口，不重读手游与其他游戏 |
+| 6 | [ctirx](../../src/people/ctirx/materials-ctirx.md) | 5个作品页、92个主评论线程及本人封号专栏文字已读；辩解、收益与互动已入文；作品精选5条已补，角色／来源归本人素材 | 频道其余作品及历史分页、折叠回复；专栏工单配图未逐张读，不将转述当GM官方原文 |
+| 7 | [drone-wang](../../src/people/drone-wang/materials-drone-wang.md) | UP5877725已对应；3个RR作品简介及42个主评论线程已读，教学与作品互动入文；作品精选5条已补，角色／来源归本人素材 | 余下作品先筛播放／评论；低关注片头及牧星小战报不续读；较受关注作品的折叠回复待补，曙光与宁静分开 |
+| 8 | [freak-03](../../src/people/freak-03/materials-freak-03.md) | 空间241视频；最新／最多播放第1页各42条，6个作品新增80线程；三泰坦部署与5条文字依据精选入文 | 合集内容与历史页待查；最高播放篇外部原作、视角及战报待核，不冒认本人原创；保护伞评论未加载；勒维亚坦驾驶员与KM待核 |
+| 9 | [freakdog-otto](../../src/people/freakdog-otto/materials-freakdog-otto.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 10 | [frt-baishantvt](../../src/people/frt-baishantvt/materials-frt-baishantvt.md) | 个人号与节目号双排序已核；3篇战争史简介及60个主线程、既有访谈和AT合作文字已读；两号合并精选暂留3条及批评互动入文 | 精选补选待续；其他周刊、混沌访谈、编年史各集与历史页；已读页有用折叠回复；不取影像／字幕／音频 |
+| 11 | [fu1crum](../../src/people/fu1crum/materials-fu1crum.md) | 双排序与无合集状态已核；萌萌篇真实滚轮恢复20主线程，补齐5条独作，公开回嘴／催更入文 | 一龙等旧加载缺口与其余历史页、折叠回复；九人合作只留经历，国服旧作不套欧服战果 |
 | 12 | [governor-lee](../../src/people/governor-lee/materials-governor-lee.md) | 页面及简介已读；2026-10-14两次检查仍未加载评论正文 | 文字评论加载缺口；账号不因招新联系人署名归为本人 |
-| 13 | [guifangq-hate](guifangq-hate.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 14 | [hanbo-han](../../src/people/hanbo-han/materials-hanbo-han.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 15 | [homura-hikari](../../src/people/homura-hikari/materials-homura-hikari.md) | [投稿页](https://space.bilibili.com/23747916/upload/video)可读（页面显示89条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 16 | [iba-la-sotken](../../src/people/iba-la-sotken/materials-iba-la-sotken.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 17 | [irving-zh](../../src/people/irving-zh/materials-irving-zh.md) | 2026-10-14已读2个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
-| 18 | [jianjun-aideron](../../src/people/jianjun-aideron/materials-jianjun-aideron.md) | [BV1CS4y1h7JG](https://www.bilibili.com/video/BV1CS4y1h7JG/)已读页面及8个主评论线程；作者“没有姓名字”，不是建军本人账号 | 其余回复；按21个锶包旧梗找公开文字经过，不凭分享认本人投稿或驾驶员 |
-| 20 | [july-karin](july-karin.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
+| 13 | [guifangq-hate](guifangq-hate.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 14 | [hanbo-han](../../src/people/hanbo-han/materials-hanbo-han.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 15 | [冷剑](../../src/people/homura-hikari/materials-homura-hikari.md) | 双排序复用；新增TEST诱敌与泰坦玻色39主线程，替补为5条独作，准备／误伤故事入文 | 剧本超旗篇滚轮超时、合集展示矛盾与其余评论；千层套路多人制作不计精选 |
+| 16 | [iba-la-sotken](../../src/people/iba-la-sotken/materials-iba-la-sotken.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 17 | [irving-zh](../../src/people/irving-zh/materials-irving-zh.md) | 2026-10-18访谈首屏20个主线程及直接回复已读（新增18、旧2重复）；作者致谢、荣耀邀约与入坑争论已归档入文；空间最新／最多播放首页已取42／42条入口 | 其余评论／折叠回复；不重复已读线程；精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 18 | [jianjun-aideron](../../src/people/jianjun-aideron/materials-jianjun-aideron.md) | [BV1CS4y1h7JG](https://www.bilibili.com/video/BV1CS4y1h7JG/)已读页面及8个主评论线程；作者“没有姓名字”，不是建军本人账号；2026-10-16已对应光头（EvilDobar），见其素材 | 其余回复；按21个锶包旧梗找公开文字经过，不凭分享认本人投稿或驾驶员 |
+| 20 | [july-karin](july-karin.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
 | 22 | [kuo-kuo](../../src/people/kuo-kuo/materials-kuo-kuo.md) | 2026-10-14已读20个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程；驾驶员对应，UP否认“阔老板”身份 |
-| 24 | [lvte-xiao](../../src/people/lvte-xiao/materials-lvte-xiao.md) | 14条列表齐；3个作品简介及53个主评论线程已读，国服回应已入文，B站标签已补 | 2017泰坦与另一2020年作品的服务器／战斗桥；高关注其他作品和有用折叠回复，低关注不读 |
-| 25 | [m-ap](../../src/people/m-ap/materials-m-ap.md) | [投稿页](https://space.bilibili.com/355678453/upload/video)可读（页面显示22条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 26 | [magicfai-rynew](../../src/people/magicfai-rynew/materials-magicfai-rynew.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 27 | [manuer](../../src/people/manuer/materials-manuer.md) | 2026-10-14已读14个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
-| 28 | [micahel-wu](../../src/people/micahel-wu/materials-micahel-wu.md) | [投稿页](https://space.bilibili.com/3546921471838908/upload/video)可读（页面显示18条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 29 | [mikanorg](../../src/people/mikanorg/materials-mikanorg.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 30 | [nanhua-college](../../src/people/nanhua-college/materials-nanhua-college.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 31 | [nono-fire](../../src/people/nono-fire/materials-nono-fire.md) | [投稿页](https://space.bilibili.com/729015/upload/video)可读（页面显示160条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 32 | [orc-foxy](orc-foxy.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 33 | [pogue-was](../../src/people/pogue-was/materials-pogue-was.md) | [投稿页](https://space.bilibili.com/17754851/upload/video)可读（页面显示333条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 34 | [qvqwwqvq](../../src/people/qvqwwqvq/materials-qvqwwqvq.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 35 | [raok-hilanen](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 37 | [sickle-alter](../../src/people/sickle-alter/materials-sickle-alter.md) | 2026-10-14已读19个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
-| 39 | [supercyno-owo](../../src/people/supercyno-owo/materials-supercyno-owo.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
-| 40 | [texas](../../src/people/texas/materials-texas.md) | 2026-10-14已读19个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
+| 24 | [lvte-xiao](../../src/people/lvte-xiao/materials-lvte-xiao.md) | 14条列表齐；3个作品简介及53个主评论线程已读，国服回应已入文，B站标签已补 | 2017泰坦与另一2020年作品的服务器／战斗桥；高关注其他作品和有用折叠回复，低关注不读；精选待补；旧战服务器及X-7／流浪洞作品文字缺口见本人素材 |
+| 25 | [m-ap](../../src/people/m-ap/materials-m-ap.md) | [投稿页](https://space.bilibili.com/355678453/upload/video)可读（页面显示22条）；空间最新／最多播放首页已取24／24条入口；候选归本人素材 | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对；精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 26 | [magicfai-rynew](../../src/people/magicfai-rynew/materials-magicfai-rynew.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 27 | [曼努尔](../../src/people/manuer/materials-manuer.md) | 双排序及3组合集已核；原热门复用，新增3篇46主线程，五条精选及递送／CPU答疑入文 | 其他故事集、同人、折叠回复与防御泡具体内容仍有缺口；不将测试服与正式服、老板事故与作者驾驶混写 |
+| 28 | [micahel-wu](../../src/people/micahel-wu/materials-micahel-wu.md) | 18条空间入口齐；5篇简介及92个主评论线程已读，5条精选及风险答疑入文 | 其余第一季、法法牧、贼鸥及直播回放；有用折叠回复；不把作者配装／收益说法当现行保证 |
+| 29 | [mikanorg](../../src/people/mikanorg/materials-mikanorg.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 30 | [nanhua-college](../../src/people/nanhua-college/materials-nanhua-college.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 31 | [nono-fire](../../src/people/nono-fire/materials-nono-fire.md) | 精选暂留3条；AT合作视频制作与既有战报／采访文字归本人素材 | 精选补选待续；2020年四泰坦作品的BV／战报仍待补；已读页有用的折叠回复，未看影像 |
+| 32 | [orc-foxy](orc-foxy.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 33 | [pogue-was](../../src/people/pogue-was/materials-pogue-was.md) | [投稿页](https://space.bilibili.com/17754851/upload/video)可读（页面显示333条）；2026-10-15 UP已归本人；空间最新／最多播放首页已取42／42条入口；候选归本人素材 | 频道历史分页、作品简介与文字评论；精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 34 | [qvqwwqvq](../../src/people/qvqwwqvq/materials-qvqwwqvq.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 35 | [raok-hilanen](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 37 | [sickle-alter](../../src/people/sickle-alter/materials-sickle-alter.md) | 2026-10-14已读19个主评论线程及直接显示回复，增量归左列素材；空间最新／最多播放首页已取42／42条入口；候选归本人素材 | 其余评论／折叠回复；不重复已读线程；精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 39 | [supercyno-owo](../../src/people/supercyno-owo/materials-supercyno-owo.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
+| 40 | [texas](../../src/people/texas/materials-texas.md) | 2026-10-14已读19个主评论线程及直接显示回复，增量归左列素材；空间最新／最多播放首页已取21／21条入口；候选归本人素材 | 其余评论／折叠回复；不重复已读线程；精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
 | 41 | [treenewbee-ribbons](../../src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md) | 2026-10-14已读16个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程；秒补、被踢与值守说法按来源核对 |
-| 42 | [winter-under-the-snow](../../src/people/winter-under-the-snow/materials-winter-under-the-snow.md) | 2026-10-14已读20个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
+| 42 | [winter-under-the-snow](../../src/people/winter-under-the-snow/materials-winter-under-the-snow.md) | 空间双排序已核；4篇简介、既有速报评论已读；5条精选与W佬委托／音乐2%自嘲入文 | 反时区页49条计数但正文未加载，其他作品评论未读；影像／字幕／音频均未读；阿希尔原BR待核 |
 | 43 | [xiao-shi-yivi](../../src/people/xiao-shi-yivi/materials-xiao-shi-yivi.md) | UP316935249已归本人；3个作品简介、38个主评论线程及可见回复已读，教学答疑入文 | 各作品其余评论／折叠回复；正式服远征与离线项目分开，不再查已齐的3条标题 |
 | 44 | [yilifaer](../../src/people/yilifaer/materials-yilifaer.md)／[共享战役素材](../sources/capital-battles-2026-10-11.md) | 2026-10-14已读13个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
-| 45 | [yingying76](../../src/people/yingying76/materials-yingying76.md) | [投稿页](https://space.bilibili.com/393683258/upload/video)可读（页面显示268条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
-| 47 | [zhayu111](../../src/people/zhayu111/materials-zhayu111.md) | 尚无可用于本人核对的确定UID／BV | 复用已有UP主整理反查角色，不再单起人名搜索 |
+| 45 | [yingying76](../../src/people/yingying76/materials-yingying76.md) | 空间双排序已核；3篇热门整活简介及60个主线程、两篇合作新闻文字已读；精选暂留3条及作品互动入文，旧最高播放说法已更正 | 精选补选待续；最多播放千人会战、打完就睡及其他历史作品；有用折叠回复；医生素材来自NoNo，不归本人施救 |
+| 47 | [zhayu111](../../src/people/zhayu111/materials-zhayu111.md) | 尚无可用于本人核对的确定UID／BV | 等[B站UP检索名单](../bilibili-uploaders.md)板块扫描后反查，不单起人名搜索 |
 | 48 | [jin-peng-translator](jin-peng-translator.md) | 2026-10-14已读20个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程 |
-| 49 | [roadhardt](../../src/people/roadhardt/materials-roadhardt.md) | 角色与UP已对应；30条标题齐，5个作品简介及8个主评论线程已读，复盘与答疑入文 | 其余作品先筛关注度，不再按25个全部补读；已读页有用的折叠回复与原指南PDF署名待补 |
+| 49 | [roadhardt](../../src/people/roadhardt/materials-roadhardt.md) | 角色与UP已对应；30条标题齐，5个作品简介及8个主评论线程已读，复盘与答疑入文；作品精选5条已补，角色／来源归本人素材 | 其余作品先筛关注度，不再按25个全部补读；已读页有用的折叠回复与原指南PDF署名待补 |
 | 51 | [large-battles-2026-10-11](../sources/large-battles-2026-10-11.md) | 2026-10-14已读19个主评论线程及直接显示回复，增量归左列素材 | 其余评论／折叠回复；不重复已读线程；新增BR 69a42471e60d670011c8adae的事件窗口 |
-| 52 | [bulanbulan](../../src/people/bulanbulan/materials-bulanbulan.md) | [投稿页](https://space.bilibili.com/94609129/upload/video)可读（页面显示64条） | 频道历史分页、作品简介与文字评论；身份候选按本人素材继续核对 |
+| 52 | [bulanbulan](../../src/people/bulanbulan/materials-bulanbulan.md) | 空间双排序已核；扩查8候选、71主线程已读；精选暂留3条，合作署名、教材交流与变素材故事入文 | 精选补选待续：外网原作／翻译归属与其余本人系列未读；不把奥拉蛋的第一次口播和评论移给不懒 |
+| 53 | [奥拉蛋](../../src/people/auradan/materials-auradan.md) | 双排序与日记合集已核；复用已读小队哔哔独作替补为5条，合作散打继续留经历 | 旧战服务器、日记余篇与折叠回复；后续投稿不证明具体号未封，封号复核保留 |
+| 54 | [白菜](../../src/people/cabbagetimil/materials-cabbagetimil.md) | 双排序及8组合集已核；6篇简介、120主线程读过，五条精选与历史征稿／Atioth答辩入文 | 会议／字幕与影像未读，剩余系列内容待查；战况转述不代独立BR |
+| 55 | [死枪](../../src/people/crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md) | 双排序与4合集复用；新增3篇60主线程，补齐5条独作，技能点／新人接待入文 | 磁力棒评论为空未判零；系列余篇与折叠回复；海四、回坑、引擎联合制作不计精选 |
+| 56 | [D哥哥](../../src/people/d-manson/materials-d-manson.md) | 双排序／EVE系列已核；7篇75主线程读过，2超时恢复；ATXVI实属那个毒蝎已纠正；暂荐1条中文导读 | 精选未完成：原片驾驶／本人加工与旧比赛内容缺口保留，不把分享的解说归本人，不判只有1部好 |
+| 57 | [多米](../../src/people/duomi/materials-duomi.md) | 双排序及无合集状态已核；2篇会议简介、15主线程读过，皇家会议观众讥讽补入旧散场故事 | 精选未完成：录音／字幕未读，观众反应不代会议内容；3条日常评论数未核，不按弹幕少排除 |
+| 58 | [七七](../../src/people/endless-i-journey/materials-endless-i-journey.md) | 双排序及小寄巧合集已核；7篇简介、130主线程读过，5条精选及教学／招新互动入文 | 其余教学、原BR与折叠回复；收益机制按当年自述，不将662条魔像击杀全归反杀 |
+| 59 | [星星](../../src/people/flashing-shark/materials-flashing-shark.md) | 有本人UP对应，具体作品须补读；空间最新／最多播放首页已取42／42条入口；候选归本人素材 | 精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 60 | [飛鳥](../../src/people/for-undead-asuka/materials-for-undead-asuka.md) | 有本人UP对应，具体作品须补读；空间最新／最多播放首页已取42／42条入口；候选归本人素材 | 精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 61 | [袖笼](../../src/people/innos-d9c/materials-innos-d9c.md) | 双排序已核；真实窗口下拉后5篇各20主线程已读，5条精选及答疑／反讽故事入文，旧加载缺口已恢复 | 其余频道作品、评论分页及有用折叠回复；未读影像／字幕／音频，不据反讽独立确认战果 |
+| 62 | [极冰](../../src/people/jibing779/materials-jibing779.md) | 空间双排序已核；5篇简介与62个主线程、旧FRT货舰材料复用；5条精选及电子战／动画答疑入文 | 其余钓鱼、炸弹、大航作品与折叠回复；未看影像，不将游戏内登船动画认作者自制 |
+| 63 | [W佬](../../src/people/jubah-musanji/materials-jubah-musanji.md) | 双排序及3组合集已核；9篇85主线程、旧委托／SUS复用，合作篇接敌FC与AI失败入文，精选暂留1条 | 精选补选待续：本人日常正文、外网加工／翻译仍有缺口；合作参演、委托与原作者分清，不判其余差 |
+| 64 | [夫鲁](../../src/people/khezu-knight/materials-khezu-knight.md) | 双排序及无合集状态已核；5篇简介与72主线程读过，低播放高评论作品补入5条精选与创作故事 | 其余图文／图片与折叠回复未全读；空间弹幕不作评论数，不将跨游戏创作认自制游戏 |
+| 65 | [费娜希雅](../../src/people/kurusugawa-himeko/materials-kurusugawa-himeko.md) | 双排序与非EVE雪女杯合集已核；7篇简介及92主线程已读，五条精选、会战等待与配乐争议入文 | XGB本人及服务器未核；征服者具体内容不足，未判差；余篇与折叠回复仍有缺口 |
+| 66 | [辣酱](../../src/people/la-jiang/materials-la-jiang.md) | 空间双排序及旧98标题复用；6篇简介、71个主线程已读；精选暂留4条中文配文作品，合作数据整理仅留经历 | 精选补选待续；外网原作者、原BR与有用折叠回复；不把转载视角独归本人驾驶和指挥 |
+| 67 | [亮神](../../src/people/lightgod/materials-lightgod.md) | 有本人UP对应，具体作品须补读；空间最新／最多播放首页已取42／42条入口；候选归本人素材 | 精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 68 | [银色汤勺](../../src/people/mc-jiaming/materials-mc-jiaming.md) | 空间双排序已核；4篇热门作品简介及80个主线程、既有回应置顶已读；5条精选及正统／招新互动入文 | 历史作品、晚间钢板等其余候选与折叠回复；不从上传身份认片中指挥／泰坦驾驶员 |
+| 69 | [墨菲](../../src/people/murphy222/materials-murphy222.md) | 双排序及合集页已核；11候选全部文字读过、139主线程，超时页恢复成功；五条精选及勘误／失约／整活／修史互链入文 | 录音、影像、字幕未读；搬运个人加工归属及空简介守城内容仍有缺口，不判差 |
+| 70 | [天籁](../../src/people/nature00-soul/materials-nature00-soul.md) | 双排序及指挥3节系列已核；7篇简介、104主线程读过；五条精选、换边语气／教学互动入文，修正破万遗漏 | 系列第三及其他作品／折叠回复未读；国服旧事、听声指挥与标题人数不直接归本人战绩 |
+| 71 | [半盏醉颜红](../../src/people/one-half-wine/materials-one-half-wine.md) | 空间双排序已核；4篇简介及65个主评论线程、既有1400恶狼答疑已读，5条精选与超载／鸽更故事入文 | 其余历史作品、低安日记及折叠回复；搬运篇未读且无额外改编署名，不冒认本人原创 |
+| 72 | [兔仔猪](../../src/people/rabbit-p/materials-rabbit-p.md) | 有本人UP对应，具体作品须补读；空间最新／最多播放首页已取42／42条入口；候选归本人素材 | 精选待补；先读已归档的最多播放候选并核署名／服务器，未读不判质量不足 |
+| 73 | [文华](../../src/people/ranger-yl/materials-ranger-yl.md) | 双排序与4篇月报合集入口已核；凌晨四点20主线程已读，补齐5条独作与夜班出勤故事 | 燃尽五万亿滚轮超时、合集内容与折叠回复；AT19多人制作只保留后期经历 |
+| 74 | [四十二](../../src/people/renard42/materials-renard42.md) | 空间双排序已核；5篇简介及93个主评论线程、新闻合作署名已读；精选暂留4条及互动入文 | 精选补选待续；未读影像；深流篇录制为小周，具体操作文字不足；其他作品、合集与实际指挥缺口归本人素材 |
+| 75 | [云曦](../../src/people/ryan-claire/materials-ryan-claire.md) | 双排序与5篇日常合集入口已核；Obe超时恢复、战巡答疑补读，24主线程；暂荐4条，百米冲刺／艺术处理入文 | 精选未完成：其余3篇具体内容不足、影像禁读；已读旧文字保留，不判只有4篇好，不据0伤害显示评贡献 |
+| 76 | [小宋宋](../../src/people/xiaosong223333/materials-xiaosong223333.md) | 空间双排序及既有10篇评论复用；新增4篇简介已读，5条精选和故土招新故事入文 | 节点篇与阿巴宗内容仍不足，非质量判差；欧加仑／故土原BR及评论待补，不据反讽判断胜负 |
+| 77 | [紫电](../../src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md) | UID243130391双排序齐；3篇过千作品及25主线程已读，AOM争议入文并暂荐1条 | 精选未完成：救援、海神文字少且影像未读；旧战／PLD系列内容待补，不按播放量判差 |
 
 ## 访谈评论与嘉宾对应
 
 AVDOT一期（BV1mt4y137zJ）与WAW/F1一期（BV183411P7vt）的页面、简介及各20个已加载主评论线程已读；人物增量已归白杉、NoNo、大林、斑鸠素材，不重复取材。剩余为文字评论分页、楼中楼及[未对应嘉宾](ningjing-interview-guests-2022.md)的角色核对；嘉宾依据与阅读覆盖见该线索。未看影像，不续读字幕。
+
+
+## 精选回查范围（2026-10-16）
+
+冻结55篇带B站标签的列传；已有5条带理由推荐的Freak、宝马哥、黑米保留，不重复取材。其余52篇逐项核对，精选未完成事项已合并进上方唯一队列，普通来源链接不直接算推荐。按排除联合制作的新规则重算，当前33篇列传列满5条本人作品推荐，另22篇沿上表补选；旧含合作名额的完成数不再沿用。事实与取舍归本人素材，不另列完成名单。小绿特的旧战服务器与两篇低信息宁静作品仍待补；紫电UID243130391已补登记并核最多播放，旧战内容待读。
+
+37个已知UID空间的两种排序首页与合集入口已取得并归本人素材，未遇浏览器拦截。作品内容尚待逐项核，入口取得不算精选完成；不取影像、字幕或音频，不自动全频道补完。
+
+白杉个人号27285042与节目号1273724812的两种排序均已核；两号作品须去重一起筛。候选表中“猎獒青春版拷打小宋”账号只涉及小宋，不归小宋本人。
+
+AT最高播放合作篇已归NoNo与文华、白杉素材，三人的本人精选均已撤掉此篇；制作、后期和上传角色与冠军队员分开，不看决赛影像、字幕或音频。
+
+紫电UID243130391的最多播放已补核，空间入口归本人素材，作品内容仍待补。
+
+2026-10-17按联合制作排除规则复核43篇列传中的203条推荐，撤掉13篇内的19条：明确合作署名18条，另有W佬委托小冬创作的他人作品1条。合作与参演经历仍归原素材；各人当前数量与补选缺口已更新至上表及本人素材。署名判断复用已存公开文字与缓存，未读影像、音频或字幕；单纯舰队参战、供素材与软件分工不自动算联合制作。
+
+18个仅有旧素材摘录、缺独立作品页缓存的现荐作品，已定点补核公开简介与署名，未见新增联合制作署名；结果归本人素材。首条评论读取超时，另给1次只读简介／署名的复核后成功，共19次页面导航。未取影像、音频、字幕，不计新增评论阅读；未扩展频道。

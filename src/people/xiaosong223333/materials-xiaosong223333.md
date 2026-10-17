@@ -26,3 +26,32 @@
 [共用战报与窗口](../../../docs/sources/large-battles-2026-10-11.md)：2026-02-22 13:30–15:10 UTC，Taff，BR 各方总损失约 720.20B；EVE-KILL 同场估价约 659.23B。逐号记录用于对应自然人，正文合并为本人一次战役经历。
 
 - 角色 2118501510，当时联盟 ID 1900696668，咒灭，攻击者：[KM 133569043](https://zkillboard.com/kill/133569043/)，2026-02-22T14:13:51+00:00。
+
+## 空间排序入口补取（2026-10-16）
+
+[本人空间UID410060728](https://space.bilibili.com/410060728/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得21、21个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
+
+最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
+
+- [《Eve Online 4-H旁FRT大溃败》](https://www.bilibili.com/video/BV1zWodBYECW/)
+- [《EVE online 在导致GS超旗队被困的节点崩溃前究竟发生了什么？》](https://www.bilibili.com/video/BV1WfDEBpEak/)
+- [《EVE online 26.04.21 欧加仑的葬礼》](https://www.bilibili.com/video/BV1QZdUBwEZ4/)
+- [《EVE online 26.07.19 阿巴宗大舞台，有船你就来》](https://www.bilibili.com/video/BV1cEKC6rEP9/)
+- [《EVE online 26.08.15 故土万亿铁壁盲盒 四小时鏖战拼尽全力无法守住》](https://www.bilibili.com/video/BV1BVgu6DE24/)
+
+本节只记候选入口，具体取舍与未读缺口见后文。
+
+## 热门候选取舍与五条精选（2026-10-16）
+
+复用空间21条最新／最多播放及此前10篇热门评论的阅读。本轮新读4个候选简介、选集和公开署名；因同轮评论入口停在加载态，后续仅取公开文字，没有本轮新增评论。未看影像、字幕或音频，不将HDR／Hi-Res自述当亲自视听评价。
+
+- [节点崩溃前](https://www.bilibili.com/video/BV1WfDEBpEak/)：简介只说全场10分钟、TU ZI招新、HDR及Hi-Res制作；未交代具体过程，本轮不选，不凭标题判技术故障原因、责任或被困战果。不是判作品质量差，具体内容仍未读。
+- [欧加仑葬礼](https://www.bilibili.com/video/BV1QZdUBwEZ4/)：附[BR](https://br.evetools.org/br/69e75f37a2b082001365b43b)及[WarBeacon](https://warbeacon.net/br/report/4d17700b-59f5-49d0-95b3-8ac3a9c6dbec)，原报尚未联网核；本人文案“帝国大军2比1的惊天人数优势，恐不能敌”“将军走此小道，绕路菲德，转进低安”，带明显反讽，不直译为帝国战败或据此认定谁真的撤退。正文只写其文案口气、挂报与招新，不补战果和指挥归因。
+- [阿巴宗大舞台](https://www.bilibili.com/video/BV1cEKC6rEP9/)：简介空，仅标题与选集；本轮不选，具体战斗和作者贡献未读，不从标题判质量。原作入口保留。
+- [故土铁壁](https://www.bilibili.com/video/BV1BVgu6DE24/)：附[BR](https://br.evetools.org/br/6a7f976daea5ff69fefb480b)与[WarBeacon](https://warbeacon.net/br/report/fe6833b9-3dee-4865-95bf-79829784ae98)。作者前情称7.62、FRT等增强故土公开铁壁，INIT装甲轮失利，结构轮CTA，对方准备3000战列；末尾继续INIT CN招新。标题说四小时没守住，公开片长2073秒；未看画面，不把片长当实战全程。原报未核，不认标题万亿已达到战役分档或直接归本人FC；正文按本人简介写防守经历与招新反差，普通败仗不另当黑料。
+
+精选为此前已读4-H、早起后勤、哈马哈气，加本轮欧加仑与故土，共5条；涵盖阵营反话、后勤日常、跨作品对线与本方防守叙事。推荐依据未越过已读简介、本人文字和明确战报入口，不冒称看过实战。未选两篇、其他作品与有用折叠回复仍有未读缺口；既有KB、Taff、招新切换与哈气故事保留。
+
+## 推荐作品署名（2026-10-17）
+
+[Eve Online 4-H旁FRT大溃败](https://www.bilibili.com/video/BV1zWodBYECW/)、[EVE online 26.02.11 B-9C24 早起的后勤有牢坐](https://www.bilibili.com/video/BV1L8cxzQELt/)、[EVE online 26.05.31 哈马哈气大作战](https://www.bilibili.com/video/BV11vVU6SEXZ/)的公开简介与作品页未见联合制作团队或多人制作分工署名，保留原推荐。仅核公开文字与署名，未读影像、音频、字幕；本轮不计新增评论阅读。

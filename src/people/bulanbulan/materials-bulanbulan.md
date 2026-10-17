@@ -85,3 +85,40 @@
 | [BV1qpyuBeEim](https://www.bilibili.com/video/BV1qpyuBeEim/) | 散打小队 ／ 海小布 16B战损 |
 | [BV1mEy7BuEpQ](https://www.bilibili.com/video/BV1mEy7BuEpQ/) | 散打小队 ／ 装甲诅咒级 |
 | [BV1JSChBaEf6](https://www.bilibili.com/video/BV1JSChBaEf6/) | 韦德单/双人 soloPVP |
+
+## 空间排序入口补取（2026-10-16）
+
+[本人空间UID94609129](https://space.bilibili.com/94609129/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
+
+最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
+
+- [《黑珍珠散打教程01期 | PVP走位进阶教程（干货分享）》](https://www.bilibili.com/video/BV1nZC2BGE4K/)
+- [《小队散打深度探讨第一期 | 小队PVP走位（截击必备）》](https://www.bilibili.com/video/BV11CkSBsEb1/)
+- [《【EVE】散打日记&第一次口播给大家讲散打》](https://www.bilibili.com/video/BV1NRho6DE3m/)
+- [《散打小队 | 马克瑞级 Solo》](https://www.bilibili.com/video/BV1i8ti6iEiw/)
+- [《散打小队 | 甲抗诅咒 VS FRT》](https://www.bilibili.com/video/BV1oumkBAE1b/)
+
+候选的后续核读、取舍与未读缺口见后文。
+
+## 本人作品、合作与搬运分开核读（2026-10-17）
+
+空间双排序与系列入口复用。新读原5候选57个主线程，追加本人海军启示3、纳瓦拉8及海神视角3线程；共71个及直接可见回复。未看影像、字幕或音频，不以热评背书走位或翻译质量。
+
+- [教程01](https://www.bilibili.com/video/BV1nZC2BGE4K/)：黑莲先赞中文教程，再强调决策与接战、讨论转弯掉速；不懒回复感谢认可。作者还自述也因Q走位停船死过很多船，回复延迟、客户端等问题；不把读者所述机制独立当现行教学。完整楼中楼未展，不声称他没有回复批评。交流入文。
+- [小队走位第一期](https://www.bilibili.com/video/BV11CkSBsEb1/)：简介给sP0hYYK3Tc8，称更新高清加字幕；读者指五月の园游会已有汉化，未核字幕由谁制作，不因“加字幕”认不懒亲译，也未读字幕。本轮不选，原作及翻译归属仍待核。
+- [第一次口播合作](https://www.bilibili.com/video/BV1NRho6DE3m/)：上传Aoruadan UID397037840，公开团队两人，不懒署参演。标题的第一次口播不当不懒本人首讲；“被欺负没剪”“星门击毁没录到”等回复都来自Aoruadan，不能移给不懒。双方互相捧场已入文；联合制作不计本人推荐，撤出精选。
+- [马克瑞Solo](https://www.bilibili.com/video/BV1i8ti6iEiw/)：原作者Nanobrain_EVE，wOkUTJmVcWE，原题Mostly Solo Machariel。本人配文常威打来福，面对“你怎么还变素材”接梗，另答将出教材；新增本人回应故事，不推断他开哪船或具体损失。不因作为素材就认合作创作，本轮不列本人精选。
+- [甲抗诅咒](https://www.bilibili.com/video/BV1oumkBAE1b/)：原作b2avXYLfNqo、Fenrir Chainbreaker，未见额外本人加工，不选，具体事迹仍留来源。
+- [海军启示本人视角](https://www.bilibili.com/video/BV1mBkSBZE52/)：简介自嘲低强度；本人评论公开欢迎FC自行起队、新人提问、各势力招新官、老板出资雇佣，属于组织自述，不认有实际已兑现雇佣合同。奥拉蛋赞其走位与本人回应，只写互捧，不替作品质量背书。
+- [纳瓦拉本人视角](https://www.bilibili.com/video/BV1ZRu26WEXb/)：本人附BR 6a78615f598bc49f845e7611，答标记与电子战按定位分配；谈AT称想去、熬不动、人不够、没联盟。原BR未读，不增战果与指挥，组织处境入文。
+- [海神视角](https://www.bilibili.com/video/BV18z2cBBEx9/)：简介只有HFa8S5vfLqQ原片，读者要求补作者名，另嫌画面糊，本人说马上改进。不能与其他评论提到“上次讲海神”强行认同一教材，不列本人精选。
+
+当前暂列3条：教程01、海军启示、纳瓦拉；奥拉蛋合作篇仅留事迹与署名。已扩至8个具体候选，但剩余3篇搬运及海神的加工／作者不明，不能冒认本人作品；其余本人系列仍有未读缺口，精选未完成，不称只有3个好作品、不以低播放判差。旧黑珍珠组织、loot争议、招新、泰坦与教程01主线均保留。
+
+## 精选取舍（2026-10-17）
+
+以下作品撤出本人推荐，事迹、创作分工及公开互动仍保留：
+
+- [《散打日记&第一次口播给大家讲散打》](https://www.bilibili.com/video/BV1NRho6DE3m/)：奥拉蛋上传，不懒署参演。
+
+当前保留3条精选；其他候选沿上文未读缺口续查。

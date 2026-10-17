@@ -60,3 +60,11 @@
 - Monitor：CO.WA 2026 年 7—10 月 Monitor 船型榜（/top/year/2026/month/N/ship/45534/）均无角色上榜；角色页按船型筛选的击杀列表由 JS 后加载，脚本未取得。更早月份与两号逐场 Monitor 记录待补。
 - 待补：319 空堡（2026-10-11）与 9-29 空堡战 BR。
 - B站、知乎未查。
+
+## 2026-10-16：历史成员榜同人及米奇对应
+
+- [Xiao Huang Fight／2119362525](https://esi.evetech.net/latest/characters/2119362525/)头衔“教皇”，当前Cosmic-Wanderers／98769610；与Xiao HuangRen同Xiao Huang词根、同头衔、同当前军团，直接并本人，新增aliases，不相加各号KB。历史榜第3／4／5的HuangRen、Fight、Jiao均归小黄人；名片各收藏只留入口，不作新战果。
+- 同团历史第17 M1kiIy头衔米奇、CEO、FC，2025年9月确在CO.WA；结合原帖#35点名，贴吧错过😳◎归[米奇](../m1kiiy/materials-m1kiiy.md)。打蓝加争议本人统一回复及广告由米奇承担，不把团员或核弹、其他管理的原话挪给他。
+- 原帖标题“虽败犹荣”与本人“成功守下”同时存在，当前素材没有证明319空堡丢失；评语已改成战斗亏损与标题口径的反差，不写空堡没守住。其他战斗及争议原料保留。
+
+2026-10-16：旧帖#28的day沈学连被楼中点名“核弹”，同名角色N-bomber／2120263809头衔“飞奔的核弹”，2025-04-17起同CO.WA，已对应并[成文](../n-bomber/materials-n-bomber.md)；本人为处理结果辩护与攻击FRT／帖主，不算米奇的统一回复。现同团公开总监[花花cherrybone](../cherrybone/materials-cherrybone.md)也已按任职留短篇，不由这个号的中文名套给ES交接人。

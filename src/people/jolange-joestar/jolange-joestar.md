@@ -1,12 +1,12 @@
 ---
-character_id: 2116389402
+character_id: 2116478004
 cn_name: 瓜瓜
-aliases: [Jolange Jogua, Nolange, 瓜giegie]
+aliases: [Jolange Joestar, Jolange Joguaguagua, Jolange jojogua, Nolange, 瓜giegie]
 epithet: 甲板门槛十个 B，简介愿望一条科莫多。
-tags: ["00区", "FRT", "著名FC", "NUWA", "联盟高层", "CEO"]
+tags: ["00区", "FRT", "著名FC", "AMIYA", "联盟高层", "CEO"]
 ---
 
-瓜瓜，游戏名 Jolange Joestar，另有角色 Jolange Jogua。据他 2025 年的 [CSM 竞选帖](https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771)自述：FRT 联盟总监、Arknights. 军团 CEO、FC，兼大工业玩家，2020 年入坑。
+瓜瓜，游戏名 Jolange Jogua，另有 Jolange Joestar、Jolange Joguaguagua、Jolange jojogua 一串同名号。据他 2025 年的 [CSM 竞选帖](https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771)自述：FRT 联盟总监、Arknights. 军团 CEO、FC，兼大工业玩家，2020 年入坑。
 
 游戏头衔是“Green-Light Man”，角色简介只有四个字：
 
@@ -33,15 +33,19 @@ tags: ["00区", "FRT", "著名FC", "NUWA", "联盟高层", "CEO"]
 
 > 瓜瓜贴贴
 
-2022 年纳瓦拉一战，N老板的[战报](https://forums.winterco.org/t/topic/12874)写着“场外有瓜瓜和龙根在负责后勤”。前线有人打，场外有人管，瓜瓜一直是后一种。
+2022 年纳瓦拉一战，N老板的[战报](https://forums.winterco.org/t/topic/12874)写着“场外有瓜瓜和龙根在负责后勤”。前线有人打，场外有人管，那一仗瓜瓜站在后一边；平日里他更常站在前一边，带着队伍喊锁谁。
 :::
 
 ::: 红料 “又菜又爱 van 的瓜瓜”
 2021 年黑隐加强，瓜瓜发了一篇[《黑隐版本就要 van 黑隐啊！》](https://forums.winterco.org/t/topic/11678)，开头自我介绍“又菜又爱 van 的瓜瓜”，配置点评一句比一句随意：救世的评价是“偏正救世，永远的神”，黑豹被称为“官方唯一指定黑隐，虽然很拉”，罪恶那栏是“干啥都行干啥都不行”，寡妇旁边则写着“老板你这个黑影怎么可以打死亡啊”。他自己在二楼补了一句：“不许乱顶！”
 :::
 
-::: 红料 KB：开超旗的工业佬
-2020 年建号，zKillboard 上用得最多的船是夜神（294 次）。入坑不到两年开上超旗，钱包撑得住“余额大于 10b”的甲板门槛。
+::: 红料 常年挂帅的指挥，副号也在指挥位
+2020 年 3 月建号，主号 zKillboard 上有上万次击杀，开过恶狼、缪宁、洛基、噩梦，却是整个 FRT 里常年挂帅的那一批老指挥，凡是要动员的集结，频道里多半有他的声音。这个号的本职一目了然：喝令。另一个号 Jolange Joestar 开夜神，同样不时露面，2025 年 5 月在 [LS-JEP](https://zkillboard.com/kill/127255808/)、8 月在 [E-OGL4](https://zkillboard.com/kill/129322329/) 都有他。
+
+这两个号的分工，圈里猜大概是这样：主号在频道里喊锁谁、喊几点集合，副号则坐上夜神的指挥位，在战场边上看全局。两个号一前一后，LS-JEP 一回、E-OGL4 一回，几个月的间隔里指挥席没有空过；一个人带两个号轮流在席上，也算把“人手不够就自己顶”演到了极致。
+
+竞选帖里他自称大工业玩家，飞行甲板门槛要钱包十个 B，听着像管账的；战场上却是另一副样子：一个号在频道里喊锁谁，另一个号坐在指挥位上。“又菜又爱 van”是谦虚话，常年带队的人，不是一个“菜”字交代得过去的。
 :::
 
 ::: 黑料 论坛上的“舔狗小组”

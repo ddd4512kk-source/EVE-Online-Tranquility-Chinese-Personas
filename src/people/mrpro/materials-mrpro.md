@@ -2,6 +2,8 @@
 
 ## 角色对应
 
+- 2026-10-15核读Family Guy历史前十：[Mrpropropro（2114554682）](https://esi.evetech.net/latest/characters/2114554682/)与MrPRO同Mrpro词根、当前同Family Guy（98798876），简介又收藏同一Corines Oelus Pareleru民用阿斯特罗记录，归本人并补aliases。头衔“BLUE KILLER”、简介“退休的服务器仓鼠”只作已够格人物的自署，不由头衔补造具体打蓝事件、脚本或现实职业，不相加两号KB。另号cheng114514收藏两段把ECM脉冲波与多谱ECM图标弄混的聊天，但没有本人互链，不凭同团和同类笑话将它归陌然。
+
 - 收录角色 MrPRO（2114453889），本人低安号。雇佣记录与回忆录吻合：sorry4that（回忆录“C卫队团 sorry 4 that”）、两度短暂进 Fuyue Industry Inc.（2021-09、2022-07）、Late night poets 2022-07-27 → 2024-06-24、Benigno Numine 2024-06-24 → 2025-03-16、Family Guy.（Deepwater Hooligans）2025-03 起。回忆录楼中读者称“Pro哥”。
 - 回忆录所述 2018 年起在浮岳重工的 00 主号未查到；ECM 脉冲波事件发生时（2022-04）MrPRO 在 ShenYang Street，事件应为主号所为，按一人一篇并入本篇。
 - 承天府（BGNM，98776375）2024-06-23 建，ESI 创建者/CEO 为 IllIIIllllIIIII（2122473110），回忆录称由他带人新建。

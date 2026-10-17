@@ -1,7 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validBilibiliUrl, pageStatus, revealCommentSection } from '../bilibili-chrome-read.mjs';
+import { validBilibiliUrl, pageStatus, revealCommentSection, loadCommentSection } from '../bilibili-chrome-read.mjs';
 import { runInNewContext } from 'node:vm';
+
+test('定位未触发懒加载时，仍执行真实下滚并等两秒后读评论', async () => {
+  let scrolled = false;
+  await loadCommentSection({
+    async evaluate(fn) {assert.equal(fn, revealCommentSection);},
+    mouse: {async wheel(x, y) {assert.equal(x, 0); assert.ok(y > 0); scrolled = true;}},
+    async waitForTimeout(ms) {assert.ok(scrolled); assert.equal(ms, 2000);},
+  });
+  assert.ok(scrolled);
+});
 
 test('滚动到真实评论区，避免固定滚动越过懒加载入口', () => {
   let paused = false, revealed = false;

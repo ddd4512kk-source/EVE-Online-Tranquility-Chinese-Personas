@@ -1,0 +1,68 @@
+{
+  "id": 2123557648,
+  "name": "awa-123",
+  "birthday": "2025-06-24T08:26:34Z",
+  "current_corporation": {
+    "id": 98705642,
+    "name": "Chuangshi College",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98705642,
+      "name": "Chuangshi College",
+      "ticker": "JXXY"
+    },
+    "alliance": {
+      "id": 99014087,
+      "name": "ChuangShi Federation",
+      "ticker": "CSF."
+    },
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2025-06-24T08:27:00Z",
+      "end": "2025-07-19T10:32:00Z"
+    },
+    {
+      "corporation_id": 98702890,
+      "name": "Descendants of Shen Nong",
+      "npc": false,
+      "start": "2025-07-19T10:32:00Z",
+      "end": "2026-01-25T12:21:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2026-01-25T12:21:00Z",
+      "end": "2026-06-26T14:09:00Z"
+    },
+    {
+      "corporation_id": 98815170,
+      "name": "Knights of the Pink Claw",
+      "npc": false,
+      "start": "2026-06-26T14:09:00Z",
+      "end": "2026-10-03T14:43:00Z"
+    },
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2026-10-03T14:43:00Z",
+      "end": "2026-10-04T05:29:00Z"
+    },
+    {
+      "corporation_id": 98705642,
+      "name": "Chuangshi College",
+      "npc": false,
+      "start": "2026-10-04T05:29:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

@@ -33,3 +33,10 @@ zKillboard 军团榜：Wings Holding / topAllTime / character，thebosszang 76 k
 ## 核心管理身份
 
 执画的thebosszang已对应本人，现役归属Wings Holding，联盟执行关系已由ESI核对；按Wings核心管理保留短篇。收录号Ed Bassmaster在创世，联盟／军团标签仍按收录号快照，不从小号回填。执行军团身份不指定其具体人事、外交或财务分工，也不将加一的CEO职务移给他。
+
+## 重审补料（2026-10-17）
+
+执行军团小号按 AGENTS 第2节即算联盟高层，标签保留。
+- Ed Bassmaster：建号 2021-03-30；Covert Operations（Happy Cartel）→ 1 Royal Fleet Corps（TEST→PH）→ 2022-07-27 ChuangShi（FRT 至 2026-02-14，2026-02-16 起 Wings Freedom.）。zKB 参与 4028（2646.7B），损失 207（51.9B），单杀 34；噩梦 606、银鹰 460、洛基 423、帕拉丁 367。凛冬论坛 Ed_Bassmaster 0 主题 0 回帖。
+- thebosszang：建号 2020-01-08；College of Re huo → 叶落 → 2020-10-26 ChuangShi → 2026-02-09 Wings Holding。zKB 参与 338（628.5B），损失 147（27.3B）；Nyx 144、天梯 51、泽尼塔 33、神示 27。
+- ESS 告示 KM 已核：111252660（2023-08-26 20:20:10 G96R-F，Crystal Coyne／Fliet Pizza Delivery Of Essence 刺客级舰队型 0.4B）、111252689（20:20:46 太空舱 7B），攻击者均仅 Ed Bassmaster 一人，恶狼。上节“未读详细时间、攻击者名单与金额”作废。

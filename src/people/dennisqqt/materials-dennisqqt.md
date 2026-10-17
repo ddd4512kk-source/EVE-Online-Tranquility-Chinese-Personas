@@ -6,6 +6,10 @@
 
 角色对应：群聊截图中名牌“QQT/DennisQQT”“CG-QQT/DennisQQT/收谷特旗舰/母星”“QQT/DennisQQT&DDT”，QQ 昵称“Seine Autorität.”；ESI 头衔“QQT MAIN”；弹劾议案标题“关于弹劾 DennisQQT 的议案”。
 
+### 2026-10-15：DennisDDT小号
+
+[DennisDDT（2113018076）公开名片](https://esi.evetech.net/latest/characters/2113018076/)头衔“QQT ALT”，与DennisQQT同Dennis词根、同Chi Gua及QQT MAIN／ALT标记，亦合既有“DennisQQT&DDT”名牌，直接归本人，已补aliases。吃瓜历史榜第22，1894次参与击杀；精确金额见原TSV，不与主号累计相加。简介只有火力／后勤广播与“把这个傻逼东西点成红的”共享设置文案，不凭这一句另加低素质标签或认本人具体指挥经历；既有总监弹劾主线不变。
+
 ### 游戏数据
 
 - profile.mjs：击杀 315 / 597.9B，损失 124 / 28.2B，单杀 4；常用 Rokh、Ferox、Tempest、Cynabal、Nidhoggur。

@@ -2,6 +2,13 @@
 
 收录角色：Autumn oak（2118344406）。玄武学院 Xuanwu college（98731561）的创建者。ZQ-EAgle-FC（2122096197）也是老鹰的小号；玄武学院历任 CEO 角色均属老鹰本人，同一人只立一篇。
 
+## PLA Fleet榜单补认的朱雀双号（2026-10-15）
+
+- [Sakura WU／2114600094](https://esi.evetech.net/latest/characters/2114600094/)：PLA Fleet历史榜第24，本次核读完整名片，头衔“#老鹰”，当前朱雀Zhuque squad。简介自述“国人入侵晚间队后勤指挥视角直播带队”，挂[直播间](https://live.bilibili.com/23620348)，高安入侵交流文案称每天晚上八点国人指挥起队。按本人带队自述补FC；不把该时间表当当前实测开队频率。
+- [ZQ-EAgle-ADMIN／2121322329](https://esi.evetech.net/latest/characters/2121322329/)：本次新增ESI核对，同在朱雀，头衔“#老鹰”，简介直接链接Sakura WU作CEO、yilifaerr作Co-CEO／Diplomat。[朱雀公司资料](https://esi.evetech.net/latest/corporations/98742946/)登记本号为创建者及CEO，2023-06-15成立，当前简介也直接具名CEO Sakura WU。两份具名互链、中文头衔及既有玄武—朱雀老鹰的社区故事相合，和ZQ-EAgle-FC同EAgle系列，合并本人，不再保留“两名CEO是否同人”的旧缺口。当前团方的外交名单与登记号旧简介并不完全相同，不能从后者倒推所有人的当前任职。
+- 朱雀现简介称Sakura WU“CEO／金币农场主”，旁边起哄“能不能爆点金币”“把他挂到贴吧以示惩戒”。只作同团文案，不由这句玩笑另认诈骗、RMT或具体争议。列传补双号与入侵指挥；收录号仍是Autumn oak，当前标签沿收录号快照，不把小号所在KR.S／IGC加到收录号当前军团标签。
+- 角色简介挂[走私者新活动教学](https://www.bilibili.com/video/BV1Cv4y1K7Dx)、[2022-05-17粉丝节更新总结（上）](https://www.bilibili.com/video/BV1hg411d7CL)，后者文案称文字摘要在置顶评论。保留标题与入口，未看影像、未读字幕、未读本次评论；不只凭标题推荐作品，不将文字摘要称为已读。本人简介主动宣传带队直播／教学、同名号互链，作为B站身份入口，本人UP与EVE视频数未核，暂不带B站标签，具体UP名及UID待从页面文字核。
+
 ## 身份与军团
 
 - [ESI 军团资料](https://esi.evetech.net/latest/corporations/98731561/)：玄武学院成立于 2023-01-19，创建角色 Autumn oak，2026-10-09 的 CEO 角色为 ZQ-EAgle-FC、角色数 1131。两个角色的 [ESI](https://esi.evetech.net/latest/characters/2118344406/) / [ESI](https://esi.evetech.net/latest/characters/2122096197/) 均在玄武；Autumn oak 的游戏头衔为 `#CEO`。EveWho 旧快照列 Autumn oak 为 CEO，[DOTLAN 事件页](https://evemaps.dotlan.net/corp/Xuanwu_college/events)当前列 ZQ-EAgle-FC；DOTLAN 该页仅显示入盟事件，不能从那里补出其他 CEO 名单。历任 CEO 同属老鹰本人按已确认身份关系记录。
@@ -36,3 +43,4 @@
 - 本轮删去正文“零安聊不得”块里重复复述的段落；#35 对全团 RMT 的猜测继续保留在材料，不升级为封号或交易事实。
 
 2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[ZQ-EAgle-FC（2122096197）](https://zkillboard.com/character/2122096197/) 0.0B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。
+- **B站账号**（2026-10-16）：EVE欧服玉麒麟联盟（UID 34656179，https://space.bilibili.com/34656179 ）。本人角色简介所挂[走私者新活动教学](https://www.bilibili.com/video/BV1Cv4y1K7Dx)即此号投稿，归本人。读空间首页：投稿103条（视频80），粉丝4846，合集16个；代表作《【EVE新人教程2022年版】第一期：《This is EVE Online》》（9.7万播放）、第二期游戏下载安装注册（10万）、第三期角色创建与新手剧情（4.1万）；另有《【EVE】2026杆子区教程》《【EVE】2026年，加入军团的好处是什么？》《【EVE新人必看技巧】如何安全进出空间站？》《玄武军团新手指南：如何创建合同给后勤军团》，合作《2026年，现在是回坑和入坑EVE的最好时机吗？》。直播间23620348是否同号未核。作品精选待读。

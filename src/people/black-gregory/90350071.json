@@ -1,0 +1,64 @@
+{
+  "id": 90350071,
+  "name": "Black Gregory",
+  "birthday": "2011-01-27T09:46:00Z",
+  "current_corporation": {
+    "id": 98046825,
+    "name": "Pan Galactic Commercial Union",
+    "npc": false
+  },
+  "affiliation": {
+    "corporation": {
+      "id": 98046825,
+      "name": "Pan Galactic Commercial Union",
+      "ticker": "PGCU"
+    },
+    "alliance": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000168,
+      "name": "Federal Navy Academy",
+      "npc": true,
+      "start": "2011-01-27T09:46:00Z",
+      "end": "2011-06-12T12:51:00Z"
+    },
+    {
+      "corporation_id": 98046825,
+      "name": "Pan Galactic Commercial Union",
+      "npc": false,
+      "start": "2011-06-12T12:51:00Z",
+      "end": "2012-02-19T15:00:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2012-02-19T15:00:00Z",
+      "end": "2012-02-25T14:34:00Z"
+    },
+    {
+      "corporation_id": 98046825,
+      "name": "Pan Galactic Commercial Union",
+      "npc": false,
+      "start": "2012-02-25T14:34:00Z",
+      "end": "2012-03-31T16:25:00Z"
+    },
+    {
+      "corporation_id": 1000107,
+      "name": "The Scope",
+      "npc": true,
+      "start": "2012-03-31T16:25:00Z",
+      "end": "2012-04-06T15:52:00Z"
+    },
+    {
+      "corporation_id": 98046825,
+      "name": "Pan Galactic Commercial Union",
+      "npc": false,
+      "start": "2012-04-06T15:52:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-15"
+}

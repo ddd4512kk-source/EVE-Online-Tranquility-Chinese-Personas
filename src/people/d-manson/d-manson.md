@@ -1,7 +1,7 @@
 ---
 character_id: 690534767
 cn_name: D哥哥
-aliases: [D manson, Dmanson, DM, DD, D鸽鸽, B站]
+aliases: [D manson, Dmanson, DM, DD, D鸽鸽]
 epithet: 兄弟归兄弟，资产另有解释。
 tags: ["00区", "FRT", "B站", "T C F", "CEO", "低素质"]
 ---
@@ -12,12 +12,16 @@ D哥哥，D manson，TCF（Thunders Claw Fleet）的 CEO。TCF 的创建者是[a
 
 这回不是舰队谁打赢谁。兄弟们把舰船停进同一个机库，最后发现，要先开一场股东会。
 
-::: 红料 比赛不只打，也留下视频
-他在[2020 年 TCF 招募帖](https://forums.winterco.org/t/topic/2613)里挂了比赛与小队战视频，其中有署名 Dmanson 的 [FRT 对 Hard Knocks 比赛录像](https://www.bilibili.com/video/av8092615/)，也有 [ATXVI 比赛记录与分析讲解](https://www.bilibili.com/video/av29187189/)。
+::: 红料 招新先摆比赛录像
+D哥哥在[2020年TCF招募帖](https://forums.winterco.org/t/topic/2613)里摆了一排比赛与小队战视频，给“小而精”的招牌配上能点开的东西。其中[FRT对Hard Knocks的比赛录像](https://www.bilibili.com/video/av8092615/)由他的Dmanson账号上传，标题写的是AT14；另一篇[ATXVI记录与分析](https://www.bilibili.com/video/av29187189/)则出自[那个毒蝎](https://space.bilibili.com/447367/)，分英文官方解说与作者分析两段。D哥哥自己也在后者楼里捧场：“支持K sama”，还补一串感叹号。比赛的热闹，他既负责存一份，也负责给别人的分析喊好。
 
-把比赛过程和讲解留下，后来的人至少有东西可看。只在群里说自己懂比赛，和真把录像拿出来，还是有点区别。
+他的账号[Dmanson](https://space.bilibili.com/2874813)后来一百三十多条投稿，多是YouTube单刷、小队战录像，配中文标题与点评：[《SOLO饿狼极限坦克1,441,436伤害！》](https://www.bilibili.com/video/BV1WT4y1B7TP/)、[《T3海神PROTEUS PVP solo》](https://www.bilibili.com/video/BV19U1BYXE6P/)、[《3000DPS+巨蟒级官员AT黑隐ESS PVP猛鬼队》](https://www.bilibili.com/video/BV1jNTEz7Eix/)。最多播放的一条叫[《一言不合就TT骑人》](https://www.bilibili.com/video/BV1Jm4y1d7Gx/)，八千多。招募时拿比赛压阵，更新时替别人起个能让人点进去的中文题目，看样子这位CEO也有一份常开门的录像资料室。
+:::
 
-这些录像出自他自己的 B 站账号 [Dmanson](https://space.bilibili.com/2874813)。后来频道改了路数，一百三十多条投稿多是从 YouTube 搬来的老外单刷、小队战录像，配上中文标题和一句点评：[《SOLO饿狼极限坦克1,441,436伤害！》](https://www.bilibili.com/video/BV1WT4y1B7TP)、[《T3海神 PROTEUS PVP solo》](https://www.bilibili.com/video/BV19U1BYXE6P)、[《3000DPS+巨蟒级官员AT黑隐 ESS PVP 猛鬼队》](https://www.bilibili.com/video/BV1jNTEz7Eix)。播放最高的一条叫[《一言不合就TT骑人》](https://www.bilibili.com/video/BV1Jm4y1d7Gx)，八千多。自己打的比赛少了，看别人打的倒一直没停。
+::: 红料 搬来一场仗，还要给建筑答疑
+D哥哥搬过一条[《如何让70艘无畏和势力大航陨落》](https://www.bilibili.com/video/BV1k4411U7yM/)，原片来自YouTube，他自己配了一长段中文导读：辛迪加D-B7YK的工业堡结构战，建筑与无畏视角交替，后段又有低安势力设饵。对方打出来的仗，他替中文观众圈出该看什么，尤其提醒建筑怎么跟FC配合、选目标、换武器。新手不懂建筑增强，楼里追问，他还回复了当时的盾、甲、结构流程；有人疑惑是不是测试服，他说正式服。
+
+热心导读也有手滑的时候。观众纠正这是阿兹贝尔，他认“我写错到时候改下”；现在标题写对了，简介里却还混着“通过铁壁和无畏小号交替操作”的句子。战场上的无畏归原拍摄者，评论区的建筑名则得由上传者自己修。看样子，这位CEO的资料室不只负责把仗搬过来，借来的工程图也要记得换对抬头。
 :::
 
 ::: 红料 KB 上确实有活
@@ -136,6 +140,12 @@ TCF 的招募广告一直喜欢讲老牌军团、兄弟情分；到了这场分�
 同一份[简介](https://esi.evetech.net/latest/characters/690534767/)挂着“8 Rules”的标题，底下却老老实实排到了第 12 条，内容从开火、火力过剩，一直讲到别引来火力惹队友烦。
 
 规则名义上八条，执行时十二条。别的账怎么算，先不说；这份账的加法，确实积极。
+:::
+
+::: 红料 B站作品精选
+以下按已读中文导读与答疑推荐，未读影像、音频或字幕。
+
+- [《如何让70艘无畏和势力大航陨落（阿兹贝尔+无畏视角）》](https://www.bilibili.com/video/BV1k4411U7yM/)：外网原片配有D哥哥的具体中文导读，指出建筑与舰队配合的看点，也回应建筑流程；应连同建筑名称纠正一起读，不当他的驾驶或指挥录像。
 :::
 
 ::: 评

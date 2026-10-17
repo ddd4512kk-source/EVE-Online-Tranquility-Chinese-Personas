@@ -8,6 +8,7 @@
 
 | 分支 | 当前状态 | 归档位置 |
 | --- | --- | --- |
+| 侃侃熊／Mei Kanata | 已按持续创作及具体作品互动立传；Mei Konata、AI Pko、Mikoto-3三条候选均归本人，其他四小号已登记；原BR逐KM与累计KB仍待有具体需求时补读，不把候选表当成已核战绩 | [本人素材](../../src/people/mei-kanata/materials-mei-kanata.md) |
 | PLA凯撒／Reinhard Merlin | 已立传；凯撒波吉亚已归本人。2017离团帖中的凯撒是另一人，不能并入 | [凯撒素材](../../src/people/reinhard-merlin/materials-reinhard-merlin.md)；[2017旧事](../sources/pla-kaisa-departure-2017.md) |
 | Boo Me及已识别外语候选 | 从华人FC调查队列排除，真实战报记录保留 | [排除表](capital-battle-unmapped.md) |
 | 月榜取得 | 首次403仅为旧方式失败。PLA、BOP、宽带山、Dusk九月角色榜及Monitor榜已取；前50军团九月榜后续50家也已取，不再写成“月榜尚未取得” | [四团月榜](dc-goons-monthly-top-2026-10-12.md)；[50团覆盖](corp-top-characters-2026-10-12.md) |
