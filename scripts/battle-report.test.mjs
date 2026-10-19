@@ -11,6 +11,9 @@ import {
 } from "./battle-report.mjs";
 
 test("只认 br.evetools、killmail.app 战报网址，转成接口地址", () => {
+  assert.equal(brApiUrl("https://br.evetools.org/battle/17676"), "https://br.evetools.org/newapi/br/battle/17676");
+  assert.equal(brApiUrl("https://br.evetools.org/battle/17321/"), "https://br.evetools.org/newapi/br/battle/17321");
+  assert.equal(brApiUrl("https://br.evetools.org/battle/xyz"), null);
   assert.equal(brApiUrl("https://killmail.app/br/GxhFDiNEWB-atioth-2026-04-06"), "https://killmail.app/api/battle-reports/GxhFDiNEWB");
   assert.equal(brApiUrl("https://killmail.app/br/GxhFDiNEWB"), "https://killmail.app/api/battle-reports/GxhFDiNEWB");
   assert.equal(brApiUrl("https://killmail.app/kill/134540670"), null);
@@ -45,6 +48,17 @@ const raw = {
     km(4, 30000001, 9000, { char: 14, corp: 700, ally: 3 }, [{ char: 11, corp: 600, ally: 2 }], 7e9),
   ] }],
 };
+
+test("数字编号战报使用顶层 kms，按 KM 去重并保留参战人物和交火", () => {
+  const kms = raw.relateds[0].kms.slice(0, 2);
+  const report = { battle: { id: "17676", total_destroyed: 999 }, kms: [...kms, kms[0]] };
+  const result = compactReport([report], [30000001]);
+  assert.equal(result.losses.length, 2);
+  assert.equal(result.losses.reduce((sum, loss) => sum + loss[4], 0), 201e9);
+  assert.deepEqual(result.pilots, { 10: [500, 1], 11: [600, 2], 12: [500, 1] });
+  assert.deepEqual(result.teams, []);
+  assert.deepEqual(result.hits, [["a:2", "a:1", 1], ["a:1", "a:2", 1]]);
+});
 
 test("精简战报：按星系、时间窗筛，人、损失、交火、分队都留", () => {
   const r = compactReport([raw, raw], [30000001], [0, 5000]);

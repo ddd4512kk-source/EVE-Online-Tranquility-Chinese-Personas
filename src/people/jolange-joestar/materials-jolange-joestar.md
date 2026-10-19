@@ -19,3 +19,11 @@
 ### 2026 年联盟名单
 
 - [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 Nolange 于 Exec Leadership Team (CN) 与 Military CN（同列 Remeleen、Garveen、Rexanna）。Nolange 即瓜瓜的号：[Nolange（2117214189）](https://evewho.com/character/2117214189)，2020-07-15 建号，在 FRT。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+
+## 2025-02-23 艾格玛尔
+
+- [共享战役素材](../../battles/egmar-2025-02-23/materials-egmar-2025-02-23.md)，[完整BR](https://br.evetools.org/br/67bb19acf0ce84001159159f)；全场562.149888701B，不作个人战果。
+- 命中本人角色：2116478004；战时组织ID：99003581；船型ID：45534。
+- 本场Monitor指挥依据已核。
+- 代表签名：[KM 125016212](https://zkillboard.com/kill/125016212/)。
+- 社区复盘的因果、估算和分方见共享材料；个人正文已接入既有经历，未把舰队整体战果独算本人。

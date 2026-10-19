@@ -110,6 +110,9 @@ export function sideStats(s) {
 // 华人军团：名称表里标了 chinese 的军团。
 // people：角色 ID（收录号与小号）→ 收录号，见 peopleIndex；table：全站名称表
 export const CATCH_ALL = "第三方";
+
+// 只过滤展示，保留全场统计和人物参战反链。未知人数仍显示。
+export const visibleSides = (sides) => sides.filter((s) => s.name !== CATCH_ALL || s.pilots == null || s.pilots >= 30);
 export function battleStats(data, snap, people, table) {
   const keyOf = (id) => ({ alliances: `a:${id}`, corporations: `c:${id}` })[kindOf(table, id)];
   const sides = data.sides ?? [];
@@ -120,19 +123,32 @@ export function battleStats(data, snap, people, table) {
   // 点名在“第三方”的联盟只把自己摘出来，不影响整队。
   // 队里一个都没点名的，没点名的队友算第三方；队里点名联盟分属几方（分队与点名冲突，或多份战报分队不一致）的，
   // 不信这份分队，没点名的队友按交火推断。没分队也按交火推断
-  const teamed = [];
+  // 先汇总所有战报的归属候选，再落方；同一组织被不同阵营认领时不能先到先得。
+  const claims = new Map();
   let conflict = false;
   for (const team of snap.teams ?? []) {
     const keys = team.map((t) => (t.startsWith("corp:") ? `c:${t.slice(5)}` : `a:${t}`));
     const listed = new Set(keys.filter((k) => sideOf.has(k) && sideOf.get(k) !== catchAll).map((k) => sideOf.get(k)));
-    if (listed.size === 1) teamed.push([keys, [...listed][0]]);
+    if (listed.size === 1) {
+      const best = [...listed][0];
+      for (const k of keys) {
+        if (sideOf.has(k)) continue; // 明确点名的归属优先，包含手动列出的第三方
+        if (!claims.has(k)) claims.set(k, new Set());
+        claims.get(k).add(best);
+      }
+    }
     else if (listed.size > 1) conflict = true;
   }
-  for (const [keys, best] of teamed) for (const k of keys) if (!sideOf.has(k)) sideOf.set(k, best);
+  for (const [k, candidates] of claims) {
+    if (candidates.size === 1) sideOf.set(k, [...candidates][0]);
+    else conflict = true; // 留空让交火推断处理；证据不足时归第三方
+  }
   if (!snap.teams?.length || conflict) inferSides(snap, sides, sideOf);
   // 剩下归不了方的并成“第三方”；front matter 没写这一方就自动补上
   // NPC 军团角色先按本人看，再看战报分队里整个 NPC 军团归哪
-  const sideIdx = (corp, ally, char) => sideOf.get(entityKey(corp, ally, char)) ?? sideOf.get(entityKey(corp, ally));
+  // 明确点名的军团优先于联盟归属；用于同盟内有独立站队的军团。
+  const explicitCorps = new Map(sides.flatMap((s, i) => (s.alliances ?? []).filter((id) => kindOf(table, id) === "corporations").map((id) => [id, i])));
+  const sideIdx = (corp, ally, char) => explicitCorps.get(corp) ?? sideOf.get(entityKey(corp, ally, char)) ?? sideOf.get(entityKey(corp, ally));
   const unsorted = [
     ...Object.entries(snap.pilots).map(([char, [corp, ally]]) => sideIdx(corp, ally, Number(char))),
     ...snap.losses.map(([, char, corp, ally]) => sideIdx(corp, ally, char)),
@@ -210,6 +226,7 @@ export function toYmd(v) {
 export const FIELDS = {
   title: "必填，战役名",
   aliases: "可选，别名列表",
+  videos: "可选，最多 6 个相关 B站视频，每项 { title, url, author, description }",
   epithet: "可选，一句话锐评",
   start: "必填，开打日期（UTC），YYYY-MM-DD",
   end: "可选，结束日期（UTC），跨日才写",
@@ -262,6 +279,30 @@ export function validateBattle(data, body, lineOffset, people) {
   if (data.aliases != null && !isStrList(data.aliases)) errs.push("aliases 必须是字符串列表");
   if (!isStrList(data.systems)) errs.push("systems 必须是星系列表，如 [M2-XFE]");
   if (data.tags != null && !isStrList(data.tags)) errs.push("tags 必须是字符串列表");
+
+  if (data.videos != null) {
+    if (!Array.isArray(data.videos) || data.videos.length > 6) errs.push("videos 必须是最多 6 项的视频列表");
+    else {
+      const seen = new Set();
+      for (const [i, video] of data.videos.entries()) {
+        const at = `videos 第 ${i + 1} 项`;
+        if (!video || typeof video !== "object" || Array.isArray(video)) {
+          errs.push(`${at}必须是 { title, url, author, description } 结构`);
+          continue;
+        }
+        for (const key of Object.keys(video)) if (!["title", "url", "author", "description"].includes(key)) errs.push(`${at}：未知字段 "${key}"`);
+        for (const key of ["title", "author", "description"]) if (typeof video[key] !== "string" || !video[key].trim()) errs.push(`${at}：${key} 必须是非空字符串`);
+        let bv;
+        try {
+          const url = new URL(video.url);
+          if (url.protocol === "https:" && ["www.bilibili.com", "bilibili.com"].includes(url.hostname) && !url.username && !url.password && !url.port) bv = url.pathname.match(/^\/video\/(BV[0-9A-Za-z]{10})\/?$/)?.[1];
+        } catch { /* 无效链接统一在下方报错 */ }
+        if (!bv) errs.push(`${at}：url 必须是 https://www.bilibili.com/video/BV… 完整视频链接`);
+        else if (seen.has(bv)) errs.push(`${at}：视频 ${bv} 重复`);
+        else seen.add(bv);
+      }
+    }
+  }
 
   const start = toYmd(data.start);
   if (!start) errs.push("start 必须是日期 YYYY-MM-DD");

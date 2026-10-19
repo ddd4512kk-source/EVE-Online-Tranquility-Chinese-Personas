@@ -8,6 +8,8 @@ const KMAPP_API = "https://killmail.app/api/battle-reports";
 // 战报网页 → 接口网址；不是这两家战报的来源返回 null（这类战役仍手填数字）
 export function brApiUrl(url) {
   const s = String(url);
+  const battle = /^https?:\/\/br\.evetools\.org\/battle\/(\d+)\/?$/.exec(s);
+  if (battle) return `${BR_API}/battle/${battle[1]}`;
   const m = /^https?:\/\/br\.evetools\.org\/(?:br\/([0-9a-f]{24})|related\/(\d+)\/(\d{12}))\/?$/.exec(s);
   if (m) return m[1] ? `${BR_API}/composition/${m[1]}` : `${BR_API}/related/${m[2]}/${m[3]}`;
   // killmail.app/br/<ID>-<星系>-<日期>，ID 后的短语只是网址装饰

@@ -11,6 +11,11 @@ sides:
   - name: FRT 及友军
     alliances: [99003581, 99013537, 99013541, 99011168]
   - name: 第三方
+videos:
+  - title: "【EVE中文】从西对舞到 4-HWWF 首都星城被打进结构增强，凛冬梯次防御未能阻挡帝国脚步"
+    url: "https://www.bilibili.com/video/BV1htofBtEBp/"
+    author: "CabbageTimil"
+    description: "从帝国远征与凛冬防线展开这轮攻防，简介同时交代首都星城计时和多路进攻，可对照两处主战场的战报阅读。"
 loss_source: https://br.evetools.org/br/69ed1bc7bcb5710012f06fd3
 ---
 2026 年 4 月 25 日，帝国与 INIT 把进攻推到 FRT 在 4-HWWF 的主基地星城装甲计时前。[当日讨论](https://www.reddit.com/r/Eve/comments/1svkw9y/avatar_night_2_titans_down_in_4h/)称，守军丢掉这一轮计时，星城被推到最后的船体阶段；新星城已经锚下，旧家的搬运与守场却仍得继续。4-HWWF 与 8TPX-N 两处主战场，共有九千三百三十九名角色卷入交火，留下六千多张损失记录，各方账单合计约七千五百五十亿 ISK。帝国与 INIT 的来客、凛冬的守家队伍，再加上各路另有盘算的人，把两处星系挤成了一个漫长的补船日。

@@ -1,7 +1,8 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { peopleIndex, readSnapshot, statsOf, tierOf, toYmd } from "../../scripts/battles.mjs";
+import { emblemSides } from "../../scripts/battle-emblem.mjs";
+import { peopleIndex, readSnapshot, statsOf, tierOf, toYmd, visibleSides } from "../../scripts/battles.mjs";
 import { readNames } from "../../scripts/character-snapshot.mjs";
 
 // 字段校验在 scripts/check-battles.mjs（构建前运行），这里只算展示用的字段。
@@ -33,7 +34,8 @@ export default {
     endYmd: (d) => (d.end == null ? null : toYmd(d.end)),
     lossTotal: (d) => stats(d).total_loss,
     pilotsTotal: (d) => stats(d).pilots,
-    sidesView: (d) => stats(d).sides,
+    sidesView: (d) => visibleSides(stats(d).sides),
+    emblem: (d) => emblemSides(visibleSides(stats(d).sides)),
     // 联盟、军团链接用的 ID：快照战役取本场战报里的（老联盟名可能已被新联盟占用）
     tier: (d) => tierOf(stats(d).total_loss),
     peopleIds: (d) => stats(d).sides.flatMap((s) => s.people ?? []),

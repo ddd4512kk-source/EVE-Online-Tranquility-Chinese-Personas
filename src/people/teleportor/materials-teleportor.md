@@ -21,3 +21,9 @@ B站UP名单无已对应本人入口，待板块扫描，不逐人搜“浩”�
 - 雇佣：2010-04-02 建号；2010-05—2022-10 Pink Torpedo.P（无联盟，中间 2010-10 有 5 天在 SGC DESTINY／Evil Kitty Federation）；2022-10-31—2024-11-30 Chuangshi College（Fraternity University）；2024-11-30—2025-03-31 ChuangShi（FRT）；2025-04-01 CO.WA（东风→INIT）。
 - 英文简介通篇泛化自述（“Hello there, fellow spacefarers!”…“Live long and prosper”），正文称“像一份范文”，不断言系 AI 生成。
 - zKB：参与 529（510.4B），损失 140（11.5B），单杀 10；鱼鹰级海军型 84、送葬者级海军型 55、流浪 44。202604 223.1B：135089198 B-9C24 FRT 星城 220B（353 人，银鹰）；135094692 等 YMJG-4 FRT 船（审判者）。
+
+## 2026-10-04 8F-TK3参战（2026-10-20补档）
+
+- [8F-TK3无畏摆擂，WOMP接下大账单](../../battles/8f-tk3-2026/8f-tk3-2026.md)：INIT；命中本人角色 704527521。全场1814.163B。
+- 来源：https://br.evetools.org/related/30004781/202610041800；逐号舰船、KM与分方口径见[战役素材](../../battles/8f-tk3-2026/materials-8f-tk3-2026.md)。本窗口未录到本人损失。
+- 本次已归档并建立战役页自动关联；未把本条参战记录单独扩写为列传料块。已有指挥、主线与综合KB保持原文，后续结合本场独立情节增补。

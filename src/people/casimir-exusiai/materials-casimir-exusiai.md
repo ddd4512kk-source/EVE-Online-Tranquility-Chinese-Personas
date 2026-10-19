@@ -36,3 +36,11 @@
 - **现役小号（2026-10-15）**：[Casimir Platinum（2115162532）](https://zkillboard.com/character/2115162532/)，建号2019-04-21，比本号早；雇佣轨迹与本号多段重合（Victory Belongs Union、Naval Intelligence Agency、49 City.、Redamancy、Thunder Mercenary Army），2022—2023 曾在 We Love Cody；现 Blue Shadow Guard。zKB 514杀（约285.1B）、损失110、单杀26，活跃至2026-06。[Thunder Pony（2118190675）](https://zkillboard.com/character/2118190675/)，建号2021-01-29，zKB 1158杀（约662.2B）、损失347、单杀17，活跃至2026-07。两号均为本人、仍在使用。
 - 帖末另称“FRT N老板之前就因为RMT被永封”，未点名角色，不归给任何人；帖末为蜜蜂联盟招募广告。
 - **B站账号**：Leon7ovol（UID 391818271，https://space.bilibili.com/391818271 ），与小号Leon 7ovol同名。2026-10-16 B站板块扫描读空间首页：唯一投稿《EVE-欧服 重攻金鹏13分半速刷古斯塔斯6/10（有个小失误）因为招新官不会剪视频，正文从25分钟开始》（2020-07-05）。
+
+## 2025-02-23 艾格玛尔
+
+- [共享战役素材](../../battles/egmar-2025-02-23/materials-egmar-2025-02-23.md)，[完整BR](https://br.evetools.org/br/67bb19acf0ce84001159159f)；全场562.149888701B，不作个人战果。
+- 命中本人角色：2115198804；战时组织ID：99011797；船型ID：17732。
+- 记本人参战；本场不由常规、后勤、指挥舰等其他船型推定指挥职责。
+- 代表签名：[KM 125016098](https://zkillboard.com/kill/125016098/)。
+- 社区复盘的因果、估算和分方见共享材料；个人正文已接入既有经历，未把舰队整体战果独算本人。

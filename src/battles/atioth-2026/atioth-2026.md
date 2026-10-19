@@ -12,6 +12,19 @@ sides:
   - name: 帝国
     alliances: [1354830081, 1900696668, 99009163]
   - name: 第三方
+videos:
+  - title: "【EVE中文】万人会战——凛冬狂怒，帝国之泪下的新世界纪录"
+    url: "https://www.bilibili.com/video/BV1CQDvBwEBN/"
+    author: "CabbageTimil"
+    description: "从凛冬一方讲述4月6日星城上线会战，评论区又围绕服务器、撤退与“监狱”说法展开争论。"
+  - title: "【EVE欧服】艾蒂斯超旗战FRT泰坦视角（4K）"
+    url: "https://www.bilibili.com/video/BV1E5DkBrEuh/"
+    author: "Zero煌"
+    description: "FRT泰坦视角的会战记录；作者在简介中说明，全程打了二十多个小时，这份录像从星城被击毁之后开始。"
+  - title: "【EVE】全程录像：艾蒂斯会战，1.1万名玩家参与，创造吉尼斯世界纪录（中字解说）"
+    url: "https://www.bilibili.com/video/BV1SHDBBJEB9/"
+    author: "Awakeallnight（投稿、剪辑）；素材来自EVE-西红柿炒番茄"
+    description: "以会战录像与中文解说整理艾蒂斯攻防，简介注明素材来自EVE-西红柿炒番茄，可与泰坦视角的投稿对照。"
 loss_source: [https://br.evetools.org/br/69d501e59b9dad00121d4c62, https://killmail.app/br/GxhFDiNEWB-atioth-2026-04-06]
 pilots_peak: 10253
 ---

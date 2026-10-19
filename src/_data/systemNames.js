@@ -1,5 +1,9 @@
 // 星系中文名：战役页显示为“中文（English）”；没有通行中文名的不登记，只显示英文
 export default {
+  Egmar: "艾格玛尔",
+  Ahbazon: "阿巴宗",
+  Ignoitton: "伊格诺伊顿",
+  Akkio: "埃加奥",
   'Sosala': "索萨拉",
   'Arzad': "阿尔扎德",
   'Evati': "伊瓦提",

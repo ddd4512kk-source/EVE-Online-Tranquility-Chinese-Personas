@@ -43,3 +43,9 @@ Out of the Blue. 与 Invidia Gloriae Comes 为两个独立联盟，都在 Team A
 页面默认展开的主要组织：Team A 为 Goonswarm Federation（2259）、Brave Collective（167）、Dracarys.（110）、Sigma Grindset（95）、Out of the Blue.（66）、Invidia Gloriae Comes（59）、Tactical Narcotics Team（58）、Get Off My Lawn（53）、SONS of BANE（37）；Team B 为 Pandemic Horde（861）、Fraternity.（39）、L A Z E R H A W K S（13）、The Initiative.（13）、GameTheory（11）、State War Academy 军团（8）、Brothers of Tangra（8）、Naval Defence Alliance（6）、Northern Coalition.（6）。NPC 军团只作为页面覆盖记录，不写进本站正文与参战军团。上述组织是默认可见部分，不冒称全部名单。
 
 原页全场4051角色、3446 KM；完整 composition 的 totalLost 为1,196,441,560,722 ISK，本站全场1196.441560722B保留。两方面板人数合计4066，与全场去重4051不同，不将各方人数直接当全场去重数；两方损失记录合计3446。页面分方金额74.91B与1.12T均为网页显示精度，不反推未显示的精确ISK，也不为凑平全场金额调整任一方。旧论坛4029角色仍保留为当时说法。此前三方归组与统计由本次页面汇总替换。
+
+## 阵营修订（2026-10-20）
+
+FRT（99003581）与 INIT（1900696668）按各自第三方行动归第三方，撤出 PH 一方；原网页 Team B 不是本站主战阵营归属。上节两方面板汇总保留为原页读数，当前各方统计以快照重新归方结果为准。
+
+第三方不足 30 人时不在目录与阵营卡片展示；原始参战、损失与人物关联仍保留。

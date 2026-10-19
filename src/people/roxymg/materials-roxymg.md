@@ -27,3 +27,9 @@
 - 简介挂 DPS／LOGI Broadcast 共享设置、一句日文“大切な人いつかまた巡り会えますように。”，以及一段给黑米（链接 Huya-Heimi）编的猫娘恶搞设定（含性暗示，不转录、不入文细节）。
 - 简介钉 5 张 KM，经 ESI 核：2025-06-13 YPW-M4（30000784），受害者均在 C C P Alliance（434243723），攻击方 PP 时属 Pandemic Horde（99005338）。本人以送葬者级海军型（29344）参与 [127850250](https://zkillboard.com/kill/127850250/)（简介标“CCP Jotunn (毒蜥级*)”）、[127850290](https://zkillboard.com/kill/127850290/)（“GM Banquet (Barghest)”）、[127850308](https://zkillboard.com/kill/127850308/)（“CCP Bee (Loki)”）；[127850297](https://zkillboard.com/kill/127850297/)（“CCP Zelus (毒蜥级*)”）攻击者名单中无本人。另 [129029191](https://zkillboard.com/kill/129029191/)（2025-08-06，太空舱“red Rake”）本人最后一击。简介中多处空链接指向 [多米](../duomi/materials-duomi.md) 角色 2118339639，用意不明。
 - zKillboard 统计接口本次无返回，综合 KB 待补。
+
+## 2026-10-04 8F-TK3参战（2026-10-20补档）
+
+- [8F-TK3无畏摆擂，WOMP接下大账单](../../battles/8f-tk3-2026/8f-tk3-2026.md)：龙焰及参战诸部；命中本人角色 2123019905。全场1814.163B。
+- 来源：https://br.evetools.org/related/30004781/202610041800；逐号舰船、KM与分方口径见[战役素材](../../battles/8f-tk3-2026/materials-8f-tk3-2026.md)。本窗口未录到本人损失。
+- 本次已归档并建立战役页自动关联；未把本条参战记录单独扩写为列传料块。已有指挥、主线与综合KB保持原文，后续结合本场独立情节增补。

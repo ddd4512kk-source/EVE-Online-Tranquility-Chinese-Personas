@@ -477,7 +477,40 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .pager-random { color: var(--gold) !important; text-align: center; font-family: var(--sans) !important; font-weight: 400 !important; }
 
 /* ---------- 战役 ---------- */
-.battle-head { margin: .5rem 0 1.25rem; }
+.battle-head { display: flex; align-items: flex-start; gap: 1.25rem; margin: .5rem 0 1.25rem; }
+.battle-heading { min-width: 0; }
+/* 主标构成画面：两方沿对角展开，多方平分；不编码胜负。 */
+.battle-emblem {
+  --emblem-size: 104px;
+  position: relative; flex: 0 0 var(--emblem-size); isolation: isolate;
+  width: var(--emblem-size); height: var(--emblem-size); overflow: hidden;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: var(--bg-sunk); border-radius: var(--radius);
+  box-shadow: inset 0 0 0 1px var(--line-soft);
+}
+.battle-emblem::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(135deg, var(--line) 0%, var(--bg-raised) 49.5%, var(--bg-sunk) 50%);
+}
+.battle-emblem-large { --emblem-size: 160px; }
+.battle-emblem-side {
+  display: flex; align-items: center; justify-content: center;
+  min-width: 0; min-height: 0; padding: 8%;
+}
+.battle-emblem-side img { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 2px 3px var(--bg-sunk)); }
+.battle-emblem-initials { color: var(--gold); font: 700 1rem var(--serif); }
+.battle-emblem-sides-1 { grid-template-columns: 1fr; }
+.battle-emblem-sides-2 .battle-emblem-side { position: absolute; width: 64%; height: 64%; padding: 5%; }
+.battle-emblem-sides-2 .battle-emblem-side:first-child { top: 0; left: 0; }
+.battle-emblem-sides-2 .battle-emblem-side:nth-child(2) { bottom: 0; right: 0; }
+.battle-emblem-sides-3, .battle-emblem-sides-4 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.battle-emblem-sides-3 .battle-emblem-side:nth-child(3) { grid-column: 1 / -1; padding: 3%; }
+@media (max-width: 520px) {
+  .battle-head { gap: .9rem; }
+  .battle-emblem-large { --emblem-size: 104px; }
+  .battle-row .battle-emblem { --emblem-size: 88px; }
+}
+
 .tier {
   display: inline-block; padding: 0 .4rem; border-radius: 3px; vertical-align: .15em;
   font: 700 .72rem/1.6 var(--sans); letter-spacing: .1em; white-space: nowrap;
@@ -497,6 +530,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .battle-row:hover { border-color: var(--gold-dim); }
 /* 标题在左、总损失与人数大字在右；窄屏数字换到标题下 */
 .battle-row-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: .4rem 1.5rem; }
+.battle-row-identity { display: flex; align-items: center; flex: 1 1 24rem; gap: 1rem; min-width: 0; }
 .battle-row-head { display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
 .battle-row-title {
   font-family: var(--serif); font-weight: 700; font-size: 1.6rem; line-height: 1.25;

@@ -1,0 +1,10 @@
+{# 目录与详情共用；每方一枚主要组织原图标，同侧同栏，不表示胜负。 #}
+{% macro battleEmblem(sides, size = "small") %}
+<div class="battle-emblem battle-emblem-{{ size }} battle-emblem-sides-{{ sides.length }}" role="img" aria-label="对阵战徽：{% for s in sides %}{{ s.name }}{% if s.logos.length %}（{% for o in s.logos %}{{ o.name }}{% if not loop.last %}、{% endif %}{% endfor %}）{% endif %}{% if not loop.last %}；{% endif %}{% endfor %}" data-pagefind-ignore>
+  {% for s in sides %}
+  <span class="battle-emblem-side" aria-hidden="true">
+    {% for o in s.logos %}<img src="{{ o.src | url }}" width="128" height="128" alt="" {% if size == "small" %}loading="lazy"{% endif %} decoding="async">{% else %}<span class="battle-emblem-initials">{{ s.initials }}</span>{% endfor %}
+  </span>
+  {% endfor %}
+</div>
+{% endmacro %}
