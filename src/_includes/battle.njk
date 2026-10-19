@@ -3,16 +3,20 @@ layout: base.njk
 bodyClass: page-battle
 ---
 {%- from "entity.njk" import org -%}
+{%- from "battle-emblem.njk" import battleEmblem -%}
 {%- set prev = collections.battles | getPreviousCollectionItem(page) -%}
 {%- set next = collections.battles | getNextCollectionItem(page) -%}
 {%- set backHref = '/battles/' %}{% set backLabel = '战役目录' %}
 {% include "back.njk" %}
 <article class="bio battle" data-pagefind-body data-pagefind-filter="板块:战役">
   <header class="battle-head">
+    {{ battleEmblem(emblem, "large") }}
+    <div class="battle-heading">
     <p class="tier tier-{{ tier.key }}" data-pagefind-ignore>{{ tier.name }}战役</p>
     <h1 class="bio-name" data-pagefind-meta="title">{{ title }}</h1>
     {% if aliases and aliases.length %}<p class="bio-aliases">又名 {% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
     {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
+    </div>
   </header>
 
   <dl class="battle-stats battle-stats-lg" data-pagefind-ignore>
@@ -52,6 +56,21 @@ bodyClass: page-battle
   <div class="prose">
     {{ content | safe }}
   </div>
+
+  {% if videos and videos.length %}
+  <section class="prose battle-videos" aria-labelledby="battle-videos-title">
+    <h2 id="battle-videos-title">相关视频</h2>
+    <ul>
+      {% for video in videos %}
+      <li>
+        <h3><a href="{{ video.url | escape }}" rel="noopener">{{ video.title | escape }}</a></h3>
+        <p>UP 主：{{ video.author | escape }}</p>
+        <p>{{ video.description | escape }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 </article>
 
 {% include "glossary-dialog.njk" %}

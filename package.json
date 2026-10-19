@@ -8,10 +8,11 @@
     "test": "node --test scripts/*.test.mjs scripts/research/tests/*.test.mjs",
     "prebuild": "npm run doctor",
     "find": "node scripts/find-character.mjs",
-    "fetch": "node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch",
+    "fetch": "node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs",
     "check": "node scripts/fetch-characters.mjs --check && node scripts/check-battles.mjs",
-    "build": "node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && eleventy && pagefind --site _site",
-    "serve": "npm run build && eleventy --serve"
+    "build": "node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs && eleventy && pagefind --site _site",
+    "serve": "npm run build && eleventy --serve",
+    "fetch:battle-logos": "node scripts/fetch-battle-emblems.mjs"
   },
   "engines": {
     "node": ">=20.11.0 <21 || >=21.2.0"

@@ -15,6 +15,7 @@ import {
   tierOf,
   toYmd,
   validateBattle,
+  visibleSides,
 } from "./battles.mjs";
 
 const ok = {
@@ -209,6 +210,30 @@ test("点名为第三方的联盟只把自己摘出分队，不拆散整队", ()
   assert.deepEqual(bySide(battleStats(data, snap3, known, table)), { 甲方: [2, 100, 1], 乙方: [1, 200, 1], 第三方: [2, 1, 1] });
 });
 
+test("多份战报对同一组织分队冲突时，不按来源顺序抢先归方", () => {
+  const teams = [["1", "3", "corp:1000001"], ["2", "3"]];
+  for (const ordered of [teams, [...teams].reverse()]) {
+    // 组织3被两方认领且没有交火依据，应留第三方；无冲突的NPC队友仍跟甲方。
+    const st = battleStats(snapData, { ...snap, teams: ordered, hits: [] }, known, table);
+    assert.deepEqual(bySide(st), { 甲方: [3, 100, 1], 乙方: [1, 200, 1], 第三方: [1, 1, 1] });
+    assert.equal(st.pilots, 5);
+    assert.equal(st.total_loss, 301);
+  }
+});
+
+test("跨战报分队冲突的组织按交火推断，明确点名的归属仍优先", () => {
+  const teams = [["1", "3"], ["2", "3"]];
+  for (const ordered of [teams, [...teams].reverse()]) {
+    const st = battleStats(snapData, { ...snap, teams: ordered }, known, table);
+    // 组织3只挨甲方打，推断为乙方，不能被第一份战报分给甲方。
+    assert.deepEqual(bySide(st), { 甲方: [2, 100, 1], 乙方: [2, 201, 2], 第三方: [1, 0, 0] });
+    const data = { ...snapData, sides: [...snapData.sides, { name: "第三方", alliances: [3] }] };
+    assert.deepEqual(bySide(battleStats(data, { ...snap, teams: ordered }, known, table)), {
+      甲方: [2, 100, 1], 乙方: [1, 200, 1], 第三方: [2, 1, 1],
+    });
+  }
+});
+
 test("无联盟的军团可按军团 ID 点名归方", () => {
   const solo = { ...snap, pilots: { ...snap.pilots, 11: [600, 0] }, losses: [[1, 10, 500, 1, 1e11], [2, 11, 600, 0, 2e11]] };
   const data = { ...snapData, sides: [snapData.sides[0], { name: "乙方", alliances: [600] }] };
@@ -258,4 +283,36 @@ test("peopleIndex：收录号与列传 alts 都指向收录号，_ 开头目录�
   put("_c", "character_id: 44");
   writeFileSync(path.join(dir, "people.11tydata.js"), "");
   assert.deepEqual([...peopleIndex(dir)].sort((x, y) => x[0] - y[0]), [[12, 42], [13, 42], [42, 42], [43, 43]]);
+});
+
+
+test("明确点名的军团覆盖联盟，人物与损失一起移方", () => {
+  const data = { ...snapData, sides: [{ name: "甲方", alliances: [1] }, { name: "乙方", alliances: [2, 500] }] };
+  const st = battleStats(data, snap, known, table);
+  assert.deepEqual(bySide(st).甲方, [0, 0, 0]);
+  assert.deepEqual(bySide(st).乙方, [4, 301, 3]);
+  assert.ok(st.sides[1].people.includes(42));
+});
+
+test("第三方展示以30人为界，不删除未知人数或主阵营", () => {
+  const sides = [{ name: "甲方", pilots: 1 }, { name: "第三方", pilots: 29 }];
+  assert.deepEqual(visibleSides(sides), [sides[0]]);
+  assert.equal(sides.length, 2);
+  for (const pilots of [30, 31, null]) assert.equal(visibleSides([{ name: "第三方", pilots }]).length, 1);
+});
+
+test("战役视频可选，最多6项，必须为完整B站视频且不重复", () => {
+  const video = { title: "本场复盘", url: "https://www.bilibili.com/video/BV1UK4y1H7XT/", author: "UP", description: "本场撤离视角。" };
+  assert.deepEqual(check({ videos: [] }), []);
+  assert.deepEqual(check({ videos: [video] }), []);
+  const six = Array.from({ length: 6 }, (_, i) => ({ ...video, url: `https://www.bilibili.com/video/BV${String(i).padStart(10, "0")}` }));
+  assert.deepEqual(check({ videos: six }), []);
+  assert.ok(check({ videos: [...six, video] }).some(e => /最多 6/.test(e)));
+  assert.ok(check({ videos: [video, { ...video, url: "https://bilibili.com/video/BV1UK4y1H7XT?p=2" }] }).some(e => /重复/.test(e)));
+  for (const url of ["javascript:alert(1)", "https://www.bilibili.com.evil.test/video/BV1UK4y1H7XT", "https://b23.tv/abc", "https://space.bilibili.com/123", "https://www.bilibili.com/video/foo", "http://www.bilibili.com/video/BV1UK4y1H7XT"]) {
+    assert.ok(check({ videos: [{ ...video, url }] }).some(e => /url 必须/.test(e)), url);
+  }
+  for (const key of ["title", "author", "description"]) assert.ok(check({ videos: [{ ...video, [key]: " " }] }).some(e => e.includes(key)));
+  for (const videos of ["video", [null], ["video"]]) assert.ok(check({ videos }).length);
+  assert.ok(check({ videos: [{ ...video, typo: "x" }] }).some(e => /未知字段/.test(e)));
 });

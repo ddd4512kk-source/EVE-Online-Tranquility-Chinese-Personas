@@ -10,6 +10,11 @@ sides:
     alliances: [99003581, 99001954, 99006406, 99009310, 99005393, 99006411]
   - name: Snuff 及友军
     alliances: [99004901, 1900696668, 99005839, 99010412]
+videos:
+  - title: "【EVE欧服】欧塔FRT超旗 VS Snuff精装无畏（后半场GTT视角）"
+    url: "https://www.bilibili.com/video/BV1Rq4y1Q7x7/"
+    author: "Zero煌（投稿；后半场注明GTT视角）"
+    description: "从FRT超旗一侧记录欧塔交锋，标题另列后半场GTT视角；作者在评论中说泰坦刚从M2开回，自己入场较晚。"
 loss_source: https://br.evetools.org/related/30001446/202108111400
 loss_is_lower_bound: false
 ---

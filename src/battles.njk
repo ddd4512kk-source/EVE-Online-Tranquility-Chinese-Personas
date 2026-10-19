@@ -5,6 +5,7 @@ pageTitle: 战役
 bodyClass: page-battles
 ---
 {%- from "entity.njk" import org -%}
+{%- from "battle-emblem.njk" import battleEmblem -%}
 {%- set battles = collections.battles -%}
 <section class="intro">
   <h1>战役</h1>
@@ -32,9 +33,12 @@ bodyClass: page-battles
   {%- set d = b.data %}
   <li class="battle-row" data-date="{{ d.startYmd }}" data-loss="{{ d.lossTotal }}" data-tags="|{{ d.labels | join('|') }}|">
     <div class="battle-row-top">
+      <div class="battle-row-identity">
+        {{ battleEmblem(d.emblem) }}
       <div class="battle-row-head">
         <a class="battle-row-title" href="{{ b.url | url }}">{{ d.title }}</a>
         <span class="battle-row-meta"><span class="tier tier-{{ d.tier.key }}">{{ d.tier.name }}</span> <time datetime="{{ d.startYmd }}">{{ d.startYmd }}</time>{% if d.endYmd and d.endYmd != d.startYmd %} — <time datetime="{{ d.endYmd }}">{{ d.endYmd }}</time>{% endif %} · {% for s in d.systems %}{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</span>
+      </div>
       </div>
       <dl class="battle-stats">
         <div><dt>总损失</dt><dd>{% if d.loss_is_lower_bound %}至少 {% endif %}{{ d.lossTotal | isk }}</dd></div>
