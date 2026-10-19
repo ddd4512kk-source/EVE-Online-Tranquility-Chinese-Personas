@@ -1,3 +1,4 @@
+import { pathToFileURL } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtemp, readFile, writeFile, rm } from 'node:fs/promises';
@@ -41,7 +42,7 @@ test('按楼层分段包含楼中楼、去重正倒序，复读缓存图片不�
     await writeFile(file, JSON.stringify({source:'公开来源',pages:[page],reverse_pages:[page]}));
     const preload = path.join(root, 'fetch-fixture.mjs');
     await writeFile(preload, `globalThis.fetch=async url=>{if(url!=='https://never-request.invalid/changed')throw new Error('unexpected URL');return new Response('replacement')};`);
-    await exec(process.execPath, ['--import', preload, script, file, '--floors', '2:2', '--images', '3', root], {
+    await exec(process.execPath, ['--import', pathToFileURL(preload).href, script, file, '--floors', '2:2', '--images', '3', root], {
       env:{...process.env,RESEARCH_STATE_FILE:path.join(root, 'cooldown.json')},
     });
     assert.equal(await readFile(imageName(posts[1].content[1].origin_src), 'utf8'), 'replacement');

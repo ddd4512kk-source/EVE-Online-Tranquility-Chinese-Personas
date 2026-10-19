@@ -1,0 +1,15 @@
+{#- 正文页顶部的返回链接。传入 backHref、backLabel。 -#}
+<nav class="back" data-pagefind-ignore>
+  <a href="{{ backHref | url }}" id="back-link">← {{ backLabel }}</a>
+</nav>
+<script>
+  // 从本站页面点进来时，用浏览器后退返回，保留原页面的滚动位置与筛选内容
+  document.getElementById("back-link").addEventListener("click", (e) => {
+    try {
+      if (history.length > 1 && new URL(document.referrer).origin === location.origin) {
+        e.preventDefault();
+        history.back();
+      }
+    } catch {}
+  });
+</script>

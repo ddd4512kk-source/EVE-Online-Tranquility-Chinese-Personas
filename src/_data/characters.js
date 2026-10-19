@@ -1,10 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
+import { expandSnapshot, readNames } from "../../scripts/character-snapshot.mjs";
 
 const peopleDir = path.resolve(import.meta.dirname, "../people");
 
 export default function () {
   const characters = {};
+  const names = readNames(path.resolve(import.meta.dirname, "../.."));
   for (const entry of fs.readdirSync(peopleDir, { withFileTypes: true })) {
     if (!entry.isDirectory()) continue;
     const directory = path.join(peopleDir, entry.name);
@@ -14,7 +16,7 @@ export default function () {
       const id = file.slice(0, -5);
       if (characters[id]) throw new Error(`角色 ${id} 的缓存文件重复`);
       if (String(character.id) !== id) throw new Error(`${file}：文件名与角色 ID 不一致`);
-      characters[id] = character;
+      characters[id] = expandSnapshot(character, names);
     }
   }
   return characters;

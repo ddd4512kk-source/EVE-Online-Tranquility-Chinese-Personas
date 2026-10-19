@@ -2,50 +2,30 @@
   "id": 2122861740,
   "name": "Jack098991",
   "birthday": "2024-11-04T08:27:00Z",
-  "current_corporation": {
-    "id": 98540583,
-    "name": "Special law enforcement department",
-    "npc": false
-  },
+  "corporation_id": 98540583,
   "affiliation": {
-    "corporation": {
-      "id": 98540583,
-      "name": "Special law enforcement department",
-      "ticker": "SARD."
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98540583,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2024-11-04T08:27:00Z",
       "end": "2024-12-14T10:00:00Z"
     },
     {
       "corporation_id": 98784944,
-      "name": "Fuxi University",
-      "npc": false,
       "start": "2024-12-14T10:00:00Z",
       "end": "2025-02-15T10:18:00Z"
     },
     {
       "corporation_id": 98185110,
-      "name": "Fuxi Legion",
-      "npc": false,
       "start": "2025-02-15T10:18:00Z",
       "end": "2025-09-21T11:13:00Z"
     },
     {
       "corporation_id": 98540583,
-      "name": "Special law enforcement department",
-      "npc": false,
       "start": "2025-09-21T11:13:00Z",
       "end": null
     }

@@ -2,64 +2,40 @@
   "id": 91599501,
   "name": "sven lestart",
   "birthday": "2012-01-20T14:52:42Z",
-  "current_corporation": {
-    "id": 98652614,
-    "name": "Temple of Tuvan Orth",
-    "npc": false
-  },
+  "corporation_id": 98652614,
   "affiliation": {
-    "corporation": {
-      "id": 98652614,
-      "name": "Temple of Tuvan Orth",
-      "ticker": "OSYTM"
-    },
-    "alliance": {
-      "id": 99010517,
-      "name": "Guardians of Tranquility",
-      "ticker": "G.O.T"
-    },
+    "corporation_id": 98652614,
+    "alliance_id": 99010517,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2012-01-20T14:53:00Z",
       "end": "2013-04-04T16:49:00Z"
     },
     {
       "corporation_id": 1097611545,
-      "name": "Light of the moon",
-      "npc": false,
       "start": "2013-04-04T16:49:00Z",
       "end": "2015-10-05T13:05:00Z"
     },
     {
       "corporation_id": 1000009,
-      "name": "Caldari Provisions",
-      "npc": true,
       "start": "2015-10-05T13:05:00Z",
       "end": "2018-06-25T23:55:00Z"
     },
     {
       "corporation_id": 98185110,
-      "name": "Fuxi Legion",
-      "npc": false,
       "start": "2018-06-25T23:55:00Z",
       "end": "2020-08-06T00:55:00Z"
     },
     {
       "corporation_id": 98641698,
-      "name": "Buddha Like",
-      "npc": false,
       "start": "2020-08-06T00:55:00Z",
       "end": "2020-08-06T01:21:00Z"
     },
     {
       "corporation_id": 98652614,
-      "name": "Temple of Tuvan Orth",
-      "npc": false,
       "start": "2020-08-06T01:21:00Z",
       "end": null
     }

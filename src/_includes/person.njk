@@ -4,22 +4,10 @@ bodyClass: page-person
 ---
 {%- set prev = collections.people | getPreviousCollectionItem(page) -%}
 {%- set next = collections.people | getNextCollectionItem(page) -%}
-{%- set usedGlossary = content | glossaryUsed -%}
-<nav class="back" data-pagefind-ignore>
-  <a href="{{ '/' | url }}" id="back-link">← 返回目录</a>
-</nav>
-<script>
-  // 从本站页面点进来时，用浏览器后退返回，保留原页面的滚动位置与筛选内容
-  document.getElementById("back-link").addEventListener("click", (e) => {
-    try {
-      if (history.length > 1 && new URL(document.referrer).origin === location.origin) {
-        e.preventDefault();
-        history.back();
-      }
-    } catch {}
-  });
-</script>
-<article class="bio" data-pagefind-body>
+{%- set battles = collections.battles | battlesOf(character_id) -%}
+{%- set backHref = '/' %}{% set backLabel = '返回目录' %}
+{% include "back.njk" %}
+<article class="bio" data-pagefind-body{% if collections.battles.length %} data-pagefind-filter="板块:列传"{% endif %}>
   <header class="bio-head">
     <img class="portrait portrait-lg" src="{{ ('/portraits/' + character_id + '.jpg') | url }}" alt="{{ char.name }} 的头像" width="160" height="160" data-pagefind-meta="image[src]">
     <div class="bio-id">
@@ -34,6 +22,7 @@ bodyClass: page-person
     <div><dt>创号</dt><dd><time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time></dd></div>
     <div><dt>{% if char.affiliation and char.affiliation.left_at %}最近{% else %}现属{% endif %}</dt><dd>{% set affLink = true %}{% include "affiliation.njk" %}</dd></div>
     {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
+    {% if battles.length %}<div><dt>战役</dt><dd class="chips">{% for b in battles %}<a class="chip" href="{{ b.url | url }}">{{ b.data.title }}<small>{{ b.data.tier.name }}</small></a>{% endfor %}</dd></div>{% endif %}
   </dl>
 
   <div class="prose">
@@ -54,18 +43,7 @@ bodyClass: page-person
   </details>
 </article>
 
-{% if usedGlossary.length %}<dialog class="glossary-dialog" id="glossary-dialog" aria-label="术语解释" data-pagefind-ignore>
-  <button type="button" class="glossary-close" aria-label="关闭术语解释">×</button>
-  {% for entry in usedGlossary %}
-  <section id="dialog-{{ entry.id }}" hidden>
-    <h2>{{ entry.term }}{% if entry.status == '待复核' %}<small class="glossary-draft">待复核</small>{% endif %}</h2>
-    <p><strong>{{ entry.meaning }}</strong>。{{ entry.note }}</p>
-    {% if entry.avoid %}<p class="glossary-avoid">不要误作：{{ entry.avoid }}。</p>{% endif %}
-    <a href="{{ '/glossary/' | url }}#{{ entry.id }}">在术语表中查看</a>
-  </section>
-  {% endfor %}
-</dialog>
-<script src="{{ '/assets/js/glossary.js' | url }}?v={{ site.build }}" defer></script>{% endif %}
+{% include "glossary-dialog.njk" %}
 
 <nav class="pager" aria-label="按创号时间翻页" data-pagefind-ignore>
   {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>前一位</small>{{ prev.data.displayName }}</a>{% else %}<span></span>{% endif %}

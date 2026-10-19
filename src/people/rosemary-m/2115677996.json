@@ -2,64 +2,40 @@
   "id": 2115677996,
   "name": "ROSEMARY m",
   "birthday": "2019-09-13T01:44:14Z",
-  "current_corporation": {
-    "id": 98540583,
-    "name": "Special law enforcement department",
-    "npc": false
-  },
+  "corporation_id": 98540583,
   "affiliation": {
-    "corporation": {
-      "id": 98540583,
-      "name": "Special law enforcement department",
-      "ticker": "SARD."
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98540583,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2019-09-13T01:44:00Z",
       "end": "2019-09-22T09:09:00Z"
     },
     {
       "corporation_id": 98592004,
-      "name": "Starry Armada",
-      "npc": false,
       "start": "2019-09-22T09:09:00Z",
       "end": "2020-09-04T05:07:00Z"
     },
     {
       "corporation_id": 1000111,
-      "name": "Aliastra",
-      "npc": true,
       "start": "2020-09-04T05:07:00Z",
       "end": "2020-09-04T05:12:00Z"
     },
     {
       "corporation_id": 98535868,
-      "name": "ChuangShi",
-      "npc": false,
       "start": "2020-09-04T05:12:00Z",
       "end": "2026-01-26T01:21:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2026-01-26T01:21:00Z",
       "end": "2026-01-26T01:21:00Z"
     },
     {
       "corporation_id": 98540583,
-      "name": "Special law enforcement department",
-      "npc": false,
       "start": "2026-01-26T01:21:00Z",
       "end": null
     }

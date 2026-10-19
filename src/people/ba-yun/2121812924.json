@@ -2,36 +2,20 @@
   "id": 2121812924,
   "name": "Matasaburo",
   "birthday": "2023-11-19T14:09:20Z",
-  "current_corporation": {
-    "id": 98750570,
-    "name": "Jade Cloud Corporation",
-    "npc": false
-  },
+  "corporation_id": 98750570,
   "affiliation": {
-    "corporation": {
-      "id": 98750570,
-      "name": "Jade Cloud Corporation",
-      "ticker": "JCYU"
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98750570,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2023-11-19T14:09:00Z",
       "end": "2023-12-13T09:36:00Z"
     },
     {
       "corporation_id": 98750570,
-      "name": "Jade Cloud Corporation",
-      "npc": false,
       "start": "2023-12-13T09:36:00Z",
       "end": null
     }

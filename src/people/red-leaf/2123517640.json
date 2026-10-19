@@ -2,32 +2,20 @@
   "id": 2123517640,
   "name": "Red-Leaf",
   "birthday": "2025-06-09T23:51:04Z",
-  "current_corporation": {
-    "id": 98807136,
-    "name": "Red.Leaf's Tavern",
-    "npc": false
-  },
+  "corporation_id": 98807136,
   "affiliation": {
-    "corporation": {
-      "id": 98807136,
-      "name": "Red.Leaf's Tavern",
-      "ticker": "RL.T"
-    },
-    "alliance": null,
+    "corporation_id": 98807136,
+    "alliance_id": null,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000077,
-      "name": "Royal Amarr Institute",
-      "npc": true,
       "start": "2025-06-09T23:51:00Z",
       "end": "2025-06-21T03:36:00Z"
     },
     {
       "corporation_id": 98807136,
-      "name": "Red.Leaf's Tavern",
-      "npc": false,
       "start": "2025-06-21T03:36:00Z",
       "end": null
     }

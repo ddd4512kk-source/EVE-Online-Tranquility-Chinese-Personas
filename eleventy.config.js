@@ -2,6 +2,7 @@ import markdownItContainer from "markdown-it-container";
 import fs from "node:fs";
 import path from "node:path";
 import { glossaryEntries, glossaryLinks } from "./scripts/glossary.mjs";
+import { TIERS, formatIsk, sideStats } from "./scripts/battles.mjs";
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = (n) => String(n).padStart(2, "0");
@@ -23,6 +24,9 @@ export default function (eleventyConfig) {
   }
   eleventyConfig.ignores.add("src/people/*/materials-*.md");
   eleventyConfig.ignores.add("src/people/_*.md");
+  eleventyConfig.ignores.add("src/battles/*/materials-*.md");
+  eleventyConfig.ignores.add("src/battles/_*/**");
+  eleventyConfig.ignores.add("src/battles/*/_*.md");
 
   eleventyConfig.amendLibrary("md", (md) => {
     // 中文写作不手动折行：单个换行即换行（聊天记录可逐行书写）
@@ -70,6 +74,28 @@ export default function (eleventyConfig) {
     );
   });
 
+  // 战役集合：按开打日期倒序（最近的在前）
+  eleventyConfig.addCollection("battles", (api) =>
+    api
+      .getFilteredByGlob("src/battles/*/*.md")
+      .sort((a, b) => b.data.startYmd.localeCompare(a.data.startYmd) || a.data.title.localeCompare(b.data.title, "zh")),
+  );
+
+  // 战役目录的标签栏：规模档位在前（史诗→中型），其余按场数多少
+  eleventyConfig.addCollection("battleTags", (api) => {
+    const counts = new Map();
+    for (const b of api.getFilteredByGlob("src/battles/*/*.md")) {
+      for (const t of b.data.labels ?? []) counts.set(t, (counts.get(t) ?? 0) + 1);
+    }
+    const tierRank = (t) => {
+      const i = TIERS.findIndex((x) => x.name === t);
+      return i < 0 ? TIERS.length : i;
+    };
+    return [...counts]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => tierRank(a.name) - tierRank(b.name) || b.count - a.count || a.name.localeCompare(b.name, "zh"));
+  });
+
   // 标签 → 人物列表（保持创号时间顺序）
   eleventyConfig.addCollection("tagMap", (api) => {
     const map = new Map();
@@ -107,6 +133,16 @@ export default function (eleventyConfig) {
     return groups;
   });
   eleventyConfig.addFilter("json", (v) => JSON.stringify(v));
+  eleventyConfig.addFilter("isk", formatIsk);
+  // 分方人数、损失金额与计数，目录和详情不省略缺项。
+  eleventyConfig.addFilter("sideStats", sideStats);
+  // 跨板块互链：某人参与过的战役、按角色 ID 找列传
+  eleventyConfig.addFilter("battlesOf", (battles, id) =>
+    (battles ?? []).filter((b) => b.data.peopleIds?.includes(Number(id))),
+  );
+  eleventyConfig.addFilter("personById", (people, id) =>
+    people.find((p) => p.data.character_id === Number(id)),
+  );
   eleventyConfig.addFilter("glossaryUsed", (content) =>
     glossaryEntries.filter((entry) => String(content).includes(`data-glossary-id="${entry.id}"`)),
   );

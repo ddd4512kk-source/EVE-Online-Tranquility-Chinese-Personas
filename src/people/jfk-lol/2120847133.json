@@ -2,57 +2,35 @@
   "id": 2120847133,
   "name": "JFK LOL",
   "birthday": "2023-01-23T03:30:55Z",
-  "current_corporation": {
-    "id": 98825941,
-    "name": "Kun-Lun",
-    "npc": false
-  },
+  "corporation_id": 98825941,
   "affiliation": {
-    "corporation": {
-      "id": 98825941,
-      "name": "Kun-Lun",
-      "ticker": "KN-L"
-    },
-    "alliance": {
-      "id": 1354830081,
-      "name": "Goonswarm Federation",
-      "ticker": "CONDI"
-    },
+    "corporation_id": 98825941,
+    "alliance_id": 1354830081,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2023-01-23T03:31:00Z",
       "end": "2023-01-23T04:12:00Z"
     },
     {
       "corporation_id": 98648061,
-      "name": "Tu Zi Fei Corporation",
-      "npc": false,
       "start": "2023-01-23T04:12:00Z",
       "end": "2025-02-02T12:54:00Z"
     },
     {
       "corporation_id": 98524939,
-      "name": "Sing Hua",
-      "npc": false,
       "start": "2025-02-02T12:54:00Z",
       "end": "2026-02-09T01:50:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2026-02-09T01:50:00Z",
       "end": "2026-02-13T02:29:00Z"
     },
     {
       "corporation_id": 98825941,
-      "name": "Kun-Lun",
-      "npc": false,
       "start": "2026-02-13T02:29:00Z",
       "end": null
     }

@@ -6,7 +6,7 @@ bodyClass: page-search
 ---
 <section class="intro">
   <h1>全文搜索</h1>
-  <p>搜索全部列传正文、名字与外号。</p>
+  <p>搜索全站正文、名字与外号；有多个板块时可按板块筛选。</p>
 </section>
 <link rel="stylesheet" href="{{ '/pagefind/pagefind-ui.css' | url }}">
 <div id="search"></div>
@@ -19,7 +19,7 @@ bodyClass: page-search
       showSubResults: true,
       showImages: true,
       resetStyles: false,
-      translations: { placeholder: "输入名字、外号或任意关键词…", zero_results: "没有找到与 [SEARCH_TERM] 相关的列传" },
+      translations: { placeholder: "输入名字、外号或任意关键词…", zero_results: "没有找到与 [SEARCH_TERM] 相关的内容" },
     });
     const q = new URLSearchParams(location.search).get("q");
     if (q) ui.triggerSearch(q);

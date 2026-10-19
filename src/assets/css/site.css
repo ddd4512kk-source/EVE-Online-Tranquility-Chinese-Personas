@@ -42,8 +42,10 @@
   color-scheme: dark;
 }
 
+/* 浅色：跟随系统，或页眉按钮手动选定（html[data-theme]，存 localStorage）。
+   两段取值必须一致：手动选浅色时用下面这段。 */
 @media (prefers-color-scheme: light) {
-  :root {
+  :root:not([data-theme="dark"]) {
     --bg: #f4efe4;
     --bg-raised: #fbf8f1;
     --bg-sunk: #ebe4d5;
@@ -71,6 +73,34 @@
     --hei-edge: #1c1a17;
     color-scheme: light;
   }
+}
+:root[data-theme="light"] {
+  --bg: #f4efe4;
+  --bg-raised: #fbf8f1;
+  --bg-sunk: #ebe4d5;
+  --line: #d6ccb8;
+  --line-soft: #e4dccb;
+  --text: #2a2621;
+  --text-dim: #5f574b;
+  --text-faint: #8a8172;
+  --gold: #8a6a2f;
+  --gold-dim: #b39a68;
+  --shuffle-bg: #b8302a;
+  --shuffle-hover: #a12822;
+  --shuffle-active: #82201b;
+  --shuffle-edge: rgba(90, 20, 15, 0.45);
+  --zhu: #b0322a;
+  --zhu-bg: rgba(176, 50, 42, 0.06);
+  --link: #7b5a1e;
+  --term-link: #175a92;
+  --focus: #2563eb;
+  --hong: #b52d24;
+  --hong-bg: rgba(181, 45, 36, 0.05);
+  --hei: #1c1a17;
+  --hei-fg: #f4efe4;
+  --hei-bg: rgba(28, 26, 23, 0.05);
+  --hei-edge: #1c1a17;
+  color-scheme: light;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -106,7 +136,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line-soft);
 }
-.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 3.5rem; }
+.header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; column-gap: 1rem; min-height: 3.5rem; }
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--text); }
 .brand-seal {
   display: inline-grid; place-items: center;
@@ -124,6 +154,21 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 .site-nav a:hover { color: var(--text); background: var(--bg-raised); }
 .site-nav .nav-random { color: var(--gold); }
+/* 深浅切换：显示要切过去的那一边（深色显示日，浅色显示月）；无 JS 时隐藏 */
+.theme-toggle {
+  display: inline-grid; place-items: center; align-self: center;
+  width: 2rem; height: 2rem; padding: 0; margin-left: .1rem;
+  color: var(--text-dim); background: none; border: 0; border-radius: var(--radius); cursor: pointer;
+}
+.theme-toggle:hover { color: var(--gold); background: var(--bg-raised); }
+.theme-toggle svg { width: 1.1rem; height: 1.1rem; }
+.theme-toggle .i-moon,
+:root[data-theme="light"] .theme-toggle .i-sun { display: none; }
+:root[data-theme="light"] .theme-toggle .i-moon { display: block; }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .theme-toggle .i-sun { display: none; }
+  :root:not([data-theme="dark"]) .theme-toggle .i-moon { display: block; }
+}
 /* 访问计数徽章：窄屏只隐藏不移除，图片照常加载计数 */
 .hits { height: 20px; margin-left: auto; }
 
@@ -132,7 +177,16 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 @media (max-width: 480px) {
   .brand-text small { display: none; }
-  .site-nav a { padding: .4rem .45rem; }
+  /* 手机页眉压成一行 */
+  .header-inner { flex-wrap: nowrap; column-gap: .4rem; }
+  .brand { gap: .4rem; }
+  .brand-text { font-size: .95rem; letter-spacing: .03em; white-space: nowrap; }
+  .site-nav { gap: 0; }
+  .site-nav a { padding: .4rem .3rem; font-size: .85rem; }
+  .theme-toggle { width: 1.8rem; }
+}
+@media (max-width: 380px) {
+  .brand-seal { display: none; }
 }
 
 /* ---------- 页脚 ---------- */
@@ -298,6 +352,11 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   font-size: .9rem;
 }
 .bio-facts > div { display: flex; gap: .9rem; align-items: baseline; }
+/* 战役页：战报、时间、地点同排，标签独占一行；窄屏自动折行 */
+.bio-facts-row { display: flex; flex-wrap: wrap; gap: .35rem 1.75rem; }
+.bio-facts-row > div { gap: .5rem; }
+.bio-facts.bio-facts-row dt { width: auto; }
+.bio-facts-row > div:has(.chips) { flex-basis: 100%; }
 .bio-facts dt { flex: none; width: 2.5em; color: var(--text-faint); }
 .bio-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 
@@ -416,6 +475,101 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .pager small { font-family: var(--sans); font-weight: 400; font-size: .75rem; color: var(--text-faint); }
 .pager-next { text-align: right; }
 .pager-random { color: var(--gold) !important; text-align: center; font-family: var(--sans) !important; font-weight: 400 !important; }
+
+/* ---------- 战役 ---------- */
+.battle-head { margin: .5rem 0 1.25rem; }
+.tier {
+  display: inline-block; padding: 0 .4rem; border-radius: 3px; vertical-align: .15em;
+  font: 700 .72rem/1.6 var(--sans); letter-spacing: .1em; white-space: nowrap;
+}
+.battle-head .tier { margin: 0 0 .4rem; font-size: .8rem; }
+.tier-epic { background: var(--zhu); color: #fff; }
+.tier-large { background: var(--gold); color: var(--bg); }
+.tier-medium { border: 1px solid var(--line); color: var(--text-dim); }
+
+/* 目录：一场一行，下面按阵营分栏；整行可点（标题链接铺满） */
+.battle-rows { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: .9rem; }
+.battle-row {
+  position: relative; padding: .8rem 1rem .9rem;
+  background: var(--bg-raised); border: 1px solid var(--line-soft); border-radius: var(--radius);
+  transition: border-color .15s;
+}
+.battle-row:hover { border-color: var(--gold-dim); }
+/* 标题在左、总损失与人数大字在右；窄屏数字换到标题下 */
+.battle-row-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: .4rem 1.5rem; }
+.battle-row-head { display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
+.battle-row-title {
+  font-family: var(--serif); font-weight: 700; font-size: 1.6rem; line-height: 1.25;
+  color: var(--text); text-decoration: none; overflow-wrap: anywhere;
+}
+.battle-row-title::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); }
+.battle-row:hover .battle-row-title { color: var(--gold); }
+.battle-row-meta { font-size: .85rem; color: var(--text-dim); }
+.battle-row-meta .tier { margin-right: .2rem; }
+/* 行内链接浮在整行链接之上，才点得到 */
+.battle-row .side-grid a { position: relative; z-index: 1; }
+
+/* 总损失、参战人数：重头数字 */
+.battle-stats { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; margin: 0; }
+.battle-stats > div { display: flex; flex-direction: column-reverse; }
+.battle-stats dt { font-size: .75rem; letter-spacing: .08em; color: var(--text-faint); }
+.battle-stats dd {
+  margin: 0; font-family: var(--serif); font-weight: 700; font-size: 1.7rem; line-height: 1.1;
+  color: var(--gold); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.battle-stats > div:first-child dd { color: var(--zhu); }
+.battle-stats dd small { margin-left: .15em; font-family: var(--sans); font-weight: 400; font-size: .5em; color: var(--text-dim); }
+.battle-stats dd a { color: inherit; text-decoration: none; border-bottom: 1px dashed currentColor; }
+.battle-stats-lg {
+  gap: .5rem 2.2rem; margin: 0 0 1.25rem; padding: .9rem 1.1rem;
+  background: var(--bg-raised); border: 1px solid var(--line-soft); border-radius: var(--radius);
+}
+.battle-stats-lg dd { font-size: 2.4rem; }
+@media (max-width: 480px) {
+  .battle-row-title { font-size: 1.35rem; }
+  .battle-stats dd { font-size: 1.4rem; }
+  .battle-stats-lg dd { font-size: 1.9rem; }
+}
+.battle-row-epithet { margin: .3rem 0 0; color: var(--zhu); font-family: var(--serif); font-size: .95rem; line-height: 1.5; }
+.side-grid {
+  list-style: none; margin: .7rem 0 0; padding: 0;
+  display: grid; gap: .5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+}
+.side-mini {
+  display: flex; flex-direction: column; gap: .05rem; min-width: 0;
+  padding: .45rem .7rem; border-left: 3px solid var(--line); background: var(--bg-sunk); border-radius: 0 4px 4px 0;
+  font-size: .82rem; line-height: 1.5; color: var(--text-dim);
+}
+.side-mini:first-child { border-left-color: var(--gold-dim); }
+.side-mini-name { font-family: var(--serif); font-weight: 700; font-size: .98rem; color: var(--text); }
+.side-mini-allies { color: var(--text-faint); overflow-wrap: anywhere; }
+.side-mini-cn { color: var(--gold); }
+
+/* 详情页：每方一张卡 */
+.sides { display: grid; gap: .75rem; margin: 0 0 2rem; }
+.side {
+  min-width: 0; padding: .8rem 1rem .9rem;
+  border: 1px solid var(--line-soft); border-left: 3px solid var(--line); border-radius: var(--radius);
+  background: var(--bg-raised);
+}
+.side:first-child { border-left-color: var(--gold-dim); }
+.side-name { margin: 0; font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; }
+.side-stats { margin: .65rem 0 0; flex-wrap: wrap; }
+.side-stats dd { font-size: 1.3rem; }
+.side-stats > div:first-child dd { color: var(--gold); }
+.side-stats > div:nth-child(2) dd { color: var(--zhu); }
+.side-note { margin: .4rem 0 0; font-size: .88rem; color: var(--text-dim); }
+.side-bar { display: block; height: 4px; margin: .45rem 0 .2rem; background: var(--bg-sunk); border-radius: 2px; overflow: hidden; }
+.side-bar > span { display: block; height: 100%; min-width: 2px; background: var(--zhu); }
+.side-facts { display: grid; gap: .45rem; margin: .6rem 0 0; font-size: .88rem; }
+.side-facts > div { display: grid; grid-template-columns: 4.5em 1fr; gap: .6rem; align-items: baseline; }
+.side-facts dt { color: var(--text-faint); }
+.side-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; color: var(--text-dim); }
+.corp-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .1rem .9rem; }
+.corp-list small { margin-left: .3em; font-family: var(--mono); font-size: .78rem; color: var(--text-faint); }
+@media (max-width: 480px) {
+  .side-facts > div { grid-template-columns: 1fr; gap: .1rem; }
+}
 
 /* ---------- 搜索页（Pagefind UI 主题） ---------- */
 .page-search #search {

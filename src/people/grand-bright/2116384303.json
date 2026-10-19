@@ -2,43 +2,25 @@
   "id": 2116384303,
   "name": "Large Wit",
   "birthday": "2020-02-27T09:41:37Z",
-  "current_corporation": {
-    "id": 98178881,
-    "name": "Nuwa Foundation",
-    "npc": false
-  },
+  "corporation_id": 98178881,
   "affiliation": {
-    "corporation": {
-      "id": 98178881,
-      "name": "Nuwa Foundation",
-      "ticker": "NUWA"
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98178881,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2020-02-27T09:42:00Z",
       "end": "2020-02-27T15:35:00Z"
     },
     {
       "corporation_id": 98575144,
-      "name": "Phoenix City",
-      "npc": false,
       "start": "2020-02-27T15:35:00Z",
       "end": "2024-08-31T11:58:00Z"
     },
     {
       "corporation_id": 98178881,
-      "name": "Nuwa Foundation",
-      "npc": false,
       "start": "2024-08-31T11:58:00Z",
       "end": null
     }

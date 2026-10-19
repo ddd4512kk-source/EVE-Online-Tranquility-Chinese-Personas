@@ -2,50 +2,30 @@
   "id": 2114969276,
   "name": "Jason Yusi",
   "birthday": "2019-02-17T18:12:14Z",
-  "current_corporation": {
-    "id": 98190062,
-    "name": "Peoples Liberation Army",
-    "npc": false
-  },
+  "corporation_id": 98190062,
   "affiliation": {
-    "corporation": {
-      "id": 98190062,
-      "name": "Peoples Liberation Army",
-      "ticker": "P.L.A"
-    },
-    "alliance": {
-      "id": 1354830081,
-      "name": "Goonswarm Federation",
-      "ticker": "CONDI"
-    },
+    "corporation_id": 98190062,
+    "alliance_id": 1354830081,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2019-02-17T18:12:00Z",
       "end": "2019-02-17T20:36:00Z"
     },
     {
       "corporation_id": 98576141,
-      "name": "PLA Fleet",
-      "npc": false,
       "start": "2019-02-17T20:36:00Z",
       "end": "2019-05-13T18:31:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2019-05-13T18:31:00Z",
       "end": "2019-05-13T18:31:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2019-05-13T18:31:00Z",
       "end": null
     }

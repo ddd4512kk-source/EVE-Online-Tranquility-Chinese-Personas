@@ -4,6 +4,7 @@ import { mkdtemp, mkdir, writeFile, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { promisify } from 'node:util';
+import { pathToFileURL } from 'node:url';
 import { execFile } from 'node:child_process';
 const exec = promisify(execFile);
 const batch = path.resolve('scripts/research/tieba-review-batch.mjs');
@@ -22,7 +23,7 @@ async function fixture(mode) {
  if(url.endsWith('/page')&&pn===2&&${JSON.stringify(mode)}==='rate')return {ok:false,status:429};
  const data=url.endsWith('/page')?{error_code:0,...(${page.toString()})(pn)}:{error_code:0,thread:{id:123},post:{id:3},page:{current_page:pn,total_page:1,total_count:2},subpost_list:[{id:31,time:1,content:[]},{id:32,time:1,content:[]}]};
  return {ok:true,json:async()=>data};};`);
- return {dir,env:{...process.env,RESEARCH_STATE_FILE:path.join(dir,"cooldown.json"),NODE_OPTIONS:`--import="${preload.replaceAll('\\','/')}"`}};
+ return {dir,env:{...process.env,RESEARCH_STATE_FILE:path.join(dir,"cooldown.json"),NODE_OPTIONS:`--import=${pathToFileURL(preload).href}`}};
 }
 test('清单全文复用首尾，补齐楼中楼；重复批次跳过已完成分页',async()=>{
  const f=await fixture('');try{

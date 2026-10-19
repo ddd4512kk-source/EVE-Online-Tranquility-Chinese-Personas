@@ -4,6 +4,7 @@ cn_name: 大聪明
 aliases: [Grand Bright, GrandMiracle, Grand Miracle, BigSmart XD, Large Wisdom1, Grand Wisdom, 大耳总日月]
 epithet: 名单上管规则，门牌上损盟主。
 tags: ["00区", "FRT", "NUWA", "联盟高层", "CEO"]
+alts: [2115398507, 2116512713]
 ---
 
 灭世星痕招人修百科时，在帖子里留了一个联系人：Grand Bright，大聪明。有人想搬资料、想共同编辑，可以找他；他自己的军团却叫 **U Fly Like Noraus**。百科负责把人叫来，军团门牌负责先损一遍盟主。
@@ -26,6 +27,10 @@ tags: ["00区", "FRT", "NUWA", "联盟高层", "CEO"]
 Large Wit 的头衔是三段：“大聪明，FRTBM SKYHOOK MANAGEMENT，noraus' spokesperson”。前一段是外号，中间一段管联盟的天钩，后一段自封 N老板的发言人。简介写得更热络：“N老板这么可爱真是抱歉❤ Jesus N！”又中英双语预先打招呼：“看见我偷钩子不要害怕，那都是公务。”
 
 同一个人，主号开的军团叫 U Fly Like Noraus，小号自称 Noraus 的发言人。一边在门牌上拿盟主当形容词，一边在名片上替盟主说话，看样子他把这两件事都当公务办。偷钩子算公务，大概损盟主也算。
+:::
+
+::: 红料 管规则的人，也把船开进大账单
+2026年3月1日，大聪明随FRT参加了[MC6O-F史诗战役](https://br.evetools.org/br/69a42471e60d670011c8adae/)，各方总损失约1.142T ISK。他名下的两个号都留下了战场记录，代表[一条](https://zkillboard.com/kill/133727695/)和[另一条](https://zkillboard.com/kill/133728061/)签名，把那个在名单上管协调、在简介里管天钩的人接回了舰队。Grand Bright挂CEO，Large Wit常打架，这回另外两个“大聪明”也进了场；名字换来换去，忙活的还是同一个人。看样子，他在联盟里分得清公务，在机库里也分得出不同工种，门牌上的N老板笑话并不耽误本人出勤。
 :::
 
 ::: 黑料 军团名：U Fly Like Noraus

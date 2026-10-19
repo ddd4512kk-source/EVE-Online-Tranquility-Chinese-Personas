@@ -2,50 +2,30 @@
   "id": 2123440570,
   "name": "BB ice",
   "birthday": "2025-05-18T11:38:58Z",
-  "current_corporation": {
-    "id": 98769610,
-    "name": "Cosmic-Wanderers",
-    "npc": false
-  },
+  "corporation_id": 98769610,
   "affiliation": {
-    "corporation": {
-      "id": 98769610,
-      "name": "Cosmic-Wanderers",
-      "ticker": "CO.WA"
-    },
-    "alliance": {
-      "id": 1900696668,
-      "name": "The Initiative.",
-      "ticker": "INIT."
-    },
+    "corporation_id": 98769610,
+    "alliance_id": 1900696668,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2025-05-18T11:39:00Z",
       "end": "2025-05-18T14:14:00Z"
     },
     {
       "corporation_id": 98803245,
-      "name": "Guri Stas Fleet",
-      "npc": false,
       "start": "2025-05-18T14:14:00Z",
       "end": "2025-06-01T23:47:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2025-06-01T23:47:00Z",
       "end": "2025-06-02T01:36:00Z"
     },
     {
       "corporation_id": 98769610,
-      "name": "Cosmic-Wanderers",
-      "npc": false,
       "start": "2025-06-02T01:36:00Z",
       "end": null
     }

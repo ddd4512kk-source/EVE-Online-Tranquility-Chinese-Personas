@@ -2,78 +2,50 @@
   "id": 2117641420,
   "name": "Galician0",
   "birthday": "2020-10-01T03:24:33Z",
-  "current_corporation": {
-    "id": 98825044,
-    "name": "Navigators' Union",
-    "npc": false
-  },
+  "corporation_id": 98825044,
   "affiliation": {
-    "corporation": {
-      "id": 98825044,
-      "name": "Navigators' Union",
-      "ticker": "N-V-U"
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98825044,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2020-10-01T03:25:00Z",
       "end": "2020-11-18T11:07:00Z"
     },
     {
       "corporation_id": 98577775,
-      "name": "Hephaestus and Aphrodite",
-      "npc": false,
       "start": "2020-11-18T11:07:00Z",
       "end": "2020-12-26T02:54:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2020-12-26T02:54:00Z",
       "end": "2020-12-26T04:42:00Z"
     },
     {
       "corporation_id": 98635855,
-      "name": "Stay Cool And Calm Down",
-      "npc": false,
       "start": "2020-12-26T04:42:00Z",
       "end": "2021-06-22T14:15:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2021-06-22T14:15:00Z",
       "end": "2021-09-07T12:08:00Z"
     },
     {
       "corporation_id": 98535868,
-      "name": "ChuangShi",
-      "npc": false,
       "start": "2021-09-07T12:08:00Z",
       "end": "2025-12-12T01:39:00Z"
     },
     {
       "corporation_id": 98540583,
-      "name": "Special law enforcement department",
-      "npc": false,
       "start": "2025-12-12T01:39:00Z",
       "end": "2026-01-31T10:24:00Z"
     },
     {
       "corporation_id": 98825044,
-      "name": "Navigators' Union",
-      "npc": false,
       "start": "2026-01-31T10:24:00Z",
       "end": null
     }

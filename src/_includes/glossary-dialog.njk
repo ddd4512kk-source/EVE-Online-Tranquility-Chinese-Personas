@@ -1,0 +1,14 @@
+{#- 正文术语蓝字的弹窗。传入 content（已渲染正文）。各板块正文页共用。 -#}
+{%- set usedGlossary = content | glossaryUsed -%}
+{% if usedGlossary.length %}<dialog class="glossary-dialog" id="glossary-dialog" aria-label="术语解释" data-pagefind-ignore>
+  <button type="button" class="glossary-close" aria-label="关闭术语解释">×</button>
+  {% for entry in usedGlossary %}
+  <section id="dialog-{{ entry.id }}" hidden>
+    <h2>{{ entry.term }}{% if entry.status == '待复核' %}<small class="glossary-draft">待复核</small>{% endif %}</h2>
+    <p><strong>{{ entry.meaning }}</strong>。{{ entry.note }}</p>
+    {% if entry.avoid %}<p class="glossary-avoid">不要误作：{{ entry.avoid }}。</p>{% endif %}
+    <a href="{{ '/glossary/' | url }}#{{ entry.id }}">在术语表中查看</a>
+  </section>
+  {% endfor %}
+</dialog>
+<script src="{{ '/assets/js/glossary.js' | url }}?v={{ site.build }}" defer></script>{% endif %}

@@ -2,50 +2,30 @@
   "id": 2118729398,
   "name": "YAGAHA",
   "birthday": "2021-05-23T08:06:50Z",
-  "current_corporation": {
-    "id": 98825941,
-    "name": "Kun-Lun",
-    "npc": false
-  },
+  "corporation_id": 98825941,
   "affiliation": {
-    "corporation": {
-      "id": 98825941,
-      "name": "Kun-Lun",
-      "ticker": "KN-L"
-    },
-    "alliance": {
-      "id": 1354830081,
-      "name": "Goonswarm Federation",
-      "ticker": "CONDI"
-    },
+    "corporation_id": 98825941,
+    "alliance_id": 1354830081,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2021-05-23T08:07:00Z",
       "end": "2021-08-07T05:37:00Z"
     },
     {
       "corporation_id": 98524939,
-      "name": "Sing Hua",
-      "npc": false,
       "start": "2021-08-07T05:37:00Z",
       "end": "2026-02-09T06:47:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2026-02-09T06:47:00Z",
       "end": "2026-02-09T06:47:00Z"
     },
     {
       "corporation_id": 98825941,
-      "name": "Kun-Lun",
-      "npc": false,
       "start": "2026-02-09T06:47:00Z",
       "end": null
     }

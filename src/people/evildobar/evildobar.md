@@ -12,6 +12,8 @@ tags: ["00区", "FRT", "NUWA", "AT19冠军", "B站"]
 光头早年也在洋人小军团之间打转，2010 年起换进华人圈：Great Sage Equaling Heaven、Kung Fu Roguer、Taikonaut Association，2012 年还在 For Titan Road、Broken Heart For Lost 几家之间来回跳。2013 年进 FRT 的 Thunders Claw Fleet，2014 年转进女娲（Nuwa Foundation），此后除了中间两年退到 NPC 军团、2021 年出去晃了十天，一直住在女娲。
 
 zKillboard 记他参与击杀三万二千多次，击毁总值约 21.9 万亿 ISK，损失五百多条船；团队战占九成八，单杀也有六百多。参与击杀最多的月份是 2026 年 4 月，一个月两千五百多亿。三万杀里大部分是联盟大队的集体战果，可二十年不挪窝、天天跟队出门，本身就是一份履历。
+
+2026年3月1日的[MC6O-F史诗会战](../../battles/mc6o-f-2026/)，光头又随FRT出战；各方在这一星系烧掉约1.14万亿ISK。他的[主号](https://zkillboard.com/kill/133727289/)与高仿N老板的小号[noarus](https://zkillboard.com/kill/133727346/)都留下了参战记录。平时一个号挂冠军奖状，一个号拿永封谐音开玩笑，真到大会战，两个名字还是回到同一支联盟队伍里。摄影师可以在频道上自称“没有姓名字”，战场账本倒没有替他匿名；女娲住了十几年，终于又多了一页可以往墙上挂的出勤。
 :::
 
 ::: 红料 AT19 冠军

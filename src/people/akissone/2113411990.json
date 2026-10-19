@@ -2,36 +2,20 @@
   "id": 2113411990,
   "name": "akissone",
   "birthday": "2017-11-07T09:42:02Z",
-  "current_corporation": {
-    "id": 98547771,
-    "name": "B.O.P Supplication For Glorious",
-    "npc": false
-  },
+  "corporation_id": 98547771,
   "affiliation": {
-    "corporation": {
-      "id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "ticker": ".BOP"
-    },
-    "alliance": {
-      "id": 99009163,
-      "name": "Dracarys.",
-      "ticker": "D.C"
-    },
+    "corporation_id": 98547771,
+    "alliance_id": 99009163,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2017-11-07T09:42:00Z",
       "end": "2018-02-07T14:48:00Z"
     },
     {
       "corporation_id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "npc": false,
       "start": "2018-02-07T14:48:00Z",
       "end": null
     }

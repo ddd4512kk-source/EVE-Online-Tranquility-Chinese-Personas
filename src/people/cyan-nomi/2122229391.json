@@ -2,78 +2,50 @@
   "id": 2122229391,
   "name": "Cyan nomi",
   "birthday": "2024-04-08T05:58:00Z",
-  "current_corporation": {
-    "id": 98798876,
-    "name": "Family Guy.",
-    "npc": false
-  },
+  "corporation_id": 98798876,
   "affiliation": {
-    "corporation": {
-      "id": 98798876,
-      "name": "Family Guy.",
-      "ticker": "F.GUY"
-    },
-    "alliance": {
-      "id": 99009927,
-      "name": "Deepwater Hooligans",
-      "ticker": "BIGAB"
-    },
+    "corporation_id": 98798876,
+    "alliance_id": 99009927,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2024-04-08T05:58:00Z",
       "end": "2024-04-10T10:31:00Z"
     },
     {
       "corporation_id": 98769176,
-      "name": "From Shadow's Nil",
-      "npc": false,
       "start": "2024-04-10T10:31:00Z",
       "end": "2025-03-14T09:46:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-03-14T09:46:00Z",
       "end": "2025-03-14T09:47:00Z"
     },
     {
       "corporation_id": 98798867,
-      "name": "Family Gay",
-      "npc": false,
       "start": "2025-03-14T09:47:00Z",
       "end": "2025-03-14T10:45:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-03-14T10:45:00Z",
       "end": "2025-03-14T10:47:00Z"
     },
     {
       "corporation_id": 98798875,
-      "name": "Utopia of manhold cover",
-      "npc": false,
       "start": "2025-03-14T10:47:00Z",
       "end": "2025-03-14T10:54:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-03-14T10:54:00Z",
       "end": "2025-03-14T10:54:00Z"
     },
     {
       "corporation_id": 98798876,
-      "name": "Family Guy.",
-      "npc": false,
       "start": "2025-03-14T10:54:00Z",
       "end": null
     }

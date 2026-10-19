@@ -1,0 +1,61 @@
+---
+layout: base.njk
+permalink: /battles/
+pageTitle: 战役
+bodyClass: page-battles
+---
+{%- from "entity.njk" import org -%}
+{%- set battles = collections.battles -%}
+<section class="intro">
+  <h1>战役</h1>
+  <p>新伊甸历次大战，按各方总损失分档：100B 至不足 400B 为中型，400B 至不足 1T 为大型，1T 及以上为史诗。共收 <strong>{{ battles.length }}</strong> 场。</p>
+</section>
+{% if battles.length %}
+<div class="toolbar" role="toolbar" aria-label="战役排序">
+  <button id="b-order" type="button" class="is-active" aria-pressed="true" title="按开打日期排序，再点切换新旧">时间 ↓</button>
+  <button id="b-loss" type="button" aria-pressed="false" title="按各方总损失排序，最贵的在前">损失</button>
+  <button id="shuffle" type="button" aria-pressed="false" title="随机排序，再点重新洗牌"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7h3c5 0 7 10 12 10h3M17 13l4 4-4 4M3 17h3c1.5 0 2.7-.9 3.8-2.3M14.2 9.3C15.3 7.9 16.5 7 18 7h3M17 3l4 4-4 4"/></svg><span>随机<span class="shuffle-more">排序</span></span></button>
+</div>
+{%- if collections.battleTags.length %}
+<div class="tag-wrap">
+  <nav class="tag-bar" id="tag-bar" aria-label="按标签筛选">
+    <button type="button" class="chip is-active" data-tag="" aria-pressed="true">全部<small>{{ battles.length }}</small></button>
+    {%- for t in collections.battleTags %}<button type="button" class="chip" data-tag="{{ t.name }}" aria-pressed="false">{{ t.name }}<small>{{ t.count }}</small></button>{% endfor %}
+  </nav>
+  <button type="button" class="tag-more" aria-controls="tag-bar" aria-expanded="false" hidden>展开 ▾</button>
+</div>
+{%- endif %}
+<p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
+
+<ol id="battle-rows" class="battle-rows">
+{%- for b in battles %}
+  {%- set d = b.data %}
+  <li class="battle-row" data-date="{{ d.startYmd }}" data-loss="{{ d.lossTotal }}" data-tags="|{{ d.labels | join('|') }}|">
+    <div class="battle-row-top">
+      <div class="battle-row-head">
+        <a class="battle-row-title" href="{{ b.url | url }}">{{ d.title }}</a>
+        <span class="battle-row-meta"><span class="tier tier-{{ d.tier.key }}">{{ d.tier.name }}</span> <time datetime="{{ d.startYmd }}">{{ d.startYmd }}</time>{% if d.endYmd and d.endYmd != d.startYmd %} — <time datetime="{{ d.endYmd }}">{{ d.endYmd }}</time>{% endif %} · {% for s in d.systems %}{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</span>
+      </div>
+      <dl class="battle-stats">
+        <div><dt>总损失</dt><dd>{% if d.loss_is_lower_bound %}至少 {% endif %}{{ d.lossTotal | isk }}</dd></div>
+        {% if d.pilotsTotal %}<div><dt>参战</dt><dd>{{ d.pilotsTotal }}<small>人</small></dd></div>{% elif d.pilots_peak %}<div><dt>最高同屏</dt><dd>{{ d.pilots_peak }}<small>人</small></dd></div>{% endif %}
+      </dl>
+    </div>
+    {% if d.epithet %}<p class="battle-row-epithet">{{ d.epithet }}</p>{% endif %}
+    <ul class="side-grid" aria-label="交战各方">
+    {%- for s in d.sidesView %}
+      <li class="side-mini">
+        <span class="side-mini-name">{{ s.name }}</span>
+        {% set stats = s | sideStats %}{% if stats %}<span class="side-mini-stats">{{ stats }}</span>{% endif %}
+        {% if s.alliances and s.alliances.length %}<span class="side-mini-allies">{% for a in s.alliances.slice(0, 3) %}{{ org(a) }}{% if not loop.last %}、{% endif %}{% endfor %}{% if s.alliances.length > 3 %} 等 {{ s.alliances.length }} 个联盟{% endif %}</span>{% endif %}
+        {% if (s.corps and s.corps.length) or (s.people and s.people.length) %}<span class="side-mini-cn">{% if s.corps and s.corps.length %}华人军团 {{ s.corps.length }}{% endif %}{% if s.corps and s.corps.length and s.people and s.people.length %} · {% endif %}{% if s.people and s.people.length %}收录 {{ s.people.length }} 人{% endif %}</span>{% endif %}
+      </li>
+    {%- endfor %}
+    </ul>
+  </li>
+{%- endfor %}
+</ol>
+<script src="{{ '/assets/js/battles.js' | url }}?v={{ site.build }}" defer></script>
+{% else %}
+<p class="empty">尚无战役。</p>
+{% endif %}

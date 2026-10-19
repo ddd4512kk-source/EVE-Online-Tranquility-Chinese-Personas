@@ -2,190 +2,130 @@
   "id": 2116299818,
   "name": "DOFsundabi sun",
   "birthday": "2020-02-09T05:01:57Z",
-  "current_corporation": {
-    "id": 98791741,
-    "name": "King For Crazy",
-    "npc": false
-  },
+  "corporation_id": 98791741,
   "affiliation": {
-    "corporation": {
-      "id": 98791741,
-      "name": "King For Crazy",
-      "ticker": "K.D.J"
-    },
-    "alliance": {
-      "id": 498125261,
-      "name": "Test Alliance Please Ignore",
-      "ticker": "TEST"
-    },
+    "corporation_id": 98791741,
+    "alliance_id": 498125261,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2020-02-09T05:02:00Z",
       "end": "2020-02-27T00:08:00Z"
     },
     {
       "corporation_id": 98598862,
-      "name": "Chaos arbiter",
-      "npc": false,
       "start": "2020-02-27T00:08:00Z",
       "end": "2020-11-12T11:27:00Z"
     },
     {
       "corporation_id": 1000006,
-      "name": "Deep Core Mining Inc.",
-      "npc": true,
       "start": "2020-11-12T11:27:00Z",
       "end": "2020-11-28T09:33:00Z"
     },
     {
       "corporation_id": 98598862,
-      "name": "Chaos arbiter",
-      "npc": false,
       "start": "2020-11-28T09:33:00Z",
       "end": "2021-03-04T03:58:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2021-03-04T03:58:00Z",
       "end": "2021-03-04T04:34:00Z"
     },
     {
       "corporation_id": 98589972,
-      "name": "wolves group",
-      "npc": false,
       "start": "2021-03-04T04:34:00Z",
       "end": "2021-04-04T15:06:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2021-04-04T15:06:00Z",
       "end": "2021-04-04T15:10:00Z"
     },
     {
       "corporation_id": 98598862,
-      "name": "Chaos arbiter",
-      "npc": false,
       "start": "2021-04-04T15:10:00Z",
       "end": "2021-07-20T04:07:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2021-07-20T04:07:00Z",
       "end": "2021-07-22T03:33:00Z"
     },
     {
       "corporation_id": 98645589,
-      "name": "Faceless.",
-      "npc": false,
       "start": "2021-07-22T03:33:00Z",
       "end": "2021-08-14T14:22:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2021-08-14T14:22:00Z",
       "end": "2021-08-14T14:56:00Z"
     },
     {
       "corporation_id": 98645326,
-      "name": "Gu Gu Gentlemen's House",
-      "npc": false,
       "start": "2021-08-14T14:56:00Z",
       "end": "2022-01-08T04:27:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2022-01-08T04:27:00Z",
       "end": "2022-01-08T04:57:00Z"
     },
     {
       "corporation_id": 98645589,
-      "name": "Faceless.",
-      "npc": false,
       "start": "2022-01-08T04:57:00Z",
       "end": "2022-06-24T06:58:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2022-06-24T06:58:00Z",
       "end": "2022-06-26T06:18:00Z"
     },
     {
       "corporation_id": 98676515,
-      "name": "The Cartel Of Solitude-Aridia",
-      "npc": false,
       "start": "2022-06-26T06:18:00Z",
       "end": "2023-05-02T11:33:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2023-05-02T11:33:00Z",
       "end": "2023-05-04T03:03:00Z"
     },
     {
       "corporation_id": 98659263,
-      "name": "Abandoned Carebears",
-      "npc": false,
       "start": "2023-05-04T03:03:00Z",
       "end": "2024-05-07T13:13:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2024-05-07T13:13:00Z",
       "end": "2024-05-07T13:17:00Z"
     },
     {
       "corporation_id": 98732150,
-      "name": "Star Circle Universe",
-      "npc": false,
       "start": "2024-05-07T13:17:00Z",
       "end": "2024-05-26T14:05:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2024-05-26T14:05:00Z",
       "end": "2024-05-26T14:09:00Z"
     },
     {
       "corporation_id": 98686048,
-      "name": "We are Star Walker",
-      "npc": false,
       "start": "2024-05-26T14:09:00Z",
       "end": "2024-12-19T13:49:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2024-12-19T13:49:00Z",
       "end": "2024-12-19T15:10:00Z"
     },
     {
       "corporation_id": 98791741,
-      "name": "King For Crazy",
-      "npc": false,
       "start": "2024-12-19T15:10:00Z",
       "end": null
     }

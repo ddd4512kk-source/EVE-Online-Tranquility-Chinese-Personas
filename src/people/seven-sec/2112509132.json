@@ -2,127 +2,85 @@
   "id": 2112509132,
   "name": "seven-sec Ellecon",
   "birthday": "2017-03-08T17:28:07Z",
-  "current_corporation": {
-    "id": 98547771,
-    "name": "B.O.P Supplication For Glorious",
-    "npc": false
-  },
+  "corporation_id": 98547771,
   "affiliation": {
-    "corporation": {
-      "id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "ticker": ".BOP"
-    },
-    "alliance": {
-      "id": 99009163,
-      "name": "Dracarys.",
-      "ticker": "D.C"
-    },
+    "corporation_id": 98547771,
+    "alliance_id": 99009163,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2017-03-08T17:28:00Z",
       "end": "2017-03-09T05:25:00Z"
     },
     {
       "corporation_id": 98473826,
-      "name": "Catalyst Unit 8",
-      "npc": false,
       "start": "2017-03-09T05:25:00Z",
       "end": "2017-03-23T16:23:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2017-03-23T16:23:00Z",
       "end": "2017-03-23T16:23:00Z"
     },
     {
       "corporation_id": 98507028,
-      "name": "Jolly Rogers Squadron",
-      "npc": false,
       "start": "2017-03-23T16:23:00Z",
       "end": "2017-07-08T01:45:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2017-07-08T01:45:00Z",
       "end": "2017-07-08T01:46:00Z"
     },
     {
       "corporation_id": 98514159,
-      "name": "Jolly Rogers Fountain Navy",
-      "npc": false,
       "start": "2017-07-08T01:46:00Z",
       "end": "2017-07-19T05:02:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2017-07-19T05:02:00Z",
       "end": "2017-07-22T14:09:00Z"
     },
     {
       "corporation_id": 98522729,
-      "name": "Pipixia Let's Go",
-      "npc": false,
       "start": "2017-07-22T14:09:00Z",
       "end": "2017-09-03T15:19:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2017-09-03T15:19:00Z",
       "end": "2017-09-03T15:19:00Z"
     },
     {
       "corporation_id": 98525345,
-      "name": "EVE FREE ARMY",
-      "npc": false,
       "start": "2017-09-03T15:19:00Z",
       "end": "2017-09-29T03:49:00Z"
     },
     {
       "corporation_id": 98524939,
-      "name": "Sing Hua",
-      "npc": false,
       "start": "2017-09-29T03:49:00Z",
       "end": "2018-07-07T12:21:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2018-07-07T12:21:00Z",
       "end": "2018-07-07T12:23:00Z"
     },
     {
       "corporation_id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "npc": false,
       "start": "2018-07-07T12:23:00Z",
       "end": "2020-02-06T08:46:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2020-02-06T08:46:00Z",
       "end": "2021-08-10T12:37:00Z"
     },
     {
       "corporation_id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "npc": false,
       "start": "2021-08-10T12:37:00Z",
       "end": null
     }
