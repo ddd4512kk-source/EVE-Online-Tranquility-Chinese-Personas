@@ -1,0 +1,63 @@
+---
+layout: base.njk
+bodyClass: page-battle
+---
+{%- from "entity.njk" import org -%}
+{%- set prev = collections.battles | getPreviousCollectionItem(page) -%}
+{%- set next = collections.battles | getNextCollectionItem(page) -%}
+{%- set backHref = '/battles/' %}{% set backLabel = '战役目录' %}
+{% include "back.njk" %}
+<article class="bio battle" data-pagefind-body data-pagefind-filter="板块:战役">
+  <header class="battle-head">
+    <p class="tier tier-{{ tier.key }}" data-pagefind-ignore>{{ tier.name }}战役</p>
+    <h1 class="bio-name" data-pagefind-meta="title">{{ title }}</h1>
+    {% if aliases and aliases.length %}<p class="bio-aliases">又名 {% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+    {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
+  </header>
+
+  <dl class="battle-stats battle-stats-lg" data-pagefind-ignore>
+    <div><dt>各方总损失</dt><dd>{% if lossSources.length == 1 %}<a href="{{ lossSources[0] }}" rel="noopener">{% if loss_is_lower_bound %}至少 {% endif %}{{ lossTotal | isk }}</a>{% else %}{% if loss_is_lower_bound %}至少 {% endif %}{{ lossTotal | isk }}{% endif %}</dd></div>
+    {% if pilotsTotal %}<div><dt>参战角色</dt><dd>{{ pilotsTotal }}<small>人</small></dd></div>{% endif %}
+    {% if pilots_peak %}<div><dt>最高同屏</dt><dd>{{ pilots_peak }}<small>人</small></dd></div>{% endif %}
+    <div><dt>交战方</dt><dd>{{ sidesView.length }}<small>方</small></dd></div>
+  </dl>
+
+  <dl class="bio-facts" data-pagefind-ignore>
+    <div><dt>时间</dt><dd><time datetime="{{ startYmd }}">{{ startYmd }}</time>{% if endYmd and endYmd != startYmd %} — <time datetime="{{ endYmd }}">{{ endYmd }}</time>{% endif %}</dd></div>
+    <div><dt>地点</dt><dd>{% for s in systems %}<a href="https://evemaps.dotlan.net/system/{{ s | urlencode }}" rel="noopener">{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}</a>{% if not loop.last %}、{% endif %}{% endfor %}</dd></div>
+    {% if lossSources.length > 1 %}<div><dt>战报</dt><dd>{% for u in lossSources %}<a href="{{ u }}" rel="noopener">来源 {{ loop.index }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</dd></div>{% endif %}
+    {% if tags and tags.length %}<div><dt>标签</dt><dd class="chips">{% for t in tags %}<a class="chip" href="{{ '/battles/' | url }}?t={{ t | urlencode }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
+  </dl>
+
+  <section class="sides" aria-label="交战各方" data-pagefind-ignore>
+  {%- for s in sidesView %}
+    <div class="side">
+      <h2 class="side-name">{{ s.name }}</h2>
+      <dl class="battle-stats side-stats" aria-label="{{ s.name }}战损与参战人数">
+        <div><dt>参战角色</dt><dd>{% if s.pilots != null %}{{ s.pilots }}<small>人</small>{% else %}待补{% endif %}</dd></div>
+        <div><dt>损失金额</dt><dd>{% if s.loss != null %}{{ s.loss | isk }}{% else %}待补{% endif %}</dd></div>
+        <div><dt title="按战报损失记录统计，可含胶囊与建筑">损失记录</dt><dd>{% if s.loss_count != null %}{{ s.loss_count }}<small>条</small>{% else %}待补{% endif %}</dd></div>
+      </dl>
+      {% if s.note %}<p class="side-note">{{ s.note }}</p>{% endif %}
+      {% if s.loss != null %}<span class="side-bar" aria-hidden="true"><span style="width: {{ (s.loss / lossTotal * 100) | round(1) }}%"></span></span>{% endif %}
+      <dl class="side-facts">
+        {% if s.alliances and s.alliances.length %}<div><dt>联盟</dt><dd>{% for a in s.alliances %}{{ org(a) }}{% if not loop.last %}、{% endif %}{% endfor %}</dd></div>{% endif %}
+        {% if s.corps and s.corps.length %}<div><dt>华人军团</dt><dd><ul class="corp-list">{% for c in s.corps %}<li>{{ org(c) }}{% if c.pilots %}<small>{{ c.pilots }}</small>{% endif %}</li>{% endfor %}</ul></dd></div>{% endif %}
+        {% if s.people and s.people.length %}<div><dt>人物</dt><dd class="chips">{% for id in s.people %}{% set p = collections.people | personById(id) %}<a class="chip" href="{{ p.url | url }}">{{ p.data.displayName }}</a>{% endfor %}</dd></div>{% endif %}
+      </dl>
+    </div>
+  {%- endfor %}
+  </section>
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+</article>
+
+{% include "glossary-dialog.njk" %}
+
+<nav class="pager" aria-label="按时间翻页" data-pagefind-ignore>
+  {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>较近一场</small>{{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+  <a class="pager-random" href="{{ '/battles/' | url }}">目录</a>
+  {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>较早一场</small>{{ next.data.title }}</a>{% else %}<span></span>{% endif %}
+</nav>

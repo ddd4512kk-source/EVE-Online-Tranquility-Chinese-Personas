@@ -2,64 +2,40 @@
   "id": 2123680197,
   "name": "QingQing999",
   "birthday": "2025-08-11T22:19:57Z",
-  "current_corporation": {
-    "id": 98825941,
-    "name": "Kun-Lun",
-    "npc": false
-  },
+  "corporation_id": 98825941,
   "affiliation": {
-    "corporation": {
-      "id": 98825941,
-      "name": "Kun-Lun",
-      "ticker": "KN-L"
-    },
-    "alliance": {
-      "id": 1354830081,
-      "name": "Goonswarm Federation",
-      "ticker": "CONDI"
-    },
+    "corporation_id": 98825941,
+    "alliance_id": 1354830081,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2025-08-11T22:20:00Z",
       "end": "2025-08-13T05:36:00Z"
     },
     {
       "corporation_id": 98642382,
-      "name": "HongLou",
-      "npc": false,
       "start": "2025-08-13T05:36:00Z",
       "end": "2026-01-15T14:32:00Z"
     },
     {
       "corporation_id": 98524939,
-      "name": "Sing Hua",
-      "npc": false,
       "start": "2026-01-15T14:32:00Z",
       "end": "2026-02-09T13:37:00Z"
     },
     {
       "corporation_id": 98825941,
-      "name": "Kun-Lun",
-      "npc": false,
       "start": "2026-02-09T13:37:00Z",
       "end": "2026-08-16T00:52:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2026-08-16T00:52:00Z",
       "end": "2026-09-08T16:43:00Z"
     },
     {
       "corporation_id": 98825941,
-      "name": "Kun-Lun",
-      "npc": false,
       "start": "2026-09-08T16:43:00Z",
       "end": null
     }

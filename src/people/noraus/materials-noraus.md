@@ -169,3 +169,9 @@
 ## 2026-10-16：光头的高仿号 noarus 与访谈
 
 noarus（2119031117，女娲，头衔“PERMA evildoBANNED”）不是本人小号，是[光头／EvilDobar](../evildobar/materials-evildobar.md)拿N老板永封开涮的高仿号；2023-02 有B站观众把它的莫洛级海军型KB误认作“N老板站起来叻”。光头B站号“没有姓名字”2025-11-17上传[《【人物访谈】探寻猪之秘境-Noarus（中字）》](https://www.bilibili.com/video/BV1udCaB7E8c/)，简介“亮点在51:30”，评论“原来猪头长这样！”；影像未看，不补访谈内容。Bateau（已归本人）在光头2009年旧作[BV13Z421W7YM](https://www.bilibili.com/video/BV13Z421W7YM/)下留言“曾经还有头发和大胸学妹”。
+
+## FWST 两轮：2020-10-05 与 10-06—07
+
+Norausdot公开复盘[8891](https://forums.winterco.org/t/topic/8891)和[9163](https://forums.winterco.org/t/topic/9163)全部文字已读，未读内嵌影像、录音或字幕。前者是本人放置一号星城、承认加力重突选择错误、FRT未备超航和铁骑不足、掉线神使救援、立刻再下二号的叙述；后者前半是二号星城的舰制失效、泰坦入场时机与联军会议，后半才是Enho和其他星城轮次。具体口径分别归[一号素材](../../battles/fwst-8-first-2020/materials-fwst-8-first-2020.md)与[二号素材](../../battles/fwst-8-2020/materials-fwst-8-2020.md)。
+
+两轮people依据本人组织与决策的详细第一人称叙述；没有确定具体登录号和军团，不以主号当前军团反推。紫电、随风的FWST回忆仍未分清第一／第二轮，不据此新增本页名单。

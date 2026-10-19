@@ -4,6 +4,7 @@ cn_name: 萝卜
 aliases: [涅磐萝卜, 海草海草, 海草海草℉, NVA-King, NVA-Queen, NVA-Luo, NVA-Nirvana, NVA-Prince, NVA-BYB, 宝宝巴士萝卜]
 epithet: 宇宙第一肉团的团长，顶帖顶到号被永封
 tags: [00区, CEO, 脚本, D.C, B.Y.B]
+alts: [2122186266, 2122279930, 2122238003, 2122279631, 2123492459]
 ---
 
 萝卜是 DC 旗下宝宝巴士（Baby-Bus，B.Y.B）的团长。贴吧账号原名“涅磐萝卜”，后来改叫“海草海草℉”；游戏里一排角色都挂着 NVA 前缀，NVA-King、NVA-Queen、NVA-Luo、NVA-Nirvana、NVA-Prince，连 NVA-Luo 这一个号都写明了“萝”，NVA-Nirvana 就是“涅磐”。2025 年 5 月，有人在贴吧晒自家军团的聚会照，他跑去搭话，聊到最后自报家门：“我是byb的ceo。”

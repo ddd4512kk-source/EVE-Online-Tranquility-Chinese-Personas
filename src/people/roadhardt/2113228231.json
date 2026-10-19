@@ -2,151 +2,105 @@
   "id": 2113228231,
   "name": "Tdrahdaor Castor",
   "birthday": "2017-09-20T15:29:35Z",
-  "current_corporation": {
-    "id": 98732201,
-    "name": "Etz haChayim-01",
-    "npc": false
-  },
+  "corporation_id": 98732201,
   "affiliation": {
-    "corporation": {
-      "id": 98732201,
-      "name": "Etz haChayim-01",
-      "ticker": "EHC01"
-    },
-    "alliance": null,
+    "corporation_id": 98732201,
+    "alliance_id": null,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2017-09-20T15:30:00Z",
       "end": "2017-10-02T13:44:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2017-10-02T13:44:00Z",
       "end": "2017-11-05T10:30:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-11-05T10:30:00Z",
       "end": "2017-11-13T11:44:00Z"
     },
     {
       "corporation_id": 98536911,
-      "name": "Sawtc",
-      "npc": false,
       "start": "2017-11-13T11:44:00Z",
       "end": "2017-11-22T12:09:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2017-11-22T12:09:00Z",
       "end": "2017-11-28T13:48:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-11-28T13:48:00Z",
       "end": "2017-11-28T16:57:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2017-11-28T16:57:00Z",
       "end": "2017-12-30T10:51:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-12-30T10:51:00Z",
       "end": "2017-12-30T14:58:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2017-12-30T14:58:00Z",
       "end": "2018-01-01T07:44:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-01-01T07:44:00Z",
       "end": "2018-01-02T13:47:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2018-01-02T13:47:00Z",
       "end": "2018-01-05T11:42:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-01-05T11:42:00Z",
       "end": "2018-01-06T15:29:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2018-01-06T15:29:00Z",
       "end": "2018-01-10T12:29:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-01-10T12:29:00Z",
       "end": "2018-01-20T16:37:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2018-01-20T16:37:00Z",
       "end": "2018-01-21T11:27:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-01-21T11:27:00Z",
       "end": "2020-10-08T13:50:00Z"
     },
     {
       "corporation_id": 1000179,
-      "name": "24th Imperial Crusade",
-      "npc": true,
       "start": "2020-10-08T13:50:00Z",
       "end": "2022-10-11T04:39:00Z"
     },
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2022-10-11T04:39:00Z",
       "end": "2023-01-27T08:53:00Z"
     },
     {
       "corporation_id": 98732201,
-      "name": "Etz haChayim-01",
-      "npc": false,
       "start": "2023-01-27T08:53:00Z",
       "end": null
     }

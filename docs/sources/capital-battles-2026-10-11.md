@@ -1,6 +1,6 @@
 # 1T 大战：人物补漏素材
 
-2026-10-11 核对。本表 12 场均属新分档的超级战役（≥1T），不代表已覆盖 400B–1T 的大型战役。时间均为 UTC；下表按一场战斗的时间窗口筛选，M2 首战、第二战与突围分别统计。门槛是各方总损失，不是场上资产或人物击杀累计。
+2026-10-11 核对。本表 12 场均属新分档的史诗战役（≥1T），不代表已覆盖 400B–1T 的大型战役。时间均为 UTC；下表按一场战斗的时间窗口筛选，M2 首战、第二战与突围分别统计。门槛是各方总损失，不是场上资产或人物击杀累计。
 
 有 CCP 总损失口径的采用该口径；其他场次只把已核对 KM 的损失求和作为下限。历史 KM 的现行估值不等于当年的报道估值。尤其 B-R：CCP 当年报约 11T，本轮高值样本按现行估值约 33.89T，两者不混算。
 
@@ -17,7 +17,7 @@
 | Lantorn | 2025-06-17T20:04:24Z — 2025-06-17T23:34:24Z | FRT 及友军与 Snuffed Out、帝国等 | [3.2T](https://www.eveonline.com/news/view/community-beat-for-20-june) | 316 条，2.850T |
 | Siseide | 2025-06-21T03:52:10Z — 2025-06-21T12:49:35Z | FRT 及友军与 Snuffed Out 等；此处不重建完整阵营 | 至少 2.84T | 297 条，2.838T |
 | Atioth | 2026-04-07T00:34:15Z — 2026-04-07T10:55:13Z | Winter Coalition 与帝国系 | [近 10T](https://www.eveonline.com/news/view/clash-at-atioth) | 39 条，7.241T |
-| Obe | 2026-10-10T09:39:06.000Z — 2026-10-10T13:27:53.000Z | FRT 及友军／Snuffed Out 及友军／INIT 三组 | [6.64T](https://warbeacon.net/br/report/cd8b4c3e-5e83-46ad-a424-382b5fdd134a#stats) | 1336 条，6.647T；原报告总额 6.643T，原始列表与报告去重口径不同 |
+| Obe | 2026-10-10T09:39:06.000Z — 2026-10-10T13:27:53.000Z | 原报 FRT 及友军／Snuffed Out 及友军／INIT 三组；战役页改为 FRT 及友军／Snuff 及友军（含 INIT）／第三方（Goons 等），见[战役素材](../../src/battles/obe-2026/materials-obe-2026.md) | [6.64T](https://warbeacon.net/br/report/cd8b4c3e-5e83-46ad-a424-382b5fdd134a#stats) | 1336 条，6.647T；原报告总额 6.643T，原始列表与报告去重口径不同 |
 
 ## 样本边界
 
@@ -237,3 +237,7 @@ Den Like Raven（2113941665）击杀 3482、参与击杀约 1.27T，已归入乌
 ### B站入口补读（2026-10-13）
 
 黑色星期五视频的公开简介及两P信息现已取得：原片为4S/INIT视角，详见[伊利法尔素材](../../src/people/yilifaer/materials-yilifaer.md)。旧API 412不再表示该视频页未读；评论、影像及人物参战归属仍未核对。
+
+### Atioth完整战报人数补核
+
+CCP新闻文末附[完整BR](https://killmail.app/br/GxhFDiNEWB-atioth-2026-04-06)，公开接口 `/api/battle-reports/GxhFDiNEWB`。单星系窗口UTC2026-04-06 14:00—04-08 14:49:27，共9901条KM，9235477547242 ISK；受害者与攻击者角色ID并集为12002。CCP的10253则是同一时刻系统人数峰值，两者分开。战役页已按完整窗口扩到04-08，原高值样本和逐人记录继续保留。归组缺口见[战役素材](../../src/battles/atioth-2026/materials-atioth-2026.md#完整战报与人数)。

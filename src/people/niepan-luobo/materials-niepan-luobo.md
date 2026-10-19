@@ -44,7 +44,7 @@
 
 - Taff 2026-02-22（720.2B，大型，见 [large-battles](../../../docs/sources/large-battles-2026-10-11.md)）：NVA-Queen，Baby-Bus／Dracarys.，渎圣，[133569056](https://zkillboard.com/kill/133569056/) 14:14:29（受害 FRT 狂热）；该星系当月共 4 条。NVA-King 在 Taff 当月 0 条。
 - 北方 2026-04-25（969.1B，大型，见 [northern-battles](../../../docs/sources/northern-battles-2026-04-25.md)）：NVA-Queen 狂怒者参与 8TPX-N FRT 俄洛巴斯 [135008430](https://zkillboard.com/kill/135008430/)（155.0B，攻击者 652）。4-HWWF 0 条；NVA-King 两处主战 0 条（DC 候选表列其在该 BR 有 1 条，系统未核）。
-- 排除：NVA-King 2026-04 Atioth 7 条在 04-08 12:55—13:26（对 FRT），不在 04-07 Atioth 超级战役窗口；Obe 2026-10-10 两号 0 条。NVA-Queen 2026-01（308B）、2026-10（272B）高值月份未查对应战斗。
+- 排除：NVA-King 2026-04 Atioth 7 条在 04-08 12:55—13:26（对 FRT），不在 04-07 Atioth 史诗战役窗口；Obe 2026-10-10 两号 0 条。NVA-Queen 2026-01（308B）、2026-10（272B）高值月份未查对应战斗。
 
 ## 使用脚本永封（2026-10，理由6.A.3）
 

@@ -2,92 +2,60 @@
   "id": 2120504987,
   "name": "Gtroy",
   "birthday": "2022-10-22T02:41:22Z",
-  "current_corporation": {
-    "id": 98755298,
-    "name": "Fox of Resistance",
-    "npc": false
-  },
+  "corporation_id": 98755298,
   "affiliation": {
-    "corporation": {
-      "id": 98755298,
-      "name": "Fox of Resistance",
-      "ticker": "FOXOR"
-    },
-    "alliance": {
-      "id": 1727758877,
-      "name": "Northern Coalition.",
-      "ticker": "NC"
-    },
+    "corporation_id": 98755298,
+    "alliance_id": 1727758877,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2022-10-22T02:41:00Z",
       "end": "2022-10-23T12:20:00Z"
     },
     {
       "corporation_id": 98622279,
-      "name": "Total Nature",
-      "npc": false,
       "start": "2022-10-23T12:20:00Z",
       "end": "2023-01-27T02:55:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2023-01-27T02:55:00Z",
       "end": "2023-01-28T01:00:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2023-01-28T01:00:00Z",
       "end": "2023-11-08T15:47:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2023-11-08T15:47:00Z",
       "end": "2023-12-06T06:01:00Z"
     },
     {
       "corporation_id": 98595110,
-      "name": "Absolute Order",
-      "npc": false,
       "start": "2023-12-06T06:01:00Z",
       "end": "2023-12-08T12:26:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2023-12-08T12:26:00Z",
       "end": "2023-12-08T12:27:00Z"
     },
     {
       "corporation_id": 98646452,
-      "name": "Absolute Order VIII",
-      "npc": false,
       "start": "2023-12-08T12:27:00Z",
       "end": "2023-12-16T14:45:00Z"
     },
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2023-12-16T14:45:00Z",
       "end": "2023-12-16T14:48:00Z"
     },
     {
       "corporation_id": 98755298,
-      "name": "Fox of Resistance",
-      "npc": false,
       "start": "2023-12-16T14:48:00Z",
       "end": null
     }

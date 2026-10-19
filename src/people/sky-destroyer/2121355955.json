@@ -2,64 +2,40 @@
   "id": 2121355955,
   "name": "Sky Destroyer",
   "birthday": "2023-06-23T06:27:07Z",
-  "current_corporation": {
-    "id": 98598862,
-    "name": "Chaos arbiter",
-    "npc": false
-  },
+  "corporation_id": 98598862,
   "affiliation": {
-    "corporation": {
-      "id": 98598862,
-      "name": "Chaos arbiter",
-      "ticker": "CACX"
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98598862,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2023-06-23T06:27:00Z",
       "end": "2023-06-29T11:37:00Z"
     },
     {
       "corporation_id": 98707431,
-      "name": "Serenity Moe University",
-      "npc": false,
       "start": "2023-06-29T11:37:00Z",
       "end": "2023-06-30T13:13:00Z"
     },
     {
       "corporation_id": 98598862,
-      "name": "Chaos arbiter",
-      "npc": false,
       "start": "2023-06-30T13:13:00Z",
       "end": "2023-07-09T14:11:00Z"
     },
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2023-07-09T14:11:00Z",
       "end": "2023-07-14T15:22:00Z"
     },
     {
       "corporation_id": 98707431,
-      "name": "Serenity Moe University",
-      "npc": false,
       "start": "2023-07-14T15:22:00Z",
       "end": "2023-07-17T04:52:00Z"
     },
     {
       "corporation_id": 98598862,
-      "name": "Chaos arbiter",
-      "npc": false,
       "start": "2023-07-17T04:52:00Z",
       "end": null
     }

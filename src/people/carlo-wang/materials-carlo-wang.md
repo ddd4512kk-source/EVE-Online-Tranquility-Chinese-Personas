@@ -15,3 +15,7 @@
 ## 当前快照与旧事时间
 
 2026-10-15抓取的EveWho／ESI快照当前军团Special law enforcement department（98540583，ticker SARD.）、联盟Fraternity.（99003581）；2026-05-02进入SARD。历史记录含2018-06—08 Electronic Industry Club、2018-08—10 Essence of the Flitting Shades，与HOS／影舞之心旧帖语境相合。正文当前归属只说这个收录号现属SARD，不补造与嗜血和解的过程，也不将换团当黑料。
+
+## 2026-03-01 MC6O-F史诗战役
+
+[共享窗口与人物表](../../../docs/sources/large-battles-2026-10-11.md)：10:00–13:00 UTC，MC6O-F，各方总损失约1.142T ISK。角色2113060308驾驶type 12032，战时联盟99003581（FRT），攻击者代表[KM133728212](https://zkillboard.com/kill/133728212/)。本场记录只记参战，不由KM指定本人指挥、决策责任或双方胜负；正文并入原有经历，其他战役与红黑料保留。

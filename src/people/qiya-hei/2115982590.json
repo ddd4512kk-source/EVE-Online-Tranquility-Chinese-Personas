@@ -2,50 +2,30 @@
   "id": 2115982590,
   "name": "Qiya Hei",
   "birthday": "2019-12-01T03:10:12Z",
-  "current_corporation": {
-    "id": 98645589,
-    "name": "Faceless.",
-    "npc": false
-  },
+  "corporation_id": 98645589,
   "affiliation": {
-    "corporation": {
-      "id": 98645589,
-      "name": "Faceless.",
-      "ticker": "D.OK"
-    },
-    "alliance": {
-      "id": 99009163,
-      "name": "Dracarys.",
-      "ticker": "D.C"
-    },
+    "corporation_id": 98645589,
+    "alliance_id": 99009163,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2019-12-01T03:10:00Z",
       "end": "2019-12-28T03:16:00Z"
     },
     {
       "corporation_id": 98605204,
-      "name": "Dark Portal",
-      "npc": false,
       "start": "2019-12-28T03:16:00Z",
       "end": "2020-06-08T16:52:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2020-06-08T16:52:00Z",
       "end": "2020-06-08T16:53:00Z"
     },
     {
       "corporation_id": 98645589,
-      "name": "Faceless.",
-      "npc": false,
       "start": "2020-06-08T16:53:00Z",
       "end": null
     }

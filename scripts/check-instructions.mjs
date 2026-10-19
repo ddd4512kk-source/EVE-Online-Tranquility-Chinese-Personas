@@ -7,7 +7,7 @@ async function skills(directory, relative = '') {
   catch (error) { if (error.code === 'ENOENT') return []; throw error; }
   const files = [];
   for (const entry of entries) {
-    const file = path.join(relative, entry.name);
+    const file = path.posix.join(relative, entry.name);
     if (entry.isDirectory()) files.push(...await skills(directory, file));
     else if (entry.name === 'SKILL.md') files.push(file);
   }
@@ -25,6 +25,6 @@ export async function checkInstructions(root) {
   }
   await compare('AGENTS.md', 'CLAUDE.md');
   const [codex, claude] = await Promise.all(['.agents/skills', '.claude/skills'].map(dir => skills(path.join(root, dir))));
-  for (const file of new Set([...codex, ...claude])) await compare(path.join('.agents/skills', file), path.join('.claude/skills', file));
+  for (const file of new Set([...codex, ...claude])) await compare(path.posix.join('.agents/skills', file), path.posix.join('.claude/skills', file));
   return errors;
 }

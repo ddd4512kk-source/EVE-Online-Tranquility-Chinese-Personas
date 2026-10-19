@@ -2,36 +2,20 @@
   "id": 2118990980,
   "name": "AUG SS",
   "birthday": "2021-08-13T07:02:44Z",
-  "current_corporation": {
-    "id": 98690815,
-    "name": "Where is My Arcane Missiles",
-    "npc": false
-  },
+  "corporation_id": 98690815,
   "affiliation": {
-    "corporation": {
-      "id": 98690815,
-      "name": "Where is My Arcane Missiles",
-      "ticker": ".RPG."
-    },
-    "alliance": {
-      "id": 99009163,
-      "name": "Dracarys.",
-      "ticker": "D.C"
-    },
+    "corporation_id": 98690815,
+    "alliance_id": 99009163,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000045,
-      "name": "Science and Trade Institute",
-      "npc": true,
       "start": "2021-08-13T07:03:00Z",
       "end": "2021-08-13T07:15:00Z"
     },
     {
       "corporation_id": 98690815,
-      "name": "Where is My Arcane Missiles",
-      "npc": false,
       "start": "2021-08-13T07:15:00Z",
       "end": null
     }

@@ -9,3 +9,6 @@
 检索：ESI/EveWho命中，KB未取得数据，不称零战报；贴吧精确名零结果，中文撞动漫人物；网页无新增可归属故事。B站本批412后停止请求，同名影视UP不认作本人。
 
 2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[qvqwwqvq2（2124010824）](https://zkillboard.com/character/2124010824/) 42.2B ISK；[qvqwwqvq3（2124019666）](https://zkillboard.com/character/2124019666/) 18.3B ISK；[qvqwwqvq4（2124030233）](https://zkillboard.com/character/2124030233/) 16.8B ISK；[qvqwwqvq6（2124315550）](https://zkillboard.com/character/2124315550/) 8.3B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。
+
+
+B站UP检索名单尚未对应本人UP，本轮不再挂“待板块扫描”；保留既有事件与他人作品的归属边界，有明确本人投稿入口再续查。

@@ -42,7 +42,7 @@
 | 混沌退团帖旁支 | Not Fox（2112093911）；Lumo及打码招新者 | 红叶已立传移出；第52楼点Not Fox挖人，同名角色仅NPC记录，Lumo及打码者缺游戏角色；不回填FOX任职或“某某白”外号 | [事件摘要](sources/cacx-tuxedoee-expulsion-2025.md) |
 | 无面者九月榜新入口 | 糖果猫双号、悲叹之星、鸢尾、胖虎、憨憨橙子、南枝、JY、BOP催命 | 十号头衔简介已读，珅已按执行军团核心管理与外交职责恢复列传；糖果猫同人已归一，其他具体故事与账号待查 | [逐人入口](leads/dok-monthly-people-2026-10-14.md) |
 | Rainight kurumi | 2117046673，原DC／无面者历史榜第1 | 三条泰坦／无畏KM中本人均在攻击方，缺社区外号与独立故事；不把配文写成本人土路丢泰坦 | [本人线索](leads/rainight-kurumi.md) |
-| 宁静访谈小派及协作者 | 小派／萧瑟、六一、文华、NarcissaAa、天籁 | 嘉宾、主持、后期与译者点名已读；缺游戏角色和具体账号，不并NoNo或白杉 | [访谈与译稿线索](leads/ningjing-interview-guests-2022.md) |
+| 宁静访谈小派及协作者 | 小派／萧瑟、六一、NarcissaAa | 嘉宾、主持与后期点名已读；仍缺对应角色；文华已归Ranger YL，译稿来源归白杉素材 | [访谈与译稿线索](leads/ningjing-interview-guests-2022.md) |
 | 2022年一月旧团人物 | 寇德Zerg Lemon／2122330596、RelaxR／2113820265、J Co1e／2120003370、800MG／2123230873 | 七团精确宁静实体已定位，内森已有、夜叉糖与Code Earth已立传，DA按CEO短传收录；Zerg Lemon／寇德与Code Earth的同人链、其余故事待查，2026登记不倒推2022任期 | [历史团队列](leads/corp-activity-2022-01.md) |
 | 混沌历史榜前50续查 | yy yy、CA I、艾佛里双号、零度六号、吴磊磊双号、我的心好冷双号；封督、天狼、夹子等见表 | 前50头衔与完整简介已读，哈威、易武已立传；四组同人已合并，其余事件／职责待查；小夹子已对应MCtimes并立传 | [唯一队列](leads/corp-top-characters-2026-10-12.md#混沌前十续查2026-10-14) |
 | PLA历史榜前50续查 | 麦奇双号、牧童双号、Hito三号；豆豆、猪哥、柯西、九命鸭、斯巴达等见表 | 前50头衔与完整简介已读，三组同人已合并；豆豆SKIN商品内容及Y Snow逐场战役待核，未据总览或排名认FC | [唯一队列](leads/corp-top-characters-2026-10-12.md#pla前50头衔增量2026-10-14) |
@@ -222,3 +222,5 @@
 | 紫瞳／慕利亚诺兰 | RR早期粉红鱼雷制造、神韵快递故事；七秒已对应seven-sec Ellecon并收录；紫瞳所在团创建者与现CEO已查，均尚未对应外号 | [素材](leads/rr-early-corps.md) |
 
 | 凛冬综合讨论版发言者 | 漫步／mover_keeper、dandandeyoushang；语录无完整角色名者 | 催更奏表与拒赔投诉已读；语录可见全帖已读；七篇已立传，食元鱼转暂缓，李福、江风转已确认栏，35—99楼内容归档，凛冬方向暂停 | [线索](leads/winterco-communications-unmapped.md) |
+
+| siti xiya1 | 2021-08-11 欧塔萨塞战的冥府驾驶员、战报视频 UP（2115841336，YeLuo-XingHai）；暂无独立人物事件 | [线索](leads/sitixiya.md) |

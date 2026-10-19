@@ -2,127 +2,85 @@
   "id": 2122186397,
   "name": "NVA-King",
   "birthday": "2024-03-24T13:36:51Z",
-  "current_corporation": {
-    "id": 98777401,
-    "name": "Baby-Bus",
-    "npc": false
-  },
+  "corporation_id": 98777401,
   "affiliation": {
-    "corporation": {
-      "id": 98777401,
-      "name": "Baby-Bus",
-      "ticker": "B.Y.B"
-    },
-    "alliance": {
-      "id": 99009163,
-      "name": "Dracarys.",
-      "ticker": "D.C"
-    },
+    "corporation_id": 98777401,
+    "alliance_id": 99009163,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2024-03-24T13:37:00Z",
       "end": "2024-03-24T13:42:00Z"
     },
     {
       "corporation_id": 98749590,
-      "name": "LoreWorld Traveler",
-      "npc": false,
       "start": "2024-03-24T13:42:00Z",
       "end": "2024-03-31T05:22:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2024-03-31T05:22:00Z",
       "end": "2024-03-31T05:40:00Z"
     },
     {
       "corporation_id": 98631475,
-      "name": "Profane Proverb",
-      "npc": false,
       "start": "2024-03-31T05:40:00Z",
       "end": "2024-03-31T13:33:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2024-03-31T13:33:00Z",
       "end": "2024-03-31T13:48:00Z"
     },
     {
       "corporation_id": 98744349,
-      "name": "Star Ring Praetorian",
-      "npc": false,
       "start": "2024-03-31T13:48:00Z",
       "end": "2024-06-30T12:44:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2024-06-30T12:44:00Z",
       "end": "2024-06-30T12:56:00Z"
     },
     {
       "corporation_id": 98776912,
-      "name": "Creating Dreams",
-      "npc": false,
       "start": "2024-06-30T12:56:00Z",
       "end": "2024-07-06T11:17:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2024-07-06T11:17:00Z",
       "end": "2024-07-06T11:26:00Z"
     },
     {
       "corporation_id": 98777401,
-      "name": "Baby-Bus",
-      "npc": false,
       "start": "2024-07-06T11:26:00Z",
       "end": "2025-07-07T06:42:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2025-07-07T06:42:00Z",
       "end": "2025-07-07T06:47:00Z"
     },
     {
       "corporation_id": 98808182,
-      "name": "Can Can Need Try Try Wood",
-      "npc": false,
       "start": "2025-07-07T06:47:00Z",
       "end": "2025-07-08T11:54:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2025-07-08T11:54:00Z",
       "end": "2025-07-08T11:55:00Z"
     },
     {
       "corporation_id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "npc": false,
       "start": "2025-07-08T11:55:00Z",
       "end": "2025-07-14T11:35:00Z"
     },
     {
       "corporation_id": 98777401,
-      "name": "Baby-Bus",
-      "npc": false,
       "start": "2025-07-14T11:35:00Z",
       "end": null
     }

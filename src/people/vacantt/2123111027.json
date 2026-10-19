@@ -2,36 +2,20 @@
   "id": 2123111027,
   "name": "Vacantt",
   "birthday": "2025-01-25T11:40:09Z",
-  "current_corporation": {
-    "id": 98535868,
-    "name": "ChuangShi",
-    "npc": false
-  },
+  "corporation_id": 98535868,
   "affiliation": {
-    "corporation": {
-      "id": 98535868,
-      "name": "ChuangShi",
-      "ticker": "CSQY"
-    },
-    "alliance": {
-      "id": 99014783,
-      "name": "Wings Freedom.",
-      "ticker": "WINGS"
-    },
+    "corporation_id": 98535868,
+    "alliance_id": 99014783,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2025-01-25T11:40:00Z",
       "end": "2025-01-25T12:03:00Z"
     },
     {
       "corporation_id": 98535868,
-      "name": "ChuangShi",
-      "npc": false,
       "start": "2025-01-25T12:03:00Z",
       "end": null
     }

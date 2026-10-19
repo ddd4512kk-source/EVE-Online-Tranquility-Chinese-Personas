@@ -19,7 +19,7 @@
 
 [zKillboard统计API](https://zkillboard.com/api/stats/characterID/2120556332/)响应：shipsDestroyed 1496，iskDestroyed 2027538362919；shipsLost 341，iskLost 24975130432；soloKills 10。正文将击杀约为1500、金额约2.03T，只作本人参与记录，不称独自完成。topAllTime子榜与总字段有少量缓存差异，不混加。
 
-尚未读取具体大型、超级战役KM，不据累计金额编造战役或指挥职务。普通损失不写黑料。
+尚未读取具体大型、史诗战役KM，不据累计金额编造战役或指挥职务。普通损失不写黑料。
 
 ## 检索覆盖与缺口
 

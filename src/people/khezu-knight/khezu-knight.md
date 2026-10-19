@@ -38,7 +38,6 @@ tags: ["00区", "INIT.", "B站", "E   S"]
 :::
 
 ::: 红料 B站作品精选
-按已读公开答疑推荐，未读影像、音频或字幕。
 
 - [《EVE舰船皮肤DIY开工！3分钟搞定涂装制作》](https://www.bilibili.com/video/BV1548qzsEPD/)：评论里区分定制船与涂料、讨论低画质皮肤的需求，能看到这位创作者怎样接住玩家的具体问题。
 - [《自制可爱INIT仔皮套！》](https://www.bilibili.com/video/BV1MEuQzvEy5/)：本人交代刚学Live2D、花三天制作，准备继续加表情，是从静态画稿迈到动态角色的一份创作小记。

@@ -2,50 +2,30 @@
   "id": 2117737129,
   "name": "yilifaer",
   "birthday": "2020-10-22T05:36:51Z",
-  "current_corporation": {
-    "id": 98806948,
-    "name": "Your Ex's",
-    "npc": false
-  },
+  "corporation_id": 98806948,
   "affiliation": {
-    "corporation": {
-      "id": 98806948,
-      "name": "Your Ex's",
-      "ticker": "UREX"
-    },
-    "alliance": {
-      "id": 99003995,
-      "name": "Invidia Gloriae Comes",
-      "ticker": "IGC"
-    },
+    "corporation_id": 98806948,
+    "alliance_id": 99003995,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000077,
-      "name": "Royal Amarr Institute",
-      "npc": true,
       "start": "2020-10-22T05:37:00Z",
       "end": "2023-05-08T09:30:00Z"
     },
     {
       "corporation_id": 98731561,
-      "name": "Xuanwu college",
-      "npc": false,
       "start": "2023-05-08T09:30:00Z",
       "end": "2025-06-18T11:39:00Z"
     },
     {
       "corporation_id": 1000077,
-      "name": "Royal Amarr Institute",
-      "npc": true,
       "start": "2025-06-18T11:39:00Z",
       "end": "2025-06-18T11:55:00Z"
     },
     {
       "corporation_id": 98806948,
-      "name": "Your Ex's",
-      "npc": false,
       "start": "2025-06-18T11:55:00Z",
       "end": null
     }
