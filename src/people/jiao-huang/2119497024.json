@@ -2,99 +2,65 @@
   "id": 2119497024,
   "name": "Jiao-Huang",
   "birthday": "2021-12-23T07:46:40Z",
-  "current_corporation": {
-    "id": 98769610,
-    "name": "Cosmic-Wanderers",
-    "npc": false
-  },
+  "corporation_id": 98769610,
   "affiliation": {
-    "corporation": {
-      "id": 98769610,
-      "name": "Cosmic-Wanderers",
-      "ticker": "CO.WA"
-    },
-    "alliance": {
-      "id": 1900696668,
-      "name": "The Initiative.",
-      "ticker": "INIT."
-    },
+    "corporation_id": 98769610,
+    "alliance_id": 1900696668,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2021-12-23T07:47:00Z",
       "end": "2021-12-23T08:29:00Z"
     },
     {
       "corporation_id": 98701730,
-      "name": "Central Royal Force",
-      "npc": false,
       "start": "2021-12-23T08:29:00Z",
       "end": "2022-03-13T12:47:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2022-03-13T12:47:00Z",
       "end": "2022-03-13T12:48:00Z"
     },
     {
       "corporation_id": 98668865,
-      "name": "STAR TRAILS",
-      "npc": false,
       "start": "2022-03-13T12:48:00Z",
       "end": "2022-06-13T15:52:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2022-06-13T15:52:00Z",
       "end": "2022-06-14T09:56:00Z"
     },
     {
       "corporation_id": 98588384,
-      "name": "YeLuo-XingHai",
-      "npc": false,
       "start": "2022-06-14T09:56:00Z",
       "end": "2022-11-10T08:43:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2022-11-10T08:43:00Z",
       "end": "2022-11-17T11:52:00Z"
     },
     {
       "corporation_id": 98588384,
-      "name": "YeLuo-XingHai",
-      "npc": false,
       "start": "2022-11-17T11:52:00Z",
       "end": "2024-03-20T13:27:00Z"
     },
     {
       "corporation_id": 98701730,
-      "name": "Central Royal Force",
-      "npc": false,
       "start": "2024-03-20T13:27:00Z",
       "end": "2025-01-01T10:14:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-01-01T10:14:00Z",
       "end": "2025-01-01T10:14:00Z"
     },
     {
       "corporation_id": 98769610,
-      "name": "Cosmic-Wanderers",
-      "npc": false,
       "start": "2025-01-01T10:14:00Z",
       "end": null
     }

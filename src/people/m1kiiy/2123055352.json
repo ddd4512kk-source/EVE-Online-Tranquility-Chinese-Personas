@@ -2,134 +2,90 @@
   "id": 2123055352,
   "name": "M1kiIy",
   "birthday": "2025-01-06T15:14:30Z",
-  "current_corporation": {
-    "id": 98833956,
-    "name": "Sparrow In Cage",
-    "npc": false
-  },
+  "corporation_id": 98833956,
   "affiliation": {
-    "corporation": {
-      "id": 98833956,
-      "name": "Sparrow In Cage",
-      "ticker": ".MU"
-    },
-    "alliance": {
-      "id": 99003995,
-      "name": "Invidia Gloriae Comes",
-      "ticker": "IGC"
-    },
+    "corporation_id": 98833956,
+    "alliance_id": 99003995,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2025-01-06T15:15:00Z",
       "end": "2025-01-06T17:11:00Z"
     },
     {
       "corporation_id": 98777557,
-      "name": "Watch Eagle Academy",
-      "npc": false,
       "start": "2025-01-06T17:11:00Z",
       "end": "2025-02-17T12:07:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2025-02-17T12:07:00Z",
       "end": "2025-02-17T12:19:00Z"
     },
     {
       "corporation_id": 98600350,
-      "name": "Watch Eagle",
-      "npc": false,
       "start": "2025-02-17T12:19:00Z",
       "end": "2025-02-27T14:50:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2025-02-27T14:50:00Z",
       "end": "2025-02-28T01:15:00Z"
     },
     {
       "corporation_id": 98769610,
-      "name": "Cosmic-Wanderers",
-      "npc": false,
       "start": "2025-02-28T01:15:00Z",
       "end": "2025-12-01T07:09:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2025-12-01T07:09:00Z",
       "end": "2025-12-01T07:09:00Z"
     },
     {
       "corporation_id": 98725234,
-      "name": "Alkaid Broken Army",
-      "npc": false,
       "start": "2025-12-01T07:09:00Z",
       "end": "2026-02-23T02:45:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2026-02-23T02:45:00Z",
       "end": "2026-02-23T03:59:00Z"
     },
     {
       "corporation_id": 98540583,
-      "name": "Special law enforcement department",
-      "npc": false,
       "start": "2026-02-23T03:59:00Z",
       "end": "2026-05-18T09:06:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2026-05-18T09:06:00Z",
       "end": "2026-05-18T09:19:00Z"
     },
     {
       "corporation_id": 98833956,
-      "name": "Sparrow In Cage",
-      "npc": false,
       "start": "2026-05-18T09:19:00Z",
       "end": "2026-05-21T09:59:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2026-05-21T09:59:00Z",
       "end": "2026-05-21T11:44:00Z"
     },
     {
       "corporation_id": 98640194,
-      "name": "Salted Fish Inc",
-      "npc": false,
       "start": "2026-05-21T11:44:00Z",
       "end": "2026-05-23T13:09:00Z"
     },
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2026-05-23T13:09:00Z",
       "end": "2026-05-23T13:10:00Z"
     },
     {
       "corporation_id": 98833956,
-      "name": "Sparrow In Cage",
-      "npc": false,
       "start": "2026-05-23T13:10:00Z",
       "end": null
     }

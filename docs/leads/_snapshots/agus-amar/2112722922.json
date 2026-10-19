@@ -2,106 +2,70 @@
   "id": 2112722922,
   "name": "Agus Amar",
   "birthday": "2017-04-27T14:06:04Z",
-  "current_corporation": {
-    "id": 98190062,
-    "name": "Peoples Liberation Army",
-    "npc": false
-  },
+  "corporation_id": 98190062,
   "affiliation": {
-    "corporation": {
-      "id": 98190062,
-      "name": "Peoples Liberation Army",
-      "ticker": "P.L.A"
-    },
-    "alliance": {
-      "id": 1354830081,
-      "name": "Goonswarm Federation",
-      "ticker": "CONDI"
-    },
+    "corporation_id": 98190062,
+    "alliance_id": 1354830081,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2017-04-27T14:06:00Z",
       "end": "2017-04-30T10:51:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2017-04-30T10:51:00Z",
       "end": "2018-02-24T12:18:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2018-02-24T12:18:00Z",
       "end": "2019-03-18T10:32:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2019-03-18T10:32:00Z",
       "end": "2019-07-31T03:38:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2019-07-31T03:38:00Z",
       "end": "2019-12-20T10:35:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2019-12-20T10:35:00Z",
       "end": "2020-08-23T08:04:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-08-23T08:04:00Z",
       "end": "2021-04-29T14:35:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2021-04-29T14:35:00Z",
       "end": "2022-01-27T09:16:00Z"
     },
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2022-01-27T09:16:00Z",
       "end": "2023-01-02T04:58:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2023-01-02T04:58:00Z",
       "end": "2024-01-13T07:48:00Z"
     },
     {
       "corporation_id": 1000166,
-      "name": "Imperial Academy",
-      "npc": true,
       "start": "2024-01-13T07:48:00Z",
       "end": "2024-05-26T15:28:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2024-05-26T15:28:00Z",
       "end": null
     }

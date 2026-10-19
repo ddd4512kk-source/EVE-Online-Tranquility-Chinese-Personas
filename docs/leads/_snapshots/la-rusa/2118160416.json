@@ -2,92 +2,60 @@
   "id": 2118160416,
   "name": "La Rusa",
   "birthday": "2021-01-23T11:29:15Z",
-  "current_corporation": {
-    "id": 98817783,
-    "name": "Silent Sojourner",
-    "npc": false
-  },
+  "corporation_id": 98817783,
   "affiliation": {
-    "corporation": {
-      "id": 98817783,
-      "name": "Silent Sojourner",
-      "ticker": "EA.I"
-    },
-    "alliance": {
-      "id": 495729389,
-      "name": "Shadow Cartel",
-      "ticker": "SHDWC"
-    },
+    "corporation_id": 98817783,
+    "alliance_id": 495729389,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000169,
-      "name": "Center for Advanced Studies",
-      "npc": true,
       "start": "2021-01-23T11:29:00Z",
       "end": "2021-02-01T01:54:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2021-02-01T01:54:00Z",
       "end": "2021-07-02T11:21:00Z"
     },
     {
       "corporation_id": 1000169,
-      "name": "Center for Advanced Studies",
-      "npc": true,
       "start": "2021-07-02T11:21:00Z",
       "end": "2021-10-09T15:50:00Z"
     },
     {
       "corporation_id": 98695658,
-      "name": "Toxic Nov Mar",
-      "npc": false,
       "start": "2021-10-09T15:50:00Z",
       "end": "2022-02-16T23:41:00Z"
     },
     {
       "corporation_id": 1000169,
-      "name": "Center for Advanced Studies",
-      "npc": true,
       "start": "2022-02-16T23:41:00Z",
       "end": "2022-02-17T09:26:00Z"
     },
     {
       "corporation_id": 98322623,
-      "name": "Interbellum",
-      "npc": false,
       "start": "2022-02-17T09:26:00Z",
       "end": "2022-12-21T19:34:00Z"
     },
     {
       "corporation_id": 1000169,
-      "name": "Center for Advanced Studies",
-      "npc": true,
       "start": "2022-12-21T19:34:00Z",
       "end": "2022-12-21T20:08:00Z"
     },
     {
       "corporation_id": 98290394,
-      "name": "Lazerhawks",
-      "npc": false,
       "start": "2022-12-21T20:08:00Z",
       "end": "2025-03-29T21:59:00Z"
     },
     {
       "corporation_id": 1000169,
-      "name": "Center for Advanced Studies",
-      "npc": true,
       "start": "2025-03-29T21:59:00Z",
       "end": "2026-02-07T05:02:00Z"
     },
     {
       "corporation_id": 98817783,
-      "name": "Silent Sojourner",
-      "npc": false,
       "start": "2026-02-07T05:02:00Z",
       "end": null
     }

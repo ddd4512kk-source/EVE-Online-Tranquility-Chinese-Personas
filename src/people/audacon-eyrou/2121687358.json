@@ -2,106 +2,70 @@
   "id": 2121687358,
   "name": "Audacon Eyrou",
   "birthday": "2023-10-11T07:32:23Z",
-  "current_corporation": {
-    "id": 98755298,
-    "name": "Fox of Resistance",
-    "npc": false
-  },
+  "corporation_id": 98755298,
   "affiliation": {
-    "corporation": {
-      "id": 98755298,
-      "name": "Fox of Resistance",
-      "ticker": "FOXOR"
-    },
-    "alliance": {
-      "id": 1727758877,
-      "name": "Northern Coalition.",
-      "ticker": "NC"
-    },
+    "corporation_id": 98755298,
+    "alliance_id": 1727758877,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2023-10-11T07:32:00Z",
       "end": "2023-10-17T12:41:00Z"
     },
     {
       "corporation_id": 98628917,
-      "name": "The Elysium",
-      "npc": false,
       "start": "2023-10-17T12:41:00Z",
       "end": "2023-10-18T03:27:00Z"
     },
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2023-10-18T03:27:00Z",
       "end": "2023-10-22T15:14:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2023-10-22T15:14:00Z",
       "end": "2023-10-31T15:22:00Z"
     },
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2023-10-31T15:22:00Z",
       "end": "2023-11-02T01:50:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2023-11-02T01:50:00Z",
       "end": "2023-12-05T23:36:00Z"
     },
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2023-12-05T23:36:00Z",
       "end": "2023-12-07T14:26:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2023-12-07T14:26:00Z",
       "end": "2023-12-14T06:29:00Z"
     },
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2023-12-14T06:29:00Z",
       "end": "2025-04-08T12:42:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2025-04-08T12:42:00Z",
       "end": "2025-04-08T13:13:00Z"
     },
     {
       "corporation_id": 1000115,
-      "name": "University of Caille",
-      "npc": true,
       "start": "2025-04-08T13:13:00Z",
       "end": "2025-04-15T14:42:00Z"
     },
     {
       "corporation_id": 98755298,
-      "name": "Fox of Resistance",
-      "npc": false,
       "start": "2025-04-15T14:42:00Z",
       "end": null
     }

@@ -28,7 +28,7 @@
 - [FallNight1](https://zkillboard.com/character/2122596283/)：参与击杀 1212，4375 亿；损失 413，240 亿；单杀 53。船型：送葬者级海军型 352、净化 164、Retribution 70、Thrasher Fleet Issue 70；星系 C-N4OD、G-Q5JU、Urhinichi、4-HWWF、1DQ1-A。活跃 2024-08 至 2025-06，之后零星。
 - [cnmc c p](https://zkillboard.com/character/2122323708/)：击杀 72，185 亿；损失 108，23 亿；灵感 29。
 - [FallNight4](https://zkillboard.com/character/2122670126/)：击杀 9，损失 7，2024-10 至 12。
-- 各号统计未相加。未在已有大型／超级战役共享材料中检出这几个 ID；未另做战役回查。
+- 各号统计未相加。未在已有大型／史诗战役共享材料中检出这几个 ID；未另做战役回查。
 
 ## 主号简介
 

@@ -2,43 +2,25 @@
   "id": 2118623409,
   "name": "daoyan yin",
   "birthday": "2021-04-26T12:40:05Z",
-  "current_corporation": {
-    "id": 98725089,
-    "name": "Arknights.",
-    "npc": false
-  },
+  "corporation_id": 98725089,
   "affiliation": {
-    "corporation": {
-      "id": 98725089,
-      "name": "Arknights.",
-      "ticker": "AMIYA"
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98725089,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000044,
-      "name": "School of Applied Knowledge",
-      "npc": true,
       "start": "2021-04-26T12:40:00Z",
       "end": "2021-04-26T14:08:00Z"
     },
     {
       "corporation_id": 98537981,
-      "name": "Galactic Empire Co LTD",
-      "npc": false,
       "start": "2021-04-26T14:08:00Z",
       "end": "2022-11-02T13:55:00Z"
     },
     {
       "corporation_id": 98725089,
-      "name": "Arknights.",
-      "npc": false,
       "start": "2022-11-02T13:55:00Z",
       "end": null
     }

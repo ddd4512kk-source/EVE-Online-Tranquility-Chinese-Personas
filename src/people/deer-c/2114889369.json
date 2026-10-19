@@ -2,232 +2,160 @@
   "id": 2114889369,
   "name": "Deer c",
   "birthday": "2019-01-22T14:04:23Z",
-  "current_corporation": {
-    "id": 98669644,
-    "name": "Happy Windy Man",
-    "npc": false
-  },
+  "corporation_id": 98669644,
   "affiliation": {
-    "corporation": {
-      "id": 98669644,
-      "name": "Happy Windy Man",
-      "ticker": "G.T.M"
-    },
-    "alliance": {
-      "id": 99005382,
-      "name": "Jita Holding Inc.",
-      "ticker": "JITA"
-    },
+    "corporation_id": 98669644,
+    "alliance_id": 99005382,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000077,
-      "name": "Royal Amarr Institute",
-      "npc": true,
       "start": "2019-01-22T14:04:00Z",
       "end": "2019-01-22T14:10:00Z"
     },
     {
       "corporation_id": 98583620,
-      "name": "Power Of Hurricane",
-      "npc": false,
       "start": "2019-01-22T14:10:00Z",
       "end": "2019-08-09T15:23:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2019-08-09T15:23:00Z",
       "end": "2019-08-09T15:40:00Z"
     },
     {
       "corporation_id": 98610686,
-      "name": "Born For Battle",
-      "npc": false,
       "start": "2019-08-09T15:40:00Z",
       "end": "2019-08-26T04:21:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2019-08-26T04:21:00Z",
       "end": "2019-08-26T04:22:00Z"
     },
     {
       "corporation_id": 98583620,
-      "name": "Power Of Hurricane",
-      "npc": false,
       "start": "2019-08-26T04:22:00Z",
       "end": "2020-02-07T08:34:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-02-07T08:34:00Z",
       "end": "2020-02-11T14:31:00Z"
     },
     {
       "corporation_id": 98583620,
-      "name": "Power Of Hurricane",
-      "npc": false,
       "start": "2020-02-11T14:31:00Z",
       "end": "2020-02-15T11:12:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-02-15T11:12:00Z",
       "end": "2020-02-21T13:04:00Z"
     },
     {
       "corporation_id": 98610686,
-      "name": "Born For Battle",
-      "npc": false,
       "start": "2020-02-21T13:04:00Z",
       "end": "2020-02-22T09:29:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-02-22T09:29:00Z",
       "end": "2020-02-22T10:04:00Z"
     },
     {
       "corporation_id": 98629074,
-      "name": "Dark wing flag Soldier",
-      "npc": false,
       "start": "2020-02-22T10:04:00Z",
       "end": "2020-02-27T07:46:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-02-27T07:46:00Z",
       "end": "2020-02-28T08:51:00Z"
     },
     {
       "corporation_id": 98624715,
-      "name": "Naval Intelligence Agency",
-      "npc": false,
       "start": "2020-02-28T08:51:00Z",
       "end": "2020-03-08T15:24:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-03-08T15:24:00Z",
       "end": "2020-03-08T15:55:00Z"
     },
     {
       "corporation_id": 98588509,
-      "name": "Noobs Collecttion",
-      "npc": false,
       "start": "2020-03-08T15:55:00Z",
       "end": "2020-04-26T09:16:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-04-26T09:16:00Z",
       "end": "2020-04-26T14:18:00Z"
     },
     {
       "corporation_id": 98639420,
-      "name": "YAN-HUANG",
-      "npc": false,
       "start": "2020-04-26T14:18:00Z",
       "end": "2020-05-15T15:06:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-05-15T15:06:00Z",
       "end": "2020-05-15T15:07:00Z"
     },
     {
       "corporation_id": 98635716,
-      "name": "Red Lotus Legion",
-      "npc": false,
       "start": "2020-05-15T15:07:00Z",
       "end": "2020-06-02T16:58:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-06-02T16:58:00Z",
       "end": "2020-06-03T03:00:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2020-06-03T03:00:00Z",
       "end": "2020-06-10T06:12:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-06-10T06:12:00Z",
       "end": "2020-06-10T06:14:00Z"
     },
     {
       "corporation_id": 98645997,
-      "name": "D3 risk control Limited",
-      "npc": false,
       "start": "2020-06-10T06:14:00Z",
       "end": "2020-10-08T14:07:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-10-08T14:07:00Z",
       "end": "2020-10-08T14:07:00Z"
     },
     {
       "corporation_id": 98592331,
-      "name": "Military of East Eden",
-      "npc": false,
       "start": "2020-10-08T14:07:00Z",
       "end": "2020-11-02T09:22:00Z"
     },
     {
       "corporation_id": 1000066,
-      "name": "Viziam",
-      "npc": true,
       "start": "2020-11-02T09:22:00Z",
       "end": "2020-11-06T08:57:00Z"
     },
     {
       "corporation_id": 98645589,
-      "name": "Faceless.",
-      "npc": false,
       "start": "2020-11-06T08:57:00Z",
       "end": "2021-03-20T12:20:00Z"
     },
     {
       "corporation_id": 1000077,
-      "name": "Royal Amarr Institute",
-      "npc": true,
       "start": "2021-03-20T12:20:00Z",
       "end": "2021-03-20T12:26:00Z"
     },
     {
       "corporation_id": 98669644,
-      "name": "Happy Windy Man",
-      "npc": false,
       "start": "2021-03-20T12:26:00Z",
       "end": null
     }

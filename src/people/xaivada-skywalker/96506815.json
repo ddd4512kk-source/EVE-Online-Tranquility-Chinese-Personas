@@ -2,148 +2,100 @@
   "id": 96506815,
   "name": "Xaivada Skywalker",
   "birthday": "2016-05-23T22:19:05Z",
-  "current_corporation": {
-    "id": 98755298,
-    "name": "Fox of Resistance",
-    "npc": false
-  },
+  "corporation_id": 98755298,
   "affiliation": {
-    "corporation": {
-      "id": 98755298,
-      "name": "Fox of Resistance",
-      "ticker": "FOXOR"
-    },
-    "alliance": {
-      "id": 1727758877,
-      "name": "Northern Coalition.",
-      "ticker": "NC"
-    },
+    "corporation_id": 98755298,
+    "alliance_id": 1727758877,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000169,
-      "name": "Center for Advanced Studies",
-      "npc": true,
       "start": "2016-05-23T22:19:00Z",
       "end": "2016-05-24T19:34:00Z"
     },
     {
       "corporation_id": 98426503,
-      "name": "Central Military Commission",
-      "npc": false,
       "start": "2016-05-24T19:34:00Z",
       "end": "2016-06-02T15:15:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2016-06-02T15:15:00Z",
       "end": "2016-06-02T15:15:00Z"
     },
     {
       "corporation_id": 98190062,
-      "name": "Peoples Liberation Army",
-      "npc": false,
       "start": "2016-06-02T15:15:00Z",
       "end": "2017-04-18T14:12:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2017-04-18T14:12:00Z",
       "end": "2017-05-21T03:52:00Z"
     },
     {
       "corporation_id": 98185110,
-      "name": "Fuxi Legion",
-      "npc": false,
       "start": "2017-05-21T03:52:00Z",
       "end": "2018-03-19T13:03:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2018-03-19T13:03:00Z",
       "end": "2019-05-26T06:41:00Z"
     },
     {
       "corporation_id": 98598653,
-      "name": "PLA Associates",
-      "npc": false,
       "start": "2019-05-26T06:41:00Z",
       "end": "2019-05-27T05:47:00Z"
     },
     {
       "corporation_id": 98547771,
-      "name": "B.O.P Supplication For Glorious",
-      "npc": false,
       "start": "2019-05-27T05:47:00Z",
       "end": "2019-06-29T09:12:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2019-06-29T09:12:00Z",
       "end": "2019-06-29T11:29:00Z"
     },
     {
       "corporation_id": 98388312,
-      "name": "Pandemic Horde Inc.",
-      "npc": false,
       "start": "2019-06-29T11:29:00Z",
       "end": "2019-07-16T18:15:00Z"
     },
     {
       "corporation_id": 98377568,
-      "name": "Knavish Knight Kingdom",
-      "npc": false,
       "start": "2019-07-16T18:15:00Z",
       "end": "2019-08-04T14:53:00Z"
     },
     {
       "corporation_id": 1000107,
-      "name": "The Scope",
-      "npc": true,
       "start": "2019-08-04T14:53:00Z",
       "end": "2019-08-04T15:27:00Z"
     },
     {
       "corporation_id": 98456550,
-      "name": "Eternity Pavilion",
-      "npc": false,
       "start": "2019-08-04T15:27:00Z",
       "end": "2022-06-29T05:19:00Z"
     },
     {
       "corporation_id": 98178923,
-      "name": "Nega Nebulas.",
-      "npc": false,
       "start": "2022-06-29T05:19:00Z",
       "end": "2023-06-17T06:36:00Z"
     },
     {
       "corporation_id": 98388312,
-      "name": "Pandemic Horde Inc.",
-      "npc": false,
       "start": "2023-06-17T06:36:00Z",
       "end": "2024-03-23T14:04:00Z"
     },
     {
       "corporation_id": 98631475,
-      "name": "Profane Proverb",
-      "npc": false,
       "start": "2024-03-23T14:04:00Z",
       "end": "2024-05-24T03:50:00Z"
     },
     {
       "corporation_id": 98755298,
-      "name": "Fox of Resistance",
-      "npc": false,
       "start": "2024-05-24T03:50:00Z",
       "end": null
     }

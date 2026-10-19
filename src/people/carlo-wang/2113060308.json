@@ -2,771 +2,545 @@
   "id": 2113060308,
   "name": "Carlo Wang",
   "birthday": "2017-07-31T23:30:31Z",
-  "current_corporation": {
-    "id": 98540583,
-    "name": "Special law enforcement department",
-    "npc": false
-  },
+  "corporation_id": 98540583,
   "affiliation": {
-    "corporation": {
-      "id": 98540583,
-      "name": "Special law enforcement department",
-      "ticker": "SARD."
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98540583,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2017-07-31T23:31:00Z",
       "end": "2017-08-03T12:14:00Z"
     },
     {
       "corporation_id": 98185110,
-      "name": "Fuxi Legion",
-      "npc": false,
       "start": "2017-08-03T12:14:00Z",
       "end": "2017-09-09T02:36:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-09-09T02:36:00Z",
       "end": "2017-09-10T01:53:00Z"
     },
     {
       "corporation_id": 98434399,
-      "name": "Huangpu Military Academy",
-      "npc": false,
       "start": "2017-09-10T01:53:00Z",
       "end": "2017-09-11T10:52:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-09-11T10:52:00Z",
       "end": "2017-09-11T11:51:00Z"
     },
     {
       "corporation_id": 98519823,
-      "name": "Unfied Intelligence Taskforce",
-      "npc": false,
       "start": "2017-09-11T11:51:00Z",
       "end": "2017-09-25T12:10:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-09-25T12:10:00Z",
       "end": "2017-09-25T12:12:00Z"
     },
     {
       "corporation_id": 98527922,
-      "name": "Glaring Sword",
-      "npc": false,
       "start": "2017-09-25T12:12:00Z",
       "end": "2017-10-02T08:03:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2017-10-02T08:03:00Z",
       "end": "2017-10-02T08:41:00Z"
     },
     {
       "corporation_id": 98519823,
-      "name": "Unfied Intelligence Taskforce",
-      "npc": false,
       "start": "2017-10-02T08:41:00Z",
       "end": "2018-02-28T13:55:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-02-28T13:55:00Z",
       "end": "2018-02-28T14:00:00Z"
     },
     {
       "corporation_id": 98531547,
-      "name": "glaring sword warfare",
-      "npc": false,
       "start": "2018-02-28T14:00:00Z",
       "end": "2018-03-06T10:53:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-03-06T10:53:00Z",
       "end": "2018-03-06T13:24:00Z"
     },
     {
       "corporation_id": 98527922,
-      "name": "Glaring Sword",
-      "npc": false,
       "start": "2018-03-06T13:24:00Z",
       "end": "2018-03-14T18:57:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-03-14T18:57:00Z",
       "end": "2018-03-14T18:58:00Z"
     },
     {
       "corporation_id": 1000180,
-      "name": "State Protectorate",
-      "npc": true,
       "start": "2018-03-14T18:58:00Z",
       "end": "2018-03-19T14:24:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-03-19T14:24:00Z",
       "end": "2018-03-20T13:51:00Z"
     },
     {
       "corporation_id": 98475877,
-      "name": "C.onfucius Institute",
-      "npc": false,
       "start": "2018-03-20T13:51:00Z",
       "end": "2018-04-25T11:13:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-04-25T11:13:00Z",
       "end": "2018-05-10T11:58:00Z"
     },
     {
       "corporation_id": 98557959,
-      "name": "MAIRS",
-      "npc": false,
       "start": "2018-05-10T11:58:00Z",
       "end": "2018-05-10T12:51:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-05-10T12:51:00Z",
       "end": "2018-05-12T00:54:00Z"
     },
     {
       "corporation_id": 98527922,
-      "name": "Glaring Sword",
-      "npc": false,
       "start": "2018-05-12T00:54:00Z",
       "end": "2018-06-20T14:27:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-06-20T14:27:00Z",
       "end": "2018-06-26T12:22:00Z"
     },
     {
       "corporation_id": 98556808,
-      "name": "Electronic Industry Club",
-      "npc": false,
       "start": "2018-06-26T12:22:00Z",
       "end": "2018-08-19T12:58:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-08-19T12:58:00Z",
       "end": "2018-08-20T15:22:00Z"
     },
     {
       "corporation_id": 98569981,
-      "name": "Essence of the Flitting Shades",
-      "npc": false,
       "start": "2018-08-20T15:22:00Z",
       "end": "2018-10-15T11:50:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-10-15T11:50:00Z",
       "end": "2018-10-27T06:22:00Z"
     },
     {
       "corporation_id": 98569981,
-      "name": "Essence of the Flitting Shades",
-      "npc": false,
       "start": "2018-10-27T06:22:00Z",
       "end": "2018-11-26T12:24:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-11-26T12:24:00Z",
       "end": "2018-11-26T13:29:00Z"
     },
     {
       "corporation_id": 98535092,
-      "name": "United Violent Group",
-      "npc": false,
       "start": "2018-11-26T13:29:00Z",
       "end": "2018-11-28T14:15:00Z"
     },
     {
       "corporation_id": 98475877,
-      "name": "C.onfucius Institute",
-      "npc": false,
       "start": "2018-11-28T14:15:00Z",
       "end": "2018-12-08T01:21:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-12-08T01:21:00Z",
       "end": "2018-12-09T01:48:00Z"
     },
     {
       "corporation_id": 1000181,
-      "name": "Federal Defense Union",
-      "npc": true,
       "start": "2018-12-09T01:48:00Z",
       "end": "2018-12-16T09:22:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2018-12-16T09:22:00Z",
       "end": "2018-12-18T02:54:00Z"
     },
     {
       "corporation_id": 98569981,
-      "name": "Essence of the Flitting Shades",
-      "npc": false,
       "start": "2018-12-18T02:54:00Z",
       "end": "2019-03-23T12:54:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2019-03-23T12:54:00Z",
       "end": "2019-08-03T03:04:00Z"
     },
     {
       "corporation_id": 98569981,
-      "name": "Essence of the Flitting Shades",
-      "npc": false,
       "start": "2019-08-03T03:04:00Z",
       "end": "2019-09-30T15:41:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2019-09-30T15:41:00Z",
       "end": "2019-09-30T15:42:00Z"
     },
     {
       "corporation_id": 98614199,
-      "name": "IllegalAccessException",
-      "npc": false,
       "start": "2019-09-30T15:42:00Z",
       "end": "2019-09-30T15:44:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2019-09-30T15:44:00Z",
       "end": "2019-10-03T00:57:00Z"
     },
     {
       "corporation_id": 98569981,
-      "name": "Essence of the Flitting Shades",
-      "npc": false,
       "start": "2019-10-03T00:57:00Z",
       "end": "2019-10-03T04:23:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2019-10-03T04:23:00Z",
       "end": "2019-10-20T14:24:00Z"
     },
     {
       "corporation_id": 98569981,
-      "name": "Essence of the Flitting Shades",
-      "npc": false,
       "start": "2019-10-20T14:24:00Z",
       "end": "2019-10-21T23:28:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2019-10-21T23:28:00Z",
       "end": "2019-10-22T04:24:00Z"
     },
     {
       "corporation_id": 98568863,
-      "name": "Moriya Military Industry Complex",
-      "npc": false,
       "start": "2019-10-22T04:24:00Z",
       "end": "2019-11-20T13:04:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2019-11-20T13:04:00Z",
       "end": "2019-12-16T13:33:00Z"
     },
     {
       "corporation_id": 98568863,
-      "name": "Moriya Military Industry Complex",
-      "npc": false,
       "start": "2019-12-16T13:33:00Z",
       "end": "2020-04-17T14:10:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-04-17T14:10:00Z",
       "end": "2020-04-23T13:13:00Z"
     },
     {
       "corporation_id": 98623543,
-      "name": "Bronze Cross Eagle",
-      "npc": false,
       "start": "2020-04-23T13:13:00Z",
       "end": "2020-04-25T13:53:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-04-25T13:53:00Z",
       "end": "2020-05-03T12:13:00Z"
     },
     {
       "corporation_id": 98546384,
-      "name": "XieDu Fleet",
-      "npc": false,
       "start": "2020-05-03T12:13:00Z",
       "end": "2020-08-08T05:20:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-08-08T05:20:00Z",
       "end": "2020-08-16T09:08:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2020-08-16T09:08:00Z",
       "end": "2020-09-21T12:37:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-09-21T12:37:00Z",
       "end": "2020-09-21T12:39:00Z"
     },
     {
       "corporation_id": 98657664,
-      "name": "Action.",
-      "npc": false,
       "start": "2020-09-21T12:39:00Z",
       "end": "2020-10-20T14:32:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-10-20T14:32:00Z",
       "end": "2020-10-20T14:32:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2020-10-20T14:32:00Z",
       "end": "2020-11-10T16:16:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-11-10T16:16:00Z",
       "end": "2020-11-10T16:20:00Z"
     },
     {
       "corporation_id": 98657664,
-      "name": "Action.",
-      "npc": false,
       "start": "2020-11-10T16:20:00Z",
       "end": "2020-11-11T14:54:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-11-11T14:54:00Z",
       "end": "2020-11-20T14:58:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2020-11-20T14:58:00Z",
       "end": "2020-11-22T12:38:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-11-22T12:38:00Z",
       "end": "2020-11-23T13:39:00Z"
     },
     {
       "corporation_id": 98546384,
-      "name": "XieDu Fleet",
-      "npc": false,
       "start": "2020-11-23T13:39:00Z",
       "end": "2020-11-27T13:48:00Z"
     },
     {
       "corporation_id": 1000114,
-      "name": "Garoun Investment Bank",
-      "npc": true,
       "start": "2020-11-27T13:48:00Z",
       "end": "2020-11-27T13:51:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2020-11-27T13:51:00Z",
       "end": "2020-12-19T11:51:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2020-12-19T11:51:00Z",
       "end": "2021-01-02T11:54:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2021-01-02T11:54:00Z",
       "end": "2021-01-04T14:12:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-01-04T14:12:00Z",
       "end": "2021-01-05T12:45:00Z"
     },
     {
       "corporation_id": 98575120,
-      "name": "Sylvanas Windrunner United Fleet",
-      "npc": false,
       "start": "2021-01-05T12:45:00Z",
       "end": "2021-01-06T12:48:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-01-06T12:48:00Z",
       "end": "2021-01-18T12:46:00Z"
     },
     {
       "corporation_id": 98615665,
-      "name": "Cosmic Order Inc",
-      "npc": false,
       "start": "2021-01-18T12:46:00Z",
       "end": "2021-01-29T12:56:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-01-29T12:56:00Z",
       "end": "2021-02-03T12:26:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2021-02-03T12:26:00Z",
       "end": "2021-02-08T14:55:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-02-08T14:55:00Z",
       "end": "2021-02-17T10:49:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2021-02-17T10:49:00Z",
       "end": "2021-02-19T14:15:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-02-19T14:15:00Z",
       "end": "2021-02-20T13:45:00Z"
     },
     {
       "corporation_id": 98666486,
-      "name": "Foxconn Factory",
-      "npc": false,
       "start": "2021-02-20T13:45:00Z",
       "end": "2021-02-20T14:10:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-02-20T14:10:00Z",
       "end": "2021-03-02T04:19:00Z"
     },
     {
       "corporation_id": 98575120,
-      "name": "Sylvanas Windrunner United Fleet",
-      "npc": false,
       "start": "2021-03-02T04:19:00Z",
       "end": "2021-03-05T14:32:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-03-05T14:32:00Z",
       "end": "2021-03-08T12:42:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2021-03-08T12:42:00Z",
       "end": "2021-05-05T04:30:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-05-05T04:30:00Z",
       "end": "2021-05-05T04:31:00Z"
     },
     {
       "corporation_id": 98575120,
-      "name": "Sylvanas Windrunner United Fleet",
-      "npc": false,
       "start": "2021-05-05T04:31:00Z",
       "end": "2021-05-14T16:26:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-05-14T16:26:00Z",
       "end": "2021-05-16T14:20:00Z"
     },
     {
       "corporation_id": 98622937,
-      "name": "Fleet of Ice and Fire",
-      "npc": false,
       "start": "2021-05-16T14:20:00Z",
       "end": "2021-07-07T09:43:00Z"
     },
     {
       "corporation_id": 98634515,
-      "name": "Higgs Cats",
-      "npc": false,
       "start": "2021-07-07T09:43:00Z",
       "end": "2021-08-09T13:07:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-08-09T13:07:00Z",
       "end": "2021-08-11T14:30:00Z"
     },
     {
       "corporation_id": 98575120,
-      "name": "Sylvanas Windrunner United Fleet",
-      "npc": false,
       "start": "2021-08-11T14:30:00Z",
       "end": "2021-08-11T15:09:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2021-08-11T15:09:00Z",
       "end": "2021-08-13T09:28:00Z"
     },
     {
       "corporation_id": 98632312,
-      "name": "Sylvanas Argeir Military Academy",
-      "npc": false,
       "start": "2021-08-13T09:28:00Z",
       "end": "2021-10-16T14:03:00Z"
     },
     {
       "corporation_id": 98670400,
-      "name": "We Love Cody",
-      "npc": false,
       "start": "2021-10-16T14:03:00Z",
       "end": "2022-02-10T05:11:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2022-02-10T05:11:00Z",
       "end": "2022-02-10T05:11:00Z"
     },
     {
       "corporation_id": 98703508,
-      "name": "wwwpornhubcom",
-      "npc": false,
       "start": "2022-02-10T05:11:00Z",
       "end": "2022-02-24T14:17:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2022-02-24T14:17:00Z",
       "end": "2022-03-04T02:58:00Z"
     },
     {
       "corporation_id": 98707081,
-      "name": "haoyun2022",
-      "npc": false,
       "start": "2022-03-04T02:58:00Z",
       "end": "2022-03-19T05:10:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2022-03-19T05:10:00Z",
       "end": "2022-03-19T05:11:00Z"
     },
     {
       "corporation_id": 98708788,
-      "name": "Interstellar Marines",
-      "npc": false,
       "start": "2022-03-19T05:11:00Z",
       "end": "2022-06-06T04:30:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2022-06-06T04:30:00Z",
       "end": "2022-06-06T04:30:00Z"
     },
     {
       "corporation_id": 98714328,
-      "name": "Nether Fleet",
-      "npc": false,
       "start": "2022-06-06T04:30:00Z",
       "end": "2022-09-03T05:43:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2022-09-03T05:43:00Z",
       "end": "2022-09-04T07:27:00Z"
     },
     {
       "corporation_id": 98705642,
-      "name": "Chuangshi College",
-      "npc": false,
       "start": "2022-09-04T07:27:00Z",
       "end": "2022-12-30T05:13:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2022-12-30T05:13:00Z",
       "end": "2023-12-07T14:44:00Z"
     },
     {
       "corporation_id": 98757526,
-      "name": "Golden spade",
-      "npc": false,
       "start": "2023-12-07T14:44:00Z",
       "end": "2025-04-26T05:22:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2025-04-26T05:22:00Z",
       "end": "2025-11-11T05:07:00Z"
     },
     {
       "corporation_id": 98719670,
-      "name": "Polaris North",
-      "npc": false,
       "start": "2025-11-11T05:07:00Z",
       "end": "2026-05-02T09:29:00Z"
     },
     {
       "corporation_id": 1000168,
-      "name": "Federal Navy Academy",
-      "npc": true,
       "start": "2026-05-02T09:29:00Z",
       "end": "2026-05-02T14:37:00Z"
     },
     {
       "corporation_id": 98540583,
-      "name": "Special law enforcement department",
-      "npc": false,
       "start": "2026-05-02T14:37:00Z",
       "end": null
     }

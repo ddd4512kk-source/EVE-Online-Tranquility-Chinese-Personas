@@ -2,36 +2,20 @@
   "id": 2122366928,
   "name": "NyxCV",
   "birthday": "2024-05-26T07:22:28Z",
-  "current_corporation": {
-    "id": 98755298,
-    "name": "Fox of Resistance",
-    "npc": false
-  },
+  "corporation_id": 98755298,
   "affiliation": {
-    "corporation": {
-      "id": 98755298,
-      "name": "Fox of Resistance",
-      "ticker": "FOXOR"
-    },
-    "alliance": {
-      "id": 1727758877,
-      "name": "Northern Coalition.",
-      "ticker": "NC"
-    },
+    "corporation_id": 98755298,
+    "alliance_id": 1727758877,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2024-05-26T07:22:00Z",
       "end": "2024-05-26T15:05:00Z"
     },
     {
       "corporation_id": 98755298,
-      "name": "Fox of Resistance",
-      "npc": false,
       "start": "2024-05-26T15:05:00Z",
       "end": null
     }

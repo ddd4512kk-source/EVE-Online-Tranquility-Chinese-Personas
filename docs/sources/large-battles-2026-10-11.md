@@ -61,11 +61,11 @@
 | [老黑](../../src/people/laohei2333333/laohei2333333.md) | 2121401697 | 斯威普；参战 | [133569033](https://zkillboard.com/kill/133569033/) |
 | [小宋宋](../../src/people/xiaosong223333/xiaosong223333.md) | 2118501510 | 咒灭；参战 | [133569043](https://zkillboard.com/kill/133569043/) |
 
-## Ignoitton，2026-07-31：另找到的超级战役
+## Ignoitton，2026-07-31：另找到的史诗战役
 
 - [BR related](https://br.evetools.org/related/30002647/202607310200)，其公开数据已读取。229 条 KM，实际记录时间 **01:34:32–02:31:54 UTC**，单星系各方总损失 **1017.128693962B（约 1.017T）**。数据没有保存独立自定义阵营方案，本轮不擅造完整 A/B 阵营，只据 KM 记录本人归属。原 900B 视频尚未对应，不能将这场当作已确认同一视频事件。
 - 此窗口命中[萨勒](../../src/people/sayler/sayler.md)，角色 2113271910，Snuff 一方驾驶巴盖斯参战：[137373050](https://zkillboard.com/kill/137373050/)。
-- 仅五十亿以上的旗舰样本合计 915.93B；读取 related 全部记录后总额超过 1T，故按超级档入文。不能拿筛过金额的子集定成大型。
+- 仅五十亿以上的旗舰样本合计 915.93B；读取 related 全部记录后总额超过 1T，故按史诗档入文。不能拿筛过金额的子集定成大型。
 
 ## 检索覆盖与剩余缺口
 
@@ -84,4 +84,56 @@
 
 [《联盟队的“救赎”》](https://www.bilibili.com/video/BV1zMAXzBEvt)页面明确作者NoNoOwO（729015），简介以“编剧少侠，编舞表妹”介绍创作，并贴[BR 69a1dabb6e47f9001276dfca](https://br.evetools.org/br/69a1dabb6e47f9001276dfca)。因此“少侠导演剪辑版”不能当作该页的投稿作者署名；视频发布者为NoNo，少侠与表妹是简介署名的协作方，不据戏谑称谓认定战时实际职务。
 
-已读19个主评论线程及直接显示回复。提图斯波罗问是否听到星海神谕、海哥哥回来，NoNo回“他和故作温柔其实一直都在玩”；将活动近况归入[海哥哥线索](../leads/hai-ge-ge.md)和[表妹素材](../../src/people/fu1crum/materials-fu1crum.md)，不据此对应游戏角色。CabbageTimil质疑“十国联军”，说自己数出六国、指其标题党，保留该争议，不拿标题代替BR分组。Ryth-novae以深水、Snuff、FRT和临时援军叙述战局，是观众复述，不替换既有KM核查或据此指定具体人物决策。Gtsml_V另贴[BR 69a42471e60d670011c8adae](https://br.evetools.org/br/69a42471e60d670011c8adae)，尚未读该报，不与本场自动合并；接下来可核事件窗口及人物。其余折叠回复未读，未看影像。
+已读19个主评论线程及直接显示回复。提图斯波罗问是否听到星海神谕、海哥哥回来，NoNo回“他和故作温柔其实一直都在玩”；将活动近况归入[海哥哥线索](../leads/hai-ge-ge.md)和[表妹素材](../../src/people/fu1crum/materials-fu1crum.md)，不据此对应游戏角色。CabbageTimil质疑“十国联军”，说自己数出六国、指其标题党，保留该争议，不拿标题代替BR分组。Ryth-novae以深水、Snuff、FRT和临时援军叙述战局，是观众复述，不替换既有KM核查或据此指定具体人物决策。Gtsml_V另贴[BR 69a42471e60d670011c8adae](https://br.evetools.org/br/69a42471e60d670011c8adae)，该报已核为2026-03-01 MC6O-F另一场史诗战役，窗口与人物见下节，不与Taff合并。其余折叠回复未读，未看影像。
+
+
+## 2026-03-01 MC6O-F：评论另贴BR的窗口与人物（2026-10-18）
+
+来源：Gtsml_V在Taff作品评论中另贴的[BR69a42471e60d670011c8adae](https://br.evetools.org/br/69a42471e60d670011c8adae)。[完整composition](https://br.evetools.org/newapi/br/composition/69a42471e60d670011c8adae)返回`status=success`、`calculated=true`：**2026-03-01 10:00–13:00 UTC，MC6O-F（30000209）单星系**，718个唯一KM，各方总损失**1,141,719,039,314 ISK（约1.142T）**，达到史诗战役档。逐张KM的`totalValue`去重求和与`totalLost`完全一致；实际记录时间11:23:21–12:31:57 UTC。星系名由该站前端公开星系表核对，不把评论日期当战斗日期。
+
+本场与2026-02-22 Taff的720.20B战报时间、星系、KM均分开，不合并金额。BR的`teams`为空，以下只记录每条KM上的战时联盟，不自行补分组或双方输赢；984名驾驶员、1010艘船是战报元数据，不等于各方损失数量。
+
+### 当前全部收录号的命中
+
+对照当前397篇列传的`character_id`，命中19人。表中优先取实舰和指挥记录，不以太空舱或缺失船型的攻击行替代；常规损失用于参战对应，不另归黑料。KM签名只说明此人参与，不把集体战果独算个人。
+
+| 人物（slug） | 收录角色ID | 舰船type ID／身份 | 战时联盟ID | 代表KM与记录 |
+| --- | --- | --- | --- | --- |
+| [光头](../../src/people/evildobar/evildobar.md)（evildobar） | 855247117 | 28352；参战 | 99003581 | [133727289](https://zkillboard.com/kill/133727289/)，攻击者 |
+| [出其东门](../../src/people/why-you-so-fw/why-you-so-fw.md)（why-you-so-fw） | 2120025597 | 22428；参战 | 99003581 | [133727293](https://zkillboard.com/kill/133727293/)，攻击者 |
+| [此方](../../src/people/supercyno-owo/supercyno-owo.md)（supercyno-owo） | 2122857798 | 12013；参战 | 99003581 | [133727293](https://zkillboard.com/kill/133727293/)，攻击者 |
+| [汉兰达](../../src/people/jj-soulmate/jj-soulmate.md)（jj-soulmate） | 2115597604 | 45534；指挥 | 99003581 | [133727456](https://zkillboard.com/kill/133727456/)，攻击者 |
+| [小洋](../../src/people/6666666-6/6666666-6.md)（6666666-6） | 2114834014 | 22436；参战 | 1354830081 | [133727345](https://zkillboard.com/kill/133727345/)，损失 |
+| [D哥哥](../../src/people/d-manson/d-manson.md)（d-manson） | 690534767 | 73792；参战 | 99003581 | [133727350](https://zkillboard.com/kill/133727350/)，攻击者 |
+| [叼爷](../../src/people/mr-diao/mr-diao.md)（mr-diao） | 1387156123 | 22428；参战 | 99003581 | [133727360](https://zkillboard.com/kill/133727360/)，攻击者 |
+| [嗜血](../../src/people/trumps-bloodthirst-feynman/trumps-bloodthirst-feynman.md)（trumps-bloodthirst-feynman） | 2113483277 | 73790；参战 | 99003581 | [133727401](https://zkillboard.com/kill/133727401/)，攻击者 |
+| [汉堡](../../src/people/hanbo-han/hanbo-han.md)（hanbo-han） | 2117524558 | 639；参战 | 99004901 | [133727510](https://zkillboard.com/kill/133727510/)，攻击者 |
+| [艾若](../../src/people/ai-ruo/ai-ruo.md)（ai-ruo） | 2114798437 | 73790；参战 | 99003581 | [133727672](https://zkillboard.com/kill/133727672/)，攻击者 |
+| [虚实](../../src/people/fauux/fauux.md)（fauux） | 2122263187 | 22428；参战 | 1354830081 | [133727700](https://zkillboard.com/kill/133727700/)，损失 |
+| [筱橘](../../src/people/mikanorg/mikanorg.md)（mikanorg） | 2121532056 | 22428；参战 | 99003581 | [133727721](https://zkillboard.com/kill/133727721/)，攻击者 |
+| [左手](../../src/people/rebirth-eve/rebirth-eve.md)（rebirth-eve） | 93209504 | 22452；参战 | 99003581 | [133727731](https://zkillboard.com/kill/133727731/)，攻击者 |
+| [橘子](../../src/people/dy-heii-k/dy-heii-k.md)（dy-heii-k） | 2114324589 | 3764；参战 | 99003581 | [133727755](https://zkillboard.com/kill/133727755/)，攻击者 |
+| [娃娃](../../src/people/optimus-mecca/optimus-mecca.md)（optimus-mecca） | 96548383 | 22428；参战 | 99003581 | [133727823](https://zkillboard.com/kill/133727823/)，攻击者 |
+| [阙](../../src/people/qwquqaq/qwquqaq.md)（qwquqaq） | 2117312483 | 24694；参战 | 99003581 | [133727894](https://zkillboard.com/kill/133727894/)，攻击者 |
+| [山竹](../../src/people/mangosteen-steve/mangosteen-steve.md)（mangosteen-steve） | 2113053705 | 22456；参战 | 99003581 | [133728117](https://zkillboard.com/kill/133728117/)，攻击者 |
+| [阴影大地](../../src/people/carlo-wang/carlo-wang.md)（carlo-wang） | 2113060308 | 12032；参战 | 99003581 | [133728212](https://zkillboard.com/kill/133728212/)，攻击者 |
+| [污龟](../../src/people/peter-li-peter/peter-li-peter.md)（peter-li-peter） | 2113450798 | 11198；参战 | 99003581 | [133728260](https://zkillboard.com/kill/133728260/)，攻击者 |
+
+### 已对应小号的额外命中
+
+继续将718张KM的驾驶员ID与人物素材中已有角色对应交叉检查，逐项复读命中者的同人依据，得到以下8个小号记录；不把材料里提到的其他人、军团联系人或CEO自动归给素材主人。它们涉及7位人物，新增加利西亚、大聪明、七喜、Zero煌四人；与上表按自然人合并，共23位。异词根、未留ID或尚未对应的小号仍可能漏掉，不宣称全社区参战者找齐。
+
+| 人物 | 参战小号ID | 舰船type ID | 战时联盟ID | 代表KM | 同人依据 |
+| --- | --- | --- | --- | --- | --- |
+| [艾若](../../src/people/ai-ruo/ai-ruo.md) | 2116531837 | 11961 | 99003581 | [133727586](https://zkillboard.com/kill/133727586/)，攻击者 | 同人明确，自报艾洛尼亚，见本人素材 |
+| [光头](../../src/people/evildobar/evildobar.md) | 2119031117 | 73792 | 99003581 | [133727346](https://zkillboard.com/kill/133727346/)，攻击者 | PERMA evildoBANNED及既有作品对应，见本人素材 |
+| [加利西亚](../../src/people/galician0/galician0.md) | 2121410226 | 19720 | 99003581 | [133727695](https://zkillboard.com/kill/133727695/)，攻击者 | 同中文名、同编号及同团，见本人素材 |
+| [大聪明](../../src/people/grand-bright/grand-bright.md) | 2115398507 | 671 | 99003581 | [133727695](https://zkillboard.com/kill/133727695/)，攻击者 | 既有大聪明／大智慧系列同人对应，见本人素材 |
+| [大聪明](../../src/people/grand-bright/grand-bright.md) | 2116512713 | 23913 | 99003581 | [133728061](https://zkillboard.com/kill/133728061/)，攻击者 | 既有大聪明／大智慧系列同人对应，见本人素材 |
+| [七喜](../../src/people/han-dong/han-dong.md) | 703462502 | 22428 | 1354830081 | [133727289](https://zkillboard.com/kill/133727289/)，攻击者 | 同头衔7-Up、同团及简介链接对应，见本人素材 |
+| [嗜血](../../src/people/trumps-bloodthirst-feynman/trumps-bloodthirst-feynman.md) | 2112867111 | 12017 | 99003581 | [133727293](https://zkillboard.com/kill/133727293/)，攻击者 | 角色公开自报嗜血，见本人素材 |
+| [Zero煌](../../src/people/zerohuang-ss/zerohuang-ss.md) | 2112949937 | 671 | 99003581 | [133727790](https://zkillboard.com/kill/133727790/)，攻击者 | 同头衔、同团、简介链接本人UP，见本人素材 |
+
+### 入文状态与具体后续
+
+窗口、星系、总损失和上述23位人物的主小号对应已核，参战经历已分别归入本人素材、并入既有战绩正文。橘子原有同场KM133727798六人击毁INIT神示、本人尾刀的战果继续保留，只补史诗战役背景，不重复另立一场。汉兰达按当场指挥经历叙述；其余依各自记录写参战，不指定全场总指挥或决策责任。未对应小号仍属覆盖边界，不据此追加一份全社区清点队列。

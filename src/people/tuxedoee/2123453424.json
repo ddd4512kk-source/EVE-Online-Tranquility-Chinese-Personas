@@ -2,57 +2,35 @@
   "id": 2123453424,
   "name": "tuxedoee",
   "birthday": "2025-05-22T02:57:51Z",
-  "current_corporation": {
-    "id": 1000167,
-    "name": "State War Academy",
-    "npc": true
-  },
+  "corporation_id": 1000167,
   "affiliation": {
-    "corporation": {
-      "id": 98764551,
-      "name": "PLA Fleet",
-      "ticker": "PLA-F"
-    },
-    "alliance": {
-      "id": 99014027,
-      "name": "People's Liberation Alliance",
-      "ticker": "PLA"
-    },
+    "corporation_id": 98764551,
+    "alliance_id": 99014027,
     "left_at": "2025-09-09T17:29:00Z"
   },
   "history": [
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-05-22T02:58:00Z",
       "end": "2025-05-22T05:42:00Z"
     },
     {
       "corporation_id": 98707431,
-      "name": "Serenity Moe University",
-      "npc": false,
       "start": "2025-05-22T05:42:00Z",
       "end": "2025-05-27T10:15:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-05-27T10:15:00Z",
       "end": "2025-05-30T13:04:00Z"
     },
     {
       "corporation_id": 98764551,
-      "name": "PLA Fleet",
-      "npc": false,
       "start": "2025-05-30T13:04:00Z",
       "end": "2025-09-09T17:29:00Z"
     },
     {
       "corporation_id": 1000167,
-      "name": "State War Academy",
-      "npc": true,
       "start": "2025-09-09T17:29:00Z",
       "end": null
     }

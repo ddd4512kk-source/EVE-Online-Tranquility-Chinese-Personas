@@ -13,6 +13,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import { validateCorporationTags } from "./corporation-tags.mjs";
+import { bodyLineOffset, validateBlocks } from "./blocks.mjs";
+import { compactSnapshot, expandSnapshot, isNpcCorp, mergeNames, readNames, writeNames } from "./character-snapshot.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
@@ -22,9 +24,6 @@ const EVEWHO = "https://evewho.com/api";
 const IMAGES = "https://images.evetech.net";
 const USER_AGENT =
   "EVE-Online-Tranquility-Chinese-Personas (+https://github.com/ddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas)";
-
-// NPC 军团的 ID 落在 1000000–1999999 区间
-const isNpcCorp = (id) => id >= 1_000_000 && id < 2_000_000;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -188,19 +187,9 @@ async function fetchCharacter(id) {
     id,
     name: esi?.name ?? info.name,
     birthday,
-    current_corporation: {
-      id: currentCorpId,
-      name: name(currentCorpId),
-      npc: isNpcCorp(currentCorpId),
-    },
+    current_corporation: { id: currentCorpId, name: name(currentCorpId) },
     affiliation,
-    history: history.map((h) => ({
-      corporation_id: h.corporation_id,
-      name: name(h.corporation_id),
-      npc: isNpcCorp(h.corporation_id),
-      start: h.start,
-      end: h.end,
-    })),
+    history: history.map((h) => ({ ...h, name: name(h.corporation_id) })),
     fetched_at: new Date().toISOString().slice(0, 10),
   };
 }
@@ -222,8 +211,10 @@ const FIELDS = {
   aliases: "可选，外号列表",
   epithet: "可选，一句话锐评（字符串）",
   tags: "可选，标签列表",
+  alts: "可选，本人小号的角色 ID 列表；战役战报据此认人",
 };
 const isStrList = (v) => Array.isArray(v) && v.every((x) => typeof x === "string" && x.trim());
+const isIdList = (v) => Array.isArray(v) && v.every((x) => Number.isInteger(x) && x > 0);
 
 function validate(file, data, body, lineOffset) {
   const errs = [];
@@ -233,27 +224,12 @@ function validate(file, data, body, lineOffset) {
   if (data.cn_name != null && typeof data.cn_name !== "string") errs.push("cn_name 必须是字符串");
   if (data.epithet != null && typeof data.epithet !== "string") errs.push("epithet 必须是字符串");
   if (data.aliases != null && !isStrList(data.aliases)) errs.push("aliases 必须是字符串列表，如 [外号一, 外号二]");
+  if (data.alts != null && !isIdList(data.alts)) errs.push("alts 必须是角色 ID 列表，如 [2114818738]");
   if (data.tags != null) {
     if (!isStrList(data.tags)) errs.push("tags 必须是字符串列表，如 [标签一, 标签二]");
     else if (data.tags.some((t) => /[\/\\?#%]/.test(t))) errs.push("标签里不能含 / \\ ? # % 字符");
   }
-  // ::: 块必须成对且只用已知类型
-  let depth = 0;
-  body.split(/\r?\n/).forEach((line, i) => {
-    const m = line.match(/^:::\s*(\S.*)?$/);
-    if (!m) return;
-    if (m[1]) {
-      const kind = m[1].split(/\s+/)[0];
-      if (!["红料", "黑料", "评"].includes(kind)) errs.push(`第 ${i + 1 + lineOffset} 行：未知块类型 "::: ${kind}"（只能是 红料 / 黑料 / 评）`);
-      if (depth > 0) errs.push(`第 ${i + 1 + lineOffset} 行：上一个 ::: 块还没有用单独一行 ::: 关闭`);
-      depth++;
-    } else if (depth === 0) {
-      errs.push(`第 ${i + 1 + lineOffset} 行：多余的 ::: 关闭行`);
-    } else {
-      depth--;
-    }
-  });
-  if (depth > 0) errs.push("有 ::: 块没有关闭（每个块结尾需要单独一行 :::）");
+  errs.push(...validateBlocks(body, lineOffset));
   return errs.map((e) => `${file}：${e}`);
 }
 
@@ -280,9 +256,7 @@ async function readPeople() {
       continue;
     }
     const { data, content } = parsed;
-    // 报错行号按整个文件计（加上 front matter 的行数）
-    const lineOffset = raw.slice(0, raw.length - content.length).split("\n").length - 1;
-    errors.push(...validate(file, data, content, lineOffset));
+    errors.push(...validate(file, data, content, bodyLineOffset(raw, content)));
     const id = Number(data.character_id);
     if (!Number.isInteger(id) || id <= 0) {
       errors.push(`${file}：缺少或无效的 character_id`);
@@ -293,7 +267,16 @@ async function readPeople() {
       continue;
     }
     seen.set(id, file);
-    people.push({ file, id, directory, tags: data.tags ?? [] });
+    people.push({ file, id, directory, tags: data.tags ?? [], alts: isIdList(data.alts) ? data.alts : [] });
+  }
+  // 小号只归一人，也不能是别人的收录角色
+  const altOwner = new Map();
+  for (const p of people) {
+    for (const alt of p.alts) {
+      if (seen.has(alt)) errors.push(`${p.file}：alts 里的 ${alt} 是 ${seen.get(alt)} 的收录角色`);
+      else if (altOwner.has(alt)) errors.push(`${p.file}：alts 里的 ${alt} 已列在 ${altOwner.get(alt)}`);
+      else altOwner.set(alt, p.file);
+    }
   }
   return { people, errors };
 }
@@ -301,8 +284,9 @@ async function readPeople() {
 const exists = (p) => fs.access(p).then(() => true, () => false);
 
 async function checkCorporationTags(people) {
+  const names = readNames(ROOT);
   const snapshots = await Promise.all(people.map(async (p) =>
-    JSON.parse(await fs.readFile(path.join(p.directory, `${p.id}.json`), "utf8"))));
+    expandSnapshot(JSON.parse(await fs.readFile(path.join(p.directory, `${p.id}.json`), "utf8")), names)));
   const corporations = snapshots.map((c) => c.affiliation?.corporation).filter(Boolean);
   const errors = people.flatMap((p, i) =>
     validateCorporationTags(p.tags, snapshots[i], corporations).map((e) => `${p.file}：${e}`));
@@ -343,12 +327,15 @@ async function main() {
   }
 
   let failed = 0;
+  const names = readNames(ROOT);
   for (const [i, p] of todo.entries()) {
     console.log(`[${i + 1}/${todo.length}] ${p.file} → ${p.id}`);
     try {
       const data = await fetchCharacter(p.id);
       await fetchPortrait(p.id, p.directory);
-      await fs.writeFile(path.join(p.directory, `${p.id}.json`), JSON.stringify(data, null, 2) + "\n");
+      const { snapshot, names: own } = compactSnapshot(data);
+      writeNames(ROOT, mergeNames(names, own));
+      await fs.writeFile(path.join(p.directory, `${p.id}.json`), JSON.stringify(snapshot, null, 2) + "\n");
       console.log(`  ✓ ${data.name}，创号 ${data.birthday?.slice(0, 10)}`);
     } catch (e) {
       failed++;

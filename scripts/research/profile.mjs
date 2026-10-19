@@ -13,6 +13,7 @@ import { researchFetch } from "./request-guard.mjs";
 
 import fs from "node:fs";
 import path from "node:path";
+import { expandSnapshot, readNames } from "../character-snapshot.mjs";
 
 const id = process.argv[2];
 let forumUser = process.argv[3];
@@ -54,7 +55,7 @@ const cachePath = fs.readdirSync(peopleDir, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
   .map((entry) => path.join(peopleDir, entry.name, `${id}.json`))
   .find((file) => fs.existsSync(file));
-let cache = cachePath ? JSON.parse(fs.readFileSync(cachePath, "utf8")) : null;
+let cache = cachePath ? expandSnapshot(JSON.parse(fs.readFileSync(cachePath, "utf8")), readNames(path.resolve(import.meta.dirname, "../.."))) : null;
 const ch = await json(`https://esi.evetech.net/latest/characters/${id}/`);
 if (!cache) {
   // 还没建列传的人没有缓存：直接读 EveWho 雇佣记录

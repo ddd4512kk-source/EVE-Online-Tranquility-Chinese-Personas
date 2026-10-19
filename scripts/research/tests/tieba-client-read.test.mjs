@@ -1,3 +1,4 @@
+import { pathToFileURL } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtemp, writeFile, readFile, rm } from 'node:fs/promises';
@@ -54,7 +55,7 @@ async function run(args, mode = '') {
   const preload = path.join(dir,'fixture.mjs'), output = path.join(dir,'thread.json');
   await writeFile(preload,fixture);
   let failure;
-  try { await exec(process.execPath,['--import',preload,reader,'https://tieba.baidu.com/p/123',output,...args],{env:{...process.env,TIEBA_TEST_MODE:mode,RESEARCH_STATE_FILE:path.join(dir,"cooldown.json")}}); } catch(error) { failure = error; }
+  try { await exec(process.execPath,['--import',pathToFileURL(preload).href,reader,'https://tieba.baidu.com/p/123',output,...args],{env:{...process.env,TIEBA_TEST_MODE:mode,RESEARCH_STATE_FILE:path.join(dir,"cooldown.json")}}); } catch(error) { failure = error; }
   const data = JSON.parse(await readFile(output,'utf8'));
   return {dir,output,data,failure};
 }
@@ -111,7 +112,7 @@ test('对应楼层的零页响应保留主楼预览及原声明缺口', async ()
   assert.equal(r.failure,undefined);assert.equal(r.data.complete,false);
   const state=r.data.coverage.subposts[0];assert.equal(state.total_pages,0);assert.equal(state.pages,1);
   assert.equal(state.no_visible_pages,true);assert.equal(state.expected,31);assert.equal(state.fetched,1);assert.deepEqual(r.data.errors,[]);
-  await exec(process.execPath,['--import',path.join(r.dir,'fixture.mjs'),reader,'123',r.output,'all','--both','--resume'],{env:{...process.env,TIEBA_TEST_MODE:'no-refetch'}});
+  await exec(process.execPath,['--import',pathToFileURL(path.join(r.dir,'fixture.mjs')).href,reader,'123',r.output,'all','--both','--resume'],{env:{...process.env,TIEBA_TEST_MODE:'no-refetch'}});
  } finally {await rm(r.dir,{recursive:true,force:true});}
 });
 test('老帖分页元数据全零但带真实回复时保留列表且不标完整', async () => {
@@ -134,7 +135,7 @@ test('中途保存时倒序副本也保留已补全的楼中楼', async () => {
 test('续跑保留不可见计数差，不重复已经结束的楼中楼分页', async () => {
  const r = await run(['all', '--both'], 'gap');
  try {
-  await exec(process.execPath, ['--import', path.join(r.dir, 'fixture.mjs'), reader, '123', r.output, 'all', '--both', '--resume'], {env:{...process.env,TIEBA_TEST_MODE:'no-refetch'}});
+  await exec(process.execPath, ['--import', pathToFileURL(path.join(r.dir, 'fixture.mjs')).href, reader, '123', r.output, 'all', '--both', '--resume'], {env:{...process.env,TIEBA_TEST_MODE:'no-refetch'}});
   const saved = JSON.parse(await readFile(r.output, 'utf8'));
   assert.equal(saved.complete, false);
   assert.equal(saved.coverage.subposts_fetched, 30);
@@ -152,7 +153,7 @@ test('限流后停止正倒序和楼中楼请求并保存缺口',async()=>{
 test('失败后续跑保留旧页与错误历史，补齐缺页及楼中楼', async () => {
  const r = await run(['all', '--both'], 'rate');
  try {
-  await exec(process.execPath, ['--import', path.join(r.dir, 'fixture.mjs'), reader, '123', r.output, 'all', '--both', '--resume'], {env:{...process.env,TIEBA_TEST_MODE:''}});
+  await exec(process.execPath, ['--import', pathToFileURL(path.join(r.dir, 'fixture.mjs')).href, reader, '123', r.output, 'all', '--both', '--resume'], {env:{...process.env,TIEBA_TEST_MODE:''}});
   const data = JSON.parse(await readFile(r.output, 'utf8'));
   assert.equal(data.complete, true);
   assert.equal(data.pages.length, 3);

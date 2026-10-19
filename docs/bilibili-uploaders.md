@@ -33,6 +33,7 @@
 | 7163834 | 梦之天籁 | [天籁](../src/people/nature00-soul/materials-nature00-soul.md) | 头衔“天籁”，标题统一【天籁EVE】 |
 | 8370281 | Zero煌 | [Zero煌](../src/people/zerohuang-ss/materials-zerohuang-ss.md) | 角色简介挂此主页 |
 | 9468015 | 一捆烂胶带 | [一捆烂胶带](../src/people/sickle-alter/materials-sickle-alter.md) | 与角色头衔相合 |
+| 85507499 | 筱橘ORG | [筱橘](../src/people/mikanorg/materials-mikanorg.md) | 头衔筱橘＋角色后缀ORG，第一人称FRT事件及EN部参战上下文对应；双排序10视频仅1条EVE，无合集 |
 | 9621579 | UNSC1419 | [幻象](../src/people/nany-1419/materials-nany-1419.md) | 与别名unsc1419同名；“昆仑毒蜥队”多开系列 |
 | 7164952 | 黑莲FubukiWaifu | [黑莲](../src/people/fubuki-waifu/materials-fubuki-waifu.md) | 外号＋角色名；白杉AT19冠军视频创作团队署名“参演” |
 | 10126340 | EVE神崎 | [死枪](../src/people/crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md) | 素材已核同人 |
@@ -41,7 +42,6 @@
 | 13329368 | dzkell | [W佬](../src/people/jubah-musanji/materials-jubah-musanji.md) | 外号即UP名；搬运新闻 |
 | 15019228 | 青馆love | [胡汉三](../src/people/taishang-laojun/materials-taishang-laojun.md) | 与别名“青馆”相合；Shadow Cartel、Deepwater Hooligans等低安作品与经历一致 |
 | 15346174 | 星星定乾坤 | [星星](../src/people/flashing-shark/materials-flashing-shark.md) | 同名 |
-| 15550297 | 蜜蜂中文社区 | [极端荣耀](../src/people/silvitni/materials-silvitni.md) | 已归本人；以PLA军团官号名义运营，签名写宣传联系极端荣耀 |
 | 15976503 | 剑穿天下 | [剑穿天下](../src/people/contingency-jctx/materials-contingency-jctx.md) | 同名；另一“一剑穿天下”零投稿号未并入 |
 | 16356876 | 夺米台风 | [台风](../src/people/domityphoon/materials-domityphoon.md) | 同名；KZU系列专栏 |
 | 17754851 | EVE波格得 | [波哥](../src/people/pogue-was/materials-pogue-was.md) | 已归本人；与角色简介直播间是否同号未核 |
@@ -55,7 +55,6 @@
 | 1273724812 | EVE白杉 | [白杉](../src/people/frt-baishantvt/materials-frt-baishantvt.md) | 宁静周刊、宁静访谈频道；与个人号分开计数 |
 | 32738444 | 小绿特 | [小绿特](../src/people/lvte-xiao/materials-lvte-xiao.md) | 签名与角色简介首行相同 |
 | 37720838 | OzenCandywand | [Ozen](../src/people/ozen-wand/materials-ozen-wand.md) | 与角色名近同；“FRT制片厂”作品 |
-| 34656179 | EVE欧服玉麒麟联盟 | [老鹰](../src/people/lao-ying/materials-lao-ying.md) | 本人角色简介所挂教学视频BV1Cv4y1K7Dx为此号投稿；有《玄武军团新手指南》与新人教程系列 |
 | 48030884 | 不是甜酱是辣酱 | [辣酱](../src/people/la-jiang/materials-la-jiang.md) | 签名与贴吧、AVDOT简介相同 |
 | 50869069 | 狂血兔与木棉花 | [飛鳥](../src/people/for-undead-asuka/materials-for-undead-asuka.md) | 投稿以“【飛鳥】”开头，与头衔相合 |
 | 52322115 | Sixshot- | [青衣](../src/people/chessplayer/materials-chessplayer.md) | 已归本人；签名“AT19世界冠军！”，本人贴吧帖贴其翻译投稿BV1Sh411d7Yk |
@@ -100,9 +99,10 @@
 | 646042741 | notHenryZ | [皮卡](../src/people/kerrum-pithy/materials-kerrum-pithy.md) | 短链指向此空间 |
 | 1026658336 | RooT三 | [根号三](../src/people/root-3/materials-root-3.md) | 已归本人；现存作品非EVE |
 | 2129407463 | Texas火锅 | [火锅](../src/people/texas/materials-texas.md) | 本人招新帖贴此短链 |
-| 3546578402937415 | NSGY_Offical | [北暮](../src/people/beimu/materials-beimu.md) | 已归本人；以龙焰北岸军团（NSGY）官号名义运营 |
 | 3546639406991863 | 抵抗之狐officials | [四十二](../src/people/renard42/renard42.md) | 本人账号，以军团官号名义运营；部分作品署“制作:四十二” |
 | 3546921471838908 | MiMi是小米糕 | [小米糕](../src/people/micahel-wu/materials-micahel-wu.md) | 角色简介写“B站搜索：MiMi是小米糕” |
+| 3546578402937415 | NSGY_Offical | [北暮](../src/people/beimu/materials-beimu.md) | 北暮（北慕）本人运营的军团官号，亦为本人创作与发布账号；6条EVE视频 |
+| 34656179 | EVE欧服玉麒麟联盟 | [老鹰](../src/people/lao-ying/materials-lao-ying.md) | 老鹰本人运营，亦为本人创作与发布账号；有新人教程系列；直播间是否同UID另待核 |
 
 ## 已收录但UID未登记
 
@@ -113,12 +113,20 @@ UP名或投稿已知，UID待读本人链接补上。这些行建名单时只从
 
 ## `B站` 标签
 
-本人账号有 5 个以上 EVE 视频才带 `B站` 标签（见[写作验收](writing-review.md#标签)）。账号已对应但不带标签的：
+须先有本人运营或创作的具体依据；本人账号有 5 个以上 EVE 视频才带 `B站` 标签（见[写作验收](writing-review.md#标签)）。账号已对应但不带标签的：
 
 - **EVE视频不足5个或未见5个**：根号三（作品非EVE）、小十亿（3条）、魔焱、青春、台风（多为专栏）、橙子、伊利法尔、六竹、Ozen（近作多为战舰世界，已见3条EVE）、saber（1条）、马哥（Leon7ovol，1条）。以后查到5个以上EVE视频再补标签。
 - **只发专栏或评论**：E姐、炒鸡、N老板。
 - **零投稿**：非法丨宸怡（14401515，[非法](../src/people/illegal-chenyi-mist/materials-illegal-chenyi-mist.md)）、梦夜飞雪（225371895，[梦夜飞雪](../src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.md)）。
 - **只在别人视频里出镜、被点名，或简介挂别人视频**：司令、嗜血、七秒、大林、建军、阿阳、猫娘、大黑（《EVE 红领巾反向招新》BV1SG8r6gEPF 不是他本人账号发的）。
+
+## 官号关联，个人UP归属待核
+
+这些账号保留为事件来源，不计入关联人物的个人 `B站` 标签。CEO、宣传联系人和简介所挂视频不能代替账号归属。
+
+| UID | UP名 | 关联人物 | 现有依据与缺口 |
+| --- | --- | --- | --- |
+| 15550297 | 蜜蜂中文社区 | [极端荣耀](../src/people/silvitni/materials-silvitni.md) | PLA官号，签名写宣传联系极端荣耀；联系人不等于运营者，个人归属待核 |
 
 ## 候选与线索
 

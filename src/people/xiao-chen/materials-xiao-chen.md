@@ -14,6 +14,16 @@
 - EveWho：[Tas Oramara](https://evewho.com/character/2122676937) 建号于 2024-09-02，2024-09-04 加入创世。其与小尘的对应来自社区群聊说法；尚未找到公开的 CCP 处罚公告。
 - zKillboard：[ice Kusoni 角色页](https://zkillboard.com/character/2115224698/)。2026-10-08 快照统计 2200 击杀、437 损失，击毁约 1.008 万亿 ISK、损失约 787 亿 ISK。
 
+### 小号（2026-10-18 补录）
+
+社区说法称小尘还有以下三个号；名字与 ice Kusoni 同词根（ice / xiao chen），雇佣记录与主号高度重合，直接判为本人小号。
+
+- **ice little（2115274206）**：2019-05-25 建号（主号 2019-05-09）。雇佣与主号几乎同步：Perkone、Total Nature、sword of omega（2019-12—2020-03）、Nega Nebulas.、Mogu Heavy Industry（2021-06）、STARCHASER Inc（2021-08）、STARCHASER University（2022-07），之后 Trisolaris Military Academy（2022-11）、Lone Army Fighting Club（2024-06），**2024-07-04T08:06 进 NPC 军团，与主号同一分钟**。zKill：218 击杀 / 460 损失，击毁约 123B、损失约 90B。
+- **S-xiao chen（2117672214）**：2020-10-08 建号，当天进 STARCHASER Inc；2022-11-14 进 Inverse Entropy Fleet Zero（逆熵），2023-11-19 进 NPC 军团。zKill：17 击杀 / 25 损失，击毁约 81.5B。最高值击杀 [KM 89214870](https://zkillboard.com/kill/89214870/)：2020-12-12 RF-X7V，Nyx（约 32.8B），21 名攻击者，本号驾驶 Slasher——已写入列传。
+- **esson chen（2120577109）**：2022-11-12 建号，当天进 Inverse Entropy Fleet Zero；2023-11-19 进 NPC 军团（与 S-xiao chen 同日相差两分钟），2024-01-25 Lone Army Fighting Club，2024-07-04T08:06 进 NPC 军团（与主号、ice little 同一分钟）。zKill：280 击杀 / 120 损失，击毁约 189B；近期高值击杀均约 3.7B 级。
+- 四号 2024-07-04 同一分钟集体退团，与“RMT 被踢、多号被封”的社区说法时间上吻合，但封号日期本身未见公开记录。
+- 待查：esson chen 与 ice little 的高值月份代表 KM、有无 Monitor 记录。
+
 ### 检索记录与缺口
 
 - **中文搜索 / 贴吧**：贴吧客户端检索 `eve欧服 小尘 深水 带路` 命中两条无关旧帖；`eve欧服 ice Kusoni` 零结果；`eve欧服 小尘 FRT RMT` 命中 RMT 泛论及无关帖子，没有找到此人的指控正文。百度检索 `小尘 EVE欧服 FRT 深水 带路 RMT` 命中其他 RMT 讨论与一般战斗视频，没有命中本人的带路事件。搜索结果不代表没有其他素材。

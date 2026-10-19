@@ -2,57 +2,35 @@
   "id": 2114801659,
   "name": "Li BaoBao",
   "birthday": "2018-12-23T10:03:39Z",
-  "current_corporation": {
-    "id": 98108175,
-    "name": "Thunders Claw Fleet",
-    "npc": false
-  },
+  "corporation_id": 98108175,
   "affiliation": {
-    "corporation": {
-      "id": 98108175,
-      "name": "Thunders Claw Fleet",
-      "ticker": "T C F"
-    },
-    "alliance": {
-      "id": 99003581,
-      "name": "Fraternity.",
-      "ticker": "FRT"
-    },
+    "corporation_id": 98108175,
+    "alliance_id": 99003581,
     "left_at": null
   },
   "history": [
     {
       "corporation_id": 1000170,
-      "name": "Republic Military School",
-      "npc": true,
       "start": "2018-12-23T10:04:00Z",
       "end": "2019-01-26T06:44:00Z"
     },
     {
       "corporation_id": 992634837,
-      "name": "Thunder Mercenary Army",
-      "npc": false,
       "start": "2019-01-26T06:44:00Z",
       "end": "2019-10-31T13:54:00Z"
     },
     {
       "corporation_id": 98108175,
-      "name": "Thunders Claw Fleet",
-      "npc": false,
       "start": "2019-10-31T13:54:00Z",
       "end": "2025-03-27T16:52:00Z"
     },
     {
       "corporation_id": 1000170,
-      "name": "Republic Military School",
-      "npc": true,
       "start": "2025-03-27T16:52:00Z",
       "end": "2026-04-24T15:50:00Z"
     },
     {
       "corporation_id": 98108175,
-      "name": "Thunders Claw Fleet",
-      "npc": false,
       "start": "2026-04-24T15:50:00Z",
       "end": null
     }

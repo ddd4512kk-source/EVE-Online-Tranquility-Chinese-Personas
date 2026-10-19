@@ -104,3 +104,12 @@
 ## 推荐作品署名（2026-10-17）
 
 [【EVE】卖家秀和买家秀](https://www.bilibili.com/video/BV1Ny4y1J7yi/)、[【EVE欧服】空间站无法承受之重](https://www.bilibili.com/video/BV1xX4y1G7nG/)的公开简介与作品页未见联合制作团队或多人制作分工署名，保留原推荐。仅核公开文字与署名，未读影像、音频、字幕；本轮不计新增评论阅读。
+
+
+### 防御泡事件与扩展阅读的区别
+
+[防御泡篇](https://www.bilibili.com/video/BV1ayAne5E3W/)简介明确把[116488310](https://zkillboard.com/kill/116488310/)称为“大鱼击杀报告”。2026-10-18核该KM后，另用一次导航展开“List all pilots”，取得68名攻击者：Enterprise Tadaruwa（2113208414）驾驶Eris／厄里斯，战时Foredawn Business Corporation／Fraternity.，本人角色直接命中，不再等待画面认船。
+
+KM时间2024-03-24 06:39 UTC，JP4-AA／Delve，受害lLlNeight，Angry Angels Constructions／Goonswarm Federation，Rorqual／长须鲸，总值约11.75B ISK。只能据此写曼努尔驾驶轻拦随队参与击毁，不推断谁指挥、谁打防御泡、是否救援成功或把集体战果独归本人。作品2025-02-21发布，与留言称旧录像近一年后才上传相合；两种时间分开。NoSep的小泡泡、ping点封锁补充仍是评论者意见，作者点赞不改作作者原话；没有观看影像、声音或字幕。
+
+本次把本人出勤、旧录像延后做教学与评论补充并入正文，具体KM分支已消化。其他故事集、同人和未展开回复仅记实际未读范围，不把整个频道设为下一轮目标。
