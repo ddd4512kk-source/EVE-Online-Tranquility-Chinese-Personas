@@ -15,4 +15,8 @@ export default {
   Lantorn: "兰多恩",
   Atioth: "艾蒂斯",
   Otsasai: "欧塔萨塞",
+  Otela: "乌特拉",
+  Maseera: "马瑟拉",
+  Asakai: "艾萨凯",
+  Todifrauan: "托蒂弗伦",
 };

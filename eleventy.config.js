@@ -11,6 +11,8 @@ const utc = (iso) => (iso ? new Date(iso) : null);
 export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("glossaryEntries", glossaryEntries);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  // Service Worker 必须放在站点根目录，才能管到全站的头像与字体
+  eleventyConfig.addPassthroughCopy({ "src/sw.js": "sw.js" });
   for (const person of fs.readdirSync("src/people", { withFileTypes: true })) {
     if (!person.isDirectory()) continue;
     for (const file of fs.readdirSync(path.join("src/people", person.name))) {

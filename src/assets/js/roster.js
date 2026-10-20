@@ -1,3 +1,5 @@
+import { initTagCollapse, shuffled } from "./directory-utils.js";
+
 // 首页名录：即时筛选 + 创号正序/倒序、最近更新、随机排序。无 JS 时页面照常可读。
 // 目录是一整块连续网格；每年第一张“可见”卡片挂年份签，筛选或换序后重新计算。
 // 筛选 = 文字筛选 ∧ 标签筛选（标签栏单选，再点一次取消）。
@@ -79,13 +81,8 @@
 
   // 每点一次重新洗牌
   function shuffle() {
-    const list = [...cards];
-    for (let i = list.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [list[i], list[j]] = [list[j], list[i]];
-    }
     setMode("shuffle");
-    placeCards(list);
+    placeCards(shuffled(cards));
   }
 
   function setMode(m) {
@@ -133,35 +130,10 @@
     syncUrl();
   });
 
-  // 标签栏折叠：默认只露一行；放得下就不显示“展开”
-  const tagWrap = document.querySelector(".tag-wrap");
-  const tagMore = document.querySelector(".tag-more");
-  let tagsOpen = false;
-  function layoutTags() {
-    if (!tagWrap || !tagMore) return;
-    tagWrap.classList.add("is-collapsed");
-    const overflow = tagBar.scrollHeight > tagBar.clientHeight + 2;
-    tagWrap.classList.toggle("is-collapsed", overflow && !tagsOpen);
-    tagMore.hidden = !overflow && !tagsOpen;
-    tagMore.textContent = tagsOpen ? "收起 ▴" : "展开 ▾";
-    tagMore.setAttribute("aria-expanded", String(tagsOpen));
-  }
-  tagMore?.addEventListener("click", () => {
-    tagsOpen = !tagsOpen;
-    layoutTags();
-  });
-  addEventListener("resize", layoutTags);
-
   const params = new URLSearchParams(location.search);
   if (params.get("f")) input.value = params.get("f");
   const t = params.get("t");
   if (t && [...(tagBar?.children ?? [])].some((b) => b.dataset.tag === t)) setTag(t);
-  // 网址带的标签若在折叠行之外，自动展开让人看到
-  layoutTags();
-  const act = tagBar?.querySelector(".chip.is-active");
-  if (act && tagWrap?.classList.contains("is-collapsed") && act.offsetTop - tagBar.offsetTop > tagBar.clientHeight) {
-    tagsOpen = true;
-    layoutTags();
-  }
+  initTagCollapse(document.querySelector(".tag-wrap"));
   if (input.value || activeTag) applyFilter();
 })();

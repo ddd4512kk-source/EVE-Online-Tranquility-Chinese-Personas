@@ -1,4 +1,4 @@
-{#- 联盟、军团名加 EveWho 链接（与列传页一致）。o：{ id, kind: alliance|corporation, name }，名字取自全站名称表 entityNames.json。 -#}
+{#- 联盟、军团名加 EveWho 链接（与列传页一致）。o：{ id, kind: alliance|corporation, name, ticker? }，名字取自全站名称表 entityNames.json。 -#}
 {%- macro org(o) -%}
-<a href="https://evewho.com/{{ o.kind }}/{{ o.id }}" rel="noopener" lang="en">{{ o.name }}</a>
+<a href="https://evewho.com/{{ o.kind }}/{{ o.id }}" rel="noopener" lang="en" title="{{ o.name | escape }}">{{ (o.ticker or o.name) | escape }}</a>
 {%- endmacro -%}

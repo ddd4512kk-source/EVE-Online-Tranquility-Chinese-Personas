@@ -3,14 +3,14 @@ layout: base.njk
 bodyClass: page-battle
 ---
 {%- from "entity.njk" import org -%}
-{%- from "battle-emblem.njk" import battleEmblem -%}
+{%- from "battle-emblem.njk" import battleEmblem, emblemVars -%}
 {%- set prev = collections.battles | getPreviousCollectionItem(page) -%}
 {%- set next = collections.battles | getNextCollectionItem(page) -%}
 {%- set backHref = '/battles/' %}{% set backLabel = '战役目录' %}
 {% include "back.njk" %}
 <article class="bio battle" data-pagefind-body data-pagefind-filter="板块:战役">
-  <header class="battle-head">
-    {{ battleEmblem(emblem, "large") }}
+  <header class="battle-head" style="{{ emblemVars(emblem) | trim }}">
+    {{ battleEmblem(emblem, tier.key, "large") }}
     <div class="battle-heading">
     <p class="tier tier-{{ tier.key }}" data-pagefind-ignore>{{ tier.name }}战役</p>
     <h1 class="bio-name" data-pagefind-meta="title">{{ title }}</h1>
@@ -45,9 +45,19 @@ bodyClass: page-battle
       {% if s.note %}<p class="side-note">{{ s.note }}</p>{% endif %}
       {% if s.loss != null %}<span class="side-bar" aria-hidden="true"><span style="width: {{ (s.loss / lossTotal * 100) | round(1) }}%"></span></span>{% endif %}
       <dl class="side-facts">
-        {% if s.alliances and s.alliances.length %}<div><dt>联盟</dt><dd>{% for a in s.alliances %}{{ org(a) }}{% if not loop.last %}、{% endif %}{% endfor %}</dd></div>{% endif %}
-        {% if s.corps and s.corps.length %}<div><dt>华人军团</dt><dd><ul class="corp-list">{% for c in s.corps %}<li>{{ org(c) }}{% if c.pilots %}<small>{{ c.pilots }}</small>{% endif %}</li>{% endfor %}</ul></dd></div>{% endif %}
-        {% if s.people and s.people.length %}<div><dt>人物</dt><dd class="chips">{% for id in s.people %}{% set p = collections.people | personById(id) %}<a class="chip" href="{{ p.url | url }}">{{ p.data.displayName }}</a>{% endfor %}</dd></div>{% endif %}
+        {% set sideIndex = loop.index %}
+        {% if s.alliances and s.alliances.length %}<div><dt>联盟</dt><dd class="battle-list-wrap">
+          <ul class="battle-list" id="side-{{ sideIndex }}-alliances">{% for a in s.alliances %}<li>{{ org(a) }}</li>{% endfor %}</ul>
+          <button type="button" class="tag-more" aria-controls="side-{{ sideIndex }}-alliances" aria-expanded="false" hidden>展开 ▾</button>
+        </dd></div>{% endif %}
+        {% if s.corps and s.corps.length %}<div><dt>华人军团</dt><dd class="battle-list-wrap">
+          <ul class="battle-list corp-list" id="side-{{ sideIndex }}-corps">{% for c in s.corps %}<li>{{ org(c) }}{% if c.pilots %}<small>{{ c.pilots }}</small>{% endif %}</li>{% endfor %}</ul>
+          <button type="button" class="tag-more" aria-controls="side-{{ sideIndex }}-corps" aria-expanded="false" hidden>展开 ▾</button>
+        </dd></div>{% endif %}
+        {% if s.people and s.people.length %}<div><dt>人物</dt><dd class="battle-list-wrap">
+          <ul class="battle-list" id="side-{{ sideIndex }}-people">{% for id in s.people %}{% set p = collections.people | personById(id) %}<li><a class="chip" href="{{ p.url | url }}">{{ p.data.displayName }}</a></li>{% endfor %}</ul>
+          <button type="button" class="tag-more" aria-controls="side-{{ sideIndex }}-people" aria-expanded="false" hidden>展开 ▾</button>
+        </dd></div>{% endif %}
       </dl>
     </div>
   {%- endfor %}
@@ -80,3 +90,5 @@ bodyClass: page-battle
   <a class="pager-random" href="{{ '/battles/' | url }}">目录</a>
   {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>较早一场</small>{{ next.data.title }}</a>{% else %}<span></span>{% endif %}
 </nav>
+
+<script src="{{ "/assets/js/battle-lists.js" | url }}?v={{ site.build }}" defer></script>

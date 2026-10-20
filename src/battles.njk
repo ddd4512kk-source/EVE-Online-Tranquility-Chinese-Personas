@@ -5,7 +5,7 @@ pageTitle: 战役
 bodyClass: page-battles
 ---
 {%- from "entity.njk" import org -%}
-{%- from "battle-emblem.njk" import battleEmblem -%}
+{%- from "battle-emblem.njk" import battleEmblem, emblemVars -%}
 {%- set battles = collections.battles -%}
 <section class="intro">
   <h1>战役</h1>
@@ -31,10 +31,10 @@ bodyClass: page-battles
 <ol id="battle-rows" class="battle-rows">
 {%- for b in battles %}
   {%- set d = b.data %}
-  <li class="battle-row" data-date="{{ d.startYmd }}" data-loss="{{ d.lossTotal }}" data-tags="|{{ d.labels | join('|') }}|">
+  <li class="battle-row battle-row-{{ d.tier.key }}" style="{{ emblemVars(d.emblem) | trim }}" data-date="{{ d.startYmd }}" data-loss="{{ d.lossTotal }}" data-tags="|{{ d.labels | join('|') }}|">
     <div class="battle-row-top">
       <div class="battle-row-identity">
-        {{ battleEmblem(d.emblem) }}
+        {{ battleEmblem(d.emblem, d.tier.key) }}
       <div class="battle-row-head">
         <a class="battle-row-title" href="{{ b.url | url }}">{{ d.title }}</a>
         <span class="battle-row-meta"><span class="tier tier-{{ d.tier.key }}">{{ d.tier.name }}</span> <time datetime="{{ d.startYmd }}">{{ d.startYmd }}</time>{% if d.endYmd and d.endYmd != d.startYmd %} — <time datetime="{{ d.endYmd }}">{{ d.endYmd }}</time>{% endif %} · {% for s in d.systems %}{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</span>
@@ -46,6 +46,7 @@ bodyClass: page-battles
       </dl>
     </div>
     {% if d.epithet %}<p class="battle-row-epithet">{{ d.epithet }}</p>{% endif %}
+    <div class="loss-bar" aria-hidden="true">{% for s in d.sidesView %}{% if s.loss %}<span class="loss-bar-{{ loop.index }}" style="flex-grow: {{ s.loss }}"></span>{% endif %}{% endfor %}</div>
     <ul class="side-grid" aria-label="交战各方">
     {%- for s in d.sidesView %}
       <li class="side-mini">
@@ -59,7 +60,7 @@ bodyClass: page-battles
   </li>
 {%- endfor %}
 </ol>
-<script src="{{ '/assets/js/battles.js' | url }}?v={{ site.build }}" defer></script>
+<script type="module" src="{{ '/assets/js/battles.js' | url }}?v={{ site.build }}"></script>
 {% else %}
 <p class="empty">尚无战役。</p>
 {% endif %}

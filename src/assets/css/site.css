@@ -21,6 +21,16 @@
   --shuffle-edge: rgba(0, 0, 0, 0.35);
   --zhu: #e0554a;          /* 朱砂 */
   --zhu-bg: rgba(224, 85, 74, 0.08);
+  --emblem-blue: #4f86c6;  /* 战徽右方底光；对阵第二方的主色 */
+  /* 氛围层：天幕辉光、星点、面板立体感、标题墨色、数字微光 */
+  --glow-zhu: rgba(224, 85, 74, 0.11);
+  --glow-blue: rgba(79, 134, 198, 0.10);
+  --stars: .55;
+  --surface: linear-gradient(180deg, #171d29, #131822);
+  --panel-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 12px 32px -20px rgba(0, 0, 0, 0.9);
+  --title-ink: linear-gradient(180deg, #f7eedb 25%, #c8a560 115%);
+  --num-glow: 30%;
+  --paper: none;
   --link: #d9b673;
   --term-link: #8fc4ee;
   --focus: #7fb4ff;
@@ -31,7 +41,8 @@
   --hei-bg: rgba(0, 0, 0, 0.35);
   --hei-edge: #59606e;
 
-  --serif: "Noto Serif SC", "Source Han Serif SC", "Source Han Serif CN", "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", serif;
+  /* 本机有思源宋体就用本机，否则按需下载站内切片（fonts.css）；Cambria/Georgia 在宋体前，切片未到时西文不落到宋体的等宽字母 */
+  --serif: "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Yeshi Serif", "Songti SC", "STSong", Cambria, Georgia, "SimSun", serif;
   --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", system-ui, sans-serif;
   --mono: ui-monospace, "SF Mono", Consolas, monospace;
 
@@ -62,6 +73,15 @@
     --shuffle-edge: rgba(90, 20, 15, 0.45);
     --zhu: #b0322a;
     --zhu-bg: rgba(176, 50, 42, 0.06);
+    --emblem-blue: #2f5f96;
+    --glow-zhu: rgba(176, 50, 42, 0.07);
+    --glow-blue: rgba(47, 95, 150, 0.06);
+    --stars: 0;
+    --surface: linear-gradient(180deg, #fdfbf6, #f8f3e8);
+    --panel-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 10px 26px -18px rgba(90, 65, 30, 0.45);
+    --title-ink: linear-gradient(180deg, #2a2621 30%, #6e5223 120%);
+    --num-glow: 0%;
+    --paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .33 0 0 0 0 .2 .32 0 0 0 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     --link: #7b5a1e;
     --term-link: #175a92;
     --focus: #2563eb;
@@ -91,6 +111,15 @@
   --shuffle-edge: rgba(90, 20, 15, 0.45);
   --zhu: #b0322a;
   --zhu-bg: rgba(176, 50, 42, 0.06);
+  --emblem-blue: #2f5f96;
+  --glow-zhu: rgba(176, 50, 42, 0.07);
+  --glow-blue: rgba(47, 95, 150, 0.06);
+  --stars: 0;
+  --surface: linear-gradient(180deg, #fdfbf6, #f8f3e8);
+  --panel-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 10px 26px -18px rgba(90, 65, 30, 0.45);
+  --title-ink: linear-gradient(180deg, #2a2621 30%, #6e5223 120%);
+  --num-glow: 0%;
+  --paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .33 0 0 0 0 .2 .32 0 0 0 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --link: #7b5a1e;
   --term-link: #175a92;
   --focus: #2563eb;
@@ -118,6 +147,17 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* 氛围层：深色是朱、青两团天幕辉光加星点，浅色是宣纸纤维；固定在视口，纯 CSS，无外部资源 */
+body::before, body::after { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; }
+body::before {
+  background:
+    var(--paper),
+    radial-gradient(ellipse 70% 45% at 8% -8%, var(--glow-zhu), transparent 70%),
+    radial-gradient(ellipse 60% 50% at 100% 0%, var(--glow-blue), transparent 70%),
+    radial-gradient(ellipse 80% 50% at 50% 115%, var(--glow-blue), transparent 70%);
+}
+body::after { opacity: var(--stars); background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' fill='%23fff'%3E%3Ccircle cx='69' cy='62' r='0.8' fill-opacity='0.7'/%3E%3Ccircle cx='115' cy='146' r='0.6' fill-opacity='0.5'/%3E%3Ccircle cx='17' cy='238' r='0.8' fill-opacity='1.0'/%3E%3Ccircle cx='165' cy='83' r='0.5' fill-opacity='0.5'/%3E%3Ccircle cx='125' cy='2' r='0.5' fill-opacity='0.8'/%3E%3Ccircle cx='196' cy='174' r='0.6' fill-opacity='0.3'/%3E%3Ccircle cx='56' cy='214' r='0.9' fill-opacity='0.9'/%3E%3Ccircle cx='251' cy='250' r='0.5' fill-opacity='0.8'/%3E%3Ccircle cx='222' cy='253' r='0.4' fill-opacity='0.6'/%3E%3Ccircle cx='91' cy='78' r='0.6' fill-opacity='0.7'/%3E%3Ccircle cx='138' cy='39' r='0.5' fill-opacity='0.4'/%3E%3Ccircle cx='63' cy='190' r='0.7' fill-opacity='0.7'/%3E%3Ccircle cx='32' cy='129' r='0.5' fill-opacity='0.7'/%3E%3Ccircle cx='30' cy='134' r='0.7' fill-opacity='0.8'/%3E%3Ccircle cx='57' cy='66' r='0.5' fill-opacity='0.9'/%3E%3Ccircle cx='185' cy='227' r='0.4' fill-opacity='0.8'/%3E%3Ccircle cx='42' cy='172' r='0.9' fill-opacity='0.9'/%3E%3Ccircle cx='216' cy='171' r='0.5' fill-opacity='0.8'/%3E%3Ccircle cx='46' cy='181' r='0.7' fill-opacity='0.3'/%3E%3Ccircle cx='236' cy='118' r='0.4' fill-opacity='0.9'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='540' fill='%23fff'%3E%3Ccircle cx='144' cy='494' r='1.4' fill-opacity='0.9'/%3E%3Ccircle cx='412' cy='479' r='1.4' fill-opacity='0.5'/%3E%3Ccircle cx='244' cy='329' r='1.0' fill-opacity='0.3'/%3E%3Ccircle cx='125' cy='15' r='1.3' fill-opacity='0.5'/%3E%3Ccircle cx='389' cy='11' r='0.9' fill-opacity='0.4'/%3E%3Ccircle cx='525' cy='360' r='1.1' fill-opacity='0.8'/%3E%3Ccircle cx='125' cy='511' r='0.9' fill-opacity='0.8'/%3E%3Ccircle cx='310' cy='197' r='1.0' fill-opacity='0.7'/%3E%3C/svg%3E"); }
 
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--gold); }
@@ -333,7 +373,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   overflow-wrap: anywhere;
 }
 .bio-suffix { font-weight: 400; font-size: .55em; color: var(--text-faint); margin-left: .35em; letter-spacing: .2em; }
-.bio-charname { margin: .2rem 0 0; color: var(--text-dim); font-size: .95rem; }
+.bio-charname { margin: .2rem 0 0; color: var(--text-dim); font-size: .95rem; overflow-wrap: anywhere; }
 .bio-aliases { margin: .15rem 0 0; color: var(--text-faint); font-size: .88rem; }
 .bio-aliases span { color: var(--text-dim); }
 .epithet {
@@ -347,7 +387,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 
 .bio-facts {
-  display: grid; gap: .35rem; margin: 0 0 1.75rem; padding: .8rem 1rem;
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: .35rem; margin: 0 0 1.75rem; padding: .8rem 1rem;
   background: var(--bg-raised); border: 1px solid var(--line-soft); border-radius: var(--radius);
   font-size: .9rem;
 }
@@ -359,9 +399,10 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .bio-facts-row > div:has(.chips) { flex-basis: 100%; }
 .bio-facts dt { flex: none; width: 2.5em; color: var(--text-faint); }
 .bio-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.person-battles { min-width: 0; }
 
 /* 正文：衬线、宽行距，适合长篇阅读 */
-.prose { font-family: var(--serif); font-size: 1.075rem; line-height: 1.95; }
+.prose { font-family: var(--serif); font-size: 1.075rem; line-height: 1.95; overflow-wrap: break-word; }
 .prose > :first-child { margin-top: 0; }
 .prose p { margin: 0 0 1.1em; text-align: justify; }
 .prose h2, .prose h3 {
@@ -479,36 +520,50 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 /* ---------- 战役 ---------- */
 .battle-head { display: flex; align-items: flex-start; gap: 1.25rem; margin: .5rem 0 1.25rem; }
 .battle-heading { min-width: 0; }
-/* 主标构成画面：两方沿对角展开，多方平分；不编码胜负。 */
+/* 刀口对撞：各方主标放大出血、按刀口裁切；刀口（底色从缝里露出）颜色即档位。左朱右青只分两方，不编码胜负。 */
 .battle-emblem {
-  --emblem-size: 104px;
+  --emblem-size: 104px; --cut: 2px; --seam: var(--line);
   position: relative; flex: 0 0 var(--emblem-size); isolation: isolate;
   width: var(--emblem-size); height: var(--emblem-size); overflow: hidden;
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
-  background: var(--bg-sunk); border-radius: var(--radius);
-  box-shadow: inset 0 0 0 1px var(--line-soft);
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--cut);
+  background: var(--seam); border-radius: var(--radius);
 }
-.battle-emblem::before {
-  content: ""; position: absolute; inset: 0; z-index: -1;
-  background: linear-gradient(135deg, var(--line) 0%, var(--bg-raised) 49.5%, var(--bg-sunk) 50%);
-}
-.battle-emblem-large { --emblem-size: 160px; }
+.battle-emblem-tier-epic { --seam: var(--zhu); }
+.battle-emblem-tier-large { --seam: var(--gold); }
+.battle-emblem-large { --emblem-size: 160px; --cut: 3px; }
+.battle-row .battle-emblem { --emblem-size: 76px; }
 .battle-emblem-side {
-  display: flex; align-items: center; justify-content: center;
-  min-width: 0; min-height: 0; padding: 8%;
+  position: relative; overflow: hidden; min-width: 0; min-height: 0;
+  display: grid; place-items: center; background: var(--bg-sunk);
+  box-shadow: inset 0 0 calc(var(--emblem-size) * .18) rgba(0, 0, 0, .4);
 }
-.battle-emblem-side img { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 2px 3px var(--bg-sunk)); }
+.battle-emblem-side img { display: block; width: 92%; height: 92%; object-fit: contain; filter: saturate(1.15) contrast(1.05); }
 .battle-emblem-initials { color: var(--gold); font: 700 1rem var(--serif); }
 .battle-emblem-sides-1 { grid-template-columns: 1fr; }
-.battle-emblem-sides-2 .battle-emblem-side { position: absolute; width: 64%; height: 64%; padding: 5%; }
-.battle-emblem-sides-2 .battle-emblem-side:first-child { top: 0; left: 0; }
-.battle-emblem-sides-2 .battle-emblem-side:nth-child(2) { bottom: 0; right: 0; }
+.battle-emblem-sides-2 { display: block; }
+.battle-emblem-sides-2 .battle-emblem-side { position: absolute; inset: 0; display: block; }
+.battle-emblem-sides-2 .battle-emblem-side:first-child {
+  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 0 calc(100% - var(--cut)));
+  background: radial-gradient(circle at 25% 25%, color-mix(in srgb, var(--zhu) 35%, var(--bg-sunk)), var(--bg-sunk) 70%);
+}
+.battle-emblem-sides-2 .battle-emblem-side:nth-child(2) {
+  clip-path: polygon(100% var(--cut), 100% 100%, var(--cut) 100%);
+  background: radial-gradient(circle at 75% 75%, color-mix(in srgb, var(--emblem-blue) 35%, var(--bg-sunk)), var(--bg-sunk) 70%);
+}
+.battle-emblem-sides-2 .battle-emblem-side > * { position: absolute; width: 96%; height: 96%; }
+.battle-emblem-sides-2 .battle-emblem-side:first-child > * { left: -16%; top: -16%; }
+.battle-emblem-sides-2 .battle-emblem-side:nth-child(2) > * { right: -16%; bottom: -16%; }
+.battle-emblem-sides-2 .battle-emblem-initials { display: grid; place-items: center; }
+.battle-emblem-sides-2::after {
+  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; mix-blend-mode: screen;
+  background: linear-gradient(135deg, transparent 42%, color-mix(in srgb, var(--seam) 45%, transparent) 50%, transparent 58%);
+}
 .battle-emblem-sides-3, .battle-emblem-sides-4 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
-.battle-emblem-sides-3 .battle-emblem-side:nth-child(3) { grid-column: 1 / -1; padding: 3%; }
+.battle-emblem-sides-3 .battle-emblem-side:nth-child(3) { grid-column: 1 / -1; }
 @media (max-width: 520px) {
   .battle-head { gap: .9rem; }
   .battle-emblem-large { --emblem-size: 104px; }
-  .battle-row .battle-emblem { --emblem-size: 88px; }
+  .battle-row .battle-emblem { --emblem-size: 64px; }
 }
 
 .tier {
@@ -571,10 +626,13 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 .side-mini {
   display: flex; flex-direction: column; gap: .05rem; min-width: 0;
-  padding: .45rem .7rem; border-left: 3px solid var(--line); background: var(--bg-sunk); border-radius: 0 4px 4px 0;
+  padding: .45rem .7rem; border-left: 3px solid var(--side-c, var(--line)); border-radius: 0 4px 4px 0;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--side-c, var(--line)) 12%, var(--bg-sunk)), color-mix(in srgb, var(--bg-sunk) 80%, transparent) 60%);
   font-size: .82rem; line-height: 1.5; color: var(--text-dim);
 }
-.side-mini:first-child { border-left-color: var(--gold-dim); }
+/* 各方主色与战徽一致：第一方朱、第二方青，其余灰；只区分阵营，不表示胜负 */
+.side-mini:first-child, .side:first-child { --side-c: var(--zhu); }
+.side-mini:nth-child(2), .side:nth-child(2) { --side-c: var(--emblem-blue); }
 .side-mini-name { font-family: var(--serif); font-weight: 700; font-size: .98rem; color: var(--text); }
 .side-mini-allies { color: var(--text-faint); overflow-wrap: anywhere; }
 .side-mini-cn { color: var(--gold); }
@@ -583,10 +641,9 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .sides { display: grid; gap: .75rem; margin: 0 0 2rem; }
 .side {
   min-width: 0; padding: .8rem 1rem .9rem;
-  border: 1px solid var(--line-soft); border-left: 3px solid var(--line); border-radius: var(--radius);
+  border: 1px solid var(--line-soft); border-left: 3px solid var(--side-c, var(--line)); border-radius: var(--radius);
   background: var(--bg-raised);
 }
-.side:first-child { border-left-color: var(--gold-dim); }
 .side-name { margin: 0; font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; }
 .side-stats { margin: .65rem 0 0; flex-wrap: wrap; }
 .side-stats dd { font-size: 1.3rem; }
@@ -594,15 +651,102 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .side-stats > div:nth-child(2) dd { color: var(--zhu); }
 .side-note { margin: .4rem 0 0; font-size: .88rem; color: var(--text-dim); }
 .side-bar { display: block; height: 4px; margin: .45rem 0 .2rem; background: var(--bg-sunk); border-radius: 2px; overflow: hidden; }
-.side-bar > span { display: block; height: 100%; min-width: 2px; background: var(--zhu); }
+.side-bar > span { display: block; height: 100%; min-width: 2px; background: var(--side-c, var(--text-faint)); }
 .side-facts { display: grid; gap: .45rem; margin: .6rem 0 0; font-size: .88rem; }
 .side-facts > div { display: grid; grid-template-columns: 4.5em 1fr; gap: .6rem; align-items: baseline; }
 .side-facts dt { color: var(--text-faint); }
 .side-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; color: var(--text-dim); }
 .corp-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .1rem .9rem; }
+/* 与标签栏一样按实际溢出折叠；无 JS 时保留完整名单。 */
+.battle-list-wrap { display: flex; align-items: flex-start; gap: .5rem; }
+.battle-list-wrap .tag-more { margin-top: 0; }
+.battle-list {
+  flex: 1; min-width: 0; list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: .4rem .9rem;
+}
+.battle-list > li { display: flex; align-items: center; height: 1.9rem; min-width: 0; max-width: 100%; }
+.battle-list > li > a { overflow-wrap: anywhere; }
+.battle-list .chip { height: 1.9rem; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.battle-list .chip > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.battle-list .chip > small { flex: none; }
+.battle-list-wrap.is-collapsed .battle-list { max-height: 1.9rem; overflow: hidden; }
 .corp-list small { margin-left: .3em; font-family: var(--mono); font-size: .78rem; color: var(--text-faint); }
 @media (max-width: 480px) {
   .side-facts > div { grid-template-columns: 1fr; gap: .1rem; }
+}
+
+/* ---------- 质感层：面板立体、装裱、标题墨色、战役水印与刀口 ---------- */
+.site-header { border-image: linear-gradient(90deg, transparent, var(--gold-dim) 20%, var(--gold-dim) 80%, transparent) 1; }
+.brand-seal {
+  box-shadow: inset 0 0 0 2px var(--zhu), inset 0 0 0 3px rgba(255, 255, 255, .55);
+  transform: rotate(-4deg);
+}
+.brand:hover .brand-seal { transform: rotate(0); }
+.brand-seal { transition: transform .2s; }
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .intro h1, .bio-name {
+    background: var(--title-ink); -webkit-background-clip: text; background-clip: text;
+    color: transparent; -webkit-text-fill-color: transparent;
+  }
+}
+.intro h1::after {
+  content: ""; display: block; width: 7rem; height: 2px; margin-top: .45rem;
+  background: linear-gradient(90deg, var(--zhu) 0 1.6rem, var(--gold-dim) 1.6rem, transparent);
+}
+.card a, .bio-facts, .pager a, .battle-row, .battle-stats-lg, .side {
+  background: var(--surface); box-shadow: var(--panel-shadow);
+}
+.card a, .battle-row { transition: border-color .15s, transform .15s, box-shadow .15s; }
+.card a:hover, .battle-row:hover {
+  box-shadow: var(--panel-shadow), 0 0 0 1px var(--gold-dim), 0 8px 28px -14px color-mix(in srgb, var(--gold) 45%, transparent);
+}
+.battle-stats dd { text-shadow: 0 0 .7em color-mix(in srgb, currentColor var(--num-glow), transparent); }
+/* 装裱：细线、留白、金边一圈 */
+.portrait-lg, .battle-emblem-large {
+  box-shadow: 0 0 0 1px var(--line), 0 0 0 4px var(--bg), 0 0 0 5px var(--gold-dim), 0 16px 32px -16px rgba(0, 0, 0, .7);
+}
+.bio-head .portrait-lg, .battle-head .battle-emblem-large { margin: 5px; }
+
+/* 战役目录行：右侧两方主标虚化成水印，顶边一道档位色 */
+.battle-row { --tier-c: var(--line); isolation: isolate; overflow: hidden; }
+.battle-row-epic { --tier-c: var(--zhu); }
+.battle-row-large { --tier-c: var(--gold); }
+.battle-row::before, .battle-row::after { content: ""; position: absolute; pointer-events: none; }
+.battle-row::before {
+  inset: 0; z-index: -1; border-radius: inherit; opacity: .1;
+  background: var(--wm1, none) no-repeat right 150px center / 200px, var(--wm2, none) no-repeat right -30px center / 200px;
+  filter: blur(1.5px) saturate(.6);
+  -webkit-mask-image: linear-gradient(90deg, transparent 35%, #000 90%); mask-image: linear-gradient(90deg, transparent 35%, #000 90%);
+}
+.battle-row::after {
+  left: 0; right: 0; top: 0; height: 2px;
+  background: linear-gradient(90deg, var(--tier-c), color-mix(in srgb, var(--tier-c) 30%, transparent) 60%, transparent);
+}
+.battle-row-epic { background: radial-gradient(ellipse 60% 90% at 0 0, var(--glow-zhu), transparent 70%), var(--surface); }
+/* 各方损失占比：一条细带，颜色同各方 */
+.loss-bar { display: flex; gap: 2px; height: 3px; margin: .65rem 0 0; border-radius: 2px; overflow: hidden; }
+.loss-bar > span { flex-basis: 0; min-width: 3px; background: var(--text-faint); opacity: .5; }
+.loss-bar > .loss-bar-1 { background: var(--zhu); opacity: 1; }
+.loss-bar > .loss-bar-2 { background: var(--emblem-blue); opacity: 1; }
+.loss-bar + .side-grid { margin-top: .5rem; }
+
+/* 战役页头：两方主标大水印，四周淡出 */
+.battle-head { position: relative; isolation: isolate; }
+.battle-head::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: .12;
+  background: var(--wm1, none) no-repeat 38% 50% / auto 180%, var(--wm2, none) no-repeat 96% 50% / auto 180%;
+  filter: blur(3px) saturate(.6);
+  -webkit-mask-image: radial-gradient(closest-side at 65% 50%, #000 25%, transparent);
+  mask-image: radial-gradient(closest-side at 65% 50%, #000 25%, transparent);
+}
+/* 大数字之间加竖线 */
+.battle-stats-lg > div + div { position: relative; }
+.battle-stats-lg > div + div::before {
+  content: ""; position: absolute; left: -1.1rem; top: 15%; bottom: 15%; width: 1px;
+  background: linear-gradient(180deg, transparent, var(--line), transparent);
+}
+@media (max-width: 520px) {
+  .battle-row::before { background-size: 140px; background-position: right 90px center, right -20px center; }
 }
 
 /* ---------- 搜索页（Pagefind UI 主题） ---------- */

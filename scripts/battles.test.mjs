@@ -250,6 +250,19 @@ test("页面用的联盟、军团从名称表取名字，并标出 EveWho 链接
   assert.equal(manual.sides[1].corps, undefined);
 });
 
+test("战役组织保留全名与游戏内缩写，快照和手填军团都可显示缩写", () => {
+  const named = {
+    alliances: { ...table.alliances, 1: { name: "Alliance Full Name", ticker: "ALLY" } },
+    corporations: { ...table.corporations, 500: { ...table.corporations[500], ticker: "CORP" } },
+  };
+  for (const st of [statsOf(snapData, snap, named, known), statsOf(ok, null, named, known)]) {
+    assert.equal(st.sides[0].alliances[0].ticker, "ALLY");
+    assert.equal(st.sides[0].alliances[0].name, "Alliance Full Name");
+    assert.equal(st.sides[0].corps[0].ticker, "CORP");
+    assert.equal(st.sides[0].corps[0].kind, "corporation");
+  }
+});
+
 test("快照战役不手填数字，顶层 corps 已取消，手填战役不用 window", () => {
   const v = (patch) => validateBattle({ ...snapData, ...patch }, "", 0, known);
   assert.deepEqual(v({}), []);

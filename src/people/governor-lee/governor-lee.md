@@ -25,7 +25,7 @@ Absolute Order，他自己的解释是“肃杀的秩序”；后来为了好记
 ::: 红料 全服第一个五级镇压
 李将军的角色简介第一行挂着 CCP 官推的链接：World First FW level 5 Supression。2023 年 11 月，肃正在 Faction Warfare 里打出全服第一个五级镇压，官方点了名。
 
-他自己的 KB 是 2221 杀、两万亿 ISK。KB 之外，他是肃正常年带队的主力指挥，几年里凡是肃正出门的大仗，频道里喝令的多半是这位将军——不只在帖子里招兵，兵招来了也是他带着出门。简介里还挂着他的 FC 总览设置，名字叫“We Triumphe”；2024 年 2 月，他在 Camal、Sieh、Y-MPWL 三座 Keepstar 的 KM 上都有名字（[1](https://zkillboard.com/kill/115543432/)、[2](https://zkillboard.com/kill/115593836/)、[3](https://zkillboard.com/kill/115743779/)），那个月击杀进账 8900 亿。
+他自己的 KB 是 2221 杀、两万亿 ISK。KB 之外，他是肃正常年带队的主力指挥，几年里凡是肃正出门的大仗，频道里喊话的多半是这位将军——不只在帖子里招兵，兵招来了也是他带着出门。简介里还挂着他的 FC 总览设置，名字叫“We Triumphe”；2024 年 2 月，他在 Camal、Sieh、Y-MPWL 三座 Keepstar 的 KM 上都有名字（[1](https://zkillboard.com/kill/115543432/)、[2](https://zkillboard.com/kill/115593836/)、[3](https://zkillboard.com/kill/115743779/)），那个月击杀进账 8900 亿。
 
 李将军的前线也不只在高安和主权招募帖里。2023 年 5 月 27 日，[老人星 的大型战役](../../battles/old-man-star-2023/)各方损失约 564.53B，他在 Absolute Honor 一方驾驶[夜鹰](https://zkillboard.com/kill/109208202/)参战，被原报分进 FRT、帝国等所在的第二组。头衔把几万名官兵挂在自己名下，这一天却只是一条具体的夜鹰，不是把几万个人的军功全装进个人简介。半年后五级镇压获官方点名，才又有了另一张宣传牌；从早年的十人招募到这些实际集结，肃正的扩张故事里，老板自己也确实开过船。
 

@@ -9,7 +9,7 @@ tags: ["00区", "FRT", "T C F"]
 李宝宝，游戏名 Li BaoBao，头衔“梦魇”，2018 年底建号。2019 年在北极星（PMA）的 Thunder Mercenary Army 待过大半年，同年 10 月转进 FRT 的 Thunders Claw Fleet，一住就是五年多。2025 年 3 月，[帝国新闻社的爆料](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)把他钉在了 AT 冠军船现金交易的买家席上。
 
 ::: 红料 无畏舰上的梦魇
-[zKillboard](https://zkillboard.com/character/2114801659/) 上参与击杀 124 次、约 690B，八成多开的是神示无畏舰。参与击杀 ISK 最高的月份是 2023 年 8 月，约 569B，他的神示 KM 几乎全落在 4-ABS8 一个星系。损失只有 13 条、约 41B。
+[zKillboard](https://zkillboard.com/character/2114801659/) 上参与击杀 124 次、约 690B，八成多开的是神示无畏舰。参与击杀 ISK 最高的月份是 2023 年 8 月，约 569B，他的神示 KM 几乎全落在[4-ABS8无畏会战](../../battles/4-abs8-2023/)一个星系。损失只有 13 条、约 41B。
 
 单杀为零，头衔叫“梦魇”。他是 FRT 旗舰舰队里坐在炮台后面的那种人，平时不上头条。2025 年那次上头条，靠的不是炮台。
 :::
