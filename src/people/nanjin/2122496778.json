@@ -2,10 +2,10 @@
   "id": 2122496778,
   "name": "NanJin",
   "birthday": "2024-06-30T12:24:35Z",
-  "corporation_id": 98190062,
+  "corporation_id": 98817310,
   "affiliation": {
-    "corporation_id": 98190062,
-    "alliance_id": 1354830081,
+    "corporation_id": 98817310,
+    "alliance_id": 99009163,
     "left_at": null
   },
   "history": [
@@ -47,8 +47,18 @@
     {
       "corporation_id": 98190062,
       "start": "2024-12-13T14:20:00Z",
+      "end": "2026-10-19T13:04:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2026-10-19T13:04:00Z",
+      "end": "2026-10-19T13:05:00Z"
+    },
+    {
+      "corporation_id": 98817310,
+      "start": "2026-10-19T13:05:00Z",
       "end": null
     }
   ],
-  "fetched_at": "2026-10-11"
+  "fetched_at": "2026-10-20"
 }

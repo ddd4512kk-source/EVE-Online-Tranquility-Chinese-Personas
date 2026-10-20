@@ -1,6 +1,6 @@
 # 暗枪素材
 
-角色NanJin／2122496778，2026-10-12公开头衔“暗枪”，当前PLA／98190062、Goonswarm Federation／1354830081。头衔后附平台账号编号，不归档。简介三句：Go and start. / Go and experience. / Go and fail or succeed. 本人自我展示，不延伸失败动机、队伍职责或真实战术。
+角色NanJin／2122496778，2026-10-12公开头衔“暗枪”，当时属PLA／98190062、Goonswarm Federation／1354830081；2026-10-19转入Dusk dreadnought.，当前归属见下节ESI核实。头衔后附平台账号编号，不归档。简介三句：Go and start. / Go and experience. / Go and fail or succeed. 本人自我展示，不延伸失败动机或真实战术。
 
 KB：shipsDestroyed1893，iskDestroyed3764096045746；shipsLost170。个人累计不独算集体战果。战报有2条本号记录，代表普通Monitor损失KM135011562，2026-04-25 17:39:24 UTC，system30000240／4-HWWF，战时corp98190062、alliance1354830081。另一条记录未据此展开新故事。
 
@@ -24,3 +24,15 @@ KB：shipsDestroyed1893，iskDestroyed3764096045746；shipsLost170。个人累�
 - [埃加奥两军对垒，无畏轮流付账](../../battles/akkio-2026/akkio-2026.md)：帝国、INIT与深水；命中本人角色 2122496778。全场854.653B。
 - 来源：https://br.evetools.org/battle/7724；逐号舰船、KM与分方口径见[战役素材](../../battles/akkio-2026/materials-akkio-2026.md)。本人损失：[136438870](https://zkillboard.com/kill/136438870/)（0.236B）。
 - 本次已归档并建立战役页自动关联；未把本条参战记录单独扩写为列传料块。已有指挥、主线与综合KB保持原文，后续结合本场独立情节增补。
+
+
+## hb-1nj-efm-c4-2025：战役参战关联
+
+- [HB-1NJ与EFM-C4，蜜蜂立堡，PH退场](../../battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md)：帝国及友军。以本场去重快照对照收录号及已确认小号自动匹配；全场各方总损失约469.573B，不作个人独立战果。具体窗口、分方与代表KM见该战役素材。
+
+## 2026-10-19转入Dusk dreadnought.
+
+- **ESI核实**：[角色当前资料](https://esi.evetech.net/latest/characters/2122496778/?datasource=tranquility)显示当前军团Dusk dreadnought.（ID 98817310）、联盟Dracarys.（ID 99009163）；[军团历史](https://esi.evetech.net/latest/characters/2122496778/corporationhistory/?datasource=tranquility)记载其于2026-10-19 13:04 UTC离开Peoples Liberation Army（ID 98190062），13:05 UTC加入Dusk dreadnought.。已刷新角色快照与当前军团／联盟标签。ESI只证明暗枪本人的换团，不证明同行人数。
+- **Q群原话（可确认）**：荣耀曾说“蜜蜂中文社区领导人是暗枪，不是极端荣耀，有事骂暗枪”，并说“暗枪不再担任龙舰队的指挥。还有要走的吗？麻烦快点滚”。完整原话保存在此，正文主要转述，只保留送客句的短引语；发言日期、群内前后文与逐句时间顺序待补。角色关系按对话称谓记录，不据此扩写正式职务或更具体的管理职责。
+- **随行人数（社群转场消息）**：暗枪带二十多人一同离开、前往DC的Dusk。本人转团及去向已由ESI核实；二十多人为社群消息中的概数，未取得逐人名单，ESI单号历史不作人数佐证。正文按这一消息写作二十来人，不虚构同行者姓名或另加战果。
+- **本次文风修订**：转场按人物冲突展开，围绕老板撤职、指挥与团员的日常关系、队伍离开的反差发挥；不添加具体争执起因、正式处分文件或赴Dusk后的实际行动。荣耀篇不重复扩写这段。

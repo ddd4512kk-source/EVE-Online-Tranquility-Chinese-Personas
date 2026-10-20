@@ -13,7 +13,7 @@
 | Boo Me及已识别外语候选 | 从华人FC调查队列排除，真实战报记录保留 | [排除表](capital-battle-unmapped.md) |
 | 月榜取得 | 首次403仅为旧方式失败。PLA、BOP、宽带山、Dusk九月角色榜及Monitor榜已取；前50军团九月榜后续50家也已取，不再写成“月榜尚未取得” | [四团月榜](dc-goons-monthly-top-2026-10-12.md)；[50团覆盖](corp-top-characters-2026-10-12.md) |
 | 赤翼、TC | 已按月榜Monitor记录立短传，具体故事和小号缺口归本人；不再当未收录候选 | [月榜处理](dc-goons-monthly-top-2026-10-12.md) |
-| 少年／Target Chaser、Coke Chen | 2026-10-13已立短传，代表Monitor KM完整列表复核；Coke的2019卖号广告被关帖已入文。旧FC故事和小号缺口移归本人 | [少年素材](../../src/people/target-chaser/materials-target-chaser.md)；[Coke素材](../../src/people/coke-chen/materials-coke-chen.md) |
+| 工程项目／Target Chaser、Coke Chen | Target Chaser 原“少年”短传已并回工程项目，H-PA29 指挥材料与小号身份归本人；Coke的2019卖号广告被关帖已入文。旧FC故事继续补 | [工程项目素材](../../src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md)；[Coke素材](../../src/people/coke-chen/materials-coke-chen.md) |
 | 随风／Baba s Gandurasa | 中文头衔与同军团已核，归本人小号；H-PA29、Taff、8TPX-N代表KM已补正文，原17条索引不当完整重读 | [随风素材](../../src/people/gone-with-windy/materials-gone-with-windy.md) |
 | 燃烧的韭菜／Burningleek | 与LightCarrot对应及参战已核，当前退回线索待具体人物故事，不标“已收录” | [单人线索](burningleek.md) |
 

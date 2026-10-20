@@ -2,11 +2,12 @@
 
 ## 来源
 - 战报：https://br.evetools.org/related/30001446/202108111400 （页面由 JS 渲染，数据取自站点 JSON 接口 `/newapi/br/related/<系统>/<时间>`，566 条击杀；KM 时间 13:41–15:57 UTC，主战 14:14–14:50）。
-- 视频：https://www.bilibili.com/video/BV1XQ4y12754/ ，UP 为 siti xiya1（角色 2115841336，YeLuo-XingHai，开冥府，伤害排名第三）。视频标题数字 386b：510b，与下方自算 A 387.2B / B 540.5B 基本吻合。
+- 视频：https://www.bilibili.com/video/BV1XQ4y12754/ ，UP 为 siti xiya1（角色 2115841336，YeLuo-XingHai，开冥府，伤害排名第三）。视频标题数字 386b：510b，与下方自算 A 387.7B / B 539.8B 基本吻合。
 
 ## 阵营划分（自算）
+- 本场只有 FRT 与 Snuff 两方；未单列的散人、小团均归 Snuff。战报快照原自动推断留下45人、47条损失记录为“第三方”，已把对应组织显式并入 Snuff 方的归属列表。页面现在只有两方，不另列第三方。
 - A（FRT 及友军）：Fraternity.、Caladrius Alliance、Fraternity University、Literally Triggered、Blades of Grass、NullSechnaya Sholupen、Lord of Worlds Alliance、VENI VIDI VICI.（含 Chaos arbiter），另无盟军团 AKINA mountain family、Sylvanas Argeir Military Academy。其余皆归 B。
-- A：762 人、损失 387.3B、142 条；B：462 人、损失 540.2B、424 条；合计 1224 人、927.5B（按角色去重，含胶囊，全部自算）。视频标题 386b：510b 略有出入。
+- A：784 人、损失 387.7B、149 条；B：437 人、损失 539.8B、417 条；合计 1221 人、927.5B（按角色去重，含胶囊，全部自算）。视频标题 386b：510b 略有出入。
 - B 主要联盟：Snuffed Out、The Initiative.、WE FORM V0LTA、Nisuwa Cartel。
 - Literally Triggered、Lord of Worlds Alliance 在 ESI 查不到全名匹配，未写入 front matter 的 alliances。
 

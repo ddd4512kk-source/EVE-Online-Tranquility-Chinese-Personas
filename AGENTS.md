@@ -8,7 +8,7 @@
 2. **每次改动后 `npm run build` 必须成功**，否则不算完成。
 3. 添加或修订列传用 `add-person`；添加或修订战役页用 `add-battle`；批量找人、战役／贴吧查漏用 `research-community`。Codex 读 `.agents/skills/<技能>/SKILL.md`，Claude Code 读 `.claude/skills/<技能>/SKILL.md`；对应副本必须逐字相同。
 4. **不提交、不推送，也不问要不要提交。** 改完留在工作区，维护者攒够一批后自己 commit、push。
-5. 内容必须有出处，不编事件、对话、时间或战果；不收现实隐私、歧视内容和未成年人。写作须显著发挥，具体边界与验收按第 2 节入口读取。
+5. 内容必须有出处，不编事件、时间、战果，不把想象的话当本人原话；不收现实隐私、歧视内容和未成年人。写作须显著发挥，口吻不保守，改写只能变长；动笔前先读写作验收里的标杆范文，具体边界与验收按第 2 节入口读取。
 
 ## 1. 这是什么
 
@@ -70,12 +70,15 @@ src/_data/entityNames.json  全站共用的军团、联盟名称与 ticker（按
 src/_includes/              布局与组件
 src/assets/css/site.css     全站样式
 src/assets/js/              首页筛选、战役排序筛选、术语弹窗
+src/assets/fonts/serif/     衬线字体切片（Noto Serif SC，OFL；fonts.css 引用）
+src/sw.js                   Service Worker：头像、战徽、字体存读者本地（构建时放到站点根目录）
 scripts/fetch-characters.mjs 校验 + 抓数据
 scripts/character-snapshot.mjs 角色快照存盘格式与展开
 scripts/battles.mjs         战役分档、分方统计与校验（check-battles.mjs 调用）
 scripts/battle-report.mjs   br.evetools／killmail.app 战报快照
 scripts/find-character.mjs  查 ID
 scripts/glossary.mjs        术语蓝字
+scripts/make-fonts.mjs      重新生成衬线字体切片（一次性，不接入构建）
 scripts/research/           取材工具（不接入构建）
 eleventy.config.js          集合、红黑评块、过滤器
 docs/                       模板、术语表、找料方法、素材索引、备忘录、线索

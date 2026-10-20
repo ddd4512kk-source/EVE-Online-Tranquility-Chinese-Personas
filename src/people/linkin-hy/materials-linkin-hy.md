@@ -61,4 +61,4 @@ Gary CHGS（90459120）与 HY 是同一人，材料合并，收录角色仍为 L
 
 ### 2026-10-14 同人角色补录
 
-SS Model（1539487412）也是HY的角色，与LINKIN HY（985265753）、Gary CHGS（90459120）归同一人；精确角色名已通过查找工具解析，[EveWho角色入口](https://evewho.com/character/1539487412)。SS Model加入aliases，收录号仍为LINKIN HY，不另建列传。该号的KB、军团历史与战役尚未读取，后续有战役线索时纳入同人反查，不把其他号的累计统计移到此号或直接相加。
+SS Model（1539487412）也是HY的角色，与LINKIN HY（985265753）、Gary CHGS（90459120）归同一人；精确角色名已通过查找工具解析，[EveWho角色入口](https://evewho.com/character/1539487412)。两号 ID 已登记为列传 `alts`，收录号仍为 LINKIN HY，不另建列传。X47L-Q 2023-04-07 战役快照中，SS Model 出现在 4 张 KM；这是目前本地战役快照里检出的 HY 参战记录。该号其余 KB 与军团历史尚未读取，各号统计不直接相加。

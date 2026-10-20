@@ -13,8 +13,10 @@
 | 四场新战报余下3个华人指挥号 | Akkio与8F-TK3完整KM中的Monitor角色 | 已有指挥依据，待名字、头衔和既有FC小号对照 | [逐号续查](leads/br-four-battles-commanders-2026-10-20.md) |
 | 半岛铁盒／半导铁盒 | man in rainy／2122601948；B站半导你铁盒是也UID488303483 | 角色与UP已对应；两项飞行地板作品文字主要为熟人接梗，独立故事／职责及频道双排序待补 | [本人线索](leads/man-in-rainy.md) |
 | 巴鲁／宝宝巴士管理 | balumonk／2122309965及同团Balu-系列为候选；社交媒体称其为BYB管理 | 核中文头衔与实际职责；巴鲁发出的6.A.3永封图没有角色名，不直接认作本人被封 | [巴鲁线索](leads/balu.md) |
-| 海星／龙渊合作争议 | 海星平时借朋友账号玩、无自有账号；龙渊／longyuan1；另涉及男大提供远控的说法 | 社区身份与游戏内对应待核，借用号不当本人小号；均非resoap／rewrite JOE，不凭外号并入BOP同名候选。海星筹划租服务器挂脚本卖金、合作不顺后自称被骗的主线已归档，对上可收录角色后立传 | [海星线索](leads/haixing.md)、[共同事件](sources/haixing-longyuan-cooperation-dispute.md) |
+| 龙渊／longyuan1与男大 | 龙渊为海星脚本合作争议另一方；男大被指负责技术／远控 | 两人游戏角色及具体参与情况待核，不凭外号并入BOP同名“龙渊”双号；海星已对应WXSS及WXSS2—WXSS8并立传 | [共同事件](sources/haixing-longyuan-cooperation-dispute.md)、[海星素材](../src/people/haixing/materials-haixing.md) |
 | 芙水之乱撤回的三人 | 铭／Mikoyan Anzomi（2113483168）、切茜／Chersea（2118635264）、小唐／Esther Annabelle（2123454246） | 前两人仅常规禁言操作，小唐仅两句内战起哄；待独立故事或实际管理／FC依据。切茜另有“小狼”人事招新职务线索，先核同人 | [铭](leads/mikoyan-anzomi.md)、[切茜](leads/chersea.md)、[小唐](leads/esther-annabelle.md) |
+| 老实／Fargone McStra撤回 | 91787471，N-V-U／FRT | 只有简介燃烧配装链接与操作便签、两场普通参战；待具体社区事件、职务或FC依据 | [老实线索](leads/fargone-mcstra.md) |
+| 团长别开枪／WarHawk-WH撤回 | 2114953484 | 仅入服第九天被疑间谍踢团一帖，事件已归二甩；待本人独立故事 | [团长别开枪线索](leads/warhawk-wh.md) |
 | 伏羲精简撤出的四人 | Illusion Raven／2114202706；朔方／2114818600；归梦／2113282069；Shery Young／2113251721 | 伏羲收录人数过多而撤出；原列传与素材已存线索。出现本人独立大事再重新立传 | [Illusion Raven](leads/illusion-raven.md)、[朔方](leads/lancetlot-outamon.md)、[归梦](leads/ster-sing.md)、[Shery Young](leads/shery-young.md) |
 | INIT“4-H檄文”作者及华人FC提及 | 却念九心海棠UID4061397453转贴；azraelsai UID75369374提及未点名CN联盟FC | 炒鸡回应已入文；原作者只称帝新社非WC玩家，不能认转贴者或回复者本人为INIT指挥 | [事件线索](leads/init-cn-mobilization-unattributed-2026.md) |
 | 新人一周被踢及SARD招新回复 | 极大地之怒UID6473940883；wqfjg008 UID690740500 | 帖主原团仅称INIT、未公开团名，不能套已有人物；SARD奖励合同已补嗜血，两账号角色继续待桥接 | [事件线索](leads/newbie-activity-expulsion-2026.md) |
@@ -82,7 +84,7 @@
 | 疯狂小鲨鱼角色组 | Crazy little sharks／2113451843、Crazy Sharks／2113480038 | 同编号同当前Navigators Union已归组；实际职责／独立故事待补 | [同人线索](leads/crazy-little-sharks.md) |
 | 宇宙角色组 | JL-Yuzhou／2124283314、TaihangHistory／2124279433、TaihangYuzhou／2124277346 | 同编号同当前Navigators Union已归组；实际职责／独立故事待补 | [同人线索](leads/yuzhou-11037.md) |
 | 龙夏存角色组 | longxiacun／2117618891、Na2SiO3／2119780455 | 同编号同当前Navigators Union已归组；实际职责／独立故事待补 | [同人线索](leads/longxiacun.md) |
-| Navigators Union历史前50 | 疯狂小鲨鱼、梦中祈愿、秃酋、落月之夜、力丸、宇宙、决明、冬玥喵等见表 | 前50完整名片已读；老实成文、加利西亚补小号、房子小双号归档，其他职责／独立故事待补 | [唯一队列](leads/corp-top-characters-2026-10-12.md#navigators-union第24至45名与老实成文2026-10-17) |
+| Navigators Union历史前50 | 疯狂小鲨鱼、梦中祈愿、秃酋、落月之夜、力丸、宇宙、决明、冬玥喵等见表 | 前50完整名片已读；老实撤回线索、加利西亚补小号、房子小双号归档，其他职责／独立故事待补 | [唯一队列](leads/corp-top-characters-2026-10-12.md#navigators-union第24至45名与老实成文2026-10-17) |
 | 创世学院历史榜前50 | 白给大师、碎裂的光芒、明哥、理想、Raziel Maken、元吉 | 前50完整名片已读；白给大师四号等七组同人归档，具体职责／故事继续补；Navigators Union已收尾，续AOCAL21—30 | [唯一队列](leads/corp-top-characters-2026-10-12.md#创世学院第39至50名及navigators-union前23名2026-10-17) |
 | GECL历史榜前50 | 银光、亡术、狗汁、许杰、帝国、再战、贝塔、泡面、小马宝莉、小叮当、岁月、723、云婶等见表 | 前50完整名片已读；建军、黑莲、黄鳝沿原传，daoyan yin成文，岁月／亡术／帝国双号归组；其他实际职责／独立事件待补 | [唯一队列](leads/corp-top-characters-2026-10-12.md#gecl第26至50名与创世学院前六名2026-10-16) |
 | 银光／Aurora Rinzler | 2114098387 | GECL历史第1名，现Arknights.／FRT；对上建军打窝奖对象，具体事件／职责待补；GECL前50已读，创世学院前50已读、Navigators Union前23已读 | [人物线索](leads/aurora-rinzler.md) |
@@ -101,7 +103,7 @@
 | 采星者历史榜前50续查 | 冰封／娜娜奇各双号，戴恩同人组及燃料岗位；鱼鱼教官、萌凯回收等见表 | 前50已读49份名片，第33名ESI404缺头衔／简介；BOOOOM BOM归炒鸡并补故事，江天晓新号归旧线索；具体事务／教学与独立事件待补 | [唯一ledger](leads/corp-top-characters-2026-10-12.md#采星者前50头衔增量2026-10-14) |
 | 帝皇之镰历史榜前50续查 | 兵器／朴晓／狂天／老八各双号；小特友军击杀；其他中文头衔见表 | 前50头衔／简介文字已读，Hoshino Y归星烨、Ajin Shizhu归阿进；共享金色镰刀不并人，小特事由／后果与其他实际职责／事件待补 | [唯一ledger](leads/corp-top-characters-2026-10-12.md#帝皇之镰前50头衔增量2026-10-14) |
 | 宽带山历史榜前50续查 | 晨风三号、小步点／友爱／勿忘我双号；洪大、凉风回收条款与原公开账号组 | 前50头衔／简介文字已读；悠久欠船点名不足立传，退回线索；服务履约、实际岗位与独立事件待补，不从收购广告认管理 | [唯一ledger](leads/corp-top-characters-2026-10-12.md#宽带山前50头衔增量2026-10-14) |
-| PLA历史榜前十续查 | Hito、太空.、骄阳、没人要、帝国隐秘部队、阿咪、Davy | 八号已读，Potential Impact归七喜并补渡神围猎；其余七人事件／职责待查 | [唯一队列](leads/corp-top-characters-2026-10-12.md#pla前十续查2026-10-14) |
+| PLA历史榜前十续查 | Hito、太空.、骄阳、没人要、帝国隐秘部队、阿咪、Davy | 八号已读，Potential Impact归七喜并补渡神围猎；阿咪已立传移出；其余六人事件／职责待查 | [唯一队列](leads/corp-top-characters-2026-10-12.md#pla前十续查2026-10-14) |
 | 特执历史榜前十续查 | 亚棍、帕帕、老张、游乐园、沛川、paper clipcc | 七号头衔简介已读，别杀朕已立传移出；其他六人具体故事／职务待查 | [唯一队列](leads/corp-top-characters-2026-10-12.md#特执前十续查2026-10-14) |
 | 昆仑历史榜前十续查 | 耳田asdaoid、08.、啊升、石燕、凌云. | 八号已读；非物、兔兔留FC短篇，xiang sss归幻象，虚实已立传；其余具体故事／实际事务待查 | [唯一队列](leads/corp-top-characters-2026-10-12.md#昆仑前十续查2026-10-14) |
 | 创世历史榜前十续查 | 麦兜、一曲、沐色、迈克斯、豆腐、别样、24K Cake | 九号已读，旧人揪心按自称FC留短传、出其东门按独立讥刺来源入文；其他故事／实际职责待查 | [唯一队列](leads/corp-top-characters-2026-10-12.md#创世前十续查2026-10-14) |

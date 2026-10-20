@@ -2,7 +2,7 @@
 
 标题依据Wilhelm亲自随队的帝国方回忆拟定，救堡与继续打帕拉丁均按其说法。完整BR保存窗2022-12-03 17:00—12-04 00:00，2815张KM，413155605975ISK；end省略，因为窗口终点为次日00:00而非证实次日仍打。原报两组，按[共享记录](../../../docs/sources/community-br-review-2026-10-12.md)保留。
 
-原报第一组PH／FRT／PL，第二组Goons／INIT／DC／Snuff，侧名加入守堡的B0SS背景，不臆填其缺失联盟英文名。名单复用本人素材；新增合并已归档的随风Baba、木木三mumusan Chen，少年本场已有指挥材料也照收。慕容主小号同侧去重；军团名来自KM或历史区间，未统计人数。ACR的99004901明确为Snuff，旧素材误写PL同步修正。
+原报第一组PH／FRT／PL，第二组Goons／INIT／DC／Snuff，侧名加入守堡的B0SS背景，不臆填其缺失联盟英文名。名单复用本人素材；新增合并已归档的随风Baba、木木三mumusan Chen，工程项目的小号 Target Chaser 本场已有指挥材料也照收。慕容主小号同侧去重；军团名来自KM或历史区间，未统计人数。ACR的99004901明确为Snuff，旧素材误写PL同步修正。
 
 ## 来源与口径
 
@@ -41,7 +41,7 @@
 | 七喜／93926714 | 93926714 | Goonswarm Federation | Peoples Liberation Army | [105128074](https://zkillboard.com/kill/105128074/) |
 | 夜色／2113975199 | 2113975199 | Goonswarm Federation | New Boreas | [105132554](https://zkillboard.com/kill/105132554/) |
 | 黑暗闪耀／1869573834 | 1869573834 | The Initiative. | Void of Eden. | [105128011](https://zkillboard.com/kill/105128011/) |
-| 少年／95601799 | 95601799 | Dracarys. | Emperor Scythes | [105128316](https://zkillboard.com/kill/105128316/) |
+| 工程项目／208043276（小号 Target Chaser） | 95601799 | Dracarys. | Emperor Scythes | [105128316](https://zkillboard.com/kill/105128316/) |
 
 ## 分方人数与损失复核（2026-10-19）
 

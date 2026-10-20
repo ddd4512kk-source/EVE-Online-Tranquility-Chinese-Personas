@@ -1,5 +1,13 @@
 # 人物素材索引
 
+[HED-GP代驾事故](sources/hed-gp-incident-2023.md)不收作战役：少数旗舰遭人数悬殊的围猎，314.44B不能单独作为战役资格。原始核查保留，“走私”标题与代驾赔偿争论留在工程项目列传。
+
+新增战役：[马瑟拉旗舰混战](../src/battles/maseera-2026/materials-maseera-2026.md)504.49B，完整复盘与58条评论、华人军团出场记录归场。艾萨凯资料仍见[素材归档](sources/asakai-2013.md)：同期官方统计与组织级盘古记录已留存，但没有可确认的华人角色参战记录，暂缓发布战役页；Alasker的旧KM不归给大林。GOP-GE的DECOY退盟前史与待核组织沿[唯一候选队列](sources/community-br-discovery-2026-10-11.md#战役页续查队列2026-10-19)续查。
+
+新增战役：[乌特拉拆堡](../src/battles/otela-2024/materials-otela-2024.md)307.10B、[希瑟伊德二月无畏战](../src/battles/siseide-2025-02/materials-siseide-2025-02.md)477.43B。战歌的乌特拉带队经历已入文；K-L690身份与阵营缺口沿原候选队列继续。
+
+新增战役：[4-ABS8](../src/battles/4-abs8-2023/materials-4-abs8-2023.md)5.000T、[托蒂弗伦](../src/battles/todifrauan-2025/materials-todifrauan-2025.md)475.56B、[SR-KBB](../src/battles/sr-kbb-2026/materials-sr-kbb-2026.md)129.77B、[YMJG-4](../src/battles/ymjg-2024/materials-ymjg-2024.md)501.17B、[HB-1NJ／EFM-C4](../src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md)469.57B、[RJBC-I](../src/battles/rjbc-i-2025/materials-rjbc-i-2025.md)231.86B。各场社区复盘、快照、分方、已收录人物与未核身份归本场素材；灭绝、瓜瓜、PeriodicTpr的指挥经历补入列传，慕容已对应小号补入自动映射。未读视频、音频或字幕，简介未取得的B站线索仍作候选。
+
 艾格玛尔两场分别归[2025年2月2日素材](../src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md)与[2月23日素材](../src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md)，个人经历已归本人列传及素材；反查新增[萨格](../src/people/pallas3/materials-pallas3.md)、[超绝](../src/people/eternityblue/materials-eternityblue.md)、[PeriodicTpr](../src/people/periodictpr/materials-periodictpr.md)，同人及指挥依据见各人材料。
 
 新增四场完整快照战役：[阿巴宗](../src/battles/ahbazon-2026/materials-ahbazon-2026.md)642.63B、[伊格诺伊顿](../src/battles/ignoitton-2026/materials-ignoitton-2026.md)1.017T、[埃加奥](../src/battles/akkio-2026/materials-akkio-2026.md)854.65B、[8F-TK3](../src/battles/8f-tk3-2026/materials-8f-tk3-2026.md)1.814T；64条已收录人物参战关联已入战役页并补本人素材，个人列传正文未逐人增写。8F-TK3另归Wings外交复盘与Rexan当楼反驳；未归属的华人指挥号留[同人续查](leads/br-four-battles-commanders-2026-10-20.md)。
@@ -16,13 +24,13 @@ DOUCHU000号的R-A撤离与制作署名、小珈的救援／跟队经历与5项�
 
 **查阅入口**：[取材方法](research-method.md) · [角色核对备忘录](pending-characters.md) · [B站UP检索名单](bilibili-uploaders.md) · [术语表](glossary.md) · [列传模板](person-template.md)。
 
-到手刀（resoap PLA）及resoap、rewrite JOE、resoap Q6J、rewrtie soap、island rinne已合并，利用LP不可自行收回、已接快递合同不能单方面撤销来压价逼让步的交易争议及团长接诉说法归[本人素材](../src/people/resoap/materials-resoap.md)。另有独立新人物[海星](leads/haixing.md)，与龙渊的[合作争议](sources/haixing-longyuan-cooperation-dispute.md)已存双方说法，待认游戏角色；两人均非resoap。
+到手刀（resoap PLA）及resoap、rewrite JOE、resoap Q6J、rewrtie soap、island rinne已合并，利用LP不可自行收回、已接快递合同不能单方面撤销来压价逼让步的交易争议及团长接诉说法归[本人素材](../src/people/resoap/materials-resoap.md)。[海星](../src/people/haixing/haixing.md)已以WXSS5收录，WXSS、WXSS2—WXSS8共8号归为同人；明确RMT情节、帮龙哥代售游戏币的打算及被踢出DC归[本人素材](../src/people/haixing/materials-haixing.md)，与龙渊的[合作争议](sources/haixing-longyuan-cooperation-dispute.md)已存双方说法。龙渊角色仍待核，两人均非resoap。
 
 B站账号查[B站UP检索名单](bilibili-uploaders.md)；作品、公开文字、阅读覆盖及具体待核问题归本人素材，未收录人物归各自线索。取材与精选方法见[取材手册](research-method.md#4-b-站与贴吧同等重要)，不另维护全员总表。
 
-社区 BR [旧年与 PH 末期续查](sources/community-br-review-2026-10-12.md)：H-PA29 413.16B、Ostingele 409.38B、R-AG7W 整日窗口 1.197T，补 38 篇、41 条人物经历；未央仅舱损失留素材。EFM-C4／HB-1NJ 两场合计约468.71B，分场人物与合并口径续查见[战役候选队列](sources/community-br-discovery-2026-10-11.md#战役页续查队列2026-10-19)。新查 Monitor 与现有[DC／PLA 候选](leads/dc-br-monthly-discovery-2026-10-12.md)相互对照，慕容小号 Garveen 已对应。
+社区 BR [旧年与 PH 末期续查](sources/community-br-review-2026-10-12.md)：H-PA29 413.16B、Ostingele 409.38B、R-AG7W 整日窗口 1.197T，补 38 篇、41 条人物经历；未央仅舱损失留素材。[HB-1NJ／EFM-C4](../src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md)已合编为一场战役，四源去重总损失约469.57B，人物跨星系只计一次。新查 Monitor 与现有[DC／PLA 候选](leads/dc-br-monthly-discovery-2026-10-12.md)相互对照，慕容小号 Garveen 已对应。
 
-DC involved BR 与军团 monthly top kill 的[候选调查](leads/dc-br-monthly-discovery-2026-10-12.md)：22 份缓存报表中 10 份命中 DC，保留 618 个角色；新发现少年、Coke Chen 及 PLA 凯撒；Boo Me 非华人已排除。旧程序抓取曾返回403；后续四团角色/Monitor榜与50团九月榜已取得，个体故事仍未全部核读；标准 `/top/` 与指定月份路径已由官方源码核对有效，不能称月榜功能受限，未用活跃榜或历史总榜代替。
+DC involved BR 与军团 monthly top kill 的[候选调查](leads/dc-br-monthly-discovery-2026-10-12.md)：22 份缓存报表中 10 份命中 DC，保留 618 个角色；新发现 Target Chaser（原称少年，已归工程项目）、Coke Chen 及 PLA 凯撒；Boo Me 非华人已排除。旧程序抓取曾返回403；后续四团角色/Monitor榜与50团九月榜已取得，个体故事仍未全部核读；标准 `/top/` 与指定月份路径已由官方源码核对有效，不能称月榜功能受限，未用活跃榜或历史总榜代替。
 
 凯撒（Reinhard Merlin）已立短传，求团自述、监视者参与指挥与招募帖分享已入文；未读视频与教学帖全文留[本人素材](../src/people/reinhard-merlin/materials-reinhard-merlin.md)。
 
@@ -68,7 +76,7 @@ Family Guy创建者／CEO Cyan nomi已补核职务与建团日期，已以游戏
 
 400B–不足 1T 的战役补漏见[大型战役材料](sources/large-battles-2026-10-11.md)；[4 月 25 日北方战报](sources/northern-battles-2026-04-25.md)已核各方总损失 969.12B，完成主战场 53 位人物的正文与本人素材增补，另八位只在其他星系命中，未写作主战参战。[Reddit／官方论坛发现清单](sources/community-br-discovery-2026-10-11.md)保留新候选与入口失败，尚未核值的战役不计作已完成。 后续[完整 BR 核对](sources/community-br-verified-2026-10-11.md)已完成 12 份，Old Man Star、Arzad、Sosala 共 17 位人物正文与素材已增补；低于门槛、多日累计及以拆建筑为主的报表另记。
 
-战役板块现有 27 篇；分方人数、金额与损失计数已纳入模板和校验；24篇已逐方填齐三项（X47L-Q 已据 EVE Ref 全量 KM 与 zKill 估值重算），B-R5RB尚缺分方人数，UALX-3已补09:30阶段分方金额与舰船数旁注，仍缺全程人数和完整损失记录数；实际读取覆盖与续查依据留各场素材。素材按场归档：[B-R5RB血战](../src/battles/b-r5rb-2014/materials-b-r5rb-2014.md)、[UALX-3旗舰战](../src/battles/ualx-3-2018/materials-ualx-3-2018.md)、[X47L-Q装甲战](../src/battles/x47l-q-2018/materials-x47l-q-2018.md)、[X47 烧掉一万亿](../src/battles/x47l-q-2023/materials-x47l-q-2023.md)、[FWST一号星城](../src/battles/fwst-8-first-2020/materials-fwst-8-first-2020.md)、[Fury at FWST-8](../src/battles/fwst-8-2020/materials-fwst-8-2020.md)、[Operation Enho](../src/battles/yz9-f6-2020/materials-yz9-f6-2020.md)、[M2-XFE 首战](../src/battles/m2-xfe-2020/materials-m2-xfe-2020.md)、[M2-XFE突围](../src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md)、[A1-AUH三方混战](../src/battles/a1-auh-2021/materials-a1-auh-2021.md)、[H-PA29铁壁战](../src/battles/h-pa29-2022/materials-h-pa29-2022.md)、[Old Man Star告别战](../src/battles/old-man-star-2023/materials-old-man-star-2023.md)、[Ostingele二月无畏战](../src/battles/ostingele-2024/materials-ostingele-2024.md)、[1N-FJ8黑色星期五](../src/battles/1n-fj8-2024/materials-1n-fj8-2024.md)、[Lantorn无畏战](../src/battles/lantorn-2025/materials-lantorn-2025.md)、[Siseide六月旗舰战](../src/battles/siseide-2025/materials-siseide-2025.md)、[Arzad Waifu War](../src/battles/arzad-2025/materials-arzad-2025.md)、[Sosala Waifu War](../src/battles/sosala-2025/materials-sosala-2025.md)、[Y-MPWL 星城战](../src/battles/y-mpwl-2025/materials-y-mpwl-2025.md)、[Evati无畏战](../src/battles/evati-2025/materials-evati-2025.md)、[R-AG7W包围战](../src/battles/r-ag7w-2025/materials-r-ag7w-2025.md)、[塔夫春晚](../src/battles/taff-2026/materials-taff-2026.md)、[MC6O-F旗舰战](../src/battles/mc6o-f-2026/materials-mc6o-f-2026.md)、[Atioth星城战](../src/battles/atioth-2026/materials-atioth-2026.md)、[4-HWWF四月攻防](../src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md)、[欧贝大战](../src/battles/obe-2026/materials-obe-2026.md)、[欧塔萨塞神示战](../src/battles/otsasai-2021/materials-otsasai-2021.md)。同星系前后轮次与同日晚间另场均分开；北方四月页只取两处主战754.73B，未将31星系969.12B整窗套给主战。未完候选与已排除窗口沿[发现清单](sources/community-br-discovery-2026-10-11.md)续查。
+战役板块分方人数、金额与损失计数已纳入模板和校验（X47L-Q 已据 EVE Ref 全量 KM 与 zKill 估值重算）；B-R5RB已用EVE Ref公开KM补4313／1917人的可核下限，损失计数沿CCP图表；UALX-3已补03—11时公开KM人数2510／2128及损失记录1186／1526，金额仍为09:30阶段估计，未宣称完整终值。2026-10-20补写两场战斗主线与UALX围困后果，B-R补最高同屏2670；SUNDERING、GoonWaffe从B-R及YZ9手填华人军团名单移除，个人参战照留；实际读取覆盖与续查依据留各场素材。素材按场归档：[B-R5RB血战](../src/battles/b-r5rb-2014/materials-b-r5rb-2014.md)、[UALX-3旗舰战](../src/battles/ualx-3-2018/materials-ualx-3-2018.md)、[X47L-Q装甲战](../src/battles/x47l-q-2018/materials-x47l-q-2018.md)、[X47 烧掉一万亿](../src/battles/x47l-q-2023/materials-x47l-q-2023.md)、[FWST-8两轮星城战](../src/battles/fwst-8-2020/materials-fwst-8-2020.md)、[Operation Enho](../src/battles/yz9-f6-2020/materials-yz9-f6-2020.md)、[M2-XFE 首战](../src/battles/m2-xfe-2020/materials-m2-xfe-2020.md)、[M2-XFE突围](../src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md)、[A1-AUH三方混战](../src/battles/a1-auh-2021/materials-a1-auh-2021.md)、[H-PA29铁壁战](../src/battles/h-pa29-2022/materials-h-pa29-2022.md)、[Old Man Star告别战](../src/battles/old-man-star-2023/materials-old-man-star-2023.md)、[Ostingele二月无畏战](../src/battles/ostingele-2024/materials-ostingele-2024.md)、[1N-FJ8黑色星期五](../src/battles/1n-fj8-2024/materials-1n-fj8-2024.md)、[Lantorn无畏战](../src/battles/lantorn-2025/materials-lantorn-2025.md)、[Siseide六月旗舰战](../src/battles/siseide-2025/materials-siseide-2025.md)、[Arzad Waifu War](../src/battles/arzad-2025/materials-arzad-2025.md)、[Sosala Waifu War](../src/battles/sosala-2025/materials-sosala-2025.md)、[Y-MPWL 星城战](../src/battles/y-mpwl-2025/materials-y-mpwl-2025.md)、[Evati无畏战](../src/battles/evati-2025/materials-evati-2025.md)、[R-AG7W包围战](../src/battles/r-ag7w-2025/materials-r-ag7w-2025.md)、[塔夫春晚](../src/battles/taff-2026/materials-taff-2026.md)、[MC6O-F旗舰战](../src/battles/mc6o-f-2026/materials-mc6o-f-2026.md)、[Atioth星城战](../src/battles/atioth-2026/materials-atioth-2026.md)、[4-HWWF四月攻防](../src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md)、[欧贝大战](../src/battles/obe-2026/materials-obe-2026.md)、[欧塔萨塞神示战](../src/battles/otsasai-2021/materials-otsasai-2021.md)。同星系前后轮次与同日晚间另场均分开；北方四月页只取两处主战754.73B，未将31星系969.12B整窗套给主战。未完候选与已排除窗口沿[发现清单](sources/community-br-discovery-2026-10-11.md)续查。
 
 战役相关视频已用本地缓存补入12条、覆盖10场；日期、战报对应及转载署名依据随各场素材归档。欧贝、8F-TK3、4-HWWF／8TPX-N、艾蒂斯、欧塔、1N-FJ8、A1-AUH、H-PA29、Old Man Star、X47L-Q已有本轮选片；未落实场次的候选也留在对应战役素材，不另建全站完成清单。本轮仅复用公开文字缓存与已有归档，未联网，未读取影像、音轨或字幕。
 
@@ -99,7 +107,6 @@ DVH两份招新的[后勤与福利摘要](sources/dvh-recruitment-2025.md)已消
 | [Akiss](../src/people/akissone/materials-akissone.md) | akissone / 2113411990 | 已重审；BOP招新人事（军团内部管理，无豁免）＋MTO2-2星城、M2-XFE突围、冥府损失与招新玩笑，多条料达标 |
 | [七秒](../src/people/seven-sec/materials-seven-sec.md) | seven-sec Ellecon / 2112509132 | 已收录；星华小队指挥与剧本故事；视频简介、选集、评论已读 |
 | [卡卡](../src/people/codeboss/materials-codeboss.md) | CodeBoss / 2116587934 | 已收录；LN1P 起队与冥府反复回场；数量分歧留素材 |
-| [少年](../src/people/target-chaser/materials-target-chaser.md) | Target Chaser / 95601799 | 已收录；H-PA29监视者参与指挥；旧故事继续补 |
 | [Coke Chen](../src/people/coke-chen/materials-coke-chen.md) | Coke Chen / 96785123 | 已收录；宝宝巴士参与指挥、卖号帖资料不齐被关 |
 | [萝卜](../src/people/niepan-luobo/materials-niepan-luobo.md) | NVA-King / 2122186397；NVA-Queen 等同前缀号 | 已收录；宝宝巴士CEO，招新顶帖、退团对账、肉团榜、Taff与北方战役、6.A.3使用脚本永封、封号后建筑移交SummerHall；国服旧招牌待核 |
 | [千里](../src/people/senri9067/materials-senri9067.md) | Senri9067 / 2121047775 | 已收录；ES招新垫款、雷裔福利账、卖号争执、KDS仲裁与PLA顶撞荣耀 |
@@ -160,6 +167,7 @@ DVH两份招新的[后勤与福利摘要](sources/dvh-recruitment-2025.md)已消
 | [KK / 四九CEO](../src/people/godhand-kk/materials-godhand-kk.md) | GodHand Kk / 2117766543；GodHand zZZ 为小号 | 已收录；泰坦帮搬、认爸爸、3B手续费与本人外交算盘；[列传](../src/people/godhand-kk/godhand-kk.md) |
 | [花不语](../src/people/huabuyu/materials-huabuyu.md) | huabuyu / 2122242721 | 已收录；单浪求助帖、首个雷毅战果、逃泡经验和白魔爪招新；龙哥借号、小号短暂封禁与已解除的 WC 黑名单已归档并入文；[列传](../src/people/huabuyu/huabuyu.md) |
 | [浪骨](../src/people/langgu-fs/materials-langgu-fs.md) | LangGu FS / 2121643085；同人多开号合并 | 已收录；完整处分、位置／部署泄密指控、收购规章争议、法尔索图对线；[列传](../src/people/langgu-fs/langgu-fs.md) |
+| <a id="admire-mirriri"></a>[阿咪](../src/people/admire-mirriri/materials-admire-mirriri.md) | admire mirriri / 94385114 | 已立传；PLA战斗总监／FC，米塔尼战书文言译文与九州担保事件已入文；英文论坛、B站未查 |
 | <a id="wllng"></a>[清水 / WLIing](../src/people/wllng/materials-wllng.md) | WLlng / 2122271544 | 已收录；FOX 期货泰坦苦主、自顶七个月要账帖、夜神结案、转 FRT；[列传源文件](../src/people/wllng/wllng.md) |
 | <a id="bulanbulan"></a>[不懒 / 黑珍珠号](../src/people/bulanbulan/materials-bulanbulan.md) | bulanbulan Dadunur / 2112533427 | 已收录；黑珍珠海盗群、CEO 女装招新、loot 争议、教程只出 01 期、神使击杀；[列传源文件](../src/people/bulanbulan/bulanbulan.md)；精选5条，新增C-J本人实战；合作、外网原作与本人整理的取舍归本人素材 |
 | [牢陆 / 陆羽](../src/people/mrluyu/materials-mrluyu.md) | Mrluyu / 2123083856；mrluyu06 为小号 | 已收录；混沌劝退、二十四小时搬家、护团发言回旋镖与挂机争议；[列传](../src/people/mrluyu/mrluyu.md) |
@@ -399,7 +407,7 @@ DVH两份招新的[后勤与福利摘要](sources/dvh-recruitment-2025.md)已消
 | <a id="khezu-knight"></a>[夫鲁 / 夫鲁土豆](../src/people/khezu-knight/materials-khezu-knight.md) | Khezu knight / 2122750675 | 已收录；核5篇作品文字与72主线程后补齐5条精选、皮肤答疑与跨阵营手工互动；旧周边及咪咪争议保留 |
 | <a id="jiamei-dongzhu"></a>[假寐洞主](../src/people/jiamei-dongzhu/materials-jiamei-dongzhu.md) | BlueIce Spy / 2122032468（十开中的一个） | 已收录；J152006 洞主，无畏截图、AFK 玩手游、2025-12 洞被拆光；[列传源文件](../src/people/jiamei-dongzhu/jiamei-dongzhu.md) |
 | <a id="san-ming-zhi"></a>[三明治 / 二五治](leads/san-ming-zhi.md) | 角色待核对 | 待收录；《二五之日》spy 回忆录作者 |
-| <a id="gongcheng-xiangmu"></a>[工程项目](../src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md) | obyta / 208043276 | 已收录；ES 帝皇之镰军团长、送冥府策反咪咪、代驾归魂被打、2025 ES 分裂；[列传源文件](../src/people/gongcheng-xiangmu/gongcheng-xiangmu.md) |
+| <a id="gongcheng-xiangmu"></a>[工程项目](../src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md) | obyta / 208043276；小号 Target Chaser / 95601799、guorenske guoren / 2114775542 | 已收录；合并原“少年”短传，ES 军团长兼 FC、H-PA29 带队、送冥府策反咪咪、归魂与神使接连出事、2025 ES 分裂；[列传源文件](../src/people/gongcheng-xiangmu/gongcheng-xiangmu.md) |
 | <a id="lulu-naiba"></a>[LULU奶爸](../src/people/lulu-love/materials-lulu-love.md) | lulu love / 92189699 | 已收录；早期 FRT 财务管理、联盟分裂回忆录、会计解释与管理争议；[列传源文件](../src/people/lulu-love/lulu-love.md) |
 | <a id="suo-si"></a>[所思](../src/people/hitoming/materials-hitoming.md) | HiToMinG / 759807191 | 已收录；旧帖明确对应、罚款会议道歉、愿补五十亿及 TCF 退盟；[列传](../src/people/hitoming/hitoming.md) |
 | <a id="black-investor"></a>[黑老板 / Black](../src/people/black-gregory/materials-black-gregory.md) | Black Gregory / 90350071（主号，滑稽创建号）；小号 GoldMining Owner / 2115243663 | 已收录；滑稽一代目、股票罢免卡布、1 ISK 送路小兔、代发声明；[列传源文件](../src/people/black-gregory/black-gregory.md) |
@@ -435,7 +443,7 @@ DVH两份招新的[后勤与福利摘要](sources/dvh-recruitment-2025.md)已消
 | <a id="weightless"></a>[想想](../src/people/weightless/materials-weightless.md) | Weightless / 2119763431 | 已收录；九卡事件中劝苦主找 BOP 管理，被随风“授意T”出 DC；[列传源文件](../src/people/weightless/weightless.md) |
 | <a id="lightgod"></a>[亮神](../src/people/lightgod/materials-lightgod.md) | lightgod / 2122051226 | 已收录；铁道军团总监，阿巴宗护航四十余期、Reddit 致谢、战损比自曝难看；[列传源文件](../src/people/lightgod/lightgod.md) |
 | <a id="libxw"></a>[烈冰玄武](../src/people/libxw/materials-libxw.md) | libxw / 2120988347 | 已收录；龙骑团招新官，挂奥托、挂前墨者 CEO、龙骑战斗记录贴；[列传源文件](../src/people/libxw/libxw.md) |
-| <a id="lao-ying"></a>[老鹰](../src/people/lao-ying/materials-lao-ying.md) | Autumn oak / 2118344406；ZQ-EAgle-FC / 2122096197 | 已收录；玄武学院创建人与历任 CEO，带新人、零安与配装门禁、退团间谍争议；[列传源文件](../src/people/lao-ying/lao-ying.md) |
+| <a id="lao-ying"></a>[老鹰](../src/people/lao-ying/materials-lao-ying.md) | Sakura WU / 2114600094；另有Autumn oak、ZQ-EAgle-FC、ZQ-EAgle-ADMIN | 已收录；IGC朱雀CEO兼玄武学院创建者，生产合作社与PLA解群争执、带人迁往IGC，及教学、配装门禁与退团间谍争议；[列传源文件](../src/people/lao-ying/lao-ying.md) |
 | <a id="ba-yun"></a>[八云](../src/people/ba-yun/materials-ba-yun.md) | Matasaburo / 2121812924 | 已收录；假称卖号留群、玄武配装间谍争议、追着法尔叫阵；[列传源文件](../src/people/ba-yun/ba-yun.md) |
 | <a id="m-ap"></a>[机械神甫](../src/people/m-ap/materials-m-ap.md) | M-AP / 2121980797；B 站“一般路过的机械神甫” UID 355678453 | 已收录；渎圣千八百杀、简介工具箱、B 站录像；[列传源文件](../src/people/m-ap/m-ap.md) |
 | <a id="texas"></a>[火锅](../src/people/texas/materials-texas.md) | Zeus008 / 2121593859；B 站 UID 2129407463 | 已收录；Bronze Fury 收割连载、故土两波战斗与十二开招新；[列传源文件](../src/people/texas/texas.md) |
@@ -459,7 +467,7 @@ DVH两份招新的[后勤与福利摘要](sources/dvh-recruitment-2025.md)已消
 
 - [2gg / 老雷](../src/people/2gg/materials-2gg.md)：xxxzzzz（2119781938），已收录；YSS 创建者及现任 CEO、DC 主要管理之一“大法官”，建团与天使区战事、雇佣拆堡翻车、财政缺口、外交翻译、管理争议与 AI 重建。
 
-凤凰城旧招新帖互链引出的新人踢团争议：[二甩](../src/people/ershuai-lee/materials-ershuai-lee.md)、[团长别开枪](../src/people/warhawk-wh/materials-warhawk-wh.md)已收录；执行决定有 CEO 署名，后台认定原因尚不清楚。
+凤凰城旧招新帖互链引出的新人踢团争议：[二甩](../src/people/ershuai-lee/materials-ershuai-lee.md)、已收录，[团长别开枪](leads/warhawk-wh.md)撤为线索；执行决定有 CEO 署名，后台认定原因尚不清楚。
 
 BOP 2019 秋季招新回复：苹二增补新人福利与团规执行争议，木木三保留招新联系人范围；[168及回复账号](leads/tieba-bop-replies.md)继续待对应。
 
@@ -512,7 +520,7 @@ BOP 2019 秋季招新回复：苹二增补新人福利与团规执行争议，�
 
 漆黑向NoNo报司令泰坦行踪的[原图与同期争论](sources/qihei-siling-titan-intel-2025.md)已核读；击杀未遂写入漆黑列传，删行动甩锅IT的威胁另成一块；NoNo收件背景与司令受害经历分别归各自素材/线索。
 
-DC历史Monitor队列的少年、Coke Chen已按代表KM与综合KB立短传，Coke另补2019角色交易关帖经过；角色与具体职责归本人素材，原发现记录保留。名单618行现精确命中14个收录主号，其余未等同真人名单。千里在帝皇之镰招新、福利与离团争执转入单人线索，不套给少年。
+DC历史Monitor队列的Target Chaser（原“少年”短传，现已并回工程项目）、Coke Chen已核代表KM与综合KB，Coke另补2019角色交易关帖经过；角色与具体职责归本人素材，原发现记录保留。名单618行原精确命中14个收录角色；Target Chaser现按工程小号归并，不再作为另一名自然人计数，其余未等同真人名单。千里在帝皇之镰招新、福利与离团争执转入单人线索，不套给工程项目。
 
 - [卡卡 / CodeBoss](../src/people/codeboss/materials-codeboss.md)：LN1P 老管理、起队与 2024 年 1 月 23 日冥府反复回场的故事已入文；[共用战斗摘要](sources/ln1p-lowkey-hel-2024.md)保存利夫击杀对应链及数量、战损口径差异。
 
@@ -596,7 +604,7 @@ MY-T2P三条渡神与反击（2026-04-14）：[109.91B普通战报](sources/my-t
 
 Cosmic-Wanderers历史前50已核读，具体职务及同人沿[唯一队列](leads/corp-top-characters-2026-10-12.md#cosmic-wanderers第36至50名及gecl前两名2026-10-16)：[米奇](../src/people/m1kiiy/materials-m1kiiy.md)创建笼中雀／自报FC、旧CO.WA打蓝加争议中统一回复与招新已入传；[小黄人](../src/people/jiao-huang/materials-jiao-huang.md)补Fight号及米奇互链；[表哥](../src/people/babaaini/materials-babaaini.md)招新／总监短篇及[浩](../src/people/teleportor/materials-teleportor.md)本人所述后勤／外交短篇已完成；[核弹](../src/people/n-bomber/materials-n-bomber.md)对线与[花花](../src/people/cherrybone/materials-cherrybone.md)总监短篇已完成；星光、豆芽、老哥各双号归组。GECL前50名已读，[银光](leads/aurora-rinzler.md)对上建军简介打窝奖对象，[daoyan yin](../src/people/daoyan-yin/materials-daoyan-yin.md)与噩梦互挂已写，岁月、亡术、帝国双号已归组，创世学院前50已读，白给大师补四号，Navigators Union前45已读、后续续46—50，摸鱼O字双号与同名区分已归档。
 
-[老实](../src/people/fargone-mcstra/materials-fargone-mcstra.md)的燃烧配装整理／操作教学已成文；[小妖](../src/people/newdog-catch/materials-newdog-catch.md)补newcat同人并纠正旧错字误判；Nav六组同人及第24—45名完整名片见[唯一队列](leads/corp-top-characters-2026-10-12.md#navigators-union第24至45名与老实成文2026-10-17)。
+[老实](leads/fargone-mcstra.md)仅简介配装与普通参战，已撤出列传；[小妖](../src/people/newdog-catch/materials-newdog-catch.md)补newcat同人并纠正旧错字误判；Nav六组同人及第24—45名完整名片见[唯一队列](leads/corp-top-characters-2026-10-12.md#navigators-union第24至45名与老实成文2026-10-17)。
 
 兔飞历史前26及Navigators Union前50的新增同人对应见[唯一续查队列](leads/corp-top-characters-2026-10-12.md#navigators-union收尾与兔飞前26名2026-10-17)；CXKOLG已归飞飞，普通候选仍留具体人物事件／职责缺口，未以总览预设作教学文章。
 

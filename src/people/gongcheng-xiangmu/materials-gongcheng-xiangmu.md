@@ -4,13 +4,20 @@
 
 收录角色：**obyta（208043276）**，2005-03-22 建号，头衔“工程项目 帝皇之手 暗夜潜者”，简介“没有太过庞大的牺牲，也没有太过微小的背叛”。现属 Emperor Scythes（98715582，帝皇之镰，ES，2022-06-14 建团，创建者 Program Treasury 2120097335，现 CEO Hoshino X 2120556332，648 人），The Initiative.。已有[列传源文件](gongcheng-xiangmu.md)。
 
-角色对应：社区资料确认 obyta 即工程项目；ESI 头衔首词“工程项目”。贴吧称“Es军团长工程项目”（9470113632）、“军团ceo工程”（10854600210 #1）、“团长是个好人”（8960615988 #1）；2023-10 ES 成员称其为“我们总监”（8656092622）。ESI 当前 CEO 不是 obyta，任职先后未核。
+角色对应：obyta（208043276）、Target Chaser（95601799）、guorenske guoren（2114775542）均为工程项目本人角色，主收录号沿用 obyta。Target Chaser 原按头衔“少年”单独立传，现归并为本人小号，不再作为另一位人物。社区资料确认 obyta 即工程项目；ESI 头衔首词“工程项目”。贴吧称“Es军团长工程项目”（9470113632）、“军团ceo工程”（10854600210 #1）、“团长是个好人”（8960615988 #1）；2023-10 ES 成员称其为“我们总监”（8656092622）。ESI 当前 CEO 不是 obyta，任职先后未核。
+
+### 2026-10-21：角色归并与头衔
+
+- [obyta 的公开 ESI](https://esi.evetech.net/characters/208043276/?datasource=tranquility)：本次已读 `title` 原值为 `工程项目 <color="#ffffff00">帝皇之手 <color=orange>暗夜潜者`；兼容日期 2026-06-09 的同一响应字段名为 `corporation_title`。去颜色标记后为“工程项目 帝皇之手 暗夜潜者”。
+- [guorenske guoren 的公开 ESI](https://esi.evetech.net/characters/2114775542/?datasource=tranquility)：同口径头衔原值为 `工程项目 <color="#ff0000ff">帝皇之手 <color="#ff007fff">旗舰组`，去色后为“工程项目 帝皇之手 旗舰组”；军团 ID 与 obyta 同为 98715582。同个性中文名前缀、同军团，归工程本人小号。两号均未返回 `character_title_id`，军团自定义头衔与成就装备头衔分开。
+- Target Chaser 的“少年”保留为这个角色的头衔和搜索别名；本人对应归工程项目，不能因为头衔不同再立一人。原短传的 H-PA29 指挥故事、简介引用、综合 KB、乌特拉与 HED-GP 记录迁入本文件；快照与头像原样迁入本目录。原短传中的频道场面是文学发挥，没有公开复盘证明其个人喊话风格“偏冷”，合并时不沿用“圈里猜”的虚构归因。
+- `aliases` 收 Target Chaser、guorenske guoren、少年；`alts` 收两个角色 ID。各号累计 KB 保持各自口径，不直接相加。HED-GP 的两份受害角色归属现在明确，仍不据角色持有人关系补造现场一人双开的操作过程，亦不据此认定两船实际所有权或赔偿。
 
 ### 游戏数据
 
 - profile.mjs：击杀 2858 / 2033.0B，损失 446 / 207.6B，单杀 19；常用 Cerberus 249、Eagle 226、Muninn 213、Zealot 190；常去 Nalvula、F7C-H0、F4R2-Q、P-ZMZV、C-N4OD（ES 驻地）；击杀月峰值 2025-02 251.4B。军团分布 ES 2006、Adorable Bunny 717。
 - 雇佣：No Way Out（2009—2010）；MOTHER-CORP / Majesta Empire（2010—2011）；Tz Industries / RED Citizens（2011）；Lichtwerk（2012-05—2020-04，无联盟）；Adorable Bunny / AOM（2020-05—2022-01）；Mango.、Mountain Water Always Meet（2022-01—03）；Infinity Avenger / Snuffed Out（2022-03—11）；ES（2022-11 至今：Dracarys. 至 2024-05-08，The Initiates. 2024-05-09—08-19，The Initiative. 2024-08-21 起）。
-- 2023-10-17 HED-GP：Revenant [112404684](https://zkillboard.com/kill/112404684/)（128.7B，48 人，驾驶 obyta）；两分钟后 Avatar [112404720](https://zkillboard.com/kill/112404720/)（185.4B，53 人，驾驶 guorenske guoren，同属 ES/DC）。
+- 2023-10-17 HED-GP：Revenant [112404684](https://zkillboard.com/kill/112404684/)（128.7B，48 人，驾驶 obyta）；两分钟后 Avatar [112404720](https://zkillboard.com/kill/112404720/)（185.4B，53 人，驾驶角色 guorenske guoren，亦属工程本人，同属 ES/DC）。
 - 2025-02-20 6-8QLA：Hel [124933895](https://zkillboard.com/kill/124933895/)（88.1B，94 人，obyta 开 Redeemer）。
 - 凛冬论坛无用户。B 站搜“帝皇之镰 eve”“工程项目”无本人相关。
 
@@ -52,3 +59,31 @@
 [Hoshino X（2120556332）的ESI](https://esi.evetech.net/latest/characters/2120556332/)头衔去颜色标签后为“星烨 摆烂王 金色镰刀”，当前Emperor Scythes；对应本文件交接材料中的星烨。星烨与工程项目obyta是不同人物，星烨应单独追管理及交接经历，不把旧事件自动归给现任CEO。
 
 星烨已凭上述交接公告补[独立短篇素材](../hoshino-x/materials-hoshino-x.md)。清退决定和对其他军团的收人限制仍归工程项目相关材料；未认定星烨在2025-08已任登记CEO。
+
+## 2026-10-21：HED-GP代驾事故核实（不收作战役）
+
+见[事故完整素材](../../../docs/sources/hed-gp-incident-2023.md)。两份ESI原始KM确认2023-10-17 UTC12:25:08与12:27:06，归魂者死亡角色obyta、神使死亡角色guorenske guoren，间隔1分58秒；单小时13KM完整战报约314.44B。此事属于人数悬殊的少数旗舰事故，撤下战役页及自动战役关联；列传该块保留故事、标题争论与赔付追问，改链原始BR。贴吧10主楼及12可见楼中楼本轮人工通读，仍缺两处楼中楼；“我们总监代驾”没有证明实际操作者的自然人身份，不能把死亡角色、日常角色持有人和现场代驾者强行视作一人。“已秒补”未有独立赔付记录，正文保留发言与追问，不补写赔偿结果。旧文“中国中午”式时间改为仅写日期，以原始UTC为准。
+
+## Target Chaser（95601799）：原“少年”短传素材归并
+
+角色名、头衔复用 2026-10-12 ESI，原标准快照保持原样；2015-05-19 建号，当前帝皇之镰／INIT，与战时 DC 分开。原候选入口见[共同调查记录](../../../docs/sources/dc-br-monthly-discovery-2026-10-12.md)。2026-10-13 仅按角色 ID 查重，未识别与 obyta 同人而另立短传；本次归并纠正该重复，不将旧查重结论继续作为自然人身份依据。
+
+### 综合 KB 与简介
+
+2026-10-13 zKillboard stats 顶层：参与击杀 5419 次，所涉目标价值 3121166831699 ISK；损失 1010 次，价值 118357377129 ISK。顶层与 topAllTime 子榜口径不同，不把参与击杀价值当个人伤害、独杀或 ISK 收入，也不与 obyta 统计相加。旧轮 16 个名字变体精确解析仅返回 Target Chaser，不能当作完整小号调查；旧“未发现新增小号”只描述当时的检索范围，不否定现有同人关系。
+
+头衔“少年”；简介引用四句中文、署名 Xiu Mu，其中“故事最动人的部分始终在过去”已入文。Xiu Mu 是被引用者，不认作工程别名；不从“少年”猜现实年龄。
+
+### H-PA29 指挥与战役
+
+[KM105128316](https://zkillboard.com/kill/105128316/)完整攻击者列表已核：2022-12-03T19:09:06Z，H-PA29／30001269，受害 princess Endless1／Snow Moon City／FRT，Minokawa／37605（龙鸟）；Target Chaser 驾驶 Monitor／45534，军团 98715582、联盟 DC／99009163，支持本场指挥身份，不提升为联军总指挥。旧冻结表有 14 条去重 Monitor KM，时间 19:09:06—20:13:23；14 不是出勤场数或指挥胜场，不讨论零伤害显示。
+
+共用战报 413155605975 ISK，各方总损失；覆盖 2022-12-03 17:00—24:00 UTC、2815 张 KM，分组依据见[共用摘要](../../../docs/sources/community-br-review-2026-10-12.md)。原短传写作复查了一条代表 KM，未重抓全报。本次复用原档，H-PA29 指挥段归入工程；战役正文和名单统一对应主收录号 208043276。
+
+[乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：Target Chaser 在深水及友军侧，本场完整快照命中；全场总损失约 307.10B，不算个人战果。X47L-Q 2023 的同号参战亦随 `alts` 自动归入工程，普通参战不逐场另开料块。
+
+[HED-GP 事故](../../../docs/sources/hed-gp-incident-2023.md)完整 13KM 快照中，Target Chaser 与 obyta、guorenske guoren 同在帝皇之镰／DC 侧。三个角色合为一名收录人物；只据两份主 KM 写该两个角色丢船，Target Chaser 的窗口出勤不额外证明该号在指挥、现场双开或赔偿责任。
+
+### 可复用的检索缺口
+
+原检索 Target Chaser 人物叙事、帝皇之镰少年、少年 FC 未得到有效故事；“Target Chaser EVE Monitor”“帝皇之镰 指挥”多为战锤同名噪声。本地贴吧缓存未见这个英文角色名，军团词命中 8656092622 与 8959392146；前者已纳入工程事故，后者是千里招新官回忆，不能把千里合并为工程。失败记录描述检索覆盖，不是没有故事的结论。后续以工程项目及三个角色共同追本人动员、复盘与旧指挥经历，仍缺完整指挥履历和现场代驾操作细节。本轮合并未新增联网请求。

@@ -4,7 +4,7 @@
 
 [本人ESI2122668203](https://esi.evetech.net/latest/characters/2122668203/)2026-10-17完整名片头衔“老魏，FC”，当前Baby-Bus98777401。按本人公开自报FC留短篇，不要求另有Monitor，不认某场总指挥；角色名已按ID查重，未见既有列传。正式快照与头像由标准fetch生成，2024-08-30建号，当前B.Y.B／D.C；与萝卜的CEO身份分开，未把历史Dawn’s LightP榜当当前团籍。
 
-本人简介先一个问号，再分享“如何正确使用预警频道 how to correctly use intel channel”，指向[Goonfleet论坛预警指南](http://goonfleet.com/index.php/topic/358134-translation-intel-channels-and-you-a-definitive-guide-%E9%A2%84%E8%AD%A6%E9%A2%91%E9%81%93%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97/)。本批实际读到的是本人简介与链接标题，外部正文未读；不宣称指南为老魏原创、翻译、实测或本站推荐，不写他曾教过哪些玩家。正文围绕FC名片分享预警入口发挥，不补具体舰队、口令或带队战果。
+本人简介先一个问号，再分享“如何正确使用预警频道 how to correctly use intel channel”，指向[Goonfleet论坛预警指南](http://goonfleet.com/index.php/topic/358134-translation-intel-channels-and-you-a-definitive-guide-%E9%A2%84%E8%AD%A6%E9%A2%91%E9%81%93%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97/)。本批实际读到的是本人简介与链接标题，外部正文未读；不宣称指南为老魏原创、翻译、实测或本站推荐，不写他曾教过哪些玩家。正文围绕FC名片分享预警入口发挥，不补具体舰队、指令或带队战果。
 
 ## OGC名片自称
 

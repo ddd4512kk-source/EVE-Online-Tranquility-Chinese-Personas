@@ -79,3 +79,7 @@
 | --- | --- | --- | --- |
 | 2119107966 | 11400 | 0 | [109210669](https://zkillboard.com/kill/109210669/)，攻击者 |
 - **B站账号**：青馆love（UID 15019228，https://space.bilibili.com/15019228 ），与别名“青馆”相合，作品与本人低安经历一致。2026-10-16 B站板块扫描读空间首页：投稿12条，有Shadow Cartel巴盖斯与黑隐vlog、Snuffed Out vlog、《Deepwater Hooligans正义之师重拳出击WE FORM V0LTA》《GOT＆RHG智取HEL！》《BIGAB＆IMP＆LOWSEC friends VS WC》《查姆贾肘击Sedition.低安联军》，合作作品《FRTvs十国联军 Taff塔夫旗舰战导演剪辑版》。作品精选待读。
+
+## otela-2024：战役参战关联
+
+- [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：深水及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。

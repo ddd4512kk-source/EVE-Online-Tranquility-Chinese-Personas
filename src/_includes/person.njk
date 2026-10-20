@@ -22,7 +22,10 @@ bodyClass: page-person
     <div><dt>创号</dt><dd><time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time></dd></div>
     <div><dt>{% if char.affiliation and char.affiliation.left_at %}最近{% else %}现属{% endif %}</dt><dd>{% set affLink = true %}{% include "affiliation.njk" %}</dd></div>
     {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
-    {% if battles.length %}<div><dt>战役</dt><dd class="chips">{% for b in battles %}<a class="chip" href="{{ b.url | url }}">{{ b.data.title }}<small>{{ b.data.tier.name }}</small></a>{% endfor %}</dd></div>{% endif %}
+    {% if battles.length %}<div><dt>战役</dt><dd class="battle-list-wrap person-battles">
+      <ul class="battle-list" id="person-battles">{% for b in battles %}<li><a class="chip" href="{{ b.url | url }}"><span>{{ b.data.title }}</span><small>{{ b.data.tier.name }}</small></a></li>{% endfor %}</ul>
+      <button type="button" class="tag-more" aria-controls="person-battles" aria-expanded="false" hidden>展开 ▾</button>
+    </dd></div>{% endif %}
   </dl>
 
   <div class="prose">
@@ -50,3 +53,5 @@ bodyClass: page-person
   <a class="pager-random" href="{{ '/random/' | url }}">随机</a>
   {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>后一位</small>{{ next.data.displayName }}</a>{% else %}<span></span>{% endif %}
 </nav>
+
+<script src="{{ "/assets/js/battle-lists.js" | url }}?v={{ site.build }}" defer></script>

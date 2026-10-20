@@ -29,3 +29,7 @@
 Alasker（848736312）为大林主号，列传改用此号展示快照；Kiki Kyo（2115619622）的CEO、联盟创建角色及奇奇莫拉统计保留原号范围，不移植成Alasker号数据。人物与经历仍合并一篇。
 
 主号本轮快照当前军团为GOD LOVE 499（98643246／499），联盟34-yrs-old men get nagged by wives for playing EVE（99015199／NVREN）。军团标签改499，F1 Monkey.职责仍按Kiki Kyo号叙述，不用该号现属填主号标签。
+
+## 2013艾萨凯旧角色记录：不建立自然人参战关联
+
+[Alasker角色KM28071325](https://eve-kill.com/kill/28071325)在2013-01-27 03:09 EVE记录Asakai的Thanatos损失，角色ID848736312，当时0utLaw.／Northern Coalition.。但本人[CSM17自述](https://forums.eveonline.com/t/alasker-for-csm17/363516)为2009晨曦、2017来宁静，这条旧KM早于其自述来宁静年份，历史操作者未核。仅凭当前收录ID相同不能把2013经历归给大林，不填战役people、不写个人战绩。也不推断无出处的角色交易或跨服迁移。战役本身与盘古组织级交集归[艾萨凯素材](../../../docs/sources/asakai-2013.md)。

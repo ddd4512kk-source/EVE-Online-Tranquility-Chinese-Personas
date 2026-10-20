@@ -34,3 +34,9 @@
 - [埃加奥两军对垒，无畏轮流付账](../../battles/akkio-2026/akkio-2026.md)：凛冬及友军；命中本人角色 2115478949。全场854.653B。
 - 来源：https://br.evetools.org/battle/7724；逐号舰船、KM与分方口径见[战役素材](../../battles/akkio-2026/materials-akkio-2026.md)。本人损失：[136438469](https://zkillboard.com/kill/136438469/)（0.706B）。
 - 本次已归档并建立战役页自动关联；未把本条参战记录单独扩写为列传料块。已有指挥、主线与综合KB保持原文，后续结合本场独立情节增补。
+
+## 2025-10-09 Todifrauan参战（2026-10-20补档）
+
+- [托蒂弗伦拆堡，援军的无畏替房东付账](../../battles/todifrauan-2025/todifrauan-2025.md)：FRT与拆堡友军；命中本人角色 2115478949。全场损失 475.557B，为各方合计，不归为个人战果。
+- 代表记录：[KM 130383501](https://zkillboard.com/kill/130383501/)，2025-10-09T04:34:52.000Z，船型 Tempest Fleet Issue；其余记录与分方依据见[本场素材](../../battles/todifrauan-2025/materials-todifrauan-2025.md)。
+- 本次补齐战役自动关联与素材；未据一般参战另立个人红黑料块。

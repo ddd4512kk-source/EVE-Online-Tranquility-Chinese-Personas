@@ -7,6 +7,7 @@
   <meta name="description" content="{{ pageDescription or site.description }}">
   <meta name="color-scheme" content="dark light">
   <script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | url }}?v={{ site.build }}">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}?v={{ site.build }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
   {% block head %}{% endblock %}
@@ -18,7 +19,7 @@
         <span class="brand-seal" aria-hidden="true">{{ site.seal }}</span>
         <span class="brand-text">{{ site.title }}<small>{{ site.subtitle }}</small></span>
       </a>
-      <img class="hits" src="{{ site.hits }}" alt="点击人次" referrerpolicy="no-referrer" decoding="async">
+      <img class="hits" id="hits" data-src="{{ site.hits }}" alt="点击人次" referrerpolicy="no-referrer" decoding="async" hidden>
       <nav class="site-nav" aria-label="主导航">
         {%- for s in sections %}{% if collections[s.collection].length %}
         <a href="{{ s.url | url }}">{{ s.name }}</a>
@@ -52,6 +53,15 @@
         root.dataset.theme = dark ? 'light' : 'dark';
         try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
       });
+      // 计数图响应慢且禁止缓存，等页面加载完再取，免得每次刷新都拖住加载
+      var hits = document.getElementById('hits');
+      function loadHits() { hits.onload = function () { hits.hidden = false; }; hits.src = hits.dataset.src; }
+      // 头像、战徽、字体长期存在读者本地，见 sw.js
+      function afterLoad() {
+        loadHits();
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('{{ "/sw.js" | url }}').catch(function () {});
+      }
+      if (document.readyState === 'complete') afterLoad(); else addEventListener('load', afterLoad);
     })();
   </script>
 </body>

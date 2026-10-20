@@ -53,3 +53,7 @@
 ## 推荐作品署名（2026-10-17）
 
 [[EVE Online 星战前夜] 2026.05.02  WF创世倾域 vs. OnlyFleets T8T 作战纪实](https://www.bilibili.com/video/BV1L49dBDE4t/)、[[EVE Online 星战前夜] 8F-TK3  |  DC+WINGS+CN联军 VS. WOMP  |  10/04/2026 投弹视角作战纪实](https://www.bilibili.com/video/BV1PiHn6REBo/)、[[EVE Online 星战前夜] 2026总统大选活动 无成本速刷流程](https://www.bilibili.com/video/BV1WcDHBfEGd/)的公开简介与作品页未见联合制作团队或多人制作分工署名，保留原推荐。仅核公开文字与署名，未读影像、音频、字幕；本轮不计新增评论阅读。
+
+## otela-2024：战役参战关联
+
+- [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：FRT及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。

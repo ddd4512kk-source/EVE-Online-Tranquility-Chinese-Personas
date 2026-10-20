@@ -8,7 +8,7 @@ systems: [Lantorn]
 tags: [低安, 无畏战, FRT, B B C, INIT.]
 sides:
   - name: FRT 及友军
-    alliances: [99003581, 99011168]
+    alliances: [99003581, 99011168, 495729389]
   - name: Snuff、帝国及友军
     alliances: [99004901, 1900696668, 1354830081]
   - name: 第三方

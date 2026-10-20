@@ -1,6 +1,6 @@
-{# 目录与详情共用；每方一枚主要组织原图标，同侧同栏，不表示胜负。 #}
-{% macro battleEmblem(sides, size = "small") %}
-<div class="battle-emblem battle-emblem-{{ size }} battle-emblem-sides-{{ sides.length }}" role="img" aria-label="对阵战徽：{% for s in sides %}{{ s.name }}{% if s.logos.length %}（{% for o in s.logos %}{{ o.name }}{% if not loop.last %}、{% endif %}{% endfor %}）{% endif %}{% if not loop.last %}；{% endif %}{% endfor %}" data-pagefind-ignore>
+{# 目录与详情共用；每方一枚主要组织原图标，刀口颜色随档位，不表示胜负。 #}
+{% macro battleEmblem(sides, tier, size = "small") %}
+<div class="battle-emblem battle-emblem-{{ size }} battle-emblem-sides-{{ sides.length }}{% if tier %} battle-emblem-tier-{{ tier }}{% endif %}" role="img" aria-label="对阵战徽：{% for s in sides %}{{ s.name }}{% if s.logos.length %}（{% for o in s.logos %}{{ o.name }}{% if not loop.last %}、{% endif %}{% endfor %}）{% endif %}{% if not loop.last %}；{% endif %}{% endfor %}" data-pagefind-ignore>
   {% for s in sides %}
   <span class="battle-emblem-side" aria-hidden="true">
     {% for o in s.logos %}<img src="{{ o.src | url }}" width="128" height="128" alt="" {% if size == "small" %}loading="lazy"{% endif %} decoding="async">{% else %}<span class="battle-emblem-initials">{{ s.initials }}</span>{% endfor %}
@@ -8,3 +8,8 @@
   {% endfor %}
 </div>
 {% endmacro %}
+
+{# 前两方主标作背景水印（--wm1 左、--wm2 右），用在行或页头的 style 里；纯装饰。 #}
+{% macro emblemVars(sides) -%}
+{% for s in sides.slice(0, 2) %}{% if s.logos.length %}--wm{{ loop.index }}: url('{{ s.logos[0].src | url }}');{% endif %}{% endfor %}
+{%- endmacro %}

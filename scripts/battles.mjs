@@ -54,10 +54,10 @@ export function peopleIndex(peopleDir) {
 // 联盟、军团 ID 全站唯一，在全站名称表（character-snapshot.mjs 的 NAMES_FILE）里看是哪一类；不在表里返回 null
 export const kindOf = (table, id) => (table.alliances[id] ? "alliances" : table.corporations[id] ? "corporations" : null);
 
-// 页面用的组织：{ id, kind: alliance|corporation（EveWho 网址用）, name }
+// 页面用的组织：{ id, kind: alliance|corporation（EveWho 网址用）, name, ticker? }
 const orgOf = (table, id) => {
   const kind = kindOf(table, id);
-  return { id, kind: kind === "alliances" ? "alliance" : "corporation", name: table[kind]?.[id]?.name ?? String(id) };
+  return { id, kind: kind === "alliances" ? "alliance" : "corporation", name: table[kind]?.[id]?.name ?? String(id), ...(table[kind]?.[id]?.ticker && { ticker: table[kind][id].ticker }) };
 };
 
 // 页面用的数字：有快照从快照算，否则照 front matter 手填；联盟、军团 ID 换成带名字的组织

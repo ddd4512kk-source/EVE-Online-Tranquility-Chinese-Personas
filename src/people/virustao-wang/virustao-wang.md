@@ -2,7 +2,7 @@
 character_id: 2115847829
 cn_name: 赤翼
 aliases: [virustao wang, R virustao, virustao shao, R virushuan, V virushuan]
-epithet: 大炮丈量国土，自己负责喝令
+epithet: 大炮丈量国土，自己负责指挥
 tags: ["00区", "D.C", ".BOP", "FC"]
 ---
 

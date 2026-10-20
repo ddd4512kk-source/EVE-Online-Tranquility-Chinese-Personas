@@ -1,3 +1,5 @@
+import { initTagCollapse, shuffled } from "./directory-utils.js";
+
 // 战役目录：时间（新↔旧）、损失、随机排序 + 标签单选筛选（同步 ?t=）。无 JS 时按时间倒序照常可读。
 (() => {
   const list = document.getElementById("battle-rows");
@@ -32,13 +34,8 @@
     place([...rows].sort((a, b) => b.dataset.loss - a.dataset.loss));
   });
   shuffleBtn.addEventListener("click", () => {
-    const items = [...rows];
-    for (let i = items.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [items[i], items[j]] = [items[j], items[i]];
-    }
     setMode("shuffle");
-    place(items);
+    place(shuffled(rows));
   });
 
   function setTag(tag) {
@@ -65,31 +62,8 @@
     if (b) setTag(b.dataset.tag === activeTag ? "" : b.dataset.tag);
   });
 
-  // 标签栏沿用列传目录：默认一行，展开后显示全部。
-  const tagWrap = document.querySelector(".tag-wrap");
-  const tagMore = document.querySelector(".tag-more");
-  let tagsOpen = false;
-  function layoutTags() {
-    if (!tagWrap || !tagMore) return;
-    tagWrap.classList.add("is-collapsed");
-    const overflow = tagBar.scrollHeight > tagBar.clientHeight + 2;
-    tagWrap.classList.toggle("is-collapsed", overflow && !tagsOpen);
-    tagMore.hidden = !overflow && !tagsOpen;
-    tagMore.textContent = tagsOpen ? "收起 ▴" : "展开 ▾";
-    tagMore.setAttribute("aria-expanded", String(tagsOpen));
-  }
-  tagMore?.addEventListener("click", () => {
-    tagsOpen = !tagsOpen;
-    layoutTags();
-  });
-  addEventListener("resize", layoutTags);
-
   const t = new URLSearchParams(location.search).get("t");
   if (t && [...(tagBar?.children ?? [])].some((b) => b.dataset.tag === t)) setTag(t);
-  layoutTags();
-  const act = tagBar?.querySelector(".chip.is-active");
-  if (act && tagWrap?.classList.contains("is-collapsed") && act.offsetTop - tagBar.offsetTop > tagBar.clientHeight) {
-    tagsOpen = true;
-    layoutTags();
-  }
+  initTagCollapse(document.querySelector(".tag-wrap"));
+
 })();

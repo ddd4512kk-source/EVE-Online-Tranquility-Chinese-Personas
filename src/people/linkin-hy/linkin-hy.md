@@ -1,5 +1,6 @@
 ---
 character_id: 985265753
+alts: [90459120, 1539487412]
 cn_name: HY
 aliases: [影枫, Gary CHGS, SS Model]
 epithet: 麦克风抢到了，旗舰指挥权丢了。
