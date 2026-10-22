@@ -65,3 +65,8 @@ B站UP检索名单尚未对应本人UP，本轮不再挂“待板块扫描”；
 
 - [SR-KBB周末混战，蜜蜂增援撞上凛冬高峰](../../battles/sr-kbb-2026/sr-kbb-2026.md)：凛冬及友军；命中角色 2122857798。全场损失129.771B，为各方合计，不作个人战果。
 - [本场素材](../../battles/sr-kbb-2026/materials-sr-kbb-2026.md)保留亲历回忆、完整窗口、交火分方与原报入口；本次从正式快照成员映射核对参战，没有补造逐人KM或舰型。
+
+## KB 与战斗（自正文移入）
+
+- zKillboard 参与击杀 3703 次，约 4.47 万亿 ISK，单杀 44，损失约 24.9B。
+- 2025-06 Lantorn 兀鹫 [KM 127953366](https://zkillboard.com/kill/127953366/)；2026-04 Atioth [KM 134562370](https://zkillboard.com/kill/134562370/)；2026-10 Obe 带队 [KM 139047172](https://zkillboard.com/kill/139047172/)；2026-03-01 MC6O-F（约 1.14T）阔刀 [KM 133727293](https://zkillboard.com/kill/133727293/)；2026-04-25 北方（约 969B）圣卒 [KM 134989138](https://zkillboard.com/kill/134989138/)。

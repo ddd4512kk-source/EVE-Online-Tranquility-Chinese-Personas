@@ -128,3 +128,12 @@ SUNDERING（1063360566）与GoonWaffe（667531913）均非华人军团。名称�
 补读Elena Melkan原信息图 https://evepics.wordpress.com/wp-content/uploads/2014/02/b-r5rb_infographic.jpg 及CCP同屏曲线 https://content.eveonline.com/www/newssystem/media/65702/1/b-r_pop_graph.png 的像素：信息图仅有7548／6058／2670三种总体人数，曲线仅是星系随时间变化的同屏数，均无分方全程人数。至此此前“未读信息图”缺口已完成，不能从图形面积反推角色数。
 
 分方修正复算：FRT固定归N3／PL后重新执行四轮归方，双方公开人数为4313／1917、公开损失记录1542／1949；这是重新去重与归方的结果，不直接按FRT的21人、14条做算术搬移。CCP官方双方损失及泰坦总数沿原战略阵营口径保留。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [Recording History: The Bloodbath of B-R5RB](https://www.youtube.com/watch?v=3O56g8KC6CM)：YouTube标题即本场别名Bloodbath of B-R5RB。
+- [EVE星战前夜 OF超旗会战 B-R5RB星系 1080P高清](https://www.bilibili.com/video/BV1Gs411D7To/)：B站搜索“EVE B-R5”所得；简介写明星系、2014年1月27日与对阵
+- [[EVE]尘封的历史-回顾B-R5绞肉机](https://www.bilibili.com/video/BV1mx41187VK/)：B站搜索所得；简介挂YouTube原片，分P写明Fanfest讲座
+- [EVE Online 高清录像历史：B-R5RB一场价值30万美元的太空“豪赌”，万亿ISK灰飞烟灭，7000玩家的“太空绞肉机”](https://www.bilibili.com/video/BV1zvMu6UEm9/)：B站搜索所得；2026-07-05投稿的回顾，简介逐段写背景、规模、损失与纪念碑

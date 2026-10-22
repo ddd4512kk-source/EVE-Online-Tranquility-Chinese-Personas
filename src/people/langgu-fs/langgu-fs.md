@@ -1,10 +1,3 @@
----
-character_id: 2121643085
-cn_name: 浪骨
-aliases: [LangGu FS, LangGu 3, LangGu 4, LangGu SF, zhang Askiras]
-epithet: 五个号一份处分，索图还得另走手续。
-tags: [00区]
----
 
 浪骨，收录角色 LangGu FS，另有 zhang Askiras、LangGu 3、LangGu 4、LangGu SF。2024 年 3 月 5 日，玉麒麟联盟发出第一号处分通告，把他和[小十亿](../2117043365/)并排开除：小十亿原在玄武，浪骨原在朱雀，两人的名字一同上了外宣部、人事部、执行委员会落款的公文。多开时五个号各开各的船，处分时倒很省纸，五个名字挤在同一行。
 

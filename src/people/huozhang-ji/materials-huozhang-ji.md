@@ -26,6 +26,7 @@
 - **MTU（2018-07-18）**：[《感谢暗殇老师，谢谢你推动了mtu商人的商品销售量》](https://tieba.baidu.com/p/5800236570)，楼中楼本人回“卖800啊”。暗殇身份未对应。
 - **收矿（2018-07-22）**：[《问一下制造大佬……》](https://tieba.baidu.com/p/5806341459)，2 楼“收矿还能按比例？什么时候开始收矿的成爷爷了？”
 
+- **红料 / KB，中**：[zKillboard](https://zkillboard.com/character/2114161533/) 生涯击杀 2629，打掉约 2.84T ISK，损失 237 条、约 12.5B；缪宁 1081 次，其次戴默斯、猎犬隐轰。2020-08 单月击杀约 558.2B，三座星城击毁记录含他：[KVN-36](https://zkillboard.com/kill/86806652/)、[IGE-RI](https://zkillboard.com/kill/86280575/)、[J5A-IX](https://zkillboard.com/kill/86251609/)。
 ### 检索记录
 
 - 贴吧客户端搜索“eve欧服 火掌/季火掌/huozhang/炉管第一/炉管”：命中如上；“季火掌”大量命中魔兽世界同名 NPC，已排除。“炉管第一”主题列表 70 余条，EVE 相关仅 2018-07 两帖，其余为 rimworld、cataclysmdda、阿尔比恩等；回帖列表隐藏（hide_post=1）。

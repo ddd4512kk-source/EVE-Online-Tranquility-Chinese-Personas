@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "policy": "docs/research-method.md#b站扫描队列",
+  "runs": [
+    {
+      "id": "2026-10-16-legacy",
+      "observed_at": "2026-10-16",
+      "state": "historical",
+      "scope": "旧组合词、浅扫多排序及按作品数分批的方法已停用，不计入现行四词前30页覆盖，不续跑旧批次。",
+      "batches": [
+        {
+          "batch": "1",
+          "queries": "EVE欧服、EVE宁静、EVE国际服、星战前夜 欧服",
+          "scope_and_status": "2026-10-16 完成：Chrome视频搜索，每词综合排序前3页＋最多播放第1页，16页全读",
+          "outcome": "旧批次合并结果见本轮outcome；具体账号沿UID档案查询。"
+        },
+        {
+          "batch": "2",
+          "queries": "EVE 凛冬、EVE FRT、EVE 帝国 AOM、EVE 龙焰、EVE INIT、EVE PH联盟、EVE 创世",
+          "scope_and_status": "2026-10-16 完成：每词前2页＋最多播放第1页，21页全读；D.C未单独检索",
+          "outcome": "旧批次合并结果见本轮outcome；具体账号沿UID档案查询。"
+        },
+        {
+          "batch": "3",
+          "queries": "欧服 泰坦、欧服 超旗、欧服 会战、EVE欧服 招新、EVE欧服 速报",
+          "scope_and_status": "2026-10-16 完成：每词前2页＋最多播放第1页，15页全读",
+          "outcome": "旧批次合并结果见本轮outcome；具体账号沿UID档案查询。"
+        },
+        {
+          "batch": "4",
+          "queries": "上述批次中有3条以上EVE作品的作者及同名疑似账号，读空间首页",
+          "scope_and_status": "2026-10-16 完成：50个空间，48个可读、2个已注销；只看签名、投稿数与首页标题，未读视频与评论",
+          "outcome": "10个对应已收录人物（另据素材补登宝马哥），19个入候选，12个归入其他作品账号或补旧行UID，3个排除；古墓荒斋、madwac、寒霜航空、静間さくや、统一合作关系部、呆呆跃迁扰断器只有零星EVE、测试服、PVE或转载，不登记"
+        },
+        {
+          "batch": "5（旧候选）",
+          "queries": "只出现1–2条EVE作品、未读空间的作者",
+          "scope_and_status": "保留已有线索；不再作为搜索批次",
+          "outcome": "—"
+        }
+      ],
+      "outcome": "三批搜索合计约250个未登记UID，按标题筛去非EVE、手游后，按作品数与名字反查；其中21个只见标题、空间未读的作者已分别归UID档案。",
+      "excluded_names": [
+        "古墓荒斋",
+        "madwac",
+        "寒霜航空",
+        "静間さくや",
+        "统一合作关系部",
+        "呆呆跃迁扰断器"
+      ],
+      "exclusion_reason": "旧扫描记录称只有零星EVE、测试服、PVE或转载，未登记；未保留UID。此为旧筛选结论，不代替现行作品候选标准，也不据此猜UID。"
+    },
+    {
+      "id": "four-keyword-legacy-completion",
+      "observed_at": null,
+      "state": "legacy_complete_record",
+      "scope": "原扫描队列记载四词本轮已完成；未保留本轮日期与各词实际末页，迁移时不补造，也不因此重扫。",
+      "queries": [
+        {
+          "keyword": "EVE欧服",
+          "sort": "综合排序",
+          "requested_pages": [
+            1,
+            30
+          ],
+          "actual_last_page": null
+        },
+        {
+          "keyword": "EVE",
+          "sort": "综合排序",
+          "requested_pages": [
+            1,
+            30
+          ],
+          "actual_last_page": null
+        },
+        {
+          "keyword": "星战前夜",
+          "sort": "综合排序",
+          "requested_pages": [
+            1,
+            30
+          ],
+          "actual_last_page": null
+        },
+        {
+          "keyword": "EVE国际服",
+          "sort": "综合排序",
+          "requested_pages": [
+            1,
+            30
+          ],
+          "actual_last_page": null
+        }
+      ],
+      "next": "本轮不续扫；明确开展新一轮时另登记实际页次、去重结果、失败与下一页。"
+    }
+  ]
+}

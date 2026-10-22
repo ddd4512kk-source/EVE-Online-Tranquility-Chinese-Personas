@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "uid": "15550297",
+  "name": "蜜蜂中文社区",
+  "url": "https://space.bilibili.com/15550297/",
+  "identity": {
+    "state": "associated",
+    "person": null,
+    "material": "src/people/silvitni/materials-silvitni.md",
+    "label": "极端荣耀",
+    "evidence": [
+      "PLA官号，签名写宣传联系极端荣耀；联系人不等于运营者，个人归属待核"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "legacy_record",
+        "observed_at": null,
+        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
+        "evidence": "src/people/silvitni/materials-silvitni.md"
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [
+      {
+        "text": "**KM 核对**：zKillboard 的 `api/losses/corporationID/98334523/shipTypeID/28846/` 返回 14 条记录，本次只核对最新三条。ESI 名称接口核对角色与星系；ESI 军团接口确认 98334523 为 PLA Logistics（PLA L），不是 PLA 主团 98190062。三船均属 PLA Logistics，均在 Ignoitton（30002647），船型 28846 为 Nomad（术语表：游牧者）。",
+        "source": "src/people/silvitni/materials-silvitni.md"
+      },
+      {
+        "text": "**B站账号**：蜜蜂中文社区（UID 15550297，https://space.bilibili.com/15550297 ），PLA军团官号，签名写“帝国系军团和个人想做宣传请私信本号或联系极端荣耀”。2026-10-16读空间首页：投稿86条，代表作《【EVE Online】“邀你携手，共同在星海中翱翔！”——蜜蜂中文社区PLA军团招新》《2 0 2 5 E V E 十 大 风 云 人 物 排 行 （误）》，另有帝国对凛冬会战纪实（与Ren.Lin合作的《“创造历史”艾蒂斯超旗战全纪实》《4-HWWF装甲攻坚战全复盘》《“帝国洪流，龙炎焚敌”M-MD31主权争夺战》《凛冬首都“4-HWWF”星城已被帝国击坠》《“领袖~我们今天赢了还是输了？”N：赚了！4.21 凛冬对舞星城三连爆》）、《FRTvs十国联军 Taff塔夫旗舰战导演剪辑版》《“低安一小时暴损五千亿，怎么都在打我FRT？”》。作品精选待读。",
+        "source": "src/people/silvitni/materials-silvitni.md"
+      },
+      {
+        "text": "空间签名的“私信本号或联系极端荣耀”能对应宣传联系人，不能据此认定极端荣耀就是账号运营者或视频作者；此前“本人运营”的结论撤回，暂不带个人 `B站` 标签。原有作品与团队合作记录保留为社区来源，后续核本人运营依据或具体创作署名。",
+        "source": "src/people/silvitni/materials-silvitni.md"
+      }
+    ]
+  },
+  "videos": []
+}

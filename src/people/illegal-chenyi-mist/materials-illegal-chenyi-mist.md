@@ -44,3 +44,8 @@
 ### 军团简介（2026-10-10 ESI 快照）
 
 - [Mist Forever](https://esi.evetech.net/latest/corporations/98608042/)（FRT，59 角色；ESI CEO Miss-L Ambassador）简介：“Company Executor&Diplomatic: Illegal-ChenYi Mist”，招聘仅限邀请，附七绝“歌起征思芦管怨……”。LSP. 简介同样写他为 Executor&Diplomatic；游戏 CEO 为 Naoxina。
+
+### 战绩数字（自正文移入）
+
+- 主号 [KB](https://zkillboard.com/character/2115483774/)：生涯击杀 789，美洲虎 284 次；常去 Hykanima、Nennamaila、Enaluri、Akidagi。2025-08-10 Arnher 三艘泽尼塔：[8.9B](https://zkillboard.com/kill/129112825/)、[8.8B](https://zkillboard.com/kill/129112890/)、[8.6B](https://zkillboard.com/kill/129112792/)。
+- CEO 号 Naoxina [KB](https://zkillboard.com/character/2113249729/)：击杀 1757，单杀 37，约 7441 亿；剑齿虎 160 次，其次维德马克、戴默斯、希尔博拉斯；常去 M-OEE8；2025-11 单月 1987 亿为生涯最高。

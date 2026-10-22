@@ -1,9 +1,3 @@
----
-character_id: 92637945
-aliases: [Bingbing]
-epithet: 道歉邮件起了头，对喷战争续了费。
-tags: ["00区", "FRT", "NUWA", "CEO", "低素质"]
----
 
 bingbing Audeles，早期女娲 Nuwa Foundation 的 CEO。[蜜蜂](../425711775/)回忆 FRT 接纳 PLA 时，把他列在明确反对的老成员里。后来大家发现，这场反对意见没有留在会议室，最后一路烧到了联盟邮件。
 

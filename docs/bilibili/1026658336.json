@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "uid": "1026658336",
+  "name": "RooT三",
+  "url": "https://space.bilibili.com/1026658336/",
+  "identity": {
+    "state": "confirmed",
+    "person": "root-3",
+    "material": "src/people/root-3/materials-root-3.md",
+    "label": "根号三",
+    "evidence": [
+      "已归本人；现存作品非EVE"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-10-13T02:30:41.140Z",
+      "signature": null,
+      "counters": {
+        "followers": "24",
+        "views": "335",
+        "videos": "2",
+        "articles": "0"
+      },
+      "source": "https://space.bilibili.com/1026658336/upload/video"
+    },
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:04:21.517Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/1026658336/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:04:21.517Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/1026658336/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "unverified",
+        "captured_at": "2026-10-13T02:30:41.140Z",
+        "source": "https://space.bilibili.com/1026658336/upload/video",
+        "scope": "当时空间可见链接；未经作品页作者核定，不自动计入本人作品库或精选。排序URL不作为实际选中证明。",
+        "candidates": [
+          {
+            "bvid": "BV1q5411e7ps",
+            "title": "#漫步# 《再见绘梨》—勇敢地走出洞穴吧",
+            "url": "https://www.bilibili.com/video/BV1q5411e7ps/"
+          },
+          {
+            "bvid": "BV1h8411X71s",
+            "title": "一个说唱爱好者的原创歌曲《黑屋》",
+            "url": "https://www.bilibili.com/video/BV1h8411X71s/"
+          }
+        ]
+      },
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:05:22.381Z",
+        "source": "https://space.bilibili.com/1026658336/upload/video",
+        "scope": "公开投稿列表全部2条（共2条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1q5411e7ps",
+            "title": "#漫步#  《再见绘梨》—勇敢地走出洞穴吧",
+            "url": "https://www.bilibili.com/video/BV1q5411e7ps/",
+            "published": "2024-01-15",
+            "views": 220
+          },
+          {
+            "bvid": "BV1h8411X71s",
+            "title": "一个说唱爱好者的原创歌曲《黑屋》",
+            "url": "https://www.bilibili.com/video/BV1h8411X71s/",
+            "published": "2023-08-17",
+            "views": 116
+          }
+        ]
+      }
+    ],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "已见投稿为非EVE，未见5个EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    }
+  },
+  "videos": []
+}

@@ -19,3 +19,8 @@
 - 公开来源：[ESI 角色资料](https://esi.evetech.net/latest/characters/1264671732/)、[EveWho 角色入口](https://evewho.com/character/1264671732)、[zKillboard 统计](https://zkillboard.com/api/stats/characterID/1264671732/)。EveWho 网页本轮读取失败，未重试；名字、头衔及归属依照 ESI。
 - 独立 KB 口径：参与击杀 2091 次、约 1.517T ISK；损失 266 次、约 41.18B。统计不与其他角色相加，也不在正文另开“小号战绩”段落。
 - 复用已存 B-R、UALX、X47、M2、A1、黑色星期五、Lantorn、Siseide、Atioth 高值 KM 样本及 Obe 公开战报列表，本轮未命中。样本零命中不代表未参战，暂不补造新的战役经历。
+
+### 欧米斯特八月攻防（2023）
+
+[本场材料](../../battles/omist-2023/materials-omist-2023.md)：五份原报精选八个对应系统片段，命中收录号或已登记小号；归TD、墨者及友军。只认当场参战，不从普通KM增加独立战功或指挥职责；跨日角色、KM与本人身份分别去重。
+- 战绩量级（正文用）：zKB 生涯击杀 14118，单杀 382，灵感最多；常出没 OSY-UD、H-ADOC；2021-01-03 M2-XFE 第二战 KM 89683597 短剑。

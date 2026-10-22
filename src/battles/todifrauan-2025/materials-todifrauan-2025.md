@@ -54,3 +54,9 @@ BR记录两条结构受害KM：由BIGAB持有的Standup Shadow 87,145,079 ISK（
 | Rudy | 2121535842 | 2121535842 | [130383534](https://zkillboard.com/kill/130383534/)／2025-10-09T04:37:41.000Z | Megathron | FRT与拆堡友军 |
 | 易武 | 2122293915 | 2122293915 | [130383501](https://zkillboard.com/kill/130383501/)／2025-10-09T04:34:52.000Z | Tempest Fleet Issue | FRT与拆堡友军 |
 | 哈威 | 2123311408 | 2123311408 | [130383501](https://zkillboard.com/kill/130383501/)／2025-10-09T04:34:52.000Z | Tempest Fleet Issue | FRT与拆堡友军 |
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [[EVE]10月9日 托蒂弗伦无畏战，惨败！！光速下班！](https://www.bilibili.com/video/BV126xkzjEbg/)：标题写10月9日托蒂弗伦无畏战。

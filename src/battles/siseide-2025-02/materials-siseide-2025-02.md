@@ -3,7 +3,7 @@
 ## 来源与经过
 
 - FL33T方作者BearThatCares于2025-02-19发表[AAR: 500B ISK DOWN IN SISEIDE](https://www.reddit.com/r/Eve/comments/1isycfd/)。已取得并读主楼及84条可见评论，接口complete=true。正文与评论有重复编辑版本，按comment ID区分，不把返回条目数当独立人物数。标题500B是来源圆整值，正文与页面采用完整BR477.429340211B。
-- 完整[BR67b557f8f0ce8400115902b4](https://br.evetools.org/br/67b557f8f0ce8400115902b4)，窗口2025-02-19 02:00—05:00 UTC。原始数据存在/tmp/eve-oct21-siseide/composition.json，正式buildSnapshot生成本目录br.json。
+- 完整[BR67b557f8f0ce8400115902b4](https://br.evetools.org/br/67b557f8f0ce8400115902b4)，窗口2025-02-19 02:00—05:00 UTC。原始数据存在/tmp/eve-oct21-siseide/composition.json，正式buildSnapshot生成本目录siseide-2025-02.json的br。
 - 同场后续[ScottCM视角帖](https://www.reddit.com/r/Eve/comments/1iu301y/)，主楼只贴视频，评论22条已读；作者想保留comms的文字不等于已读取音频。本轮未读视频、音频、字幕或转录。两帖及评论缓存仅在/tmp/eve-oct21-siseide/。
 - 前一回FL33T输掉的Astrahus交战，原帖链接[67a5827c17e81e00126a390d](https://br.evetools.org/br/67a5827c17e81e00126a390d)，本轮未另抓，不将前场金额计入本场。
 

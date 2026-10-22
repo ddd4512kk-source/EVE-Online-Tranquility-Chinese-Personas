@@ -3,7 +3,7 @@
 ## 来源与故事边界
 
 - Reddit 原帖：[500 bil BR 1jump from Fraternity staging or how to make Panda w/ AAR](https://www.reddit.com/r/Eve/comments/1fcl5vh/)，作者 XxJaNxX（u/xxjanxx123），发布于 2024-09-09。按仓库 Reddit 取材工具读取公开主楼和已取得评论；缓存记录 50 条评论、分页完整。原帖是参战组织 Seriously Suspicious 一方的战后自述，作者明确说自己不再指挥大联盟舰队，不能把文中的全部舰队当作由他本人统一指挥。
-- 原帖主战报：[BR 66dcae5340c3d80012b80881](https://br.evetools.org/br/66dcae5340c3d80012b80881)，原始 JSON 已保存到研究临时档 `/tmp/eve-battle-next/66dcae5340c3d80012b80881.json`；本目录 `br.json` 由正式 `buildSnapshot` 从该报生成，未手改。星系 YMJG-4（30000241），实际 KM 全窗 2024-09-07 18:27:38—20:39:15 UTC。
+- 原帖主战报：[BR 66dcae5340c3d80012b80881](https://br.evetools.org/br/66dcae5340c3d80012b80881)，原始 JSON 已保存到研究临时档 `/tmp/eve-battle-next/66dcae5340c3d80012b80881.json`；本目录 `ymjg-2024.json` 的 `br` 由正式 `buildSnapshot` 从该报生成，未手改。星系 YMJG-4（30000241），实际 KM 全窗 2024-09-07 18:27:38—20:39:15 UTC。
 - 原帖所链的[早段清场报 66deb5e440c3d80012b80a81](https://br.evetools.org/br/66deb5e440c3d80012b80a81) 已另存临时原始 JSON `/tmp/eve-battle-next/66deb5e440c3d80012b80a81.json` 并逐条对 ID：26 张 KM、11,182,018,898 ISK，全部已包含在主报中，没有新增记录；仅作 18:30 前后清场阶段的旁证，不另加战损，也不需要拆成另一场。主报宽报表窗口为 18:00—21:00，真实 KM 窗口如上。
 - 这不是 2024-09-09 的战斗：9 月 9 日是发帖日，战斗发生在 9 月 7 日。现有战役中 2024 Ostingele 是 2 月 24 日，1N-FJ8 是 11 月 29 日；均非同日、不同事件。查重时未发现其他 YMJG-4 同场战役页。
 - 本轮只读取 Reddit 公开文字与战报数据，未打开图片、视频、音频、字幕或转录；原帖链接到的影像不作叙事证据。

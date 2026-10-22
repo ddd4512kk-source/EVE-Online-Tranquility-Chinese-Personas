@@ -63,3 +63,10 @@
 - br.evetools related 在 08-01 20:00、23:00 及 08-02 02:00、05:00 四入口均返回空KM列表，无法做快照战役。
 
 不把8月8日星城最终拆毁一战并入本页；同月08-08单日X47L-Q有3570张KM，可另立页。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [[EVE] 黑渊星城决战 BL无畏外围捕鱼泰坦大航](https://www.bilibili.com/video/BV1is41137wB/)：标题指黑渊星城决战（黑渊即X47L-Q），投稿日2018-08-03。
+- [EVE Online - At The Gates of Oblivion - The X47L-Q armour Keepstar timer](https://www.youtube.com/watch?v=ZO4AiS6g-LU)：YouTube标题指名X47L-Q装甲计时。

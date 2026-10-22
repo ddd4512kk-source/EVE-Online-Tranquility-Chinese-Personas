@@ -103,3 +103,4 @@ Garveen Doomsday：Obe 2026-10-10，5 条攻击者记录；代表 KM 139047582�
 ## otela-2024：战役参战关联
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：FRT及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
+- **KB（zKillboard）**：生涯击杀 11424，巴戈龙 763 次最多；2020-12 M2-XFE 首战 [KM 89616365](https://zkillboard.com/kill/89616365/) 勒维亚坦，2021-09 A1-AUH [KM 95187540](https://zkillboard.com/kill/95187540/) 奥尼克斯，2026-04 Atioth [KM 134566163](https://zkillboard.com/kill/134566163/) 勒维亚坦，2026-10 Obe [KM 139046684](https://zkillboard.com/kill/139046684/) 阔刀。

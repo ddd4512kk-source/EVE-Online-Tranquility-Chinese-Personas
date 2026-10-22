@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "uid": "14401515",
+  "name": "非法丨宸怡",
+  "url": "https://space.bilibili.com/14401515/",
+  "identity": {
+    "state": "confirmed",
+    "person": "illegal-chenyi-mist",
+    "material": "src/people/illegal-chenyi-mist/materials-illegal-chenyi-mist.md",
+    "label": "非法",
+    "evidence": [
+      "旧总表已对应本人账号；调查时零投稿，不据此撤销身份或补B站标签。"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:07:57.051Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/14401515/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:07:57.051Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/14401515/upload/video"
+      },
+      "series": {
+        "state": "legacy_record",
+        "observed_at": "2026-10-16",
+        "scope": "旧频道调查记零投稿，依据现归channel.tag_review及本人素材；非今日实时查询，无须为确认零投稿重扫。",
+        "evidence": "src/people/illegal-chenyi-mist/materials-illegal-chenyi-mist.md"
+      }
+    },
+    "prior_notes": [],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "旧调查零投稿。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，数量不作现值；具体调查时间与依据沿本人素材及coverage读取。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    },
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:07:57.051Z",
+        "source": "https://space.bilibili.com/14401515/upload/video",
+        "scope": "公开投稿列表全部0条（共0条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": []
+      }
+    ]
+  },
+  "videos": []
+}

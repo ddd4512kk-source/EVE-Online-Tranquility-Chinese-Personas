@@ -1,11 +1,3 @@
----
-character_id: 985265753
-alts: [90459120, 1539487412]
-cn_name: HY
-aliases: [影枫, Gary CHGS, SS Model]
-epithet: 麦克风抢到了，旗舰指挥权丢了。
-tags: ["00区", "F.A.X", "VRGOD", "联盟高层", "CEO", "FC"]
----
 
 LINKIN HY，社区也叫影枫；伏羲 CEO 角色 Gary CHGS 也是他。盘古老争吵里有他，早期 FRT 的接班史里也有他。后来伏羲的[招新帖](https://forums.winterco.org/t/topic/14508)干脆把“毒奶 HY”当卖点：别家广告讲福利，自家广告先提醒你，祝福也可能是定向武器。
 

@@ -40,3 +40,5 @@
 - [托蒂弗伦拆堡，援军的无畏替房东付账](../../battles/todifrauan-2025/todifrauan-2025.md)：FRT与拆堡友军；命中本人角色 2115478949。全场损失 475.557B，为各方合计，不归为个人战果。
 - 代表记录：[KM 130383501](https://zkillboard.com/kill/130383501/)，2025-10-09T04:34:52.000Z，船型 Tempest Fleet Issue；其余记录与分方依据见[本场素材](../../battles/todifrauan-2025/materials-todifrauan-2025.md)。
 - 本次补齐战役自动关联与素材；未据一般参战另立个人红黑料块。
+
+- **红料 / KB，中**：zKillboard 生涯击杀 7216，缪宁 1289 次；2020 年 2、3 月（时在 3V）单两月击杀约 1.8T。2026-02-22 塔夫驾驶鱼鹰级海军型（FRT 一方，该船被击毁，[KM 133568667](https://zkillboard.com/kill/133568667/)）；2026-04-25 北方战役整窗约 969B，[KM 135002374](https://zkillboard.com/kill/135002374/)，FRT 一方带队守家。

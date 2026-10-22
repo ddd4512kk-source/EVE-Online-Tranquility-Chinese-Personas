@@ -1,10 +1,3 @@
----
-character_id: 2113415433
-cn_name: 方小明
-aliases: [帝国眞理部, 帝国真理部, 铁血熊猫人, 方怂, zcrazyboy, zcrazybaby, zcrazyfax]
-epithet: 冒名 FRT 玩屠杀梗，真理部专做假旗
-tags: ["低安", "B B C", "AVDOT"]
----
 
 方小明，游戏里叫 zcrazyboy，头衔“方怂”；在欧服吧叫“帝国眞理部”，在群里叫“铁血熊猫人”。贴吧账号只发过四个主题帖，篇篇是宣传口：“光荣而伟大的帝国”“匪首”“帝国忠诚的好儿子”“路边社消息”。2018 年下半年他人在九州（NINE Continent），跟着九州挂在蜜蜂体系里；兜兜转转多年，2026 年 7 月又新开小号 zcrazybaby，两周后连同挂着同款“方怂”头衔的 zcrazyfax，三个号同一分钟进了 [NoNo](../2113426221/) 他们的 AVDOT。
 

@@ -125,3 +125,6 @@
 ## otela-2024：战役参战关联
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：FRT及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
+
+- 旧版正文取数：2025-06 Lantorn KM 127953772（泽尼塔）、127954538（纳迦法级舰队型），希瑟伊德 128026903（兀鹫）；2026-03-01 MC6O-F 各方约 1.14T；北方战役总损失约 969B；A1-AUH 95187540（缪宁）。
+- **红料 / 旗舰战出勤，中**：2025-06 Lantorn 泽尼塔、[纳迦法级舰队型](https://zkillboard.com/kill/127954538/)，希瑟伊德兀鹫；2026-03 MC6O-F [救世](https://zkillboard.com/kill/133727360/)；2026-04 Atioth [纳迦法](https://zkillboard.com/kill/134557132/)、[勒维亚坦](https://zkillboard.com/kill/134566212/)；2026-04 4-H [纳迦法](https://zkillboard.com/kill/134999006/)；2026-10 Obe [乌鸦](https://zkillboard.com/kill/139046684/)、[勒维亚坦](https://zkillboard.com/kill/139047592/)。

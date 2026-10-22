@@ -40,3 +40,13 @@
 | 司令 | 2115924739 | 2115924739 | [111318094](https://zkillboard.com/kill/111318094/)／2023-08-29T20:30:26.000Z | Damnation | 凛冬与泛星系联军 |
 | 蛋花 | 2116540636 | 2116540636 | [111321206](https://zkillboard.com/kill/111321206/)／2023-08-29T22:30:30.000Z | Moros | 凛冬与泛星系联军 |
 | 飛鳥 | 2121130491 | 2121130491 | [111324362](https://zkillboard.com/kill/111324362/)／2023-08-30T00:43:04.000Z | Muninn | 凛冬与泛星系联军 |
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [燃尽五万亿，血战到天明！EVE世界服4-ABS8无畏会战微纪录片！](https://www.bilibili.com/video/BV1Wu4y1C7ej/)：标题指名4-ABS8无畏会战，投稿日2023-09-01。
+- [【EVE欧服】4-ABS8欧服最大纯无畏战 电影模式欣赏](https://www.bilibili.com/video/BV1594y147cJ/)：标题指名4-ABS8，投稿日2023-08-31。
+- [【EVE欧服】4-ABS8无畏战，B2视角](https://www.bilibili.com/video/BV1N8411B7ky/)：标题指名4-ABS8与B2视角，投稿日2023-09-06。
+- [【EVE宁静】4-ABS8，爆金币喽！（23.8.30）](https://www.bilibili.com/video/BV1xw411S7uk/)：标题指名4-ABS8与23.8.30。
+- [Dreadnought Graveyard - The Battle of 4-ABS8](https://www.youtube.com/watch?v=sKBtvDGFH90)：YouTube标题指名4-ABS8。

@@ -65,3 +65,7 @@ ESI histories与收录号既有快照对应。辅助同场记录：[138359694](h
 - woaidao前缀首批10项，止于woaidao14，截断；woaidao15及以后、无空格和其他拼法仍未查。已查所有首批非recycled候选的角色资料；七个其余编号号另查雇佣历史。
 
 本轮29次取材：网页搜索2、EveWho前缀1、ESI名字解析1／九角色资料9／两核心历史2／七编号历史7／两KM全文2／船型星系解析1、zKillboard两角色统计2／两KM元数据2。未遇限流或挑战；身份、零结果与未查分别记录，不把缓存KM零命中当未参战。
+
+### 战绩数字（自正文移入）
+
+- [公开战绩](https://zkillboard.com/character/96914766/)：六千余次参与击杀、约三万亿 ISK。2019-01-23 MTO2-2 星城 [KM 74754965](https://zkillboard.com/kill/74754965/)，约 171.5B，猛鲑，B.O.P／Ranger Regiment 一方。2019-11-01 Urlen 灵感 [KM 79647848](https://zkillboard.com/kill/79647848/)，海神单杀，估值约 117.1B，掉落约 117.06B。

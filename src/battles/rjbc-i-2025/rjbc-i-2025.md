@@ -1,17 +1,3 @@
----
-title: RJBC-I开门约战，星城先于决斗散场
-aliases: [RJBC-I自由港末战, The last stand, Autonomous Dronelands Collective]
-epithet: 补船菜单备好了，宴会厅先烧了。
-start: 2025-11-17
-systems: [RJBC-I]
-tags: [00区, 星城, CONDI]
-sides:
-  - name: 帝国与攻城友军
-    alliances: [1354830081]
-  - name: 留守者与守城友军
-    alliances: [99014521, 495729389]
-loss_source: https://br.evetools.org/br/6924cac37c65360013f7f59a
----
 
 2025年11月，留下来的人把RJBC-I的星城改成自由港，向除了帝国外的所有人敞开大门，还为一场预定的决斗开出了罕见的补船条件：谁来帮忙守场、损失旗舰，就按库存换一条海军莫洛。公告里的家底有两百多艘，战场的结局却没有按邀请函排期。原定22日的约战还没到，帝国先把星城打进了17日的结构计时；凌晨，狞獾面对超级航母，星城提前散场，各方总损失约231.86B，绝大部分就是那座没能等到决斗的城。
 

@@ -1,17 +1,3 @@
----
-title: 希瑟伊德，兰多恩打完还要续桌
-aliases: [Siseide六月旗舰战]
-epithet: 无畏刚补一轮，下一桌已经开了。
-start: 2025-06-21
-systems: [Siseide]
-tags: [低安, 无畏战, FRT, B B C]
-sides:
-  - name: FRT、深水及友军
-    alliances: [99003581, 99009927, 495729389, 99012995]
-  - name: Snuff及友军
-    alliances: [99004901, 99011978, 1000165]
-loss_source: https://br.evetools.org/br/68563c3b62da2b00124eb650
----
 兰多恩那场万亿无畏战只过去几天，希瑟伊德 又把旗舰喊上了桌。参与方的[公开复盘](https://www.reddit.com/r/Eve/comments/1lgpfd5/)从一支找 FRT 打架的 SEDIT 无畏队写起，随后 Snuff、深水与各路舰队陆续加入，战斗越打越大。[完整战报](https://br.evetools.org/br/68563c3b62da2b00124eb650)的损失约三万四千六百亿 ISK，这片低安的无畏库存，显然没有因为上一场打得贵就获得休假。
 
 ## FRT、深水及友军

@@ -2,7 +2,7 @@
 
 ## 事件与来源边界
 
-- 战报：br.evetools `6924cac37c65360013f7f59a`，本地原始 API 回包 `/tmp/eve-battle-next/6924cac37c65360013f7f59a.json`；正式精简快照由 `scripts/battle-report.mjs` 的 `buildSnapshot` / `stringifySnapshot` 生成，归档为 `br.json`，生成原件备份 `/tmp/eve-battle-next/rjbc-i-2025-br.json`。
+- 战报：br.evetools `6924cac37c65360013f7f59a`，本地原始 API 回包 `/tmp/eve-battle-next/6924cac37c65360013f7f59a.json`；正式精简快照由 `scripts/battle-report.mjs` 的 `buildSnapshot` / `stringifySnapshot` 生成，归档为 `rjbc-i-2025.json` 的 `br`，生成原件备份 `/tmp/eve-battle-next/rjbc-i-2025-rjbc-i-2025.json的br`。
 - 2025-11-14 Reddit 帖 [`The last stand - 2025.11.17 02:14:15`](https://www.reddit.com/r/Eve/comments/1ox5bng/)：帖子称 RJBC-I 自由港星城的强化计时在 2025-11-17 02:14:15 UTC 结束；称 Imperium 提前到场，并说若守方损失旗舰，将在次日获补一艘海军莫洛，数量受库存限制。帖子与评论原文及元数据保存在 `/tmp/eve-battle-next/rjbc-1ox5bng.json`、可读文本 `/tmp/eve-battle-next/rjbc-1ox5bng-read.txt`。
 - 2025-11-11 Reddit 帖 [`We Shall Have That Brawl...22 November`](https://www.reddit.com/r/Eve/comments/1ougv1o/) 是原定 11 月 22 日 20:00 EVE 时间的约战预告；称自由港对 Imperium 以外开放，并宣称储备 220 艘海军莫洛，旗舰损失可依库存补船。它只证明预告与承诺，不证明兑现或库存规模经独立核验。原帖另明确这220艘船体位于帝国区资产安全处，守方没有足够流动ISK一口气赎回；拟以交换合同让接船者承担赎船费，并估计旧舰保险款大约够用。此为承诺机制与资金约束，不写成免费现船已发。回包、可读文本分别存于 `/tmp/eve-battle-next/rjbc-1ougv1o.json`、`/tmp/eve-battle-next/rjbc-1ougv1o-read.txt`。
 - EVE Online 论坛战报帖第 68 楼于 2025-11-24 发布，只链接本场 Final Stand 战报及视频，没有可供核验的书面战后叙述；第 69–70 楼文字谈到 Defiant Few 重建与索取录像。仅读了帖子文字和评论，没有打开或读取视频、字幕、音频或转录。抓取页面回包留在 `/tmp/eve-battle-next/forum-483151-68.json`。
@@ -34,7 +34,7 @@ BR 没有预分队，故按 front matter 点名联盟后依仓库规则，以组
 
 ## 本地研究文件
 
-- 正式快照：`src/battles/rjbc-i-2025/br.json`
+- 正式快照：`src/battles/rjbc-i-2025/rjbc-i-2025.json的br`
 - 完整战报 API 原文：`/tmp/eve-battle-next/6924cac37c65360013f7f59a.json`
-- 正式快照生成副本：`/tmp/eve-battle-next/rjbc-i-2025-br.json`
+- 正式快照生成副本：`/tmp/eve-battle-next/rjbc-i-2025-rjbc-i-2025.json的br`
 - ESI 组织及船型查询回包：`/tmp/eve-battle-next/rjbc-entity-names.json`、`/tmp/eve-battle-next/rjbc-type-names.json`、`/tmp/eve-battle-next/rjbc-attacker-types.json`

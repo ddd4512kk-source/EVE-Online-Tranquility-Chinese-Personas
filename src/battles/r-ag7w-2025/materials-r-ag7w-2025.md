@@ -49,3 +49,12 @@ Out of the Blue. 与 Invidia Gloriae Comes 为两个独立联盟，都在 Team A
 FRT（99003581）与 INIT（1900696668）按各自第三方行动归第三方，撤出 PH 一方；原网页 Team B 不是本站主战阵营归属。上节两方面板汇总保留为原页读数，当前各方统计以快照重新归方结果为准。
 
 第三方不足 30 人时不在目录与阵营卡片展示；原始参战、损失与人物关联仍保留。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE】帝国系对PF联盟群R-AG7W星城展开围猎  大量旗舰陨落PF损失惨重](https://www.bilibili.com/video/BV1we1UBWEtJ/)：标题指名R-AG7W，投稿日2025-11-08。
+- [[EVE Online]R-A超旗监狱，千亿撤离](https://www.bilibili.com/video/BV1pC2PBYExY/)：标题指R-A，投稿日当天。
+- [绝密RA星城监狱 百亿撤离 哥布林我不欠你什么了](https://www.bilibili.com/video/BV1QW2PBLEcr/)：标题指RA星城，投稿日当天。
+- [【视角传媒】PanFam 瓦解於 R-AG7W](https://www.bilibili.com/video/BV1oUSuB5ETA/)：标题指名R-AG7W，投稿日2025-11-27。

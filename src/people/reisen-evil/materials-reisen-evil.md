@@ -9,3 +9,4 @@
 - [《馒头加入TEST后搞死搞残ENPL》](https://tieba.baidu.com/p/6119808920)
 - [《啥也不说了，你品，你细品!!!》](https://tieba.baidu.com/p/7207897435)
 - [《EVE欧服人物系列——ENPL-兔总》](https://zhuanlan.zhihu.com/p/65765850)
+- 战绩量级（正文用）：zKB 生涯击杀 6706，约 5.62T，自损约 48B；缪宁 935，其次死亡漩涡、噩梦、狂暴；常去 1L-OEK；单月最高 2019-08 约 755.6B（TEST 与凛冬底特主权战）；TEST 期间签 3300 张。

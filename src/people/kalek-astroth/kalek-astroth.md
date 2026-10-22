@@ -1,10 +1,3 @@
----
-character_id: 848325459
-cn_name: 艾泽
-aliases: [Kalek Astroth, _Aizy^Dx, Aizy]
-epithet: 2004 年的老号，PL 待过，在华人队拿了冠军。
-tags: ["00区", "FRT", "NUWA", "AT19冠军"]
----
 
 艾泽，游戏名 Kalek Astroth，2004 年 2 月建号，比冠军队里大多数队友的游戏年龄都大。简介里画着一大幅字符画，底下签名“_Aizy^Dx”，再下面一行感叹号：“We are the ATXIX champions！！！”
 

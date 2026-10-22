@@ -117,3 +117,12 @@ INN原现场报道本次网页读取超时，后续围困报道同样超时，�
 | Caladrius Alliance（99001954） | 1 | 8 | 4 |
 
 本地复核缓存位于.cache/battle-counts-20261020/，包括三个原始日包、筛选结果、组织归方和计算脚本；长期复查依据为以上日包链接、固定窗口、算法和分方表，不依赖缓存长期存在。本轮只读静态公开文字、静态图表及原始KM，未读取视频、音轨或字幕。EVE-KILL.com网页HTTP403后停止该站，没有绕路；该失败不影响从独立日包重算。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按B站公开标题、投稿日、分P与简介对应本场；未读取影像、音轨或字幕，介绍只转述这些文字。
+
+- [EVE - 星城两连爆！这已不是游戏，而是真正的战争！](https://www.bilibili.com/video/BV1hs411K7ND/)：投稿日2018-07-22，战后3天；标题“星城两连爆”与简介里的南方战争对应本场
+- [[EVE]7月19日UALX-3星系Imperial Legacy vs PanFam+HRE+Winter Co.+GOTG](https://www.bilibili.com/video/BV1fs411N76U/)：投稿日2018-07-21；标题写明日期、星系与对阵，简介附YouTube原片与br.inyour.space战报
+- [[EVE欧服]UALX-3泰坦超旗敲星城 20180719 外国友人视角](https://www.bilibili.com/video/BV1As411K7fk/)：投稿日2018-07-20；标题写明星系与日期，简介附YouTube原片、reddit帖与战报，并列出双方损失数字
+- [EVE Online UALX- 价值百万美元超旗逃脱幕后](https://www.bilibili.com/video/BV1Gs411A7Xe/)：投稿日2018-07-27；简介挂YouTube原片与r/Eve帖“The UALX-3 escape: behind the scenes planning”，讲本场之后的超旗撤离

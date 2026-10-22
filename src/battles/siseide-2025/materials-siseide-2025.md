@@ -39,3 +39,9 @@ AAR 链出的完整 BR 窗口为 2025-06-21 03:00—05:15 UTC。沿原报 teams�
 | Snuff及友军 | 379 | 2211.989541769 | 560 |
 
 星系中文名：Siseide → 希瑟伊德，据 [CCP ESI 中文星系资料](https://esi.evetech.net/latest/universe/systems/30002539/?language=zh)（2026-10-19 核对）；标题与正文使用中文，`systems` 和英文别名保留游戏内原名。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [有仇报仇有怨报怨,希瑟伊德无畏战,三万两千亿战损【EVE欧服】](https://www.bilibili.com/video/BV1P6NyzaEe9/)：标题指名希瑟伊德无畏战，投稿日当天。

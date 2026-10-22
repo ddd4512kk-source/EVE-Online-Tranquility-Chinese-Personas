@@ -30,7 +30,7 @@ Reddit 主楼作者 tommygun209 只写 Deepwater Hooligans 在 Pochven 丢失一
 
 1. Reddit 原帖与全量可取评论（帖子日2024-09-07，作者 tommygun209，57条评论已完整翻页并人工读取）：[帖子](https://www.reddit.com/r/Eve/comments/1fb0a7u/)。原始缓存 `/tmp/eve-oct21-otela/reddit-1fb0a7u.json`。
 2. 主楼链接为[related Otela 2024-09-07 04:00](https://br.evetools.org/related/30000157/202409070400)。
-3. 完整战报：[66dbf1a740c3d80012b807b2](https://br.evetools.org/br/66dbf1a740c3d80012b807b2)；本轮接口 `newapi/br/composition/66dbf1a740c3d80012b807b2` HTTP 200。按仓库 `buildSnapshot` 从原始响应生成 `/tmp/eve-oct21-otela/br.json`，并依 `peopleIndex`、`battleStats` 计算分方；原始接口缓存 `/tmp/eve-oct21-otela/br-raw.json`。
+3. 完整战报：[66dbf1a740c3d80012b807b2](https://br.evetools.org/br/66dbf1a740c3d80012b807b2)；本轮接口 `newapi/br/composition/66dbf1a740c3d80012b807b2` HTTP 200。按仓库 `buildSnapshot` 从原始响应生成 `/tmp/eve-oct21-otela/otela-2024.json的br`，并依 `peopleIndex`、`battleStats` 计算分方；原始接口缓存 `/tmp/eve-oct21-otela/br-raw.json`。
 4. 关键 KM：[Astrahus 被击毁，120721219](https://zkillboard.com/kill/120721219/)；[战歌的 Monitor 被击毁，120718214](https://zkillboard.com/kill/120718214/)；[慕容的 Cyclone Fleet Issue 损失，120719803](https://zkillboard.com/kill/120719803/)；[嗜血驾驶 Hugin 的 KM，120717921](https://zkillboard.com/kill/120717921/)；[瓜瓜损失 Hound，120721069](https://zkillboard.com/kill/120721069/)。KM URL 是由报表里的 ID 构造，尚未逐个重新打开网页。
 5. ESI 官方系统接口以 `language=zh` 返回系统名“乌特拉”：https://esi.evetech.net/latest/universe/systems/30000157/?datasource=tranquility&language=zh；原始缓存 `/tmp/eve-oct21-otela/esi-system.json`。已补入本仓库 `systemNames.js`。
 6. ESI 官方类型接口核对 45534=Monitor、11961=Huginn、72811=Cyclone Fleet Issue、12034=Hound。缓存 `/tmp/eve-oct21-otela/type-names.json`。
@@ -46,3 +46,10 @@ Reddit 主楼作者 tommygun209 只写 Deepwater Hooligans 在 Pochven 丢失一
 ## 入文补充
 
 标题抓“赔船拆堡”的目标/战损反差，不声称地区只剩这一座堡。捡船评论写MNI但未展开缩写；正文用“能开走的新船”表达预期，随后发现Kronos而技能不足，不将MNI误写为海军莫洛等不能由原帖确定的舰种。战歌按本场Monitor证据写带队，不推定全场总指挥或所有战术出自他。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [FRT紫砂式轰击故土乌特拉空堡【EVE欧服】【凛冬华人社区】](https://www.bilibili.com/video/BV1MWpterEtJ/)：标题指乌特拉空堡，投稿日当天。
+- [【EVE Online】BIGAB＆IMP＆LOWSEC friends VS WC（乌特拉射击比赛）](https://www.bilibili.com/video/BV1vTpteHEs5/)：标题指乌特拉，对阵与本场相符。

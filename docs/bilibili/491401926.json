@@ -1,0 +1,560 @@
+{
+  "version": 1,
+  "uid": "491401926",
+  "name": "Ganguehill套索",
+  "url": "https://space.bilibili.com/491401926/",
+  "identity": {
+    "state": "confirmed",
+    "person": "taosuo",
+    "material": "src/people/taosuo/materials-taosuo.md",
+    "label": "套司令",
+    "evidence": [
+      "本人任CEO的矸石山军团简介url指向此空间；21条EVE视频"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-10-16T08:15:06.599Z",
+      "signature": null,
+      "counters": {
+        "followers": "101",
+        "views": "2.2万",
+        "videos": "21",
+        "articles": "0",
+        "series": "2"
+      },
+      "source": "https://space.bilibili.com/491401926/upload/video"
+    },
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:13:19.076Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/491401926/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:13:19.076Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/491401926/upload/video"
+      },
+      "series": {
+        "state": "legacy_record",
+        "observed_at": null,
+        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
+        "evidence": "src/people/taosuo/materials-taosuo.md"
+      }
+    },
+    "prior_notes": [
+      {
+        "text": "UID 491401926「Ganguehill套索」，由本人军团简介 url 字段指向，已登记[账号档案](docs/bilibili/491401926.json)。2026-10-16 读空间投稿页：21个视频（2022-09-28 至 2023-02-21），全为 EVE；合集“EVE欧服静寂谷生存日记”（12集）、“FRT超旗斩！斩！斩！”（5集）；粉丝101，总播放2.2万。带 `B站` 标签。",
+        "source": "src/people/taosuo/materials-taosuo.md"
+      },
+      {
+        "text": "精选范围：空间最新发布全量21条已列；读了8个视频页（BV1F8411t78w、BV1Ft4y1K7ys、BV1hG41177cH、BV1tg411a7Sf、BV1ye4y1n7i2、BV17e4y177DN、BV13t4y1N7GH、BV18R4y1v7bg），确认标题、合集、标签、简介与计数；视频画面与语音未看，推荐理由只依据页面信息与作品在合集中的位置，不作视听评价。未单独读“最多播放”排序页，按全量列表播放数排序代替。",
+        "source": "src/people/taosuo/materials-taosuo.md"
+      },
+      {
+        "text": "[《FRT轻松斩冥府，完成对蜜蜂超旗4族大航4连斩》](https://www.bilibili.com/video/BV13t4y1N7GH/)：“超旗斩”合集的头一集，四族大航连斩凑齐，FRT 那一季猎旗舰的高光就收在这里。",
+        "source": "src/people/taosuo/materials-taosuo.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "unverified",
+        "captured_at": "2026-10-16T08:15:06.599Z",
+        "source": "https://space.bilibili.com/491401926/upload/video",
+        "scope": "当时空间可见链接；未经作品页作者核定，不自动计入本人作品库或精选。排序URL不作为实际选中证明。",
+        "candidates": [
+          {
+            "bvid": "BV18R4y1v7bg",
+            "title": "开工大吉，秒杀蜜蜂夜神",
+            "url": "https://www.bilibili.com/video/BV18R4y1v7bg/"
+          },
+          {
+            "bvid": "BV1e8411A7b5",
+            "title": "2023.1.16FRT喜迎新春年货带走蜜蜂冥府",
+            "url": "https://www.bilibili.com/video/BV1e8411A7b5/"
+          },
+          {
+            "bvid": "BV13G4y147SY",
+            "title": "2022-11-20直钩钓缪宁",
+            "url": "https://www.bilibili.com/video/BV13G4y147SY/"
+          },
+          {
+            "bvid": "BV1qG4y1x7kg",
+            "title": "2022-11-16 制裁MTU战士",
+            "url": "https://www.bilibili.com/video/BV1qG4y1x7kg/"
+          },
+          {
+            "bvid": "BV13t4y1N7GH",
+            "title": "FRT轻松斩冥府，完成对蜜蜂超旗4族大航4连斩",
+            "url": "https://www.bilibili.com/video/BV13t4y1N7GH/"
+          },
+          {
+            "bvid": "BV1y14y1p7H2",
+            "title": "2022-11-08直钩钓洛基",
+            "url": "https://www.bilibili.com/video/BV1y14y1p7H2/"
+          },
+          {
+            "bvid": "BV1Ft4y1K7ys",
+            "title": "2022-11-06 ESS经典操作抓偷钱的神装洛基",
+            "url": "https://www.bilibili.com/video/BV1Ft4y1K7ys/"
+          },
+          {
+            "bvid": "BV1R14y1G7cG",
+            "title": "狙击的赫卡特",
+            "url": "https://www.bilibili.com/video/BV1R14y1G7cG/"
+          },
+          {
+            "bvid": "BV1QV4y1G7ze",
+            "title": "2022-10-30 周末欢乐多",
+            "url": "https://www.bilibili.com/video/BV1QV4y1G7ze/"
+          },
+          {
+            "bvid": "BV17G411j72a",
+            "title": "赏金系数回归首日，蜜蜂万古祭旗。",
+            "url": "https://www.bilibili.com/video/BV17G411j72a/"
+          },
+          {
+            "bvid": "BV1Le411G7Cy",
+            "title": "1DQ蜜蜂老巢隔壁2分钟速斩飞龙",
+            "url": "https://www.bilibili.com/video/BV1Le411G7Cy/"
+          },
+          {
+            "bvid": "BV17e4y177DN",
+            "title": "108公里的大刀Lachesis",
+            "url": "https://www.bilibili.com/video/BV17e4y177DN/"
+          },
+          {
+            "bvid": "BV1tg411a7Sf",
+            "title": "胡司令的高清夜战",
+            "url": "https://www.bilibili.com/video/BV1tg411a7Sf/"
+          },
+          {
+            "bvid": "BV1hG41177cH",
+            "title": "纱布的高清歇斯底里",
+            "url": "https://www.bilibili.com/video/BV1hG41177cH/"
+          },
+          {
+            "bvid": "BV1Mm4y1w7ud",
+            "title": "2022-10-16 周末欢乐多",
+            "url": "https://www.bilibili.com/video/BV1Mm4y1w7ud/"
+          },
+          {
+            "bvid": "BV1ye4y1n7i2",
+            "title": "2022-10-09 FRT救援大航5分钟团灭INIT奇奇队",
+            "url": "https://www.bilibili.com/video/BV1ye4y1n7i2/"
+          },
+          {
+            "bvid": "BV1cD4y1y75j",
+            "title": "2022-10-04 钓鱼没带钩",
+            "url": "https://www.bilibili.com/video/BV1cD4y1y75j/"
+          },
+          {
+            "bvid": "BV1QD4y1C7M4",
+            "title": "10-2 二换三",
+            "url": "https://www.bilibili.com/video/BV1QD4y1C7M4/"
+          },
+          {
+            "bvid": "BV1d24y1R78Q",
+            "title": "9.30反收割",
+            "url": "https://www.bilibili.com/video/BV1d24y1R78Q/"
+          },
+          {
+            "bvid": "BV1F8411t78w",
+            "title": "EVE欧服FRT联盟最强补给官创世豆腐400人补损操作",
+            "url": "https://www.bilibili.com/video/BV1F8411t78w/"
+          },
+          {
+            "bvid": "BV1xP411n7aA",
+            "title": "EVE世界服FRT创世主T刷最强副本",
+            "url": "https://www.bilibili.com/video/BV1xP411n7aA/"
+          }
+        ]
+      },
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:13:19.076Z",
+        "source": "https://space.bilibili.com/491401926/upload/video",
+        "scope": "公开投稿列表全部21条（共21条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV18R4y1v7bg",
+            "title": "开工大吉，秒杀蜜蜂夜神",
+            "url": "https://www.bilibili.com/video/BV18R4y1v7bg/",
+            "published": "2023-02-21",
+            "views": 1927
+          },
+          {
+            "bvid": "BV1e8411A7b5",
+            "title": "2023.1.16FRT喜迎新春年货带走蜜蜂冥府",
+            "url": "https://www.bilibili.com/video/BV1e8411A7b5/",
+            "published": "2023-01-16",
+            "views": 1667
+          },
+          {
+            "bvid": "BV13G4y147SY",
+            "title": "2022-11-20直钩钓缪宁",
+            "url": "https://www.bilibili.com/video/BV13G4y147SY/",
+            "published": "2022-11-20",
+            "views": 156
+          },
+          {
+            "bvid": "BV1qG4y1x7kg",
+            "title": "2022-11-16 制裁MTU战士",
+            "url": "https://www.bilibili.com/video/BV1qG4y1x7kg/",
+            "published": "2022-11-16",
+            "views": 369
+          },
+          {
+            "bvid": "BV13t4y1N7GH",
+            "title": "FRT轻松斩冥府，完成对蜜蜂超旗4族大航4连斩",
+            "url": "https://www.bilibili.com/video/BV13t4y1N7GH/",
+            "published": "2022-11-11",
+            "views": 1011
+          },
+          {
+            "bvid": "BV1y14y1p7H2",
+            "title": "2022-11-08直钩钓洛基",
+            "url": "https://www.bilibili.com/video/BV1y14y1p7H2/",
+            "published": "2022-11-08",
+            "views": 471
+          },
+          {
+            "bvid": "BV1Ft4y1K7ys",
+            "title": "2022-11-06 ESS经典操作抓偷钱的神装洛基",
+            "url": "https://www.bilibili.com/video/BV1Ft4y1K7ys/",
+            "published": "2022-11-06",
+            "views": 2676
+          },
+          {
+            "bvid": "BV1R14y1G7cG",
+            "title": "狙击的赫卡特",
+            "url": "https://www.bilibili.com/video/BV1R14y1G7cG/",
+            "published": "2022-11-01",
+            "views": 687
+          },
+          {
+            "bvid": "BV1QV4y1G7ze",
+            "title": "2022-10-30 周末欢乐多",
+            "url": "https://www.bilibili.com/video/BV1QV4y1G7ze/",
+            "published": "2022-10-29",
+            "views": 268
+          },
+          {
+            "bvid": "BV17G411j72a",
+            "title": "赏金系数回归首日，蜜蜂万古祭旗。",
+            "url": "https://www.bilibili.com/video/BV17G411j72a/",
+            "published": "2022-10-26",
+            "views": 1176
+          },
+          {
+            "bvid": "BV1Le411G7Cy",
+            "title": "1DQ蜜蜂老巢隔壁2分钟速斩飞龙",
+            "url": "https://www.bilibili.com/video/BV1Le411G7Cy/",
+            "published": "2022-10-24",
+            "views": 924
+          },
+          {
+            "bvid": "BV17e4y177DN",
+            "title": "108公里的大刀Lachesis",
+            "url": "https://www.bilibili.com/video/BV17e4y177DN/",
+            "published": "2022-10-22",
+            "views": 325
+          },
+          {
+            "bvid": "BV1tg411a7Sf",
+            "title": "胡司令的高清夜战",
+            "url": "https://www.bilibili.com/video/BV1tg411a7Sf/",
+            "published": "2022-10-19",
+            "views": 310
+          },
+          {
+            "bvid": "BV1hG41177cH",
+            "title": "纱布的高清歇斯底里",
+            "url": "https://www.bilibili.com/video/BV1hG41177cH/",
+            "published": "2022-10-19",
+            "views": 338
+          },
+          {
+            "bvid": "BV1Mm4y1w7ud",
+            "title": "2022-10-16 周末欢乐多",
+            "url": "https://www.bilibili.com/video/BV1Mm4y1w7ud/",
+            "published": "2022-10-16",
+            "views": 271
+          },
+          {
+            "bvid": "BV1ye4y1n7i2",
+            "title": "2022-10-09 FRT救援大航5分钟团灭INIT奇奇队",
+            "url": "https://www.bilibili.com/video/BV1ye4y1n7i2/",
+            "published": "2022-10-09",
+            "views": 1321
+          },
+          {
+            "bvid": "BV1cD4y1y75j",
+            "title": "2022-10-04 钓鱼没带钩",
+            "url": "https://www.bilibili.com/video/BV1cD4y1y75j/",
+            "published": "2022-10-04",
+            "views": 217
+          },
+          {
+            "bvid": "BV1QD4y1C7M4",
+            "title": "10-2 二换三",
+            "url": "https://www.bilibili.com/video/BV1QD4y1C7M4/",
+            "published": "2022-10-02",
+            "views": 184
+          },
+          {
+            "bvid": "BV1d24y1R78Q",
+            "title": "9.30反收割",
+            "url": "https://www.bilibili.com/video/BV1d24y1R78Q/",
+            "published": "2022-10-01",
+            "views": 275
+          },
+          {
+            "bvid": "BV1F8411t78w",
+            "title": "EVE欧服FRT联盟最强补给官创世豆腐400人补损操作",
+            "url": "https://www.bilibili.com/video/BV1F8411t78w/",
+            "published": "2022-09-29",
+            "views": 6075
+          },
+          {
+            "bvid": "BV1xP411n7aA",
+            "title": "EVE世界服FRT创世主T刷最强副本",
+            "url": "https://www.bilibili.com/video/BV1xP411n7aA/",
+            "published": "2022-09-27",
+            "views": 1286
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV18R4y1v7bg",
+      "title": "开工大吉，秒杀蜜蜂夜神",
+      "url": "https://www.bilibili.com/video/BV18R4y1v7bg/",
+      "owner_uid": "491401926",
+      "published_at": "2023-02-21T06:53:53.000Z",
+      "captured_at": "2026-10-16T08:18:00.239Z",
+      "description": "",
+      "stats": {
+        "views": 1927,
+        "replies": 20
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV13t4y1N7GH",
+      "title": "FRT轻松斩冥府，完成对蜜蜂超旗4族大航4连斩",
+      "url": "https://www.bilibili.com/video/BV13t4y1N7GH/",
+      "owner_uid": "491401926",
+      "published_at": "2022-11-11T14:25:11.000Z",
+      "captured_at": "2026-10-16T08:17:44.098Z",
+      "description": "",
+      "stats": {
+        "views": 1010,
+        "replies": 11
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Ft4y1K7ys",
+      "title": "2022-11-06 ESS经典操作抓偷钱的神装洛基",
+      "url": "https://www.bilibili.com/video/BV1Ft4y1K7ys/",
+      "owner_uid": "491401926",
+      "published_at": "2022-11-06T09:40:33.000Z",
+      "captured_at": "2026-10-16T08:16:22.183Z",
+      "description": "",
+      "stats": {
+        "views": 2671,
+        "replies": 23
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV17e4y177DN",
+      "title": "108公里的大刀Lachesis",
+      "url": "https://www.bilibili.com/video/BV17e4y177DN/",
+      "owner_uid": "491401926",
+      "published_at": "2022-10-22T18:42:22.000Z",
+      "captured_at": "2026-10-16T08:17:27.762Z",
+      "description": "太晚了，没编辑字幕，凑合听哥的语音吧，哈哈。",
+      "stats": {
+        "views": 325,
+        "replies": 5
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1tg411a7Sf",
+      "title": "胡司令的高清夜战",
+      "url": "https://www.bilibili.com/video/BV1tg411a7Sf/",
+      "owner_uid": "491401926",
+      "published_at": "2022-10-19T05:58:51.000Z",
+      "captured_at": "2026-10-16T08:16:55.234Z",
+      "description": "-",
+      "stats": {
+        "views": 310,
+        "replies": 2
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1hG41177cH",
+      "title": "纱布的高清歇斯底里",
+      "url": "https://www.bilibili.com/video/BV1hG41177cH/",
+      "owner_uid": "491401926",
+      "published_at": "2022-10-19T05:39:25.000Z",
+      "captured_at": "2026-10-16T08:16:38.616Z",
+      "description": "",
+      "stats": {
+        "views": 338,
+        "replies": 6
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ye4y1n7i2",
+      "title": "2022-10-09 FRT救援大航5分钟团灭INIT奇奇队",
+      "url": "https://www.bilibili.com/video/BV1ye4y1n7i2/",
+      "owner_uid": "491401926",
+      "published_at": "2022-10-09T15:44:48.000Z",
+      "captured_at": "2026-10-16T08:17:11.141Z",
+      "description": "EVE欧服",
+      "stats": {
+        "views": 1320,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1F8411t78w",
+      "title": "EVE欧服FRT联盟最强补给官创世豆腐400人补损操作",
+      "url": "https://www.bilibili.com/video/BV1F8411t78w/",
+      "owner_uid": "491401926",
+      "published_at": "2022-09-29T18:13:57.000Z",
+      "captured_at": "2026-10-16T08:16:05.568Z",
+      "description": "-",
+      "stats": {
+        "views": 6074,
+        "replies": 29
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/taosuo/materials-taosuo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    }
+  ]
+}

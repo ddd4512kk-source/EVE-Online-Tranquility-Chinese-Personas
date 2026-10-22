@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "uid": "9055736",
+  "name": "金鹏防御放大节点",
+  "url": "https://space.bilibili.com/9055736/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": "docs/leads/jin-peng-translator.md",
+    "label": "线索：金鹏",
+    "evidence": [
+      "UP与贴吧译者已对应，游戏角色未对上"
+    ],
+    "related": [
+      {
+        "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+        "label": "战役相关视频"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1mx41187VK",
+      "title": "[EVE]尘封的历史-回顾B-R5绞肉机",
+      "url": "https://www.bilibili.com/video/BV1mx41187VK/",
+      "owner_uid": "9055736",
+      "published_at": "2017-06-14T23:48:30.000Z",
+      "captured_at": null,
+      "description": "https://www.youtube.com/watch?v=2oz4rzP-CAY\nP1为B-R5RB超旗入场时的录像，放进来主要因为P2的开头也有这部分（同时活跃气氛）。P2为正片，来源为2014年EVE Fanfest中的讲座。在这里可以看到这场宁静服空前（不一定绝后）的战斗是如何开始和升温，而战斗中又有什么幕后的故事。",
+      "stats": {
+        "views": 4757,
+        "replies": 15
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1fs411N76U",
+      "title": "[EVE]7月19日UALX-3星系Imperial Legacy vs PanFam+HRE+Winter Co.+GOTG",
+      "url": "https://www.bilibili.com/video/BV1fs411N76U/",
+      "owner_uid": "9055736",
+      "published_at": "2018-07-21T04:56:11.000Z",
+      "captured_at": null,
+      "description": "https://www.youtube.com/watch?v=F5QZaGeZzWc\n战斗KB:\nhttps://br.inyour.space/?s=4807&b=8176440&e=437&t=qvrffauurfbaruvvvvvvqvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+      "stats": {
+        "views": 2954,
+        "replies": 56
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/ualx-3-2018/materials-ualx-3-2018.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

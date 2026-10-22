@@ -1,17 +1,3 @@
----
-title: 伊瓦提，喊来无畏，还得记得加油
-aliases: [Evati无畏战, 600B down in Evati]
-epithet: 援军可以再喊，油箱不能靠热血。
-start: 2025-08-31
-systems: [Evati]
-tags: [低安, 无畏战, FRT, FL33T]
-sides:
-  - name: FRT 及友军
-    alliances: [99003581]
-  - name: DD、FL33T、深水及友军
-    alliances: [99011978, 99014062, 99012009, 99009927]
-loss_source: https://br.evetools.org/br/68b49c7a4ff6700012d911f2
----
 2025 年 8 月 31 日，伊瓦提 的星门边，DD 的噩梦与 FRT 的巴盖斯先碰上了头，旗舰后勤、无畏与更多增援随后把战斗抬了上去。[完整战报](https://br.evetools.org/br/68b49c7a4ff6700012d911f2)给这三小时记了七千多亿 ISK 的损失；FL33T 的 BearThatCares 在[复盘](https://www.reddit.com/r/Eve/comments/1n54a6m/)里，则把这场仗讲成了不断加码与后勤连环出岔子的对照戏。
 
 ## FRT 及友军

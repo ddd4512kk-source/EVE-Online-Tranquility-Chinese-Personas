@@ -33,3 +33,7 @@
 - [托蒂弗伦拆堡，援军的无畏替房东付账](../../battles/todifrauan-2025/todifrauan-2025.md)：FRT与拆堡友军；命中本人角色 1235367427。全场损失 475.557B，为各方合计，不归为个人战果。
 - 代表记录：[KM 130384039](https://zkillboard.com/kill/130384039/)，2025-10-09T05:10:19.000Z，船型 Monitor；其余记录与分方依据见[本场素材](../../battles/todifrauan-2025/materials-todifrauan-2025.md)。
 - FRT参战者Remiliascarlet7000在[战后复盘](https://www.reddit.com/r/Eve/comments/1o2z8td/)直接点名“Qxlt4”为其心中最好的FC；快照对应本号驾驶Monitor（45534）参战。指挥经历已补入“灭绝兽狂暴警告”块，不指定全场总指挥，也不把全场损失写成个人战果。
+
+## KB（自正文移入）
+
+- zKillboard 生涯击杀 1795，约 1.43 万亿 ISK，损失约 241 亿；常去星系 OSY-UD。2025-07-13 阿尔扎德（约 987.63B）曙光女神 [KM 128512936](https://zkillboard.com/kill/128512936/)，FRT。

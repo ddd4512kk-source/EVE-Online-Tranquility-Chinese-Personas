@@ -1,19 +1,3 @@
----
-title: 奥斯汀格勒，一座小堡请来几桌无畏
-aliases: [Ostingele二月无畏战]
-epithet: 本想摆个局，增援先坐错桌。
-start: 2024-02-24
-systems: [Ostingele]
-tags: [低安, 无畏战, B B C]
-sides:
-  - name: Snuff、INIT 及友军
-    alliances: [1900696668, 99004901, 99012398, 99010022, 99009163]
-  - name: Sedition、SC 及友军
-    alliances: [99009845, 495729389]
-  - name: 第三方
-    alliances: [1354830081, 99011223]
-loss_source: https://br.evetools.org/br/65d9633e9533c808994af463
----
 2024 年 2 月 24 日，奥斯汀格勒 一座阿斯特拉豪斯的计时，把无畏与各路增援都请了出来。Sedition 一方的[复盘](https://www.reddit.com/r/Eve/comments/1aynxlw/)说，他们拿建筑找架打，Cruiser Crew 先投入一批无畏，后来战斗越抬越高，连诱导与增援的落点都成了互相指责的材料。这场的两边是 Sedition、SC 及友军与 Snuff、INIT、TAMA 等，蜜蜂、Sigma 等则另成第三方。堡最后被拆，整场损失四千多亿 ISK；本来只是摆一桌，结果各家亲友团都搬来了椅子。
 
 ## Snuff、INIT 及友军

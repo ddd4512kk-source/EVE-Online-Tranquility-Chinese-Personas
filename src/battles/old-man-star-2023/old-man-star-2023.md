@@ -1,23 +1,3 @@
----
-title: 老人星，住了十二年，告别还得带无畏
-aliases: [Old Man Star告别战, Soul Takers建筑战]
-epithet: 老邻居的告别礼，是一张旗舰账单。
-start: 2023-05-27
-systems: [Old Man Star]
-tags: [低安, 无畏战, B B C, FRT]
-sides:
-  - name: Snuff、深水及友军
-    alliances: [99004901, 99009927]
-  - name: FRT、SC 与各路来客
-    alliances: [99003581, 495729389, 99010386, 1354830081, 1900696668]
-  - name: 第三方
-videos:
-  - title: "【EVE欧服】Old Man Star：1400+大乱斗（Snuffed Out敌对视角）"
-    url: "https://www.bilibili.com/video/BV15N411171m/"
-    author: "天机坊（转载整理；Snuff敌对视角）"
-    description: "把视角放在Snuff的对面，简介附战报，并拿参战一方的复杂成分打趣，为这场告别战补上另一侧的叙述。"
-loss_source: https://br.evetools.org/br/64717fa0afc8fc4c3fe95e24
----
 2023 年 5 月 27 日，老人星 的一场建筑计时，打出了五千六百多亿 ISK 的账单。当地的 Soul Takers 不只是在守一座建筑，还把它当作一场告别：按[建筑持有者的说法](https://www.reddit.com/r/Eve/comments/13txdva/)，他们从 2011 年就住在这里，十二年的老邻居，到最后仍要在无畏炮火里把话说完。
 
 这位持有者说，Snuff 清理不活跃或不配合的建筑时，曾给过“留在 WANGS 就放过建筑”的保证；可到了 5 月 22 日，所有建筑还是吃到了首轮攻击。等到真正开打，[战斗帖](https://www.reddit.com/r/Eve/comments/13vrh8q/)把规模写成五千四百多亿，保存下来的完整报表估值则为 564.53B。人情账先说不拢，最后还是得请工业账来作陪。

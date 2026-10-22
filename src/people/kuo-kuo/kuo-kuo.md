@@ -1,10 +1,3 @@
----
-character_id: 2113160766
-cn_name: 阔阔
-aliases: [kuo kuo, kuokuo, 阔老板]
-epithet: 无畏可以六开，合同请看小字。
-tags: ["00区", "低安", "虫洞", "BLKSH", ".SFI"]
----
 
 阔阔，游戏名 kuo kuo。星华出身，采星待过，2018 年转进 TEST 的永夜之剑，后来也回过 RR、DC，如今在 Salted Fish Inc。历史绕了个大圈，旧帖却常停在同一个问题上：这个当年人畜无害的萌新，怎么成了天天来打 WC 的阔老板？
 

@@ -70,4 +70,12 @@
 
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
-- 待补候选：NoNoOwO[BV157fqBkE5s](https://www.bilibili.com/video/BV157fqBkE5s/)的空间标题讲Taff旗舰战、BBC及深水、帝国、INIT对FRT、末日改版泰坦视角与约700B损失；本轮未读到明确战斗日期或简介战报，暂不与2月22日春晚合并。
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE Online】Taff旗舰战。BBC+深水+帝国+INIT VS FRT 末日改版泰坦视角，700b战损。](https://www.bilibili.com/video/BV157fqBkE5s/)：标题指名Taff旗舰战。
+- [欧服华人大战十国联军！-taff旗舰战（bbc视角）](https://www.bilibili.com/video/BV19FfKBXEWr/)：标题指名taff旗舰战。
+- [【EVE】2026.2.22塔夫月矿钻头旗舰战  帝国系死亡漩涡队视角](https://www.bilibili.com/video/BV1M4fABBEmD/)：标题写2026.2.22塔夫月矿钻头旗舰战。
+- [汉堡痛击魔丸最后一舞，FRT怎么帮CACX守钻机这么出力？？？【EVE欧服】](https://www.bilibili.com/video/BV1M4fABBEQA/)：简介战报与本场战报一致。
+- 前一轮待补候选BV157fqBkE5s已按标题与投稿日补入。

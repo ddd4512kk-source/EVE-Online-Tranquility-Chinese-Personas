@@ -1,10 +1,3 @@
----
-character_id: 2118205959
-cn_name: 小冬
-aliases: [WinterUnderTheSnow, 厚雪下的冬天]
-epithet: 老东家退盟的速报，结尾附了自家招新群和邀请链接。
-tags: ["00区", "FRT", "B站", "KHESH"]
----
 
 小冬，游戏名 WinterUnderTheSnow，B 站 UP 主“厚雪下的冬天”，签名“歌颂平凡，传奇不朽。”2021 年 2 月建号，一年多没进玩家军团，2022 年 10 月才进了 FRT 的九州二世（Gaze into the Abyss）；2023 年 1 月进了创世倾域（ChuangShi），中间在 FRT 的故土矿团和创世学院各待过半个月，2024 年 6 月转进怯薛（KheshigFleet），一直到现在。
 
@@ -41,12 +34,7 @@ KB 上他有 1378 个击杀，最常开的是净化——隐形轰炸机——�
 :::
 
 ::: 红料 B站作品精选
-
-- [《第一大华人军团创世倾域退出FRT联盟》](https://www.bilibili.com/video/BV1XbzhB3ERp/)：作者谈普通成员的去留，评论补上搬资产、随团与随联盟的不同处境；与他随后招新的动作放在一起读，人物最鲜明。
-- [《加入FRT反时区舰队！》](https://www.bilibili.com/video/BV19SUcBmEEN/)：简介明确 W 佬委托、WC HD 欧时区与目标玩家，适合认识大联盟怎样为另一批在线人口招人。
 - [《阿希尔1600人绞肉战 WinterCo VS 帝国+深水》](https://www.bilibili.com/video/BV1Ryr9BjEua/)：简介附 BR 与双方损失，并写下他对对手人数和接战的评价；有明确战报入口，可把作者口气与原报对照。
-- [《一首歌的时间，最高画质教你刷遍莫德团燃烧》](https://www.bilibili.com/video/BV1dGvaBTEaY/)：简介主动讲音乐放慢2%和部分任务不推荐刷，适合读这个教刷题材里的选择与自嘲。
-- [《当年在最硬核太空科幻游戏里大战十国联军的华人联盟怎么样了？》](https://www.bilibili.com/video/BV1YgCwBiEYZ/)：作者交代2017年起的选题范围、拆迁背景及爱丽丝音频来路；适合从公开用料说明了解他怎样搭建联盟回顾。
 :::
 
 ::: 评

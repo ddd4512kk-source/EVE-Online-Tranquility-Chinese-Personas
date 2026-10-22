@@ -94,3 +94,13 @@ zKillboard 记录 13730 次参与击杀，累计约 12.59 万亿 ISK，单杀 14
 ## otela-2024：战役参战关联
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：FRT及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
+
+## 作品精选去重（2026-10-21）
+
+以下作品已在列传正文展开，撤出精选，原故事与来源保留；撤选不代表作品质量不足：
+
+- [《【EVE欧服】突发！FRT在战争集结星系UMI爆发内战（雾）》](https://www.bilibili.com/video/BV1PN411J7cp/)：本人简介讲长尾鲛队在FRT家门口吃寒鸦，评论里又接出友军突然落地的乌龙。标题夸张、楼下接梗，适合看筱橘早期参战经历里这场被朋友们拿来打趣的交锋。
+
+## KB 细节（自正文迁入）
+- zKillboard：参与击杀 13730，累计约 12.59T，单杀 149，损失约 148.8B；常开缪宁、狂热、乌鸦。
+- 2025-06 [Lantorn](https://zkillboard.com/kill/127953781/) 鹏鲲跟队；2026-04 [Atioth](https://zkillboard.com/kill/134562370/) 带队；2026-10 [Obe](https://zkillboard.com/kill/139046684/) 乌鸦跟队；2026-03-01 MC6O-F 救世 [KM 133727721](https://zkillboard.com/kill/133727721/)（[BR](https://br.evetools.org/br/69a42471e60d670011c8adae/)，约 1.14T）；2026-04-25 北方 4-H 圣卒 [KM 134998944](https://zkillboard.com/kill/134998944/)。

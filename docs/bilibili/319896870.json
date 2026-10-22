@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "uid": "319896870",
+  "name": "一只_炒鸡",
+  "url": "https://space.bilibili.com/319896870/",
+  "identity": {
+    "state": "confirmed",
+    "person": "i-cute-money-plz",
+    "material": "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+    "label": "炒鸡",
+    "evidence": [
+      "已归本人；曼努尔视频BV1q44y1p7cS评论区"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:11:31.140Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/319896870/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:11:31.140Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/319896870/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "旧调查只见专栏或评论，未见5个EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    },
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:11:31.140Z",
+        "source": "https://space.bilibili.com/319896870/upload/video",
+        "scope": "公开投稿列表全部7条（共7条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1mtodYnESG",
+            "title": "双刃镰刀魅力时刻！",
+            "url": "https://www.bilibili.com/video/BV1mtodYnESG/",
+            "published": "2025-03-28",
+            "views": 2237
+          },
+          {
+            "bvid": "BV1y84CexEdA",
+            "title": "【EVE】单号300M/小时。采星者地平线会战点/Horizon Siege Point测试舰队，芯片+DPS视角",
+            "url": "https://www.bilibili.com/video/BV1y84CexEdA/",
+            "published": "2024-09-11",
+            "views": 3930
+          },
+          {
+            "bvid": "BV1Vm421N7vE",
+            "title": "Noraus这么可爱真是抱歉！(∠・▽ < )⌒☆星城宅舞",
+            "url": "https://www.bilibili.com/video/BV1Vm421N7vE/",
+            "published": "2024-05-27",
+            "views": 2075
+          },
+          {
+            "bvid": "BV11e41197RC",
+            "title": "【腐烂荒野】光速摆完挂机，但是整队凑不出一个阻挡位",
+            "url": "https://www.bilibili.com/video/BV11e41197RC/",
+            "published": "2023-10-30",
+            "views": 979
+          },
+          {
+            "bvid": "BV1bh4y1U7fH",
+            "title": "【EVE】凛冬联盟群率先定位第一座朱庇特星门——首杀第一视角",
+            "url": "https://www.bilibili.com/video/BV1bh4y1U7fH/",
+            "published": "2023-08-26",
+            "views": 9244
+          },
+          {
+            "bvid": "BV1cT411a7rq",
+            "title": "【AI诺娃子】N老板这么可爱真是抱歉❤",
+            "url": "https://www.bilibili.com/video/BV1cT411a7rq/",
+            "published": "2023-03-08",
+            "views": 3962
+          },
+          {
+            "bvid": "BV1y7411h7PH",
+            "title": "四分钟兔子集会——详解见论坛",
+            "url": "https://www.bilibili.com/video/BV1y7411h7PH/",
+            "published": "2020-02-06",
+            "views": 3207
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}

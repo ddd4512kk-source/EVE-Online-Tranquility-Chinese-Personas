@@ -1,0 +1,108 @@
+{
+  "battle": {
+    "title": "欧米斯特，宣战先翻译，守土靠熬夜",
+    "aliases": [
+      "欧米斯特八月攻防",
+      "AXDX-F铁壁攻防",
+      "TD与YTDS主权战",
+      "天使华人社区战争"
+    ],
+    "epithet": "宣战先翻译，停战先换锁。",
+    "start": "2023-08-15",
+    "end": "2023-08-25",
+    "systems": [
+      "AXDX-F",
+      "7L9-ZC",
+      "ZO-P5K",
+      "66-PMM",
+      "46DP-O",
+      "5OJ-G2"
+    ],
+    "tags": [
+      "00区",
+      "主权战",
+      "旗舰战"
+    ],
+    "total_loss": 124.177851429,
+    "pilots": 390,
+    "loss_is_lower_bound": true,
+    "sides": [
+      {
+        "name": "TD、墨者及友军",
+        "pilots": 181,
+        "loss": 38.147345441,
+        "loss_count": 308,
+        "people": [
+          91254848,
+          983162808,
+          2113198680,
+          2113409073,
+          2113461373,
+          2114370884,
+          2115311168,
+          2119781938
+        ],
+        "corps": [
+          {
+            "id": 98652614,
+            "pilots": 22
+          },
+          {
+            "id": 98540583,
+            "pilots": 1
+          },
+          {
+            "id": 98709916,
+            "pilots": 1
+          },
+          {
+            "id": 98626494,
+            "pilots": 1
+          }
+        ],
+        "organizations": [
+          99012104,
+          99011312,
+          99009163,
+          99010517
+        ],
+        "emblem": 99012104
+      },
+      {
+        "name": "YTDS、小绿人及友军",
+        "pilots": 206,
+        "loss": 86.030505988,
+        "loss_count": 277,
+        "people": [
+          2121492327
+        ],
+        "corps": [],
+        "organizations": [
+          99011598,
+          99006941,
+          99011267,
+          99008898,
+          99012067,
+          99002055
+        ],
+        "emblem": 99011598
+      },
+      {
+        "name": "第三方",
+        "pilots": 3,
+        "loss": 0,
+        "loss_count": 0
+      }
+    ],
+    "loss_source": [
+      "https://tieba.baidu.com/p/8703265345",
+      "https://tieba.baidu.com/p/8364932821",
+      "https://br.evetools.org/br/6540022f2fd4a6004334ef26",
+      "https://br.evetools.org/br/64de1ce3d34e4c06845f2d55",
+      "https://br.evetools.org/br/6540276ddfb173007fdbe620",
+      "https://br.evetools.org/br/64e0cfc629efee07bc084aa9",
+      "https://br.evetools.org/br/64e224f8c30f0d0870c8ab7f"
+    ]
+  },
+  "br": null
+}

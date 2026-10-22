@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "uid": "277039871",
+  "name": "sabersma",
+  "url": "https://space.bilibili.com/277039871/",
+  "identity": {
+    "state": "confirmed",
+    "person": "saber-lv1",
+    "material": "src/people/saber-lv1/materials-saber-lv1.md",
+    "label": "saber",
+    "evidence": [
+      "与别名sabersama近同；唯一投稿为本人任CEO的Salted Fish Inc招新"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-10-15T13:25:10.745Z",
+      "signature": null,
+      "counters": {
+        "followers": "35",
+        "views": "1667",
+        "videos": "·1"
+      },
+      "source": "https://space.bilibili.com/277039871"
+    },
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:10:28.752Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/277039871/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:10:28.752Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/277039871/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "unverified",
+        "captured_at": "2026-10-15T13:25:10.745Z",
+        "source": "https://space.bilibili.com/277039871",
+        "scope": "当时空间可见链接；未经作品页作者核定，不自动计入本人作品库或精选。排序URL不作为实际选中证明。",
+        "candidates": [
+          {
+            "bvid": "BV1PTcgzpERf",
+            "title": "【EVE欧服】虫洞团Salted Fish Inc 2026招新",
+            "url": "https://www.bilibili.com/video/BV1PTcgzpERf/"
+          }
+        ]
+      },
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:10:28.752Z",
+        "source": "https://space.bilibili.com/277039871/upload/video",
+        "scope": "公开投稿列表全部1条（共1条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1PTcgzpERf",
+            "title": "【EVE欧服】虫洞团Salted Fish Inc 2026招新",
+            "url": "https://www.bilibili.com/video/BV1PTcgzpERf/",
+            "published": "2026-02-09",
+            "views": 1688
+          }
+        ]
+      }
+    ],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "已见1条EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    }
+  },
+  "videos": [
+    {
+      "bvid": "BV1PTcgzpERf",
+      "title": "【EVE欧服】虫洞团Salted Fish Inc 2026招新",
+      "url": "https://www.bilibili.com/video/BV1PTcgzpERf/",
+      "owner_uid": "277039871",
+      "published_at": "2026-02-09T14:15:35.000Z",
+      "captured_at": "2026-10-21T20:27:25.556Z",
+      "description": "详见贴吧招新贴 https://tieba.baidu.com/p/10460841084?fr=personpage",
+      "stats": {
+        "views": 1686,
+        "replies": 33
+      },
+      "credit": {
+        "state": "uploader_confirmed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/saber-lv1/materials-saber-lv1.md"
+        ],
+        "scope": "已读标题、简介、公开元数据及20个已加载主评论线程和页面可见部分回复；未翻页、未完整展开楼中楼，未读影像、音轨、字幕。招新本人答复与各方评价已入素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    }
+  ]
+}

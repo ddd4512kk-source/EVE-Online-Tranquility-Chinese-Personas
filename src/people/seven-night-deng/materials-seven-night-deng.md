@@ -26,3 +26,4 @@ FRT 战报里的七夜与 NC 太极的七夜是同一人；论坛原话线索“
 ### 2026 年联盟名单
 
 - [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 Rexanna 于 Exec Leadership Team (CN) 与 Military CN（同列 Remeleen、Nolange、Garveen）。Rexanna 即七夜的号：[Rexanna（1433608019）](https://evewho.com/character/1433608019)，2007-09-10 建号，当前军团 407766322，不在 FRT。正文“上名单不用主号”是推测性调侃，名单写法也可能只是社区用名。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
+- **红料 / KB，中**：zKillboard 生涯击杀 13017、约 10.3T，损失 347；马克瑞、圣卒、永灭用得最多；常去 Saranen（NC. 地盘）。

@@ -50,3 +50,10 @@ CCP 新闻链接的完整 BR：https://br.evetools.org/br/6017dee563b1ed001b2f3c
 | --- | --- | --- |
 | 3179 | 11454.435302299 | 1599 |
 | 3706 | 12535.672836106 | 1810 |
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [Eve欧服-史上最强！绝地M2-XFE超旗战视频 (RR联盟第一视角）](https://www.bilibili.com/video/BV17i4y1F7U7/)：标题指名M2-XFE，投稿日2020-12-31。
+- [[Eve Online] A Timelapse and Breakdown of The Battle of M2-XFE](https://www.youtube.com/watch?v=rs1HkgqLKUA)：YouTube标题指名M2-XFE。

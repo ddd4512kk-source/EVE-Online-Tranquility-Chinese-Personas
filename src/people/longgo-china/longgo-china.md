@@ -1,10 +1,3 @@
----
-character_id: 2123637325
-cn_name: 龙哥
-aliases: [Sirikka Soikutsu, longgo china, 中国龙哥, 宁德时代]
-epithet: 简介是收购价目表，暴雷一次就秽土转生一次。
-tags: ["00区", "RMT", "脚本", "低素质"]
----
 
 龙哥，主号 Sirikka Soikutsu（2025 年 7 月建号），老号 longgo china 2018 年 6 月建号，如今主要用前者：2025 年底起在混沌仲裁、Redamancy.、PLA 之间辗转，2026 年 6 月又进过 Faceless.，8 月短暂停靠 Brave 旗下的 Gold Wings Of Eternity 后又退了团。老号 2019、2020 年两度在 PLA，当时 PLA 挂在蜜蜂（Goonswarm Federation）旗下；2021 年 9 月转进 FRT 的银鹰骑士团（Knights of the Silver Eagle，K-SE），待到 2023 年 9 月。WC 远征频道里那个手速极快的“宁德时代”，也是他——据说手速快，是因为有脚本。他的 RMT 生意前后有两拨号：FRT 那批因 RMT 被官方封掉，才到帝国另开第二批。角色能重新创建，生意倒舍不得重新做人。
 

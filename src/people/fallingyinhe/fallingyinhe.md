@@ -1,10 +1,3 @@
----
-character_id: 2123951202
-cn_name: 坠落银河
-aliases: [Fallingyinhe, Fallingtianhe, 麦芽]
-epithet: 一人如星，招新帖三十七层全是自己点亮。
-tags: ["高安", "低安", "SPA", "ATYDE", "CEO"]
----
 
 坠落银河，游戏名 Fallingyinhe，角色头衔写“麦芽”。号是 2025 年底建的，2026 年 8 月 12 日他开了高安生活团潮汐星空（Astral Tide，ATYDE），创建者和 CEO 都是这个角色；9 月 2 日又建小号 Fallingtianhe，当天开出低安发展团潮汐星渊（ASTRAL ATYDE，ATYDX），一高一低两个团都由他和小号坐镇。9 月底，潮汐星空加入 Storm Petrel Alliance。贴吧账号用的是吧龄近十五年的老号“坠落银河🌙”。
 

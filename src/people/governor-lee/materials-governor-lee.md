@@ -7,7 +7,7 @@
 - EVE 官方论坛账号 **Governor_Lee**：2020 年两个招新主题，2022-03-02 在 Aiko Danuja 主题下连发十余帖。
 - Absolute Order（98595110）由 **Governor Alt Mrlee**（2114504912）于 2019-03-18 创建（ESI creator_id）；该号现属 98644983，即 GovLee 2021-11 在 [7630114741](https://tieba.baidu.com/p/7630114741) 贴出 KB 的 C 低安海盗小团，按名字与军团判为本人小号。现任 CEO 为 Governor Lee（ESI，2026-10-09，主团 6824 人）。
 - 推特 1729567606237970883 按 ID 换算为 2023-11-28。
-- 早期角色：2019-03 GovLee🍺 在吧里为 Fade 租地联盟 Gemini Whale United、作战团 Harmony Order 招人，“申请的话先发邮件给 Governor Mrlee”（[6065284894](https://tieba.baidu.com/p/6065284894)）。Governor Mrlee 的角色 ID 未查。
+- 早期角色：[Governor MrLee（2114459530）](https://esi.evetech.net/latest/characters/2114459530/)：2019-03，GovLee🍺 在吧里为 Fade 租地联盟 Gemini Whale United、作战团 Harmony Order 招人，“申请的话先发邮件给 Governor Mrlee”（[6065284894](https://tieba.baidu.com/p/6065284894)）。ESI 角色名与帖子中的招募联系人一致，归为本人小号；其 Fade 时期战绩未查。
 - 吧里称呼：李将军（[7765558746](https://tieba.baidu.com/p/7765558746) #10）、曹丕李 / 曹呸李（[7630114741](https://tieba.baidu.com/p/7630114741)）；英文文档称 General Lee；2025 年有人开了个恶搞号 Gov_Nah_Lee。[7802905564](https://tieba.baidu.com/p/7802905564)、[7765558746](https://tieba.baidu.com/p/7765558746) 里有吧友叫他“老李”，但社区里“老李”另有其人，列传不用这个称呼。
 - 2022-04 吧友纵横沙场Ω称 CEO 是“在法华人”，2020-06 GovLee 自称二团是“法国大学的同学”。属现实身份信息，不写入列传。
 
@@ -62,7 +62,7 @@
 - B 站：宣传视频评论 412；搜“肃正 eve”除该视频外无相关。
 - 百度：“肃正 纳粹 eve欧服吧”只回招新帖；必应三组关键词零结果；自带搜索英文多组零结果。官方论坛 search.json 和凛冬论坛才有料。
 - 贴吧 GovLee🍺 另有 2013 年手游帖、2023 年命理帖，与 EVE 无关，未写入。
-- Governor Mrlee 的角色 ID、Fade 租地时期战绩未查。
+- Governor MrLee 的 Fade 租地时期战绩未查。
 
 - [贴吧 7382775488](https://tieba.baidu.com/p/7382775488)可见文字复读：五条可见主楼已读，题为肃正2021宣传视频，主楼无文字，二楼链接BV15y4y137iS，后面只顶帖；视频须独立看，不能按标题补视频讲话。
 
@@ -97,3 +97,7 @@
 同一作品现有3327播放、21条评论计数；实际读到19个主评论线程及直接显示的回复，未翻页或展开其余回复。商见曜灬说“好羡慕这样乌泱泱的队友”，Sakmisteres称“精英战斗团 3D”；不见浂说第一次见实践大队，卡萨卡拉问“实践也能起队么，为啥不起缪宁呢”，-IOWA-建议拍旗舰与超旗混合队伍，认为看起来会更爽。雷雷与波斯间奏曲说看到自己；账号已注销的评论者说喜欢德国战车BGM，其他评论多是叫好、考古与游戏名称玩笑。配乐和人物画面均仅是观众说法，没有观看影像或听音频验证。
 
 招新规模与舰队门面的反差已补入正文“从十个人到两万七千人”。作品作者仍是Karthuser，不因简介联系人或观众叫好而认成李将军本人账号。此前“评论未加载”的具体缺口已解决；没有新的明确事件需要扩大评论阅读范围，本入口从失败队列移出。计数与实际阅读覆盖分别保留，不宣称全评论读完。
+
+### 战绩数字（自正文移入）
+
+- KB：2221 杀、约两万亿 ISK。2024-02 Camal、Sieh、Y-MPWL 三座 Keepstar：[KM 115543432](https://zkillboard.com/kill/115543432/)、[115593836](https://zkillboard.com/kill/115593836/)、[115743779](https://zkillboard.com/kill/115743779/)，当月击杀约 8900 亿。2023-05-27 老人星（大型，约 564.53B）[KM 109208202](https://zkillboard.com/kill/109208202/)，夜鹰，Absolute Honor 一方，原报分在含 FRT、帝国的第二组。

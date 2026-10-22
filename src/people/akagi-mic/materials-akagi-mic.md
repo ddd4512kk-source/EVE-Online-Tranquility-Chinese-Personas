@@ -10,6 +10,7 @@
 
 - **红料 / 团方理念，中**：[2017 年招新](https://forums.winterco.org/t/topic/14132)、[2020 年招新](https://forums.winterco.org/t/topic/5695)讲低税、真实生活优先、避免上班式出勤，且反对打架输了在本地辱骂，也反对把战争解释成“中国人打老外”。发帖作者是 En_Taro_Zealand、ALKFT_Atildhasd，**不是 Akagi**；只作军团文化背景，不冒充 CEO 原话。
 - **轻梗，中**：鹅神在招新回帖喊“Akagi 女装”；Akagi 在[鹅神 T1 solo 配置帖](https://forums.winterco.org/t/topic/6115/6)回复“鹅神 nb 嗷（一张女装交换来的）”。两边都有原帖，保留公开游戏圈玩笑，不找或放现实照片。
+- **红料 / KB，中**：[zKillboard](https://zkillboard.com/character/2113316712/) 生涯击杀 3558，约 4.25 万亿 ISK，损失约 380 亿；常用休津、狂热、缪宁。2018-05-20 C-LTXS 一战 KM 上有俄洛巴斯、神使泰坦，当月击杀约 1.19 万亿。
 - **黑料待补**：没有具体管理争执。两句玩梗适合放同一旁笔，不硬拆为两个负面事件。
 
 ### 检索记录与缺口

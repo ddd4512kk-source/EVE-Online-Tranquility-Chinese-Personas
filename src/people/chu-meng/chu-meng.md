@@ -1,10 +1,3 @@
----
-character_id: 2116299695
-cn_name: 初梦
-aliases: [chu meng, YoYo zhang]
-epithet: 名字怕人记不住，战斗业务倒都归他
-tags: [00区, NC, FOXOR, FC]
----
 
 初梦，游戏名 chu meng，也用 YoYo zhang，抵抗之狐的股东与战斗总监。本人把名片写成一长句，意思是名字长才容易被记住；[军团官网](https://foxor.cc/team/)则替他省了记忆功夫，把战斗相关业务都划进他的职责。
 

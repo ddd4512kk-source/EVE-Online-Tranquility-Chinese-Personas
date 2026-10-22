@@ -7,7 +7,7 @@
 import "./runtime.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
-import matter from "gray-matter";
+import { readPersonDocument } from "./person-document.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
@@ -25,7 +25,7 @@ async function existing() {
   for (const entry of await fs.readdir(PEOPLE_DIR, { withFileTypes: true })) {
     if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
     const file = `${entry.name}/${entry.name}.md`;
-    const { data } = matter(await fs.readFile(path.join(PEOPLE_DIR, file), "utf8"));
+    const { data } = readPersonDocument(path.join(PEOPLE_DIR, file));
     map.set(Number(data.character_id), file);
   }
   return map;

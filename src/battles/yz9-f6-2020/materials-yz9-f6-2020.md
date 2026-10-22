@@ -24,3 +24,13 @@ FWST-8前后两轮已另立页，705B属于2020-10-06—07第二轮，不与10�
 ## 军团分类修正（2026-10-20）
 
 GoonWaffe（667531913）为非华人军团，移出手填华人军团corps；阿舍的本人带队、历史军团归属及参战关联不变。名称表未给该团标chinese，故本次只修手填名单。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE Online 】- 巨人的陨落（YZ9-F6 (Delve)）](https://www.bilibili.com/video/BV1VV411y7fa/)：标题指名YZ9-F6，投稿日2020-10-24。
+- [【EVE欧服】YZ9-F6超旗战，GOONS12艘泰坦战沉，全高画质OB视角](https://www.bilibili.com/video/BV1wy4y1r7fv/)：B站搜索“EVE YZ9”所得；投稿日2020-10-15即开战当天
+- [EVE欧服10月15日YZ9超旗会战，帝国方无畏大航视角。](https://www.bilibili.com/video/BV1ca411A7ZQ/)：B站搜索所得；投稿日2020-10-15，简介附br.evetools战报
+- [EVE 欧服 绝地YZ9 泰坦超旗战 2020](https://www.bilibili.com/video/BV1Rp4y1r7uY/)：B站搜索所得；投稿日2020-10-15，简介附br.evetools战报与r/Eve上Operation ENHO的战后总结
+- [Eve Online_YZ9-F6超旗战](https://www.bilibili.com/video/BV1WD4y1d7LG/)：B站搜索所得；投稿日2020-10-16，简介挂YouTube原片、EN-PL军团信息与br.evetools战报

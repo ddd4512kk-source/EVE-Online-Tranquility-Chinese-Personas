@@ -85,3 +85,4 @@
 ## otela-2024：战役参战关联
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：深水及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
+- **红料 / KB，中**：Hanbo HAN 击杀 2849、约 3.45 万亿、单杀 111、损失 906 次约 1887 亿；常用恶狼、复仇者、马克瑞。2025-06 希瑟伊德超旗会战 never left 驾驶海军神示，[KM 128026797](https://zkillboard.com/kill/128026797/)；2026-02-22 Taff 海军神示 [KM 133567667](https://zkillboard.com/kill/133567667/)；2026-03-01 MC6O-F 本人 [KM 133727510](https://zkillboard.com/kill/133727510/)；2026-10-10 Obe，Snuff 一侧，FRT 打掉九条泰坦合计约 1.35T，never left 海军神示参战，主号丢伏波斯约 3 亿 [KM 139046920](https://zkillboard.com/kill/139046920/)，场景 [KM 139047676](https://zkillboard.com/kill/139047676/)。

@@ -119,3 +119,11 @@ Legion of xXDEATHXx（1411711376）归 AOM 及友军一方，从 FRT 一方移�
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
 - [AOM超旗烟花纯享版](https://www.bilibili.com/video/BV1Vf4y1w74W/)：复用曼努尔素材已有完整投稿标题与简介调查记录：2021-09-18发布，原简介BR6144a372874be8002b6a78cd明确对应2021-09-17 A1-AUH。本轮未另取视频页，不评价剪辑质量或声称观看影像。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)](https://www.bilibili.com/video/BV16R4y1H7SD/)：标题指名A1-AUH与917，投稿日次日。
+- [EVE欧服 FRT三满编舰队吃AOM超旗队](https://www.bilibili.com/video/BV1eh411p7c6/)：投稿日次日，标题对阵与本场相符。
+- [【EVE Online】闪击归魂者。Snuff&Goons&INIT VS FRT 1归魂3冥府击杀](https://www.bilibili.com/video/BV13f4y1w7qZ/)：投稿日当天，标题对阵与本场第三方相符。

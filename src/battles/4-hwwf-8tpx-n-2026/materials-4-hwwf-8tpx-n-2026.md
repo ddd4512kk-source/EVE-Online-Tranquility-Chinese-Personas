@@ -108,3 +108,12 @@
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
 - [【EVE中文】从西对舞到 4-HWWF 首都星城被打进结构增强，凛冬梯次防御未能阻挡帝国脚步](https://www.bilibili.com/video/BV1htofBtEBp/)：简介明确2026-04-25及4-HWWF装甲计时；另述多路进攻。视频介绍整轮攻势，本页统计仅覆盖4-HWWF、8TPX-N两处主战，不将简介动员人数套为本页去重角色数。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE 万人会战】“胸有凌云志，手可摘星辰”4-HWWF装甲攻坚战全复盘](https://www.bilibili.com/video/BV14WorBTE7G/)：标题指名4-HWWF装甲攻坚战，投稿日2026-04-27；同时出现在两位UP主投稿列表。
+- [【补档】【EVE】2026.4.26 帝国系与INIT带领欧服玩家进攻凛冬联盟群首都4-HWWF星城装甲](https://www.bilibili.com/video/BV1K29yBuEQS/)：标题写2026.4.26（北京时间）与4-HWWF星城装甲。
+- [Eve Online 4-H旁FRT大溃败](https://www.bilibili.com/video/BV1zWodBYECW/)：标题指4-H，简介战报为2026-04-25 15:00。
+- [【EVE直播回放】FRT首都之战（4H星城退增强）](https://www.bilibili.com/video/BV1QZoRBnEbC/)：标题指4H星城，投稿日当天。

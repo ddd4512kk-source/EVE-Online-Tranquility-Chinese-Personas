@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "uid": "60477858",
+  "name": "Six-Bamboo",
+  "url": "https://space.bilibili.com/60477858/",
+  "identity": {
+    "state": "confirmed",
+    "person": "six-bamboo",
+    "material": "src/people/six-bamboo/materials-six-bamboo.md",
+    "label": "六竹",
+    "evidence": [
+      "同名；BV1Zq4y1Q7E2投稿者"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:15:16.000Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/60477858/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:15:16.000Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/60477858/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "未见5个EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    },
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:15:16.000Z",
+        "source": "https://space.bilibili.com/60477858/upload/video",
+        "scope": "公开投稿列表全部3条（共3条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1Zq4y1Q7E2",
+            "title": "EVE欧服 ESS赏金池 钥匙低成本攻略",
+            "url": "https://www.bilibili.com/video/BV1Zq4y1Q7E2/",
+            "published": "2021-08-15",
+            "views": 5770
+          },
+          {
+            "bvid": "BV1zK411g7ax",
+            "title": "EVE世界服 军团招新",
+            "url": "https://www.bilibili.com/video/BV1zK411g7ax/",
+            "published": "2020-12-24",
+            "views": 114
+          },
+          {
+            "bvid": "BV1Ky4y1q7ZE",
+            "title": "EVE 行星开发种菜基础-不喜勿喷",
+            "url": "https://www.bilibili.com/video/BV1Ky4y1q7ZE/",
+            "published": "2020-11-22",
+            "views": 384
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV1Zq4y1Q7E2",
+      "title": "EVE欧服 ESS赏金池 钥匙低成本攻略",
+      "url": "https://www.bilibili.com/video/BV1Zq4y1Q7E2/",
+      "owner_uid": "60477858",
+      "published_at": "2021-08-15T17:16:37.000Z",
+      "captured_at": null,
+      "description": "EVE欧服\nFRT旗下HPGC快乐游戏俱乐部-----我们是一群开拓者\nBGM：《骑蜂了》MV——女声版(歌手:冷冷)\nhttps://www.bilibili.com/video/BV13p4y1H7kW?from=search&seid=9951374717746229135\n因为视频录制时有其他的事情所有看起来比较危险，实际很简单，防御压力不大\n技能方面掠夺4级、白蛋、整体配置2.5b以内",
+      "stats": {
+        "views": 5768,
+        "replies": 27
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/six-bamboo/materials-six-bamboo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    }
+  ]
+}

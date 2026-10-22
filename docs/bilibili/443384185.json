@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "uid": "443384185",
+  "name": "bili_443384185",
+  "url": "https://space.bilibili.com/443384185/",
+  "identity": {
+    "state": "source",
+    "person": null,
+    "material": "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "label": "战役相关视频投稿者；本人未对应",
+    "evidence": [
+      "投稿BV1MN9ZBCE9R，列为t8t-ra-2026相关视频"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定频道覆盖；仅因战役相关视频登记。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定频道覆盖；仅因战役相关视频登记。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定频道覆盖；仅因战役相关视频登记。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "listings": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1MN9ZBCE9R",
+      "title": "[EVE欧服] 2.5T战损！ 绝地T8T 自由之翼&华人联军 VS OF联军 无畏视角",
+      "url": "https://www.bilibili.com/video/BV1MN9ZBCE9R/",
+      "owner_uid": "443384185",
+      "published_at": "2026-05-03T06:36:15.000Z",
+      "captured_at": null,
+      "description": "BR:https://warbeacon.net/br/related/30003966/202605022100/",
+      "stats": {
+        "views": 2889,
+        "replies": 78
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

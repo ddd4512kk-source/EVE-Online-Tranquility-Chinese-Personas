@@ -1,10 +1,3 @@
----
-character_id: 2123517640
-cn_name: 红叶
-aliases: [Red-Leaf, Ge_的风范]
-epithet: 零税零强制，唯一别买金
-tags: ["高安", "RL.T", "CEO"]
----
 
 红叶，游戏角色 Red-Leaf，红叶酒馆（Red.Leaf's Tavern）的创办者。2025 年 6 月 22 日，[混沌新人被踢的帖子](https://tieba.baidu.com/p/9745245593)还在争警告次数、船型规矩和间谍帽子，他用“Ge_的风范”借楼招新：“哥们可以看看我新建的高安军团，0税。没有任何规矩。”
 

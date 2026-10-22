@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "uid": "33807",
+  "name": "v琦仔家的s2",
+  "url": "https://space.bilibili.com/33807/",
+  "identity": {
+    "state": "confirmed",
+    "person": "s2eirio",
+    "material": "src/people/s2eirio/materials-s2eirio.md",
+    "label": "E姐",
+    "evidence": [
+      "同名（用户搜索确切匹配）；专栏cv22708815星空会技能点攻略文集"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:11:46.932Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/33807/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:11:46.932Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/33807/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "旧调查只见专栏或评论，未见5个EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    },
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:11:46.932Z",
+        "source": "https://space.bilibili.com/33807/upload/video",
+        "scope": "公开投稿列表全部8条（共8条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1WirPYFE5L",
+            "title": "重新激活",
+            "url": "https://www.bilibili.com/video/BV1WirPYFE5L/",
+            "published": "2025-01-05",
+            "views": 174
+          },
+          {
+            "bvid": "BV1serPYhENg",
+            "title": "设置采集",
+            "url": "https://www.bilibili.com/video/BV1serPYhENg/",
+            "published": "2025-01-05",
+            "views": 134
+          },
+          {
+            "bvid": "BV1pirPYFEhr",
+            "title": "加工送料",
+            "url": "https://www.bilibili.com/video/BV1pirPYFEhr/",
+            "published": "2025-01-05",
+            "views": 128
+          },
+          {
+            "bvid": "BV19rWzeQEAu",
+            "title": "【EVE】【星空会-探险家】探索计划快速刷法",
+            "url": "https://www.bilibili.com/video/BV19rWzeQEAu/",
+            "published": "2024-08-25",
+            "views": 2298
+          },
+          {
+            "bvid": "BV1us41147TN",
+            "title": "【S2】雨满武陵春 remix【洛天依】失踪人口回归致敬向",
+            "url": "https://www.bilibili.com/video/BV1us41147TN/",
+            "published": "2016-10-12",
+            "views": 253
+          },
+          {
+            "bvid": "BV1os411x7ku",
+            "title": "【S2】【原创】【剑三同人电音】归寂【幻晓伊】",
+            "url": "https://www.bilibili.com/video/BV1os411x7ku/",
+            "published": "2016-10-09",
+            "views": 634
+          },
+          {
+            "bvid": "BV1ks411r7Ri",
+            "title": "【国人原创】【S2】done-s-2=da-musc_SP【音源：幻晓伊】",
+            "url": "https://www.bilibili.com/video/BV1ks411r7Ri/",
+            "published": "2016-08-14",
+            "views": 409
+          },
+          {
+            "bvid": "BV16s411d7Qj",
+            "title": "【S2】funky night【言和】",
+            "url": "https://www.bilibili.com/video/BV16s411d7Qj/",
+            "published": "2015-11-29",
+            "views": 715
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}

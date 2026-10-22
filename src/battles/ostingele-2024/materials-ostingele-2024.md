@@ -36,3 +36,9 @@
 [Sedition 方复盘及评论](https://www.reddit.com/r/Eve/comments/1aynxlw/)：主帖写 Snuff／TAMA 与 INIT／TDSIN 升级介入，后来有 Sigma、INIT、Goons 的增援。RexAzzholes 评论称 Goons 攻击他们的友军，他联系另一支 INIT 舰队 FC 要求停火；Mikal_Vexor 称 Goons 得知有旗舰可打，却未被告知各支舰队的友军关系。正文按双方说法叙述，不将误击或发令责任套给本站人物。BR 原始分组与单方复盘的概括区分保留。
 
 星系中文名：Ostingele → 奥斯汀格勒，据 [CCP ESI 中文星系资料](https://esi.evetech.net/latest/universe/systems/30003792/?language=zh)（2026-10-19 核对）；标题与正文使用中文，`systems` 和英文别名保留游戏内原名。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [[EVE Online]大型会战纪录](https://www.bilibili.com/video/BV1Av421k7PS/)：投稿日2024-02-26，战后两天；标题未写星系与对阵，按日期对应

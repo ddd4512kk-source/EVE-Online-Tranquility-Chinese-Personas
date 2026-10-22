@@ -1,10 +1,3 @@
----
-character_id: 96506815
-cn_name: 梁天
-aliases: [Xaivada Skywalker, WTB Fanta, Uber Eat]
-epithet: 对外谈合作，出门带黑隐，回家管IT
-tags: [00区, NC, FOXOR, FC]
----
 
 梁天，抵抗之狐的 Xaivada Skywalker，名片挂着“FOX镶黄旗”“第一巴图鲁”。[军团官网](https://foxor.cc/team/)给这位巴图鲁安排的实职不少：欧区外交总监、黑隐队指挥官，外加 IT 运维。
 

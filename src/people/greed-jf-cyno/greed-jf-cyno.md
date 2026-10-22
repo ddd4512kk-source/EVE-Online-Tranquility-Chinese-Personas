@@ -1,10 +1,3 @@
----
-character_id: 2114409630
-cn_name: 龙根
-aliases: [Greed jf cyno, Greed, Greed Island, 龙根]
-epithet: 快递是他黑的，理由是你态度不好。
-tags: ["00区", "FRT", "工业", "FRTHD", "联盟高层"]
----
 
 龙根，收录角色 Greed jf cyno——名字直译就是“贪婪·跳货·诱导”，一个专门给跳货开诱导的号。头衔就两个字：“龙根”。他在 FRT 管的是后方：联盟建筑（FRTBM）、跳桥燃料、精炼站、公共月矿，还有那个叫“顺丰”的联盟快递。
 

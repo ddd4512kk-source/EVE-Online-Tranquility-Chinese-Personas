@@ -1,10 +1,3 @@
----
-character_id: 2118729398
-cn_name: 嘎子哥
-aliases: [YAGAHA, YAGAHA3]
-epithet: 星华被踢九小时后另起炉灶，从此在Goons拴着短绳过日子。
-tags: [00区, CEO, KN-L, CONDI]
----
 
 嘎子哥，游戏名YAGAHA，头衔干脆写着“嘎子哥 CEO”。他2021年8月进了[夺米台风](../2113029856/)的星华，两个号在那里一待就是四年半，跟着星华一路漂到Goons。
 

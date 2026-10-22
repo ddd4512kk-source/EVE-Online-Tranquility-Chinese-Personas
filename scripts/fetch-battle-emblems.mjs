@@ -1,6 +1,6 @@
 import { readdir, readFile, mkdir, writeFile, rename } from "node:fs/promises";
 import path from "node:path";
-import matter from "gray-matter";
+import { readBattleDocument } from "./battle-archive.mjs";
 import { emblemSides } from "./battle-emblem.mjs";
 import { createRequestGuard } from "./research/request-guard.mjs";
 
@@ -9,10 +9,10 @@ const names = JSON.parse(await readFile(path.join(root, "src/_data/entityNames.j
 const logos = new Map();
 for (const dir of await readdir(path.join(root, "src/battles"), { withFileTypes: true })) {
   if (!dir.isDirectory() || dir.name.startsWith("_")) continue;
-  const data = matter(await readFile(path.join(root, "src/battles", dir.name, `${dir.name}.md`), "utf8")).data;
-  const sides = (data.sides ?? []).map((s) => ({ ...s, alliances: (s.alliances ?? []).map((id) => ({
-    id, kind: names.alliances[id] ? "alliance" : "corporation",
-  })) }));
+  const data = readBattleDocument(path.join(root, "src/battles", dir.name, `${dir.name}.md`)).data;
+  const sides = (data.sides ?? []).map(s => ({ ...s, emblemOrganization: s.emblem ? {
+    id: s.emblem, kind: names.alliances[s.emblem] ? "alliance" : "corporation",
+  } : null }));
   for (const side of emblemSides(sides)) for (const logo of side.logos) logos.set(logo.src, logo);
 }
 // 每批至多 60 枚，只取缺失图标；遇拦截停止，已缓存图标不联网。

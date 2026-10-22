@@ -1,10 +1,3 @@
----
-character_id: 2120556332
-cn_name: 星烨
-aliases: [Hoshino X, 摆烂王, 金色镰刀, Hoshino Y]
-epithet: 顶着摆烂王，交接还得他来办
-tags: ["00区", "INIT.", "E   S", "CEO"]
----
 
 星烨，游戏名 Hoshino X，帝皇之镰 ES 的现任登记 CEO，头衔还挂着“摆烂王”“`金色镰刀`”。名号很闲，已有的故事却是被安排处理军团闹翻后的交接。
 

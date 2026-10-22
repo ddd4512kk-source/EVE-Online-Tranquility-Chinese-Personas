@@ -85,4 +85,12 @@
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
 - [[EVE Online 星战前夜] 8F-TK3  |  DC+WINGS+CN联军 VS. WOMP  |  10/04/2026 投弹视角作战纪实](https://www.bilibili.com/video/BV1PiHn6REBo/)：标题明确2026-10-04、星系及双方；简介所附WarBeacon战报33fd4944-2f3e-4453-90ce-cbdfae2d6f04与本页一致。简介另注明击杀提示的时间对齐仅供参考，不能据此逐条认定投弹战果。
-- 待补候选：[《群星汇聚-纪念8F-TK3会战》BV1rHH96VEFx](https://www.bilibili.com/video/BV1rHH96VEFx/)，Awakeallnight，2026-10-08发布，简介署素材来源Warlockindustries；本地仅见列表元数据与简短署名，未读到足以介绍具体内容的公开文字，暂不入选。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE Online】8F-TK3会战纪实(无畏视角10.4)](https://www.bilibili.com/video/BV17VHp6EEpN/)：标题指名8F-TK3与10.4。
+- [群星汇聚-纪念8F-TK3会战](https://www.bilibili.com/video/BV1rHH96VEFx/)：标题指名8F-TK3会战。
+- [［EVE欧服］8F-无畏战，WINGS联军+DC对阵WOMP](https://www.bilibili.com/video/BV1GxHp6gEva/)：标题指8F无畏战，投稿日2026-10-05。
+- 前一轮待补候选BV1rHH96VEFx已按标题与投稿日补入。

@@ -6,7 +6,7 @@
 - 社区前情与复盘：[Faymm原帖](https://www.reddit.com/r/Eve/comments/1iwdplc/idiot_lowsec_group_starts_massive_lowsec_shitfest/)，2025-02-23，Samurai Lounge一方；已读主帖正文及此次页面展开的可见评论，未打开折叠评论，不读视频、音频或字幕。
 - 星系30002099，Egmar；CCP ESI简中星系资料返回“艾格玛尔”，已补全站名称表。
 - UTC窗口：2025-02-02T13:10:59+00:00 至 2025-02-02T14:48:43+00:00。只统计该星系；KM按ID去重，逐条totalValue求和与原报totalLost一致。
-- 总损失389.960780518B，337角色；计人数是角色ID并集，非自然人数或同屏峰值。br.json使用仓库buildSnapshot/stringifySnapshot生成，未手写快照。
+- 总损失389.960780518B，337角色；计人数是角色ID并集，非自然人数或同屏峰值。egmar-2025-02-02.json的br使用仓库buildSnapshot/stringifySnapshot生成，未手写快照。
 
 ## 阵营映射
 
@@ -42,3 +42,9 @@ Faymm在2月23日新帖回顾几周前与FRT的一场旗舰混战，并直接链
 ## 边界与续查
 
 本场Monitor角色先与全部收录号及alts对照；QHei／2121165138复用漆黑既有同人链。pallas3、Eternityblue、PeriodicTpr已读ESI名片、综合KB并分别立传，当前归属与战时归属分开记。外文军团的Horde Vanguard.驾驶员不因与PH同场就自动认华人。未对应的游戏账号与未展开评论不作已完成全社区清查。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [00小军团的第一次无畏战,艾格马尔旗舰战【EVE欧服】](https://www.bilibili.com/video/BV1yrNweHED9/)：标题指名艾格马尔旗舰战，投稿日2025-02-04。

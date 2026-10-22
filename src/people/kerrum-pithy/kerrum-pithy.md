@@ -1,15 +1,10 @@
----
-character_id: 2119060315
-cn_name: 皮卡
-aliases: [notHenryZ, PEKKA, 贝斯城管, Ashemi Shaishi, Kerrum Pithy, Vocan Hephaes]
-epithet: 教配船，也教多开抠活动奖励。
-tags: ["00区", "WINGS", "B站", "CSQY"]
----
 
 皮卡，B 站 notHenryZ，一人三号：主号 Kerrum Pithy（头衔“PEKKA”，自封“✪ 贝斯城管 ✪”），外加 Vocan Hephaes（头衔“皮卡”）和 Ashemi Shaishi（头衔“皮卡小号”），三号同在创世，头衔编号都是 #69530。B 站上，他一会儿讲舰船装配，一会儿剪会战录像，还把多账号做活动的流程拆成了教程。
 
 ::: 红料 GM 周一夜，四艘泰坦入账
-2023 年 10 月 23 日，官方 GM 周开幕，Yulai 摆了一场“打 GM”的活动。皮卡驾着一艘 Caracal 挤进了近千人的围殴：[182B 的 GM Grimmi](https://zkillboard.com/kill/112562581/)、[173B 的 GM Fate](https://zkillboard.com/kill/112562913/)、[181B 的 GM Guard](https://zkillboard.com/kill/112563235/)，加上同夜两艘五六百亿的大块头，KM 上都有他的名字。这一晚单月就记了 650.7B，占他全部击杀 ISK（1730B）的近四成，常用船表上排第一的 Sacrilege 想追也追不上。KM 上有名字只说明参与了，但账面不骗人：他这辈子最肥的一个月，是 GM 周凑热闹打出来的。
+皮卡的 KB 是一本很不均匀的账：一千多个击杀，一万七千多亿，最常开的是亵渎者、海军型执法者、魔术师、恶魔、克洛诺斯。账上最肥的一个月，不是哪场军团大战，而是 2023 年 10 月官方 GM 周开幕那天。
+
+那晚 Yulai 摆了一场“打 GM”的活动，近千人围着官方 GM 的泰坦打，皮卡驾着一艘 Caracal 挤在里面。[GM Grimmi](https://zkillboard.com/kill/112562581/)、[GM Fate](https://zkillboard.com/kill/112562913/)、[GM Guard](https://zkillboard.com/kill/112563235/)，三艘都是近两千亿的大块头，加上同夜两艘五百多亿的，KM 上全有他的名字。这一个月他记了六千多亿，占整个生涯击杀额的近四成，常用船表上排第一的亵渎者怎么追也追不上。KM 上有名字只说明参与了，账面却不骗人：他这辈子最肥的一个月，是凑热闹凑出来的，一艘巡洋舰混在几百人里，分到了泰坦的零头。
 :::
 
 ::: 红料 装配课从第零期讲起
@@ -19,7 +14,7 @@ tags: ["00区", "WINGS", "B站", "CSQY"]
 :::
 
 ::: 红料 同一频道，战报和速刷都拍
-2026 年 5 月 2 日的[创世倾域与 OnlyFleets 会战录像](https://www.bilibili.com/video/BV1L49dBDE4t)，他同时给了重拦、网子夜魔侠和 T1 无畏视角，简介附 BR，还感谢 DC、FRT、INIT、OSY、龙骑等友军，结尾是“多打，爱打”。10 月 4 日的[8F-TK3 投弹视角](https://www.bilibili.com/video/BV1PiHn6REBo)则把画面加速八倍，并注明击杀邮件时间轴只供参考，不能精确对应每个击杀。
+2026 年 5 月 2 日[T8T-RA会战](../../battles/t8t-ra-2026/)的[创世倾域与 OnlyFleets 会战录像](https://www.bilibili.com/video/BV1L49dBDE4t)，他同时给了重拦、网子夜魔侠和 T1 无畏视角，简介附 BR，还感谢 DC、FRT、INIT、OSY、龙骑等友军，结尾是“多打，爱打”。10 月 4 日的[8F-TK3 投弹视角](https://www.bilibili.com/video/BV1PiHn6REBo)则把画面加速八倍，并注明击杀邮件时间轴只供参考，不能精确对应每个击杀。
 
 4 月的[总统大选活动速刷流程](https://www.bilibili.com/video/BV1WcDHBfEGd)更细：他交代视频里的号都有月卡、交易只在自己的账号之间进行，再写新角色切换军团如何重置冷却，以及路线上的操作失误；自估整套流程约一个半小时。别人拍速刷只亮收益，他先把账号、机制和失误逐条报备，像是生怕观众漏看说明书。
 :::
@@ -31,12 +26,7 @@ tags: ["00区", "WINGS", "B站", "CSQY"]
 :::
 
 ::: 红料 B站作品精选
-
 - [《隐轰速刷四级任务合集》](https://www.bilibili.com/video/BV1xjf7BrErT/)：置顶把五段任务逐一给了时间入口，简介说明参考攻略出处，还讨论另一种隐轰配置的CPU余量。适合从这份目录和配装取舍，认识他怎样把几趟任务整理成一份方便查找的讲义。
-- [《Anomic Base——天蛇基地，双推恩尤攻略》](https://www.bilibili.com/video/BV1ySnszmE6T/)：最值得读的是作者补在评论里的三条注意点，以及“死过好几条才手动”的解释。跑位、注甲和捡残骸都有具体代价，老师不像只肯展示最顺的一次。
-- [《2026.05.02 WF创世倾域 vs. OnlyFleets T8T作战纪实》](https://www.bilibili.com/video/BV1L49dBDE4t/)：推荐从多视角与战报入口看他的记录习惯。简介交代重拦、网子夜魔侠和T1无畏视角，也给友军致谢；比只留一句战损数字更容易继续追这场仗。
-- [《8F-TK3投弹视角作战纪实》](https://www.bilibili.com/video/BV1PiHn6REBo/)：适合对照另一篇会战记录。作者主动说八倍加速、击杀邮件时间轴仅供参考，提醒读者怎样使用这份录像；还附上战报入口，和T8T篇放在一起，正好对照他的两种战场工种。
-- [《总统大选活动，无成本速刷流程》](https://www.bilibili.com/video/BV1WcDHBfEGd/)：推荐读他的账号条件和失误说明。月卡号、本人账号间交易、冷却重置和自估总用时都先列清楚；“无成本”这块招牌，下面至少认真写了使用条件。
 :::
 
 ::: 评

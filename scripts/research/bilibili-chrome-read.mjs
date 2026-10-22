@@ -24,6 +24,15 @@ export function pageStatus(body, metadata, kind) {
   return 'partial';
 }
 
+export function archivedBvids(dir) {
+  const result = new Set();
+  if (!fs.existsSync(dir)) return result;
+  for (const file of fs.readdirSync(dir).filter(name => name.endsWith('.json'))) {
+    for (const video of JSON.parse(fs.readFileSync(path.join(dir,file),'utf8')).videos ?? []) result.add(video.bvid);
+  }
+  return result;
+}
+
 export function revealCommentSection() {
   document.querySelector('video')?.pause();
   const section = document.querySelector('bili-comments,#commentapp,#comment,.comment');
@@ -43,9 +52,16 @@ const [input, output, maxArg='30'] = process.argv.slice(2);
 if (!input || !output) throw new Error('用法：<URL或清单.json> <.cache/输出目录> [最多页数]');
 const limit = Number(maxArg);
 if (!Number.isInteger(limit) || limit < 1 || limit > 60) throw new Error('单批页数须为1—60；批量预算另在覆盖表记录');
-const records = input.startsWith('https://') ? [{url:input}] : JSON.parse(fs.readFileSync(path.resolve(repo,input),'utf8'));
-if (!Array.isArray(records)) throw new Error('清单须为数组');
-for (const record of records) record.url = validBilibiliUrl(record.url);
+const listed = input.startsWith('https://') ? [{url:input}] : JSON.parse(fs.readFileSync(path.resolve(repo,input),'utf8'));
+if (!Array.isArray(listed)) throw new Error('清单须为数组');
+for (const record of listed) record.url = validBilibiliUrl(record.url);
+// 已入 docs/bilibili 作品档案的视频不再打开，避免重复读页。
+const archived = archivedBvids(path.join(repo,'docs','bilibili'));
+const records = listed.filter(record => {
+  const bvid = record.url.match(/\/video\/(BV[A-Za-z0-9]+)/)?.[1];
+  if (bvid && archived.has(bvid)) { console.log(`已归档，跳过 ${record.url}`); return false; }
+  return true;
+});
 const prefix = path.resolve(repo, output), cache = path.resolve(repo,'.cache');
 const relative = path.relative(cache,prefix);
 if (!relative || relative.startsWith('..') || path.isAbsolute(relative)) throw new Error('输出只能存入.cache');
@@ -78,8 +94,9 @@ async function available() {
     return true;
   } catch { return false; }
 }
+let launched = null;
 if (!await available()) {
-  const child = spawn(executable, [
+  const child = launched = spawn(executable, [
     '--remote-debugging-address=127.0.0.1', '--remote-debugging-port=9223',
     `--user-data-dir=${profile}`, '--no-first-run', '--no-default-browser-check',
     '--new-window', 'about:blank',
@@ -149,6 +166,10 @@ try {
    if (data.status === 'blocked') {cooldown.stop('bilibili.com');console.log('Chrome遇验证或拦截，停止本批；保留未读队列。');break;}
    await new Promise(r=>setTimeout(r,2000));
  }
-} finally {await browser.close();}
+} finally {
+  await browser.close();
+  // 本轮自行启动的 Chrome 连同子进程一并关闭，不留后台浏览器。
+  if (launched?.pid) spawnSync('taskkill',['/T','/F','/PID',String(launched.pid)],{stdio:'ignore'});
+}
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await main();

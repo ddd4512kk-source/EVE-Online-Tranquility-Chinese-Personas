@@ -57,3 +57,17 @@ B站[眠眠渡春](https://space.bilibili.com/26324187/upload/video)，UID263241
 ## 泰坦合作片署名补全（2026-10-19）
 
 [BV1F1496xEea](https://www.bilibili.com/video/BV1F1496xEea/)五人公开团队中，眠眠渡春署“作曲”；其他人是NoNoOwO（UP主）、BeliEVE76（参演）、EVE神崎（舞者）、账号已注销（演唱）。完整页面及实际17主线程范围归[死枪素材](../crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md)。本人合作名目入已有节目段，不由标签恢复配乐、歌声、实际制作过程或泰坦交易行为；联合制作不占个人精选。未读影像、音频或字幕。
+
+### 正文标题对应的重复推荐
+
+正文已提及的下列作品同样撤出精选，故事保留：
+
+- [《纪念一下第一次fax救援》](https://www.bilibili.com/video/BV17AfRYiE3H/)：从作者的第一次救援，到评论区对停车、开模块和重拦能否受修的讨论，是一场有来有回的舰队课后答疑。
+- [《如果你们觉得逼死一个跳刀马上转完的救世很好玩的话你们可以继续》](https://www.bilibili.com/video/BV1siEo6SEQT/)：本人解释玩梗标题、承认失误，又在回复里补上“MJD”的迟到释义，最能看出他怎么把翻车讲成自己的故事。
+- [《纪念一次死里逃生》](https://www.bilibili.com/video/BV1qTMp6LEvh/)：简介把修装备、漏带跳和掉队的因果交代得具体，作者与观众又补上轻拦装填的巧合，适合连着前一篇对照读。
+- [《对同步器大人畏惧了》](https://www.bilibili.com/video/BV1poT46vEuN/)：作者修甲五分钟的感叹，碰上评论区的阵营争论与操作建议；比起替谁判案，更适合看一条投稿怎样变成熟人的聊天现场。
+- [《一种没什么用但是看着很好玩的无人机摇修链》](https://www.bilibili.com/video/BV1WZwyefEHn/)：标题的“好玩”与作者回复里第一波就被炸没的尴尬相互照应，熟人认队伍、UP乱答游戏名，也都很有日常气息。
+
+## 精选补选（2026-10-22）
+
+公开投稿列表119条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV11HckeQExZ（打远征）、BV1gz4y1D7co（AOM反收割）、BV1xorjYPEVx（第一个无畏km）、BV1HAC8YvEz3（被E两分半）、BV1pFw3e8EwN（穿梭机）。作品页简介与评论未读。

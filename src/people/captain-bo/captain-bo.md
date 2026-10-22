@@ -1,10 +1,3 @@
----
-character_id: 96638675
-cn_name: 老许
-aliases: [Captain Bo, Iron Ring Cyborg Leader]
-epithet: 头衔很科幻，招新人先得会开麦
-tags: ["00区", "CONDI", "H.LO", "CEO"]
----
 
 老许，游戏名 Captain Bo，红楼军团 HongLou 现任 CEO。2025 年 3 月中旬才进红楼，座位还没坐热，十七天后就从创团人[德玛](../2115768319/)手里接过了 CEO——德玛在这之前已经在自己两个号之间传过一次位，大概是发现左手交右手解决不了问题，干脆把印把子塞给了新来的人。德玛自己没走远，继续在招新公告里管收入团邮件。名片给自己加了一串“Iron Ring Cyborg Leader”，下面还挂着铁环速递频道；[红楼的公开介绍](https://esi.evetech.net/latest/corporations/98642382/)则先把招新标准落在很具体的事上：语音与游戏同步，能开口说话，有作战意愿。
 

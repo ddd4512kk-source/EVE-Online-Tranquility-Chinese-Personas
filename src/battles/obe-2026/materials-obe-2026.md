@@ -62,4 +62,14 @@
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
 - [值得载入EVE历史的一天——Obe战役](https://www.bilibili.com/video/BV1nip36oEnr/)：投稿日期为2026-10-10；标题指名Obe，置顶讲Snuff征服者诱饵与FRT泰坦集结，与本场相符。已归档的置顶及评论见云曦素材，介绍沿用作者说法。
-- 待补候选：Zero煌BV1LCpu65EC7、曼努尔BV1PNpg6FEHH在既有材料中指向10月10日欧贝交战；本轮未找到可完整复用的标题、简介与具体内容记录，暂不补入。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [欧贝超旗泰坦战!征服者剧本!BBC大战FRT!最高画质!就在刚刚!拉面林首战立威!【EVE欧服】](https://www.bilibili.com/video/BV1PNpg6FEHH/)：标题指名欧贝，投稿日当天。
+- [【EVE】超级会战！FRT满编泰坦正面决战BBC 血流成渠中鏖战到底！](https://www.bilibili.com/video/BV139p36LEBH/)：投稿日当天，标题对阵与本场相符。
+- [〖EVE欧服〗10.10欧贝超旗战阵亡俄洛巴斯视角](https://www.bilibili.com/video/BV1LCpu65EC7/)：标题写10.10欧贝超旗战。
+- [【EVE Online】Rist:我的泰坦荣耀陨落之日——7.5T ISK Obe超旗战 Snuff VS FRT](https://www.bilibili.com/video/BV1tAp26TEaZ/)：标题指名Obe超旗战，投稿日2026-10-14。
+- [Snuffed out gets Snuffed out | 6.6 TRILLION Destroyed](https://www.youtube.com/watch?v=z5nqtJUG-zQ)：YouTube标题对阵与本场相符。
+- 前一轮待补候选BV1LCpu65EC7、BV1PNpg6FEHH已按标题与投稿日补入。

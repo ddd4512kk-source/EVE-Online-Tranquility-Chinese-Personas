@@ -33,3 +33,5 @@
 - [8F-TK3无畏摆擂，WOMP接下大账单](../../battles/8f-tk3-2026/8f-tk3-2026.md)：龙焰及参战诸部；命中本人角色 2123019905。全场1814.163B。
 - 来源：https://br.evetools.org/related/30004781/202610041800；逐号舰船、KM与分方口径见[战役素材](../../battles/8f-tk3-2026/materials-8f-tk3-2026.md)。本窗口未录到本人损失。
 - 本次已归档并建立战役页自动关联；未把本条参战记录单独扩写为列传料块。已有指挥、主线与综合KB保持原文，后续结合本场独立情节增补。
+
+- **红料 / 击杀 CCP，中**：2025-06-13 YPW-M4，PP 时挂 PH，RoxyMG 驾驶送葬者级海军型参与击毁 CCP Jotunn 毒蜥（[127850250](https://zkillboard.com/kill/127850250/)）、GM Banquet 巴盖斯级（[127850290](https://zkillboard.com/kill/127850290/)）、CCP Bee 洛基（[127850308](https://zkillboard.com/kill/127850308/)），并补一张太空舱最后一击；四张 KM 均钉在角色简介。

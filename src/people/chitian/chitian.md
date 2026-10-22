@@ -1,10 +1,3 @@
----
-character_id: 2120421439
-cn_name: 炽天
-aliases: [chitian, chitian hehehe, chitian xiao, chitian huhuhu]
-epithet: 罚友军三百亿，罚团员百分百。
-tags: ["00区", "低安", "VAPOR", "K Z U", "CEO", "低素质"]
----
 
 炽天，游戏角色 chitian，**Knight of Zero Ultra（K Z U，圈内写作 KZU）**的创建者兼 CEO。[军团简介](https://esi.evetech.net/latest/corporations/98808817/)自称“白魔爪骑士团”，落款“炽天”；[角色头衔](https://esi.evetech.net/latest/characters/2120421439/)也写“炽天”，后面接一句“清风不语，明月自来”。名字是清风明月，招募书却说九十分靠莽，两种气质都挂在自家门口。
 

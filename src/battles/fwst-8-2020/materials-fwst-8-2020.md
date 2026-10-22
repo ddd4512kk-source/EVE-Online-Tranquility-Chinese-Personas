@@ -25,4 +25,12 @@ CCP 官方《Fury at FWST-8》于 2020-12-13 发布，记录的战斗发生于 2
 - Norausdot，《10月5日FWST一号星城铆钉》：https://forums.winterco.org/t/topic/8891
 - CCP，Fury at FWST-8 battle report：https://www.eveonline.com/news/view/fury-at-fwst-8-battle-report
 - Norausdot，《帝国的决心与失算：刃卷力竭YZ9》：https://forums.winterco.org/t/topic/9163
-- 第一轮 BR：2020-10-05 12:00、15:00 UTC related 窗口；第二轮 BR：2020-10-06 03:00 至 2020-10-07 06:00 UTC 十个三小时 related 窗口。完整 URL 与去重后明细见同目录 `br.json`。
+- 第一轮 BR：2020-10-05 12:00、15:00 UTC related 窗口；第二轮 BR：2020-10-06 03:00 至 2020-10-07 06:00 UTC 十个三小时 related 窗口。完整 URL 与去重后明细见同目录 `fwst-8-2020.json` 的 `br`。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [Eve欧服-中秋献礼第四弹：imperium vs 南北联军 FWST星城战片段](https://www.bilibili.com/video/BV1St4y1q7Qw/)：标题指FWST星城战，投稿日2020-10-08。
+- [【EVE-ONLINE】FWST星城防守超期战](https://www.bilibili.com/video/BV1Ma4y1L7Yv/)：标题指FWST星城，投稿日2020-10-15。
+- [The Scope - Fury at FWST-8](https://www.youtube.com/watch?v=CfoXLv6CSJg)：YouTube官方频道，标题即本场别名Fury at FWST-8。

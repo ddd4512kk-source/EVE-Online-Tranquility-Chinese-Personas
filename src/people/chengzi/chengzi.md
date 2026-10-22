@@ -1,10 +1,3 @@
----
-character_id: 2115027553
-cn_name: 橙子
-aliases: [哒哒小橙子, BIGORANGE6 TANORANGE, ZS-The only love, W634]
-epithet: 尽管挤，别留下战报。
-tags: [00区]
----
 
 橙子，KZU 前总监，B 站用名[“哒哒小橙子”](https://space.bilibili.com/289511974)。[炽天](../2120421439/)的军团忙着扩张时，他在台风的叙述里负责挖人，在团内发言里负责教人挤生产地点：人和怪都想往自家兜里装，最好还别闹出战报。
 

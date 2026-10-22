@@ -1,17 +1,3 @@
----
-title: 希瑟伊德，第三队无畏替常规舰翻了桌
-aliases: [Siseide二月无畏战, AAR 500B ISK DOWN IN SISEIDE]
-epithet: 前排修不过，后排就再开一桌。
-start: 2025-02-19
-systems: [Siseide]
-tags: [低安, 无畏战, FL33T, SEDIT]
-sides:
-  - name: FL33T及友军
-    alliances: [99003581, 99011978, 99012009]
-  - name: Sedition及友军
-    alliances: [99009845, 386292982, 99005338, 99013541]
-loss_source: https://br.evetools.org/br/67b557f8f0ce8400115902b4
----
 
 2025年2月19日，希瑟伊德一座阿斯特拉豪斯的上线计时，把FL33T和Sedition从常规舰打架推到了无畏互换。两家原本一周能撞上好几次，前一回争堡，FL33T挨了顿狠的；这一回Sedition又锚下新堡，双方各拉百来号人，谁也没把真正的旗舰家底摊在桌上。最后各方烧掉约477.43B，Sedition的堡没能留下，先在常规线吃亏的FL33T，却从无畏战场把局面翻了回来。
 

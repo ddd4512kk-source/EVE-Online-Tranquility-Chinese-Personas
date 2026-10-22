@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "uid": "53247199",
+  "name": "（见素材）",
+  "url": "https://space.bilibili.com/53247199/",
+  "identity": {
+    "state": "confirmed",
+    "person": "optimus-mecca",
+    "material": "src/people/optimus-mecca/materials-optimus-mecca.md",
+    "label": "娃娃",
+    "evidence": [
+      "本人账号；贴吧观众认其B站教程"
+    ],
+    "related": [
+      {
+        "material": "src/battles/lantorn-2025/materials-lantorn-2025.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+        "label": "战役相关视频"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:13:35.561Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/53247199/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:13:35.561Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/53247199/upload/video"
+      },
+      "series": {
+        "state": "legacy_record",
+        "observed_at": null,
+        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
+        "evidence": "src/people/optimus-mecca/materials-optimus-mecca.md"
+      }
+    },
+    "prior_notes": [
+      {
+        "text": "接口研究：[BiliBili-API 客户端](https://github.com/abcLiyew/BiliBili-API)记录网页投稿列表 `x/space/wbi/arc/search` 使用 WBI 签名与凭据；[bilibili-tizen 开发记录](https://github.com/titlog/bilibili-tizen/blob/master/docs/平台坑.md)提到 App 投稿列表 `x/v2/space/archive/cursor`。本机未实测这些替代接口；Chrome 成功仅说明网页入口可用，不能把一次接口 412 等同整个 IP 都不可用。",
+        "source": "src/people/optimus-mecca/materials-optimus-mecca.md"
+      },
+      {
+        "text": "| [BV1id2iBCEGC](https://www.bilibili.com/video/BV1id2iBCEGC/) | 【EVE欧服】FRT嗜血炸鱼队轰炸Goons鹏鲲队 这个避难怎么一跳100个签名呀 |",
+        "source": "src/people/optimus-mecca/materials-optimus-mecca.md"
+      },
+      {
+        "text": "空间视频36、合集／系列2；最新与最多播放首页各36个视频入口已核，覆盖全频道标题，未逐个打开合集。最多播放前三为泰坦波色教学约1.1万、FRT怒炸INIT篇9035、大航教学7186；前两篇教学及告别怯薛均已在此前5篇文字阅读中，另两篇为搬家救援与十开后勤。榜二“语音原生放送”未听音频，不据标题复盘具体指挥。",
+        "source": "src/people/optimus-mecca/materials-optimus-mecca.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:13:35.561Z",
+        "source": "https://space.bilibili.com/53247199/upload/video",
+        "scope": "公开投稿列表全部36条（共36条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1cFLs65Eoy",
+            "title": "【EVE欧服】萌新大航搬家被抓 欧时区舰队&EN火星救援！搬家冥府第一视角",
+            "url": "https://www.bilibili.com/video/BV1cFLs65Eoy/",
+            "published": "2026-05-20",
+            "views": 4417
+          },
+          {
+            "bvid": "BV1SLPTzcEdk",
+            "title": "【EVE欧服】FRT泰坦出击！MC60 dd init无畏群 1N-复刻？",
+            "url": "https://www.bilibili.com/video/BV1SLPTzcEdk/",
+            "published": "2026-03-01",
+            "views": 6543
+          },
+          {
+            "bvid": "BV11dFJz2EKV",
+            "title": "【EVE欧服】WC vs IMP 艾蒂斯铁壁锚定, hedliner噩梦宰猪局！北军噩梦第一视角",
+            "url": "https://www.bilibili.com/video/BV11dFJz2EKV/",
+            "published": "2026-02-07",
+            "views": 2176
+          },
+          {
+            "bvid": "BV14aknBgEn2",
+            "title": "【EVE欧服】FRT vs INIT PPG铁壁结构，狂热沉浸式F1三小时，猪头回归首秀（送）！",
+            "url": "https://www.bilibili.com/video/BV14aknBgEn2/",
+            "published": "2026-01-20",
+            "views": 1828
+          },
+          {
+            "bvid": "BV1id2iBCEGC",
+            "title": "【EVE欧服】FRT嗜血炸鱼队轰炸Goons鹏鲲队 这个避难怎么一跳100个签名呀",
+            "url": "https://www.bilibili.com/video/BV1id2iBCEGC/",
+            "published": "2025-12-04",
+            "views": 2429
+          },
+          {
+            "bvid": "BV1TVC8BMEdC",
+            "title": "【EVE欧服】C-O WC vs INIT + PH 少100人打出18b:50b惊天战损 最高伤害狂热第一视角",
+            "url": "https://www.bilibili.com/video/BV1TVC8BMEdC/",
+            "published": "2025-11-16",
+            "views": 2039
+          },
+          {
+            "bvid": "BV1gty2BdEGH",
+            "title": "【EVE欧服】司令&W佬反时区CFI队大战SUS掠夺凤凰队！十开月刃缪宁后勤第一视角",
+            "url": "https://www.bilibili.com/video/BV1gty2BdEGH/",
+            "published": "2025-10-28",
+            "views": 1157
+          },
+          {
+            "bvid": "BV1WHsyzVE4z",
+            "title": "【EVE欧服】7D- FRT vs INIT 相同人数打出6b:28b惊天战损 五开ahac第一视角",
+            "url": "https://www.bilibili.com/video/BV1WHsyzVE4z/",
+            "published": "2025-10-27",
+            "views": 2191
+          },
+          {
+            "bvid": "BV1nRHKzxEBu",
+            "title": "【EVE欧服】FRT国庆巨作，5杀PH大航，轻拦/黑隐/无畏第一视角",
+            "url": "https://www.bilibili.com/video/BV1nRHKzxEBu/",
+            "published": "2025-10-02",
+            "views": 4652
+          },
+          {
+            "bvid": "BV1HTnrzHEcR",
+            "title": "【EVE欧服】【转载】台风阿姨10-10之诛仙剑阵，元帅四连爆",
+            "url": "https://www.bilibili.com/video/BV1HTnrzHEcR/",
+            "published": "2025-09-29",
+            "views": 4444
+          },
+          {
+            "bvid": "BV1BTaXz3Exa",
+            "title": "【转载】【EVE欧服】WC EN夏季部署高光集锦（语音高光集锦）带渣翻",
+            "url": "https://www.bilibili.com/video/BV1BTaXz3Exa/",
+            "published": "2025-09-08",
+            "views": 1015
+          },
+          {
+            "bvid": "BV1oShvz9EPF",
+            "title": "【EVE欧服】CACX周六八点半之 FRT vs Goons + Init + PH + 深水 + ... TFI & 扫射无畏第一视角",
+            "url": "https://www.bilibili.com/video/BV1oShvz9EPF/",
+            "published": "2025-08-30",
+            "views": 1884
+          },
+          {
+            "bvid": "BV11ttZz4Ezd",
+            "title": "【EVE欧服】1-2J4P FRT 创世 + 北军 vs 倾巢出动的帝华！一比四战损比 北军唤风第一视角",
+            "url": "https://www.bilibili.com/video/BV11ttZz4Ezd/",
+            "published": "2025-08-12",
+            "views": 2218
+          },
+          {
+            "bvid": "BV1RZtDzXEW6",
+            "title": "【EVE欧服】【转载】 OF Pipebomber 2 OnlyFleet 炸弹 凤凰联盟群Ferox队",
+            "url": "https://www.bilibili.com/video/BV1RZtDzXEW6/",
+            "published": "2025-08-11",
+            "views": 506
+          },
+          {
+            "bvid": "BV147bNz7EaW",
+            "title": "【EVE欧服】阿希尔无畏战800b战损，FRT TFI/海神示第一视角",
+            "url": "https://www.bilibili.com/video/BV147bNz7EaW/",
+            "published": "2025-08-10",
+            "views": 2082
+          },
+          {
+            "bvid": "BV15otzzREWP",
+            "title": "【EVE欧服】再见了怯薛 希望你喜欢这六年来属于你的戏份",
+            "url": "https://www.bilibili.com/video/BV15otzzREWP/",
+            "published": "2025-08-07",
+            "views": 6710
+          },
+          {
+            "bvid": "BV1YN4fzMEZz",
+            "title": "【EVE欧服】大哥，汉兰达，嗜血豪华阵容三法司会审PH！E8-432 ESS散打，原声放送",
+            "url": "https://www.bilibili.com/video/BV1YN4fzMEZz/",
+            "published": "2025-08-05",
+            "views": 1710
+          },
+          {
+            "bvid": "BV1vn8HzVEn6",
+            "title": "【EVE欧服】T2塔塔拉装甲增强，WC EN HFI vs 普罗帮盖子，小射50b报仇局！",
+            "url": "https://www.bilibili.com/video/BV1vn8HzVEn6/",
+            "published": "2025-07-28",
+            "views": 1039
+          },
+          {
+            "bvid": "BV1MpgqzbEE9",
+            "title": "【EVE欧服】WC EN 夏季部署之 Nakah FRT铁壁上线（失败），1.2T总战损的故事",
+            "url": "https://www.bilibili.com/video/BV1MpgqzbEE9/",
+            "published": "2025-07-21",
+            "views": 1531
+          },
+          {
+            "bvid": "BV1CRg4zdEtc",
+            "title": "【EVE欧服】WC EN夏季部署，HFI/噩梦爆射普罗帮CFI",
+            "url": "https://www.bilibili.com/video/BV1CRg4zdEtc/",
+            "published": "2025-07-19",
+            "views": 1054
+          },
+          {
+            "bvid": "BV1hTumzxEMA",
+            "title": "【EVE欧服】PF-KUQ塔塔拉结构增强，12b比129b的故事 FRT vs INIT + SYN + 在天国的DC龙卷风",
+            "url": "https://www.bilibili.com/video/BV1hTumzxEMA/",
+            "published": "2025-07-18",
+            "views": 1270
+          },
+          {
+            "bvid": "BV155uYzsEw6",
+            "title": "【EVE欧服】Assah 300b战损，WC EN 噩梦乌鸦爆射 Imperium + 普罗帮",
+            "url": "https://www.bilibili.com/video/BV155uYzsEw6/",
+            "published": "2025-07-13",
+            "views": 1141
+          },
+          {
+            "bvid": "BV1avMdzLEcw",
+            "title": "【EVE欧服】最近的一些日常三合一，炸kiki，骑恶狼队，射审判",
+            "url": "https://www.bilibili.com/video/BV1avMdzLEcw/",
+            "published": "2025-07-12",
+            "views": 475
+          },
+          {
+            "bvid": "BV1KG3AzwEyW",
+            "title": "【EVE欧服】319乱战之350打700人，FRT vs SYN + INIT + XIX + DC + .... 北军唤风第一视角",
+            "url": "https://www.bilibili.com/video/BV1KG3AzwEyW/",
+            "published": "2025-06-29",
+            "views": 1781
+          },
+          {
+            "bvid": "BV1b2KfzmEU2",
+            "title": "【EVE欧服】爱丽丝的隐轰投弹秀 绝地吃鸡大赛之创世+北军 vs SYN + INIT，北军唤风第一视角",
+            "url": "https://www.bilibili.com/video/BV1b2KfzmEU2/",
+            "published": "2025-06-26",
+            "views": 1494
+          },
+          {
+            "bvid": "BV18WN6zoEQm",
+            "title": "【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff",
+            "url": "https://www.bilibili.com/video/BV18WN6zoEQm/",
+            "published": "2025-06-17",
+            "views": 2549
+          },
+          {
+            "bvid": "BV1R7M6zrE8v",
+            "title": "【EVE欧服】萌新无畏跳固定诱导被抓，北军+W佬司令反时区队火星救援，FRT vs SUS + FDZ4黑隐无畏",
+            "url": "https://www.bilibili.com/video/BV1R7M6zrE8v/",
+            "published": "2025-06-13",
+            "views": 4506
+          },
+          {
+            "bvid": "BV1frMwzrEWo",
+            "title": "【EVE欧服】唤风队炒鸡电击！绝地GY6A-L CACX+创世+北军 vs DC，电电电！",
+            "url": "https://www.bilibili.com/video/BV1frMwzrEWo/",
+            "published": "2025-06-12",
+            "views": 2135
+          },
+          {
+            "bvid": "BV1WgTBz1Eub",
+            "title": "【EVE欧服】让汉兰达头痛的人----Mira的欢乐散打时光",
+            "url": "https://www.bilibili.com/video/BV1WgTBz1Eub/",
+            "published": "2025-06-09",
+            "views": 784
+          },
+          {
+            "bvid": "BV1pZT9zZEfd",
+            "title": "【EVE欧服】INIT最后一舞（送）6月8日 x-7O 继续射火鸡，给INIT愉快送走！",
+            "url": "https://www.bilibili.com/video/BV1pZT9zZEfd/",
+            "published": "2025-06-08",
+            "views": 1121
+          },
+          {
+            "bvid": "BV1TqjUzgEhb",
+            "title": "【EVE欧服】FRT怒炸INIT dark shines满编狂热，W佬和司令反时区队巨作，北军提供支持，语音原生放送！",
+            "url": "https://www.bilibili.com/video/BV1TqjUzgEhb/",
+            "published": "2025-05-26",
+            "views": 9047
+          },
+          {
+            "bvid": "BV15tj8zeEj1",
+            "title": "【EVE欧服】北军洛基千里奔袭，FRT+NC vs 大荒野土著 怯薛洛基第一视角",
+            "url": "https://www.bilibili.com/video/BV15tj8zeEj1/",
+            "published": "2025-05-24",
+            "views": 1125
+          },
+          {
+            "bvid": "BV194J5zfEL2",
+            "title": "【EVE欧服】520末尾约炮） FRT vulture vs INIT ferox, 怯薛猪卫队vulture第一视角",
+            "url": "https://www.bilibili.com/video/BV194J5zfEL2/",
+            "published": "2025-05-21",
+            "views": 523
+          },
+          {
+            "bvid": "BV16b4y1z7J1",
+            "title": "[osu!] Demetori-Hoshi no Utsuwa~Casket of Star [Lunatic] 1623x 99.37acc 240pp",
+            "url": "https://www.bilibili.com/video/BV16b4y1z7J1/",
+            "published": "2021-08-06",
+            "views": 2424
+          },
+          {
+            "bvid": "BV14s411F7Hh",
+            "title": "[EVE欧服]采星者联盟泰坦波色刷怪教学/大航刷怪进阶",
+            "url": "https://www.bilibili.com/video/BV14s411F7Hh/",
+            "published": "2018-08-27",
+            "views": 10950
+          },
+          {
+            "bvid": "BV1qp411Z7yT",
+            "title": "【EVE欧服】采星者联盟大航刷怪教学和pyfa初探/骑脸心得-娃上将出品",
+            "url": "https://www.bilibili.com/video/BV1qp411Z7yT/",
+            "published": "2018-05-16",
+            "views": 7188
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV1cFLs65Eoy",
+      "title": "【EVE欧服】萌新大航搬家被抓 欧时区舰队&EN火星救援！搬家冥府第一视角",
+      "url": "https://www.bilibili.com/video/BV1cFLs65Eoy/",
+      "owner_uid": "53247199",
+      "published_at": "2026-05-20T20:57:52.000Z",
+      "captured_at": "2026-10-14T09:29:42.711Z",
+      "description": "呜呜呜hich号首航就被抓了 还好w佬反应快救我狗命！\nBR：https://warbeacon.net/br/related/30000240/202605202000/",
+      "stats": {
+        "views": 4355,
+        "replies": 61
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1gty2BdEGH",
+      "title": "【EVE欧服】司令&W佬反时区CFI队大战SUS掠夺凤凰队！十开月刃缪宁后勤第一视角",
+      "url": "https://www.bilibili.com/video/BV1gty2BdEGH/",
+      "owner_uid": "53247199",
+      "published_at": "2025-10-28T22:19:37.000Z",
+      "captured_at": "2026-10-14T09:29:59.126Z",
+      "description": "战损手速双赢！\nBR：https://br.evetools.org/related/31000707/202510281900\n反时区群：1042434592",
+      "stats": {
+        "views": 1155,
+        "replies": 15
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV15otzzREWP",
+      "title": "【EVE欧服】再见了怯薛 希望你喜欢这六年来属于你的戏份",
+      "url": "https://www.bilibili.com/video/BV15otzzREWP/",
+      "owner_uid": "53247199",
+      "published_at": "2025-08-07T11:36:49.000Z",
+      "captured_at": "2026-10-14T09:29:26.287Z",
+      "description": "kheshfleet is over.\nFrom: Silver Magician\nSent: 2025.08.02 21:02\nTo: Fraternity., \n\nEND",
+      "stats": {
+        "views": 6687,
+        "replies": 176
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV14s411F7Hh",
+      "title": "[EVE欧服]采星者联盟泰坦波色刷怪教学/大航刷怪进阶",
+      "url": "https://www.bilibili.com/video/BV14s411F7Hh/",
+      "owner_uid": "53247199",
+      "published_at": "2018-08-27T12:58:09.000Z",
+      "captured_at": "2026-10-14T09:29:09.915Z",
+      "description": "简单的泰坦波色教学+大航刷怪进阶，三开大航不是梦！",
+      "stats": {
+        "views": 10945,
+        "replies": 37
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1qp411Z7yT",
+      "title": "【EVE欧服】采星者联盟大航刷怪教学和pyfa初探/骑脸心得-娃上将出品",
+      "url": "https://www.bilibili.com/video/BV1qp411Z7yT/",
+      "owner_uid": "53247199",
+      "published_at": "2018-05-16T11:45:12.000Z",
+      "captured_at": "2026-10-14T09:28:53.483Z",
+      "description": "相关游戏: EVE\n简介补充: 如果有更多问题欢迎游戏内邮件或者私聊pan-starrs~ 欢迎更多可爱的萌新加入采星~ [联系方式略]",
+      "stats": {
+        "views": 7185,
+        "replies": 108
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1TqjUzgEhb",
+      "title": "【EVE欧服】FRT怒炸INIT dark shines满编狂热，W佬和司令反时区队巨作，北军提供支持，语音原生放送！",
+      "url": "https://www.bilibili.com/video/BV1TqjUzgEhb/",
+      "owner_uid": "53247199",
+      "published_at": null,
+      "captured_at": null,
+      "description": "",
+      "stats": {
+        "views": 9035,
+        "replies": null
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md"
+        ],
+        "scope": "最多播放榜标题与约9035播放数；简介、评论、署名细节及视听未读。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV18WN6zoEQm",
+      "title": "【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff",
+      "url": "https://www.bilibili.com/video/BV18WN6zoEQm/",
+      "owner_uid": "53247199",
+      "published_at": "2025-06-17T23:30:28.000Z",
+      "captured_at": null,
+      "description": "感谢EN和自愿熬夜的CN兄弟们，短痛了\n铁壁没拆掉，应猪头要求放上BR：https://br.evetools.org/related/30002540/202506172200",
+      "stats": {
+        "views": 2549,
+        "replies": 84
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md",
+          "src/battles/lantorn-2025/materials-lantorn-2025.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1SLPTzcEdk",
+      "title": "【EVE欧服】FRT泰坦出击！MC60 dd init无畏群 1N-复刻？",
+      "url": "https://www.bilibili.com/video/BV1SLPTzcEdk/",
+      "owner_uid": "53247199",
+      "published_at": "2026-03-01T12:27:12.000Z",
+      "captured_at": "2026-10-22T09:33:53.790Z",
+      "description": "刚睡醒 操作太抠脚了 别喷别喷\nBR：https://br.evetools.org/related/30000209/202603011100",
+      "stats": {
+        "views": 6544,
+        "replies": 82
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/optimus-mecca/materials-optimus-mecca.md",
+          "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

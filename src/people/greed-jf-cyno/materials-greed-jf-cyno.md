@@ -9,7 +9,8 @@
 ### 2026 年联盟名单
 
 - [Winter Coalition Leadership and Teams](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09 版）FRT Teams Leaders：Sov Logistics and Infrastructure 列 “Greed (Vale/Tribute/West Geminate)”，另有 Witchy Witchcraft 与 Captain SK 管 Branch/Tenal Communal；Taxes 列 “Greed (CN)”，EN 为 Witchy Witchcraft、Silent UK、Captain SK。Greed 即龙根。
-- 同页 Coalition ACLs 列 “Greed Island, Luke Anninan, Arrowspeeed Bounty”。Greed Island 就是龙根（同词根 Greed，同一份名单），已写入 aliases 与正文。同名游戏角色 [Greed Island（1636264302）](https://evewho.com/character/1636264302)是 2010 年建号、自 2016 年起挂 NPC 军团的号，大概是本人的老号。
+- 同页 Coalition ACLs 列 “Greed Island, Luke Anninan, Arrowspeeed Bounty”。该页另将 Greed 列为联盟主权后勤与税务管理者；同一联盟名单把 Greed Island 对应到龙根，故按相同词根与同联盟管理身份，将同名角色 [Greed Island（1636264302）](https://evewho.com/character/1636264302)归为其老号。该角色 2010 年建号，自 2016 年起挂 NPC 军团。
+- [Greed Titan（2116225251）](https://esi.evetech.net/latest/characters/2116225251/) 头衔为“龙根”，角色名沿用 Greed 词根，同属 FRT；归入本人小号。
 
 ### 后勤驾驶失误
 

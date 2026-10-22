@@ -9,7 +9,7 @@
 
 ## 战报范围与损失
 
-- 正式快照由 `scripts/battle-report.mjs` 的 `buildSnapshot`／`stringifySnapshot` 从 br.evetools 原始报告生成，文件为 `br.json`，未手改快照。主报告总窗为 2026-04-12 03:41:02–06:49:18 UTC，星系 SR-KBB（30002422），667 条损失记录、1153 个不同角色，合计 **129,771,050,824 ISK**。快照保留主报告全部记录，`teams` 为空。
+- 正式快照由 `scripts/battle-report.mjs` 的 `buildSnapshot`／`stringifySnapshot` 从 br.evetools 原始报告生成，文件为 `sr-kbb-2026.json` 的 `br`，未手改快照。主报告总窗为 2026-04-12 03:41:02–06:49:18 UTC，星系 SR-KBB（30002422），667 条损失记录、1153 个不同角色，合计 **129,771,050,824 ISK**。快照保留主报告全部记录，`teams` 为空。
 - EVE-KILL 的[另一条 SR-KBB 报告](https://eve-kill.com/battle/692074)是 04:45–06:15 UTC 的较窄窗口，列 654 条记录、137.51B；其估值与覆盖均不等同于主快照，不能拿来替换上面的总损失。
 - 按本仓库 `scripts/battles.mjs` 规则，以 Fraternity.（99003581）与 Goonswarm Federation（1354830081）为两个种子，逐轮检查每张 KM 的攻击者—受害者联盟交火关系（至少 3 次且至少三分之二指向同一主阵营，最多 4 轮）。这是该场交火归方，不证明长期盟约。结果：
   - **FRT 及友军**：749 人，238 条损失，26,963,773,001 ISK。按损失及人数较突出的组织有 Fraternity.（641 人、205 条、23,226,624,000 ISK）、Northern Coalition.（35 人、9 条、1,156,444,000 ISK）、TEST Alliance Please Ignore（29 人、11 条、884,616,000 ISK）、Blades of Grass（4 人、0 损失）、Solyaris Chtonium（5 人、3 条、519,793,000 ISK）、Fraternity Auxiliary（5 人、2 条、131,240,000 ISK）、Insidious.（4 人、2 条、89,878,000 ISK）、Pandemic Legion（4 人、0 损失），以及若干 1–2 人组织。联盟 99014851（12 人、4 条、160,108,000 ISK）经 ESI 名称核为 10 Minutes' Notice。另有无联盟军团 Apocalypse Now.（ID 154104258，1 人、2 条、795,072,000 ISK）。
@@ -36,7 +36,7 @@
 
 ## 本次人物归档（2026-10-20）
 
-以最终列传主小号映射与本场快照为准，按人合并；30人，不把同人双号重复计数。SR-KBB接口原始响应当时在内存解析，未保留完整原始JSON，现有br.json保留成员、损失与交火关系，不保留逐人攻击KM和舰型。上述舰型与Monitor核读摘要为当次接口读取所得；本表不补造逐人代表KM。
+以最终列传主小号映射与本场快照为准，按人合并；30人，不把同人双号重复计数。SR-KBB接口原始响应当时在内存解析，未保留完整原始JSON，现有sr-kbb-2026.json的br保留成员、损失与交火关系，不保留逐人攻击KM和舰型。上述舰型与Monitor核读摘要为当次接口读取所得；本表不补造逐人代表KM。
 
 | 人物 | 收录号 | 本场命中角色 | 本场归方 |
 | --- | --- | --- | --- |

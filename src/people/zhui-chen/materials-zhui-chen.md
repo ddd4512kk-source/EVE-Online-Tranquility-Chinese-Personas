@@ -16,7 +16,7 @@
 
 按同中文头衔、同军团归一人多号（AGENTS 第2节）。同名词根的 FallNight2（2122638759）、FallNight3（2122643760）停在 NPC 学校、无 KB；Fallnight（2118004906，2020 建，小写 n）在 NPC 学校，均未归入。
 
-**待核分歧**：cnmc c p 简介把 FallNight1／FallNight4 两条 KM 记作“来自好友秋夜的kb”；FallNight 字面即“秋夜”。可能是本人给小号起的戏称，也可能 FallNight 系列原属另一位玩家“秋夜”、头衔为小队名。DSN 其他成员的头衔普遍是一人一名（袖笼、斯卡蒂、六点等），故先按同人处理；若日后找到秋夜作为独立玩家的证据，应把 FallNight 系列与圣诞 KM 的主语改回。
+cnmc c p 简介把 FallNight1／FallNight4 两条 KM 记作“来自好友秋夜的kb”。FallNight1、FallNight4 均为坠尘的小号；简介中的“秋夜”不另据为独立号主，也不据此改变圣诞 KM 的归属。
 
 ## 历史军团（fafnfaab fan）
 
@@ -60,9 +60,14 @@
 
 ## 未查
 
-- B站：坠尘、FallNight 未见于 [B站UP检索名单](../../../docs/bilibili-uploaders.md)，待板块扫描。
+- B站：坠尘、FallNight 未在现有B站UID档案对应，沿[材料查询](../../../docs/research-method.md#本地材料查询)复用线索，待板块扫描。
 - 势力战争具体战斗、大型战役参战未回查；“秋夜”是否另有其人未核。
 
 ## otela-2024：战役参战关联
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：FRT及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
+
+### 战绩数字（自正文移入）
+
+- 主号 [公开战绩](https://zkillboard.com/character/2115916938/)：参与击杀 1146、约 2079 亿 ISK，单杀 247，损失 1039 条合计约 193 亿；阿特龙 401 次、狞獾级海军型 314 次；常去 Sakenta、Otela、Konola、Tama。2024 夏最勤月击杀 200 余次；2026-09 一个月 86 次击杀、165 条损失。
+- FallNight1（2024-08 建）：参与击杀 1212、约 4375 亿，常开送葬者级海军型与净化，常去 C-N4OD、G-Q5JU、4-HWWF。

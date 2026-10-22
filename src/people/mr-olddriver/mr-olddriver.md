@@ -1,10 +1,3 @@
----
-character_id: 2115269611
-cn_name: 老司机
-aliases: [M'r olddriver, 老司机 Emperor]
-epithet: 跟着 Fuente Vacio 走遍滑稽、AOM、蜜蜂、PH、DC，KM 上签过 CCP。
-tags: ["00区", "D.C", "FV.", "CEO"]
----
 
 老司机，游戏名 M'r olddriver，头衔“老司机 Emperor”。2019 年 5 月建号，6 月进了 **Fuente Vacio**（FV.），之后七年没换过军团，如今是这家一百七十多人军团的 CEO。军团简介只有两个词：
 

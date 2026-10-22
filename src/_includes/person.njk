@@ -11,9 +11,10 @@ bodyClass: page-person
   <header class="bio-head">
     <img class="portrait portrait-lg" src="{{ ('/portraits/' + character_id + '.jpg') | url }}" alt="{{ char.name }} 的头像" width="160" height="160" data-pagefind-meta="image[src]">
     <div class="bio-id">
-      <h1 class="bio-name"><span data-pagefind-meta="title">{{ displayName }}</span><span class="bio-suffix">列传</span></h1>
-      {% if cn_name %}<p class="bio-charname" lang="en">{{ char.name }}</p>{% endif %}
+      <h1 class="bio-name"><span data-pagefind-meta="title">{% if cn_name %}{{ displayName }}{% else %}<a href="https://evewho.com/character/{{ character_id }}" rel="noopener" title="角色 ID：{{ character_id }}">{{ displayName }}</a>{% endif %}</span><span class="bio-suffix">列传</span></h1>
+      {% if cn_name %}<p class="bio-charname" lang="en"><a href="https://evewho.com/character/{{ character_id }}" rel="noopener" title="角色 ID：{{ character_id }}">{{ char.name }}</a></p>{% endif %}
       {% if aliases and aliases.length %}<p class="bio-aliases">又名 {% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+      {% if identity.alts.length %}<p class="bio-aliases bio-alts">小号 {% for alt in identity.alts %}<a href="https://evewho.com/character/{{ alt.id }}" rel="noopener" title="角色 ID：{{ alt.id }}">{{ alt.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
       {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
     </div>
   </header>

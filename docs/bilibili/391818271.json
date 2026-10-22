@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "uid": "391818271",
+  "name": "Leon7ovol",
+  "url": "https://space.bilibili.com/391818271/",
+  "identity": {
+    "state": "confirmed",
+    "person": "casimir-exusiai",
+    "material": "src/people/casimir-exusiai/materials-casimir-exusiai.md",
+    "label": "马哥",
+    "evidence": [
+      "与小号Leon 7ovol同名；仅1条欧服速刷视频"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-10-15T13:24:49.596Z",
+      "counters": {
+        "followers": "65",
+        "views": "6364",
+        "videos": "·1"
+      },
+      "source": "https://space.bilibili.com/391818271",
+      "header_text": "鸟人星"
+    },
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:12:37.867Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/391818271/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:12:37.867Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/391818271/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [
+      {
+        "text": "代表签名：[KM 125016098](https://zkillboard.com/kill/125016098/)。",
+        "source": "src/people/casimir-exusiai/materials-casimir-exusiai.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "unverified",
+        "captured_at": "2026-10-15T13:24:49.596Z",
+        "source": "https://space.bilibili.com/391818271",
+        "scope": "当时空间可见链接；未经作品页作者核定，不自动计入本人作品库或精选。排序URL不作为实际选中证明。",
+        "candidates": [
+          {
+            "bvid": "BV1cZ4y1p72e",
+            "title": "EVE-欧服 重攻金鹏13分半速刷古斯塔斯6/10（有个小失误）因为招新官不会剪视频，正文从25分钟开始",
+            "url": "https://www.bilibili.com/video/BV1cZ4y1p72e/"
+          }
+        ]
+      },
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:12:37.867Z",
+        "source": "https://space.bilibili.com/391818271/upload/video",
+        "scope": "公开投稿列表全部1条（共3条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1cZ4y1p72e",
+            "title": "EVE-欧服 重攻金鹏13分半速刷古斯塔斯6/10（有个小失误）因为招新官不会剪视频，正文从25分钟开始",
+            "url": "https://www.bilibili.com/video/BV1cZ4y1p72e/",
+            "published": "2020-07-05",
+            "views": 5353
+          }
+        ]
+      }
+    ],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "Leon7ovol账号已见1条EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    }
+  },
+  "videos": []
+}

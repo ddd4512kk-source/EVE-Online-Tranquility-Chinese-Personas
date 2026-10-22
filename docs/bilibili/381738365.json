@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "uid": "381738365",
+  "name": "我不是猫猫人",
+  "url": "https://space.bilibili.com/381738365/",
+  "identity": {
+    "state": "confirmed",
+    "person": "ryan-claire",
+    "material": "src/people/ryan-claire/materials-ryan-claire.md",
+    "label": "云曦",
+    "evidence": [
+      "短链指向此空间"
+    ],
+    "related": [
+      {
+        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "label": "战役相关视频"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:12:14.706Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/381738365/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:12:14.706Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/381738365/upload/video"
+      },
+      "series": {
+        "state": "legacy_record",
+        "observed_at": null,
+        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
+        "evidence": "src/people/ryan-claire/materials-ryan-claire.md"
+      }
+    },
+    "prior_notes": [
+      {
+        "text": "[B 站移动空间页](https://m.bilibili.com/space/381738365)可读 `window.__INITIAL_STATE__`：账号名“我不是猫猫人”、签名“一个普普通通的EVE玩家”；直播间标题为“EVE-对舞4VY-Y1战役-聊天吹水”。短链与空间 UID 对应；视频 `x/web-interface/view` 的作者 mid 也为 381738365。直播间标题只证明页面如此显示，不据此写他参加或指挥 4VY-Y1 战役。",
+        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+      },
+      {
+        "text": "[本人空间UID381738365](https://space.bilibili.com/381738365/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得7、7个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
+        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+      },
+      {
+        "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
+        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+      },
+      {
+        "text": "复用UID381738365最新／最多播放各7条与选中态；另核合集《FUXI成员的反收割日常》5条入口。Obe篇首次真实滚轮调用超时，后续页验证正常后预算内重读，恢复20主线程；战巡篇实际13评论，补读4主线程。洛基544播放／7评论、5ZXX465播放／5评论仅核元数据，复用已有读过的作者回复，不为凑数主动续读低关注评论。空间卡片数字是弹幕，不能把0弹幕当0评论；战巡就是低播放、评论达标的反例。",
+        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+      },
+      {
+        "text": "现存7篇的双排序入口及日常合集已覆盖，本轮选五篇：Obe、一炮战列、洛基、战巡及快乐纤维。前四篇之外继续筛选的三篇情况如下：",
+        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:12:14.706Z",
+        "source": "https://space.bilibili.com/381738365/upload/video",
+        "scope": "公开投稿列表全部7条（共7条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1nip36oEnr",
+            "title": "值得载入EVE历史的一天——Obe战役",
+            "url": "https://www.bilibili.com/video/BV1nip36oEnr/",
+            "published": "2026-10-10",
+            "views": 6623
+          },
+          {
+            "bvid": "BV1dGpP6FEXN",
+            "title": "【挺针花絮】祝各位舰长武运昌隆",
+            "url": "https://www.bilibili.com/video/BV1dGpP6FEXN/",
+            "published": "2026-10-06",
+            "views": 199
+          },
+          {
+            "bvid": "BV11XuT6pEbb",
+            "title": "【快乐纤维】超大注海猛鳜",
+            "url": "https://www.bilibili.com/video/BV11XuT6pEbb/",
+            "published": "2026-08-08",
+            "views": 460
+          },
+          {
+            "bvid": "BV1H6oFBLEZT",
+            "title": "【反收割花絮】一炮一个战列",
+            "url": "https://www.bilibili.com/video/BV1H6oFBLEZT/",
+            "published": "2026-04-19",
+            "views": 1648
+          },
+          {
+            "bvid": "BV1GjrvB9EqJ",
+            "title": "【反收割花絮】遇到了皮糙肉厚战巡队",
+            "url": "https://www.bilibili.com/video/BV1GjrvB9EqJ/",
+            "published": "2026-01-12",
+            "views": 619
+          },
+          {
+            "bvid": "BV1QjrvBXE1M",
+            "title": "【反收割花絮】100KM的洛基",
+            "url": "https://www.bilibili.com/video/BV1QjrvBXE1M/",
+            "published": "2026-01-12",
+            "views": 545
+          },
+          {
+            "bvid": "BV1XjrvBXEv1",
+            "title": "【反收割花絮】5ZXX刀斧手",
+            "url": "https://www.bilibili.com/video/BV1XjrvBXEv1/",
+            "published": "2026-01-12",
+            "views": 466
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV1nip36oEnr",
+      "title": "值得载入EVE历史的一天——Obe战役",
+      "url": "https://www.bilibili.com/video/BV1nip36oEnr/",
+      "owner_uid": "381738365",
+      "published_at": "2026-10-10T16:20:06.000Z",
+      "captured_at": "2026-10-17T08:42:40.295Z",
+      "description": "",
+      "stats": {
+        "views": 6124,
+        "replies": 100
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md",
+          "src/battles/obe-2026/materials-obe-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1dGpP6FEXN",
+      "title": "【挺针花絮】祝各位舰长武运昌隆",
+      "url": "https://www.bilibili.com/video/BV1dGpP6FEXN/",
+      "owner_uid": "381738365",
+      "published_at": "2026-10-06T16:00:03.000Z",
+      "captured_at": "2026-10-18T16:30:36.235Z",
+      "description": "",
+      "stats": {
+        "views": 182,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV11XuT6pEbb",
+      "title": "【快乐纤维】超大注海猛鳜",
+      "url": "https://www.bilibili.com/video/BV11XuT6pEbb/",
+      "owner_uid": "381738365",
+      "published_at": "2026-08-08T04:30:21.000Z",
+      "captured_at": "2026-10-18T16:31:19.734Z",
+      "description": "",
+      "stats": {
+        "views": 460,
+        "replies": 14
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1H6oFBLEZT",
+      "title": "【反收割花絮】一炮一个战列",
+      "url": "https://www.bilibili.com/video/BV1H6oFBLEZT/",
+      "owner_uid": "381738365",
+      "published_at": "2026-04-19T12:44:13.000Z",
+      "captured_at": "2026-10-17T08:54:12.616Z",
+      "description": "",
+      "stats": {
+        "views": 1648,
+        "replies": 29
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1GjrvB9EqJ",
+      "title": "【反收割花絮】遇到了皮糙肉厚战巡队",
+      "url": "https://www.bilibili.com/video/BV1GjrvB9EqJ/",
+      "owner_uid": "381738365",
+      "published_at": "2026-01-12T15:25:37.000Z",
+      "captured_at": "2026-10-17T08:41:34.570Z",
+      "description": "",
+      "stats": {
+        "views": 618,
+        "replies": 13
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1QjrvBXE1M",
+      "title": "【反收割花絮】100KM的洛基",
+      "url": "https://www.bilibili.com/video/BV1QjrvBXE1M/",
+      "owner_uid": "381738365",
+      "published_at": "2026-01-12T15:24:40.000Z",
+      "captured_at": "2026-10-17T08:41:46.078Z",
+      "description": "",
+      "stats": {
+        "views": 544,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1XjrvBXEv1",
+      "title": "【反收割花絮】5ZXX刀斧手",
+      "url": "https://www.bilibili.com/video/BV1XjrvBXEv1/",
+      "owner_uid": "381738365",
+      "published_at": "2026-01-12T15:24:36.000Z",
+      "captured_at": "2026-10-17T08:41:57.630Z",
+      "description": "",
+      "stats": {
+        "views": 465,
+        "replies": 5
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/ryan-claire/materials-ryan-claire.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

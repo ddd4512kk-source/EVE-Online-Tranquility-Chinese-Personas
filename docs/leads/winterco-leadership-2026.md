@@ -16,7 +16,7 @@
 | GrandMiracle | [大聪明 / Grand Bright](../../src/people/grand-bright/materials-grand-bright.md) | EN/CN 战略协调；FRT 规则协调（CN） |
 | chaoji；SC-UN-I-cute money plz 炒鸡 | [炒鸡](../../src/people/i-cute-money-plz/materials-i-cute-money-plz.md) | EN/CN 战略协调；CN 外交组组长 |
 | Greed | [龙根 / Greed jf cyno](../../src/people/greed-jf-cyno/materials-greed-jf-cyno.md) | FRT 主权后勤与基建（Vale/Tribute/West Geminate）；税务（CN） |
-| Greed Island | [龙根](../../src/people/greed-jf-cyno/materials-greed-jf-cyno.md)；同名角色 1636264302 大概是其老号 | 联盟 ACL |
+| Greed Island | [龙根](../../src/people/greed-jf-cyno/materials-greed-jf-cyno.md)；角色 1636264302 已归入其小号 | 联盟 ACL |
 | Tang Yuan；KHESH-Silver Magician 汤圆 | [汤圆](../../src/people/tang-yuan/materials-tang-yuan.md) | EN/CN 战略协调；CN 内部外交；FRT 规则协调（CN）；FAX 与 FRT-U（CN）；CN 外交组组长 |
 | Remeleen | [拉面林](../../src/people/remeleen/materials-remeleen.md) | 代理 FRT CEO；CN 执行领导组；CN 军事 |
 | Garveen；Garveen Airuta | [慕容](../../src/people/garveen-airuta/materials-garveen-airuta.md) | CN 执行领导组；CN 军事；IT 联系人 |

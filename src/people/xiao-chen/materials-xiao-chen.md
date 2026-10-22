@@ -1,6 +1,6 @@
 ## 小尘
 
-收录角色：**ice Kusoni（2115224698）**。社区说法还将 **Tas Oramara（2122676937）**、外号“祖尔金”对应为其后续角色。已有[列传源文件](xiao-chen.md)。
+收录角色：**Tas Oramara（2122676937）**，即小尘当前主号；外号“祖尔金”。此前的 **ice Kusoni（2115224698）** 已转列小号，既有快照及该号战绩仍单独保留。已有[列传源文件](xiao-chen.md)。
 
 ### 已写入列传
 
@@ -11,7 +11,7 @@
 ### 身份与游戏数据
 
 - ESI：[ice Kusoni 角色页](https://esi.evetech.net/latest/characters/2115224698/)，建号时间 2019-05-09；2026-10 快照中已在 NPC 军团。EveWho 雇佣记录显示其 2023-07-08 至 2023-12-04 在创世，之后进入 Lone Army Fighting Club，2024-07 起转入 NPC 军团。
-- EveWho：[Tas Oramara](https://evewho.com/character/2122676937) 建号于 2024-09-02，2024-09-04 加入创世。其与小尘的对应来自社区群聊说法；尚未找到公开的 CCP 处罚公告。
+- ESI：[Tas Oramara](https://esi.evetech.net/latest/characters/2122676937/) 建号于 2024-09-02，头衔“祖尔金”；2024-09-04 加入创世。其为小尘当前主号。
 - zKillboard：[ice Kusoni 角色页](https://zkillboard.com/character/2115224698/)。2026-10-08 快照统计 2200 击杀、437 损失，击毁约 1.008 万亿 ISK、损失约 787 亿 ISK。
 
 ### 小号（2026-10-18 补录）

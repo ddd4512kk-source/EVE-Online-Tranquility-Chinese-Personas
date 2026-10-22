@@ -60,3 +60,5 @@
 
 - [SR-KBB周末混战，蜜蜂增援撞上凛冬高峰](../../battles/sr-kbb-2026/sr-kbb-2026.md)：凛冬及友军；命中角色 93209504。全场损失129.771B，为各方合计，不作个人战果。
 - [本场素材](../../battles/sr-kbb-2026/materials-sr-kbb-2026.md)保留亲历回忆、完整窗口、交火分方与原报入口；本次从正式快照成员映射核对参战，没有补造逐人KM或舰型。
+- **红料 / KB，中**：zKillboard 生涯击杀 10883、约 6.2T、单杀 437，146 个月有记录；缪宁、短剑最多。A1-AUH [KM 95191703](https://zkillboard.com/kill/95191703/)；2026-04 Atioth 狂怒者 [KM 134559939](https://zkillboard.com/kill/134559939/)；2026-10 Obe 哨兵 [KM 139046684](https://zkillboard.com/kill/139046684/)；2025-11 R-AG7W 忏悔者 [KM 131049278](https://zkillboard.com/kill/131049278/)（各方损失约 1.197T）；2026-03-01 MC6O-F [KM 133727731](https://zkillboard.com/kill/133727731/)。
+- **红料 / 会战出勤，中**：2021-09 A1-AUH [AOM 旗舰攻击者名单](https://zkillboard.com/kill/95191703/)；2026-04 [Atioth](https://zkillboard.com/kill/134559939/) 狂怒者；2026-10 [Obe](https://zkillboard.com/kill/139046684/) 哨兵；2026-03 MC6O-F [随队参战](https://zkillboard.com/kill/133727731/)。

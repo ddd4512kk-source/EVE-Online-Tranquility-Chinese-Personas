@@ -1,17 +1,3 @@
----
-title: 乌特拉拆堡，熊猫赔船也要拆掉这栋房
-aliases: [Otela拆堡战, Deepwater Pochven Astrahus]
-epithet: 战报可以刷绿，房子不能补回。
-start: 2024-09-07
-systems: [Otela]
-tags: [三神裔, 建筑攻防, FRT]
-sides:
-  - name: FRT及友军
-    alliances: [99003581]
-  - name: 深水及友军
-    alliances: [99009927, 495729389, 99011978]
-loss_source: https://br.evetools.org/br/66dbf1a740c3d80012b807b2
----
 
 2024年9月7日，波赫文的乌特拉把“打赢”拆成了两种算法：深水与友军把FRT的船一波波打掉，FRT却把深水的阿斯特拉豪斯拆成了残骸。整场损失约307.10B，昂贵的账单大半落在攻方身上；守方收下成排击杀，攻方收下那座再也立不回来的堡。
 

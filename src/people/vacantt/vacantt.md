@@ -1,10 +1,3 @@
----
-character_id: 2123111027
-cn_name: 万古
-aliases: [Vacantt, Vacant, 万古宝宝, 万古哥]
-epithet: 开万古守过77S8，号卖了，新号从傻逼练起。
-tags: [00区, FC, RMT, CSQY, WINGS]
----
 
 万古，人称万古哥，创世倾域（ChuangShi）的老指挥。老号 Vacant 2018年进创世，开着万古级超级航母守过77S8-E，2020年被军团列为六名指挥之一；2021年9月，他把这个号卖了。四年后的2025年1月，他建了个只多一个 t 的新号 Vacantt，当天就回了创世；2026年2月创世离开 FRT、去绝地另立门户，他跟着军团进了 Wings Freedom.。
 

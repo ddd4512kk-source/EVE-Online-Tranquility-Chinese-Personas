@@ -33,7 +33,7 @@ API 参考：[zKillboard API](https://zkillboard.com/api/docs/)。部分旧 br.e
 - Atioth：[Noraus 复盘](https://winterco.org/2026/04/09/749/ji-lu-ai-di-si-xing-cheng-zhan-ji-qi-hou-xu/)称己方击毁 33 条泰坦、损失约 1T；其叙述时间与 UTC KM 日期有出入，不用它改写 KM 时间。
 - 黑色星期五：伊利法尔视频 [BV1REzjYGE3R](https://www.bilibili.com/video/BV1REzjYGE3R)，2024-11-29，标题“eve 黑色星期五：Taitan to kill! :getin: :getin:”。仅检索到元数据，正文 412；视频存在不能单独证明作者参战或指挥。
 - 此轮对人物主号及已对上的少侠小号作核对；其他人的历史小号仍可能漏检。覆盖 FRT、DC、PLA 与 BBC 相关人物，也覆盖外国指挥及对面参战者，不能视为上述联盟全部历史。
-- 后续优先：其他帝国与华人低安旗舰战，先核对各方总损失与时间窗口。2023年X47、2020年FWST／YZ9已有正式战役页；[2013年艾萨凯素材](asakai-2013.md)留档但暂缓立页，因尚无可确认的华人角色参战记录。其同期CCP717.03B属大型，角色旧KM不能直接归给当前操作者。9-4RP2的出场资产金额不能直接用来证明战损达标。塔夫720B已核；Evati与另一次Ignoitton完整窗口的后续核对见[大型战役素材](large-battles-2026-10-11.md)。原900B视频与Freak的600B视频仍缺对应窗口，不因视频标题直接给作者认参战。
+- 后续优先：其他帝国与华人低安旗舰战，先核对各方总损失与时间窗口。2023年X47、2020年FWST／YZ9已有正式战役页；[2013年艾萨凯](../../src/battles/asakai-2013/materials-asakai-2013.md)已立页。其同期CCP717.03B属大型，角色旧KM不能直接归给当前操作者。9-4RP2的出场资产金额不能直接用来证明战损达标。塔夫720B已核；Evati与另一次Ignoitton完整窗口的后续核对见[大型战役素材](large-battles-2026-10-11.md)。原900B视频与Freak的600B视频仍缺对应窗口，不因视频标题直接给作者认参战。
 
 ## 人物与代表 KM
 

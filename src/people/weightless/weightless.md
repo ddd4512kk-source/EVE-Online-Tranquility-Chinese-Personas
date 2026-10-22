@@ -1,10 +1,3 @@
----
-character_id: 2119763431
-cn_name: 想想
-aliases: [Weightless, 以真理的名义]
-epithet: 建号两周，为别人的九张卡丢了自己的联盟。
-tags: ["00区", "NDRC", ".FPC."]
----
 
 想想，游戏名 Weightless，2022 年 3 月 6 日建号，当天进了 DC 旗下的 Faceless.（D.OK 无面者）。两个星期后，他以“以真理的名义”为贴吧账号，发了一篇[《关于“我在DC说实话被踢了这件事”发表获奖感言》](https://tieba.baidu.com/p/7767970074)，从此成了“九卡事件”里第一个被踢出局的人。
 

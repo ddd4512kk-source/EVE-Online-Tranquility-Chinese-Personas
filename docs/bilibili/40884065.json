@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "uid": "40884065",
+  "name": "Neciy",
+  "url": "https://space.bilibili.com/40884065/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "《N老板的黑历史》",
+    "evidence": [
+      "2026-10-16搜索结果出现的作者UID与展示名；只见1条标题，不足以对应人物。"
+    ],
+    "related": []
+  },
+  "discovery": {
+    "source": "docs/bilibili/scans.json",
+    "run": "2026-10-16-legacy",
+    "observed_at": "2026-10-16",
+    "topic": "《N老板的黑历史》",
+    "scope": "搜索标题线索；空间、作品页与评论未读，未取得确切BV，不认定为本人创作或本人视角。",
+    "next": "沿已知UID按具体调查需要定向核对空间与作品，不重跑搜索，不读取影像、音轨或字幕。"
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": []
+}

@@ -1,14 +1,32 @@
----
-character_id: 0000000000
-cn_name: 中文名
-aliases: [外号一, 外号二]
-epithet: 一句话锐评，不超过二十五字。
-tags: [标签一, 标签二]
----
+# 人物模板
 
+每人建立 `<短名>.md` 正文及 `<角色ID>-id.json` 档案，Markdown 不写 front matter。新人物先写以下 JSON，再运行 `npm run fetch` 补游戏快照与头像；已有档案只改人工字段，不覆盖快照：
+
+```json
+{
+  "id": 2000000000,
+  "person": {
+    "cn_name": "中文名",
+    "aliases": ["外号一", "外号二"],
+    "epithet": "一句话锐评，不超过二十五字。",
+    "tags": ["标签一", "标签二"]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [],
+    "accounts": {}
+  }
+}
+```
+
+别称与小号分别维护：`person.aliases` 是外号，`identity.alts` 每项必须带 ID、实际角色名和来源，不重复填写。字段和平台账号见 [人物身份数据](person-identity.md)。更新时间由正文 Git 历史自动计算。
+
+以下为正文示例：
+
+```markdown
 开篇叙事：此人来历、何时入坑、混过哪些圈子、在社区里以什么出名。
 
-<!-- 有小号的在 front matter 加 alts: [小号角色ID, …]，战役战报据此把小号认作本人；号名写 aliases，依据记素材。 -->
+<!-- 小号、贴吧账号写进本人 <ID>-id.json 的 identity，依据记素材；B站归 docs/bilibili/<UID>.json，统一读取时自动关联。字段见 docs/person-identity.md。 -->
 <!-- 一红两黑只是格式示例：有几条料写几块；只有一条料也可以立传。 -->
 <!-- 写作前读 docs/writing-review.md：来源交代一次，顺着线索展开冲突、动机与反差；核查缺口留素材，不用免责句收尾。 -->
 
@@ -30,3 +48,4 @@ tags: [标签一, 标签二]
 ::: 评
 文末锐评，一两段即可。
 :::
+```

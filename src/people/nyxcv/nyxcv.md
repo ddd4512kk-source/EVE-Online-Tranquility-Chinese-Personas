@@ -1,10 +1,3 @@
----
-character_id: 2122366928
-cn_name: 无梦
-aliases: [NyxCV]
-epithet: 前线带队，后方还得管技术设施
-tags: [00区, NC, FOXOR, FC]
----
 
 无梦，游戏名 NyxCV，抵抗之狐的 FC。[军团官网](https://foxor.cc/team/)把他写在前线战斗指挥栏，负责带队作战；职能栏里又出现一次，兼任 IT 运维。
 

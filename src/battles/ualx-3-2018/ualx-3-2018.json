@@ -1,0 +1,100 @@
+{
+  "battle": {
+    "title": "UALX-3，星城没活过开业礼",
+    "aliases": [
+      "UALX-3旗舰战"
+    ],
+    "epithet": "新店还没迎客，先把邻居打成了住客。",
+    "start": "2018-07-19",
+    "systems": [
+      "UALX-3"
+    ],
+    "tags": [
+      "00区",
+      "泰坦战",
+      "FRT",
+      "CONDI"
+    ],
+    "sides": [
+      {
+        "name": "Legacy 与帝国",
+        "pilots": 2510,
+        "loss": 1450,
+        "loss_count": 1186,
+        "stats_note": "人数与损失记录取EVE Ref当日03:00—11:00 UTC公开KM，按角色／KM去重，含胶囊、建筑和铁骑；金额仍为09:30阶段估计，详见素材。",
+        "note": "人数／条数为03—11时公开KM可核数；金额为09:30估计、含星城。",
+        "corps": [
+          {
+            "id": 98451548
+          }
+        ],
+        "people": [
+          96280212
+        ],
+        "organizations": [
+          1354830081
+        ],
+        "emblem": 1354830081
+      },
+      {
+        "name": "凛冬与北方联军",
+        "pilots": 2128,
+        "loss": 1090,
+        "loss_count": 1526,
+        "stats_note": "人数与损失记录取EVE Ref当日03:00—11:00 UTC公开KM，按角色／KM去重，含胶囊、建筑和铁骑；金额仍为09:30阶段估计，详见素材。",
+        "note": "人数／条数为03—11时公开KM可核数；金额为09:30估计。",
+        "corps": [
+          {
+            "id": 98108175
+          }
+        ],
+        "people": [
+          690534767,
+          1618197191
+        ],
+        "organizations": [
+          99003581,
+          1727758877,
+          386292982
+        ],
+        "emblem": 99003581
+      }
+    ],
+    "total_loss": 1368,
+    "pilots": 4697,
+    "loss_source": [
+      "https://imperium.news/breaking-news-ualx-3-keepstar-titan-fight/",
+      "https://www.reddit.com/r/Eve/comments/9025w2/ualx3_keepstar_anchoring/",
+      "https://tagn.wordpress.com/2018/07/20/a-keepstar-dies-in-tenerifis/",
+      "https://data.everef.net/killmails/2018/killmails-2018-07-19.tar.bz2"
+    ],
+    "loss_is_lower_bound": true,
+    "videos": [
+      {
+        "title": "EVE - 星城两连爆！这已不是游戏，而是真正的战争！",
+        "url": "https://www.bilibili.com/video/BV1hs411K7ND/",
+        "author": "hitncl",
+        "description": "把这一仗放回2018年第二次南方战争的大背景：前台是超旗对轰，幕后是两大联盟群的博弈，简介称之为Everyone vs Everyone的全服战争。"
+      },
+      {
+        "title": "[EVE]7月19日UALX-3星系Imperial Legacy vs PanFam+HRE+Winter Co.+GOTG",
+        "url": "https://www.bilibili.com/video/BV1fs411N76U/",
+        "author": "金鹏防御放大节点（搬运）",
+        "description": "两段外服录像搬运：P1是观赏视角，P2是Legacy一方MTT的战术视角，简介附了本场战报。"
+      },
+      {
+        "title": "[EVE欧服]UALX-3泰坦超旗敲星城 20180719 外国友人视角",
+        "url": "https://www.bilibili.com/video/BV1As411K7fk/",
+        "author": "南墙啊他（搬运）",
+        "description": "外服视角的泰坦、超旗敲星城录像，简介译出双方损失：东方一侧九条泰坦、约1.09T，帝国与Legacy一侧连星城约1.45T。"
+      },
+      {
+        "title": "EVE Online UALX- 价值百万美元超旗逃脱幕后",
+        "url": "https://www.bilibili.com/video/BV1Gs411A7Xe/",
+        "author": "Remeleen丨（搬运）",
+        "description": "战后被困UALX-3的超旗怎样策划脱身：搬运自外服的幕后规划视频，原帖在r/Eve。"
+      }
+    ]
+  },
+  "br": null
+}

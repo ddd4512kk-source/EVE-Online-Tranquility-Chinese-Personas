@@ -52,3 +52,9 @@
 
 - [【EVE欧服】Old Man Star：1400+大乱斗（Snuffed Out敌对视角）](https://www.bilibili.com/video/BV15N411171m/)：2023-05-28发布，标题Old Man Star、1400余人与Snuff敌对侧，与本页5月27日会战对应。简介附替代战报64717b91543bb54ab3337066，区别于本页主报64717fa0afc8fc4c3fe95e24；本轮未获取替代战报，不引入其统计。天机坊转载，原片t4iMuMIem7U。
 - 待补候选：NoNoOwO[BV16HhmzaE8W](https://www.bilibili.com/video/BV16HhmzaE8W/)标题讲Old Man Star、约1T，但本地可读记录尚未落实交战日期，不能仅因同星系挂到2023年5月告别战。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE Online】被1000人围殴，老人星低安旗舰战。BBC+BIGAB+FRT VS SC+一大票低安大联合+帝国+FRT](https://www.bilibili.com/video/BV12z4y1B7Gt/)：标题指名老人星低安旗舰战，投稿日当天。

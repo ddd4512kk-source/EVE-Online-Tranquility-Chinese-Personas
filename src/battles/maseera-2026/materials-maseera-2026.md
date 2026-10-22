@@ -2,7 +2,7 @@
 
 ## 来源与实际阅读范围
 
-- [BR 6a1c88b7902913b29a68c4cf](https://br.evetools.org/br/6a1c88b7902913b29a68c4cf)：正式composition接口完整响应，194条去重KM；使用仓库`buildSnapshot`、`stringifySnapshot`生成本目录`br.json`，未手编快照。原始响应本轮保存在`/tmp/eve-next-maseera/br-raw.json`。
+- [BR 6a1c88b7902913b29a68c4cf](https://br.evetools.org/br/6a1c88b7902913b29a68c4cf)：正式composition接口完整响应，194条去重KM；使用仓库`buildSnapshot`、`stringifySnapshot`生成本目录`maseera-2026.json` 的 `br`，未手编快照。原始响应本轮保存在`/tmp/eve-next-maseera/br-raw.json`。
 - [Megaman39，AAR: Cartel Only a Shadow of its Former Self 500b Down](https://www.reddit.com/r/Eve/comments/1tu263h/)，2026-06-01：Sedition一方复盘，主帖及58条评论全部读取，分页完成、无错误；评论末条到2026-06-07。原帖与评论JSON、易读全文分别在`/tmp/eve-next-maseera/reddit-1tu263h.json`、`reddit-output.txt`。正文只消化公开文字，未读帖中视频、图片、音频、字幕或转录。
 - [CCP ESI星系中文资料](https://esi.evetech.net/latest/universe/systems/30004235/?language=zh)：Maseera中文名为“马瑟拉”，星系ID30004235；原响应在`/tmp/eve-next-maseera/maseera-system-zh.json`。
 

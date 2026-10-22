@@ -4,7 +4,7 @@
 
 ## 近形角色与收录号（2026-10-10）
 
-先前只查 [zKillboard 的 `I-cute` 自动补全](https://zkillboard.com/autocomplete/I-cute/)，误称仅有两个同前缀角色。该索引没有检出 `I`/`l`、`m`/`rn`、`z`/`s` 等字形替换。重新逐页查 [STARCHASER Inc 的 EveWho 成员名单](https://evewho.com/api/corplist/98626494)，共 5 页、2113 个角色，找到原号及下列 **15 个近形名字**。这 15 个号的 ESI 头衔均为“炸毛狗头”，同在 STARCHASER Inc；除 `I-cute money pls` 创建于 2023-07-01，其余 14 个均创建于 2024-02-17。密集建号、同团和同头衔是强关联线索，但公开资料未逐一证明操作者；暂不把其个人行为并入正文。
+先前只查 [zKillboard 的 `I-cute` 自动补全](https://zkillboard.com/autocomplete/I-cute/)，误称仅有两个同前缀角色。该索引没有检出 `I`/`l`、`m`/`rn`、`z`/`s` 等字形替换。重新逐页查 [STARCHASER Inc 的 EveWho 成员名单](https://evewho.com/api/corplist/98626494)，共 5 页、2113 个角色，找到原号及下列 **15 个近形名字**。这 15 个号的 ESI 头衔均为“炸毛狗头”，同在 STARCHASER Inc；除 `I-cute money pls` 创建于 2023-07-01，其余 14 个均创建于 2024-02-17。15 个近形角色均归炒鸡，已登记为小号。公开页面用于核对角色名、ID、军团与头衔；这 15 号的 zKillboard 均为 0 击杀、0 损失，因此没有新增可写入正文的战绩。
 
 | 近形角色（ESI） | ID |
 | --- | ---: |

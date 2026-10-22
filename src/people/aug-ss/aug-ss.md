@@ -1,10 +1,3 @@
----
-character_id: 2118990980
-cn_name: DA
-aliases: [AUG SS, AUG SE, DADDY Hitme]
-epithet: 二次元团长，招新按钮暂时下线。
-tags: ["00区", "D.C", ".RPG.", "CEO"]
----
 
 DA，奥术飞弹（Where is My Arcane Missiles，.RPG.）的创建人，登记管理号 AUG SS。2021年8月13日，他建起这家后来在龙焰（DC）活动的华人军团；团方给自己的定位很鲜明：“二次元华人团”。到2026年10月的公开资料里，他仍登记为CEO，招募状态则写着“关闭”。
 

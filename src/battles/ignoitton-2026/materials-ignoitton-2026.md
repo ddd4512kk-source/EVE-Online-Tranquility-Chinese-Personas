@@ -37,4 +37,11 @@
 
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
-- 待补候选：NoNoOwO[BV1emGF6WEAf](https://www.bilibili.com/video/BV1emGF6WEAf/)的空间标题标7月31日、约900B，可能涉及本场，仍缺完整简介或战报关联。另一条[BV1XMb9eMES9](https://www.bilibili.com/video/BV1XMb9eMES9/)标题称2T，不能因同星系便并入。
+- [BV1emGF6WEAf](https://www.bilibili.com/video/BV1emGF6WEAf/)已于2026-10-22读取作品页，见下节。另一条[BV1XMb9eMES9](https://www.bilibili.com/video/BV1XMb9eMES9/)标题称2T，不能因同星系便并入。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+<a id="bili-bv1emgf6weaf"></a>
+- [【SnuffedOut】Ignoitton-轰一把900b的旗舰](https://www.bilibili.com/video/BV1emGF6WEAf/)：2026-07-31 投稿，时长 7:33，播放约 2422、评论 26。创作团队 5 人：发布账号（UID 335849770，现已注销）、NoNoOwO、舰长雷耶斯、少侠LNP、BeliEVE76。简介只有“200b：700b”，与战报两方损失约 257B 对 758B 的量级相合。评论：飘飘丰“frt需要bbc来谷内来一把900b的旗舰”（8 条回复）；DF54321“深水吃了这么多次亏，就不能反剧本一次？”；000_ampm“我们的大加力……会变成什么样子……”；dzkell“对跳泰坦，就是不对轰 哈基米 VS 大狗叫 ~XD（深水暴打Snf)”；PLC-007“02:48 那无畏跑了？”；晨曦晚霞123 嫌装备被遮挡，“zkill上也能找，只是花多点时间。很小气啊”；heguyChen、加班老叶各问“怎么不敢来谷内了”；另有两人问大战起因。

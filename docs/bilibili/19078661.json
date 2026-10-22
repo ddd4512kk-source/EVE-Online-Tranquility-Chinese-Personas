@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "19078661",
+  "name": "GLaBOSS",
+  "url": "https://space.bilibili.com/19078661/",
+  "identity": {
+    "state": "source",
+    "person": null,
+    "material": "src/people/kuo-kuo/materials-kuo-kuo.md",
+    "label": "阔阔素材",
+    "evidence": [
+      "《制裁 Frt 脚本大航》，见[阔阔素材](../src/people/kuo-kuo/materials-kuo-kuo.md)；另有《欧服传奇指挥Progodlegend如何玩EVE》"
+    ],
+    "related": [
+      {
+        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+        "label": "战役相关视频"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1WD4y1d7LG",
+      "title": "Eve Online_YZ9-F6超旗战",
+      "url": "https://www.bilibili.com/video/BV1WD4y1d7LG/",
+      "owner_uid": "19078661",
+      "published_at": "2020-10-16T18:21:48.000Z",
+      "captured_at": null,
+      "description": "https://www.youtube.com/watch?v=qWss4dolL-A\nTEST联盟华人军团EN-PL \n军团百科链接：http://enpl.evewiki.cn/doku.php \n军团招募群:559269060\nTEST Alliance Please Ignore\n战斗KB:https://br.evetools.org/br/5f87d85555bb56001bc05189",
+      "stats": {
+        "views": 929,
+        "replies": 1
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

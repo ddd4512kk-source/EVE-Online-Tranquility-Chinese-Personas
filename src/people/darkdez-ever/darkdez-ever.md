@@ -1,10 +1,3 @@
----
-character_id: 2113937178
-cn_name: 小D
-aliases: [D佬, DarKdeZ Ever]
-epithet: 祝福一句，队友连爆三条船；骂一句，队友开始赢。
-tags: [00区, AT19冠军]
----
 
 小 D，人称 D佬，游戏名 DarKdeZ Ever，2018 年建号。先在创世，2020 年 11 月起在 D-Line Force（D 线部队），FRT AT19 冠军队员。角色简介是一句德语：
 

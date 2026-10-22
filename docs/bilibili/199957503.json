@@ -1,0 +1,845 @@
+{
+  "version": 1,
+  "uid": "199957503",
+  "name": "青春的工作室",
+  "url": "https://space.bilibili.com/199957503/",
+  "identity": {
+    "state": "confirmed",
+    "person": "jason-yusi",
+    "material": "src/people/jason-yusi/materials-jason-yusi.md",
+    "label": "青春",
+    "evidence": [
+      "角色简介署名"
+    ],
+    "related": [
+      {
+        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+        "label": "战役相关视频"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:08:50.721Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/199957503/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:08:50.721Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/199957503/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "尚未核到5个EVE视频。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    },
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:08:50.721Z",
+        "source": "https://space.bilibili.com/199957503/upload/video",
+        "scope": "公开投稿列表全部103条（共103条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1bdpr6xEbd",
+            "title": "[EVE Online]百艘黑隐突入静寂谷，无畏炸弹轰飞无畏与大航💣",
+            "url": "https://www.bilibili.com/video/BV1bdpr6xEbd/",
+            "published": "2026-10-14",
+            "views": 2345
+          },
+          {
+            "bvid": "BV1tRpE6ZEF5",
+            "title": "【EVE Online】黑隐值守舰队",
+            "url": "https://www.bilibili.com/video/BV1tRpE6ZEF5/",
+            "published": "2026-10-11",
+            "views": 743
+          },
+          {
+            "bvid": "BV1cdpc6PEjv",
+            "title": "【EVE Online】FDZ黑隐队凉了？！",
+            "url": "https://www.bilibili.com/video/BV1cdpc6PEjv/",
+            "published": "2026-10-06",
+            "views": 722
+          },
+          {
+            "bvid": "BV17VHp6EEpN",
+            "title": "【EVE Online】8F-TK3会战纪实(无畏视角10.4)",
+            "url": "https://www.bilibili.com/video/BV17VHp6EEpN/",
+            "published": "2026-10-05",
+            "views": 1564
+          },
+          {
+            "bvid": "BV1Tyez6LE1Y",
+            "title": "【EVE Online】《寂静谷值守舰队》",
+            "url": "https://www.bilibili.com/video/BV1Tyez6LE1Y/",
+            "published": "2026-09-20",
+            "views": 1298
+          },
+          {
+            "bvid": "BV1kueU6cEy6",
+            "title": "【EVE Online】近期黑隐队纪实",
+            "url": "https://www.bilibili.com/video/BV1kueU6cEy6/",
+            "published": "2026-09-18",
+            "views": 584
+          },
+          {
+            "bvid": "BV12GtB6dET3",
+            "title": "【EVE Online】星城闪电链痛击友军！(9.4小旗舰击毁纪实)",
+            "url": "https://www.bilibili.com/video/BV12GtB6dET3/",
+            "published": "2026-09-04",
+            "views": 1218
+          },
+          {
+            "bvid": "BV1hH8b61Emf",
+            "title": "【EVE Online】每日执法 :P（8.22-23小旗舰击毁纪实）",
+            "url": "https://www.bilibili.com/video/BV1hH8b61Emf/",
+            "published": "2026-08-23",
+            "views": 358
+          },
+          {
+            "bvid": "BV1dU8i6gEPB",
+            "title": "【EVE Online】我又来水视频了~（NCGR-Q无畏击毁纪实 26.8.21）",
+            "url": "https://www.bilibili.com/video/BV1dU8i6gEPB/",
+            "published": "2026-08-21",
+            "views": 307
+          },
+          {
+            "bvid": "BV1BE8G6CEJd",
+            "title": "【EVE Online】神奇配置大赏：海凤凰带2个索敌计算机？还空个中槽？",
+            "url": "https://www.bilibili.com/video/BV1BE8G6CEJd/",
+            "published": "2026-08-18",
+            "views": 988
+          },
+          {
+            "bvid": "BV1WabX6AErQ",
+            "title": "【EVE Online】N-HSK0海凤凰击毁纪实（2026-8-14）",
+            "url": "https://www.bilibili.com/video/BV1WabX6AErQ/",
+            "published": "2026-08-16",
+            "views": 344
+          },
+          {
+            "bvid": "BV1jUgA6YEGu",
+            "title": "【EVE Online】原来无敌中的大鱼也可以击毁啊",
+            "url": "https://www.bilibili.com/video/BV1jUgA6YEGu/",
+            "published": "2026-08-14",
+            "views": 2097
+          },
+          {
+            "bvid": "BV18ng56HEYd",
+            "title": "【EVE Online】为啥DT后深空点有个无畏啊？",
+            "url": "https://www.bilibili.com/video/BV18ng56HEYd/",
+            "published": "2026-08-12",
+            "views": 1065
+          },
+          {
+            "bvid": "BV14MgL6JEYn",
+            "title": "【EVE Online】我又更新了~今天吃鱼:P",
+            "url": "https://www.bilibili.com/video/BV14MgL6JEYn/",
+            "published": "2026-08-12",
+            "views": 445
+          },
+          {
+            "bvid": "BV1odu26XE1a",
+            "title": "【EVE Online】我的无畏才买了10分钟啊~~~",
+            "url": "https://www.bilibili.com/video/BV1odu26XE1a/",
+            "published": "2026-08-09",
+            "views": 4911
+          },
+          {
+            "bvid": "BV1Q44y1c7Uz",
+            "title": "【EVE Online】重导小希新生 :P",
+            "url": "https://www.bilibili.com/video/BV1Q44y1c7Uz/",
+            "published": "2023-08-16",
+            "views": 905
+          },
+          {
+            "bvid": "BV1Wv4y187ht",
+            "title": "【EVE Online】挑战最赚钱的项目之再次血亏",
+            "url": "https://www.bilibili.com/video/BV1Wv4y187ht/",
+            "published": "2023-03-07",
+            "views": 1195
+          },
+          {
+            "bvid": "BV1GL411f7f6",
+            "title": "【EVE Online】无畏击杀纪实(3.4)",
+            "url": "https://www.bilibili.com/video/BV1GL411f7f6/",
+            "published": "2023-03-03",
+            "views": 1403
+          },
+          {
+            "bvid": "BV1C14y1G7qa",
+            "title": "【EVE Online】新年第一个KM :P (IS-OBW 无畏击杀纪实 1.1)",
+            "url": "https://www.bilibili.com/video/BV1C14y1G7qa/",
+            "published": "2023-01-01",
+            "views": 489
+          },
+          {
+            "bvid": "BV1gK411R7Vz",
+            "title": "【EVE Online】7T-0QS 凤凰击杀纪实(11.26)",
+            "url": "https://www.bilibili.com/video/BV1gK411R7Vz/",
+            "published": "2022-11-27",
+            "views": 655
+          },
+          {
+            "bvid": "BV1oP4y1R75o",
+            "title": "【EVE Online】SON-TW 大鱼击杀纪实 (11.26)",
+            "url": "https://www.bilibili.com/video/BV1oP4y1R75o/",
+            "published": "2022-11-26",
+            "views": 289
+          },
+          {
+            "bvid": "BV1vW4y1x7oh",
+            "title": "【EVE Online】5NQI-E 大鱼击杀纪实(11.21)",
+            "url": "https://www.bilibili.com/video/BV1vW4y1x7oh/",
+            "published": "2022-11-21",
+            "views": 408
+          },
+          {
+            "bvid": "BV1QP411F76D",
+            "title": "【EVE Online】铁壁爆炸瞬间",
+            "url": "https://www.bilibili.com/video/BV1QP411F76D/",
+            "published": "2022-11-09",
+            "views": 335
+          },
+          {
+            "bvid": "BV1Ye4y1x7F1",
+            "title": "【EVE Online】Y6-9LF 大鱼击杀纪实(11.4)",
+            "url": "https://www.bilibili.com/video/BV1Ye4y1x7F1/",
+            "published": "2022-11-04",
+            "views": 418
+          },
+          {
+            "bvid": "BV1Pt4y1A7Cq",
+            "title": "【EVE Online】D-9UEV小型冲突纪实(10.1)",
+            "url": "https://www.bilibili.com/video/BV1Pt4y1A7Cq/",
+            "published": "2022-10-01",
+            "views": 261
+          },
+          {
+            "bvid": "BV1jT411M7Lf",
+            "title": "【EVE Online】钓鱼真爽 :P",
+            "url": "https://www.bilibili.com/video/BV1jT411M7Lf/",
+            "published": "2022-09-10",
+            "views": 1246
+          },
+          {
+            "bvid": "BV1P14y1e72D",
+            "title": "【EVE Online】HY-RWO常规会战纪实(9.5)",
+            "url": "https://www.bilibili.com/video/BV1P14y1e72D/",
+            "published": "2022-09-05",
+            "views": 423
+          },
+          {
+            "bvid": "BV1NU4y1q7ms",
+            "title": "【EVE Online】M-SG47小航击杀纪实(7.24)",
+            "url": "https://www.bilibili.com/video/BV1NU4y1q7ms/",
+            "published": "2022-07-24",
+            "views": 376
+          },
+          {
+            "bvid": "BV1HF411P7AN",
+            "title": "【EVE Online】JI1-SY 娱乐队纪实 (7.22)",
+            "url": "https://www.bilibili.com/video/BV1HF411P7AN/",
+            "published": "2022-07-22",
+            "views": 193
+          },
+          {
+            "bvid": "BV1na411H7UU",
+            "title": "【EVE Online】C3J0-O无畏击杀纪实(7.19)",
+            "url": "https://www.bilibili.com/video/BV1na411H7UU/",
+            "published": "2022-07-19",
+            "views": 1188
+          },
+          {
+            "bvid": "BV1994y1Q73q",
+            "title": "【EVE Online】简单的吃肉舰队(7.17无畏击杀纪实)",
+            "url": "https://www.bilibili.com/video/BV1994y1Q73q/",
+            "published": "2022-07-16",
+            "views": 493
+          },
+          {
+            "bvid": "BV1ov4y1M7qj",
+            "title": "【EVE Online】月更UP又来水视频了~（OSY-UD吃肉小队纪实6.24）",
+            "url": "https://www.bilibili.com/video/BV1ov4y1M7qj/",
+            "published": "2022-06-24",
+            "views": 301
+          },
+          {
+            "bvid": "BV1KA4y1R7bk",
+            "title": "【EVE Online】收割与反收割(6.7)",
+            "url": "https://www.bilibili.com/video/BV1KA4y1R7bk/",
+            "published": "2022-06-07",
+            "views": 273
+          },
+          {
+            "bvid": "BV1gW4y1C7nc",
+            "title": "【EVE Online】5-CQDA本土防御纪实(5.29)",
+            "url": "https://www.bilibili.com/video/BV1gW4y1C7nc/",
+            "published": "2022-05-29",
+            "views": 346
+          },
+          {
+            "bvid": "BV1ia411j7mA",
+            "title": "【EVE Online】46DP-O会战纪实(5.28)",
+            "url": "https://www.bilibili.com/video/BV1ia411j7mA/",
+            "published": "2022-05-28",
+            "views": 818
+          },
+          {
+            "bvid": "BV1KR4y1K7Sp",
+            "title": "【EVE Online】年更UP又来水视频了(隐投队纪实)",
+            "url": "https://www.bilibili.com/video/BV1KR4y1K7Sp/",
+            "published": "2022-04-22",
+            "views": 392
+          },
+          {
+            "bvid": "BV1KL4y137xa",
+            "title": "【EVE Online】Dragon Fleet 片头V2.0",
+            "url": "https://www.bilibili.com/video/BV1KL4y137xa/",
+            "published": "2022-03-02",
+            "views": 101
+          },
+          {
+            "bvid": "BV1Eb4y1x7Xa",
+            "title": "【EVE Online】Dragon Fleet 片头 V1.0",
+            "url": "https://www.bilibili.com/video/BV1Eb4y1x7Xa/",
+            "published": "2022-03-01",
+            "views": 120
+          },
+          {
+            "bvid": "BV1TL4y1378t",
+            "title": "【EVE Online】1DQ1-A ESS Defence(2.27)",
+            "url": "https://www.bilibili.com/video/BV1TL4y1378t/",
+            "published": "2022-02-27",
+            "views": 607
+          },
+          {
+            "bvid": "BV1yT4y1D7jT",
+            "title": "【EVE Online】The Imperium VS PAPI in RH0-EG (2.20)",
+            "url": "https://www.bilibili.com/video/BV1yT4y1D7jT/",
+            "published": "2022-02-21",
+            "views": 483
+          },
+          {
+            "bvid": "BV1Bb4y177gk",
+            "title": "【EVE Online】PDF-3Z 蜜蜂Dragon Fleet+D.C VS FI.RE (2.11小希视角)",
+            "url": "https://www.bilibili.com/video/BV1Bb4y177gk/",
+            "published": "2022-02-11",
+            "views": 653
+          },
+          {
+            "bvid": "BV1wT4y1C79z",
+            "title": "【EVE Online】2022年春节长枪烟花欣赏 祝大家虎年大吉！",
+            "url": "https://www.bilibili.com/video/BV1wT4y1C79z/",
+            "published": "2022-01-31",
+            "views": 613
+          },
+          {
+            "bvid": "BV1aa411k74H",
+            "title": "【EVE Online】我的2021年度总结(萌新第三年)",
+            "url": "https://www.bilibili.com/video/BV1aa411k74H/",
+            "published": "2021-12-17",
+            "views": 248
+          },
+          {
+            "bvid": "BV1vQ4y1D77y",
+            "title": "【EVE Online】TEG-SD PH无畏剧本蜜蜂蝗虫队(PH无畏视角+蜜蜂指挥视角)-考古视频(2019.12.1)",
+            "url": "https://www.bilibili.com/video/BV1vQ4y1D77y/",
+            "published": "2021-10-16",
+            "views": 2100
+          },
+          {
+            "bvid": "BV16R4y1H7SD",
+            "title": "【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)",
+            "url": "https://www.bilibili.com/video/BV16R4y1H7SD/",
+            "published": "2021-09-18",
+            "views": 3019
+          },
+          {
+            "bvid": "BV1g44y1y7Fv",
+            "title": "【EVE Online】联军(PAPI) T5ZI-S 集结星城击毁瞬间 2021-8-13 (感谢PAPI的烟花 :P)",
+            "url": "https://www.bilibili.com/video/BV1g44y1y7Fv/",
+            "published": "2021-08-13",
+            "views": 1269
+          },
+          {
+            "bvid": "BV1G3411z7vN",
+            "title": "【EVE Online】8QT-H4 泰坦击杀（2021.8.5）",
+            "url": "https://www.bilibili.com/video/BV1G3411z7vN/",
+            "published": "2021-08-05",
+            "views": 1136
+          },
+          {
+            "bvid": "BV1Q44y1q7qF",
+            "title": "【小提琴】哈尔的移动城堡-插曲：人生的旋转木马",
+            "url": "https://www.bilibili.com/video/BV1Q44y1q7qF/",
+            "published": "2021-07-10",
+            "views": 197
+          },
+          {
+            "bvid": "BV1wb4y1o75Y",
+            "title": "【小提琴】人生的旋转木马-片段",
+            "url": "https://www.bilibili.com/video/BV1wb4y1o75Y/",
+            "published": "2021-06-14",
+            "views": 267
+          },
+          {
+            "bvid": "BV1k54y1G7kq",
+            "title": "【小提琴】PALLADIO-片段",
+            "url": "https://www.bilibili.com/video/BV1k54y1G7kq/",
+            "published": "2021-06-14",
+            "views": 114
+          },
+          {
+            "bvid": "BV1y54y1L7sc",
+            "title": "TISHU - 飙车队吃FRT大航",
+            "url": "https://www.bilibili.com/video/BV1y54y1L7sc/",
+            "published": "2021-04-20",
+            "views": 2894
+          },
+          {
+            "bvid": "BV1M5411p75C",
+            "title": "【EVE Online】我的2020年度总结",
+            "url": "https://www.bilibili.com/video/BV1M5411p75C/",
+            "published": "2020-12-30",
+            "views": 183
+          },
+          {
+            "bvid": "BV1oi4y1V7fY",
+            "title": "【EVE Online】Thanksgiving Weekend Fun - Revenant Kill",
+            "url": "https://www.bilibili.com/video/BV1oi4y1V7fY/",
+            "published": "2020-11-29",
+            "views": 603
+          },
+          {
+            "bvid": "BV1Sa411c75W",
+            "title": "【EVE Online】纤维队还是香啊 :P (UGR-J2 小航击杀纪实)",
+            "url": "https://www.bilibili.com/video/BV1Sa411c75W/",
+            "published": "2020-11-14",
+            "views": 1090
+          },
+          {
+            "bvid": "BV1fZ4y1377i",
+            "title": "【EVE Online】5-CSE3 大鱼击杀纪实 (11.12)",
+            "url": "https://www.bilibili.com/video/BV1fZ4y1377i/",
+            "published": "2020-11-12",
+            "views": 620
+          },
+          {
+            "bvid": "BV1EK4y1E7JV",
+            "title": "【EVE Online】Aeter 大鱼击杀纪实(11.4)",
+            "url": "https://www.bilibili.com/video/BV1EK4y1E7JV/",
+            "published": "2020-11-04",
+            "views": 867
+          },
+          {
+            "bvid": "BV1Qa4y157f1",
+            "title": "【EVE Online】 C-PEWN 大鱼击杀纪实 (10.4)",
+            "url": "https://www.bilibili.com/video/BV1Qa4y157f1/",
+            "published": "2020-10-04",
+            "views": 541
+          },
+          {
+            "bvid": "BV1AV41127CR",
+            "title": "【EVE Online】就是一个简单的吃肉视频",
+            "url": "https://www.bilibili.com/video/BV1AV41127CR/",
+            "published": "2020-10-02",
+            "views": 334
+          },
+          {
+            "bvid": "BV1FV411m754",
+            "title": "【EVE Online】纤维队也太香了吧 :P (A-REKV 大鱼击杀纪实 8.27)",
+            "url": "https://www.bilibili.com/video/BV1FV411m754/",
+            "published": "2020-08-27",
+            "views": 1242
+          },
+          {
+            "bvid": "BV1aC4y1b71o",
+            "title": "【EVE Online】小航和响尾蛇刷同一个异常是什么感觉",
+            "url": "https://www.bilibili.com/video/BV1aC4y1b71o/",
+            "published": "2020-07-25",
+            "views": 2595
+          },
+          {
+            "bvid": "BV1xT4y1g74T",
+            "title": "【EVE Online】当抓住了小鲸鱼怎么办",
+            "url": "https://www.bilibili.com/video/BV1xT4y1g74T/",
+            "published": "2020-06-11",
+            "views": 1924
+          },
+          {
+            "bvid": "BV1dK411579r",
+            "title": "【EVE Online】挑战最赚钱的项目之没赚到钱",
+            "url": "https://www.bilibili.com/video/BV1dK411579r/",
+            "published": "2020-05-10",
+            "views": 2036
+          },
+          {
+            "bvid": "BV1UZ4y1x7EB",
+            "title": "【EVE Online】O5-YNW Capitals Kill (4.21)",
+            "url": "https://www.bilibili.com/video/BV1UZ4y1x7EB/",
+            "published": "2020-04-21",
+            "views": 414
+          },
+          {
+            "bvid": "BV1iA411b7LX",
+            "title": "【EVE Online】6V-D0E 大鱼击杀 隐轰视角(4.20)",
+            "url": "https://www.bilibili.com/video/BV1iA411b7LX/",
+            "published": "2020-04-20",
+            "views": 347
+          },
+          {
+            "bvid": "BV13p4y1y7E9",
+            "title": "【EVE Online】固定诱导是个好东西，请多多使用 :P (4.16 RF-X7V NYX&Rorqual 击杀 隐轰视角)",
+            "url": "https://www.bilibili.com/video/BV13p4y1y7E9/",
+            "published": "2020-04-16",
+            "views": 3131
+          },
+          {
+            "bvid": "BV1DK4y1r7tH",
+            "title": "【EVE Online】EPCD-D 4.14大鱼击杀(隐轰视角)",
+            "url": "https://www.bilibili.com/video/BV1DK4y1r7tH/",
+            "published": "2020-04-14",
+            "views": 364
+          },
+          {
+            "bvid": "BV1GZ4y1x7S7",
+            "title": "【EVE Online】6V-D0E Hel Kill (4.11 隐轰视角)",
+            "url": "https://www.bilibili.com/video/BV1GZ4y1x7S7/",
+            "published": "2020-04-11",
+            "views": 513
+          },
+          {
+            "bvid": "BV1aC4y1s78H",
+            "title": "【EVE Online】兄弟你这脚本不行啊（QY2Y-N 2超旗击杀 隐轰视角 4.8）",
+            "url": "https://www.bilibili.com/video/BV1aC4y1s78H/",
+            "published": "2020-04-09",
+            "views": 2787
+          },
+          {
+            "bvid": "BV16p4y1C7T8",
+            "title": "【EVE Online】最新改版-帕拉丁单刷血10/10(抗第三层测试)-配置不变",
+            "url": "https://www.bilibili.com/video/BV16p4y1C7T8/",
+            "published": "2020-04-09",
+            "views": 5903
+          },
+          {
+            "bvid": "BV1e64y1u7T3",
+            "title": "【EVE Online】We Are Watching You :P (近期隐投队合集)",
+            "url": "https://www.bilibili.com/video/BV1e64y1u7T3/",
+            "published": "2020-04-06",
+            "views": 659
+          },
+          {
+            "bvid": "BV1Mk4y1o7Ct",
+            "title": "【EVE Online】Goons 隐轰队吃鱼 (RIU-GC 3.28)",
+            "url": "https://www.bilibili.com/video/BV1Mk4y1o7Ct/",
+            "published": "2020-03-28",
+            "views": 400
+          },
+          {
+            "bvid": "BV127411R7kS",
+            "title": "【EVE Online】Goons Kiki小队",
+            "url": "https://www.bilibili.com/video/BV127411R7kS/",
+            "published": "2020-03-19",
+            "views": 942
+          },
+          {
+            "bvid": "BV1qE411g7Va",
+            "title": "【EVE Online】A1F-22 NYX击杀 (无畏视角)",
+            "url": "https://www.bilibili.com/video/BV1qE411g7Va/",
+            "published": "2020-03-08",
+            "views": 1467
+          },
+          {
+            "bvid": "BV1y7411N74a",
+            "title": "【EVE Online】2.27隐轰跟队录像",
+            "url": "https://www.bilibili.com/video/BV1y7411N74a/",
+            "published": "2020-02-28",
+            "views": 351
+          },
+          {
+            "bvid": "BV1H7411W77v",
+            "title": "【EVE Online】正月初九吃大鱼(2020-2-2 IO-R2S 大鱼击杀纪实)",
+            "url": "https://www.bilibili.com/video/BV1H7411W77v/",
+            "published": "2020-02-02",
+            "views": 783
+          },
+          {
+            "bvid": "BV1h7411k7bx",
+            "title": "【EVE Online】正月初二拜年记 响应N老板号召 WC大获全胜(RJBC-I NYX击杀纪实-无畏视角)",
+            "url": "https://www.bilibili.com/video/BV1h7411k7bx/",
+            "published": "2020-01-26",
+            "views": 3610
+          },
+          {
+            "bvid": "BV1cJ411H716",
+            "title": "【EVE Online】PLA损失惨重 恭喜FRT喜提KM (RF-X7V跳货击杀纪实)",
+            "url": "https://www.bilibili.com/video/BV1cJ411H716/",
+            "published": "2020-01-13",
+            "views": 2187
+          },
+          {
+            "bvid": "BV16J411p7bj",
+            "title": "【EVE Online】铁锅炖大航(HO4E-Q 1.11大航击杀纪实-无畏视角)",
+            "url": "https://www.bilibili.com/video/BV16J411p7bj/",
+            "published": "2020-01-11",
+            "views": 1587
+          },
+          {
+            "bvid": "BV1TJ41187HE",
+            "title": "【EVE Online】送给WC联盟群的新年礼物(QE2-FS击杀WC夜神纪实)",
+            "url": "https://www.bilibili.com/video/BV1TJ41187HE/",
+            "published": "2020-01-01",
+            "views": 2416
+          },
+          {
+            "bvid": "BV15J411h7By",
+            "title": "【EVE Online】我的2019年度总结(纯萌新的第一年)",
+            "url": "https://www.bilibili.com/video/BV15J411h7By/",
+            "published": "2019-12-31",
+            "views": 390
+          },
+          {
+            "bvid": "BV1wJ411b7hN",
+            "title": "【EVE Online】OSY-UD 12-19 无畏战纪实 出货失败",
+            "url": "https://www.bilibili.com/video/BV1wJ411b7hN/",
+            "published": "2019-12-19",
+            "views": 925
+          },
+          {
+            "bvid": "BV1MJ41167Ay",
+            "title": "【EVE Online】鱼吃不掉，但是能吃儿子呀",
+            "url": "https://www.bilibili.com/video/BV1MJ41167Ay/",
+            "published": "2019-12-15",
+            "views": 571
+          },
+          {
+            "bvid": "BV1zJ411C7DP",
+            "title": "【EVE Online】小航刷血袭者异常演示视频",
+            "url": "https://www.bilibili.com/video/BV1zJ411C7DP/",
+            "published": "2019-12-13",
+            "views": 2097
+          },
+          {
+            "bvid": "BV14J411C7UT",
+            "title": "【EVE Online】当海盗遇上更海盗的海盗",
+            "url": "https://www.bilibili.com/video/BV14J411C7UT/",
+            "published": "2019-12-12",
+            "views": 2801
+          },
+          {
+            "bvid": "BV1FJ411B7qy",
+            "title": "【EVE Online】论实践为何如此之香",
+            "url": "https://www.bilibili.com/video/BV1FJ411B7qy/",
+            "published": "2019-12-04",
+            "views": 2384
+          },
+          {
+            "bvid": "BV1SJ411271M",
+            "title": "【EVE Online】大航刷血袭者异常教程",
+            "url": "https://www.bilibili.com/video/BV1SJ411271M/",
+            "published": "2019-11-17",
+            "views": 1834
+          },
+          {
+            "bvid": "BV1VJ411S72e",
+            "title": "【EVE Online】隐投队吃蛇",
+            "url": "https://www.bilibili.com/video/BV1VJ411S72e/",
+            "published": "2019-11-17",
+            "views": 725
+          },
+          {
+            "bvid": "BV16E411v7ab",
+            "title": "【Eve Online】PLA军团2019年HZAQ-W阅兵实录（非正片）",
+            "url": "https://www.bilibili.com/video/BV16E411v7ab/",
+            "published": "2019-11-10",
+            "views": 727
+          },
+          {
+            "bvid": "BV1tE411y7vr",
+            "title": "【EVE Online】挑战最赚钱的项目--损失惨重",
+            "url": "https://www.bilibili.com/video/BV1tE411y7vr/",
+            "published": "2019-10-23",
+            "views": 4528
+          },
+          {
+            "bvid": "BV1fJ411M7Bk",
+            "title": "【EVE Online】A无畏刷血袭者怪教程",
+            "url": "https://www.bilibili.com/video/BV1fJ411M7Bk/",
+            "published": "2019-09-24",
+            "views": 4841
+          },
+          {
+            "bvid": "BV144411r7Ky",
+            "title": "【EVE Online】帕拉丁单刷血袭者10/10教程(重新录制)",
+            "url": "https://www.bilibili.com/video/BV144411r7Ky/",
+            "published": "2019-08-23",
+            "views": 2981
+          },
+          {
+            "bvid": "BV1Q4411D7pu",
+            "title": "【EVE Online】(视频卡顿，请看另一个)帕拉丁单刷血袭者10/10教程",
+            "url": "https://www.bilibili.com/video/BV1Q4411D7pu/",
+            "published": "2019-08-11",
+            "views": 1569
+          },
+          {
+            "bvid": "BV1M4411975a",
+            "title": "【EVE Online】46DP-O拆迁纪实 战略目标完成 缪宁第一视角",
+            "url": "https://www.bilibili.com/video/BV1M4411975a/",
+            "published": "2019-08-10",
+            "views": 756
+          },
+          {
+            "bvid": "BV1Lt411K7m2",
+            "title": "[EVE Online]E8-YS9拆迁实录 AOM联合舰队PLA军团视角",
+            "url": "https://www.bilibili.com/video/BV1Lt411K7m2/",
+            "published": "2019-08-05",
+            "views": 732
+          },
+          {
+            "bvid": "BV1T4411v791",
+            "title": "【EVE Online】PLA&AOM联合小队怒锤Pen Is Out",
+            "url": "https://www.bilibili.com/video/BV1T4411v791/",
+            "published": "2019-05-07",
+            "views": 706
+          },
+          {
+            "bvid": "BV1Xb411G7z5",
+            "title": "【EVE Online】PLA-F 装肉吃三只无脑战列",
+            "url": "https://www.bilibili.com/video/BV1Xb411G7z5/",
+            "published": "2019-04-19",
+            "views": 1017
+          },
+          {
+            "bvid": "BV12b411L7ir",
+            "title": "EVE 瞎浪小队",
+            "url": "https://www.bilibili.com/video/BV12b411L7ir/",
+            "published": "2019-04-14",
+            "views": 260
+          },
+          {
+            "bvid": "BV1kb411L7B2",
+            "title": "【EVE Online】PLA-F 近炮万王队顶住压力强杀BBC饿狼级（高清版）",
+            "url": "https://www.bilibili.com/video/BV1kb411L7B2/",
+            "published": "2019-04-14",
+            "views": 1980
+          },
+          {
+            "bvid": "BV1Cb411y7hk",
+            "title": "【小提琴】Passacaglia 帕萨卡利亚舞曲(片段)（ps.由于二琴后面部分没练所以发下片段）",
+            "url": "https://www.bilibili.com/video/BV1Cb411y7hk/",
+            "published": "2019-02-16",
+            "views": 456
+          },
+          {
+            "bvid": "BV1fb411m7Z5",
+            "title": "【小提琴】金婚式",
+            "url": "https://www.bilibili.com/video/BV1fb411m7Z5/",
+            "published": "2019-02-12",
+            "views": 3049
+          },
+          {
+            "bvid": "BV1nb411m7cC",
+            "title": "【小提琴】小步舞曲 锯木头也不过如此吧（博凯里尼作曲版）",
+            "url": "https://www.bilibili.com/video/BV1nb411m7cC/",
+            "published": "2019-02-11",
+            "views": 795
+          },
+          {
+            "bvid": "BV1Bb411S7Hh",
+            "title": "【小提琴】《一步之遥》三重奏版本（ps.第一次录制视频 很粗糙 希望指点 顺便关注点一点~）",
+            "url": "https://www.bilibili.com/video/BV1Bb411S7Hh/",
+            "published": "2019-02-10",
+            "views": 460
+          },
+          {
+            "bvid": "BV1Pb411S7bf",
+            "title": "【小提琴】卡农（改编版）",
+            "url": "https://www.bilibili.com/video/BV1Pb411S7bf/",
+            "published": "2019-02-09",
+            "views": 7534
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV17VHp6EEpN",
+      "title": "【EVE Online】8F-TK3会战纪实(无畏视角10.4)",
+      "url": "https://www.bilibili.com/video/BV17VHp6EEpN/",
+      "owner_uid": "199957503",
+      "published_at": "2026-10-05T04:25:44.000Z",
+      "captured_at": null,
+      "description": "BR：https://br.evetools.org/br/6ac28f53d9fb97f9f51f67c4\n\n视角很拉，凑合看吧。\n\n欢迎加入PLA兔子团，我们有CG低安稳定战备与生产区间，安排导师带新人，各种入团福利和培养计划，欢迎小伙伴们加入我们群：690190070",
+      "stats": {
+        "views": 1569,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV16R4y1H7SD",
+      "title": "【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)",
+      "url": "https://www.bilibili.com/video/BV16R4y1H7SD/",
+      "owner_uid": "199957503",
+      "published_at": "2021-09-18T04:21:27.000Z",
+      "captured_at": null,
+      "description": "BR：https://br.evetools.org/br/61455f19745106005d444dd8\nAOM损失惨重",
+      "stats": {
+        "views": 3019,
+        "replies": 63
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

@@ -8,6 +8,43 @@ import fs from "node:fs";
 import path from "node:path";
 
 export const NAMES_FILE = "src/_data/entityNames.json";
+export const characterFile = (id) => `${id}-id.json`;
+
+// 刷新只替换游戏快照，人工身份与旧收录号快照原样保留。
+export function mergeCharacterRecord(previous, snapshot) {
+  if (previous && previous.id !== snapshot.id) throw new Error("刷新角色 ID 与原档案不一致，禁止转移身份关系");
+  return {
+    ...snapshot,
+    ...(previous?.person ? { person: previous.person } : {}),
+    identity: previous?.identity ?? { version: 1, alts: [], accounts: {} },
+    ...(previous?.related_snapshots ? { related_snapshots: previous.related_snapshots } : {}),
+  };
+}
+
+export function snapshotsOf(record) {
+  const { person, identity, related_snapshots = [], ...main } = record;
+  return [main, ...related_snapshots];
+}
+
+// 包括更换收录号前已保存的逐号历史；档案归并不丢掉旧快照。
+export function readStoredCharacters(peopleDir) {
+  const characters = new Map();
+  for (const entry of fs.readdirSync(peopleDir, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
+    const directory = path.join(peopleDir, entry.name);
+    for (const file of fs.readdirSync(directory)) {
+      if (!/^\d+-id\.json$/.test(file)) continue;
+      const record = JSON.parse(fs.readFileSync(path.join(directory, file), "utf8"));
+      if (file !== characterFile(record.id)) throw new Error(`${file}：文件名与角色 ID 不一致`);
+      for (const character of snapshotsOf(record)) {
+        if (!Number.isSafeInteger(character.id) || character.id <= 0) throw new Error(`${file}：快照角色 ID 无效`);
+        if (characters.has(character.id)) throw new Error(`角色 ${character.id} 的缓存文件重复`);
+        characters.set(character.id, character);
+      }
+    }
+  }
+  return characters;
+}
 
 // NPC 军团的 ID 落在 1000000–1999999 区间
 export const isNpcCorp = (id) => id >= 1_000_000 && id < 2_000_000;
@@ -73,7 +110,7 @@ export function expandSnapshot(snapshot, names) {
     return entry;
   };
   const corp = (id) => ({ name: lookup("corporations", id).name, npc: isNpcCorp(id) });
-  const { corporation_id, affiliation: aff, history, ...rest } = snapshot;
+  const { corporation_id, affiliation: aff, history, person, identity, related_snapshots, ...rest } = snapshot;
   return {
     ...rest,
     current_corporation: { id: corporation_id, ...corp(corporation_id) },

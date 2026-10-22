@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "uid": "283602887",
+  "name": "love-LULU",
+  "url": "https://space.bilibili.com/283602887/",
+  "identity": {
+    "state": "excluded",
+    "person": null,
+    "material": "src/people/lulu-love/materials-lulu-love.md",
+    "label": "LULU奶爸",
+    "evidence": [
+      "仅一条无关视频"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-10-13T02:29:30.016Z",
+      "signature": null,
+      "counters": {
+        "followers": "8",
+        "views": "346",
+        "videos": "1",
+        "articles": "0"
+      },
+      "source": "https://space.bilibili.com/283602887/upload/video"
+    },
+    "coverage": {
+      "latest": {
+        "state": "legacy_record",
+        "observed_at": null,
+        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
+        "evidence": "src/people/lulu-love/materials-lulu-love.md"
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [
+      {
+        "text": "奶爸以 IAS38、研发资本化及项目取消后费用化解释当年的亏损，并用度假村投资失败作比喻。分量：中，是具体有署名的财经解释作品，不足以证明现实职业或资质。正文只描述他的历史解释，不把这段当最新 CCP 财报结论。",
+        "source": "src/people/lulu-love/materials-lulu-love.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "unverified",
+        "captured_at": "2026-10-13T02:29:30.016Z",
+        "source": "https://space.bilibili.com/283602887/upload/video",
+        "scope": "当时空间可见链接；未经作品页作者核定，不自动计入本人作品库或精选。排序URL不作为实际选中证明。",
+        "candidates": [
+          {
+            "bvid": "BV177411R7nU",
+            "title": "难道这就是你分手的借口",
+            "url": "https://www.bilibili.com/video/BV177411R7nU/"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": []
+}

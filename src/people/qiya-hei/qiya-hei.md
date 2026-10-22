@@ -1,10 +1,3 @@
----
-character_id: 2115982590
-cn_name: 神奇黑旗
-aliases: [Qiya Hei, 黑旗]
-epithet: 联盟FC的名片，背面印着新人红包。
-tags: ["00区", "D.C", "D.OK", "FC"]
----
 
 神奇黑旗，游戏名 Qiya Hei，在龙焰（DC）的无面者（D.OK）活动。[角色头衔](https://esi.evetech.net/latest/characters/2115982590/)写得很直接：“神奇黑旗，联盟FC”。下面的简介却像招新传单：欢迎军团进 DC，散人也收，新人补贴、旗舰福利、补损，一个不少。
 

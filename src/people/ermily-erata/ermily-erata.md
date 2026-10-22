@@ -1,10 +1,3 @@
----
-character_id: 2114832455
-cn_name: 战战
-aliases: [Ermily Erata]
-epithet: 头衔自称菜鸡，一千四百次单杀不同意。
-tags: ["虫洞", "PM", "CODY.", "AT19冠军"]
----
 
 战战，游戏名 Ermily Erata，2019 年 1 月建号，头衔两个字：“菜鸡”。北极星（PMA）虫洞团 We Love Cody 的老住户，2023 年被借去 FRT 打 AT，回来时带着冠军。
 

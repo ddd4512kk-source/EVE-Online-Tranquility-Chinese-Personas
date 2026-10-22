@@ -18,7 +18,7 @@
 
 | 人物／收录角色 | 参战角色 | 战时联盟 | 军团 | 代表 KM |
 | --- | --- | --- | --- | --- |
-| 七喜／93926714 | 703462502 | Goonswarm Federation | Peoples Liberation Army | [133727289](https://zkillboard.com/kill/133727289/) |
+| 七喜／703462502 | 703462502 | Goonswarm Federation | Peoples Liberation Army | [133727289](https://zkillboard.com/kill/133727289/) |
 | 光头／855247117 | 855247117 | Fraternity. | Nuwa Foundation | [133727289](https://zkillboard.com/kill/133727289/) |
 | 出其东门／2120025597 | 2120025597 | Fraternity. | Descendants of Shen Nong | [133727293](https://zkillboard.com/kill/133727293/) |
 | 此方／2122857798 | 2122857798 | Fraternity. | Special law enforcement department | [133727293](https://zkillboard.com/kill/133727293/) |
@@ -58,3 +58,10 @@
 原页全场总览仍为984角色、718 KM，composition 的 totalLost 与唯一 KM 求和为1,141,719,039,314 ISK，本站全场 total_loss 保留1141.719039314B。两方面板人数合计983，比全场984少1；两方记录数合计718；页面分方金额合计1142.43B，比接口全场总额多约0.711B。差异原因本轮未定位，不以删人、改金额或编造第三方凑平，也不将网页分方显示精度误当精确 ISK。后续复核入口仍为同一 BR 的 Involved 面板、Summary 与完整 composition。
 
 本场的阵营以实际网页展示为准；不能将“未保存 teams 数组”写成“没有分组”，也不能把不在本站主要联盟清单里的组织一概塞进第三方。此前三方统计及其修订值全部由本次网页两方汇总替换。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE欧服】FRT泰坦出击！MC60 dd init无畏群 1N-复刻？](https://www.bilibili.com/video/BV1SLPTzcEdk/)：标题指MC6O（写作MC60），投稿日当天。
+- [[EVE]MC60 又玩到泰坦了爽D了](https://www.bilibili.com/video/BV1DGPTzwE4Z/)：B站搜索“EVE MC60”所得（标题把O写成0）；投稿日2026-03-01即开战当天

@@ -1,10 +1,3 @@
----
-character_id: 2115855515
-cn_name: 肖恩
-aliases: [Shawn wade, shawnwade, 肖恩白给, 忏悔人柱力]
-epithet: 招新招到问候萌新全家，诉苦诉到网暴自己。
-tags: ["CONDI", "P.L.A", "低素质"]
----
 
 肖恩，游戏名 Shawn wade，贴吧叫“肖恩白给”，角色头衔“肖恩#”加一串数字。2019 年 11 月建号，从彩虹天马中队（Rainbow Pegasus Squadron）起步，在那里当了一年招新头子；之后在 AOM 系军团、帝皇之镰、PLA、Bronze Fury 一路转过来，2026 年 4 月又回到 PLA。他是[荣耀](../1664583033/)那份《PLA SB RECORD》里点名的五人之一，册子只列名字没写缘由，缘由倒是他自己在贴吧写过。
 

@@ -1,0 +1,97 @@
+{
+  "battle": {
+    "title": "B-R5RB，一张欠费单烧掉七十五条泰坦",
+    "aliases": [
+      "B-R5RB血战",
+      "Bloodbath of B-R5RB"
+    ],
+    "epithet": "主权忘了续费，宇宙替你催账。",
+    "start": "2014-01-27",
+    "end": "2014-01-28",
+    "systems": [
+      "B-R5RB"
+    ],
+    "tags": [
+      "00区",
+      "泰坦战",
+      "CONDI",
+      "FRT"
+    ],
+    "sides": [
+      {
+        "name": "CFC、俄罗斯联军及友军",
+        "pilots": 4313,
+        "loss": 2238.36,
+        "loss_count": 3204,
+        "stats_note": "人数为EVE Ref公开KM可核下限，取2014-01-27 14:00至28日11:00 UTC、主战及CCP列出的四处外围星系；金额与损失条数仍取CCP图表，非同一覆盖量，详见素材。",
+        "note": "人数为公开KM可核下限；折损泰坦16条",
+        "people": [
+          1687651723,
+          1387156123
+        ],
+        "organizations": [
+          1354830081
+        ],
+        "emblem": 1354830081
+      },
+      {
+        "name": "N3／PL",
+        "pilots": 1917,
+        "loss": 8571.26,
+        "loss_count": 2764,
+        "stats_note": "人数为EVE Ref公开KM可核下限，取2014-01-27 14:00至28日11:00 UTC、主战及CCP列出的四处外围星系；金额与损失条数仍取CCP图表，非同一覆盖量，详见素材。",
+        "note": "人数为公开KM可核下限；折损泰坦59条",
+        "corps": [
+          {
+            "id": 1097611545
+          }
+        ],
+        "people": [
+          624049117,
+          133854609
+        ],
+        "organizations": [
+          1727758877,
+          386292982,
+          99003581
+        ],
+        "emblem": 1727758877
+      }
+    ],
+    "total_loss": 11000,
+    "pilots": 7548,
+    "pilots_peak": 2670,
+    "loss_source": [
+      "https://www.eveonline.com/news/view/the-bloodbath-of-b-r5rb",
+      "https://data.everef.net/killmails/2014/killmails-2014-01-27.tar.bz2",
+      "https://data.everef.net/killmails/2014/killmails-2014-01-28.tar.bz2"
+    ],
+    "videos": [
+      {
+        "title": "Recording History: The Bloodbath of B-R5RB",
+        "url": "https://www.youtube.com/watch?v=3O56g8KC6CM",
+        "author": "Fenris Creations",
+        "description": "CCP纪念短片，标题即本场英文名。"
+      },
+      {
+        "title": "EVE星战前夜 OF超旗会战 B-R5RB星系 1080P高清",
+        "url": "https://www.bilibili.com/video/BV1Gs411D7To/",
+        "author": "烙夜（搬运）",
+        "description": "外服录像搬运，简介按开战当晚的战况写：CFC与俄方对N3、PL，双方超旗近三百，本地一度突破两千五，N3PL已沉十四条泰坦而交火未停。"
+      },
+      {
+        "title": "[EVE]尘封的历史-回顾B-R5绞肉机",
+        "url": "https://www.bilibili.com/video/BV1mx41187VK/",
+        "author": "金鹏防御放大节点（搬运）",
+        "description": "两段：P1是超旗入场录像，P2是2014年Fanfest讲座，讲这场仗怎样开打、怎样升温，以及战斗里的幕后故事。"
+      },
+      {
+        "title": "EVE Online 高清录像历史：B-R5RB一场价值30万美元的太空“豪赌”，万亿ISK灰飞烟灭，7000玩家的“太空绞肉机”",
+        "url": "https://www.bilibili.com/video/BV1zvMu6UEm9/",
+        "author": "EVE-Online_中文站",
+        "description": "中文的前因后果梳理：H A V O C忘了续缴主权费，CFC与俄方趁机压上，二十多小时里七十五条泰坦沉没，总账约十一万亿ISK。"
+      }
+    ]
+  },
+  "br": null
+}

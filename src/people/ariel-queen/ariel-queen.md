@@ -1,10 +1,3 @@
----
-character_id: 2119298552
-cn_name: 艾蕊尔
-aliases: [Ariel Queen, 艾蕊尓]
-epithet: 混沌的月矿管家、首席人工智障，月矿条例里写着禁止酒驾。
-tags: ["00区", "FRT", "CACX"]
----
 
 艾蕊尔，游戏名 Ariel Queen，头衔是：
 

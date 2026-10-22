@@ -83,3 +83,12 @@
 ## otela-2024：战役参战关联
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：深水及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
+
+## 精选补选（2026-10-22）
+
+公开投稿列表12条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV1zMAXzBEvt（Taff旗舰战导演剪辑版，频道播放最高）、BV1CK411x7Me（Deepwater Hooligans对V0LTA）、BV1P22aYRE7b（GOT＆RHG对HEL）、BV1p2G2zDEuz（Snuffed Out Aeschee）、BV1WqU7YHEgQ（Shadow Cartel黑隐vlog）。EVE类共11篇，另有1篇Planetside 2非EVE，未选。作品页简介与评论未读。
+
+### 战绩数字（自正文移入）
+
+- KB：13501 次击杀、约 10 万亿参与击杀价值，单杀 955，危险度 85；警惕近两千次，其次克洛诺斯、黑豹、救世、实践；塔玛 3517、兰瑟 396，其后阿巴宗、老人星、图尔鲁尔；Snuffed Out 不到两年参与击杀价值约 5.7 万亿。
+- 2023-08-10 LN1P（SC）救世，Basan 拉格纳洛克 [KM 110903041](https://zkillboard.com/kill/110903041/)，22 攻击者，约 166.9B。2023-05-27 老人星大型（约 564.53B）[KM 109210669](https://zkillboard.com/kill/109210669/)，美洲虎，原报在 Snuff、深水等所在第一组。2025-03-02 老人星 神示级海军型：血鸦 [125188289](https://zkillboard.com/kill/125188289/)、凤凰级海军型 [125188334](https://zkillboard.com/kill/125188334/)；2025-08 老人星海军凤凰 [129338900](https://zkillboard.com/kill/129338900/)。2025-06 Lantorn（约 3.2T）[127955025](https://zkillboard.com/kill/127955025/)；四天后希瑟伊德（至少 2.84T）[128024969](https://zkillboard.com/kill/128024969/)，当晚损失 04:28 海军神示 [128025949](https://zkillboard.com/kill/128025949/)、04:44 泽尼塔 [128026478](https://zkillboard.com/kill/128026478/)。2026-01-10 4-HWWF FRT 归魂者约 299.1B [132527614](https://zkillboard.com/kill/132527614/)；2026-04-13 Akkio 神使约 190.8B [134714802](https://zkillboard.com/kill/134714802/)。

@@ -8,7 +8,7 @@ CCP《Clash at Atioth》文末的 Full Atioth Battlereport 指向 https://killma
 
 另有 br.evetools 战报 https://br.evetools.org/br/69d501e59b9dad00121d4c62 ，只收 6851 条 KM，且都在 killmail.app 那份里，参战角色 9761，损失约 9108B；它带作者分的两队。
 
-两份一起写进 loss_source，快照 br.json 按 KM ID 去重合并：KM 与金额即 killmail.app 全量（12002 角色、9901 条、9235.5B），分队取 br.evetools。参战角色是 KM 上正数角色 ID 的并集，不是自然人数，也不是最高同时在线；后者是 CCP 给的 10253，记为 pilots_peak。
+两份一起写进 loss_source，快照 atioth-2026.json的br 按 KM ID 去重合并：KM 与金额即 killmail.app 全量（12002 角色、9901 条、9235.5B），分队取 br.evetools。参战角色是 KM 上正数角色 ID 的并集，不是自然人数，也不是最高同时在线；后者是 CCP 给的 10253，记为 pilots_peak。
 
 br.evetools 的分队把 TEST、Northern Coalition.、Pandemic Legion 与 Goons 分进同一队，但交火对不上：TEST 打 Goons 297 次、被 Goons 打 502 次，打 FRT 只 59 次；NC 打 Goons 446、打 FRT 61；PL 打 Goons 307、打 FRT 17。三家主要在打 Goons，故在凛冬一方点名。点名与这份分队冲突，按脚本规则不采信该队，没点名的组织按交火推断（以点名联盟为种子，每张 KM 每对组织记一次，至少 3 次且三分之二指向同一方即归其对手，最多四轮），仍看不出倾向的进第三方。这是本场交战聚类，不据此宣称各组织存在永久结盟关系。
 
@@ -61,7 +61,7 @@ Noraus 自述 33 泰坦与约 1T 己方损失只按其说法；不据部分 KM �
 
 ## 分方统计（快照计算，2026-10-19）
 
-页面数字由 br.json 计算。当时算得：
+页面数字由 atioth-2026.json的br 计算。当时算得：
 
 | 阵营 | 参战角色 | 损失 B | 损失记录条数 |
 | --- | --- | --- | --- |
@@ -79,3 +79,11 @@ Noraus 自述 33 泰坦与约 1T 己方损失只按其说法；不据部分 KM �
 - [【EVE欧服】艾蒂斯超旗战FRT泰坦视角（4K）](https://www.bilibili.com/video/BV1E5DkBrEuh/)：2026-04-08发布，标题与简介指向本轮艾蒂斯超旗战；简介明确录像起点为星城被毁后，不能当作整场完整记录。
 - [【EVE】全程录像：艾蒂斯会战，1.1万名玩家参与，创造吉尼斯世界纪录（中字解说）](https://www.bilibili.com/video/BV1SHDBBJEB9/)：2026-04-07发布，标题明确艾蒂斯会战与万人规模；简介注明素材来源。按公开署名保留投稿剪辑与素材来源，不认定投稿者驾驶了录像中的舰船；原题人数是来源表述，不替代本页统计。
 - 候选BV1ncD7BVEzj《Atioth | EVE Online》（Murphy_eve）发布于4月8日，但本地简介为空，未读到具体视角介绍，暂不入选。BV1hgX2B2Ede明指3月28日，BV19N9EBgEUm为4月1日前线部署背景，均不作为本轮会战录像。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE欧服】Atioth泰坦爽射](https://www.bilibili.com/video/BV1ftDzBPE8Z/)：标题指名Atioth。
+- [【EVE欧服|WWW日报】4.7/8 艾蒂斯超旗战胜利，INIT又偷鸡](https://www.bilibili.com/video/BV1rNDJBEEfk/)：标题指名艾蒂斯与4.7/8，投稿日2026-04-08。
+- [Atioth's Record Breaking Battle Left The Imperium Licking Wounds](https://www.youtube.com/watch?v=4U97vEszACg)：YouTube标题指名Atioth。

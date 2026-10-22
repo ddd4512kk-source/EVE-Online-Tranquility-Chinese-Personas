@@ -1,10 +1,3 @@
----
-character_id: 2123019905
-cn_name: 山之内花音
-aliases: [RoxyMG, RoxyMGe, RoxyMGel, 花音, 千喻千束, 山之内花音可爱捏]
-epithet: 替 PP 招新，招新帖二十多层在顶黑米。
-tags: ["00区", "EVIL.", "37.2"]
----
 
 山之内花音，游戏名 RoxyMG，另有 RoxyMGe、RoxyMGel 两个小号，三个号的头衔都写着“Director 山之内花音”，是华人军团 Profane Proverb（PP，37.2）的总监。号是 2024 年圣诞建的，2025 年元旦进 PP；此后去过深水的 Family Guy.，又在[多米](../2118339639/)的 Dusk dreadnought. 待过一阵，2026 年 7 月回到 PP，两个月后就以贴吧账号“千喻千束”挂出了 PP 的新一年招新帖。
 
@@ -17,7 +10,9 @@ tags: ["00区", "EVIL.", "37.2"]
 :::
 
 ::: 红料 击杀 CCP 的纪念册
-2025 年 6 月 13 日，PP 还挂在 PH 名下时，一支舰队在 YPW-M4 截住了 C C P Alliance 的几艘船。RoxyMG 开着送葬者级海军型，出现在 [CCP Jotunn 的毒蜥](https://zkillboard.com/kill/127850250/)、[GM Banquet 的巴盖斯级](https://zkillboard.com/kill/127850290/)、[CCP Bee 的洛基](https://zkillboard.com/kill/127850308/)三张击杀报告上。他把这几张 KM 连同一张自己补最后一击的太空舱 KM，一起钉在角色简介里，像集邮一样摆出来。打官方的机会不多，打到了就得挂墙上。
+打官方的机会不多，打到了就得挂墙上。2025 年 6 月，PP 还挂在 PH 名下，一支舰队在 YPW-M4 一带截住了 C C P Alliance 的几艘船：CCP Jotunn 的毒蜥、GM Banquet 的巴盖斯级、CCP Bee 的洛基，一口气撞到了枪口上。RoxyMG 开着送葬者级海军型，三张 KM 上都有他的名字，其中 [Jotunn 那条毒蜥](https://zkillboard.com/kill/127850250/)他钉在最前面；另有一张太空舱，最后一击是他补的。
+
+他把这几张 KM 连同那颗蛋，一起钉进了角色简介，像集邮一样摆开，战利品的名字全是游戏官方人员的马甲号。对一个招新帖里自称“猫娘”、说话一半在干活一半在逗黑米的总监来说，这是简介里最正经的一页：别人晒的是击杀数量，他晒的是击杀对象，开发者的船被他打了，凭这个名片能吹一整年。
 :::
 
 ::: 黑料 顶黑米

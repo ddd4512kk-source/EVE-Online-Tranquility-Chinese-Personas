@@ -41,10 +41,17 @@
 | 2370 | 796.9684279 | 450 |
 | 47 | 21.578833328 | 67 |
 
-（ACE 归 FRT 一方；数字由 br.json 快照自动计算，此表仅留档。）
+（ACE 归 FRT 一方；数字由 lantorn-2025.json的br 快照自动计算，此表仅留档。）
 
 ## 本地视频对应（2026-10-20）
 
 本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。
 
-- 待补候选：NoNoOwO[BV1YANozLErj](https://www.bilibili.com/video/BV1YANozLErj/)的空间标题讲Lantorn、约3T与306条无畏；仅有标题不足以核对6月17日至18日的窗口，暂不入选。
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE Online】Lantorn旗舰战，三万亿战损，306条无畏陨落，INIT+SNUFF+FL33T+俄罗斯社区 VS FRT+BIGAB+SC等](https://www.bilibili.com/video/BV1YANozLErj/)：标题指名Lantorn旗舰战。
+- [【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff](https://www.bilibili.com/video/BV18WN6zoEQm/)：标题指兰多恩铁壁，投稿日当天。
+- [【视角传媒】在兰多恩發生的毀滅衝突](https://www.bilibili.com/video/BV1CnNCzxEw1/)：标题指兰多恩，投稿日2025-06-21。
+- 前一轮待补候选BV1YANozLErj已按标题与投稿日补入。

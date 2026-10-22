@@ -1,10 +1,3 @@
----
-character_id: 2121856723
-cn_name: 折木
-aliases: [Charly OUO]
-epithet: 出门带队，散场还得给船算账
-tags: [00区, NC, FOXOR, FC]
----
 
 折木，抵抗之狐的 Charly OUO，[官网](https://foxor.cc/team/)列为核心股东、财务总监 CFO，又把他排进舰队指挥系统。别人打完交战损，他这份工却从出门带队一路接到回来算账。
 

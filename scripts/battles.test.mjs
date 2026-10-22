@@ -1,11 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { mkdtempSync, mkdirSync, writeFileSync } from "node:fs";
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
+import { stringifyBattleArchive } from "./battle-archive.mjs";
 import {
   battleStats,
   checkSnapshot,
+  checkBattles,
   findOverlaps,
   formatIsk,
   orgIds,
@@ -25,7 +27,7 @@ const ok = {
   total_loss: 1500,
   loss_source: "https://example.com/br",
   sides: [
-    { name: "甲方", alliances: [1], pilots: 100, loss: 500, loss_count: 12, corps: [{ id: 500, pilots: 20 }], people: [42] },
+    { name: "甲方", organizations: [1], pilots: 100, loss: 500, loss_count: 12, corps: [{ id: 500, pilots: 20 }], people: [42] },
     { name: "乙方", pilots: null, loss: null, loss_count: null, stats_note: "官方只给总计；续查原报分组，详见素材。", note: "折损泰坦 3 条" },
   ],
 };
@@ -66,11 +68,11 @@ test("必填字段、未知字段与日期顺序", () => {
 test("各方结构：2–4 方，字段类型", () => {
   assert.match(check({ sides: [ok.sides[0]] })[0], /2–4/);
   assert.match(check({ sides: ["甲方", "乙方"] })[0], /结构/);
-  assert.match(check({ sides: [{ alliances: [1] }, ok.sides[1]] })[0], /缺少 name/);
+  assert.match(check({ sides: [{ organizations: [1] }, ok.sides[1]] })[0], /缺少 name/);
   assert.match(withSide({ flag: 1 })[0], /未知字段 "flag"/);
   assert.match(withSide({ pilots: 1.5 })[0], /pilots 必须是正整数/);
   assert.match(withSide({ loss: "1T" })[0], /loss 必须是数字/);
-  assert.match(withSide({ alliances: ["A"] })[0], /alliances 必须是联盟 ID 列表/);
+  assert.match(withSide({ organizations: ["A"] })[0], /organizations 必须是非空组织 ID 列表/);
   assert.match(withSide({ corps: [{ pilots: 3 }] })[0], /corps 每项必须写 id/);
   assert.match(withSide({ corps: [{ name: "X" }] })[0], /corps 每项必须写 id/);
   assert.match(withSide({ corps: [{ id: 500, ticker: "X" }] })[0], /未知字段 "ticker"/);
@@ -131,7 +133,7 @@ test("同一星系日期重叠的两页报错，编组外的不报", () => {
 });
 
 test("orgIds 收集各方点名的联盟与手填军团 ID", () => {
-  assert.deepEqual(orgIds({ ...ok, sides: [...ok.sides, { name: "丙方", alliances: [1, 2] }] }), [1, 500, 1, 2]);
+  assert.deepEqual(orgIds({ ...ok, sides: [...ok.sides, { name: "丙方", organizations: [1, 2] }] }), [1, 500, 1, 2]);
 });
 
 // 下限仍须达到收录门槛，不能用字符串绕过口径标记。
@@ -157,7 +159,7 @@ const snapData = {
   start: "2025-06-17",
   systems: ["X"],
   loss_source: BR,
-  sides: [{ name: "甲方", alliances: [1] }, { name: "乙方", alliances: [2] }],
+  sides: [{ name: "甲方", organizations: [1], emblem: 1 }, { name: "乙方", organizations: [2], emblem: 2 }],
 };
 // 联盟 A=1、B=2，C=3 未点名；华人军团 500（名称表标 chinese）在 A；13 在 NPC 军团
 const table = {
@@ -171,7 +173,7 @@ const snap = {
   losses: [[1, 10, 500, 1, 1e11], [2, 11, 600, 2, 2e11], [3, 12, 700, 3, 1e9]],
   hits: [["a:1", "a:3", 3]],
 };
-// 12 是 43 的小号（列传 alts）
+// 12 是 43 的小号（人物档案 identity.alts）
 const known = new Map([[42, 42], [43, 43], [12, 43]]);
 const bySide = (st) => Object.fromEntries(st.sides.map((s) => [s.name, [s.pilots, s.loss, s.loss_count]]));
 
@@ -205,7 +207,7 @@ test("战报分了队就照分队，不再推断；队里点名联盟分属两�
 });
 
 test("点名为第三方的联盟只把自己摘出分队，不拆散整队", () => {
-  const data = { ...snapData, sides: [...snapData.sides, { name: "第三方", alliances: [3] }] };
+  const data = { ...snapData, sides: [...snapData.sides, { name: "第三方", organizations: [3] }] };
   const snap3 = { ...snap, teams: [["1"], ["2", "3"]] };
   assert.deepEqual(bySide(battleStats(data, snap3, known, table)), { 甲方: [2, 100, 1], 乙方: [1, 200, 1], 第三方: [2, 1, 1] });
 });
@@ -227,7 +229,7 @@ test("跨战报分队冲突的组织按交火推断，明确点名的归属仍�
     const st = battleStats(snapData, { ...snap, teams: ordered }, known, table);
     // 组织3只挨甲方打，推断为乙方，不能被第一份战报分给甲方。
     assert.deepEqual(bySide(st), { 甲方: [2, 100, 1], 乙方: [2, 201, 2], 第三方: [1, 0, 0] });
-    const data = { ...snapData, sides: [...snapData.sides, { name: "第三方", alliances: [3] }] };
+    const data = { ...snapData, sides: [...snapData.sides, { name: "第三方", organizations: [3] }] };
     assert.deepEqual(bySide(battleStats(data, { ...snap, teams: ordered }, known, table)), {
       甲方: [2, 100, 1], 乙方: [1, 200, 1], 第三方: [2, 1, 1],
     });
@@ -236,7 +238,7 @@ test("跨战报分队冲突的组织按交火推断，明确点名的归属仍�
 
 test("无联盟的军团可按军团 ID 点名归方", () => {
   const solo = { ...snap, pilots: { ...snap.pilots, 11: [600, 0] }, losses: [[1, 10, 500, 1, 1e11], [2, 11, 600, 0, 2e11]] };
-  const data = { ...snapData, sides: [snapData.sides[0], { name: "乙方", alliances: [600] }] };
+  const data = { ...snapData, sides: [snapData.sides[0], { name: "乙方", organizations: [600] }] };
   // 11 按军团 600 归乙方；12（C）照旧按交火推到乙方
   assert.deepEqual(bySide(battleStats(data, solo, known, table)).乙方, [2, 200, 1]);
 });
@@ -282,16 +284,18 @@ test("快照过期、点名不在战报、规模不够都报错", () => {
   assert.deepEqual(checkSnapshot(snapData, snap, known, table), []);
   assert.match(checkSnapshot(snapData, null, known, table)[0], /缺少战报快照，请运行 npm run fetch/);
   // 名称表里有、本场没出场的不认
-  const gone = { ...snapData, sides: [snapData.sides[0], { name: "乙方", alliances: [2, 9] }] };
+  const gone = { ...snapData, sides: [snapData.sides[0], { name: "乙方", organizations: [2, 9] }] };
   assert.match(checkSnapshot(gone, snap, known, table)[0], /（9）不在战报里/);
   const small = checkSnapshot(snapData, { ...snap, losses: [[1, 10, 500, 1, 5e10]] }, known, table);
   assert.match(small[0], /不足 100B/);
 });
 
-test("peopleIndex：收录号与列传 alts 都指向收录号，_ 开头目录与散文件跳过", () => {
+test("peopleIndex：收录号与身份档案 alts 都指向收录号，_ 开头目录与散文件跳过", (t) => {
   const dir = mkdtempSync(path.join(tmpdir(), "people-"));
-  const put = (name, fm) => { mkdirSync(path.join(dir, name)); writeFileSync(path.join(dir, name, `${name}.md`), `---\n${fm}\n---\n正文`); };
-  put("a", "character_id: 42\nalts: [12, 13]");
+  t.after(() => rmSync(dir, { recursive: true, force: true }));
+  const put = (name, fm) => { mkdirSync(path.join(dir, name)); writeFileSync(path.join(dir, name, `${name}.md`), "正文"); const id = Number(fm.split(": ")[1]); writeFileSync(path.join(dir, name, `${id}-id.json`), JSON.stringify({id, person: {}, identity: {version: 1}})); };
+  put("a", "character_id: 42");
+  writeFileSync(path.join(dir, "a", "42-id.json"), JSON.stringify({ id: 42, person: {}, identity: { version: 1, alts: [12, 13].map(id => ({ id, name: `Alt ${id}`, sources: ["a.md"] })) } }));
   put("b", "character_id: 43");
   put("_c", "character_id: 44");
   writeFileSync(path.join(dir, "people.11tydata.js"), "");
@@ -299,12 +303,13 @@ test("peopleIndex：收录号与列传 alts 都指向收录号，_ 开头目录�
 });
 
 
-test("明确点名的军团覆盖联盟，人物与损失一起移方", () => {
-  const data = { ...snapData, sides: [{ name: "甲方", alliances: [1] }, { name: "乙方", alliances: [2, 500] }] };
+test("军团覆盖联盟的错误配置会移动人物与损失，但必须被校验拦截", () => {
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [1] }, { name: "乙方", organizations: [2, 500] }] };
   const st = battleStats(data, snap, known, table);
   assert.deepEqual(bySide(st).甲方, [0, 0, 0]);
   assert.deepEqual(bySide(st).乙方, [4, 301, 3]);
   assert.ok(st.sides[1].people.includes(42));
+  assert.match(checkSnapshot(data, snap, known, table).join("\n"), /联盟 1.*点名归方.*冲突/);
 });
 
 test("第三方展示以30人为界，不删除未知人数或主阵营", () => {
@@ -322,10 +327,154 @@ test("战役视频可选，最多6项，必须为完整B站视频且不重复", 
   assert.deepEqual(check({ videos: six }), []);
   assert.ok(check({ videos: [...six, video] }).some(e => /最多 6/.test(e)));
   assert.ok(check({ videos: [video, { ...video, url: "https://bilibili.com/video/BV1UK4y1H7XT?p=2" }] }).some(e => /重复/.test(e)));
-  for (const url of ["javascript:alert(1)", "https://www.bilibili.com.evil.test/video/BV1UK4y1H7XT", "https://b23.tv/abc", "https://space.bilibili.com/123", "https://www.bilibili.com/video/foo", "http://www.bilibili.com/video/BV1UK4y1H7XT"]) {
+  const yt = { ...video, url: "https://www.youtube.com/watch?v=3O56g8KC6CM" };
+  assert.deepEqual(check({ videos: [video, yt] }), []);
+  assert.ok(check({ videos: [yt, { ...yt, url: "https://www.youtube.com/watch?v=3O56g8KC6CM&t=60" }] }).some(e => /重复/.test(e)));
+  for (const url of ["javascript:alert(1)", "https://www.bilibili.com.evil.test/video/BV1UK4y1H7XT", "https://b23.tv/abc", "https://space.bilibili.com/123", "https://www.bilibili.com/video/foo", "http://www.bilibili.com/video/BV1UK4y1H7XT", "https://youtu.be/3O56g8KC6CM", "https://www.youtube.com/embed/3O56g8KC6CM", "https://www.youtube.com/watch?v=short", "https://www.youtube.com.evil.test/watch?v=3O56g8KC6CM"]) {
     assert.ok(check({ videos: [{ ...video, url }] }).some(e => /url 必须/.test(e)), url);
   }
   for (const key of ["title", "author", "description"]) assert.ok(check({ videos: [{ ...video, [key]: " " }] }).some(e => e.includes(key)));
   for (const videos of ["video", [null], ["video"]]) assert.ok(check({ videos }).length);
   assert.ok(check({ videos: [{ ...video, typo: "x" }] }).some(e => /未知字段/.test(e)));
+});
+
+test("完整组织归方覆盖默认分队和交火，数字与人物同步且不增加主要联盟展示", () => {
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [1, 3], emblem: 1 }, snapData.sides[1]] };
+  const source = { ...snap, teams: [["1"], ["2", "3"]] };
+  const st = statsOf(data, source, table, known);
+  assert.deepEqual(bySide(st), { 甲方: [3, 101, 2], 乙方: [1, 200, 1], 第三方: [1, 0, 0] });
+  assert.deepEqual([...st.sides[0].people].sort((a, b) => a - b), [42, 43]);
+  assert.deepEqual(st.sides[0].alliances.map(o => o.id), [1]);
+  assert.deepEqual(st.sides[0].emblemOrganization.id, 1);
+  assert.deepEqual(orgIds(data), [1, 3, 2]);
+  const corp = { ...snapData, sides: [snapData.sides[0], { name: "乙方", organizations: [2, 500], emblem: 2 }] };
+  assert.ok(battleStats(corp, snap, known, table).sides[1].people.includes(42));
+});
+
+test("完整归方校验ID、跨方冲突和快照存在性", () => {
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [1, 3], emblem: 1 }, { name: "乙方", organizations: [2, 3] }] };
+  assert.match(validateBattle(data, "正文", 0, known).join("\n"), /组织 3 同时归于/);
+  const bad = { ...snapData, sides: [{ name: "甲方", organizations: [1, "3"] }, snapData.sides[1]] };
+  assert.match(validateBattle(bad, "正文", 0, known).join("\n"), /organizations 必须/);
+  const absent = { ...snapData, sides: [{ name: "甲方", organizations: [1, 9] }, snapData.sides[1]] };
+  assert.match(checkSnapshot(absent, snap, known, table).join("\n"), /9.*不在战报/);
+});
+
+test("小规模非华人联盟不列出，完整参战统计仍保留", () => {
+  const st = statsOf(snapData, snap, table, known);
+  assert.deepEqual(st.sides[1].alliances.map(a => a.id), []);
+  assert.deepEqual(st.sides[1].alliance_participation, [
+    { id: 2, pilots: 1, loss: 200, loss_count: 1, corps: [600] },
+    { id: 3, pilots: 1, loss: 1, loss_count: 1, corps: [700] },
+  ]);
+  assert.deepEqual(st.sides[1].corporation_affiliations, [
+    { id: 600, alliance_ids: [2] }, { id: 700, alliance_ids: [3] },
+  ]);
+  assert.deepEqual(st.sides[2].alliances, []); // NPC 的联盟 0 不产生假联盟。
+});
+
+test("同盟军团被点名到两侧时必须报错，不能把分边计算结果当作事实", () => {
+  const source = { ...snap, pilots: { 10: [500, 1], 11: [600, 1] }, losses: [[1, 10, 500, 1, 1e11], [2, 11, 600, 1, 2e11]], hits: [] };
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [500] }, { name: "乙方", organizations: [600] }] };
+  const st = statsOf(data, source, table, known);
+  assert.deepEqual(bySide(st), { 甲方: [1, 100, 1], 乙方: [1, 200, 1] });
+  assert.deepEqual(st.sides[0].alliances.map(a => a.id), [1]);
+  assert.deepEqual(st.sides[1].alliances, []);
+  assert.deepEqual(st.sides[0].alliance_participation[0].corps, [500]);
+  assert.deepEqual(st.sides[1].alliance_participation[0].corps, [600]);
+  assert.match(checkSnapshot(data, source, known, table).join("\n"), /联盟 1.*所属军团跨方/);
+  const corrected = { ...data, sides: [{ name: "甲方", organizations: [1, 500, 600] }, { name: "乙方", organizations: [2] }] };
+  assert.ok(!checkSnapshot(corrected, source, known, table).some(e => /跨方|冲突/.test(e)));
+});
+
+test("同一军团的历史联盟变化与建筑损失保留在各自记录下", () => {
+  const source = { ...snap, pilots: { 10: [500, 1] }, losses: [[1, 10, 500, 2, 1e11], [2, 0, 600, 3, 2e11]], hits: [] };
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [500, 600] }, { name: "乙方", organizations: [2] }] };
+  const st = statsOf(data, source, table, known);
+  assert.deepEqual(st.sides[0].corporation_affiliations, [{ id: 500, alliance_ids: [1, 2] }, { id: 600, alliance_ids: [3] }]);
+  assert.deepEqual(st.sides[0].alliance_participation.map(a => [a.id, a.pilots, a.loss_count]), [[1, 1, 0], [3, 0, 1], [2, 0, 1]]);
+  assert.deepEqual(st.sides[1].alliances, []); // 种子点名不冒充实际到场。
+});
+
+test("手填军团可登记有来源的当时联盟，未知和独立军团不凭当前归属回填", () => {
+  const sides = [{ ...ok.sides[0], organizations: undefined, corps: [{ id: 500, pilots: 20, alliance_id: 3 }, { id: 600, pilots: 2, alliance_id: 0 }] }, ok.sides[1]];
+  assert.deepEqual(check({ sides }), []);
+  assert.deepEqual(statsOf({ ...ok, sides }, null, table, known).sides[0].alliances.map(a => a.id), [3]);
+  assert.deepEqual(orgIds({ sides }), [500, 3, 600]);
+  assert.match(withSide({ corps: [{ id: 500, alliance_id: -1 }] }).join("\n"), /alliance_id/);
+});
+
+
+test("自动联盟缺名保留类型与参与记录，抓取补齐后离线复用", async () => {
+  const root = mkdtempSync(path.join(tmpdir(), "battle-participation-"));
+  try {
+    for (const dir of ["src/people", "src/_data", "src/battles/example"]) mkdirSync(path.join(root, dir), { recursive: true });
+    writeFileSync(path.join(root, "src/_data/entityNames.json"), JSON.stringify({ ...table, alliances: { 1: table.alliances[1], 2: table.alliances[2] } }));
+    writeFileSync(path.join(root, "src/battles/example/example.md"), "正文\n");
+    const config = { ...snapData, title: "自动联盟校验" };
+    const save = br => writeFileSync(path.join(root, "src/battles/example/example.json"), stringifyBattleArchive({ battle: config, br }));
+    save(snap);
+    const skippedCalls = [];
+    const skipped = await checkBattles(root, { lookupNames: async ids => { skippedCalls.push(ids); return []; } });
+    assert.deepEqual(skippedCalls, []);
+    assert.deepEqual(skipped.pendingAllianceIds, []);
+    const source = { ...snap, pilots: { ...snap.pilots, ...Object.fromEntries(Array.from({ length: 10 }, (_, i) => [100 + i, [700, 3]])) } };
+    save(source);
+    const pending = await checkBattles(root);
+    assert.deepEqual(pending.errors, []);
+    assert.deepEqual(pending.pendingAllianceIds, [3]);
+    const missingTable = { ...table, alliances: { 1: table.alliances[1], 2: table.alliances[2] } };
+    const organization = statsOf(snapData, source, missingTable, known).sides[1].alliances.find(a => a.id === 3);
+    assert.equal(organization.kind, "alliance");
+    assert.equal(organization.name, "联盟 #3");
+    const outage = await checkBattles(root, { lookupNames: async () => { throw new Error("503 maintenance"); } });
+    assert.deepEqual(outage.errors, []);
+    assert.deepEqual(outage.pendingAllianceIds, [3]);
+    assert.match(outage.warnings.join("\n"), /503 maintenance/);
+    const calls = [];
+    const result = await checkBattles(root, { lookupNames: async ids => { calls.push(ids); return [{ id: 3, name: "Historical C", category: "alliance" }]; } });
+    assert.deepEqual(calls, [[3]]);
+    assert.deepEqual(result.errors, []);
+    assert.equal(JSON.parse(readFileSync(path.join(root, "src/_data/entityNames.json"))).alliances[3].name, "Historical C");
+    assert.deepEqual((await checkBattles(root)).errors, []);
+  } finally { rmSync(root, { recursive: true, force: true }); }
+});
+
+
+test("联盟展示与补名门槛：9人隐藏、10人保留、1人华人军团保留", () => {
+  const source = { ...snap, pilots: Object.fromEntries([
+    ...Array.from({ length: 9 }, (_, i) => [100 + i, [600, 2]]),
+    ...Array.from({ length: 10 }, (_, i) => [200 + i, [700, 3]]),
+    [10, [500, 1]],
+  ]), losses: [], hits: [] };
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [1, 2, 3] }] };
+  const st = statsOf(data, source, table, known);
+  assert.deepEqual(st.sides[0].alliances.map(a => a.id), [3, 1]);
+  assert.equal(st.sides[0].pilots, 20);
+  assert.deepEqual(st.sides[0].alliance_participation.map(a => a.pilots), [10, 9, 1]);
+});
+
+
+test("归方只接受 organizations，战徽必须来自本方名单", () => {
+  assert.match(withSide({ alliances: [1] }).join("\n"), /未知字段 "alliances"/);
+  assert.match(withSide({ emblem: 2 }).join("\n"), /emblem 必须是本方 organizations/);
+  assert.deepEqual(withSide({ emblem: 1 }), []);
+  assert.match(withSide({ organizations: [1, 1] }).join("\n"), /organizations 不得重复/);
+});
+
+
+test("统一归方名单不把NPC和零散独立军团变成主要参战组织", () => {
+  const names = { ...table, corporations: { ...table.corporations, 800: { name: "独立军团" }, 900: { name: "零散军团" }, 1000001: { name: "NPC军团" } } };
+  const pilots = Object.fromEntries([
+    [10, [500, 0]],
+    ...Array.from({ length: 10 }, (_, i) => [100 + i, [800, 0]]),
+    ...Array.from({ length: 9 }, (_, i) => [200 + i, [900, 0]]),
+    ...Array.from({ length: 12 }, (_, i) => [300 + i, [1000001, 0]]),
+  ]);
+  const source = { ...snap, pilots, losses: [], hits: [] };
+  const data = { ...snapData, sides: [{ name: "甲方", organizations: [500, 800, 900, 1000001] }, { name: "乙方", organizations: [2] }] };
+  const st = statsOf(data, source, names, known);
+  assert.deepEqual(st.sides[0].alliances.map(a => a.id), [800, 500]);
+  assert.equal(st.sides[0].pilots, 32);
+  assert.deepEqual(st.sides[0].independent_participation.map(c => [c.id, c.pilots]), [[1000001, 12], [800, 10], [900, 9], [500, 1]]);
 });

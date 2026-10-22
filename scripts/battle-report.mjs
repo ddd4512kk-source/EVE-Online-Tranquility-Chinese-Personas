@@ -1,6 +1,5 @@
-// 战报快照：从 br.evetools 或 killmail.app 抓本场击杀记录，精简存进 src/battles/<短名>/br.json（勿手改）。
+// 战报快照：从 br.evetools 或 killmail.app 抓本场击杀记录，精简存进 src/battles/<短名>/<短名>.json 的 br（勿手改）。
 // 分方人数、损失、华人军团人数与已收录人物都由 battles.mjs 从快照算出，不再手抄进 front matter。
-export const SNAPSHOT_FILE = "br.json";
 
 const BR_API = "https://br.evetools.org/newapi/br";
 const KMAPP_API = "https://killmail.app/api/battle-reports";

@@ -30,3 +30,11 @@
 
 - [【EVE欧服】欧塔FRT超旗 VS Snuff精装无畏（后半场GTT视角）](https://www.bilibili.com/video/BV1Rq4y1Q7x7/)：2021-08-11发布，标题点名欧塔、FRT超旗与Snuff无畏；Zero煌素材已归档本场评论及入场经过。后半场按标题保留GTT视角署名，不归为投稿者全程独自拍摄。
 - 待补候选：BV1XQ4y12754已在本场素材与当日战报关联，但本轮未找到完整标题及署名元数据，暂不补入。剑穿天下BV15eEAzaEvC发表于2025-05-13，属另一年欧塔交战，不挂本页。
+
+## 本地视频对应（2026-10-22）
+
+本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。
+
+- [【EVE-ONLINE欧服】欧塔萨塞超期战-snuff视角](https://www.bilibili.com/video/BV1Db4y1U7k2/)：标题指名欧塔萨塞，投稿日当天。
+- [【EVE Online】3泰坦2大航击杀 Snuffed Out&friends VS FRT](https://www.bilibili.com/video/BV1K341167jN/)：投稿日当天，标题对阵与本场相符。
+- [EVE 欧服 对轰SNUFF100无畏群](https://www.bilibili.com/video/BV1W44y1y7s1/)：投稿日当天，标题对阵与本场相符。

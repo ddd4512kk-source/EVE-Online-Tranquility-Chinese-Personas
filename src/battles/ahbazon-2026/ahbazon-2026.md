@@ -1,38 +1,3 @@
----
-title: 阿巴宗摆千人擂台，谁都想来收门票
-tags:
-  - 低安
-  - 混战
-start: '2026-08-01'
-systems:
-  - Ahbazon
-sides:
-  - name: Minmatar及无畏友军
-    alliances:
-      - 99011978
-      - 99012009
-      - 99015143
-  - name: INIT、SND及无畏诸部
-    alliances:
-      - 1900696668
-      - 498125261
-      - 495729389
-      - 99012995
-      - 99013072
-      - 99013330
-      - 99014735
-      - 99008985
-  - name: 第三方
-    alliances:
-      - 99003581
-      - 1042504553
-      - 99002685
-      - 99004901
-      - 99003214
-      - 1727758877
-      - 1354830081
-loss_source: 'https://br.evetools.org/battle/17676'
----
 
 2026年8月1日，阿巴宗的主战场是无畏舰队之间的交火：Minmatar Fleet Alliance、SND、Dragon Riders Legion、TEST等联盟把大船压进战场，FRT、Solyaris Chtonium、SYN等队伍则以第三方身份赶来。四个多小时，近两千个角色烧掉约642.63B；有人押上无畏打主场，有人带队来找目标，最后都在同一张战报上结账。
 

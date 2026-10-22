@@ -1,23 +1,18 @@
----
-character_id: 2115611133
-cn_name: ACR
-aliases: [ACR Impact, ACR Ecoli, Nocolour ACR]
-epithet: 给别人家塞马甲，把自家号删了。
-tags: ["00区", "B站", "低安", "RMT", "著名FC"]
----
 
 ACR，游戏名 ACR Impact，2019 年 8 月建号。头一年在 FRT 里转了几圈：Eye Of Insight、My Little Pony.，中间还去滑稽（Iron Crown）挂了一个多月，2019 年 11 月落脚 TCF（Thunders Claw Fleet），守在 OSY 刷 LP。2020 年 11 月，他转进华语军团 Infinity Avenger（AVDOT），跟着低安海盗联盟 Snuffed Out 一待五年。2026 年 8 月，ACR Impact 和 ACR Ecoli 两个号双双删除。
 
 圈里记住他的是三件事：OSY 的死刷子，往别人家塞马甲，最后卖号跑路。
 
 ::: 红料 Tama 门口的老海盗
-从 OSY 的矿带搬到 Tama 的星门，ACR 换了一种活法，也换了一副胃口。zKillboard 上他参与了一万两千多次击杀，经手的击杀价值二十五万亿出头，自己总共才亏了四百多亿。打出去的是对面几十年的家当，赔进来的不过零头，这笔账算下来，比他当年在 OSY 刷 LP 赚得还狠。
+从 OSY 的矿带搬到 Tama 的星门，ACR 换了一种活法，也换了一副胃口。zKillboard 上他挂名的击杀有一万多次，经手的价值二十多万亿，自己赔进去的不过几百亿。打出去的是对面几十年的家当，赔进来的是零头，这笔账比他当年在 OSY 刷 LP 赚得还狠。
 
-他最常开的是警惕，最常蹲的是 Tama。低安海盗的日子就是这样：一条轻巧的战巡停在门口，频道里有人报“来了”，几秒钟后又是一张 KM。五年下来，他在 Snuff 签了八千多张，Tama 这个星系的名字在他战绩里出现的次数，比第二名多出一大截。别人路过 Tama 是赶路，ACR 是上班。
+他最常开的是警惕，最常蹲的是 Tama。低安海盗的日子就是这样：一条轻巧的战巡停在门口，频道里有人报“来了”，几秒钟后又是一张 KM。五年下来，他在 Snuff 的 KM 签满好几页，Tama 这个名字在他战绩里出现的次数，比第二名多出一大截。别人路过 Tama 是赶路，ACR 是上班。
 
-刷子出身的人，打起大仗来一点不怯。还在 FRT 的最后几天，他就开着绝念去拆 QY6-RK 的 [Sotiyo](https://zkillboard.com/kill/88380226/)；到了 Snuff，又开着绝念去 Ignoitton 拆[星城](https://zkillboard.com/kill/90907310/)，两座建筑各一百八十多亿，拆得像拆自家仓库。2021 年 9 月的 [A1-AUH](https://zkillboard.com/kill/95191703/)，他开赫卡特赶上天价旗舰被围猎，那个月他的击杀价值冲到将近两万亿，是生涯最肥的一个月。2023 年他把夜神开进低安，三月在 Kinakka 和 Manjonakko 接连参与围杀[纳迦法](https://zkillboard.com/kill/107384243/)和一艘一百七十多亿的[神使](https://zkillboard.com/kill/107411443/)，七月又在 Tama 一口气参与击毁[两艘](https://zkillboard.com/kill/110098544/)[神示](https://zkillboard.com/kill/110098551/)。“死刷子”这个外号，没能把他的机库锁在矿带里。
+刷子出身的人，打起大仗一点不怯。还在 FRT 的最后几天，他就开着绝念去拆 QY6-RK 的 [Sotiyo](https://zkillboard.com/kill/88380226/)；到了 Snuff，又开着绝念去 Ignoitton 拆[星城](https://zkillboard.com/kill/90907310/)，两座建筑各一百八十多亿，拆得像拆自家仓库。刷怪攒下的手感，原来拿来拆建筑也一样顺：墙再厚，也是一排排数字，一轮轮打完就倒。
 
-此后 Snuff 押注的低安大仗，[H-PA29](../../battles/h-pa29-2022/)、[老人星](../../battles/old-man-star-2023/)、[奥斯汀格勒](../../battles/ostingele-2024/)、[艾格玛尔](../../battles/egmar-2025-02-23/)，他从赫卡特换到执政官，再换到永灭和狂暴级舰队型，哪桌缺人就坐哪桌。2024 年 11 月的 [1N-FJ8 黑色星期五](https://zkillboard.com/kill/122868581/)，他还只是拉格纳洛克攻击者名单上的一个名字；半年后到了 2025 年 6 月的 [Lantorn](https://zkillboard.com/kill/127954356/)，整支队伍是他带进去的。
+2021 年 9 月的 [A1-AUH](https://zkillboard.com/kill/95191703/)，他开赫卡特赶上天价旗舰被围猎，那个月他的击杀价值冲到将近两万亿，是生涯最肥的一个月。2023 年他把夜神开进低安，三月在 Kinakka 和 Manjonakko 接连参与围杀[纳迦法](https://zkillboard.com/kill/107384243/)和一艘一百七十多亿的[神使](https://zkillboard.com/kill/107411443/)，七月又在 Tama 一口气参与击毁[两艘](https://zkillboard.com/kill/110098544/)[神示](https://zkillboard.com/kill/110098551/)。同一个月里连着签，旗舰在他眼里成了流水线上的货。“死刷子”这个外号，没能把他的机库锁在矿带里。
+
+此后 Snuff 押注的低安大仗，[H-PA29](../../battles/h-pa29-2022/)、[老人星](../../battles/old-man-star-2023/)、[奥斯汀格勒](../../battles/ostingele-2024/)、[艾格玛尔](../../battles/egmar-2025-02-23/)，他从赫卡特换到执政官，再换到永灭和狂暴级舰队型，哪桌缺人就坐哪桌，座位越坐越重。2024 年 11 月的 [1N-FJ8 黑色星期五](https://zkillboard.com/kill/122868581/)，他还只是拉格纳洛克攻击者名单上的一个名字；半年后到了 2025 年 6 月的 [Lantorn](https://zkillboard.com/kill/127954356/)，整支队伍是他带进去的。
 
 那一夜频道里几百号海盗等他开口，对面摆着一桌值钱的旗舰。有人想先冲上去抢头功，有人盯着对面的集结心里发毛，ACR 压着队伍不动，等对面先露底。“都别急，让他们先跳。”这是一个在 Tama 门口蹲了五年的人最熟的节奏：猎物不进门，枪就不响。塞马甲的人带队，自然也不肯让对面猜到下一步。
 :::
@@ -56,6 +51,14 @@ ACR 在 Snuffed Out 待了五年，KM 签满了好几页。轮到散场，圈里
 > [05:35:35] Lao li > 最新消息，经多个QQ群鉴定ACR为OSY lp最强力的死刷子。
 
 这句话又被楼下两个人原样复读了一遍。坚守 OSY 的帖子写得慷慨激昂，楼里的人却只关心谁刷得最多。五个月后，这位 OSY 坚守者离开 FRT，去了 Snuffed Out。前线他守住了没有不好说，他的钱包肯定是守住了。
+:::
+
+::: 红料 B站作品精选
+- [《【EVE ONLINE】NFM-0V旗舰战，又双叒叕被泰坦骑了，抓鱼引发的惨案》](https://www.bilibili.com/video/BV1144y1k7bY/)：标题自己先认了“又双叒叕”，抓鱼抓出一场泰坦骑脸的惨案；EVE 类里播放排第二，老海盗的旗舰战名场面看这一篇。
+- [《“打死180个无畏”3势力2普通泰坦1归魂击杀》](https://www.bilibili.com/video/BV1JGzrYWEnP/)：标题报的是一百八十条无畏的账，三个势力、两条泰坦、一条归魂同场出场；2024 年的作品里数它最热。
+- [《顶级厨师保留无畏炸弹原本的味道》](https://www.bilibili.com/video/BV1wT411C7rR/)：无畏炸弹被他当成菜来做，标题里的“原本的味道”不加任何花活；炸弹党的手艺摆在这里。
+- [《当你用红警的方式打开EVE——10.3故土snuff+AOM VS FRT狂热1V1男人大战》](https://www.bilibili.com/video/BV1jQ4y167mi/)：标题把 EVE 打成了红警，主角是 snuff 加 AOM 对上 FRT 的 1V1；2021 年秋天的老账，翻出来当对照。
+- [《教你如何用一条nyx bait两条泰坦和若干小旗舰》](https://www.bilibili.com/video/BV1nS4y1y7kg/)：标题把“教你”二字挂在前头，一条 Nyx 当饵钓来两条泰坦外加若干小旗舰；教学名义，实为战果清单。
 :::
 
 ::: 评

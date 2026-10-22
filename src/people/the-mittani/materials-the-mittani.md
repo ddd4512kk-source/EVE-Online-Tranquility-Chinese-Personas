@@ -2,7 +2,7 @@
 
 ## 艾萨凯的败方复盘
 
-[The Asakai Meltdown](https://www.tentonhammer.com/columns/sins-of-a-solar-spymaster-86-the-asakai-meltdown)，2013-02-05，本人署名。已读正文第23—86行，把误跳利维坦后的救援升级拆成情报核实、低安重拦截准备、敌方增援与没有及时止损等问题；认为最初弃舰可限制损失，CFC却继续投入并赔掉三条泰坦与超航。原文后段点名Ragnarok，未把原误跳Leviathan与三条被毁泰坦对应，不推定原误跳舰结局。作为CFC领袖的事后解释使用，不证明本人角色现场驾驶或具体发令，不填战役people。完整事件与官方同期717.03B口径见[艾萨凯素材](../../../docs/sources/asakai-2013.md)。
+[The Asakai Meltdown](https://www.tentonhammer.com/columns/sins-of-a-solar-spymaster-86-the-asakai-meltdown)，2013-02-05，本人署名。已读正文第23—86行，把误跳利维坦后的救援升级拆成情报核实、低安重拦截准备、敌方增援与没有及时止损等问题；认为最初弃舰可限制损失，CFC却继续投入并赔掉三条泰坦与超航。原文后段点名Ragnarok，未把原误跳Leviathan与三条被毁泰坦对应，不推定原误跳舰结局。作为CFC领袖的事后解释使用，不证明本人角色现场驾驶或具体发令，不填战役people。完整事件与官方同期717.03B口径见[艾萨凯素材](../../battles/asakai-2013/materials-asakai-2013.md)。
 
 角色：The Mittani / 443630591。非华人特例收录（大联盟群领袖，与华人圈交集多），见 AGENTS.md 第 1 节。
 

@@ -42,3 +42,4 @@
 ### 2021-09-17 A1-AUH / 角色 624049117
 - 战斗规模：至少 1.20T；阵营口径：Winter Coalition 与帝国、PHEW 等；此处不重建完整阵营。
 - 样本中出现于 13 条攻击者名单；代表 [KM 95187540](https://zkillboard.com/kill/95187540/)，2021-09-17T16:07:14Z，本人驾驶 短剑，战时联盟 ID 99003581，本条伤害 0。
+- **红料 / KB，中**：生涯击杀 79766、约 80.4T ISK、损失 61B；2005-11 建号，首团 Great Wall Corp 四年，2014 起剑圣；头衔“令狐聪，no bust jammer”，安全等级 -10.0。2018-08 X47L-Q 短剑 [KM 71608136](https://zkillboard.com/kill/71608136/)；2020 底 M2-XFE 首战短剑 [KM 89609078](https://zkillboard.com/kill/89609078/)；2021-01 M2-XFE 突围银鹰 [KM 90264548](https://zkillboard.com/kill/90264548/)；2021-09 A1-AUH 短剑 [KM 95187540](https://zkillboard.com/kill/95187540/)。

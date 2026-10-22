@@ -8,6 +8,10 @@
 
 - [个人统计](https://zkillboard.com/character/2121450438/stats/)Chrome实读：14,704条参与击杀、8.60T ISK；773条损失、111.75B ISK；90条单杀。与军团范围14,594条区分，不相加；正文综合评价采用个人生涯约数。
 
+## FC 同根角色榜单核对（2026-10-22）
+
+[华人军团历史 Top 榜](../../../docs/leads/corp-top-characters-2026-10-12.tsv)的 Zhuque squad（98742946）all-time 项中，FC qiaobu123（2121450438，第1）与 qiaobu798（2122185391，第14）、qiaobu668（2121799472，第17）、qiaobu11（2121439460，第82）、qiaobu22（2121439486，第93）同时出现。四个候选号与 FC 主号是完全相同词根加数字、同属一团；按人物身份规则归为同人小号。榜单仅记录军团历史活动，职务依据仍是军团简介，不由榜单排名推断。
+
 ## 本人简介挂出的击杀
 
 - **刀哥噩梦**：[KM130821192](https://zkillboard.com/kill/130821192/)，原始[ESI](https://esi.evetech.net/latest/killmails/130821192/1a9a1cac5f0b2cc73be27e5a2ac2983451b52b04/)。2025-10-28T02:05:52Z，solar_system_id=30003157，受害者woaidao 2／2119125805，噩梦17736。唯一攻击者qiaobu123，洛基29990、朱雀／IGC，伤害84,165，final_blow=true。可以写单杀；不据此认定受害者指挥翻车，也不把一般战损作为刀哥黑料。

@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "uid": "316935249",
+  "name": "被遗忘的小十亿",
+  "url": "https://space.bilibili.com/316935249/",
+  "identity": {
+    "state": "confirmed",
+    "person": "xiao-shi-yivi",
+    "material": "src/people/xiao-shi-yivi/materials-xiao-shi-yivi.md",
+    "label": "小十亿",
+    "evidence": [
+      "头衔相合，浪骨号回应链"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-10-13T02:31:13.262Z",
+      "counters": {
+        "followers": "97",
+        "views": "6907",
+        "videos": "3",
+        "articles": "1"
+      },
+      "source": "https://space.bilibili.com/316935249/upload/video",
+      "header_text": "弗里皮"
+    },
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:11:26.788Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/316935249/upload/video"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-10-22T03:11:26.788Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "evidence": "https://space.bilibili.com/316935249/upload/video"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "unverified",
+        "captured_at": "2026-10-13T02:31:13.262Z",
+        "source": "https://space.bilibili.com/316935249/upload/video",
+        "scope": "当时空间可见链接；未经作品页作者核定，不自动计入本人作品库或精选。排序URL不作为实际选中证明。",
+        "candidates": [
+          {
+            "bvid": "BV1WfHH6ZEw1",
+            "title": "EVE 离线单机版从入门到入土教程.JPG",
+            "url": "https://www.bilibili.com/video/BV1WfHH6ZEw1/"
+          },
+          {
+            "bvid": "BV1qWH76KESh",
+            "title": "EVE PLD速刷血袭者小圣坛.JPG",
+            "url": "https://www.bilibili.com/video/BV1qWH76KESh/"
+          },
+          {
+            "bvid": "BV1HWh7zUEDF",
+            "title": "EVE 萨沙10-10 PLD速刷教程.JPG",
+            "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/"
+          }
+        ]
+      },
+      {
+        "sort": "all",
+        "captured_at": "2026-10-22T03:11:26.788Z",
+        "source": "https://space.bilibili.com/316935249/upload/video",
+        "scope": "公开投稿列表全部3条（共3条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1WfHH6ZEw1",
+            "title": "EVE 离线单机版从入门到入土教程.JPG",
+            "url": "https://www.bilibili.com/video/BV1WfHH6ZEw1/",
+            "published": "2026-10-05",
+            "views": 7359
+          },
+          {
+            "bvid": "BV1qWH76KESh",
+            "title": "EVE PLD速刷血袭者小圣坛.JPG",
+            "url": "https://www.bilibili.com/video/BV1qWH76KESh/",
+            "published": "2026-10-04",
+            "views": 289
+          },
+          {
+            "bvid": "BV1HWh7zUEDF",
+            "title": "EVE 萨沙10-10 PLD速刷教程.JPG",
+            "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/",
+            "published": "2025-08-01",
+            "views": 2753
+          }
+        ]
+      }
+    ],
+    "tag_review": {
+      "decision": "not_qualified_in_prior_review",
+      "reason": "已见3条EVE视频，未达5条。",
+      "observed_at": null,
+      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
+      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+    }
+  },
+  "videos": [
+    {
+      "bvid": "BV1WfHH6ZEw1",
+      "title": "EVE 离线单机版从入门到入土教程.JPG",
+      "url": "https://www.bilibili.com/video/BV1WfHH6ZEw1/",
+      "owner_uid": "316935249",
+      "published_at": "2026-10-05T06:16:34.000Z",
+      "captured_at": "2026-10-14T03:57:40.016Z",
+      "description": "下载并游玩单机版须知：\n1.所有私服均为开源项目，严禁用于盈利目的。\n2.严禁在任何公开服务器上部署私服，这严重侵犯了EVE EULA和Fenris Creations的商业权益，您可能会因此面临法律责任。\n3.本教程仅为教学使用，仅代表个人见解。",
+      "stats": {
+        "views": 4392,
+        "replies": 81
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/xiao-shi-yivi/materials-xiao-shi-yivi.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1qWH76KESh",
+      "title": "EVE PLD速刷血袭者小圣坛.JPG",
+      "url": "https://www.bilibili.com/video/BV1qWH76KESh/",
+      "owner_uid": "316935249",
+      "published_at": "2026-10-04T14:31:08.000Z",
+      "captured_at": "2026-10-14T03:57:56.478Z",
+      "description": "EVE单机服务器须知：\n1.所有私服均为开源项目，严禁用于盈利目的。\n2.严禁在任何公开服务器上部署私服，这严重侵犯了EVE EULA和Fenris Creations的商业权益，您可能会因此面临法律责任。",
+      "stats": {
+        "views": 235,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/xiao-shi-yivi/materials-xiao-shi-yivi.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1HWh7zUEDF",
+      "title": "EVE 萨沙10-10 PLD速刷教程.JPG",
+      "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/",
+      "owner_uid": "316935249",
+      "published_at": "2025-08-01T03:49:06.000Z",
+      "captured_at": "2026-10-14T03:58:12.971Z",
+      "description": "煮波不会剪视频，所以煮波直接放高清无码原声大碟。煮波为了让群U扫清萨沙10-10的操作规程，所以早早录制好了，（其实是因为QQ上传速度太慢还会过期）各位不喜勿喷球球了，我是EVE萌新捏。最后祝各位蛋船平安 o7",
+      "stats": {
+        "views": 2724,
+        "replies": 37
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/xiao-shi-yivi/materials-xiao-shi-yivi.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    }
+  ]
+}
