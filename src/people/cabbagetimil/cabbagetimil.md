@@ -1,10 +1,3 @@
----
-character_id: 2116041057
-cn_name: 白菜
-aliases: [CabbageTimil, CaiGou CabbageTimil, 扑街影业, 会飞的麻蛇之光]
-epithet: 替DC拍了几年仗，自己约稿画自己被扫地出门。
-tags: ["00区", "D.C", "B站", "SFSAC", "联盟高层", "CEO"]
----
 
 白菜，游戏名 CabbageTimil，2019 年 12 月建号，2020 年 5 月起在[随风](../2115325500/)的 DC（Dracarys.），先后在 Steel Feather Special Air Corps 和 Faceless.，至今没离开。游戏头衔：
 
@@ -102,12 +95,7 @@ zKillboard 生涯击杀 2352，单杀 122 次，用得最多的是帕拉丁、�
 :::
 
 ::: 红料 B站作品精选
-
-- [《超旗部署 WWW疑似正式开启 EVE势力地图2014~2026》](https://www.bilibili.com/video/BV19N9EBgEUm/)：部署简报配历史地图，作者请老玩家补时间线，也回应敌军和新人，能见到宣传口与社区招待员的两副面孔。
-- [《万人会战——凛冬狂怒，帝国之泪下的新世界纪录》](https://www.bilibili.com/video/BV1CQDvBwEBN/)：自家败仗照讲，评论里又为叙述角度与服务器吵起来；连同本人答辩，适合看一位DC作者怎样讲帝国挨揍。
-- [《将“哥布林”钉在游戏历史的耻辱柱上》](https://www.bilibili.com/video/BV1Bw23BCEkt/)：简介鲜明声讨领导层、同情普通成员，作者也安慰受影响的玩家；与贴吧“出口转内销”旧事一起看，最能认识他的时评立场。
 - [《从西对舞到4-HWWF首都星城被打进结构增强》](https://www.bilibili.com/video/BV1htofBtEBp/)：简介按己方远征梳理目标，评论又核对INIT分组与logo；值得连同修正讨论读，分清作者怎么归纳一场仗。
-- [《2003~2026 EVE星战前夜大事记 2007~2026年势力变迁与重大事件全图》](https://www.bilibili.com/video/BV1sveh6JEky/)：由地图走向长时段整理，置顶解释省略战争的原因，并向老玩家征集叙述，适合从共同补史的入口读他的历史创作。
 :::
 
 ::: 评

@@ -1,10 +1,3 @@
----
-character_id: 91599501
-cn_name: 茅台
-aliases: [sven lestart]
-epithet: 超旗队首席，兼领一串朝廷差事。
-tags: ["00区", "OSYTM", "G.O.T", "FC"]
----
 
 茅台，游戏角色 sven lestart，混在 OSY 的图万·奥斯神殿，和[舵主](../91254848/)、[LK](../983162808/)同团。他在公开头衔里自称“OSY超期队首席指挥—Super Capital fleet FC”，后面又接上 G-G78S 总督、金鹏队首席大臣、文华殿大学士、太傅。舰队职务写一行，朝廷履历倒能另占一页。
 

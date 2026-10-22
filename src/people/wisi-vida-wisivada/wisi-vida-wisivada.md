@@ -1,10 +1,3 @@
----
-character_id: 2114863677
-cn_name: 梦夜飞雪
-aliases: [飞雪, 梦夜飞雪ever, 殇镬之場, WISI VIDA WISIVADA, Mepwor07]
-epithet: 农民头子，答辩能连播一整天。
-tags: ["00区", "CEO", "脚本"]
----
 
 梦夜飞雪，游戏里叫 WISI VIDA WISIVADA，贴吧用过“梦夜飞雪ever”和“殇镬之場”。2021 年春天，他是 SAO（sword of omega）的 CEO，自称“农民头子”；[卖手](../2115186880/)来绝地收割，农民拉起战备还手，打着打着，两边把舰队开进了贴吧。
 

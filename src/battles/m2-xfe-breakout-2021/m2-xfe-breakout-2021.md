@@ -1,23 +1,3 @@
----
-title: M2-XFE，蹲了一个月，终于等到越狱
-aliases: [M2-XFE突围, M2超旗监狱, M2越狱]
-epithet: 进门打城，出门还得另交一笔。
-start: 2021-01-27
-systems: [M2-XFE]
-tags: [00区, 旗舰战, CONDI, FRT, TEST]
-sides:
-  - name: 帝国
-    alliances: [1354830081, 99009163]
-  - name: PAPI
-    alliances: [1727758877, 99003581]
-  - name: 第三方
-videos:
-  - title: "M2 超旗监狱联军泰坦越狱实录"
-    url: https://www.bilibili.com/video/BV1UK4y1H7XT/
-    author: "Zero煌"
-    description: "从被困者的撤离经历切入 M2 突围。作者在公开简介中自述被困一个月，并称 FRT 泰坦全部撤出、无一损失。"
-loss_source: https://br.evetools.org/related/30004773/202101270600
----
 [M2 跨年首战](../m2-xfe-2020/)把泰坦烧成了宇宙新闻，接下来的第二战与围困，又把不少 PAPI 超旗变成了“监狱资产”。帝国守在门口，困在里面的人等着脱身；舰队账面上再有钱，船开不出来，也不能替别处的战线开火。2021 年 1 月 27 日，PAPI 终于组织了一轮突围，帝国则继续在门边收过路费。
 
 本场三小时[战报](https://br.evetools.org/related/30004773/202101270600)记下约两万五千五百亿 ISK 的损失。上个月来时想拆别人的家，这次只想把自己的船带回去，战争目标忽然变得非常朴素。

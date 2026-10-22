@@ -1,10 +1,3 @@
----
-character_id: 2115597604
-cn_name: 汉兰达
-aliases: [JJ, JJ SoulMate, 汉拉达]
-epithet: 简介开丢船纪念馆，顺手把人家铁壁也收进了馆藏。
-tags: ["00区", "FRT", "著名FC", "AMIYA"]
----
 
 汉兰达，游戏名 JJ SoulMate，Arknights.（[瓜瓜](../2116478004/)的军团）成员。游戏头衔：
 

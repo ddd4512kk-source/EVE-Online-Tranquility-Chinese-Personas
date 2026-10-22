@@ -1,10 +1,3 @@
----
-character_id: 2119301335
-cn_name: 小米糕
-aliases: [Micahel wu, MiMi是小米糕, MiMi, TGMiMi]
-epithet: 深渊之王自封归来，钥匙价格先替他官宣。
-tags: ["深渊", "B站", "CEO"]
----
 
 小米糕，游戏角色 Micahel wu，熟人叫他米米。角色头衔写“小米糕”，简介直接请人去 B 站搜索“MiMi是小米糕”，还留了游戏里的“小米糕深渊频道”。他在欧服混了好几年，[入坑第一帖](https://tieba.baidu.com/p/7676294075)就是一张损失 KM；后来在 PH 下的华人军团 Profane Proverb（PP）刷深渊、开频道、开直播，2023 年退游学习，2026 年回归后在 B 站拍深渊教学，标题一口一个“教练”。同年 8 月，他又给自己开了军团 MiMi-HighSec，CEO 也由这个角色担任。
 

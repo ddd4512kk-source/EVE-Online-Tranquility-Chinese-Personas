@@ -1,10 +1,3 @@
----
-character_id: 2123680197
-cn_name: 兔兔
-aliases: [QingQing999]
-epithet: 红楼带过队，昆仑只留一个兔字。
-tags: ["00区", "CONDI", "KN-L", "FC"]
----
 
 兔兔，游戏名QingQing999，如今在昆仑活动，红楼时期带过队。名片只写“兔兔”两个字，频道里指挥的时候大概没那么可爱。
 

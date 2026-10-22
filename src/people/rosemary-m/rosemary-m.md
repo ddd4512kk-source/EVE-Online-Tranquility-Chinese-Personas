@@ -1,10 +1,3 @@
----
-character_id: 2115677996
-cn_name: 旧人揪心
-aliases: [ROSEMARY m, 美西第一FC]
-epithet: 名片争第一，简介替元帅报仇。
-tags: [00区, FRT, SARD., FC]
----
 
 旧人揪心，ROSEMARY m，如今在特别执法部SARD活动。[公开头衔](https://esi.evetech.net/latest/characters/2115677996/)自称“美西第一FC”，简介却先把自己的元帅损失摆出来，题作“我重伤倒地”。名片一头争第一，另一头给丢掉的船办了场复仇动员。
 

@@ -1,10 +1,3 @@
----
-character_id: 2114871328
-cn_name: 夜灵
-aliases: [Cir Benuse, 亱靈, 夜靈]
-epithet: 故土FC写头衔，骷髅替他摆门面。
-tags: [SARD., FRT, FC]
----
 
 夜灵，游戏角色 Cir Benuse，头衔写的是“亱靈，故土FC，总监”，如今在[嗜血](../2113483277/)的SARD。名片把指挥和管事的称呼都摆出来，正文却很省话：一幅骷髅字画，下面留着“Squad Of Nexus Guardian”。岗位牌写得清楚，个人介绍则干脆交给了图案。
 

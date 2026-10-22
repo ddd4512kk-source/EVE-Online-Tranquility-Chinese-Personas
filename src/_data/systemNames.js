@@ -19,4 +19,10 @@ export default {
   Maseera: "马瑟拉",
   Asakai: "艾萨凯",
   Todifrauan: "托蒂弗伦",
+  Turnur: "图尔鲁尔",
+  Sakht: "萨特",
+  Atlar: "埃塔拉尔",
+  Haras: "哈拉斯",
+  Oijanen: "欧加仑",
+  Sahtogas: "萨托加斯",
 };

@@ -372,10 +372,12 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   font-size: clamp(1.7rem, 6vw, 2.5rem); line-height: 1.2; letter-spacing: .06em;
   overflow-wrap: anywhere;
 }
+.bio-name a { color: inherit; text-decoration: none; }
 .bio-suffix { font-weight: 400; font-size: .55em; color: var(--text-faint); margin-left: .35em; letter-spacing: .2em; }
 .bio-charname { margin: .2rem 0 0; color: var(--text-dim); font-size: .95rem; overflow-wrap: anywhere; }
 .bio-aliases { margin: .15rem 0 0; color: var(--text-faint); font-size: .88rem; }
 .bio-aliases span { color: var(--text-dim); }
+.bio-alts { overflow-wrap: anywhere; }
 .epithet {
   margin: .6rem 0 0; color: var(--zhu);
   font-family: var(--serif); font-size: 1.05rem; line-height: 1.5;
@@ -636,6 +638,16 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .side-mini-name { font-family: var(--serif); font-weight: 700; font-size: .98rem; color: var(--text); }
 .side-mini-allies { color: var(--text-faint); overflow-wrap: anywhere; }
 .side-mini-cn { color: var(--gold); }
+
+/* 详情页：相关视频（顶部紧凑列表） */
+.battle-videos { margin: 0 0 1.5rem; }
+.battle-videos h2 { margin: 0 0 .5rem; font-family: var(--serif); font-size: 1.1rem; color: var(--gold); }
+.battle-videos ul { display: grid; gap: .5rem 1rem; margin: 0; padding: 0; list-style: none; }
+@media (min-width: 760px) { .battle-videos ul { grid-template-columns: 1fr 1fr; } }
+.battle-videos li { min-width: 0; padding: .45rem .7rem; border-left: 2px solid var(--line-soft); }
+.battle-videos a { font-family: var(--serif); overflow-wrap: anywhere; }
+.battle-videos small { display: block; margin-top: .1rem; color: var(--text-faint); }
+.battle-videos p { margin: .2rem 0 0; font-size: .88rem; color: var(--text-dim); }
 
 /* 详情页：每方一张卡 */
 .sides { display: grid; gap: .75rem; margin: 0 0 2rem; }

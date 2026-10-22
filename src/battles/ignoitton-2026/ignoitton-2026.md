@@ -1,22 +1,3 @@
----
-title: 伊格诺伊顿一小时，无畏烧出一万亿
-tags:
-  - 低安
-  - 无畏战
-start: '2026-07-31'
-systems:
-  - Ignoitton
-sides:
-  - name: Snuffed Out及友军
-    alliances:
-      - 99004901
-      - 1900696668
-  - name: Deepwater Hooligans及友军
-    alliances:
-      - 99009927
-      - 99009845
-loss_source: 'https://br.evetools.org/battle/17321'
----
 
 2026年7月31日，伊格诺伊顿不到一小时就烧掉约1.017T。Snuffed Out与Deepwater Hooligans、Sedition的交火是这份战报的主轴，INIT也从Deepwater等组织的损失里留下签名。场上只有569个角色，花钱的气势却远胜许多千人大会：这回人数负责站台，无畏负责把金额往上顶。
 

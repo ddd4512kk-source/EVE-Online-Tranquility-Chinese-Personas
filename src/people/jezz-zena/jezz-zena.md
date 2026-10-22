@@ -1,10 +1,3 @@
----
-character_id: 536107961
-cn_name: 墨辉
-aliases: [Jezz Zena, 墨老板]
-epithet: 简介说 2003 年就玩了，号是 2009 年建的。
-tags: ["00区", "PM", "TNND"]
----
 
 墨辉，游戏名 Jezz Zena，简介里自称“墨老板”。2009 年建号，跟着大花一系的 Dragon Warrior.、功夫流氓起家，后来在闪电、TCF 一待多年，现在挂北极星。
 

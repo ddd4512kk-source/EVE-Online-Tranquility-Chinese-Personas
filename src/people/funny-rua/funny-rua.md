@@ -1,10 +1,3 @@
----
-character_id: 2115566419
-cn_name: 滑子
-aliases: [Funny RUA]
-epithet: 朋友介绍进冠军队，简介只认 1400 毫米炮。
-tags: ["NERV", "HO.YO", "AT19冠军"]
----
 
 滑子，游戏名 Funny RUA，2019 年 8 月建号。简介第一行写着“ELITE 1400 LOVER”，底下挂了三张击杀报告。冠军队里多数人是老队友互相拉进来的，他是朋友介绍来的。
 

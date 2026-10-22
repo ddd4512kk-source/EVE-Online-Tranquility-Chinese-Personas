@@ -1,10 +1,3 @@
----
-character_id: 92484561
-cn_name: 羊叔
-aliases: [mura, MuraSaki Siki]
-epithet: 和兔叔一起把 CCP 的更新翻了十几年，简介里写的是另一个游戏。
-tags: ["00区", "FRT", "N-V-U"]
----
 
 羊叔，游戏名 MuraSaki Siki，头衔“羊叔#06045”，2012 年建号。和[兔仔猪](../92507639/)是一对搭档：凛冬百科的“兔仔猪和 Mura 的版本更新内容翻译”栏目，署的就是这两个名字。
 

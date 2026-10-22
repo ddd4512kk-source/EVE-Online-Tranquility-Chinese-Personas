@@ -1,10 +1,3 @@
----
-character_id: 92761922
-cn_name: Kei
-aliases: [Kei Hazard]
-epithet: 联盟赛的中文解说，FRT 的配置课代表。
-tags: [00区]
----
 
 Kei Hazard，2012 年 12 月建号，却在 NPC 军团里躺了四年多，2017 年才真正开始玩：2 月进了 FRT 的 TCF（Thunders Claw Fleet），一待一年半。之后跟着去了女娲旗下的 Stay Alive.，又在“养猪场” Specialized pig-farm. 的 Black Pig Bang inc. 落脚——和[灭绝](../1235367427/)做了邻居；中间还去欧美小队名团 Tactical Supremacy 待过两个月。
 

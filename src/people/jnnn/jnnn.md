@@ -1,10 +1,3 @@
----
-character_id: 2116157769
-cn_name: 小桔
-aliases: [JNNN, Lemon JN]
-epithet: 开船查卧底，回来还得管服务器
-tags: [00区, NC, FOXOR, FC]
----
 
 小桔，游戏名 JNNN，也用 Lemon JN，抵抗之狐的人。[军团官网](https://foxor.cc/team/)给他排了三份活：前线 FC、负责 SPY 调查的安全官，还有 IT 运维。上舰队要管航向，回军团又得管谁能进门，这份差事看来很难靠一句“我只是来玩游戏的”推掉。
 

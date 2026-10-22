@@ -1,18 +1,3 @@
----
-title: 阿尔扎德，为了老婆，把无畏搬了出来
-aliases: [Arzad Waifu War, 老婆战争]
-epithet: 口号喊老婆，结账找工业。
-start: 2025-07-13
-systems: [Arzad]
-tags: [低安, 无畏战, FRT, B B C, INIT.]
-sides:
-  - name: Snuff、FRT 与龙骑
-    alliances: [99004901, 99003581, 99012995]
-  - name: 深水、INIT 与 FL33T
-    alliances: [99009927, 1900696668, 99011978]
-  - name: 第三方
-loss_source: https://br.evetools.org/br/687430c687003700128d7017
----
 2025 年 7 月 13 日凌晨，阿尔扎德 又把一场建筑争夺打成了无畏会战。Megaman39 的[《Waifu War》复盘](https://www.reddit.com/r/Eve/comments/1lz5vwi/)给大家挂了个很二次元的招牌，实际账单却一点也不轻：三小时内，各方损失逼近一万亿 ISK。Snuff、FRT 与龙骑站在一边，深水、INIT 与 FL33T 联手站在另一边；低安诸侯的座次，今晚又重新排过。
 
 ## Snuff、FRT 与龙骑

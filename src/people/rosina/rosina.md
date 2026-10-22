@@ -1,10 +1,3 @@
----
-character_id: 2121096598
-cn_name: 彗星
-aliases: [Rosina, Red comet31]
-epithet: 办了一届海军假期邀请赛，赛报字数堪比 N 老板小作文。
-tags: ["00区", "BLKSH", ".SFI"]
----
 
 彗星，论坛上自称 Red comet31，现在的角色叫 Rosina，头衔“彗星”。2020 年就在凛冬论坛活跃，如今这个角色 2023 年建号，在混沌、FRCC、Cyclonic Torpedo Team、SARD 之间转过，2026 年 6 月去了 Salted Fish Inc——咸鱼公司。KB 上只有六个击杀。
 

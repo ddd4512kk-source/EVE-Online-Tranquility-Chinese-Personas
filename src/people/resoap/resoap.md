@@ -1,10 +1,3 @@
----
-character_id: 2114016435
-cn_name: 到手刀
-aliases: [resoap, rewrite JOE, resoap Q6J, rewrtie soap, island rinne, resoap到手刀]
-epithet: 等你没了退路，他才亮出价目表。
-tags: [UMBRM, D.C]
----
 
 到手刀，游戏名resoap PLA，混LP收购的生意人。这个外号的要害，全在“到手”上：据社交媒体流传的交易旧事，他先把价钱说好，等卖家转走LP、运输者接下合同，再回头压价。LP已经收不回来，接下的快递合同也不能单方面撤销，对方的退路先被堵住，他才来问能不能便宜。买卖做到这一步，所谓商量，已经带着扣住别人东西、逼人认亏的味道。
 

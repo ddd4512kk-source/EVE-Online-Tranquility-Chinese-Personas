@@ -11,10 +11,11 @@
 import "./runtime.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
-import matter from "gray-matter";
+import { readPersonDocument } from "./person-document.mjs";
 import { validateCorporationTags } from "./corporation-tags.mjs";
 import { bodyLineOffset, validateBlocks } from "./blocks.mjs";
-import { compactSnapshot, expandSnapshot, isNpcCorp, mergeNames, readNames, writeNames } from "./character-snapshot.mjs";
+import { characterFile, compactSnapshot, expandSnapshot, isNpcCorp, mergeCharacterRecord, mergeNames, readNames, writeNames } from "./character-snapshot.mjs";
+import { readAllIdentities } from "./person-identity.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
@@ -205,34 +206,6 @@ async function fetchPortrait(id, directory) {
 
 // ---------- 列传文件校验 ----------
 
-const FIELDS = {
-  character_id: "必填，游戏角色 ID（数字）",
-  cn_name: "可选，中文名（字符串）",
-  aliases: "可选，外号列表",
-  epithet: "可选，一句话锐评（字符串）",
-  tags: "可选，标签列表",
-  alts: "可选，本人小号的角色 ID 列表；战役战报据此认人",
-};
-const isStrList = (v) => Array.isArray(v) && v.every((x) => typeof x === "string" && x.trim());
-const isIdList = (v) => Array.isArray(v) && v.every((x) => Number.isInteger(x) && x > 0);
-
-function validate(file, data, body, lineOffset) {
-  const errs = [];
-  for (const k of Object.keys(data)) {
-    if (!(k in FIELDS)) errs.push(`未知字段 "${k}"（允许的字段：${Object.keys(FIELDS).join(", ")}）`);
-  }
-  if (data.cn_name != null && typeof data.cn_name !== "string") errs.push("cn_name 必须是字符串");
-  if (data.epithet != null && typeof data.epithet !== "string") errs.push("epithet 必须是字符串");
-  if (data.aliases != null && !isStrList(data.aliases)) errs.push("aliases 必须是字符串列表，如 [外号一, 外号二]");
-  if (data.alts != null && !isIdList(data.alts)) errs.push("alts 必须是角色 ID 列表，如 [2114818738]");
-  if (data.tags != null) {
-    if (!isStrList(data.tags)) errs.push("tags 必须是字符串列表，如 [标签一, 标签二]");
-    else if (data.tags.some((t) => /[\/\\?#%]/.test(t))) errs.push("标签里不能含 / \\ ? # % 字符");
-  }
-  errs.push(...validateBlocks(body, lineOffset));
-  return errs.map((e) => `${file}：${e}`);
-}
-
 async function readPeople() {
   const directories = (await fs.readdir(PEOPLE_DIR, { withFileTypes: true }))
     .filter((entry) => entry.isDirectory() && !entry.name.startsWith("_"))
@@ -250,13 +223,13 @@ async function readPeople() {
     let parsed, raw;
     try {
       raw = await fs.readFile(path.join(PEOPLE_DIR, file), "utf8");
-      parsed = matter(raw);
+      parsed = readPersonDocument(path.join(PEOPLE_DIR, file));
     } catch (e) {
-      errors.push(`${file}：front matter 格式错误（YAML）：${e.message}`);
+      errors.push(`${file}：人物档案读取失败：${e.message}`);
       continue;
     }
     const { data, content } = parsed;
-    errors.push(...validate(file, data, content, bodyLineOffset(raw, content)));
+    errors.push(...validateBlocks(content, bodyLineOffset(raw, content)).map(error => `${file}：${error}`));
     const id = Number(data.character_id);
     if (!Number.isInteger(id) || id <= 0) {
       errors.push(`${file}：缺少或无效的 character_id`);
@@ -267,17 +240,9 @@ async function readPeople() {
       continue;
     }
     seen.set(id, file);
-    people.push({ file, id, directory, tags: data.tags ?? [], alts: isIdList(data.alts) ? data.alts : [] });
+    people.push({ file, id, directory, tags: data.tags ?? [] });
   }
-  // 小号只归一人，也不能是别人的收录角色
-  const altOwner = new Map();
-  for (const p of people) {
-    for (const alt of p.alts) {
-      if (seen.has(alt)) errors.push(`${p.file}：alts 里的 ${alt} 是 ${seen.get(alt)} 的收录角色`);
-      else if (altOwner.has(alt)) errors.push(`${p.file}：alts 里的 ${alt} 已列在 ${altOwner.get(alt)}`);
-      else altOwner.set(alt, p.file);
-    }
-  }
+  try { readAllIdentities(ROOT); } catch (error) { errors.push(error.message); }
   return { people, errors };
 }
 
@@ -286,7 +251,7 @@ const exists = (p) => fs.access(p).then(() => true, () => false);
 async function checkCorporationTags(people) {
   const names = readNames(ROOT);
   const snapshots = await Promise.all(people.map(async (p) =>
-    expandSnapshot(JSON.parse(await fs.readFile(path.join(p.directory, `${p.id}.json`), "utf8")), names)));
+    expandSnapshot(JSON.parse(await fs.readFile(path.join(p.directory, characterFile(p.id)), "utf8")), names)));
   const corporations = snapshots.map((c) => c.affiliation?.corporation).filter(Boolean);
   const errors = people.flatMap((p, i) =>
     validateCorporationTags(p.tags, snapshots[i], corporations).map((e) => `${p.file}：${e}`));
@@ -310,10 +275,11 @@ async function main() {
 
   const todo = [];
   for (const p of people) {
-    const dataFile = path.join(p.directory, `${p.id}.json`);
+    const dataFile = path.join(p.directory, characterFile(p.id));
     const portrait = path.join(p.directory, `portrait-${p.id}.jpg`);
     const forced = refresh && (refreshIds.size === 0 || refreshIds.has(p.id));
-    if (forced || !(await exists(dataFile)) || !(await exists(portrait))) todo.push(p);
+    const record = await exists(dataFile) ? JSON.parse(await fs.readFile(dataFile, "utf8")) : null;
+    if (forced || !record?.fetched_at || !(await exists(portrait))) todo.push(p);
   }
 
   if (!todo.length) {
@@ -335,7 +301,9 @@ async function main() {
       await fetchPortrait(p.id, p.directory);
       const { snapshot, names: own } = compactSnapshot(data);
       writeNames(ROOT, mergeNames(names, own));
-      await fs.writeFile(path.join(p.directory, `${p.id}.json`), JSON.stringify(snapshot, null, 2) + "\n");
+      const file = path.join(p.directory, characterFile(p.id));
+      const previous = await exists(file) ? JSON.parse(await fs.readFile(file, "utf8")) : null;
+      await fs.writeFile(file, JSON.stringify(mergeCharacterRecord(previous, snapshot), null, 2) + "\n");
       console.log(`  ✓ ${data.name}，创号 ${data.birthday?.slice(0, 10)}`);
     } catch (e) {
       failed++;

@@ -1,7 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validBilibiliUrl, pageStatus, revealCommentSection, loadCommentSection } from '../bilibili-chrome-read.mjs';
+import { validBilibiliUrl, pageStatus, revealCommentSection, loadCommentSection, archivedBvids } from '../bilibili-chrome-read.mjs';
 import { runInNewContext } from 'node:vm';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 
 test('定位未触发懒加载时，仍执行真实下滚并等两秒后读评论', async () => {
   let scrolled = false;
@@ -41,4 +44,12 @@ test('加载壳和登录导航不算已读，验证码优先于元数据', () =>
 import {bilibiliCookieHeader} from '../bilibili-session.mjs';
 test('Cookie仅限B站并拒绝请求头注入，不带其他网站会话', () => {
   assert.equal(bilibiliCookieHeader([{domain:'.bilibili.com',name:'SESSDATA',value:'fake-session'},{domain:'.example.com',name:'secret',value:'other'},{domain:'.bilibili.com.evil.test',name:'secret',value:'other'},{domain:'.bilibili.com',name:'bad',value:'x\r\nAuthorization: injected'}]),'SESSDATA=fake-session');
+});
+
+test('已入作品档案的视频收进跳过集合，频道列表候选不算', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bili-archive-'));
+  fs.writeFileSync(path.join(dir, '1.json'), JSON.stringify({channel:{listings:[{candidates:[{bvid:'BV1listed'}]}]}, videos:[{bvid:'BV1read'}]}));
+  fs.writeFileSync(path.join(dir, 'note.txt'), 'x');
+  assert.deepEqual([...archivedBvids(dir)], ['BV1read']);
+  assert.equal(archivedBvids(path.join(dir, 'missing')).size, 0);
 });

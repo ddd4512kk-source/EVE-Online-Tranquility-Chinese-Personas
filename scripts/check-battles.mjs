@@ -1,6 +1,6 @@
 // 校验 src/battles/ 下的战役文件。npm run check 只读缓存、不联网；
 // 加 --fetch（npm run fetch / build）时，点名的联盟、军团 ID 不在全站名称表 src/_data/entityNames.json 里的，向 ESI 查名字补进去；
-// 战报快照 br.json 缺失或与 front matter 对不上时，重抓 br.evetools／killmail.app 战报。
+// 同名战役 JSON 的 br 缺失或与 battle 配置对不上时，重抓 br.evetools／killmail.app 战报。
 import "./runtime.mjs";
 import path from "node:path";
 import { checkBattles } from "./battles.mjs";
@@ -40,6 +40,11 @@ async function fetchSnapshot(data) {
 
 // ID → 名字（每次最多 1000 个）。一批里有一个 ID 无效 ESI 就整批 404，对半拆开重查，跳过无效的
 async function lookupNames(ids) {
+  if (ids.length > 1000) {
+    const names = [];
+    for (let i = 0; i < ids.length; i += 1000) names.push(...await lookupNames(ids.slice(i, i + 1000)));
+    return names;
+  }
   const res = await fetch(`${ESI}/universe/names/`, {
     method: "POST",
     headers: { "User-Agent": USER_AGENT, Accept: "application/json", "Content-Type": "application/json" },
@@ -53,11 +58,36 @@ async function lookupNames(ids) {
   return [...(await lookupNames(ids.slice(0, mid))), ...(await lookupNames(ids.slice(mid)))];
 }
 
+// 只补缺少的缩写，至多四个并发；历史联盟查不到时保留已知名字，不猜缩写。
+async function lookupAllianceDetails(ids) {
+  console.log(`补取 ${ids.length} 个参战联盟的名称与缩写（仅缺项）。`);
+  const results = [];
+  let next = 0, failed = false;
+  await Promise.all(Array.from({ length: Math.min(4, ids.length) }, async () => {
+    while (!failed && next < ids.length) {
+      const id = ids[next++];
+      try {
+        const res = await fetch(`${ESI}/alliances/${id}/`, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" }, signal: AbortSignal.timeout(60_000) });
+        if (res.status === 404) results.push({ id, metadata_unavailable: true });
+        else {
+          if (!res.ok) throw new Error(`ESI 联盟 ${id} 查询失败：${res.status}`);
+          const { name, ticker } = await res.json();
+          if (!name || !ticker) throw new Error(`ESI 联盟 ${id} 未返回名称与缩写`);
+          results.push({ id, name, ticker });
+        }
+      } catch (error) { failed = true; throw error; }
+    }
+  }));
+  return results;
+}
+
 const fetching = process.argv.includes("--fetch");
-const { count, errors } = await checkBattles(path.resolve(import.meta.dirname, ".."), {
+const { count, errors, warnings } = await checkBattles(path.resolve(import.meta.dirname, ".."), {
   fetchSnapshot: fetching ? fetchSnapshot : undefined,
   lookupNames: fetching ? lookupNames : undefined,
+  lookupAllianceDetails: fetching ? lookupAllianceDetails : undefined,
 });
+for (const warning of warnings) console.warn(warning);
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);

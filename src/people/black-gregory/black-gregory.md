@@ -1,10 +1,3 @@
----
-character_id: 90350071
-cn_name: 黑老板
-aliases: [Black, 老黑, 滑稽一代目, BlackGregory, GoldMining Owner, 金矿老板]
-epithet: 买下一个半星域，至今没等来 N 胖许的无人机。
-tags: ["00区", "I.S.K", "I-BAN", "联盟高层", "CEO"]
----
 
 黑老板，自称 Black，又叫老黑，滑稽联盟（Iron Crown）的一代目。照他自己的说法，是个“线下云玩家”，2019 年全年上线不到五个小时，上线就做两件事：更新技能、打钱。
 

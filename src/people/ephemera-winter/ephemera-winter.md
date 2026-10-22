@@ -1,10 +1,3 @@
----
-character_id: 2114882441
-cn_name: 蜉蝣
-aliases: [Ephemera Winter]
-epithet: 凛冬的 wiki 园丁，N老板语录的收藏家。
-tags: ["00区", "FRT", "NBCLT"]
----
 
 蜉蝣，游戏名 Ephemera Winter，头衔“蜉蝣”。2019 年 1 月建号，进了采星者旗下的新人军团 Noobs Collecttion（菜鸟事务所），从此没换过军团——采星并进 FRT，菜鸟事务所也跟着进了 FRT。
 

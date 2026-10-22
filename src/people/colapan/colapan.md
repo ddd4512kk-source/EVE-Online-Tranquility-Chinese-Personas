@@ -1,10 +1,3 @@
----
-character_id: 2114013279
-cn_name: 可乐锅
-aliases: [ColaPan, ColaPanna, ColaGuo, Jiawe1, 礼部尚书]
-epithet: 和气生财写四遍，赔偿一谈翻两倍。
-tags: ["00区", "低安", "VAPOR", "K Z U"]
----
 
 可乐锅，游戏角色 ColaPan，[炽天](../2120421439/)那家 KZU 的外交联系人，另有 ColaPanna、ColaGuo。角色简介开头是“和气生财”，下面用英语、阿拉伯语、俄语再写三遍；联系语言列 CN、EN、AR，阿拉伯语后面自己补一句“吹牛逼的”。招牌很国际，收尾也很诚实。到了 2026 年昆仑的 300 亿索赔风波，他这门外交手艺终于有了具体报价。
 

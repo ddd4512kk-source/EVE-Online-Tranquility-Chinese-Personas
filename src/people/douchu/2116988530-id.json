@@ -1,0 +1,63 @@
+{
+  "id": 2116988530,
+  "name": "DOUCHU001",
+  "birthday": "2020-05-30T16:51:06Z",
+  "corporation_id": 1000014,
+  "affiliation": {
+    "corporation_id": 98601277,
+    "alliance_id": 99009082,
+    "left_at": "2020-10-06T12:04:00Z"
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "start": "2020-05-30T16:51:00Z",
+      "end": "2020-05-30T17:05:00Z"
+    },
+    {
+      "corporation_id": 98601277,
+      "start": "2020-05-30T17:05:00Z",
+      "end": "2020-10-06T12:04:00Z"
+    },
+    {
+      "corporation_id": 1000014,
+      "start": "2020-10-06T12:04:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-17",
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2116988654,
+        "name": "DOUCHU002",
+        "sources": [
+          "materials-douchu.md"
+        ]
+      },
+      {
+        "id": 2117666499,
+        "name": "douchu006",
+        "sources": [
+          "materials-douchu.md"
+        ]
+      },
+      {
+        "id": 2117666513,
+        "name": "DOUCHU007",
+        "sources": [
+          "materials-douchu.md"
+        ]
+      }
+    ],
+    "accounts": {}
+  },
+  "person": {
+    "cn_name": "DOUCHU000号",
+    "epithet": "联盟散了，跳驱先替大航交学费。",
+    "tags": [
+      "B站"
+    ]
+  }
+}

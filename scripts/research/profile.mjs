@@ -9,11 +9,10 @@ import { researchFetch } from "./request-guard.mjs";
 //   - 每段玩家军团雇佣 + 当时所在联盟（逐个查 alliancehistory，CODE./Goonswarm 之类只藏在这里）
 //   - zKillboard 统计：击杀/损失、常用船、常去星系、联盟分布、ISK 最高的月份
 //   - 凛冬论坛：本人主题与回帖标题（预算内分页）、别人提到他的帖子
-// 只读公开接口，不写仓库。依赖 src/people/<短名>/<ID>.json 中的角色缓存。
+// 只读公开接口，不写仓库。依赖 src/people/<短名>/<ID>-id.json 中的角色缓存。
 
-import fs from "node:fs";
 import path from "node:path";
-import { expandSnapshot, readNames } from "../character-snapshot.mjs";
+import { expandSnapshot, readNames, readStoredCharacters } from "../character-snapshot.mjs";
 
 const id = process.argv[2];
 let forumUser = process.argv[3];
@@ -51,11 +50,8 @@ const p = (s = "") => out.push(s);
 
 // ---------- ESI ----------
 const peopleDir = path.resolve(import.meta.dirname, "../../src/people");
-const cachePath = fs.readdirSync(peopleDir, { withFileTypes: true })
-  .filter((entry) => entry.isDirectory())
-  .map((entry) => path.join(peopleDir, entry.name, `${id}.json`))
-  .find((file) => fs.existsSync(file));
-let cache = cachePath ? expandSnapshot(JSON.parse(fs.readFileSync(cachePath, "utf8")), readNames(path.resolve(import.meta.dirname, "../.."))) : null;
+const storedCharacter = readStoredCharacters(peopleDir).get(Number(id));
+let cache = storedCharacter ? expandSnapshot(storedCharacter, readNames(path.resolve(import.meta.dirname, "../.."))) : null;
 const ch = await json(`https://esi.evetech.net/latest/characters/${id}/`);
 if (!cache) {
   // 还没建列传的人没有缓存：直接读 EveWho 雇佣记录

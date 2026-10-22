@@ -1,10 +1,3 @@
----
-character_id: 982439287
-cn_name: 大花
-aliases: [Cleaner Sk, SK]
-epithet: 开了一串华人公司，自己的号先在蜜蜂实习了一年。
-tags: ["00区", "CEO"]
----
 
 大花，游戏名 Cleaner Sk，2006 年建号，欧服华人圈最早一批“开公司的人”。按 PLA 整理的[华人势力大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)，23rd Armor、Matrix.、Dragon Warrior. 这一串老公司，背后都是他。
 

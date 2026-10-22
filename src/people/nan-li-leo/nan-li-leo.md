@@ -1,9 +1,3 @@
----
-character_id: 2113744134
-aliases: [Nan Li Leo, Yakumo Aka]
-epithet: 帝王蟹请过，冠军船牵过，地址也发过。
-tags: [虫洞, 00区]
----
 
 Nan Li Leo，北极星（PMA）虫洞圈的老成员，[雇佣记录](https://evewho.com/character/2113744134)显示他从 2019 年起多次在北极星旗下的 Thunder Mercenary Army。2018 年他在 FRT 短暂待过，后来一直是 PMA 的人。
 

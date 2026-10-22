@@ -1,0 +1,109 @@
+{
+  "battle": {
+    "title": "艾萨凯，一条泰坦误跳，三千人赶来结账",
+    "aliases": [
+      "Battle of Asakai",
+      "Asakai Meltdown",
+      "ASAKAI之战"
+    ],
+    "epithet": "一个按错的跳跃，让半个宇宙排队来买单。",
+    "start": "2013-01-27",
+    "systems": [
+      "Asakai"
+    ],
+    "tags": [
+      "低安",
+      "泰坦战",
+      "CONDI",
+      "TEST",
+      "-10.0",
+      "PANGU"
+    ],
+    "sides": [
+      {
+        "name": "CFC及友军",
+        "pilots": 1014,
+        "loss": 654.07,
+        "loss_count": 519,
+        "stats_note": "人数与损失条数为EVE Ref公开KM存档在2013-01-27 01:45—10:05 UTC、艾萨凯星系内的可核下限；CCP同期只公布全场717.03B，分方金额按zKill现价各方占比摊分，为估算，详见素材。",
+        "note": "折损泰坦3条、超级航母6条",
+        "organizations": [
+          1354830081,
+          1220174199,
+          741557221,
+          1006830534,
+          150097440,
+          99000211,
+          679584932,
+          131511956,
+          99002356
+        ],
+        "emblem": 1354830081
+      },
+      {
+        "name": "HBC：TEST、PL及友军",
+        "pilots": 1910,
+        "loss": 62.27,
+        "loss_count": 427,
+        "stats_note": "人数与损失条数为EVE Ref公开KM存档在2013-01-27 01:45—10:05 UTC、艾萨凯星系内的可核下限；CCP同期只公布全场717.03B，分方金额按zKill现价各方占比摊分，为估算，详见素材。",
+        "note": "折损超级航母1条",
+        "corps": [
+          {
+            "id": 1097611545,
+            "pilots": 4,
+            "alliance_id": 99002084
+          },
+          {
+            "id": 98108175,
+            "pilots": 2,
+            "alliance_id": 99002084
+          }
+        ],
+        "people": [
+          91282906,
+          690534767,
+          1901851878,
+          224870524
+        ],
+        "organizations": [
+          498125261,
+          386292982,
+          99002275,
+          99001861,
+          1727758877,
+          1463354890,
+          1900696668,
+          99002084
+        ],
+        "emblem": 386292982
+      },
+      {
+        "name": "第三方",
+        "pilots": 139,
+        "loss": 0.69,
+        "loss_count": 116,
+        "stats_note": "人数与损失条数为EVE Ref公开KM存档在2013-01-27 01:45—10:05 UTC、艾萨凯星系内的可核下限；CCP同期只公布全场717.03B，分方金额按zKill现价各方占比摊分，为估算，详见素材。",
+        "organizations": [
+          1691647675,
+          982284363
+        ]
+      }
+    ],
+    "total_loss": 717.03,
+    "pilots_peak": 2754,
+    "loss_source": [
+      "https://www.eveonline.com/news/view/the-battle-of-asakai-and-poinen-must-burn-by-the-numbers",
+      "https://data.everef.net/killmails/2013/killmails-2013-01-27.tar.bz2",
+      "https://zkillboard.com/related/30045332/201301270700/"
+    ],
+    "videos": [
+      {
+        "title": "EVE ONLINE  Battle of Asakai",
+        "url": "https://www.bilibili.com/video/BV1hx411H7mc/",
+        "author": "Dmanson",
+        "description": "本场参战者 D manson 2017 年上传的老录像，简介称其为“一个纪念意义的老视频”，并列出 CFC 与 HBC 的旗舰损失。"
+      }
+    ]
+  },
+  "br": null
+}

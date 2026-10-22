@@ -33,6 +33,21 @@ bodyClass: page-battle
     {% if tags and tags.length %}<div><dt>标签</dt><dd class="chips">{% for t in tags %}<a class="chip" href="{{ '/battles/' | url }}?t={{ t | urlencode }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
   </dl>
 
+  {% if videos and videos.length %}
+  <section class="battle-videos" aria-labelledby="battle-videos-title">
+    <h2 id="battle-videos-title">相关视频</h2>
+    <ul>
+      {% for video in videos %}
+      <li>
+        <a href="{{ video.url | escape }}" rel="noopener">{{ video.title | escape }}</a>
+        <small>{% if "youtube.com" in video.url %}YouTube · 频道{% else %}B站 · UP 主{% endif %}：{{ video.author | escape }}</small>
+        <p>{{ video.description | escape }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   <section class="sides" aria-label="交战各方" data-pagefind-ignore>
   {%- for s in sidesView %}
     <div class="side">
@@ -46,7 +61,7 @@ bodyClass: page-battle
       {% if s.loss != null %}<span class="side-bar" aria-hidden="true"><span style="width: {{ (s.loss / lossTotal * 100) | round(1) }}%"></span></span>{% endif %}
       <dl class="side-facts">
         {% set sideIndex = loop.index %}
-        {% if s.alliances and s.alliances.length %}<div><dt>联盟</dt><dd class="battle-list-wrap">
+        {% if s.alliances and s.alliances.length %}<div><dt>{% if s.hasIndependentCorporations %}联盟／独立军团{% else %}联盟{% endif %}</dt><dd class="battle-list-wrap">
           <ul class="battle-list" id="side-{{ sideIndex }}-alliances">{% for a in s.alliances %}<li>{{ org(a) }}</li>{% endfor %}</ul>
           <button type="button" class="tag-more" aria-controls="side-{{ sideIndex }}-alliances" aria-expanded="false" hidden>展开 ▾</button>
         </dd></div>{% endif %}
@@ -66,21 +81,6 @@ bodyClass: page-battle
   <div class="prose">
     {{ content | safe }}
   </div>
-
-  {% if videos and videos.length %}
-  <section class="prose battle-videos" aria-labelledby="battle-videos-title">
-    <h2 id="battle-videos-title">相关视频</h2>
-    <ul>
-      {% for video in videos %}
-      <li>
-        <h3><a href="{{ video.url | escape }}" rel="noopener">{{ video.title | escape }}</a></h3>
-        <p>UP 主：{{ video.author | escape }}</p>
-        <p>{{ video.description | escape }}</p>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
 </article>
 
 {% include "glossary-dialog.njk" %}

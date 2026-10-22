@@ -1,10 +1,3 @@
----
-character_id: 2117792970
-cn_name: 花间笑
-aliases: [PPHV, LZ-PPHV-2, 叶落叛忍, CC001 PP, CC002 PP, CC003 PP, CC004 PP, CC005 PP, CC006 PP, CC007, CC008, CC009, CC010, CC011, CC012, FOF 001, FOF 002, FOF rains, huajianxiao, LZ-PPHV, LZ-PPHV-1, nongnv005, nongnv007, nongnv044, nongnv055]
-epithet: 先收旧团出货钱，再教别人刷旧团。
-tags: ["F.A.X", "00区", "MIOIM"]
----
 
 花间笑，在[青春](../2114598179/)的叶落星海待过几年。2024 年底叶落吵税费，他自署“叶落叛忍”，建议大家别只算刷怪收益，换个角度去刷旧团的 MTU。话讲得像退团后的侠客，楼中楼却有老团员翻账：据“矿头是我”爆料，花间笑曾是“叶落指定出货”，一条毒蜥就收两千万出货费。嘴上替大家找财路，自己的旧财路先被人堵到了帖里。
 

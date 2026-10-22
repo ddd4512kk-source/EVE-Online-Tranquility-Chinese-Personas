@@ -52,7 +52,7 @@ bodyClass: page-battles
       <li class="side-mini">
         <span class="side-mini-name">{{ s.name }}</span>
         {% set stats = s | sideStats %}{% if stats %}<span class="side-mini-stats">{{ stats }}</span>{% endif %}
-        {% if s.alliances and s.alliances.length %}<span class="side-mini-allies">{% for a in s.alliances.slice(0, 3) %}{{ org(a) }}{% if not loop.last %}、{% endif %}{% endfor %}{% if s.alliances.length > 3 %} 等 {{ s.alliances.length }} 个联盟{% endif %}</span>{% endif %}
+        {% if s.alliances and s.alliances.length %}<span class="side-mini-allies">{% for a in s.alliances.slice(0, 3) %}{{ org(a) }}{% if not loop.last %}、{% endif %}{% endfor %}{% if s.alliances.length > 3 %} 等 {{ s.alliances.length }} 个{% if s.hasIndependentCorporations %}组织{% else %}联盟{% endif %}{% endif %}</span>{% endif %}
         {% if (s.corps and s.corps.length) or (s.people and s.people.length) %}<span class="side-mini-cn">{% if s.corps and s.corps.length %}华人军团 {{ s.corps.length }}{% endif %}{% if s.corps and s.corps.length and s.people and s.people.length %} · {% endif %}{% if s.people and s.people.length %}收录 {{ s.people.length }} 人{% endif %}</span>{% endif %}
       </li>
     {%- endfor %}

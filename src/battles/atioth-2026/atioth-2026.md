@@ -1,33 +1,3 @@
----
-title: 艾蒂斯，桥头堡还没开门，服务器先倒了
-aliases: [Atioth星城战, Clash at Atioth, 对舞战争艾蒂斯]
-epithet: 想把敌人堵在门口，先把节点挤出了门。
-start: 2026-04-06
-end: 2026-04-08
-systems: [Atioth]
-tags: [低安, 泰坦战, FRT, CONDI, INIT.]
-sides:
-  - name: 凛冬
-    alliances: [99003581, 498125261, 1727758877, 386292982]
-  - name: 帝国
-    alliances: [1354830081, 1900696668, 99009163]
-  - name: 第三方
-videos:
-  - title: "【EVE中文】万人会战——凛冬狂怒，帝国之泪下的新世界纪录"
-    url: "https://www.bilibili.com/video/BV1CQDvBwEBN/"
-    author: "CabbageTimil"
-    description: "从凛冬一方讲述4月6日星城上线会战，评论区又围绕服务器、撤退与“监狱”说法展开争论。"
-  - title: "【EVE欧服】艾蒂斯超旗战FRT泰坦视角（4K）"
-    url: "https://www.bilibili.com/video/BV1E5DkBrEuh/"
-    author: "Zero煌"
-    description: "FRT泰坦视角的会战记录；作者在简介中说明，全程打了二十多个小时，这份录像从星城被击毁之后开始。"
-  - title: "【EVE】全程录像：艾蒂斯会战，1.1万名玩家参与，创造吉尼斯世界纪录（中字解说）"
-    url: "https://www.bilibili.com/video/BV1SHDBBJEB9/"
-    author: "Awakeallnight（投稿、剪辑）；素材来自EVE-西红柿炒番茄"
-    description: "以会战录像与中文解说整理艾蒂斯攻防，简介注明素材来自EVE-西红柿炒番茄，可与泰坦视角的投稿对照。"
-loss_source: [https://br.evetools.org/br/69d501e59b9dad00121d4c62, https://killmail.app/br/GxhFDiNEWB-atioth-2026-04-06]
-pilots_peak: 10253
----
 2026 年 4 月，帝国想把星城桥头堡插到凛冬家门前，凛冬则不打算让这个新邻居安稳开门。按 CCP 的[《Clash at Atioth》](https://www.eveonline.com/news/view/clash-at-atioth)，凛冬准备了大批狂怒者去磨星城，双方随后把战斗推到超旗与泰坦的高度。战场最高同屏达到一万零二百五十三名角色，节点终于不堪重负，部分驾驶员连重新登录都成了难题。
 
 双方从 4 月 6 日熬过 7 日，交火的余波一直拖到 8 日；[完整战报](https://killmail.app/br/GxhFDiNEWB-atioth-2026-04-06)留下了一万两千零二名参战角色、约九万二千三百五十五亿 ISK 的损失。CCP 把这笔账概括为接近十万亿。帝国的桥头堡计划、凛冬的拆堡大队，加上随时可能掉线的服务器，把一场攻防拧成了全宇宙围观的耐力赛。

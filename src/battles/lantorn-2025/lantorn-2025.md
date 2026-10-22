@@ -1,19 +1,3 @@
----
-title: 兰多恩，明知人少也把无畏押上桌
-aliases: [Lantorn无畏战, 兰多恩无畏战]
-epithet: 仗可以不赢，场面必须给足。
-start: 2025-06-17
-end: 2025-06-18
-systems: [Lantorn]
-tags: [低安, 无畏战, FRT, B B C, INIT.]
-sides:
-  - name: FRT 及友军
-    alliances: [99003581, 99011168, 495729389]
-  - name: Snuff、帝国及友军
-    alliances: [99004901, 1900696668, 1354830081]
-  - name: 第三方
-loss_source: https://br.evetools.org/br/6851ec3687003700128d432f
----
 2025 年 6 月 17 日，兰多恩的堡战把低安强人、帝国援军和凛冬一股脑拉进了无畏大锅。CCP 的[社区周报](https://www.eveonline.com/news/view/community-beat-for-20-june)给这场交火记下约三万二千亿 ISK 的损失；[N老板的战后自述](https://winterco.org/2025/06/18/668/lan-duo-en-wu-wei-zhan/)则把自家动员摆出来：一千多条战列、一千多条无畏，对面还比己方多近千人。
 
 按他的说法，知道人少，仍决定接战。于是这仗一头是要把堡与场面撑住的 FRT，一头是已经凑足人手的 Snuff 及各路帮手。数学题开打前就做过了，舰队还是往里跳；新伊甸最贵的爱好，大概就是知道答案之后还想再验一遍。

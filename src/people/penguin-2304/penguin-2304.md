@@ -1,10 +1,3 @@
----
-character_id: 2115581414
-cn_name: 鹅神
-aliases: [企鹅, spy鹅, 2304 penguin]
-epithet: 单浪最重要的技巧：先让 D佬骂你一顿。
-tags: ["00区", "FRT", "AMIYA"]
----
 
 鹅神，又叫企鹅、spy 鹅，游戏名 2304 penguin（中间有空格），2019 年建号。头衔“企鹅”。先在创世和 FRT 的建筑管理军团，2020 年 10 月起在 The Tuskers 待了五年半，2026 年 4 月回 FRT 的 Arknights.。他的第一家军团叫 Chinese People Is So Niubi——和[黑莲](../2115433044/)的第一家是同一个。
 

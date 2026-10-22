@@ -1,11 +1,3 @@
----
-character_id: 208043276
-cn_name: 工程项目
-aliases: [obyta, 工程, Target Chaser, guorenske guoren, 少年]
-epithet: 一条冥府没换来咪将军，一个阿进送走了半个团。
-tags: ["00区", "INIT.", "E   S", "CEO", "著名FC"]
-alts: [95601799, 2114775542]
----
 
 工程项目，吧里简称“工程”，INIT 旗下华人军团帝皇之镰（Emperor Scythes，简称 ES）的军团长，也是带队打旗舰战的指挥。obyta 是他的号，头衔一口气写了三个：“工程项目 帝皇之手 暗夜潜者”；Target Chaser 也是他的号，挂着“少年”的头衔。一个名字像老总，一个头衔像新人，管团、带队、送大航的账，最后都得算到同一个人头上。obyta 的角色简介只有一句：
 

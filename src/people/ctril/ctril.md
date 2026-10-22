@@ -1,10 +1,3 @@
----
-character_id: 437052497
-cn_name: 萨满
-aliases: [Ctril]
-epithet: 前线集结时发邮件收死亡，一封邮件收走了半个盘古。
-tags: [00区]
----
 
 萨满，游戏名 Ctril，2009 年建号的老玩家。早年自己开过一个 Ctril Corp，在 AAA、北方联合的华人小团之间转过，2012 年底进了盘古，挂在盘古的 Executive Office of the President。圈里回忆录都管他叫“TCF 公司的老玩家”。
 

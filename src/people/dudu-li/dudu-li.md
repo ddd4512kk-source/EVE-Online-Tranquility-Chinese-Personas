@@ -1,10 +1,3 @@
----
-character_id: 2112834732
-cn_name: 豆总
-aliases: [豆豆]
-epithet: 别人等敌情，他先把无畏叫出站
-tags: ["00区", "工业", "SCERS", "联盟高层", "CEO"]
----
 
 豆总，DUDU Li。2017 年[台风介绍天使区华人势力](https://forums.winterco.org/t/topic/14294)时，列出的采星盟主就是他。联盟群里，有人负责向宇宙放狠话，也得有人让矿物和舰船真的出现在机库里。
 

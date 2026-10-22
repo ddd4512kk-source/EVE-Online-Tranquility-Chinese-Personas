@@ -1,9 +1,3 @@
----
-character_id: 2112856066
-aliases: [Code Earth]
-epithet: 替华人PVP正名，声明由交易中间人代发。
-tags: ["虫洞", "00区", "PM", "CODY.", "CEO", "RMT"]
----
 
 Code Earth，We Love Cody 的玩家，2025 年曾以军团 CEO 的名义对外发声。他说公司最初是一支几个 PVP 爱好者凑起来的小队，住进 2-N 虫洞后加入北极星（PMA）。小队想保住的是一起打架的乐趣，后来公司名义下最响的一份声明，却是在解释三条 AT 奖励船为什么进了现金交易。
 

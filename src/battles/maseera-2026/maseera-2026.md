@@ -1,18 +1,3 @@
----
-title: 马瑟拉，税站帝国的远炮挨了近拳
-aliases: [Maseera旗舰战, Cartel Only a Shadow of its Former Self]
-epithet: 税站争了几个月，无畏挤到一张桌。
-start: 2026-05-31
-systems: [Maseera]
-window: ['2026-05-31 18:00', '2026-05-31 21:00']
-tags: [低安, 无畏战, SHDWC, SEDIT, BIGAB]
-sides:
-  - name: Shadow Cartel及友军
-    alliances: [495729389]
-  - name: Sedition、深水及友军
-    alliances: [99009845, 99009927]
-loss_source: https://br.evetools.org/br/6a1c88b7902913b29a68c4cf
----
 
 2026年5月31日，马瑟拉的一场旗舰混战，把低安几个月的税站、月矿与设施争夺烧成了约504.49B的账单。Shadow Cartel继续向LSH及其俄罗斯盟友施压，Sedition赶来帮忙；一边把远射无畏与旗舰后勤摆上场，另一边干脆把短炮无畏扔到脸上。地图上争的是一片慢慢收租的产业，现场结账却很快：Shadow Cartel及友军赔掉约382.63B，对面约113.62B，此外还有少量未归组损失。
 

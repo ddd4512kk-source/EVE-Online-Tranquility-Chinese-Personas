@@ -1,10 +1,3 @@
----
-character_id: 2113461386
-cn_name: BADYU
-aliases: [bad yu, 烤鱼]
-epithet: 战记还在招兄弟，他先成了反面教材。
-tags: ["00区", "CEO"]
----
 
 bad yu，头衔“烤鱼（刚出锅的酸菜鱼）”，后面还跟着一长串笑声，早期 FBC 成员。在军团写给新人的[《FBC 战记》](https://forums.winterco.org/t/topic/288)里，他被单列进了“背叛”一节：别人留下建家、造船、远征的故事，他留下了一笔军团说至今咽不下去的借船账。
 

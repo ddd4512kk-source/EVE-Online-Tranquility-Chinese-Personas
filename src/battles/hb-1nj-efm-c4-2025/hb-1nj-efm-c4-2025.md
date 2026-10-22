@@ -1,22 +1,3 @@
----
-title: HB-1NJ与EFM-C4，蜜蜂立堡，PH退场
-aliases: [HB-1NJ铁壁上线战, EFM-C4星门战, 因斯姆尔双线攻防, HB-1NJ GSF vs PH, EFM-C4 GSF vs PH]
-epithet: 一处新堡站稳，一处退路难走。
-start: 2025-06-04
-end: 2025-06-05
-systems: [HB-1NJ, EFM-C4]
-tags: [00区, 常规舰战, CONDI, REKTD]
-sides:
-  - name: 帝国及友军
-    alliances: [1354830081]
-  - name: PH及友军
-    alliances: [99005338]
-loss_source:
-  - https://br.evetools.org/br/6840bb5cdf156900126a0df4
-  - https://br.evetools.org/related/30000783/202506050100
-  - https://br.evetools.org/br/6841041f82347e001243f6bd
-  - https://br.evetools.org/br/6840bfe5df156900126a0e2d
----
 
 2025年6月4日晚到5日凌晨，HB-1NJ与EFM-C4把帝国同PH的这一轮攻防拉成了两条线：一处是蜜蜂铁壁的上线计时，一处是星门两面的截援与反截援。铁壁要站稳，航道要握住，双方总共烧掉约469.57B；PH在两处撤出，帝国既留下了新堡，也把门口的交火接了下来。
 

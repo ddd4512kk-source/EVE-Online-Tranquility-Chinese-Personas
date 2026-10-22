@@ -1,18 +1,3 @@
----
-title: 索萨拉，凌晨刚结账，晚上又开席
-aliases: [Sosala Waifu War, Sosala七月无畏战]
-epithet: 低安的休息日，只够换一张账单。
-start: 2025-07-13
-systems: [Sosala]
-tags: [低安, 无畏战, B B C, INIT., BIGAB]
-sides:
-  - name: FL33T、Snuff 与 INIT
-    alliances: [99011978, 99004901, 1900696668]
-  - name: 深水及友军
-    alliances: [99009927]
-  - name: 第三方
-loss_source: https://br.evetools.org/br/68741fc787003700128d6feb
----
 2025 年 7 月 13 日凌晨，[阿尔扎德 的老婆战争](../arzad-2025/)刚烧掉接近一万亿，到了晚间，索萨拉 的铁壁计时又把低安诸侯叫上了桌。同一天的两场仗，各有各的战场与账单；这一场三小时内，损失又添了四千五百多亿 ISK。看样子，这些人的周末安排里，休息最多只够留给换船。
 
 按 Megaman39 的[《Waifu War》复盘](https://www.reddit.com/r/Eve/comments/1lz5vwi/)，FL33T 为铁壁船体计时喊来 Snuff 与 INIT，深水带巴盖斯，其他低安团体也把地狱天使开了出来。凌晨的临时座次，到了晚上已经不够用；谁和谁坐一桌，还得看眼前是哪一座堡。

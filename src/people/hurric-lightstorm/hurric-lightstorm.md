@@ -1,10 +1,3 @@
----
-character_id: 2113208221
-cn_name: Hurric
-aliases: [Hurric Lightstorm]
-epithet: 五个月科研赚了一千亿，然后因为太无聊 AFK 了。
-tags: [00区, 工业]
----
 
 Hurric Lightstorm，自称 Hurric，2017 年 9 月建号，先在伏羲、紫竹梅，2019 年起挂在自己的 Hurric Science and Tech corp，不进联盟。角色简介是：
 

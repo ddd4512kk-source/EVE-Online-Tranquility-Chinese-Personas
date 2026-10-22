@@ -1,10 +1,3 @@
----
-character_id: 2114980045
-cn_name: 神话
-aliases: [Vagabond z, Vagabond TT, 隐星神话]
-epithet: 泰坦可以抵押，还钱还得排队。
-tags: ["00区", "D.C", "TU ZI"]
----
 
 神话，收录角色 Vagabond z，角色头衔也堂堂正正写着“神话”。2019 年从强尼的 Power Of Hurricane 转到隐星，后来又进了兔子飞。不是[艾瑞](../2114223298/)，却和艾瑞共同出演过隐星的一出著名讨债戏。
 

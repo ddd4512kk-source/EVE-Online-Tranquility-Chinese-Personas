@@ -1,10 +1,3 @@
----
-character_id: 92130708
-cn_name: 柑橘战士
-aliases: [柑橘]
-epithet: 带着渎圣回来打老东家，打输了找老东家吐槽建制。
-tags: [00区, 著名FC]
----
 
 柑橘战士，游戏名 Xander Ricks，前 FRT 指挥。
 

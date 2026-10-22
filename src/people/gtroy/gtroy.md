@@ -1,10 +1,3 @@
----
-character_id: 2120504987
-cn_name: 特洛伊
-aliases: [Gtroy, Mor Morgana]
-epithet: 狐窝管IT，狐姬也认他当爹
-tags: [00区, NC, FOXOR]
----
 
 特洛伊，抵抗之狐的 Gtroy，也用 Mor Morgana。2022 年 10 月建号，先在东风底下混了三个月，又去蜜蜂的 PLA 待了大半年；2023 年 12 月在两个短命军团里各停了几天，最后落进 FOX，此后没再走。[军团官网](https://foxor.cc/team/)给他列 IT 运维，又附了个更容易被人记住的称呼：“军团吉祥物狐姬之父”。
 

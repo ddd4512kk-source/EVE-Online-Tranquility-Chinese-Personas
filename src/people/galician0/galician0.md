@@ -1,11 +1,3 @@
----
-character_id: 2117641420
-cn_name: 加利西亚
-aliases: [Galician0, 狼心守望者, LentoZero]
-epithet: 名片写绝对胜利，战场先熬四小时。
-tags: [00区, FRT, N-V-U, FC]
-alts: [2121410226]
----
 
 加利西亚，游戏角色 Galician0，FRT 的 FC，头衔还挂着“狼心守望者”，早年在创世，如今在 FRT 的 Navigators' Union。他的名片把话说得很满：“绝对的纪律带来绝对的火力，绝对的火力带来绝对的胜利。”真到了战场，胜利却得一点点熬，四小时之后，领导才在战后消息里点到这位 FC 的名字。
 

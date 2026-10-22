@@ -1,10 +1,3 @@
----
-character_id: 2113198680
-cn_name: 空离
-aliases: [Dust Stormhold, EVE欧服速报]
-epithet: 当年怕挨喷不写战报，如今坐上挨喷的位置
-tags: ["CEO", "B站", "37.2", "EVIL."]
----
 
 空离，游戏角色Azika Gaptain，名片头衔“CEO 空离”，2026年8月起挂名Profane Proverb（37.2）的CEO。这家军团早年在Pandemic Horde底下，2025年11月退出PH、转投Insidious.；空离的大号和小号都是2024年4月从墨者军团一起搬进来的，在团里待了两年多，才接过登记CEO的位子。
 
@@ -29,11 +22,7 @@ DOTLAN的军团事件记录显示，2026年8月17日，原CEO XXXHolic-TK X辞�
 :::
 
 ::: 红料 B站作品精选
-
-- [《【EVE翻译】欧服7月更新要点》](https://www.bilibili.com/video/BV12C4y1h7qD/)：频道评论最多的一期，作者做了PPT和PDF下载，又在置顶里把ESS赏金池的机制完整勘误一遍；能看到一个业余翻译怎么认真对待自己的错。
-- [《【EVE翻译】2018EVEVegas发布会10分钟总结版（内含重要国服消息）》](https://www.bilibili.com/video/BV1st411o7tJ/)：发布会结束六小时内出稿，置顶补了联盟建筑部分翻译，赶上国服换代理的当口，评论区几乎是一次国服玩家的集体情绪记录。
 - [《【EVE】致敬亡者-新纪念碑已经上线》](https://www.bilibili.com/video/BV1bA411v72S/)：频道播放最高的一期，翻译官方关于Molea玩家纪念碑的文章；评论区有人解释纪念碑由玩家自发发起，也有人说起军团机库里收藏的几千具“尸体”，是频道里最有人情味的一条。
-- [《【欧服EVE】18冬季更新预览翻译》](https://www.bilibili.com/video/BV1Pt411f7kz/)：频道起步之作，作者带病录制，并在评论里对照官方论坛讨论帖，解释后勤航改动从夏季推迟到冬季的来龙去脉。
 - [《【EVE】欧服7月下旬更新速报》](https://www.bilibili.com/video/BV14A411Y7wG/)：简介把纪念碑与指挥舰改动的翻译串成索引；评论区里“战报是不可能战报的”和“唯一一笔捐赠”两段回复，把这个频道的分寸与辛酸都交代了。
 :::
 

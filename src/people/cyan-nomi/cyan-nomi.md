@@ -1,8 +1,3 @@
----
-character_id: 2122229391
-epithet: 小团的牌子，先挂进深水里。
-tags: [低安, CEO, F.GUY, BIGAB]
----
 
 Cyan nomi，Family Guy.的创建者兼现任CEO，带的是Deepwater Hooligans旗下华人低安团。2025年3月14日，他把军团建起来；两天后，Family Guy便加入Deepwater。自己的门牌刚挂上，联盟的门牌也跟着挂好了，这个“小规模团”的开局，倒很知道先往哪片水里落脚。
 

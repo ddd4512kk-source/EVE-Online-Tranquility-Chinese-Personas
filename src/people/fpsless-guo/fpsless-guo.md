@@ -1,10 +1,3 @@
----
-character_id: 2114750098
-cn_name: 小小苏
-aliases: [fpsless Guo]
-epithet: CFO举牌二十六，别人再加半个B。
-tags: [FOXOR, NC, 军团管理]
----
 
 小小苏，游戏角色 fpsless Guo，公开头衔把“小小苏”和“CFO”并排，自报财务负责人。角色如今在 Fox of Resistance，名片下面却接着“维德马克糕手”，再挂一排战果。前面像是财务办公室的门牌，后面又像出门找架的招牌：管钱的架势先摆好，糕手的自信也不能落下。
 

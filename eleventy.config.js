@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { glossaryEntries, glossaryLinks } from "./scripts/glossary.mjs";
 import { TIERS, formatIsk, sideStats } from "./scripts/battles.mjs";
+import { identityNames } from "./scripts/person-identity.mjs";
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = (n) => String(n).padStart(2, "0");
@@ -150,7 +151,7 @@ export default function (eleventyConfig) {
   );
   // 供首页即时筛选用的检索串
   eleventyConfig.addFilter("searchKey", (d) =>
-    [d.cn_name, d.char?.name, ...(d.aliases ?? []), ...(d.labels ?? []), d.epithet]
+    [d.cn_name, d.char?.name, ...(d.aliases ?? []), ...identityNames(d.identity), ...(d.labels ?? []), d.epithet]
       .filter(Boolean)
       .join(" ")
       .toLowerCase(),

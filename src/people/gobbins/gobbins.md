@@ -1,12 +1,5 @@
----
-character_id: 342545170
-cn_name: 哥布林
-aliases: [Gobbins, 哥尔巴乔夫, 戈尔巴乔夫, 武幽王, 歌便屎]
-epithet: 四万八千人的联盟，败给他自己的一纸撤退公告。
-tags: ["00区", "REKTD", "非华人", "HLDFC", "联盟高层", "RMT"]
----
 
-哥布林（Gobbins），2025 年 11 月以后华人圈改叫他戈尔巴乔夫。2006 年建号，在 Pandemic Legion 混过好几年，2015 年 4 月转进新成立的 Pandemic Horde（PH），从此当了十年盟主。角色头衔至今写着 Pandemic Horde Alliance Leader，简介让人有事别发邮件，找 Discord：gobbins1。简介最后一行注明，本号是一个叫 Admiral “muh medals” Goberius 的小号。
+哥布林（Gobbins），2025 年 11 月以后华人圈改叫他戈尔巴乔夫。2006 年建号，在 Pandemic Legion 混过好几年，2015 年 4 月转进新成立的 Pandemic Horde（PH），从此当了十年盟主。角色头衔至今写着 Pandemic Horde Alliance Leader，简介让人有事别发邮件，找 Discord：gobbins1。简介末尾还拿 Admiral “muh medals” Goberius 开了个玩笑，听起来像小号声明，实际是这位盟主的自嘲。
 
 PH 起家时是 PL 的附庸，据吧里 2018 年的[科普帖](https://tieba.baidu.com/p/5933546387)，本意是给 PL 的超旗队补足“F1 狗”，“你是马甲我也收”。哥布林把这个收容所越做越大，最盛时名册上有四万八千多人、四百多个主权星系，联盟群 PanFam 和蜜蜂、FRT 三分天下。华人这边叫 PH “章鱼”。
 
@@ -19,7 +12,7 @@ AOM 的遗民、3V 的旧部，后来不少落脚在 PH。这口大锅，确实�
 :::
 
 ::: 红料 一度做到宇宙第二
-据 [HY](../985265753/) 写的 PH 崩盘回顾（[贴吧转载](https://tieba.baidu.com/p/10476537533)），2023 年 11 月北方战争结束后，PH 乘胜进入天使区，“联盟月活和收益排到第一”。2025 年 4 月 5 日，PH 在 BWF-ZZ 敲掉 Darkside 的挑衅星城，一次集结了三千多人，打成一边倒的屠杀。
+据 [HY](../985265753/) 写的 PH 崩盘回顾（[贴吧转载](https://tieba.baidu.com/p/10476537533)），2023 年 11 月北方战争结束后，PH 乘胜进入天使区，“联盟月活和收益排到第一”。2025 年 4 月 5 日，PH 在 [BWF-ZZ](../../battles/bwf-zz-2025/) 敲掉 Darkside 的挑衅星城，一次集结了三千多人，打成一边倒的屠杀。
 
 那一年开春，章鱼还是宇宙里唯一被认为能和蜜蜂掰手腕的势力。七个月后，它没了。
 :::

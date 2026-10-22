@@ -1,10 +1,3 @@
----
-character_id: 2118768255
-cn_name: 索達
-aliases: [SolidSparrow, 黑索達]
-epithet: 一边教人偷 ESS，一边在简介里“救死扶伤”。
-tags: [00区]
----
 
 索達，游戏名 SolidSparrow，2021 年 6 月建号，写繁体字。刚进游戏那个月，他待过的军团一家叫 Taiwan Superior Manufacturing Company Limited，一家叫 Combined Logistics 205 Factory；7 月进了 FRT 的福爾摩沙研究中心（Formosa Research Center），2023 年转进旋風魚雷小組（Cyclonic Torpedo Team，CTT.）。
 

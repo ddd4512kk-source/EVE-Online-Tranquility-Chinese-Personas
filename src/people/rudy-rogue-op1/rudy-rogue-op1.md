@@ -1,10 +1,3 @@
----
-character_id: 2121535842
-cn_name: Rudy
-aliases: [蛇头, 蓝蛇首领, Rogue Operative 1]
-epithet: 说“花车游行一圈，对面自会不战而降”，两周后联盟只剩三分之一。
-tags: ["00区", "EVIL.", ".AWAY", "联盟高层", "CEO"]
----
 
 Rudy，游戏名还是新手默认的 Rogue Operative 1，一个字没改。就是这个顶着出厂名字的人，坐在西血脉（Blood Line）一个八千人上下的联盟的头把交椅上，圈里叫他“蛇头”，联盟叫蓝蛇，注册名 Insidious.。蓝蛇靠 PH 崩盘后涌来的军团和宝蓝原住民一路吃进人口，纸面上“比肩 DC”，又被 WC 联盟群罩着，日子安逸。
 

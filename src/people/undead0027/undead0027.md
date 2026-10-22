@@ -1,10 +1,3 @@
----
-character_id: 2113823279
-cn_name: 梦雨
-aliases: [Undead0027]
-epithet: 带浮岳重工走过三个联盟，最后把军团交给了金主。
-tags: ["00区", "D.C", "SCH.L", "CEO"]
----
 
 梦雨，游戏名 Undead0027，头衔就写“梦雨”。2018 年 3 月进了刚成立的浮岳重工（Fuyue Industry Inc.）——一家从国服整体搬来的工业团，国服时叫天启重工——此后五年一直是它的 CEO 兼招新官：Brave 时期驻绝径，2019 年进 AOM，2022 年 AOM 解体后带团进 DC。2023 年 4 月 30 日浮岳离开 DC，他自己转进了 DC 的 Schale.，留在联盟里。
 

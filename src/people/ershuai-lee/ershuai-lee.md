@@ -1,10 +1,3 @@
----
-character_id: 2114566141
-cn_name: 二甩
-aliases: [ErShuai Lee, 李大二甩]
-epithet: 新人被踢，CEO说自己没义务解释。
-tags: ["00区", "F.A.X", "SNECC", "CEO"]
----
 
 二甩，ErShuai Lee，2019 年以 FRT 的 Doomsday Ark 军团 CEO 身份在贴吧署名。让他出现在这段野史里的，是一个刚来欧服没几天、还分不清联盟与军团的新人团长别开枪（WarHawk-WH）。新人想找舰队帮忙，最后却成了需要清出去的潜在间谍。
 
