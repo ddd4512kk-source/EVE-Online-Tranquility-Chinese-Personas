@@ -1,7 +1,7 @@
 
 2025年1月25日，埃塔拉尔的两边舰队把无畏摆到了同一张桌上。Shadow Cartel、Triumvirate.、深水和SONS of BANE等站在一边，Snuff、Parallaxis、Slyce等站在另一边；海军无畏、泽尼塔和旗舰后勤一起进场，最后烧掉近万亿ISK。旗号多，炮口仍有两边，最贵的那段交换却只挤在不到半小时里。船库攒得慢，战场替人清库存的速度，一向很有礼貌地不等主人反悔。
 
-第二天，Lowkey Ops的[招新帖](https://forums.eveonline.com/t/lowkey-ops-ustz-autz-lowsec-pvp/466351)把同场战报挂了出来，顶帖时添了一句“Bump with more flavor”。几百人参与、几千亿损失的大场，在招新窗口里被轻轻收成一句“加点口味”。别家的残骸刚冷，这家的招牌已经热好了；战场上刚付掉的钱，换个窗口，便能当成这里不缺架打的证明。
+第二天，Lowkey Ops的[招新帖](https://forums.eveonline.com/t/lowkey-ops-ustz-autz-lowsec-pvp/466351)把同场战报挂了出来，顶帖时添了一句“加点口味，顶上来”。几百人参与、几千亿损失的大场，在招新窗口里被轻轻收成一句“加点口味”。别家的残骸刚冷，这家的招牌已经热好了；战场上刚付掉的钱，换个窗口，便能当成这里不缺架打的证明。
 
 ## Shadow Cartel、Tri及友军
 

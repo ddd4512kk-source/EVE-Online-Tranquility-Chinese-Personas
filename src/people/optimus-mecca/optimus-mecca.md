@@ -27,7 +27,11 @@
 :::
 
 ::: 红料 B站作品精选
-- [《FRT怒炸INIT dark shines满编狂热，W佬和司令反时区队巨作，北军提供支持，语音原生放送！》](https://www.bilibili.com/video/BV1TqjUzgEhb/)：频道最多播放榜第二，约 9035 播放。标题点出FRT反时区队与INIT的交战，是娃娃频道里人气最高、正文尚未展开的一篇。
+- [《FRT怒炸INIT dark shines满编狂热，W佬和司令反时区队巨作，北军提供支持，语音原生放送！》](https://www.bilibili.com/video/BV1TqjUzgEhb/)：反时区队对阵INIT狂热，W佬、司令与北军都被写进同一场交锋，适合顺着频道里的熟人和队伍看这场战斗记录。
+- [《FRT EN正名之战：Snuff兰多恩铁壁结构》](https://www.bilibili.com/video/BV18WN6zoEQm/)：题目将FRT EN与Snuff的结构战放在同一场景，适合和频道里FRT战役记录对照着看。
+- [《FRT泰坦出击！MC60 dd init无畏群 1N-复刻？》](https://www.bilibili.com/video/BV1SLPTzcEdk/)：标题从泰坦出击写到无畏群，并抛出“复刻”的疑问，呈现频道另一类旗舰战题材。
+- [《FRT国庆巨作，5杀PH大航，轻拦/黑隐/无畏第一视角》](https://www.bilibili.com/video/BV1nRHKzxEBu/)：标题以国庆战役和五艘大航击杀为核心，还点出轻拦、黑隐与无畏视角，是娃娃频道高播放的战斗记录。
+- [《WC vs IMP艾蒂斯铁壁锚定，北军噩梦第一视角》](https://www.bilibili.com/video/BV11dFJz2EKV/)：这条把铁壁锚定与北军噩梦视角并列，留作一场结构战的第一视角入口。
 :::
 
 ::: 红料 三开是梦想，十开成了评论区的大脑疑问
@@ -43,7 +47,7 @@
 :::
 
 ::: 红料 告别怯薛，游戏还得继续
-2025年8月，曾在怯薛待过的娃娃发了[《再见了怯薛 希望你喜欢这六年来属于你的戏份》](https://www.bilibili.com/video/BV15otzzREWP/)。简介列出 Silver Magician 发往 FRT 的邮件抬头，只留下“kheshfleet is over.”和“END”。平日满嘴火力与战损的投稿，这回把收尾写得很短。
+2025年8月，曾在怯薛待过的娃娃发了[《再见了怯薛 希望你喜欢这六年来属于你的戏份》](https://www.bilibili.com/video/BV15otzzREWP/)。简介列出 Silver Magician 发往 FRT 的邮件抬头，只留下“怯薛舰队到此结束。”和“END”。平日满嘴火力与战损的投稿，这回把收尾写得很短。
 
 评论区却收不了尾：有人问发生什么，有人问还重不重建，有人来收留伤心成员，也有人争论共享账号与机库清空。另一位观众问“FRT联盟现在如何？”，娃娃回“好玩捏”。他把告别留给了军团，把继续找乐子留给了自己；片尾可以打END，下一次上线还得找队。
 :::

@@ -33,8 +33,31 @@
   "fetched_at": "2026-10-10",
   "identity": {
     "version": 1,
-    "alts": [],
-    "accounts": {}
+    "alts": [
+      {
+        "id": 2123957920,
+        "name": "WLlng 51",
+        "sources": [
+          "https://evewho.com/character/2123957920"
+        ],
+        "zkb": {
+          "kills": 1,
+          "lost": 2,
+          "isk_destroyed": 10686951,
+          "last_active": "2026-02",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2025-12-03 建号，头衔“#6233,清水”；与 WLlng 共有军团：Chaos arbiter"
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 5571,
+      "lost": 259,
+      "isk_destroyed": 4296953554237,
+      "last_active": "2026-10",
+      "as_of": "2026-10-23"
+    }
   },
   "person": {
     "cn_name": "清水",

@@ -16,13 +16,13 @@ Bink Wang，贴吧 binkcn，号是 2018 年建的，2024 年 3 月才真正下�
 
 他自己正低头翻战斗日志，没听见 FC 在语音里一直问谁开的伐木者。舰队频道里：
 
-> Octive Cull > Slasher say your name bro
+> Octive Cull > 伐木者 报一下名字啊兄弟
 > Sarah Andersho > Bink Wang
-> Avalon Sarain > Bink Wang such a chad
+> Avalon Sarain > Bink Wang 真是条汉子
 > Bink Wang > ?
-> Bink Wang > any thing?
-> Bink Wang > ohhhhh
-> Bink Wang > thanks!
+> Bink Wang > 有事吗？
+> Bink Wang > 哦哦哦哦哦
+> Bink Wang > 谢了！
 
 随后收到好几笔几亿的转账。
 :::

@@ -2,7 +2,7 @@
 Zark Chastot，2018 年 6 月建号，头衔“后勤总管 军团担保运输”，角色简介只有一行：
 
 > 船 齐 霸 业
-> New Eden Fleet Collection
+> 新伊甸舰队收藏（New Eden Fleet Collection）
 
 他是菜鸟事务所（Noobs Collecttion，NBCLT）的老人，军团简介里外交官、招新官那一栏写的是他的名字，凛冬论坛上的招新帖也是他发的。2019 年 5 月进团至今没挪过，菜鸟事务所跟着采星者并进 FRT，他也跟着进了 FRT。本人在 -6 时区——北美的深夜，正是国内的白天。
 

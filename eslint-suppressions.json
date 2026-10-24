@@ -1,0 +1,442 @@
+{
+  "eleventy.config.js": {
+    "@stylistic/arrow-parens": {
+      "count": 20
+    },
+    "@stylistic/quotes": {
+      "count": 64
+    }
+  },
+  "scripts/audit-battle-participation.mjs": {
+    "@stylistic/quotes": {
+      "count": 13
+    }
+  },
+  "scripts/battle-archive.mjs": {
+    "@stylistic/quotes": {
+      "count": 17
+    }
+  },
+  "scripts/battle-archive.test.mjs": {
+    "@stylistic/quotes": {
+      "count": 28
+    }
+  },
+  "scripts/battle-emblem.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 2
+    }
+  },
+  "scripts/battle-emblem.test.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 20
+    }
+  },
+  "scripts/battle-report.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 15
+    },
+    "@stylistic/quotes": {
+      "count": 22
+    }
+  },
+  "scripts/battle-report.test.mjs": {
+    "@stylistic/quotes": {
+      "count": 78
+    }
+  },
+  "scripts/battles.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 43
+    },
+    "@stylistic/quotes": {
+      "count": 139
+    }
+  },
+  "scripts/battles.test.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 7
+    },
+    "@stylistic/quotes": {
+      "count": 282
+    }
+  },
+  "scripts/blocks.mjs": {
+    "@stylistic/quotes": {
+      "count": 6
+    }
+  },
+  "scripts/character-snapshot.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 4
+    },
+    "@stylistic/quotes": {
+      "count": 14
+    }
+  },
+  "scripts/character-snapshot.test.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 1
+    },
+    "@stylistic/quotes": {
+      "count": 45
+    }
+  },
+  "scripts/check-battles.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 22
+    }
+  },
+  "scripts/corporation-tags.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 2
+    },
+    "@stylistic/quotes": {
+      "count": 37
+    }
+  },
+  "scripts/corporation-tags.test.mjs": {
+    "@stylistic/quotes": {
+      "count": 45
+    }
+  },
+  "scripts/fetch-battle-emblems.mjs": {
+    "@stylistic/quotes": {
+      "count": 20
+    }
+  },
+  "scripts/fetch-characters.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 21
+    },
+    "@stylistic/indent": {
+      "count": 9
+    },
+    "@stylistic/quotes": {
+      "count": 39
+    }
+  },
+  "scripts/find-character.mjs": {
+    "@stylistic/quotes": {
+      "count": 20
+    }
+  },
+  "scripts/glossary.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 1
+    },
+    "@stylistic/quotes": {
+      "count": 72
+    }
+  },
+  "scripts/make-fonts.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 8
+    },
+    "@stylistic/quotes": {
+      "count": 26
+    }
+  },
+  "scripts/person-document.mjs": {
+    "@stylistic/quotes": {
+      "count": 23
+    }
+  },
+  "scripts/person-document.test.mjs": {
+    "@stylistic/quotes": {
+      "count": 33
+    }
+  },
+  "scripts/person-identity.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 15
+    },
+    "@stylistic/quotes": {
+      "count": 65
+    }
+  },
+  "scripts/person-identity.test.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 9
+    },
+    "@stylistic/quotes": {
+      "count": 82
+    }
+  },
+  "scripts/research/baidu-search.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 6
+    },
+    "@stylistic/quotes": {
+      "count": 27
+    }
+  },
+  "scripts/research/batch-search.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 9
+    },
+    "@stylistic/quotes": {
+      "count": 26
+    }
+  },
+  "scripts/research/bilibili-chrome-read.mjs": {
+    "@stylistic/indent": {
+      "count": 115
+    }
+  },
+  "scripts/research/bilibili.mjs": {
+    "@stylistic/quotes": {
+      "count": 2
+    }
+  },
+  "scripts/research/chrome-cdp.mjs": {
+    "@stylistic/quotes": {
+      "count": 2
+    }
+  },
+  "scripts/research/profile.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 24
+    },
+    "@stylistic/quotes": {
+      "count": 72
+    }
+  },
+  "scripts/research/reddit-search.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 4
+    },
+    "@stylistic/quotes": {
+      "count": 21
+    }
+  },
+  "scripts/research/reddit-thread.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 4
+    },
+    "@stylistic/quotes": {
+      "count": 7
+    }
+  },
+  "scripts/research/request-guard.mjs": {
+    "@stylistic/quotes": {
+      "count": 3
+    }
+  },
+  "scripts/research/tests/tieba-client-dump.test.mjs": {
+    "@stylistic/quotes": {
+      "count": 1
+    }
+  },
+  "scripts/research/tests/tieba-client-read.test.mjs": {
+    "@stylistic/indent": {
+      "count": 73
+    },
+    "@stylistic/quotes": {
+      "count": 1
+    }
+  },
+  "scripts/research/tests/tieba-client-user.test.mjs": {
+    "@stylistic/indent": {
+      "count": 15
+    },
+    "@stylistic/quotes": {
+      "count": 1
+    }
+  },
+  "scripts/research/tests/tieba-review-batch.test.mjs": {
+    "@stylistic/indent": {
+      "count": 29
+    },
+    "@stylistic/quotes": {
+      "count": 1
+    }
+  },
+  "scripts/research/tieba-client-api.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 22
+    }
+  },
+  "scripts/research/tieba-client-dump.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 8
+    },
+    "@stylistic/indent": {
+      "count": 13
+    },
+    "@stylistic/quotes": {
+      "count": 20
+    }
+  },
+  "scripts/research/tieba-client-forum.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 5
+    },
+    "@stylistic/quotes": {
+      "count": 29
+    }
+  },
+  "scripts/research/tieba-client-read.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 10
+    },
+    "@stylistic/quotes": {
+      "count": 35
+    }
+  },
+  "scripts/research/tieba-client-search.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 21
+    }
+  },
+  "scripts/research/tieba-client-user.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 13
+    },
+    "@stylistic/quotes": {
+      "count": 32
+    }
+  },
+  "scripts/research/tieba-read.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 7
+    },
+    "@stylistic/quotes": {
+      "count": 25
+    }
+  },
+  "scripts/research/tieba-review-batch.mjs": {
+    "@stylistic/indent": {
+      "count": 31
+    }
+  },
+  "scripts/research/tieba-review-inventory.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 1
+    }
+  },
+  "scripts/research/tieba-review-status.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 2
+    }
+  },
+  "scripts/research/zhihu.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 13
+    },
+    "@stylistic/quotes": {
+      "count": 91
+    }
+  },
+  "scripts/research/zkb-stats.mjs": {
+    "@stylistic/arrow-parens": {
+      "count": 6
+    },
+    "@stylistic/quotes": {
+      "count": 14
+    }
+  },
+  "src/_data/characters.js": {
+    "@stylistic/quotes": {
+      "count": 4
+    }
+  },
+  "src/_data/identities.js": {
+    "@stylistic/quotes": {
+      "count": 3
+    }
+  },
+  "src/_data/sections.js": {
+    "@stylistic/quotes": {
+      "count": 6
+    }
+  },
+  "src/_data/site.js": {
+    "@stylistic/quotes": {
+      "count": 7
+    }
+  },
+  "src/_data/systemNames.js": {
+    "@stylistic/quotes": {
+      "count": 25
+    }
+  },
+  "src/assets/js/battle-lists.js": {
+    "@stylistic/quotes": {
+      "count": 9
+    }
+  },
+  "src/assets/js/battles.js": {
+    "@stylistic/arrow-parens": {
+      "count": 4
+    },
+    "@stylistic/quotes": {
+      "count": 33
+    }
+  },
+  "src/assets/js/bio-alts.js": {
+    "@stylistic/quotes": {
+      "count": 10
+    }
+  },
+  "src/assets/js/directory-utils.js": {
+    "@stylistic/quotes": {
+      "count": 11
+    }
+  },
+  "src/assets/js/glossary.js": {
+    "@stylistic/arrow-parens": {
+      "count": 2
+    },
+    "@stylistic/quotes": {
+      "count": 8
+    }
+  },
+  "src/assets/js/roster.js": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 56
+    }
+  },
+  "src/battles/battles.11tydata.js": {
+    "@stylistic/arrow-parens": {
+      "count": 16
+    },
+    "@stylistic/quotes": {
+      "count": 10
+    }
+  },
+  "src/people/people.11tydata.js": {
+    "@stylistic/arrow-parens": {
+      "count": 10
+    },
+    "@stylistic/quotes": {
+      "count": 20
+    }
+  },
+  "src/sw.js": {
+    "@stylistic/arrow-parens": {
+      "count": 3
+    },
+    "@stylistic/quotes": {
+      "count": 5
+    }
+  }
+}

@@ -1,5 +1,5 @@
 
-剑穿天下，游戏名 Contingency-JCTX，星尘守护者的 FC，也有同名 B 站账号。他的简介挂着海神、恶狼、列沙克等战果，开头放了一句“All progress depends on the unreasonable man”。个人名片摆着猎物，星尘的舰队则常由他带着出门。
+剑穿天下，游戏名 Contingency-JCTX，星尘守护者的 FC，也有同名 B 站账号。他的简介挂着海神、恶狼、列沙克等战果，开头放了一句“一切进步都靠不讲理的人”（All progress depends on the unreasonable man）。个人名片摆着猎物，星尘的舰队则常由他带着出门。
 
 ::: 红料 星尘在 4-H 的队伍
 2026 年 9 月 13 日，4-HWWF，剑穿天下带星尘守护者／FRT 舰队在自家门口拦下 Cristobal Juarez 的[月刃](https://zkillboard.com/kill/138425869/)。他是星尘守护者里最勤的带队人之一，这个月出门的次数多到队员几乎认得他开场白的语气；视频里那些洞内团灭、守 ESS、拆铁壁的场面，平日就是这么一晚一晚攒出来的。

@@ -4,8 +4,7 @@
 2016 年 1 月他回来，进的是[令狐聪](../624049117/)的剑圣（Jian Sheng）。剑圣的军团简介是这样写的：
 
 > Rubbish Game Wasting My Youth 垃圾游戏毁我青春
-> We have no rules, no tax, no diplo, please kill blue first.
-> 我们没有规则，没有剥削，没有外交，请优先击杀蓝家谢谢。
+> 我们没有规则，没有剥削，没有外交，请优先击杀蓝家谢谢。（We have no rules, no tax, no diplo, please kill blue first.）
 
 此后他在剑圣进进出出待到 2019 年，又去开了一家“养猪场”，2021 年回到 FRT 的凤凰城（凤凰 City），2024 年起落脚混沌仲裁（CACX）——如今 FRT 人数第一的军团，他在那里是 FC。
 

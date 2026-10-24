@@ -4,11 +4,11 @@
 头衔还有“TMD缴税先锋，22-Hour Warrior”。2024 年黑色星期五，他两号的阿扎里尔、归魂者同场被打掉，合计一万亿出头，倒把“缴税先锋”四字兑成了一张真账单。管理员能不能给，群里可以争；贵船炸没了，KB 不吃权限这一套。
 
 ::: 红料 秋名山的招牌与副业
-冷剑 2021 年离开 FRT，10 月 26 日成立自己的联盟，执政军团是 AKINA mountain family（秋名山家族，AE868）。简介挂着“4-HWWF - Mio How can I live without you”和“4-HWWF - AKINA Martyrs Monument”两座建筑，一座想 Mio，一座立秋名山烈士纪念碑；诗、招牌、纪念馆，全收进了个人简介。
+冷剑 2021 年离开 FRT，10 月 26 日成立自己的联盟，执政军团是 AKINA mountain family（秋名山家族，AE868）。简介挂着“4-HWWF - Mio 没有你我怎么活”（4-HWWF - Mio How can I live without you）和“4-HWWF - AKINA 烈士纪念碑”（4-HWWF - AKINA Martyrs Monument）两座建筑，一座想 Mio，一座立秋名山烈士纪念碑；诗、招牌、纪念馆，全收进了个人简介。
 
 他的[B站视频](https://www.bilibili.com/video/BV1iy4y167Yh)宣传“AKINA & Supers 超旗暴力化矿小队”，自称接受雇佣，“解决您的一切烦恼，和制造烦恼的人”。评论里有人问“这不是个蹲子团吗？”联盟名叫普通蹲点爱好者，生意做起来，蹲点也能配上超旗与价目表。
 
-2020 年 2 月，凛冬论坛刚开放成人板块，他又提出[增设 GALGAME 板块](https://forums.winterco.org/t/topic/2602)，接连推荐《牵绊闪耀的恋之伊吕波》《椿恋歌》。简介末尾则写“「Xenoblade」 My favorite game.”。秋名山能接雇佣，论坛能荐游戏，一剑百万师的剑，平时也拿来给异度神剑站台。
+2020 年 2 月，凛冬论坛刚开放成人板块，他又提出[增设 GALGAME 板块](https://forums.winterco.org/t/topic/2602)，接连推荐《牵绊闪耀的恋之伊吕波》《椿恋歌》。简介末尾则写“「异度神剑」我最喜欢的游戏。”（「Xenoblade」 My favorite game.）。秋名山能接雇佣，论坛能荐游戏，一剑百万师的剑，平时也拿来给异度神剑站台。
 :::
 
 ::: 红料 FBC 的带队人
@@ -103,6 +103,10 @@ FBC 的[军团战记](https://forums.winterco.org/t/topic/288)介绍打架玩法
 
 ::: 红料 B站作品精选
 - [《如何使用大鲸鱼配合小航安全高效地进行一个旗舰异常的刷》](https://www.bilibili.com/video/BV1uL411L7q7/)：作者补充掉落、次数限制，并与观众讨论捡取和被抓风险，能见到这位蹲点FC经营生产教程的一面，是他当年给生产玩家开的求生课。
+- [【EVEonline】蜜蜂端午送大礼 赔完大航死黑隐](https://www.bilibili.com/video/BV1mT421Y7ZD/)：标题把大航与黑隐连续损失并列，记录了一场以损失为主角的端午战事。
+- [【EVEonline】突袭埃索特亚，三旗舰一超旗100B击杀](https://www.bilibili.com/video/BV1TH4y1W7RR/)：三旗舰、一超旗和100B击杀都写在标题里，是频道规模较大的突袭题材。
+- [【EVEonline】百人黑隐队突袭逑瑞斯](https://www.bilibili.com/video/BV1HC411h7dm/)：标题将百人规模与黑隐突袭并置，适合看其舰队作战投稿。
+- [【EVEonline】战列太硬，重突太小，战巡射起来刚刚好](https://www.bilibili.com/video/BV1yb4y1G79v/)：标题用三类舰船的体量对照概括选船趣味，给战役录像之外添一条舰船题材。
 :::
 
 ::: 评

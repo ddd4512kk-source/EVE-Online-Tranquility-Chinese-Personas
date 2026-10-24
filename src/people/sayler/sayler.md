@@ -3,16 +3,15 @@ Sayler，2017 年 10 月建号，安全等级 -8.9。现在是华语军团 **Inf
 
 > Chinese Corp 华语公司
 > Recruitment Closed/Vouch Only
-> Friends leave when tune ends. Mountains green where river flows.
 > 曲终人不见，江上数峰青。
 
 这家军团挂在低安海盗联盟 Snuffed Out 下面，本书里的[储葛亮](../96170679/)、[ACR](../2115611133/)都在这里待了好几年。
 
 他的角色简介是几个总览预设的名字，然后挂着战利品：
 
-> Avdot Dread Fleet
-> Sayler Never FEED
-> NoNo Never Feed
+> Avdot 无畏舰队（Avdot Dread Fleet）
+> Sayler 绝不送人头（Sayler Never FEED）
+> NoNo 绝不送人头（NoNo Never Feed）
 
 下面是两条俄洛巴斯、一条拉格纳洛克——三条泰坦的 KM。
 

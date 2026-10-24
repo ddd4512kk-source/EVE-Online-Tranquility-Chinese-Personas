@@ -15,6 +15,10 @@
 
 ::: 红料 B站作品精选
 - [海盗杆子赚钱教学](https://www.bilibili.com/video/BV15vovBvEfV/)：公开招新与评论回应相连，适合与五级任务的另一种生产路线对照。
+- [EVE欧服 一小时6亿刷无人机10-10自动巡航寡妇挖土豆零风险安全生产赚钱教程](https://www.bilibili.com/video/BV1f6HD6YEW9)：标题把自动巡航、10/10无人机区和寡妇刷怪连成一条生产路线，补上频道的PVE题材。
+- [EVE 新人PVP跟队基础操作+技能规划教学](https://www.bilibili.com/video/BV1YWMb6ZEjU/)：把新人的技能准备与跟队操作并列，补上从入门到进舰队的一环。
+- [EVE 贝斯08s旗舰战，双方损失超600+无畏舰，永燃VS猎星](https://www.bilibili.com/video/BV1WjE26XEBa/)：标题把战场、交战双方与无畏损失规模都摆出来，是频道里少见的大规模会战题材。
+- [EVE欧服 刷怪党的噩梦 救世级黑隐Vlog](https://www.bilibili.com/video/BV1PWEt6KEFG/)：标题把刷怪与黑隐行动并置，能换个角度看他的欧服战斗内容。
 :::
 
 ::: 评

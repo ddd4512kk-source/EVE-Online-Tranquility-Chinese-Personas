@@ -30,7 +30,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run doctor && npm test
+      - run: npm run doctor && npm run lint && npm test
       - id: pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5

@@ -70,11 +70,11 @@ zKillboard 生涯击杀 2248，损失只有 32 条，主力是马克瑞——跟
 ::: 黑料 简介：三个“MOST”
 H叔的角色简介是一份自我推销：
 
-> Welcome to my Video Site for MOST Exciting EVE Vedios
-> Welcome to my Blog for MOST Comprehensive EVE Guides
-> Welcome to my Mailing List for MORE Useful Information
+> 欢迎来到我的视频站，看最刺激的 EVE 视频（Welcome to my Video Site for MOST Exciting EVE Vedios）
+> 欢迎来到我的博客，读最全面的 EVE 攻略（Welcome to my Blog for MOST Comprehensive EVE Guides）
+> 欢迎订阅我的邮件列表，获取更多有用的信息（Welcome to my Mailing List for MORE Useful Information）
 
-最刺激的视频、最全面的攻略、更多有用的信息——写百科的人，把 Videos 拼成了 Vedios。
+写百科的人，把 Videos 拼成了 Vedios。
 :::
 
 身份对应可见社区百科的署名：[Cyncia Geass（H叔）](https://wiki.winterco.org/zh/evewiki/capsuleer蛋人)。

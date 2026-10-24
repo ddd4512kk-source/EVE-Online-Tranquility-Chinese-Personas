@@ -46,6 +46,7 @@ M-AP 的[角色资料](https://esi.evetech.net/latest/characters/2121980797/?dat
 
 ::: 红料 B站作品精选
 - [《【EVE欧服】【WF华人社区】日常活动故土突袭闪点舰队》](https://www.bilibili.com/video/BV1DXn66DEBF/)：频道里最新的一条，10 月 21 日发布，标题挂着华人社区的日常活动；故土突袭闪点，机械神甫又换了个队名出门。
+- [《小型矿队出站》](https://www.bilibili.com/video/BV1DbeqzoEyi/)：标题把镜头落在一支小型矿队的出站活动上，补出频道旗舰战、刷站攻略之外的日常队伍面貌。
 :::
 
 ::: 评

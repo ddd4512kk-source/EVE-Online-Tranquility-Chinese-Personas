@@ -63,9 +63,9 @@ somnabulist 说，自己当时确实把他当兄弟，“试问一个当了几�
 抒情散文后面，简介画风一转：
 
 > 七十年和平来之不易……犯我中华者，虽远必诛
-> Whoever commits me in china though far away
+> 谁在中国犯了我，虽然很远（Whoever commits me in china though far away）
 
-“犯我中华者，虽远必诛”的英译是“Whoever commits me in china though far away”——谁在中国犯了我，虽然很远。
+这是“犯我中华者，虽远必诛”的英译，回译过来，“必诛”不见了。
 
 再往下是一个小标题“**血脉拆迁办**”，挂着五张 KM：两座 Astrahus、两座 Fortizar、一座 Athanor，后面全都标着 **[ABANDONED]**——被原主遗弃的空建筑，打掉就能捡东西。拆迁办拆的，是没人住的房子。
 :::

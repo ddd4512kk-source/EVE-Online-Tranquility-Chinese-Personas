@@ -10,11 +10,11 @@ OnEplus Tsuruomo，东梧，伏羲管理、新人手册发起人。管理身份�
 ::: 红料 摸鱼的人，简介挂了八张 KM
 被同僚说“不知道他在做什么”的东梧，角色简介是这样的：
 
-> FAKE NEWS NIGHT:
-> UNLIMITED TACO WORK
+> 假新闻之夜：（FAKE NEWS NIGHT:）
+> 无限塔可工作（UNLIMITED TACO WORK）
 > （八张击杀记录：一条 Nyx、两条 Archon、两条 Thanatos、一条 Vargur……）
-> NOT A DANGEROUS DUDE
-> PEACE&LOVE MATE
+> 我不是危险分子（NOT A DANGEROUS DUDE）
+> 和平与爱，哥们（PEACE&LOVE MATE）
 
 八张旗舰击杀夹在“我不是危险分子”“和平与爱”中间。他的 [KB](https://zkillboard.com/character/2113461373/) 上两千五百多个击杀，大半是旗舰和大船的日子；2026 年 4 月，他那个月的击杀额冲到一万多亿。“在做什么”这个问题，战绩替他回答了：不是不在，是同僚没有去翻 KB。游戏头衔写的是“东悟”，不是东梧。
 

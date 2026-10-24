@@ -49,8 +49,8 @@ The Mittani，华人圈叫他米塔尼，吧里尊称米皇、米大帝，凛冬
 ::: 黑料 退位：总监群里的那几句话
 2022 年 7 月，Goons 里一位女玩家举报被骚扰，中层管理把报告递进了总监群。据[叼爷](../1387156123/)整理的[《在位蜜蜂CEO 12年，Mittani退位事件始末》](https://forums.winterco.org/t/topic/21496)，举报人反被踢出帝国、拉进黑名单，截图显示是米塔尼亲手所为。随后总监 FNLN 把总监群的聊天记录贴上了 SA 论坛，米塔尼原话是：
 
-> there are bad people out there who do bad things, but there are also amber heards in the world
-> this bitch can't find a block button and is sending us walls of goddamned text
+> 世上是有坏人干坏事，可世上也有一堆 Amber Heard 这种人
+> 这婊子找不到拉黑键，还一个劲给我们发一大堆他妈的小作文
 
 为受害者说话的总监和成员接连被踢出联盟服务，又有老成员在 Reddit 讲自己线下聚会被骚扰、投诉没人理；SA 论坛最后把米塔尼永久封号，Goonwaffe 的招新帖一度被改成“请大家上线，退出蜜蜂军团，然后下线”。7 月 16 日，米塔尼发帖退位，把联盟交给新的管理组，说对他的指控“都是没有依据的谎言”，自己要去 touch grass——摸摸草，下线过日子去了。
 
@@ -66,7 +66,7 @@ The Mittani，华人圈叫他米塔尼，吧里尊称米皇、米大帝，凛冬
 ::: 黑料 角色简介：替他写好的悼词
 如今打开 The Mittani 这个角色，ESI 上的简介是一大段骂他本人的话，开头就是：
 
-> So Mittens is definitely a sociopath.
+> 所以 Mittens 绝对是个反社会。
 
 下文说他看人时会在每张脸上停留固定的时长，“像机器一样”；说他最擅长的是操纵身边的人；说他经常一消失几个月，名义上是去谈广告；“他是我见过最糟的人，我后悔替他辩护过”。后半段把整个 Goons 也骂了一遍。
 

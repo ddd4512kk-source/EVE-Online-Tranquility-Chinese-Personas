@@ -35,6 +35,8 @@
 - [《【搬运】FAX撞飞驻留泰坦实操》](https://www.bilibili.com/video/BV1sw41177aj/)：收进频道的外来战例，评论围着利夫的速度、电容与贴壁安全吵成一堂机制课；原作链接留在简介，驾驶者另有其人。
 - [《【搬运】抽象配置钓鱼执法》](https://www.bilibili.com/video/BV1RC4y1r7cP/)：一条让观众忙着辨舰型、猜配置的转载，连W佬都留了句“学习了”。适合顺着简介的原作入口追钓鱼玩法。
 - [《【搬运】黑色星期五——势力超旗4连杀》](https://www.bilibili.com/video/BV1kbz6YXEgQ/)：他替频道存下的一场外来大戏，观众从救援聊到无畏，再把讨论落在电池上；简介保留事件入口，战果属于原作当事人。
+- [《EVE Online开发商1.2亿美元易主：更名Fenris Creations，联手Google谷歌搞AI？》](https://www.bilibili.com/video/BV1FZRtBSEod/)：从开发商易主消息切入，标题还把新名称与Google合作传闻放到一起，留下一条行业新闻入口。
+- [《黑隐调整/T2炮泽尼塔/航母加强，4分钟带你了解3.18更新》](https://www.bilibili.com/video/BV1rYwBzwEPA/)：把多个舰船与武器调整压进更新摘要，适合想快速浏览3.18改动题材的观众。
 :::
 
 ::: 评

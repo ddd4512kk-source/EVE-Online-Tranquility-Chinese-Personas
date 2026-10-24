@@ -14,11 +14,11 @@ zKillboard 上，他生涯击杀 **9854**，打掉约 6.6 万亿 ISK，单杀 93
 
 角色简介是一份仿制的“DED 数据库查询结果”：
 
-> Name: Cho Wong
-> DOB: Access Denied
-> Known Affiliations: Access Denied
-> Risk Rating: Very High
-> ...Access denied, please seek lvl 7 or above clearance for further information...
+> 姓名：Cho Wong
+> 出生日期：拒绝访问
+> 已知所属：拒绝访问
+> 危险等级：极高
+> ……拒绝访问，如需更多信息，请持 7 级及以上权限（...Access denied, please seek lvl 7 or above clearance for further information...）
 
 安全等级 -8.8，头衔只有一个字母：N。
 :::

@@ -253,7 +253,7 @@ export function toYmd(v) {
 export const FIELDS = {
   title: "必填，战役名",
   aliases: "可选，别名列表",
-  videos: "可选，最多 6 个相关 B站／YouTube 视频，每项 { title, url, author, description }",
+  videos: "可选，最多 8 个相关 B站／YouTube 视频，每项 { title, url, author, description }",
   epithet: "可选，一句话锐评",
   start: "必填，开打日期（UTC），YYYY-MM-DD",
   end: "可选，结束日期（UTC），跨日才写",
@@ -275,7 +275,7 @@ export const SIDE_FIELDS = {
   people: "手填战役可选，本方参战的已收录人物角色 ID（收录号）；快照战役按收录号与本人档案 identity.alts 自动认",
   pilots: "手填战役必填，该方参战角色数；缺数据显式写 null 并说明 stats_note",
   loss: "手填战役必填，该方损失，单位 B；缺数据显式写 null 并说明 stats_note",
-  loss_count: "手填战役必填，该方损失记录条数（含来源统计的胶囊、建筑）；缺数据写 null",
+  loss_count: "手填战役必填，该方损失记录条数（含来源统计的太空舱、建筑）；缺数据写 null",
   stats_note: "手填战役分方数字缺失时必填，说明来源缺口与续查入口，只留素材口径不展示",
   corps: "手填战役可选，华人军团列表，每项 { id, pilots }（军团 ID）；快照战役按名称表的 chinese 标记自动算",
 };
@@ -309,7 +309,7 @@ export function validateBattle(data, body, lineOffset, people) {
   if (data.tags != null && !isStrList(data.tags)) errs.push("tags 必须是字符串列表");
 
   if (data.videos != null) {
-    if (!Array.isArray(data.videos) || data.videos.length > 6) errs.push("videos 必须是最多 6 项的视频列表");
+    if (!Array.isArray(data.videos) || data.videos.length > 8) errs.push("videos 必须是最多 8 项的视频列表");
     else {
       const seen = new Set();
       for (const [i, video] of data.videos.entries()) {

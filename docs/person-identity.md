@@ -38,6 +38,8 @@
 
 - `person` 必须是对象，可填 `cn_name`、`aliases`、`epithet`、`tags`，不重复写角色 ID。更新时间从正文 Git 历史自动计算。新人物可先建立只有 `id`、`person`、`identity` 的档案，运行 `npm run fetch` 补快照。
 - `aliases` 是外号、简称和社区别称，小号是独立角色。不得把 `identity.alts` 里的正式号名再抄到 `aliases`；页面把“又名”和“小号”分开显示，小号名链接到对应角色的 EveWho 资料。
+- 小号的 `basis` 是一句话判断依据（建号日、头衔、与收录号共有的军团等），查询直接读它；素材里不再重复同一内容，只留需要上下文的判断。
+- `identity.zkb`（收录号）与每个小号的 `zkb` 存 zKillboard 战绩：`kills`、`lost`、`isk_destroyed`（ISK）、`last_active`（YYYY-MM）、`as_of`（取数日）。新增或核对小号、判断谁做收录号时先读这里，不再逐号重扫 zKillboard；缺失或过旧时用 `node scripts/research/zkb-stats.mjs <短名…>`（`--all` 补全部缺失，`--refresh` 重取）。
 - `version` 固定为 `1`；`alts`、`accounts` 可留空。不在 Markdown front matter 重复维护 `alts`。
 - `alts` 每项必须有数字 `id`、实际角色名 `name` 与非空 `sources`；三者缺一均不能通过校验。名字按已经取得的素材／公开角色资料保存，不因改名改动角色 ID。
 - `sources` 为相对本人目录的素材文件（可附锚点）或公开 HTTPS 来源。身份判断的完整上下文、阅读范围和疑点仍保留素材。机器字段存对应关系，素材存判断依据，不用把素材重写成 JSON。

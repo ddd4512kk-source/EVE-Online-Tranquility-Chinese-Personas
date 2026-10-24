@@ -17,6 +17,9 @@
 - [2022.5.15 冥府陨落](https://www.bilibili.com/video/BV1L5411R7yS/)：老战斗纪念里，作者把利夫说成“买一送一附赠的”，保留了战果之外的熟人语气。
 - [欧服低安卫队PVP团招新](https://www.bilibili.com/video/BV121QgYCERk/)：招新条件和作者接新人问题并排留着，能读到教程之外的社区工作。
 - [2016萌新学院：毒蜥单刷三级洞](https://www.bilibili.com/video/BV1cs411671H/)：与九年后的低价深渊连读，留下同一位作者长期围着毒蜥做教学的起点；旧配装按旧版材料读。
+- [《欧服兔子区搅屎日常》](https://www.bilibili.com/video/BV1nETbzEE4W/)：标题把欧服日常写成“搅屎”，可作为他从教学、招新转向舰队活动的频道入口。
+- [《感谢老铁送的HOT堡》](https://www.bilibili.com/video/BV1364y1U73h/)：标题把舰队对象与“感谢老铁”的玩笑口吻并在一起，给千秋的战斗投稿多添一条轻松的日常记录。
+
 :::
 
 ::: 评

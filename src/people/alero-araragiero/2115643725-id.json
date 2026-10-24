@@ -1,0 +1,74 @@
+{
+  "id": 2115643725,
+  "name": "Alero AraragiEro",
+  "birthday": "2019-08-31T14:14:48Z",
+  "corporation_id": 98446928,
+  "affiliation": {
+    "corporation_id": 98446928,
+    "alliance_id": 99003581,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "start": "2019-08-31T14:15:00Z",
+      "end": "2019-09-02T14:06:00Z"
+    },
+    {
+      "corporation_id": 98446928,
+      "start": "2019-09-02T14:06:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-10-24",
+  "person": {
+    "cn_name": "大A",
+    "aliases": [
+      "大A超市",
+      "Alero"
+    ],
+    "epithet": "别人搓牛角包，他先搓一套算账系统。",
+    "tags": [
+      "00区",
+      "工业",
+      "SETCR",
+      "FRT"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2116102522,
+        "name": "Alero Poljus",
+        "basis": "收录号简介列为化矿服务号，同团且头衔同为大A。",
+        "sources": [
+          "materials-alero-araragiero.md#角色对应"
+        ],
+        "zkb": {
+          "kills": 4,
+          "lost": 24,
+          "isk_destroyed": 1716407,
+          "last_active": "2026-05",
+          "as_of": "2026-10-24"
+        }
+      },
+      {
+        "id": 2121155132,
+        "name": "Alero BararagiEro",
+        "basis": "收录号简介列为快递服务号，与主号同词根。",
+        "sources": [
+          "materials-alero-araragiero.md#角色对应"
+        ]
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 1794,
+      "lost": 227,
+      "isk_destroyed": 2108991911748,
+      "last_active": "2026-10",
+      "as_of": "2026-10-24"
+    }
+  }
+}

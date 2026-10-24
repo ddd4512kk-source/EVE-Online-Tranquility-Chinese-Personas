@@ -2,7 +2,7 @@
 蛋花，游戏名 Dan Hua，2020 年 3 月建号，FRT 的 AT19 冠军队员。角色简介是空的，头衔就两个字：“蛋花”。
 
 ::: 红料 从 ST 来的冠军队员
-据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2023 年队长杯之后，FRT 比赛队“successfully recruited Garveen Airuta and Dan Hua, former teammates from the ST”——蛋花和[慕容](../2114279817/)是 ST 时期的老队友，一起被拉进了 FRT 的比赛队，随后拿下第十九届联盟锦标赛冠军。
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2023 年队长杯之后，FRT 比赛队“成功招募了 ST 时期的前队友 Garveen Airuta 和 Dan Hua”——也就是蛋花和[慕容](../2114279817/)这对 ST 时期的老队友，一起被拉进了 FRT 的比赛队，随后拿下第十九届联盟锦标赛冠军。
 :::
 
 ::: 红料 冠军的日常出勤与泰坦席位

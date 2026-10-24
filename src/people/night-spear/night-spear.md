@@ -20,9 +20,9 @@
 ::: 黑料 A Crop
 军团简介的英文开头：
 
-> September 18, 2017, is a memorable day, A Crop have 8 Years history in the other world come here
+> 2017 年 9 月 18 日是值得纪念的一天，A Crop 在另一个世界已有 8 年历史，今天来到这里（September 18, 2017, is a memorable day, A Crop have 8 Years history in the other world come here）
 
-Corp 拼成了 Crop（庄稼）。外交联系人那一行写着“anything other than recuit”——Recruit 也少了个 r。一份招新简介，招新这个词拼错了。
+Corp 拼成了 Crop（庄稼）。外交联系人那一行写着“除了招新什么都行”（anything other than recuit）——Recruit 也少了个 r。一份招新简介，招新这个词拼错了。
 :::
 
 ::: 黑料 H叔欢迎的新移民，一个月后去了对面

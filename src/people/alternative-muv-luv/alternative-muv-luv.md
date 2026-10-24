@@ -2,7 +2,7 @@
 黄鳝，游戏名 Alternative Muv-Luv（取自同名游戏），2014 年建号，2018 年才真正上线。先后在低安的 End of Natural Lifetime、蜜蜂、虫洞联盟 Scary Wormhole People、INIT 待过，2021 年进 FRT，如今在“凌晨四点玩原神的 25 岁男人”。角色简介是空的。
 
 ::: 红料 AT19 冠军队的三个创始人之一
-据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2021 年夏天拿下中国时区 10v10 夏季赛之后，“we (Fubuki Waifu, Alternative Muv-Luv, Remeleen) joined a Chinese small-gang alliance, Esports Petopia (F1 Monkey)”，一起打了 AG6 和 AT18；AT18 0–2 之后回到 FRT，重新组队，第二年拿了 AT19 冠军。黑莲、黄鳝、[拉面林](../91309503/)，是这支冠军队最早的三个人。
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2021 年夏天拿下中国时区 10v10 夏季赛之后，“我们（Fubuki Waifu、Alternative Muv-Luv、Remeleen）加入了一个华人小规模联盟，Esports Petopia（F1 Monkey）”，一起打了 AG6 和 AT18；AT18 0–2 之后回到 FRT，重新组队，第二年拿了 AT19 冠军。黑莲、黄鳝、[拉面林](../91309503/)，是这支冠军队最早的三个人。
 :::
 
 ::: 红料 KB：七千杀

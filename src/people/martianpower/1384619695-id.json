@@ -73,15 +73,50 @@
   "fetched_at": "2026-10-06",
   "identity": {
     "version": 1,
-    "alts": [],
-    "accounts": {}
+    "alts": [
+      {
+        "id": 148684416,
+        "name": "Martian Force",
+        "sources": [
+          "https://evewho.com/character/148684416"
+        ],
+        "zkb": {
+          "kills": 1777,
+          "lost": 6,
+          "isk_destroyed": 7564513569890,
+          "last_active": "2017-02",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2010-03-18 建号，2011 年起在 Maverick Navy / Garoun Investment Bank，当前 Garoun Investment Bank（GIB）；名称近似，与收录号同属火星一人"
+      },
+      {
+        "id": 595073884,
+        "name": "Martian States",
+        "sources": [
+          "https://evewho.com/character/595073884"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 5,
+          "isk_destroyed": 0,
+          "last_active": "2012-07",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2010-10-04 建号，2013-06-04 起在 Pangu Holdings（PANGH，盘古）；名称近似，与收录号同属火星一人"
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 8890,
+      "lost": 392,
+      "isk_destroyed": 4875801536330,
+      "last_active": "2017-07",
+      "as_of": "2026-10-23"
+    }
   },
   "person": {
     "cn_name": "火星",
-    "aliases": [
-      "Martian Force",
-      "Martian States"
-    ],
+    "aliases": [],
     "epithet": "想把联盟练成精兵，先把友军练成了敌军。",
     "tags": [
       "00区",

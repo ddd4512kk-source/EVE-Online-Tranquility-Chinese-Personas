@@ -16,7 +16,7 @@
 :::
 
 ::: 黑料 联盟说没卖，新闻说买了
-[官方声明](https://www.reddit.com/r/Eve/comments/db6uwt/official_statement_from_ranger_regiment_for/)专门强调 RR 并未被收购或雇佣，投资只是个人行为；[Talking in Stations 的节目](https://www.talkinginstations.com/2019/10/miss-rabbit-buys-ranger-regiment/)却直接用“Miss Rabbit Buys Ranger Regiment”做标题，把它当收购来谈。
+[官方声明](https://www.reddit.com/r/Eve/comments/db6uwt/official_statement_from_ranger_regiment_for/)专门强调 RR 并未被收购或雇佣，投资只是个人行为；[Talking in Stations 的节目](https://www.talkinginstations.com/2019/10/miss-rabbit-buys-ranger-regiment/)却直接用“兔小姐收购游骑兵团”（Miss Rabbit Buys Ranger Regiment）做标题，把它当收购来谈。
 
 评论区同样有人追问：既然是选新 CEO，投资和这个位置到底怎么连在一起？传闻里的投入金额越报越大，数字众说纷纭，大家对交易气息的嗅觉倒出奇一致。
 

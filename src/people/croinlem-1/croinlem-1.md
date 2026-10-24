@@ -17,6 +17,9 @@
 
 ::: 红料 B站作品精选
 - [eve online欢迎你](https://www.bilibili.com/video/BV1W3Lg66EuS/)：宣传题目下，作者回应月卡疑问并拿“萌新疑惑，老登应激”概括评论区，是购船纪念之外的本人社区接话。
+- [eve欧服自制皮肤展示](https://www.bilibili.com/video/BV1jr5v6AE1L/)：从泰坦购置的资产目标切到自制皮肤展示，给白龙频道的EVE投稿添一条外观题材。
+- [神使级泰坦国旗皮肤展示](https://www.bilibili.com/video/BV1csLq61EGZ/)：标题指向神使级泰坦的国旗皮肤展示，是频道另一条EVE外观题材。
+- [《经费这么充足可真是抱歉呢》](https://www.bilibili.com/video/BV1sgTL6TEsx/)：攒泰坦时喊破产，给作品起名却喊经费充足；白龙连谈投入，也舍不得把那点得意和自嘲分开。
 :::
 
 ::: 评

@@ -32,11 +32,11 @@
 ::: 黑料 “每个人黑历史他都记着”
 群里叫他“阴弟”，拉面林说他是“FRT 小黑子”。这两句都是熟人的评价，不等于他真有一本黑账；好笑的是，阿阳自己的角色简介恰好写着：
 
-> Even if I have 99% responsibility, don't you have 1%?
+> 就算我担 99% 的责任，难道你就没有 1% 吗？（Even if I have 99% responsibility, don't you have 1%?）
 
-大意是：就算我担九成九责任，你难道没有一分？这句话没指向哪场战斗，却很适合贴在那张黑豹 KM 旁边：责任还在掰扯，船已经结账。
+这句话没指向哪场战斗，却很适合贴在那张黑豹 KM 旁边：责任还在掰扯，船已经结账。
 
-账本也不是他单方面在写。[Snow Kidfox 的角色简介](https://killsync.link/entity/character/96137114-snow-kidfox)里，挂着一条已失效建筑的名字：“Rakapas - In memory of Einll (Arknights.)”。公开简介没解释这座纪念建筑的来龙去脉；至少在别人的目录里，阿阳也占了一行。
+账本也不是他单方面在写。[Snow Kidfox 的角色简介](https://killsync.link/entity/character/96137114-snow-kidfox)里，挂着一条已失效建筑的名字：“Rakapas - 纪念 Einll（明日方舟）”（Rakapas - In memory of Einll (Arknights.)）。公开简介没解释这座纪念建筑的来龙去脉；至少在别人的目录里，阿阳也占了一行。
 :::
 
 ::: 评

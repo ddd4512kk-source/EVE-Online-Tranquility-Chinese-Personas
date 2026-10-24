@@ -15,6 +15,10 @@
 
 ::: 红料 B站作品精选
 - [2019势力战争：绕杆子](https://www.bilibili.com/video/BV1ct411p7YM/)：旧教程延伸了这个账号的教学年头，作者后来还在评论回应麦克风不好；玩法细节按旧版资料读。
+- [【EVE欧服】萌新佛系燃烧任务的一个小时（价值7亿ISK）](https://www.bilibili.com/video/BV1tf4y1z7wt/)：一小时燃烧任务与七亿ISK被直接写进标题，适合和他后来系统化的五级任务攻略并读。
+- [EVE低安五级任务-空代任务刷声望](https://www.bilibili.com/video/BV1x7411Z7aq/)：标题把低安五级任务与声望收益放在一起，是其任务教学路线中的另一项公开选题。
+- [EVE低安五级任务-斩龙行动Operation Wyrmsbaner](https://www.bilibili.com/video/BV15E411u7v3/)：五级任务系列把具体任务名称摆在标题里，可从这篇看他早期按任务逐篇发布的做法。
+- [天蛇四级任务收益介绍](https://www.bilibili.com/video/BV1vx411Q7bA/)：从四级任务收益介绍到低安五级路线，能补看频道较早的任务攻略题材。
 :::
 
 ::: 评

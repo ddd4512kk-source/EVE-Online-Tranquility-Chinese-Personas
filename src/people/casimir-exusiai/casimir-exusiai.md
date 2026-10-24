@@ -10,7 +10,7 @@
 FRT 那个号的简介话多一些，后面再说。
 
 ::: 红料 PMA 前队长，转投冠军队
-据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，那一年 F1 和 PMA 两支华人比赛队决定不参赛，想继续打 AT 的人散进了四支队伍，其中“Casimir Exusiai who was the former captain of the PMA team decided to join us”。复盘说这批人是“those few Chinese players who have experience in major tournaments”里真正的 PVP 玩家。
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，那一年 F1 和 PMA 两支华人比赛队决定不参赛，想继续打 AT 的人散进了四支队伍，其中“PMA 队的前队长 Casimir Exusiai 决定加入我们”。复盘说这批人是“少数几个打过大型锦标赛的华人玩家”里真正的 PVP 玩家。
 
 前东家不参赛，马哥换了队服，拿了冠军。
 :::
@@ -30,7 +30,7 @@ FRT 那个号的简介话多一些，后面再说。
 
 > “曹勇，真的要带0吗？”
 > “BD，给我带寡妇0！”
-> Kill: Fortizar R.I.P
+> 击毁：铁壁，安息吧
 
 打仗赢了就是战绩，这一仗打得干净利落。只是三年前的 2022 年 3 月，他还和斑鸠、Nan Li Leo 等几个 PMA 的人线下面基：帝王蟹是 Nan Li Leo 请的，电竞酒店也是 Nan Li Leo 包的，一屋子人通宵开 EVE。带路的位标是自己当年亲手建的，开门的钥匙是自己留的扫描号，老家旧友那边自然记的是另一本账。
 :::
@@ -42,7 +42,7 @@ FRT 那个号的简介话多一些，后面再说。
 :::
 
 ::: 黑料 冠军船，一万四出手
-2023 年底，马哥把三艘 AT 奖励船西布勒卖给了 FRT Thunders Claw Fleet 的[李宝宝](../2114801659/)，价钱是 3500 加 10500，一共 **人民币 14,000 元**，中间人是 Nan Li Leo。2025 年 3 月，[帝国新闻社](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)把卖家、买家与中间人的聊天记录一并贴出，标题就叫“FRT MEMBER RMT AT Champions SHIP”；几天后 Reddit 上[署名 Code Earth 的英文声明](https://www.reddit.com/r/Eve/comments/1jmkw13/)又把这笔交易讲了一遍。
+2023 年底，马哥把三艘 AT 奖励船西布勒卖给了 FRT Thunders Claw Fleet 的[李宝宝](../2114801659/)，价钱是 3500 加 10500，一共 **人民币 14,000 元**，中间人是 Nan Li Leo。2025 年 3 月，[帝国新闻社](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)把卖家、买家与中间人的聊天记录一并贴出，标题就叫“FRT 成员现金倒卖 AT 冠军船”（FRT MEMBER RMT AT Champions SHIP）；几天后 Reddit 上[署名 Code Earth 的英文声明](https://www.reddit.com/r/Eve/comments/1jmkw13/)又把这笔交易讲了一遍。
 
 同一时期，他还通过微信电话向一位 PMA 成员兜售 **2T ISK**。冠军船换现金，ISK 也换现金，夺冠之后马哥把手里能变现的都盘了一遍。
 

@@ -40,7 +40,7 @@ B 站上他排了十三个合集、两百七十来期作品，几乎全是欧服
 ::: 黑料 「我很可爱，不要杀窝」
 他的角色简介中英双语写着：“我很可爱，不要杀窝。i am lovely, do not kill me.”
 
-然后下一段是战利品清单：最贵 KM、第一个建筑 KM、第一个旗舰 KM，末尾还附一条给对面的 GG：“Kill: GuiltySpark 04's Phoenix Navy Issue thanks mate, all the best to your fams ♥♥♥”。
+然后下一段是战利品清单：最贵 KM、第一个建筑 KM、第一个旗舰 KM，末尾还附一条给对面的 GG：“击杀：GuiltySpark 04 的凤凰级海军型。谢了哥们，祝你全家一切顺利 ♥♥♥”。
 
 四千多条击杀，三十多次单杀，嘴上却喊别杀我。圈里有一说：卖萌是他的护甲，晒 KM 是他的炮。
 :::

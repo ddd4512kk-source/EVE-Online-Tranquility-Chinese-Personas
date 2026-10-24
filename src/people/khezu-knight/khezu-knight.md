@@ -49,6 +49,7 @@
 
 ::: 红料 B站作品精选
 - [《【朋友聚会新生活&EVE】把联盟形象捏成小宠物！》](https://www.bilibili.com/video/BV1uYdnB2EA7/)：夫鲁的手工线延伸到视频里：把联盟形象捏成小宠物。表情包、刺绣、黏土之后，又多了一种形态。
+- [《自制可爱INIT仔皮套！》](https://www.bilibili.com/video/BV1MEuQzvEy5/)：把联盟吉祥物做成Live2D皮套，呼应夫鲁一边学新工具、一边给华人社区做周边的创作路线。
 :::
 
 ::: 评

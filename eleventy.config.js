@@ -11,7 +11,11 @@ const utc = (iso) => (iso ? new Date(iso) : null);
 
 export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("glossaryEntries", glossaryEntries);
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" }, {
+    filter: ["**/*", "!**/AGENTS.md", "!**/CLAUDE.md"],
+  });
+  eleventyConfig.ignores.add("**/AGENTS.md");
+  eleventyConfig.ignores.add("**/CLAUDE.md");
   // Service Worker 必须放在站点根目录，才能管到全站的头像与字体
   eleventyConfig.addPassthroughCopy({ "src/sw.js": "sw.js" });
   for (const person of fs.readdirSync("src/people", { withFileTypes: true })) {
@@ -140,8 +144,9 @@ export default function (eleventyConfig) {
   // 分方人数、损失金额与计数，目录和详情不省略缺项。
   eleventyConfig.addFilter("sideStats", sideStats);
   // 跨板块互链：某人参与过的战役、按角色 ID 找列传
-  eleventyConfig.addFilter("battlesOf", (battles, id) =>
-    (battles ?? []).filter((b) => b.data.peopleIds?.includes(Number(id))),
+  // 双向：战役参战名单或正文点名了此人，或此人列传正文链到该战役页
+  eleventyConfig.addFilter("battlesOf", (battles, id, bio = "") =>
+    (battles ?? []).filter((b) => b.data.peopleIds?.includes(Number(id)) || String(bio).includes(`/battles/${b.page.fileSlug}/`)),
   );
   eleventyConfig.addFilter("personById", (people, id) =>
     people.find((p) => p.data.character_id === Number(id)),

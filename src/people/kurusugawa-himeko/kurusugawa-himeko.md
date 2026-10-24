@@ -58,6 +58,9 @@ B 站上叫[费娜希雅フィナシーア](https://space.bilibili.com/45580)，
 ::: 红料 B站作品精选
 - [《进攻桥头堡！抗压，然后千人对射双赢 in X47L-Q》](https://www.bilibili.com/video/BV1QG4y1D7HE/)：春节梗与战报入口并排，评论里还留着卡碟投诉和作者“已修复换源”的置顶，兼有战地记录与投稿现场。
 - [《EC-P8R 铁壁上线防守战 只是在爽射的FRT帕拉丁驾驶员》](https://www.bilibili.com/video/BV1J94y1j7tY/)：作者贴战报，自评打得太顺反而无聊；帕拉丁、后勤等观众接话，把宏大战果落回了普通出勤者的心情。
+- [《一条征服者引发的血案。》](https://www.bilibili.com/video/BV1wGpg6sE7y/)：标题把一艘征服者写成冲突导火索，适合作为她频道里旗舰战报的叙事入口。
+- [《2300人攻防！EK2铁壁攻防战》](https://www.bilibili.com/video/BV1yW4y1f7TG/)：标题突出2300人规模与铁壁攻防，可作为她频道记录大型战役的另一入口。
+- [《7倍战损比，缪宁大战T3队》](https://www.bilibili.com/video/BV1Nm4y1N7hs/)：标题给出战损比和缪宁对阵T3队，展示频道记录小队交战的另一种标题尺度。
 :::
 
 ::: 评

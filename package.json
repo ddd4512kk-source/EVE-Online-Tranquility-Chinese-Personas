@@ -6,10 +6,10 @@
   "scripts": {
     "doctor": "node scripts/doctor.mjs",
     "test": "node --test scripts/*.test.mjs scripts/research/tests/*.test.mjs",
-    "prebuild": "npm run doctor",
+    "prebuild": "npm run doctor && npm run lint",
     "find": "node scripts/find-character.mjs",
     "fetch": "node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs",
-    "check": "npm run glossary:check && npm run bilibili:check && node scripts/fetch-characters.mjs --check && node scripts/check-battles.mjs",
+    "check": "npm run doctor && npm run lint && npm run glossary:check && npm run bilibili:check && node scripts/fetch-characters.mjs --check && node scripts/check-battles.mjs",
     "audit:battle-participation": "node scripts/audit-battle-participation.mjs",
     "build": "npm run glossary:check && npm run bilibili:check && node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs && eleventy && pagefind --site _site",
     "serve": "npm run build && eleventy --serve",
@@ -17,17 +17,25 @@
     "bilibili:sync": "node scripts/bilibili-archive.mjs sync",
     "bilibili:check": "node scripts/bilibili-archive.mjs check",
     "materials": "node scripts/materials.mjs",
+    "review": "node scripts/review.mjs",
     "research:query": "node scripts/research/query-table.mjs",
     "glossary": "node scripts/glossary.mjs",
-    "glossary:check": "node scripts/glossary.mjs --check"
+    "glossary:check": "node scripts/glossary.mjs --check",
+    "instructions:check": "node scripts/check-instructions.mjs",
+    "instructions:sync": "node scripts/check-instructions.mjs --sync",
+    "lint": "eslint . --max-warnings 0"
   },
   "engines": {
-    "node": ">=20.11.0 <21 || >=21.2.0"
+    "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy": "^3.1.7",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
     "gray-matter": "^4.0.3",
     "markdown-it-container": "^4.0.0",
-    "pagefind": "^1.5.2"
+    "pagefind": "^1.5.2",
+    "playwright": "^1.64.1"
   }
 }

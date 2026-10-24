@@ -3,8 +3,8 @@
 // 为什么需要它：贴吧、知乎、百家号对脚本直接访问会弹“安全验证”，
 // 但百度搜索结果页本身能正常打开，而且摘要里常带着贴吧帖子的楼层原文。
 //
-// 首次使用（不写进 package.json，避免拖慢 CI）：
-//   npm i --no-save playwright && node node_modules/playwright/cli.js install chromium
+// 首次使用（playwright 已在 devDependencies，只需下载浏览器）：
+//   npx playwright install chromium
 // 用法：
 //   node scripts/research/baidu-search.mjs "夺米台风 eve欧服吧"
 //   node scripts/research/baidu-search.mjs "夺米台风 eve欧服吧" 10   # 第二页（pn=10）

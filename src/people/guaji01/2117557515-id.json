@@ -78,8 +78,31 @@
   "fetched_at": "2026-10-10",
   "identity": {
     "version": 1,
-    "alts": [],
-    "accounts": {}
+    "alts": [
+      {
+        "id": 2117566963,
+        "name": "GuaJi02",
+        "sources": [
+          "https://evewho.com/character/2117566963"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 3,
+          "isk_destroyed": 0,
+          "last_active": "2020-12",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2020-09-14 建号；与 GuaJi01 共有军团：Nega Nebulas."
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 2,
+      "lost": 39,
+      "isk_destroyed": 157241754,
+      "last_active": "2021-08",
+      "as_of": "2026-10-23"
+    }
   },
   "person": {
     "cn_name": "六色",

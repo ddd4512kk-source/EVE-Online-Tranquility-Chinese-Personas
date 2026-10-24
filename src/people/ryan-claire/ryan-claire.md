@@ -34,6 +34,8 @@ Obe打完，云曦又发了[《值得载入EVE历史的一天》](https://www.bi
 
 ::: 红料 B站作品精选
 - [《反收割花絮：遇到了皮糙肉厚战巡队》](https://www.bilibili.com/video/BV1GjrvB9EqJ/)：作者回应盾抗先驱的有效血量问题，适合与洛基篇对照，读他怎样在战斗后继续讨论配装取舍。
+- [《挺针花絮：祝各位舰长武运昌隆》](https://www.bilibili.com/video/BV1dGpP6FEXN/)：标题把祝愿写进挺针花絮，补一条频道记录的舰队日常。
+- [《反收割花絮：5ZXX刀斧手》](https://www.bilibili.com/video/BV1XjrvBXEv1/)：标题将5ZXX称作“刀斧手”，是反收割系列里另一条战斗花絮。
 :::
 
 ::: 评

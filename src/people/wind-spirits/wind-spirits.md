@@ -16,7 +16,7 @@
 
 角色简介只有一句：
 
-> For those who fit their ships according to EFT, thank you for providing me killmails.
+> 照着 EFT 配船的各位，谢谢你们给我送 KM。（For those who fit their ships according to EFT, thank you for providing me killmails.）
 
 （感谢所有按 EFT 配船的人，为我提供击杀记录。）——EFT 是配装模拟器，意思是照着纸面数据配船的人，都是给他送 KM 的。
 :::

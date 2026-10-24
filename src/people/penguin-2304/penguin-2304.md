@@ -36,9 +36,9 @@ zKillboard 生涯击杀 2311，单杀 **758** 次——三分之一的击杀是�
 ::: 黑料 简介：一面友情墙
 鹅神的角色简介是一面名字墙：D佬、Zark Chastot、MCMC、Amethyst Shock……中间夹着一句 D佬当初的祝福“你一定会无往不前”，最下面是一行聊天记录：
 
-> DarKdeZ Ever > can you stop doing pvp nerd
+> DarKdeZ Ever > 你能别再 PVP 了吗，书呆子
 
-（你能别再 PVP 了吗，书呆子。）祝福和劝退，都挂上了墙。
+祝福和劝退，都挂上了墙。
 :::
 
 ::: 评

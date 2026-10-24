@@ -1,105 +1,43 @@
-# AGENTS.md — 新伊甸野史 · 代理说明
+# AGENTS.md — 新伊甸野史 · 全局约定
 
-> 本仓库的权威入口；详细规则按第 2 节分工维护。`CLAUDE.md` 是本文件的逐字副本：改一处，必须把另一处改成一模一样。
+本文件只维护全仓约束与任务入口。目录指令补充局部约定，详细规则只维护一处；每份 `CLAUDE.md` 都是同目录 `AGENTS.md` 的逐字副本。
 
 ## 0. 底线
 
-1. **维护者不写代码，也不直接阅读内部数据文件。** 所有操作由你完成，完成后用中文简短汇报：只提不明确、待核或需要拿主意的部分；不复述已无争议的主线，维护者提交前不给网址。少讲技术细节；需要维护者拿主意时出选择题。
-2. **每次改动后 `npm run build` 必须成功**，否则不算完成。
-3. 添加或修订列传用 `add-person`；添加或修订战役页用 `add-battle`；改动 `src/people/`、`src/battles/` 下任何文件（含只登记小号、补一行素材）都算修订，先读对应技能；批量找人、战役／贴吧查漏用 `research-community`。Codex 读 `.agents/skills/<技能>/SKILL.md`，Claude Code 读 `.claude/skills/<技能>/SKILL.md`；对应副本必须逐字相同。
-4. **不提交、不推送，也不问要不要提交。** 改完留在工作区，维护者攒够一批后自己 commit、push。
-5. 内容必须有出处，不编事件、时间、战果，不把想象的话当本人原话；不收现实隐私、歧视内容和未成年人。写作须显著发挥，口吻不保守，改写只能变长；动笔前先读写作验收里的标杆范文，具体边界与验收按第 2 节入口读取。
+1. **维护者不写代码，也不直接阅读内部数据文件。** 代理完成所有操作，用中文简短汇报；只提不明确、待核或需要拿主意的部分，不复述已无争议的主线，维护者提交前不给网址。少讲技术细节；需要拿主意时出选择题。
+2. **每次改动后 `npm run build` 必须成功**，否则不算完成。不能删目录、跳过校验或扩大豁免来掩盖故障。
+3. **未经当前任务明确要求，不提交、不推送，也不问要不要提交。** 修改、修复或完成任务不代表提交授权；只授权提交时不推送，不扩大到其他改动。
+4. 内容必须有出处，不编事件、时间、战果，不把想象的话当本人原话；不收现实隐私、歧视内容和未成年人。写作须显著发挥，口吻不保守，改写只能变长；先读写作验收的标杆，具体边界归内容规则。
+5. 改 `src/people/` 下任何文件先读 `add-person`；改 `src/battles/` 下任何文件先读 `add-battle`，含只登记小号、补一行素材。批量找人、战役／贴吧查漏用 `research-community`。Codex 读 `.agents/skills/<技能>/SKILL.md`，Claude Code 读对应 `.claude/skills/` 副本。
 
-## 1. 这是什么
+## 1. 项目与共同标准
 
-“新伊甸野史”：EVE Online 宁静服（欧服）华人社区名人群像列传，纯静态站，托管在 GitHub Pages。
-线上：`https://ddd4512kk-source.github.io/EVE-Online-Tranquility-Chinese-Personas/`
+“新伊甸野史”是 EVE Online 宁静服华人社区的戏谑群像静态站，Eleventy 3 + Nunjucks + Markdown + Pagefind，GitHub Pages 托管。
 
-全站分板块：**列传**是主体，**战役**收各方总损失 100B 以上的战斗（见内容规则第 5 节“战役”）。以后的板块照同一框架加，登记在 `src/_data/sections.js`。以下规则未注明板块的，都指列传。
-
-- 一人一篇，对应一个收录角色：主号优先，找不到就用属于本人的小号。不重复收录同一人。
-- 内容核心是**讥讽、黑历史、锐评**——戏谑群像，不是档案库。游戏数据只是陪衬。
-- 收录欧服华人圈**所有有故事的人**，不按年代、名气筛，上限约千人。外国大联盟领头人与华人圈交集多的也收（如 The Mittani），以交集为主线。
+- 列传是主体：一人一篇，主号优先，无主号用本人小号，不重复收录同一人。写有故事的人，以讥讽、黑历史、锐评为核心，游戏数据作陪衬；不按年代名气筛选，规模约千人。外国领头人与华人圈交集多的也收，以交集为主线。
+- 战役门槛与规模按[内容规则](docs/content-rules.md)第 5 节判断；新增板块沿用站点框架，入口见 `src/` 指令。
+- **所有代理遵守[仓库统一标准](docs/repository-standards.md)**：代码格式、命名、中文技术文档、模块边界、UTC、测试与历史差异处理不按代理区分。
+- 修改文件前，沿根目录到目标文件目录逐级读取适用的 `AGENTS.md`／`CLAUDE.md`，跨目录分别读取；不依赖客户端自动发现全部子目录。子级只能补充，不能取消全局底线。
+- 指令、技能与专题规则的归属和维护模板见[分层指令维护](docs/agent-instructions.md)。不把领域细则、机器配置或任务日志继续堆到根文件。
 
 ## 2. 按任务读取
 
-本文件维护全局约束与操作约定；技能只维护流程，详细规则与示例放在下列文档。修改规则时只改其归属文件，其他入口用引用，不重复抄写。下列文档是本说明的组成部分，按任务读取相关节，不要求每次全部加载。
-
-| 任务 | 必读内容 |
+| 任务／范围 | 入口与必读内容 |
 | --- | --- |
-| 人物收录、身份对应、素材归因 | [内容规则](docs/content-rules.md) 第 2、3 节 |
-| 正文写作 | 内容规则第 4 节与 [写作验收](docs/writing-review.md) |
-| 人物文件与字段 | 内容规则第 5 节“目录／人物 JSON 配置／正文”与 [人物模板](docs/person-template.md) |
-| 战役收录、分方与统计 | 内容规则第 5 节“战役”与 [战役模板](docs/battle-template.md)；涉及人物归因再读第 3 节 |
-| 接收素材、归档与清理队列 | 内容规则第 6 节；定位已有材料见 [材料查询](docs/research-method.md#本地材料查询) |
-| 联网取材 | [取材手册](docs/research-method.md) 对应入口，含联网条件、预算与停止规则 |
-| 布局、样式、前端交互 | [网站设计](docs/site-design.md) |
+| 人物收录、身份、素材与正文 | [列传指令](src/people/AGENTS.md)；内容规则第 2、3、4、6 节、第 5 节人物格式；[人物模板](docs/person-template.md)、[写作验收](docs/writing-review.md) |
+| 战役收录、分方、统计与正文 | [战役指令](src/battles/AGENTS.md)；内容规则第 4、6 节、第 5 节战役；[战役模板](docs/battle-template.md)；人物归因另读第 3 节 |
+| 批量调查、联网取材 | `research-community` 技能；[取材手册](docs/research-method.md)对应入口，含联网条件、预算和停止规则；已有材料先用 `npm run materials` 查询 |
+| 跨人物／战役查漏与规则变更复查 | [增量复查](docs/review-workflow.md)，先筛候选，再读相关段落，保存人工结论和失效依据 |
+| 站点、布局、样式、交互 | [源码指令](src/AGENTS.md)及对应下级指令；可见变化必读[网站设计](docs/site-design.md) |
+| 脚本、校验、抓取与测试 | [脚本指令](scripts/AGENTS.md)；取材工具另读其下级指令 |
+| 文档、模板、材料归档 | [文档指令](docs/AGENTS.md)；接收与清理材料读内容规则第 6 节 |
+| 技术结构、命令与环境排障 | [开发与验证](docs/development.md) |
 
-## 3. 操作流程
+## 3. 执行与验收
 
-### 执行约定
-
-- 开工先 `git status --short`、`npm run doctor`；内容或构建改动再用 `npm run check` 查离线基线。保留其他会话与暂存区的改动；基线故障不能靠删目录、跳过校验来“通过”。
-- 环境错误先修环境，再沿用正确 PATH；Python 先确认可用的 Python 3 命令，不临时假设装有第三方库。只读相关文件／段落，大输出落临时文件分段读；被截断的内容不算已读。
-- 浏览器操作优先使用已连接的浏览器工具，复用现有会话；连接失败先排查工具与授权，避免反复启动新浏览器。
-- 批量写作先完成少量代表人物，核对原有主线、综合 KB、战役与红黑料是否保留，再扩批；脚本只整理事实，不批量生成套话。修正一种问题时不能删掉另一条已认可要求。
-- 内部数据以代理查询和校验效率为准：可从现有文件推导的目录、身份和状态按需生成；需人工判断的数据只维护一处，优先复用现有 JSON／TSV，不为人读另抄全员总表。具体归档边界见内容规则第 6 节。
-- 长任务沿冻结清单续跑，分别记录取得、读过、归档、入文及下一步；有可继续的授权工作就推进，不靠反复问“是否继续”。失败与排除记录也复用。
-- 最终修改后 `git diff --check`、`npm run build`，通读受影响的生成页；改脚本另跑 `npm test`。环境与副本预检已接入 build，测试也接入 CI。临时副本验证不能替代全仓通过。
-
-### 其他
-
-- 刷新数据：`npm run fetch -- --refresh <ID>`；全部刷新耗时较长，先说明。
-- 审核 PR：CI 自动构建；缺数据缓存的合并后本地 `npm run fetch` 补交。只拦现实隐私、毫无出处的编造和纯人身攻击。
-
-## 4. 网站设计约束（改网站时才需要）
-
-改布局、样式、前端交互时必须读 [docs/site-design.md](docs/site-design.md)；内容与取材任务无需加载设计细则。
-
-## 5. 技术结构
-
-Eleventy 3（Nunjucks + Markdown）+ Pagefind 全文搜索，GitHub Actions 部署（PR 只构建）。
-
-```
-src/people/<短名>/           列传、素材、快照、头像
-src/people/people.11tydata.js 列传计算字段
-src/battles/<短名>/          战役正文、素材、同名 JSON（battle 配置 + br 快照）
-src/battles/battles.11tydata.js 战役计算字段（网址、分档、标签、分方统计）
-src/_data/site.js           站名等
-src/_data/sections.js       板块登记与导航
-src/_data/systemNames.js    星系中文名（战役页显示）
-src/_data/entityNames.json  全站共用的军团、联盟名称与 ticker（按 ID；角色快照、战役显示都用，npm run fetch 写入；只手改华人军团的 "chinese": true 标记）
-src/_includes/              布局与组件
-src/assets/css/site.css     全站样式
-src/assets/js/              首页筛选、战役排序筛选、术语弹窗
-src/assets/fonts/serif/     衬线字体切片（Noto Serif SC，OFL；fonts.css 引用）
-src/sw.js                   Service Worker：头像、战徽、字体存读者本地（构建时放到站点根目录）
-scripts/fetch-characters.mjs 校验 + 抓数据
-scripts/character-snapshot.mjs 角色快照存盘格式与展开
-scripts/battles.mjs         战役分档、分方统计与校验（check-battles.mjs 调用）
-scripts/battle-report.mjs   br.evetools／killmail.app 战报快照
-scripts/battle-archive.mjs  同名战役 JSON 的读取、校验与快照更新
-scripts/find-character.mjs  查 ID
-scripts/glossary.mjs        术语蓝字
-scripts/make-fonts.mjs      重新生成衬线字体切片（一次性，不接入构建）
-scripts/research/           取材工具（不接入构建）
-eleventy.config.js          集合、红黑评块、过滤器
-docs/                       模板、术语表、找料方法、结构化档案、备忘录、线索
-```
-
-| 命令 | 作用 |
-| --- | --- |
-| `npm run doctor` | 离线检查 Node、依赖与指令副本 |
-| `npm test` | 离线脚本回归验证 |
-| `npm run find -- "名字"` | 查角色 ID |
-| `npm run materials -- "关键词"` | 离线定位材料；无关键词时只报数量 |
-| `npm run glossary -- "词语"` | 按词查询术语 JSON；可筛类别、确认状态 |
-| `npm run research:query -- <TSV路径> --where 列=值` | 分页读取调查表，不倾倒全表 |
-| `npm run fetch` | 校验并抓缺失数据 |
-| `npm run check` | 只校验，不联网 |
-| `npm run build` | 构建到 `_site/` |
-| `npm run serve` | 本地预览 `http://localhost:8080/` |
-
-- 数据来源：EveWho（雇佣记录）、CCP ESI（创号时间、军团联盟）、images.evetech.net（头像）。删号角色 ESI 404 时自动用 EveWho。
-- 模拟子路径构建：将环境变量 `PATH_PREFIX` 设为部署子路径后运行 `npx @11ty/eleventy`，完成后清除该变量。
-- 新增本地 CSS/JS 引用带 `?v={{ site.build }}`。Markdown 正文不经模板引擎，写 `{{ }}` 无妨。
+- 开工先 `git status --short`、`npm run doctor`；内容或构建改动另跑 `npm run check`。保留其他会话与暂存区改动，先修环境再继续。大输出分段读，被截断不算已读。
+- 浏览器操作优先使用已连接工具，复用现有会话；连接失败先排查工具与授权，避免反复启动新浏览器。
+- 批量写作先完成少量代表人物，核对原主线、综合 KB、战役与红黑料保留后再扩批；脚本只整理事实，不批量生成套话。修正一种问题不能删掉另一条已认可要求。
+- 内部数据以查询与校验效率为准，可推导结果按需生成，人工判断只维护一处。长任务沿冻结清单续跑，区分取得、读过、归档、入文及下一步；复用失败和排除记录，有可继续的授权工作就推进。
+- 收尾必须 `git diff --check`、`npm run check`、`npm run build`，通读受影响生成页；改脚本或公共计算逻辑另跑 `npm test`。具体检查见开发文档；临时副本验证不能替代全仓通过。
+- 指令源改完运行 `npm run instructions:sync`；`doctor` 递归核对副本，`lint` 与构建、CI 共用代码规则。构建成功、测试成功、人工复核和真实客户端验证分别汇报，不混作已完成。

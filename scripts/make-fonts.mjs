@@ -1,7 +1,7 @@
 // 生成全站衬线字体切片：Noto Serif SC（SIL Open Font License 1.1）固定 400、700 两个字重，按本站用字频率切成若干 woff2，
 // 浏览器按 unicode-range 只下载当页用到的切片。字集 = 本站已用字 ∪ GB2312，新收的生僻字不在其中时该字回退系统宋体。
-// 一次性工具，不接入构建与 CI；字形缺得多了再跑一次（npm i --no-save 会清掉别的临时包，playwright 一并装）：
-//   npm i --no-save subset-font playwright && npm run build && node scripts/make-fonts.mjs <NotoSerifSC-VF.ttf>
+// 一次性工具，不接入构建与 CI；字形缺得多了再跑一次：
+//   npm i --no-save subset-font && npm run build && node scripts/make-fonts.mjs <NotoSerifSC-VF.ttf>
 import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -15,7 +15,7 @@ let subsetFont;
 try {
   ({ default: subsetFont } = await import("subset-font"));
 } catch {
-  console.error("缺 subset-font：先运行 npm i --no-save subset-font playwright");
+  console.error("缺 subset-font：先运行 npm i --no-save subset-font");
   process.exit(1);
 }
 

@@ -2,7 +2,7 @@
 大林，主号 **Alasker**，另一个常用角色 Kiki Kyo 的头衔是“大林Allen”。他用 Kiki Kyo 担任 F1 Monkey. 的 CEO、创建 Esports Petopia（华人比赛联盟），也带过华人虫洞联盟 War and Wormhole（WAW）。
 
 ::: 红料 华人第一个虫洞联盟，和一个比赛联盟
-2022 年 Alasker 参选第 17 届 CSM，[竞选帖](https://forums.eveonline.com/t/alasker-for-csm17/363516)自我介绍：2009 年在晨曦服入坑，2017 年来宁静服；2018 年建了“the first Chinese wormhole alliance ‘War and Wormhole’”，2019 年又建了专打小队战和比赛的 Esports Petopia；2021 年和 CCP Aurora 合办了面向澳洲和中国时区的夏季锦标赛；当时还挂着 DC（Dracarys.）“prime fleet commander”的头衔。
+2022 年 Alasker 参选第 17 届 CSM，[竞选帖](https://forums.eveonline.com/t/alasker-for-csm17/363516)自我介绍：2009 年在晨曦服入坑，2017 年来宁静服；2018 年建了“第一个华人虫洞联盟 War and Wormhole”，2019 年又建了专打小队战和比赛的 Esports Petopia；2021 年和 CCP Aurora 合办了面向澳洲和中国时区的夏季锦标赛；当时还挂着 DC（Dracarys.）“首席舰队指挥”的头衔。
 
 后来拿下 AT19 冠军的那批人——[黑莲](../2115433044/)、[拉面林](../91309503/)、[斑鸠](../2113386745/)、[青衣](../2114736322/)——不少人是从他的 F1 Monkey. 和 Esports Petopia 出来的。
 :::
@@ -20,11 +20,11 @@
 ::: 黑料 竞选帖底下的“爱”
 大林的 CSM17 竞选帖底下，支持者的回帖是这样的：
 
-> We all love alasker because of his sexy KongFu.
-> The king the emperor the saviour of pvp
-> press x to delete marauder for us alasker
+> 我们都爱 alasker，因为他的功夫很性感。
+> 国王、皇帝、PVP 的救世主
+> alasker，替我们按 X 把掠夺舰删了
 
-最后一句是黑莲留的——“请按 X 替我们删掉掠夺舰”。另一位支持者长文抱怨“自从掠夺舰加强……对面一有掠夺舰我们几乎就没法打了”。选 CSM 的理由，一半是政见，一半是希望他去 CCP 那里把掠夺舰砍了。
+最后一句是黑莲留的。另一位支持者长文抱怨“自从掠夺舰加强……对面一有掠夺舰我们几乎就没法打了”。选 CSM 的理由，一半是政见，一半是希望他去 CCP 那里把掠夺舰砍了。
 :::
 
 ::: 黑料 删了旧攻略重写

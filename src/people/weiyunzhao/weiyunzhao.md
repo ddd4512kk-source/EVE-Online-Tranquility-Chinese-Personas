@@ -1,7 +1,7 @@
 
 竹叶青，游戏名 WEIyunzhao，2023 年 8 月建号，头衔是一整句尊号：“神圣魏凤皇庭女帝-竹叶青”。贴吧账号叫“丝袜茶叶”，2026 年复出时自己开帖报了家门：“我竹叶青，复活了”。
 
-角色简介前半是战锤 40K 的祷词，“I am the wrath of the Emperor himself!”；后半画风一转：
+角色简介前半是战锤 40K 的祷词，“我乃帝皇之怒！”（I am the wrath of the Emperor himself!）；后半画风一转：
 
 > (◣∧◢)来给我当星怒，妈妈包疼你爱你的，时不时给本宫上贡一下，带你吃肉。
 
@@ -12,6 +12,8 @@
 ## 档案
 
 按雇佣记录，竹叶青 2023 年 8 月先后进过 Cosmic Potion（贴吧称“copo”“魔药”）和墨家的 MAD.unicorn（独角兽），都只待了几天。同年 11 月起自建 WEI-Dynasty Phoenix Divine Empress Empire（魏凤皇庭），之后又建了三个联盟：The Theocracy-Valkyrie Imperial Church（TTVIC）、Goddesses Council of Eternal Revenge 和 WormNest Will Empress Forever，创建人都是这个号。其间在 FRT 的银鹰骑士团和创世、PLA、星华、东风都短暂待过，PLA 那段是 2024 年 2 月的 16 天。2026 年初在新八区的 Super Miao，4 月转去 Lunar Luminescence，带着自己的战斗姐妹修道院（DED Battle Sisters Convent Sanctorum）至今。
+
+自建联盟里那个 WormNest，名字里就写着虫洞筑窝。窝也真筑了：J111011 第五行星一号卫星旁边，一座 POS，挂在 WormNest Will Empress Forever 名下。2026 年 6 月 30 日上午，Dracarys. 联盟的人把它打开，力场一倒，里面停着的船一条接一条变成击杀邮件：十五条长尾鲛、十一条回旋者、七条冲锋者、六条狂暴，外加圣卒、霍克、伊什塔、奥尼克斯各一条。六十一条船没有一条有人驾驶，前后不到十分钟，合计五十多亿；下午又有人回来补了三刀，连旁边漂着的小船也没放过。动手的人里有 [YM sakura](../2116369488/)，也有 B站 UP [死枪](../2114324057/)。第二天，死枪把录像剪成两分四十二秒，标题起得一点不客气：[《竹叶青虫洞驱逐战》](https://www.bilibili.com/video/BV1LHTe6rENE/)。评论区有人纳闷“竹叶青这个团不是在无人机区跟毛子混吗，什么时候成洞团了”，有人打听“竹叶青干过什么特别逆天的事情吗？在贴吧现在搜不到了”，还有人在战利品里看见了 PLEX，问“怎么还有 plex”。十天后又有人留言：在中文频道看到竹叶青活了，“赶紧把这个视频发在频道里，马上他就红温了”。UP 主回了四个字：“这是好事啊。”
 
 ::: 红料 KB：八百多杀，最贵的一枪开在黑名单那十六天里
 竹叶青的 [KB](https://zkillboard.com/character/2121492327/) 八百多个击杀，打掉五千多亿，近百次是单杀，常开的船是送葬者。三年里换了二三十家军团，战绩却没有跟着军团名一起散：账是一条一条攒出来的，走到哪家算哪家。
@@ -112,6 +114,12 @@
 > 我会人工审核查你成分，如果你有长期的 FRT GSF 内典型恶臭大军团雇佣记录那就每个账号交 1b 保证金当赎罪修女来〔和平离开会退还〕
 
 有新人问哪些算“恶臭大军团”，答：PLA 所有人、荣耀、脑浆、女 spy；SNUFF 所有人，“全员诈骗，我也是受害者”；FRT 则“针对全体中高层”。
+
+“受害者”三个字，钱包流水里有账。2025 年 7 月，竹叶青要跟 Snuffed Out 谈外交，钱先付。7 月 26 日凌晨，一笔 250 亿打进 Snuffed Out 旗下军团 One Risky Click 的账户，转完余额只剩五十多亿；五天后又是 150 亿，收款人 Bryan Yakinov，Snuffed Out 的人，头衔“低安之王”（King of Lowsec），转完余额一亿出头。两笔加起来四百亿，几乎是整个钱包。One Risky Click 的军团简介写着招新开放，“给这帮白痴发 EVE 邮件”（Eve-Mail these Idiots）；Bryan Yakinov 的个人简介里有一行“如何在 EVE 里取胜”（How to Win at EvE），下面是本人的心得：
+
+> 脸往键盘上一拍，顺着一划拉，划到那堆玩意儿全死光为止
+
+外交是假的，四百亿没有回来。第二年，Snuffed Out 整个联盟进了修道院的恶臭名单，罪名四个字：全员诈骗。
 
 有吧友好心劝别把 FRT 和 PLA 都挂出来，圈子小，留条后路。回复是：
 

@@ -133,13 +133,50 @@
   "fetched_at": "2026-10-09",
   "identity": {
     "version": 1,
-    "alts": [],
-    "accounts": {}
+    "alts": [
+      {
+        "id": 2115198741,
+        "name": "SkyendlessBB",
+        "sources": [
+          "https://evewho.com/character/2115198741"
+        ],
+        "zkb": {
+          "kills": 635,
+          "lost": 354,
+          "isk_destroyed": 643485760810,
+          "last_active": "2026-10",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2019-05-02 建号，2019-05-22 起在 Watch Eagle（WTEG），2024-07-07 转 Watch Eagle Academy（WE.A），2024-09-18 回 WTEG"
+      },
+      {
+        "id": 2113321460,
+        "name": "Skyendless",
+        "sources": [
+          "https://evewho.com/character/2113321460"
+        ],
+        "zkb": {
+          "kills": 3,
+          "lost": 28,
+          "isk_destroyed": 790895489,
+          "last_active": "2026-10",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2017-10-15 建号，2023-11-17 起在 WTEG，此后在 WTEG / WE.A 间往返，当前 WE.A"
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 2410,
+      "lost": 1026,
+      "isk_destroyed": 1121338080375,
+      "last_active": "2026-10",
+      "as_of": "2026-10-23"
+    }
   },
   "person": {
     "cn_name": "斯凯",
     "aliases": [
-      "Skyendless",
       "skyend",
       "手表鹰"
     ],

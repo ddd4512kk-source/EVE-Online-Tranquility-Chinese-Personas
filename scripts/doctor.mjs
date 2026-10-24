@@ -14,6 +14,10 @@ for (const name of ['@11ty/eleventy', 'gray-matter', 'markdown-it-container']) {
 // Pagefind 的导出仅有 import 条件；核对 CLI，避免 require.resolve 误报缺依赖。
 try { await access(new URL('../node_modules/pagefind/lib/runner/bin.cjs', import.meta.url)); }
 catch { errors.push('缺少依赖 pagefind：请先由代理运行 npm ci。'); }
+// 在其他系统安装过依赖时只剩别的平台包，构建到最后一步才失败。
+const pagefindPlatform = `${process.platform === 'win32' ? 'windows' : process.platform}-${process.arch}`;
+try { await access(new URL(`../node_modules/@pagefind/${pagefindPlatform}/`, import.meta.url)); }
+catch { errors.push(`缺少本机平台包 @pagefind/${pagefindPlatform}：请在本机运行 npm ci。`); }
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
