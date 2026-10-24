@@ -50,3 +50,26 @@
 - [【EVE欧服】4-ABS8无畏战，B2视角](https://www.bilibili.com/video/BV1N8411B7ky/)：标题指名4-ABS8与B2视角，投稿日2023-09-06。
 - [【EVE宁静】4-ABS8，爆金币喽！（23.8.30）](https://www.bilibili.com/video/BV1xw411S7uk/)：标题指名4-ABS8与23.8.30。
 - [Dreadnought Graveyard - The Battle of 4-ABS8](https://www.youtube.com/watch?v=sKBtvDGFH90)：YouTube标题指名4-ABS8。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+文华作品为凛冬方纪实，Freak转载明确B2视角；另采用狂血兔与木棉花等相关作品。不把投稿者归属当原片归方，电影模式及英文作品也不因未知阵营而排除。
+
+- 保留 [燃尽五万亿，血战到天明！EVE世界服4-ABS8无畏会战微纪录片！](https://www.bilibili.com/video/BV1Wu4y1C7ej/)：凛冬方。
+- 保留 [【EVE欧服】4-ABS8无畏战，B2视角](https://www.bilibili.com/video/BV1N8411B7ky/)：B2方（转载）。
+- 推荐 [【EVE欧服】4-ABS8欧服最大纯无畏战 电影模式欣赏](https://www.bilibili.com/video/BV1594y147cJ/)（Freak_03）：标题称其为欧服最大纯无畏战，以电影模式呈现。
+- 推荐 [【EVE宁静】4-ABS8，爆金币喽！（23.8.30）](https://www.bilibili.com/video/BV1xw411S7uk/)（狂血兔与木棉花）：标题写“爆金币喽”，日期标为23.8.30，一线玩家视角。
+- 推荐 [Dreadnought Graveyard - The Battle of 4-ABS8](https://www.youtube.com/watch?v=sKBtvDGFH90)（gocartz97）：英文圈作品，标题把4-ABS8称作无畏坟场。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+- [燃尽五万亿，血战到天明！EVE世界服4-ABS8无畏会战微纪录片！](https://www.bilibili.com/video/BV1Wu4y1C7ej/)（FRT-文华）：凛冬方微纪录片，标题以“燃尽五万亿，血战到天明”概括这场无畏会战。
+- [【EVE欧服】4-ABS8无畏战，B2视角](https://www.bilibili.com/video/BV1N8411B7ky/)（Freak_03）：转载的B2方视角，可与凛冬方纪实对照。
+- [【EVE欧服】4-ABS8欧服最大纯无畏战 电影模式欣赏](https://www.bilibili.com/video/BV1594y147cJ/)（Freak_03）：4-ABS8无畏会战的电影模式作品；原简介附英文原片入口，可与双方实战记录对照。
+- [【EVE宁静】4-ABS8，爆金币喽！（23.8.30）](https://www.bilibili.com/video/BV1xw411S7uk/)（狂血兔与木棉花）：标题写“爆金币喽”，日期标为23.8.30，一线玩家视角。
+- [Dreadnought Graveyard - The Battle of 4-ABS8](https://www.youtube.com/watch?v=sKBtvDGFH90)（gocartz97）：英文圈作品，标题把4-ABS8称作无畏坟场。

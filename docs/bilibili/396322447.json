@@ -1080,10 +1080,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mahola-dian/materials-mahola-dian.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1164,10 +1162,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mahola-dian/materials-mahola-dian.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1194,13 +1190,14 @@
       "reading": {
         "state": "material_linked",
         "material_refs": [
+          "src/people/mahola-dian/materials-mahola-dian.md",
           "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,
-        "selected": false
+        "selected": true
       }
     }
   ]

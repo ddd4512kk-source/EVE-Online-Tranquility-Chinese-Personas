@@ -58,6 +58,8 @@ PH 时期多米和抵抗之狐的 CEO [42 / 四十二](../2121799880/)因为多�
 
 - [《【EVE欧服】静寂谷日常反收割》](https://www.bilibili.com/video/BV1paVJ6FE8v/)：频道里的日常战斗记录，主题直接落在静寂谷反收割；认识这位FC，可以从会议与宫斗之外的日常舰队生活看起。
 - [《EVE欧服 10月4日北军噩梦反剧本地滑》](https://www.bilibili.com/video/BV1T7HW6vEaN/)：北军噩梦应对本地滑的战斗记录，与前一篇的日常反收割搭配，能看到这个频道留下的两类实战题材。
+- [《EVE 欧服：INIT突袭 WC，90 Napoc 对 130 Raven》](https://www.bilibili.com/video/BV1gsz1B3EGX/)：标题把两边舰队规模和主力船型摆在一起，是频道日常舰队战题材的一条直观入口。
+- [《EVE 欧服 PHCN会议（第二段）》](https://www.bilibili.com/video/BV19Abxz7E37/)：会议记录把视线从战场转到组织内部；与第一段连读，可以补上FC频道之外的管理场景。
 :::
 
 ::: 评

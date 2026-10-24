@@ -18,7 +18,7 @@ Proxay还说最初拿海军无畏当诱饵不划算，廉价无畏足以完成�
 
 ## 窗口与分方
 
-接口标记202305141500不是只含15:00—16:00的一小时。原始KM实际覆盖UTC2023-05-14 14:05:56—16:39:25，单星系Turnur；本页采用这份related的完整范围，不扩大星系或补报，未另截window。932条去重KM、1481个角色，总损失1149.889590607B，属史诗规模。含胶囊/建筑等KM，不能称932条船。
+接口标记202305141500不是只含15:00—16:00的一小时。原始KM实际覆盖UTC2023-05-14 14:05:56—16:39:25，单星系Turnur；本页采用这份related的完整范围，不扩大星系或补报，未另截window。932条去重KM、1481个角色，总损失1149.889590607B，属史诗规模。含太空舱/建筑等KM，不能称932条船。
 
 
 
@@ -67,3 +67,24 @@ Proxay还说最初拿海军无畏当诱饵不划算，廉价无畏足以完成�
 - [【EVE Online】图尔鲁尔千人旗舰战 SNUFF+ROTE/Volta/Deepwater & imprium  VS FRT+Panfam](https://www.bilibili.com/video/BV1bT411t7a4/)：标题指名图尔鲁尔，投稿日次日。
 - [【EVE欧服】Turnur：1T+战损！FRT遭围殴](https://www.bilibili.com/video/BV1ec411P7EZ/)：标题指名Turnur，投稿日次日。
 - [【EVE欧服】【星战前夜】无畏战NJF进场秒躺 凛冬(+PF) VS Snuff+DeepWater(+帝国)  兼凛冬方战斗总结](https://www.bilibili.com/video/BV1ia4y1u7Xe/)：投稿日次日，标题对阵与本场相符。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+魔三火原题明确凛冬方总结，NoNo作品为既有素材确认的Snuff侧；另外两部同场作品也已恢复推荐，原录像具体归方不明时不编造，但不因此撤销本场关联。
+
+- 保留 [【EVE欧服】【星战前夜】无畏战NJF进场秒躺 凛冬(+PF) VS Snuff+DeepWater(+帝国)  兼凛冬方战斗总结](https://www.bilibili.com/video/BV1ia4y1u7Xe/)：凛冬方战斗总结。
+- 保留 [【EVE Online】图尔鲁尔千人旗舰战 SNUFF+ROTE/Volta/Deepwater & imprium  VS FRT+Panfam](https://www.bilibili.com/video/BV1bT411t7a4/)：Snuff方。
+- 推荐 [【EVEonline】超万亿战损！图尔鲁尔无畏战 FRT+PH vs BBC+Deepwater+Goons+INIT](https://www.bilibili.com/video/BV1ym4y1b7cK/)（HomuraHikari）：标题记超万亿战损，并列出FRT与PH对BBC、深水、蜜蜂、INIT。
+- 推荐 [【EVE欧服】Turnur：1T+战损！FRT遭围殴](https://www.bilibili.com/video/BV1ec411P7EZ/)（天机坊）：标题写1T+战损，FRT遭围殴。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+- [【EVE欧服】【星战前夜】无畏战NJF进场秒躺 凛冬(+PF) VS Snuff+DeepWater(+帝国)  兼凛冬方战斗总结](https://www.bilibili.com/video/BV1ia4y1u7Xe/)（魔三火）：凛冬方战斗总结，标题写NJF进场秒躺。
+- [【EVE Online】图尔鲁尔千人旗舰战 SNUFF+ROTE/Volta/Deepwater & imprium  VS FRT+Panfam](https://www.bilibili.com/video/BV1bT411t7a4/)（NoNoOwO）：Snuff一侧，标题写图尔鲁尔千人旗舰战。
+- [【EVEonline】超万亿战损！图尔鲁尔无畏战 FRT+PH vs BBC+Deepwater+Goons+INIT](https://www.bilibili.com/video/BV1ym4y1b7cK/)（HomuraHikari）：标题记超万亿战损，并列出FRT与PH对BBC、深水、蜜蜂、INIT。
+- [【EVE欧服】Turnur：1T+战损！FRT遭围殴](https://www.bilibili.com/video/BV1ec411P7EZ/)（天机坊）：标题写1T+战损，FRT遭围殴。

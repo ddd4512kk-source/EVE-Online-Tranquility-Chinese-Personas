@@ -47,12 +47,24 @@ export function readIdentity(directory, characterId) {
     }
   };
   if (!object(identity)) throw new Error(`${file}：必须是 JSON 对象`);
-  keys(identity, ["version", "alts", "accounts"], "identity");
+  const zkb = (value, label) => {
+    if (!object(value)) { fail(`${label}zkb 必须是对象`); return; }
+    keys(value, ["kills", "lost", "isk_destroyed", "last_active", "as_of"], `${label}zkb `);
+    for (const key of ["kills", "lost", "isk_destroyed"]) {
+      if (!Number.isFinite(value[key]) || value[key] < 0) fail(`${label}zkb.${key} 必须是非负数`);
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(value.as_of ?? "")) fail(`${label}zkb.as_of 必须是 YYYY-MM-DD`);
+    if (value.last_active !== undefined && !/^(\d{4}-\d{2})?$/.test(value.last_active)) fail(`${label}zkb.last_active 必须是 YYYY-MM 或空`);
+  };
+  keys(identity, ["version", "alts", "accounts", "zkb"], "identity");
+  if (identity.zkb !== undefined) zkb(identity.zkb, "收录号");
   if (identity.version !== 1) fail("version 必须是 1");
   if (identity.alts !== undefined && !Array.isArray(identity.alts)) fail("alts 必须是对象列表");
   for (const alt of Array.isArray(identity.alts) ? identity.alts : []) {
     if (!object(alt)) { fail("alts 每项必须是对象"); continue; }
-    keys(alt, ["id", "name", "sources"], "小号");
+    keys(alt, ["id", "name", "sources", "basis", "zkb"], "小号");
+    if (alt.basis !== undefined && !text(alt.basis)) fail(`小号 ${alt.id} basis 必须是非空字符串`);
+    if (alt.zkb !== undefined) zkb(alt.zkb, `小号 ${alt.id} `);
     if (!isId(alt.id)) fail("小号 id 必须是正整数");
     if (!text(alt.name)) fail("小号 name 必填，必须是实际角色名");
     sources(alt, `小号 ${alt.id} `);

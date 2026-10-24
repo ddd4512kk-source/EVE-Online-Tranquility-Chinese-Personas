@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validBilibiliUrl, pageStatus, revealCommentSection, loadCommentSection, archivedBvids } from '../bilibili-chrome-read.mjs';
+import { validBilibiliUrl, sanitizeMetadataDescription, pageStatus, revealCommentSection, loadCommentSection, archivedBvids } from '../bilibili-chrome-read.mjs';
 import { runInNewContext } from 'node:vm';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -30,7 +30,7 @@ test('滚动到真实评论区，避免固定滚动越过懒加载入口', () =>
 });
 
 test('仅读取公开页，拒绝账户页面、凭据和伪造域名', () => {
-  for (const url of ['https://space.bilibili.com/53247199/upload/video', 'https://www.bilibili.com/video/BV14s411F7Hh/', 'https://search.bilibili.com/all?keyword=EVE']) assert.equal(validBilibiliUrl(url), url);
+  for (const url of ['https://space.bilibili.com/13329368/upload/opus', 'https://www.bilibili.com/opus/1182987654321098765', 'https://www.bilibili.com/read/cv123', 'https://space.bilibili.com/53247199/upload/video', 'https://www.bilibili.com/video/BV14s411F7Hh/', 'https://search.bilibili.com/all?keyword=EVE']) assert.equal(validBilibiliUrl(url), url);
   for (const url of ['http://space.bilibili.com/1', 'https://space.bilibili.com.evil.test/1', 'https://name:password@space.bilibili.com/1', 'https://space.bilibili.com:9222/1', 'https://www.bilibili.com/account/security', 'https://space.bilibili.com/1/setting']) assert.throws(() => validBilibiliUrl(url));
 });
 test('加载壳和登录导航不算已读，验证码优先于元数据', () => {
@@ -52,4 +52,11 @@ test('已入作品档案的视频收进跳过集合，频道列表候选不算',
   fs.writeFileSync(path.join(dir, 'note.txt'), 'x');
   assert.deepEqual([...archivedBvids(dir)], ['BV1read']);
   assert.equal(archivedBvids(path.join(dir, 'missing')).size, 0);
+});
+
+test('Chrome取得简介时清联系方式，保留同一行BR供后续归档', () => {
+  const report = 'https://br.evetools.org/br/64717b91543bb54ab3337066';
+  const description = sanitizeMetadataDescription(`QQ群12345678 战报：${report}。`);
+  assert.equal(description, `[联系方式略]\n${report}`);
+  assert.equal(description.includes('12345678'), false);
 });

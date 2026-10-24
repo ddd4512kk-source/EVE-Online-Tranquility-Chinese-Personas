@@ -377,7 +377,9 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .bio-charname { margin: .2rem 0 0; color: var(--text-dim); font-size: .95rem; overflow-wrap: anywhere; }
 .bio-aliases { margin: .15rem 0 0; color: var(--text-faint); font-size: .88rem; }
 .bio-aliases span { color: var(--text-dim); }
-.bio-alts { overflow-wrap: anywhere; }
+.bio-alts { overflow-wrap: anywhere; line-height: 1.5; }
+.bio-alts-wrap.is-collapsed .bio-alts { max-height: 3em; overflow: hidden; }
+.bio-alts-wrap .tag-more { margin-top: .3rem; height: 1.6rem; }
 .epithet {
   margin: .6rem 0 0; color: var(--zhu);
   font-family: var(--serif); font-size: 1.05rem; line-height: 1.5;

@@ -1,5 +1,5 @@
 
-未央，游戏名 WEIYANGWEIYANGWEIYANG，FRT 旗下的职业卡商，在中文频道卖月卡。这个号 2022 年 3 月 17 日出生，当天就进了 FRT 的 Beng beng Begn。贴吧账号“可爱的灭帝”。
+未央，收录号 Weiyang Koraka（2019 年 1 月建号），FRT 旗下的职业卡商，在中文频道卖月卡。另一个号 WEIYANGWEIYANGWEIYANG 2022 年 3 月 17 日出生，当天就进了 FRT 的 Beng beng Begn。贴吧账号“可爱的灭帝”。
 
 角色简介是一段公益广告：
 

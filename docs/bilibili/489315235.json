@@ -11,7 +11,12 @@
     "evidence": [
       "对应MSG-MashiMaro／2122590961；明确角色对应，公开文字已归本人素材"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "label": "战役相关视频"
+      }
+    ]
   },
   "channel": {
     "profile": {
@@ -610,7 +615,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:13:14.718Z",
         "source": "https://space.bilibili.com/489315235/upload/video",
-        "scope": "公开投稿列表全部59条（共60条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录59条；旧接口曾报告60条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频59条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1RwJ16TEog",
@@ -1025,7 +1030,18 @@
             "published": "2025-05-21",
             "views": 2374
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:40:35.586Z",
+          "source": "https://space.bilibili.com/489315235/upload/video",
+          "public_video_count": 59,
+          "archived_count": 59,
+          "previous_api_total": 60,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -1104,10 +1120,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1132,10 +1146,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1160,10 +1172,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1225,6 +1235,34 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV173ofBuEat",
+      "title": "04-【EVE欧服】~他们在很认真的玩EVE！只有我在误国~【4-H狂怒大闯关】~右侧导标直达第一期喜提免费新手攻略一份！",
+      "url": "https://www.bilibili.com/video/BV173ofBuEat/",
+      "owner_uid": "489315235",
+      "published_at": "2026-04-26T06:20:41.000Z",
+      "captured_at": "2026-10-24T06:26:15.101Z",
+      "description": "PS：欢迎萌新/AFK回归/老屁股……加入我们一起玩耍~\n\nEVE被玩坏啦！！！！哈哈~~~\n一共2个版本~也可以快进到1:30看另一个版本\n记得开声音！体验感MAX！！~\n\n2026.4.25日-26日~4-H~狂怒大闯关~感谢每一位狂怒选手！~我们一起成功的把EVE玩坏了~EVE真好玩- -",
+      "stats": {
+        "views": 4600,
+        "replies": 39
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     }

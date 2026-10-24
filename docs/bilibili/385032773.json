@@ -625,7 +625,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:12:30.252Z",
         "source": "https://space.bilibili.com/385032773/upload/video",
-        "scope": "公开投稿列表全部115条（共123条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录115条；旧接口曾报告123条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频115条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1eHeH6TE3J",
@@ -1432,7 +1432,18 @@
             "published": "2022-03-06",
             "views": 2290
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:39:58.653Z",
+          "source": "https://space.bilibili.com/385032773/upload/video",
+          "public_video_count": 115,
+          "archived_count": 115,
+          "previous_api_total": 123,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },

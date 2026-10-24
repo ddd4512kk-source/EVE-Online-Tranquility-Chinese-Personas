@@ -41,13 +41,7 @@
 
 [本人空间UID45580](https://space.bilibili.com/45580/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《【EVE】高安航母 山岳级试航》](https://www.bilibili.com/video/BV1ra4y137oG/)
-- [《【EVE】XGB的高级指挥官毕业考试-20200614 PIBC VS BM in U-QVWD》](https://www.bilibili.com/video/BV1Zz4y1Q7kj/)
-- [《【EVE】一条征服者引发的血案。》](https://www.bilibili.com/video/BV1wGpg6sE7y/)
-- [《【EVE】6000人对阵，X47星城装甲攻防战》](https://www.bilibili.com/video/BV1L84y1A7X4/)
-- [《【EVE】进攻桥头堡！抗压，然后千人对射双赢 in X47L-Q》](https://www.bilibili.com/video/BV1QG4y1D7HE/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/45580.json`；只是候选，不据标题归个人事件或判质量。
 
 作品精选尚未完成；优先与既有已读作品去重，核具体简介、选集、作者公开文字与合作角色，再定推荐。不取影像、字幕或音频，未读不判作质量不足。
 

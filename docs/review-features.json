@@ -1,0 +1,84 @@
+{
+  "combat": {
+    "kinds": [
+      "person"
+    ],
+    "implementation": [
+      "scripts/person-identity.mjs",
+      "scripts/person-document.mjs",
+      "scripts/battles.mjs",
+      "scripts/battle-report.mjs",
+      "scripts/battle-archive.mjs"
+    ],
+    "pattern": "指挥|带队|舰队|参战|战役|战场|战斗|泰坦|超旗|会战|旗舰|击杀|战绩|[Kk][Bb]|[Mm]onitor|监视者|FLEET\\s+COMMANDER",
+    "rules": [
+      {
+        "file": "docs/research-method.md",
+        "heading": "### 1. 游戏画像（定位人物时按需）"
+      },
+      {
+        "file": "docs/writing-review.md",
+        "heading": "## zKB与战役写点评，不写账本"
+      },
+      {
+        "file": "docs/writing-review.md",
+        "contains": "**新收录先验调查覆盖，再验文字**"
+      },
+      {
+        "file": "docs/writing-review.md",
+        "contains": "标签表示活动圈子"
+      }
+    ]
+  },
+  "battle-attribution": {
+    "kinds": [
+      "battle"
+    ],
+    "implementation": [
+      "scripts/battles.mjs",
+      "scripts/battle-report.mjs",
+      "scripts/battle-archive.mjs"
+    ],
+    "pattern": "指挥|参战|华人|军团|联盟|阵营",
+    "rules": [
+      {
+        "file": "docs/battle-template.md"
+      }
+    ]
+  },
+  "battle-videos": {
+    "kinds": [
+      "battle"
+    ],
+    "implementation": [
+      "scripts/bilibili-archive.mjs"
+    ],
+    "pattern": "视频|视角|BV[0-9A-Za-z]+|BR|战报",
+    "rules": [
+      {
+        "file": "docs/content-rules.md",
+        "contains": "**相关视频**"
+      },
+      {
+        "file": "docs/research-method.md",
+        "contains": "**战役视频候选**"
+      },
+      {
+        "file": "docs/research-method.md",
+        "contains": "**战役视频关联**"
+      },
+      {
+        "file": "docs/research-method.md",
+        "contains": "**简介战报入口**"
+      },
+      {
+        "file": "docs/research-method.md",
+        "contains": "**B站日期与中文时段**"
+      },
+      {
+        "file": "docs/battle-template.md",
+        "heading": "## 相关视频填写"
+      }
+    ]
+  }
+}

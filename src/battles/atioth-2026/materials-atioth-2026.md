@@ -87,3 +87,32 @@ Noraus 自述 33 泰坦与约 1T 己方损失只按其说法；不据部分 KM �
 - [【EVE欧服】Atioth泰坦爽射](https://www.bilibili.com/video/BV1ftDzBPE8Z/)：标题指名Atioth。
 - [【EVE欧服|WWW日报】4.7/8 艾蒂斯超旗战胜利，INIT又偷鸡](https://www.bilibili.com/video/BV1rNDJBEEfk/)：标题指名艾蒂斯与4.7/8，投稿日2026-04-08。
 - [Atioth's Record Breaking Battle Left The Imperium Licking Wounds](https://www.youtube.com/watch?v=4U97vEszACg)：YouTube标题指名Atioth。
+
+## 视频关联与双方推荐复查（2026-10-24）
+
+复用正式UID档案、完整简介及既有本场素材，未读取影像、音轨或字幕。
+
+- 新关联 [EVE online 在导致GS超旗队被困的节点崩溃前究竟发生了什么？](https://www.bilibili.com/video/BV1WfDEBpEak/)：正式档案docs/bilibili/410060728.json，发表于2026-04-09T00:00:00.000Z，距本页4月6—8日窗口最近一天仅1天；主题明确GS超旗被困与节点崩溃，简介写全场10分钟，本场正文与素材已有同一节点故障及超旗被困事件，无另场线索，按近5日大战主题确认高度相关。归帝国侧的叙述与记录，不据此断言UP驾驶了哪条舰船或承担指挥。与Zero煌的FRT泰坦视角交替优先展示，继续采用其他同场作品。
+- Murphy_eve的BV1ncD7BVEzj《Atioth | EVE Online》发布于4月8日，正落本场日期内，星系也一致：确认本场关联，撤销旧条目仅因简介空白而把关联搁置的处理。原录像阵营另核；本场关联已成立，现采用该作品，介绍不推定舰船或片中驾驶者。
+- Zero煌BV11fDrBDEA1《艾蒂斯星城攻防战》：频道卡片日期4月8日，与本场高度相关；已读作品页完整简介：作者说明这与另一份4K作品内容相同，仅压缩画质及BGM不同，且明确建议看其中一个；保留4K版，不重复占用推荐。
+- 推荐 [【EVE中文】万人会战——凛冬狂怒，帝国之泪下的新世界纪录](https://www.bilibili.com/video/BV1CQDvBwEBN/)（CabbageTimil）：从凛冬一方讲述4月6日星城上线会战，评论区又围绕服务器、撤退与“监狱”说法展开争论。
+- 推荐 [【EVE】全程录像：艾蒂斯会战，1.1万名玩家参与，创造吉尼斯世界纪录（中字解说）](https://www.bilibili.com/video/BV1SHDBBJEB9/)（Awakeallnight（投稿、剪辑）；素材来自EVE-西红柿炒番茄）：以会战录像与中文解说整理艾蒂斯攻防，简介注明素材来自EVE-西红柿炒番茄，可与泰坦视角的投稿对照。
+- 推荐 [【EVE欧服】Atioth泰坦爽射](https://www.bilibili.com/video/BV1ftDzBPE8Z/)（Freak_03）：标题一句“泰坦爽射”，开火一方的视角。
+- 保留本场关联／备选 [【EVE欧服|WWW日报】4.7/8 艾蒂斯超旗战胜利，INIT又偷鸡](https://www.bilibili.com/video/BV1rNDJBEEfk/)（抵抗之狐officials）：WWW日报4.7/8期：标题报艾蒂斯超旗战胜利，又记一笔INIT偷鸡。
+- 保留本场关联／备选 [Atioth's Record Breaking Battle Left The Imperium Licking Wounds](https://www.youtube.com/watch?v=4U97vEszACg)（Galaxier）：英文圈复盘，标题称这场破纪录之战让帝国只能舔舐伤口。
+- 同期图尔鲁尔铁壁、GN7、黑渊部署等明确另场主题不配入艾蒂斯；近日期用于放宽发现，不能覆盖相反证据。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+新增核读抵抗之狐BV1E2DBBAEJ3完整简介：Vince讲话回顾4月6日下午至7日晚二十多小时作战、万人在线、泰坦与星城战果，列NC／凛冬一侧的讲话，不将其战果说法替代本站BR统计。银色BV1J4QwBPEKN于4月10日发布，标题明确万人玩家会战及世界纪录，简介用凛冬华人社区口吻邀人参战，与本场高度相关。墨菲BV1ncD7BVEzj恢复推荐。另一份BV1WEQPB7EWP简介列英文原作oo9Z1rGNwA8，不凭转载将原片驾驶归给墨菲。Zero另一版本BV11fDrBDEA1已读简介确认与已荐4K版同内容，仅画质与BGM不同，不重复荐。Freak BV1MNDqBGEF8、Awake BV1onDvBpEKX同属本轮相关候选，已有作者现场记录优先；FOX日报BV1rNDJBEEfk及Galaxier复盘仍留关联，8个名额内优先不同作者与讲话、实战等不同内容。白菜复盘不凭口吻归为FRT本人视角，作为报道补充。
+
+- [【EVE欧服】艾蒂斯超旗战FRT泰坦视角（4K）](https://www.bilibili.com/video/BV1E5DkBrEuh/)（Zero煌）：FRT泰坦视角的会战记录；作者在简介中说明，全程打了二十多个小时，这份录像从星城被击毁之后开始。
+- [EVE online 在导致GS超旗队被困的节点崩溃前究竟发生了什么？](https://www.bilibili.com/video/BV1WfDEBpEak/)（小宋宋132132）：帝国侧的节点崩溃前记录：作品讲GS超旗队被困前发生了什么，战后一天发布，简介注明记录长十分钟。可与凛冬泰坦视角对照。
+- [Atioth | EVE Online](https://www.bilibili.com/video/BV1ncD7BVEzj/)（Murphy_eve）：墨菲在4月8日发布的艾蒂斯会战作品，补充既有泰坦与节点崩溃记录；简介为空，介绍不推定具体舰船或片中驾驶者。
+- [【EVE欧服】Atioth泰坦爽射](https://www.bilibili.com/video/BV1ftDzBPE8Z/)（Freak_03）：4月8日发布的艾蒂斯泰坦参战作品，标题直称“泰坦爽射”，补充本场大型舰船一侧的记录。
+- [【EVE欧服|抵抗之狐】NCdot联盟领导人Vince战前演讲——勇敢里面有天才，力量和魔法。](https://www.bilibili.com/video/BV1E2DBBAEJ3/)（抵抗之狐officials）：NC领导人Vince的战后讲话，公开简介回顾连续二十多小时作战、泰坦击杀与星城攻防，并说明战争仍在继续。
+- [【EVE】全程录像：艾蒂斯会战，1.1万名玩家参与，创造吉尼斯世界纪录（中字解说）](https://www.bilibili.com/video/BV1SHDBBJEB9/)（Awakeallnight（投稿、剪辑）；素材来自EVE-西红柿炒番茄）：以会战录像与中文解说整理艾蒂斯攻防，简介注明素材来自EVE-西红柿炒番茄，可与泰坦视角的投稿对照。
+- [真正意义上的万人玩家会战！EVE欧服再次刷新吉尼斯世界记录！](https://www.bilibili.com/video/BV1J4QwBPEKN/)（银色汤勺）：会战结束后发布的中文回顾，作者以凛冬华人社区的口吻邀请新人参与战争；与双方现场记录一起了解这场万人会战。
+- [【EVE中文】万人会战——凛冬狂怒，帝国之泪下的新世界纪录](https://www.bilibili.com/video/BV1CQDvBwEBN/)（CabbageTimil）：围绕艾蒂斯万人会战的中文复盘，简介讲述星城上线、帝国撤退与节点崩溃；作为战后报道与现场作品对照，不据报道口吻认定作者站队。

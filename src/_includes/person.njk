@@ -4,7 +4,7 @@ bodyClass: page-person
 ---
 {%- set prev = collections.people | getPreviousCollectionItem(page) -%}
 {%- set next = collections.people | getNextCollectionItem(page) -%}
-{%- set battles = collections.battles | battlesOf(character_id) -%}
+{%- set battles = collections.battles | battlesOf(character_id, content) -%}
 {%- set backHref = '/' %}{% set backLabel = '返回目录' %}
 {% include "back.njk" %}
 <article class="bio" data-pagefind-body{% if collections.battles.length %} data-pagefind-filter="板块:列传"{% endif %}>
@@ -14,7 +14,7 @@ bodyClass: page-person
       <h1 class="bio-name"><span data-pagefind-meta="title">{% if cn_name %}{{ displayName }}{% else %}<a href="https://evewho.com/character/{{ character_id }}" rel="noopener" title="角色 ID：{{ character_id }}">{{ displayName }}</a>{% endif %}</span><span class="bio-suffix">列传</span></h1>
       {% if cn_name %}<p class="bio-charname" lang="en"><a href="https://evewho.com/character/{{ character_id }}" rel="noopener" title="角色 ID：{{ character_id }}">{{ char.name }}</a></p>{% endif %}
       {% if aliases and aliases.length %}<p class="bio-aliases">又名 {% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
-      {% if identity.alts.length %}<p class="bio-aliases bio-alts">小号 {% for alt in identity.alts %}<a href="https://evewho.com/character/{{ alt.id }}" rel="noopener" title="角色 ID：{{ alt.id }}">{{ alt.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+      {% if identity.alts.length %}<div class="bio-alts-wrap"><p class="bio-aliases bio-alts" id="bio-alts">小号 {% for alt in identity.alts %}<a href="https://evewho.com/character/{{ alt.id }}" rel="noopener" title="角色 ID：{{ alt.id }}">{{ alt.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p><button type="button" class="tag-more" aria-controls="bio-alts" aria-expanded="false" hidden>展开 ▾</button></div>{% endif %}
       {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
     </div>
   </header>
@@ -56,3 +56,4 @@ bodyClass: page-person
 </nav>
 
 <script src="{{ "/assets/js/battle-lists.js" | url }}?v={{ site.build }}" defer></script>
+{% if identity.alts.length %}<script src="{{ "/assets/js/bio-alts.js" | url }}?v={{ site.build }}" defer></script>{% endif %}

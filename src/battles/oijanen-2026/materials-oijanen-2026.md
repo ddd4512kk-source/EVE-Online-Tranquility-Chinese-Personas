@@ -46,3 +46,10 @@
 
 - [N老板：战略转进！欧加仑星城攻防战](https://www.bilibili.com/video/BV1vhdSB6Evv/)：标题指欧加仑星城攻防战，投稿日当天。
 - [EVE online 26.04.21 欧加仑的葬礼](https://www.bilibili.com/video/BV1QZdUBwEZ4/)：标题写26.04.21与欧加仑，简介附战报。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+- [EVE online 26.04.21 欧加仑的葬礼](https://www.bilibili.com/video/BV1QZdUBwEZ4/)（小宋宋132132）：标题叫“欧加仑的葬礼”，简介写帝国二比一人数优势与绕路转进低安。
+- [N老板：战略转进！欧加仑星城攻防战](https://www.bilibili.com/video/BV1vhdSB6Evv/)（EVE神崎）：标题借N老板一句“战略转进”。

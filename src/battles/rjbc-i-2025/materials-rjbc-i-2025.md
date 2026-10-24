@@ -29,7 +29,7 @@ BR 没有预分队，故按 front matter 点名联盟后依仓库规则，以组
 
 ## 已收录人物与身份边界
 
-- 小洋，角色 `2114834014`，已收录于 `src/people/6666666-6/`。快照显示其军团 Peoples Liberation Army、联盟 Goonswarm Federation，属攻方；在 KM `131285111` 受害记录中损失的是 Velator（type `606`），估值约 1,809 ISK，不是胶囊。该角色也出现在星城攻击 KM 中。原始类型查表在 `/tmp/eve-battle-next/rjbc-type-names.json`。
+- 小洋，角色 `2114834014`，已收录于 `src/people/6666666-6/`。快照显示其军团 Peoples Liberation Army、联盟 Goonswarm Federation，属攻方；在 KM `131285111` 受害记录中损失的是 Velator（type `606`），估值约 1,809 ISK，不是太空舱。该角色也出现在星城攻击 KM 中。原始类型查表在 `/tmp/eve-battle-next/rjbc-type-names.json`。
 - `Blooming hope`（角色 `2113244892`）驾驶 Keres（type `11178`），快照组织为 De Vliegende Hollander（DVH，corp `98749162`）/ Dracarys.（DC，alliance `99009163`），在 7 条星城相关攻击 KM 上出现，包括最终 Keepstar KM。它是攻方参与证据；未确认可映射到已收录自然人，也不得仅凭 DC/DVH 军团身份推断其现实国籍。当前 `entityNames.json` 中 DVH corp 条目没有 `chinese: true`；Late night poets 与 PLA 才有该标记。
 
 ## 本地研究文件
@@ -38,3 +38,7 @@ BR 没有预分队，故按 front matter 点名联盟后依仓库规则，以组
 - 完整战报 API 原文：`/tmp/eve-battle-next/6924cac37c65360013f7f59a.json`
 - 正式快照生成副本：`/tmp/eve-battle-next/rjbc-i-2025-rjbc-i-2025.json的br`
 - ESI 组织及船型查询回包：`/tmp/eve-battle-next/rjbc-entity-names.json`、`/tmp/eve-battle-next/rjbc-type-names.json`、`/tmp/eve-battle-next/rjbc-attacker-types.json`
+
+## 日期候选关联与推荐（2026-10-24）
+
+新读[UNSC1419：星华喜提第二座星城KM全记录](https://www.bilibili.com/video/BV1AsCrB8EbA/)公开作品页的标题、完整简介与可见主评论。11月18日发布，星城击杀主题距17日RJBC-I不足1日；评论讨论PH及星城投入，没有明确另场证据，按近日期大战主题列高度相关并推荐，不因简介未写星系而拒绝关联，也不凭军团投稿推定录像中的舰船或指挥。原简介主要为星华军团招新，没有BR；主报与分方统计不因视频关联改动。未读取影像、音轨、字幕。

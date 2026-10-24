@@ -20,3 +20,7 @@
 
 - 2026-10-15 贴吧客户端搜索“Ermily”“eve欧服 战战”：全为无关同名或常用词。B站未查。
 - 待核：2019-01 建号当月 171.7B 的来源 KM；北极星 AT18 队名单中是否有他；本人对卖船风波的态度。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘：the real pvpers among those few Chinese players who have experience in major tournaments

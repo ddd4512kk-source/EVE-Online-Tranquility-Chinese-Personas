@@ -25,6 +25,9 @@
 ::: 红料 B站作品精选
 - [《隐投小组-2025年度报告》](https://www.bilibili.com/video/BV1vrmeBuEYQ/)：一年的猎物合集，顺带收获一条舰队新人问题大全。
 - [《雪崩级-不是初一就是十五》](https://www.bilibili.com/video/BV11xJSz7EX8/)：高安截一条雪崩级。评论区有人笑他“枪都能枪歪”，他自认“菜的很”。
+- [《【EVE欧服低安投送】 建国说他想炸蛋~》](https://www.bilibili.com/video/BV1HsovBGEMb/)：题目直接把建国的炸弹念头挂出来，低安投送小组的熟人互动也因此有了入口。
+- [《赛博EVE》](https://www.bilibili.com/video/BV1WJQxY2Exd/)：频道里播放较高的一篇，标题把线上EVE和“赛博”并在一起，适合看看这位低安猎人偶尔怎样给频道换个题目。
+- [《枪哥有勾就咬~》](https://www.bilibili.com/video/BV19ZEF6MEhq/)：标题把低安投送最熟悉的诱饵与猎手关系说成一句江湖口诀；这也是他频道里播放较高的一条。
 :::
 
 ::: 黑料 剪辑是公敌

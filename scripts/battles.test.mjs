@@ -319,13 +319,14 @@ test("第三方展示以30人为界，不删除未知人数或主阵营", () => 
   for (const pilots of [30, 31, null]) assert.equal(visibleSides([{ name: "第三方", pilots }]).length, 1);
 });
 
-test("战役视频可选，最多6项，必须为完整B站视频且不重复", () => {
+test("战役视频可选，最多8项，必须为完整B站视频且不重复", () => {
   const video = { title: "本场复盘", url: "https://www.bilibili.com/video/BV1UK4y1H7XT/", author: "UP", description: "本场撤离视角。" };
   assert.deepEqual(check({ videos: [] }), []);
   assert.deepEqual(check({ videos: [video] }), []);
-  const six = Array.from({ length: 6 }, (_, i) => ({ ...video, url: `https://www.bilibili.com/video/BV${String(i).padStart(10, "0")}` }));
-  assert.deepEqual(check({ videos: six }), []);
-  assert.ok(check({ videos: [...six, video] }).some(e => /最多 6/.test(e)));
+  const eight = Array.from({ length: 8 }, (_, i) => ({ ...video, url: `https://www.bilibili.com/video/BV${String(i).padStart(10, "0")}` }));
+  assert.deepEqual(check({ videos: eight }), []);
+  assert.deepEqual(check({ videos: eight.slice(0, 7) }), []);
+  assert.ok(check({ videos: [...eight, video] }).some(e => /最多 8/.test(e)));
   assert.ok(check({ videos: [video, { ...video, url: "https://bilibili.com/video/BV1UK4y1H7XT?p=2" }] }).some(e => /重复/.test(e)));
   const yt = { ...video, url: "https://www.youtube.com/watch?v=3O56g8KC6CM" };
   assert.deepEqual(check({ videos: [video, yt] }), []);

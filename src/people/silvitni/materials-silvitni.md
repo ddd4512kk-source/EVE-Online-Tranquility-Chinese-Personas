@@ -162,3 +162,14 @@
 试纸当场就验了。那位“极端褪色”转头溜进荣耀自己的帝国新闻社群，先发“我说两个字”，再发“褪色”，补一张猫猫头表情包，下一秒就被移出群聊；群主荣耀只回了一句“你被踢了”。从发出第二个字到被踢，大概没给他留下第三个字的时间。
 
 新闻社天天给别人起外号、开榜单，轮到别人给社长起一个，反应速度比他十八分钟群发吃瓜通报还快。
+
+### 2026-10-22 伊什塔集体死于 NPC 与脚本辩护（2026-10-23 归档，群聊截图与 KM 列表各一张）
+
+- KM 列表：2026-10-22 01:33—01:38，PLA（Goonswarm Federation）、Dusk dreadnought.（Dracarys.）、Fuxi Military Academy（Fraternity Auxiliary）约三十条伊什塔在 RI-JB1、MMUF-8、LT-XI4、F-ZBO0 等十余星系损失，攻击者均为单个天使 NPC（Gist/Gistii/Gistum 系列）。
+- zKill API 核对 PLA 部分：12 条伊什塔，[139332985](https://zkillboard.com/kill/139332985/)（01:33:28）至 [139333031](https://zkillboard.com/kill/139333031/)（01:35:04），每条单一 NPC 攻击者，合计约 19.5 亿 ISK。受害者 ID：2120000724、2120000751、2120000781（连号）、91963071、2114567770、2114885732、2115179022、2116325120、2121621843、2123188894、2124382250（04 paopao）、146823743。
+- Reddit r/Eve 帖 [1xcfu8f《many chinese players synchronously lost to npc at…》](https://www.reddit.com/r/Eve/comments/1xcfu8f/many_chinese_players_synchronously_lost_to_npc_at/)；pullpush 429，正文与全部评论未取得，以下据评论截图两张：
+  - carbondnb（84 赞）：Dracarys 是 botting empire，多年前就满地机器人，有的开着无人机撞自家 POS 护盾；举报给其外交被一笑了之，称其领导层知情。processwater 回“Yup it's been like this for a very long time”。
+  - Strappwn：帝国一边指责别人 housing botters，一边双标；Nikerym（Cloaked）称自己唯一被提供过脚本的联盟是 Goons，来自当时高层；Stunning-Confusion82：本帖零 Goons 发言，若是 Frat 早就刷屏了。
+  - klauskervin（Intergalactic Space Hobos）：Dracarys 自成立起几乎就是专职脚本组织；Low_Gur_3540 回称应换成“china/russia”。
+  - crash_over-ride（TEST）：“PLA? Botting? Ya don't say.”前几天去 Immensea 走了一趟，早已确认。
+- 群聊（凌晨 2:40—2:45）：qspqww 即[漆黑](../qihei/materials-qihei.md)（2026-10-23 身份确认）。qspqww @极端荣耀“你们团里的yst脚本处理了吗”，并贴 KM 列表。PLA-Silvitni-极端荣耀回“我管nm啊”“我不管啊”“你去举报去吧”；qspqww“脚本炸死大航就踢”“脚本死yst不踢”“是不是因为大航太贵了”；荣耀“哪里有脚本”“你说脚本就是脚本？”“你是eveonline GM？”“你就是个j8”“管你屁事”“集体掉线不可以吗”“一键登录 没开抗 怪堆里面死了”“就这个情况”；qspqww“谁家好人1分钟死19个yst”“还全是怪损”“有没有可能”“掉线不会立刻关抗”“我打10-10掉线都不死”；z2azure“嘴够硬”；荣耀连发“你去举报不就完了吗”“你跟我bb啥呢”“快去举报吧”“别犹豫”“快举报”“发动你们所有人”“行吗”。恶霸小熊猫与荣耀另 @极端王哒哒“你去举报去吧”。

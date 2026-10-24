@@ -10,3 +10,7 @@
 
 - **黄鳝个人黑料待补**：已有比赛经历，尚未找到独立争议，不用普通战损凑一黑。
 
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘中的组队说明：we (Fubuki Waifu, Alternative Muv-Luv, Remeleen) joined a Chinese small-gang alliance, Esports Petopia (F1 Monkey)

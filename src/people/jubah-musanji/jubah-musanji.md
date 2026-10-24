@@ -45,6 +45,8 @@ W佬还委托[小冬](../2118205959/)做过[《加入FRT反时区舰队！》](h
 - [《Init教你如何正确冥府刷标（指被抓之后的流程）》](https://www.bilibili.com/video/BV1PBmhByEjR/)：约 7143 播放，是频道里高播放的刷标题材。W佬把原片挂进自己的搬运频道，观众围绕投弹、电池、抗性和救援争起操作来；标题看着像教程，评论区倒先成了战后复盘桌。
 - [《主播教你玩飙车泰坦~（内含已消失的联盟以及结尾有惊喜XD）》](https://www.bilibili.com/video/BV14rdCBzEWM/)：约 6626 播放。标题把飙车泰坦和已经消失的联盟并排摆出来，评论又有人提 POS 弹飞、追问船型；W佬的中文标题负责把人领进门，原片和实际驾驶不归他名下。
 - [《主播教你10MN(10加力)忏悔 ESS PVP》](https://www.bilibili.com/video/BV1YLiVBjEVb/)：约 4934 播放。也是频道里的高播放战术题材，评论谈到反跳、网子、炮扰和 ESS 准入；“主播教你”说的是原片内容，不把教学归给搬运者。
+- [《深水：没想到吧，我是飙车bait无畏~》](https://www.bilibili.com/video/BV12jg76DEKj/)：W佬把“飙车bait无畏”直接写进标题，熟悉他的反时区舰队频道后，这个题目像是给战场上的意外留了一张名片。
+- [《EVE-魔像级 PVP-Solo-剧本10+审判队》](https://www.bilibili.com/video/BV1xGsQzYEEt/)：标题直接交代魔像级、Solo和面对的队伍，是频道中较高播放的单人PVP题材。
 :::
 
 ::: 黑料 四月一日的回调公告
@@ -62,11 +64,11 @@ W佬还委托[小冬](../2118205959/)做过[《加入FRT反时区舰队！》](h
 ::: 黑料 Mr Majestic 的差评
 他的角色简介第一行，是别人骂他的话：
 
-> Mr Majestic ：jubah is shit，you dont want that。
+> Mr Majestic：jubah 就是坨屎，你可别要。
 
 Mr Majestic 是 Goons 旗下一家军团的 CEO，头衔里写着“Keyboard Bomber”。W佬把这句差评原样裱在简介最上面，下面一大段 B 站视频链接之后，才是他的回嘴：
 
-> Why don't you take a look and see if what you're saying goes through your brain and then speaks human language， Mr Majestic
+> 你说话之前能不能先过过脑子，再说句人话？Mr Majestic
 
 先挂差评，再挂回骂，中间夹着七个视频——《FRT：喏，这才是老牌联盟(Gonns)》《FRT和Goons就提升FC练兵达成共识》《红蓝对抗，锻炼FRT EUTZ时区力量 o/》。被蜜蜂 CEO 点名说 shit，在 W佬眼里就是一枚勋章。
 :::

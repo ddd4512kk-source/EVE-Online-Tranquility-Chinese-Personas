@@ -59,6 +59,10 @@
       {
         "material": "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+        "label": "战役相关视频"
       }
     ]
   },
@@ -67,14 +71,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:55:56.258Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:41:42.593Z",
+        "scope": "已存投稿目录740条，网页当前公开视频740条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/9468015/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:55:56.258Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:41:42.593Z",
+        "scope": "已存投稿目录740条，网页当前公开视频740条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/9468015/upload/video"
       },
       "series": {
@@ -123,7 +127,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:55:56.258Z",
         "source": "https://space.bilibili.com/9468015/upload/video",
-        "scope": "公开投稿列表全部738条（共739条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录740条；旧接口曾报告739条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频740条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1pUnT6jEPX",
@@ -5290,12 +5294,95 @@
             "url": "https://www.bilibili.com/video/BV1qW411k7GE/",
             "published": "2018-09-17",
             "views": 672
+          },
+          {
+            "bvid": "BV1SNn46jERh",
+            "title": "【EVE】血腥收割活动引发堵门党狂欢  该对他们出重拳了",
+            "url": "https://www.bilibili.com/video/BV1SNn46jERh/",
+            "published": "2026-10-23",
+            "views": 1406
+          },
+          {
+            "bvid": "BV1o3nx6pEEy",
+            "title": "【EVE】帝国逛街队日记 火力技术与集火效率差距导致的失败 帝国 渎圣 vs 凛冬 缪宁",
+            "url": "https://www.bilibili.com/video/BV1o3nx6pEEy/",
+            "published": "2026-10-22",
+            "views": 859
           }
-        ]
+        ],
+        "updated_at": "2026-10-24T06:42:18.096Z",
+        "increment_source": "https://api.bilibili.com/x/series/recArchivesByKeywords?mid=9468015&keywords=&ps=100&pn=1",
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:41:42.593Z",
+          "source": "https://space.bilibili.com/9468015/upload/video",
+          "public_video_count": 740,
+          "archived_count": 740,
+          "previous_api_total": 739,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
   "videos": [
+    {
+      "bvid": "BV1Fuuv64EJ4",
+      "title": "【EVE】保卫跳桥旗舰对射 遭遇KIKI拯救大兵 DC vs INIT 特种轻拦视角  海幼龙+小旗舰 vs 狂热+KIKI+小旗舰",
+      "url": "https://www.bilibili.com/video/BV1Fuuv64EJ4/",
+      "owner_uid": "9468015",
+      "published_at": "2026-08-11T06:20:46.000Z",
+      "captured_at": null,
+      "description": "第一波打完KIKI进场后，后援舰队组建效率低了，调度有点慢。\nDC缺乏足够的炸弹船逼迫KIKI断开火，+8弱势时区也很难组出足够的人口进行防御。\n这场需要复盘，暴露了很多防守漏洞。",
+      "stats": {
+        "views": 2001,
+        "replies": 22
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV19y3U6dEA1",
+      "title": "【EVE】2026.8.2 阿巴宗千人会战  T2指挥航连续陨落  高低安零零各势力自由开火",
+      "url": "https://www.bilibili.com/video/BV19y3U6dEA1/",
+      "owner_uid": "9468015",
+      "published_at": "2026-08-01T21:24:06.000Z",
+      "captured_at": null,
+      "description": "整场战斗虽然时间膨胀严重，但是总体来说是爽射！\n打的非常爽，低安作战就是如此激情！\n\n欢迎加入PLA兔子团，我们有CG低安稳定战备与生产区间，安排导师带新人，各种入团福利和培养计划，欢迎小伙伴们加入我们690190070",
+      "stats": {
+        "views": 3658,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
     {
       "bvid": "BV1vPNe6KEbL",
       "title": "【EVE】军团内部资料  炸鱼傻瓜教程视频  勿外传",
@@ -5325,6 +5412,88 @@
       }
     },
     {
+      "bvid": "BV1K29yBuEQS",
+      "title": "【补档】【EVE】2026.4.26 帝国系与INIT带领欧服玩家进攻凛冬联盟群首都4-HWWF星城装甲",
+      "url": "https://www.bilibili.com/video/BV1K29yBuEQS/",
+      "owner_uid": "9468015",
+      "published_at": "2026-04-28T14:57:55.000Z",
+      "captured_at": null,
+      "description": "被凛冬联盟的人买服务批量举报了，补档反而证明这个视频的含金量。",
+      "stats": {
+        "views": 1591,
+        "replies": 13
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV17JPkz5E9Z",
+      "title": "【EVE】帝国系舰队协同作战  爽吃FRT超旗海无畏 KIKI+黑隐 vs 万古+海无畏+FAX+舰队暴风",
+      "url": "https://www.bilibili.com/video/BV17JPkz5E9Z/",
+      "owner_uid": "9468015",
+      "published_at": "2026-03-05T05:14:37.000Z",
+      "captured_at": "2026-10-24T06:59:20.491Z",
+      "description": "反诱导拍的有点少，敌对想找地方诱导进场不难，下次要多带点了。\n帝国系军团和个人想做宣传请私信@蜜蜂中文社区",
+      "stats": {
+        "views": 2762,
+        "replies": 23
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1M4fABBEmD",
+      "title": "【EVE】2026.2.22塔夫月矿钻头旗舰战  帝国系死亡漩涡队视角",
+      "url": "https://www.bilibili.com/video/BV1M4fABBEmD/",
+      "owner_uid": "9468015",
+      "published_at": "2026-02-22T16:15:25.000Z",
+      "captured_at": "2026-10-24T06:58:39.922Z",
+      "description": "可惜帝国系起队晚了，场上旗舰KM差不多了才起队，没签到名血亏。。\n帝国系军团和个人想做宣传请私信@蜜蜂中文社区",
+      "stats": {
+        "views": 1266,
+        "replies": 5
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/taff-2026/materials-taff-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV1teyNB6EzH",
       "title": "【EVE】姐妹会远征指挥舰  奥德修斯级舰船介绍  超强辅助能力的多功能舰船",
       "url": "https://www.bilibili.com/video/BV1teyNB6EzH/",
@@ -5349,6 +5518,259 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV17okfBqE8F",
+      "title": "【EVE】帝国系击毁R-AG7W星城  PF联盟群解体  帝国系东征系列战役结局",
+      "url": "https://www.bilibili.com/video/BV17okfBqE8F/",
+      "owner_uid": "9468015",
+      "published_at": "2025-11-10T07:51:19.000Z",
+      "captured_at": "2026-10-24T06:56:30.246Z",
+      "description": "PF联盟群的结局，因为其领导人的懦弱而并不光彩，但不可否认的是它曾是一群EVE玩家的归属，也曾为EVE宇宙增添活力。\n帝国系东征战役，大致可分为 收复卡彻战役、收复伊梅以南阶段、Goonion宣战、进攻灼热战役、进攻因斯战役、R-A围猎战。此系列战役将欧服第二大超级联盟群PF彻底解体。\n帝国系不会入驻无人机区，而是会在无人机区的所有PF残存建筑拆除后，将其作为新的小联盟吃鸡场所，邀请BBC代为管理。",
+      "stats": {
+        "views": 2808,
+        "replies": 33
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1we1UBWEtJ",
+      "title": "【EVE】帝国系对PF联盟群R-AG7W星城展开围猎  大量旗舰陨落PF损失惨重",
+      "url": "https://www.bilibili.com/video/BV1we1UBWEtJ/",
+      "owner_uid": "9468015",
+      "published_at": "2025-11-08T01:12:06.000Z",
+      "captured_at": "2026-10-22T09:36:15.731Z",
+      "description": "",
+      "stats": {
+        "views": 4212,
+        "replies": 52
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1gWTpzDES7",
+      "title": "【EVE】2025.6.5 HB-1NJ 铁壁保卫战 第二战  帝国系兀鹫1队视角  量子芯货舰进场被秒？让我常规为你再争取一次机会！",
+      "url": "https://www.bilibili.com/video/BV1gWTpzDES7/",
+      "owner_uid": "9468015",
+      "published_at": "2025-06-05T00:02:00.000Z",
+      "captured_at": "2026-10-22T09:32:14.814Z",
+      "description": "本场战斗代表着帝国系在HB-1NJ以北的区域有了进攻跳板，在未来可能会通过施压星城来加速帝国系在因斯灼热夺取主权和建设相关功能建筑的进度。",
+      "stats": {
+        "views": 1858,
+        "replies": 18
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1qd7ez9EqR",
+      "title": "【EVE】2025.6.4  HB-1NJ铁壁保卫战  兀鹫+海乌鸦+巴盖斯+小旗舰 vs 鹏鲲+大航  原来是散财童子航母队",
+      "url": "https://www.bilibili.com/video/BV1qd7ez9EqR/",
+      "owner_uid": "9468015",
+      "published_at": "2025-06-03T21:36:19.000Z",
+      "captured_at": "2026-10-22T09:32:00.924Z",
+      "description": "本视频为帝国系兀鹫队视角，感谢FC Medusa的指挥和帝国系各舰队的沟通配合。\n想要来欧服一起玩的小伙伴欢迎加入帝国华人社区（星华军团招新ing）\n\n本场战斗代表着帝国系与PH的战争进入第二阶段，PH的战略紧缩和避战让帝国系获取了灼热与因斯的大部分区域，而以此铁壁为进攻跳板，帝国可以向无人机区的深处进发。",
+      "stats": {
+        "views": 1446,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1FVzrY9EJ2",
+      "title": "【EVE】2024.11.29 帝国黒隐队以身为饵  钓鱼FRT超旗伞  埋伏小旗舰队爽吃势力神装泰坦",
+      "url": "https://www.bilibili.com/video/BV1FVzrY9EJ2/",
+      "owner_uid": "9468015",
+      "published_at": "2024-11-29T15:05:50.000Z",
+      "captured_at": null,
+      "description": "本视频由帝国华人社区黒隐队提供\n\n“你要练捞旗舰就捞旗舰,开泰坦就开泰坦,你总喜欢把它们混为一谈,能活到今天也算是件奇事。”      ——神示级驾驶员",
+      "stats": {
+        "views": 11994,
+        "replies": 80
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/sickle-alter/materials-sickle-alter.md",
+          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1tcYmeWENT",
+      "title": "【EVE】2024.8.13 LJ-YSW铁壁结构战  怎么我后援还没开始组队战损比就爆炸了",
+      "url": "https://www.bilibili.com/video/BV1tcYmeWENT/",
+      "owner_uid": "9468015",
+      "published_at": "2024-08-13T16:42:20.000Z",
+      "captured_at": "2026-10-22T09:26:13.407Z",
+      "description": "因为BR网站炸了，用的是另一个网站的BR。\n欢迎想要一起玩耍的小伙伴加入欧服龙焰DC联盟\nDC联盟旗下星华军团群237650461",
+      "stats": {
+        "views": 1025,
+        "replies": 20
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1CG411r7UD",
+      "title": "【EVE】2023.12.21 Haras防守timer DC洛基队逛街视角",
+      "url": "https://www.bilibili.com/video/BV1CG411r7UD/",
+      "owner_uid": "9468015",
+      "published_at": "2023-12-21T17:47:52.000Z",
+      "captured_at": null,
+      "description": "不要问为啥那么多目标打一半能跳走，问就是开场走位失误那波电子战已经死了\n这也是间接导致后面loki队互打的时候没有一点优势",
+      "stats": {
+        "views": 591,
+        "replies": 1
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/haras-2023/materials-haras-2023.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ij411c7Cf",
+      "title": "【EVE】X47L星城烟花 千金难买一声响",
+      "url": "https://www.bilibili.com/video/BV1ij411c7Cf/",
+      "owner_uid": "9468015",
+      "published_at": "2023-04-10T12:29:49.000Z",
+      "captured_at": "2026-10-24T06:53:48.914Z",
+      "description": "为这一次烟花，花费了多少时间精力舰船战备",
+      "stats": {
+        "views": 2981,
+        "replies": 27
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV13D4y1Y7ik",
+      "title": "【EVE】2022.12.4铁壁守卫战 DC狂热队第一视角",
+      "url": "https://www.bilibili.com/video/BV13D4y1Y7ik/",
+      "owner_uid": "9468015",
+      "published_at": "2022-12-04T12:40:59.000Z",
+      "captured_at": "2026-10-24T06:53:21.827Z",
+      "description": "DC狂热队火力视角 2022.12.4铁壁保卫战\n原本以为是开场玉碎队，没想到损失不大\n未参与后半段蜜蜂乱杀敌军过程\n战略目标和战损比目标都达成\n我在这里放两个炮扰，请流浪有序领取",
+      "stats": {
+        "views": 1523,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/h-pa29-2022/materials-h-pa29-2022.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     },
@@ -5461,259 +5883,6 @@
       },
       "usage": {
         "body": true,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1FVzrY9EJ2",
-      "title": "【EVE】2024.11.29 帝国黒隐队以身为饵  钓鱼FRT超旗伞  埋伏小旗舰队爽吃势力神装泰坦",
-      "url": "https://www.bilibili.com/video/BV1FVzrY9EJ2/",
-      "owner_uid": "9468015",
-      "published_at": "2024-11-29T15:05:50.000Z",
-      "captured_at": null,
-      "description": "本视频由帝国华人社区黒隐队提供\n\n“你要练捞旗舰就捞旗舰,开泰坦就开泰坦,你总喜欢把它们混为一谈,能活到今天也算是件奇事。”      ——神示级驾驶员",
-      "stats": {
-        "views": 11994,
-        "replies": 80
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/sickle-alter/materials-sickle-alter.md",
-          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": true
-      }
-    },
-    {
-      "bvid": "BV1K29yBuEQS",
-      "title": "【补档】【EVE】2026.4.26 帝国系与INIT带领欧服玩家进攻凛冬联盟群首都4-HWWF星城装甲",
-      "url": "https://www.bilibili.com/video/BV1K29yBuEQS/",
-      "owner_uid": "9468015",
-      "published_at": "2026-04-28T14:57:55.000Z",
-      "captured_at": null,
-      "description": "被凛冬联盟的人买服务批量举报了，补档反而证明这个视频的含金量。",
-      "stats": {
-        "views": 1591,
-        "replies": 13
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV19y3U6dEA1",
-      "title": "【EVE】2026.8.2 阿巴宗千人会战  T2指挥航连续陨落  高低安零零各势力自由开火",
-      "url": "https://www.bilibili.com/video/BV19y3U6dEA1/",
-      "owner_uid": "9468015",
-      "published_at": "2026-08-01T21:24:06.000Z",
-      "captured_at": null,
-      "description": "整场战斗虽然时间膨胀严重，但是总体来说是爽射！\n打的非常爽，低安作战就是如此激情！\n\n欢迎加入PLA兔子团，我们有CG低安稳定战备与生产区间，安排导师带新人，各种入团福利和培养计划，欢迎小伙伴们加入我们690190070",
-      "stats": {
-        "views": 3658,
-        "replies": 16
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1CG411r7UD",
-      "title": "【EVE】2023.12.21 Haras防守timer DC洛基队逛街视角",
-      "url": "https://www.bilibili.com/video/BV1CG411r7UD/",
-      "owner_uid": "9468015",
-      "published_at": "2023-12-21T17:47:52.000Z",
-      "captured_at": null,
-      "description": "不要问为啥那么多目标打一半能跳走，问就是开场走位失误那波电子战已经死了\n这也是间接导致后面loki队互打的时候没有一点优势",
-      "stats": {
-        "views": 591,
-        "replies": 1
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/haras-2023/materials-haras-2023.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1Fuuv64EJ4",
-      "title": "【EVE】保卫跳桥旗舰对射 遭遇KIKI拯救大兵 DC vs INIT 特种轻拦视角  海幼龙+小旗舰 vs 狂热+KIKI+小旗舰",
-      "url": "https://www.bilibili.com/video/BV1Fuuv64EJ4/",
-      "owner_uid": "9468015",
-      "published_at": "2026-08-11T06:20:46.000Z",
-      "captured_at": null,
-      "description": "第一波打完KIKI进场后，后援舰队组建效率低了，调度有点慢。\nDC缺乏足够的炸弹船逼迫KIKI断开火，+8弱势时区也很难组出足够的人口进行防御。\n这场需要复盘，暴露了很多防守漏洞。",
-      "stats": {
-        "views": 2001,
-        "replies": 22
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1tcYmeWENT",
-      "title": "【EVE】2024.8.13 LJ-YSW铁壁结构战  怎么我后援还没开始组队战损比就爆炸了",
-      "url": "https://www.bilibili.com/video/BV1tcYmeWENT/",
-      "owner_uid": "9468015",
-      "published_at": "2024-08-13T16:42:20.000Z",
-      "captured_at": "2026-10-22T09:26:13.407Z",
-      "description": "因为BR网站炸了，用的是另一个网站的BR。\n欢迎想要一起玩耍的小伙伴加入欧服龙焰DC联盟\nDC联盟旗下星华军团群237650461",
-      "stats": {
-        "views": 1025,
-        "replies": 20
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1qd7ez9EqR",
-      "title": "【EVE】2025.6.4  HB-1NJ铁壁保卫战  兀鹫+海乌鸦+巴盖斯+小旗舰 vs 鹏鲲+大航  原来是散财童子航母队",
-      "url": "https://www.bilibili.com/video/BV1qd7ez9EqR/",
-      "owner_uid": "9468015",
-      "published_at": "2025-06-03T21:36:19.000Z",
-      "captured_at": "2026-10-22T09:32:00.924Z",
-      "description": "本视频为帝国系兀鹫队视角，感谢FC Medusa的指挥和帝国系各舰队的沟通配合。\n想要来欧服一起玩的小伙伴欢迎加入帝国华人社区（星华军团招新ing）\n\n本场战斗代表着帝国系与PH的战争进入第二阶段，PH的战略紧缩和避战让帝国系获取了灼热与因斯的大部分区域，而以此铁壁为进攻跳板，帝国可以向无人机区的深处进发。",
-      "stats": {
-        "views": 1446,
-        "replies": 16
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1gWTpzDES7",
-      "title": "【EVE】2025.6.5 HB-1NJ 铁壁保卫战 第二战  帝国系兀鹫1队视角  量子芯货舰进场被秒？让我常规为你再争取一次机会！",
-      "url": "https://www.bilibili.com/video/BV1gWTpzDES7/",
-      "owner_uid": "9468015",
-      "published_at": "2025-06-05T00:02:00.000Z",
-      "captured_at": "2026-10-22T09:32:14.814Z",
-      "description": "本场战斗代表着帝国系在HB-1NJ以北的区域有了进攻跳板，在未来可能会通过施压星城来加速帝国系在因斯灼热夺取主权和建设相关功能建筑的进度。",
-      "stats": {
-        "views": 1858,
-        "replies": 18
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1we1UBWEtJ",
-      "title": "【EVE】帝国系对PF联盟群R-AG7W星城展开围猎  大量旗舰陨落PF损失惨重",
-      "url": "https://www.bilibili.com/video/BV1we1UBWEtJ/",
-      "owner_uid": "9468015",
-      "published_at": "2025-11-08T01:12:06.000Z",
-      "captured_at": "2026-10-22T09:36:15.731Z",
-      "description": "",
-      "stats": {
-        "views": 4212,
-        "replies": 52
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
         "selected": false
       }
     }

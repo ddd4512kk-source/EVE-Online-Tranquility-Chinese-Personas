@@ -14,7 +14,7 @@
 - 雇佣：Lazy Chromosomes（2017-09—2025-01，2024-09-27 起属 Mercedes. 联盟）→ EGBPC（2025-01-27—02-23，WBCA）→ E.T.C（2025-06-24—29，E.T.C-02／name909954）→ EGBPC（2025-12-27 起，WBCA）。
 - zKB：击杀 347（856.3B），损失 75（47.3B）；常用船 Panther 72、Archon 63、Tempest 33、Raven 30、Abaddon 24；常去 Ahbazon、Frarie、Gukarla、Vecamia。各号统计不相加。
 - 代表击杀：2024-12-01 Akora Karura 16.3B（[122919823](https://zkillboard.com/kill/122919823/)，Adept.，26 人，本人 Redeemer）；2024-12-21 Tama Hubris 18.1B（[123404235](https://zkillboard.com/kill/123404235/)，Victory or Whatever，88 人，本人 Oracle）；2025-08-10 Yehaba Nyx 79.1B（[129116235](https://zkillboard.com/kill/129116235/)，Kiddy Girl-and，87 人，本人 Archon），同时 Phoenix Navy Issue 10.2B；2025-08-26 Aurohunen Ark 10.7B（SGExpress Mail Service，本人 Panther）。
-- 主要损失：2024-12-14 J125990 Revelation 8.1B（[123234619](https://zkillboard.com/kill/123234619/)，26 人；同场 13:54 一枚 Lazy Chromosomes 逃生舱、13:50 一条 EGBPC 小船损失；该星系当月无其他无畏损失）；2026-08-29 Uanzin Apostle 7.2B；2026-02-10、02-12 Kinakka 两条 Archon（4.7B、5.2B）；2024-11-28 6E-578 Archon 4.5B；2026-01-19 Olettiers Panther 1.6B。
+- 主要损失：2024-12-14 J125990 Revelation 8.1B（[123234619](https://zkillboard.com/kill/123234619/)，26 人；同场 13:54 一枚 Lazy Chromosomes 太空舱、13:50 一条 EGBPC 小船损失；该星系当月无其他无畏损失）；2026-08-29 Uanzin Apostle 7.2B；2026-02-10、02-12 Kinakka 两条 Archon（4.7B、5.2B）；2024-11-28 6E-578 Archon 4.5B；2026-01-19 Olettiers Panther 1.6B。
 - 对“五无畏加建筑”：12 月这条 Revelation 是已核的一条；其余四条与建筑仍未对上（330Li 无无畏损失，Lazy Chromosomes 2024-12 只有 3 条损失）。
 
 ## 2025-09-06 Dantumi 被 Snuffed Out 吃
@@ -84,3 +84,21 @@
 ### [【EVE欧服低安投送】隐投小组-2025年度报告](https://www.bilibili.com/video/BV1vrmeBuEYQ/)
 
 发布日期（UTC）：2025-12-14；上传者：金鹏馅的韭菜盒子／357702663。简介感谢每一位成员的付出，是低安隐投小组的2025年度总结入口。已核前3主评论，一条问怎么加入，另两条捧场；目前没有取得作者对招募的答复，不据此新增招新负责人、人数或年度战果。可与个人战斗录像分开，后续追小队持续组织与成员合作时复用。
+
+
+## 2026-10-24 B站精选补充（本轮）
+
+- BV1HsovBGEMb《建国说他想炸蛋~》（904播放）、BV1WJQxY2Exd《赛博EVE》（2663播放）；来源：UID 357702663（docs/bilibili/357702663.json）。
+
+本轮依据已存 UID 档案中的投稿标题、当时播放量及既有正文/素材去重；未访问作品页、未读取影像音频字幕。推荐语只概括标题可见题材，不据标题断言具体操作、战果或制作质量。
+
+新增精选：
+- [《【EVE欧服低安投送】 建国说他想炸蛋~》](https://www.bilibili.com/video/BV1HsovBGEMb/)：题目直接把建国的炸弹念头挂出来，低安投送小组的熟人互动也因此有了入口。
+- [《赛博EVE》](https://www.bilibili.com/video/BV1WJQxY2Exd/)：频道里播放较高的一篇，标题把线上EVE和“赛博”并在一起，适合看看这位低安猎人偶尔怎样给频道换个题目。
+
+
+## 2026-10-24 B站精选补充（二）
+
+BV19ZEF6MEhq《枪哥有勾就咬~》（1489播放），来源UID 357702663（docs/bilibili/357702663.json）。
+
+本轮读取主代理整理的频道全目录，按存档播放量优先挑选未在正式列传红黑料展开的本人投稿；只依据标题和已有播放数，不访问作品页、不读影像音频字幕。未见标题明确标注联合制作的候选。

@@ -35,13 +35,13 @@ zKillboard 生涯击杀 932，用得最多的是幽灵和忏悔者。翻译员�
 ::: 黑料 简介：一份舰船属性表
 兔仔猪的角色简介，照着游戏里舰船说明的格式给自己写了一份属性：
 
-> Writer bonuses (per skill level):
-> +0.1% bonus to Writing thread words amount
-> +0.1% bonus to Reading EVE news time requirements
-> Translator bonuses (per skill level):
-> +0.1% bonus to Translating EVE news time requirements
-> Role bonus:
-> 100% bonus to Keyboard typing speed
+> 作家加成（每技能等级）：
+> 发帖字数 +0.1% 加成
+> 阅读 EVE 新闻所需时间 +0.1% 加成
+> 翻译加成（每技能等级）：
+> 翻译 EVE 新闻所需时间 +0.1% 加成
+> 职能加成：
+> 键盘打字速度 +100% 加成
 
 每级技能加成只有 0.1%，唯一的满额加成是打字速度。二百九十篇翻译，靠的就是这个职业加成。
 :::

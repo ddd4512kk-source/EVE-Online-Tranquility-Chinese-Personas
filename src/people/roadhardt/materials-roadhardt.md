@@ -38,42 +38,10 @@ Etz haChayim-01（98732201）的四个角色均归 Roadhardt，合并为一篇�
 
 ## B站作品续读
 
-2026-10-13 Chrome页面显示30条投稿，30条标题均已显示，现补齐对应BV表（前轮误滤掉两个纯数字标题）。暂无分页缺口；当时视频简介与评论未读，2026-10-14已补5个作品文字，见下文；不取影像。旧API -352只是历史失败，列表读取已经恢复。
+2026-10-13 Chrome页面显示30条投稿，30条标题均已显示，对应BV已全部归B站档案（前轮误滤掉两个纯数字标题，已补）。暂无分页缺口；当时视频简介与评论未读，2026-10-14已补5个作品文字，见下文；不取影像。旧API -352只是历史失败，列表读取已经恢复。
 
 2018年的跳驱、ECM与小船SOLO，2020年的海霍克、茶隼、夜魔侠等是内容续读入口；标题“失误较多”“SOLO作死”留作本人自嘲线索，不凭标题补损失与战果。
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1MK41137hn](https://www.bilibili.com/video/BV1MK41137hn/) | 讲究的海霍克 |
-| [BV14Z4y1G7e4](https://www.bilibili.com/video/BV14Z4y1G7e4/) | 茶隼 |
-| [BV1c54y167XJ](https://www.bilibili.com/video/BV1c54y167XJ/) | 夜魔侠 |
-| [BV1vf4y1q7kw](https://www.bilibili.com/video/BV1vf4y1q7kw/) | Tristan-1 |
-| [BV1Vz4y1k7eU](https://www.bilibili.com/video/BV1Vz4y1k7eU/) | Tristan-2 |
-| [BV1Ya4y1p7WB](https://www.bilibili.com/video/BV1Ya4y1p7WB/) | 1117火尾鸡 |
-| [BV1qt4y1a7DA](https://www.bilibili.com/video/BV1qt4y1a7DA/) | 1115海慧星 |
-| [BV1rZ4y137ZC](https://www.bilibili.com/video/BV1rZ4y137ZC/) | 1114分裂者 |
-| [BV1nV411a761](https://www.bilibili.com/video/BV1nV411a761/) | 1115加姆 |
-| [BV19r4y1F7YW](https://www.bilibili.com/video/BV19r4y1F7YW/) | 1114火尾鸡 |
-| [BV1F54y167j1](https://www.bilibili.com/video/BV1F54y167j1/) | 1112VADAMIK |
-| [BV17K4y1j7iW](https://www.bilibili.com/video/BV17K4y1j7iW/) | 1112海慧星 |
-| [BV1EW411K7bh](https://www.bilibili.com/video/BV1EW411K7bh/) | 断崖对女妖，失误较多 |
-| [BV1SW411T73v](https://www.bilibili.com/video/BV1SW411T73v/) | 星门接战 |
-| [BV1VW411u7t2](https://www.bilibili.com/video/BV1VW411u7t2/) | 0328~0328跳驱 |
-| [BV1qW411M72j](https://www.bilibili.com/video/BV1qW411M72j/) | 0324跳驱 |
-| [BV1mW411g7SA](https://www.bilibili.com/video/BV1mW411g7SA/) | 狂暴二段跳 |
-| [BV12W411p7VX](https://www.bilibili.com/video/BV12W411p7VX/) | ECM0316 |
-| [BV1gW411s78Q](https://www.bilibili.com/video/BV1gW411s78Q/) | 2018-03-10 ECM |
-| [BV1DW411W7tQ](https://www.bilibili.com/video/BV1DW411W7tQ/) | TAMA星门成盒 |
-| [BV1mW411W77C](https://www.bilibili.com/video/BV1mW411W77C/) | 跳驱0307-1 |
-| [BV1YW411x7ja](https://www.bilibili.com/video/BV1YW411x7ja/) | exefile 2018-03-04 茶隼 |
-| [BV1HW411x74k](https://www.bilibili.com/video/BV1HW411x74k/) | exefile 2018-03-03 |
-| [BV1PW41147Pr](https://www.bilibili.com/video/BV1PW41147Pr/) | 0222，SOLO作死 |
-| [BV11W41177k3](https://www.bilibili.com/video/BV11W41177k3/) | 0221ECM |
-| [BV1fW41177Wg](https://www.bilibili.com/video/BV1fW41177Wg/) | 0210跳驱 |
-| [BV1wW411E7dD](https://www.bilibili.com/video/BV1wW411E7dD/) | 0207ECM |
-| [BV18W411n77Z](https://www.bilibili.com/video/BV18W411n77Z/) | 0209跳驱 |
-| [BV1MW411x7fd](https://www.bilibili.com/video/BV1MW411x7fd/) | 0303 |
-| [BV1QW41147yW](https://www.bilibili.com/video/BV1QW41147yW/) | 0226 |
+待读作品的标题与BV见B站档案 `docs/bilibili/21781211.json`（30条，未读内容不凭标题补造事件）。
 
 ## 本人作品的文字复盘与评论（2026-10-14）
 
@@ -101,3 +69,12 @@ Etz haChayim-01（98732201）的四个角色均归 Roadhardt，合并为一篇�
 - [《讲究的海霍克》](https://www.bilibili.com/video/BV1MK41137hn/)：推荐读他怎样承认对手留情，又把这段余地用来测试手动绕行。简介顺带批评专挑无风险目标、只追求不死的胜率审美；既有具体试验，也有这位小船作者为什么愿意公开失败的解释。
 - [《夜魔侠》](https://www.bilibili.com/video/BV1c54y167XJ/)：猜错配置的完整错题本。作者以为对面要风筝，见落点近便冲上去，迎面撞上中子炮；简介把自己的判断和结果逐一对照，读者能顺着他的误判重新想网子与距离。
 - [《0222，SOLO作死》](https://www.bilibili.com/video/BV1PW41147Pr/)：推荐连评论答疑一起读。他解释加力近战的取舍，也认下维修开早、残血接战的问题；至于为什么专留不利对局，他答抓死对手的录像录一个就够了。频道的教学脾气，这一篇交代得最直白。
+
+## 2026-10-24 B站作品精选补充
+
+按合并频道候选 `/tmp/up-fill-candidates-roadhardt.json`（UID档案 `docs/bilibili/21781211.json`）补选4条至5条。标题、简介与播放计数来自既有档案；未访问作品页，未读影像、音频或字幕。只挑EVE小船对局，排除列传红料“打一分钟，复盘一小时”中已展开的作品；没有将未读当作质量判断。
+
+- [BV1EW411K7bh](https://www.bilibili.com/video/BV1EW411K7bh/)《断崖对女妖，失误较多》：446播放。
+- [BV1SW411T73v](https://www.bilibili.com/video/BV1SW411T73v/)《星门接战》：479播放。
+- [BV1DW411W7tQ](https://www.bilibili.com/video/BV1DW411W7tQ/)《TAMA星门成盒》：532播放。
+- [BV1nV411a761](https://www.bilibili.com/video/BV1nV411a761/)《1115加姆》：238播放。

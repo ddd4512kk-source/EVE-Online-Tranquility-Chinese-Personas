@@ -29,6 +29,10 @@ Freak 的 [KB](https://zkillboard.com/character/2113467365/) 厚得像一本老�
 
 ::: 红料 B站作品精选
 - [《7分钟速览ABZ千艘无畏对轰战斗》](https://www.bilibili.com/video/BV1jf421U74Q/)：适合作为大会战入门。作者置顶先交代集结与铁壁争夺，再分攻守两方列出参战规模和无畏投入；按他的统计，双方累计投入1489艘无畏、击毁484艘。比起只报一个“爆射”结果，这段文字先把两边为什么聚到一起、带了多少家当讲清楚，读者更容易跟上战局。
+- [《为救征服者snuff昏了头，9开泰坦猛猛D》](https://www.bilibili.com/video/BV1ZWpG69Eto/)：标题把救援目标、对手和“9开泰坦”写成一口气的战场叙述，适合从频道题材感受他偏爱的夸张战报口吻。
+- [《Atioth泰坦爽射》](https://www.bilibili.com/video/BV1ftDzBPE8Z/)：标题直接点出 Atioth 与泰坦参战，作为他记录大规模战场的简明入口。
+- [《双开PLD爽刷旗舰本，效率惊人》](https://www.bilibili.com/video/BV1nW4y167hz/)：标题从双开与旗舰本切入，补充他频道里围绕旗舰本活动的题材。
+- [《N老板指挥原声发送，爆杀B2联盟群》](https://www.bilibili.com/video/BV1ij411N7aG/)：标题把指挥原声和战斗结果放在一起，适合作为他频道战报叙事之外的指挥视角入口。
 :::
 
 ::: 黑料 钓鱼佬

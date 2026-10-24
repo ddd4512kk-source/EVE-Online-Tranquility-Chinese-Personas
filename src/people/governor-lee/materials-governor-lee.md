@@ -101,3 +101,7 @@
 ### 战绩数字（自正文移入）
 
 - KB：2221 杀、约两万亿 ISK。2024-02 Camal、Sieh、Y-MPWL 三座 Keepstar：[KM 115543432](https://zkillboard.com/kill/115543432/)、[115593836](https://zkillboard.com/kill/115593836/)、[115743779](https://zkillboard.com/kill/115743779/)，当月击杀约 8900 亿。2023-05-27 老人星（大型，约 564.53B）[KM 109208202](https://zkillboard.com/kill/109208202/)，夜鹰，Absolute Honor 一方，原报分在含 FRT、帝国的第二组。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 对雇佣兵 Aiko 的喊话：Yoooo Aiko, longtime no see xD / Did you miss me xD I missed you alot <33

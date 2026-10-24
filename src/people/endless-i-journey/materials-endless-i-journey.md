@@ -28,13 +28,7 @@
 
 [本人空间UID272419368](https://space.bilibili.com/272419368/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得21、21个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《【EVE 欧服】杀死比赛！魔像废弃圣坛8000w一跳！》](https://www.bilibili.com/video/BV13ySdBeEno/)
-- [《【EVE】刷标海莫洛直面70隐轰》](https://www.bilibili.com/video/BV1fRftBxEiU/)
-- [《【EVE正经教学】魔像刷怪--加达里钢琴的正确打开方式》](https://www.bilibili.com/video/BV1uF4m1L7Ei/)
-- [《【EVE】舒缓/助眠向 魔像哄20个暴风宝宝睡觉》](https://www.bilibili.com/video/BV1cHtm6rEya/)
-- [《[EVE欧服] 一跳6000w，凤凰人称小魔像》](https://www.bilibili.com/video/BV1DtgazSEYg/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/272419368.json`；只是候选，不据标题归个人事件或判质量。
 
 此处为补取入口时的待办；后续核读范围、五条精选与未读缺口见下方2026-10-17记录。不取影像、字幕或音频，未读不判作质量不足。
 
@@ -71,3 +65,13 @@
 正文已提及的下列作品同样撤出精选，故事保留：
 
 - [《魔像跳出去无双！魔像76星纪念！》](https://www.bilibili.com/video/BV1Bt3BetEoY/)：纪念船、给自家CEO堆怪头衔招新，作者又说明伴奏用Suno自制，个人创作与YSS的熟人文化都很突出。
+
+
+## B站作品精选补充（2026-10-24）
+
+本轮依据 docs/bilibili/272419368.json 的本人频道公开投稿列表与既有播放计数，按标题选择下列 EVE 作品补足精选。未读取视频影像、音频、字幕或视频页；推荐理由仅据标题及素材中已有的相关文字，不评价未读视听内容。
+
+- [[EVE欧服] 一跳6000w，凤凰人称小魔像](https://www.bilibili.com/video/BV1DtgazSEYg/)（BV1DtgazSEYg，频道列表记录播放 6568）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [【EVE】如何正确地使用海凤凰刷标](https://www.bilibili.com/video/BV1hqfaBWEvs/)（BV1hqfaBWEvs，频道列表记录播放 6368）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [【EVE】无畏与INIT隐轰嬉戏打闹的20分钟](https://www.bilibili.com/video/BV1mx8m6REep/)（BV1mx8m6REep，频道列表记录播放 5266）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [【EVE】海军神示 Tank 70+隐轰第一视角](https://www.bilibili.com/video/BV1eVMo6uESE/)（BV1eVMo6uESE，频道列表记录播放 3334）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。

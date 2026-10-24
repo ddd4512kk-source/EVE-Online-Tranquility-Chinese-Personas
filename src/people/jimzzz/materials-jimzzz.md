@@ -31,3 +31,7 @@
 正文已将本场经历并入战绩红料，原综合 KB 与其他战役保留；常规舰损失只作参战依据，不增黑料。
 
 - zKillboard 旧版正文取数：生涯击杀 4551，主力恶狼；入坑第二年单月击杀约 1.24 万亿。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘帖引文：successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz

@@ -19,3 +19,7 @@
 
 - 2026-10-15 贴吧客户端搜索“Funny RUA”“eve欧服 滑子”：全为无关内容。B站未查。
 - 待核：Funny.Mub.Pee 的 CEO；推荐他的朋友；社区中“滑子”的其他记述。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘：are all recognized and trusted comrades

@@ -22,3 +22,7 @@
 - 代表记录：[KM 111321206](https://zkillboard.com/kill/111321206/)，2023-08-29T22:30:30.000Z，船型 Moros；其余记录与分方依据见[本场素材](../../battles/4-abs8-2023/materials-4-abs8-2023.md)。
 - 本次补齐战役自动关联与素材；未据一般参战另立个人红黑料块。
 - zKillboard 生涯数据：常用船缪宁居首，其次俄洛巴斯 47 次、雷裔、夜神 32 次、莫洛；2020 年底 M2-XFE 首战所在月参与击杀约 1.4T ISK。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘原文：successfully recruited Garveen Airuta and Dan Hua, former teammates from the ST

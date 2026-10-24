@@ -42,9 +42,9 @@
 
 ## 完整战报补齐分方统计（2026-10-19）
 
-CCP 新闻链接的完整 BR：https://br.evetools.org/br/6017dee563b1ed001b2f3c49 ，当前 composition 实际完整覆盖 2020-12-30 22:00—12-31 11:00 UTC，共 3409 条 KM；纠正旧素材将其记为局部样本的缺口。team 0 帝国、team 1 PAPI。分方损失合计 23990.108138405B 为 BR 估值，CCP 总额 29111.6B 是另一估值口径，页面保留 CCP 总额；不按比例摊派，也不把 CCP 纯船体损失数与含胶囊的 KM 条数混为一谈。
+CCP 新闻链接的完整 BR：https://br.evetools.org/br/6017dee563b1ed001b2f3c49 ，当前 composition 实际完整覆盖 2020-12-30 22:00—12-31 11:00 UTC，共 3409 条 KM；纠正旧素材将其记为局部样本的缺口。team 0 帝国、team 1 PAPI。分方损失合计 23990.108138405B 为 BR 估值，CCP 总额 29111.6B 是另一估值口径，页面保留 CCP 总额；不按比例摊派，也不把 CCP 纯船体损失数与含太空舱的 KM 条数混为一谈。
 
-按页面阵营顺序列出；角色取本方攻击者与受害者正数角色 ID 并集，损失按受害方求和，记录按 KM ID 去重，含胶囊、建筑。全场 6885 角色、3409 条 KM。
+按页面阵营顺序列出；角色取本方攻击者与受害者正数角色 ID 并集，损失按受害方求和，记录按 KM ID 去重，含太空舱、建筑。全场 6885 角色、3409 条 KM。
 
 | 参战角色 | 损失 B | 损失记录条数 |
 | --- | --- | --- |
@@ -57,3 +57,22 @@ CCP 新闻链接的完整 BR：https://br.evetools.org/br/6017dee563b1ed001b2f3c
 
 - [Eve欧服-史上最强！绝地M2-XFE超旗战视频 (RR联盟第一视角）](https://www.bilibili.com/video/BV17i4y1F7U7/)：标题指名M2-XFE，投稿日2020-12-31。
 - [[Eve Online] A Timelapse and Breakdown of The Battle of M2-XFE](https://www.youtube.com/watch?v=rs1HkgqLKUA)：YouTube标题指名M2-XFE。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+作品原题明确RR第一视角。英文延时回放加拆解的原视角未核，不以其填另一方名额；RR在本场归方及对侧候选继续沿历史参战资料核对。
+
+- 保留 [Eve欧服-史上最强！绝地M2-XFE超旗战视频 (RR联盟第一视角）](https://www.bilibili.com/video/BV17i4y1F7U7/)：RR第一视角。
+- 推荐 [[Eve Online] A Timelapse and Breakdown of The Battle of M2-XFE](https://www.youtube.com/watch?v=rs1HkgqLKUA)（1adog1）：英文圈的延时回放加拆解。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+原有作品外恢复1adog1延时与拆解，作为同场补充；不因其未核阵营而撤掉战役关联。
+
+- [Eve欧服-史上最强！绝地M2-XFE超旗战视频 (RR联盟第一视角）](https://www.bilibili.com/video/BV17i4y1F7U7/)（夺米台风）：RR联盟第一视角，标题称其为史上最强的M2-XFE超旗战。
+- [[Eve Online] A Timelapse and Breakdown of The Battle of M2-XFE](https://www.youtube.com/watch?v=rs1HkgqLKUA)（1adog1）：英文圈的延时回放加拆解。

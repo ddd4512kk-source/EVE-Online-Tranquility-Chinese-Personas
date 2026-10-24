@@ -31,7 +31,7 @@ INIT抓长须鲸、FRT响应泰坦、无畏伏击为公开战后叙述，出处�
 
 采用原报 2024-11-29 11:00—16:00 UTC 窗口（KM 实际 13:12:44—15:10:39）；原六张高值样本 2947B 只是下限，改为完整报表总额。原报 teams 1 为 INIT 等围猎方、teams 0 为 FRT，未列入两组的联盟／军团还须结合本场同盟归属核对，不能把同盟其他军团拆成第三方。
 
-按页面阵营顺序列出；角色取本方攻击者与受害者正数角色 ID 并集，损失按受害方求和，记录按 KM ID 去重，含胶囊、建筑。全场 918 角色、665 条 KM。
+按页面阵营顺序列出；角色取本方攻击者与受害者正数角色 ID 并集，损失按受害方求和，记录按 KM ID 去重，含太空舱、建筑。全场 918 角色、665 条 KM。
 
 | 参战角色 | 损失 B | 损失记录条数 |
 | --- | --- | --- |
@@ -64,3 +64,34 @@ Asian Neutral Industries（98740294）、Red Scarf Humpback（98632030）、Tris
 - [【EVEonline】价值18wr的星舰坟场！IN-FJ8反bait旗舰战](https://www.bilibili.com/video/BV1fvz6YUEyS/)：标题写IN-FJ8（即1N-FJ8）反bait旗舰战，投稿日当天。
 - [1N-FJ8无畏炸弹【EVE欧服】](https://www.bilibili.com/video/BV1MAzoY1ENs/)：标题指名1N-FJ8，投稿日2024-12-01。
 - [[Bane pov] Best FactionTitans kill in Eve History | 1N-FJ8 incident](https://www.youtube.com/watch?v=EDIIE0OC8sE)：YouTube标题指名1N-FJ8。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+原题和简介分别明确帝国黑隐队素材与凛冬社区反击。当前采用名单见下节，双方优先且不按较少方数量封顶。
+
+- 保留 [【EVE】2024.11.29 帝国黒隐队以身为饵  钓鱼FRT超旗伞  埋伏小旗舰队爽吃势力神装泰坦](https://www.bilibili.com/video/BV1FVzrY9EJ2/)：帝国方黑隐队。
+- 保留 [24.11.29 无畏炸弹反击战，所有超旗泰坦跳进去撸！【EVE欧服】【凛冬华人社区】](https://www.bilibili.com/video/BV1K6zrYNE7A/)：凛冬方反击。
+- 推荐 [eve 黑色星期五：Taitan to kill! :getin: :getin:](https://www.bilibili.com/video/BV1REzjYGE3R/)（伊利法尔（转载整理；INIT视角））：这份转载从INIT一侧看“黑色星期五”的泰坦交锋，简介保留原片入口，给多方混战补上一份阵营视角。
+- 推荐 [【EVEonline】价值18wr的星舰坟场！IN-FJ8反bait旗舰战](https://www.bilibili.com/video/BV1fvz6YUEyS/)（少侠LNP）：标题把这场称作价值18万亿的星舰坟场，从反bait旗舰战角度切入。
+- 推荐 [1N-FJ8无畏炸弹【EVE欧服】](https://www.bilibili.com/video/BV1MAzoY1ENs/)（EVE曼努尔）：标题直指1N-FJ8无畏炸弹，适合配合正文看开场那一炸。
+- 推荐 [[Bane pov] Best FactionTitans kill in Eve History | 1N-FJ8 incident](https://www.youtube.com/watch?v=EDIIE0OC8sE)（Rist）：英文圈视角：标题称这是EVE史上最佳的势力泰坦击杀，从Bane一侧回看1N-FJ8。
+- BV1fvz6YUEyS 简介BR入口（docs/bilibili/25786471.json）：https://br.evetools.org/br/6749c0899c05700011c4dcd1。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV1MAzoY1ENs 简介BR入口（docs/bilibili/172859920.json）：https://br.evetools.org/related/30000294/202411291300。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+新增ACR（BV1JGzrYWEnP）和NoNo（BV1YxzrYyEZQ）的公开简介：ACR自述回归第一战，六个无畏只录一个号，CPU过载；NoNo自述多开临时选操作最少的号录像，最后被末日击毁。NoNo简介附本页主报6749c0899c05700011c4dcd1及另一份6749daab81c06500139283c8；后者未核分队与窗口，不合并统计。七喜BV1GYznYJEH4发布于11月30日，凛冬超旗伞大战主题与本场相隔1日，既有公开评论讨论数万亿损失，无明确另场证据，列高度相关，不据owner认定其亲自驾驶。正文补入两位多开者的电脑负担与末日损失，不把多个角色算成多个人。
+
+- [【EVE】2024.11.29 帝国黒隐队以身为饵  钓鱼FRT超旗伞  埋伏小旗舰队爽吃势力神装泰坦](https://www.bilibili.com/video/BV1FVzrY9EJ2/)（一捆烂胶带）：帝国方视角：黑隐队以身为饵钓FRT超旗伞，再由埋伏的小旗舰队收割势力泰坦。
+- [[EVE欧服]FRT联盟年度巨献——《超旗伞》](https://www.bilibili.com/video/BV1GYznYJEH4/)（七喜想睡觉）：凛冬超旗伞的战后作品，与围猎方的多开无畏记录对照，补充救援一侧的叙述。
+- [“打死180个无畏”3势力2普通泰坦1归魂击杀](https://www.bilibili.com/video/BV1JGzrYWEnP/)（ACRMystery）：ACR的六开无畏参战记录；简介说回归第一战，六个号只录下一个视角，CPU已经过载。
+- [【EVE ONLINE】5泰坦（3势力）1归魂击杀。SNUFF+INIT VS FRAT 天使泰坦（第二次击杀）](https://www.bilibili.com/video/BV1YxzrYyEZQ/)（NoNoOwO）：NoNo临时录下的多开无畏视角；简介附本场主报，并说明选了操作最少的号，最后仍被末日击毁。
+- [eve 黑色星期五：Taitan to kill! :getin: :getin:](https://www.bilibili.com/video/BV1REzjYGE3R/)（伊利法尔（转载整理；INIT视角））：这份转载从INIT一侧看“黑色星期五”的泰坦交锋，简介保留原片入口，给多方混战补上一份阵营视角。
+- [【EVEonline】价值18wr的星舰坟场！IN-FJ8反bait旗舰战](https://www.bilibili.com/video/BV1fvz6YUEyS/)（少侠LNP）：标题把这场称作价值18万亿的星舰坟场，从反bait旗舰战角度切入。
+- [1N-FJ8无畏炸弹【EVE欧服】](https://www.bilibili.com/video/BV1MAzoY1ENs/)（EVE曼努尔）：标题直指1N-FJ8无畏炸弹，适合配合正文看开场那一炸。
+- [[Bane pov] Best FactionTitans kill in Eve History | 1N-FJ8 incident](https://www.youtube.com/watch?v=EDIIE0OC8sE)（Rist）：英文圈视角：标题称这是EVE史上最佳的势力泰坦击杀，从Bane一侧回看1N-FJ8。

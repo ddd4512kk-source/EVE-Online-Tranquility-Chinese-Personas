@@ -3,7 +3,7 @@
 
 > 兄弟 给点　萌新在线乞讨　每一笔捐赠都可以让萌新在这个冰冷的宇宙中感到一丝温暖　我，后勤，打钱
 
-军团简介里，CEO 一栏写的是“Monster0001 (+? The man on which the sun never sets)”——时区一栏打问号，人称“日不落”。
+军团简介里，CEO 一栏写的是“Monster0001（+? 太阳永不落山的人）”（Monster0001 (+? The man on which the sun never sets)）——时区一栏打问号，人称“日不落”。
 
 ## 红领鲸的身世
 

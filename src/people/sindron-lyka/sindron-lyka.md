@@ -25,14 +25,14 @@ Snuffed Out 的 **[Bluemelon](https://zkillboard.com/character/889732885/)** 邀
 
 **2025 年 8 月 10 日 19:37，Lantorn**，这条 **巨蟒** 进了击杀榜，zKillboard 估值 **1,253,073,190,302.94 ISK，约 12530.73 亿**。KM 有二十七名参与者，其中二十一名挂 Snuffed Out；Bluemelon 打了 **7305 点伤害**，尾刀是 B0ZziLLa。邀约者确实亲自上桌，胖虎则负责让这桌饭显得十分昂贵。[巨蟒 KM](https://zkillboard.com/kill/129129383/)。
 
-最妙的是胖虎没有把这页撕掉。他在自己简介里写下 **“Never do something like this”**，后面直接挂这张 KM；头衔又补上“跳星城打诱导版”。吃过一次亏，干脆把自己做成了招牌警示：别人读教程花时间，胖虎写教程花一条巨蟒。
+最妙的是胖虎没有把这页撕掉。他在自己简介里写下 **“永远别干这种事”（Never do something like this）**，后面直接挂这张 KM；头衔又补上“跳星城打诱导版”。吃过一次亏，干脆把自己做成了招牌警示：别人读教程花时间，胖虎写教程花一条巨蟒。
 :::
 
 ## 巨蟒没了，赛船市场还逛
 
 胖虎的赛船胃口并没有随这顿饭一起消失。2025 年 7 月，他在官方论坛给一条暴狼报了 **250b（2500 亿）**；2026 年 3 月，又给变色龙报 **900b（9000 亿）**，次日撤回，理由是已经有人以 **500b（5000 亿）** 卖给他一条。[暴狼报价](https://forums.eveonline.com/t/alliance-tournament-vii-ship-freki-assault-frigate-2009/493182/4)，[Chameleon 报价与后续](https://forums.eveonline.com/t/alliance-tournament-xii-chameleon-recon-2014/493185/32)。
 
-同一账号还在 2025 年 4 月挂过 **320b** 的阿扎里尔蓝图复制件，次日改称已售；6 月挂过 **165b** 的 Tobias 网子，连续顶帖，别人出价低了便回“不够，谢谢”。2026 年 2 月另有一篇赛船出售帖，正文已改成“sold please close”。这些帖子只记他的报价和自报交易结果：有些人把赛船当传说，胖虎拿它们逛市场。[蓝图帖](https://forums.eveonline.com/t/wts-azariel-bpc/484464)，[网子帖](https://forums.eveonline.com/t/wts-tobias-webifier/491118)，[售出帖](https://forums.eveonline.com/t/sold-please-close/507486)。
+同一账号还在 2025 年 4 月挂过 **320b** 的阿扎里尔蓝图复制件，次日改称已售；6 月挂过 **165b** 的 Tobias 网子，连续顶帖，别人出价低了便回“不够，谢谢”。2026 年 2 月另有一篇赛船出售帖，正文已改成“已售，请关帖”。这些帖子只记他的报价和自报交易结果：有些人把赛船当传说，胖虎拿它们逛市场。[蓝图帖](https://forums.eveonline.com/t/wts-azariel-bpc/484464)，[网子帖](https://forums.eveonline.com/t/wts-tobias-webifier/491118)，[售出帖](https://forums.eveonline.com/t/sold-please-close/507486)。
 
 ::: 评
 胖虎的贵船可以买回来，Bluemelon 那句“吃点东西”却再也听不成普通邀请了。

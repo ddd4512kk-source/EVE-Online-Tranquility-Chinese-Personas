@@ -3,11 +3,11 @@ Reatha Mirandia，论坛上有人直接喊“米兰达”。2017 年 6 月建号
 
 角色简介是：
 
-> Please don't hurt me （xb4∀｀）
+> 请别伤害我（Please don't hurt me）（xb4∀｀）
 > Rarity
-> Elements of Harmony 'Generosity'
+> 谐律精华“慷慨”（Elements of Harmony 'Generosity'）
 
-《小马宝莉》里的珍奇，谐律精华之“慷慨”。
+《小马宝莉》里的珍奇，对应的谐律精华正是慷慨。
 
 ::: 红料 凛冬论坛使用指南
 2019 年 11 月凛冬换新论坛，新手必读帖[《【新手必读】论坛使用指南》](https://forums.winterco.org/t/topic/447)是他写的：怎么发帖、怎么贴图、怎么插 B 站视频、怎么用表格——示例视频挂的是《【EVE】摇修老李的蛋》，表格示例写着“所有人进 准备摇修飞袖李”。后来又写了《凛冬联盟百科范文》，汉化了多开窗口工具 eve-o-preview。

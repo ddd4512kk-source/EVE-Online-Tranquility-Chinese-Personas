@@ -11,7 +11,12 @@
     "evidence": [
       "签名写“欧服主ID:FlyingBee”，自述23RD、悟空、闪电、盘古、NC后回FRT"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "label": "日期候选的核读与排除依据"
+      }
+    ]
   },
   "channel": {
     "profile": {
@@ -1410,6 +1415,35 @@
   },
   "videos": [
     {
+      "bvid": "BV1CvAzzkEU3",
+      "title": "常规打不过不要紧，拖到对方要睡觉，跳泰坦超旗，再叫上爹就能赢了",
+      "url": "https://www.bilibili.com/video/BV1CvAzzkEU3/",
+      "owner_uid": "299085813",
+      "published_at": "2026-03-01T05:08:37.000Z",
+      "captured_at": "2026-10-24T06:58:53.252Z",
+      "description": "https://warbeacon.net/br/report/9837d31c-523e-4340-9bad-907837bb30a9",
+      "stats": {
+        "views": 3021,
+        "replies": 96
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "docs/sources/battle-video-brs-2026.md"
+        ],
+        "scope": "已读公开标题、完整简介及所附BR公开页面，实际交战星系、日期、可见分方与关联结论已归档；NoNo、irrrrv另核composition唯一KM及金额。评论仅沿已存可见范围，不称全部评论已读；未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV1gu61BLEWA",
       "title": "龙根：T1无畏全部进！成员：我们都是 T1的，进进进！",
       "url": "https://www.bilibili.com/video/BV1gu61BLEWA/",
@@ -1547,6 +1581,35 @@
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV1ZDug6nE5Q",
+      "title": "离goons近了后，按门铃方便多了，周末晨练，打了接近1：2",
+      "url": "https://www.bilibili.com/video/BV1ZDug6nE5Q/",
+      "owner_uid": "299085813",
+      "published_at": "2026-08-08T06:40:36.000Z",
+      "captured_at": "2026-10-24T11:32:43.202Z",
+      "description": "https://br.evetools.org/br/6a769c310721d5f1d64c62dd",
+      "stats": {
+        "views": 1344,
+        "replies": 18
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+        ],
+        "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

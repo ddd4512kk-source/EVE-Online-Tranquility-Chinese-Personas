@@ -4,7 +4,7 @@
 
 ## 身份闭合
 
-- Vagabond z / 2114980045，2019-02-21 建号，ESI 头衔直接写“神话”。关联角色 Vagabond TT / 2115041623，不重复建传。
+- Vagabond z / 2114980045，2019-02-21 建号，ESI 头衔直接写“神话”。小号 Vagabond TT / 2115041623（见文末“小号对应”），不重复建传。
 - [6378559919](https://tieba.baidu.com/p/6378559919) 第 6 楼截图：群名片 H.S.L-Vagabond z 神话；钱包 2019-07-09 向 Vagabond z 转款。第 33 楼游戏合同：Vagabond z 发布给 Karl Booker 的合同，包含一条 Leviathan，2019-12-06 完成。角色头衔、同期隐星雇佣和管理口吻交叉吻合。
 - 2019 年 6 月先后从 Power Of Hurricane 到 Hidden Star Legion；2022-12-31 到 Tu Zi Fei Corporation，当前 Dracarys.，标签用 DC，不保留 RR 或隐星标签。
 

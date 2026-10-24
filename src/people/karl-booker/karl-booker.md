@@ -10,12 +10,12 @@ Karl Booker，头衔一串：
 ::: 红料 隐星军规
 隐星的军团简介写着驻地——“摄魂之域和贝斯，在 Dracarys. 旗下”——和四条军规：
 
-> 1. Please don't play in situations that affect your current life
-> 2. Committed to training every member of the regiment into a qualified elite fighter
-> 3. Encourage and support any production operation of each member
-> 4. The legion is determined to develop into an elite group of Titans
+> 1. 请勿在影响现实生活的情况下游玩
+> 2. 致力于把团里每个成员都训练成合格的精英战士
+> 3. 鼓励并支持每位成员的任何生产活动
+> 4. 军团立志发展成泰坦精英团
 
-第一条是“别在影响现实生活的情况下玩”，第四条是“立志发展成泰坦精英团”。两条放在一起，难度不小。
+第一条劝人别玩到影响现实生活，第四条却立志发展成泰坦精英团。两条放在一起，难度不小。
 :::
 
 ::: 红料 缪宁老板，上过泰坦战场的纳迦法
@@ -53,7 +53,7 @@ Karl Booker 的角色简介，第一行挂着一张 KM：
 
 KM 上，2019 年 2 月 17 日，七十九个人围殴一架 Einherji II——这是一架舰载机，不是船。Karl Booker 的伤害是 **1 点**，最后一击是他补的。
 
-简介往下是一行“TheBossRen's Gila”、两枚植入体、一套“模拟帕拉丁级装配”、一句“PNI第一桶金”，最后是一条长期收购广告：
+简介往下是一行“TheBossRen 的 Gila”、两枚植入体、一套“模拟帕拉丁级装配”、一句“PNI第一桶金”，最后是一条长期收购广告：
 
 > 70M_收摄魂，南埃索旗舰母星（长期，24小时内上线打钱）
 :::

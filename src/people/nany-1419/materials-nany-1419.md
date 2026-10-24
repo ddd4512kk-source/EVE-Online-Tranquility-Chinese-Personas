@@ -120,3 +120,8 @@ Nany 1440（2123834339）本轮头衔仍为幻象，既有关系复用。编号�
 ## 精选补选（2026-10-22）
 
 公开投稿列表66条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV1nL9yBbEha（4-HWWF星城）、BV1h4411R7a7（潜龙级深渊）、BV1YS411A7Ys（电鱼教程）、BV1qc411s7Ls（寒鸦深渊）、BV1yxSzB6EDQ（天使攻击点）。作品页简介与评论未读。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 死前频道呼救：help / !!! / I need a fleet!! / I need a rescue fleet! / fuck / im taitan / taitan!
+- Reddit 评论区贴 KM：ANOTHER TAITAN DOWN

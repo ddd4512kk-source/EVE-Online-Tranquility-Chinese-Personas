@@ -16,6 +16,9 @@
 ::: 红料 B站作品精选
 - [带派不老铁](https://www.bilibili.com/video/BV1a9Ase9Es2/)：围着同一条大航反复庆功，作者与老观众的接话比战果标题更有个人味。
 - [FRT联盟年度巨献：超旗伞](https://www.bilibili.com/video/BV1GYznYJEH4/)：作者与观众围着大船损失接梗，延续了频道把旗舰战事讲成敌对社区相声的路数。
+- [扫射凤凰不就用来干这个的吗](https://www.bilibili.com/video/BV1e8BqYaEDx/)：标题给凤凰级无畏安排了一个简单直接的用途，括号里的“doge”又把舰船题材拐成了玩笑。
+- [“模块一开，领域展开”](https://www.bilibili.com/video/BV1pzB7Y9EnH/)：把EVE模块与动漫名梗拼在一起，频道的舰船战斗标题也能玩熟人文化。
+- [INIT CN社区祝全体国人新年快乐](https://www.bilibili.com/video/BV1FF6DY7EBh/)：从舰船战斗转到社区贺年，补出七喜频道面向整个华人玩家群的一面。
 :::
 
 ::: 评

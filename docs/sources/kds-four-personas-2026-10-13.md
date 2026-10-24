@@ -18,10 +18,10 @@
 | [131047455](https://zkillboard.com/kill/131047455/) / 2025-11-07 13:04:45 | R-AG7W | Perfume cat，厄里斯，KD.S／DC | 拦截舰参与；零伤害不写未参战，不推泡泡实际困住谁 |
 | [135008430](https://zkillboard.com/kill/135008430/) / 2026-04-25 16:18:26 | 8TPX-N，FRT俄洛巴斯，估值154.984444062B | Burningleek鹏鲲；No money Allier鹏鲲、No money li阔刀、No money Poseidon曲剑；1299鹏鲲；均KD.S／DC | 参与击杀泰坦。船型支持战列／重拦／后勤工种，不推个人独占战果或主指挥 |
 | [133569056](https://zkillboard.com/kill/133569056/) / 2026-02-22 14:14:29 | Taff | Kongo IJN渎圣，KD.S／DC | 大型战役参与 |
-| [135096173](https://zkillboard.com/kill/135096173/) / 2026-04-28 15:02:57 | 4-HWWF，FRT星城 | Kongo IJN，2787名攻击者中一人；ship_type_id 670=Capsule，weapon_type_id 27359（Caldari Navy Nova Torpedo，ESI名称已核） | 与“首星星城我带走了”自述并写；舰船字段不能推出他全程驾驶胶囊、胶囊能发射鱼雷、怎样换船或有没有丢旗舰，不编舰船损失 |
+| [135096173](https://zkillboard.com/kill/135096173/) / 2026-04-28 15:02:57 | 4-HWWF，FRT星城 | Kongo IJN，2787名攻击者中一人；ship_type_id 670=Capsule，weapon_type_id 27359（Caldari Navy Nova Torpedo，ESI名称已核） | 与“首星星城我带走了”自述并写；舰船字段不能推出他全程驾驶太空舱、太空舱能发射鱼雷、怎样换船或有没有丢旗舰，不编舰船损失 |
 | [137184353](https://zkillboard.com/kill/137184353/) / 2026-07-22 14:46:18 | 星系30003179，Pandoralica／INIT的Cenotaph | Kongo IJN流浪，KD.S／DC，最后一击；攻击者23 | 具体战果，不当单杀；Cenotaph保留英文，简介原称“纪念碑级” |
 
-Ship与星系名称由ESI universe names批量核对。22460是Eris（厄里斯），不是Eos（曙光女神）；670是Capsule（胶囊），不是Avatar（神使），按实际返回使用，不靠数字印象猜舰型。
+Ship与星系名称由ESI universe names批量核对。22460是Eris（厄里斯），不是Eos（曙光女神）；670是Capsule（太空舱），不是Avatar（神使），按实际返回使用，不靠数字印象猜舰型。
 
 ## 公开简介与社区补查
 

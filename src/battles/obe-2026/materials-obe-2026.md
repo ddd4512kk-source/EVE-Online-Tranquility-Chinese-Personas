@@ -55,7 +55,7 @@
 
 ## 分方损失计数（2026-10-19）
 
-沿上文已归档计数：FRT 及友军 327 条、Snuff 及友军 780 条；第三方 Goons 51 条加卡戎 1 条，共 52 条。计数指损失记录，可含胶囊，不改称纯船体。三方合计 1159 条，卡戎原不在原报三组中；金额与全场人数仍保留既有来源口径。
+沿上文已归档计数：FRT 及友军 327 条、Snuff 及友军 780 条；第三方 Goons 51 条加卡戎 1 条，共 52 条。计数指损失记录，可含太空舱，不改称纯船体。三方合计 1159 条，卡戎原不在原报三组中；金额与全场人数仍保留既有来源口径。
 
 ## 本地视频对应（2026-10-20）
 
@@ -73,3 +73,33 @@
 - [【EVE Online】Rist:我的泰坦荣耀陨落之日——7.5T ISK Obe超旗战 Snuff VS FRT](https://www.bilibili.com/video/BV1tAp26TEaZ/)：标题指名Obe超旗战，投稿日2026-10-14。
 - [Snuffed out gets Snuffed out | 6.6 TRILLION Destroyed](https://www.youtube.com/watch?v=z5nqtJUG-zQ)：YouTube标题对阵与本场相符。
 - 前一轮待补候选BV1LCpu65EC7、BV1PNpg6FEHH已按标题与投稿日补入。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+FRT侧采用我不是猫猫人，本场素材已归档其赶回家开电脑参战的本人回应；Snuff侧采用原题明确Rist泰坦陨落的转载。先保障双方视角，再补充其他作者作品与复盘；不按大UP知名度决定。
+
+- 保留 [值得载入EVE历史的一天——Obe战役](https://www.bilibili.com/video/BV1nip36oEnr/)：FRT方。
+- 保留 [【EVE Online】Rist:我的泰坦荣耀陨落之日——7.5T ISK Obe超旗战 Snuff VS FRT](https://www.bilibili.com/video/BV1tAp26TEaZ/)：Snuff方（Rist原作）。
+- 推荐 [欧贝超旗泰坦战!征服者剧本!BBC大战FRT!最高画质!就在刚刚!拉面林首战立威!【EVE欧服】](https://www.bilibili.com/video/BV1PNpg6FEHH/)（EVE曼努尔）：标题写征服者剧本、BBC大战FRT，当天就发。
+- 推荐 [【EVE】超级会战！FRT满编泰坦正面决战BBC 血流成渠中鏖战到底！](https://www.bilibili.com/video/BV139p36LEBH/)（Awakeallnight）：标题写FRT满编泰坦正面决战BBC。
+- 推荐 [〖EVE欧服〗10.10欧贝超旗战阵亡俄洛巴斯视角](https://www.bilibili.com/video/BV1LCpu65EC7/)（Zero煌）：阵亡俄洛巴斯视角。
+- 推荐 [Snuffed out gets Snuffed out | 6.6 TRILLION Destroyed](https://www.youtube.com/watch?v=z5nqtJUG-zQ)（Warlock Industries）：英文圈复盘，标题一句“Snuffed Out被Snuff了”。
+- BV1tAp26TEaZ 简介BR入口（docs/bilibili/729015.json）：https://br.evetools.org/br/6acd48abfc95e5344fbbda2b。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+Freak（BV1ZWpG69Eto）标题明确为救征服者、九开泰坦；抵抗之狐（BV1m1pG6zEHB）标题明确欧贝、WC三百泰坦强杀征服者，两作都在10月10日发布，确认本场。另读曼努尔次日复盘BV1BDp76rEbh，但同作者已有当天作品；小肥皂泡BV1oBpE6BEA3简介明确原片来自曼努尔BV1PNpg6FEHH，故保留来源关联，不把同一份原录像重复包装成独立参战视角。当前8条分属8个上传者／频道；Warlock复盘安排在实战记录后。正文两条泰坦金额按既有KM139047530（152.0B）及139047358（147.4B）修正为一千五百亿上下；损失记录可含太空舱，不再统一冒称船体。
+
+- [值得载入EVE历史的一天——Obe战役](https://www.bilibili.com/video/BV1nip36oEnr/)（我不是猫猫人）：从凛冬一方回顾征服者诱敌与泰坦集结；作者在置顶与评论中，还讲到看到消息后赶回家开电脑的经过。
+- [【EVE Online】Rist:我的泰坦荣耀陨落之日——7.5T ISK Obe超旗战 Snuff VS FRT](https://www.bilibili.com/video/BV1tAp26TEaZ/)（NoNoOwO）：Snuff一侧Rist作品，标题称“我的泰坦荣耀陨落之日”，记7.5T ISK。
+- [【EVE欧服】为救征服者snuff昏了头，9开泰坦猛猛D](https://www.bilibili.com/video/BV1ZWpG69Eto/)（Freak_03）：Freak的九开泰坦作品，标题直指为救征服者不断加码的Snuff；与另一侧泰坦阵亡记录对照。
+- [〖EVE欧服〗10.10欧贝超旗战阵亡俄洛巴斯视角](https://www.bilibili.com/video/BV1LCpu65EC7/)（Zero煌）：阵亡俄洛巴斯视角。
+- [【EVEonline】欧贝强杀征服者(成功):WC300泰坦直面BBC](https://www.bilibili.com/video/BV1m1pG6zEHB/)（抵抗之狐officials）：抵抗之狐记录WC三百泰坦正面迎战BBC、强杀征服者，标题点明欧贝与击杀成功。
+- [【EVE】超级会战！FRT满编泰坦正面决战BBC 血流成渠中鏖战到底！](https://www.bilibili.com/video/BV139p36LEBH/)（Awakeallnight）：标题写FRT满编泰坦正面决战BBC。
+- [欧贝超旗泰坦战!征服者剧本!BBC大战FRT!最高画质!就在刚刚!拉面林首战立威!【EVE欧服】](https://www.bilibili.com/video/BV1PNpg6FEHH/)（EVE曼努尔）：标题写征服者剧本、BBC大战FRT，当天就发。
+- [Snuffed out gets Snuffed out | 6.6 TRILLION Destroyed](https://www.youtube.com/watch?v=z5nqtJUG-zQ)（Warlock Industries）：英文圈复盘，标题一句“Snuffed Out被Snuff了”。

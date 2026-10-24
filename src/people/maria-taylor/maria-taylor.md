@@ -1,14 +1,14 @@
 
-Maria Taylor，2018 年 7 月建号，2019 年进吃瓜（Chi Gua），2020 年底转到 Adrestia Co.，一直在 FRT。自我介绍是“一名普通玩家”，干的是不普通的活：用本人在官方论坛的话说，“I maintain the whole IT stack for my alliance”——FRT 的整套 IT 系统归 Maria 维护。
+Maria Taylor，2018 年 7 月建号，2019 年进吃瓜（Chi Gua），2020 年底转到 Adrestia Co.，一直在 FRT。自我介绍是“一名普通玩家”，干的是不普通的活：用本人在官方论坛的话说，“联盟整套 IT 系统都归我维护”——也就是 FRT 的整套 IT 系统归 Maria 维护。
 
 凛冬论坛发帖最多的人就是 Maria，回帖三百多条，大多是“已经修复”“看看是不是用户名写错了”。2022 年旧论坛迁移时，几十篇星华、RR、采星的老招新帖、回忆录，也是挂在 Maria 名下搬过来的。另一类帖子标题叫“猪头羹”“🐷羹”——联盟大会的录音，归 Maria 上传。
 
 ::: 红料 第一个华人 CSM
-2020 年 5 月，Maria 以“The Chinese Community”为题[参选第十五届 CSM](https://forums.eveonline.com/t/maria-taylor-for-csm-15-the-chinese-community/240878)，自称要代表“normally misunderstood players from China”。
+2020 年 5 月，Maria 以“华人社区”（The Chinese Community）为题[参选第十五届 CSM](https://forums.eveonline.com/t/maria-taylor-for-csm-15-the-chinese-community/240878)，自称要代表“常被误解的中国玩家”。
 
-官方论坛上有老外追着问：竞选视频呢？回答是剪一个像样的视频要一周、渲染还要一天，没来得及。有人说华人联盟大多在挂脚本，回复是“The botting meta is the least thing that I need to worry about”。说到华人的困难，Maria 坦白了一句：
+官方论坛上有老外追着问：竞选视频呢？回答是剪一个像样的视频要一周、渲染还要一天，没来得及。有人说华人联盟大多在挂脚本，回复是“挂脚本这股风气，是我最不用操心的事”。说到华人的困难，Maria 坦白了一句：
 
-> So far the majority of us still have to use a EULA-violating patch that enables Chinese language in-game.
+> 到现在，我们大多数人还得靠一个违反 EULA 的补丁，才能在游戏里用上中文。
 
 ——在官方论坛向 CCP 承认，大部分人都在用违反 EULA 的汉化补丁。
 

@@ -31,3 +31,8 @@
 - 退位声明中的离婚、宠物等现实生活细节不写。
 - 现实姓名、职业（有回帖称其曾为律师）不写。
 - 吧里“米塔尼说 290E 补泰坦”“卖给 RR/DC 的泰坦价”（7176356530 #4，阴阳怪气之父，2021-01-01）：2026-10-09 按 AGENTS §2 作吧友说法写入“退位之后”块。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 总监群里米塔尼原话（SA 论坛流出）：there are bad people out there who do bad things, but there are also amber heards in the world / this bitch can't find a block button and is sending us walls of goddamned text
+- ESI 角色简介开头：So Mittens is definitely a sociopath.

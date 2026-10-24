@@ -64,13 +64,7 @@
 
 [本人空间UID279635057](https://space.bilibili.com/279635057/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《【EVE中字】超旗部署 WWW疑似正式开启 EVE势力地图2014~2026》](https://www.bilibili.com/video/BV19N9EBgEUm/)
-- [《【EVE中文】万人会战——凛冬狂怒，帝国之泪下的新世界纪录》](https://www.bilibili.com/video/BV1CQDvBwEBN/)
-- [《【EVE】将“哥布林”钉在游戏历史的耻辱柱上——新伊甸史上最大的出卖事件 流浪千年的血脉传承》](https://www.bilibili.com/video/BV1Bw23BCEkt/)
-- [《【EVE中字】远炮无畏三千人会战射爽射建功|帝国 vs FRT 艾蒂斯2026年3月28日 会战混剪》](https://www.bilibili.com/video/BV1hgX2B2Ede/)
-- [《【EVE中文】从西对舞到 4-HWWF 首都星城被打进结构增强，凛冬梯次防御未能阻挡帝国脚步》](https://www.bilibili.com/video/BV1htofBtEBp/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/279635057.json`；只是候选，不据标题归个人事件或判质量。
 
 作品精选尚未完成；优先与既有已读作品去重，核具体简介、选集、作者公开文字与合作角色，再定推荐。不取影像、字幕或音频，未读不判作质量不足。
 
@@ -118,3 +112,12 @@
 正文已提及的下列作品同样撤出精选，故事保留：
 
 - [《将“哥布林”钉在游戏历史的耻辱柱上》](https://www.bilibili.com/video/BV1Bw23BCEkt/)：简介鲜明声讨领导层、同情普通成员，作者也安慰受影响的玩家；与贴吧“出口转内销”旧事一起看，最能认识他的时评立场。
+
+## 2026-10-24 B站作品精选补充
+
+从本人UID档案 `docs/bilibili/279635057.json` 的已归档频道作品中补选4条，按档案现有播放计数排序参考；只读标题、简介、计数和已有档案状态，未访问作品页，未读影像、音频或字幕。四条分别涉及败仗报道、反攻叙述、无畏会战混剪及势力更替，简介支持的看点已直接写入列传，不把播放量当质量评价。BV1htofBtEBp原精选保留；正文已展开作品及既有重复排除继续排除。当前精选5条。
+
+- [BV1vru165Emb](https://www.bilibili.com/video/BV1vru165Emb/)《绝地华人血战两小时损失三万人民币，不敌，无畏尽殁，惨遭列强上市》：4558播放。
+- [BV19BQVBsE1z](https://www.bilibili.com/video/BV19BQVBsE1z/)《西对舞做出回答，龙焰之剑也未尝不利》：7664播放。
+- [BV1hgX2B2Ede](https://www.bilibili.com/video/BV1hgX2B2Ede/)《远炮无畏三千人会战射爽射建功》：13542播放。
+- [BV1JjCcBCE9P](https://www.bilibili.com/video/BV1JjCcBCE9P/)《R-A星城陨落，新的争霸即将开始》：3749播放。

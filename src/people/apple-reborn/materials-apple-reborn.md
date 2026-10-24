@@ -20,7 +20,7 @@ SummerHall历史榜本号1796条、参与击杀目标约638.5B，限定执行军
 
 ### 检索记录与缺口
 
-- 撰写时新增：2025-06-18 DSS-EZ 穿梭机被单杀，货舱 10 个 Pashan's Turret Handling Mindlink，估价 44.9B（[127958179](https://zkillboard.com/kill/127958179/)），逃生舱再损 17B。
+- 撰写时新增：2025-06-18 DSS-EZ 穿梭机被单杀，货舱 10 个 Pashan's Turret Handling Mindlink，估价 44.9B（[127958179](https://zkillboard.com/kill/127958179/)），太空舱再损 17B。
 - 画像 / KB：命中，[角色 / KB](https://zkillboard.com/character/2113791371/)；论坛：未找到对应论坛用户名；中文搜索：百度/360 回退；必应 0 条，未取得对应本人新料；其他材料：中文维基任职命中；事件仍薄。
 
 

@@ -18,36 +18,7 @@
 - [公开投稿页](https://space.bilibili.com/15976503/upload/video)当前作者名“剑穿天下”，页面显示 26 条投稿；本页可见 26 条标题与不同 BV。简介、影像与评论未读。
 - 26条标题兼有EVE手游与PC EVE；库哈拉赫拆迁、意念反超、重拦等是PC EVE续查入口，不把手游的国服主权战并入宁静角色经历。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1kYYF6xEzM](https://www.bilibili.com/video/BV1kYYF6xEzM/) | 【战狗TV】移动天灾—榴弹小鸟！融化一切地面目标！ |
-| [BV1Ukgw6mEA8](https://www.bilibili.com/video/BV1Ukgw6mEA8/) | 【EVE】这才是真正的搜打撤！库哈拉赫铁壁大拆迁 |
-| [BV1983J6CECc](https://www.bilibili.com/video/BV1983J6CECc/) | 【EVE】这根轻导够劲！奥尼SOLO |
-| [BV1GNTc65EX1](https://www.bilibili.com/video/BV1GNTc65EX1/) | 【EVE】大运？创不动我你信吗！ |
-| [BV1VjLL6rEaD](https://www.bilibili.com/video/BV1VjLL6rEaD/) | 【EVE】开门！检查违规黑影！ |
-| [BV14o5G6XEEL](https://www.bilibili.com/video/BV14o5G6XEEL/) | 【EVE】拉客反超坏了！FC：意念反！ |
-| [BV18LDVB7E9N](https://www.bilibili.com/video/BV18LDVB7E9N/) | 【EVE】谁的神装德拉古落这了？没人要我牵走啦！ |
-| [BV1D8ACzaEVk](https://www.bilibili.com/video/BV1D8ACzaEVk/) | 【EVE】我的重拦很大，你忍一下 |
-| [BV1CHkvBVEHa](https://www.bilibili.com/video/BV1CHkvBVEHa/) | 【EVE】海莫罗绝密监狱反堵撤离点百亿撤离 |
-| [BV1sgyRBgExt](https://www.bilibili.com/video/BV1sgyRBgExt/) | 【EVE】你不准在这里爽射！FIO1-8铁壁绞肉战 |
-| [BV1W9yCB3Ezq](https://www.bilibili.com/video/BV1W9yCB3Ezq/) | 【EVE】再斩SUS洞内神装掠夺！ |
-| [BV1VkxEzoET3](https://www.bilibili.com/video/BV1VkxEzoET3/) | 【EVE】忏悔单刷血色收割三类生物操控事件 |
-| [BV14RM8ziEJw](https://www.bilibili.com/video/BV14RM8ziEJw/) | 【EVE】恶狼？好吃！洞内团灭SUS掠夺队 |
-| [BV1HWMTzbEGS](https://www.bilibili.com/video/BV1HWMTzbEGS/) | 【EVE】Kado不想活啦！ |
-| [BV15eEAzaEvC](https://www.bilibili.com/video/BV15eEAzaEvC/) | 【EVE】超时空传送！欧塔杂技跳驱300km大挪移 |
-| [BV1VvQZYdEE1](https://www.bilibili.com/video/BV1VvQZYdEE1/) | 擦肩而过 |
-| [BV1oWwke5EhU](https://www.bilibili.com/video/BV1oWwke5EhU/) | 【EVE】弗拉烈马射乌鸦！ |
-| [BV1HTBcYrEMM](https://www.bilibili.com/video/BV1HTBcYrEMM/) | 【EVE】萨托加斯低安大战！2024的最后一舞 |
-| [BV11fvpesEdx](https://www.bilibili.com/video/BV11fvpesEdx/) | 【EVE】低安猛男 马克瑞队激情肉搏 |
-| [BV1g7VLe9EZx](https://www.bilibili.com/video/BV1g7VLe9EZx/) | 【EVE】低安叛乱区爽射深水无畏 |
-| [BV1ge4y1C7a3](https://www.bilibili.com/video/BV1ge4y1C7a3/) | 【eve手游】深眠之境 3-10 通用打法 2+2有手就行 |
-| [BV1CT411T7Kt](https://www.bilibili.com/video/BV1CT411T7Kt/) | 【eve手游】深眠之境 4-10 留档自用 |
-| [BV1JG41157zc](https://www.bilibili.com/video/BV1JG41157zc/) | 【eve手游】深眠之境3-10记录 留档自用 |
-| [BV1GP4y1M7AY](https://www.bilibili.com/video/BV1GP4y1M7AY/) | 【EVE手游】3.27国服旗舰战 12艘旗舰陨落星海 超过2万亿战损！！！ |
-| [BV1Jh411h71K](https://www.bilibili.com/video/BV1Jh411h71K/) | 【EVE手游】7.3国服最后决战!!!!!PIBC惨遭团灭 |
-| [BV1xf4y1b7Q9](https://www.bilibili.com/video/BV1xf4y1b7Q9/) | 【EVE手游】6.28国服测试第一次主权战记录（指挥视角） |
+待读作品的标题与BV见B站档案 `docs/bilibili/15976503.json`（26条，未读内容不凭标题补造事件）。
 
 ## 2026-10-15：5个PC作品的公开文字
 

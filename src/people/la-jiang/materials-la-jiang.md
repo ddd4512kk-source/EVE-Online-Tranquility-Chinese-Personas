@@ -41,13 +41,7 @@
 
 [本人空间UID48030884](https://space.bilibili.com/48030884/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《[EVE] 欧服绝地过个星门有多恐怖！？》](https://www.bilibili.com/video/BV1HW411N7su/)
-- [《[EVE] 猛烈级 势力无畏SOLO》](https://www.bilibili.com/video/BV1yW41167N8/)
-- [《[EVE] 给NC送去120无畏的问候 （NC损失3泰坦3夜神）》](https://www.bilibili.com/video/BV1ub411A7Na/)
-- [《[EVE] Snuffed Out波色PH无畏群》](https://www.bilibili.com/video/BV1XW41157HA/)
-- [《[EVE] 年底了 绝地过门还是这么恐怖》](https://www.bilibili.com/video/BV1dt411i7MD/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/48030884.json`；只是候选，不据标题归个人事件或判质量。
 
 候选的后续核读、取舍与未读缺口见后文。
 

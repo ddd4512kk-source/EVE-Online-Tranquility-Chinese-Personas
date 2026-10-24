@@ -48,3 +48,28 @@
 - [EVE欧服 帝国 北伐！黑渊X47星城装甲增强之战 DC视角](https://www.bilibili.com/video/BV1eV4y1f7Ao/)：标题指X47星城装甲，投稿日当天。
 - [【EVE】2023.4.8 X47星城装甲战 DC常规1队视角](https://www.bilibili.com/video/BV1Kc411s7WK/)：标题写2023.4.8（北京时间）X47星城装甲战。
 - [EVE欧服 X47星城装甲 FRT全程视角 10倍速](https://www.bilibili.com/video/BV1pk4y1Y7dU/)：标题指X47星城装甲。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+bvjnj标题明确FRT全程，天机坊转载标题明确B2视角；同时保留帝国DC常规视角与同场转载，数量不按较少方封顶。
+
+- 保留 [EVE欧服 X47星城装甲 FRT全程视角 10倍速](https://www.bilibili.com/video/BV1pk4y1Y7dU/)：FRT方。
+- 保留 [【EVE欧服】X47L-Q：4000+鏖战星城（B2视角）](https://www.bilibili.com/video/BV1ah411g7L4/)：B2方（转载）。
+- 推荐 [【EVE欧服】X47L-Q：  FRT星城保卫战一瞥（2023-4-7）](https://www.bilibili.com/video/BV1uh411g7iQ/)（天机坊（转载整理））：聚焦4月7日的星城装甲攻防，转引另一份现场记录，可对照双方围绕星城计时的叙述。
+- 推荐 [EVE欧服 帝国 北伐！黑渊X47星城装甲增强之战 DC视角](https://www.bilibili.com/video/BV1eV4y1f7Ao/)（CabbageTimil）：DC视角，标题写帝国北伐、黑渊X47星城装甲增强之战。
+- 推荐 [【EVE】2023.4.8 X47星城装甲战 DC常规1队视角](https://www.bilibili.com/video/BV1Kc411s7WK/)（一捆烂胶带）：DC常规1队视角。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+本场装甲阶段采用5条，不按守方只有一位作者把进攻方削到一条。新读BV1ij411c7Cf、BV1is4y1K7ib、BV1oV4y1f7fF均涉及4月10日前后结构及星城陷落，留作后续阶段材料，不改称4月7日装甲战录像；Noraus BV1Fk4y1e7Gy的公开评论围绕固定信标与泰坦过桥设伏，不能仅凭4月8日发布日期并入星城装甲战。
+
+- [EVE欧服 X47星城装甲 FRT全程视角 10倍速](https://www.bilibili.com/video/BV1pk4y1Y7dU/)（bvjnj）：FRT全程视角的十倍速版本。
+- [【EVE欧服】X47L-Q：4000+鏖战星城（B2视角）](https://www.bilibili.com/video/BV1ah411g7L4/)（天机坊）：B2视角，标题写4000多人鏖战星城。
+- [【EVE欧服】X47L-Q：  FRT星城保卫战一瞥（2023-4-7）](https://www.bilibili.com/video/BV1uh411g7iQ/)（天机坊（转载整理））：聚焦4月7日的星城装甲攻防，转引另一份现场记录，可对照双方围绕星城计时的叙述。
+- [EVE欧服 帝国 北伐！黑渊X47星城装甲增强之战 DC视角](https://www.bilibili.com/video/BV1eV4y1f7Ao/)（CabbageTimil）：DC视角，标题写帝国北伐、黑渊X47星城装甲增强之战。
+- [【EVE】2023.4.8 X47星城装甲战 DC常规1队视角](https://www.bilibili.com/video/BV1Kc411s7WK/)（一捆烂胶带）：DC常规1队视角。

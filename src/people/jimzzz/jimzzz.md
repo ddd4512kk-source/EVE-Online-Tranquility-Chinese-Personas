@@ -6,7 +6,7 @@
 总奸、巨型送船王（Giga Feeder）、第十九届联盟锦标赛冠军——前两个是自黑，最后一个是真的。
 
 ::: 红料 AT19 冠军的组队核心
-据队长[黑莲](../2115433044/)写的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，AT18 0–2 惨败后，几位队员回到 FRT 重新拉人，“successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz”。这支以 FRT 成员为主的队伍先去打了 2023 年春季队长杯，队名叫 **“My bastion mode is all green ABYSSALED”**（我的堡垒模块全是深渊绿装），拿了第四；队长杯之后，这批人成了 AT19 阵容的核心，最后夺冠——华人队伍第一次拿下 AT 冠军。
+据队长[黑莲](../2115433044/)写的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，AT18 0–2 惨败后，几位队员回到 FRT 重新拉人，“成功拉回了 DarKdeZ Ever、coppercn、Kalek Astroth 和 jimzzz 这些现役 FRT 成员”。这支以 FRT 成员为主的队伍先去打了 2023 年春季队长杯，队名叫 **“我的堡垒模块全是深渊绿装”**（My bastion mode is all green ABYSSALED），拿了第四；队长杯之后，这批人成了 AT19 阵容的核心，最后夺冠——华人队伍第一次拿下 AT 冠军。
 :::
 
 ::: 红料 KB：四千五百杀，从恶狼到泰坦的送船王
@@ -20,14 +20,14 @@
 ::: 黑料 简介：深渊赌徒的展柜
 肖宁的角色简介只有一行介绍和五件装备：
 
-> MUta player：
-> 100MN Abyssal Afterburner
-> 500MN Abyssal Microwarpdrive
-> 100MN Abyssal Afterburner
-> 100MN Abyssal Afterburner
-> 100MN Abyssal Afterburner (Ture max)
+> 突变玩家（MUta player）：
+> 100MN 深渊加力燃烧器
+> 500MN 深渊微型跃迁推进器
+> 100MN 深渊加力燃烧器
+> 100MN 深渊加力燃烧器
+> 100MN 深渊加力燃烧器（Ture max）
 
-“MUta”是突变质体——拿装备去赌随机属性的玩法。他把赌出来的五个推进器挂在简介里展览，最后一个标着“Ture max”，True 拼成了 Ture。四个加力燃烧器、一个微曲，赌狗的成绩单。
+“突变”指突变质体——拿装备去赌随机属性的玩法。他把赌出来的五个推进器挂在简介里展览，最后一个标着“Ture max”，True 拼成了 Ture。四个加力燃烧器、一个微曲，赌狗的成绩单。
 :::
 
 ::: 黑料 头衔：总奸

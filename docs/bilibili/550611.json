@@ -720,7 +720,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:14:55.254Z",
         "source": "https://space.bilibili.com/550611/upload/video",
-        "scope": "公开投稿列表全部1585条（共1697条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录1586条；旧接口曾报告1697条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频1586条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1AVpZ6FEaR",
@@ -11816,8 +11816,28 @@
             "url": "https://www.bilibili.com/video/BV1Xs411f74J/",
             "published": "2013-10-02",
             "views": 2217
+          },
+          {
+            "bvid": "BV1n4n46wEAs",
+            "title": "游戏王OCG一周新卡杂谈【2026.10.13~10.22】【水良 丧失】(っ ^ ω ^)っ",
+            "url": "https://www.bilibili.com/video/BV1n4n46wEAs/",
+            "published": "2026-10-23",
+            "views": 1502
           }
-        ]
+        ],
+        "updated_at": "2026-10-24T06:42:16.061Z",
+        "increment_source": "https://api.bilibili.com/x/series/recArchivesByKeywords?mid=550611&keywords=&ps=100&pn=1",
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:40:57.233Z",
+          "source": "https://space.bilibili.com/550611/upload/video",
+          "public_video_count": 1586,
+          "archived_count": 1586,
+          "previous_api_total": 1697,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -11839,10 +11859,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/ywwuyi-died/materials-ywwuyi-died.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -11951,10 +11969,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/ywwuyi-died/materials-ywwuyi-died.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

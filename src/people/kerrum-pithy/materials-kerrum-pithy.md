@@ -24,7 +24,7 @@
 
 - zKillboard：Kerrum Pithy 击杀 1329（1730.3B）、损失 420（81.4B）、单杀 23；常用船 Sacrilege 268、Exequror Navy Issue 138、Magus 93、Deimos 85、Kronos 72；联盟 Fraternity. 1097、Wings Freedom. 223（2026-02-16 起）。军团 ChuangShi 1319，2023-11-29 起一直在创世。
 - 击杀 ISK 最高月 2023-10（650.7B）：2023-10-23 Yulai，GM 周活动 GM 泰坦类目标，[112562581](https://zkillboard.com/kill/112562581/)（182.7B）、[112563235](https://zkillboard.com/kill/112563235/)（181.0B）、[112562913](https://zkillboard.com/kill/112562913/)（173.7B）、112562708（56.4B）、112563077（53.9B），攻击者各约 950–1090 人，他驾 Caracal，伤害 4–5k。GM 周 2023-10-23 至 27 举行，与 Yulai 活动相符（EVE 官方新闻）；该夜 GM 身份和船名来自 KM，未见官方对这些击杀的专门报道。
-- 较大损失：2026-05-01 1DH-SX Babaroga 7.9B（59 名攻击者，[135165233](https://zkillboard.com/kill/135165233/)）；2025-05-25 P3EN-E Bustard 3.4B；2025-10-30 T8T-RA Machariel 2.1B 加胶囊 3.1B；2026-02-18 6Q-R50 Vargur 1.5B；2026-07-18 1-SMEB Vargur 1.5B。均属普通战损，未入正文。
+- 较大损失：2026-05-01 1DH-SX Babaroga 7.9B（59 名攻击者，[135165233](https://zkillboard.com/kill/135165233/)）；2025-05-25 P3EN-E Bustard 3.4B；2025-10-30 T8T-RA Machariel 2.1B 加太空舱 3.1B；2026-02-18 6Q-R50 Vargur 1.5B；2026-07-18 1-SMEB Vargur 1.5B。均属普通战损，未入正文。
 - 头衔“✪ 贝斯城管 ✪”：[贴吧《创世与frt的爱恨情仇》](https://tieba.baidu.com/p/10490169293) 9 楼称，绝地时期创世曾捐款并得到专属称号“[贝斯城管]”，“但是捐款的人大部分都留在 jjg 了”。该帖主楼为攻击创世高层的长文（楼内自称 AI 版本，多人质疑），未涉及皮卡本人，仅作头衔来历线索；若要写，需另找来源。
 - 凛冬论坛：Kerrum_Pithy 无主题、无回帖。
 - 贴吧：搜“eve欧服 皮卡 贝斯城管”“notHenryZ”“Kerrum Pithy”“PEKKA 创世”均零结果（“皮卡”撞词）；必应搜“皮卡 创世”仅得无关结果。B 站 API 本次 HTTP 412【搜索失败】；知乎未查。待办：B 站评论区、创世官号会战复盘里的皮卡视角、其他两小号 KM（Vocan Hephaes 损失里有 20 艘同一船型，type 22460 待查）。
@@ -67,3 +67,13 @@
 - [《8F-TK3投弹视角作战纪实》](https://www.bilibili.com/video/BV1PiHn6REBo/)：适合对照另一篇会战记录。作者主动说八倍加速、击杀邮件时间轴仅供参考，提醒读者怎样使用这份录像；还附上战报入口，和T8T篇放在一起，正好对照他的两种战场工种。
 - [《总统大选活动，无成本速刷流程》](https://www.bilibili.com/video/BV1WcDHBfEGd/)：推荐读他的账号条件和失误说明。月卡号、本人账号间交易、冷却重置和自估总用时都先列清楚；“无成本”这块招牌，下面至少认真写了使用条件。
 - 正文取量级：生涯击杀 1329 次、1730.3B；2023-10 单月 650.7B（见上）。
+
+
+## B站作品精选补充（2026-10-24）
+
+本轮依据 docs/bilibili/646042741.json 的本人频道公开投稿列表与既有播放计数，按标题选择下列 EVE 作品补足精选。未读取视频影像、音频、字幕或视频页；推荐理由仅据标题及素材中已有的相关文字，不评价未读视听内容。
+
+- [[EVE Online] 49-U 星城装甲战开场 创世渎圣队摸鱼重拦视角](https://www.bilibili.com/video/BV1tS6XBcE72/)（BV1tS6XBcE72，频道列表记录播放 1210）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [[EVE Online] 2025 血色收割 - 新异常初见](https://www.bilibili.com/video/BV1RRxmz3EPD/)（BV1RRxmz3EPD，频道列表记录播放 1080）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [[EVE Online 星战前夜] 2025 冰雪节低安战斗异常点 - 流程概览+三审判整活攻略](https://www.bilibili.com/video/BV1F8msBdEUc/)（BV1F8msBdEUc，频道列表记录播放 927）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [[EVE Online 星战前夜] 6月6号D-3天钩防守 一人成军单向投弹](https://www.bilibili.com/video/BV1pJ7Q6AE2D/)（BV1pJ7Q6AE2D，频道列表记录播放 414）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。

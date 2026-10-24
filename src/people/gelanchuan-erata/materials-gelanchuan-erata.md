@@ -42,3 +42,8 @@
 - 本次补齐战役自动关联与素材；未据一般参战另立个人红黑料块。
 
 - **红料 / KB，中**：zKillboard 生涯击杀 7216，缪宁 1289 次；2020 年 2、3 月（时在 3V）单两月击杀约 1.8T。2026-02-22 塔夫驾驶鱼鹰级海军型（FRT 一方，该船被击毁，[KM 133568667](https://zkillboard.com/kill/133568667/)）；2026-04-25 北方战役整窗约 969B，[KM 135002374](https://zkillboard.com/kill/135002374/)，FRT 一方带队守家。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 简介防空警告（英文一）：You have entered the 3V airdefense identification zone!!!!!!!
+- 简介防空警告（英文二）：Hello, you have entered the VVV Air Defense Identification Zone. Any Bluestar Blue + please indicate your intention... We will crack down strongly on those who ignore this warning

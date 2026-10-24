@@ -39,3 +39,10 @@
 - [SR-KBB周末混战，蜜蜂增援撞上凛冬高峰](../../battles/sr-kbb-2026/sr-kbb-2026.md)：凛冬及友军；命中角色 2114299824。全场损失129.771B，为各方合计，不作个人战果。
 - [本场素材](../../battles/sr-kbb-2026/materials-sr-kbb-2026.md)保留亲历回忆、完整窗口、交火分方与原报入口；本次从正式快照成员映射核对参战，没有补造逐人KM或舰型。
 - [zKillboard](https://zkillboard.com/character/2114299824/) 生涯击杀 3366、约 4.31T ISK；缪宁 887 次，其次休津；2020-02 单月击杀约 901.5B（凛冬北上血脉、特纳）。Atioth 2026 KM 134563816 驾驶狂怒者；4-HWWF 2026-04-25 KM 135003842 驾驶死亡漩涡（FRT，整窗约 969B）。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 官方论坛自我介绍：I maintain the whole IT stack for my alliance
+- CSM15 竞选帖：normally misunderstood players from China
+- CSM15 竞选帖回帖：The botting meta is the least thing that I need to worry about
+- CSM15 竞选帖回帖：So far the majority of us still have to use a EULA-violating patch that enables Chinese language in-game.

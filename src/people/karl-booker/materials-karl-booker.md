@@ -25,3 +25,10 @@
 - 战斗规模：29.11T；阵营口径：帝国与 PAPI。
 - 样本中出现于 1 条攻击者名单；代表 [KM 89612036](https://zkillboard.com/kill/89612036/)，2020-12-31T04:35:58Z，本人驾驶 纳迦法，战时联盟 ID 99007362，本条伤害 7045。
 - [zKillboard](https://zkillboard.com/character/2114223298/) 生涯击杀 2521、约 1.96T ISK，损失约 12.3B；缪宁 1001 次，其次银鹰、伊什塔、冥府；2019-08 单月击杀约 443.9B（RR 在血脉一带）。2020 年底 M2-XFE 首战 KM 89612036 驾驶纳迦法。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 军团简介军规第 1 条：1. Please don't play in situations that affect your current life
+- 军团简介军规第 2 条：2. Committed to training every member of the regiment into a qualified elite fighter
+- 军团简介军规第 3 条：3. Encourage and support any production operation of each member
+- 军团简介军规第 4 条：4. The legion is determined to develop into an elite group of Titans

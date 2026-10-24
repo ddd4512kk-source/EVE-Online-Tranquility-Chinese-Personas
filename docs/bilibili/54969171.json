@@ -11,21 +11,30 @@
     "evidence": [
       "本人回应视频"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "label": "战役相关视频"
+      }
+    ]
   },
   "channel": {
     "profile": {},
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:13:47.363Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:40:49.963Z",
+        "scope": "已存投稿目录186条，网页当前公开视频186条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/54969171/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:13:47.363Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:40:49.963Z",
+        "scope": "已存投稿目录186条，网页当前公开视频186条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/54969171/upload/video"
       },
       "series": {
@@ -58,7 +67,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:13:47.363Z",
         "source": "https://space.bilibili.com/54969171/upload/video",
-        "scope": "公开投稿列表全部186条（共189条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录186条；旧接口曾报告189条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频186条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1GsJ96sEeP",
@@ -1362,11 +1371,74 @@
             "published": "2019-09-24",
             "views": 6664
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:40:49.963Z",
+          "source": "https://space.bilibili.com/54969171/upload/video",
+          "public_video_count": 186,
+          "archived_count": 186,
+          "previous_api_total": 189,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
   "videos": [
+    {
+      "bvid": "BV1D6aB63Eq9",
+      "title": "中国玩家能有多“务实”怪不得你能领导上万人的公会呢",
+      "url": "https://www.bilibili.com/video/BV1D6aB63Eq9/",
+      "owner_uid": "54969171",
+      "published_at": "2026-10-01T10:00:00.000Z",
+      "captured_at": "2026-10-24T07:09:27.182Z",
+      "description": "如果想加联盟或者想入坑EVE的朋友可以加入我们的军团：",
+      "stats": {
+        "views": 67568,
+        "replies": 249
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1pPjc67ELe",
+      "title": "EVE国际服 连续击毁33艘泰坦战舰！ 这就是外国联盟辱华的下场！",
+      "url": "https://www.bilibili.com/video/BV1pPjc67ELe/",
+      "owner_uid": "54969171",
+      "published_at": "2026-06-18T09:04:05.000Z",
+      "captured_at": "2026-10-24T07:07:12.011Z",
+      "description": "目前战争已经结束，凛冬将至在一点一点收复失地\n如果你们也想来参与一次虽然难熬，但让人永生难忘的星际战争",
+      "stats": {
+        "views": 167893,
+        "replies": 880
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
     {
       "bvid": "BV1dUL36AEcz",
       "title": "EVE欧服 老外：你们所有中国人都将向我们下跪！",
@@ -1392,6 +1464,142 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1CvoCBqEQj",
+      "title": "EVE欧服 中国玩家最新战况",
+      "url": "https://www.bilibili.com/video/BV1CvoCBqEQj/",
+      "owner_uid": "54969171",
+      "published_at": "2026-04-27T12:24:04.000Z",
+      "captured_at": "2026-10-24T06:26:54.869Z",
+      "description": "如果想加联盟或者想入坑EVE的朋友可以加入我们的军团：",
+      "stats": {
+        "views": 29779,
+        "replies": 237
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1jKoXBJEye",
+      "title": "EVE欧服 身后主城！我们已无路可退",
+      "url": "https://www.bilibili.com/video/BV1jKoXBJEye/",
+      "owner_uid": "54969171",
+      "published_at": "2026-04-25T10:42:14.000Z",
+      "captured_at": "2026-10-24T06:27:08.049Z",
+      "description": "实际上情况没有标题和封面里说的那么夸张，仅仅是为了渲染氛围。直播看情况开不开，现在还不好说。\n如果想加联盟或者想入坑EVE的朋友可以加入我们的军团：",
+      "stats": {
+        "views": 21428,
+        "replies": 393
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1J4QwBPEKN",
+      "title": "真正意义上的万人玩家会战！EVE欧服再次刷新吉尼斯世界记录！",
+      "url": "https://www.bilibili.com/video/BV1J4QwBPEKN/",
+      "owner_uid": "54969171",
+      "published_at": "2026-04-10T13:00:00.000Z",
+      "captured_at": "2026-10-24T07:06:31.416Z",
+      "description": "战争才刚刚开始\n如果你们也想参与到这场迄今游戏历史上最大的玩家战争\n哪怕只是做一位见证者，哪怕只是想出一份力\n里面有完整的攻略教程，也有教官为新人答疑解惑\n我把萌新时期，老舰长送给我的祝福也送给你们：“愿你们能在这片宇宙中，留下属于自己的星痕”",
+      "stats": {
+        "views": 23081,
+        "replies": 233
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/atioth-2026/materials-atioth-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1hFxvzhEFk",
+      "title": "EVE 两场在国庆节发生的大战 暴露了中外玩家最本质的区别！",
+      "url": "https://www.bilibili.com/video/BV1hFxvzhEFk/",
+      "owner_uid": "54969171",
+      "published_at": "2025-10-08T10:00:00.000Z",
+      "captured_at": "2026-10-24T06:56:16.563Z",
+      "description": "EVE国服已经正式上线steam，在steam搜索“星战前夜：晨曦”即可下载\n如果想加联盟或者想入坑EVE的朋友可以加入我们的军团群：",
+      "stats": {
+        "views": 161102,
+        "replies": 564
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1TUHHz1E6r",
+      "title": "千人决战堪比赛博坐牢？EVE的游戏体验真有那么差？",
+      "url": "https://www.bilibili.com/video/BV1TUHHz1E6r/",
+      "owner_uid": "54969171",
+      "published_at": "2025-10-01T10:00:00.000Z",
+      "captured_at": "2026-10-24T06:56:03.210Z",
+      "description": "现在eve国服正式在steam上线。大家在steam搜索“星战前夜 晨曦”即可下载，国服相较于欧服增添了很多独特的内容，例如没有死亡惩罚的索拉费雷尔实验室。该模式独立于主宇宙，不需要消耗任何主世界的资源。欢迎大家前来体验。\neve军团群：",
+      "stats": {
+        "views": 15043,
+        "replies": 86
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     },

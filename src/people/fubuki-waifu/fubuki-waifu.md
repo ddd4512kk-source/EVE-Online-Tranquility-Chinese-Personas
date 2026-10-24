@@ -21,9 +21,9 @@ zKillboard 生涯击杀 12181，单杀 476 次，在靠舰队吃饭的华人 FC 
 > AT船怎么跑得比BNMGS慢啊
 > ……
 > 我永远喜欢听mio/星姐唱歌，谢谢！
-> captain cup 4th place
-> ATXIX Champion Team Captain.
-> Best Flag is A Dead Flag.
+> 队长杯第四名（captain cup 4th place）
+> ATXIX 冠军队长。（ATXIX Champion Team Captain.）
+> 最好的旗舰是死掉的旗舰。（Best Flag is A Dead Flag.）
 > Kill: Fubuki Waifu (Vindicator)
 
 那条复仇者级是 2023 年 8 月在 N-9EOQ 被[六个人打掉的](https://zkillboard.com/kill/111128778/)，**30.8B**，是他 KB 上最贵的一次损失。冠军队长把自己最贵的一条船挂在简介最后一行，紧跟在“最好的旗舰是死掉的旗舰”下面——这句话，他先对自己用了。

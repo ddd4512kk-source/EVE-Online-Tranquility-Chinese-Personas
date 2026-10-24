@@ -2,7 +2,7 @@
 copper，游戏名 coppercn，2021 年建号，在 FRT 的 Stardust-Guardian 待了四年多，2025 年转进“凌晨四点玩原神的 25 岁男人”（[黑莲](../2115433044/)的军团）。FRT AT19 冠军队的组队核心之一。
 
 ::: 红料 AT19 冠军的组队核心
-据 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，AT18 失利后，几位队员回 FRT 重新拉人，“successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz”，这批人打进队长杯第四，成了 AT19 冠军阵容的底子。
+据 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，AT18 失利后，几位队员回 FRT 重新拉人，“成功拉回了 DarKdeZ Ever、coppercn、Kalek Astroth、jimzzz 等 FRT 现役成员”，这批人打进队长杯第四，成了 AT19 冠军阵容的底子。
 :::
 
 ::: 红料 凛冬联盟总览的维护人

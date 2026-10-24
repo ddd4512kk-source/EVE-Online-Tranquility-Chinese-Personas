@@ -14,7 +14,7 @@
 | [131893726](https://zkillboard.com/kill/131893726/) | 2025-12-13 04:46:41 | 8Q-UYU | Opus Congelatio圣卒；3名攻击者，鱼头伤害5683、最后一击，战时Why So Sage98738067／DC，驾驶流浪11999；简介标题小红手 |
 | [132027982](https://zkillboard.com/kill/132027982/) | 2025-12-19 13:44:14 | 6-O5GY | Kyouraku Shunsuii维德马克；鱼头唯一攻击者、伤害6570、最后一击，Why So Sage／DC；简介标题无法形容 |
 | [137514200](https://zkillboard.com/kill/137514200/) | 2026-08-06 09:40:06 | 2R-KLH | CaptainSalazar1洛基；4名攻击者，鱼头驾驶幽灵17718，伤害33300、最后一击，BOP／DC |
-| [137514204](https://zkillboard.com/kill/137514204/) | 2026-08-06 09:40:27 | 2R-KLH | 同一CaptainSalazar1逃生舱；鱼头唯一攻击者、伤害461、最后一击，BOP／DC |
+| [137514204](https://zkillboard.com/kill/137514204/) | 2026-08-06 09:40:27 | 2R-KLH | 同一CaptainSalazar1太空舱；鱼头唯一攻击者、伤害461、最后一击，BOP／DC |
 
 系统名与Why So Sage名称来自ESI批量names；船型11999、17718另读ESI types确认Vagabond、Phantasm，按术语表写流浪、幽灵。
 

@@ -93,13 +93,7 @@
 
 [本人空间UID2874813](https://space.bilibili.com/2874813/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《[EVE-ONLINE欧服] 3000DPS+巨蟒级官员AT黑隐 ESS PVP 猛鬼队》](https://www.bilibili.com/video/BV1jNTEz7Eix/)
-- [《如何让70艘无畏和势力大航陨落（阿玆贝尔+无畏视角）》](https://www.bilibili.com/video/BV1k4411U7yM/)
-- [《【EvE Online 欧服】神装C掠夺Golem遭遇50人小队》](https://www.bilibili.com/video/BV1us411p7UG/)
-- [《【EVE-ONLINE欧服】T3海神 PROTEUS PVP solo》](https://www.bilibili.com/video/BV19U1BYXE6P/)
-- [《EVE欧服- 当一只万王遇到一个小队》](https://www.bilibili.com/video/BV11s411H7TR/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/2874813.json`；只是候选，不据标题归个人事件或判质量。
 
 后续实际阅读、合作排除与当前2条精选见下文，来源未核候选不能视作已淘汰；本段只列当时空间候选，不代表作品均已读。
 

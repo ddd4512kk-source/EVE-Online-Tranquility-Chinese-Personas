@@ -2,7 +2,7 @@
 
 CyrusXiaoKe／2120938298，2026-10-12 ESI头衔“小可,CEO”，当前Sand Storm Town INC.／98789101、DC／99009163。军团简介旧清单登记CEO同名；本次未新取军团任期，不倒推何时掌权。中文头衔、军团名单与角色名字XiaoKe直接对应社区“小可”。有社区FC点名依据，可收录。
 
-公开简介收藏题签：第一KM“虽然不出意外是蛋”，链接Brickwallobee Cementists胶囊；“目前最贵KM”RomanMaster qwaser帕拉丁；“周榜ved第一”链接nextor1an的Vedmak；“如何走向成功”“祝好梦”；“再见，小章鱼。Goodbye,Pandemic Horde.”后挂空堡击杀。未读取对应KM或周榜，不写单杀、冠军或空堡指挥结果。DISCORD及现实亲密关系短句不归档。
+公开简介收藏题签：第一KM“虽然不出意外是蛋”，链接Brickwallobee Cementists太空舱；“目前最贵KM”RomanMaster qwaser帕拉丁；“周榜ved第一”链接nextor1an的Vedmak；“如何走向成功”“祝好梦”；“再见，小章鱼。Goodbye,Pandemic Horde.”后挂空堡击杀。未读取对应KM或周榜，不写单杀、冠军或空堡指挥结果。DISCORD及现实亲密关系短句不归档。
 
 [DC内斗帖10947430368](https://tieba.baidu.com/p/10947430368)，2026-08-16，第21楼UID4406722700展示名贴吧用户_a5tW6aU、原名E大V嘴E：骂“外来的fc”“一个多米 一个小可”，称自己因此离开。个人头衔与DC小可CEO名单是角色对应依据；这是退团者的评价，不证明小可具体颁布了哪些禁令。首楼四团100+战斗人口流失是帖主估计，不当官方人数。
 

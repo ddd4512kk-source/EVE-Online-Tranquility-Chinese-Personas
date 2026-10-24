@@ -105,3 +105,7 @@
 ## 精选补选（2026-10-22）
 
 公开投稿列表115条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV16F411S7sA（AT全华班夺冠）、BV1Uw4m1f779（诈骗合同灭联盟）、BV1Sh411d7Yk（维德马克&手动风筝教程）、BV1xU4y1u7k9（单手矛击杀8.3锤杖）、BV15Q4y1i72F（恶狼PVP集锦Ascendancy）。作品页简介与评论未读。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘：Sarion Ikaruga, and Chess Player from the Esports Petopia team

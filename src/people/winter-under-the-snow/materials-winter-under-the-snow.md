@@ -32,13 +32,7 @@
 
 [本人空间UID92133449](https://space.bilibili.com/92133449/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得25、25个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《EVE欧服速报 第一大华人军团创世倾域退出FRT联盟》](https://www.bilibili.com/video/BV1XbzhB3ERp/)
-- [《加入FRT反时区舰队！》](https://www.bilibili.com/video/BV19SUcBmEEN/)
-- [《阿希尔1600人绞肉战 WinterCo VS 帝国+深水【EVE欧服】》](https://www.bilibili.com/video/BV1Ryr9BjEua/)
-- [《一首歌的时间，最高画质教你刷遍莫德团燃烧【EVE】》](https://www.bilibili.com/video/BV1dGvaBTEaY/)
-- [《熊猫TV FRT联盟答疑26.1.25直播录像》](https://www.bilibili.com/video/BV1Gsz4BbEPv/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/92133449.json`；只是候选，不据标题归个人事件或判质量。
 
 本节只记候选入口，具体取舍与未读缺口见后文。
 
@@ -61,3 +55,13 @@
 - [《加入FRT反时区舰队！》](https://www.bilibili.com/video/BV19SUcBmEEN/)：简介明确 W 佬委托、WC HD 欧时区与目标玩家，适合认识大联盟怎样为另一批在线人口招人。
 - [《一首歌的时间，最高画质教你刷遍莫德团燃烧》](https://www.bilibili.com/video/BV1dGvaBTEaY/)：简介主动讲音乐放慢2%和部分任务不推荐刷，适合读这个教刷题材里的选择与自嘲。
 - [《当年在最硬核太空科幻游戏里大战十国联军的华人联盟怎么样了？》](https://www.bilibili.com/video/BV1YgCwBiEYZ/)：作者交代2017年起的选题范围、拆迁背景及爱丽丝音频来路；适合从公开用料说明了解他怎样搭建联盟回顾。
+
+
+## B站作品精选补充（2026-10-24）
+
+本轮依据 docs/bilibili/92133449.json 的本人频道公开投稿列表与既有播放计数，按标题选择下列 EVE 作品补足精选。未读取视频影像、音频、字幕或视频页；推荐理由仅据标题及素材中已有的相关文字，不评价未读视听内容。
+
+- [“他们怎么还没被杀完？”PPG-XC铁壁结构攻防绞肉机【EVE欧服】](https://www.bilibili.com/video/BV18nknBmEDR/)（BV18nknBmEDR，频道列表记录播放 2219）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [一名星际舰队翻译官的日常是怎么样的？](https://www.bilibili.com/video/BV1ezzxBFEPg/)（BV1ezzxBFEPg，频道列表记录播放 2304）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [熊猫TV FRT联盟答疑26.1.25直播录像](https://www.bilibili.com/video/BV1Gsz4BbEPv/)（BV1Gsz4BbEPv，频道列表记录播放 2392）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [沉浸式体验敌方会战舰队放鸽子7分21秒](https://www.bilibili.com/video/BV1HjkJBaEng/)（BV1HjkJBaEng，频道列表记录播放 1098）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。

@@ -1,0 +1,250 @@
+{
+  "person:aba-guai": {
+    "status": "reviewed",
+    "note": "已核收录号stats、2026-01代表KM、正确Monitor KM及5场本地战役；补综合画像与指挥身份，原LP争执保留。",
+    "evidence": [
+      "src/people/aba-guai/materials-aba-guai.md"
+    ],
+    "dependencies": [
+      "docs/sources/dsn-lp-dispute-2026.md",
+      "src/people/aba-guai/2119615259-id.json",
+      "src/people/aba-guai/aba-guai.md",
+      "src/people/aba-guai/materials-aba-guai.md",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+      "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+      "src/battles/atioth-2026/atioth-2026.json",
+      "src/battles/atioth-2026/atioth-2026.md",
+      "src/battles/atioth-2026/materials-atioth-2026.md",
+      "src/battles/sahtogas-2026/sahtogas-2026.json",
+      "src/battles/sahtogas-2026/sahtogas-2026.md",
+      "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+      "src/battles/turnur-2023/turnur-2023.json",
+      "src/battles/turnur-2023/turnur-2023.md",
+      "src/battles/turnur-2023/materials-turnur-2023.md",
+      "src/battles/x47l-q-2023/x47l-q-2023.json",
+      "src/battles/x47l-q-2023/x47l-q-2023.md",
+      "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+    ],
+    "inputs": "3d62ff8484c85def3f21dfaba4194214ea9443313ec821083612c22692930ce0",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:alero-araragiero": {
+    "status": "needs-work",
+    "note": "收录号综合KB、主力船型、高值月样本与6场战役已核；纠正35683误认Monitor，撤回FC身份。BararagiEro stats返回Invalid type or id，快递号汇总留缺口，按相关战斗线索再恢复，不当零战绩。",
+    "evidence": [
+      "src/people/alero-araragiero/materials-alero-araragiero.md"
+    ],
+    "dependencies": [
+      "src/people/alero-araragiero/2115643725-id.json",
+      "src/people/alero-araragiero/alero-araragiero.md",
+      "src/people/alero-araragiero/materials-alero-araragiero.md",
+      "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+      "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+      "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+      "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+      "src/battles/a1-auh-2021/a1-auh-2021.json",
+      "src/battles/a1-auh-2021/a1-auh-2021.md",
+      "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+      "src/battles/atioth-2026/atioth-2026.json",
+      "src/battles/atioth-2026/atioth-2026.md",
+      "src/battles/atioth-2026/materials-atioth-2026.md",
+      "src/battles/m-md31-2026/m-md31-2026.json",
+      "src/battles/m-md31-2026/m-md31-2026.md",
+      "src/battles/m-md31-2026/materials-m-md31-2026.md",
+      "src/battles/otela-2024/otela-2024.json",
+      "src/battles/otela-2024/otela-2024.md",
+      "src/battles/otela-2024/materials-otela-2024.md"
+    ],
+    "inputs": "eda77221099ce626366646f5b98eafc62ec2f906873cefb7188404485cfed53e",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:chengzi": {
+    "status": "reviewed",
+    "note": "已核收录号与主力ZS-The only love的stats、萨托加斯代表KM及战役；W634低于优先量级未扩查；补小号承载的实战，不凭自动fc字段认指挥。",
+    "evidence": [
+      "src/people/chengzi/materials-chengzi.md"
+    ],
+    "dependencies": [
+      "docs/sources/kzu-kunlun-2026-07.md",
+      "src/people/chengzi/2115027553-id.json",
+      "src/people/chengzi/chengzi.md",
+      "src/people/chengzi/materials-chengzi.md",
+      "src/battles/sahtogas-2026/sahtogas-2026.json",
+      "src/battles/sahtogas-2026/sahtogas-2026.md",
+      "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+    ],
+    "inputs": "f5aa36627e7443e56db1e2dc37fb7518f705949f23547244dfef2225aa9e73cb",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:dan-hua": {
+    "status": "reviewed",
+    "note": "对照抽查，复用已存常用船、综合KB、高值月份和M2本人俄洛巴斯KM材料；5场本地关联已列于素材或互链，正文已有冠军与会战综合画像，本次无须重复扩写。",
+    "evidence": [
+      "src/people/dan-hua/materials-dan-hua.md"
+    ],
+    "dependencies": [
+      "docs/sources/capital-battles-2026-10-11.md",
+      "docs/sources/large-battles-2026-10-11.md",
+      "src/people/dan-hua/2116540636-id.json",
+      "src/people/dan-hua/dan-hua.md",
+      "src/people/dan-hua/materials-dan-hua.md",
+      "src/battles/4-abs8-2023/4-abs8-2023.json",
+      "src/battles/4-abs8-2023/4-abs8-2023.md",
+      "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+      "src/battles/a1-auh-2021/a1-auh-2021.json",
+      "src/battles/a1-auh-2021/a1-auh-2021.md",
+      "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+      "src/battles/fwst-8-2020/fwst-8-2020.json",
+      "src/battles/fwst-8-2020/fwst-8-2020.md",
+      "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+      "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+      "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+      "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+      "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+      "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+      "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+    ],
+    "inputs": "0328837c485aee0efa79d27121e875e010499daa5e4149c90afd90c92c51c984",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:fracture-ray": {
+    "status": "reviewed",
+    "note": "对照抽查，复用2026-10-23画像中的常用船、星系、综合KB及已核T8T-RA经历；正文已将隐轰、低安与高值月份合写，本次未发现同类遗漏，未扩查频道影像。",
+    "evidence": [
+      "src/people/fracture-ray/materials-fracture-ray.md"
+    ],
+    "dependencies": [
+      "src/people/fracture-ray/2117368009-id.json",
+      "src/people/fracture-ray/fracture-ray.md",
+      "src/people/fracture-ray/materials-fracture-ray.md",
+      "src/battles/1-smeb-2026/1-smeb-2026.json",
+      "src/battles/1-smeb-2026/1-smeb-2026.md",
+      "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+      "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+      "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+      "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+    ],
+    "inputs": "44bfe51f7155d0de20b64c3478d7a7aca92efb8069dac80924fe641e44a24379",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:huajianxiao": {
+    "status": "reviewed",
+    "note": "已核收录号与较高价值主力LZ-PPHV的stats、哈拉斯代表KM及3场战役；其余低活跃号未扩查，保留出货与叛忍主线。",
+    "evidence": [
+      "src/people/huajianxiao/materials-huajianxiao.md"
+    ],
+    "dependencies": [
+      "src/people/huajianxiao/2115822564-id.json",
+      "src/people/huajianxiao/huajianxiao.md",
+      "src/people/huajianxiao/materials-huajianxiao.md",
+      "src/battles/h-pa29-2022/h-pa29-2022.json",
+      "src/battles/h-pa29-2022/h-pa29-2022.md",
+      "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+      "src/battles/haras-2023/haras-2023.json",
+      "src/battles/haras-2023/haras-2023.md",
+      "src/battles/haras-2023/materials-haras-2023.md",
+      "src/battles/otsasai-2021/otsasai-2021.json",
+      "src/battles/otsasai-2021/otsasai-2021.md",
+      "src/battles/otsasai-2021/materials-otsasai-2021.md"
+    ],
+    "inputs": "877af0544b024dd2c2a3eb1236e867ce8adac672a50b31c4ef6788d1c86c3bb9",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:n-bomber": {
+    "status": "reviewed",
+    "note": "已核主号stats、2025-05代表KM、1N-FJ8历史归属；以背景补实战，原辩护与对手讥刺保留，未据样本认FC。",
+    "evidence": [
+      "src/people/n-bomber/materials-n-bomber.md"
+    ],
+    "dependencies": [
+      "src/people/n-bomber/2120263809-id.json",
+      "src/people/n-bomber/materials-n-bomber.md",
+      "src/people/n-bomber/n-bomber.md",
+      "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+      "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+      "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+    ],
+    "inputs": "6d9a8c08adaca6e8f698d0dd19d8c7fd9e9ba65bccf58b4202c584de820945dc",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:roses-mary": {
+    "status": "reviewed",
+    "note": "已核stats、2025-09建筑代表KM及欧塔萨塞参战；该KM未返回本人船型，不补造；战斗背景不覆盖九州瑶光CEO管理争议。",
+    "evidence": [
+      "src/people/roses-mary/materials-roses-mary.md"
+    ],
+    "dependencies": [
+      "src/people/roses-mary/2114089373-id.json",
+      "src/people/roses-mary/materials-roses-mary.md",
+      "src/people/roses-mary/roses-mary.md",
+      "src/battles/otsasai-2021/otsasai-2021.json",
+      "src/battles/otsasai-2021/otsasai-2021.md",
+      "src/battles/otsasai-2021/materials-otsasai-2021.md"
+    ],
+    "inputs": "a561aa13be74779cda4e8aab6745954960229edbd6cbc974f670fa565072f139",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:sky-destroyer": {
+    "status": "reviewed",
+    "note": "已核既有ESI自称FLEET COMMANDER、stats、2025-10首批200条中的代表KM及4场战役；补FC和战斗画像，未据此认其指挥具体大会战。",
+    "evidence": [
+      "src/people/sky-destroyer/materials-sky-destroyer.md"
+    ],
+    "dependencies": [
+      "docs/sources/frt-offtimezone-quotes-2025.md",
+      "src/people/sky-destroyer/2121355955-id.json",
+      "src/people/sky-destroyer/materials-sky-destroyer.md",
+      "src/people/sky-destroyer/sky-destroyer.md",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+      "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+      "src/battles/ahbazon-2024/ahbazon-2024.json",
+      "src/battles/ahbazon-2024/ahbazon-2024.md",
+      "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+      "src/battles/lantorn-2025/lantorn-2025.json",
+      "src/battles/lantorn-2025/lantorn-2025.md",
+      "src/battles/lantorn-2025/materials-lantorn-2025.md",
+      "src/battles/otela-2024/otela-2024.json",
+      "src/battles/otela-2024/otela-2024.md",
+      "src/battles/otela-2024/materials-otela-2024.md"
+    ],
+    "inputs": "dc22be3907829db0d7489d6af391f49544ad027769ad6bfb56040c9156954615",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:yagaha": {
+    "status": "reviewed",
+    "note": "已核YAGAHA与YAGAHA3的stats、主号X47代表KM及6场本地战役；补星华时期战斗画像，CEO和重组主线保留，各号不相加。",
+    "evidence": [
+      "src/people/yagaha/materials-yagaha.md"
+    ],
+    "dependencies": [
+      "docs/sources/kzu-kunlun-2026-07.md",
+      "src/people/yagaha/2118729398-id.json",
+      "src/people/yagaha/materials-yagaha.md",
+      "src/people/yagaha/yagaha.md",
+      "src/battles/h-pa29-2022/h-pa29-2022.json",
+      "src/battles/h-pa29-2022/h-pa29-2022.md",
+      "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+      "src/battles/haras-2023/haras-2023.json",
+      "src/battles/haras-2023/haras-2023.md",
+      "src/battles/haras-2023/materials-haras-2023.md",
+      "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+      "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+      "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+      "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+      "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+      "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+      "src/battles/tn25-j-2025/tn25-j-2025.json",
+      "src/battles/tn25-j-2025/tn25-j-2025.md",
+      "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+      "src/battles/x47l-q-2023/x47l-q-2023.json",
+      "src/battles/x47l-q-2023/x47l-q-2023.md",
+      "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+    ],
+    "inputs": "f561dd7b32e0616c82fca34c612c630b3f46803a7370167eb1ad02d3f0612785",
+    "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  }
+}

@@ -11,21 +11,30 @@
     "evidence": [
       "素材已核；不与无面者“憨憨橙子”混同"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "label": "日期候选的核读与排除依据"
+      }
+    ]
   },
   "channel": {
     "profile": {},
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:10:48.256Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:38:39.077Z",
+        "scope": "已存投稿目录185条，网页当前公开视频185条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/289511974/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:10:48.256Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:38:39.077Z",
+        "scope": "已存投稿目录185条，网页当前公开视频185条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/289511974/upload/video"
       },
       "series": {
@@ -48,7 +57,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:10:48.256Z",
         "source": "https://space.bilibili.com/289511974/upload/video",
-        "scope": "公开投稿列表全部185条（共189条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录185条；旧接口曾报告189条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频185条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1qHJ26VEQ9",
@@ -1345,11 +1354,50 @@
             "published": "2020-10-24",
             "views": 29
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:38:39.077Z",
+          "source": "https://space.bilibili.com/289511974/upload/video",
+          "public_video_count": 185,
+          "archived_count": 185,
+          "previous_api_total": 189,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
   "videos": [
+    {
+      "bvid": "BV1gbkwB8EZV",
+      "title": "萨托佳斯千人会战超燃混剪，双方损失共计超过￥30000",
+      "url": "https://www.bilibili.com/video/BV1gbkwB8EZV/",
+      "owner_uid": "289511974",
+      "published_at": "2026-01-15T17:08:27.000Z",
+      "captured_at": "2026-10-24T06:58:12.887Z",
+      "description": "",
+      "stats": {
+        "views": 278,
+        "replies": 3
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
     {
       "bvid": "BV18NiqB3EM9",
       "title": "KZU会议记录0103",
@@ -1372,6 +1420,35 @@
           "src/people/chengzi/materials-chengzi.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1zau36pEJJ",
+      "title": "202608082027",
+      "url": "https://www.bilibili.com/video/BV1zau36pEJJ/",
+      "owner_uid": "289511974",
+      "published_at": "2026-08-08T12:33:36.000Z",
+      "captured_at": "2026-10-24T11:31:46.890Z",
+      "description": "",
+      "stats": {
+        "views": 28,
+        "replies": 1
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+        ],
+        "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
       },
       "usage": {
         "body": false,

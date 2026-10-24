@@ -89,15 +89,19 @@ KB 上，他击杀 4398 次、3.09 万亿 ISK，损失 496 次、只有 474 亿�
 ::: 黑料 简介里的人生信条
 他的角色简介是一串英文“太空生存守则”：
 
-> 3) Death before Dishonar.
-> 4)shooting first is not the best deplomacy. However still gets the job done.
-> 5) Never retreat, only tactically repostion.
+> 3）宁死不辱（Death before Dishonar.）
+> 4）先开火不是最好的外交手段，但事情总能办成。（shooting first is not the best deplomacy. However still gets the job done.）
+> 5）绝不撤退，只做战术转移。（Never retreat, only tactically repostion.）
 
-十条守则错了三个词。底下挂着几张 KM，其中一张是他自己被打掉的纳迦法，配字“FOR THE EMPIRE!”。第十条写着：“This is only a Video Game so dont take it personally”——贴吧上的天籁，显然没读到第十条。
+十条守则错了三个词。底下挂着几张 KM，其中一张是他自己被打掉的纳迦法，配字“为了帝国！”（FOR THE EMPIRE!）。第十条写着：“这只是个电子游戏，别往心里去”（This is only a Video Game so dont take it personally）——贴吧上的天籁，显然没读到第十条。
 :::
 
 ::: 红料 B站作品精选
 - [《韩国人的舰队被国人堵在死角星系后竟然》](https://www.bilibili.com/video/BV1Xb411x78b/)：作者写来访、主队回防与堵住死角的经过，也交代尝试改变视频风格；可读其早期RR军团的接敌与回防记录。
+- [《1400毫米的正义！——5、4、3、2、1，开火！》](https://www.bilibili.com/video/BV1uV4y1q7Hr/)：题名把大口径火炮与倒数开火的临场感写得直接，和他较严肃的指挥课并列，能看出频道不只有教学。
+- [《2023年第一场无畏战，up落灰的娜迦法再次爽射！》](https://www.bilibili.com/video/BV1kd4y1L7E7/)：标题围绕新年首场无畏战与久未出场的娜迦法，补充其舰队战记录这一面。
+- [《那天，我们的队伍冲进了四条远狙帕拉丁摆好阵的ESS……》](https://www.bilibili.com/video/BV1924y1f7eM/)：从标题可见队伍闯入预先布阵的ESS遭遇，题材落在临场接战。
+- [《父老乡亲围观村里唯一个大学生打AT赛！》](https://www.bilibili.com/video/BV14G411F7vZ/)：标题把AT赛和围观的熟人放在一起，给频道会战与指挥课程之外添了点个人现场感。
 :::
 
 ::: 评

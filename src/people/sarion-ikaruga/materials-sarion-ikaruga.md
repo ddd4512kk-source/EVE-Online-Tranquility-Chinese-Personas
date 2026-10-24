@@ -25,3 +25,8 @@
 ## 精选补选（2026-10-22）
 
 公开投稿列表60条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV1E54y1D7xJ（奥苏斯暴力向，除合作纪录片外播放最高）、BV1G4411S7hN（审判低安解说）、BV1bA411q756（30马克瑞对120人）、BV12z411e7wo（Zealot VS Tempest跨服对决）、BV1mX4y1P7sm（F1 Monkey 2020小队击杀集锦）。《最精彩的决赛》BV16F411S7sA为他人上传的合作作品，未选。。作品页简介与评论未读。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘：Sarion Ikaruga, and Chess Player from the Esports Petopia team
+- 角色简介长文：Most of the people who disparaging Sarion for many years have... extremely low self-esteem, and their IQ decreases year by year, and finally they are completely stupid... Haters who disparaging Sarion have a strong anti-social inclination. They are destabilizing and endanger the lives of normal people.

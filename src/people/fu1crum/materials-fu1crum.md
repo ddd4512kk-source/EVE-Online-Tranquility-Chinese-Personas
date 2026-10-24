@@ -10,7 +10,6 @@
 
 - 2026-10-07 复核时的历史料块数：5 → 6；此后已有红黑重分及修订，不代表当前条数。
 
-
 ## B 站账号（2026-10-10 补）
 
 - [Fu1crum](https://space.bilibili.com/10974290)，UID 10974290，即列传所引 AOM 战事视频的 UP 主；来源可靠的账号归属说明。投稿列表本次未重读（接口风控）。
@@ -19,7 +18,6 @@
 
 - [大坝科研 Dam Scientific Research（DAMSR）](https://esi.evetech.net/latest/corporations/98606029/)（Dracarys.，223 角色；CEO huaxia junyue）简介挂着一条战利品链接：“击毁：Lv223 (监视者级)”。对应 [killmail 89264362](https://zkillboard.com/kill/89264362/)：2020-12-14 12:37，D-PNP9，受害者 Lv223（Mango.，AOM）的监视者；41 名攻击者全部是 AOM 成员，其中一名来自 DAMSR——自家总监的监视者被自家联盟成员击毁。Monitor不是旗舰；KM未交代起因，不推演习、退役、惩处或指挥翻车，普通损失不列黑料。
 - 同一简介：“由于 那个男人 让AOM 联盟 直接GG，全部木大，我们现已加入DC，所有非主要战斗人员均已踢出”。DAMSR 联盟历史：2019-06-30 进 AOM，2022-01-07 离开，2022-01-09 进 Dracarys.，2022-01-21 进 Pandemic Horde，2025-11-20 回 Dracarys.。“那个男人”没点名，圈里一般指[馒头](../mantou-eve/materials-mantou-eve.md)。
-
 
 ## 2026-10-13：列传重审与来源摘要
 
@@ -49,56 +47,11 @@
 
 2026-10-11 的小号 KB 查询快照，参与击杀目标累计金额：[Fu1crum（95502031）](https://zkillboard.com/character/95502031/) 0.0B ISK。限当次接口返回口径，不合计各号；0B 不代表此人没有参战。该轮大战与星系／月份筛查范围见[共用战斗素材](../../../docs/sources/capital-battles-2026-10-11.md)。
 
-
 ## B站投稿回查（2026-10-13）
 
 - [公开投稿页](https://space.bilibili.com/10974290/upload/video)当前作者名“Fu1crum”，页面显示 65 条投稿；本页可见 40 条标题与不同 BV。简介、影像与评论未读。 其余投稿须按网页分页续读；本轮不宣称全量。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1zMAXzBEvt](https://www.bilibili.com/video/BV1zMAXzBEvt/) | 【EVE ONLINE真视界】联盟队的“救赎” - FRTvs十国联军 1400人720b战损 Taff塔夫旗舰战导演剪辑版。 |
-| [BV1Bf4y1G7a1](https://www.bilibili.com/video/BV1Bf4y1G7a1/) | 【EVE】芒果人大战宇宙棒子（指挥原声 feat.俄罗斯兄弟） |
-| [BV1aU4y1H7eZ](https://www.bilibili.com/video/BV1aU4y1H7eZ/) | 【EVE】PIBC南方康复性训练（原声，一刀未剪，Feat. 希拉/老兄弟） |
-| [BV1zZ4y1s7Q2](https://www.bilibili.com/video/BV1zZ4y1s7Q2/) | 【EVE】PIBC 2019：AOM的远征 |
-| [BV1GE411q7uD](https://www.bilibili.com/video/BV1GE411q7uD/) | 【EVE】WC众：我们也被馒狗埋伏了 |
-| [BV1XE411r7kP](https://www.bilibili.com/video/BV1XE411r7kP/) | 【EVE】萌萌：我也中了馒狗的埋伏 |
-| [BV1F4411R7So](https://www.bilibili.com/video/BV1F4411R7So/) | 【EVE】一龙奈特：我中了馒狗的埋伏 |
-| [BV1Jb411r7Y5](https://www.bilibili.com/video/BV1Jb411r7Y5/) | 【EVE】PIBC 2018 |
-| [BV1at41197ki](https://www.bilibili.com/video/BV1at41197ki/) | 【PIBC】官方宣传片 |
-| [BV1gt411U7qd](https://www.bilibili.com/video/BV1gt411U7qd/) | 【PIBC】诱导已开 |
-| [BV1ks41137wX](https://www.bilibili.com/video/BV1ks41137wX/) | 【RnK】第五日晨曦(生肉） |
-| [BV1UW411s7a4](https://www.bilibili.com/video/BV1UW411s7a4/) | 【EVE】给我一百条隐轰！ |
-| [BV1SW411E7G7](https://www.bilibili.com/video/BV1SW411E7G7/) | 【EVE】[Fan Made] 战争召唤 4.5：PIBC 2017 |
-| [BV1vx411s7dX](https://www.bilibili.com/video/BV1vx411s7dX/) | 【PIBC】落地成盒两环王 |
-| [BV12x411t7QL](https://www.bilibili.com/video/BV12x411t7QL/) | 【EVE ONLINE】- LIFEBLOOD 童年配音重置版 |
-| [BV11x411t7kp](https://www.bilibili.com/video/BV11x411t7kp/) | 【PIBC】虫洞之战 feat.千秋燎原 |
-| [BV1yx411t7wA](https://www.bilibili.com/video/BV1yx411t7wA/) | 【Pandemic Legion】超旗骑脸镇压叛乱 |
-| [BV1Hx411t7z8](https://www.bilibili.com/video/BV1Hx411t7z8/) | 【Pandemic Legion】这游戏只有一种玩法 骑脸 |
-| [BV1Mx411t7ZX](https://www.bilibili.com/video/BV1Mx411t7ZX/) | 【Pandemic Legion】欢迎前来欧服体验骑脸 |
-| [BV1Zx41147k3](https://www.bilibili.com/video/BV1Zx41147k3/) | 【泛银疾控】长枪 对于泛柯尔斯鱼群的捕捞效率研究 |
-| [BV17x411b73E](https://www.bilibili.com/video/BV17x411b73E/) | 【SNUFFED OUT】低安300无畏强杀征服者级（失败） |
-| [BV1ex411J7rA](https://www.bilibili.com/video/BV1ex411J7rA/) | 【欧服】小型舰队对抗 Agony + Fight The Blob + Microgang Help vs Brave |
-| [BV1ex411J7eD](https://www.bilibili.com/video/BV1ex411J7eD/) | 【NC.】Barleguet Fortizar Defence - Loki POV |
-| [BV1Hx411J7uu](https://www.bilibili.com/video/BV1Hx411J7uu/) | 【泛银疾病控中心】玻色力场发生器 对于鱼类大脑及生殖系统影响的研究 |
-| [BV1Vx411J7n8](https://www.bilibili.com/video/BV1Vx411J7n8/) | 【希尔瓦娜斯】6.16 希尔瓦娜斯最后的会议 |
-| [BV1Fx411J7gV](https://www.bilibili.com/video/BV1Fx411J7gV/) | 【TISHU】如何击毁76条无畏（又名 如何损失4条泰坦） |
-| [BV1Kx411J7ES](https://www.bilibili.com/video/BV1Kx411J7ES/) | 【GoonSwarm】 Battle of 36N-HZ Space Violence vs Co2 & FCON vs CVA 03.19.2017 |
-| [BV1Ux411E77q](https://www.bilibili.com/video/BV1Ux411E77q/) | 【RAC】7.3 疑似蓝加抓人致CA内斗事件 |
-| [BV1bx411H7Jq](https://www.bilibili.com/video/BV1bx411H7Jq/) | 【RAC】 3.8 皇马会议 《自由之翼出走事件》 |
-| [BV1Tx411H7mF](https://www.bilibili.com/video/BV1Tx411H7mF/) | 【RAC】7.8 会议录音 |
-| [BV1Kx411H7h8](https://www.bilibili.com/video/BV1Kx411H7h8/) | 【PIBC】卡彻黄焖鸡计划 |
-| [BV11x411n7H1](https://www.bilibili.com/video/BV11x411n7H1/) | 【权力的游戏】当囧snow开始挖矿 |
-| [BV1mx411W7gA](https://www.bilibili.com/video/BV1mx411W7gA/) | 【SNUFFED BOX】如何在超期舰队中强杀（非掉线）超期 |
-| [BV11x411W7mA](https://www.bilibili.com/video/BV11x411W7mA/) | 【SNUFFED OUT】如何在星城强杀超期 |
-| [BV1px411W7GF](https://www.bilibili.com/video/BV1px411W7GF/) | 【PIBC】咱们萌娃有力量 |
-| [BV13x411q74A](https://www.bilibili.com/video/BV13x411q74A/) | 【PIBC】南方超旗舰队征兵广告 |
-| [BV13x411q7W5](https://www.bilibili.com/video/BV13x411q7W5/) | 【The Discourse】虫洞内第一个星城被击毁 |
-| [BV1nx411Y7us](https://www.bilibili.com/video/BV1nx411Y7us/) | 【PIBC】ZXIC铁壁防守战（全程舰队语音） |
-| [BV1ax411v7L3](https://www.bilibili.com/video/BV1ax411v7L3/) | 【PIBC】南方军官团 |
-| [BV1fx411e7PM](https://www.bilibili.com/video/BV1fx411e7PM/) | 【Pandemic Legion】 - 无畏骑脸的恐惧 |
-
+待读作品的标题与BV见B站档案 `docs/bilibili/10974290.json`（40条，未读内容不凭标题补造事件）。
 
 ## 2021年9月AOM Monitor记录
 
@@ -157,7 +110,6 @@
 
 现5条为一龙、WC众、AOM远征、国服PIBC宣传片、萌萌，全为现可核单作者候选；国服旧作按创作经历阅读，不套欧服战役。原总监／FC职责、会议、李疯子退团、各争议与合作制作经历均保留。
 
-
 ## 萌萌篇转贴文字的处理（2026-10-19）
 
 复用已读BV1XE411r7kP的20主线程缓存，无新增请求。XenonPower在2019-10-19评论转贴一段署Fu1crum名、标2019-10-17 23:58:55的文字：“麻烦各位贴吧嘲讽贴都删一下，没必要”。正文明确归XenonPower转贴，不冒称读取原群聊或实际删除命令；具体账号号码不保留。原转贴没有给原始公开入口，不为找原群聊追私域或改查贴吧。其作为观众拿来与埋伏系列对照的社区说法已消化，五条本人精选完成，不再维持无入口的溯源任务。
@@ -172,3 +124,13 @@
 - [《萌萌：我也中了馒狗的埋伏》](https://www.bilibili.com/video/BV1XE411r7kP/)：作者在评论解释交战一方的社区背景，也接住有关3V的起哄，片外又被催更；连同题目和简介读，最能看见这位战报作者的熟人损话风格。
 
 - D-PNP9 2020-12-14：被 41 名 AOM 成员击毁的 [KM 89264362](https://zkillboard.com/kill/89264362/)，大坝科研简介挂此 KM。
+
+
+## B站作品精选补充（2026-10-24）
+
+本轮依据 docs/bilibili/10974290.json 的本人频道公开投稿列表与既有播放计数，按标题选择下列 EVE 作品补足精选。未读取视频影像、音频、字幕或视频页；推荐理由仅据标题及素材中已有的相关文字，不评价未读视听内容。
+
+- [【EVE】[Fan Made] 战争召唤 4.5：PIBC 2017](https://www.bilibili.com/video/BV1SW411E7G7/)（BV1SW411E7G7，频道列表记录播放 20877）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [【EVE】全EVE首次20长枪实战齐射！特武SEC永不为奴！](https://www.bilibili.com/video/BV1Qx411m7MC/)（BV1Qx411m7MC，频道列表记录播放 13439）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [【EVE】PIBC 2018](https://www.bilibili.com/video/BV1Jb411r7Y5/)（BV1Jb411r7Y5，频道列表记录播放 6183）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [【EVE】PIBC南方康复性训练（原声，一刀未剪，Feat. 希拉/老兄弟）](https://www.bilibili.com/video/BV1aU4y1H7eZ/)（BV1aU4y1H7eZ，频道列表记录播放 4465）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。

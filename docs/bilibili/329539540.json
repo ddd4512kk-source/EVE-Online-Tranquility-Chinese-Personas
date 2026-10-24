@@ -11,7 +11,12 @@
     "evidence": [
       "已归本人；黑渊、Snuffed Out、势力旗舰击杀等作品"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+        "label": "战役相关视频"
+      }
+    ]
   },
   "channel": {
     "profile": {
@@ -608,7 +613,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:52:03.422Z",
         "source": "https://space.bilibili.com/329539540/upload/video",
-        "scope": "公开投稿列表全部40条（共41条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录40条；旧接口曾报告41条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频40条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1SbjZ64EXt",
@@ -890,9 +895,50 @@
             "published": "2021-08-24",
             "views": 5266
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:39:00.536Z",
+          "source": "https://space.bilibili.com/329539540/upload/video",
+          "public_video_count": 40,
+          "archived_count": 40,
+          "previous_api_total": 41,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
-  "videos": []
+  "videos": [
+    {
+      "bvid": "BV1JGzrYWEnP",
+      "title": "“打死180个无畏”3势力2普通泰坦1归魂击杀",
+      "url": "https://www.bilibili.com/video/BV1JGzrYWEnP/",
+      "owner_uid": "329539540",
+      "published_at": "2024-11-29T14:53:06.000Z",
+      "captured_at": "2026-10-24T06:54:55.974Z",
+      "description": "好久没上线回归第一战\n六个无畏只录了一个号的视角，CPU已经过载了\nBGM:Natural Born Fighter\n感谢所有参战的克隆飞行员\nfly safe,o7",
+      "stats": {
+        "views": 4677,
+        "replies": 30
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/acr-impact/materials-acr-impact.md",
+          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    }
+  ]
 }

@@ -7,7 +7,7 @@
 ## 阵营划分（自算）
 - 本场只有 FRT 与 Snuff 两方；未单列的散人、小团均归 Snuff。战报快照原自动推断留下45人、47条损失记录为“第三方”，已把对应组织显式并入 Snuff 方的归属列表。页面现在只有两方，不另列第三方。
 - A（FRT 及友军）：Fraternity.、Caladrius Alliance、Fraternity University、Literally Triggered、Blades of Grass、NullSechnaya Sholupen、Lord of Worlds Alliance、VENI VIDI VICI.（含 Chaos arbiter），另无盟军团 AKINA mountain family、Sylvanas Argeir Military Academy。其余皆归 B。
-- A：784 人、损失 387.7B、149 条；B：437 人、损失 539.8B、417 条；合计 1221 人、927.5B（按角色去重，含胶囊，全部自算）。视频标题 386b：510b 略有出入。
+- A：784 人、损失 387.7B、149 条；B：437 人、损失 539.8B、417 条；合计 1221 人、927.5B（按角色去重，含太空舱，全部自算）。视频标题 386b：510b 略有出入。
 - B 主要联盟：Snuffed Out、The Initiative.、WE FORM V0LTA、Nisuwa Cartel。
 - Literally Triggered、Lord of Worlds Alliance 在 ESI 查不到全名匹配，未写入 front matter 的 alliances。
 
@@ -38,3 +38,18 @@
 - [【EVE-ONLINE欧服】欧塔萨塞超期战-snuff视角](https://www.bilibili.com/video/BV1Db4y1U7k2/)：标题指名欧塔萨塞，投稿日当天。
 - [【EVE Online】3泰坦2大航击杀 Snuffed Out&friends VS FRT](https://www.bilibili.com/video/BV1K341167jN/)：投稿日当天，标题对阵与本场相符。
 - [EVE 欧服 对轰SNUFF100无畏群](https://www.bilibili.com/video/BV1W44y1y7s1/)：投稿日当天，标题对阵与本场相符。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+原题、简介与既有素材分别明确双方视角，保留两边各两条并交替排列。Zero后半场GTT视角照原署名说明，不把整部作品冒作单一驾驶者。
+
+- 保留 [【EVE欧服】欧塔FRT超旗 VS Snuff精装无畏（后半场GTT视角）](https://www.bilibili.com/video/BV1Rq4y1Q7x7/)：FRT超旗（后半注明GTT）。
+- 保留 [【EVE-ONLINE欧服】欧塔萨塞超期战-snuff视角](https://www.bilibili.com/video/BV1Db4y1U7k2/)：Snuff（转载）。
+- 保留 [EVE 欧服 对轰SNUFF100无畏群](https://www.bilibili.com/video/BV1W44y1y7s1/)：FRT海幼龙。
+- 保留 [【EVE Online】3泰坦2大航击杀 Snuffed Out&friends VS FRT](https://www.bilibili.com/video/BV1K341167jN/)：Snuff及友军。
+- BV1Db4y1U7k2 简介BR入口（docs/bilibili/2874813.json）：https://br.evetools.org/related/30001446/202108111400。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV1K341167jN 简介BR入口（docs/bilibili/729015.json）：https://br.evetools.org/br/6113e433d9fc880011b59814。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV1W44y1y7s1 简介BR入口（docs/bilibili/37720838.json）：https://br.evetools.org/br/6113e8f86334070018513c65。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。

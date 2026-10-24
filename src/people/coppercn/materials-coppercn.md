@@ -21,3 +21,7 @@
 - 样本中出现于 9 条攻击者名单；代表 [KM 95191703](https://zkillboard.com/kill/95191703/)，2021-09-17T17:55:26Z，本人驾驶 女妖，战时联盟 ID 99003581，本条伤害 0。
 
 - zKillboard 生涯击杀 2072，单杀 110，用得最多的是缪宁（旧版正文取数）。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘原句：successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz

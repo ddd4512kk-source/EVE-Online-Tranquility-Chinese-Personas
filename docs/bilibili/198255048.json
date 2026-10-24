@@ -260,7 +260,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:08:42.700Z",
         "source": "https://space.bilibili.com/198255048/upload/video",
-        "scope": "公开投稿列表全部12条（共31条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录12条；旧接口曾报告31条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频12条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV15LHn6uEKQ",
@@ -346,7 +346,18 @@
             "published": "2026-04-21",
             "views": 205
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:37:42.322Z",
+          "source": "https://space.bilibili.com/198255048/upload/video",
+          "public_video_count": 12,
+          "archived_count": 12,
+          "previous_api_total": 31,
+          "visible_entries_checked": 12,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -368,10 +379,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/sky-eagle-milize/materials-sky-eagle-milize.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -396,10 +405,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/sky-eagle-milize/materials-sky-eagle-milize.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -452,10 +459,8 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/sky-eagle-milize/materials-sky-eagle-milize.md"
-        ],
+        "state": "captured",
+        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

@@ -1,7 +1,7 @@
 
 黑暗闪耀（Dark Shines）是 The Initiative.（INIT）的领头人。2004 年建号，2011 年加入 INIT 体系；2012 年曾短暂去 Pandemic Legion，之后又回到 INIT。此后他辗转 Vanishing Point.、Project Valhalla.、The Fuel Cartel.、Void of Eden. 等军团，始终在同一个联盟里。
 
-他的 KB 有 35,225 条击杀记录，涉及近 35 万亿 ISK，单杀 531 次。这些数字管不到的，是他在频道里的那半份生涯：别人当盟主是坐办公室，他是常年坐在指挥椅上，INIT 凡有像样的出门，多半先过他的麦。角色简介倒很短，只挂着 Twitch 频道 zehpando，后面跟一句“Pando Feet Pics”。[HY](../985265753/) 在 PH 崩盘回顾里顺带提过，EVE 有些大联盟 CEO“其实是依靠其所建立的大社区来赚钱（比如 Darkshine）”。
+他的 KB 有 35,225 条击杀记录，涉及近 35 万亿 ISK，单杀 531 次。这些数字管不到的，是他在频道里的那半份生涯：别人当盟主是坐办公室，他是常年坐在指挥椅上，INIT 凡有像样的出门，多半先过他的麦。角色简介倒很短，只挂着 Twitch 频道 zehpando，后面跟一句“Pando 的脚丫照片”（Pando Feet Pics）。[HY](../985265753/) 在 PH 崩盘回顾里顺带提过，EVE 有些大联盟 CEO“其实是依靠其所建立的大社区来赚钱（比如 Darkshine）”。
 
 INIT 多年是帝国联盟群的二号种子。2025 年元旦，它和帝国重置声望，宣布独立；此后宇宙变成三家：老大蜜蜂、老二凛冬、老三 INIT。FRT 和他的交情，就是在这一年翻了脸。
 

@@ -60,24 +60,7 @@
 - [公开投稿页](https://space.bilibili.com/32738444/upload/video)当前作者名“小绿特”，页面显示 14 条投稿；本页可见 14 条标题与不同 BV。简介、影像与评论未读。
 - 14条列表已取得；高回复入口有《仇恨驾驶员：当时我害怕极了》《6.7 泰坦陨落》，近期则有流浪洞出击与扫描示例。早期作品服务器待逐条核对。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1feaG6JEbi](https://www.bilibili.com/video/BV1feaG6JEbi/) | 【EVE】从流浪洞出击VOL1-兵贵神速 |
-| [BV16Ae96zEj6](https://www.bilibili.com/video/BV16Ae96zEj6/) | 从流浪洞出击-1-流浪洞扫描示例 |
-| [BV1yfFoefEHb](https://www.bilibili.com/video/BV1yfFoefEHb/) | 【EVE】X-7阿兹贝尔争夺战（欧服） |
-| [BV1hD4y1D7qm](https://www.bilibili.com/video/BV1hD4y1D7qm/) | 【EVE】ICU重症舰队互殴 |
-| [BV15k4y167r4](https://www.bilibili.com/video/BV15k4y167r4/) | 【EVE】幼龙翔天须鲸落，铁骑无声新八惊 |
-| [BV1de411x7uw](https://www.bilibili.com/video/BV1de411x7uw/) | 【EVE】 仇恨驾驶员：当时我害怕极了 |
-| [BV1Cx411a7ui](https://www.bilibili.com/video/BV1Cx411a7ui/) | [EVE] 6.7 泰坦陨落 |
-| [BV1fx411Y75C](https://www.bilibili.com/video/BV1fx411Y75C/) | 【EVE】小小伐木，没有烦恼 |
-| [BV1Cx411v7na](https://www.bilibili.com/video/BV1Cx411v7na/) | 【EVE】5.19 一座空堡引发的血案 |
-| [BV1Yx411v7iT](https://www.bilibili.com/video/BV1Yx411v7iT/) | 【EVE】甲抗休津（被打点自爆） |
-| [BV1ex411m7yC](https://www.bilibili.com/video/BV1ex411m7yC/) | 【EVE】卡彻守卫战剪辑 北萌视角 |
-| [BV1Xx411Q7Zg](https://www.bilibili.com/video/BV1Xx411Q7Zg/) | 【EVE】J.D速递 4.7日配送实录 |
-| [BV1Qx411Q7xv](https://www.bilibili.com/video/BV1Qx411Q7xv/) | 【EVE】 记一次愉快的吃鸡 |
-| [BV1Yx411C7pq](https://www.bilibili.com/video/BV1Yx411C7pq/) | 【EVE】京东快递隐轰队 |
+待读作品的标题与BV见B站档案 `docs/bilibili/32738444.json`（14条，未读内容不凭标题补造事件）。
 
 ## 2026-10-15：按关注度补3个早期作品
 

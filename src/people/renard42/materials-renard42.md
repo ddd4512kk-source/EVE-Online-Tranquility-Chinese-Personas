@@ -64,13 +64,7 @@
 
 [本人空间UID3546639406991863](https://space.bilibili.com/3546639406991863/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《[EVE Online]2026年，现在是回坑和入坑EVE的最好时机吗？——带你回顾2024-2026年EVE欧服的大事件、重要更新与改版内容》](https://www.bilibili.com/video/BV1JWti66ERx/)
-- [《【EVEonline】50年以后的EVE玩家be like:》](https://www.bilibili.com/video/BV1RgsNz7ETq/)
-- [《【EVE欧服】Winterco凛冬联盟群领导人noraus发表战前动员》](https://www.bilibili.com/video/BV1LAD3BmEjt/)
-- [《EVEonline可能的结局》](https://www.bilibili.com/video/BV1nU866oEsz/)
-- [《【EVE欧服|抵抗之狐】新活动副本深流裂隙 新人向教学！》](https://www.bilibili.com/video/BV16aFieoE3R/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/3546639406991863.json`；只是候选，不据标题归个人事件或判质量。
 
 本节只记候选入口；后续作品核读、精选取舍与仍待补的内容见下节。
 

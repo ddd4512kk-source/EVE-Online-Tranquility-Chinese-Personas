@@ -98,7 +98,7 @@
 | AOM、Evictus. 及友军 | 485 | 508.320010742 | 552 |
 | 第三方 | 719 | 26.32198162 | 397 |
 
-三方人数合计2316，损失金额与计数均与全场相符。金额按受害方，人物数为攻击者和受害者的角色并集，包含胶囊、建筑等记录，不称纯船体数。完整主号交叉检查命中58位已收录人物，另并入木木三的已对应小号；表中保留冷剑另一个已对应小号，不重复收录本人。表妹在本窗驾驶Monitor（45534），正文直接按指挥叙述；小宋、低调的当前联盟不用于本场归组。
+三方人数合计2316，损失金额与计数均与全场相符。金额按受害方，人物数为攻击者和受害者的角色并集，包含太空舱、建筑等记录，不称纯船体数。完整主号交叉检查命中58位已收录人物，另并入木木三的已对应小号；表中保留冷剑另一个已对应小号，不重复收录本人。表妹在本窗驾驶Monitor（45534），正文直接按指挥叙述；小宋、低调的当前联盟不用于本场归组。
 
 复算组织映射（数字为联盟，corp为军团，char为单个角色）：
 
@@ -127,3 +127,29 @@ Legion of xXDEATHXx（1411711376）归 AOM 及友军一方，从 FRT 一方移�
 - [【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)](https://www.bilibili.com/video/BV16R4y1H7SD/)：标题指名A1-AUH与917，投稿日次日。
 - [EVE欧服 FRT三满编舰队吃AOM超旗队](https://www.bilibili.com/video/BV1eh411p7c6/)：投稿日次日，标题对阵与本场相符。
 - [【EVE Online】闪击归魂者。Snuff&Goons&INIT VS FRT 1归魂3冥府击杀](https://www.bilibili.com/video/BV13f4y1w7qZ/)：投稿日当天，标题对阵与本场第三方相符。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+Ozen简介第一人称明确我方FRT海幼龙舰队。AOM方本地尚无已核参战录像；蜜蜂Kiki和Snuff收割属于本场第三方，烟花整理未明确参战视角，均不补位。
+
+- 保留 [EVE欧服 FRT三满编舰队吃AOM超旗队](https://www.bilibili.com/video/BV1eh411p7c6/)：FRT方。
+- 推荐 [AOM超旗烟花纯享版](https://www.bilibili.com/video/BV1Vf4y1w74W/)（EVE曼努尔）：围绕AOM超旗损失整理的“烟花纯享版”，原简介所附战报对应9月17日的A1-AUH会战。
+- 推荐 [【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)](https://www.bilibili.com/video/BV16R4y1H7SD/)（青春的工作室）：蜜蜂一侧Kiki视角，标题把这场叫作“917破伞行动”。
+- 保留关联／备选 [【EVE Online】闪击归魂者。Snuff&Goons&INIT VS FRT 1归魂3冥府击杀](https://www.bilibili.com/video/BV13f4y1w7qZ/)（NoNoOwO）：第三方收割视角：Snuff、蜜蜂与INIT闪击，标题记一归魂三冥府击杀。
+- BV1Vf4y1w74W 简介BR入口（docs/bilibili/172859920.json）：https://br.evetools.org/br/6144a372874be8002b6a78cd。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV16R4y1H7SD 简介BR入口（docs/bilibili/199957503.json）：https://br.evetools.org/br/61455f19745106005d444dd8。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV1eh411p7c6 简介BR入口（docs/bilibili/37720838.json）：https://br.evetools.org/br/6144bdcc874be8002b6a7928。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV13f4y1w7qZ 简介BR入口（docs/bilibili/729015.json）：https://br.evetools.org/related/30000268/202109170800。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+NoNo BV13f4y1w7qZ不采用：其简介明确related/30000268/202109170800，而本页星系ID为30003125，窗口在16:00及18:00附近；即使同日、参战名称相近，也不能把另一星系的归魂者围猎并入A1。青春的Kiki队确为本场实际参战的第三阵营，照常采用。
+
+- [EVE欧服 FRT三满编舰队吃AOM超旗队](https://www.bilibili.com/video/BV1eh411p7c6/)（OzenCandywand）：FRT方作品，标题写三满编舰队吃下AOM超旗队。
+- [AOM超旗烟花纯享版](https://www.bilibili.com/video/BV1Vf4y1w74W/)（EVE曼努尔）：围绕AOM超旗损失整理的“烟花纯享版”，原简介所附战报对应9月17日的A1-AUH会战。
+- [【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)](https://www.bilibili.com/video/BV16R4y1H7SD/)（青春的工作室）：蜜蜂一侧Kiki视角，标题把这场叫作“917破伞行动”。

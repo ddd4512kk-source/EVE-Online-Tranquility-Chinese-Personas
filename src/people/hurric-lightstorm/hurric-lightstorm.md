@@ -1,9 +1,9 @@
 
 Hurric Lightstorm，自称 Hurric，2017 年 9 月建号，先在伏羲、紫竹梅，2019 年起挂在自己的 Hurric Science and Tech corp，不进联盟。角色简介是：
 
-> harmless and lovely noob
+> 人畜无害的可爱萌新（harmless and lovely noob）
 
-下面一行“Fraternity CTA Fleet”，再下面是完整的二十四字社会主义核心价值观，最后是一份“Hurric特制总览”。
+下面一行“Fraternity CTA 舰队”（Fraternity CTA Fleet），再下面是完整的二十四字社会主义核心价值观，最后是一份“Hurric特制总览”。
 
 ::: 红料 科研制造骨折玩法
 2018 年，他在凛冬论坛开了一个系列，叫《【抛砖引玉】科研制造骨折玩法》。开篇[《isk per hour》](https://forums.winterco.org/t/topic/14562)自我介绍：“大家好，我是EVE Offline玩家Hurric”——已经基本 AFK 了。然后交代战绩：
@@ -34,5 +34,5 @@ Hurric Lightstorm，自称 Hurric，2017 年 9 月建号，先在伏羲、紫竹
 ::: 评
 Hurric 是那种把 EVE 当生意做明白了的人：五个月一千亿，外加一串脑浆号；做到一天进账十到三十亿，觉得没意思，AFK 了。临走前还给萌新留下一套“骨折玩法”教程。
 
-简介里写着“harmless and lovely noob”。一个人畜无害的萌新，月入几百亿。
+简介里写着“人畜无害的可爱萌新”。一个人畜无害的萌新，月入几百亿。
 :::

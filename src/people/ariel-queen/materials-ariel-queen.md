@@ -8,3 +8,7 @@
 
 - [《寂静谷莲花月矿管理条例》](https://forums.winterco.org/t/topic/22437)
 - [《关于加强金鹏级的建议》](https://forums.winterco.org/t/topic/7543)
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 角色简介末句：Feel free to donate to me so I can buy an Aeon.

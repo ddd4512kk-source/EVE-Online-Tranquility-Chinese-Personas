@@ -4,7 +4,7 @@
 贴吧里，他用“官子青衣-”讲小船、翻译风筝教程，也当过欧服吧的小吧主。教新人时，能把一条船为什么这样配讲到楼中楼；管吵架时，也能把已经删掉的瓜重新种在自己的说明帖里。赛场拿冠军，简介替斑鸠挡黑粉，吧务还得挨两边的骂，这件日文护身符要管的事未免太多。
 
 ::: 红料 AT19 冠军，简介挂战绩
-据 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，“Sarion Ikaruga, and Chess Player from the Esports Petopia team”加入 FRT 队伍。青衣把那一届的比分全挂进了简介：
+据 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，“来自 Esports Petopia 战队的 Sarion Ikaruga 和 Chess Player”加入 FRT 队伍。青衣把那一届的比分全挂进了简介：
 
 > AT19 WINNER
 > 1:0 Bright Side of Death / 1:0 No Vacancies. / 1:0 Odin's Call / 1:0 HIDDEN LEAF VILLAGE NINJA AssAssIn SQUAD eSports / 2:0 IIIIIIIIIIIIIIIIIIIIIIIII / 3:2 The Tuskers Co.
@@ -58,7 +58,7 @@ zKillboard 生涯击杀 4122，单杀 198 次，用得最多的是狂热。
 一名自称代表雷霆的回复者澄清，被点的人不属于雷霆，而在他们黑名单里。青衣随即道歉：“先入为主了，鞠躬。”至于他在说明里沿用的“洋人的狗”称呼，面对质疑，他坚持那是对方自称；吧友却不认，自称能不能变成小吧主给人的定性，又吵出新一轮。删三帖本想给对喷收场，结果当事人、团属和吧务用词一起回炉。青衣的删帖键很果断，认人这一步却慢了半拍。
 :::
 
-::: 黑料 “quit the game”
+::: 黑料 “退游了”（quit the game）
 2023 年 3 月 20 日，青衣和斑鸠同一天进了 **quit the game** 军团，挂 **My Girlfriend Uncloaked My Ship** 联盟。一个月后两人都回来了。
 :::
 

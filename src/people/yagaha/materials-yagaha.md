@@ -27,3 +27,23 @@
 
 - 嘎子哥在星华时期的职务、重组通告原发布处与日期。
 - 耳田（asdaoid 2116149209／ertian-yieryi 2116450019，头衔“耳田 Director”）、明月（Rosa Ictus 2115691303，“明月，外交官”）只有职务与通告点名，未见具体事务，暂不单独立传，见[成员榜队列](../../../docs/leads/corp-top-characters-2026-10-12.md#昆仑前50头衔增量2026-10-14)。
+
+## 2026-10-24：战斗画像补漏
+
+本次范围：核读已有身份与主线、收录号及下列主力号的stats字段，按高值月份取少量代表KM，对照当前66场本地战役；不以普通参战或单张KM另立收录依据，不将参与击杀金额视为个人独力战果。
+
+- [2118729398 stats](https://zkillboard.com/api/stats/characterID/2118729398/)：参与击杀1527、损失258、参与击毁1033932562978 ISK。
+  - 本次topShips返回：Nightmare（type 17736，group 27）、Rattlesnake（type 17918，group 27）、Kronos（type 28661，group 900）、Rorqual（type 28352，group 883）、Hel（type 22852，group 659）、28710（type 28710，group 900）、28665（type 28665，group 900）、12005（type 12005，group 358）、17636（type 17636，group 27）；appearances不当作全生涯次数，topLists.values为空不覆盖其他字段。
+  - 高值月份：202304，参与击毁261224641760 ISK；202408，参与击毁257784507572 ISK。月份累计不认定战役规模。
+- [2119032128 stats](https://zkillboard.com/api/stats/characterID/2119032128/)：参与击杀2616、损失318、参与击毁1059886020783 ISK。
+  - 本次topShips返回：Loki（type 29990，group 963）、Huginn（type 11961，group 906）、Zealot（type 12003，group 358）、72812（type 72812，group 419）、17740（type 17740，group 27）、12005（type 12005，group 358）、Sleipnir（type 22444，group 540）、17634（type 17634，group 26）、621（type 621，group 26）；appearances不当作全生涯次数，topLists.values为空不覆盖其他字段。
+  - 高值月份：202310，参与击毁132397970478 ISK；202303，参与击毁73501223764 ISK。月份累计不认定战役规模。
+- 代表[KM108161468](https://zkillboard.com/kill/108161468/)：2023-04-10T10:51:23Z，X47L-Q／30001967，目标type 35834；本人号2118729398，船型17732，军团98524939／联盟99009163。目标与本人船型分开读；不据参战推指挥、单杀或全场责任。
+- 本地战役关联（按自然人合并；具体窗口、分方与材料仍核各战役）：
+  - [h-pa29-2022](../../battles/h-pa29-2022/h-pa29-2022.md)，2022-12-03，命中2119032128／pilot+loss。
+  - [haras-2023](../../battles/haras-2023/haras-2023.md)，2023-12-21，命中2119032128／pilot。
+  - [hb-1nj-efm-c4-2025](../../battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md)，2025-06-04，命中2119032128／pilot。
+  - [r-ag7w-2025](../../battles/r-ag7w-2025/r-ag7w-2025.md)，2025-11-06，命中2118729398／pilot。
+  - [tn25-j-2025](../../battles/tn25-j-2025/tn25-j-2025.md)，2025-11-15，命中2119032128／pilot+loss。
+  - [x47l-q-2023](../../battles/x47l-q-2023/x47l-q-2023.md)，2023-04-07，命中2118729398／pilot+loss。
+- 核读与边界：本次已读stats中的groups、months、topShips／topLists；每人取一张代表KM，十四行诗的2025-10月仅取首批200条候选，不称读完全月。月度KM样本不构成新战役全报，未读取视频、音轨、字幕。低活跃号不继续遍历，逐号数据不相加。

@@ -9,7 +9,7 @@
 - 时间窗：2018-08-01T18:00—08-02T07:00 UTC。首张KM 18:21:28，末张 06:59:42；18点前每小时个位数，07点后每小时回落到五六十张的零星清扫，不计入。窗口内5684张，合计8744.9B，取整8745B。不再是下限（不设 loss_is_lower_bound）；旧版6124B是57张高值KM样本。
 - 若取08-01、08-02全天：6579张、8837.6B，分方 4571.7B／4263.8B。
 - 人数：窗口内攻击方与受害者角色ID去重共5770；分方并集 2740／2914／117（相加5771，有一个角色两方都出现）。ISD的6270含未上KM者。
-- 条数按受害方计，含胶囊（攻方407、守方761、第三方15）与建筑。
+- 条数按受害方计，含太空舱（攻方407、守方761、第三方15）与建筑。
 
 | 方 | 角色 | 损失B | KM条数 | 泰坦 | 超航 | 航母／战力辅助 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -48,8 +48,8 @@
 
 | 人物／收录角色 | 战时联盟 | 军团 | 船与KM | 代表 KM |
 | --- | --- | --- | --- | --- |
-| 哥布林／342545170 | Pandemic Horde | A Blessed Bean | 仅作受害者：惩罚者 08-02 03:22、胶囊 04:21 | [71607660](https://zkillboard.com/kill/71607660/)、[71608666](https://zkillboard.com/kill/71608666/) |
-| 令狐聪／624049117 | Fraternity. | Jian Sheng | 35张；短剑22、胶囊5、审判者6；丢短剑2条 | [71608136](https://zkillboard.com/kill/71608136/)、[71604407](https://zkillboard.com/kill/71604407/) |
+| 哥布林／342545170 | Pandemic Horde | A Blessed Bean | 仅作受害者：惩罚者 08-02 03:22、太空舱 04:21 | [71607660](https://zkillboard.com/kill/71607660/)、[71608666](https://zkillboard.com/kill/71608666/) |
+| 令狐聪／624049117 | Fraternity. | Jian Sheng | 35张；短剑22、太空舱5、审判者6；丢短剑2条 | [71608136](https://zkillboard.com/kill/71608136/)、[71604407](https://zkillboard.com/kill/71604407/) |
 | 拉面林／91309503 | Pandemic Legion | North Eastern Swat | 希尔博拉斯2张 | [71603265](https://zkillboard.com/kill/71603265/) |
 | 嗜血／2113483277 | Ranger Regiment | Special law enforcement department | 黑鸟7张，末张 08-02 05:51 | [71611021](https://zkillboard.com/kill/71611021/) |
 | 储葛亮／96170679 | Northern Coalition. | Tai-Chi | 万王宝座10张 | [71602801](https://zkillboard.com/kill/71602801/) |

@@ -1,5 +1,5 @@
 
-阿进，游戏名 born reaper，2018 年建号，角色简介只有一句：“to be or not to be，this is a question”。
+阿进，游戏名 born reaper，2018 年建号，角色简介只有一句：“生存还是毁灭，这是个问题”（to be or not to be，this is a question）。
 
 雇佣记录一路走过 RR、The Bastion、Azure Citizen 和 NDRC 旗下的几家军团，2024 年 4 月进了 Emperor Scythes（帝皇之镰，简称 ES）。ES 随后转投 INIT（The Initiative.），招新帖自称“综合华人军团排名前10”，阿进是团里的管理，头衔就挂着“阿进”两个字。
 
@@ -8,9 +8,9 @@
 ::: 黑料 被联盟 CEO 点名挂脚本
 2026 年 7 月 9 日，欧服吧出现[《ES帝皇之镰管理阿进挂脚本被联盟CEO实锤》](https://tieba.baidu.com/p/10854600210)。INIT 联盟 CEO 黑暗闪耀 在 Discord 通知：
 
-> Hey guys, one of your members "born reaper" is being kicked for botting. Can you have his characters removed as soon as possible please.
+> 各位，你们有个成员“born reaper”因为开脚本要被踢了。麻烦尽快把他的角色都清出去。
 
-他随后要求外交组把人拉黑，并联系 ghost team 清理此人可能藏着的“ghost toons”。楼主补充，脚本号所在的 auth 账号也已被拉入黑名单。
+他随后要求外交组把人拉黑，并联系清查组把此人可能藏着的影子号也一并清掉。楼主补充，脚本号所在的 auth 账号也已被拉入黑名单。
 
 雇佣记录对得上：2026 年 7 月 2 日，born reaper 离开待了两年多的 ES。
 

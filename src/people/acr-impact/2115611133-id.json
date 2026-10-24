@@ -93,14 +93,36 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
-    "accounts": {}
+    "alts": [
+      {
+        "id": 2116976070,
+        "name": "Nocolour ACR",
+        "sources": [
+          "https://evewho.com/character/2116976070"
+        ],
+        "zkb": {
+          "kills": 60,
+          "lost": 62,
+          "isk_destroyed": 40462289795,
+          "last_active": "2026-08",
+          "as_of": "2026-10-23"
+        },
+        "basis": "ESI：2020-05-27 建号；与 ACR Impact 共有军团：Infinity Avenger、Thunders Claw Fleet、Eye Of Insight"
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 12528,
+      "lost": 406,
+      "isk_destroyed": 25585797732953,
+      "last_active": "2025-09",
+      "as_of": "2026-10-23"
+    }
   },
   "person": {
     "cn_name": "ACR",
     "aliases": [
-      "ACR Ecoli",
-      "Nocolour ACR"
+      "ACR Ecoli"
     ],
     "epithet": "给别人家塞马甲，把自家号删了。",
     "tags": [

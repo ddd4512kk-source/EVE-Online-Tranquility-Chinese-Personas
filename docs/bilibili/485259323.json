@@ -11,21 +11,26 @@
     "evidence": [
       "与别名同名"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+        "label": "战役视频关联与来源核对"
+      }
+    ]
   },
   "channel": {
     "profile": {},
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:54:15.750Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:40:28.505Z",
+        "scope": "已存投稿目录115条，网页当前公开视频115条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/485259323/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:54:15.750Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:40:28.505Z",
+        "scope": "已存投稿目录115条，网页当前公开视频115条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/485259323/upload/video"
       },
       "series": {
@@ -62,7 +67,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:54:15.750Z",
         "source": "https://space.bilibili.com/485259323/upload/video",
-        "scope": "公开投稿列表全部115条（共117条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录115条；旧接口曾报告117条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频115条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1k2tT6wEBF",
@@ -869,7 +874,18 @@
             "published": "2022-03-15",
             "views": 63
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:40:28.505Z",
+          "source": "https://space.bilibili.com/485259323/upload/video",
+          "public_video_count": 115,
+          "archived_count": 115,
+          "previous_api_total": 117,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -900,6 +916,37 @@
       "usage": {
         "body": true,
         "selected": false
+      }
+    },
+    {
+      "bvid": "BV1WbRKBFEAG",
+      "title": "【EVE欧服】五一凌晨创世ONLYFLEET无畏战",
+      "url": "https://www.bilibili.com/video/BV1WbRKBFEAG/",
+      "owner_uid": "485259323",
+      "published_at": "2026-05-01T02:52:12.000Z",
+      "captured_at": "2026-10-24T07:06:58.052Z",
+      "description": "https://br.evetools.org/br/69f3d4d212985f0012b5541d",
+      "stats": {
+        "views": 3085,
+        "replies": 46
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/irving-zh/materials-irving-zh.md",
+          "docs/sources/battle-video-brs-2026.md",
+          "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+        ],
+        "scope": "公开标题、完整简介及所附BR已读；视频本身已确认对应T8T，简介BR另为DG-L7S，分开记录，不混算损失。未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
       }
     },
     {

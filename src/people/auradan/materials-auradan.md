@@ -14,13 +14,7 @@
 
 [本人空间UID397037840](https://space.bilibili.com/397037840/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得37、37个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《【EVE】神示一分钟没了？》](https://www.bilibili.com/video/BV1jw411d7vK/)
-- [《【EVE】高端的狩猎往往都会以猎物的形态出现（翻车了）》](https://www.bilibili.com/video/BV1SR4y1u7KR/)
-- [《【EVE】谁允许你大鱼挖矿了（奥拉蛋F1跟队火力视角）高清版》](https://www.bilibili.com/video/BV12R4y1H7t1/)
-- [《【EVE】斯雷篇&口径即是正义,射程即是真理》](https://www.bilibili.com/video/BV1dP4y1o7Ry/)
-- [《【EVE】小队战哔哔哔哔个不停 差点过不了审》](https://www.bilibili.com/video/BV1GR4y1y7Ws/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/397037840.json`；只是候选，不据标题归个人事件或判质量。
 
 此处为补取入口时的待办；后续核读范围、精选取舍与未读缺口见下方2026-10-17记录。不取影像、字幕或音频，未读不判作质量不足。
 

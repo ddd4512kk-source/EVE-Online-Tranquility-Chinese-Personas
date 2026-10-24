@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { spawn, spawnSync } from 'node:child_process';
+import { spawn } from 'node:child_process';
 import { connectChromePages } from './chrome-cdp.mjs';
 
 export const repo = fileURLToPath(new URL('../../', import.meta.url));
@@ -25,19 +25,6 @@ export function cachePrefix(output) {
   if (!relative || relative.startsWith('..') || path.isAbsolute(relative)) throw new Error('原始页面只能保存到仓库 .cache 下');
   fs.mkdirSync(path.dirname(prefix), { recursive: true });
   return prefix;
-}
-
-// WSL 下转交 Windows Node 重跑本脚本；返回 true 表示已转交并应退出。
-export function relayToWindows(scriptUrl, args) {
-  if (process.platform === 'win32') return false;
-  const node = '/mnt/c/Program Files/nodejs/node.exe';
-  if (!fs.existsSync(node)) throw new Error('需要 Windows Chrome 和 Windows Node；当前未找到 Windows Node');
-  const converted = spawnSync('wslpath', ['-w', fileURLToPath(scriptUrl)], { encoding: 'utf8' });
-  if (converted.status !== 0) throw new Error('无法转换 WSL 脚本路径');
-  const result = spawnSync(node, [converted.stdout.trim(), ...args], { cwd: repo, stdio: 'inherit' });
-  if (result.error) throw result.error;
-  process.exitCode = result.status ?? 1;
-  return true;
 }
 
 async function available() {

@@ -18,14 +18,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:15:44.620Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:41:12.219Z",
+        "scope": "已存投稿目录66条，网页当前公开视频66条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/7164952/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:15:44.620Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:41:12.219Z",
+        "scope": "已存投稿目录66条，网页当前公开视频66条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/7164952/upload/video"
       },
       "series": {
@@ -41,7 +41,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:15:44.620Z",
         "source": "https://space.bilibili.com/7164952/upload/video",
-        "scope": "公开投稿列表全部66条（共67条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录66条；旧接口曾报告67条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频66条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV12djmzMEq9",
@@ -505,7 +505,18 @@
             "published": "2018-10-21",
             "views": 290
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:41:12.219Z",
+          "source": "https://space.bilibili.com/7164952/upload/video",
+          "public_video_count": 66,
+          "archived_count": 66,
+          "previous_api_total": 67,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },

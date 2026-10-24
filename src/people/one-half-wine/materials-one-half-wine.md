@@ -31,13 +31,7 @@
 
 [本人空间UID24773167](https://space.bilibili.com/24773167/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《【EVE】低安区孤儿，秋名山车神-万速加姆PVP教学》](https://www.bilibili.com/video/BV1cV411k7DP/)
-- [《【EVE】真男人结构抗，毁电多米老流氓，改版前的最后狂欢》](https://www.bilibili.com/video/BV1Z34y1C72h/)
-- [《【EVE】每条海霍克都可能价比凤凰-偏振海霍克PVP》](https://www.bilibili.com/video/BV1iv411y7ow/)
-- [《【EVE搬运】异端加姆-火箭加姆才是最好的加姆（EVE SOLOPVP）》](https://www.bilibili.com/video/BV19A411v7x8/)
-- [《【EVE】来自深渊的凝视，最强的风筝驱逐-奇奇莫拉级PVP》](https://www.bilibili.com/video/BV1j5411W7Jd/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/24773167.json`；只是候选，不据标题归个人事件或判质量。
 
 本节只记候选入口；后续作品核读、精选取舍与仍待补的内容见下节。
 
@@ -71,3 +65,8 @@
 
 - [《每条海霍克都可能价比凤凰-偏振海霍克PVP》](https://www.bilibili.com/video/BV1iv411y7ow/)：网子烧坏、“意念反”和对手脱战都有本人回应；一份带着失误复盘的课件，比把标题当强度保证更值得读。
 - [《真男人就要拉1400大栓！》](https://www.bilibili.com/video/BV1ZY411Q7J2/)：从护卫、驱逐换到恶狼，作者在答疑中强调自己的配置用于当地低安交战；值得把这种适用环境意识一并带走。
+
+
+## 本轮作品精选补充（2026-10-24）
+
+依据本人频道UID24773167候选目录新增两条：[BV1eS4y1h7Vh](https://www.bilibili.com/video/BV1eS4y1h7Vh/)《我要打十个！掠夺队以一当十狂扫战列队》（5948播放）与[BV17T411M7Vz](https://www.bilibili.com/video/BV17T411M7Vz/)《如何优雅地护卫拼刺刀：中风筝教学（上篇）》（5484播放）。本轮使用标题与已有播放计数选择，未读作品页／评论、影像、音频或字幕；未据标题推断战果细节。

@@ -89,13 +89,17 @@ zKillboard 生涯击杀 2352，单杀 122 次，用得最多的是帕拉丁、�
 ::: 黑料 简介：☭、一只猪、一辆小火车
 官方合作伙伴的简介，下半部分画风突变：一个 ☭，一大幅 ASCII 字符画的猪头，然后是一辆字符小火车，车厢上写着 GEWNZ，旁边一句：
 
-> ( INTO THE DARK TUNNEL WITH YOU, trappi! )
+> （和你一起钻进黑暗隧道，trappi！）（INTO THE DARK TUNNEL WITH YOU, trappi!）
 
 正经频道挂上面，梗图挂下面。CCP 审核合作伙伴的时候，大概没往下翻。
 :::
 
 ::: 红料 B站作品精选
 - [《从西对舞到4-HWWF首都星城被打进结构增强》](https://www.bilibili.com/video/BV1htofBtEBp/)：简介按己方远征梳理目标，评论又核对INIT分组与logo；值得连同修正讨论读，分清作者怎么归纳一场仗。
+- [《绝地华人血战两小时损失三万人民币》](https://www.bilibili.com/video/BV1vru165Emb/)：标题把一场无畏舰队全灭的败仗写成战报，最能看出白菜给自家战事起标题时的戏剧劲。
+- [《西对舞做出回答，龙焰之剑也未尝不利》](https://www.bilibili.com/video/BV19BQVBsE1z/)：从标题里的战场口号到简介的舰队调动，这篇适合和他的帝国视角作品并读，看他怎样讲一场反攻。
+- [《远炮无畏三千人会战射爽射建功》](https://www.bilibili.com/video/BV1hgX2B2Ede/)：标题直接把交战双方和无畏舰玩法摆上台面，是频道大型会战报道里更突出作战方式的一篇。
+- [《R-A星城陨落，新的争霸即将开始》](https://www.bilibili.com/video/BV1JjCcBCE9P/)：从建筑失守转到下一轮争霸，简介又向旧势力致意，标题的战报口吻里留着作者对社区兴衰的感情。
 :::
 
 ::: 评

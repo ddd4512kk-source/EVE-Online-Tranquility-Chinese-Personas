@@ -31,13 +31,7 @@
 
 [本人空间UID410060728](https://space.bilibili.com/410060728/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得21、21个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《Eve Online 4-H旁FRT大溃败》](https://www.bilibili.com/video/BV1zWodBYECW/)
-- [《EVE online 在导致GS超旗队被困的节点崩溃前究竟发生了什么？》](https://www.bilibili.com/video/BV1WfDEBpEak/)
-- [《EVE online 26.04.21 欧加仑的葬礼》](https://www.bilibili.com/video/BV1QZdUBwEZ4/)
-- [《EVE online 26.07.19 阿巴宗大舞台，有船你就来》](https://www.bilibili.com/video/BV1cEKC6rEP9/)
-- [《EVE online 26.08.15 故土万亿铁壁盲盒 四小时鏖战拼尽全力无法守住》](https://www.bilibili.com/video/BV1BVgu6DE24/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/410060728.json`；只是候选，不据标题归个人事件或判质量。
 
 本节只记候选入口，具体取舍与未读缺口见后文。
 

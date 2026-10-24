@@ -59,13 +59,7 @@
 
 [本人空间UID302279173](https://space.bilibili.com/302279173/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得5、5个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《EVE欧服 PHCN皇家会议记录（第一部分 主体）》](https://www.bilibili.com/video/BV15LbpzkEbe/)
-- [《EVE 欧服PHCN会议 （第二段）》](https://www.bilibili.com/video/BV19Abxz7E37/)
-- [《【EVE欧服】 静寂谷日常反收割》](https://www.bilibili.com/video/BV1paVJ6FE8v/)
-- [《EVE 欧服 = INIT突袭 WC 90 napoc vs INIT 130 Raven》](https://www.bilibili.com/video/BV1gsz1B3EGX/)
-- [《EVE欧服 10月4日北军噩梦反剧本地滑》](https://www.bilibili.com/video/BV1T7HW6vEaN/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/302279173.json`；只是候选，不据标题归个人事件或判质量。
 
 上述为候选发现记录；实际公开文字筛选范围与本轮少荐结论见下一节。不取影像、字幕或音频，未读不判作质量不足。
 
@@ -111,3 +105,14 @@
 ### BWF-ZZ星城攻防（2025-04-05）
 
 [本场素材](../../battles/bwf-zz-2025/materials-bwf-zz-2025.md)：正式快照13:00—16:00 UTC命中收录号或已登记小号，归PH及友军。仅作参战关联，不据此添加指挥或主导职责。原报无teams，分方按点名联盟与交火推断，详见本场材料。
+
+
+## 2026-10-24 B站精选补充（本轮）
+
+- BV1gsz1B3EGX《INIT突袭 WC，90 Napoc 对 130 Raven》（798播放）、BV19Abxz7E37《PHCN会议（第二段）》（1045播放）；来源：UID 302279173（docs/bilibili/302279173.json）。
+
+本轮依据已存 UID 档案中的投稿标题、当时播放量及既有正文/素材去重；未访问作品页、未读取影像音频字幕。推荐语只概括标题可见题材，不据标题断言具体操作、战果或制作质量。
+
+新增精选：
+- [《EVE 欧服：INIT突袭 WC，90 Napoc 对 130 Raven》](https://www.bilibili.com/video/BV1gsz1B3EGX/)：标题把两边舰队规模和主力船型摆在一起，是频道日常舰队战题材的一条直观入口。
+- [《EVE 欧服 PHCN会议（第二段）》](https://www.bilibili.com/video/BV19Abxz7E37/)：会议记录把视线从战场转到组织内部；与第一段连读，可以补上FC频道之外的管理场景。

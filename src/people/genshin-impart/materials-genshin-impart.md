@@ -38,3 +38,11 @@
 ### [[EVE欧服INIT华人社区]丸辣，五条海无畏把黑隐队包围辣](https://www.bilibili.com/video/BV1BdAYesEJd/)
 
 发布日期（UTC）：2025-02-18；上传者：七喜想睡觉／385032773。简介承诺再不忘补电池。前3主评论中，有人叫“七喜宝宝”，UP回“预制评论”；另一人催放电池，UP答“没事可以从无畏身上捡”。补电池承诺与捡敌船电池的接话可连读，保留作者亲自回应；不由五条海无畏标题推定独自反杀五条，也不据此替他补具体驾驶舰型。
+
+## 2026-10-24 B站作品精选补充
+
+从合并频道候选 `/tmp/up-fill-candidates-genshin-impart.json`（对应UID档案 `docs/bilibili/385032773.json`）续选3条，使精选达5条。依据标题及已存播放数，未访问作品页、未读影像音频字幕。筛选仅取EVE条目，避开正文已展开的作品及非本人视角泰坦投稿。
+
+- [BV1e8BqYaEDx](https://www.bilibili.com/video/BV1e8BqYaEDx/)《扫射凤凰不就用来干这个的吗》：2379播放。
+- [BV1pzB7Y9EnH](https://www.bilibili.com/video/BV1pzB7Y9EnH/)《模块一开，领域展开》：1800播放。
+- [BV1FF6DY7EBh](https://www.bilibili.com/video/BV1FF6DY7EBh/)《INIT CN社区祝全体国人新年快乐》：1654播放。

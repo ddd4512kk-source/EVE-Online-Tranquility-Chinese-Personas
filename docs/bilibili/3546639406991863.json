@@ -19,6 +19,22 @@
       {
         "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+        "label": "战役视频关联与来源核对"
       }
     ]
   },
@@ -27,14 +43,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:52:27.831Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:39:14.701Z",
+        "scope": "已存投稿目录76条，网页当前公开视频76条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/3546639406991863/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:52:27.831Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:39:14.701Z",
+        "scope": "已存投稿目录76条，网页当前公开视频76条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/3546639406991863/upload/video"
       },
       "series": {
@@ -71,7 +87,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:52:27.831Z",
         "source": "https://space.bilibili.com/3546639406991863/upload/video",
-        "scope": "公开投稿列表全部76条（共100条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录76条；旧接口曾报告100条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频76条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1m1pG6zEHB",
@@ -605,11 +621,80 @@
             "published": "2024-07-16",
             "views": 803
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:39:14.701Z",
+          "source": "https://space.bilibili.com/3546639406991863/upload/video",
+          "public_video_count": 76,
+          "archived_count": 76,
+          "previous_api_total": 100,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
   "videos": [
+    {
+      "bvid": "BV1m1pG6zEHB",
+      "title": "【EVEonline】欧贝强杀征服者(成功):WC300泰坦直面BBC",
+      "url": "https://www.bilibili.com/video/BV1m1pG6zEHB/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-10-10T14:28:34.000Z",
+      "captured_at": "2026-10-24T07:08:19.846Z",
+      "description": "-",
+      "stats": {
+        "views": 5650,
+        "replies": 39
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/obe-2026/materials-obe-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ccpP6BEYw",
+      "title": "【EVE欧服/抵抗之狐】1.8Tisk在绝地坠落：FOX三开无畏POV——CS/DC华人联军VS Horde3.1 在错误的位置无畏升级",
+      "url": "https://www.bilibili.com/video/BV1ccpP6BEYw/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-10-06T16:10:36.000Z",
+      "captured_at": "2026-10-24T07:07:52.102Z",
+      "description": "https://br.evetools.org/br/6ac29fe4f814d9fb231f6805",
+      "stats": {
+        "views": 1507,
+        "replies": 15
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+          "docs/sources/battle-video-brs-2026.md"
+        ],
+        "scope": "已读公开标题、完整简介及所附BR公开页面，实际交战星系、日期、可见分方与关联结论已归档；NoNo、irrrrv另核composition唯一KM及金额。评论仅沿已存可见范围，不称全部评论已读；未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
     {
       "bvid": "BV1nU866oEsz",
       "title": "EVEonline可能的结局",
@@ -635,6 +720,171 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Wiu66VEGe",
+      "title": "【EVE欧服/抵抗之狐】复健TV 8月11日晚绝地战斗射击暴风和铁壁 800甲马三开视角",
+      "url": "https://www.bilibili.com/video/BV1Wiu66VEGe/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-08-11T18:38:38.000Z",
+      "captured_at": "2026-10-24T07:07:38.731Z",
+      "description": "",
+      "stats": {
+        "views": 840,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+        ],
+        "scope": "已读公开标题与完整简介，已确认对应VYO，中文标题日期、上传UTC及战报UTC分开保存；未读影像、音轨或字幕，不以中文时段措辞排除。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV12zoLBcEvn",
+      "title": "【EVE欧服】Winterco凛冬联盟群领导人noraus发表保卫战动员，瑞评asher/darkshines",
+      "url": "https://www.bilibili.com/video/BV12zoLBcEvn/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-04-24T14:01:48.000Z",
+      "captured_at": "2026-10-24T07:06:44.767Z",
+      "description": "我们是NCdot旗下华人军团FOX抵抗之狐\n我们隶属于最纯粹的PVP联盟，驻扎在战争的最前线，拥有完善的补损制度和FC体系。",
+      "stats": {
+        "views": 4790,
+        "replies": 20
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1h2DEBhELc",
+      "title": "【EVE欧服/抵抗之狐】艾蒂斯超旗战的一天belike...(低脂肪meme合集)",
+      "url": "https://www.bilibili.com/video/BV1h2DEBhELc/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-04-08T20:34:22.000Z",
+      "captured_at": "2026-10-24T07:00:41.614Z",
+      "description": "哈哈哈哈哈哈哈",
+      "stats": {
+        "views": 3006,
+        "replies": 38
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1rNDJBEEfk",
+      "title": "【EVE欧服|WWW日报】4.7/8 艾蒂斯超旗战胜利，INIT又偷鸡",
+      "url": "https://www.bilibili.com/video/BV1rNDJBEEfk/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-04-08T19:42:40.000Z",
+      "captured_at": "2026-10-22T09:29:34.994Z",
+      "description": "",
+      "stats": {
+        "views": 3315,
+        "replies": 12
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/atioth-2026/materials-atioth-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1E2DBBAEJ3",
+      "title": "【EVE欧服|抵抗之狐】NCdot联盟领导人Vince战前演讲——勇敢里面有天才，力量和魔法。",
+      "url": "https://www.bilibili.com/video/BV1E2DBBAEJ3/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-04-07T17:37:35.000Z",
+      "captured_at": "2026-10-24T06:59:47.528Z",
+      "description": "勇敢里面有天才，力量和魔法。\n从4月6日下午到4月7日晚上，我们连续作战了20多个小时，本地人数一度突破一万人，我们创造了EVE历史上最大规模的单场作战，我们在创造历史，我们身在历史之中。\n我们取得了对帝国的初步胜利，我们绞杀了帝国30条泰坦，击毁了星城，夺回了Shub,干的漂亮，这离不开每一个人的努力。\n这场战争还在继续，INIT还在骚扰，IMP不会停下脚步。\nAtioth作战正式结束，在这之外，我们会争取每一个战斗的机会。请记住，公司和联盟会一直和你站在一起\nYou&#39;ll never walk alone./你绝不独行。",
+      "stats": {
+        "views": 4096,
+        "replies": 45
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/atioth-2026/materials-atioth-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1trPMzwEQC",
+      "title": "【EVE欧服|抵抗之狐】那年我32岁，连续赢了五届巴音布鲁克",
+      "url": "https://www.bilibili.com/video/BV1trPMzwEQC/",
+      "owner_uid": "3546639406991863",
+      "published_at": "2026-03-01T09:37:15.000Z",
+      "captured_at": "2026-10-24T06:59:06.744Z",
+      "description": "",
+      "stats": {
+        "views": 514,
+        "replies": 3
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     },
@@ -776,34 +1026,6 @@
       "usage": {
         "body": false,
         "selected": true
-      }
-    },
-    {
-      "bvid": "BV1rNDJBEEfk",
-      "title": "【EVE欧服|WWW日报】4.7/8 艾蒂斯超旗战胜利，INIT又偷鸡",
-      "url": "https://www.bilibili.com/video/BV1rNDJBEEfk/",
-      "owner_uid": "3546639406991863",
-      "published_at": "2026-04-08T19:42:40.000Z",
-      "captured_at": "2026-10-22T09:29:34.994Z",
-      "description": "",
-      "stats": {
-        "views": 3315,
-        "replies": 12
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
       }
     }
   ]

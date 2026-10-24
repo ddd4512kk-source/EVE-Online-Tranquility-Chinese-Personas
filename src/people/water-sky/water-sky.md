@@ -10,7 +10,7 @@
 
 军团简介开宗明义：
 
-> This place remains for our firendship and fun only!
+> 这地方只为友谊和乐子而留！（This place remains for our firendship and fun only!）
 
 “friendship”拼成了“firendship”，十七年无人修改。史家以为这是故意的：友谊本来就不必拼对。
 
@@ -22,7 +22,7 @@ WKONG 的简介里抄了一整首毛主席的《七律·和郭沫若同志》：
 
 简介末尾还挂着一则服务广告：要中文翻译？找 Water Sky。保密，免费——
 
-> It is confidential and free if not cost too much time.
+> 只要不太耗时间，保密且免费。
 
 免费，但有条件。这句话本身大约就是他亲手翻译的。
 :::
@@ -54,8 +54,8 @@ WKONG 的简介里抄了一整首毛主席的《七律·和郭沫若同志》：
 ::: 黑料 离家出走去打酱油
 2009 年 8 月 8 日 14:26，水天退出了自己创立不到两个月的 WKONG。三分钟后，他创立了新军团：**China Soy Saucer Party**（中国酱油党，简称 CSSP）。简介全文：
 
-> Chinese Soy Saucer Party !!!!
-> LOL from Chinese Serenity Server. Just full of fun.
+> 中国酱油党！！！！（Chinese Soy Saucer Party !!!!）
+> 笑死，来自中国宁静服。纯属图个乐子。
 
 两天后，他回到了 WKONG，从此再没离开。
 
@@ -65,8 +65,8 @@ WKONG 的简介里抄了一整首毛主席的《七律·和郭沫若同志》：
 ::: 黑料 自认脚本
 WKONG 简介 FAQ 一则：
 
-> Q: Are you Chinese macros?
-> A: Yes, we are macros, making our lives by looting & savlaging wrecks of your ships.
+> 问：你们是中国脚本吗？
+> 答：是的，我们就是脚本，靠摸你们的船、捡你们的残骸过日子。（Yes, we are macros, making our lives by looting & savlaging wrecks of your ships.）
 
 洋人问是不是中国脚本，他答：是，我们就是，靠捡你们的残骸过日子。自黑到这个地步，对方反而无话可说。只是“salvaging”又拼成了“savlaging”。
 
@@ -76,11 +76,11 @@ WKONG 简介 FAQ 一则：
 ::: 黑料 个人简介挂聊天记录
 水天的角色简介里，用五颜六色的字体挂着一段聊天记录。一位洋人建议“用谷歌翻译，别用 wordlingo”，随后机翻的中式英语如期登场：
 
-> eettt > Your door is which country
-> Bigjelmapro > which door?
-> eettt > The garbage too
-> Bigjelmapro > what we talking about here? Doors or garbage?
-> eettt > 10 I have hundreds of millions of
+> eettt > 你的门是哪个国家
+> Bigjelmapro > 哪个门？
+> eettt > 垃圾也是
+> Bigjelmapro > 我们这是在聊什么？门还是垃圾？
+> eettt > 10 我有几亿的
 
 （“你们是哪国的”被翻成了“你的门是哪个国家”。）
 

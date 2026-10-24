@@ -12,9 +12,9 @@ Elizabeth Seven 的头衔第一句就是“Fake CEO”。可 ESI 上[女娲的 C
 > 福利：无
 > 欠债：600 B
 > 招募状态：可有可无
-> ISK DOUBLING SERVICE：YES
+> ISK 翻倍服务：有
 
-“ISK 翻倍服务”是 EVE 里最老的骗局话术，挂在招新简介上，等于明说进门先别带钱。福利写无，欠债写六千亿，招募“可有可无”，最后还用大红字喊“APPLY NOW”。底下一句“巅峰产生虚伪的拥护，黄昏见证忠诚的信徒”，再往下是一段悼词：In Memory of OSY-UD 的 Temple of Artemis 和“海底撈”两座建筑。这个 CEO 已经把军团的家底和伤疤都摆在门口了，谁还愿意进来，才算真信徒。
+“ISK 翻倍服务”是 EVE 里最老的骗局话术，挂在招新简介上，等于明说进门先别带钱。福利写无，欠债写六千亿，招募“可有可无”，最后还用大红字喊“立即申请”。底下一句“巅峰产生虚伪的拥护，黄昏见证忠诚的信徒”，再往下是一段悼词：In Memory of OSY-UD 的 Temple of Artemis 和“海底撈”两座建筑。这个 CEO 已经把军团的家底和伤疤都摆在门口了，谁还愿意进来，才算真信徒。
 
 角色简介也不客气：一行俄国人在频道里夸“多漂亮的姑娘们”，本人用超大字号回“already replaced”；再一行是[拉面林](../91309503/)转来的聊天：“拉面借我100m 我买个cerb。”七夜的老习惯没改，别人的嘴照样收藏，只是这回收进了女娲的门面。
 :::
@@ -63,10 +63,10 @@ FRT 打仗的时候，七夜是常驻的 FC 之一。2022 年春节初四的纳�
 :::
 
 ::: 黑料 简介是一本垃圾话合集
-七夜的角色简介开头是“The true welcome in EVE #JustPGLthings”，接着是“中俄人民友谊不朽”，然后是一长串截下来的聊天记录，全是洋人在频道里的垃圾话，比如：
+七夜的角色简介开头是“EVE 里最真诚的欢迎 #JustPGLthings”（The true welcome in EVE #JustPGLthings），接着是“中俄人民友谊不朽”，然后是一长串截下来的聊天记录，全是洋人在频道里的垃圾话，比如：
 
-> 3AXAPbI4 > no?i'm afraid of ur ultra hight skil master
-> Seamus Keon > what can we do without the harpys
+> 3AXAPbI4 > 算了吧？我可怕了你们这些超高技术大师
+> Seamus Keon > 没了鹰身女妖我们还能干啥
 
 别人收藏战绩，七夜收藏对面的嘴。
 :::

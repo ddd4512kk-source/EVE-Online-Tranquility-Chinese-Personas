@@ -78,3 +78,10 @@
 ### BWF-ZZ星城攻防（2025-04-05）
 
 [本场素材](../../battles/bwf-zz-2025/materials-bwf-zz-2025.md)：正式快照13:00—16:00 UTC命中收录号或已登记小号，归PH及友军。仅作参战关联，不据此添加指挥或主导职责。原报无teams，分方按点名联盟与交火推断，详见本场材料。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 舰队频道，FC 找伐木者：Octive Cull > Slasher say your name bro
+- 舰队频道：Bink Wang > any thing?
+- 舰队频道：Bink Wang > ohhhhh
+- 舰队频道：Bink Wang > thanks!

@@ -20,7 +20,7 @@ function documentOf(d) {
     people ??= peopleIndex(path.join(srcDir, "people"));
     names ??= readNames(path.dirname(srcDir));
     const document = readBattleDocument(file);
-    cache.set(key, { data: document.data, stats: statsOf(document.data, document.archive.br, names, people) });
+    cache.set(key, { data: document.data, content: document.content, stats: statsOf(document.data, document.archive.br, names, people) });
   }
   return cache.get(key);
 }
@@ -41,7 +41,13 @@ export default {
     emblem: (d) => emblemSides(visibleSides(stats(d).sides)),
     // 联盟、军团链接用的 ID：快照战役取本场战报里的（老联盟名可能已被新联盟占用）
     tier: (d) => tierOf(stats(d).total_loss),
-    peopleIds: (d) => stats(d).sides.flatMap((s) => s.people ?? []),
+    // 人物页反链：参战的已收录人物，加上正文点名链接的人（传录像的、评论的、没进战报的）。
+    // 正文链接按 /p/<ID>/ 认，小号落到本人；改正文即自动跟上，不靠手填。
+    peopleIds: (d) => {
+      const { stats, content } = documentOf(d);
+      const linked = [...String(content).matchAll(/\/p\/(\d+)\//g)].map((m) => people.get(Number(m[1])) ?? Number(m[1]));
+      return [...new Set([...stats.sides.flatMap((s) => s.people ?? []), ...linked])];
+    },
     lossSources: (d) => [d.loss_source].flat(),
     // 目录筛选用：规模档位在前，再接手写标签
     labels: (d) => [tierOf(stats(d).total_loss)?.name, ...(d.tags ?? [])].filter(Boolean),

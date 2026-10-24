@@ -20,3 +20,7 @@
 
 - 2026-10-15 贴吧客户端搜索“Kalek”“eve欧服 艾泽”：全为无关同名（游戏、足球）。“艾泽”撞阿森纳球员，后续需配合 FRT／AT 等词。B站未查。
 - 待核：简介两张 AT KM 的比赛场次；“艾泽”在社区中的其他记述。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- AT19 冠军复盘中的招人说明：successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz

@@ -5,7 +5,7 @@
 - 来源：https://br.evetools.org/battle/17676
 - 星系：Ahbazon（30005196）；完整接口读取成功。
 - UTC窗口：2026-08-01T16:58:16.000Z 至 2026-08-01T21:25:46.000Z。
-- 按KM ID去重，共1373条损失记录（含胶囊等），1959个角色，合计642.625518189B。
+- 按KM ID去重，共1373条损失记录（含太空舱等），1959个角色，合计642.625518189B。
 - 数字编号网页摘要可能与逐KM金额略有差异；页面采用快照逐KM金额，不混用摘要金额。
 - 本接口没有作者分队。主战按无畏交火大致分为两阵营：Minmatar Fleet Alliance、Minmatar Fleet Associates、Amarr Fleet Alliance一组；INIT、SND、Dragon Riders Legion、TEST、Shadow Cartel、URSA、Psyno Theory、Seker Matar一组。FRT、Solyaris Chtonium、SYN、NC、蜜蜂、Brave、Snuffed Out点名为第三方。其余未点名组织按交火推断；此为本场主战统计归组，不表示各组织完全互不交火或长期结盟。
 - 仅有战报，开战缘由、具体动员与战场命令仍缺公开文字复盘；不凭胜负指定总指挥或归责。

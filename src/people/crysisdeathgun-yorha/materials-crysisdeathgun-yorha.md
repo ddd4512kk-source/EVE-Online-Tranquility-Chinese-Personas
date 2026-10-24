@@ -109,13 +109,7 @@
 
 [本人空间UID10126340](https://space.bilibili.com/10126340/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《当我一天玩了16小时EVE，我的父母认为我未来的工作Belike【EVE】》](https://www.bilibili.com/video/BV1yAdYYLEwh/)
-- [《当蜜蜂认清了现实【EVE欧服】【凛冬华人社区】》](https://www.bilibili.com/video/BV17x4y117ZE/)
-- [《[EVE Online]吉他星系独立！海四空间站20年没改的克隆体服务终于实装！》](https://www.bilibili.com/video/BV1MY5C66EtJ/)
-- [《当你挂机伊什塔 低头刷短视频时Be like【EVE欧服】》](https://www.bilibili.com/video/BV1GZ421S7NP/)
-- [《[EVE Online]2026年，现在是回坑和入坑EVE的最好时机吗？——带你回顾2024-2026年EVE欧服的大事件、重要更新与改版内容》](https://www.bilibili.com/video/BV1JWti66ERx/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/10126340.json`；只是候选，不据标题归个人事件或判质量。
 
 下方2026-10-17记录已扩选至五条，具体署名、推荐依据与未读缺口见后文。
 
@@ -213,6 +207,8 @@
 ## 精选补选（2026-10-22）
 
 公开投稿列表595条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV17x4y117ZE（蜜蜂认清现实）、BV1Bb411B7KM（2019凛冬科莫多首杀）、BV1MZ4y1S74K（AOM回应FRT宣战）、BV1Gi4y1d7zE（加达里海军五级任务教程）、BV1SiXNYME1g（FRT为什么打不过Snuff）。作品页简介与评论未读。
+
+- **2026-06-30 竹叶青虫洞驱逐（2026-10-23 归档）**：本人 B站上传[《竹叶青虫洞驱逐战》](https://www.bilibili.com/video/BV1LHTe6rENE/)（2026-07-01，2:42）；J111011 一座挂在竹叶青自建联盟 WNWEF 名下的 POS 被 Dracarys. 打开，61 条空船约 5.6B，本号 2114324057 上 1 张 KM。详见[竹叶青素材](../weiyunzhao/materials-weiyunzhao.md)。
 
 ## KB 与战斗经历（自正文移入）
 

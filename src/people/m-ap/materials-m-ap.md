@@ -38,38 +38,13 @@
 - [公开投稿页](https://space.bilibili.com/355678453/upload/video)当前作者名“一般路过的机械神甫”，页面显示 22 条投稿；本页可见 22 条标题与不同 BV。简介、影像与评论未读。
 - 列表当前为22条，旧名片25条保留为历史快照；当前页明确有WINGS突袭大鱼和8F无畏战，原先索引里的“小型矿队”等其他作品仍须按具体游戏核对。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1DbeqzoEyi](https://www.bilibili.com/video/BV1DbeqzoEyi/) | 小型矿队出站 |
-| [BV168TWzvEv1](https://www.bilibili.com/video/BV168TWzvEv1/) | 给我抽爽了 |
-| [BV11V94Y4ESh](https://www.bilibili.com/video/BV11V94Y4ESh/) | 对面驱逐舰估计已经麻了 |
-| [BV11sFPeGEtf](https://www.bilibili.com/video/BV11sFPeGEtf/) | 粉色赖皮弹必玩项目秒超轻巡 |
-| [BV12u4y1779D](https://www.bilibili.com/video/BV12u4y1779D/) | 我要没记错的话，这个广告里的画面是个早就凉透的游戏叫破碎空间 |
-| [BV1yW4y1Z7e4](https://www.bilibili.com/video/BV1yW4y1Z7e4/) | 到底是0721，内战还剩8点血都能翻盘 |
-| [BV12v4y1y78y](https://www.bilibili.com/video/BV12v4y1y78y/) | 搁QQ看点刷到果冻被营销号当素材了 |
-| [BV1qe411w7wJ](https://www.bilibili.com/video/BV1qe411w7wJ/) | 现代战舰，飞天航母活动 |
-| [BV1rW4y1Y7wZ](https://www.bilibili.com/video/BV1rW4y1Y7wZ/) | 总算是买到白天鹅了，期待了好久 |
-| [BV1dB4y1v7E3](https://www.bilibili.com/video/BV1dB4y1v7E3/) | 普通的次元斩挑战 |
-| [BV1ZB4y1y7Vi](https://www.bilibili.com/video/BV1ZB4y1y7Vi/) | 神降临在我身边 |
-| [BV1gY411c7Ss](https://www.bilibili.com/video/BV1gY411c7Ss/) | 现代战舰，055匹配实战 |
-| [BV1ca41187Rj](https://www.bilibili.com/video/BV1ca41187Rj/) | 现代战舰15级萌新的第一条三级航母 |
-| [BV1KS4y137Jf](https://www.bilibili.com/video/BV1KS4y137Jf/) | 战舰联盟每日挑战普通的42过关打法 |
-| [BV1Bq4y1h7oy](https://www.bilibili.com/video/BV1Bq4y1h7oy/) | （战舰联盟）这什么鬼bug，巡洋上反航母装置了？？ |
-| [BV1BY411t7Vt](https://www.bilibili.com/video/BV1BY411t7Vt/) | 萌新的地平线真人对局 |
-| [BV1Em4y1X7Di](https://www.bilibili.com/video/BV1Em4y1X7Di/) | 萌新第一艘金条船人机尝试 |
-| [BV1Wv411H7Mk](https://www.bilibili.com/video/BV1Wv411H7Mk/) | 奇数骑4回合然后对面人没了 |
+待读作品的标题与BV见B站档案 `docs/bilibili/355678453.json`（18条，未读内容不凭标题补造事件）。
 
 ## 空间排序入口补取（2026-10-16）
 
 [本人空间UID355678453](https://space.bilibili.com/355678453/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得24、24个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《［EVE欧服］8F-无畏战，WINGS联军+DC对阵WOMP》](https://www.bilibili.com/video/BV1GxHp6gEva/)
-- [《［EVE欧服］WINGS联盟突袭大鱼》](https://www.bilibili.com/video/BV18hH16NEZb/)
-- [《【EVE欧服】【WINGS联盟】6-10血腥傀儡补给站攻略》](https://www.bilibili.com/video/BV1Fnp26REAE/)
+最多播放首页的续读候选（3条）按播放排序见B站档案 `docs/bilibili/355678453.json`；只是候选，不据标题归个人事件或判质量。
 
 作品精选尚未完成；优先与既有已读作品去重，核具体简介、选集、作者公开文字与合作角色，再定推荐。不取影像、字幕或音频，未读不判作质量不足。
 
@@ -125,3 +100,9 @@
 公开投稿列表25条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑1篇：BV1DXn66DEBF（故土突袭闪点）。作品页简介与评论未读。
 
 - 旧版正文取数：KB 3723 杀 2448.6B，损失 291 条 32.8B，渎圣 1826 杀，单月最高 2026-01、2026-03 各约 256B、267B。
+
+## 2026-10-24 B站作品精选回查
+
+按完整频道候选 `/tmp/up-fill-candidates-m-ap.json`（UID档案 `docs/bilibili/355678453.json`）逐条对照正式列传。撤下 BV154421F7zM、BV1GxHp6gEva、BV1bZJ16fEjN、BV1Fnp26REAE：四篇均已在红料或黑料独立展开，不得重复推荐。候选中的 BV1DbeqzoEyi《小型矿队出站》未在正文展开，依据频道旧材料中的EVE投稿分组与标题作为本轮可用补选；计数905播放。其余未展开条目标题／已有材料不足以确认属于EVE（其中有现代战舰等明确非EVE投稿），不据猜测凑数。精选现为2条，距5条缺3条。
+
+本次只核对既有标题、UID归档及正文链接；未访问作品页，未读影像、音频或字幕。机械神甫频道精选五条的目标本轮未能达到。

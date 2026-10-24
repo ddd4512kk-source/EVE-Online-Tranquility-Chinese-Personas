@@ -33,7 +33,7 @@
 
 采用完整原报 2025-06-17 19:19—06-18 00:30 UTC，跨日结束日期一并补正。team 1 为 FRT 及友军，team 0 为 Snuff、INIT 等；未分组实体列第三方。CCP 周报约 3.2T 为当时概数，保留正文引用；页面总额与分方改用同一完整战报。
 
-按页面阵营顺序列出；角色取本方攻击者与受害者正数角色 ID 并集，损失按受害方求和，记录按 KM ID 去重，含胶囊、建筑。全场 3766 角色、1350 条 KM。
+按页面阵营顺序列出；角色取本方攻击者与受害者正数角色 ID 并集，损失按受害方求和，记录按 KM ID 去重，含太空舱、建筑。全场 3766 角色、1350 条 KM。
 
 | 参战角色 | 损失 B | 损失记录条数 |
 | --- | --- | --- |
@@ -55,3 +55,26 @@
 - [【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff](https://www.bilibili.com/video/BV18WN6zoEQm/)：标题指兰多恩铁壁，投稿日当天。
 - [【视角传媒】在兰多恩發生的毀滅衝突](https://www.bilibili.com/video/BV1CnNCzxEw1/)：标题指兰多恩，投稿日2025-06-21。
 - 前一轮待补候选BV1YANozLErj已按标题与投稿日补入。
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+FRT EN标题及作者感谢EN/CN战友明确参战。NoNo作品保留Snuff侧叙述，原录像视角仍需核；移出视角传媒综合报道，不能拿报道占另一方名额。
+
+- 保留 [【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff](https://www.bilibili.com/video/BV18WN6zoEQm/)：FRT EN方。
+- 保留 [【EVE Online】Lantorn旗舰战，三万亿战损，306条无畏陨落，INIT+SNUFF+FL33T+俄罗斯社区 VS FRT+BIGAB+SC等](https://www.bilibili.com/video/BV1YANozLErj/)：Snuff及友军侧（具体原视角待核）。
+- 推荐 [【视角传媒】在兰多恩發生的毀滅衝突](https://www.bilibili.com/video/BV1CnNCzxEw1/)（兔仔豬）：视角传媒作品，标题叫“在兰多恩发生的毁灭冲突”。
+- BV1YANozLErj 简介BR入口（docs/bilibili/729015.json）：https://br.evetools.org/br/6854042e62da2b00124eb116。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV18WN6zoEQm 简介BR入口（docs/bilibili/53247199.json）：https://br.evetools.org/related/30002540/202506172200。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+保留两份原有参战相关作品，恢复兔仔豬视角传媒的同场复盘，排在现场记录之后，不冒称作者本人驾驶。
+
+- [【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff](https://www.bilibili.com/video/BV18WN6zoEQm/)（星月也想睡觉）：FRT EN方作品，标题称这是正名之战，Snuff兰多恩铁壁结构。
+- [【EVE Online】Lantorn旗舰战，三万亿战损，306条无畏陨落，INIT+SNUFF+FL33T+俄罗斯社区 VS FRT+BIGAB+SC等](https://www.bilibili.com/video/BV1YANozLErj/)（NoNoOwO）：标题记三万亿战损、306条无畏陨落，并列出双方阵容。
+- [【视角传媒】在兰多恩發生的毀滅衝突](https://www.bilibili.com/video/BV1CnNCzxEw1/)（兔仔豬）：视角传媒作品，标题叫“在兰多恩发生的毁灭冲突”。

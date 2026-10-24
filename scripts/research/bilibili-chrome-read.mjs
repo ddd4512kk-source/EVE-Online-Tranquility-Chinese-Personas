@@ -6,11 +6,19 @@ import { fileURLToPath } from 'node:url';
 import { spawn, spawnSync } from 'node:child_process';
 import { createCooldownStore } from './request-guard.mjs';
 import { connectChromePages } from './chrome-cdp.mjs';
+import { battleReportLinks } from '../bilibili-archive.mjs';
+
+export function sanitizeMetadataDescription(value) {
+  return String(value ?? '').replace(/(?:商务合作|微信|联系方式|群号|QQ群|招募群|wx[:：]|vx[:：]|电话[:：]|手机[:：])[^\n]*\d{5,}[^\n]*/gi,
+    text => ['[联系方式略]', ...battleReportLinks(text)].join('\n'))
+    .replace(/(?:加入我们|联系我)\d{5,}/g, '[联系方式略]');
+}
+
 
 export function validBilibiliUrl(value) {
   const u = new URL(value);
   if (u.protocol !== 'https:' || u.username || u.password || u.port || !['www.bilibili.com','space.bilibili.com','search.bilibili.com','t.bilibili.com'].includes(u.hostname)) throw new Error('仅支持B站公开网页，不支持登录、私信或账户设置');
-  const allowed = u.hostname === 'space.bilibili.com' ? /^\/\d+(?:\/(?:upload\/video|dynamic))?\/?$/ : u.hostname === 'search.bilibili.com' ? /^\/(?:all|upuser|video)\/?$/ : u.hostname === 't.bilibili.com' ? /^\/\d+\/?$/ : /^\/(?:video\/(?:BV[A-Za-z0-9]+|av\d+)\/?|opus\/\d+\/?|read\/cv\d+\/?|audio\/au\d+\/?)$/;
+  const allowed = u.hostname === 'space.bilibili.com' ? /^\/\d+(?:\/(?:upload\/(?:video|opus)|dynamic))?\/?$/ : u.hostname === 'search.bilibili.com' ? /^\/(?:all|upuser|video)\/?$/ : u.hostname === 't.bilibili.com' ? /^\/\d+\/?$/ : /^\/(?:video\/(?:BV[A-Za-z0-9]+|av\d+)\/?|opus\/\d+\/?|read\/cv\d+\/?|audio\/au\d+\/?)$/;
   if (!allowed.test(u.pathname)) throw new Error('不是允许的公开内容页');
   return u.href;
 }
@@ -65,14 +73,6 @@ const records = listed.filter(record => {
 const prefix = path.resolve(repo, output), cache = path.resolve(repo,'.cache');
 const relative = path.relative(cache,prefix);
 if (!relative || relative.startsWith('..') || path.isAbsolute(relative)) throw new Error('输出只能存入.cache');
-if (process.platform !== 'win32') {
- const executable = '/mnt/c/Program Files/nodejs/node.exe';
- const converted = spawnSync('wslpath',['-w',fileURLToPath(import.meta.url)],{encoding:'utf8'});
- if (converted.status !== 0 || !fs.existsSync(executable)) throw new Error('需要Windows Node与Chrome');
- const result = spawnSync(executable,[converted.stdout.trim(),input,output,maxArg],{cwd:repo,stdio:'inherit'});
- if (result.error) throw result.error;
- process.exitCode = result.status ?? 1; return;
-}
 process.chdir(repo);
 const cooldown = createCooldownStore(path.join(cache,'bilibili-browser-cooldown.json'));
 if (cooldown.until('bilibili.com') > Date.now()) throw new Error('Chrome遇验证后的30分钟冷却仍有效；未打开新页面');
@@ -157,8 +157,8 @@ try {
     const links=await page.evaluate(()=>[...document.querySelectorAll('a[href]')].filter(a=>a.getClientRects().length).map(a=>({text:a.innerText.trim(),href:a.href})).filter(l=>l.text && /bilibili\.com/.test(l.href)));
     data={source:record.url,final_url:page.url(),title:await page.title(),at:new Date().toISOString(),status,nav_status:navStatus,kind,body,metadata,links,comments,requests,login:'持久Chrome配置；沿用该窗口现有登录；不导出凭据',coverage:'当前可见DOM、公开元数据与最多20个已加载主评论线程；未自动翻页、未观看影像、未展开楼中楼'};
    } catch(error) {data={source:record.url,status:'failed',error:error.message,requests};}
-   if (data.metadata?.desc) data.metadata.desc = data.metadata.desc.replace(/(?:商务合作|微信|联系方式|群号|QQ群|招募群|wx[:：]|vx[:：]|电话[:：]|手机[:：])[^\n]*\d{5,}[^\n]*/gi,'[联系方式略]').replace(/(?:加入我们|联系我)\d{5,}/g,'[联系方式略]');
-   if (data.body) data.body = data.body.replace(/(?:商务合作|微信|联系方式|群号|QQ群|wx[:：]|vx[:：]|电话[:：]|手机[:：])[^\n]*/gi,'[联系方式略]');
+   if (data.metadata?.desc) data.metadata.desc = sanitizeMetadataDescription(data.metadata.desc);
+   if (data.body) data.body = data.body.replace(/(?:商务合作|微信|联系方式|群号|QQ群|wx[:：]|vx[:：]|电话[:：]|手机[:：])[^\n]*/gi, text => ['[联系方式略]', ...battleReportLinks(text)].join('\n'));
    data.links = (data.links || []).filter(link => !/(?:商务合作|微信|联系方式|群号|wx[:：]|vx[:：])/.test(link.text));
    fs.writeFileSync(filename,JSON.stringify(data,null,2));
    console.log(JSON.stringify({file:path.relative(repo,filename),url:record.url,status:data.status,title:data.title,body_chars:data.body?.length,video_links:new Set((data.links||[]).map(l=>l.href.match(/\/video\/(BV[A-Za-z0-9]+)/)?.[1]).filter(Boolean)).size}));

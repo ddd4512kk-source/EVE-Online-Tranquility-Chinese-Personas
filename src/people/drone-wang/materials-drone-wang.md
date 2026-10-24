@@ -58,53 +58,12 @@
 - 本人B站账号 [DroneWang（UID 5877725）](https://space.bilibili.com/5877725)已对应，加入平台标签；不另立人物。
 - 用户搜索取得精确账号：594 粉丝、37 投稿；随后投稿列表请求 `x/series/recArchivesByKeywords` 返回 HTTP 412，本轮停止全部 B站请求。没有取得 37 条标题、视频正文和评论，不能算已读 37 个视频。
 
-
 ## B站投稿回查（2026-10-13）
 
 - [公开投稿页](https://space.bilibili.com/5877725/upload/video)当前作者名“DroneWang”，页面显示 37 条投稿；本页可见 37 条标题与不同 BV。简介、影像与评论未读。
 - 标题同时包含欧服、曙光与更早国服内容，按标题逐条区分服务器；RR跟队教程副标题直接调侃“如何成功的打出比夺米台风更高的伤害”。旧稿所记 37 条列表未取得的缺口，现已补齐标题和 BV，内容与评论另待读。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1iy9pBFE9u](https://www.bilibili.com/video/BV1iy9pBFE9u/) | 【EVE欧服】3.28 牧星 散打 VS DC LSK末日 |
-| [BV1yRA7zJEnp](https://www.bilibili.com/video/BV1yRA7zJEnp/) | 【EVE欧服】3.19 牧星 VS PLA |
-| [BV14hbVz6EhZ](https://www.bilibili.com/video/BV14hbVz6EhZ/) | 【EVE欧服】8.10 牧星击杀大航 |
-| [BV1rixvexEVu](https://www.bilibili.com/video/BV1rixvexEVu/) | 后勤大爹的自我修养 |
-| [BV1boxYePEaj](https://www.bilibili.com/video/BV1boxYePEaj/) | 火力狗的自我修养 |
-| [BV1i24y1V7jv](https://www.bilibili.com/video/BV1i24y1V7jv/) | 蜂群战斗人员教程-火力狗如何跟随点名 |
-| [BV1fb411D7Jy](https://www.bilibili.com/video/BV1fb411D7Jy/) | 蜂群战斗人员教程-如何跟随走位 |
-| [BV1aM41117bG](https://www.bilibili.com/video/BV1aM41117bG/) | 【EVE曙光】12.26 嗜杀蜂群 VS 特格拉 噩梦对撸 |
-| [BV1cY411U75c](https://www.bilibili.com/video/BV1cY411U75c/) | 【EVE曙光】12.25 嗜杀蜂群 VS 特格拉 噩梦对轰 |
-| [BV1w8411H7jr](https://www.bilibili.com/video/BV1w8411H7jr/) | 【EVE曙光】12.20 嗜杀蜂群VS特格拉 噩梦队对轰 |
-| [BV13R4y167du](https://www.bilibili.com/video/BV13R4y167du/) | 【EVE曙光】12.03 嗜杀蜂群 VS 特格拉 圣狂守 VS 噩梦 |
-| [BV138411W7jY](https://www.bilibili.com/video/BV138411W7jY/) | 【EVE曙光】 12.17 嗜杀蜂群VS特格拉 圣卒狂热守卫VS噩梦先驱曲剑 |
-| [BV1ye411w7Kp](https://www.bilibili.com/video/BV1ye411w7Kp/) | EVE曙光 12.16 嗜杀蜂群+猎阿联军 VS 特格拉+ Simple game UEXO大战 |
-| [BV1Dt4y1E7NU](https://www.bilibili.com/video/BV1Dt4y1E7NU/) | EVE曙光 8.29 嗜杀蜂群 第五次团灭 毛子哥 （毛子哥，俺们不是工作室，只是单纯的人多~） |
-| [BV1Zd4y137tQ](https://www.bilibili.com/video/BV1Zd4y137tQ/) | EVE曙光服 8.25晚 嗜杀蜂群 VS IBeast战巡巡洋 |
-| [BV1uT411F7v1](https://www.bilibili.com/video/BV1uT411F7v1/) | EVE曙光服8.24 首场小队战 嗜杀蜂群VS毛子Ibeast |
-| [BV16T411w7Lw](https://www.bilibili.com/video/BV16T411w7Lw/) | EVE新人教程--- 六、职业代理人之工业 |
-| [BV1BB4y1x7Cu](https://www.bilibili.com/video/BV1BB4y1x7Cu/) | EVE新人教程--- 五、职业代理人之自由战士 |
-| [BV1X14y147AB](https://www.bilibili.com/video/BV1X14y147AB/) | EVE新人教程--- 四、职业代理人之执法者 |
-| [BV1og41167yE](https://www.bilibili.com/video/BV1og41167yE/) | EVE新人教程--- 三、基础界面的认识 |
-| [BV1FG41147iV](https://www.bilibili.com/video/BV1FG41147iV/) | EVE新人教程--- 二、新人教程 |
-| [BV1zV4y1s7FP](https://www.bilibili.com/video/BV1zV4y1s7FP/) | EVE新人教程--- 一、进入游戏之后创建角色 |
-| [BV1FY4113749](https://www.bilibili.com/video/BV1FY4113749/) | 【EVE欧服】3.11 CP天宫联盟 低安 旗舰战 |
-| [BV1KT4y1X7P9](https://www.bilibili.com/video/BV1KT4y1X7P9/) | 【EVE欧服】 2.11 旗舰战 CP VS 低安毛子土著 |
-| [BV1Tq4y187W4](https://www.bilibili.com/video/BV1Tq4y187W4/) | 【EVE欧服】CP 战列小队VS 低安毛子土著 |
-| [BV13b4y187fF](https://www.bilibili.com/video/BV13b4y187fF/) | 【EVE】血袭者10-10 PLD打法教学进出加起来15分钟，可以缩短到13分钟左右 |
-| [BV1Rb4y1S7HG](https://www.bilibili.com/video/BV1Rb4y1S7HG/) | 【EVE】RR北方黑隐隐投队 |
-| [BV1hZ4y1N7nP](https://www.bilibili.com/video/BV1hZ4y1N7nP/) | 【EVE】RR-如何在4天内吃掉10条黑隐 |
-| [BV1u54y1X7xi](https://www.bilibili.com/video/BV1u54y1X7xi/) | [EVE欧服]RR 联盟2020年春季招新 |
-| [BV1bJ411t75W](https://www.bilibili.com/video/BV1bJ411t75W/) | 【EVE】12.19 RKE-CP战斗 《血特拉锯战》第一集 晚安 特纳 RR电影制片厂 |
-| [BV1u441127df](https://www.bilibili.com/video/BV1u441127df/) | RR成员的跟队基础教程（F1狗的基本修养，如何成功的打出比夺米台风更高的伤害） |
-| [BV1Lx411R7wa](https://www.bilibili.com/video/BV1Lx411R7wa/) | 【EVE】RR-王答答第二期SOLO+勾引小队作战视频 |
-| [BV1yt411p75P](https://www.bilibili.com/video/BV1yt411p75P/) | 联盟标准片头（所有战斗视频都要用，视频内可以用其他图片遮盖作为各军团招新）需要更高清晰度可以找王答答 |
-| [BV14W411c7q3](https://www.bilibili.com/video/BV14W411c7q3/) | 【EVE】RR剧本 Goon 蓝加抓人兴趣小组 RGSU |
-| [BV1VW411j7Lc](https://www.bilibili.com/video/BV1VW411j7Lc/) | 【EVE】RR无人机王答答无双小合集 |
-| [BV1ax411y7ag](https://www.bilibili.com/video/BV1ax411y7ag/) | 【EVE】SWTO+FOF+希拉+RAC+TGA联合吃冥府 |
-| [BV1Ax411K7qG](https://www.bilibili.com/video/BV1Ax411K7qG/) | 8.21晚PIBC银鹰队吉他打砸抢，与永恒国度和专业杀手接火（转自优酷） |
+待读作品的标题与BV见B站档案 `docs/bilibili/5877725.json`（37条，未读内容不凭标题补造事件）。
 
 ## 2026-10-15：按关注度消化RR作品
 
@@ -138,6 +97,10 @@
 
 本轮未看影像、字幕或音频，未展开楼中楼；两条加载失败保留，不循环请求。本人发布的团队记录写清视角来源，不要求摄像与上传必为同一人。
 
+## 2026年10月：封号后另起天宫与SARD进攻
+
+见[共享材料](../../../docs/sources/sard-drone-region-clearance-announcement.md)：嗜血明确把王哒哒在无人机区的建筑与主权列为两周清理目标，称后续组织联盟力量，点名王哒哒／多米台风及支持者，同时要求不要AOE普通牧星成员。已从原有“rmt头子又弄了个联盟”故事拆出，单列2026年10月封号后另起天宫与嗜血进攻的新事件，写的是对手动员和分化成员的喊话，不将被攻击本身算作王答答的新黑料，不补作战结果。事件月份已定为2026年10月，对象是封号后另起的天宫；截图未给具体日，不与同月贴吧帖强排先后；Asher、Darkshine立场与RMT均仍属嗜血发言，不当独立核实。
+
 ## 2026-10-17：牧星教程的黑名单评论
 
 评论者直接点王哒哒，正文补牧星招新门面与旧RR名声的反差；未把频道作者回复认成王本人，也不把1100补单位或解释成实际收入。原始简介、说话者与覆盖统一归[共享事件](../../../docs/sources/muxing-rabbit-tutorial-2026-04.md)，公开作品[BV1WaouBrEhK](https://www.bilibili.com/video/BV1WaouBrEhK/)。已有主线、红黑料、KB、战役及原作品精选保留；不把他人上传的教程加为本人第六个精选。影像、音轨、字幕未读。
@@ -146,13 +109,11 @@
 
 牧星简介的累计1000新人、ESI的2814角色属于不同口径，不据一人三开折成真人数，不把累计接待当当前排队人数。角色头衔的忘燃料／诱导打不开／放跑归魂按名片自嘲，不逐项扩成有特定语音／舰队等待场面的事故。2019让位帖的五万亿说法仍属评论者指控，不当实付、人民币交易或CCP处罚证据。Black Frame月度名单的划线只保存展示状态，不据它推已离盟、被踢或离开原因；上榜计次与成员军团考核是独立可用事实。
 
-
 ### 作品署名与剩余文字边界
 
 [血特拉锯战](https://www.bilibili.com/video/BV1bJ411t75W/)的公开署名原文为“Ranger Regiment电影制片厂”，简介与已见评论没有个人制作分工。它是待核的团队品牌署名：需分清本人作品的品牌与实际多人联合制作，不能仅凭上传者身份确定精选资格，也不能直接认定全片由多人共同制作。[CP战列篇](https://www.bilibili.com/video/BV1Tq4y187W4/)只有不同录像视角与摄像师供素材的明确文字，没有共同制作署名；不同驾驶员／视角本身不作为联合制作结论。
 
 10/10与无双小合集的评论加载失败仍保留原入口与未读状态，不计零评论或已消化；它们是未选候选的内容覆盖缺口，并不自动要求把全频道和折叠回复补完。下一项具体问题是血特作品的团队署名范围。
-
 
 ### 本轮B站署名收尾（2026-10-19）
 
@@ -166,3 +127,11 @@
 - [《RR王答答第二期SOLO＋勾引小队作战视频》](https://www.bilibili.com/video/BV1Lx411R7wa/)：推荐先读他解释为什么没等到100星就发片。几条快攒好的毒蜥接连损失，只好重头来过；作品没把筹备时的狼狈全剪出简介，能接上他作为玩家的一面。
 - [《RR如何在4天内吃掉10条黑隐》](https://www.bilibili.com/video/BV1hZ4y1N7nP/)：简介把4条元帅、6条其他黑隐分清，评论又问招不招人、提醒漏了素材。推荐看小队记录怎样兼做招新门面，战果仍归整支队伍。
 - [《CP战列小队 vs 低安毛子土著》](https://www.bilibili.com/video/BV1Tq4y187W4/)：推荐连“视角不是我，发视频的是我”这段澄清一起读。观众批操作、摄像师认错、发布人代答，顺便还问到RR去向；一场低安小队活动，把旧招牌、新队友和频道售后接到了一起。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 简介防空警告：Warning ! You have entered the Ranger Regiment Air Defense Identification Zone. Please indicate your intention. You have 3min to leave or we will intercept and destroy your ship
+
+## 2026-10-24：SARD离开RR与天宫旧怨回帖
+
+共享[回帖摘要](../../../docs/sources/sard-rr-old-grudge-2026-10.md)保存第3、4、10、11楼及楼中楼的作者、旧怨叙述、反驳与覆盖缺口。本次已将SARD因活动不足出走、李疯子愿出4000E挽留但被拒、希尔关权限未遂与当前天宫动员之间的反差写入列传；王答答另增舰队建设与化妆品梗。未把舰队写成实际遇害，未把4000E写成已支付，也未新增RMT交易记录、处罚或战果。怯薛、彩星、希尔争论仍留共享素材，不给本人物增添无关行为。

@@ -30,3 +30,19 @@
 - **W634（2122257495）**：[zKillboard角色入口](https://zkillboard.com/character/2122257495/)，归橙子本人。
 - 两个角色名于2026-10-14由CCP ESI `universe/names`精确解析；站内查重均无独立列传，合并入橙子aliases，沿用BIGORANGE6 TANORANGE为收录号。暂不据角色年龄判主号，不把其他号归属用于收录号标签。
 - 本次仅补同人对应，未取得两号KB累计或参战明细，不新增战绩、不相加逐号数据；后续人物战役按自然人合并。网页工具打开上述两页均报告不可访问，角色名由ESI成功取得，不把网页访问失败当作无战绩。
+
+## 2026-10-24：战斗画像补漏
+
+本次范围：核读已有身份与主线、收录号及下列主力号的stats字段，按高值月份取少量代表KM，对照当前66场本地战役；不以普通参战或单张KM另立收录依据，不将参与击杀金额视为个人独力战果。
+
+- [2115027553 stats](https://zkillboard.com/api/stats/characterID/2115027553/)：参与击杀229、损失74、参与击毁128828045881 ISK。
+  - 本次topShips返回：Zealot（type 12003，group 358）、47466（type 47466，group 27）、Curse（type 20125，group 906）、17841（type 17841，group 25）、642（type 642，group 27）、72872（type 72872，group 419）、Loki（type 29990，group 963）、17715（type 17715，group 26）、11172（type 11172，group 830）；appearances不当作全生涯次数，topLists.values为空不覆盖其他字段。
+  - 高值月份：202404，参与击毁80848031589 ISK；202601，参与击毁26153645375 ISK。月份累计不认定战役规模。
+- [2113753822 stats](https://zkillboard.com/api/stats/characterID/2113753822/)：参与击杀2480、损失484、参与击毁3023246027831 ISK。
+  - 本次topShips返回：Deimos（type 12023，group 358）、Maelstrom（type 24694，group 27）、72812（type 72812，group 419）、17634（type 17634，group 26）、11371（type 11371，group 324）、47270（type 47270，group 26）、634（type 634，group 26）、22466（type 22466，group 540）、11393（type 11393，group 324）；appearances不当作全生涯次数，topLists.values为空不覆盖其他字段。
+  - 高值月份：202003，参与击毁1026326073598 ISK；202002，参与击毁852194024942 ISK。月份累计不认定战役规模。
+- 代表[KM132614377](https://zkillboard.com/kill/132614377/)：2026-01-13T15:41:22Z，Sahtogas／30003086，目标type 35834；本人号2113753822，船型24694，军团98808817／联盟99010877。目标与本人船型分开读；不据参战推指挥、单杀或全场责任。
+- 本地战役关联（按自然人合并；具体窗口、分方与材料仍核各战役）：
+  - [sahtogas-2026](../../battles/sahtogas-2026/sahtogas-2026.md)，2026-01-13，命中2113753822／pilot。
+- 核读与边界：本次已读stats中的groups、months、topShips／topLists；每人取一张代表KM，十四行诗的2025-10月仅取首批200条候选，不称读完全月。月度KM样本不构成新战役全报，未读取视频、音轨、字幕。低活跃号不继续遍历，逐号数据不相加。
+- ZS-The only love的KM132614377与萨托加斯本场对上星系、日期及其死亡漩涡船型；同人沿既有档案，不把主力号的3.023T误写成收录号累计。W634已有约12.84B记录，本次不再取其详细样本；自动fc字段不作职务依据。

@@ -41,62 +41,13 @@
 - [公开投稿页](https://space.bilibili.com/94609129/upload/video)当前作者名“黑珍珠号-不懒”，页面显示 64 条投稿；本页可见 40 条标题与不同 BV。简介、影像与评论未读。 其余投稿须按网页分页续读；本轮不宣称全量。
 - 本次是网页每页40条；此前API每页50条，故旧14条未读范围仍需网页第2页补齐，不能把当前首40条误作新增全量。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1NRho6DE3m](https://www.bilibili.com/video/BV1NRho6DE3m/) | 【EVE】散打日记&第一次口播给大家讲散打 |
-| [BV1cdhX6eEL2](https://www.bilibili.com/video/BV1cdhX6eEL2/) | 黑珍珠号散打 ／ EVE纤维日记中秋节快乐（9月26日） |
-| [BV12dag64EkB](https://www.bilibili.com/video/BV12dag64EkB/) | 黑珍珠号散打 ／ EVE欧服5人小队（9月24日） |
-| [BV1uXac6zERe](https://www.bilibili.com/video/BV1uXac6zERe/) | 黑珍珠号散打 ／ EVE欧服散打日记（9月23日） |
-| [BV1Fthi6UE57](https://www.bilibili.com/video/BV1Fthi6UE57/) | 散打小队 ／ 噩梦级视角（kado） |
-| [BV12keU6qEPJ](https://www.bilibili.com/video/BV12keU6qEPJ/) | 黑珍号散打 ／ EVE挺针日记9月18日 |
-| [BV1ZeYE6qESn](https://www.bilibili.com/video/BV1ZeYE6qESn/) | 黑珍珠号散打 ／ 9月8日天上掉肉 |
-| [BV1GVbT6UEFL](https://www.bilibili.com/video/BV1GVbT6UEFL/) | 黑珍珠号散打 ／ 菜死两条截机 |
-| [BV1i8ti6iEiw](https://www.bilibili.com/video/BV1i8ti6iEiw/) | 散打小队 ／ 马克瑞级 Solo |
-| [BV1dUtv6eEgD](https://www.bilibili.com/video/BV1dUtv6eEgD/) | 黑珍珠号散打 ／ 9月3日挺针吃肉局 |
-| [BV1qGh56JEHP](https://www.bilibili.com/video/BV1qGh56JEHP/) | 【晨曦服】散打小队玩一波8月25日 |
-| [BV11FhN6iEuP](https://www.bilibili.com/video/BV11FhN6iEuP/) | 散打小队 ／ 休精级控场（kado视角） |
-| [BV1fs8t69EWg](https://www.bilibili.com/video/BV1fs8t69EWg/) | 黑珍珠号散打 ／ 8月23日快速匹配（不懒截击视角） |
-| [BV1nn8j6ZEkh](https://www.bilibili.com/video/BV1nn8j6ZEkh/) | 散打小队 ／ 小船队（德拉古视角） |
-| [BV1cFbC6PEET](https://www.bilibili.com/video/BV1cFbC6PEET/) | 黑珍珠散打小队 ／ C-J遭遇战（不懒视角） |
-| [BV169gF6aEnZ](https://www.bilibili.com/video/BV169gF6aEnZ/) | 散打小队 ／ 维德马克级solo锦集 |
-| [BV1KEui6uEkz](https://www.bilibili.com/video/BV1KEui6uEkz/) | 散打小队 ／ 噩梦级 |
-| [BV1Bmu96GEWx](https://www.bilibili.com/video/BV1Bmu96GEWx/) | 黑珍珠散打小队 ／ 先驱级视角（不懒视角） |
-| [BV1ZRu26WEXb](https://www.bilibili.com/video/BV1ZRu26WEXb/) | 黑珍珠散打小队 ／ 纳瓦拉遭遇战（不懒视角） |
-| [BV1bguw62EUn](https://www.bilibili.com/video/BV1bguw62EUn/) | 散打小队 ／ 奥苏斯级视角 |
-| [BV1xB3f6rEdQ](https://www.bilibili.com/video/BV1xB3f6rEdQ/) | 散打小队 ／ 勒沙克级视角 |
-| [BV13tN96HE1S](https://www.bilibili.com/video/BV13tN96HE1S/) | 散打小队 ／ 斯雷普尼级视角 |
-| [BV1Sh5p6nEW6](https://www.bilibili.com/video/BV1Sh5p6nEW6/) | 散打小队 ／ 幽灵级配置 |
-| [BV17HRDBkEGr](https://www.bilibili.com/video/BV17HRDBkEGr/) | 散打小队 ／ 双人组合海神视角 |
-| [BV1sZQsB3EgN](https://www.bilibili.com/video/BV1sZQsB3EgN/) | 散打小队 ／ Grunt kado巴戈龙视角 |
-| [BV1wYDfBYEdy](https://www.bilibili.com/video/BV1wYDfBYEdy/) | 散打小队 ／ Grunt kado洛基级视角 |
-| [BV1BoARzCEco](https://www.bilibili.com/video/BV1BoARzCEco/) | 散打小队 ／ 海先驱视角 |
-| [BV1zRr8BpEEW](https://www.bilibili.com/video/BV1zRr8BpEEW/) | Grunt kado视频 ／ 休津级视角 |
-| [BV1BZvmBQEKA](https://www.bilibili.com/video/BV1BZvmBQEKA/) | 散打小队 ／ 斯雷普尼级“狙击手” |
-| [BV1VTvUB1En2](https://www.bilibili.com/video/BV1VTvUB1En2/) | 散打小队 ／ 圣诞快乐~ |
-| [BV1oumkBAE1b](https://www.bilibili.com/video/BV1oumkBAE1b/) | 散打小队 ／ 甲抗诅咒 VS FRT |
-| [BV1owmKBwEo6](https://www.bilibili.com/video/BV1owmKBwEo6/) | 散打小队 ／ 后勤洛基视角 |
-| [BV1Sx2iBPEPG](https://www.bilibili.com/video/BV1Sx2iBPEPG/) | 散打小队 ／ 巴盖斯级 第一视角 |
-| [BV171SaB1EUf](https://www.bilibili.com/video/BV171SaB1EUf/) | Grunt kado视频 ／ 流浪视角 ESS作战 |
-| [BV18oSzBHEwP](https://www.bilibili.com/video/BV18oSzBHEwP/) | 散打小队 ／ 克勒斯级 侧翼电子战 |
-| [BV1EyUqBZEDP](https://www.bilibili.com/video/BV1EyUqBZEDP/) | 德雷卡瓦级 单双人 |
-| [BV1N2U1BbED2](https://www.bilibili.com/video/BV1N2U1BbED2/) | 散打小队 ／ 流浪级 双人PVP |
-| [BV1qpyuBeEim](https://www.bilibili.com/video/BV1qpyuBeEim/) | 散打小队 ／ 海小布 16B战损 |
-| [BV1mEy7BuEpQ](https://www.bilibili.com/video/BV1mEy7BuEpQ/) | 散打小队 ／ 装甲诅咒级 |
-| [BV1JSChBaEf6](https://www.bilibili.com/video/BV1JSChBaEf6/) | 韦德单/双人 soloPVP |
+待读作品的标题与BV见B站档案 `docs/bilibili/94609129.json`（40条，未读内容不凭标题补造事件）。
 
 ## 空间排序入口补取（2026-10-16）
 
 [本人空间UID94609129](https://space.bilibili.com/94609129/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《黑珍珠散打教程01期 | PVP走位进阶教程（干货分享）》](https://www.bilibili.com/video/BV1nZC2BGE4K/)
-- [《小队散打深度探讨第一期 | 小队PVP走位（截击必备）》](https://www.bilibili.com/video/BV11CkSBsEb1/)
-- [《【EVE】散打日记&第一次口播给大家讲散打》](https://www.bilibili.com/video/BV1NRho6DE3m/)
-- [《散打小队 | 马克瑞级 Solo》](https://www.bilibili.com/video/BV1i8ti6iEiw/)
-- [《散打小队 | 甲抗诅咒 VS FRT》](https://www.bilibili.com/video/BV1oumkBAE1b/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/94609129.json`；只是候选，不据标题归个人事件或判质量。
 
 候选的后续核读、取舍与未读缺口见后文。
 
@@ -147,3 +98,13 @@
 ### 战绩数字（自正文移入）
 
 - 角色 [zKillboard](https://zkillboard.com/character/2112533427/)：击杀 1655 次、约 6326 亿 ISK，损失 358 次、约 325 亿，单杀 37。2025-04-21 U2-28D，Pandemic Horde 神使被 79 人围杀，[KM 126474589](https://zkillboard.com/kill/126474589/) 价值 2234 亿；该月击杀额约 2830 亿，这笔占绝大部分。
+
+
+## B站作品精选补充（2026-10-24）
+
+本轮依据 docs/bilibili/94609129.json 的本人频道公开投稿列表与既有播放计数，按标题选择下列 EVE 作品补足精选。未读取视频影像、音频、字幕或视频页；推荐理由仅据标题及素材中已有的相关文字，不评价未读视听内容。
+
+- [黑珍珠号散打 | EVE欧服5人小队（9月24日）](https://www.bilibili.com/video/BV12dag64EkB/)（BV12dag64EkB，频道列表记录播放 969）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [黑珍号散打 | EVE挺针日记9月18日](https://www.bilibili.com/video/BV12keU6qEPJ/)（BV12keU6qEPJ，频道列表记录播放 856）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [黑珍珠号散打 | EVE欧服散打日记（9月23日）](https://www.bilibili.com/video/BV1uXac6zERe/)（BV1uXac6zERe，频道列表记录播放 639）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [黑珍珠号散打 | EVE纤维日记中秋节快乐（9月26日）](https://www.bilibili.com/video/BV1cdhX6eEL2/)（BV1cdhX6eEL2，频道列表记录播放 498）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。

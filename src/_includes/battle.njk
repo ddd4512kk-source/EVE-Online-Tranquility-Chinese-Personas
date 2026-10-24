@@ -55,7 +55,7 @@ bodyClass: page-battle
       <dl class="battle-stats side-stats" aria-label="{{ s.name }}战损与参战人数">
         <div><dt>参战角色</dt><dd>{% if s.pilots != null %}{{ s.pilots }}<small>人</small>{% else %}待补{% endif %}</dd></div>
         <div><dt>损失金额</dt><dd>{% if s.loss != null %}{{ s.loss | isk }}{% else %}待补{% endif %}</dd></div>
-        <div><dt title="按战报损失记录统计，可含胶囊与建筑">损失记录</dt><dd>{% if s.loss_count != null %}{{ s.loss_count }}<small>条</small>{% else %}待补{% endif %}</dd></div>
+        <div><dt title="按战报损失记录统计，可含太空舱与建筑">损失记录</dt><dd>{% if s.loss_count != null %}{{ s.loss_count }}<small>条</small>{% else %}待补{% endif %}</dd></div>
       </dl>
       {% if s.note %}<p class="side-note">{{ s.note }}</p>{% endif %}
       {% if s.loss != null %}<span class="side-bar" aria-hidden="true"><span style="width: {{ (s.loss / lossTotal * 100) | round(1) }}%"></span></span>{% endif %}

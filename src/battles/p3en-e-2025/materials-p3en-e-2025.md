@@ -3,7 +3,7 @@
 ## 原始来源及统计
 
 - [BR完整窗口](https://br.evetools.org/related/30000250/202504031800)；对应原始zKB related入口的同星系同UTC标记。复用本批raw，以仓库buildSnapshot/stringifySnapshot生成p3en-e-2025.json的br，只筛本星系，sources与front matter完全一致，不手改快照。
-- 人数按角色ID去重，损失按受害方、KM按ID去重，含胶囊，不冒称纯船体数。快照全场409角色、294.209480043B。
+- 人数按角色ID去重，损失按受害方、KM按ID去重，含太空舱，不冒称纯船体数。快照全场409角色、294.209480043B。
 
 
 ## 交火及取舍

@@ -8,19 +8,11 @@ GM Banquet太空舱123716562／125320177、CCP Lumi奥苏斯125320102、CCP Bee�
 
 2026-10-17资料卡返回投稿431；[空间视频页](https://space.bilibili.com/31544583/upload/video)显示视频432、图文3、音频1、合集和系列16、课堂1，共11页。当前只读最新第一页42项标题及公开计数，其中有牧星招新、EVE教程／战斗，也有摄影、动画与流放2等题材；不把432当EVE作品数，不把视频总数／课堂入口当已读课程。该账号现已对应Lova 8899／萌萌，原身份缺口已解决。
 
-可续读公开文字的候选：
+可续读公开文字的候选为牧星招新、海盗杆子PVP总结、总览设置入门、牧星快递教程、牧星会议泄密公开及两版5度扫描教程：
 
-| 作品标题 | 来源 | 当时播放 |
-| --- | --- | --- |
-| 牧星军团2026夏季招新 | [BV1K3Nj6BEZT](https://www.bilibili.com/video/BV1K3Nj6BEZT/) | 1133 |
-| EVE-海盗杆子PVP总结 | [BV1PNKD6eEii](https://www.bilibili.com/video/BV1PNKD6eEii/) | 1391 |
-| EVE-总览设置入门-例外情况与外观 | [BV1ciET6qEP4](https://www.bilibili.com/video/BV1ciET6qEP4/) | 1363 |
-| EVE-牧星快递教程 | [BV1QUV46hEjD](https://www.bilibili.com/video/BV1QUV46hEjD/) | 1037 |
-| EVE-牧星会议泄密公开 | [BV1uWG46dEUX](https://www.bilibili.com/video/BV1uWG46dEUX/) | 2577 |
-| EVE入门-5度扫描教程2026-0.2版 | [BV1u7Lu62EEf](https://www.bilibili.com/video/BV1u7Lu62EEf/) | 1092 |
-| EVE入门-5度扫描教程2026版 | [BV1XvLc6wEtJ](https://www.bilibili.com/video/BV1XvLc6wEtJ/) | 2631 |
+各作品标题、发布日与阅读状态见B站档案 `docs/bilibili/31544583.json`（7条）。
 
-新近“EVE-无人机区OPG-KS星系遭遇战”116播放，以及“回归EVE的首战，操作像坨屎，牧星无敌”948播放先留标题；空间卡片第二计数类型未核，不当评论数，评论计数与正文均待读，不据这组数判低互动或质量。上表除招新已读公开简介／一页评论外，其余仍为标题候选，不是推荐；“会议泄密”不能仅从标题认真实泄密、具体泄密者或公告责任。
+新近“EVE-无人机区OPG-KS星系遭遇战”116播放，以及“回归EVE的首战，操作像坨屎，牧星无敌”948播放先留标题；空间卡片第二计数类型未核，不当评论数，评论计数与正文均待读，不据这组数判低互动或质量。以上除招新已读公开简介／一页评论外，其余仍为标题候选，不是推荐；“会议泄密”不能仅从标题认真实泄密、具体泄密者或公告责任。
 
 原先order=click参数页仍是最新序列，现已在公开页面实际点击最多播放，核选中状态与次序改变；最多播放第一屏42项标题已读，不能把卡片第二计数当评论数。高播放入口包括[你以为的千人会战与实际上的千人会战](https://www.bilibili.com/video/BV1REdJYoEk8/)约10万、[EVE2025年无脑推荐玩欧服](https://www.bilibili.com/video/BV1BJrgYNEjk/)约3.7万、欧服与国服对比约2.2万；只是空间标题／展示值，尚未全部读作品。
 
@@ -56,3 +48,13 @@ GM Banquet太空舱123716562／125320177、CCP Lumi奥苏斯125320102、CCP Bee�
 - [欧服真0氪第一期](https://www.bilibili.com/video/BV1JNZEYvE3v/)：重新走低资源路线，连作者自己也感叹习惯杆子区后有多难。
 - [总览设置入门：例外情况与外观](https://www.bilibili.com/video/BV1ciET6qEP4/)：从教程题目到评论里的游戏节奏劝解，接住的是新人的实际困惑。
 - [牧星快递教程](https://www.bilibili.com/video/BV1QUV46hEjD/)：合同与时效的追问有作者回应，补足作战、生产之外的军团日常。
+
+
+## B站作品精选补充（2026-10-24）
+
+本轮依据 docs/bilibili/31544583.json 的本人频道公开投稿列表与既有播放计数，按标题选择下列 EVE 作品补足精选。未读取视频影像、音频、字幕或视频页；推荐理由仅据标题及素材中已有的相关文字，不评价未读视听内容。
+
+- [EVE2025年无脑推荐玩欧服](https://www.bilibili.com/video/BV1BJrgYNEjk/)（BV1BJrgYNEjk，频道列表记录播放 36711）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [EVE2025年欧服与国服对比](https://www.bilibili.com/video/BV1Mc91YEERE/)（BV1Mc91YEERE，频道列表记录播放 22492）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [EVE入门-新手矿工教程](https://www.bilibili.com/video/BV1Xw4m1Q7GB/)（BV1Xw4m1Q7GB，频道列表记录播放 14939）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+- [EVE新手气云采集入门教程](https://www.bilibili.com/video/BV1YH4y1u7LR/)（BV1YH4y1u7LR，频道列表记录播放 11616）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。

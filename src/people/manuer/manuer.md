@@ -77,6 +77,10 @@ NoSep又在评论里补小泡泡、ping点封锁的办法，战斗旧账便接�
 
 ::: 红料 B站作品精选
 - [《空间站无法承受之重2之泰坦篇》](https://www.bilibili.com/video/BV1hpbp6oEkf/)：观众追问船怎么进站，作者解释资产安全递送与出站后进不去，笑话之外还留下具体答疑。
+- [《1N-FJ8无畏炸弹》](https://www.bilibili.com/video/BV1MAzoY1ENs/)：标题把一场无畏舰遭遇压成“炸弹”，适合看他怎样把一场会战做成可检索的战报视频。
+- [《NPC掉落超稀有蓝图!敌方埋伏抢夺!我预判到了你的预判!》](https://www.bilibili.com/video/BV1SBKWedEeM/)：稀有掉落、伏击与反预判都摆在标题里，故事钩子一目了然。
+- [《一场掉线引发的惨剧!航母被敌方舰队包围!最后竟反败为胜？》](https://www.bilibili.com/video/BV1H7FCenEoP/)：从掉线开场到航母被围，标题留下明确的局势转折，补足频道的战斗故事面。
+- [《游戏官方活动大翻车!护航目标被玩家截胡,这也是玩法?》](https://www.bilibili.com/video/BV1KmfGYiE6F/)：官方活动的护航目标被玩家截胡，题目把游戏规则与玩家行动之间的意外碰撞摆出来。
 :::
 
 ::: 评

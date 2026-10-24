@@ -227,3 +227,7 @@ Norausdot公开复盘[8891](https://forums.winterco.org/t/topic/8891)和[9163](h
 ## 2022年二月两场攻防原文复读（2026-10-21）
 
 [纳瓦拉与Eruka共享素材](../../../docs/sources/winterco-february-2022.md)归纳两篇亲笔总结全文。纳瓦拉初四的带跳失误、混编舰队与后勤分工属于2月4日；《旗舰和小号》则写2月19日前后Eruka结构timer，不能混为同一场。两场都尚缺可靠损失统计，不凭动员规模定为大型或史诗；旧正文的自述与职责保留。原文成功JSON已存本地缓存，旧Fleetcom入口连接失败与续查点归共享材料。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 角色简介战斗日志：08:01:51 Combat 2652 from 1DQ1-A - Thetastar of David [.FART] (Keepstar) - Standup Arcing Vorton Projector I - Hits

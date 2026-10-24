@@ -41,13 +41,7 @@
 
 [本人空间UID485259323](https://space.bilibili.com/485259323/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《【EVE欧服】我采访了全EVE所有的华人势力 EVE现在到底值不值得入坑？》](https://www.bilibili.com/video/BV1NLDXBDEf2/)
-- [《「EVE欧服」创世之力，倾域之志-创世倾域2025夏季招新》](https://www.bilibili.com/video/BV1MvT4zfEkz/)
-- [《【EVE欧服】播客-脱离FRT半年 创世现在过的怎么样了？》](https://www.bilibili.com/video/BV1H59dBfEGE/)
-- [《「EVE欧服」再见创世》](https://www.bilibili.com/video/BV1U2zvBLErJ/)
-- [《「EVE欧服」The Fox Never Bows.-抵抗之狐2025招新》](https://www.bilibili.com/video/BV13X9dYWEa8/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/485259323.json`；只是候选，不据标题归个人事件或判质量。
 
 上述访谈缓存与四个热门候选已按下节核读，选五条；不以未读的其他作品判质量不足。
 

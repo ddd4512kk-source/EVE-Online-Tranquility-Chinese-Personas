@@ -53,3 +53,10 @@ Reddit 主楼作者 tommygun209 只写 Deepwater Hooligans 在 Pochven 丢失一
 
 - [FRT紫砂式轰击故土乌特拉空堡【EVE欧服】【凛冬华人社区】](https://www.bilibili.com/video/BV1MWpterEtJ/)：标题指乌特拉空堡，投稿日当天。
 - [【EVE Online】BIGAB＆IMP＆LOWSEC friends VS WC（乌特拉射击比赛）](https://www.bilibili.com/video/BV1vTpteHEs5/)：标题指乌特拉，对阵与本场相符。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+- [【EVE Online】BIGAB＆IMP＆LOWSEC friends VS WC（乌特拉射击比赛）](https://www.bilibili.com/video/BV1vTpteHEs5/)（青馆love）：标题把这场叫作“乌特拉射击比赛”。
+- [FRT紫砂式轰击故土乌特拉空堡【EVE欧服】【凛冬华人社区】](https://www.bilibili.com/video/BV1MWpterEtJ/)（EVE神崎）：凛冬华人社区作品，标题称FRT“紫砂式”轰击故土乌特拉空堡。

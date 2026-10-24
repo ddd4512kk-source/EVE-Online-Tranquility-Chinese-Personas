@@ -11,21 +11,26 @@
     "evidence": [
       "外号即UP名；搬运新闻"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "label": "日期候选的核读与排除依据"
+      }
+    ]
   },
   "channel": {
     "profile": {},
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:07:48.447Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:37:07.545Z",
+        "scope": "已存投稿目录366条，网页当前公开视频366条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/13329368/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:07:48.447Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:37:07.545Z",
+        "scope": "已存投稿目录366条，网页当前公开视频366条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/13329368/upload/video"
       },
       "series": {
@@ -33,6 +38,37 @@
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
         "evidence": "src/people/jubah-musanji/materials-jubah-musanji.md"
+      },
+      "opus": {
+        "state": "captured",
+        "scope": "系统Chrome取得图文列表首屏20个确切入口与可见文字卡片；页面显示110篇。未滚动续载或翻页，未取得单篇正文、图片及评论。",
+        "evidence": "https://space.bilibili.com/13329368/upload/opus",
+        "attempts": [
+          {
+            "date": "2026-10-24",
+            "url": "https://space.bilibili.com/13329368/upload/opus",
+            "method": "Playwright extension",
+            "status": "connection_failed",
+            "detail": "扩展连接30秒超时，未取得网页。"
+          },
+          {
+            "date": "2026-10-24",
+            "url": "https://space.bilibili.com/13329368/upload/opus",
+            "method": "web open",
+            "status": "unavailable",
+            "detail": "读取工具返回URL不可访问；未取得正文，不代表账号没有图文。"
+          },
+          {
+            "observed_at": "2026-10-24T06:44:36.627Z",
+            "url": "https://space.bilibili.com/13329368/upload/opus",
+            "method": "repository Chrome CDP reader",
+            "status": "read",
+            "http_status": 200,
+            "scope": "图文列表首屏20个入口与文字卡片；没有读取单篇。"
+          }
+        ],
+        "next": "从已存图文候选按具体事件补读单篇；列表其余范围未取得，续查时记录实际滚动范围。",
+        "observed_at": "2026-10-24T06:44:36.627Z"
       }
     },
     "prior_notes": [
@@ -70,7 +106,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:07:48.447Z",
         "source": "https://space.bilibili.com/13329368/upload/video",
-        "scope": "公开投稿列表全部364条（共476条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录366条；旧接口曾报告476条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频366条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1T3ni6PEVX",
@@ -2619,6 +2655,162 @@
             "url": "https://www.bilibili.com/video/BV1Mt411o7L9/",
             "published": "2018-10-19",
             "views": 6636
+          },
+          {
+            "bvid": "BV1MPne6cEfC",
+            "title": "iBeast教你玩阿克曼级~",
+            "url": "https://www.bilibili.com/video/BV1MPne6cEfC/",
+            "published": "2026-10-24",
+            "views": 225
+          },
+          {
+            "bvid": "BV1WSnr6kEgc",
+            "title": "Frt：怎么忍心怪你犯了错，是我给你（帝华）自由过了火~XD",
+            "url": "https://www.bilibili.com/video/BV1WSnr6kEgc/",
+            "published": "2026-10-22",
+            "views": 966
+          }
+        ],
+        "updated_at": "2026-10-24T06:42:14.103Z",
+        "increment_source": "https://api.bilibili.com/x/series/recArchivesByKeywords?mid=13329368&keywords=&ps=100&pn=1",
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:37:07.545Z",
+          "source": "https://space.bilibili.com/13329368/upload/video",
+          "public_video_count": 366,
+          "archived_count": 366,
+          "previous_api_total": 476,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
+      },
+      {
+        "ordering": "opus",
+        "source": "https://space.bilibili.com/13329368/upload/opus",
+        "captured_at": "2026-10-24T06:44:36.627Z",
+        "scope": "系统Chrome取得图文列表首屏20个确切入口与可见文字卡片；页面显示110篇。未滚动续载或翻页，未取得单篇正文、图片及评论。",
+        "displayed_total": 110,
+        "candidates": [
+          {
+            "key": "opus:1262296248433508376",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1262296248433508376",
+            "excerpt": "没有通过审核，那就看其他人凌晨录的战斗视频吧[笑哭]:网页链接"
+          },
+          {
+            "key": "opus:1260475641905545222",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1260475641905545222",
+            "excerpt": "[喜极而泣]"
+          },
+          {
+            "key": "opus:1244888097438564354",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1244888097438564354",
+            "excerpt": "b站eve专区近期好起来了，各种转发油管视频，一个视频都能被发两遍，那种勃勃生机万物竞发的境界犹在眼前～[喜极而泣] 近期我住的地方在装修网络，我预计起码要有一段时间，我现在基本上用流量上传转发的视频，如果当天没有发布新视频，那就是我热点网卡了，你可以去看其他人的视频，感谢你的理解与支持。"
+          },
+          {
+            "key": "opus:1240273687675928583",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1240273687675928583",
+            "excerpt": "今日推迟转发新视频。"
+          },
+          {
+            "key": "opus:1239512348883943431",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1239512348883943431",
+            "excerpt": "b站审核神了，这个片段是违规，笑死我了[喜极而泣]"
+          },
+          {
+            "key": "opus:1225906541017694216",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1225906541017694216",
+            "excerpt": "上一个视频有人提前转发了，我紧急替换了一个新的，1600发布，谢谢。"
+          },
+          {
+            "key": "opus:1189226334928240645",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1189226334928240645",
+            "excerpt": "完咯[笑哭]"
+          },
+          {
+            "key": "opus:1188488459558322216",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1188488459558322216",
+            "excerpt": "蜜蜂与frt在艾蒂斯最新战损比，我就参与了打星城[笑哭]"
+          },
+          {
+            "key": "opus:1186098507793039363",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1186098507793039363",
+            "excerpt": "英雄从未远去，我们不曾忘记！"
+          },
+          {
+            "key": "opus:1165591928723472386",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1165591928723472386",
+            "excerpt": "神人是这样的，我在等待视频。如果有，我第一时间转发并且嘲笑他人命运。[打call]"
+          },
+          {
+            "key": "opus:1149178036902428677",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1149178036902428677",
+            "excerpt": "网页链接，[笑哭]"
+          },
+          {
+            "key": "opus:1148080342061547545",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1148080342061547545",
+            "excerpt": "按照当然估算，最早2026年年底前下水，最晚2027年年中旬，服役可能的确是2030年。"
+          },
+          {
+            "key": "opus:1148001155761045525",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1148001155761045525",
+            "excerpt": "我的B站2025年度报告已解锁！过去一年，什么是你最感兴趣的内容，谁又是你的年度挚爱UP主？点击链接，解锁你的专属回忆>>网页链接"
+          },
+          {
+            "key": "opus:1146654773701771268",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1146654773701771268",
+            "excerpt": "绝了"
+          },
+          {
+            "key": "opus:1141768286336188467",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1141768286336188467",
+            "excerpt": "分享图片"
+          },
+          {
+            "key": "opus:1131917770248683529",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1131917770248683529",
+            "excerpt": "Ph离开pf联盟！"
+          },
+          {
+            "key": "opus:1131168813839024147",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1131168813839024147",
+            "excerpt": "init哈气了[doge]，希望他们能从+8晚上19点打到EUTZ22点，这样我就能进场了[doge]"
+          },
+          {
+            "key": "opus:1130574738291163152",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1130574738291163152",
+            "excerpt": "idinit损失惨重，还不如学习ph的审判大队呢[doge]"
+          },
+          {
+            "key": "opus:1118452970470506496",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1118452970470506496",
+            "excerpt": "有人已经准备了“大礼包”，看看会发生什么吧[doge]"
+          },
+          {
+            "key": "opus:1109758466272002053",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1109758466272002053",
+            "excerpt": "ph这回终于出了口恶气，用3队审判去拆迁星城是万万没想到的[笑哭]，也不枉费我堵蜜蜂舔油跳桥[doge]（吃了6b多一点）"
           }
         ]
       }
@@ -2706,7 +2898,7 @@
       },
       "usage": {
         "body": false,
-        "selected": false
+        "selected": true
       }
     },
     {
@@ -2930,6 +3122,35 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1XduK6hE5u",
+      "title": "无畏仙人的日常~（12.0）",
+      "url": "https://www.bilibili.com/video/BV1XduK6hE5u/",
+      "owner_uid": "13329368",
+      "published_at": "2026-08-08T04:00:00.000Z",
+      "captured_at": "2026-10-24T11:31:33.214Z",
+      "description": "https://youtu.be/agwY0lAdCBM?si=PMbh2MTCv3Uy2aCa",
+      "stats": {
+        "views": 1433,
+        "replies": 12
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+        ],
+        "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     }

@@ -3,7 +3,7 @@
 ## 原始来源及统计
 
 - [BR完整窗口](https://br.evetools.org/related/30002389/202501251900)；对应原始zKB related入口的同星系同UTC标记。复用本批raw，以仓库buildSnapshot/stringifySnapshot生成atlar-2025.json的br，只筛本星系，sources与front matter完全一致，不手改快照。
-- 人数按角色ID去重，损失按受害方、KM按ID去重，含胶囊，不冒称纯船体数。快照全场756角色、946.900644058B。
+- 人数按角色ID去重，损失按受害方、KM按ID去重，含太空舱，不冒称纯船体数。快照全场756角色、946.900644058B。
 
 
 ## 双方编组、交火及招新入口
@@ -40,3 +40,7 @@ ACR2115611133在Snuff，本文仅写参与。华人军团Late night poets等记�
 - Team B (292) / ISK Lost: / 559.84b / Efficiency: / 40.9% / Ships Lost: / 167 ships
 
 完整展开列表及网页公开文字的本地读取记录位于本批缓存；上列组织ID、逐方快照数值和来源差异已归入本素材，不以临时缓存作为唯一依据。没有读取视频、音频、字幕或转录。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- Lowkey Ops 招新帖顶帖语：Bump with more flavor

@@ -31,14 +31,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:08:34.934Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:37:28.441Z",
+        "scope": "已存投稿目录72条，网页当前公开视频72条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/172859920/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:08:34.934Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:37:28.441Z",
+        "scope": "已存投稿目录72条，网页当前公开视频72条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/172859920/upload/video"
       },
       "series": {
@@ -71,7 +71,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:08:34.934Z",
         "source": "https://space.bilibili.com/172859920/upload/video",
-        "scope": "公开投稿列表全部72条（共77条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录72条；旧接口曾报告77条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频72条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1BDp76rEbh",
@@ -577,11 +577,79 @@
             "published": "2019-07-02",
             "views": 688
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:37:28.441Z",
+          "source": "https://space.bilibili.com/172859920/upload/video",
+          "public_video_count": 72,
+          "archived_count": 72,
+          "previous_api_total": 77,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
   "videos": [
+    {
+      "bvid": "BV1BDp76rEbh",
+      "title": "总损失超8万亿！超越艾蒂斯决战！欧贝泰坦战！一场由征服者引发的惨案！【EVE欧服】",
+      "url": "https://www.bilibili.com/video/BV1BDp76rEbh/",
+      "owner_uid": "172859920",
+      "published_at": "2026-10-11T11:17:51.000Z",
+      "captured_at": "2026-10-24T07:08:33.202Z",
+      "description": "-",
+      "stats": {
+        "views": 11317,
+        "replies": 173
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/obe-2026/materials-obe-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1PNpg6FEHH",
+      "title": "欧贝超旗泰坦战!征服者剧本!BBC大战FRT!最高画质!就在刚刚!拉面林首战立威!【EVE欧服】",
+      "url": "https://www.bilibili.com/video/BV1PNpg6FEHH/",
+      "owner_uid": "172859920",
+      "published_at": "2026-10-10T11:24:11.000Z",
+      "captured_at": "2026-10-22T09:34:08.359Z",
+      "description": "",
+      "stats": {
+        "views": 17540,
+        "replies": 338
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/manuer/materials-manuer.md",
+          "src/battles/obe-2026/materials-obe-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
     {
       "bvid": "BV1hpbp6oEkf",
       "title": "空间站无法承受之重2之泰坦篇【EVE】",
@@ -667,6 +735,35 @@
       }
     },
     {
+      "bvid": "BV1MAzoY1ENs",
+      "title": "1N-FJ8无畏炸弹【EVE欧服】",
+      "url": "https://www.bilibili.com/video/BV1MAzoY1ENs/",
+      "owner_uid": "172859920",
+      "published_at": "2024-12-01T08:30:35.000Z",
+      "captured_at": "2026-10-22T09:27:33.071Z",
+      "description": "EVE欧服-FBC军团新人成长营\n[联系方式略]\n\n背景音乐:\nTriumph-neurotech\n\n战损一览：\nhttps://br.evetools.org/related/30000294/202411291300",
+      "stats": {
+        "views": 13756,
+        "replies": 121
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/manuer/materials-manuer.md",
+          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
       "bvid": "BV1q44y1p7cS",
       "title": "【EVE欧服】那一晚，N老板失去了5毛钱",
       "url": "https://www.bilibili.com/video/BV1q44y1p7cS/",
@@ -686,6 +783,35 @@
         "state": "material_linked",
         "material_refs": [
           "src/people/manuer/materials-manuer.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Vf4y1w74W",
+      "title": "【EVE欧服】AOM超旗烟花纯享版",
+      "url": "https://www.bilibili.com/video/BV1Vf4y1w74W/",
+      "owner_uid": "172859920",
+      "published_at": "2021-09-18T12:53:23.000Z",
+      "captured_at": "2026-10-22T09:28:39.117Z",
+      "description": "https://br.evetools.org/br/6144a372874be8002b6a78cd",
+      "stats": {
+        "views": 1710,
+        "replies": 8
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/manuer/materials-manuer.md",
+          "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
@@ -770,92 +896,6 @@
         "state": "material_linked",
         "material_refs": [
           "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1MAzoY1ENs",
-      "title": "1N-FJ8无畏炸弹【EVE欧服】",
-      "url": "https://www.bilibili.com/video/BV1MAzoY1ENs/",
-      "owner_uid": "172859920",
-      "published_at": "2024-12-01T08:30:35.000Z",
-      "captured_at": "2026-10-22T09:27:33.071Z",
-      "description": "EVE欧服-FBC军团新人成长营\n[联系方式略]\n\n背景音乐:\nTriumph-neurotech\n\n战损一览：\nhttps://br.evetools.org/related/30000294/202411291300",
-      "stats": {
-        "views": 13756,
-        "replies": 121
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1Vf4y1w74W",
-      "title": "【EVE欧服】AOM超旗烟花纯享版",
-      "url": "https://www.bilibili.com/video/BV1Vf4y1w74W/",
-      "owner_uid": "172859920",
-      "published_at": "2021-09-18T12:53:23.000Z",
-      "captured_at": "2026-10-22T09:28:39.117Z",
-      "description": "https://br.evetools.org/br/6144a372874be8002b6a78cd",
-      "stats": {
-        "views": 1710,
-        "replies": 8
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md",
-          "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1PNpg6FEHH",
-      "title": "欧贝超旗泰坦战!征服者剧本!BBC大战FRT!最高画质!就在刚刚!拉面林首战立威!【EVE欧服】",
-      "url": "https://www.bilibili.com/video/BV1PNpg6FEHH/",
-      "owner_uid": "172859920",
-      "published_at": "2026-10-10T11:24:11.000Z",
-      "captured_at": "2026-10-22T09:34:08.359Z",
-      "description": "",
-      "stats": {
-        "views": 17540,
-        "replies": 338
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md",
-          "src/battles/obe-2026/materials-obe-2026.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },

@@ -55,6 +55,10 @@
       {
         "material": "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "label": "战役相关视频"
       }
     ]
   },
@@ -63,14 +67,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:49:50.284Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:36:53.150Z",
+        "scope": "已存投稿目录595条，网页当前公开视频595条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/10126340/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:49:50.284Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:36:53.150Z",
+        "scope": "已存投稿目录595条，网页当前公开视频595条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/10126340/upload/video"
       },
       "series": {
@@ -127,7 +131,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:49:50.284Z",
         "source": "https://space.bilibili.com/10126340/upload/video",
-        "scope": "公开投稿列表全部595条（共599条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录595条；旧接口曾报告599条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频595条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1qtni6pEQs",
@@ -4294,7 +4298,18 @@
             "published": "2016-08-06",
             "views": 565
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:36:53.150Z",
+          "source": "https://space.bilibili.com/10126340/upload/video",
+          "public_video_count": 595,
+          "archived_count": 595,
+          "previous_api_total": 599,
+          "visible_entries_checked": 0,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -4827,6 +4842,34 @@
         ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
         "reviewed_at": "2026-10-22"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ArofBUErx",
+      "title": "War War Pig最新情报0426,4-H集结星城结构增强，FRT最重要的转折点到来",
+      "url": "https://www.bilibili.com/video/BV1ArofBUErx/",
+      "owner_uid": "10126340",
+      "published_at": "2026-04-26T04:56:06.000Z",
+      "captured_at": "2026-10-24T06:28:27.172Z",
+      "description": "***欢迎[联系方式略]**\n**在EVE官网商城购买任意物品结算时填写代码“vme50”即可支持up主**",
+      "stats": {
+        "views": 5969,
+        "replies": 142
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,

@@ -14,6 +14,7 @@ export const legacyAllianceTags = new Set([
 // 已出售的角色：当前军团属于买家，不强制带当前军团与联盟标签。
 export const soldCharacterIds = new Set([
   2120656041, // 黑鸦 Scorpio D，2025-12 出售
+  2119864581, // 兄贵 Aniki Z，2026-10 随矿队账号出售
 ]);
 
 export function currentCorporation(character) {

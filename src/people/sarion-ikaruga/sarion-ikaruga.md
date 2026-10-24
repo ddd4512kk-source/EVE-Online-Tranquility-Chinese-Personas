@@ -4,7 +4,7 @@
 圈里有一个专有名词，是为他造的：“鸠黑”——黑斑鸠的人。
 
 ::: 红料 AT19 冠军的雇佣兵
-据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，那一年 F1 和 PMA 两支华人队不参赛，“Sarion Ikaruga, and Chess Player from the Esports Petopia team”等人加入了 FRT 的队伍。复盘对这批人的评价是：少数有大赛经验的华人玩家里“真正的 PVP 玩家”。
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，那一年 F1 和 PMA 两支华人队不参赛，“来自 Esports Petopia 战队的 Sarion Ikaruga 和 Chess Player”等人加入了 FRT 的队伍。复盘对这批人的评价是：少数有大赛经验的华人玩家里“真正的 PVP 玩家”。
 :::
 
 ::: 红料 KB：两千四百次涅斯托
@@ -36,16 +36,16 @@ AT19 夺冠后，同为雇佣兵的[马哥](../2115198804/)和北极星（PMA）
 :::
 
 ::: 黑料 声讨鸠黑
-再往下，是一段英文长文：
+再往下，是一段英文长文，译成中文是：
 
-> Most of the people who disparaging Sarion for many years have... extremely low self-esteem, and their IQ decreases year by year, and finally they are completely stupid... Haters who disparaging Sarion have a strong anti-social inclination. They are destabilizing and endanger the lives of normal people.
+> 这么多年来黑 Sarion 的人大多……自尊心极低，智商一年比一年低，最后彻底变傻……黑 Sarion 的人有很强的反社会倾向，是不稳定因素，危害正常人的生命。
 
 黑斑鸠的人，智商逐年下降，最后彻底变傻，还有反社会倾向、危害正常人生命——中文网上那种“黑某某的人都……”的段子，被他翻成英文挂在了简介里。
 
 “Be Humble”和这段声讨，隔着三行。
 :::
 
-::: 黑料 “quit the game”
+::: 黑料 “退游了”（quit the game）
 2023 年 3 月 20 日，斑鸠和队友[青衣](../2114736322/)同一天进了一家叫 **quit the game** 的军团，挂的联盟叫 **My Girlfriend Uncloaked My Ship**（我女朋友把我的船解隐了）。一个月后，两人又都回了 F1 Monkey.——退游失败。
 :::
 

@@ -1,5 +1,5 @@
 
-金克丝，游戏名 Louis-CHEN，自建军团叫 JINX.Department。按本人后来的自报家门：“在 ph 叫凛冬，在 frt 用过宝矿力这些名字。”角色简介只有一句：“Why So Serious? Boi.”
+金克丝，游戏名 Louis-CHEN，自建军团叫 JINX.Department。按本人后来的自报家门：“在 ph 叫凛冬，在 frt 用过宝矿力这些名字。”角色简介只有一句：“何必这么严肃？小子。”（Why So Serious? Boi.）
 
 欧服吧记住这个名字，是因为两个帖子：一个是 2024 年 12 月苦主写的[《一个虫洞军团从组建到解散只用了26天》](https://tieba.baidu.com/p/9334710527)，一个是两个月后本人开的[《不逃了 这次一定还清》](https://tieba.baidu.com/p/9511082228)。前一个帖子里是骗子，后一个帖子里是还钱的人。
 

@@ -31,6 +31,10 @@
       {
         "material": "src/battles/otsasai-2021/materials-otsasai-2021.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+        "label": "战役相关视频"
       }
     ]
   },
@@ -1433,6 +1437,64 @@
   },
   "videos": [
     {
+      "bvid": "BV1LCpu65EC7",
+      "title": "〖EVE欧服〗10.10欧贝超旗战阵亡俄洛巴斯视角",
+      "url": "https://www.bilibili.com/video/BV1LCpu65EC7/",
+      "owner_uid": "8370281",
+      "published_at": "2026-10-10T12:47:45.000Z",
+      "captured_at": "2026-10-22T09:34:22.061Z",
+      "description": "-",
+      "stats": {
+        "views": 3836,
+        "replies": 94
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/zerohuang-ss/materials-zerohuang-ss.md",
+          "src/battles/obe-2026/materials-obe-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1F6jb64EH2",
+      "title": "【EVE欧服】埃加奥旗舰战FRT无畏+乌鸦队视角",
+      "url": "https://www.bilibili.com/video/BV1F6jb64EH2/",
+      "owner_uid": "8370281",
+      "published_at": "2026-06-21T07:04:00.000Z",
+      "captured_at": null,
+      "description": "21日上午在敌人优势时区凛冬对低安海盗势力矿机发起进攻，随着双方不断加码最终爆发旗舰战，FRT以两倍战损战胜敌人取得战略目标和战损双胜利",
+      "stats": {
+        "views": 3644,
+        "replies": 38
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/zerohuang-ss/materials-zerohuang-ss.md",
+          "src/battles/akkio-2026/materials-akkio-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV1E5DkBrEuh",
       "title": "【EVE欧服】艾蒂斯超旗战FRT泰坦视角（4K）",
       "url": "https://www.bilibili.com/video/BV1E5DkBrEuh/",
@@ -1458,6 +1520,34 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV11fDrBDEA1",
+      "title": "【EVE欧服】艾蒂斯星城攻防战",
+      "url": "https://www.bilibili.com/video/BV11fDrBDEA1/",
+      "owner_uid": "8370281",
+      "published_at": "2026-04-08T03:09:34.000Z",
+      "captured_at": "2026-10-24T07:00:28.350Z",
+      "description": "",
+      "stats": {
+        "views": 2390,
+        "replies": 28
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/atioth-2026/materials-atioth-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     },
@@ -1566,71 +1656,14 @@
         "state": "material_linked",
         "material_refs": [
           "src/people/zerohuang-ss/materials-zerohuang-ss.md",
-          "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+          "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+          "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": true,
         "selected": false
-      }
-    },
-    {
-      "bvid": "BV1F6jb64EH2",
-      "title": "【EVE欧服】埃加奥旗舰战FRT无畏+乌鸦队视角",
-      "url": "https://www.bilibili.com/video/BV1F6jb64EH2/",
-      "owner_uid": "8370281",
-      "published_at": "2026-06-21T07:04:00.000Z",
-      "captured_at": null,
-      "description": "21日上午在敌人优势时区凛冬对低安海盗势力矿机发起进攻，随着双方不断加码最终爆发旗舰战，FRT以两倍战损战胜敌人取得战略目标和战损双胜利",
-      "stats": {
-        "views": 3644,
-        "replies": 38
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/zerohuang-ss/materials-zerohuang-ss.md",
-          "src/battles/akkio-2026/materials-akkio-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1LCpu65EC7",
-      "title": "〖EVE欧服〗10.10欧贝超旗战阵亡俄洛巴斯视角",
-      "url": "https://www.bilibili.com/video/BV1LCpu65EC7/",
-      "owner_uid": "8370281",
-      "published_at": "2026-10-10T12:47:45.000Z",
-      "captured_at": "2026-10-22T09:34:22.061Z",
-      "description": "-",
-      "stats": {
-        "views": 3836,
-        "replies": 94
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/zerohuang-ss/materials-zerohuang-ss.md",
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": true
       }
     }
   ]

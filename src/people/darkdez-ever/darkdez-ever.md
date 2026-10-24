@@ -1,8 +1,7 @@
 
 小 D，人称 D佬，游戏名 DarKdeZ Ever，2018 年建号。先在创世，2020 年 11 月起在 D-Line Force（D 线部队），FRT AT19 冠军队员。角色简介是一句德语：
 
-> Bitte vergiss mich, wenn du die Gelegenheit dazu hast❤ denn ich bin nicht real❤
-> （有机会的话，请忘了我❤ 因为我并不真实❤）
+> 有机会的话，请忘了我❤ 因为我并不真实❤（Bitte vergiss mich, wenn du die Gelegenheit dazu hast❤ denn ich bin nicht real❤）
 
 ::: 红料 AT19 冠军队员，D 线部队
 据 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，D佬既是最早被拉进队的 FRT 成员之一，又被写成“from D-Line”——D-Line Force 是一支专门反收割的小队。2020 年 D佬自己的介绍是：“作为一个可以轻松以少胜多的建制，我们可以在人数劣势的情况下把任何纤维队打得稀烂……在两个月内做到了主建制零损。”
@@ -36,7 +35,7 @@ zKillboard 生涯击杀 3641，单杀 139 次，用得最多的是洛基和休�
 起因是 D佬回归后，鹅神连着两次开亥伯龙神出门，一次五分钟、一次十五分钟就没了。第三次出门前他求 D佬“奶我一口”，D佬回：
 
 > 你一定会无往不前
-> Triglav bless you
+> 愿 Triglav 保佑你
 
 三分钟后，船没了。于是鹅神改为求骂，D佬回：
 

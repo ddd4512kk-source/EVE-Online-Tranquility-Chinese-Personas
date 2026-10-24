@@ -15,6 +15,18 @@
       {
         "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "label": "日期候选的核读与排除依据"
       }
     ]
   },
@@ -498,6 +510,62 @@
       }
     },
     {
+      "bvid": "BV1kn9UBrEnf",
+      "title": "My Home is gone(",
+      "url": "https://www.bilibili.com/video/BV1kn9UBrEnf/",
+      "owner_uid": "501499921",
+      "published_at": "2026-04-29T07:42:18.000Z",
+      "captured_at": "2026-10-24T06:27:58.872Z",
+      "description": "",
+      "stats": {
+        "views": 1613,
+        "replies": 52
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1WEQPB7EWP",
+      "title": "Atioth纯享版 | EVE Online",
+      "url": "https://www.bilibili.com/video/BV1WEQPB7EWP/",
+      "owner_uid": "501499921",
+      "published_at": "2026-04-10T13:52:17.000Z",
+      "captured_at": "2026-10-24T07:08:46.641Z",
+      "description": "https://www.youtube.com/watch?v=oo9Z1rGNwA8",
+      "stats": {
+        "views": 958,
+        "replies": 5
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/atioth-2026/materials-atioth-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV1ncD7BVEzj",
       "title": "Atioth | EVE Online",
       "url": "https://www.bilibili.com/video/BV1ncD7BVEzj/",
@@ -516,13 +584,42 @@
       "reading": {
         "state": "material_linked",
         "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
+          "src/people/murphy222/materials-murphy222.md",
+          "src/battles/atioth-2026/materials-atioth-2026.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV1BnrpBaEMZ",
+      "title": "低安星城击毁 / 570B isk Lost / EVE Online",
+      "url": "https://www.bilibili.com/video/BV1BnrpBaEMZ/",
+      "owner_uid": "501499921",
+      "published_at": "2026-01-14T09:27:55.000Z",
+      "captured_at": "2026-10-24T07:10:16.670Z",
+      "description": "",
+      "stats": {
+        "views": 2391,
+        "replies": 9
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     },
     {
@@ -715,6 +812,35 @@
           "src/people/murphy222/materials-murphy222.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1wZu86EEB7",
+      "title": "新伊甸的烟花",
+      "url": "https://www.bilibili.com/video/BV1wZu86EEB7/",
+      "owner_uid": "501499921",
+      "published_at": "2026-08-07T12:32:18.000Z",
+      "captured_at": "2026-10-24T11:32:29.204Z",
+      "description": "",
+      "stats": {
+        "views": 1256,
+        "replies": 10
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+        ],
+        "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
       },
       "usage": {
         "body": false,

@@ -27,13 +27,7 @@
 
 [本人空间UID2250709](https://space.bilibili.com/2250709/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《EVE Uprising : 新炮台音效》](https://www.bilibili.com/video/BV1Be411371s/)
-- [《EVE Fanfest 2022 - 新舰船停靠机库》](https://www.bilibili.com/video/BV1YY4y1J7Jo/)
-- [《EVE 新FPS: EVE Vanguard 正式宣布 及 实机演示》](https://www.bilibili.com/video/BV1wr4y1f7Nf/)
-- [《EVE Online : Equinox 版本更新预告片》](https://www.bilibili.com/video/BV1DM4m1Z7G4/)
-- [《EVE Online: Viridian 版本宣傳片》](https://www.bilibili.com/video/BV1zX4y1b7ke/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/2250709.json`；只是候选，不据标题归个人事件或判质量。
 
 上述五个候选的简介、系列与作者公开答疑已于下节核读并用于五条译介推荐。
 
@@ -65,3 +59,7 @@
 ## 精选补选（2026-10-22）
 
 公开投稿列表143条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV1Cx4y1W7QW（Equinox新舰船）、BV1mp4y1w7gi（Havoc数值前瞻）、BV1NjV7zkEJ8（Legion宣传片）、BV1594y177pB（视角传媒）、BV1zH4y1m7Wy（Azariel泰坦）。作品页简介与评论未读。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 角色简介属性表：Writer bonuses (per skill level): / +0.1% bonus to Writing thread words amount / +0.1% bonus to Reading EVE news time requirements / Translator bonuses (per skill level): / +0.1% bonus to Translating EVE news time requirements / Role bonus: / 100% bonus to Keyboard typing speed

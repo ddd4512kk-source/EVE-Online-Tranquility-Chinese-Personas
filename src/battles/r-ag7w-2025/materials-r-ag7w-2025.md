@@ -33,7 +33,7 @@ Out of the Blue. 与 Invidia Gloriae Comes 为两个独立联盟，都在 Team A
 
 ## 分方人数与损失复核（2026-10-19）
 
-直接用系统 Chrome 打开原 BR，读取 Involved 页 Team A／B 面板并查看页面截图。采用原页现成分方汇总，金额保留页面显示精度，不再用 composition 的空 teams 或本站旧阵营覆盖。网页 Ships Lost 在本站按损失记录条数显示，含胶囊与建筑，不冒称纯船体数。
+直接用系统 Chrome 打开原 BR，读取 Involved 页 Team A／B 面板并查看页面截图。采用原页现成分方汇总，金额保留页面显示精度，不再用 composition 的空 teams 或本站旧阵营覆盖。网页 Ships Lost 在本站按损失记录条数显示，含太空舱与建筑，不冒称纯船体数。
 
 | 页面分组／本站阵营 | 参战角色 | 损失 B | 损失记录条数 |
 | --- | --- | --- | --- |
@@ -58,3 +58,7 @@ FRT（99003581）与 INIT（1900696668）按各自第三方行动归第三方，
 - [[EVE Online]R-A超旗监狱，千亿撤离](https://www.bilibili.com/video/BV1pC2PBYExY/)：标题指R-A，投稿日当天。
 - [绝密RA星城监狱 百亿撤离 哥布林我不欠你什么了](https://www.bilibili.com/video/BV1QW2PBLEcr/)：标题指RA星城，投稿日当天。
 - [【视角传媒】PanFam 瓦解於 R-AG7W](https://www.bilibili.com/video/BV1oUSuB5ETA/)：标题指名R-AG7W，投稿日2025-11-27。
+
+## 日期候选核读（2026-10-24）
+
+新读一捆烂胶带BV17okfBqE8F及白菜BV1JjCcBCE9P，均11月10日发布，明确星城最终陨落与PanFam落幕。属于本页11月6—7日撤离后的同一星城后续；现有撤离现场与视角传媒复盘4条保留，后续关联材料留在这里，不改称6—7日现场，也不把10日损失塞回主报。 本轮仅读公开文字与可见评论，未读取影像、音轨或字幕。

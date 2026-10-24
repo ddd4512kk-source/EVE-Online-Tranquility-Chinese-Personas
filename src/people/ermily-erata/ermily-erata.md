@@ -8,7 +8,7 @@ zKillboard 上他参与击杀五千三百多次，其中单杀一千四百多，
 :::
 
 ::: 红料 从北极星借来的冠军
-据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2023 年 F1 与北极星的比赛队都决定不参赛，还想打 AT 的人分散到四支队伍。FRT 这边接收了 F1 的[斑鸠](../2113386745/)、[青衣](../2114736322/)，“Ermily Erata from PMA”，以及北极星队前队长[马哥](../2115198804/)。黑莲称这些新人是“the real pvpers among those few Chinese players who have experience in major tournaments”。最后 FRT 拿下第十九届冠军，文末名单写着“Ermily Erata - 战战”。
+据[黑莲](../2115433044/)的 [AT19 冠军复盘](https://fubukiwaifu.top/archives/1704426912155)，2023 年 F1 与北极星的比赛队都决定不参赛，还想打 AT 的人分散到四支队伍。FRT 这边接收了 F1 的[斑鸠](../2113386745/)、[青衣](../2114736322/)，“来自 PMA 的 Ermily Erata”，以及北极星队前队长[马哥](../2115198804/)。黑莲称这些新人是“少数有大赛经验的华人玩家里真正的 PVP 玩家”。最后 FRT 拿下第十九届冠军，文末名单写着“Ermily Erata - 战战”。
 
 借来的人回去后又替北极星上场。[ATXXI 北极星对 TRUTH. HONOUR. LIGHT. 的比赛页](https://open.eve-nt.uk/portal/match/3816)上，战战在北极星的十人名单里，那一场北极星十条船全灭。冠军拿过，团灭也吃过，比赛这碗饭两种味道都尝了。
 

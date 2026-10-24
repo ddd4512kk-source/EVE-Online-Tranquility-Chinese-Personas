@@ -29,45 +29,7 @@ qhei按聊天原拼法保存，本批未凭这一拼法新增身份；本地嘴�
 ## 投稿续读队列（2026-10-13）
 
 全部 36 条标题已读；本轮五篇的简介及可见评论已读，详见下方覆盖表；其余简介与评论待读。全部影像未看。标题为作者原表述，标“转载”的不作本人参战依据。
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1cFLs65Eoy](https://www.bilibili.com/video/BV1cFLs65Eoy/) | 【EVE欧服】萌新大航搬家被抓 欧时区舰队&EN火星救援！搬家冥府第一视角 |
-| [BV1SLPTzcEdk](https://www.bilibili.com/video/BV1SLPTzcEdk/) | 【EVE欧服】FRT泰坦出击！MC60 dd init无畏群 1N-复刻？ |
-| [BV11dFJz2EKV](https://www.bilibili.com/video/BV11dFJz2EKV/) | 【EVE欧服】WC vs IMP 艾蒂斯铁壁锚定, hedliner噩梦宰猪局！北军噩梦第一视角 |
-| [BV14aknBgEn2](https://www.bilibili.com/video/BV14aknBgEn2/) | 【EVE欧服】FRT vs INIT PPG铁壁结构，狂热沉浸式F1三小时，猪头回归首秀（送）！ |
-| [BV1id2iBCEGC](https://www.bilibili.com/video/BV1id2iBCEGC/) | 【EVE欧服】FRT嗜血炸鱼队轰炸Goons鹏鲲队 这个避难怎么一跳100个签名呀 |
-| [BV1TVC8BMEdC](https://www.bilibili.com/video/BV1TVC8BMEdC/) | 【EVE欧服】C-O WC vs INIT + PH 少100人打出18b:50b惊天战损 最高伤害狂热第一视角 |
-| [BV1gty2BdEGH](https://www.bilibili.com/video/BV1gty2BdEGH/) | 【EVE欧服】司令&W佬反时区CFI队大战SUS掠夺凤凰队！十开月刃缪宁后勤第一视角 |
-| [BV1WHsyzVE4z](https://www.bilibili.com/video/BV1WHsyzVE4z/) | 【EVE欧服】7D- FRT vs INIT 相同人数打出6b:28b惊天战损 五开ahac第一视角 |
-| [BV1nRHKzxEBu](https://www.bilibili.com/video/BV1nRHKzxEBu/) | 【EVE欧服】FRT国庆巨作，5杀PH大航，轻拦/黑隐/无畏第一视角 |
-| [BV1HTnrzHEcR](https://www.bilibili.com/video/BV1HTnrzHEcR/) | 【EVE欧服】【转载】台风阿姨10-10之诛仙剑阵，元帅四连爆 |
-| [BV1BTaXz3Exa](https://www.bilibili.com/video/BV1BTaXz3Exa/) | 【转载】【EVE欧服】WC EN夏季部署高光集锦（语音高光集锦）带渣翻 |
-| [BV1oShvz9EPF](https://www.bilibili.com/video/BV1oShvz9EPF/) | 【EVE欧服】CACX周六八点半之 FRT vs Goons + Init + PH + 深水 + ... TFI & 扫射无畏第一视角 |
-| [BV11ttZz4Ezd](https://www.bilibili.com/video/BV11ttZz4Ezd/) | 【EVE欧服】1-2J4P FRT 创世 + 北军 vs 倾巢出动的帝华！一比四战损比 北军唤风第一视角 |
-| [BV1RZtDzXEW6](https://www.bilibili.com/video/BV1RZtDzXEW6/) | 【EVE欧服】【转载】 OF Pipebomber 2 OnlyFleet 炸弹 凤凰联盟群Ferox队 |
-| [BV147bNz7EaW](https://www.bilibili.com/video/BV147bNz7EaW/) | 【EVE欧服】阿希尔无畏战800b战损，FRT TFI/海神示第一视角 |
-| [BV15otzzREWP](https://www.bilibili.com/video/BV15otzzREWP/) | 【EVE欧服】再见了怯薛 希望你喜欢这六年来属于你的戏份 |
-| [BV1YN4fzMEZz](https://www.bilibili.com/video/BV1YN4fzMEZz/) | 【EVE欧服】大哥，汉兰达，嗜血豪华阵容三法司会审PH！E8-432 ESS散打，原声放送 |
-| [BV1vn8HzVEn6](https://www.bilibili.com/video/BV1vn8HzVEn6/) | 【EVE欧服】T2塔塔拉装甲增强，WC EN HFI vs 普罗帮盖子，小射50b报仇局！ |
-| [BV1MpgqzbEE9](https://www.bilibili.com/video/BV1MpgqzbEE9/) | 【EVE欧服】WC EN 夏季部署之 Nakah FRT铁壁上线（失败），1.2T总战损的故事 |
-| [BV1CRg4zdEtc](https://www.bilibili.com/video/BV1CRg4zdEtc/) | 【EVE欧服】WC EN夏季部署，HFI/噩梦爆射普罗帮CFI |
-| [BV1hTumzxEMA](https://www.bilibili.com/video/BV1hTumzxEMA/) | 【EVE欧服】PF-KUQ塔塔拉结构增强，12b比129b的故事 FRT vs INIT + SYN + 在天国的DC龙卷风 |
-| [BV155uYzsEw6](https://www.bilibili.com/video/BV155uYzsEw6/) | 【EVE欧服】Assah 300b战损，WC EN 噩梦乌鸦爆射 Imperium + 普罗帮 |
-| [BV1avMdzLEcw](https://www.bilibili.com/video/BV1avMdzLEcw/) | 【EVE欧服】最近的一些日常三合一，炸kiki，骑恶狼队，射审判 |
-| [BV1KG3AzwEyW](https://www.bilibili.com/video/BV1KG3AzwEyW/) | 【EVE欧服】319乱战之350打700人，FRT vs SYN + INIT + XIX + DC + .... 北军唤风第一视角 |
-| [BV1b2KfzmEU2](https://www.bilibili.com/video/BV1b2KfzmEU2/) | 【EVE欧服】爱丽丝的隐轰投弹秀 绝地吃鸡大赛之创世+北军 vs SYN + INIT，北军唤风第一视角 |
-| [BV18WN6zoEQm](https://www.bilibili.com/video/BV18WN6zoEQm/) | 【EVE欧服】FRT EN 正名之战，Snuff兰多恩铁壁结构，Winter Co. + Friends vs. Init + Snuff |
-| [BV1R7M6zrE8v](https://www.bilibili.com/video/BV1R7M6zrE8v/) | 【EVE欧服】萌新无畏跳固定诱导被抓，北军+W佬司令反时区队火星救援，FRT vs SUS + FDZ4黑隐无畏 |
-| [BV1frMwzrEWo](https://www.bilibili.com/video/BV1frMwzrEWo/) | 【EVE欧服】唤风队炒鸡电击！绝地GY6A-L CACX+创世+北军 vs DC，电电电！ |
-| [BV1WgTBz1Eub](https://www.bilibili.com/video/BV1WgTBz1Eub/) | 【EVE欧服】让汉兰达头痛的人----Mira的欢乐散打时光 |
-| [BV1pZT9zZEfd](https://www.bilibili.com/video/BV1pZT9zZEfd/) | 【EVE欧服】INIT最后一舞（送）6月8日 x-7O 继续射火鸡，给INIT愉快送走！ |
-| [BV1TqjUzgEhb](https://www.bilibili.com/video/BV1TqjUzgEhb/) | 【EVE欧服】FRT怒炸INIT dark shines满编狂热，W佬和司令反时区队巨作，北军提供支持，语音原生放送！ |
-| [BV15tj8zeEj1](https://www.bilibili.com/video/BV15tj8zeEj1/) | 【EVE欧服】北军洛基千里奔袭，FRT+NC vs 大荒野土著 怯薛洛基第一视角 |
-| [BV194J5zfEL2](https://www.bilibili.com/video/BV194J5zfEL2/) | 【EVE欧服】520末尾约炮） FRT vulture vs INIT ferox, 怯薛猪卫队vulture第一视角 |
-| [BV16b4y1z7J1](https://www.bilibili.com/video/BV16b4y1z7J1/) | [osu!] Demetori-Hoshi no Utsuwa~Casket of Star [Lunatic] 1623x 99.37acc 240pp |
-| [BV14s411F7Hh](https://www.bilibili.com/video/BV14s411F7Hh/) | [EVE欧服]采星者联盟泰坦波色刷怪教学/大航刷怪进阶 |
-| [BV1qp411Z7yT](https://www.bilibili.com/video/BV1qp411Z7yT/) | 【EVE欧服】采星者联盟大航刷怪教学和pyfa初探/骑脸心得-娃上将出品 |
+待读作品的标题与BV见B站档案 `docs/bilibili/53247199.json`（36条，未读内容不凭标题补造事件）。
 
 ## 2026-10-14 B站文字补读
 
@@ -155,3 +117,21 @@ type22428由本地ESI船型缓存核为Redeemer，术语表对应“救世”。
 ## 作品精选补入（2026-10-22）
 
 按维护者要求，从最多播放候选里补入正文未展开的作品。BV1TqjUzgEhb约9035播放，标题与播放数来自2026-10-15已取得的空间排序；本轮未读简介和评论、未看影像或听音频。正文推荐仅说明其频道人气与标题所列题材，不据标题补充作战细节、个人分工或质量评价。
+
+
+## 2026-10-24 B站精选补充（本轮）
+
+- BV18WN6zoEQm《FRT EN正名之战：Snuff兰多恩铁壁结构》（2549播放）、BV1SLPTzcEdk《FRT泰坦出击！MC60 dd init无畏群 1N-复刻？》（6544播放）；来源：UID 53247199（docs/bilibili/53247199.json）。
+
+本轮依据已存 UID 档案中的投稿标题、当时播放量及既有正文/素材去重；未访问作品页、未读取影像音频字幕。推荐语只概括标题可见题材，不据标题断言具体操作、战果或制作质量。
+
+新增精选：
+- [《FRT EN正名之战：Snuff兰多恩铁壁结构》](https://www.bilibili.com/video/BV18WN6zoEQm/)：题目将FRT EN与Snuff的结构战放在同一场景，适合和频道里FRT战役记录对照着看。
+- [《FRT泰坦出击！MC60 dd init无畏群 1N-复刻？》](https://www.bilibili.com/video/BV1SLPTzcEdk/)：标题从泰坦出击写到无畏群，并抛出“复刻”的疑问，呈现频道另一类旗舰战题材。
+
+
+## 2026-10-24 B站精选补充（二）
+
+BV1nRHKzxEBu《FRT国庆巨作，5杀PH大航…》（4652播放）、BV11dFJz2EKV《WC vs IMP艾蒂斯铁壁锚定…》（2176播放），来源UID 53247199（docs/bilibili/53247199.json）。
+
+本轮读取主代理整理的频道全目录，按存档播放量优先挑选未在正式列传红黑料展开的本人投稿；只依据标题和已有播放数，不访问作品页、不读影像音频字幕。未见标题明确标注联合制作的候选。

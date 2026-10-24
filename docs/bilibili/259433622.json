@@ -39,6 +39,10 @@
       {
         "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "label": "战役视频关联与来源核对"
       }
     ]
   },
@@ -748,7 +752,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:51:20.849Z",
         "source": "https://space.bilibili.com/259433622/upload/video",
-        "scope": "公开投稿列表全部183条（共184条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录183条；旧接口曾报告184条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频183条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV139p36LEBH",
@@ -2031,7 +2035,18 @@
             "published": "2018-10-13",
             "views": 396
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:38:24.710Z",
+          "source": "https://space.bilibili.com/259433622/upload/video",
+          "public_video_count": 183,
+          "archived_count": 183,
+          "previous_api_total": 184,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -2066,6 +2081,34 @@
       }
     },
     {
+      "bvid": "BV1rHH96VEFx",
+      "title": "群星汇聚-纪念8F-TK3会战",
+      "url": "https://www.bilibili.com/video/BV1rHH96VEFx/",
+      "owner_uid": "259433622",
+      "published_at": "2026-10-08T13:34:36.000Z",
+      "captured_at": "2026-10-22T09:28:25.460Z",
+      "description": "素材来源：@Warlockindustries",
+      "stats": {
+        "views": 1072,
+        "replies": 9
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV1BW3961Eam",
       "title": "【EVE】会战指挥航母盖亚视角，生日宴会激动落泪",
       "url": "https://www.bilibili.com/video/BV1BW3961Eam/",
@@ -2085,6 +2128,34 @@
         "state": "material_linked",
         "material_refs": [
           "src/people/awakeallnight/materials-awakeallnight.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1yN3S6GEAm",
+      "title": "【EVE】6000亿战损！阿巴宗千人会战",
+      "url": "https://www.bilibili.com/video/BV1yN3S6GEAm/",
+      "owner_uid": "259433622",
+      "published_at": "2026-08-01T20:05:34.000Z",
+      "captured_at": "2026-10-22T09:29:07.023Z",
+      "description": "",
+      "stats": {
+        "views": 1464,
+        "replies": 9
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
@@ -2266,72 +2337,16 @@
       }
     },
     {
-      "bvid": "BV185411h7Fz",
-      "title": "【EVE】最终兵器-泰坦出击",
-      "url": "https://www.bilibili.com/video/BV185411h7Fz/",
+      "bvid": "BV1onDvBpEKX",
+      "title": "【直播回放】EVE埃蒂斯决战，炸服后星城视角",
+      "url": "https://www.bilibili.com/video/BV1onDvBpEKX/",
       "owner_uid": "259433622",
-      "published_at": "2020-08-20T00:57:31.000Z",
-      "captured_at": "2026-10-22T09:26:52.507Z",
-      "description": "https://www.youtube.com/watch?v=wdmBEXbvjjw&amp;list=PL5bTiQtRPLQ-REDgJd9DMyi2PBH8DdwaY&amp;index=5&amp;t=0s\n原作者：RistGaming\n小绿人在低安的一场战斗",
-      "stats": {
-        "views": 3445,
-        "replies": 5
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": true
-      }
-    },
-    {
-      "bvid": "BV1rHH96VEFx",
-      "title": "群星汇聚-纪念8F-TK3会战",
-      "url": "https://www.bilibili.com/video/BV1rHH96VEFx/",
-      "owner_uid": "259433622",
-      "published_at": "2026-10-08T13:34:36.000Z",
-      "captured_at": "2026-10-22T09:28:25.460Z",
-      "description": "素材来源：@Warlockindustries",
-      "stats": {
-        "views": 1072,
-        "replies": 9
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1yN3S6GEAm",
-      "title": "【EVE】6000亿战损！阿巴宗千人会战",
-      "url": "https://www.bilibili.com/video/BV1yN3S6GEAm/",
-      "owner_uid": "259433622",
-      "published_at": "2026-08-01T20:05:34.000Z",
-      "captured_at": "2026-10-22T09:29:07.023Z",
+      "published_at": "2026-04-07T10:36:33.000Z",
+      "captured_at": "2026-10-24T07:00:14.878Z",
       "description": "",
       "stats": {
-        "views": 1464,
-        "replies": 9
+        "views": 1004,
+        "replies": 6
       },
       "credit": {
         "state": "unreviewed",
@@ -2340,7 +2355,7 @@
       "reading": {
         "state": "material_linked",
         "material_refs": [
-          "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
+          "src/battles/atioth-2026/materials-atioth-2026.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
@@ -2376,6 +2391,63 @@
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV185411h7Fz",
+      "title": "【EVE】最终兵器-泰坦出击",
+      "url": "https://www.bilibili.com/video/BV185411h7Fz/",
+      "owner_uid": "259433622",
+      "published_at": "2020-08-20T00:57:31.000Z",
+      "captured_at": "2026-10-22T09:26:52.507Z",
+      "description": "https://www.youtube.com/watch?v=wdmBEXbvjjw&amp;list=PL5bTiQtRPLQ-REDgJd9DMyi2PBH8DdwaY&amp;index=5&amp;t=0s\n原作者：RistGaming\n小绿人在低安的一场战斗",
+      "stats": {
+        "views": 3445,
+        "replies": 5
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/awakeallnight/materials-awakeallnight.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1XMuL6sEru",
+      "title": "【EVE】绝地6Q会战，百条无畏贴脸肉搏",
+      "url": "https://www.bilibili.com/video/BV1XMuL6sEru/",
+      "owner_uid": "259433622",
+      "published_at": "2026-08-08T20:45:35.000Z",
+      "captured_at": "2026-10-24T11:23:31.450Z",
+      "description": "",
+      "stats": {
+        "views": 2918,
+        "replies": 39
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+        ],
+        "scope": "已读公开标题、空简介及13条可见主评论／回复；未展开其他楼层，未读影像、音轨或字幕。作品地点、日期、评论中的INIT独立介入及DC支援争论已归档。",
+        "reviewed_at": "2026-10-24"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

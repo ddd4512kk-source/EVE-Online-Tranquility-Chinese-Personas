@@ -33,6 +33,10 @@ KB 上他有 3151 个击杀，其中单杀 457 个，常开的是狂热和流浪
 
 ::: 红料 B站作品精选
 - [《【EVE宁静】CL6-ZG,黑渊夏之阵，铁炮队对轰！(23.7.30)》](https://www.bilibili.com/video/BV1uz4y1s7Kq/)：看他的会战趣味，就看这句“两千多人至少三分之一在坐牢”，再接评论里的“开1400tfi足以见证我对frt的忠诚”。单杀选手跟着大队熬会战，热闹与辛苦一起写在他的自嘲里。
+- [【EVE宁静SOLO】来玩玩新出的海军驱逐~（26.7.5）](https://www.bilibili.com/video/BV1R4Tm6yERL/)：把新舰船加入他的单浪题材，适合看一次新船实战。
+- [【EVE宁静SOLO】小心结构抗！！（26.6.7）](https://www.bilibili.com/video/BV1hvEb62EES/)：标题直接点出配装抗性主题，给SOLO战斗之外补一条舰船准备的入口。
+- [【EVE宁静】夫斯库仑晨练，早期的鸟儿有T3吃（26.7.12）](https://www.bilibili.com/video/BV1xFNg6QEyJ/)：从标题看，是一趟清晨出门找目标的遭遇记录。
+- [【EVE宁静SOLO】玩玩海强制/舰刺（26.7.11）](https://www.bilibili.com/video/BV1CDNc6REkb/)：题目把两种舰船并列，适合与他常用流浪的单浪内容作补充。
 :::
 
 ::: 黑料 六百一十四分之一

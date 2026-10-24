@@ -30,60 +30,16 @@
 
 [共用事件摘要](../../../docs/sources/qihei-siling-titan-intel-2025.md)：NoNo为“龙王的狱友”／漆黑报点的收件人。漆黑连续告知司令泰坦UMI动向，询问无畏并催准备，击杀未成功。公告裁图只展示漆黑单方发言，无NoNo回复/出击/伤害记录；不把收件直接写成NoNo策划或执行，也不记作其击杀战绩。
 
-
 ## B站投稿回查（2026-10-13）
 
 - [公开投稿页](https://space.bilibili.com/729015/upload/video)当前作者名“NoNoOwO”，页面显示 160 条投稿；本页可见 40 条标题与不同 BV。简介、影像与评论未读。 其余投稿须按网页分页续读；本轮不宣称全量。
 - 当前160条、4页，本轮首40条；合作稿只说明出现在频道中，需按视频作者、联合投稿和具体视角核对本人贡献。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1a7eJ6wEqo](https://www.bilibili.com/video/BV1a7eJ6wEqo/) | 华人梦之队挺近EVE联盟锦标赛正赛！ |
-| [BV1x2YJ6EE3C](https://www.bilibili.com/video/BV1x2YJ6EE3C/) | [EVE Online]官方紧急安全公告：数百万角色和军团钱包数据泄露的漏洞已解决 |
-| [BV1JWti66ERx](https://www.bilibili.com/video/BV1JWti66ERx/) | [EVE Online]2026年，现在是回坑和入坑EVE的最好时机吗？——带你回顾2024-2026年EVE欧服的大事件、重要更新与改版内容 |
-| [BV1ydtV6JEz5](https://www.bilibili.com/video/BV1ydtV6JEz5/) | [EVE Online]加达里合众国日来了！—免费PLEX以及全新涂装速览 |
-| [BV1fNtW6NEFA](https://www.bilibili.com/video/BV1fNtW6NEFA/) | [EVE Online]第22届AT赛——全新瑞士轮赛制 |
-| [BV1NM4U6jEyo](https://www.bilibili.com/video/BV1NM4U6jEyo/) | [EVE Online]⚡️⚡️一次次的爆蛋刺痛我的心⚡️⚡️ |
-| [BV1hsh563Eao](https://www.bilibili.com/video/BV1hsh563Eao/) | 【EVE ONLINE】侠盗猎坦手 Grand Theft Titan 第一集 |
-| [BV1HDhN6aEK8](https://www.bilibili.com/video/BV1HDhN6aEK8/) | [EVE Online]PLEX、ISK与战争：一场长达八年的金融狂欢与资产泡沫 |
-| [BV1pw8K6cEu2](https://www.bilibili.com/video/BV1pw8K6cEu2/) | [EVE Online]正式官宣：与Google DeepMind展开AI研究合作 |
-| [BV1fng369ENv](https://www.bilibili.com/video/BV1fng369ENv/) | [EVE Online]舰船操作仪表盘改版前瞻公告解析 |
-| [BV1kYuL6MENU](https://www.bilibili.com/video/BV1kYuL6MENU/) | [EVE Online]直到你的船变成一颗蛋 |
-| [BV1emGF6WEAf](https://www.bilibili.com/video/BV1emGF6WEAf/) | 【SnuffedOut】Ignoitton-轰一把900b的旗舰 |
-| [BV1KK3M6hEb1](https://www.bilibili.com/video/BV1KK3M6hEb1/) | [EVE Online]黑隐队是什么？如何从0组建一支黑隐队？ |
-| [BV1CnNE6uErg](https://www.bilibili.com/video/BV1CnNE6uErg/) | EVE Online开源23年引擎代码，万人同屏不卡顿有救了？ |
-| [BV1umVV6REQA](https://www.bilibili.com/video/BV1umVV6REQA/) | [EVE Online]WWB2：长达一年的战争，横跨六年的复仇 |
-| [BV1KDGU62EPM](https://www.bilibili.com/video/BV1KDGU62EPM/) | [EVE Online]《战争摇篮》夏季新版本前瞻全解析 |
-| [BV19rLz6rECN](https://www.bilibili.com/video/BV19rLz6rECN/) | [EVE Online]全新新手星域——始源星域开放！ |
-| [BV13H5r6gEeP](https://www.bilibili.com/video/BV13H5r6gEeP/) | [EVE Online]26年夏季大更新——战争摇篮资料片解读 |
-| [BV1MY5C66EtJ](https://www.bilibili.com/video/BV1MY5C66EtJ/) | [EVE Online]吉他星系独立！海四空间站20年没改的克隆体服务终于实装！ |
-| [BV1F65N6HEXz](https://www.bilibili.com/video/BV1F65N6HEXz/) | [EVE Online]4月份经济报告——大型主权战争导致通货膨胀？ |
-| [BV1FZRtBSEod](https://www.bilibili.com/video/BV1FZRtBSEod/) | 《EVE Online》开发商1.2亿美元易主：更名Fenris Creations，联手Google谷歌搞AI？ |
-| [BV1gt9SBdEkh](https://www.bilibili.com/video/BV1gt9SBdEkh/) | 【SnuffedOut】奥尼能-无膨胀纯享拆星城＆炮决死亡漩涡 |
-| [BV1UbSoBYEUn](https://www.bilibili.com/video/BV1UbSoBYEUn/) | 【EVE ONLINE】超旗不是用来挂靠的。2万古击杀。 |
-| [BV1zMAXzBEvt](https://www.bilibili.com/video/BV1zMAXzBEvt/) | 【EVE ONLINE真视界】联盟队的“救赎” - FRTvs十国联军 1400人720b战损 Taff塔夫旗舰战导演剪辑版。 |
-| [BV157fqBkE5s](https://www.bilibili.com/video/BV157fqBkE5s/) | 【EVE Online】Taff旗舰战。BBC+深水+帝国+INIT VS FRT 末日改版泰坦视角，700b战损。 |
-| [BV1gfrYB7EwX](https://www.bilibili.com/video/BV1gfrYB7EwX/) | 【EVE ONLINE】黑隐Vlog，万古、阿里艾尔、归魂者击杀 |
-| [BV16HhmzaE8W](https://www.bilibili.com/video/BV16HhmzaE8W/) | 【EVE Online】开桥的时候跳跃，跳跃的时候开桥。老人星之战，1T战损。 |
-| [BV1YANozLErj](https://www.bilibili.com/video/BV1YANozLErj/) | 【EVE Online】Lantorn旗舰战，三万亿战损，306条无畏陨落，INIT+SNUFF+FL33T+俄罗斯社区 VS FRT+BIGAB+SC等 |
-| [BV11KJTzcErR](https://www.bilibili.com/video/BV11KJTzcErR/) | 【EVE ONLINE】恰两个大航小零食 180B击杀。 |
-| [BV1LkzJYWEvn](https://www.bilibili.com/video/BV1LkzJYWEvn/) | 【DOTA2】FRT SGCN军团阿阳屠夫show，输出一万七。拉面林直呼不是人，瓜瓜生理不适直接昏迷。阿阳：“逼事真多” |
-| [BV1YxzrYyEZQ](https://www.bilibili.com/video/BV1YxzrYyEZQ/) | 【EVE ONLINE】5泰坦（3势力）1归魂击杀。SNUFF+INIT VS FRAT 天使泰坦（第二次击杀） |
-| [BV1q9HxeEEDn](https://www.bilibili.com/video/BV1q9HxeEEDn/) | 【EVE ONLINE】顶尖虫洞队伍对决 N2H.RUS VS WAW AI字幕失败了，英译中制作中。 |
-| [BV1qRe4eSEAp](https://www.bilibili.com/video/BV1qRe4eSEAp/) | 【EVE ONLINE】无畏遭遇战BBC+TAMA VS SC+Sedition |
-| [BV1upvQekEBR](https://www.bilibili.com/video/BV1upvQekEBR/) | 【EVE ONLINE】1400亿击杀，元帅队团灭。 |
-| [BV1qrv4eHE9A](https://www.bilibili.com/video/BV1qrv4eHE9A/) | 【EVE ONLINE】原神联盟 waw avdot 击毁DC过路大航 |
-| [BV1Cxvwe4EHd](https://www.bilibili.com/video/BV1Cxvwe4EHd/) | 【EVE Online】耶舒尔矿机拆除。SGCN + Chuangshi + BBC VS Bigab + Sedition + SC |
-| [BV1e58ueJE4s](https://www.bilibili.com/video/BV1e58ueJE4s/) | 【EVE ONLINE】Chiffas&Lussylou纪录片《虫洞入侵》第三集。EVICTION Ep.3 低安小团入镜 |
-| [BV1XMb9eMES9](https://www.bilibili.com/video/BV1XMb9eMES9/) | 【EVE ONLINE】16亿的月矿矿机引发的2万亿惨案，伊格诺无畏战。 |
-| [BV1GM4m1f75p](https://www.bilibili.com/video/BV1GM4m1f75p/) | 【EVE ONLINE】新版本预告，关爱空巢老人，工作几辈子，Upwell在行动。（熟肉2k） |
+待读作品的标题与BV见B站档案 `docs/bilibili/729015.json`（39条，未读内容不凭标题补造事件）。
 
 ## 宁静访谈AVDOT一期（2026-10-13）
 
 [《华人圈数一数二的PVP军团，排行榜位列前面的强大公司。欢迎avdot的到来！》](https://www.bilibili.com/video/BV1mt4y137zJ/)，EVE白杉（UID1273724812），2022-08-04，单P5105秒。作者置顶点名制作宁静周刊编辑部，主持白杉、六一，嘉宾NoNo、小派，后期文华、NarcissaAa。多个评论重复“我是小派铁粉 派XO”，NoNoOwO留言“LGD- AME -小派”；以既有UP身份归本人。小派尚未对上收录角色，不从同场嘉宾关系编其游戏号。标题不作PVP第一名或指挥证据。页面、简介及最多20个已加载主评论线程已读；影像未看、未自动翻页／展开楼中楼，公开reply总数27不等于全读。这是白杉投稿，不增NoNo本人作品推荐数量。
-
 
 ## 怯薛争议附图续读
 
@@ -115,13 +71,7 @@
 
 [本人空间UID729015](https://space.bilibili.com/729015/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。
 
-最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：
-
-- [《最精彩的决赛？全华班首个EVE世界总冠军！》](https://www.bilibili.com/video/BV16F411S7sA/)
-- [《【EVE Online】BOSS的飙车泰坦也太离谱了。在对方值守舰队脸上飙车是什么样的体验？》](https://www.bilibili.com/video/BV1ND4y1b7My/)
-- [《【EVE Online】最新Viridian宣传片，多家联盟出镜。》](https://www.bilibili.com/video/BV17P411z7dg/)
-- [《【EVE Online】请问这种情况下，后勤和驾驶员谁更慌？》](https://www.bilibili.com/video/BV1Vf4y1A7y2/)
-- [《【EVE Online】当你住了太久的虫洞》](https://www.bilibili.com/video/BV1Bu4y1o7Ci/)
+最多播放首页的续读候选（5条）按播放排序见B站档案 `docs/bilibili/729015.json`；只是候选，不据标题归个人事件或判质量。
 
 本节只记录空间入口；本轮5条精选取舍见下节。已读作品不重复取材，不取影像、字幕或音频，未读不判作质量不足。
 
@@ -177,3 +127,9 @@
 ## 精选补选（2026-10-22）
 
 公开投稿列表162条已存B站档案（标题、发布日、当时播放）。从未入正文的EVE类作品中按播放与系列挑5篇：BV19d4y1H7nu（FIRE联盟群）、BV1xj411f75s（势力地图）、BV1xT4y1g7UB（雷电法王）、BV1Fw411f7nP（科莫多击杀）、BV1pg41177ye（无畏对轰）。作品页简介与评论未读。
+
+## 外文原话原文（2026-10-24 正文译中留档）
+
+- 聊天原文，NoNo 要求保密：top secret
+- 聊天原文，阿舍回复：I don't share info。
+- 聊天原文，NoNo 叮嘱：Don't lose to them。

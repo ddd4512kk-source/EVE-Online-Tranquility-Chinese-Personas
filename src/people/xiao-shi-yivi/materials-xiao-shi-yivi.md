@@ -16,12 +16,7 @@ B站“被遗忘的小十亿”已按2026-10-14的角色简介与浪骨关系链
 - [公开投稿页](https://space.bilibili.com/316935249/upload/video)当前作者名“被遗忘的小十亿”，页面显示 3 条投稿；本页可见 3 条标题与不同 BV。简介、影像与评论未读。
 - 三条标题为离线单机、PLD血袭者小圣坛与萨沙10-10教程；当时仍缺 Xiao Shi YiVI 的人物对应链；2026-10-14已补齐，见文末，频道仅3条投稿，不带B站标签。
 
-待读作品入口（只保存标题与链接，不凭标题补造事件）：
-
-| 视频 | 标题 |
-| --- | --- |
-| [BV1qWH76KESh](https://www.bilibili.com/video/BV1qWH76KESh/) | EVE PLD速刷血袭者小圣坛.JPG |
-| [BV1HWh7zUEDF](https://www.bilibili.com/video/BV1HWh7zUEDF/) | EVE 萨沙10-10 PLD速刷教程.JPG |
+待读作品的标题与BV见B站档案 `docs/bilibili/316935249.json`（2条，未读内容不凭标题补造事件）。
 
 ## B站账号对应与教学作品（2026-10-14）
 

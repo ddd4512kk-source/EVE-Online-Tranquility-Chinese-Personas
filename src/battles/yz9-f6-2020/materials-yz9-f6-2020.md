@@ -19,7 +19,7 @@ FWST-8前后两轮已另立页，705B属于2020-10-06—07第二轮，不与10�
 - Team 1 为 Goons、INIT 等帝国：1343 角色、2.5T 损失、1123 条损失记录。
 - Team 2 为 PH、TEST、NC、FRT 等 PAPI：2737 角色、722.7B 损失、1208 条损失记录。
 - 原图全场 4093 角色、2344 条、3.2T。两组只合计 4080 角色与2331条，原图尚有13角色／13条未落入可见两组；不能仅按差数补造第三方的具体身份与损失金额。两方均按原图标签显示，金额为2.5T等经过四舍五入的显示数，并非精确到B的原始求和；全场取同图3.2T，保留文中New Eden Post当日2.6T说法。
-- 记录计数沿 BR 标签，原船型表包括胶囊与铁骑舰载机，不等同纯舰船数。
+- 记录计数沿 BR 标签，原船型表包括太空舱与铁骑舰载机，不等同纯舰船数。
 
 ## 军团分类修正（2026-10-20）
 
@@ -34,3 +34,31 @@ GoonWaffe（667531913）为非华人军团，移出手填华人军团corps；阿
 - [EVE欧服10月15日YZ9超旗会战，帝国方无畏大航视角。](https://www.bilibili.com/video/BV1ca411A7ZQ/)：B站搜索所得；投稿日2020-10-15，简介附br.evetools战报
 - [EVE 欧服 绝地YZ9 泰坦超旗战 2020](https://www.bilibili.com/video/BV1Rp4y1r7uY/)：B站搜索所得；投稿日2020-10-15，简介附br.evetools战报与r/Eve上Operation ENHO的战后总结
 - [Eve Online_YZ9-F6超旗战](https://www.bilibili.com/video/BV1WD4y1d7LG/)：B站搜索所得；投稿日2020-10-16，简介挂YouTube原片、EN-PL军团信息与br.evetools战报
+
+## 视频推荐复查（2026-10-24）
+
+本次复用正式UID档案、原有本场素材与完整公开简介；未观看影像、音轨或字幕。战役关联与原录像视角分别判断，撤出推荐不撤销已有战役关联。
+
+HiToMing原题明确帝国方，GLaBOSS简介明确TEST及原作qWss4dolL-A。先列双方记录，再补充Dmanson、WZ与馒狗的相关作品；旁观作品在实战视角之后选取。
+
+- 保留 [EVE欧服10月15日YZ9超旗会战，帝国方无畏大航视角。](https://www.bilibili.com/video/BV1ca411A7ZQ/)：帝国方无畏与航母。
+- 保留 [Eve Online_YZ9-F6超旗战](https://www.bilibili.com/video/BV1WD4y1d7LG/)：PAPI方TEST（转载）。
+- 推荐 [【EVE Online 】- 巨人的陨落（YZ9-F6 (Delve)）](https://www.bilibili.com/video/BV1VV411y7fa/)（Dmanson）：标题叫“巨人的陨落”。
+- 推荐 [【EVE欧服】YZ9-F6超旗战，GOONS12艘泰坦战沉，全高画质OB视角](https://www.bilibili.com/video/BV1wy4y1r7fv/)（馒狗）：当天投出的全高画质旁观视角，标题记下最醒目的一笔：Goons沉了十二条泰坦。
+- 推荐 [EVE 欧服 绝地YZ9 泰坦超旗战 2020](https://www.bilibili.com/video/BV1Rp4y1r7uY/)（WZ_______-）：玻色泰坦出场在3分40秒。简介引了一份战后总结：大部分泰坦的玻色伤害被吞或位置不佳，只有个别几条打出接近满伤。
+- BV1ca411A7ZQ 简介BR入口（docs/bilibili/21975132.json）：https://br.evetools.org/br/5f881946e8fc750013f11dcd。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV1Rp4y1r7uY 简介BR入口（docs/bilibili/908550.json）：https://br.evetools.org/br/5f87e51655bb56001bc051ed。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- BV1WD4y1d7LG 简介BR入口（docs/bilibili/19078661.json）：https://br.evetools.org/br/5f87d85555bb56001bc05189。入口已归档；与主报是否同一窗口、分队有何差异仍需核，未核不替换主报或合并统计。
+- 续查：优先补对侧及小UP同场作品；同场大战主题且发布时间距战役不足5天者优先纳入关联核对，简介BR时间地点吻合即确认关联。不得因简介短、播放少或标题缺星系就排除。未核视角与未读候选不记作该方没有视频。
+
+## 视频关联与选取结论（2026-10-24）
+
+选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。
+
+帝国、TEST记录优先，恢复Dmanson、WZ及馒狗作品；馒狗明确OB，不冒称参战。Dmanson另作BV1Ma4y1L7Yv简介明确FWST，仍对应FWST，不能因为10月15日发布而也配入YZ9。
+
+- [EVE欧服10月15日YZ9超旗会战，帝国方无畏大航视角。](https://www.bilibili.com/video/BV1ca411A7ZQ/)（HiToMing）：帝国一方无畏与航母视角。简介说帝国手里有三个铁壁出甲增强，战局逐步扩大、联军航母密集进场；帝国想用玻色泰坦战术，伤害却像是被服务器吞了。
+- [Eve Online_YZ9-F6超旗战](https://www.bilibili.com/video/BV1WD4y1d7LG/)（GLaBOSS）：TEST一方的视角，投稿者在简介里挂的是TEST华人军团EN-PL的招募信息。
+- [【EVE Online 】- 巨人的陨落（YZ9-F6 (Delve)）](https://www.bilibili.com/video/BV1VV411y7fa/)（Dmanson）：标题叫“巨人的陨落”。
+- [EVE 欧服 绝地YZ9 泰坦超旗战 2020](https://www.bilibili.com/video/BV1Rp4y1r7uY/)（WZ_______-）：简介记录玻色泰坦出场的时间点，并转引Asher战后总结对伤害未充分生效的解释，可对照帝国方的作战记录。
+- [【EVE欧服】YZ9-F6超旗战，GOONS12艘泰坦战沉，全高画质OB视角](https://www.bilibili.com/video/BV1wy4y1r7fv/)（馒狗）：当天投出的全高画质旁观视角，标题记下最醒目的一笔：Goons沉了十二条泰坦。

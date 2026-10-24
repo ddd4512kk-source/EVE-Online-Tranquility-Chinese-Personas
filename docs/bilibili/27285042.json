@@ -28,14 +28,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:10:24.454Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:38:31.970Z",
+        "scope": "已存投稿目录299条，网页当前公开视频299条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/27285042/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T03:10:24.454Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:38:31.970Z",
+        "scope": "已存投稿目录299条，网页当前公开视频299条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/27285042/upload/video"
       },
       "series": {
@@ -320,7 +320,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T03:10:24.454Z",
         "source": "https://space.bilibili.com/27285042/upload/video",
-        "scope": "公开投稿列表全部299条（共410条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录299条；旧接口曾报告410条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频299条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV192nk6YExx",
@@ -2415,7 +2415,18 @@
             "published": "2020-03-05",
             "views": 2090
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:38:31.970Z",
+          "source": "https://space.bilibili.com/27285042/upload/video",
+          "public_video_count": 299,
+          "archived_count": 299,
+          "previous_api_total": 410,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -2445,7 +2456,7 @@
       },
       "usage": {
         "body": false,
-        "selected": false
+        "selected": true
       }
     },
     {
@@ -2502,6 +2513,34 @@
       "usage": {
         "body": true,
         "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Lz4y1z7vU",
+      "title": "EVE完美剧本猎杀稀有旗舰？低安6万RMB大战！",
+      "url": "https://www.bilibili.com/video/BV1Lz4y1z7vU/",
+      "owner_uid": "27285042",
+      "published_at": "2023-05-28T13:34:28.000Z",
+      "captured_at": "2026-10-24T06:54:42.587Z",
+      "description": "策划：白杉\n后期：白杉\n配音：白杉\n出品：宁静周刊\nEVE欧服最大中立新闻社区：点击链接加入群聊【宁静周刊宇宙新闻】：https://jq.qq.com/?_wv=1027&amp;k=cc47GW6q\n感谢收看，喜欢的话记得三连关注",
+      "stats": {
+        "views": 11842,
+        "replies": 49
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/frt-baishantvt/materials-frt-baishantvt.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
       }
     },
     {

@@ -32,9 +32,9 @@ N老板自己带着将近 40 条缪宁“配合星星”。那一晚的主力缪
 ::: 黑料 3V 防空识别区，五国语言
 格兰川的角色简介开头是一份防空警告，用英、日、德、法、中五种语言各写了一遍：
 
-> You have entered the 3V airdefense identification zone!!!!!!!
+> 你已进入 3V 防空识别区！！！！！！！
 > 3 Vの防空識別ゾーンに入った!!!!
-> Hello, you have entered the VVV Air Defense Identification Zone. Any Bluestar Blue + please indicate your intention... We will crack down strongly on those who ignore this warning
+> 你好，你已进入 VVV 防空识别区。凡蓝星蓝+ 者请表明意图……对无视本警告者，我们将严厉打击
 
 3V（VENI VIDI VICI.）是混沌仲裁 2019–2021 年所在的低安联盟；2021 年 11 月混沌仲裁离开 3V 加入 FRT，3V 随后解散。警告还挂在简介里，防空区已经没了。（同款警告，[王答答](../2112538533/)的简介里也有一份 RR 版。）
 :::

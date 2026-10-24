@@ -5,7 +5,7 @@
 // 输出 <前缀>.json（筛选条件、ID、逐张 KM）与 <前缀>.tsv（一行一张，含筛选点名者当时所开船）。
 import fs from 'node:fs';
 import { pathToFileURL } from 'node:url';
-import { zkillUrl, cachePrefix, relayToWindows, connectZkillChrome, openZkillPage, waitZkillReady } from './zkill-chrome.mjs';
+import { zkillUrl, cachePrefix, connectZkillChrome, openZkillPage, waitZkillReady } from './zkill-chrome.mjs';
 
 // 把网址 # 后的 JSON 译成 /asearchquery/ 参数；时间预设换算成 UTC 起止。
 export function buildFilters(hash, now = new Date()) {
@@ -150,7 +150,6 @@ async function main(argv) {
   const filters = buildFilters(hash);
   const source = 'https://zkillboard.com/asearch/#' + encodeURIComponent(JSON.stringify(hash));
   const prefix = cachePrefix(output);
-  if (relayToWindows(import.meta.url, argv)) return;
 
   const { browser, context } = await connectZkillChrome('https://zkillboard.com/asearch/');
   let query, page;

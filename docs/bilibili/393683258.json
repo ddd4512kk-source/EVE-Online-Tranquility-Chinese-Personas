@@ -23,6 +23,14 @@
       {
         "material": "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
         "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/ignoitton-2026/materials-ignoitton-2026.md",
+        "label": "战役相关视频"
+      },
+      {
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "label": "日期候选的核读与排除依据"
       }
     ]
   },
@@ -41,14 +49,14 @@
     "coverage": {
       "latest": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:53:48.798Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:40:12.939Z",
+        "scope": "已存投稿目录275条，网页当前公开视频275条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/393683258/upload/video"
       },
       "popular": {
         "state": "captured",
-        "observed_at": "2026-10-22T02:53:48.798Z",
-        "scope": "公开投稿全列表（含播放量）已存channel.listings；未读作品页。",
+        "observed_at": "2026-10-24T06:40:12.939Z",
+        "scope": "已存投稿目录275条，网页当前公开视频275条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
         "evidence": "https://space.bilibili.com/393683258/upload/video"
       },
       "series": {
@@ -313,7 +321,7 @@
         "sort": "all",
         "captured_at": "2026-10-22T02:53:48.798Z",
         "source": "https://space.bilibili.com/393683258/upload/video",
-        "scope": "公开投稿列表全部275条（共276条）：标题、发布日、当时播放；未读作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "scope": "已存公开投稿目录275条；旧接口曾报告276条，UP主可隐藏视频，该总数与公开数的差额不算漏查。2026-10-24网页公开视频275条。目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。仅保存标题、入口及已有发布日期／播放量，未读作品页；旧条目元数据未逐项刷新。",
         "candidates": [
           {
             "bvid": "BV1kon36xE9H",
@@ -2240,7 +2248,18 @@
             "published": "2020-09-03",
             "views": 1342
           }
-        ]
+        ],
+        "verification": {
+          "state": "count_matched",
+          "observed_at": "2026-10-24T06:40:12.939Z",
+          "source": "https://space.bilibili.com/393683258/upload/video",
+          "public_video_count": 275,
+          "archived_count": 275,
+          "previous_api_total": 276,
+          "visible_entries_checked": 40,
+          "unarchived_visible_bvids": [],
+          "scope": "目录条数与当前公开视频数一致，本次可见入口均已保存；未逐项重扫历史投稿。"
+        }
       }
     ]
   },
@@ -2265,6 +2284,34 @@
         "state": "material_linked",
         "material_refs": [
           "src/people/yingying76/materials-yingying76.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1S4GK6wET4",
+      "title": "[EVE Online][搬运]久违了！对BIGAB使用泰坦吧！",
+      "url": "https://www.bilibili.com/video/BV1S4GK6wET4/",
+      "owner_uid": "393683258",
+      "published_at": "2026-07-31T16:48:15.000Z",
+      "captured_at": "2026-10-24T07:07:25.362Z",
+      "description": "https://www.youtube.com/watch?v=FXXtGWBg74I\n转载",
+      "stats": {
+        "views": 3585,
+        "replies": 21
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/ignoitton-2026/materials-ignoitton-2026.md"
         ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
@@ -2330,6 +2377,60 @@
       }
     },
     {
+      "bvid": "BV1LFrQBzEL5",
+      "title": "[EVE Online][搬运] - OnlyFleets: One Night Marc Kalouf Led Us To Glory![拉格泰坦击杀]",
+      "url": "https://www.bilibili.com/video/BV1LFrQBzEL5/",
+      "owner_uid": "393683258",
+      "published_at": "2026-01-17T16:42:00.000Z",
+      "captured_at": "2026-10-24T06:58:26.642Z",
+      "description": "https://www.youtube.com/watch?v=UP1MQ5CBRF0\n转载",
+      "stats": {
+        "views": 2089,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "captured",
+        "material_refs": [],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1pC2PBYExY",
+      "title": "[EVE Online]R-A超旗监狱，千亿撤离",
+      "url": "https://www.bilibili.com/video/BV1pC2PBYExY/",
+      "owner_uid": "393683258",
+      "published_at": "2025-11-06T15:45:56.000Z",
+      "captured_at": "2026-10-22T09:36:43.450Z",
+      "description": "这里不是家。",
+      "stats": {
+        "views": 5833,
+        "replies": 57
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV11yPreZEUh",
       "title": "[EVE Online]指挥让你打会战时不要舔包，你舔不舔？",
       "url": "https://www.bilibili.com/video/BV11yPreZEUh/",
@@ -2386,6 +2487,34 @@
       }
     },
     {
+      "bvid": "BV1Av421k7PS",
+      "title": "[EVE Online]大型会战纪录",
+      "url": "https://www.bilibili.com/video/BV1Av421k7PS/",
+      "owner_uid": "393683258",
+      "published_at": "2024-02-26T01:00:00.000Z",
+      "captured_at": null,
+      "description": "感谢审核大大，辛苦啦~\n感谢所有热爱EVE的玩家~我爱你们~\nFly Safe o7",
+      "stats": {
+        "views": 10234,
+        "replies": 64
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/ostingele-2024/materials-ostingele-2024.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
       "bvid": "BV1nZ421m7QU",
       "title": "[EVE Online]泰坦手滑把自己跳进时——敌我双方？",
       "url": "https://www.bilibili.com/video/BV1nZ421m7QU/",
@@ -2410,6 +2539,34 @@
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Zb4y1378N",
+      "title": "[EVE Online][战报]哈拉斯旗舰战——圣诞节的狂欢",
+      "url": "https://www.bilibili.com/video/BV1Zb4y1378N/",
+      "owner_uid": "393683258",
+      "published_at": "2023-12-22T17:01:08.000Z",
+      "captured_at": "2026-10-22T09:31:29.938Z",
+      "description": "素材说明：前半段无UI游戏场景：BV1Bb4y1V7rk\n战报文案：@探归者夕迁Official  \n2023-12-21 哈拉斯旗舰战（补充战报）：\n战斗的起因是本星系阿兹贝尔的持有者龙骑团防守建筑，并邀请了FRT、DF及SC进行防守，而进攻方深水则邀请了DC参与进攻。但随着Snuff及PH的进场，变为了七方混战。进攻方、防守方均存在互相攻击的情况（如PH打了snuff、FRT打了龙骑团，SC打了Snuff等）。除此以外，DC的旗舰属于Snuff方（但常规依旧属于进攻方）\n进攻方：\n深水：40旗舰+80人TFi/Lsk队。\nDC:50人loki队\n防守方：\n龙骑团：40PNI+海送葬队+建筑\nFRT+DF：180人 loki队+CFI队\nPH：90人巴盖斯队+少量旗舰炮无畏\nSnuff：30LSK甲马队+30人无畏\nSC：50人LOKI队\n战斗经过：战斗大约于10点40左右打响，最开始预计的五方战斗由于PH和Snuff的入场变为七方混战，由于没有Tidi，因此战斗升级速度很快，Snuff和Deepwater对跳无畏。PH巴盖斯入场后开始攻击深水的常规，而深水则在全力攻击Snuff的无畏。\n龙骑团的PNI被进攻方DC的Loki迅速点完，但DC的loki很快也受到了FRT及SC的夹击并快速往外拉走，SC持续追击DC，同为100ab配置，Dc舰队很难找到合适的位置再度支援战场。\n由于旗舰数量存在少量差距，而深水的常规也先点名无畏，因此Snuff的无畏在持续了15分钟后逐渐不支。PH华人社区通过诱导支援了少量无畏进场但依旧未能反转旗舰战战局。在此期间，墨者跳进一条T2无畏但并没有枪中任何人。\n但对应的是深水的常规即便在抱着FAX的情况下也难以抗衡数量三倍于进攻方的常规队。虽然通过集火击杀了一些Snuff方的战列，但也开始进行掉员。一方面是盖子火力原因，另一方面龙骑团阿兹贝尔的毁电也对深水的FAX造成了大量的压力。在PH盖子+FRT/DF LOKI+CFI的联合打击下，深常规折损速度明显快的多，大约11点30分左右，战斗进入尾声。\n最终战损比：龙骑团 3.6b 比 PandaFam 37.24b 比Snuff 218.74b 比 SC 1.71b 比 DC 9.8b 比 DeepWater 247.98b",
+      "stats": {
+        "views": 2376,
+        "replies": 20
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/haras-2023/materials-haras-2023.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     },
@@ -2470,83 +2627,28 @@
       }
     },
     {
-      "bvid": "BV1Av421k7PS",
-      "title": "[EVE Online]大型会战纪录",
-      "url": "https://www.bilibili.com/video/BV1Av421k7PS/",
+      "bvid": "BV1kYuL6MENU",
+      "title": "[EVE Online]直到你的船变成一颗蛋",
+      "url": "https://www.bilibili.com/video/BV1kYuL6MENU/",
       "owner_uid": "393683258",
-      "published_at": "2024-02-26T01:00:00.000Z",
-      "captured_at": null,
-      "description": "感谢审核大大，辛苦啦~\n感谢所有热爱EVE的玩家~我爱你们~\nFly Safe o7",
+      "published_at": "2026-08-09T01:00:00.000Z",
+      "captured_at": "2026-10-24T11:32:00.986Z",
+      "description": "整活~",
       "stats": {
-        "views": 10234,
-        "replies": 64
+        "views": 5757,
+        "replies": 109
       },
       "credit": {
         "state": "unreviewed",
         "team": []
       },
       "reading": {
-        "state": "material_linked",
+        "state": "digested",
         "material_refs": [
-          "src/battles/ostingele-2024/materials-ostingele-2024.md"
+          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
         ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1Zb4y1378N",
-      "title": "[EVE Online][战报]哈拉斯旗舰战——圣诞节的狂欢",
-      "url": "https://www.bilibili.com/video/BV1Zb4y1378N/",
-      "owner_uid": "393683258",
-      "published_at": "2023-12-22T17:01:08.000Z",
-      "captured_at": "2026-10-22T09:31:29.938Z",
-      "description": "素材说明：前半段无UI游戏场景：BV1Bb4y1V7rk\n战报文案：@探归者夕迁Official  \n2023-12-21 哈拉斯旗舰战（补充战报）：\n战斗的起因是本星系阿兹贝尔的持有者龙骑团防守建筑，并邀请了FRT、DF及SC进行防守，而进攻方深水则邀请了DC参与进攻。但随着Snuff及PH的进场，变为了七方混战。进攻方、防守方均存在互相攻击的情况（如PH打了snuff、FRT打了龙骑团，SC打了Snuff等）。除此以外，DC的旗舰属于Snuff方（但常规依旧属于进攻方）\n进攻方：\n深水：40旗舰+80人TFi/Lsk队。\nDC:50人loki队\n防守方：\n龙骑团：40PNI+海送葬队+建筑\nFRT+DF：180人 loki队+CFI队\nPH：90人巴盖斯队+少量旗舰炮无畏\nSnuff：30LSK甲马队+30人无畏\nSC：50人LOKI队\n战斗经过：战斗大约于10点40左右打响，最开始预计的五方战斗由于PH和Snuff的入场变为七方混战，由于没有Tidi，因此战斗升级速度很快，Snuff和Deepwater对跳无畏。PH巴盖斯入场后开始攻击深水的常规，而深水则在全力攻击Snuff的无畏。\n龙骑团的PNI被进攻方DC的Loki迅速点完，但DC的loki很快也受到了FRT及SC的夹击并快速往外拉走，SC持续追击DC，同为100ab配置，Dc舰队很难找到合适的位置再度支援战场。\n由于旗舰数量存在少量差距，而深水的常规也先点名无畏，因此Snuff的无畏在持续了15分钟后逐渐不支。PH华人社区通过诱导支援了少量无畏进场但依旧未能反转旗舰战战局。在此期间，墨者跳进一条T2无畏但并没有枪中任何人。\n但对应的是深水的常规即便在抱着FAX的情况下也难以抗衡数量三倍于进攻方的常规队。虽然通过集火击杀了一些Snuff方的战列，但也开始进行掉员。一方面是盖子火力原因，另一方面龙骑团阿兹贝尔的毁电也对深水的FAX造成了大量的压力。在PH盖子+FRT/DF LOKI+CFI的联合打击下，深常规折损速度明显快的多，大约11点30分左右，战斗进入尾声。\n最终战损比：龙骑团 3.6b 比 PandaFam 37.24b 比Snuff 218.74b 比 SC 1.71b 比 DC 9.8b 比 DeepWater 247.98b",
-      "stats": {
-        "views": 2376,
-        "replies": 20
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/haras-2023/materials-haras-2023.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
-      },
-      "usage": {
-        "body": false,
-        "selected": false
-      }
-    },
-    {
-      "bvid": "BV1pC2PBYExY",
-      "title": "[EVE Online]R-A超旗监狱，千亿撤离",
-      "url": "https://www.bilibili.com/video/BV1pC2PBYExY/",
-      "owner_uid": "393683258",
-      "published_at": "2025-11-06T15:45:56.000Z",
-      "captured_at": "2026-10-22T09:36:43.450Z",
-      "description": "这里不是家。",
-      "stats": {
-        "views": 5833,
-        "replies": 57
-      },
-      "credit": {
-        "state": "unreviewed",
-        "team": []
-      },
-      "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
+        "reviewed_at": "2026-10-24"
       },
       "usage": {
         "body": false,
