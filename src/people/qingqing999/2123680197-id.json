@@ -43,7 +43,144 @@
   "fetched_at": "2026-10-13",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2123872751,
+        "name": "qingqing1",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与QingQing999同场加入Sing Hua击杀名单，现同属昆仑；同词根，头衔卿卿。",
+        "zkb": {
+          "kills": 22,
+          "lost": 10,
+          "isk_destroyed": 570458965995,
+          "last_active": "2026-03",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123872724,
+        "name": "qingqingivi",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与qingqing1同日相隔28分钟建号、同词根，头衔卿卿.；同场Sing Hua出勤，现同属昆仑。",
+        "zkb": {
+          "kills": 14,
+          "lost": 13,
+          "isk_destroyed": 3215192443,
+          "last_active": "2026-03",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123671155,
+        "name": "QingBao99",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与QingQing999同为兔兔头衔，KM 133170207同属Sing Hua，现同属昆仑。",
+        "zkb": {
+          "kills": 27,
+          "lost": 38,
+          "isk_destroyed": 227021844806,
+          "last_active": "2026-10",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123050360,
+        "name": "Alive111",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "头衔兔兔，与QingQing999在KM 133170207同属Sing Hua，现同属昆仑。",
+        "zkb": {
+          "kills": 107,
+          "lost": 76,
+          "isk_destroyed": 259257131765,
+          "last_active": "2026-10",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123729634,
+        "name": "Halftime888",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "头衔卿卿，与qingqing1、qingqingivi在KM 133170207同属Sing Hua，现同属昆仑。",
+        "zkb": {
+          "kills": 11,
+          "lost": 9,
+          "isk_destroyed": 11160116759,
+          "last_active": "2026-10",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123872763,
+        "name": "qingqing2",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与qingqing1同词根、同日相隔8分钟建号，同属昆仑，头衔卿卿。",
+        "zkb": {
+          "kills": 19,
+          "lost": 5,
+          "isk_destroyed": 492727178927,
+          "last_active": "2026-03",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123872767,
+        "name": "qingqing3",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与qingqing1、2同日连续建号，同属昆仑，头衔卿卿。",
+        "zkb": {
+          "kills": 13,
+          "lost": 4,
+          "isk_destroyed": 485397269814,
+          "last_active": "2026-03",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2123872770,
+        "name": "qingqing4",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与qingqing1、2、3同日连续建号，同属昆仑，头衔卿卿。"
+      },
+      {
+        "id": 2123895119,
+        "name": "qingqing5",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与qingqing1—4同词根、同属昆仑，头衔卿卿。"
+      },
+      {
+        "id": 2123696811,
+        "name": "QingQing9",
+        "sources": [
+          "materials-qingqing999.md#小号对应"
+        ],
+        "basis": "与QingQing999同词根、同属昆仑，头衔同为兔兔。",
+        "zkb": {
+          "kills": 14,
+          "lost": 19,
+          "isk_destroyed": 32921661803,
+          "last_active": "2026-10",
+          "as_of": "2026-10-25"
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 28,
@@ -55,12 +192,13 @@
   },
   "person": {
     "cn_name": "兔兔",
-    "aliases": [],
-    "epithet": "红楼带过队，昆仑只留一个兔字。",
+    "aliases": [
+      "卿卿"
+    ],
+    "epithet": "名片装可爱，战场忙着拆家。",
     "tags": [
       "00区",
       "CONDI",
-      "KN-L",
       "FC"
     ]
   }

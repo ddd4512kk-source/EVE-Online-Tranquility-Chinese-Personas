@@ -60,6 +60,8 @@ docs/                       模板、术语表、找料方法、结构化档案�
 | `npm test` | 离线脚本回归验证 |
 | `npm run find -- "名字"` | 查角色 ID |
 | `npm run materials -- "关键词"` | 离线定位材料；无关键词时只报数量 |
+| `npm run corporations -- --help` | 离线查询军团、历史Top 100与跨团角色调查，不刷新榜单 |
+| `npm run corporations:check` | 校验军团档案、共享角色、来源与本地引用 |
 | `npm run review -- --help` | 按功能筛复查候选、读对象卡片和段落、查变更影响；无参数只报数量 |
 | `npm run glossary -- "词语"` | 按词查询术语 JSON；可筛类别、确认状态 |
 | `npm run research:query -- <TSV路径> --where 列=值` | 分页读取调查表，不倾倒全表 |

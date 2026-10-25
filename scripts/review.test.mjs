@@ -156,3 +156,167 @@ test('JSON formatting, key order and fetch date alone do not trigger another rev
   put('src/people/demo/42-id.json', JSON.stringify({ fetched_at: '2026-10-24', identity: { alts: [{ name: '小号', id: 43 }] }, person: {}, name: '甲', id: 42 }, null, 4));
   assert.equal(call('card', 'person:demo').state, 'reviewed');
 });
+
+function combatChecks(setup) {
+  const registry = JSON.parse(fs.readFileSync(path.join(setup.root, 'docs/review-features.json')));
+  registry.combat.checks = Object.fromEntries(['profile', 'alts', 'peaks', 'battles', 'narrative'].map(key => [key, key]));
+  setup.put('docs/review-features.json', registry);
+  const assessment = Object.fromEntries(Object.keys(registry.combat.checks).map(key => [key, {
+    status: 'reviewed', note: '人工对照角色、来源和正文后的采用判断',
+    evidence: [key === 'narrative' ? { file: 'src/people/demo/demo.md', contains: '工业人物' } : { file: 'src/people/demo/materials-demo.md', heading: '## 画像' }],
+  }]));
+  setup.put('.cache/assessment.json', assessment);
+  return assessment;
+}
+
+test('故事多且出现别人的战斗词、没有已知战役，仍须逐项复查', t => {
+  const setup = fixture(t);
+  setup.put('src/people/demo/demo.md', '朋友在战斗。\n' + '::: 红料 故事\n教学。\n:::\n'.repeat(8));
+  setup.put('src/people/demo/42-id.json', { id: 42, person: {}, identity: { zkb: { kills: 352 } } });
+  fs.rmSync(path.join(setup.root, 'src/battles'), { recursive: true });
+  combatChecks(setup);
+  const rows = setup.call('list', '--signal', 'review-incomplete').records;
+  assert.ok(rows.some(row => row.key === 'person:demo'));
+  assert.equal(setup.call('list', '--signal', 'battle-without-narrative').total, 0);
+  assert.throws(() => setup.mark(), /缺少已完成的复查项/);
+  assert.throws(() => setup.call('verify', 'person:demo'), /复查验收未通过/);
+});
+
+test('完整五项须定位正文；缺项、待查和失效不能验收，失败标记不覆盖原结论', t => {
+  const setup = fixture(t), assessment = combatChecks(setup);
+  const mark = () => setup.call('mark', 'person:demo', '--status', 'reviewed', '--note', '逐项核读完成', '--evidence', 'src/people/demo/materials-demo.md', '--assessment', '.cache/assessment.json');
+  mark();
+  assert.equal(setup.call('verify', 'person:demo').verified[0].state, 'reviewed');
+  const before = fs.readFileSync(path.join(setup.root, 'docs/reviews/combat.json'), 'utf8');
+  delete assessment.peaks;
+  setup.put('.cache/assessment.json', assessment);
+  assert.throws(mark, /peaks/);
+  assert.equal(fs.readFileSync(path.join(setup.root, 'docs/reviews/combat.json'), 'utf8'), before);
+  assessment.peaks = { ...assessment.profile, status: 'pending' };
+  setup.put('.cache/assessment.json', assessment);
+  assert.throws(mark, /peaks/);
+  assessment.peaks.status = 'not-applicable';
+  assessment.peaks.note = '已核统计无高值月份可作代表，保留如实画像';
+  assessment.narrative.evidence = assessment.profile.evidence;
+  setup.put('.cache/assessment.json', assessment);
+  assert.throws(mark, /本人的正文/);
+  assessment.narrative.evidence = [{ file: 'src/people/demo/demo.md', contains: '不存在的采用段落' }];
+  setup.put('.cache/assessment.json', assessment);
+  assert.throws(mark, /规则定位必须唯一/);
+  assessment.narrative.evidence[0].contains = '工业人物';
+  setup.put('.cache/assessment.json', assessment);
+  mark();
+  setup.put('src/people/demo/demo.md', '工业人物。新增会影响画像的经历。');
+  assert.throws(() => setup.call('verify', 'person:demo'), /stale/);
+});
+
+test('旧版总说明不能冒充逐项完成；verify逐个核对象和功能，证据禁止越界', t => {
+  const setup = fixture(t);
+  setup.mark();
+  const assessment = combatChecks(setup);
+  assert.throws(() => setup.call('verify', 'person:demo'), /缺profile、alts、peaks、battles、narrative/);
+  const mark = () => setup.call('mark', 'person:demo', '--status', 'reviewed', '--note', '逐项核读完成', '--evidence', 'src/people/demo/materials-demo.md', '--assessment', '.cache/assessment.json');
+  assessment.profile.evidence = [{ file: '../outside.md', contains: '越界' }];
+  setup.put('.cache/assessment.json', assessment);
+  assert.throws(mark, /仓库内/);
+  assessment.profile.evidence = [{ file: 'src/people/demo/materials-demo.md', heading: '## 画像' }];
+  setup.put('.cache/assessment.json', assessment);
+  mark();
+  assert.throws(() => setup.call('verify', 'person:demo', 'person:other'), /person:other=unreviewed/);
+  assert.throws(() => setup.call('verify', 'person:missing'), /对象不存在/);
+  assert.throws(() => setup.call('verify', 'battle:test'), /不适用于/);
+  assert.throws(() => setup.call('verify'), /须指定/);
+  setup.mark('needs-work');
+  assert.throws(() => setup.call('verify', 'person:demo'), /needs-work/);
+});
+
+function writingChecks(t) {
+  const setup = fixture(t), body = 'src/people/demo/demo.md', material = 'src/people/demo/materials-demo.md';
+  const registry = JSON.parse(fs.readFileSync(path.join(setup.root, 'docs/review-features.json')));
+  registry['writing-depth'] = { kinds: ['person'], eventReview: true, pattern: '封号', rules: [{ file: 'docs/rules.md', heading: '## 样式' }], checks: { coverage: '素材覆盖', events: '事件发挥', balance: '全文分量' } };
+  setup.put('docs/review-features.json', registry);
+  setup.put(body, '::: 黑料 封号\n原本带队的总监宣布活动取消。\n好战的名片对上进不去游戏的账号。\n群员追问军团未来。\n:::\n');
+  setup.put(material, '# 素材\n## 封号\n本人宣布被封并取消活动。');
+  setup.put('docs/sources/extra.md', '# 原图摘录\n## 通知\n今晚活动取消，我号被封了。');
+  const assessment = {
+    coverage: { status: 'reviewed', note: '核过素材和全文，封号是唯一重事件', evidence: [{ file: material, heading: '## 封号' }] },
+    events: { status: 'reviewed', note: '逐事件对照', evidence: [{ file: body, contains: '原本带队' }], items: [{
+      title: '封号取消活动', weight: 'heavy', reason: '改变总监带队能力', source: { file: 'docs/sources/extra.md', heading: '## 通知' }, treatment: 'expanded', body: { file: body, contains: '原本带队' },
+      development: [['处境', '原本带队'], ['反差', '好战的名片'], ['反应与后果', '群员追问']].map(([angle, contains]) => ({ angle, note: `展开${angle}`, evidence: { file: body, contains } })),
+      verdict: 'sufficient', note: '通知到反差再到群员反应，各段有推进，无剩余关键情节',
+    }] },
+    balance: { status: 'reviewed', note: '重事成为正文主线', evidence: [{ file: body, contains: '好战的名片' }] },
+  };
+  const mark = () => {
+    setup.put('.cache/writing.json', assessment);
+    return setup.call('mark', 'person:demo', '--feature', 'writing-depth', '--status', 'reviewed', '--note', '逐件核完', '--evidence', material, '--assessment', '.cache/writing.json');
+  };
+  return { ...setup, body, material, assessment, mark };
+}
+
+test('writing review is independent of combat and cannot pass on word count or a general note', t => {
+  const s = writingChecks(t);
+  s.call('mark', 'person:demo', '--status', 'reviewed', '--note', '战斗通过', '--evidence', s.material);
+  assert.throws(() => s.call('verify', 'person:demo', '--feature', 'writing-depth'), /unreviewed/);
+  s.put(s.body, '很长的文章。'.repeat(2000));
+  assert.throws(() => s.call('mark', 'person:demo', '--feature', 'writing-depth', '--status', 'reviewed', '--note', '写了很多字', '--evidence', s.material), /缺少已完成的复查项/);
+  assert.equal(s.call('list', '--feature', 'writing-depth', '--signal', 'heavy-story-candidate').records[0].key, 'person:demo');
+});
+
+test('writing review rejects missing inventory, brief or omitted heavy events, and repeated development', t => {
+  const s = writingChecks(t), event = s.assessment.events.items[0];
+  const items = s.assessment.events.items;
+  delete s.assessment.events.items;
+  assert.throws(s.mark, /events.items/);
+  s.assessment.events.items = items;
+  for (const treatment of ['brief', 'omitted']) {
+    event.treatment = treatment;
+    assert.throws(s.mark, /重料未充分展开/);
+  }
+  event.treatment = 'expanded';
+  const development = event.development;
+  event.development = development.slice(0, 2);
+  assert.throws(s.mark, /至少三个/);
+  event.development = [development[0], development[0], development[2]];
+  assert.throws(s.mark, /不重复/);
+  event.development = development;
+  event.verdict = 'needs-work';
+  assert.throws(s.mark, /重料未充分展开/);
+});
+
+test('writing review rejects self-citation, title-only anchors and exempting the material check', t => {
+  const s = writingChecks(t), event = s.assessment.events.items[0];
+  const source = event.source;
+  event.source = event.body;
+  assert.throws(s.mark, /正文自证/);
+  event.source = source;
+  const evidence = event.development[0].evidence;
+  event.development[0].evidence = { file: s.body, contains: '::: 黑料' };
+  assert.throws(s.mark, /只有标题/);
+  event.development[0].evidence = evidence;
+  s.assessment.coverage.status = 'not-applicable';
+  assert.throws(s.mark, /不接受不适用/);
+});
+
+test('writing review tracks nested external sources and changed rules; rejected marks preserve the receipt', t => {
+  const s = writingChecks(t);
+  s.mark();
+  assert.equal(s.call('verify', 'person:demo', '--feature', 'writing-depth').verified[0].state, 'reviewed');
+  const receiptFile = path.join(s.root, 'docs/reviews/writing-depth.json'), before = fs.readFileSync(receiptFile, 'utf8');
+  s.assessment.events.items[0].development = [];
+  assert.throws(s.mark, /至少三个/);
+  assert.equal(fs.readFileSync(receiptFile, 'utf8'), before);
+  s.put('docs/sources/extra.md', '# 原图摘录\n## 通知\n更正发言人。');
+  assert.throws(() => s.call('verify', 'person:demo', '--feature', 'writing-depth'), /stale/);
+  s.put('docs/rules.md', '# 规则\n## 战斗\n战斗规范\n## 样式\n新的写作要求');
+  assert.equal(s.call('card', 'person:demo', '--feature', 'writing-depth').state, 'stale');
+});
+
+test('absence of heavy events requires an explicit reason, without forcing black material', t => {
+  const s = writingChecks(t);
+  s.assessment.events.items = [];
+  assert.throws(s.mark, /noHeavyReason/);
+  s.assessment.events.noHeavyReason = '已核素材中的封号是别人的遭遇，本人只有普通工业活动，无独立重事件';
+  s.mark();
+  assert.equal(s.call('verify', 'person:demo', '--feature', 'writing-depth').verified[0].state, 'reviewed');
+});

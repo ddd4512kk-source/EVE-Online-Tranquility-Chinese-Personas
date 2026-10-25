@@ -15,12 +15,13 @@ const HELP = `离线筛选现有 TSV 榜单或队列，不生成另一份状态�
 输出 JSON：columns 为表头，rows 为原表行数，total 为命中数，records 为当前页。
 需纯 JSON 时用 npm run --silent research:query -- ...。
 所有字段均保留为字符串，包括 ID、空值及原状态，不重算或升级状态。
+军团榜单与共享人物调查已迁至 docs/corporations/，用 npm run corporations -- --help 查询。
 列名错误、列数不齐或无效参数会报错；复杂事件、判断理由与阅读范围回原素材读取。
 
 示例：
-  npm run research:query -- docs/leads/corp-top-characters-2026-10-12.tsv --where corp_id=98190062 --where scope=all-time --limit 10
-  npm run research:query -- docs/leads/corp-top-characters-2026-10-12.tsv --where character_id=2113823279
-  npm run research:query -- docs/leads/corp-top-characters-2026-10-12.tsv "待查" --limit 5 --offset 5
+  npm run research:query -- docs/leads/dc-br-candidates-2026-10-12.tsv --where character_id=2118339639 --limit 10
+  npm run research:query -- docs/leads/dc-br-candidates-2026-10-12.tsv --where character_id=2115988005
+  npm run research:query -- docs/leads/dc-br-candidates-2026-10-12.tsv "待查" --limit 5 --offset 5
 `;
 
 export function queryTable(file, { query = '', where = [], limit = 20, offset = 0 } = {}) {

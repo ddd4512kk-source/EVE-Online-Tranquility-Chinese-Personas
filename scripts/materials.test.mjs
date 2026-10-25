@@ -41,7 +41,7 @@ test('从正式文件取得当前字段、小号和路径；缺素材不编路�
   const { root, put } = fixture(t);
   assert.equal(collectMaterials(root).length, 5);
   const summary = searchMaterials(root);
-  assert.deepEqual(summary.counts, { person: 1, battle: 1, source: 1, lead: 1, bilibili: 1 });
+  assert.deepEqual(summary.counts, { person: 1, battle: 1, source: 1, lead: 1, bilibili: 1, corporation: 0, character: 0 });
   assert.deepEqual(summary.records, []);
   for (const query of ['甲', 'test pilot', '旧称', '43', 'other pilot']) {
     assert.equal(searchMaterials(root, { query, kind: 'person' }).records[0].character_id, 42);
@@ -89,4 +89,25 @@ test('无效查询和损坏的正式档案明确报错，不静默当成没有�
   assert.throws(() => run(root, ['--limt', '1']), /未知选项/);
   put('src/people/demo/42-id.json', '{bad');
   assert.throws(() => searchMaterials(root), /42-id.json/);
+});
+
+test('军团ID、角色名与账号组昵称可直接定位结构化档案，不需要全文搜索', t => {
+  const { root, put } = fixture(t);
+  put('docs/corporations/123.json', { id: '123', names: ['Kuan.Dai.Shan', '宽带山'], rankings: [],
+    account_groups: [{ label: '林先登', character_ids: ['43'] }], references: ['docs/leads/not-admitted.md'] });
+  put('docs/corporations/characters/43.json', { version: 1, records: {
+    '43': { id: '43', names: ['Other Pilot'], labels: ['林先登'], profiles: [{ title: '中文头衔' }], evidence: ['docs/leads/not-admitted.md#范围'] },
+  } });
+  assert.equal(searchMaterials(root, { query: '123', kind: 'corporation' }).total, 1);
+  assert.equal(searchMaterials(root, { query: '宽带山', kind: 'corporation' }).total, 1);
+  assert.equal(searchMaterials(root, { query: '林先登', kind: 'character' }).records[0].person, 'demo');
+  assert.equal(searchMaterials(root, { query: '中文头衔', kind: 'character' }).total, 1);
+  assert.equal(searchMaterials(root, { query: 'other pilot', kind: 'character' }).records[0].material, 'src/people/demo/materials-demo.md');
+  assert.equal(searchMaterials(root, { query: 'other pilot', kind: 'character' }).records[0].archive, 'docs/corporations/characters/43.json');
+  put('docs/corporations/notes/members/123.md', '### 宽带山成员核读\n独有的旧搜索失败边界。');
+  const excerpt = searchMaterials(root, { query: '旧搜索失败', fullText: true, kind: 'source' });
+  assert.equal(excerpt.total, 1);
+  assert.equal(excerpt.records[0].material, 'docs/corporations/notes/members/123.md');
+  assert.equal(excerpt.records[0].title, '宽带山成员核读');
+  assert.equal(excerpt.records[0].match.line, 2);
 });

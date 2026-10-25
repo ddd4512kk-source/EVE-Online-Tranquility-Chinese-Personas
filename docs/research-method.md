@@ -17,6 +17,7 @@
 - 跨人物／战役查漏或规则变更复查，先按[增量复查](review-workflow.md)筛候选、读相关段落并检查旧结论是否失效，不先加载数百篇全文。
 - `npm run materials -- "人名／角色ID／事件词"` 定位正式档案与路径，搜素材正文加 `--full-text`。结果不代表已核读、事件成立或调查完成，具体依据沿结果中的 `material` 读取。追旧备注或别名才加 `--history`（冻结的旧索引），当前身份、收录与阅读状态仍回查正式档案。
 - 大榜单用 `npm run research:query -- <TSV路径> --where 列=值` 先筛再分页读，不整表加载、不另存状态副本。两个工具都离线，参数见各自 `--help`。
+- 军团用`npm run corporations -- list <名称或ID>`定位，`show <军团ID>`看已有口径与缺口，`members <军团ID> --scope monthly --period YYYY-MM`分页查历史月榜，`character <角色ID>`跨团复用调查。档案与状态只维护在[军团档案](corporations/README.md)，不按调查批次另建队列。
 - 跨平台身份用 `node scripts/person-identity.mjs <人物短名或角色ID>`；B站频道与作品用 `node scripts/bilibili-archive.mjs show <UID> [BV或图文key]`；术语用 `npm run glossary -- "词语"`。待认号与待撰事项沿[备忘录](pending-characters.md)及其原队列续查。
 
 ### 按增量安排下一步
@@ -82,9 +83,12 @@
 
 **先核服务器，再认人物和事件**（原则见内容规则第 2 节）。eve 吧只在已有具体欧服交集线索时才查；命中后先核吧名、正文所述服务器、事件时间、角色与战时组织。PIBC 等跨服沿用的组织名、“EVE”字样同样不能证明欧服，eve欧服吧里的国服回忆也要区分。
 
+- 先确认吧名；命中 EVE 手游吧按[内容规则第 2 节](content-rules.md#2-总方针宁收勿漏有线索就发挥)标【手游吧排除】并停止追查，旧队列同样适用。
 - 明确国服且无独立欧服交集的标【国服排除】，撤出待收录队列，留简短来源摘要防止重复误收。
 - 服务器不明的标【服务器待核】，不直接转为欧服人物故事；找不到欧服角色时，不把国服 ID 当中文外号。
 - 单方说法可以入料，但服务器与人物归属仍须对上。
+
+正式处理状态统一在[贴吧档案](tieba/README.md)：每帖一个JSON，扫描范围记`scans.json`。先用`npm run tieba -- list`或`show <帖号>`查询，读后更新人工范围、图片缺口、归档与下一步；不再另建日期命名的Markdown／TSV队列。旧冻结`inventory.json`只作抓取输入，不是正式处理台账。
 
 首选匿名客户端工具，不弹验证码：
 
@@ -96,7 +100,7 @@
 | 帖尾抽查 | `node scripts/research/tieba-client-read.mjs <帖子ID> <临时.json> 1 --reverse`；只看真正末页，不代表全帖完成 |
 | 建立回查清单 | `node scripts/research/tieba-review-inventory.mjs <临时目录>`；加 `--probe` 续跑首楼/末页抽查，初筛不算全文阅读 |
 | 断点续跑全文 | 原命令加 `--resume`，按同一 JSON 的覆盖记录跳过已完成主楼页和楼中楼，保留旧错误历史；帖号与顺序须与原文件一致 |
-| 更新覆盖清单 | `node scripts/research/tieba-review-status.mjs <临时目录> <覆盖.tsv>`，只导出帖号、引用文件、覆盖与错误，保留人工处理栏；请求成功不自动写为已读 |
+| 更新取得范围 | `node scripts/tieba-archive.mjs sync-cache <帖号> <临时.json>`；批量用 `node scripts/research/tieba-review-status.mjs <临时目录>`，只同步取得范围，不修改人工阅读结论 |
 | 长帖分段阅读 | `node scripts/research/tieba-client-dump.mjs <临时.json> --floors 31:60`，含对应楼中楼；按实际楼层记阅读范围，截断的终端输出不算已读 |
 | 按冻结清单补全文 | `node scripts/research/tieba-review-batch.mjs <临时目录> [本轮最多帖数]`，顺序跑，复用首尾与已完成全文，保留计数差，限流整批停止；抓取完成不代表人工通读 |
 | 某账号发帖列表 | `tieba-client-user.mjs <帖子.json> <用户名片段> [1主题\|0回帖]` |
@@ -218,6 +222,7 @@
 - **EveWho 前缀搜索**：`/autocomplete/<小写且 URL 编码的词根>`，取 `suggestions` 中 `data.type == character`。每类最多 10 项，满额记截断，只在预算内拆有线索的分支；不做错拼容错。接口见[公开源码](https://github.com/zKillboard/evewho/blob/master/www/controllers/autocomplete.js)。KB 自动补全可能漏掉无击杀的号。
 - **军团榜单反查**：从当前或相关历史军团的高 KM 榜选少量候选，读头衔和完整简介，与全站中文名、别名及素材对照，可能找到英文名不同的小号甚至主号。用 `api/stats/corporationID/<ID>/` 的 `topAllTime` 角色榜，别把近期 `topLists` 或有限榜单当全体成员。
 - **月份口径**：`/corporation/<ID>/top/` 默认当前月，`/top/year/<Y>/month/<M>/` 取指定月；`topAllTime` 不替代月榜，未标日期的 `topLists` 不推断为最近完整月。先看返回字段与数据类型，再记实际窗口、榜长、取得状态和已核身份；请求失败只留缺口。
+- **固定历史线索**：成员榜统一以Top 100为目标，具体历史月份优先。已有all-time榜永久复用，不校正排名、不刷新；旧前50只表示当时实际保存／核读范围，不能当作完整调查。缺名单与未查角色只留缺口，只有明确开展后续调查时才补，不因新年份、换会话或迁移自动补查。
 - **身份核对**：结合自报头衔、角色互链、相近名字与当前／历史同军团、时间重合判断；同批建号、同步入退团可加固对应，只有“FC”等常见头衔或同联盟不足以合并。退团不抹掉已建立的同人关系。
 - **补录**：同人的名字、ID、对应依据与来源按内容规则第 2 节写入身份档案与本人素材；发现主号时记择号依据。未对上、未查和失败分别留缺口，不另立小号传。
 
