@@ -18,4 +18,4 @@
 
 - 对应角色：看各人帖子截图里的角色名、头衔，或自报 ID。
 - 对上后用 `tieba-client-user.mjs` 列全部主题与回帖，按 research-method.md 必查清单取材。
-- 上表代表帖已在[贴吧回查清单](../tieba-review-inventory-2026-10-10.tsv)中取得全文（缓存 `.cache/tieba-review/<帖号>.json`），尚未人工通读；读时直接 dump 缓存，不重新抓取。
+- 上表代表帖已在[贴吧回查清单](../tieba/README.md)中取得全文（缓存 `.cache/tieba-review/<帖号>.json`），尚未人工通读；读时直接 dump 缓存，不重新抓取。

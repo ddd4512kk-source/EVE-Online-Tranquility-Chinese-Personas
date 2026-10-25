@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "thread_id": "8089335697",
+  "url": "https://tieba.baidu.com/p/8089335697",
+  "title": "我是咪咪，关于鸟门的事情我想我有必要解释一下",
+  "references": [
+    "src/people/homura-hikari/homura-hikari.md",
+    "src/people/homura-hikari/materials-homura-hikari.md",
+    "src/people/magicfai-rynew/materials-magicfai-rynew.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8089335697",
+        "初始引用文件": "src/people/magicfai-rynew/materials-magicfai-rynew.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "130",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "38",
+        "已取楼中楼": "91",
+        "楼中楼计数差": "7",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8089335697.json",
+    "fetched_at": "2026-10-10T12:40:54.118Z",
+    "main_posts": 38,
+    "subposts": 91,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      49
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 6,
+        "expected": 9,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 9,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 34,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -55,7 +55,7 @@
 
 ## 2021年9月AOM Monitor记录
 
-[同窗Monitor榜](https://zkillboard.com/alliance/99009082/top/year/2021/month/9/ship/45534/)Lv223第3、14条参与击杀。[KM95025769](https://zkillboard.com/kill/95025769/)展开全部驾驶员后核到Lv223、Monitor（45534）、Mango.／AOM；2021-09-09 15:32 UTC、4-BE0M，受害者Tristan Valley的长须鲸。本条补参与指挥依据，不指定总指挥，不把14条当14场。其他5名Monitor人物见[共用续查表](../../../docs/leads/aom-monthly-2021-09.md)。
+[同窗Monitor榜](https://zkillboard.com/alliance/99009082/top/year/2021/month/9/ship/45534/)Lv223第3、14条参与击杀。[KM95025769](https://zkillboard.com/kill/95025769/)展开全部驾驶员后核到Lv223、Monitor（45534）、Mango.／AOM；2021-09-09 15:32 UTC、4-BE0M，受害者Tristan Valley的长须鲸。本条补参与指挥依据，不指定总指挥，不把14条当14场。其他5名Monitor人物见[共用续查表](../../../docs/corporations/notes/aom-2021-09.md)。
 
 ## 2026-10-14：NoNo的协作署名与近况回应
 

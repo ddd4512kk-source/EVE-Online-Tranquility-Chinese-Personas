@@ -2,7 +2,7 @@
 
 ## 角色对应
 
-2026-10-24读取[ESI角色资料](https://esi.evetech.net/latest/characters/2115643725/)：Alero AraragiEro（2115643725），头衔“☜★大A★☞”，当前Setcreasea Pallida Corporation（98446928）、Fraternity（99003581）。既有[军团简介调查](../../../docs/leads/corp-descriptions-2026.md)已保存同名角色与ID；本轮头衔直接补上中文身份。“大A超市”为社区商号别称，不据此添加交易额、订单规模或买家评价。
+2026-10-24读取[ESI角色资料](https://esi.evetech.net/latest/characters/2115643725/)：Alero AraragiEro（2115643725），头衔“☜★大A★☞”，当前Setcreasea Pallida Corporation（98446928）、Fraternity（99003581）。既有[军团简介调查](../../../docs/corporations/notes/descriptions.md)已保存同名角色与ID；本轮头衔直接补上中文身份。“大A超市”为社区商号别称，不据此添加交易额、订单规模或买家评价。
 
 简介列出军团服务：化矿找Alero Poljus（2116102522），快递找Alero BararagiEro（2121155132）。两号ESI已读：前者同SETCR、头衔同为大A；后者当前军团98507124。本人简介直接挂号、名字同根，归入小号；不以快递号当前不同团否定这条服务对应。简介中的招新联系方式不归档。
 

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "purpose": "迁移来源校验；不是调查批次或人工状态表。",
+  "tables": [
+    {
+      "former_path": "docs/leads/corp-top-characters-2026-10-12.tsv",
+      "rows": 5486,
+      "sha256": "2b5c5ab0bc8ff7799066415eeb1e565bc762eec2107b6885350275a5e81074d7"
+    },
+    {
+      "former_path": "docs/leads/corp-monthly-characters-2026-09.tsv",
+      "rows": 4403,
+      "sha256": "b209d9728081c9408604f8d5a2fc6e69e7215f6cfda80f9a9002084a088115c6"
+    },
+    {
+      "former_path": "docs/leads/dc-goons-monthly-top-2026-10-12.tsv",
+      "rows": 400,
+      "sha256": "744c3d5b153c8173b21ebbffaf18a420c111afbe3f0bba4544f447a7ded4f551"
+    },
+    {
+      "former_path": "docs/leads/dc-goons-top20-intake-2026-10-12.tsv",
+      "rows": 80,
+      "sha256": "75b449f7faf4c7ed8c2b8196400a9f37562b456d735a70e7a5b57d151c40dccf"
+    },
+    {
+      "former_path": "docs/leads/kds-account-groups-2026-10-12.tsv",
+      "rows": 116,
+      "sha256": "677cb78261343594adac7dd5739b67859d010400f7ef68c88cda56e537b5bc4f"
+    },
+    {
+      "former_path": "docs/sources/corp-activity-2022-01.tsv",
+      "rows": 98,
+      "sha256": "a6a8d60bd46dc6e6ccb45fbabcd821df6cd66591dad2ec19be5e2225e83512a1"
+    }
+  ]
+}

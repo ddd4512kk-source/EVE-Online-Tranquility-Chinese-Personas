@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "thread_id": "10360382632",
+  "url": "https://tieba.baidu.com/p/10360382632",
+  "title": "刻板行为下的“爱国”闹剧与军团招募乱象",
+  "references": [
+    "docs/audit-review-pass-1.md",
+    "src/people/homura-hikari/materials-homura-hikari.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10360382632",
+        "初始引用文件": "docs/audit-review-pass-1.md;src/people/homura-hikari/materials-homura-hikari.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "10",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10360382632.json",
+    "fetched_at": "2026-10-10T14:33:14.741Z",
+    "main_posts": 10,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      13
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

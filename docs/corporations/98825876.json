@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "kind": "corporation",
+  "id": "98825876",
+  "names": [
+    "Wings Holding"
+  ],
+  "rankings": [
+    {
+      "scope": "all-time",
+      "period": null,
+      "target": 100,
+      "purpose": "hint",
+      "refresh": "never",
+      "source": "https://zkillboard.com/api/stats/corporationID/98825876/",
+      "captured_on": "2026-10-11",
+      "acquisition": {
+        "state": "partial",
+        "available_count": null,
+        "note": "旧文仅保存前十名；不刷新、不补缺。"
+      },
+      "references": [
+        "docs/corporations/notes/executors.md"
+      ],
+      "entries": [
+        {
+          "rank": 1,
+          "character_id": "2116157768",
+          "kills": "76",
+          "isk": "321.2B"
+        },
+        {
+          "rank": 2,
+          "character_id": "2113821509",
+          "kills": "70",
+          "isk": "32.2B"
+        },
+        {
+          "rank": 3,
+          "character_id": "2123601679",
+          "kills": "52",
+          "isk": "40.7B"
+        },
+        {
+          "rank": 4,
+          "character_id": "2121049270",
+          "kills": "38",
+          "isk": "9.7B"
+        },
+        {
+          "rank": 5,
+          "character_id": "2122884575",
+          "kills": "25",
+          "isk": "11.9B"
+        },
+        {
+          "rank": 6,
+          "character_id": "2116960661",
+          "kills": "22",
+          "isk": "35.5B"
+        },
+        {
+          "rank": 7,
+          "character_id": "2119503995",
+          "kills": "13",
+          "isk": "7.6B"
+        },
+        {
+          "rank": 8,
+          "character_id": "2124366030",
+          "kills": "7",
+          "isk": "1.5B"
+        },
+        {
+          "rank": 9,
+          "character_id": "2116001376",
+          "kills": "3",
+          "isk": "0.0B"
+        },
+        {
+          "rank": 10,
+          "character_id": "2123352757",
+          "kills": "1",
+          "isk": "0.0B"
+        }
+      ]
+    }
+  ],
+  "account_groups": [],
+  "observations": [
+    {
+      "kind": "executor",
+      "period": null,
+      "as_of": "2026-10-11",
+      "source": "docs/corporations/notes/executors.md",
+      "fields": {
+        "alliance_id": "99014783",
+        "corporation_name": "Wings Holding"
+      }
+    }
+  ],
+  "references": [
+    "docs/corporations/notes/executors.md"
+  ]
+}

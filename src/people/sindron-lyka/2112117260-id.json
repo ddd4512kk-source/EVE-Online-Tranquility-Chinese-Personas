@@ -78,7 +78,54 @@
   "fetched_at": "2026-10-08",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2122388020,
+        "name": "This is Azariel",
+        "sources": [
+          "materials-sindron-lyka.md#小号对应"
+        ],
+        "basis": "头衔胖虎，与Sindron lyka同属Night Garden；收录号简介指向本号，本号简介挂收录号KM。",
+        "zkb": {
+          "kills": 94,
+          "lost": 8,
+          "isk_destroyed": 353583756707,
+          "last_active": "2026-06",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2122444628,
+        "name": "Fax of Azariel",
+        "sources": [
+          "materials-sindron-lyka.md#小号对应"
+        ],
+        "basis": "与Sindron lyka同属Night Garden，头衔伟大的CEO-胖虎（奶妈版），简介指向This is Azariel。",
+        "zkb": {
+          "kills": 1,
+          "lost": 2,
+          "isk_destroyed": 119224567,
+          "last_active": "2025-06",
+          "as_of": "2026-10-25"
+        }
+      },
+      {
+        "id": 2122508430,
+        "name": "Azariel 02",
+        "sources": [
+          "materials-sindron-lyka.md#小号对应"
+        ],
+        "basis": "与This is Azariel、Fax of Azariel同词根、同属Night Garden，历史曾属The King of Azariel。"
+      },
+      {
+        "id": 2122445739,
+        "name": "King of Azariel",
+        "sources": [
+          "materials-sindron-lyka.md#小号对应"
+        ],
+        "basis": "与已对应的Azariel 02同词根，并在其2024-07入团时同属The King of Azariel；本号创建该团且现任CEO。"
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 1369,
@@ -98,7 +145,6 @@
       "00区",
       "低安",
       "D.C",
-      "HY-BB",
       "CEO"
     ]
   }

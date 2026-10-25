@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "thread_id": "9238605473",
+  "url": "https://tieba.baidu.com/p/9238605473",
+  "title": "frt里面有个叫汤圆，花40亿摸黑成员T出群",
+  "references": [
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md",
+    "src/people/tang-yuan/materials-tang-yuan.md",
+    "src/people/tang-yuan/tang-yuan.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9238605473",
+        "初始引用文件": "src/people/sirses/materials-sirses.md;src/people/sirses/sirses.md;src/people/tang-yuan/tang-yuan.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "31",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "16",
+        "楼中楼计数差": "4",
+        "人工处理": "15主楼16楼中楼4图已读；本人邮件对应Wibrik2021，税率版本差归档，差4",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9238605473.json",
+    "fetched_at": "2026-10-10T14:05:30.503Z",
+    "main_posts": 15,
+    "subposts": 16,
+    "floors": [
+      1,
+      8,
+      10,
+      11,
+      13,
+      14,
+      17,
+      18,
+      21,
+      33,
+      39,
+      40,
+      42,
+      44,
+      45
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 8,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 14,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

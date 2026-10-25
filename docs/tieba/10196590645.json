@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "thread_id": "10196590645",
+  "url": "https://tieba.baidu.com/p/10196590645",
+  "title": "难怪FRT联盟小小小管理员：汤圆R完跑路了",
+  "references": [
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md",
+    "src/people/tang-yuan/materials-tang-yuan.md",
+    "src/people/tang-yuan/tang-yuan.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10196590645",
+        "初始引用文件": "src/people/sirses/materials-sirses.md;src/people/sirses/sirses.md;src/people/tang-yuan/tang-yuan.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "29",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "13",
+        "已取楼中楼": "14",
+        "楼中楼计数差": "2",
+        "人工处理": "13主楼14楼中楼4图已读；匿名截图已鉴定为假，撤下汤圆指控，保留声望哥转发行为，差2",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10196590645.json",
+    "fetched_at": "2026-10-10T14:07:43.756Z",
+    "main_posts": 13,
+    "subposts": 14,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

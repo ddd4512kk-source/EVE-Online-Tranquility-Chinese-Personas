@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "thread_id": "8796582119",
+  "url": "https://tieba.baidu.com/p/8796582119",
+  "title": "新人无奈发声之——和翠云军团的故事",
+  "references": [
+    "src/people/shiliu-xiaoming/materials-shiliu-xiaoming.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8796582119",
+        "初始引用文件": "src/people/shiliu-xiaoming/materials-shiliu-xiaoming.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "226",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "70",
+        "已取楼中楼": "151",
+        "楼中楼计数差": "13",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8796582119.json",
+    "fetched_at": "2026-10-10T11:51:18.541Z",
+    "main_posts": 70,
+    "subposts": 151,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      50,
+      51,
+      53,
+      54,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      65,
+      66,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      80,
+      81
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 14,
+        "fetched": 11,
+        "error": null
+      },
+      {
+        "floor": 19,
+        "expected": 17,
+        "fetched": 10,
+        "error": null
+      },
+      {
+        "floor": 29,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 45,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 56,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

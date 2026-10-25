@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "thread_id": "8134049433",
+  "url": "https://tieba.baidu.com/p/8134049433",
+  "title": "关于老号补领新手链接的说明",
+  "references": [
+    "src/people/gipsydanger-066/materials-gipsydanger-066.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8134049433",
+        "初始引用文件": "src/people/gipsydanger-066/materials-gipsydanger-066.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "68",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "30",
+        "已取楼中楼": "36",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8134049433.json",
+    "fetched_at": "2026-10-10T13:24:45.135Z",
+    "main_posts": 30,
+    "subposts": 36,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 33,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

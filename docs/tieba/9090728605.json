@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "thread_id": "9090728605",
+  "url": "https://tieba.baidu.com/p/9090728605",
+  "title": "【Reddit转帖】帝国系CEO致冰岛人的公开信",
+  "references": [
+    "src/people/asher-elias/asher-elias.md",
+    "src/people/gobbins/gobbins.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9090728605",
+        "初始引用文件": "src/people/asher-elias/asher-elias.md;src/people/gobbins/gobbins.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "56",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "31",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9090728605.json",
+    "fetched_at": "2026-10-10T13:35:09.060Z",
+    "main_posts": 15,
+    "subposts": 31,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

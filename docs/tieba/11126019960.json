@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "thread_id": "11126019960",
+  "url": "https://tieba.baidu.com/p/11126019960",
+  "title": "慢报！帝华指挥暗枪带队出走DC，荣某称：系正常人员流动!?",
+  "references": [
+    "docs/sources/pla-dusk-departure-2026-10.md",
+    "src/people/nanjin/nanjin.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "text-read",
+    "read_at": "2026-10-25",
+    "notes": [
+      "17主楼、4楼中楼可见文字已读，正倒序各1页；第5楼六张图已读，第18楼图未读。",
+      "免职、正常人员流动与快点滚的截图补暗枪；12/23人为转述范围，没有逐人名单；Dotlan净增减不作同行人数。脚本与RMT猜测未采。"
+    ],
+    "evidence": [
+      "docs/sources/pla-dusk-departure-2026-10.md",
+      "src/people/nanjin/materials-nanjin.md"
+    ]
+  },
+  "published_date": "2026-10-22",
+  "discovery": {
+    "scan_id": "eve-eu-publish-2026-10-25",
+    "scope": "标题与首楼摘要已筛；不代表全帖已读"
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-new-20261025/11126019960.json",
+    "fetched_at": "2026-10-25T05:00:40.003Z",
+    "main_posts": 17,
+    "subposts": 4,
+    "floors": [
+      1,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

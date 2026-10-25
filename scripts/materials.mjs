@@ -3,13 +3,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
+import { readOrganizations, readCharacters, characterArchivePath } from './corporation-archive.mjs';
 
 export const HISTORY = 'docs/sources/material-index-legacy-2026-10-22.jsonl';
-const KINDS = ['person', 'battle', 'source', 'lead', 'bilibili'];
+const KINDS = ['person', 'battle', 'source', 'lead', 'bilibili', 'corporation', 'character'];
 const HELP = `离线定位已有材料；目录从正式档案按需生成，不另维护总表。
 
 用法：npm run materials -- [关键词] [选项]
-  --kind <类别>   person / battle / source / lead / bilibili
+  --kind <类别>   person / battle / source / lead / bilibili / corporation / character
   --full-text     另搜素材正文；必须有关键词，返回首个命中行号和短摘记
   --limit <数量>  每页最多返回条数，默认 20，必须为正整数
   --offset <数量> 跳过的命中数，默认 0，必须为非负整数
@@ -21,7 +22,8 @@ const HELP = `离线定位已有材料；目录从正式档案按需生成，不
 输出 JSON：counts 为分类数量，total 为命中总数，records 为当前页。
 需纯 JSON 时用 npm run --silent materials -- ...。
 人物取 <ID>-id.json，战役取同名 JSON 的 battle，来源／线索取 Markdown 标题与路径，
-B站取 docs/bilibili/<UID>.json；素材不存在时 material 为 null，不补造路径。
+B站取 docs/bilibili/<UID>.json；军团与共享角色取 docs/corporations/。
+军团榜单只作固定线索，旧阅读记录不覆盖当前人物身份；素材不存在时 material 为 null。
 结果只定位文件，不证明已经核读、事件成立或调查完成；沿 material 读取事件与依据。
 
 示例：
@@ -41,7 +43,11 @@ const read = (root, file) => fs.readFileSync(path.join(root, file), 'utf8');
 const exists = (root, file) => fs.existsSync(path.join(root, file));
 const names = (root, dir) => exists(root, dir) ? fs.readdirSync(path.join(root, dir)).sort() : [];
 const fold = value => String(value).normalize('NFKC').toLowerCase();
-const title = text => text.match(/^#\s+(.+)$/m)?.[1] ?? '';
+const title = text => text.match(/^#{1,6}\s+(.+)$/m)?.[1] ?? '';
+const markdownFiles = (root, directory) => names(root, directory).flatMap(name => {
+  const file = `${directory}/${name}`;
+  return fs.statSync(path.join(root, file)).isDirectory() ? markdownFiles(root, file) : file.endsWith('.md') ? [file] : [];
+});
 
 export function collectMaterials(root) {
   const records = [];
@@ -66,11 +72,9 @@ export function collectMaterials(root) {
       start: battle.start, end: battle.end, systems: battle.systems ?? [], body, archive,
       material: exists(root, `${directory}/materials-${slug}.md`) ? `${directory}/materials-${slug}.md` : null });
   }
-  for (const [directory, kind] of [['docs/sources', 'source'], ['docs/leads', 'lead']]) {
-    for (const file of names(root, directory)) {
-      if (!file.endsWith('.md')) continue;
-      const material = `${directory}/${file}`;
-      records.push({ kind, title: title(read(root, material)) || file, material });
+  for (const [directory, kind] of [['docs/sources', 'source'], ['docs/leads', 'lead'], ['docs/corporations/notes', 'source']]) {
+    for (const material of markdownFiles(root, directory)) {
+      records.push({ kind, title: title(read(root, material)) || path.basename(material), material });
     }
   }
   const people = new Map(records.filter(record => record.kind === 'person').map(record => [record.slug, record]));
@@ -81,6 +85,23 @@ export function collectMaterials(root) {
       identity_state: profile.identity?.state, label: profile.identity?.label, person: profile.identity?.person,
       ...(person ? { person_title: person.title, character_id: person.character_id, person_aliases: person.aliases } : {}),
       material: profile.identity?.material ?? null, archive });
+  }
+  const identities = new Map();
+  for (const person of people.values()) {
+    for (const id of [person.character_id, ...person.alts.map(alt => alt.id)]) identities.set(String(id), person);
+  }
+  for (const organization of readOrganizations(root)) {
+    records.push({ kind: 'corporation', corporation_id: organization.id, title: organization.names[0],
+      aliases: organization.names.slice(1), labels: organization.account_groups.map(group => group.label), archive: organization.archive,
+      material: organization.references.find(reference => reference.endsWith('.md')) ?? null });
+  }
+  for (const character of Object.values(readCharacters(root))) {
+    const person = identities.get(character.id);
+    const material = person?.material ?? character.evidence[0]?.split('#')[0] ?? null;
+    records.push({ kind: 'character', character_id: character.id, title: character.names[0], aliases: character.names.slice(1),
+      labels: character.labels, titles: [...new Set(character.profiles.map(profile => profile.title).filter(Boolean))],
+      person: person?.slug ?? null, archive: characterArchivePath(character.id),
+      material: material && exists(root, material) ? material : null });
   }
   return records;
 }

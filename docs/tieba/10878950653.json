@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "thread_id": "10878950653",
+  "url": "https://tieba.baidu.com/p/10878950653",
+  "title": "Co.Wa 宇宙流浪者招新｜7.5税，绝地大开发！",
+  "references": [
+    "src/people/cherrybone/cherrybone.md",
+    "src/people/cherrybone/materials-cherrybone.md",
+    "src/people/jiao-huang/jiao-huang.md",
+    "src/people/jiao-huang/materials-jiao-huang.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10878950653",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "170",
+        "主楼总页数": "4",
+        "主楼分页完成": "true",
+        "已取主楼": "98",
+        "已取楼中楼": "19",
+        "楼中楼计数差": "75",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "#2:2,3;#51:1",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10878950653",
+        "列表回复数": "142",
+        "标题": "Co.Wa 宇宙流浪者招新｜7.5税，绝地大开发！",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10878950653.json",
+    "fetched_at": "2026-10-10T16:12:00.865Z",
+    "main_posts": 98,
+    "subposts": 19,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      14,
+      16,
+      22,
+      27,
+      29,
+      33,
+      39,
+      41,
+      46,
+      51,
+      54,
+      58,
+      63,
+      73,
+      75,
+      78,
+      84,
+      85,
+      87,
+      94,
+      101,
+      103,
+      115,
+      119,
+      122,
+      123,
+      124,
+      143,
+      147,
+      155,
+      158,
+      160,
+      168,
+      175,
+      176,
+      180,
+      182,
+      185,
+      194,
+      196,
+      204,
+      205,
+      206,
+      209,
+      216,
+      225,
+      228,
+      230,
+      233,
+      234,
+      239,
+      244,
+      246,
+      254,
+      258,
+      263,
+      267,
+      274,
+      280,
+      289,
+      296,
+      306,
+      309,
+      310,
+      312,
+      313,
+      319,
+      349,
+      373,
+      376,
+      380,
+      390,
+      397,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      427,
+      437,
+      438,
+      445,
+      457
+    ],
+    "orders": {
+      "forward": {
+        "pages": 4,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "total_pages": 4,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 4,
+        "page_numbers": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "total_pages": 4,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 69,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 51,
+        "expected": 5,
+        "fetched": 0,
+        "error": null
+      },
+      {
+        "floor": 54,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 115,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

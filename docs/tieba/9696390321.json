@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "thread_id": "9696390321",
+  "url": "https://tieba.baidu.com/p/9696390321",
+  "title": "一个玩家七年的故事",
+  "references": [
+    "src/people/mumusan/materials-mumusan.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9696390321",
+        "初始引用文件": "src/people/mumusan/materials-mumusan.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "33",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "19",
+        "已取楼中楼": "14",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9696390321.json",
+    "fetched_at": "2026-10-10T14:02:49.850Z",
+    "main_posts": 19,
+    "subposts": 14,
+    "floors": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

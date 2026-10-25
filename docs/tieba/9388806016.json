@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "thread_id": "9388806016",
+  "url": "https://tieba.baidu.com/p/9388806016",
+  "title": "WC凛冬联盟群FRT兄弟会联盟旗下德莉莎工业集团招新",
+  "references": [
+    "src/people/qian-nian/materials-qian-nian.md",
+    "src/people/yun-sen/materials-yun-sen.md",
+    "src/people/yun-sen/yun-sen.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9388806016",
+        "初始引用文件": "src/people/qian-nian/materials-qian-nian.md;src/people/yun-sen/materials-yun-sen.md;src/people/yun-sen/yun-sen.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "48",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "38",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9388806016.json",
+    "fetched_at": "2026-10-10T13:44:04.278Z",
+    "main_posts": 10,
+    "subposts": 38,
+    "floors": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

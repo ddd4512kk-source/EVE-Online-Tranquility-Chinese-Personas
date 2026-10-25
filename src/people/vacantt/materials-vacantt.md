@@ -7,7 +7,7 @@
 - [EveWho](https://evewho.com/character/2123111027)：2025-01-25 建号，当天进 ChuangShi（98535868），至今未换团。联盟：Fraternity.（2025-01-25 – 2026-02-14）、Wings Freedom.（2026-02-16 至今）。
 - 简介：“Ciallo～(∠・ω< )⌒★”；“Good KM”栏：Bhaalgorn 129849486、Alligator 130050496、Hyperion 129851653、Curse 129863772、Rattlesnake 130776759；“Really Good KM”栏：Kronos 130247689、Paladin 129894687、Kronos 129826424、Paladin 130263093、Paladin 130344275、Orca 130367366、Golem 130586279；末尾书签夹“万古宝宝 万古宝宝(不收了)”，用途未核。KM 收藏只作已够格人物的补充，未逐条核本人在 KM 中的角色。
 - zKillboard（profile.mjs，2026-10-16）：击杀2353（907.1B），损失684（151.7B），单杀404；常用船 Proteus 470、Sacrilege 262、Loki 211、Vargur 185、Vagabond 163；常去 6Q-R50、1-SMEB、RCI-VL；击杀 ISK 最高月 202608 121.2B、202603 117.2B、202607 108.0B、202610 107.4B、202609 81.9B、202510 70.4B（FRT 期内最高）；损失最高月 202505 31.0B。
-- [ChuangShi 2026年9月月榜](../../../docs/leads/corp-monthly-characters-2026-09.tsv)第6，77次。
+- [ChuangShi 2026年9月月榜](../../../docs/corporations/README.md)第6，77次。
 - 凛冬论坛 Vacantt：无发帖。B站：名单无对应，待板块扫描。
 
 ## 万古哥（2019—2020）

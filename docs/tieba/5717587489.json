@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "thread_id": "5717587489",
+  "url": "https://tieba.baidu.com/p/5717587489",
+  "title": "新伊甸见闻录，述我在EVE经历过听到过的那些事儿！",
+  "references": [
+    "src/people/ka-diao/ka-diao.md",
+    "src/people/ka-diao/materials-ka-diao.md",
+    "src/people/napoleon-codie/materials-napoleon-codie.md",
+    "src/people/napoleon-codie/napoleon-codie.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5717587489",
+        "初始引用文件": "src/people/ka-diao/ka-diao.md;src/people/ka-diao/materials-ka-diao.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "12",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "2",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5717587489.json",
+    "fetched_at": "2026-10-10T14:31:08.384Z",
+    "main_posts": 10,
+    "subposts": 2,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

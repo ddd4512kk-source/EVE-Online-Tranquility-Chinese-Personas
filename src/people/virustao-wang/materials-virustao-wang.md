@@ -2,7 +2,7 @@
 
 收录角色2115847829。本日ESI头衔“赤翼-大炮是丈量国土面积”，当前BOP（98547771），简介有BOP冠希传电频道；不据频道文字认作冠希。R virustao（2115982767）、virustao shao（2121649568）同词根且出现在同一BOP九月榜，按同人小号处理。
 
-九月榜：收录号排3、228次参与击杀，R virustao排12、95次，virustao shao排92、6次；Monitor筛选为收录号3条，不是3场指挥。共用范围与[原榜](../../../docs/leads/dc-goons-monthly-top-2026-10-12.md)分别保留。
+九月榜：收录号排3、228次参与击杀，R virustao排12、95次，virustao shao排92、6次；Monitor筛选为收录号3条，不是3场指挥。共用范围与[原榜](../../../docs/corporations/notes/dc-goons-monthly.md)分别保留。
 
 [KM138726918](https://zkillboard.com/kill/138726918/)，2026-09-27 02:21 UTC，G-M4GK，k'dai的Lachesis。完整攻击者列表明确显示收录号、BOP、DC、Monitor（45534）、Domination Target Painter、伤害0；R virustao也在同场。原页面默认只显示部分驾驶员，已展开List all pilots核对，不把网页初始零命中当未参战。
 

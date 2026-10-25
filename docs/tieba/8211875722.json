@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "thread_id": "8211875722",
+  "url": "https://tieba.baidu.com/p/8211875722",
+  "title": "喜迎官方中文，给大家拜个早年啦！",
+  "references": [
+    "src/people/maria-taylor/maria-taylor.md",
+    "src/people/maria-taylor/materials-maria-taylor.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8211875722",
+        "初始引用文件": "src/people/maria-taylor/maria-taylor.md;src/people/maria-taylor/materials-maria-taylor.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "37",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "21",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8211875722.json",
+    "fetched_at": "2026-10-10T13:57:38.868Z",
+    "main_posts": 15,
+    "subposts": 21,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14,
+      15,
+      17,
+      18
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

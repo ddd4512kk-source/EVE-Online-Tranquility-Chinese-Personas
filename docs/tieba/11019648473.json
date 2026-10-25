@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "thread_id": "11019648473",
+  "url": "https://tieba.baidu.com/p/11019648473",
+  "title": "我发现一个现象 给我钱到现在就没超过5000万",
+  "references": [
+    "src/people/terranangel/materials-terranangel.md",
+    "src/people/terranangel/terranangel.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "11019648473",
+        "初始引用文件": "src/people/terranangel/materials-terranangel.md;src/people/terranangel/terranangel.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "113",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "22",
+        "已取楼中楼": "91",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/11019648473.json",
+    "fetched_at": "2026-10-10T12:54:38.533Z",
+    "main_posts": 22,
+    "subposts": 91,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23,
+      25
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

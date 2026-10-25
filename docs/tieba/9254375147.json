@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "thread_id": "9254375147",
+  "url": "https://tieba.baidu.com/p/9254375147",
+  "title": "叶落星海FC 青春吹牛贴",
+  "references": [
+    "docs/leads/tieba-sk-fc-replies.md",
+    "src/people/docter-hikanami/materials-docter-hikanami.md",
+    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "src/people/sk-mmmm/sk-mmmm.md",
+    "src/people/titan-acrad/materials-titan-acrad.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9254375147",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md;src/people/sk-mmmm/sk-mmmm.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "30",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "28",
+        "已取楼中楼": "2",
+        "楼中楼计数差": "0",
+        "人工处理": "28主楼2楼中楼20图已读；战报分组更正及日期冲突归档，青春／一剑／Acrad参战增补",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9254375147.json",
+    "fetched_at": "2026-10-10T14:07:02.605Z",
+    "main_posts": 28,
+    "subposts": 2,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

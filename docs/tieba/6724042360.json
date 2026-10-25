@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "thread_id": "6724042360",
+  "url": "https://tieba.baidu.com/p/6724042360",
+  "title": "婊一个彻头彻尾的社会渣——斗鱼可悲主播（法师虚竹）",
+  "references": [
+    "docs/leads/fa-shi-xu-zhu.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6724042360",
+        "初始引用文件": "docs/leads/fa-shi-xu-zhu.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "137",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "63",
+        "已取楼中楼": "74",
+        "楼中楼计数差": "0",
+        "人工处理": "国服事件，已排除；来源摘要保留",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6724042360.json",
+    "fetched_at": "2026-10-10T12:32:32.164Z",
+    "main_posts": 63,
+    "subposts": 74,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      69
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

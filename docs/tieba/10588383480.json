@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "thread_id": "10588383480",
+  "url": "https://tieba.baidu.com/p/10588383480",
+  "title": "来点干货——收割队新人FC指北",
+  "references": [
+    "src/people/lvte-xiao/lvte-xiao.md",
+    "src/people/lvte-xiao/materials-lvte-xiao.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10588383480",
+        "初始引用文件": "src/people/lvte-xiao/lvte-xiao.md;src/people/lvte-xiao/materials-lvte-xiao.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "41",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "36",
+        "已取楼中楼": "5",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10588383480.json",
+    "fetched_at": "2026-10-10T13:52:23.567Z",
+    "main_posts": 36,
+    "subposts": 5,
+    "floors": [
+      1,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

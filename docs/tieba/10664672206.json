@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "thread_id": "10664672206",
+  "url": "https://tieba.baidu.com/p/10664672206",
+  "title": "以前FRT出走的怯薛天团，现在近况如何？",
+  "references": [
+    "src/people/noraus/materials-noraus.md",
+    "src/people/sk-mmmm/materials-sk-mmmm.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10664672206",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "13",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "12",
+        "已取楼中楼": "1",
+        "楼中楼计数差": "0",
+        "人工处理": "已读12主楼1楼中楼文字，无图；怯薛分裂与在线说法归档，无角色不编人物事故",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10664672206.json",
+    "fetched_at": "2026-10-10T14:30:19.253Z",
+    "main_posts": 12,
+    "subposts": 1,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

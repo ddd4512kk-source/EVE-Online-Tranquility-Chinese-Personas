@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "thread_id": "10414531824",
+  "url": "https://tieba.baidu.com/p/10414531824",
+  "title": "龙骑的能进来下告诉下我心中的困惑",
+  "references": [
+    "src/people/hm-hongming/hm-hongming.md",
+    "src/people/hm-hongming/materials-hm-hongming.md",
+    "src/people/libxw/materials-libxw.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10414531824",
+        "初始引用文件": "src/people/hm-hongming/hm-hongming.md;src/people/hm-hongming/materials-hm-hongming.md;src/people/libxw/materials-libxw.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "78",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "32",
+        "已取楼中楼": "46",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10414531824.json",
+    "fetched_at": "2026-10-10T13:18:22.266Z",
+    "main_posts": 32,
+    "subposts": 46,
+    "floors": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23,
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      41,
+      44,
+      45
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 44,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

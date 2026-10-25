@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "thread_id": "10895010537",
+  "url": "https://tieba.baidu.com/p/10895010537",
+  "title": "关于账号规划，欢迎交流高见",
+  "references": [
+    "src/people/senri9067/materials-senri9067.md",
+    "src/people/senri9067/senri9067.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "text-read",
+    "notes": [
+      "17主楼12楼中楼文字已读，角色规划与荣耀旧话入文。"
+    ],
+    "read_at": "2026-10-25",
+    "evidence": [
+      "src/people/senri9067/materials-senri9067.md"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10895010537.json",
+    "fetched_at": "2026-10-25T05:04:08.959Z",
+    "main_posts": 17,
+    "subposts": 12,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  },
+  "discovery": {
+    "scan_id": "senri-topics-2026-10-25",
+    "scope": "本人主题目录入口，未读全文不升级状态"
+  }
+}

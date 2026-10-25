@@ -10,9 +10,9 @@
 
 ## 榜单与旧表
 
-咸鱼历史榜第13，966次参与击杀、约1.044T目标价值；sabersama第11、saberlv5第14，均为同军团历史榜，不相加为真人生涯总计。正式数值与范围沿[原队列](../../../docs/leads/corp-top-characters-2026-10-12.md)。
+咸鱼历史榜第13，966次参与击杀、约1.044T目标价值；sabersama第11、saberlv5第14，均为同军团历史榜，不相加为真人生涯总计。正式数值与范围沿[原队列](../../../docs/corporations/notes/member-research.md)。
 
-2022年一月活跃表第93行同名Salted Fish Inc、WAW，0活跃／6近期KM；表本身没有ID和负责人，不能据当前登记回填2022年CEO。表内同名实体、窗口和当时任职继续沿[旧团材料](../../../docs/leads/corp-activity-2022-01.md)保留，不由0活跃数字评价个人。
+2022年一月活跃表第93行同名Salted Fish Inc、WAW，0活跃／6近期KM；表本身没有ID和负责人，不能据当前登记回填2022年CEO。表内同名实体、窗口和当时任职继续沿[旧团材料](../../../docs/corporations/notes/historical-2022-01.md)保留，不由0活跃数字评价个人。
 
 ## 本次公开检索与缺口
 

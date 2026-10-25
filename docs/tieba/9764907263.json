@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "thread_id": "9764907263",
+  "url": "https://tieba.baidu.com/p/9764907263",
+  "title": "有谁知道，SG出走的新建的军团，和薛阙出走新建的团目前如何？",
+  "references": [
+    "docs/leads/tieba-sk-questions-replies.md",
+    "src/people/cyan-nomi/materials-cyan-nomi.md",
+    "src/people/hanbo-han/materials-hanbo-han.md",
+    "src/people/sk-mmmm/materials-sk-mmmm.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9764907263",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "10",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "已读10主楼0楼中楼文字，无图；SG与OADS说法留存，缩写未对应人物",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9764907263.json",
+    "fetched_at": "2026-10-10T14:34:07.553Z",
+    "main_posts": 10,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

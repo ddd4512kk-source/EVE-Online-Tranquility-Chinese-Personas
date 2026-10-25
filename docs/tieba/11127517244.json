@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "thread_id": "11127517244",
+  "url": "https://tieba.baidu.com/p/11127517244",
+  "title": "谁的科技漏了啊",
+  "references": [],
+  "legacy_records": [],
+  "review": {
+    "status": "partial",
+    "read_at": "2026-10-25",
+    "notes": [
+      "24主楼、0楼中楼可见文字已读；首楼与第23楼图片未读。",
+      "多条回复把10月22日伊什塔集中损失指为脚本，另有掉线解释；未附已核处罚或交易证明。不归为暗枪转团原因；待对照荣耀已有同日NPC损失材料及图片。"
+    ],
+    "evidence": [
+      "src/people/silvitni/materials-silvitni.md"
+    ]
+  },
+  "published_date": "2026-10-22",
+  "discovery": {
+    "scan_id": "eve-eu-publish-2026-10-25",
+    "scope": "标题与首楼摘要已筛；不代表全帖已读"
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-new-20261025/11127517244.json",
+    "fetched_at": "2026-10-25T05:11:02.778Z",
+    "main_posts": 24,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

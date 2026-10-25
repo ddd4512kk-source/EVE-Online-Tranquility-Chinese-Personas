@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "thread_id": "6447517908",
+  "url": "https://tieba.baidu.com/p/6447517908",
+  "title": "我记得上一个达成拉白或者红其他所有华人势力成就的还是PLA...",
+  "references": [
+    "src/people/mack-itinen/materials-mack-itinen.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6447517908",
+        "初始引用文件": "src/people/mack-itinen/materials-mack-itinen.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "29",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "21",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6447517908.json",
+    "fetched_at": "2026-10-10T14:08:16.815Z",
+    "main_posts": 8,
+    "subposts": 21,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

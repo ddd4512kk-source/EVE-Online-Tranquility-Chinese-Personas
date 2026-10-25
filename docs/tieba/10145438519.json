@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "thread_id": "10145438519",
+  "url": "https://tieba.baidu.com/p/10145438519",
+  "title": "qq表情第三弹上线啦",
+  "references": [
+    "src/people/khezu-knight/materials-khezu-knight.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10145438519",
+        "初始引用文件": "src/people/khezu-knight/materials-khezu-knight.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "10",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "6",
+        "已取楼中楼": "4",
+        "楼中楼计数差": "0",
+        "人工处理": "已读文字与楼中楼；夫鲁作品与求稿补素材，三图待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10145438519.json",
+    "fetched_at": "2026-10-10T14:33:05.530Z",
+    "main_posts": 6,
+    "subposts": 4,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

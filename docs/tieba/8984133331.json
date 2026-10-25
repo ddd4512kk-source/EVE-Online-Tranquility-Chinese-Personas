@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "thread_id": "8984133331",
+  "url": "https://tieba.baidu.com/p/8984133331",
+  "title": "抽象美区华人联盟之凌晨密谋打快递员",
+  "references": [
+    "src/people/van-007/materials-van-007.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8984133331",
+        "初始引用文件": "src/people/van-007/materials-van-007.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "58",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "27",
+        "已取楼中楼": "31",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8984133331.json",
+    "fetched_at": "2026-10-10T13:32:27.628Z",
+    "main_posts": 27,
+    "subposts": 31,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

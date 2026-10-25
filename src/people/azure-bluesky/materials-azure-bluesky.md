@@ -28,3 +28,7 @@
 - 角色 2114644820；狂热（12003）；战时 DC（联盟 99009163／军团 98645589）；损失者记录 1 条，代表 [KM 105137283](https://zkillboard.com/kill/105137283/)。
 - 角色 2114644820；太空舱（670）；战时 DC（联盟 99009163／军团 98645589）；损失者记录 1 条，代表 [KM 105137336](https://zkillboard.com/kill/105137336/)。
 - **红料 / KB，中**：[zKillboard](https://zkillboard.com/character/2114644820/) 生涯击杀 4045，约 2.26 万亿 ISK，八年损失约 561 亿；用得最多月刃指挥舰，600 多次。H-PA29 狂热参战见上，代表 [KM 105126979](https://zkillboard.com/kill/105126979/)。
+
+## 执行军团小号对应
+
+2026-10-25读取[CEO Stareine的ESI名片](https://esi.evetech.net/latest/characters/2115950585/?datasource=tranquility)及现有收录号名片，身份关系登记于本人档案。该号当前在SummerHall（98601548）／Dracarys.（99009163）；职务名牌仅说明本次观察，不倒推历任职务或旧事责任。

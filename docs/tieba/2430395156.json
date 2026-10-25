@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "thread_id": "2430395156",
+  "url": "https://tieba.baidu.com/p/2430395156",
+  "title": "",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "2430395156",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "请求失败",
+        "接口回复数": "",
+        "主楼总页数": "",
+        "主楼分页完成": "false",
+        "已取主楼": "0",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "350008: 该贴已被删除，请浏览其他贴子;350008: 该贴已被删除，请浏览其他贴子",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "2430395156",
+        "原帖": "https://tieba.baidu.com/p/3624406859",
+        "楼层": "29",
+        "来源位置": "主楼",
+        "状态": "首尾请求失败：350008: 该贴已被删除，请浏览其他贴子；保留引用，不当成无料"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/linked/2430395156.json",
+    "fetched_at": "2026-10-11T01:23:02.060Z",
+    "main_posts": 0,
+    "subposts": 0,
+    "floors": [],
+    "orders": {
+      "forward": {
+        "pages": 0,
+        "complete": false,
+        "page_numbers": []
+      },
+      "reverse": {
+        "pages": 0,
+        "complete": false
+      }
+    },
+    "subpost_gaps": [],
+    "errors": [
+      "350008: 该贴已被删除，请浏览其他贴子",
+      "350008: 该贴已被删除，请浏览其他贴子"
+    ]
+  }
+}

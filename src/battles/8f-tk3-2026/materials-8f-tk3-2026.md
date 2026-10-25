@@ -55,7 +55,7 @@
 
 236角色，损失3.425698B，48条损失记录。
 
-- [浩](../../src/people/teleportor/teleportor.md)：命中角色 704527521；舰船typeID 29340。无本窗口损失记录。
+- [浩](../../../docs/leads/teleportor.md)：命中角色 704527521；舰船typeID 29340。无本窗口损失记录。
 - [黑暗闪耀](../../src/people/dark-shines/dark-shines.md)：命中角色 1869573834；舰船typeID 45534。无本窗口损失记录。
 - [小黄人](../../src/people/jiao-huang/jiao-huang.md)：命中角色 2119497024；舰船typeID 29340。无本窗口损失记录。
 - [花花](../../src/people/cherrybone/cherrybone.md)：命中角色 2121993705；舰船typeID 29340。损失KM：[138911176](https://zkillboard.com/kill/138911176/)（typeID 29340，0.060B）。

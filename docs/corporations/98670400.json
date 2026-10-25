@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "kind": "corporation",
+  "id": "98670400",
+  "names": [
+    "We Love Cody"
+  ],
+  "rankings": [],
+  "account_groups": [],
+  "observations": [
+    {
+      "kind": "historical-activity",
+      "period": "2022-01",
+      "as_of": null,
+      "source": "docs/corporations/sources/activity-2022-01.json",
+      "fields": {
+        "table_order": "15",
+        "identity_status": "宁静精确同名ID已定位；2022任职待核"
+      }
+    }
+  ],
+  "references": [
+    "docs/corporations/notes/historical-2022-01.md"
+  ]
+}

@@ -8,4 +8,4 @@ RHG创建者兼长期CEO汉堡（Hanbo HAN／never left）已收录；2023年Tur
 
 2026-10-08百度RHG招新搜索遇安全验证，B站精确搜索未命中，贴吧8556717432未取回正文；2026-10-11再读显示可能删除。成功的Reddit内容已归汉堡，失败和组织桥接缺口保留，后续有具体新入口再补。
 
-2026-10-16本团名片新增pugb 2（2119305945），同词根、同Family Guy归[pugb双号](pugb.md)。该号仅绝念收藏，没有Turnur争论的新动作；最新公司ESI创建者与CEO均Cyan nomi，不由pugb名字或组织接续推CEO归属。
+2026-10-16本团名片新增pugb 2（2119305945），同词根、同Family Guy归[pugb双号](../corporations/characters/15.json)。该号仅绝念收藏，没有Turnur争论的新动作；最新公司ESI创建者与CEO均Cyan nomi，不由pugb名字或组织接续推CEO归属。

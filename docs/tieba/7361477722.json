@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "thread_id": "7361477722",
+  "url": "https://tieba.baidu.com/p/7361477722",
+  "title": "热情好客静寂谷之差不多得了",
+  "references": [
+    "src/people/kitakamile-l/materials-kitakamile-l.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7361477722",
+        "初始引用文件": "src/people/kitakamile-l/materials-kitakamile-l.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "45",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "21",
+        "已取楼中楼": "24",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7361477722.json",
+    "fetched_at": "2026-10-10T13:48:15.564Z",
+    "main_posts": 21,
+    "subposts": 24,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

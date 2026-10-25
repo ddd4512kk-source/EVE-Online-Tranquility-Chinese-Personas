@@ -1,6 +1,6 @@
 # 和风 / Jerry ZephyR
 
-角色2121586594。2026-10-12 ESI名字Jerry ZephyR，彩色头衔和风，DVH Industry／98749162、DC／99009163。公开军团简介曾列后勤执行部长，依据见[军团名号](corp-descriptions-2026.md)，不把名号表当本人具体功劳或持续任期。
+角色2121586594。2026-10-12 ESI名字Jerry ZephyR，彩色头衔和风，DVH Industry／98749162、DC／99009163。公开军团简介曾列后勤执行部长，依据见[军团名号](../corporations/notes/descriptions.md)，不把名号表当本人具体功劳或持续任期。
 
 ## 本轮新增素材
 

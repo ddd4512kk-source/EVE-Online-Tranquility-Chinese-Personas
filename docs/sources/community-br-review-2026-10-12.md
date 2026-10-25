@@ -82,7 +82,7 @@ R-AG7W 为单星系 24 小时包围战窗口，3,446 张 KM，含泰坦、超旗
 | [左手](../../src/people/rebirth-eve/rebirth-eve.md) | R-AG7W |
 | [小绿特](../../src/people/lvte-xiao/lvte-xiao.md) | R-AG7W |
 
-监视者反查：Garveen（2119220143）已归回慕容；Target Chaser（头衔少年，已归工程项目本人小号）、Coke Chen、Boo Me 的角色与监视者线索已在[DC／PLA 候选材料](../leads/dc-br-monthly-discovery-2026-10-12.md)登记，不重复建立待核页。其他仅有外语简介者不能凭 FRT、DC 或 Goons 旗号认作华人。本轮未扫尽所有联盟历史或全部小号。
+监视者反查：Garveen（2119220143）已归回慕容；Target Chaser（头衔少年，已归工程项目本人小号）、Coke Chen、Boo Me 的角色与监视者线索已在[DC／PLA 候选材料](../corporations/notes/dc-discovery.md)登记，不重复建立待核页。其他仅有外语简介者不能凭 FRT、DC 或 Goons 旗号认作华人。本轮未扫尽所有联盟历史或全部小号。
 
 2026-10-13人物增量：随风新对应小号Baba s Gandurasa，105128559永灭在H-PA29窗口内，补本人正文与素材。旧“25人”是当时核对数，不代表本次补漏后冻结总人数。
 

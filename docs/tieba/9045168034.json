@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "thread_id": "9045168034",
+  "url": "https://tieba.baidu.com/p/9045168034",
+  "title": "鸟哥二代目",
+  "references": [
+    "src/people/ctirx/ctirx.md",
+    "src/people/ctirx/materials-ctirx.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9045168034",
+        "初始引用文件": "src/people/ctirx/ctirx.md;src/people/ctirx/materials-ctirx.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "14",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "4",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9045168034.json",
+    "fetched_at": "2026-10-10T14:29:23.044Z",
+    "main_posts": 10,
+    "subposts": 4,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

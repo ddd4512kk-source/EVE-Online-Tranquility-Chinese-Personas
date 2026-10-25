@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "thread_id": "7768935212",
+  "url": "https://tieba.baidu.com/p/7768935212",
+  "title": "dc官方最新回应",
+  "references": [
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/gone-with-windy/materials-gone-with-windy.md",
+    "src/people/twilight-dracula/materials-twilight-dracula.md",
+    "src/people/twilight-dracula/twilight-dracula.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7768935212",
+        "初始引用文件": "src/people/gone-with-windy/gone-with-windy.md;src/people/gone-with-windy/materials-gone-with-windy.md;src/people/twilight-dracula/materials-twilight-dracula.md;src/people/twilight-dracula/twilight-dracula.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "128",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "42",
+        "已取楼中楼": "82",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7768935212.json",
+    "fetched_at": "2026-10-10T12:43:18.332Z",
+    "main_posts": 42,
+    "subposts": 82,
+    "floors": [
+      1,
+      3,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      46,
+      47,
+      48,
+      49,
+      51,
+      52
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 15,
+        "expected": 36,
+        "fetched": 35,
+        "error": null
+      },
+      {
+        "floor": 22,
+        "expected": 6,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

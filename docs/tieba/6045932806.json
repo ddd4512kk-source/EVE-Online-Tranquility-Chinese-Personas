@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "thread_id": "6045932806",
+  "url": "https://tieba.baidu.com/p/6045932806",
+  "title": "纯吐槽，不针对联盟在这里我不提联盟名字了，毕竟经过这件事情我",
+  "references": [
+    "docs/leads/tieba-phoenix-replies.md",
+    "docs/leads/warhawk-wh.md",
+    "src/people/ershuai-lee/ershuai-lee.md",
+    "src/people/ershuai-lee/materials-ershuai-lee.md",
+    "src/people/j0kk3rr/j0kk3rr.md",
+    "src/people/j0kk3rr/materials-j0kk3rr.md",
+    "src/people/sword-sun/materials-sword-sun.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "6045932806",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "首尾已取",
+        "接口回复数": "213",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "76",
+        "已取楼中楼": "115",
+        "楼中楼计数差": "11",
+        "人工处理": "已读76主楼115楼中楼文字；二甩及团长别开枪收录，1附图已读、11条计数缺口保留",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "6045932806",
+        "原帖": "https://tieba.baidu.com/p/5939986577",
+        "楼层": "227",
+        "来源位置": "主楼",
+        "状态": "现存文字已读；新人被踢事件，二甩及团长别开枪已收录，附图已读、删失缺口保留"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/linked/6045932806.json",
+    "fetched_at": "2026-10-11T01:11:17.617Z",
+    "main_posts": 76,
+    "subposts": 115,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      46,
+      47,
+      49,
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 46,
+        "expected": 8,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 47,
+        "expected": 13,
+        "fetched": 10,
+        "error": null
+      },
+      {
+        "floor": 64,
+        "expected": 47,
+        "fetched": 43,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

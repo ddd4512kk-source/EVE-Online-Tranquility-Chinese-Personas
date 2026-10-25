@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "thread_id": "9916902647",
+  "url": "https://tieba.baidu.com/p/9916902647",
+  "title": "说说我个人的欧服经历 以及个人澄清",
+  "references": [
+    "docs/leads/dc-fc-community-unmapped-2026-10-12.md",
+    "docs/sources/dc-goons-fc-research-2026-10-12.md",
+    "src/people/bvjnj/materials-bvjnj.md",
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/mordiggianking.md",
+    "src/people/qxlt4-14/materials-qxlt4-14.md",
+    "src/people/qxlt4-14/qxlt4-14.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9916902647",
+        "初始引用文件": "src/people/mordiggianking/materials-mordiggianking.md;src/people/mordiggianking/mordiggianking.md;src/people/qxlt4-14/materials-qxlt4-14.md;src/people/qxlt4-14/qxlt4-14.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "57",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "32",
+        "已取楼中楼": "25",
+        "楼中楼计数差": "0",
+        "人工处理": "已读32主楼25楼中楼；卡戎第一人称身份桥、毒蜥惊逃与紫电接班归档；AKN人物另存线索",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9916902647.json",
+    "fetched_at": "2026-10-10T13:34:09.449Z",
+    "main_posts": 32,
+    "subposts": 25,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      32,
+      33,
+      38,
+      46
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

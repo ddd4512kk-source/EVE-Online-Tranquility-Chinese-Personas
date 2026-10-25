@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "thread_id": "7370205897",
+  "url": "https://tieba.baidu.com/p/7370205897",
+  "title": "绝地孤儿又又又招新啦",
+  "references": [
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7370205897",
+        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "32",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "11",
+        "已取楼中楼": "21",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7370205897.json",
+    "fetched_at": "2026-10-10T14:04:02.000Z",
+    "main_posts": 11,
+    "subposts": 21,
+    "floors": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

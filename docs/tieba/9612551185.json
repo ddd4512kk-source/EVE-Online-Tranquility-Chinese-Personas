@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "thread_id": "9612551185",
+  "url": "https://tieba.baidu.com/p/9612551185",
+  "title": "FRT旗下AOC军团春季招新",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9612551185",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "497",
+        "主楼总页数": "10",
+        "主楼分页完成": "true",
+        "已取主楼": "20",
+        "已取楼中楼": "1",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "forward:5,9;reverse:9,5",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9612551185",
+        "列表回复数": "496",
+        "标题": "FRT旗下AOC军团春季招新",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9612551185.json",
+    "fetched_at": "2026-10-11T00:53:28.164Z",
+    "main_posts": 20,
+    "subposts": 1,
+    "floors": [
+      1,
+      2,
+      26,
+      28,
+      30,
+      61,
+      77,
+      80,
+      116,
+      118,
+      171,
+      181,
+      188,
+      192,
+      193,
+      200,
+      207,
+      213,
+      225,
+      275
+    ],
+    "orders": {
+      "forward": {
+        "pages": 10,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "total_pages": 10,
+        "complete": true,
+        "empty_pages": [
+          5,
+          9
+        ]
+      },
+      "reverse": {
+        "pages": 10,
+        "page_numbers": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "total_pages": 10,
+        "complete": true,
+        "empty_pages": [
+          9,
+          5
+        ]
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "thread_id": "6215896993",
+  "url": "https://tieba.baidu.com/p/6215896993",
+  "title": "喜提WC征服者一条",
+  "references": [
+    "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md",
+    "src/people/treenewbee-ribbons/treenewbee-ribbons.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6215896993",
+        "初始引用文件": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md;src/people/treenewbee-ribbons/treenewbee-ribbons.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "111",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "32",
+        "已取楼中楼": "75",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6215896993.json",
+    "fetched_at": "2026-10-10T12:56:02.662Z",
+    "main_posts": 32,
+    "subposts": 75,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      29,
+      30,
+      31,
+      32,
+      33,
+      38,
+      42,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 13,
+        "expected": 15,
+        "fetched": 11,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

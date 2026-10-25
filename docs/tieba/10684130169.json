@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "thread_id": "10684130169",
+  "url": "https://tieba.baidu.com/p/10684130169",
+  "title": "插播一条未经确认的消息，关于目前诡异的战局",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10684130169",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "185",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "37",
+        "已取楼中楼": "148",
+        "楼中楼计数差": "6",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10684130169",
+        "列表回复数": "184",
+        "标题": "插播一条未经确认的消息，关于目前诡异的战局",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10684130169.json",
+    "fetched_at": "2026-10-10T16:08:23.530Z",
+    "main_posts": 37,
+    "subposts": 148,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 15,
+        "fetched": 12,
+        "error": null
+      },
+      {
+        "floor": 7,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 19,
+        "fetched": 18,
+        "error": null
+      },
+      {
+        "floor": 22,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

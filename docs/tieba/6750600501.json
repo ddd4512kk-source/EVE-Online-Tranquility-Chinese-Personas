@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "thread_id": "6750600501",
+  "url": "https://tieba.baidu.com/p/6750600501",
+  "title": "Jita附近低安军团招新",
+  "references": [
+    "src/people/governor-lee/governor-lee.md",
+    "src/people/governor-lee/materials-governor-lee.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6750600501",
+        "初始引用文件": "src/people/governor-lee/governor-lee.md;src/people/governor-lee/materials-governor-lee.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "92",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "69",
+        "已取楼中楼": "17",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6750600501.json",
+    "fetched_at": "2026-10-10T13:08:02.488Z",
+    "main_posts": 69,
+    "subposts": 17,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 33,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

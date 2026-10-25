@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "thread_id": "9813539236",
+  "url": "https://tieba.baidu.com/p/9813539236",
+  "title": "eve星战前夜阿巴宗第六次护航，五次周旋堵门龙卷风",
+  "references": [
+    "src/people/gga-f/materials-gga-f.md",
+    "src/people/lightgod/materials-lightgod.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9813539236",
+        "初始引用文件": "src/people/gga-f/materials-gga-f.md;src/people/lightgod/materials-lightgod.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "2",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "2",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9813539236.json",
+    "fetched_at": "2026-10-10T14:38:50.924Z",
+    "main_posts": 2,
+    "subposts": 0,
+    "floors": [
+      1,
+      2
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "thread_id": "4541086214",
+  "url": "https://tieba.baidu.com/p/4541086214",
+  "title": "【欧服战场快报】华人首个大型堡垒上线",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "4541086214",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "首尾已取",
+        "接口回复数": "131",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "40",
+        "已取楼中楼": "63",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "#3;#4;#6;#8;#13;#15;#16;#19;#20;#26;#31;#32;#33;#36;#37;#39;#40;#43;#46;#47;#50;#55"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "4541086214",
+        "原帖": "https://tieba.baidu.com/p/3624406859",
+        "楼层": "30",
+        "来源位置": "主楼",
+        "状态": "首尾已取得；尚未人工核读，不能仅按标题筛选"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/linked/4541086214.json",
+    "fetched_at": "2026-10-11T01:14:35.950Z",
+    "main_posts": 40,
+    "subposts": 63,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      13,
+      15,
+      16,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      46,
+      47,
+      50,
+      52,
+      53,
+      55,
+      56,
+      59
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 16,
+        "expected": 8,
+        "fetched": 7,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

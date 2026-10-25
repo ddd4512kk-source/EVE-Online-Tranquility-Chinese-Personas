@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "thread_id": "7022408567",
+  "url": "https://tieba.baidu.com/p/7022408567",
+  "title": "话说当初sard和希尔瓦纳斯二个大团为什么离开RR啊",
+  "references": [
+    "src/people/clzd-miss-nerc/materials-clzd-miss-nerc.md",
+    "src/people/zhong-ma/materials-zhong-ma.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7022408567",
+        "初始引用文件": "src/people/clzd-miss-nerc/materials-clzd-miss-nerc.md;src/people/zhong-ma/materials-zhong-ma.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "42",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "24",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7022408567.json",
+    "fetched_at": "2026-10-10T13:51:56.879Z",
+    "main_posts": 15,
+    "subposts": 24,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      18
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 9,
+        "expected": 11,
+        "fetched": 10,
+        "error": null
+      },
+      {
+        "floor": 16,
+        "expected": 9,
+        "fetched": 8,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

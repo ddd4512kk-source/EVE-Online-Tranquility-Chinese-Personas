@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "thread_id": "6981055274",
+  "url": "https://tieba.baidu.com/p/6981055274",
+  "title": "冤冤相报何时了。",
+  "references": [
+    "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6981055274",
+        "初始引用文件": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "28",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "18",
+        "已取楼中楼": "9",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6981055274.json",
+    "fetched_at": "2026-10-10T14:09:16.115Z",
+    "main_posts": 18,
+    "subposts": 9,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      19,
+      20,
+      22,
+      24
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 13,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -8,7 +8,7 @@
 - [雇佣记录](https://esi.evetech.net/latest/characters/2123019905/corporationhistory/)：2025-01-01 进 PP → 2025-09-19 Family Guy.（98798876，F.GUY）→ 2026-03-15 Dusk dreadnought.（98817310，DUSK0，多米系）→ 2026-07-10 回 PP；中间几次短暂进 NPC 军团只作换团。PP 当前 CEO 为 Azika Gaptain（2113198680，“CEO 空离”），Director 头衔不等于 CEO。
 - **贴吧账号**：主页 portrait `tb.1.ad2787c1.90k0W_hjjfnWBrmLvwByTA`，profile 接口返回 UID 6048710164、原用户名“千喻千束”、展示名“贴吧用户_GXAZC6X”、昵称“山之内花音可爱捏”，吧龄约 4.2 年，eve欧服吧 7 级。主题 2 条（回帖列表 hide_post=1）。
 - **小号**：RoxyMGe（2123162301，2025-02-11 建号）、RoxyMGel（2123345431，2025-04-14 建号），ESI 头衔同为“Director山之内花音”，当前均在 PP；名字同词根加字母，判为本人小号。Dusk 历史榜分列第 94（106 次参与、约 35.9B）、第 62（168 次、约 53.5B）；各号统计不相加。
-- 已有线索：[corp-top-characters-2026-10-12](../../../docs/leads/corp-top-characters-2026-10-12.md) 第 991 行（Dusk 历史榜第 26、Family Guy 第 57）。
+- 已有线索：[Dusk军团档案](../../../docs/corporations/98817310.json)历史榜第 26、[Family Guy军团档案](../../../docs/corporations/98798876.json)第 57；核读摘记见[Dusk成员记录](../../../docs/corporations/notes/member-research/98817310.md)。
 
 ## 招新帖
 

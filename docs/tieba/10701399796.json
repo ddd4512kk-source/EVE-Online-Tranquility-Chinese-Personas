@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "thread_id": "10701399796",
+  "url": "https://tieba.baidu.com/p/10701399796",
+  "title": "无人机区华人军团-战斗姐妹修道院 >招新贴",
+  "references": [
+    "src/people/weiyunzhao/materials-weiyunzhao.md",
+    "src/people/weiyunzhao/weiyunzhao.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10701399796",
+        "初始引用文件": "src/people/weiyunzhao/materials-weiyunzhao.md;src/people/weiyunzhao/weiyunzhao.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "88",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "21",
+        "已取楼中楼": "67",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10701399796.json",
+    "fetched_at": "2026-10-10T13:12:04.999Z",
+    "main_posts": 21,
+    "subposts": 67,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      17,
+      18,
+      21,
+      24,
+      25,
+      26,
+      27,
+      29,
+      30
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 6,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 4,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

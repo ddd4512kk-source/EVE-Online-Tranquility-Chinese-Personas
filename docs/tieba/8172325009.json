@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "thread_id": "8172325009",
+  "url": "https://tieba.baidu.com/p/8172325009",
+  "title": "这个世界的戏剧就在于时间...",
+  "references": [
+    "src/people/mack-itinen/mack-itinen.md",
+    "src/people/mack-itinen/materials-mack-itinen.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8172325009",
+        "初始引用文件": "src/people/mack-itinen/mack-itinen.md;src/people/mack-itinen/materials-mack-itinen.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "204",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "47",
+        "已取楼中楼": "136",
+        "楼中楼计数差": "10",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8172325009.json",
+    "fetched_at": "2026-10-10T12:00:39.774Z",
+    "main_posts": 47,
+    "subposts": 136,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 6,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 15,
+        "expected": 28,
+        "fetched": 27,
+        "error": null
+      },
+      {
+        "floor": 18,
+        "expected": 23,
+        "fetched": 17,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 18,
+        "fetched": 17,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

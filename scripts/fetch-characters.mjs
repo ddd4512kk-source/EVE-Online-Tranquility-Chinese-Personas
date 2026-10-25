@@ -252,9 +252,10 @@ async function checkCorporationTags(people) {
   const names = readNames(ROOT);
   const snapshots = await Promise.all(people.map(async (p) =>
     expandSnapshot(JSON.parse(await fs.readFile(path.join(p.directory, characterFile(p.id)), "utf8")), names)));
-  const corporations = snapshots.map((c) => c.affiliation?.corporation).filter(Boolean);
+  const corporations = Object.values(names.corporations);
+  const alliances = Object.values(names.alliances);
   const errors = people.flatMap((p, i) =>
-    validateCorporationTags(p.tags, snapshots[i], corporations).map((e) => `${p.file}：${e}`));
+    validateCorporationTags(p.tags, snapshots[i], corporations, alliances).map((e) => `${p.file}：${e}`));
   if (errors.length) {
     console.error(errors.join("\n"));
     process.exit(1);

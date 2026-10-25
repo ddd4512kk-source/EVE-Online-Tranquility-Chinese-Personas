@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "thread_id": "9331178516",
+  "url": "https://tieba.baidu.com/p/9331178516",
+  "title": "贴吧诗人冬之国度微博言论大赏",
+  "references": [
+    "src/people/mack-itinen/materials-mack-itinen.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9331178516",
+        "初始引用文件": "src/people/mack-itinen/materials-mack-itinen.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "113",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "34",
+        "已取楼中楼": "79",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9331178516.json",
+    "fetched_at": "2026-10-10T12:55:09.172Z",
+    "main_posts": 34,
+    "subposts": 79,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      14,
+      15,
+      16,
+      18,
+      20,
+      23,
+      24,
+      26,
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 27,
+        "expected": 19,
+        "fetched": 15,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 32,
+        "fetched": 31,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

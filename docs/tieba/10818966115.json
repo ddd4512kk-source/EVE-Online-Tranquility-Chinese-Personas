@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "thread_id": "10818966115",
+  "url": "https://tieba.baidu.com/p/10818966115",
+  "title": "某精英联盟旗下精英军团40洛基打不过30狂热望周知",
+  "references": [
+    "src/people/ai-ruo/ai-ruo.md",
+    "src/people/ai-ruo/materials-ai-ruo.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10818966115",
+        "初始引用文件": "src/people/ai-ruo/ai-ruo.md;src/people/ai-ruo/materials-ai-ruo.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "25",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "14",
+        "已取楼中楼": "9",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10818966115.json",
+    "fetched_at": "2026-10-10T14:14:41.962Z",
+    "main_posts": 14,
+    "subposts": 9,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 9,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

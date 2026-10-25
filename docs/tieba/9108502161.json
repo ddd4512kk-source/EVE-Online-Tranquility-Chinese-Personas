@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "thread_id": "9108502161",
+  "url": "https://tieba.baidu.com/p/9108502161",
+  "title": "前排消息某族长秽土转生被连续强暴，嘴上说不收却不还被赠予的8E",
+  "references": [
+    "src/people/ctirx/ctirx.md",
+    "src/people/ctirx/materials-ctirx.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9108502161",
+        "初始引用文件": "src/people/ctirx/ctirx.md;src/people/ctirx/materials-ctirx.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "23",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "17",
+        "已取楼中楼": "6",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9108502161.json",
+    "fetched_at": "2026-10-10T14:17:19.783Z",
+    "main_posts": 17,
+    "subposts": 6,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      17,
+      18,
+      19
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 12,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

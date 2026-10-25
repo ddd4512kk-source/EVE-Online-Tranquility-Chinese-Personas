@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "kind": "corporation",
+  "id": "98601548",
+  "names": [
+    "SummerHall"
+  ],
+  "rankings": [
+    {
+      "scope": "all-time",
+      "period": null,
+      "target": 100,
+      "purpose": "hint",
+      "refresh": "never",
+      "source": "https://zkillboard.com/api/stats/corporationID/98601548/",
+      "captured_on": "2026-10-11",
+      "acquisition": {
+        "state": "partial",
+        "available_count": null,
+        "note": "旧文仅保存前十名；不刷新、不补缺。"
+      },
+      "references": [
+        "docs/corporations/notes/executors.md"
+      ],
+      "entries": [
+        {
+          "rank": 1,
+          "character_id": "2114825720",
+          "kills": "1830",
+          "isk": "1112.3B"
+        },
+        {
+          "rank": 2,
+          "character_id": "2113803780",
+          "kills": "1796",
+          "isk": "638.5B"
+        },
+        {
+          "rank": 3,
+          "character_id": "2113779998",
+          "kills": "1407",
+          "isk": "2999.2B"
+        },
+        {
+          "rank": 4,
+          "character_id": "93882790",
+          "kills": "1314",
+          "isk": "3620.9B"
+        },
+        {
+          "rank": 5,
+          "character_id": "2113100728",
+          "kills": "1104",
+          "isk": "1424.3B"
+        },
+        {
+          "rank": 6,
+          "character_id": "2114818738",
+          "kills": "1039",
+          "isk": "834.1B"
+        },
+        {
+          "rank": 7,
+          "character_id": "2116756372",
+          "kills": "531",
+          "isk": "1409.8B"
+        },
+        {
+          "rank": 8,
+          "character_id": "2115325500",
+          "kills": "64",
+          "isk": "963.4B"
+        },
+        {
+          "rank": 9,
+          "character_id": "2115325695",
+          "kills": "57",
+          "isk": "18.6B"
+        },
+        {
+          "rank": 10,
+          "character_id": "2115662048",
+          "kills": "52",
+          "isk": "8.0B"
+        }
+      ]
+    }
+  ],
+  "account_groups": [],
+  "observations": [
+    {
+      "kind": "executor",
+      "period": null,
+      "as_of": "2026-10-11",
+      "source": "docs/corporations/notes/executors.md",
+      "fields": {
+        "alliance_id": "99009163",
+        "corporation_name": "SummerHall"
+      }
+    }
+  ],
+  "references": [
+    "docs/corporations/notes/executors.md"
+  ]
+}

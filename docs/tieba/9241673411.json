@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "thread_id": "9241673411",
+  "url": "https://tieba.baidu.com/p/9241673411",
+  "title": "汤圆是FRT联盟管理，自掏40亿威胁和踢掉联盟成员的事情经过",
+  "references": [
+    "src/people/koko1-k/materials-koko1-k.md",
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9241673411",
+        "初始引用文件": "src/people/koko1-k/materials-koko1-k.md;src/people/sirses/materials-sirses.md;src/people/sirses/sirses.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "28",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "14",
+        "已取楼中楼": "15",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9241673411.json",
+    "fetched_at": "2026-10-10T14:10:45.457Z",
+    "main_posts": 14,
+    "subposts": 15,
+    "floors": [
+      1,
+      7,
+      21,
+      26,
+      31,
+      32,
+      37,
+      40,
+      41,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 37,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

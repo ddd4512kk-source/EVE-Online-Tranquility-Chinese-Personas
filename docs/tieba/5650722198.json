@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "thread_id": "5650722198",
+  "url": "https://tieba.baidu.com/p/5650722198",
+  "title": "唉～深夜睡不着来水两句",
+  "references": [
+    "src/people/ai-ruo/ai-ruo.md",
+    "src/people/ai-ruo/materials-ai-ruo.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5650722198",
+        "初始引用文件": "src/people/ai-ruo/ai-ruo.md;src/people/ai-ruo/materials-ai-ruo.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "18",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "3",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5650722198.json",
+    "fetched_at": "2026-10-10T14:23:54.647Z",
+    "main_posts": 15,
+    "subposts": 3,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      16,
+      17,
+      18,
+      19
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

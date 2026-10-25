@@ -4,6 +4,12 @@
 
 2026-10-12 ESI：qwquqaq（2117312483），公开中文头衔“阙”，Stardust-Guardian/98550682、Fraternity./99003581。星尘高KM榜首批十人中的第十名；沿已有监视者样本反查，不与天空纸条因同团同船型合并。尚未取得与“薛阙”或“阙沫”的身份桥，不据近名归并，也不加入其争议。角色有中文头衔、完整公开自述与参战记录，可独立写短传。
 
+### tommyshelby001小号
+
+2026-10-25通过[ESI角色接口](https://esi.evetech.net/latest/characters/2117061232/?datasource=tranquility)读取完整名片；角色名tommyshelby001，公开头衔“阙”，军团98550682、联盟99003581。对应关系已登记本人身份档案。简介只有两张击杀收藏：powerbottom的马克瑞（98992329）及Thormack Odins'son的神示（98459951），本次未读完整KM，不据收藏认定本人战果。
+
+2026-06-21 Akkio完整KM样本中的[136440812](https://zkillboard.com/kill/136440812/)记录该号驾驶Monitor（45534），战时同属星尘／FRT；原待归属指挥号现归本人，本场指挥依据随小号一并归档，不推定全场总指挥。
+
 ## 参战
 
 复用已有Lantorn样本[KM127954038](https://zkillboard.com/kill/127954038/)，2025-06-17T21:35:32Z，attackers中的qwquqaq驾驶Monitor（45534），corp98550682/alliance99003581；CCP同场总损失3.2T。只据船型写参与指挥，不写总指挥与个人输出。

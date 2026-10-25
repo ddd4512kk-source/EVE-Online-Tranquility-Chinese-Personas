@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "thread_id": "5709794073",
+  "url": "https://tieba.baidu.com/p/5709794073",
+  "title": "一图流，大新闻",
+  "references": [
+    "src/people/yinhun-lrd/materials-yinhun-lrd.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5709794073",
+        "初始引用文件": "src/people/yinhun-lrd/materials-yinhun-lrd.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "26",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "13",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5709794073.json",
+    "fetched_at": "2026-10-10T14:12:15.549Z",
+    "main_posts": 10,
+    "subposts": 13,
+    "floors": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      13,
+      14,
+      15
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 14,
+        "expected": 9,
+        "fetched": 8,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

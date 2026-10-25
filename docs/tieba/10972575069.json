@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "thread_id": "10972575069",
+  "url": "https://tieba.baidu.com/p/10972575069",
+  "title": "钝评泰坦定金事件",
+  "references": [
+    "src/people/renard42/materials-renard42.md",
+    "src/people/renard42/renard42.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10972575069",
+        "初始引用文件": "src/people/renard42/materials-renard42.md;src/people/renard42/renard42.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "186",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "30",
+        "已取楼中楼": "156",
+        "楼中楼计数差": "11",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10972575069.json",
+    "fetched_at": "2026-10-10T12:09:07.803Z",
+    "main_posts": 30,
+    "subposts": 156,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      20,
+      21,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 29,
+        "fetched": 20,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 31,
+        "expected": 21,
+        "fetched": 20,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

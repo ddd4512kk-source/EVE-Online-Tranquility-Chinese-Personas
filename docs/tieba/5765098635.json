@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "thread_id": "5765098635",
+  "url": "https://tieba.baidu.com/p/5765098635",
+  "title": "这位被 种马 骂的兄弟，你过来。",
+  "references": [
+    "src/people/zhong-ma/materials-zhong-ma.md",
+    "src/people/zhong-ma/zhong-ma.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5765098635",
+        "初始引用文件": "src/people/zhong-ma/materials-zhong-ma.md;src/people/zhong-ma/zhong-ma.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "42",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "22",
+        "已取楼中楼": "18",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5765098635.json",
+    "fetched_at": "2026-10-10T13:51:29.361Z",
+    "main_posts": 22,
+    "subposts": 18,
+    "floors": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      24,
+      25,
+      26,
+      27
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 15,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

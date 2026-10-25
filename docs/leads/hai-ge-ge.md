@@ -21,7 +21,7 @@ ESI 此次取得 Star Sea Sun／95683615，现为无联盟的退团状态，未�
 
 ## AOM 2021年9月榜入口
 
-[当月榜单与Monitor队列](aom-monthly-2021-09.md)已取得角色榜100行、Monitor榜6人。Star Sea Sun／95683615未在前100出现；不因此排除本人，亦不把5名未归属Monitor驾驶员猜作海哥哥。新的中文人物与角色归属桥仍待补。
+[当月榜单与Monitor队列](../corporations/notes/aom-2021-09.md)已取得角色榜100行、Monitor榜6人。Star Sea Sun／95683615未在前100出现；不因此排除本人，亦不把5名未归属Monitor驾驶员猜作海哥哥。新的中文人物与角色归属桥仍待补。
 
 ## 2026-10-14：NoNo的活动近况回应
 

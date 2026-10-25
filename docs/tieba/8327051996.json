@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "thread_id": "8327051996",
+  "url": "https://tieba.baidu.com/p/8327051996",
+  "title": "论frt罪行",
+  "references": [
+    "src/people/cyan-nomi/materials-cyan-nomi.md",
+    "src/people/the-mittani/the-mittani.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8327051996",
+        "初始引用文件": "src/people/the-mittani/the-mittani.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "59",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "42",
+        "楼中楼计数差": "11",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8327051996.json",
+    "fetched_at": "2026-10-10T13:30:56.728Z",
+    "main_posts": 15,
+    "subposts": 42,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 12,
+        "fetched": 7,
+        "error": null
+      },
+      {
+        "floor": 6,
+        "expected": 15,
+        "fetched": 12,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 21,
+        "fetched": 20,
+        "error": null
+      },
+      {
+        "floor": 14,
+        "expected": 5,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "thread_id": "10961139136",
+  "url": "https://tieba.baidu.com/p/10961139136",
+  "title": "声望哥1人打死FRT叶落星海2351人嘴炮团50亿",
+  "references": [
+    "src/people/sirses/materials-sirses.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10961139136",
+        "初始引用文件": "src/people/sirses/materials-sirses.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "5",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "5",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "已读全部文字；核对本人更正为90亿及外部支持，8张附图待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10961139136.json",
+    "fetched_at": "2026-10-10T14:37:25.372Z",
+    "main_posts": 5,
+    "subposts": 0,
+    "floors": [
+      1,
+      11,
+      13,
+      15,
+      16
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

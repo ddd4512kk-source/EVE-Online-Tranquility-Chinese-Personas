@@ -83,3 +83,7 @@
 - zKillboard：7605 击杀、3413.9B，526 损失、98.1B；常用马克瑞、缪宁、希尔博拉斯、涅斯托。Keepstar：2024-08-03 U-QVWD（Pandemic Horde，247.8B，3182 攻击者）；2024-11-10 GPUS-A（STAKAN UNIVERSE，262.7B，1716 攻击者）；2021-08-15 8QT-H4（Pandemic Horde，146.8B）；另有 2022-01、2025-03 两座 Tatara；2020-12-23 E-VKJV 勒维亚坦（Fraternity. 一方，95.1B，126 攻击者）。
 - 战役参与：M2-XFE 首战 [KM 89616714](https://zkillboard.com/kill/89616714/)（神示）；A1-AUH [KM 95187540](https://zkillboard.com/kill/95187540/)（净化，2021-09）；H-PA29 2022-12-03（大型约 413.16B）[KM 105131985](https://zkillboard.com/kill/105131985/)（剑齿虎，DC 一方）；塔夫 2026-02-22：[泽尼塔 133568059](https://zkillboard.com/kill/133568059/)（mumusan Chen）、[狂暴级舰队型 133567901](https://zkillboard.com/kill/133567901/)（dear mumusan）。
 - **红料 / Keepstar 战果，中**：2024-08 U-QVWD Pandemic Horde Keepstar（三千多人围攻）；2024-11 GPUS-A Keepstar（近两千人）；2021-08 8QT-H4 Pandemic Horde Keepstar；另有两座 Tatara；2020-12 E-VKJV 勒维亚坦，与卖手同场。
+
+## 执行军团小号对应
+
+2026-10-25读取[Heguy Inventor的ESI名片](https://esi.evetech.net/latest/characters/2115200974/?datasource=tranquility)及现有收录号名片，身份关系登记于本人档案。该号当前在SummerHall（98601548）／Dracarys.（99009163）；职务名牌仅说明本次观察，不倒推历任职务或旧事责任。

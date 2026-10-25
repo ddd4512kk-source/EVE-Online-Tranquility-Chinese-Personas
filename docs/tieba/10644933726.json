@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "thread_id": "10644933726",
+  "url": "https://tieba.baidu.com/p/10644933726",
+  "title": "SGCN有点可惜",
+  "references": [
+    "docs/sources/sgcn-dread-discipline-2026.md",
+    "src/people/bingxuan-123/bingxuan-123.md",
+    "src/people/homura-hikari/homura-hikari.md",
+    "src/people/noraus/noraus.md",
+    "src/people/yoluhaluka-ga/yoluhaluka-ga.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10644933726",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "315",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "66",
+        "已取楼中楼": "237",
+        "楼中楼计数差": "17",
+        "人工处理": "关键公告、游戏相关主楼及9/10/43/55/62/63回复已核；四篇补料；全部五组图已核，余回复待核",
+        "当前错误": "无",
+        "楼中楼空页": "#9:2;#10:3",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10644933726",
+        "列表回复数": "316",
+        "标题": "SGCN有点可惜",
+        "人工处理": "关键公告与游戏相关回复已补N老板、冰轩、GA、冷剑；全部五组图已核，其余回复待核，见SGCN共享摘要"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10644933726.json",
+    "fetched_at": "2026-10-10T15:52:02.421Z",
+    "main_posts": 66,
+    "subposts": 237,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      26,
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      47,
+      48,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      67,
+      68,
+      71,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 28,
+        "fetched": 24,
+        "error": null
+      },
+      {
+        "floor": 3,
+        "expected": 42,
+        "fetched": 41,
+        "error": null
+      },
+      {
+        "floor": 9,
+        "expected": 32,
+        "fetched": 30,
+        "error": null
+      },
+      {
+        "floor": 10,
+        "expected": 61,
+        "fetched": 58,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 5,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 34,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 44,
+        "expected": 6,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 63,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

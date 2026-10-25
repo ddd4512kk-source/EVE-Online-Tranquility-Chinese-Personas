@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "thread_id": "10258617353",
+  "url": "https://tieba.baidu.com/p/10258617353",
+  "title": "【DC旗下 00/任务区 全时区招新】黄泉八号不限时开放！",
+  "references": [
+    "docs/sources/yomi-eight-recruitment-2025.md",
+    "src/people/choice-of-fate/choice-of-fate.md",
+    "src/people/choice-of-fate/materials-choice-of-fate.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10258617353",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "255",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "27",
+        "已取楼中楼": "228",
+        "楼中楼计数差": "0",
+        "人工处理": "可见文字及13图均读，黄泉八号=Qui tacet consentit；本人夜鹰/兀鹫和虫洞建筑经历补Choice Of Fate，招新作者待对应",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10258617353",
+        "列表回复数": "254",
+        "标题": "【DC旗下 00/任务区 全时区招新】黄泉八号不限时开放！",
+        "人工处理": "可见文字及13图均读，黄泉八号=Qui tacet consentit；本人夜鹰/兀鹫和虫洞建筑经历补Choice Of Fate，招新作者待对应"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10258617353.json",
+    "fetched_at": "2026-10-10T15:55:36.911Z",
+    "main_posts": 27,
+    "subposts": 228,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

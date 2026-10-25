@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "thread_id": "8656092622",
+  "url": "https://tieba.baidu.com/p/8656092622",
+  "title": "号外号外dc走私被德里克悍匪摸了一泰坦一归魂",
+  "references": [
+    "docs/sources/hed-gp-incident-2023.md",
+    "src/people/gongcheng-xiangmu/gongcheng-xiangmu.md",
+    "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8656092622",
+        "初始引用文件": "src/people/gongcheng-xiangmu/gongcheng-xiangmu.md;src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "24",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "12",
+        "楼中楼计数差": "2",
+        "人工处理": "已人工通读可见10主楼及12楼中楼；2楼层未齐",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8656092622.json",
+    "fetched_at": "2026-10-10T14:16:03.566Z",
+    "main_posts": 10,
+    "subposts": 12,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 5,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "thread_id": "9218435760",
+  "url": "https://tieba.baidu.com/p/9218435760",
+  "title": "神奇而又遵守诺言的军团(避雷)",
+  "references": [
+    "docs/sources/eastern-sword-welfare-dispute-2024.md",
+    "src/people/caijiliunian/caijiliunian.md",
+    "src/people/caijiliunian/materials-caijiliunian.md",
+    "src/people/niepan-luobo/materials-niepan-luobo.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9218435760",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "140",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "36",
+        "已取楼中楼": "91",
+        "楼中楼计数差": "7",
+        "人工处理": "原帖可见文字及六图已读；流年立传，回应帖15图/后段楼中楼待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9218435760",
+        "列表回复数": "139",
+        "标题": "神奇而又遵守诺言的军团(避雷)",
+        "人工处理": "原帖可见文字和六图已核，流年立传；双方说法归共用摘要，回应帖15图/后段楼中楼及馆长角色待核"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9218435760.json",
+    "fetched_at": "2026-10-10T16:19:15.515Z",
+    "main_posts": 36,
+    "subposts": 91,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 8,
+        "fetched": 7,
+        "error": null
+      },
+      {
+        "floor": 9,
+        "expected": 7,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 11,
+        "expected": 8,
+        "fetched": 7,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 25,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

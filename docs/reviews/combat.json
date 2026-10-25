@@ -79,6 +79,100 @@
     "inputs": "f5aa36627e7443e56db1e2dc37fb7518f705949f23547244dfef2225aa9e73cb",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
   },
+  "person:cold-sin": {
+    "status": "reviewed",
+    "note": "逐项核读调查覆盖与正文采用，常规舰队画像和希瑟伊德续战已入文；保留教学主线。",
+    "evidence": [
+      "src/people/cold-sin/materials-cold-sin.md",
+      "src/people/cold-sin/cold-sin.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "主号5282击杀、常用常规舰与损失已核，写作定位舰队常客，不归为FC。",
+        "evidence": [
+          {
+            "file": "src/people/cold-sin/materials-cold-sin.md",
+            "heading": "## 游戏画像与已有战役"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "已核Lone Heart的综合画像和同场参战，各号战果不相加。",
+        "evidence": [
+          {
+            "file": "src/people/cold-sin/materials-cold-sin.md",
+            "heading": "## 游戏画像与已有战役"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "已核最高价值月与一张独自击杀代表KM，月度累计不等同特定战役成绩。",
+        "evidence": [
+          {
+            "file": "src/people/cold-sin/materials-cold-sin.md",
+            "heading": "### 代表KM核读"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "九场存量战役逐场核主小号，希瑟伊德四艘船损失时间和船型支持换船返场。",
+        "evidence": [
+          {
+            "file": "src/people/cold-sin/materials-cold-sin.md",
+            "heading": "### 战绩正文补足（2026-10-25）"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "开篇以常规作战和代价组织画像，并展开希瑟伊德续战；保留教学主线。",
+        "evidence": [
+          {
+            "file": "src/people/cold-sin/cold-sin.md",
+            "contains": "心冷在混沌吃的是常规舰队这碗饭"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "src/people/cold-sin/2120847059-id.json",
+      "src/people/cold-sin/cold-sin.md",
+      "src/people/cold-sin/materials-cold-sin.md",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+      "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+      "src/battles/akkio-2026/akkio-2026.json",
+      "src/battles/akkio-2026/akkio-2026.md",
+      "src/battles/akkio-2026/materials-akkio-2026.md",
+      "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+      "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+      "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+      "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+      "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+      "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+      "src/battles/haras-2023/haras-2023.json",
+      "src/battles/haras-2023/haras-2023.md",
+      "src/battles/haras-2023/materials-haras-2023.md",
+      "src/battles/otela-2024/otela-2024.json",
+      "src/battles/otela-2024/otela-2024.md",
+      "src/battles/otela-2024/materials-otela-2024.md",
+      "src/battles/sahtogas-2026/sahtogas-2026.json",
+      "src/battles/sahtogas-2026/sahtogas-2026.md",
+      "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+      "src/battles/siseide-2025/siseide-2025.json",
+      "src/battles/siseide-2025/siseide-2025.md",
+      "src/battles/siseide-2025/materials-siseide-2025.md",
+      "src/battles/taff-2026/taff-2026.json",
+      "src/battles/taff-2026/taff-2026.md",
+      "src/battles/taff-2026/materials-taff-2026.md"
+    ],
+    "inputs": "162bda4afb10a5b5b6177b4ebf676bc66e46041fe482a35712e1c8d1ab7f65c5",
+    "rules": "10ed55a4edd3eb5086a92e3f0a3247ce632ec0aa4eac56bfcf390d415c08f5e0"
+  },
   "person:dan-hua": {
     "status": "reviewed",
     "note": "对照抽查，复用已存常用船、综合KB、高值月份和M2本人俄洛巴斯KM材料；5场本地关联已列于素材或互链，正文已有冠军与会战综合画像，本次无须重复扩写。",
@@ -109,6 +203,74 @@
     ],
     "inputs": "0328837c485aee0efa79d27121e875e010499daa5e4149c90afd90c92c51c984",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:emmadag-saraki": {
+    "status": "reviewed",
+    "note": "画像、小号边界、高值月份、战役与正文采用逐项核读",
+    "evidence": [
+      "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+      "src/people/emmadag-saraki/emmadag-saraki.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "正式画像已核简介全文为空、无挂KM；综合统计与常用船显示小队及航母出勤，非FC依据。",
+        "evidence": [
+          {
+            "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+            "heading": "## 游戏画像"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "已核卖方角色卡与群昵称衔接；用途小号未具名，创建者不凭同团认同人，没有已对应主力小号可扩查。",
+        "evidence": [
+          {
+            "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+            "heading": "## 小号与论坛"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "已核最高击杀月份2.5B、损失月份7.1B与总计17.8B；无具体大战入口，不追加逐月KM扫描。",
+        "evidence": [
+          {
+            "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+            "heading": "## 高值月份与战役对照"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "现有战役按本人和军团ID查无命中；不声称其从未参加大仗，不另造大会战经历。",
+        "evidence": [
+          {
+            "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+            "heading": "## 高值月份与战役对照"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "正文红料综合小队与航母玩法，未逐场列KB，RMT仍为全文主线。",
+        "evidence": [
+          {
+            "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+            "contains": "他的战斗记录横跨RR"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/hydra-root-rmt-2019.md",
+      "src/people/emmadag-saraki/2114915480-id.json",
+      "src/people/emmadag-saraki/emmadag-saraki.md",
+      "src/people/emmadag-saraki/materials-emmadag-saraki.md"
+    ],
+    "inputs": "601b87ea8b861a3d5c509ca09e81b09a6114a37cda7aec709c69b163cefa2dc0",
+    "rules": "98057caca1d9eb72de3e8afe5fc7210259471a23c67b49be9fd4e728483c2693"
   },
   "person:fracture-ray": {
     "status": "reviewed",
@@ -153,6 +315,85 @@
     "inputs": "877af0544b024dd2c2a3eb1236e867ce8adac672a50b31c4ef6788d1c86c3bb9",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
   },
+  "person:luxi-miss": {
+    "status": "reviewed",
+    "note": "游戏画像与战役依据未变；补足封号黑料的活动后果、职务反差和群内反应，保留综合作战画像及所有旧料。",
+    "evidence": [
+      "src/people/luxi-miss/materials-luxi-miss.md",
+      "src/people/luxi-miss/luxi-miss.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "已读主号完整简介、综合KB、常用船、星系及月份；指挥记录持续，正文用长期FC与常规／旗舰经历构成画像。",
+        "evidence": [
+          {
+            "file": "src/people/luxi-miss/materials-luxi-miss.md",
+            "heading": "## 游戏画像"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "已对应三号；核mali miss综合KB，低于100B未逐月展开，其余两号无新增战斗需求；无已知售号或代管线索，群聊华与呆始皇不合并。",
+        "evidence": [
+          {
+            "file": "src/people/luxi-miss/materials-luxi-miss.md",
+            "heading": "## 小号覆盖"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "读最高两个ISK月的完整KM样本，发现星城是峰值主因；八月第一页截断已明记，另按主战星系补核6Q及VYO，不把大型建筑价值写成个人带队战果。",
+        "evidence": [
+          {
+            "file": "src/people/luxi-miss/materials-luxi-miss.md",
+            "heading": "## 高值月份与代表战斗"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "四场本地战役逐场对照；6Q、VYO、8F有实际窗口Monitor记录，1-SMEB仅记普通参与；正文选三场说明指挥处境，无多号人数相加。",
+        "evidence": [
+          {
+            "file": "src/people/luxi-miss/materials-luxi-miss.md",
+            "heading": "## 既有战役对照与采用"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "保留夏秋带队的综合战绩点评；封号扩为主要黑料，展开活动取消、指挥职务反差、CEO同期被封及群内问团散与担保误封的反应，不把呆始皇弹窗的RMT永封原因或期限赋给华。",
+        "evidence": [
+          {
+            "file": "src/people/luxi-miss/luxi-miss.md",
+            "contains": "::: 红料 猫可以卖萌，队伍不能随便散"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "src/people/luxi-miss/2115746150-id.json",
+      "src/people/luxi-miss/luxi-miss.md",
+      "src/people/luxi-miss/materials-luxi-miss.md",
+      "src/battles/1-smeb-2026/1-smeb-2026.json",
+      "src/battles/1-smeb-2026/1-smeb-2026.md",
+      "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+      "src/battles/6q-r50-2026/6q-r50-2026.json",
+      "src/battles/6q-r50-2026/6q-r50-2026.md",
+      "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+      "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+      "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+      "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+      "src/battles/vyo-68-2026/vyo-68-2026.json",
+      "src/battles/vyo-68-2026/vyo-68-2026.md",
+      "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+    ],
+    "inputs": "6801e209c28bfe4856051c6d6a68164807603427d126079272509e6aa654e1b6",
+    "rules": "98057caca1d9eb72de3e8afe5fc7210259471a23c67b49be9fd4e728483c2693"
+  },
   "person:n-bomber": {
     "status": "reviewed",
     "note": "已核主号stats、2025-05代表KM、1N-FJ8历史归属；以背景补实战，原辩护与对手讥刺保留，未据样本认FC。",
@@ -170,6 +411,76 @@
     "inputs": "6d9a8c08adaca6e8f698d0dd19d8c7fd9e9ba65bccf58b4202c584de820945dc",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
   },
+  "person:qingqing999": {
+    "status": "reviewed",
+    "note": "已按新增主力号复查择号、画像、高值月份、已有战役与正文采用",
+    "evidence": [
+      "src/people/qingqing999/materials-qingqing999.md",
+      "src/people/qingqing999/qingqing999.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "核读收录号综合KB、常用船和既有红楼指挥依据；不从低累计推出本人少出勤。",
+        "evidence": [
+          {
+            "file": "src/people/qingqing999/materials-qingqing999.md",
+            "heading": "## 收录号选择与主力号画像"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "比较全部已存小号汇总，展开Alive111与qingqing1，记录保留有直接指挥故事收录号的择号依据。",
+        "evidence": [
+          {
+            "file": "src/people/qingqing999/materials-qingqing999.md",
+            "heading": "## 收录号选择与主力号画像"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "核读2025-11高值KM，确认泰坦、夜神围猎与后续拆城；各号累计不相加。",
+        "evidence": [
+          {
+            "file": "src/people/qingqing999/materials-qingqing999.md",
+            "heading": "## 高值月份与代表战果"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "核萨托加斯窗口、本人战列舰与损失；R-AG7W样本在本站主报窗口外，作为外围及后续经历而非硬加快照。",
+        "evidence": [
+          {
+            "file": "src/people/qingqing999/materials-qingqing999.md",
+            "heading": "## 已有战役对照与正文采用"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "正文以指挥兼出炮统领画像，撤去低KB推断，展开R-AG7W连续经历并采用萨托加斯补船经历。",
+        "evidence": [
+          {
+            "file": "src/people/qingqing999/qingqing999.md",
+            "contains": "::: 红料 红楼的队伍，名片软，炮口不软"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "src/people/qingqing999/2123680197-id.json",
+      "src/people/qingqing999/materials-qingqing999.md",
+      "src/people/qingqing999/qingqing999.md",
+      "src/battles/sahtogas-2026/sahtogas-2026.json",
+      "src/battles/sahtogas-2026/sahtogas-2026.md",
+      "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+    ],
+    "inputs": "f3d76d9c5328ad8e1c23ce7859f5bb319a3ac6cd31f0f9f898b3667b87122ecb",
+    "rules": "98057caca1d9eb72de3e8afe5fc7210259471a23c67b49be9fd4e728483c2693"
+  },
   "person:roses-mary": {
     "status": "reviewed",
     "note": "已核stats、2025-09建筑代表KM及欧塔萨塞参战；该KM未返回本人船型，不补造；战斗背景不覆盖九州瑶光CEO管理争议。",
@@ -186,6 +497,151 @@
     ],
     "inputs": "a561aa13be74779cda4e8aab6745954960229edbd6cbc974f670fa565072f139",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:senri9067": {
+    "status": "reviewed",
+    "note": "逐项核读主号、小号、售号边界、高值月份与已有战役；舰队作战画像已入文。同步核对新标签，未改变战斗归因与原故事。",
+    "evidence": [
+      "src/people/senri9067/materials-senri9067.md",
+      "src/people/senri9067/senri9067.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "主号352击杀、常用隐轰与舰队战巡、军团分布已核，正文写回宇宙魔药后的跟队战斗。",
+        "evidence": [
+          {
+            "file": "src/people/senri9067/materials-senri9067.md",
+            "heading": "### 长期作战画像"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "Mono Cat CN统计与2026合同身份已核；明确已售Senri3766退出当前映射，不把旧号全生涯成绩归本人。",
+        "evidence": [
+          {
+            "file": "src/people/senri9067/materials-senri9067.md",
+            "heading": "### 收录号与已售旧号"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "已核最高价值月2024-05，选两张代表KM核ESI，不把全月累计归于该场或本人独得。",
+        "evidence": [
+          {
+            "file": "src/people/senri9067/materials-senri9067.md",
+            "heading": "### 高值月份代表KM与已有战役对照"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "现有战役无匹配；0-G8NO两张KM只作同场跟队例子，不强接战役或推定指挥。",
+        "evidence": [
+          {
+            "file": "src/people/senri9067/materials-senri9067.md",
+            "heading": "### 高值月份代表KM与已有战役对照"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "开篇补隐轰、战巡的长期画像，跟队拆建筑打后勤航母的例子衔接招新；原有八块故事保留。",
+        "evidence": [
+          {
+            "file": "src/people/senri9067/senri9067.md",
+            "contains": "千里的游戏日子也不只有电鱼和对账"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/sard-drone-region-clearance-announcement.md",
+      "docs/sources/sard-rr-old-grudge-2026-10.md",
+      "src/people/senri9067/2121410518-id.json",
+      "src/people/senri9067/materials-senri9067.md",
+      "src/people/senri9067/senri9067.md"
+    ],
+    "inputs": "6e3320b4f31c09d0cce4fdd705e7eadcc78bca15e53f002051fdc9ad4ce5a808",
+    "rules": "10ed55a4edd3eb5086a92e3f0a3247ce632ec0aa4eac56bfcf390d415c08f5e0"
+  },
+  "person:sindron-lyka": {
+    "status": "reviewed",
+    "note": "已复核择号与售号边界，补CEO及主力旗舰画像，保留巨蟒与市场主线",
+    "evidence": [
+      "src/people/sindron-lyka/materials-sindron-lyka.md",
+      "src/people/sindron-lyka/sindron-lyka.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "核收录号常规船画像和Night Garden现任CEO；避免将出售前角色累计归当前玩家。",
+        "evidence": [
+          {
+            "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+            "heading": "## 收录号选择与职责画像"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "比较四个已确认小号，展开This的海军无畏画像；保留承载巨蟒故事和市场发言的Sindron收录。",
+        "evidence": [
+          {
+            "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+            "heading": "## 收录号选择与职责画像"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "核This的2025-04与2026-04高峰，代表KM对应BWF与M-MD31；主号4月200条不冒充全月完整，完整战役缓存补实际角色。",
+        "evidence": [
+          {
+            "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+            "heading": "## 主力号高峰与已有战役对照"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "核BWF、LJ-YSW、M-MD31窗口、星系和战时组织，M-MD31常规与旗舰两号均在共同窗口；不补造指挥。",
+        "evidence": [
+          {
+            "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+            "heading": "## 主力号高峰与已有战役对照"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "开篇补CEO，以常规旗舰并行和PH至DC经历改写战斗画像，完整保留巨蟒赴宴与市场故事。",
+        "evidence": [
+          {
+            "file": "src/people/sindron-lyka/sindron-lyka.md",
+            "contains": "::: 红料 花园的老板，也得亲自上船"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "src/people/sindron-lyka/2112117260-id.json",
+      "src/people/sindron-lyka/materials-sindron-lyka.md",
+      "src/people/sindron-lyka/sindron-lyka.md",
+      "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+      "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+      "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+      "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+      "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+      "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+      "src/battles/m-md31-2026/m-md31-2026.json",
+      "src/battles/m-md31-2026/m-md31-2026.md",
+      "src/battles/m-md31-2026/materials-m-md31-2026.md"
+    ],
+    "inputs": "7aaf0d0c3ac56af30d28e76c4810223c106d023b1087ae2d8c0978fec3c2ae13",
+    "rules": "98057caca1d9eb72de3e8afe5fc7210259471a23c67b49be9fd4e728483c2693"
   },
   "person:sky-destroyer": {
     "status": "reviewed",
@@ -213,6 +669,92 @@
     ],
     "inputs": "dc22be3907829db0d7489d6af391f49544ad027769ad6bfb56040c9156954615",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:tempestudf": {
+    "status": "reviewed",
+    "note": "四号综合画像、高值月份与代表KM、两场既有战役和正文综合作战叙事已逐项核读；统一以TempestUdf收录。",
+    "evidence": [
+      "src/people/tempestudf/materials-tempestudf.md",
+      "src/people/tempestudf/tempestudf.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "四号综合stats均核topShips、groups、months，按实际火力舰队与低安玩法写综合画像；未以空topLists判无数据，未从被击杀监视者推FC。",
+        "evidence": [
+          {
+            "file": "src/people/tempestudf/materials-tempestudf.md",
+            "heading": "## 游戏画像"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "三个已确定小号全部核综合KB，均超100B；本人关系正式归档，无已知售号边界，按号保存且不加总。",
+        "evidence": [
+          {
+            "file": "src/people/tempestudf/materials-tempestudf.md",
+            "heading": "## 收录与身份采用"
+          },
+          {
+            "file": "src/people/tempestudf/materials-tempestudf.md",
+            "heading": "## 游戏画像"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "各取一个高值月并核代表KM；区分建筑峰值与旗舰战，TempestMarau当月返回200／229范围照实保留，不声称全月或全生涯逐张通读。",
+        "evidence": [
+          {
+            "file": "src/people/tempestudf/materials-tempestudf.md",
+            "heading": "## 高值月份与代表KM"
+          },
+          {
+            "file": "src/people/tempestudf/materials-tempestudf.md",
+            "heading": "## 简介所挂KM逐张核对"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "四号对照全站既有战报，命中TN25-J与T8T-RA；原始KM确认海军无畏攻击与损失时空，按本人实际火力位采用。",
+        "evidence": [
+          {
+            "file": "src/people/tempestudf/materials-tempestudf.md",
+            "heading": "## 已有战役对照"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "正文第二红料综合写常规舰队、低安小船、两场旗舰战与付出海军无畏，未把全部集体战果当个人功劳，未拆普通KM流水账。",
+        "evidence": [
+          {
+            "file": "src/people/tempestudf/tempestudf.md",
+            "contains": "旗舰场上，TempestMarau这个号接着把门票往贵处买。"
+          },
+          {
+            "file": "src/people/tempestudf/tempestudf.md",
+            "contains": "0845的日常火力很有牧星味道"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+      "src/people/tempestudf/2123068426-id.json",
+      "src/people/tempestudf/materials-tempestudf.md",
+      "src/people/tempestudf/tempestudf.md",
+      "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+      "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+      "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+      "src/battles/tn25-j-2025/tn25-j-2025.json",
+      "src/battles/tn25-j-2025/tn25-j-2025.md",
+      "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+    ],
+    "inputs": "f16865f25cbfe57c2cbfd9fa3f03aff666601e873456e8276f6881d93938cdbe",
+    "rules": "98057caca1d9eb72de3e8afe5fc7210259471a23c67b49be9fd4e728483c2693"
   },
   "person:yagaha": {
     "status": "reviewed",

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "thread_id": "9220680410",
+  "url": "https://tieba.baidu.com/p/9220680410",
+  "title": "关于东方利剑爷新Nei Ger贴吧故意摸黑军团，我个人角度复述",
+  "references": [
+    "docs/sources/eastern-sword-welfare-dispute-2024.md",
+    "src/people/caijiliunian/caijiliunian.md",
+    "src/people/caijiliunian/materials-caijiliunian.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9220680410.json",
+    "fetched_at": "2026-10-13T08:51:34.636Z",
+    "main_posts": 19,
+    "subposts": 21,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 15,
+        "expected": 1,
+        "fetched": 1,
+        "error": "请求预算已用尽；保留未查缺口"
+      }
+    ],
+    "errors": [
+      "请求预算已用尽；保留未查缺口"
+    ]
+  }
+}

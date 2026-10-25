@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "thread_id": "11128106062",
+  "url": "https://tieba.baidu.com/p/11128106062",
+  "title": "高效生产为PVP服务 —— 低安五级任务海盗龙骑团招新！",
+  "references": [
+    "src/people/libxw/libxw.md",
+    "src/people/libxw/materials-libxw.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "text-read",
+    "read_at": "2026-10-25",
+    "notes": [
+      "17主楼、10楼中楼可见文字均已读；首楼团徽图已读，第8楼联络卡、第13楼插图未读。",
+      "卫队转五级任务、CTA规则及返团问家对话补烈冰玄武；收入与反应速度仍为招募自述，不作已核经营指标。"
+    ],
+    "evidence": [
+      "src/people/libxw/materials-libxw.md"
+    ]
+  },
+  "published_date": "2026-10-22",
+  "discovery": {
+    "scan_id": "eve-eu-publish-2026-10-25",
+    "scope": "标题与首楼摘要已筛；不代表全帖已读"
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-new-20261025/11128106062.json",
+    "fetched_at": "2026-10-25T05:02:30.702Z",
+    "main_posts": 17,
+    "subposts": 10,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "thread_id": "10194596013",
+  "url": "https://tieba.baidu.com/p/10194596013",
+  "title": "AVR告PH残部书！",
+  "references": [
+    "src/people/koko1-k/koko1-k.md",
+    "src/people/koko1-k/materials-koko1-k.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10194596013",
+        "初始引用文件": "src/people/koko1-k/koko1-k.md;src/people/koko1-k/materials-koko1-k.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "21",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "13",
+        "楼中楼计数差": "1",
+        "人工处理": "已读全部文字与楼中楼；咪咪招新资格吵架补文",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10194596013.json",
+    "fetched_at": "2026-10-10T14:19:52.326Z",
+    "main_posts": 8,
+    "subposts": 13,
+    "floors": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

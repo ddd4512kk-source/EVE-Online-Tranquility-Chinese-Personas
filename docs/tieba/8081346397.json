@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "thread_id": "8081346397",
+  "url": "https://tieba.baidu.com/p/8081346397",
+  "title": "破案了，鸟哥1万块的电脑",
+  "references": [
+    "src/people/magicfai-rynew/magicfai-rynew.md",
+    "src/people/magicfai-rynew/materials-magicfai-rynew.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8081346397",
+        "初始引用文件": "src/people/magicfai-rynew/magicfai-rynew.md;src/people/magicfai-rynew/materials-magicfai-rynew.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "16",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "11",
+        "已取楼中楼": "5",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8081346397.json",
+    "fetched_at": "2026-10-10T14:26:39.388Z",
+    "main_posts": 11,
+    "subposts": 5,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

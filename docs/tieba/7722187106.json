@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "thread_id": "7722187106",
+  "url": "https://tieba.baidu.com/p/7722187106",
+  "title": "提醒国服转来欧服的玩家",
+  "references": [
+    "src/people/qi-mo/materials-qi-mo.md",
+    "src/people/qi-mo/qi-mo.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7722187106",
+        "初始引用文件": "src/people/qi-mo/materials-qi-mo.md;src/people/qi-mo/qi-mo.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "119",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "52",
+        "已取楼中楼": "55",
+        "楼中楼计数差": "6",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7722187106.json",
+    "fetched_at": "2026-10-10T12:48:42.312Z",
+    "main_posts": 52,
+    "subposts": 55,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      29,
+      30,
+      33,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 8,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 22,
+        "expected": 16,
+        "fetched": 12,
+        "error": null
+      },
+      {
+        "floor": 49,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

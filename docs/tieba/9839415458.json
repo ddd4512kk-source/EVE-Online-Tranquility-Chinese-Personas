@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "thread_id": "9839415458",
+  "url": "https://tieba.baidu.com/p/9839415458",
+  "title": "找00军团",
+  "references": [
+    "src/people/sakuya-ly/materials-sakuya-ly.md",
+    "src/people/sakuya-ly/sakuya-ly.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9839415458",
+        "初始引用文件": "src/people/sakuya-ly/materials-sakuya-ly.md;src/people/sakuya-ly/sakuya-ly.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "29",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "20",
+        "已取楼中楼": "9",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9839415458.json",
+    "fetched_at": "2026-10-10T14:08:51.595Z",
+    "main_posts": 20,
+    "subposts": 9,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      24
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 8,
+        "fetched": 7,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

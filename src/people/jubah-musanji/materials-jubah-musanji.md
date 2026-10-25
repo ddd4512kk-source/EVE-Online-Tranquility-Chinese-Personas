@@ -25,6 +25,8 @@
 
 ## 渠道记录
 
+- YouTube本人频道待对应（2026-10-25）：网页搜索“dzkell youtube”“Jubah Musanji youtube”未取得可归属频道；YouTube站内分别查Jubah Musanji、dzkell、已知小号词根wgdes，均未对上。`@dzkell`结果为Dzikriel，公开介绍指向其他游戏账号，没有本人的EVE或B站对应，排除昵称直接归并。另读本人B站主页，未见外链；小号wgdes Anzomi的ESI简介只见KM与共享设置，没有频道入口。现有素材中的YouTube链接多是搬运原片，不能将其上传者反归为W佬；后续有本人自链、频道准确名或具体作品时继续，不将本次零命中写成他没有YouTube。
+
 - 贴吧客户端：“Jubah”“dzkell”多为撞词；“W佬”泛词无效；未读到归属本人的帖子。
 - 凛冬论坛：未找到用户。
 
@@ -184,3 +186,17 @@
 BV1xGsQzYEEt《EVE-魔像级 PVP-Solo-剧本10+审判队》（3287播放），来源UID 13329368（docs/bilibili/13329368.json）。
 
 本轮读取主代理整理的频道全目录，按存档播放量优先挑选未在正式列传红黑料展开的本人投稿；只依据标题和已有播放数，不访问作品页、不读影像音频字幕。未见标题明确标注联合制作的候选。
+
+<a id="youtube-source-chain"></a>
+
+## YouTube原片逐条追链（2026-10-25）
+
+本轮沿具体B站作品查外链，不再仅凭昵称猜频道：
+
+- [BV1hBYH6aEzr](https://www.bilibili.com/video/BV1hBYH6aEzr/)的原片[0tL-DkLNrZU](https://www.youtube.com/watch?v=0tL-DkLNrZU)，实际页题“SUS PVP Vol 5 - The Leshak Boosh Bananza”，作者[Yes Be Afraid／@yesbeafraid6131](https://www.youtube.com/@yesbeafraid6131)。其简介说与Siberian Squads重甲队交战。W佬的中文标题自称W佬，不证明原片频道同属他。
+- [BV1ngHo6EE8m](https://www.bilibili.com/video/BV1ngHo6EE8m/)原片[9_nt_ejBfg8](https://www.youtube.com/watch?v=9_nt_ejBfg8)，实际作者[CRAKEN V／@CRAKENV](https://www.youtube.com/@CRAKENV)，俄语新闻系列，简介另挂其Twitch与VK；不能认成W佬自己的YouTube。未读音频、字幕或AI总结。
+- 新补[魔像篇BV1xGsQzYEEt](https://www.bilibili.com/video/BV1xGsQzYEEt/)作品页，dzkell本人上传，3289播放、reply30，简介给出[zTmNQA5-uvI](https://www.youtube.com/watch?v=zTmNQA5-uvI)。原页题“Eve Online - Golem PvP - Solo - Baiting Small Fishes 14”，作者[Metal Cosmonaut／@metalcosmonaut915](https://www.youtube.com/@metalcosmonaut915)。评论未读，原片驾驶不归W佬。
+
+另定向读其角色简介自荐的Akd、老牌联盟、再度重相逢、PandaFam与Imperium、FRT/NC/PH/Init/Goons、FC练兵等本人日常作品页，简介均仅“视频已加速~”，没有YouTube外链；并非没访问作品就下结论。尝试核播放器可见画面时始终readyState0、未取得实际影像，不能声称看到了画面水印或片尾。网页检索与YouTube站内的wgdes、Jubah Musanji未取得本人频道，站内会纠正或拆词为不相关结果，不作为不存在的证明。
+
+本人YouTube频道仍未对应，这是本任务未完成项；以上3个原作频道仅作为已追链的第三方来源保存，不进入本人账号。具体续查入口是本人日常系列的可播放画面署名／片尾和尚未读到的本人自链，而非重搜昵称或把搬运原作者直接套给他。

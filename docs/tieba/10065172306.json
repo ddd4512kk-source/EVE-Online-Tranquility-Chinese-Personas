@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "thread_id": "10065172306",
+  "url": "https://tieba.baidu.com/p/10065172306",
+  "title": "分享一下低安乡下小团故土PVP记录",
+  "references": [
+    "src/people/texas/materials-texas.md",
+    "src/people/texas/texas.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10065172306",
+        "初始引用文件": "src/people/texas/materials-texas.md;src/people/texas/texas.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "11",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "2",
+        "楼中楼计数差": "1",
+        "人工处理": "已读文字与楼中楼；火锅补同步器质疑，战果图待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10065172306.json",
+    "fetched_at": "2026-10-10T14:31:57.734Z",
+    "main_posts": 8,
+    "subposts": 2,
+    "floors": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

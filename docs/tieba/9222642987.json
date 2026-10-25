@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "thread_id": "9222642987",
+  "url": "https://tieba.baidu.com/p/9222642987",
+  "title": "不是不想打架，是不想打明显不对称的架",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9222642987",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "143",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "47",
+        "已取楼中楼": "96",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9222642987",
+        "列表回复数": "142",
+        "标题": "不是不想打架，是不想打明显不对称的架",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9222642987.json",
+    "fetched_at": "2026-10-10T16:18:33.397Z",
+    "main_posts": 47,
+    "subposts": 96,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 19,
+        "expected": 13,
+        "fetched": 12,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

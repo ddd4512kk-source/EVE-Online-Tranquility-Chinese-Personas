@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "thread_id": "5883585625",
+  "url": "https://tieba.baidu.com/p/5883585625",
+  "title": "PIBC泛银河商业共同体工作室回忆录",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5883585625",
+        "初始引用文件": "docs/leads/old-threads-2016-2024.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "89",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "41",
+        "已取楼中楼": "36",
+        "楼中楼计数差": "9",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/old-threads-2016-2024.md",
+      "values": {
+        "日期": "2018-09-17",
+        "标题": "PIBC泛银河商业共同体工作室回忆录",
+        "看点": "是否欧服待核",
+        "人工处理": "仅标题筛选，初始未读正文；后续历史结论另存。",
+        "后续历史结论": "旧记录标欧服归属待核；不凭PIBC名称认作宁静服事件。"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": [
+      "旧记录标欧服归属待核；不凭PIBC名称认作宁静服事件。"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5883585625.json",
+    "fetched_at": "2026-10-10T13:10:18.984Z",
+    "main_posts": 41,
+    "subposts": 36,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      10,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      38,
+      39,
+      40,
+      42,
+      43,
+      45,
+      46,
+      47,
+      49,
+      51,
+      52,
+      53,
+      54,
+      56,
+      57
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 5,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 7,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 10,
+        "expected": 11,
+        "fetched": 10,
+        "error": null
+      },
+      {
+        "floor": 40,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 42,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 45,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

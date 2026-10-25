@@ -10,7 +10,7 @@
 
 **关联角色已确认：Silver Magician（2117571969）是汤圆的小号，与 Tang Yuan（2117147972）属于同一位玩家。** 相关管理、外交和社区故事合并取材，沿用 Tang Yuan 的列传网址，不另建人物。此前取得的[冬凛公务员名单](https://wiki.winterco.org/zh/leadership)列“KHESH-Silver Magician 汤圆”、外交组组长；[该小号 ESI](https://esi.evetech.net/latest/characters/2117571969/)头衔同样写汤圆，简介自题“鲜衣怒马汤圆郎，谁人不识怯薛王！”，作为该小号既有公开资料归档。
 
-**关联角色：Light Cone（2118258666）是汤圆的小号，同一位玩家。** [ESI](https://esi.evetech.net/latest/corporations/98694557/)（2026-10-10）显示怯薛（KheshigFleet，98694557，627 人，FRT）CEO 为 Light Cone；该角色 2021-02-10 建号，2025-10-30 起在怯薛。公司简介署名见 [docs/leads/corp-descriptions-2026.md](../../../docs/leads/corp-descriptions-2026.md)。待核：该小号何时接任怯薛 CEO、与盗号案后怯薛重整的关系。
+**关联角色：Light Cone（2118258666）是汤圆的小号，同一位玩家。** [ESI](https://esi.evetech.net/latest/corporations/98694557/)（2026-10-10）显示怯薛（KheshigFleet，98694557，627 人，FRT）CEO 为 Light Cone；该角色 2021-02-10 建号，2025-10-30 起在怯薛。公司简介署名见 [docs/corporations/notes/descriptions.md](../../../docs/corporations/notes/descriptions.md)。待核：该小号何时接任怯薛 CEO、与盗号案后怯薛重整的关系。
 
 - **红料 / 管理背景，中重**：[2025 年 4 月联盟公告](https://winterco.org/2025/04/23/659/frt-lian-meng-geng-xin-tong-gao-20254/)宣布重整怯薛管理，由汤圆临时接内部事务，N老板组织公司活动。公告全文已读。任命对象与被撤管理分开写，不把对旧管理的批评转嫁给接手者。
 - **受害事实，不是黑料**：汤圆确实遭盗号，是受害者。相关推测性指控、暗示、跑路猜测与损失笑话均不采用。账号盗窃是对当事人的侵害，不按游戏内骗术处理。

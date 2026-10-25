@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "thread_id": "9272989868",
+  "url": "https://tieba.baidu.com/p/9272989868",
+  "title": "",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9272989868",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "请求失败",
+        "接口回复数": "",
+        "主楼总页数": "",
+        "主楼分页完成": "",
+        "已取主楼": "",
+        "已取楼中楼": "",
+        "楼中楼计数差": "",
+        "人工处理": "未人工通读",
+        "当前错误": "4: 贴子可能已被删除",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "9272989868",
+        "原帖": "https://tieba.baidu.com/p/9334710527",
+        "楼层": "7",
+        "来源位置": "楼中楼",
+        "状态": "首尾请求失败：4: 贴子可能已被删除；保留引用，不当成无料"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "9272989868",
+        "原帖": "https://tieba.baidu.com/p/9334710527",
+        "楼层": "8",
+        "来源位置": "主楼",
+        "状态": "首尾请求失败：4: 贴子可能已被删除；保留引用，不当成无料"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  }
+}

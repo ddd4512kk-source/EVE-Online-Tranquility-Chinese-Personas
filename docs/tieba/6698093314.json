@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "thread_id": "6698093314",
+  "url": "https://tieba.baidu.com/p/6698093314",
+  "title": "这贴吧全是小学生吵架贴@这个！@那个！跟这个对线跟那个对战，",
+  "references": [
+    "docs/leads/tieba-short-disputes-replies.md",
+    "docs/shared-sources.md",
+    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/noraus.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6698093314",
+        "初始引用文件": "docs/shared-sources.md;src/people/noraus/materials-noraus.md;src/people/noraus/noraus.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "31",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "13",
+        "已取楼中楼": "12",
+        "楼中楼计数差": "1",
+        "人工处理": "13主楼12楼中楼1图已读；任内贴吧控场回忆归N，差1，现实照片不存",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6698093314.json",
+    "fetched_at": "2026-10-10T14:04:56.333Z",
+    "main_posts": 13,
+    "subposts": 12,
+    "floors": [
+      1,
+      2,
+      5,
+      6,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -7,7 +7,7 @@
 - 雇佣：Tails Of Dragons（2020-08）→ Vanguard Community（Union Pay，2020-08—09）→ Trisolaris Military Academy（Fraternity University，2020-09—2021-04）→ Black.King.Bar（2021-04—2023-03）→ Chuangshi College（2023-03—05）→ Black.King.Bar（2023-05—11）→ Chuangshi College（2023-11-25 至今；联盟 Fraternity University → Wings Freedom.（2026-02-15—22）→ ChuangShi Federation（2026-02-23 至今））。
 - [zKillboard](https://zkillboard.com/character/2117368009/)（2026-10-23 取数）：击杀 1199（1282.3B），损失 145（40.1B），单杀 67。常用船：Purifier 143、Curse 134、Drekavac 116、Sacrilege 92、Ishtar 92、Ikitursa 82、Leshak 56、Tengu 45。常去星系：Otsasai 105、1-SMEB 95、Sakht 78、Otanuomi 56、Tisot 47。军团分布：Chuangshi College 1001、Black.King.Bar 156、Trisolaris Military Academy 31。击杀 ISK 最高月：2026-05 690.4B。
 - 战役快照中在场：T8T-RA 2026、1-SMEB 2026（创世学院／创世联邦）。
-- 旧线索：docs/leads/corp-top-characters-2026-10-12 中 Chuangshi College 历史第 2、Black.King.Bar 第 69。
+- 旧线索：[Chuangshi College军团档案](../../../docs/corporations/98705642.json)历史第 2、[Black.King.Bar军团档案](../../../docs/corporations/98599315.json)第 69。
 
 ## 贴吧
 

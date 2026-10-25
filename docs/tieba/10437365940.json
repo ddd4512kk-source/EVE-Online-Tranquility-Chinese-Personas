@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "thread_id": "10437365940",
+  "url": "https://tieba.baidu.com/p/10437365940",
+  "title": "有没有创世现状的情况？",
+  "references": [
+    "src/people/jojomarsk-annages/jojomarsk-annages.md",
+    "src/people/jojomarsk-annages/materials-jojomarsk-annages.md",
+    "src/people/sk-mmmm/materials-sk-mmmm.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10437365940",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "14",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "6",
+        "已取楼中楼": "8",
+        "楼中楼计数差": "0",
+        "人工处理": "已读全部文字与楼中楼；两千骂轻拦说法补文，加入联盟预测纠正",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10437365940.json",
+    "fetched_at": "2026-10-10T14:28:39.019Z",
+    "main_posts": 6,
+    "subposts": 8,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

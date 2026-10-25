@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "thread_id": "10432330874",
+  "url": "https://tieba.baidu.com/p/10432330874",
+  "title": "最近联盟有没有什么棘手的问题需要处理",
+  "references": [
+    "src/people/koko1-k/koko1-k.md",
+    "src/people/koko1-k/materials-koko1-k.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10432330874",
+        "初始引用文件": "src/people/koko1-k/koko1-k.md;src/people/koko1-k/materials-koko1-k.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "26",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "7",
+        "已取楼中楼": "19",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10432330874.json",
+    "fetched_at": "2026-10-10T14:12:06.602Z",
+    "main_posts": 7,
+    "subposts": 19,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 18,
+        "fetched": 15,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

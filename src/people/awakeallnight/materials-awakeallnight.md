@@ -9,7 +9,7 @@
 - 角色：Awakeallnight Awake（2114626303），2018-10-27建号，头衔“雨季”。[ESI](https://esi.evetech.net/latest/characters/2114626303/)简介写“善战者不言战 战则必胜”，并直接挂出 https://space.bilibili.com/259433622 ，即本UP空间——角色简介自挂主页，对应确定。
 - 当前军团：龙骑 Silver Fog Dragon Ride（98613748），联盟 Dragon Riders Legion（DRL），掌舵人为[红名](../hm-hongming/materials-hm-hongming.md)。
 - [EveWho](https://evewho.com/character/2114626303)雇佣：OrientalExcalibur、PLA Fleet（2018-12—2019-04，多次进出）→ Beng beng Begn（2019-04—10）→ The Strange Tide（2019-10—2020-06）→ Eternity Pavilion（2020-06—11）→ SS disintegrator 等（2020-11—2021-04，短期往返）→ Absolute Order VI（2021-04—2024-12）→ Silver Fog Dragon Ride（2024-12至今）。
-- [龙骑军团历史角色榜](../../../docs/leads/corp-top-characters-2026-10-12.md)第21：1272条参与击杀，约1.26T ISK（军团范围，不独算个人）；2026年9月月榜第34名军团内77条。
+- [龙骑军团历史角色榜](../../../docs/corporations/notes/member-research.md)第21：1272条参与击杀，约1.26T ISK（军团范围，不独算个人）；2026年9月月榜第34名军团内77条。
 
 ## B站空间（2026-10-16 读首页）
 

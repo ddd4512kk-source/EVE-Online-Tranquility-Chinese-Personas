@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "thread_id": "9146224234",
+  "url": "https://tieba.baidu.com/p/9146224234",
+  "title": "现在刷怪的巅峰是啥啊",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9146224234",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "104",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "30",
+        "已取楼中楼": "74",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9146224234",
+        "列表回复数": "103",
+        "标题": "现在刷怪的巅峰是啥啊",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9146224234.json",
+    "fetched_at": "2026-10-10T16:40:07.561Z",
+    "main_posts": 30,
+    "subposts": 74,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 16,
+        "fetched": 14,
+        "error": null
+      },
+      {
+        "floor": 5,
+        "expected": 13,
+        "fetched": 12,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

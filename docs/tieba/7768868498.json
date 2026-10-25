@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "thread_id": "7768868498",
+  "url": "https://tieba.baidu.com/p/7768868498",
+  "title": "这瓜吃的，过瘾啊！虽然吃的是自己的瓜23333333",
+  "references": [
+    "src/people/twilight-dracula/materials-twilight-dracula.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7768868498",
+        "初始引用文件": "src/people/twilight-dracula/materials-twilight-dracula.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "51",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "36",
+        "已取楼中楼": "5",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7768868498.json",
+    "fetched_at": "2026-10-10T13:40:50.170Z",
+    "main_posts": 36,
+    "subposts": 5,
+    "floors": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

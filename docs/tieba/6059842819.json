@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "thread_id": "6059842819",
+  "url": "https://tieba.baidu.com/p/6059842819",
+  "title": "招新啦 招新啦",
+  "references": [
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6059842819",
+        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "78",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "30",
+        "已取楼中楼": "47",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6059842819.json",
+    "fetched_at": "2026-10-10T13:18:44.823Z",
+    "main_posts": 30,
+    "subposts": 47,
+    "floors": [
+      1,
+      2,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 11,
+        "expected": 9,
+        "fetched": 8,
+        "error": null
+      },
+      {
+        "floor": 18,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

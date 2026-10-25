@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "thread_id": "10665159819",
+  "url": "https://tieba.baidu.com/p/10665159819",
+  "title": "init cn动员令（纯转载）",
+  "references": [
+    "docs/sources/init-cn-mobilization-2026.md",
+    "src/people/i-cute-money-plz/i-cute-money-plz.md",
+    "src/people/i-cute-money-plz/materials-i-cute-money-plz.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10665159819",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "138",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "56",
+        "已取楼中楼": "80",
+        "楼中楼计数差": "11",
+        "人工处理": "56主楼80楼中楼及3图已读；炒鸡回应入文；原作者/正式ping未明，缺11回复",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10665159819",
+        "列表回复数": "137",
+        "标题": "init cn动员令（纯转载）",
+        "人工处理": "56主楼、80楼中楼及3图已读；炒鸡回应入文，转贴者未给原作者且INIT成员质疑收到，不能认作指挥本人动员；原出处及缺11回复留[线索](init-cn-mobilization-unattributed-2026.md)"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10665159819.json",
+    "fetched_at": "2026-10-10T16:20:38.335Z",
+    "main_posts": 56,
+    "subposts": 80,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12,
+      14,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      47,
+      49,
+      50,
+      51,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      69,
+      71,
+      72,
+      73
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 8,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 7,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 19,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 23,
+        "expected": 25,
+        "fetched": 22,
+        "error": null
+      },
+      {
+        "floor": 31,
+        "expected": 7,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 33,
+        "expected": 29,
+        "fetched": 28,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "thread_id": "9665116867",
+  "url": "https://tieba.baidu.com/p/9665116867",
+  "title": "frt内讧，怯薛暴死，没人水吗",
+  "references": [
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "src/people/cheryl-astelir/cheryl-astelir.md",
+    "src/people/fact-in/fact-in.md",
+    "src/people/hanbo-han/materials-hanbo-han.md",
+    "src/people/master-zachary/master-zachary.md",
+    "src/people/nono-fire/nono-fire.md",
+    "src/people/noraus/noraus.md",
+    "src/people/qihei/qihei.md",
+    "src/people/silvitni/silvitni.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9665116867",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "224",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "49",
+        "已取楼中楼": "163",
+        "楼中楼计数差": "25",
+        "人工处理": "49主楼、163楼中楼文字及7张主楼图已读；扎克另号已对应、欢迎词已归档入文；缺25楼中楼，老李jincarry已归FACT IN本人",
+        "当前错误": "无",
+        "楼中楼空页": "#9:3",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9665116867",
+        "列表回复数": "224",
+        "标题": "frt内讧，怯薛暴死，没人水吗",
+        "人工处理": "49主楼及163楼中楼文字已读；任职背景、补损、权限争论及荣耀锐评归[共享材料](../sources/kheshig-removal-debate-2025.md)并入传；报点案已有归档；7张主楼图已读；扎克另号已归本人，老李QQ与两游戏号已归飞袖李；缺25条楼中楼续查"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9665116867.json",
+    "fetched_at": "2026-10-10T16:01:09.817Z",
+    "main_posts": 49,
+    "subposts": 163,
+    "floors": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 9,
+        "expected": 62,
+        "fetched": 46,
+        "error": null
+      },
+      {
+        "floor": 15,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 22,
+        "expected": 20,
+        "fetched": 17,
+        "error": null
+      },
+      {
+        "floor": 29,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 56,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

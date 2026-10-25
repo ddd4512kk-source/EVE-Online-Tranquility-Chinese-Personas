@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "thread_id": "10801294137",
+  "url": "https://tieba.baidu.com/p/10801294137",
+  "title": "重生之欧服地狱难度开局",
+  "references": [
+    "docs/leads/tieba-corp-diaries.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10801294137",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "112",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "53",
+        "已取楼中楼": "59",
+        "楼中楼计数差": "2",
+        "人工处理": "已读全部可见文字及楼中楼；部分附图已核、其他待核；提米的猫角色待对应",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10801294137",
+        "列表回复数": "111",
+        "标题": "重生之欧服地狱难度开局",
+        "人工处理": "正倒序及独立楼中楼文字通读、重点图已核，其余图待补；楼主待对应，见建团日记线索"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10801294137.json",
+    "fetched_at": "2026-10-10T15:25:22.110Z",
+    "main_posts": 53,
+    "subposts": 59,
+    "floors": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "complete": true,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2
+      },
+      "reverse": {
+        "pages": 2,
+        "complete": true,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 18,
+        "expected": 11,
+        "fetched": 10,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

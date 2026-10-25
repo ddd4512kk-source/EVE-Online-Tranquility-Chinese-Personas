@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "thread_id": "9800561395",
+  "url": "https://tieba.baidu.com/p/9800561395",
+  "title": "战报：兰多恩三千多+绞肉机无畏对鲁正在进行中",
+  "references": [
+    "docs/sources/capital-battles-2026-10-11.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9800561395",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "122",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "19",
+        "已取楼中楼": "102",
+        "楼中楼计数差": "9",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9800561395",
+        "列表回复数": "121",
+        "标题": "战报：兰多恩三千多+绞肉机无畏对鲁正在进行中",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9800561395.json",
+    "fetched_at": "2026-10-10T16:27:06.104Z",
+    "main_posts": 19,
+    "subposts": 102,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 11,
+        "expected": 80,
+        "fetched": 75,
+        "error": null
+      },
+      {
+        "floor": 15,
+        "expected": 16,
+        "fetched": 12,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "thread_id": "6064853777",
+  "url": "https://tieba.baidu.com/p/6064853777",
+  "title": "从无名小卒到双泰坦莽夫无名小卒--娃上将的欧服一周年回忆录",
+  "references": [
+    "docs/leads/fa-shi-xu-zhu.md",
+    "src/people/optimus-mecca/materials-optimus-mecca.md",
+    "src/people/optimus-mecca/optimus-mecca.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6064853777",
+        "初始引用文件": "docs/leads/fa-shi-xu-zhu.md;docs/leads/old-threads-2016-2024.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "89",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "43",
+        "已取楼中楼": "43",
+        "楼中楼计数差": "4",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/old-threads-2016-2024.md",
+      "values": {
+        "日期": "2019-03-12",
+        "标题": "从无名小卒到双泰坦莽夫无名小卒——娃上将的欧服一…",
+        "看点": "个人回忆录",
+        "人工处理": "仅标题筛选，初始未读正文；后续历史结论另存。",
+        "后续历史结论": "旧记录已确认eve欧服吧；娃上将对应娃娃／Optimus Mecca（96548383），回忆录、回应老李、斥候捡大航与采星退群澄清已归本人素材并入文。本人素材记录通读43条现存主楼与43条楼中楼，最高楼号64；#18为2/4、#21为3/4、#30为16/17，图未看。旧抓取清单“未人工通读”与后续读帖记录并存，保留历史，不把64楼号写成64条正文。"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": [
+      "旧记录已确认eve欧服吧；娃上将对应娃娃／Optimus Mecca（96548383），回忆录、回应老李、斥候捡大航与采星退群澄清已归本人素材并入文。本人素材记录通读43条现存主楼与43条楼中楼，最高楼号64；#18为2/4、#21为3/4、#30为16/17，图未看。旧抓取清单“未人工通读”与后续读帖记录并存，保留历史，不把64楼号写成64条正文。"
+    ],
+    "evidence": [
+      "src/people/optimus-mecca/materials-optimus-mecca.md"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6064853777.json",
+    "fetched_at": "2026-10-10T13:10:53.615Z",
+    "main_posts": 43,
+    "subposts": 43,
+    "floors": [
+      1,
+      2,
+      6,
+      8,
+      10,
+      13,
+      14,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      34,
+      35,
+      37,
+      39,
+      40,
+      41,
+      42,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      64
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 18,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 21,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 17,
+        "fetched": 16,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

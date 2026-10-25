@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "thread_id": "7802905564",
+  "url": "https://tieba.baidu.com/p/7802905564",
+  "title": "肃正协议和我们Absolute Order没有关系！",
+  "references": [
+    "src/people/governor-lee/materials-governor-lee.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7802905564",
+        "初始引用文件": "src/people/governor-lee/materials-governor-lee.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "29",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "21",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7802905564.json",
+    "fetched_at": "2026-10-10T14:08:32.795Z",
+    "main_posts": 8,
+    "subposts": 21,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 17,
+        "fetched": 16,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

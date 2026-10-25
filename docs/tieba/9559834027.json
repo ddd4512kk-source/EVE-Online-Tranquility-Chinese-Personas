@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "thread_id": "9559834027",
+  "url": "https://tieba.baidu.com/p/9559834027",
+  "title": "给荣耀众筹的32.5e就当喂狗了！！！",
+  "references": [
+    "src/people/koko1-k/koko1-k.md",
+    "src/people/koko1-k/materials-koko1-k.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9559834027",
+        "初始引用文件": "src/people/koko1-k/koko1-k.md;src/people/koko1-k/materials-koko1-k.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "21",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "12",
+        "已取楼中楼": "9",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9559834027.json",
+    "fetched_at": "2026-10-10T14:21:08.062Z",
+    "main_posts": 12,
+    "subposts": 9,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      13,
+      15,
+      16,
+      17,
+      18
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 16,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

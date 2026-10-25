@@ -60,7 +60,7 @@ PK投稿简介链接[KM126593873](https://zkillboard.com/kill/126593873/)，本�
 
 ## 战役候选与未读缺口
 
-[DC候选表](../../../docs/leads/dc-br-candidates-2026-10-12.tsv)已有Mei Kanata、Mei Konata、AI Pko、Mikoto-3四号，以Tactical Trauma Team记录出现在R-AG7W及4月25日报表候选中。表内KM数不是场次，原始逐KM组成文件本轮未能从旧临时路径恢复，因此不靠候选表补舰型、旗舰战果或FC职责，保留为后续具体核读入口。
+[DC原始角色样本](../../../docs/sources/dc-br-characters-2026-10-12.tsv)已有Mei Kanata、Mei Konata、AI Pko、Mikoto-3四号，以Tactical Trauma Team记录出现在R-AG7W及4月25日报表候选中。表内KM数不是场次，原始逐KM组成文件本轮未能从旧临时路径恢复，因此不靠候选表补舰型、旗舰战果或FC职责，保留为后续具体核读入口。
 
 R-AG7W整日窗口已由[共用来源](../../../docs/sources/community-br-review-2026-10-12.md)核总损失1196.44B，4月25日是31星系窗口；不能把窗口总额独算本人战绩。已认八号后应按自然人对照，避免重复计人；本人KB累计和上述新发现作品所挂BR／KM均未完整读取。
 

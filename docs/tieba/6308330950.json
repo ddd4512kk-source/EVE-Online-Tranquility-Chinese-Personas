@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "thread_id": "6308330950",
+  "url": "https://tieba.baidu.com/p/6308330950",
+  "title": "RR旗下Hydra Root军团RMT曝光贴",
+  "references": [
+    "docs/sources/hydra-root-rmt-2019.md",
+    "src/people/emmadag-saraki/materials-emmadag-saraki.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6308330950",
+        "初始引用文件": "docs/leads/old-threads-2016-2024.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "211",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "54",
+        "已取楼中楼": "131",
+        "楼中楼计数差": "20",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/old-threads-2016-2024.md",
+      "values": {
+        "日期": "2019-10-23",
+        "标题": "RR旗下Hydra Root军团RMT曝光贴",
+        "看点": "同上",
+        "人工处理": "仅标题筛选，初始未读正文；后续历史结论另存。",
+        "后续历史结论": "标题涉及RMT指控；尚未取得具体当事人、服务器及正文依据，不据标题定性。"
+      }
+    }
+  ],
+  "review": {
+    "status": "reviewed",
+    "read_at": "2026-10-25",
+    "notes": [
+      "已通读2026-10-10缓存内54条主楼、131条楼中楼；逐张核读第1—5、7—11、18楼共16张关键图。第44楼两张旁支图未读，楼中楼20条计数差、删楼和之后新增内容不在覆盖内。",
+      "连续交易聊天包含人民币报价、收款安排、物资合同与军团机库交货，卖方发本人角色卡；属性图列Emmadag Saraki为Hydra Root事发时CEO，已解析角色2114915480、军团98594668。足以明确归档该团涉及RMT，不再沿用仅标题待核结论。",
+      "第18楼台风回复踢了并贴系统离盟邮件，确认2019-10-23T12:55退出RR；GM图只询问交易详情，没收300亿是楼主转述，不补造处罚信或封号期限。",
+      "已归共享事件并立传歌不好听；第44楼其他组织、SARD与王答答相互指控、AOM泛泛转述不据本案扩大定性。"
+    ],
+    "evidence": [
+      "docs/sources/hydra-root-rmt-2019.md",
+      "src/people/emmadag-saraki/materials-emmadag-saraki.md"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6308330950.json",
+    "fetched_at": "2026-10-10T11:58:08.951Z",
+    "main_posts": 54,
+    "subposts": 131,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      15,
+      16,
+      18,
+      20,
+      21,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      64,
+      65,
+      67,
+      68,
+      69
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 13,
+        "fetched": 12,
+        "error": null
+      },
+      {
+        "floor": 15,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 16,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 18,
+        "expected": 12,
+        "fetched": 10,
+        "error": null
+      },
+      {
+        "floor": 29,
+        "expected": 24,
+        "fetched": 16,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 12,
+        "fetched": 8,
+        "error": null
+      },
+      {
+        "floor": 44,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 45,
+        "expected": 39,
+        "fetched": 38,
+        "error": null
+      },
+      {
+        "floor": 62,
+        "expected": 11,
+        "fetched": 10,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

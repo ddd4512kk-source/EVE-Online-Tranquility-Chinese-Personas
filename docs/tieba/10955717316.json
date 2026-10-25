@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "thread_id": "10955717316",
+  "url": "https://tieba.baidu.com/p/10955717316",
+  "title": "落叶星海黑色乌鸦太贪污军团装备了，居然。。",
+  "references": [
+    "src/people/docter-hikanami/docter-hikanami.md",
+    "src/people/docter-hikanami/materials-docter-hikanami.md",
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10955717316",
+        "初始引用文件": "src/people/docter-hikanami/docter-hikanami.md;src/people/docter-hikanami/materials-docter-hikanami.md;src/people/sirses/materials-sirses.md;src/people/sirses/sirses.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "9",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "6",
+        "已取楼中楼": "3",
+        "楼中楼计数差": "1",
+        "人工处理": "已读全部可见文字与楼中楼；素材补上下文及反方，附图待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10955717316.json",
+    "fetched_at": "2026-10-10T14:34:23.190Z",
+    "main_posts": 6,
+    "subposts": 3,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

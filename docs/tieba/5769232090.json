@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "thread_id": "5769232090",
+  "url": "https://tieba.baidu.com/p/5769232090",
+  "title": "什么七大罪？我看到的比你更深",
+  "references": [
+    "src/people/yinhun-lrd/materials-yinhun-lrd.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5769232090",
+        "初始引用文件": "src/people/yinhun-lrd/materials-yinhun-lrd.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "17",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "7",
+        "已取楼中楼": "9",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5769232090.json",
+    "fetched_at": "2026-10-10T14:25:39.540Z",
+    "main_posts": 7,
+    "subposts": 9,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -28,7 +28,14 @@
         "file": "docs/writing-review.md",
         "contains": "标签表示活动圈子"
       }
-    ]
+    ],
+    "checks": {
+      "profile": "收录号综合KB、常用船及实际职责",
+      "alts": "主力小号与售号归因边界",
+      "peaks": "高值月份与代表KM的采用或略过理由",
+      "battles": "已有战役对照、窗口与本人角色",
+      "narrative": "调查发现进入正文的具体位置与综合点评"
+    }
   },
   "battle-attribution": {
     "kinds": [
@@ -80,5 +87,70 @@
         "heading": "## 相关视频填写"
       }
     ]
+  },
+  "persona-tags": {
+    "kinds": [
+      "person"
+    ],
+    "implementation": [
+      "scripts/corporation-tags.mjs"
+    ],
+    "pattern": "总监|教官|招新|RMT|脚本|诈骗|内讧|决裂|弹劾",
+    "rules": [
+      {
+        "file": "docs/writing-review.md",
+        "heading": "## 标签"
+      }
+    ]
+  },
+  "famous-fc": {
+    "kinds": [
+      "person"
+    ],
+    "implementation": [
+      "scripts/battles.mjs",
+      "scripts/person-identity.mjs",
+      "scripts/battle-archive.mjs"
+    ],
+    "pattern": "著名FC|FC|指挥|带队",
+    "rules": [
+      {
+        "file": "docs/writing-review.md",
+        "contains": "标签表示活动圈子"
+      }
+    ]
+  },
+  "writing-depth": {
+    "kinds": [
+      "person"
+    ],
+    "eventReview": true,
+    "implementation": [
+      "scripts/review.mjs"
+    ],
+    "pattern": "封号|封禁|永封|RMT|诈骗|骗钱|卷款|脚本|内讧|决裂|出走|弹劾|丑闻|背刺|清算",
+    "rules": [
+      {
+        "file": "docs/writing-review.md",
+        "heading": "## 发挥边界"
+      },
+      {
+        "file": "docs/writing-review.md",
+        "heading": "## 发挥要显著"
+      },
+      {
+        "file": "docs/writing-review.md",
+        "heading": "## 重料的分量与发挥验收"
+      },
+      {
+        "file": "docs/writing-review.md",
+        "heading": "## 黑料过多时合并与取舍"
+      }
+    ],
+    "checks": {
+      "coverage": "对照完整正文与已有素材，清点独立事件及未采用重料",
+      "events": "逐件判分量、采用方式、发挥方向与充分程度",
+      "balance": "检查重料在全文中的叙事分量、主线与评语"
+    }
   }
 }

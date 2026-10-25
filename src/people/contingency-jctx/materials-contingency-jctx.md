@@ -1,6 +1,6 @@
 # 剑穿天下：素材与来源
 
-- Contingency-JCTX／2118016008，[ESI](https://esi.evetech.net/latest/characters/2118016008/)头衔“剑穿天下”，当前Stardust-Guardian／98550682、FRT。宁静服角色与中文头衔直接对应，此前[星尘候选](../../../docs/leads/sg-cn-fc-followup-2026-10-12.md)已有备案；不是天空纸条，仅同团不足以合并。
+- Contingency-JCTX／2118016008，[ESI](https://esi.evetech.net/latest/characters/2118016008/)头衔“剑穿天下”，当前Stardust-Guardian／98550682、FRT。宁静服角色与中文头衔直接对应，此前[星尘名片核读摘记](../../../docs/corporations/notes/member-research/98550682.md#星尘前十名片核读2026-10-12)已有备案；不是天空纸条，仅同团不足以合并。
 - 本人简介以“All progress depends on the unreasonable man.”开篇，挂Nitor1013Z海神、Chad Flame恶狼、Deimos24列沙克、Grunt Kado巴戈龙、JJ SoulMate噩梦等11条KM。这里只归纳本人奖杯墙，不把尚未核读的KM追加为单杀、具体指挥或新战役。
 - [个人统计](https://zkillboard.com/character/2118016008/stats/)Chrome实读：13,647条参与击杀、8.08T ISK；324条损失、95.44B ISK；280条单杀。与军团统计范围分开，不合计其他号。
 - [九月Monitor榜](https://zkillboard.com/corporation/98550682/top/year/2026/month/9/ship/45534/)仅本号，59条；Top Ships仅Monitor。不是59次出勤或59场胜利。

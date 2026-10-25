@@ -24,4 +24,4 @@
 
 ## 同中文头衔的另一人物候选
 
-混沌历史榜第49名ces-mots-sonnent-faux（2113420879）在2026-10-14[ESI](https://esi.evetech.net/latest/characters/2113420879/)头衔“鱼头#04100”，当前SARD／FRT；简介自称反馒七年、纪念TGA与旧团友但“除了DomiTyphoon”。其具体旧事沿[成员榜](corp-top-characters-2026-10-12.md)继续追，与本页BOP／DC鱼头角色没有同人桥，不只因同中文名并号。
+混沌历史榜第49名ces-mots-sonnent-faux（2113420879）在2026-10-14[ESI](https://esi.evetech.net/latest/characters/2113420879/)头衔“鱼头#04100”，当前SARD／FRT；简介自称反馒七年、纪念TGA与旧团友但“除了DomiTyphoon”。其具体旧事沿[成员榜](../corporations/notes/member-research.md)继续追，与本页BOP／DC鱼头角色没有同人桥，不只因同中文名并号。

@@ -40,7 +40,7 @@
 
 ## Wings 执行公司角色归位（2026-10-13）
 
-原[执行军团队列](../../../docs/leads/executor-corps-2026-10-11.md)将2113821509留作未认角色，但本素材已对应该号 Black Hand F 属加一。此次[角色 ESI](https://esi.evetech.net/latest/characters/2113821509/)返回 Black Hand F、当前 Wings Holding／98825876、Wings Freedom.／99014783，简介为空，无中文头衔；对应仍复用既有明确同人记录，不靠空简介猜管理身份。
+原[执行军团队列](../../../docs/corporations/notes/executors.md)将2113821509留作未认角色，但本素材已对应该号 Black Hand F 属加一。此次[角色 ESI](https://esi.evetech.net/latest/characters/2113821509/)返回 Black Hand F、当前 Wings Holding／98825876、Wings Freedom.／99014783，简介为空，无中文头衔；对应仍复用既有明确同人记录，不靠空简介猜管理身份。
 
 [军团 ESI](https://esi.evetech.net/latest/corporations/98825876/)返回 Wings Holding／WOFHD，2026-02-07T11:13:58Z成立，创建者与当前 CEO 均2113821509；查询时13个角色，不等于13个真人或管理者。成立日期是执行公司的成立日，不认作联盟成立日；当前CEO字段与创建者字段不能证明中间一直连续任职，任期变化仍待历史来源。
 

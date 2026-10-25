@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "thread_id": "7262369645",
+  "url": "https://tieba.baidu.com/p/7262369645",
+  "title": "我要加入VVV抗日！",
+  "references": [
+    "src/people/nany-1419/materials-nany-1419.md",
+    "src/people/nany-1419/nany-1419.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7262369645",
+        "初始引用文件": "src/people/nany-1419/materials-nany-1419.md;src/people/nany-1419/nany-1419.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "41",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "22",
+        "已取楼中楼": "14",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7262369645.json",
+    "fetched_at": "2026-10-10T13:52:56.380Z",
+    "main_posts": 22,
+    "subposts": 14,
+    "floors": [
+      1,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25,
+      27,
+      28,
+      30,
+      31,
+      32,
+      33
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 11,
+        "expected": 7,
+        "fetched": 4,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

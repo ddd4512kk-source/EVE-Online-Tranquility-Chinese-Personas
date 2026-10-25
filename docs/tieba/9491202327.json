@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "thread_id": "9491202327",
+  "url": "https://tieba.baidu.com/p/9491202327",
+  "title": "论为什么曾经的天团加入frt都凉了?",
+  "references": [
+    "docs/sources/corp-vitality-debate-2025.md",
+    "src/people/flashing-shark/flashing-shark.md",
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/trumps-bloodthirst-feynman/materials-trumps-bloodthirst-feynman.md",
+    "src/people/trumps-bloodthirst-feynman/trumps-bloodthirst-feynman.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9491202327",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "104",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "41",
+        "已取楼中楼": "63",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9491202327",
+        "列表回复数": "103",
+        "标题": "论为什么曾经的天团加入frt都凉了?",
+        "人工处理": "41主楼63楼中楼文字已读，1图已读4图待核；星星、嗜血、随风增量归[共用摘要](../sources/corp-vitality-debate-2025.md)"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9491202327.json",
+    "fetched_at": "2026-10-10T16:39:34.302Z",
+    "main_posts": 41,
+    "subposts": 63,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      47,
+      59,
+      67,
+      69,
+      70
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 19,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

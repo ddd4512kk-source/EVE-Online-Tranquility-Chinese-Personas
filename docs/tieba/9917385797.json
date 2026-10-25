@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "thread_id": "9917385797",
+  "url": "https://tieba.baidu.com/p/9917385797",
+  "title": "【EVE】大型纪录片之瞒天过海，铁道阿巴宗第十九次护航，偷偷锚了两个建筑",
+  "references": [
+    "src/people/gga-f/materials-gga-f.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9917385797",
+        "初始引用文件": "src/people/gga-f/materials-gga-f.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "4",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "3",
+        "已取楼中楼": "1",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9917385797.json",
+    "fetched_at": "2026-10-10T14:38:08.029Z",
+    "main_posts": 3,
+    "subposts": 1,
+    "floors": [
+      1,
+      2,
+      3
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

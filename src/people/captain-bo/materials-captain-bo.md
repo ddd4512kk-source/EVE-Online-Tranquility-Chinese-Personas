@@ -20,7 +20,7 @@
 
 ## 老许任内招新（贴吧）
 
-[《EVE日记》](https://tieba.baidu.com/p/9765762813)（2025-06-05起，zhuiyi080909，角色YutuMoon，后用Smilelily）：2025-05-13帮助频道提问后，Ya Lian转300万、Aursa Otsolen 5000万、sandy yu 6,666,666、MSG-MashiMaro 2000万“并提议让我进入他的军团”；05-14 MSG-MashiMaro再给3000万买狂怒者。MSG-MashiMaro为红楼历史榜第14、头衔“曲馨”（见[成员榜](../../../docs/leads/corp-top-characters-2026-10-12.md)）。楼主后续写“军团”活动，未明写团名。12楼沙弥道童书生（2025-06-06）“红楼这个团真的一言难尽，祝楼主游戏快乐”。[招新系统可行性研究](https://tieba.baidu.com/p/9713928452)楼中楼（2025-05-16，麦克EVE）：“这个6666666是说他会在频道里给打1的同学打6666666isk，他是红楼军团的”——所指应为转6,666,666的sandy yu，角色ID与军团未核。
+[《EVE日记》](https://tieba.baidu.com/p/9765762813)（2025-06-05起，zhuiyi080909，角色YutuMoon，后用Smilelily）：2025-05-13帮助频道提问后，Ya Lian转300万、Aursa Otsolen 5000万、sandy yu 6,666,666、MSG-MashiMaro 2000万“并提议让我进入他的军团”；05-14 MSG-MashiMaro再给3000万买狂怒者。MSG-MashiMaro为红楼历史榜第14、头衔“曲馨”（见[成员榜](../../../docs/corporations/notes/member-research.md)）。楼主后续写“军团”活动，未明写团名。12楼沙弥道童书生（2025-06-06）“红楼这个团真的一言难尽，祝楼主游戏快乐”。[招新系统可行性研究](https://tieba.baidu.com/p/9713928452)楼中楼（2025-05-16，麦克EVE）：“这个6666666是说他会在频道里给打1的同学打6666666isk，他是红楼军团的”——所指应为转6,666,666的sandy yu，角色ID与军团未核。
 
 ## CEO任期
 

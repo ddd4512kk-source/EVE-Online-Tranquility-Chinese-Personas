@@ -38,7 +38,7 @@ DOTLAN（2026-10-15）显示红楼476人，税率15%。
 
 [DOTLAN事件页](https://evemaps.dotlan.net/corp/98642382/events)列两次CEO更替：2025-02-10 08:01 DEMA 119辞职、任命Dema1；2025-04-05 20:22 Dema1辞职、任命Captain Bo（2025-03-19入团，见[老许素材](../captain-bo/materials-captain-bo.md)）。2025-02-10之前页面未列更替；DEMA 119为创建者，按创团起任CEO计，任期约2020-05-12至2025-02-10。交接原因无来源。
 
-现任军团简介仍写入团向Dema1发邮件，见[军团简介汇总](../../../docs/leads/corp-descriptions-2026.md)。
+现任军团简介仍写入团向Dema1发邮件，见[军团简介汇总](../../../docs/corporations/notes/descriptions.md)。
 
 ## 名片与他称
 

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "thread_id": "10903504830",
+  "url": "https://tieba.baidu.com/p/10903504830",
+  "title": "（吃瓜）「血脉王」覆灭记",
+  "references": [
+    "src/people/hm-hongming/materials-hm-hongming.md",
+    "src/people/rudy-rogue-op1/materials-rudy-rogue-op1.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10903504830",
+        "初始引用文件": "src/people/hm-hongming/materials-hm-hongming.md;src/people/rudy-rogue-op1/materials-rudy-rogue-op1.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "191",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "69",
+        "已取楼中楼": "122",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10903504830.json",
+    "fetched_at": "2026-10-10T12:07:14.319Z",
+    "main_posts": 69,
+    "subposts": 122,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      59,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      69,
+      70,
+      71,
+      72
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 10,
+        "fetched": 9,
+        "error": null
+      },
+      {
+        "floor": 35,
+        "expected": 12,
+        "fetched": 11,
+        "error": null
+      },
+      {
+        "floor": 63,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 65,
+        "expected": 7,
+        "fetched": 5,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

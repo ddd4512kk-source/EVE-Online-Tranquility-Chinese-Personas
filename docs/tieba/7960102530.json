@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "thread_id": "7960102530",
+  "url": "https://tieba.baidu.com/p/7960102530",
+  "title": "南华大酱来稿",
+  "references": [
+    "src/people/nanhua-college/materials-nanhua-college.md",
+    "src/people/nanhua-college/nanhua-college.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7960102530",
+        "初始引用文件": "src/people/nanhua-college/materials-nanhua-college.md;src/people/nanhua-college/nanhua-college.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "9",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "9",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7960102530.json",
+    "fetched_at": "2026-10-10T14:34:39.783Z",
+    "main_posts": 9,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

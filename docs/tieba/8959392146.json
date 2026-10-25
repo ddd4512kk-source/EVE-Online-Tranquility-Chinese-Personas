@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "thread_id": "8959392146",
+  "url": "https://tieba.baidu.com/p/8959392146",
+  "title": "不知不觉就入坑一年了来个回忆录吧。",
+  "references": [
+    "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
+    "src/people/senri9067/materials-senri9067.md",
+    "src/people/senri9067/senri9067.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8959392146",
+        "初始引用文件": "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "50",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "24",
+        "已取楼中楼": "26",
+        "楼中楼计数差": "2",
+        "人工处理": "已读并归档：senri9067素材",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8959392146.json",
+    "fetched_at": "2026-10-10T13:42:35.240Z",
+    "main_posts": 24,
+    "subposts": 26,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 10,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  },
+  "discovery": {
+    "scan_id": "senri-topics-2026-10-25",
+    "scope": "本人主题目录入口，未读全文不升级状态"
+  }
+}

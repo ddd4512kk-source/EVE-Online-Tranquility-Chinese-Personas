@@ -53,7 +53,7 @@
 
 ## Dusk历史榜前50名片增量（2026-10-14）
 
-[Aitt duominx](https://esi.evetech.net/latest/characters/2118339639/)当前头衔仍为“多米 CEO”，当前Dusk；简介写HONK、JOIN DC，挂夜神、冥府、泰坦、无畏等超网订单。订单入口仅为公开交易文案，不证明参与者付款、实际成交或转让，不套作跑路或欺诈故事。军团与个人页面多个总监名字已保留于[唯一成员榜队列](../../../docs/leads/corp-top-characters-2026-10-12.md#dusk前50头衔增量2026-10-14)，尚未把其行为、任期或公司文案作者统归多米。已有CEO、宫斗、投诉与战役故事保留。
+[Aitt duominx](https://esi.evetech.net/latest/characters/2118339639/)当前头衔仍为“多米 CEO”，当前Dusk；简介写HONK、JOIN DC，挂夜神、冥府、泰坦、无畏等超网订单。订单入口仅为公开交易文案，不证明参与者付款、实际成交或转让，不套作跑路或欺诈故事。军团与个人页面多个总监名字已保留于[唯一成员榜队列](../../../docs/corporations/notes/member-research/98817310.md#dusk前50头衔增量2026-10-14)，尚未把其行为、任期或公司文案作者统归多米。已有CEO、宫斗、投诉与战役故事保留。
 
 ## 空间排序入口补取（2026-10-16）
 
@@ -116,3 +116,7 @@
 新增精选：
 - [《EVE 欧服：INIT突袭 WC，90 Napoc 对 130 Raven》](https://www.bilibili.com/video/BV1gsz1B3EGX/)：标题把两边舰队规模和主力船型摆在一起，是频道日常舰队战题材的一条直观入口。
 - [《EVE 欧服 PHCN会议（第二段）》](https://www.bilibili.com/video/BV19Abxz7E37/)：会议记录把视线从战场转到组织内部；与第一段连读，可以补上FC频道之外的管理场景。
+
+## 执行军团小号对应
+
+2026-10-25读取[Fugas duominx的ESI名片](https://esi.evetech.net/latest/characters/2120130334/?datasource=tranquility)及现有收录号名片，身份关系登记于本人档案。Fugas简介为默认介绍，无新增本人故事。

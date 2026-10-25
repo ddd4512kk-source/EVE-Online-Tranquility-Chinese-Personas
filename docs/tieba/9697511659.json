@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "thread_id": "9697511659",
+  "url": "https://tieba.baidu.com/p/9697511659",
+  "title": "古兔子舰队2025年5月招新，欢迎喜欢低烈度PVP的新人加入",
+  "references": [
+    "docs/leads/tieba-corp-diaries.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9697511659.json",
+    "fetched_at": "2026-10-10T15:17:04.876Z",
+    "main_posts": 11,
+    "subposts": 44,
+    "floors": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 45,
+        "fetched": 40,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

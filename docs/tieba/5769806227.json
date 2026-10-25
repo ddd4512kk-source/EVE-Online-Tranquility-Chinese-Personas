@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "thread_id": "5769806227",
+  "url": "https://tieba.baidu.com/p/5769806227",
+  "title": "RR联盟对整个事件的官方回应",
+  "references": [
+    "src/people/yinhun-lrd/materials-yinhun-lrd.md",
+    "src/people/zhong-ma/materials-zhong-ma.md",
+    "src/people/zhong-ma/zhong-ma.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5769806227",
+        "初始引用文件": "src/people/yinhun-lrd/materials-yinhun-lrd.md;src/people/zhong-ma/materials-zhong-ma.md;src/people/zhong-ma/zhong-ma.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "57",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "21",
+        "已取楼中楼": "21",
+        "楼中楼计数差": "6",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5769806227.json",
+    "fetched_at": "2026-10-10T13:33:22.800Z",
+    "main_posts": 21,
+    "subposts": 21,
+    "floors": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 9,
+        "expected": 10,
+        "fetched": 9,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 6,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 25,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

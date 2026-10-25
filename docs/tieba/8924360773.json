@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "thread_id": "8924360773",
+  "url": "https://tieba.baidu.com/p/8924360773",
+  "title": "ICG旗下华人军团先击毙后踢团",
+  "references": [
+    "docs/sources/jade-kirin-disciplinary-2024-03-05.md",
+    "docs/tieba-review-2026-10-10.md",
+    "src/people/ba-yun/materials-ba-yun.md",
+    "src/people/langgu-fs/langgu-fs.md",
+    "src/people/langgu-fs/materials-langgu-fs.md",
+    "src/people/lao-ying/lao-ying.md",
+    "src/people/lao-ying/materials-lao-ying.md",
+    "src/people/yilifaer/materials-yilifaer.md",
+    "src/people/yilifaer/yilifaer.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "8924360773",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "首尾已取",
+        "接口回复数": "85",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "23",
+        "已取楼中楼": "59",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "8924360773",
+        "原帖": "https://tieba.baidu.com/p/8968264055",
+        "楼层": "32",
+        "来源位置": "楼中楼",
+        "状态": "首尾已取得；尚未人工核读，不能仅按标题筛选"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/linked/8924360773.json",
+    "fetched_at": "2026-10-11T01:18:10.051Z",
+    "main_posts": 23,
+    "subposts": 59,
+    "floors": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      21,
+      22,
+      23,
+      24,
+      29,
+      30,
+      32,
+      35,
+      36,
+      37,
+      38
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 23,
+        "expected": 14,
+        "fetched": 11,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 7,
+        "fetched": 5,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

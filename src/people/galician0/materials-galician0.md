@@ -17,7 +17,7 @@
 ## 公开市场发言与已有统计
 
 - [官方论坛《WTS 10m Tengu》#2](https://forums.eveonline.com/t/wts-10m-tengu/271883/2)，2020-10-07，同名 Galician0 账号回复“i will offer 4b,if u agree”；卖家开价 7B。这是报价，不证明成交或角色最终归属。正文以同名公开账号表述。
-- [成员历史榜](../../../docs/leads/corp-top-characters-2026-10-12.tsv)：ChuangShi all-time 4812 次参与击杀、约 3.469T；Navigators' Union all-time 564 次、约 178.98B。均限定军团榜单，不相加成全生涯 KB，不据榜排名认 FC。
+- [成员历史榜](../../../docs/corporations/README.md)：ChuangShi all-time 4812 次参与击杀、约 3.469T；Navigators' Union all-time 564 次、约 178.98B。均限定军团榜单，不相加成全生涯 KB，不据榜排名认 FC。
 - 搜索 Galician0、加利西亚 eve欧服、加利西亚 狼心守望者：英文名命中普通击杀与市场发言，中文未新增可用网页故事。普通魔像损失不作黑料；独狼击杀检索结果未整页核读，不添具体战果。贴吧本地缓存命中上述主权战回顾；本次未另查 B站。
 
 ## FC角色与来源边界

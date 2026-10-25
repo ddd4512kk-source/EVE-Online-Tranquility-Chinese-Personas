@@ -22,7 +22,7 @@ B站：[《EVE 红领巾反向招新》](https://www.bilibili.com/video/BV1SG8r6
 
 ## CEO 同根角色榜单核对（2026-10-22）
 
-[华人军团历史 Top 榜](../../../docs/leads/corp-top-characters-2026-10-12.tsv)的 Red Scarf Humpback（98632030）all-time 项中，Monster0001（2122641476，第61）与 Monster0002（2122641634，第82）、Monster0005（2122647502，第84）、Monster0004（2122647496，第86）、Monster0003（2122647469，第92）同时出现。四个候选号与现任 CEO Monster0001 为完全相同词根加数字，且均在同一军团历史榜；按人物身份规则归为同人小号。榜单只提供组织活动记录，不据排名推断 CEO、FC 职务或个人功劳。
+[华人军团历史 Top 榜](../../../docs/corporations/README.md)的 Red Scarf Humpback（98632030）all-time 项中，Monster0001（2122641476，第61）与 Monster0002（2122641634，第82）、Monster0005（2122647502，第84）、Monster0004（2122647496，第86）、Monster0003（2122647469，第92）同时出现。四个候选号与现任 CEO Monster0001 为完全相同词根加数字，且均在同一军团历史榜；按人物身份规则归为同人小号。榜单只提供组织活动记录，不据排名推断 CEO、FC 职务或个人功劳。
 
 ## 2026-10-10 高回复漏帖补查
 

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "thread_id": "10435247716",
+  "url": "https://tieba.baidu.com/p/10435247716",
+  "title": "以后碰到创世我杀还是不杀",
+  "references": [
+    "src/people/koko1-k/materials-koko1-k.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10435247716",
+        "初始引用文件": "src/people/koko1-k/materials-koko1-k.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "8",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "4",
+        "已取楼中楼": "3",
+        "楼中楼计数差": "0",
+        "人工处理": "已读全部文字与楼中楼；原正文已涵盖，未重复加块",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10435247716.json",
+    "fetched_at": "2026-10-10T14:35:10.225Z",
+    "main_posts": 4,
+    "subposts": 3,
+    "floors": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

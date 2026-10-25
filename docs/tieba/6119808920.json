@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "thread_id": "6119808920",
+  "url": "https://tieba.baidu.com/p/6119808920",
+  "title": "馒头加入TEST后搞死搞残ENPL",
+  "references": [
+    "src/people/reisen-evil/materials-reisen-evil.md",
+    "src/people/reisen-evil/reisen-evil.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6119808920",
+        "初始引用文件": "src/people/reisen-evil/materials-reisen-evil.md;src/people/reisen-evil/reisen-evil.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "37",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "13",
+        "已取楼中楼": "19",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6119808920.json",
+    "fetched_at": "2026-10-10T13:57:30.630Z",
+    "main_posts": 13,
+    "subposts": 19,
+    "floors": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 10,
+        "fetched": 8,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

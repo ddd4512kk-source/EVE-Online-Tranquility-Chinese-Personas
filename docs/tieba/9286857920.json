@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "thread_id": "9286857920",
+  "url": "https://tieba.baidu.com/p/9286857920",
+  "title": "实际上，我对国外祛魅早就开始了",
+  "references": [
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/gone-with-windy/materials-gone-with-windy.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9286857920",
+        "初始引用文件": "src/people/gone-with-windy/gone-with-windy.md;src/people/gone-with-windy/materials-gone-with-windy.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "560",
+        "主楼总页数": "4",
+        "主楼分页完成": "true",
+        "已取主楼": "107",
+        "已取楼中楼": "335",
+        "楼中楼计数差": "69",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "#19:1",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9286857920.json",
+    "fetched_at": "2026-10-10T15:29:12.245Z",
+    "main_posts": 107,
+    "subposts": 335,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      70,
+      72,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      98,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      115,
+      116,
+      118,
+      119,
+      120,
+      121,
+      122,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ],
+    "orders": {
+      "forward": {
+        "pages": 4,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "total_pages": 4,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 4,
+        "page_numbers": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "total_pages": 4,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 8,
+        "expected": 28,
+        "fetched": 22,
+        "error": null
+      },
+      {
+        "floor": 12,
+        "expected": 45,
+        "fetched": 33,
+        "error": null
+      },
+      {
+        "floor": 14,
+        "expected": 14,
+        "fetched": 9,
+        "error": null
+      },
+      {
+        "floor": 16,
+        "expected": 68,
+        "fetched": 65,
+        "error": null
+      },
+      {
+        "floor": 19,
+        "expected": 5,
+        "fetched": 0,
+        "error": null
+      },
+      {
+        "floor": 23,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 24,
+        "expected": 23,
+        "fetched": 18,
+        "error": null
+      },
+      {
+        "floor": 30,
+        "expected": 11,
+        "fetched": 8,
+        "error": null
+      },
+      {
+        "floor": 31,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 32,
+        "expected": 11,
+        "fetched": 9,
+        "error": null
+      },
+      {
+        "floor": 34,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 39,
+        "expected": 5,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 43,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 52,
+        "expected": 13,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 78,
+        "expected": 9,
+        "fetched": 7,
+        "error": null
+      },
+      {
+        "floor": 82,
+        "expected": 10,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 103,
+        "expected": 10,
+        "fetched": 8,
+        "error": null
+      },
+      {
+        "floor": 106,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 120,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

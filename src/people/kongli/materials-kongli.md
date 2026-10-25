@@ -27,7 +27,7 @@
 
 ## 泡泡很忙同人号
 
-2021年9月AOM榜第47名dawnstar091 XX（2113770232），参与击杀150条；2026-10-14[角色ESI](https://esi.evetech.net/latest/characters/2113770232/)头衔“泡泡很忙”，同XXXHolic-TK X当前PLA，直接归为这位前任CEO的另一号，不归空离。简介为字符画，无管理事件增量。保留[原榜队列](../../../docs/leads/aom-monthly-2021-09.md)，现实联系方式不归档。
+2021年9月AOM榜第47名dawnstar091 XX（2113770232），参与击杀150条；2026-10-14[角色ESI](https://esi.evetech.net/latest/characters/2113770232/)头衔“泡泡很忙”，同XXXHolic-TK X当前PLA，直接归为这位前任CEO的另一号，不归空离。简介为字符画，无管理事件增量。保留[原榜队列](../../../docs/corporations/notes/aom-2021-09.md)，现实联系方式不归档。
 
 2026-10-14 BOP历史榜第26名[Stone Xiao／2114820480](https://esi.evetech.net/latest/characters/2114820480/)头衔“泡泡很忙”、同当前PLA，归XXXHolic-TK X与dawnstar091 XX同人组，不并空离；头衔中的联系方式不保存。简介为总览／广播与FRT故土之墓、蟑螂、CCP警用战列舰、世界方舟物品入口，不认作者、全部参战或小号指挥职务，也不将这些收藏升级为独立故事。
 

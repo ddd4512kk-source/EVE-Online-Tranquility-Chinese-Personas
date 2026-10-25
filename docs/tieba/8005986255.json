@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "thread_id": "8005986255",
+  "url": "https://tieba.baidu.com/p/8005986255",
+  "title": "号外号外号外  DC水果商被曝！！！",
+  "references": [
+    "src/people/qi-mo/materials-qi-mo.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8005986255",
+        "初始引用文件": "src/people/qi-mo/materials-qi-mo.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "185",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "57",
+        "已取楼中楼": "96",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8005986255.json",
+    "fetched_at": "2026-10-10T12:11:15.534Z",
+    "main_posts": 57,
+    "subposts": 96,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      37,
+      38,
+      39,
+      40,
+      42,
+      43,
+      49,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      63,
+      64,
+      65,
+      67,
+      69,
+      71,
+      72,
+      74,
+      75,
+      76,
+      77
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 18,
+        "expected": 15,
+        "fetched": 12,
+        "error": null
+      },
+      {
+        "floor": 26,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 38,
+        "expected": 10,
+        "fetched": 9,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

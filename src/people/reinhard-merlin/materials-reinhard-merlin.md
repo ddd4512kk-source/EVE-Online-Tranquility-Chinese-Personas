@@ -7,7 +7,7 @@
 - 2017 年《我为什么离开PLA》楼主 Turfmaniago（UID 829870626）是**另一位凯撒**，不是 Reinhard Merlin，也不是上述贴吧账号。其故事单独保存在[离团帖摘要](../../../docs/sources/pla-kaisa-departure-2017.md)。
 - Cesar Barviainen（2113682367）为非华人独立玩家，已排除华人 FC 候选与本人小号调查；不再凭英文近似继续追同人关系。
 
-游戏内头衔“凯撒”、PLA 归属与 Monitor 记录见[战报线索](../../../docs/leads/dc-br-monthly-discovery-2026-10-12.md)。本日 ESI 雇佣记录显示该号 2016 年、2017 年曾在 Fuxi，2025-04-25 加入 PLA；历史角色履历不等于自然人的首次入团日期，也不据此推断此前角色交易。
+游戏内头衔“凯撒”、PLA 归属与 Monitor 记录见[战报线索](../../../docs/corporations/notes/dc-discovery.md)。本日 ESI 雇佣记录显示该号 2016 年、2017 年曾在 Fuxi，2025-04-25 加入 PLA；历史角色履历不等于自然人的首次入团日期，也不据此推断此前角色交易。
 
 ## 已保存的社区入口
 

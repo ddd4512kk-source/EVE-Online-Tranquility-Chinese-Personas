@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "thread_id": "10602413301",
+  "url": "https://tieba.baidu.com/p/10602413301",
+  "title": "虫洞常见公司及势力介绍",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10602413301",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "107",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "43",
+        "已取楼中楼": "64",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10602413301",
+        "列表回复数": "106",
+        "标题": "虫洞常见公司及势力介绍",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10602413301.json",
+    "fetched_at": "2026-10-10T16:37:09.504Z",
+    "main_posts": 43,
+    "subposts": 64,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      20,
+      21,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      51
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 4,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 24,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 34,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "thread_id": "6032644430",
+  "url": "https://tieba.baidu.com/p/6032644430",
+  "title": "【转载】EVE欧服虫洞势力科普",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "6032644430",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "首尾已取",
+        "接口回复数": "293",
+        "主楼总页数": "4",
+        "主楼分页完成": "true",
+        "已取主楼": "112",
+        "已取楼中楼": "166",
+        "楼中楼计数差": "10",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "6032644430",
+        "原帖": "https://tieba.baidu.com/p/6246322776",
+        "楼层": "49",
+        "来源位置": "主楼",
+        "状态": "首尾已取得；尚未人工核读，不能仅按标题筛选"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/linked/6032644430.json",
+    "fetched_at": "2026-10-11T01:06:29.281Z",
+    "main_posts": 112,
+    "subposts": 166,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      53,
+      54,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      138,
+      145,
+      146,
+      148,
+      163,
+      164,
+      165,
+      169,
+      172,
+      173,
+      175,
+      177,
+      178,
+      179,
+      180,
+      183,
+      184,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      196,
+      197,
+      198,
+      202,
+      203,
+      204,
+      205,
+      206,
+      208,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223
+    ],
+    "orders": {
+      "forward": {
+        "pages": 4,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "total_pages": 4,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 4,
+        "page_numbers": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "total_pages": 4,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 10,
+        "expected": 21,
+        "fetched": 20,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 15,
+        "fetched": 13,
+        "error": null
+      },
+      {
+        "floor": 36,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 53,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 54,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 67,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 77,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 178,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

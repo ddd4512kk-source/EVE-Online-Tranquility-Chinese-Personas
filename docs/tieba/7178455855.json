@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "thread_id": "7178455855",
+  "url": "https://tieba.baidu.com/p/7178455855",
+  "title": "收M2超期监狱内的超期，各种条件都能解决",
+  "references": [
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/people/nany-1419/materials-nany-1419.md",
+    "src/people/nany-1419/nany-1419.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7178455855",
+        "初始引用文件": "src/people/nany-1419/materials-nany-1419.md;src/people/nany-1419/nany-1419.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "7",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "7",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7178455855.json",
+    "fetched_at": "2026-10-10T14:36:19.480Z",
+    "main_posts": 7,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

@@ -70,7 +70,7 @@ Fadek Windy：2021-09-17 A1-AUH，KM 95188924，战时联盟 99009163，伤害 3
 
 ## 2026-10-13：执行军团小号与战役补漏
 
-[执行军团队列](../../../docs/leads/executor-corps-2026-10-11.md)仍把几个已知或署名号列作待认人，现按本人归位：
+[执行军团队列](../../../docs/corporations/notes/executors.md)仍把几个已知或署名号列作待认人，现按本人归位：
 
 - Baba s Gandurasa／93882790，[ESI](https://esi.evetech.net/latest/characters/93882790/)头衔“随风 GWW”、当前SummerHall／98601548、DC／99009163，简介为空；同军团、同中文头衔直接归随风。
 - Natalies Haginen／2113100728，[ESI](https://esi.evetech.net/latest/characters/2113100728/)头衔“北宅（随风）”，当前SummerHall、DC，直接署名同人，北宅纳入别名。

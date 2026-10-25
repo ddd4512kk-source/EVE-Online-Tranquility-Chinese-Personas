@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "thread_id": "10764811819",
+  "url": "https://tieba.baidu.com/p/10764811819",
+  "title": "Framgangur-高安0税休闲/新手团正在招新中",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10764811819",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "123",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "6",
+        "已取楼中楼": "117",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10764811819",
+        "列表回复数": "116",
+        "标题": "Framgangur-高安0税休闲/新手团正在招新中",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10764811819.json",
+    "fetched_at": "2026-10-10T16:25:51.377Z",
+    "main_posts": 6,
+    "subposts": 117,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 117,
+        "fetched": 115,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

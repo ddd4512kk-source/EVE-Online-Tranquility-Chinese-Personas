@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "thread_id": "7252647638",
+  "url": "https://tieba.baidu.com/p/7252647638",
+  "title": "卖手手精英PVP团绝地屠农日记",
+  "references": [
+    "docs/tieba-review-2026-10-10.md",
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.md",
+    "src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7252647638",
+        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "28",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "13",
+        "已取楼中楼": "10",
+        "楼中楼计数差": "0",
+        "人工处理": "已读全部文字；飞雪任内军团活动与对手说法归档；附图待补",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7252647638.json",
+    "fetched_at": "2026-10-10T14:09:38.671Z",
+    "main_posts": 13,
+    "subposts": 10,
+    "floors": [
+      1,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

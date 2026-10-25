@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "thread_id": "9697528989",
+  "url": "https://tieba.baidu.com/p/9697528989",
+  "title": "新人建团日记202505起",
+  "references": [
+    "docs/leads/tieba-corp-diaries.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "9697528989",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "341",
+        "主楼总页数": "4",
+        "主楼分页完成": "true",
+        "已取主楼": "119",
+        "已取楼中楼": "222",
+        "楼中楼计数差": "15",
+        "人工处理": "已读全部可见文字、楼中楼及日记唯一附图；麦克EVE角色待对应",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "9697528989",
+        "列表回复数": "339",
+        "标题": "新人建团日记202505起",
+        "人工处理": "可见正倒序与楼中楼文字通读，唯一附图核读；麦克EVE待对应，见建团日记线索"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/9697528989.json",
+    "fetched_at": "2026-10-10T15:07:31.758Z",
+    "main_posts": 119,
+    "subposts": 222,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ],
+    "orders": {
+      "forward": {
+        "pages": 4,
+        "complete": true,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "total_pages": 4
+      },
+      "reverse": {
+        "pages": 4,
+        "complete": true,
+        "page_numbers": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "total_pages": 4
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 4,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 5,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 23,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 25,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 44,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 45,
+        "expected": 6,
+        "fetched": 5,
+        "error": null
+      },
+      {
+        "floor": 47,
+        "expected": 9,
+        "fetched": 6,
+        "error": null
+      },
+      {
+        "floor": 56,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 72,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 95,
+        "expected": 10,
+        "fetched": 9,
+        "error": null
+      },
+      {
+        "floor": 122,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "kind": "corporation",
+  "id": "98608055",
+  "names": [
+    "Levy Guards",
+    "Levy Guards 勒维禁卫军"
+  ],
+  "rankings": [],
+  "account_groups": [],
+  "observations": [
+    {
+      "kind": "description",
+      "period": null,
+      "as_of": "2026-10-10",
+      "source": "docs/corporations/notes/descriptions.md",
+      "fields": {
+        "alliance": "Goons",
+        "member_count": "162",
+        "registered_ceo": "RelaxR",
+        "text": "“晨曦”来；“VENI VIDI VICI. former member”"
+      }
+    },
+    {
+      "kind": "historical-activity",
+      "period": "2022-01",
+      "as_of": null,
+      "source": "docs/corporations/sources/activity-2022-01.json",
+      "fields": {
+        "table_order": "14",
+        "identity_status": "宁静精确同名ID已定位；2022任职待核"
+      }
+    }
+  ],
+  "references": [
+    "docs/corporations/notes/descriptions.md",
+    "docs/corporations/notes/historical-2022-01.md"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "thread_id": "10387379729",
+  "url": "https://tieba.baidu.com/p/10387379729",
+  "title": "终于要进行大一统了吗？",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10387379729",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "126",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "14",
+        "已取楼中楼": "73",
+        "楼中楼计数差": "48",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10387379729",
+        "列表回复数": "124",
+        "标题": "终于要进行大一统了吗？",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10387379729.json",
+    "fetched_at": "2026-10-10T16:25:34.738Z",
+    "main_posts": 14,
+    "subposts": 73,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 6,
+        "expected": 106,
+        "fetched": 58,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

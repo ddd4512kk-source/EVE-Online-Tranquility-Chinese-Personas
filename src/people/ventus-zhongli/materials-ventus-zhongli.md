@@ -21,7 +21,7 @@
 
 ## AOM历史榜小号对应
 
-2021年9月AOM榜第24名JIU Shi（2115172272）参与击杀212条。2026-10-14[角色ESI](https://esi.evetech.net/latest/characters/2115172272/)头衔直接为“钟离尘风”，当前军团同为Faceless.（98645589／D.OK），归本人小号并列aliases。简介为“I will see you soon.”、广播预设及Dropping Dream冥府战果链接；未核这条KM，不据收藏认参与。榜单范围留[原队列](../../../docs/leads/aom-monthly-2021-09.md)，不与主号累计相加。
+2021年9月AOM榜第24名JIU Shi（2115172272）参与击杀212条。2026-10-14[角色ESI](https://esi.evetech.net/latest/characters/2115172272/)头衔直接为“钟离尘风”，当前军团同为Faceless.（98645589／D.OK），归本人小号并列aliases。简介为“I will see you soon.”、广播预设及Dropping Dream冥府战果链接；未核这条KM，不据收藏认参与。榜单范围留[原队列](../../../docs/corporations/notes/aom-2021-09.md)，不与主号累计相加。
 
 ## 组织身份与两期宁静访谈（2026-10-15）
 

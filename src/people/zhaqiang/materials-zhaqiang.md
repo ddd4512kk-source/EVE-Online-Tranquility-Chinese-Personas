@@ -18,7 +18,7 @@
 
 ## 已有榜单中的战绩线索
 
-[军团成员历史榜单](../../../docs/leads/corp-top-characters-2026-10-12.tsv)有同一角色两条记录：Special law enforcement department 的 all-time 榜列 1870 次击杀、参与击杀价值约 918.34B；BOP 的 all-time 榜列 1343 次、约 383.85B。均为各军团榜单口径，不能相加或充当本人全生涯综合 KB，也不证明指挥责任。完整综合 KB、大型战役与高价值旗舰记录尚未补查。
+[军团成员历史榜单](../../../docs/corporations/README.md)有同一角色两条记录：Special law enforcement department 的 all-time 榜列 1870 次击杀、参与击杀价值约 918.34B；BOP 的 all-time 榜列 1343 次、约 383.85B。均为各军团榜单口径，不能相加或充当本人全生涯综合 KB，也不证明指挥责任。完整综合 KB、大型战役与高价值旗舰记录尚未补查。
 
 ## 检索覆盖与后续缺口
 

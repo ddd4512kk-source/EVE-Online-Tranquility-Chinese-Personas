@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "thread_id": "8690541389",
+  "url": "https://tieba.baidu.com/p/8690541389",
+  "title": "我非常不看好此次北上",
+  "references": [
+    "src/people/asher-elias/asher-elias.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8690541389",
+        "初始引用文件": "src/people/asher-elias/asher-elias.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "28",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "15",
+        "已取楼中楼": "13",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8690541389.json",
+    "fetched_at": "2026-10-10T14:10:36.041Z",
+    "main_posts": 15,
+    "subposts": 13,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      17
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

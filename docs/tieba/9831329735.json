@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "thread_id": "9831329735",
+  "url": "https://tieba.baidu.com/p/9831329735",
+  "title": "请问这个游戏还有风评比较好的华人社区吗？",
+  "references": [
+    "src/people/gga-f/materials-gga-f.md",
+    "src/people/shiliu-xiaoming/materials-shiliu-xiaoming.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9831329735",
+        "初始引用文件": "src/people/gga-f/materials-gga-f.md;src/people/shiliu-xiaoming/materials-shiliu-xiaoming.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "117",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "65",
+        "已取楼中楼": "50",
+        "楼中楼计数差": "4",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9831329735.json",
+    "fetched_at": "2026-10-10T12:50:52.515Z",
+    "main_posts": 65,
+    "subposts": 50,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      32,
+      33,
+      34,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 10,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 41,
+        "expected": 4,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

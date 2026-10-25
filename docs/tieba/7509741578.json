@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "thread_id": "7509741578",
+  "url": "https://tieba.baidu.com/p/7509741578",
+  "title": "肃正破晓团招新，顶级福利，团结有爱的团队等你一起",
+  "references": [
+    "src/people/governor-lee/governor-lee.md",
+    "src/people/governor-lee/materials-governor-lee.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7509741578",
+        "初始引用文件": "src/people/governor-lee/governor-lee.md;src/people/governor-lee/materials-governor-lee.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "76",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "42",
+        "已取楼中楼": "32",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7509741578.json",
+    "fetched_at": "2026-10-10T13:19:49.287Z",
+    "main_posts": 42,
+    "subposts": 32,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      12,
+      13,
+      16,
+      17,
+      19,
+      20,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      50,
+      51,
+      52,
+      54
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 8,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 17,
+        "expected": 7,
+        "fetched": 6,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

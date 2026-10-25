@@ -10,7 +10,7 @@
 
 - 六条KM与逐号分布见共享摘要：UncleCube [137795252](https://zkillboard.com/kill/137795252/)、[137857699](https://zkillboard.com/kill/137857699/)；SwiftDog [137794846](https://zkillboard.com/kill/137794846/)；SwiftCow [137836191](https://zkillboard.com/kill/137836191/)、[137853818](https://zkillboard.com/kill/137853818/)、[137875154](https://zkillboard.com/kill/137875154/)。带跳号UncleCubeO在该窗口无马克瑞损失。
 - 作者更正资历：当事人2026年7月才开始玩，早建的号不代表已玩半年。
-- 军团榜：UncleCubeO截图时69杀；2026-09月榜67杀；全期261杀、142.4B（corp-top-characters-2026-10-12.tsv）。
+- 军团榜：UncleCubeO截图时69杀；2026-09月榜67杀；全期261杀、142.4B（[共享角色记录](../corporations/characters/53.json)，角色ID 2124519553）。
 - 文章第18页补损邮件列表含UncleCubeO，无逐笔金额，不作全补或克扣结论。文中另提实践、海灾KM，未列明。
 
 ## 待查

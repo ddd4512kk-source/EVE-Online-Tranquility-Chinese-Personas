@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "thread_id": "9110481482",
+  "url": "https://tieba.baidu.com/p/9110481482",
+  "title": "真的是个天才",
+  "references": [
+    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/noraus.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9110481482",
+        "初始引用文件": "src/people/noraus/materials-noraus.md;src/people/noraus/noraus.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "117",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "23",
+        "已取楼中楼": "45",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9110481482.json",
+    "fetched_at": "2026-10-10T12:50:39.751Z",
+    "main_posts": 23,
+    "subposts": 45,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      31,
+      32
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 2,
+        "expected": 12,
+        "fetched": 11,
+        "error": null
+      },
+      {
+        "floor": 15,
+        "expected": 5,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 25,
+        "expected": 8,
+        "fetched": 7,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

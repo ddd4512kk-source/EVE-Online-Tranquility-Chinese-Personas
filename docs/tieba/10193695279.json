@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "thread_id": "10193695279",
+  "url": "https://tieba.baidu.com/p/10193695279",
+  "title": "局势又变了",
+  "references": [
+    "src/people/gobbins/gobbins.md",
+    "src/people/laohei2333333/laohei2333333.md",
+    "src/people/laohei2333333/materials-laohei2333333.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10193695279",
+        "初始引用文件": "src/people/gobbins/gobbins.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "23",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "11",
+        "已取楼中楼": "12",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10193695279.json",
+    "fetched_at": "2026-10-10T14:16:33.342Z",
+    "main_posts": 11,
+    "subposts": 12,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

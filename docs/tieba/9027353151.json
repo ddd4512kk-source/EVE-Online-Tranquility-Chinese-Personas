@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "thread_id": "9027353151",
+  "url": "https://tieba.baidu.com/p/9027353151",
+  "title": "AVR军团招新，以下是团员发自内心对avr的感谢",
+  "references": [
+    "src/people/koko1-k/materials-koko1-k.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9027353151",
+        "初始引用文件": "src/people/koko1-k/materials-koko1-k.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "2",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "2",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9027353151.json",
+    "fetched_at": "2026-10-10T14:38:47.654Z",
+    "main_posts": 2,
+    "subposts": 0,
+    "floors": [
+      1,
+      2
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

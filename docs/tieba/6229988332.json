@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "thread_id": "6229988332",
+  "url": "https://tieba.baidu.com/p/6229988332",
+  "title": "摸鱼日入百亿——三神裔突击舰Nergal燃烧者任务全攻略",
+  "references": [
+    "src/people/jing-ji/materials-jing-ji.md",
+    "src/people/shiliu-xiaoming/materials-shiliu-xiaoming.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6229988332",
+        "初始引用文件": "src/people/jing-ji/materials-jing-ji.md;src/people/shiliu-xiaoming/materials-shiliu-xiaoming.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "206",
+        "主楼总页数": "3",
+        "主楼分页完成": "true",
+        "已取主楼": "88",
+        "已取楼中楼": "116",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6229988332.json",
+    "fetched_at": "2026-10-10T11:58:43.700Z",
+    "main_posts": 88,
+    "subposts": 116,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      93
+    ],
+    "orders": {
+      "forward": {
+        "pages": 3,
+        "page_numbers": [
+          1,
+          2,
+          3
+        ],
+        "total_pages": 3,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 3,
+        "page_numbers": [
+          3,
+          2,
+          1
+        ],
+        "total_pages": 3,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 26,
+        "expected": 12,
+        "fetched": 11,
+        "error": null
+      },
+      {
+        "floor": 52,
+        "expected": 6,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 67,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 86,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

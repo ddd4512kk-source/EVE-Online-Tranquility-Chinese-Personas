@@ -12,4 +12,4 @@
 
 读完公开简介及API返回的一页热门评论：8个主评论、9条附带回复；作品元数据reply21，与实际可见17条不等，未展开全部楼中楼。播放1706为第三集元数据；空间合集卡显示3159，三集目录分别显示536、917、1706，合集展示值与单片播放分开。影像、音轨、字幕未读。
 
-对应人物：[王答答素材](../../src/people/drone-wang/materials-drone-wang.md)、[台风素材](../../src/people/domityphoon/materials-domityphoon.md)。账号／合集与其他候选留[原入口](../leads/tempestudf.md)，不另造重复人物队列。
+对应人物：[王答答素材](../../src/people/drone-wang/materials-drone-wang.md)、[台风素材](../../src/people/domityphoon/materials-domityphoon.md)。账号／合集与其他候选留[原入口](../../src/people/tempestudf/materials-tempestudf.md)，不另造重复人物队列。

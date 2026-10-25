@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "thread_id": "7687920878",
+  "url": "https://tieba.baidu.com/p/7687920878",
+  "title": "中国古法低安小旗舰代驾",
+  "references": [
+    "src/people/ozen-wand/materials-ozen-wand.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "7687920878",
+        "初始引用文件": "src/people/ozen-wand/materials-ozen-wand.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "12",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "4",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/7687920878.json",
+    "fetched_at": "2026-10-10T14:31:27.945Z",
+    "main_posts": 8,
+    "subposts": 4,
+    "floors": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

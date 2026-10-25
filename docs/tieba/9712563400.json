@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "thread_id": "9712563400",
+  "url": "https://tieba.baidu.com/p/9712563400",
+  "title": "《这不是撤退，这是战略重新部署》",
+  "references": [
+    "src/people/libxw/materials-libxw.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9712563400",
+        "初始引用文件": "src/people/libxw/materials-libxw.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "19",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "14",
+        "已取楼中楼": "4",
+        "楼中楼计数差": "3",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9712563400.json",
+    "fetched_at": "2026-10-10T14:23:13.280Z",
+    "main_posts": 14,
+    "subposts": 4,
+    "floors": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 7,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 12,
+        "expected": 3,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

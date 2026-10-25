@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "thread_id": "10854600210",
+  "url": "https://tieba.baidu.com/p/10854600210",
+  "title": "ES帝皇之镰管理阿进挂脚本被联盟CEO实锤",
+  "references": [
+    "src/people/born-reaper/born-reaper.md",
+    "src/people/born-reaper/materials-born-reaper.md",
+    "src/people/dark-shines/dark-shines.md",
+    "src/people/gongcheng-xiangmu/gongcheng-xiangmu.md",
+    "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
+    "src/people/hoshino-x/materials-hoshino-x.md",
+    "src/people/weiyunzhao/materials-weiyunzhao.md",
+    "src/people/weiyunzhao/weiyunzhao.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10854600210",
+        "初始引用文件": "src/people/born-reaper/born-reaper.md;src/people/born-reaper/materials-born-reaper.md;src/people/dark-shines/dark-shines.md;src/people/gongcheng-xiangmu/gongcheng-xiangmu.md;src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md;src/people/weiyunzhao/materials-weiyunzhao.md;src/people/weiyunzhao/weiyunzhao.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "35",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "18",
+        "已取楼中楼": "17",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10854600210.json",
+    "fetched_at": "2026-10-10T13:58:53.064Z",
+    "main_posts": 18,
+    "subposts": 17,
+    "floors": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

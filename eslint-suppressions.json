@@ -96,19 +96,6 @@
       "count": 22
     }
   },
-  "scripts/corporation-tags.mjs": {
-    "@stylistic/arrow-parens": {
-      "count": 2
-    },
-    "@stylistic/quotes": {
-      "count": 37
-    }
-  },
-  "scripts/corporation-tags.test.mjs": {
-    "@stylistic/quotes": {
-      "count": 45
-    }
-  },
   "scripts/fetch-battle-emblems.mjs": {
     "@stylistic/quotes": {
       "count": 20
@@ -116,7 +103,7 @@
   },
   "scripts/fetch-characters.mjs": {
     "@stylistic/arrow-parens": {
-      "count": 21
+      "count": 20
     },
     "@stylistic/indent": {
       "count": 9
@@ -328,11 +315,6 @@
   "scripts/research/tieba-review-inventory.mjs": {
     "@stylistic/arrow-parens": {
       "count": 1
-    }
-  },
-  "scripts/research/tieba-review-status.mjs": {
-    "@stylistic/arrow-parens": {
-      "count": 2
     }
   },
   "scripts/research/zhihu.mjs": {

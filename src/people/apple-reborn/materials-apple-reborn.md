@@ -8,7 +8,7 @@
 
 苹二与DC执行军团SummerHall的“苹果”为同一人；关联角色 **solitarymax encounter（2113803780）**，归回本篇，不另立传。已有角色公开头衔“苹果”、简介“who am i?”，SummerHall（98601548）现役名册也直接列出本号。称呼“苹果”及角色名加入aliases，收录号仍用Apple Reborn。
 
-SummerHall历史榜本号1796条、参与击杀目标约638.5B，限定执行军团历史范围；不与Apple Reborn个人累计相加，不据执行团成员身份另认联盟CEO或总指挥。原始角色核读与名册见[执行军团调查](../../../docs/leads/executor-corps-2026-10-11.md)。具体小号战役与岗位继续补查。
+SummerHall历史榜本号1796条、参与击杀目标约638.5B，限定执行军团历史范围；不与Apple Reborn个人累计相加，不据执行团成员身份另认联盟CEO或总指挥。原始角色核读与名册见[执行军团调查](../../../docs/corporations/notes/executors.md)。具体小号战役与岗位继续补查。
 
 身份与取材方向：[B.O.P Supplication For Glorious](https://esi.evetech.net/latest/corporations/98547771/)游戏 CEO；624 角色，D.C。老团招新及本人称号；重料待补。
 

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "thread_id": "10430077310",
+  "url": "https://tieba.baidu.com/p/10430077310",
+  "title": "FRT旗下dsn，fuxi 招新",
+  "references": [
+    "docs/sources/dsn-lp-dispute-2026.md",
+    "src/people/aba-guai/aba-guai.md",
+    "src/people/ace-008/ace-008.md",
+    "src/people/ace-008/materials-ace-008.md",
+    "src/people/awa-123/awa-123.md",
+    "src/people/innos-d9c/innos-d9c.md",
+    "src/people/innos-d9c/materials-innos-d9c.md",
+    "src/people/leoheyhey3/leoheyhey3.md",
+    "src/people/leoheyhey3/materials-leoheyhey3.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10430077310",
+        "初始引用文件": "src/people/ace-008/materials-ace-008.md;src/people/innos-d9c/innos-d9c.md;src/people/innos-d9c/materials-innos-d9c.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "183",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "46",
+        "已取楼中楼": "119",
+        "楼中楼计数差": "5",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10430077310.json",
+    "fetched_at": "2026-10-10T12:12:29.614Z",
+    "main_posts": 46,
+    "subposts": 119,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      17,
+      18,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 14,
+        "expected": 27,
+        "fetched": 24,
+        "error": null
+      },
+      {
+        "floor": 23,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "thread_id": "6275312556",
+  "url": "https://tieba.baidu.com/p/6275312556",
+  "title": "puli大酱打我好疼嘤嘤嘤，我的审判一下子被打进装甲了（虽然",
+  "references": [
+    "src/people/puli-nidhogg/materials-puli-nidhogg.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6275312556",
+        "初始引用文件": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "5",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "5",
+        "已取楼中楼": "0",
+        "楼中楼计数差": "0",
+        "人工处理": "已读全部可见文字及楼中楼；补来源边界，无可见图片",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6275312556.json",
+    "fetched_at": "2026-10-10T14:37:27.012Z",
+    "main_posts": 5,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

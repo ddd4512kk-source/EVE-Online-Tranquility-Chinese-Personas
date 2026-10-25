@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "thread_id": "10876476125",
+  "url": "https://tieba.baidu.com/p/10876476125",
+  "title": "声望哥又诈骗别人爸妈五百亿isk",
+  "references": [
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10876476125",
+        "初始引用文件": "src/people/sirses/materials-sirses.md;src/people/sirses/sirses.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "4",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "3",
+        "已取楼中楼": "1",
+        "楼中楼计数差": "0",
+        "人工处理": "已读文字与楼中楼；小凯回应标题为反讽，三图待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10876476125.json",
+    "fetched_at": "2026-10-10T14:37:51.512Z",
+    "main_posts": 3,
+    "subposts": 1,
+    "floors": [
+      1,
+      3,
+      6
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

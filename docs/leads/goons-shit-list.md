@@ -34,7 +34,7 @@
 
 - [星华事件记录](https://evemaps.dotlan.net/corp/Sing_Hua/events)：2024-12-23 16:01 加入 Goons；2026-02-07 19:20 离盟。2020-10-15 起登记 CEO 为 DomiTyphoon，2026-05-17 才记载交给 Sasha rebirth。登记角色交接与实际管理交接不同；不能据此否定通告中“前 CEO”或将 Sasha 认作台风小号。
 - [昆仑联盟记录](https://evemaps.dotlan.net/corp/Kun-Lun/alliances)：2026-02-09 07:01 加入 Dracarys.，2 月 10 日 20:01 离开，2 月 13 日 02:31 加入 Goons。时间均为 UTC；说明重组成员先短暂落脚 DC，随后回盟，并非星华原军团直接改名。
-- [昆仑公开简介](https://evemaps.dotlan.net/corp/Kun-Lun)：登记 CEO 为 YAGAHA3，联系人 CEO 写 YAGAHA；总监包括已收录的[幻象／Nany 1419](../../src/people/nany-1419/materials-nany-1419.md)，另列总监兼外交 Fauux、俄语外交 Rosa Ictus。角色 ID 已在[军团职务线索](corp-descriptions-2026.md)归档。嘎子哥与 YAGAHA 系列仍为待核入口。虚实已对应Fauux2122263187、耳田已对应asdaoid2116149209；ertian-yieryi已核同耳田Director头衔、同昆仑归一人，XD 26亦同虚实头衔同团归Fauux。CEO 候选沿[现有队列](top50-corp-ceos-2026-10-11.md)续查，不另建重复清单。
+- [昆仑公开简介](https://evemaps.dotlan.net/corp/Kun-Lun)：登记 CEO 为 YAGAHA3，联系人 CEO 写 YAGAHA；总监包括已收录的[幻象／Nany 1419](../../src/people/nany-1419/materials-nany-1419.md)，另列总监兼外交 Fauux、俄语外交 Rosa Ictus。角色 ID 已在[军团职务线索](../corporations/notes/descriptions.md)归档。嘎子哥与 YAGAHA 系列仍为待核入口。虚实已对应Fauux2122263187、耳田已对应asdaoid2116149209；ertian-yieryi已核同耳田Director头衔、同昆仑归一人，XD 26亦同虚实头衔同团归Fauux。CEO 候选沿[现有队列](../corporations/notes/activity-2026-09.md)续查，不另建重复清单。
 - 与 KZU 的后续交集见[2026 年 7 月生产纠纷摘要](../sources/kzu-kunlun-2026-07.md)；这属于重组后的另一件事。
 - 本轮公开搜索未取得 Shit List 原帖：三组英文关键词（Goons / Kun-Lun / Shit、Sing Hua / RMT / 2026、Kun-Lun / Gaza / EVE）未命中相关原帖，停止该检索分支。内部论坛证据仍缺可回查定位；本轮未读取新增 RMT 原件，不补交易次数、金额、买家或 CCP 处罚细节。
 

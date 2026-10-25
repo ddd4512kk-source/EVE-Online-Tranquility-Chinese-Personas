@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "thread_id": "10012132148",
+  "url": "https://tieba.baidu.com/p/10012132148",
+  "title": "远离init联盟军团",
+  "references": [
+    "src/people/born-reaper/materials-born-reaper.md",
+    "src/people/jiao-huang/jiao-huang.md",
+    "src/people/jiao-huang/materials-jiao-huang.md",
+    "src/people/m1kiiy/m1kiiy.md",
+    "src/people/m1kiiy/materials-m1kiiy.md",
+    "src/people/n-bomber/materials-n-bomber.md",
+    "src/people/n-bomber/n-bomber.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10012132148",
+        "初始引用文件": "src/people/born-reaper/materials-born-reaper.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "64",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "36",
+        "已取楼中楼": "28",
+        "楼中楼计数差": "4",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10012132148.json",
+    "fetched_at": "2026-10-10T13:27:48.398Z",
+    "main_posts": 36,
+    "subposts": 28,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 12,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 18,
+        "expected": 3,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 22,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      },
+      {
+        "floor": 33,
+        "expected": 18,
+        "fetched": 17,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

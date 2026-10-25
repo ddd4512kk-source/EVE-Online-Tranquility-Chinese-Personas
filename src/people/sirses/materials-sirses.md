@@ -2,6 +2,12 @@
 
 ## 声望哥 / Sirses
 
+### DingJiLieRen 现役小号
+
+- 军团 **DingJiLieRen／98842120（LIERE）** 当前成员均归声望哥；本次同人对应适用2026-10-25核到的现役名单，不外推未来新成员、已退团历史成员或全部历史KM。
+- [EveWho现役名册](https://evewho.com/api/corplist/98842120)完整返回3人，分页 `total:3`、`pages:1`、`has_next:false`：Sirses／2120632368、Sasotuk／2121800011、Taltogai／2120632359。[ESI军团资料](https://esi.evetech.net/latest/corporations/98842120/)同日显示3名成员，CEO及创建者均为Sirses。
+- [Sasotuk资料](https://esi.evetech.net/latest/characters/2121800011/)与[Taltogai资料](https://esi.evetech.net/latest/characters/2120632359/)分别核得正式名字和当前军团98842120，二者补入本人小号档案。名册与ESI核的是角色和成员范围，同人对应单列保存；不把同军团本身写成普遍同人判据。
+
 收录角色：**Sirses（2120632368）**，小号，主号不详。已有[列传源文件](sirses.md)。
 
 角色对应：贴吧账号“小♂凯”（uid 2391772340，原用户名“eve世界服”，[主页](https://tieba.baidu.com/home/main?id=tb.1.46eca62.k6ox2pff1mUJDGfDBj8Dlg)）自称声望哥。Sirses 简介“一个人跑别人2343人的控场驻地……打死 YeLuo-XingHai 50亿”与其[帖子](https://tieba.baidu.com/p/10961139136)内容一致；2026-08-16 击杀 AntiBlack 太空舱（其帖截图）的唯一凶手为 Sirses；雇佣记录含爆料人点名的 gu2023（98755200），且 2024-09-22 至 10-26 在 FRT Legion of Spellbreakers，与其 10-26 转账退团吻合。gu2023/tian2023 的创建者 Icho1、Putkaw 等均为 2023-11 新号，主号未查到；另一个本人号Wibrik2021已由下述本人邮件及挂人帖对应。

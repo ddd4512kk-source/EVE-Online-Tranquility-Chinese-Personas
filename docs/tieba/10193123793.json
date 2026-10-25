@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "thread_id": "10193123793",
+  "url": "https://tieba.baidu.com/p/10193123793",
+  "title": "其实今年年中的时候已经隐隐约约感到PH糕层有些不对劲了",
+  "references": [
+    "src/people/bink-wang/materials-bink-wang.md",
+    "src/people/tianqi-aqi/materials-tianqi-aqi.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "10193123793",
+        "初始引用文件": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "15",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "7",
+        "楼中楼计数差": "0",
+        "人工处理": "已读全部文字与楼中楼；天启阿柒、Bink素材补上下文",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/10193123793.json",
+    "fetched_at": "2026-10-10T14:27:23.135Z",
+    "main_posts": 8,
+    "subposts": 7,
+    "floors": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

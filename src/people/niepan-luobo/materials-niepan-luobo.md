@@ -19,7 +19,7 @@
 各号统计重叠，不相加。“涅磐”= Nirvana、“萝”= Luo，2015 年本人贴吧主题已用“NVA 涅磐联合体”。
 - 军团路径（EveWho）：King、Queen 系同日创建；King／Nirvana／Prince 2024-03—06 在 Star Ring Praetorian（98744349），2024-06-30 同入 Creating Dreams（98776912，“创梦”，与本人 2021—2022 年 eve吧“创梦”招新同名），2024-07-06 同入 Baby-Bus（98777401，2024-07-05 创立，同日入 Dracarys Wing，2024-07-17 转入 Dracarys.）。NVA-Luo 2024-09-30 才入团。
 - 待核：EveWho 记 NVA-King 2025-07-07—07-14 曾在 Can Can Need Try Try Wood（98808182）与 B.O.P（98547771）各停留数日后回 Baby-Bus，与其 CEO 任期冲突，DOTLAN 事件页无对应换任；不入正文。EveWho corplist 只返回 500/629 人，团内可能还有未列出的 NVA- 号。创团人 TIANQI-AYKA-ZG（头衔“勤劳的天启”）是否本人号不明。
-- 不与[老鹰](../lao-ying/materials-lao-ying.md)帖中卖 +3 插的萝卜、玄武的萝卜混同；Final Warning 的“海草 MAIN”另案（见 corp-top-characters 线索）。
+- 不与[老鹰](../lao-ying/materials-lao-ying.md)帖中卖 +3 插的萝卜、玄武的萝卜混同；Final Warning 的“海草 MAIN”另案（见[吃瓜成员核读记录](../../../docs/corporations/notes/member-research/98524084.md)，角色ID 2123431283）。
 
 ## 早年招牌（服务器另记）
 
@@ -59,7 +59,7 @@
 
 - 社交媒体封禁弹窗：上次登录2026.10.14 11:32，登录次数1377，理由为“Repeated violations of section 6.A.3 of the EULA”，永久封禁。附带说法称此图“据说”属于宝宝巴士CEO萝卜；图内没有角色名，人物对应仍是转述，不将其记为本人自贴。它补充了既有6.A.3封禁材料的弹窗内容，没有新增RMT理由。
 - 游戏内所有权移交通知显示，以下建筑已转给SummerHall：WX-6UX - AAAA、CR-0E5 - BYB、WX-6UX - BYB、WX-6UX - AZBF、WX-6UX - LTL、16P-PX - BYB（同名出现两条）。这是七条通知，不据同名两条判断是否两座不同建筑；画面只有相对时间，没有绝对移交日期、原持有人、操作者或建筑类型。通知中含非BYB后缀，不把全部建筑直接算作宝宝巴士资产。
-- 随图说法为宝宝巴士封号后将建筑移交执行军团；接收方SummerHall／98601548确为已有[执行军团记录](../../../docs/leads/executor-corps-2026-10-11.md)中的DC执行军团。图像直接支持移交接收方及上述名称；“封号之后”的顺序来自随图说法，不补造联盟没收、CCP转移资产或萝卜亲自操作。
+- 随图说法为宝宝巴士封号后将建筑移交执行军团；接收方SummerHall／98601548确为已有[执行军团记录](../../../docs/corporations/notes/executors.md)中的DC执行军团。图像直接支持移交接收方及上述名称；“封号之后”的顺序来自随图说法，不补造联盟没收、CCP转移资产或萝卜亲自操作。
 - 同批另一张6.A.3弹窗由巴鲁发出，见[巴鲁线索](../../../docs/leads/balu.md)，不与萝卜这张混同。呆始皇上次登录2026.10.13 20:32、841次登录的RMT弹窗已经在[本人素材](../daishihuang/materials-daishihuang.md)消化并入文。
 - 正文封禁块已补巴鲁发图、另一张据传属于萝卜的弹窗，以及封号后建筑移交SummerHall的说法；建筑只概述三处BYB命名，不将七条通知写成七座宝宝巴士建筑。巴鲁仅以军团管理、发图者身份出现，不写成本人被封，不另立传。
 

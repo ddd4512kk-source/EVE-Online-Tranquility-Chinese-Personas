@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "thread_id": "9261499725",
+  "url": "https://tieba.baidu.com/p/9261499725",
+  "title": "叶落星海 某FC 每日战报",
+  "references": [
+    "docs/leads/tieba-sk-fc-replies.md",
+    "src/people/docter-hikanami/materials-docter-hikanami.md",
+    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/people/jazoneq/jazoneq.md",
+    "src/people/jazoneq/materials-jazoneq.md",
+    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "src/people/sk-mmmm/sk-mmmm.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9261499725",
+        "初始引用文件": "src/people/docter-hikanami/materials-docter-hikanami.md;src/people/sk-mmmm/materials-sk-mmmm.md;src/people/sk-mmmm/sk-mmmm.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "34",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "33",
+        "已取楼中楼": "1",
+        "楼中楼计数差": "0",
+        "人工处理": "33主楼1楼中楼21图已读；洞战双方说法与Monitor驾驶员归档，回复人物待核",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "legacy",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9261499725.json",
+    "fetched_at": "2026-10-10T14:00:54.722Z",
+    "main_posts": 33,
+    "subposts": 1,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

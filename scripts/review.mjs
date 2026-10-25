@@ -13,12 +13,14 @@ const HELP = `离线增量复查；无参数只报数量，不输出全站正文
   npm run review -- card person:短名 --feature combat
   npm run review -- read person:短名 --file material --from 20 --lines 25
   npm run review -- impact --feature combat --since HEAD --limit 10
+  npm run review -- verify person:短名 person:另一短名 --feature combat
   npm run review -- mark person:短名 --feature combat --status needs-work --note 具体缺口 --evidence 相对文件路径
 list：--kind person|battle --signal 信号 --state unreviewed|stale|reviewed|needs-work|blocked
       --recent N（首次加入历史，未提交新篇优先） --max-blocks N --limit 1..20 --offset N
 impact：--since Git引用（含已暂存、未暂存和未跟踪文件），或重复 --files 相对路径；可按 --state 筛选
 card：只返回结构、命中摘录与证据入口；read 单次最多80行，不自动读取视频或联网。
-mark：仅在人工核读后使用；--evidence 可重复。reviewed仅代表所选feature、当前依据。
+mark：仅在人工核读后使用；--evidence 可重复。配置必查项的feature须用 --assessment 仓库内JSON路径逐项登记。
+verify：指定本次交付对象；未审、失效或缺项均以非零状态退出，不以关键词或料块数代替复查。
 详情：docs/review-workflow.md。信号不是漏项定论，互链和构建通过不是调查完成。
 `;
 const read = (root, file) => fs.readFileSync(path.join(root, file), 'utf8');
@@ -162,7 +164,7 @@ function loadFeature(root, name) {
     for (const file of [...receipt.evidence, ...receipt.dependencies]) safeFile(root, file);
   }
   return { ...feature, name, pattern: new RegExp(feature.pattern, 'i'), ruleParts,
-    ruleHash: hash({ engine: 2, feature, ruleParts, implementation }), receipts };
+    ruleHash: hash({ engine: feature.eventReview ? 4 : feature.checks ? 3 : 2, feature, ruleParts, implementation }), receipts };
 }
 function inputValue(root, record, file) {
   if (record.scopedFiles?.[file]) return record.scopedFiles[file];
@@ -177,17 +179,85 @@ function inputs(root, record, evidence = []) {
   const files = unique([record.body, record.archiveFile, ...record.sources, ...Object.keys(record.scopedFiles ?? {}), ...(record.kind === 'battle' && record.material ? [record.material] : []), ...evidence.map(file => safeFile(root, file))]);
   return { files, fingerprint: hash({ files: files.sort().map(file => [file, inputValue(root, record, file)]), battles: record.battles.map(({ key, fingerprint }) => [key, fingerprint]) }) };
 }
+function missingChecks(feature, receipt) {
+  return Object.keys(feature.checks ?? {}).filter(key => !['reviewed', 'not-applicable'].includes(receipt?.assessment?.[key]?.status));
+}
+function validateAssessment(root, feature, record, assessment) {
+  if (assessment === undefined) throw new Error(`缺少已完成的复查项：${Object.keys(feature.checks ?? {}).join('、')}；须提供 --assessment`);
+  if (!assessment || typeof assessment !== 'object' || Array.isArray(assessment)) throw new Error('assessment 须为逐项判断对象');
+  const required = Object.keys(feature.checks ?? {});
+  const missing = missingChecks(feature, { assessment });
+  if (missing.length) throw new Error(`缺少已完成的复查项：${missing.join('、')}`);
+  const files = [];
+  for (const [key, item] of Object.entries(assessment)) {
+    if (!required.includes(key)) throw new Error(`未知复查项：${key}`);
+    if (!item || !['reviewed', 'not-applicable'].includes(item.status) || typeof item.note !== 'string' || !item.note.trim() || !Array.isArray(item.evidence) || !item.evidence.length) throw new Error(`${key} 须有状态、判断及具体证据位置`);
+    for (const spec of item.evidence) {
+      if (!spec || typeof spec.file !== 'string' || (!spec.heading && !spec.contains) || (spec.heading && spec.contains)) throw new Error(`${key} 的证据须指定 file 及 heading 或 contains`);
+      const file = safeFile(root, spec.file);
+      if (!exists(root, file)) throw new Error(`证据文件不存在：${file}`);
+      const excerpt = ruleText(root, { ...spec, file });
+      if (!excerpt.trim()) throw new Error(`${key} 的证据为空`);
+      files.push(file);
+    }
+    if (key === 'narrative' && !item.evidence.some(spec => safeFile(root, spec.file) === record.body)) throw new Error('narrative 须指向本人的正文段落，素材不能代替入文验收');
+  }
+  if (feature.eventReview) files.push(...validateWriting(root, record, assessment));
+  return unique(files);
+}
+function validateWriting(root, record, assessment) {
+  const files = [], nonempty = value => typeof value === 'string' && value.trim();
+  const anchor = (spec, body) => {
+    if (!spec || typeof spec.file !== 'string' || Boolean(spec.heading) === Boolean(spec.contains)) throw new Error('事件证据须指定 file 及 heading 或 contains');
+    const file = safeFile(root, spec.file);
+    if (!exists(root, file)) throw new Error(`证据文件不存在：${file}`);
+    if (body ? file !== record.body : file === record.body) throw new Error(body ? '发挥须定位本人正文' : '事件来源不能用正文自证');
+    const excerpt = ruleText(root, { ...spec, file });
+    if (!excerpt.split('\n').some(line => line.trim() && !/^(?:#{1,6}\s|:::)/.test(line))) throw new Error('事件证据不能只有标题');
+    files.push(file);
+  };
+  for (const key of ['coverage', 'events', 'balance']) if (assessment[key]?.status !== 'reviewed') throw new Error(`写作复查 ${key} 须实际核读，不接受不适用`);
+  if (!assessment.coverage.evidence.some(spec => spec.file !== record.body)) throw new Error('coverage 须对照素材，不能只读正文');
+  if (!assessment.balance.evidence.some(spec => spec.file === record.body)) throw new Error('balance 须定位本人正文');
+  const events = assessment.events.items;
+  if (!Array.isArray(events)) throw new Error('events.items 须逐件登记事件；无重料也须明确说明');
+  if (!events.some(event => event.weight === 'heavy') && !nonempty(assessment.events.noHeavyReason)) throw new Error('无重料须说明核读后的 noHeavyReason');
+  const titles = new Set();
+  for (const event of events) {
+    if (!nonempty(event.title) || titles.has(event.title)) throw new Error('事件须有不重复的标题，同一事件不能拆块充数');
+    titles.add(event.title);
+    if (!['heavy', 'ordinary', 'light'].includes(event.weight) || !nonempty(event.reason) || !nonempty(event.note)) throw new Error('事件须说明分量依据与采用判断');
+    anchor(event.source, false);
+    if (!['expanded', 'brief', 'omitted'].includes(event.treatment)) throw new Error('事件须说明展开、简述或略过');
+    if (event.treatment !== 'omitted') anchor(event.body, true);
+    if (event.weight !== 'heavy') continue;
+    if (event.treatment !== 'expanded' || event.verdict !== 'sufficient') throw new Error('重料未充分展开，不能标为 reviewed');
+    const development = event.development;
+    if (!Array.isArray(development)) throw new Error('重料须逐方向登记发挥与正文位置');
+    const angles = new Set();
+    for (const item of development) {
+      if (!['处境', '动机', '分量', '反差', '反应与后果', '落点'].includes(item.angle) || angles.has(item.angle) || !nonempty(item.note)) throw new Error('发挥方向须有效、不重复并说明具体写法');
+      angles.add(item.angle);
+      anchor(item.evidence, true);
+    }
+    if (angles.size < 3 || !angles.has('反差') || !(angles.has('分量') || angles.has('反应与后果'))) throw new Error('重料须至少三个发挥方向，含反差及分量或反应与后果');
+  }
+  return files;
+}
 function assess(root, record, feature) {
   const receipt = feature.receipts[record.key];
   const source = inputs(root, record, receipt?.evidence);
   const stale = receipt && (receipt.inputs !== source.fingerprint || receipt.rules !== feature.ruleHash);
   const signals = [];
+  const missing = missingChecks(feature, receipt);
+  if (missing.length) signals.push('review-incomplete');
+  if (feature.eventReview && feature.pattern.test(record.text + (record.material ? read(root, record.material) : ''))) signals.push('heavy-story-candidate');
   if (feature.name === 'combat' && record.kind === 'person' && record.battles.some(b => b.characters.some(c => c.via.some(v => ['pilot', 'loss', 'manual'].includes(v)))) && !feature.pattern.test(record.text)) signals.push('battle-without-narrative');
   if (feature.name === 'combat' && record.kind === 'person' && /FLEET\s+COMMANDER/i.test(record.text + (record.material ? read(root, record.material) : '')) && !(record.archive.person.tags ?? []).some(tag => ['FC', '著名FC'].includes(tag))) signals.push('command-without-tag');
   if (record.blocks <= 2) signals.push('few-blocks');
   if (!record.material) signals.push('no-material');
   if (record.kind === 'person' && !record.archive.identity?.zkb) signals.push('no-saved-kb');
-  return { source, receipt, state: stale ? 'stale' : receipt?.status ?? 'unreviewed', signals };
+  return { source, receipt, state: stale ? 'stale' : receipt?.status === 'reviewed' && missing.length ? 'needs-work' : receipt?.status ?? 'unreviewed', signals, missingChecks: missing };
 }
 function summary(root, record, feature) {
   const { state, signals } = assess(root, record, feature);
@@ -201,8 +271,8 @@ const integer = (options, key, fallback, min = 0, max = Number.MAX_SAFE_INTEGER)
 export function run(root, args, suppliedRecords) {
   if (args.includes('--help')) { if (args.length !== 1) throw new Error('--help 须单独使用'); return HELP; }
   const [command = 'summary', ...rest] = args, options = {}, positional = [];
-  if (!['summary', 'list', 'card', 'read', 'impact', 'mark'].includes(command)) throw new Error(`未知命令：${command}`);
-  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence'] }[command];
+  if (!['summary', 'list', 'card', 'read', 'impact', 'mark', 'verify'].includes(command)) throw new Error(`未知命令：${command}`);
+  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], verify: ['feature'] }[command];
   for (let i = 0; i < rest.length; i++) {
     if (!rest[i].startsWith('--')) { positional.push(rest[i]); continue; }
     const key = rest[i].slice(2), value = rest[++i];
@@ -212,7 +282,7 @@ export function run(root, args, suppliedRecords) {
     else options[key] = value;
   }
   const one = ['card', 'read', 'mark'].includes(command);
-  if (positional.length !== (one ? 1 : 0)) throw new Error(one ? '须指定一个 person:短名 或 battle:短名' : '不接受位置参数');
+  if (command === 'verify' ? !positional.length : positional.length !== (one ? 1 : 0)) throw new Error(one || command === 'verify' ? '须指定 person:短名 或 battle:短名' : '不接受位置参数');
   const records = suppliedRecords ?? inventory(root);
   if (command === 'summary') return { counts: Object.fromEntries(['person', 'battle'].map(kind => [kind, records.filter(r => r.kind === kind).length])), features: Object.keys(JSON.parse(read(root, REGISTRY))), warning: '目录与信号只用于筛选；不代表已核读或调查完成。' };
   const record = one ? records.find(r => r.key === positional[0]) : null;
@@ -225,12 +295,29 @@ export function run(root, args, suppliedRecords) {
     return { file, totalLines: lines.length, from, lines: lines.slice(from - 1, from - 1 + count).map((text, i) => ({ line: from + i, text })) };
   }
   const feature = loadFeature(root, options.feature ?? 'combat');
+  if (command === 'verify') {
+    const rows = unique(positional).map(key => {
+      const target = records.find(r => r.key === key);
+      if (!target) throw new Error(`对象不存在：${key}`);
+      if (!feature.kinds.includes(target.kind)) throw new Error(`${feature.name} 不适用于 ${target.kind}`);
+      const result = assess(root, target, feature);
+      if (result.state === 'reviewed' && result.receipt.assessment) validateAssessment(root, feature, target, result.receipt.assessment);
+      return { key, state: result.state, missingChecks: result.missingChecks };
+    });
+    const failed = rows.filter(row => row.state !== 'reviewed');
+    if (failed.length) throw new Error(`复查验收未通过：${failed.map(row => `${row.key}=${row.state}${row.missingChecks.length ? `（缺${row.missingChecks.join('、')}）` : ''}`).join('；')}`);
+    return { feature: feature.name, verified: rows };
+  }
   if (one && !feature.kinds.includes(record.kind)) throw new Error(`${feature.name} 不适用于 ${record.kind}`);
   if (command === 'mark') {
     if (!STATES.includes(options.status) || !options.note?.trim() || !options.evidence?.length) throw new Error('mark 须提供 --status、非空 --note 和至少一个 --evidence');
     for (const file of options.evidence) if (!exists(root, safeFile(root, file))) throw new Error(`证据文件不存在：${file}`);
-    const source = inputs(root, record, options.evidence);
-    feature.receipts[record.key] = { status: options.status, note: options.note, evidence: options.evidence,
+    const assessment = options.assessment ? JSON.parse(read(root, safeFile(root, options.assessment))) : undefined;
+    const checkFiles = options.status === 'reviewed' && (assessment || Object.keys(feature.checks ?? {}).length) ? validateAssessment(root, feature, record, assessment) : [];
+    if (assessment && options.status !== 'reviewed') throw new Error('未完成的复查用 note 和 evidence 记录缺口，不附已完成 assessment');
+    const evidence = unique([...options.evidence, ...checkFiles]);
+    const source = inputs(root, record, evidence);
+    feature.receipts[record.key] = { status: options.status, note: options.note, evidence, ...(assessment ? { assessment } : {}),
       dependencies: unique([...source.files, ...record.battles.flatMap(b => [b.archive, b.body, b.material]).filter(Boolean)]),
       inputs: source.fingerprint, rules: feature.ruleHash };
     fs.mkdirSync(path.join(root, 'docs/reviews'), { recursive: true });
@@ -238,7 +325,7 @@ export function run(root, args, suppliedRecords) {
     return { key: record.key, feature: feature.name, state: options.status };
   }
   if (command === 'card') {
-    const { state, receipt, signals } = assess(root, record, feature);
+    const { state, receipt, signals, missingChecks: missing } = assess(root, record, feature);
     return { ...summary(root, record, feature), feature: feature.name, state, signals,
       files: { body: record.body, archive: record.archiveFile, material: record.material },
       ...(record.kind === 'person' ? { id: record.archive.id, alts: { total: (record.archive.identity?.alts ?? []).length, records: (record.archive.identity?.alts ?? []).slice(0, 8).map(({ id, name, zkb }) => ({ id, name, zkb })) }, zkb: record.archive.identity?.zkb ?? null, tags: record.archive.person.tags } : {}),
@@ -248,7 +335,8 @@ export function run(root, args, suppliedRecords) {
       materialMatches: record.material ? snippets(read(root, record.material), feature.pattern) : [],
       battles: { total: record.battles.length, records: record.battles.slice(0, 12).map(({ fingerprint, ...battle }) => battle) },
       sharedSources: record.sources.filter(file => file !== record.material),
-      review: receipt ? { status: receipt.status, note: receipt.note, evidence: receipt.evidence } : null };
+      checks: feature.checks ?? {}, missingChecks: missing,
+      review: receipt ? { status: receipt.status, note: receipt.note, evidence: receipt.evidence, assessment: receipt.assessment ?? null } : null };
   }
   let candidates = records.filter(r => feature.kinds.includes(r.kind));
   if (command === 'impact') {
@@ -281,7 +369,7 @@ export function run(root, args, suppliedRecords) {
   if (options['max-blocks'] !== undefined) candidates = candidates.filter(r => r.blocks <= integer(options, 'max-blocks', 2));
   let rows = candidates.map(r => summary(root, r, feature));
   if (options.signal) {
-    if (!['battle-without-narrative', 'command-without-tag', 'few-blocks', 'no-material', 'no-saved-kb'].includes(options.signal)) throw new Error('未知 signal');
+    if (!['battle-without-narrative', 'command-without-tag', 'few-blocks', 'no-material', 'no-saved-kb', 'review-incomplete', 'heavy-story-candidate'].includes(options.signal)) throw new Error('未知 signal');
     rows = rows.filter(r => r.signals.includes(options.signal));
   }
   if (options.state) {

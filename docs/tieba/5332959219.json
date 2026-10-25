@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "thread_id": "5332959219",
+  "url": "https://tieba.baidu.com/p/5332959219",
+  "title": "h叔最新出品。为何还不来前线？",
+  "references": [],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-linked-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "5332959219",
+        "初始引用文件": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+        "首尾状态": "首尾已取",
+        "接口回复数": "225",
+        "主楼总页数": "4",
+        "主楼分页完成": "true",
+        "已取主楼": "81",
+        "已取楼中楼": "117",
+        "楼中楼计数差": "14",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "#4:2",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-linked-threads-2026-10-11.tsv",
+      "values": {
+        "发现帖号": "5332959219",
+        "原帖": "https://tieba.baidu.com/p/3624406859",
+        "楼层": "42",
+        "来源位置": "楼中楼",
+        "状态": "首尾已取得；尚未人工核读，不能仅按标题筛选"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/linked/5332959219.json",
+    "fetched_at": "2026-10-11T01:09:56.603Z",
+    "main_posts": 81,
+    "subposts": 117,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      14,
+      15,
+      17,
+      18,
+      19,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38,
+      40,
+      41,
+      43,
+      46,
+      48,
+      49,
+      50,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      80,
+      81,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      92,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+    ],
+    "orders": {
+      "forward": {
+        "pages": 4,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "total_pages": 4,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 4,
+        "page_numbers": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "total_pages": 4,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 32,
+        "fetched": 29,
+        "error": null
+      },
+      {
+        "floor": 6,
+        "expected": 14,
+        "fetched": 13,
+        "error": null
+      },
+      {
+        "floor": 7,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 15,
+        "expected": 23,
+        "fetched": 19,
+        "error": null
+      },
+      {
+        "floor": 21,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 29,
+        "expected": 19,
+        "fetched": 18,
+        "error": null
+      },
+      {
+        "floor": 34,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 65,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

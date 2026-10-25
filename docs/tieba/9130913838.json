@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "thread_id": "9130913838",
+  "url": "https://tieba.baidu.com/p/9130913838",
+  "title": "FRT赢了，大赢特赢。",
+  "references": [
+    "docs/leads/tieba-prolific-posters.md",
+    "src/people/gobbins/gobbins.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9130913838",
+        "初始引用文件": "docs/leads/tieba-prolific-posters.md;src/people/gobbins/gobbins.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "185",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "18",
+        "已取楼中楼": "167",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9130913838.json",
+    "fetched_at": "2026-10-10T12:12:11.377Z",
+    "main_posts": 18,
+    "subposts": 167,
+    "floors": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      24,
+      26
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 10,
+        "expected": 147,
+        "fetched": 146,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

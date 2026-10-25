@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "thread_id": "10070000277",
+  "url": "https://tieba.baidu.com/p/10070000277",
+  "title": "标题五个字",
+  "references": [
+    "src/people/jiao-huang/materials-jiao-huang.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/leads/tieba-high-replies-coverage-2026-10-11.tsv",
+      "values": {
+        "帖号": "10070000277",
+        "初始引用文件": "docs/leads/tieba-high-replies-2026-10-10.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "113",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "16",
+        "已取楼中楼": "77",
+        "楼中楼计数差": "23",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    },
+    {
+      "source": "docs/leads/tieba-high-replies-2026-10-10.md",
+      "values": {
+        "帖号": "10070000277",
+        "列表回复数": "112",
+        "标题": "标题五个字",
+        "人工处理": "待读；不能按标题排除"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/candidates/10070000277.json",
+    "fetched_at": "2026-10-10T16:31:37.168Z",
+    "main_posts": 16,
+    "subposts": 77,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      20
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 3,
+        "expected": 5,
+        "fetched": 4,
+        "error": null
+      },
+      {
+        "floor": 8,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      },
+      {
+        "floor": 11,
+        "expected": 42,
+        "fetched": 22,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 37,
+        "fetched": 36,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

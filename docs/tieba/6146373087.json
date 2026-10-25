@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "thread_id": "6146373087",
+  "url": "https://tieba.baidu.com/p/6146373087",
+  "title": "Infinity Avenger 转载：炮塔机制",
+  "references": [
+    "src/people/la-jiang/la-jiang.md",
+    "src/people/la-jiang/materials-la-jiang.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "6146373087",
+        "初始引用文件": "src/people/la-jiang/la-jiang.md;src/people/la-jiang/materials-la-jiang.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "89",
+        "主楼总页数": "2",
+        "主楼分页完成": "true",
+        "已取主楼": "52",
+        "已取楼中楼": "36",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/6146373087.json",
+    "fetched_at": "2026-10-10T13:11:15.416Z",
+    "main_posts": 52,
+    "subposts": 36,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      45,
+      46,
+      48,
+      49,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      59,
+      60,
+      61
+    ],
+    "orders": {
+      "forward": {
+        "pages": 2,
+        "page_numbers": [
+          1,
+          2
+        ],
+        "total_pages": 2,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 2,
+        "page_numbers": [
+          2,
+          1
+        ],
+        "total_pages": 2,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 25,
+        "expected": 4,
+        "fetched": 3,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

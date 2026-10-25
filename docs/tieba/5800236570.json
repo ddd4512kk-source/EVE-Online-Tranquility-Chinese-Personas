@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "thread_id": "5800236570",
+  "url": "https://tieba.baidu.com/p/5800236570",
+  "title": "感谢暗殇老师，谢谢你推动了mtu商人的商品销售量",
+  "references": [
+    "src/people/huozhang-ji/huozhang-ji.md",
+    "src/people/huozhang-ji/materials-huozhang-ji.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "5800236570",
+        "初始引用文件": "src/people/huozhang-ji/huozhang-ji.md;src/people/huozhang-ji/materials-huozhang-ji.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "13",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "8",
+        "已取楼中楼": "3",
+        "楼中楼计数差": "2",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/5800236570.json",
+    "fetched_at": "2026-10-10T14:30:30.486Z",
+    "main_posts": 8,
+    "subposts": 3,
+    "floors": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 5,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "thread_id": "9008381833",
+  "url": "https://tieba.baidu.com/p/9008381833",
+  "title": "这波我挺汉兰达，其实汉兰达还是个值得深交的",
+  "references": [
+    "src/people/jj-soulmate/jj-soulmate.md",
+    "src/people/jj-soulmate/materials-jj-soulmate.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "9008381833",
+        "初始引用文件": "src/people/jj-soulmate/jj-soulmate.md;src/people/jj-soulmate/materials-jj-soulmate.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "88",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "21",
+        "已取楼中楼": "67",
+        "楼中楼计数差": "9",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/9008381833.json",
+    "fetched_at": "2026-10-10T13:12:27.283Z",
+    "main_posts": 21,
+    "subposts": 67,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      13,
+      15,
+      17,
+      18,
+      19,
+      21,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 43,
+        "fetched": 40,
+        "error": null
+      },
+      {
+        "floor": 9,
+        "expected": 21,
+        "fetched": 15,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

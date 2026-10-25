@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "thread_id": "8981020672",
+  "url": "https://tieba.baidu.com/p/8981020672",
+  "title": "#新中文频道#第二届帮助大赛颁奖",
+  "references": [
+    "src/people/gga-f/gga-f.md",
+    "src/people/gga-f/materials-gga-f.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8981020672",
+        "初始引用文件": "src/people/gga-f/gga-f.md;src/people/gga-f/materials-gga-f.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "5",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "4",
+        "已取楼中楼": "1",
+        "楼中楼计数差": "1",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8981020672.json",
+    "fetched_at": "2026-10-10T14:37:36.621Z",
+    "main_posts": 4,
+    "subposts": 1,
+    "floors": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 4,
+        "expected": 2,
+        "fetched": 1,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

@@ -22,7 +22,7 @@
 
 简介附[81105365](https://zkillboard.com/kill/81105365/)：2020-01-18 15:43:15 UTC，星系30003210，3VYiTie（2114314412）太空舱损失，唯一攻击者Yen Dunier（2114230382），并无priset s本号。[原始ESI](https://esi.evetech.net/latest/killmails/81105365/153afa9bcce981f4454d8920f8f8bf94834f9528/)已核；Yen的ESI现无头衔、已退团，未有同人桥，不把这条KM写成神父袭击3V，也不反推是保护费报复。未继续泛查该支。
 
-其余简介为耶舒尔／闪烁总览与WC生产预设。榜单取得和头衔阅读归[唯一队列](corp-top-characters-2026-10-12.md)。
+其余简介为耶舒尔／闪烁总览与WC生产预设。榜单取得和头衔阅读归[唯一队列](../corporations/notes/member-research.md)。
 
 
 ## 游戏画像与参战补查（2026-10-18）

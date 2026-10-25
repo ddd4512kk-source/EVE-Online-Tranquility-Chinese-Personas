@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "thread_id": "8963715070",
+  "url": "https://tieba.baidu.com/p/8963715070",
+  "title": "24年愚人节事件反转，最后证实工程骗咪咪大航",
+  "references": [
+    "src/people/gongcheng-xiangmu/gongcheng-xiangmu.md",
+    "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
+    "src/people/koko1-k/koko1-k.md",
+    "src/people/koko1-k/materials-koko1-k.md"
+  ],
+  "legacy_records": [
+    {
+      "source": "docs/tieba-review-inventory-2026-10-10.tsv",
+      "values": {
+        "帖号": "8963715070",
+        "初始引用文件": "src/people/gongcheng-xiangmu/gongcheng-xiangmu.md;src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md;src/people/koko1-k/koko1-k.md;src/people/koko1-k/materials-koko1-k.md",
+        "首尾状态": "首尾已取",
+        "接口回复数": "15",
+        "主楼总页数": "1",
+        "主楼分页完成": "true",
+        "已取主楼": "10",
+        "已取楼中楼": "5",
+        "楼中楼计数差": "0",
+        "人工处理": "未人工通读",
+        "当前错误": "无",
+        "楼中楼空页": "无",
+        "主楼无列表页": "无",
+        "楼中楼分页元数据全零": "无"
+      }
+    }
+  ],
+  "review": {
+    "status": "unread",
+    "notes": []
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-review/8963715070.json",
+    "fetched_at": "2026-10-10T14:27:53.242Z",
+    "main_posts": 10,
+    "subposts": 5,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      },
+      "reverse": {
+        "pages": 1,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1,
+        "complete": true
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

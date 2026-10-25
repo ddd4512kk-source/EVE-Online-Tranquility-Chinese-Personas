@@ -27,7 +27,7 @@ zKillboard 快照里只有 5 次参与击杀，累计约 584.8B ISK，单杀为�
 
 ## 军团榜反查与三号对应（2026-10-14）
 
-旧[星尘历史榜](corp-top-characters-2026-10-12.tsv)找到YiRu ChuZhong（2114704425）第6，6228次、约6.04T；QY RED1（96804023）第55，1998次、约5.85T。两个数字均为星尘历史军团范围，不是本人全生涯，也不将各号数字相加。
+旧[星尘历史榜](../corporations/README.md)找到YiRu ChuZhong（2114704425）第6，6228次、约6.04T；QY RED1（96804023）第55，1998次、约5.85T。两个数字均为星尘历史军团范围，不是本人全生涯，也不将各号数字相加。
 
 三份[July Karin ESI](https://esi.evetech.net/latest/characters/2115105670/)、[YiRu ChuZhong ESI](https://esi.evetech.net/latest/characters/2114704425/)、[QY RED1 ESI](https://esi.evetech.net/latest/characters/96804023/)均已核：头衔同为QY，当前军团The Skies Descend（98799349），联盟Snuffed Out（99004901）。按同头衔、同军团直接归一，不等本人另行确认；主小号命名差异不拆人。YiRu ChuZhong为目前找到的主要常规作战号，July Karin是已知俄洛巴斯号，QY RED1则有无畏／泰坦等记录；不把战绩最活跃直接写成本人指定主号。
 
