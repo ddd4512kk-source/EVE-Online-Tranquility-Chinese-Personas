@@ -34,10 +34,10 @@ Taishang Laojun 的 [KB](https://zkillboard.com/character/2119107966/) 记着一
 :::
 
 ::: 红料 B站作品精选
-- [《【EVE ONLINE真视界】联盟队的“救赎” - FRTvs十国联军 1400人720b战损 Taff塔夫旗舰战导演剪辑版。》](https://www.bilibili.com/video/BV1zMAXzBEvt/)：频道里播放最高，一万两千多，是第二名的六倍；标题自称导演剪辑版，1400 人的战场被他当作作品来做。
-- [《【EVE Online】Deepwater Hooligans正义之师重拳出击WE FORM V0LTA》](https://www.bilibili.com/video/BV1CK411x7Me/)：2024 年 1 月的作品，播放排频道第二；标题写的是正义之师重拳出击。
-- [《【EVE online】GOT＆RHG智取HEL！》](https://www.bilibili.com/video/BV1P22aYRE7b/)：2024 年 10 月，标题一个“智取”，写出哪边是动脑的一边。
-- [《【EVE Online】Snuffed Out - A Feast in Aeschee》](https://www.bilibili.com/video/BV1p2G2zDEuz/)：2025 年 4 月，标题写作 Snuffed Out 的盛宴，地点在 Aeschee。
+- [《【EVE ONLINE真视界】联盟队的“救赎” - FRTvs十国联军 1400人720b战损 Taff塔夫旗舰战导演剪辑版。》](https://www.bilibili.com/video/BV1zMAXzBEvt/)：一千四百人的塔夫旗舰战、七百二十 B 的战损，被太上老君拿来做导演剪辑版。频道最高播放是第二名的六倍，这份大场面的胃口很对观众路数：参战的人忙着把船押进去，拍片的人还要替这一场烧钱大戏争个好收场。
+- [《【EVE Online】Deepwater Hooligans正义之师重拳出击WE FORM V0LTA》](https://www.bilibili.com/video/BV1CK411x7Me/)：Deepwater Hooligans冲向WE FORM V0LTA，交锋里连“正义之师”都穿上了装甲。太上老君留下的不是一段静止战报：一边带着讨伐口吻出门，一边迎面撞上老练对手，打到最后得让舰队本身替这句宣言作答。
+- [《【EVE online】GOT＆RHG智取HEL！》](https://www.bilibili.com/video/BV1P22aYRE7b/)：GOT和RHG把目标放在一艘HEL上，行动讲究的便不是正面堆船，而是怎样让对方的重器落单。太上老君挑中的这场较量，胜负关键藏在布置与时机里；一艘超旗再贵，没人接应时也只是块昂贵靶子。
+- [《【EVE Online】Snuffed Out - A Feast in Aeschee》](https://www.bilibili.com/video/BV1p2G2zDEuz/)：Aeschee成了Snuffed Out开席的地方，敌我舰队围着同一片星域争夺主动。太上老君镜头里的盛宴没有餐桌礼仪，来客带着舰船赴约，谁能把对手留下，谁才有资格先动筷。
 - [《【EVE Online】Shadow Cartel  11月17日 Blops vlog》](https://www.bilibili.com/video/BV1WqU7YHEgQ/)：Shadow Cartel 的黑隐 vlog，十一月前后连发两期（另有一期 Barghest）；老东家的日常多半靠这类小片留下。
 :::
 

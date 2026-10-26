@@ -29,8 +29,8 @@
 ::: 红料 B站作品精选
 - [《FRT怒炸INIT dark shines满编狂热，W佬和司令反时区队巨作，北军提供支持，语音原生放送！》](https://www.bilibili.com/video/BV1TqjUzgEhb/)：反时区队对阵INIT狂热，W佬、司令与北军都被写进同一场交锋，适合顺着频道里的熟人和队伍看这场战斗记录。
 - [《FRT EN正名之战：Snuff兰多恩铁壁结构》](https://www.bilibili.com/video/BV18WN6zoEQm/)：题目将FRT EN与Snuff的结构战放在同一场景，适合和频道里FRT战役记录对照着看。
-- [《FRT泰坦出击！MC60 dd init无畏群 1N-复刻？》](https://www.bilibili.com/video/BV1SLPTzcEdk/)：标题从泰坦出击写到无畏群，并抛出“复刻”的疑问，呈现频道另一类旗舰战题材。
-- [《FRT国庆巨作，5杀PH大航，轻拦/黑隐/无畏第一视角》](https://www.bilibili.com/video/BV1nRHKzxEBu/)：标题以国庆战役和五艘大航击杀为核心，还点出轻拦、黑隐与无畏视角，是娃娃频道高播放的战斗记录。
+- [《FRT泰坦出击！MC60 dd init无畏群 1N-复刻？》](https://www.bilibili.com/video/BV1SLPTzcEdk/)：FRT 泰坦出击，炮口冲着 INIT 无畏群，又让人惦记起 1N- 那份昂贵旧账。娃娃爱收这种大船局面，贵船一亮相，旁观者就想看旧戏重演；场上人却得想想，这回自己究竟坐在看烟花的哪一边。
+- [《FRT国庆巨作，5杀PH大航，轻拦/黑隐/无畏第一视角》](https://www.bilibili.com/video/BV1nRHKzxEBu/)：国庆战场上五艘 PH 大航被击毁，镜头又切过轻拦、黑隐和无畏的不同位置。娃娃把一场大规模交锋拆成多个视角，观众看到的既有旗舰损失，也有把战果拼出来的各路角色。
 - [《WC vs IMP艾蒂斯铁壁锚定，北军噩梦第一视角》](https://www.bilibili.com/video/BV11dFJz2EKV/)：这条把铁壁锚定与北军噩梦视角并列，留作一场结构战的第一视角入口。
 :::
 

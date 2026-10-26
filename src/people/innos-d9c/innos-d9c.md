@@ -53,10 +53,10 @@
 :::
 
 ::: 红料 B站作品精选
-- [《EVE欧服12月散打f1无脑局》](https://www.bilibili.com/video/BV1fLviBDEcy/)：EVE 类播放最高的一条，标题直说是“无脑局”。DSN 招新大使把自己的 F1 局也当成产品展示。
-- [《EVE欧服 小队战逼急BOSS疯狂弹窗，为frt远征兄弟报仇！》](https://www.bilibili.com/video/BV12oH2zjE2u/)：小队战打得对面“疯狂弹窗”，还带着给 FRT 远征兄弟报仇的名义。袖笼的战斗片喜欢先把剧情写进标题。
+- [《EVE欧服12月散打f1无脑局》](https://www.bilibili.com/video/BV1fLviBDEcy/)：十二月散打直接当成 F1 无脑局推出来，袖笼的招新倒有一份不装深沉的实诚。频道最热这篇卖的就是跟队开火的轻松劲；太空生活已经够费脑，今晚能有人替你找好目标，自己只管按键，也是一种军团福利。
+- [《EVE欧服 小队战逼急BOSS疯狂弹窗，为frt远征兄弟报仇！》](https://www.bilibili.com/video/BV12oH2zjE2u/)：小队战还要替 FRT 远征兄弟报仇，袖笼把朋友义气和战场得意揉到一起。对手被他说得急着弹窗，自己这边自然越讲越起劲；这篇好在不只惦记船值多少，熟人之间那口要讨回来的气，才最容易让人继续出门。
 - [《EVE欧服 FRT保卫星城1600人爽射对局 噩梦/鹏鲲视角》](https://www.bilibili.com/video/BV1eaccz5Eqb/)：FRT 保卫星城，一千六百人的大场面，视角是噩梦和鹏鲲。招新片里的“前线”，这一条是实物。
-- [《EVE欧服 FRT 8.31低安无畏爽射局》](https://www.bilibili.com/video/BV1TkaLzQEFn/)：低安无畏的“爽射局”，日期就在标题里。无畏教程做完，他自己也上场练了一把。
+- [《EVE欧服 FRT 8.31低安无畏爽射局》](https://www.bilibili.com/video/BV1TkaLzQEFn/)：八月三十一日去低安开无畏，袖笼给自己安排了一趟爽射局。教别人玩船时可以讲得从容，自己也得有把船开出去过瘾的时候；这篇正好接在他的无畏教程后头，书上讲的本事，总要找个地方让炮管热起来。
 - [《EVE欧服 ESS吃肉集锦》](https://www.bilibili.com/video/BV13mWBzMEXw/)：集锦类，主题是 ESS 吃肉。招新简介里的“无限续杯”，和这一条的口径差不多。
 :::
 

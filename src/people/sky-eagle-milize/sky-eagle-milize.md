@@ -18,7 +18,7 @@
 - [PVP入门EP05：四大帝国护卫舰](https://www.bilibili.com/video/BV15LHn6uEKQ/)：从舰船职责继续往机制答疑延伸，评论保留了查阅外部资料的入口。
 - [PVP入门EP02：古斯塔斯与萨沙](https://www.bilibili.com/video/BV1mUea6bEfZ/)：简介继续拆船的体系与定位，作者也提醒教程只能入门，最好还有游戏内教官带着练。
 - [PVP入门EP03：血袭、天使、天蛇、莫德团与姐妹会](https://www.bilibili.com/video/BV1UdhB6TEJt/)：延续系列的势力舰船介绍，让新人按势力继续认识可选舰船。
-- [PVP入门EP04：三神裔、伊甸联合等势力舰船](https://www.bilibili.com/video/BV1Yuh667EnR/)：标题列出更多舰船来源，适合接着补齐系列中的势力分类。
+- [PVP入门EP04：三神裔、伊甸联合等势力舰船](https://www.bilibili.com/video/BV1Yuh667EnR/)：系列走到三神裔和伊甸联合，势力舰船的谱系又铺开一圈。Sky Eagle做入门课像带新人逛船库：先认清舰船从哪来、擅长什么，再决定自己想把哪艘开进战场。
 :::
 
 ::: 评

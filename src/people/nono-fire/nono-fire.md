@@ -108,10 +108,10 @@ NoNo在[《请问这种情况下，后勤和驾驶员谁更慌？》](https://ww
 
 
 ::: 红料 B站作品精选
-- [《【EVE ONLINE】你好FIRE联盟群。百艘无畏冲入泰坦群，万亿ISK击毁。》](https://www.bilibili.com/video/BV19d4y1H7nu/)：2023 年的大场面，百艘无畏冲入泰坦群，标题报价万亿 ISK；NoNo 战报的重量级一篇。
+- [《【EVE ONLINE】你好FIRE联盟群。百艘无畏冲入泰坦群，万亿ISK击毁。》](https://www.bilibili.com/video/BV19d4y1H7nu/)：百艘无畏撞进泰坦群，FIRE 的阵线把战场一下挤满；万亿级损失也让这场交锋沉得压手。NoNo 留下的是舰队规模的硬碰硬，开船的人和看战报的人都躲不开这份重量。
 - [《【EVE】2007年到2020年2月的势力地图变化》](https://www.bilibili.com/video/BV1xj411f75s/)：把 2007 到 2020 年的势力地图变化压成一支视频，是他少见的“大历史”题材；野史作者看了要沉默。
-- [《【EVE ONLINE】这才是雷电法王！当你获得了最强DPS战列配上电弧炮后》](https://www.bilibili.com/video/BV1xT4y1g7UB/)：2020 年的一篇，标题把一条战列捧成“法王”；他不只拍大舰队，也有满怀爱意的单船片。
-- [《【EVE Online】欧服的第二条科莫多击杀，苦主FRT。Big Brother is watching u.》](https://www.bilibili.com/video/BV1Fw411f7nP/)：标题点名苦主 FRT，还配了一句英文台词；科莫多击杀，他把它做成了一条“老大哥在看着你”的片子。
+- [《【EVE ONLINE】这才是雷电法王！当你获得了最强DPS战列配上电弧炮后》](https://www.bilibili.com/video/BV1xT4y1g7UB/)：电弧炮战列把火力堆到极限，NoNo 对这条船的偏爱也跟着炮口一起亮出来。拍惯了大舰队的人，转头认真伺候一艘战列，反倒显出他对舰船本身的玩家脾气。
+- [《【EVE Online】欧服的第二条科莫多击杀，苦主FRT。Big Brother is watching u.》](https://www.bilibili.com/video/BV1Fw411f7nP/)：欧服第二条科莫多倒下，苦主是 FRT；这份战报还配着“老大哥在看着你”的冷幽默。NoNo 把一次旗舰损失剪成阵营间的注视，赢家笑得出声，输家只好记住那双眼睛。
 - [《【EVE Online】近两百条无畏对轰，8000亿击杀。Snuffed-Out VS FRT》](https://www.bilibili.com/video/BV1pg41177ye/)：近两百条无畏对轰，8000 亿的击杀，Snuffed-Out 对 FRT；他的长期阵营在大场面里怎么打，看这条。
 :::
 

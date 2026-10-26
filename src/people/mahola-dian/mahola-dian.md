@@ -17,8 +17,8 @@ Ghost与加里，游戏名 Mahola Dian。频道里一头是掠夺刷怪指南，
 - [U-QVWD星城锚定](https://www.bilibili.com/video/BV1AZ421K7en/)：与同频道不同阶段的战斗投稿连读，保留本人长期记录社区行动的脉络。
 - [75人对170人的战斗记录](https://www.bilibili.com/video/BV1j4vKzQE2r/)：作者还在评论解释指挥麦小、其他人声音大的问题，读得到发布后的具体接话。
 - [Z3V-1W会战记录](https://www.bilibili.com/video/BV1WMZPYTEGT/)：与星城锚定、狂热投稿接读，评论中还有参战者回来寻找自己的死亡视角。
-- [【EVE欧服】- HB-1NJ星系3600人铁壁上线战](https://www.bilibili.com/video/BV17ET4z6EJi/)：标题把3600人规模和铁壁上线战写明，适合补看大型主权战场景。
-- [【EVE欧服】- PH联盟U-QVWD星城陨落！](https://www.bilibili.com/video/BV1cyv9eKELN/)：星城陨落是标题中心事件，延续频道对建筑攻防的记录。
+- [【EVE欧服】- HB-1NJ星系3600人铁壁上线战](https://www.bilibili.com/video/BV17ET4z6EJi/)：三千六百人的铁壁上线，单是一座建筑就把整片星系的人都拽到同一处。马哈拉·点把这场主权争夺保存下来，镜头里既是舰队，也是所有人等着建筑亮起的漫长时刻。
+- [【EVE欧服】- PH联盟U-QVWD星城陨落！](https://www.bilibili.com/video/BV1cyv9eKELN/)：PH的星城走到陨落一刻，守方与攻方围着建筑把账算到最后。马哈拉·点持续记录这类主权攻防，观众看到的不只是一座城消失，还有联盟地盘如何易手。
 :::
 
 ::: 评

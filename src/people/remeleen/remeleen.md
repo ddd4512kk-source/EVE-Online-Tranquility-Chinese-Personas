@@ -104,10 +104,10 @@ The Therapists 是女娲的联盟，当时的话事人正是 [N老板](../161819
 :::
 
 ::: 红料 B站作品精选
-- [《EVE Online UALX- 价值百万美元超旗逃脱幕后》](https://www.bilibili.com/video/BV1Gs411A7Xe/)：频道里 2018 年的老片，播放在他的 EVE 作品里排前三；标题一口咬定“百万美元超旗”，逃脱的惊险还要配上“幕后”二字，Pandemic Legion 那几年的战场回忆从这里翻起。
-- [《EVE Online 震惊!凛冬高层竟对自己成员刷怪大航下毒手》](https://www.bilibili.com/video/BV1pW411d7tE/)：标题用的是社会新闻口气，苦主是凛冬自己的刷怪成员；老 FC 当起标题党，拿联盟内斗当花边。
-- [《EVE Online- Test 科莫多Komodo 过门吃了口热翔(无畏视角)》](https://www.bilibili.com/video/BV1zb411B7Be/)：2019 年的无畏视角，标题自己交代了结局，过门吃了口热翔；他在“失败教程”之外又一个肯把尴尬摆上台面的例子。
-- [《[EVE Online] 一条baby冥府是如何在在旗舰异常出生的》](https://www.bilibili.com/video/BV1QP411k7uU/)：2023 年的整活向，标题把冥府写成“baby”，出生地还是旗舰异常；老兵剪起乐子来一点不端着。
+- [《EVE Online UALX- 价值百万美元超旗逃脱幕后》](https://www.bilibili.com/video/BV1Gs411A7Xe/)：UALX 的超旗从险境里逃脱，百万美元的说法把每艘船的代价都压到读者眼前；真正揪人的还是它如何脱身。雷米林把战场内幕摊开，Pandemic Legion 那些年的风云也随镜头重新翻动。
+- [《EVE Online 震惊!凛冬高层竟对自己成员刷怪大航下毒手》](https://www.bilibili.com/video/BV1pW411d7tE/)：凛冬成员刷怪的大航竟成了联盟内部下手的对象，受害者和动手者站在同一面旗子下，荒唐感比敌方突袭更刺眼。雷米林熟悉联盟权力场，也懂得把这种内斗讲成一桩宇宙里的社会新闻。
+- [《EVE Online- Test 科莫多Komodo 过门吃了口热翔(无畏视角)》](https://www.bilibili.com/video/BV1zb411B7Be/)：科莫多过门就吃了亏，雷米林干脆把这份狼狈放进无畏视角里。老 FC 不只留下赢仗的镜头，也肯把昂贵旗舰翻车的尴尬摊开；观众看到的是失手，同行记住的是他没把自己端成神。
+- [《[EVE Online] 一条baby冥府是如何在在旗舰异常出生的》](https://www.bilibili.com/video/BV1QP411k7uU/)：一条“宝宝”冥府竟从旗舰异常里出生，昂贵旗舰和婴儿床被塞进同一幅荒诞画面。雷米林身经战场却不端架子，能把严肃的船名玩出这种反差，老兵的幽默就藏在认真里。
 - [《Eve Online 00主权地图08.2007 - 08.2021》](https://www.bilibili.com/video/BV1Aq4y1U7gt/)：十四年的主权地图一路放下来，播放过五千；2017、2019 年还各有一版同类地图，算他的固定栏目。
 :::
 

@@ -37,7 +37,7 @@ TempestUdf，牧星的0845，在B站挂着“EVE牧星军团”的招牌。他�
 - [创建角色、前往驻地](https://www.bilibili.com/video/BV1oCD1B7Eg5/)：教程的第二站，把“来牧星玩”拆成新人接下来要做的事。
 - [前往前线、准备船只](https://www.bilibili.com/video/BV1WaouBrEhK/)：课程走到前线，评论同时兼办新人答疑和RR旧交情盘点。
 - [牧星ABD队战斗集锦](https://www.bilibili.com/video/BV17SdNBSEJn/)：牧星战列队的招新橱窗，观众的关注点却是为什么还不把无畏端出来。
-- [狂野因尼亚，挑战荣耀卫队](https://www.bilibili.com/video/BV1JRNczAEPg/)：标题把战损喊得响，评论区围着白名、安等与声望追问，比单看宣传更有这群熟人的味道。
+- [狂野因尼亚，挑战荣耀卫队](https://www.bilibili.com/video/BV1JRNczAEPg/)：狂野因尼亚挑战荣耀卫队，战损喊得响，熟人却追着问白名、安等和势力声望。Tempest UDF把场面炒热，评论区马上把问题拉回开船的人身上；大家都想赢得好看，真轮到自己上场，先得弄明白这一仗会给自己添什么麻烦。
 :::
 
 ::: 评
