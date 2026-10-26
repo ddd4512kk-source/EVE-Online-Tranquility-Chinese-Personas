@@ -45,6 +45,16 @@ test('shortlist finds alt participation, keeps mentions distinct, never infers r
   assert.equal(call('card', 'person:other').battles.records[0].characters[0].via[0], 'mention');
   assert.equal(call('list', '--feature', 'battle').records[0].key, 'battle:test');
 });
+test('combat-without-block flags combat records outside a dedicated red block', t => {
+  const { put, call } = fixture(t);
+  assert.equal(call('list', '--signal', 'combat-without-block').records[0].key, 'person:demo');
+  put('src/people/demo/demo.md', '开篇。[综合战绩](https://zkillboard.com/character/42/)\n::: 红料 工业\n做工业。\n:::\n');
+  assert.equal(call('list', '--signal', 'combat-without-block').total, 1);
+  put('src/people/demo/demo.md', '开篇。\n::: 红料 舰队老兵\n[综合战绩](https://zkillboard.com/character/42/)常年出勤。\n:::\n');
+  assert.equal(call('list', '--signal', 'combat-without-block').total, 0);
+  put('src/people/demo/demo.md', '开篇。\n::: 红料 战斗老兵\n常年出勤。\n:::\n');
+  assert.equal(call('list', '--signal', 'combat-without-block').total, 0);
+});
 test('receipts become stale on own prose, alts, shared evidence and newly linked battles', t => {
   for (const change of ['body', 'identity', 'source', 'battle']) {
     const { put, call, mark } = fixture(t);

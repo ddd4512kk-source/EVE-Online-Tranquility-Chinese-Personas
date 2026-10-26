@@ -31,6 +31,129 @@
     "inputs": "c2a1330f45eba37262aa62c63086c6f4469c6b7d9a67ce2db2872bff7b5596df",
     "rules": "abd125bad4d4e8492348686b336334e2eff9e5f267bff27c7dff83cf139e9b9c"
   },
+  "person:domityphoon": {
+    "status": "reviewed",
+    "note": "本轮新增合流安排四段与指挥位一句已审；保留全部原料块，修复一处旧随风链接；未冒充全篇旧料追溯审查。",
+    "evidence": [
+      "src/people/domityphoon/materials-domityphoon.md",
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+      "src/people/domityphoon/domityphoon.md"
+    ],
+    "assessment": {
+      "coverage": {
+        "status": "reviewed",
+        "note": "验收范围为本轮新增合流公告、身份依据及监视者画像一句；对照原重建自述、RMT清退段与原战绩段。旧24块及作品不删不缩；本记录不宣称重做全篇历史来源审查。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/materials-domityphoon.md",
+            "heading": "## 11月4日脱离天宫、加入创世主导WF的安排"
+          },
+          {
+            "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+            "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+          }
+        ]
+      },
+      "events": {
+        "status": "reviewed",
+        "note": "本轮新增一件组织经营重事，四段推进处境、福利与生产条件、具体分工和新旧反差；没有把单纯换盟拆成多条料。",
+        "evidence": [
+          {
+            "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+            "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+          }
+        ],
+        "items": [
+          {
+            "title": "离开天宫、计划转入创世主导WF及安置成员",
+            "weight": "heavy",
+            "reason": "台风本人发布日期去向和具体组织安排，延续重建天宫后的队伍经营；狂天的前后反差与实际经办角色构成跨人物事件。",
+            "source": {
+              "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+              "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+            },
+            "treatment": "expanded",
+            "body": {
+              "file": "src/people/domityphoon/domityphoon.md",
+              "contains": "重建RR时，阿姨"
+            },
+            "note": "本次新增完整四段，原有星华、RR及天宫自述与旧料保留；未把一般转团写背信，不宣称正式入盟、福利到账或台风旧星华全团去向。",
+            "development": [
+              {
+                "angle": "处境",
+                "note": "接续原有重建RR、与牧星合天宫的自述，把新通知放回队伍再找出路的过程。",
+                "evidence": {
+                  "file": "src/people/domityphoon/domityphoon.md",
+                  "contains": "账本很快又添了一张搬家清单"
+                }
+              },
+              {
+                "angle": "分量",
+                "note": "刷怪生产、留人补卡和福利停发后恢复申请是经营成员的条件，非纯改旗号。",
+                "evidence": {
+                  "file": "src/people/domityphoon/domityphoon.md",
+                  "contains": "成员先要知道明天去哪刷"
+                }
+              },
+              {
+                "angle": "反差",
+                "note": "对外留下算账狠话，对内仍需谈生产补贴；狂天先前骂创世如今负责搬迁。",
+                "evidence": {
+                  "file": "src/people/domityphoon/domityphoon.md",
+                  "contains": "狠话可以写给旧仇看"
+                }
+              },
+              {
+                "angle": "反应与后果",
+                "note": "具体分工到狂天收单据与小号接快递，台风负责舰队联络；写已公布安排而不编执行完成。",
+                "evidence": {
+                  "file": "src/people/domityphoon/domityphoon.md",
+                  "contains": "连这位旧日批评家也成了搬家经办人"
+                }
+              }
+            ],
+            "verdict": "sufficient"
+          }
+        ]
+      },
+      "balance": {
+        "status": "reviewed",
+        "note": "保留原故事重心，新块接在星华清退与重建自述之后，形成后续；不拿整篇其他旧事替代新公告发挥，新增KB仅一句职责。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/domityphoon.md",
+            "contains": "史书里的名字变了，阿姨的手艺没变"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/capital-battles-2026-10-11.md",
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+      "docs/sources/large-battles-2026-10-11.md",
+      "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+      "docs/sources/sard-drone-region-clearance-announcement.md",
+      "docs/sources/sard-rr-old-grudge-2026-10.md",
+      "docs/sources/seven-sec-video-2017.md",
+      "src/people/domityphoon/2113029856-id.json",
+      "src/people/domityphoon/domityphoon.md",
+      "src/people/domityphoon/materials-domityphoon.md",
+      "src/battles/fwst-8-2020/fwst-8-2020.json",
+      "src/battles/fwst-8-2020/fwst-8-2020.md",
+      "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+      "src/battles/j-tpta-2022/j-tpta-2022.json",
+      "src/battles/j-tpta-2022/j-tpta-2022.md",
+      "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+      "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+      "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+      "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+      "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+      "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+      "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+    ],
+    "inputs": "0e20ae1907f8eb9e833aa929bf7624c6f70e5aeed3cffc989f84f37132da2f77",
+    "rules": "abd125bad4d4e8492348686b336334e2eff9e5f267bff27c7dff83cf139e9b9c"
+  },
   "person:emmadag-saraki": {
     "status": "reviewed",
     "note": "逐事件对照交易图、身份和清退后果，RMT主线已展开",
@@ -156,6 +279,255 @@
     ],
     "inputs": "601b87ea8b861a3d5c509ca09e81b09a6114a37cda7aec709c69b163cefa2dc0",
     "rules": "abd125bad4d4e8492348686b336334e2eff9e5f267bff27c7dff83cf139e9b9c"
+  },
+  "person:kuang-tian": {
+    "status": "reviewed",
+    "note": "三原重事件保留；战绩为独立红料块，黑料块未动；复查工具更新后重登",
+    "evidence": [
+      "src/people/kuang-tian/kuang-tian.md",
+      "src/people/kuang-tian/materials-kuang-tian.md",
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md"
+    ],
+    "assessment": {
+      "coverage": {
+        "status": "reviewed",
+        "note": "逐段对照12幅不同画面归档；三重事件全部展开，战绩另成一块红料，三场代表战斗写成小故事。未混淆买卖两笔或移植无年份踢荣耀事件。 新通知并入离团原块，完整采用11月4日去向、生产福利安排及狂天经办分工，保持原三重事件结构。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 社区事件与采用"
+          },
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 排除与后续入口"
+          },
+          {
+            "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+            "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+          }
+        ]
+      },
+      "events": {
+        "status": "reviewed",
+        "note": "三件重事件逐件审稿；RMT、友军资产、退出与招人分别有完整推进，不凭长短判分量。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 社区事件与采用"
+          }
+        ],
+        "items": [
+          {
+            "title": "RMT采购与本人开脱",
+            "weight": "heavy",
+            "reason": "本人承认购买40条海军无畏，既有具体交易方式、报价又有风险回应，决定人物形象。",
+            "source": {
+              "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+              "heading": "## RMT买船：狂天本人的表述"
+            },
+            "treatment": "expanded",
+            "body": {
+              "file": "src/people/kuang-tian/kuang-tian.md",
+              "contains": "2026年8月9日"
+            },
+            "note": "逐段核读原话与双方反驳；没有补造交易、封禁或组织变动结果。",
+            "development": [
+              {
+                "angle": "处境",
+                "note": "按40条及字母库存引入大批购买场面，无各族数量臆补。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "不是给自己挑一条心仪座驾"
+                }
+              },
+              {
+                "angle": "分量",
+                "note": "用1200e与每条30e解释规模，保留报价而非人民币实付。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "一千二百亿ISK的报价"
+                }
+              },
+              {
+                "angle": "反差",
+                "note": "本人承认RMT后用商品是船而非ISK开脱。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "买钱包里的数字叫买ISK"
+                }
+              },
+              {
+                "angle": "反应与后果",
+                "note": "阴空提醒封号，荣耀点名举报；未写举报成功。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "叫人去找FENRIS举报"
+                }
+              }
+            ],
+            "verdict": "sufficient"
+          },
+          {
+            "title": "友军资产纠纷与公开改口",
+            "weight": "heavy",
+            "reason": "私聊激烈批评、向OF处置自有资产、公开归因牧星管理及阴空完整反驳形成同一重事件，不拆块计数。",
+            "source": {
+              "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+              "heading": "## 公开解释：资产误会与管理责任"
+            },
+            "treatment": "expanded",
+            "body": {
+              "file": "src/people/kuang-tian/kuang-tian.md",
+              "contains": "创世在狂天嘴里"
+            },
+            "note": "逐段核读原话与双方反驳；没有补造交易、封禁或组织变动结果。",
+            "development": [
+              {
+                "angle": "处境",
+                "note": "友军出勤、补损、回收与敌方报价同时施压。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "友军的兵要来"
+                }
+              },
+              {
+                "angle": "动机",
+                "note": "OF的较好价格和三天结算是本人解释，展开现金流与情分取舍。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "选后者时倒很懂现金流"
+                }
+              },
+              {
+                "angle": "反差",
+                "note": "私聊骂战略财务人品，公开只剩人少和别人造成误会。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "公开压缩成了人少、误会和别人没解释清楚"
+                }
+              },
+              {
+                "angle": "反应与后果",
+                "note": "阴空补全等待压价、退船退款与正常回收，抵消单边欠款说法。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "后来创世又按正常价格回收了战备"
+                }
+              },
+              {
+                "angle": "落点",
+                "note": "合同能退，私聊不能随公开改口撤销，回扣第一块自辩。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "后一笔人情账却没有那么好撤回"
+                }
+              }
+            ],
+            "verdict": "sufficient"
+          },
+          {
+            "title": "离团结账与双方招人冲突",
+            "weight": "heavy",
+            "reason": "CEO信任、离团账目、黑影准入与互指挖人有组织关系后果；与前块资产争议相连但核心行动为退出和招人。",
+            "source": {
+              "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+              "heading": "## 离团、WINGS与黑影小组"
+            },
+            "treatment": "expanded",
+            "body": {
+              "file": "src/people/kuang-tian/kuang-tian.md",
+              "contains": "狂天对牧星的耐心"
+            },
+            "note": "逐段核读原话与双方反驳；没有补造交易、封禁或组织变动结果。 新增台风通知将意向推进为军团公布的执行安排，未提前写成已经完成转盟。",
+            "development": [
+              {
+                "angle": "处境",
+                "note": "对牧星刷子不满、B6落脚和离团前找王答答结账串起动身条件。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "离开的手续里唯独钱还得留个窗口"
+                }
+              },
+              {
+                "angle": "反差",
+                "note": "自己骂创世挖人，阴空反指其用只准E0来吸人；去向被荣耀翻旧话。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "换一面墙，便成了自己的招新手艺"
+                }
+              },
+              {
+                "angle": "反应与后果",
+                "note": "阴空讽刺亲卫出走、荣耀质问去向与阴空声称悬赏，保持各人发言行为。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "最后连揭账的人也成了下一笔争执"
+                }
+              },
+              {
+                "angle": "落点",
+                "note": "临走要结账与OF三天结算相呼应，未编最终入盟。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "散伙饭也不能吃成赊账"
+                }
+              },
+              {
+                "angle": "分量",
+                "note": "去向有执行日、损失统计、指定小号快递和福利申请日，写出合作已进入安排阶段及与八月骂创世的反差。",
+                "evidence": {
+                  "file": "src/people/kuang-tian/kuang-tian.md",
+                  "contains": "去向后来终于写成了搬家通知"
+                }
+              }
+            ],
+            "verdict": "sufficient"
+          }
+        ]
+      },
+      "balance": {
+        "status": "reviewed",
+        "note": "开头与一段战斗画像之后把主体留给三件重事件；每块多段递进，有本人回应和对方反驳，无额外账本或来源流程尾巴。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/kuang-tian.md",
+            "contains": "四十条海军无畏能不能"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+      "src/people/kuang-tian/2116350757-id.json",
+      "src/people/kuang-tian/kuang-tian.md",
+      "src/people/kuang-tian/materials-kuang-tian.md",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+      "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+      "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+      "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+      "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+      "src/battles/fwst-8-2020/fwst-8-2020.json",
+      "src/battles/fwst-8-2020/fwst-8-2020.md",
+      "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+      "src/battles/lantorn-2025/lantorn-2025.json",
+      "src/battles/lantorn-2025/lantorn-2025.md",
+      "src/battles/lantorn-2025/materials-lantorn-2025.md",
+      "src/battles/sosala-2025/sosala-2025.json",
+      "src/battles/sosala-2025/sosala-2025.md",
+      "src/battles/sosala-2025/materials-sosala-2025.md",
+      "src/battles/svm-3k-2026/svm-3k-2026.json",
+      "src/battles/svm-3k-2026/svm-3k-2026.md",
+      "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+      "src/battles/taff-2026/taff-2026.json",
+      "src/battles/taff-2026/taff-2026.md",
+      "src/battles/taff-2026/materials-taff-2026.md",
+      "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+      "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+      "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+    ],
+    "inputs": "6871f92c0afb61926a4e5366b367ddb5a77cf8a6a380f253f803b447c04dd86f",
+    "rules": "f480af242824a17c604e36e9c037dcacd5198cd96738723446d589cb8e372baa"
   },
   "person:luxi-miss": {
     "status": "needs-work",

@@ -204,6 +204,97 @@
     "inputs": "0328837c485aee0efa79d27121e875e010499daa5e4149c90afd90c92c51c984",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
   },
+  "person:domityphoon": {
+    "status": "reviewed",
+    "note": "补读主号与主力小号、高值月代表及四场历史战役；监视者指挥位补正文与标签，旧随风互链改为其收录主号。",
+    "evidence": [
+      "src/people/domityphoon/materials-domityphoon.md",
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+      "src/people/domityphoon/domityphoon.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "已读主号stats与topAllTime船榜、公开简介；原KB数未变化，发现Monitor记录支持指挥位，并实际补正文与FC标签。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/materials-domityphoon.md",
+            "heading": "## 本轮游戏画像与战役对照"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "not a dropper综合统计及黑隐船型已核；Brad Aivora沿用已存0记录，本次公告补强本人身份，不把组织工作当战果。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/materials-domityphoon.md",
+            "heading": "## 本轮游戏画像与战役对照"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "核主号最高月201908及201805分布，用78532846 ESI确认201908本人拉格纳洛克与时间星系；常规样本支持原画像，不额外写一场新战役。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/materials-domityphoon.md",
+            "heading": "## 本轮游戏画像与战役对照"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "逐场核FWST、J-TPTA、M2首战与1月27日突围；不将1月3日第二战与突围混同，不用当前天宫归属替换历史阵营。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/materials-domityphoon.md",
+            "heading": "## 本轮游戏画像与战役对照"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "原有救世、M2冥府与泰坦损失点评保留；新增Monitor指挥位一句。新增主体是发布公告和安置成员，未用普通战果冲淡合流故事。",
+        "evidence": [
+          {
+            "file": "src/people/domityphoon/domityphoon.md",
+            "contains": "综合舰船记录里还有监视者"
+          },
+          {
+            "file": "src/people/domityphoon/domityphoon.md",
+            "contains": "搬家的具体活也分到了人头"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/capital-battles-2026-10-11.md",
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+      "docs/sources/large-battles-2026-10-11.md",
+      "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+      "docs/sources/sard-drone-region-clearance-announcement.md",
+      "docs/sources/sard-rr-old-grudge-2026-10.md",
+      "docs/sources/seven-sec-video-2017.md",
+      "src/people/domityphoon/2113029856-id.json",
+      "src/people/domityphoon/domityphoon.md",
+      "src/people/domityphoon/materials-domityphoon.md",
+      "src/battles/fwst-8-2020/fwst-8-2020.json",
+      "src/battles/fwst-8-2020/fwst-8-2020.md",
+      "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+      "src/battles/j-tpta-2022/j-tpta-2022.json",
+      "src/battles/j-tpta-2022/j-tpta-2022.md",
+      "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+      "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+      "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+      "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+      "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+      "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+      "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+    ],
+    "inputs": "0e20ae1907f8eb9e833aa929bf7624c6f70e5aeed3cffc989f84f37132da2f77",
+    "rules": "98057caca1d9eb72de3e8afe5fc7210259471a23c67b49be9fd4e728483c2693"
+  },
   "person:emmadag-saraki": {
     "status": "reviewed",
     "note": "画像、小号边界、高值月份、战役与正文采用逐项核读",
@@ -314,6 +405,106 @@
     ],
     "inputs": "877af0544b024dd2c2a3eb1236e867ce8adac672a50b31c4ef6788d1c86c3bb9",
     "rules": "8f5b052ff91874b225e5cdaec95b9da43634a1f5a92783ec948099a042f25be3"
+  },
+  "person:kuang-tian": {
+    "status": "reviewed",
+    "note": "按新规则核：战绩为独立红料块，紧接开篇",
+    "evidence": [
+      "src/people/kuang-tian/kuang-tian.md",
+      "src/people/kuang-tian/materials-kuang-tian.md"
+    ],
+    "assessment": {
+      "profile": {
+        "status": "reviewed",
+        "note": "主号完整简介、5185参与击杀、常用船及历史阵营已读；总览不当创作证据，参与价值不当个人收入。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 简介、综合KB与职责"
+          }
+        ]
+      },
+      "alts": {
+        "status": "reviewed",
+        "note": "三号确认归属，按上限读Sna Revenger及missrabbit03，分别4303及110参与击杀；未将普通常规船作指挥证据。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 身份与账号"
+          },
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 简介、综合KB与职责"
+          }
+        ]
+      },
+      "peaks": {
+        "status": "reviewed",
+        "note": "主号最高两月202607及202506分别抽SVM与Lantorn本人KM，核对具体时间、系统与船；不是宣称抽到月榜最大战果。Sna另核4月泰坦KM。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 履历与高值月份代表"
+          }
+        ]
+      },
+      "battles": {
+        "status": "reviewed",
+        "note": "四号逐场对照，八场自然人去重；核BR窗口、历史阵营、代表船；8F只用正式pilot粒度，不虚写指挥。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/materials-kuang-tian.md",
+            "heading": "## 已有战役逐场对照"
+          }
+        ]
+      },
+      "narrative": {
+        "status": "reviewed",
+        "note": "战绩单独成红料块：综合KB与主力小号合写长期战列线画像及黑影FC；FWST-8狂热损失后改开希尔博拉斯、兰多恩双鹏鲲打BIGAB后来自己入BIGAB、SVM-3K与创世并肩打OF与八月卖船给OF、骂CS的反差，三场展开为小故事。",
+        "evidence": [
+          {
+            "file": "src/people/kuang-tian/kuang-tian.md",
+            "contains": "::: 红料 KB：五千杀的战列线"
+          },
+          {
+            "file": "src/people/kuang-tian/kuang-tian.md",
+            "contains": "既然是FC"
+          }
+        ]
+      }
+    },
+    "dependencies": [
+      "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+      "src/people/kuang-tian/2116350757-id.json",
+      "src/people/kuang-tian/kuang-tian.md",
+      "src/people/kuang-tian/materials-kuang-tian.md",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+      "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+      "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+      "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+      "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+      "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+      "src/battles/fwst-8-2020/fwst-8-2020.json",
+      "src/battles/fwst-8-2020/fwst-8-2020.md",
+      "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+      "src/battles/lantorn-2025/lantorn-2025.json",
+      "src/battles/lantorn-2025/lantorn-2025.md",
+      "src/battles/lantorn-2025/materials-lantorn-2025.md",
+      "src/battles/sosala-2025/sosala-2025.json",
+      "src/battles/sosala-2025/sosala-2025.md",
+      "src/battles/sosala-2025/materials-sosala-2025.md",
+      "src/battles/svm-3k-2026/svm-3k-2026.json",
+      "src/battles/svm-3k-2026/svm-3k-2026.md",
+      "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+      "src/battles/taff-2026/taff-2026.json",
+      "src/battles/taff-2026/taff-2026.md",
+      "src/battles/taff-2026/materials-taff-2026.md",
+      "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+      "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+      "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+    ],
+    "inputs": "6871f92c0afb61926a4e5366b367ddb5a77cf8a6a380f253f803b447c04dd86f",
+    "rules": "13c8233c355ed9fb4dfaa5c61e3b6e70ded1201aa05237eb089e7a036a904a8d"
   },
   "person:luxi-miss": {
     "status": "reviewed",

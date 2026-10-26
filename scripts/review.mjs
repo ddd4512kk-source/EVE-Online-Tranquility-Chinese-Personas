@@ -253,6 +253,7 @@ function assess(root, record, feature) {
   if (missing.length) signals.push('review-incomplete');
   if (feature.eventReview && feature.pattern.test(record.text + (record.material ? read(root, record.material) : ''))) signals.push('heavy-story-candidate');
   if (feature.name === 'combat' && record.kind === 'person' && record.battles.some(b => b.characters.some(c => c.via.some(v => ['pilot', 'loss', 'manual'].includes(v)))) && !feature.pattern.test(record.text)) signals.push('battle-without-narrative');
+  if (feature.name === 'combat' && record.kind === 'person' && (/zkillboard\.com\/character\//.test(record.text) || record.battles.some(b => b.characters.some(c => c.via.some(v => ['pilot', 'loss', 'manual'].includes(v))))) && ![...record.text.matchAll(/^:::\s*红料(.*)\n([\s\S]*?)^:::\s*$/gm)].some(([, title, body]) => feature.pattern.test(title) || /zkillboard\.com\/|battles\//.test(body))) signals.push('combat-without-block');
   if (feature.name === 'combat' && record.kind === 'person' && /FLEET\s+COMMANDER/i.test(record.text + (record.material ? read(root, record.material) : '')) && !(record.archive.person.tags ?? []).some(tag => ['FC', '著名FC'].includes(tag))) signals.push('command-without-tag');
   if (record.blocks <= 2) signals.push('few-blocks');
   if (!record.material) signals.push('no-material');
@@ -369,7 +370,7 @@ export function run(root, args, suppliedRecords) {
   if (options['max-blocks'] !== undefined) candidates = candidates.filter(r => r.blocks <= integer(options, 'max-blocks', 2));
   let rows = candidates.map(r => summary(root, r, feature));
   if (options.signal) {
-    if (!['battle-without-narrative', 'command-without-tag', 'few-blocks', 'no-material', 'no-saved-kb', 'review-incomplete', 'heavy-story-candidate'].includes(options.signal)) throw new Error('未知 signal');
+    if (!['battle-without-narrative', 'combat-without-block', 'command-without-tag', 'few-blocks', 'no-material', 'no-saved-kb', 'review-incomplete', 'heavy-story-candidate'].includes(options.signal)) throw new Error('未知 signal');
     rows = rows.filter(r => r.signals.includes(options.signal));
   }
   if (options.state) {

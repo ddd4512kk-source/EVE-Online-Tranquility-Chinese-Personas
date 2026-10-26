@@ -17,8 +17,8 @@
 - [GOT砸伞记录](https://www.bilibili.com/video/BV112Vn6BET3/)：与同频道的泰坦、保护伞投稿连读，能串起这条持续记录GOT行动的主线。
 - [吉他宣战党元帅](https://www.bilibili.com/video/BV1NAgF6qEKY/)：简介附行动战报，且专门感谢没拿到签名的辅助位，功劳没有只分给榜上有名的人。
 - [2018扫描向：5°与作战针一轮定位](https://www.bilibili.com/video/BV1mW411V7Ay/)：简介把作战扫描入门与自己的战斗分享接在一起，可与后来GOT投稿对照读；旧课评论也保留了音量问题的反馈。
-- [【EVE欧服】OSY洞团战败CG](https://www.bilibili.com/video/BV1Y49hBCETU/)：洞团战败被做成CG，标题就把胜负和呈现方式绑在一起。
-- [《【EVE欧服】G.O.T & WAW 对阵韩国队》](https://www.bilibili.com/video/BV1QPT2zQEX5/)：G.O.T与WAW对阵韩国队的战斗记录，适合与频道其他小队交锋作品接着看。
+- [【EVE欧服】OSY洞团战败CG](https://www.bilibili.com/video/BV1Y49hBCETU/)：OSY 洞团的战败也能拿来做 CG，输掉的一方未必愿意回味，看热闹的人却不愁没有节目。兔头这份趣味就损在这里：别人想着翻篇，他偏要替故事配个收场；太空有输赢，社区还会接着替输赢安排余兴。
+- [《【EVE欧服】G.O.T & WAW 对阵韩国队》](https://www.bilibili.com/video/BV1QPT2zQEX5/)：G.O.T 和 WAW 联手对上韩国队，兔头把这场交锋留在频道里。两支队伍合到一边，战场上要处理的就不只是对手，还有彼此怎么配合；看小队打架，最有意思的常是人数不多却处处得有人补位。
 :::
 
 ::: 评

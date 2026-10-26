@@ -15,9 +15,9 @@
 
 ::: 红料 B站作品精选
 - [第九期：狂怒如何刷怪](https://www.bilibili.com/video/BV1xj83zKEYp/)：从入门走向生产的系列节点，评论里作者强调学方法而非限定某一种刷法。
-- [【EVE欧服】回归第一天 感受EVE当地独有的好客方式](https://www.bilibili.com/video/BV1yfrSBnExF/)：回归首日就遇上“当地好客方式”，标题为重返新伊甸的经历留了个悬念。
+- [【EVE欧服】回归第一天 感受EVE当地独有的好客方式](https://www.bilibili.com/video/BV1yfrSBnExF/)：回归第一天，曲馨就重新撞上新伊甸熟悉的待客方式：刚回来还没坐稳，陌生人的热情已经找上门。新手教官自己也成了故事主角，欢迎仪式显然不按学校流程走。
 - [【EVE欧服】红楼军团系列短剧第五集-红楼家的傻儿子](https://www.bilibili.com/video/BV1zMK56REMK/)：红楼军团短剧用军团日常做喜剧题材，是攻略内容之外的另一条频道支线。
-- [【2026EVE欧服】捡垃圾+打捞实操](https://www.bilibili.com/video/BV1ZqKQ68EmC/)：标题把捡垃圾和打捞并列为实操主题，适合看频道对新人日常玩法的覆盖。
+- [【2026EVE欧服】捡垃圾+打捞实操](https://www.bilibili.com/video/BV1ZqKQ68EmC/)：捡回战场遗物、再把残骸拆成可用材料，是新伊甸最不体面的勤俭持家。曲馨把这些脏活摆到桌面上，新人也能看见赚钱循环里最接地气的一环。
 - [【EVE欧服】-炸鱼简易教学](https://www.bilibili.com/video/BV1xpT56uESs/)：炸鱼简易教学直接面向小队PVP入门，补充频道的新手教学作品。
 :::
 

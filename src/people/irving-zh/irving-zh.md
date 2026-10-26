@@ -60,10 +60,10 @@
 
 ::: 红料 B站作品精选
 - [《「EVE欧服」怎么刷冰雪节？斯雷12分钟通刷》](https://www.bilibili.com/video/BV1tZidYME4f/)：招新片之外的 EVE 作品里播放最高，教的是冰雪节十二分钟刷完。会拍招新片的人，也会拍攻略。
-- [《「EVE欧服」哥们！再打下去掠夺就要20E了！！》](https://www.bilibili.com/video/BV1PC2XY7EzB/)：标题里的“20E”是掠夺舰的身价，感叹号替它惊慌。老赵的标题一向像弹幕。
+- [《「EVE欧服」哥们！再打下去掠夺就要20E了！！》](https://www.bilibili.com/video/BV1PC2XY7EzB/)：掠夺舰越打越贵，老赵先替钱包急出了声：再这样打下去就要二十亿了。爱船的人最怕的从来不只是炸船，还怕下一条补不起；这篇的心事特别像老玩家，前一秒还想打个痛快，后一秒已经替市场价格捏汗。
 - [《【EVE欧服】五一凌晨创世ONLYFLEET无畏战》](https://www.bilibili.com/video/BV1WbRKBFEAG/)：五一凌晨的无畏战，挂的是创世的 ONLYFLEET 名号。2026 年新片，他离开 FRT 之后的记录。
 - [《「EVE欧服」eos一人成军刷闪点珍贵资料（bushi）》](https://www.bilibili.com/video/BV1WN4y1H73q/)：“珍贵资料（bushi）”几个字自己拆自己的台。一艘 eos 刷闪点，一个人当一支军。
-- [《「EVE欧服」魔像刷洞？抓的就是你！！》](https://www.bilibili.com/video/BV1TJ4m1M7Kj/)：刷洞的魔像被抓，标题替抓人的一方喊了声“抓的就是你”。创世招新片里很少露的猎手那一面，这里露了。
+- [《「EVE欧服」魔像刷洞？抓的就是你！！》](https://www.bilibili.com/video/BV1TJ4m1M7Kj/)：魔像进洞想刷钱，老赵这边惦记的是抓它，招新片里笑脸迎人的那一面也有收起来的时候。太空邻居最热心的问候，常常发生在你满脑子收益时；看这篇，正好认认创世宣传员顺着钱包找人的猎手脾气。
 :::
 
 ::: 评

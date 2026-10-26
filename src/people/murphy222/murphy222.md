@@ -79,11 +79,11 @@ again 多打了一个 g。从此再也不——不知道是不再什么，至少
 
 
 ::: 红料 B站作品精选
-- [《Atioth | EVE Online》](https://www.bilibili.com/video/BV1ncD7BVEzj/)：频道里 EVE 类播放最高的一条，标题只有一个星系名；2026 年 4 月，Atioth 一战的影像记录，史官出手就收了个大场面。
-- [《欧服00现状》](https://www.bilibili.com/video/BV1w39YBYEoR/)：2026 年 4 月的作品，标题是一份 00 区的现状简报；史官不只写往事，也给当下留个底。
+- [《Atioth | EVE Online》](https://www.bilibili.com/video/BV1ncD7BVEzj/)：Atioth 的枪声被留成一段战场影像，旧日交锋因此不再只剩地图上的一个点。墨菲这位史官把镜头对准战场，替后来的人留住了那场仗的体温。
+- [《欧服00现状》](https://www.bilibili.com/video/BV1w39YBYEoR/)：联盟风向变了，身在其中的人总想知道下一步往哪走。墨菲把镜头从旧战场挪回眼下，史官不只收拾往事，也替当下留下一份可供回看的切片。
 - [《【EVE】如果你穿越进了新伊甸世界，你想生活在哪个帝国里？》](https://www.bilibili.com/video/BV1ihtf6PEiX/)：2026 年 9 月的投票式题目，问的是穿越后想住哪个帝国；整活手的另一面，把世界观当聊天话题。
 - [《EVE- 今天是联盟重要战略FIO1铁壁失守的一天》](https://www.bilibili.com/video/BV1Xs1FBNEjP/)：“今天是……的一天”是他的标志句式，这回的主角是联盟的 FIO1 铁壁失守；史官的日记体。
-- [《去INIT家砸玻璃啦~  [EVE]》](https://www.bilibili.com/video/BV1XnmyBYEUa/)：标题带波浪线，轻快得像去串门；砸的是 INIT 家的玻璃，整活手的玩笑里藏着阵营。
+- [《去INIT家砸玻璃啦~  [EVE]》](https://www.bilibili.com/video/BV1XnmyBYEUa/)：砸玻璃被拍成一次轻快出征：镜头里像去串门，实际砸的是对手阵营的门面。墨菲把玩笑和阵营立场搅在一起，越是笑着出门，越显得这趟不是普通串门。
 :::
 
 ::: 评

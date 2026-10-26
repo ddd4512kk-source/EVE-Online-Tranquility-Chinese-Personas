@@ -52,9 +52,9 @@ AT19 夺冠后，同为雇佣兵的[马哥](../2115198804/)和北极星（PMA）
 ::: 红料 B站作品精选
 - [《EVE Online PvP-Ultraviolence大口径暴力奥苏斯》](https://www.bilibili.com/video/BV1E54y1D7xJ/)：除了冠军纪录片，这是他频道里播放最高的一篇，超过两万；两千四百次涅斯托的人，频道里的头名却是一条写着“暴力”的奥苏斯。
 - [《[EVE]审判如何在低安碾压小船[中文解说]》](https://www.bilibili.com/video/BV1G4411S7hN/)：2019 年的中文解说，播放过万；教人用审判在低安欺负小船，带着一点“怎么赢斑鸠”教程的味道。
-- [《[EVE]当你只有30马克瑞如何破解120人渎圣队。》](https://www.bilibili.com/video/BV1bA411q756/)：以少打多，标题的数字对比自己写在脸上，一万三千播放；同类标题还有《30狂热对120人1400狂暴队》一篇。
-- [《[EVE]两位欧服华人指挥的跨服对决- Zealot VS Tempest》](https://www.bilibili.com/video/BV12z411e7wo/)：标题点名两位欧服华人指挥互相对阵，把圈里的指挥人才放到同一场；播放近万，在他的会战类作品里排得靠前。
-- [《[EVE] 2020 F1 MONKEY电竞宠物城小队击杀集锦 小队战的艺术就是让满屏幕爆炸！》](https://www.bilibili.com/video/BV1mX4y1P7sm/)：F1 Monkey. 的年度集锦，标题给小队战下的定义就是满屏幕爆炸；另有电竞宠物城的 PVP 日常系列同一路数。
+- [《[EVE]当你只有30马克瑞如何破解120人渎圣队。》](https://www.bilibili.com/video/BV1bA411q756/)：三十艘马克瑞撞上一百二十人的渎圣队，数字摆在眼前，先手和配合就比船多更要命。Sarion惯于把小队交锋讲成一道战术题：人少的一方没有资格乱按按钮，每次选择都得算准。
+- [《[EVE]两位欧服华人指挥的跨服对决- Zealot VS Tempest》](https://www.bilibili.com/video/BV12z411e7wo/)：两位欧服华人指挥隔着服务器对阵，Zealot与Tempest也成了两套带队思路的化身。Sarion把熟悉的圈内人放进同一场较量，观众看的不只是谁的船先爆，也是在看两边谁更能让队伍听话。
+- [《[EVE] 2020 F1 MONKEY电竞宠物城小队击杀集锦 小队战的艺术就是让满屏幕爆炸！》](https://www.bilibili.com/video/BV1mX4y1P7sm/)：F1 Monkey把小队战剪成满屏爆炸，电竞宠物城的日常也沿着这股热闹劲往前冲。Sarion的镜头里，小队不是几十个名字排队进战报，而是一群人把一次遭遇打成连续不断的烟花。
 :::
 
 ::: 评

@@ -22,11 +22,11 @@ DOUCHU000号在B站给自己的签名写“DOUCHU000一号机”，真赶上PH�
 
 
 ::: 红料 B站作品精选
-- [《[EVE Online]全新新手星域——始源星域开放！》](https://www.bilibili.com/video/BV19rLz6rECN/)：频道里播放最高的一条，也是最像“新闻联播”的一条：新手星域开放，标题带感叹号。比起撤离星城的战地口吻，这里像换了个人在念稿。
-- [《《EVE Online》开发商1.2亿美元易主：更名Fenris Creations，联手Google谷歌搞AI？》](https://www.bilibili.com/video/BV1FZRtBSEod/)：开发商易主这种行业大新闻，他也要拿来讲一讲，标题还替观众把“搞 AI”的问号提前打好了。玩家平时骂得最凶的是改版，轮到 CCP 换老板，倒成了他的选题。
+- [《[EVE Online]全新新手星域——始源星域开放！》](https://www.bilibili.com/video/BV19rLz6rECN/)：始源星域给新人开门，斗初也跟着忙起入门新闻。经历过星城撤离的人转头来讲新手的新天地，频道里的时间就接上了：老人忙着搬家，新人忙着安家，而这宇宙总有下一批人觉得自己赶上了好时候。
+- [《《EVE Online》开发商1.2亿美元易主：更名Fenris Creations，联手Google谷歌搞AI？》](https://www.bilibili.com/video/BV1FZRtBSEod/)：连开发商换老板、改名和 AI 话题，他也要拿来聊一遍。玩家在太空里折腾联盟归属，太空外连造宇宙的人也有自己的买卖；看斗初这篇，正好把视线抬出星门，看看大家吵改版时，头顶上还在发生什么热闹。
 - [《[EVE Online]26年夏季大更新——战争摇篮资料片解读》](https://www.bilibili.com/video/BV13H5r6gEeP/)：夏季资料片的解读，播放一万五。联盟倒了之后他没闲着，转头研究起下一场仗的规则书。
-- [《[EVE Online]WWB2：长达一年的战争，横跨六年的复仇》](https://www.bilibili.com/video/BV1umVV6REQA/)：标题给 WWB2 编了个“六年复仇”的剧本。星城撤离过的人来复盘这场大战，立场写在标题里。
-- [《[EVE Online]黑隐调整/T2炮泽尼塔/航母加强 4分钟带你了解3.18更新了什么重要内容！》](https://www.bilibili.com/video/BV1rYwBzwEPA/)：“4 分钟带你了解”的更新速递，三项改动塞进一个标题。更新速递在频道里也有一席之地。
+- [《[EVE Online]WWB2：长达一年的战争，横跨六年的复仇》](https://www.bilibili.com/video/BV1umVV6REQA/)：WWB2 打了一年，复仇的旧账却往前牵了六年，斗初就爱把这类长怨翻出来讲。搬过星城的人再回头聊大战，最懂那些宏图最后怎样落到成员行李上；这篇适合看太空里的仇怎样熬过时间，连下一轮搬家都能当柴烧。
+- [《[EVE Online]黑隐调整/T2炮泽尼塔/航母加强 4分钟带你了解3.18更新了什么重要内容！》](https://www.bilibili.com/video/BV1rYwBzwEPA/)：黑隐、泽尼塔和航母轮到更新，斗初用四分钟给玩家送一份改装前的消息。每次改版都是几家欢喜几家翻仓库，昨天还爱不释手的船，今天就得重新算用途；战争新闻歇口气，开发商照样有办法让全宇宙忙起来。
 :::
 
 ::: 评

@@ -47,7 +47,7 @@
 - [《[EVE欧服] 一跳6000w，凤凰人称小魔像》](https://www.bilibili.com/video/BV1DtgazSEYg/)：“凤凰人称小魔像”把无畏刷怪和魔像作比较，正好接上他频道里对刷怪船与收益的反复琢磨。
 - [《【EVE】如何正确地使用海凤凰刷标》](https://www.bilibili.com/video/BV1hqfaBWEvs/)：海凤凰刷标是他无畏刷怪线的另一篇，题目直奔玩法，适合和魔像教学并看他的刷怪选择。
 - [《【EVE】无畏与INIT隐轰嬉戏打闹的20分钟》](https://www.bilibili.com/video/BV1mx8m6REep/)：无畏和 INIT 隐轰嬉戏打闹，把刷怪遭遇战写成二十分钟的猫鼠局；这正是七七把“刷子”拍成会还手的地方。
-- [《【EVE】海军神示 Tank 70+隐轰第一视角》](https://www.bilibili.com/video/BV1eVMo6uESE/)：海军神示正面面对七十多条隐轰，标题就把船型和压力摆齐，适合看他如何把刷怪现场变成遭遇战。
+- [《【EVE】海军神示 Tank 70+隐轰第一视角》](https://www.bilibili.com/video/BV1eVMo6uESE/)：海军神示扛上七十多条隐轰，刷怪玩家最怕的加班就这样来了。方才还在盘算收入，转眼得盘算自己值不值得救；这一篇的趣味在于同一条船两种心境，挣钱时嫌目标不够，挨打时只嫌来客太多。
 :::
 
 ::: 评

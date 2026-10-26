@@ -27,6 +27,10 @@
       {
         "file": "docs/writing-review.md",
         "contains": "标签表示活动圈子"
+      },
+      {
+        "file": "docs/content-rules.md",
+        "contains": "**战绩红料写总结性点评**"
       }
     ],
     "checks": {
@@ -34,7 +38,7 @@
       "alts": "主力小号与售号归因边界",
       "peaks": "高值月份与代表KM的采用或略过理由",
       "battles": "已有战役对照、窗口与本人角色",
-      "narrative": "调查发现进入正文的具体位置与综合点评"
+      "narrative": "独立战绩红料块的正文位置与综合点评；有显著战斗经历而战绩散在开篇或其他料块，不能标为 reviewed"
     }
   },
   "battle-attribution": {

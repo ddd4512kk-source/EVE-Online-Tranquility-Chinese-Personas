@@ -144,10 +144,10 @@ TCF 的招募广告一直喜欢讲老牌军团、兄弟情分；到了这场分�
 :::
 
 ::: 红料 B站作品精选
-- [《【EvE Online 欧服】神装C掠夺Golem遭遇50人小队》](https://www.bilibili.com/video/BV1us411p7UG/)：EVE 类播放最高：一条神装掠夺舰对一整队五十来号人，标题把兵力对比摆得明明白白。他的老本行是小队 PVP，这一条算是用一艘船替招新广告做的压力测试。
+- [《【EvE Online 欧服】神装C掠夺Golem遭遇50人小队》](https://www.bilibili.com/video/BV1us411p7UG/)：一条神装魔像迎上五十来号人的小队，曼森最热的 EVE 作品把小队 PVP 的胃口抬得很高。船上装得越贵，船主越想证明钱没白花，对手也越不肯放他走；把这份压力摆在眼前，比招新广告里一句“能打”带劲得多。
 - [《EVE战列舰SOLO骚浪贱视频合集系列》](https://www.bilibili.com/video/BV1jp411f7Sn/)：“骚浪贱”三个字直接写进系列名，频道里的战列舰单挑合集，播放仅次于头一条。D 哥哥在贴吧里被翻账，在这里倒是自己先把名声押上了。
 - [《The Battle of X47L-Q (星城超旗血战电影视角)》](https://www.bilibili.com/video/BV1u4411D7K6/)：超旗血战挂着“电影视角”的名头，是他频道里的大场面。平时盯着军团账本的人，在这一条里难得只盯着战场。
-- [《RC VS SNUFF 强行击杀snuff TT（残暴低安系列）》](https://www.bilibili.com/video/BV1L54y1V75H/)：2021 年的“残暴低安系列”，标题直接写“强行击杀”，对面是 Snuffed Out。系列名起得这么凶，没人是来做客的。
+- [《RC VS SNUFF 强行击杀snuff TT（残暴低安系列）》](https://www.bilibili.com/video/BV1L54y1V75H/)：RC 对上 Snuff，奔着强杀泰坦去，2021 年这份残暴低安的脾气很明白。老海盗见面不会客客气气问能不能打，先惦记对面带了多少家当；看这篇，正好体会他们怎样把别人最贵的船当成自己的正经业务。
 - [《The Vexor狂怒者级的solo配置思路》](https://www.bilibili.com/video/BV1Bx411Y7St/)：频道里难得正经讲配置的一条，教的是狂怒者级怎么单挑。招新帖里的“小而精”，从这类配船思路里能看出一点出处。
 :::
 

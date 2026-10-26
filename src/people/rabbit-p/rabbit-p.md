@@ -54,7 +54,7 @@ zKillboard 生涯击杀 932，用得最多的是幽灵和忏悔者。翻译员�
 - [《聚焦 EVE Equinox : 全新昇威舰船》](https://www.bilibili.com/video/BV1Cx4y1W7QW/)：频道 EVE 类播放最高的一条，Equinox 的昇威新舰船；中文台的招牌就是这类版本聚焦。
 - [《EVE Havoc : 新型海盗舰船数值前瞻》](https://www.bilibili.com/video/BV1mp4y1w7gi/)：Havoc 的海盗舰船数值前瞻，专看数字的人爱点的一类；兔宰猪的翻译功夫从属性表里看得出来。
 - [《EVE Online : Legion 版本更新宣传片》](https://www.bilibili.com/video/BV1NjV7zkEJ8/)：2025 年 5 月 Legion 版本宣传片，中文台出得快；版本到，兔仔猪的中文字幕也到。
-- [《【视角传媒】莫德团货舰舰队遭到古斯塔斯伏击》](https://www.bilibili.com/video/BV1594y177pB/)：“视角传媒”栏目的一条，标题是新闻体，莫德团货舰舰队遭古斯塔斯伏击；不是版本，是宇宙里的社会新闻。
+- [《【视角传媒】莫德团货舰舰队遭到古斯塔斯伏击》](https://www.bilibili.com/video/BV1594y177pB/)：莫德团货舰舰队在路上遭古斯塔斯伏击，运输队忽然成了猎物。兔宰猪把视角从版本更新转向宇宙里的突发事故：货舰不是地图上慢吞吞的图标，遇上埋伏也会变成整支舰队的麻烦。
 - [《EVE Havoc : 正建造中的天使联合企业泰坦 - Azariel》](https://www.bilibili.com/video/BV1zH4y1m7Wy/)：2023 年 9 月的一条，天使联合企业的泰坦 Azariel 正在建造；设定党的福利，泰坦迷也爱看。
 :::
 

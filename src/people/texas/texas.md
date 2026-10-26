@@ -49,11 +49,11 @@ Bronze Fury 是 Zeus008 在 2024 年 4 月亲手建的军团，建完不到三�
 :::
 
 ::: 红料 B站作品精选
-- [《【EVE】2024最新30s挣半月卡教程》](https://www.bilibili.com/video/BV1V66hYEEAj/)：频道里播放最高的 EVE 视频；标题把三十秒和半月卡放在一起，是他给月卡算时薪的作品背书。
-- [《故土胜利结算动画：》](https://www.bilibili.com/video/BV1hqdwBwEyc/)：2026 年 5 月，标题是故土胜利结算动画，连战果都做成了结算画面。
-- [《波赫文の覇王》](https://www.bilibili.com/video/BV1Wai1BRE5W/)：2026 年 1 月，标题用了“覇王”二字，场地换到波赫文；自封的头衔，播放不到八百。
-- [《镇压PH武装农民起义！》](https://www.bilibili.com/video/BV1KkKge2Efe/)：2025 年 2 月，标题把对 PH 的一场战斗写成镇压农民起义，口气一点不客气。
-- [《喜欢我蜜蜂反收割吗》](https://www.bilibili.com/video/BV1gm3xziEZj/)：2025 年 7 月的反收割题材，标题像在邀功，也像在问对面的意见。
+- [《【EVE】2024最新30s挣半月卡教程》](https://www.bilibili.com/video/BV1V66hYEEAj/)：三十秒挣半张月卡，把游戏里一段操作算成了现实里的时薪账。Texas这套说法够直接：时间越短，收益越像神迹；观众点开不只想看钱怎么来，也想看看这笔账到底有没有那么轻巧。
+- [《故土胜利结算动画：》](https://www.bilibili.com/video/BV1hqdwBwEyc/)：故土的胜利被做成结算动画，战事落幕之后，战果还有了专门的收尾画面。Texas把一场胜利从战场搬到屏幕上，像是替参战的人结清一笔账：打过、赢过，最后还得让画面郑重盖章。
+- [《波赫文の覇王》](https://www.bilibili.com/video/BV1Wai1BRE5W/)：波赫文里自称覇王，头衔先坐上王座，战场还得替它撑场面。Texas把自己摆在这片空间的中心，EVE最擅长拆这种排场：名字可以先封王，真正的威风还要看周围有多少人肯陪你开火。
+- [《镇压PH武装农民起义！》](https://www.bilibili.com/video/BV1KkKge2Efe/)：PH被写成武装农民起义，Texas把阵营冲突说成了镇压戏码，火药味从开场就拉满。舰队行动一旦被套上这层说法，赢的不只是一场交火，还像是顺手给对面扣了顶草帽；这种损法，够让战报读起来不太平。
+- [《喜欢我蜜蜂反收割吗》](https://www.bilibili.com/video/BV1gm3xziEZj/)：反收割的问题直接抛给蜜蜂，像在问对手还认不认这套打法。Texas把猎人与猎物的位置摆上台面：反收割队平日追人，碰上同样准备妥当的队伍，谁能把对方留下，谁才有资格回头邀功。
 :::
 
 ::: 评

@@ -1,4 +1,4 @@
-# wednesday-boy：身份、作品与公开文字
+# wednesday-girl：身份、作品与公开文字
 
 ## 对应与来源
 

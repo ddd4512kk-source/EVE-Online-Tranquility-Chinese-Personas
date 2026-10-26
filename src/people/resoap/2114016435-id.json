@@ -473,7 +473,33 @@
   "fetched_at": "2026-10-17",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2124498023,
+        "name": "resoap",
+        "sources": ["materials-resoap.md"]
+      },
+      {
+        "id": 2114274070,
+        "name": "rewrite JOE",
+        "sources": ["materials-resoap.md"]
+      },
+      {
+        "id": 2124641133,
+        "name": "resoap Q6J",
+        "sources": ["materials-resoap.md"]
+      },
+      {
+        "id": 2114271635,
+        "name": "rewrtie soap",
+        "sources": ["materials-resoap.md"]
+      },
+      {
+        "id": 2114840903,
+        "name": "island rinne",
+        "sources": ["materials-resoap.md"]
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 114,
@@ -485,14 +511,7 @@
   },
   "person": {
     "cn_name": "到手刀",
-    "aliases": [
-      "resoap",
-      "rewrite JOE",
-      "resoap Q6J",
-      "rewrtie soap",
-      "island rinne",
-      "resoap到手刀"
-    ],
+    "aliases": ["resoap到手刀"],
     "epithet": "等你没了退路，他才亮出价目表。",
     "tags": [
       "D.C",

@@ -75,11 +75,11 @@ B 站投稿二十来条，几乎都是大场面的第一视角，每条简介都
 
 
 ::: 红料 B站作品精选
-- [《Eve Online 观看广告复活星城 就差你了 还不加入？》](https://www.bilibili.com/video/BV1Ah9CB8ENM/)：EVE 类里播放最高；标题把复活星城写成看广告就能完成的任务，招新口气一点不含糊。
-- [《EVE online 26.07.11 绝地华人对抗十国联军》](https://www.bilibili.com/video/BV1QvNA6CELe/)：2026 年 7 月在绝地的一场，标题直接写华人对抗十国联军，阵势先声夺人。
-- [《EVE online 26.06.07 不是怎么老被刀啊》](https://www.bilibili.com/video/BV1NnEt6MEUD/)：标题自己抱怨被刀；会战录像专业户，也有不好看的那天。
-- [《INIT小伙能量大 时间一到就爆炸》](https://www.bilibili.com/video/BV1dBTd6uEfx/)：INIT 题材，连发两期；标题像个包袱，抖完一次又抖了一次。
-- [《Eve Online 沉浸式入侵 忠诚制造研究中心 5分半一个》](https://www.bilibili.com/video/BV1EncGzHE9V/)：不打会战时的另一面：入侵事件效率向，标题直接报出每个五分半。
+- [《Eve Online 观看广告复活星城 就差你了 还不加入？》](https://www.bilibili.com/video/BV1Ah9CB8ENM/)：星城复活被说成看广告就能办成，旁边再招呼一句“还不加入”，整套动员简直像把联盟经营做成手机小游戏。小松把招新口号推到最直白的地步：世界等着重建，观众只差点一下加入按钮。
+- [《EVE online 26.07.11 绝地华人对抗十国联军》](https://www.bilibili.com/video/BV1QvNA6CELe/)：2026年7月，绝地华人对抗十国联军，小松又把阵营声势搬进频道。平时可以隔着屏幕吵谁强谁弱，真遇到会战，各家都得拿出肯上线的人；爱看这类对抗，看的也是一群人怎样把嘴上那口气，换成太空里的队伍。
+- [《EVE online 26.06.07 不是怎么老被刀啊》](https://www.bilibili.com/video/BV1NnEt6MEUD/)：“怎么老被刀”这句抱怨，把会战录像里少见的狼狈摊了出来。小松不只保存自己这边顺风的集结与推进，挨了伏击、被人拿捏的时候也留下记录；打得不顺的那天，反而更像玩家真实过日子。
+- [《INIT小伙能量大 时间一到就爆炸》](https://www.bilibili.com/video/BV1dBTd6uEfx/)：INIT的小伙子能量大，到了点就爆炸，连发两期把这个包袱反复点燃。小松把一支队伍的交锋剪成连续剧，观众刚笑完第一回，第二回又准时开场；谁说战斗录像只能板着脸报战果。
+- [《Eve Online 沉浸式入侵 忠诚制造研究中心 5分半一个》](https://www.bilibili.com/video/BV1EncGzHE9V/)：忠诚制造研究中心的入侵任务按每个五分半来算，节奏像流水线一样整齐。小松离开大会战的喧闹，转头记录另一种效率：进场、清理、收工，时间被掐得明明白白，连打钱也有了计时器。
 :::
 
 ::: 评
