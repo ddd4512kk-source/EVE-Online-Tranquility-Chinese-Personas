@@ -1,0 +1,31 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共2场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/governor-lee/governor-lee.md",
+    "src/people/governor-lee/2116026221-id.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json"
+  ],
+  "dependencies": [
+    "docs/sources/battle-side-review-2026-10-21.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-discovery-2026-10-11.md",
+    "docs/sources/community-br-verified-2026-10-11.md",
+    "docs/sources/hed-gp-incident-2023.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/people/governor-lee/2116026221-id.json",
+    "src/people/governor-lee/governor-lee.md",
+    "src/people/governor-lee/materials-governor-lee.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+  ],
+  "inputs": "73220123ae6efa47e6480a788dfbbdc5b0a21a9219280c0a8408cad534870297",
+  "level": 1
+}

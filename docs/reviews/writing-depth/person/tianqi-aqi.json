@@ -1,0 +1,158 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+    "src/people/tianqi-aqi/tianqi-aqi.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照游戏画像、已读贴吧与争议：保留独走案例与损失自述、荣耀推送与FRT出勤争论。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "heading": "## 贴吧（帖子列表中楼主共 64 帖，读了以下 14 帖）"
+        },
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "heading": "## 游戏数据（profile.mjs，2026-10-09）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "恶狼独行及公开损失账本是本人最有代表性的长期玩法，另保留具体单走及言论冲突。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "contains": "[9098594555]"
+        }
+      ],
+      "items": [
+        {
+          "title": "恶狼单走及被隐投账本",
+          "weight": "heavy",
+          "reason": "本人公开归纳连续多次独走损失，既是其玩法标签，也是周围玩家讨论的重点。",
+          "source": {
+            "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+            "contains": "[9098594555]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+            "contains": "单走有代价，他自己记账"
+          },
+          "note": "列本人归纳的失败原因，给出其结论与旁人回应，后续再以次年自述体现认识变化。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "选择独走昂贵掠夺舰，频繁遭隐投及其他意外。",
+              "evidence": {
+                "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+                "contains": "死于隐投 7 次"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "他想单走找架打，却发现对手连收益近燃料费也要投。",
+              "evidence": {
+                "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+                "contains": "八个月后又更新了一次认识"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "本人承认不适合瞎浪，旁人补充友军当时在门后。",
+              "evidence": {
+                "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+                "contains": "有吧友补充"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "阿里卡拉追猎",
+          "weight": "ordinary",
+          "reason": "本人自述追逐精装复仇与玩家回应。",
+          "source": {
+            "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+            "contains": "[9160159050]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+            "contains": "阿里卡拉惨案"
+          },
+          "note": "按本人描述记录目标及回复，不编战报明细。"
+        },
+        {
+          "title": "荣耀推送争执",
+          "weight": "ordinary",
+          "reason": "以损船回应对方关注的公开冲突。",
+          "source": {
+            "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+            "contains": "[9642820753]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+            "contains": "天启阿柒和[极端荣耀]"
+          },
+          "note": "保留工业舰失配置、双方立场及楼内反应。"
+        },
+        {
+          "title": "故土拆堡的指挥争论",
+          "weight": "ordinary",
+          "reason": "本人就FRT舰队选择与吧友争辩。",
+          "source": {
+            "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+            "contains": "[9163839175]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+            "contains": "2024 年 9 月，FRT 在故土拆深水"
+          },
+          "note": "保留运输约束及追帖争辩。"
+        },
+        {
+          "title": "BWF舰队参战",
+          "weight": "ordinary",
+          "reason": "正式快照命中PH侧，普通成员。",
+          "source": {
+            "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+            "heading": "### BWF-ZZ星城攻防（2025-04-05）"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+            "contains": "他的玩法一头是集结"
+          },
+          "note": "用于综合画像，不认作个人主导的战果。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩总评与具体事迹相衔接，争论及评价保留；数据不替代本人故事。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+          "contains": "天启阿柒对谁都有意见"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/tianqi-aqi/2119831838-id.json",
+    "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+    "src/people/tianqi-aqi/tianqi-aqi.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "13b6026e904cf60667b09b8897bb0af34ce8331109d26cd7824818bda429847b",
+  "level": 1
+}

@@ -1,0 +1,22 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、低安、军团管理、江湖恩怨。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/colapan/colapan.md",
+    "src/people/colapan/2114013279-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/colapan/2114013279-id.json",
+    "src/people/colapan/colapan.md",
+    "src/people/colapan/materials-colapan.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "2ed139d4d990b4994f2e190491558becaae3b5f9810311c829e78b0c3de803ec",
+  "level": 1
+}

@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/clarityjupiter/materials-clarityjupiter.md",
+    "src/people/clarityjupiter/2122296275-id.json",
+    "src/people/clarityjupiter/clarityjupiter.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核本人stats、常用舰种与跟舰队职责；无证据给本人增添指挥职责。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "heading": "## 画像与战役（2026-10-17）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式身份档案未登记小号，素材亦未提供本人其他战斗号；目前没有可核的主力小号。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/2122296275-id.json",
+          "contains": "\"identity\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2025年9月及2026年4月最高值月各核建筑KM，理解为多人参与，不当单人战果。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "heading": "## 画像与战役（2026-10-17）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "艾蒂斯有本人KM与本地战役；HB-1NJ只视为战报命中关联，不虚构具体动作。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "heading": "## 画像与战役（2026-10-17）"
+        },
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "heading": "## hb-1nj-efm-c4-2025：战役参战关联"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立首块以常规舰队角色和两个代表建筑战综合点评，保留管理身份主线。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/clarityjupiter.md",
+          "contains": "::: 红料 出勤表上的新手船"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/foxor-management-2026-10-15.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/clarityjupiter/2122296275-id.json",
+    "src/people/clarityjupiter/clarityjupiter.md",
+    "src/people/clarityjupiter/materials-clarityjupiter.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
+  ],
+  "inputs": "ff6846fa04a3dd9d2333c1b5aa1ef616d139b218d12feb7e52c75b13fba894d1",
+  "level": 1
+}

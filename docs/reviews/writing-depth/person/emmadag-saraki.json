@@ -1,0 +1,126 @@
+{
+  "status": "reviewed",
+  "note": "逐事件对照交易图、身份和清退后果，RMT主线已展开；2026-10-29按收紧后的句式规则复读并重组段尾。",
+  "evidence": [
+    "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+    "docs/sources/hydra-root-rmt-2019.md",
+    "src/people/emmadag-saraki/emmadag-saraki.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照共享事件与本人素材，独立事件为RMT交易及清退；综合KB另作简述，其他人的脚本互骂不归责本人。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+          "heading": "## 身份与RMT事件"
+        },
+        {
+          "file": "docs/sources/hydra-root-rmt-2019.md",
+          "heading": "## 结论与游戏身份"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐事件核读，RMT按重料展开，综合战斗画像简述。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+          "heading": "## 身份与RMT事件"
+        }
+      ],
+      "items": [
+        {
+          "title": "小队与航母出勤",
+          "weight": "ordinary",
+          "reason": "综合画像用于解释日常玩法，无独立重大功绩",
+          "source": {
+            "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+            "contains": "他的战斗记录横跨RR"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "用常用船和阵营跨度写画像，不将普通出勤夸成大战功劳。"
+        },
+        {
+          "title": "机库交货的RMT生意与清退",
+          "weight": "heavy",
+          "reason": "当事时CEO自己谈人民币价格，发本人角色指引加入军团交货，公开后被清退，直接定义人物",
+          "source": {
+            "file": "docs/sources/hydra-root-rmt-2019.md",
+            "heading": "## 交易截图中的直接内容"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+            "contains": "2019年6月，他和买家谈的已经是一套"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "先交代军团CEO权限与物资合同周转，展示其把游戏组织用于卖币的门道",
+              "evidence": {
+                "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+                "contains": "估值五十亿的东西"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "用直接发本人角色卡方便提货，与后来人团同时被识别相接",
+              "evidence": {
+                "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+                "contains": "交货最方便的那条路"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "写明人民币报价与游戏合同两窗口分工，让读者看懂买卖性质",
+              "evidence": {
+                "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+                "contains": "中间连收款入口都备好了"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "展开曝光到台风贴系统邮件踢团的结果，并回扣六月开门与十月关门",
+              "evidence": {
+                "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+                "contains": "六月还在给买家开入团通道"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "五段分别推进合同办法、人民币价格、身份与机库衔接、曝光和清退；没有把GM询问片段写成封号决定，未遗漏已知核心后果。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开头、黑料及总评都围绕CEO把机库当提货口；一块短红料交代玩法，未稀释RMT主线。 2026-10-29按新句式规则重组RMT块四处段尾对仗，改为交易步骤、成交与清退后果推进，篇幅未缩。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+          "contains": "歌不好听，游戏名 Emmadag Saraki"
+        },
+        {
+          "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+          "contains": "讲了半天怎么让买卖安全"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/hydra-root-rmt-2019.md",
+    "src/people/emmadag-saraki/2114915480-id.json",
+    "src/people/emmadag-saraki/emmadag-saraki.md",
+    "src/people/emmadag-saraki/materials-emmadag-saraki.md"
+  ],
+  "inputs": "48c27114efc327da440f782b5d89232d095cade78ae2b4ac111aa708473b03d6",
+  "level": 1
+}

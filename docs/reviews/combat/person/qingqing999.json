@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "已按新增主力号复查择号、画像、高值月份、已有战役与正文采用",
+  "evidence": [
+    "src/people/qingqing999/materials-qingqing999.md",
+    "src/people/qingqing999/qingqing999.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核读收录号综合KB、常用船和既有红楼指挥依据；不从低累计推出本人少出勤。",
+      "evidence": [
+        {
+          "file": "src/people/qingqing999/materials-qingqing999.md",
+          "heading": "## 收录号选择与主力号画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "比较全部已存小号汇总，展开Alive111与qingqing1，记录保留有直接指挥故事收录号的择号依据。",
+      "evidence": [
+        {
+          "file": "src/people/qingqing999/materials-qingqing999.md",
+          "heading": "## 收录号选择与主力号画像"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核读2025-11高值KM，确认泰坦、夜神围猎与后续拆城；各号累计不相加。",
+      "evidence": [
+        {
+          "file": "src/people/qingqing999/materials-qingqing999.md",
+          "heading": "## 高值月份与代表战果"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核萨托加斯窗口、本人战列舰与损失；R-AG7W样本在本站主报窗口外，作为外围及后续经历而非硬加快照。",
+      "evidence": [
+        {
+          "file": "src/people/qingqing999/materials-qingqing999.md",
+          "heading": "## 已有战役对照与正文采用"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文以指挥兼出炮统领画像，撤去低KB推断，展开R-AG7W连续经历并采用萨托加斯补船经历。",
+      "evidence": [
+        {
+          "file": "src/people/qingqing999/qingqing999.md",
+          "contains": "::: 红料 红楼的队伍，名片软，炮口不软"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/qingqing999/2123680197-id.json",
+    "src/people/qingqing999/materials-qingqing999.md",
+    "src/people/qingqing999/qingqing999.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "f3d76d9c5328ad8e1c23ce7859f5bb319a3ac6cd31f0f9f898b3667b87122ecb",
+  "level": 1
+}

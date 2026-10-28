@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、CEO。沿用此前判断：二十号脚本RMT传闻只是一句楼中指控，扩写和本人索证未补具体行为，撤RMT；脚本与RMT来自同一句传闻，未展开具体使用方式，撤脚本。未复核本文其他内容。",
+  "evidence": [
+    "src/people/monster0001/monster0001.md",
+    "src/people/monster0001/2122641476-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/red-scarf-disputes-2026-08.md",
+    "src/people/monster0001/2122641476-id.json",
+    "src/people/monster0001/materials-monster0001.md",
+    "src/people/monster0001/monster0001.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "5b2c29feb6d8182e178bd177c88204c24c05bfcdd87969ce3b04ee7f3efa22f4",
+  "level": 1
+}

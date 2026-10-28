@@ -1,0 +1,69 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/genshin-impart/materials-genshin-impart.md",
+    "src/people/genshin-impart/genshin-impart.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "已读全文与本人作品、评论和游戏画像；电池玩笑及ES周年互动均已写入。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 游戏画像与代表战役（2026-10-27）"
+        },
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 2026-10-22可复用作品摘记"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本人材料以频道投稿互动及舰队活动为主，未见须另按重料展开的个人重大事件。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 游戏画像与代表战役（2026-10-27）"
+        }
+      ],
+      "noHeavyReason": "现存来源为普通舰队战斗、视频评论中的自嘲与社区互动，没有重大个人争议或决定性个人行动。",
+      "items": []
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留黑隐电池玩笑及军团周年故事，综合战斗履历单独成块。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/genshin-impart.md",
+          "contains": "七喜的履历不是只在频道里等人上钩"
+        },
+        {
+          "file": "src/people/genshin-impart/genshin-impart.md",
+          "contains": "2025年2月，七喜发了"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/genshin-impart/2122335637-id.json",
+    "src/people/genshin-impart/genshin-impart.md",
+    "src/people/genshin-impart/materials-genshin-impart.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+  ],
+  "inputs": "794a6ccb08d2012584de9be2325e50eeaa28ef2ab22ec6929d082e2e4e0a2f35",
+  "level": 1
+}

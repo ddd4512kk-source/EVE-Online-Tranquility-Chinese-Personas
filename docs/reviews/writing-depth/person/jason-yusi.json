@@ -1,0 +1,117 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材和正文核查。",
+  "evidence": [
+    "src/people/jason-yusi/materials-jason-yusi.md",
+    "src/people/jason-yusi/jason-yusi.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读人物正文、现有素材及关联材料，保留主线与双方叙述边界。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "# 青春（PLA） / Jason Yusi"
+        },
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "## 2026-08-01 Ahbazon参战（2026-10-20补档）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重大争议按现有来源展开，身份、责任和说法边界保留。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "# 青春（PLA） / Jason Yusi"
+        }
+      ],
+      "items": [
+        {
+          "title": "任务区马甲争论",
+          "reason": "涉及与敌对人员合作及攻击友军指控",
+          "note": "展开处境、反差及反应后果。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/jason-yusi/materials-jason-yusi.md",
+            "heading": "# 青春（PLA） / Jason Yusi"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/jason-yusi/jason-yusi.md",
+            "contains": "2021 年 5 月，"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代维新与 COA 的争议和同场击杀",
+              "evidence": {
+                "file": "src/people/jason-yusi/jason-yusi.md",
+                "contains": "2021 年 5 月，"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "本人反串卧底揶揄马甲指控",
+              "evidence": {
+                "file": "src/people/jason-yusi/jason-yusi.md",
+                "contains": "后来他又贴出自己小号"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "本人要求举证并邀请对方找他",
+              "evidence": {
+                "file": "src/people/jason-yusi/jason-yusi.md",
+                "contains": "青春的回应很干脆"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "人物主线、争议及战斗经历均保留。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/jason-yusi.md",
+          "contains": "教程教怎么赚钱"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/vision-coa-dispute-2021.md",
+    "src/people/jason-yusi/2114969276-id.json",
+    "src/people/jason-yusi/jason-yusi.md",
+    "src/people/jason-yusi/materials-jason-yusi.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "20c929f17ed26cbea5ddbbb62fa7a17fcb2493cc60c5f41f05cbef5c6d2b99e5",
+  "level": 1
+}

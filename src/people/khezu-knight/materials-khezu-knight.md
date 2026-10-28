@@ -98,3 +98,9 @@
 从合并候选 `/tmp/up-fill-candidates-khezu-knight.json`（UID档案 `docs/bilibili/13066246.json`）补选《自制可爱INIT仔皮套！》。现有6条视频中仅5条为EVE作品；其余EVE作品已有列传红料展开，或当前精选已占用。故本轮可从未展开EVE作品中再选1条，精选共2条，距离5条缺3条。只读标题及档案播放数，未访问作品页，未读影像音频字幕。
 
 - [BV1MEuQzvEy5](https://www.bilibili.com/video/BV1MEuQzvEy5/)：255播放；标题指向自制INIT主题Live2D皮套，与人物的联盟周边创作相合。
+
+## 综合战绩与高值月
+
+- [角色 stats](https://zkillboard.com/api/stats/characterID/2122750675/)：275 次参与击杀，早先画像列出送葬者海军型、猛鲑、鹏鲲为常用舰；档案未登记小号，现有材料未对应其他主力或售号。
+- 2024-12 为参与击杀估值最高月份，API 返回该月 24 条；[KM 122998515](https://zkillboard.com/kill/122998515/) 2024-12-04 12:40 UTC，343 人攻击，本人以 type 29344 出现在攻击名单，目标 type 19720；只作为舰队参与样本，不推指挥或个人击毁。
+- BWF-ZZ 正式快照覆盖 2025-04-05 13:00—16:00 UTC、星系 30002440，收录号在 PH 一方名单；本场材料见[战役素材](../../battles/bwf-zz-2025/materials-bwf-zz-2025.md)，不从名单推本人舰型或战术职责。

@@ -1,0 +1,115 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yingying76/materials-yingying76.md",
+    "src/people/yingying76/yingying76.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照创作来源、作品署名、新闻与战斗记录，保留频道历史及公开视频阅读边界。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "## 热门整活与合作精选（2026-10-16）"
+        },
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "### 游戏画像（profile.mjs）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "持续中文报道与整活是人物身份主轴；材料未见需并列展开的重大个人纠纷。",
+      "items": [
+        {
+          "title": "战地记者与中文创作",
+          "weight": "heavy",
+          "reason": "持续新闻报道和舰队整活是人物主要公众身份。",
+          "note": "展开新闻内容、战队文化互动及其答疑，保留作品署名界限。",
+          "source": {
+            "file": "src/people/yingying76/materials-yingying76.md",
+            "heading": "## 热门整活与合作精选（2026-10-16）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yingying76/yingying76.md",
+            "contains": "新闻发多了，76 也知道"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "以舰队题材让战友讲自己的经历。",
+              "evidence": {
+                "file": "src/people/yingying76/yingying76.md",
+                "contains": "新闻发多了，76 也知道"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "舔包整活之后提醒观众不要掉队。",
+              "evidence": {
+                "file": "src/people/yingying76/yingying76.md",
+                "contains": "到了[会战舔包篇]"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "会战视频观众讨论指挥与头像修改。",
+              "evidence": {
+                "file": "src/people/yingying76/yingying76.md",
+                "contains": "到了[《第一视角带你体验真正的千人会战》]"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "## 热门整活与合作精选（2026-10-16）"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "先介绍记者和舰队履历，再写新闻创作、观众互动及自嘲，战绩不盖过本人报道工作。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/yingying76.md",
+          "contains": "B 站上他排了十三个合集"
+        },
+        {
+          "file": "src/people/yingying76/yingying76.md",
+          "contains": "战地记者的职业本能很诚实"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/bilibili-news-collaboration-2026.md",
+    "src/people/yingying76/2117010442-id.json",
+    "src/people/yingying76/materials-yingying76.md",
+    "src/people/yingying76/yingying76.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "0b08f6e7ce5cd8754f9148e6aadd1c9b8f431ae4ef6ebd633610a9ac9e049066",
+  "level": 1
+}

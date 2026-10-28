@@ -1,0 +1,22 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共1场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/renard42/renard42.md",
+    "src/people/renard42/2121799880-id.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json"
+  ],
+  "dependencies": [
+    "docs/sources/bilibili-news-collaboration-2026.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/foxor-management-2026-10-15.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/people/renard42/2121799880-id.json",
+    "src/people/renard42/materials-renard42.md",
+    "src/people/renard42/renard42.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+  ],
+  "inputs": "886e7bc7bc318055c1801d33b5b47940481c6e0834752c97ef2a60dfacdab56e",
+  "level": 1
+}

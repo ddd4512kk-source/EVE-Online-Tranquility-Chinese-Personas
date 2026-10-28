@@ -1,0 +1,35 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共3场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/qxlt4-14/qxlt4-14.md",
+    "src/people/qxlt4-14/1235367427-id.json",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/arzad-2025/arzad-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.json"
+  ],
+  "dependencies": [
+    "docs/sources/battle-side-review-2026-10-21.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-discovery-2026-10-11.md",
+    "docs/sources/community-br-verified-2026-10-11.md",
+    "docs/sources/hed-gp-incident-2023.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/arzad-2025/arzad-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/people/qxlt4-14/1235367427-id.json",
+    "src/people/qxlt4-14/materials-qxlt4-14.md",
+    "src/people/qxlt4-14/qxlt4-14.md",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/arzad-2025/arzad-2025.md",
+    "src/battles/arzad-2025/materials-arzad-2025.md",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.md"
+  ],
+  "inputs": "66dfd4b594078a2c9a1c7e9a602360f9b7b3fcc6b7a459149be830a243f8ed14",
+  "level": 1
+}

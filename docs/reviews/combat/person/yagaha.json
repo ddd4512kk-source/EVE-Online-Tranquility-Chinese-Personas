@@ -1,0 +1,87 @@
+{
+  "status": "reviewed",
+  "note": "已核YAGAHA与YAGAHA3的stats、主号X47代表KM及6场本地战役；补星华时期战斗画像，CEO和重组主线保留，各号不相加。",
+  "evidence": [
+    "src/people/yagaha/materials-yagaha.md",
+    "src/people/yagaha/2118729398-id.json",
+    "src/people/yagaha/yagaha.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号1527次参与击杀、约1.03T；YAGAHA3 2616次、约1.06T；两号不相加。",
+      "evidence": [
+        {
+          "file": "src/people/yagaha/materials-yagaha.md",
+          "contains": "参与击杀1527、损失258"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "YAGAHA3为已登记小号，单独取stats；未见售号。",
+      "evidence": [
+        {
+          "file": "src/people/yagaha/2118729398-id.json",
+          "contains": "YAGAHA3"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号高值月2023-04与2024-08，代表KM108161468为X47星城击杀，本人以集体参战计。",
+      "evidence": [
+        {
+          "file": "src/people/yagaha/materials-yagaha.md",
+          "contains": "代表[KM108161468]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "六场本地战役按两号分别命中，含X47、H-PA29、TN25-J损失；均按参战写。",
+      "evidence": [
+        {
+          "file": "src/people/yagaha/materials-yagaha.md",
+          "contains": "[tn25-j-2025]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文“CEO的公章之外，还有自己的出勤表”补星华时期画像，昆仑重组与罚单主线保留；2026-10-29复读去除看样子／大概后仍成立。",
+      "evidence": [
+        {
+          "file": "src/people/yagaha/yagaha.md",
+          "contains": "::: 红料 CEO的公章之外，还有自己的出勤表"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/yagaha/2118729398-id.json",
+    "src/people/yagaha/materials-yagaha.md",
+    "src/people/yagaha/yagaha.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "3483b64225ab6e52485ca4e66735daf33cb333b9d144446eb9ca83d569bc8ac8",
+  "level": 1
+}

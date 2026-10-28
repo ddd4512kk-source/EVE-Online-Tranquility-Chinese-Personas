@@ -1,0 +1,31 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、B站、新人教官。沿用此前判断：已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人。未复核本文其他内容。",
+  "evidence": [
+    "src/people/free-zaopao/free-zaopao.md",
+    "src/people/free-zaopao/2122336292-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/free-zaopao/2122336292-id.json",
+    "src/people/free-zaopao/free-zaopao.md",
+    "src/people/free-zaopao/materials-free-zaopao.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "c15bcb3c34f8917cb3462c4945c33b6d37947b956816f4fb442698945bdfca1f",
+  "level": 1
+}

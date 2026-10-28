@@ -1,0 +1,88 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/nature00-soul/materials-nature00-soul.md",
+    "src/people/nature00-soul/2113266423-id.json",
+    "src/people/nature00-soul/nature00-soul.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核主号画像、常用支援船与 FC 身份；参加击杀不归个人独占。",
+      "evidence": [
+        {
+          "file": "src/people/nature00-soul/materials-nature00-soul.md",
+          "heading": "### 游戏画像（2026-10-11）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案没有登记小号或售号；没有主力小号可另做统计。",
+      "evidence": [
+        {
+          "file": "src/people/nature00-soul/materials-nature00-soul.md",
+          "heading": "### 游戏画像（2026-10-11）"
+        },
+        {
+          "file": "src/people/nature00-soul/2113266423-id.json",
+          "contains": "\"identity\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核 2021 年 9 月高值月和两条代表 KM，只确认参与。",
+      "evidence": [
+        {
+          "file": "src/people/nature00-soul/materials-nature00-soul.md",
+          "heading": "### 游戏画像（2026-10-11）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照 FWST 与 A1-AUH 及本人损失，未将本人写成战役总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/nature00-soul/materials-nature00-soul.md",
+          "heading": "### 游戏画像（2026-10-11）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新红料概括常用船与两场战役，教程及争议主线保留。2026-10-29删去大航段的重复句。",
+      "evidence": [
+        {
+          "file": "src/people/nature00-soul/materials-nature00-soul.md",
+          "heading": "### 游戏画像（2026-10-11）"
+        },
+        {
+          "file": "src/people/nature00-soul/nature00-soul.md",
+          "contains": "课代表也在第一线做脏活"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/nature00-soul/2113266423-id.json",
+    "src/people/nature00-soul/materials-nature00-soul.md",
+    "src/people/nature00-soul/nature00-soul.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "eb94e5ad57adbeef5a52875da9cf46b81685823ae11fe63341883522435c0897",
+  "level": 1
+}

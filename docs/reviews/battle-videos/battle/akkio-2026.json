@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已核日期候选，具体相反证据及待核BR见素材。\n## 日期候选核读（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "docs/bilibili/54969171.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/54969171.json",
+    "src/_data/entityNames.json",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md"
+  ],
+  "inputs": "aa71e9113bf461bd66e4f75abd6c1b60159dacfabee76469fdaa329dda900ca7",
+  "level": 0
+}

@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/shawn-wade/materials-shawn-wade.md",
+    "src/people/shawn-wade/shawn-wade.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号综合战绩及忏悔舰玩法",
+      "evidence": [
+        {
+          "file": "src/people/shawn-wade/materials-shawn-wade.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案无确认小号或售号线索",
+      "evidence": [
+        {
+          "file": "src/people/shawn-wade/materials-shawn-wade.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2020年8月五条样本及多人建筑KM",
+      "evidence": [
+        {
+          "file": "src/people/shawn-wade/materials-shawn-wade.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核SR-KBB星系、窗口、阵营及本人损失",
+      "evidence": [
+        {
+          "file": "src/people/shawn-wade/materials-shawn-wade.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "写入独立战斗红料并联系招新和口角主线",
+      "evidence": [
+        {
+          "file": "src/people/shawn-wade/shawn-wade.md",
+          "contains": "肖恩招新人时一肚子话，出了站也有自己的偏爱："
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/shawn-wade/2115855515-id.json",
+    "src/people/shawn-wade/materials-shawn-wade.md",
+    "src/people/shawn-wade/shawn-wade.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "bad2df946be92d84309408e01af356b04d55c0e45cd8fbe7c41e82dd0b8534d5",
+  "level": 1
+}

@@ -1,0 +1,15 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 D.C、诈骗。沿用此前判断：已核具体骗取游戏资产或骗术教学段落；不标受害者与售号后买家行为。未复核本文其他内容。",
+  "evidence": [
+    "src/people/resoap/resoap.md",
+    "src/people/resoap/2114016435-id.json"
+  ],
+  "dependencies": [
+    "src/people/resoap/2114016435-id.json",
+    "src/people/resoap/materials-resoap.md",
+    "src/people/resoap/resoap.md"
+  ],
+  "inputs": "5b38597c4fd24d16fd9e05707a8ba90654b5a5c4b2d07198461028bdc29999ae",
+  "level": 1
+}

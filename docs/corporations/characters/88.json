@@ -618,7 +618,7 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "头衔与完整简介已读；康纳；太子与都督等古制头衔、简介空，实际指挥待查",
@@ -629,14 +629,43 @@
             "note": "头衔与完整简介已读；康纳；太子与都督等古制头衔、简介空，实际指挥待查",
             "material_hint": "docs/corporations/notes/member-research.md",
             "source": "docs/corporations/notes/member-research/98652614.md#图万神殿前50头衔增量2026-10-15"
+          },
+          {
+            "as_of": "2026-10-28",
+            "note": "本次公开画像：Konor alt 的头衔仍为“康纳☆ 太子,都督OSY诸军事，开府仪同三司”，简介全文为空。2023-01-23 起在 Temple of Tuvan Orth／Guardians of Tranquility；此前有 Foredawn Business Corporation、Tu Zi Fei Corporation／Fraternity. 经历。zKB 本次汇总约四千次参与击杀、3.4T ISK，常用船以 Loki 为首，另有 Vargur、Zealot、Purifier 等；累计不能当本人独立战果。画像未对应凛冬论坛账号，按角色名未取得相关提及。",
+            "source": "https://esi.evetech.net/latest/characters/2116648588/"
+          },
+          {
+            "as_of": "2026-10-28",
+            "note": "实际指挥依据已核：zKB 按本号与 Monitor（45534）过滤的 kills 接口本次返回7条、losses 返回0条，不当生涯出勤次数。另用 ESI 单独核读 KM 132050146：2025-12-20T13:52:49Z，星系31000176，攻击方 Konor alt／2116648588、军团98652614、联盟99010517，ship_type_id=45534。按内容规则可认定有 FC 经历，但不据此认定本场总指挥、重要FC或指挥风格。自动 FC(HIGH) 标签仅为线索。",
+            "source": "https://zkillboard.com/kill/132050146/"
+          },
+          {
+            "as_of": "2026-10-28",
+            "note": "已全文核读官方论坛《WTS super carrier pilot, 46m sp》：2023-02-12（UTC），Konor_alt（显示名 Konor alt）对标价40B、约4663万技能点的超旗驾驶员 green market 出价38B并获接受；自称“My first attempt at trading”，问过收款角色，随后确认“Isk sent”，卖方确认收到款项并已启动转移。本次可留作首次角色交易的小插曲，无纠纷、诈骗或现实货币交易依据。只确认当时买入链，不证明该号当前仍归本人。",
+            "source": "https://forums.eveonline.com/t/wts-super-carrier-pilot-46m-sp/395319"
+          },
+          {
+            "as_of": "2026-10-28",
+            "note": "检索范围与边界：角色全名、康纳搭配EVE／OSY／图万，以及Monitor／FC分支；未取得可归本人的独立重大争议或指挥故事。贴吧6079108606主楼称在“康纳”等人手下当过小兵，上下文为国服创世经历；不能仅同名并给本号。另有国服“布莱恩康纳”与国服天使泰坦首杀相关命中，缺同人依据，不归本号。B站现有正式档案未搜到对应；未按人名另搜B站、未观看视频。此次足以确认FC短传基础，买号为轻料，具体带队事件仍待补；未新建列传。",
+            "source": "docs/tieba/6079108606.json"
           }
         ],
-        "next_steps": []
+        "next_steps": [
+          "沿已确认 Monitor KM 与 OSY 社区复盘寻找本人带队事件、指挥名场面或当事人发言；国服康纳／布莱恩康纳须先取得与本号的同人依据。",
+          "如转入立传，补读高值月份2024-02、2022-03的少量代表KM并对照已有战役；不以累计KB或买号轻料冒充独立重事。"
+        ]
       },
       "evidence": [
         "docs/corporations/notes/member-research/98652614.md",
         "docs/corporations/notes/member-research.md",
-        "docs/corporations/notes/member-research/98652614.md#图万神殿前50头衔增量2026-10-15"
+        "docs/corporations/notes/member-research/98652614.md#图万神殿前50头衔增量2026-10-15",
+        "https://zkillboard.com/character/2116648588/",
+        "https://zkillboard.com/api/kills/characterID/2116648588/shipTypeID/45534/",
+        "https://zkillboard.com/api/losses/characterID/2116648588/shipTypeID/45534/",
+        "https://esi.evetech.net/latest/killmails/132050146/d1f3740d23f9f4f909bf3a870a6bd47d74b534b0/",
+        "https://forums.eveonline.com/t/wts-super-carrier-pilot-46m-sp/395319",
+        "docs/tieba/6079108606.json"
       ]
     },
     "2116667088": {

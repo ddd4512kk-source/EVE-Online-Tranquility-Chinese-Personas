@@ -11,3 +11,11 @@ PLA zrxzhh／2122520286公开简介“一切坏事都是yuyexf指示的”，是
 ## Feng Tsero号与AOM旧月榜
 
 2026-10-13读取[ESI角色2115928904](https://esi.evetech.net/latest/characters/2115928904/)：Feng Tsero，中文头衔雨夜星峰（括号昵称春梦），当前PLA／98190062，与yuyexf的相同中文头衔、同军团对应本人，归入别名；不保留头衔平台编号。[AOM 2021年9月榜](https://zkillboard.com/alliance/99009082/top/year/2021/month/9/)列本号第1、529条参与击杀。月榜支持该号当月在AOM参与战斗，不是529场出勤，不认具体指挥。完整队列见[共用续查表](../../../docs/corporations/notes/aom-2021-09.md)。
+
+## 战斗画像、主力号与战役复核
+
+2026-10-27 分别核 [主号 stats](https://zkillboard.com/api/stats/characterID/2119472595/) 与 [Feng Tsero stats](https://zkillboard.com/api/stats/characterID/2115928904/)；主号常用 Sabre（剑齿虎），Feng Tsero 常用 Bifrost（天梯）、Scorpion（毒蝎）、Nightmare（噩梦）。不合计两个角色的累计或同一目标；已登记另一角色 yuyexf1-1 参与目标价值低于100B。身份档案未见售号。
+
+Feng Tsero 2021年9月目标累计约698.7B，[95291583](https://zkillboard.com/kill/95291583/) 经 ESI 核为 2021-09-20 17:19 UTC 本人参与约194.3B目标击杀，当月列表只返回200条，有截断。主号 2026年4月约182.7B，[135096173](https://zkillboard.com/kill/135096173/) 原件确认其2026-04-28参与约180.56B目标击杀。两者为共同战果。
+
+A1-AUH、欧塔萨塞、FWST-8与艾蒂斯均命中Feng Tsero；A1与艾蒂斯各有本人损失。前者AOM侧，后者PLA侧；不凭舰队设置或普通出勤认定总指挥。

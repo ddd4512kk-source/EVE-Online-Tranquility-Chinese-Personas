@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/edwin-jang/materials-edwin-jang.md",
+    "src/people/edwin-jang/2117652442-id.json",
+    "src/people/edwin-jang/edwin-jang.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号常用船、单杀和整体记录，兼有小队与联盟出勤。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "heading": "## 2026-10-28 战斗画像复核"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式身份档案无已登记小号，未见已确认主力小号或出售依据。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/2117652442-id.json",
+          "contains": "2117652442"
+        },
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "contains": "身份，已核实"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2025年11月最高月缓存两条样本，不以样本代表全月。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "contains": "最高值月抽样"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照8F本人的战役关联及材料，未将其写为指挥；另两场自动关联无需逐场入文。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "heading": "## 2026-10-04 8F-TK3参战（2026-10-20补档）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首个红料写长期战斗及战役。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/edwin-jang.md",
+          "contains": "狂野张狂人不只在招新帖"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/edwin-jang/2117652442-id.json",
+    "src/people/edwin-jang/edwin-jang.md",
+    "src/people/edwin-jang/materials-edwin-jang.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "c6c7ff53fcedc72d21a4db4f3c64d4bda0b37bc0df44cca236b1e5cd9d20fe35",
+  "level": 1
+}

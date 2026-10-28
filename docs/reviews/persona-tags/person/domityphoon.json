@@ -1,0 +1,34 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、CEO、RMT、低素质、新人教官、江湖恩怨、FC。沿用此前判断：已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/domityphoon/domityphoon.md",
+    "src/people/domityphoon/2113029856-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "docs/sources/seven-sec-video-2017.md",
+    "src/people/domityphoon/2113029856-id.json",
+    "src/people/domityphoon/domityphoon.md",
+    "src/people/domityphoon/materials-domityphoon.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+  ],
+  "inputs": "ab7094802e0dd2572968fb66dbfd4894f23d1ea54026a0a8558f5a9f6204dc7b",
+  "level": 1
+}

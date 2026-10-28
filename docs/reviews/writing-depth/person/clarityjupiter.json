@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/clarityjupiter/materials-clarityjupiter.md",
+    "src/people/clarityjupiter/clarityjupiter.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核素材完整内容，官网教官介绍和角色舰队画像均在正文；没有将办公职责扩为具体外交事件。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "contains": "列外交总监、美区工作负责人"
+        },
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "heading": "## 画像与战役（2026-10-17）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "官网点评和舰队经历构成轻型人物故事，不见重大冲突或事件后果。",
+      "noHeavyReason": "已核官网职责和人物素材，只有教官介绍戏言与舰队经历，未见造成重大后果的个人事件。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "contains": "列外交总监、美区工作负责人"
+        },
+        {
+          "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+          "heading": "## 画像与战役（2026-10-17）"
+        }
+      ],
+      "items": [
+        {
+          "title": "教官介绍点评老板",
+          "reason": "官网教官名牌上的本人文字",
+          "note": "正文解释本人岗位和公开介绍的反差。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/clarityjupiter/materials-clarityjupiter.md",
+            "contains": "列外交总监、美区工作负责人"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/clarityjupiter/clarityjupiter.md",
+            "contains": "澄明自己也在官网教官名单中"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗块讲舰队职责，人物主线仍由外交总监的名片和官网教官笑话承接。",
+      "evidence": [
+        {
+          "file": "src/people/clarityjupiter/clarityjupiter.md",
+          "contains": "::: 评"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/foxor-management-2026-10-15.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/clarityjupiter/2122296275-id.json",
+    "src/people/clarityjupiter/clarityjupiter.md",
+    "src/people/clarityjupiter/materials-clarityjupiter.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
+  ],
+  "inputs": "ff6846fa04a3dd9d2333c1b5aa1ef616d139b218d12feb7e52c75b13fba894d1",
+  "level": 1
+}

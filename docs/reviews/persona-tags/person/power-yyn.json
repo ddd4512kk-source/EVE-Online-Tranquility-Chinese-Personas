@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/power-yyn/power-yyn.md",
+    "src/people/power-yyn/2117876094-id.json"
+  ],
+  "dependencies": [
+    "src/people/power-yyn/2117876094-id.json",
+    "src/people/power-yyn/materials-power-yyn.md",
+    "src/people/power-yyn/power-yyn.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ignoitton-2024/ignoitton-2024.json",
+    "src/battles/ignoitton-2024/ignoitton-2024.md",
+    "src/battles/ignoitton-2024/materials-ignoitton-2024.md"
+  ],
+  "inputs": "7719ee2430d647e659e9f665820aaf9e393e566538b6c250b060bc10fcf30dd9",
+  "level": 1
+}

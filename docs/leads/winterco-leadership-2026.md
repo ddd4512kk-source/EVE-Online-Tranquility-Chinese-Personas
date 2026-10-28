@@ -1,46 +1,19 @@
 <a id="winterco-leadership-2026"></a>
 
-## 凛冬联盟 2026 年管理名单
+## 凛冬联盟管理名单：未收录候选与身份缺口
 
-职务快照，供以后找料时对人。名单本身只说明“此人担任某职”，单凭这一条不立传；有了自己的故事再写。
+中英文来源、修订日期和已归人的职务对应已整理到[2026 年职务快照](../sources/winterco-leadership-2026.md)。原入口保留，既有人物无需按名单重新调查。
 
-**来源**：
+### 身份与任期缺口
 
-- [Winter Coalition Leadership and Teams](https://wiki.winterco.org/en/coalition/leadership)，英文版，2026-10-09 修订。
-- [联盟CN公务员名单](https://wiki.winterco.org/zh/coalition/leadership)，中文版，2026-09-06 修订。原页附游戏外联系方式，不抄录。
-
-### 名号对应（已并入列传）
-
-| 名单写法 | 对应列传 | 名单职务 |
-| --- | --- | --- |
-| GrandMiracle | [大聪明 / Grand Bright](../../src/people/grand-bright/materials-grand-bright.md) | EN/CN 战略协调；FRT 规则协调（CN） |
-| chaoji；SC-UN-I-cute money plz 炒鸡 | [炒鸡](../../src/people/i-cute-money-plz/materials-i-cute-money-plz.md) | EN/CN 战略协调；CN 外交组组长 |
-| Greed | [龙根 / Greed jf cyno](../../src/people/greed-jf-cyno/materials-greed-jf-cyno.md) | FRT 主权后勤与基建（Vale/Tribute/West Geminate）；税务（CN） |
-| Greed Island | [龙根](../../src/people/greed-jf-cyno/materials-greed-jf-cyno.md)；角色 1636264302 已归入其小号 | 联盟 ACL |
-| Tang Yuan；KHESH-Silver Magician 汤圆 | [汤圆](../../src/people/tang-yuan/materials-tang-yuan.md) | EN/CN 战略协调；CN 内部外交；FRT 规则协调（CN）；FAX 与 FRT-U（CN）；CN 外交组组长 |
-| Remeleen | [拉面林](../../src/people/remeleen/materials-remeleen.md) | 代理 FRT CEO；CN 执行领导组；CN 军事 |
-| Garveen；Garveen Airuta | [慕容](../../src/people/garveen-airuta/materials-garveen-airuta.md) | CN 执行领导组；CN 军事；IT 联系人 |
-| Noraus | [N老板](../../src/people/noraus/materials-noraus.md) | Exec；对外外交 |
-| MrDiao；Fuxi-MrDiao | [叼爷](../../src/people/mr-diao/materials-mr-diao.md) | 情报（与 PuppyHanson）；黑名单管理员 |
-| Maria Taylor | [Maria](../../src/people/maria-taylor/materials-maria-taylor.md) | IT 联系人；中文页最后修订人 |
-| FUXI-Mina Dethahal 瞑衍 | [瞑衍](../../src/people/mina-dethahal/materials-mina-dethahal.md) | 势力战争管理组，A 低安战争负责人 |
-| CACX-Flashing shark 星星定乾坤 | [星星](../../src/people/flashing-shark/materials-flashing-shark.md) | 总人事 |
-| NUWA-FlyingBee 蜜蜂 | [蜜蜂](../../src/people/flyingbee) | 后勤燃料组；补损组 |
-| AMIYA-Freak 03 | [Freak](../../src/people/freak-03) | 补损组 |
-| NBCLT-Ephemera Winter 蜉蝣 | [蜉蝣](../../src/people/ephemera-winter/materials-ephemera-winter.md) | CN 外交组 |
-| Nolange | [瓜瓜 / Jolange Joestar](../../src/people/jolange-joestar/materials-jolange-joestar.md)；Nolange（2117214189）是其号 | CN 执行领导组；CN 军事 |
-| Rexanna | [七夜 / SeVenNight Deng](../../src/people/seven-night-deng/materials-seven-night-deng.md)；Rexanna（1433608019，2007 年建号）是其号 | CN 执行领导组；CN 军事 |
-| AWSL.-huozhang ji 季火掌 | [季火掌](../../src/people/huozhang-ji/materials-huozhang-ji.md) | 仓库管理 |
-| LSP.-Illegal-ChenYi Mist 非法 | [非法](../../src/people/illegal-chenyi-mist/materials-illegal-chenyi-mist.md)，主号 Illegal-ChenYi Mist；LSP. CEO 号 Naoxina | 势力战争管理组，C-Guard 战争负责人 |
-| DOCTOR | 大概是[黑色乌鸦 / Docter Hikanami](../../src/people/docter-hikanami)，仅凭名字形近，未核 | EN/CN 战略协调 |
-
-| KHESH-Raok Hilanen 汉堡 | [汉堡](../../src/people/raok-hilanen/materials-raok-hilanen.md) | 市场监测；Atioth Monitor 参战记录已入列传 |
-
-| FUXI-Lancetlot Outamon 朔方 | [朔方](lancetlot-outamon.md) | WIKI维护组；反时区语录连载短传已撤出收录，存线索 |
+- **DOCTOR**：英文名单列 EN/CN 战略协调；与[黑色乌鸦 / Docter Hikanami](../../src/people/docter-hikanami/materials-docter-hikanami.md)仅名字近似，现有本人素材仍无新增对应依据，暂不合并。需要带角色名、军团或本人署名的桥接材料。
+- **Falling star**：已解析到 Falling Star（794962438），尚需名单账号与该角色的对应依据。
+- **LogicGu、PuppyHanson**：原解析未取得同名角色，需要准确游戏名或本人公开账号入口。
+- **历史任期**：名单页面修订日期不等于上任日期；只有具体事件需要归责时，再查该人的 Wiki 历史与事件时点，不为整张名单补齐任期。
 
 ### 尚未收录的华人成员
 
-角色 ID 由 `npm run find` 按名单上的角色名查得。
+以下沿用原名单解析的角色 ID；本次对照人物身份档案，这些 ID 尚未归入已收录人物，不代表已逐人完成社区取材。RoroTaco 已有[军团角色档案](../corporations/characters/59.json)，后续先复用其画像，不重复建档。
 
 | 名单写法 | 角色（ID） | 名单职务 |
 | --- | --- | --- |
@@ -74,4 +47,8 @@
 
 Exec Leadership Team（EN）：Luke Anninan、Arrowspeeed Bounty、Mystical、Karmen、Nour Samy。其余组长：Saragossa、Withy/Witchy Witchcraft、Silent UK、Osimandia、Tellian、Jacq Alabel、Eingang Vulpine、Miss Lulu（1098416860）、Captain-SK（2119917429）、Haidere（1328429891）、priestessofthemoon、Demortis、Orthel Toralen、Elise Vulpine、Jay Loftus、Harley Edwards 等。按收录规则，外国人须与华人圈交集多才收。
 
-**待查**：上表各人的论坛帖、贴吧、B站故事；名单任职起止时间（Wiki 页历史）。
+### 后续取材顺序
+
+1. 优先核对狐狸、小Q、Iwara、xi-lv、Rouketina 的联盟内部外交职责，以及鬼星、小饼干的联盟外交工作与角色对应；有实际联盟管理任职依据即可进入短传流程，不另等争议或大事件。
+2. 其余岗位先找本人发言、作品或具体社区事件；只有名片和普通出勤时保留候选，不拿 KB 数据凑故事。
+3. 英文成员先找与华人圈的具体交集，再决定是否扩查；名单本身不代表交集已够收录。

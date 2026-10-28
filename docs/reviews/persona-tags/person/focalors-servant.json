@@ -1,0 +1,20 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、低素质、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/focalors-servant/focalors-servant.md",
+    "src/people/focalors-servant/2124239778-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/focalors-servant/2124239778-id.json",
+    "src/people/focalors-servant/focalors-servant.md",
+    "src/people/focalors-servant/materials-focalors-servant.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+  ],
+  "inputs": "ecbb84c0d2d6261fd01ad2b31d1fa89032f23f8b18a7f8c72e24155da3e64860",
+  "level": 1
+}

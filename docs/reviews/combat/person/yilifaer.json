@@ -1,0 +1,121 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yilifaer/materials-yilifaer.md",
+    "src/people/yilifaer/2117737129-id.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/people/yilifaer/yilifaer.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号常用舰与本人所述 FC 身份。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "收录号 stats"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核主力指挥号与持CEO位低战绩号，独立统计不相加。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "主力号 stats"
+        },
+        {
+          "file": "src/people/yilifaer/2117737129-id.json",
+          "contains": "\"name\": \"Yilifaer-Eli\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核收录号与主力号高值月代表KM，并注明后者接口最近200条及较早样本不属战役窗口。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "高值月 2026 年 2 月"
+        },
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "高值月 2025 年 11 月"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核 1N 单星系快照、R-AG7W 时间地点和监视者驾驶；未将搬运视频冒认为本人视角。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "KM 131034856"
+        },
+        {
+          "file": "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+          "contains": "\"2121295606\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后综合块写长期带队、两场代表战斗及其管理作风。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/yilifaer.md",
+          "contains": "法尔不只在外交频道里分配规矩"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/jade-kirin-disciplinary-2024-03-05.md",
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/people/yilifaer/2117737129-id.json",
+    "src/people/yilifaer/materials-yilifaer.md",
+    "src/people/yilifaer/yilifaer.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md",
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "813c295faa2451bb3d1f7ced3e9a4e9ba8c62311158792cdca50b728e9b9b067",
+  "level": 1
+}

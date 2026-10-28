@@ -1,0 +1,101 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/m1kiiy/materials-m1kiiy.md",
+    "src/people/m1kiiy/m1kiiy.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读身份、本人争议发言、军团回应和战斗画像，并与全文对照。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 2025年9月打蓝加争议：本人发言与楼内反应"
+        },
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "主要事件是代军团回应蓝加争议并中途招新，双方对间谍结论相争；同团成员个人言行没有归其本人。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 2025年9月打蓝加争议：本人发言与楼内反应"
+        }
+      ],
+      "items": [
+        {
+          "title": "打蓝加后的辩解与招新",
+          "reason": "争议涉及联盟蓝加、赔偿及对成员间谍指控，米奇本人代表军团多次公开回复，影响其人形象。",
+          "weight": "heavy",
+          "note": "正文写出赔偿道歉、夹入招新、随后指认为间谍及对手质疑；并列双方解释，不替站点判定间谍。",
+          "source": {
+            "file": "src/people/m1kiiy/materials-m1kiiy.md",
+            "contains": "#27本人“再统一回复”"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/m1kiiy/m1kiiy.md",
+            "contains": "2025年9月，CO.WA刚加入INIT不久"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "刚加入INIT的军团面对蓝加事故，米奇作为代表需要回应。",
+              "evidence": {
+                "file": "src/people/m1kiiy/m1kiiy.md",
+                "contains": "2025年9月，CO.WA刚加入INIT不久"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "统一回复同时插招新，事态再转向间谍指控，口径与广告并排。",
+              "evidence": {
+                "file": "src/people/m1kiiy/m1kiiy.md",
+                "contains": "可他在辟谣中间还给自家招新留了位置"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "对方质疑陈旧小号能否证明间谍，团方坚持隐患过大；楼主讥其先辟谣招新后切割。",
+              "evidence": {
+                "file": "src/people/m1kiiy/m1kiiy.md",
+                "contains": "可他在辟谣中间还给自家招新留了位置"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主线是开团与代表旧团回应争议，战斗只补出勤和本人头衔，并未淹没事件。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/m1kiiy.md",
+          "contains": "米奇替旧团解释事故时"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/m1kiiy/2123055352-id.json",
+    "src/people/m1kiiy/m1kiiy.md",
+    "src/people/m1kiiy/materials-m1kiiy.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "745a37df9caa5d70820836b347a437fda45fb1997cf51aa44ed7df8023607b51",
+  "level": 1
+}

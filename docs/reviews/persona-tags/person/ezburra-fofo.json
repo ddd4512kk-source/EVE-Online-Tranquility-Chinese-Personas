@@ -1,0 +1,25 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、D.C、低素质、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/ezburra-fofo/ezburra-fofo.md",
+    "src/people/ezburra-fofo/2122159532-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "src/people/ezburra-fofo/2122159532-id.json",
+    "src/people/ezburra-fofo/ezburra-fofo.md",
+    "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "f031fd7c55272845ab6e4f8cae02607114fa59fe908b92d0e004d787819bb0b7",
+  "level": 1
+}

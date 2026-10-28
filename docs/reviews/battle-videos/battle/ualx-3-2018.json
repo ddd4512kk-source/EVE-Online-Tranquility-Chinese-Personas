@@ -1,0 +1,35 @@
+{
+  "status": "needs-work",
+  "note": "已执行全站不足5日窗口扫描：本场16条候选，其中未推荐12条、大战主题高概率0条、仅频道卡片待取得简介12条。未点名星系或缺主题词不提前排除。继续用candidates ualx-3-2018分页核简介、实际BR时期地点及原视角；数量是候选关系，不代表已逐条核定或没有其他作品。",
+  "evidence": [
+    "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+    "docs/bilibili/8370281.json",
+    "docs/bilibili/12069003.json",
+    "docs/bilibili/48030884.json",
+    "docs/bilibili/23176130.json",
+    "docs/bilibili/9055736.json",
+    "docs/bilibili/1736544.json",
+    "docs/bilibili/550611.json",
+    "docs/bilibili/16356876.json",
+    "docs/bilibili/5636499.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/12069003.json",
+    "docs/bilibili/16356876.json",
+    "docs/bilibili/1736544.json",
+    "docs/bilibili/23176130.json",
+    "docs/bilibili/48030884.json",
+    "docs/bilibili/550611.json",
+    "docs/bilibili/5636499.json",
+    "docs/bilibili/8370281.json",
+    "docs/bilibili/9055736.json",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/_data/entityNames.json",
+    "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+    "src/battles/ualx-3-2018/ualx-3-2018.json",
+    "src/battles/ualx-3-2018/ualx-3-2018.md"
+  ],
+  "inputs": "1c1b2402a93ebb7565f8c125a8564e2b1efd9be01d58f088e354a41fedb58acb",
+  "level": 0
+}

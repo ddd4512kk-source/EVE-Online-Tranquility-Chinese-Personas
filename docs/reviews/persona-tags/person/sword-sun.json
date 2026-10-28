@@ -1,0 +1,26 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/sword-sun/sword-sun.md",
+    "src/people/sword-sun/94321893-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/sword-sun/94321893-id.json",
+    "src/people/sword-sun/materials-sword-sun.md",
+    "src/people/sword-sun/sword-sun.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md"
+  ],
+  "inputs": "37e370b90d0acbede09a32798fb6971fa997d6973960bc69779946b9e1e1c554",
+  "level": 1
+}

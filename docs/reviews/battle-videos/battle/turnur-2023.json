@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面4条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "docs/bilibili/23747916.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/23747916.json",
+    "src/_data/entityNames.json",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md"
+  ],
+  "inputs": "9f077225acfa4ac5068eb5c3b53c971c24b0ee8dfe34c02b8b7581fa06fbb214",
+  "level": 0
+}

@@ -1,0 +1,94 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yu-le/materials-yu-le.md",
+    "src/people/yu-le/yu-le.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读名片、FC身份和战斗材料，保留预警指南及OGC自称边界。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## 身份与FC依据"
+        },
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## OGC名片自称"
+        },
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## 战斗画像与高值月份（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "名片自称和参战素材未显示本人主导重大争议或重大后果事件。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## OGC名片自称"
+        }
+      ],
+      "noHeavyReason": "已查个人名片和战斗素材，现有证据没有本人主导的重大争议、失信或重大后果独立事件。",
+      "items": [
+        {
+          "title": "预警指南与FC名片",
+          "reason": "本人公开名片展现其自我定位",
+          "note": "保留链接标题和本人自称，不认指南原创或具体指挥。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/yu-le/materials-yu-le.md",
+            "heading": "## 身份与FC依据"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yu-le/yu-le.md",
+            "contains": "老魏在[公开简介]"
+          }
+        },
+        {
+          "title": "BWF-ZZ星城攻防",
+          "reason": "本人参与反PH舰队的星城攻防",
+          "note": "写双方实力差距与参战，不认指挥。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/yu-le/materials-yu-le.md",
+            "heading": "### BWF-ZZ星城攻防（2025-04-05）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yu-le/yu-le.md",
+            "contains": "DarkSide把星城摆到[BWF-ZZ]"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留FC名片与OGC自称的原有红黑料，补充舰队经历。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/yu-le.md",
+          "contains": "老魏把FC、预警指南"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/yu-le/2122668203-id.json",
+    "src/people/yu-le/materials-yu-le.md",
+    "src/people/yu-le/yu-le.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "95ab45aecbd4c3504909d3795213eed34ee0b686c36b16a54c5f89777b59662e",
+  "level": 1
+}

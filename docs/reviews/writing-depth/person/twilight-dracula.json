@@ -1,0 +1,105 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材和正文核查。",
+  "evidence": [
+    "src/people/twilight-dracula/materials-twilight-dracula.md",
+    "src/people/twilight-dracula/twilight-dracula.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "复核身份、战斗资料及已读争议帖子；DC 邮件原件未见。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+          "contains": "料与来源"
+        },
+        {
+          "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+          "contains": "高值月与战役核读"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "合同争议作为重料分两节展开。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+          "contains": "我否认我吃了他九张卡了，不，我不否认"
+        }
+      ],
+      "items": [
+        {
+          "title": "十张月卡合同与捐款",
+          "weight": "heavy",
+          "reason": "争议引发联盟回应与长期外号，贯穿人物主要事迹。",
+          "source": {
+            "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+            "contains": "我否认我吃了他九张卡了，不，我不否认"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/twilight-dracula/twilight-dracula.md",
+            "contains": "苦主先在频道里求，再私聊"
+          },
+          "note": "写买卖双方说法、捐款动机、群体反应及联盟后果。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "标错价格，卖家请求返还。",
+              "evidence": {
+                "file": "src/people/twilight-dracula/twilight-dracula.md",
+                "contains": "苦主先在频道里求"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "他确认吃下九张卡，又将钱捐给联盟恶心对方。",
+              "evidence": {
+                "file": "src/people/twilight-dracula/twilight-dracula.md",
+                "contains": "我否认我吃了他九张卡了"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "联盟回应与九卡联盟外号。",
+              "evidence": {
+                "file": "src/people/twilight-dracula/twilight-dracula.md",
+                "contains": "吧友替 DC 支招"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战场履历、当事人解释与卖家和围观者反应并列。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/twilight-dracula.md",
+          "contains": "::: 红料 希尔博拉斯跟着队伍走"
+        },
+        {
+          "file": "src/people/twilight-dracula/twilight-dracula.md",
+          "contains": "::: 黑料 九张卡捐给联盟"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/twilight-dracula/2113688092-id.json",
+    "src/people/twilight-dracula/materials-twilight-dracula.md",
+    "src/people/twilight-dracula/twilight-dracula.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "062bb5144863500e1a1c584cab8ea188525315c25639606ef79690f66014a3d6",
+  "level": 1
+}

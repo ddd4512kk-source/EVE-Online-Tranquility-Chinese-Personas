@@ -1,0 +1,79 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yuyexf/materials-yuyexf.md",
+    "src/people/yuyexf/yuyexf.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号常用剑齿虎与舰队设置；不从设置推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/yuyexf/materials-yuyexf.md",
+          "contains": "主号常用 Sabre"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核主力Feng Tsero综合画像，另一低于100B小号只保留已登记身份；未见售号。",
+      "evidence": [
+        {
+          "file": "src/people/yuyexf/materials-yuyexf.md",
+          "contains": "Feng Tsero 常用 Bifrost"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主力号2021年9月与主号2026年4月各一张ESI原件；两号数据不相加。",
+      "evidence": [
+        {
+          "file": "src/people/yuyexf/materials-yuyexf.md",
+          "contains": "Feng Tsero 2021年9月目标累计"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "复核四场关联，采用A1及艾蒂斯，分别写AOM与PLA阵营及个人损失。",
+      "evidence": [
+        {
+          "file": "src/people/yuyexf/materials-yuyexf.md",
+          "contains": "A1-AUH、欧塔萨塞"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后综合战绩红料按自然人串联两个时段，不分号堆履历。",
+      "evidence": [
+        {
+          "file": "src/people/yuyexf/yuyexf.md",
+          "contains": "雨夜的简介把总览"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/yuyexf/2119472595-id.json",
+    "src/people/yuyexf/materials-yuyexf.md",
+    "src/people/yuyexf/yuyexf.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md"
+  ],
+  "inputs": "3c19e0cd03f4de8016ea8c4b12796fb3de57a8bae40950afbd9d7d5b1cb474a9",
+  "level": 1
+}

@@ -1,0 +1,84 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/chengzi/materials-chengzi.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/people/chengzi/chengzi.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号为常规舰队成员，主力号另经stats核查重突及战列舰活动；未推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核已登记主力ZS-The only love和低活动W634，后者不足优先详细取样量级，不相加各号。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 其他本人角色"
+        },
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主力号2020年3月最高值月抽样两张多人建筑KM；部分页返回不能冒充全月，2026萨托加斯用于正文。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "### 主力号高值月份抽样"
+        },
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照萨托加斯星系、时间、人物驾驶与正式战报；只记进攻方参与，不称指挥。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        },
+        {
+          "file": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+          "heading": "## 来源与经过"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇之后独立红料综合跟队经历和萨托加斯，以本人出勤与友军生产争议作对照。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/chengzi.md",
+          "contains": "::: 红料 星城前开火，友军面前别留战报"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/people/chengzi/2115027553-id.json",
+    "src/people/chengzi/chengzi.md",
+    "src/people/chengzi/materials-chengzi.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md"
+  ],
+  "inputs": "5929bc3baf1fcee244a7e1ac43c0aef88ad9db5189d78453831c1e3427e12fdc",
+  "level": 1
+}

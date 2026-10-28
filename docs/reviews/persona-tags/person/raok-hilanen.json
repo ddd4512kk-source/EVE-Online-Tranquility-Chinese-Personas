@@ -1,0 +1,26 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、FC、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/raok-hilanen/raok-hilanen.md",
+    "src/people/raok-hilanen/2122530222-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/raok-hilanen/2122530222-id.json",
+    "src/people/raok-hilanen/materials-raok-hilanen.md",
+    "src/people/raok-hilanen/raok-hilanen.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md"
+  ],
+  "inputs": "107218a3f8d3d5e392a948580695e16656321a670606c3bf3cdd351a8488843b",
+  "level": 1
+}

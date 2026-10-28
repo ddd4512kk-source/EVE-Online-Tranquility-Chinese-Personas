@@ -30,3 +30,9 @@
 ## 帝皇之镰历史榜前50同人增量
 
 2026-10-14，[Hoshino Y／2120322262](https://esi.evetech.net/latest/characters/2120322262/)头衔“星烨”，当前ES（98715582）。与Hoshino X同独特词根、同中文头衔同团，归本人小号，列入aliases；简介为抗性表与广播／总览设置，不新增CEO任期或战役职责。
+
+## 战斗画像、主力小号与战役复核
+
+2026-10-27 核读 [主号 stats](https://zkillboard.com/api/stats/characterID/2120556332/) 与 [小号 stats](https://zkillboard.com/api/stats/characterID/2120322262/)：前者常用 Malediction（咒灭）、Retribution（复仇），后者常用 Sabre（剑齿虎）等；各号累计不相加。未见售号证据。两号 2026 年 4 月均为高价值月，分别约 354.9B 与 527B；[135096173](https://zkillboard.com/kill/135096173/) ESI 原件确认两号均于 2026-04-28 15:02 UTC 参与击杀约 180.56B 目标，不将同一目标重复计入个人战果。
+
+阿巴宗 2024 快照命中主号并损失 [117506316](https://zkillboard.com/kill/117506316/)，当时军团所在联盟为 DC，归守堡侧；4-HWWF 2026 两号在 INIT 进攻侧，主号损失 [135008914](https://zkillboard.com/kill/135008914/)，小号参与 [135008430](https://zkillboard.com/kill/135008430/)，ESI 原件 UTC 2026-04-25 16:18、星系 8TPX-N。X47 与兰托恩另有普通参战，不推断指挥。

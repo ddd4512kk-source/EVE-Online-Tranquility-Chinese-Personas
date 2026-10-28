@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、D.C、CEO。沿用此前判断：RMT只是一句国服旧名声，撤RMT。未复核本文其他内容。",
+  "evidence": [
+    "src/people/last-seed/last-seed.md",
+    "src/people/last-seed/2117196631-id.json"
+  ],
+  "dependencies": [
+    "src/people/last-seed/2117196631-id.json",
+    "src/people/last-seed/last-seed.md",
+    "src/people/last-seed/materials-last-seed.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "7eeb9206962f5da8995d781a2dfb9c558000c00df8ce225bfb64a781fee6533a",
+  "level": 1
+}

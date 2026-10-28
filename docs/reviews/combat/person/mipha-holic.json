@@ -1,0 +1,78 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mipha-holic/materials-mipha-holic.md",
+    "src/people/mipha-holic/mipha-holic.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号综合KB、常用船与单人狩猎及海盗团带队角色。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 角色对应"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核 Asuka 小号身份与低价值战斗记录，未发现售号证据；两号不相加。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 角色对应"
+        },
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 双号高值月补核（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号2020年8月和小号2024年9月抽取代表KM，主号仅首200条不当完整月。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 双号高值月补核（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "欧米斯特战役快照与本人组织参战对应；只认参战，不由快照推断带队。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "### 欧米斯特八月攻防（2023）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后首块结合代表大鱼和长期个人狩猎，正文保留海盗团创办、战时动员和经营。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 角色对应"
+        },
+        {
+          "file": "src/people/mipha-holic/mipha-holic.md",
+          "contains": "猎人团的成年礼来得很晚"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mipha-holic/2114370884-id.json",
+    "src/people/mipha-holic/materials-mipha-holic.md",
+    "src/people/mipha-holic/mipha-holic.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md"
+  ],
+  "inputs": "8bb317565addb739596d2c369c35648d405200a6f3fa026abdea9e2b8941a23d",
+  "level": 1
+}

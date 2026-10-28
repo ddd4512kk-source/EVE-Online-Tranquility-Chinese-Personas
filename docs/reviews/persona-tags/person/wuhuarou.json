@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、工业、RMT、FRT、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/wuhuarou/wuhuarou.md",
+    "src/people/wuhuarou/2114965098-id.json"
+  ],
+  "dependencies": [
+    "src/people/wuhuarou/2114965098-id.json",
+    "src/people/wuhuarou/materials-wuhuarou.md",
+    "src/people/wuhuarou/wuhuarou.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "8fe8e13f6734a2a69a40fb72e88fdc2e87edd8835f5427c15c51bcffec7c2bfd",
+  "level": 1
+}

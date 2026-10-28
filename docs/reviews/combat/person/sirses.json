@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号小船猎杀玩法与整体记录",
+      "evidence": [
+        {
+          "file": "src/people/sirses/materials-sirses.md",
+          "heading": "## 主小号战斗画像与高值月"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核两个现役同人号及低于主力门槛的Wibrik，主号未识别",
+      "evidence": [
+        {
+          "file": "src/people/sirses/materials-sirses.md",
+          "heading": "## 主小号战斗画像与高值月"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026年10月两号共同攻击样本，未把同一KM重复计数",
+      "evidence": [
+        {
+          "file": "src/people/sirses/materials-sirses.md",
+          "heading": "## 主小号战斗画像与高值月"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核萨托加斯Taltogai快照损失，不推舰型和职责",
+      "evidence": [
+        {
+          "file": "src/people/sirses/materials-sirses.md",
+          "heading": "## 主小号战斗画像与高值月"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "既有猎杀故事移至开篇后并扩为综合画像",
+      "evidence": [
+        {
+          "file": "src/people/sirses/sirses.md",
+          "contains": "他还有几个同团角色陪着出门"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/sirses/2120632368-id.json",
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "df4a648c900a7fbf1037f055407f84328972beb1f6c1fd083593181b4ac963b8",
+  "level": 1
+}

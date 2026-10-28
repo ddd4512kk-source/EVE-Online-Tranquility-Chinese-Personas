@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、低安、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/huabuyu/huabuyu.md",
+    "src/people/huabuyu/2122242721-id.json"
+  ],
+  "dependencies": [
+    "src/people/huabuyu/2122242721-id.json",
+    "src/people/huabuyu/huabuyu.md",
+    "src/people/huabuyu/materials-huabuyu.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "0e43f418281b756c105d71b7f9742acbe956d744f649267ecc52ee5f06f9bda7",
+  "level": 1
+}

@@ -1,0 +1,60 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/lova-8899/materials-lova-8899.md",
+    "src/people/lova-8899/lova-8899.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整对照作品材料、本人评论和正文，保留零氪入门与战斗投稿。",
+      "evidence": [
+        {
+          "file": "src/people/lova-8899/materials-lova-8899.md",
+          "heading": "## 综合画像与代表KM（2026-10-28）"
+        },
+        {
+          "file": "src/people/lova-8899/materials-lova-8899.md",
+          "heading": "## 两篇作品的公开文字与互动"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "内容为视频教学和游戏日常，无其他重大事件。",
+      "evidence": [
+        {
+          "file": "src/people/lova-8899/materials-lova-8899.md",
+          "heading": "## 综合画像与代表KM（2026-10-28）"
+        }
+      ],
+      "noHeavyReason": "本人材料以教学视频、出勤和对千人会战的评论为主，未见重大个人争议或决定性个人行动。",
+      "items": []
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留千人会战吐槽、零氪起点和作品推荐，新增战斗画像作补充。",
+      "evidence": [
+        {
+          "file": "src/people/lova-8899/lova-8899.md",
+          "contains": "萌萌嘴上嫌千人会战卡"
+        },
+        {
+          "file": "src/people/lova-8899/lova-8899.md",
+          "contains": "那篇投稿的简介就写明是宣传与实际的对照"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/lova-8899/2122318173-id.json",
+    "src/people/lova-8899/lova-8899.md",
+    "src/people/lova-8899/materials-lova-8899.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "0e1484150c31aa6c4227edf9181eb684b15f3f76e6edb515e70084a2330f4128",
+  "level": 1
+}

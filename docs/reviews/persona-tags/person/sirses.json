@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 高安、低素质、军团管理、诈骗、江湖恩怨。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核具体骗取游戏资产或骗术教学段落；不标受害者与售号后买家行为；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/sirses/sirses.md",
+    "src/people/sirses/2120632368-id.json"
+  ],
+  "dependencies": [
+    "src/people/sirses/2120632368-id.json",
+    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/sirses.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "df4a648c900a7fbf1037f055407f84328972beb1f6c1fd083593181b4ac963b8",
+  "level": 1
+}

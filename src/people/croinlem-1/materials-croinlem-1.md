@@ -29,3 +29,11 @@
 - [eve欧服自制皮肤展示](https://www.bilibili.com/video/BV1jr5v6AE1L/)：频道目录标题与公开投稿记录。
 - [神使级泰坦国旗皮肤展示](https://www.bilibili.com/video/BV1csLq61EGZ/)：本地频道目录记录EVE题材；标题可确认神使级泰坦国旗皮肤展示。
 - [经费](https://www.bilibili.com/video/BV1sgTL6TEsx/)：本地频道目录归入EVE候选；本次只按标题作推荐。
+
+## 战斗画像与艾蒂斯
+
+2026-10-28 UTC 取得 [zKB stats](https://zkillboard.com/api/stats/characterID/2121166892/)：常用船的当前列表前几项为 Exequror Navy Issue（送葬者海军型）、Retribution（审判）、Vedmak（狂暴者）；topShips 是接口当时返回的 appearances，不按全部生涯使用次数解读。档案未登记已确认小号或售号，不能据此称没有其他角色。
+
+2026-04为最高参与击杀价值月，月度接口取得65条。抽核 [KM 135092442](https://zkillboard.com/kill/135092442/)：2026-04-28 13:36 UTC、星系30001398，Keepstar由408名攻击方参与击毁；本人攻击条目船型24694=Maelstrom，团队战果不归为个人击毁。
+
+[艾蒂斯战役材料](../../battles/atioth-2026/materials-atioth-2026.md)和同名快照显示收录号列在参与驾驶员中；该报限定本场星系及窗口，只写参与，不推断指挥或战斗动作。

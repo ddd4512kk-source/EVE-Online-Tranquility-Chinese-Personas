@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/n-bomber/materials-n-bomber.md",
+    "src/people/n-bomber/2120263809-id.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/people/n-bomber/n-bomber.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已有统计含常用船、角色及活动范围，普通舰队成员，不推指挥",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "核正式身份与素材，无已确认主力小号及售号",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/2120263809-id.json",
+          "contains": "\"identity\""
+        },
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 同人链与旧团时间"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "素材核2025年5月和8月高值月及5月代表KM，金额为全队参与",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "1N战役档案命中本人，同场情节沿已存战役资料",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        },
+        {
+          "file": "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+          "contains": "2024 年的黑色星期五"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立战绩块综合常用船与1N及航母战斗，保留对线主线",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/n-bomber.md",
+          "contains": "核弹自己也有"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/people/n-bomber/2120263809-id.json",
+    "src/people/n-bomber/materials-n-bomber.md",
+    "src/people/n-bomber/n-bomber.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+  ],
+  "inputs": "b52fd77e20757898706875e27d2f11e3fce2fdb5178f98868d1640c74194a48a",
+  "level": 1
+}

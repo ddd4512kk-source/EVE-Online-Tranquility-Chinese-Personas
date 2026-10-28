@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+    "src/people/msg-mashimaro/msg-mashimaro.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核主号常用船、长期舰队角色和综合击杀。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 游戏画像与战役核对（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案无已确认小号，不猜测同人。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 游戏画像与战役核对（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高价值月最近200张及样本星城KM，金额为集体战果。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 游戏画像与战役核对（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照五场已有战报，正文采用艾蒂斯本人损失，BWF样本另属2026年。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 游戏画像与战役核对（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增综合战绩块并保留教程故事。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/msg-mashimaro.md",
+          "contains": "曲馨给新人讲扫描、刷怪和舰队职责"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/msg-mashimaro/2122590961-id.json",
+    "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+    "src/people/msg-mashimaro/msg-mashimaro.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "fe6338155ee9faffa5c4ddf097b6db1d1dc260444a8ecd9ccaec25b932b88e14",
+  "level": 1
+}

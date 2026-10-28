@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "已核既有ESI自称FLEET COMMANDER、stats、2025-10首批200条中的代表KM及4场战役；补FC和战斗画像，未据此认其指挥具体大会战。",
+  "evidence": [
+    "src/people/sky-destroyer/materials-sky-destroyer.md",
+    "src/people/sky-destroyer/sky-destroyer.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号1635次参与击杀、676次损失、约786B；常用洛基、诅咒、海军启示、巴尔干。",
+      "evidence": [
+        {
+          "file": "src/people/sky-destroyer/materials-sky-destroyer.md",
+          "contains": "参与击杀1635、损失676"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号；天空纸条总览链接不作同人证据，Mehenn凤凰KM不归本人。",
+      "evidence": [
+        {
+          "file": "src/people/sky-destroyer/materials-sky-destroyer.md",
+          "contains": "不作同人证据"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "高值月2025-10与2025-04；代表KM130367945为阿巴宗本人驾驶巴尔干参与的集体击杀，2025-10只取首批200条。",
+      "evidence": [
+        {
+          "file": "src/people/sky-destroyer/materials-sky-destroyer.md",
+          "contains": "代表[KM130367945]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "四场本地战役命中收录号，乌特拉、兰托恩含损失；FC身份来自ESI简介，不认其指挥这些大会战。",
+      "evidence": [
+        {
+          "file": "src/people/sky-destroyer/materials-sky-destroyer.md",
+          "contains": "指挥依据来自已核ESI简介FLEET COMMANDER"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文“名片上写指挥，战场上也有出勤”合写画像，两条黑料保留；2026-10-29复读去除看样子后仍成立。",
+      "evidence": [
+        {
+          "file": "src/people/sky-destroyer/sky-destroyer.md",
+          "contains": "::: 红料 名片上写指挥，战场上也有出勤"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "src/people/sky-destroyer/2121355955-id.json",
+    "src/people/sky-destroyer/materials-sky-destroyer.md",
+    "src/people/sky-destroyer/sky-destroyer.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md"
+  ],
+  "inputs": "7fedbc4882200586807b7d971a8581aac0f93994faec5a786dd8570021edfac6",
+  "level": 1
+}

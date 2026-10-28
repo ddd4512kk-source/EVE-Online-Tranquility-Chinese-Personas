@@ -135,3 +135,15 @@
 ## 2026-10-24：SARD离开RR与天宫旧怨回帖
 
 共享[回帖摘要](../../../docs/sources/sard-rr-old-grudge-2026-10.md)保存第3、4、10、11楼及楼中楼的作者、旧怨叙述、反驳与覆盖缺口。本次已将SARD因活动不足出走、李疯子愿出4000E挽留但被拒、希尔关权限未遂与当前天宫动员之间的反差写入列传；王答答另增舰队建设与化妆品梗。未把舰队写成实际遇害，未把4000E写成已支付，也未新增RMT交易记录、处罚或战果。怯薛、彩星、希尔争论仍留共享素材，不给本人物增添无关行为。
+
+## 综合战斗画像与代表KM（2026-10-28）
+
+正式画像核[Drone Wang](https://zkillboard.com/character/2112538533/)：6166次参与击杀、常用Monitor、Lachesis、Huginn、Eagle，Monitor 1281次参与击杀支持长期指挥；老号2024-09末条记录，封号背景见正文与既有素材。[Charon1](https://zkillboard.com/character/2119928531/) 3090次参与击杀，Damnation、Astarte、Exequror Navy Issue、Claymore及Monitor常见，Monitor 140次支持其继续带队；[Drone Assist Wang](https://zkillboard.com/character/2113325965/) 679次，常用Sacrilege、Hurricane与Scimitar。各号战果不相加。
+
+主号2021-08为最高价值月，月度接口10条，[KM94451902](https://zkillboard.com/kill/94451902/) ESI原件核2021-08-11 16:34 UTC、QC-YX6星城，783攻击者，本人开Monitor参与。Charon1 2026-08最高价值月接口139条，[KM138004024](https://zkillboard.com/kill/138004024/)核2026-08-26 17:31 UTC、B6-XE8星城，636攻击者，本人开Monitor参与。月度金额为集体目标估值，不认个人独得；Monitor证明在指挥位，不推断总指挥或具体战术。
+
+对照本站关联战报：主号在Y-2ANO、FWST-8、319-3D；Charon1在X47、TN25-J、T8T-RA；Drone Assist Wang在1-SMEB。快照以角色与战报关联为准，宽窗口不额外认具体指挥职责；正文以已核两张KM写时间跨度。
+
+## RR末期与合并争论
+
+[N老板事后文章](https://forums.winterco.org/t/topic/12736)评价王答答“过于憨厚或者因为开价太高”并说RR被鸠占鹊巢；[帝国系成员专栏](https://www.bilibili.com/read/cv14779581/)推测AOM并入RR的方案得到馒头、王答答、路小兔共识。两者为各自事后评价与推测，不将报价或协议当作已查明事实。RR被帝国除名与王答答2022-01-15离开Ranger Warrior的列传原有叙述分别保留。

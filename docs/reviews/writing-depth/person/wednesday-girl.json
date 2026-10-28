@@ -1,0 +1,105 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/wednesday-girl/materials-wednesday-girl.md",
+    "src/people/wednesday-girl/wednesday-girl.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对读素材与全文，保留生产教学、压矿及作品线，新增战斗画像",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 消化与边界"
+        },
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "核读素材，生产教学、压矿与舰队经历为本人主要内容，未见须单独登记的重大争议",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 消化与边界"
+        }
+      ],
+      "noHeavyReason": "已读本人作品、互动及战斗素材；压矿、教学与舰队出勤是特色活动，未见封号、重大争议或重大指挥事件。",
+      "items": [
+        {
+          "title": "九十个号压矿",
+          "reason": "多开玩法是本人最鲜明的生产特色",
+          "note": "保留计时标题与脚本建议下的本人回复，未认定实际测速",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+            "heading": "## 消化与边界"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/wednesday-girl/wednesday-girl.md",
+            "contains": "47秒压90号矿"
+          }
+        },
+        {
+          "title": "舰队经历",
+          "reason": "长期舰队经历补足生产者形象",
+          "note": "概括多船和两场战役，只认参与与损失",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+            "heading": "## 战斗画像与战役（2026-10-27）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/wednesday-girl/wednesday-girl.md",
+            "contains": "星轨的机库不是只有矿船"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "综合战斗块补全出勤，生产与教学仍是人物开篇及结尾的主线",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/wednesday-girl.md",
+          "contains": "九十个号听起来像一支矿业集团"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/wednesday-girl/2120925108-id.json",
+    "src/people/wednesday-girl/materials-wednesday-girl.md",
+    "src/people/wednesday-girl/wednesday-girl.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "2ae59b8df94f666593030523531c430878e64955d44e133fe0fecafc93b734e5",
+  "level": 1
+}

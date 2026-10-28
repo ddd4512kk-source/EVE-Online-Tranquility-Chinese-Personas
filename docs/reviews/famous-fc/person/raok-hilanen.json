@@ -1,0 +1,29 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共3场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/raok-hilanen/raok-hilanen.md",
+    "src/people/raok-hilanen/2122530222-id.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/obe-2026/obe-2026.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/people/raok-hilanen/2122530222-id.json",
+    "src/people/raok-hilanen/materials-raok-hilanen.md",
+    "src/people/raok-hilanen/raok-hilanen.md",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md"
+  ],
+  "inputs": "6d86634c6d3a3ae315f9a74dd205676b40871bd6fc2287c9cfc8301016ac2255",
+  "level": 1
+}

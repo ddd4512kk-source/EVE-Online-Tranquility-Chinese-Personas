@@ -1,0 +1,95 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+    "src/people/ventus-zhongli/ventus-zhongli.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号常用战列与战巡，核综合统计和长期舰队成员角色。",
+      "evidence": [
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "heading": "## 战斗画像、主力号与战役复核"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核 JIU Shi 身份与 stats，未见售号，两个号累计不相加。",
+      "evidence": [
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "heading": "## 战斗画像、主力号与战役复核"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号2026年1月和小号2026年4月分别核读一张高值月参与KM，不将集体战果算作个人击杀。",
+      "evidence": [
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "heading": "## 战斗画像、主力号与战役复核"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照X47、哈拉斯、8F战报及本人角色，其他战役为一般参与，未认定具体带队。",
+      "evidence": [
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "heading": "## 战斗画像、主力号与战役复核"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立战绩块归纳舰队与主力号角色，详述X47及哈拉斯。",
+      "evidence": [
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "heading": "## 战斗画像、主力号与战役复核"
+        },
+        {
+          "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+          "contains": "他也确实上船"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/ventus-zhongli/2119086999-id.json",
+    "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+    "src/people/ventus-zhongli/ventus-zhongli.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "47716e776e479a43fb4ec7ace5857f755e06fcb210af22eb038c691404861107",
+  "level": 1
+}

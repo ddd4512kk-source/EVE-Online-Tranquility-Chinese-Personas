@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/kongli/materials-kongli.md",
+    "src/people/kongli/kongli.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人长期常用舰队船与综合击杀参与额，随队经历不归为个人战功",
+      "evidence": [
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Dust Stormhold已按同头衔同团确认，参与价值低于优先画像门槛，已有BWF参战照收；无售号记录",
+      "evidence": [
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## Dust Stormhold小号与B站账号（2026-10-16）"
+        },
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高两个月及2024-09代表KM，月额不等于个人独杀",
+      "evidence": [
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核两号BWF及主号HB战报，核HB损失时空；仅认参战",
+      "evidence": [
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增开篇后独立战绩红料，并保留译者与CEO主线",
+      "evidence": [
+        {
+          "file": "src/people/kongli/kongli.md",
+          "contains": "按zKillboard统计，Azika Gaptain参与击杀1684条"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/kongli/2113198680-id.json",
+    "src/people/kongli/kongli.md",
+    "src/people/kongli/materials-kongli.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md"
+  ],
+  "inputs": "6f52ffd74c3f77f1400caeda01d4fd87c9c8d91ff6a3affc6f2a9e981ef0c0db",
+  "level": 1
+}

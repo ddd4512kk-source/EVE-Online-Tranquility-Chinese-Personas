@@ -1,0 +1,78 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+    "src/people/dofsundabi-sun/dofsundabi-sun.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读本人招新帖、楼中战报、身份与新补战斗证据。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "contains": "66 主楼、21 楼中楼，全读"
+        },
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "招新与团友救援为人物特色，未见须判定责任的重大争议。",
+      "noHeavyReason": "已读招新主题和楼中楼，现有材料以招新、自顶、团友救援和本人战绩为主，未发现重大纠纷或独立重事件。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "contains": "66 主楼、21 楼中楼，全读"
+        }
+      ],
+      "items": [
+        {
+          "title": "养老军团招新与战报",
+          "reason": "本人持续更新招新帖并描述带团救援。",
+          "weight": "ordinary",
+          "note": "正文保留低出勤要求、搬迁、战报与长期自顶。",
+          "source": {
+            "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+            "contains": "1 楼军团介绍：约 2025-02 加入鳄鱼联盟"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/dofsundabi-sun/dofsundabi-sun.md",
+            "contains": "2026 年 7 月底，他在欧服吧开了"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留团长带团和自顶主线，新加舰队出勤作为补充。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/dofsundabi-sun.md",
+          "contains": "一个军团长，一年多把一家新人团"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/dofsundabi-sun/2116299818-id.json",
+    "src/people/dofsundabi-sun/dofsundabi-sun.md",
+    "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "e4b031ab00260e4a92bb53737679831d73192f2ecbb980fac6b60f88d573a45c",
+  "level": 1
+}

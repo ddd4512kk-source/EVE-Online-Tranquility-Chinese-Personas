@@ -1,0 +1,111 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mctimes/materials-mctimes.md",
+    "src/people/mctimes/2119942097-id.json",
+    "src/people/mctimes/mctimes.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人综合数据与常用船，监视者多次出勤认定带队，具体战役不自动认总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "监视者 typeID"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式档案没有登记主力小号或售号记录；不把尚未发现视为排除。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/2119942097-id.json",
+          "contains": "\"alts\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高价值月及两个高值月份各一张原始KM，识别欧贝昂贵目标对月度统计的贡献。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "2026 年 10 月为本次 stats"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照已存战役与本人参战关联，欧贝原始KM核实，普通命中不认具体指挥。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "2026 年 10 月为本次 stats"
+        },
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "2026-04-12 SR-KBB参战"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后综合战绩红料写长期带队及乌特拉、欧贝、SR-KBB经历，保留护航争议。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/mctimes.md",
+          "contains": "小夹子在混沌不只是讨论规则的人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mctimes/2119942097-id.json",
+    "src/people/mctimes/materials-mctimes.md",
+    "src/people/mctimes/mctimes.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/arzad-2025/arzad-2025.json",
+    "src/battles/arzad-2025/arzad-2025.md",
+    "src/battles/arzad-2025/materials-arzad-2025.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/evati-2025/evati-2025.json",
+    "src/battles/evati-2025/evati-2025.md",
+    "src/battles/evati-2025/materials-evati-2025.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "12381c319236c914a642d1cbfae83fe513cde2d0f1b06111955c9defe6c2711e",
+  "level": 1
+}

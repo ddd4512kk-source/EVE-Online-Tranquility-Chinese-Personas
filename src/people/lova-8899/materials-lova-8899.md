@@ -58,3 +58,9 @@ GM Banquet太空舱123716562／125320177、CCP Lumi奥苏斯125320102、CCP Bee�
 - [EVE2025年欧服与国服对比](https://www.bilibili.com/video/BV1Mc91YEERE/)（BV1Mc91YEERE，频道列表记录播放 22492）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
 - [EVE入门-新手矿工教程](https://www.bilibili.com/video/BV1Xw4m1Q7GB/)（BV1Xw4m1Q7GB，频道列表记录播放 14939）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
 - [EVE新手气云采集入门教程](https://www.bilibili.com/video/BV1YH4y1u7LR/)（BV1YH4y1u7LR，频道列表记录播放 11616）：入选本轮B站作品精选；选择依据为本人频道公开标题及已有播放计数。
+
+## 综合画像与代表KM（2026-10-28）
+
+[角色统计](https://zkillboard.com/character/2122318173/)1586次参与击杀、645次损失、116次单杀；Catalyst Navy Issue、Exequror Navy Issue、Raven、Osprey Navy Issue常见。身份档案无已确认小号；不把未搜索当不存在。最高价值月2025-03约107.4B为共同击杀目标估值。
+
+2025年3月接口返回最近200条，样本最高[KM125422927](https://zkillboard.com/kill/125422927/)经ESI核对：2025-03-11 09:52 UTC，Vlillirier，45人参与击毁Phoenix Navy Issue，本人开Gila参与。样本不代表整月全部。BWF-ZZ 2025年完整缓存核得两张本人参与记录：[KM126080135](https://zkillboard.com/kill/126080135/)与[KM126083185](https://zkillboard.com/kill/126083185/)，4月5日14:33和15:52 UTC均在BWF-ZZ，本人驾驶Malediction参与攻击Rokh。战报的联盟字段为零，不强判阵营；作者评论自述海盗团与鹏鲲见前文，未把评论强配此战。

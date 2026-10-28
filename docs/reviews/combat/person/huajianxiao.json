@@ -1,0 +1,90 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/huajianxiao/materials-huajianxiao.md",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/people/huajianxiao/huajianxiao.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号常规舰队经历已参考 stats，船型列表受限，未把缺失项解释成未出勤。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核身份档案与高值主力 LZ-PPHV，不合并各号统计；其余低活跃号不逐一扩查，独立词根待核。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 2026-10-12续查：PPHV归并与其余三号雇佣链"
+        },
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主力号 2023 年 12 月高值，哈拉斯神示 KM 已核角色、船型及时间，仅作参与。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照三个关联战役；正文采用哈拉斯和欧塔萨塞，以同人合并，不推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        },
+        {
+          "file": "src/battles/haras-2023/haras-2023.md",
+          "contains": "2023年12月21日"
+        },
+        {
+          "file": "src/battles/otsasai-2021/otsasai-2021.md",
+          "contains": "2021 年 8 月 11 日"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立红料把跟队、号组和两场冲突连回人物原先的叶落主线。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/huajianxiao.md",
+          "contains": "这一串号也留下了跟队打仗的经历"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/people/huajianxiao/2115822564-id.json",
+    "src/people/huajianxiao/huajianxiao.md",
+    "src/people/huajianxiao/materials-huajianxiao.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md"
+  ],
+  "inputs": "4d4ac43040ae70d2126cb1cd083cfcd1b21c209cdb2873e59b97539f94c2b5d0",
+  "level": 1
+}

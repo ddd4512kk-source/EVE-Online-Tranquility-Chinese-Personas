@@ -1,0 +1,42 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共6场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/zrxzhh/zrxzhh.md",
+    "src/people/zrxzhh/2122520286-id.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.json"
+  ],
+  "dependencies": [
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/people/zrxzhh/2122520286-id.json",
+    "src/people/zrxzhh/materials-zrxzhh.md",
+    "src/people/zrxzhh/zrxzhh.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "03051310e43a7941db7aef505c5e25da16e3cf571d717a790d4f06f93f52fad1",
+  "level": 1
+}

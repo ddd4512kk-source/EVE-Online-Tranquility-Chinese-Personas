@@ -1,0 +1,22 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、NC、军团管理、新人教官。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人。未复核本文其他内容。",
+  "evidence": [
+    "src/people/reimu-suzumiya/reimu-suzumiya.md",
+    "src/people/reimu-suzumiya/2118143751-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/foxor-management-2026-10-15.md",
+    "src/people/reimu-suzumiya/2118143751-id.json",
+    "src/people/reimu-suzumiya/materials-reimu-suzumiya.md",
+    "src/people/reimu-suzumiya/reimu-suzumiya.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+  ],
+  "inputs": "1313be26303a19323a4ddb9b8cb752441f88ce125ccb725e2701148a5a97f405",
+  "level": 1
+}

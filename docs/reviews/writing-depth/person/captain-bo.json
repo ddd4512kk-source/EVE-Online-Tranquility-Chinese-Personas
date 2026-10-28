@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/captain-bo/materials-captain-bo.md",
+    "src/people/captain-bo/captain-bo.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读全部材料及正文，CEO交接、招新与战斗经历均保留。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## CEO任期"
+        },
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 老许任内招新（贴吧）"
+        },
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "现有来源主要是本人任职与军团招新，没有已证实重大个人事件。",
+      "noHeavyReason": "通读任职和招新材料，旧脚本指控早于本人入团，不归其任内；未见重大本人争议。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 老许任内招新（贴吧）"
+        },
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 旧指控归属"
+        }
+      ],
+      "items": [
+        {
+          "title": "红楼招新",
+          "reason": "任内公开招新与新人获款",
+          "note": "保留公告、招新要求和新人的实际体验，不冒认款项由本人支付。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/captain-bo/materials-captain-bo.md",
+            "heading": "## 老许任内招新（贴吧）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/captain-bo/captain-bo.md",
+            "contains": "红楼广告主打直爽"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "招新与接任是人物主线，舰队经历补充实际玩法。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/captain-bo.md",
+          "contains": "红楼广告里既有利润"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/corp-activity-2022-01.md",
+    "src/people/captain-bo/96638675-id.json",
+    "src/people/captain-bo/captain-bo.md",
+    "src/people/captain-bo/materials-captain-bo.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "c9d9979c4b48e6bc431bdffd7ebbcf03a733529fefd95bde269437c1d877b15c",
+  "level": 1
+}

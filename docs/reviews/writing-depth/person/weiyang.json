@@ -1,0 +1,103 @@
+{
+  "status": "reviewed",
+  "note": "核对常用船、高值月份及战役边界，保留原交易故事。",
+  "evidence": [
+    "src/people/weiyang/materials-weiyang.md",
+    "src/people/weiyang/weiyang.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核错价、法律对线、隐私争议与反诈骗事迹，均入文。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "一我是商人，需要信誉"
+        },
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "进入诈骗者建筑秒接合同跳走抢出脑浆"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "错价与后续争议贯穿三节，双方解释及法律争论均保留。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "FRT 职业卡商在中文频道将 5000 PLEX 以 14.9 亿挂给 BOP"
+        }
+      ],
+      "items": [
+        {
+          "title": "月卡误标价及后续争议",
+          "weight": "heavy",
+          "reason": "错误报价引发交易、联盟纠纷、法律争辩与隐私争议，是人物主线。",
+          "source": {
+            "file": "src/people/weiyang/materials-weiyang.md",
+            "contains": "FRT 职业卡商在中文频道将 5000 PLEX 以 14.9 亿挂给 BOP"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/weiyang/weiyang.md",
+            "contains": "未央挂了合同，标价 14.9 亿 ISK"
+          },
+          "note": "错价、买家回应、联盟账户结局及双方后续说法均展开。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "报价少一位并承认失误。",
+              "evidence": {
+                "file": "src/people/weiyang/weiyang.md",
+                "contains": "我挂的10张卡并且是一张卡的价格"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "讲信誉和法律，遭到吧友质疑。",
+              "evidence": {
+                "file": "src/people/weiyang/weiyang.md",
+                "contains": "服务器在伦敦的游戏上"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "双方对联系方式和协调经过各执一词。",
+              "evidence": {
+                "file": "src/people/weiyang/weiyang.md",
+                "contains": "双方连公开的到底是什么，都没讲成同一版"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "原争议主线充分保留，战绩补充不挤占原事件。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/weiyang.md",
+          "contains": "未央挂了合同，标价 14.9 亿 ISK"
+        },
+        {
+          "file": "src/people/weiyang/weiyang.md",
+          "contains": "半个月后，2022 年 4 月 8 日"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/community-br-review-2026-10-12.md",
+    "src/people/weiyang/2114909279-id.json",
+    "src/people/weiyang/materials-weiyang.md",
+    "src/people/weiyang/weiyang.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+  ],
+  "inputs": "f8d0b4cb14d9d3418a996a5c6f66fbd9deac3130b58d4740e9a5c70ecf121ac2",
+  "level": 1
+}

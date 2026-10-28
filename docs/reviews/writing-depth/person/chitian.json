@@ -1,0 +1,268 @@
+{
+  "status": "reviewed",
+  "note": "对照日记、军团纠纷、赔偿、百税及雇佣海盗，逐项核正文发挥与来源。",
+  "evidence": [
+    "src/people/chitian/materials-chitian.md",
+    "docs/leads/tieba-corp-diaries.md",
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/chitian/chitian.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照日记、三百亿争议、荣耀道歉和百税、台风专栏、海盗与泰坦、军团简介和战斗画像；会议仅题名未读，不套入事件。 2026-10-29复读新增粉魔爪块与日记归属，已入文。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "### 素材与证据边界"
+        },
+        {
+          "file": "docs/leads/tieba-corp-diaries.md",
+          "contains": "#12 本人接手新人换团"
+        },
+        {
+          "file": "docs/sources/kzu-kunlun-2026-07.md",
+          "contains": "初判昆仑赔30B"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐项核重事件的人物行为、对方回应和影响；台风文章具对立立场，个别指控按其立场写。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "### B 站专栏与天宫"
+        },
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "### 雇 OSY 与泰坦"
+        }
+      ],
+      "items": [
+        {
+          "title": "昆仑三百亿赔偿争议",
+          "reason": "军团生产事故升级为联盟仲裁，涉及30B罚款、29B退款与老板本人回应",
+          "note": "从事故、双倍赔偿喜报到时间线争议和退款；双方先后说法与剪辑指控保留各自主体。",
+          "weight": "heavy",
+          "source": {
+            "file": "docs/sources/kzu-kunlun-2026-07.md",
+            "contains": "初判昆仑赔30B"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chitian/chitian.md",
+            "contains": "2026 年 7 月 3 日，KZU 的马克瑞队"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "先交代生产碰撞和初判",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "随后把生产事故送进联盟外交"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "本人说先到与团内第二处复盘不一致",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "老板说先到，成员复盘第二波说后到"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "仲裁按上限处理并退款",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "按 1B 上限处理，退还 29B"
+              }
+            }
+          ]
+        },
+        {
+          "title": "极端荣耀与KZU冲突和百税",
+          "reason": "持续半年、友军交火、主权禁令与全团百税直接影响军团",
+          "note": "保留荣耀道歉与禁令通报、群内百税原话及成员反应，通报时间不冒充禁令生效日期。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/chitian/materials-chitian.md",
+            "contains": "荣耀《公开道歉声明》"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chitian/chitian.md",
+            "contains": "9 月 25 日晚，炽天在群里"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "禁刷环境和老板召集上线",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "炽天在群里 @全体成员"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "管理希望约束部分人，却提高全团税率",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "直到事件解决"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "成员贴流水、管理解释持续违规",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "军团奖励税"
+              }
+            }
+          ]
+        },
+        {
+          "title": "雇佣OSY与荣耀泰坦",
+          "reason": "蓝加冲突扩大到雇佣外部海盗和泰坦损失，影响双方关系",
+          "note": "交代群友前因、舵主公开说法、KM与两方雇佣的后果，不把截图转述写作本人亲口承认。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/chitian/materials-chitian.md",
+            "contains": "KZU 雇 OSY（重"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chitian/chitian.md",
+            "contains": "台风专栏里那条"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代之前的争执和对海盗基地的报复",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "荣耀](../1664583033/)随即带队去 OSY 本地"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "联盟友军纷争变成海盗客户",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "帝国里两家蓝加吵了半年"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "OSY宣布受雇及双方出资，泰坦损失记录",
+              "evidence": {
+                "file": "src/people/chitian/chitian.md",
+                "contains": "要求 OSY 为其复仇"
+              }
+            }
+          ]
+        },
+        {
+          "title": "粉魔爪建团日记",
+          "reason": "本人经营第二军团，有新人、资源与组织压力的独立故事",
+          "note": "写共同起步受挫、新人接手、一周后勤、新人反应、回收池和招FC，保留其期望团能自主运转。",
+          "weight": "ordinary",
+          "source": {
+            "file": "docs/leads/tieba-corp-diaries.md",
+            "contains": "#12 本人接手新人换团"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chitian/chitian.md",
+            "contains": "白魔爪之外，炽天还有一支粉魔爪骑士团"
+          }
+        },
+        {
+          "title": "台风十四条对立方整理",
+          "reason": "对立方集中列举多项军团矛盾，与本人履历、群体行为相互牵连",
+          "note": "保留作者身份、不同说法和具体指控，三百亿和雇佣OSY另按重料展开；未经独立核实的不归成本人实锤。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/chitian/materials-chitian.md",
+            "contains": "台风《KZU粉色魔爪军团持续性公关危机事件始末》"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chitian/chitian.md",
+            "contains": "2026 年 9 月 27 日，"
+          }
+        },
+        {
+          "title": "战斗与指挥边界",
+          "reason": "长期战斗为人物玩法，非本人担任FC的证据",
+          "note": "综合战斗画像及R-AG7W采用；不以普通参与冒充指挥。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/chitian/materials-chitian.md",
+            "contains": "2026-10-28查得主力小号"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chitian/chitian.md",
+            "contains": "的炮口从低安一直伸到 00"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "粉魔爪经营与KZU冲突构成主线，三百亿、百税和雇佣海盗各有因果与后果，战绩不压过人物事件。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/chitian.md",
+          "contains": "::: 黑料 昆仑三百亿"
+        },
+        {
+          "file": "src/people/chitian/chitian.md",
+          "contains": "::: 红料 粉魔爪从空壳里长出来"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/leads/tieba-corp-diaries.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/chitian/2120421439-id.json",
+    "src/people/chitian/chitian.md",
+    "src/people/chitian/materials-chitian.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "f1a60e93b45cd5d66fbf34555c270e5ddc94807d8fa6437febd23c3b7d9c55df",
+  "level": 1
+}

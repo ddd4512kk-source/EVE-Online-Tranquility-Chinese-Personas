@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级：沿用已有FC身份依据；按正式战役统计合并本人主号及已确认小号，共1场大型或史诗战役（同场去重、排除正文点名），未达到10场门槛，改回FC。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/guangtou-qiang/guangtou-qiang.md",
+    "src/people/guangtou-qiang/2112829674-id.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/people/guangtou-qiang/2112829674-id.json",
+    "src/people/guangtou-qiang/guangtou-qiang.md",
+    "src/people/guangtou-qiang/materials-guangtou-qiang.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "ed49c020dbf6f47f3f02b4cc82d3c2f0cc32db3375971df597838fac5c1a843b",
+  "level": 1
+}

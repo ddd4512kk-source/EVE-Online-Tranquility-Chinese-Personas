@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/da-dong/materials-da-dong.md",
+    "src/people/da-dong/da-dong.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号 stats 及常用舰船已核，主要为舰队成员。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/materials-da-dong.md",
+          "heading": "## 战斗画像与TN25-J"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已查主力 DONG DA、Hi Life，两号分别计算，余下号码复用身份档案。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/materials-da-dong.md",
+          "heading": "## 多开客户端小号（2026-10-22）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核收录号和主要小号各自高值月样本，舱体未认作战斗舰。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/materials-da-dong.md",
+          "heading": "## 战斗画像与TN25-J"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核 DONG DA 在TN25-J快照及组织，按普通参战处理。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/materials-da-dong.md",
+          "contains": "本站快照中"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首块新增综合舰队画像及TN25-J，保留教程和招新主线。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/da-dong.md",
+          "contains": "东东给新人讲怎样跟舰队"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/da-dong/2114195714-id.json",
+    "src/people/da-dong/da-dong.md",
+    "src/people/da-dong/materials-da-dong.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "62cdcf1461c46047cb15bb974071ca96f114f3f429623b011449046d11f74621",
+  "level": 1
+}

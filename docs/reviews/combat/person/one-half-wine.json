@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "核对材料与正文，记录逐项判断及采用边界。",
+  "evidence": [
+    "docs/bilibili/24773167.json",
+    "src/people/one-half-wine/materials-one-half-wine.md",
+    "src/people/one-half-wine/one-half-wine.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核当前KB、主力船与本人作品，不将集体战果当单杀。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/materials-one-half-wine.md",
+          "heading": "## 身份与游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "无新增确认小号；未命中收录号的简介KM不强归本人。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/materials-one-half-wine.md",
+          "heading": "## 身份与游戏画像"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核月峰与代表KM，分清建筑、旗舰和日常单收。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/materials-one-half-wine.md",
+          "heading": "## 高值月份与已有战役"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照既有战役命中与损失，不由普通参战推总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/materials-one-half-wine.md",
+          "heading": "## 高值月份与已有战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文以工种、玩法与具体战役写人。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/one-half-wine.md",
+          "contains": "颜红的老本行是低安单收"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/24773167.json",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/one-half-wine/2113409073-id.json",
+    "src/people/one-half-wine/materials-one-half-wine.md",
+    "src/people/one-half-wine/one-half-wine.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "ca3f30641e2507af0000996a46e450a893c4a6521943b8af598d4ec1f7b4914a",
+  "level": 1
+}

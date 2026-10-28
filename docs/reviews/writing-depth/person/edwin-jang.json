@@ -1,0 +1,146 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/edwin-jang/materials-edwin-jang.md",
+    "src/people/edwin-jang/edwin-jang.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读招新记录、返卡投诉、技能清退和本人战斗资料。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "heading": "## 狂野张狂人 / Edwin Jang"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重点核两项独立新人管理争议。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "contains": "返卡纠纷的事实边界"
+        },
+        {
+          "file": "src/people/edwin-jang/materials-edwin-jang.md",
+          "contains": "技能门槛清退与询问联盟拉黑"
+        }
+      ],
+      "items": [
+        {
+          "title": "邀请链接返卡纠纷",
+          "weight": "heavy",
+          "reason": "军团CEO治下新人待遇与后果，是本人物主要管理争议。",
+          "note": "保留具体经过、人物反应与结果，未将一方指控扩大。",
+          "source": {
+            "file": "src/people/edwin-jang/materials-edwin-jang.md",
+            "contains": "返卡纠纷的事实边界"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/edwin-jang/edwin-jang.md",
+            "contains": "2026 年 4 月，一位刚从国服过来的新人"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "新人注册入团并等返卡。",
+              "evidence": {
+                "file": "src/people/edwin-jang/edwin-jang.md",
+                "contains": "用狂野给的邀请链接注册"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "带新人招牌与受投诉并列。",
+              "evidence": {
+                "file": "src/people/edwin-jang/edwin-jang.md",
+                "contains": "把“带新人”写进招新帖"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "他人代转，楼里追问。",
+              "evidence": {
+                "file": "src/people/edwin-jang/edwin-jang.md",
+                "contains": "当场给苦主转了 3 亿"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "技能清退与询问拉黑",
+          "weight": "heavy",
+          "reason": "军团CEO治下新人待遇与后果，是本人物主要管理争议。",
+          "note": "保留具体经过、人物反应与结果，未将一方指控扩大。",
+          "source": {
+            "file": "src/people/edwin-jang/materials-edwin-jang.md",
+            "contains": "技能门槛清退与询问联盟拉黑"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/edwin-jang/edwin-jang.md",
+            "contains": "招新时，新人是军团未来"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "要求新人技能达标。",
+              "evidence": {
+                "file": "src/people/edwin-jang/edwin-jang.md",
+                "contains": "狂野按作战要求检查新人技能"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "招新后又试图影响下一家接收。",
+              "evidence": {
+                "file": "src/people/edwin-jang/edwin-jang.md",
+                "contains": "自己不收，最好别人也别收"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "先清退后询问联盟拉黑。",
+              "evidence": {
+                "file": "src/people/edwin-jang/edwin-jang.md",
+                "contains": "向 DC管理 探询拉黑的可能"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "人物招新、作战及管理争议均保留。",
+      "evidence": [
+        {
+          "file": "src/people/edwin-jang/edwin-jang.md",
+          "contains": "狂野张狂人从手游一路把"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/edwin-jang/2117652442-id.json",
+    "src/people/edwin-jang/edwin-jang.md",
+    "src/people/edwin-jang/materials-edwin-jang.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "c6c7ff53fcedc72d21a4db4f3c64d4bda0b37bc0df44cca236b1e5cd9d20fe35",
+  "level": 1
+}

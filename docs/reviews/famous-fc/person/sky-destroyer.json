@@ -1,0 +1,31 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共3场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/sky-destroyer/sky-destroyer.md",
+    "src/people/sky-destroyer/2121355955-id.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/lantorn-2025/lantorn-2025.json"
+  ],
+  "dependencies": [
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/people/sky-destroyer/2121355955-id.json",
+    "src/people/sky-destroyer/materials-sky-destroyer.md",
+    "src/people/sky-destroyer/sky-destroyer.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md"
+  ],
+  "inputs": "5f038bc8251763093096dff3bba01be4401c1dc3cbe8d088debbd24afd9ae7b4",
+  "level": 1
+}

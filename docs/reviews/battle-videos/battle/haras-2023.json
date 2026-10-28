@@ -1,0 +1,43 @@
+{
+  "status": "needs-work",
+  "note": "已执行全站不足5日窗口扫描：本场32条候选，其中未推荐29条、大战主题高概率6条、仅频道卡片待取得简介29条。未点名星系或缺主题词不提前排除。继续用candidates haras-2023分页核简介、实际BR时期地点及原视角；数量是候选关系，不代表已逐条核定或没有其他作品。",
+  "evidence": [
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "docs/bilibili/9468015.json",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/393683258.json",
+    "docs/bilibili/3546578402937415.json",
+    "docs/bilibili/299085813.json",
+    "docs/bilibili/10126340.json",
+    "docs/bilibili/26324187.json",
+    "docs/bilibili/16356876.json",
+    "docs/bilibili/2250709.json",
+    "docs/bilibili/3546932.json",
+    "docs/bilibili/7164952.json",
+    "docs/bilibili/396322447.json",
+    "docs/bilibili/550611.json",
+    "docs/bilibili/457387123.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/10126340.json",
+    "docs/bilibili/16356876.json",
+    "docs/bilibili/2250709.json",
+    "docs/bilibili/26324187.json",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/299085813.json",
+    "docs/bilibili/3546578402937415.json",
+    "docs/bilibili/3546932.json",
+    "docs/bilibili/393683258.json",
+    "docs/bilibili/396322447.json",
+    "docs/bilibili/457387123.json",
+    "docs/bilibili/550611.json",
+    "docs/bilibili/7164952.json",
+    "docs/bilibili/9468015.json",
+    "src/_data/entityNames.json",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md"
+  ],
+  "inputs": "8423ec4d21925967206cf5cc8867077648d0b67f13dd1523ef44be7c2097f722",
+  "level": 0
+}

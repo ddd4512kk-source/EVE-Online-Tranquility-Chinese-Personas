@@ -1,0 +1,68 @@
+{
+  "status": "reviewed",
+  "note": "画像、小号边界、高值月份、战役与正文采用逐项核读",
+  "evidence": [
+    "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+    "src/people/emmadag-saraki/emmadag-saraki.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "正式画像已核简介全文为空、无挂KM；综合统计与常用船显示小队及航母出勤，非FC依据。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核卖方角色卡与群昵称衔接；用途小号未具名，创建者不凭同团认同人，没有已对应主力小号可扩查。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+          "heading": "## 小号与论坛"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核最高击杀月份2.5B、损失月份7.1B与总计17.8B；无具体大战入口，不追加逐月KM扫描。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+          "heading": "## 高值月份与战役对照"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "现有战役按本人和军团ID查无命中；不声称其从未参加大仗，不另造大会战经历。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/materials-emmadag-saraki.md",
+          "heading": "## 高值月份与战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文红料综合小队与航母玩法，未逐场列KB，RMT仍为全文主线。 2026-10-29复核：本次只改黑料段尾与封号叙事，战斗画像、峰值与战役引用未变。",
+      "evidence": [
+        {
+          "file": "src/people/emmadag-saraki/emmadag-saraki.md",
+          "contains": "他的战斗记录横跨RR"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/hydra-root-rmt-2019.md",
+    "src/people/emmadag-saraki/2114915480-id.json",
+    "src/people/emmadag-saraki/emmadag-saraki.md",
+    "src/people/emmadag-saraki/materials-emmadag-saraki.md"
+  ],
+  "inputs": "48c27114efc327da440f782b5d89232d095cade78ae2b4ac111aa708473b03d6",
+  "level": 1
+}

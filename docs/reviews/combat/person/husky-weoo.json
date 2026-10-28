@@ -1,0 +1,106 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/husky-weoo/materials-husky-weoo.md",
+    "src/people/husky-weoo/2123311408-id.json",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md",
+    "src/people/husky-weoo/husky-weoo.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人累计、常用舰船和作战角色，按普通跟队者写入。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/materials-husky-weoo.md",
+          "contains": "常用乌鸦、狂热"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式身份档案未登记小号或售号记录，不扩大为排除其他号。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/2123311408-id.json",
+          "contains": "\"alts\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高价值月列表有截断，以ESI原件核一张代表旗舰击杀。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/materials-husky-weoo.md",
+          "contains": "代表 [KM 130889227]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "查已有战役本人命中及身份与相关材料，采用Y-MPWL飓风队和埃加奥乌鸦，不推定本人指挥。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/materials-husky-weoo.md",
+          "contains": "Y-MPWL 的飓风队"
+        },
+        {
+          "file": "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md",
+          "contains": "哈威（Chaos arbiter"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后写综合战绩独立红料，两个代表战役并保留清蹭子争论。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/husky-weoo.md",
+          "contains": "哈威这个自称摸鱼的号"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md",
+    "src/people/husky-weoo/2123311408-id.json",
+    "src/people/husky-weoo/husky-weoo.md",
+    "src/people/husky-weoo/materials-husky-weoo.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md"
+  ],
+  "inputs": "d36c96bef362ae9601da625e9b039fd122c39b1ea94068024e0c625f3f1d6662",
+  "level": 1
+}

@@ -1,0 +1,27 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 FRT、低安、RMT、脚本、军团管理、江湖恩怨。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/freakdog-otto/freakdog-otto.md",
+    "src/people/freakdog-otto/97259613-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/freakdog-otto/97259613-id.json",
+    "src/people/freakdog-otto/freakdog-otto.md",
+    "src/people/freakdog-otto/materials-freakdog-otto.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "6572a409d8fe3c1d352cf8ae433f28eafe40a6fa07668d52f97e06da141e1e4e",
+  "level": 1
+}

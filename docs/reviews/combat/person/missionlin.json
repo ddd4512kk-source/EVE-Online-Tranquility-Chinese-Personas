@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/missionlin/materials-missionlin.md",
+    "src/people/missionlin/missionlin.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "综合记录及常用舰队船核对；任务玩法与跟队经历并存，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/materials-missionlin.md",
+          "heading": "### 战斗画像与代表战斗（2026-10-27）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式身份档案无已确认小号；未将同队角色认作同人或合并战绩。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/materials-missionlin.md",
+          "heading": "### 战斗画像与代表战斗（2026-10-27）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026-10最高月与征服者及两条泰坦KM，仅写本人在攻击名单，不将整月累计视为一场战果。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/materials-missionlin.md",
+          "heading": "### 战斗画像与代表战斗（2026-10-27）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核1N战报角色及组织、欧贝本人KM时间与星系；均按参战叙述，不造指挥和具体操作。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/materials-missionlin.md",
+          "heading": "### 战斗画像与代表战斗（2026-10-27）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩集中成开篇后独立红料，连同1N与欧贝两场经历，保留任务教学与招新主线。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/missionlin.md",
+          "contains": "可他并不只是个刷任务、挖矿的老实人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/missionlin/2119009927-id.json",
+    "src/people/missionlin/materials-missionlin.md",
+    "src/people/missionlin/missionlin.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+  ],
+  "inputs": "b863398114a9a28a53fc1f32433e7ac487618a95fcd9094821aaba63d0385baa",
+  "level": 1
+}

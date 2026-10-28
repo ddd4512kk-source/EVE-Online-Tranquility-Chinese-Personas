@@ -1,0 +1,84 @@
+{
+  "status": "reviewed",
+  "note": "已核收录号stats、2026-01代表KM、正确Monitor KM及5场本地战役；补综合画像与指挥身份，原LP争执保留。",
+  "evidence": [
+    "src/people/aba-guai/materials-aba-guai.md",
+    "src/people/aba-guai/2119615259-id.json",
+    "src/people/aba-guai/aba-guai.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号stats：3108次参与击杀、350次损失、约1.38T参与击毁；常用戴默斯、休津、爪牙及Monitor。",
+      "evidence": [
+        {
+          "file": "src/people/aba-guai/materials-aba-guai.md",
+          "contains": "参与击杀3108、损失350"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号或售号；伏羲历史榜只作团内排名，不当个人生涯。",
+      "evidence": [
+        {
+          "file": "src/people/aba-guai/2119615259-id.json",
+          "contains": "\"alts\": []"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "高值月2026-01与2024-07；代表KM132781096为本人驾驶戴默斯的集体击杀。",
+      "evidence": [
+        {
+          "file": "src/people/aba-guai/materials-aba-guai.md",
+          "contains": "代表[KM132781096]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "五场本地战役命中收录号；Monitor KM133393520支持带队身份，但X47与艾蒂斯只按参战写。",
+      "evidence": [
+        {
+          "file": "src/people/aba-guai/materials-aba-guai.md",
+          "contains": "指挥依据：另按正确Monitor type45534"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文“自己上前线，回头也管别人的账”合写综合画像与指挥身份，LP与补损争执保留。",
+      "evidence": [
+        {
+          "file": "src/people/aba-guai/aba-guai.md",
+          "contains": "::: 红料 自己上前线，回头也管别人的账"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/dsn-lp-dispute-2026.md",
+    "src/people/aba-guai/2119615259-id.json",
+    "src/people/aba-guai/aba-guai.md",
+    "src/people/aba-guai/materials-aba-guai.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "719037c038f22533fefe5ce13453982fd55ec8887d91d792717c4df86253eedc",
+  "level": 1
+}

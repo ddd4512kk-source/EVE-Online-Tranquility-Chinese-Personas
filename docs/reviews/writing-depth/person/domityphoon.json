@@ -1,0 +1,123 @@
+{
+  "status": "reviewed",
+  "note": "按收紧后的句式规则（段尾对仗、不是……而是）通读全文与搬家块：重组该块三处段尾为行动与后果，其余料块未缩；本轮新增合流安排四段与指挥位一句已审，保留全部原料块。",
+  "evidence": [
+    "src/people/domityphoon/materials-domityphoon.md",
+    "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+    "src/people/domityphoon/domityphoon.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "验收范围为本轮新增合流公告、身份依据及监视者画像一句；对照原重建自述、RMT清退段与原战绩段。旧24块及作品不删不缩；本记录不宣称重做全篇历史来源审查。 2026-10-29按新规则复读，未发现新漏料。 2026-10-29按新规则复读，未发现新漏料。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/materials-domityphoon.md",
+          "heading": "## 11月4日脱离天宫、加入创世主导WF的安排"
+        },
+        {
+          "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+          "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本轮新增一件组织经营重事，四段推进处境、福利与生产条件、具体分工和新旧反差；没有把单纯换盟拆成多条料。",
+      "evidence": [
+        {
+          "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+          "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+        }
+      ],
+      "items": [
+        {
+          "title": "离开天宫、计划转入创世主导WF及安置成员",
+          "weight": "heavy",
+          "reason": "台风本人发布日期去向和具体组织安排，延续重建天宫后的队伍经营；狂天的前后反差与实际经办角色构成跨人物事件。",
+          "source": {
+            "file": "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+            "heading": "## 11月4日脱离天宫、转入创世主导的自由之翼：执行通知"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/domityphoon/domityphoon.md",
+            "contains": "重建RR时，阿姨"
+          },
+          "note": "本次新增完整四段，原有星华、RR及天宫自述与旧料保留；未把一般转团写背信，不宣称正式入盟、福利到账或台风旧星华全团去向。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "接续原有重建RR、与牧星合天宫的自述，把新通知放回队伍再找出路的过程。",
+              "evidence": {
+                "file": "src/people/domityphoon/domityphoon.md",
+                "contains": "账本很快又添了一张搬家清单"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "刷怪生产、留人补卡和福利停发后恢复申请是经营成员的条件，非纯改旗号。",
+              "evidence": {
+                "file": "src/people/domityphoon/domityphoon.md",
+                "contains": "成员先要知道明天去哪刷"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "先放下旧仇、把福利与补贴写在最前；狂天先前骂创世如今负责搬迁。",
+              "evidence": {
+                "file": "src/people/domityphoon/domityphoon.md",
+                "contains": "旧仇骂得再响，也顶不了下周去哪刷怪"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "具体分工到狂天收单据与小号接快递，台风负责舰队联络；写已公布安排而不编执行完成。",
+              "evidence": {
+                "file": "src/people/domityphoon/domityphoon.md",
+                "contains": "连这位旧日批评家也成了搬家经办人"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留原故事重心，新块接在星华清退与重建自述之后，形成后续；不拿整篇其他旧事替代新公告发挥，新增KB仅一句职责。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/domityphoon.md",
+          "contains": "史书里的名字变了，阿姨的手艺没变"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "docs/sources/seven-sec-video-2017.md",
+    "src/people/domityphoon/2113029856-id.json",
+    "src/people/domityphoon/domityphoon.md",
+    "src/people/domityphoon/materials-domityphoon.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+  ],
+  "inputs": "d0eaedf7bdf8bcdc29ed5747e7f933e1baacee46ab84f886378919daba584b4c",
+  "level": 1
+}

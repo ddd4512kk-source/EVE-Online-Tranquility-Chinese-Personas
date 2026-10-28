@@ -1,0 +1,38 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、军团管理、新人教官、江湖恩怨。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/dennisqqt/dennisqqt.md",
+    "src/people/dennisqqt/2112891500-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/dennisqqt/2112891500-id.json",
+    "src/people/dennisqqt/dennisqqt.md",
+    "src/people/dennisqqt/materials-dennisqqt.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "7099e6a94881d95aa319338e8fd14cff7efa9ddd9c55d0a69b0bff2e81f6e4d0",
+  "level": 1
+}

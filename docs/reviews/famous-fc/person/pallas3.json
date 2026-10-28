@@ -1,0 +1,30 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共3场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/pallas3/pallas3.md",
+    "src/people/pallas3/2122554826-id.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json"
+  ],
+  "dependencies": [
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/people/pallas3/2122554826-id.json",
+    "src/people/pallas3/materials-pallas3.md",
+    "src/people/pallas3/pallas3.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md"
+  ],
+  "inputs": "56975e318d847654a310e1aebc77aa16a0f0e28acbed3433bac22cceddf1f828",
+  "level": 1
+}

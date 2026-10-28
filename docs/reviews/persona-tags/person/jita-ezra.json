@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、CEO、RMT、FC。沿用此前判断：RMT永封有具体人物链，脚本只有九州整体旧名声，撤脚本。未复核本文其他内容。",
+  "evidence": [
+    "src/people/jita-ezra/jita-ezra.md",
+    "src/people/jita-ezra/2114511818-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/yao-guang-history.md",
+    "src/people/jita-ezra/2114511818-id.json",
+    "src/people/jita-ezra/jita-ezra.md",
+    "src/people/jita-ezra/materials-jita-ezra.md"
+  ],
+  "inputs": "174cb07923a1bff7076072bf653ccdf317b885c11d7b4fdb2f393e4a9aa7d564",
+  "level": 1
+}

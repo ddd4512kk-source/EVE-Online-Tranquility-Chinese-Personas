@@ -1,0 +1,75 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/captain-bo/materials-captain-bo.md",
+    "src/people/captain-bo/captain-bo.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核综合 stats、舰队活动与代表 KM 舰型；暂未发现明确指挥职责。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式身份档案没有已确认小号，材料其他角色线索待查，不将其他角色归本人。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2026年4月最高值月121条，核其中两张本人驾驶战列舰的建筑战记录。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "欧加仑战场和4月21日星城 KM 时空一致，本人参加，不当成个人摧毁或指挥。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立块讲舰队成员与红楼招新作战要求的关系。",
+      "evidence": [
+        {
+          "file": "src/people/captain-bo/materials-captain-bo.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        },
+        {
+          "file": "src/people/captain-bo/captain-bo.md",
+          "contains": "红楼招新人先问有没有作战意愿"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/corp-activity-2022-01.md",
+    "src/people/captain-bo/96638675-id.json",
+    "src/people/captain-bo/captain-bo.md",
+    "src/people/captain-bo/materials-captain-bo.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "c9d9979c4b48e6bc431bdffd7ebbcf03a733529fefd95bde269437c1d877b15c",
+  "level": 1
+}

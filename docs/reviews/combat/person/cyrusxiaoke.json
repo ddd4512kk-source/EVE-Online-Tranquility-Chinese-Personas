@@ -1,0 +1,92 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+    "src/people/cyrusxiaoke/2120938298-id.json",
+    "src/people/cyrusxiaoke/cyrusxiaoke.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人统计和监视者大量出勤；社区已有FC点名，8F原件确认本场带队。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+          "contains": "监视者 typeID 45534"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式档案未登记小号或售号记录，未据此排除其他号。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/2120938298-id.json",
+          "contains": "\"alts\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026年4月高值月与两张ESI原始KM，月列表有200条截断。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+          "contains": "2026 年 4 月高值月目标约 780B"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核8F指挥与M-MD31普通参战，BWF分方与身份历史冲突已留待核，不入文。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+          "contains": "8F-TK3 的 [138909256]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后战绩红料描述长期带队，8F具体指挥及M-MD31战场；保留原争论。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/cyrusxiaoke.md",
+          "contains": "小可的纪念册里贴着第一颗蛋"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/cyrusxiaoke/2120938298-id.json",
+    "src/people/cyrusxiaoke/cyrusxiaoke.md",
+    "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "32f86a8f4cf27d7f2e91675cfaee7c6c246f901e5f84ca35037c7c3aacc583b1",
+  "level": 1
+}

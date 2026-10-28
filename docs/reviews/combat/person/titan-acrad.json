@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/titan-acrad/materials-titan-acrad.md",
+    "src/people/titan-acrad/titan-acrad.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已对照主号常用船及综合击杀，属于长期舰队成员。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "heading": "## 2026-10-28 战斗画像复核"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核实 Acrad04 同人、常用船与峰值，两号不加总；未见售号材料。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "heading": "## 角色与账号"
+        },
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "contains": "主力小号 Titan Acrad04"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2025年11月两号最高月样本同列；只认参与。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "contains": "最高值月抽样"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核对4-H 参战，另有欧贝手填和X47小号关联；相关战役不认本人指挥。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "contains": "已有战役对照：4-H"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后综合战绩并列夜神与常规舰队，另保留造船和超旗损失。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/titan-acrad.md",
+          "contains": "Acrad 的船舱里不止那条"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/titan-acrad/2115711763-id.json",
+    "src/people/titan-acrad/materials-titan-acrad.md",
+    "src/people/titan-acrad/titan-acrad.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "5309b3808ba5350dca674bd153c8db829b9ad407fab4113beccae4a2c2215a2a",
+  "level": 1
+}

@@ -1,0 +1,60 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mahola-dian/materials-mahola-dian.md",
+    "src/people/mahola-dian/mahola-dian.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人素材与全文，保留刷怪教学、战斗投稿和成本观点。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 综合画像与萨托加斯（2026-10-28）"
+        },
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 已读与未读"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "既有素材主要为教学、战斗记录和作者评论。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 综合画像与萨托加斯（2026-10-28）"
+        }
+      ],
+      "noHeavyReason": "没有重大本人争议或决定性个人行动，普通跟队战斗及视频评论已写入。",
+      "items": []
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩块与原有教学、成本讨论并列，保留作品精选。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/mahola-dian.md",
+          "contains": "Ghost与加里的作战履历"
+        },
+        {
+          "file": "src/people/mahola-dian/mahola-dian.md",
+          "contains": "他又发了[K-IYNW狂热会战]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mahola-dian/2120624679-id.json",
+    "src/people/mahola-dian/mahola-dian.md",
+    "src/people/mahola-dian/materials-mahola-dian.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "c2ea03abe8c565c6adf3070022ef610aaa9f6ac93681b87c91e91fc985999699",
+  "level": 1
+}

@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/seven-sec/materials-seven-sec.md",
+    "src/people/seven-sec/seven-sec.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照台风回忆、视频文字和KB，保留擅长与失败两面。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "七秒擅长剧本、小队战"
+        },
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "J-TPTA 快照与材料确认本人"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "星华小队战及训练失利是同一段指挥经历。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "七秒擅长剧本、小队战"
+        }
+      ],
+      "noHeavyReason": "素材为小队战技能与训练失败的回忆，未发现另有独立重大事件。",
+      "items": [
+        {
+          "title": "星华小队战与练兵",
+          "weight": "ordinary",
+          "reason": "本人指挥、台风学习与队员能力构成人物主线。",
+          "source": {
+            "file": "src/people/seven-sec/materials-seven-sec.md",
+            "contains": "七秒擅长剧本、小队战"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/seven-sec/seven-sec.md",
+            "contains": "台风在[《RR 游骑兵简史》]"
+          },
+          "note": "正反两块保留擅长、学习、失败与后来AFK。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "综合画像放在开篇后，失败剧本保留独立黑料与结语。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/seven-sec.md",
+          "contains": "据台风回忆，七秒的剧本"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/seven-sec-video-2017.md",
+    "src/people/seven-sec/2112509132-id.json",
+    "src/people/seven-sec/materials-seven-sec.md",
+    "src/people/seven-sec/seven-sec.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "c64044ca4a5b0f89302988f8a1aee770697f14661f605b2923c8a8bb05091d97",
+  "level": 1
+}

@@ -1,0 +1,97 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/leoheyhey3/materials-leoheyhey3.md",
+    "src/people/leoheyhey3/leoheyhey3.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读本人素材及整篇正文：接诉、GM互动和战斗经历各有承载；共享争议不归罪于其本人。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+          "heading": "## LP纠纷中的接诉"
+        },
+        {
+          "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+          "heading": "## 简介 KM 与战绩（2026-10-17）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本人事件是主动接诉与GM舰队交手，未见本人重大争议或其他应独立扩写的重事。",
+      "noHeavyReason": "对照本人素材与共享争议，投诉未归责本人；其他为参与和游戏经历。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+          "heading": "## 人物与职责"
+        }
+      ],
+      "items": [
+        {
+          "title": "招新帖接诉",
+          "weight": "ordinary",
+          "reason": "本人以总监身份接待投诉。",
+          "note": "以双方问答和争议背景保留经过。",
+          "source": {
+            "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+            "contains": "129Leo说"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/leoheyhey3/leoheyhey3.md",
+            "contains": "Leo要的是ID和经过"
+          }
+        },
+        {
+          "title": "与CCP舰队交手",
+          "weight": "ordinary",
+          "reason": "本人两次对战记录组成对照。",
+          "note": "保留被GM击毁与后来反击两条记录。",
+          "source": {
+            "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+            "contains": "主号简介剑齿虎"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/leoheyhey3/leoheyhey3.md",
+            "contains": "账没有白记"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇与锐评仍以接诉为主，战绩置前但不吞没管理事件。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/leoheyhey3.md",
+          "contains": "Leo这次最实在的一步"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/dsn-lp-dispute-2026.md",
+    "src/people/leoheyhey3/2122624060-id.json",
+    "src/people/leoheyhey3/leoheyhey3.md",
+    "src/people/leoheyhey3/materials-leoheyhey3.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md"
+  ],
+  "inputs": "a4419e19ccbcc67cecdb3e95a2bcd3e21c87486ccc8990410e1b6c2a046879cb",
+  "level": 1
+}

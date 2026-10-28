@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FC、CEO、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/skyendless123/skyendless123.md",
+    "src/people/skyendless123/2115060797-id.json"
+  ],
+  "dependencies": [
+    "src/people/skyendless123/2115060797-id.json",
+    "src/people/skyendless123/materials-skyendless123.md",
+    "src/people/skyendless123/skyendless123.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "da93e4c95eb2c693078b33a4da37bbd22422817190324dafed0b5ef331138ea3",
+  "level": 1
+}

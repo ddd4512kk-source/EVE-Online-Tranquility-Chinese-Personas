@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+    "src/people/tianqi-aqi/2119831838-id.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/people/tianqi-aqi/tianqi-aqi.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核总击杀、单杀、常用船和独走掠夺舰故事，综合表现为常规舰队出勤与个人游荡并行。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "heading": "## 游戏数据（profile.mjs，2026-10-09）"
+        },
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "contains": "[9098594555]"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "身份档案无已确认小号或售号，未把其他角色并入。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/2119831838-id.json",
+          "contains": "\"alts\": []"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026年7月stats与最近200条样本，最高值KM本人以太空舱记录；不将该月全部参战估值当个人功劳。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "contains": "高值月核读"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "BWF-ZZ正式快照窗口命中角色，归PH及友军；不推断指挥或具体船型。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+          "heading": "### BWF-ZZ星城攻防（2025-04-05）"
+        },
+        {
+          "file": "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+          "contains": "\"2119831838\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "将综合画像置于开篇后，加入舰队战与单走反差，原独走事迹和吐槽保留。",
+      "evidence": [
+        {
+          "file": "src/people/tianqi-aqi/tianqi-aqi.md",
+          "contains": "::: 红料 舰队照跟"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/people/tianqi-aqi/2119831838-id.json",
+    "src/people/tianqi-aqi/materials-tianqi-aqi.md",
+    "src/people/tianqi-aqi/tianqi-aqi.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "321dd6db5e4eaaf7ce6e1802d52fd16e4edf681da5c6b4f42e781b21210855df",
+  "level": 1
+}

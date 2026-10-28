@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 CONDI、低素质、江湖恩怨、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/shawn-wade/shawn-wade.md",
+    "src/people/shawn-wade/2115855515-id.json"
+  ],
+  "dependencies": [
+    "src/people/shawn-wade/2115855515-id.json",
+    "src/people/shawn-wade/materials-shawn-wade.md",
+    "src/people/shawn-wade/shawn-wade.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "bad2df946be92d84309408e01af356b04d55c0e45cd8fbe7c41e82dd0b8534d5",
+  "level": 1
+}

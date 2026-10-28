@@ -1,0 +1,102 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/husky-weoo/materials-husky-weoo.md",
+    "src/people/husky-weoo/husky-weoo.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐段对照退团争论及战斗素材，未有另一个未写重事件。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/materials-husky-weoo.md",
+          "contains": "该帖老兰州55批石头"
+        },
+        {
+          "file": "src/people/husky-weoo/materials-husky-weoo.md",
+          "contains": "Y-MPWL 的飓风队"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "清蹭LP等待争论为双方普通争议，保留行为理由和退团者反问。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/materials-husky-weoo.md",
+          "contains": "该帖老兰州55批石头"
+        }
+      ],
+      "noHeavyReason": "本人主要资料是LP清人等待争执，未有更重的独立事件或责任证据。",
+      "items": [
+        {
+          "title": "末球清蹭与等待争论",
+          "weight": "ordinary",
+          "reason": "本人连续回应并面对退团者追问，是成传主线。",
+          "source": {
+            "file": "src/people/husky-weoo/materials-husky-weoo.md",
+            "contains": "该帖老兰州55批石头"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/husky-weoo/husky-weoo.md",
+            "contains": "在[退团避坑帖]"
+          },
+          "note": "保留解释清人时机与对方质问提前准备。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗块置于开篇后，社区争论继续分红黑两块完整呈现。",
+      "evidence": [
+        {
+          "file": "src/people/husky-weoo/husky-weoo.md",
+          "contains": "老兰州55并不反对清人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/husky-weoo/2123311408-id.json",
+    "src/people/husky-weoo/husky-weoo.md",
+    "src/people/husky-weoo/materials-husky-weoo.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+  ],
+  "inputs": "0ba7eb65caa6d628b011773221b40c5179531a5f3d926e0e282c1521a2c55dae",
+  "level": 1
+}

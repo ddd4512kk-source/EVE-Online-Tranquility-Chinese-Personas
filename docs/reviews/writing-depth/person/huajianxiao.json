@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/huajianxiao/materials-huajianxiao.md",
+    "src/people/huajianxiao/huajianxiao.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照身份、出货指控与叛忍提议，核读全文；保留双方说法和本人提议未实施的边界。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 避雷帖楼中楼补料"
+        },
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 有出处的言行"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "收费争议和叛忍提议构成本人主线，材料只有一条收费指控与一条提议，未见重大损失、封禁或实际报复。",
+      "noHeavyReason": "既有来源是一条游戏内收费的单方说法及一句旧团 MTU 提议，未记录重大损失或实际报复；战斗为普通集体出勤。",
+      "items": [],
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 避雷帖楼中楼补料"
+        },
+        {
+          "file": "src/people/huajianxiao/materials-huajianxiao.md",
+          "heading": "## 有出处的言行"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇以旧出货指控与离团后反讽为主线；新增战斗块只解释长期跟队，不代替收费争议。",
+      "evidence": [
+        {
+          "file": "src/people/huajianxiao/huajianxiao.md",
+          "contains": "2024 年底叶落吵税费"
+        },
+        {
+          "file": "src/people/huajianxiao/huajianxiao.md",
+          "contains": "于是这场争论里"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/huajianxiao/2115822564-id.json",
+    "src/people/huajianxiao/huajianxiao.md",
+    "src/people/huajianxiao/materials-huajianxiao.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md"
+  ],
+  "inputs": "e692175ac1c2888fd735defad8ab7b8e77dc7f6149f8044f62a104be4550edc7",
+  "level": 1
+}

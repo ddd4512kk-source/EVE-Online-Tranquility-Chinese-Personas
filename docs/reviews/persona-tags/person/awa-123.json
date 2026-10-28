@@ -1,0 +1,16 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/awa-123/awa-123.md",
+    "src/people/awa-123/2123557648-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/dsn-lp-dispute-2026.md",
+    "src/people/awa-123/2123557648-id.json",
+    "src/people/awa-123/awa-123.md",
+    "src/people/awa-123/materials-awa-123.md"
+  ],
+  "inputs": "9d1a85a96533f22a570b27007aefd24cc97b6739aef4c3ab7806f77f393c261b",
+  "level": 1
+}

@@ -1,0 +1,72 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/2122236063-id.json",
+    "src/people/mordiggianking/mordiggianking.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "复核角色stats与本人带队自述，区分团队击杀和个人指挥。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "heading": "## 战斗画像与后续出勤"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "身份与素材无确认小号，不推断不存在其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/2122236063-id.json",
+          "contains": "2122236063"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高价值月2026-10及代表KM，写团队出勤。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "contains": "2026-10月度接口取得19条"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核原列传5C-RPA建筑战绩与本人毒蜥小队自述，未认大会战总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "contains": "第12楼本人回忆第一次也是最后一次带毒蜥"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "补低安后续出勤并保留本人毒蜥带队与墨家战绩。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/mordiggianking.md",
+          "contains": "离开墨家后，他又到了自己经营的低安小团"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/cacx-tuxedoee-expulsion-2025.md",
+    "src/people/mordiggianking/2122236063-id.json",
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/mordiggianking.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md"
+  ],
+  "inputs": "51cfd7dedcea063cfe29a1c215cfc5f0d362adfbcd66c507f872a5b20eb3246c",
+  "level": 1
+}

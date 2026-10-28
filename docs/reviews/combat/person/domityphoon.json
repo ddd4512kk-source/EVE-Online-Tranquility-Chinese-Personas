@@ -1,0 +1,91 @@
+{
+  "status": "reviewed",
+  "note": "补读主号与主力小号、高值月代表及四场历史战役；监视者指挥位补正文与标签，旧随风互链改为其收录主号。",
+  "evidence": [
+    "src/people/domityphoon/materials-domityphoon.md",
+    "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+    "src/people/domityphoon/domityphoon.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读主号stats与topAllTime船榜、公开简介；原KB数未变化，发现Monitor记录支持指挥位，并实际补正文与FC标签。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/materials-domityphoon.md",
+          "heading": "## 本轮游戏画像与战役对照"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "not a dropper综合统计及黑隐船型已核；Brad Aivora沿用已存0记录，本次公告补强本人身份，不把组织工作当战果。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/materials-domityphoon.md",
+          "heading": "## 本轮游戏画像与战役对照"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主号最高月201908及201805分布，用78532846 ESI确认201908本人拉格纳洛克与时间星系；常规样本支持原画像，不额外写一场新战役。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/materials-domityphoon.md",
+          "heading": "## 本轮游戏画像与战役对照"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "逐场核FWST、J-TPTA、M2首战与1月27日突围；不将1月3日第二战与突围混同，不用当前天宫归属替换历史阵营。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/materials-domityphoon.md",
+          "heading": "## 本轮游戏画像与战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "原有救世、M2冥府与泰坦损失点评保留；新增Monitor指挥位一句。新增主体是发布公告和安置成员，未用普通战果冲淡合流故事。 2026-10-29复核：本次只改黑料段尾与封号叙事，战斗画像、峰值与战役引用未变。 2026-10-29复核：本次只改黑料段尾与封号叙事，战斗画像、峰值与战役引用未变。",
+      "evidence": [
+        {
+          "file": "src/people/domityphoon/domityphoon.md",
+          "contains": "综合舰船记录里还有监视者"
+        },
+        {
+          "file": "src/people/domityphoon/domityphoon.md",
+          "contains": "搬家的具体活也分到了人头"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "docs/sources/seven-sec-video-2017.md",
+    "src/people/domityphoon/2113029856-id.json",
+    "src/people/domityphoon/domityphoon.md",
+    "src/people/domityphoon/materials-domityphoon.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+  ],
+  "inputs": "d0eaedf7bdf8bcdc29ed5747e7f933e1baacee46ab84f886378919daba584b4c",
+  "level": 1
+}

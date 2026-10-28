@@ -1,0 +1,33 @@
+{
+  "status": "needs-work",
+  "note": "已新增战役及2条推荐；雨季参战作品优先、白菜第三方报道补位。核八条定向作品，另六条的开战前发布、另场两张KM及整活未定位分别留素材；其余日期候选未全部取得，不能记为另一方没有作品。北京时间8月9日凌晨对应UTC8月8日晚。",
+  "evidence": [
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "docs/sources/battle-video-brs-2026.md",
+    "docs/bilibili/13329368.json",
+    "docs/bilibili/199957503.json",
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/289511974.json",
+    "docs/bilibili/299085813.json",
+    "docs/bilibili/393683258.json",
+    "docs/bilibili/501499921.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/13329368.json",
+    "docs/bilibili/199957503.json",
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/289511974.json",
+    "docs/bilibili/299085813.json",
+    "docs/bilibili/393683258.json",
+    "docs/bilibili/501499921.json",
+    "docs/sources/battle-video-brs-2026.md",
+    "src/_data/entityNames.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+  ],
+  "inputs": "81fd0a5337721b93c69dba9b460d4d13101e4b2086cd76759205745ec23d6a71",
+  "level": 0
+}

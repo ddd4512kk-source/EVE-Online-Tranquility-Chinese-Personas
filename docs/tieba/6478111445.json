@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "thread_id": "6478111445",
+  "url": "https://tieba.baidu.com/p/6478111445",
+  "references": [
+    "docs/sources/yao-guang-history.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "unread",
+    "notes": [
+      "本次匿名客户端正倒序均返回错误4“贴子可能已被删除”，未取得正文；从6479073896第3楼发现，不猜原帖标题。待可读转载或恢复正文。"
+    ],
+    "read_at": "2026-10-28T13:14:08.638934Z",
+    "evidence": [
+      "docs/sources/yao-guang-history.md"
+    ]
+  },
+  "discovery": {
+    "source": "loco007公开主题列表及九州挖人争论互链",
+    "date": "2026-10-28T13:14:08.638934Z"
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-6478111445.json",
+    "fetched_at": "2026-10-28T13:09:57.273Z",
+    "main_posts": 0,
+    "subposts": 0,
+    "floors": [],
+    "orders": {
+      "forward": {
+        "pages": 0,
+        "complete": false,
+        "page_numbers": []
+      },
+      "reverse": {
+        "pages": 0,
+        "complete": false
+      }
+    },
+    "subpost_gaps": [],
+    "errors": [
+      "4: 贴子可能已被删除",
+      "4: 贴子可能已被删除"
+    ]
+  }
+}

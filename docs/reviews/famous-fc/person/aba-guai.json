@@ -1,0 +1,36 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共5场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/aba-guai/aba-guai.md",
+    "src/people/aba-guai/2119615259-id.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json"
+  ],
+  "dependencies": [
+    "docs/sources/dsn-lp-dispute-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/aba-guai/2119615259-id.json",
+    "src/people/aba-guai/aba-guai.md",
+    "src/people/aba-guai/materials-aba-guai.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "e3f4f1797714b6dbc8e6cc535f46ecec1f714956c7c03aa3ff77a43bad37c549",
+  "level": 1
+}

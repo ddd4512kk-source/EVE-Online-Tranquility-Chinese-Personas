@@ -1,0 +1,28 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、联盟管理、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/shou-xin/shou-xin.md",
+    "src/people/shou-xin/461504418-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/shou-xin/461504418-id.json",
+    "src/people/shou-xin/materials-shou-xin.md",
+    "src/people/shou-xin/shou-xin.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "762012c49f3ce7dfaa376d88daaf0062c47831d7eb6671b62ac3f99ddf59e01a",
+  "level": 1
+}

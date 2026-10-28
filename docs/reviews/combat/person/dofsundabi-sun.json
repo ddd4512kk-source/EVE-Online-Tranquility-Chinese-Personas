@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+    "src/people/dofsundabi-sun/dofsundabi-sun.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号统计、常用船与舰队角色，不以军团 CEO 推断 FC。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核已有角色与 CEO 对应资料，其他团友没有充分依据认作本人小号，也未见已登记售号。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "heading": "## 角色与账号对应"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核 2026 年 4 月最近 200 条并复核代表 KM，不视为完整月份。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "用本地原始战报核本人艾蒂斯的星系、时间、舰型；高值月原始 KM 核 4-HWWF 和 8TPX-N；萨托加斯为主星系快照损失。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+          "heading": "## 本人战斗统计补核（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首块写常用船、大舰队与 4-HWWF 和 8TPX-N 出勤，不侵占招新及军团主线。",
+      "evidence": [
+        {
+          "file": "src/people/dofsundabi-sun/dofsundabi-sun.md",
+          "contains": "4 月 25 日的[4-HWWF 与 8TPX-N]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/dofsundabi-sun/2116299818-id.json",
+    "src/people/dofsundabi-sun/dofsundabi-sun.md",
+    "src/people/dofsundabi-sun/materials-dofsundabi-sun.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "e4b031ab00260e4a92bb53737679831d73192f2ecbb980fac6b60f88d573a45c",
+  "level": 1
+}

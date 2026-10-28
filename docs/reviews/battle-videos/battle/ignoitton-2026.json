@@ -1,0 +1,19 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面2条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/ignoitton-2026/materials-ignoitton-2026.md",
+    "docs/bilibili/335849770.json",
+    "docs/bilibili/393683258.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/335849770.json",
+    "docs/bilibili/393683258.json",
+    "src/_data/entityNames.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.md",
+    "src/battles/ignoitton-2026/materials-ignoitton-2026.md"
+  ],
+  "inputs": "3941514c2c7316f48f573a38b67750250682e2222dd25d04d91a7021f46cd548",
+  "level": 0
+}

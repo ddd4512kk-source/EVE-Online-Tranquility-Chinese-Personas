@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/skyendless123/materials-skyendless123.md",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/people/skyendless123/skyendless123.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核对收录战斗号舰船、单杀和舰队履历。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## 斐德战记"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核对已登记战斗小号与低值旧 CEO 号，角色价值不相加。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## 斐德战记"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "抽核 2026 年 4 月两条 KM：主号及小号同场，未将金额重复相加。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## 斐德战记"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核乌特拉损失及 M-MD31 参与，不推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## otela-2024：战役参战关联"
+        },
+        {
+          "file": "src/battles/m-md31-2026/m-md31-2026.md",
+          "contains": "M-MD31"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增小队与大舰队参战红料。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/skyendless123.md",
+          "contains": "斯凯嫌大联盟会战容易卡成 PPT"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/people/skyendless123/2115060797-id.json",
+    "src/people/skyendless123/materials-skyendless123.md",
+    "src/people/skyendless123/skyendless123.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "38ed43b014af416de12f0def8fd33a84a688dc32980f09c748c7f6df06bf7db6",
+  "level": 1
+}

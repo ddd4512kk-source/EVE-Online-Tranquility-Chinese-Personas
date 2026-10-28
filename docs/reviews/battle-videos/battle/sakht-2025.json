@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已核日期候选，具体相反证据及待核BR见素材。\n## 日期候选核读（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "docs/bilibili/31544583.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/31544583.json",
+    "src/_data/entityNames.json",
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md"
+  ],
+  "inputs": "c6a7eacb267917b52830348a9011b96124dc9f11b912db8783fad9f9c11d9eea",
+  "level": 0
+}

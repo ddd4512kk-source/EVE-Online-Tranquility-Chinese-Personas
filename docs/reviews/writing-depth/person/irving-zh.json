@@ -1,0 +1,68 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材与正文核查。",
+  "evidence": [
+    "src/people/irving-zh/materials-irving-zh.md",
+    "src/people/irving-zh/irving-zh.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读本人素材和列传，对照作品、评论及战斗，旧主线保留。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/materials-irving-zh.md",
+          "heading": "## 访谈评论增量（2026-10-18）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "核作品、人物自嘲、社区讨论与已归档战斗，未发现满足重料门槛的重大个人争议。",
+      "noHeavyReason": "现有记录是作者的作品和社区讨论，未见重大后果的独立人物事件；采访或速报本身不等同联盟管理决策。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/materials-irving-zh.md",
+          "contains": "4月13日irrrrv本人留言"
+        }
+      ],
+      "items": [
+        {
+          "title": "访谈与招新争议",
+          "weight": "ordinary",
+          "reason": "作品与评论塑造人物作为中文社区作者的主要形象。",
+          "source": {
+            "file": "src/people/irving-zh/materials-irving-zh.md",
+            "contains": "4月13日irrrrv本人留言"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/irving-zh/irving-zh.md",
+            "contains": "一个月后又做了一期播客"
+          },
+          "note": "保留本人创作、读者反应及作品背后的社区处境。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "正文以作者作品和社区互动为主，战斗一块作补充，未让普通出勤压过原来的故事。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/irving-zh.md",
+          "contains": "一个月后又做了一期播客"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/irving-zh/2120715980-id.json",
+    "src/people/irving-zh/irving-zh.md",
+    "src/people/irving-zh/materials-irving-zh.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "a1174cd90a23ee7fb7298d74a344622e6c25557c7ea41e5aea39601fe94af746",
+  "level": 1
+}

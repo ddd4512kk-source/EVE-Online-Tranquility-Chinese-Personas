@@ -1,0 +1,112 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/kongli/materials-kongli.md",
+    "src/people/kongli/kongli.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核全文与个人作品、身份交接及战绩材料，保留两年翻译、一笔捐赠及接任",
+      "evidence": [
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## B站作品读取与精选（2026-10-17）"
+        },
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "翻译工作和CEO接任是本人特色，战斗是长期经历，无重大争议证据",
+      "evidence": [
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## 找到的换任记录"
+        },
+        {
+          "file": "src/people/kongli/materials-kongli.md",
+          "heading": "## B站作品读取与精选（2026-10-17）"
+        }
+      ],
+      "noHeavyReason": "已核本人创作、接任记录及战斗资料，未见其本人重大违法争议、骗款或重大指挥事故；管理交接与持续翻译是主要贡献。",
+      "items": [
+        {
+          "title": "两年欧服更新翻译",
+          "reason": "本人持续公开创作及唯一捐赠形成鲜明主线",
+          "note": "保留感冒、勘误、父亲翻译及一笔捐赠，不编视频体验",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kongli/materials-kongli.md",
+            "heading": "## B站作品读取与精选（2026-10-17）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kongli/kongli.md",
+            "contains": "2018年10月，CCP在拉斯维加斯开发布会"
+          }
+        },
+        {
+          "title": "军团CEO接任",
+          "reason": "正式登记角色职责",
+          "note": "说明前任辞任及换盟背景",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kongli/materials-kongli.md",
+            "heading": "## 找到的换任记录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kongli/kongli.md",
+            "contains": "DOTLAN的军团事件记录显示"
+          }
+        },
+        {
+          "title": "舰队出勤",
+          "reason": "本人长期战斗画像",
+          "note": "概括船型并对照BWF和HB，不推指挥",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kongli/materials-kongli.md",
+            "heading": "## 战斗画像与高值月（2026-10-28）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kongli/kongli.md",
+            "contains": "按zKillboard统计，Azika Gaptain参与击杀1684条"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "翻译、唯一捐赠与CEO主线保留，战绩补其亲身出勤",
+      "evidence": [
+        {
+          "file": "src/people/kongli/kongli.md",
+          "contains": "有人在评论区问能不能出欧服战报"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/kongli/2113198680-id.json",
+    "src/people/kongli/kongli.md",
+    "src/people/kongli/materials-kongli.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md"
+  ],
+  "inputs": "6f52ffd74c3f77f1400caeda01d4fd87c9c8d91ff6a3affc6f2a9e981ef0c0db",
+  "level": 1
+}

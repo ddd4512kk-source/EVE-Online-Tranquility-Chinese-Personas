@@ -26,7 +26,7 @@ Kahuna Poi（2113552565）本轮ESI头衔为“☜★小卡★☞”，与大A�
 - [KM134565707](https://zkillboard.com/kill/134565707/)，2026-04-07T10:12:02Z，Atioth（30002489），受害船type11567泰坦；本人驾驶俄洛巴斯（671），战时SETCR／FRT。[KM134566108](https://zkillboard.com/kill/134566108/)，同日10:37:23Z同星系，受害船type23773泰坦，本人仍为俄洛巴斯。对应本站艾蒂斯会战窗口，支持亲自投入泰坦，不归为本场指挥依据，不把集体战果记成单人击杀。
 - [KM115029322](https://zkillboard.com/kill/115029322/)，2024-01-24T14:04:46Z，星系30002006，受害船type11567泰坦，本人type22464、战时FRT。作为高值月样本保留；没有完整战报，不以该KM金额或该月金额另建战役，不把单张旗舰签名夸成独立人物事件。
 - 两条小队ESI记录：[KM135602564](https://zkillboard.com/kill/135602564/)，2026-05-19T14:24:41Z、星系30004892；[KM135601831](https://zkillboard.com/kill/135601831/)，同日13:48:01Z、星系30003132。两条中本人均type35683、SETCR／FRT。ESI universe/names本次确认35683为Hecate（赫卡特），不是Monitor；此前误认船型推导的FC身份已撤回，改写为小队参战。真正的Monitor type45534筛选本次返回空列表，只表示此接口范围没有命中，不证明本人从未指挥；现有材料没有其他指挥依据，不加FC／著名FC标签。工业与泰坦实战主线均保留。
-- Alero Poljus的小号stats为4次参与击杀、约1.72M ISK参与击毁，低于主力号优先调查量级，不扩扫。Alero BararagiEro的stats返回“Invalid type or id”，不当作零战绩，不据此否定身份；未查到可用汇总，后续有相关战斗线索再恢复。各号累计不相加。
+- Alero Poljus的小号stats为4次参与击杀、约1.72M ISK参与击毁，低于主力号优先调查量级，不扩扫。Alero BararagiEro的stats曾返回“Invalid type or id”；2026-10-29 复查 stats 与击杀列表接口均为空，zKillboard 无该号任何击杀或损失记录，与快递号用途一致，不据此否定身份。各号累计不相加。
 
 ## 已有战役对照
 

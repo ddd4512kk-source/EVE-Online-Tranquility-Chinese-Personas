@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 B站、00区、CONDI、FC、CEO、新人教官。沿用此前判断：已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人。未复核本文其他内容。",
+  "evidence": [
+    "src/people/beimu/beimu.md",
+    "src/people/beimu/2121410019-id.json"
+  ],
+  "dependencies": [
+    "src/people/beimu/2121410019-id.json",
+    "src/people/beimu/beimu.md",
+    "src/people/beimu/materials-beimu.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "6fbc624406f1c41fa44ccaeafa66496a0251a182a1b7f723bfeb3ad31bfd3cda",
+  "level": 1
+}

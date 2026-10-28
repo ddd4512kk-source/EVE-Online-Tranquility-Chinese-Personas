@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/undead0027/materials-undead0027.md",
+    "src/people/undead0027/2113823279-id.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/people/undead0027/undead0027.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人总量、舰种及画像，舰队出勤兼简介里的猎物；不据出勤推指挥。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/materials-undead0027.md",
+          "heading": "## 游戏数据（profile.mjs，2026-10-09）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "档案无已确认小号，未见售号材料，不外推其他号。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/2113823279-id.json",
+          "contains": "\"alts\": []"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2019-08及2020-05高值月，取2019-08接口117条中最高值KM，73人参与，不归功个人。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/materials-undead0027.md",
+          "contains": "高值月份核读"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照319-3D与J-TPTA正式快照命中本人，正文只写参加而非指挥。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/materials-undead0027.md",
+          "contains": "现有战役："
+        },
+        {
+          "file": "src/battles/j-tpta-2022/j-tpta-2022.json",
+          "contains": "\"2113823279\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首个红料扩成综合战绩并串入两场战役，保留跳货与管理旧事。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/undead0027.md",
+          "contains": "::: 红料 老板领着工业团"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/ln1p-lowkey-hel-2024.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/people/undead0027/2113823279-id.json",
+    "src/people/undead0027/materials-undead0027.md",
+    "src/people/undead0027/undead0027.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md"
+  ],
+  "inputs": "f5dc6dceace8f18e07c5bf7518e6fb78956dd61a0188b7dfc6d272edd5ef2204",
+  "level": 1
+}

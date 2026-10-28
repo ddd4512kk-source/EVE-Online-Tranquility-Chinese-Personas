@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "对照抽查，复用已存常用船、综合KB、高值月份和M2本人俄洛巴斯KM材料；5场本地关联已列于素材或互链，正文已有冠军与会战综合画像，本次无须重复扩写。",
+  "evidence": [
+    "src/people/dan-hua/materials-dan-hua.md",
+    "src/people/dan-hua/2116540636-id.json",
+    "src/people/dan-hua/dan-hua.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "复用素材所存生涯常用船（缪宁、俄洛巴斯、雷裔、夜神、莫洛）与M2首战月参与额；正文冠军日常出勤块已合写，未把参与金额当个人战果。",
+      "evidence": [
+        {
+          "file": "src/people/dan-hua/materials-dan-hua.md",
+          "contains": "zKillboard 生涯数据：常用船缪宁居首"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号或售号；只核收录号，不因此排除未发现的号。",
+      "evidence": [
+        {
+          "file": "src/people/dan-hua/2116540636-id.json",
+          "contains": "\"alts\": []"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "高值月为2020年底M2-XFE首战所在月，代表KM 89617016为本人驾驶俄洛巴斯的集体击杀。",
+      "evidence": [
+        {
+          "file": "src/people/dan-hua/materials-dan-hua.md",
+          "heading": "### 2020-12-30/31 M2-XFE 首战 / 角色 2116540636"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "M2-XFE与4-ABS8各有代表KM，其余本地关联沿战役互链；均按参战写，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/dan-hua/materials-dan-hua.md",
+          "heading": "## 2023-08-29—30 4-ABS8参战（2026-10-20补档）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文以AT冠军队员为主线，另立“冠军的日常出勤与泰坦席位”红料合写会战画像，未把普通参战另拆料块。",
+      "evidence": [
+        {
+          "file": "src/people/dan-hua/dan-hua.md",
+          "contains": "::: 红料 冠军的日常出勤与泰坦席位"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/dan-hua/2116540636-id.json",
+    "src/people/dan-hua/dan-hua.md",
+    "src/people/dan-hua/materials-dan-hua.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
+  ],
+  "inputs": "3b08e93fe66171e5a788e1b1b8f799a94521a35e49b26c73671ddf648e87315a",
+  "level": 1
+}

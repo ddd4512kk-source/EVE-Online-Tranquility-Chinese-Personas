@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 FRT、00区、工业、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/titan-acrad/titan-acrad.md",
+    "src/people/titan-acrad/2115711763-id.json"
+  ],
+  "dependencies": [
+    "src/people/titan-acrad/2115711763-id.json",
+    "src/people/titan-acrad/materials-titan-acrad.md",
+    "src/people/titan-acrad/titan-acrad.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "5309b3808ba5350dca674bd153c8db829b9ad407fab4113beccae4a2c2215a2a",
+  "level": 1
+}

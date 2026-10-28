@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "核对主号、小号、高值月份和战役。",
+  "evidence": [
+    "src/people/leoheyhey3/materials-leoheyhey3.md",
+    "src/people/leoheyhey3/2122624060-id.json",
+    "src/people/leoheyhey3/leoheyhey3.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核对两号综合战绩与常用船，属于跟队作战与机动控场人员。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+          "heading": "## 简介 KM 与战绩（2026-10-17）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式档案已登记同人 leoheyhey；双方战绩不相加，无现存售号线索。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/2122624060-id.json",
+          "contains": "2122566259"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主号2025年1月与小号2025年7月样本，记录各自覆盖及集体击杀边界。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+          "heading": "## 双号高值月份复核"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照乌特拉及1N战报快照、人物归属及战役星系；普通成员参战不推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/materials-leoheyhey3.md",
+          "heading": "## 乌特拉与1N-FJ8战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战斗红料已移至开篇后，以舰队角色和两场战斗展开。",
+      "evidence": [
+        {
+          "file": "src/people/leoheyhey3/leoheyhey3.md",
+          "contains": "Leo 两个号都是神农的老兵"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/dsn-lp-dispute-2026.md",
+    "src/people/leoheyhey3/2122624060-id.json",
+    "src/people/leoheyhey3/leoheyhey3.md",
+    "src/people/leoheyhey3/materials-leoheyhey3.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md"
+  ],
+  "inputs": "a4419e19ccbcc67cecdb3e95a2bcd3e21c87486ccc8990410e1b6c2a046879cb",
+  "level": 1
+}

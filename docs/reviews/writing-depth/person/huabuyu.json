@@ -1,0 +1,104 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材和正文核查。",
+  "evidence": [
+    "src/people/huabuyu/materials-huabuyu.md",
+    "src/people/huabuyu/huabuyu.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读人物正文、现有素材及关联材料，保留主线与双方叙述边界。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 对应依据"
+        },
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 借号、封号与 WC 黑名单（2026-10-14 补入）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重大争议按现有来源展开，身份、责任和说法边界保留。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 借号、封号与 WC 黑名单（2026-10-14 补入）"
+        }
+      ],
+      "items": [
+        {
+          "title": "借号封禁与黑名单",
+          "reason": "借出的账号封禁并被联盟列入黑名单",
+          "note": "展开处境、反差及反应后果。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/huabuyu/materials-huabuyu.md",
+            "heading": "## 借号、封号与 WC 黑名单（2026-10-14 补入）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/huabuyu/huabuyu.md",
+            "contains": "花不语和[龙哥]"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代购买远征和销售产出的关系",
+              "evidence": {
+                "file": "src/people/huabuyu/huabuyu.md",
+                "contains": "花不语和[龙哥]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "明知有风险仍借出小号",
+              "evidence": {
+                "file": "src/people/huabuyu/huabuyu.md",
+                "contains": "他既担心龙哥爆雷"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "记账号受封、管理对线和黑名单经过",
+              "evidence": {
+                "file": "src/people/huabuyu/huabuyu.md",
+                "contains": "WC 黑名单也把他圈了进去"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "人物主线、争议及战斗经历均保留。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/huabuyu.md",
+          "contains": "军团补损替他交了学费"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/huabuyu/2122242721-id.json",
+    "src/people/huabuyu/huabuyu.md",
+    "src/people/huabuyu/materials-huabuyu.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "0e43f418281b756c105d71b7f9742acbe956d744f649267ecc52ee5f06f9bda7",
+  "level": 1
+}

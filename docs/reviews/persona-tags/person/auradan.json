@@ -1,0 +1,15 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 B站、FC。沿用此前判断：封号传闻未展开具体交易或处罚过程，撤RMT。未复核本文其他内容。",
+  "evidence": [
+    "src/people/auradan/auradan.md",
+    "src/people/auradan/2122058537-id.json"
+  ],
+  "dependencies": [
+    "src/people/auradan/2122058537-id.json",
+    "src/people/auradan/auradan.md",
+    "src/people/auradan/materials-auradan.md"
+  ],
+  "inputs": "1b0bdba59ed106c6fc4492138dbe7c94137587e65a04a2d0124b6ae57d22845c",
+  "level": 1
+}

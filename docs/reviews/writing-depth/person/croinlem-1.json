@@ -1,0 +1,72 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/croinlem-1/materials-croinlem-1.md",
+    "src/people/croinlem-1/croinlem-1.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核本人来源、购泰坦互动、交易争议及全文，不将两条泰坦误认同一艘。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/materials-croinlem-1.md",
+          "heading": "## 泰坦转售与群内警告"
+        },
+        {
+          "file": "src/people/croinlem-1/materials-croinlem-1.md",
+          "heading": "## 购船作品与公开互动"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "转售争执是具体冲突，已述群主威胁及群规，未见实际交易损失或退团结果。",
+      "noHeavyReason": "已核交易争执与购船材料，没见交易完成、资产损失、踢人等重大后果，故依现有证据不认重大争议。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/materials-croinlem-1.md",
+          "heading": "## 泰坦转售与群内警告"
+        }
+      ],
+      "items": [
+        {
+          "title": "卖泰坦与群规争议",
+          "weight": "ordinary",
+          "reason": "卖船遭群主提出退群或原价转售条件。",
+          "note": "保留报价、双方冲突和群主禁言，不补造结果。",
+          "source": {
+            "file": "src/people/croinlem-1/materials-croinlem-1.md",
+            "contains": "群主n点名质问"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/croinlem-1/croinlem-1.md",
+            "contains": "白龙挂出卖船广告"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "购船和转售故事仍为主线，战斗补入，评语不把两条船合为一艘。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/croinlem-1.md",
+          "contains": "白龙把买泰坦写成奋斗故事"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/croinlem-1/2121166892-id.json",
+    "src/people/croinlem-1/croinlem-1.md",
+    "src/people/croinlem-1/materials-croinlem-1.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "9b8fc8c22c7e0b038a2ef653c48d15abba795ba527c3143b5653fc4772d41c1c",
+  "level": 1
+}

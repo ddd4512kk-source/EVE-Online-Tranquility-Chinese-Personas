@@ -9,6 +9,7 @@
 - 建号 2022-03-27；安全等级 -7.1；简介空。
 - 2022-03 → 2024-02 NPC 军团；Alkaid Broken Army 2024-02-16 → 2026-06-16（Pandemic Horde 至 2025-11-09，之后 The Initiative.）；Peroga 2026-06-20 → 07-24（无联盟）；GOD LOVE 499 2026-07-24 → 至今（联盟“34-yrs-old men get nagged by wives for playing EVE”）。
 - zKillboard：击杀 4387（1744.5B），损失 807（59.9B），单杀 470；Exequror Navy Issue 1397、Sabre 375、Brutix Navy Issue 278、Stiletto 194 … Kronos 143、Vargur 128；常去 BWF-ZZ。
+- 高值月核读：[stats](https://zkillboard.com/api/stats/characterID/2119831838/) 中 2026-07 的参与击毁估值约 182.5B；从[该月击杀接口](https://zkillboard.com/api/kills/characterID/2119831838/year/2026/month/7/)取最近 200 条，样本内最高 [KM 137300305](https://zkillboard.com/kill/137300305/) 为 2026-07-27 13:37:55 UTC、目标 type 73793，约 8.96B，攻击方 71 个记录；本人记录船型为太空舱（670），不据此推测当时实际驾驶的战斗舰。接口有截断，不称覆盖整月，也不把月度累计当个人独力战果。
 - 凛冬论坛无；B 站搜“天启阿柒”零结果，“268425”命中均无关。
 
 ## 贴吧（帖子列表中楼主共 64 帖，读了以下 14 帖）

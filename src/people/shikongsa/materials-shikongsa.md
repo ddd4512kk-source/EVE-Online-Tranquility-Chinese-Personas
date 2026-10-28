@@ -10,6 +10,9 @@
 - **FRT 马甲**：圈内一说，称水哥在 FRT 放有马甲号，用作本地白名驱赶帝国系其他军团玩家抢怪（无帖链，出处为社区转述，未对应到具体马甲角色；zKillboard 无 FRT 记录）。
 - **立场**：全部来自对立一方整理；KZU 一方的陈述以帖内转述为准，帖外无独立来源；水哥个人的更多发言、KZU 内部会议的“劣质变声器管理”未对应到人，不写。
 - **游戏数据**：1106 击杀 360.1B、274 损失 26.0B，常用 Eris。
+- **主力号战斗画像与高值月**：收录号 [stats](https://zkillboard.com/api/stats/characterID/2122252155/) 的高值月为 2026-04（约 46.4B）及 2026-01（约 40.6B）。[2026-04 击杀接口](https://zkillboard.com/api/kills/characterID/2122252155/year/2026/month/4/)返回 52 条，样本最高 [KM 135095098](https://zkillboard.com/kill/135095098/) 于 2026-04-28 14:33:37 UTC，目标 type 44996、约 15.12B，36 个攻击方，本人以 type 19724 参战。
+- Captain shikongsa（2115281834）[stats](https://zkillboard.com/api/stats/characterID/2115281834/) 高值月为 2026-03（约 42.3B）；[该月击杀接口](https://zkillboard.com/api/kills/characterID/2115281834/year/2026/month/3/)返回 104 条，样本最高 [KM 133967703](https://zkillboard.com/kill/133967703/) 于 2026-03-12 12:51:03 UTC，目标 type 44996、约 14.05B，25 个攻击方；本人记录船型为太空舱，不推断实战舰型。两个角色数值不相加，目标 type 与本人船型未核译名，不据这些 KM 推断单人战果或指挥。
+- 本地战役 [4-HWWF—8TPX-N](../../battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md) 正式快照命中 Captain shikongsa；只认参战与损失，不从战报出现推定本人带队。
 - **贴吧**：站内搜索“shikongsa/KZU/水哥”仅命中上帖。
 
 ### 检索记录与缺口

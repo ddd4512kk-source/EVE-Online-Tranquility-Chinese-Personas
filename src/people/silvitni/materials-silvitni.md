@@ -83,6 +83,7 @@
 - **雇 OSY 互打（重，黑料；社交媒体 + 对手宣布）**：群聊回忆称 KZU 雇 OSY 打蓝家；荣耀带队“踹了 OSY 两脚”，在 OSY 本地击毁一座铁壁、一座空堡，随后提交 Asher 与联盟决议，“当时一起爆，跟着爆出来的”；同一回忆称前一晚“被 osy 剧本了”，“准备不充分，而且联盟没决议过”。另一条转述 OSY 舵主（[fliet99](../fliet99/materials-fliet99.md)）的公开宣布：OSY 对 KZU 的袭击为荣耀出资；KZU 私下联系舵主要求为其复仇，击毁荣耀泰坦一艘。转述者“山之内花音”为 Profane Proverb（PP）总监。群友评 KZU“雇佣红减打蓝家第一人”。
 - **泰坦 KM**：[zKillboard 138999128](https://zkillboard.com/kill/138999128/)，2026-10-08 13:53Z，H-ADOC（30001001），受害者属 Goonswarm Federation；60 名攻击者中 Guardians of Tranquility 31、Deepwater Hooligans 14、Goonswarm Federation 5、-BMD 4，其余零星；最后一击 zookeeperL（Deepwater Hooligans）。
 - 荣耀出资一事仅有舵主一方宣布，正文按“舵主宣布”写。
+- **交战经过**：泰坦驾驶员为叉子（Orc Foxy），入场没有驻留、遭到埋伏的社区叙述归入[叉子素材](../../../docs/leads/orc-foxy.md#h-adoc泰坦入场遭伏2026-10-08)。
 
 ### “褪色哥”绰号（2026-10-09 补充，群聊截图两张）
 

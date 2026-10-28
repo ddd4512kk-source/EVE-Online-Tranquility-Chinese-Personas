@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、NC、军团管理、新人教官。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人。未复核本文其他内容。",
+  "evidence": [
+    "src/people/clarityjupiter/clarityjupiter.md",
+    "src/people/clarityjupiter/2122296275-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/foxor-management-2026-10-15.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/clarityjupiter/2122296275-id.json",
+    "src/people/clarityjupiter/clarityjupiter.md",
+    "src/people/clarityjupiter/materials-clarityjupiter.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
+  ],
+  "inputs": "ff6846fa04a3dd9d2333c1b5aa1ef616d139b218d12feb7e52c75b13fba894d1",
+  "level": 1
+}

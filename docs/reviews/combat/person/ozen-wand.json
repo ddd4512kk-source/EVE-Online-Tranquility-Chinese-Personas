@@ -1,0 +1,94 @@
+{
+  "status": "reviewed",
+  "note": "核身份、月峰、既有战役并重写战斗叙事。",
+  "evidence": [
+    "docs/bilibili/37720838.json",
+    "src/people/ozen-wand/materials-ozen-wand.md",
+    "src/people/ozen-wand/ozen-wand.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核当前KB、主力船与本人作品，不将集体战果当单杀。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/materials-ozen-wand.md",
+          "heading": "## 身份与游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "无新增确认小号；未命中收录号的简介KM不强归本人。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/materials-ozen-wand.md",
+          "heading": "## 身份与游戏画像"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核月峰与代表KM，分清建筑、旗舰和日常单收。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/materials-ozen-wand.md",
+          "heading": "## 高值月份与已有战役"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照既有战役命中与损失，不由普通参战推总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/materials-ozen-wand.md",
+          "heading": "## 高值月份与已有战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文以工种、玩法与具体战役写人。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/ozen-wand.md",
+          "contains": "Ozen 的战斗履历里"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/37720838.json",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "src/people/ozen-wand/2113199182-id.json",
+    "src/people/ozen-wand/materials-ozen-wand.md",
+    "src/people/ozen-wand/ozen-wand.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "724caffa330c259330c3eecd2775cfba3c67b5752cb4854c4cbea59768b08c47",
+  "level": 1
+}

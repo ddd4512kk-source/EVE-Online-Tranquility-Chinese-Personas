@@ -1,0 +1,181 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yilifaer/materials-yilifaer.md",
+    "src/people/yilifaer/yilifaer.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文和材料，竞选言论、电池和踢团争议与战斗均保留。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "IGC 华人从友军市场购买四十颗衍生大电池"
+        },
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "伊利法尔对 creatorlxd（2115505057）说"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "两件重大管理纠纷分别核读，双方说法和实际后果入文。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/materials-yilifaer.md",
+          "contains": "IGC 华人从友军市场购买四十颗衍生大电池"
+        }
+      ],
+      "items": [
+        {
+          "title": "四十颗大电池",
+          "weight": "heavy",
+          "reason": "管理失察与禁言导致成员离团、发帖及赔偿，是其外交身份的重要争议。",
+          "source": {
+            "file": "src/people/yilifaer/materials-yilifaer.md",
+            "contains": "IGC 华人从友军市场购买四十颗衍生大电池"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yilifaer/yilifaer.md",
+            "contains": "一个 IGC 华人去友军市场买了四十颗衍生大电池"
+          },
+          "note": "写买家用途、被怀疑和禁言，退团发帖及赔偿；没有把封口费写成定论。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "友军市场购买物资后被怀疑倒卖。",
+              "evidence": {
+                "file": "src/people/yilifaer/yilifaer.md",
+                "contains": "四十颗电池还没装船"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "管理先向联盟表忠心，再让成员解释。",
+              "evidence": {
+                "file": "src/people/yilifaer/yilifaer.md",
+                "contains": "先把联盟管理哄高兴"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "退团、赔偿和争议的封口费说法。",
+              "evidence": {
+                "file": "src/people/yilifaer/yilifaer.md",
+                "contains": "后续补了100E，事主删帖"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "间谍总监与踢团",
+          "weight": "heavy",
+          "reason": "总监小号引发联盟管理与军团负责人冲突，军团随后被踢。",
+          "source": {
+            "file": "src/people/yilifaer/materials-yilifaer.md",
+            "contains": "伊利法尔对 creatorlxd（2115505057）说"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yilifaer/yilifaer.md",
+            "contains": "发现自己的军团被踢了，上门问"
+          },
+          "note": "双方解释、缓冲争议和其他管理建议均保留，未认定举报必然成立。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "法尔指责总监的小号留在敌方集合群。",
+              "evidence": {
+                "file": "src/people/yilifaer/yilifaer.md",
+                "contains": "证据是那位总监的小号"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "另一管理建议沟通，最终找到了法尔本人。",
+              "evidence": {
+                "file": "src/people/yilifaer/yilifaer.md",
+                "contains": "这位 Yali 就是法尔本人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "对方否认知情，后续确有踢团。",
+              "evidence": {
+                "file": "src/people/yilifaer/yilifaer.md",
+                "contains": "后来 creatorlxd 一方的军团确实被踢了"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "电池和踢团两件重事保持主体，新增战绩只补指挥职责。",
+      "evidence": [
+        {
+          "file": "src/people/yilifaer/yilifaer.md",
+          "contains": "中文玩家的声音到了竞选稿里"
+        },
+        {
+          "file": "src/people/yilifaer/yilifaer.md",
+          "contains": "后来 creatorlxd 一方的军团确实被踢了"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/jade-kirin-disciplinary-2024-03-05.md",
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/yilifaer/2117737129-id.json",
+    "src/people/yilifaer/materials-yilifaer.md",
+    "src/people/yilifaer/yilifaer.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md",
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "0181207e4e4d19834cec2e1f7ac1a03d465806e7376b02686aa1068ba1c8b6dd",
+  "level": 1
+}

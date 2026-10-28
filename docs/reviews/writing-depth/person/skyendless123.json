@@ -1,0 +1,108 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/skyendless123/materials-skyendless123.md",
+    "src/people/skyendless123/skyendless123.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读本人连载、招新和正文，区分个人自述与他人说法。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## 斐德战记"
+        },
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## 自家军团的戏精招新"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "战记及本人复盘为主线，招新和出勤争议保留。",
+      "items": [
+        {
+          "title": "斐德小海盗与走位失误",
+          "weight": "heavy",
+          "reason": "本人连载小队追逐及带队失误，是其军团和战斗经历主线。",
+          "note": "保留胜负、撤退与本人复盘。",
+          "source": {
+            "file": "src/people/skyendless123/materials-skyendless123.md",
+            "heading": "## 斐德战记"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/skyendless123/skyendless123.md",
+            "contains": "2025 年 9 月，他在欧服吧连载"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "嫌大队卡顿后组织斐德小队。",
+              "evidence": {
+                "file": "src/people/skyendless123/skyendless123.md",
+                "contains": "AFK 半年回来"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "写小队人数较少却借拉远回头咬追兵，与畏惧卡顿的大队作战形成反差。",
+              "evidence": {
+                "file": "src/people/skyendless123/skyendless123.md",
+                "contains": "回头把追上来的特种船挨个斩了"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "另一次走位失误本人承认舰队覆灭。",
+              "evidence": {
+                "file": "src/people/skyendless123/skyendless123.md",
+                "contains": "这里我的走位失误导致了舰队的覆灭"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/materials-skyendless123.md",
+          "heading": "## 斐德战记"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗经历之外仍保留招新、出勤与团员玩笑。",
+      "evidence": [
+        {
+          "file": "src/people/skyendless123/skyendless123.md",
+          "contains": "蜜蜂的出勤课"
+        },
+        {
+          "file": "src/people/skyendless123/skyendless123.md",
+          "contains": "自家招新官弹劾"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/skyendless123/2115060797-id.json",
+    "src/people/skyendless123/materials-skyendless123.md",
+    "src/people/skyendless123/skyendless123.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "da93e4c95eb2c693078b33a4da37bbd22422817190324dafed0b5ef331138ea3",
+  "level": 1
+}

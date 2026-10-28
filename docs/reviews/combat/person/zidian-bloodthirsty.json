@@ -1,0 +1,83 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+    "src/people/zidian-bloodthirsty/2115311168-id.json",
+    "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "stats 的 topShips 返回空，改核完整的2021-08与截断的2024-07样本，限定期间识别常见船型；本人自述带小队。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "heading": "## 战斗画像与高值月份"
+        },
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "contains": "紫电承认不擅长阵地战"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式身份档案及本人素材未登记确认的小号或售号，不能从此推断不存在其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/2115311168-id.json",
+          "contains": "2115311168"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2021-08最高值月124条与代表星城KM，战果归团队。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "contains": "2021-08价值最高"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核欧米斯特手填关联及X47同场损失，FWST炸弹队采用本人自述，不认整场指挥。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "heading": "### 欧米斯特八月攻防（2023）"
+        },
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "contains": "X47战报"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增首块综合战斗红料，写样本船型、本人带小队和欧米斯特参战。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+          "contains": "紫电不只管军团的人怎么说话"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/vision-coa-dispute-2021.md",
+    "src/people/zidian-bloodthirsty/2115311168-id.json",
+    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+    "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "3fb368d0d28bf3557ba0f744eaf35cf261e25653610cf562a97336d288297491",
+  "level": 1
+}

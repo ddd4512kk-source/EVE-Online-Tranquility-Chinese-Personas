@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/seven-sec/materials-seven-sec.md",
+    "src/people/seven-sec/2112509132-id.json",
+    "src/people/seven-sec/seven-sec.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核角色综合画像、常用船及历史小队指挥依据。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "累计4198条参与击杀"
+        },
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "七秒擅长剧本、小队战"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号与售号，不认为其他角色不存在。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/2112509132-id.json",
+          "contains": "\"alts\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026年7月较高价值月、列表截断及一张ESI原始KM。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "2026年7月目标累计约105.58B"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核J-TPTA、VYO本人参战和损失，其他场次未按普通关联认定指挥。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/materials-seven-sec.md",
+          "contains": "J-TPTA 快照与材料确认本人"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后的综合战绩块保留星华小队与后来龙骑战役。",
+      "evidence": [
+        {
+          "file": "src/people/seven-sec/seven-sec.md",
+          "contains": "台风在[《RR 游骑兵简史》]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/seven-sec-video-2017.md",
+    "src/people/seven-sec/2112509132-id.json",
+    "src/people/seven-sec/materials-seven-sec.md",
+    "src/people/seven-sec/seven-sec.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "c64044ca4a5b0f89302988f8a1aee770697f14661f605b2923c8a8bb05091d97",
+  "level": 1
+}

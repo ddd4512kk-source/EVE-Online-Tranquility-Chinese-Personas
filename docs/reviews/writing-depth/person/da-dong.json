@@ -1,0 +1,68 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/da-dong/materials-da-dong.md",
+    "src/people/da-dong/da-dong.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核全文及本人作品与互动素材，招新、答疑和版本勘误保留，补战斗履历。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/materials-da-dong.md",
+          "heading": "## 消化与边界"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本人现有材料为招新与教学及战斗，未见独立重大争议。",
+      "noHeavyReason": "已核本人频道公开文字、招新答疑和游戏画像，现有材料未记录本人重大争议。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/materials-da-dong.md",
+          "heading": "## 消化与边界"
+        }
+      ],
+      "items": [
+        {
+          "title": "招新及答疑",
+          "weight": "ordinary",
+          "reason": "本人面向新人讲课和招新。",
+          "note": "对照招新与答疑保留限制和应答。",
+          "source": {
+            "file": "src/people/da-dong/materials-da-dong.md",
+            "contains": "单号五级简介的福利"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/da-dong/da-dong.md",
+            "contains": "观众看到税率来问"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "招新、教程仍为正文主线，战绩补充本人经历。",
+      "evidence": [
+        {
+          "file": "src/people/da-dong/da-dong.md",
+          "contains": "东东的招牌卖的是大航泰坦的梦"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/da-dong/2114195714-id.json",
+    "src/people/da-dong/da-dong.md",
+    "src/people/da-dong/materials-da-dong.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "62cdcf1461c46047cb15bb974071ca96f114f3f429623b011449046d11f74621",
+  "level": 1
+}

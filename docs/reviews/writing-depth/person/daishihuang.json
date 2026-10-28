@@ -1,0 +1,134 @@
+{
+  "status": "reviewed",
+  "note": "已通读全文与本人素材的RMT永封摘录，并对照华的身份与处罚边界。按旧返工意见重写永封块：从CEO兼指挥的门面写到永久与临时停赛的分量、“什么意思”与旁人误封担保的反差、取消活动与围观者替军团算前途，结尾落在皇帝本人被挡在门外；收旗舰情报块补写与RMT分开、不写成交。另改正弹窗时间（10月14日停机后）与红料“常年带队”“各带一支”超出素材的说法。",
+  "evidence": [
+    "src/people/daishihuang/daishihuang.md",
+    "src/people/daishihuang/materials-daishihuang.md",
+    "src/people/luxi-miss/materials-luxi-miss.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "独立事件：北方8TPX-N指挥位、RMT永封、收旗舰情报告示。华的取消活动只作反应背景，不并人。",
+      "evidence": [
+        {
+          "file": "src/people/daishihuang/materials-daishihuang.md",
+          "heading": "## 2026-10 RMT 永封"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "RMT永封为重料展开；收情报告示为较轻独立料，与RMT分开。",
+      "evidence": [
+        {
+          "file": "src/people/daishihuang/materials-daishihuang.md",
+          "heading": "## 2026-10 RMT 永封"
+        }
+      ],
+      "items": [
+        {
+          "title": "RMT永久封禁",
+          "weight": "heavy",
+          "reason": "CEO本人贴出RMT involvement永封弹窗，直接定义人物",
+          "source": {
+            "file": "src/people/daishihuang/materials-daishihuang.md",
+            "heading": "## 2026-10 RMT 永封"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/daishihuang/daishihuang.md",
+            "contains": "处罚一栏写着 Permanent Ban"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "CEO兼战斗指挥的门面",
+              "evidence": {
+                "file": "src/people/daishihuang/daishihuang.md",
+                "contains": "一个军团的门面和出门打仗的架子"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "永久与临时停赛对照",
+              "evidence": {
+                "file": "src/people/daishihuang/daishihuang.md",
+                "contains": "临时停赛还有个刑满日子"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "本人“什么意思”与兄弟误封担保",
+              "evidence": {
+                "file": "src/people/daishihuang/daishihuang.md",
+                "contains": "连冤该从哪里喊起都还没想好"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "活动取消、围观算前途、贴吧与B站传播，收在本人被挡在门外",
+              "evidence": {
+                "file": "src/people/daishihuang/daishihuang.md",
+                "contains": "被挡在登录界面外面的"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "不写解封结局、交易金额或全团封禁；华分开记录。"
+        },
+        {
+          "title": "收旗舰集结点情报告示",
+          "weight": "ordinary",
+          "reason": "本人名片上的收购广告",
+          "source": {
+            "file": "src/people/daishihuang/materials-daishihuang.md",
+            "contains": "收埃索、摄魂旗舰集结点"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/daishihuang/daishihuang.md",
+            "contains": "这张告示招呼的是"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "只写告示，不写成交；明确与RMT弹窗是两件事。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "红料指挥位、永封块与收情报块各自成戏；评语只把“打钱”名片与永封并置，不把情报生意当封号原因。",
+      "evidence": [
+        {
+          "file": "src/people/daishihuang/daishihuang.md",
+          "contains": "二世都没来得及立"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/daishihuang/2122440917-id.json",
+    "src/people/daishihuang/daishihuang.md",
+    "src/people/daishihuang/materials-daishihuang.md",
+    "src/people/luxi-miss/materials-luxi-miss.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "b6c6f85c7e044a68cf42dd4db082d4a810ae244f6d44620f5c84313f2d8c5c70",
+  "level": 1
+}

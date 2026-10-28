@@ -1,0 +1,31 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面8条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/324838566.json",
+    "docs/bilibili/3546639406991863.json",
+    "docs/bilibili/410060728.json",
+    "docs/bilibili/501499921.json",
+    "docs/bilibili/54969171.json",
+    "docs/bilibili/8370281.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/324838566.json",
+    "docs/bilibili/3546639406991863.json",
+    "docs/bilibili/410060728.json",
+    "docs/bilibili/501499921.json",
+    "docs/bilibili/54969171.json",
+    "docs/bilibili/8370281.json",
+    "src/_data/entityNames.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "7ac0f679e7d4aa88ba5a78db5a3459ad4589156747c3ceee87fb2cb075a6fce8",
+  "level": 0
+}

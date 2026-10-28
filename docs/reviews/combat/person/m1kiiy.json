@@ -1,0 +1,73 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/m1kiiy/materials-m1kiiy.md",
+    "src/people/m1kiiy/m1kiiy.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核stats常用船与舰队角色，FC依据本人头衔，不推具体战役总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "现有身份档案未登记小号，未把同团角色强认同人，亦无已记售号。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 角色、职务与同人"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2026年4月高值月取最近200条并核代表KM参与者与舰型，不认全月完整。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "艾蒂斯本人损失直接在主战窗口，欧伊加伦另为快照关联，不替他造指挥情节。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/materials-m1kiiy.md",
+          "heading": "## 战斗画像与高值月（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首块独立红料综合常用舰队与代表战斗，保留对线和创团主线。",
+      "evidence": [
+        {
+          "file": "src/people/m1kiiy/m1kiiy.md",
+          "contains": "2026年[艾蒂斯]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/m1kiiy/2123055352-id.json",
+    "src/people/m1kiiy/m1kiiy.md",
+    "src/people/m1kiiy/materials-m1kiiy.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "745a37df9caa5d70820836b347a437fda45fb1997cf51aa44ed7df8023607b51",
+  "level": 1
+}

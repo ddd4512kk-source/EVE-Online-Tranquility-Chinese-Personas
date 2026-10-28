@@ -1,0 +1,95 @@
+{
+  "status": "reviewed",
+  "note": "核对主号、小号、高值月及九场战役时空。",
+  "evidence": [
+    "src/people/mei-kanata/materials-mei-kanata.md",
+    "src/people/mei-kanata/mei-kanata.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号 stats 与常用舰型已补取并核读。",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 2026-10-28 战斗画像定向重试"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核主要角色及共同参战，未将角色战果相加，身份待核者不并入。",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 身份与小号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号及两个主力另号的高值月分别取样，触及 200 条的接口不能代表全月。",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 2026-10-28 战斗画像定向重试"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "九场均核到各自主战星系个人 KM，Atioth 为战报末日、4-HWWF／8TPX-N 仅核到后者；R-AG7W 早期神使排除在本站战报窗口外。",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "### 九场逐条 KM 与窗口核对"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文采用 R-AG7W 神使和冥府共同击杀，保留三号与共同战果边界。",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/mei-kanata.md",
+          "contains": "2025 年 11 月，R-AG7W 的撤离成了围猎大船的机会"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/community-br-review-2026-10-12.md",
+    "src/people/mei-kanata/2113379197-id.json",
+    "src/people/mei-kanata/materials-mei-kanata.md",
+    "src/people/mei-kanata/mei-kanata.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "18a23bedc3964a4fe8d22e6cb7a59876035a6a5d2ded65da9d72332eacb4f987",
+  "level": 1
+}

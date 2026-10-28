@@ -1,0 +1,144 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/shikongsa/materials-shikongsa.md",
+    "src/people/shikongsa/shikongsa.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照素材、共享的KZU昆仑纠纷与完整正文，核30B罚单、FRT马甲说法、雨夜私聊及本人战斗画像。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "heading": "## 水哥 / shikongsa"
+        },
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "heading": "## 2026-10-11 补充"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "30B事故与仲裁翻转是人物最重公开冲突，其他为未经独立确认的社区说法及后续私聊。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "contains": "**炸鱼 30B 事件**"
+        }
+      ],
+      "items": [
+        {
+          "title": "KZU与昆仑30B罚单及申诉",
+          "weight": "heavy",
+          "reason": "涉及友军事故、高额赔款和联盟仲裁，水哥公开劝认并被事后追问。",
+          "source": {
+            "file": "src/people/shikongsa/materials-shikongsa.md",
+            "contains": "**炸鱼 30B 事件**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/shikongsa/shikongsa.md",
+            "contains": "2026 年 7 月 3 日，KZU 的马克瑞队"
+          },
+          "note": "写两边事故说法、罚款谈判、水哥表态、上诉及退29B；不把对立方整理视为双方完整陈述。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "两支友军队伍遭AOE事故、责任先后存在争议。",
+              "evidence": {
+                "file": "src/people/shikongsa/shikongsa.md",
+                "contains": "2026 年 7 月 3 日，KZU 的马克瑞队"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "水哥要求对方认账或找联盟，联盟最终推翻原30B罚单。",
+              "evidence": {
+                "file": "src/people/shikongsa/shikongsa.md",
+                "contains": "一八让团员协助上诉"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "仲裁退29B，贴吧整理者记下当事人的后续反应。",
+              "evidence": {
+                "file": "src/people/shikongsa/shikongsa.md",
+                "contains": "同一份记录里，水哥那时还在群里"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "FRT马甲抢怪传闻",
+          "weight": "ordinary",
+          "reason": "只有社区转述，没有具体角色可核。",
+          "source": {
+            "file": "src/people/shikongsa/materials-shikongsa.md",
+            "contains": "**FRT 马甲**"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/shikongsa/shikongsa.md",
+            "contains": "圈内一说，水哥在 FRT 那边放了马甲号"
+          },
+          "note": "只写圈内说法与缺乏统一结论，不认定事实。"
+        },
+        {
+          "title": "与雨夜私聊及搬家",
+          "weight": "ordinary",
+          "reason": "当事人对话体现与先前强硬姿态的反差。",
+          "source": {
+            "file": "src/people/shikongsa/materials-shikongsa.md",
+            "contains": "**2026-10-09 补充：Mortol"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/shikongsa/shikongsa.md",
+            "contains": "两个月后风向倒转"
+          },
+          "note": "保留具体问答、希望搬家及原话。"
+        },
+        {
+          "title": "主力号画像与4-H参战",
+          "weight": "ordinary",
+          "reason": "战斗经历为补充，不推断本人指挥。",
+          "source": {
+            "file": "src/people/shikongsa/materials-shikongsa.md",
+            "contains": "本地战役 [4-HWWF"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/shikongsa/shikongsa.md",
+            "contains": "2026 年[4-HWWF"
+          },
+          "note": "用主力号与战役作为综合画像。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩移入红料后，30B冲突、双方说法与后续私聊仍为正文主体。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/shikongsa.md",
+          "contains": "“认就认，不认找联盟”，联盟果然来了"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/shikongsa/2122252155-id.json",
+    "src/people/shikongsa/materials-shikongsa.md",
+    "src/people/shikongsa/shikongsa.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+  ],
+  "inputs": "5896fe837f88356963265c93d1fe44b94d19bf96545e8f77ccc5b8a1a702163b",
+  "level": 1
+}

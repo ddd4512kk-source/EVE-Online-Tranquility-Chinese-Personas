@@ -1,0 +1,24 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、军团管理。沿用此前判断：复核最新正文及素材，三个角色的Director头衔和PP总监身份明确，承担招新、答疑、传话，保留军团管理。未复核本文其他内容。",
+  "evidence": [
+    "src/people/roxymg/roxymg.md",
+    "src/people/roxymg/2123019905-id.json"
+  ],
+  "dependencies": [
+    "src/people/roxymg/2123019905-id.json",
+    "src/people/roxymg/materials-roxymg.md",
+    "src/people/roxymg/roxymg.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "0459063277f4a56e7156d447aeaca39eac8cda5dc30983fd61173ac9ba5f0df1",
+  "level": 1
+}

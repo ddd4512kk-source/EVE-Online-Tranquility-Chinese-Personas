@@ -1,0 +1,20 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/jezz-zena/jezz-zena.md",
+    "src/people/jezz-zena/536107961-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/jezz-zena/536107961-id.json",
+    "src/people/jezz-zena/jezz-zena.md",
+    "src/people/jezz-zena/materials-jezz-zena.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "2ec7712de6db79d6ef9e5aa4c639fb26d1e7c3572e8e212f71f590a24b9a4eac",
+  "level": 1
+}

@@ -1,0 +1,161 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/last-seed/materials-last-seed.md",
+    "src/people/last-seed/last-seed.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照素材和全文：招新、国服南北战争、空降管理争议及单条RMT指控都保留。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "heading": "## 种子 / last-seed"
+        },
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "heading": "## 执行军团小号对应"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "空降管理和指挥出勤争议影响此人公众形象；帖主指控与吧友玩笑不当独立事实。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "contains": "**曙光空降管理帖**"
+        }
+      ],
+      "items": [
+        {
+          "title": "DC空降管理与出勤责任争议",
+          "weight": "heavy",
+          "reason": "帖子将种子与管理权、FC出勤、汉兰达离开关联，引发社区讨论。",
+          "source": {
+            "file": "src/people/last-seed/materials-last-seed.md",
+            "contains": "**曙光空降管理帖**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/last-seed/last-seed.md",
+            "contains": "2024 年 3 月 28 日，有人发帖"
+          },
+          "note": "正文交代帖主说法、本人截图、嘲讽官衔及人口分工；汉兰达离开原因未独立核实。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "帖主把DC新管理和FC出走联系起来。",
+              "evidence": {
+                "file": "src/people/last-seed/last-seed.md",
+                "contains": "2024 年 3 月 28 日，有人发帖"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "高声量的皇帝官衔与指挥部坐不下人的笑话并列。",
+              "evidence": {
+                "file": "src/people/last-seed/last-seed.md",
+                "contains": "楼下一半是吃瓜"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "楼里吵人口承诺，粉丝又补出战斗与管理分工。",
+              "evidence": {
+                "file": "src/people/last-seed/last-seed.md",
+                "contains": "粉丝替种子补的分工"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "WAAAGH招新",
+          "weight": "ordinary",
+          "reason": "本人公开招新与粉丝反应，体现团的玩法。",
+          "source": {
+            "file": "src/people/last-seed/materials-last-seed.md",
+            "contains": "**招新帖**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/last-seed/last-seed.md",
+            "contains": "招新帖写得认真"
+          },
+          "note": "保留福利、队伍偏好与招新帖回复。"
+        },
+        {
+          "title": "国服南北战争",
+          "weight": "ordinary",
+          "reason": "另一方自述把种子列为同一阵营决策伙伴。",
+          "source": {
+            "file": "src/people/last-seed/materials-last-seed.md",
+            "contains": "**猎星南北战争**"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/last-seed/last-seed.md",
+            "contains": "2024 年 7 月，曙光"
+          },
+          "note": "只依据苍穹文字描述其位置，未捏造具体指挥。"
+        },
+        {
+          "title": "RMT一句指控",
+          "weight": "ordinary",
+          "reason": "孤证且无细节，不能认定个人行为。",
+          "source": {
+            "file": "src/people/last-seed/materials-last-seed.md",
+            "contains": "**曙光空降管理帖**"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/last-seed/last-seed.md",
+            "contains": "同一个帖子里，有吧友回了一句"
+          },
+          "note": "保留为一条社区说法。"
+        },
+        {
+          "title": "建筑击杀与X47参战",
+          "weight": "ordinary",
+          "reason": "多人舰队记录与普通战损。",
+          "source": {
+            "file": "src/people/last-seed/materials-last-seed.md",
+            "contains": "**高值月与代表 KM**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/last-seed/last-seed.md",
+            "contains": "种子招新时说要找愿意打架的人"
+          },
+          "note": "解释大队伍作战，不认作个人独力。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗独立红料增补出勤，招新和空降争论仍是原有主线。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/last-seed.md",
+          "contains": "一个军团起名"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/last-seed/2117196631-id.json",
+    "src/people/last-seed/last-seed.md",
+    "src/people/last-seed/materials-last-seed.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "7eeb9206962f5da8995d781a2dfb9c558000c00df8ce225bfb64a781fee6533a",
+  "level": 1
+}

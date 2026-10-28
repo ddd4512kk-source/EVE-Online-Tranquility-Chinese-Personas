@@ -1,0 +1,96 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/cir-benuse/materials-cir-benuse.md",
+    "src/people/cir-benuse/2114871328-id.json",
+    "src/people/cir-benuse/cir-benuse.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核综合战绩、常用支援舰与故土FC头衔，不把跟队写成指挥",
+      "evidence": [
+        {
+          "file": "src/people/cir-benuse/materials-cir-benuse.md",
+          "heading": "## 战斗画像与战役（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "查身份档案与素材，未发现已确认主力小号或售号记录",
+      "evidence": [
+        {
+          "file": "src/people/cir-benuse/2114871328-id.json",
+          "contains": "\"identity\""
+        },
+        {
+          "file": "src/people/cir-benuse/materials-cir-benuse.md",
+          "heading": "## 身份与收录依据"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核高值月并抽读2026-04的KM，参与目标价值不归功个人",
+      "evidence": [
+        {
+          "file": "src/people/cir-benuse/materials-cir-benuse.md",
+          "heading": "## 战斗画像与战役（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核艾蒂斯单星系战报和SR-KBB已存战报，均仅认本人随队参战",
+      "evidence": [
+        {
+          "file": "src/people/cir-benuse/materials-cir-benuse.md",
+          "heading": "## 战斗画像与战役（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后补独立红料，写舰队支援角色与两场交火",
+      "evidence": [
+        {
+          "file": "src/people/cir-benuse/cir-benuse.md",
+          "contains": "夜灵把FC写在头衔上"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/cir-benuse/2114871328-id.json",
+    "src/people/cir-benuse/cir-benuse.md",
+    "src/people/cir-benuse/materials-cir-benuse.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "6cf63193acd5d6c543c926aed72e3892c97fd016b2acd27b41c2849e60e5239f",
+  "level": 1
+}

@@ -2,7 +2,6 @@
 
 详情与覆盖见[共享核读](../sources/winterco-communications-review-2026-10-13.md)。
 
-- **漫步 / mover_keeper**：[谏N更表](https://forums.winterco.org/t/topic/13142)，2022-04-15，自述燃料运输、自荐JUFC，写臣子奏表催N更新。已取得一个完整有出处的故事，游戏角色名尚未对应；能对上即写短传，催更故事目前作为N老板的社区反响入文。
 - **dandandeyoushang**：[SRP被拒](https://forums.winterco.org/t/topic/25580)，2025-07-09，只问FC原因导致拒赔由谁承担，未指明角色、战斗或FC。保存投诉本身，不凭账号音译对应“淡淡的忧伤”或其他角色。
 - **其他新名牌**：李福／Black dress Baby、江风／Foxlolita、空夜／thcy、太妃糖／ForTheUnknow Smith、甜妹／Miska Nightwind、娜娜奇／mashangshuijiao、鹊鸟／Mirage A；Ahulamumu（2115924739）已对应司令／魔域冰人，已[立传](../../src/people/si-ling/si-ling.md)，续查归[本人素材](../../src/people/si-ling/materials-si-ling.md)。完整内容与暂留原因见[逐楼摘要](../sources/frt-offtimezone-quotes-2025.md)。李福、江风已解析ID，其余继续保留名牌入口。
 

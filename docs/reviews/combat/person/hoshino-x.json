@@ -1,0 +1,79 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/hoshino-x/materials-hoshino-x.md",
+    "src/people/hoshino-x/hoshino-x.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号累计与常用截击船，按照舰队成员写，不推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "前者常用 Malediction"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "确认Hoshino Y同人及主力画像，未见售号，统计与重合目标不相加。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "前者常用 Malediction"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "两个账号2026年4月高值月；ESI原件核对同一泰坦，目标不重复计数。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "两号 2026 年 4 月均为高价值月"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核两号在4-HWWF及主号2024阿巴宗的归属与损失；其他两场按普通参战。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "阿巴宗 2024 快照命中主号"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "原战绩红料前移开篇后，增加战斗风格与两场经历。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/hoshino-x.md",
+          "contains": "头衔写着摆烂，KB 却留下"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/hoshino-x/2120556332-id.json",
+    "src/people/hoshino-x/hoshino-x.md",
+    "src/people/hoshino-x/materials-hoshino-x.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "bcf1ec04dc09271b675043964037c29c163d701e1dbb9c66f74c13692076b7ad",
+  "level": 1
+}

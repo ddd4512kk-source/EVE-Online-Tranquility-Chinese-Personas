@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/hoshino-x/materials-hoshino-x.md",
+    "src/people/hoshino-x/hoshino-x.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核军团交接、身份和战斗素材，交接与战绩均保留。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "2025-08-25 21:15"
+        },
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "前者常用 Malediction"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "星烨参与交接为本人独立经历，拍板者为工程项目。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/materials-hoshino-x.md",
+          "contains": "2025-08-25 21:15"
+        }
+      ],
+      "noHeavyReason": "实际可归星烨的是转述与被指定资产交接，重大冲突的决定属于他人，未扩大责任。",
+      "items": [
+        {
+          "title": "军团冲突后的资产交接",
+          "weight": "ordinary",
+          "reason": "本人负责交接，非清退决策人。",
+          "source": {
+            "file": "src/people/hoshino-x/materials-hoshino-x.md",
+            "contains": "2025-08-25 21:15"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/hoshino-x/hoshino-x.md",
+            "contains": "据社交媒体，工程项目在军团公告里"
+          },
+          "note": "保留工程项目公告与星烨负责交接的区别。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩移前并扩展，交接故事仍在其后完整保留。",
+      "evidence": [
+        {
+          "file": "src/people/hoshino-x/hoshino-x.md",
+          "contains": "这不是上任庆典"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/hoshino-x/2120556332-id.json",
+    "src/people/hoshino-x/hoshino-x.md",
+    "src/people/hoshino-x/materials-hoshino-x.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "bcf1ec04dc09271b675043964037c29c163d701e1dbb9c66f74c13692076b7ad",
+  "level": 1
+}

@@ -1,0 +1,84 @@
+{
+  "status": "reviewed",
+  "note": "对照素材与全文核查故事分量，保留教程主线并扩写战斗经历。",
+  "evidence": [
+    "src/people/cold-sin/materials-cold-sin.md",
+    "src/people/cold-sin/cold-sin.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与本人游戏画像、课程材料，确认教学连载和舰队经历均已入文。 2026-10-29删去一处重复句。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "## 游戏画像与已有战役"
+        },
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "## 正式立传与作品补读（2026-10-25）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本人素材主要为教程连载和普通舰队参战，未见须另按重料展开的事件。",
+      "noHeavyReason": "素材为系列教学、观众互动及常规舰队经历；没有记录重大的个人争议或决定性个人行动。",
+      "items": [],
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "## 正式立传与作品补读（2026-10-25）"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留完整教学、观众互动和推荐，战绩集中成块，两个代表战斗与教学主线相衔接。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/cold-sin.md",
+          "contains": "心冷在混沌吃的是常规舰队这碗饭"
+        },
+        {
+          "file": "src/people/cold-sin/cold-sin.md",
+          "contains": "这门课也有自己的课堂生态"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/cold-sin/2120847059-id.json",
+    "src/people/cold-sin/cold-sin.md",
+    "src/people/cold-sin/materials-cold-sin.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "243014df7b37d546dc5b19ad33b7edfdb3cdf445c22f2fbfa9052d4ecbf7551b",
+  "level": 1
+}

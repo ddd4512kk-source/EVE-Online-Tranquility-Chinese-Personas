@@ -1,0 +1,23 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面3条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "docs/bilibili/2250709.json",
+    "docs/bilibili/53247199.json",
+    "docs/bilibili/729015.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/2250709.json",
+    "docs/bilibili/53247199.json",
+    "docs/bilibili/729015.json",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/_data/entityNames.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md"
+  ],
+  "inputs": "0ac91b23446c02baf40d0c8131a23449975c7671d1eb728c4abd32b38365a889",
+  "level": 0
+}

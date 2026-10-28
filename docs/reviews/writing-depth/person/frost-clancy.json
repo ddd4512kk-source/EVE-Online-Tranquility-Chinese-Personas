@@ -1,0 +1,97 @@
+{
+  "status": "reviewed",
+  "note": "核对本人争议素材与正文发挥。",
+  "evidence": [
+    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/people/frost-clancy/frost-clancy.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人素材、军团价格争议和战斗画像；税价答辩、抽奖与参战分别采用，未发现另有未采用重大事件。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "heading": "## 避雷帖言行"
+        },
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "heading": "## 2024年11月叶落小队参战"
+        },
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "heading": "## 战斗画像复核"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "两件互动事件为普通争议与个人反差；游戏战绩以综合画像与代表经历呈现。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "contains": "Frost Clancy／一剑霜寒天晓"
+        }
+      ],
+      "noHeavyReason": "已核本人避雷帖答辩与抽奖回复，属于军团价格制度争议中的个人发言和自嘲，未发现本人主导重大事件。",
+      "items": [
+        {
+          "title": "军团收购价格答辩",
+          "weight": "ordinary",
+          "reason": "本人对退团者批评逐项回应，人物主线。",
+          "source": {
+            "file": "src/people/frost-clancy/materials-frost-clancy.md",
+            "contains": "Frost Clancy／一剑霜寒天晓"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/frost-clancy/frost-clancy.md",
+            "contains": "避雷帖"
+          },
+          "note": "保留价目、合同、补损与旧规则争议。"
+        },
+        {
+          "title": "新人抽奖陪跑",
+          "weight": "light",
+          "reason": "本人用未中奖经历自嘲福利反差。",
+          "source": {
+            "file": "src/people/frost-clancy/materials-frost-clancy.md",
+            "contains": "Frost Clancy／一剑霜寒天晓"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/frost-clancy/frost-clancy.md",
+            "contains": "Thirteen King court 五连中"
+          },
+          "note": "保留新人中奖与老人未领安慰奖。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗画像补在开篇后，军团价格答辩仍是主体，抽奖留作个人反差。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/frost-clancy.md",
+          "contains": "把频道置顶抄了下来"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/frost-clancy/2119595519-id.json",
+    "src/people/frost-clancy/frost-clancy.md",
+    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "d91de92b1e1c448cfaecb4739829e0799b0631b0ba15a517d6df07828d1d833e",
+  "level": 1
+}

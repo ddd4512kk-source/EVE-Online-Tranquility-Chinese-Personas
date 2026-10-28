@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 INIT.、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/cherrybone/cherrybone.md",
+    "src/people/cherrybone/2121993705-id.json"
+  ],
+  "dependencies": [
+    "src/people/cherrybone/2121993705-id.json",
+    "src/people/cherrybone/cherrybone.md",
+    "src/people/cherrybone/materials-cherrybone.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
+  ],
+  "inputs": "bb91efacb2d19e035dee854ac65be126cdc1e0357f5aa10cc7b845a023aaba9c",
+  "level": 1
+}

@@ -1,0 +1,93 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/sky-eagle-milize/materials-sky-eagle-milize.md",
+    "src/people/sky-eagle-milize/2120306116-id.json",
+    "src/people/sky-eagle-milize/sky-eagle-milize.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核综合战绩和常用舰队船，长期跟队并保留本人曾带队的评论",
+      "evidence": [
+        {
+          "file": "src/people/sky-eagle-milize/materials-sky-eagle-milize.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核身份档案及素材，未发现已确认主力小号或售号记录",
+      "evidence": [
+        {
+          "file": "src/people/sky-eagle-milize/2120306116-id.json",
+          "contains": "\"identity\""
+        },
+        {
+          "file": "src/people/sky-eagle-milize/materials-sky-eagle-milize.md",
+          "heading": "## 对应与来源"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2026年4月和2024年8月高值月各核一条代表KM，不把月额当个人战果",
+      "evidence": [
+        {
+          "file": "src/people/sky-eagle-milize/materials-sky-eagle-milize.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核LJ和4-HWWF参战及后者主战星系损失，宽窗其他关联不扩写",
+      "evidence": [
+        {
+          "file": "src/people/sky-eagle-milize/materials-sky-eagle-milize.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立战绩红料，综合多年舰队出勤与两场战役，不推具体指挥",
+      "evidence": [
+        {
+          "file": "src/people/sky-eagle-milize/sky-eagle-milize.md",
+          "contains": "天鹰讲PVP，不是只站在船坞外面指点"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/sky-eagle-milize/2120306116-id.json",
+    "src/people/sky-eagle-milize/materials-sky-eagle-milize.md",
+    "src/people/sky-eagle-milize/sky-eagle-milize.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md",
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "ac2609d9f0e184d870c1921496a89f830dbf77c813f1ed5ef7479bed655ab4d8",
+  "level": 1
+}

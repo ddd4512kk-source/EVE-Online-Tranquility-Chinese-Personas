@@ -1,0 +1,79 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/twilight-dracula/materials-twilight-dracula.md",
+    "src/people/twilight-dracula/2113688092-id.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/people/twilight-dracula/twilight-dracula.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核对画像与常用舰、单杀，舰队成员为主。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+          "contains": "画像：击杀 982"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "身份档案无已确认小号，不合并其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/2113688092-id.json",
+          "contains": "\"id\": 2113688092"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2022-03 高值月 stats 与最近200条样本，代表 KM 为舰队共同战果。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+          "contains": "高值月与战役核读"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "J-TPTA 正式快照命中本人，KM 显示希尔博拉斯。",
+      "evidence": [
+        {
+          "file": "src/battles/j-tpta-2022/j-tpta-2022.json",
+          "contains": "\"2113688092\":"
+        },
+        {
+          "file": "src/people/twilight-dracula/materials-twilight-dracula.md",
+          "contains": "KM 99825461"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇补充综合画像及 J-TPTA，保留月卡原事件。",
+      "evidence": [
+        {
+          "file": "src/people/twilight-dracula/twilight-dracula.md",
+          "contains": "::: 红料 希尔博拉斯跟着队伍走"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/people/twilight-dracula/2113688092-id.json",
+    "src/people/twilight-dracula/materials-twilight-dracula.md",
+    "src/people/twilight-dracula/twilight-dracula.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "20a9edcccdf2821dfa304837606dcab14ae6aa5f4cf0bb66975cbe5ba7ab62cc",
+  "level": 1
+}

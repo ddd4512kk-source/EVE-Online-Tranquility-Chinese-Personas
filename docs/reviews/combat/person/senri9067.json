@@ -1,0 +1,69 @@
+{
+  "status": "reviewed",
+  "note": "逐项核读主号、小号、售号边界、高值月份与已有战役；舰队作战画像已入文。同步核对新标签，未改变战斗归因与原故事。",
+  "evidence": [
+    "src/people/senri9067/materials-senri9067.md",
+    "src/people/senri9067/senri9067.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号352击杀、常用隐轰与舰队战巡、军团分布已核，正文写回宇宙魔药后的跟队战斗。",
+      "evidence": [
+        {
+          "file": "src/people/senri9067/materials-senri9067.md",
+          "heading": "### 长期作战画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Mono Cat CN统计与2026合同身份已核；明确已售Senri3766退出当前映射，不把旧号全生涯成绩归本人。",
+      "evidence": [
+        {
+          "file": "src/people/senri9067/materials-senri9067.md",
+          "heading": "### 收录号与已售旧号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核最高价值月2024-05，选两张代表KM核ESI，不把全月累计归于该场或本人独得。",
+      "evidence": [
+        {
+          "file": "src/people/senri9067/materials-senri9067.md",
+          "heading": "### 高值月份代表KM与已有战役对照"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "现有战役无匹配；0-G8NO两张KM只作同场跟队例子，不强接战役或推定指挥。",
+      "evidence": [
+        {
+          "file": "src/people/senri9067/materials-senri9067.md",
+          "heading": "### 高值月份代表KM与已有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇补隐轰、战巡的长期画像，跟队拆建筑打后勤航母的例子衔接招新；原有八块故事保留。",
+      "evidence": [
+        {
+          "file": "src/people/senri9067/senri9067.md",
+          "contains": "千里的游戏日子也不只有电鱼和对账"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "src/people/senri9067/2121410518-id.json",
+    "src/people/senri9067/materials-senri9067.md",
+    "src/people/senri9067/senri9067.md"
+  ],
+  "inputs": "a99a2c171b004bb5206f0420976c43828f27ccc6058d964ce91257653b458a59",
+  "level": 1
+}

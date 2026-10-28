@@ -1,0 +1,155 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/texas/materials-texas.md",
+    "src/people/texas/texas.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核本人帖、频道资料、CEO经历及多开争议。",
+      "evidence": [
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "heading": "## 角色与账号对应"
+        },
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "heading": "## 公开帖子与视频"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "军团退出及多开质疑两段作为重料。",
+      "evidence": [
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "Bronze Fury 前科"
+        },
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "《德克萨斯故土团招新》"
+        }
+      ],
+      "items": [
+        {
+          "title": "Bronze Fury 退盟及脚本争议",
+          "weight": "heavy",
+          "reason": "CEO 任内军团退盟及圈内关于脚本的说法影响军团声誉。",
+          "note": "保留角色创建、任期、退出时间及圈内所述原因，不把团员争议认作本人行为。",
+          "source": {
+            "file": "src/people/texas/materials-texas.md",
+            "contains": "Bronze Fury 前科"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/texas/texas.md",
+            "contains": "Bronze Fury 是 Zeus008"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "描述军团创建、所属及 CEO 任期。",
+              "evidence": {
+                "file": "src/people/texas/texas.md",
+                "contains": "Bronze Fury 是 Zeus008"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "招新收割连载与退盟后评价并置。",
+              "evidence": {
+                "file": "src/people/texas/texas.md",
+                "contains": "贴吧里那个天天"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "退盟后同日创建新团。",
+              "evidence": {
+                "file": "src/people/texas/texas.md",
+                "contains": "2025 年 6 月 8 日，Bronze Fury 退了帝国"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "十二开招新争议",
+          "weight": "heavy",
+          "reason": "公开招新引发同步器质疑及长期讨论，是其玩法的社区争议。",
+          "note": "具体交代招新门槛、观众质疑及本人回应，不作作弊断言。",
+          "source": {
+            "file": "src/people/texas/materials-texas.md",
+            "contains": "《德克萨斯故土团招新》"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/texas/texas.md",
+            "contains": "Doonsky 就问"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "写多开招新门槛。",
+              "evidence": {
+                "file": "src/people/texas/texas.md",
+                "contains": "刚写出“12开及以上”"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "招新展示规模却引发外挂联想。",
+              "evidence": {
+                "file": "src/people/texas/texas.md",
+                "contains": "招人广告本想秀规模"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "追问快捷键与本人回答。",
+              "evidence": {
+                "file": "src/people/texas/texas.md",
+                "contains": "他只回“快捷键”"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗招新和军团争议均保留。",
+      "evidence": [
+        {
+          "file": "src/people/texas/texas.md",
+          "contains": "从 Bronze Fury 的“今日大肉”"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/texas/2121593859-id.json",
+    "src/people/texas/materials-texas.md",
+    "src/people/texas/texas.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "2617bc241305a1f9575a4f8b31bbca1830d178cef6850e43443e8ea3ce241a82",
+  "level": 1
+}

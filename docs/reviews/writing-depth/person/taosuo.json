@@ -1,0 +1,151 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材与正文核查。",
+  "evidence": [
+    "src/people/taosuo/materials-taosuo.md",
+    "src/people/taosuo/taosuo.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读列传、角色战斗资料、B站目录及已存贴吧来源，核国服旧事、小马欠账和创世分裂等情节。",
+      "evidence": [
+        {
+          "file": "src/people/taosuo/materials-taosuo.md",
+          "heading": "## 贴吧"
+        },
+        {
+          "file": "src/people/taosuo/materials-taosuo.md",
+          "heading": "## B站"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "国服逼人离团属重料，叙述限定为回忆者说法；欠账、公开视频及创世履历按各自证据处理。",
+      "evidence": [
+        {
+          "file": "src/people/taosuo/materials-taosuo.md",
+          "heading": "## 贴吧"
+        }
+      ],
+      "items": [
+        {
+          "title": "国服TGA离团风波",
+          "reason": "据回忆者所述，他与另一人逼迫对方带团离开，军团活跃人数下降，属于影响一个军团的争议。",
+          "weight": "heavy",
+          "note": "正文交代回忆者说法、迁移与人数损失、后来回团和套司令欧服去向；承认具体冲突未交代，不把指控当判决。",
+          "source": {
+            "file": "src/people/taosuo/materials-taosuo.md",
+            "contains": "作者称2013或2014年在国服"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/taosuo/taosuo.md",
+            "contains": "2024年3月，一位已 A 的老玩家"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "回忆者称被迫离开 TGA，带团去低安海盗联盟。",
+              "evidence": {
+                "file": "src/people/taosuo/taosuo.md",
+                "contains": "2024年3月，一位已 A 的老玩家"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "其军团活跃人数由五十降到二十，几个月后才回 TGA。",
+              "evidence": {
+                "file": "src/people/taosuo/taosuo.md",
+                "contains": "人口从日均在线五十掉到二十"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "十年后当事人写回忆录，套司令在欧服开养老团；具体冲突在素材中未交代。",
+              "evidence": {
+                "file": "src/people/taosuo/taosuo.md",
+                "contains": "这段回忆只留下“逼”字"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "回忆者的军团曾人口大减、艰难撤离，套司令多年后自己开了养老团；依回忆说法交代，不编当年冲突细节。",
+              "evidence": {
+                "file": "src/people/taosuo/taosuo.md",
+                "contains": "被逼走的人写回忆录，逼人的人开了个养老团"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "小马制造欠账",
+          "reason": "一则旧友公开调侃，写出人物社区形象；未有更多证据证实交易或损失。",
+          "weight": "ordinary",
+          "note": "保留原话与十几年说法，以旧友说法为边界。",
+          "source": {
+            "file": "src/people/taosuo/materials-taosuo.md",
+            "contains": "套司令帮我制造的小马啥时候给我"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/taosuo/taosuo.md",
+            "contains": "套司令帮我制造的小马啥时候给我"
+          }
+        },
+        {
+          "title": "创世分裂时的去向",
+          "reason": "吧友相互纠正他的去留，揭示他早已离团及自建军团。",
+          "weight": "ordinary",
+          "note": "区分互相矛盾的贴吧回复和 ESI 雇佣记录。",
+          "source": {
+            "file": "src/people/taosuo/materials-taosuo.md",
+            "contains": "奥巴马你瞎编呢，套司令好几年前就离开创世了"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/taosuo/taosuo.md",
+            "contains": "后来创世内部闹翻"
+          }
+        },
+        {
+          "title": "视频频道与舰队角色",
+          "reason": "公开视频作品与战绩共同体现其舰队活动和记录习惯。",
+          "weight": "ordinary",
+          "note": "保留标题和作品页信息，未把未看画面当作观看所得。",
+          "source": {
+            "file": "src/people/taosuo/materials-taosuo.md",
+            "contains": "UID 491401926「Ganguehill套索」"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/taosuo/taosuo.md",
+            "contains": "2022年9月到2023年2月"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "国服争议、创世老兵、开团及战斗创作均有篇幅；评语串起角色特色，不把未经证实的事实补成内幕。",
+      "evidence": [
+        {
+          "file": "src/people/taosuo/taosuo.md",
+          "contains": "套司令的一生，用一个名字就讲完了"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/taosuo/2116358959-id.json",
+    "src/people/taosuo/materials-taosuo.md",
+    "src/people/taosuo/taosuo.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "352f74b00d87587edb75c107ff0ee6dacb8289d6cdf53743402f5f2174eeb36a",
+  "level": 1
+}

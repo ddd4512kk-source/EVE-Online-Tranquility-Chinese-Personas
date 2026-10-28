@@ -16,6 +16,7 @@
 
 - 击杀 10234（4644.4B），损失 4502（212.3B），单杀 4116。Hecate 2557、Retribution 1014、Osprey Navy Issue 534。常去 Niarja 548、Tama 241、1DQ1-A 190。
 - 击杀 ISK 最高月：2020-03 842.0B、2020-02 790.9B。损失最高月：2019-10 17.0B。
+- 2020-03 高值月抽样：[角色月度击杀接口](https://zkillboard.com/api/kills/characterID/2114160082/year/2020/month/3/)取得最近 200 条，并非整月；其中 [KM 82455755](https://zkillboard.com/kill/82455755/) 于 2020-03-20 09:27:16 UTC，普利驾驶赫卡特（35683）独自击毁价值约 0.97B 的太空舱（670）。这只是抽样内最高值，不代表整月最大击杀；当月累计金额不能按此归因。
 - 联盟轨迹：Fraternity.（2018-06~2019-05 多段）→ Forward Warring Fire（2018-10~11）→ The Therapists（2019-05~08）→ Pandemic Horde（2019-08~09）→ 创世/Fraternity.（2019-09~2020-09）→ Thermodynamics（2020-03~07）→ Esports Petopia/F1 Monkey.（2021-01-31~2023-03）→ Pandemic Horde/Northern Coalition.（Night Garden，2025-06~2026-01）。当前 Pedacer Heartchone（2026-06-07 起，无联盟）。
 
 ## 存疑 / 未写入

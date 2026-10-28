@@ -24,7 +24,10 @@ function fixture(t) {
   put('src/battles/test/test.json', { battle: { title: '甲战', start: '2026-01-01', sides: [] }, br: { pilots: { 43: [99, 88] }, losses: [[123, 43, 99, 88, 100]] } });
   const call = (...args) => run(root, args);
   const mark = (status = 'reviewed') => call('mark', 'person:demo', '--status', status, '--note', '人工核读后的结论', '--evidence', 'src/people/demo/materials-demo.md');
-  return { root, put, call, mark };
+  const accept = (feature = 'combat', change = 'relax') => call('accept', '--feature', feature, '--change', change);
+  accept();
+  accept('battle');
+  return { root, put, call, mark, accept };
 }
 
 test('help does not read a repository; CLI fails closed', () => {
@@ -70,16 +73,37 @@ test('receipts become stale on own prose, alts, shared evidence and newly linked
     assert.equal(call('card', 'person:demo').state, 'stale', change);
   }
 });
-test('unrelated prose and rule sections do not invalidate a review; selected rule edits do', t => {
-  const { put, call, mark } = fixture(t);
+test('unrelated prose and rule sections do not invalidate a review; selected rule edits must be declared', t => {
+  const { put, call, mark, accept } = fixture(t);
   mark();
   put('src/people/other/other.md', '改了另一人。');
   put('docs/rules.md', '# 规则\n## 战斗\n战斗规范\n## 样式\n改颜色');
   assert.equal(call('card', 'person:demo').state, 'reviewed');
   assert.equal(call('impact', '--files', 'docs/rules.md').records.some(r => r.key === 'person:demo'), false);
-  put('docs/rules.md', '# 规则\n## 战斗\n新的战斗规范\n## 样式\n改颜色');
-  assert.equal(call('card', 'person:demo').state, 'stale');
+  assert.throws(() => accept(), /无须声明/);
+  put('docs/rules.md', '# 规则\n## 战斗\n放宽的战斗规范\n## 样式\n改颜色');
   assert.equal(call('impact', '--files', 'docs/rules.md').records.some(r => r.key === 'person:demo'), true);
+  assert.throws(() => call('verify', 'person:demo'), /未声明/);
+  assert.throws(mark, /未声明/);
+  assert.throws(() => call('check'), /未声明/);
+  accept('combat', 'relax');
+  assert.equal(call('verify', 'person:demo').verified[0].state, 'reviewed');
+  assert.equal(call('impact', '--files', 'docs/rules.md').records.some(r => r.key === 'person:demo'), false);
+  put('docs/rules.md', '# 规则\n## 战斗\n收紧的战斗规范\n## 样式\n改颜色');
+  accept('combat', 'tighten');
+  assert.equal(call('card', 'person:demo').state, 'stale');
+  assert.equal(call('impact', '--files', 'docs/rules.md', '--state', 'stale').records[0].key, 'person:demo');
+  mark();
+  assert.equal(call('card', 'person:demo').state, 'reviewed');
+});
+test('receipts are stored one file per object; check flags receipts of removed objects', t => {
+  const { root, call, mark } = fixture(t);
+  mark();
+  const file = path.join(root, 'docs/reviews/combat/person/demo.json');
+  assert.equal(JSON.parse(fs.readFileSync(file, 'utf8')).level, 0);
+  assert.deepEqual(call('check'), { valid: true });
+  fs.rmSync(path.join(root, 'src/people/demo'), { recursive: true });
+  assert.throws(() => call('check'), /docs\/reviews\/combat\/person\/demo\.json/);
 });
 test('impact finds shared sources, alts, and deleted formerly associated battles', t => {
   const { root, call, mark } = fixture(t);
@@ -124,7 +148,7 @@ test('FC self-description is a candidate, not a pass; malformed receipts are rej
   const { call, put } = fixture(t);
   put('src/people/demo/materials-demo.md', 'ESI简介：FLEET COMMANDER');
   assert.equal(call('list', '--signal', 'command-without-tag').records[0].state, 'unreviewed');
-  put('docs/reviews/combat.json', { 'person:demo': { status: 'reviewed', note: '缺少证据和指纹' } });
+  put('docs/reviews/combat/person/demo.json', { status: 'reviewed', note: '缺少证据和指纹' });
   assert.throws(() => call('list'), /复查记录不完整/);
   assert.throws(() => call('list', '--feature', '../escape'), /feature 须为/);
 });
@@ -139,15 +163,18 @@ test('another pilot KM does not invalidate a person; participant removal does', 
   assert.equal(call('card', 'person:demo').state, 'stale');
 });
 test('feature implementation edits invalidate only their own feature and impact can filter stale', t => {
-  const { root, put, call, mark } = fixture(t);
+  const { root, put, call, mark, accept } = fixture(t);
   const registry = JSON.parse(fs.readFileSync(path.join(root, 'docs/review-features.json')));
   registry.combat.implementation = ['scripts/combat-engine.mjs'];
   put('scripts/combat-engine.mjs', 'export const version = 1;');
   put('docs/review-features.json', registry);
+  accept();
   mark();
   put('scripts/style.mjs', 'unrelated');
   assert.equal(call('card', 'person:demo').state, 'reviewed');
   put('scripts/combat-engine.mjs', 'export const version = 2;');
+  assert.throws(() => call('verify', 'person:demo'), /未声明/);
+  accept('combat', 'tighten');
   assert.equal(call('impact', '--files', 'scripts/combat-engine.mjs', '--state', 'stale').records[0].key, 'person:demo');
   assert.equal(call('impact', '--feature', 'battle', '--files', 'scripts/combat-engine.mjs').total, 0);
 });
@@ -171,6 +198,7 @@ function combatChecks(setup) {
   const registry = JSON.parse(fs.readFileSync(path.join(setup.root, 'docs/review-features.json')));
   registry.combat.checks = Object.fromEntries(['profile', 'alts', 'peaks', 'battles', 'narrative'].map(key => [key, key]));
   setup.put('docs/review-features.json', registry);
+  setup.accept();
   const assessment = Object.fromEntries(Object.keys(registry.combat.checks).map(key => [key, {
     status: 'reviewed', note: '人工对照角色、来源和正文后的采用判断',
     evidence: [key === 'narrative' ? { file: 'src/people/demo/demo.md', contains: '工业人物' } : { file: 'src/people/demo/materials-demo.md', heading: '## 画像' }],
@@ -197,11 +225,11 @@ test('完整五项须定位正文；缺项、待查和失效不能验收，失�
   const mark = () => setup.call('mark', 'person:demo', '--status', 'reviewed', '--note', '逐项核读完成', '--evidence', 'src/people/demo/materials-demo.md', '--assessment', '.cache/assessment.json');
   mark();
   assert.equal(setup.call('verify', 'person:demo').verified[0].state, 'reviewed');
-  const before = fs.readFileSync(path.join(setup.root, 'docs/reviews/combat.json'), 'utf8');
+  const before = fs.readFileSync(path.join(setup.root, 'docs/reviews/combat/person/demo.json'), 'utf8');
   delete assessment.peaks;
   setup.put('.cache/assessment.json', assessment);
   assert.throws(mark, /peaks/);
-  assert.equal(fs.readFileSync(path.join(setup.root, 'docs/reviews/combat.json'), 'utf8'), before);
+  assert.equal(fs.readFileSync(path.join(setup.root, 'docs/reviews/combat/person/demo.json'), 'utf8'), before);
   assessment.peaks = { ...assessment.profile, status: 'pending' };
   setup.put('.cache/assessment.json', assessment);
   assert.throws(mark, /peaks/);
@@ -245,6 +273,7 @@ function writingChecks(t) {
   const registry = JSON.parse(fs.readFileSync(path.join(setup.root, 'docs/review-features.json')));
   registry['writing-depth'] = { kinds: ['person'], eventReview: true, pattern: '封号', rules: [{ file: 'docs/rules.md', heading: '## 样式' }], checks: { coverage: '素材覆盖', events: '事件发挥', balance: '全文分量' } };
   setup.put('docs/review-features.json', registry);
+  setup.accept('writing-depth');
   setup.put(body, '::: 黑料 封号\n原本带队的总监宣布活动取消。\n好战的名片对上进不去游戏的账号。\n群员追问军团未来。\n:::\n');
   setup.put(material, '# 素材\n## 封号\n本人宣布被封并取消活动。');
   setup.put('docs/sources/extra.md', '# 原图摘录\n## 通知\n今晚活动取消，我号被封了。');
@@ -312,14 +341,50 @@ test('writing review tracks nested external sources and changed rules; rejected 
   const s = writingChecks(t);
   s.mark();
   assert.equal(s.call('verify', 'person:demo', '--feature', 'writing-depth').verified[0].state, 'reviewed');
-  const receiptFile = path.join(s.root, 'docs/reviews/writing-depth.json'), before = fs.readFileSync(receiptFile, 'utf8');
+  const receiptFile = path.join(s.root, 'docs/reviews/writing-depth/person/demo.json'), before = fs.readFileSync(receiptFile, 'utf8');
   s.assessment.events.items[0].development = [];
   assert.throws(s.mark, /至少三个/);
   assert.equal(fs.readFileSync(receiptFile, 'utf8'), before);
   s.put('docs/sources/extra.md', '# 原图摘录\n## 通知\n更正发言人。');
   assert.throws(() => s.call('verify', 'person:demo', '--feature', 'writing-depth'), /stale/);
   s.put('docs/rules.md', '# 规则\n## 战斗\n战斗规范\n## 样式\n新的写作要求');
+  s.accept('writing-depth', 'tighten');
   assert.equal(s.call('card', 'person:demo', '--feature', 'writing-depth').state, 'stale');
+});
+
+test('template drafts blank checks with anchors that validate; refuses overwrite and checkless features', t => {
+  const setup = fixture(t);
+  combatChecks(setup);
+  const draft = setup.call('template', 'person:demo');
+  assert.equal(draft.file, '.cache/review/combat-demo.json');
+  assert.equal(draft.reused, false);
+  const body = draft.anchors['src/people/demo/demo.md'].records, material = draft.anchors['src/people/demo/materials-demo.md'].records;
+  assert.deepEqual(body.map(anchor => [anchor.label, anchor.contains]), [['开篇', '工业人物。'], ['::: 红料 工业', '做工业。']]);
+  assert.ok(material.some(anchor => anchor.heading === '## 画像'));
+  const mark = () => setup.call('mark', 'person:demo', '--status', 'reviewed', '--note', '逐项核读完成', '--evidence', 'src/people/demo/materials-demo.md', '--assessment', draft.file);
+  assert.throws(mark, /缺少已完成的复查项/);
+  assert.throws(() => setup.call('template', 'person:demo'), /草稿已存在/);
+  const pick = ({ file, heading, contains }) => heading ? { file, heading } : { file, contains };
+  setup.put(draft.file, Object.fromEntries(Object.keys(draft.checks).map(key => [key, {
+    status: 'reviewed', note: '按锚点逐项核读后的判断', evidence: [pick(key === 'narrative' ? body[1] : material.find(anchor => anchor.heading === '## 画像'))],
+  }])));
+  mark();
+  assert.equal(setup.call('verify', 'person:demo').verified[0].state, 'reviewed');
+  assert.throws(() => setup.call('template', 'battle:test', '--feature', 'battle'), /没有逐项复查/);
+});
+
+test('template reuses earlier notes with cleared statuses and names broken evidence', t => {
+  const s = writingChecks(t);
+  s.mark();
+  s.put(s.body, '::: 黑料 封号\n原本带队的总监宣布活动取消。\n好战的名片对上进不去游戏的账号。\n:::\n');
+  const draft = s.call('template', 'person:demo', '--feature', 'writing-depth', '--out', '.cache/redo.json');
+  assert.equal(draft.reused, true);
+  assert.deepEqual(draft.brokenEvidence, ['events.items[0].development[2].evidence']);
+  assert.match(draft.eventShape.development[0].angle, /反差/);
+  const saved = JSON.parse(fs.readFileSync(path.join(s.root, '.cache/redo.json'), 'utf8'));
+  assert.deepEqual(Object.values(saved).map(item => item.status), ['', '', '']);
+  assert.equal(saved.events.items[0].title, '封号取消活动');
+  assert.throws(() => s.call('template', 'person:demo', '--feature', 'writing-depth', '--out', '../escape.json'), /仓库内/);
 });
 
 test('absence of heavy events requires an explicit reason, without forcing black material', t => {

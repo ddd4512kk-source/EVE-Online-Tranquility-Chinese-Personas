@@ -1,0 +1,86 @@
+{
+  "status": "reviewed",
+  "note": "四号综合画像、高值月份与代表KM、两场既有战役和正文综合作战叙事已逐项核读；统一以TempestUdf收录。",
+  "evidence": [
+    "src/people/tempestudf/materials-tempestudf.md",
+    "src/people/tempestudf/tempestudf.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "四号综合stats均核topShips、groups、months，按实际火力舰队与低安玩法写综合画像；未以空topLists判无数据，未从被击杀监视者推FC。",
+      "evidence": [
+        {
+          "file": "src/people/tempestudf/materials-tempestudf.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "三个已确定小号全部核综合KB，均超100B；本人关系正式归档，无已知售号边界，按号保存且不加总。",
+      "evidence": [
+        {
+          "file": "src/people/tempestudf/materials-tempestudf.md",
+          "heading": "## 收录与身份采用"
+        },
+        {
+          "file": "src/people/tempestudf/materials-tempestudf.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "各取一个高值月并核代表KM；区分建筑峰值与旗舰战，TempestMarau当月返回200／229范围照实保留，不声称全月或全生涯逐张通读。",
+      "evidence": [
+        {
+          "file": "src/people/tempestudf/materials-tempestudf.md",
+          "heading": "## 高值月份与代表KM"
+        },
+        {
+          "file": "src/people/tempestudf/materials-tempestudf.md",
+          "heading": "## 简介所挂KM逐张核对"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "四号对照全站既有战报，命中TN25-J与T8T-RA；原始KM确认海军无畏攻击与损失时空，按本人实际火力位采用。",
+      "evidence": [
+        {
+          "file": "src/people/tempestudf/materials-tempestudf.md",
+          "heading": "## 已有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文第二红料综合写常规舰队、低安小船、两场旗舰战与付出海军无畏，未把全部集体战果当个人功劳，未拆普通KM流水账。",
+      "evidence": [
+        {
+          "file": "src/people/tempestudf/tempestudf.md",
+          "contains": "旗舰场上，TempestMarau这个号接着把门票往贵处买。"
+        },
+        {
+          "file": "src/people/tempestudf/tempestudf.md",
+          "contains": "0845的日常火力很有牧星味道"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+    "src/people/tempestudf/2123068426-id.json",
+    "src/people/tempestudf/materials-tempestudf.md",
+    "src/people/tempestudf/tempestudf.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "73e106a205fa1d7d3314bc820d9ce67f3f0918c4d5b21ed3f278f138247bd0f3",
+  "level": 1
+}

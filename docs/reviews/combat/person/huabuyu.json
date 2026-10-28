@@ -1,0 +1,84 @@
+{
+  "status": "reviewed",
+  "note": "核对本人画像、高值月份和关联战役。",
+  "evidence": [
+    "src/people/huabuyu/materials-huabuyu.md",
+    "src/people/huabuyu/huabuyu.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "综合统计和主要玩法已核；本人参与战果不认作单杀或指挥。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 综合战绩补核（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "借出并受封的小号名称不明，不能将其战绩合并主号；未见其他确认的小号。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 借号、封号与 WC 黑名单（2026-10-14 补入）"
+        },
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 综合战绩补核（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2026 年 4 月最高估值月已核本人驾驶与近千人星城击杀，5 月帖子雷毅图片亦已核。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 综合战绩补核（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照三场归档参战和损失，不将同日高值 KM 硬套战役。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 已收录战役逐号对照（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩独立红料呈现舰队与人物主线，不把集体成果说成个人单杀。",
+      "evidence": [
+        {
+          "file": "src/people/huabuyu/materials-huabuyu.md",
+          "heading": "## 综合战绩补核（2026-10-28）"
+        },
+        {
+          "file": "src/people/huabuyu/huabuyu.md",
+          "contains": "他并不总是一个人在外面晃"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/huabuyu/2122242721-id.json",
+    "src/people/huabuyu/huabuyu.md",
+    "src/people/huabuyu/materials-huabuyu.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "0e43f418281b756c105d71b7f9742acbe956d744f649267ecc52ee5f06f9bda7",
+  "level": 1
+}

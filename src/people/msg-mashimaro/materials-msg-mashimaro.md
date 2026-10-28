@@ -47,3 +47,11 @@
 - [【EVE欧服】红楼军团系列短剧第五集-红楼家的傻儿子](https://www.bilibili.com/video/BV1zMK56REMK/)：频道目录记录；本次仅核对标题与列表元数据。
 - [【2026EVE欧服】捡垃圾+打捞实操](https://www.bilibili.com/video/BV1ZqKQ68EmC/)：频道目录记录；本次仅核对标题与列表元数据。
 - [【EVE欧服】-炸鱼简易教学](https://www.bilibili.com/video/BV1xpT56uESs/)：频道目录记录；本次仅核对标题与列表元数据。
+
+## 游戏画像与战役核对（2026-10-28）
+
+[角色统计](https://zkillboard.com/character/2122590961/)：1355次参与击杀、160次损失，常用Raven Navy Issue、Vulture、Ferox Navy Issue、Maelstrom；以HongLou／Goonswarm跟队为主。2026年4月参与击杀价值最高约558.9B，不是个人独得。身份档案无已确认小号，不据未搜索宣称没有其他角色。
+
+2026年4月击杀接口返回最近200条，最高样本[KM134904307](https://zkillboard.com/kill/134904307/)由ESI原件核为4月21日12:31 UTC，BWF-ZZ星系Keepstar，1690名攻击者，本人开Maelstrom参与；不将该场与本站2025年BWF战役混同。
+
+已有战役逐一对照：艾蒂斯、4-HWWF/8TPX-N、H-5GUI、HB-1NJ/EFM-C4及M-MD31快照均列本人；其中[艾蒂斯损失KM134589843](https://zkillboard.com/kill/134589843/)位于战报损失表。宽窗口战役只认关联，不推具体轮次和指挥；正文采用艾蒂斯与2026年BWF星城样本。

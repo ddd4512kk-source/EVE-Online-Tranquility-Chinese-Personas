@@ -1,0 +1,108 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mctimes/materials-mctimes.md",
+    "src/people/mctimes/mctimes.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文与本人素材，护航工资、草案争议和战绩都已写入。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "第13楼公开的2026-06-25结账讨论"
+        },
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "监视者 typeID"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "护航争议为本人参与的普通规则争执，含双方说法和前后对照。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/materials-mctimes.md",
+          "contains": "第13楼公开的2026-06-25结账讨论"
+        }
+      ],
+      "noHeavyReason": "现有素材主要为护航规则与收费讨论，未发现涉及本人其他重大事件；不将未指名的指控套给本人。",
+      "items": [
+        {
+          "title": "护航收费争议",
+          "weight": "ordinary",
+          "reason": "本人询问公示工资表及讨论新规，对方翻旧账回应。",
+          "source": {
+            "file": "src/people/mctimes/materials-mctimes.md",
+            "contains": "第13楼公开的2026-06-25结账讨论"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mctimes/mctimes.md",
+            "contains": "据艾若在"
+          },
+          "note": "对照工资表与新规，保留两方立场和草案状态。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "综合战斗经历置于开篇后，争议保留多段展开，末尾回到双方新旧规则对照。",
+      "evidence": [
+        {
+          "file": "src/people/mctimes/mctimes.md",
+          "contains": "争议落在收费办法能否写进新规"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mctimes/2119942097-id.json",
+    "src/people/mctimes/materials-mctimes.md",
+    "src/people/mctimes/mctimes.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/arzad-2025/arzad-2025.json",
+    "src/battles/arzad-2025/arzad-2025.md",
+    "src/battles/arzad-2025/materials-arzad-2025.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/evati-2025/evati-2025.json",
+    "src/battles/evati-2025/evati-2025.md",
+    "src/battles/evati-2025/materials-evati-2025.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "12381c319236c914a642d1cbfae83fe513cde2d0f1b06111955c9defe6c2711e",
+  "level": 1
+}

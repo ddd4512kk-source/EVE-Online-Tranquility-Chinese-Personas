@@ -1,0 +1,91 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、售号边界、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/vacantt/materials-vacantt.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/people/vacantt/vacantt.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号常用船和长期战绩，评价作小规模战斗与舰队出勤，不把击杀额说成独力功劳。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 角色与数据"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核老号创世时期及2021年9月8日出售后的买家边界，买家时期不归本人；新旧号数据不相加。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 老号 Vacant（2113849509）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "分别抽查售前2020年2月和新号2026年8月高值月的多人建筑KM，注意样本范围和参与归因。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 两号高值月份抽样"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核对本地6Q、1-SMEB、8F、T8T、埃加奥关联；埃加奥归方待核，只写参战不补指挥。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 2026-06-21 Akkio参战（2026-10-20补档）"
+        },
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 2026-10-04 8F-TK3参战（2026-10-20补档）"
+        },
+        {
+          "file": "src/battles/akkio-2026/materials-akkio-2026.md",
+          "heading": "## 续查"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首个红料贯穿售前守家、回归后的游猎和角色变化，保留独立卖号黑料。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/vacantt.md",
+          "contains": "外号不是白叫的。老号 Vacant"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/people/vacantt/2123111027-id.json",
+    "src/people/vacantt/materials-vacantt.md",
+    "src/people/vacantt/vacantt.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "4e17220f99dafa3ce9528068c3a82991679a5082913be263d0bfb311897cd7a2",
+  "level": 1
+}

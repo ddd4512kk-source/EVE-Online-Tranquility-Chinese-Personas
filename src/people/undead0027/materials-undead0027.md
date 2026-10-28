@@ -9,6 +9,8 @@
 - 建号 2018-02-18；Fuyue Industry Inc. 2018-03 → 2023-04-30（Brave、AOM、Dracarys.）；Schale.（98733239，Dracarys.）2023-04-30 → 至今。
 - 浮岳（98551152）2018-03-05 建，创建者 Asier Murray（2113872905，简介“逗逼军团的逗逼管理，滑稽星人”），现 ESI CEO 为 investigate 23（2113951361，零击杀挂名号）；成员雇佣记录显示浮岳 2023-04-30 离开 Dracarys.。
 - zKillboard：击杀 543（150.7B），损失 64（3.6B），单杀 50；Muninn 179、Cerberus 106、Orthrus 93。
+- 高值月份核读：[stats](https://zkillboard.com/api/stats/characterID/2113823279/) 的 2019-08 参与击毁约 31B、2020-05 约 30.2B；[2019-08 击杀接口](https://zkillboard.com/api/kills/characterID/2113823279/year/2019/month/8/)返回 117 条，最高 [KM 78310251](https://zkillboard.com/kill/78310251/) 为 2019-08-09 13:32:13 UTC、目标 type 19722、约 1.90B、73 名攻击方；本人参战，船型 type 12015。目标与本人舰型尚未核译名，不据此推断个人独力战果。
+- 现有战役：收录号命中 [319-3D](../../battles/319-3d-2020/319-3d-2020.md) 与 [J-TPTA](../../battles/j-tpta-2022/j-tpta-2022.md) 两场正式快照；仅核为参战，不推断指挥、舰型或个人责任。
 - 简介：13 张击杀报告（Ishtar 6、Gila 6、Nidhoggur 1），QQ 号（未写入正文）。
 
 ## 来源：陌然《一个无名小卒的回忆录》（8738371316）

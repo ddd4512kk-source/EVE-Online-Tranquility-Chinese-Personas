@@ -1,0 +1,128 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/roses-mary/materials-roses-mary.md",
+    "src/people/roses-mary/roses-mary.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照全部素材与两块旧争议，九州任内踢人和瑶光遭旧名声追索均在文中；另纳入战绩，不把会战升级成个人功劳。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "heading": "# 简素言素材"
+        },
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "九州任内因疑似脚本和RMT踢人是核心重事；后续瑶光争议、实战背景分别记为普通事件。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "contains": "**九州 RMT / 脚本旧账**"
+        }
+      ],
+      "items": [
+        {
+          "title": "九州任内疑似脚本与踢人争议",
+          "weight": "heavy",
+          "reason": "CEO任期内的管理处置与军团既有名声构成核心冲突。",
+          "source": {
+            "file": "src/people/roses-mary/materials-roses-mary.md",
+            "contains": "**九州 RMT / 脚本旧账**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/roses-mary/roses-mary.md",
+            "contains": "九州在欧服留下的名声"
+          },
+          "note": "正文保留成员申诉、联盟通报、旁人反问及CEO任期责任；不将组织名声认作本人处罚。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "军团本身背着脚本与RMT名声，成员被疑似理由踢出并须解释。",
+              "evidence": {
+                "file": "src/people/roses-mary/roses-mary.md",
+                "contains": "九州在欧服留下的名声"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "管理层严查成员，而军团自己早受同类指控。",
+              "evidence": {
+                "file": "src/people/roses-mary/roses-mary.md",
+                "contains": "这套规矩最会挑人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "成员解释转账，楼里有人要自证也有人反问；后续白井的封号与CEO交接接入长期名声。",
+              "evidence": {
+                "file": "src/people/roses-mary/roses-mary.md",
+                "contains": "这套规矩最会挑人"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "瑶光与九州旧名声",
+          "weight": "ordinary",
+          "reason": "后续社区指控关联团名和普通成员，并非个人RMT证据。",
+          "source": {
+            "file": "src/people/roses-mary/materials-roses-mary.md",
+            "contains": "**瑶光承接旧名声**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/roses-mary/roses-mary.md",
+            "contains": "九州两代散场"
+          },
+          "note": "写社区质疑、普通团员反应与管理责任，未作本人封号定论。"
+        },
+        {
+          "title": "欧塔萨塞及建筑参战",
+          "weight": "ordinary",
+          "reason": "本人跟队的综合画像，非独立指挥或单人战果。",
+          "source": {
+            "file": "src/people/roses-mary/materials-roses-mary.md",
+            "heading": "## 2026-10-24：战斗画像补漏"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/roses-mary/roses-mary.md",
+            "contains": "他常开的船从海军灾难"
+          },
+          "note": "战役与建筑记录合并进综合战绩，保留原有争议主线。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留原两块管理争议与评语，新增战绩只作为CEO之外的活动背景。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/roses-mary.md",
+          "contains": "九州一世、二世、瑶光"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/roses-mary/2114089373-id.json",
+    "src/people/roses-mary/materials-roses-mary.md",
+    "src/people/roses-mary/roses-mary.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md"
+  ],
+  "inputs": "9de702d94af00e781b2dcc3c07c768be1be4484b9fea219fe39266656feafe2f",
+  "level": 1
+}

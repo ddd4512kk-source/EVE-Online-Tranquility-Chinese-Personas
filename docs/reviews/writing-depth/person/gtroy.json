@@ -1,0 +1,73 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/gtroy/materials-gtroy.md",
+    "src/people/gtroy/gtroy.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读本人IT任职、吉祥物与双号战斗记录，保留原有内容。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 重审补料（2026-10-17）"
+        },
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 双号与Obe抽核（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "已核军团官网及战斗样本，暂无本人主导重大争议。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 双号与Obe抽核（2026-10-28）"
+        }
+      ],
+      "noHeavyReason": "现有官网岗位、名片与参战资料没有本人主导的重大争议或重大后果独立事件。",
+      "items": [
+        {
+          "title": "Obe泰坦交战",
+          "reason": "小号参与代表性舰队大战",
+          "note": "写本人驾驶乌鸦出现在集体击杀中。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/gtroy/materials-gtroy.md",
+            "heading": "## 双号与Obe抽核（2026-10-28）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gtroy/gtroy.md",
+            "contains": "另一个号 Mor Morgana 留下了更大的舰队账本"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留军团IT职责与狐姬称号，以战斗侧面补足。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/gtroy.md",
+          "contains": "官网写特洛伊负责 IT 运维相关工作"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/foxor-management-2026-10-15.md",
+    "src/people/gtroy/2120504987-id.json",
+    "src/people/gtroy/gtroy.md",
+    "src/people/gtroy/materials-gtroy.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+  ],
+  "inputs": "10af7206005d679e0d5f91bdb456ae91f35668f5fe8b8be2af180d0128b1386e",
+  "level": 1
+}

@@ -14,7 +14,7 @@ npm run review -- read person:alero-araragiero --file material --from 20 --lines
 
 - `list` 默认每页10条、最多20条，`--offset` 翻页；`--recent N` 先选最近首次加入的N篇，再筛料数。未提交新篇排在最前，日期为null；无Git历史时拒绝按近期筛选，不拿文件修改时间代替加入时间。全站短篇不用 `--recent`。
 - `card` 返回料块标题与行号、战斗相关短摘录、已存KB、已确认小号、关联战役和素材章节；命中摘录最多6条，每条320字。结构最多20项，战役最多12项，均报告实际总数；超出部分沿素材分段读取。`read` 限定本人正文／素材，每次最多80行，按返回行号续读。
-- `battle-without-narrative` 仅指有快照／手工参战关联且正文未命中战斗词；`command-without-tag` 提醒简介自称FLEET COMMANDER而缺少FC标签的候选；`combat-without-block` 指正文链接本人zKB或有快照／手工参战关联，却没有一块红料以战斗词为题或含zKB、战役链接，用来排查战绩散在开篇或其他料块里的篇目。命中战斗词的人也可能漏查综合KB、常用船、高值月份或主力小号。`few-blocks`、`no-saved-kb` 同样只负责排队，不判不合格。人物被战役正文点名与真正参战分开标明；快照的宽窗口命中还须人工核星系与窗口。
+- `battle-without-narrative` 仅指有快照／手工参战关联且正文未命中战斗词；`command-without-tag` 提醒简介自称FLEET COMMANDER而缺少FC标签的候选；`combat-without-block` 指正文链接本人zKB或有快照／手工参战关联，却没有一块红料以战斗词为题或含zKB、战役链接，用来排查战绩散在开篇或其他料块里的篇目。命中战斗词也不代表已核 stats 总览与主力小号归因。`few-blocks`、`no-saved-kb` 同样只负责排队，不判不合格。人物被战役正文点名与真正参战分开标明；快照的宽窗口命中还须人工核星系与窗口。
 - 本次新收录、整篇改写或实质性补写的人物必须逐一检查，不用 `--max-blocks`、战斗关键词或有无战役匹配筛掉交付对象。`review-incomplete` 按逐项人工结论排队，与料块数、关键词及参战关联无关；短篇优先只用于安排历史积压的抽查顺序。
 - 抽查先选少量代表对象，分别核收录号、主力小号、已有战役和本次关键缺口，再按结果扩批。只补有依据的画像，不把普通参战逐场拆成料。取材预算、缓存复用及失败停止规则沿[取材手册](research-method.md#联网条件与预算所有取材入口共用)。
 - 实际回顾到的素材同时按[素材归档](content-rules.md#6-素材归档)整理低价值操作流水账；只处理读到的文件，不为清理另开全仓扫描或汇报清单。
@@ -23,34 +23,36 @@ npm run review -- read person:alero-araragiero --file material --from 20 --lines
 
 ```sh
 npm run review -- mark person:短名 --feature combat --status needs-work \
-  --note '缺常用船和高值月份核读；已有战役已对照' \
+  --note '尚未读取stats总览；已有战役已对照' \
   --evidence src/people/短名/materials-短名.md
 npm run review -- list --feature combat --state needs-work
 npm run review -- list --feature combat --state stale
 ```
 
-战斗复查的五项完成标准由 `docs/review-features.json` 的 `checks` 给出：主号画像、主力小号与售号边界、高值月份、已有战役、正文采用。标记 `reviewed` 必须增加 `--assessment .cache/本次复查.json`，逐项写状态、判断和证据位置，例如：
+战斗复查的五项完成标准由 `docs/review-features.json` 的 `checks` 给出：stats 总览、主力小号归因、细查必要性、已有战役、正文采用。调查范围按[游戏画像](research-method.md#1-游戏画像定位人物时按需)确定，不把可选细目变成交付门槛。标记 `reviewed` 必须增加 `--assessment .cache/本次复查.json`，逐项写状态、判断和证据位置，例如：
 
 ```json
 {
   "profile": {
     "status": "reviewed",
-    "note": "已核综合KB与常用船，实际角色为常规舰队成员",
+    "note": "已读stats总览，战斗频率与正文的长期参战经历相符",
     "evidence": [{"file": "src/people/短名/materials-短名.md", "heading": "## 游戏画像"}]
   }
 }
 ```
 
-示例只展示一项格式，实际须补齐 `profile`、`alts`、`peaks`、`battles`、`narrative` 五项。每项 `status` 只接受 `reviewed` 或 `not-applicable`，后者须说明核过什么、为何无须展开；请求失败、未读、预算用尽不能写不适用，整项应留 `needs-work` 或 `blocked`。`evidence` 必须指向仓库中存在的文件及准确标题（`heading`）或唯一包含行（`contains`）。`narrative` 必须含本人正文位置及采用判断；无显著战斗经历时指向如实呈现玩法的正文，不硬凑战绩。临时JSON只作输入，人工结论唯一保存在原复查队列。
+示例只展示一项格式，实际须补齐 `profile`、`alts`、`peaks`、`battles`、`narrative` 五项。每项 `status` 只接受 `reviewed` 或 `not-applicable`，后者须说明核过什么、为何无须展开。`peaks` 保留既有字段名，表示细查必要性：总览已足以支持正文，且没有需要核具体月份或 KM 的问题时，可记不适用；已查过代表记录则记实际结论。必需证据的请求失败、未读或预算用尽不能写不适用，仍应留 `needs-work` 或 `blocked`；可选船型与月份细目未取得不单独阻止交付。`evidence` 必须指向仓库中存在的文件及准确标题（`heading`）或唯一包含行（`contains`）。`narrative` 必须含本人正文位置及采用判断；无显著战斗经历时指向如实呈现玩法的正文，不硬凑战绩。临时JSON只作输入，人工结论唯一保存在原复查队列。
 
-交付前运行 `npm run review -- verify person:短名 person:另一短名 --feature combat`，明确列出本次人物。未审、缺项、材料或规则变动导致失效，均以非零状态退出；不能用构建成功替代此项。旧版只有总说明的 `reviewed` 不再视为五项验收完成，按本次涉及范围逐人补审，不批量抄状态或为了消除失效重写全站。该命令验证记录齐全、引用有效且结论未失效，不自动判断文章写得好，也不证明代理确实读懂证据，最终仍须人工对照正文。
+`npm run review -- template person:短名 --feature combat` 生成状态留空的草稿和能通过校验的标题、首行锚点；`writing-depth` 同样适用，并附事件格式。已有结论时沿用旧判断文字、清空状态并列出失效证据。锚点只保证能定位，选用前仍须读对应段落；旧判断须对照现稿重写或确认，不能原样回填。
 
-唯一人工队列是 `docs/reviews/<feature>.json`，只给实际核读过的对象写记录，不预填数百条“待查”。记录包含结论、具体缺口／采用理由、证据指针及当时输入与规则的指纹，不重复事件正文和统计，不另写阶段汇总日志。证据可重复 `--evidence`，允许带章节锚点。
+交付前运行 `npm run review -- verify person:短名 person:另一短名 --feature combat`，明确列出本次人物。未审、缺项、材料变动或规则收紧导致失效、规则改动未声明，均以非零状态退出；不能用构建成功替代此项。旧版只有总说明的 `reviewed` 不再视为五项验收完成，按本次涉及范围逐人补审，不批量抄状态或为了消除失效重写全站。该命令验证记录齐全、引用有效且结论未失效，不自动判断文章写得好，也不证明代理确实读懂证据，最终仍须人工对照正文。
+
+唯一人工队列是 `docs/reviews/<feature>/<person|battle>/<短名>.json`，一个对象一个文件，只给实际核读过的对象写记录，不预填数百条“待查”。记录包含结论、具体缺口／采用理由、证据指针、当时输入的指纹及规则严格度等级，不重复事件正文和统计，不另写阶段汇总日志。人物或战役撤下时删除其各功能记录，`npm run check` 会列出残留文件。证据可重复 `--evidence`，允许带章节锚点。
 
 - `reviewed`：本项所需覆盖已人工核完；不表示全文或其他功能已审核。
 - `needs-work`：已读部分证据，仍有具体缺口；说明已读范围和下一步。
 - `blocked`：确有来源访问／身份等阻碍；原因与失败记录留正式素材。
-- `unreviewed`、`stale` 由脚本计算。没有记录就是未审；输入或所选规则变化就是失效，旧结论仍可查看。取得响应、关键词命中、互链出现、校验或构建成功均不能自动写 `reviewed`。
+- `unreviewed`、`stale` 由脚本计算。没有记录就是未审；输入变化或规则声明收紧就是失效，旧结论仍可查看。取得响应、关键词命中、互链出现、校验或构建成功均不能自动写 `reviewed`。
 
 指纹覆盖本人正文、档案（含小号与已存KB）、素材、素材所链接的共享来源、额外证据，以及本人在已有战役中的关联。新增战役命中、身份改变、关联消失也会失效。战报中别人的普通KM变化不重置本人记录。共享来源只跟随 `docs/sources/` 本地链接，不沿人物互链把全站串进同一依赖。
 
@@ -87,9 +89,18 @@ npm run review -- impact --feature battle-attribution --files src/battles/某战
 
 `--since` 合并指定Git引用以来的暂存、未暂存及未跟踪文件；只输出所选功能的候选对象与当前状态，不改文件、不联网。依赖反查同时保留旧审核时的路径，以找出已经删除的关联。先分页看候选，再核失效原因与相关段落，不为消除 `unreviewed` 重写全站。
 
-功能规则只在 `docs/review-features.json` 登记适用对象、检索词和权威规则选择器；可选整文件、精确标题节或唯一包含行。战斗项只依赖战斗相关节，样式等无关节变化不重置已完成的战斗审核。新增审查维度先复用该机制；需要新的确定性检测再扩脚本，不把各功能规则复制到技能或列传。`battle-attribution` 已支持战役对象的结构卡、规则指纹和影响筛选；它不自动裁决阵营。修改复查算法语义时提升脚本中规则指纹的 `engine` 版本，让旧结论重新进入复查。
+功能规则只在 `docs/review-features.json` 登记适用对象、检索词和权威规则选择器；可选整文件、精确标题节或唯一包含行。战斗项只依赖战斗相关节，样式等无关节变化不涉及战斗审核。新增审查维度先复用该机制；需要新的确定性检测再扩脚本，不把各功能规则复制到技能或列传。`battle-attribution` 已支持战役对象的结构卡、规则指纹和影响筛选；它不自动裁决阵营。
 
-功能的共享实现文件另在该配置的 `implementation` 中登记：修改人物归并或战报计算会重置关联功能的结论，改CSS不会重置战斗审核。以后增加其他功能时登记它实际依赖的实现与规则，不把所有改动都绑到每一项审核。
+功能的共享实现文件另在该配置的 `implementation` 中登记，例如人物归并、战报计算；改CSS不涉及战斗审核。以后增加其他功能时登记它实际依赖的实现与规则，不把所有改动都绑到每一项审核。
+
+所选规则节、功能配置或登记的实现一改，脚本就发现规则指纹与 `strictness` 登记不符；声明前 `mark`、`verify` 与 `npm run check` 均拒绝通过，`impact` 列出该功能全部已有记录供判断。只有收紧才让旧结论失效：
+
+```sh
+npm run review -- accept --feature combat --change tighten   # 新增必查项、提高标准或修改复查算法语义：等级加一，旧结论失效
+npm run review -- accept --feature combat --change relax     # 放宽、删减要求或只改措辞：只登记新指纹，旧结论保留
+```
+
+同一处改动既有收紧又有放宽按收紧声明。声明写入 `docs/review-features.json` 的 `strictness`，不手改其中的指纹。
 
 战役对名称表只取该场涉及的组织：给别的军团改名不会让所有战役重审，修改本场军团名称／华人标记则会失效。`impact --state stale` 可在变更候选里只看已经失效的人工结论。
 

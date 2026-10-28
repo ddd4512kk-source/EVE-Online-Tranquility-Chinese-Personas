@@ -1,0 +1,97 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mai-shoushou/materials-mai-shoushou.md",
+    "src/people/mai-shoushou/mai-shoushou.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文及本人素材，核原主线、争议和作战画像。 2026-10-29恢复KB首句并调正档案标题顺序。",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+          "heading": "## 2026-10-11 全帖楼中楼复读补充"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件对照事件分量和正文发挥。",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+          "heading": "## 2026-10-11 全帖楼中楼复读补充"
+        }
+      ],
+      "items": [
+        {
+          "title": "SAO对线与脚本指控",
+          "reason": "事件有持续冲突或重大个人行为，影响人物主线。",
+          "note": "对照本人素材与正文，保留各方说法并写出过程和反应。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+            "contains": "卖手说“我这帖子不是和你解决问题的，我是挂你的”"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mai-shoushou/mai-shoushou.md",
+            "contains": "卖手自己开了"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "离开DC后在绝地与SAO交恶",
+              "evidence": {
+                "file": "src/people/mai-shoushou/mai-shoushou.md",
+                "contains": "2021 年 3 月，卖手离开 DC 后在绝地和 SAO 结了怨。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "承认弄错DPL仍坚持以帖子挂人",
+              "evidence": {
+                "file": "src/people/mai-shoushou/mai-shoushou.md",
+                "contains": "行行行DPL不是你建立的"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "对方开赌局、双方重复追问",
+              "evidence": {
+                "file": "src/people/mai-shoushou/mai-shoushou.md",
+                "contains": "飞雪开出抓到一个 SAO 脚本实锤就给五百亿"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主要事件仍是正文重心，新战斗块衔接人物玩法。",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/mai-shoushou.md",
+          "contains": "卖手打架的路数，先看得出一个“等”字："
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mai-shoushou/2115186880-id.json",
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "14bde8da6c8bf58cdbab5f4c7404ce836ea6faaa9ed0037ef09bc1ed25478f54",
+  "level": 1
+}

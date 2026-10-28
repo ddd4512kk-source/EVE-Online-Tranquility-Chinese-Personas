@@ -1,0 +1,25 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面5条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+    "docs/bilibili/19078661.json",
+    "docs/bilibili/21975132.json",
+    "docs/bilibili/2874813.json",
+    "docs/bilibili/3050993.json",
+    "docs/bilibili/908550.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/19078661.json",
+    "docs/bilibili/21975132.json",
+    "docs/bilibili/2874813.json",
+    "docs/bilibili/3050993.json",
+    "docs/bilibili/908550.json",
+    "src/_data/entityNames.json",
+    "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+    "src/battles/yz9-f6-2020/yz9-f6-2020.json",
+    "src/battles/yz9-f6-2020/yz9-f6-2020.md"
+  ],
+  "inputs": "1ed8b93ccc7bb4143bcc1a0b505ab0e7729e323037c13d804c16569931fea473",
+  "level": 0
+}

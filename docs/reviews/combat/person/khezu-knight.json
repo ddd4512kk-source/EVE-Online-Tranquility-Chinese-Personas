@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/khezu-knight/materials-khezu-knight.md",
+    "src/people/khezu-knight/khezu-knight.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核收录号舰队玩法及综合战绩",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/materials-khezu-knight.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号，素材没有其他主力号或售号线索",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/materials-khezu-knight.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2024年12月最高月与集体战斗样本",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/materials-khezu-knight.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核BWF主战星系、窗口及PH归属",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/materials-khezu-knight.md",
+          "heading": "## 综合战绩与高值月"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "已增独立战斗红料，保留周边创作主线",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/khezu-knight.md",
+          "contains": "夫鲁的船不是只停在工作台上等着配色。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/khezu-knight/2122750675-id.json",
+    "src/people/khezu-knight/khezu-knight.md",
+    "src/people/khezu-knight/materials-khezu-knight.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "aacfef0f23f3259f143f51722ff912c86460f7d4972b27b4c713db6b2853c766",
+  "level": 1
+}

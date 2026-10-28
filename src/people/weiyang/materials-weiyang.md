@@ -2,7 +2,7 @@
 
 ## 未央 / WEIYANGWEIYANGWEIYANG
 
-收录角色：**WEIYANGWEIYANGWEIYANG（2119796256）**，头衔“未央”。已有[列传源文件](weiyang.md)。贴吧账号 **可爱的灭帝**（uid 1334121927）：其 7768813881 以“卡商WEIYANGWEIYANGWEIYANG（下称WY）”为当事方写法律分析，7766742503 以第一人称自述“我挂的10张卡”，楼中楼被称“商人”，判断为本人。
+原收录角色、现登记小号：**WEIYANGWEIYANGWEIYANG（2119796256）**，头衔“未央”。已有[列传源文件](weiyang.md)。贴吧账号 **可爱的灭帝**（uid 1334121927）：其 7768813881 以“卡商WEIYANGWEIYANGWEIYANG（下称WY）”为当事方写法律分析，7766742503 以第一人称自述“我挂的10张卡”，楼中楼被称“商人”，判断为本人。
 
 ### 料与来源
 
@@ -18,6 +18,7 @@
 ### 检索记录与缺口
 
 - 画像：2022-03-17 建号即进 Beng beng Begn（Fraternity.）；2022-08—2025-07 在 NPC 军团；2025-07 起回到 Beng beng Begn。简介“超网危险，警钟长鸣！！！！……”下挂贝斯特拉、归魂者、俄洛巴斯、九头蛇蓝图超网订单。KB 击杀 0、损失 97（0.8B）。论坛无用户。
+- 收录号 Weiyang Koraka（2114909279）[stats](https://zkillboard.com/api/stats/characterID/2114909279/) 返回 971 次参与击杀、215 次损失，参与击毁约 684.7B；stats 的 `topAllTime` 中舰船榜实际有数据：Eagle 战鹰 114、Huginn 休津 101、Muninn 缪宁 80、Gila 毒蜥 74、Paladin 帕拉丁 73（均为该角色参与击杀次数，不等于独立击杀）。舰型 ID 12011、11961、12015、17715、28659 经 ESI universe/names 核实；先前仅查 topShips 的空结果，不能当舰船榜不存在。不能把卡商小号的零击杀当成人物整体战绩。最高月 2022-07 约 178.3B，[月度接口](https://zkillboard.com/api/kills/characterID/2114909279/year/2022/month/7/)返回 121 条；[KM 102120445](https://zkillboard.com/kill/102120445/) 于 2022-07-15 14:16:10 UTC，由 174 个攻击方参与击毁拉格纳洛克，约 142.06B；本人驾驶蝎尾怪参与，不能归为单人击杀。舰型按 ESI universe/names 核对。
 - 贴吧：tieba-client-user 列出可爱的灭帝全部主题（含 2020-02 自述“我的航母飘在太空，星城没了”等，未用）。
 - 未查：FRT 公告原图；B 站。
 

@@ -1,0 +1,52 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/khezu-knight/materials-khezu-knight.md",
+    "src/people/khezu-knight/khezu-knight.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文及本人素材，核原主线、争议和作战画像。",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/materials-khezu-knight.md",
+          "heading": "## 贴吧（帖子列表中楼主“夫鲁土豆”共 57 帖，读了以下）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件对照事件分量和正文发挥。",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/materials-khezu-knight.md",
+          "heading": "## 贴吧（帖子列表中楼主“夫鲁土豆”共 57 帖，读了以下）"
+        }
+      ],
+      "items": [],
+      "noHeavyReason": "本人材料主要是周边创作、评论与普通跟队参战，未见足以判重的重大争议或重大后果事件。"
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主要事件仍是正文重心，新战斗块衔接人物玩法。",
+      "evidence": [
+        {
+          "file": "src/people/khezu-knight/khezu-knight.md",
+          "contains": "夫鲁的船不是只停在工作台上等着配色。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/khezu-knight/2122750675-id.json",
+    "src/people/khezu-knight/khezu-knight.md",
+    "src/people/khezu-knight/materials-khezu-knight.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "aacfef0f23f3259f143f51722ff912c86460f7d4972b27b4c713db6b2853c766",
+  "level": 1
+}

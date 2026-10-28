@@ -34,11 +34,15 @@
       }
     ],
     "checks": {
-      "profile": "收录号综合KB、常用船及实际职责",
-      "alts": "主力小号与售号归因边界",
-      "peaks": "高值月份与代表KM的采用或略过理由",
+      "profile": "以stats总览判断战斗频率、规模及正文相符程度；职责证据按需核",
+      "alts": "已确认主力小号的stats总览及同人、售号归因边界，不逐号补全船型细目",
+      "peaks": "是否有须细查月份或代表KM的具体事件、职责或战果问题；无此需要可不适用",
       "battles": "已有战役对照、窗口与本人角色",
       "narrative": "独立战绩红料块的正文位置与综合点评；有显著战斗经历而战绩散在开篇或其他料块，不能标为 reviewed"
+    },
+    "strictness": {
+      "level": 1,
+      "rules": "c03a2081f43938c7010a34258366f5e714cb3e7322367c143857f7991d54000b"
     }
   },
   "battle-attribution": {
@@ -55,7 +59,11 @@
       {
         "file": "docs/battle-template.md"
       }
-    ]
+    ],
+    "strictness": {
+      "level": 2,
+      "rules": "1b7659f662ac46c7e291476700f3fd7f2e8720350a15a1878cac1426bb7159a9"
+    }
   },
   "battle-videos": {
     "kinds": [
@@ -84,13 +92,17 @@
       },
       {
         "file": "docs/research-method.md",
-        "contains": "**B站日期与中文时段**"
+        "contains": "**中文日期先换算 UTC**"
       },
       {
         "file": "docs/battle-template.md",
         "heading": "## 相关视频填写"
       }
-    ]
+    ],
+    "strictness": {
+      "level": 1,
+      "rules": "eb10886c6d9718c9819d597bb09784af5b9d258dc3620c1270a9484c779e2bf3"
+    }
   },
   "persona-tags": {
     "kinds": [
@@ -105,7 +117,11 @@
         "file": "docs/writing-review.md",
         "heading": "## 标签"
       }
-    ]
+    ],
+    "strictness": {
+      "level": 1,
+      "rules": "a167e69accce6dc45066619d46eb52d3d39a99ab7c004b0f574f8b93a5e88016"
+    }
   },
   "famous-fc": {
     "kinds": [
@@ -122,7 +138,11 @@
         "file": "docs/writing-review.md",
         "contains": "标签表示活动圈子"
       }
-    ]
+    ],
+    "strictness": {
+      "level": 1,
+      "rules": "785c814bcfab35bf42a365c54fab198914ed0144655e869901a3d6476d9840e7"
+    }
   },
   "writing-depth": {
     "kinds": [
@@ -155,6 +175,10 @@
       "coverage": "对照完整正文与已有素材，清点独立事件及未采用重料",
       "events": "逐件判分量、采用方式、发挥方向与充分程度",
       "balance": "检查重料在全文中的叙事分量、主线与评语"
+    },
+    "strictness": {
+      "level": 1,
+      "rules": "7604e7653de44d7a52e03a8093b2c2dd4ac0c618107d8bf601a998fa93e6be94"
     }
   }
 }

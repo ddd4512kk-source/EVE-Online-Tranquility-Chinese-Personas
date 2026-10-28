@@ -1,0 +1,35 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级：沿用已有FC身份依据；按正式战役统计合并本人主号及已确认小号，共4场大型或史诗战役（同场去重、排除正文点名），未达到10场门槛，改回FC。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/eternityblue/eternityblue.md",
+    "src/people/eternityblue/2122271073-id.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json"
+  ],
+  "dependencies": [
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/people/eternityblue/2122271073-id.json",
+    "src/people/eternityblue/eternityblue.md",
+    "src/people/eternityblue/materials-eternityblue.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md"
+  ],
+  "inputs": "8190d00e67ba225d3d8414a391942b7ca800139998c0fd186073934148553394",
+  "level": 1
+}

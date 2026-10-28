@@ -1,0 +1,161 @@
+{
+  "status": "reviewed",
+  "note": "核对主号、小号、高值月及九场战役时空。",
+  "evidence": [
+    "src/people/mei-kanata/materials-mei-kanata.md",
+    "src/people/mei-kanata/mei-kanata.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "全文对照作品公开文字与身份材料，保留两家争执、错诱导、巨蟒和金主故事；待核号未并入身份 本轮已对照新增战斗材料和正文。",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 身份与小号"
+        },
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 作品阅读"
+        },
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 2026-10-28 战斗画像定向重试"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本人频道事件的现实材料为作品标题、简介及评论，明确未读影像",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/materials-mei-kanata.md",
+          "heading": "## 作品阅读"
+        }
+      ],
+      "noHeavyReason": "作品材料涉及舰队事故、争执与未签巨蟒的玩笑，尚无本人封号、骗款、重大指挥事故的确证；未读影像不推额外事件。",
+      "items": [
+        {
+          "title": "两天得罪两家",
+          "reason": "作者本人以作品及评论讲述熟人阵营玩笑",
+          "note": "保留标题和评论中对角色立场的反差",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mei-kanata/materials-mei-kanata.md",
+            "heading": "### 两天得罪两家"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mei-kanata/mei-kanata.md",
+            "contains": "2023年，他给一条投稿起名"
+          }
+        },
+        {
+          "title": "错诱导反打",
+          "reason": "本人投稿的战斗事件",
+          "note": "以作品标题与评论讲故事，不推定其下令或具体驾驶",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mei-kanata/materials-mei-kanata.md",
+            "heading": "### 错诱导与PK"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mei-kanata/mei-kanata.md",
+            "contains": "2024年12月，他上传"
+          }
+        },
+        {
+          "title": "巨蟒未签和新人答疑",
+          "reason": "作品评论体现个人得失与新人互动",
+          "note": "保留没有签上巨蟒和给新人出主意的反差",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mei-kanata/materials-mei-kanata.md",
+            "heading": "### 没签上巨蟒与新人答疑"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mei-kanata/mei-kanata.md",
+            "contains": "2025年8月，他上传"
+          }
+        },
+        {
+          "title": "金主抢救失败",
+          "reason": "本人制作题材及熟人交流",
+          "note": "只按公开标题、简介和评论叙述",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mei-kanata/materials-mei-kanata.md",
+            "heading": "### 新年金主"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mei-kanata/mei-kanata.md",
+            "contains": "2026年开年，他又发"
+          }
+        },
+        {
+          "title": "R-AG7W 三号围猎",
+          "reason": "三个确认角色共同参与泰坦与超级航母击杀",
+          "note": "采用共同战果及角色重叠的限界",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mei-kanata/materials-mei-kanata.md",
+            "heading": "## 2026-10-28 战斗画像定向重试"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mei-kanata/mei-kanata.md",
+            "contains": "2025 年 11 月，R-AG7W 的撤离成了围猎大船的机会"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "文章以本人战斗记录、频道自嘲和熟人互动为主，未将转载视角冒作本人",
+      "evidence": [
+        {
+          "file": "src/people/mei-kanata/mei-kanata.md",
+          "contains": "侃侃熊的频道像军团活动散场后的那桌饭"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/community-br-review-2026-10-12.md",
+    "src/people/mei-kanata/2113379197-id.json",
+    "src/people/mei-kanata/materials-mei-kanata.md",
+    "src/people/mei-kanata/mei-kanata.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "18a23bedc3964a4fe8d22e6cb7a59876035a6a5d2ded65da9d72332eacb4f987",
+  "level": 1
+}

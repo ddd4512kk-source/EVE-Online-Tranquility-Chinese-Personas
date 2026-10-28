@@ -1,0 +1,245 @@
+{
+  "status": "reviewed",
+  "note": "已逐项核对本人素材和正文重料。",
+  "evidence": [
+    "src/people/drone-wang/materials-drone-wang.md",
+    "src/people/drone-wang/drone-wang.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐读正文和素材，核对RR交接、RR解体、维纳尔争端、牧星去留及封号线索。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "contains": "换盟主公告与公开争执"
+        },
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "contains": "牧星近况帖的反驳与新指控"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件称重，交接和军团去留均有冲突及不同方评价，人物作战经历未覆盖这些主线。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "contains": "换盟主公告与公开争执"
+        }
+      ],
+      "items": [
+        {
+          "title": "RR让位与买盟争议",
+          "weight": "heavy",
+          "reason": "联盟创始人交出领导位置引发收购争议",
+          "note": "标出五万亿只属评论指控，声明否认收购。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "楼主公告宣布将 CEO 让位于路小兔"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "王答答在贴吧发布《RR联盟正式公告》"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代任命路小兔和三人分工",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "自己负责战斗"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "本人否认收购，评论者提出报价",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "spyfromserenity"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "公告和节目给交接不同解释",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "交接该叫什么名字"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "RR解体",
+          "weight": "heavy",
+          "reason": "AOM合并与被除名直接关联RR末期",
+          "note": "文章呈现事后评论和合并推测，未认定报价实际存在。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "N老板事后文章"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "2022 年 1 月，AOM 想整体并入 RR"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代AOM想并入RR",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "AOM 想整体并入 RR"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "N老板与帝国系成员各自评论并购",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "王达达过于憨厚"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "RR被除名后王离开旧军团另起新团",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "王答答离开了自己一手创立的 Ranger Warrior"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "维纳尔任务点争端",
+          "weight": "heavy",
+          "reason": "旧盟友间大规模冲突及利益指控",
+          "note": "兵力、事件与收益均来自楼主及回复，并未独立核实。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "维纳尔毒蜥任务点"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "欧服吧有人讲过国服二服开服时的一段旧事"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "来源说毒蜥任务点竞争",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "开服卖毒蜥一天能卖2万r"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "台风求情与来源所述不答直接拆结构",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "台风哭着问王哒哒"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "楼内将赚钱与日后合作放一起议论",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "楼中楼有人回"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "牧星人口流失和RMT指控",
+          "weight": "heavy",
+          "reason": "新军团人口下降和管理争议影响其经营主线",
+          "note": "保留批评、反驳和传闻归属，不把网友辩护当本人认账。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "称养人口后收菜、直接点王哒哒"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "据社交媒体，牧星集结一度靠近两百人"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "私聊描述人口从两百降至二十",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "两个月内掉到了二十人"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "支持者先反驳又假设回应",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "先拿刷深渊补损反驳"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "楼内争议人物是否AFK",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "昨天还在来菲德来收割"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "RR创立和交接、旧日争议及后续牧星和天宫并存，战斗只做经历补充。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "王答答把 RR 的旗立起来"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "src/people/drone-wang/2112538533-id.json",
+    "src/people/drone-wang/drone-wang.md",
+    "src/people/drone-wang/materials-drone-wang.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "607dc6e38084f30a9d000eafbf9bc7edb175924443cea26aec465528c311c697",
+  "level": 1
+}

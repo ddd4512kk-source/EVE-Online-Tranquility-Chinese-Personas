@@ -1,0 +1,78 @@
+{
+  "status": "reviewed",
+  "note": "按stats总览、主力号归因、实际指挥证据及三场战役复核。",
+  "evidence": [
+    "src/people/mover-keeper/materials-mover-keeper.md",
+    "src/people/mover-keeper/mover-keeper.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读主号stats总览，累计、月份和实际指挥证据支持长期活跃与FC职责；现有细节只取所需。",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 游戏经历"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "三号已核同人关系和存档stats总览，主力号均有多年参战记录；船型细目不作统一门槛，未发现售号边界冲突。",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 游戏经历"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号与主力小号高值月核代表目标，同一目标不重复累计",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 高值月份代表记录"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "逐一核欧塔萨塞、X47及阿巴宗的本人损失时间和星系，均只认普通参战",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 游戏经历"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战斗块概括指挥和火力舰经历，以具体战斗和三场战役体现，不将团队金额当个人战果",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/mover-keeper.md",
+          "contains": "::: 红料 战场上的漫步"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "src/people/mover-keeper/2116726862-id.json",
+    "src/people/mover-keeper/materials-mover-keeper.md",
+    "src/people/mover-keeper/mover-keeper.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "31a8f873ca561b8a99742af96a09dab7e68d7868e62b0e9d2ba8f07e2d2546fa",
+  "level": 1
+}

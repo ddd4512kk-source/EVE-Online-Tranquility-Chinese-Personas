@@ -1,0 +1,72 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/irving-zh/materials-irving-zh.md",
+    "src/people/irving-zh/2120715980-id.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/irving-zh/irving-zh.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "结合收录号 stats 与常用船核对长期舰队画像。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/materials-irving-zh.md",
+          "heading": "## 2026-10-28 战斗画像复核"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "核身份档案无已确认小号，未把他人角色并入。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/2120715980-id.json",
+          "contains": "\"id\": 2120715980"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已检查最高值月接口的代表样本与攻击者，不将集体战果归个人。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/materials-irving-zh.md",
+          "contains": "2024 年 7 月接口返回 35 条"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核 X47 单星系快照，本人参与而不推断指挥。",
+      "evidence": [
+        {
+          "file": "src/battles/x47l-q-2023/x47l-q-2023.json",
+          "contains": "\"2120715980\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战绩块写本人长期舰队角色与 X47 会战。",
+      "evidence": [
+        {
+          "file": "src/people/irving-zh/irving-zh.md",
+          "contains": "X47 会战"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/irving-zh/2120715980-id.json",
+    "src/people/irving-zh/irving-zh.md",
+    "src/people/irving-zh/materials-irving-zh.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "d58bc2230ba84f7ba3a33538eb74e2f50e99874b55f4707f7d3d4e26b955deb5",
+  "level": 1
+}

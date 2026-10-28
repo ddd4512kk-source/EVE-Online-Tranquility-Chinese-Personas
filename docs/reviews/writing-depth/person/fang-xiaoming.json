@@ -1,0 +1,150 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+    "src/people/fang-xiaoming/fang-xiaoming.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读身份、四篇贴吧主题、群聊马甲材料和新增战斗证据，并对照人物正文。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 贴吧主题（全部 4 帖，客户端接口读全）"
+        },
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 铁血熊猫人马甲"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重点检查假旗言论和会议录音传播，保留证据可支持的责任边界。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 铁血熊猫人马甲"
+        },
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 贴吧主题（全部 4 帖，客户端接口读全）"
+        }
+      ],
+      "items": [
+        {
+          "title": "假扮对手发言",
+          "reason": "当事人群聊言论直接关系宣传手法和对对手的攻击。",
+          "weight": "heavy",
+          "note": "呈现群聊内容、冒认对手的反差及其与旧日宣传口的关联。",
+          "source": {
+            "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+            "contains": "社区说法：此人多次伪装成 FRT 成员"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+            "contains": "4-H 指 4-HWWF"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "背景是北方大战的 4-HWWF。",
+              "evidence": {
+                "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+                "contains": "4-H 指 4-HWWF"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "自己发表的攻击言论装成对手发言。",
+              "evidence": {
+                "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+                "contains": "自己说出来是恶心人"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "联系他早年给帝国写通稿的宣传角色。",
+              "evidence": {
+                "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+                "contains": "2018 年给“帝国”写通稿"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "九州会议录音传播",
+          "reason": "当事人在九州任职时传播会议录音并引发阵营身份争论。",
+          "weight": "heavy",
+          "note": "写上传及回帖、围观反应和九州回应；录制者身份无法证实。",
+          "source": {
+            "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+            "contains": "[5986152284](https://tieba.baidu.com/p/5986152284)"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+            "contains": "四天后，他把九州的军团会议录音挂上网盘"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "九州受到阵营去留争议，会议录音流出。",
+              "evidence": {
+                "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+                "contains": "四天后，他把九州的军团会议录音挂上网盘"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "他在九州任职却对身份追问作出回避。",
+              "evidence": {
+                "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+                "contains": "可游戏雇佣记录摆在那儿"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "围观者描述录音内容，九州随后宣布留下，他后来退团。",
+              "evidence": {
+                "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+                "contains": "听过录音的吧友总结"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "通稿、假旗与会议录音仍是主体，战斗只补本人随队经历。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+          "contains": "真理部的规矩是"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/fang-xiaoming/2113415433-id.json",
+    "src/people/fang-xiaoming/fang-xiaoming.md",
+    "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2018/x47l-q-2018.json",
+    "src/battles/x47l-q-2018/x47l-q-2018.md",
+    "src/battles/x47l-q-2018/materials-x47l-q-2018.md"
+  ],
+  "inputs": "92acf4534217ab6e4c60704538159ee93c7aeccfcae76133c5a9098e8cb7ca41",
+  "level": 1
+}

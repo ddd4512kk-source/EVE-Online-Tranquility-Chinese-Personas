@@ -1,0 +1,176 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材与全文，保留争议主线并补充战斗画像。",
+  "evidence": [
+    "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+    "src/people/puli-nidhogg/puli-nidhogg.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照素材及全文的悬赏、毁电名声、尸体拍卖、欢迎词和007传闻；社区传闻不当作已经证实的事实。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+          "heading": "## 来源（贴吧 eve欧服吧，均用匿名客户端读到主楼）"
+        },
+        {
+          "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+          "heading": "## 游戏数据（profile.mjs，2026-10-09）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "悬赏是已留下明确游戏规则的跨联盟追猎事件；尸体拍卖及欢迎词、误传分开记为社区冲突和个人言论。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+          "contains": "[6278158246]"
+        }
+      ],
+      "items": [
+        {
+          "title": "欧米悬赏令",
+          "weight": "heavy",
+          "reason": "公开悬赏以击杀价值比例付奖励，体现他在圈内与对手的持续关系。",
+          "source": {
+            "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+            "contains": "[6278158246]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+            "contains": "2019 年 9 月 28 日，贴吧发出"
+          },
+          "note": "保留名单、报酬办法、旁人反应及随后“欧米守护者”称号，不编悬赏缘由。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "名单点名普利并面向其他联盟邀约猎杀。",
+              "evidence": {
+                "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+                "contains": "2019 年 9 月 28 日，贴吧发出"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "悬赏没有公开缘由，旁人却主动给他补出守护者封号。",
+              "evidence": {
+                "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+                "contains": "跟帖有人欢呼"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "有人追问原因又自行收回，后来兔姐CEO话题里又有人提他。",
+              "evidence": {
+                "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+                "contains": "跟帖有人欢呼"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "尸体拍卖及顶蓝争议",
+          "weight": "ordinary",
+          "reason": "有明确拍卖帖和对立传闻，顶蓝未经独立证实。",
+          "source": {
+            "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+            "contains": "[6362097593]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+            "contains": "圈里传过普利在维纳尔顶蓝杀蓝的事"
+          },
+          "note": "保留两种说法和拍卖反应，传闻不强行定案。"
+        },
+        {
+          "title": "被欢迎与黑名单",
+          "weight": "ordinary",
+          "reason": "欢迎词与回帖体现人缘和外号，具体黑名单依据未核。",
+          "source": {
+            "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+            "contains": "[7212111701]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+            "contains": "2021 年 1 月 30 日"
+          },
+          "note": "按欢迎词转述，不把名单排名认作正式记录。"
+        },
+        {
+          "title": "毁电实践名声",
+          "weight": "ordinary",
+          "reason": "社区回答指名其玩法与经验。",
+          "source": {
+            "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+            "contains": "[8772972641]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+            "contains": "2023 年底，贴吧有人问"
+          },
+          "note": "正文以他被当活样本来写。"
+        },
+        {
+          "title": "007封号误传",
+          "weight": "ordinary",
+          "reason": "署名情报与本人回应构成清晰反转。",
+          "source": {
+            "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+            "contains": "[10570526263]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+            "contains": "2026 年 3 月，吧里有人发帖"
+          },
+          "note": "保留当事人解释及后续上线，未认定封号。"
+        },
+        {
+          "title": "BWF与长期小船画像",
+          "weight": "ordinary",
+          "reason": "本人参战及综合画像，不把舰队战果归功个人。",
+          "source": {
+            "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+            "heading": "### BWF-ZZ星城攻防（2025-04-05）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+            "contains": "他也不只一个人追猎"
+          },
+          "note": "独立红料兼顾小船单挑与大型战役背景。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留猎手、人缘两面、具体争议和错误情报，新战绩段不取代原有事件。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+          "contains": "战绩是真的，名声也是真的"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/puli-nidhogg/2114160082-id.json",
+    "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+    "src/people/puli-nidhogg/puli-nidhogg.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "79508cf57db53beaf88d1e1d5cb95d02b006bbcd0d6f3f53187ba33623d8c7ac",
+  "level": 1
+}

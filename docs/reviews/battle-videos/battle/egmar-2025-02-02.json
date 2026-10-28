@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面1条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "docs/bilibili/10126340.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/10126340.json",
+    "src/_data/entityNames.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md"
+  ],
+  "inputs": "1ca51296ab8de55da5b758c0d73a31bb60f1b1c57bac599690a34e9e1c532b54",
+  "level": 0
+}

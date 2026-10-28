@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面1条推荐。\n## 日期候选关联与推荐（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/rjbc-i-2025/materials-rjbc-i-2025.md",
+    "docs/bilibili/9621579.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/9621579.json",
+    "src/_data/entityNames.json",
+    "src/battles/rjbc-i-2025/materials-rjbc-i-2025.md",
+    "src/battles/rjbc-i-2025/rjbc-i-2025.json",
+    "src/battles/rjbc-i-2025/rjbc-i-2025.md"
+  ],
+  "inputs": "9648ce91c0cdfd2034cb7c1cf56ea71f8e0b03195833747be875c745c8cacc4e",
+  "level": 0
+}

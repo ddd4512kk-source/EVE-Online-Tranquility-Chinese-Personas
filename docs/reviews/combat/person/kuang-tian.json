@@ -1,0 +1,100 @@
+{
+  "status": "reviewed",
+  "note": "按新规则核：战绩为独立红料块，紧接开篇",
+  "evidence": [
+    "src/people/kuang-tian/kuang-tian.md",
+    "src/people/kuang-tian/materials-kuang-tian.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号完整简介、5185参与击杀、常用船及历史阵营已读；总览不当创作证据，参与价值不当个人收入。",
+      "evidence": [
+        {
+          "file": "src/people/kuang-tian/materials-kuang-tian.md",
+          "heading": "## 简介、综合KB与职责"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "三号确认归属，按上限读Sna Revenger及missrabbit03，分别4303及110参与击杀；未将普通常规船作指挥证据。",
+      "evidence": [
+        {
+          "file": "src/people/kuang-tian/materials-kuang-tian.md",
+          "heading": "## 身份与账号"
+        },
+        {
+          "file": "src/people/kuang-tian/materials-kuang-tian.md",
+          "heading": "## 简介、综合KB与职责"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号最高两月202607及202506分别抽SVM与Lantorn本人KM，核对具体时间、系统与船；不是宣称抽到月榜最大战果。Sna另核4月泰坦KM。",
+      "evidence": [
+        {
+          "file": "src/people/kuang-tian/materials-kuang-tian.md",
+          "heading": "## 履历与高值月份代表"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "四号逐场对照，八场自然人去重；核BR窗口、历史阵营、代表船；8F只用正式pilot粒度，不虚写指挥。",
+      "evidence": [
+        {
+          "file": "src/people/kuang-tian/materials-kuang-tian.md",
+          "heading": "## 已有战役逐场对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩单独成红料块：综合KB与主力小号合写长期战列线画像及黑影FC；FWST-8狂热损失后改开希尔博拉斯、兰多恩双鹏鲲打BIGAB后来自己入BIGAB、SVM-3K与创世并肩打OF与八月卖船给OF、骂CS的反差，三场展开为小故事。",
+      "evidence": [
+        {
+          "file": "src/people/kuang-tian/kuang-tian.md",
+          "contains": "::: 红料 KB：五千杀的战列线"
+        },
+        {
+          "file": "src/people/kuang-tian/kuang-tian.md",
+          "contains": "既然是FC"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/kuangtian-yinkong-capital-dispute-2026.md",
+    "src/people/kuang-tian/2116350757-id.json",
+    "src/people/kuang-tian/kuang-tian.md",
+    "src/people/kuang-tian/materials-kuang-tian.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/sosala-2025/sosala-2025.json",
+    "src/battles/sosala-2025/sosala-2025.md",
+    "src/battles/sosala-2025/materials-sosala-2025.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+  ],
+  "inputs": "086fb5e681489a0d2d056693cd95ad7909098e8efbb2c502e73ddbe138af26f7",
+  "level": 1
+}

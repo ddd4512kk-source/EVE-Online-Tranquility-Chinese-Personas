@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 虫洞、00区、江湖恩怨、RMT。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨；本人是冠军船人民币交易的中间人，有成交价、双方、牵线经过与本人回应，补RMT。未复核本文其他内容。",
+  "evidence": [
+    "src/people/nan-li-leo/nan-li-leo.md",
+    "src/people/nan-li-leo/2113744134-id.json"
+  ],
+  "dependencies": [
+    "src/people/nan-li-leo/2113744134-id.json",
+    "src/people/nan-li-leo/materials-nan-li-leo.md",
+    "src/people/nan-li-leo/nan-li-leo.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "64082761a4b6a1accc228d31a879ff9bf1ee2cb0447c777c61a821fd77d68546",
+  "level": 1
+}

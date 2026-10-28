@@ -14,3 +14,9 @@
 ### 检索记录与缺口
 
 - 未搜贴吧／论坛中的“五花肉”。仇恨的建造时间、交船记录、总价未知。
+
+### 战役关联与归因（2026-10-28）
+
+- [A1-AUH战报](../../battles/a1-auh-2021/a1-auh-2021.json)：FishnetWarrior（2114979825）在FRT侧，战报为单一主战星系30003125，损失[95189466](https://zkillboard.com/kill/95189466/)及太空舱；只认参战与损失，不推指挥。
+- [艾蒂斯战报](../../battles/atioth-2026/atioth-2026.json)：Bose（2114957492）为FRT侧参战角色；FishnetWarrior常去该星系不代表其本次也在场。原正文把艾蒂斯参战径归FishnetWarrior，现据本场快照更正。
+- 各角色画像和身份见上方游戏画像与正式档案；复核主号、优先的FishnetWarrior和Supergod统计：主号最高值月2022-03约147.1B，抽样[99676758](https://zkillboard.com/kill/99676758/)；Fishnet最高值月2021-09约494.5B，A1损失95189466同月；Supergod最高值月2019-03约117.3B，抽样[75917456](https://zkillboard.com/kill/75917456/)。均为参与额，不是各号独杀，可同场重复，不相加；未遍历全部月度KM。

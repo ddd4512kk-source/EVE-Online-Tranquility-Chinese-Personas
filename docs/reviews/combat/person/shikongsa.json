@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/shikongsa/materials-shikongsa.md",
+    "src/people/shikongsa/2122252155-id.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/people/shikongsa/shikongsa.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号与主力小号的stats、常用舰及活动；以堵门、散打和舰队参战总结。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "contains": "**主力号战斗画像与高值月**"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核Captain shikongsa对应及其高值月，另两个已登记低于100B号保留但不累计；未见售号边界。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "heading": "## 2026-10-12：前50军团历史榜补查小号"
+        },
+        {
+          "file": "src/people/shikongsa/2122252155-id.json",
+          "contains": "\"name\": \"shikongsa02\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "对照收录号2026-04和Captain 2026-03代表KM；多人攻击，后者船型为太空舱，未臆造战斗舰型。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "contains": "**主力号战斗画像与高值月**"
+        },
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "contains": "Captain shikongsa（2115281834）[stats]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "4-HWWF—8TPX-N快照命中Captain号及损失，按参战而非指挥描述。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/materials-shikongsa.md",
+          "contains": "本地战役 [4-HWWF"
+        },
+        {
+          "file": "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+          "contains": "\"2115281834\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合战绩移至开篇后独立红料，按自然人合并两个主力号，不压过罚款旧事。",
+      "evidence": [
+        {
+          "file": "src/people/shikongsa/shikongsa.md",
+          "contains": "::: 红料 水哥的船"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/people/shikongsa/2122252155-id.json",
+    "src/people/shikongsa/materials-shikongsa.md",
+    "src/people/shikongsa/shikongsa.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
+  ],
+  "inputs": "be5631d806836357ee10b1b18a2e2028187fd92e4b79f324e76fb7bfc501f363",
+  "level": 1
+}

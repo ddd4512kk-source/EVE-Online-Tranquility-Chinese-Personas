@@ -1,0 +1,93 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/texas/materials-texas.md",
+    "src/people/texas/texas.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号常用战列、洛基与多开作战身份结合自述核对。",
+      "evidence": [
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "heading": "## 2026-10-28 战斗画像复核"
+        },
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "某乡下小团fc 收割吹牛帖"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核实八个已登记小号，取两主力小号画像，与主号共同样本不得叠加。",
+      "evidence": [
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "优先核两名主力小号"
+        },
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "小号 KB 查询快照"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号及两主力号最高月2025年12月，同一记录三号共在，样本不是完整月份。",
+      "evidence": [
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "最高值月抽样"
+        },
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "优先核两名主力小号"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "按本人主号和小号对照1N、T8T、TN25及1-SMEB；战报单星系，非自动认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/texas/materials-texas.md",
+          "contains": "关联战役对照：1N-FJ8"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合块以多开与战斗经历统领，已有个人指挥与争议分块保留。",
+      "evidence": [
+        {
+          "file": "src/people/texas/texas.md",
+          "contains": "火锅的 KB 里"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/texas/2121593859-id.json",
+    "src/people/texas/materials-texas.md",
+    "src/people/texas/texas.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "2617bc241305a1f9575a4f8b31bbca1830d178cef6850e43443e8ea3ce241a82",
+  "level": 1
+}

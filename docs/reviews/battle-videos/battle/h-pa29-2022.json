@@ -1,0 +1,20 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面2条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "docs/bilibili/1046470589.json",
+    "docs/bilibili/9468015.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/1046470589.json",
+    "docs/bilibili/9468015.json",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "src/_data/entityNames.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md"
+  ],
+  "inputs": "b18da6eedb429834389c038182faed07c1fba2561ab06c82d1310182d139c12d",
+  "level": 0
+}

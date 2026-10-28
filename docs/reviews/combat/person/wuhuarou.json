@@ -1,0 +1,73 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/wuhuarou/materials-wuhuarou.md",
+    "src/people/wuhuarou/wuhuarou.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号及两个主要战斗号、常用船和长期军团经历，矿业与战斗分开解释",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "### 素材与证据边界"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式档案记四个同头衔小号，优先复核Fishnet及Supergod，不合并各号累计；无售号记录",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "## 五花肉 / Bigmeat"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主号和两个主要战斗号各自高值月及代表KM，未声称逐张读完全月",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "### 战役关联与归因（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核A1单星系中Fishnet损失和艾蒂斯Bose参战；纠正把常去艾蒂斯误认成Fishnet参战",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "### 战役关联与归因（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立战绩红料讲个人多角色矿业与舰队生活，RMT仍是重心",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/wuhuarou.md",
+          "contains": "一家人分工明确"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/wuhuarou/2114965098-id.json",
+    "src/people/wuhuarou/materials-wuhuarou.md",
+    "src/people/wuhuarou/wuhuarou.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "8fe8e13f6734a2a69a40fb72e88fdc2e87edd8835f5427c15c51bcffec7c2bfd",
+  "level": 1
+}

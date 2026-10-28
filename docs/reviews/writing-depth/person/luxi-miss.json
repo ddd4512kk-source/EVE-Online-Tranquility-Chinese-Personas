@@ -1,0 +1,135 @@
+{
+  "status": "reviewed",
+  "note": "已通读全文与本人素材，并对照呆始皇素材的封禁配图摘录。按旧返工意见重写黑料五段：通知本身、名片身份与8F-TK3带队反差、群员从个人账号追问到军团前途、与CEO同晚掉线、担保与带队门面折损分别推进，收掉重复比喻；未写封号原因、期限或RMT。",
+  "evidence": [
+    "src/people/luxi-miss/luxi-miss.md",
+    "src/people/luxi-miss/materials-luxi-miss.md",
+    "src/people/daishihuang/materials-daishihuang.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "独立事件为夏秋绝地带队与10月封号取消活动；AT22名单、旗舰与小号只作画像。封禁弹窗的RMT永封属呆始皇，未移给华。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 2026年10月封号与活动取消"
+        },
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 既有战役对照与采用"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "封号取消活动为重料，按五段展开；带队出勤为红料主线。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 2026年10月封号与活动取消"
+        }
+      ],
+      "items": [
+        {
+          "title": "夏秋绝地带队",
+          "weight": "ordinary",
+          "reason": "多场战役指挥位，构成人物主线",
+          "source": {
+            "file": "src/people/luxi-miss/materials-luxi-miss.md",
+            "heading": "## 既有战役对照与采用"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/luxi-miss/luxi-miss.md",
+            "contains": "华带着龙焰的队伍在绝地接连出勤"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "以6Q到8F写带队处境，不按KM数算战果。"
+        },
+        {
+          "title": "战斗总监被封、取消当晚活动",
+          "weight": "heavy",
+          "reason": "本人@全体成员宣布，直接冲击其指挥身份",
+          "source": {
+            "file": "src/people/luxi-miss/materials-luxi-miss.md",
+            "heading": "## 2026年10月封号与活动取消"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/luxi-miss/luxi-miss.md",
+            "contains": "今晚活动取消，我号被封了"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "通知格式与平日集结令对照",
+              "evidence": {
+                "file": "src/people/luxi-miss/luxi-miss.md",
+                "contains": "十一个字，一个多余的字都没有"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "名片三层身份与十天前8F-TK3指挥位",
+              "evidence": {
+                "file": "src/people/luxi-miss/luxi-miss.md",
+                "contains": "战斗总监这晚唯一的作战命令"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "群员追问从个人账号滚到军团前途",
+              "evidence": {
+                "file": "src/people/luxi-miss/luxi-miss.md",
+                "contains": "问题从一个人的账号滚到整个军团的前途"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "与CEO同晚掉线、担保与带队信誉折损",
+              "evidence": {
+                "file": "src/people/luxi-miss/luxi-miss.md",
+                "contains": "叫得到人、按时开打"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "五段各推进一层，无重复比喻；处罚原因与期限保持未知，只用群友追问呈现。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇、红料指挥主线、黑料与评语都围绕“猫招牌下的带队差事”，封号块落在带队门面的折损。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/luxi-miss.md",
+          "contains": "战斗总监亲自给“好战分子”放了假"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/daishihuang/materials-daishihuang.md",
+    "src/people/luxi-miss/2115746150-id.json",
+    "src/people/luxi-miss/luxi-miss.md",
+    "src/people/luxi-miss/materials-luxi-miss.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "a970380bd16d8c8fe7135c5a6137c6c110c065aeb0c2f1ef20bd8252102768fe",
+  "level": 1
+}

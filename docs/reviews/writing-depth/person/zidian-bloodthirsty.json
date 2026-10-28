@@ -1,0 +1,146 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材和正文核查。",
+  "evidence": [
+    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+    "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+    "src/people/mordiggianking/materials-mordiggianking.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照全文及素材复查维新与DC决裂、成员管理、墨者机库争议及作战记录。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "heading": "## 2026-10-11 维新旧帖全文与楼中楼查补"
+        },
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "contains": "卡戎转述的紫电"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "联盟决裂及机库事件影响军团去向，均补充双方及公开叙述边界。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+          "heading": "## 2026-10-11 维新旧帖全文与楼中楼查补"
+        }
+      ],
+      "items": [
+        {
+          "title": "维新与DC决裂",
+          "weight": "heavy",
+          "reason": "军团与联盟的防守和指挥分歧最终伴随军团离开联盟。",
+          "note": "写索迪约防守、A-B跳桥策略与在场者对私聊的异议，保留不同版本。",
+          "source": {
+            "file": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+            "contains": "维新索迪约防守"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+            "contains": "维新与 DC 的矛盾"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代军团堡垒受威胁与联盟支援分歧。",
+              "evidence": {
+                "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+                "contains": "DOK 最后只来了两个人"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "紫电主张牵制大队，另一在场者记忆与私聊说法不同。",
+              "evidence": {
+                "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+                "contains": "星辰时光记得的版本"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "讲述争议以及军团离开DC去RR。",
+              "evidence": {
+                "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+                "contains": "维新最终离开 DC"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "卡戎出走与机库",
+          "weight": "heavy",
+          "reason": "重要成员出走和机库被搬空涉及军团资产及管理。",
+          "note": "保留告别信、权限争执与卡戎单方转述，未认定紫电本人确认过补偿。",
+          "source": {
+            "file": "src/people/mordiggianking/materials-mordiggianking.md",
+            "contains": "墨者新手团机库是我洗的"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+            "contains": "卡戎后来讲起自己的委屈"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "解释招新及发船权限的矛盾。",
+              "evidence": {
+                "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+                "contains": "新人来了领不到毒蜥"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "告别信洗机库与卡戎对紫电宽容的回忆并置。",
+              "evidence": {
+                "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+                "contains": "二百五十万的告别图"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "呈现卡戎对管理的抱怨、紫电回应的转述及证据边界。",
+              "evidence": {
+                "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+                "contains": "紫电听完说他对墨者贡献很大"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "联盟分歧、军团管理和出走争议均有篇幅，新增战斗经历与人物主线相接。",
+      "evidence": [
+        {
+          "file": "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+          "contains": "紫电希望军团遇事能得到支援"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/vision-coa-dispute-2021.md",
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/zidian-bloodthirsty/2115311168-id.json",
+    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+    "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "ab9b9f065224a6c61cf341fce9eb9964ba245f200757ac2ea7e0b49343f7158f",
+  "level": 1
+}

@@ -1,0 +1,23 @@
+{
+  "status": "needs-work",
+  "note": "BV1Wiu66VEGe已确认对应VYO并加入推荐，当前2条；标题中文时段、上传UTC与战报窗口分开保存。白菜BV1vru165Emb已确认对应8月8日UTC的6Q，转入新战役，不再留作VYO待核。其余日期候选未全核。",
+  "evidence": [
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/3546639406991863.json",
+    "docs/sources/battle-video-brs-2026.md",
+    "docs/bilibili/9468015.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/279635057.json",
+    "docs/bilibili/3546639406991863.json",
+    "docs/bilibili/9468015.json",
+    "docs/sources/battle-video-brs-2026.md",
+    "src/_data/entityNames.json",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md"
+  ],
+  "inputs": "0c495de2ed56d093396c5f8610c6375e779a32ad0ca3e849a7365a1931949827",
+  "level": 0
+}

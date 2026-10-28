@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+    "src/people/fang-xiaoming/fang-xiaoming.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号 stats、常用舰型与旗舰 KM，只判断随队参战，不推断指挥身份。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 主号高值月补核（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "现有身份记录的两个小号累计击杀分别为零和约 1.96B，均未达到高值主力号门槛。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 主号高值月补核（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核 2026 年 10 月高值月及 Obe 两条泰坦 KM，确认本人泽尼塔和集体参与。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 主号高值月补核（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "Obe 用两条 KM 校本人和舰型；阿巴宗已有本人战役快照；其他提及不当作参战。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+          "heading": "## 主号高值月补核（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增常用船与 Obe 参战料块，保留通稿、假旗和会议录音事件。",
+      "evidence": [
+        {
+          "file": "src/people/fang-xiaoming/fang-xiaoming.md",
+          "contains": "2026 年 10 月 10 日，他驾驶泽尼塔"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/fang-xiaoming/2113415433-id.json",
+    "src/people/fang-xiaoming/fang-xiaoming.md",
+    "src/people/fang-xiaoming/materials-fang-xiaoming.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2018/x47l-q-2018.json",
+    "src/battles/x47l-q-2018/x47l-q-2018.md",
+    "src/battles/x47l-q-2018/materials-x47l-q-2018.md"
+  ],
+  "inputs": "92acf4534217ab6e4c60704538159ee93c7aeccfcae76133c5a9098e8cb7ca41",
+  "level": 1
+}

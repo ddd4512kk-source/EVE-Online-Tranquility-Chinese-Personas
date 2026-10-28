@@ -1,0 +1,21 @@
+{
+  "status": "needs-work",
+  "note": "BV1WbRKBFEAG视频本身已确认对应T8T并写回推荐，当前3条；简介BR确为4月30日DG-L7S，分开留存差异，不让单一附链否定作品关联，不混算统计。其余频道候选未全核。",
+  "evidence": [
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "docs/sources/battle-video-brs-2026.md",
+    "docs/bilibili/485259323.json",
+    "docs/bilibili/443384185.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/443384185.json",
+    "docs/bilibili/485259323.json",
+    "docs/sources/battle-video-brs-2026.md",
+    "src/_data/entityNames.json",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md"
+  ],
+  "inputs": "d2f6c4425fdef3cb50f010a811074833281f13b8eda258ff6ac1e4ca476dc0ba",
+  "level": 0
+}

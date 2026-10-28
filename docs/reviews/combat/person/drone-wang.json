@@ -1,0 +1,91 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/drone-wang/materials-drone-wang.md",
+    "src/people/drone-wang/drone-wang.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号综合画像、常用舰船及监视者指挥依据已核。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "heading": "## 综合战斗画像与代表KM（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核Charon1与Drone Assist Wang主力画像及封号后边界，数据不合计。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "heading": "## 综合战斗画像与代表KM（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主号2021年8月与Charon1 2026年8月高值月份，分别取得并核对代表星城KM。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "heading": "## 综合战斗画像与代表KM（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核七场关联的角色归属；正文以两张单独核对的指挥KM展开。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "heading": "## 综合战斗画像与代表KM（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合带队经历与两张间隔五年的KM放在开篇后，原有教程、RMT争议与联盟管理故事保留。",
+      "evidence": [
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "王答答给RR立规矩，也常年站在舰队前面带队"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "src/people/drone-wang/2112538533-id.json",
+    "src/people/drone-wang/drone-wang.md",
+    "src/people/drone-wang/materials-drone-wang.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "607dc6e38084f30a9d000eafbf9bc7edb175924443cea26aec465528c311c697",
+  "level": 1
+}

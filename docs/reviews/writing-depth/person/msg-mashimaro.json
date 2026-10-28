@@ -1,0 +1,72 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+    "src/people/msg-mashimaro/msg-mashimaro.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核读本人素材与正文，教程、答疑及舰队生活均保留。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 游戏画像与战役核对（2026-10-28）"
+        },
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 消化与边界"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "材料以新人教学和常规参战为主。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+          "heading": "## 游戏画像与战役核对（2026-10-28）"
+        }
+      ],
+      "noHeavyReason": "素材无重大个人争议或决定性个人行动，教程与常规战斗已入文。",
+      "items": []
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "教学主线保留，战斗块衔接新人教官本人作战经历。",
+      "evidence": [
+        {
+          "file": "src/people/msg-mashimaro/msg-mashimaro.md",
+          "contains": "曲馨给新人讲扫描、刷怪和舰队职责"
+        },
+        {
+          "file": "src/people/msg-mashimaro/msg-mashimaro.md",
+          "contains": "课程从下载、注册、职业任务"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/msg-mashimaro/2122590961-id.json",
+    "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+    "src/people/msg-mashimaro/msg-mashimaro.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "fe6338155ee9faffa5c4ddf097b6db1d1dc260444a8ecd9ccaec25b932b88e14",
+  "level": 1
+}

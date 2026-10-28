@@ -1,0 +1,93 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/wednesday-girl/materials-wednesday-girl.md",
+    "src/people/wednesday-girl/2120925108-id.json",
+    "src/people/wednesday-girl/wednesday-girl.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号综合统计与常用船，以常规和黑隐舰队活动为主",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核Wednesday boy为已登记主力号及其统计，未发现售号记录，数量不相加",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        },
+        {
+          "file": "src/people/wednesday-girl/2120925108-id.json",
+          "contains": "Wednesday boy"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主号2024-11及小号2026-04高值月与代表KM，不将月累计当作单场战果",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照1N和M-MD31星系及角色记录，另有艾蒂斯等关联；不推指挥",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/materials-wednesday-girl.md",
+          "heading": "## 战斗画像与战役（2026-10-27）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立战绩红料综合舰队及两场战斗，保留生产教学主线",
+      "evidence": [
+        {
+          "file": "src/people/wednesday-girl/wednesday-girl.md",
+          "contains": "星轨的机库不是只有矿船"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/wednesday-girl/2120925108-id.json",
+    "src/people/wednesday-girl/materials-wednesday-girl.md",
+    "src/people/wednesday-girl/wednesday-girl.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "2ae59b8df94f666593030523531c430878e64955d44e133fe0fecafc93b734e5",
+  "level": 1
+}

@@ -1,0 +1,73 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yu-le/materials-yu-le.md",
+    "src/people/yu-le/yu-le.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人KB、常用舰及统计；自报FC不认具体战场指挥。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## 战斗画像与高值月份（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "复查已登记身份，无小号证据；不合并其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## 战斗画像与高值月份（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "最高估值月取得161条，抽核三条旗舰KM和本人舰型。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## 战斗画像与高值月份（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "复核BWF参战侧，1-SMEB不同时间阵营不混同。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/materials-yu-le.md",
+          "heading": "## 战斗画像与高值月份（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增开篇红料，结合舰队画像、星城攻防与旗舰战例。",
+      "evidence": [
+        {
+          "file": "src/people/yu-le/yu-le.md",
+          "contains": "老魏的[战斗记录]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/yu-le/2122668203-id.json",
+    "src/people/yu-le/materials-yu-le.md",
+    "src/people/yu-le/yu-le.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "95ab45aecbd4c3504909d3795213eed34ee0b686c36b16a54c5f89777b59662e",
+  "level": 1
+}

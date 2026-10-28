@@ -1,0 +1,87 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/n-bomber/materials-n-bomber.md",
+    "src/people/n-bomber/n-bomber.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "全文对照身份、争议、舰队画像素材，保留双方分歧",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 本人说法与对手讥刺"
+        },
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本人公开辩护和被对手讥刺是主线，舰队出勤为补充",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/materials-n-bomber.md",
+          "heading": "## 本人说法与对手讥刺"
+        }
+      ],
+      "noHeavyReason": "已核本人发言及团内争议，主角是公开辩护者与被讥讽者，未见本人实施重大骗款、封号或重大内讧的证据。",
+      "items": [
+        {
+          "title": "打蓝加争议中的公开辩护",
+          "reason": "本人下场辩护并被对手点名嘲讽",
+          "note": "保留己方解释、对方质疑和酒馆段子",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/n-bomber/materials-n-bomber.md",
+            "heading": "## 本人说法与对手讥刺"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/n-bomber/n-bomber.md",
+            "contains": "狗肉汤隔热条在"
+          }
+        },
+        {
+          "title": "舰队出勤",
+          "reason": "本人战斗画像而非独立重大事件",
+          "note": "补常用舰队船、1N和航母参与，不归功个人",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/n-bomber/materials-n-bomber.md",
+            "heading": "## 2026-10-24：战斗画像补漏"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/n-bomber/n-bomber.md",
+            "contains": "核弹自己也有"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留争议各方说法及电鱼酒馆，战绩块补画本人游戏活动",
+      "evidence": [
+        {
+          "file": "src/people/n-bomber/n-bomber.md",
+          "contains": "狗肉汤没跟他逐条对账"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/n-bomber/2120263809-id.json",
+    "src/people/n-bomber/materials-n-bomber.md",
+    "src/people/n-bomber/n-bomber.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+  ],
+  "inputs": "c0c26b5b06338d1672172868a752442b6b9c8d03ddbd3444f337b14721c64425",
+  "level": 1
+}

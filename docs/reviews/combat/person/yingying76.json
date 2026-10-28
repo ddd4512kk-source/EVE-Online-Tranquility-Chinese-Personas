@@ -1,0 +1,92 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/yingying76/materials-yingying76.md",
+    "src/people/yingying76/2117010442-id.json",
+    "src/people/yingying76/yingying76.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核主号常用海军送葬、战鹰与海军鱼鹰及舰队角色。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "### 游戏画像（profile.mjs）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核唯一主力小号 stats，角色已删除，历史记录不与主号相加。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "### 游戏画像（profile.mjs）"
+        },
+        {
+          "file": "src/people/yingying76/2117010442-id.json",
+          "contains": "\"identity\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核主号 2023 年 11 月高值期的三条参与 KM；另核小号高值月统计。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "### 游戏画像（profile.mjs）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核本地欧塔萨塞与阿巴宗战役本人关联，前者含损失。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "### 游戏画像（profile.mjs）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新红料概括长期舰队与代表战役，新闻创作主线保留。",
+      "evidence": [
+        {
+          "file": "src/people/yingying76/materials-yingying76.md",
+          "heading": "### 游戏画像（profile.mjs）"
+        },
+        {
+          "file": "src/people/yingying76/yingying76.md",
+          "contains": "战地记者也在舰队里开火"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/bilibili-news-collaboration-2026.md",
+    "src/people/yingying76/2117010442-id.json",
+    "src/people/yingying76/materials-yingying76.md",
+    "src/people/yingying76/yingying76.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "0b08f6e7ce5cd8754f9148e6aadd1c9b8f431ae4ef6ebd633610a9ac9e049066",
+  "level": 1
+}

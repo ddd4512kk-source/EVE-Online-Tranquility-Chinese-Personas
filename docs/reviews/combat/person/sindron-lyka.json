@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "已复核择号与售号边界，补CEO及主力旗舰画像，保留巨蟒与市场主线",
+  "evidence": [
+    "src/people/sindron-lyka/materials-sindron-lyka.md",
+    "src/people/sindron-lyka/sindron-lyka.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号常规船画像和Night Garden现任CEO；避免将出售前角色累计归当前玩家。",
+      "evidence": [
+        {
+          "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+          "heading": "## 收录号选择与职责画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "比较四个已确认小号，展开This的海军无畏画像；保留承载巨蟒故事和市场发言的Sindron收录。",
+      "evidence": [
+        {
+          "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+          "heading": "## 收录号选择与职责画像"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核This的2025-04与2026-04高峰，代表KM对应BWF与M-MD31；主号4月200条不冒充全月完整，完整战役缓存补实际角色。",
+      "evidence": [
+        {
+          "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+          "heading": "## 主力号高峰与已有战役对照"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核BWF、LJ-YSW、M-MD31窗口、星系和战时组织，M-MD31常规与旗舰两号均在共同窗口；不补造指挥。",
+      "evidence": [
+        {
+          "file": "src/people/sindron-lyka/materials-sindron-lyka.md",
+          "heading": "## 主力号高峰与已有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇补CEO，以常规旗舰并行和PH至DC经历改写战斗画像，完整保留巨蟒赴宴与市场故事。",
+      "evidence": [
+        {
+          "file": "src/people/sindron-lyka/sindron-lyka.md",
+          "contains": "::: 红料 花园的老板，也得亲自上船"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/sindron-lyka/2112117260-id.json",
+    "src/people/sindron-lyka/materials-sindron-lyka.md",
+    "src/people/sindron-lyka/sindron-lyka.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md"
+  ],
+  "inputs": "7aaf0d0c3ac56af30d28e76c4810223c106d023b1087ae2d8c0978fec3c2ae13",
+  "level": 1
+}

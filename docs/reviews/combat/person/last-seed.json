@@ -1,0 +1,83 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/last-seed/materials-last-seed.md",
+    "src/people/last-seed/2117196631-id.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/last-seed/last-seed.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号总量与原有常用船记录，主要以大规模舰队出勤描述，不将合力战果独算。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "contains": "**游戏数据**"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核已对应 god zhongzi，stats只返回一条损失与未返回击杀字段，不强推历史无击杀或合计角色数据；未见售号资料。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "contains": "**执行军团号 KB 边界**"
+        },
+        {
+          "file": "src/people/last-seed/2117196631-id.json",
+          "contains": "\"name\": \"god zhongzi\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2023-03、2024-08高值月及2023-03最高价值建筑KM，1633个攻击方，不能认个人独力击毁。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "contains": "**高值月与代表 KM**"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "X47L-Q及图尔鲁尔正式快照命中本人，X47另有损失；写参战而非指挥。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/materials-last-seed.md",
+          "contains": "**本地战役**"
+        },
+        {
+          "file": "src/battles/x47l-q-2023/x47l-q-2023.json",
+          "contains": "\"2117196631\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "将原档案综合战绩移成开篇后独立红料，补X47经历，保留国服管理、招新及争议。",
+      "evidence": [
+        {
+          "file": "src/people/last-seed/last-seed.md",
+          "contains": "::: 红料 把战斗团开到大会战里"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/last-seed/2117196631-id.json",
+    "src/people/last-seed/last-seed.md",
+    "src/people/last-seed/materials-last-seed.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "7a57d7c62582cc6bb5165a75dbc1eccd2dea5e83da0ca865df482e607868f31e",
+  "level": 1
+}

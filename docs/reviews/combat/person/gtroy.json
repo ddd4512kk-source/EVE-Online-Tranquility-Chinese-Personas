@@ -1,0 +1,71 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/gtroy/materials-gtroy.md",
+    "src/people/gtroy/gtroy.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号及Mor Morgana各自的舰队画像。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 双号与Obe抽核（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核同头衔同团小号身份，统计不相加。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 双号与Obe抽核（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "小号最高月97条并核Obe代表KM。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 双号与Obe抽核（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核主号6Q及小号Obe记录，不认指挥或个人全额战果。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/materials-gtroy.md",
+          "heading": "## 双号与Obe抽核（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战斗红料移到首块并补充Mor Morgana参战。",
+      "evidence": [
+        {
+          "file": "src/people/gtroy/gtroy.md",
+          "contains": "另一个号 Mor Morgana 留下了更大的舰队账本"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/foxor-management-2026-10-15.md",
+    "src/people/gtroy/2120504987-id.json",
+    "src/people/gtroy/gtroy.md",
+    "src/people/gtroy/materials-gtroy.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
+  ],
+  "inputs": "10af7206005d679e0d5f91bdb456ae91f35668f5fe8b8be2af180d0128b1386e",
+  "level": 1
+}

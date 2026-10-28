@@ -1,0 +1,21 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、D.C、FC、江湖恩怨。正文与素材无本人任教或带新经历，撤新人教官。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/2115186880-id.json"
+  ],
+  "dependencies": [
+    "src/people/mai-shoushou/2115186880-id.json",
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "587a6363d459127c1392f4a8a2813e47cbae3902eb6c47a464fc1a64fec821e5",
+  "level": 1
+}

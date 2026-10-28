@@ -1,0 +1,22 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、B站、联盟管理、CEO、低素质、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+    "src/people/zidian-bloodthirsty/2115311168-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/vision-coa-dispute-2021.md",
+    "src/people/zidian-bloodthirsty/2115311168-id.json",
+    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+    "src/people/zidian-bloodthirsty/zidian-bloodthirsty.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "3fb368d0d28bf3557ba0f744eaf35cf261e25653610cf562a97336d288297491",
+  "level": 1
+}

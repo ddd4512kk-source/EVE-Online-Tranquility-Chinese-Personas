@@ -26,6 +26,7 @@
 
 - **Arri AlexaMini（2116486591）**：[角色页](https://evewho.com/character/2116486591)；公开头衔“USTZ, 特务头子 · 陈赓”与人物对应相合。
 - **Shabumaru（2117025628）**：[角色页](https://evewho.com/character/2117025628)；公开头衔“USTZ, 纱启强”与人物对应相合。
+- **Arri Amira（2116630641）**：[击杀记录](https://zkillboard.com/kill/139488484/)中的被击毁角色；CCP ESI 角色资料显示头衔“纱布平一郎”，归入纱布。
 - `Arri A` 是链接展示名，该 ID 的实际角色名为 Arri AlexaMini；保留展示名线索，不把它当作另一角色。Shabumaru 头衔直接写“纱启强”。
 
 ## 2026-10-04 8F-TK3参战（2026-10-20补档）

@@ -24,6 +24,8 @@
 - 角色简介全文：「战地记者76 / 我很可爱，不要杀窝 / i am lovely, do not kill me. / 拿过最贵的KM：…击毁：Donald Fau (元帅级) / 第一个建筑的KM：…击毁：空堡 / 第一个旗舰KM：…击杀：freakon Alland (尼铎格尔级) / Kill: GuiltySpark 04's Phoenix Navy Issue thanks mate, all the best to your fams ♥♥♥ / Bilibili Chnnel(China)… / AFK中 / 「与过去好好道别…」 “晚安——七濑紡凪”」
 - 雇佣：FV.；联盟 AOM 2020-06-21–2022-01-07、Ranger Regiment 2022-01-08–11、Goonswarm 2022-01-13–2022-11-23、Kal'tsit N-W/Dracarys 2022-12-01–03、PH 2022-12-04–2025-11-08、DC 2025-11-09 至今。
 - zKillboard：击杀 4244（2106.2B），损失 632（46.1B），单杀 31；常用船 Exequror Navy Issue 780、Cerberus 297、Osprey Navy Issue 241；最高击杀月份 2023-11 295.8B；活跃 2020-06 至 2026-04。
+- 2026-10-27 复查主力小号 [BeliEVE76（2122332734）](https://zkillboard.com/character/2122332734/)的 stats：参与击杀 173、约 141.6B，损失 49、约 2.8B；常用海军乌鸦、拉克希斯、漩涡；2025-01 参与击毁约 41.8B、2024-12 约 32.4B。角色记录均在 Fuente Vacio／Pandemic Horde；不与主号统计相加。主号最高月份及几场会战在列传中用于概括，不把月度金额归给个人独力战果。
+- 主号高值月 2023-11 接口返回 120 条，本次抽取最新三条核读：[113646326](https://zkillboard.com/kill/113646326/)、[113646301](https://zkillboard.com/kill/113646301/)、[113646300](https://zkillboard.com/kill/113646300/)，均为 11 月 30 日 12:51—12:52 UTC，星系 30001156，本号驾驶 type 11961 参与。只把它们用于核实高值月有实际舰队活动，未逐条核完全月、不归功于个人单杀。
 - 凛冬论坛：无。
 - 最后三次损失：2026-04-25、2026-04-28 08:46、2026-04-28 11:15 UTC，价值约 1950–2020 万 ISK；最后一条（km 135085429，YMJG-4）单人击杀，伤害 1616。击杀者驾驶 Revelation Navy Issue；受害船型未核，凭价值约 2000 万推断为小船。
 

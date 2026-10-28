@@ -1,0 +1,104 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/titan-acrad/materials-titan-acrad.md",
+    "src/people/titan-acrad/titan-acrad.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读神使作业、周边、本人战斗及夜神损失，故事保留。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "heading": "## 新春帖补出的事"
+        },
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "heading": "## 夜神损失"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "夜神损失是高价值损失，交代结果及本人公开展示。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/materials-titan-acrad.md",
+          "heading": "## 夜神损失"
+        }
+      ],
+      "items": [
+        {
+          "title": "夜神损失",
+          "weight": "heavy",
+          "reason": "超旗损失是本人重要舰船事件。",
+          "note": "保留受害方及公开悬挂报告，扩展船体损失后果，未推断过错。",
+          "source": {
+            "file": "src/people/titan-acrad/materials-titan-acrad.md",
+            "contains": "角色ESI简介直接挂自己的损失报告"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/titan-acrad/titan-acrad.md",
+            "contains": "2020 年 5 月 23 日"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代本人在叶落期间驾驶夜神。",
+              "evidence": {
+                "file": "src/people/titan-acrad/titan-acrad.md",
+                "contains": "2020 年 5 月 23 日"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "展开超旗对于驾驶员的资源分量。",
+              "evidence": {
+                "file": "src/people/titan-acrad/titan-acrad.md",
+                "contains": "超旗不是一艘随手补上的护卫舰"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "损失者自己把这条报告挂进简介。",
+              "evidence": {
+                "file": "src/people/titan-acrad/titan-acrad.md",
+                "contains": "他把报告挂出来"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "生产与招新主线、本人战绩和夜神损失都保留。",
+      "evidence": [
+        {
+          "file": "src/people/titan-acrad/titan-acrad.md",
+          "contains": "Acrad 想要的东西很好懂"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/titan-acrad/2115711763-id.json",
+    "src/people/titan-acrad/materials-titan-acrad.md",
+    "src/people/titan-acrad/titan-acrad.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "5309b3808ba5350dca674bd153c8db829b9ad407fab4113beccae4a2c2215a2a",
+  "level": 1
+}

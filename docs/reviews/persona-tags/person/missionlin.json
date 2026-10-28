@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 高安、军团管理、新人教官。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定；已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人。未复核本文其他内容。",
+  "evidence": [
+    "src/people/missionlin/missionlin.md",
+    "src/people/missionlin/2119009927-id.json"
+  ],
+  "dependencies": [
+    "src/people/missionlin/2119009927-id.json",
+    "src/people/missionlin/materials-missionlin.md",
+    "src/people/missionlin/missionlin.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+  ],
+  "inputs": "b863398114a9a28a53fc1f32433e7ac487618a95fcd9094821aaba63d0385baa",
+  "level": 1
+}

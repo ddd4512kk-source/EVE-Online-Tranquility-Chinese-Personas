@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "收录号综合KB、主力船型、高值月样本与6场战役已核；纠正35683误认Monitor，撤回FC身份。2026-10-29复查快递号BararagiEro：zKillboard无任何击杀或损失记录，缺口关闭。",
+  "evidence": [
+    "src/people/alero-araragiero/materials-alero-araragiero.md",
+    "src/people/alero-araragiero/alero-araragiero.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号stats：1794次参与击杀、227次损失、约2.109T参与击毁；topShips以俄洛巴斯、赫卡特、克洛诺斯为主，不当全生涯次数。",
+      "evidence": [
+        {
+          "file": "src/people/alero-araragiero/materials-alero-araragiero.md",
+          "heading": "## 战斗画像与船型核对"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "化矿号Alero Poljus仅4次参与，快递号Alero BararagiEro在zKillboard无记录；各号不相加，Kahuna Poi不并号。",
+      "evidence": [
+        {
+          "file": "src/people/alero-araragiero/materials-alero-araragiero.md",
+          "contains": "zKillboard 无该号任何击杀或损失记录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2026-04与2024-01高值月各取泰坦KM并以ESI核本人船型；35683确认为赫卡特，不是Monitor。",
+      "evidence": [
+        {
+          "file": "src/people/alero-araragiero/materials-alero-araragiero.md",
+          "contains": "[KM134565707]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "六场战役快照命中收录号，分方沿战役档案；艾蒂斯两条泰坦攻击记录只认参战。",
+      "evidence": [
+        {
+          "file": "src/people/alero-araragiero/materials-alero-araragiero.md",
+          "heading": "## 已有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文以工业服务与亲自投旗舰反差成块，展开艾蒂斯代表战斗，普通战损不作黑料，不补造指挥。",
+      "evidence": [
+        {
+          "file": "src/people/alero-araragiero/alero-araragiero.md",
+          "contains": "::: 红料 算盘摆在柜台，泰坦开到前台"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/alero-araragiero/2115643725-id.json",
+    "src/people/alero-araragiero/alero-araragiero.md",
+    "src/people/alero-araragiero/materials-alero-araragiero.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md"
+  ],
+  "inputs": "d2681780f849cbaa9cbde39ed86e7aa26fe119a5702e72d61f42412f4211a631",
+  "level": 1
+}

@@ -1,0 +1,97 @@
+{
+  "status": "reviewed",
+  "note": "核对本人画像、高值月份和关联战役。",
+  "evidence": [
+    "src/people/jason-yusi/materials-jason-yusi.md",
+    "src/people/jason-yusi/jason-yusi.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "综合统计和主要玩法已核；本人参与战果不认作单杀或指挥。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "## 战绩高活跃月份（2026-10-28复核）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已确认 KISSMYASSTHX 的独立统计及重叠战果，不重复归功。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "# 青春（PLA） / Jason Yusi"
+        },
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "## 战绩高活跃月份（2026-10-28复核）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2019 年 6 月为双号高值月，复核重叠星城及参战规模，2026 月度样本仍可续查。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "## 战绩高活跃月份（2026-10-28复核）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "逐号对照已收录战役；Obe 只属手工关联，不推断具体船型。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "## 已收录战役逐号对照（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩独立红料呈现舰队与人物主线，不把集体成果说成个人单杀。",
+      "evidence": [
+        {
+          "file": "src/people/jason-yusi/materials-jason-yusi.md",
+          "heading": "## 战绩高活跃月份（2026-10-28复核）"
+        },
+        {
+          "file": "src/people/jason-yusi/jason-yusi.md",
+          "contains": "青春的船不只围着血袭者转"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/vision-coa-dispute-2021.md",
+    "src/people/jason-yusi/2114969276-id.json",
+    "src/people/jason-yusi/jason-yusi.md",
+    "src/people/jason-yusi/materials-jason-yusi.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "20c929f17ed26cbea5ddbbb62fa7a17fcb2493cc60c5f41f05cbef5c6d2b99e5",
+  "level": 1
+}

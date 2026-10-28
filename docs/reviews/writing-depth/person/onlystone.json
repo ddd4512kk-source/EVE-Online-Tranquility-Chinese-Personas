@@ -1,0 +1,123 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/onlystone/materials-onlystone.md",
+    "src/people/onlystone/onlystone.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照全部本人素材及正文，核对楼主、本人、队友的说法和救新人经历。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 双方说法"
+        },
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 后续取材"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "清蹭人与等待之争是主要争议，其余记录为普通舰队出勤。",
+      "items": [
+        {
+          "title": "清蹭子与舰队等候之争",
+          "weight": "heavy",
+          "reason": "争议把石头的职责、与新人之间的冲突和本人回应集中呈现，是其列传核心。",
+          "note": "展开清场原因、楼主批评及石头和队友的反驳，结尾回应纪律反差。",
+          "source": {
+            "file": "src/people/onlystone/materials-onlystone.md",
+            "heading": "## 双方说法"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/onlystone/onlystone.md",
+            "contains": "老兰州55的说法是"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "楼主提不能插麦与全队等候，石头须处理分 LP 的蹭子。",
+              "evidence": {
+                "file": "src/people/onlystone/onlystone.md",
+                "contains": "老兰州55的说法是"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "新人的麦不能插，石头的等待却让主队停下来。",
+              "evidence": {
+                "file": "src/people/onlystone/onlystone.md",
+                "contains": "争到后来，大家对清蹭子"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "本人否认时长、列出侦察清人职责，楼主追问为何不提前准备。",
+              "evidence": {
+                "file": "src/people/onlystone/onlystone.md",
+                "contains": "石头用“痴梦神瑛”账号下场"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 双方说法"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗履历之后仍以双方说法、清人职责和新人抱怨为中心。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/onlystone.md",
+          "contains": "老兰州55的说法是"
+        },
+        {
+          "file": "src/people/onlystone/onlystone.md",
+          "contains": "石头一边清掉来分 LP 的外人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/onlystone/2121840947-id.json",
+    "src/people/onlystone/materials-onlystone.md",
+    "src/people/onlystone/onlystone.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/evati-2025/evati-2025.json",
+    "src/battles/evati-2025/evati-2025.md",
+    "src/battles/evati-2025/materials-evati-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "35a5f1392225ad1ba5aa6582cc9fb5fe274ad5048d5f2e92cfb4e0af18a73f58",
+  "level": 1
+}

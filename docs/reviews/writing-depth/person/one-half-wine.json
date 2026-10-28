@@ -1,0 +1,140 @@
+{
+  "status": "reviewed",
+  "note": "核对材料与正文，记录逐项判断及采用边界。",
+  "evidence": [
+    "docs/bilibili/24773167.json",
+    "src/people/one-half-wine/materials-one-half-wine.md",
+    "src/people/one-half-wine/one-half-wine.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照身份、材料与逐作品文字记录，保留旧主线、新发现及排除依据。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/materials-one-half-wine.md",
+          "heading": "## 身份与游戏画像"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核分量与采用，不以块数代替故事。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/materials-one-half-wine.md",
+          "heading": "## 已核作品与本人互动"
+        }
+      ],
+      "noHeavyReason": "所核为长期教学、具体操作失误和催更玩笑，无资产纠纷或重大指挥责任；普通丢船和招募提名不充独立黑料。",
+      "items": [
+        {
+          "title": "低安玩法与大会战",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/one-half-wine/materials-one-half-wine.md",
+            "heading": "## 高值月份与已有战役"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/one-half-wine/one-half-wine.md",
+            "contains": "颜红的老本行是低安单收"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "教学答疑",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/one-half-wine/materials-one-half-wine.md",
+            "heading": "## 已核作品与本人互动"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/one-half-wine/one-half-wine.md",
+            "contains": "2020 年起，颜红做"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "翻译与小说",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/one-half-wine/materials-one-half-wine.md",
+            "heading": "## 创作与翻译"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/one-half-wine/one-half-wine.md",
+            "contains": "2017 年，贴吧转载"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "海霍克失误",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/one-half-wine/materials-one-half-wine.md",
+            "heading": "## 已核作品与本人互动"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/one-half-wine/one-half-wine.md",
+            "contains": "下面，学生把老师最后一波"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "小说催更",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/one-half-wine/materials-one-half-wine.md",
+            "heading": "## 已核作品与本人互动"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/one-half-wine/one-half-wine.md",
+            "contains": "2022 年，他在"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "以小船玩法、教学互动、写作为主，保留失误和鸽更；删账本口吻，不凭标题推断视频体验。",
+      "evidence": [
+        {
+          "file": "src/people/one-half-wine/one-half-wine.md",
+          "contains": "颜红的老本行是低安单收"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/24773167.json",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/one-half-wine/2113409073-id.json",
+    "src/people/one-half-wine/materials-one-half-wine.md",
+    "src/people/one-half-wine/one-half-wine.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "ca3f30641e2507af0000996a46e450a893c4a6521943b8af598d4ec1f7b4914a",
+  "level": 1
+}

@@ -14,6 +14,8 @@
 ### 游戏画像（2026-10-11）
 
 - 击杀 4398（3086.1B），损失 496（47.4B），单杀 58；常用 Malediction 257、Keres 239、Wolf 227、Bifrost 216、Hyena 201、Vargur 161；击杀 ISK 高峰 2021-09、2021-08、2019-08、2023-04；活跃至 2026-04。
+- 2026-10-27 按高值月 2021-09 抽样：当月接口返回 171 条，先核前两条；[95552967](https://zkillboard.com/kill/95552967/)为 2021-09-30 13:02 UTC、星系 30001155，角色 2113266423 参与，驾驶 type 12005；[95551962](https://zkillboard.com/kill/95551962/)为同日 12:07 UTC、星系 30001156，同号亦驾驶 type 12005。只确认参与，未将这两条与 A1-AUH 合并，未逐条核完全月。
+- FWST-8 战报收录本人[纳迦法损失 87686302](https://zkillboard.com/kill/87686302/)；A1-AUH 素材记录本人损失 [95186849](https://kb.evetools.org/kill/95186849/)，均按本人在场及损失使用，不推断其指挥整场。
 - 简介：英文“Lost in Space?”十条守则，含拼写 Dishonar / deplomacy / repostion；第十条“This is only a Video Game so dont take it personally”。
 
 ### B 站（全 127 条：videos 第 1 页 + recArchivesByKeywords 两页，2026-10-11）

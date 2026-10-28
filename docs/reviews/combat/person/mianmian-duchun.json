@@ -1,0 +1,87 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+    "src/people/mianmian-duchun/mianmian-duchun.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号stats与常用猛鲑海军型，判断为常规队与旗舰活动玩家。",
+      "evidence": [
+        {
+          "file": "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+          "heading": "## 主号与小号战斗画像（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "本人公开指向Hiiragi Na Na并核小号stats；角色累计不相加，身份档案无售号。",
+      "evidence": [
+        {
+          "file": "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+          "heading": "## 身份"
+        },
+        {
+          "file": "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+          "heading": "## 主号与小号战斗画像（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "主号2024年12月取最近200条、小号2025年11月37条，分别核本人代表KM与驾驶船，不当全月完整。",
+      "evidence": [
+        {
+          "file": "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+          "heading": "## 主号与小号战斗画像（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照五场已有战役匹配；TN25本人号、星系、时间及船型以ESI KM核实并入正文，其余只作现有快照关联。",
+      "evidence": [
+        {
+          "file": "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+          "heading": "## 主号与小号战斗画像（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首块独立战绩红料写舰队活动与TN25，原FAX、黑隐失误与频道经历保留。",
+      "evidence": [
+        {
+          "file": "src/people/mianmian-duchun/mianmian-duchun.md",
+          "contains": "2025年11月的[TN25-J]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/bilibili-news-collaboration-2026.md",
+    "src/people/mianmian-duchun/2115958161-id.json",
+    "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+    "src/people/mianmian-duchun/mianmian-duchun.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "36f55ea7b732e0952d6880d5831822483385c5d0e3bafcbedba290dc2a38253c",
+  "level": 1
+}

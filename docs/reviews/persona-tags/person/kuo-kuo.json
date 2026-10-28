@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、低安、虫洞、诈骗。沿用此前判断：已核具体骗取游戏资产或骗术教学段落；不标受害者与售号后买家行为。未复核本文其他内容。",
+  "evidence": [
+    "src/people/kuo-kuo/kuo-kuo.md",
+    "src/people/kuo-kuo/2113160766-id.json"
+  ],
+  "dependencies": [
+    "src/people/kuo-kuo/2113160766-id.json",
+    "src/people/kuo-kuo/kuo-kuo.md",
+    "src/people/kuo-kuo/materials-kuo-kuo.md",
+    "src/battles/j131505-2026/j131505-2026.json",
+    "src/battles/j131505-2026/j131505-2026.md",
+    "src/battles/j131505-2026/materials-j131505-2026.md"
+  ],
+  "inputs": "e7b3be93843a143c63ccdcc9d1c0b6cd47dcde8f8126918e1e2f7fc0c9fd8890",
+  "level": 1
+}

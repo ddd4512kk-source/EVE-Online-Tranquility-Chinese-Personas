@@ -1,0 +1,95 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材与正文核查。",
+  "evidence": [
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/mordiggianking.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐读全文与材料，洗机库、招新及带队、个人澄清与离团争议均留存。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "contains": "洗机库前后的自述"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "洗机库事件为重大冲突，告别信与之后的单方转述分别叙述并保留证据限制。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "contains": "出走告别信"
+        }
+      ],
+      "items": [
+        {
+          "title": "洗机库与出走",
+          "weight": "heavy",
+          "reason": "联盟带队者出走并取走新手团机库，关系资产与内部冲突。",
+          "note": "展开告别信、招新权限争执和卡戎转述紫电回应，未证实回应及资产价值。",
+          "source": {
+            "file": "src/people/mordiggianking/materials-mordiggianking.md",
+            "contains": "墨者新手团机库是我洗的"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mordiggianking/mordiggianking.md",
+            "contains": "后来他自己的讲法变了"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代招新权限、内部分歧及卡戎怒火。",
+              "evidence": {
+                "file": "src/people/mordiggianking/mordiggianking.md",
+                "contains": "没给我发船权限"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "告别信留礼物与后来转述补偿并置。",
+              "evidence": {
+                "file": "src/people/mordiggianking/mordiggianking.md",
+                "contains": "照这个版本，机库是 CEO 点头送的"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "贴吧对离开议论，本人交代取走机库及对紫电的评价。",
+              "evidence": {
+                "file": "src/people/mordiggianking/mordiggianking.md",
+                "contains": "楼下的反应没什么同情"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "出走和机库是主线，带队经历和本人澄清作为其经历背景。",
+      "evidence": [
+        {
+          "file": "src/people/mordiggianking/mordiggianking.md",
+          "contains": "卡戎的名声最响的几回"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/cacx-tuxedoee-expulsion-2025.md",
+    "src/people/mordiggianking/2122236063-id.json",
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/mordiggianking.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md"
+  ],
+  "inputs": "51cfd7dedcea063cfe29a1c215cfc5f0d362adfbcd66c507f872a5b20eb3246c",
+  "level": 1
+}

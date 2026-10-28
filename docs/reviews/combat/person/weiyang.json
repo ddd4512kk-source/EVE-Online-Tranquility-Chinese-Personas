@@ -1,0 +1,75 @@
+{
+  "status": "reviewed",
+  "note": "核对常用船、高值月份及战役边界，保留原交易故事。",
+  "evidence": [
+    "src/people/weiyang/materials-weiyang.md",
+    "src/people/weiyang/weiyang.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号 971 次参与击杀与 topAllTime 舰船榜；战鹰、休津与缪宁是常用舰队船。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "stats 的 `topAllTime` 中舰船榜实际有数据"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "卡商号零击杀及身份经本人发言确认，不代替收录号战绩。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "未央自报“大号 FRT Weiyang Koraka”"
+        },
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "KB 击杀 0、损失 97"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高月与泰坦击杀参与者、舰船和时间。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "最高月 2022-07 约 178.3B"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "卡商号在 R-AG7W 仅有太空舱损失，不能认定驾驶战斗舰参战。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/materials-weiyang.md",
+          "contains": "此条未证明其驾驶战斗舰参与会战"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文综合收录号战绩与大舰队记录，太空舱损失不作战舰参战。",
+      "evidence": [
+        {
+          "file": "src/people/weiyang/weiyang.md",
+          "contains": "他驾驶蝎尾怪，参与击毁一艘"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/community-br-review-2026-10-12.md",
+    "src/people/weiyang/2114909279-id.json",
+    "src/people/weiyang/materials-weiyang.md",
+    "src/people/weiyang/weiyang.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
+  ],
+  "inputs": "f8d0b4cb14d9d3418a996a5c6f66fbd9deac3130b58d4740e9a5c70ecf121ac2",
+  "level": 1
+}

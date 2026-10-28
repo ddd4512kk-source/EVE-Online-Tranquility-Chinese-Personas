@@ -1,0 +1,26 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/oneplus-tsuruomo/oneplus-tsuruomo.md",
+    "src/people/oneplus-tsuruomo/2113461373-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/oneplus-tsuruomo/2113461373-id.json",
+    "src/people/oneplus-tsuruomo/materials-oneplus-tsuruomo.md",
+    "src/people/oneplus-tsuruomo/oneplus-tsuruomo.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md"
+  ],
+  "inputs": "98c8600427da7bac7d539f0e52b0e627bd4dbf0b4d233db4f53fffd9041df0cf",
+  "level": 1
+}

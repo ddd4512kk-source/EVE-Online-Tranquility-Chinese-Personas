@@ -1,0 +1,144 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、售号边界、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/vacantt/materials-vacantt.md",
+    "src/people/vacantt/vacantt.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整素材及正文，保留77S8、本人旧号损失、卖号和复归后的争议；不能把买家编辑的旧简介当本人展示。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 老号 Vacant（2113849509）"
+        },
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 创世出走绝地"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "售号影响角色归因和本人重建经历；守家与贴吧反差均予保留。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 老号 Vacant（2113849509）"
+        },
+        {
+          "file": "src/people/vacantt/materials-vacantt.md",
+          "heading": "## 创世出走绝地"
+        }
+      ],
+      "items": [
+        {
+          "title": "售号及重返创世",
+          "reason": "本人旧超旗号以RMT出售并影响后续战绩归属，是经历转折",
+          "note": "写出超旗技能及战功的分量、售号变现和买家继续活动与本人新号重练的后果。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/vacantt/materials-vacantt.md",
+            "heading": "## 老号 Vacant（2113849509）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/vacantt/vacantt.md",
+            "contains": "2021年9月7日，Vacant 退出创世"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "分量",
+              "note": "卖出的角色兼具超旗技能和创世指挥履历。",
+              "evidence": {
+                "file": "src/people/vacantt/vacantt.md",
+                "contains": "这个号身上有什么，大家都清楚"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "昔日新人跟队的指挥名号，转手后成了买家活动的角色。",
+              "evidence": {
+                "file": "src/people/vacantt/vacantt.md",
+                "contains": "号卖出去以后，Vacant 的履历"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "买家后续与本人经历拆分，本人多年后重建新号。",
+              "evidence": {
+                "file": "src/people/vacantt/vacantt.md",
+                "contains": "2025年1月，他建了 Vacantt"
+              }
+            }
+          ]
+        },
+        {
+          "title": "航母损失",
+          "reason": "本人售前多次航母损失",
+          "note": "按材料保留损失记录，不把售后编辑的简介归为本人。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/vacantt/materials-vacantt.md",
+            "heading": "## 老号 Vacant（2113849509）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/vacantt/vacantt.md",
+            "contains": "老号留下的记录里"
+          }
+        },
+        {
+          "title": "创世出走与新人争议",
+          "reason": "评论对创世出走成员的概括与本人旧指挥经历产生反差",
+          "note": "正文清楚指出帖子并未单独点名万古，仅借其经历回应群体评价。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/vacantt/materials-vacantt.md",
+            "heading": "## 创世出走绝地"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/vacantt/vacantt.md",
+            "contains": "创世出走绝地那阵"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主线保持指挥、出售和重练的转折，战斗综合块不淹没售号与争议。",
+      "evidence": [
+        {
+          "file": "src/people/vacantt/vacantt.md",
+          "contains": "万古是个把履历写在头衔上的人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/vacantt/2123111027-id.json",
+    "src/people/vacantt/materials-vacantt.md",
+    "src/people/vacantt/vacantt.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "72f00f6f7fbec0974976f178976420849416613dcc05a1675d05e90c8f45828f",
+  "level": 1
+}

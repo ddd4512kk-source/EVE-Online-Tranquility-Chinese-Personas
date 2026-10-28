@@ -1,0 +1,99 @@
+{
+  "status": "reviewed",
+  "note": "通读本人奏表、战斗画像与正文，覆盖入坑、运输自荐、舰队经历和催更。",
+  "evidence": [
+    "src/people/mover-keeper/materials-mover-keeper.md",
+    "src/people/mover-keeper/mover-keeper.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读奏表、本人画像和正文，入坑、边地、运输自荐、战斗指挥及催更均采用；CEO任职只写现状。",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 谏N更表"
+        },
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 游戏经历"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "奏表是个人完整社区故事，指挥为长期职责；未见重大争议或重大黑料。",
+      "noHeavyReason": "已读本人奏表、简介和战绩画像；催更为有趣社区经历，没有重大后果，不将普通战斗当重料。",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 谏N更表"
+        },
+        {
+          "file": "src/people/mover-keeper/materials-mover-keeper.md",
+          "heading": "## 游戏经历"
+        }
+      ],
+      "items": [
+        {
+          "title": "谏N更表",
+          "reason": "本人以奏表形式讲入坑、运输与催更",
+          "note": "展开教程、边地补给、联盟颂词和催更冲突，自荐不写成已任职。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mover-keeper/materials-mover-keeper.md",
+            "heading": "## 谏N更表"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mover-keeper/mover-keeper.md",
+            "contains": "2022 年 4 月，漫步在凛冬论坛递上"
+          }
+        },
+        {
+          "title": "舰队指挥经历",
+          "reason": "长期指挥与军团CEO是人物职责",
+          "note": "概括玩法并以具体监视者参战支撑，普通战役不冒写总指挥。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mover-keeper/materials-mover-keeper.md",
+            "heading": "## 高值月份代表记录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mover-keeper/mover-keeper.md",
+            "contains": "漫步的[战斗记录]"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "奏表占主要篇幅，入坑和指挥作人物背景；无重料被战绩淹没。",
+      "evidence": [
+        {
+          "file": "src/people/mover-keeper/mover-keeper.md",
+          "contains": "一篇催更，被他写成了入坑回忆"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "src/people/mover-keeper/2116726862-id.json",
+    "src/people/mover-keeper/materials-mover-keeper.md",
+    "src/people/mover-keeper/mover-keeper.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "31a8f873ca561b8a99742af96a09dab7e68d7868e62b0e9d2ba8f07e2d2546fa",
+  "level": 1
+}

@@ -1,0 +1,79 @@
+{
+  "status": "reviewed",
+  "note": "游戏画像与战役依据未变；补足封号黑料的活动后果、职务反差和群内反应，保留综合作战画像及所有旧料。",
+  "evidence": [
+    "src/people/luxi-miss/materials-luxi-miss.md",
+    "src/people/luxi-miss/luxi-miss.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读主号完整简介、综合KB、常用船、星系及月份；指挥记录持续，正文用长期FC与常规／旗舰经历构成画像。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已对应三号；核mali miss综合KB，低于100B未逐月展开，其余两号无新增战斗需求；无已知售号或代管线索，群聊华与呆始皇不合并。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 小号覆盖"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "读最高两个ISK月的完整KM样本，发现星城是峰值主因；八月第一页截断已明记，另按主战星系补核6Q及VYO，不把大型建筑价值写成个人带队战果。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 高值月份与代表战斗"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "四场本地战役逐场对照；6Q、VYO、8F有实际窗口Monitor记录，1-SMEB仅记普通参与；正文选三场说明指挥处境，无多号人数相加。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/materials-luxi-miss.md",
+          "heading": "## 既有战役对照与采用"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "保留夏秋带队的综合战绩点评；封号扩为主要黑料，展开活动取消、指挥职务反差、CEO同期被封及群内问团散与担保误封的反应，不把呆始皇弹窗的RMT永封原因或期限赋给华。 2026-10-29复核：本次只改黑料段尾与封号叙事，战斗画像、峰值与战役引用未变。",
+      "evidence": [
+        {
+          "file": "src/people/luxi-miss/luxi-miss.md",
+          "contains": "::: 红料 猫可以卖萌，队伍不能随便散"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/luxi-miss/2115746150-id.json",
+    "src/people/luxi-miss/luxi-miss.md",
+    "src/people/luxi-miss/materials-luxi-miss.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "80a4865a2fc16a5cdc18ff4a1fdf9eeaed9db3342ff72fac6fd1f8d5844f5456",
+  "level": 1
+}

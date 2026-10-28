@@ -1,0 +1,74 @@
+{
+  "status": "reviewed",
+  "note": "对照更新的本人素材和正文核查。",
+  "evidence": [
+    "src/people/beijue/materials-beijue.md",
+    "src/people/beijue/beijue.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核主号综合 KB、常见舰型与监视者记录，指挥程度按公开记录限界。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## 综合KB与指挥（2026-10-22）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核两个另号及各自角色身份、战绩，不累加，未见售号证据，不推断交易。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## 小号与贴吧账号（2026-10-22）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "高值月份重试取得最近 200 条；最高样本为共同拆除星城。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## 2026-10-28 高值月份重试"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已逐号对照阿巴宗和 BWF-ZZ 的战役归档，保留无窗口及组织差异限制。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## 已收录战役逐号对照（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文采用舰队活动、指挥位与 BWF-ZZ 参战，星城样本留素材，不冒充个人旗舰战果。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/beijue.md",
+          "contains": "招募帖顶着的时候，绝绝也在舰队里忙"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/syndicate-blue-dispute-2024.md",
+    "src/people/beijue/2121509601-id.json",
+    "src/people/beijue/beijue.md",
+    "src/people/beijue/materials-beijue.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "ae55e1291fde5fc27c9e12fb5fb78e7d3049be902e6e82b95988db755109fd4e",
+  "level": 1
+}

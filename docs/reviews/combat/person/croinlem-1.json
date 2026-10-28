@@ -1,0 +1,71 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/croinlem-1/materials-croinlem-1.md",
+    "src/people/croinlem-1/2121166892-id.json",
+    "src/people/croinlem-1/croinlem-1.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号 stats、当时常用舰船及代表样本，按跟队与小规模参战描述。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/materials-croinlem-1.md",
+          "heading": "## 战斗画像与艾蒂斯"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式身份档案与本人素材未登记已确认小号及售号，无从选取主力小号；未称其没有其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/2121166892-id.json",
+          "contains": "2121166892"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026-04高值月样本，星城记录仅为团队参与。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/materials-croinlem-1.md",
+          "contains": "2026-04为最高参与击杀价值月"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核艾蒂斯本场快照的星系和名单，写普通参战。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/materials-croinlem-1.md",
+          "contains": "艾蒂斯战役材料"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增开篇后的综合战绩红料及艾蒂斯故事。",
+      "evidence": [
+        {
+          "file": "src/people/croinlem-1/croinlem-1.md",
+          "contains": "白龙攒出来的那条泰坦很显眼"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/croinlem-1/2121166892-id.json",
+    "src/people/croinlem-1/croinlem-1.md",
+    "src/people/croinlem-1/materials-croinlem-1.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "9b8fc8c22c7e0b038a2ef653c48d15abba795ba527c3143b5653fc4772d41c1c",
+  "level": 1
+}

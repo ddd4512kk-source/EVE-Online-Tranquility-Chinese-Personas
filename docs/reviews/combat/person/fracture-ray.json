@@ -1,0 +1,74 @@
+{
+  "status": "reviewed",
+  "note": "对照抽查，复用2026-10-23画像中的常用船、星系、综合KB及已核T8T-RA经历；正文已将隐轰、低安与高值月份合写，本次未发现同类遗漏，未扩查频道影像。",
+  "evidence": [
+    "src/people/fracture-ray/materials-fracture-ray.md",
+    "src/people/fracture-ray/2117368009-id.json",
+    "src/people/fracture-ray/fracture-ray.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "2026-10-23取数：击杀1199、损失145、单杀67；常用净化、诅咒、隐轰与重突，常去奥塔萨塞、1-SMEB等，作为隐轰夜班画像。",
+      "evidence": [
+        {
+          "file": "src/people/fracture-ray/materials-fracture-ray.md",
+          "contains": "常用船：Purifier 143"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号或售号；只核收录号。",
+      "evidence": [
+        {
+          "file": "src/people/fracture-ray/2117368009-id.json",
+          "contains": "\"alts\": []"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "最高月2026-05约690.4B，主要来自T8T-RA，正文按随创世联邦参战写。",
+      "evidence": [
+        {
+          "file": "src/people/fracture-ray/materials-fracture-ray.md",
+          "contains": "击杀 ISK 最高月：2026-05 690.4B"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "战役快照命中T8T-RA与1-SMEB 2026，均按创世一方参战，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/fracture-ray/materials-fracture-ray.md",
+          "contains": "战役快照中在场：T8T-RA 2026"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文“KB：隐轰中队的夜班”合写隐轰、低安与高值月，探索主线保留。",
+      "evidence": [
+        {
+          "file": "src/people/fracture-ray/fracture-ray.md",
+          "contains": "::: 红料 KB：隐轰中队的夜班"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/fracture-ray/2117368009-id.json",
+    "src/people/fracture-ray/fracture-ray.md",
+    "src/people/fracture-ray/materials-fracture-ray.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "3952d59492e0eb513a964373ef54bf768a8ddf49fc021551abdbbbc1253b6ccb",
+  "level": 1
+}

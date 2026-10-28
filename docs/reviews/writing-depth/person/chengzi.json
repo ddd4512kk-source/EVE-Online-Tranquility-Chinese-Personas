@@ -1,0 +1,96 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/chengzi/materials-chengzi.md",
+    "src/people/chengzi/chengzi.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核本人素材的身份、星华挖人、生产地盘争执及战斗画像；两项争议和实战均在正文，未把来源无关的索赔事故归到本人。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 星华招新争议"
+        },
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 生产地盘发言"
+        },
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "现有与本人直接对应的是挖人说法和挤怪发言，均为管理冲突，材料未呈现本人造成可核重大损失或处分。",
+      "noHeavyReason": "已核本人素材与共享事件，挖人和挤生产地点体现管理风格，但未见本人造成重大损失或处分的证据；重大索赔是其他人的事故，不归他。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 星华招新争议"
+        },
+        {
+          "file": "src/people/chengzi/materials-chengzi.md",
+          "heading": "## 生产地盘发言"
+        }
+      ],
+      "items": [
+        {
+          "title": "星华出事时挖人",
+          "reason": "前总监与友军之间的招人争执",
+          "note": "正文保留台风指控及对方困境，不扩展为已核的处分。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/chengzi/materials-chengzi.md",
+            "heading": "## 星华招新争议"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chengzi/chengzi.md",
+            "contains": "别人正忙着收拾被踢的摊子"
+          }
+        },
+        {
+          "title": "生产地点挤怪发言",
+          "reason": "本人发言展示友军生产冲突与做事方式",
+          "note": "正文保留原话和友军矛盾，未把独立索赔案当作本人责任。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/chengzi/materials-chengzi.md",
+            "heading": "## 生产地盘发言"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chengzi/chengzi.md",
+            "contains": "别人被要求别闹矛盾"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩一块表现舰队出勤，后面两块仍是本人管理争议主线，评语回到友军之间的矛盾。",
+      "evidence": [
+        {
+          "file": "src/people/chengzi/chengzi.md",
+          "contains": "::: 评"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/chengzi/2115027553-id.json",
+    "src/people/chengzi/chengzi.md",
+    "src/people/chengzi/materials-chengzi.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "2b2e258ec28fdd6b5aa14f20222f0b2a4299fc4a6169cd613514268e228a11e5",
+  "level": 1
+}

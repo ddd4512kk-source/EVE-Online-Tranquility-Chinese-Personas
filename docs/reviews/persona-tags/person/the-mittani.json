@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、非华人、联盟管理、CEO、低素质、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/the-mittani/the-mittani.md",
+    "src/people/the-mittani/443630591-id.json"
+  ],
+  "dependencies": [
+    "src/people/the-mittani/443630591-id.json",
+    "src/people/the-mittani/materials-the-mittani.md",
+    "src/people/the-mittani/the-mittani.md",
+    "src/battles/asakai-2013/asakai-2013.json",
+    "src/battles/asakai-2013/asakai-2013.md",
+    "src/battles/asakai-2013/materials-asakai-2013.md"
+  ],
+  "inputs": "88e34abb49b76858f9544bdd4f86b0dcf49ed4905febf09bb4217067dc30fd76",
+  "level": 1
+}

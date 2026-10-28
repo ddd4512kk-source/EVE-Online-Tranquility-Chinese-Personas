@@ -1,0 +1,21 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面6条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/289511974.json",
+    "docs/bilibili/501499921.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/289511974.json",
+    "docs/bilibili/501499921.json",
+    "src/_data/entityNames.json",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md"
+  ],
+  "inputs": "f0c19a5712a9adae36c4d6a3abe5f06a70357a1759f19e82b05db43319ac720e",
+  "level": 0
+}

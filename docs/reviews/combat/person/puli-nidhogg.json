@@ -1,0 +1,79 @@
+{
+  "status": "reviewed",
+  "note": "核对舰队画像、高值月样本及相关战役。",
+  "evidence": [
+    "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+    "src/people/puli-nidhogg/2114160082-id.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/people/puli-nidhogg/puli-nidhogg.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号画像及常用船、单杀量已核；以长期小船猎手、亦参舰队作战描述。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+          "heading": "## 游戏数据（profile.mjs，2026-10-09）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "人物档案无已确认小号；未发现售号资料，不将他人角色合算。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/2114160082-id.json",
+          "contains": "\"alts\": []"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2020年3月高值月最近200条的代表KM，独自击毁太空舱；未取整月、不以该样本归因月累计。2020年2月仅核月总量，未补逐张明细。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+          "contains": "2020-03 高值月抽样"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已对照BWF正式窗口及反PH一侧；Y-2ANO跨三日窗口也命中本人，但资料缺本人过程故暂不展开。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+          "heading": "### BWF-ZZ星城攻防（2025-04-05）"
+        },
+        {
+          "file": "src/battles/y-2ano-2020/y-2ano-2020.json",
+          "contains": "\"2114160082\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "把综合数据移至开篇后独立红料，新增单挑和BWF场景，原悬赏、顶蓝争议及情报误传原样保留。",
+      "evidence": [
+        {
+          "file": "src/people/puli-nidhogg/puli-nidhogg.md",
+          "contains": "::: 红料 小船跑出一万次出勤"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/people/puli-nidhogg/2114160082-id.json",
+    "src/people/puli-nidhogg/materials-puli-nidhogg.md",
+    "src/people/puli-nidhogg/puli-nidhogg.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "09349cf04c7b73997c1653543d537ec105b8c1a162d2ebb94dd6ab44c18553ca",
+  "level": 1
+}

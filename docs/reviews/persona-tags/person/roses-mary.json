@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、INIT.、CEO。沿用此前判断：军团整体旧名声及继任者白井的封号不能算作简素言本人RMT，撤RMT；脚本来自军团泛称和任内查成员的故事，未展开本人使用，撤脚本。未复核本文其他内容。",
+  "evidence": [
+    "src/people/roses-mary/roses-mary.md",
+    "src/people/roses-mary/2114089373-id.json"
+  ],
+  "dependencies": [
+    "src/people/roses-mary/2114089373-id.json",
+    "src/people/roses-mary/materials-roses-mary.md",
+    "src/people/roses-mary/roses-mary.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md"
+  ],
+  "inputs": "9de702d94af00e781b2dcc3c07c768be1be4484b9fea219fe39266656feafe2f",
+  "level": 1
+}

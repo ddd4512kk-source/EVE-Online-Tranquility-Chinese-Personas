@@ -1,0 +1,25 @@
+{
+  "status": "needs-work",
+  "note": "已执行全站不足5日窗口扫描：本场9条候选，其中未推荐6条、大战主题高概率0条、仅频道卡片待取得简介6条。未点名星系或缺主题词不提前排除。继续用candidates b-r5rb-2014分页核简介、实际BR时期地点及原视角；数量是候选关系，不代表已逐条核定或没有其他作品。",
+  "evidence": [
+    "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "docs/bilibili/550611.json",
+    "docs/bilibili/7177554.json",
+    "docs/bilibili/9055736.json",
+    "docs/bilibili/32966318.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/32966318.json",
+    "docs/bilibili/550611.json",
+    "docs/bilibili/7177554.json",
+    "docs/bilibili/9055736.json",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/_data/entityNames.json",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.json",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.md",
+    "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md"
+  ],
+  "inputs": "87c3996ecd245fb39df717de78cae1bd3b3aa17167236e4f2585c0fd3dfb0a6a",
+  "level": 0
+}

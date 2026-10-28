@@ -1,0 +1,208 @@
+{
+  "status": "reviewed",
+  "note": "核对材料与正文，记录逐项判断及采用边界。",
+  "evidence": [
+    "docs/bilibili/37720838.json",
+    "src/people/ozen-wand/materials-ozen-wand.md",
+    "src/people/ozen-wand/ozen-wand.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照身份、材料与逐作品文字记录，保留旧主线、新发现及排除依据。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/materials-ozen-wand.md",
+          "heading": "## 身份与游戏画像"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核分量与采用，不以块数代替故事。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/materials-ozen-wand.md",
+          "heading": "## AOM危机中的言行"
+        }
+      ],
+      "noHeavyReason": "所核是职责、代驾、戏仿和本人嘴炮。AOM覆灭是大背景，不能把责任和损失扣给作者；禁言一两周也不拔高为重大事件。",
+      "items": [
+        {
+          "title": "泡泡与后勤",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## 代驾、后勤与论坛"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "Ozen 的战斗履历里"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "古法代驾",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## 代驾、后勤与论坛"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "他的另一门正业是旗舰代驾"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "IHUB乌龙",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## 代驾、后勤与论坛"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "2021 年 8 月，他记下"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "合作搞事电影",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## B站频道与作品"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "2021 年 11 月，Ozen 连发"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "本人禁言自述",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## 代驾、后勤与论坛"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "给 Snuff 关“监狱”的时候"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "AOM危机招揽",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## AOM危机中的言行"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "2022 年 1 月，AOM 与 RR"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "末路三部曲",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## B站频道与作品"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "AOM 的危机还没过去"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "讥讽老板checklist",
+          "weight": "ordinary",
+          "reason": "有独立出处的职责、作品或本人互动；尖锐写法不升级事件分量。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## AOM危机中的言行"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ozen-wand/ozen-wand.md",
+            "contains": "2022 年 2 月 FRT 与 Snuff"
+          },
+          "note": "展开处境、行为和反差，不虚构战果、对话或后果。"
+        },
+        {
+          "title": "标志设计归属",
+          "weight": "light",
+          "reason": "来源只是疑问，不能确证。",
+          "source": {
+            "file": "src/people/ozen-wand/materials-ozen-wand.md",
+            "heading": "## 代驾、后勤与论坛"
+          },
+          "treatment": "omitted",
+          "note": "线索留材料，撤下独立红料。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留代驾口碑、后勤与合作分工；不写短暂退团，不确证图标设计；已展开作品不重复精选。",
+      "evidence": [
+        {
+          "file": "src/people/ozen-wand/ozen-wand.md",
+          "contains": "Ozen 的战斗履历里"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/37720838.json",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "src/people/ozen-wand/2113199182-id.json",
+    "src/people/ozen-wand/materials-ozen-wand.md",
+    "src/people/ozen-wand/ozen-wand.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "724caffa330c259330c3eecd2775cfba3c67b5752cb4854c4cbea59768b08c47",
+  "level": 1
+}

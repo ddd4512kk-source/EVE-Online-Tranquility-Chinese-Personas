@@ -1,0 +1,75 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/zhaqiang/materials-zhaqiang.md",
+    "src/people/zhaqiang/2118780937-id.json",
+    "src/people/zhaqiang/zhaqiang.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核本人综合记录、常用舰船和陌然回忆记载的带队身份。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "复用 2026-10-27 [stats]"
+        },
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "BOP的暴风队"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式档案未登记小号或售号，不扩大为不存在其他号。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/2118780937-id.json",
+          "contains": "\"alts\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2025年10月高值月与其一张KM原件，识别名单截断。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "高价值月，目标价值约 420.61B"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已有艾蒂斯关联核对；不把普通参战写为本场指挥。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "快照命中收录号在凛冬侧"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩独立成块，保留原有暴风自造与公开队故事。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/zhaqiang.md",
+          "contains": "扎枪的活不只停在给暴风拧螺丝"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/zhaqiang/2118780937-id.json",
+    "src/people/zhaqiang/materials-zhaqiang.md",
+    "src/people/zhaqiang/zhaqiang.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "5d95c0e668b1f6faa1eb0abb343aabc0711adff781d5740d4afd273766b296aa",
+  "level": 1
+}

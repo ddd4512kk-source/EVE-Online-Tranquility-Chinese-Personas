@@ -1,0 +1,72 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/zhaqiang/materials-zhaqiang.md",
+    "src/people/zhaqiang/zhaqiang.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照回忆录及战斗素材，已写暴风队、低安与朋友出走三项本人经历。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "陌然在 DC 时期听说扎枪"
+        },
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "2023—2024 年与式姐合组公开舰队"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "其本人故事为带队、造船、转团的普通经历，没发现独立重事件。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/materials-zhaqiang.md",
+          "contains": "陌然在 DC 时期听说扎枪"
+        }
+      ],
+      "noHeavyReason": "现有陌然回忆描述其带队与组织选择，未发现另一件重大事件。",
+      "items": [
+        {
+          "title": "BOP自造暴风舰队",
+          "weight": "ordinary",
+          "reason": "本人特色是造船并带队，构成整篇主线。",
+          "source": {
+            "file": "src/people/zhaqiang/materials-zhaqiang.md",
+            "contains": "陌然在 DC 时期听说扎枪"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhaqiang/zhaqiang.md",
+            "contains": "据陌然回忆，他在 DC 时就听说过扎枪"
+          },
+          "note": "保留造船、带队与后来低安出勤落差。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "综合战绩新增在开头，原指挥故事、生产传闻及朋友转团保留。",
+      "evidence": [
+        {
+          "file": "src/people/zhaqiang/zhaqiang.md",
+          "contains": "2023 年，炽天把他当新人招进 LN1P"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/zhaqiang/2118780937-id.json",
+    "src/people/zhaqiang/materials-zhaqiang.md",
+    "src/people/zhaqiang/zhaqiang.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "5d95c0e668b1f6faa1eb0abb343aabc0711adff781d5740d4afd273766b296aa",
+  "level": 1
+}

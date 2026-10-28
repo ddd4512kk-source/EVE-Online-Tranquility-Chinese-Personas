@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面1条推荐。\n## 日期候选核读（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/osy-ud-2025/materials-osy-ud-2025.md",
+    "docs/bilibili/54969171.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/54969171.json",
+    "src/_data/entityNames.json",
+    "src/battles/osy-ud-2025/materials-osy-ud-2025.md",
+    "src/battles/osy-ud-2025/osy-ud-2025.json",
+    "src/battles/osy-ud-2025/osy-ud-2025.md"
+  ],
+  "inputs": "691d6f10e7e3dfee43a5e3d8964bf8a7a004ee09f7911a9fec959e255a73a3aa",
+  "level": 0
+}

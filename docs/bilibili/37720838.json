@@ -36,22 +36,28 @@
     },
     "coverage": {
       "latest": {
-        "state": "captured",
-        "observed_at": "2026-10-24T06:39:51.574Z",
-        "scope": "已存投稿目录86条，网页当前公开视频86条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
+        "state": "reviewed",
+        "observed_at": "2026-10-27T14:37:46.065Z",
+        "scope": "最新发布首屏42个不同BV；86个公开视频，复用已存三页目录。",
         "evidence": "https://space.bilibili.com/37720838/upload/video"
       },
       "popular": {
-        "state": "captured",
-        "observed_at": "2026-10-24T06:39:51.574Z",
-        "scope": "已存投稿目录86条，网页当前公开视频86条；完整性边界见channel.listings的verification。已有发布日期／播放量可供排序，未因此读取作品页。",
+        "state": "reviewed",
+        "observed_at": "2026-10-27T14:39:55.423Z",
+        "scope": "已点击最多播放并核选中态，首屏42BV；EVE最高播放为长枪首秀，后有A1、R-A、制片厂等。",
         "evidence": "https://space.bilibili.com/37720838/upload/video"
       },
       "series": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
-        "evidence": null
+        "state": "reviewed",
+        "observed_at": "2026-10-27T14:38:48.213Z",
+        "scope": "唯一合集为尘白录像素材4段，非EVE合集；EVE制片厂两段由视频目录与作品页对应。",
+        "evidence": "https://space.bilibili.com/37720838/upload/video"
+      },
+      "opus": {
+        "state": "reviewed",
+        "observed_at": "2026-10-27T14:38:52.712Z",
+        "scope": "图文32篇，首屏20卡；AOM动态单页首段已核，读取器截断余文；其余历史未翻。",
+        "evidence": "https://space.bilibili.com/37720838/upload/opus"
       }
     },
     "prior_notes": [],
@@ -812,11 +818,9 @@
       }
     ],
     "tag_review": {
-      "decision": "not_qualified_in_prior_review",
-      "reason": "旧调查见近作多为战舰世界，已见3条EVE视频。",
-      "observed_at": null,
-      "scope": "迁移已有频道调查结论，原记录未保留确切日期；数量不作现值。此字段不自动改列传标签。",
-      "next": "以后取得本人账号有5个以上EVE视频的依据，再复核标签；不因本次整理刷新频道。"
+      "decision": "qualified",
+      "reason": "86条公开目录中45条EVE题材，本人作品页及作者回帖已核，超过5条门槛。",
+      "observed_at": "2026-10-27T14:37:46.065Z"
     }
   },
   "videos": [
@@ -859,19 +863,20 @@
         "replies": 115
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
       },
       "reading": {
-        "state": "material_linked",
+        "state": "digested",
         "material_refs": [
-          "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1eh411p7c6"
         ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "复用已存完整简介和A1-AUH战役素材：作者自嘲本想约小队战，AOM跳超旗后FRT含泪吃下十余大航，附BR6144bdcc874be8002b6a7928。此为阵营宣传口吻，不能当Ozen个人击杀战果。已沿战役素材核对交战背景；本轮不重复读取115条评论，不评价55分钟影像。 未读影像、字幕、音频。"
       },
       "usage": {
         "body": false,
-        "selected": false
+        "selected": true
       }
     },
     {
@@ -887,19 +892,252 @@
         "replies": 15
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
       },
       "reading": {
-        "state": "material_linked",
+        "state": "digested",
         "material_refs": [
-          "src/battles/otsasai-2021/materials-otsasai-2021.md"
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1w44y1y7s1"
         ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "复用已存完整简介和欧塔萨塞战役素材：低安建筑装甲增强引旗舰战，作者抱怨高TIDI体验，附BR6113e8f86334070018513c65。主旨是大型舰队混战记录，不把标题100无畏等同本人统帅规模。本轮未重读15条评论或影像。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1NM4y147qz",
+      "title": "EVE欧服 会战级别无畏长枪在FRT完成首秀！",
+      "url": "https://www.bilibili.com/video/BV1NM4y147qz/",
+      "owner_uid": "37720838",
+      "published_at": "2023-07-15T14:57:07.000Z",
+      "captured_at": "2026-10-27T14:38:08.752Z",
+      "description": "FRT与B2联盟在Y-1918发生战斗，会战无畏长枪首秀\nGF \n\nhttps://br.evetools.org/br/64b29f7577d745005c90c7d8",
+      "stats": {
+        "views": 10025,
+        "replies": 34
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1nm4y147qz"
+        ],
+        "scope": "Y-1918的FRT／B2交火，简介附BR64b29f7577d745005c90c7d8。读19条已加载主评论及可见回复；本人回答货柜扩充问题，说自己开偷运舰，打架前正在铆泡泡堵门；答导弹爆炸特效是新效果、自己最低特效。本人上传实战记录，无公开联合制作署名。此项是辅助工种直接自述，不认他驾驶长枪无畏。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1sb4y187JF",
+      "title": "EVE欧服 FRT制片厂搞事电影片段一： 危机！独走警告！",
+      "url": "https://www.bilibili.com/video/BV1sb4y187JF/",
+      "owner_uid": "37720838",
+      "published_at": "2021-11-06T02:22:23.000Z",
+      "captured_at": "2026-10-27T14:39:21.328Z",
+      "description": "群里的梨子企划的搞事电影试作片段\n我只是个加特效的，有事都找他 /doge\n片段梗概：三艘TT为主的舰队南下，值守舰队派出舰船拦截，竟是如此结果。",
+      "stats": {
+        "views": 6094,
+        "replies": 48
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "梨子企划，Ozen特效"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1sb4y187jf"
+        ],
+        "scope": "简介：梨子企划搞事电影，自己加特效，“有事都找他”；三艘TT南下、值守拦截的虚构电影梗概。20条主评论及可见回复，作者答原片《机动警察剧场版：和平保卫战》，答影射内容“如有雷同纯属巧合”；观众编创世旗舰无法被定扫、喊创世兴加一王，2025／2026仍有人催更。合作企划，作者贡献是特效，不作本人独立精选，不当真实泰坦南下事件。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1fq4y1z7h9",
+      "title": "EVE欧服 FRT制片厂搞事电影片段二： 紧绷！突入首星！",
+      "url": "https://www.bilibili.com/video/BV1fq4y1z7h9/",
+      "owner_uid": "37720838",
+      "published_at": "2021-11-13T02:00:02.000Z",
+      "captured_at": "2026-10-27T14:39:34.518Z",
+      "description": "群里的梨子企划的搞事电影试作片段\n我只是个加特效的，有事都找他 /doge\n片段梗概：制造虚假创世信号之后，引发一系列连锁反应，剑拔弩张！",
+      "stats": {
+        "views": 2166,
+        "replies": 25
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "梨子企划，Ozen特效"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1fq4y1z7h9"
+        ],
+        "scope": "同一梨子企划第二段，作者负责特效，简介说制造虚假创世信号后连锁反应。20条主评论及可见回复；作者置顶承认前段文戏多，为对峙高峰铺情绪，答原片机动警察2。观众谈创世、SARD、ACR、星城等属于观众接梗，不据此编真实交火；合作不入精选。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1dL411J7QE",
+      "title": "EVE 欧服 双饿狼无双ESS20人摇修舰廉队",
+      "url": "https://www.bilibili.com/video/BV1dL411J7QE/",
+      "owner_uid": "37720838",
+      "published_at": "2021-07-28T14:57:27.000Z",
+      "captured_at": "2026-10-27T14:39:47.648Z",
+      "description": "掠夺未削弱之前，几位大佬的无双存货视频，翻出来剪辑一下纪念逝去的掠夺 o7\n\n撒币2CP平衡组\n\n现在照搬休克疗法，叶利钦点了个赞",
+      "stats": {
+        "views": 3820,
+        "replies": 31
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "剪辑他人旧素材，驾驶不归本人"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1dl411j7qe"
+        ],
+        "scope": "简介明确几位大佬的旧素材，Ozen翻出剪辑，纪念掠夺削弱前版本；读2个已加载主评论线程，讨论注盾与炮转速，折叠回复未展开。上传者承担剪辑，不能把驾驶、操作和战果归本人。保留素材，不以低评论判质量差。 未读影像、字幕、音频。"
       },
       "usage": {
         "body": false,
         "selected": false
+      }
+    },
+    {
+      "bvid": "BV1yL4y1b7i4",
+      "title": "馒头的欧服末路 P2 星城爆炸",
+      "url": "https://www.bilibili.com/video/BV1yL4y1b7i4/",
+      "owner_uid": "37720838",
+      "published_at": "2022-01-17T11:15:02.000Z",
+      "captured_at": "2026-10-27T14:40:01.360Z",
+      "description": "馒头的欧服末路 P2 星城爆炸\n\nAOM/ PIBC首都废弃星城于2022年1月17日凌晨5点左右被击毁\n\n全服超4000人围观这一EVE欧服历史上第一座在00区域被废弃的星城爆炸\n\n星城掉落资产难以计算，保守估计掉落达10万亿 isk级别，至少约合人民币70余万元\n\n该星城此前连同其中全部成员资产被AOM联盟首领 “军用馒头” 私自出卖\n\n所有AOM成员近3年所有积蓄与心血全部毁于一旦\n\n而始作俑者军用馒头则继续回到国服作威作福",
+      "stats": {
+        "views": 6836,
+        "replies": 25
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1yl4y1b7i4"
+        ],
+        "scope": "R-A星城爆炸P2，2022-01-17发布。简介指责馒头出售星城、抛弃成员，称4000人围观、掉落10T等数字均为作者估计，正文未采用金额、人民币折算及“全服第一”定论。2个已加载主评论及可见回复：观众称图纸箱是2000亿年终红包、UP点赞；作者答BGM《离别在今日》为EVA初号机拆二号机曲。P1／P3标题来自本频道目录，分别进攻与百倍速清场，未读两页内容。不捏造“踩着尸体直播”评论。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1AL4y177YD",
+      "title": "EVE欧服 后勤走位视角 日常砸玻璃",
+      "url": "https://www.bilibili.com/video/BV1AL4y177YD/",
+      "owner_uid": "37720838",
+      "published_at": "2022-03-23T19:48:25.000Z",
+      "captured_at": "2026-10-27T14:40:15.119Z",
+      "description": "很普通的去拆了个建筑装甲，因为场面比较简单，觉得适合录像，所以剪辑出来复盘一下",
+      "stats": {
+        "views": 495,
+        "replies": 4
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1al4y177yd"
+        ],
+        "scope": "2022-03-23发布，简介称普通拆建筑装甲，场面简单适合录像，剪辑复盘。2个已加载主评论，谈带标记边签名边修，UP点赞。本人频道后勤走位视角，与既有本人带后勤自述吻合；不补舰船、战果、具体指挥口令。低播放不妨碍作为本人本业代表作。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1rq4y1a7JX",
+      "title": "EVE 欧服 双料高级特工",
+      "url": "https://www.bilibili.com/video/BV1rq4y1a7JX/",
+      "owner_uid": "37720838",
+      "published_at": "2022-04-08T15:32:06.000Z",
+      "captured_at": "2026-10-27T14:40:28.377Z",
+      "description": "穿山甲：我就是大名鼎鼎的双料高级特工，代号：穿山甲！！！",
+      "stats": {
+        "views": 1159,
+        "replies": 19
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1rq4y1a7jx"
+        ],
+        "scope": "简介用双料高级特工、穿山甲做梗，选集标题为高级双料特工——龙根。2个主评论线程及可见回复：置顶读者指责龙根自毁IHUB、为好玩冒联盟风险，UP点赞，2022-04-15回复“果然神预言，今天又爆了TCU”。这些是Ozen如何嘲讽别人的行为材料，不把IHUB／TCU责任算给Ozen，读者对现实生活的恶言不入文。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1BySRByEhf",
+      "title": "EVE 简易同声传译方案搭建",
+      "url": "https://www.bilibili.com/video/BV1BySRByEhf/",
+      "owner_uid": "37720838",
+      "published_at": "2026-04-06T04:55:05.000Z",
+      "captured_at": "2026-10-27T14:40:52.096Z",
+      "description": "简易同声传译方案搭建，降低和EN成员的沟通成本\n\n最好在最开始就要给豆包一个专有名词列表，这样翻译的比较准确\n\n目前只能中译英，不过也够用了",
+      "stats": {
+        "views": 1528,
+        "replies": 10
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "本人频道与公开署名已核，具体依据见作品素材。"
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/ozen-wand/materials-ozen-wand.md#bili-bv1bysrbyehf"
+        ],
+        "scope": "2026-04-06发布，简介搭建中译英同声传译以降低与EN成员沟通成本，建议先给豆包专有名词表，目前仅中译英。2个已加载主评论：读者感谢补社区沟通教学，另有人喊泡泡仙人。未看教程操作，不声称实现效果、准确率或双向支持。 未读影像、字幕、音频。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
       }
     }
   ]

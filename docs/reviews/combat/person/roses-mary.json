@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/roses-mary/materials-roses-mary.md",
+    "src/people/roses-mary/2114089373-id.json",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/people/roses-mary/roses-mary.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号已有 stats、常用船和总量；舰队成员，未据击杀推指挥。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "heading": "## 2026-10-24：战斗画像补漏"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "检查人物档案和身份素材，无已确认主力小号或售号记录，未将未知账号并入。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/2114089373-id.json",
+          "contains": "\"alts\": []"
+        },
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "contains": "收录角色：roses mary"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2025年9月与2026年4月高值月份；2025年9月代表建筑KM仅说明参与，船型未返回，正文不补造。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "contains": "- 代表[KM129712558]"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "欧塔萨塞已有战役快照命中主号、FRT阵营；只写参战，未认定舰型或指挥。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/materials-roses-mary.md",
+          "contains": "- 本地战役关联"
+        },
+        {
+          "file": "src/battles/otsasai-2021/otsasai-2021.json",
+          "contains": "\"2114089373\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增开篇后独立红料，综合常用舰队船、战役与后来的建筑作战，不覆盖管理旧账。",
+      "evidence": [
+        {
+          "file": "src/people/roses-mary/roses-mary.md",
+          "contains": "::: 红料 老板的机库"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/people/roses-mary/2114089373-id.json",
+    "src/people/roses-mary/materials-roses-mary.md",
+    "src/people/roses-mary/roses-mary.md",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md"
+  ],
+  "inputs": "6035021566888173809e8081678878a93e88b5562a6c9b75d788d86880c03599",
+  "level": 1
+}

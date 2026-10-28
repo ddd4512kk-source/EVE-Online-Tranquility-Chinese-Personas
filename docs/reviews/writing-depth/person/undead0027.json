@@ -1,0 +1,204 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/undead0027/materials-undead0027.md",
+    "src/people/undead0027/undead0027.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文与陌然回忆素材，核战绩、教跳货、产业线留下、维京夜、招新断代、接班等故事。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/materials-undead0027.md",
+          "heading": "## 来源：陌然《一个无名小卒的回忆录》（8738371316）"
+        },
+        {
+          "file": "src/people/undead0027/materials-undead0027.md",
+          "heading": "## 游戏数据（profile.mjs，2026-10-09）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "产业线未搬与接班失败直接关系军团兴衰，分两件重事检查；其余事件分别列明。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/materials-undead0027.md",
+          "contains": "#32 梦雨"
+        }
+      ],
+      "items": [
+        {
+          "title": "产业线留在111-F1及搬迁损失",
+          "weight": "heavy",
+          "reason": "几亿立方生产资料与建筑关系浮岳工业根基。",
+          "source": {
+            "file": "src/people/undead0027/materials-undead0027.md",
+            "contains": "#32 梦雨"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/undead0027/undead0027.md",
+            "contains": "浮岳最风光时"
+          },
+          "note": "补写运输与生产规模的冲突及建筑后果。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "联盟迁都后庞大组件与矿需要转移。",
+              "evidence": {
+                "file": "src/people/undead0027/undead0027.md",
+                "contains": "浮岳最风光时"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "生产越繁盛，家当越难搬。",
+              "evidence": {
+                "file": "src/people/undead0027/undead0027.md",
+                "contains": "工业团攒家底"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "选择留下生产线，索迪约后来被毁。",
+              "evidence": {
+                "file": "src/people/undead0027/undead0027.md",
+                "contains": "后来 111-F1"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "招新断代与CEO交接",
+          "weight": "heavy",
+          "reason": "管理断代影响军团延续，陌然将接班问题与浮岳解体相连。",
+          "source": {
+            "file": "src/people/undead0027/materials-undead0027.md",
+            "contains": "#32 梦雨"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/undead0027/undead0027.md",
+            "contains": "2022 年那场 ECM"
+          },
+          "note": "保留陌然评价作为回忆，并补管理交接与招新断代的关系。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "AOM末期已断新血，梦雨与管理靠考核维持军团。",
+              "evidence": {
+                "file": "src/people/undead0027/undead0027.md",
+                "contains": "到了 DC，浮岳靠"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "能出资的接班人与需处理具体工业管理的职位要求不同。",
+              "evidence": {
+                "file": "src/people/undead0027/undead0027.md",
+                "contains": "他当年亲手接新人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "陌然评价老雷未扛住，团后来离开DC。",
+              "evidence": {
+                "file": "src/people/undead0027/undead0027.md",
+                "contains": "浮岳的雇佣记录停在"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "跳货教学与撤离",
+          "weight": "ordinary",
+          "reason": "教诱导及协助团员搬迁体现管理贡献。",
+          "source": {
+            "file": "src/people/undead0027/materials-undead0027.md",
+            "contains": "#32 梦雨"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/undead0027/undead0027.md",
+            "contains": "浮岳是工业团，快递是门生意"
+          },
+          "note": "写十二诱导点、指令与撤离超旗。"
+        },
+        {
+          "title": "维京之夜",
+          "weight": "ordinary",
+          "reason": "中立废弃建筑被劫掠的集体事件。",
+          "source": {
+            "file": "src/people/undead0027/materials-undead0027.md",
+            "contains": "#32 梦雨"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/undead0027/undead0027.md",
+            "contains": "浮岳在 DC 安定下来以后"
+          },
+          "note": "保留本人先拒后参与的反差与浮岳秘史原话。"
+        },
+        {
+          "title": "新FC弃任",
+          "weight": "ordinary",
+          "reason": "招聘断代的相关具体经历。",
+          "source": {
+            "file": "src/people/undead0027/materials-undead0027.md",
+            "contains": "#32 梦雨"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/undead0027/undead0027.md",
+            "contains": "据陌然回忆，浮岳搬到摄魂后"
+          },
+          "note": "保留老成员期望、压力与弃任的回忆。"
+        },
+        {
+          "title": "319-3D等舰队参战",
+          "weight": "ordinary",
+          "reason": "战斗画像补充，无指挥证据。",
+          "source": {
+            "file": "src/people/undead0027/materials-undead0027.md",
+            "contains": "现有战役："
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/undead0027/undead0027.md",
+            "contains": "大队伍集结时"
+          },
+          "note": "只写普通参战。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "保留五年CEO主线、工业团起落与结尾评语，战绩作为开篇后补充，不覆盖管理。",
+      "evidence": [
+        {
+          "file": "src/people/undead0027/undead0027.md",
+          "contains": "梦雨当了五年工业团 CEO"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/ln1p-lowkey-hel-2024.md",
+    "src/people/undead0027/2113823279-id.json",
+    "src/people/undead0027/materials-undead0027.md",
+    "src/people/undead0027/undead0027.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md"
+  ],
+  "inputs": "80c28a6b9825f9392c3f7333c04209b975624ad175b53f1aa0e05e20bda0e4c2",
+  "level": 1
+}

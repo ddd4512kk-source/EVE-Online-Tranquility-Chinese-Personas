@@ -1,0 +1,124 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/wuhuarou/materials-wuhuarou.md",
+    "src/people/wuhuarou/wuhuarou.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人身份、RMT聊天转账、科莫多说法及游戏画像，保留重事并纠正原文无依据推论",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "### 素材与证据边界"
+        },
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "### 战役关联与归因（2026-10-28）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "仇恨现金交易为核心重料，科莫多另为缺少买家与价格的说法",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/materials-wuhuarou.md",
+          "heading": "### 素材与证据边界"
+        }
+      ],
+      "items": [
+        {
+          "title": "仇恨现金交易",
+          "reason": "担任军团总监时私下以人民币出售超旗，金额与对话留存，直接决定人物形象",
+          "note": "保留买卖双方确认、2000元转账、事后询问；纠正科莫多和另一条泰坦的证据边界",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/wuhuarou/materials-wuhuarou.md",
+            "heading": "### 素材与证据边界"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/wuhuarou/wuhuarou.md",
+            "contains": "五花肉在创世的副业"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "先写总监与同团买家形成的交易关系",
+              "evidence": {
+                "file": "src/people/wuhuarou/wuhuarou.md",
+                "contains": "他是创世的总监，又和同团买家"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "游戏造船与现实人民币交易并置",
+              "evidence": {
+                "file": "src/people/wuhuarou/wuhuarou.md",
+                "contains": "把船款从游戏里的 ISK 换成现实里的钱"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "交代两千元、确认身份与事后询问，明确现金交易事实",
+              "evidence": {
+                "file": "src/people/wuhuarou/wuhuarou.md",
+                "contains": "下一条就是 2000 块钱"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "区分仇恨付款、科莫多传闻和另艘泰坦损失",
+              "evidence": {
+                "file": "src/people/wuhuarou/wuhuarou.md",
+                "contains": "仇恨这笔有聊天和转账记录"
+              }
+            }
+          ]
+        },
+        {
+          "title": "多号生产与舰队经历",
+          "reason": "游戏画像及后勤与战斗分工",
+          "note": "核验代表战役并保留本人的生产与舰队生活",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/wuhuarou/materials-wuhuarou.md",
+            "heading": "### 战役关联与归因（2026-10-28）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/wuhuarou/wuhuarou.md",
+            "contains": "一家人分工明确"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "先交代生产及作战，随后重写交易过程、事后询问与两条不同的船；结尾仍落在总监人民币生意",
+      "evidence": [
+        {
+          "file": "src/people/wuhuarou/wuhuarou.md",
+          "contains": "五花肉在创世的副业"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/wuhuarou/2114965098-id.json",
+    "src/people/wuhuarou/materials-wuhuarou.md",
+    "src/people/wuhuarou/wuhuarou.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "8fe8e13f6734a2a69a40fb72e88fdc2e87edd8835f5427c15c51bcffec7c2bfd",
+  "level": 1
+}

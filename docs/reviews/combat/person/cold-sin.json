@@ -1,0 +1,94 @@
+{
+  "status": "reviewed",
+  "note": "核对主号、小号、高值月份与关联战役，综合战斗画像已写入独立红料。",
+  "evidence": [
+    "src/people/cold-sin/materials-cold-sin.md",
+    "src/people/cold-sin/cold-sin.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号5282击杀、常用常规舰与损失已核，写作定位舰队常客，不归为FC。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "## 游戏画像与已有战役"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核Lone Heart的综合画像和同场参战，各号战果不相加。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "## 游戏画像与已有战役"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核最高价值月与一张独自击杀代表KM，月度累计不等同特定战役成绩。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "### 代表KM核读"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "九场存量战役逐场核主小号，希瑟伊德四艘船损失时间和船型支持换船返场。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/materials-cold-sin.md",
+          "heading": "### 战绩正文补足（2026-10-25）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "已将综合舰队画像独立成开篇后的红料，展开乌特拉与希瑟伊德；保留教学主线。2026-10-29删去新增教程段的重复句。",
+      "evidence": [
+        {
+          "file": "src/people/cold-sin/cold-sin.md",
+          "contains": "心冷在混沌吃的是常规舰队这碗饭"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/cold-sin/2120847059-id.json",
+    "src/people/cold-sin/cold-sin.md",
+    "src/people/cold-sin/materials-cold-sin.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "243014df7b37d546dc5b19ad33b7edfdb3cdf445c22f2fbfa9052d4ecbf7551b",
+  "level": 1
+}

@@ -32,3 +32,9 @@ Ghost与加里对应Mahola Dian；2025-10作者回复星华军团，2026-10当�
 本次依据本人频道已存投稿目录补选作品；按目录标题及已存播放排序筛选，未重读作品正文，未读影像、音轨或字幕。推荐语仅概述标题可确认的主题；作品核读状态不变。
 - [【EVE欧服】- HB-1NJ星系3600人铁壁上线战](https://www.bilibili.com/video/BV17ET4z6EJi/)：频道目录记录；本次仅核对标题与列表元数据。
 - [【EVE欧服】- PH联盟U-QVWD星城陨落！](https://www.bilibili.com/video/BV1cyv9eKELN/)：频道目录记录；本次仅核对标题与列表元数据。
+
+## 综合画像与萨托加斯（2026-10-28）
+
+[角色统计](https://zkillboard.com/character/2120624679/)326次参与击杀，80次损失，常用Zealot、Tempest Fleet Issue、Augoror Navy Issue、Cyclone Fleet Issue；2026年1月最高参与价值月约310.7B，金额是集体目标估值。身份档案未登记小号，不据未搜索认定没有其他角色。
+
+该月接口72条；最高样本[KM132614377](https://zkillboard.com/kill/132614377/)经ESI核对为2026-01-13 15:41 UTC、萨托加斯星城，1115攻击者，本人开Maelstrom、代表HongLou／Goonswarm参战。与本站[萨托加斯战役](../../battles/sahtogas-2026/)战报星系、时间相符。角色为参与者，不推断指挥或个人击毁。

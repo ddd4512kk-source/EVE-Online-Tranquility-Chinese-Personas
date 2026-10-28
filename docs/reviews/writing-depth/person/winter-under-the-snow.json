@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/winter-under-the-snow/materials-winter-under-the-snow.md",
+    "src/people/winter-under-the-snow/winter-under-the-snow.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读本人素材和列传，对照作品、评论及战斗，旧主线保留。",
+      "evidence": [
+        {
+          "file": "src/people/winter-under-the-snow/materials-winter-under-the-snow.md",
+          "heading": "## B站文字评论续查（2026-10-14）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "核作品、人物自嘲、社区讨论与已归档战斗，未发现满足重料门槛的重大个人争议。",
+      "noHeavyReason": "现有记录是作者的作品和社区讨论，未见重大后果的独立人物事件；采访或速报本身不等同联盟管理决策。",
+      "evidence": [
+        {
+          "file": "src/people/winter-under-the-snow/materials-winter-under-the-snow.md",
+          "contains": "作者厚雪下的冬天在简介"
+        }
+      ],
+      "items": [
+        {
+          "title": "退盟速报与招新",
+          "weight": "ordinary",
+          "reason": "作品与评论塑造人物作为中文社区作者的主要形象。",
+          "source": {
+            "file": "src/people/winter-under-the-snow/materials-winter-under-the-snow.md",
+            "contains": "作者厚雪下的冬天在简介"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/winter-under-the-snow/winter-under-the-snow.md",
+            "contains": "小冬也接联盟里的创作委托"
+          },
+          "note": "保留本人创作、读者反应及作品背后的社区处境。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "正文以作者作品和社区互动为主，战斗一块作补充，未让普通出勤压过原来的故事。",
+      "evidence": [
+        {
+          "file": "src/people/winter-under-the-snow/winter-under-the-snow.md",
+          "contains": "小冬也接联盟里的创作委托"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/battle-side-review-2026-10-21.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-discovery-2026-10-11.md",
+    "docs/sources/community-br-verified-2026-10-11.md",
+    "docs/sources/hed-gp-incident-2023.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/people/winter-under-the-snow/2118205959-id.json",
+    "src/people/winter-under-the-snow/materials-winter-under-the-snow.md",
+    "src/people/winter-under-the-snow/winter-under-the-snow.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "e009dbe63f89e5269b493fd4bf0043d0baf050a51b65ee7fcf414fc0f205798b",
+  "level": 1
+}

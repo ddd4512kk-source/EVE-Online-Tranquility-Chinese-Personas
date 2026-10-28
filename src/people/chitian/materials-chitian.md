@@ -70,9 +70,9 @@
 
 2026-10-13 [ESI2120559143](https://esi.evetech.net/latest/characters/2120559143/)返回 chitian huhuhu、KZU／98808817、蓝章鱼／99010877、头衔“炽天 清风不语，明月自来”，与主号同团、同中文头衔，直接归本人小号，加入aliases，不另立传。
 
-[雇佣历史](https://esi.evetech.net/latest/characters/2120559143/corporationhistory/)显示2025-10-07进入Knights of the Pink Claw／98815170，10-21回KZU，与此前已取得的该军团创建者字段同号吻合；创建粉魔公司属于此号的游戏登记，不能因登记推断此后日记楼主就是炽天。
+[雇佣历史](https://esi.evetech.net/latest/characters/2120559143/corporationhistory/)显示2025-10-07进入Knights of the Pink Claw／98815170，10-21回KZU，与此前已取得的该军团创建者字段同号吻合；日记作者的对应结合下述建团、现任CEO及日记管理经历判断。
 
-现CEO chitian wuhu／2120819670头衔为空，当前粉魔公司／Another- Heaven；此次历史仅2025-12-12进入该公司，此前未有玩家军团记录，与huhuhu在团时间不重叠。未把这个CEO号并为炽天，也不把日记里空壳团、后勤回收、轻拦事故直接算炽天操作；完整待归属故事继续见[建团日记线索](../../../docs/leads/tieba-corp-diaries.md)。主号标签不据此加历史粉魔公司或另一联盟。
+现CEO chitian wuhu／2120819670头衔为空，自2025-12-12进入粉魔公司；与创建该团的chitian huhuhu同词根、同一军团，归炽天小号。2026-10-28 ESI确认该号仍为CEO；DOTLAN军团事件页仅列2025-10至2026-01三条联盟变动，未列CEO交接，无法据此确定接任日期。贴吧“提米的猫／心诤♬”（UID 947220234）日记以第一人称记述接手粉魔爪与后勤，结合炽天的号创建该团、同词根号担任CEO，归炽天本人；日记内容与已读范围见[建团日记](../../../docs/leads/tieba-corp-diaries.md)。主号标签不据此加历史粉魔公司或另一联盟。
 
 ## B站文字评论续查（2026-10-14）
 
@@ -83,3 +83,9 @@
 2026-10-14[chitian xiao／2114917439的ESI](https://esi.evetech.net/latest/characters/2114917439/)头衔完整为炽天清风不语明月自来，当前KZU，原同人关系进一步对上。简介选用长篇以mrpro口吻叙述的耶舒尔／LN1P争论：自述隐投信息泄露、蓝加跟踪，批评朋友多多语音闹事及联盟CEO偏袒，又反驳五级任务攻略剽窃指责，称旧团多人共同制作与改进，公共邮件／贴吧已发布，不该因BGNM修改而改判剽窃。后段提Tony打牧星时被要求停手、王哒哒与牧星、LN1P看戏报情报等指控，结尾以“我是mrpro，是bgnm大将军，我要进京勤王”写要铲LN1P。归为该小号公开选用的争论文本；不把第一人称当炽天亲历、不从复制口吻认其为mrpro、不据此指认谁真正泄露情报或抄袭。原发布处、原作者与具体事件日期仍待桥；现实学历／职业／生活辱骂不保留。
 
 会议作者哒哒小橙子（289511974）已对应KZU前总监橙子／BIGORANGE6 TANORANGE（2115027553），已有文字阅读归[橙子素材](../chengzi/materials-chengzi.md)，不继续深查其频道。
+
+## 战斗复查补记
+
+2026-10-28查得主力小号chitian xiao的综合画像：参与1986次击杀，常用Apocalypse 996次、Maelstrom 215次；高值月2025-02约331.1B、2025-10约281.3B。金额均为共同参与的目标价值，不与主号合算。chitian hehehe的存档 stats 总览为4718次参与击杀、448次损失、最近活跃至2026-09；其与xiao、主号均有长期参战记录，足以支持正文的活跃程度和规模判断。hehehe常用船和高值月份细目本轮未取得；正文不依赖这些细目，不再将它们列作交付缺口，也不据其他号的船型推断此号玩法。
+
+九场既有战役对照：R-AG7W的主号代表KM见上；其余通过已保存原始战报逐条核得：hehehe在M-MD31的[134737321](https://zkillboard.com/kill/134737321/)（2026-04-14 13:12 UTC）、Sahtogas的[132611185](https://zkillboard.com/kill/132611185/)（2026-01-13 13:22）、Haras的[114179956](https://zkillboard.com/kill/114179956/)（2023-12-21 14:47）、J-TPTA的[99822791](https://zkillboard.com/kill/99822791/)（2022-03-30 14:46）均在各自星系与交战日期。TN25-J的[131239392](https://zkillboard.com/kill/131239392/)（2025-11-15 13:03）同时有hehehe及xiao，主号另有[131240121](https://zkillboard.com/kill/131240121/)（13:18）；Ahbazon的[117502503](https://zkillboard.com/kill/117502503/)和[117502517](https://zkillboard.com/kill/117502517/)分别有hehehe及xiao（2024-05-03 02:52、02:53）。Siseide的[128026216](https://zkillboard.com/kill/128026216/)、[128026945](https://zkillboard.com/kill/128026945/)、[128027164](https://zkillboard.com/kill/128027164/)分别有xiao、主号、hehehe（2025-06-21 04:36—05:05）；Atioth的[134543043](https://zkillboard.com/kill/134543043/)有hehehe（2026-04-06 15:39）。Atioth宽窗口里xiao的[134590142](https://zkillboard.com/kill/134590142/)为4月8日，不能仅凭同星系与宽窗口断定属于4月6日战斗。以上确认的均只认普通参战，不认总指挥或独立战果；同一目标上的多号不重复算目标价值。

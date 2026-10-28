@@ -1,0 +1,52 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/missionlin/materials-missionlin.md",
+    "src/people/missionlin/missionlin.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人身份、综合KB及已读三项帖子，全文保留任务答疑、招新和入侵队。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/materials-missionlin.md",
+          "heading": "## 已读事件"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "素材是个人答疑、普通招新和成队入侵，均已成块讲清；不存在需要按重大争议审的事件。",
+      "noHeavyReason": "本人材料未记录重大指控、重大组织变故或个人关键战役决策；持续答疑与招新为普通经历。",
+      "items": [],
+      "evidence": [
+        {
+          "file": "src/people/missionlin/materials-missionlin.md",
+          "heading": "## 已读事件"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗画像单独置于开篇后，既有持续答疑与高安招新主线不删减。",
+      "evidence": [
+        {
+          "file": "src/people/missionlin/missionlin.md",
+          "contains": "这种帖子最难的不是开头"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/missionlin/2119009927-id.json",
+    "src/people/missionlin/materials-missionlin.md",
+    "src/people/missionlin/missionlin.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
+  ],
+  "inputs": "b863398114a9a28a53fc1f32433e7ac487618a95fcd9094821aaba63d0385baa",
+  "level": 1
+}

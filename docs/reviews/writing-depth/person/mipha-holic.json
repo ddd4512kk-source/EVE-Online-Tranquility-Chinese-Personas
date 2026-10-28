@@ -1,0 +1,132 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mipha-holic/materials-mipha-holic.md",
+    "src/people/mipha-holic/mipha-holic.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读全文和完整材料，保留建团、机库损失、经营实验、外交与护短争议，以及散伙告别。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 贴吧主题帖要点（2026-10-15）"
+        },
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## 角色对应"
+        },
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "heading": "## B站视频（2026-10-15 Chrome 读取）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "机库损失是军团管理重事，已扩写；经营改革和散伙亦保留。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/materials-mipha-holic.md",
+          "contains": "[7273014254]"
+        }
+      ],
+      "items": [
+        {
+          "title": "开放机库造成十B损失",
+          "reason": "CEO任内管理失误造成军团资产损失并暂停招新。",
+          "note": "写战斗处境、权限开放与损失的反差及整顿后重招。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/mipha-holic/materials-mipha-holic.md",
+            "contains": "[7273014254]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mipha-holic/mipha-holic.md",
+            "contains": "2021 年 3 月，FHT 重开招新"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "开篇交代与RR战斗输多赢少，新团正准备重开招新。",
+              "evidence": {
+                "file": "src/people/mipha-holic/mipha-holic.md",
+                "contains": "2021 年 3 月，FHT 重开招新"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "海盗出门抓猎物，自己的机库却因过早开放权限损失。",
+              "evidence": {
+                "file": "src/people/mipha-holic/mipha-holic.md",
+                "contains": "海盗团的日子本来就不安稳"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "处理后勤、搭建SEAT后才重启招新，公开承认管理问题。",
+              "evidence": {
+                "file": "src/people/mipha-holic/mipha-holic.md",
+                "contains": "他没有把这件事藏在招新广告后面"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "经营试验与撤补损",
+          "reason": "本人经营多个赛季后的公开回顾",
+          "note": "保留奖金、发船、取消总监与后果。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mipha-holic/materials-mipha-holic.md",
+            "contains": "[8701129230]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mipha-holic/mipha-holic.md",
+            "contains": "HOLIC 管 FHT"
+          }
+        },
+        {
+          "title": "护短追踪",
+          "reason": "因成员与邻居争执，团长公开威胁跟踪对方",
+          "note": "保留冲突、双方回话与团长护短。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/mipha-holic/materials-mipha-holic.md",
+            "contains": "[8944853993]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mipha-holic/mipha-holic.md",
+            "contains": "2024 年 3 月，FHT 团员天空"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "经营、冲突和解散继续承载主线，补充战斗不压过人物。",
+      "evidence": [
+        {
+          "file": "src/people/mipha-holic/mipha-holic.md",
+          "contains": "HOLIC 把一个海盗团当成实验室"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mipha-holic/2114370884-id.json",
+    "src/people/mipha-holic/materials-mipha-holic.md",
+    "src/people/mipha-holic/mipha-holic.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md"
+  ],
+  "inputs": "8bb317565addb739596d2c369c35648d405200a6f3fa026abdea9e2b8941a23d",
+  "level": 1
+}

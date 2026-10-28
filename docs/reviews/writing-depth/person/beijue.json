@@ -1,0 +1,102 @@
+{
+  "status": "reviewed",
+  "note": "对照更新的本人素材和正文核查。",
+  "evidence": [
+    "src/people/beijue/materials-beijue.md",
+    "src/people/beijue/beijue.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读人物正文、现有素材及关联材料，保留主线与双方叙述边界。 本轮已对照新增战斗材料和正文。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## 角色与职责"
+        },
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## VKC创业日记（贴吧10455776464）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重大争议按现有来源展开，身份、责任和说法边界保留。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/materials-beijue.md",
+          "heading": "## 角色与职责"
+        }
+      ],
+      "items": [
+        {
+          "title": "辛迪加蓝加争论",
+          "reason": "外交争议涉及两团交火与对外信誉",
+          "note": "展开处境、反差及反应后果。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/beijue/materials-beijue.md",
+            "heading": "## 角色与职责"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/beijue/beijue.md",
+            "contains": "按长夜余火事后公开的交涉记录"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "双方先摸清邻居与拉蓝的处境",
+              "evidence": {
+                "file": "src/people/beijue/beijue.md",
+                "contains": "按长夜余火事后公开的交涉记录"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "两边对同一外交安排的解释互相冲突",
+              "evidence": {
+                "file": "src/people/beijue/beijue.md",
+                "contains": "到了 11 月，两边都认有过拉蓝"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "成员公开鱼塘说法，外交信誉受损",
+              "evidence": {
+                "file": "src/people/beijue/beijue.md",
+                "contains": "更难听的是星守成员"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "人物主线、争议及战斗经历均保留。",
+      "evidence": [
+        {
+          "file": "src/people/beijue/beijue.md",
+          "contains": "一个曾在辛迪加跟邻居吵蓝加的人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/syndicate-blue-dispute-2024.md",
+    "src/people/beijue/2121509601-id.json",
+    "src/people/beijue/beijue.md",
+    "src/people/beijue/materials-beijue.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
+  ],
+  "inputs": "ae55e1291fde5fc27c9e12fb5fb78e7d3049be902e6e82b95988db755109fd4e",
+  "level": 1
+}

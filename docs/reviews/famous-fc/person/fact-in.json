@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核著名FC分级（2026-10-29 重审）：正文指挥段落仍在，FC身份依据不变；按正式战役名单合并本人主号及已确认小号，共0场大型或史诗战役（同场去重、排除正文点名），不足10场，保留FC，不删原有指挥故事。本次失效来自正文措辞或战役正文改动，未改变分级。未复核全文或其他标签。",
+  "evidence": [
+    "src/people/fact-in/fact-in.md",
+    "src/people/fact-in/2113515731-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "src/people/fact-in/2113515731-id.json",
+    "src/people/fact-in/fact-in.md",
+    "src/people/fact-in/materials-fact-in.md"
+  ],
+  "inputs": "fe456e2e10ce137e0dad2d23cd3dcc95891bcde1d146847b3a3f50fdf3754e11",
+  "level": 1
+}

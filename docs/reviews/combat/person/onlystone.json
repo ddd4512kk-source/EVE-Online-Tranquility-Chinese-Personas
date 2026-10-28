@@ -1,0 +1,104 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/onlystone/materials-onlystone.md",
+    "src/people/onlystone/2121840947-id.json",
+    "src/people/onlystone/onlystone.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号常用舰船、单杀和舰队履历，争议来源支持其带队角色。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 后续取材"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案未登记小号及售号，未猜测其他同名角色。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 后续取材"
+        },
+        {
+          "file": "src/people/onlystone/2121840947-id.json",
+          "contains": "\"identity\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核 2025 年 8 月高值期首批中的两条参与 KM。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 后续取材"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核既有 YMJG-4、埃加奥及乌特拉关联，按参与及本人损失叙述。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 2026-06-21 Akkio参战（2026-10-20补档）"
+        },
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## ymjg-2024：战役参战关联"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "新增独立红料解释杆子清人、常用船与代表战役。",
+      "evidence": [
+        {
+          "file": "src/people/onlystone/materials-onlystone.md",
+          "heading": "## 后续取材"
+        },
+        {
+          "file": "src/people/onlystone/onlystone.md",
+          "contains": "石头打架的习惯"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/onlystone/2121840947-id.json",
+    "src/people/onlystone/materials-onlystone.md",
+    "src/people/onlystone/onlystone.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/evati-2025/evati-2025.json",
+    "src/battles/evati-2025/evati-2025.md",
+    "src/battles/evati-2025/materials-evati-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "35a5f1392225ad1ba5aa6582cc9fb5fe274ad5048d5f2e92cfb4e0af18a73f58",
+  "level": 1
+}

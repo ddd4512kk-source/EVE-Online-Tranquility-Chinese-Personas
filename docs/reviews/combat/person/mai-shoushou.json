@@ -1,0 +1,73 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mai-shoushou/materials-mai-shoushou.md",
+    "src/people/mai-shoushou/mai-shoushou.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核常用舰船及本人自述带队经历",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+          "heading": "## 战斗画像与代表记录"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案无确认小号，探路号未认定角色",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+          "heading": "## 战斗画像与代表记录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2020年9月样本，集体建筑战不作个人战功",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+          "heading": "## 战斗画像与代表记录"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照319战役窗口、VYO快照及泰坦故事",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/materials-mai-shoushou.md",
+          "heading": "## 战斗画像与代表记录"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "已将综合作战画像写为独立红料2026-10-29复读：档案标题下的红料补回KB总数与常用船，319-3D按参战写。",
+      "evidence": [
+        {
+          "file": "src/people/mai-shoushou/mai-shoushou.md",
+          "contains": "卖手打架的路数，先看得出一个“等”字："
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mai-shoushou/2115186880-id.json",
+    "src/people/mai-shoushou/mai-shoushou.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "14bde8da6c8bf58cdbab5f4c7404ce836ea6faaa9ed0037ef09bc1ed25478f54",
+  "level": 1
+}

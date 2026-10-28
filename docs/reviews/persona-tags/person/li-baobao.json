@@ -1,0 +1,18 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、FRT、RMT。沿用此前判断：本人是14000元三艘冠军船交易的买方，已核具体交易人物链，补RMT。未复核本文其他内容。",
+  "evidence": [
+    "src/people/li-baobao/li-baobao.md",
+    "src/people/li-baobao/2114801659-id.json"
+  ],
+  "dependencies": [
+    "src/people/li-baobao/2114801659-id.json",
+    "src/people/li-baobao/li-baobao.md",
+    "src/people/li-baobao/materials-li-baobao.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md"
+  ],
+  "inputs": "68fbd757ec1ca6af30a5282ac0664aff6e31e9085ff9f9905601a318ae0e6d28",
+  "level": 1
+}

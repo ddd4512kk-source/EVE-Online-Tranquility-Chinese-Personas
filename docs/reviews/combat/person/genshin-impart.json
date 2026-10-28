@@ -1,0 +1,79 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/genshin-impart/materials-genshin-impart.md",
+    "src/people/genshin-impart/genshin-impart.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核主号综合击杀、常用舰船与长期舰队角色。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 游戏画像与代表战役（2026-10-27）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核身份档案，没有已确认小号，未将其他角色归本人。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 游戏画像与代表战役（2026-10-27）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核最高价值月37条记录及1N征服者等代表KM，本人驾驶救世参与。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 游戏画像与代表战役（2026-10-27）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核1N、Y-MPWL、Taff与4-HWWF存量战报，Y-MPWL只认整组战报。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/materials-genshin-impart.md",
+          "heading": "## 游戏画像与代表战役（2026-10-27）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合画像与两场代表战役置于开篇后红料，保留频道主线。",
+      "evidence": [
+        {
+          "file": "src/people/genshin-impart/genshin-impart.md",
+          "contains": "七喜的履历不是只在频道里等人上钩"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/genshin-impart/2122335637-id.json",
+    "src/people/genshin-impart/genshin-impart.md",
+    "src/people/genshin-impart/materials-genshin-impart.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md"
+  ],
+  "inputs": "794a6ccb08d2012584de9be2325e50eeaa28ef2ab22ec6929d082e2e4e0a2f35",
+  "level": 1
+}

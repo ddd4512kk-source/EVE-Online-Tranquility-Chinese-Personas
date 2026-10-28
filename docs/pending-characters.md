@@ -14,18 +14,18 @@
 | 小马/Polaris North招新作者 | laodao721；北极星Polari4 | 大N两号已归同人移出待对应；两作者游戏角色待核，两帖图文已读，小马矿业政策补现有CEO | [招新线索](leads/recruitment-pony-polaris-2025.md) |
 | 宁静访谈小派及协作者 | 小派／萧瑟、六一、NarcissaAa | 嘉宾、主持与后期点名已读；仍缺对应角色；文华已归Ranger YL，译稿来源归白杉素材 | [访谈与译稿线索](leads/ningjing-interview-guests-2022.md) |
 | DC白总兵与AKN旧成员 | 白总兵；AKN土豚、喜羊羊、老杰克 | 独立社区事件已有，缺本人游戏角色；不认白乐心表情为同人桥 | [社区调查线索](leads/dc-fc-community-unmapped-2026-10-12.md) |
+| Rudy／蛇头 | 蓝蛇联盟领导；Rogue Operative 1 仅为同联盟执行军团候选，未建立角色对应 | 核本人任一角色的名字及可靠身份连接；候选战绩不归本人 | [人物线索](leads/rudy.md) |
 | Luna | 暂无可靠角色对应，不采用同名搜索结果。 | Luna 本人任一角色的完整名字 / ID？ | [人物素材](leads/luna.md) |
 | ◆金鹏级 / 金鹏防御放大节点 | 贴吧译者自述直接贴B站作品，同名变体UP 9055736已对应；20个主评论线程及可见作者回复已读，宁静游戏角色仍缺 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/jin-peng-translator.md) |
 | shenmo- | 确认贴吧署名 shenmo-，暂无游戏角色及 B 站账号对应 | 本人任一角色的准确名字 / ID；核对是否已用另一外号收录。 | [人物素材](leads/shenmo-incursion.md) |
 | 贴吧高产发帖人（3 个账号） | 贴吧用户_0361KU1、卯月爱丽丝、hwzbd；2024—2026 各发帖 15—30 篇，库内无记录（天启阿柒、sunge252、饿死恶龙已对应） | 各自的游戏角色？是否够立传？ | [潜在素材](leads/tieba-prolific-posters.md) |
 | 华义 | 浮岳重工团员，“再买一条，下次一定听指挥”；仅陌然回忆录一处来源 | 角色名字 / ID？是否够立传？ | [人物素材](leads/fuyue.md) |
 | 紫瞳／慕利亚诺兰 | RR早期粉红鱼雷制造、神韵快递故事；七秒已对应seven-sec Ellecon并收录；紫瞳所在团创建者与现CEO已查，均尚未对应外号 | 完整角色名待对应 | [素材](leads/rr-early-corps.md) |
-| 凛冬综合讨论版发言者 | 漫步／mover_keeper、dandandeyoushang；语录无完整角色名者 | 催更奏表与拒赔投诉已读；语录可见全帖已读；七篇已立传，食元鱼转暂缓，李福、江风转已确认栏，35—99楼内容归档，凛冬方向暂停 | [线索](leads/winterco-communications-unmapped.md) |
+| 凛冬综合讨论版发言者 | dandandeyoushang；语录无完整角色名者 | 拒赔投诉已读；语录可见全帖已读；七篇已立传，食元鱼转暂缓，李福、江风转已确认栏，35—99楼内容归档，凛冬方向暂停 | [线索](leads/winterco-communications-unmapped.md) |
 | DVH招新账号 | DmakerF，UID103140087 | 宣传社恐天堂，福利回复又要求不社恐能水群；两份招新同作者；核视频或旧招新中的游戏角色署名，未合并魔方/CEO/成员；[本人线索](leads/dvh-dmakerf.md) | [本人线索](leads/dvh-dmakerf.md) |
-| 粉魔爪建团日记楼主 | 提米的猫 uid 947220234 / Knights of the Pink Claw | 任一角色？管理、后勤已有故事，不把现任 CEO 自动配成楼主 | [日记素材](leads/tieba-corp-diaries.md) |
 | 矿头是我及制造对线者 | 矿头是我 uid 6551487962；tcy565780500 uid 533823242 / 萝本萝似萝非萝 uid 7101671302；莫双羽 uid 1048197633 | 各自游戏角色？宝宝巴士萝卜已收录为[萝卜](../src/people/niepan-luobo/materials-niepan-luobo.md)（NVA-King），不与玄武同名玩家混同；有角色即可按现成言行写短篇 | [楼中楼材料](leads/tieba-meat-ranking.md) |
 | 海哥哥 / 星海神谕 | Star Sea Sun（95683615）是候选；原文中的海哥哥与星海神谕已对应为同一人，游戏角色仍待桥。 | 核Star Sea Sun或本人其他角色；现ESI简介为空、无头衔，未补到角色归属桥。 | [人物素材](leads/hai-ge-ge.md) |
-| 九州旧任 FC 与封号角色 | 九州一世、二世分别对应 NINE Continent（98540691）和 Gaze into the Abyss（98614214）；白井主号 jita ezra（2114511818），NCT 历任 CEO 角色 kazuha shirai、Lynn Mich、lucy lilith 是其小号；2021-05 踢人争议时 CEO 角色 roses mary 对应简素言。两人均已收录。招新帖署名的 FC“小小白”尚未对应角色，旧事中其他被封账号也未查到名字。 | 核对小小白及早期被封角色的游戏 ID、时间与事件细节。 | [人物素材](leads/yao-guang.md) |
+| 九州旧任管理者与封号角色 | 九州一世、二世分别对应 NINE Continent（98540691）和 Gaze into the Abyss（98614214）；白井主号 jita ezra（2114511818），NCT 历任 CEO 角色 kazuha shirai、Lynn Mich、lucy lilith 是其小号；2021-05 踢人争议时 CEO 角色 roses mary 对应简素言。两人均已收录。招新帖署名的 FC“小小白”即白井，已归入本人；旧事中其他被封账号仍未查到名字。 | 核对早期其他被封角色的游戏 ID、时间与事件细节。 | [人物素材](leads/yao-guang.md) |
 | 三明治 / 二五治 | 贴吧“一块三明治🌋”（uid 1678870349）；《二五之日》回忆录作者，2018 年在 RR 系；游戏角色未知 | 本人任一角色的准确名字 / ID？《二五之日》原帖在哪？ | [人物素材](leads/san-ming-zhi.md) |
 | 本地对喷未对应名字 | Dodgy Bob（786787363候选）、O'Nell Z、Jedi POMA、xiaonimeia、lingzai | 雪山飞鸟、雪域孤狼、浅空均暂不立传；娃娃已据B站创作与互动恢复列传；续查独立故事、剩余身份与具体战事背景 | [共享材料](sources/4h-local-dispute.md) |
 | 麦克EVE／兔子舰队CEO | UID 6797798064，2025年五月建团日记与同UID招新；招新承诺改口、骨干流失、后来AFK的参与者说法已归档，角色完全未对应。 | 五月／六月招新署名及本人游戏角色；不与手游同名者合并。 | [建团日记素材](leads/tieba-corp-diaries.md) |

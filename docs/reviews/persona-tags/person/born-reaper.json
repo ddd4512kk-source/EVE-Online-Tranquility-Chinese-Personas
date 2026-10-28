@@ -1,0 +1,15 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、脚本、军团管理。沿用此前判断：已核相关任职与分工段落，有军团管理职责；不按普通联系人或群权限推定。未复核本文其他内容。",
+  "evidence": [
+    "src/people/born-reaper/born-reaper.md",
+    "src/people/born-reaper/2114253465-id.json"
+  ],
+  "dependencies": [
+    "src/people/born-reaper/2114253465-id.json",
+    "src/people/born-reaper/born-reaper.md",
+    "src/people/born-reaper/materials-born-reaper.md"
+  ],
+  "inputs": "07bb4256544db5c58e9d0c94711d9728a215c00791bed3ea0ee0a3457fcba013",
+  "level": 1
+}

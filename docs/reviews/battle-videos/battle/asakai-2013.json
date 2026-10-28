@@ -1,0 +1,17 @@
+{
+  "status": "needs-work",
+  "note": "已执行全站不足5日窗口扫描：本场1条候选，其中未推荐0条、大战主题高概率0条、仅频道卡片待取得简介0条。未点名星系或缺主题词不提前排除。继续用candidates asakai-2013分页核简介、实际BR时期地点及原视角；数量是候选关系，不代表已逐条核定或没有其他作品。",
+  "evidence": [
+    "src/battles/asakai-2013/materials-asakai-2013.md",
+    "docs/bilibili/2874813.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/2874813.json",
+    "src/_data/entityNames.json",
+    "src/battles/asakai-2013/asakai-2013.json",
+    "src/battles/asakai-2013/asakai-2013.md",
+    "src/battles/asakai-2013/materials-asakai-2013.md"
+  ],
+  "inputs": "6b512eb3916f8e06f544a5ee94249e7f798de707e277beb472685067acf2fe4f",
+  "level": 0
+}

@@ -1,0 +1,31 @@
+{
+  "status": "needs-work",
+  "note": "已写回页面8条推荐。\n## 视频关联与选取结论（2026-10-24） 本次完成现有推荐和已取得候选的核对；其余频道卡片尚未逐项取得，不记作某方没有作品。",
+  "evidence": [
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "docs/bilibili/172859920.json",
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/324838566.json",
+    "docs/bilibili/3546639406991863.json",
+    "docs/bilibili/381738365.json",
+    "docs/bilibili/64907860.json",
+    "docs/bilibili/729015.json",
+    "docs/bilibili/8370281.json"
+  ],
+  "dependencies": [
+    "docs/bilibili/172859920.json",
+    "docs/bilibili/259433622.json",
+    "docs/bilibili/324838566.json",
+    "docs/bilibili/3546639406991863.json",
+    "docs/bilibili/381738365.json",
+    "docs/bilibili/64907860.json",
+    "docs/bilibili/729015.json",
+    "docs/bilibili/8370281.json",
+    "src/_data/entityNames.json",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md"
+  ],
+  "inputs": "5d1d1a8cc5e6eb793f64bcaa150913e9fdd703dd652d2473d4b2a5ace3f26758",
+  "level": 0
+}

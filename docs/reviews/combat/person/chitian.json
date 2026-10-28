@@ -1,0 +1,109 @@
+{
+  "status": "reviewed",
+  "note": "按stats总览、同人归因和实际战役判断已足够；可选船型与月份细目不设交付门槛。",
+  "evidence": [
+    "src/people/chitian/materials-chitian.md",
+    "src/people/chitian/2120421439-id.json",
+    "src/people/chitian/chitian.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读主号存档stats总览及既有逐月摘要，数千参与记录与长期参战描述相符；正文未认本人为FC。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/2120421439-id.json",
+          "contains": "\"kills\": 1252"
+        },
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "## 战斗复查补记"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已读hehehe、xiao及huhuhu存档stats总览，结合既有身份依据与多场原始战报归本人；wuhu用于军团任职，不据此附加战斗经历。已有主力号总览足以支持活跃量级，未补船型细目。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "chitian hehehe的存档 stats 总览"
+        },
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "现CEO chitian wuhu／2120819670"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "已核stats总览与R-AG7W等实际战报，正文没有尚须按高值月份追查的事件、职责或战果问题；不要求逐号补月份和代表KM，hehehe未取得细目不冒称已读。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "## 战斗复查补记"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "九场关联对照原始战报及已核代表KM；Atioth的xiao记录为4月8日，不能归入4月6日，仅hehehe的当日参战成立。其余仅认普通参战，未归为总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/materials-chitian.md",
+          "contains": "九场既有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合战绩红料位于开篇之后，以长期参战、角色与经营的联系写人，R-AG7W为具体例子；未把团队金额当个人功劳。",
+      "evidence": [
+        {
+          "file": "src/people/chitian/chitian.md",
+          "contains": "的炮口从低安一直伸到 00"
+        },
+        {
+          "file": "src/people/chitian/chitian.md",
+          "contains": "PH 的搬家舰队还在寻路"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/kzu-kunlun-2026-07.md",
+    "src/people/chitian/2120421439-id.json",
+    "src/people/chitian/chitian.md",
+    "src/people/chitian/materials-chitian.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "45fffd67fae3efd901c9ae423904eace86f4a3d1a2917ae8afacb01eb3916475",
+  "level": 1
+}

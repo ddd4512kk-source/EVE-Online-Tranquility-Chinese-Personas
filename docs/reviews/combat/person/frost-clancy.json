@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "核对综合画像、三场关联、两个高值月与正文故事。",
+  "evidence": [
+    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/people/frost-clancy/2119595519-id.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/people/frost-clancy/frost-clancy.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "复用角色累计和舰船缓存，忏悔者与泽尼塔有大量跟队记录；洞战和大船参战不推断指挥。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "heading": "## 战斗画像复核"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核对正式身份档案无已登记小号与售号；不存在登记不等于排除未发现其他号。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/2119595519-id.json",
+          "contains": "\"alts\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核对价值较高的4、10月及各一张原始KM，记录舰船、UTC和共同击杀边界。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "heading": "## 战斗画像复核"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照三场已有战役与本人角色，采用SVM-3K、8F-TK3，T8T-RA普通参战略写。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/materials-frost-clancy.md",
+          "heading": "## 战斗画像复核"
+        },
+        {
+          "file": "src/battles/svm-3k-2026/svm-3k-2026.md",
+          "contains": "一剑"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后的独立战绩红料综合常规船与旗舰，串联维纳尔洞战和SVM、8F交火；保留原避雷争议。",
+      "evidence": [
+        {
+          "file": "src/people/frost-clancy/frost-clancy.md",
+          "contains": "::: 红料 从毒蜥队到无畏战场"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/people/frost-clancy/2119595519-id.json",
+    "src/people/frost-clancy/frost-clancy.md",
+    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "e962fde5cb85e9024520e3d673b5c88af98011b60c294157159b78e0df810bdd",
+  "level": 1
+}

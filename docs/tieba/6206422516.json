@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "thread_id": "6206422516",
+  "url": "https://tieba.baidu.com/p/6206422516",
+  "references": [
+    "docs/sources/yao-guang-history.md"
+  ],
+  "legacy_records": [],
+  "review": {
+    "status": "partial",
+    "notes": [
+      "已读取得的15条主楼、17条楼中楼，第4、5楼两图已读；其他图片未读；第10、13楼楼中楼共缺6条。豆台发直接回嘴及不同账号边界归共同来源。"
+    ],
+    "read_at": "2026-10-28T13:14:08.638934Z",
+    "evidence": [
+      "docs/sources/yao-guang-history.md"
+    ]
+  },
+  "discovery": {
+    "source": "loco007公开主题列表及九州挖人争论互链",
+    "date": "2026-10-28T13:14:08.638934Z"
+  },
+  "title": "我其实很好奇 我抖搂一个垃圾主播在别人的群挖新人骗链接",
+  "acquisition": {
+    "cache": ".cache/tieba-6206422516.json",
+    "fetched_at": "2026-10-28T13:11:54.486Z",
+    "main_posts": 15,
+    "subposts": 17,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      17,
+      19,
+      20
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [
+      {
+        "floor": 10,
+        "expected": 4,
+        "fetched": 2,
+        "error": null
+      },
+      {
+        "floor": 13,
+        "expected": 16,
+        "fetched": 12,
+        "error": null
+      }
+    ],
+    "errors": []
+  }
+}

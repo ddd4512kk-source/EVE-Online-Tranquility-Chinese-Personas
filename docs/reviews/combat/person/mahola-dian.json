@@ -1,0 +1,70 @@
+{
+  "status": "reviewed",
+  "note": "已对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/mahola-dian/materials-mahola-dian.md",
+    "src/people/mahola-dian/mahola-dian.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核主号常用舰船、长期舰队出勤和本人成本观。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 综合画像与萨托加斯（2026-10-28）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "档案无已确认小号，不据未搜索认定无其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 综合画像与萨托加斯（2026-10-28）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核2026年1月高值月72条及本人参与星城KM原件。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 综合画像与萨托加斯（2026-10-28）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "唯一已有萨托加斯战报，核本人角色、阵营、KM时间与星系。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/materials-mahola-dian.md",
+          "heading": "## 综合画像与萨托加斯（2026-10-28）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立战绩块写本人战斗经历、星城与成本判断。",
+      "evidence": [
+        {
+          "file": "src/people/mahola-dian/mahola-dian.md",
+          "contains": "Ghost与加里的作战履历"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mahola-dian/2120624679-id.json",
+    "src/people/mahola-dian/mahola-dian.md",
+    "src/people/mahola-dian/materials-mahola-dian.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+  ],
+  "inputs": "c2ea03abe8c565c6adf3070022ef610aaa9f6ac93681b87c91e91fc985999699",
+  "level": 1
+}

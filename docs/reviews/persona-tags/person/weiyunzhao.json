@@ -1,0 +1,20 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、低安、CEO、低素质、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/weiyunzhao/weiyunzhao.md",
+    "src/people/weiyunzhao/2121492327-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/weiyunzhao/2121492327-id.json",
+    "src/people/weiyunzhao/materials-weiyunzhao.md",
+    "src/people/weiyunzhao/weiyunzhao.md",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.md"
+  ],
+  "inputs": "82e4f3f2c75c79ec772eeab30982f5f7242f8a5ecc44489a20a67866599250d4",
+  "level": 1
+}

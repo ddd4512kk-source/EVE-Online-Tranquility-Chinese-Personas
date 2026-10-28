@@ -1,0 +1,23 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 B站、高安、00区、CEO、FC、新人教官、江湖恩怨。沿用此前判断：已核本人任教或持续新人教学段落；不把受教或团内配教官算给本人；已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/lao-ying/lao-ying.md",
+    "src/people/lao-ying/2114600094-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/lao-ying/2114600094-id.json",
+    "src/people/lao-ying/lao-ying.md",
+    "src/people/lao-ying/materials-lao-ying.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md"
+  ],
+  "inputs": "f0bc2cd50e9dc0260d82650353f9ad2eaf1117880bd5e2cd9f701f2fab8dced2",
+  "level": 1
+}

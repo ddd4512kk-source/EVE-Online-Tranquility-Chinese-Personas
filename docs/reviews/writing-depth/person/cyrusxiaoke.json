@@ -1,0 +1,93 @@
+{
+  "status": "reviewed",
+  "note": "对照本人素材、战斗画像与正文核查。",
+  "evidence": [
+    "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+    "src/people/cyrusxiaoke/cyrusxiaoke.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照个人简介、内斗贴与战斗素材，保留本人收藏及社区点名。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+          "contains": "公开简介收藏题签"
+        },
+        {
+          "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+          "contains": "[DC内斗帖10947430368]"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "退团者点名小可为一次社区争议，材料未证明其制定具体政策。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+          "contains": "[DC内斗帖10947430368]"
+        }
+      ],
+      "noHeavyReason": "已核DC内斗帖子与个人简介，现有内容以退团者点名和本人简介为主，未见本人另有重大事件。",
+      "items": [
+        {
+          "title": "DC内斗帖中的外来FC",
+          "weight": "ordinary",
+          "reason": "退团者点名本人，是人物社区故事。",
+          "source": {
+            "file": "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+            "contains": "[DC内斗帖10947430368]"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/cyrusxiaoke/cyrusxiaoke.md",
+            "contains": "一位自称因此离开的吧友"
+          },
+          "note": "写退团者评价与双方争论，不推定本人发令。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗画像补在开篇后，内斗争议和简介收藏仍各自成块。",
+      "evidence": [
+        {
+          "file": "src/people/cyrusxiaoke/cyrusxiaoke.md",
+          "contains": "退团者笔下的 DC"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/cyrusxiaoke/2120938298-id.json",
+    "src/people/cyrusxiaoke/cyrusxiaoke.md",
+    "src/people/cyrusxiaoke/materials-cyrusxiaoke.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md"
+  ],
+  "inputs": "32f86a8f4cf27d7f2e91675cfaee7c6c246f901e5f84ca35037c7c3aacc583b1",
+  "level": 1
+}

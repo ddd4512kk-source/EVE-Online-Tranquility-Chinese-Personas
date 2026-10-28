@@ -36,3 +36,6 @@
 ## 旧指控归属
 
 [r/Eve帖子](https://www.reddit.com/r/Eve/comments/1dt52bf/)起于2024-07-01；Kraklingheat评论称DC的HongLou也有不少bot，曾向CCP报告而未见处理，并提及Vexor与L-6W线索。已归档上下文见[Marco素材](../marco-liu/materials-marco-liu.md)。该指控早于老许入团（2025-03-19），不属其任内，不写入老许列传；当时CEO为创建者DEMA 119，已归德玛任内。
+
+## 本人战斗统计补核（2026-10-28）
+Captain Bo stats为3088次集体击杀、1023损失、约1.296万亿击杀估值；2026年4月最高估值约4658亿，月接口121条。[134902752](https://zkillboard.com/kill/134902752/)与[134903186](https://zkillboard.com/kill/134903186/)均为4月21日建筑击杀，分别1302、1363人参与，本人船型24694为死亡漩涡级战列舰（名称见[阿巴宗战役素材](../../battles/ahbazon-2026/materials-ahbazon-2026.md)），并非战略巡洋舰。仅认随队参战，不计作独立拆除或指挥；其他小号待查。

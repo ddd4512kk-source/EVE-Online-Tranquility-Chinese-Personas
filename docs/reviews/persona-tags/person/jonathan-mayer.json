@@ -1,0 +1,15 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 B站、深渊。沿用此前判断：已核本人频道的深渊攻略与作品段落，补齐玩法标签。未复核本文其他内容。",
+  "evidence": [
+    "src/people/jonathan-mayer/jonathan-mayer.md",
+    "src/people/jonathan-mayer/92497884-id.json"
+  ],
+  "dependencies": [
+    "src/people/jonathan-mayer/92497884-id.json",
+    "src/people/jonathan-mayer/jonathan-mayer.md",
+    "src/people/jonathan-mayer/materials-jonathan-mayer.md"
+  ],
+  "inputs": "11f39aa40725875f60aa8081ad0df00d47145392ebc3431c30fa6ca195abf582",
+  "level": 1
+}

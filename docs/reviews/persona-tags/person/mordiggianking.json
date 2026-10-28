@@ -1,0 +1,19 @@
+{
+  "status": "reviewed",
+  "note": "仅复核标签（2026-10-29 按收紧后的标签规则重审）：身份与行为标签逐项对照正文段落与档案，现为 00区、低安、FC、CEO、江湖恩怨。沿用此前判断：已核本人作为主要当事人的具体纠纷段落，纳入江湖恩怨。未复核本文其他内容。",
+  "evidence": [
+    "src/people/mordiggianking/mordiggianking.md",
+    "src/people/mordiggianking/2122236063-id.json"
+  ],
+  "dependencies": [
+    "docs/sources/cacx-tuxedoee-expulsion-2025.md",
+    "src/people/mordiggianking/2122236063-id.json",
+    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/mordiggianking.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md"
+  ],
+  "inputs": "51cfd7dedcea063cfe29a1c215cfc5f0d362adfbcd66c507f872a5b20eb3246c",
+  "level": 1
+}
