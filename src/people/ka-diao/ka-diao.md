@@ -30,7 +30,7 @@
 :::
 
 ::: 红料 欧服战绩：舰队也有他自己的签名
-[zKillboard](https://zkillboard.com/character/93230738/)快照记有 319 次击杀、约 916 亿 ISK 战果，常用船包括占星、寒鸦、狂怒者军型；多数击杀记录在 United Violent Group 和 The.Ring 时期。
+[zKillboard](https://zkillboard.com/character/93230738/)上留下三百多次参与击杀，跟队打过的目标合计值约九百多亿，常用船包括占星、寒鸦、狂怒者军型；多数击杀记录在 United Violent Group 和 The.Ring 时期。
 :::
 
 ::: 黑料 想灭 3V，打出了一个更壮的 3V

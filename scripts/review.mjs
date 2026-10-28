@@ -7,7 +7,9 @@ import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 
 const REGISTRY = 'docs/review-features.json';
+const RECEIPTS = 'docs/reviews';
 const STATES = ['reviewed', 'needs-work', 'blocked'];
+const ANGLES = ['处境', '动机', '分量', '反差', '反应与后果', '落点'];
 const HELP = `离线增量复查；无参数只报数量，不输出全站正文。
   npm run review -- list --feature combat --recent 30 --max-blocks 2 --limit 10
   npm run review -- card person:短名 --feature combat
@@ -15,12 +17,18 @@ const HELP = `离线增量复查；无参数只报数量，不输出全站正文
   npm run review -- impact --feature combat --since HEAD --limit 10
   npm run review -- verify person:短名 person:另一短名 --feature combat
   npm run review -- mark person:短名 --feature combat --status needs-work --note 具体缺口 --evidence 相对文件路径
+  npm run review -- template person:短名 --feature writing-depth [--out .cache/review/文件.json]
+  npm run review -- accept --feature combat --change tighten|relax
+  npm run review -- check
 list：--kind person|battle --signal 信号 --state unreviewed|stale|reviewed|needs-work|blocked
       --recent N（首次加入历史，未提交新篇优先） --max-blocks N --limit 1..20 --offset N
 impact：--since Git引用（含已暂存、未暂存和未跟踪文件），或重复 --files 相对路径；可按 --state 筛选
 card：只返回结构、命中摘录与证据入口；read 单次最多80行，不自动读取视频或联网。
 mark：仅在人工核读后使用；--evidence 可重复。配置必查项的feature须用 --assessment 仓库内JSON路径逐项登记。
+template：生成状态留空的 assessment 草稿与可用证据锚点；有旧结论时沿用说明并列出失效证据，不覆盖已有草稿。
 verify：指定本次交付对象；未审、失效或缺项均以非零状态退出，不以关键词或料块数代替复查。
+accept：规则或实现改动后声明；tighten 提升严格度并使旧结论失效，relax 只登记新指纹。未声明时 mark／verify 拒绝执行。
+check：核对全部功能的规则声明及已删对象的残留记录。
 详情：docs/review-workflow.md。信号不是漏项定论，互链和构建通过不是调查完成。
 `;
 const read = (root, file) => fs.readFileSync(path.join(root, file), 'utf8');
@@ -142,8 +150,8 @@ export function inventory(root) {
     for (const [person, characters] of matches) person.battles.push({
       key: battle.key, title: battle.title, start: battle.archive.battle.start, body: battle.body,
       archive: battle.archiveFile, material: battle.material, characters,
-      // Only this person's rows affect their combat review, not every KM in a large battle.
-      fingerprint: hash({ battle: battle.archive.battle, characters, pilots: characters.map(({ id }) => [id, br?.pilots?.[id]]), losses: (br?.losses ?? []).filter(row => characters.some(({ id }) => id === row[1])), mention: characters.some(c => c.via.includes('mention')) ? battle.text : null }),
+      // Only this person's rows and the paragraphs naming them affect their review, not every KM or sentence in a large battle.
+      fingerprint: hash({ battle: battle.archive.battle, characters, pilots: characters.map(({ id }) => [id, br?.pilots?.[id]]), losses: (br?.losses ?? []).filter(row => characters.some(({ id }) => id === row[1])), mention: characters.some(c => c.via.includes('mention')) ? battle.text.split(/\n\s*\n/).filter(part => characters.some(({ id }) => part.includes(`/p/${id}/`))) : null }),
     });
   }
   return records;
@@ -157,15 +165,26 @@ function loadFeature(root, name) {
   for (const spec of feature.rules) safeFile(root, spec.file);
   const ruleParts = feature.rules.map(spec => [spec, ruleText(root, spec)]);
   const implementation = (feature.implementation ?? []).map(file => [safeFile(root, file), read(root, safeFile(root, file))]);
-  const receipts = exists(root, `docs/reviews/${name}.json`) ? JSON.parse(read(root, `docs/reviews/${name}.json`)) : {};
-  if (!receipts || Array.isArray(receipts) || typeof receipts !== 'object') throw new Error('复查记录须为对象');
-  for (const [key, receipt] of Object.entries(receipts)) {
-    if (!/^(person|battle):[^/\\]+$/.test(key) || !receipt || !STATES.includes(receipt.status) || !receipt.note?.trim() || !Array.isArray(receipt.evidence) || !receipt.evidence.length || !Array.isArray(receipt.dependencies) || !/^[a-f0-9]{64}$/.test(receipt.inputs) || !/^[a-f0-9]{64}$/.test(receipt.rules)) throw new Error(`复查记录不完整：${key}`);
-    for (const file of [...receipt.evidence, ...receipt.dependencies]) safeFile(root, file);
+  const { strictness = { level: 0, rules: null }, ...config } = feature;
+  if (!Number.isSafeInteger(strictness.level) || strictness.level < 0 || (strictness.rules !== null && !/^[a-f0-9]{64}$/.test(strictness.rules))) throw new Error(`${name}：strictness 须含非负整数 level 与规则指纹`);
+  const receipts = {};
+  for (const kind of ['person', 'battle']) {
+    const dir = `${RECEIPTS}/${name}/${kind}`;
+    for (const file of dirs(root, dir)) {
+      if (!file.endsWith('.json')) throw new Error(`复查记录须为 JSON：${dir}/${file}`);
+      const key = `${kind}:${file.slice(0, -5)}`, receipt = JSON.parse(read(root, `${dir}/${file}`));
+      if (!receipt || !STATES.includes(receipt.status) || !receipt.note?.trim() || !Array.isArray(receipt.evidence) || !receipt.evidence.length || !Array.isArray(receipt.dependencies) || !/^[a-f0-9]{64}$/.test(receipt.inputs) || !Number.isSafeInteger(receipt.level) || receipt.level < 0) throw new Error(`复查记录不完整：${dir}/${file}`);
+      for (const f of [...receipt.evidence, ...receipt.dependencies]) safeFile(root, f);
+      receipts[key] = receipt;
+    }
   }
-  return { ...feature, name, pattern: new RegExp(feature.pattern, 'i'), ruleParts,
-    ruleHash: hash({ engine: feature.eventReview ? 4 : feature.checks ? 3 : 2, feature, ruleParts, implementation }), receipts };
+  // Rule edits only invalidate receipts after an explicit tighten; any unacknowledged edit blocks mark/verify.
+  const ruleHash = hash({ engine: feature.eventReview ? 4 : feature.checks ? 3 : 2, feature: config, ruleParts, implementation });
+  return { ...config, name, pattern: new RegExp(feature.pattern, 'i'), ruleParts, ruleHash,
+    level: strictness.level, pending: strictness.rules !== ruleHash, receipts };
 }
+const receiptFile = (feature, key) => `${RECEIPTS}/${feature}/${key.replace(':', '/')}.json`;
+const pendingError = feature => new Error(`${feature.name} 的规则或实现已改动但未声明：收紧用 accept --feature ${feature.name} --change tighten（旧结论失效），放宽或措辞调整用 --change relax`);
 function inputValue(root, record, file) {
   if (record.scopedFiles?.[file]) return record.scopedFiles[file];
   if (!exists(root, file)) return null;
@@ -236,7 +255,7 @@ function validateWriting(root, record, assessment) {
     if (!Array.isArray(development)) throw new Error('重料须逐方向登记发挥与正文位置');
     const angles = new Set();
     for (const item of development) {
-      if (!['处境', '动机', '分量', '反差', '反应与后果', '落点'].includes(item.angle) || angles.has(item.angle) || !nonempty(item.note)) throw new Error('发挥方向须有效、不重复并说明具体写法');
+      if (!ANGLES.includes(item.angle) || angles.has(item.angle) || !nonempty(item.note)) throw new Error('发挥方向须有效、不重复并说明具体写法');
       angles.add(item.angle);
       anchor(item.evidence, true);
     }
@@ -244,10 +263,42 @@ function validateWriting(root, record, assessment) {
   }
   return files;
 }
+// Anchors that pass validation as-is: non-empty headings, plus the first prose line of the opening and of each ::: block.
+function anchorsOf(root, file, limit = 30) {
+  const lines = read(root, file).split('\n'), rows = [];
+  const once = text => lines.filter(line => line.includes(text)).length === 1;
+  const snippet = line => [12, 20, 32, 48, 80, Infinity].map(n => line.trim().slice(0, n)).find(once) ?? null;
+  let opener = '开篇';
+  lines.forEach((line, i) => {
+    if (/^#{1,6}\s/.test(line)) {
+      opener = null;
+      if (lines.indexOf(line) === i && ruleText(root, { file, heading: line }).split('\n').slice(1).some(l => l.trim() && !/^(?:#{1,6}\s|:::)/.test(l))) rows.push({ file, heading: line });
+    } else if (/^:::\s*\S/.test(line)) opener = line.slice(0, 60);
+    else if (opener && line.trim() && !line.startsWith(':::')) {
+      const contains = snippet(line);
+      if (contains) rows.push({ label: opener, file, contains });
+      opener = null;
+    }
+  });
+  return { total: rows.length, records: rows.slice(0, limit) };
+}
+function brokenEvidence(root, assessment) {
+  const specs = [];
+  for (const [key, item] of Object.entries(assessment)) {
+    (item?.evidence ?? []).forEach((spec, i) => specs.push([`${key}.evidence[${i}]`, spec]));
+    (item?.items ?? []).forEach((event, i) => {
+      for (const field of ['source', 'body']) if (event?.[field]) specs.push([`${key}.items[${i}].${field}`, event[field]]);
+      (event?.development ?? []).forEach((item, j) => specs.push([`${key}.items[${i}].development[${j}].evidence`, item?.evidence]));
+    });
+  }
+  return specs.filter(([, spec]) => {
+    try { return !ruleText(root, { ...spec, file: safeFile(root, spec.file) }).trim(); } catch { return true; }
+  }).map(([at]) => at);
+}
 function assess(root, record, feature) {
   const receipt = feature.receipts[record.key];
   const source = inputs(root, record, receipt?.evidence);
-  const stale = receipt && (receipt.inputs !== source.fingerprint || receipt.rules !== feature.ruleHash);
+  const stale = receipt && (receipt.inputs !== source.fingerprint || receipt.level < feature.level);
   const signals = [];
   const missing = missingChecks(feature, receipt);
   if (missing.length) signals.push('review-incomplete');
@@ -272,8 +323,8 @@ const integer = (options, key, fallback, min = 0, max = Number.MAX_SAFE_INTEGER)
 export function run(root, args, suppliedRecords) {
   if (args.includes('--help')) { if (args.length !== 1) throw new Error('--help 须单独使用'); return HELP; }
   const [command = 'summary', ...rest] = args, options = {}, positional = [];
-  if (!['summary', 'list', 'card', 'read', 'impact', 'mark', 'verify'].includes(command)) throw new Error(`未知命令：${command}`);
-  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], verify: ['feature'] }[command];
+  if (!['summary', 'list', 'card', 'read', 'impact', 'mark', 'template', 'verify', 'check', 'accept'].includes(command)) throw new Error(`未知命令：${command}`);
+  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], template: ['feature', 'out'], verify: ['feature'], check: [], accept: ['feature', 'change'] }[command];
   for (let i = 0; i < rest.length; i++) {
     if (!rest[i].startsWith('--')) { positional.push(rest[i]); continue; }
     const key = rest[i].slice(2), value = rest[++i];
@@ -282,9 +333,28 @@ export function run(root, args, suppliedRecords) {
     else if (options[key] !== undefined) throw new Error(`重复参数：--${key}`);
     else options[key] = value;
   }
-  const one = ['card', 'read', 'mark'].includes(command);
+  const one = ['card', 'read', 'mark', 'template'].includes(command);
   if (command === 'verify' ? !positional.length : positional.length !== (one ? 1 : 0)) throw new Error(one || command === 'verify' ? '须指定 person:短名 或 battle:短名' : '不接受位置参数');
+  if (command === 'accept') {
+    if (!['tighten', 'relax'].includes(options.change)) throw new Error('accept 须提供 --feature 与 --change tighten|relax');
+    const feature = loadFeature(root, options.feature ?? 'combat'), registry = JSON.parse(read(root, REGISTRY));
+    if (!feature.pending) throw new Error(`${feature.name} 的规则未改动，无须声明`);
+    const level = feature.level + (options.change === 'tighten' ? 1 : 0);
+    registry[feature.name].strictness = { level, rules: feature.ruleHash };
+    fs.writeFileSync(path.join(root, REGISTRY), JSON.stringify(registry, null, 2) + '\n');
+    return { feature: feature.name, change: options.change, level };
+  }
   const records = suppliedRecords ?? inventory(root);
+  if (command === 'check') {
+    const keys = new Set(records.map(r => r.key)), problems = [];
+    for (const name of Object.keys(JSON.parse(read(root, REGISTRY)))) {
+      const feature = loadFeature(root, name);
+      if (feature.pending) problems.push(pendingError(feature).message);
+      for (const key of Object.keys(feature.receipts)) if (!keys.has(key)) problems.push(`对象已不存在，删除 ${receiptFile(name, key)}`);
+    }
+    if (problems.length) throw new Error(problems.join('\n'));
+    return { valid: true };
+  }
   if (command === 'summary') return { counts: Object.fromEntries(['person', 'battle'].map(kind => [kind, records.filter(r => r.kind === kind).length])), features: Object.keys(JSON.parse(read(root, REGISTRY))), warning: '目录与信号只用于筛选；不代表已核读或调查完成。' };
   const record = one ? records.find(r => r.key === positional[0]) : null;
   if (one && !record) throw new Error(`对象不存在：${positional[0]}`);
@@ -296,6 +366,7 @@ export function run(root, args, suppliedRecords) {
     return { file, totalLines: lines.length, from, lines: lines.slice(from - 1, from - 1 + count).map((text, i) => ({ line: from + i, text })) };
   }
   const feature = loadFeature(root, options.feature ?? 'combat');
+  if (feature.pending && ['verify', 'mark'].includes(command)) throw pendingError(feature);
   if (command === 'verify') {
     const rows = unique(positional).map(key => {
       const target = records.find(r => r.key === key);
@@ -318,12 +389,30 @@ export function run(root, args, suppliedRecords) {
     if (assessment && options.status !== 'reviewed') throw new Error('未完成的复查用 note 和 evidence 记录缺口，不附已完成 assessment');
     const evidence = unique([...options.evidence, ...checkFiles]);
     const source = inputs(root, record, evidence);
-    feature.receipts[record.key] = { status: options.status, note: options.note, evidence, ...(assessment ? { assessment } : {}),
+    const receipt = { status: options.status, note: options.note, evidence, ...(assessment ? { assessment } : {}),
       dependencies: unique([...source.files, ...record.battles.flatMap(b => [b.archive, b.body, b.material]).filter(Boolean)]),
-      inputs: source.fingerprint, rules: feature.ruleHash };
-    fs.mkdirSync(path.join(root, 'docs/reviews'), { recursive: true });
-    fs.writeFileSync(path.join(root, `docs/reviews/${feature.name}.json`), JSON.stringify(Object.fromEntries(Object.entries(feature.receipts).sort(([a], [b]) => a.localeCompare(b))), null, 2) + '\n');
+      inputs: source.fingerprint, level: feature.level };
+    const file = path.join(root, receiptFile(feature.name, record.key));
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, JSON.stringify(receipt, null, 2) + '\n');
     return { key: record.key, feature: feature.name, state: options.status };
+  }
+  if (command === 'template') {
+    const checks = Object.keys(feature.checks ?? {});
+    if (!checks.length) throw new Error(`${feature.name} 没有逐项复查，直接用 mark --note --evidence 登记`);
+    const out = safeFile(root, options.out ?? `.cache/review/${feature.name}-${record.slug}.json`);
+    if (exists(root, out)) throw new Error(`草稿已存在：${out}；直接编辑，或删除后重新生成`);
+    const previous = feature.receipts[record.key]?.assessment;
+    const blank = key => ({ status: '', note: '', evidence: [], ...(feature.eventReview && key === 'events' ? { items: [], noHeavyReason: '' } : {}) });
+    // Earlier notes are kept as a starting point, but every status must be set again after rereading.
+    const assessment = Object.fromEntries(checks.map(key => [key, previous?.[key] ? { ...previous[key], status: '' } : blank(key)]));
+    fs.mkdirSync(path.dirname(path.join(root, out)), { recursive: true });
+    fs.writeFileSync(path.join(root, out), JSON.stringify(assessment, null, 2) + '\n');
+    return { file: out, reused: Boolean(previous), brokenEvidence: previous ? brokenEvidence(root, assessment) : [], checks: feature.checks,
+      ...(feature.eventReview ? { eventShape: { title: '', weight: 'heavy|ordinary|light', reason: '', source: { file: '素材或来源', heading: '或 contains' }, treatment: 'expanded|brief|omitted', body: { file: record.body, contains: '' }, development: [{ angle: ANGLES.join('|'), note: '', evidence: { file: record.body, contains: '' } }], verdict: 'sufficient', note: '' } } : {}),
+      anchors: Object.fromEntries(unique([record.body, record.material, ...record.sources].filter(Boolean)).map(file => [file, anchorsOf(root, file)])),
+      next: `npm run review -- mark ${record.key} --feature ${feature.name} --status reviewed --note 总结 --evidence ${record.material ?? record.body} --assessment ${out}`,
+      warning: '状态已清空；逐项核读后填写。锚点只保证能定位，不代表已核读或可直接采用。' };
   }
   if (command === 'card') {
     const { state, receipt, signals, missingChecks: missing } = assess(root, record, feature);
@@ -353,9 +442,9 @@ export function run(root, args, suppliedRecords) {
     candidates = candidates.filter(r => {
       const { source, receipt } = assess(root, r, feature);
       const dependencies = [...source.files, ...r.battles.flatMap(b => [b.archive, b.body, b.material]).filter(Boolean), ...(receipt?.dependencies ?? [])];
-      // Rule edits invalidate only changed selected sections. Without a receipt, surface candidates conservatively.
+      // Undeclared rule edits surface every receipt so the change can be judged; declared ones only stale receipts.
       const rulesChanged = files.includes(REGISTRY) || files.some(file => feature.rules.some(rule => rule.file === file) || (feature.implementation ?? []).includes(file));
-      return codeChange || dependencies.some(file => files.includes(file)) || (rulesChanged && (!receipt || receipt.rules !== feature.ruleHash));
+      return codeChange || dependencies.some(file => files.includes(file)) || (rulesChanged && (!receipt || feature.pending || receipt.level < feature.level));
     });
   }
   if (options.kind) {

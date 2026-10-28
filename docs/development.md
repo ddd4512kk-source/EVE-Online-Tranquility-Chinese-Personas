@@ -8,7 +8,7 @@
 - 开工先 `git status --short`、`npm run doctor`；内容或构建改动另跑 `npm run check`，记录离线基线。其他会话及暂存区的改动保留，不用删目录或跳过检查掩盖基线问题。
 - 以 Windows 原生环境为准。工具缺失、平台包不对或版本过旧时，先在 Windows 下修复安装（依赖用 `npm ci`），不改用 WSL 或其他系统绕过，也不在别的系统里装依赖覆盖本机 `node_modules`。
 - 环境错误先修环境，沿用正确 PATH；Python 先确认可用的 Python 3 命令，不假设第三方库已安装。大输出落临时文件分段读，截断不算读完。
-- 最终运行 `git diff --check`、`npm run check`、`npm run build`；改脚本或公共计算逻辑另跑 `npm test`。只在相关输入发生变化时重跑已成功的检查。
+- 最终运行 `git diff --check`、`npm run check`、`npm run build`，可用 `npm run finish` 按序执行并只显示失败项；改脚本或公共计算逻辑另跑 `npm test`。只在相关输入发生变化时重跑已成功的检查。
 - 构建后通读受影响的 `_site/` 页面，核对内容、数字、链接和资源。共享变更检查各调用页面；视觉或交互变更按[网站设计](site-design.md)做浏览器验证。
 - 指令文件必须被 Eleventy 排除，资源透传也不能复制它们；确认生成页与 Pagefind 索引无内部指令。临时目录成功不能代替全仓通过。
 - 审核 PR 时 CI 自动构建；缺数据缓存的合并后由代理运行 `npm run fetch` 补齐，后续提交仍须当前任务明确授权。内容审核底线按内容规则，只拦现实隐私、毫无出处的编造和纯人身攻击。
@@ -62,6 +62,7 @@ docs/                       模板、术语表、找料方法、结构化档案�
 | `npm run materials -- "关键词"` | 离线定位材料；无关键词时只报数量 |
 | `npm run corporations -- --help` | 离线查询军团、历史Top 100与跨团角色调查，不刷新榜单 |
 | `npm run corporations:check` | 校验军团档案、共享角色、来源与本地引用 |
+| `npm run finish -- person:短名` | 依次跑差异空白、check、build 及本人两项 `verify`，通过只报一行，首个失败打印末尾输出后停止 |
 | `npm run review -- --help` | 按功能筛复查候选、读对象卡片和段落、查变更影响；无参数只报数量 |
 | `npm run glossary -- "词语"` | 按词查询术语 JSON；可筛类别、确认状态 |
 | `npm run research:query -- <TSV路径> --where 列=值` | 分页读取调查表，不倾倒全表 |
