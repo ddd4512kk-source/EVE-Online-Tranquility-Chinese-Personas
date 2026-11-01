@@ -30,7 +30,7 @@ bodyClass: page-battle
     {% if lossSources.length %}<div><dd>{% for u in lossSources %}<a href="{{ u }}" rel="noopener">战报{% if lossSources.length > 1 %}{{ loop.index }}{% endif %}</a>{% if not loop.last %}、{% endif %}{% endfor %}</dd></div>{% endif %}
     <div><dt>时间</dt><dd><time datetime="{{ startYmd }}">{{ startYmd }}</time>{% if endYmd and endYmd != startYmd %} — <time datetime="{{ endYmd }}">{{ endYmd }}</time>{% endif %}</dd></div>
     <div><dt>地点</dt><dd>{% for s in systems %}<a href="https://evemaps.dotlan.net/system/{{ s | urlencode }}" rel="noopener">{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}</a>{% if not loop.last %}、{% endif %}{% endfor %}</dd></div>
-    {% if tags and tags.length %}<div><dt>标签</dt><dd class="chips">{% for t in tags %}<a class="chip" href="{{ '/battles/' | url }}?t={{ t | urlencode }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
+    {% if labels and labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ '/battles/' | url }}?t={{ t | urlencode }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
   </dl>
 
   {% if videos and videos.length %}

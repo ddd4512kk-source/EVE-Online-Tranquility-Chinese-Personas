@@ -10,7 +10,7 @@
 :::
 
 ::: 红料 自己开团，三百多人进门
-从玄武的新手教学到朱雀的零安队伍，法尔一路做到了 IGC 管理层。2025 年他在联盟里自建 [Your Ex's](https://evewho.com/corporation/98806948)：主号 yilifaer 是创建人，CEO 是他的小号 Yilifaer-Eli。军团后来挂着三百多号人，已不是随便拉个群就能充数的小摊。
+从玄武的新手教学到朱雀的零安队伍，法尔一路做到了 IGC 管理层。2025 年他在联盟里自建 [Your Ex's](https://evewho.com/corporation/98806948)：起家号 yilifaer 是创建人，CEO 是他的小号 Yilifaer-Eli。军团后来挂着三百多号人，已不是随便拉个群就能充数的小摊。
 
 同年他以 yilifaerr 的名字[竞选 CSM 20](https://forums.eveonline.com/t/yilifaerr-for-csm-20-the-voices-of-new-players-small-alliance-and-the-chinese-community/498435)，[CCP 候选人名单](https://www.eveonline.com/news/view/csm-20-candidate-announcements)也列了他。竞选稿不光讲要替新人、小联盟和中文社区说话，还提出给军团 LP 转账加交易记录、补齐建筑相关 ESI 接口、把倒计时显示成准确时间。组人、带队、自己开团，再拿出这些具体问题，履历确实拿得出手；至于“替谁说话”，还得接着看他平时怎样跟自己人说话。
 :::

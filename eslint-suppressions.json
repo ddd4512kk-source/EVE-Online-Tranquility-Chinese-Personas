@@ -1,12 +1,4 @@
 {
-  "eleventy.config.js": {
-    "@stylistic/arrow-parens": {
-      "count": 20
-    },
-    "@stylistic/quotes": {
-      "count": 64
-    }
-  },
   "scripts/audit-battle-participation.mjs": {
     "@stylistic/quotes": {
       "count": 13
@@ -347,14 +339,6 @@
       "count": 9
     }
   },
-  "src/assets/js/battles.js": {
-    "@stylistic/arrow-parens": {
-      "count": 4
-    },
-    "@stylistic/quotes": {
-      "count": 33
-    }
-  },
   "src/assets/js/bio-alts.js": {
     "@stylistic/quotes": {
       "count": 10
@@ -379,14 +363,6 @@
     },
     "@stylistic/quotes": {
       "count": 56
-    }
-  },
-  "src/battles/battles.11tydata.js": {
-    "@stylistic/arrow-parens": {
-      "count": 16
-    },
-    "@stylistic/quotes": {
-      "count": 10
     }
   },
   "src/people/people.11tydata.js": {

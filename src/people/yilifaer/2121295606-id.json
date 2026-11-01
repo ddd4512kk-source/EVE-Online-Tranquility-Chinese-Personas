@@ -1,0 +1,130 @@
+{
+  "id": 2121295606,
+  "name": "yilifaerrrrrrr",
+  "birthday": "2023-06-07T02:49:16Z",
+  "corporation_id": 98806948,
+  "affiliation": {
+    "corporation_id": 98806948,
+    "alliance_id": 99003995,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "start": "2023-06-07T02:49:00Z",
+      "end": "2023-06-07T11:35:00Z"
+    },
+    {
+      "corporation_id": 98190062,
+      "start": "2023-06-07T11:35:00Z",
+      "end": "2024-01-08T16:37:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "start": "2024-01-08T16:37:00Z",
+      "end": "2024-01-09T01:52:00Z"
+    },
+    {
+      "corporation_id": 98742946,
+      "start": "2024-01-09T01:52:00Z",
+      "end": "2025-06-21T10:44:00Z"
+    },
+    {
+      "corporation_id": 98806948,
+      "start": "2025-06-21T10:44:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-01",
+  "person": {
+    "cn_name": "伊利法尔",
+    "aliases": [
+      "yilifaerr",
+      "法尔"
+    ],
+    "epithet": "中文请去语音，选票请给我。",
+    "tags": [
+      "00区",
+      "FC",
+      "联盟管理",
+      "CEO"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2117737129,
+        "name": "yilifaer",
+        "basis": "原收录号，2026-11-01按本人名下击杀最多改收yilifaerrrrrrr",
+        "sources": [
+          "materials-yilifaer.md"
+        ],
+        "zkb": {
+          "kills": 243,
+          "lost": 49,
+          "isk_destroyed": 362073195337,
+          "last_active": "2026-10",
+          "as_of": "2026-10-23"
+        }
+      },
+      {
+        "id": 2123197012,
+        "name": "Yilifaer-Eli",
+        "sources": [
+          "materials-yilifaer.md"
+        ],
+        "zkb": {
+          "kills": 1,
+          "lost": 3,
+          "isk_destroyed": 1513,
+          "last_active": "2026-05",
+          "as_of": "2026-10-23"
+        }
+      }
+    ],
+    "zkb": {
+      "kills": 6298,
+      "lost": 455,
+      "isk_destroyed": 8669508248828,
+      "last_active": "2026-10",
+      "as_of": "2026-10-23"
+    }
+  },
+  "related_snapshots": [
+    {
+      "id": 2117737129,
+      "name": "yilifaer",
+      "birthday": "2020-10-22T05:36:51Z",
+      "corporation_id": 98806948,
+      "affiliation": {
+        "corporation_id": 98806948,
+        "alliance_id": 99003995,
+        "left_at": null
+      },
+      "history": [
+        {
+          "corporation_id": 1000077,
+          "start": "2020-10-22T05:37:00Z",
+          "end": "2023-05-08T09:30:00Z"
+        },
+        {
+          "corporation_id": 98731561,
+          "start": "2023-05-08T09:30:00Z",
+          "end": "2025-06-18T11:39:00Z"
+        },
+        {
+          "corporation_id": 1000077,
+          "start": "2025-06-18T11:39:00Z",
+          "end": "2025-06-18T11:55:00Z"
+        },
+        {
+          "corporation_id": 98806948,
+          "start": "2025-06-18T11:55:00Z",
+          "end": null
+        }
+      ],
+      "fetched_at": "2026-10-09"
+    }
+  ]
+}
