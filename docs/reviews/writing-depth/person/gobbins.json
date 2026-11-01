@@ -1,0 +1,93 @@
+{
+  "status": "reviewed",
+  "note": "独立复核本轮正文与保存材料；范围及后续缺口见逐项判断",
+  "evidence": [
+    "src/people/gobbins/materials-gobbins.md",
+    "src/people/gobbins/gobbins.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读全篇与本人材料以核原主线保留。本次增量判断严格覆盖2024公开信及新修综合画像；旧文其他独立故事未作全篇发挥合格认证。PH崩盘、华人社区裂痕、建筑权限和KFC等原主体全部保留，后续仍须另批审各重事展开程度。",
+      "evidence": [
+        {
+          "file": "src/people/gobbins/materials-gobbins.md",
+          "heading": "### 2024 年公开信：本人补充 bug 与测试服问题"
+        },
+        {
+          "file": "src/people/gobbins/materials-gobbins.md",
+          "heading": "## 料与分量"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本轮事件按本人公开观点及角色画像判断：不把附议头衔或普通参战硬抬成新丑闻，不把CCP回应写成已经改数值。",
+      "evidence": [
+        {
+          "file": "src/people/gobbins/materials-gobbins.md",
+          "heading": "### 2024 年公开信：本人补充 bug 与测试服问题"
+        }
+      ],
+      "noHeavyReason": "本轮只补本人开发商议题发言与综合游戏画像；都是普通公共角色/玩法材料，无新增重军事或管理后果。原PH崩盘等重料属未改旧主体，未以本结论宣称其全篇发挥足够。",
+      "items": [
+        {
+          "title": "对Equinox bug和关闭测试服的公开批评",
+          "weight": "ordinary",
+          "reason": "本人给出明确产品问题，超过一句支持；但没有独立新军事决定或后续修复结果，按普通公共角色故事审。",
+          "source": {
+            "file": "src/people/gobbins/materials-gobbins.md",
+            "heading": "### 2024 年公开信：本人补充 bug 与测试服问题"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gobbins/gobbins.md",
+            "contains": "2024 年 7 月，[阿舍]"
+          },
+          "note": "三段依次写观点、管理压力、对手合作与开发者回应；临时排队/停火是比喻，未虚构正式停火或CCP已照办。",
+          "development": []
+        },
+        {
+          "title": "侦察电子战玩家与大联盟管理者反差",
+          "weight": "ordinary",
+          "reason": "既有个人战斗结构与X47小船跟队可解释实际角色，不把普通KM加码成重事件。",
+          "source": {
+            "file": "src/people/gobbins/materials-gobbins.md",
+            "heading": "## 检索记录（2026-10-09）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gobbins/gobbins.md",
+            "contains": "哥布林的[战斗记录]"
+          },
+          "note": "由小船玩法到X47七百余人组织规模，再到管理协调责任，三个不同方向组成综合画像，未增本人指挥该战。",
+          "development": []
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "新内容为已有阵营冲突补上开发商面前的合作一面，综合画像位置修正后交代人物本业；未撤旧主体，也未把公开信赞同写成永久结盟。",
+      "evidence": [
+        {
+          "file": "src/people/gobbins/gobbins.md",
+          "contains": "哥布林的[战斗记录]"
+        },
+        {
+          "file": "src/people/gobbins/gobbins.md",
+          "contains": "2024 年 7 月，[阿舍]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/gobbins/342545170-id.json",
+    "src/people/gobbins/gobbins.md",
+    "src/people/gobbins/materials-gobbins.md",
+    "src/battles/x47l-q-2018/x47l-q-2018.json",
+    "src/battles/x47l-q-2018/x47l-q-2018.md",
+    "src/battles/x47l-q-2018/materials-x47l-q-2018.md"
+  ],
+  "inputs": "932d6ffb47d5b3c2408b8e685ac88f9c10df4dad515e9fdd8c7bd9c4de727aed",
+  "level": 1
+}

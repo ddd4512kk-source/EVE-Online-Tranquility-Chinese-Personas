@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "独立复核本轮正文与保存材料；范围及后续缺口见逐项判断",
+  "evidence": [
+    "src/people/progodlegend/materials-progodlegend.md",
+    "src/people/progodlegend/progodlegend.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "独立复核已存stats总览、角色快照与全文：近七千参与击杀，指挥舰与大型舰队组织工作相符，不把累计额算成单人战果。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## 综合战绩"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式identity.alts为空及素材身份检索边界；没有已确认主力小号待补stats，不从仿号或猜测合并战绩。本次不联网重查。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## 身份与收录依据"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "总览及2012/2014高峰已读，正文只作老指挥背景；Y-2ANO职责与目标失败采用同场录像简介及守方实录，未据损船推断其总指挥权。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## 综合战绩"
+        },
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## Y-2ANO 指挥断档"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立搜索正式战役JSON，Y-2ANO与A1-AUH主号均TEST；普通参战并入画像，乌鸦队职责另有作者点名依据，不扩大总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## 综合战绩"
+        },
+        {
+          "file": "src/people/progodlegend/progodlegend.md",
+          "contains": "他自己仍然得上船"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首块独立战绩红料综合玩法、战争组织及从FRT敌手到盟友的转折；另块仅写乌鸦队衔接失败，未用整个联军战果替个人镀金。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/progodlegend.md",
+          "contains": "他的综合战绩保留着老式大会战指挥的底色"
+        },
+        {
+          "file": "src/people/progodlegend/progodlegend.md",
+          "contains": "DBRB 与 Sister Bliss 的两轮隐轰"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/progodlegend/317012339-id.json",
+    "src/people/progodlegend/materials-progodlegend.md",
+    "src/people/progodlegend/progodlegend.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "7be8cd131b2008ea1b7815b7a4464193f4939e78c5be53511b69397184cc4c3f",
+  "level": 1
+}

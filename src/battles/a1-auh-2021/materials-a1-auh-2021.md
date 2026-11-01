@@ -153,3 +153,9 @@ NoNo BV13f4y1w7qZ不采用：其简介明确related/30000268/202109170800，而�
 - [EVE欧服 FRT三满编舰队吃AOM超旗队](https://www.bilibili.com/video/BV1eh411p7c6/)（OzenCandywand）：FRT方作品，标题写三满编舰队吃下AOM超旗队。
 - [AOM超旗烟花纯享版](https://www.bilibili.com/video/BV1Vf4y1w74W/)（EVE曼努尔）：围绕AOM超旗损失整理的“烟花纯享版”，原简介所附战报对应9月17日的A1-AUH会战。
 - [【EVE Online】A1-AUH 917破伞行动 (蜜蜂Kiki视角)](https://www.bilibili.com/video/BV16R4y1H7SD/)（青春的工作室）：蜜蜂一侧Kiki视角，标题把这场叫作“917破伞行动”。
+
+## 战斗类型复核（2026-10-31）
+
+已有正文与已核KM记载AOM一方超旗交战与损失，定为超旗战，替换笼统旗舰战。
+
+分类取本场已归档来源的实际交战记录，不用战报总额推测舰型；联盟标签另按本场历史联盟完整并集生成。

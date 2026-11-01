@@ -1,5 +1,11 @@
 # 素材：米塔尼（The Mittani）
 
+## Reddit 查询与采用边界
+
+- 2026-11-01 Playwright Chrome 搜索 r/Eve、`"The Mittani"`、相关度／全部时间，首批含称号梗、辱骂标题、媒体站／广告、NPR 转帖、人物释疑和退位争议。只读标题的主题不作已核来源；本次读下帖正文及前 25 个评论节点中展开内容，未读完各折叠分支／全部搜索页。
+- [EVE's "The Mittani" on NPR, 1wzuia](https://www.reddit.com/r/Eve/comments/1wzuia/eves_the_mittani_on_npr/)，timtom45，2014-02-04 UTC：链接到 Marketplace 的 NPR 访谈，Reddit 本身没有访谈全文，本轮未听音频。评论围绕 B-R5RB 美元估值是否误导、游戏资产与 PLEX 如何对应、Mittani 对外采访时的胜方宣传展开；Grethon 欢迎 EVE 受关注，另有评论认为只顾宣扬 CFC 获胜。只归档这些舆论主题，不把评论转成访谈逐字稿或新增战果。
+- 2022 退位本身已有凛冬译文与附录线索；本次未续读搜索页的退位帖，不声称已补全原始指控链。其他政治标签及现实隐私不收录；无新够分量事件，正文沿用现有主线。
+
 ## 艾萨凯的败方复盘
 
 [The Asakai Meltdown](https://www.tentonhammer.com/columns/sins-of-a-solar-spymaster-86-the-asakai-meltdown)，2013-02-05，本人署名。已读正文第23—86行，把误跳利维坦后的救援升级拆成情报核实、低安重拦截准备、敌方增援与没有及时止损等问题；认为最初弃舰可限制损失，CFC却继续投入并赔掉三条泰坦与超航。原文后段点名Ragnarok，未把原误跳Leviathan与三条被毁泰坦对应，不推定原误跳舰结局。作为CFC领袖的事后解释使用，不证明本人角色现场驾驶或具体发令，不填战役people。完整事件与官方同期717.03B口径见[艾萨凯素材](../../battles/asakai-2013/materials-asakai-2013.md)。

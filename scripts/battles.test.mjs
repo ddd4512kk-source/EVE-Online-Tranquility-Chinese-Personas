@@ -159,6 +159,7 @@ const snapData = {
   title: '快照之战',
   start: '2025-06-17',
   systems: ['X'],
+  tags: ['00区', '旗舰战'],
   loss_source: BR,
   sides: [{ name: '甲方', organizations: [1], emblem: 1 }, { name: '乙方', organizations: [2], emblem: 2 }],
 };
@@ -428,8 +429,8 @@ test('自动联盟缺名保留类型与参与记录，抓取补齐后离线复�
     save(snap);
     const skippedCalls = [];
     const skipped = await checkBattles(root, { lookupNames: async ids => { skippedCalls.push(ids); return []; } });
-    assert.deepEqual(skippedCalls, []);
-    assert.deepEqual(skipped.pendingAllianceIds, []);
+    assert.deepEqual(skippedCalls, [[3]]);
+    assert.deepEqual(skipped.pendingAllianceIds, [3]);
     const source = { ...snap, pilots: { ...snap.pilots, ...Object.fromEntries(Array.from({ length: 10 }, (_, i) => [100 + i, [700, 3]])) } };
     save(source);
     const pending = await checkBattles(root);

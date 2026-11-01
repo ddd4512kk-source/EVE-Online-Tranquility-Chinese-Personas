@@ -1,0 +1,109 @@
+{
+  "status": "reviewed",
+  "note": "已核对游戏画像与正文采用",
+  "evidence": [
+    "src/people/xiaosong223333/materials-xiaosong223333.md",
+    "src/people/xiaosong223333/2118501510-id.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/people/xiaosong223333/xiaosong223333.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核读档案KB总览4011次参与击杀、823次损失、约3.06T参与目标；与材料长期休津、咒灭、镰刀画像和正文跟队辅助定位相符，没有将集体战果独算本人。",
+      "evidence": [
+        {
+          "file": "src/people/xiaosong223333/2118501510-id.json",
+          "contains": "\"isk_destroyed\": 3058641934626"
+        },
+        {
+          "file": "src/people/xiaosong223333/materials-xiaosong223333.md",
+          "contains": "- **红料，中**：B 站约 21 条投稿"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式identity.alts为空；材料只确认本人B站身份，明确未由招新广告推断TU ZI小号，本次没有漏合并的已知主力号。",
+      "evidence": [
+        {
+          "file": "src/people/xiaosong223333/2118501510-id.json",
+          "contains": "\"alts\": []"
+        },
+        {
+          "file": "src/people/xiaosong223333/materials-xiaosong223333.md",
+          "contains": "不推断他另有 TU ZI 小号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "对照已存四月约471.7B峰值与塔夫咒灭KM133569043，正文以支援职责和频道口气的反差采用，没有以录像标题推断本人指挥或具体战果。当前修订不需新增联网细查。",
+      "evidence": [
+        {
+          "file": "src/people/xiaosong223333/materials-xiaosong223333.md",
+          "heading": "## 2026-10-11：Taff 大型战役"
+        },
+        {
+          "file": "src/people/xiaosong223333/materials-xiaosong223333.md",
+          "contains": "- **红料，轻**：KB 击杀 4011"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已核四场本地战报pilots记录：A1-AUH在AOM，Turnur在D.C，塔夫与6Q在INIT，均为收录号2118501510，与履历吻合。正文以塔夫抓人小船作代表，其余由互链呈现，不需逐场扩写。",
+      "evidence": [
+        {
+          "file": "src/battles/a1-auh-2021/a1-auh-2021.json",
+          "contains": "\"2118501510\": [98635855,99009082]"
+        },
+        {
+          "file": "src/battles/turnur-2023/turnur-2023.json",
+          "contains": "\"2118501510\": [98715582,99009163]"
+        },
+        {
+          "file": "src/battles/taff-2026/taff-2026.json",
+          "contains": "\"2118501510\": [98715582,1900696668]"
+        },
+        {
+          "file": "src/battles/6q-r50-2026/6q-r50-2026.json",
+          "contains": "\"2118501510\": [98715582,1900696668]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩红料独立位于开篇之后，综合辅助抓人后勤的长期角色、四月量级和塔夫代表战斗，落在嘴上维护FRT而实际在INIT跟队的反差，未删既有会战、招新与评论冲突。",
+      "evidence": [
+        {
+          "file": "src/people/xiaosong223333/xiaosong223333.md",
+          "contains": "::: 红料 四千击杀，跟队干脏活"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/people/xiaosong223333/2118501510-id.json",
+    "src/people/xiaosong223333/materials-xiaosong223333.md",
+    "src/people/xiaosong223333/xiaosong223333.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md"
+  ],
+  "inputs": "21afdecff8bc0676b52c6f6c374adf2dba1cc7193dc2e6f814858c6e173f9c65",
+  "level": 1
+}

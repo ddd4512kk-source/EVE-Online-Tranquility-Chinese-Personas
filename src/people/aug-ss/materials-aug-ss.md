@@ -1,5 +1,7 @@
 # DA／AUG SS素材
 
+- 2026-11-01起收录号改为AUG SE（2114273804），本人名下zKB参与击杀最多（6246）；原收录号AUG SS（2118990980，0）改登小号。
+
 ## 人物与任职
 
 [ESI角色](https://esi.evetech.net/latest/characters/2118990980/)：AUG SS，2118990980，头衔DA，当前Where is My Arcane Missiles 98690815／.RPG.，DC 99009163。简介为默认文案，不作本人经历。

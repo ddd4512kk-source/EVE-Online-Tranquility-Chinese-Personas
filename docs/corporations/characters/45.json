@@ -1,6 +1,166 @@
 {
   "version": 1,
   "records": {
+    "91901145": {
+      "id": "91901145",
+      "names": [
+        "Rexxanna"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-10-16",
+          "title": "'dank title'",
+          "corporation_id": null,
+          "source": "docs/corporations/notes/nuwa-2026-04.md"
+        }
+      ],
+      "review": {
+        "state": "legacy",
+        "findings": [
+          {
+            "note": "七夜小号（与名单用名Rexanna近名）",
+            "material_hint": "",
+            "source": "docs/corporations/notes/nuwa-2026-04.md"
+          }
+        ],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/nuwa-2026-04.md",
+        "docs/corporations/notes/nuwa-2026-04.md#前50"
+      ]
+    },
+    "92436045": {
+      "id": "92436045",
+      "names": [
+        "AirTamer"
+      ],
+      "labels": [],
+      "profiles": [],
+      "review": {
+        "state": "legacy",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": []
+    },
+    "94951545": {
+      "id": "94951545",
+      "names": [
+        "Arianrhod Levi"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-10-15",
+          "title": "",
+          "corporation_id": "1000014",
+          "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
+        }
+      ],
+      "review": {
+        "state": "legacy",
+        "findings": [
+          {
+            "note": "头衔与完整简介已读；头衔简介空；已离开玩家军团，待故事／职责",
+            "material_hint": "docs/corporations/notes/member-research.md",
+            "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
+          }
+        ],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98576141.md",
+        "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
+      ]
+    },
+    "490334845": {
+      "id": "490334845",
+      "names": [
+        "Kingdom Knight"
+      ],
+      "labels": [],
+      "profiles": [],
+      "review": {
+        "state": "legacy",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": []
+    },
+    "901028145": {
+      "id": "901028145",
+      "names": [
+        "Bingki''wu"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-10-14",
+          "title": "骄阳",
+          "corporation_id": "98540583",
+          "source": "docs/corporations/notes/member-research/98535868.md#创世前50头衔增量2026-10-14"
+        }
+      ],
+      "review": {
+        "state": "legacy",
+        "findings": [
+          {
+            "note": "头衔与完整简介已读；人物续查",
+            "material_hint": "docs/corporations/notes/member-research.md",
+            "source": "docs/corporations/notes/member-research/98535868.md#创世前50头衔增量2026-10-14"
+          }
+        ],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98535868.md",
+        "docs/corporations/notes/member-research/98535868.md#创世前50头衔增量2026-10-14"
+      ]
+    },
+    "945883645": {
+      "id": "945883645",
+      "names": [
+        "Razor Jaxx"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-10-15",
+          "title": "极端荣耀#12044225",
+          "corporation_id": "98764551",
+          "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "极端荣耀",
+          "corporation_id": "98764551",
+          "source": "docs/corporations/notes/member-research/98764551.md#pla-fleet历史榜前100头衔核读2026-11-01"
+        }
+      ],
+      "review": {
+        "state": "legacy",
+        "findings": [
+          {
+            "note": "已对应收录人物",
+            "material_hint": "silvitni",
+            "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“极端荣耀”（#后编号不录）；简介为兔子卫队招新（招新QQ群不保存）；兔子卫队登记CEO，已归荣耀（Silvitni）小号",
+            "material_hint": "src/people/silvitni/materials-silvitni.md",
+            "source": "docs/corporations/notes/member-research/98764551.md#pla-fleet历史榜前100头衔核读2026-11-01"
+          }
+        ],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98576141.md",
+        "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15",
+        "docs/corporations/notes/member-research/98764551.md#pla-fleet历史榜前100头衔核读2026-11-01"
+      ]
+    },
     "1241947045": {
       "id": "1241947045",
       "names": [
@@ -13,6 +173,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98781311.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "军团 狐狸",
+          "corporation_id": "98781311",
+          "source": "docs/corporations/notes/member-research/98781311.md#dawns-lightp历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -22,12 +188,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98781311.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“军团 狐狸”；简介空；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98781311.md#dawns-lightp历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98781311.md"
+        "docs/corporations/notes/member-research/98781311.md",
+        "docs/corporations/notes/member-research/98781311.md#dawns-lightp历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2112945845": {
@@ -131,6 +303,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "",
+          "corporation_id": "98794444",
+          "source": "docs/corporations/notes/member-research/98556933.md#avdot历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -140,12 +318,18 @@
             "note": "已对应收录人物",
             "material_hint": "sarion-ikaruga",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；无头衔；简介摘“▂▃■▃▆▂ ▃◢◤ ▲◥◣ ◢◤▊ ▃◢◤ ◥▋ ▍ ▌ ▉ ◢◤ ▂▄ ▂▌…”；已有列传（斑鸠）",
+            "material_hint": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+            "source": "docs/corporations/notes/member-research/98556933.md#avdot历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98556933.md#avdot历史榜前100头衔核读2026-11-01"
       ]
     },
     "2113837445": {
@@ -174,6 +358,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98547771.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "尤卡",
+          "corporation_id": "98547771",
+          "source": "docs/corporations/notes/member-research/98547771.md#bop历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -183,12 +373,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98547771.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“尤卡”；简介摘“Burner Succubus kiler 燃烧team Burner Dare…”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98547771.md#bop历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98547771.md"
+        "docs/corporations/notes/member-research/98547771.md",
+        "docs/corporations/notes/member-research/98547771.md#bop历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2114092845": {
@@ -217,6 +413,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "贪岁",
+          "corporation_id": "98540583",
+          "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -226,12 +428,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“贪岁”；简介摘“Kill: ♦ Sotiyo”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01"
       ]
     },
     "2114341045": {
@@ -323,6 +531,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98540583.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "摇修",
+          "corporation_id": "98540583",
+          "source": "docs/corporations/notes/member-research/98540583.md#特执历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -332,12 +546,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98540583.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“摇修”；简介为总览／弹药／广播等配置；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98540583.md#特执历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98540583.md"
+        "docs/corporations/notes/member-research/98540583.md",
+        "docs/corporations/notes/member-research/98540583.md#特执历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2114641545": {
@@ -352,6 +572,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98702890.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "兰",
+          "corporation_id": "98702890",
+          "source": "docs/corporations/notes/member-research/98702890.md#神农历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -361,12 +587,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98702890.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“兰”；简介为字符画或符号；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98702890.md#神农历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98702890.md"
+        "docs/corporations/notes/member-research/98702890.md",
+        "docs/corporations/notes/member-research/98702890.md#神农历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2114718345": {
@@ -381,6 +613,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "",
+          "corporation_id": "98809049",
+          "source": "docs/corporations/notes/member-research/98556933.md#avdot历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -390,12 +628,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；无头衔；简介摘“[Sarion] control Let it be [ NoNo Never …”；当前已不在本团，待故事",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98556933.md#avdot历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98556933.md#avdot历史榜前100头衔核读2026-11-01"
       ]
     },
     "2115189845": {
@@ -499,6 +743,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98588384.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "",
+          "corporation_id": "1000111",
+          "source": "docs/corporations/notes/member-research/98588384.md#叶落星海历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -508,12 +758,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98588384.md"
+          },
+          {
+            "note": "头衔与完整简介已读；无头衔；简介空；当前已不在本团，待故事",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98588384.md#叶落星海历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98588384.md"
+        "docs/corporations/notes/member-research/98588384.md",
+        "docs/corporations/notes/member-research/98588384.md#叶落星海历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2116509045": {
@@ -528,6 +784,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98648061-98825044.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "⊹⊱⋛⋋★秃头老博士★⋌⋚⊰⊹",
+          "corporation_id": "98648061",
+          "source": "docs/corporations/notes/member-research/98648061.md#兔子飞历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -537,12 +799,48 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98648061-98825044.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“⊹⊱⋛⋋★秃头老博士★⋌⋚⊰⊹”；简介摘“击杀：DLP 05 (毒蜥级*) 击毁：Iteria J (短剑级) 击毁：An…”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98648061.md#兔子飞历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98648061-98825044.md"
+        "docs/corporations/notes/member-research/98648061-98825044.md",
+        "docs/corporations/notes/member-research/98648061.md#兔子飞历史榜第51至100名头衔核读2026-11-01"
+      ]
+    },
+    "2116779445": {
+      "id": "2116779445",
+      "names": [
+        "Enotsis hackergril Karachi"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-01",
+          "title": "骄阳",
+          "corporation_id": "98764551",
+          "source": "docs/corporations/notes/member-research/98764551.md#pla-fleet历史榜前100头衔核读2026-11-01"
+        }
+      ],
+      "review": {
+        "state": "reviewed",
+        "findings": [
+          {
+            "note": "头衔与完整简介已读；头衔“骄阳”（#后编号不录）；简介空；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98764551.md#pla-fleet历史榜前100头衔核读2026-11-01"
+          }
+        ],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98764551.md",
+        "docs/corporations/notes/member-research/98764551.md#pla-fleet历史榜前100头衔核读2026-11-01"
       ]
     },
     "2117285345": {
@@ -587,6 +885,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "周董",
+          "corporation_id": "98777401",
+          "source": "docs/corporations/notes/member-research/98777401.md#baby-bus历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -596,12 +900,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“周董”；简介摘“《短歌行》——曹操 对酒当歌，人生几何！譬如朝露，去日苦多。慨当以慷，忧思难忘。…”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98777401.md#baby-bus历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98777401.md#baby-bus历史榜前100头衔核读2026-11-01"
       ]
     },
     "2118015845": {
@@ -616,6 +926,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98588384.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "叽叽叽",
+          "corporation_id": "98588384",
+          "source": "docs/corporations/notes/member-research/98588384.md#叶落星海历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -625,12 +941,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98588384.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“叽叽叽”；简介摘“小船糕手 击杀：Half Lyfe (太空舱*)”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98588384.md#叶落星海历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98588384.md"
+        "docs/corporations/notes/member-research/98588384.md",
+        "docs/corporations/notes/member-research/98588384.md#叶落星海历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2118170245": {
@@ -708,6 +1030,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "千禧禧",
+          "corporation_id": "98775430",
+          "source": "docs/corporations/notes/member-research/98804833.md#sn-cf历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -717,12 +1045,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“千禧禧”；出身院校默认简介；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98804833.md#sn-cf历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98804833.md#sn-cf历史榜前100头衔核读2026-11-01"
       ]
     },
     "2120363445": {
@@ -781,6 +1115,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "",
+          "corporation_id": "98777401",
+          "source": "docs/corporations/notes/member-research/98777401.md#baby-bus历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -790,12 +1130,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；无头衔；出身院校默认简介；仍在本团，待故事",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98777401.md#baby-bus历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98777401.md#baby-bus历史榜前100头衔核读2026-11-01"
       ]
     },
     "2121608245": {
@@ -838,6 +1184,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98798876.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "",
+          "corporation_id": "98799064",
+          "source": "docs/corporations/notes/member-research/98798876.md#family-guy历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -847,12 +1199,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98798876.md"
+          },
+          {
+            "note": "头衔与完整简介已读；无头衔；出身院校默认简介；当前已不在本团，待故事",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98798876.md#family-guy历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98798876.md"
+        "docs/corporations/notes/member-research/98798876.md",
+        "docs/corporations/notes/member-research/98798876.md#family-guy历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2122074345": {
@@ -867,6 +1225,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "1983「中国派」",
+          "corporation_id": "98530802",
+          "source": "docs/corporations/notes/member-research/98530802.md#glory-navy历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -876,12 +1240,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“1983「中国派」”；出身院校默认简介；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98530802.md#glory-navy历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98530802.md#glory-navy历史榜前100头衔核读2026-11-01"
       ]
     },
     "2122206945": {
@@ -910,6 +1280,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "寒铭「星」与「夜」的咏唱",
+          "corporation_id": "98575144",
+          "source": "docs/corporations/notes/member-research/98575144.md#phoenix-city历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -919,12 +1295,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“寒铭「星」与「夜」的咏唱”；简介为总览／弹药／广播等配置；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98575144.md#phoenix-city历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98575144.md#phoenix-city历史榜前100头衔核读2026-11-01"
       ]
     },
     "2122396945": {
@@ -967,6 +1349,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "",
+          "corporation_id": "98742946",
+          "source": "docs/corporations/notes/member-research/98742946.md#朱雀历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -976,12 +1364,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；无头衔；出身院校默认简介；仍在本团，待故事",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98742946.md#朱雀历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98742946.md#朱雀历史榜前100头衔核读2026-11-01"
       ]
     },
     "2122497545": {
@@ -1010,6 +1404,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98648061-98825044.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "⊹⊱⋛⋋★猫1猫★⋌⋚⊰⊹",
+          "corporation_id": "98648061",
+          "source": "docs/corporations/notes/member-research/98648061.md#兔子飞历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1019,12 +1419,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98648061-98825044.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“⊹⊱⋛⋋★猫1猫★⋌⋚⊰⊹”；简介摘“Our long spears have been dulled by heav…”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98648061.md#兔子飞历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98648061-98825044.md"
+        "docs/corporations/notes/member-research/98648061-98825044.md",
+        "docs/corporations/notes/member-research/98648061.md#兔子飞历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2122809945": {
@@ -1053,6 +1459,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98825941.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "陆三千",
+          "corporation_id": "98825941",
+          "source": "docs/corporations/notes/member-research/98825941.md#昆仑历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1062,12 +1474,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98825941.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“陆三千”；出身院校默认简介；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98825941.md#昆仑历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98825941.md"
+        "docs/corporations/notes/member-research/98825941.md",
+        "docs/corporations/notes/member-research/98825941.md#昆仑历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2123050445": {
@@ -1096,6 +1514,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "火锅，德克❅萨斯",
+          "corporation_id": "98806126",
+          "source": "docs/corporations/notes/member-research/98806126.md#texas-of-requiem历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1105,12 +1529,18 @@
             "note": "已对应收录人物",
             "material_hint": "texas",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“火锅，德克❅萨斯”；出身院校默认简介；已有列传（火锅小号）",
+            "material_hint": "src/people/texas/materials-texas.md",
+            "source": "docs/corporations/notes/member-research/98806126.md#texas-of-requiem历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98806126.md#texas-of-requiem历史榜前100头衔核读2026-11-01"
       ]
     },
     "2123383645": {
@@ -1169,6 +1599,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research/98769610.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "鱼糕",
+          "corporation_id": "98769610",
+          "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1178,12 +1614,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98769610.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“鱼糕”；简介摘“击杀：Ashiko Shikkaku (复仇者级*) 击杀：IBlokadnik…”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research/98769610.md"
+        "docs/corporations/notes/member-research/98769610.md",
+        "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01"
       ]
     },
     "2123808645": {
@@ -1272,6 +1714,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "「BKB-尘」",
+          "corporation_id": "98599315",
+          "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1281,12 +1729,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“「BKB-尘」”；出身院校默认简介；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01"
       ]
     },
     "2124253445": {
@@ -1345,6 +1799,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "卡尔莫",
+          "corporation_id": "98538918",
+          "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1354,12 +1814,34 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“卡尔莫”；简介摘“看完给老子关了”；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01"
+      ]
+    },
+    "2124427345": {
+      "id": "2124427345",
+      "names": [
+        "suviocew"
+      ],
+      "labels": [],
+      "profiles": [],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98764551.md"
       ]
     },
     "2124524145": {
@@ -1444,6 +1926,12 @@
           "title": "",
           "corporation_id": null,
           "source": "docs/corporations/notes/member-research.md"
+        },
+        {
+          "as_of": "2026-11-01",
+          "title": "表哥",
+          "corporation_id": "98841123",
+          "source": "docs/corporations/notes/member-research/98841123.md#deadspace-spearhead历史榜头衔核读2026-11-01"
         }
       ],
       "review": {
@@ -1453,12 +1941,18 @@
             "note": "名字已解析；身份未查",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research.md"
+          },
+          {
+            "note": "头衔与完整简介已读；头衔“表哥”；简介空；外号待社区对应，无职责或故事依据",
+            "material_hint": "",
+            "source": "docs/corporations/notes/member-research/98841123.md#deadspace-spearhead历史榜头衔核读2026-11-01"
           }
         ],
         "next_steps": []
       },
       "evidence": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.md",
+        "docs/corporations/notes/member-research/98841123.md#deadspace-spearhead历史榜头衔核读2026-11-01"
       ]
     },
     "2124678245": {
@@ -1488,154 +1982,6 @@
         "next_steps": []
       },
       "evidence": []
-    },
-    "490334845": {
-      "id": "490334845",
-      "names": [
-        "Kingdom Knight"
-      ],
-      "labels": [],
-      "profiles": [],
-      "review": {
-        "state": "legacy",
-        "findings": [],
-        "next_steps": []
-      },
-      "evidence": []
-    },
-    "901028145": {
-      "id": "901028145",
-      "names": [
-        "Bingki''wu"
-      ],
-      "labels": [],
-      "profiles": [
-        {
-          "as_of": "2026-10-14",
-          "title": "骄阳",
-          "corporation_id": "98540583",
-          "source": "docs/corporations/notes/member-research/98535868.md#创世前50头衔增量2026-10-14"
-        }
-      ],
-      "review": {
-        "state": "legacy",
-        "findings": [
-          {
-            "note": "头衔与完整简介已读；人物续查",
-            "material_hint": "docs/corporations/notes/member-research.md",
-            "source": "docs/corporations/notes/member-research/98535868.md#创世前50头衔增量2026-10-14"
-          }
-        ],
-        "next_steps": []
-      },
-      "evidence": [
-        "docs/corporations/notes/member-research/98535868.md",
-        "docs/corporations/notes/member-research/98535868.md#创世前50头衔增量2026-10-14"
-      ]
-    },
-    "91901145": {
-      "id": "91901145",
-      "names": [
-        "Rexxanna"
-      ],
-      "labels": [],
-      "profiles": [
-        {
-          "as_of": "2026-10-16",
-          "title": "'dank title'",
-          "corporation_id": null,
-          "source": "docs/corporations/notes/nuwa-2026-04.md"
-        }
-      ],
-      "review": {
-        "state": "legacy",
-        "findings": [
-          {
-            "note": "七夜小号（与名单用名Rexanna近名）",
-            "material_hint": "",
-            "source": "docs/corporations/notes/nuwa-2026-04.md"
-          }
-        ],
-        "next_steps": []
-      },
-      "evidence": [
-        "docs/corporations/notes/nuwa-2026-04.md",
-        "docs/corporations/notes/nuwa-2026-04.md#前50"
-      ]
-    },
-    "92436045": {
-      "id": "92436045",
-      "names": [
-        "AirTamer"
-      ],
-      "labels": [],
-      "profiles": [],
-      "review": {
-        "state": "legacy",
-        "findings": [],
-        "next_steps": []
-      },
-      "evidence": []
-    },
-    "945883645": {
-      "id": "945883645",
-      "names": [
-        "Razor Jaxx"
-      ],
-      "labels": [],
-      "profiles": [
-        {
-          "as_of": "2026-10-15",
-          "title": "极端荣耀#12044225",
-          "corporation_id": "98764551",
-          "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
-        }
-      ],
-      "review": {
-        "state": "legacy",
-        "findings": [
-          {
-            "note": "已对应收录人物",
-            "material_hint": "silvitni",
-            "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
-          }
-        ],
-        "next_steps": []
-      },
-      "evidence": [
-        "docs/corporations/notes/member-research/98576141.md",
-        "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
-      ]
-    },
-    "94951545": {
-      "id": "94951545",
-      "names": [
-        "Arianrhod Levi"
-      ],
-      "labels": [],
-      "profiles": [
-        {
-          "as_of": "2026-10-15",
-          "title": "",
-          "corporation_id": "1000014",
-          "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
-        }
-      ],
-      "review": {
-        "state": "legacy",
-        "findings": [
-          {
-            "note": "头衔与完整简介已读；头衔简介空；已离开玩家军团，待故事／职责",
-            "material_hint": "docs/corporations/notes/member-research.md",
-            "source": "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
-          }
-        ],
-        "next_steps": []
-      },
-      "evidence": [
-        "docs/corporations/notes/member-research/98576141.md",
-        "docs/corporations/notes/member-research/98576141.md#pla-fleet前50头衔增量2026-10-15"
-      ]
     }
   }
 }

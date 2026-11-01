@@ -1,0 +1,148 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材；吉祥物CEO改标红料后重料展开与重心仍充分",
+  "evidence": [
+    "src/people/nuter-zero/materials-nuter-zero.md",
+    "src/people/nuter-zero/nuter-zero.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：两家军团简介、租地团迁入、两篇贴吧帖（吉祥物与实控人、贝尔两头通吃）、3楼回帖及2026-11 ESI未变均入文；2021招新帖只作背景，Bellstown留线索。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 贴吧来源"
+        },
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "吉祥物CEO/实控人传闻是他人对本人的评说，非本人劣迹，现标红料；仍决定本人形象，判为重料，分两块展开预言与未兑现。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 贴吧来源"
+        }
+      ],
+      "items": [
+        {
+          "title": "被贴吧定性为吉祥物CEO与预言落空",
+          "weight": "heavy",
+          "reason": "直接质疑其CEO实权与去留，涉及创世离开FRT后GNV归属，是本人形象主线。",
+          "source": {
+            "file": "src/people/nuter-zero/materials-nuter-zero.md",
+            "heading": "## 贴吧来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nuter-zero/nuter-zero.md",
+            "contains": "2026 年 1 月，创世宣布离开 FRT"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "创世宣布离开FRT去绝地，GNV前途被讨论。",
+              "evidence": {
+                "file": "src/people/nuter-zero/nuter-zero.md",
+                "contains": "2026 年 1 月，创世宣布离开 FRT"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "实控人之说与“重选CEO或离开FRT”两条路、资产留给荣耀海军。",
+              "evidence": {
+                "file": "src/people/nuter-zero/nuter-zero.md",
+                "contains": "作者预言，Bellstown 要是跟着创世去绝地"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "三十天后CEO未换、仍在Fraternity.，预言一条没走成。",
+              "evidence": {
+                "file": "src/people/nuter-zero/nuter-zero.md",
+                "contains": "三十天的“暗流涌动”过去了"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "“吉祥物”击杀反而一路上涨，开埃拉兹扰断。",
+              "evidence": {
+                "file": "src/people/nuter-zero/nuter-zero.md",
+                "contains": "倒是这位“吉祥物”的击杀"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "没人问CEO本人怎么想；吉祥物没被换掉。",
+              "evidence": {
+                "file": "src/people/nuter-zero/nuter-zero.md",
+                "contains": "从头到尾，没有人问一句 CEO 本人怎么想"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "两帖要点与回帖均用上。"
+        },
+        {
+          "title": "特纳租地团团长",
+          "weight": "ordinary",
+          "reason": "CEO任职依据与职责画像。",
+          "source": {
+            "file": "src/people/nuter-zero/materials-nuter-zero.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nuter-zero/nuter-zero.md",
+            "contains": "LoreWorld Traveler 的简介写得很像一张房产广告"
+          },
+          "note": "简介原文与租地团惯例写成物业经理。"
+        },
+        {
+          "title": "进GNV后的战斗转变",
+          "weight": "ordinary",
+          "reason": "综合战斗画像。",
+          "source": {
+            "file": "src/people/nuter-zero/materials-nuter-zero.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nuter-zero/nuter-zero.md",
+            "contains": "进荣耀海军以后，果壳才算真正开始打架"
+          },
+          "note": "按量级写。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "租地团与战斗转变两块铺身份，吉祥物重料占两块并由评语收束，重心匹配。吉祥物块改标红料后全篇四块红料加评语，与内容规则黑料定义一致，分量不变。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/nuter-zero.md",
+          "contains": "2026 年 1 月，创世宣布离开 FRT"
+        },
+        {
+          "file": "src/people/nuter-zero/nuter-zero.md",
+          "contains": "果壳在特纳替人收了两年地租"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/nuter-zero/2122015910-id.json",
+    "src/people/nuter-zero/materials-nuter-zero.md",
+    "src/people/nuter-zero/nuter-zero.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "c2d50f03a04e811648c3c174c21b732c584d15e64be29d0010f56d65a92a41ce",
+  "level": 1
+}

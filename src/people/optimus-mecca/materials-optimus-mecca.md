@@ -135,3 +135,5 @@ type22428由本地ESI船型缓存核为Redeemer，术语表对应“救世”。
 BV1nRHKzxEBu《FRT国庆巨作，5杀PH大航…》（4652播放）、BV11dFJz2EKV《WC vs IMP艾蒂斯铁壁锚定…》（2176播放），来源UID 53247199（docs/bilibili/53247199.json）。
 
 本轮读取主代理整理的频道全目录，按存档播放量优先挑选未在正式列传红黑料展开的本人投稿；只依据标题和已有播放数，不访问作品页、不读影像音频字幕。未见标题明确标注联合制作的候选。
+
+- 2026-11-01登记小号：last chu（96586197）、NATURALDISASTER Tepes（2116203219）、hoshitsuki1（2123693244）、hoshitsuki2（2123693253）、hoshitsuki（2123678174）；ESI公开头衔同为“娃娃”，该头衔只见于本号主同组角色；同军团98725089历史榜同组，见[军团榜单核读](../../../docs/corporations/notes/member-research/98725089.md)。

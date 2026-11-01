@@ -1,0 +1,102 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "evidence": [
+    "src/people/asunazx/materials-asunazx.md",
+    "src/people/asunazx/asunazx.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：个人简介招新全文（含福利序号缺⑤）、军团简介对照、登记CEO与名片CEO写法矛盾、zKB画像均入文；叶落军团层面帖未接本号，不入正文正确。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 身份、任职与收录"
+        },
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "名片与登记CEO的矛盾及战斗画像，无重料。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ],
+      "noHeavyReason": "无本人社区帖、争议或旗舰战果；名片替创建者写CEO是简介层面的反差，正文已作趣味展开，不抬为重料。",
+      "items": [
+        {
+          "title": "登记CEO在名片上替别人招新",
+          "weight": "ordinary",
+          "reason": "CEO身份与名片写法的反差，属任职画像。",
+          "source": {
+            "file": "src/people/asunazx/materials-asunazx.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/asunazx/asunazx.md",
+            "contains": "旋转变幻的个人简介整篇就是一张招新海报"
+          },
+          "note": "福利原话、两份广告差异与序号缺⑤入文。"
+        },
+        {
+          "title": "FRT主力舰队战绩",
+          "weight": "ordinary",
+          "reason": "综合战斗画像。",
+          "source": {
+            "file": "src/people/asunazx/materials-asunazx.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/asunazx/asunazx.md",
+            "contains": "旋转变幻这个号一千二百多次参与击杀"
+          },
+          "note": "大仗只点名不逐场报。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "两块分写CEO身份矛盾与普通一兵战绩，评语以三个身份收束，比例合适。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/asunazx.md",
+          "contains": "旋转变幻在叶落星海的登记册上是 CEO"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/asunazx/2119592670-id.json",
+    "src/people/asunazx/asunazx.md",
+    "src/people/asunazx/materials-asunazx.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "e5de4d9b0d3d8571441dc9a01870cfdf3b23ebd0724186ce794aea33dc7dcda1",
+  "level": 1
+}

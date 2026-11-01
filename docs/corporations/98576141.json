@@ -636,7 +636,7 @@
       "acquisition": {
         "state": "captured",
         "available_count": 0,
-        "note": "旧覆盖表记为已取得前0；与未取得分开，不自动补查。"
+        "note": "同名旧团九月空榜属实；活跃榜第18名对应98764551，不在此补查。"
       },
       "references": [],
       "entries": []
@@ -644,17 +644,6 @@
   ],
   "account_groups": [],
   "observations": [
-    {
-      "kind": "activity",
-      "period": "2026-09",
-      "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
-      "fields": {
-        "rank": "18",
-        "alliance": "People's Liberation Alliance",
-        "active_and_battles": "306 / 246"
-      }
-    },
     {
       "kind": "ceo",
       "period": null,
@@ -664,10 +653,20 @@
         "registered_ceo": "无有效CEO（ceo_id=1）",
         "prior_finding": "接口显示0成员、ceo_id=1；无有效现任CEO，历史任职待查"
       }
+    },
+    {
+      "kind": "identity",
+      "period": null,
+      "as_of": "2026-11-01",
+      "source": "docs/corporations/notes/member-research/98764551.md",
+      "fields": {
+        "note": "2018-10-04建立的同名旧团，ESI现为0成员、ceo_id=1；2026-09活跃榜第18名PLA Fleet实为98764551，旧对照抄错ID。本档历史榜是旧团成员，不代表现役兔子卫队。"
+      }
     }
   ],
   "references": [
     "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98576141.md"
+    "docs/corporations/notes/member-research/98576141.md",
+    "docs/corporations/notes/member-research/98764551.md"
   ]
 }

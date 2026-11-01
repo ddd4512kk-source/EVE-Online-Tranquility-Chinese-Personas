@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "evidence": [
+    "src/people/la-rusa/materials-la-rusa.md",
+    "src/people/la-rusa/la-rusa.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：2110参与击杀、约2359B，损失198、约76B，单杀76；军团子榜沉默旅人1544、Lazerhawks 510（价值更高），纪念碑、夜鹰、洛基为主，正文两段经历与月份变化相符。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## 2026-11-01补充"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空；登记CEO号Silent Sojourner CEO无同人桥，素材明确不并；2023招新帖楼主不归本人。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## 身份及军团年代"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "正文写J132601一天四座建筑与Obe泰坦，均已逐条核读KM：本号驾驶船型、伤害、final_blow=false，正文未认最后一击或指挥。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## KB与已确认经历"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "本人角色在阿巴宗2026 pilots，正文只写参战名单有名；Obe大混战按共用摘要写总额，不并入未核阵营。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## 2026-11-01补充"
+        },
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## KB与已确认经历"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "Lazerhawks拆房块与沉默旅人战绩块构成综合战斗点评，泰坦块为代表战斗，均有KM依据。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/la-rusa.md",
+          "contains": "奈何挂在 Lazerhawks 名下的击杀只有五百一十条"
+        },
+        {
+          "file": "src/people/la-rusa/la-rusa.md",
+          "contains": "奈何到了这里反倒比在 Lazerhawks 时勤快得多"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/la-rusa/2118160416-id.json",
+    "src/people/la-rusa/la-rusa.md",
+    "src/people/la-rusa/materials-la-rusa.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
+  ],
+  "inputs": "e8d1ea24257bb22e8fc68d6b7f926a95cc1937dc3c8713c4630ba3c5dffb26ad",
+  "level": 1
+}

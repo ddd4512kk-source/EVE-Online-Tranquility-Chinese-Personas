@@ -1,0 +1,87 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核综合战斗、FC依据、AT实际参与和四场已有战役，正文采用范围准确",
+  "evidence": [
+    "src/people/keep-steel/materials-keep-steel.md",
+    "src/people/keep-steel/keep-steel.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "完整核读已归档stats总览与常用船：3976参与击杀、751损失、长期零安舰队及222条Monitor参与记录，支持正文常年舰队成员兼指挥的定位；累计参与估值不计个人独占战果。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 综合游戏画像与指挥依据"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式identity.alts为空，素材明确尚无其他小号或平台账号对应；没有已确认主力小号需要补读，也未把别人的记录归到本人。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "现稿AT参赛陈述需要实际驾驶与赛果依据，已核素材两张原生ESI KM的驾驶船型、最后一击及赛历胜方；月份峰值仅保留于素材，正文未从峰值虚造战果。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## AT XIX：两张自挂战报的实际参与"
+        },
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 综合游戏画像与指挥依据"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对象卡及四场正式BR均核到2115154285，A1属AOM，其余H-PA29、图尔鲁尔、X47属DC；正文只采用参战经历，未推定本人指挥这些大战。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 现有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后第一块独立红料综合常用舰船、近四千参与记录、长期指挥及阵营战役经历，AT驾驶作为大队FC也亲自开小船的代表反差；不是逐场战报目录。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/keep-steel.md",
+          "contains": "钢姐姐的战斗底子扎在零安舰队里"
+        },
+        {
+          "file": "src/people/keep-steel/keep-steel.md",
+          "contains": "他跟着 AOM 打过 A1"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/keep-steel/2115154285-id.json",
+    "src/people/keep-steel/keep-steel.md",
+    "src/people/keep-steel/materials-keep-steel.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "2b40523eb20428b8e18eb1d076b1deff3ff263e94447ba1e762dbbbec8820710",
+  "level": 1
+}

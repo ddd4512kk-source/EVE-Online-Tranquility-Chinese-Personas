@@ -1323,7 +1323,28 @@
       ]
     }
   ],
-  "account_groups": [],
+  "account_groups": [
+    {
+      "label": "Outuni Mesean",
+      "as_of": "2026-11-01",
+      "source": "docs/corporations/notes/member-research/98185110.md#伏羲历史榜第51至100名头衔核读2026-11-01",
+      "scope": "同一外号头衔；号主分组，非当前军团快照",
+      "character_ids": [
+        "2113284859",
+        "2112683863"
+      ]
+    },
+    {
+      "label": "叶瞳",
+      "as_of": "2026-11-01",
+      "source": "docs/corporations/notes/member-research/98185110.md#伏羲历史榜第51至100名头衔核读2026-11-01",
+      "scope": "同一外号头衔；号主分组，非当前军团快照",
+      "character_ids": [
+        "2114444328",
+        "2114660689"
+      ]
+    }
+  ],
   "observations": [
     {
       "kind": "activity",

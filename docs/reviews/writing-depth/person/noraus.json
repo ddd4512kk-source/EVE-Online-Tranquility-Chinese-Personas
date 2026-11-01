@@ -1,0 +1,530 @@
+{
+  "status": "reviewed",
+  "note": "独立核读重要红黑料逐事件发展，FC各指标五档考评不等同职级调整，新旧主线及生成页通过。",
+  "evidence": [
+    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/noraus.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读完整正文与239行素材，对照封禁、怯薛、贵重资产损失、主要战争胜败与社区事件；新22459正文独立核读。重事均有正文，未读影像、图内语录、访谈和匿名同人不升级。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "contains": "2026-10-07 补料（已写入列传）："
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## FWST 两轮：2020-10-05 与 10-06—07"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重事逐件核过起因、分量、反差与后果；新KPI为普通管理贡献，与既有重大内讧及封禁主线区分，未凭职务把单句评论抬重。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "contains": "2026-10-07 补料（已写入列传）："
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ],
+      "items": [
+        {
+          "title": "北方战争胜利与慢熬代价",
+          "weight": "heavy",
+          "reason": "改变北方联盟格局的长期战争是本人核心红料。",
+          "note": "一年四个月推进、B2解体与联盟KM的自夸并置，随后自认欧洲FC协作和长期计划失效，胜利没有写成无代价。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "contains": "2026-10-07 补料（已写入列传）："
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2022 年 7 月打 Volta"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "从预想速胜写到一年四个月的战争。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "2022 年 7 月打 Volta"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "B2与Brave/Fire结局及北方版图是战争后果。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "他的记述里，Volta"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "胜利总结仍承认FC协作与长期计划失败。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "总结写了四千多字"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Atioth动员与服务器之神",
+          "weight": "heavy",
+          "reason": "33泰坦与大型超旗会战在其任内战争红料中分量重大。",
+          "note": "把每号出勤动员、星城与节点崩溃及幸运自认串成因果，不将旁观夸算准服务器当提前设计。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "contains": "2026-10-07 补料（已写入列传）："
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2026 年 4 月，帝国带着两千多条"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "敌方旗舰压境，发出每账号出勤的动员。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "2026 年 4 月，帝国带着两千多条"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "公布33泰坦和8T战果，同时交代星城被拆、崩服与重新登录。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "他的[战后记录]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "成员吹神机妙算与本人感谢服务器幸运形成差异。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "贴吧当月就有人开帖"
+              }
+            }
+          ]
+        },
+        {
+          "title": "WWB2战略失败",
+          "weight": "heavy",
+          "reason": "围困失败和作战人口损失是其领导的重大失败。",
+          "note": "保留十年储备和士气判断、自认战略错误、最后决战代价与回家题记，前后战争连载回响充分。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "contains": "2026-10-07 补料（已写入列传）："
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "第二次蜜蜂大战，N老板从第一天一路写了四十九篇"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "多年战争总结落到1DQ围而未下。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "第二次蜜蜂大战，N老板从第一天一路写了四十九篇"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "正式自认战略错误及作战人口损失。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "说到最后那次决战"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "日更战略连载最后收在终于回家和未拆星城。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "开战第一天的题记"
+              }
+            }
+          ]
+        },
+        {
+          "title": "归魂者损失与南方战争",
+          "weight": "heavy",
+          "reason": "高价值海盗超航损失，且与其早期经营处境相接。",
+          "note": "KM参与者和108B规模有据，不猜损失责任；再接四座铁壁安慰与睡袋回响，损失有分量也有人物行动。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "heading": "## 2017 归魂者损失（2026-10-15）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2017 年 3 月 16 日，Immensea"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "女娲时期及南方战争现场定位明确。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "2017 年 3 月 16 日，Immensea"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "百人攻击者、海盗超航价值与毁损后果写足。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "围上来的是 107 人"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "自己的重损转为安慰台风和给幸存铁壁改名。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "同一场南方战争里"
+              }
+            }
+          ]
+        },
+        {
+          "title": "护卫运泰坦原图",
+          "weight": "heavy",
+          "reason": "高价值原始蓝图运输损失持续成为社区视频素材。",
+          "note": "船、货、单一攻击者与蓝图毁损具体；六年后视频重发与本人KB可嘲讽一年互相回应。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "heading": "## B 站 EVE曼努尔（FBC，[曼努尔素材](../manuer/materials-manuer.md)）的 N老板系列（2026-10-10 归档；Slasher 一条已入正文）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2018 年 5 月 16 日清晨"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "小号开护卫运输泰坦原图及组件。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "2018 年 5 月 16 日清晨"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "107.5B货物与原图被毁、部分组件掉落。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "动手的只有一个人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "多年后两次投稿反复展示其错误。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "这段录像后来被 FBC"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "自认KB可嘲讽一年和六年未息呼应。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "用护卫舰运泰坦原图"
+              }
+            }
+          ]
+        },
+        {
+          "title": "怯薛收权与心腹大患",
+          "weight": "heavy",
+          "reason": "联盟核心人事撤换、代表制度及随后大规模盗号资产损失牵涉主线。",
+          "note": "撤职理由、议会限制、280角色流失、卫队清零、盗号后公告与时间细节均保留；未给被盗号者归个人黑料。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "heading": "### 检索记录与缺口"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2025 年 4 月，他发"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "动机",
+              "note": "老板追求心腹公司，长期不在和收权并写。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "2025 年 4 月，他发"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "议会监督老板却要其审批候选、其不在即休会。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "监督老板的议会"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "权力交接流失与影响归零后仍有大规模资产损失。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "一个月后的[端午更新]"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "盗号公告列出公司建立、踢人及当早联系过程。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "真正的后果在 8 月"
+              }
+            }
+          ]
+        },
+        {
+          "title": "买金永封与换号继续指挥",
+          "weight": "heavy",
+          "reason": "定义人物舆论形象与账号变化的最重黑料。",
+          "note": "补损资金压力、现金买金与保护费名目、CCP处置、社区双方版本和10seconds后续均充分展开，未以KPI替代主线。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "contains": "**买金永封（2026-10-15 定为事实）**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "N老板的游戏头衔只有两个词"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "战事与补损使执行军团缺钱。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "事情的来龙去脉"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "十几个账号封禁与钱包扣负一万亿的处置。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "末尾写着“先占坑"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "保护费名目与现金买金、主号墓志铭和联盟继续壮大。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "联盟能从负一万亿"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "辩护与脚本封号纠正、冰岛申诉旧梗及换号指挥。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "圈里吵过的版本"
+              }
+            }
+          ]
+        },
+        {
+          "title": "FWST两轮选船与指挥判断",
+          "weight": "heavy",
+          "reason": "对旗舰围城与联盟人力的重大决策失误，需保留连贯展开。",
+          "note": "两次放城、本人AB重突选错、后方保留铁骑、联军舰制失效、超旗顾虑与续战分歧六段推进，没有串到Enho。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "heading": "## FWST 两轮：2020-10-05 与 10-06—07"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2020 年 10 月 5 日，N老板要往绝地里钉进"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "多夜佯攻保密仍四分钟遭无畏登门。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "2020 年 10 月 5 日，N老板要往绝地里钉进"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "保留刷怪收入影响前线铁骑筹备，公开承担选船错误。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "真正让他在[当日复盘]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "以为帝国不会继续烧钱却遇远狙与隐轰拆城，联军工具失效。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "到了第二夜"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "第二城与1700重突等成本、泰坦入场时机自评。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "星城熬了近十二小时"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "两天二十小时后续战意见分裂，人力成为瓶颈。",
+              "evidence": {
+                "file": "src/people/noraus/noraus.md",
+                "contains": "战后会议还得承认"
+              }
+            }
+          ]
+        },
+        {
+          "title": "FC各项五档KPI",
+          "weight": "ordinary",
+          "reason": "新制度公开了评价维度，未见本帖给出个人处罚或重大权力冲突结果。",
+          "note": "明确BJK离任不补同职与各指标五档，出勤/协作/复盘/压力等具体细目与不是第二份工作相接；不写FC职级变化或公开成绩。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "2023 年 6 月，N老板的[英文更新]"
+          }
+        },
+        {
+          "title": "既有公开管理与社区交锋",
+          "weight": "ordinary",
+          "reason": "催更、罚款外号、披露护照应对谣言、群笑话与普通出勤事故均各自有情节；不是所有短评论都列作重事。",
+          "note": "全文保留Brave三次复述、周报待办与暂退、军纪训话、四条狂怒出气说法及答主/回帖的边界；黑老板单句星域承诺保留材料，未将其扩成已证毁约的新重大事件。",
+          "source": {
+            "file": "src/people/noraus/materials-noraus.md",
+            "contains": "2026-10-07 补料（已写入列传）："
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/noraus/noraus.md",
+            "contains": "老板的通告本来是给舰队看路"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "管理能耐与看错人、失误、封禁和收权矛盾共同撑人物；KPI增量没有缩减旧重料，综合战绩前置后仍由决策/后果主导而非金额目录。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/noraus.md",
+          "contains": "N老板的 [主号]"
+        },
+        {
+          "file": "src/people/noraus/noraus.md",
+          "contains": "N老板的游戏头衔只有两个词"
+        },
+        {
+          "file": "src/people/noraus/noraus.md",
+          "contains": "2025 年 4 月，他发"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/noraus-ray-dispute-2026-05.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "docs/sources/sgcn-dread-discipline-2026.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/people/noraus/1618197191-id.json",
+    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/noraus.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/ualx-3-2018/ualx-3-2018.json",
+    "src/battles/ualx-3-2018/ualx-3-2018.md",
+    "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "6c09c4a0820ef11999e531361d179eed30e22fd79c3778989aa8938c93a4a6c0",
+  "level": 1
+}

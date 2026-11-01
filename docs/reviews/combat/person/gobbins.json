@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "独立核读保存总览、归因和本轮综合画像",
+  "evidence": [
+    "src/people/gobbins/materials-gobbins.md",
+    "src/people/gobbins/342545170-id.json",
+    "src/battles/x47l-q-2018/materials-x47l-q-2018.md",
+    "src/people/gobbins/gobbins.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读保存stats总览及正式快照：1341参与击杀、561.9B，埃拉兹/猎豹与前线活动；属于侦察/电子战和管理型盟主，不能写成没PVP。",
+      "evidence": [
+        {
+          "file": "src/people/gobbins/materials-gobbins.md",
+          "heading": "## 检索记录（2026-10-09）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式identity.alts为空，无已确认主力小号需补stats；不从简介笑话、别人的Twitch或Reddit昵称添同人关系。本次只审已存归因，不联网扩大查人。",
+      "evidence": [
+        {
+          "file": "src/people/gobbins/342545170-id.json",
+          "contains": "\"alts\": []"
+        },
+        {
+          "file": "src/people/gobbins/materials-gobbins.md",
+          "heading": "## 检索记录（2026-10-09）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "总览足以支持有限个人PVP与组织管理分工；另读X47材料，惩罚者/舱为本人损失，只作小船跟队例子，不当指挥或普通战损黑料。",
+      "evidence": [
+        {
+          "file": "src/battles/x47l-q-2018/materials-x47l-q-2018.md",
+          "contains": "哥布林／342545170"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立搜索正式JSON，只在X47 2018关联本人；战役材料有两条受害记录，正文综合块已采用小船跟PH大队参战，没有凭盟主身份承包PH全部战争。",
+      "evidence": [
+        {
+          "file": "src/battles/x47l-q-2018/materials-x47l-q-2018.md",
+          "contains": "哥布林／342545170"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "本轮修订后综合战绩紧接开篇为第一红料；由总览统领玩法与职责，只展开有角色/反差作用的代表经历，不逐场列KM和金额。已通读正文并对照保存材料，未新增无来源战果。",
+      "evidence": [
+        {
+          "file": "src/people/gobbins/gobbins.md",
+          "contains": "哥布林的[战斗记录]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/x47l-q-2018/materials-x47l-q-2018.md",
+    "src/people/gobbins/342545170-id.json",
+    "src/people/gobbins/gobbins.md",
+    "src/people/gobbins/materials-gobbins.md",
+    "src/battles/x47l-q-2018/x47l-q-2018.json",
+    "src/battles/x47l-q-2018/x47l-q-2018.md"
+  ],
+  "inputs": "8707f92b67b5a8ea738475028b4a477cbf10d96e6220b80a916f365d5ad6b28e",
+  "level": 1
+}

@@ -231,3 +231,9 @@ Norausdot公开复盘[8891](https://forums.winterco.org/t/topic/8891)和[9163](h
 ## 外文原话原文（2026-10-24 正文译中留档）
 
 - 角色简介战斗日志：08:01:51 Combat 2652 from 1DQ1-A - Thetastar of David [.FART] (Keepstar) - Standup Arcing Vorton Projector I - Hits
+
+## 凛冬固定清单核读补充（2026-10-30）
+
+- [主题22459](https://forums.winterco.org/t/topic/22459)：Norausdot英文更新宣布BJK退出field marshal、不补同职，给FC引入各指标五档考评，原FC职级不变；具体个人成绩不公开，不能推考核结果。
+
+帖子正文及可见回复已核；作品、技术细目与图像阅读边界见[逐帖处置表](../../../docs/sources/winterco-communications.tsv)。新补情节采用作者自述与回帖各自归因，不据教程标题推定指挥战果。

@@ -1,0 +1,87 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "evidence": [
+    "src/people/ling-li/materials-ling-li.md",
+    "src/people/ling-li/ling-li.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：简介、雇佣十一行、军团创建者删号与联盟历史、zKB画像均入文；贴吧无命中，无其他事件。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 身份、任职与收录"
+        },
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "只有接手CEO与战斗画像，无重料。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ],
+      "noHeavyReason": "无社区帖、争议或旗舰战果；接手创始人删号军团为CEO任职依据，换团本身不算料。",
+      "items": [
+        {
+          "title": "蜂群里越打越勤",
+          "weight": "ordinary",
+          "reason": "CEO本人战斗画像。",
+          "source": {
+            "file": "src/people/ling-li/materials-ling-li.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ling-li/ling-li.md",
+            "contains": "绫里这个号八百六十多次参与击杀"
+          },
+          "note": "按量级写。"
+        },
+        {
+          "title": "接手创始人删号的军团",
+          "weight": "ordinary",
+          "reason": "CEO任职来历；换团作前史。",
+          "source": {
+            "file": "src/people/ling-li/materials-ling-li.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ling-li/ling-li.md",
+            "contains": "绫里 2021 年 4 月建号"
+          },
+          "note": "以“别人来他这儿打卡”为落点。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "短篇两块与评语均落在CEO来历与战斗转变，无重料可失衡。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/ling-li.md",
+          "contains": "绫里四年换了五六家团"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/ling-li/2118587871-id.json",
+    "src/people/ling-li/ling-li.md",
+    "src/people/ling-li/materials-ling-li.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "ee5dafa43290a20718c1dd9f4d0ab50ecc339fc5e99ec4ba8f11957b9af61097",
+  "level": 1
+}

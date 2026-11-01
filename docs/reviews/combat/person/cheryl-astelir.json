@@ -1,0 +1,135 @@
+{
+  "status": "reviewed",
+  "note": "主号及三小号总览、12场名单、Obe损失与首块战斗画像已核",
+  "evidence": [
+    "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+    "src/people/cheryl-astelir/94260398-id.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/people/cheryl-astelir/cheryl-astelir.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号总览4167参与击杀、607损失、约3.30T与隐轰/战列/重突结构已读；FC依据来自明确跟队者评价与轻拦手册自述带队，不以常规指挥舰船型硬推某场指挥。",
+      "evidence": [
+        {
+          "file": "src/people/cheryl-astelir/94260398-id.json",
+          "contains": "\"name\": \"Cheryl Astelir\""
+        },
+        {
+          "file": "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+          "heading": "## 2026-10-11：FC 身份与主号画像补齐"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式三小号均核：Fujed Cericy16击杀/6损失约297B、有泰坦与凤凰经历为主力；Cat’s Shining无击杀仅2损失为CEO号，Gneiss5击杀约0.85B是教学作者号。统一自然人，不相加累计、不另立传。",
+      "evidence": [
+        {
+          "file": "src/people/cheryl-astelir/94260398-id.json",
+          "contains": "\"name\": \"Cheryl Astelir\""
+        },
+        {
+          "file": "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+          "heading": "## 2026-10-11：关联角色与旗舰记录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核Obe Fujed Cericy勒维亚坦149.38B损失及主号执政官后续；全16击杀复查涵盖Turnur、Y-1918、Taff、Amamake与Aunenen。正文仅据已核船型/参与，未推总指挥或整体战败责任。",
+      "evidence": [
+        {
+          "file": "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+          "heading": "### Fujed Cericy 全部可见击杀复查"
+        },
+        {
+          "file": "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+          "heading": "## 2026-10-11：关联角色与旗舰记录"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "正式名单对照12场：319-3D、A1、Arzad、FWST、Haras、J-TPTA、Lantorn、Obe、老人星、Taff、Turnur、X47；Taff由Fujed参战而主号仅点名，Obe为已核KM人工关联。代表A1/老人星/Arzad窗口与船型已有本人素材，未将全场损失当个人。",
+      "evidence": [
+        {
+          "file": "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+          "heading": "## 2026-10-11：1T 大战核对"
+        },
+        {
+          "file": "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+          "heading": "## 社区 BR 反查增补（2026-10-11）"
+        },
+        {
+          "file": "src/battles/taff-2026/taff-2026.json",
+          "contains": "\"2116465308\": [98799349,99004901]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合战斗首块前移到两段开篇后，主号常用船、星尘到Snuff变化与小号旗舰形成整体画像；教学及银行分团仍为独立主线，不借KM替银行坏账作证。",
+      "evidence": [
+        {
+          "file": "src/people/cheryl-astelir/cheryl-astelir.md",
+          "contains": "折纸主号的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/battle-side-review-2026-10-21.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-discovery-2026-10-11.md",
+    "docs/sources/community-br-verified-2026-10-11.md",
+    "docs/sources/hed-gp-incident-2023.md",
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/people/cheryl-astelir/94260398-id.json",
+    "src/people/cheryl-astelir/cheryl-astelir.md",
+    "src/people/cheryl-astelir/materials-cheryl-astelir.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/arzad-2025/arzad-2025.json",
+    "src/battles/arzad-2025/arzad-2025.md",
+    "src/battles/arzad-2025/materials-arzad-2025.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "a78a4b2e7e39832b564617dd252e3b1e5a5f57ff718d58b6846dc2d48950db50",
+  "level": 1
+}

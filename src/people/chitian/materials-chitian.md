@@ -1,5 +1,7 @@
 <a id="chitian"></a>
 
+- 2026-11-01起收录号改为chitian hehehe（2113788113），本人名下zKB参与击杀最多（4718）；原收录号chitian（2120421439，1252）改登小号。
+
 ## 炽天 / chitian / KZU CEO
 
 收录角色：**chitian（2120421439）**。已有[列传源文件](chitian.md)。[ESI 角色头衔](https://esi.evetech.net/latest/characters/2120421439/)为“炽天 清风不语，明月自来”；[Knight of Zero Ultra（98808817）](https://esi.evetech.net/latest/corporations/98808817/)创建者和现任 CEO 都是此号，军团简介亦直接以游戏角色链接署名“炽天”。KZU 是军团简称，不是另一个玩家名；chitian hehehe与chitian xiao已由后述2026-10-12军团榜反查合并；chitian huhuhu已按下述同团同中文头衔记录归本人。不将各号统计相加。

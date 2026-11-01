@@ -1,0 +1,152 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "evidence": [
+    "src/people/mr-niuniu/materials-mr-niuniu.md",
+    "src/people/mr-niuniu/mr-niuniu.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：晒星城帖1/8/12/13/16/20/22楼、DKP帖7/20/24楼全部入文；RMT未见不写，CEO真实更替未核不推。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 贴吧来源"
+        },
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "脚本自认是CEO本人在公开争论中认下自家刷怪脚本，判为重料并充分展开；星城与遗产为普通经营与人情。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 贴吧来源"
+        }
+      ],
+      "items": [
+        {
+          "title": "骂别人脚本团，自认“我们脚本YST”",
+          "weight": "heavy",
+          "reason": "CEO公开承认自家伊什塔开脚本刷怪，违规性质重，且出现在RMT质疑的争论里。",
+          "source": {
+            "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+            "heading": "## 贴吧来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-niuniu/mr-niuniu.md",
+            "contains": "2020 年 10 月，银河一个成员"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "DKP兑换表被认出，3080显卡与月发DKP引出RMT担忧。",
+              "evidence": {
+                "file": "src/people/mr-niuniu/mr-niuniu.md",
+                "contains": "传得最响的一条是三千零八十 PAP"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "对方反呛银河是脚本团，本人翻旧账，成员补刀欢迎带队来。",
+              "evidence": {
+                "file": "src/people/mr-niuniu/mr-niuniu.md",
+                "contains": "旁边立刻有人反呛"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "前句嫌塞纳留斯脚本团不配举例，后句自认脚本。",
+              "evidence": {
+                "file": "src/people/mr-niuniu/mr-niuniu.md",
+                "contains": "前一句还嫌塞纳留斯是脚本团不配举例"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "“是，但你打不过”。",
+              "evidence": {
+                "file": "src/people/mr-niuniu/mr-niuniu.md",
+                "contains": "他的回答等于一句"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "原话与楼层顺序完整；不扩到具体角色或封号处罚。"
+        },
+        {
+          "title": "三座星城与“战败了”",
+          "weight": "ordinary",
+          "reason": "CEO晒军团星城并复盘46DP，属红料名场面但无重大后果。",
+          "source": {
+            "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+            "heading": "## 贴吧来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-niuniu/mr-niuniu.md",
+            "contains": "2021 年 5 月 8 日，Cherry小牛"
+          },
+          "note": "三个时间戳、QRF、46DP纠正、欧莎均入文。"
+        },
+        {
+          "title": "显示器、遗产和最有钱的军团",
+          "weight": "light",
+          "reason": "回帖人情往来。",
+          "source": {
+            "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+            "heading": "## 贴吧来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-niuniu/mr-niuniu.md",
+            "contains": "那条晒星城的帖子，回帖里"
+          },
+          "note": "三段回帖原话入文。"
+        },
+        {
+          "title": "缪宁大队与泰坦装甲师",
+          "weight": "ordinary",
+          "reason": "综合战斗画像。",
+          "source": {
+            "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-niuniu/mr-niuniu.md",
+            "contains": "小牛这个号七百多次参与击杀"
+          },
+          "note": "按量级写，不念账。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩块立住FRT老兵身份，星城与遗产写有钱有面子的老板，脚本黑料置后作反差收束，评语回扣两头；重料没有被战绩淹没。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/mr-niuniu.md",
+          "contains": "小牛这个号七百多次参与击杀"
+        },
+        {
+          "file": "src/people/mr-niuniu/mr-niuniu.md",
+          "contains": "小牛开缪宁打完 FRT 的南征北退"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mr-niuniu/2113483066-id.json",
+    "src/people/mr-niuniu/materials-mr-niuniu.md",
+    "src/people/mr-niuniu/mr-niuniu.md"
+  ],
+  "inputs": "579e578776b7b2a85d9cf36566ae76d82bbb0320c0049c0dd7bb2344653db8a4",
+  "level": 1
+}

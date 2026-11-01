@@ -1,0 +1,75 @@
+{
+  "status": "reviewed",
+  "note": "独立重读正文与材料，重新核对新增Reddit采用边界及既有重事展开",
+  "evidence": [
+    "src/people/lord-maldoror/materials-lord-maldoror.md",
+    "src/people/lord-maldoror/lord-maldoror.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核4251击杀、34损失及战列主导船型，正文写历史协同与选择交战条件；未把2015后仅损失月份说成持续活跃杀敌。 本轮重新核读正文与全部材料，新增Reddit材料不改变统计时段、身份归属和参战归因。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 游戏画像及战役核对"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "宁静服未确认其他主力号，国服个人参战与未知角色ID明确分开；未拿表妹Fu1crum当Lord小号，也未混两服战绩。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 身份及华人交集"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "常用船及2013高峰已读，足以支撑战列协同历史画像；创作与战术联系有官方节目和本人发布帖/访谈，无需为非数字主张再追代表KM。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 游戏画像及战役核对"
+        },
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 战术与作品"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立查现有战役JSON未命中本人ID；国服影片未混入本站TQ战役，正文只写个人交流与直接参加PIBC行动的访谈经历。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 游戏画像及战役核对"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "首块独立红料写战列玩法、少损失的协同体系及战术传播地位，随后再展开华人交流；作品没有覆盖掉基本游戏画像。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/lord-maldoror.md",
+          "contains": "他的宁静服战绩里，漩涡、鹏鲲和海军灾难占了很大分量"
+        },
+        {
+          "file": "src/people/lord-maldoror/lord-maldoror.md",
+          "contains": "他把这种手艺连同解释它的能力一起做成了名声"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/lord-maldoror/822363613-id.json",
+    "src/people/lord-maldoror/lord-maldoror.md",
+    "src/people/lord-maldoror/materials-lord-maldoror.md"
+  ],
+  "inputs": "947d5f11a045a619b1c5230fa88c00efd1b805320de383e452b29617b77e94ce",
+  "level": 1
+}

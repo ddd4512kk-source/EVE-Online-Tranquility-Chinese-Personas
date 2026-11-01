@@ -25,3 +25,9 @@
 ## 外文原话原文（2026-10-24 正文译中留档）
 
 - AT19 冠军复盘原句：successfully recruiting current FRT members like DarKdeZ Ever, coppercn, Kalek Astroth, and jimzzz
+
+## 凛冬固定清单核读补充（2026-10-30）
+
+- [主题23843](https://forums.winterco.org/t/topic/23843)：coppercn维护Havoc卫队总览显示，平衡蓝加、红减、宣战与卫队关系，2024-01又改底色减少误伤。
+
+帖子正文及可见回复已核；作品、技术细目与图像阅读边界见[逐帖处置表](../../../docs/sources/winterco-communications.tsv)。新补情节采用作者自述与回帖各自归因，不据教程标题推定指挥战果。

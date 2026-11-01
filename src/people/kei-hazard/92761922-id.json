@@ -63,7 +63,22 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2113376998,
+        "name": "Kei Taigafan",
+        "sources": [
+          "materials-kei-hazard.md"
+        ],
+        "zkb": {
+          "kills": 198,
+          "lost": 53,
+          "isk_destroyed": 308439258262,
+          "last_active": "2020-08",
+          "as_of": "2026-11-01"
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 1621,
@@ -75,10 +90,15 @@
   },
   "person": {
     "cn_name": "Kei",
-    "aliases": [],
-    "epithet": "联盟赛的中文解说，FRT 的配置课代表。",
+    "aliases": [
+      "毒蝎",
+      "K sama",
+      "kei酱"
+    ],
+    "epithet": "解说了十年联盟赛，顺手教 FRT 怎么问配置。",
     "tags": [
-      "00区"
+      "00区",
+      "B站"
     ]
   }
 }

@@ -47,7 +47,7 @@ Jason Yusi不凭“青春”并到叶落sk mmmm，名字和军团不同，缺同
 
 已取得并核读四团九月各前100名、四团Monitor榜、PLA十月前100名，抽读9个角色的ESI，核读两张新候选代表KM。新Monitor自然人方向为赤翼、TC，尚缺独立社区故事与常用名号。其他DC／Goons军团仍未读，400行名字不等于400人调查完成；首轮先查线索；后续已按具体Monitor事件立赤翼、TC短传，社区故事继续补。
 
-可复用读取工具为 `scripts/research/chrome-read.mjs`：WSL通过Windows Node连接系统Chrome，提取正文、表格、角色ID和击杀链接；浏览器导航仍计预算，不重置HTTP停止记录。
+可复用读取工具为 `scripts/research/chrome-read.mjs`：在 Windows 本机用 Node 连接系统 Chrome，提取正文、表格、角色ID和击杀链接；浏览器导航仍计预算，不重置HTTP停止记录。
 
 ## 前20固定续查队列
 

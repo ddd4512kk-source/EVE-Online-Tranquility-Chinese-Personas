@@ -1,0 +1,145 @@
+{
+  "status": "reviewed",
+  "note": "四号stats、代表KM与已收录战役已对照正文",
+  "evidence": [
+    "src/people/sitixiya/materials-sitixiya.md",
+    "src/people/sitixiya/sitixiya.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读四号zKB stats总览：主号两万五击杀、常规舰队船为主，副号唤风/净化/泽尼塔；正文战绩红料与之相符",
+      "evidence": [
+        {
+          "file": "src/people/sitixiya/materials-sitixiya.md",
+          "heading": "## zKB 总览（2026-11-01）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "四个siti号同头衔同军团联盟，按小号合并；名字扫描与共现统计未发现其他同人号；LP仓库号只在素材备案",
+      "evidence": [
+        {
+          "file": "src/people/sitixiya/materials-sitixiya.md",
+          "heading": "## 身份与小号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核代表KM：星城四勒维亚坦、归魂者最后一击、图尔鲁尔三势力无畏、艾蒂斯四伊什塔",
+      "evidence": [
+        {
+          "file": "src/people/sitixiya/materials-sitixiya.md",
+          "heading": "## 代表 KM"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已收录26场战役由页面互链；欧塔萨塞、图尔鲁尔、艾蒂斯三场在正文按本人角色展开",
+      "evidence": [
+        {
+          "file": "src/people/sitixiya/materials-sitixiya.md",
+          "contains": "本站已收录战役：主号 26 场"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后紧跟独立战绩红料“一人一个小队”，星城与归魂者各成料块，评语收束多开主线",
+      "evidence": [
+        {
+          "file": "src/people/sitixiya/sitixiya.md",
+          "contains": "四个号加起来三万一千多个"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/sitixiya/2115264327-id.json",
+    "src/people/sitixiya/materials-sitixiya.md",
+    "src/people/sitixiya/sitixiya.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/p3en-e-2025/p3en-e-2025.json",
+    "src/battles/p3en-e-2025/p3en-e-2025.md",
+    "src/battles/p3en-e-2025/materials-p3en-e-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "208cb6bf68809d1b998591d90d682ea33605ae0bc81d3ff15572e022697aa5c1",
+  "level": 1
+}

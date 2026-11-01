@@ -1,0 +1,71 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "evidence": [
+    "src/people/mr-niuniu/materials-mr-niuniu.md",
+    "src/people/mr-niuniu/mr-niuniu.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：745参与击杀、约358B，损失63、约9.6B；缪宁为主、46DP-O居首，2017-12至2022-01，正文写FRT远程大队成员与该时期相符，不把参与总值写成个人战果。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空；GECL登记CEO号按公号处理，素材明确不并为本人小号，贴吧Cherry小牛按同根同团合并为本人账号。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "泰坦只按头衔写，不指具体KM；正文无需核具体月份或代表KM的战果判断。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "军团98537981出现在三十余场，本人角色不在任何pilots；正文只写银河的名字挂在战报里，未认本人参战或指挥。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/materials-mr-niuniu.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后首块为独立战绩红料，综合常用船、主活动星系、时期与船越开越大，46DP-O与后文星城风水岭呼应，不是战报目录。",
+      "evidence": [
+        {
+          "file": "src/people/mr-niuniu/mr-niuniu.md",
+          "contains": "小牛这个号七百多次参与击杀"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mr-niuniu/2113483066-id.json",
+    "src/people/mr-niuniu/materials-mr-niuniu.md",
+    "src/people/mr-niuniu/mr-niuniu.md"
+  ],
+  "inputs": "579e578776b7b2a85d9cf36566ae76d82bbb0320c0049c0dd7bb2344653db8a4",
+  "level": 1
+}

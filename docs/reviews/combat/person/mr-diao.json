@@ -1,0 +1,139 @@
+{
+  "status": "reviewed",
+  "note": "独立核主小号stats、代表KM、16场既有战役与综合战绩采用；生成页已通读。",
+  "evidence": [
+    "src/people/mr-diao/materials-mr-diao.md",
+    "src/people/mr-diao/1387156123-id.json",
+    "src/people/mr-diao/mr-diao.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读收录号已存stats：9740击杀、1017损失、20.54T参与击杀；结合强暴分组204货舰/22跳货/298逆戟鲸及大会战记录，可见持续强暴兼联盟大队的长期玩法，正文没有把参与金额认作单人战果。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/1387156123-id.json",
+          "contains": "\"kills\": 9740"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "### 强暴重型运输船统计（2026-10-17 zKB，已入文）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核Not Mrdiao（3337杀、455损、4.62T）和DiaoMoney（536杀、272损、406.6B）已存总览与材料同人依据；强暴KM去重，不相加各号累计，同场旗舰换号均归同一人。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/1387156123-id.json",
+          "contains": "\"kills\": 9740"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "## 2026-10-11：小号补录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "需要核的是强暴规模与旗舰座位，材料已给分组去重、2024高值运输样本、2012榜单与B-R/Lantorn/Atioth等代表KM；本次24783为教程归因，不须新查月份或战果。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "### 2012 Hulkageddon V 排行榜（2026-10-17 补，已入文）"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "## 2026-10-11：1T 大战核对"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "逐项对照现有16场关联：4-H、A1、Ahbazon、Atioth、B-R、H-5、Lantorn、M-MD、MC6、Obe、Otela、Otsasai、Sahtogas、Siseide、SR-KBB、X47。主小号窗口合并；B-R/Obe的手工列名有本人素材KM支持。普通参战不补造指挥或胜负责任。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "## 2026-10-11：1T 大战核对"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "## 2026-10-11：小号补录"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "## 2026-04-25 北方大型战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合战绩块已前移至开篇后，独立展示高安强暴者兼旗舰出勤的玩法，代表B-R和旗舰座位衔接后续教程/强暴反差；新推荐码段未挤掉原骗术与录音主线。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/mr-diao.md",
+          "contains": "叼爷写过运输教程，也干过高安强暴"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/mr-diao/1387156123-id.json",
+    "src/people/mr-diao/materials-mr-diao.md",
+    "src/people/mr-diao/mr-diao.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.json",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.md",
+    "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "22424db6352f5d35a38a4b2b2c8fc1161f96839d00873655f44efe8d918ecf87",
+  "level": 1
+}

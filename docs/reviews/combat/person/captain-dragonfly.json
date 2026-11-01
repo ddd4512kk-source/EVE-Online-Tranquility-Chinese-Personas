@@ -1,0 +1,95 @@
+{
+  "status": "reviewed",
+  "note": "独立核读 stats、身份与五场战役；成稿综合画像和参战边界相符。",
+  "evidence": [
+    "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+    "src/people/captain-dragonfly/2122349490-id.json",
+    "src/people/captain-dragonfly/captain-dragonfly.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "独立核读本地 stats 原响应及素材：1168 次参与击杀、153 次损失，2026 年夏季月记录稀疏而秋季仍有记录；正文只写参与、频率变化和已有战斗经历，不把金额或击杀独算个人战果。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 战斗总览与已有战役"
+        },
+        {
+          "file": "src/people/captain-dragonfly/2122349490-id.json",
+          "contains": "\"kills\": 1168"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "核读身份档案及完整角色头衔简介，当前没有已确认小号；未把光点成员、银色汤勺等他人并入本人。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 角色与任职"
+        },
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 角色简介与任职复核（2026-10-29）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "正文不含需要逐月取 KM 或船型榜支持的特殊玩法、带队身份或单场独占战果判断；stats 总览足以支持稀疏与持续记录的点评，乌特拉参战由已有快照和本人损失支持。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 战斗总览与已有战役"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "逐一核 LJ-YSW、Otela、Lantorn、MC6O-F、Atioth 的单星系快照、窗口／战斗日、br.pilots 与本人损失，均为 NELPC／FRT；生成页五场互链和战役反链齐全，不把参战写成指挥。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 战斗总览与已有战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战绩红料紧接开篇，综合长期随队经历与近期频率变化，乌特拉只作一个有本人记录的拆堡例子，未列五场参战账本或捏造 FC 职责。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+          "contains": "鲨鱼辣椒的[战斗记录]"
+        },
+        {
+          "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+          "contains": "到 2026 年夏天，他个人留下的击杀记录稀疏了"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/captain-dragonfly/2122349490-id.json",
+    "src/people/captain-dragonfly/captain-dragonfly.md",
+    "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md"
+  ],
+  "inputs": "196142944c50562d148c9a8c5bb58663bcbe7ef38075e3eaea9e3584c6d0921c",
+  "level": 1
+}

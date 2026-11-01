@@ -1,5 +1,7 @@
 <a id="greed-jf-cyno"></a>
 
+- 2026-11-01起收录号改为Greed Titan（2116225251），本人名下zKB参与击杀最多（398）；原收录号Greed jf cyno（2114409630，5）改登小号。
+
 ## 龙根 / Greed jf cyno
 
 收录角色：**Greed jf cyno（2114409630）**。已有[列传源文件](greed-jf-cyno.md)。

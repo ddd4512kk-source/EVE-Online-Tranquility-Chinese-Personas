@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "evidence": [
+    "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+    "src/people/huaxia-junyue/huaxia-junyue.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：278参与击杀、约546B，损失26、约2.4B；银鹰、飓风级舰队型、月刃、渎圣为主，PH子榜241，2021-03至2026-09，正文中型舰队到小队收割及PH/DC路线与总览相符。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空；2015国服同名“君越”无账号或军团桥，素材明确不合并。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 贴吧与其他"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "正文无需核具体月份或KM；简介收藏的CCP Bro KM只写为收藏，Lv223监视者KM素材已注明本人当时尚未入团、不记本人参与。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "本人角色在H-PA29、X47L-Q、Sahtogas 2026的pilots，正文只写名字出现在正式战报里，不认指挥；军团其他场次未归本人。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后首块为独立战绩红料，综合常用船、星系、联盟子榜与阵营路线，并以简介收藏收束；评语回扣“五千多亿只赔二十几条船”。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+          "contains": "君越这个号近三百次参与击杀"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/huaxia-junyue/2113387808-id.json",
+    "src/people/huaxia-junyue/huaxia-junyue.md",
+    "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "8d96dd660d6446c0998b5442cdbfdb1f2be55b71ee94417bdb3aac1669eea93d",
+  "level": 1
+}

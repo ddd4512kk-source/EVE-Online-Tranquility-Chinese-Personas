@@ -4,6 +4,21 @@
 
 原帖与资料入口：[EveWho](https://evewho.com/character/1687651723) · [zKillboard](https://zkillboard.com/character/1687651723/)
 
+## Reddit 查询与采用边界
+
+- 2026-11-01 Playwright Chrome 搜索 r/Eve、`"Asher Elias"`、相关度／全部时间。首批有辱骂式指控标题、FC 排名梗、节目／访谈、经营理念及被围帖；未读的标题不作事实。本次读下帖正文和前 25 个评论节点中的展开内容，未逐层展开所有回复。
+- [Goonswarm vs Horde, according to Asher Elias: Focus on members, not the alliance, 1ovkqnz](https://www.reddit.com/r/Eve/comments/1ovkqnz/goonswarm_vs_horde_according_to_asher_elias_focus/)，TheGerDner，2025-11-12 UTC：发帖者引用标为 2025-03-22 炉边谈话的文字，归纳让成员富与让联盟富的差别，再借 PH 崩盘替 Asher 作预言式宣传。proton-testiq、Sapphirederivative 等回帖指出 PH 成员也有入侵、刷怪、采矿等致富机会，问题不能简化为谁不让成员赚钱。本轮未核炉边原始音频／转录，故不把帖内摘引作为新精确原话，也不把崩盘归因写成定论。
+- [Blue 2018 退游帖 9gdjjc](https://www.reddit.com/r/Eve/comments/9gdjjc/the_long_road_leads_tothe_dumpster/)另读到 Eve_Asher 问是否最大带走实物的联盟盗取、顺便求购 Whiptail；是对 Blue 旧事的旁观插话，不单列 Asher 黑料、不据此新增账号身份映射。
+- 1ovkqnz 只得到阵营宣传及反驳，不足以独立成块；未读主题与折叠评论仍留覆盖边界。另见下节已取得的 2024 年本人公开信，不把上述一帖的排除推广为 Reddit 没有可补写内容。
+
+### 2024 年公开信原帖与开发商回应
+
+- [Imperium open letter to CCP, 1e3h175](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/)，Eve_Asher，2024-07-15 UTC，2026-11-01 Chrome 已读正文、前 45 个评论节点展开部分及相关署名回复，未展开所有分支。正文署名 Asher Elias／代表 Imperium，与旧中文转载及身份对应。
+- 本人认为 Equinox 对“广占地”与“集中经营”目标不清：新设施弱化可用空间会逼大集团扩张，挤走新人；更小矿石增添点击苦活、旗舰难补导致不敢打，联盟带故事需要能负担损失。上述为他的平衡观点，不作为经验证的经济定律；文中 HED-GP 历史数量无需在此新造战役归因。
+- Gobbins- 代表 PH 支持并点名 Metenox、skyhooks、anoms 带 bug 上线，讽刺关测试服后让付费玩家 live beta test（[ld7x2v8](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ld7x2v8/)）；TurbulenceZERO 自报 Noraus、代表 Fraternity 支持创造玩家故事（[ld8z0lu](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ld8z0lu/)）；DarkShinesInit 赞同，回顾过去操心留住 20 条 Rorqual、如今操心维持资源（[ld887f3](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ld887f3/)）。三人身份与旧中文转载／原帖置顶指引／所代表联盟吻合，不仅靠昵称猜本人。
+- CCP_Arcade 的[ldbgbee](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ldbgbee/)承认关注此帖及其他 Equinox 反馈，正内部及与 CSM 商量，期望一周内正式沟通；不是已经答应经济数值调整，也没有核后续一周兑现结果。Asher 回复感谢，DarkShinesInit 同样致谢。
+- 已扩写现有公开信红料，加入实际诉求、帝国指挥的角色压力、敌对领袖合作和 CCP 回应。未复用同帖其他人的私人信息，不把联署解释为改蓝加或正式军事停火。
+
 ## 检索记录（2026-10-09）
 
 - **游戏数据画像**：`profile.mjs 1687651723`。建号 2009-02-12；2009-04 至 2013-03 Unforgiven Legion；2013-03-09 起 GoonWaffe（Goonswarm Federation）至今。击杀 30184（30970B），单杀 196，常用 Monitor、Legion、Eagle；击杀最高月 2014-01（B-R5RB）、2025-11（PH 崩盘）。头衔与简介为一串梗（Black Legion Spy、山羊、别人骂 Goons 的聊天记录、自己的 Jackdaw 损失 KM）。

@@ -1,0 +1,89 @@
+{
+  "status": "reviewed",
+  "note": "独立核正文与全部材料，确认FC直接自述及战绩和参战边界",
+  "evidence": [
+    "src/people/bluemelon/materials-bluemelon.md",
+    "src/people/bluemelon/bluemelon.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "zKB stats 总览、年度节奏、常用船与星系已入素材；正文按量级写成低安海盗画像与复出节奏，不念账本。 本轮重新核读正文与全部材料，新增Reddit材料不改变统计时段、身份归属和参战归因。 2018本人明确自述FC及赛队队长，FC标签有直接依据，不因Monitor出场为零而否定。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "蓝瓜这十几年"
+        },
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "## 身份"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案无已确认小号；论坛账号与角色同名，未见可并号角色。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "## 身份"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "topIsk KM 已读：Rahne 游轮、D哥哥提亚玛特、胖虎巨蟒写入正文，其余留素材。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "### 代表 KM（topIskKillIDs，ESI 已读）"
+        },
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "EVE NT Rahne"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "艾格玛尔归熊猫深水方、兰多恩归 Snuff 方，与素材时间线和战役 JSON 分方一致，正文互链。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "### 本站战役"
+        },
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "一年三面旗"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩红料紧接开篇，写低安小团、海盗船型、Rahne 游轮一战与五年停打后复出；数字为量级，细数留素材。 正文明确区分赛队指挥、小队作战与买卖，受害故事未替代游戏画像。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "Amamake 收过路费"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/bluemelon/889732885-id.json",
+    "src/people/bluemelon/bluemelon.md",
+    "src/people/bluemelon/materials-bluemelon.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md"
+  ],
+  "inputs": "04972a053899f54b7beafe32341d1ffc77d462674b866dbc3fda45818094414e",
+  "level": 1
+}

@@ -1,5 +1,7 @@
 <a id="tang-yuan"></a>
 
+- 2026-11-01起收录号改为Silver Magician（2117571969），本人名下zKB参与击杀最多（3042）；原收录号Tang Yuan（2117147972，89）改登小号。
+
 ## 汤圆 / Tang Yuan
 
 收录角色：**Tang Yuan（2117147972）**。已有[列传源文件](tang-yuan.md)。

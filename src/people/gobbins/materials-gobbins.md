@@ -4,6 +4,18 @@
 
 原帖与资料入口：[EveWho](https://evewho.com/character/342545170) · [zKillboard](https://zkillboard.com/character/342545170/)
 
+## Reddit 查询与采用边界
+
+- 2026-11-01 Playwright Chrome 搜索 r/Eve、`Gobbins`、相关度／全部时间，首批集中于 PH 崩盘、采访标题、配装梗及后续指控。只读搜索标题的帖不作事实；本次读下帖正文及前 25 个评论节点中展开内容，未逐层展开所有分支／账号史。
+- [Gobbins is a coward., 1omfitn](https://www.reddit.com/r/Eve/comments/1omfitn/gobbins_is_a_coward/)，FuckfaceMcPewBastard，2025-11-02 UTC：发帖者指责把集结地移走、破坏无人机区附近日常战斗，使用钱包论归因。评论既有建议退团去小团，也有指大集团回购和工业利益、反驳回购是便利并用于基建／补损，以及把移动解释为双方继续刷钱。属于情绪与经营分歧，不能只因标题就写 Gobbins 怯战、联盟骗局或私人获利定论。
+- 这条讨论没有读到 Gobbins 本人回应或新具体命令原件，未独立扩黑料；正文已有迁移／崩盘等具体主线的材料继续保留。若补迁移决策应找原动员／通知，不以跟帖替代事件链；其余搜索主题未读。
+
+### 2024 年公开信：本人补充 bug 与测试服问题
+
+- [Imperium open letter to CCP, 1e3h175](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/)，2024-07-15 UTC，2026-11-01 Chrome 已读原帖、前 45 个评论节点展开内容、相关署名与 CCP 回复。Gobbins- 在[ld7x2v8](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ld7x2v8/)明确代表 Pandemic Horde 支持，并补充 Metenox、skyhooks、anoms 的 bug 压过平衡争论，关测试服后让客户 live beta test。与原帖置顶署名指引、已存中文联署转帖及角色一致，作为本人公开发言采用。
+- Noraus 代表 FRT 支持、DarkShinesInit 附议，CCP_Arcade 在[ldbgbee](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ldbgbee/)承认正讨论、计划进一步沟通。Bjtflame 等评论以能让 Goons／Horde 同意同一件事反讽开发商。明确只说得到回应，不写 CCP 已照办或现实测试政策违规。
+- 原“杂料”中一句联署信息移入完整红料“停火三分钟，先把 bug 骂完”，突出本人提出的产品／管理问题和敌对头领同场，题目的“停火”是叙事比喻，不指游戏内军事停火。公开信更完整上下文见[Asher 素材](../asher-elias/materials-asher-elias.md)。这不是用附议头衔凑重料，而是展开本人具体观点、管理压力及开发商反应。
+
 ## 检索记录（2026-10-09）
 
 - **游戏数据画像**：`profile.mjs 342545170`。建号 2006-12-17；2008–2015 多段 Pandemic Legion（North Eastern Swat、Sniggerdly）；2015-04-05 起 Pandemic Horde，至今仍挂 Pandemic Horde Hld. / Pandemic Horde。头衔 Pandemic Horde Alliance Leader；简介末句自称 Admiral “muh medals” Goberius 的小号，是玩笑，不作真实身份关系；联系 Discord gobbins1。击杀 1341（561.9B），常用 Arazu、Cheetah；2011-09 有一串一日游军团记录（大概是间谍/刷号，未写入）。

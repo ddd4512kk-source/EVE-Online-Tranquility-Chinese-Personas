@@ -1,14 +1,15 @@
 {
   "status": "reviewed",
-  "note": "对照本人素材、战斗画像与正文核查。",
+  "note": "独立复核现稿与已存画像及七场参战归因",
   "evidence": [
     "src/people/drone-wang/materials-drone-wang.md",
-    "src/people/drone-wang/drone-wang.md"
+    "src/people/drone-wang/drone-wang.md",
+    "src/people/drone-wang/2112538533-id.json"
   ],
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "主号综合画像、常用舰船及监视者指挥依据已核。",
+      "note": "复核已存2026年10月主号stats：6166次参与击杀、长期指挥及银鹰/拉克希斯/休津岗位，与现稿长期带队和实际舰队工作画像相符；本次未联网刷新统计。",
       "evidence": [
         {
           "file": "src/people/drone-wang/materials-drone-wang.md",
@@ -18,27 +19,39 @@
     },
     "alts": {
       "status": "reviewed",
-      "note": "已核Charon1与Drone Assist Wang主力画像及封号后边界，数据不合计。",
+      "note": "正式身份档案将charon1与Drone Assist Wang归为本人；核已存主力小号stats及常用船，现稿已改正将Drone Assist Wang写成同行者的歧义，以自然人串联指挥、火力和后勤，不相加多号战果。",
       "evidence": [
+        {
+          "file": "src/people/drone-wang/2112538533-id.json",
+          "contains": "Drone Assist Wang"
+        },
         {
           "file": "src/people/drone-wang/materials-drone-wang.md",
           "heading": "## 综合战斗画像与代表KM（2026-10-28）"
+        },
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "他另一个号Drone Assist Wang"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "核主号2021年8月与Charon1 2026年8月高值月份，分别取得并核对代表星城KM。",
+      "note": "现稿保留的两场指挥代表记录为QC-YX6的2021-08-11星城KM94451902与B6-XE8的2026-08-26星城KM138004024；核归档时间、系统、攻击者规模与驾驶岗位，正文写本人在队伍里指挥，不认总指挥或个人独占建筑战果。",
       "evidence": [
         {
           "file": "src/people/drone-wang/materials-drone-wang.md",
           "heading": "## 综合战斗画像与代表KM（2026-10-28）"
+        },
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "2021年8月，QC-YX6的"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "核七场关联的角色归属；正文以两张单独核对的指挥KM展开。",
+      "note": "对照正式card及七场本地战报pilots：Drone Wang在Y-2ANO/FWST-8/319-3D，charon1在X47/TN25-J/T8T-RA，Drone Assist Wang在1-SMEB。宽窗口记录只说明参战，不据此给每场添加指挥；正文以两条单独核过的KM展现指挥跨度，其余不逐场记账。",
       "evidence": [
         {
           "file": "src/people/drone-wang/materials-drone-wang.md",
@@ -48,11 +61,15 @@
     },
     "narrative": {
       "status": "reviewed",
-      "note": "综合带队经历与两张间隔五年的KM放在开篇后，原有教程、RMT争议与联盟管理故事保留。",
+      "note": "开篇之后独立战绩红料以长期指挥、岗位跨度及两场相隔五年的大型建筑战刻画本人；后面建盟、教学、SARD出走和牧星流失说明成员何以对其带队抱期待。没有把船型或Monitor计数当正文论证，也没有把舰队战果独归本人。",
       "evidence": [
         {
           "file": "src/people/drone-wang/drone-wang.md",
-          "contains": "王答答给RR立规矩，也常年站在舰队前面带队"
+          "contains": "王答答在RR干过盟主，也一直干着指挥的活"
+        },
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "这也让他后来的骂名格外扎人"
         }
       ]
     }
@@ -86,6 +103,6 @@
     "src/battles/y-2ano-2020/y-2ano-2020.md",
     "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
   ],
-  "inputs": "607dc6e38084f30a9d000eafbf9bc7edb175924443cea26aec465528c311c697",
+  "inputs": "d08213b7c8e05dac10c98463abdfb68e3dd63dccf008cc471058d115adac920a",
   "level": 1
 }

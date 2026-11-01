@@ -1,0 +1,212 @@
+{
+  "status": "reviewed",
+  "note": "独立核读冠军关键红料三方向与新增唤风教程，保留原主线及争执，生成页通过。",
+  "evidence": [
+    "src/people/garveen-airuta/materials-garveen-airuta.md",
+    "src/people/garveen-airuta/2114279817-id.json",
+    "src/people/garveen-airuta/garveen-airuta.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与本人材料，冠军、FC/IT/申诉职责、代表战斗、两则申诉与简介邀请均保留；新24387读全文可见回复，身份沿精确ID。候选小号和未核职责没有升级入文。",
+      "evidence": [
+        {
+          "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+          "heading": "## AT19冠军与职责边界"
+        },
+        {
+          "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        },
+        {
+          "file": "src/people/garveen-airuta/2114279817-id.json",
+          "contains": "\"identity\": {"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重要冠军红料逐方向验收；教程与申诉按普通事件审，不将头衔、KB或孤立回复抬成重事。",
+      "evidence": [
+        {
+          "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+          "heading": "## AT19冠军与职责边界"
+        },
+        {
+          "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT19冠军队员与日常职责",
+          "weight": "heavy",
+          "reason": "联盟锦标赛冠军是本人唯一头衔和关键公众身份，重要红料须充分展开。",
+          "note": "招入ST前队友、团队冠军与只留一行头衔串联，回到IT/申诉/防火墙的日常职责；不补未核上场局数或将队员写成队长。",
+          "source": {
+            "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+            "heading": "## AT19冠军与职责边界"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/garveen-airuta/garveen-airuta.md",
+            "contains": "据 FRT 联赛队长[黑莲]"
+          },
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "春季队长杯后作为ST前队友被招入FRT队伍，明确为队员位置。",
+              "evidence": {
+                "file": "src/people/garveen-airuta/garveen-airuta.md",
+                "contains": "据 FRT 联赛队长[黑莲]"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "团队夺冠、官方名单与本人唯一头衔形成冠军身份分量。",
+              "evidence": {
+                "file": "src/people/garveen-airuta/garveen-airuta.md",
+                "contains": "这份履历里，他先以"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "唯一冠军头衔与电脑故障、申诉、防火墙差事相接，荣誉不能替代日常职责。",
+              "evidence": {
+                "file": "src/people/garveen-airuta/garveen-airuta.md",
+                "contains": "头衔写到这里便停了"
+              }
+            }
+          ]
+        },
+        {
+          "title": "唤风教材与多面手职责",
+          "weight": "ordinary",
+          "reason": "持续帮助成员的作者贡献，未见新冲突或严重后果。",
+          "note": "新教程从建号到切窗及回帖五坑讨论并入原管理/FC画像；未将教程认定违规。",
+          "source": {
+            "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+            "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/garveen-airuta/garveen-airuta.md",
+            "contains": "2024 年 7 月，他又写了"
+          }
+        },
+        {
+          "title": "双线作战与工位复盘",
+          "weight": "ordinary",
+          "reason": "已有本人署名的详细战后总结，体现职责但不另加集体战果。",
+          "note": "双线调度、巴盖斯找出口与工位落款都有推进，保留原料。",
+          "source": {
+            "file": "src/people/garveen-airuta/materials-garveen-airuta.md",
+            "heading": "## 对舞战争连载中的本人署名发言"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/garveen-airuta/garveen-airuta.md",
+            "contains": "2026 年 2 月 7 日"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "正文以多面手FC/冠军为主线，战绩独立在前；新唤风段融入管理和教学，未盖过冠军与已有公开争执。",
+      "evidence": [
+        {
+          "file": "src/people/garveen-airuta/garveen-airuta.md",
+          "contains": "慕容的 KB 是 FRT 里最耐翻的一本："
+        },
+        {
+          "file": "src/people/garveen-airuta/garveen-airuta.md",
+          "contains": "据 FRT 联赛队长[黑莲]"
+        },
+        {
+          "file": "src/people/garveen-airuta/garveen-airuta.md",
+          "contains": "慕容是 FRT 的多面手"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "src/people/garveen-airuta/2114279817-id.json",
+    "src/people/garveen-airuta/garveen-airuta.md",
+    "src/people/garveen-airuta/materials-garveen-airuta.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "d54c5225d83ec4287bf650debd4b6a1f5e917c1b65bfe2d3b8839f90163ad6b0",
+  "level": 1
+}

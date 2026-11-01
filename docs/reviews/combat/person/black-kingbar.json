@@ -1,0 +1,87 @@
+{
+  "status": "reviewed",
+  "note": "改收Falkia后按现稿重核五项；首月击杀改为“转进黑皇杖那个月”，与月份记录相符",
+  "evidence": [
+    "src/people/black-kingbar/black-kingbar.md",
+    "src/people/black-kingbar/materials-black-kingbar.md",
+    "src/people/black-kingbar/736339179-id.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "团长号stats总览：击杀0、损失47、约0.27B；小号组总览已入素材（Falkia 3278杀约1.21T、BKB子榜2779，其余各号数百条，合计约六七千含重复）。正文开篇与战绩块按此量级写，相符。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "14个「BKB-长门」号登记于identity.alts并附zkb；Falkia为主力战斗号，正文领头写Falkia；pembs等老号进团前击杀明确不归本人，正文同此口径。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/736339179-id.json",
+          "contains": "\"name\": \"Falkia\""
+        },
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "contains": "小号组zKB stats"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "Falkia月份峰值（2019-05 175、2020-12 349、2021-01 241、2025-07 195、2026-01 214）与星系（319-3D、T8T-RA、1-SMEB）已读，正文数字与之一致；T8T-RA 14条渎圣与6舱按战报losses核对，KM序首BKB27、Falkia，末Kewer，约3.8B。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "contains": "小号组zKB stats"
+        },
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "contains": "t8t-ra-2026（2026-05-02）pilots含全部14个"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "关联战役仅t8t-ra-2026，14号均为pilot与loss，WINGS一侧；正文作代表战写，阵营与总账两万多亿与战役页相符；军团其余7场本人各号不在pilots，正文只写军团名挂进战报。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "src/people/black-kingbar/black-kingbar.md",
+          "contains": "T8T-RA 那一仗最能看出这支小队的样子"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "紧接开篇有独立战绩红料块，综合写小号组规模、Falkia资历、活跃周期与主要星系，再展开T8T-RA一场为代表；未逐场记账，评语呼应多开小队。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/black-kingbar.md",
+          "contains": "黑皇杖的击杀榜，前几十名里有十四个号"
+        },
+        {
+          "file": "src/people/black-kingbar/black-kingbar.md",
+          "contains": "十四个“长门”替他打了几千条击杀"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/black-kingbar/736339179-id.json",
+    "src/people/black-kingbar/black-kingbar.md",
+    "src/people/black-kingbar/materials-black-kingbar.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "bced52e5b37e2c4ed6a8df052314fc005fe847e5447492b137bae1ce9af8a285",
+  "level": 1
+}

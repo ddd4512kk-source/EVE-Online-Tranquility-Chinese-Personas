@@ -1,0 +1,374 @@
+{
+  "status": "reviewed",
+  "note": "独立通读两新增块、原八块与生成页，受害归红料、本人卷走赛船归黑料，重事展开充分",
+  "evidence": [
+    "src/people/bluemelon/materials-bluemelon.md",
+    "src/people/bluemelon/bluemelon.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整复核原有八块、新增两块及全部材料；2017借船案、2025泰坦受害、2018十八条赛船盗取与巨蟒长信均已采用，FC身份有本人直接表述。已读范围和仍未展开评论、视频明确分开。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "## 覆盖缺口"
+        },
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "蓝瓜，游戏名 Bluemelon"
+        },
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "## Reddit：借船、赛队资产与巨蟒争议"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核对五件重事、普通事件及轻量背书：受害与回应归红料，本人卷走赛队资产归黑料，保留原八块及巨蟒主线。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "三层楼，一个字没有"
+        },
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "heading": "## Reddit：借船、赛队资产与巨蟒争议"
+        }
+      ],
+      "items": [
+        {
+          "title": "乌鸦级政府型挂卖一年半",
+          "weight": "heavy",
+          "reason": "多年公开挂卖、HyperNet 抽奖流产并被媒体点名，论坛多年后仍拿来调侃",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## 赛船（AT 船）收藏与买卖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "乌鸦级政府型是 AT 奖励船"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代赛船来历、3.5T 传闻与 Zahara 澄清",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "3.5 万亿"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "“价格请勿评论”与没完没了顶帖、只剩 covid 一词",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "顶帖只剩一个词"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "抽奖 317 张未售、HyperCore 烧掉、押金安息与五年后的感慨",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "押金安息"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "成交与否、押金归属未核，正文不下结论。"
+        },
+        {
+          "title": "先求购巨蟒再请胖虎吃饭",
+          "weight": "heavy",
+          "reason": "诱导围杀 1.25T 巨蟒，三天前本人公开求购，华人圈流传",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## 巨蟒：WTB、围杀与一年后的嘲笑"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "发了一帖 WTB Python"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "WTB Python 帖与三天后的邀约并置",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "正文只有一句"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "请吃饭与当菜，买不到就请过来吃",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "买不到，就请过来吃"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "1.25T、27 人、本人亲自上桌",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "蓝瓜亲自上桌"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "囤巨蟒传闻与本人客气否认、次年仍收巨蟒",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "尽管卖吧先生"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "与胖虎列传同一事件，本篇从邀约者一侧写。 胖虎长信的买船、军团分裂咨询和信任经过已展开；带Snuff标识评论者的客户/朋友之争未冒充正式立场。"
+        },
+        {
+          "title": "三张大笑动图",
+          "weight": "heavy",
+          "reason": "一年后在受害者小号求购帖连发嘲笑，路人当面指责背信",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## 巨蟒：WTB、围杀与一年后的嘲笑"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "三层楼，一个字没有"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "胖虎小号求购赛船与巨蟒",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "在官方论坛发帖求购赛船"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "一字不写、笑声逐层加码",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "笑声一层比一层大"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "背叛信任的指责、小号只贴 Reddit 链接",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "背叛别人的信任"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "三次动图、求购者顶帖、路人谴责及胖虎贴旧事形成完整后续；相关Reddit原帖现已补读，未虚称完整视频视听评价。"
+        },
+        {
+          "title": "尾刀D哥哥提亚玛特与一年三面旗",
+          "weight": "ordinary",
+          "reason": "正常战斗与换联盟，不算黑料",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "### 本站战役"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "蓝瓜和华人战场的交集"
+          },
+          "note": "写成交集时间线红料。"
+        },
+        {
+          "title": "赛船二道贩子",
+          "weight": "ordinary",
+          "reason": "长期公开买卖赛船超旗，行情被引作基准",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## 赛船（AT 船）收藏与买卖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "卖乌鸦只是开头"
+          },
+          "note": "Somer 帝国末日、Moracha 澄清、PH 崩盘收泰坦并入画像。"
+        },
+        {
+          "title": "你玩错了",
+          "weight": "ordinary",
+          "reason": "对诉苦玩家的傲慢回帖",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "contains": "你玩错了"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "让你联盟教你怎么正经赚钱"
+          },
+          "note": "写成独立小故事，结合其守门海盗身份。"
+        },
+        {
+          "title": "CSM 背书",
+          "weight": "light",
+          "reason": "两句拉票客套",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "contains": "CSM 20 支持帖"
+          },
+          "treatment": "omitted",
+          "note": "留素材。"
+        },
+        {
+          "title": "2017朋友借船被盗与蓝瓜回应",
+          "weight": "ordinary",
+          "reason": "300B盗船由别人实施，蓝瓜回应体现圈内信任，不应转嫁黑料。",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## Reddit：借船、赛队资产与巨蟒争议"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "2017 年，Amamake Police"
+          },
+          "note": "写出互借、补船表态及不认同偷朋友的理由，未写成实际已经赔付。",
+          "development": []
+        },
+        {
+          "title": "2025老友退游炸掉其两条势力泰坦",
+          "weight": "heavy",
+          "reason": "两条稀有泰坦和朋友同时失去，公开回应影响人物信任主线。",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## Reddit：借船、赛队资产与巨蟒争议"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "八年后，蓝瓜自己也坐到了收坏消息的位置"
+          },
+          "note": "借号机制、醒来噩耗、克制回应及补藏品收尾充分展开；红料落在回应上。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "跨时区共享泰坦号开桥，交代信任基础。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "ISRAD 的 CEO、老朋友 somnolence"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "朋友退游的烟花由另一人的机库承担。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "这个退游仪式用的是朋友的两条势力泰坦"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "不迁怒参与者或自由港客人。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "蓝瓜次日没有追着击杀名单算账"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "失友之痛后又公开求购补收藏，性格落地。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "Azariel 已补好，谁有 Molok 卖"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "2018卷走十八条AT船结算七年旧账",
+          "weight": "heavy",
+          "reason": "本人自认卷走约五万亿赛队资产，用早年丢泰坦解释自己，直接触及朋友信任。",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "heading": "## Reddit：借船、赛队资产与巨蟒争议"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bluemelon/bluemelon.md",
+            "contains": "2018 年 9 月，他发了一篇退游长文"
+          },
+          "note": "旧怨、和解、取得队长信任、临时起意和2025旧文回敬完整展开；未写成七年卧底或星城已经被拆。",
+          "development": [
+            {
+              "angle": "动机",
+              "note": "从入PL被骗泰坦讲起，保持本人叙事归属。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "先交了一条泰坦的入场费"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "与旧敌和解并做队长后，再从机库结账。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "故事走到这里，本来很适合拍成一部与宿敌和解的宣传片"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "十八条船和五万亿明确交代。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "十八条 AT 船，约五万亿，留下"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "2025失友说明下被贴回旧账，前后照应。",
+              "evidence": {
+                "file": "src/people/bluemelon/bluemelon.md",
+                "contains": "评论区便有人把他当年的告别词整段贴回来"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇、黑料与评语都落在巨蟒饭局与赛船生意，战绩红料作陪衬。 新增受害与自身盗取的前后反差有公开来源；没有把预想星城被拆当事实，也不把被盗本身当黑料。",
+      "evidence": [
+        {
+          "file": "src/people/bluemelon/bluemelon.md",
+          "contains": "不是买到，就是吃到"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/bluemelon/889732885-id.json",
+    "src/people/bluemelon/bluemelon.md",
+    "src/people/bluemelon/materials-bluemelon.md",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.json",
+    "src/battles/egmar-2025-02-02/egmar-2025-02-02.md",
+    "src/battles/egmar-2025-02-02/materials-egmar-2025-02-02.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md"
+  ],
+  "inputs": "04972a053899f54b7beafe32341d1ffc77d462674b866dbc3fda45818094414e",
+  "level": 1
+}

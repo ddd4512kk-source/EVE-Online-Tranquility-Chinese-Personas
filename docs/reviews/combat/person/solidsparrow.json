@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "核统一档案、无小号/战役命中及首块综合画像；专栏战例不抬为大战",
+  "evidence": [
+    "src/people/solidsparrow/materials-solidsparrow.md",
+    "src/people/solidsparrow/2118768255-id.json",
+    "src/people/solidsparrow/solidsparrow.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "统一档案总览2569击杀、413损失、约471.8B参与价值，与专栏作者长期散打兼后勤的正文相符；86单杀及洛基/十字军常用船沿既有正文数据。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/2118768255-id.json",
+          "contains": "\"name\": \"SolidSparrow\""
+        },
+        {
+          "file": "src/people/solidsparrow/solidsparrow.md",
+          "contains": "索達的 [KB]"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式identity.alts为空，未以简介黑索達另造角色，没有已确认主力小号需要展开。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/2118768255-id.json",
+          "contains": "\"name\": \"SolidSparrow\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "新补十字军残血、阔刀试配与追逐来自本人教程，不拿单次BR充大战；未作高峰月份或特定高价值KM判断，无需额外逐月追查。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/materials-solidsparrow.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "review card按正式名单反查为0场；21900末BR仅约503M，未达正式战役门槛，不据教程标题虚建战役。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/2118768255-id.json",
+          "contains": "\"name\": \"SolidSparrow\""
+        },
+        {
+          "file": "src/people/solidsparrow/materials-solidsparrow.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合战绩已独立成首块“洛基和十字军”，把实际机库与后勤广告、实测试船合成玩法画像；教学和失败经历留在后续作者故事，不逐场报账。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/solidsparrow.md",
+          "contains": "索達的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/solidsparrow/2118768255-id.json",
+    "src/people/solidsparrow/materials-solidsparrow.md",
+    "src/people/solidsparrow/solidsparrow.md"
+  ],
+  "inputs": "38036d8d4a2af3137fbf53a0abbd57559ffd4399661d9104e5c0bb09b80a24e5",
+  "level": 1
+}

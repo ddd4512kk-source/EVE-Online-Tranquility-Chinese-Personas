@@ -1,0 +1,127 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "evidence": [
+    "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+    "src/people/huaxia-junyue/huaxia-junyue.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：现任CEO依据、军团简介全文（监视者击杀、“那个男人”、踢人、福利与入团流程、英文误译）、联盟与本人雇佣往返、2024 PH招新帖均已入文；国服同名线索不入正文正确。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 身份、任职与收录"
+        },
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 贴吧与其他"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核读，事件均为军团门面与经营层面，无本人重大争议。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ],
+      "noHeavyReason": "素材无本人封号、内讧、骗局或个人争议；监视者击杀发生在本人入团前，属军团门面；公告过期与福利单为军团简介趣味，换盟不算料。",
+      "items": [
+        {
+          "title": "军团简介挂自家总监监视者击杀",
+          "weight": "ordinary",
+          "reason": "军团门面上的名场面，发生于本人入团前，不是本人言行。",
+          "source": {
+            "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+            "contains": "大坝科研的军团简介里，最显眼的"
+          },
+          "note": "KM细节、“那个男人”与踢人流程入文，未把KM记为本人参与。"
+        },
+        {
+          "title": "“已加入DC”公告与PH四年",
+          "weight": "ordinary",
+          "reason": "公告与实际去向的反差，CEO门面问题。",
+          "source": {
+            "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+            "contains": "大坝离开 AOM 是 2022 年 1 月 7 日"
+          },
+          "note": "联盟历史与本人往返时间准确，落点“又准了”。"
+        },
+        {
+          "title": "福利单与英文误译",
+          "weight": "light",
+          "reason": "招新条款趣味。",
+          "source": {
+            "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+            "contains": "大坝的招新条款写得像一份薪酬合同"
+          },
+          "note": "条款、入团流程与误译原文入文。"
+        },
+        {
+          "title": "综合战绩",
+          "weight": "ordinary",
+          "reason": "CEO本人战斗画像。",
+          "source": {
+            "file": "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+            "contains": "君越这个号近三百次参与击杀"
+          },
+          "note": "按量级写。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战绩块与三块军团门面料比例合适，评语把“科研”招牌、过期公告与CEO能打串起；无重料被挤占。",
+      "evidence": [
+        {
+          "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+          "contains": "君越这个号近三百次参与击杀"
+        },
+        {
+          "file": "src/people/huaxia-junyue/huaxia-junyue.md",
+          "contains": "君越接手的这家“科研”军团"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/huaxia-junyue/2113387808-id.json",
+    "src/people/huaxia-junyue/huaxia-junyue.md",
+    "src/people/huaxia-junyue/materials-huaxia-junyue.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "8d96dd660d6446c0998b5442cdbfdb1f2be55b71ee94417bdb3aac1669eea93d",
+  "level": 1
+}

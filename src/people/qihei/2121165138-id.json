@@ -1,0 +1,234 @@
+{
+  "id": 2121165138,
+  "name": "QHei",
+  "birthday": "2023-04-26T17:42:41Z",
+  "corporation_id": 98817310,
+  "affiliation": {
+    "corporation_id": 98817310,
+    "alliance_id": 99009163,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "start": "2023-04-26T17:43:00Z",
+      "end": "2023-04-27T10:50:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "start": "2023-04-27T10:50:00Z",
+      "end": "2023-10-03T11:59:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2023-10-03T11:59:00Z",
+      "end": "2023-10-03T11:59:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "start": "2023-10-03T11:59:00Z",
+      "end": "2023-10-16T16:20:00Z"
+    },
+    {
+      "corporation_id": 98750570,
+      "start": "2023-10-16T16:20:00Z",
+      "end": "2023-10-29T06:18:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "start": "2023-10-29T06:18:00Z",
+      "end": "2024-05-05T12:56:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2024-05-05T12:56:00Z",
+      "end": "2024-05-05T12:57:00Z"
+    },
+    {
+      "corporation_id": 98631475,
+      "start": "2024-05-05T12:57:00Z",
+      "end": "2024-05-11T17:38:00Z"
+    },
+    {
+      "corporation_id": 98535868,
+      "start": "2024-05-11T17:38:00Z",
+      "end": "2024-05-15T14:25:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2024-05-15T14:25:00Z",
+      "end": "2024-05-15T14:25:00Z"
+    },
+    {
+      "corporation_id": 98694557,
+      "start": "2024-05-15T14:25:00Z",
+      "end": "2025-04-28T12:45:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2025-04-28T12:45:00Z",
+      "end": "2025-04-28T12:45:00Z"
+    },
+    {
+      "corporation_id": 98802264,
+      "start": "2025-04-28T12:45:00Z",
+      "end": "2025-11-26T14:22:00Z"
+    },
+    {
+      "corporation_id": 98652614,
+      "start": "2025-11-26T14:22:00Z",
+      "end": "2026-04-09T17:27:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2026-04-09T17:27:00Z",
+      "end": "2026-04-09T17:27:00Z"
+    },
+    {
+      "corporation_id": 98817310,
+      "start": "2026-04-09T17:27:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-01",
+  "person": {
+    "cn_name": "漆黑",
+    "aliases": [
+      "龙王的狱友"
+    ],
+    "epithet": "带队杀进北方，也给敌人指路",
+    "tags": [
+      "00区",
+      "D.C",
+      "著名FC"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2121708576,
+        "name": "qihei",
+        "basis": "原收录号，2026-11-01按本人名下击杀最多改收QHei",
+        "sources": [
+          "materials-qihei.md"
+        ],
+        "zkb": {
+          "kills": 674,
+          "lost": 56,
+          "isk_destroyed": 3182155552439,
+          "last_active": "2026-10",
+          "as_of": "2026-10-23"
+        }
+      },
+      {
+        "id": 2121181299,
+        "name": "QHei2",
+        "basis": "与收录号同词根；2024-05-05、2024-05-12两次与qihei同分钟进同一军团，2025-04-28同日进98802264",
+        "sources": [
+          "materials-qihei.md#alts-2026-11-01"
+        ],
+        "zkb": {
+          "kills": 723,
+          "lost": 296,
+          "isk_destroyed": 687747361809,
+          "last_active": "2026-05",
+          "as_of": "2026-10-31"
+        }
+      },
+      {
+        "id": 2122853080,
+        "name": "I M Taitan",
+        "basis": "2024-11-01建号三分钟后进qihei所在98694557，2025-04-29随qihei转团次日离开",
+        "sources": [
+          "materials-qihei.md#alts-2026-11-01"
+        ],
+        "zkb": {
+          "kills": 4,
+          "lost": 12,
+          "isk_destroyed": 401267352,
+          "last_active": "2026-08",
+          "as_of": "2026-10-31"
+        }
+      }
+    ],
+    "zkb": {
+      "kills": 6236,
+      "lost": 393,
+      "isk_destroyed": 6330693048372,
+      "last_active": "2026-10",
+      "as_of": "2026-10-23"
+    }
+  },
+  "related_snapshots": [
+    {
+      "id": 2121708576,
+      "name": "qihei",
+      "birthday": "2023-10-19T04:06:36Z",
+      "corporation_id": 98817310,
+      "affiliation": {
+        "corporation_id": 98817310,
+        "alliance_id": 99009163,
+        "left_at": null
+      },
+      "history": [
+        {
+          "corporation_id": 1000165,
+          "start": "2023-10-19T04:07:00Z",
+          "end": "2023-11-14T15:20:00Z"
+        },
+        {
+          "corporation_id": 98694557,
+          "start": "2023-11-14T15:20:00Z",
+          "end": "2024-05-05T12:57:00Z"
+        },
+        {
+          "corporation_id": 1000165,
+          "start": "2024-05-05T12:57:00Z",
+          "end": "2024-05-05T12:57:00Z"
+        },
+        {
+          "corporation_id": 98631475,
+          "start": "2024-05-05T12:57:00Z",
+          "end": "2024-05-12T08:17:00Z"
+        },
+        {
+          "corporation_id": 98694557,
+          "start": "2024-05-12T08:17:00Z",
+          "end": "2025-04-28T03:05:00Z"
+        },
+        {
+          "corporation_id": 1000165,
+          "start": "2025-04-28T03:05:00Z",
+          "end": "2025-04-28T12:30:00Z"
+        },
+        {
+          "corporation_id": 98802264,
+          "start": "2025-04-28T12:30:00Z",
+          "end": "2025-11-25T07:42:00Z"
+        },
+        {
+          "corporation_id": 1000165,
+          "start": "2025-11-25T07:42:00Z",
+          "end": "2025-11-25T07:42:00Z"
+        },
+        {
+          "corporation_id": 98652614,
+          "start": "2025-11-25T07:42:00Z",
+          "end": "2026-04-06T07:35:00Z"
+        },
+        {
+          "corporation_id": 1000165,
+          "start": "2026-04-06T07:35:00Z",
+          "end": "2026-04-06T07:35:00Z"
+        },
+        {
+          "corporation_id": 98817310,
+          "start": "2026-04-06T07:35:00Z",
+          "end": null
+        }
+      ],
+      "fetched_at": "2026-10-07"
+    }
+  ]
+}

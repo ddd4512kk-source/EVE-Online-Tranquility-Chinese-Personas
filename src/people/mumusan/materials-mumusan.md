@@ -87,3 +87,5 @@
 ## 执行军团小号对应
 
 2026-10-25读取[Heguy Inventor的ESI名片](https://esi.evetech.net/latest/characters/2115200974/?datasource=tranquility)及现有收录号名片，身份关系登记于本人档案。该号当前在SummerHall（98601548）／Dracarys.（99009163）；职务名牌仅说明本次观察，不倒推历任职务或旧事责任。
+
+- 2026-11-01登记小号：Heguy Industry Fax（2114991971）；ESI公开头衔同为“木木三”，该头衔只见于本号主同组角色；同军团98547771历史榜同组，见[军团榜单核读](../../../docs/corporations/notes/member-research/98547771.md)。

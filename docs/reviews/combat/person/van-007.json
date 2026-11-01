@@ -1,0 +1,88 @@
+{
+  "status": "reviewed",
+  "note": "已核主号及八小号总览、唯一已有战役和独立综合点评，页首锐评已同步；39/8与月份口径已分开",
+  "evidence": [
+    "src/people/van-007/materials-van-007.md",
+    "src/people/van-007/90931436-id.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/people/van-007/van-007.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核素材中的主号stats总览：11997次参与击杀、3268次损失，130个有击杀月份、144个有战斗记录月份，00区及FRT占长期主体。正文以老练战斗玩家解释本地求饶的反差，不将频繁参战写成指挥身份。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 游戏画像与已有战役"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核八个已确认数字号的总览表及本人身份档案：近似命名和共同军团支撑同人，008/009数千次击杀、新号数百至千余次。各号统计不相加，未把同期多号活动推成同步器或每场多开，暂无售号归因冲突。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 游戏画像与已有战役"
+        },
+        {
+          "file": "src/people/van-007/90931436-id.json",
+          "contains": "\"name\": \"van 009\""
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "已核本次故土事件不依赖船型、个人损失或具体指挥归因，总览足以支持综合画像。39张awox参与击杀与8张损失已分开；旧个别记录明示沿用既存摘记，不追加动机或责任判断，无须为本次本地外交补抓逐月及逐张KM。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 游戏画像与已有战役"
+        },
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 打蓝记录及旧文统计校正"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已对照唯一已有正式战役A1-AUH：2021-09-17窗口内快照将van009列为Mogu Heavy Industry/FRT，正文仅写参加旗舰混战，未倒推指挥或个人战果。新图Konola预览不足战役规模，且不强配聊天日期。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 游戏画像与已有战役"
+        },
+        {
+          "file": "src/battles/a1-auh-2021/a1-auh-2021.json",
+          "contains": "\"2113712467\": [98635575,99003581]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "紧接开篇的独立战绩红料已综合00区长期底色、小队及舰队经历、数字小号延续和长期损失，A1仅作代表互链，与后文熟练老手求饶的反差连接；不再用船型排名冒充驾驶次数或念逐场战报。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/van-007.md",
+          "contains": "他的底子在 00 区"
+        },
+        {
+          "file": "src/people/van-007/van-007.md",
+          "contains": "他也不只靠主号出门。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/people/van-007/90931436-id.json",
+    "src/people/van-007/materials-van-007.md",
+    "src/people/van-007/van-007.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "cd69edc88ca2f4120e00a18504261b69b6bab23cb3d173b4090fd0abdda5e234",
+  "level": 1
+}

@@ -1,0 +1,259 @@
+{
+  "status": "reviewed",
+  "note": "独立复核本轮正文与保存材料；范围及后续缺口见逐项判断",
+  "evidence": [
+    "src/people/sort-dragon/materials-sort-dragon.md",
+    "src/people/sort-dragon/sort-dragon.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "独立通读完整正文及本人素材，复核旧判断并补审本轮Reddit采用；保留原主线、综合画像与独立红黑料，排除未听录音及未核身份推断。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## B-R5RB"
+        },
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 2018 停战与 RR 的防守"
+        },
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 2020 RR 离去"
+        },
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## Reddit 查询与采用边界"
+        },
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## Reddit 查询与采用边界"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件重新对照现稿与材料；原重事仍有具体冲突、分量和后果，新采用按本人言行而非泛泛名声判断。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 2020 RR 离去"
+        },
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## Reddit 查询与采用边界"
+        }
+      ],
+      "items": [
+        {
+          "title": "B-R集火中的旗舰协调",
+          "weight": "heavy",
+          "reason": "旗舰决战中本人受集火、全队修理与交换节奏体现指挥地位。",
+          "source": {
+            "file": "src/people/sort-dragon/materials-sort-dragon.md",
+            "heading": "## B-R5RB"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sort-dragon/sort-dragon.md",
+            "contains": "B-R5RB 把这份角色放大到了极端"
+          },
+          "note": "开篇战绩红料中展开受集火压力与团队维持指挥，战果没有写成独杀或虚构存活。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "本人具体职责与敌方换指挥后集火连在一起。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "他负责协调俄方舰队"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "拖住集火期间对手损失五泰坦，说明时间交换价值。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "等到他的结构受到突破"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "指挥决断与自己承受集火双重压力。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "指挥既要判断别人往哪里打"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "团队遥修支撑个人位置，避免神化单人。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "胜负却要靠整支队伍把这个名字多留在场上几轮"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "停战差别待遇与RR关系后续",
+          "weight": "heavy",
+          "reason": "集团级付费停战引发前线盟友公开批评，RR的积极防守与最终离去串出华人关系。",
+          "source": {
+            "file": "src/people/sort-dragon/materials-sort-dragon.md",
+            "heading": "## 2018 停战与 RR 的防守"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sort-dragon/sort-dragon.md",
+            "contains": "2018 年北方挨打之后"
+          },
+          "note": "保留四十份堡垒、不同地区期限、CO2质疑及Sort接受RR去盟友的回答；未把正常换盟单独列丑闻。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "军事压力促使领袖买恢复时间。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "2018 年北方挨打之后"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "具体支付与一个月/六个月差别让外行看懂和平成本。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "折合四十座势力堡垒的价码"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "RR实际防守与管理层休息安排并置，争议长在职责差异。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "中文队伍替集团做的功课"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "前线盟友公开质疑、信誉成本得到展开。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "CO2 外交官 Da Winci 随后把账翻了出来"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "2020接受RR去盟友的体面与组织损失作后续，不伪造停战致搬迁因果。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "Sort 最后能保住的"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "自认不再辩护背刺名声",
+          "weight": "light",
+          "reason": "竞选自我描述补人物名声，不能靠外号另立黑料。",
+          "source": {
+            "file": "src/people/sort-dragon/materials-sort-dragon.md",
+            "heading": "## 身份与角色"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/sort-dragon/sort-dragon.md",
+            "contains": "Sort 在竞选 CSM 时就承认"
+          },
+          "note": "末评回扣签字与分配后果。",
+          "development": []
+        },
+        {
+          "title": "2018关于为何信任Sort的讨论",
+          "weight": "light",
+          "reason": "擅外交、背叛和时间炸弹的泛评没有可核事件过程。",
+          "source": {
+            "file": "src/people/sort-dragon/materials-sort-dragon.md",
+            "heading": "## Reddit 查询与采用边界"
+          },
+          "treatment": "omitted",
+          "note": "只留公开名声争论，不据此编造具体背叛或后果。",
+          "development": []
+        },
+        {
+          "title": "Short Bus搬离期限由两周减为四十八小时",
+          "weight": "heavy",
+          "reason": "清退盟友与资产搬运牵动集团管理权，双方公开承认期限改变并争辩原因，具体内讧足以独立成事。",
+          "source": {
+            "file": "src/people/sort-dragon/materials-sort-dragon.md",
+            "heading": "### 2016 年 Short Bus 搬离争执"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sort-dragon/sort-dragon.md",
+            "contains": "2016 年 8 月，GOTG"
+          },
+          "note": "用批评者、内部辩护者和离开者三方推进，录音只作会议帖背景，没有伪装听过或编确切占领结果。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "搬迁不能随蓝加瞬移，把短期限成本写清。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "船、货、市场、空间站里的家当"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "口头散伙与迅速收钥匙的反差支持题目。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "原本两周的搬家期，后来缩成四十八小时"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "批评方过程、内部归因、出勤质疑均上场而不合成独立事实。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "truecore 承认 TARD"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "双方目标不同，管理纪律与成员资产/交情对立，未采现实募捐猜测。",
+              "evidence": {
+                "file": "src/people/sort-dragon/sort-dragon.md",
+                "contains": "Sort 的支持者要的是联盟群能执行规矩"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "原旗舰本业、停战价码/RR后续与本人回应完整；2016清退提供更具体的管理声誉前史，不把2018泛评补造成新背叛，也不编2016GOTG整体崩溃。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/sort-dragon.md",
+          "contains": "他的主号战绩里"
+        },
+        {
+          "file": "src/people/sort-dragon/sort-dragon.md",
+          "contains": "这笔停战交易过去之后"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/sort-dragon/1272172192-id.json",
+    "src/people/sort-dragon/materials-sort-dragon.md",
+    "src/people/sort-dragon/sort-dragon.md"
+  ],
+  "inputs": "515d9df8f6363d5a9edf072e21dc30a2ad8474ace11f3ebf3f26b940cf1f53df",
+  "level": 1
+}

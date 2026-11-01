@@ -1,0 +1,121 @@
+{
+  "status": "reviewed",
+  "note": "独立核读保存总览、归因和本轮综合画像",
+  "evidence": [
+    "src/people/dark-shines/materials-dark-shines.md",
+    "src/people/dark-shines/1869573834-id.json",
+    "src/people/dark-shines/dark-shines.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读保存stats总览及快照：约35200参与击杀、34.8T、531单杀及9289Monitor签名，支持常年主力FC；正文无指挥船次数或单人独占战果。",
+      "evidence": [
+        {
+          "file": "src/people/dark-shines/materials-dark-shines.md",
+          "heading": "## 检索记录（2026-10-09）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式identity.alts为空，无已确认主力小号需补stats；不从简介笑话、别人的Twitch或Reddit昵称添同人关系。本次只审已存归因，不联网扩大查人。",
+      "evidence": [
+        {
+          "file": "src/people/dark-shines/1869573834-id.json",
+          "contains": "\"alts\": []"
+        },
+        {
+          "file": "src/people/dark-shines/materials-dark-shines.md",
+          "heading": "## 检索记录（2026-10-09）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核材料中2024-11峰值、1N六条旗舰签名与神示参战，4-H短剑只作参战；A1/Lantorn/Taff/H-PA的Monitor支持长期指挥，不定全场总指挥。",
+      "evidence": [
+        {
+          "file": "src/people/dark-shines/materials-dark-shines.md",
+          "heading": "## 2026-10-11：1T 大战核对"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照对象卡战役关联和本人材料中的1N、A1、Lantorn、Taff、H-PA、4-H及一般出勤；从帝国体系到INIT独立的带队变化得到保存，1N神示与4-H短剑均未包装成总指挥证明。",
+      "evidence": [
+        {
+          "file": "src/people/dark-shines/materials-dark-shines.md",
+          "heading": "## 2026-04-25 北方大型战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "本轮修订后综合战绩紧接开篇为第一红料；由总览统领玩法与职责，只展开有角色/反差作用的代表经历，不逐场列KM和金额。已通读正文并对照保存材料，未新增无来源战果。",
+      "evidence": [
+        {
+          "file": "src/people/dark-shines/dark-shines.md",
+          "contains": "Dark Shines 的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/dark-shines/1869573834-id.json",
+    "src/people/dark-shines/dark-shines.md",
+    "src/people/dark-shines/materials-dark-shines.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.json",
+    "src/battles/y-mpwl-2025/y-mpwl-2025.md",
+    "src/battles/y-mpwl-2025/materials-y-mpwl-2025.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "347592355cf68379a2e9c263f79ec5e3cfa0f18a8d5529caa14092f5cbbda0e4",
+  "level": 1
+}

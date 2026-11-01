@@ -1,0 +1,247 @@
+{
+  "status": "reviewed",
+  "note": "独立复核全文及抽奖、入团回响；抽奖结果共享材料纳入失效依据",
+  "evidence": [
+    "src/people/progodlegend/materials-progodlegend.md",
+    "src/people/bluemelon/materials-bluemelon.md",
+    "src/people/progodlegend/progodlegend.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "独立通读完整正文及本人素材，复核旧判断并补审本轮Reddit采用；保留原主线、综合画像与独立红黑料，排除未听录音及未核身份推断。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## 从对 FRT 宣战到并肩"
+        },
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## Y-2ANO 指挥断档"
+        },
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## Reddit 查询与采用边界"
+        },
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## Reddit 查询与采用边界"
+        },
+        {
+          "file": "src/people/bluemelon/materials-bluemelon.md",
+          "contains": "2019-12 HyperNet 抽奖"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件重新对照现稿与材料；原重事仍有具体冲突、分量和后果，新采用按本人言行而非泛泛名声判断。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## 写作边界"
+        },
+        {
+          "file": "src/people/progodlegend/materials-progodlegend.md",
+          "heading": "## Reddit 查询与采用边界"
+        }
+      ],
+      "items": [
+        {
+          "title": "军务组织与凛冬敌友转折",
+          "weight": "heavy",
+          "reason": "华人社区长期交集与大战组织角色，动员和合作改变了相处方式。",
+          "source": {
+            "file": "src/people/progodlegend/materials-progodlegend.md",
+            "heading": "## 从对 FRT 宣战到并肩"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/progodlegend/progodlegend.md",
+            "contains": "他的综合战绩保留着老式大会战指挥的底色"
+          },
+          "note": "综合战绩后接宣战难处与共同作战后的关系，分量足；去除独立黑料标签后没有把正常外交变道德罪名。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "船型结构与大集团指挥工作结合。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "他的综合战绩保留着老式大会战指挥的底色"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "动员简化敌我叙事解释其组织任务。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "开战动员最需要的是把复杂的利益冲突"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "2019敌人与PAPI盟友的变化直接落在华人人物关系。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "此前还必须打走的人，后来成了战壕里的熟人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "共同作战磨合与危机中维持组织构成后果。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "M2 之后，维系联军的也是不肯放弃的指挥们"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "Y-2乌鸦队断档导致目标失败",
+          "weight": "heavy",
+          "reason": "有明确指挥责任范围，核心伤害断档直接让建筑维修完成。",
+          "source": {
+            "file": "src/people/progodlegend/materials-progodlegend.md",
+            "heading": "## Y-2ANO 指挥断档"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/progodlegend/progodlegend.md",
+            "contains": "2020 年 8 月 15 日"
+          },
+          "note": "由攻城分工推进到轰炸、补位迟到和目标失败，重点是备援不足，未拿普通损船当丑闻。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "两线任务解释为什么乌鸦队是关键环节。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "进攻方要在门口压住守军"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "主力覆灭后补位迟到、维修成功，因果清楚。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "舰载机再转回来补伤害"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "人数优势与关键任务失败对照。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "进攻方人数还占着优势"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "解释为何断档影响整场行动，非只念损失金额。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "拆建筑需要连续的伤害"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "后来进入Amok与Goons",
+          "weight": "ordinary",
+          "reason": "普通阵营变化不能单独作黑料，但与昔日围攻帝国形成末评背景。",
+          "source": {
+            "file": "src/people/progodlegend/materials-progodlegend.md",
+            "heading": "### 已采用的售票与入团回响"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/progodlegend/progodlegend.md",
+            "contains": "后来这个号进了 Amok."
+          },
+          "note": "2022入团回响已经融入末评，圣诞前进1DQ与Progoonlegend均明确属于回帖嘲讽；不倒造本人承诺，也不将正常换盟独立黑料化。",
+          "development": []
+        },
+        {
+          "title": "四万亿HyperNet抽奖推销失败",
+          "weight": "heavy",
+          "reason": "本人公开组织推销稀有船，超高价抽奖失败并消耗约205B费用，有可核行动/公开嘲讽/结果。",
+          "source": {
+            "file": "src/people/bluemelon/materials-bluemelon.md",
+            "contains": "2019-12 HyperNet 抽奖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/progodlegend/progodlegend.md",
+            "contains": "2019 年底，CCP"
+          },
+          "note": "已核本人售票宣传与Blue材料结果，区分124已售和317未售、PGL推销与未知付款人；不把截止前讨论独充结果。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "新系统与收藏船卖家把大型组织动员能力移到售票台。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "CCP 刚推出 HyperNet"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "票价/总额解释稀缺船和几百个钱包的关系。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "512 张票，每张 78 亿"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "宣传稀缺与评论拆价格/自购风险形成对撞。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "台下却先算起了庄家的现金流"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "未售、成本消失和未抽出去收束失败，付款边界保留。",
+              "evidence": {
+                "file": "src/people/progodlegend/progodlegend.md",
+                "contains": "三天到期，317 张票没卖掉"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "华人敌友关系与战斗组织仍占主干，新增抽奖以同一种动员本领遭遇卖票失败形成侧写；换盟笑话收在末评，未替换旧职责/失败。",
+      "evidence": [
+        {
+          "file": "src/people/progodlegend/progodlegend.md",
+          "contains": "这份组织工作的曲折"
+        },
+        {
+          "file": "src/people/progodlegend/progodlegend.md",
+          "contains": "PGL 这次的难看"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/bluemelon/materials-bluemelon.md",
+    "src/people/progodlegend/317012339-id.json",
+    "src/people/progodlegend/materials-progodlegend.md",
+    "src/people/progodlegend/progodlegend.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "e388c733e0f2b69a777050f0105871edeb033db76e5c1b9715f84ea39eb3d384",
+  "level": 1
+}

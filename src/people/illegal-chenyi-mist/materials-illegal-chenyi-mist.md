@@ -1,5 +1,7 @@
 # 非法 素材
 
+- 2026-11-01起收录号改为Naoxina（2113249729），本人名下zKB参与击杀最多（1757）；原收录号Illegal-ChenYi Mist（2115483774，789）改登小号。
+
 已有[列传](illegal-chenyi-mist.md)。收录角色：**Illegal-ChenYi Mist（2115483774）**，本人主号；LSP. CEO 号为 Naoxina（2113249729）。
 
 ## 角色对应（2026-10-10）

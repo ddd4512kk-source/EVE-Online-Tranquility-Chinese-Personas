@@ -4,6 +4,18 @@
 
 原帖与资料入口：[EveWho](https://evewho.com/character/1869573834) · [zKillboard](https://zkillboard.com/character/1869573834/)
 
+## Reddit 查询与采用边界
+
+- 2026-11-01 Playwright Chrome 搜索 r/Eve、`"Dark Shines"`、相关度／全部时间，首批有土豆邮件、拆成红蓝 INIT 的反串、南方地图梗、封禁旧事标题等。未读主题不能按标题推断真实封禁、公告或外交；本次读下帖正文及前 25 个评论节点中展开内容，未展开全部分支。
+- [Dark Shines' vision for the south...?, 1pjiba9](https://www.reddit.com/r/Eve/comments/1pjiba9/dark_shines_vision_for_the_south/)，seamusfish，2025-12-10 UTC，明确标 Low Effort Meme，正文只有短句及地图；评论讨论南方联盟／INIT 边界、内容农场，DarkShinesInit 留爱尔兰语歌词式接梗。未独立细读地图中各组织归属，也未据单次回复映射账号或推导正式战略。文字不是“南方战略公告”，不写进正文当政治承诺。
+- 原有贴吧 SARD 文章被翻上 Reddit、本人作何反应的线索，本轮按人名的搜索未定位原帖；此缺口保留，不能用无关南方地图帖抵作查清。其他搜索主题尚未读，现有已核战役／华人交集主线不改。
+
+### 2024 年公开信：猎手与资源诉求
+
+- [Imperium open letter to CCP, 1e3h175](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/)，2024-07-15 UTC，2026-11-01 Chrome 已读正文、前 45 个评论节点展开内容及相关署名回复。DarkShinesInit 在[ld887f3](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ld887f3/)赞同公开信，以过去忧虑如何留住 20 条 Rorqual、如今忧虑资源能否维持运转对比；在 CCP_Arcade [ldbgbee](https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/ldbgbee/)的正式回应下又致谢。本人身份由此持续参与相关管理议题、联盟上下文及既有角色相互支撑，不以一条歌词单独映射。
+- 原帖由 Asher 署名代表帝国，Gobbins 明确代表 PH 支持并补 bug，Noraus 明确代表 FRT 支持。CCP 说正讨论并计划进一步沟通，不写已兑现改版诉求。原文及反应完整摘要见[Asher 素材](../asher-elias/materials-asher-elias.md)。
+- 增写红料“二十条大鱼，到底还留不留得住”，把本人猎手视角、资源与猎物关系以及与华人对手同场的具体发言展开；不把该帖说成后来反 FRT 的同一争议，不从此推出四家结盟。另补搜 `"Dark Shines" SARD` 当前无结果，旧 SARD 争执原帖仍未定位。
+
 ## 检索记录（2026-10-09）
 
 - **游戏数据画像**：`profile.mjs 1869573834`。建号 2004-11-04；2011-04 起各军团均在 The Initiative.（2012 年短暂去 PL 三个月）。击杀 35225（34767.6B），单杀 531，常用 Monitor 9289 次；击杀最高月 2024-11（2977.6B）。简介仅 Twitch 链接 zehpando 与“Pando Feet Pics”。

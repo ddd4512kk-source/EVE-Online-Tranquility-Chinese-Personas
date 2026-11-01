@@ -1,212 +1,591 @@
 {
   "status": "reviewed",
-  "note": "已逐项核对本人素材和正文重料。",
+  "note": "独立逐读现稿素材与共享来源并逐件审十九项事件",
   "evidence": [
     "src/people/drone-wang/materials-drone-wang.md",
-    "src/people/drone-wang/drone-wang.md"
+    "src/people/drone-wang/drone-wang.md",
+    "docs/sources/sard-rr-old-grudge-2026-10.md",
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "docs/sources/muxing-rabbit-tutorial-2026-04.md"
   ],
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "逐读正文和素材，核对RR交接、RR解体、维纳尔争端、牧星去留及封号线索。",
+      "note": "通读现稿、本人素材及三份共享来源，并对照重写前副本；建盟/AFK/回归、教学、国服毒蜥争端、互损删帖、个人创作、血脉财政、SARD出走、交权、RR末期、Goons考核、牧星人口与永久封禁、天宫进攻均保留。黑老板补充和未成事故的自嘲留材料；精选只评价已读文字，不假称看过影像。",
       "evidence": [
         {
           "file": "src/people/drone-wang/materials-drone-wang.md",
-          "contains": "换盟主公告与公开争执"
+          "heading": "## 王答答 / Drone Wang"
         },
         {
-          "file": "src/people/drone-wang/materials-drone-wang.md",
-          "contains": "牧星近况帖的反驳与新指控"
+          "file": "docs/sources/sard-rr-old-grudge-2026-10.md",
+          "heading": "## 旧怨最具体的两条说法"
+        },
+        {
+          "file": "docs/sources/sard-drone-region-clearance-announcement.md",
+          "heading": "## 说话者与内容"
         }
       ]
     },
     "events": {
       "status": "reviewed",
-      "note": "逐件称重，交接和军团去留均有冲突及不同方评价，人物作战经历未覆盖这些主线。",
+      "note": "逐件清点十九项，九项重料均对照实际段落审处境、反差及分量或反应后果；普通教学和作品互动保留辨识度，普通参战不另凑独立黑料。",
       "evidence": [
         {
           "file": "src/people/drone-wang/materials-drone-wang.md",
-          "contains": "换盟主公告与公开争执"
+          "heading": "## SARD离开RR与天宫旧怨"
+        },
+        {
+          "file": "src/people/drone-wang/materials-drone-wang.md",
+          "heading": "## RR末期与合并争论"
         }
       ],
       "items": [
         {
-          "title": "RR让位与买盟争议",
-          "weight": "heavy",
-          "reason": "联盟创始人交出领导位置引发收购争议",
-          "note": "标出五万亿只属评论指控，声明否认收购。",
+          "title": "长期指挥与多号实战",
+          "weight": "ordinary",
+          "reason": "本人长期承担指挥及不同舰队岗位，是人物综合游戏画像。",
+          "note": "独立战绩块紧接开篇；两场代表战斗服务指挥跨度判断，没有以参战清单替代点评。",
           "source": {
             "file": "src/people/drone-wang/materials-drone-wang.md",
-            "contains": "楼主公告宣布将 CEO 让位于路小兔"
+            "heading": "## 综合战斗画像与代表KM（2026-10-28）"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/drone-wang/drone-wang.md",
-            "contains": "王答答在贴吧发布《RR联盟正式公告》"
+            "contains": "王答答在RR干过盟主，也一直干着指挥的活"
+          }
+        },
+        {
+          "title": "RR开局AFK与回归整顿",
+          "weight": "heavy",
+          "reason": "创盟冷场与回归重整决定RR创业主线，也直接关联后来成员对其管理的期待。",
+          "note": "合并原有创盟、AFK和四十人毒蜥队三块，保留负面开局、台风疑忌、管理制度与归还星华；由工作改善带出态度转变。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "### 2026-10-11 RR简史正倒序及楼中楼文字回查"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "[台风的《RR游骑兵简史》]"
           },
           "development": [
             {
               "angle": "处境",
-              "note": "交代任命路小兔和三人分工",
+              "note": "租地起步仅十来人在线，盟主先AFK，说明小联盟脆弱的开荒环境。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "自己负责战斗"
+                "contains": "把开张写得很不体面"
               }
             },
             {
               "angle": "反差",
-              "note": "本人否认收购，评论者提出报价",
+              "note": "台风原本怕被吞团，后来承认从王答答处学到制度和整备，态度发生变化。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "spyfromserenity"
+                "contains": "台风起初还提防他"
               }
             },
             {
               "angle": "反应与后果",
-              "note": "公告和节目给交接不同解释",
+              "note": "四十条毒蜥帮助稳定局面，后来又归还星华，担心未落地而制度队伍留下。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "交接该叫什么名字"
+                "contains": "等别的军团加入，王答答忙不过来"
               }
             }
           ],
           "verdict": "sufficient"
         },
         {
-          "title": "RR解体",
-          "weight": "heavy",
-          "reason": "AOM合并与被除名直接关联RR末期",
-          "note": "文章呈现事后评论和合并推测，未认定报价实际存在。",
+          "title": "基础英语课与跟队教程",
+          "weight": "ordinary",
+          "reason": "持续教新人是本人实际社区贡献，补习班传闻和台风互动有鲜明个性。",
+          "note": "英语课正事、严厉课程玩笑、教程岗位分工和多年评论归于一块，不再正反各说一遍；未把旧视频评论当新组织复用证明。",
           "source": {
             "file": "src/people/drone-wang/materials-drone-wang.md",
-            "contains": "N老板事后文章"
+            "contains": "RR跟队基础教程](https://www.bilibili.com/video/BV1u441127df/)"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/drone-wang/drone-wang.md",
-            "contains": "2022 年 1 月，AOM 想整体并入 RR"
+            "contains": "2018年的[媒体采访]"
+          }
+        },
+        {
+          "title": "国服维纳尔毒蜥任务点争端",
+          "weight": "heavy",
+          "reason": "为任务点利益拆台风结构，关系到二人后来合伙与猜忌的背景。",
+          "note": "点明国服二服；保留收益说法、兵力规模、结构轮求情和不答拆除，未新添具体日期、损失与交易。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "eve欧服吧截图（帖子号未知）第 25 楼"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "两人能在欧服合伙，前面却还有一段国服二服的拆家旧账"
           },
           "development": [
             {
               "angle": "处境",
-              "note": "交代AOM想并入RR",
+              "note": "任务点在开服经济里值钱，台风在当地立脚，利益有明确落点。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "AOM 想整体并入 RR"
+                "contains": "开服时“卖毒蜥一天能卖2万r”"
               }
             },
             {
               "angle": "反差",
-              "note": "N老板与帝国系成员各自评论并购",
+              "note": "台风以交情求情，王答答不回答而拆结构，后来两人又合伙办RR。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "王达达过于憨厚"
+                "contains": "台风哭着问王哒哒，真的要做这么绝吗"
               }
             },
             {
               "angle": "反应与后果",
-              "note": "RR被除名后王离开旧军团另起新团",
+              "note": "楼中楼借手足兄弟卖价评论赚钱，叙事把拆家经历接到台风后来的防备。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "王答答离开了自己一手创立的 Ranger Warrior"
+                "contains": "后来台风和他到了欧服，又一起开RR"
               }
             }
           ],
           "verdict": "sufficient"
         },
         {
-          "title": "维纳尔任务点争端",
-          "weight": "heavy",
-          "reason": "旧盟友间大规模冲突及利益指控",
-          "note": "兵力、事件与收益均来自楼主及回复，并未独立核实。",
+          "title": "女装绰号与借小吧号删帖",
+          "weight": "ordinary",
+          "reason": "熟人互损与论坛管理行为，展示二人合作关系而非现实隐私。",
+          "note": "保留顺口溜、自曝比赛甩梗与借号删帖，旧稿独有事实已归材料，未扩成现实穿着。",
           "source": {
             "file": "src/people/drone-wang/materials-drone-wang.md",
-            "contains": "维纳尔毒蜥任务点"
+            "heading": "## 台风互损与小吧号"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/drone-wang/drone-wang.md",
-            "contains": "欧服吧有人讲过国服二服开服时的一段旧事"
+            "contains": "2017年，[台风的凛冬顺口溜]"
+          }
+        },
+        {
+          "title": "SOLO攒星计划与黑隐队伍作品",
+          "weight": "ordinary",
+          "reason": "本人创作计划失利及频道互动可以表现玩家和组织者两面。",
+          "note": "保留三条毒蜥损失对发片计划的影响、三连互动、四条元帅与六条其他黑隐集体战果；不把普通损失单独当黑料。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "## 2026-10-15：按关注度消化RR作品"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "2019年的[第二期SOLO与小队作品]"
+          }
+        },
+        {
+          "title": "血脉舰队建设与化妆品争议",
+          "weight": "heavy",
+          "reason": "联盟产出与超旗储备不匹配的质疑，集中呈现管理财政与RMT名声。",
+          "note": "展开不足五十泰坦与满编对手的落差、灭灯平账讽刺、化妆品自纠笑话，并补入低价收矿及制造特许经营回忆；未造交易和舰数核实。",
+          "source": {
+            "file": "docs/sources/sard-rr-old-grudge-2026-10.md",
+            "heading": "## 第10楼：舰队建设、RMT与化妆品梗"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "RR到了血脉，有地刷、有矿挖"
           },
           "development": [
             {
               "angle": "处境",
-              "note": "来源说毒蜥任务点竞争",
+              "note": "刷挖一年多后成员追问舰队规模，说明争执源于联盟经营。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "开服卖毒蜥一天能卖2万r"
+                "contains": "RR到了血脉，有地刷、有矿挖"
               }
             },
             {
               "angle": "反差",
-              "note": "台风求情与来源所述不答直接拆结构",
+              "note": "不到五十泰坦却邀满编对手打超旗战，口号与家底形成冲突。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "台风哭着问王哒哒"
+                "contains": "那串回帖干脆抛出“灭灯平账”的讽刺"
               }
             },
             {
               "angle": "反应与后果",
-              "note": "楼内将赚钱与日后合作放一起议论",
+              "note": "化妆品梗的自纠方向与收矿规矩旧怨，让财政不满落到具体嘲讽和质问。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "楼中楼有人回"
+                "contains": "“一千亿”和“化妆品”的梗跟着被翻了出来"
               }
             }
           ],
           "verdict": "sufficient"
         },
         {
-          "title": "牧星人口流失和RMT指控",
+          "title": "SARD离开与关停靠权限未遂",
           "weight": "heavy",
-          "reason": "新军团人口下降和管理争议影响其经营主线",
-          "note": "保留批评、反驳和传闻归属，不把网友辩护当本人认账。",
+          "reason": "成员失望出走、巨额挽留被拒和报复性权限盘算是本人关键滥权旧事。",
+          "note": "按缺活动、四千亿挽留遭拒、联络希尔关权限但被推掉的顺序展开，末尾接到天宫进攻；既未把提议写成支付，也未写舰队实际遇害。",
           "source": {
-            "file": "src/people/drone-wang/materials-drone-wang.md",
-            "contains": "称养人口后收菜、直接点王哒哒"
+            "file": "docs/sources/sard-rr-old-grudge-2026-10.md",
+            "heading": "## 旧怨最具体的两条说法"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/drone-wang/drone-wang.md",
-            "contains": "据社交媒体，牧星集结一度靠近两百人"
+            "contains": "[嗜血](../2113483277/)的SARD当年也在RR"
           },
           "development": [
             {
               "angle": "处境",
-              "note": "私聊描述人口从两百降至二十",
+              "note": "有刷挖条件却缺主动活动，解释战斗军团为何想走。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "两个月内掉到了二十人"
+                "contains": "[嗜血](../2113483277/)的SARD当年也在RR"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "转移超旗依靠落脚建筑，关闭停靠会使人员舰船陷入危险。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "对正在转移的大船来说"
               }
             },
             {
               "angle": "反差",
-              "note": "支持者先反驳又假设回应",
+              "note": "愿意出钱挽留与原盟主想坑船并列，招人关系被用于找舰队死穴。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "先拿刷深渊补损反驳"
+                "contains": "平时用来收拢成员的联盟关系"
               }
             },
             {
               "angle": "反应与后果",
-              "note": "楼内争议人物是否AFK",
+              "note": "希尔以不会操作搪塞，盘算未遂，旧怨延伸到嗜血后来进攻建筑。",
               "evidence": {
                 "file": "src/people/drone-wang/drone-wang.md",
-                "contains": "昨天还在来菲德来收割"
+                "contains": "希尔管理回了句“不会操作”"
               }
             }
           ],
           "verdict": "sufficient"
+        },
+        {
+          "title": "让位路小兔与买盟报价",
+          "weight": "heavy",
+          "reason": "创始人交出CEO引发所有权争议，是RR兴衰的主要转折。",
+          "note": "给出三人分工、维护新CEO公告、否认收购与五万亿ISK指控、路小兔回应和节目标题；金额仍归评论者，不写实付人民币。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "### RMT 方向补查与卖盟争议（2026-10-07，资料已归档）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "2019年9月，王答答在贴吧发出"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "联盟需要投资舰队设施，交CEO同时明确老班底分工。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "2019年9月，王答答在贴吧发出"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "英文声明否认收购，评论者把捐款换RR直接挂价。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "评论区的spyfromserenity却直接给出另一套解释"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "路小兔回应不改变现状，节目仍用买下RR标题，解释权流出管理层。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "路小兔也在[自己的回应]"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "AOM并入与RR被帝国除名",
+          "weight": "heavy",
+          "reason": "联盟合并企图与被阵营驱逐直接造成RR末期和王答答离开旧军团。",
+          "note": "从合并带来的人员权力问题，写到几小时后被除名、N老板两难评价和1月15日另起小团；没有补造协议、报价或派系密谈。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "## RR末期与合并争论"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "2022年1月，AOM想整体并入RR"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "合并涉及成员家当和谁说了算，交代当时管理处境。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "2022年1月，AOM想整体并入RR"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "原想装进另一批人，自己先失去帝国位置，与昔日盟主身份形成落差。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "原本盘算的是把AOM装进RR"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "N老板损其憨厚或报价，随后离开Ranger Warrior另起Black Frame。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "1月15日，王答答离开亲手创立的Ranger Warrior"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "CP小队录像与发布人澄清",
+          "weight": "ordinary",
+          "reason": "RR解体后的本人对话展示持续活动和频道关系。",
+          "note": "保留凉了、随便低安、非本人视角、录像师承认不熟和列沙克本人回应，操作批评不归上传者。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "CP战列BV1Tq4y187W4"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "2022年2月的[《CP战列小队vs低安毛子土著》]"
+          }
+        },
+        {
+          "title": "Black Frame月度上榜",
+          "weight": "ordinary",
+          "reason": "本人小团在Goons活跃考核中连续两月上榜，有具体管理难堪。",
+          "note": "写榜单规则、两月记录与再一次上榜即触及年度逐出建议的压力；不把划线推成被踢，也不强定年份与封号先后。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "## 角色数、自嘲与名单的口径"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "Goons按月更新的“屎单”"
+          }
+        },
+        {
+          "title": "牧星接待新人与管理职责",
+          "weight": "ordinary",
+          "reason": "新手教学与CEO外交职责连接RR贡献及牧星经营。",
+          "note": "不把累计接待千人等同在团真人数；成立日、简介开张日与角色规模分口径，落到成员对持续照顾的期待。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "**2026-10-08 补充（牧星 / Charon1）**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "RR之后，王答答用Charon1继续活动"
+          }
+        },
+        {
+          "title": "牧星教程招新与蜜蜂黑名单",
+          "weight": "ordinary",
+          "reason": "招新宣传被熟人旧账打断，有双方具体公开互动。",
+          "note": "原班人马的资历与旧关系形成冲突；1100无单位、不认收入，评论者不冒称本人，教程账号不归个人UP。",
+          "source": {
+            "file": "docs/sources/muxing-rabbit-tutorial-2026-04.md",
+            "heading": "## 来源与事件"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "2026年4月，EVE牧星军团账号发布"
+          }
+        },
+        {
+          "title": "牧星两月流失与曙光带队",
+          "weight": "heavy",
+          "reason": "招新扩张后人口大降，涉及管理精力转移与变现批评。",
+          "note": "将近两百到二十的抱怨与公开帖中的AFK说法、深渊补损辩护、带骨干回曙光和仍在来菲德来活动的反驳一起写，区分个人在线和管理投入。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "## 牧星近况帖的反驳与新指控"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "牧星集结一度靠近两百人，两个月内掉到二十"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "集结人数减少与迁移、老板回曙光的连续抱怨，说明留下成员的活动困境。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "牧星集结一度靠近两百人，两个月内掉到二十"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "累计接待新人的承诺与成员无人照顾的抱怨相撞，和开张AFK遥相呼应。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "这和当年RR刚开张便因他AFK冷下来的处境遥遥相接"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "辩护者从深渊补损转为有实力，另一人用仍在来菲德来反驳失踪，争执转到精力去向。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "楼主追问是不是AFK，又有人顶回来"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "RMT永久封禁与天宫群主",
+          "weight": "heavy",
+          "reason": "永久失去老号却继续带组织，是本人变现名声及后续身份的关键经历。",
+          "note": "RMT永久封号按已确认事实保留，末条KM只表明活跃截止；另写天宫实际创建者与本人群主位置、嗜血富豪榜反击及其旧名持续被认出，不把回复当CCP原文。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "## 2026-10-15：嗜血《听说rmt头子又弄了个联盟》"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "Drone Wang因RMT被永久封号"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "老号被永久封禁，Charon1继续带人，牧星入天宫后旧盟主仍处在管理关系中。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "Drone Wang因RMT被永久封号"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "原本天宫议论嗜血的钱，嗜血转向要求金主认清天宫管理。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "天宫本来在议论嗜血的钱"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "本地小号与大号被封的互损、砸锅讽刺，接出换号后旧名声仍随人的后果。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "楼里有人说天宫本地造谣的大多是小号"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "嗜血进攻天宫与对成员喊话",
+          "weight": "heavy",
+          "reason": "军事进攻和政治劝离共同作用到王答答新组织，是当前主线收束。",
+          "note": "写两周清理目标和联盟动员、区分高层与普通成员，并呼应SARD离开RR旧事；未写计划已完成、具体战损或Goons介入。",
+          "source": {
+            "file": "docs/sources/sard-drone-region-clearance-announcement.md",
+            "heading": "## 说话者与内容"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/drone-wang/drone-wang.md",
+            "contains": "到了2026年10月，嗜血对天宫的行动已经推进到建筑和主权"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "新人与工业需依托建筑主权，说明打这些目标对组织有何影响。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "到了2026年10月，嗜血对天宫的行动已经推进到建筑和主权"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "昔日想关成员停靠权限，后来对方直接来找他的建筑，关系倒转。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "从前SARD想离开RR，答答惦记过关别人停靠权限"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "嗜血向牧星成员发劝离话、只针对高层支持者，军事压力同时撬动成员去留。",
+              "evidence": {
+                "file": "src/people/drone-wang/drone-wang.md",
+                "contains": "嗜血还特意欢迎把通知转给牧星成员"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "黑老板自评里的超旗邀战",
+          "weight": "ordinary",
+          "reason": "能解释邀战心态，但缺原始场合和准确战役，不宜另增同义故事。",
+          "note": "保留自评原话、错误情报说法及华人一体化构想在材料；现稿化妆品争论已提邀战，未把自评回忆补成原始指挥发言。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "heading": "### 黑老板 2026 自评帖（来一场超旗战吧）"
+          },
+          "treatment": "omitted"
+        },
+        {
+          "title": "燃料和归魂自嘲头衔",
+          "weight": "light",
+          "reason": "只有名片自嘲，缺具体事故骨架。",
+          "note": "留材料，不扩成语音失误或放跑旗舰的独立事故。",
+          "source": {
+            "file": "src/people/drone-wang/materials-drone-wang.md",
+            "contains": "头衔“诱导燃料未携带者·放跑归魂”"
+          },
+          "treatment": "omitted"
         }
       ]
     },
     "balance": {
       "status": "reviewed",
-      "note": "RR创立和交接、旧日争议及后续牧星和天宫并存，战斗只做经历补充。",
+      "note": "先以长期指挥承接游戏画像，再依RR创业、人员离散、交权与末期走到牧星和天宫，评语回收能办事却留不住人的主线。合并重复建盟和英语课，Goons末段改成具体三次上榜压力；重事展开而未被单张KM、外号和推荐挤掉，封禁定论与当前任务要求一致。",
       "evidence": [
         {
           "file": "src/people/drone-wang/drone-wang.md",
-          "contains": "王答答把 RR 的旗立起来"
+          "contains": "王答答最让人服气、也最让人窝火的地方"
+        },
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "这场交接因此留下了两套说法"
+        },
+        {
+          "file": "src/people/drone-wang/drone-wang.md",
+          "contains": "三月、四月已经记了两次"
         }
       ]
     }
@@ -240,6 +619,6 @@
     "src/battles/y-2ano-2020/y-2ano-2020.md",
     "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
   ],
-  "inputs": "607dc6e38084f30a9d000eafbf9bc7edb175924443cea26aec465528c311c697",
+  "inputs": "d08213b7c8e05dac10c98463abdfb68e3dd63dccf008cc471058d115adac920a",
   "level": 1
 }

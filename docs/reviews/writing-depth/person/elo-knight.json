@@ -1,0 +1,208 @@
+{
+  "status": "reviewed",
+  "note": "独立复核全文与新增具体带队口碑，替代旧的泛赞未采用判断",
+  "evidence": [
+    "src/people/elo-knight/materials-elo-knight.md",
+    "src/people/elo-knight/elo-knight.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "独立通读完整正文及本人素材，复核旧判断并补审本轮Reddit采用；保留原主线、综合画像与独立红黑料，排除未听录音及未核身份推断。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 2019 凛冬指挥与守生产"
+        },
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## BL 夺权与误解散"
+        },
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 取舍与停止"
+        },
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## Reddit 查询与采用边界"
+        },
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## Reddit 查询与采用边界"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件重新对照现稿与材料；原重事仍有具体冲突、分量和后果，新采用按本人言行而非泛泛名声判断。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## BL 夺权与误解散"
+        },
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## Reddit 查询与采用边界"
+        }
+      ],
+      "items": [
+        {
+          "title": "FRT欧美时区反击与守生产",
+          "weight": "heavy",
+          "reason": "华人交集核心：名将带来的军事能力及防卫经济职责。",
+          "source": {
+            "file": "src/people/elo-knight/materials-elo-knight.md",
+            "heading": "## 2019 凛冬指挥与守生产"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/elo-knight/elo-knight.md",
+            "contains": "2019 年 Origin. 加入 FRT"
+          },
+          "note": "写出时区缺口、战术作用和数小时待命的实际代价，没有把整场战争胜负归他。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "中文主力与欧美时区空档形成具体指挥需求。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "华人主力能在自己的黄金时段挤满频道"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "解释反击能力让防守不止于被动守门。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "他带来的缪宁体系能靠速度与射程向敌方腹地伸手"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "雇佣兵转向守生产，有明确角色反差。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "一个靠四处找仗成名的人，最后替熊猫守起了生产秩序"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "生产秩序及指挥熬夜写出代价，不只夸有名。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "工业玩家看到的是还能安心生产"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "夺回联盟后的误解散",
+          "weight": "heavy",
+          "reason": "本人操作失误摧毁刚取得的组织，反差直接且影响身份形象。",
+          "source": {
+            "file": "src/people/elo-knight/materials-elo-knight.md",
+            "heading": "## BL 夺权与误解散"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/elo-knight/elo-knight.md",
+            "contains": "早年的黑军团故事，Elo"
+          },
+          "note": "先写拉军团夺权，再写权限事故，最后落到组织管理与作战本事的区别；不是一般联盟散伙。",
+          "development": [
+            {
+              "angle": "动机",
+              "note": "招募与执行军团的组织基础给后面的误解散搭台。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "夺权的关键是一群肯跟他走的人"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "夺权耗费与误解散简易形成冲突。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "挖人、结盟、夺权，一道工序都没省"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "指挥与组织两种权力的后果解释清楚。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "FC 可以把敌人的阵形拆开，也可以把自己的组织拆开"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "从本人误操作落到华人客户如何使用名将，未另贴无关笑话。",
+              "evidence": {
+                "file": "src/people/elo-knight/elo-knight.md",
+                "contains": "联盟按钮最好另找个人看着"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "赠船铭文与去Goons后回归",
+          "weight": "ordinary",
+          "reason": "铭文及普通阵营变化适合作为关系余味，不能另包装丑闻。",
+          "source": {
+            "file": "src/people/elo-knight/materials-elo-knight.md",
+            "heading": "## 中文赠船铭文"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/elo-knight/elo-knight.md",
+            "contains": "他的角色档案还留着一段中文赠船铭文"
+          },
+          "note": "末评用铭文联系情感、用换边提醒人物自主性，未独立开料。",
+          "development": []
+        },
+        {
+          "title": "将队员无聊视为自身失败的带队口碑",
+          "weight": "ordinary",
+          "reason": "具体跟队体验说明留人方法，超过无对象赞美；是FC人物画像补充，不冒称新战果。",
+          "source": {
+            "file": "src/people/elo-knight/materials-elo-knight.md",
+            "heading": "## Reddit 查询与采用边界"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/elo-knight/elo-knight.md",
+            "contains": "2013 年，Reddit 上有人问"
+          },
+          "note": "从问黑历史却收好评的反差，推进到FC消耗队员时间的责任，再联系FRT夜班；三段有不同推进，未从评论造战役。",
+          "development": []
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "原凛冬时区职责与BL夺权误解散仍是主干，新口碑解释带队吸引力，末评中文赠船/换边保留；没有让一般评论压过华人交集。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/elo-knight.md",
+          "contains": "他的战绩横跨重突、战略巡洋舰和后勤舰"
+        },
+        {
+          "file": "src/people/elo-knight/elo-knight.md",
+          "contains": "但战场上的友谊也有换班的时候"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/elo-knight/1511725012-id.json",
+    "src/people/elo-knight/elo-knight.md",
+    "src/people/elo-knight/materials-elo-knight.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md"
+  ],
+  "inputs": "ed209825e741677703d02abff76144188ca825789b3e7070721193bb5a095798",
+  "level": 1
+}

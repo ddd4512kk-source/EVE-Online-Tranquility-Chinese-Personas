@@ -1,5 +1,7 @@
 # 小黄人（Jiao-Huang）素材
 
+- 2026-11-01起收录号改为Xiao HuangRen（2119217172），本人名下zKB参与击杀最多（4086）；原收录号Jiao-Huang（2119497024，2684）改登小号。
+
 ## 人物对应
 
 - 收录角色：Jiao-Huang（2119497024），2021-12-23 建号，头衔“教皇”；2026-10-15 ESI：Cosmic-Wanderers [CO.WA] / The Initiative.。

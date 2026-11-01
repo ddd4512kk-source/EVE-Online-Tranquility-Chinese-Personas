@@ -34,3 +34,5 @@ FBC 的 CEO Yohane Bonaventura 头衔写爱丽丝 Alt，与 Alice Seraph 合并�
 | 2112491643 | 17726 | 4-HWWF | 99003581 | [135003567](https://zkillboard.com/kill/135003567/)，攻击者 |
 
 正文已将本场经历并入战绩红料，原综合 KB 与其他战役保留；常规舰损失只作参战依据，不增黑料。
+
+- 2026-11-01登记小号：Yohane Bonaventura（2113698511）；ESI公开头衔“爱丽丝Alt，CEO”，自标为本人小号，见[军团榜单核读](../../../docs/corporations/notes/member-research/98538918.md)。

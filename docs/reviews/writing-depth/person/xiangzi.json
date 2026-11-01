@@ -1,0 +1,223 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文和完整素材并复核战役标签迁移；教学、实际读者反馈与持续创作支撑准入，普通事迹充分展开，精选无重复，无重料遗漏",
+  "evidence": [
+    "src/people/xiangzi/materials-xiangzi.md",
+    "src/people/xiangzi/xiangzi.md",
+    "docs/bilibili/441373876.json"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文、完整本人素材、8项归档视频及公开评论范围。身份由游戏简介直连UID并与空间核对；持续教学、实际读者应用和18份系列支持准入。5项精选与正文3项不重复，未遗漏已存重大事件或争议。 重标前核读四场战役标签迁移，确认仅分类变化，人物来源及采用范围未变。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 身份与收录依据"
+        },
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 频道范围与筛选"
+        },
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 采用与未读边界"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件审视综合游戏经历、两份教程、连续系列和五项精选。教学及催带队展开成完整段落，单篇题材作轻料选介；没有将观众玩笑、标题或普通KM抬成重事。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "### 炸集会教程与预算争论"
+        },
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "### 毒蜥教程与新人反馈"
+        },
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "### 飞行地板：催带队与低手回应"
+        }
+      ],
+      "items": [
+        {
+          "title": "综合作战与大会战参与",
+          "weight": "ordinary",
+          "reason": "综合游戏经历为人物背景；没有独立重大争议、指挥职务或个人决定性战果。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "## 游戏画像与已有战役"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "翔子在红领鲸入团，后来转入 Deep Stone Crypt"
+          },
+          "note": "中小船与大队参战统合为活动方式，普通损失没有强拔黑料。"
+        },
+        {
+          "title": "毒蜥教程与实际观众反馈",
+          "weight": "ordinary",
+          "reason": "本人持续教学且已有读者实际应用及配装追问，足以形成创作者个人事迹；预算评论仍是读者意见。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 毒蜥教程与新人反馈"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "2026 年 3 月，翔子连着发了"
+          },
+          "note": "交代毒蜥教程题目、萌新实际应用及320DPS配装提问，写出了教学对观众的具体作用。"
+        },
+        {
+          "title": "炸集会配船与预算争论",
+          "weight": "ordinary",
+          "reason": "常规教学互动，可补充本人回应和观众钱包差异，不是诈骗或虚假教程争议。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 炸集会教程与预算争论"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "炸集会那边的气氛更像一场配船会诊。"
+          },
+          "note": "换船问答及多开建议保持本人原话范围，观众价格评价没有转为实测成本。"
+        },
+        {
+          "title": "连续飞行地板作品及观众催带队",
+          "weight": "ordinary",
+          "reason": "持续创作和本人互动构成稳定人物线；起哄不能证明实际担任FC。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 飞行地板：催带队与低手回应"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "在[超载强吃海莫洛]"
+          },
+          "note": "交代18份系列的频率与常见题材，展开观众催带队和本人低手回应，没有把他写成指挥。"
+        },
+        {
+          "title": "翻译工具与需求单",
+          "weight": "light",
+          "reason": "单篇题目和少量公开互动为创作者侧面，分量适合精选简介。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 翻译工具与观众需求单"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "- [EVE 翻译小工具&腾讯翻译]"
+          },
+          "note": "精选保留工具题材与观众需求，不声称原创开发。"
+        },
+        {
+          "title": "对抗题目与无人机提醒",
+          "weight": "light",
+          "reason": "单篇题目和少量公开互动为创作者侧面，分量适合精选简介。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 飞行地板：对抗题目与无人机提醒"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "- [据说地板不会对抗只会吃傻肉？]"
+          },
+          "note": "标题只写应战姿态，没有虚造具体骂战对手；F键提醒归于观众。"
+        },
+        {
+          "title": "大鱼救援与争KM题目",
+          "weight": "light",
+          "reason": "单篇题目和少量公开互动为创作者侧面，分量适合精选简介。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 飞行地板：大鱼与俄式救援"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "- [大鱼被抓遇上俄式救援"
+          },
+          "note": "救援题材与模块、燃料评论相连，没有补写独立胜负或指挥。"
+        },
+        {
+          "title": "海凤凰电池与现场评论",
+          "weight": "light",
+          "reason": "单篇题目和少量公开互动为创作者侧面，分量适合精选简介。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 飞行地板：电池与现场评论"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "- [泥头车榨干海凤凰"
+          },
+          "note": "现场身份保留自称，电容转折引文来自评论，未装作看过未读画面。"
+        },
+        {
+          "title": "系列早期协同题材",
+          "weight": "light",
+          "reason": "单篇题目和少量公开互动为创作者侧面，分量适合精选简介。",
+          "source": {
+            "file": "src/people/xiangzi/materials-xiangzi.md",
+            "heading": "### 飞行地板：协同作战题材"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/xiangzi/xiangzi.md",
+            "contains": "- [EVE是个勇敢者的游戏"
+          },
+          "note": "作为系列起步的协同题材选介，没有另造战果。"
+        }
+      ],
+      "noHeavyReason": "现有材料没有重大内讧、诈骗、封号、旗舰高值个人损失或影响群体的具体争议。实际教学、连续创作及读者互动属于普通个人事迹，已获展开；题目挑衅、催带队和常规救援题材不足以抬为重料。"
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "综合战斗块与创作者主体并存。教学用实际成功反馈、预算抱怨与本人回应推进，系列块写更新及观众角色期待，精选补充五种题材；结尾回收签名和课后提问。没有来源流水账，也未以无依据的黑料撑篇幅。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/xiangzi.md",
+          "contains": "2026 年 3 月，翔子连着发了"
+        },
+        {
+          "file": "src/people/xiangzi/xiangzi.md",
+          "contains": "秋天的翔子把更新节奏交给了飞行地板。"
+        },
+        {
+          "file": "src/people/xiangzi/xiangzi.md",
+          "contains": "翔子的空间门口写着“滚去学习”"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/441373876.json",
+    "src/people/xiangzi/2123451407-id.json",
+    "src/people/xiangzi/materials-xiangzi.md",
+    "src/people/xiangzi/xiangzi.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "a1c07c0d2b39d7cbfbaa93784c3ff5633f2e2c9c8c5d7e3a13be1355e6de8613",
+  "level": 1
+}

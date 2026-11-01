@@ -104,3 +104,13 @@ Garveen Doomsday：Obe 2026-10-10，5 条攻击者记录；代表 KM 139047582�
 
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：FRT及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
 - **KB（zKillboard）**：生涯击杀 11424，巴戈龙 763 次最多；2020-12 M2-XFE 首战 [KM 89616365](https://zkillboard.com/kill/89616365/) 勒维亚坦，2021-09 A1-AUH [KM 95187540](https://zkillboard.com/kill/95187540/) 奥尼克斯，2026-04 Atioth [KM 134566163](https://zkillboard.com/kill/134566163/) 勒维亚坦，2026-10 Obe [KM 139046684](https://zkillboard.com/kill/139046684/) 阔刀。
+
+## 凛冬固定清单核读补充（2026-10-30）
+
+- [主题24387](https://forums.winterco.org/t/topic/24387)：Garveen Airuta即慕容，角色ID2114279817与教程技能方案一致；唤风建号、导电与切窗教学归本人，回复五坑争论不作为违规认定。
+
+帖子正文及可见回复已核；作品、技术细目与图像阅读边界见[逐帖处置表](../../../docs/sources/winterco-communications.tsv)。新补情节采用作者自述与回帖各自归因，不据教程标题推定指挥战果。
+
+## AT19冠军与职责边界
+
+[黑莲冠军复盘](https://newedenpost.com/posts/fraternitys-atxix-victory-an-after-action-report-by-fubuki-waifu)记2023年春季队长杯后招入两位来自ST的前队友，其中之一为Garveen Airuta；本人头衔“AT19 FRT冠军队员”，既有官网FRT名单列名支持冠军队员身份。复盘队长为黑莲，不据队员名单推慕容率队夺冠或具体上场局数。招入、团队夺冠及本人只写冠军的头衔可入文，IT、申诉与纳瓦拉防火墙另按各条原帖归因，不能由KB巴戈龙数量反推防火墙职责。

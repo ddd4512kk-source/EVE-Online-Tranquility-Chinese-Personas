@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "evidence": [
+    "src/people/asunazx/materials-asunazx.md",
+    "src/people/asunazx/asunazx.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：1218参与击杀、约1627B，损失456、约5.87B，单杀59；银鹰、戴默斯、猛鲑级海军型等，Fraternity. 1205，2026-02为峰值后骤降，正文与之相符。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空；青春为军团创建者、另一人，素材明确非同一人。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "正文只写2026-02峰值与之后月份量级，均来自总览，无需核具体KM。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "本人角色在H-PA29、图尔鲁尔、X47、乌特拉、M-MD31、艾蒂斯六场pilots，正文以战役页标题口径点到且只认参战，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/materials-asunazx.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "“银鹰戴默斯，一千二百条击杀”为独立战绩块，综合船型、阵营归属、星系与大仗经历及峰值后停顿；位于CEO身份块之后，不属战绩散落。",
+      "evidence": [
+        {
+          "file": "src/people/asunazx/asunazx.md",
+          "contains": "旋转变幻这个号一千二百多次参与击杀"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/asunazx/2119592670-id.json",
+    "src/people/asunazx/asunazx.md",
+    "src/people/asunazx/materials-asunazx.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "e5de4d9b0d3d8571441dc9a01870cfdf3b23ebd0724186ce794aea33dc7dcda1",
+  "level": 1
+}

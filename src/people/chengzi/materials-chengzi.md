@@ -1,5 +1,7 @@
 # 橙子 / BIGORANGE6 TANORANGE
 
+- 2026-11-01起收录号改为ZS-The only love（2113753822），本人名下zKB参与击杀最多（2480）；原收录号BIGORANGE6 TANORANGE（2115027553，229）改登小号。
+
 ## 身份与职责
 
 - KZU前总监橙子，收录角色BIGORANGE6 TANORANGE（2115027553），[EveWho](https://evewho.com/character/2115027553)；本人B站账号[哒哒小橙子（UID289511974）](https://space.bilibili.com/289511974)。人物、角色与账号对应归同一人，不与无面者的憨憨橙子混同。

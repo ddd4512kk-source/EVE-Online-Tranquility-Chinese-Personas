@@ -1,6 +1,8 @@
 # 白井素材
 
-收录主号：jita ezra（2114511818）；别称“小小白”，与白井为同一人。小号：kazuha shirai（2116092520）、Lynn Mich（2113265419）、lucy lilith（2114724585）。
+- 2026-11-01起收录号改为kazuha shirai（2116092520），本人名下zKB参与击杀最多（620）；原收录号jita ezra（2114511818，25）改登小号。
+
+原收录号jita ezra（2114511818），现收录号kazuha shirai（2116092520）；别称“小小白”，与白井为同一人。小号：kazuha shirai（2116092520）、Lynn Mich（2113265419）、lucy lilith（2114724585）。
 
 - **白井与 NCT CEO**：[论坛账号 jita_ezra](https://forums.winterco.org/u/jita_ezra)对应主号 jita ezra；[该号雇佣记录](https://esi.evetech.net/latest/characters/2114511818/corporationhistory/)显示其 2019-10-09 至 2020-08-05 在 NCT，[2020 年 NCT 招新帖](https://forums.winterco.org/t/topic/4637)署“CEO：白井”。[DOTLAN 军团事件史](https://evemaps.dotlan.net/corp/Gaze_into_the_Abyss/events)记载游戏角色 CEO 依次为 omen Hilitari、kazuha shirai（2020-07-27 接任）、Lynn Mich（2020-11-11 接任）、roses mary（2021-03-03 接任）、lucy lilith（2024-03-17 接任）。kazuha shirai、Lynn Mich、lucy lilith 均为白井小号；omen Hilitari 的归属未定。roses mary 对应简素言。[NCT 的 EveWho 军团页](https://evewho.com/corporation/98614214)及[ESI 军团资料](https://esi.evetech.net/latest/corporations/98614214/)现列 lucy lilith 为 CEO。lucy lilith 于 2023-02-09 入团，只是该小号的雇佣起点。
 - **FC“小小白”**：[2020 年 NCT 招新帖](https://forums.winterco.org/t/topic/4637)并列署“军团/联盟FC：小小白；CEO：白井”，两处称呼对应同一人，均归入 jita ezra（2114511818）。该帖支持其公开 FC 任职，不据此补造具体指挥战役或把军团战果全归个人。

@@ -1,5 +1,7 @@
 <a id="wuhuarou"></a>
 
+- 2026-11-01起收录号改为Bigmeat FishnetWarrior（2114979825），本人名下zKB参与击杀最多（1917）；原收录号Bigmeat captionwang（2114965098，185）改登小号。
+
 ## 五花肉 / Bigmeat
 
 收录角色：**Bigmeat captionwang（2114965098）**，本人 QQ 名片备注“CSQY-五花肉/Bigmeat captionwang”，按主号收录。另有 **Bigmeat FishnetWarrior（2114979825）**（KB 最多）、**Bigmeat Bose（2114957492）**、**Supergod's Flesh ofFive（2114906577）**、**FRT Bigmeat（2117598987）**，五号游戏头衔同为“五花肉”，按同一人合并。曾任创世总监（任期未知）。

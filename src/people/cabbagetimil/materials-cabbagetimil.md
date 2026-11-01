@@ -1,5 +1,7 @@
 <a id="cabbagetimil"></a>
 
+- 2026-11-01起收录号改为CaiGou CabbageTimil（2116264387），本人名下zKB参与击杀最多（3664）；原收录号CabbageTimil（2116041057，2352）改登小号。
+
 ## 白菜 / CabbageTimil
 
 收录角色：**CabbageTimil（2116041057）**。已有[列传源文件](cabbagetimil.md)。

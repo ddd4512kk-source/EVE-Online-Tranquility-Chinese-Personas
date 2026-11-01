@@ -1323,7 +1323,28 @@
       ]
     }
   ],
-  "account_groups": [],
+  "account_groups": [
+    {
+      "label": "小寄寄 ALT",
+      "as_of": "2026-11-01",
+      "source": "docs/corporations/notes/member-research/98524084.md#吃瓜历史榜第51至100名头衔核读2026-11-01",
+      "scope": "同一外号头衔；号主分组，非当前军团快照",
+      "character_ids": [
+        "2118752151",
+        "2118752173"
+      ]
+    },
+    {
+      "label": "老九 ALT",
+      "as_of": "2026-11-01",
+      "source": "docs/corporations/notes/member-research/98524084.md#吃瓜历史榜第51至100名头衔核读2026-11-01",
+      "scope": "同一外号头衔；号主分组，非当前军团快照",
+      "character_ids": [
+        "2121803366",
+        "2121803423"
+      ]
+    }
+  ],
   "observations": [
     {
       "kind": "activity",

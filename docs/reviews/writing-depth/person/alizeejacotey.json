@@ -1,0 +1,84 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "evidence": [
+    "src/people/alizeejacotey/materials-alizeejacotey.md",
+    "src/people/alizeejacotey/alizeejacotey.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：简介长文、雇佣往返五次、建团与联盟历史、表哥职务、zKB画像均入文；贴吧无本人帖，无其他事件可补。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 身份、任职与收录"
+        },
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "只有CEO任职、换团经历与战斗转变，无重料。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ],
+      "noHeavyReason": "素材无社区帖、争议、封号或高值旗舰战果；建团当CEO与建团后击杀暴涨为职责画像，简介长文只作字面反差，不延伸现实立场。",
+      "items": [
+        {
+          "title": "建团后三个月击杀暴涨",
+          "weight": "ordinary",
+          "reason": "CEO本人战斗画像与转折。",
+          "source": {
+            "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/alizeejacotey/alizeejacotey.md",
+            "contains": "斯特这个号总共六百六十多次参与击杀"
+          },
+          "note": "按量级写转折。"
+        },
+        {
+          "title": "在别人团进出五回后自建军团",
+          "weight": "ordinary",
+          "reason": "CEO任职起点；换团本身不算料，作为建团前史融入。",
+          "source": {
+            "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/alizeejacotey/alizeejacotey.md",
+            "contains": "斯特 2020 年 10 月进 Faceless."
+          },
+          "note": "以建团与总监、招新官分工为落点。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "短篇两块均落在CEO建团与上线转变，评语回扣简介宏大叙事与“当了CEO才开始上班”；无重料可失衡。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/alizeejacotey.md",
+          "contains": "斯特在简介里写了一整篇宏大叙事"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/alizeejacotey/2117717715-id.json",
+    "src/people/alizeejacotey/alizeejacotey.md",
+    "src/people/alizeejacotey/materials-alizeejacotey.md"
+  ],
+  "inputs": "f1c916fbc48cd6ab6b0a24422ca92d4104d6cea209c6387cc3fc728e075be406",
+  "level": 1
+}

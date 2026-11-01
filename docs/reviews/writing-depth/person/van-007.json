@@ -1,0 +1,275 @@
+{
+  "status": "reviewed",
+  "note": "已逐件审阅完整素材与正文及页首锐评，新故土事件完整展开，旧统计与时间误差已修正，主线和评语相符",
+  "evidence": [
+    "src/people/van-007/materials-van-007.md",
+    "src/people/van-007/van-007.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "已通读完整正文和本人素材：综合战绩、打蓝与招新警告、多家联盟拒收及创世关系、冒名辟谣、故土求饶甩锅入团、封号传闻和游戏儿子调侃均有归位。新增截图的关键话轮与回传反应已入文；牧星阶段、精确聊天日期、实际入团结果不具依据，留素材不补造。旧创世日期混配、47张误加和30T未损失断言已修正。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 故土本地向 7.62 求饶、求加入与甩锅火锅"
+        },
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 贴吧事件与本人回应"
+        },
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 打蓝记录及旧文统计校正"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核过分量；打蓝及信誉、多圈拒收与收留、故土求饶甩锅是重料，均有不同方向推进。其他事件按实际分量采用，未把封号传闻写成实锤封禁，未把单场参战拆成独立故事。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 故土本地向 7.62 求饶、求加入与甩锅火锅"
+        },
+        {
+          "file": "src/people/van-007/materials-van-007.md",
+          "heading": "## 贴吧事件与本人回应"
+        }
+      ],
+      "items": [
+        {
+          "title": "长期作战画像与数字小号",
+          "weight": "ordinary",
+          "reason": "综合战绩是人物本业画像，不将普通参战提升为重大个人功绩。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 游戏画像与已有战役"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "他的底子在 00 区"
+          },
+          "development": [],
+          "note": "以长期地域、队伍规模、小号延续及修船成本说明实战老手，连接后文求饶反差，未逐场列账。"
+        },
+        {
+          "title": "打蓝记录与退舰队反打信誉",
+          "weight": "heavy",
+          "reason": "退舰队向自己人开火及被救后反打的指控直接影响招新信誉，也是全篇拒收主线的原因。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 贴吧事件与本人回应"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "这些标签之外，更难摆脱的是人给他留下的招新评语"
+          },
+          "development": [
+            {
+              "angle": "分量",
+              "note": "从蓝加信用解释打自己人为何不同于一般损失，未将39张标签全判恶意。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "先坏掉的是蓝加那层信用"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "老队友原应背书，却先给下一家招新官报警，老资历和信任脱节。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "别人的老队友能当推荐人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "用实际招新帖警告落到入团评价，而非只念击杀记录。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "一旦成了入团前必问的题"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "旧账本已改为记录、行为指控、社区信誉的连续推进；细目不另添动机，统计和社区指控分开。"
+        },
+        {
+          "title": "多圈拒收与创世收留争议",
+          "weight": "heavy",
+          "reason": "严重公共口碑、被多圈排斥及两千愿意收留形成持久关系冲突，不是普通换团。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 列传中已有的公开来源链接"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "2026 年 2 月，贴吧一篇"
+          },
+          "development": [
+            {
+              "angle": "反应与后果",
+              "note": "主楼拒收指控、楼下追问及慕容评价形成实际社区反应。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "楼下有人不解"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "以AT冠军拿洗机库作垫底呈现口碑严重程度，未补造当事人原话。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "一位 AT 冠军把"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "同一份履历在外人眼里是麻烦，在两千关系里能换桌继续坐，解释收留争议。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "外面的人算的是这个队友会惹多少麻烦"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "已有报价式引文后接关系和利益点评，旧雇佣记录误配已撤，不再用假日期替帖中关系背书。"
+        },
+        {
+          "title": "辟谣变成集体冒名",
+          "weight": "ordinary",
+          "reason": "公开辟谣被集体起哄，体现社区形象；未出现更重损害，不另抬成重大身份事件。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 贴吧事件与本人回应"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "一个月后，贴吧账号 appleld007"
+          },
+          "development": [],
+          "note": "保留求职警告、本人辟谣、排队冒名、截图证明反被问配置的完整反转；没有将疑似山寨VAN007归为本人。"
+        },
+        {
+          "title": "故土求饶甩锅并求加入7.62",
+          "weight": "heavy",
+          "reason": "与火锅共同行动后当面对敌方求饶、甩锅并提出入团，且被转回火锅，构成具体关系冲突与公开难堪。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 故土本地向 7.62 求饶、求加入与甩锅火锅"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "2025 年，007 和"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "与火锅在故土刷钱但敌方不肯停火，钱包压力将联盟争执变为个人求饶。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "本地频道就成了他的临时外交部"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "把自己摆成能养肥再杀的目标，解释争取继续刷钱及延期结账的算盘。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "007 把自己往未来的肥肉上摆"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "同伴变甩锅对象，自称无辜、劝谏、认朋友和拜师逐层推进。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "上一刻还和火锅一起刷"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "贴军团求入团、迎合玩笑再到Pugnacious Rex转发和Zeus笑哭，有真实回传结果。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "可这份诚意没留在招新窗口"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "van's home从退路变为递交敌方的申请，与全文家门意象互相照应。",
+              "evidence": {
+                "file": "src/people/van-007/van-007.md",
+                "contains": "别人拿军团当家，他把家直接搬到对面门口"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "求饶、甩锅、求加入和被传回的完整弧线均展开；没有宣告实际加入，不把007的收钱猜测写成火锅收钱事实，未把截图预览当精确聊天日期。"
+        },
+        {
+          "title": "封号三十万亿传闻与显卡回应",
+          "weight": "ordinary",
+          "reason": "实际封号和资产损失未坐实，故事分量来自传闻、本人回应与再上线的反转，不按真实大额封禁判重。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 贴吧事件与本人回应"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "封号的事很快有了本人回应"
+          },
+          "development": [],
+          "note": "保留传闻、蓝加误炸旧事、显卡回应与再上线；结尾不再断言30T未损失。"
+        },
+        {
+          "title": "游戏儿子与两千关系的调侃",
+          "weight": "ordinary",
+          "reason": "游戏内认亲和两千留人被楼下反向调侃，是既有关系的补充，不新增现实关系或独立重大黑料。",
+          "source": {
+            "file": "src/people/van-007/materials-van-007.md",
+            "heading": "## 贴吧事件与本人回应"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/van-007/van-007.md",
+            "contains": "吧里关于他的传说还有一条"
+          },
+          "development": [],
+          "note": "以两千愿为他不玩游戏及评论反转收束，同创世收留争议呼应，未扩为现实亲属。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全文保留盘古/FRT老玩家、作战能力、打蓝口碑和辗转关系主线。新故土事件篇幅承担求饶—甩锅—递申请—转回火锅的层层推进，评语以van's home回扣入团申请，未让战绩数字盖过人物冲突；旧块均保留且已修正文事实误差。",
+      "evidence": [
+        {
+          "file": "src/people/van-007/van-007.md",
+          "contains": "家门朝哪边开，得看今天谁肯放他一马"
+        },
+        {
+          "file": "src/people/van-007/van-007.md",
+          "contains": "普通人求饶是让人别开火"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/van-007/90931436-id.json",
+    "src/people/van-007/materials-van-007.md",
+    "src/people/van-007/van-007.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "ec86fdadbf55f80aa730358041c8b274c71775c04557c5fedc941f0c91c73508",
+  "level": 1
+}

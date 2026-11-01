@@ -1,0 +1,104 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "evidence": [
+    "src/people/la-rusa/materials-la-rusa.md",
+    "src/people/la-rusa/la-rusa.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读正文与素材：军团简介全文、雇佣记录、个人简介、六条结构KM、Obe泰坦KM、阿巴宗参战均入文；旧招新帖不归本人未写正确。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## 2026-11-01补充"
+        },
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## KB与已确认经历"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "事件为结构击杀、泰坦参与与军团简介，无本人重大争议。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/materials-la-rusa.md",
+          "heading": "## KB与已确认经历"
+        }
+      ],
+      "noHeavyReason": "无社区争议或本人重大言行；泰坦击杀为参与（伤害835），结构KM为随队参与，均按红料战果写，不抬为重事。",
+      "items": [
+        {
+          "title": "J132601一天拆四栋建筑",
+          "weight": "ordinary",
+          "reason": "代表性虫洞拆房战斗，本人非最后一击。",
+          "source": {
+            "file": "src/people/la-rusa/materials-la-rusa.md",
+            "heading": "## KB与已确认经历"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/la-rusa/la-rusa.md",
+            "contains": "真正的大活在五天后"
+          },
+          "note": "时间、估值与伤害准确。"
+        },
+        {
+          "title": "参与Obe泰坦击杀",
+          "weight": "ordinary",
+          "reason": "高值旗舰击杀算红料，但本人只是参与。",
+          "source": {
+            "file": "src/people/la-rusa/materials-la-rusa.md",
+            "heading": "## KB与已确认经历"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/la-rusa/la-rusa.md",
+            "contains": "2026 年 10 月 10 日，Obe 那场"
+          },
+          "note": "如实写伤害零头。"
+        },
+        {
+          "title": "“This is a CN corp”与CEO职务",
+          "weight": "ordinary",
+          "reason": "CEO任职依据与洋人团出身的反差。",
+          "source": {
+            "file": "src/people/la-rusa/materials-la-rusa.md",
+            "heading": "## 2026-11-01补充"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/la-rusa/la-rusa.md",
+            "contains": "在洋人团里拆了两年房子"
+          },
+          "note": "简介原文入文。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "三块分写洋人团拆房、只收中文的CEO与戳泰坦，评语串起反差，比例合适。",
+      "evidence": [
+        {
+          "file": "src/people/la-rusa/la-rusa.md",
+          "contains": "奈何在英文虫洞团里学会了拆房子"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/la-rusa/2118160416-id.json",
+    "src/people/la-rusa/la-rusa.md",
+    "src/people/la-rusa/materials-la-rusa.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
+  ],
+  "inputs": "e8d1ea24257bb22e8fc68d6b7f926a95cc1937dc3c8713c4630ba3c5dffb26ad",
+  "level": 1
+}

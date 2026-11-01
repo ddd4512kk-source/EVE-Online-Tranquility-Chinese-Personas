@@ -1,0 +1,74 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "evidence": [
+    "src/people/ling-li/materials-ling-li.md",
+    "src/people/ling-li/ling-li.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：863参与击杀、约186B，损失227、约35.4B；送葬者级海军型、台风、厄里斯、咒灭、维德马克、实践，Goonswarm 835，2025-12起月数上升，正文“什么船都补位、在蜂群越打越勤”相符。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空，素材未确认小号；建团者为已删除的另一角色。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "正文只用月份量级，无需核代表KM；补位按船型写，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "本人角色在Atioth 2026的pilots，正文只写战报有名；军团十余场未归本人。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/materials-ling-li.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后首块“蜂群里越打越勤”为独立战绩块，综合船型、补位风格、星系与月份变化。",
+      "evidence": [
+        {
+          "file": "src/people/ling-li/ling-li.md",
+          "contains": "绫里这个号八百六十多次参与击杀"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/ling-li/2118587871-id.json",
+    "src/people/ling-li/ling-li.md",
+    "src/people/ling-li/materials-ling-li.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "ee5dafa43290a20718c1dd9f4d0ab50ecc339fc5e99ec4ba8f11957b9af61097",
+  "level": 1
+}

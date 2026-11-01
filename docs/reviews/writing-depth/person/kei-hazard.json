@@ -1,0 +1,221 @@
+{
+  "status": "reviewed",
+  "note": "整篇重写后逐项核读",
+  "evidence": [
+    "src/people/kei-hazard/materials-kei-hazard.md",
+    "src/people/kei-hazard/kei-hazard.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读素材四节与B站摘记：联盟赛解说十年、组织ATXVI与16强、配置区课代表、反诱导论战、更新日志系列、外围solo与毒蝎之死、上电视与Fanfest均入文；13602/13616涉现实私事未收，泰坦首杀等入B站精选。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "heading": "## 凛冬论坛：联盟赛"
+        },
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "heading": "## 凛冬论坛：配置、教学与杂帖"
+        },
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "heading": "## B站作品摘记（2026-11-01）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "两件重红料（解说十年、组织FRT打进16强）展开；其余为普通料，各成一段小故事。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "contains": "14201 ATXVI 预热"
+        }
+      ],
+      "noHeavyReason": "",
+      "items": [
+        {
+          "title": "联盟赛中文解说十年",
+          "reason": "华人圈持续最久的AT中文解说，社区公认，带动他人办赛",
+          "note": "从2017录音事故、自我介绍、带动5V5循环战写到2026年ATXXII切片与AG7出差，贴吧推荐收尾。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "14201 ATXVI 预热"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "联盟赛（Alliance Tournament，AT）是 CCP 官方"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "AT半夜开赛、独立服务器，中国玩家熬夜看",
+              "evidence": {
+                "file": "src/people/kei-hazard/kei-hazard.md",
+                "contains": "比赛时间对中国玩家来说总在半夜"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "每年签名说来年再见，每年都回来",
+              "evidence": {
+                "file": "src/people/kei-hazard/kei-hazard.md",
+                "contains": "每年都说再见，每年都回来"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "澳洲时区玩家受其直播鼓舞办5V5循环战",
+              "evidence": {
+                "file": "src/people/kei-hazard/kei-hazard.md",
+                "contains": "这也是我的动力之一"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "组织FRT打ATXVI进16强",
+          "reason": "本人组织报名、训练与须知，联盟追平最好成绩",
+          "note": "报名专精、我=w=、训练表三连、须知泼冷水、首胜十张皮肤分频道、16强与置顶评论。",
+          "weight": "heavy",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "14505"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "2018 年春天，“有可能是我来组织”成了真"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "兑现上一年“有可能是我来组织”",
+              "evidence": {
+                "file": "src/people/kei-hazard/kei-hazard.md",
+                "contains": "有可能是我来组织”成了真"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "须知里自认没有大神，结果打进16强",
+              "evidence": {
+                "file": "src/people/kei-hazard/kei-hazard.md",
+                "contains": "给 FRT 泼冷水的话"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "16强后置顶又骂又夸、D Manson刷支持",
+              "evidence": {
+                "file": "src/people/kei-hazard/kei-hazard.md",
+                "contains": "妈的 最菜联盟 竟然进入了16强？"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "配置课代表",
+          "reason": "凛冬配置区主力，影响新人",
+          "note": "14043提问技巧、反问、4+4+4+2、免责、快帅酷队、劳务费、角速度视频。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "14043"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "凛冬论坛配置区差不多是他一个人撑起来的"
+          }
+        },
+        {
+          "title": "反诱导不是长城",
+          "reason": "论坛与新人方案的公开论战",
+          "note": "保留原话、耐心递减和一个月后删吐槽的呼应。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "14498"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "有新人在论坛提议给刷怪挖矿的同胞上双保险"
+          }
+        },
+        {
+          "title": "更新日志两年",
+          "reason": "长期系列视频与谢幕评论",
+          "note": "系列内容、实验室副线、最后一期交接与评论。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "系列最后一期"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "2019 年 9 月起，他开了一档【EVE更新日志】"
+          }
+        },
+        {
+          "title": "外围solo与海军毒蝎之死",
+          "reason": "本人战斗风格与同名船被大航击杀",
+          "note": "与KB画像合并成战绩块。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "沉重悼念 周树人先生"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "账号叫毒蝎，他最惨的一次也栽在毒蝎上"
+          }
+        },
+        {
+          "title": "上电视与Fanfest",
+          "reason": "轻料，入评",
+          "note": "最菜联盟群与看来是没人了。",
+          "weight": "light",
+          "source": {
+            "file": "src/people/kei-hazard/materials-kei-hazard.md",
+            "contains": "14537"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/kei-hazard/kei-hazard.md",
+            "contains": "你们又上电视了"
+          }
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主线为联盟赛解说与组织，开篇与评都落在这条线上；配置、论战、更新日志为侧面，战绩块按画像不压主线。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/kei-hazard.md",
+          "contains": "他一个人把一项"
+        },
+        {
+          "file": "src/people/kei-hazard/kei-hazard.md",
+          "contains": "别人看完比赛就睡了，他还得醒来切片"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/kei-hazard/92761922-id.json",
+    "src/people/kei-hazard/kei-hazard.md",
+    "src/people/kei-hazard/materials-kei-hazard.md"
+  ],
+  "inputs": "1176638aee4dfb3292be33f9aeaf28d3d894d2b5bdce13a48aaaabd7fe176083",
+  "level": 1
+}

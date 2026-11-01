@@ -1,5 +1,7 @@
 <a id="gongcheng-xiangmu"></a>
 
+- 2026-11-01起收录号改为Target Chaser（95601799），本人名下zKB参与击杀最多（5419）；原收录号obyta（208043276，2858）改登小号。
+
 ## 工程项目 / obyta
 
 收录角色：**obyta（208043276）**，2005-03-22 建号，头衔“工程项目 帝皇之手 暗夜潜者”，简介“没有太过庞大的牺牲，也没有太过微小的背叛”。现属 Emperor Scythes（98715582，帝皇之镰，ES，2022-06-14 建团，创建者 Program Treasury 2120097335，现 CEO Hoshino X 2120556332，648 人），The Initiative.。已有[列传源文件](gongcheng-xiangmu.md)。

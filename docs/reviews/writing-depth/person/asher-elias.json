@@ -1,0 +1,179 @@
+{
+  "status": "reviewed",
+  "note": "独立复核本轮正文与保存材料；范围及后续缺口见逐项判断",
+  "evidence": [
+    "src/people/asher-elias/materials-asher-elias.md",
+    "src/people/asher-elias/asher-elias.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读全篇与本人材料以核原主线保留。本次增量判断严格覆盖2024公开信及新修综合画像；旧文其他独立故事未作全篇发挥合格认证。后续仍需按旧篇批次扩审WWB2教科书评价、迁都等短重料；未核节目一句话不能替代原节目调查。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "### 2024 年公开信原帖与开发商回应"
+        },
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "## 料与分量"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本轮事件按本人公开观点及角色画像判断：不把附议头衔或普通参战硬抬成新丑闻，不把CCP回应写成已经改数值。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "### 2024 年公开信原帖与开发商回应"
+        }
+      ],
+      "items": [
+        {
+          "title": "公开信的经济诉求与跨阵营支持",
+          "weight": "heavy",
+          "reason": "本人发起的集团级公开诉求获华人对手及开发商正式回应，具体观点影响联盟空间和战争可持续性。",
+          "source": {
+            "file": "src/people/asher-elias/materials-asher-elias.md",
+            "heading": "### 2024 年公开信原帖与开发商回应"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/asher-elias/asher-elias.md",
+            "contains": "2024 年 7 月，阿舍在 Reddit"
+          },
+          "note": "由原来联署摘要展开为领土模式、矿石操作与旗舰补损、对手附议及CCP回应；未造后续政策兑现。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "以管理地图的实际难题写改版压力。",
+              "evidence": {
+                "file": "src/people/asher-elias/asher-elias.md",
+                "contains": "CCP 到底希望联盟在少数星系里集中经营"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "可负担损失与下一场战争联系，超出空喊增产。",
+              "evidence": {
+                "file": "src/people/asher-elias/asher-elias.md",
+                "contains": "指挥能替成员安排一场值得记住的战争"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "扩张领袖为新人留地，与敌人一起找开发商形成双层反差。",
+              "evidence": {
+                "file": "src/people/asher-elias/asher-elias.md",
+                "contains": "平时号召成员出门拆别人的皇帝"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "明确内外讨论与预期沟通，未声称修改承诺。",
+              "evidence": {
+                "file": "src/people/asher-elias/asher-elias.md",
+                "contains": "CCP Arcade 随后正式回应"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "从参战者到皇帝仍亲自带队的综合画像",
+          "weight": "ordinary",
+          "reason": "长期角色和职责成长，不把一般参战拼成独立重丑闻。",
+          "source": {
+            "file": "src/people/asher-elias/materials-asher-elias.md",
+            "heading": "## 检索记录（2026-10-09）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/asher-elias/asher-elias.md",
+            "contains": "阿舍的战绩有一条线从头拉到尾"
+          },
+          "note": "总览先定集体战与指挥分量，B-R/M2写角色成长，登基后仍在场及4-H小船写身份反差，压掉原逐场KM/金额清单。",
+          "development": []
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "新内容为已有阵营冲突补上开发商面前的合作一面，综合画像位置修正后交代人物本业；未撤旧主体，也未把公开信赞同写成永久结盟。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/asher-elias.md",
+          "contains": "阿舍的战绩有一条线从头拉到尾"
+        },
+        {
+          "file": "src/people/asher-elias/asher-elias.md",
+          "contains": "2024 年 7 月，阿舍在 Reddit"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "src/people/asher-elias/1687651723-id.json",
+    "src/people/asher-elias/asher-elias.md",
+    "src/people/asher-elias/materials-asher-elias.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.json",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.md",
+    "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md",
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md",
+    "src/battles/yz9-f6-2020/yz9-f6-2020.json",
+    "src/battles/yz9-f6-2020/yz9-f6-2020.md",
+    "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
+  ],
+  "inputs": "f0383968456e07e5e582a1a680ba4fd0f19badd39387fc2ce611faac166efe5b",
+  "level": 1
+}

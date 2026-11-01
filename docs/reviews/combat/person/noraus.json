@@ -1,0 +1,152 @@
+{
+  "status": "reviewed",
+  "note": "独立核读主小号综合KB、封禁边界及代表损失和战役角色，生成页通过。",
+  "evidence": [
+    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/1618197191-id.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/noraus/noraus.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核收录号1479/560约1.06T和主力号结构，正文量级与长期联盟指挥相符；主号封禁与角色后来留下的战绩分开，不据角色统计宣称旧主人持续驾驶。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/1618197191-id.json",
+          "contains": "\"identity\": {"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "contains": "**买金永封（2026-10-15 定为事实）**"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "nextorian1890/657约1.19T、10seconds481/813约329B、Randolph586/365约427B均已核；larren lawson22/171约36B为已确认低额号不强求细目，noarus明确属于光头，不混入。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/1618197191-id.json",
+          "contains": "\"identity\": {"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 2026-10-11：小号对应补录"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 2026-10-16：光头的高仿号 noarus 与访谈"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "Randolph归魂者及Slasher蓝图损失、UALX使徒、10seconds常用船和本人纳瓦拉/Eruka错跳复盘已有证据。代表事件无需新月份查询，公开33泰坦与8T写为本人公布联盟战果。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 2017 归魂者损失（2026-10-15）"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 已对应小号的战役复查（2026-10-11）"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 2022年二月两场攻防原文复读（2026-10-21）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照15场既有关联，主号文本点名与nextorian、10seconds、larren实际驾驶分开；FWST职责依据本人第一人称复盘、UALX另由Randolph使徒KM，未把当前组织反推旧战时。其余普通参战不逐场另写，金额不累加为个人战果。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## FWST 两轮：2020-10-05 与 10-06—07"
+        },
+        {
+          "file": "src/people/noraus/materials-noraus.md",
+          "heading": "## 已对应小号的战役复查（2026-10-11）"
+        },
+        {
+          "file": "src/battles/x47l-q-2023/x47l-q-2023.json",
+          "contains": "\"2119358424\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "主号封后仍换号上船的综合块现紧接开篇，主小号总览、常用船和长期下令/复盘画像相连；具体翻车、重大资产损失与战争失败保留后文，不被KPI增量掩盖。",
+      "evidence": [
+        {
+          "file": "src/people/noraus/noraus.md",
+          "contains": "N老板的 [主号]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/noraus-ray-dispute-2026-05.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "docs/sources/sgcn-dread-discipline-2026.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/people/noraus/1618197191-id.json",
+    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/noraus.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/ualx-3-2018/ualx-3-2018.json",
+    "src/battles/ualx-3-2018/ualx-3-2018.md",
+    "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "769a77aa7aaad2028a9d81fabb3c81192994972b55acb1469f8f6cec6ada4a0e",
+  "level": 1
+}

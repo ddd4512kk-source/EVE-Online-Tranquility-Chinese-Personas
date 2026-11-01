@@ -1,0 +1,71 @@
+{
+  "status": "reviewed",
+  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "evidence": [
+    "src/people/alizeejacotey/materials-alizeejacotey.md",
+    "src/people/alizeejacotey/alizeejacotey.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：662参与击杀、约237B，损失165、约7.8B；送葬者级海军型、短剑、飓风级舰队型，2026-08/09/10为165/248/121，正文“三个月占八成、此前月均几条”与月份数据相符。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空；表哥为另一人（招新官／总监），素材明确非同一人。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 身份、任职与收录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "正文以月份量级写建团前后对比，无需核代表KM；短剑按抓人位置写，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 采用范围与缺口"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "军团98841123出现在8F-TK3 2026，本人角色不在pilots；正文未写任何战役参战。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/materials-alizeejacotey.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后首块“三个月五百多条击杀”为独立战绩块，综合船型、星系、联盟子榜与建团前后转变。",
+      "evidence": [
+        {
+          "file": "src/people/alizeejacotey/alizeejacotey.md",
+          "contains": "斯特这个号总共六百六十多次参与击杀"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/alizeejacotey/2117717715-id.json",
+    "src/people/alizeejacotey/alizeejacotey.md",
+    "src/people/alizeejacotey/materials-alizeejacotey.md"
+  ],
+  "inputs": "f1c916fbc48cd6ab6b0a24422ca92d4104d6cea209c6387cc3fc728e075be406",
+  "level": 1
+}

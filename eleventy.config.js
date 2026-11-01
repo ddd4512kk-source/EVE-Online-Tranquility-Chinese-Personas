@@ -1,26 +1,27 @@
-import markdownItContainer from "markdown-it-container";
-import fs from "node:fs";
-import path from "node:path";
-import { glossaryEntries, glossaryLinks } from "./scripts/glossary.mjs";
-import { TIERS, formatIsk, sideStats } from "./scripts/battles.mjs";
-import { identityNames } from "./scripts/person-identity.mjs";
+import { groupBattleTags } from './scripts/battle-tags.mjs';
+import markdownItContainer from 'markdown-it-container';
+import fs from 'node:fs';
+import path from 'node:path';
+import { glossaryEntries, glossaryLinks } from './scripts/glossary.mjs';
+import { formatIsk, sideStats } from './scripts/battles.mjs';
+import { identityNames } from './scripts/person-identity.mjs';
 
 // 所有日期按 EVE 时间（UTC）显示
-const pad = (n) => String(n).padStart(2, "0");
-const utc = (iso) => (iso ? new Date(iso) : null);
+const pad = n => String(n).padStart(2, '0');
+const utc = iso => (iso ? new Date(iso) : null);
 
 export default function (eleventyConfig) {
-  eleventyConfig.addGlobalData("glossaryEntries", glossaryEntries);
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" }, {
-    filter: ["**/*", "!**/AGENTS.md", "!**/CLAUDE.md"],
+  eleventyConfig.addGlobalData('glossaryEntries', glossaryEntries);
+  eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' }, {
+    filter: ['**/*', '!**/AGENTS.md', '!**/CLAUDE.md'],
   });
-  eleventyConfig.ignores.add("**/AGENTS.md");
-  eleventyConfig.ignores.add("**/CLAUDE.md");
+  eleventyConfig.ignores.add('**/AGENTS.md');
+  eleventyConfig.ignores.add('**/CLAUDE.md');
   // Service Worker 必须放在站点根目录，才能管到全站的头像与字体
-  eleventyConfig.addPassthroughCopy({ "src/sw.js": "sw.js" });
-  for (const person of fs.readdirSync("src/people", { withFileTypes: true })) {
+  eleventyConfig.addPassthroughCopy({ 'src/sw.js': 'sw.js' });
+  for (const person of fs.readdirSync('src/people', { withFileTypes: true })) {
     if (!person.isDirectory()) continue;
-    for (const file of fs.readdirSync(path.join("src/people", person.name))) {
+    for (const file of fs.readdirSync(path.join('src/people', person.name))) {
       const match = file.match(/^portrait-(\d+)\.jpg$/);
       if (match) {
         eleventyConfig.addPassthroughCopy({
@@ -29,34 +30,34 @@ export default function (eleventyConfig) {
       }
     }
   }
-  eleventyConfig.ignores.add("src/people/*/materials-*.md");
-  eleventyConfig.ignores.add("src/people/_*.md");
-  eleventyConfig.ignores.add("src/battles/*/materials-*.md");
-  eleventyConfig.ignores.add("src/battles/_*/**");
-  eleventyConfig.ignores.add("src/battles/*/_*.md");
+  eleventyConfig.ignores.add('src/people/*/materials-*.md');
+  eleventyConfig.ignores.add('src/people/_*.md');
+  eleventyConfig.ignores.add('src/battles/*/materials-*.md');
+  eleventyConfig.ignores.add('src/battles/_*/**');
+  eleventyConfig.ignores.add('src/battles/*/_*.md');
 
-  eleventyConfig.amendLibrary("md", (md) => {
+  eleventyConfig.amendLibrary('md', md => {
     // 中文写作不手动折行：单个换行即换行（聊天记录可逐行书写）
     md.set({ breaks: true });
     // ::: 评 … ::: —— 锐评块，渲染为“朱批”
-    md.use(markdownItContainer, "评", {
+    md.use(markdownItContainer, '评', {
       render: (tokens, idx) =>
         tokens[idx].nesting === 1
           ? '<aside class="zhupi"><span class="zhupi-mark" data-pagefind-ignore>评曰</span>\n'
-          : "</aside>\n",
+          : '</aside>\n',
     });
     // ::: 红料 [标题] … :::（正面）与 ::: 黑料 [标题] … :::（负面），每块一条
-    for (const [kind, cls] of [["红料", "liao-hong"], ["黑料", "liao-hei"]]) {
+    for (const [kind, cls] of [['红料', 'liao-hong'], ['黑料', 'liao-hei']]) {
       const re = new RegExp(`^${kind}(?:\\s+(.*))?$`);
       md.use(markdownItContainer, kind, {
-        validate: (params) => re.test(params.trim()),
+        validate: params => re.test(params.trim()),
         render: (tokens, idx) => {
-          if (tokens[idx].nesting !== 1) return "</section>\n";
+          if (tokens[idx].nesting !== 1) return '</section>\n';
           const title = tokens[idx].info.trim().match(re)[1];
           return (
             `<section class="liao ${cls}"><h3 class="liao-head"><span class="liao-badge" data-pagefind-ignore>${kind[0]}</span>` +
             (title ? md.utils.escapeHtml(title) : kind) +
-            "</h3>\n"
+            '</h3>\n'
           );
         },
       });
@@ -65,8 +66,8 @@ export default function (eleventyConfig) {
   });
 
   // 列传集合：按主角色创号时间升序
-  eleventyConfig.addCollection("people", (api) => {
-    const people = api.getFilteredByGlob("src/people/*/*.md");
+  eleventyConfig.addCollection('people', api => {
+    const people = api.getFilteredByGlob('src/people/*/*.md');
     for (const p of people) {
       if (!p.data.char) {
         throw new Error(
@@ -82,33 +83,21 @@ export default function (eleventyConfig) {
   });
 
   // 战役集合：按开打日期倒序（最近的在前）
-  eleventyConfig.addCollection("battles", (api) =>
+  eleventyConfig.addCollection('battles', api =>
     api
-      .getFilteredByGlob("src/battles/*/*.md")
-      .sort((a, b) => b.data.startYmd.localeCompare(a.data.startYmd) || a.data.title.localeCompare(b.data.title, "zh")),
+      .getFilteredByGlob('src/battles/*/*.md')
+      .sort((a, b) => b.data.startYmd.localeCompare(a.data.startYmd) || a.data.title.localeCompare(b.data.title, 'zh')),
   );
 
-  // 战役目录的标签栏：规模档位在前（史诗→中型），其余按场数多少
-  eleventyConfig.addCollection("battleTags", (api) => {
-    const counts = new Map();
-    for (const b of api.getFilteredByGlob("src/battles/*/*.md")) {
-      for (const t of b.data.labels ?? []) counts.set(t, (counts.get(t) ?? 0) + 1);
-    }
-    const tierRank = (t) => {
-      const i = TIERS.findIndex((x) => x.name === t);
-      return i < 0 ? TIERS.length : i;
-    };
-    return [...counts]
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => tierRank(a.name) - tierRank(b.name) || b.count - a.count || a.name.localeCompare(b.name, "zh"));
-  });
+  // 四个分类独立展示，联盟含本场全部参战记录。
+  eleventyConfig.addCollection('battleTagGroups', api => groupBattleTags(api.getFilteredByGlob('src/battles/*/*.md')));
 
   // 标签 → 人物列表（保持创号时间顺序）
-  eleventyConfig.addCollection("tagMap", (api) => {
+  eleventyConfig.addCollection('tagMap', api => {
     const map = new Map();
     const people = api
-      .getFilteredByGlob("src/people/*/*.md")
-      .filter((p) => p.data.char)
+      .getFilteredByGlob('src/people/*/*.md')
+      .filter(p => p.data.char)
       .sort((a, b) => Date.parse(a.data.char.birthday) - Date.parse(b.data.char.birthday));
     for (const p of people) {
       for (const t of p.data.labels ?? []) {
@@ -118,19 +107,19 @@ export default function (eleventyConfig) {
     }
     return [...map]
       .map(([name, items]) => ({ name, items }))
-      .sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name, "zh"));
+      .sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name, 'zh'));
   });
 
-  eleventyConfig.addFilter("ymd", (iso) => {
+  eleventyConfig.addFilter('ymd', iso => {
     const d = utc(iso);
-    return d ? `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())}` : "";
+    return d ? `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())}` : '';
   });
-  eleventyConfig.addFilter("ym", (iso) => {
+  eleventyConfig.addFilter('ym', iso => {
     const d = utc(iso);
-    return d ? `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}` : "";
+    return d ? `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}` : '';
   });
   // 按创号年份分组（输入已按创号时间排序）
-  eleventyConfig.addFilter("groupByYear", (people) => {
+  eleventyConfig.addFilter('groupByYear', people => {
     const groups = [];
     for (const p of people) {
       const year = utc(p.data.char.birthday).getUTCFullYear();
@@ -139,35 +128,35 @@ export default function (eleventyConfig) {
     }
     return groups;
   });
-  eleventyConfig.addFilter("json", (v) => JSON.stringify(v));
-  eleventyConfig.addFilter("isk", formatIsk);
+  eleventyConfig.addFilter('json', v => JSON.stringify(v));
+  eleventyConfig.addFilter('isk', formatIsk);
   // 分方人数、损失金额与计数，目录和详情不省略缺项。
-  eleventyConfig.addFilter("sideStats", sideStats);
+  eleventyConfig.addFilter('sideStats', sideStats);
   // 跨板块互链：某人参与过的战役、按角色 ID 找列传
   // 双向：战役参战名单或正文点名了此人，或此人列传正文链到该战役页
-  eleventyConfig.addFilter("battlesOf", (battles, id, bio = "") =>
-    (battles ?? []).filter((b) => b.data.peopleIds?.includes(Number(id)) || String(bio).includes(`/battles/${b.page.fileSlug}/`)),
+  eleventyConfig.addFilter('battlesOf', (battles, id, bio = '') =>
+    (battles ?? []).filter(b => b.data.peopleIds?.includes(Number(id)) || String(bio).includes(`/battles/${b.page.fileSlug}/`)),
   );
-  eleventyConfig.addFilter("personById", (people, id) =>
-    people.find((p) => p.data.character_id === Number(id)),
+  eleventyConfig.addFilter('personById', (people, id) =>
+    people.find(p => p.data.character_id === Number(id)),
   );
-  eleventyConfig.addFilter("glossaryUsed", (content) =>
-    glossaryEntries.filter((entry) => String(content).includes(`data-glossary-id="${entry.id}"`)),
+  eleventyConfig.addFilter('glossaryUsed', content =>
+    glossaryEntries.filter(entry => String(content).includes(`data-glossary-id="${entry.id}"`)),
   );
   // 供首页即时筛选用的检索串
-  eleventyConfig.addFilter("searchKey", (d) =>
+  eleventyConfig.addFilter('searchKey', d =>
     [d.cn_name, d.char?.name, ...(d.aliases ?? []), ...identityNames(d.identity), ...(d.labels ?? []), d.epithet]
       .filter(Boolean)
-      .join(" ")
+      .join(' ')
       .toLowerCase(),
   );
 
   return {
-    dir: { input: "src", includes: "_includes", data: "_data", output: "_site" },
+    dir: { input: 'src', includes: '_includes', data: '_data', output: '_site' },
     // GitHub Pages 项目站点挂在 /<仓库名>/ 下，由 CI 通过环境变量传入
-    pathPrefix: process.env.PATH_PREFIX || "/",
+    pathPrefix: process.env.PATH_PREFIX || '/',
     // Markdown 正文不经过模板引擎，作者写 {{ }} 之类字符不会出错
     markdownTemplateEngine: false,
-    htmlTemplateEngine: "njk",
+    htmlTemplateEngine: 'njk',
   };
 }

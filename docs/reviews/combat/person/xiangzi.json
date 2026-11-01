@@ -1,0 +1,89 @@
+{
+  "status": "reviewed",
+  "note": "独立核读综合作战、身份与四场已有BR，复核标签迁移，正文综合画像及参与归因准确",
+  "evidence": [
+    "src/people/xiangzi/materials-xiangzi.md",
+    "src/people/xiangzi/xiangzi.md",
+    "docs/bilibili/441373876.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "通读本人归档总览、月份与常用船，1120次参与击杀及维德马克、审判者、海军送葬者和乌鸦支撑中小船与大队并行的画像；正文把累计估值写成参战战果，没有归为个人独占。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 游戏画像与已有战役"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "已核身份档案identity.alts为空，素材明确无已确认小号；无可合并的小号战斗数据。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 身份与收录依据"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "已通读月度概况，9、10月活跃增长只作出门频率背景。正文没有按单月峰值推个人功劳，也没有需再下钻的独立高值事件或指挥归因。SR普通损失已在素材排除为独立故事。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 游戏画像与已有战役"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立核对欧加仑、SR-KBB、北方主城攻防、埃加奥四份正式BR，2123451407均在凛冬方；正文两处战役链接仅说明实际参战，无指挥或决定性功劳归因。 已核读标签迁移：4-H为00区超旗战、埃加奥为低安旗舰战、欧加仑为低安常规战、SR为00区常规战；标签调整不改变本人参战身份及正文归因。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/materials-xiangzi.md",
+          "heading": "## 游戏画像与已有战役"
+        },
+        {
+          "file": "src/people/xiangzi/xiangzi.md",
+          "contains": "[北方主城攻防]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立红料块先综合常用舰船和日常出门，再把已有大会战经历接到本人持续小队录像；人物是肯跟舰队、反复换船的普通驾驶员，没有写成战役目录或KM清单。",
+      "evidence": [
+        {
+          "file": "src/people/xiangzi/xiangzi.md",
+          "contains": "翔子在红领鲸入团，后来转入 Deep Stone Crypt"
+        },
+        {
+          "file": "src/people/xiangzi/xiangzi.md",
+          "contains": "[北方主城攻防]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/441373876.json",
+    "src/people/xiangzi/2123451407-id.json",
+    "src/people/xiangzi/materials-xiangzi.md",
+    "src/people/xiangzi/xiangzi.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "a1c07c0d2b39d7cbfbaa93784c3ff5633f2e2c9c8c5d7e3a13be1355e6de8613",
+  "level": 1
+}

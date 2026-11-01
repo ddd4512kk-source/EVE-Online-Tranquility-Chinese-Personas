@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "独立复核本轮正文与保存材料；范围及后续缺口见逐项判断",
+  "evidence": [
+    "src/people/elo-knight/materials-elo-knight.md",
+    "src/people/elo-knight/elo-knight.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "独立复核已存stats总览、角色快照与全文：三万余参与击杀，重突/T3/后勤与长期指挥并存，时区防卫画像相符。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 游戏画像与已有战役核对"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式identity.alts为空及素材身份检索边界；没有已确认主力小号待补stats，不从仿号或猜测合并战绩。本次不联网重查。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 身份与收录依据"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已读常用船与高峰月份，支持BL时代已长期作战；守生产职责另由Noraus回忆及2019凛冬成员实录支持，无需把月份签名补成逐场战果。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 游戏画像与已有战役核对"
+        },
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 2019 凛冬指挥与守生产"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立搜索正式战役JSON，只有FWST-8命中；主号当时GoonWaffe/Goons，正文末评按敌对阵营采用，未因现FRT归错方。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/materials-elo-knight.md",
+          "heading": "## 游戏画像与已有战役核对"
+        },
+        {
+          "file": "src/people/elo-knight/elo-knight.md",
+          "contains": "2020 年他加入 GoonWaffe"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "紧接开篇设独立战绩红料；混合玩法、欧美时区职责与守生产压力形成综合画像，只展开有出处的2019防卫，不逐场念KM。",
+      "evidence": [
+        {
+          "file": "src/people/elo-knight/elo-knight.md",
+          "contains": "他的战绩横跨重突、战略巡洋舰和后勤舰"
+        },
+        {
+          "file": "src/people/elo-knight/elo-knight.md",
+          "contains": "2019 年 Origin. 加入 FRT"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/elo-knight/1511725012-id.json",
+    "src/people/elo-knight/elo-knight.md",
+    "src/people/elo-knight/materials-elo-knight.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md"
+  ],
+  "inputs": "ed209825e741677703d02abff76144188ca825789b3e7070721193bb5a095798",
+  "level": 1
+}

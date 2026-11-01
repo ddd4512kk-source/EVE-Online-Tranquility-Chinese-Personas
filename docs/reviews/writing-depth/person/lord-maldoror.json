@@ -1,0 +1,227 @@
+{
+  "status": "reviewed",
+  "note": "独立重读正文与材料，重新核对新增Reddit采用边界及既有重事展开",
+  "evidence": [
+    "src/people/lord-maldoror/materials-lord-maldoror.md",
+    "src/people/lord-maldoror/lord-maldoror.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "核战列协同画像、跨服战术适配、个人国服经历、影片传播及理想/站队回答；未将未观看影片内容编作镜头评价，送无畏趣事保留素材未伪造亲手击杀。 本轮核2020直播讨论双方往返，已采用挖人交锋；未完整观看直播，不编视听细节。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 游戏画像及战役核对"
+        },
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 战术与作品"
+        },
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 跨服交流与站队"
+        },
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## Reddit：回顾直播与挖人旧账"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "三项主事件均有实际动作和约束条件：协同传播、战术经济适配、公众形象与友情站队冲突；非概括头衔撑篇。 新增挖人事件有具体双方对话，但不把对方所指拆团动机写成联盟实际拆散。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## 跨服交流与站队"
+        },
+        {
+          "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+          "heading": "## Reddit：回顾直播与挖人旧账"
+        }
+      ],
+      "items": [
+        {
+          "title": "RnK协同战术与作品地位",
+          "weight": "heavy",
+          "reason": "指挥本业与传播能力构成人物公共角色，CCP专场回顾显示作品分量。",
+          "source": {
+            "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+            "heading": "## 战术与作品"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lord-maldoror/lord-maldoror.md",
+            "contains": "他的宁静服战绩里"
+          },
+          "note": "从战列与低损失结构推到协同，再解释作品把战术给观众看懂，未冒认近年作战。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "具体战列结构与长期玩法交代。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "他的宁静服战绩里"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "官方作品回顾交代公共记忆与传播影响。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "CCP 后来专门请他上官方节目"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "漂亮战术到异服先受市场限制，承接后续交流。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "最先遇到的障碍相当朴素"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "与表妹跨服适配战术",
+          "weight": "heavy",
+          "reason": "多年交流把具体军事体系带给华人团体，后续作品向外服传播华人战事。",
+          "source": {
+            "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+            "heading": "## 跨服交流与站队"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lord-maldoror/lord-maldoror.md",
+            "contains": "表妹早年联系他时"
+          },
+          "note": "国服T3价格和财政限制、表妹见习、Lord需朋友照顾、影片传播逐层推进，人物行动清楚。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "早期财政与船价限制，避免以后来强势形象倒写历史。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "当时的 PIBC 也远没阔到可以无视账单"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "说明技术移植需要当地组织而非照抄配方。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "一套战术离开原来的价格、人员和组织"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "大师去异服需要翻译与找船，互相带新人形成关系变化。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "昔日替别人设计精密体系的大师"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "多年交往变成对华人战事的公开传播。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "表妹带来的地图终于不只供几个指挥研究"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "少数派理想与PIBC友情站队",
+          "weight": "heavy",
+          "reason": "代表作品引发公众形象争议，本人承认吸引力与实际选边的冲突。",
+          "source": {
+            "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+            "heading": "## 跨服交流与站队"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lord-maldoror/lord-maldoror.md",
+            "contains": "RnK 最动人的招牌是以少胜多"
+          },
+          "note": "完整保留他对反抗者浪漫的承认、多年友情的回答与对PIBC领导的肯定，讽刺落在美学和人情冲突。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "既有友情使抽象少数派理想遭遇具体政治选择。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "Lord 长年的朋友站在 PIBC 这一边"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "观众所追求与本人实际忠于多年朋友并置。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "观众追的是弱者获胜的浪漫"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "讲清人物回应中友情和公众形象的代价。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "没有为了保住一个纯净的银幕形象"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "回扣影片身份与集团成功，未新加无关段子。",
+              "evidence": {
+                "file": "src/people/lord-maldoror/lord-maldoror.md",
+                "contains": "最不好剪辑的部分，始终是朋友后来变得太成功"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "直播讨论中的旧盟友挖人交锋",
+          "weight": "ordinary",
+          "reason": "招走人员有双方对话，未证明实际拆散联盟，不升级为组织覆灭重事。",
+          "source": {
+            "file": "src/people/lord-maldoror/materials-lord-maldoror.md",
+            "heading": "## Reddit：回顾直播与挖人旧账"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lord-maldoror/lord-maldoror.md",
+            "contains": "Lord 起初没想起来"
+          },
+          "note": "区分Capable_BO_Pilot质问和本人承认挖人；以惜才、叙旧化解质问形成具体反差。",
+          "development": []
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇与末评均回到表妹关系及华人战争，首块PVP画像没有缺席，跨服交流与站队争议篇幅匹配公共角色；没有写成纯外国影片目录。",
+      "evidence": [
+        {
+          "file": "src/people/lord-maldoror/lord-maldoror.md",
+          "contains": "他给华人社区留下的东西"
+        },
+        {
+          "file": "src/people/lord-maldoror/lord-maldoror.md",
+          "contains": "表妹早年联系他时"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/lord-maldoror/822363613-id.json",
+    "src/people/lord-maldoror/lord-maldoror.md",
+    "src/people/lord-maldoror/materials-lord-maldoror.md"
+  ],
+  "inputs": "947d5f11a045a619b1c5230fa88c00efd1b805320de383e452b29617b77e94ce",
+  "level": 1
+}

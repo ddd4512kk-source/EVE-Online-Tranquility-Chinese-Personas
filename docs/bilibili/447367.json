@@ -4,14 +4,19 @@
   "name": "那个毒蝎",
   "url": "https://space.bilibili.com/447367/",
   "identity": {
-    "state": "source",
-    "person": null,
-    "material": "src/people/darkdez-ever/materials-darkdez-ever.md",
-    "label": "小D素材",
+    "state": "confirmed",
+    "person": "kei-hazard",
+    "material": "src/people/kei-hazard/materials-kei-hazard.md",
+    "label": "Kei素材",
     "evidence": [
-      "2021 CN10v10中文直播流，见[小D素材](../src/people/darkdez-ever/materials-darkdez-ever.md)；AT历届中文解说录像为主"
+      "Kei Hazard自称ATXVI官方中文观战位与解说；本频道上传ATXVI“我的分析讲解版本”，AT历届中文解说录像为主，见[Kei素材](../src/people/kei-hazard/materials-kei-hazard.md)"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/people/darkdez-ever/materials-darkdez-ever.md",
+        "label": "2021 CN10v10中文直播流"
+      }
+    ]
   },
   "channel": {
     "profile": {
@@ -27,22 +32,29 @@
     },
     "coverage": {
       "latest": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-10-31T16:13:42.276Z",
+        "scope": "最新发布首屏42条；只取得标题与链接。",
+        "evidence": "https://space.bilibili.com/447367/upload/video?pn=1"
       },
       "popular": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-01T00:00:00.000Z",
+        "scope": "最多播放第1–2页84条；其中9部另读作品页简介与评论，摘要见人物素材。",
+        "evidence": "https://space.bilibili.com/447367/upload/video"
       },
       "series": {
         "state": "unknown",
         "observed_at": null,
         "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
         "evidence": null
+      },
+      "opus": {
+        "state": "captured",
+        "observed_at": "2026-10-31T16:18:17.648Z",
+        "scope": "图文列表首屏20条入口与卡片文字；页面显示384篇，未续载。",
+        "evidence": "https://space.bilibili.com/447367/upload/opus",
+        "next": "按具体事件补读单篇；列表其余范围未取得。"
       }
     },
     "prior_notes": [],
@@ -369,8 +381,1184 @@
             "url": "https://www.bilibili.com/video/BV1iF4m1A7JD/"
           }
         ]
+      },
+      {
+        "sort": "latest",
+        "captured_at": "2026-10-31T16:13:42.276Z",
+        "source": "https://space.bilibili.com/447367/upload/video?pn=1",
+        "scope": "仓库Chrome读取器取得投稿列表最新发布首屏42条（均为2026年ATXXII切片与直播回放）；读取器不翻页，更早投稿未经此列表取得。",
+        "candidates": [
+          {
+            "bvid": "BV1cGY66AEHx",
+            "title": "ATXXII预赛 203 - Odin's Call vs The Skeleton Crew",
+            "url": "https://www.bilibili.com/video/BV1cGY66AEHx/"
+          },
+          {
+            "bvid": "BV1cGY66AEEy",
+            "title": "ATXXII预赛 201 - The Obsidian Front - Reborn vs Solyaris Chtonium",
+            "url": "https://www.bilibili.com/video/BV1cGY66AEEy/"
+          },
+          {
+            "bvid": "BV1cGY66AEcZ",
+            "title": "ATXXII预赛 200 - Sons of Bane vs Minmatar Fleet Alliance",
+            "url": "https://www.bilibili.com/video/BV1cGY66AEcZ/"
+          },
+          {
+            "bvid": "BV1cGY66AE5S",
+            "title": "ATXXII预赛 199 - Slide On Contact vs Out of the Blue.",
+            "url": "https://www.bilibili.com/video/BV1cGY66AE5S/"
+          },
+          {
+            "bvid": "BV1nGY66AEhx",
+            "title": "ATXXII预赛 198 - Brave Collective vs Kitchen Sinkhole",
+            "url": "https://www.bilibili.com/video/BV1nGY66AEhx/"
+          },
+          {
+            "bvid": "BV1ATY66iEaN",
+            "title": "ATXXII预赛 197 - We Forsakened Few vs Seriously Suspicious",
+            "url": "https://www.bilibili.com/video/BV1ATY66iEaN/"
+          },
+          {
+            "bvid": "BV1ATY66iEuv",
+            "title": "ATXXII预赛 196 - Shadow Cartel vs Project Potato",
+            "url": "https://www.bilibili.com/video/BV1ATY66iEuv/"
+          },
+          {
+            "bvid": "BV1wuY66NECS",
+            "title": "ATXXII预赛 190 - PSYCHOTIC OVERHEAT vs Sigma Grindset",
+            "url": "https://www.bilibili.com/video/BV1wuY66NECS/"
+          },
+          {
+            "bvid": "BV1ATY66iEpe",
+            "title": "ATXXII预赛 195 - Vapor-Lock vs White Squall.",
+            "url": "https://www.bilibili.com/video/BV1ATY66iEpe/"
+          },
+          {
+            "bvid": "BV1ATY66iEqq",
+            "title": "ATXXII预赛 194 - Psyno Theory vs Seker Matar",
+            "url": "https://www.bilibili.com/video/BV1ATY66iEqq/"
+          },
+          {
+            "bvid": "BV1ATY66iExE",
+            "title": "ATXXII预赛 193 - NPSI.Rocks vs Exodus.",
+            "url": "https://www.bilibili.com/video/BV1ATY66iExE/"
+          },
+          {
+            "bvid": "BV1wTY66iEZx",
+            "title": "ATXXII预赛 192 - Space Violence. vs ZERG REBORN",
+            "url": "https://www.bilibili.com/video/BV1wTY66iEZx/"
+          },
+          {
+            "bvid": "BV1wuY66NECY",
+            "title": "ATXXII预赛 191 - OnlyFleets. vs L A Z E R H A W K S",
+            "url": "https://www.bilibili.com/video/BV1wuY66NECY/"
+          },
+          {
+            "bvid": "BV1HuY66NERN",
+            "title": "ATXXII预赛 189 - Test Alliance Please Ignore vs DarkSide.",
+            "url": "https://www.bilibili.com/video/BV1HuY66NERN/"
+          },
+          {
+            "bvid": "BV1wuY66NEUs",
+            "title": "ATXXII预赛 188 - Ivy League vs The Initiative.",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEUs/"
+          },
+          {
+            "bvid": "BV1wuY66NEmx",
+            "title": "ATXXII预赛 187 - Punishing Gray Raven vs D-sync.",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEmx/"
+          },
+          {
+            "bvid": "BV1wuY66NE3w",
+            "title": "ATXXII预赛 186 - The Excommunicati vs NO NEED LOOSE FACE",
+            "url": "https://www.bilibili.com/video/BV1wuY66NE3w/"
+          },
+          {
+            "bvid": "BV1wuY66NEnK",
+            "title": "ATXXII预赛 185 - WE FORM V0LTA vs Arctic Light",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEnK/"
+          },
+          {
+            "bvid": "BV1wuY66NECT",
+            "title": "ATXXII预赛 184 - The Tuskers Co. vs Sedition.",
+            "url": "https://www.bilibili.com/video/BV1wuY66NECT/"
+          },
+          {
+            "bvid": "BV1wuY66NEyk",
+            "title": "ATXXII预赛 183 - IIIIIIIIIIIIIIIIIIIIIIIII vs Fraternity.",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEyk/"
+          },
+          {
+            "bvid": "BV1wuY66NEGo",
+            "title": "ATXXII预赛 182 - Deteriorated vs Catlas Tor Love Appreciation Society UseCodeWIZAR",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEGo/"
+          },
+          {
+            "bvid": "BV1wuY66NE6Y",
+            "title": "ATXXII预赛 181 - Bright Side of Death vs Of Essence",
+            "url": "https://www.bilibili.com/video/BV1wuY66NE6Y/"
+          },
+          {
+            "bvid": "BV1wuY66NEy9",
+            "title": "ATXXII预赛 180 - Neon Nightmares vs Rote Kapelle",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEy9/"
+          },
+          {
+            "bvid": "BV1o7Y66ZEPK",
+            "title": "【直播回放】ATXXII 预赛 Day6 2026年09月13日21点场",
+            "url": "https://www.bilibili.com/video/BV1o7Y66ZEPK/"
+          },
+          {
+            "bvid": "BV1puY66NEuh",
+            "title": "ATXXII预赛 179 - Meta Reloaded vs Platinum Sensitivity.",
+            "url": "https://www.bilibili.com/video/BV1puY66NEuh/"
+          },
+          {
+            "bvid": "BV1wuY66NESt",
+            "title": "ATXXII预赛 178 - 34-yrs-old men get nagged by wives for playing EVE vs Honkai Star",
+            "url": "https://www.bilibili.com/video/BV1wuY66NESt/"
+          },
+          {
+            "bvid": "BV1wuY66NEnZ",
+            "title": "ATXXII预赛 177 - Paper Numbers vs Rusty Hyenas Clan",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEnZ/"
+          },
+          {
+            "bvid": "BV1HuY66NEDM",
+            "title": "ATXXII预赛 176 - Ragequit Cancel Sub vs xqty",
+            "url": "https://www.bilibili.com/video/BV1HuY66NEDM/"
+          },
+          {
+            "bvid": "BV1wuY66NExy",
+            "title": "ATXXII预赛 175 - Dracarys. vs Psychokids.",
+            "url": "https://www.bilibili.com/video/BV1wuY66NExy/"
+          },
+          {
+            "bvid": "BV1wuY66NExQ",
+            "title": "ATXXII预赛 174 - Critical. Mass. vs The Skeleton Crew",
+            "url": "https://www.bilibili.com/video/BV1wuY66NExQ/"
+          },
+          {
+            "bvid": "BV1HuY66NEbb",
+            "title": "ATXXII预赛 172 - Project Potato vs Odin's Call",
+            "url": "https://www.bilibili.com/video/BV1HuY66NEbb/"
+          },
+          {
+            "bvid": "BV1HuY66NEoA",
+            "title": "ATXXII预赛 173 - That Escalated Quickly. vs Kitchen Sinkhole",
+            "url": "https://www.bilibili.com/video/BV1HuY66NEoA/"
+          },
+          {
+            "bvid": "BV1wuY66NEDu",
+            "title": "ATXXII预赛 171 - White Squall. vs Solyaris Chtonium",
+            "url": "https://www.bilibili.com/video/BV1wuY66NEDu/"
+          },
+          {
+            "bvid": "BV1WfYZ69EAL",
+            "title": "ATXXII预赛 170 - Out of the Blue. vs The Obsidian Front - Reborn",
+            "url": "https://www.bilibili.com/video/BV1WfYZ69EAL/"
+          },
+          {
+            "bvid": "BV1WfYZ69EiT",
+            "title": "ATXXII预赛 169 - Exodus. vs Minmatar Fleet Alliance",
+            "url": "https://www.bilibili.com/video/BV1WfYZ69EiT/"
+          },
+          {
+            "bvid": "BV1WfYZ69EP6",
+            "title": "ATXXII预赛 168 - Sigma Grindset vs Brave Collective",
+            "url": "https://www.bilibili.com/video/BV1WfYZ69EP6/"
+          },
+          {
+            "bvid": "BV1WfYZ69EgN",
+            "title": "ATXXII预赛 167 - Seriously Suspicious vs The Initiative.",
+            "url": "https://www.bilibili.com/video/BV1WfYZ69EgN/"
+          },
+          {
+            "bvid": "BV1CfYZ69EGn",
+            "title": "ATXXII预赛 166 - Seker Matar vs D-sync.",
+            "url": "https://www.bilibili.com/video/BV1CfYZ69EGn/"
+          },
+          {
+            "bvid": "BV1yfYZ69Ewr",
+            "title": "ATXXII预赛 165 - Sons of Bane vs L A Z E R H A W K S",
+            "url": "https://www.bilibili.com/video/BV1yfYZ69Ewr/"
+          },
+          {
+            "bvid": "BV1xRYZ64Eyj",
+            "title": "ATXXII预赛 164 - DarkSide. vs Vapor-Lock",
+            "url": "https://www.bilibili.com/video/BV1xRYZ64Eyj/"
+          },
+          {
+            "bvid": "BV1xRYZ64EeQ",
+            "title": "ATXXII预赛 163 - OnlyFleets. vs Slide On Contact",
+            "url": "https://www.bilibili.com/video/BV1xRYZ64EeQ/"
+          },
+          {
+            "bvid": "BV1JPYf6nE6n",
+            "title": "【直播回放】ATXXII 预赛 Day5 2026年09月12日21点场",
+            "url": "https://www.bilibili.com/video/BV1JPYf6nE6n/"
+          }
+        ]
+      },
+      {
+        "sort": "popular",
+        "captured_at": "2026-11-01T00:00:00.000Z",
+        "source": "https://space.bilibili.com/447367/upload/video",
+        "scope": "claude-in-chrome实际切换“最多播放”后翻读第1、2页共84条：标题、发布日、当时播放；页面共944条，第3页起未取得。",
+        "candidates": [
+          {
+            "bvid": "BV1Zp411o7aM",
+            "title": "【EVE】2K DPS...这船太扎实了。",
+            "url": "https://www.bilibili.com/video/BV1Zp411o7aM/",
+            "published": "2018-05-13",
+            "views": 23000
+          },
+          {
+            "bvid": "BV1ca411A7Mz",
+            "title": "【EVE】下线后星门恢复运作视觉效果（10月12日）",
+            "url": "https://www.bilibili.com/video/BV1ca411A7Mz/",
+            "published": "2020-10-13",
+            "views": 16000
+          },
+          {
+            "bvid": "BV1jW41157QV",
+            "title": "【EVE】6分钟快速理解EVE之中的角速度",
+            "url": "https://www.bilibili.com/video/BV1jW41157QV/",
+            "published": "2018-04-21",
+            "views": 12000
+          },
+          {
+            "bvid": "BV1CV411r7gT",
+            "title": "【EVE】新武器闪电链和Edencom舰船上手体验",
+            "url": "https://www.bilibili.com/video/BV1CV411r7gT/",
+            "published": "2020-06-06",
+            "views": 12000
+          },
+          {
+            "bvid": "BV1r54y147KF",
+            "title": "【EVE】单人ESS-PVP体验与思路解释",
+            "url": "https://www.bilibili.com/video/BV1r54y147KF/",
+            "published": "2020-12-12",
+            "views": 8039
+          },
+          {
+            "bvid": "BV1o5411s7UX",
+            "title": "【EVE更新日志】5月26日——阿三入侵新阶段，新建筑状态，装甲主动抗再平衡",
+            "url": "https://www.bilibili.com/video/BV1o5411s7UX/",
+            "published": "2020-05-26",
+            "views": 7334
+          },
+          {
+            "bvid": "BV1Aa4y1s7xb",
+            "title": "【EVE】大航原地复活测试录像",
+            "url": "https://www.bilibili.com/video/BV1Aa4y1s7xb/",
+            "published": "2020-10-28",
+            "views": 7041
+          },
+          {
+            "bvid": "BV1ji4y1T7gg",
+            "title": "【EVE测试服】舰队阵型速报",
+            "url": "https://www.bilibili.com/video/BV1ji4y1T7gg/",
+            "published": "2021-02-23",
+            "views": 6552
+          },
+          {
+            "bvid": "BV1bv411p7jS",
+            "title": "【EVE更新日志】6月8日 - 反隐设备+新星门上线",
+            "url": "https://www.bilibili.com/video/BV1bv411p7jS/",
+            "published": "2021-06-08",
+            "views": 6547
+          },
+          {
+            "bvid": "BV1EK4y1H7sj",
+            "title": "【EVE更新日志】2月23日 - 掠夺和堡垒模块大幅度加强，重突信号半径和损控削弱，拦截小改",
+            "url": "https://www.bilibili.com/video/BV1EK4y1H7sj/",
+            "published": "2021-02-23",
+            "views": 5775
+          },
+          {
+            "bvid": "BV17k4y1y7g8",
+            "title": "【EVE更新日志】9月8日-建筑核心，盾提去衍生化再平衡",
+            "url": "https://www.bilibili.com/video/BV17k4y1y7g8/",
+            "published": "2020-09-08",
+            "views": 5754
+          },
+          {
+            "bvid": "BV1zU4y1P7ap",
+            "title": "【EVE更新日志】9月14日-冰和基腹断岩量上升，全新的技能界面和新手体验流程",
+            "url": "https://www.bilibili.com/video/BV1zU4y1P7ap/",
+            "published": "2021-09-14",
+            "views": 5729
+          },
+          {
+            "bvid": "BV1PK4y177GA",
+            "title": "【EVE更新速报】11月24日 -鱼雷，海狮鹫，无畏舰",
+            "url": "https://www.bilibili.com/video/BV1PK4y177GA/",
+            "published": "2020-11-24",
+            "views": 5492
+          },
+          {
+            "bvid": "BV1qK411p7ss",
+            "title": "【EVE更新速报】6月15日——闪电链舰船正式上线",
+            "url": "https://www.bilibili.com/video/BV1qK411p7ss/",
+            "published": "2020-06-15",
+            "views": 5410
+          },
+          {
+            "bvid": "BV1ug4y1i7ze",
+            "title": "【EVE更新日志】7月14日-装甲被动附甲再平衡",
+            "url": "https://www.bilibili.com/video/BV1ug4y1i7ze/",
+            "published": "2020-07-14",
+            "views": 5197
+          },
+          {
+            "bvid": "BV11i4y1j7Kj",
+            "title": "【EVE更新日志】10月13日-矿改+三神裔新星域",
+            "url": "https://www.bilibili.com/video/BV11i4y1j7Kj/",
+            "published": "2020-10-14",
+            "views": 5144
+          },
+          {
+            "bvid": "BV1U5411J7q7",
+            "title": "【EVE更新日志】2月9日-过门特效，舰队界面",
+            "url": "https://www.bilibili.com/video/BV1U5411J7q7/",
+            "published": "2021-02-09",
+            "views": 5116
+          },
+          {
+            "bvid": "BV1xy4y1u75U",
+            "title": "【EVE测试服内容】黑隐直接带跳队友",
+            "url": "https://www.bilibili.com/video/BV1xy4y1u75U/",
+            "published": "2021-06-12",
+            "views": 5106
+          },
+          {
+            "bvid": "BV1yb411B7Hz",
+            "title": "【EVE】欧服Komodo首杀速报",
+            "url": "https://www.bilibili.com/video/BV1yb411B7Hz/",
+            "published": "2019-03-03",
+            "views": 5005
+          },
+          {
+            "bvid": "BV1r64y1S7R8",
+            "title": "【EVE更新日志】工业改动的新蓝图和反应已经上市拉",
+            "url": "https://www.bilibili.com/video/BV1r64y1S7R8/",
+            "published": "2021-04-13",
+            "views": 4943
+          },
+          {
+            "bvid": "BV18M4y1K7ri",
+            "title": "【EVE更新日志】7月13日-掠夺模块电子战抗性削弱，T3C损失后不再掉技能，新增可部署黑诱导。",
+            "url": "https://www.bilibili.com/video/BV18M4y1K7ri/",
+            "published": "2021-07-13",
+            "views": 4882
+          },
+          {
+            "bvid": "BV1v5411N7mK",
+            "title": "【EVE测试服】舰队自定义阵型连续蛙跳",
+            "url": "https://www.bilibili.com/video/BV1v5411N7mK/",
+            "published": "2021-02-25",
+            "views": 4853
+          },
+          {
+            "bvid": "BV1W4411h7Rz",
+            "title": "【EVE实验室】解读超载损伤概率，绝对有你会感到意外的内容",
+            "url": "https://www.bilibili.com/video/BV1W4411h7Rz/",
+            "published": "2019-04-27",
+            "views": 4786
+          },
+          {
+            "bvid": "BV1Y4411W7D4",
+            "title": "【EVE实验室】船体抗性破百？轻无单发破万？",
+            "url": "https://www.bilibili.com/video/BV1Y4411W7D4/",
+            "published": "2019-05-29",
+            "views": 4655
+          },
+          {
+            "bvid": "BV1sW411j7vQ",
+            "title": "【EVE】无需多言，当前最火突击-审判/Retribution",
+            "url": "https://www.bilibili.com/video/BV1sW411j7vQ/",
+            "published": "2018-04-19",
+            "views": 4482
+          },
+          {
+            "bvid": "BV1hV411e7kd",
+            "title": "【EVE更新速报】一个站多个克隆实装，ECM脉冲波会使拦截湮灭无效，战列信号半径下降装备",
+            "url": "https://www.bilibili.com/video/BV1hV411e7kd/",
+            "published": "2021-03-23",
+            "views": 4412
+          },
+          {
+            "bvid": "BV167411b7vJ",
+            "title": "【EVE实验室】立体炸弹范围与舰船大小之间关系多大？",
+            "url": "https://www.bilibili.com/video/BV167411b7vJ/",
+            "published": "2020-02-09",
+            "views": 4362
+          },
+          {
+            "bvid": "BV1Uh41187RC",
+            "title": "【EVE更新日志】6月22日-黑隐改动的详细分析",
+            "url": "https://www.bilibili.com/video/BV1Uh41187RC/",
+            "published": "2021-06-23",
+            "views": 4328
+          },
+          {
+            "bvid": "BV11F411Y7e1",
+            "title": "【EVE更新日志】无人机系的新副本+突变正式上线",
+            "url": "https://www.bilibili.com/video/BV11F411Y7e1/",
+            "published": "2021-10-19",
+            "views": 4263
+          },
+          {
+            "bvid": "BV1NJ411C7TV",
+            "title": "【EVE】【收益已经被砍】迅速理解高安非入侵区导管Emerging Conduit",
+            "url": "https://www.bilibili.com/video/BV1NJ411C7TV/",
+            "published": "2019-12-12",
+            "views": 4147
+          },
+          {
+            "bvid": "BV1yJ411N7oE",
+            "title": "【EVE】【更新日志】9月10日更新——诱导改动，低安三神裔入侵，新头插。",
+            "url": "https://www.bilibili.com/video/BV1yJ411N7oE/",
+            "published": "2019-09-10",
+            "views": 4091
+          },
+          {
+            "bvid": "BV1sC4y1x7C8",
+            "title": "【EVE更新日志】4月15日：T2近炮弹药增强。以及抗性，旗舰和大砍刀！",
+            "url": "https://www.bilibili.com/video/BV1sC4y1x7C8/",
+            "published": "2020-04-16",
+            "views": 4080
+          },
+          {
+            "bvid": "BV1qS4y1d7CH",
+            "title": "【EVE更新日志】新出探索内容。最后一期了~",
+            "url": "https://www.bilibili.com/video/BV1qS4y1d7CH/",
+            "published": "2021-11-09",
+            "views": 4027
+          },
+          {
+            "bvid": "BV1Q44y1x7jk",
+            "title": "【EVE更新日志】10月13日- 原生MAC客户端正式成为默认选项",
+            "url": "https://www.bilibili.com/video/BV1Q44y1x7jk/",
+            "published": "2021-10-13",
+            "views": 3905
+          },
+          {
+            "bvid": "BV1w84y1F7fm",
+            "title": "【EVE更新日志】拦截湮灭和跃迁稳定改动",
+            "url": "https://www.bilibili.com/video/BV1w84y1F7fm/",
+            "published": "2021-05-18",
+            "views": 3867
+          },
+          {
+            "bvid": "BV1vf4y127MC",
+            "title": "【EVE】闪电链武器 官方测试实录",
+            "url": "https://www.bilibili.com/video/BV1vf4y127MC/",
+            "published": "2020-06-10",
+            "views": 3838
+          },
+          {
+            "bvid": "BV1Bt4y1Y7j8",
+            "title": "【EVE更新日志/速报】12月8日-注意无人机部分已被官方改回去了",
+            "url": "https://www.bilibili.com/video/BV1Bt4y1Y7j8/",
+            "published": "2020-12-08",
+            "views": 3829
+          },
+          {
+            "bvid": "BV1w5411j73Z",
+            "title": "【EVE更新】9月22日-讲一下黑隐和联合阵线船的改动",
+            "url": "https://www.bilibili.com/video/BV1w5411j73Z/",
+            "published": "2020-09-23",
+            "views": 3765
+          },
+          {
+            "bvid": "BV1FW411Y7Ex",
+            "title": "【EVE】低安用极化炮夜魔侠",
+            "url": "https://www.bilibili.com/video/BV1FW411Y7Ex/",
+            "published": "2017-12-03",
+            "views": 3743
+          },
+          {
+            "bvid": "BV1ta4y1s71H",
+            "title": "【EVE更新日志】11月10日 - 适应性赏金、ESS和大航原地复活",
+            "url": "https://www.bilibili.com/video/BV1ta4y1s71H/",
+            "published": "2020-11-10",
+            "views": 3728
+          },
+          {
+            "bvid": "BV1ex411W7dt",
+            "title": "《EVE》第十五届欧服联盟赛-华人联盟FRT第一日比赛-中文解说",
+            "url": "https://www.bilibili.com/video/BV1ex411W7dt/",
+            "published": "2017-07-30",
+            "views": 3699
+          },
+          {
+            "bvid": "BV1Jt4y1i73M",
+            "title": "【EVE】减速泡泡的性能-10月22日",
+            "url": "https://www.bilibili.com/video/BV1Jt4y1i73M/",
+            "published": "2020-10-22",
+            "views": 3633
+          },
+          {
+            "bvid": "BV1P64y1F7TX",
+            "title": "【EVE更新日志】8月25日-阿三舰船系列再平衡",
+            "url": "https://www.bilibili.com/video/BV1P64y1F7TX/",
+            "published": "2020-08-25",
+            "views": 3541
+          },
+          {
+            "bvid": "BV1ht4y1X7uN",
+            "title": "【EVE更新日志】聊聊指挥舰改动——这次是buff",
+            "url": "https://www.bilibili.com/video/BV1ht4y1X7uN/",
+            "published": "2020-07-29",
+            "views": 3536
+          },
+          {
+            "bvid": "BV1tf4y1v7C9",
+            "title": "【EVE更新速报】12月1日 -动态赏金系数提升，ESS小幅度改动",
+            "url": "https://www.bilibili.com/video/BV1tf4y1v7C9/",
+            "published": "2020-12-01",
+            "views": 3459
+          },
+          {
+            "bvid": "BV1KP4y1t7rm",
+            "title": "【EVE更新日志】7月27日- ESS储备银行钥匙放出",
+            "url": "https://www.bilibili.com/video/BV1KP4y1t7rm/",
+            "published": "2021-07-27",
+            "views": 3175
+          },
+          {
+            "bvid": "BV1rN411Q7eU",
+            "title": "【EVE更新日志】舰队跃迁阵型，Expert System，移动诱导",
+            "url": "https://www.bilibili.com/video/BV1rN411Q7eU/",
+            "published": "2021-03-09",
+            "views": 3157
+          },
+          {
+            "bvid": "BV1R741127An",
+            "title": "【EVE更新日志】3月低安——杆子改动，LP收益再平衡，战列舰护卫逃生舱",
+            "url": "https://www.bilibili.com/video/BV1R741127An/",
+            "published": "2020-03-25",
+            "views": 3094
+          },
+          {
+            "bvid": "BV17E41177Rv",
+            "title": "【EVE】那个（海军）毒蝎之死",
+            "url": "https://www.bilibili.com/video/BV17E41177Rv/",
+            "published": "2020-03-03",
+            "views": 2952
+          },
+          {
+            "bvid": "BV11W411x7JW",
+            "title": "【EVE】新尝试-在欧服0.0区小船打外围也可以很开心？组队，沟通，练习吧！",
+            "url": "https://www.bilibili.com/video/BV11W411x7JW/",
+            "published": "2018-03-05",
+            "views": 2938
+          },
+          {
+            "bvid": "BV1Vz411i7T4",
+            "title": "【EVE】听说闪电链不是随机选择而是选半径大的？",
+            "url": "https://www.bilibili.com/video/BV1Vz411i7T4/",
+            "published": "2020-06-06",
+            "views": 2906
+          },
+          {
+            "bvid": "BV1po4y1Z7TB",
+            "title": "【4K测试】快乐ECM，然而并不能战胜ISK",
+            "url": "https://www.bilibili.com/video/BV1po4y1Z7TB/",
+            "published": "2020-12-31",
+            "views": 2852
+          },
+          {
+            "bvid": "BV1bp4y1C7Jv",
+            "title": "【EVE更新速报】4月6日更新——Hydra无人机套插和古斯塔斯主题活动",
+            "url": "https://www.bilibili.com/video/BV1bp4y1C7Jv/",
+            "published": "2020-04-06",
+            "views": 2748
+          },
+          {
+            "bvid": "BV1Cb411e77U",
+            "title": "【EVE】为什么我喜欢指挥驱逐舰-以及WC显轰队宣传",
+            "url": "https://www.bilibili.com/video/BV1Cb411e77U/",
+            "published": "2019-03-12",
+            "views": 2705
+          },
+          {
+            "bvid": "BV1f4411k7Mo",
+            "title": "【EVE】有了这套脑插，你的阿三重突最终DPS又高了，但是叠加时间也又变长了",
+            "url": "https://www.bilibili.com/video/BV1f4411k7Mo/",
+            "published": "2019-09-08",
+            "views": 2606
+          },
+          {
+            "bvid": "BV1mW41137ei",
+            "title": "【EVE】Triglavian舰船性能横向比较分析",
+            "url": "https://www.bilibili.com/video/BV1mW41137ei/",
+            "published": "2018-05-03",
+            "views": 2550
+          },
+          {
+            "bvid": "BV19J41177b2",
+            "title": "【EVE】【更新日志】1月16日更新——重导buff和盾斯拉夫",
+            "url": "https://www.bilibili.com/video/BV19J41177b2/",
+            "published": "2020-01-17",
+            "views": 2536
+          },
+          {
+            "bvid": "BV1ET4y1A7Ec",
+            "title": "【EVE更新速报】9月15日-深渊新副本更新",
+            "url": "https://www.bilibili.com/video/BV1ET4y1A7Ec/",
+            "published": "2020-09-16",
+            "views": 2506
+          },
+          {
+            "bvid": "BV11W411q7GA",
+            "title": "【EVE】低安用强制者Coercer讲解",
+            "url": "https://www.bilibili.com/video/BV11W411q7GA/",
+            "published": "2018-01-01",
+            "views": 2506
+          },
+          {
+            "bvid": "BV1EJ411K75K",
+            "title": "【EVE】应该是诱导改版之后的泰坦首爆",
+            "url": "https://www.bilibili.com/video/BV1EJ411K75K/",
+            "published": "2019-09-11",
+            "views": 2489
+          },
+          {
+            "bvid": "BV1X4C9B1E99",
+            "title": "Below the Asteroids [remix]",
+            "url": "https://www.bilibili.com/video/BV1X4C9B1E99/",
+            "published": "2025-11-16",
+            "views": 2477
+          },
+          {
+            "bvid": "BV11W411W7wA",
+            "title": "【EVE】关于突击损控和新版本突击的闲聊",
+            "url": "https://www.bilibili.com/video/BV11W411W7wA/",
+            "published": "2018-03-09",
+            "views": 2433
+          },
+          {
+            "bvid": "BV1xb411m7cU",
+            "title": "【EVE实验室】毁空电容会无法跃迁吗？",
+            "url": "https://www.bilibili.com/video/BV1xb411m7cU/",
+            "published": "2019-02-12",
+            "views": 2407
+          },
+          {
+            "bvid": "BV1TN4y1N7Yw",
+            "title": "【AT18】EVE欧服联盟赛 海选赛第一日",
+            "url": "https://www.bilibili.com/video/BV1TN4y1N7Yw/",
+            "published": "2022-10-02",
+            "views": 2391
+          },
+          {
+            "bvid": "BV1Vf4y197qr",
+            "title": "【EVE更新速报】8月11日——装甲被动抗去阶级化再平衡和阿三入侵小改动",
+            "url": "https://www.bilibili.com/video/BV1Vf4y197qr/",
+            "published": "2020-08-11",
+            "views": 2358
+          },
+          {
+            "bvid": "BV1Tp4y1k7zG",
+            "title": "【EVE更新日志】10月27日-拦截舰减速探针和再平衡，战斗截击超载推子buff",
+            "url": "https://www.bilibili.com/video/BV1Tp4y1k7zG/",
+            "published": "2020-10-27",
+            "views": 2319
+          },
+          {
+            "bvid": "BV1264y117mP",
+            "title": "【EVE更新日志】海四变好看了以及一些界面改动",
+            "url": "https://www.bilibili.com/video/BV1264y117mP/",
+            "published": "2021-05-04",
+            "views": 2262
+          },
+          {
+            "bvid": "BV1Tb411q77z",
+            "title": "3月5日-EVE64位客户端测试直播实况录像",
+            "url": "https://www.bilibili.com/video/BV1Tb411q77z/",
+            "published": "2019-03-06",
+            "views": 2184
+          },
+          {
+            "bvid": "BV1P7411L7oL",
+            "title": "【EVE】【更新速报】2月11日更新——漫游洞，头插和矿物异常",
+            "url": "https://www.bilibili.com/video/BV1P7411L7oL/",
+            "published": "2020-02-12",
+            "views": 2132
+          },
+          {
+            "bvid": "BV17b411s7Ri",
+            "title": "【EVE】为下个版本的狂热加强预热-穿梭于长枪之间的舰队[后勤视角]",
+            "url": "https://www.bilibili.com/video/BV17b411s7Ri/",
+            "published": "2019-03-31",
+            "views": 2121
+          },
+          {
+            "bvid": "BV1Jt411W79r",
+            "title": "【EVE】有一定基础的新人如何从PVP视频里找到更多信息？",
+            "url": "https://www.bilibili.com/video/BV1Jt411W79r/",
+            "published": "2019-01-12",
+            "views": 2055
+          },
+          {
+            "bvid": "BV17s411T7eZ",
+            "title": "【EVE】华人联盟Fraternity ATXVI比赛记录与解说",
+            "url": "https://www.bilibili.com/video/BV17s411T7eZ/",
+            "published": "2018-08-12",
+            "views": 1994
+          },
+          {
+            "bvid": "BV1eJ411F7e2",
+            "title": "【EVE】【更新日志】10月8日更新",
+            "url": "https://www.bilibili.com/video/BV1eJ411F7e2/",
+            "published": "2019-10-07",
+            "views": 1990
+          },
+          {
+            "bvid": "BV1W4411M7XB",
+            "title": "【EVE】三神裔入侵更新记录与情报",
+            "url": "https://www.bilibili.com/video/BV1W4411M7XB/",
+            "published": "2019-06-06",
+            "views": 1911
+          },
+          {
+            "bvid": "BV1fi4y1L7DR",
+            "title": "【EVE】2020年联盟赛-第一日 （裁判视角）",
+            "url": "https://www.bilibili.com/video/BV1fi4y1L7DR/",
+            "published": "2020-11-15",
+            "views": 1877
+          },
+          {
+            "bvid": "BV1tJ411Y7wv",
+            "title": "【EVE】谨以此视频纪念-猪场欧服泰坦首杀",
+            "url": "https://www.bilibili.com/video/BV1tJ411Y7wv/",
+            "published": "2019-12-27",
+            "views": 1807
+          },
+          {
+            "bvid": "BV1WK4y1j7fV",
+            "title": "【EVE】2020年联盟赛-决赛日 （裁判视角）",
+            "url": "https://www.bilibili.com/video/BV1WK4y1j7fV/",
+            "published": "2020-11-23",
+            "views": 1790
+          },
+          {
+            "bvid": "BV1Mt411H77x",
+            "title": "【EVE】指挥截击舰？高速天梯Bifrost（渣操作注意）",
+            "url": "https://www.bilibili.com/video/BV1Mt411H77x/",
+            "published": "2019-01-13",
+            "views": 1734
+          },
+          {
+            "bvid": "BV1vE41127h1",
+            "title": "【EVE】三神裔出击（后勤主视角）",
+            "url": "https://www.bilibili.com/video/BV1vE41127h1/",
+            "published": "2019-10-23",
+            "views": 1667
+          },
+          {
+            "bvid": "BV1ot411x7WL",
+            "title": "【EVE】Fire！100AB小希兴趣小组新年首战[小希视角]",
+            "url": "https://www.bilibili.com/video/BV1ot411x7WL/",
+            "published": "2019-01-06",
+            "views": 1652
+          },
+          {
+            "bvid": "BV1YE411E7NJ",
+            "title": "【EVE】当下版本有哪些廉价但高性价比的附魔？",
+            "url": "https://www.bilibili.com/video/BV1YE411E7NJ/",
+            "published": "2020-03-02",
+            "views": 1644
+          },
+          {
+            "bvid": "BV1SJ411y7UK",
+            "title": "【EVE】【更新日志】抽奖系统和建筑改动",
+            "url": "https://www.bilibili.com/video/BV1SJ411y7UK/",
+            "published": "2019-12-11",
+            "views": 1637
+          },
+          {
+            "bvid": "BV1kx411W7dG",
+            "title": "《EVE》第十五届欧服联盟赛-华人联盟FRT第二日比赛-中文解说",
+            "url": "https://www.bilibili.com/video/BV1kx411W7dG/",
+            "published": "2017-07-31",
+            "views": 1615
+          },
+          {
+            "bvid": "BV1d4411C7na",
+            "title": "【EVE】我当火力狗，咋没你的火力猛？0.0区火力号哪些技能更重要？",
+            "url": "https://www.bilibili.com/video/BV1d4411C7na/",
+            "published": "2019-09-05",
+            "views": 1581
+          }
+        ]
+      },
+      {
+        "ordering": "opus",
+        "source": "https://space.bilibili.com/447367/upload/opus",
+        "captured_at": "2026-10-31T16:18:17.648Z",
+        "scope": "仓库Chrome读取器取得图文列表首屏20个确切入口与可见文字卡片；页面显示384篇。未滚动续载，未读单篇正文、图片及评论。",
+        "displayed_total": 384,
+        "candidates": [
+          {
+            "key": "opus:1264189676199084033",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1264189676199084033",
+            "excerpt": "周末决赛了，一个周末打完，16支队伍，比赛应该质量很高。不见不散！"
+          },
+          {
+            "key": "opus:1258865248200294439",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1258865248200294439",
+            "excerpt": "各方旗舰已经公布"
+          },
+          {
+            "key": "opus:1247682136891195393",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1247682136891195393",
+            "excerpt": "预赛结束"
+          },
+          {
+            "key": "opus:1247434656589021185",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1247434656589021185",
+            "excerpt": "预赛最后一天，DC能否全胜？FRT和34岁老男人能否5-2晋级？我们不见不散。"
+          },
+          {
+            "key": "opus:1244495876771020819",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1244495876771020819",
+            "excerpt": "BRO！今晚来看比赛！"
+          },
+          {
+            "key": "opus:1242499447130161156",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1242499447130161156",
+            "excerpt": "切片传好了。DC仍在连胜，我们下周见。"
+          },
+          {
+            "key": "opus:1242117431241998360",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1242117431241998360",
+            "excerpt": "第一天的比赛结束，FRT和DC均取得两连胜。整场比赛录像会尽快上传，切片等我睡醒。今晚930."
+          },
+          {
+            "key": "opus:1239948502829629449",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1239948502829629449",
+            "excerpt": "ATXXII 预赛Day1"
+          },
+          {
+            "key": "opus:1228504476581625862",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1228504476581625862",
+            "excerpt": "ATXXII(AT22) 联盟锦标赛规则中译"
+          },
+          {
+            "key": "opus:1225081842881789976",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1225081842881789976",
+            "excerpt": "AT22来了"
+          },
+          {
+            "key": "opus:1195737793110736896",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1195737793110736896",
+            "excerpt": "_(:з」∠)_ AG7圆满结束，感谢大家陪伴，AT再见"
+          },
+          {
+            "key": "opus:1195363027127369737",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1195363027127369737",
+            "excerpt": "先睡觉，醒来切片，明天决赛日了"
+          },
+          {
+            "key": "opus:1194806077229629440",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1194806077229629440",
+            "excerpt": "看AG决赛周末"
+          },
+          {
+            "key": "opus:1193400600714280963",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1193400600714280963",
+            "excerpt": "本周末的比赛传完了，由于赛程紧凑，有些比赛切过去的时候已经打到一半了"
+          },
+          {
+            "key": "opus:1193134634907467783",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1193134634907467783",
+            "excerpt": "本周比赛结束，还剩12支队伍，2x16在胜者组，Hongshan在败者组。切片等今天下班回来再切了。"
+          },
+          {
+            "key": "opus:1192771461058658304",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1192771461058658304",
+            "excerpt": "小组赛结束了，明天凌晨开始淘汰赛。切片等醒来切"
+          },
+          {
+            "key": "opus:1191545153406369792",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1191545153406369792",
+            "excerpt": "上个周末比较完整的比赛切片传完了，我们这周末见"
+          },
+          {
+            "key": "opus:1190669718830186513",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1190669718830186513",
+            "excerpt": "由于今天要出差所以切片要等回来才能切了_(≧∇≦」∠)_"
+          },
+          {
+            "key": "opus:1190165648577134593",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1190165648577134593",
+            "excerpt": "第一天打完，观感还可以。直播全程录像准备中，切片等补完觉切"
+          },
+          {
+            "key": "opus:1189938221458391047",
+            "title": "",
+            "url": "https://www.bilibili.com/opus/1189938221458391047",
+            "excerpt": "明天凌晨看看AG7"
+          }
+        ]
       }
     ]
   },
-  "videos": []
+  "videos": [
+    {
+      "bvid": "BV1Zp411o7aM",
+      "title": "【EVE】2K DPS...这船太扎实了。",
+      "url": "https://www.bilibili.com/video/BV1Zp411o7aM/",
+      "owner_uid": "447367",
+      "published_at": "2018-05-13T08:15:30.000Z",
+      "captured_at": "2026-10-31T16:22:51.595Z",
+      "description": "【EVE】2K DPS...这船太扎实了。",
+      "stats": {
+        "views": 22589,
+        "replies": 69
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1zp411o7am"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1jW41157QV",
+      "title": "【EVE】6分钟快速理解EVE之中的角速度",
+      "url": "https://www.bilibili.com/video/BV1jW41157QV/",
+      "owner_uid": "447367",
+      "published_at": "2018-04-21T08:07:05.000Z",
+      "captured_at": "2026-10-31T16:23:04.879Z",
+      "description": "相关游戏: EVE Online\n简介补充: 魔幻的角速度设定。",
+      "stats": {
+        "views": 11941,
+        "replies": 39
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1jw41157qv"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1qS4y1d7CH",
+      "title": "【EVE更新日志】新出探索内容。最后一期了~",
+      "url": "https://www.bilibili.com/video/BV1qS4y1d7CH/",
+      "owner_uid": "447367",
+      "published_at": "2021-11-09T12:16:03.000Z",
+      "captured_at": "2026-10-31T16:23:44.376Z",
+      "description": "https://wiki.winterco.org/zh/dev_blog_and_patchnote/start",
+      "stats": {
+        "views": 4026,
+        "replies": 90
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1qs4y1d7ch"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV17E41177Rv",
+      "title": "【EVE】那个（海军）毒蝎之死",
+      "url": "https://www.bilibili.com/video/BV17E41177Rv/",
+      "owner_uid": "447367",
+      "published_at": "2020-03-03T07:18:13.000Z",
+      "captured_at": "2026-10-31T16:23:57.734Z",
+      "description": "R.I.P",
+      "stats": {
+        "views": 2952,
+        "replies": 26
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv17e41177rv"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Cb411e77U",
+      "title": "【EVE】为什么我喜欢指挥驱逐舰-以及WC显轰队宣传",
+      "url": "https://www.bilibili.com/video/BV1Cb411e77U/",
+      "owner_uid": "447367",
+      "published_at": "2019-03-11T14:33:33.000Z",
+      "captured_at": "2026-10-31T16:24:11.070Z",
+      "description": "欢迎更多的人参与到显轰队-GOKU队之中来。\r\nEVE经常会不知道自己要做什么，而在迷茫中我找到了指挥驱逐舰。\r\n小船是真的挺好玩的。\r\nMusic: Rie fu - Life Is Like A Boat",
+      "stats": {
+        "views": 2705,
+        "replies": 23
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1cb411e77u"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV17s411T7eZ",
+      "title": "【EVE】华人联盟Fraternity ATXVI比赛记录与解说",
+      "url": "https://www.bilibili.com/video/BV17s411T7eZ/",
+      "owner_uid": "447367",
+      "published_at": "2018-08-12T13:55:11.000Z",
+      "captured_at": "2026-10-31T16:24:24.227Z",
+      "description": "三个月的时光，无怨无悔",
+      "stats": {
+        "views": 1994,
+        "replies": 9
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv17s411t7ez"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ex411W7dt",
+      "title": "《EVE》第十五届欧服联盟赛-华人联盟FRT第一日比赛-中文解说",
+      "url": "https://www.bilibili.com/video/BV1ex411W7dt/",
+      "owner_uid": "447367",
+      "published_at": "2017-07-30T03:44:20.000Z",
+      "captured_at": "2026-10-31T16:24:37.456Z",
+      "description": "录播他人直播\n转播EVE_NT频道的比赛直播的录像\n除了我以外的两名解说分别是泰山神号和Hitncl（H叔）",
+      "stats": {
+        "views": 3699,
+        "replies": 11
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1ex411w7dt"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1tJ411Y7wv",
+      "title": "【EVE】谨以此视频纪念-猪场欧服泰坦首杀",
+      "url": "https://www.bilibili.com/video/BV1tJ411Y7wv/",
+      "owner_uid": "447367",
+      "published_at": "2019-12-26T17:00:17.000Z",
+      "captured_at": "2026-10-31T16:24:50.723Z",
+      "description": "请原谅我再次发布这种没什么营养学不到东西的视频。\r\n但是今晚1泰坦1大航很难说不值得纪念\r\nMusic:\r\n鷺巣詩郎 - POWER TO STRIVE\r\n鷺巣詩郎 - Fade To Black_B13a",
+      "stats": {
+        "views": 1807,
+        "replies": 18
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "material_refs": [
+          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1tj411y7wv"
+        ],
+        "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-01"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    }
+  ]
 }

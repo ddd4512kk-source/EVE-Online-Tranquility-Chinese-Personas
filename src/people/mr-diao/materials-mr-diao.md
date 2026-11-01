@@ -128,3 +128,13 @@
 
 - 旧版正文取数：2025-06 Lantorn KM 127953772（泽尼塔）、127954538（纳迦法级舰队型），希瑟伊德 128026903（兀鹫）；2026-03-01 MC6O-F 各方约 1.14T；北方战役总损失约 969B；A1-AUH 95187540（缪宁）。
 - **红料 / 旗舰战出勤，中**：2025-06 Lantorn 泽尼塔、[纳迦法级舰队型](https://zkillboard.com/kill/127954538/)，希瑟伊德兀鹫；2026-03 MC6O-F [救世](https://zkillboard.com/kill/133727360/)；2026-04 Atioth [纳迦法](https://zkillboard.com/kill/134557132/)、[勒维亚坦](https://zkillboard.com/kill/134566212/)；2026-04 4-H [纳迦法](https://zkillboard.com/kill/134999006/)；2026-10 Obe [乌鸦](https://zkillboard.com/kill/139046684/)、[勒维亚坦](https://zkillboard.com/kill/139047592/)。
+
+## 凛冬固定清单核读补充（2026-10-30）
+
+- [主题24783](https://forums.winterco.org/t/topic/24783)：MrDiao比较月卡与PLEX折扣，解释FRT推荐码返现用于语音服务器；养猪法署名感谢Fuxi-Chunyang，不独算本人发明。
+
+帖子正文及可见回复已核；作品、技术细目与图像阅读边界见[逐帖处置表](../../../docs/sources/winterco-communications.tsv)。新补情节采用作者自述与回帖各自归因，不据教程标题推定指挥战果。
+
+## 旧闻采用边界
+
+骗后留录音的旧闻未留可核金额与完整对话，正文只沿既有游戏资产与拿苦主取乐的叙述，不补具体话语。FlyingBee回忆盘古早期踢MrDiao，没有交代踢人缘由；相处评价与Wind的判断归回忆者，不用后来骗术旧闻倒填当年踢人原因。

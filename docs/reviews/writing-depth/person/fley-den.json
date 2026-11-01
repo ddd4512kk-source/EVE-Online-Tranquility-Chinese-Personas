@@ -1,0 +1,179 @@
+{
+  "status": "reviewed",
+  "note": "完整正文素材核读，教学战例与CEO主线保留；八杀并块、错误阵营去除后通读生成页。",
+  "evidence": [
+    "src/people/fley-den/materials-fley-den.md",
+    "src/people/fley-den/fley-den.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整正文及素材已读，主号/小号与冠军队员边界保留；新增11344拆招与原同一战例并块，未采用未核赛程队名或未读外链视频作新故事。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "### 料与来源"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核对事件边界和采用分量，未检出本次遗漏的重事。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ],
+      "items": [
+        {
+          "title": "小队到旗舰战的作战画像及高价巴戈龙损失",
+          "weight": "ordinary",
+          "reason": "累计KB与代表战斗组合成人物点评，单次昂贵舰损不当独立黑料",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "contains": "zKillboard 旧版正文取数："
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "乌鸦王的 [KB]"
+          },
+          "note": "主小号画像、2025高峰和损失、Atioth与4-H代表座位集中独立综合块，保留CEO教学之外实际作战经历。"
+        },
+        {
+          "title": "咸鱼回忆录首桶金",
+          "weight": "ordinary",
+          "reason": "新人自述与读者催更构成成长小故事",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "heading": "### 料与来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "2018 年他在贴吧"
+          },
+          "note": "保留群星入坑、灵感4-10、三个亿与太监，未添后续盈利。"
+        },
+        {
+          "title": "教学专栏持续创作",
+          "weight": "ordinary",
+          "reason": "具体系列作品构成教学作者独立故事",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "heading": "### 料与来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "在核爆所在的凛冬联盟"
+          },
+          "note": "教程到PVP发展理论形成作者画像，本次海送葬/行星作品仍归本人而非回帖索達。"
+        },
+        {
+          "title": "4-H响尾蛇八杀与伊什塔献祭",
+          "weight": "ordinary",
+          "reason": "完整本人复盘的教学战例，不是独立核实的大型战役",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "2021 年，他在 4-H 献祭一艘伊什塔"
+          },
+          "note": "旧威胁与水帖原因、新拆队/装填/卖血合为一块；不写威胁者身份或虚构BR。"
+        },
+        {
+          "title": "神农裔招新祖训与AT板凳梗",
+          "weight": "ordinary",
+          "reason": "CEO军团广告与已证实冠军队员身份的反差",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "heading": "### 军团简介（2026-10-10 ESI 快照）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "神农裔的军团简介开篇"
+          },
+          "note": "补损承诺、入团红包、板凳饮水机保留；评语明确队长黑莲不把广告率领当履历。"
+        },
+        {
+          "title": "盾抗旗舰被踢群募捐梗",
+          "weight": "ordinary",
+          "reason": "未核是否冒名的游戏群回帖，不能提升为管理滥权",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "heading": "### 检索记录与缺口"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "2019 年 2 月，FRT 凤凰城"
+          },
+          "note": "本人或冒名边界保留，文字笑点没有新增受害/处罚事实。"
+        },
+        {
+          "title": "群内阴阳怪气争执",
+          "weight": "ordinary",
+          "reason": "孤立且身份仍有缺口的单方抱怨，无严重后果",
+          "source": {
+            "file": "src/people/fley-den/materials-fley-den.md",
+            "heading": "### 料与来源"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/fley-den/fley-den.md",
+            "contains": "2026 年 4 月，贴吧有人发帖"
+          },
+          "note": "保留原单方口角，未编群内双方胜负或具体辱骂。"
+        }
+      ],
+      "noHeavyReason": "读完现存材料，主要是CEO招新、持续教学、个人成长、游戏战例与群内玩笑；两则争执分别身份未核和单方口角，未见封禁、骗款、重大内讧等重事。高价船损和冠军广告均不自动按重料抬高。"
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "综合战绩在前，教学/CEO与咸鱼自嘲相互勾连；八杀较长但有具体操控与取舍，群口角没有被扩成严重控诉，冠军广告与实际队长区别保留。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "乌鸦王的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/fley-den/2113213717-id.json",
+    "src/people/fley-den/fley-den.md",
+    "src/people/fley-den/materials-fley-den.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "082813678197832f4d0a7c9fa3375894a10d92814958ec01d22ca1bf51262e6b",
+  "level": 1
+}

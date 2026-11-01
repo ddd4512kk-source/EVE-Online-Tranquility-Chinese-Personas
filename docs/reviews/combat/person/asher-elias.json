@@ -1,0 +1,128 @@
+{
+  "status": "reviewed",
+  "note": "独立核读保存总览、归因和本轮综合画像",
+  "evidence": [
+    "src/people/asher-elias/materials-asher-elias.md",
+    "src/people/asher-elias/1687651723-id.json",
+    "src/people/asher-elias/asher-elias.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读保存stats总览：30184参与击杀、196单杀、Monitor/Legion/Eagle；团队战与长期指挥相符，原指挥位签名换算已撤。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "## 检索记录（2026-10-09）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式identity.alts为空，无已确认主力小号需补stats；不从简介笑话、别人的Twitch或Reddit昵称添同人关系。本次只审已存归因，不联网扩大查人。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/1687651723-id.json",
+          "contains": "\"alts\": []"
+        },
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "## 检索记录（2026-10-09）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "材料已查B-R、M2两轮、H-PA/R-AG与4-H代表记录；M2第二轮/H-PA/R-AG支持参与指挥，4-H截击舰只写亲自参战，不反推没指挥别号。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "## 2026-10-11：1T 大战核对"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照对象卡战役关联与已存代表材料，区分手工/正文提及与实际pilot；代表B-R/M2历史记录、FWST职责与Enho复盘各有来源，H-PA/R-AG参与指挥，其他一般出勤留互链。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/materials-asher-elias.md",
+          "heading": "## 2026-04-25 北方大型战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "本轮修订后综合战绩紧接开篇为第一红料；由总览统领玩法与职责，只展开有角色/反差作用的代表经历，不逐场列KM和金额。已通读正文并对照保存材料，未新增无来源战果。",
+      "evidence": [
+        {
+          "file": "src/people/asher-elias/asher-elias.md",
+          "contains": "阿舍的战绩有一条线从头拉到尾"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "src/people/asher-elias/1687651723-id.json",
+    "src/people/asher-elias/asher-elias.md",
+    "src/people/asher-elias/materials-asher-elias.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.json",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.md",
+    "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md",
+    "src/battles/sakht-2025/materials-sakht-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md",
+    "src/battles/yz9-f6-2020/yz9-f6-2020.json",
+    "src/battles/yz9-f6-2020/yz9-f6-2020.md",
+    "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
+  ],
+  "inputs": "f0383968456e07e5e582a1a680ba4fd0f19badd39387fc2ce611faac166efe5b",
+  "level": 1
+}

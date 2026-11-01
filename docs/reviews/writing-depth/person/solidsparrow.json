@@ -1,0 +1,95 @@
+{
+  "status": "reviewed",
+  "note": "逐帖核作者作品及失败反馈，纠正九星与竞技场误读，现稿主线与分量相称",
+  "evidence": [
+    "src/people/solidsparrow/materials-solidsparrow.md",
+    "src/people/solidsparrow/solidsparrow.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整核读正文、本人现有链接及本次缓存21902、22370、23589、21900、21591；专栏、赞助试配与ESS续帖均有采用。已纠正九星误读为击杀星标、竞技场误读为散打试船；23907按小说式教学而非亲历战报。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/materials-solidsparrow.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "教学持续创作构成人物故事，四炮没电与赞助试船是普通但有辨识度的连续经历；ESS教学与自己抓贼构成具体反差。未发现封禁、骗款、重大内讧等重事件。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/materials-solidsparrow.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ],
+      "noHeavyReason": "已核读的内容为散打教材、自述试错、后勤广告和ESS玩法，未见造成重大组织或资产后果的重事；不把普通战斗失败抬重。",
+      "items": [
+        {
+          "title": "散打专栏与赞助试船",
+          "weight": "ordinary",
+          "reason": "持续创作与真实失败反馈形成作者特色",
+          "source": {
+            "file": "src/people/solidsparrow/materials-solidsparrow.md",
+            "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/solidsparrow/solidsparrow.md",
+            "contains": "十字军那篇的四门炮还没威风多久"
+          },
+          "note": "四炮空电、69结构、赞助商、阔刀迭代与懒得换装分步推进，追逐段写协作，未当独立战役。"
+        },
+        {
+          "title": "ESS教材作者自己抓贼",
+          "weight": "ordinary",
+          "reason": "教学与反收割的角色互换有具体自嘲",
+          "source": {
+            "file": "src/people/solidsparrow/materials-solidsparrow.md",
+            "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/solidsparrow/solidsparrow.md",
+            "contains": "还“很推薦大家可以組給自己軍團的新人玩玩”。"
+          },
+          "note": "保留无武器廉价配置、本人翻船、抓师徒及做贼喊抓贼落点。"
+        },
+        {
+          "title": "后勤广告与实际战斗画像",
+          "weight": "light",
+          "reason": "简介与机库形成玩法陪衬",
+          "source": {
+            "file": "src/people/solidsparrow/materials-solidsparrow.md",
+            "heading": "## 列传中已有的公开来源链接"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/solidsparrow/solidsparrow.md",
+            "contains": "索達的 [KB]"
+          },
+          "note": "独立战斗首块解释玩法，不以广告推FC或组织职位。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主线仍是繁体散打作者，赞助船实测与ESS角色反转承担具体故事；后勤报价作为贯穿反差，普通战斗不被抬成大战或重丑闻。",
+      "evidence": [
+        {
+          "file": "src/people/solidsparrow/solidsparrow.md",
+          "contains": "索達是凛冬论坛上少见的繁体专栏作者"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/solidsparrow/2118768255-id.json",
+    "src/people/solidsparrow/materials-solidsparrow.md",
+    "src/people/solidsparrow/solidsparrow.md"
+  ],
+  "inputs": "38036d8d4a2af3137fbf53a0abbd57559ffd4399661d9104e5c0bb09b80a24e5",
+  "level": 1
+}

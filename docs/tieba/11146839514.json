@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "thread_id": "11146839514",
+  "url": "https://tieba.baidu.com/p/11146839514",
+  "title": "无人机天宫联盟《求真》",
+  "published_date": "2026-10-29",
+  "references": [
+    "docs/sources/sard-drone-region-clearance-announcement.md",
+    "src/people/drone-wang/materials-drone-wang.md"
+  ],
+  "legacy_records": [],
+  "discovery": {
+    "scope": "直接帖号入口；eve欧服吧，天宫补损、主权交换与主力团出走讨论"
+  },
+  "review": {
+    "status": "reviewed",
+    "read_at": "2026-10-30",
+    "notes": [
+      "匿名客户端正倒序各1页，可见#1—#10主楼及4条楼中楼文字已核读，无正文附图；分页无计数缺口。响应含审核中提示，不保证未返回、已删及后续新增内容完整。",
+      "首楼自称小道消息；#6归因补损池、指挥与收缩政策，并称BOSS未收到主权交换请求，与首楼版本有别；两个主力团未具名，未取得公告、账目、谈判或战报依据。",
+      "#8楼主称仍有主权、人数减少，不把解散说法写成正式联盟解散；#9搬家说法主体和地点不完整。已并入天宫进攻共享材料，本次查帖未扩写人物正文；具名离盟通知、补损说明或BOSS回应可作为后续核对入口。"
+    ],
+    "evidence": [
+      "docs/sources/sard-drone-region-clearance-announcement.md"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/tieba-11146839514-20261030.json",
+    "fetched_at": "2026-10-29T21:45:56.549Z",
+    "main_posts": 10,
+    "subposts": 4,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

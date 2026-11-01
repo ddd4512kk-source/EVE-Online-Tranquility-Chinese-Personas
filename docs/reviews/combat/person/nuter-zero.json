@@ -1,0 +1,74 @@
+{
+  "status": "reviewed",
+  "note": "独立复查：stats总览、无小号、Atioth 2026与独立战绩块均核；标签改动不影响战斗呈现",
+  "evidence": [
+    "src/people/nuter-zero/materials-nuter-zero.md",
+    "src/people/nuter-zero/nuter-zero.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读stats总览：148参与击杀、约250B，损失41、约5.0B；埃拉兹、灾难、海神，S-KSWL居首，2025-11前无记录、2026夏每月二三十条，正文“租地团两年几乎无击杀、进GNV后才开打”与月份相符。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "identity.alts为空；贴吧“果壳中的宇宙2”无桥不并，Bellstown为另一人留线索。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 线索与缺口"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "正文只用月份量级与船型写转变，无需核代表KM；埃拉兹按扰断位置写，不认指挥。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 线索与缺口"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "本人角色在Atioth 2026的pilots，正文只写名字在正式战报里；军团其他场次未归本人。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/materials-nuter-zero.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "“从物业经理到埃拉兹”为独立战绩块，综合船型、星系、月份变化与扰断位置，并在吉祥物块以击杀上升作反差。本次仅吉祥物块标签由黑料改红料，战绩块未动，复核仍成立。",
+      "evidence": [
+        {
+          "file": "src/people/nuter-zero/nuter-zero.md",
+          "contains": "进荣耀海军以后，果壳才算真正开始打架"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/nuter-zero/2122015910-id.json",
+    "src/people/nuter-zero/materials-nuter-zero.md",
+    "src/people/nuter-zero/nuter-zero.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md"
+  ],
+  "inputs": "c2d50f03a04e811648c3c174c21b732c584d15e64be29d0010f56d65a92a41ce",
+  "level": 1
+}

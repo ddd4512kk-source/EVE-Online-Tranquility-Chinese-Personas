@@ -1,5 +1,7 @@
 <a id="zerohuang-ss"></a>
 
+- 2026-11-01起收录号改为Even Rose（2112949937），本人名下zKB参与击杀最多（2874）；原收录号ZeroHuang SS（2113438156，1367）改登小号。
+
 ## Zero煌 / ZeroHuang SS
 
 收录角色：**ZeroHuang SS（2113438156）**，头衔“Zero煌”。已有[列传源文件](zerohuang-ss.md)。

@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { bodyLineOffset, validateBlocks } from './blocks.mjs';
 import systemNames from '../src/_data/systemNames.js';
+import { battleAllianceIds, checkBattleTaxonomy } from './battle-tags.mjs';
 import {
   battleOrgs,
   brApiUrl,
@@ -258,7 +259,7 @@ export const FIELDS = {
   start: '必填，开打日期（UTC），YYYY-MM-DD',
   end: '可选，结束日期（UTC），跨日才写',
   systems: '必填，星系列表',
-  tags: '可选，标签列表，供目录筛选（规模档位自动加，不必写）',
+  tags: '必填，恰好一个地带与一个战斗类型；联盟和规模自动生成',
   sides: '必填，交战各方（2–4 方），每方见 SIDE_FIELDS',
   loss_source: '必填，总损失口径的来源网址；多场编组时写各场来源的列表。全是 br.evetools／killmail.app 战报时数字由快照 同名战役 JSON 的 br 自动算',
   window: "快照战役可选，只算这段时间的击杀，UTC，如 ['2020-10-06 02:59', '2020-10-07 06:00']",
@@ -551,7 +552,7 @@ export async function checkBattles(root, { fetchSnapshot, lookupNames, lookupAll
     valid.push({ ...b, data: parsed.data });
   }
   errors.push(...findOverlaps(valid));
-  for (const b of valid) errors.push(...checkAllianceTags(b.data.tags, table).map(e => `${b.file}：${e}`));
+  for (const b of valid) errors.push(...checkBattleTaxonomy(b.data.tags).map(e => `${b.file}：${e}`));
   errors.push(...(await checkIds(table, valid.map(b => b.data), lookupNames)));
   const snapshotOrganizations = new Set();
   for (const b of valid.filter(b => usesSnapshot(b.data))) {
@@ -564,16 +565,19 @@ export async function checkBattles(root, { fetchSnapshot, lookupNames, lookupAll
     errors.push(...checkSnapshot(b.data, snap, people, table).map(e => `${b.file}：${e}`));
     if (snap) {
       for (const side of battleStats(b.data, snap, people, table).sides) {
-        for (const alliance of listedAllianceParticipation(side, table)) snapshotOrganizations.add(alliance.id);
+        for (const alliance of side.alliance_participation) snapshotOrganizations.add(alliance.id);
       }
     }
+  }
+  for (const b of valid.filter(b => !usesSnapshot(b.data))) {
+    for (const id of battleAllianceIds({ sides: b.data.sides }, table)) snapshotOrganizations.add(id);
   }
   // 快照的联盟字段已证明组织类型。名称缺失保留类型和 ID，不能漏掉参战记录；
   // 手填归方种子的 ID 仍由上面的 checkIds 严格校验。
   const warnings = [];
   const missing = [...snapshotOrganizations].filter(id => !table.alliances[id]);
   try {
-    if (missing.length && lookupNames) {
+    if (missing.length && lookupNames && !lookupAllianceDetails) {
       for (const { id, name, category } of await lookupNames(missing)) {
         if (snapshotOrganizations.has(id) && category === 'alliance') table.alliances[id] = { ...table.alliances[id], name };
       }
@@ -581,7 +585,7 @@ export async function checkBattles(root, { fetchSnapshot, lookupNames, lookupAll
     if (lookupAllianceDetails) {
       const incomplete = [...snapshotOrganizations].filter(id => !table.alliances[id]?.ticker && !table.alliances[id]?.metadata_unavailable);
       for (const { id, ...details } of incomplete.length ? await lookupAllianceDetails(incomplete) : []) {
-        if (details.name || table.alliances[id]) table.alliances[id] = { ...table.alliances[id], ...details };
+        if (details.name || details.metadata_unavailable || table.alliances[id]) table.alliances[id] = { ...table.alliances[id], ...details };
       }
     }
   } catch (error) {
@@ -591,14 +595,6 @@ export async function checkBattles(root, { fetchSnapshot, lookupNames, lookupAll
   if (pendingAllianceIds.length) warnings.push(`${pendingAllianceIds.length} 个历史参战联盟缺少名称缓存，页面暂显示联盟 ID。`);
   if (JSON.stringify(table) !== before) writeNames(root, table);
   return { count: battles.length, errors, warnings, pendingAllianceIds };
-}
-
-// 含中文的是地带、战型等普通标签；其余都当联盟标签，必须是名称表里某个联盟的游戏内 ticker（不用俗称、简称）
-export function checkAllianceTags(tags, table) {
-  const tickers = new Set(Object.values(table.alliances ?? {}).map(a => a.ticker).filter(Boolean));
-  return (tags ?? [])
-    .filter(t => !/[一-鿿]/.test(t) && !tickers.has(t))
-    .map(t => `标签 "${t}" 不是已知联盟的游戏内 ticker，联盟标签统一用 ticker`);
 }
 
 // 点名的联盟、军团 ID 不在名称表里就向 ESI 查名字，查到的写进 table

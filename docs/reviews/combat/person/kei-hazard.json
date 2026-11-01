@@ -1,0 +1,67 @@
+{
+  "status": "reviewed",
+  "note": "整篇重写后逐项核读",
+  "evidence": [
+    "src/people/kei-hazard/materials-kei-hazard.md",
+    "src/people/kei-hazard/kei-hazard.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "zKB生涯约1600击杀、124损失，最后活跃2021-01；主力土狼四百余次，其次占星、短剑，常去H-ADOC、1L-OEK。正文按量级写拉点支援小船画像。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "contains": "zKB 生涯 1621 击杀"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "唯一小号Kei Taigafan（曾用名Kei Dealer）约两百击杀，开奥内罗斯、曲剑后勤，正文一句带过；B站暴风毒蝎已排除。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "contains": "**小号 Kei Taigafan（2113376998）**"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "总览已足以支持正文的小船支援画像；正文不写具体月份或单张KM，战斗故事来自论坛外围solo帖与B站毒蝎之死，无须细查高值月。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "contains": "zKB 生涯 1621 击杀"
+        }
+      ]
+    },
+    "battles": {
+      "status": "not-applicable",
+      "note": "复查卡片显示本地战役关联为0；联盟赛在独立服务器、zKill不收录，不能当参战记录，正文只写组织与解说。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/materials-kei-hazard.md",
+          "contains": "AT 在独立赛事服务器进行"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后“开小船的人”合写KB画像、14501外围solo、小号后勤与海军毒蝎之死；联盟赛战绩只写FRT团队成绩，不归本人上场。",
+      "evidence": [
+        {
+          "file": "src/people/kei-hazard/kei-hazard.md",
+          "contains": "::: 红料 开小船的人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/kei-hazard/92761922-id.json",
+    "src/people/kei-hazard/kei-hazard.md",
+    "src/people/kei-hazard/materials-kei-hazard.md"
+  ],
+  "inputs": "1176638aee4dfb3292be33f9aeaf28d3d894d2b5bdce13a48aaaabd7fe176083",
+  "level": 1
+}

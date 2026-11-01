@@ -1,0 +1,131 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文与全部本人素材；CEO和FC短篇画像充分，无重料遗漏，AT按普通参赛融入综合战斗",
+  "evidence": [
+    "src/people/keep-steel/materials-keep-steel.md",
+    "src/people/keep-steel/keep-steel.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读完整正文、本人素材六节及身份档案。现有事实为创建者/现任CEO、长期FC、综合KB、四场大战参与与两场AT实际参赛；未漏已存重大争议或独立重事，后续赛事复盘与署名线索仍留素材。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 身份、任职与收录"
+        },
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 采用范围与后续缺口"
+        },
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## AT XIX：两张自挂战报的实际参与"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核读CEO创建与任职、综合战斗/指挥、AT参战及宣言，职责和综合画像足以支持管理者/FC短篇；普通比赛未包装成个人重大胜利，换盟仅作处境背景。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 身份、任职与收录"
+        },
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## 综合游戏画像与指挥依据"
+        },
+        {
+          "file": "src/people/keep-steel/materials-keep-steel.md",
+          "heading": "## AT XIX：两张自挂战报的实际参与"
+        }
+      ],
+      "noHeavyReason": "素材没有封号、重大内讧、诈骗、旗舰高值损失或影响群体的具体争议；创建及当前CEO职务、长期指挥和实际AT参赛属于已核职责画像，宣言是其个人趣味，不凭头衔和常规比赛抬为重料。",
+      "items": [
+        {
+          "title": "创团CEO与梦想宣言",
+          "weight": "ordinary",
+          "reason": "创建与当前CEO任职支持其管理者身份，但没有独立管理冲突或重大后果。",
+          "source": {
+            "file": "src/people/keep-steel/materials-keep-steel.md",
+            "heading": "## 身份、任职与收录"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/keep-steel/keep-steel.md",
+            "contains": "2019 年 4 月，钢姐姐创建"
+          },
+          "note": "写成员的日常追问和叫人上线压力，以个人豪言与管理琐事的反差推进；未推定中间连续CEO任期。"
+        },
+        {
+          "title": "长期舰队指挥与综合战斗画像",
+          "weight": "ordinary",
+          "reason": "长期游戏画像是必须覆盖的实际职责，现有大战参与没有具体指挥归因或独立戏剧性战果。",
+          "source": {
+            "file": "src/people/keep-steel/materials-keep-steel.md",
+            "heading": "## 综合游戏画像与指挥依据"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/keep-steel/keep-steel.md",
+            "contains": "钢姐姐的战斗底子扎在零安舰队里"
+          },
+          "note": "常用船与参与规模导入FC集结及决策处境，没有将累计参与击杀换算为其指挥战果。"
+        },
+        {
+          "title": "AT XIX两场驾驶参与",
+          "weight": "light",
+          "reason": "实际参赛能表现团长本人也承担小船位置；两张普通赛场KM不单独构成重大事件。",
+          "source": {
+            "file": "src/people/keep-steel/materials-keep-steel.md",
+            "heading": "## AT XIX：两张自挂战报的实际参与"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/keep-steel/keep-steel.md",
+            "contains": "他跟着 AOM 打过 A1"
+          },
+          "note": "并入综合战斗块，末击与DC当轮获胜范围准确；没有夸个人操作或指挥质量。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "首块以舰队/指挥职责统领战绩并以AT小船位置收束，次块以CEO日常呼应梦想宣言；两块均有处境和反差，结尾回到叫人上线的具体活。没有重大事件被普通战绩挤走，未把普通换盟单独成料。",
+      "evidence": [
+        {
+          "file": "src/people/keep-steel/keep-steel.md",
+          "contains": "钢姐姐的战斗底子扎在零安舰队里"
+        },
+        {
+          "file": "src/people/keep-steel/keep-steel.md",
+          "contains": "2019 年 4 月，钢姐姐创建"
+        },
+        {
+          "file": "src/people/keep-steel/keep-steel.md",
+          "contains": "他的个人宣言偏偏还要把目标"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/keep-steel/2115154285-id.json",
+    "src/people/keep-steel/keep-steel.md",
+    "src/people/keep-steel/materials-keep-steel.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "2b40523eb20428b8e18eb1d076b1deff3ff263e94447ba1e762dbbbec8820710",
+  "level": 1
+}

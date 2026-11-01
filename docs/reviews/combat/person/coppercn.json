@@ -1,0 +1,84 @@
+{
+  "status": "reviewed",
+  "note": "独立通读正文、素材、角色总览及两场既有战役；战绩块前移后通过。",
+  "evidence": [
+    "src/people/coppercn/materials-coppercn.md",
+    "src/people/coppercn/2118201493-id.json",
+    "src/people/coppercn/coppercn.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核收录号stats：2072杀、223损、1.922T，素材110单杀且缪宁为常用船；画像支持以大队参战为主兼总览维护与比赛队成员，未把名单写成个人指挥战功。",
+      "evidence": [
+        {
+          "file": "src/people/coppercn/2118201493-id.json",
+          "contains": "\"kills\": 2072"
+        },
+        {
+          "file": "src/people/coppercn/materials-coppercn.md",
+          "contains": "zKillboard 生涯击杀 2072"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式identity.alts为空，已读本人档案和材料，没有另列主力小号；不凭同名或比赛队关系补同人。",
+      "evidence": [
+        {
+          "file": "src/people/coppercn/2118201493-id.json",
+          "contains": "\"kills\": 2072"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "A1女妖记录与材料9条攻击者样本吻合，1.20T已机械改正为一万两千亿；总览维护新增没有待核战果，不为补写扩搜月份。",
+      "evidence": [
+        {
+          "file": "src/people/coppercn/materials-coppercn.md",
+          "heading": "### 2021-09-17 A1-AUH / 角色 2118201493"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核现有A1-AUH、Turnur两场：同号均为FRT参战，Turnur有损失，A1由本人材料具体KM支持女妖座位；未据普通参战赋予FC或独立胜负。",
+      "evidence": [
+        {
+          "file": "src/people/coppercn/materials-coppercn.md",
+          "heading": "### 2021-09-17 A1-AUH / 角色 2118201493"
+        },
+        {
+          "file": "src/people/coppercn/2118201493-id.json",
+          "contains": "\"kills\": 2072"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合KB块已紧接开篇；常规缪宁、A1女妖与AT19组队过程形成技术干部自己出勤的画像，未把比赛队名单当个人带队成绩。",
+      "evidence": [
+        {
+          "file": "src/people/coppercn/coppercn.md",
+          "contains": "copper 的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/coppercn/2118201493-id.json",
+    "src/people/coppercn/coppercn.md",
+    "src/people/coppercn/materials-coppercn.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md"
+  ],
+  "inputs": "a59ed7b900e1c215ba75ea6d70e937d4595158f241c6fa4ecc11fa59d47ff27a",
+  "level": 1
+}

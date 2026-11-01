@@ -1,5 +1,7 @@
 <a id="dennisqqt"></a>
 
+- 2026-11-01起收录号改为DennisDDT（2113018076），本人名下zKB参与击杀最多（2006）；原收录号DennisQQT（2112891500，324）改登小号。
+
 ## QQT / DennisQQT
 
 收录角色：**DennisQQT（2112891500）**，2017-06-09 建号，头衔“QQT MAIN”，Chi Gua（98524084，.233.，498 人）/ Fraternity.。已有[列传源文件](dennisqqt.md)。

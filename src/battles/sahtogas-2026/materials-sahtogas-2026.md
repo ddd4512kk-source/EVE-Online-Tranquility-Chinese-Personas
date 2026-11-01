@@ -51,3 +51,9 @@ GOT（99010517）在13时网页与DRL同队，在15时网页改列进攻队，�
 - [【EVE欧服|抵抗之狐】萨托加斯龙娘星城结构，FOX图尔无畏小分队突击——无畏视角](https://www.bilibili.com/video/BV1kArjBSEYM/)（抵抗之狐officials）：FOX图尔无畏小分队突击的无畏视角。
 - [萨托加斯  Fraternity gets OBLITERATED | EVE Cinematic Report](https://www.bilibili.com/video/BV1azrmB4EmD/)（Murphy_eve）：EVE Cinematic Report系列，英文标题说Fraternity被全歼。
 - [萨托佳斯千人会战超燃混剪，双方损失共计超过￥30000](https://www.bilibili.com/video/BV1gbkwB8EZV/)（哒哒小橙子）：橙子的萨托佳斯千人会战作品，发表于1月15日，与本场日期及星系相合；补充同一场交火的另一位作者记录。
+
+## 战斗类型复核（2026-10-31）
+
+读取13时related原始缓存，与正式快照相交893/1216张KM的部分已能确认42组无畏参战角色与舰型组合、33条无畏损失，以及战力辅助5组。此为覆盖下限，已足以确认成规模旗舰交火，定为旗舰战，不以星城被拆取代战斗类型。
+
+参战组合按同一角色与舰型去重，只纳入受害记录或有正伤害的攻击记录，不等同同屏数量；原始KM沿用本场已归档战报及其已存缓存，精简br仅供统计，不含舰型。联盟标签另按本场历史联盟完整并集生成。

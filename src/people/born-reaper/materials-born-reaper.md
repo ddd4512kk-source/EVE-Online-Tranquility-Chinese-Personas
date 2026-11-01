@@ -1,5 +1,7 @@
 <a id="born-reaper"></a>
 
+- 2026-11-01起收录号改为Ajin Shizhu（2114206710），本人名下zKB参与击杀最多（1509）；原收录号born reaper（2114253465，173）改登小号。
+
 ## 阿进 / born reaper
 
 收录角色：**born reaper（2114253465）**。已有[列传源文件](born-reaper.md)。

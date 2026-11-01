@@ -1,0 +1,113 @@
+{
+  "status": "reviewed",
+  "note": "独立核读BOOOOM BOM身份、综合战绩和七场战役，不把参战升级指挥，生成页通过。",
+  "evidence": [
+    "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+    "src/people/i-cute-money-plz/2117995654-id.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/people/i-cute-money-plz/i-cute-money-plz.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号4击杀6损失与主力BOOOOM BOM5887/468约5.07T分开读，不以收录号少量活动当本人整体画像。",
+      "evidence": [
+        {
+          "file": "src/people/i-cute-money-plz/2117995654-id.json",
+          "contains": "\"identity\": {"
+        },
+        {
+          "file": "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+          "heading": "## 近形角色与收录号（2026-10-10）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "BOOOOM BOM由同中文头衔、同团及showinfo直链主号归人，新22234再由本人自报ID坐实历史桥；15个近形号均0/0，未扩大到不同团I-cute ISK plz。",
+      "evidence": [
+        {
+          "file": "src/people/i-cute-money-plz/2117995654-id.json",
+          "contains": "\"identity\": {"
+        },
+        {
+          "file": "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+          "heading": "## 采星者历史榜前50增量（2026-10-14）"
+        },
+        {
+          "file": "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "周年庆空堡与纳迦法的两条原KM及猎犬自炸已存，非最后一击与伤害归属清楚。未将简介其他未核收藏当本人战果，不需再查月份。",
+      "evidence": [
+        {
+          "file": "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+          "heading": "## 采星者历史榜前50增量（2026-10-14）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对照7场现有战役关联，均为BOOOOM BOM：A1、4-ABS8、Atioth、Lantorn、LJ、Turnur、YMJG；统一为FRT方的本人参战，原战役快照关联保留，不据岗位猜其指挥或将集体战果独归本人。",
+      "evidence": [
+        {
+          "file": "src/people/i-cute-money-plz/2117995654-id.json",
+          "contains": "\"identity\": {"
+        },
+        {
+          "file": "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+          "heading": "## 采星者历史榜前50增量（2026-10-14）"
+        },
+        {
+          "file": "src/battles/atioth-2026/atioth-2026.json",
+          "contains": "\"2114825696\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合红料现紧接开篇，用主号/小号差异与共同出勤统领画像，代表周年庆和自炸回响后文，未将外交管理身份等同战场FC。",
+      "evidence": [
+        {
+          "file": "src/people/i-cute-money-plz/i-cute-money-plz.md",
+          "contains": "只翻 I-cute money plz 的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/frt-offtimezone-quotes-2025.md",
+    "docs/sources/init-cn-mobilization-2026.md",
+    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/people/i-cute-money-plz/2117995654-id.json",
+    "src/people/i-cute-money-plz/i-cute-money-plz.md",
+    "src/people/i-cute-money-plz/materials-i-cute-money-plz.md",
+    "src/battles/4-abs8-2023/4-abs8-2023.json",
+    "src/battles/4-abs8-2023/4-abs8-2023.md",
+    "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "88657720e92a04195a810a7f53edf57ba97378da4581346a1b91e1bfd76986e8",
+  "level": 1
+}

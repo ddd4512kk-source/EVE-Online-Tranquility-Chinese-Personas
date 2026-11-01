@@ -1,0 +1,149 @@
+{
+  "status": "reviewed",
+  "note": "按创团及现任 CEO 例外验收短篇；社交经营主线展开充分，轻段子及战绩未充作收录依据。",
+  "evidence": [
+    "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+    "src/people/captain-dragonfly/captain-dragonfly.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整素材和正文，核了创团／现任 CEO、头衔中文名、公开寄语、stats 与战役；晨曦国服旧争议只有组织近名、未有同人依据，未取用。角色简介段子仅为够格 CEO 的点缀，不单独造事件。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 收录依据与历史撤回"
+        },
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 角色简介与任职复核（2026-10-29）"
+        },
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 2026-10-17 补查"
+        },
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 战斗总览与已有战役"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "现有素材没有封号、骗款、重大管理冲突或决定人物形象的重事；按有任职依据的 CEO 例外保留短篇，经营寄语展开为实际角色与留人功课，轻段子不拆料。",
+      "noHeavyReason": "已核素材只有创团及当前 CEO 任职、招募寄语、角色简介趣味和普通战斗经历；国服争议身份不成立而未归入，无可认定本人的重料。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+          "heading": "## 收录依据与历史撤回"
+        }
+      ],
+      "items": [
+        {
+          "title": "创团 CEO 与社交九成九的经营主张",
+          "weight": "ordinary",
+          "reason": "有军团接口 creator_id／ceo_id 及雇佣记录支持实际任职，满足 CEO 短篇例外；寄语属于经营口径而非重大黑料。",
+          "source": {
+            "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+            "heading": "## 角色简介与任职复核（2026-10-29）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+            "contains": "光点学院的[招募书]"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "三段分别写广告可提供的资源、寄语向社交转折、CEO 留人和安排活动的长期功课；处境与经营动机有展开，不把广告当实测，不添未发生的争端。"
+        },
+        {
+          "title": "随队作战与近期频率变化",
+          "weight": "ordinary",
+          "reason": "长期参与记录和已有大战均可作 CEO 画像，不独作立传门槛。",
+          "source": {
+            "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+            "heading": "## 战斗总览与已有战役"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+            "contains": "鲨鱼辣椒的[战斗记录]"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "单独战绩红料以乌特拉拆堡为代表，结合夏季稀疏、秋季仍有记录，未从低频推出军团萧条，也未冒称带队。"
+        },
+        {
+          "title": "不要赌博与超网订单相邻",
+          "weight": "light",
+          "reason": "本人简介的反差只够性格点缀，不能单独立传或成为黑料块。",
+          "source": {
+            "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+            "heading": "## 角色简介与任职复核（2026-10-29）"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+            "contains": "这位院长自己的简介也挺热闹"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "放在开篇并于评语回扣，没有扩大成开盘、下注或赌博经历。"
+        },
+        {
+          "title": "晨曦同名光点旧争议",
+          "weight": "light",
+          "reason": "存在来源入口但无法对应本人与同一组织，不是已确认的本人人物事件。",
+          "source": {
+            "file": "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+            "heading": "## 2026-10-17 补查"
+          },
+          "treatment": "omitted",
+          "development": [],
+          "verdict": "sufficient",
+          "note": "正确保留来源和排除依据，不把旧国服争议套给宁静服创团 CEO。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇交代创团和任职，战绩作一块背景，篇幅重心落在社交经营主张及 CEO 的留人功课；评语回扣经营与本人简介，未靠普通丢船和他人争端撑篇。全文没有研究日志、免责刹车或机械逐场战果清单。",
+      "evidence": [
+        {
+          "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+          "contains": "鲨鱼辣椒，游戏角色 Captain Dragonfly"
+        },
+        {
+          "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+          "contains": "这也给 CEO 留了一份长期功课"
+        },
+        {
+          "file": "src/people/captain-dragonfly/captain-dragonfly.md",
+          "contains": "鲨鱼辣椒劝人开心，也给开心准备了制造商"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/captain-dragonfly/2122349490-id.json",
+    "src/people/captain-dragonfly/captain-dragonfly.md",
+    "src/people/captain-dragonfly/materials-captain-dragonfly.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md"
+  ],
+  "inputs": "196142944c50562d148c9a8c5bb58663bcbe7ef38075e3eaea9e3584c6d0921c",
+  "level": 1
+}

@@ -1,5 +1,7 @@
 # 侃侃熊／团子Yuigahama素材
 
+- 2026-11-01起收录号改为AI Pko（96646658），本人名下zKB参与击杀最多（5413）；原收录号Mei Kanata（2113379197，1815）改登小号。
+
 ## 身份与小号
 
 B站[团子Yuigahama](https://space.bilibili.com/22271994/)，UID22271994，对应Mei Kanata（2113379197），游戏头衔“@nonsense bear#侃侃熊”，2017-10-30创建。2026-10-17 ESI详情HTTP 200，当前Tactical Trauma Team／Dracarys.（-120-／D.C）。下表保留原有七号线索；其中 Mei Konata、AI Pko、Mikoto-1、Mikoto-3 与收录号同中文头衔及军团，正式登记为本人小号。另三号当前不同军团且材料未保存对应依据，暂列待核，不以名字近或同联盟确认。跨号统计不相加。

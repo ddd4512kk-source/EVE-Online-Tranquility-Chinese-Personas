@@ -88,3 +88,9 @@ Proxay还说最初拿海军无畏当诱饵不划算，廉价无畏足以完成�
 - [【EVE Online】图尔鲁尔千人旗舰战 SNUFF+ROTE/Volta/Deepwater & imprium  VS FRT+Panfam](https://www.bilibili.com/video/BV1bT411t7a4/)（NoNoOwO）：Snuff一侧，标题写图尔鲁尔千人旗舰战。
 - [【EVEonline】超万亿战损！图尔鲁尔无畏战 FRT+PH vs BBC+Deepwater+Goons+INIT](https://www.bilibili.com/video/BV1ym4y1b7cK/)（HomuraHikari）：标题记超万亿战损，并列出FRT与PH对BBC、深水、蜜蜂、INIT。
 - [【EVE欧服】Turnur：1T+战损！FRT遭围殴](https://www.bilibili.com/video/BV1ec411P7EZ/)（天机坊）：标题写1T+战损，FRT遭围殴。
+
+## 战斗类型复核（2026-10-31）
+
+完整932张KM原始缓存中，KM108934086攻击者2118646682的3764（Leviathan，泰坦）记录481787点伤害；另有285组无畏参战角色与舰型组合。本场有泰坦实际伤害记录，定为超旗战，不以泰坦未损失沿用无畏战。
+
+参战组合按同一角色与舰型去重，只纳入受害记录或有正伤害的攻击记录，不等同同屏数量；原始KM沿用本场已归档战报及其已存缓存，精简br仅供统计，不含舰型。联盟标签另按本场历史联盟完整并集生成。

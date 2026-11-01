@@ -1,0 +1,112 @@
+{
+  "status": "reviewed",
+  "note": "独立核主小号总览、七场战役与11344作者复盘；综合战绩前移、八杀并块后通过。",
+  "evidence": [
+    "src/people/fley-den/materials-fley-den.md",
+    "src/people/fley-den/2113213717-id.json",
+    "src/people/fley-den/fley-den.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核主号stats8948杀、578损、3.436T及素材674单杀，常用洛基/缪宁/银鹰/马克瑞，支持小队与大队兼顾的战斗玩法；评语旧三千亿已修正三万多亿。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/2113213717-id.json",
+          "contains": "\"kills\": 8948"
+        },
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "contains": "画像 / KB："
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Den Like Raven为已确认同头衔/同人小号；已存stats3483杀、362损、1.272T，材料保留跨星系样本不属于Atioth的排除，累计不加总，4-H多号一场合并。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/2113213717-id.json",
+          "contains": "\"kills\": 8948"
+        },
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "## 已对应小号的战役复查（2026-10-11）"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核素材2025-03约234.8B、2025-10约219.9B及926亿巴戈龙损失，八杀新段由11344第6楼自述复盘支持，不冒充独立BR；没有新待查月份。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "contains": "zKillboard 旧版正文取数："
+        },
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核现有七场：4-H、Ahbazon、Akkio、Atioth、LJ-YSW、Otsasai、X47；主小号按人合并，4-H土狼和Atioth凤凰海军的代表KM对应本人材料，未把小号4-H记录误挪Atioth，未因比赛广告称率队。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "## 2026-04-25 北方大型战役"
+        },
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "## 2026-10-11：1T 大战核对"
+        },
+        {
+          "file": "src/people/fley-den/materials-fley-den.md",
+          "heading": "## 2026-06-21 Akkio参战（2026-10-20补档）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合KB块现紧接开篇，以独狼/大队并行和高价损失点评人物，代表战斗在块内；原八杀与新增拆招已合一事件，未拆普通KM凑料。",
+      "evidence": [
+        {
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "乌鸦王的 [KB]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/fley-den/2113213717-id.json",
+    "src/people/fley-den/fley-den.md",
+    "src/people/fley-den/materials-fley-den.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "082813678197832f4d0a7c9fa3375894a10d92814958ec01d22ca1bf51262e6b",
+  "level": 1
+}

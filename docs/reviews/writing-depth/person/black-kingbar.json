@@ -1,0 +1,208 @@
+{
+  "status": "reviewed",
+  "note": "改收Falkia后按现稿重核；仅一处月份措辞修正，不影响结论",
+  "evidence": [
+    "src/people/black-kingbar/black-kingbar.md",
+    "src/people/black-kingbar/materials-black-kingbar.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照素材全部章节：贴吧三帖各楼、小号组zKB总览、T8T-RA损失均已入文；团友受骗属受害者、28楼牌子争论按规则不写。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "heading": "## 贴吧来源"
+        },
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "欠税一千六百亿为唯一重料并充分展开；其余为CEO经营与战绩画像。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/materials-black-kingbar.md",
+          "heading": "## 贴吧来源"
+        }
+      ],
+      "items": [
+        {
+          "title": "欠联盟税一千六百亿拒不交",
+          "weight": "heavy",
+          "reason": "本人公开承认欠FRT联盟税并拒交，数额大，牵动联盟声望处置。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "创世离开FRT骂战10489881442"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "2026 年 2 月，创世一系离开"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "创世离开FRT的骂战中被翻旧账。",
+              "evidence": {
+                "file": "src/people/black-kingbar/black-kingbar.md",
+                "contains": "2026 年 2 月，创世一系离开"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "负十声望调不回、不招新不运营，要声望无用。",
+              "evidence": {
+                "file": "src/people/black-kingbar/black-kingbar.md",
+                "contains": "他的道理是：2023 年 7 月开始欠税"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "联盟记录对上时间线，当年12月离开frt-u.转挂创世。",
+              "evidence": {
+                "file": "src/people/black-kingbar/black-kingbar.md",
+                "contains": "联盟记录对得上这条时间线"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "别人往小里辩他往大里纠正，并与补税差对照。",
+              "evidence": {
+                "file": "src/people/black-kingbar/black-kingbar.md",
+                "contains": "别人被追债，都是往小里辩"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "补税差的团长成了追不回税的军团。",
+              "evidence": {
+                "file": "src/people/black-kingbar/black-kingbar.md",
+                "contains": "当年拿自己的 ISK 补军团税差的人"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "本人原话、时间线、数额与骂人语均用上；N身份留素材。"
+        },
+        {
+          "title": "十四号多开小队与T8T-RA十四条渎圣",
+          "weight": "ordinary",
+          "reason": "本人战斗经历全在小号组；单场损失作代表战。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "小号组zKB stats"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "黑皇杖的击杀榜，前几十名里有十四个号"
+          },
+          "note": "综合画像加一场代表战，并入战绩块。"
+        },
+        {
+          "title": "生日建团与一个月被踢出RR",
+          "weight": "ordinary",
+          "reason": "建团起点与早期挫折。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "18楼"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "2019 年 4 月 27 日，长门回家"
+          },
+          "note": "被踢原因、叹气原话、一个月无人上线、人数1均入文。"
+        },
+        {
+          "title": "frt-u.扩张与处理成员",
+          "weight": "ordinary",
+          "reason": "CEO管理：踢脚本成员、道歉、停招。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "44楼"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "进了 frt-u. 以后"
+          },
+          "note": "三件处理与本人心得原话齐全。"
+        },
+        {
+          "title": "矿队、快递与声望核对",
+          "weight": "ordinary",
+          "reason": "军团经营，体现CEO实际职责。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "48楼"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "停招那一个月，长门把力气"
+          },
+          "note": "45、48楼细节入文。"
+        },
+        {
+          "title": "自掏腰包补税差",
+          "weight": "ordinary",
+          "reason": "替成员垫税，为欠税黑料作反差。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "军团税讨论7308044284"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "2021 年 4 月，贴吧有人抱怨"
+          },
+          "note": "楼主抱怨、本人解释、团友揭底均入文。"
+        },
+        {
+          "title": "国服低安一人军团",
+          "weight": "light",
+          "reason": "本人回忆录中的国服旧事，不涉宁静。",
+          "source": {
+            "file": "src/people/black-kingbar/materials-black-kingbar.md",
+            "contains": "11楼"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/black-kingbar/black-kingbar.md",
+            "contains": "长门在贴吧写过一篇很长的建团回忆录"
+          },
+          "note": "作多开手艺的前史，与战绩块勾连。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇推出的多开小队由紧随的战绩块承接，欠税重料作全篇收束，评语兼及多开小队、经营与欠税，重心匹配。十四号设定在开篇、战绩块、国服块末、矿队块末反复出现，属勾连，略重复但不构成缺口。",
+      "evidence": [
+        {
+          "file": "src/people/black-kingbar/black-kingbar.md",
+          "contains": "长门给自己建团当生日礼物"
+        },
+        {
+          "file": "src/people/black-kingbar/black-kingbar.md",
+          "contains": "黑皇杖的击杀榜，前几十名里有十四个号"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/black-kingbar/736339179-id.json",
+    "src/people/black-kingbar/black-kingbar.md",
+    "src/people/black-kingbar/materials-black-kingbar.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "bced52e5b37e2c4ed6a8df052314fc005fe847e5447492b137bae1ce9af8a285",
+  "level": 1
+}

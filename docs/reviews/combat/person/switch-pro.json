@@ -1,0 +1,78 @@
+{
+  "status": "reviewed",
+  "note": "独立核读正式素材、本地stats与A1快照，常规随队画像及外交任职边界相符。",
+  "evidence": [
+    "src/people/switch-pro/materials-switch-pro.md",
+    "src/people/switch-pro/switch-pro.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "对照本地原始 stats 缓存和正式素材：897条参与击杀、107损失，单杀15；常用舰船为重突、隐轰、海军巡洋及辅助小船，2021年持续活动而后期较零散，支持正文常规随队画像，未归个人独立战果。",
+      "evidence": [
+        {
+          "file": "src/people/switch-pro/materials-switch-pro.md",
+          "heading": "## 综合游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "已读身份档案空 alts 与素材同人边界；没有已确认主力小号。小队登记CEO未被冒认成自然人小号，无须逐号统计。",
+      "evidence": [
+        {
+          "file": "src/people/switch-pro/materials-switch-pro.md",
+          "heading": "## 综合游戏画像"
+        },
+        {
+          "file": "src/people/switch-pro/materials-switch-pro.md",
+          "heading": "## 身份、职责与收录依据"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "已核月分布与常用船型。正文只评价常规舰队经历，不提出高价值月份、特定KM或指挥战果判断，现有总览足够，无须另查代表KM。",
+      "evidence": [
+        {
+          "file": "src/people/switch-pro/materials-switch-pro.md",
+          "heading": "## 综合游戏画像"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立对照 review card 唯一战役命中、A1既有战役正文及快照pilot 2118198001对应宽带山98626718/AOM99009082，正文叙述归AOM随队参战，未称其指挥。",
+      "evidence": [
+        {
+          "file": "src/people/switch-pro/materials-switch-pro.md",
+          "heading": "## A1-AUH 与既有战役对照"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后首块独立战绩红料综合常用舰种与常规舰队角色，以A1说明早期AOM经历并与后来DC外交职责衔接；没有逐场拆块或用全场战果给个人记功。",
+      "evidence": [
+        {
+          "file": "src/people/switch-pro/switch-pro.md",
+          "contains": "拖拉机的战斗经历从宽带山"
+        },
+        {
+          "file": "src/people/switch-pro/switch-pro.md",
+          "contains": "2021 年的 [A1-AUH 会战]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/switch-pro/2118198001-id.json",
+    "src/people/switch-pro/materials-switch-pro.md",
+    "src/people/switch-pro/switch-pro.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "95d96e44a16b456eb1e43d1f005d198fd4ec5826e83df00bb9d917a210a621c8",
+  "level": 1
+}

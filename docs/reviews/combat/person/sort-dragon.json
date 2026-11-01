@@ -1,0 +1,75 @@
+{
+  "status": "reviewed",
+  "note": "独立复核本轮正文与保存材料；范围及后续缺口见逐项判断",
+  "evidence": [
+    "src/people/sort-dragon/materials-sort-dragon.md",
+    "src/people/sort-dragon/sort-dragon.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "独立复核已存stats总览、角色快照与全文：1207参与击杀、Avatar占重、月份稀疏，偏集团旗舰协调而非高频游走，正文相符。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 综合战绩及战役归因"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "核正式identity.alts为空及素材身份检索边界；没有已确认主力小号待补stats，不从仿号或猜测合并战绩。本次不联网重查。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 身份与角色"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已读船型与月份结构；B-R集火交换有官方战役回顾，正文仅采用五条泰坦时间交换，未推断本人最终存活/爆炸或个人五杀。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## B-R5RB"
+        },
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 综合战绩及战役归因"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "独立搜索正式战役JSON无主号命中；B-R本人协调俄方及泰坦受集火由已存CCP报道支持，不编小号或增本地参战名单。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/materials-sort-dragon.md",
+          "heading": "## 综合战绩及战役归因"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "紧接开篇的红料先综合旗舰/常规战风格，再用B-R自己受集火的处境写指挥职责；与随后联盟政治故事分工清楚。",
+      "evidence": [
+        {
+          "file": "src/people/sort-dragon/sort-dragon.md",
+          "contains": "他的主号战绩里，泰坦占了很重的位置"
+        },
+        {
+          "file": "src/people/sort-dragon/sort-dragon.md",
+          "contains": "B-R5RB 把这份角色放大到了极端"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/sort-dragon/1272172192-id.json",
+    "src/people/sort-dragon/materials-sort-dragon.md",
+    "src/people/sort-dragon/sort-dragon.md"
+  ],
+  "inputs": "515d9df8f6363d5a9edf072e21dc30a2ad8474ace11f3ebf3f26b940cf1f53df",
+  "level": 1
+}

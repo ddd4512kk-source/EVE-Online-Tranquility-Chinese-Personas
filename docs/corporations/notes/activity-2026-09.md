@@ -29,73 +29,73 @@
 | 13 | Dusk dreadnought. / 98817310 | Dracarys. | 277 / 207 | Duomi D03 / 2118786461 | 2026-10-12 | 同人号已收录；[人物素材](../../../src/people/duomi/materials-duomi.md) |
 | 14 | B.O.P Supplication For Glorious / 98547771 | Dracarys. | 194 / 151 | Apple Reborn / 2113791371 | 2026-10-11 | 已收录；[人物素材](../../../src/people/apple-reborn/materials-apple-reborn.md) |
 | 15 | Fox of Resistance / 98755298 | Northern Coalition. | 188 / 141 | Renard42 / 2121799880 | 2026-10-12 | 已收录；[人物素材](../../../src/people/renard42/materials-renard42.md) |
-| 16 | YeLuo-XingHai / 98588384 | Fraternity. | 288 / 201 | AsunaZX / 2119592670 | 2026-10-11 | 登记号与青春的关系待核；[青春素材](../../../src/people/sk-mmmm/materials-sk-mmmm.md) |
+| 16 | YeLuo-XingHai / 98588384 | Fraternity. | 288 / 201 | AsunaZX / 2119592670 | 2026-10-11 | 2026-11-01已按CEO例外收录[旋转变幻](../../../src/people/asunazx/materials-asunazx.md)；与青春不同人，两人同团 |
 | 17 | HongLou / 98642382 | Goonswarm Federation | 200 / 167 | Captain Bo / 96638675 | 2026-10-12 | 已收录老许；2025-04-05从Dema1接任CEO，[任期见素材](../../../src/people/captain-bo/materials-captain-bo.md) |
-| 18 | PLA Fleet / 98576141 | People's Liberation Alliance | 306 / 246 | 无有效CEO（ceo_id=1） | 2026-10-12 | 接口显示0成员、ceo_id=1；无有效现任CEO，历史任职待查 |
+| 18 | PLA Fleet / 98764551 | People's Liberation Alliance | 306 / 246 | Razor Jaxx / 945883645 | 2026-11-01 | 荣耀小号，已收录；[人物素材](../../../src/people/silvitni/materials-silvitni.md)。原对照误写同名旧团98576141，见[更正](member-research/98764551.md) |
 | 19 | Temple of Tuvan Orth / 98652614 | Guardians of Tranquility | 154 / 133 | fliet99 / 91254848 | 2026-10-12 | 已收录；[人物素材](../../../src/people/fliet99/materials-fliet99.md) |
 | 20 | Chi Gua / 98524084 | Fraternity. | 128 / 109 | Nine -L / 2115444624 | 2026-10-12 | 已收录；[人物素材](../../../src/people/nine-l/materials-nine-l.md) |
 | 21 | Salted Fish Inc / 98640194 | The Black Shores | 189 / 110 | saber lv1 / 2116737842 | 2026-10-15 | 已按当前CEO职责立短篇，历史任期待补 |
 | 22 | Descendants of Shen Nong / 98702890 | Fraternity. | 116 / 95 | Den Like Raven / 2113941665 | 2026-10-11 | 同人号已收录；[人物素材](../../../src/people/fley-den/materials-fley-den.md) |
 | 23 | Family Guy. / 98798876 | Deepwater Hooligans | 95 / 89 | Cyan nomi / 2122229391 | 2026-10-16 | 已收录创建者兼CEO；[人物素材](../../../src/people/cyan-nomi/materials-cyan-nomi.md) |
 | 24 | Cosmic-Wanderers / 98769610 | The Initiative. | 140 / 130 | KK Huang / 2121685477 | 2026-10-11 | 实际主事人已收录为[小黄人](../../../src/people/jiao-huang/materials-jiao-huang.md)（Jiao-Huang / 2119497024），KK Huang 为本人号 |
-| 25 | Galactic Empire Co LTD / 98537981 | Fraternity. | 149 / 100 | GECL CEO / 2118333810 | 2026-10-12 | 登记号与简介 CEO Mr Niu 的关系待核 |
-| 26 | Chuangshi College / 98705642 | ChuangShi Federation | 194 / 135 | JXXY Administrator / 2119672942 | 2026-10-12 | 候选待取材 |
+| 25 | Galactic Empire Co LTD / 98537981 | Fraternity. | 149 / 100 | GECL CEO / 2118333810 | 2026-10-12 | 登记号为职务号，简介CEO Mr Niu已收录为[小牛](../../../src/people/mr-niuniu/materials-mr-niuniu.md) |
+| 26 | Chuangshi College / 98705642 | ChuangShi Federation | 194 / 135 | JXXY Administrator / 2119672942 | 2026-10-12 | 公号，不立传 |
 | 27 | Navigators' Union / 98825044 | Fraternity. | 153 / 98 | MOSS 550W / 2120888832 | 2026-10-12 | 同人号已收录；[人物素材](../../../src/people/qi-mo/materials-qi-mo.md) |
 | 28 | Tu Zi Fei Corporation / 98648061 | Dracarys. | 165 / 116 | YM sakura / 2116369488 | 2026-10-12 | 已收录；[人物素材](../../../src/people/ym-sakura/materials-ym-sakura.md) |
 | 29 | Faceless. / 98645589 | Dracarys. | 145 / 95 | Azure bluesky / 2114644820 | 2026-10-12 | 已收录；[人物素材](../../../src/people/azure-bluesky/materials-azure-bluesky.md) |
 | 30 | Dawn's LightP / 98781311 | Celestial Palace. | 195 / 127 | charon1 / 2119928531 | 2026-10-12 | 同人号已收录；[人物素材](../../../src/people/drone-wang/materials-drone-wang.md) |
 | 31 | Attack On CALDARI / 98599181 | Fraternity. | 193 / 158 | Napoleon Codie / 2113235803 | 2026-10-12 | 已收录；[人物素材](../../../src/people/napoleon-codie/materials-napoleon-codie.md) |
 | 32 | Serenity Moe University / 98707431 | Fraternity Auxiliary | 227 / 128 | EIRIO Uchonela / 2115759889 | 2026-10-12 | 同人号已收录；[人物素材](../../../src/people/s2eirio/materials-s2eirio.md) |
-| 33 | Stars Corporate Group / 98598483 | The Initiative. | 153 / 93 | KEEP STEEL / 2115154285 | 2026-10-11 | 候选待取材 |
+| 33 | Stars Corporate Group / 98598483 | The Initiative. | 153 / 93 | KEEP STEEL / 2115154285 | 2026-10-11 | 已收录；[人物素材](../../../src/people/keep-steel/materials-keep-steel.md) |
 | 34 | Silver Fog Dragon Ride / 98613748 | Dragon Riders Legion | 110 / 89 | hm Hongming / 2114820390 | 2026-10-12 | 已收录；[人物素材](../../../src/people/hm-hongming/materials-hm-hongming.md) |
 | 35 | Baby-Bus / 98777401 | Dracarys. | 241 / 132 | NVA-King / 2122186397 | 2026-10-12 | 已收录：[萝卜](../../../src/people/niepan-luobo/materials-niepan-luobo.md) |
-| 36 | New Eden Light Point College / 98772842 | Fraternity. | 121 / 108 | Captain Dragonfly / 2122349490 | 2026-10-11 | 已撤回；[线索](../../leads/captain-dragonfly.md) |
+| 36 | New Eden Light Point College / 98772842 | Fraternity. | 121 / 108 | Captain Dragonfly / 2122349490 | 2026-10-11 | 已按创团 CEO 任职收录；[素材](../../../src/people/captain-dragonfly/materials-captain-dragonfly.md) |
 | 37 | Foredawn Business Corporation / 98538918 | Fraternity. | 72 / 49 | Yohane Bonaventura / 2113698511 | 2026-10-12 | 同人号已收录；[人物素材](../../../src/people/alice-seraph/materials-alice-seraph.md) |
-| 38 | Deadspace Spearhead / 98841123 | Celestial Palace. | 95 / 72 | AlizeeJacotey / 2117717715 | 2026-10-12 | 候选待取材 |
+| 38 | Deadspace Spearhead / 98841123 | Celestial Palace. | 95 / 72 | AlizeeJacotey / 2117717715 | 2026-10-12 | 已收录创建者兼CEO；[斯特](../../../src/people/alizeejacotey/materials-alizeejacotey.md) |
 | 39 | Arknights. / 98725089 | Fraternity. | 95 / 77 | Jolange Jogua / 2116478004 | 2026-10-11 | 同人号已收录；[人物素材](../../../src/people/jolange-joestar/materials-jolange-joestar.md) |
-| 40 | Silent Sojourner / 98817783 | Shadow Cartel | 73 / 61 | Silent Sojourner CEO / 2123893786 | 2026-10-12 | 登记号与简介 CEO La Rusa 的关系待核 |
+| 40 | Silent Sojourner / 98817783 | Shadow Cartel | 73 / 61 | Silent Sojourner CEO / 2123893786 | 2026-10-12 | 简介CEO La Rusa已按CEO例外收录为[奈何](../../../src/people/la-rusa/materials-la-rusa.md)；登记号为挂名号 |
 | 41 | Formosa Research Center / 98049623 | Fraternity. | 60 / 49 | ScottChen / 1569089360 | 2026-10-12 | 已收录；[人物素材](../../../src/people/scottchen/materials-scottchen.md) |
 | 42 | Texas of Requiem / 98806126 | Texas. | 107 / 83 | Zeus008 / 2121593859 | 2026-10-12 | 已收录；[人物素材](../../../src/people/texas/materials-texas.md) |
-| 43 | Forever Stardust Navy Combined Fleet / 98804833 | Goonswarm Federation | 65 / 56 | 00Ling-Li00 / 2118587871 | 2026-10-12 | 候选待取材 |
+| 43 | Forever Stardust Navy Combined Fleet / 98804833 | Goonswarm Federation | 65 / 56 | 00Ling-Li00 / 2118587871 | 2026-10-12 | 已收录；[绫里](../../../src/people/ling-li/materials-ling-li.md) |
 | 44 | Red Scarf Humpback / 98632030 | Fraternity. | 119 / 85 | Monster0001 / 2122641476 | 2026-10-10 | 已收录；[人物素材](../../../src/people/monster0001/materials-monster0001.md) |
-| 45 | Glory Navy / 98530802 | Fraternity. | 118 / 82 | Nuter Zero / 2122015910 | 2026-10-12 | 候选待取材 |
+| 45 | Glory Navy / 98530802 | Fraternity. | 118 / 82 | Nuter Zero / 2122015910 | 2026-10-12 | 已收录；[果壳](../../../src/people/nuter-zero/materials-nuter-zero.md) |
 | 46 | Infinity Avenger / 98556933 | Snuffed Out | 33 / 28 | Sayler / 2113271910 | 2026-10-11 | 已收录；[人物素材](../../../src/people/sayler/materials-sayler.md) |
 | 47 | Phoenix City / 98575144 | Fraternity. | 75 / 56 | Aniki S / 2119046171 | 2026-10-11 | 已收录；[人物素材](../../../src/people/aniki-s/materials-aniki-s.md) |
 | 48 | Zhuque squad / 98742946 | Invidia Gloriae Comes | 144 / 109 | ZQ-EAgle-ADMIN / 2121322329 | 2026-10-12 | 登记号与Sakura WU同“老鹰”头衔且具名互链，已归玄武老鹰本人 |
-| 49 | Black.King.Bar / 98599315 | ChuangShi Federation | 88 / 74 | Black KingBar / 2115169223 | 2026-10-12 | 候选待取材 |
-| 50 | Dam Scientific Research / 98606029 | Dracarys. | 110 / 77 | huaxia junyue / 2113387808 | 2026-10-12 | 候选待取材 |
+| 49 | Black.King.Bar / 98599315 | ChuangShi Federation | 88 / 74 | Black KingBar / 2115169223 | 2026-10-12 | 已收录创建者兼CEO；[长门](../../../src/people/black-kingbar/materials-black-kingbar.md) |
+| 50 | Dam Scientific Research / 98606029 | Dracarys. | 110 / 77 | huaxia junyue / 2113387808 | 2026-10-12 | 已收录；[君越](../../../src/people/huaxia-junyue/materials-huaxia-junyue.md) |
 
-50 家中，39 家登记 CEO 已对应收录人物（含本人小号，同一人可掌多个军团），7 家为候选待取材，3 家登记号与简介主事者关系待核，1 家没有有效现任 CEO。这些是军团条目数，不是去重后的人数。
+50 家中，48 家登记 CEO 或简介主事者已对应收录人物（含本人小号、职务号与挂名号，同一人可掌多个军团），1 家登记号为公号不立传，1 家没有有效现任 CEO。这些是军团条目数，不是去重后的人数。
 
 ## 本轮候选与对应缺口
 
 | 九月名次 | 登记角色 / ID | 已有线索与待查 |
 | --- | --- | --- |
 | 5 | YAGAHA3 / 2119032128 | 简介另列 CEO YAGAHA（2118729398）；名字同词根，按同军团规则核对两号归属后合并；娜乌西卡是总监，不代替 CEO；2026-10-15 两号头衔“嘎子哥 CEO”／“嘎子哥”同团，合并收录YAGAHA |
-| 16 | AsunaZX / 2119592670 | 登记号与青春的关系待核；[青春素材](../../../src/people/sk-mmmm/materials-sk-mmmm.md) |
+| 16 | AsunaZX / 2119592670 | 已收录[旋转变幻](../../../src/people/asunazx/materials-asunazx.md) |
 | 17 | Captain Bo / 96638675 | 已核头衔老许及现任CEO，短篇已写；Dema1是前任CEO兼入团邮件联系人，两人不合并；任期自2025-04-05起已核，实际管理事务待补 |
-| 18 | 无有效CEO / 1 | PLA Fleet 已为0成员；需历史CEO及注销时间，不能由创建者字段替代任职证明 |
+| 18 | Razor Jaxx / 945883645 | 2026-11-01更正军团ID为98764551；登记CEO头衔“极端荣耀”，简介联系CEO Silvitni，归荣耀本人；原“0成员、ceo_id=1”属同名旧团98576141 |
 | 21 | saber lv1 / 2116737842 | 当前CEO、+8洞团与零税依据已核，[saber素材](../../../src/people/saber-lv1/materials-saber-lv1.md)已成文；不移植成员故事，2022任期另查 |
 | 23 | Cyan nomi / 2122229391 | 已收录；中文外号与账号桥另留缺口，见[人物素材](../../../src/people/cyan-nomi/materials-cyan-nomi.md) |
 | 24 | KK Huang / 2121685477 | 简介联系人 Xiao HuangRen 与 Jiao-Huang 同人，已收录为[小黄人](../../../src/people/jiao-huang/materials-jiao-huang.md)；KK Huang 也是本人号 |
-| 25 | GECL CEO / 2118333810 | 登记号与简介 CEO Mr Niu 的关系待核；核对主事角色的ID、同人依据与交接任期 |
-| 26 | JXXY Administrator / 2119672942 | 简介引用“穆长宁语录”；不能据组织文案将登记号归给穆长宁 |
-| 33 | KEEP STEEL / 2115154285 | 保留 Monitor 榜线索；具体 KM、中文外号与任期待查 |
+| 25 | GECL CEO / 2118333810 | 职务号；主事人已收录[小牛](../../../src/people/mr-niuniu/materials-mr-niuniu.md) |
+| 26 | JXXY Administrator / 2119672942 | 简介引用“穆长宁语录”；公号，不立传，不据组织文案归给穆长宁 |
+| 33 | KEEP STEEL / 2115154285 | 已收录 |
 | 35 | NVA-King / 2122186397 | 已对应涅磐萝卜／海草海草（本人自述 byb CEO，NVA 同前缀号），收录为[萝卜](../../../src/people/niepan-luobo/materials-niepan-luobo.md) |
-| 38 | AlizeeJacotey / 2117717715 | 本次军团简介为空；中文外号及本人故事待查 |
-| 40 | Silent Sojourner CEO / 2123893786 | 登记号与简介 CEO La Rusa 的关系待核；核对主事角色的ID、同人依据与交接任期 |
-| 43 | 00Ling-Li00 / 2118587871 | 本次军团简介为空；中文外号及本人故事待查 |
-| 45 | Nuter Zero / 2122015910 | 简介 CEO 与登记名一致；中文外号、社区故事及任期待查 |
+| 38 | AlizeeJacotey / 2117717715 | 已收录[斯特](../../../src/people/alizeejacotey/materials-alizeejacotey.md) |
+| 40 | Silent Sojourner CEO / 2123893786 | 简介CEO La Rusa已按CEO例外收录为[奈何](../../../src/people/la-rusa/materials-la-rusa.md)；登记号为挂名号 |
+| 43 | 00Ling-Li00 / 2118587871 | 已收录[绫里](../../../src/people/ling-li/materials-ling-li.md) |
+| 45 | Nuter Zero / 2122015910 | 已收录[果壳](../../../src/people/nuter-zero/materials-nuter-zero.md) |
 | 48 | ZQ-EAgle-ADMIN / 2121322329 | 登记号与Sakura WU同“老鹰”头衔且具名互链，已归玄武老鹰本人；创建与当前登记已核，历史任期另查[本人素材](../../../src/people/lao-ying/materials-lao-ying.md) |
-| 49 | Black KingBar / 2115169223 | 简介戏仿舰船加成；未署个人名，不当作 CEO 本人创作 |
-| 50 | huaxia junyue / 2113387808 | 招新联系“君越”，与登记名相关；自家围殴 Lv223 的事件已有[表妹素材](../../../src/people/fu1crum/materials-fu1crum.md)，不能直接认定现任 CEO 当时负责 |
+| 49 | Black KingBar / 2115169223 | 已收录[长门](../../../src/people/black-kingbar/materials-black-kingbar.md)；简介戏仿舰船加成未署个人名 |
+| 50 | huaxia junyue / 2113387808 | 已收录[君越](../../../src/people/huaxia-junyue/materials-huaxia-junyue.md)；Lv223事件只按表妹素材写为自家战利品 |
 
 ## 本轮覆盖
 
 - 原表前50逐项提取；军团 ID 与本站人物、aliases、素材及已有 CEO 快照交叉核对。仅提及 CEO 的成员材料不算该 CEO 已收录。
 - 新增联网范围只用于本次明确扩表：上限40次 ESI 请求，实际33次（含一次因无效CEO ID导致的名称解析失败）；按站串行并遵守间隔与拦截停止规则。其余复用本地资料。
 - 未新增社区搜索、个人画像、历任CEO或战役查询。候选已留存，职务或无署名组织文案不自动当作个人故事；九月任职、中文外号与具体事件仍需后续取材。
-- PLA Fleet（98576141）现快照0成员且ceo_id=1，与九月306活跃、246战斗属于不同时点，不能当作原榜抄错。Texas of Requiem（98806126）现名为Texas.，沿同一军团ID核对。
+- PLA Fleet原对照误用同名旧团98576141（2018建、0成员、ceo_id=1）；2026-11-01更正为现役兔子卫队98764551，CEO Razor Jaxx为荣耀小号。Texas of Requiem（98806126）现名为Texas.，沿同一军团ID核对。
 - 原2025-10榜的 Profane Proverb（98631475）与 Sing Hua（98524939）不在九月前50；[空离](../../../src/people/kongli/materials-kongli.md)及 Sasha rebirth 与台风的关系缺口保留在下列历史材料。
 
 ## 历史入口与旧轮取材（2026-10-11）
@@ -118,15 +118,15 @@
 | 9 | Stardust-Guardian / 98550682 | bingxuan 123 / 2114130095 | 已收录；[对应人物](../../../src/people/bingxuan-123/materials-bingxuan-123.md) |
 | 10 | Profane Proverb / 98631475 | Azika Gaptain / 2113198680 | 已收录：空离；[素材](../../../src/people/kongli/materials-kongli.md) |
 | 11 | Descendants of Shen Nong / 98702890 | Den Like Raven / 2113941665 | 同人号已收录；[对应人物](../../../src/people/fley-den/materials-fley-den.md) |
-| 12 | YeLuo-XingHai / 98588384 | AsunaZX / 2119592670 | 登记号与主事者关系待核；[对应人物](../../../src/people/sk-mmmm/materials-sk-mmmm.md) |
+| 12 | YeLuo-XingHai / 98588384 | AsunaZX / 2119592670 | 已收录[旋转变幻](../../../src/people/asunazx/materials-asunazx.md)；与青春不同人 |
 | 13 | Family Guy. / 98798876 | Cyan nomi / 2122229391 | 已收录创建者兼CEO |
 | 14 | Phoenix City / 98575144 | Aniki S / 2119046171 | 已收录；[对应人物](../../../src/people/aniki-s/materials-aniki-s.md) |
 | 15 | Sing Hua / 98524939 | Sasha rebirth / 2116995668 | 登记号与主事者关系待核；[对应人物](../../../src/people/domityphoon/materials-domityphoon.md) |
 | 16 | B.O.P Supplication For Glorious / 98547771 | Apple Reborn / 2113791371 | 已收录；[对应人物](../../../src/people/apple-reborn/materials-apple-reborn.md) |
-| 17 | Stars Corporate Group / 98598483 | KEEP STEEL / 2115154285 | 新候选 |
-| 18 | New Eden Light Point College / 98772842 | Captain Dragonfly / 2122349490 | 曾短篇收录，2026-10-17 因无本人事件撤回；[线索](../../leads/captain-dragonfly.md) |
+| 17 | Stars Corporate Group / 98598483 | KEEP STEEL / 2115154285 | 2026-11-01已收录；[对应人物](../../../src/people/keep-steel/materials-keep-steel.md) |
+| 18 | New Eden Light Point College / 98772842 | Captain Dragonfly / 2122349490 | 曾因无本人事件撤回，现按创团 CEO 任职收录；[素材](../../../src/people/captain-dragonfly/materials-captain-dragonfly.md) |
 | 19 | Infinity Avenger / 98556933 | Sayler / 2113271910 | 已收录；[对应人物](../../../src/people/sayler/materials-sayler.md) |
-| 20 | Cosmic-Wanderers / 98769610 | KK Huang / 2121685477 | 新候选 |
+| 20 | Cosmic-Wanderers / 98769610 | KK Huang / 2121685477 | 本人号，已收录为[小黄人](../../../src/people/jiao-huang/materials-jiao-huang.md) |
 
 12家现任CEO已按人收录（含3个已对应小号），2家本轮补短篇，4家人物待补录或取材（空离已查登记换任时间），2家登记号与已收录主事者的关系待核。已有同人依据照用，不另立小号传。
 
@@ -158,7 +158,7 @@
 
 - [Hoshino X角色ESI](https://esi.evetech.net/latest/characters/2120556332/)头衔去颜色标签后为“星烨 摆烂王 金色镰刀”。对应星烨，本站未收录；工程项目旧素材记2025-08-25星烨转述近况及与花花负责交接，星烨与工程项目obyta是不同人物。已按交接事件补[星烨短篇素材](../../../src/people/hoshino-x/materials-hoshino-x.md)，清退拍板不归给星烨。
 - [Azika Gaptain角色ESI](https://esi.evetech.net/latest/characters/2113198680/)头衔去颜色标签后为“CEO 空离”。对应空离，本站未收录；黑米头衔为Director、军团简介列外交，空离与黑米是不同人物，各自材料分开归属。简介是太极图及古文，没有新的个人事件。
-- AsunaZX（2119592670），YeLuo-XingHai登记CEO；旧画像头衔旋转，招新简介仍列已收录青春sk mmmm为CEO。现有资料明确保留两者不同角色，尚无同人桥梁。
+- AsunaZX（2119592670），YeLuo-XingHai登记CEO；旧画像头衔旋转，招新简介仍列已收录青春sk mmmm为CEO。现有资料明确保留两者不同角色，尚无同人桥梁。 2026-11-01按CEO例外单独收录为旋转变幻。
 - Sasha rebirth（2116995668），Sing Hua登记CEO；本轮军团简介仍列DomiTyphoon为CEO，并列Nany 1419为总监。台风已有列传；登记号与实际管理的关系、交接时间待核。
 
 ## 本轮渠道覆盖

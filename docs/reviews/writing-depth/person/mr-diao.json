@@ -1,0 +1,373 @@
+{
+  "status": "reviewed",
+  "note": "完整故事与素材独立核读，保留骗术三件重事和苦主后果，新增折扣归因融入教材；核查腔修后复读生成页。",
+  "evidence": [
+    "src/people/mr-diao/materials-mr-diao.md",
+    "src/people/mr-diao/mr-diao.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读完整正文与本人材料，清点教程、草案、外网整理、强暴与榜单、深渊教学、三件骗术旧闻、审查自述、盘古被踢；盗号指控仍无可读原料而未采用。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "### 红料与可读原帖"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "### 黑料与旧闻"
+        },
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "### 检索记录与缺口"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件比较独立故事分量；三件旧闻重料均已展开，不以新折扣轻料覆盖。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/materials-mr-diao.md",
+          "heading": "### 黑料与旧闻"
+        }
+      ],
+      "items": [
+        {
+          "title": "高安强暴者的联盟旗舰出勤",
+          "weight": "ordinary",
+          "reason": "长期作战画像，用代表旗舰座位说明教程作者本人也出勤，不逐场另拆普通参战",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "## 2026-10-11：1T 大战核对"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "叼爷写过运输教程，也干过高安强暴"
+          },
+          "note": "B-R纳迦法、主小号泰坦座位及综合强暴风格相互补充；各方总损失未作个人战果。"
+        },
+        {
+          "title": "新人教材与推荐码公共开销",
+          "weight": "ordinary",
+          "reason": "持续教材是作者独立贡献，本次折扣段为既有教材故事的具体增量",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 红料与可读原帖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "[华人势力大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)"
+          },
+          "note": "补明FRT推荐码返现去向及Fuxi Chunyang署名，未写成原创养猪法或现行价格推荐。"
+        },
+        {
+          "title": "采购与救援补贴草案",
+          "weight": "ordinary",
+          "reason": "公开提案而非已生效政策",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 红料与可读原帖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "他写过[联盟物资采购透明方案]"
+          },
+          "note": "两篇均明写草案，未虚构成员已经收到福利。"
+        },
+        {
+          "title": "Mittani事件整理",
+          "weight": "ordinary",
+          "reason": "外网长材料搬运贡献，非本人涉案",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 红料与可读原帖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "2022 年 Mittani 退位"
+          },
+          "note": "只写中文资料整理，不复述现实隐私与未成年人细节。"
+        },
+        {
+          "title": "强暴履历与运输教程",
+          "weight": "ordinary",
+          "reason": "长期玩法和本人教材相冲，非普通一场KM灌成黑料",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 强暴重型运输船统计（2026-10-17 zKB，已入文）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "叼爷的高安强暴经历，不是嘴上扮坏人"
+          },
+          "note": "参与运输船去重记录支持持续强暴，对面炮口反写教材是全文一条主线。"
+        },
+        {
+          "title": "2012霍克灾难争榜",
+          "weight": "ordinary",
+          "reason": "公开活动名次竞争，具体自述与收官反差完整",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 2012 Hulkageddon V 排行榜（2026-10-17 补，已入文）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "叼爷的强暴履历，早在 2012 年"
+          },
+          "note": "从保榜、自诉缺目标到被更宅对手超过有完整推进，数字分官网榜与zKB口径。"
+        },
+        {
+          "title": "深渊出口强暴教学",
+          "weight": "ordinary",
+          "reason": "教学对象是游戏资产，附图战例不是本人击杀",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 黑料与旧闻"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "他那篇[《极小队强暴攻略》]"
+          },
+          "note": "诱导统合部、等出口无敌到开火的行为展开，保留本人祝手红的反差。"
+        },
+        {
+          "title": "诈骗教材旧闻与合同研究",
+          "weight": "heavy",
+          "reason": "骗术教学决定人物恶名；旧原帖失散不补标题金额受害人",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 黑料与旧闻"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "旧闻一说，叼爷还写过诈骗教材"
+          },
+          "note": "公开180B合同帖仅证明研究他人方法，正文未把金额算本人所得；教材和骗术的连续兴趣已展开。",
+          "development": [
+            {
+              "angle": "分量",
+              "note": "教程对象从游戏生产变成骗走他人资产，影响人物道德形象",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "教人的不只有怎么刷钱、怎么运输"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "同一个老师傅的行星开发贡献与骗术课程形成具体反差",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "一摞行星开发攻略，也遮不住这份课程表"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "后来仍研究别人合同的公开痕迹，回响其持续兴趣",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "他对骗术的兴趣，倒还有一处公开痕迹"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "骗后留录音旧闻",
+          "weight": "heavy",
+          "reason": "资产损失之外以苦主受骗反应取乐，属于人物主线重事",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 黑料与旧闻"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "叼爷骗到别人的游戏资产后"
+          },
+          "note": "不编金额日期原话；从骗局结束后多留声音，展开当事人把苦主痛苦当战利品的动机和后果。",
+          "development": [
+            {
+              "angle": "动机",
+              "note": "资产到手后仍要留声音的额外欲望",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "游戏里的钱显然不够"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "同一位教材作者把受骗者变成另一种教学素材",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "前面他写教程，把经验整理给新人"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "伤害从资产扩展为反复回放的羞辱",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "别人丢了资产，他多了一份可以回放的笑料"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "马甲洗小团机库与炫耀旧闻",
+          "weight": "heavy",
+          "reason": "利用团体信任搬走资产并嘲笑苦主，决定恶名且不能被教程体面化",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 黑料与旧闻"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "他四处安插间谍马甲"
+          },
+          "note": "未编军团名损失次数或权限取得过程；写到小团家底、信任失效及被骗后再受嘲讽的后果。",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "小军团家底薄、交权限给新人有风险",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "小军团本来就家底薄"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "马甲让人放心与事后本人嘲弄紧扣同一手艺",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "马甲负责让人放心"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "资产被洗后还要听对方笑自己好骗",
+              "evidence": {
+                "file": "src/people/mr-diao/mr-diao.md",
+                "contains": "信任给出去，资产被搬走"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "糊弄蜜蜂身份审查",
+          "weight": "ordinary",
+          "reason": "本人自述的绕审查行为，与Jay洗机库分开",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 黑料与旧闻"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "2024 年搬运[蜜蜂执行军团被洗机库的消息]"
+          },
+          "note": "明确Jay为洗机库者，叼爷只认借信息应付审查，不收现实资料。"
+        },
+        {
+          "title": "盘古早期被踢与成员评价",
+          "weight": "ordinary",
+          "reason": "退团本身不膨胀为新罪名，回忆相处摩擦有独立来源",
+          "source": {
+            "file": "src/people/mr-diao/materials-mr-diao.md",
+            "heading": "### 黑料与旧闻"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mr-diao/mr-diao.md",
+            "contains": "[FlyingBee 的回忆]"
+          },
+          "note": "写出教材留下而本人被请走的后果，不拿多年后旧闻倒填踢人原因。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇和评语都以教程本事与取苦主为乐的旧闻为轴；新增推荐码只融入教材块。骗后录音与洗机库分别保留动机和后果，没有被旗舰出勤盖住。",
+      "evidence": [
+        {
+          "file": "src/people/mr-diao/mr-diao.md",
+          "contains": "写教程是本事，拿本事坑人也是他的名声"
+        },
+        {
+          "file": "src/people/mr-diao/mr-diao.md",
+          "contains": "叼爷的教程有用，这份红料该留"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "src/people/mr-diao/1387156123-id.json",
+    "src/people/mr-diao/materials-mr-diao.md",
+    "src/people/mr-diao/mr-diao.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.json",
+    "src/battles/b-r5rb-2014/b-r5rb-2014.md",
+    "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "22424db6352f5d35a38a4b2b2c8fc1161f96839d00873655f44efe8d918ecf87",
+  "level": 1
+}
