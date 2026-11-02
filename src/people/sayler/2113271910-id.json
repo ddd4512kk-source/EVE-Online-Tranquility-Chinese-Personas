@@ -203,7 +203,23 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2113295261,
+        "name": "BalmungS",
+        "basis": "军团头衔就是“Sayler”，2017—2018年多次与收录号同日进出同一军团",
+        "sources": [
+          "materials-sayler.md#小号"
+        ],
+        "zkb": {
+          "kills": 2239,
+          "lost": 344,
+          "isk_destroyed": 8751336567190,
+          "last_active": "2026-10",
+          "as_of": "2026-11-02"
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 16011,
@@ -221,7 +237,8 @@
     "tags": [
       "低安",
       "B B C",
-      "CEO"
+      "CEO",
+      "AT22亚军"
     ]
   }
 }

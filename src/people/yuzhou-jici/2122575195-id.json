@@ -1,0 +1,67 @@
+{
+  "id": 2122575195,
+  "name": "Yuzhou Jici",
+  "birthday": "2024-07-28T12:15:17Z",
+  "corporation_id": 98749162,
+  "affiliation": {
+    "corporation_id": 98749162,
+    "alliance_id": 99009163,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "start": "2024-07-28T12:15:00Z",
+      "end": "2024-07-31T15:04:00Z"
+    },
+    {
+      "corporation_id": 98266324,
+      "start": "2024-07-31T15:04:00Z",
+      "end": "2024-08-11T15:29:00Z"
+    },
+    {
+      "corporation_id": 98749162,
+      "start": "2024-08-11T15:29:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-02",
+  "person": {
+    "cn_name": "余舟",
+    "aliases": [],
+    "epithet": "名册有座，赛场无人，亚军照领。",
+    "tags": [
+      "比赛",
+      "AT22亚军",
+      "D.C"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2122635751,
+        "name": "Yuzhou Ciji",
+        "basis": "名字只调换两字，头衔同为“余舟”，同在军团98749162与联盟99009163，晚收录号三周建号。",
+        "sources": [
+          "materials-yuzhou-jici.md#身份与待核"
+        ],
+        "zkb": {
+          "kills": 129,
+          "lost": 115,
+          "isk_destroyed": 19576331484,
+          "last_active": "2026-09",
+          "as_of": "2026-11-02"
+        }
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 1036,
+      "lost": 195,
+      "isk_destroyed": 1732984664459,
+      "last_active": "2026-09",
+      "as_of": "2026-11-02"
+    }
+  }
+}

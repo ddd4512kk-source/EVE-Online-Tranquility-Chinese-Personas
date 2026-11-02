@@ -28,7 +28,23 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2120124139,
+        "name": "Melissa Kinrenka",
+        "basis": "coppercn的AT22参赛号；两号同属98749004，官方名册及决赛后勤记录与本人对应",
+        "sources": [
+          "materials-coppercn.md#at22参赛号与亚军"
+        ],
+        "zkb": {
+          "kills": 266,
+          "lost": 39,
+          "isk_destroyed": 552352538223,
+          "last_active": "2026-11",
+          "as_of": "2026-11-02"
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 2072,
@@ -44,7 +60,8 @@
     "epithet": "给全联盟维护总览，给自己的简介写了一篇红头文件。",
     "tags": [
       "00区",
-      "AT19冠军"
+      "AT19冠军",
+      "AT22亚军"
     ]
   }
 }

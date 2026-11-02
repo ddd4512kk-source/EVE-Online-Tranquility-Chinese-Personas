@@ -1,0 +1,137 @@
+{
+  "id": 2122021471,
+  "name": "Stellaze",
+  "birthday": "2024-01-25T15:08:58Z",
+  "corporation_id": 98775430,
+  "affiliation": {
+    "corporation_id": 98775430,
+    "alliance_id": 99009163,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000169,
+      "start": "2024-01-25T15:09:00Z",
+      "end": "2024-01-26T03:58:00Z"
+    },
+    {
+      "corporation_id": 98705642,
+      "start": "2024-01-26T03:58:00Z",
+      "end": "2025-01-20T02:33:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2025-01-20T02:33:00Z",
+      "end": "2025-01-20T02:36:00Z"
+    },
+    {
+      "corporation_id": 98787318,
+      "start": "2025-01-20T02:36:00Z",
+      "end": "2025-02-16T15:13:00Z"
+    },
+    {
+      "corporation_id": 1000169,
+      "start": "2025-02-16T15:13:00Z",
+      "end": "2025-02-16T15:13:00Z"
+    },
+    {
+      "corporation_id": 98787575,
+      "start": "2025-02-16T15:13:00Z",
+      "end": "2026-06-11T12:14:00Z"
+    },
+    {
+      "corporation_id": 98768349,
+      "start": "2026-06-11T12:14:00Z",
+      "end": "2026-06-12T10:56:00Z"
+    },
+    {
+      "corporation_id": 98775430,
+      "start": "2026-06-12T10:56:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-02",
+  "person": {
+    "cn_name": "阿泽",
+    "aliases": [],
+    "epithet": "几百次击杀，换来一张决赛圈名片。",
+    "tags": [
+      "比赛",
+      "AT22亚军",
+      "D.C"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2122036857,
+        "name": "Colliderze",
+        "basis": "同用-ze词根，收录号建号六天后建号，2026-06-13比收录号晚一天进同一军团98775430。",
+        "sources": [
+          "materials-stellaze.md#身份与待核"
+        ],
+        "zkb": {
+          "kills": 12,
+          "lost": 4,
+          "isk_destroyed": 3281552816,
+          "last_active": "2026-07",
+          "as_of": "2026-11-02"
+        }
+      },
+      {
+        "id": 2122035213,
+        "name": "Structze",
+        "basis": "同用-ze词根，收录号建号五天后建号，2026-06-13与Colliderze同日进收录号所在军团98775430。",
+        "sources": [
+          "materials-stellaze.md#身份与待核"
+        ],
+        "zkb": {
+          "kills": 12,
+          "lost": 5,
+          "isk_destroyed": 3243936673,
+          "last_active": "2026-07",
+          "as_of": "2026-11-02"
+        }
+      },
+      {
+        "id": 2124469253,
+        "name": "Supportze",
+        "basis": "头衔直接写“Stellaze”，同用-ze词根，在收录号所在军团98775430。",
+        "sources": [
+          "materials-stellaze.md#身份与待核"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 7,
+          "isk_destroyed": 0,
+          "last_active": "2026-08",
+          "as_of": "2026-11-02"
+        }
+      },
+      {
+        "id": 2124494659,
+        "name": "Amorisze",
+        "basis": "头衔直接写“Stellaze”，同用-ze词根，建号当日进收录号所在军团98775430。",
+        "sources": [
+          "materials-stellaze.md#身份与待核"
+        ],
+        "zkb": {
+          "kills": 5,
+          "lost": 9,
+          "isk_destroyed": 1155034863,
+          "last_active": "2026-07",
+          "as_of": "2026-11-02"
+        }
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 385,
+      "lost": 114,
+      "isk_destroyed": 379460593257,
+      "last_active": "2026-11",
+      "as_of": "2026-11-02"
+    }
+  }
+}

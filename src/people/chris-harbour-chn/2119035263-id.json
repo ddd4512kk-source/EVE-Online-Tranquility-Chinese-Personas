@@ -1,0 +1,102 @@
+{
+  "id": 2119035263,
+  "name": "Chris Harbour CHN",
+  "birthday": "2021-08-27T16:28:03Z",
+  "corporation_id": 98626718,
+  "affiliation": {
+    "corporation_id": 98626718,
+    "alliance_id": 99009163,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000044,
+      "start": "2021-08-27T16:28:00Z",
+      "end": "2021-08-27T17:56:00Z"
+    },
+    {
+      "corporation_id": 98635855,
+      "start": "2021-08-27T17:56:00Z",
+      "end": "2022-01-03T02:50:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "start": "2022-01-03T02:50:00Z",
+      "end": "2022-01-05T15:27:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "start": "2022-01-05T15:27:00Z",
+      "end": "2023-11-21T14:29:00Z"
+    },
+    {
+      "corporation_id": 98631475,
+      "start": "2023-11-21T14:29:00Z",
+      "end": "2025-11-25T14:35:00Z"
+    },
+    {
+      "corporation_id": 1000044,
+      "start": "2025-11-25T14:35:00Z",
+      "end": "2025-12-31T15:51:00Z"
+    },
+    {
+      "corporation_id": 98626718,
+      "start": "2025-12-31T15:51:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-02",
+  "person": {
+    "cn_name": "翎枫钧",
+    "aliases": [],
+    "epithet": "队长名册排第一，十九场一场没上。",
+    "tags": [
+      "比赛",
+      "AT22亚军",
+      "D.C"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2119693150,
+        "name": "Chris Harbour CH1",
+        "sources": [
+          "materials-chris-harbour-chn.md#同系列角色"
+        ],
+        "basis": "Chris Harbour系列，同在宽带山，公开头衔均为翎枫钧",
+        "zkb": {
+          "kills": 124,
+          "lost": 74,
+          "isk_destroyed": 339224058669,
+          "last_active": "2026-07",
+          "as_of": "2026-11-02"
+        }
+      },
+      {
+        "id": 2119696419,
+        "name": "Chris Harbour CH2",
+        "sources": [
+          "materials-chris-harbour-chn.md#同系列角色"
+        ],
+        "basis": "Chris Harbour系列，同在宽带山，公开头衔均为翎枫钧",
+        "zkb": {
+          "kills": 0,
+          "lost": 1,
+          "isk_destroyed": 0,
+          "last_active": "2026-01",
+          "as_of": "2026-11-02"
+        }
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 1915,
+      "lost": 644,
+      "isk_destroyed": 948392922656,
+      "last_active": "2026-08",
+      "as_of": "2026-11-02"
+    }
+  }
+}
