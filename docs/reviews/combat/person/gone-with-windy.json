@@ -1,0 +1,153 @@
+{
+  "status": "reviewed",
+  "note": "AT22红料补金主雇人与AVDOT外援后按现稿重核，挂名零出场结论不变",
+  "evidence": [
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/gone-with-windy/2115325695-id.json",
+    "src/people/gone-with-windy/materials-gone-with-windy.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "收录号4731杀、目标近五万亿，Baba s Gandurasa 1671杀、Natalies Haginen 1385杀分号记录；正文写盟主肯上船的画像，各号不相加、不折算个人伤害。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/2115325695-id.json",
+          "contains": "\"kills\": 4731"
+        },
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "## KB 与战斗出勤（自正文移入）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "档案确认Gone With Windy、Baba s Gandurasa、Natalies Haginen与Tyrande Itovuo，后者2026-11-02并入，381杀、186损；小号只作画像，AT22名册号不另立传。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/2115325695-id.json",
+          "contains": "\"kills\": 381"
+        },
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "### 北宅与随风的对应"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "泰坦与大战代表KM（M2-XFE、A1-AUH、H-PA29、R-AG7W、塔夫、4-HWWF）已在材料登记；总览足以支撑正文，未再细查月份。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "### 2021-01-27 M2-XFE 突围 / 角色 2115325500"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "正文链接H-PA29、R-AG7W、塔夫、北方大战与8F-TK3等战役，材料中逐场核对角色与船型；Tyrande Itovuo在AT22仅名册、无出场，不计战役参战。AT22组队经费一段来自共用赛事材料，不涉及战役归因。外援来路（AVDOT）一句据ESI军团履历写入共用材料，非战役归因。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "## 2026-10-04 8F-TK3参战（2026-10-20补档）"
+        },
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "### 既有战役画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "“盟主的KB与泰坦出勤”红料块为综合战绩点评；“亚军名册上的北宅”红料新增金主出资2T雇高手的组队背景，仍写挂名零出场，与盟主平时肯上船形成对照。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/gone-with-windy.md",
+          "contains": "盟主的战绩分在几张名片上"
+        },
+        {
+          "file": "src/people/gone-with-windy/gone-with-windy.md",
+          "contains": "名册上有，赛场上没有"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/corp-vitality-debate-2025.md",
+    "docs/sources/dc-br-monthly-discovery-2026-10-12.md",
+    "docs/sources/dc-goons-fc-research-2026-10-12.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "docs/sources/pla-kaisa-departure-2017.md",
+    "src/people/gone-with-windy/2115325695-id.json",
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/gone-with-windy/materials-gone-with-windy.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "0576817d4f8425ce2b0bd0b69b9d1fd11a2e1ad072e2abc8daf17755195dea71",
+  "level": 1
+}

@@ -1,0 +1,88 @@
+{
+  "status": "reviewed",
+  "note": "补四个DarKdeZ前缀小号后重核，正文未改，战绩与AT22挂名结论沿用",
+  "evidence": [
+    "src/people/darkdez-ever/2113937178-id.json",
+    "src/people/darkdez-ever/materials-darkdez-ever.md",
+    "src/people/darkdez-ever/darkdez-ever.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "档案3641杀、313损、1.324T，材料与正文139单杀、洛基休津常用；以反收割中的控制协作解释画像。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/2113937178-id.json",
+          "contains": "\"kills\": 3641"
+        },
+        {
+          "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+          "contains": "## 小D / DarKdeZ Ever"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "档案新登记四个DarKdeZ前缀小号（DarKdeZ、QingYu、Daefaron、Orlenard），依据为同名前缀与军团履历（D-Line Force、ChuangShi等）；各号击杀0—21、最后活跃均早于2023-03，属边角小号，收录号3641杀仍是主力；各号不相加，也不为小号另立料块。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/2113937178-id.json",
+          "contains": "\"name\": \"DarKdeZ Daefaron\""
+        },
+        {
+          "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+          "heading": "## 小号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "本届仅名册挂名、19场无出场，常规统计足以支持控制协作画像，不必为补名册细查最高月份。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/2113937178-id.json",
+          "contains": "\"kills\": 3641"
+        },
+        {
+          "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+          "contains": "## 小D / DarKdeZ Ever"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "Siseide2025正式快照命中本人，军团D-Line、无联盟，与当前联盟标签不同；未据普通参战升成该战指挥。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/2113937178-id.json",
+          "contains": "\"kills\": 3641"
+        },
+        {
+          "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+          "contains": "## 小D / DarKdeZ Ever"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合KB块已前移首红，技术翻译、办赛解说、往届冠军与本届挂名分层明确，战绩没有盖掉反向祈福等独立梗。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/darkdez-ever.md",
+          "contains": "zKillboard 生涯击杀 3641"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/darkdez-ever/2113937178-id.json",
+    "src/people/darkdez-ever/darkdez-ever.md",
+    "src/people/darkdez-ever/materials-darkdez-ever.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md"
+  ],
+  "inputs": "a3a29073c5afd73a28dbfd6230ef2b20ee4953d4b23558473e94004dd728934f",
+  "level": 1
+}

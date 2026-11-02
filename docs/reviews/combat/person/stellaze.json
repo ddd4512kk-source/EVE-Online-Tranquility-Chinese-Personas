@@ -1,0 +1,81 @@
+{
+  "status": "reviewed",
+  "note": "按AT22实际出场与现稿重核战斗画像、小号与采用",
+  "evidence": [
+    "src/people/stellaze/stellaze.md",
+    "src/people/stellaze/materials-stellaze.md",
+    "src/people/stellaze/2122021471-id.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "385击杀、10单杀、10个记录月份，正文没有把2024至2026写成连续活跃年限。",
+      "evidence": [
+        {
+          "file": "src/people/stellaze/materials-stellaze.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份档案现有四个-ze词根小号（Colliderze、Structze、Supportze、Amorisze），均有建号、进团或头衔依据并已存KB，各号不相加；SN-CF头衔“阿泽”的ANYING D、Anying dd是另一位同名玩家，素材已明记不合并。",
+      "evidence": [
+        {
+          "file": "src/people/stellaze/2122021471-id.json",
+          "contains": "\"name\": \"Colliderze\""
+        },
+        {
+          "file": "src/people/stellaze/materials-stellaze.md",
+          "heading": "## 身份与待核"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已读既有BR原始缓存中代表舰船和个人损失，核对正式快照的角色ID/战时归属，不把一条船扩大为整场指挥或战果。",
+      "evidence": [
+        {
+          "file": "src/battles/vyo-68-2026/vyo-68-2026.json",
+          "contains": "\"2122021471\":"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "1场既有战役VYO-68，已核曲剑先损、海军幼龙再损，舰船转换是可采用的玩法例子，不作黑料。",
+      "evidence": [
+        {
+          "file": "src/battles/vyo-68-2026/vyo-68-2026.json",
+          "contains": "\"2122021471\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立KB红料承担累计玩法画像并以VYO-68的曲剑到海军幼龙为代表；AT22红料已改按实际出场（正赛四场全胜、总决赛未上）写，不暗示打满五局。",
+      "evidence": [
+        {
+          "file": "src/people/stellaze/stellaze.md",
+          "contains": "他的[公开战绩](https://zkillboard.com/cha"
+        },
+        {
+          "file": "src/people/stellaze/stellaze.md",
+          "contains": "四战四胜，没有输过"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/people/stellaze/2122021471-id.json",
+    "src/people/stellaze/materials-stellaze.md",
+    "src/people/stellaze/stellaze.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "96a4f93868cade90949fb704e272705136704bbdf79c2c83bd55d23d602c9222",
+  "level": 1
+}

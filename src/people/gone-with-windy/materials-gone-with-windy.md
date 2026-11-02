@@ -127,3 +127,34 @@ Fadek Windy：2021-09-17 A1-AUH，KM 95188924，战时联盟 99009163，伤害 3
 ## 外文原话原文（2026-10-24 正文译中留档）
 
 - 角色简介第二行：IMP member alliance
+
+<a id="tyrande-itovuo"></a>
+
+## 小号 Tyrande Itovuo（2114271701，自原独立条目并入）
+
+### AT22亚军队
+
+AT22只是挂名：DC本届19场比赛均无此号出场记录，EVE_NT无其选手页。
+
+参赛队以龙焰联盟（Dracarys.）名义报名；DC金主出资2T ISK雇佣各路高手赛期内暂时加入DC组队，见[共用赛事材料](../../../docs/sources/at22-dracarys.md)。金主身份未知，不归随风。外援含FRT往届冠军、N E R V选手及Snuffed Out旗下Infinity Avenger（AVDOT）一路：Alknight Dong、Lw x、Miles Marcel于2026-08进DC参赛军团It's MyGO.，2026-11-01总决赛当天回Infinity Avenger；Sayler全程留在Infinity Avenger。
+
+[共用赛事材料](../../../docs/sources/at22-dracarys.md)。官方队伍名册以角色名Tyrande Itovuo及角色ID 2114271701链接到本角色。
+
+### 游戏画像
+
+2026-11-02核读[zKillboard stats总览](https://zkillboard.com/api/stats/characterID/2114271701/)：参与击杀381，损失186，参与击杀价值1567503878888 ISK，单杀8。有记录月份62个，范围201807至202607，平均攻击者规模44.9；月份含击杀与损失，不把无记录月份判为没有游戏活动。各号不相加，击杀价值不认个人伤害。船型排行榜是响应所示范围，未作为生涯最常用船。
+
+[公开角色资料](https://esi.evetech.net/latest/characters/2114271701/)全文已核读，军团ID 98645589；头衔“北宅”；简介关键文字如下：
+
+http://sov.space/
+
+### 北宅与随风的对应
+
+本号头衔“北宅”；Natalies Haginen（2113100728）头衔“北宅（随风）”，收录号Fadek Windy（2115325695）头衔“随风”，三号同在Faceless（98645589）。确认为随风本人小号。本号简介仅sov.space（主权地图站）。
+
+### 既有战役画像
+
+2026-11-02按收录号与已确认角色对照正式战役对象卡、快照及本机已存原始BR，以下为此号代表记录。
+
+- [fwst-8-2020正式档案](../../battles/fwst-8-2020/fwst-8-2020.json)，2020-10-07 UTC，DC/Faceless：Revelation损失87685978，约2.30B，03:24:42Z。
+- [m-md31-2026正式档案](../../battles/m-md31-2026/m-md31-2026.json)，2026-04-14 UTC，DC：Zirnitra参与134738934。

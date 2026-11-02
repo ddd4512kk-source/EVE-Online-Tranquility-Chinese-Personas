@@ -1,0 +1,145 @@
+{
+  "status": "reviewed",
+  "note": "补小号后重核，正文未改，重料覆盖、发挥与分量沿用并逐项对照",
+  "evidence": [
+    "src/people/darkdez-ever/darkdez-ever.md",
+    "src/people/darkdez-ever/materials-darkdez-ever.md",
+    "docs/sources/at22-dracarys.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整正文及本人材料已读，规则翻译、办赛解说、致富指南、队长杯、反向祈福和N老板梗均保留；本次把AT22改为挂名（19场无出场），与AT19冠军、AT20、AT21出场对照成反差。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+          "contains": "## AT22"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "## 队伍与成绩"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐项对照本人材料与正文，不以新增亚军段替代旧重料；仅名单资格者未编比赛操作。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "## 队伍与成绩"
+        }
+      ],
+      "items": [
+        {
+          "title": "赛事翻译办赛到冠军队员再到挂名亚军",
+          "weight": "heavy",
+          "reason": "往届冠军队员与本届19场无出场的名册挂名形成反差",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/darkdez-ever/darkdez-ever.md",
+            "contains": "2026 年，DarKdeZ Ever 又出现在"
+          },
+          "note": "本届写成挂名：不写上场或打决赛，AT19—AT21出场为对照。",
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "时区尴尬下替华人比赛翻规则拉观众",
+              "evidence": {
+                "file": "src/people/darkdez-ever/darkdez-ever.md",
+                "contains": "当年他替比赛翻规则、拉观众"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "简介请忘了我，比赛名册却持续重印其名",
+              "evidence": {
+                "file": "src/people/darkdez-ever/darkdez-ever.md",
+                "contains": "个人简介让人“请忘了我”"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "少数肯持续投入赛事的人，从宣传到入队获冠亚军",
+              "evidence": {
+                "file": "src/people/darkdez-ever/darkdez-ever.md",
+                "contains": "从办赛、解说到入队"
+              }
+            }
+          ]
+        },
+        {
+          "title": "技术攻略与磁星洞出租",
+          "weight": "ordinary",
+          "reason": "游戏知识分享及洞口广告是人物生活线",
+          "source": {
+            "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+            "heading": "## 贴吧主题帖（2026-10-15 全部读完，eve 类 8 条）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/darkdez-ever/darkdez-ever.md",
+            "contains": "2020 年 1 月，D佬发了"
+          },
+          "note": "土豆攻略答疑与拎包入住广告完整保留，不升级赚钱保证。"
+        },
+        {
+          "title": "队长杯贺词自拆台",
+          "weight": "ordinary",
+          "reason": "第四名祝贺转检讨，圈内自嘲",
+          "source": {
+            "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+            "heading": "## 贴吧主题帖（2026-10-15 全部读完，eve 类 8 条）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/darkdez-ever/darkdez-ever.md",
+            "contains": "吹完，最后一段他自己拆台"
+          },
+          "note": "保留夸阵容、嫌第四及发小链接解释的反转。"
+        },
+        {
+          "title": "鹅神求骂与N老板调侃",
+          "weight": "ordinary",
+          "reason": "轻梗无严重现实后果",
+          "source": {
+            "file": "src/people/darkdez-ever/materials-darkdez-ever.md",
+            "heading": "## 小D / DarKdeZ Ever"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/darkdez-ever/darkdez-ever.md",
+            "contains": "技巧只有一条"
+          },
+          "note": "祝福后白给、求骂后转运作本人自嘲，不作战力因果；N老板评论保留。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "本次只补小号档案，正文未改；综合KB首红与比赛建设均在，反向祝福仍是个人辨识度，AT22挂名按19场无出场写，没有填成指挥战果。",
+      "evidence": [
+        {
+          "file": "src/people/darkdez-ever/darkdez-ever.md",
+          "contains": "2026 年，DarKdeZ Ever 又出现在"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/darkdez-ever/2113937178-id.json",
+    "src/people/darkdez-ever/darkdez-ever.md",
+    "src/people/darkdez-ever/materials-darkdez-ever.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md"
+  ],
+  "inputs": "a3a29073c5afd73a28dbfd6230ef2b20ee4953d4b23558473e94004dd728934f",
+  "level": 1
+}

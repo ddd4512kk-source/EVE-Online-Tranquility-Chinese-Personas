@@ -17,15 +17,15 @@ const HELP = `离线增量复查；无参数只报数量，不输出全站正文
   npm run review -- impact --feature combat --since HEAD --limit 10
   npm run review -- verify person:短名 person:另一短名 --feature combat
   npm run review -- mark person:短名 --feature combat --status needs-work --note 具体缺口 --evidence 相对文件路径
-  npm run review -- template person:短名 --feature writing-depth [--out .cache/review/文件.json]
+  npm run review -- template person:短名 --feature writing-depth [--out .cache/review/文件.json] [--force yes]
   npm run review -- accept --feature combat --change tighten|relax
   npm run review -- check
 list：--kind person|battle --signal 信号 --state unreviewed|stale|reviewed|needs-work|blocked
       --recent N（首次加入历史，未提交新篇优先） --max-blocks N --limit 1..20 --offset N
 impact：--since Git引用（含已暂存、未暂存和未跟踪文件），或重复 --files 相对路径；可按 --state 筛选
 card：只返回结构、命中摘录与证据入口；read 单次最多80行，不自动读取视频或联网。
-mark：仅在人工核读后使用；--evidence 可重复。配置必查项的feature须用 --assessment 仓库内JSON路径逐项登记。
-template：生成状态留空的 assessment 草稿与可用证据锚点；有旧结论时沿用说明并列出失效证据，不覆盖已有草稿。
+mark：仅在人工核读后使用；--evidence 可重复。配置必查项的feature逐项登记，默认读取 template 草稿并在登记后删除，另存的用 --assessment 仓库内JSON路径。
+template：生成状态留空的 assessment 草稿、校验约束与可用证据锚点；有旧结论时沿用说明，列出失效证据和登记后变动的输入。草稿已存在时不覆盖，只重报说明；--force yes 重新生成。输出须完整读取。
 verify：指定本次交付对象；未审、失效或缺项均以非零状态退出，不以关键词或料块数代替复查。
 accept：规则或实现改动后声明；tighten 提升严格度并使旧结论失效，relax 只登记新指纹。未声明时 mark／verify 拒绝执行。
 check：核对全部功能的规则声明及已删对象的残留记录。
@@ -184,6 +184,24 @@ function loadFeature(root, name) {
     level: strictness.level, pending: strictness.rules !== ruleHash, receipts };
 }
 const receiptFile = (feature, key) => `${RECEIPTS}/${feature}/${key.replace(':', '/')}.json`;
+const draftFile = (feature, record) => `.cache/review/${feature.name}-${record.slug}.json`;
+// What validateAssessment and validateWriting enforce, stated once for template output.
+const CONSTRAINTS = {
+  common: [
+    '每项 status 填 reviewed 或 not-applicable，note 写具体判断，evidence 至少一条',
+    '证据为 {file, heading} 或 {file, contains}，二选一；contains 须在该文件中恰好命中一行',
+    '文件须在仓库内；必需证据未取得或未读不能写 not-applicable',
+  ],
+  checks: ['narrative 至少一条证据指向本人正文'],
+  writing: [
+    'coverage、events、balance 都须 reviewed，不接受 not-applicable',
+    'coverage 至少一条证据在正文以外（素材或来源）；balance 至少一条在本人正文',
+    'events.items 逐件登记，标题不重复；没有 heavy 事件时填 noHeavyReason',
+    'source 不能指向本人正文；treatment 非 omitted 时 body 须指向本人正文',
+    '事件的 source、body 和发挥证据须命中正文句子，不能只命中 ## 标题或 ::: 块标题行；anchors 中的 contains 可直接用',
+    `heavy 事件须 treatment=expanded、verdict=sufficient；development 至少三个不同方向，取自 ${ANGLES.join('、')}，含反差及分量或反应与后果，每条 evidence 指向本人正文`,
+  ],
+};
 const pendingError = feature => new Error(`${feature.name} 的规则或实现已改动但未声明：收紧用 accept --feature ${feature.name} --change tighten（旧结论失效），放宽或措辞调整用 --change relax`);
 function inputValue(root, record, file) {
   if (record.scopedFiles?.[file]) return record.scopedFiles[file];
@@ -196,7 +214,14 @@ function inputValue(root, record, file) {
 }
 function inputs(root, record, evidence = []) {
   const files = unique([record.body, record.archiveFile, ...record.sources, ...Object.keys(record.scopedFiles ?? {}), ...(record.kind === 'battle' && record.material ? [record.material] : []), ...evidence.map(file => safeFile(root, file))]);
-  return { files, fingerprint: hash({ files: files.sort().map(file => [file, inputValue(root, record, file)]), battles: record.battles.map(({ key, fingerprint }) => [key, fingerprint]) }) };
+  const values = files.sort().map(file => [file, inputValue(root, record, file)]), battles = record.battles.map(({ key, fingerprint }) => [key, fingerprint]);
+  // Per-part hashes only tell a re-review where to look; the whole fingerprint still decides staleness.
+  const parts = Object.fromEntries([...values.map(([file, value]) => [file, hash(value)]), ...battles]);
+  return { files, parts, fingerprint: hash({ files: values, battles }) };
+}
+function changedParts(receipt, source) {
+  if (!receipt?.inputParts) return null;
+  return unique([...Object.keys(receipt.inputParts), ...Object.keys(source.parts)]).filter(key => receipt.inputParts[key] !== source.parts[key]).sort();
 }
 function missingChecks(feature, receipt) {
   return Object.keys(feature.checks ?? {}).filter(key => !['reviewed', 'not-applicable'].includes(receipt?.assessment?.[key]?.status));
@@ -211,28 +236,32 @@ function validateAssessment(root, feature, record, assessment) {
   for (const [key, item] of Object.entries(assessment)) {
     if (!required.includes(key)) throw new Error(`未知复查项：${key}`);
     if (!item || !['reviewed', 'not-applicable'].includes(item.status) || typeof item.note !== 'string' || !item.note.trim() || !Array.isArray(item.evidence) || !item.evidence.length) throw new Error(`${key} 须有状态、判断及具体证据位置`);
-    for (const spec of item.evidence) {
-      if (!spec || typeof spec.file !== 'string' || (!spec.heading && !spec.contains) || (spec.heading && spec.contains)) throw new Error(`${key} 的证据须指定 file 及 heading 或 contains`);
+    item.evidence.forEach((spec, i) => {
+      const where = `${key}.evidence[${i}]`;
+      if (!spec || typeof spec.file !== 'string' || (!spec.heading && !spec.contains) || (spec.heading && spec.contains)) throw new Error(`${where} 须指定 file 及 heading 或 contains`);
       const file = safeFile(root, spec.file);
-      if (!exists(root, file)) throw new Error(`证据文件不存在：${file}`);
-      const excerpt = ruleText(root, { ...spec, file });
-      if (!excerpt.trim()) throw new Error(`${key} 的证据为空`);
+      if (!exists(root, file)) throw new Error(`${where} 证据文件不存在：${file}`);
+      if (!locate(root, { ...spec, file }, where).trim()) throw new Error(`${where} 的证据为空`);
       files.push(file);
-    }
+    });
     if (key === 'narrative' && !item.evidence.some(spec => safeFile(root, spec.file) === record.body)) throw new Error('narrative 须指向本人的正文段落，素材不能代替入文验收');
   }
   if (feature.eventReview) files.push(...validateWriting(root, record, assessment));
   return unique(files);
 }
+// Evidence errors name the exact field so a draft can be fixed without rereading this script.
+function locate(root, spec, where) {
+  try { return ruleText(root, spec); } catch (error) { throw new Error(`${where}：${error.message}`); }
+}
 function validateWriting(root, record, assessment) {
   const files = [], nonempty = value => typeof value === 'string' && value.trim();
-  const anchor = (spec, body) => {
-    if (!spec || typeof spec.file !== 'string' || Boolean(spec.heading) === Boolean(spec.contains)) throw new Error('事件证据须指定 file 及 heading 或 contains');
+  const anchor = (spec, body, where) => {
+    if (!spec || typeof spec.file !== 'string' || Boolean(spec.heading) === Boolean(spec.contains)) throw new Error(`${where} 须指定 file 及 heading 或 contains`);
     const file = safeFile(root, spec.file);
-    if (!exists(root, file)) throw new Error(`证据文件不存在：${file}`);
-    if (body ? file !== record.body : file === record.body) throw new Error(body ? '发挥须定位本人正文' : '事件来源不能用正文自证');
-    const excerpt = ruleText(root, { ...spec, file });
-    if (!excerpt.split('\n').some(line => line.trim() && !/^(?:#{1,6}\s|:::)/.test(line))) throw new Error('事件证据不能只有标题');
+    if (!exists(root, file)) throw new Error(`${where} 证据文件不存在：${file}`);
+    if (body ? file !== record.body : file === record.body) throw new Error(`${where}：${body ? '发挥须定位本人正文' : '事件来源不能用正文自证'}`);
+    const excerpt = locate(root, { ...spec, file }, where);
+    if (!excerpt.split('\n').some(line => line.trim() && !/^(?:#{1,6}\s|:::)/.test(line))) throw new Error(`${where}：事件证据不能只有标题（${spec.heading ?? spec.contains}）；改用该块正文里的一句，template 的 anchors 可直接用`);
     files.push(file);
   };
   for (const key of ['coverage', 'events', 'balance']) if (assessment[key]?.status !== 'reviewed') throw new Error(`写作复查 ${key} 须实际核读，不接受不适用`);
@@ -242,25 +271,26 @@ function validateWriting(root, record, assessment) {
   if (!Array.isArray(events)) throw new Error('events.items 须逐件登记事件；无重料也须明确说明');
   if (!events.some(event => event.weight === 'heavy') && !nonempty(assessment.events.noHeavyReason)) throw new Error('无重料须说明核读后的 noHeavyReason');
   const titles = new Set();
-  for (const event of events) {
-    if (!nonempty(event.title) || titles.has(event.title)) throw new Error('事件须有不重复的标题，同一事件不能拆块充数');
+  events.forEach((event, i) => {
+    const where = `events.items[${i}]`;
+    if (!nonempty(event.title) || titles.has(event.title)) throw new Error(`${where}：事件须有不重复的标题，同一事件不能拆块充数`);
     titles.add(event.title);
-    if (!['heavy', 'ordinary', 'light'].includes(event.weight) || !nonempty(event.reason) || !nonempty(event.note)) throw new Error('事件须说明分量依据与采用判断');
-    anchor(event.source, false);
-    if (!['expanded', 'brief', 'omitted'].includes(event.treatment)) throw new Error('事件须说明展开、简述或略过');
-    if (event.treatment !== 'omitted') anchor(event.body, true);
-    if (event.weight !== 'heavy') continue;
-    if (event.treatment !== 'expanded' || event.verdict !== 'sufficient') throw new Error('重料未充分展开，不能标为 reviewed');
+    if (!['heavy', 'ordinary', 'light'].includes(event.weight) || !nonempty(event.reason) || !nonempty(event.note)) throw new Error(`${where}：事件须说明分量依据与采用判断`);
+    anchor(event.source, false, `${where}.source`);
+    if (!['expanded', 'brief', 'omitted'].includes(event.treatment)) throw new Error(`${where}：事件须说明展开、简述或略过`);
+    if (event.treatment !== 'omitted') anchor(event.body, true, `${where}.body`);
+    if (event.weight !== 'heavy') return;
+    if (event.treatment !== 'expanded' || event.verdict !== 'sufficient') throw new Error(`${where}：重料未充分展开，不能标为 reviewed`);
     const development = event.development;
-    if (!Array.isArray(development)) throw new Error('重料须逐方向登记发挥与正文位置');
+    if (!Array.isArray(development)) throw new Error(`${where}：重料须逐方向登记发挥与正文位置`);
     const angles = new Set();
-    for (const item of development) {
-      if (!ANGLES.includes(item.angle) || angles.has(item.angle) || !nonempty(item.note)) throw new Error('发挥方向须有效、不重复并说明具体写法');
+    development.forEach((item, j) => {
+      if (!ANGLES.includes(item.angle) || angles.has(item.angle) || !nonempty(item.note)) throw new Error(`${where}.development[${j}]：发挥方向须有效、不重复并说明具体写法`);
       angles.add(item.angle);
-      anchor(item.evidence, true);
-    }
-    if (angles.size < 3 || !angles.has('反差') || !(angles.has('分量') || angles.has('反应与后果'))) throw new Error('重料须至少三个发挥方向，含反差及分量或反应与后果');
-  }
+      anchor(item.evidence, true, `${where}.development[${j}].evidence`);
+    });
+    if (angles.size < 3 || !angles.has('反差') || !(angles.has('分量') || angles.has('反应与后果'))) throw new Error(`${where}：重料须至少三个发挥方向，含反差及分量或反应与后果`);
+  });
   return files;
 }
 // Anchors that pass validation as-is: non-empty headings, plus the first prose line of the opening and of each ::: block.
@@ -324,7 +354,7 @@ export function run(root, args, suppliedRecords) {
   if (args.includes('--help')) { if (args.length !== 1) throw new Error('--help 须单独使用'); return HELP; }
   const [command = 'summary', ...rest] = args, options = {}, positional = [];
   if (!['summary', 'list', 'card', 'read', 'impact', 'mark', 'template', 'verify', 'check', 'accept'].includes(command)) throw new Error(`未知命令：${command}`);
-  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], template: ['feature', 'out'], verify: ['feature'], check: [], accept: ['feature', 'change'] }[command];
+  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], template: ['feature', 'out', 'force'], verify: ['feature'], check: [], accept: ['feature', 'change'] }[command];
   for (let i = 0; i < rest.length; i++) {
     if (!rest[i].startsWith('--')) { positional.push(rest[i]); continue; }
     const key = rest[i].slice(2), value = rest[++i];
@@ -384,35 +414,48 @@ export function run(root, args, suppliedRecords) {
   if (command === 'mark') {
     if (!STATES.includes(options.status) || !options.note?.trim() || !options.evidence?.length) throw new Error('mark 须提供 --status、非空 --note 和至少一个 --evidence');
     for (const file of options.evidence) if (!exists(root, safeFile(root, file))) throw new Error(`证据文件不存在：${file}`);
-    const assessment = options.assessment ? JSON.parse(read(root, safeFile(root, options.assessment))) : undefined;
+    // A reviewed mark of a checked feature reads the template's own draft unless another file is named.
+    const draft = draftFile(feature, record);
+    const assessmentFile = options.assessment ? safeFile(root, options.assessment) : options.status === 'reviewed' && Object.keys(feature.checks ?? {}).length && exists(root, draft) ? draft : null;
+    const assessment = assessmentFile ? JSON.parse(read(root, assessmentFile)) : undefined;
     const checkFiles = options.status === 'reviewed' && (assessment || Object.keys(feature.checks ?? {}).length) ? validateAssessment(root, feature, record, assessment) : [];
     if (assessment && options.status !== 'reviewed') throw new Error('未完成的复查用 note 和 evidence 记录缺口，不附已完成 assessment');
     const evidence = unique([...options.evidence, ...checkFiles]);
     const source = inputs(root, record, evidence);
     const receipt = { status: options.status, note: options.note, evidence, ...(assessment ? { assessment } : {}),
       dependencies: unique([...source.files, ...record.battles.flatMap(b => [b.archive, b.body, b.material]).filter(Boolean)]),
-      inputs: source.fingerprint, level: feature.level };
+      inputs: source.fingerprint, inputParts: source.parts, level: feature.level };
     const file = path.join(root, receiptFile(feature.name, record.key));
     fs.mkdirSync(path.dirname(file), { recursive: true });
     fs.writeFileSync(file, JSON.stringify(receipt, null, 2) + '\n');
+    // The default draft is spent once its judgments are saved; the next template restarts from the receipt.
+    if (assessmentFile === draft && options.status === 'reviewed') fs.rmSync(path.join(root, draft));
     return { key: record.key, feature: feature.name, state: options.status };
   }
   if (command === 'template') {
     const checks = Object.keys(feature.checks ?? {});
     if (!checks.length) throw new Error(`${feature.name} 没有逐项复查，直接用 mark --note --evidence 登记`);
-    const out = safeFile(root, options.out ?? `.cache/review/${feature.name}-${record.slug}.json`);
-    if (exists(root, out)) throw new Error(`草稿已存在：${out}；直接编辑，或删除后重新生成`);
-    const previous = feature.receipts[record.key]?.assessment;
+    if (options.force !== undefined && options.force !== 'yes') throw new Error('--force 只接受 yes');
+    const out = safeFile(root, options.out ?? draftFile(feature, record));
+    const { receipt, source } = assess(root, record, feature), previous = receipt?.assessment;
+    const existing = exists(root, out) && !options.force;
     const blank = key => ({ status: '', note: '', evidence: [], ...(feature.eventReview && key === 'events' ? { items: [], noHeavyReason: '' } : {}) });
     // Earlier notes are kept as a starting point, but every status must be set again after rereading.
-    const assessment = Object.fromEntries(checks.map(key => [key, previous?.[key] ? { ...previous[key], status: '' } : blank(key)]));
-    fs.mkdirSync(path.dirname(path.join(root, out)), { recursive: true });
-    fs.writeFileSync(path.join(root, out), JSON.stringify(assessment, null, 2) + '\n');
-    return { file: out, reused: Boolean(previous), brokenEvidence: previous ? brokenEvidence(root, assessment) : [], checks: feature.checks,
+    const assessment = existing ? JSON.parse(read(root, out)) : Object.fromEntries(checks.map(key => [key, previous?.[key] ? { ...previous[key], status: '' } : blank(key)]));
+    if (!existing) {
+      fs.mkdirSync(path.dirname(path.join(root, out)), { recursive: true });
+      fs.writeFileSync(path.join(root, out), JSON.stringify(assessment, null, 2) + '\n');
+    }
+    // Short guidance comes first and anchors last, so a clipped read still shows the rules.
+    return { file: out, ...(existing ? { existing: true, hint: '草稿已存在，未覆盖；直接编辑，或加 --force yes 从现有结论重新生成' } : {}), reused: Boolean(previous),
+      changedSinceReview: receipt ? changedParts(receipt, source) ?? '旧记录未存分项指纹，按全文重核' : null,
+      ...(receipt && receipt.level < feature.level ? { ruleTightened: true } : {}),
+      brokenEvidence: previous || existing ? brokenEvidence(root, assessment) : [],
+      constraints: [...CONSTRAINTS.common, ...(feature.eventReview ? CONSTRAINTS.writing : CONSTRAINTS.checks)], checks: feature.checks,
       ...(feature.eventReview ? { eventShape: { title: '', weight: 'heavy|ordinary|light', reason: '', source: { file: '素材或来源', heading: '或 contains' }, treatment: 'expanded|brief|omitted', body: { file: record.body, contains: '' }, development: [{ angle: ANGLES.join('|'), note: '', evidence: { file: record.body, contains: '' } }], verdict: 'sufficient', note: '' } } : {}),
-      anchors: Object.fromEntries(unique([record.body, record.material, ...record.sources].filter(Boolean)).map(file => [file, anchorsOf(root, file)])),
-      next: `npm run review -- mark ${record.key} --feature ${feature.name} --status reviewed --note 总结 --evidence ${record.material ?? record.body} --assessment ${out}`,
-      warning: '状态已清空；逐项核读后填写。锚点只保证能定位，不代表已核读或可直接采用。' };
+      next: `npm run review -- mark ${record.key} --feature ${feature.name} --status reviewed --note 总结 --evidence ${record.material ?? record.body}${out === draftFile(feature, record) ? '' : ` --assessment ${out}`}`,
+      warning: '状态已清空；逐项核读后填写。锚点只保证能定位，不代表已核读或可直接采用。',
+      anchors: Object.fromEntries(unique([record.body, record.material, ...record.sources].filter(Boolean)).map(file => [file, anchorsOf(root, file)])) };
   }
   if (command === 'card') {
     const { state, receipt, signals, missingChecks: missing } = assess(root, record, feature);

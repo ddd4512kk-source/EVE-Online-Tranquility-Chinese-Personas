@@ -1,0 +1,141 @@
+{
+  "status": "reviewed",
+  "note": "挂名零出场主线与KB画像对照，评语匹配",
+  "evidence": [
+    "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+    "docs/sources/at22-dracarys.md",
+    "src/people/yuzhou-jici/yuzhou-jici.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐段对照本人素材与共用赛事材料「全部比赛与逐人出场」，名册挂名、零出场、整队成绩均已入文，旧的上场暗示已清除。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+          "heading": "## AT22亚军队"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重事为名册挂名与零出场，KB画像为普通事件；无编造场外行动。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT22名册挂名、十九场一场未上",
+          "weight": "heavy",
+          "reason": "亚军名分与零出场是本篇主线；依据为共用材料逐场核读，名册无选手页。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+            "contains": "余舟是名册里挂名的那一类"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "DC由几家班底和新人合成，余舟挂名其中。",
+              "evidence": {
+                "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+                "contains": "几家比赛班底与此前没有赛事归属的新人，在这里合成一支队伍"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "门牌挂了、十九场一次没进去；简介空白与名册之间的落差。",
+              "evidence": {
+                "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+                "contains": "门牌挂得端正，门里的十个位置，十九场里他一次也没有迈进去"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "每场十个座位、整队胜负由场上十人扛，挂名者不在其内。",
+              "evidence": {
+                "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+                "contains": "整支队伍的每一场胜负都有十个人在场上扛着"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "“共同”二字打折，上千次出勤对十九场零出场。",
+              "evidence": {
+                "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+                "contains": "“共同”两个字落到这一届的比赛上要打个折"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "名单说的是，席位有，出场没有。",
+              "evidence": {
+                "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+                "contains": "名单说的是，席位有，出场没有"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "已删去“跟队带回银牌”“亲手争冠”类说法；正文只写名册与出场的落差，整队战绩作背景。"
+        },
+        {
+          "title": "KB综合战斗画像与代表实战",
+          "weight": "ordinary",
+          "reason": "长期出勤画像与代表参战，用于解释玩法，不单拆黑料。",
+          "source": {
+            "file": "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+            "contains": "他的[KB](https"
+          },
+          "note": "KB画像（上千次共同出勤）与两场代表实战保留，并以“名单会留痕”与零出场对照。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇、AT22红料与评同指向“名册有、赛场无”，KB红料保留并作对照，主线与评语匹配。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+          "contains": "余舟是名册里挂名的那一类"
+        },
+        {
+          "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+          "contains": "余舟没有给自己写长篇，AT22名册"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/yuzhou-jici/2122575195-id.json",
+    "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+    "src/people/yuzhou-jici/yuzhou-jici.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "e5b098289f3f7759d3aac74bca087add42165311c4da95de066f3a1a2af3358a",
+  "level": 1
+}

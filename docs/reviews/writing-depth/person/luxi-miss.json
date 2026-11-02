@@ -1,15 +1,15 @@
 {
   "status": "reviewed",
-  "note": "已通读全文与本人素材，并对照呆始皇素材的封禁配图摘录。按旧返工意见重写黑料五段：通知本身、名片身份与8F-TK3带队反差、群员从个人账号追问到军团前途、与CEO同晚掉线、担保与带队门面折损分别推进，收掉重复比喻；未写封号原因、期限或RMT。",
+  "note": "独立通读现稿正文、材料与共享来源；AT22挂名事件及重料覆盖、发挥与分量逐件通过。",
   "evidence": [
     "src/people/luxi-miss/luxi-miss.md",
     "src/people/luxi-miss/materials-luxi-miss.md",
-    "src/people/daishihuang/materials-daishihuang.md"
+    "docs/sources/at22-dracarys.md"
   ],
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "独立事件为夏秋绝地带队与10月封号取消活动；AT22名单、旗舰与小号只作画像。封禁弹窗的RMT永封属呆始皇，未移给华。",
+      "note": "独立事件为夏秋绝地带队与10月封号取消活动；AT22名册挂名据共用材料逐场核对为19场无出场，改写成与封号并置的反差；封禁弹窗的RMT永封属呆始皇，未移给华。",
       "evidence": [
         {
           "file": "src/people/luxi-miss/materials-luxi-miss.md",
@@ -97,6 +97,21 @@
           ],
           "verdict": "sufficient",
           "note": "五段各推进一层，无重复比喻；处罚原因与期限保持未知，只用群友追问呈现。"
+        },
+        {
+          "title": "AT22亚军队名册挂名（19场无出场）",
+          "weight": "ordinary",
+          "reason": "共用材料逐场核对：名册有名，19场比赛无出场；作为封号并置的反差，不属个人上场故事",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/luxi-miss/luxi-miss.md",
+            "contains": "这张名册和十月的封号风波并排放"
+          },
+          "note": "四段围绕挂名零出场、封号并置与银牌背后的名字，不写上场或打决赛，不推断账号恢复。"
         }
       ],
       "noHeavyReason": ""
@@ -113,7 +128,7 @@
     }
   },
   "dependencies": [
-    "src/people/daishihuang/materials-daishihuang.md",
+    "docs/sources/at22-dracarys.md",
     "src/people/luxi-miss/2115746150-id.json",
     "src/people/luxi-miss/luxi-miss.md",
     "src/people/luxi-miss/materials-luxi-miss.md",
@@ -130,6 +145,6 @@
     "src/battles/vyo-68-2026/vyo-68-2026.md",
     "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
   ],
-  "inputs": "a970380bd16d8c8fe7135c5a6137c6c110c065aeb0c2f1ef20bd8252102768fe",
+  "inputs": "fc42025d51d9a7db31044d75bb8544bbd18e3a4017f075b101e50cde74c78c23",
   "level": 1
 }

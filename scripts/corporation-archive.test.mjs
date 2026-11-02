@@ -64,6 +64,25 @@ test('跨军团复用一份角色调查，当前人物身份从正式档案读�
   assert.equal(findOrganizations(root, '宽带山')[0].id, '123');
 });
 
+test('头衔写着已收录人物外号的角色列为线索，登记小号或注明 not_alt_of 后消除', t => {
+  const { root, put, characters, source } = fixture(t);
+  const person = alts => ({ id: 42, name: 'Pilot A', person: { cn_name: '甲', aliases: ['老甲'] }, identity: { version: 1, alts, accounts: {} } });
+  const save = findings => put(characterArchivePath('43'), { version: 1, records: { '43': { ...characters.records['43'],
+    profiles: [{ as_of: null, title: '老甲 ALT，甲子', corporation_id: null, source }], review: { state: 'legacy', findings, next_steps: [] } } } });
+  put('src/people/demo/demo.md', '正文。');
+  put('src/people/demo/materials-demo.md', '# 本人素材');
+  put('src/people/demo/42-id.json', person([]));
+  save([]);
+  assert.deepEqual(checkArchive(root).title_alt_leads, ['43（Pilot B）头衔写着 demo']);
+  save([{ note: '同名外号，建号与军团均不吻合', source, not_alt_of: 'ghost' }]);
+  assert.throws(() => checkArchive(root), /not_alt_of 人物不存在：ghost/);
+  save([{ note: '同名外号，建号与军团均不吻合', source, not_alt_of: 'demo' }]);
+  assert.deepEqual(checkArchive(root).title_alt_leads, []);
+  save([]);
+  put('src/people/demo/42-id.json', person([{ id: 43, name: 'Pilot B', basis: '头衔', sources: ['materials-demo.md'] }]));
+  assert.deepEqual(checkArchive(root).title_alt_leads, []);
+});
+
 test('历史原表保留未定实体、候选ID、重复疑似行与原始精度，不强制归团', t => {
   const { root, put, source } = fixture(t);
   const records = [{ table_order: '1', corporation_name: 'Unknown', resolved_corp_id: '', same_name_corp_id_candidate: '999', score_raw: '1.234567890123456789' },

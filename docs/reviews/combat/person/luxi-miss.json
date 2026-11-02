@@ -1,63 +1,81 @@
 {
   "status": "reviewed",
-  "note": "游戏画像与战役依据未变；补足封号黑料的活动后果、职务反差和群内反应，保留综合作战画像及所有旧料。",
+  "note": "按现稿重核：AT22改为名册挂名、19场无出场，不写上场；游戏画像、小号、战役与战绩红料沿用并逐项对照。",
   "evidence": [
+    "src/people/luxi-miss/luxi-miss.md",
     "src/people/luxi-miss/materials-luxi-miss.md",
-    "src/people/luxi-miss/luxi-miss.md"
+    "src/people/luxi-miss/2115746150-id.json"
   ],
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "已读主号完整简介、综合KB、常用船、星系及月份；指挥记录持续，正文用长期FC与常规／旗舰经历构成画像。",
+      "note": "主号1212杀、217损、1.009T，材料Monitor154次、旗舰与战列出勤支持长期FC；正文写带队处境，不以次数折算战果。",
       "evidence": [
         {
+          "file": "src/people/luxi-miss/2115746150-id.json",
+          "contains": "\"kills\": 1212"
+        },
+        {
           "file": "src/people/luxi-miss/materials-luxi-miss.md",
-          "heading": "## 游戏画像"
+          "contains": "## 既有战役对照与采用"
         }
       ]
     },
     "alts": {
       "status": "reviewed",
-      "note": "已对应三号；核mali miss综合KB，低于100B未逐月展开，其余两号无新增战斗需求；无已知售号或代管线索，群聊华与呆始皇不合并。",
+      "note": "三号身份与标题已核；mali miss147杀、186损、62.5B只补轻拦电子战，其余两号无新增KB；不把同群呆始皇永封归华。",
       "evidence": [
         {
+          "file": "src/people/luxi-miss/2115746150-id.json",
+          "contains": "\"kills\": 1212"
+        },
+        {
           "file": "src/people/luxi-miss/materials-luxi-miss.md",
-          "heading": "## 小号覆盖"
+          "contains": "## 既有战役对照与采用"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "读最高两个ISK月的完整KM样本，发现星城是峰值主因；八月第一页截断已明记，另按主战星系补核6Q及VYO，不把大型建筑价值写成个人带队战果。",
+      "note": "既有最高两月KM样本分别由星城推高，正文明确大型建筑分量；6Q、VYO、8F另有实际窗口代表KM，不用宽窗口替代指挥证据。",
       "evidence": [
         {
+          "file": "src/people/luxi-miss/2115746150-id.json",
+          "contains": "\"kills\": 1212"
+        },
+        {
           "file": "src/people/luxi-miss/materials-luxi-miss.md",
-          "heading": "## 高值月份与代表战斗"
+          "contains": "## 既有战役对照与采用"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "四场本地战役逐场对照；6Q、VYO、8F有实际窗口Monitor记录，1-SMEB仅记普通参与；正文选三场说明指挥处境，无多号人数相加。",
+      "note": "四场战役1-SMEB、6Q、VYO、8F均主号龙焰侧；mali额外两场不重计，1-SMEB仅普通参战，其余按Monitor记录写带队。",
       "evidence": [
         {
+          "file": "src/people/luxi-miss/2115746150-id.json",
+          "contains": "\"kills\": 1212"
+        },
+        {
           "file": "src/people/luxi-miss/materials-luxi-miss.md",
-          "heading": "## 既有战役对照与采用"
+          "contains": "## 既有战役对照与采用"
         }
       ]
     },
     "narrative": {
       "status": "reviewed",
-      "note": "保留夏秋带队的综合战绩点评；封号扩为主要黑料，展开活动取消、指挥职务反差、CEO同期被封及群内问团散与担保误封的反应，不把呆始皇弹窗的RMT永封原因或期限赋给华。 2026-10-29复核：本次只改黑料段尾与封号叙事，战斗画像、峰值与战役引用未变。",
+      "note": "第一红料把夏秋出勤与长期FC画像合成点评；AT22只记名册挂名，DC本届19场无出场记录，不写上场，封号取消活动重料保留，未推断解封。",
       "evidence": [
         {
           "file": "src/people/luxi-miss/luxi-miss.md",
-          "contains": "::: 红料 猫可以卖萌，队伍不能随便散"
+          "contains": "华带着龙焰的队伍在绝地接连出勤"
         }
       ]
     }
   },
   "dependencies": [
+    "docs/sources/at22-dracarys.md",
     "src/people/luxi-miss/2115746150-id.json",
     "src/people/luxi-miss/luxi-miss.md",
     "src/people/luxi-miss/materials-luxi-miss.md",
@@ -74,6 +92,6 @@
     "src/battles/vyo-68-2026/vyo-68-2026.md",
     "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
   ],
-  "inputs": "80a4865a2fc16a5cdc18ff4a1fdf9eeaed9db3342ff72fac6fd1f8d5844f5456",
+  "inputs": "fc42025d51d9a7db31044d75bb8544bbd18e3a4017f075b101e50cde74c78c23",
   "level": 1
 }

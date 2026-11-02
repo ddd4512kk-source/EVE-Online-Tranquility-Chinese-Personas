@@ -1,0 +1,71 @@
+{
+  "id": 2120246500,
+  "name": "Hoshimati Comet",
+  "birthday": "2022-07-30T09:25:26Z",
+  "corporation_id": 98749004,
+  "affiliation": {
+    "corporation_id": 98749004,
+    "alliance_id": 99011441,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "start": "2022-07-30T09:25:00Z",
+      "end": "2023-03-25T08:30:00Z"
+    },
+    {
+      "corporation_id": 98702890,
+      "start": "2023-03-25T08:30:00Z",
+      "end": "2024-06-14T14:22:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "start": "2024-06-14T14:22:00Z",
+      "end": "2024-06-14T14:49:00Z"
+    },
+    {
+      "corporation_id": 98749004,
+      "start": "2024-06-14T14:49:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-02",
+  "person": {
+    "cn_name": "Hoshimati Comet",
+    "aliases": [],
+    "epithet": "从NERV打到龙焰，决赛小船不缺席。",
+    "tags": [
+      "比赛",
+      "AT22亚军"
+    ]
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2121078246,
+        "name": "F-4EJ Kai",
+        "sources": [
+          "materials-hoshimati-comet.md#f-4ej-kai同人号"
+        ],
+        "basis": "与Hoshimati Comet为同一玩家；F-4EJ Kai在神农，既有名册和公开角色ID一致",
+        "zkb": {
+          "kills": 434,
+          "lost": 150,
+          "isk_destroyed": 749995235069,
+          "last_active": "2026-05",
+          "as_of": "2026-11-02"
+        }
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 3631,
+      "lost": 220,
+      "isk_destroyed": 2687087040577,
+      "last_active": "2026-11",
+      "as_of": "2026-11-02"
+    }
+  }
+}

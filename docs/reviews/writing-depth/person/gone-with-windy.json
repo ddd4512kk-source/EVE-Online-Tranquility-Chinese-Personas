@@ -1,0 +1,424 @@
+{
+  "status": "reviewed",
+  "note": "AT22红料补金主雇人与AVDOT外援后按现稿重核，重料覆盖与分量沿用",
+  "evidence": [
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/gone-with-windy/materials-gone-with-windy.md",
+    "docs/sources/at22-dracarys.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文与材料清点联盟史、招新、ESI禁令、维新、九卡、顶帖、俄语区与AT22挂名事件；AT22挂名据共用材料逐场核对为19场无出场，写成盟主小号挂名的调侃，不写上场。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "## 随风 / Gone With Windy"
+        },
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "### 2024-11 DC 因 ESI 登记率被禁止在蜜蜂主权 PVE（2026-10-09 补，已写入列传黑料）"
+        },
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "### 北宅与随风的对应"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "三件重料（ESI禁令、维新被踢、九卡）逐方向展开；AT22挂名为新补普通事件，其余按分量登记。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+          "heading": "### 2024-11 DC 因 ESI 登记率被禁止在蜜蜂主权 PVE（2026-10-09 补，已写入列传黑料）"
+        }
+      ],
+      "noHeavyReason": "",
+      "items": [
+        {
+          "title": "ESI登记率不够，被蜜蜂挡在刷怪区外",
+          "weight": "heavy",
+          "reason": "整盟被宗主限制刷怪，涉及盟主治理与帝国关系",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "### 2024-11 DC 因 ESI 登记率被禁止在蜜蜂主权 PVE（2026-10-09 补，已写入列传黑料）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "帝国里唯一以华人为主的联盟，整盟被挡在宗主的刷怪区外面"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "纪要原文与DC主权星系单向开门",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "门是单向开的"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "骂别人seat查户口，自家招新照收Seat",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "骂别人的 seat 查户口"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "吧里一百三十楼与踢人达标的后果",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "被踢的那些人，倒是用不着再交 ESI 了"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "多方说法并列，结尾落到自家也收Seat的反差。"
+        },
+        {
+          "title": "维新被踢与“一个联盟一个管理团队”",
+          "weight": "heavy",
+          "reason": "盟主治理路线与军团冲突，被踢方长帖",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 2026-10-11 DPL踢号争议：新补楼中楼"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "他一直认为一个联盟就应该只有一个管理团队"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "搬家源泉与联盟大会的导火索",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "导火索是搬家"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "紫电与随风两种联盟观",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "军团保留自己的玩法"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "权游迷当盟主信奉铁王座只有一把",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "铁王座只有一把"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "与DC做到一万多人的路数对照",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "做到一万多人的路数对得上"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "以被踢方单方面说法呈现，并标明楼下有人揭短。"
+        },
+        {
+          "title": "九卡联盟：我授意T的",
+          "weight": "heavy",
+          "reason": "盟主亲自认领踢人，钱进联盟账户，外号流传",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "### 2024-11 DC 因 ESI 登记率被禁止在蜜蜂主权 PVE（2026-10-09 补，已写入列传黑料）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "我授意T的，对不起我没来得及上线，没能亲自T你"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "月卡合同、建号两周成员被当spy踢出",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "建号两周的 DC 成员"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "联盟邮件交代钱进账户，吧友算公关账，外号流传",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "从此 DC 有了外号“九卡联盟”"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "一个管理团队，这回连挨骂也只要一个联盟",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "这回连挨骂也只要一个联盟"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "半年后萌新仍只知道九卡联盟",
+              "evidence": {
+                "file": "src/people/gone-with-windy/gone-with-windy.md",
+                "contains": "我只知道九卡联盟"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "合同少打一个零到“九卡联盟”外号，盟主原话与屏蔽追问并列。"
+        },
+        {
+          "title": "WWB被清出卡彻与两种战史",
+          "weight": "ordinary",
+          "reason": "联盟早期立足的两种叙述对照",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 随风 / Gone With Windy"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "几天之后 DC 已经没有了集结点"
+          },
+          "note": "两家各写各的战史，落到稳重与清出同一人。"
+        },
+        {
+          "title": "一个月一座星城与招新帖",
+          "weight": "ordinary",
+          "reason": "建盟初期开局与顶帖",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 2026-10-15 本人贴吧账号与全部主题帖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "龙焰第一座星城上线"
+          },
+          "note": "帖子被吧友猜招新，一猜一个准。"
+        },
+        {
+          "title": "N老板战报里的DC",
+          "weight": "ordinary",
+          "reason": "对家公告的年度口径变化",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 随风 / Gone With Windy"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "口气一年一变"
+          },
+          "note": "五条引述串成连载角色。"
+        },
+        {
+          "title": "死对头也夸",
+          "weight": "ordinary",
+          "reason": "对家Norausdot评价",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 随风 / Gone With Windy"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "DC是唯一一个我非常认同的00华人联盟"
+          },
+          "note": "原话引述加更早评价。"
+        },
+        {
+          "title": "盟主的KB与泰坦出勤",
+          "weight": "ordinary",
+          "reason": "盟主出勤画像与大战记录",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## KB 与战斗出勤（自正文移入）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "盟主的战绩分在几张名片上"
+          },
+          "note": "综合点评，不折算战果。"
+        },
+        {
+          "title": "AOM旧人与蓝名嘴臭",
+          "weight": "ordinary",
+          "reason": "联盟接收旧人与外交灭火的治理压力",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 2026-10-13：执行军团小号与战役补漏"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "AOM 垮掉以后，一批旧人到了龙焰"
+          },
+          "note": "两块写盟主对成员的责任。"
+        },
+        {
+          "title": "简介Recuiting与顶帖两年半",
+          "weight": "ordinary",
+          "reason": "招新文案与贴吧行为",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 2026-10-15 本人贴吧账号与全部主题帖"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "这个 r 丢得很早"
+          },
+          "note": "拼写错与顶帖流水两块写成小故事。"
+        },
+        {
+          "title": "五国语言招人与俄语区",
+          "weight": "ordinary",
+          "reason": "官方论坛招人反应",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 外文原话原文（2026-10-24 正文译中留档）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "去一个把你当员工的地方"
+          },
+          "note": "俄语直译的笑点与英文区刷广告。"
+        },
+        {
+          "title": "AT22亚军队名册挂名（19场无出场）与金主雇人组队",
+          "weight": "ordinary",
+          "reason": "联盟CEO以小号Tyrande Itovuo挂名亚军队名册，共用材料核对19场无出场；新增“金主出资2T ISK雇各路高手赛期内暂时加入DC”的组队背景",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "## 队伍与成绩"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "DC 的金主掏了 2T ISK"
+          },
+          "note": "开头改以Dracarys.名义报名；组队段写金主出钱、高手出力、龙焰出名字、盟主出小号，金主身份不归人；已补AVDOT（Infinity Avenger）外援一句：Alknight Dong、Lw x、Miles Marcel八月进It's MyGO.、总决赛当天退团回老东家，Sayler全程未离开AVDOT，逐项与共用材料「外援来路」一致；后段仍写小号19场无出场，不写上场。"
+        },
+        {
+          "title": "招人礼包、疫情心意与收容流浪军团",
+          "weight": "light",
+          "reason": "联盟日常小事与好话",
+          "source": {
+            "file": "src/people/gone-with-windy/materials-gone-with-windy.md",
+            "heading": "## 随风 / Gone With Windy"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gone-with-windy/gone-with-windy.md",
+            "contains": "三亿礼包、教官全陪"
+          },
+          "note": "短块保留，不拆成重料。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇权游周边、红料联盟建设与盟主出勤、黑料治理争议和评语围绕“联盟名头与门禁”主线；AT22一块加了金主雇人背景，与盟主挂名呼应，评语未改。",
+      "evidence": [
+        {
+          "file": "src/people/gone-with-windy/gone-with-windy.md",
+          "contains": "龙妈的口令喊得响，帝国的门禁卡在洋人手里"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/corp-vitality-debate-2025.md",
+    "docs/sources/dc-br-monthly-discovery-2026-10-12.md",
+    "docs/sources/dc-goons-fc-research-2026-10-12.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/northern-battles-2026-04-25.md",
+    "docs/sources/pla-kaisa-departure-2017.md",
+    "src/people/gone-with-windy/2115325695-id.json",
+    "src/people/gone-with-windy/gone-with-windy.md",
+    "src/people/gone-with-windy/materials-gone-with-windy.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "0576817d4f8425ce2b0bd0b69b9d1fd11a2e1ad072e2abc8daf17755195dea71",
+  "level": 1
+}

@@ -1,6 +1,6 @@
 {
   "status": "reviewed",
-  "note": "独立通读正文、素材、角色总览及两场既有战役；战绩块前移后通过。",
+  "note": "独立核读主小号档案、综合KB、正式战役卡与材料；本次AT22资格和已有战斗画像按现稿逐项通过。",
   "evidence": [
     "src/people/coppercn/materials-coppercn.md",
     "src/people/coppercn/2118201493-id.json",
@@ -9,7 +9,7 @@
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "已核收录号stats：2072杀、223损、1.922T，素材110单杀且缪宁为常用船；画像支持以大队参战为主兼总览维护与比赛队成员，未把名单写成个人指挥战功。",
+      "note": "主号2072杀、223损、1.922T；110单杀与缪宁主力船构成大队出勤画像。Melissa的266杀、39损、552.35B单列，未相加。",
       "evidence": [
         {
           "file": "src/people/coppercn/2118201493-id.json",
@@ -17,47 +17,55 @@
         },
         {
           "file": "src/people/coppercn/materials-coppercn.md",
-          "contains": "zKillboard 生涯击杀 2072"
+          "contains": "## AT22参赛号与亚军"
         }
       ]
     },
     "alts": {
-      "status": "not-applicable",
-      "note": "正式identity.alts为空，已读本人档案和材料，没有另列主力小号；不凭同名或比赛队关系补同人。",
+      "status": "reviewed",
+      "note": "Melissa Kinrenka已由用户确认为本人参赛号；档案、本人材料与AT22名单对应一致。旧复核空小号结论已作废。",
       "evidence": [
         {
           "file": "src/people/coppercn/2118201493-id.json",
           "contains": "\"kills\": 2072"
+        },
+        {
+          "file": "src/people/coppercn/materials-coppercn.md",
+          "contains": "## AT22参赛号与亚军"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "A1女妖记录与材料9条攻击者样本吻合，1.20T已机械改正为一万两千亿；总览维护新增没有待核战果，不为补写扩搜月份。",
+      "note": "A1-AUH代表KM、9条攻击者样本支持女妖出勤，1.20T是各方总损失；AT22逐局后勤来自赛事名单，未编技能操作，无需另开月份调查。",
       "evidence": [
         {
+          "file": "src/people/coppercn/2118201493-id.json",
+          "contains": "\"kills\": 2072"
+        },
+        {
           "file": "src/people/coppercn/materials-coppercn.md",
-          "heading": "### 2021-09-17 A1-AUH / 角色 2118201493"
+          "contains": "## AT22参赛号与亚军"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "核现有A1-AUH、Turnur两场：同号均为FRT参战，Turnur有损失，A1由本人材料具体KM支持女妖座位；未据普通参战赋予FC或独立胜负。",
+      "note": "A1-AUH和Turnur两场逐一核；Turnur新小号Melissa与主号同在FRT侧，只命中参战，不据此编后勤或指挥。新增对应已留本人材料。",
       "evidence": [
-        {
-          "file": "src/people/coppercn/materials-coppercn.md",
-          "heading": "### 2021-09-17 A1-AUH / 角色 2118201493"
-        },
         {
           "file": "src/people/coppercn/2118201493-id.json",
           "contains": "\"kills\": 2072"
+        },
+        {
+          "file": "src/people/coppercn/materials-coppercn.md",
+          "contains": "## AT22参赛号与亚军"
         }
       ]
     },
     "narrative": {
       "status": "reviewed",
-      "note": "综合KB块已紧接开篇；常规缪宁、A1女妖与AT19组队过程形成技术干部自己出勤的画像，未把比赛队名单当个人带队成绩。",
+      "note": "综合KB块紧接开篇，常规缪宁、A1女妖与比赛建设相接；独立后勤决赛块写个人生死和团队结果，不冒领整队功劳。",
       "evidence": [
         {
           "file": "src/people/coppercn/coppercn.md",
@@ -67,6 +75,7 @@
     }
   },
   "dependencies": [
+    "docs/sources/at22-dracarys.md",
     "docs/sources/capital-battles-2026-10-11.md",
     "docs/sources/large-battles-2026-10-11.md",
     "src/people/coppercn/2118201493-id.json",
@@ -79,6 +88,6 @@
     "src/battles/turnur-2023/turnur-2023.md",
     "src/battles/turnur-2023/materials-turnur-2023.md"
   ],
-  "inputs": "a59ed7b900e1c215ba75ea6d70e937d4595158f241c6fa4ecc11fa59d47ff27a",
+  "inputs": "cc731c7b926d78dc73b5d98ed7f70a6434a70daab97ac6d87005559442be2489",
   "level": 1
 }

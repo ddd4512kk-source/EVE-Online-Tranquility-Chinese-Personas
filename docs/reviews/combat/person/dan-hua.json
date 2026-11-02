@@ -1,35 +1,43 @@
 {
   "status": "reviewed",
-  "note": "对照抽查，复用已存常用船、综合KB、高值月份和M2本人俄洛巴斯KM材料；5场本地关联已列于素材或互链，正文已有冠军与会战综合画像，本次无须重复扩写。",
+  "note": "N09J0R改收后按现稿重核：生涯统计、小号、战役互链、AT19出场与战绩红料均已对照",
   "evidence": [
-    "src/people/dan-hua/materials-dan-hua.md",
-    "src/people/dan-hua/2116540636-id.json",
-    "src/people/dan-hua/dan-hua.md"
+    "src/people/dan-hua/dan-hua.md",
+    "src/people/dan-hua/1682838361-id.json",
+    "src/people/dan-hua/materials-dan-hua.md"
   ],
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "复用素材所存生涯常用船（缪宁、俄洛巴斯、雷裔、夜神、莫洛）与M2首战月参与额；正文冠军日常出勤块已合写，未把参与金额当个人战果。",
+      "note": "档案生涯3896杀、272损、约2.94T；按月统计N09J0R自2020-09起约2602杀，单月最高2022-05的359杀，最后活跃2024-08；Dan Hua 1064杀，常用船缪宁居首，其次俄洛巴斯、雷裔、夜神、莫洛。正文“两千六百来个”“三百多个”“一千多个”与之相符，各号不相加、不折算个人伤害。",
       "evidence": [
         {
+          "file": "src/people/dan-hua/1682838361-id.json",
+          "contains": "\"kills\": 3896"
+        },
+        {
           "file": "src/people/dan-hua/materials-dan-hua.md",
-          "contains": "zKillboard 生涯数据：常用船缪宁居首"
+          "heading": "## 小号"
         }
       ]
     },
     "alts": {
       "status": "reviewed",
-      "note": "身份档案未登记小号或售号；只核收录号，不因此排除未发现的号。",
+      "note": "收录号由Dan Hua换为击杀更多的N09J0R；小号Dan Hua（原收录）、Huahua Dan、Dan Huahua依据军团同进同出（Inverse Entropy Fleet、Golden Fleece Fleet、ChuangShi），同一玩家；后两号29、40杀属边角，只在身份和开篇一句带过。",
       "evidence": [
         {
-          "file": "src/people/dan-hua/2116540636-id.json",
-          "contains": "\"alts\": []"
+          "file": "src/people/dan-hua/1682838361-id.json",
+          "contains": "\"name\": \"Dan Huahua\""
+        },
+        {
+          "file": "src/people/dan-hua/materials-dan-hua.md",
+          "heading": "## 小号"
         }
       ]
     },
     "peaks": {
-      "status": "reviewed",
-      "note": "高值月为2020年底M2-XFE首战所在月，代表KM 89617016为本人驾驶俄洛巴斯的集体击杀。",
+      "status": "not-applicable",
+      "note": "核过stats总览：2022-05单月359杀足以支撑“一个月三百多个”，正文无须核具体月份或KM的战果主张；M2-XFE代表KM 89617016已在素材。",
       "evidence": [
         {
           "file": "src/people/dan-hua/materials-dan-hua.md",
@@ -39,8 +47,12 @@
     },
     "battles": {
       "status": "reviewed",
-      "note": "M2-XFE与4-ABS8各有代表KM，其余本地关联沿战役互链；均按参战写，不认指挥。",
+      "note": "M2-XFE首战、4-ABS8、A1-AUH、FWST-8等战役对象沿Dan Hua角色关联并已互链；M2-XFE页链接到新ID页；均按参战写，不认指挥。AT19出场另据EVE_NT比赛页：N09J0R两场（3719、3723），Dan Hua无记录。",
       "evidence": [
+        {
+          "file": "src/people/dan-hua/materials-dan-hua.md",
+          "heading": "## AT19 实际出场（EVE_NT 比赛页，2026-11-02 核读）"
+        },
         {
           "file": "src/people/dan-hua/materials-dan-hua.md",
           "heading": "## 2023-08-29—30 4-ABS8参战（2026-10-20补档）"
@@ -49,11 +61,15 @@
     },
     "narrative": {
       "status": "reviewed",
-      "note": "正文以AT冠军队员为主线，另立“冠军的日常出勤与泰坦席位”红料合写会战画像，未把普通参战另拆料块。",
+      "note": "“冠军的日常出勤与泰坦席位”红料为综合战绩点评，已改写为以N09J0R为出勤簿、Dan Hua为泰坦席位；AT19实际出场另在“从ST来的冠军队员”红料中按两场船损写明，与战绩分块不混。",
       "evidence": [
         {
           "file": "src/people/dan-hua/dan-hua.md",
           "contains": "::: 红料 冠军的日常出勤与泰坦席位"
+        },
+        {
+          "file": "src/people/dan-hua/dan-hua.md",
+          "contains": "他打了两场，两场都没把船开回来"
         }
       ]
     }
@@ -61,7 +77,7 @@
   "dependencies": [
     "docs/sources/capital-battles-2026-10-11.md",
     "docs/sources/large-battles-2026-10-11.md",
-    "src/people/dan-hua/2116540636-id.json",
+    "src/people/dan-hua/1682838361-id.json",
     "src/people/dan-hua/dan-hua.md",
     "src/people/dan-hua/materials-dan-hua.md",
     "src/battles/4-abs8-2023/4-abs8-2023.json",
@@ -80,6 +96,6 @@
     "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
     "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
   ],
-  "inputs": "3b08e93fe66171e5a788e1b1b8f799a94521a35e49b26c73671ddf648e87315a",
+  "inputs": "ee52920d3bb7e26fc4b0c4feb55d4c619dcaf553a24a02302700fb16d4b647b4",
   "level": 1
 }

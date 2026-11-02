@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "AT22改为名册挂名（19场零出场）后重核：游戏画像、小号、既有战役与正文采用逐项通过。",
+  "evidence": [
+    "src/people/xialm/materials-xialm.md",
+    "src/people/xialm/xialm.md",
+    "docs/sources/at22-dracarys.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "204击杀、154损失、3单杀、32个月，正文按两百多次参与、上百次损失、三十多个月描述，不由总览入口推断作者或FC。",
+      "evidence": [
+        {
+          "file": "src/people/xialm/materials-xialm.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式身份档案无确认小号，已读材料身份待核段；未因同队同团合并异名号。",
+      "evidence": [
+        {
+          "file": "src/people/xialm/materials-xialm.md",
+          "heading": "## 身份与待核"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "总览足以支撑一个出勤型队员的画像，正文只用两条代表船，不据月份推个人战果；AT22逐场核读为零出场。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "人物卡两场：A1-AUH（战时宽带山/99009082，狞獾损失）与4-HWWF至8TPX-N（DC，鹏鲲参战并有损失），快照ID与归属已对照。",
+      "evidence": [
+        {
+          "file": "src/battles/a1-auh-2021/a1-auh-2021.json",
+          "contains": "\"2118946095\":"
+        },
+        {
+          "file": "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+          "contains": "\"2118946095\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "KB红料写出勤型队员画像；AT22红料据19场比赛页零出场的结论，写成KB满、赛场零的对照，不再说跟队获亚军。",
+      "evidence": [
+        {
+          "file": "src/people/xialm/xialm.md",
+          "contains": "他的[战绩](https://zkillboard.com/chara"
+        },
+        {
+          "file": "src/people/xialm/xialm.md",
+          "contains": "十九场比赛的账面却是零"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/people/xialm/2118946095-id.json",
+    "src/people/xialm/materials-xialm.md",
+    "src/people/xialm/xialm.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "7d8af8aad91cd0e8965aac8eaea4475057e7fe7978bf820599e8b9f5273135a7",
+  "level": 1
+}

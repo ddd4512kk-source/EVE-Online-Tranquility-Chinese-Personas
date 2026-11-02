@@ -1,0 +1,77 @@
+{
+  "status": "reviewed",
+  "note": "AT22挂名事实已按逐场出场改写，战斗画像与既有战役核对完成",
+  "evidence": [
+    "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+    "src/people/chris-harbour-chn/chris-harbour-chn.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读素材中的stats总览与正文KB红料，战斗频率、规模与正文的画像相符；AT22挂名事实另依共用材料。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "CH1（124杀）与CH2（0杀）已登记为同人，主号仍为CHN近两千杀；正文不分号叙述，符合以自然人为主语。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+          "heading": "## 同系列角色"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "总览足以支持正文判断，代表KM取自既有战役档案，无需另查具体月份；比赛出场另据逐场名单。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "三场既有战役：阿提奥斯（星空损失与蛋）、1-SMEB（海军乌鸦）是本人驾驶记录，正文展开；H-PA29（2022）仅为名单层面的联盟角色快照，不单拆成料。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立KB红料承担综合战斗画像并含代表战斗；AT22红料已按零出场重写，不再暗示上场。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+          "contains": "他的[KB](https"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/chris-harbour-chn/2119035263-id.json",
+    "src/people/chris-harbour-chn/chris-harbour-chn.md",
+    "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md"
+  ],
+  "inputs": "ac87118eb26988d237b0a6acb656c8cbea3a56407dbc6088cba1e7ae4720a3a6",
+  "level": 1
+}

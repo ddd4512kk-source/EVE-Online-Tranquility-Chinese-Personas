@@ -102,3 +102,9 @@
 - [乌特拉拆堡](../../battles/otela-2024/otela-2024.md)：深水及友军。本场完整快照对照收录号及已对应alts命中；全场总损失约307.10B，不作个人战果。分方、岗位证据及公开文字归本场素材。
 
 - **红料 / KB，中**：zKillboard 6471 击杀、约 6.19T ISK，单杀 268；灵感、勒沙克最多；最常去星系老人星。2023-05-27 老人星（约 564.53B）驾驶地狱天使（[109208057](https://zkillboard.com/kill/109208057/)，Shadow Cartel 时期，后有审判者记录）；2024-02-24 奥斯汀格勒（约 409.38B）驾驶勒沙克（[115769140](https://zkillboard.com/kill/115769140/)，SC 一方，Sedition 复盘：诱敌阿斯特拉豪斯）；2025-06 希瑟伊德驾驶泽尼塔（[128026412](https://zkillboard.com/kill/128026412/)）；2025-07-13 索萨拉（约 451.03B）驾驶曲剑后勤（[128533903](https://zkillboard.com/kill/128533903/)，深水一方）；2026-02-22 塔夫驾驶泽尼塔（[133567914](https://zkillboard.com/kill/133567914/)，深水一方）。
+
+## AT22亚军队
+
+2026-11-02核对[共用赛事材料](../../../docs/sources/at22-dracarys.md)：官方Dracarys正式名册列有本角色；2026-11-01 UTC决赛对Deteriorated五局依次胜、负、负、胜、负，2:3获亚军。名册资格不推断实际出场，具体决赛船位仅采用共用材料所列比赛。未核录像及个人操作。原有赛事、战役与红黑料保留，不因新成绩删减。
+
+AT22出场清单（依据[共用赛事材料](../../../docs/sources/at22-dracarys.md)「全部比赛与逐人出场」，2026-11-02逐页核读DC全部19场比赛页，并与EVE_NT选手页对照）：共3场：资格赛[4016](https://open.eve-nt.uk/portal/match/4016)胜Paper Numbers、[4045](https://open.eve-nt.uk/portal/match/4045)负Psychokids.，正赛[4104](https://open.eve-nt.uk/portal/match/4104)负Paper Numbers；总决赛4119—4123五局无出场。DC总决赛之前14场的两场败局（4045、4104）均有其出场。船型未核，未观看录像。

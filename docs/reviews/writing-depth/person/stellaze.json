@@ -1,0 +1,135 @@
+{
+  "status": "reviewed",
+  "note": "按AT22实际出场重核覆盖、事件与分量",
+  "evidence": [
+    "src/people/stellaze/stellaze.md",
+    "src/people/stellaze/materials-stellaze.md",
+    "docs/sources/at22-dracarys.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "已对照本人全部素材、AT22出场清单与共享赛事来源；队籍与实际出场（正赛四场全胜、总决赛未上）分开写，未写成打满五局。",
+      "evidence": [
+        {
+          "file": "src/people/stellaze/materials-stellaze.md",
+          "heading": "## AT22亚军队"
+        },
+        {
+          "file": "src/people/stellaze/materials-stellaze.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "## 队伍与成绩"
+        },
+        {
+          "file": "src/people/stellaze/materials-stellaze.md",
+          "contains": "AT22出场清单"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "AT22亚军为人物核心红料，个人日常KB作画像陪衬，未把普通战损单拆黑料。",
+      "evidence": [
+        {
+          "file": "src/people/stellaze/materials-stellaze.md",
+          "contains": "AT22出场清单"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT22亚军队籍与实际出场",
+          "weight": "heavy",
+          "reason": "亚军队籍是收录依据；实际只上正赛四场全胜、总决赛未上，这一反差是本篇主线。",
+          "source": {
+            "file": "src/people/stellaze/materials-stellaze.md",
+            "contains": "AT22出场清单"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/stellaze/stellaze.md",
+            "contains": "阿泽只在正赛里出场四次"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "放回由老班底与新人拼成的DC名册，场次差异与斑鸠、F RUE十九场全上对照。",
+              "evidence": {
+                "file": "src/people/stellaze/stellaze.md",
+                "contains": "旧冠军与新名字坐到一张桌上"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "四战四胜却没有总决赛，2∶3输掉时战绩栏仍是四个胜字；累计KB不大与亚军银牌并存。",
+              "evidence": {
+                "file": "src/people/stellaze/stellaze.md",
+                "contains": "四战四胜，没有输过"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "名册头衔共享，银牌不是五局打下来的，只来自正赛里的全胜。",
+              "evidence": {
+                "file": "src/people/stellaze/stellaze.md",
+                "contains": "他的那一份，要从正赛四场全胜里去找"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "评语收在满分小成绩单，不换算成个人决赛功劳。",
+              "evidence": {
+                "file": "src/people/stellaze/stellaze.md",
+                "contains": "满分的小成绩单"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "正文逐场写四场对手与全胜，并点明资格赛与总决赛均无出场；不补造船型和个人操作。"
+        },
+        {
+          "title": "日常战斗画像",
+          "weight": "ordinary",
+          "reason": "累计作战数据与代表参战用于解释玩法，普通出勤不另立重事。",
+          "source": {
+            "file": "src/people/stellaze/materials-stellaze.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/stellaze/stellaze.md",
+            "contains": "他的[公开战绩](https://zkillboard.com/cha"
+          },
+          "note": "385击杀、10单杀、10个记录月份，正文没有把2024至2026写成连续活跃年限。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "亚军队籍与实际出场的反差是本篇中心；KB交代玩家底子，简介原话给反差；没有臆造争议或把普通损失充黑料。",
+      "evidence": [
+        {
+          "file": "src/people/stellaze/stellaze.md",
+          "contains": "阿泽的作战记录没有突然长成五位数"
+        },
+        {
+          "file": "src/people/stellaze/stellaze.md",
+          "contains": "四战四胜，没有输过"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/stellaze/2122021471-id.json",
+    "src/people/stellaze/materials-stellaze.md",
+    "src/people/stellaze/stellaze.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "588692c28c4ee36e02aeea1bdf71d196069239bb8e62f59fa7ef8740dae9e7b4",
+  "level": 1
+}

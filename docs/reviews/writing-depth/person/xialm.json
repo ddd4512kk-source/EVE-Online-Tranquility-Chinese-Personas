@@ -1,0 +1,134 @@
+{
+  "status": "reviewed",
+  "note": "AT22段按挂名事实重写后独立通读正文、素材与来源：覆盖、重事发挥与全文分量逐件通过。",
+  "evidence": [
+    "src/people/xialm/materials-xialm.md",
+    "src/people/xialm/xialm.md",
+    "docs/sources/at22-dracarys.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人全部素材与赛事来源清点：总览版本简介、KB画像、两条代表战役、名册挂名与19场零出场均已入文。",
+      "evidence": [
+        {
+          "file": "src/people/xialm/materials-xialm.md",
+          "heading": "## AT22亚军队"
+        },
+        {
+          "file": "src/people/xialm/materials-xialm.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "AT22名册挂名是本篇主线重事，KB画像为陪衬，未把普通战损拆黑料。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT22名册挂名、一场未上",
+          "weight": "heavy",
+          "reason": "亚军队名册与19场比赛页的对照是本篇主线，也是本次修订重点。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/xialm/xialm.md",
+            "contains": "一百九十个座位里没有xialm"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "DC战绩（资格赛六胜一负、正赛闯入总决赛、五局2∶3）与一百九十个座位里没有他并排摆出。",
+              "evidence": {
+                "file": "src/people/xialm/xialm.md",
+                "contains": "一百九十个座位里没有xialm"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "简介里备齐的各版总览与比赛一场没开对照；KB满、赛场空。",
+              "evidence": {
+                "file": "src/people/xialm/xialm.md",
+                "contains": "比赛一场没开"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "银牌的热闹是场上十个人打出来的，他沾整队的光，自己的战报栏从头空到尾。",
+              "evidence": {
+                "file": "src/people/xialm/xialm.md",
+                "contains": "自己的战报栏则从头空到尾"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "评以一场没露面的名字、银牌分了一份名额收住，与开篇一致。",
+              "evidence": {
+                "file": "src/people/xialm/xialm.md",
+                "contains": "一场没露面的名字"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "未添任何场外事件，笑点来自名册、比赛页和简介总览的对照。"
+        },
+        {
+          "title": "日常战斗画像",
+          "weight": "ordinary",
+          "reason": "累计出勤与两条代表船说明玩法，普通战损不另立黑料。",
+          "source": {
+            "file": "src/people/xialm/materials-xialm.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/xialm/xialm.md",
+            "contains": "他的[战绩](https://zkillboard.com/chara"
+          },
+          "note": "204击杀、154损失，与正文量级相符。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全篇重心是名册挂名与总览备齐的对照，KB与战役给底子；已无暗示上场的句子。",
+      "evidence": [
+        {
+          "file": "src/people/xialm/xialm.md",
+          "contains": "自己的战报栏则从头空到尾"
+        },
+        {
+          "file": "src/people/xialm/xialm.md",
+          "contains": "一场没露面的名字"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/xialm/2118946095-id.json",
+    "src/people/xialm/materials-xialm.md",
+    "src/people/xialm/xialm.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
+  ],
+  "inputs": "5dff3bec41309abbf95eff3665ecb92ace97d56d22fbda408bbc137596394bef",
+  "level": 1
+}

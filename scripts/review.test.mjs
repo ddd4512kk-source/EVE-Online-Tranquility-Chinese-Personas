@@ -352,7 +352,7 @@ test('writing review tracks nested external sources and changed rules; rejected 
   assert.equal(s.call('card', 'person:demo', '--feature', 'writing-depth').state, 'stale');
 });
 
-test('template drafts blank checks with anchors that validate; refuses overwrite and checkless features', t => {
+test('template drafts blank checks with anchors that validate; keeps an existing draft and refuses checkless features', t => {
   const setup = fixture(t);
   combatChecks(setup);
   const draft = setup.call('template', 'person:demo');
@@ -363,13 +363,27 @@ test('template drafts blank checks with anchors that validate; refuses overwrite
   assert.ok(material.some(anchor => anchor.heading === '## 画像'));
   const mark = () => setup.call('mark', 'person:demo', '--status', 'reviewed', '--note', '逐项核读完成', '--evidence', 'src/people/demo/materials-demo.md', '--assessment', draft.file);
   assert.throws(mark, /缺少已完成的复查项/);
-  assert.throws(() => setup.call('template', 'person:demo'), /草稿已存在/);
+  assert.ok(draft.constraints.some(rule => /narrative/.test(rule)));
   const pick = ({ file, heading, contains }) => heading ? { file, heading } : { file, contains };
   setup.put(draft.file, Object.fromEntries(Object.keys(draft.checks).map(key => [key, {
     status: 'reviewed', note: '按锚点逐项核读后的判断', evidence: [pick(key === 'narrative' ? body[1] : material.find(anchor => anchor.heading === '## 画像'))],
   }])));
-  mark();
+  const again = setup.call('template', 'person:demo');
+  assert.equal(again.existing, true);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(setup.root, draft.file), 'utf8')).profile.status, 'reviewed');
+  assert.deepEqual(Object.keys(again.anchors), Object.keys(draft.anchors));
+  assert.throws(() => setup.call('template', 'person:demo', '--force', 'no'), /--force/);
+  // mark reads the default draft without --assessment and removes it afterwards.
+  setup.call('mark', 'person:demo', '--status', 'reviewed', '--note', '逐项核读完成', '--evidence', 'src/people/demo/materials-demo.md');
+  assert.equal(fs.existsSync(path.join(setup.root, draft.file)), false);
   assert.equal(setup.call('verify', 'person:demo').verified[0].state, 'reviewed');
+  setup.put('src/people/demo/materials-demo.md', '# 素材\n## 画像\n[共享](../../../docs/sources/shared.md)\n补一行。');
+  const redo = setup.call('template', 'person:demo');
+  assert.deepEqual(redo.changedSinceReview, ['src/people/demo/materials-demo.md']);
+  assert.equal(redo.existing, undefined);
+  setup.put(draft.file, { profile: { status: 'reviewed' } });
+  assert.equal(setup.call('template', 'person:demo', '--force', 'yes').existing, undefined);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(setup.root, draft.file), 'utf8')).profile.status, '');
   assert.throws(() => setup.call('template', 'battle:test', '--feature', 'battle'), /没有逐项复查/);
 });
 
@@ -385,6 +399,17 @@ test('template reuses earlier notes with cleared statuses and names broken evide
   assert.deepEqual(Object.values(saved).map(item => item.status), ['', '', '']);
   assert.equal(saved.events.items[0].title, '封号取消活动');
   assert.throws(() => s.call('template', 'person:demo', '--feature', 'writing-depth', '--out', '../escape.json'), /仓库内/);
+});
+
+test('evidence errors name the failing field and point to anchors', t => {
+  const s = writingChecks(t), event = s.assessment.events.items[0];
+  event.development[1].evidence = { file: s.body, contains: '::: 黑料 封号' };
+  assert.throws(s.mark, /events\.items\[0\]\.development\[1\]\.evidence：事件证据不能只有标题.*anchors/);
+  event.development[1].evidence = { file: s.body, contains: '不存在的句子' };
+  assert.throws(s.mark, /events\.items\[0\]\.development\[1\]\.evidence：.*规则定位必须唯一/);
+  event.development[1].evidence = { file: s.body, contains: '好战的名片' };
+  s.assessment.balance.evidence = [{ file: s.material, heading: '## 不存在' }];
+  assert.throws(s.mark, /balance\.evidence\[0\]：.*缺少规则节/);
 });
 
 test('absence of heavy events requires an explicit reason, without forcing black material', t => {

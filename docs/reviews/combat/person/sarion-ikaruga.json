@@ -1,0 +1,85 @@
+{
+  "status": "reviewed",
+  "note": "独立核读主小号档案、综合KB、正式战役卡与材料；本次AT22资格和已有战斗画像按现稿逐项通过。",
+  "evidence": [
+    "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+    "src/people/sarion-ikaruga/2113386745-id.json",
+    "src/people/sarion-ikaruga/sarion-ikaruga.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "档案10236杀、360损、4.154T；材料及正文2446次涅斯托、248单杀，后勤常态与比赛多船位呼应。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/2113386745-id.json",
+          "contains": "\"kills\": 10236"
+        },
+        {
+          "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+          "contains": "## 2025 PMA 母洞攻坚"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "统一档案无已确认小号；材料没有可用同人线索，不把同比赛队友或同团角色归入本人。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/2113386745-id.json",
+          "contains": "\"kills\": 10236"
+        },
+        {
+          "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+          "contains": "## 2025 PMA 母洞攻坚"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "本次不涉及月度峰值战果；综合船型已支撑后勤画像。PMA攻洞有独立叙事来源，未把铁壁名单缺席填成舰船或本人KM。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/2113386745-id.json",
+          "contains": "\"kills\": 10236"
+        },
+        {
+          "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+          "contains": "## 2025 PMA 母洞攻坚"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "正式战役卡无匹配；另读本人材料PMA母洞条目，正文按事件来源写共同进攻，不用零张正式卡否认该故事。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/2113386745-id.json",
+          "contains": "\"kills\": 10236"
+        },
+        {
+          "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+          "contains": "## 2025 PMA 母洞攻坚"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "完整综合KB红块已前移至开篇后；AT19雇佣兵、PMA与AT22多船位各有独立叙事，未合算阵营战果。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+          "contains": "zKillboard 生涯击杀 10236"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/sarion-ikaruga/2113386745-id.json",
+    "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+    "src/people/sarion-ikaruga/sarion-ikaruga.md"
+  ],
+  "inputs": "47e49213668a25f28ebab1e50c7f91a186ebd43768c2bfb529a5ec318cd37697",
+  "level": 1
+}

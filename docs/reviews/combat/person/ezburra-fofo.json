@@ -1,0 +1,100 @@
+{
+  "status": "reviewed",
+  "note": "AT22改为名册挂名（19场零出场）后重核：游戏画像、小号、既有战役与正文采用逐项通过。",
+  "evidence": [
+    "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+    "src/people/ezburra-fofo/ezburra-fofo.md",
+    "docs/sources/at22-dracarys.md",
+    "src/people/ezburra-fofo/2122159532-id.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "档案1241杀、399损、750.268B；旧材料1239杀、116单杀、渎圣297等为较早快照，正文取量级符合，两套统计未相加。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/2122159532-id.json",
+          "contains": "\"kills\": 1241"
+        },
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "## KB 细节"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "档案无确认小号；Ezburra昵称与QQ名片有材料对应，不由同团或聊天角色再编小号。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/2122159532-id.json",
+          "contains": "\"kills\": 1241"
+        },
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "## KB 细节"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "2025-10的256.4B只说明该号参与击杀月份规模，正文未据此编特定大战或个人指挥；现有总览足够支撑前排常规玩家画像。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/2122159532-id.json",
+          "contains": "\"kills\": 1241"
+        },
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "## KB 细节"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "1N-FJ8、M-MD31、SR-KBB三场正式命中均凛冬侧；前者创世、后两混沌，与雇佣时间相符，不把群聊冲突变成虚构游戏内战。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/2122159532-id.json",
+          "contains": "\"kills\": 1241"
+        },
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "## KB 细节"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合KB首红与芙水之乱形成游戏输出/群聊输出反差；AT22红料据19场比赛页零出场改为名册挂名，与群聊重料并置，没有用银牌消解旧冲突。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+          "contains": "水母的 [KB]"
+        },
+        {
+          "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+          "contains": "十九场比赛的参赛名单"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "src/people/ezburra-fofo/2122159532-id.json",
+    "src/people/ezburra-fofo/ezburra-fofo.md",
+    "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "dbdc59a3c6879f50fa2821c93d6779f6c89eb9175350643342a44028c9bbeb5a",
+  "level": 1
+}

@@ -2,7 +2,7 @@
 
 ## 汉堡 / Hanbo HAN
 
-收录角色：**Hanbo HAN（2117524558）**，头衔“汉堡”，简介“I am SB”。已有[列传源文件](hanbo-han.md)。
+收录角色：**GAnnio（2117195144）**；Hanbo HAN（2117524558）为已对应的另一角色，头衔“汉堡”，简介“I am SB”。已有[列传源文件](hanbo-han.md)。下列历史材料保留原取材时的角色口径。
 
 ### 角色对应
 
@@ -92,3 +92,48 @@
 - Turnur drama 帖评论：Rogue Herring. (RHG) put an incomplete BR on a social media beneficial to them
 - Turnur drama 帖评论：When we found that recruitment post we immediately replied the complete BR, and then the bbs war begun.
 - Turnur drama 帖评论补充：They are delicious, you can try it, it's like hitting a punching bag :)
+
+## AT22同人补全
+
+GAnnio（2117195144）、CITR44（2118334950）、never left（2117064646）与Hanbo HAN（2117524558）是同一玩家汉堡。RHG简介以GAnnio为英文联系人，never left创建RHG；2026-01-15 never left向CITR44交出CEO是同人换号，不写作真人换届。CITR44的公开ESI资料2026-11-02读到头衔hhbb、仍在RHG，简介“Nothing much you want yo see here”。OADS的GAnnio任期2025-08-21至2026-06-29归回汉堡，不再另立GAnnio传。
+
+择号：GAnnio已存统计7011次参与击杀，高于Hanbo HAN的2860、never left的1319和CITR44的86，故以GAnnio作为收录号；各号不相加，旧Hanbo快照存related_snapshots，旧号仍是有效身份。CITR44 2026-11-02 stats：86杀、87损失，完整响应核读；累计ISK与最近有记录月份见身份档案。原Hanbo生涯画像与既有重料全部保留。
+
+## AT22新增角色资料
+
+
+## AT22亚军队
+
+[共用赛事材料](../../../docs/sources/at22-dracarys.md)。官方队伍名册以角色名GAnnio及角色ID 2117195144链接到本角色。收录依据是AT22亚军队正式成员；名册资格不能推断每局上场，已核实际出场仅用共用材料所列比赛。未知个人决策不补造。
+
+## 游戏画像
+
+2026-11-02核读[zKillboard stats总览](https://zkillboard.com/api/stats/characterID/2117195144/)：参与击杀7011，损失850，参与击杀价值8946394684338 ISK，单杀356。有记录月份70个，范围202008至202611，平均攻击者规模23.5；月份含击杀与损失，不把无记录月份判为没有游戏活动。各号不相加，击杀价值不认个人伤害。船型排行榜是响应所示范围，未作为生涯最常用船。
+
+[公开角色资料](https://esi.evetech.net/latest/characters/2117195144/)全文已核读，军团ID 98794444；简介关键文字如下：
+
+Morning!
+
+
+要不是那个司马归途
+
+
+击杀：wlerdss (占星级*)
+
+
+RIP LOVE Madoka 永远的小圆脸
+
+## 身份与待核
+
+角色名与官方链接ID对应；未因同队或同军团把异名号擅自合并。未确认其他主力号，收录本名册角色；出现具体同人依据后按击杀与故事重新判断主号。相关既有战役按正式档案的角色ID与人物卡核对，不以联盟出场推断本人参与。
+
+## OADS团长经历
+
+已核读[汉堡既有军团材料](materials-hanbo-han.md)所存DOTLAN军团事件：OADS（98802264）创建于2025-04-24，创建者Rain In Time；CEO由Kuroda Kanbee于2025-08-21交给GAnnio，2026-06-29再交给CrysisDeathgun YoRHa。仅据此确认这段CEO经历，不写他创建OADS、不把其他团的CEO职位归到本人。其当前军团为98794444，不把历史头衔写为现任。
+
+## 既有战役画像
+
+2026-11-02按收录号与已确认角色对照正式战役对象卡、快照及本机已存原始BR，以下取代表记录说明玩法；普通参战与舰损不单开黑料，不从多人战果推个人伤害或总指挥。阵营按战时归属，不用当前军团回填。
+
+- [haras-2023正式档案](../../battles/haras-2023/haras-2023.json)，2023-12-21 UTC，深水/RHG：GAnnio：Leshak损失114180721，随后Punisher参与114180727。
+- [ahbazon-2024正式档案](../../battles/ahbazon-2024/ahbazon-2024.json)，2024-05-02 UTC，深水：GAnnio：Machariel参与117499717。

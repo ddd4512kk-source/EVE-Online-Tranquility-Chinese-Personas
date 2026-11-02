@@ -30,3 +30,12 @@
 ## 外文原话原文（2026-10-24 正文译中留档）
 
 - D佬回鹅神“奶我一口”：Triglav bless you
+
+## AT22亚军队
+
+2026-11-02核对[共用赛事材料](../../../docs/sources/at22-dracarys.md)：官方Dracarys正式名册列有本角色；2026-11-01 UTC决赛对Deteriorated五局依次胜、负、负、胜、负，2:3获亚军。名册资格不推断实际出场，具体决赛船位仅采用共用材料所列比赛。未核录像及个人操作。原有赛事、战役与红黑料保留，不因新成绩删减。
+AT22名册挂名：官方名册列有本角色，DC本届全部19场比赛（资格赛7场、正赛12场）的参赛名单均无本角色，无出场记录；AT19（FRT冠军）、AT20、AT21均有出场。逐场依据见共用赛事材料「全部比赛与逐人出场」。
+
+## 小号
+
+同名前缀DarKdeZ的四个角色，同一玩家确认：DarKdeZ（2118013957，2020年建号即入D-Line Force）、DarKdeZ QingYu（2115771957，2020年入ChuangShi）、DarKdeZ Daefaron（2113193372，2017年建号，曾在The New Yan Jung、Azure Citizen Holding）、DarKdeZ Orlenard（96767013，2016年建号，未离开NPC军团）。军团履历取自ESI，2026-11-02。

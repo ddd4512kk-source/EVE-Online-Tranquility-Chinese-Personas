@@ -1,0 +1,141 @@
+{
+  "status": "reviewed",
+  "note": "挂名零出场主线与KB画像对照，评语匹配",
+  "evidence": [
+    "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+    "docs/sources/at22-dracarys.md",
+    "src/people/chris-harbour-chn/chris-harbour-chn.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐段对照本人素材与共用赛事材料「全部比赛与逐人出场」，名册挂名、零出场、整队成绩均已入文，旧的上场暗示已清除。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+          "heading": "## AT22亚军队"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重事为名册挂名与零出场，KB画像为普通事件；无编造场外行动。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT22队长挂名、十九场一场未上",
+          "weight": "heavy",
+          "reason": "队长职衔与零出场的矛盾是本篇主线，亦是收录后最可笑的一点；依据为共用材料逐场核读。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+            "contains": "副队长零落十九场里上了十三场"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "名册往下数二十三个角色，有九个一场没上，队长位于其中。",
+              "evidence": {
+                "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+                "contains": "名册往下数二十三个角色，有九个一场没上"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "名册第一与赛场名单零次的反差贯穿开篇与评。",
+              "evidence": {
+                "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+                "contains": "名册上排第一，赛场名单上排零"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "以副队长零落十九场上十三场作对照，说明队长零场的分量。",
+              "evidence": {
+                "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+                "contains": "副队长零落十九场里上了十三场"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "比赛不等队长，十九场照常开打。",
+              "evidence": {
+                "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+                "contains": "十九场照常开打"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "结尾落在名册与成绩单之间的战斗全由他人去打。",
+              "evidence": {
+                "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+                "contains": "两处之间的所有战斗，都由另外那些人去打"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "正文不写队长场外任何具体行动，不补造指挥、排阵；整队战绩仅作背景。已删去暗示上场、打满五局、带回银牌的旧写法。"
+        },
+        {
+          "title": "KB综合战斗画像与代表实战",
+          "weight": "ordinary",
+          "reason": "长期出勤画像与代表参战，用于解释玩法，不单拆黑料。",
+          "source": {
+            "file": "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+            "contains": "他的[KB](https"
+          },
+          "note": "近两千次出勤的KB画像、阿提奥斯与1-SMEB两场实战保留，并与比赛零出场对照；未编场外事件。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇、AT22红料与评同指向“名册有、赛场无”，KB红料保留并作对照，主线与评语匹配。",
+      "evidence": [
+        {
+          "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+          "contains": "副队长零落十九场里上了十三场"
+        },
+        {
+          "file": "src/people/chris-harbour-chn/chris-harbour-chn.md",
+          "contains": "翎枫钧的名字排在AT22亚军队名册"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/chris-harbour-chn/2119035263-id.json",
+    "src/people/chris-harbour-chn/chris-harbour-chn.md",
+    "src/people/chris-harbour-chn/materials-chris-harbour-chn.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md"
+  ],
+  "inputs": "ac87118eb26988d237b0a6acb656c8cbea3a56407dbc6088cba1e7ae4720a3a6",
+  "level": 1
+}

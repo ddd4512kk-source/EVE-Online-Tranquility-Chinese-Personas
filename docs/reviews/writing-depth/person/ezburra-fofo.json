@@ -1,0 +1,301 @@
+{
+  "status": "reviewed",
+  "note": "AT22段按挂名事实重写后独立通读正文、素材与来源：覆盖、重事发挥与全文分量逐件通过。",
+  "evidence": [
+    "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+    "src/people/ezburra-fofo/ezburra-fofo.md",
+    "docs/sources/at22-dracarys.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人素材与芙水之乱线索清点：骂战禁言、拉芙入混沌与断章取义的说辞、递瓜荣耀、被芙甩锅、创世旧事、郊狼二维码与AT22挂名均已入文；小号、性别与私照内容按写作边界不入文。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "第二回（05-10 周日）"
+        },
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "#52 vfinev"
+        },
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "逐页核读DC本届全部19场比赛页，本角色无出场记录"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "芙水之乱四段为全篇重事，创世旧事、二维码与AT22名册挂名为辅；本次只改AT22段，其余原样保留。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+          "contains": "第二回（05-10 周日）"
+        }
+      ],
+      "items": [
+        {
+          "title": "开玩笑就能人身攻击吗：骂战与禁言",
+          "weight": "heavy",
+          "reason": "事件起点，值班FC禁言、总监重申规则、对方道歉后仍刷屏，导致后续全部连锁。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "第二回（05-10 周日）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "2026 年 5 月，吃瓜群里新人芙晒了张药盒"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "吃瓜群里带鱼冒犯在先、绿特禁言各十分钟、老九重申规则，局面交代完整。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "值班 FC [绿特]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "对方已道歉，他仍要求按混沌标准清退，一句“原来人身攻击在吃瓜居然是一件这么小的事”后刷屏。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "原来人身攻击在吃瓜居然是一件这么小的事"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "被禁言十分钟，群友一句“宝子你aoe误伤我了”，他回“知道什么叫尊重么”。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "宝子你aoe误伤我了"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "引文均出自材料，没有添设事件。"
+        },
+        {
+          "title": "拉芙进混沌并煽动内战",
+          "weight": "heavy",
+          "reason": "事件主线，教说辞、发剪过的聊天记录、问悬赏，直接引向混沌踢人。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "第四回私聊"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "你就说你真的被伤害到了"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "私聊里一套“你就说你真的被伤害到了”的说辞，目的是把小事变成外交事件。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "这立刻就会成为外交事件"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "星星先稳住再对账，一看带鱼早已道歉，当场向吃瓜道歉，晚上踢了芙，“混沌只要正常人”。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "混沌只要正常人"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "他的发动换来的是芙被踢，与他想要的外交事件相反。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "混沌的当家[星星]"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "对话和结局均有材料出处。"
+        },
+        {
+          "title": "递瓜给荣耀",
+          "weight": "heavy",
+          "reason": "他离开混沌路线后向吃瓜老对头外援，十八分钟后荣耀在自己群里发难，随后两人翻脸。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "第五回（05-12）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "你也是老屁股了"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "找外援匿名递瓜，教对方断章取义，“对了不要把我截出去”。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "对了不要把我截出去"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "瓜递出去不到十个小时，递瓜的人与收瓜的人翻脸互骂。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "递瓜的人和收瓜的人就翻了脸"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "荣耀十八分钟后在自己群里喊解散，事情的第三方也被卷了进来。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "十八分钟后"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "引用的话均见素材。"
+        },
+        {
+          "title": "被自己出头的人甩锅",
+          "weight": "heavy",
+          "reason": "事件收尾，出头三天，被护着的芙在道歉信第一句把责任全推给他。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "第七回芙的道歉信"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "我被水母完全带偏了"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "出头的人被护的人写进道歉信第一句。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "我被水母完全带偏了"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "芙被拒收、被拉黑，他被混沌劝退，十一天后进了KZU，8月转到龙焰旗下。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "十一天后"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "评以护犊子护到犊子先没了收束。",
+              "evidence": {
+                "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+                "contains": "犊子先没了"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "评与主线呼应。"
+        },
+        {
+          "title": "创世旧事",
+          "weight": "ordinary",
+          "reason": "贴吧旁证的旧事，补足人物底色。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "#52 vfinev"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "水母突然私聊给他发丝袜照"
+          },
+          "note": "按写作边界只写言行。"
+        },
+        {
+          "title": "郊狼二维码",
+          "weight": "light",
+          "reason": "单条旁证，污龟确认同人。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "#67 努力理解你"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "污龟在楼下确认"
+          },
+          "note": "点到为止。"
+        },
+        {
+          "title": "AT22名册挂名、一场未上",
+          "weight": "ordinary",
+          "reason": "龙焰AT22名册与19场比赛页对照，与群聊黑历史并置，本次修订。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "一场也找不到他"
+          },
+          "note": "挂名事实由逐场核读给出，未编场外事件，银牌不抵旧账。"
+        },
+        {
+          "title": "KB画像",
+          "weight": "ordinary",
+          "reason": "千二百杀的前排打手画像与群里形象反差。",
+          "source": {
+            "file": "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+            "contains": "生涯击杀 1239，约 7502 亿 ISK"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+            "contains": "水母的 [KB]"
+          },
+          "note": "量级与档案一致。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全篇重心仍是芙水之乱四段，KB给游戏底子，AT22段改为挂名后与群聊黑历史并置，轻重匹配；评与主线一致。",
+      "evidence": [
+        {
+          "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+          "contains": "犊子先没了"
+        },
+        {
+          "file": "src/people/ezburra-fofo/ezburra-fofo.md",
+          "contains": "一场也找不到他"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "src/people/ezburra-fofo/2122159532-id.json",
+    "src/people/ezburra-fofo/ezburra-fofo.md",
+    "src/people/ezburra-fofo/materials-ezburra-fofo.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+  ],
+  "inputs": "dbdc59a3c6879f50fa2821c93d6779f6c89eb9175350643342a44028c9bbeb5a",
+  "level": 1
+}

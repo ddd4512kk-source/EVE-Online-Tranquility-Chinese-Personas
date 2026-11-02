@@ -2,7 +2,7 @@
 
 ## 蛋花 / Dan Hua
 
-收录角色：**Dan Hua（2116540636）**。已有[列传源文件](dan-hua.md)。
+收录角色：**N09J0R（1682838361）**，2026-11-02 由 Dan Hua（2116540636）换为收录号；Dan Hua 旧快照存于档案 `related_snapshots`。已有[列传源文件](dan-hua.md)。
 
 [AT19 复盘](https://fubukiwaifu.top/archives/1704426912155)明确 Dan Hua 与慕容原为 ST 队友，在 Captain's Cup 后被招进 FRT 比赛队，随后夺冠；[本人头衔](https://esi.evetech.net/latest/characters/2116540636/)也写蛋花。
 
@@ -26,3 +26,16 @@
 ## 外文原话原文（2026-10-24 正文译中留档）
 
 - AT19 冠军复盘原文：successfully recruited Garveen Airuta and Dan Hua, former teammates from the ST
+
+## 小号
+
+- N09J0R（1682838361）：2009-08-21 建号；2020-09-30 进 Golden Fleece Fleet，与 Huahua Dan、Dan Huahua 同团，2020-12-31 转 ChuangShi，此后经 AKINA mountain family、Arknights. 等，2023-09 与 Huahua Dan 同进 25yrs old man playing genshin impact at 4am。zKillboard 生涯 3896 杀，按月统计 2020-09 起约 2602 杀（2020 年前约 1447 杀不计入本人）；单月最高 2022-05 的 359 杀，最后活跃 2024-08。军团履历取自 ESI，2026-11-02。
+- Huahua Dan（2116734274）：2020-04-21 建号，Inverse Entropy Fleet → Golden Fleece Fleet → ChuangShi → 25yrs old man playing genshin impact at 4am。
+- Dan Huahua（2116779645）：2020-04-27 建号，与 Huahua Dan 同日（2020-05-16、2020-09-02）进 Inverse Entropy Fleet、Golden Fleece Fleet。
+
+## AT19 实际出场（EVE_NT 比赛页，2026-11-02 核读）
+
+FRT 本届正赛 9 场：3706 胜 Odin's Call，3715 胜 Hidden Leaf Ninja Village，半决赛 3719、3720 胜 IIIIIIIIIIIIIIIIIIIIIIIII，总决赛对 The Tuskers Co. 3723、3724 负，3725、3726、3727 胜（0∶2 后连扳三局）。
+
+- N09J0R 出场 2 场：[3719](https://open.eve-nt.uk/portal/match/3719) Deacon，船损，队胜；[3723](https://open.eve-nt.uk/portal/match/3723)（总决赛第一局）Vexor，船损，队负。
+- Dan Hua（2116540636）EVE_NT 选手页 404，无出场记录。

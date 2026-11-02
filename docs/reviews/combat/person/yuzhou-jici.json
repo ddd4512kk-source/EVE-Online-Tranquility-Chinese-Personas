@@ -1,0 +1,77 @@
+{
+  "status": "reviewed",
+  "note": "AT22挂名事实已按逐场出场改写，战斗画像与既有战役核对完成",
+  "evidence": [
+    "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+    "src/people/yuzhou-jici/yuzhou-jici.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读素材中的stats总览与正文KB红料，战斗频率、规模与正文的画像相符；AT22挂名事实另依共用材料。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Yuzhou Ciji为同团同盟小号，129杀、约19.6B，低于100B主力号门槛，不影响收录号1036杀的主号判断，正文不单独叙述。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+          "heading": "## 身份与待核"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "总览足以支持正文判断，代表KM取自既有战役档案，无需另查具体月份；比赛出场另据逐场名单。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "M-MD31（海军神示）与VYO-68（海军幼龙，参战并损失）为本人驾驶记录，正文取代表；1-SMEB仅为名单层面快照，不单拆成料。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立KB红料承担综合战斗画像并含代表战斗；AT22红料已按零出场重写，不再暗示上场。",
+      "evidence": [
+        {
+          "file": "src/people/yuzhou-jici/yuzhou-jici.md",
+          "contains": "他的[KB](https"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/yuzhou-jici/2122575195-id.json",
+    "src/people/yuzhou-jici/materials-yuzhou-jici.md",
+    "src/people/yuzhou-jici/yuzhou-jici.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/vyo-68-2026/vyo-68-2026.json",
+    "src/battles/vyo-68-2026/vyo-68-2026.md",
+    "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
+  ],
+  "inputs": "e5b098289f3f7759d3aac74bca087add42165311c4da95de066f3a1a2af3358a",
+  "level": 1
+}

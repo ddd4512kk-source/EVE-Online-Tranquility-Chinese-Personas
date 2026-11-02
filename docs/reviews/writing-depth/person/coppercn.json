@@ -1,14 +1,15 @@
 {
   "status": "reviewed",
-  "note": "独立通读正文与素材；总览维护、冠军队建设和简介戏仿的采用与分量相符。",
+  "note": "独立通读本人完整正文、材料与共享来源；新AT22事件及旧重料的覆盖、发挥和全文分量逐件通过。",
   "evidence": [
     "src/people/coppercn/materials-coppercn.md",
-    "src/people/coppercn/coppercn.md"
+    "src/people/coppercn/coppercn.md",
+    "docs/sources/at22-dracarys.md"
   ],
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "完整正文与全部本人素材已读；AT19、总览、简介三条独立内容保留，Havoc补写对应23843及2024底色更新。",
+      "note": "完整本人正文、材料与本次共用赛事来源已读；保留总览、AT19、简介三条旧线，补后勤决赛与庆功公告。",
       "evidence": [
         {
           "file": "src/people/coppercn/materials-coppercn.md",
@@ -70,13 +71,69 @@
             "contains": "copper 的角色简介是一份 PVP 工作部署"
           },
           "note": "引述具体部署与荣耻内容，落到把散打纪律写成公文的荒唐。"
+        },
+        {
+          "title": "AT19底子与AT22后勤决赛",
+          "weight": "heavy",
+          "reason": "三年前冠军到本届决赛的个人比赛角色，是本次人物履历的重要续写",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "## 队伍与成绩"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/coppercn/coppercn.md",
+            "contains": "2026年的[龙焰AT22名册]"
+          },
+          "note": "后勤四轮身份、全灭/存活与第五局结局均有逐局记录，没有把操作或战术决策填进名单。",
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "换参赛号与旧冠军同场，坐到后勤位",
+              "evidence": {
+                "file": "src/people/coppercn/coppercn.md",
+                "contains": "copper换了个名字出现"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "同号同船第三局全灭第四局活到结束，后勤命运随队伍节奏变化",
+              "evidence": {
+                "file": "src/people/coppercn/coppercn.md",
+                "contains": "同一个驾驶员、同一种船"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "决胜局后勤损失、DC银牌，回扣简介特种后勤荣誉",
+              "evidence": {
+                "file": "src/people/coppercn/coppercn.md",
+                "contains": "自己的活还是让别人能把那一轮打完"
+              }
+            }
+          ]
+        },
+        {
+          "title": "庆功奖金、扣奖与社区服务",
+          "weight": "ordinary",
+          "reason": "公告中的群友调侃，有具体点名与奖惩安排",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "## FRT庆功公告"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/coppercn/coppercn.md",
+            "contains": "亚军刚拿回来"
+          },
+          "note": "奖五千扣一千及三小时是宣布安排，未写到账或已教学；没有分配集体“大脑/刀斧手”具体职责。"
         }
-      ],
-      "noHeavyReason": "完整素材是冠军队建设、总览持续维护及本人简介戏仿，没有封禁、骗款、重大内讧或有严重后果的个人冲突。比赛荣誉重要但现存只支持团体贡献，不提升为独掌冠军的重事。"
+      ]
     },
     "balance": {
       "status": "reviewed",
-      "note": "综合战绩在前、维护工作为主要故事，简介公文梗收束人物；新误伤预防写得具体，没有把维护行为伪装成现实军纪或本人误伤事故。",
+      "note": "首红综合出勤，冠军到亚军后勤是本次重事，总览和红头文件旧故事仍保留；庆功扣奖与简介形成同一人物落点。 标题已改为常开缪宁的两千杀，未将总击杀算给单一船型；最终生成页Melissa小号显示及滑子链接已核。",
       "evidence": [
         {
           "file": "src/people/coppercn/coppercn.md",
@@ -86,6 +143,7 @@
     }
   },
   "dependencies": [
+    "docs/sources/at22-dracarys.md",
     "docs/sources/capital-battles-2026-10-11.md",
     "docs/sources/large-battles-2026-10-11.md",
     "src/people/coppercn/2118201493-id.json",
@@ -98,6 +156,6 @@
     "src/battles/turnur-2023/turnur-2023.md",
     "src/battles/turnur-2023/materials-turnur-2023.md"
   ],
-  "inputs": "a59ed7b900e1c215ba75ea6d70e937d4595158f241c6fa4ecc11fa59d47ff27a",
+  "inputs": "cc731c7b926d78dc73b5d98ed7f70a6434a70daab97ac6d87005559442be2489",
   "level": 1
 }

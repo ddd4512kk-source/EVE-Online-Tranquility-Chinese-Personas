@@ -1,0 +1,71 @@
+{
+  "status": "reviewed",
+  "note": "AT22挂名事实已按逐场出场改写，战斗画像与既有战役核对完成",
+  "evidence": [
+    "src/people/mitsugo/materials-mitsugo.md",
+    "src/people/mitsugo/mitsugo.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已读素材中的stats总览与正文KB红料，战斗频率、规模与正文的画像相符；AT22挂名事实另依共用材料。",
+      "evidence": [
+        {
+          "file": "src/people/mitsugo/materials-mitsugo.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "正式身份档案无确认小号，已读本人身份待核段；未因同队同团合并他人。",
+      "evidence": [
+        {
+          "file": "src/people/mitsugo/materials-mitsugo.md",
+          "heading": "## 身份与待核"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "总览足以支持正文判断，代表KM取自既有战役档案，无需另查具体月份；比赛出场另据逐场名单。",
+      "evidence": [
+        {
+          "file": "src/people/mitsugo/materials-mitsugo.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "仅YMJG-4一场既有战役，FRT大学一侧的个人损失记录；正文只写参战与损失，不写船型。",
+      "evidence": [
+        {
+          "file": "src/people/mitsugo/materials-mitsugo.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立KB红料承担综合战斗画像并含代表战斗；AT22红料已按零出场重写，不再暗示上场。",
+      "evidence": [
+        {
+          "file": "src/people/mitsugo/mitsugo.md",
+          "contains": "他的[公开战绩](https"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/mitsugo/2121078327-id.json",
+    "src/people/mitsugo/materials-mitsugo.md",
+    "src/people/mitsugo/mitsugo.md",
+    "src/battles/ymjg-2024/ymjg-2024.json",
+    "src/battles/ymjg-2024/ymjg-2024.md",
+    "src/battles/ymjg-2024/materials-ymjg-2024.md"
+  ],
+  "inputs": "3cbb28dbbed9dadd473ad99f4b9409d834340b9219fe65a56b9e23c9a289cda7",
+  "level": 1
+}

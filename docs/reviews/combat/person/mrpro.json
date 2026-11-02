@@ -1,0 +1,138 @@
+{
+  "status": "reviewed",
+  "note": "按AT22实际出场与现稿重核战斗画像、小号与采用",
+  "evidence": [
+    "src/people/mrpro/mrpro.md",
+    "src/people/mrpro/materials-mrpro.md",
+    "src/people/mrpro/2114453889-id.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "档案6541杀、1030损、6.225T，268单杀及灵感、勒沙克、老人星吻合；画像从堵门常规到旗舰与舰队经历。",
+      "evidence": [
+        {
+          "file": "src/people/mrpro/2114453889-id.json",
+          "contains": "\"kills\": 6541"
+        },
+        {
+          "file": "src/people/mrpro/materials-mrpro.md",
+          "contains": "## 角色对应"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Mrpropropro同人依据为共同军团、词根及同一独特简介链接；5563杀、5.475T不相加。回忆录00主号未对应，事件按自然人并入，不猜角色ID。",
+      "evidence": [
+        {
+          "file": "src/people/mrpro/2114453889-id.json",
+          "contains": "\"kills\": 6541"
+        },
+        {
+          "file": "src/people/mrpro/materials-mrpro.md",
+          "contains": "## 角色对应"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "材料多场代表完整KM及回忆录使具体战斗有依据；ECM事故引用反驳与补正，卡卡冥府损失不归本人，不需额外月度数据充数。",
+      "evidence": [
+        {
+          "file": "src/people/mrpro/2114453889-id.json",
+          "contains": "\"kills\": 6541"
+        },
+        {
+          "file": "src/people/mrpro/materials-mrpro.md",
+          "contains": "## 角色对应"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "正式卡13场已逐条核名单与主小号；材料补Taff及Otela，A1/FWST/Haras等小号参战不重复自然人，正文只展开老人星、奥斯汀格勒等代表经历。",
+      "evidence": [
+        {
+          "file": "src/people/mrpro/2114453889-id.json",
+          "contains": "\"kills\": 6541"
+        },
+        {
+          "file": "src/people/mrpro/materials-mrpro.md",
+          "contains": "## 角色对应"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "综合KB块仍为首红，从门口到大会战写玩法变化；ECM、连载、经济及美国大哥各保留；AT22红料按实际出场（资格赛两场、正赛一场，三场两败，总决赛未上）改写，不暗示打满决赛。",
+      "evidence": [
+        {
+          "file": "src/people/mrpro/mrpro.md",
+          "contains": "MrPRO 的 KB 是一本低安人的账"
+        },
+        {
+          "file": "src/people/mrpro/mrpro.md",
+          "contains": "他一共只上三场"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "docs/sources/battle-side-review-2026-10-21.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-discovery-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/community-br-verified-2026-10-11.md",
+    "docs/sources/hed-gp-incident-2023.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/ln1p-lowkey-hel-2024.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/people/mrpro/2114453889-id.json",
+    "src/people/mrpro/materials-mrpro.md",
+    "src/people/mrpro/mrpro.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/ostingele-2024/ostingele-2024.json",
+    "src/battles/ostingele-2024/ostingele-2024.md",
+    "src/battles/ostingele-2024/materials-ostingele-2024.md",
+    "src/battles/otela-2024/otela-2024.json",
+    "src/battles/otela-2024/otela-2024.md",
+    "src/battles/otela-2024/materials-otela-2024.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/sosala-2025/sosala-2025.json",
+    "src/battles/sosala-2025/sosala-2025.md",
+    "src/battles/sosala-2025/materials-sosala-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "a158a8bfd71133f02826f9cabd39e9b272e7c1d0e5b0c4c38d0714ca030ce5e0",
+  "level": 1
+}

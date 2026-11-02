@@ -1,0 +1,142 @@
+{
+  "status": "reviewed",
+  "note": "独立通读本人完整正文、材料与共享来源；新AT22事件及旧重料的覆盖、发挥和全文分量逐件通过。",
+  "evidence": [
+    "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+    "docs/sources/at22-dracarys.md",
+    "src/people/sarion-ikaruga/sarion-ikaruga.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整正文和材料已读，PMA攻洞、访谈评论、简介两种反差及精选均在；AT19到AT22多船位为本次新增。 最终复读后三条精选已改为标题中的人数、阵容与系列看点；无具体剪辑或未读影像描述。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+          "contains": "## AT22"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "## 队伍与成绩"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐项对照本人材料与正文，不以新增亚军段替代旧重料；仅名单资格者未编比赛操作。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "## 队伍与成绩"
+        }
+      ],
+      "items": [
+        {
+          "title": "冠军雇佣兵再进亚军决赛",
+          "weight": "heavy",
+          "reason": "重要个人赛事履历跨三年连续，有实际出场而非仅名册",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "## 队伍与成绩"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+            "contains": "三年后，斑鸠又进了"
+          },
+          "note": "由F1停赛后的雇佣兵写到DC决赛三种船，说明资历与适配能力。",
+          "verdict": "sufficient",
+          "development": [
+            {
+              "angle": "处境",
+              "note": "华人比赛班底停赛后并队、三年后再聚",
+              "evidence": {
+                "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+                "contains": "那一年 F1 和 PMA 两支华人队不参赛"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "日常涅斯托后勤与输出、指挥舰、电子战轮换",
+              "evidence": {
+                "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+                "contains": "日常 KB 上用得最多的是后勤涅斯托"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "大赛老选手提供多位置适应，金银牌成为连续履历",
+              "evidence": {
+                "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+                "contains": "老选手进队，带来的不是一个只能坐熟悉座位的名字"
+              }
+            }
+          ]
+        },
+        {
+          "title": "收留马哥与PMA母洞攻坚",
+          "weight": "ordinary",
+          "reason": "是共同进攻和旧交反差，不据故事编斑鸠个人背叛或具体驾驶",
+          "source": {
+            "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+            "heading": "## 2025 PMA 母洞攻坚（2026-10-15）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+            "contains": "AT19 夺冠后，同为雇佣兵的"
+          },
+          "note": "来源战争两轮、旧友聚会与后续爆料完整保留；RMT爆料属于马哥故事。"
+        },
+        {
+          "title": "访谈加醋与坐好",
+          "weight": "ordinary",
+          "reason": "本人节目评论形成具体口头梗",
+          "source": {
+            "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+            "heading": "## 宁静访谈与本人评论（2026-10-13补读）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+            "contains": "第一句还像在劝人别认真"
+          },
+          "note": "保留双句原话与自己给节目效果定规则的反差，没有虚构节目对象。"
+        },
+        {
+          "title": "简介谦逊与鸠黑、退游梗及精选",
+          "weight": "ordinary",
+          "reason": "公开自我戏仿和作品线，非重大后果冲突",
+          "source": {
+            "file": "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+            "heading": "## 斑鸠 / Sarion Ikaruga"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+            "contains": "“要谦逊”，署名“AT19 冠军”"
+          },
+          "note": "谦逊与黑粉长文、退出按钮并置；精选仅依已读标题推荐，不假装观看。 最终稿后三条逐字核过，只根据已读标题推荐。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "比赛主线与鸠黑简介都在，PMA故事未被新奖牌删去；综合KB前移只改顺序。",
+      "evidence": [
+        {
+          "file": "src/people/sarion-ikaruga/sarion-ikaruga.md",
+          "contains": "三年后，斑鸠又进了"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/sarion-ikaruga/2113386745-id.json",
+    "src/people/sarion-ikaruga/materials-sarion-ikaruga.md",
+    "src/people/sarion-ikaruga/sarion-ikaruga.md"
+  ],
+  "inputs": "47e49213668a25f28ebab1e50c7f91a186ebd43768c2bfb529a5ec318cd37697",
+  "level": 1
+}

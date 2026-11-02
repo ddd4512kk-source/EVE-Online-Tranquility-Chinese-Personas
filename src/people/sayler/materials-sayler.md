@@ -6,7 +6,7 @@
 
 原帖与资料入口：[EveWho 角色页](https://evewho.com/character/2113271910) · [zKillboard](https://zkillboard.com/character/2113271910/) · [Infinity Avenger 军团页](https://evemaps.dotlan.net/corp/Infinity_Avenger) · [军团事件史](https://evemaps.dotlan.net/corp/Infinity_Avenger/events) · [AVDOT 对 AOM 说明帖](https://tieba.baidu.com/p/6175240922) · [B 站 AVDOT 2019 年战报](https://www.bilibili.com/video/av51789720/)。
 
-角色对应：EveWho 与 DOTLAN 均将 Sayler 列为 AVDOT CEO；ESI 雇佣记录与 AVDOT 军团事件史相符。角色简介列出 Sayler、NoNo Never Feed 及三张泰坦击杀链接。画像截至本次检索：15,968 杀、21.03 万亿 ISK，常用 Machariel、Legion、Bhaalgorn；101 个月有击杀记录。
+角色对应：EveWho 与 DOTLAN 均将 Sayler 列为 AVDOT CEO；ESI 雇佣记录与 AVDOT 军团事件史相符。角色简介列出 Sayler、NoNo Never Feed 及三张泰坦击杀链接。画像截至本次检索：15,968 杀、21.03T ISK（约二十一万亿），常用 Machariel、Legion、Bhaalgorn；101 个月有击杀记录。
 
 - **红料，中**：长期经营华语低安 PVP 军团 AVDOT，多个公开快照将其列为 CEO；角色简介记录多张泰坦 KM。杀敌统计只能作短背景，不能单独等同指挥贡献。
 - **公司声明，中，个人归属未确认**：2019 年 6 月 AVDOT 发布 AOM 相关说明，署名“小海豹”，声明称公司接受有偿作战合同，并呼吁 AOM 与凛冬“保持克制和友爱”。匿名客户端读取到主楼全文及 1–52 楼；Sayler 当时在团，但原帖未证明由他执笔。它只能作为公司公开口径，不能写成他的个人发言或黑料。
@@ -68,3 +68,13 @@
 - 来源：https://br.evetools.org/battle/17321；逐号舰船、KM与分方口径见[战役素材](../../battles/ignoitton-2026/materials-ignoitton-2026.md)。本窗口未录到本人损失。
 - 本次已归档并建立战役页自动关联；未把本条参战记录单独扩写为列传料块。已有指挥、主线与综合KB保持原文，后续结合本场独立情节增补。
 - [zKillboard](https://zkillboard.com/character/2113271910/) 生涯击杀 15968、约 21.03T，单杀 439；马克瑞 1955 次，其次圣卒、巴戈龙、缪宁、金鹏、复仇者；常去 Tama、希瑟伊德、Kinakka；2021-08 单月约 897.9B。2019-06 B站战报开头提 AVDOT 到 Lantorn；老人星 2023-05-27 KM 109208205 神示级海军型；奥斯汀格勒 2024-02-24 KM 115769239 狂暴级舰队型；1N-FJ8 2024-11 KM 122868724 神示；2025-06 Lantorn KM 127955032 德拉米尔、希瑟伊德 KM 128026487 巴盖斯；Ignoitton 2026-07-31 KM 137373050 巴盖斯；Obe 2026-10 KM 139047416 救赎。
+
+## AT22亚军队
+
+2026-11-02核对[共用赛事材料](../../../docs/sources/at22-dracarys.md)：官方Dracarys正式名册列有本角色；2026-11-01 UTC决赛对Deteriorated五局依次胜、负、负、胜、负，2:3获亚军。名册资格不推断实际出场，具体决赛船位仅采用共用材料所列比赛。未核录像及个人操作。原有赛事、战役与红黑料保留，不因新成绩删减。
+
+## 小号
+
+BalmungS（2113295261）是本人小号。[公开角色资料](https://esi.evetech.net/latest/characters/2113295261/)：2017-10-08建号，比收录号晚一周；军团头衔“Sayler”，简介空。雇佣记录多次与收录号同日变动：2017-11-30同进98454835，2018-01-02同日离开，2018-01-10同日回归，2018-02-01同进98547086；此后两号长期同在98556933；2026-02-15起在98343297/99004901。
+
+2026-11-02核读[zKillboard stats总览](https://zkillboard.com/api/stats/characterID/2113295261/)：参与击杀2239，损失344，参与击杀价值8751336567190 ISK，单杀21；有记录月份73个，范围201711至202610，平均攻击者规模22.1，单月最多为201804的124次。收录号为16011，收录号不变。

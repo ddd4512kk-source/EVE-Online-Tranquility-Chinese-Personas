@@ -1,0 +1,146 @@
+{
+  "status": "reviewed",
+  "note": "AT22段按挂名事实重写后独立通读正文、素材与来源：覆盖、重事发挥与全文分量逐件通过。",
+  "evidence": [
+    "src/people/daft-eullon/materials-daft-eullon.md",
+    "src/people/daft-eullon/daft-eullon.md",
+    "docs/sources/at22-dracarys.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照本人全部素材与共享赛事来源清点：名册挂名、19场零出场、简介小八、KB画像与两条代表战役均已入文；小号与未入文战役留素材。",
+      "evidence": [
+        {
+          "file": "src/people/daft-eullon/materials-daft-eullon.md",
+          "heading": "## AT22亚军队"
+        },
+        {
+          "file": "src/people/daft-eullon/materials-daft-eullon.md",
+          "heading": "## 游戏画像"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "AT22名册挂名是本篇主线重事，KB画像为陪衬，未把普通损失拆成黑料。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT22名册挂名、一场未上",
+          "weight": "heavy",
+          "reason": "亚军队名册与19场比赛页的对照决定本篇主笑点，也是本次修订主线。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "heading": "### 全部比赛与逐人出场"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/daft-eullon/daft-eullon.md",
+            "contains": "没有一个写着Daft Eullon"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "把亚军战绩（资格赛六胜一负、正赛闯入总决赛、2∶3）与十九场、一百九十个席位里没有他并排摆出。",
+              "evidence": {
+                "file": "src/people/daft-eullon/daft-eullon.md",
+                "contains": "没有一个写着Daft Eullon"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "简介“小八要保护好”与一场不上、十九场没挨一炮对上，保护被写成贯彻到底。",
+              "evidence": {
+                "file": "src/people/daft-eullon/daft-eullon.md",
+                "contains": "十九场没挨过一炮"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "输掉的三局不怪他、赢下的两局不记他，银牌是全队打的，署名齐全。",
+              "evidence": {
+                "file": "src/people/daft-eullon/daft-eullon.md",
+                "contains": "总决赛输掉的三局"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "结尾以守到一场不上收束，并在评里回扣小八保护得最好。",
+              "evidence": {
+                "file": "src/people/daft-eullon/daft-eullon.md",
+                "contains": "守到了一场不上的地步"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "没有编任何场外事件，笑点全部来自名册与比赛页的对照和简介原话。"
+        },
+        {
+          "title": "日常战斗画像",
+          "weight": "ordinary",
+          "reason": "累计出勤与代表参战说明玩法，普通出勤不另立重事。",
+          "source": {
+            "file": "src/people/daft-eullon/materials-daft-eullon.md",
+            "heading": "## 游戏画像"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/daft-eullon/daft-eullon.md",
+            "contains": "他的[KB](https://zkillboard.com/chara"
+          },
+          "note": "1453击杀、298损失，与正文量级相符。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全篇重心落在名册挂名与简介的反差，KB与战役给底子；已无暗示上场的句子，评与开篇一致。",
+      "evidence": [
+        {
+          "file": "src/people/daft-eullon/daft-eullon.md",
+          "contains": "守到了一场不上的地步"
+        },
+        {
+          "file": "src/people/daft-eullon/daft-eullon.md",
+          "contains": "温柔头衔下面多了块硬牌子"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/daft-eullon/2115155689-id.json",
+    "src/people/daft-eullon/daft-eullon.md",
+    "src/people/daft-eullon/materials-daft-eullon.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "e1485edf070438d548259481c66a43030a920858632fd2f0802294f5d17eac0b",
+  "level": 1
+}

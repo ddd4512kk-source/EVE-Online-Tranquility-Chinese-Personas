@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readAllIdentities } from './person-identity.mjs';
+import { readPersonDocument } from './person-document.mjs';
 
 export const DIRECTORY = 'docs/corporations';
 const ID = /^[1-9]\d*$/;
@@ -82,6 +83,36 @@ function identityIndex(root) {
     }
   }
   return identities;
+}
+
+// 军团常把小号头衔写成主人名字：头衔分词后与已收录人物的名字、中文名、别称或小号名相同，即为未结的小号线索。
+const TITLE_SEPARATOR = /[\s,，、;；|/／#＃✪★☆·•()（）【】[\]<>《》:：]+/u;
+
+function titleAltLeads(root, characters) {
+  if (!fs.existsSync(path.join(root, 'src/people'))) return [];
+  const people = [...readAllIdentities(root).values()], names = new Map();
+  const owned = new Set(people.flatMap(person => [person.character_id, ...person.alts.map(alt => alt.id)]).map(String));
+  for (const person of people) {
+    const { data, archive } = readPersonDocument(path.join(root, 'src/people', person.slug, `${person.slug}.md`));
+    for (const name of [archive.name, data.cn_name, ...(data.aliases ?? []), ...person.alts.map(alt => alt.name)].filter(Boolean)) {
+      const key = fold(name).trim();
+      names.set(key, new Set([...(names.get(key) ?? []), person.slug]));
+    }
+  }
+  const slugs = new Set(people.map(person => person.slug)), leads = [];
+  for (const character of Object.values(characters)) {
+    const cleared = new Set();
+    for (const finding of character.review.findings) {
+      if (finding.not_alt_of === undefined) continue;
+      if (!slugs.has(finding.not_alt_of)) throw new Error(`共享角色 ${character.id}：not_alt_of 人物不存在：${finding.not_alt_of}`);
+      cleared.add(finding.not_alt_of);
+    }
+    if (owned.has(character.id)) continue;
+    const words = character.profiles.flatMap(profile => fold(profile.title ?? '').split(TITLE_SEPARATOR));
+    const matched = new Set(words.flatMap(word => [...(names.get(word) ?? [])]).filter(slug => !cleared.has(slug)));
+    for (const slug of matched) leads.push(`${character.id}（${character.names[0]}）头衔写着 ${slug}`);
+  }
+  return leads;
 }
 
 function rankingSummary(ranking) {
@@ -213,6 +244,8 @@ export function checkArchive(root) {
     for (const snapshot of character.profiles) localReference(root, snapshot.source);
     for (const next of character.review.next_steps) if (typeof next !== 'string' || !next) fail(`共享角色 ${id}：下一步为空`);
   }
+  // 存量线索未清完前只列出，不拦构建；not_alt_of 指向不存在的人物仍报错。
+  const leads = titleAltLeads(root, characters);
   for (const file of files(root, `${DIRECTORY}/sources`).filter(file => file.endsWith('.json'))) {
     const source = load(root, `${DIRECTORY}/sources/${file}`);
     if (source.version !== 1 || !Array.isArray(source.records)) fail(`${file}：来源格式错误`);
@@ -220,7 +253,8 @@ export function checkArchive(root) {
     for (const record of source.records) if (record.resolved_corp_id && !organizations.some(organization => organization.id === record.resolved_corp_id)) fail(`${file}：历史行军团档案不存在`);
   }
   return { valid: true, corporations: organizations.filter(record => record.kind === 'corporation').length,
-    alliances: organizations.filter(record => record.kind === 'alliance').length, characters: Object.keys(characters).length, ranking_entries: entries };
+    alliances: organizations.filter(record => record.kind === 'alliance').length, characters: Object.keys(characters).length, ranking_entries: entries,
+    title_alt_leads: leads };
 }
 
 export function run(root, args) {

@@ -30,3 +30,7 @@
 
 - AT19 冠军复盘：Sarion Ikaruga, and Chess Player from the Esports Petopia team
 - 角色简介长文：Most of the people who disparaging Sarion for many years have... extremely low self-esteem, and their IQ decreases year by year, and finally they are completely stupid... Haters who disparaging Sarion have a strong anti-social inclination. They are destabilizing and endanger the lives of normal people.
+
+## AT22亚军队
+
+2026-11-02核对[共用赛事材料](../../../docs/sources/at22-dracarys.md)：官方Dracarys正式名册列有本角色；2026-11-01 UTC决赛对Deteriorated五局依次胜、负、负、胜、负，2:3获亚军。名册资格不推断实际出场，具体决赛船位仅采用共用材料所列比赛。未核录像及个人操作。原有赛事、战役与红黑料保留，不因新成绩删减。

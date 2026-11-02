@@ -1,0 +1,97 @@
+{
+  "status": "reviewed",
+  "note": "AT22改为名册挂名（19场零出场）后重核：游戏画像、小号、既有战役与正文采用逐项通过。",
+  "evidence": [
+    "src/people/daft-eullon/materials-daft-eullon.md",
+    "src/people/daft-eullon/daft-eullon.md",
+    "docs/sources/at22-dracarys.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "1453击杀、298损失、25单杀、34个月，与正文千余参与、近三百损失、单杀数十次相符；头衔与小八简介有原文。",
+      "evidence": [
+        {
+          "file": "src/people/daft-eullon/materials-daft-eullon.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "小号DaftEullon（2124370574）与Daft NJ（2115329154）击杀均少于收录号，主号不变；小号只在1-SMEB、6Q-R50的战役对象卡出现，正文不分号叙述。",
+      "evidence": [
+        {
+          "file": "src/people/daft-eullon/materials-daft-eullon.md",
+          "heading": "## 身份与待核"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "总览足以支撑千余次跟队出勤的画像，正文只用代表战役两条船，不据月份或单船推个人伤害；AT22按逐场核读为零出场，不进入战斗峰值叙述。",
+      "evidence": [
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 全部比赛与逐人出场"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "人物卡六场既有战役：FWST-8、319-3D、Y-2ANO在FRT侧，SVM-3K、1-SMEB在DC侧，小号另见1-SMEB与6Q-R50；正式快照角色ID与战时归属已对照，正文取FWST-8与SVM-3K两条代表船，不把联盟出场推成个人战果。",
+      "evidence": [
+        {
+          "file": "src/battles/fwst-8-2020/fwst-8-2020.json",
+          "contains": "\"2115155689\":"
+        },
+        {
+          "file": "src/battles/svm-3k-2026/svm-3k-2026.json",
+          "contains": "\"2115155689\":"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立KB红料承担长期出勤画像；AT22红料据19场比赛页无出场的核对结论，写成名册挂名、小八毫发无伤的反差，已无上场争冠的说法。",
+      "evidence": [
+        {
+          "file": "src/people/daft-eullon/daft-eullon.md",
+          "contains": "他的[KB](https://zkillboard.com/chara"
+        },
+        {
+          "file": "src/people/daft-eullon/daft-eullon.md",
+          "contains": "十九场没挨过一炮"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/people/daft-eullon/2115155689-id.json",
+    "src/people/daft-eullon/daft-eullon.md",
+    "src/people/daft-eullon/materials-daft-eullon.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
+  ],
+  "inputs": "6109d79886a5535cc2018cde0916d0de938a3ef3f7d969d9d2427d154ff89b62",
+  "level": 1
+}
