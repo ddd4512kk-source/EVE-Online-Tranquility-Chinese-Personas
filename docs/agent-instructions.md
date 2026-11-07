@@ -13,6 +13,7 @@
 | `src/` | [站点源码](../src/AGENTS.md)：构建数据、页面和公共约定 |
 | `src/people/` | [列传](../src/people/AGENTS.md)：人物档案与写作入口 |
 | `src/battles/` | [战役](../src/battles/AGENTS.md)：战役归档与分方入口 |
+| `src/corps/` | [军团](../src/corps/AGENTS.md)：军团正面历史与快照入口；流程在 `add-corp` 技能 |
 | `src/_data/` | [公共数据](../src/_data/AGENTS.md)：名称、身份与全局计算 |
 | `src/_includes/` | [模板](../src/_includes/AGENTS.md)：共享呈现与互链 |
 | `src/assets/` | [前端资源](../src/assets/AGENTS.md)：样式、交互与生成资产 |
@@ -20,7 +21,7 @@
 | `scripts/research/` | [取材工具](../scripts/research/AGENTS.md)：网络预算与可恢复调查 |
 | `docs/` | [文档](AGENTS.md)：规范、模板、来源与调查状态 |
 
-技能目录不另复制领域规范；修改技能时按本页和根目录规则维护。`.claude/rules/` 不再保留重复的领域指令，以免只有一种代理读到额外规则。
+技能目录不另复制领域规范；修改技能时按本页和根目录规则维护。列传、战役、军团各有一个收尾评审子代理：`.claude/agents/` 下的 `person-reviewer.md`、`battle-reviewer.md`、`corp-reviewer.md` 是提示，只写步骤和边界，规则仍引用各自的专题文档；`.codex/agents/` 下的同名 `.toml` 只配模型和强度，提示沿用这几份。`.claude/rules/` 不再保留重复的领域指令，以免只有一种代理读到额外规则。
 
 ## 新增或修改规则
 

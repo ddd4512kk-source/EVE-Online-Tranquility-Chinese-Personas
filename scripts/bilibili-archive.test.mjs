@@ -246,6 +246,51 @@ test('图文再导入保留旧文字与范围、署名及已消化状态', () =>
   assert.throws(() => mergePost(original, { ...newer, owner_uid: '999' }), /冲突/);
 });
 
+test('仓库提到未登记的BV或UP主页时校验失败，并给出登记命令', async t => {
+  const { root } = await fixture(t), other = 'BV1zzzzzzzzz';
+  const material = path.join(root, 'src/people/demo/materials-demo.md');
+  await fs.appendFile(material, `\n${other} https://space.bilibili.com/456\n`);
+  await run(root, 'sync');
+  await assert.rejects(run(root, 'check'), error => {
+    assert.match(error.message, new RegExp(`未登记2项[\\s\\S]*${other}：src/people/demo/materials-demo\\.md`));
+    assert.match(error.message, /capture BV1zzzzzzzzz/);
+    assert.match(error.message, /register <UID>/);
+    return true;
+  });
+  await fs.writeFile(path.join(root, 'docs/bilibili/unavailable.json'), JSON.stringify({ [other]: '稿件不可见' }));
+  await run(root, 'register', '456', '另一个UP');
+  await assert.rejects(run(root, 'register', '456', '另一个UP'), /不覆盖/);
+  const registered = JSON.parse(await fs.readFile(path.join(root, 'docs/bilibili/456.json')));
+  assert.equal(registered.identity.state, 'candidate');
+  assert.equal(registered.identity.person, null);
+  assert.deepEqual(registered.identity.related.map(r => r.material), ['src/people/demo/materials-demo.md']);
+  await run(root, 'sync');
+  await run(root, 'check');
+  await fs.writeFile(path.join(root, 'docs/bilibili/unavailable.json'), JSON.stringify({ [other]: ' ' }));
+  await assert.rejects(run(root, 'check'), /缺少有效编号或原因/);
+});
+
+test('频道目录候选算已登记；导入目录时未知作者只按candidate登记', async t => {
+  const { root, p } = await fixture(t), listed = 'BV1yyyyyyyyy', unknown = 'BV1xxxxxxxxx';
+  p.channel.listings = [{ candidates: [{ bvid: listed, title: '目录候选' }] }];
+  await fs.writeFile(path.join(root, 'docs/bilibili/123.json'), JSON.stringify(p));
+  await fs.appendFile(path.join(root, 'src/people/demo/materials-demo.md'), `\n${listed} ${unknown}\n`);
+  await assert.rejects(run(root, 'check'), /未登记1项/);
+  const dir = path.join(root, 'captures');
+  await fs.mkdir(dir);
+  await fs.writeFile(path.join(dir, `${unknown}.json`), JSON.stringify(capture({ source: `https://www.bilibili.com/video/${unknown}/`,
+    metadata: { bvid: unknown, title: '新作者作品', desc: '', owner: { mid: 789, name: '新作者' }, pubdate: 1600000000, stat: { view: 1, reply: 0 } } })));
+  const lines = await run(root, 'import', dir);
+  assert.match(lines[0], /789是新UID/);
+  const created = JSON.parse(await fs.readFile(path.join(root, 'docs/bilibili/789.json')));
+  assert.equal(created.name, '新作者');
+  assert.equal(created.identity.state, 'candidate');
+  assert.deepEqual(created.identity.related.map(r => r.material), ['src/people/demo/materials-demo.md']);
+  await run(root, 'sync');
+  await run(root, 'check');
+  assert.equal(JSON.parse(await fs.readFile(path.join(root, 'docs/bilibili/789.json'))).videos[0].reading.state, 'material_linked');
+});
+
 test('同一UID导入图文、同步、查询摘要与校验，不改视频状态或推定图文已消化', async t => {
   const { root } = await fixture(t), data = postCapture();
   const input = path.join(root, 'capture.json');

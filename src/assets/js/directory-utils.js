@@ -8,6 +8,15 @@ export function shuffled(items) {
   return result;
 }
 
+// 名录有几百张卡片带循环动画，滚出视口的先停掉，省电也省图层。
+export function pauseOffscreen(items) {
+  if (!('IntersectionObserver' in window)) return;
+  const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) entry.target.classList.toggle('is-offscreen', !entry.isIntersecting);
+  }, { rootMargin: '200px' });
+  for (const item of items) observer.observe(item);
+}
+
 // 两个目录共用：默认一行，溢出才显示开关；初始化前先恢复已选标签。
 export function initTagCollapse(wrap) {
   const bar = wrap?.querySelector(".tag-bar");

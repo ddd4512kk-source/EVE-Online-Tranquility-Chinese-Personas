@@ -1,6 +1,14 @@
-import test from "node:test";
-import assert from "node:assert/strict";
-import { emblemSides } from "./battle-emblem.mjs";
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { coverCrop, coverSrc, emblemSides } from './battle-emblem.mjs';
+
+test('封面从正中裁成最大的 16:9', () => {
+  assert.equal(coverSrc('obe-2026'), '/assets/emblems/cover-obe-2026.webp');
+  assert.deepEqual(coverCrop(1600, 900), { left: 0, top: 0, width: 1600, height: 900 });
+  assert.deepEqual(coverCrop(1600, 1000), { left: 0, top: 50, width: 1600, height: 900 });
+  assert.deepEqual(coverCrop(2000, 900), { left: 200, top: 0, width: 1600, height: 900 });
+  assert.deepEqual(coverCrop(480, 360), { left: 0, top: 45, width: 480, height: 270 });
+});
 
 test("战徽保留同侧顺序，每方取一枚，并排除第三方", () => {
   const alliances = [1, 2, 3].map((id) => ({ id, kind: "alliance", name: String(id) }));

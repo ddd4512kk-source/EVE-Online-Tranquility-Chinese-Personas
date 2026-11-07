@@ -29,7 +29,7 @@ zKillboard 上，他生涯击杀 **9854**，打掉约 6.6 万亿 ISK，单杀 93
 2012 年，胡捏有几次入团只待一两天，zKillboard 给这几张 KM 打上了**打蓝**标签：
 
 - 4 月 17 日进 Eclipse Navy，第二天在 27-HP0 单杀了一位团友的猎豹；
-- 4 月 18 日进 Breathe.，当天就在高安 Shuria [单杀了一位团友的帕拉丁](https://zkillboard.com/kill/23398542/)，1.62B，当天离团；
+- 4 月 18 日进 Breathe.，当天就在高安 舒利亚 [单杀了一位团友的帕拉丁](https://zkillboard.com/kill/23398542/)，1.62B，当天离团；
 - 5 月 1 日进 Refine Trade And Transportation，第二天在高安连杀两位团友，一条黑夜、一条裂谷。
 
 后来 PLA 指控他“用马甲进 PLA 把 POS 里的船弄出去击毁”，放在这几张 KM 旁边看，手法倒是一脉相承。

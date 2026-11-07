@@ -1,0 +1,41 @@
+{#- 人物头像外框与挂件（大亨、神人、UP主）。不遮挡头像五官，战神移至名字旁与卡片装甲底纹。 -#}
+{%- if markTycoon -%}
+<span class="tycoon-rig" title="大亨：{{ markTycoon }}" role="img" aria-label="大亨：{{ markTycoon }}">
+  <svg class="tycoon-crest" viewBox="0 0 44 20" aria-hidden="true">
+    <path class="tc-sparks" d="M4 5l1.3-2.6L6.6 5l2.6 1.3-2.6 1.3L5.3 10.2 4 7.6 1.4 6.3zM39 4.5l1-2L41 4.5l2 1-2 1-1 2-1-2-2-1z" fill="var(--tycoon-bright)"/>
+    <path d="M5 15.5h34l-2.8 3.5H7.8z" fill="#3a2308" stroke="var(--tycoon)" stroke-width="1.2"/>
+    <path d="M9 12h8l-1.5 3.5H7.5zM27 12h8l1.5 3.5h-8z" fill="var(--tycoon)" stroke="#261604" stroke-width="1"/>
+    <circle cx="22" cy="11" r="7.6" fill="#2b1905" stroke="var(--tycoon-bright)" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <circle cx="22" cy="11" r="5.3" fill="var(--tycoon)" stroke="#2b1905" stroke-width="1"/>
+    <rect x="19.5" y="8.5" width="5" height="5" rx=".7" transform="rotate(45 22 11)" fill="#2b1905" stroke="var(--tycoon-bright)" stroke-width="1.1"/>
+  </svg>
+</span>
+{%- endif -%}
+{%- if markShenren -%}
+<span class="shenren-aura" title="神人：{{ markShenren }}" role="img" aria-label="神人：{{ markShenren }}">
+  <svg class="shenren-svg" viewBox="0 0 100 40" aria-hidden="true">
+    <g class="sr-halo">
+      <path d="M12 21 C10 13, 29 7, 49 9 C64 10, 74 15, 72 20 C70 25, 57 27, 43 26 M35 25 C21 24, 13 23, 12 21" fill="none" stroke="var(--shenren)" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M36 27 l3-4.5 l2 3.5 l3-5.5" fill="none" stroke="#ffe66d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g class="sr-wtf">
+      <path d="M78 16 C78 11, 85 11, 84 16 C83 19, 80 19, 80 22" fill="none" stroke="#ffe66d" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="80" cy="26" r="1.5" fill="#ffe66d"/>
+      <path d="M92 11 L90 22" fill="none" stroke="var(--shenren)" stroke-width="2.7" stroke-linecap="round"/>
+      <circle cx="89.5" cy="26" r="1.5" fill="var(--shenren)"/>
+    </g>
+  </svg>
+</span>
+{%- endif -%}
+{%- if markUpzhu -%}
+<span class="upzhu-tv" title="{{ markUpzhuLabel }}" role="img" aria-label="{{ markUpzhuLabel }}">
+  <svg viewBox="0 0 28 26" aria-hidden="true">
+    <path d="M11 6.2L6.2 1.5M17 6.2L21.8 1.5" fill="none" stroke="var(--bili-pink)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M7.5 22.5L5.8 24.8M20.5 22.5L22.2 24.8" fill="none" stroke="var(--bili-pink)" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="2" y="5.8" width="24" height="17" rx="4.5" fill="var(--bili-pink)" stroke="#fff" stroke-width="1.2"/>
+    <rect x="4.8" y="8.5" width="18.4" height="11.6" rx="2.4" fill="#fff"/>
+    <path d="M7.8 12.2L11.6 14M20.2 12.2L16.4 14" fill="none" stroke="var(--bili-pink)" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M11.6 16.5Q12.8 17.8 14 16.5Q15.2 17.8 16.4 16.5" fill="none" stroke="var(--bili-pink)" stroke-width="1.5" stroke-linecap="round"/>
+  </svg>
+</span>
+{%- endif -%}

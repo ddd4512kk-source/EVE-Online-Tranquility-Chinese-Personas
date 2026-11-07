@@ -8,7 +8,7 @@
 ::: 红料 教程之外的实战页：从 B-R 的纳迦法到勒维亚坦
 叼爷写过运输教程，也干过高安强暴，机库里却不只有拆货船的工具。他的实战履历要从 2014 年 1 月的 [B-R5RB](https://zkillboard.com/kill/36255172/) 翻起：泰坦成片爆炸的那场史诗，他开的是纳迦法。华人圈后来熟悉的那位老师傅，早就把无畏开进过一个游戏史上的名场面。七年后的 2021 年 9 月，[A1-AUH](https://zkillboard.com/kill/95187540/) 围猎旗舰，他换成缪宁照样出勤。教新人怎么上手和自己上场，这是两门课，他都修过。
 
-2025 年 6 月，Lantorn 与希瑟伊德接连开打，他把泽尼塔和[纳迦法级舰队型](https://zkillboard.com/kill/127954538/)送进 [Lantorn](https://zkillboard.com/kill/127953772/) 的无畏战场，又在[希瑟伊德](https://zkillboard.com/kill/128026903/)驾驶兀鹫。2026 年 3 月 1 日，他随 FRT 进了 [MC6O-F 史诗会战](../../battles/mc6o-f-2026/)，各方总损失约 1.14 万亿，这回开的是[救世](https://zkillboard.com/kill/133727360/)。一个月后的 Atioth，他既有[纳迦法](https://zkillboard.com/kill/134557132/)出勤，也有[勒维亚坦](https://zkillboard.com/kill/134566212/)参战记录，旗舰一路从无畏换到泰坦；10 月的 Obe，[乌鸦](https://zkillboard.com/kill/139046684/)和[勒维亚坦](https://zkillboard.com/kill/139047592/)都开上了场。教别人运输、拆别人的运输船、给联盟开旗舰，叼爷的机库倒没按教材目录分科。
+2025 年 6 月，兰多恩 与希瑟伊德接连开打，他把泽尼塔和[纳迦法级舰队型](https://zkillboard.com/kill/127954538/)送进 [兰多恩](https://zkillboard.com/kill/127953772/) 的无畏战场，又在[希瑟伊德](https://zkillboard.com/kill/128026903/)驾驶兀鹫。2026 年 3 月 1 日，他随 FRT 进了 [MC6O-F 史诗会战](../../battles/mc6o-f-2026/)，各方总损失约 1.14 万亿，这回开的是[救世](https://zkillboard.com/kill/133727360/)。一个月后的 艾蒂斯，他既有[纳迦法](https://zkillboard.com/kill/134557132/)出勤，也有[勒维亚坦](https://zkillboard.com/kill/134566212/)参战记录，旗舰一路从无畏换到泰坦；10 月的 欧贝，[乌鸦](https://zkillboard.com/kill/139046684/)和[勒维亚坦](https://zkillboard.com/kill/139047592/)都开上了场。教别人运输、拆别人的运输船、给联盟开旗舰，叼爷的机库倒没按教材目录分科。
 
 4 月 25 日的[北方战报](../../battles/4-hwwf-8tpx-n-2026/)总损失约 969B，他在 FRT 一方驾驶[纳迦法](https://zkillboard.com/kill/134999006/)进入 4-H 的交战，又坐回无畏舰。早年混过盘古、蜜蜂，后来写教程、打强暴、留下一堆恶名，这天他回到联盟大队的重船座位：拆货船的老师傅也得跟着大队上场。运输手册教人避开危险，叼爷本人出门却并不总选安全的路线。
 
@@ -18,7 +18,7 @@
 ::: 红料 教材确实帮过新人
 [华人势力大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)记载，紫禁城早年的新人教材，一部是 [H叔](../480362957/)的手册，另一部是叼爷的《EVE资料大全》。这份贡献不必因为后来的恶名一笔抹掉。
 
-到 FRT 后，他还写了[欧塔五级任务攻略](https://forums.winterco.org/t/topic/11576)、[懒人 P2 行星教程](https://forums.winterco.org/t/topic/21180)、[行星开发常用模板](https://forums.winterco.org/t/topic/24906)和[跳货驾驶员生存手册](https://forums.winterco.org/t/topic/25034)。资料能让人少走弯路，运输建议也确实能让人少炸船。
+到 FRT 后，他还写了[欧塔五级任务攻略](https://forums.winterco.org/t/topic/11576)、[懒人 P2 行星教程](https://forums.winterco.org/t/topic/21180)、[行星开发常用模板](https://forums.winterco.org/t/topic/24906)和[跳货驾驶员生存手册](https://forums.winterco.org/t/topic/25034)，还参与制作了联盟市场与制造计算工具 Builder Helper。资料能让人少走弯路，工具能让人省下算盘，运输建议也确实能让人少炸船。
 
 他的[月卡与 PLEX 折扣比较](https://forums.winterco.org/t/topic/24783)还把账算到了联盟公共开销：FRT 向 CCP 要推荐码，返现拿去付语音服务器费用。写到“养猪”方法，他又明确感谢 Fuxi Chunyang。读者打开帖子是想少花月卡钱，往下读还能看到舰队语音的钱从哪里来；老师傅愿意教省钱，也没把别人教过的方法全署成自己的发明。
 
@@ -38,19 +38,19 @@
 :::
 
 ::: 黑料 跳货老师，也在路上拆跳货
-叼爷的高安强暴经历，不是嘴上扮坏人。他待过 CODE.、Safety.；[个人击杀记录](https://zkillboard.com/character/1387156123/)里，促进和 Uedama 都是熟面孔。
+叼爷的高安强暴经历，不是嘴上扮坏人。他待过 CODE.、Safety.；[个人击杀记录](https://zkillboard.com/character/1387156123/)里，促进和 犹达玛 都是熟面孔。
 
-这不是偶尔下手。zKillboard 上带“被强暴”标签的击杀里，他和小号 Not Mrdiao 参与打掉的货舰和逆戟鲸各有数百条，跳货也有几十条，从 2013 年一直打到 2024 年；小号的记录几乎全和大号落在同一张 KM 上，是一个人多开上阵。2021 年 8 月 15 日，他参与的强暴记录里就有一条[游牧者](https://zkillboard.com/kill/94527900/)和一条[装着近 19.4B 船货的小鱼（逆戟鲸）](https://zkillboard.com/kill/94524114/)。2024 年 5 月底到 6 月初，他在 Uedama、Sivala、Juunigaishi 一带连轴转：一晚上接连拆掉[8.7B 的渡神](https://zkillboard.com/kill/118132580/)、[7.3B 的普罗维登斯](https://zkillboard.com/kill/118130852/)、[7.7B 的方尖塔](https://zkillboard.com/kill/118128692/)，一周后又是一条[16.4B 的普罗维登斯](https://zkillboard.com/kill/118490483/)。
+这不是偶尔下手。zKillboard 上带“被强暴”标签的击杀里，他和小号 Not Mrdiao 参与打掉的货舰和逆戟鲸各有数百条，跳货也有几十条，从 2013 年一直打到 2024 年；小号的记录几乎全和大号落在同一张 KM 上，是一个人多开上阵。2021 年 8 月 15 日，他参与的强暴记录里就有一条[游牧者](https://zkillboard.com/kill/94527900/)和一条[装着近 19.4B 船货的小鱼（逆戟鲸）](https://zkillboard.com/kill/94524114/)。2024 年 5 月底到 6 月初，他在 犹达玛、希瓦拉、郡尼加什 一带连轴转：一晚上接连拆掉[8.7B 的渡神](https://zkillboard.com/kill/118132580/)、[7.3B 的普罗维登斯](https://zkillboard.com/kill/118130852/)、[7.7B 的方尖塔](https://zkillboard.com/kill/118128692/)，一周后又是一条[16.4B 的普罗维登斯](https://zkillboard.com/kill/118490483/)。
 
-后来他写跳货生存手册，提醒驾驶员别为了货舱牺牲生存能力，确实说到了痛处：数百条货舰、跳货和逆戟鲸在他面前爆过，他比谁都清楚货舱塞满、抗性不足的船在 Uedama 门口能撑几秒。这本手册不是闭门造车，是从对面的炮口往回写的。
+后来他写跳货生存手册，提醒驾驶员别为了货舱牺牲生存能力，确实说到了痛处：数百条货舰、跳货和逆戟鲸在他面前爆过，他比谁都清楚货舱塞满、抗性不足的船在 犹达玛 门口能撑几秒。这本手册不是闭门造车，是从对面的炮口往回写的。
 
 老师教得好，因为老师也做考官。补考的学费，按船和货一起收。
 :::
 
 ::: 黑料 霍克灾难排行榜，艾玛榜首
-叼爷的强暴履历，早在 2012 年就上过正式榜单。那年春天，Goons 赞助、Helicity Boson 主办第五届 Hulkageddon（霍克灾难）：在高安打掉霍克、麦基诺就算成绩，按[吧里的译介](https://tieba.baidu.com/p/1551217097)，每杀十条还发一亿 ISK 奖金，官网挂着分区排行榜。叼爷当时顶着 MOA 的招牌、-10 的安全等级，从 4 月中旬到 5 月 21 日，[击杀记录](https://zkillboard.com/kill/23615467/)里塞满了霍克和麦基诺，光主号就有九十多条霍克、五十多条麦基诺，大多是一条[促进](https://zkillboard.com/kill/23954894/)单刷，地点集中在 Fabum、Kamio、Sirseshin 一带的艾玛高安。
+叼爷的强暴履历，早在 2012 年就上过正式榜单。那年春天，Goons 赞助、Helicity Boson 主办第五届 Hulkageddon（霍克灾难）：在高安打掉霍克、麦基诺就算成绩，按[吧里的译介](https://tieba.baidu.com/p/1551217097)，每杀十条还发一亿 ISK 奖金，官网挂着分区排行榜。叼爷当时顶着 MOA 的招牌、-10 的安全等级，从 4 月中旬到 5 月 21 日，[击杀记录](https://zkillboard.com/kill/23615467/)里塞满了霍克和麦基诺，光主号就有九十多条霍克、五十多条麦基诺，大多是一条[促进](https://zkillboard.com/kill/23954894/)单刷，地点集中在 发布恩、卡密欧、希尔瑟新 一带的艾玛高安。
 
-5 月中旬，[活动官网的榜](https://web.archive.org/web/20120516204500/http://hulkageddon.goonswarm.com:80/)上，MrDiao 以 106 条、约 31B 排 Exhumer/Orca 击杀榜第三，“艾玛高安最多击杀”第一，110 条，比第二名 Kaeda Maxwell 只多一条。他自己在 ECF 发帖汇报战况，后来被[转进贴吧](https://tieba.baidu.com/p/1768567390)：
+5 月中旬，[活动官网的榜](https://web.archive.org/web/20120516204500/http://hulkageddon.goonswarm.com:80/)上，MrDiao 以 106 条、约 31B 排 Exhumer/逆戟鲸 击杀榜第三，“艾玛高安最多击杀”第一，110 条，比第二名 Kaeda Maxwell 只多一条。他自己在 ECF 发帖汇报战况，后来被[转进贴吧](https://tieba.baidu.com/p/1768567390)：
 
 > 我现在在全力保住艾玛地区榜首顺便争取住第三的位置，但如果第四那位宅起来的话我可真没办法了……
 

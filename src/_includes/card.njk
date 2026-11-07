@@ -1,13 +1,18 @@
 {#- 目录卡片。传入 p（列传页面对象）。 -#}
 {%- set d = p.data -%}
 {%- set char = d.char -%}
-{%- set y = char.birthday | ymd | truncate(4, true, "") -%}
-<li class="card{% if yearStart %} year-start{% endif %}" data-key="{{ d | searchKey }}" data-year="{{ y }}" data-updated="{{ d.updated }}" data-tags="|{{ d.labels | join('|') }}|">
-  <span class="year-tag" aria-hidden="true">{{ y }}</span>
+<li class="card{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}" data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
   <a href="{{ p.url | url }}">
-    <img class="portrait" src="{{ ('/portraits/' + d.character_id + '.jpg') | url }}" alt="" width="72" height="72" loading="lazy" decoding="async">
+    {%- if d.famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ d.famous }}">名</span>{% endif %}
+    <span class="status-frame status-{{ d.activity.state }}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}"{% if d.activityLabel %} title="{{ d.activityLabel }}"{% endif %}>
+      <img class="portrait" src="{{ ('/portraits/' + d.character_id + '.jpg') | url }}" alt="" width="72" height="72" loading="lazy" decoding="async">
+      {%- set markTycoon = d.tycoon %}{% set markShenren = d.shenren -%}
+      {%- set markUpzhu = d.upzhu %}{% set markUpzhuLabel = d.upzhuLabel -%}
+      {%- include "person-marks.njk" -%}
+      {%- if d.activityLabel %}<span class="sr-only">{{ d.activityLabel }}</span>{% endif %}
+    </span>
     <span class="card-body">
-      <span class="card-name">{{ d.displayName }}{% if d.cn_name %} <small lang="en">{{ char.name }}</small>{% endif %}</span>
+      <span class="card-name">{{ d.displayName }}{% if d.cn_name %} <small lang="en">{{ char.name }}</small>{% endif %}{% if d.wargod %}{% set markWargodLabel = d.wargodLabel %}{% include "wargod-insignia.njk" %}{% endif %}</span>
       {% if d.epithet %}<span class="card-epithet">{{ d.epithet }}</span>{% endif %}
       <span class="card-meta">
         {%- if d.liao.hong or d.liao.hei %}<span class="liao-count">{% if d.liao.hong %}<span class="lc-hong" title="红料 {{ d.liao.hong }} 条">红 {{ d.liao.hong }}</span>{% endif %}{% if d.liao.hei %}<span class="lc-hei" title="黑料 {{ d.liao.hei }} 条">黑 {{ d.liao.hei }}</span>{% endif %}</span>{% endif -%}

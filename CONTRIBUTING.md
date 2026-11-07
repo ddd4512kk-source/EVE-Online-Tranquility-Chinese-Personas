@@ -61,4 +61,4 @@ tags: [标签一, 标签二]           # 可选
 - 可以损，但不要地域、民族、性别、外貌方面的歧视。
 - 有出处的社区爆料欢迎投稿，不必等定论，注明来路即可（如“据某某爆料”“据当年群聊记录”）。但不要凭空编造。
 
-完整写作规范见[内容规则](docs/content-rules.md)与[写作验收](docs/writing-review.md)；代理入口见 [AGENTS.md](AGENTS.md)，代码与技术文档遵守[仓库统一标准](docs/repository-standards.md)。
+完整写作规范按类型分开：[列传规则](docs/rules-person.md)与[列传验收](docs/person-review.md)、[战役规则](docs/rules-battle.md)与[战役验收](docs/battle-review.md)、[军团规则](docs/rules-corp.md)与[军团验收](docs/corp-review.md)；代理入口见 [AGENTS.md](AGENTS.md)，代码与技术文档遵守[仓库统一标准](docs/repository-standards.md)。

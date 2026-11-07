@@ -9,6 +9,7 @@ import { researchFetch, markResearchHostStopped } from "./request-guard.mjs";
 //   node scripts/research/bilibili.mjs videos <mid>          列 UP 主的全部投稿（无签名接口，每页 100 条自动翻页；不含简介）
 //   node scripts/research/bilibili.mjs info <mid>            UP 主资料（昵称、签名、粉丝）
 //   node scripts/research/bilibili.mjs video <BV号[,BV号…]> [评论页数] 视频简介、分 P、热门评论；多个 BV 用逗号分隔，间隔 20 秒
+//   node scripts/research/bilibili.mjs capture <BV号[,BV号…]> <输出目录> 把作品元数据存成可 import 的文件，间隔 20 秒；失效作品单独列出
 //   node scripts/research/bilibili.mjs dynamics <mid>        UP 主近期动态（含专栏/图文）
 //
 // 接口被风控（-352、-412、412）时停止 API 请求并冷却至少 30 分钟；不证明整个 IP 不可用，不能当成零结果。
@@ -49,7 +50,7 @@ const cacheFile = url => {
 };
 
 // 风控（412 / -352 / -412）时立即退出，不重试
-async function api(url, referer = 'https://www.bilibili.com/') {
+async function api(url, referer = 'https://www.bilibili.com/', goneCodes = []) {
   const file = cacheFile(url);
   if (!fresh && fs.existsSync(file)) {
     return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -62,7 +63,8 @@ async function api(url, referer = 'https://www.bilibili.com/') {
     fs.writeFileSync(file, JSON.stringify(j.data));
     return j.data;
   }
-  const why = j ? `接口返回 ${j.code} ${j.message ?? ''}` : `HTTP ${r.status}`;
+  if (goneCodes.includes(j?.code)) return null;
+  const why =j ? `接口返回 ${j.code} ${j.message ?? ''}` : `HTTP ${r.status}`;
   const limited = r.status === 412 || j?.code === -352 || j?.code === -412;
   if (limited) markResearchHostStopped('bilibili.com');
   fail(limited ? `${why}（API风控：冷却至少30分钟，期间不要再请求B站API；Chrome网页回查见取材手册）` : why);
@@ -145,6 +147,18 @@ if (cmd === 'user') {
       }
     }
     console.log('');
+  }
+} else if (cmd === 'capture') {
+  if (!extra) fail('capture 需要输出目录');
+  fs.mkdirSync(extra, { recursive: true });
+  for (const [i, bv] of arg.split(',').filter(Boolean).entries()) {
+    if (i) await new Promise(res => setTimeout(res, 20000));
+    const url = `https://api.bilibili.com/x/web-interface/view?bvid=${bv}`;
+    const d = await api(url, undefined, [-400, -404, 62002, 62004, 62012]);
+    if (!d) { console.log(`【失效】${bv}`); continue; }
+    fs.writeFileSync(path.join(extra, `${bv}.json`), JSON.stringify({ source: `https://www.bilibili.com/video/${bv}/`, status: 'read',
+      at: fs.statSync(cacheFile(url)).mtime.toISOString(), metadata: d }));
+    console.log(`${bv}\t${d.owner.name}(${d.owner.mid})\t${d.title}`);
   }
 } else if (cmd === 'dynamics') {
   const q = await wbi({ host_mid: arg, features: 'itemOpusStyle' });

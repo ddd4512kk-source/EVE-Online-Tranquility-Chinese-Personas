@@ -1,0 +1,35 @@
+{#- 军团目录商业卡片。传入 c（军团页面对象）。 -#}
+{%- set d = c.data -%}
+{%- set status = d.status -%}
+{%- set ratings = d.corp.ratings -%}
+{%- set dims = d.ratingDimensions -%}
+{%- set ratingFull = false -%}
+<li class="card corp-card corp-style-{{ d.styleKey }}" data-group="{{ status.group }}" data-rank="{{ d.zkb.rank_recent }}" data-pvp="{{ ratings.pvp }}" data-shenren="{{ ratings.shenren }}" data-tank="{{ (d.zkb.lost / d.zkb.kills) if d.zkb.kills else 0 }}" data-alliance="{{ d.esi | corpAlliance }}" data-zones="{% for z in d.zones %}{{ z.key }} {% endfor %}" data-key="{{ d | corpKey }}">
+  <a class="corp-card-link" href="{{ c.url | url }}">
+    <img class="corp-card-wm" src="{{ d.emblemSrc | url }}" alt="" width="128" height="128" loading="lazy" decoding="async" aria-hidden="true">
+    <span class="corp-card-ribbon">
+      <span class="corp-card-meta">{% if d.esi.alliance %}<strong>{{ d.esi.alliance.ticker }}</strong>{% else %}独立军团{% endif %}{% for z in d.zones %} · {{ z.name }}{% endfor %}</span>
+      <span class="corp-card-pills">
+        {%- if status.state == "active" %}<span class="corp-pill pill-live">活跃</span>{% else %}<span class="corp-pill pill-ash">沉寂</span>{% endif %}
+        {%- if status.recruiting %}<span class="corp-pill pill-recruit">招新</span>{% endif -%}
+      </span>
+    </span>
+    <span class="corp-card-head">
+      <span class="corp-crest-sm{% if status.state == 'dormant' %} is-dormant{% endif %}">
+        <img class="corp-emblem" src="{{ d.emblemSrc | url }}" alt="" width="64" height="64" loading="lazy" decoding="async">
+      </span>
+      <span class="corp-card-id">
+        <span class="corp-card-title">{{ d.displayName }} <span class="corp-ticker-sm">[{{ d.esi.ticker }}]</span></span>
+        <span class="corp-card-en" lang="en">{{ d.esi.name }}</span>
+      </span>
+    </span>
+    <span class="corp-card-pitch"><span class="corp-card-pitch-text">“{{ d.corp.epithet }}”</span></span>
+    {% include "corp-ratings.njk" %}
+    <span class="corp-card-foot">
+      <span>{{ d.esi.date_founded | truncate(4, true, '') }} 创立</span>
+      <span><strong>{{ d.esi.member_count }}</strong> 人</span>
+      <span><strong>{{ d.zkb.kills | killCount }}</strong> 杀</span>
+      {%- if d.zkb.rank_recent %}<span class="corp-rank-chip">近期 #{{ d.zkb.rank_recent }}</span>{% endif %}
+    </span>
+  </a>
+</li>

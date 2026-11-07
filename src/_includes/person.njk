@@ -9,12 +9,18 @@ bodyClass: page-person
 {% include "back.njk" %}
 <article class="bio" data-pagefind-body{% if collections.battles.length %} data-pagefind-filter="板块:列传"{% endif %}>
   <header class="bio-head">
-    <img class="portrait portrait-lg" src="{{ ('/portraits/' + character_id + '.jpg') | url }}" alt="{{ char.name }} 的头像" width="160" height="160" data-pagefind-meta="image[src]">
+    <span class="status-frame status-frame-lg status-{{ activity.state }}{% if famous %} is-famous{% endif %}{% if tycoon %} is-tycoon{% endif %}{% if shenren %} is-shenren{% endif %}{% if upzhu %} is-upzhu{% endif %}"{% if activityLabel %} title="{{ activityLabel }}"{% endif %}>
+      <img class="portrait portrait-lg" src="{{ ('/portraits/' + character_id + '.jpg') | url }}" alt="{{ char.name }} 的头像" width="160" height="160" data-pagefind-meta="image[src]">
+      {%- if famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ famous }}">名</span>{% endif %}
+      {%- set markTycoon = tycoon %}{% set markShenren = shenren -%}
+      {%- set markUpzhu = upzhu %}{% set markUpzhuLabel = upzhuLabel -%}
+      {%- include "person-marks.njk" -%}
+    </span>
     <div class="bio-id">
-      <h1 class="bio-name"><span data-pagefind-meta="title">{% if cn_name %}{{ displayName }}{% else %}<a href="https://evewho.com/character/{{ character_id }}" rel="noopener" title="角色 ID：{{ character_id }}">{{ displayName }}</a>{% endif %}</span><span class="bio-suffix">列传</span></h1>
-      {% if cn_name %}<p class="bio-charname" lang="en"><a href="https://evewho.com/character/{{ character_id }}" rel="noopener" title="角色 ID：{{ character_id }}">{{ char.name }}</a></p>{% endif %}
+      <h1 class="bio-name"><span data-pagefind-meta="title">{% if cn_name %}{{ displayName }}{% else %}<a href="https://evewho.com/character/{{ character_id }}" target="_blank" rel="noopener noreferrer" title="角色 ID：{{ character_id }}">{{ displayName }}</a>{% endif %}</span><span class="bio-suffix">列传</span>{% if wargod %}{% set markWargodLabel = wargodLabel %}{% include "wargod-insignia.njk" %}{% endif %}</h1>
+      {% if cn_name %}<p class="bio-charname" lang="en"><a href="https://evewho.com/character/{{ character_id }}" target="_blank" rel="noopener noreferrer" title="角色 ID：{{ character_id }}">{{ char.name }}</a></p>{% endif %}
       {% if aliases and aliases.length %}<p class="bio-aliases">又名 {% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
-      {% if identity.alts.length %}<div class="bio-alts-wrap"><p class="bio-aliases bio-alts" id="bio-alts">小号 {% for alt in identity.alts %}<a href="https://evewho.com/character/{{ alt.id }}" rel="noopener" title="角色 ID：{{ alt.id }}">{{ alt.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p><button type="button" class="tag-more" aria-controls="bio-alts" aria-expanded="false" hidden>展开 ▾</button></div>{% endif %}
+      {% if identity.alts.length %}<div class="bio-alts-wrap"><p class="bio-aliases bio-alts" id="bio-alts">小号 {% for alt in identity.alts %}<a href="https://evewho.com/character/{{ alt.id }}" target="_blank" rel="noopener noreferrer" title="角色 ID：{{ alt.id }}">{{ alt.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p><button type="button" class="tag-more" aria-controls="bio-alts" aria-expanded="false" hidden>展开 ▾</button></div>{% endif %}
       {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
     </div>
   </header>
@@ -22,6 +28,16 @@ bodyClass: page-person
   <dl class="bio-facts" data-pagefind-ignore>
     <div><dt>创号</dt><dd><time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time></dd></div>
     <div><dt>{% if char.affiliation and char.affiliation.left_at %}最近{% else %}现属{% endif %}</dt><dd>{% set affLink = true %}{% include "affiliation.njk" %}</dd></div>
+    {% if activityLabel or famous or wargod or tycoon or shenren or upzhu %}<div><dt>状态</dt><dd>
+      {%- set sep = false -%}
+      {%- if activityLabel %}<span class="status-text status-text-{{ activity.state }}">{{ activityLabel }}</span>（快照 {{ activity.asOf }}）{% set sep = true %}{% endif -%}
+      {%- if famous %}{% if sep %} · {% endif %}<span class="status-text status-text-fame">名人：{{ famous }}</span>{% set sep = true %}{% endif -%}
+      {%- if wargod %}{% if sep %} · {% endif %}<span class="status-text status-text-wargod">{{ wargodLabel }}</span>{% set sep = true %}{% endif -%}
+      {%- if tycoon %}{% if sep %} · {% endif %}<span class="status-text status-text-tycoon">大亨：{{ tycoon }}</span>{% set sep = true %}{% endif -%}
+      {%- if shenren %}{% if sep %} · {% endif %}<span class="status-text status-text-shenren">神人：{{ shenren }}</span>{% set sep = true %}{% endif -%}
+      {%- if upzhu %}{% if sep %} · {% endif %}<span class="status-text status-text-upzhu">{{ upzhuLabel }}</span>{% endif -%}
+    </dd></div>{% endif %}
+    {% set servedCorps = collections.corps | corpsOfPerson(char) %}{% if servedCorps.length %}<div><dt>军团</dt><dd class="chips">{% for c in servedCorps %}<a class="chip" href="{{ c.url | url }}">{{ c.data.displayName }}</a>{% endfor %}</dd></div>{% endif %}
     {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
     {% if battles.length %}<div><dt>战役</dt><dd class="battle-list-wrap person-battles">
       <ul class="battle-list" id="person-battles">{% for b in battles %}<li><a class="chip" href="{{ b.url | url }}"><span>{{ b.data.title }}</span><small>{{ b.data.tier.name }}</small></a></li>{% endfor %}</ul>
@@ -39,11 +55,11 @@ bodyClass: page-person
       {%- for h in char.history | reverse %}
       <li class="{% if h.npc %}is-npc{% endif %}">
         <span class="emp-date">{{ h.start | ymd }} — {% if h.end %}{{ h.end | ymd }}{% else %}至今{% endif %}</span>
-        <span class="emp-corp">{% if h.npc %}{{ h.name }}{% else %}<a href="https://evewho.com/corporation/{{ h.corporation_id }}" rel="noopener">{{ h.name }}</a>{% endif %}</span>
+        <span class="emp-corp">{% if h.npc %}{{ h.name }}{% else %}<a href="https://evewho.com/corporation/{{ h.corporation_id }}" target="_blank" rel="noopener noreferrer">{{ h.name }}</a>{% endif %}</span>
       </li>
       {%- endfor %}
     </ol>
-    <p class="snapshot">数据快照：{{ char.fetched_at }} · <a href="https://evewho.com/character/{{ character_id }}" rel="noopener">EveWho</a> · <a href="https://zkillboard.com/character/{{ character_id }}/" rel="noopener">zKillboard</a></p>
+    <p class="snapshot">数据快照：{{ char.fetched_at }} · <a href="https://evewho.com/character/{{ character_id }}" target="_blank" rel="noopener noreferrer">EveWho</a> · <a href="https://zkillboard.com/character/{{ character_id }}/" target="_blank" rel="noopener noreferrer">zKillboard</a></p>
   </details>
 </article>
 

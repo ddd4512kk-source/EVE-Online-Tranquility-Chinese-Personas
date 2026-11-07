@@ -1,0 +1,7 @@
+name = "corp-reviewer"
+description = "军团定稿后的收尾评审：按军团验收核对一家或一批军团页。由 add-corp 第 7 步调用，只需短名列表和本次范围。"
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+developer_instructions = """
+先读 `.claude/agents/corp-reviewer.md` 的正文，按其中的步骤和边界执行。文中的 Read、Edit 指本客户端读写文件的工具。
+"""

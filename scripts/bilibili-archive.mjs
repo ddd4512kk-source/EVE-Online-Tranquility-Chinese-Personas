@@ -317,6 +317,63 @@ export async function validateProfile(root, file, p) {
   return errors;
 }
 
+// A BV or UP link anywhere in repo content means we met it, so it must be archived.
+const MENTION_DIRS = ['src', 'docs/sources', 'docs/leads', 'docs/corporations', 'docs/tieba'];
+const BV_MENTION = /\bBV1[1-9A-HJ-NP-Za-km-z]{9}\b/g, UID_MENTION = /space\.bilibili\.com\/(\d+)/g;
+
+export async function repoMentions(root) {
+  const mentions = new Map();
+  for (const dir of MENTION_DIRS) {
+    const names = await fs.readdir(path.join(root, dir), { recursive: true }).catch(error => {
+      if (error.code === 'ENOENT') return [];
+      throw error;
+    });
+    for (const name of names.filter(n => /\.(?:md|json)$/.test(n))) {
+      const file = path.posix.join(dir, name.replaceAll('\\', '/'));
+      const text = await fs.readFile(path.join(root, file), 'utf8');
+      for (const token of [...text.matchAll(BV_MENTION)].map(m => m[0]).concat([...text.matchAll(UID_MENTION)].map(m => m[1]))) {
+        if (!mentions.has(token)) mentions.set(token, new Set());
+        mentions.get(token).add(file);
+      }
+    }
+  }
+  return mentions;
+}
+
+function newProfile(uid, name, mentions, tokens) {
+  const unknown = { state: 'unknown', observed_at: null, scope: '尚未核定覆盖；登记时只见到仓库链接或作品页。', evidence: null };
+  const related = [...new Set(tokens.flatMap(t => [...mentions.get(t) ?? []]))].filter(f => f.endsWith('.md')).sort()
+    .map(material => ({ material, label: '仓库提及，未核对应' }));
+  return { version: 1, uid, name, url: `https://space.bilibili.com/${uid}/`,
+    identity: { state: 'candidate', person: null, material: null, label: name, evidence: ['作品页作者或仓库链接；未核对应人物'], related },
+    channel: { profile: {}, coverage: { latest: { ...unknown }, popular: { ...unknown }, series: { ...unknown } }, prior_notes: [] },
+    videos: [] };
+}
+
+async function unregisteredErrors(root, profiles) {
+  const known = new Set();
+  const unavailable = JSON.parse(await fs.readFile(path.join(root, ARCHIVE, 'unavailable.json'), 'utf8').catch(error => {
+    if (error.code === 'ENOENT') return '{}';
+    throw error;
+  }));
+  for (const [token, reason] of Object.entries(unavailable)) {
+    if (!(BV.test(token) || UID.test(token)) || !String(reason).trim()) throw new Error(`${ARCHIVE}/unavailable.json：${token}缺少有效编号或原因`);
+    known.add(token);
+  }
+  for (const { data: p } of profiles) {
+    known.add(p.uid);
+    for (const v of p.videos ?? []) known.add(v.bvid);
+    for (const listing of p.channel?.listings ?? []) for (const c of listing.candidates ?? []) known.add(c.bvid);
+  }
+  const missing = [...await repoMentions(root)].filter(([token]) => !known.has(token));
+  if (!missing.length) return [];
+  const bvs = missing.filter(([t]) => t.startsWith('BV')).map(([t]) => t), uids = missing.filter(([t]) => !t.startsWith('BV')).map(([t]) => t);
+  return [`B站档案未登记${missing.length}项：`, ...missing.map(([t, files]) => `  ${t}：${[...files][0]}`),
+    ...(bvs.length ? [`视频：node scripts/research/bilibili.mjs capture ${bvs.join(',')} .cache/bilibili-capture，再 node scripts/bilibili-archive.mjs import .cache/bilibili-capture`] : []),
+    ...(uids.length ? ['UP：node scripts/bilibili-archive.mjs register <UID> <账号名>'] : []),
+    `已失效的作品或账号写入${ARCHIVE}/unavailable.json（编号: 原因）；之后运行npm run bilibili:sync。`];
+}
+
 export async function run(root, command, input, bvid) {
   if (command === 'candidates') {
     if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(input ?? '')) throw new Error('candidates需要战役短名');
@@ -390,18 +447,37 @@ export async function run(root, command, input, bvid) {
       posts: (p.posts ?? []).map(v => ({ key: v.key, title: v.title, reading: v.reading, usage: v.usage })),
       videos: p.videos.map(v => ({ bvid: v.bvid, title: v.title, reading: v.reading, usage: v.usage })) }, null, 2)];
   }
-  if (command === 'import') {
-    const captured = JSON.parse(await fs.readFile(input, 'utf8'));
-    const isPost = ['opus', 'article'].includes(captured.metadata?.kind);
-    const v = isPost ? postFromCapture(captured) : videoFromCapture(captured), file = path.join(root, ARCHIVE, `${v.owner_uid}.json`);
-    const p = JSON.parse(await fs.readFile(file, 'utf8')); // Unknown owners require explicit identity registration.
-    const items = isPost ? (p.posts ??= []) : p.videos;
-    const i = items.findIndex(x => isPost ? x.key === v.key : x.bvid === v.bvid);
-    if (i < 0) items.push(v); else items[i] = isPost ? mergePost(items[i], v) : mergeVideo(items[i], v);
-    await fs.writeFile(file, JSON.stringify(p, null, 2) + '\n');
-    return [`${v.owner_uid}/${v.bvid ?? v.key}已保存；阅读状态未升级。运行sync更新索引。`];
+  if (command === 'register') {
+    if (!UID.test(input ?? '') || !bvid?.trim()) throw new Error('register需要确切UID和账号名');
+    const file = path.join(root, ARCHIVE, `${input}.json`);
+    if (await fs.access(file).then(() => true, () => false)) throw new Error(`${input}已有档案，不覆盖`);
+    await fs.writeFile(file, JSON.stringify(newProfile(input, bvid.trim(), await repoMentions(root), [input]), null, 2) + '\n');
+    return [`${input}已按candidate登记，未核对应人物。运行sync更新索引。`];
   }
-  if (!['sync', 'check'].includes(command)) throw new Error('用法：bilibili-archive.mjs sync|check|scans|reports [偏移] [条数]|candidates <战役短名> [偏移]|show <UID> [BV或opus:ID或article:ID]|import <作品页JSON>');
+  if (command === 'import') {
+    const inputs = (await fs.stat(input)).isDirectory()
+      ? (await fs.readdir(input)).filter(n => n.endsWith('.json')).sort().map(n => path.join(input, n)) : [input];
+    const saved = [], mentions = await repoMentions(root);
+    for (const one of inputs) {
+      const captured = JSON.parse(await fs.readFile(one, 'utf8'));
+      const isPost = ['opus', 'article'].includes(captured.metadata?.kind);
+      const v = isPost ? postFromCapture(captured) : videoFromCapture(captured), file = path.join(root, ARCHIVE, `${v.owner_uid}.json`);
+      // An unknown owner is registered only as a candidate; identity stays a manual call.
+      const owner = captured.metadata?.owner?.name ?? captured.owner?.name;
+      const p = await fs.readFile(file, 'utf8').then(JSON.parse, error => {
+        if (error.code !== 'ENOENT') throw error;
+        saved.push(`${v.owner_uid}是新UID，已按candidate登记，未核对应人物`);
+        return newProfile(v.owner_uid, owner || '（账号名待核）', mentions, [v.owner_uid, v.bvid ?? v.url]);
+      });
+      const items = isPost ? (p.posts ??= []) : p.videos;
+      const i = items.findIndex(x => isPost ? x.key === v.key : x.bvid === v.bvid);
+      if (i < 0) items.push(v); else items[i] = isPost ? mergePost(items[i], v) : mergeVideo(items[i], v);
+      await fs.writeFile(file, JSON.stringify(p, null, 2) + '\n');
+      saved.push(`${v.owner_uid}/${v.bvid ?? v.key}已保存；阅读状态未升级。运行sync更新索引。`);
+    }
+    return saved;
+  }
+  if (!['sync', 'check'].includes(command)) throw new Error('用法：bilibili-archive.mjs sync|check|scans|reports [偏移] [条数]|candidates <战役短名> [偏移]|show <UID> [BV或opus:ID或article:ID]|import <作品页JSON或目录>|register <UID> <账号名>');
   const profiles = await readProfiles(root), errors = [];
   for (const entry of profiles) {
     const fresh = await syncProfile(root, entry.data);
@@ -411,6 +487,7 @@ export async function run(root, command, input, bvid) {
     } else if (JSON.stringify(fresh) !== JSON.stringify(entry.data)) errors.push(`${entry.file}状态过期，运行npm run bilibili:sync`);
     errors.push(...await validateProfile(root, entry.file, entry.data));
   }
+  if (command === 'check') errors.push(...await unregisteredErrors(root, profiles));
   if (errors.length) throw new Error(errors.join('\n'));
   return [`B站档案通过：${profiles.length}个UID、${profiles.reduce((n, p) => n + p.data.videos.length, 0)}个视频、${profiles.reduce((n, p) => n + (p.data.posts?.length ?? 0), 0)}篇图文；仅离线校验。`];
 }

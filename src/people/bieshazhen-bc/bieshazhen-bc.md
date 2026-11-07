@@ -4,7 +4,7 @@
 2020年，他还在[论坛求助](https://forums.eveonline.com/t/i-lost-all-my-lp-points-i-need-help/278439)：主号几十万LP不见了，日志和商店都找不到。两分钟后，回复者叫他去提客服工单。游戏里一喊“别杀朕”，没人保证停手；论坛里一喊“救救LP”，先得找对柜台。
 
 ::: 红料 贝斯特拉，既想买也参与打
-2024年六月，他接连在三个贝斯特拉卖帖里出价。[吉他220B那条](https://forums.eveonline.com/t/wts-bestla-220-b-sold/451050)，他报210B，卖家邀他进游戏谈，随后宣布卖给别人。[Obe那条](https://forums.eveonline.com/t/wts-for-bestla-in-obe/451924)标185B，他说离游戏驻地近，要求开合同，又加到190B；卖家却继续等更高价，最新叫价到了202B。想照标价提船，买家先得看懂这其实是拍卖。
+2024年六月，他接连在三个贝斯特拉卖帖里出价。[吉他220B那条](https://forums.eveonline.com/t/wts-bestla-220-b-sold/451050)，他报210B，卖家邀他进游戏谈，随后宣布卖给别人。[欧贝那条](https://forums.eveonline.com/t/wts-for-bestla-in-obe/451924)标185B，他说离游戏驻地近，要求开合同，又加到190B；卖家却继续等更高价，最新叫价到了202B。想照标价提船，买家先得看懂这其实是拍卖。
 
 [另一帖](https://forums.eveonline.com/t/wts-my-bestla/451909)里，他从196B加到202B，几天后自称已在别处用205B买到一条，还想再买一条，出208B，催卖家赶快决定。肯花大钱，也要磨小差价；别杀朕这份购物热情，靠砍价一点点升温。
 

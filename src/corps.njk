@@ -1,0 +1,74 @@
+---
+layout: base.njk
+permalink: /corps/
+pageTitle: 军团
+bodyClass: page-corps
+---
+{%- set corps = collections.corps -%}
+<section class="intro corp-intro">
+  <h1>军团</h1>
+  <p>新伊甸华人军团黄页——招商宣传照吹，<strong>武德 · 含神量 · 声望</strong>三道横条照量。绿标活跃，蓝标招新中，共收录 <strong>{{ corps.length }}</strong> 家。</p>
+</section>
+
+<div class="corp-filters">
+  <div class="corp-filter-row">
+    <div class="toolbar corp-toolbar" role="search">
+      <input id="filter" type="search" placeholder="筛选：军团名、缩写、联盟、口号…" autocomplete="off" aria-label="按军团名或联盟筛选">
+      <button id="shuffle" type="button" aria-pressed="false" title="随机排序，再点重新洗牌"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7h3c5 0 7 10 12 10h3M17 13l4 4-4 4M3 17h3c1.5 0 2.7-.9 3.8-2.3M14.2 9.3C15.3 7.9 16.5 7 18 7h3M17 3l4 4-4 4"/></svg><span>随机<span class="shuffle-more">排序</span></span></button>
+      <a class="toolbar-full" href="{{ '/search/' | url }}">全文搜索 →</a>
+    </div>
+    <div class="corp-filter-group">
+      <span class="corp-filter-heading" id="corp-sort-heading">评级</span>
+      <div class="tag-wrap">
+        <nav class="tag-bar" id="corp-sorts" aria-labelledby="corp-sort-heading">
+          <button type="button" class="chip chip-pvp is-active" data-sort="pvp" aria-pressed="true" title="按武德（前线交火与 PVP 活跃度）由高到低">武德 ↓</button>
+          <button type="button" class="chip chip-shenren" data-sort="shenren" aria-pressed="false" title="按含神量（现役神人与出格黑料浓度）由高到低">含神量 ↓</button>
+          <button type="button" class="chip chip-influence" data-sort="tank" aria-pressed="false" title="按肉度（损失数 ÷ 击杀数）由高到低">肉度 ↓</button>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="corp-filter-row">
+    <div class="corp-filter-group">
+      <span class="corp-filter-heading" id="corp-state-heading">状态</span>
+      <div class="tag-wrap">
+        <nav class="tag-bar" id="corp-states" aria-labelledby="corp-state-heading">
+          {%- for group in corps | groupCorps %}<button type="button" class="chip chip-{{ group.kind }}" data-state="{{ group.key }}" data-note="{{ group.note }}" aria-pressed="false">{{ group.name }}<small>{{ group.items.length }}</small></button>{% endfor %}
+          <button type="button" class="chip" data-state="all" aria-pressed="false">全部<small>{{ corps.length }}</small></button>
+        </nav>
+        <button type="button" class="tag-more" aria-controls="corp-states" aria-expanded="false" hidden>展开 ▾</button>
+      </div>
+    </div>
+    <div class="corp-filter-group">
+      <span class="corp-filter-heading" id="corp-zone-heading">区域</span>
+      <div class="tag-wrap">
+        <nav class="tag-bar" id="corp-zones" aria-labelledby="corp-zone-heading">
+          <button type="button" class="chip is-active" data-zone="" aria-pressed="true">全部<small>{{ corps.length }}</small></button>
+          {%- for z in corps | corpZoneChips %}<button type="button" class="chip" data-zone="{{ z.key }}" aria-pressed="false">{{ z.name }}<small>{{ z.count }}</small></button>{% endfor %}
+        </nav>
+        <button type="button" class="tag-more" aria-controls="corp-zones" aria-expanded="false" hidden>展开 ▾</button>
+      </div>
+    </div>
+  </div>
+  <div class="corp-filter-group">
+    <span class="corp-filter-heading" id="corp-alliance-heading">联盟</span>
+    <div class="tag-wrap">
+      <nav class="tag-bar" id="corp-alliances" aria-labelledby="corp-alliance-heading">
+        <button type="button" class="chip is-active" data-alliance="" aria-pressed="true">全部<small>{{ corps.length }}</small></button>
+        {%- for a in corps | corpAllianceChips %}<button type="button" class="chip" data-alliance="{{ a.name }}"{% if a.title %} title="{{ a.title }}"{% endif %} aria-pressed="false">{{ a.name }}<small>{{ a.count }}</small></button>{% endfor %}
+      </nav>
+      <button type="button" class="tag-more" aria-controls="corp-alliances" aria-expanded="false" hidden>展开 ▾</button>
+    </div>
+  </div>
+</div>
+<p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
+
+<ol id="corp-cards" class="cards corp-cards">
+{%- for c in corps %}
+  {% include "corp-card.njk" %}
+{%- endfor %}
+</ol>
+{#- 首屏就只露默认分类，免得全量卡片闪一下；无 JS 时不加这个类，全部可读。 -#}
+<script>if(!location.search)document.getElementById('corp-cards').classList.add('is-default')</script>
+
+<script type="module" src="{{ '/assets/js/corps.js' | url }}?v={{ site.build }}"></script>

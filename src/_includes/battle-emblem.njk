@@ -1,15 +1,35 @@
-{# 目录与详情共用；每方一枚主要组织原图标，刀口颜色随档位，不表示胜负。 #}
-{% macro battleEmblem(sides, tier, size = "small") %}
-<div class="battle-emblem battle-emblem-{{ size }} battle-emblem-sides-{{ sides.length }}{% if tier %} battle-emblem-tier-{{ tier }}{% endif %}" role="img" aria-label="对阵战徽：{% for s in sides %}{{ s.name }}{% if s.logos.length %}（{% for o in s.logos %}{{ o.name }}{% if not loop.last %}、{% endif %}{% endfor %}）{% endif %}{% if not loop.last %}；{% endif %}{% endfor %}" data-pagefind-ignore>
-  {% for s in sides %}
-  <span class="battle-emblem-side" aria-hidden="true">
-    {% for o in s.logos %}<img src="{{ o.src | url }}" width="128" height="128" alt="" {% if size == "small" %}loading="lazy"{% endif %} decoding="async">{% else %}<span class="battle-emblem-initials">{{ s.initials }}</span>{% endfor %}
-  </span>
-  {% endfor %}
+{# 战役头图：有视频封面用封面，否则呈现深空战术推演档案图版；一律 16:9。 #}
+{% macro battleEmblem(sides, cover = null, lazy = false, system = "") %}
+<div class="battle-emblem {% if cover %}battle-emblem-cover{% else %}battle-emblem-archive battle-emblem-sides-{{ sides.length }}{% endif %}" aria-hidden="true" data-pagefind-ignore>
+  {% if cover %}
+  <img src="{{ cover | url }}" width="960" height="540" alt="" {% if lazy %}loading="lazy"{% endif %} decoding="async">
+  {% else %}
+  <div class="battle-archive-plate">
+    <div class="archive-plate-bg">
+      {% if system %}<span class="archive-sys-ghost" lang="en">{{ system }}</span>{% endif %}
+      <div class="archive-tactical-grid"></div>
+    </div>
+    <div class="archive-clash">
+      {% for s in sides %}
+      <div class="archive-side archive-side-{{ loop.index }}">
+        <div class="archive-crest">
+          {% for o in s.logos %}<img src="{{ o.src | url }}" width="64" height="64" alt="" {% if lazy %}loading="lazy"{% endif %} decoding="async">{% else %}<span class="archive-initials">{{ s.initials }}</span>{% endfor %}
+        </div>
+        <span class="archive-side-label">{{ s.name }}</span>
+      </div>
+      {% if loop.first and not loop.last %}
+      <div class="archive-vs-mark">
+        <span class="archive-vs-line"></span>
+        <span class="archive-vs-badge">VS</span>
+        <span class="archive-vs-line"></span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="archive-tagline">
+      <span>TACTICAL ENGAGEMENT ARCHIVE</span>
+    </div>
+  </div>
+  {% endif %}
 </div>
 {% endmacro %}
-
-{# 前两方主标作背景水印（--wm1 左、--wm2 右），用在行或页头的 style 里；纯装饰。 #}
-{% macro emblemVars(sides) -%}
-{% for s in sides.slice(0, 2) %}{% if s.logos.length %}--wm{{ loop.index }}: url('{{ s.logos[0].src | url }}');{% endif %}{% endfor %}
-{%- endmacro %}

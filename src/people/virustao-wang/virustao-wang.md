@@ -2,7 +2,7 @@
 赤翼，BOP 的 virustao wang，也用 R virustao、virustao shao。头衔挂着“大炮是丈量国土面积”，他的舰队经历里则有另一份工作：带队，让队伍去开炮。
 
 ::: 红料 BOP 的日常带队
-2026 年 9 月 27 日，DC 舰队在 G-M4GK 击毁 Overclocker. 的 k'dai 驾驶的[Lachesis](https://zkillboard.com/kill/138726918/)。宽带山、BOP 等军团都有人在场，[卖手](../2115186880/)也在名单中；这一号是赤翼带的，R virustao 同场跟队。
+2026 年 9 月 27 日，DC 舰队在 G-M4GK 击毁 Overclocker. 的 k'dai 驾驶的[拉克希斯](https://zkillboard.com/kill/138726918/)。宽带山、BOP 等军团都有人在场，[卖手](../2115186880/)也在名单中；这一号是赤翼带的，R virustao 同场跟队。
 
 九月 BOP 月榜，收录号以 228 次参与击杀排第三。收录号累计参与击杀约 2.07 万次，所涉目标总值约 5.45T ISK，主要活动在 00 区；这些记录把一场日常抓人放进了他更长的作战经历里，也说明他在 BOP 这一带是常年带队、日日开麦的那种 FC。
 

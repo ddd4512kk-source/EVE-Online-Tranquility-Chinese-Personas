@@ -1,0 +1,115 @@
+---
+layout: base.njk
+bodyClass: page-corp
+---
+{%- set prev = collections.corps | getPreviousCollectionItem(page) -%}
+{%- set next = collections.corps | getNextCollectionItem(page) -%}
+{%- set members = collections.people | corpMembers(corp.id, esi.ceo.id, linkedPeople) -%}
+{%- set fought = collections.battles | corpBattles(corp.id) -%}
+{%- set backHref = '/corps/' %}{% set backLabel = '返回军团目录' %}
+{% include "back.njk" %}
+<article class="bio corp corp-style-{{ styleKey }}" data-pagefind-body data-pagefind-filter="板块:军团">
+  <section class="corp-billboard">
+    <img class="corp-watermark" src="{{ emblemSrc | url }}" alt="" width="256" height="256" aria-hidden="true" data-pagefind-ignore>
+    <div class="corp-marquee" data-pagefind-ignore>
+      <div class="corp-marquee-left">
+        {%- if esi.alliance %}<a class="corp-aff-tag" href="https://evewho.com/alliance/{{ esi.alliance.id }}" target="_blank" rel="noopener noreferrer" title="{{ esi.alliance.name }}">{{ esi.alliance.ticker }} · {{ esi.alliance.name }}</a>{% else %}<span class="corp-aff-tag">独立军团</span>{% endif %}
+        {%- for z in zones %}<span class="corp-zone-tag">{{ z.name }}</span>{% endfor -%}
+      </div>
+      <div class="corp-marquee-right">
+        {%- if status.state == "active" %}<span class="corp-pill pill-live">活跃</span>{% else %}<span class="corp-pill pill-ash">沉寂</span>{% endif %}
+        {%- if status.recruiting %}<span class="corp-pill pill-recruit">招新中</span>{% elif esi.invite_only %}<span class="corp-pill pill-invite">仅限邀请</span>{% endif -%}
+      </div>
+    </div>
+
+    <header class="corp-hero-body">
+      <span class="corp-crest{% if status.state == 'dormant' %} is-dormant{% endif %}">
+        <img class="corp-crest-img" src="{{ emblemSrc | url }}" alt="{{ esi.name }} 的军团徽标" width="116" height="116" data-pagefind-meta="image[src]">
+      </span>
+      <div class="corp-id">
+        <div class="corp-title-row">
+          <h1 class="corp-name"><span data-pagefind-meta="title">{{ displayName }}</span><span class="corp-suffix">军团志</span></h1>
+          <span class="corp-ticker">[{{ esi.ticker }}]</span>
+        </div>
+        <p class="corp-reg" lang="en">
+          <a href="https://evewho.com/corporation/{{ corp.id }}" target="_blank" rel="noopener noreferrer" title="军团 ID：{{ corp.id }}">{{ esi.name }}</a>
+          <span lang="zh-CN">· 现任 CEO {% if esi.ceo.id > 1 %}<a href="https://evewho.com/character/{{ esi.ceo.id }}" target="_blank" rel="noopener noreferrer">{{ esi.ceo.name }}</a>{% else %}空缺{% endif %}</span>
+        </p>
+        <p class="corp-slogan"><span class="corp-quote-mark" aria-hidden="true">“</span>{{ corp.epithet }}<span class="corp-quote-mark" aria-hidden="true">”</span></p>
+      </div>
+    </header>
+
+    <div class="corp-kpis" data-pagefind-ignore>
+      <div class="corp-kpi">
+        <span class="kpi-label">在册规模</span>
+        <strong class="kpi-val">{{ esi.member_count }}<small>名角色</small></strong>
+        <span class="kpi-sub">创立于 <time datetime="{{ esi.date_founded }}">{{ esi.date_founded }}</time></span>
+      </div>
+      <div class="corp-kpi">
+        <span class="kpi-label">累计战绩</span>
+        <strong class="kpi-val"><a href="https://zkillboard.com/corporation/{{ corp.id }}/" target="_blank" rel="noopener noreferrer">{{ zkb.kills | killCount }}</a><small>击杀</small></strong>
+        <span class="kpi-sub">总摧毁 {{ (zkb.isk_destroyed / 1000000000) | isk }}</span>
+      </div>
+      <div class="corp-kpi">
+        <span class="kpi-label">zKB 排位</span>
+        <strong class="kpi-val">{% if zkb.rank_recent %}#{{ zkb.rank_recent }}<small>近期榜</small>{% elif zkb.rank %}#{{ zkb.rank }}<small>总榜</small>{% else %}未上榜{% endif %}</strong>
+        <span class="kpi-sub">{% if zkb.rank and zkb.rank_recent %}历史总榜 #{{ zkb.rank }}{% elif status.lastActive %}最近击杀 {{ status.lastActive }}{% else %}暂无排位{% endif %}</span>
+      </div>
+      <div class="corp-kpi">
+        <span class="kpi-label">常驻区域</span>
+        <strong class="kpi-val kpi-val-zone">{% if zones.length %}{% for z in zones %}{% if not loop.first %} · {% endif %}{{ z.name }}{% endfor %}{% else %}全域活动{% endif %}</strong>
+        <span class="kpi-sub">{% if status.lastActive %}最近击杀 {{ status.lastActive }}{% else %}暂无近期击杀{% endif %}</span>
+      </div>
+    </div>
+
+    <div class="corp-eval-box" data-pagefind-ignore>
+      <div class="corp-eval-head">
+        <span class="corp-eval-title">野史印象评级</span>
+        <span class="corp-eval-sub">0–100 综合印象</span>
+      </div>
+      {%- set ratings = corp.ratings -%}
+      {%- set dims = ratingDimensions -%}
+      {%- set ratingFull = true -%}
+      {% include "corp-ratings.njk" %}
+    </div>
+
+    {% if status.recruiting or recruitQq or recruitment %}
+    <div class="corp-cta{% if status.recruiting %} is-open{% endif %}" data-pagefind-ignore>
+      <div class="corp-cta-main">
+        <span class="corp-cta-badge">{% if status.recruiting %}招新开放中{% else %}往期招新记录{% endif %}</span>
+        <span class="corp-cta-text">{% if recruitQq %}招新 QQ 群：<strong>{{ recruitQq }}</strong>{% elif status.recruiting %}详见游戏内军团简介招募说明{% else %}当前未见公开招新群号{% endif %}</span>
+      </div>
+      {% if recruitment %}<a class="corp-cta-btn" href="{{ recruitment.source }}" target="_blank" rel="noopener noreferrer">查看 {{ recruitment.last_seen }} 招新帖 →</a>{% endif %}
+    </div>
+    {% endif %}
+  </section>
+
+  {%- set memberCount = members.ceo.length + members.current.length + members.former.length + members.mentioned.length %}
+  {% if memberCount %}
+  <details class="corp-roll" data-pagefind-ignore>
+    <summary><h2>列传中人</h2> <small>{{ memberCount }} 人</small></summary>
+    {% for row in [['现任 CEO', members.ceo], ['现属成员', members.current], ['曾属成员', members.former], ['有过交集', members.mentioned]] %}{% if row[1].length %}<p class="corp-members-head">{{ row[0] }}</p><p class="chips">{% for p in row[1] %}<a class="chip{% if p.data.famous %} chip-fame{% endif %}" href="{{ p.url | url }}">{{ p.data.displayName }}</a>{% endfor %}</p>{% endif %}{% endfor %}
+  </details>
+  {% endif %}
+
+  <div class="prose corp-prose">
+    {{ content | safe }}
+  </div>
+
+  {% if fought.length %}
+  <details class="corp-roll" data-pagefind-ignore>
+    <summary><h2>参战录</h2> <small>{{ fought.length }} 场</small></summary>
+    <ul class="corp-battles">{% for f in fought %}<li><a href="{{ f.battle.url | url }}">{{ f.battle.data.title }}</a> <small>{{ f.battle.data.startYmd }} · 本团 {{ f.pilots }} 人</small></li>{% endfor %}</ul>
+  </details>
+  {% endif %}
+
+  <p class="snapshot corp-snapshot" data-pagefind-ignore>数据快照：{{ esi.as_of }} · <a href="https://zkillboard.com/corporation/{{ corp.id }}/" target="_blank" rel="noopener noreferrer">zKillboard</a> · <a href="https://evewho.com/corporation/{{ corp.id }}" target="_blank" rel="noopener noreferrer">EveWho</a></p>
+</article>
+
+{% include "glossary-dialog.njk" %}
+
+<nav class="pager corp-pager" aria-label="按创立时间翻页" data-pagefind-ignore>
+  {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>更早创立</small>{{ prev.data.displayName }}</a>{% else %}<span></span>{% endif %}
+  <a class="pager-random" href="{{ '/corps/' | url }}">军团目录</a>
+  {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>更晚创立</small>{{ next.data.displayName }}</a>{% else %}<span></span>{% endif %}
+</nav>

@@ -4,11 +4,11 @@ import { fileURLToPath } from "node:url";
 
 const GLOSSARY = new URL("../docs/glossary.json", import.meta.url);
 const STATUSES = ["已确认", "待复核"];
-const KINDS = ["ship", "term"];
+const KINDS = ['ship', 'structure', 'term'];
 const HELP = `术语查询与校验；docs/glossary.json 是词条与蓝字匹配配置的唯一来源。
 
 用法：npm run glossary -- [关键词] [选项]
-  --kind <类别>   ship（舰船）/ term（其他术语）
+  --kind <类别>   ship（舰船）/ structure（建筑）/ term（其他术语）
   --status <状态> 已确认 / 待复核
   --limit <数量>  每页最多返回条数，默认 20，必须为正整数
   --offset <数量> 跳过的命中数，默认 0，必须为非负整数
@@ -32,7 +32,7 @@ const HELP = `术语查询与校验；docs/glossary.json 是词条与蓝字匹�
   meaning、avoid、note：中文释义、误译提醒、上下文说明；无提醒时 avoid 用空字符串。
     说明可直接含竖线，无需表格转义；旧备注的反引号保留在 JSON 中，显示时去除。
   status：已确认 / 待复核；格式迁移不升级状态。
-  kind：ship / term，显式填写，不从备注措辞猜类别。
+  kind：ship / structure / term，显式填写，不从备注措辞猜类别。
   links：自动蓝字配置列表，每项 { "word": "实际匹配文字" }；[] 表示只展示词条。
     匹配区分英文大小写，不同写法逐项登记；多个词条不得争用同一匹配文字。
   links[].exclude_suffixes：可选排除后缀；如“泡泡”接“船”、“凤凰”接“城”时不标注。
@@ -40,7 +40,7 @@ const HELP = `术语查询与校验；docs/glossary.json 是词条与蓝字匹�
 
 最长匹配优先，英文词保留边界检查；标题、引用、已有链接与代码不加蓝。
 不从“舰船名；”等备注前缀推定匹配。既有同名匹配保留实际生效的一项，
-其余保留释义并记 link_note，不擅自裁定译名；写作用语约定见 docs/content-rules.md 的“术语用法”。
+其余保留释义并记 link_note，不擅自裁定译名；写作用语约定见 docs/terminology.md。
 修改后运行校验与构建；npm run check 和 npm run build 均先校验版本、字段、
 重复词条、重复蓝字和排除后缀，失败即停止，不跳过坏词条。
 `;

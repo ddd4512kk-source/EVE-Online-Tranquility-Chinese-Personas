@@ -5,7 +5,7 @@
 
 这个名字也在旧日的大战名单里。2020年10月的[FWST-8](../../battles/fwst-8-2020/)，他开[缪宁](https://zkillboard.com/kill/87682118/)参与交火；次年[A1-AUH](../../battles/a1-auh-2021/)又在FRT与友军一侧留下损失记录。从成群的巡洋舰打到总决赛后勤，活计由一起开火换成照看别人能不能接着开火。旧战场上的人多，比赛场里的人少，自己那一个位置都不能靠“先别急”三个字省掉。
 
-AT22总决赛[第二局](https://open.eve-nt.uk/portal/match/4120)，Lw x开Deacon，与[copper](../2118201493/)的另一条Deacon同场，替DC承担后勤。那一场DC十条船全灭，连旗舰也丢了。后勤位的难处就在这里：你盯的是队友的血条，最后自己的名字也得出现在损失栏；输完这一轮，整支队还要把下一轮的人和船重新摆好。他这趟本是 DC 金主花 2T ISK 从 AVDOT 请来的外援，8 月进 DC 的参赛军团 It's MyGO.，总决赛一打完，当天就回了 AVDOT，后勤给龙焰补到最后一局，人一天都没多留。
+AT22总决赛[第二局](https://open.eve-nt.uk/portal/match/4120)，Lw x开执事，与[copper](../2118201493/)的另一条执事同场，替DC承担后勤。那一场DC十条船全灭，连旗舰也丢了。后勤位的难处就在这里：你盯的是队友的血条，最后自己的名字也得出现在损失栏；输完这一轮，整支队还要把下一轮的人和船重新摆好。他这趟本是 DC 金主花 2T ISK 从 AVDOT 请来的外援，8 月进 DC 的参赛军团 It's MyGO.，总决赛一打完，当天就回了 AVDOT，后勤给龙焰补到最后一局，人一天都没多留。
 
 他这一届的出场表很短：资格赛[3869](https://open.eve-nt.uk/portal/match/3869)对Meta Reloaded、[3898](https://open.eve-nt.uk/portal/match/3898)对Platinum Sensitivity.、[3961](https://open.eve-nt.uk/portal/match/3961)对Punishing Gray Raven、[3988](https://open.eve-nt.uk/portal/match/3988)对Rusty Hyenas Clan，四场四胜；正赛一场没上；总决赛五局里，只有第二局这一次。四场全胜的人，唯一踏进决赛的一局偏偏是全灭的那一局，此后三局的名单里再没有他。
 :::
@@ -19,5 +19,5 @@ AT22总决赛[第二局](https://open.eve-nt.uk/portal/match/4120)，Lw x开Deac
 :::
 
 ::: 评
-Lw x劝人别急，自己开着后勤进了总决赛。Deacon没回来，队伍还把系列赛打到了第五局；银牌上那一点光，后勤也有自己的一份。
+Lw x劝人别急，自己开着后勤进了总决赛。执事没回来，队伍还把系列赛打到了第五局；银牌上那一点光，后勤也有自己的一份。
 :::

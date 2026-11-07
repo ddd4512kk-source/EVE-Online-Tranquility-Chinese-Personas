@@ -2,10 +2,10 @@
   "id": 2113386745,
   "name": "Sarion Ikaruga",
   "birthday": "2017-11-01T13:26:28Z",
-  "corporation_id": 98794444,
+  "corporation_id": 98629605,
   "affiliation": {
-    "corporation_id": 98794444,
-    "alliance_id": 99009163,
+    "corporation_id": 98629605,
+    "alliance_id": 99010007,
     "left_at": null
   },
   "history": [
@@ -252,10 +252,33 @@
     {
       "corporation_id": 98794444,
       "start": "2026-08-04T10:17:00Z",
+      "end": "2026-11-06T12:41:00Z"
+    },
+    {
+      "corporation_id": 1000165,
+      "start": "2026-11-06T12:41:00Z",
+      "end": "2026-11-06T14:24:00Z"
+    },
+    {
+      "corporation_id": 98629605,
+      "start": "2026-11-06T14:24:00Z",
       "end": null
     }
   ],
-  "fetched_at": "2026-10-07",
+  "fetched_at": "2026-11-07",
+  "person": {
+    "cn_name": "斑鸠",
+    "aliases": [
+      "Sarion"
+    ],
+    "epithet": "简介第一句 Be Humble，第二句 PVP 教程指向退出游戏。",
+    "tags": [
+      "00区",
+      "B站",
+      "AT19冠军",
+      "AT22亚军"
+    ]
+  },
   "identity": {
     "version": 1,
     "alts": [],
@@ -267,19 +290,5 @@
       "last_active": "2026-01",
       "as_of": "2026-10-23"
     }
-  },
-  "person": {
-    "cn_name": "斑鸠",
-    "aliases": [
-      "Sarion"
-    ],
-    "epithet": "简介第一句 Be Humble，第二句 PVP 教程指向退出游戏。",
-    "tags": [
-      "00区",
-      "B站",
-      "D.C",
-      "AT19冠军",
-      "AT22亚军"
-    ]
   }
 }
