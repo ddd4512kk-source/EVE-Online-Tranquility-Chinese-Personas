@@ -1,0 +1,258 @@
+{
+  "status": "reviewed",
+  "note": "逐事登记复核，重料均充分发挥",
+  "evidence": [
+    "src/people/snow-kidfox/materials-snow-kidfox.md",
+    "docs/sources/at22-dracarys.md",
+    "src/people/snow-kidfox/snow-kidfox.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐段读完整正文、本人素材、两张原图及共享AT22材料。三项事件均保留，新料采用借钱刷怪、不听提醒、自动导航、高安强暴、装死、代还与不还就踢的后果。借款金额币种和代还者未知，诸葛亮未误并Sayler。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 借款、帕拉丁自动导航与代还"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 决赛后半程逐场记录"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "两项重事充分展开；高安舰损处在借款信用和留团后果的因果链中，不单独抬成重料，综合KB另作普通画像。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 借款、帕拉丁自动导航与代还"
+        }
+      ],
+      "items": [
+        {
+          "title": "AT22亚军队经历",
+          "weight": "heavy",
+          "reason": "实际参加世界级赛事决赛获亚军，是核心红料。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "contains": "| Snow Kidfox |"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/snow-kidfox/snow-kidfox.md",
+            "contains": "[DC的官方名册]"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "不同比赛圈的熟人合为同一阵容，个人落回十人中的一席。",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "[DC的官方名册]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "兵书远交近攻的尺度转为五局即时胜负，大船全灭后换支援船。",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "决赛里，寸与尺被换成了五局"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "银牌归整队，未补造个人操作功劳，名片添奖牌仍共同承担末局胜负。",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "他把总览和旧建筑名字挂在个人名片里"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "具体船位与胜负有存档，原有赛场故事完整保留，与旧账产生前后反差。"
+        },
+        {
+          "title": "借款买船、自动导航及他人代还",
+          "weight": "heavy",
+          "reason": "装死不还的点名评价涉及借款信用，代还决定是否被踢，解释老赖称呼的具体故事。",
+          "source": {
+            "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+            "contains": "诸葛亮回忆："
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/snow-kidfox/snow-kidfox.md",
+            "contains": "刚来欧服时，小沙狐一穷二白"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "穷新人借启动资金求翻身，继而把一船家当交给自动导航。",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "刚来欧服时，小沙狐一穷二白"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "刷怪本钱先成为海盗战果，船炸不使借款消失；诸葛亮原话承担装死指控。",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "结果小号AIIahu Akbar真在高安出了事"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "代还、旁人追问、不还就踢推进到交情后果，收于有人捞回退路，未点名代还者。",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "这件事最后还有人收场"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "三段分别推进借款起因、爆船旧账、代还后的留团后果，有具体人物冲突，非转录加笑话。"
+        },
+        {
+          "title": "长期随队作战画像",
+          "weight": "ordinary",
+          "reason": "累计统计和代表参战说明玩法，普通舰损不另造重事。",
+          "source": {
+            "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+            "contains": "2026-11-02核读"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/snow-kidfox/snow-kidfox.md",
+            "contains": "他的[公开战绩]"
+          },
+          "note": "独立KB红料保留长期玩法与换船续战，未把集体战果作个人战果。"
+        },
+        {
+          "title": "4-HWWF移动式仓库卡位，拖延新星城锚定",
+          "weight": "heavy",
+          "reason": "新增故事，骨架来自转述：4H、移动式仓库、星城锚定被拖延；细节为野史发挥",
+          "source": {
+            "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+            "heading": "## 4-HWWF：移动式仓库卡位拖延新星城锚定"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/snow-kidfox/snow-kidfox.md",
+            "contains": "2026年，FRT 在 4-HWWF 要立一座新星城"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "选址、倒计时、窗口期",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "所以这一步必须干净利落"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "先一步溜到锚点放箱子",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "小沙狐没打算让它干净利落"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "工程组对位失败、找人、清箱子、时间表推迟",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "星城锚定的时间表被迫往后推"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "当年供不起帕拉丁，如今几只箱子按住一座星城",
+              "evidence": {
+                "file": "src/people/snow-kidfox/snow-kidfox.md",
+                "contains": "如今拿几只仓库，就让对面一座星城迟迟落不了地"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "完整小故事"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "开篇与末评把银牌和借款旧账并列，新重事用三段承担难堪，赛事和作战画像未缩减。黑料落于信用和交情，末评回扣自己挣成绩与别人结旧账，全文重心匹配。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/snow-kidfox.md",
+          "contains": "小沙狐，游戏名Snow Kidfox"
+        },
+        {
+          "file": "src/people/snow-kidfox/snow-kidfox.md",
+          "contains": "小沙狐的“近攻”打了十年"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/people/snow-kidfox/96137114-id.json",
+    "src/people/snow-kidfox/materials-snow-kidfox.md",
+    "src/people/snow-kidfox/snow-kidfox.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/ignoitton-2024/ignoitton-2024.json",
+    "src/battles/ignoitton-2024/ignoitton-2024.md",
+    "src/battles/ignoitton-2024/materials-ignoitton-2024.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/ostingele-2024/ostingele-2024.json",
+    "src/battles/ostingele-2024/ostingele-2024.md",
+    "src/battles/ostingele-2024/materials-ostingele-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "5793f6f4ac27ecbea7b0298adc15ac432e2737d284497086cd0ab1535a699fb4",
+  "inputParts": {
+    "docs/sources/at22-dracarys.md": "a3fb3d36d55bb941a196d51434052a39037649a8488757875fc4b32441296426",
+    "src/people/snow-kidfox/96137114-id.json": "14665289a724de3de15e7cb4b6d711f3e27c227d2d6a4aff05801bc3a40e247c",
+    "src/people/snow-kidfox/materials-snow-kidfox.md": "a3e835c2b74f91b5ef37c4a45b4a648449d47f9aa02bfa743bab5b6a88f9739f",
+    "src/people/snow-kidfox/snow-kidfox.md": "067cfea7673af2a950852f2063c7cb9e1a91aef0bc2fac686b5ecd2a1a0dcd1c",
+    "battle:1n-fj8-2024": "948db7fa526f01aad1b8c716201bf813f0641598cc861d33411d59e5c5caeafe",
+    "battle:amamake-2026": "85cb6fbc034f84ebd95d8e6f01871339d0c480ab26f5c0837b1a1f7b866f1315",
+    "battle:egmar-2025-02-23": "a2bd20479604ed062b61d6372960d2e458b9d24d2016237530a83045413bd85e",
+    "battle:ignoitton-2024": "75762d0220f2035a3712f3defc7a42138e1be3ee5aab90f6b5715861b5726147",
+    "battle:lantorn-2025": "5b7371c3823c05a26eea25aa77068802d87c036d635cc89f0286c4afe7f78980",
+    "battle:old-man-star-2023": "415a260d9b8f1776326a69428605b67e3443cf38d6d408beba47d87b1aef8e98",
+    "battle:ostingele-2024": "f47b2734a5f960860aba4b506b202d249247574ee017950aff9265551005c28e",
+    "battle:otsasai-2021": "b365ea33847c65fd4bb2813eab350b26829114f41e026cab9e13ab3c3ef9b99a",
+    "battle:sahtogas-2026": "e3e64c7ec14e835b7221759a66080ffed9d73f4964a8738f49b0aab58f345ebf",
+    "battle:siseide-2025": "6a6f34ddaa522949fd1d9bb59c89e8e0fe88b91691c20215cb34ca968762ca7c",
+    "battle:taff-2026": "b60f88229e18b7df59507f7753d07d850c9538c868cc575d297cdedae6c697de"
+  },
+  "level": 1
+}

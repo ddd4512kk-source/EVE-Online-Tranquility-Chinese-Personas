@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "228404513",
+  "name": "FGDH123",
+  "url": "https://space.bilibili.com/228404513/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "FGDH123",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/hanbo-han/materials-hanbo-han.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1Q9ioBuErR",
+      "title": "[eveonline]图尔鲁尔本土纯外国人汉堡汉最新力作超级乱七八糟20人巨型散打在北方被中国人追着乱跑",
+      "url": "https://www.bilibili.com/video/BV1Q9ioBuErR/",
+      "owner_uid": "228404513",
+      "published_at": "2026-01-05T19:58:52.000Z",
+      "captured_at": "2026-11-06T23:15:14.812Z",
+      "description": "",
+      "stats": {
+        "views": 1024,
+        "replies": 11
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/hanbo-han/materials-hanbo-han.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

@@ -9,11 +9,12 @@
     "prebuild": "npm run doctor && npm run lint",
     "find": "node scripts/find-character.mjs",
     "fetch": "node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs",
-    "check": "npm run doctor && npm run lint && npm run glossary:check && npm run bilibili:check && npm run tieba:check && npm run corporations:check && node scripts/fetch-characters.mjs --check && node scripts/check-battles.mjs && node scripts/review.mjs check",
+    "check": "npm run doctor && npm run lint && npm run glossary:check && npm run bilibili:check && npm run tieba:check && npm run corporations:check && npm run corps:check && npm run names:check && node scripts/fetch-characters.mjs --check && node scripts/check-battles.mjs && node scripts/review.mjs check",
     "audit:battle-participation": "node scripts/audit-battle-participation.mjs",
-    "build": "npm run glossary:check && npm run bilibili:check && npm run tieba:check && npm run corporations:check && node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs && eleventy && pagefind --site _site",
+    "build": "npm run glossary:check && npm run bilibili:check && npm run tieba:check && npm run corporations:check && npm run corps:check && npm run names:check && node scripts/fetch-characters.mjs && node scripts/check-battles.mjs --fetch && node scripts/fetch-battle-emblems.mjs && eleventy && pagefind --site _site",
     "serve": "npm run build && eleventy --serve",
     "fetch:battle-logos": "node scripts/fetch-battle-emblems.mjs",
+    "covers": "node scripts/make-battle-covers.mjs",
     "bilibili:sync": "node scripts/bilibili-archive.mjs sync",
     "bilibili:check": "node scripts/bilibili-archive.mjs check",
     "tieba": "node scripts/tieba-archive.mjs",
@@ -28,7 +29,12 @@
     "instructions:sync": "node scripts/check-instructions.mjs --sync",
     "lint": "eslint . --max-warnings 0",
     "corporations": "node scripts/corporation-archive.mjs",
-    "corporations:check": "node scripts/corporation-archive.mjs check"
+    "corporations:check": "node scripts/corporation-archive.mjs check",
+    "corps": "node scripts/corp-workbench.mjs",
+    "corps:check": "node scripts/check-corps.mjs",
+    "names:check": "node scripts/check-game-names.mjs",
+    "corps:pilots": "node scripts/research/corp-pilots.mjs",
+    "corps:snapshot": "node scripts/research/corp-snapshot.mjs"
   },
   "engines": {
     "node": "^20.19.0 || ^22.13.0 || >=24.0.0"

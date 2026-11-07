@@ -4,29 +4,42 @@
   "name": "探归者夕迁Official",
   "url": "https://space.bilibili.com/8702252/",
   "identity": {
-    "state": "candidate",
-    "person": null,
-    "material": "docs/corporations/notes/member-research.md",
-    "label": "军团榜线索",
+    "state": "confirmed",
+    "person": "chevalier-tan",
+    "material": "src/people/chevalier-tan/materials-chevalier-tan.md",
+    "label": "探归",
     "evidence": [
-      "对应确定：本人角色简介直链；头衔“探归 总监”，小号Chevalier-Crusader；未立传"
+      "对应确定：本人角色简介直链；头衔“探归 总监”，小号Chevalier-Crusader"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/people/chevalier-tan/materials-chevalier-tan.md",
+        "label": "本人列传素材"
+      }
+    ]
   },
   "channel": {
-    "profile": {},
+    "profile": {
+      "captured_at": "2026-11-07T11:45:00.000Z",
+      "signature": "业余个人势vup，工作繁忙不怎么活动~ 偶尔不定期直播，[联系方式略]",
+      "counters": {
+        "followers": "7143",
+        "videos": "137"
+      },
+      "source": "https://space.bilibili.com/8702252/upload/video"
+    },
     "coverage": {
       "latest": {
-        "state": "legacy_record",
-        "observed_at": null,
-        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "docs/corporations/notes/member-research.md"
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "空间公开投稿中排除星际2、魔兽、冰汽时代、战舰少女、王国风云等非EVE内容，已收录11条EVE相关候选已存channel.listings；未逐项读取作品页。",
+        "evidence": "https://space.bilibili.com/8702252/upload/video"
       },
       "popular": {
-        "state": "legacy_record",
-        "observed_at": null,
-        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "docs/corporations/notes/member-research.md"
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "公开投稿列表（含播放量）已存channel.listings；按全量列表播放数排序代替；未读其余作品页。",
+        "evidence": "https://space.bilibili.com/8702252/upload/video"
       },
       "series": {
         "state": "legacy_record",
@@ -115,6 +128,93 @@
       {
         "text": "两个B站账号已实际点击最多播放并核选中状态，最新／最多首屏及合集目录均有阅读边界。牧星三集合集卡3159与第三集1706分开；旧order=click链接未切换的失败认定保留，未把卡片第二计数当评论数。[第三集的RR／蜜蜂黑名单话题](../sources/muxing-rabbit-tutorial-2026-04.md)8主／9附带回复已读，补王答答与台风原传。EVE老头乐招新12主／8附带、千人会战20主／46附带已归[原账号线索](lova-8899.md)，包括作者自述海盗小队抓掉线鹏鲲；不把别人的会战日期／星系或片段套给他，账号游戏角色仍未对上。",
         "source": "docs/corporations/notes/member-research.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-11-07T11:45:00.000Z",
+        "source": "https://space.bilibili.com/8702252/upload/video",
+        "scope": "公开投稿列表筛选收录11条EVE相关视频：标题、发布日、当时播放；未逐项读取作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1D8fNB5EFo",
+            "title": "2026新年低安旗舰战！ DC无畏常规双视角",
+            "url": "https://www.bilibili.com/video/BV1D8fNB5EFo/",
+            "published": "2026-02-23",
+            "views": 2241
+          },
+          {
+            "bvid": "BV1cnnfziEvY",
+            "title": "【熊猫人】EVE桌游 开箱视频 （EVE：War For New Eden）",
+            "url": "https://www.bilibili.com/video/BV1cnnfziEvY/",
+            "published": "2025-09-28",
+            "views": 2179
+          },
+          {
+            "bvid": "BV1QT421y7Af",
+            "title": "【熊猫人】EVE欧服 4.26日南方U-Q大型会战-PH华人社区群主视角",
+            "url": "https://www.bilibili.com/video/BV1QT421y7Af/",
+            "published": "2024-04-26",
+            "views": 1129
+          },
+          {
+            "bvid": "BV1eH4y1A76x",
+            "title": "【熊猫人】EVE欧服 4.23日南方遭遇战-PH华人社区群主视角",
+            "url": "https://www.bilibili.com/video/BV1eH4y1A76x/",
+            "published": "2024-04-24",
+            "views": 980
+          },
+          {
+            "bvid": "BV1T7421T7sg",
+            "title": "南方战争会打到哪？帝国是否陷入低谷？欢迎收看漫谈星空",
+            "url": "https://www.bilibili.com/video/BV1T7421T7sg/",
+            "published": "2024-01-31",
+            "views": 9036
+          },
+          {
+            "bvid": "BV1cj411H7p5",
+            "title": "【熊猫人】EVE欧服 12.22A低安大战-PH华人社区群主视角（巴盖斯火力+后勤）",
+            "url": "https://www.bilibili.com/video/BV1cj411H7p5/",
+            "published": "2023-12-21",
+            "views": 1276
+          },
+          {
+            "bvid": "BV1Gv4y1J7gb",
+            "title": "战损一万亿！2023最大绞肉机之战为何爆发？",
+            "url": "https://www.bilibili.com/video/BV1Gv4y1J7gb/",
+            "published": "2023-04-13",
+            "views": 32126
+          },
+          {
+            "bvid": "BV1ya411H7MQ",
+            "title": "【熊猫人】SATL邀请赛 Hist.KingSlayer V.S PH.hateme",
+            "url": "https://www.bilibili.com/video/BV1ya411H7MQ/",
+            "published": "2022-07-03",
+            "views": 493
+          },
+          {
+            "bvid": "BV1KK4y147Xd",
+            "title": "【探归】vup教你EVE新探索计划-用流式细胞仪分析新冠病毒的数据",
+            "url": "https://www.bilibili.com/video/BV1KK4y147Xd/",
+            "published": "2020-06-16",
+            "views": 1766
+          },
+          {
+            "bvid": "BV15i4y1x7yp",
+            "title": "【探归】EVE欧服 3V奇奇莫拉塌洞日记（吃小鱼大鱼）",
+            "url": "https://www.bilibili.com/video/BV15i4y1x7yp/",
+            "published": "2020-06-10",
+            "views": 805
+          },
+          {
+            "bvid": "BV13c411h7AF",
+            "title": "【探归】vtb教你打EVE之无人机10-10（全网最全攻略，含大量防抓干货，欧国服通用）",
+            "url": "https://www.bilibili.com/video/BV13c411h7AF/",
+            "published": "2020-04-02",
+            "views": 6807
+          }
+        ]
       }
     ]
   },

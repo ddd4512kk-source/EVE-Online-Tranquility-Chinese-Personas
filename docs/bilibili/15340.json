@@ -22,28 +22,95 @@
     "next": "沿已知UID按具体调查需要定向核对空间与作品，不重跑搜索，不读取影像、音轨或字幕。"
   },
   "channel": {
-    "profile": {},
+    "profile": {
+      "captured_at": "2026-11-07T11:45:00.000Z",
+      "signature": "时隔5年半再次投稿EVE。",
+      "counters": {
+        "followers": "2133",
+        "videos": "10"
+      },
+      "source": "https://space.bilibili.com/15340/upload/video"
+    },
     "coverage": {
       "latest": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "空间公开投稿中10条投稿中排除使命召唤等3条非EVE内容，已收录7条EVE相关候选已存channel.listings；未逐项读取作品页。",
+        "evidence": "https://space.bilibili.com/15340/upload/video"
       },
       "popular": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "公开投稿列表（含播放量）已存channel.listings；按全量列表播放数排序代替；未读其余作品页。",
+        "evidence": "https://space.bilibili.com/15340/upload/video"
       },
       "series": {
         "state": "unknown",
         "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
+        "scope": "未读合集页；EVE投稿已包含在公开列表中。",
         "evidence": null
       }
     },
-    "prior_notes": []
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-11-07T11:45:00.000Z",
+        "source": "https://space.bilibili.com/15340/upload/video",
+        "scope": "公开投稿列表筛选收录7条EVE相关视频：标题、发布日、当时播放；未逐项读取作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV14S4y1N79Q",
+            "title": "【4K】战列巡洋舰虫洞猎杀！敌对吨位碾压！8分钟击毁敌方旗舰！【星战前夜/EVE Online】",
+            "url": "https://www.bilibili.com/video/BV14S4y1N79Q/",
+            "published": "2022-03-28",
+            "views": 9777
+          },
+          {
+            "bvid": "BV18S4y1Q7k5",
+            "title": "1000人的星际舰队决战，磁轨炮对火炮的屠杀，1500亿化为灰烬！海盗联军/PIBC F7C-H0 巡洋舰队决战！【EVE Online/星战前夜】",
+            "url": "https://www.bilibili.com/video/BV18S4y1Q7k5/",
+            "published": "2021-12-18",
+            "views": 41933
+          },
+          {
+            "bvid": "BV1KP4y1G7ea",
+            "title": "集结70艘战列航母舰队，却因为12个新人放了烟花！宁静海军指挥学院毕业典礼【EVE/星战前夜】",
+            "url": "https://www.bilibili.com/video/BV1KP4y1G7ea/",
+            "published": "2021-12-12",
+            "views": 38176
+          },
+          {
+            "bvid": "BV1bq4y1r7je",
+            "title": "一场200人的星际战争！80艘战列巡洋舰战沉星海！38IA/F7C跳跃星门攻防战！【EVE Online】",
+            "url": "https://www.bilibili.com/video/BV1bq4y1r7je/",
+            "published": "2021-11-02",
+            "views": 19666
+          },
+          {
+            "bvid": "BV1Ts41197YN",
+            "title": "【EVE】16.2.6 血脉主权战 西岭集团x第七巷VS蓝色联邦",
+            "url": "https://www.bilibili.com/video/BV1Ts41197YN/",
+            "published": "2016-02-15",
+            "views": 2536
+          },
+          {
+            "bvid": "BV1Gs411R7Ee",
+            "title": "【EVE】飞袖李为什么那么恨方向正北？",
+            "url": "https://www.bilibili.com/video/BV1Gs411R7Ee/",
+            "published": "2016-01-07",
+            "views": 32488
+          },
+          {
+            "bvid": "BV1Xs41117Qf",
+            "title": "【EVE】REMIND YOU 西岭集团宣传片",
+            "url": "https://www.bilibili.com/video/BV1Xs41117Qf/",
+            "published": "2015-09-19",
+            "views": 3160
+          }
+        ]
+      }
+    ]
   },
   "videos": []
 }

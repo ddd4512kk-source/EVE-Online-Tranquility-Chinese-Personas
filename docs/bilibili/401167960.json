@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "401167960",
+  "name": "陪小王许个愿1",
+  "url": "https://space.bilibili.com/401167960/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "陪小王许个愿1",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/freakdog-otto/materials-freakdog-otto.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1Lk4y1j7q5",
+      "title": "【EVE】深夜突袭VVV大鱼 | 网标洛基视角 | 原声 | 奥托和土豆今晚不许睡",
+      "url": "https://www.bilibili.com/video/BV1Lk4y1j7q5/",
+      "owner_uid": "401167960",
+      "published_at": "2023-05-07T04:32:45.000Z",
+      "captured_at": "2026-11-06T23:17:38.739Z",
+      "description": "吃鱼了，不过和超期擦肩而过了\n又是斥候睡不着的一晚",
+      "stats": {
+        "views": 1930,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/freakdog-otto/materials-freakdog-otto.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

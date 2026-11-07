@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "22874808",
+  "name": "瓜皮猪叉叉",
+  "url": "https://space.bilibili.com/22874808/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "瓜皮猪叉叉",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/nanhua-college/materials-nanhua-college.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1jx411B7SX",
+      "title": "[EVE] 2017-7-16-小希曲剑队-休津视角 (南华大酱回归 233)",
+      "url": "https://www.bilibili.com/video/BV1jx411B7SX/",
+      "owner_uid": "22874808",
+      "published_at": "2017-07-16T22:07:23.000Z",
+      "captured_at": "2026-11-06T23:10:46.197Z",
+      "description": "小希队休津视角,视频中是在N3与36N星系的几波主要接火. 渣操轻喷~",
+      "stats": {
+        "views": 977,
+        "replies": 14
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/nanhua-college/materials-nanhua-college.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

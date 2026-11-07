@@ -1,6 +1,8 @@
 // 战役板块：规模分档与战役文件校验。构建（eleventy.config.js）与 check-battles.mjs 共用。
+import { existsSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { coverSrc } from './battle-emblem.mjs';
 import { bodyLineOffset, validateBlocks } from './blocks.mjs';
 import systemNames from '../src/_data/systemNames.js';
 import { battleAllianceIds, checkBattleTaxonomy } from './battle-tags.mjs';
@@ -97,15 +99,6 @@ export const tierOf = b => TIERS.find(t => b >= t.min) ?? null;
 export const formatIsk = b => (b >= 1000 ? `${+(b / 1000).toFixed(2)}T` : `${Math.round(b)}B`);
 
 // 目录与详情共用，缺项仍保留标签；0 损失是有效数字。
-export function sideStats(s) {
-  return [
-    s.pilots == null ? '参战人数待补' : `参战 ${s.pilots} 人`,
-    s.loss == null ? '损失金额待补' : `损失 ${formatIsk(s.loss)}`,
-    s.loss_count == null ? '损失计数待补' : `损失记录 ${s.loss_count} 条`,
-    s.note,
-  ].filter(Boolean).join(' · ');
-}
-
 // 有战报快照的战役：按阵营算人数、损失、条数、华人军团人数与已收录人物。
 // 归方顺序：battle.sides 各方 organizations 点名的联盟（或无联盟的军团）→ 战报作者分的队伍 → 交火推断（没分队或分队与点名冲突时）→ “第三方”。
 // 华人军团：名称表里标了 chinese 的军团。
@@ -251,10 +244,30 @@ export function toYmd(v) {
   return null;
 }
 
+const int = (v, min, max) => Number.isInteger(v) && v >= min && v <= max;
+function coverEditErrors({ cover, coverEdit, title, epithet }) {
+  const errs = [];
+  if (!cover) errs.push('coverEdit 需要先配置 cover');
+  if (!coverEdit || typeof coverEdit !== 'object' || Array.isArray(coverEdit)) return [...errs, 'coverEdit 必须是对象 { erase, lines }'];
+  for (const key of Object.keys(coverEdit)) if (!['erase', 'lines'].includes(key)) errs.push(`coverEdit 不认识字段 ${key}`);
+  const { erase = [], lines = [] } = coverEdit;
+  if (!Array.isArray(erase) || erase.some(r => !Array.isArray(r) || r.length !== 4 || !r.every(n => int(n, 0, 4000)))) errs.push('coverEdit.erase 须为 [x,y,宽,高] 整数矩形数组');
+  if (!Array.isArray(lines) || lines.length > 4) errs.push('coverEdit.lines 须为数组，最多 4 行');
+  else lines.forEach((l, i) => {
+    const at = `coverEdit.lines[${i}]`;
+    if (typeof l?.text !== 'string' || !l.text.trim() || l.text.length > 24) errs.push(`${at}.text 须为 1—24 字`);
+    else for (const page of [title, epithet].filter(Boolean)) if (page.includes(l.text) || l.text.includes(page)) errs.push(`${at}.text 与页面${page === title ? '标题' : '副标题'}重复，图内文字要写别的内容`);
+    if (!int(l?.size, 20, 200) || !int(l?.x, 0, 4000) || !int(l?.y, 0, 4000)) errs.push(`${at} 的 size、x、y 须为整数（size 20—200）`);
+  });
+  return errs;
+}
+
 export const FIELDS = {
   title: '必填，战役名',
   aliases: '可选，别名列表',
   videos: '可选，最多 8 个相关 B站／YouTube 视频，每项 { title, url, author, description }',
+  cover: '可选，战役头图取哪个视频的封面：videos 中的网址；头图存 src/assets/emblems/cover-<短名>.webp',
+  coverEdit: '可选，需有 cover：抹掉封面原有大字并写入自己的文字，{ erase: [[x,y,宽,高]…]（原图像素）, lines: [{ text, size, x, y }…] }；图内文字不得重复页面标题和副标题',
   epithet: '可选，一句话锐评',
   start: '必填，开打日期（UTC），YYYY-MM-DD',
   end: '可选，结束日期（UTC），跨日才写',
@@ -335,6 +348,9 @@ export function validateBattle(data, body, lineOffset, people) {
       }
     }
   }
+
+  if (data.coverEdit != null) errs.push(...coverEditErrors(data));
+  if (data.cover != null && !(Array.isArray(data.videos) && data.videos.some(v => v?.url === data.cover))) errs.push('cover 必须是本场 videos 中的网址');
 
   const start = toYmd(data.start);
   if (!start) errs.push('start 必须是日期 YYYY-MM-DD');
@@ -549,6 +565,7 @@ export async function checkBattles(root, { fetchSnapshot, lookupNames, lookupAll
     const errs = validateBattle(parsed.data, parsed.content, lineOffset, people);
     errors.push(...errs.map(e => `${b.file}：${e}`));
     if (errs.length) continue;
+    if (parsed.data.cover && !existsSync(path.join(root, 'src', coverSrc(b.slug)))) errors.push(`${b.file}：缺少头图 ${coverSrc(b.slug)}，运行 npm run covers -- ${b.slug}`);
     valid.push({ ...b, data: parsed.data });
   }
   errors.push(...findOverlaps(valid));

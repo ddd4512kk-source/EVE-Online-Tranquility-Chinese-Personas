@@ -1,6 +1,6 @@
 import "../runtime.mjs";
 import { researchFetch } from "./request-guard.mjs";
-// 人物画像工具：按预算汇总 research-method.md 第二节第 1、2 步的数据，输出 Markdown。
+// 人物画像工具：按预算汇总 research-person.md“游戏画像”的数据，输出 Markdown。
 //
 //   node scripts/research/profile.mjs <角色ID> [论坛用户名]  > 画像.md
 //

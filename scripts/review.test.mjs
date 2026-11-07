@@ -85,6 +85,7 @@ test('unrelated prose and rule sections do not invalidate a review; selected rul
   assert.equal(call('impact', '--files', 'docs/rules.md').records.some(r => r.key === 'person:demo'), true);
   assert.throws(() => call('verify', 'person:demo'), /未声明/);
   assert.throws(mark, /未声明/);
+  assert.throws(() => call('template', 'person:demo'), /未声明/);
   assert.throws(() => call('check'), /未声明/);
   accept('combat', 'relax');
   assert.equal(call('verify', 'person:demo').verified[0].state, 'reviewed');
@@ -380,6 +381,15 @@ test('template drafts blank checks with anchors that validate; keeps an existing
   setup.put('src/people/demo/materials-demo.md', '# 素材\n## 画像\n[共享](../../../docs/sources/shared.md)\n补一行。');
   const redo = setup.call('template', 'person:demo');
   assert.deepEqual(redo.changedSinceReview, ['src/people/demo/materials-demo.md']);
+  assert.deepEqual(redo.sharedSources, ['docs/sources/shared.md']);
+  assert.equal(redo.anchors['docs/sources/shared.md'], undefined);
+  assert.ok(setup.call('template', 'person:demo', '--sources', 'yes').anchors['docs/sources/shared.md']);
+  assert.throws(() => setup.call('template', 'person:demo', '--sources', 'no'), /--sources/);
+  const bare = setup.call('template', 'person:demo', '--anchors', 'no');
+  assert.equal(bare.anchors, undefined);
+  assert.equal(bare.sharedSources, undefined);
+  assert.ok(bare.constraints.length);
+  assert.throws(() => setup.call('template', 'person:demo', '--anchors', 'yes'), /--anchors/);
   assert.equal(redo.existing, undefined);
   setup.put(draft.file, { profile: { status: 'reviewed' } });
   assert.equal(setup.call('template', 'person:demo', '--force', 'yes').existing, undefined);

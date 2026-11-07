@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "12633837",
+  "name": "天天天一一YI",
+  "url": "https://space.bilibili.com/12633837/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "天天天一一YI",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/six-bamboo/materials-six-bamboo.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV13p4y1H7kW",
+      "title": "【EVE欧服】《骑蜂了》MV——女声版(歌手:冷冷)",
+      "url": "https://www.bilibili.com/video/BV13p4y1H7kW/",
+      "owner_uid": "12633837",
+      "published_at": "2021-03-03T02:52:15.000Z",
+      "captured_at": "2026-11-06T23:08:42.380Z",
+      "description": "——特别感谢冷冷不辞辛苦地录歌！\n——特别感谢up主狮子头喵提供的技术指导！\n——感谢所有参与制作的人！\n——大家的努力汇聚诞生了这部优秀的MV！",
+      "stats": {
+        "views": 19922,
+        "replies": 137
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/six-bamboo/materials-six-bamboo.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

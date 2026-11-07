@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "uid": "14264273",
+  "name": "祖祖Limor",
+  "url": "https://space.bilibili.com/14264273/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "祖祖Limor",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/lao-ying/lao-ying.md",
+        "label": "仓库提及，未核对应"
+      },
+      {
+        "material": "src/people/lao-ying/materials-lao-ying.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1mu411N77G",
+      "title": "氪金上万毅然退坑？讲讲我退坑一个游戏的始末",
+      "url": "https://www.bilibili.com/video/BV1mu411N77G/",
+      "owner_uid": "14264273",
+      "published_at": "2023-08-28T18:01:34.000Z",
+      "captured_at": "2026-11-06T23:12:29.454Z",
+      "description": "既然你都点开了，那我就要个三连吧（",
+      "stats": {
+        "views": 1801,
+        "replies": 41
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/lao-ying/lao-ying.md",
+          "src/people/lao-ying/materials-lao-ying.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

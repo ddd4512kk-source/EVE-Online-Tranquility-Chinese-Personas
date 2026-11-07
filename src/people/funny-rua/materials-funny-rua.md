@@ -41,7 +41,7 @@ F RUE与Funny RUA均为滑子。以F RUE已存2588次参与击杀，对照Funny 
 
 2026-11-02核读[zKillboard stats总览](https://zkillboard.com/api/stats/characterID/2116953232/)：参与击杀2588，损失246，参与击杀价值986277717383 ISK，单杀53。有记录月份59个，范围202005至202611，平均攻击者规模11.9；月份含击杀与损失，不把无记录月份判为没有游戏活动。各号不相加，击杀价值不认个人伤害。船型排行榜是响应所示范围，未作为生涯最常用船。
 
-[公开角色资料](https://esi.evetech.net/latest/characters/2116953232/)全文已核读，军团ID 98794444；简介关键文字如下：
+[公开角色资料](https://esi.evetech.net/latest/characters/2116953232/)全文已核读（2026-11-07复核当前军团为Archangels Inc. 98056695，原It's MyGO. 98794444为AT22赛期军团）；简介关键文字如下：
 
 RUA!!!
 

@@ -1,0 +1,21 @@
+{
+  "status": "needs-work",
+  "note": "分方与旗舰伤害依据成立；正文冷剑段误述其战报分队与本页的差异（CAMP.与FRT同队，与本页一致，只有黑曜军械、Headwind相反）；小洋段数字无出处",
+  "evidence": [
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md"
+  ],
+  "dependencies": [
+    "src/_data/entityNames.json",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md"
+  ],
+  "inputs": "fe3e34fc37cd18721647c6a393c36825238466a855cc4d37a300e0644f4cb226",
+  "inputParts": {
+    "src/_data/entityNames.json": "f0e4a69f2716bb54f750042f4548535611b32f7825ef0abdaa7da130dd5f702a",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md": "4a95ff1126d75c377c5cbf74bde2f22d3c94ec227785188ba86819ec90402002",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json": "8c065ce48f732fed9fb9eb51b8de32a88f3fd6cc7e92d79880750353095205a9",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md": "3eff6a50df2c5fb9c8d2aa090885037afeac4bffacc67671589616a5184cbec5"
+  },
+  "level": 2
+}

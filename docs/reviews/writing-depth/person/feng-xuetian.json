@@ -1,0 +1,109 @@
+{
+  "status": "reviewed",
+  "note": "writing-depth核读完成",
+  "evidence": [
+    "src/people/feng-xuetian/materials-feng-xuetian.md",
+    "src/people/feng-xuetian/feng-xuetian.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "骨架均有出处：PMA 军团头衔「暴躁的兔子」、B 站双开双死签名、J-TPTA 千人战（BV1ca41147aR）、PMA 噩梦的上半生（BV1xY4y1s7cx）、1DQ 射火鸡大赛与对阵魔怔皮套人均在素材中归档。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/materials-feng-xuetian.md",
+          "heading": "## B站频道核心投稿（取于 2026-11-07）"
+        },
+        {
+          "file": "src/people/feng-xuetian/feng-xuetian.md",
+          "contains": "2022 年夏天 J-T"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "核心重料「J-TPTA千亿绞肉机与射火鸡盛宴」展开充分，包含处境、反差与分量三个方向。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/feng-xuetian.md",
+          "contains": "2022 年夏天 J-T"
+        }
+      ],
+      "items": [
+        {
+          "title": "J-TPTA千亿绞肉机与射火鸡盛宴",
+          "weight": "heavy",
+          "reason": "人物立传核心依据，产出超千亿旗舰绞肉战的无 UI 纯享实况大片，以及代表性的 1DQ 射火鸡前线生活记录。",
+          "source": {
+            "file": "src/people/feng-xuetian/materials-feng-xuetian.md",
+            "heading": "## B站频道核心投稿（取于 2026-11-07）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/feng-xuetian/feng-xuetian.md",
+            "contains": "2022 年夏天 J-T"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "顶着极度时间膨胀和漫天火力杀入千人战，拍下无畏舰雨点般坠落的史诗画面",
+              "evidence": {
+                "file": "src/people/feng-xuetian/feng-xuetian.md",
+                "contains": "2022 年夏天 J-T"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "自称猛男却自嘲双开双死出门暴毙的反差",
+              "evidence": {
+                "file": "src/people/feng-xuetian/feng-xuetian.md",
+                "contains": "他虽然自称猛男，但在主页"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "把全服瞩目的绝地防卫战戏称为射火鸡大赛，记录 PMA 核心配置演进",
+              "evidence": {
+                "file": "src/people/feng-xuetian/feng-xuetian.md",
+                "contains": "在战斗一线，他是标准的 "
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "处境、反差与分量展开充分"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "重料叙事分量充足，主线紧扣暴躁战地记者与前线打手，尾部锐评总结到位。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/feng-xuetian.md",
+          "contains": "拍战地录像的玩家常有，但"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/feng-xuetian/2114544750-id.json",
+    "src/people/feng-xuetian/feng-xuetian.md",
+    "src/people/feng-xuetian/materials-feng-xuetian.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md"
+  ],
+  "inputs": "5296fbc117aa68b373a6265907518eb3b07239693765ebcaaddca597a78b3b3f",
+  "inputParts": {
+    "src/people/feng-xuetian/2114544750-id.json": "eae70bb1a49f21b5561a62deb1e9c7998b1575f001077d958719d76c3c701579",
+    "src/people/feng-xuetian/feng-xuetian.md": "f376d930687018f0d82868d3e7b51da43e5e9a058fdf56ffc10f815700693be2",
+    "src/people/feng-xuetian/materials-feng-xuetian.md": "d879ccc9d343c0231c0543af54d77681e38aba03c88fc881ecb9bcfd850cda06",
+    "battle:h-pa29-2022": "13cd9994b1d133acfa6e8b7fc3ecb91542e6b13f06f5b1681f50846a61960a30",
+    "battle:j-tpta-2022": "861a0f58b2671fe7ab5bd4a891fc40eaa97534f5d642208996bd80e5f2b2428d"
+  },
+  "level": 1
+}

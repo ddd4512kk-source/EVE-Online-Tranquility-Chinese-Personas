@@ -4,7 +4,7 @@ import { researchFetch } from "./request-guard.mjs";
 // 例：node scripts/research/tieba-client-forum.mjs eve欧服 1 110 temp/frs.tsv
 // 每行：主题ID<TAB>创建日期<TAB>回复数<TAB>标题<TAB>浏览数<TAB>楼主展示名<TAB>首楼摘要（前 600 字）<TAB>楼主 uid<TAB>楼主原用户名。
 // 不要只按标题里的名人名字或回复数筛：标题常是文学化的（“飞鸟尽良弓藏”），当事人也常是无名小号。
-// 要连同首楼摘要按叙事词打分，并按楼主聚合找连载和高产发帖人，见 research-method.md“发现新人物”。
+// 要连同首楼摘要按叙事词打分，并按楼主聚合找连载和高产发帖人，见 research-person.md“发现新人物”。
 // 限制：翻到约第 110 页（约 2024 年中）后接口返回空页；更早的帖子用 tieba-client-search.mjs 站内搜索。
 import { createHash } from "node:crypto";
 import { appendFile, mkdir } from "node:fs/promises";

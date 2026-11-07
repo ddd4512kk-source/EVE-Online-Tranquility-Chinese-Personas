@@ -2,10 +2,10 @@
   "id": 2122159532,
   "name": "Ezburra fofo",
   "birthday": "2024-03-15T08:55:58Z",
-  "corporation_id": 98809395,
+  "corporation_id": 98558506,
   "affiliation": {
-    "corporation_id": 98809395,
-    "alliance_id": 99009163,
+    "corporation_id": 98558506,
+    "alliance_id": 1900696668,
     "left_at": null
   },
   "history": [
@@ -52,10 +52,29 @@
     {
       "corporation_id": 98809395,
       "start": "2026-08-06T11:26:00Z",
+      "end": "2026-11-04T13:02:00Z"
+    },
+    {
+      "corporation_id": 98558506,
+      "start": "2026-11-04T13:02:00Z",
       "end": null
     }
   ],
-  "fetched_at": "2026-10-09",
+  "fetched_at": "2026-11-07",
+  "person": {
+    "cn_name": "水母",
+    "aliases": [
+      "Ezburra"
+    ],
+    "epithet": "替芙出头，一路出到芙进了联盟黑名单。",
+    "tags": [
+      "00区",
+      "INIT.",
+      "低素质",
+      "江湖恩怨",
+      "AT22亚军"
+    ]
+  },
   "identity": {
     "version": 1,
     "alts": [
@@ -113,19 +132,5 @@
       "last_active": "2026-10",
       "as_of": "2026-10-23"
     }
-  },
-  "person": {
-    "cn_name": "水母",
-    "aliases": [
-      "Ezburra"
-    ],
-    "epithet": "替芙出头，一路出到芙进了联盟黑名单。",
-    "tags": [
-      "00区",
-      "D.C",
-      "低素质",
-      "江湖恩怨",
-      "AT22亚军"
-    ]
   }
 }

@@ -1,0 +1,13 @@
+{#- 军团三维评价横条（HP 条）。传入 ratings、dims，可选 ratingFull（详情页用大号尺寸）。 -#}
+<span class="corp-ratings{% if ratingFull %} corp-ratings-lg{% endif %}" role="group" aria-label="军团印象评级">
+  {%- for dim in dims %}
+  {%- set val = ratings[dim.key] %}
+  <span class="corp-meter meter-{{ dim.key }}{% if dim.key == 'shenren' and val >= 55 %} is-alert{% endif %}" title="{{ dim.label }}（{{ dim.hint }}）：{{ val }} / 100">
+    <span class="meter-label">{{ dim.label }}</span>
+    <span class="meter-bar" aria-hidden="true">
+      <span class="meter-fill" style="width: {{ val }}%"></span>
+    </span>
+    <span class="meter-num">{{ val }}</span>
+  </span>
+  {%- endfor %}
+</span>

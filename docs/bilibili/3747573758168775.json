@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "3747573758168775",
+  "name": "龙焰中文社区",
+  "url": "https://space.bilibili.com/3747573758168775/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "龙焰中文社区",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/battles/amamake-2026/materials-amamake-2026.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1GR4P6KErQ",
+      "title": "我叫磁力棒1：一小时吃掉260亿！爽吃无畏（轻拦视角）",
+      "url": "https://www.bilibili.com/video/BV1GR4P6KErQ/",
+      "owner_uid": "3747573758168775",
+      "published_at": "2026-11-02T13:05:10.000Z",
+      "captured_at": "2026-11-07T03:49:03.323Z",
+      "description": "吃无畏真的很爽你知道吗",
+      "stats": {
+        "views": 218,
+        "replies": 0
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/amamake-2026/materials-amamake-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

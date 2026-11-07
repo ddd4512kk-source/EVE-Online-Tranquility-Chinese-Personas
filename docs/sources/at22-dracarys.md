@@ -6,7 +6,7 @@
 
 组队经费：DC金主出资2T ISK，雇佣各路高手赛期内暂时加入DC，组成本届参赛队（社区知情者提供，2026-11-02）。金主身份未知，不归到具体人物。
 
-外援来路（ESI军团履历，2026-11-02）：DC参赛军团为It's MyGO.。Snuffed Out旗下Infinity Avenger（AVDOT）一路：Alknight Dong、Lw x、Miles Marcel均于2026-08进It's MyGO.，2026-11-01（总决赛当天）离团并当日回Infinity Avenger；Sayler自2025-11-06一直在Infinity Avenger，ESI履历无It's MyGO.记录，仍19场全出；megit dyf当前归属已是Infinity Avenger，ESI履历最后一条仍为2026-08-10进It's MyGO.。N E R V一路：Hoshimati Comet、Melissa Kinrenka当前在N E R V.。
+外援来路与赛后去向（ESI军团履历，2026-11-07复核）：DC参赛军团为It's MyGO.。Snuffed Out旗下Infinity Avenger（AVDOT）一路：Alknight Dong、Lw x、Miles Marcel均于2026-08进It's MyGO.，2026-11-01（总决赛当天）离团并当日回Infinity Avenger；Sayler自2025-11-06一直在Infinity Avenger，ESI履历无It's MyGO.记录，仍19场全出；megit dyf于赛后回Infinity Avenger。赛后其余人员也陆续离团：King MYF于2026-11-05进Infinity Avenger；GAnnio于2026-11-04进Infinity Avenger；Snow Kidfox于2026-11-02进Infinity Avenger；F RUE转入Archangels Inc.（End of Natural Lifetime）；Sarion Ikaruga于2026-11-06回归F1 Monkey.（Esports Petopia）；Ezburra fofo于2026-11-04离开Pyre of the Twenty-One进A Blessed Bean（The Initiative.）。N E R V一路：Hoshimati Comet、Melissa Kinrenka当前在N E R V.。至此，It's MyGO.名下参赛外援均已离团。
 
 [EVE_NT本届比赛目录](https://open.eve-nt.uk/portal/tournaments/ATXXII)与五张比赛页已核读。2026-11-01 UTC总决赛，Dracarys对Deteriorated，五局依次胜、负、负、胜、负，以2∶3获亚军。首局[4119](https://open.eve-nt.uk/portal/match/4119)，第二局[4120](https://open.eve-nt.uk/portal/match/4120)，第三局[4121](https://open.eve-nt.uk/portal/match/4121)，第四局[4122](https://open.eve-nt.uk/portal/match/4122)，第五局[4123](https://open.eve-nt.uk/portal/match/4123)。第五局开赛时间2026-11-01T21:30:00Z。
 

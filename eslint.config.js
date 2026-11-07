@@ -2,7 +2,7 @@ import stylistic from '@stylistic/eslint-plugin';
 import globals from 'globals';
 
 export default [
-  { ignores: ['node_modules/**', '_site/**', '.cache/**', 'src/assets/fonts/**'] },
+  { ignores: ['node_modules/**', '_site/**', '.cache/**', 'src/assets/fonts/**', 'scratch/**', '**/scratch/**'] },
   {
     files: ['**/*.{js,mjs}'],
     languageOptions: {

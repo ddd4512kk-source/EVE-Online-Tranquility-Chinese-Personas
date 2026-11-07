@@ -13,23 +13,23 @@
     "pattern": "指挥|带队|舰队|参战|战役|战场|战斗|泰坦|超旗|会战|旗舰|击杀|战绩|[Kk][Bb]|[Mm]onitor|监视者|FLEET\\s+COMMANDER",
     "rules": [
       {
-        "file": "docs/research-method.md",
-        "heading": "### 1. 游戏画像（定位人物时按需）"
+        "file": "docs/research-person.md",
+        "heading": "## 游戏画像"
       },
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "heading": "## zKB与战役写点评，不写账本"
       },
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "contains": "**新收录先验调查覆盖，再验文字**"
       },
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "contains": "标签表示活动圈子"
       },
       {
-        "file": "docs/content-rules.md",
+        "file": "docs/rules-person.md",
         "contains": "**战绩红料写总结性点评**"
       }
     ],
@@ -42,7 +42,7 @@
     },
     "strictness": {
       "level": 1,
-      "rules": "97123c7bdc559807bfa56d13d642a09a96ea7efc98e1a303f148987ec143233f"
+      "rules": "d308ff139f56f183698411152bc500671dcacdaed5304e2031a67a5af5fa8ee6"
     }
   },
   "battle-attribution": {
@@ -62,7 +62,7 @@
     ],
     "strictness": {
       "level": 2,
-      "rules": "bb9f7ffbc651815290f79f31801e2bc34ae4d38c394e246f694ad38244a62e0e"
+      "rules": "42c1bd30c2fac7465aa5f3363f697a0f114f1027e5925f90e5837a5dc2bb2ed9"
     }
   },
   "battle-videos": {
@@ -75,23 +75,23 @@
     "pattern": "视频|视角|BV[0-9A-Za-z]+|BR|战报",
     "rules": [
       {
-        "file": "docs/content-rules.md",
+        "file": "docs/rules-battle.md",
         "contains": "**相关视频**"
       },
       {
-        "file": "docs/research-method.md",
+        "file": "docs/research-battle.md",
         "contains": "**战役视频候选**"
       },
       {
-        "file": "docs/research-method.md",
+        "file": "docs/research-battle.md",
         "contains": "**战役视频关联**"
       },
       {
-        "file": "docs/research-method.md",
+        "file": "docs/research-battle.md",
         "contains": "**简介战报入口**"
       },
       {
-        "file": "docs/research-method.md",
+        "file": "docs/research-battle.md",
         "contains": "**中文日期先换算 UTC**"
       },
       {
@@ -101,7 +101,7 @@
     ],
     "strictness": {
       "level": 1,
-      "rules": "eb10886c6d9718c9819d597bb09784af5b9d258dc3620c1270a9484c779e2bf3"
+      "rules": "ac905f58a12e3fc1d350e30d6a6b11af498999cbaaa3dbc03cd2d6e38f913321"
     }
   },
   "persona-tags": {
@@ -114,13 +114,13 @@
     "pattern": "总监|教官|招新|RMT|脚本|诈骗|内讧|决裂|弹劾",
     "rules": [
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "heading": "## 标签"
       }
     ],
     "strictness": {
       "level": 1,
-      "rules": "a167e69accce6dc45066619d46eb52d3d39a99ab7c004b0f574f8b93a5e88016"
+      "rules": "fe2eb05df10ddf6fca880cc3ec6fed20db6b5c8b26eaffa49364d048bcd07462"
     }
   },
   "famous-fc": {
@@ -135,13 +135,13 @@
     "pattern": "著名FC|FC|指挥|带队",
     "rules": [
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "contains": "标签表示活动圈子"
       }
     ],
     "strictness": {
       "level": 1,
-      "rules": "450b7be19e2c455636269a90d555f88d8f2728f1e9dea40ce1a13d897211ebb6"
+      "rules": "716a9fce2f39c27aeef3b3de207c6f232e72595c0f507c5df6e2128a9c80c396"
     }
   },
   "writing-depth": {
@@ -155,30 +155,30 @@
     "pattern": "封号|封禁|永封|RMT|诈骗|骗钱|卷款|脚本|内讧|决裂|出走|弹劾|丑闻|背刺|清算",
     "rules": [
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "heading": "## 发挥边界"
       },
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "heading": "## 发挥要显著"
       },
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "heading": "## 重料的分量与发挥验收"
       },
       {
-        "file": "docs/writing-review.md",
+        "file": "docs/person-review.md",
         "heading": "## 黑料过多时合并与取舍"
       }
     ],
     "checks": {
-      "coverage": "对照完整正文与已有素材，清点独立事件及未采用重料",
+      "coverage": "对照完整正文与已有素材，清点独立事件及未采用重料；只核事件骨架的出处，经过细节可编，不追查细节出处",
       "events": "逐件判分量、采用方式、发挥方向与充分程度",
       "balance": "检查重料在全文中的叙事分量、主线与评语"
     },
     "strictness": {
       "level": 1,
-      "rules": "bb2a716ed5ba4fde894c4069f3a695a78ddacc385afa9f325b55cafa57d3239d"
+      "rules": "a19005815cd5036cab51f98560710acb6401f14a0d9e62b6a24e140fe7d4e23b"
     }
   }
 }

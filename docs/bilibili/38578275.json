@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "uid": "38578275",
+  "name": "银魂花花",
+  "url": "https://space.bilibili.com/38578275/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "银魂花花",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "docs/sources/red-scarf-disputes-2026-08.md",
+        "label": "仓库提及，未核对应"
+      },
+      {
+        "material": "src/corps/redscarf/materials-redscarf.md",
+        "label": "仓库提及，未核对应"
+      },
+      {
+        "material": "src/corps/redscarf/redscarf.md",
+        "label": "仓库提及，未核对应"
+      },
+      {
+        "material": "src/people/monster0001/materials-monster0001.md",
+        "label": "仓库提及，未核对应"
+      },
+      {
+        "material": "src/people/monster0001/monster0001.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1SG8r6gEPF",
+      "title": "EVE红领巾反向招新",
+      "url": "https://www.bilibili.com/video/BV1SG8r6gEPF/",
+      "owner_uid": "38578275",
+      "published_at": "2026-08-22T02:30:00.000Z",
+      "captured_at": "2026-11-06T23:11:07.063Z",
+      "description": "我视频剪辑不是特别好，所以我就一刀没剪，直接弄上去了，有很多漏的，还有一些问题的啊，想对质的或者说有疑问的直接来问我，我把所有证据都给你",
+      "stats": {
+        "views": 336,
+        "replies": 3
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "docs/sources/red-scarf-disputes-2026-08.md",
+          "src/corps/redscarf/materials-redscarf.md",
+          "src/corps/redscarf/redscarf.md",
+          "src/people/monster0001/materials-monster0001.md",
+          "src/people/monster0001/monster0001.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

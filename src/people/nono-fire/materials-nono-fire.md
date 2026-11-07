@@ -133,3 +133,7 @@
 - 聊天原文，NoNo 要求保密：top secret
 - 聊天原文，阿舍回复：I don't share info。
 - 聊天原文，NoNo 叮嘱：Don't lose to them。
+
+## Chrome 检索覆盖
+
+2026-11-04 UTC，Chrome Playwright 实读百度 `NoNoFire 骗 封号 洗号 跑路 eve欧服吧` 首页，无验证码；返回泛诈骗、封号、其他人物和国服话题，没有保留 NoNoFire 限定。恢复的是结果页可达性，仍属关键词丢失，不能改成没有黑料。检索 URL：`https://www.baidu.com/s?wd=NoNoFire%20骗%20封号%20洗号%20跑路%20eve欧服吧`。

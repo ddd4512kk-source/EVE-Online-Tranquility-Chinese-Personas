@@ -1,0 +1,15 @@
+# 肃正军 / Absolute Order
+
+军团 ID 98595110。快照见同名 JSON。
+
+## 军团沿革
+- ESI：Absolute Order [ABSOD]，2019-03-18 立团，CEO Governor Lee，联盟 Absolute Honor，6788 人。
+- zKB：击杀 3.56 万，最近 2026-11。
+- 素材：governor-lee（命名与肃正军澄清帖 https://tieba.baidu.com/p/7802961479）；awakeallnight；战役 y-mpwl-2025（TC 在 Absolute Order XIV）；贴吧 7802905564。
+- 团内列传人物：李将军（2019-12 起）、肖恩、竹叶青、小宋宋。
+
+## 补充线索（团史重写用）
+- [6778120809](https://tieba.baidu.com/p/6778120809) 2020-06-29：军团由 Absolute Order（高安 PVE、月矿、燃烧任务，入团三天 5000W，避战）与 Absolute Order VI（低安 PVP，驻 Aurohunen，10–12 人语音队）组成；6 月 20 日公告总人口破 900、极限集结 120 人。
+- [6867528759](https://tieba.baidu.com/p/6867528759) 2020-08-07：第六毁灭军团招新。
+- 澄清帖 7802961479：欧服肃正与国服肃正协议无关；贴吧 6065284894：李将军 2019 年春以 Governor Mrlee 招人（租地）。
+- y-mpwl-2025：守方 Absolute Order 107、Absolute Order XIV 16；星城属 Absolute Order XI。

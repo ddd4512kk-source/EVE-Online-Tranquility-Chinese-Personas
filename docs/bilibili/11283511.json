@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "uid": "11283511",
+  "name": "Karthuser",
+  "url": "https://space.bilibili.com/11283511/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "Karthuser",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/governor-lee/governor-lee.md",
+        "label": "仓库提及，未核对应"
+      },
+      {
+        "material": "src/people/governor-lee/materials-governor-lee.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV15y4y137iS",
+      "title": "肃正2021年EVE宣传视频",
+      "url": "https://www.bilibili.com/video/BV15y4y137iS/",
+      "owner_uid": "11283511",
+      "published_at": "2021-05-31T08:49:29.000Z",
+      "captured_at": "2026-11-06T23:15:55.761Z",
+      "description": "EVE Online 欧服\n西北肃正的招新宣传视频\n联系人 Governor Lee",
+      "stats": {
+        "views": 3330,
+        "replies": 21
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/governor-lee/governor-lee.md",
+          "src/people/governor-lee/materials-governor-lee.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

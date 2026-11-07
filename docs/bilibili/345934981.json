@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "345934981",
+  "name": "铁锅炖小小白",
+  "url": "https://space.bilibili.com/345934981/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "铁锅炖小小白",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/manuer/materials-manuer.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV11Q4y127tg",
+      "title": "JESUS N!",
+      "url": "https://www.bilibili.com/video/BV11Q4y127tg/",
+      "owner_uid": "345934981",
+      "published_at": "2021-08-13T12:21:10.000Z",
+      "captured_at": "2026-11-06T23:11:27.588Z",
+      "description": "JUSES N！\r\n仅以本视频向凛冬华人联盟伟大领袖Noraus同志致敬\r\n仅限内部膜拜使用严禁大范围传播\r\n作者对视频内音视频内容及来源表示一脸懵逼\r\n所有内容均为虚构如有雷同纯属巧合\r\n本视频原作者不详，因原片被ban无人补档，本人使用一定马赛克进行补档，仅为留下视频",
+      "stats": {
+        "views": 21793,
+        "replies": 64
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/manuer/materials-manuer.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

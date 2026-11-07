@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "6673977",
+  "name": "MRZJL",
+  "url": "https://space.bilibili.com/6673977/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "MRZJL",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/manuer/materials-manuer.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1qHf9YeEWY",
+      "title": "[Kotte三年动画]🦑鱿鱼续集-孔刘的转盘",
+      "url": "https://www.bilibili.com/video/BV1qHf9YeEWY/",
+      "owner_uid": "6673977",
+      "published_at": "2025-01-25T04:00:00.000Z",
+      "captured_at": "2026-11-06T23:11:48.154Z",
+      "description": "孔刘竟与成奇勋比速通！展开了一场“俄罗斯轮盘”的较量！等等……规则是什么来着？国内唯一授权发布，动画作者YT@Kotte Animation, https://www.youtube.com/watch?v=S8Z3gGqc7W4\n\n如果你喜欢这类创意动画，记得点赞、投币和收藏支持！🎉",
+      "stats": {
+        "views": 7367395,
+        "replies": 11117
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/manuer/materials-manuer.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

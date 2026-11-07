@@ -110,7 +110,7 @@ GAnnio（2117195144）、CITR44（2118334950）、never left（2117064646）与H
 
 2026-11-02核读[zKillboard stats总览](https://zkillboard.com/api/stats/characterID/2117195144/)：参与击杀7011，损失850，参与击杀价值8946394684338 ISK，单杀356。有记录月份70个，范围202008至202611，平均攻击者规模23.5；月份含击杀与损失，不把无记录月份判为没有游戏活动。各号不相加，击杀价值不认个人伤害。船型排行榜是响应所示范围，未作为生涯最常用船。
 
-[公开角色资料](https://esi.evetech.net/latest/characters/2117195144/)全文已核读，军团ID 98794444；简介关键文字如下：
+[公开角色资料](https://esi.evetech.net/latest/characters/2117195144/)全文已核读（2026-11-07复核当前军团为Infinity Avenger 98556933，原It's MyGO. 98794444为AT22赛期军团）；简介关键文字如下：
 
 Morning!
 
@@ -129,7 +129,7 @@ RIP LOVE Madoka 永远的小圆脸
 
 ## OADS团长经历
 
-已核读[汉堡既有军团材料](materials-hanbo-han.md)所存DOTLAN军团事件：OADS（98802264）创建于2025-04-24，创建者Rain In Time；CEO由Kuroda Kanbee于2025-08-21交给GAnnio，2026-06-29再交给CrysisDeathgun YoRHa。仅据此确认这段CEO经历，不写他创建OADS、不把其他团的CEO职位归到本人。其当前军团为98794444，不把历史头衔写为现任。
+已核读[汉堡既有军团材料](materials-hanbo-han.md)所存DOTLAN军团事件：OADS（98802264）创建于2025-04-24，创建者Rain In Time；CEO由Kuroda Kanbee于2025-08-21交给GAnnio，2026-06-29再交给CrysisDeathgun YoRHa。仅据此确认这段CEO经历，不写他创建OADS、不把其他团的CEO职位归到本人。2026-11-07复核其当前军团为98556933（Infinity Avenger），不把历史头衔写为现任。
 
 ## 既有战役画像
 

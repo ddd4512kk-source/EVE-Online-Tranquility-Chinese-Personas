@@ -6,7 +6,7 @@
 
 ### 红料与可读原帖
 
-- 新人教材：《EVE资料大全》在[华人势力大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)中有记载；[五级任务](https://forums.winterco.org/t/topic/11576)、[懒人 P2](https://forums.winterco.org/t/topic/21180)、[行星模板](https://forums.winterco.org/t/topic/24906)、[跳货运输](https://forums.winterco.org/t/topic/25034)有本人教程。
+- 新人教材与工业工具：《EVE资料大全》在[华人势力大事记](https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/)中有记载；[五级任务](https://forums.winterco.org/t/topic/11576)、[懒人 P2](https://forums.winterco.org/t/topic/21180)、[行星模板](https://forums.winterco.org/t/topic/24906)、[跳货运输](https://forums.winterco.org/t/topic/25034)有本人教程；参与制作／维护 WinterCo Markets 制造助手（`wcmkts.streamlit.app/builder_helper`），测算 00 制造利润与工时收益。
 - [采购透明方案](https://forums.winterco.org/t/topic/24485)、[救援 FC 补贴](https://forums.winterco.org/t/topic/25050)均为草案，不能写成已落实的福利。
 - [Mittani 退位事件整理](https://forums.winterco.org/t/topic/21496)：外网资料搬运贡献。
 - [B-R5RB 泰坦击杀记录](https://zkillboard.com/kill/36255172/)：本人参战；不拿低伤害、雇佣变动次数填充黑料。

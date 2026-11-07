@@ -1,0 +1,104 @@
+{
+  "status": "reviewed",
+  "note": "406次单杀战绩核实，低安巡逻与小号/战役边界清晰",
+  "evidence": [
+    "src/people/stubborn-cell/materials-stubborn-cell.md",
+    "src/people/stubborn-cell/stubborn-cell.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "zKB 累计击毁 1404、损失 753、单杀 406（占比 28.9%），危险度 91%，活跃 43 个月；开篇与战绩料块准确反映其低安单挑巡逻与高单杀率，未夸大军团或联盟舰队职责。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+          "heading": "## 身份与角色"
+        },
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "身处动辄千人大会战的时代"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "档案与素材确认无已知作战小号，专注于 StubbornCell 单角色低安巡航，无小号战绩混淆或售号记录。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+          "heading": "## 身份与角色"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "406 次单杀中代表 KM 对应其 B 站击杀视频（如 BV1pLuX6LEbV 的海军启示级单挑、BV1hcuR6YEQx 的小口径射弹近战击杀），月度无异常集中爆发，主要为常态化低安小船游走；正文与素材均直接引用具体单挑记录，无需细查其他月份排名。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+          "heading": "## 核心作品与公开言论"
+        },
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "他打架讲究极致的性价比"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "关联战役对照：对象卡命中4场（伊瓦提、托蒂弗伦、萨托加斯、艾蒂斯），均为伏羲军团低安/主权会战随队参与，战役正文均未点名其个人，正文未虚构指挥战功，仅提及其伊瓦提与托蒂弗伦等低安常驻巡逻路线。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+          "heading": "## 调查与验收结论"
+        },
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "他的巡逻路线极其固定"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文设有独立战绩红料块《杆子区战绩与四百次单杀》，位置紧接开篇，含 zKillboard 链接与 1404 击毁/406 单杀总结点评，未散在开篇或泛谈；篇末评语回扣其小船死磕击杀榜的特质。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "身处动辄千人大会战的时代"
+        },
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "固执的细胞是新伊甸大联盟"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/stubborn-cell/2122323917-id.json",
+    "src/people/stubborn-cell/materials-stubborn-cell.md",
+    "src/people/stubborn-cell/stubborn-cell.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/evati-2025/evati-2025.json",
+    "src/battles/evati-2025/evati-2025.md",
+    "src/battles/evati-2025/materials-evati-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.md"
+  ],
+  "inputs": "c406f3f35dc54ebd0067d473237a494970d2dbdf702344fbc0c904ce655fcc3d",
+  "inputParts": {
+    "src/people/stubborn-cell/2122323917-id.json": "7afa4ea92e90515aef9ec9716c36ec7c364d6d5146345c33923633a198846253",
+    "src/people/stubborn-cell/materials-stubborn-cell.md": "46bb6eadc1fbe64c853d62b295686173be34f843becbb8d8883806a427b96b90",
+    "src/people/stubborn-cell/stubborn-cell.md": "54d7f9dd009cbdb033c9a8124f278adf4861f0a18f706528c2a5ce705693113b",
+    "battle:atioth-2026": "7eb80f457d4cfaae001ed6c16880e5b33792191040448216bfc12d2c23ee500f",
+    "battle:evati-2025": "5d485a3868eafb8206e575cf273741f2ebc3eaf3ecc5413f81579932fe01ad57",
+    "battle:sahtogas-2026": "b8c42b53a3ea3a14b78902f46f347a2d23a471668c040e7491ba8ad80cc51125",
+    "battle:todifrauan-2025": "0ac93e80c1d888fe707cc6e653340e7c0611ea4d5cc51f1cdfe8ca98b1e1baca"
+  },
+  "level": 1
+}

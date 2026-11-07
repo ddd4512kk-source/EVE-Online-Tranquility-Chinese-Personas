@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "189271163",
+  "name": "反馒义士StarPlatinum",
+  "url": "https://space.bilibili.com/189271163/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "反馒义士StarPlatinum",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/nanhua-college/materials-nanhua-college.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1ab411H7Tn",
+      "title": "【EVE】 AVDOT单机突入贡迪萨 南华大学复出告大捷",
+      "url": "https://www.bilibili.com/video/BV1ab411H7Tn/",
+      "owner_uid": "189271163",
+      "published_at": "2019-03-14T18:26:56.000Z",
+      "captured_at": "2026-11-06T23:09:44.013Z",
+      "description": "50w燃料强运引发的血案 这个故事告诉我们不要欺负工业舰",
+      "stats": {
+        "views": 1650,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/nanhua-college/materials-nanhua-college.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

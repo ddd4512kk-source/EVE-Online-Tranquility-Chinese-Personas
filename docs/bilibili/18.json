@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "18",
+  "name": "ANA晓赤月",
+  "url": "https://space.bilibili.com/18/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "ANA晓赤月",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/hanbo-han/materials-hanbo-han.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1th536QEoZ",
+      "title": "EVE 5月13日 三层葵鸡汉堡 飞龙 冥府 夜神",
+      "url": "https://www.bilibili.com/video/BV1th536QEoZ/",
+      "owner_uid": "18",
+      "published_at": "2026-05-12T16:10:59.000Z",
+      "captured_at": "2026-11-06T23:15:35.300Z",
+      "description": "",
+      "stats": {
+        "views": 1581,
+        "replies": 14
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/hanbo-han/materials-hanbo-han.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

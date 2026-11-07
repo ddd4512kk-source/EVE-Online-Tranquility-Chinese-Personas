@@ -14,19 +14,27 @@
     "related": []
   },
   "channel": {
-    "profile": {},
+    "profile": {
+      "captured_at": "2026-11-07T11:45:00.000Z",
+      "signature": "半导铁盒是也 诱导已亮，前方净空，诸君，武运昌隆",
+      "counters": {
+        "followers": "26",
+        "videos": "2"
+      },
+      "source": "https://space.bilibili.com/488303483/upload/video"
+    },
     "coverage": {
       "latest": {
-        "state": "legacy_record",
-        "observed_at": null,
-        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "docs/leads/man-in-rainy.md"
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "空间公开投稿中全部2条飞行地板与C-J行动相关投稿，已收录2条EVE相关候选已存channel.listings；未逐项读取作品页。",
+        "evidence": "https://space.bilibili.com/488303483/upload/video"
       },
       "popular": {
-        "state": "legacy_record",
-        "observed_at": null,
-        "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "docs/leads/man-in-rainy.md"
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "公开投稿列表（含播放量）已存channel.listings；按全量列表播放数排序代替；未读其余作品页。",
+        "evidence": "https://space.bilibili.com/488303483/upload/video"
       },
       "series": {
         "state": "legacy_record",
@@ -43,6 +51,30 @@
       {
         "text": "当前两条作品的文字主要是熟人接梗，加上访谈协助者致谢；已有明确角色对应，但暂未读到独立事件、教学叙事或FC／管理职责。不以两条标题与普通互动单独立传，也不以未读影像断言没有故事。下一步如继续作者调查，先查空间最新、最多播放及合集，找较受关注的作品公开文字／独立人物事件；本轮未查空间排序、未完成作品精选。原游戏画像的代表KM及累计KB也未逐张补查，不把角色名片阅读说成完整游戏画像完成。",
         "source": "docs/leads/man-in-rainy.md"
+      }
+    ],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-11-07T11:45:00.000Z",
+        "source": "https://space.bilibili.com/488303483/upload/video",
+        "scope": "公开投稿列表筛选收录2条EVE相关视频：标题、发布日、当时播放；未逐项读取作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1Yzbk6mEN8",
+            "title": "【飞行地板】小船队.zip",
+            "url": "https://www.bilibili.com/video/BV1Yzbk6mEN8/",
+            "published": "2026-08-15",
+            "views": 489
+          },
+          {
+            "bvid": "BV1pvKg6DEdu",
+            "title": "地板臭区勇闯C-J！",
+            "url": "https://www.bilibili.com/video/BV1pvKg6DEdu/",
+            "published": "2026-07-16",
+            "views": 376
+          }
+        ]
       }
     ]
   },

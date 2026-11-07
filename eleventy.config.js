@@ -3,7 +3,8 @@ import markdownItContainer from 'markdown-it-container';
 import fs from 'node:fs';
 import path from 'node:path';
 import { glossaryEntries, glossaryLinks } from './scripts/glossary.mjs';
-import { formatIsk, sideStats } from './scripts/battles.mjs';
+import { corpAlliance, corpAllianceChips, corpBattles, corpKey, corpMembers, corpsOfPerson, corpUnwritten, corpZoneChips, groupCorps, killCount, statusChips } from './scripts/activity.mjs';
+import { formatIsk } from './scripts/battles.mjs';
 import { identityNames } from './scripts/person-identity.mjs';
 
 // 所有日期按 EVE 时间（UTC）显示
@@ -35,6 +36,7 @@ export default function (eleventyConfig) {
   eleventyConfig.ignores.add('src/battles/*/materials-*.md');
   eleventyConfig.ignores.add('src/battles/_*/**');
   eleventyConfig.ignores.add('src/battles/*/_*.md');
+  eleventyConfig.ignores.add('src/corps/*/materials-*.md');
 
   eleventyConfig.amendLibrary('md', md => {
     // 中文写作不手动折行：单个换行即换行（聊天记录可逐行书写）
@@ -63,6 +65,22 @@ export default function (eleventyConfig) {
       });
     }
     md.use(glossaryLinks);
+    // 任何导向外部的链接，均在新窗口或新标签页打开
+    const defaultLinkOpen = md.renderer.rules.link_open || function (tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+    md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+      const href = tokens[idx].attrGet('href');
+      if (href && /^https?:\/\//i.test(href)) {
+        tokens[idx].attrSet('target', '_blank');
+        const existingRel = tokens[idx].attrGet('rel') || '';
+        const rels = new Set(existingRel.split(/\s+/).filter(Boolean));
+        rels.add('noopener');
+        rels.add('noreferrer');
+        tokens[idx].attrSet('rel', Array.from(rels).join(' '));
+      }
+      return defaultLinkOpen(tokens, idx, options, env, self);
+    };
   });
 
   // 列传集合：按主角色创号时间升序
@@ -89,8 +107,44 @@ export default function (eleventyConfig) {
       .sort((a, b) => b.data.startYmd.localeCompare(a.data.startYmd) || a.data.title.localeCompare(b.data.title, 'zh')),
   );
 
+  // 军团集合：按创立日期升序，老团在前
+  eleventyConfig.addCollection('corps', api =>
+    api
+      .getFilteredByGlob('src/corps/*/*.md')
+      .filter(item => !corpUnwritten(item.rawInput))
+      .sort((a, b) => a.data.esi.date_founded.localeCompare(b.data.esi.date_founded)),
+  );
+
   // 四个分类独立展示，联盟含本场全部参战记录。
   eleventyConfig.addCollection('battleTagGroups', api => groupBattleTags(api.getFilteredByGlob('src/battles/*/*.md')));
+
+  // 目录按年份分段，并标记被史诗或年份边界夹成单数结尾的中大型卡片，避免双栏出现半行空白。
+  eleventyConfig.addFilter('battleDirectoryRows', battles => {
+    const list = battles ?? [];
+    const yearCounts = new Map();
+    for (const b of list) {
+      const y = b.data.startYear;
+      yearCounts.set(y, (yearCounts.get(y) ?? 0) + 1);
+    }
+    return list.map((battle, i) => {
+      const year = battle.data.startYear;
+      const prevYear = i > 0 ? list[i - 1].data.startYear : null;
+      const next = list[i + 1];
+      const isEpic = battle.data.tier?.key === 'epic';
+      const runEnds = !next || next.data.startYear !== year || next.data.tier?.key === 'epic';
+      let runLen = 0;
+      if (!isEpic && runEnds) {
+        for (let j = i; j >= 0 && list[j].data.startYear === year && list[j].data.tier?.key !== 'epic'; j--) {
+          runLen++;
+        }
+      }
+      return {
+        battle,
+        yearHeader: year !== prevYear ? { year, count: yearCounts.get(year) } : null,
+        isSolo: runLen % 2 === 1,
+      };
+    });
+  });
 
   // 标签 → 人物列表（保持创号时间顺序）
   eleventyConfig.addCollection('tagMap', api => {
@@ -118,20 +172,9 @@ export default function (eleventyConfig) {
     const d = utc(iso);
     return d ? `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}` : '';
   });
-  // 按创号年份分组（输入已按创号时间排序）
-  eleventyConfig.addFilter('groupByYear', people => {
-    const groups = [];
-    for (const p of people) {
-      const year = utc(p.data.char.birthday).getUTCFullYear();
-      if (groups.at(-1)?.year !== year) groups.push({ year, items: [] });
-      groups.at(-1).items.push(p);
-    }
-    return groups;
-  });
   eleventyConfig.addFilter('json', v => JSON.stringify(v));
   eleventyConfig.addFilter('isk', formatIsk);
   // 分方人数、损失金额与计数，目录和详情不省略缺项。
-  eleventyConfig.addFilter('sideStats', sideStats);
   // 跨板块互链：某人参与过的战役、按角色 ID 找列传
   // 双向：战役参战名单或正文点名了此人，或此人列传正文链到该战役页
   eleventyConfig.addFilter('battlesOf', (battles, id, bio = '') =>
@@ -140,6 +183,16 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter('personById', (people, id) =>
     people.find(p => p.data.character_id === Number(id)),
   );
+  eleventyConfig.addFilter('statusChips', statusChips);
+  eleventyConfig.addFilter('groupCorps', groupCorps);
+  eleventyConfig.addFilter('corpAlliance', corpAlliance);
+  eleventyConfig.addFilter('corpAllianceChips', corpAllianceChips);
+  eleventyConfig.addFilter('corpKey', corpKey);
+  eleventyConfig.addFilter('corpZoneChips', corpZoneChips);
+  eleventyConfig.addFilter('killCount', killCount);
+  eleventyConfig.addFilter('corpBattles', corpBattles);
+  eleventyConfig.addFilter('corpMembers', (people, id, ceoId, linkedIds) => corpMembers(people, id, { ceoId, linkedIds }));
+  eleventyConfig.addFilter('corpsOfPerson', corpsOfPerson);
   eleventyConfig.addFilter('glossaryUsed', content =>
     glossaryEntries.filter(entry => String(content).includes(`data-glossary-id="${entry.id}"`)),
   );

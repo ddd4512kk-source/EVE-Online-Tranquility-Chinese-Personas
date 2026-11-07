@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "471576425",
+  "name": "GERDMIS",
+  "url": "https://space.bilibili.com/471576425/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "GERDMIS",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "docs/leads/fa-shi-xu-zhu.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1TC4y1p7wY",
+      "title": "一个卷款跑路的EVE主播，不为人知的阴暗背面",
+      "url": "https://www.bilibili.com/video/BV1TC4y1p7wY/",
+      "owner_uid": "471576425",
+      "published_at": "2020-05-24T04:41:36.000Z",
+      "captured_at": "2026-11-06T23:35:50.550Z",
+      "description": "本视频录音旨在揭露出招新主播“城南暮雨”的阴暗背面，人设崩塌，看官自行判断，EVE的世界，可能真的容不下你。。。",
+      "stats": {
+        "views": 2369,
+        "replies": 32
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "docs/leads/fa-shi-xu-zhu.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

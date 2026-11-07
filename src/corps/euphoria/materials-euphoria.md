@@ -1,0 +1,14 @@
+# Euphoria. / Euphoria.
+
+军团 ID 98825114。快照见同名 JSON。
+
+## 军团沿革
+- ESI：Euphoria. [E0.]，2026-01-29 立团，CEO Luminous Ayaa，联盟 Wings Freedom.，211 人。
+- zKB：击杀 1.0 万。
+- 团内列传人物：夺米台风（2026-01 起）、狂天（2026-03 起）、CLZD-MISS NERC（2026-08 起）。
+
+## 补充线索（正文取材）
+- 联盟：ESI 现联盟为 Wings Freedom.（99014783，WINGS）；Euphoria. 先属 RR，2026-08-10 起属 Celestial Palace.（99015206），11 月 4 日通知约定转入创世主导的自由之翼／WF（出自 docs/sources/kuangtian-yinkong-capital-dispute-2026.md）。
+- 11 月 4 日搬家通知：刷怪在 WF；损失统计由狂天；停产每天 5KW 补贴；无零安生产者可入创世燃烧合作社并有补贴；留下成员补 1 张卡；飓风与旗舰回收；5V 到 6-8 星城快递挂狂天小号；福利上周停发、11 月 4 日重新申请。
+- 招新帖：[11137032901](https://tieba.baidu.com/p/11137032901) 2026-10-25《绝地WF联盟旗下Euphoria.0lp税团招新啦》，仅见标题（未读全文）。
+- 战役：4-HWWF/8TPX-N 2026-04-25、SVM-3K 2026-07-31、8F-TK3 2026-10-04 均有狂天两号／Euphoria. 记录。

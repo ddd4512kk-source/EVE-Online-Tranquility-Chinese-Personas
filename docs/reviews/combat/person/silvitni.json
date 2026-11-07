@@ -1,0 +1,134 @@
+{
+  "status": "reviewed",
+  "note": "战绩、小号、战役对照复核",
+  "evidence": [
+    "src/people/silvitni/materials-silvitni.md",
+    "src/people/silvitni/silvitni.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核读2026-10-07画像：主号累计9074击杀、884次损失、单杀415，常用阿巴顿、德雷克、猛禽、马基诺、伊什塔；统计横跨二手老号原主人，正文已声明不记在社长账上。社长身份靠管理与口水，战斗频率不是主线。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "### 检索记录与缺口"
+        },
+        {
+          "file": "src/people/silvitni/silvitni.md",
+          "contains": "Silvitni 200"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Razor Jaxx(945883645)、Vegetate(876000651)、Samean(936393057)与主号同属极端荣耀，按头衔编号与同团转入时点归并；主号击杀最多（9074）故仍以Silvitni收录，各号不累加。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "### 2026-10-15：PLA Fleet榜单的Razor Jaxx"
+        },
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "### 2026-11-01：PLA Fleet历史榜的Vegetate与Samean"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "本次新增的埃玛马克绝念级损失已对应zKill 139635298（约44亿、329名攻击者）并与战役页相合；其余具体丢船（游牧者、伊什塔、泰坦）已有KM和估值，不涉月份排名判断。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "## 战场挂机被帝国系点名集火（2026-11-06归档，B站视频截图一张、聊天截图一张）"
+        },
+        {
+          "file": "src/battles/amamake-2026/materials-amamake-2026.md",
+          "contains": "silvitni 荣耀夜场损失一条绝念"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "对象卡八场关联（阿巴宗、埃玛马克、阿提奥斯、FWST-8、HB-1NJ、LJ-YSW、M-MD31、奥扬恩）按角色ID命中；正文只用埃玛马克夜场损失与H-ADOC泰坦损失，其余参战只做关联，不另扩写。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "## 2026-08-01 Ahbazon参战（2026-10-20补档）"
+        },
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "## hb-1nj-efm-c4-2025：战役参战关联"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "他的料主要来自管理、言论与群聊，并非战绩；战绩只保留“老号与战绩，分开算”一块，因二手老号统计不能记在本人账上，不另设KB块。战场上的实战只有挂机被集火一块，已写成完整小故事。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/silvitni.md",
+          "contains": "Silvitni 200"
+        },
+        {
+          "file": "src/people/silvitni/silvitni.md",
+          "contains": "2026 年 11 月 "
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/pla-dusk-departure-2026-10.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md",
+    "src/people/silvitni/1664583033-id.json",
+    "src/people/silvitni/materials-silvitni.md",
+    "src/people/silvitni/silvitni.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "8e0662e20b1ddfdc125a06e0f288de3f3df1dc09c337660f3fd767c47d13c5f8",
+  "inputParts": {
+    "docs/sources/fushui-zhiluan-2026-05.md": "759759a0acbcdaf23f90506294cb09a6de1f092c0688df672bede720edc076bc",
+    "docs/sources/kheshig-removal-debate-2025.md": "8a6e5a93fee3a89fb961a580d8b5ad52b4ccf22f83dfb32e0cc2c8e3616ffc61",
+    "docs/sources/pla-dusk-departure-2026-10.md": "48af3b5097118cae9dd1e08d76e6911ed12e4f9b787c090cb5348319753b98d5",
+    "docs/sources/qihei-siling-titan-intel-2025.md": "13e9976f999711467e867831106dc15ef7a05b8ed64a0f14da844dd15b50d924",
+    "src/battles/amamake-2026/materials-amamake-2026.md": "9410a4b953df6b27709d63e5791f3cad3f061f81f3f942a348f8bf56436b6f3a",
+    "src/people/silvitni/1664583033-id.json": "e1d439b29fb87c9d0ad4f11d5377961f754ad0350cb6c0f1303975e6969a5d2e",
+    "src/people/silvitni/materials-silvitni.md": "7862d0a30c331bf14fe447b7b8b304a35bceef93c2c8312e5d448ca7b7f903bc",
+    "src/people/silvitni/silvitni.md": "7f7bc2fec19e931ccd364903a1d47320283b01c2e0676da119c6cb7ac1f49691",
+    "battle:ahbazon-2026": "72bec33069602c3a1a8dbfb923f763ffbb9d55448fb7afaa3157b6b9e6738fdc",
+    "battle:amamake-2026": "7eeb4dbcfea0a57e224abc1d68e9c20d2389d0ccd70f3f65e1fc66a9ccb48492",
+    "battle:atioth-2026": "4df58cc8c1730a3ff82898d8b378ea78dd37153e4924670eff15fde76c463772",
+    "battle:fwst-8-2020": "e263e3c2a0c08daa89594e5d36c708580f97fee37115bd91d43fa62d8e6b2dd1",
+    "battle:hb-1nj-efm-c4-2025": "fb81fda5f77ca100edebf539cab50a6a16aa92fdfa42fda2b73690bd520ac408",
+    "battle:lj-ysw-2024": "2c94bf6def56c43a0d72b7223939fc5ee9852a9345c8a3cb2a6666ee9eeaf2c6",
+    "battle:m-md31-2026": "02bed39e88c43f4a3ae34070bf11a379812fdd93b38a66696b22822aacfd9160",
+    "battle:oijanen-2026": "d4fca81b21b3ffb9b682113238c0c95c09d0cb663823135a7be580da28d6023e"
+  },
+  "level": 1
+}

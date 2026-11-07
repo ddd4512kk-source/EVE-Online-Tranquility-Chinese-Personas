@@ -1,0 +1,199 @@
+{
+  "status": "reviewed",
+  "note": "逐项核读，草稿登记",
+  "evidence": [
+    "src/people/witty-yy/materials-witty-yy.md",
+    "src/people/witty-yy/witty-yy.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照素材清点：惨系列、国服 SOD 选举拉票、《爱你，但是席拉海盗》、欧服《绝地求生日记》、FRT 低安战记与招新、乌鸦队视频、三号账目均已入文，事件骨架（谁做了什么、数字、引语）均能在素材或 B 站存档找到；其余动态（二测超旗战、制空舰载机输出等）是单句零碎，未采用不构成缺口。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/materials-witty-yy.md",
+          "heading": "## B站频道（取于 2026-11-07）"
+        },
+        {
+          "file": "src/people/witty-yy/materials-witty-yy.md",
+          "heading": "## 动态原文"
+        },
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "“惨”系列是歪歪最稳定的"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "无单件重料；七件普通事件均有独立料块并写成小故事，一件零碎动态不取。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "国服时期的歪歪还干过一件"
+        }
+      ],
+      "noHeavyReason": "素材全是 UP 主的视频目录和少量动态，没有足以撑起单篇的黑料；国服选举拉票是最像样的一件，但也只是一次抽奖拉票，列为普通。",
+      "items": [
+        {
+          "title": "惨系列苦主连续剧",
+          "weight": "ordinary",
+          "reason": "UP 主的长期系列产出，靠标题和数字成块。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "“惨”系列至少 18 期"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "“惨”系列是歪歪最稳定的"
+          },
+          "verdict": "sufficient",
+          "note": "列了六期标题并归纳出“立家规再被违反”的套路。"
+        },
+        {
+          "title": "国服 SOD 选举拉票抽奖",
+          "weight": "ordinary",
+          "reason": "有原话的自我宣传，反差好，但只是一次拉票。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "国服 SOD 选举：“听说SOD选举延期"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "国服时期的歪歪还干过一件"
+          },
+          "verdict": "sufficient",
+          "note": "拉票、抽奖条件、事后感言都引原话。"
+        },
+        {
+          "title": "填词《爱你，但是席拉海盗》",
+          "weight": "light",
+          "reason": "不到一分钟的小作品，但评论数最高。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "单条：《爱你，但是席拉海盗》（2022-07-29"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "2022 年 7 月，歪"
+          },
+          "verdict": "sufficient",
+          "note": "写明分工与数据，足够。"
+        },
+        {
+          "title": "欧服“新号”绝地求生日记",
+          "weight": "ordinary",
+          "reason": "老号自称新号，系列横跨两年。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "欧服时期：《绝地求生日记》合集 8 期"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "2024 年 11 月，"
+          },
+          "verdict": "sufficient",
+          "note": "抓住“新号”与五年履历的反差。"
+        },
+        {
+          "title": "FRT 低安战记与招新",
+          "weight": "ordinary",
+          "reason": "四条战记，标题由战损转为招新。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "FRT 战记：2025-08-10"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "2025 年 8 月，歪"
+          },
+          "verdict": "sufficient",
+          "note": "逐条列日期与标题，并带出灭绝兽旧识。"
+        },
+        {
+          "title": "乌鸦队声东击西与主号让位小号",
+          "weight": "ordinary",
+          "reason": "与 ZZ-ZWC 战役相接的一夜。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "2026-11-06 BV13Z4B6wEmm"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "2026 年 11 月 "
+          },
+          "verdict": "sufficient",
+          "note": "含视频、小号击毁数和主号挂名。"
+        },
+        {
+          "title": "一人三号账目",
+          "weight": "ordinary",
+          "reason": "三号数据对比，是战绩块。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "heading": "## 身份与小号"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/witty-yy/witty-yy.md",
+            "contains": "歪歪的三个号都叫 Yy，"
+          },
+          "verdict": "sufficient",
+          "note": "逐号数据加合计。"
+        },
+        {
+          "title": "二测超旗战等零碎动态",
+          "weight": "light",
+          "reason": "单句动态，无故事骨架。",
+          "source": {
+            "file": "src/people/witty-yy/materials-witty-yy.md",
+            "contains": "其他动态：二测超旗战"
+          },
+          "treatment": "omitted",
+          "verdict": "sufficient",
+          "note": "不入文。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "叙事分量落在“苦主连续剧”“国服偶像”“新号”三条线上，结尾评语回扣履历与名字，没有哪块重料被一句话带过；篇幅均衡。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "歪歪是个把对手一个个拍成"
+        },
+        {
+          "file": "src/people/witty-yy/materials-witty-yy.md",
+          "heading": "## 备注"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/witty-yy/2115635957-id.json",
+    "src/people/witty-yy/materials-witty-yy.md",
+    "src/people/witty-yy/witty-yy.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md"
+  ],
+  "inputs": "daad89528123b32301a665a1668924e62e0565d7137f47bffb960c8c1ed0f9fc",
+  "inputParts": {
+    "src/people/witty-yy/2115635957-id.json": "78839ce5708ef230040a6fed69311c34ea02914f6e3f62395cf65b875a3ff275",
+    "src/people/witty-yy/materials-witty-yy.md": "b4dc1647fcb0dfd35aa5162f795a9a5037cbd291eabec55f4b571330546624d0",
+    "src/people/witty-yy/witty-yy.md": "766cb91349f62e181a633aa3caaf20a35b4ea3009ef9c641196c6728c5f7dadd",
+    "battle:atioth-2026": "9b44f5e5b3e21aac8917732b3506a40ba8ac95891db7d48782d761e96755cb96",
+    "battle:zz-zwc-2026": "673d278f64ac2c6c06991dc2a9b80264b4fea5972893ec9c8f4661bdb2966877"
+  },
+  "level": 1
+}

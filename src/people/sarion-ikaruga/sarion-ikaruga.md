@@ -1,5 +1,5 @@
 
-斑鸠，游戏名 Sarion Ikaruga，2017 年建号，华人比赛圈 F1 Monkey.（Esports Petopia）的老队员，2023 年作为“雇佣兵”加入 FRT 的 AT19 阵容并夺冠。早年挂过 Black Legion. 和 Snuffed Out，2026 年 8 月转进 DC 的 It's MyGO.。
+斑鸠，游戏名 Sarion Ikaruga，2017 年建号，华人比赛圈 F1 Monkey.（Esports Petopia）的老队员，2023 年作为“雇佣兵”加入 FRT 的 AT19 阵容并夺冠。早年挂过 Black Legion. 和 Snuffed Out，2026 年 8 月转进 DC 的 It's MyGO. 打 AT22，赛后回归 F1 Monkey.。
 
 圈里有一个专有名词，是为他造的：“鸠黑”——黑斑鸠的人。
 

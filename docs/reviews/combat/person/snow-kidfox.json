@@ -1,0 +1,141 @@
+{
+  "status": "reviewed",
+  "note": "战绩、小号、战役对照复核",
+  "evidence": [
+    "src/people/snow-kidfox/materials-snow-kidfox.md",
+    "src/people/snow-kidfox/snow-kidfox.md",
+    "docs/sources/at22-dracarys.md",
+    "src/battles/amamake-2026/amamake-2026.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核读2026-11-02已存总览，主号11859次参与、208次损失、147次单杀、102个月，支持长期随队且损失相对少；参与价值未算个人伤害，本次未在线刷新。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "正式档案两小号已核，AIIahu Akbar总览1479次参与、80次损失，Dingguo Lee无战绩；同团及简介互链归因保留，图中本人贴小号报告对应。主号选择不变，各号不累加。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 身份与待核"
+        },
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 游戏画像"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "具体新舰损核两图：AIIahu Akbar、Paladin、Uedama 0.5、CODE.攻击者、1.712B估值。自动导航来自诸葛亮叙述，不由KM推出；舰价不作借款额。已有代表战斗沿用明确存档，无新增月份排名判断。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 借款、帕拉丁自动导航与代还"
+        },
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 既有战役画像"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核对象卡十一场关联（新增埃玛马克2026，主号pilot命中），正文仅用1N-FJ8和希瑟伊德既存代表记录，埃玛马克只做关联不扩写；AT22第三至五局船位、生还及胜负与共享材料逐项相合，不虚构个人指挥。高安单船事故未另立战役。 新出现的amamake-tatara-2026（他会话在建，正文未成）对象卡命中本人，仅记关联，待该战役成稿后再核。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/materials-snow-kidfox.md",
+          "heading": "## 既有战役画像"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "heading": "### 决赛后半程逐场记录"
+        },
+        {
+          "file": "src/battles/amamake-2026/amamake-2026.md",
+          "heading": "## 帝国及友军"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后独立KB块综合长期随队、换船续战及赛事支援位适应，代表战斗用于说明玩法。新黑料围绕借款信用与交情，未由普通丢船本身硬造黑料。",
+      "evidence": [
+        {
+          "file": "src/people/snow-kidfox/snow-kidfox.md",
+          "contains": "他的[公开战绩]"
+        },
+        {
+          "file": "src/people/snow-kidfox/snow-kidfox.md",
+          "contains": "2024年[1N-FJ8]"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/people/snow-kidfox/96137114-id.json",
+    "src/people/snow-kidfox/materials-snow-kidfox.md",
+    "src/people/snow-kidfox/snow-kidfox.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/materials-amamake-2026.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/ignoitton-2024/ignoitton-2024.json",
+    "src/battles/ignoitton-2024/ignoitton-2024.md",
+    "src/battles/ignoitton-2024/materials-ignoitton-2024.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/ostingele-2024/ostingele-2024.json",
+    "src/battles/ostingele-2024/ostingele-2024.md",
+    "src/battles/ostingele-2024/materials-ostingele-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md"
+  ],
+  "inputs": "d9f9af0e1b76836a85ed3c734933ea1ba8cc7d01beb5813a3e5f1cacef21175c",
+  "inputParts": {
+    "docs/sources/at22-dracarys.md": "a3fb3d36d55bb941a196d51434052a39037649a8488757875fc4b32441296426",
+    "src/battles/amamake-2026/amamake-2026.md": "44086fa695cdf959011e2b3966ba40a4c55e2b05092dccc0f05515a533b627f8",
+    "src/people/snow-kidfox/96137114-id.json": "14665289a724de3de15e7cb4b6d711f3e27c227d2d6a4aff05801bc3a40e247c",
+    "src/people/snow-kidfox/materials-snow-kidfox.md": "a3e835c2b74f91b5ef37c4a45b4a648449d47f9aa02bfa743bab5b6a88f9739f",
+    "src/people/snow-kidfox/snow-kidfox.md": "067cfea7673af2a950852f2063c7cb9e1a91aef0bc2fac686b5ecd2a1a0dcd1c",
+    "battle:1n-fj8-2024": "948db7fa526f01aad1b8c716201bf813f0641598cc861d33411d59e5c5caeafe",
+    "battle:amamake-2026": "85cb6fbc034f84ebd95d8e6f01871339d0c480ab26f5c0837b1a1f7b866f1315",
+    "battle:egmar-2025-02-23": "a2bd20479604ed062b61d6372960d2e458b9d24d2016237530a83045413bd85e",
+    "battle:ignoitton-2024": "75762d0220f2035a3712f3defc7a42138e1be3ee5aab90f6b5715861b5726147",
+    "battle:lantorn-2025": "5b7371c3823c05a26eea25aa77068802d87c036d635cc89f0286c4afe7f78980",
+    "battle:old-man-star-2023": "415a260d9b8f1776326a69428605b67e3443cf38d6d408beba47d87b1aef8e98",
+    "battle:ostingele-2024": "f47b2734a5f960860aba4b506b202d249247574ee017950aff9265551005c28e",
+    "battle:otsasai-2021": "b365ea33847c65fd4bb2813eab350b26829114f41e026cab9e13ab3c3ef9b99a",
+    "battle:sahtogas-2026": "e3e64c7ec14e835b7221759a66080ffed9d73f4964a8738f49b0aab58f345ebf",
+    "battle:siseide-2025": "6a6f34ddaa522949fd1d9bb59c89e8e0fe88b91691c20215cb34ca968762ca7c",
+    "battle:taff-2026": "b60f88229e18b7df59507f7753d07d850c9538c868cc575d297cdedae6c697de"
+  },
+  "level": 1
+}

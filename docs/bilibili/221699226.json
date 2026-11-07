@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "221699226",
+  "name": "账号已注销",
+  "url": "https://space.bilibili.com/221699226/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "账号已注销",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/freakdog-otto/materials-freakdog-otto.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1Cs4y1X7N4",
+      "title": "eve 奥托和土豆你们怎么睡得着觉的，吃VVV大鱼。",
+      "url": "https://www.bilibili.com/video/BV1Cs4y1X7N4/",
+      "owner_uid": "221699226",
+      "published_at": "2023-05-06T19:41:56.000Z",
+      "captured_at": "2026-11-06T23:17:59.734Z",
+      "description": "2023/03/30 奥托和土豆你们怎么睡得着觉的，吃VVV大鱼。\n\n祝各位EVE玩家身体健康，万事如意，GG~!",
+      "stats": {
+        "views": 377,
+        "replies": 0
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/freakdog-otto/materials-freakdog-otto.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

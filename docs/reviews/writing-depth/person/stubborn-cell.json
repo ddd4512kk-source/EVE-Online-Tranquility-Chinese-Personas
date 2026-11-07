@@ -1,0 +1,185 @@
+{
+  "status": "reviewed",
+  "note": "三组独立料块与B站作品精选展开充分，反差与落点齐备",
+  "evidence": [
+    "src/people/stubborn-cell/materials-stubborn-cell.md",
+    "src/people/stubborn-cell/stubborn-cell.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照素材与B站频道清点：低安单挑巡逻战绩、轻突系列解构、刷怪恐惧心理短片、B站作品精选及空间动态自述均已入文；骨架出处均能在素材与B站档案中定位；无未采用的重料。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+          "heading": "## 核心作品与公开言论"
+        },
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "身处动辄千人大会战的时代"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "素材全为个人B站作品、评论区互动与zKB战斗记录，无封号、骗局、重大内讧等重料；三件主要事件展开充分，一件精选作品简要列入，无重料成立依据。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "除了在低安出没，他在 B"
+        }
+      ],
+      "noHeavyReason": "素材全为个人 B 站视频、评论区互动与 zKB 战斗记录，无封号、骗局、重大内讧等破圈级历史冲突或大联盟黑料；正文以常态化低安游走、轻突战术解构与玩家心理短片为主，无重料成立依据。",
+      "items": [
+        {
+          "title": "杆子区战绩与四百次单杀",
+          "weight": "ordinary",
+          "reason": "zKB 击杀与战绩总览，高单杀率支撑其散打刺客形象。",
+          "source": {
+            "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+            "heading": "## 身份与角色"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/stubborn-cell/stubborn-cell.md",
+            "contains": "身处动辄千人大会战的时代"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "身处万人大联盟伏羲主团却完全不打大舰队，专心在低安死磕千次击杀与四百次单杀。",
+              "evidence": {
+                "file": "src/people/stubborn-cell/stubborn-cell.md",
+                "contains": "身处动辄千人大会战的时代"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "打海启示被劝用高价插头，直言蝰蛇太贵、打架主打性价比。",
+              "evidence": {
+                "file": "src/people/stubborn-cell/stubborn-cell.md",
+                "contains": "他打架讲究极致的性价比"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "涵盖战绩数据、低安巡逻路线及具体对战视频反应。"
+        },
+        {
+          "title": "八艘轻突的“解构图纸”系列",
+          "weight": "ordinary",
+          "reason": "B 站最具代表性的轻型突击护卫舰系列视频，拆解四大帝国小船战术。",
+          "source": {
+            "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+            "heading": "## 核心作品与公开言论"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/stubborn-cell/stubborn-cell.md",
+            "contains": "除了在低安出没，他在 B"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "区别于传统老教官念属性表，用独特学生气自嘲做全套轻突解剖。",
+              "evidence": {
+                "file": "src/people/stubborn-cell/stubborn-cell.md",
+                "contains": "除了在低安出没，他在 B"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "战鹰自称强得可怕，被调侃下饭后坦言精神高度集中半小时太累直接睡觉；美洲虎称哈基米速度颜值担当。",
+              "evidence": {
+                "file": "src/people/stubborn-cell/stubborn-cell.md",
+                "contains": "在 [BV1rWDEBjEge]"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "列举战鹰、美洲虎、审判者、复仇、女妖、恩尤等多艘轻突评价与评论互动。"
+        },
+        {
+          "title": "快乐蛋蛋人的刷怪狂想",
+          "weight": "ordinary",
+          "reason": "高互动短片，摸透深渊与刷怪玩家恐惧心理的反向整活。",
+          "source": {
+            "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+            "contains": "队友干架我挖坟，我是快乐蛋蛋人"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/stubborn-cell/stubborn-cell.md",
+            "contains": "2025 年 8 月，他"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "平时专打抓人的低安海盗，转头把受害者被抓被毁的恐惧心理刻画得入木三分引爆共鸣。",
+              "evidence": {
+                "file": "src/people/stubborn-cell/stubborn-cell.md",
+                "contains": "视频将深渊与刷怪玩家在空间站外最害怕的场景剪成了狂想曲"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "抓住海盗抓人与刷怪苦主心理的趣味反差。"
+        },
+        {
+          "title": "B站作品精选",
+          "weight": "light",
+          "reason": "精选收录五部代表作品，涵盖伊什库尔、轮椅驱逐、奇奇莫拉、卫队小船思路与猎狼级。",
+          "source": {
+            "file": "src/people/stubborn-cell/materials-stubborn-cell.md",
+            "heading": "## B站频道（取于 2026-11-07）"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/stubborn-cell/stubborn-cell.md",
+            "contains": "- [【EVE轻突思路】伊什库尔级——跟"
+          },
+          "verdict": "sufficient",
+          "note": "五部视频均有简短点评与互动金句，独立于正文叙述段落。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全文重心落在“低安刺客”与“轻突教材解构”两条线上，篇幅均衡，开篇、三组红料与精选作品各司其职，篇末评语回扣大联盟背景与小船死磕击杀榜的鲜明反差，未夸大未泛化。",
+      "evidence": [
+        {
+          "file": "src/people/stubborn-cell/stubborn-cell.md",
+          "contains": "固执的细胞是新伊甸大联盟"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/stubborn-cell/2122323917-id.json",
+    "src/people/stubborn-cell/materials-stubborn-cell.md",
+    "src/people/stubborn-cell/stubborn-cell.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/evati-2025/evati-2025.json",
+    "src/battles/evati-2025/evati-2025.md",
+    "src/battles/evati-2025/materials-evati-2025.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.md"
+  ],
+  "inputs": "c406f3f35dc54ebd0067d473237a494970d2dbdf702344fbc0c904ce655fcc3d",
+  "inputParts": {
+    "src/people/stubborn-cell/2122323917-id.json": "7afa4ea92e90515aef9ec9716c36ec7c364d6d5146345c33923633a198846253",
+    "src/people/stubborn-cell/materials-stubborn-cell.md": "46bb6eadc1fbe64c853d62b295686173be34f843becbb8d8883806a427b96b90",
+    "src/people/stubborn-cell/stubborn-cell.md": "54d7f9dd009cbdb033c9a8124f278adf4861f0a18f706528c2a5ce705693113b",
+    "battle:atioth-2026": "7eb80f457d4cfaae001ed6c16880e5b33792191040448216bfc12d2c23ee500f",
+    "battle:evati-2025": "5d485a3868eafb8206e575cf273741f2ebc3eaf3ecc5413f81579932fe01ad57",
+    "battle:sahtogas-2026": "b8c42b53a3ea3a14b78902f46f347a2d23a471668c040e7491ba8ad80cc51125",
+    "battle:todifrauan-2025": "0ac93e80c1d888fe707cc6e653340e7c0611ea4d5cc51f1cdfe8ca98b1e1baca"
+  },
+  "level": 1
+}

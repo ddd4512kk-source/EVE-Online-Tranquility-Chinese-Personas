@@ -1,8 +1,7 @@
-import { initTagCollapse, shuffled } from "./directory-utils.js";
+import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js';
 
 // 首页名录：即时筛选 + 创号正序/倒序、最近更新、随机排序。无 JS 时页面照常可读。
-// 目录是一整块连续网格；每年第一张“可见”卡片挂年份签，筛选或换序后重新计算。
-// 筛选 = 文字筛选 ∧ 标签筛选（标签栏单选，再点一次取消）。
+// 目录是一整块连续网格；筛选 = 文字筛选 ∧ 标签筛选（标签栏单选，再点一次取消）。
 (() => {
   const roster = document.getElementById("roster");
   const input = document.getElementById("filter");
@@ -14,21 +13,8 @@ import { initTagCollapse, shuffled } from "./directory-utils.js";
   let activeTag = "";
   if (!roster) return;
 
-  const cards = [...roster.querySelectorAll(".card")];
-
-  // 给每年第一张可见卡片加 year-start
-  function markYears() {
-    let prev = null;
-    for (const c of roster.children) {
-      c.classList.remove("year-start");
-      if (c.hidden || mode !== "birth") continue;
-      const y = c.dataset.year;
-      if (y !== prev) {
-        c.classList.add("year-start");
-        prev = y;
-      }
-    }
-  }
+  const cards = [...roster.querySelectorAll('.card')];
+  pauseOffscreen(cards);
 
   function applyFilter() {
     const terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -40,7 +26,6 @@ import { initTagCollapse, shuffled } from "./directory-utils.js";
       c.hidden = !ok;
       if (ok) shown++;
     }
-    markYears();
     status.hidden = terms.length === 0 && !activeTag;
     status.textContent = shown
       ? `${activeTag ? `标签「${activeTag}」` : ""}找到 ${shown} 人。`
@@ -56,12 +41,11 @@ import { initTagCollapse, shuffled } from "./directory-utils.js";
   }
 
   // 排序：cards 保持构建时的创号升序，按当前模式重排 DOM
-  // mode：birth（创号时间）| recent（最近更新在前）| shuffle；只有 birth 挂年份签
+  // mode：birth（创号时间）| recent（最近更新在前）| shuffle
   let descending = false;
   let mode = "birth";
   function placeCards(list) {
     for (const c of list) roster.appendChild(c);
-    markYears();
   }
 
   function toggleOrder() {
@@ -88,8 +72,6 @@ import { initTagCollapse, shuffled } from "./directory-utils.js";
   function setMode(m) {
     mode = m;
     roster.classList.toggle("is-shuffled", m !== "birth");
-    shuffleBtn.classList.toggle("is-active", m === "shuffle");
-    shuffleBtn.setAttribute("aria-pressed", String(m === "shuffle"));
     recentBtn?.classList.toggle("is-active", m === "recent");
     recentBtn?.setAttribute("aria-pressed", String(m === "recent"));
     orderBtn.classList.toggle("is-dimmed", m !== "birth");

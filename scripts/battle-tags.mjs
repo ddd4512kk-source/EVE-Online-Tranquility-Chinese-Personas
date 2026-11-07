@@ -8,6 +8,9 @@ export const BATTLE_TAG_GROUPS = [
   { name: '参战联盟', labels: null },
 ];
 
+const FIXED_TAGS = BATTLE_TAG_GROUPS.flatMap(group => group.labels ?? []);
+export const isAllianceLabel = tag => !FIXED_TAGS.includes(tag);
+
 export function checkBattleTaxonomy(tags) {
   if (!Array.isArray(tags)) return ['tags 必须填写一个地带和一个战斗类型'];
   const errors = [];
@@ -20,9 +23,12 @@ export function checkBattleTaxonomy(tags) {
   return errors;
 }
 
+// 联盟标签只给本方占比达标的联盟，配角、增援与零星参战不上标签。
+export const ALLIANCE_TAG_SHARE = 0.3;
+
 export function battleAllianceIds(stats, table) {
   return [...new Set(stats.sides.flatMap(side => side.alliance_participation
-    ? side.alliance_participation.map(alliance => alliance.id)
+    ? side.alliance_participation.filter(alliance => alliance.pilots >= (side.pilots || Infinity) * ALLIANCE_TAG_SHARE).map(alliance => alliance.id)
     : [...(side.organizations ?? []).filter(id => table.alliances[id]), ...(side.corps ?? []).map(corp => corp.alliance_id).filter(id => id > 0)]))];
 }
 
@@ -31,15 +37,17 @@ export function battleLabels(data, stats, table, tier) {
   return [...new Set([tier?.name, ...BATTLE_TYPES.filter(tag => data.tags?.includes(tag)), ...BATTLE_SPACES.filter(tag => data.tags?.includes(tag)), ...alliances].filter(Boolean))];
 }
 
+// 目录筛选只列出至少两场战役参战的联盟，单场联盟仍保留在战役自身标签里。
+const MIN_ALLIANCE_FILTER_COUNT = 2;
+
 export function groupBattleTags(battles) {
   const counts = new Map();
   for (const battle of battles) {
     for (const tag of new Set(battle.data.labels ?? [])) counts.set(tag, (counts.get(tag) ?? 0) + 1);
   }
-  const fixed = BATTLE_TAG_GROUPS.flatMap(group => group.labels ?? []);
   return BATTLE_TAG_GROUPS.map(group => ({
     name: group.name,
-    tags: (group.labels ?? [...counts.keys()].filter(tag => !fixed.includes(tag)).sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b, 'zh')))
-      .filter(tag => counts.has(tag)).map(name => ({ name, count: counts.get(name) })),
+    tags: (group.labels ?? [...counts.keys()].filter(isAllianceLabel).sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b, 'zh')))
+      .filter(tag => group.labels ? counts.has(tag) : counts.get(tag) >= MIN_ALLIANCE_FILTER_COUNT).map(name => ({ name, count: counts.get(name) })),
   })).filter(group => group.tags.length);
 }

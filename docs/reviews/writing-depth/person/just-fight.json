@@ -1,0 +1,101 @@
+{
+  "status": "reviewed",
+  "note": "writing-depth核读完成",
+  "evidence": [
+    "src/people/just-fight/materials-just-fight.md",
+    "src/people/just-fight/just-fight.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "骨架均有出处：SARD 招新名片、处决 AOM 间谍（BV1WE411f7fS）、9.10 诱导首爆泰坦（BV17J411K7DW）、剧本 TEST 无畏队（BV1a4411y74m）及翻车记录均在素材中归档。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/materials-just-fight.md",
+          "heading": "## B站频道作品（取于 2026-11-07）"
+        },
+        {
+          "file": "src/people/just-fight/just-fight.md",
+          "contains": "在 SARD 混战备的岁"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "核心重料「处决间谍与泰坦烟花秀」展开充分，包含动机、反差与分量三个方向。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/just-fight.md",
+          "contains": "在 SARD 混战备的岁"
+        }
+      ],
+      "items": [
+        {
+          "title": "处决间谍与泰坦烟花秀",
+          "weight": "heavy",
+          "reason": "立传核心依据，公开处决间谍并剪制爆款战宣大片。",
+          "source": {
+            "file": "src/people/just-fight/materials-just-fight.md",
+            "heading": "## B站频道作品（取于 2026-11-07）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/just-fight/just-fight.md",
+            "contains": "在 SARD 混战备的岁"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "通过处决敌对卧底大肆宣扬军团声威，把行刑当作全团新年烟花",
+              "evidence": {
+                "file": "src/people/just-fight/just-fight.md",
+                "contains": "在 SARD 混战备的岁"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "豪言壮语招新与惨遭群殴被炖大鱼的狼狈反差",
+              "evidence": {
+                "file": "src/people/just-fight/just-fight.md",
+                "contains": "虽然他在游戏名片里拽着英"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "记录改版后全服首杀泰坦与诱杀无畏舰队，奠定 SARD 战宣门面",
+              "evidence": {
+                "file": "src/people/just-fight/just-fight.md",
+                "contains": "在此之前，他更在 2019"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "动机、反差与分量展开充分"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "重料叙事分量充足，主线紧扣战地导演与快意恩仇，尾部锐评总结到位。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/just-fight.md",
+          "contains": "有实力把旗舰围猎拍成招新"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/just-fight/2114152151-id.json",
+    "src/people/just-fight/just-fight.md",
+    "src/people/just-fight/materials-just-fight.md"
+  ],
+  "inputs": "af8bd25caafc2a20359cca5dc85fa902e1a2e988a008b2b6d283e77fb45b804b",
+  "inputParts": {
+    "src/people/just-fight/2114152151-id.json": "7c513b31e33d111199ae68e830e5c3433e314b162b707c73b24a403c698bf493",
+    "src/people/just-fight/just-fight.md": "a514282b8dd29d141778ed8362b767a8ae496f204bfa41e43c4848e763050b06",
+    "src/people/just-fight/materials-just-fight.md": "b727078a745762c1f90b56f163990cbeab892b46b35415c8da11ae512ace3cc8"
+  },
+  "level": 1
+}

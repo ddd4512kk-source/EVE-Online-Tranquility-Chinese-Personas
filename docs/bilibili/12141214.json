@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "12141214",
+  "name": "KGYN1",
+  "url": "https://space.bilibili.com/12141214/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "KGYN1",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1Ng4E6YEzN",
+      "title": "【EVE Online】FRT&OSY vs 帝华，帝华付出 250B 战损代价完成空堡修复，荣耀变卖归魂者补给战损",
+      "url": "https://www.bilibili.com/video/BV1Ng4E6YEzN/",
+      "owner_uid": "12141214",
+      "published_at": "2026-11-07T09:49:03.000Z",
+      "captured_at": "2026-11-07T13:14:24.207Z",
+      "description": "BR:https://br.evetools.org/related/30001004/202611061400",
+      "stats": {
+        "views": 461,
+        "replies": 2
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

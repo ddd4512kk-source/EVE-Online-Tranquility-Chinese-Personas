@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "355159913",
+  "name": "檪奈SAMA",
+  "url": "https://space.bilibili.com/355159913/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "檪奈SAMA",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/nanhua-college/materials-nanhua-college.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1TW41197on",
+      "title": "震惊！南华上将又双叒叕吃玻色了！",
+      "url": "https://www.bilibili.com/video/BV1TW41197on/",
+      "owner_uid": "355159913",
+      "published_at": "2018-08-18T22:08:59.000Z",
+      "captured_at": "2026-11-06T23:09:23.543Z",
+      "description": "千里摸鱼于无形，十跳外风骚捉鸡。\n唯我上将南华，次次玻色回家。",
+      "stats": {
+        "views": 10361,
+        "replies": 49
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/nanhua-college/materials-nanhua-college.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

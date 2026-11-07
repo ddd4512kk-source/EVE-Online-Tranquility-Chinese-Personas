@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "uid": "405044261",
+  "name": "Orca_III",
+  "url": "https://space.bilibili.com/405044261/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "Orca_III",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/chessplayer/materials-chessplayer.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1Zb411i7cx",
+      "title": "【EVE 视频翻译】 切割机教程 风筝流入门 S.N.S Super Nerdy Slicer (ING) - Chessur",
+      "url": "https://www.bilibili.com/video/BV1Zb411i7cx/",
+      "owner_uid": "405044261",
+      "published_at": "2019-03-05T12:24:24.000Z",
+      "captured_at": "2026-11-06T23:34:09.071Z",
+      "description": "原视频链接：https://www.youtube.com/watch?v=4UieJcWI-YM&amp;t=203s\n原作者：Chessur\n听译：Orca III\n\n视频文本量巨大\n正确食用方式为暂停阅读字幕后播放观察走位\n欢迎所有对Solo和小队感兴趣的玩家联系我\n特别欢迎北美时区的PVP玩家\n无限欢迎大佬赞助isk",
+      "stats": {
+        "views": 6107,
+        "replies": 31
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/chessplayer/materials-chessplayer.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      },
+      "description_history": [
+        {
+          "captured_at": "2026-11-06T23:21:06.058Z",
+          "text": "原视频链接：https://www.youtube.com/watch?v=4UieJcWI-YM&t=203s\n原作者：Chessur\n听译：Orca III\n\n视频文本量巨大\n正确食用方式为暂停阅读字幕后播放观察走位\n欢迎所有对Solo和小队感兴趣的玩家联系我\n特别欢迎北美时区的PVP玩家\n无限欢迎大佬赞助isk"
+        }
+      ]
+    }
+  ]
+}

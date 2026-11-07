@@ -1,0 +1,136 @@
+{
+  "status": "reviewed",
+  "note": "combat核读完成",
+  "evidence": [
+    "src/people/chevalier-tan/materials-chevalier-tan.md",
+    "src/people/chevalier-tan/chevalier-tan.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核对主号 Chevalier-Tan 的 stats 总览：3004 击杀、146 损失、4.72T ISK 摧毁，常驻 Dusk 核心舰队，PVP 画像与正文相符。",
+      "evidence": [
+        {
+          "file": "src/people/chevalier-tan/materials-chevalier-tan.md",
+          "heading": "## 战绩与参战"
+        },
+        {
+          "file": "src/people/chevalier-tan/chevalier-tan.md",
+          "contains": "在战斗前线，他是华人 0"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "小号 Chevalier-Crusader（2119751783）已确认：同词根同头衔同军团，1698 击杀、171 损失、1.79T 战果，无售号异常，两号战绩合计超过 6 万亿 ISK。",
+      "evidence": [
+        {
+          "file": "src/people/chevalier-tan/materials-chevalier-tan.md",
+          "heading": "## 身份与小号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "无特定争议月份或异常峰值需要细查代表 KM，战绩按全生涯整体特征点评。",
+      "evidence": [
+        {
+          "file": "src/people/chevalier-tan/materials-chevalier-tan.md",
+          "heading": "## 战绩与参战"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核对参战 14 场大型战役，涵盖 FWST-8、X47L-Q、1N-FJ8、阿巴宗、4-HWWF、塔夫等，正文以代表性战役点评，未逐场报账。",
+      "evidence": [
+        {
+          "file": "src/people/chevalier-tan/materials-chevalier-tan.md",
+          "heading": "## 战绩与参战"
+        },
+        {
+          "file": "src/people/chevalier-tan/chevalier-tan.md",
+          "contains": "在战斗前线，他是华人 0"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战绩红料块「泛系会战的无畏老兵」紧接开篇，综合点评战斗风格、长期角色与阵营分量，未散入开篇或轻料代替。",
+      "evidence": [
+        {
+          "file": "src/people/chevalier-tan/chevalier-tan.md",
+          "contains": "在战斗前线，他是华人 0"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/chevalier-tan/2114368430-id.json",
+    "src/people/chevalier-tan/chevalier-tan.md",
+    "src/people/chevalier-tan/materials-chevalier-tan.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "315234b830c1c19d270313ee500d34e67ae4b9a1dd9d83f5f1700df722ce7549",
+  "inputParts": {
+    "src/people/chevalier-tan/2114368430-id.json": "680d51f147904b3f865ba328970baddb14af63ef93c8541fcca1ea6fe688cb2d",
+    "src/people/chevalier-tan/chevalier-tan.md": "e540039ee3252a2f848113a28a93c50afeb5359cd482758bd3fa40f7053ad571",
+    "src/people/chevalier-tan/materials-chevalier-tan.md": "5c999595e309143510bb48674bc703aa4a2458353cbf45e361e9c903af8ea511",
+    "battle:1-smeb-2026": "e0c5078ef1e33160904235bb2677b0f51474ec57cb379b5aa045f9aae501a9ac",
+    "battle:1n-fj8-2024": "641d5d3410486682354db18c56e8cf95a5ce7c77f9b46993648429622a5ba851",
+    "battle:4-hwwf-8tpx-n-2026": "fd29b09e8ad39158587ccd31633575b90009bfdb7761f008816e377727af1963",
+    "battle:8f-tk3-2026": "491d4459b06d241ec4f2a439724e4a3d86f6a89ff1a157ca4e2b42ebf66c90c5",
+    "battle:ahbazon-2024": "3b864d8b827d01c3abf3eceafa1917e83bf9a2654ff7fba200aa8144cbd4f00c",
+    "battle:atioth-2026": "609e06ac6656264c39f38c58132d20f042bfe5af5b75a89241226f968a049b4d",
+    "battle:bwf-zz-2025": "114a7c832f48e75f4d9ff297d5fca48138fe6165fe7735bdb9b31a70f960092f",
+    "battle:fwst-8-2020": "7b5bf4ec2713f1a29401288838d60020a5037ffccf7d7ee112f4c5dbea40cbf7",
+    "battle:h-pa29-2022": "aff366bd16b05c1738d04ffce86f6375736d8c68682d8e0cb52f77b287cae7c1",
+    "battle:haras-2023": "58be304b299629c318bf08783a4383850412e3e449c420b99adc6b0b1213c1fb",
+    "battle:oijanen-2026": "df1a512454b4c3e4b397999dbe3411317e80a3351ea1cd55e741c772a7e6f3c9",
+    "battle:sahtogas-2026": "bd168ea4041d92cc8dd372a9f6f55f86fa5131c506d8e4a3b542d6cc45750f87",
+    "battle:taff-2026": "e42226ce2d293a8fb581fc4fe24679fba3f6afea0ec0dbaa55f8cffa9e944083",
+    "battle:x47l-q-2023": "bd054bb45255bae90ec06dbc61db7060a7812071b0a9b6a4a96f60f416df4fff"
+  },
+  "level": 1
+}

@@ -1,7 +1,8 @@
-import { execFileSync } from "node:child_process";
-import { statSync } from "node:fs";
-import path from "node:path";
-import { PERSON_FIELDS, readPersonDocument } from "../../scripts/person-document.mjs";
+import { execFileSync } from 'node:child_process';
+import { statSync } from 'node:fs';
+import path from 'node:path';
+import { activityText, combatText, personActivity, personCombat, personStatusTags } from '../../scripts/activity.mjs';
+import { PERSON_FIELDS, readPersonDocument } from '../../scripts/person-document.mjs';
 
 // 列传最后更新时间 = 该 .md 最后一次提交的时间（只看列传本身，素材、快照不算）。
 // 未提交的新文件按构建时间算。CI 需完整历史（checkout fetch-depth: 0）。
@@ -55,5 +56,23 @@ export default {
       const count = (kind) => (raw.match(new RegExp(`^:::\\s*${kind}(?:\\s|$)`, "gm")) ?? []).length;
       return { hong: count("红料"), hei: count("黑料") };
     },
+    // 活跃、战神、UP 主的动态标记与名人、大亨、神人的人工名单，判定见 scripts/activity.mjs
+    activity: d => personActivity(d.identities?.[d.page?.fileSlug]),
+    activityLabel: d => activityText(d.activity),
+    combat: d => personCombat(d.identities?.[d.page?.fileSlug], d.characters?.[String(d.character_id)]?.birthday),
+    wargod: d => Boolean(d.combat?.wargod),
+    wargodLabel: d => combatText(d.combat),
+    famous: d => d.famousPeople?.[d.page?.fileSlug] ?? '',
+    tycoon: d => d.tycoonPeople?.[d.page?.fileSlug] ?? '',
+    shenren: d => d.shenrenPeople?.[d.page?.fileSlug] ?? '',
+    upzhu: d => Boolean(d.bilibiliPeople?.[d.page?.fileSlug]?.upzhu),
+    upzhuLabel: d => d.bilibiliPeople?.[d.page?.fileSlug]?.label ?? '',
+    statusTags: d => personStatusTags(d.activity, {
+      famous: d.famous,
+      wargod: d.wargod,
+      tycoon: d.tycoon,
+      shenren: d.shenren,
+      upzhu: d.upzhu,
+    }),
   },
 };

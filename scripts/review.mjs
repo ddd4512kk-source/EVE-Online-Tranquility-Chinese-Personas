@@ -17,7 +17,7 @@ const HELP = `离线增量复查；无参数只报数量，不输出全站正文
   npm run review -- impact --feature combat --since HEAD --limit 10
   npm run review -- verify person:短名 person:另一短名 --feature combat
   npm run review -- mark person:短名 --feature combat --status needs-work --note 具体缺口 --evidence 相对文件路径
-  npm run review -- template person:短名 --feature writing-depth [--out .cache/review/文件.json] [--force yes]
+  npm run review -- template person:短名 --feature writing-depth [--out .cache/review/文件.json] [--force yes] [--sources yes] [--anchors no]
   npm run review -- accept --feature combat --change tighten|relax
   npm run review -- check
 list：--kind person|battle --signal 信号 --state unreviewed|stale|reviewed|needs-work|blocked
@@ -25,9 +25,9 @@ list：--kind person|battle --signal 信号 --state unreviewed|stale|reviewed|ne
 impact：--since Git引用（含已暂存、未暂存和未跟踪文件），或重复 --files 相对路径；可按 --state 筛选
 card：只返回结构、命中摘录与证据入口；read 单次最多80行，不自动读取视频或联网。
 mark：仅在人工核读后使用；--evidence 可重复。配置必查项的feature逐项登记，默认读取 template 草稿并在登记后删除，另存的用 --assessment 仓库内JSON路径。
-template：生成状态留空的 assessment 草稿、校验约束与可用证据锚点；有旧结论时沿用说明，列出失效证据和登记后变动的输入。草稿已存在时不覆盖，只重报说明；--force yes 重新生成。输出须完整读取。
+template：生成状态留空的 assessment 草稿、校验约束与可用证据锚点；锚点默认只列本人正文和素材，--sources yes 另列共享来源，--anchors no 不列锚点（同一人第二项复用第一项的）。有旧结论时沿用说明，列出失效证据和登记后变动的输入。草稿已存在时不覆盖，只重报说明；--force yes 重新生成。输出须完整读取。
 verify：指定本次交付对象；未审、失效或缺项均以非零状态退出，不以关键词或料块数代替复查。
-accept：规则或实现改动后声明；tighten 提升严格度并使旧结论失效，relax 只登记新指纹。未声明时 mark／verify 拒绝执行。
+accept：规则或实现改动后声明；tighten 提升严格度并使旧结论失效，relax 只登记新指纹。未声明时 template／mark／verify 拒绝执行。
 check：核对全部功能的规则声明及已删对象的残留记录。
 详情：docs/review-workflow.md。信号不是漏项定论，互链和构建通过不是调查完成。
 `;
@@ -354,7 +354,7 @@ export function run(root, args, suppliedRecords) {
   if (args.includes('--help')) { if (args.length !== 1) throw new Error('--help 须单独使用'); return HELP; }
   const [command = 'summary', ...rest] = args, options = {}, positional = [];
   if (!['summary', 'list', 'card', 'read', 'impact', 'mark', 'template', 'verify', 'check', 'accept'].includes(command)) throw new Error(`未知命令：${command}`);
-  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], template: ['feature', 'out', 'force'], verify: ['feature'], check: [], accept: ['feature', 'change'] }[command];
+  const allowed = { summary: [], list: ['feature', 'kind', 'recent', 'max-blocks', 'signal', 'state', 'limit', 'offset'], card: ['feature'], read: ['file', 'from', 'lines'], impact: ['feature', 'since', 'files', 'state', 'limit', 'offset'], mark: ['feature', 'status', 'note', 'evidence', 'assessment'], template: ['feature', 'out', 'force', 'sources', 'anchors'], verify: ['feature'], check: [], accept: ['feature', 'change'] }[command];
   for (let i = 0; i < rest.length; i++) {
     if (!rest[i].startsWith('--')) { positional.push(rest[i]); continue; }
     const key = rest[i].slice(2), value = rest[++i];
@@ -396,7 +396,7 @@ export function run(root, args, suppliedRecords) {
     return { file, totalLines: lines.length, from, lines: lines.slice(from - 1, from - 1 + count).map((text, i) => ({ line: from + i, text })) };
   }
   const feature = loadFeature(root, options.feature ?? 'combat');
-  if (feature.pending && ['verify', 'mark'].includes(command)) throw pendingError(feature);
+  if (feature.pending && ['verify', 'mark', 'template'].includes(command)) throw pendingError(feature);
   if (command === 'verify') {
     const rows = unique(positional).map(key => {
       const target = records.find(r => r.key === key);
@@ -436,6 +436,8 @@ export function run(root, args, suppliedRecords) {
     const checks = Object.keys(feature.checks ?? {});
     if (!checks.length) throw new Error(`${feature.name} 没有逐项复查，直接用 mark --note --evidence 登记`);
     if (options.force !== undefined && options.force !== 'yes') throw new Error('--force 只接受 yes');
+    if (options.sources !== undefined && options.sources !== 'yes') throw new Error('--sources 只接受 yes');
+    if (options.anchors !== undefined && options.anchors !== 'no') throw new Error('--anchors 只接受 no');
     const out = safeFile(root, options.out ?? draftFile(feature, record));
     const { receipt, source } = assess(root, record, feature), previous = receipt?.assessment;
     const existing = exists(root, out) && !options.force;
@@ -455,7 +457,8 @@ export function run(root, args, suppliedRecords) {
       ...(feature.eventReview ? { eventShape: { title: '', weight: 'heavy|ordinary|light', reason: '', source: { file: '素材或来源', heading: '或 contains' }, treatment: 'expanded|brief|omitted', body: { file: record.body, contains: '' }, development: [{ angle: ANGLES.join('|'), note: '', evidence: { file: record.body, contains: '' } }], verdict: 'sufficient', note: '' } } : {}),
       next: `npm run review -- mark ${record.key} --feature ${feature.name} --status reviewed --note 总结 --evidence ${record.material ?? record.body}${out === draftFile(feature, record) ? '' : ` --assessment ${out}`}`,
       warning: '状态已清空；逐项核读后填写。锚点只保证能定位，不代表已核读或可直接采用。',
-      anchors: Object.fromEntries(unique([record.body, record.material, ...record.sources].filter(Boolean)).map(file => [file, anchorsOf(root, file)])) };
+      ...(options.anchors === 'no' ? {} : { sharedSources: record.sources.filter(file => file !== record.material),
+        anchors: Object.fromEntries(unique([record.body, record.material, ...(options.sources ? record.sources : [])].filter(Boolean)).map(file => [file, anchorsOf(root, file)])) }) };
   }
   if (command === 'card') {
     const { state, receipt, signals, missingChecks: missing } = assess(root, record, feature);
@@ -513,6 +516,6 @@ export function run(root, args, suppliedRecords) {
   return { feature: feature.name, total: rows.length, offset, limit, records: rows.slice(offset, offset + limit), warning: '关键词命中与快照关联仅是线索；未登记人工结论的一律 unreviewed。' };
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  try { const result = run(path.resolve(import.meta.dirname, '..'), process.argv.slice(2)); console.log(typeof result === 'string' ? result : JSON.stringify(result, null, 2)); }
+  try { const result = run(path.resolve(import.meta.dirname, '..'), process.argv.slice(2)); console.log(typeof result === 'string' ? result : JSON.stringify(result)); }
   catch (error) { console.error(error.message); process.exitCode = 1; }
 }

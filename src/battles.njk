@@ -4,22 +4,35 @@ permalink: /battles/
 pageTitle: 战役
 bodyClass: page-battles
 ---
-{%- from "entity.njk" import org -%}
-{%- from "battle-emblem.njk" import battleEmblem, emblemVars -%}
+{%- from "battle-emblem.njk" import battleEmblem -%}
 {%- set battles = collections.battles -%}
-<section class="intro">
+{%- set videoBattleCount = 0 -%}
+{%- for b in battles %}{% if b.data.videos and b.data.videos.length %}{% set videoBattleCount = videoBattleCount + 1 %}{% endif %}{% endfor -%}
+<section class="intro battle-intro">
   <h1>战役</h1>
-  <p>新伊甸历次大战，按各方总损失分档：100B 至不足 400B 为中型，400B 至不足 1T 为大型，1T 及以上为史诗。共收 <strong>{{ battles.length }}</strong> 场。</p>
+  <p>新伊甸历次大战，按各方总损失分档：100B 至不足 400B 为中型，400B 至不足 1T 为大型，1T 及以上为史诗。共收 <strong>{{ battles.length }}</strong> 场，其中 <strong>{{ videoBattleCount }}</strong> 场附第一视角或复盘视频。</p>
 </section>
 {% if battles.length %}
-<div class="toolbar" role="toolbar" aria-label="战役排序">
+<div class="toolbar" role="search">
+  <input id="b-search" type="search" placeholder="筛选：星系、战役名、联盟、军团、人物…" autocomplete="off" aria-label="按星系、战役名、联盟或人物筛选">
   <button id="b-order" type="button" class="is-active" aria-pressed="true" title="按开打日期排序，再点切换新旧">时间 ↓</button>
   <button id="b-loss" type="button" aria-pressed="false" title="按各方总损失排序，最贵的在前">损失</button>
-  <button id="shuffle" type="button" aria-pressed="false" title="随机排序，再点重新洗牌"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7h3c5 0 7 10 12 10h3M17 13l4 4-4 4M3 17h3c1.5 0 2.7-.9 3.8-2.3M14.2 9.3C15.3 7.9 16.5 7 18 7h3M17 3l4 4-4 4"/></svg><span>随机<span class="shuffle-more">排序</span></span></button>
+  <button id="shuffle" type="button" title="随机排序，再点重新洗牌"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7h3c5 0 7 10 12 10h3M17 13l4 4-4 4M3 17h3c1.5 0 2.7-.9 3.8-2.3M14.2 9.3C15.3 7.9 16.5 7 18 7h3M17 3l4 4-4 4"/></svg><span>随机<span class="shuffle-more">排序</span></span></button>
+  <a class="toolbar-full" href="{{ '/search/' | url }}">全文搜索 →</a>
 </div>
-<div class="battle-tag-filters" aria-label="战役筛选">
-  <button type="button" class="chip is-active" data-tag="" aria-pressed="true">全部<small>{{ battles.length }}</small></button>
-  {% for group in collections.battleTagGroups %}
+
+<div class="battle-quick-bar" aria-label="规模快筛">
+  <div class="tag-bar battle-tier-chips">
+    <button type="button" class="chip is-active" data-tag="" aria-pressed="true">全部<small>{{ battles.length }}</small></button>
+    {%- for group in collections.battleTagGroups %}{% if group.name == "规模" %}
+      {%- for t in group.tags %}<button type="button" class="chip chip-tier-{{ loop.index }}" data-tag="{{ t.name }}" aria-pressed="false">{{ t.name }}<small>{{ t.count }}</small></button>{% endfor %}
+    {% endif %}{% endfor %}
+  </div>
+  <button id="b-filter" type="button" class="battle-filter-toggle" aria-expanded="false" aria-controls="battle-filters" title="按战斗类型、地带、参战联盟筛选">更多筛选 ▾</button>
+</div>
+
+<div class="battle-tag-filters" id="battle-filters" aria-label="更多战役筛选" hidden>
+  {% for group in collections.battleTagGroups %}{% if group.name != "规模" %}
   <div class="battle-tag-group">
     <span class="battle-tag-heading" id="battle-tag-heading-{{ loop.index }}">{{ group.name }}</span>
     <div class="tag-wrap">
@@ -29,43 +42,44 @@ bodyClass: page-battles
       <button type="button" class="tag-more" aria-controls="battle-tags-{{ loop.index }}" aria-expanded="false" hidden>展开 ▾</button>
     </div>
   </div>
-  {% endfor %}
+  {% endif %}{% endfor %}
+  <p class="filter-status battle-taxonomy-note">超旗战：交战双方同一阶段各投入至少 10 条泰坦或超级航母；旗舰战：成规模无畏、航母交锋；常规战：少量旗舰或无旗舰。联盟标签只给占本方参战角色三成及以上的联盟。</p>
 </div>
-<p class="filter-status">超旗战：泰坦、超级航母投入交战；旗舰战：成规模无畏、航母交锋；常规战：少量旗舰或无旗舰。联盟标签包含各方参战成员。</p>
 <p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
 
-<ol id="battle-rows" class="battle-rows">
-{%- for b in battles %}
+<div id="battle-rows" class="battle-rows">
+{%- for row in battles | battleDirectoryRows %}
+  {%- set b = row.battle %}
   {%- set d = b.data %}
-  <li class="battle-row battle-row-{{ d.tier.key }}" style="{{ emblemVars(d.emblem) | trim }}" data-date="{{ d.startYmd }}" data-loss="{{ d.lossTotal }}" data-tags="|{{ d.labels | join('|') }}|">
-    <div class="battle-row-top">
-      <div class="battle-row-identity">
-        {{ battleEmblem(d.emblem, d.tier.key) }}
-      <div class="battle-row-head">
-        <a class="battle-row-title" href="{{ b.url | url }}">{{ d.title }}</a>
-        <span class="battle-row-meta"><span class="tier tier-{{ d.tier.key }}">{{ d.tier.name }}</span> <time datetime="{{ d.startYmd }}">{{ d.startYmd }}</time>{% if d.endYmd and d.endYmd != d.startYmd %} — <time datetime="{{ d.endYmd }}">{{ d.endYmd }}</time>{% endif %} · {% for s in d.systems %}{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</span>
+  {%- if row.yearHeader %}
+  <h2 class="battle-year" data-year="{{ row.yearHeader.year }}"><span>{{ row.yearHeader.year }}</span><small>{{ row.yearHeader.count }} 场</small></h2>
+  {%- endif %}
+  <article class="battle-row battle-row-{{ d.tier.key }}{% if row.isSolo %} is-solo{% endif %}" data-year="{{ d.startYear }}" data-date="{{ d.startYmd }}" data-loss="{{ d.lossTotal }}" data-tags="|{{ d.labels | join('|') }}|" data-key="{{ d.battleSearchKey }}{% for s in d.sidesView %}{% for id in s.people %}{% set p = collections.people | personById(id) %}{% if p %} {{ p.data.displayName | lower }}{% endif %}{% endfor %}{% endfor %}">
+    {{ battleEmblem(d.emblem, d.coverImage, loop.index > 2, d.systems[0]) }}
+    <div class="battle-row-body">
+      <div class="battle-row-ribbon">
+        <span class="battle-row-meta">
+          <span class="tier tier-{{ d.tier.key }}">{{ d.tier.name }}</span>
+          <time datetime="{{ d.startYmd }}">{{ d.startYmd }}</time>{% if d.endYmd and d.endYmd != d.startYmd %} — <time datetime="{{ d.endYmd }}">{{ d.endYmd }}</time>{% endif %}
+          <span class="battle-meta-dot" aria-hidden="true">·</span>
+          <span class="battle-row-sys">{% for s in d.systems %}{% if systemNames[s] %}{{ systemNames[s] }}（<span lang="en">{{ s }}</span>）{% else %}<span lang="en">{{ s }}</span>{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</span>
+        </span>
+        {% if d.videos and d.videos.length %}<span class="battle-vid-badge" title="附 {{ d.videos.length }} 部第一视角或复盘视频">▶ {{ d.videos.length }} 视频</span>{% endif %}
       </div>
+      <h3 class="battle-row-heading"><a class="battle-row-title" href="{{ b.url | url }}">{{ d.title }}</a></h3>
+      {% if d.epithet %}<p class="battle-row-epithet">{{ d.epithet }}</p>{% endif %}
+      <div class="battle-row-foot">
+        <dl class="battle-stats">
+          <div><dt>总损失</dt><dd>{% if d.loss_is_lower_bound %}<small class="isk-prefix">至少</small>{% endif %}{{ d.lossTotal | isk }}</dd></div>
+          {% if d.pilotsTotal %}<div><dt>参战</dt><dd>{{ d.pilotsTotal }}<small>人</small></dd></div>{% elif d.pilots_peak %}<div><dt>最高同屏</dt><dd>{{ d.pilots_peak }}<small>人</small></dd></div>{% endif %}
+        </dl>
+        <p class="battle-row-sides">{% for s in d.sidesView %}<span class="side-ink-{{ loop.index }}">{{ s.name }}</span>{% if not loop.last %}<em class="vs-mark">对</em>{% endif %}{% endfor %}</p>
       </div>
-      <dl class="battle-stats">
-        <div><dt>总损失</dt><dd>{% if d.loss_is_lower_bound %}至少 {% endif %}{{ d.lossTotal | isk }}</dd></div>
-        {% if d.pilotsTotal %}<div><dt>参战</dt><dd>{{ d.pilotsTotal }}<small>人</small></dd></div>{% elif d.pilots_peak %}<div><dt>最高同屏</dt><dd>{{ d.pilots_peak }}<small>人</small></dd></div>{% endif %}
-      </dl>
+      <div class="loss-bar" aria-hidden="true">{% for s in d.sidesView %}{% if s.loss %}<span class="loss-bar-{{ loop.index }}" style="flex-grow: {{ s.loss }}"></span>{% endif %}{% endfor %}</div>
     </div>
-    {% if d.epithet %}<p class="battle-row-epithet">{{ d.epithet }}</p>{% endif %}
-    <div class="loss-bar" aria-hidden="true">{% for s in d.sidesView %}{% if s.loss %}<span class="loss-bar-{{ loop.index }}" style="flex-grow: {{ s.loss }}"></span>{% endif %}{% endfor %}</div>
-    <ul class="side-grid" aria-label="交战各方">
-    {%- for s in d.sidesView %}
-      <li class="side-mini">
-        <span class="side-mini-name">{{ s.name }}</span>
-        {% set stats = s | sideStats %}{% if stats %}<span class="side-mini-stats">{{ stats }}</span>{% endif %}
-        {% if s.alliances and s.alliances.length %}<span class="side-mini-allies">{% for a in s.alliances.slice(0, 3) %}{{ org(a) }}{% if not loop.last %}、{% endif %}{% endfor %}{% if s.alliances.length > 3 %} 等 {{ s.alliances.length }} 个{% if s.hasIndependentCorporations %}组织{% else %}联盟{% endif %}{% endif %}</span>{% endif %}
-        {% if (s.corps and s.corps.length) or (s.people and s.people.length) %}<span class="side-mini-cn">{% if s.corps and s.corps.length %}华人军团 {{ s.corps.length }}{% endif %}{% if s.corps and s.corps.length and s.people and s.people.length %} · {% endif %}{% if s.people and s.people.length %}收录 {{ s.people.length }} 人{% endif %}</span>{% endif %}
-      </li>
-    {%- endfor %}
-    </ul>
-  </li>
+  </article>
 {%- endfor %}
-</ol>
+</div>
 <script type="module" src="{{ '/assets/js/battles.js' | url }}?v={{ site.build }}"></script>
 {% else %}
 <p class="empty">尚无战役。</p>

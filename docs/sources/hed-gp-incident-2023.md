@@ -1,6 +1,6 @@
 # HED-GP代驾事故，2023-10-17（不收作战役）
 
-本事件为少数旗舰转移途中遭人数悬殊的单方面围猎，按[战役收录规则](../content-rules.md#战役)排除，不留在战役候选队列。已有故事保留于[工程项目列传](../../src/people/gongcheng-xiangmu/gongcheng-xiangmu.md)；下文统计与分方仅供复核事故，不表示战役收录。
+本事件为少数旗舰转移途中遭人数悬殊的单方面围猎，按[战役收录规则](../rules-battle.md#收录与统计)排除，不留在战役候选队列。已有故事保留于[工程项目列传](../../src/people/gongcheng-xiangmu/gongcheng-xiangmu.md)；下文统计与分方仅供复核事故，不表示战役收录。
 
 ## 来源、取得与实际阅读
 

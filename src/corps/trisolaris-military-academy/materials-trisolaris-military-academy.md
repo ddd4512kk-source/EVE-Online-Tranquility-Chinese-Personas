@@ -1,0 +1,15 @@
+# 三体军校 / Trisolaris Military Academy
+
+军团 ID 98633272。快照见同名 JSON。
+
+## 军团沿革
+- ESI：Trisolaris Military Academy [VRGOD]，2020-03-04 立团，CEO LINKIN HY，联盟 Fraternity Auxiliary，817 人。
+- zKB：击杀 6.07 万，最近 2026-11。
+- 素材：linkin-hy（2023-06《伏羲十周年招新特刊》，https://tieba.baidu.com/p/8452643206）；cherie-allison、fracture-ray、jibing779、van-007。
+- 团内列传人物：HY、阿巴怪、天机坊、碎光、小麦、阿龙、极冰、铁头、咪咪、筱橘、东梧、斯凯、未央、刀哥等。
+
+## 补充线索
+
+- 招新特刊（tieba 8452643206，2023-06，HY 自述）：2020 年伏羲开新手团，VRGOD 译作“我们即是上帝”，无宣战新手团玩法；驻地欧塔萨塞五级任务点、黑渊莫德团、特布特 UMI-KK；福利为刷怪船、起步资金、反收割船免费发，免费快递基本每天一运。（以上据 linkin-hy 列传已引内容，原帖无本地缓存。）
+- 碎光 2020-10 视频《死亡毒牙》简介挂“三体军事学院支持出品”（fracture-ray 列传）。
+- 贴吧 5442209312《【三体】二周目》是 Goons 中文公司“新伊甸三体组织”的招新帖，与本军团无关，不并入。

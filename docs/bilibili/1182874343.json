@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "uid": "1182874343",
+  "name": "望穿秋水145",
+  "url": "https://space.bilibili.com/1182874343/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": null,
+    "label": "望穿秋水145",
+    "evidence": [
+      "作品页作者或仓库链接；未核对应人物"
+    ],
+    "related": [
+      {
+        "material": "src/people/manuer/materials-manuer.md",
+        "label": "仓库提及，未核对应"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1QC3G6DEKX",
+      "title": "「新宿决战」雨爱版",
+      "url": "https://www.bilibili.com/video/BV1QC3G6DEKX/",
+      "owner_uid": "1182874343",
+      "published_at": "2026-07-26T03:00:00.000Z",
+      "captured_at": "2026-11-06T23:12:08.633Z",
+      "description": "我坐好了\n\n原版【「咒术回战」人外魔境新宿决战-哔哩哔哩】 https://b23.tv/xXReDu7",
+      "stats": {
+        "views": 15858860,
+        "replies": 64946
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "material_linked",
+        "material_refs": [
+          "src/people/manuer/materials-manuer.md"
+        ],
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

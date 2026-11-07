@@ -1,0 +1,474 @@
+{
+  "status": "reviewed",
+  "note": "四件重料展开充分；匍匐块与引语缺口已补并核对原帖",
+  "evidence": [
+    "src/people/sayler/materials-sayler.md",
+    "docs/sources/at22-dracarys.md",
+    "src/people/sayler/sayler.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "骨架有出处：招牌、FRT 规矩、专栏、家史、出门、AT22 均能在素材或共享来源找到。逐字核对已完成：6018984508、6866542050、6261550446、8871250763、9674416184、7433813273、7695634708 重读后引语与原帖相符，原句记入素材；6866542050 的“人数碾压”原意是对方人多，正文已改正。未采用的重料：无；本人黑料检索素材写明未做完，不能断言没有。",
+      "evidence": [
+        {
+          "file": "src/people/sayler/materials-sayler.md",
+          "contains": "点名 AVDOT 的帖（节选）"
+        },
+        {
+          "file": "src/people/sayler/materials-sayler.md",
+          "contains": "7433813273 《eve欧服匍匐军团"
+        },
+        {
+          "file": "src/people/sayler/materials-sayler.md",
+          "contains": "原帖 r/Eve s32lne"
+        },
+        {
+          "file": "docs/sources/at22-dracarys.md",
+          "contains": "| Sayler | 2113271910 | 19：全部 |"
+        },
+        {
+          "file": "src/people/sayler/sayler.md",
+          "contains": "翻贴吧的旧帖，AVDOT"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "四件重料（招牌、FRT 规矩、专栏、AT22）都展开了三个方向，判充分。匍匐块已补：交代名号来由、写完海澜之家和楼下催更，结尾落回本人接下的家业。“每隔一两年”已改为三趟出门。",
+      "evidence": [
+        {
+          "file": "src/people/sayler/sayler.md",
+          "contains": "2021 年夏天，贴吧有"
+        },
+        {
+          "file": "src/people/sayler/sayler.md",
+          "contains": "回到低安，清点下来只剩五十来号人"
+        }
+      ],
+      "items": [
+        {
+          "title": "AVDOT 成为华语低安唯一招牌",
+          "weight": "heavy",
+          "reason": "人物上榜理由的主干，跨七年的口碑决定他的形象。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "点名 AVDOT 的帖（节选）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "翻贴吧的旧帖，AVDOT"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "掉链子和只打架的硬团同时成立。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "前后一年，同一个军团既被损成"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "别家消失，招新门槛成了新人比较的参照。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "时间越往后，别家的名字越少"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "散伙帖被一句你雇佣 avdot 堵回去。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "也有尴尬的时候"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "发挥足够，引语已核原帖。散伙帖后不再接他 2020 年出门，不建立因果。"
+        },
+        {
+          "title": "FRT 禁收带 AVDOT 履历的人",
+          "weight": "heavy",
+          "reason": "外号和上榜理由都用它，体现对手的防备。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "8796582119（2023-12-16）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "2023 年 12 月，贴吧有个新人"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "新人被请出翠云，理由是履历。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "2023 年 12 月，贴吧有个新人"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "新人说合同纠纷，楼里认定马甲和间谍。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "新人的说法是自己被朋友拉进去的"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "收人红线与深水 RHG 并列，落回他守的牌子。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "吵了好些楼"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "引语和转述已对照本地缓存原帖。规矩只见回帖，未见联盟公告，骨架有出处。"
+        },
+        {
+          "title": "Snuff 专栏把他写成主角",
+          "weight": "heavy",
+          "reason": "名声走出华人圈的本人料。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "原帖 r/Eve s32lne"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "2022 年 1 月，Reddit"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "铁壁 Timer 的场面和语音频道。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "专栏里，神秘博士联动的奖励刚发"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "开着麦吃饭，三十秒才点一个缪宁。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "接战之后，他每三十秒"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "贴吧翻译，并点明笑话带来的名气。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "2022 年 1 月，Reddit"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "明示是笑话，没有当战史。中文台词已对照译帖并记入素材。"
+        },
+        {
+          "title": "AT22 全勤亚军",
+          "weight": "heavy",
+          "reason": "本人亲自上场的最高成绩。",
+          "source": {
+            "file": "docs/sources/at22-dracarys.md",
+            "contains": "| Sayler | 2113271910 | 19：全部 |"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "2026 年，Sayler 进入"
+          },
+          "development": [
+            {
+              "angle": "分量",
+              "note": "2T 雇佣、十九场全勤、老板不挪军团。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "2026 年，Sayler 进入"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "决赛后三局的船位和结果。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "第三局，他开阿施塔特被击毁"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "自己没死，队伍却输，拆解 Never FEED。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "“绝不送人头”的招牌到了决胜局"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "船型、存活、场次和外援军团变动均与共享来源相符。"
+        },
+        {
+          "title": "综合战绩与换船",
+          "weight": "ordinary",
+          "reason": "普通参战，没有个人战功的出处。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "生涯击杀 15968"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "Sayler 的 [KB"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "Never FEED 与账一直赚。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "Sayler 的 [KB"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "作点评够用。"
+        },
+        {
+          "title": "1N-FJ8 换门脸上船",
+          "weight": "ordinary",
+          "reason": "普通参战，可作亲自上船的例子。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "2024-11-29 的 1N-FJ8 KM"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "最能看出这位当家脾气的是"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "人不在 AVDOT，照样亲自上船。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "最能看出这位当家脾气的是"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "归属已更正。"
+        },
+        {
+          "title": "匍匐军团家史",
+          "weight": "ordinary",
+          "reason": "军团老兵自述，本人未被提及，对他只是背景，已定保留。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "7433813273 《eve欧服匍匐军团"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "2021 年夏天，贴吧有"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "专门砍人的军团自称匍匐，雇佣费拖两年没结。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "2021 年夏天，贴吧有"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "楼下催更，并点出雇佣费引出的后续矛盾。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "家底凑齐就该出门了"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "结尾落回本人：五十来号人的点名册上有他，后来接下这份家业。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "通篇四个阶段，Sayler 的名字一次没出现"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "已写明名号来由和海澜之家，家史与本人的关系落在结尾；本人未被原帖提及这一点也写明了。"
+        },
+        {
+          "title": "三次出门又回来",
+          "weight": "ordinary",
+          "reason": "履历事实，支撑招牌的连续性。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "- The Turtles（98777152）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "2018 年 4 月他进了 AVDOT"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "分号是他起的头，CEO 却是别人。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "出门转一圈，最后还是回自家柜台"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "日期与档案相符，起句已改为出过三趟门。"
+        },
+        {
+          "title": "AOM 公司说明",
+          "weight": "ordinary",
+          "reason": "公司口径，未证明本人执笔。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "公司声明，中，个人归属未确认"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sayler/sayler.md",
+            "contains": "第二天贴吧出现一帖"
+          },
+          "development": [
+            {
+              "angle": "反应与后果",
+              "note": "楼下省流版。",
+              "evidence": {
+                "file": "src/people/sayler/sayler.md",
+                "contains": "这是公司的公开口径"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "引语已对照缓存原帖；未归到本人。"
+        },
+        {
+          "title": "FRT 踢走 AVDOT 十年成员的回帖",
+          "weight": "light",
+          "reason": "涉及他人，只读到回帖。",
+          "source": {
+            "file": "src/people/sayler/materials-sayler.md",
+            "contains": "8754812128（2023-12-03）"
+          },
+          "treatment": "omitted",
+          "verdict": "sufficient",
+          "note": "不采用合理。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "重心合理：招牌和 FRT 规矩撑主线，AT22 和专栏补本人，匍匐块结尾写回本人。评语已改为常年不进华人联盟群、除替 FRT 打工那一趟外都在低安，与正文相符。散伙帖与 2020 年出门已调开。2019 年段不再称老板，CEO 起始时间未查到，不写死。",
+      "evidence": [
+        {
+          "file": "src/people/sayler/sayler.md",
+          "contains": "Sayler 是欧服华人里少见的"
+        },
+        {
+          "file": "src/people/sayler/sayler.md",
+          "contains": "也有尴尬的时候"
+        },
+        {
+          "file": "src/people/sayler/sayler.md",
+          "contains": "2021 年夏天，贴吧有"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/at22-dracarys.md",
+    "docs/sources/battle-side-review-2026-10-21.md",
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/community-br-discovery-2026-10-11.md",
+    "docs/sources/community-br-review-2026-10-12.md",
+    "docs/sources/community-br-verified-2026-10-11.md",
+    "docs/sources/hed-gp-incident-2023.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "docs/sources/winter-war-live-reports-2025-2026.md",
+    "docs/sources/winterco-february-2022.md",
+    "src/people/sayler/2113271910-id.json",
+    "src/people/sayler/materials-sayler.md",
+    "src/people/sayler/sayler.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/ignoitton-2026/ignoitton-2026.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.md",
+    "src/battles/ignoitton-2026/materials-ignoitton-2026.md",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.md",
+    "src/battles/old-man-star-2023/old-man-star-2023.json",
+    "src/battles/old-man-star-2023/old-man-star-2023.md",
+    "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+    "src/battles/ostingele-2024/ostingele-2024.json",
+    "src/battles/ostingele-2024/ostingele-2024.md",
+    "src/battles/ostingele-2024/materials-ostingele-2024.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/siseide-2025/siseide-2025.json",
+    "src/battles/siseide-2025/siseide-2025.md",
+    "src/battles/siseide-2025/materials-siseide-2025.md"
+  ],
+  "inputs": "f539352f40f08a569f7ff1804707629df2979d1547de45f9a13ea2aa8d4ec08c",
+  "inputParts": {
+    "docs/sources/at22-dracarys.md": "a3fb3d36d55bb941a196d51434052a39037649a8488757875fc4b32441296426",
+    "docs/sources/battle-side-review-2026-10-21.md": "a75a44ddabb07f77963887cc48873fc78fa8deaf986dd52d70e4e12e103977f6",
+    "docs/sources/capital-battles-2026-10-11.md": "7d329d7268098e6a253c11c90fb054c6ee13607fcf69f33000b7fb980858c6c1",
+    "docs/sources/community-br-discovery-2026-10-11.md": "3d40865763d08d1d2aeaaf4c7386bf933b3aea016f1c7791c514681efefaa9f7",
+    "docs/sources/community-br-review-2026-10-12.md": "7739686ec552604c790e68a7f7ea73dd0f81c0de2bf365bfdc32260d4f38ae6a",
+    "docs/sources/community-br-verified-2026-10-11.md": "f6d199e07eb831b00bd9756ae24e69c861b016fe39ad92380aa6594646e93dfd",
+    "docs/sources/hed-gp-incident-2023.md": "2d81a0fd8fa38a3e1f2c66ddcdc2c888ba3343a0a11510821315ac0c58e28459",
+    "docs/sources/large-battles-2026-10-11.md": "54b2c444412865591faeb14251fc35eeb73d5c421c5c9957c63a1c308a380c01",
+    "docs/sources/winter-war-live-reports-2025-2026.md": "5ccf2b27080ac9b28b54dabb3739b7b8bf440551155b020405d5882b21775c16",
+    "docs/sources/winterco-february-2022.md": "9d1dd16d88124f8de42b51dbfe41299683c46aaa80b3248abff4a52eec8d5521",
+    "src/people/sayler/2113271910-id.json": "f63ddd9b43ac88faf5e38af30c6bcb617cb5407d5f8da42788beb752b255ebe1",
+    "src/people/sayler/materials-sayler.md": "85429eceb5e635848b014ec02abb6ccd4f8e007248a78805504c35575c77d672",
+    "src/people/sayler/sayler.md": "64914336ce5476314649a9d4b00be0c5d5e1e34243d83cbf8f9a434bf04b5db4",
+    "battle:1n-fj8-2024": "57c5e76e93d9204f90f44ec869ceb9091f85ba0492ada5f03219d51bdd2599bf",
+    "battle:amamake-2026": "ec64af7d35fd493b5a37a5a4e2d22d4672d3350d553ef2af2b34d72d78be0b85",
+    "battle:haras-2023": "711268e4f75c688d0176116203dbf3076cd4cd37da56cf03613ab7ead0512067",
+    "battle:ignoitton-2026": "a376416af1a411d73503ff7a1efa3fbfe8f35c2765eb8ee138454cec3ccfdadd",
+    "battle:lantorn-2025": "d8494c5911b3ebfd6644d77ac7c870744c76cdeaf57a6502c4804d25568b3df4",
+    "battle:obe-2026": "d44e1c1e6c0eaf860d0bbbbd35b8459ef88875ba369b83bb309442738e7683e9",
+    "battle:old-man-star-2023": "b682ddcabc33fcc7b0226971d46dcc00d176b3b9fd484ef2f1df4251a0cc82a9",
+    "battle:ostingele-2024": "1a16f4be30be5459e48ad140b007326b33cc17a8581aee8418bf1d42664481a5",
+    "battle:otsasai-2021": "2e52fd22e4e66f0beabd4c22379559ad6f3868b0a52700734f0fc5d79b44e484",
+    "battle:sahtogas-2026": "1d27b94c6013fefe347750184c1e9aad72f0177f33ff62ee37ea56cfb0c7afaa",
+    "battle:siseide-2025": "1598a158245113b90f561f592844edff049453b8078f2a3be238e395ccbb7c80"
+  },
+  "level": 1
+}

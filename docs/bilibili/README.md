@@ -7,7 +7,7 @@
 1. 用 `npm run materials -- "人物或账号名" --kind bilibili` 定位UID档案，无需加载全员总表；或用 `node scripts/person-identity.mjs <人物短名或平台账号名>`，取得人物全部已对应账号。
 2. `node scripts/bilibili-archive.mjs show 22271994` 只输出身份、profile、覆盖与作品状态，不倾倒整页频道目录。
 3. `node scripts/bilibili-archive.mjs show 22271994 BV19X4y1n7da` 读取这一作品已存的简介、计数、署名状态及 `material_evidence`：从既有素材按需定位的原段落、章节、行号和范围说明，不另存摘要副本。`table_row`只表示表格引用，`prose_reference`只表示正文引用，均不自动升级消化状态；被截短的段落继续沿 `reading.material_refs` 读取。没有作品页档案时，先查 `channel.listings` 是否已有标题与确切BV。
-4. 只有上述档案与素材均缺少本次需要的具体内容，才按[取材手册](../research-method.md#4-b-站与贴吧同等重要)定向联网。缓存清理、换会话、没有精选、没有完成全频道阅读，都不是刷新理由。
+4. 只有上述档案与素材均缺少本次需要的具体内容，才按[B站细则](../research-tools.md#b站细则)定向联网。缓存清理、换会话、没有精选、没有完成全频道阅读，都不是刷新理由。
 
 ## 战役视频候选
 
@@ -15,13 +15,13 @@
 
 ## 简介里的战报查漏
 
-`node scripts/bilibili-archive.mjs reports 0 10` 按UID／BV分页提取当前及历史简介的公开BR入口，支持br.evetools、killmail.app、WarBeacon与旧br.inyour.space；偏移从0开始，单页最多20条。链接、取得版本、同链接战役来源及战役素材提及均从正式档案按需生成，不另存索引。未匹配只能说明本地尚无同链接引用，不能自动认作漏收战役；已提及也不代表战报已核。读取与后续处理按[取材手册](../research-method.md#来源对战役时区与战报)。
+`node scripts/bilibili-archive.mjs reports 0 10` 按UID／BV分页提取当前及历史简介的公开BR入口，支持br.evetools、killmail.app、WarBeacon与旧br.inyour.space；偏移从0开始，单页最多20条。链接、取得版本、同链接战役来源及战役素材提及均从正式档案按需生成，不另存索引。未匹配只能说明本地尚无同链接引用，不能自动认作漏收战役；已提及也不代表战报已核。读取与后续处理按[战役取材](../research-battle.md#来源对战役时区与战报)。
 
-清理简介联系方式时保留同一行的公开BR链接，不保留联系方式正文。战役视频选取按[内容规则](../content-rules.md#战役)，战役候选不套低播放粗筛。
+清理简介联系方式时保留同一行的公开BR链接，不保留联系方式正文。战役视频选取按[战役规则](../rules-battle.md#收录与统计)，战役候选不套低播放粗筛。
 
 ## 字段与状态
 
-UID用字符串，BV区分大小写；一个UID一个文件，一个BV在该账号只记一次；图文用`opus:<字符串ID>`，旧专栏用`article:<字符串cv号>`作key，分别在`posts[]`去重。图文ID可能超过JavaScript安全整数范围，必须保存字符串。账号名、视频标题会变，不能拿名字作主键。
+图文用`opus:<字符串ID>`，旧专栏用`article:<字符串cv号>`作key。账号名、视频标题会变，不能拿名字作主键。
 
 | 字段 | 含义与维护处 |
 | --- | --- |
@@ -40,7 +40,7 @@ UID用字符串，BV区分大小写；一个UID一个文件，一个BV在该账�
 | `videos[]` | 已核对应作品页的BV、上传者UID、标题、发布日期、简介、当时播放与评论计数。`captured_at:null`表示旧API缓存没保留取得日期，不能用文件修改时间补造。 |
 | `videos[].credit` | 创作、原作、转载或团队署名。导入默认`unreviewed`，owner只证明上传者；有外部原作链接不自动认定翻译由UP完成。 |
 | `videos[].reading` | 取得与消化状态，见下表；素材引用可带稳定`bili-bv…`锚点。 |
-| `videos[].usage` | `body`与`selected`从当前人物正文核对，不手填；同一BV不得两者均为true。正文简称仍需人工核对，标题匹配只是辅助。 |
+| `videos[].usage` | 由sync从当前人物正文生成，不手填。正文简称仍需人工核对，标题匹配只是辅助。 |
 | `videos[].description_history` | 再取得时简介发生变化，保留旧公开版本及原取得日期；不覆盖已完成摘要或阅读范围。 |
 
 ### 频道覆盖
@@ -57,7 +57,7 @@ UID用字符串，BV区分大小写；一个UID一个文件，一个BV在该账�
 - `material_linked`：正式素材已经引用这个BV；可能是详细摘要，也可能只有候选名录，须沿链接读原范围。不能自动降成“未读”或自动升成“评论全读”。
 - `digested`：人工确认关键内容、上下文、署名和边界已落进正式素材。必填`material_refs`与`scope`，写明读了简介、哪些主评论／作者回复，未翻页或未展开之处；可记`reviewed_at`。不要求穷尽所有评论。
 
-入文是另外一条轴：已经消化可以不入文；从精选撤下不撤回消化，也不记成质量不佳。正文已经展开同一作品，精选另选或留空。翻译、搬运可候选，联合制作仍按内容规则处理。
+入文是另外一条轴：已经消化可以不入文；从精选撤下不撤回消化，也不记成质量不佳。正文已经展开同一作品，精选另选或留空。翻译、搬运可候选，联合制作仍按[列传规则](../rules-person.md)的“B站 UP 作品精选”处理。
 
 ## 图文与旧专栏
 
@@ -88,22 +88,25 @@ UID用字符串，BV区分大小写；一个UID一个文件，一个BV在该账�
 
 ## 增量归档
 
-公开作品页取得后，可离线导入：
+`npm run bilibili:check`（`check`、`build`都会跑）发现`src/`及`docs/`下来源、线索、军团、贴吧档案中提到未登记的BV或UP主页就报错，并列出修复命令：
 
 ```bash
-node scripts/bilibili-archive.mjs import .cache/某次读取/001.json
+node scripts/research/bilibili.mjs capture BV1…,BV1… .cache/bilibili-capture
+node scripts/bilibili-archive.mjs import .cache/bilibili-capture   # 或单个作品页JSON
+node scripts/bilibili-archive.mjs register <UID> <账号名>           # 只有UP主页、没有作品时
 npm run bilibili:sync
-npm run bilibili:check
 ```
 
-导入支持现有Chrome作品页结果和旧公开API视频元数据；按实际owner UID归档，只接受与metadata BV一致的作品页。未知UID须先登记身份，不擅自认人。再导入不会回退人工阅读状态，也不会覆盖旧简介。此命令没有网络能力，不保存Cookie、完整页面DOM、全部评论或二进制。
+`capture`受请求守卫单次30次限制，触顶即停、已写出的文件保留，未取得的不算失效。新UID只按`candidate`登记，人物对应仍人工判断。作品或账号已失效时写入`unavailable.json`（`"编号": "原因"`）。b23.tv短链离线无法识别，先还原成BV再入档。
+
+导入也接受Chrome作品页结果；再导入不回退人工阅读状态，也不覆盖旧简介。
 
 有价值的内容由人工写入本人素材：标题与BV、时间、简介要点、作者与相关人物回应、具体上下文、原作／BR／KM入口、未核部分。不要只写“已读”“有趣”或一句推荐理由。已有详细摘要直接加锚点和档案引用，不重新写一遍。只有标题的作品保留候选，不能编内容；无关及隐私内容不迁入。
 
 完成摘要后把对应作品改为`digested`，指向正式素材锚点，再运行sync。清理临时缓存前，确认有价值的独有文字已在正式素材或公开元数据档案中；不以“页面取到了”代替消化。往后只补新增作品、明确未读部分或确有必要刷新的字段，不重读所有UP。
 
-`npm run check`与`npm run build`均先检查使用状态是否同步、素材路径与摘要锚点是否存在、UID/BV／图文key是否一致、正文与精选是否重复。校验和sync全程离线，不启动浏览器；脚本整理元数据和状态，不批量生成列传故事。
+校验和sync全程离线；脚本整理元数据和状态，不批量生成列传故事。
 
 ## 扫描记录
 
-扫描方法只维护在[取材手册](../research-method.md#b站扫描队列)。`node scripts/bilibili-archive.mjs scans` 读取 `scans.json` 中的实际覆盖、旧排除范围和续查断点；它不列全部UP，也不启动搜索。已知候选仍各归UID档案，不在扫描记录另抄身份／作品状态。查询候选可用 `npm run materials -- --kind bilibili --limit 10 --offset 0` 后沿分页读取；默认输出不表示这些账号已对应人物。
+扫描方法只维护在[B站细则](../research-tools.md#b站扫描队列)。`node scripts/bilibili-archive.mjs scans` 读取 `scans.json` 中的实际覆盖、旧排除范围和续查断点；它不列全部UP，也不启动搜索。已知候选仍各归UID档案，不在扫描记录另抄身份／作品状态。查询候选可用 `npm run materials -- --kind bilibili --limit 10 --offset 0` 后沿分页读取；默认输出不表示这些账号已对应人物。

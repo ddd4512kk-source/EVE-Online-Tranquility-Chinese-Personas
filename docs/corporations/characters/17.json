@@ -1886,13 +1886,29 @@
         "StubbornCell"
       ],
       "labels": [],
-      "profiles": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-07",
+          "title": "细胞",
+          "corporation_id": "98185110",
+          "source": "https://esi.evetech.net/latest/characters/2122323917/"
+        }
+      ],
       "review": {
         "state": "legacy",
-        "findings": [],
+        "findings": [
+          {
+            "note": "头衔与完整简介已读；头衔“细胞”；名片自报B站主页https://space.bilibili.com/689115238，对应UP主“固执的细胞”；Solo与突击护卫舰PvP教学作者；已正式立传src/people/stubborn-cell/stubborn-cell.md",
+            "material_hint": "src/people/stubborn-cell/materials-stubborn-cell.md",
+            "source": "https://esi.evetech.net/latest/characters/2122323917/"
+          }
+        ],
         "next_steps": []
       },
-      "evidence": []
+      "evidence": [
+        "https://esi.evetech.net/latest/characters/2122323917/",
+        "src/people/stubborn-cell/materials-stubborn-cell.md"
+      ]
     },
     "2122390517": {
       "id": "2122390517",

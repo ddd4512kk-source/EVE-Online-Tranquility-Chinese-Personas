@@ -22,28 +22,95 @@
     "next": "沿已知UID按具体调查需要定向核对空间与作品，不重跑搜索，不读取影像、音轨或字幕。"
   },
   "channel": {
-    "profile": {},
+    "profile": {
+      "captured_at": "2026-11-07T11:45:00.000Z",
+      "signature": null,
+      "counters": {
+        "followers": "874",
+        "videos": "8"
+      },
+      "source": "https://space.bilibili.com/49759/upload/video"
+    },
     "coverage": {
       "latest": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "空间公开投稿中8条投稿中排除彩虹六号等1条非EVE内容，已收录7条EVE相关候选已存channel.listings；未逐项读取作品页。",
+        "evidence": "https://space.bilibili.com/49759/upload/video"
       },
       "popular": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "公开投稿列表（含播放量）已存channel.listings；按全量列表播放数排序代替；未读其余作品页。",
+        "evidence": "https://space.bilibili.com/49759/upload/video"
       },
       "series": {
         "state": "unknown",
         "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
+        "scope": "未读合集页；EVE投稿已包含在公开列表中。",
         "evidence": null
       }
     },
-    "prior_notes": []
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-11-07T11:45:00.000Z",
+        "source": "https://space.bilibili.com/49759/upload/video",
+        "scope": "公开投稿列表筛选收录7条EVE相关视频：标题、发布日、当时播放；未逐项读取作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV17K421i7ZS",
+            "title": "【EVE】岁 月 成 碑 //Cover——献给PIBC的挽歌&49十周年纪念",
+            "url": "https://www.bilibili.com/video/BV17K421i7ZS/",
+            "published": "2024-03-25",
+            "views": 19783
+          },
+          {
+            "bvid": "BV16m4y1s7X9",
+            "title": "【EVE】cest la vie国服邀请赛宣传视频",
+            "url": "https://www.bilibili.com/video/BV16m4y1s7X9/",
+            "published": "2023-07-29",
+            "views": 988
+          },
+          {
+            "bvid": "BV1vj41197A7",
+            "title": "【EVE】国服精英海盗的冠军之旅，但创过来的是法国人¿",
+            "url": "https://www.bilibili.com/video/BV1vj41197A7/",
+            "published": "2023-07-29",
+            "views": 1639
+          },
+          {
+            "bvid": "BV1zs4y117p5",
+            "title": "（代投）20230414 奥斯汀格勒一边打总力战一边喷新UI顺便打FAX",
+            "url": "https://www.bilibili.com/video/BV1zs4y117p5/",
+            "published": "2023-04-14",
+            "views": 1124
+          },
+          {
+            "bvid": "BV1uY4y1N7iT",
+            "title": "【EVE】我的PIBC灭灯故事:《寄》---联盟寄了，那就开摆！",
+            "url": "https://www.bilibili.com/video/BV1uY4y1N7iT/",
+            "published": "2022-09-18",
+            "views": 147507
+          },
+          {
+            "bvid": "BV1ca411m7Pt",
+            "title": "【EVE】《孤庸者》-馒头：AOM灭灯一周纪念",
+            "url": "https://www.bilibili.com/video/BV1ca411m7Pt/",
+            "published": "2022-01-19",
+            "views": 21160
+          },
+          {
+            "bvid": "BV1Uq4y1m7Sr",
+            "title": "【EVE Online】【整活】贺岁大电影《PIBC保卫战》",
+            "url": "https://www.bilibili.com/video/BV1Uq4y1m7Sr/",
+            "published": "2021-12-26",
+            "views": 23857
+          }
+        ]
+      }
+    ]
   },
   "videos": []
 }

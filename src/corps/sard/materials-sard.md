@@ -1,0 +1,53 @@
+# SARD 特别执法部 / Special law enforcement department
+
+军团 ID 98540583。快照见同名 JSON。
+
+## 军团沿革
+- 国服新伊甸自由联邦改组而来，N.E.C 欧服移民军团；甲抗泰坦、大航、黑隐、圣卒、无畏编制；sard.cc；QQ 162894513。
+- 2017–2020 单团 150 人、60+ 泰坦，后休眠、管理回归；9 周年阅兵；X47L 2018 年已有 CEO，夜灵总监（列传）。
+
+## 招新
+[招新帖](https://tieba.baidu.com/p/10387520534)，2026-01-11，另见[旧帖](https://tieba.baidu.com/p/9616394746)：驻 4-HWWF，星城低安入口欧贝；税 7.8%、LP 0；组织 PVP 全补；进团 3 亿等福利。
+
+## 军团简介
+
+ESI，2026-11-06：
+
+> A Chinese Corp from Serenity Now we come here. N.E.C欧服移民军团，我们来自晨曦
+> 原国服
+> 新伊甸自由联邦
+> 改组，现招收PVP与PVE人员,公司发展路线为超期/旗舰/精英小队，要求欧米伽账号。 公司拥有，甲抗泰坦，甲抗大航，黑影队，圣卒队，无畏队等舰队编制，以
+> 主权区作战，低安联合作战和虫洞收割
+> 为主,
+> 公司编制队跟队战损船全补
+> 。
+> Foreign friends are welcome to join us！ corporate welfare：Flagship cost price，battle damage supply
+> 公司外交：
+> RRLF poi
+> virtual blink
+> Trumps Bloodthirst Feynman
+> 公司联系人：
+> Ice Knife
+> poiawsl
+> SunRY ASUKA
+> ToyDollAYA
+> MonikaMiHoYo
+> EN contact:
+> Misaka yang
+> EN discord contact: ghyharry#5241
+> 公司同时招收海外党，反时区海外党时差党聚集地，欢迎咨询。
+> SARD招募群：162894513
+> Yy：96069
+> 游戏招新频道：
+> SARD特别行动小组
+> ，密码：911911 公司网址(大部分信息都在里面哦)：
+> https://sard.cc/
+> SARD军团福利： 1.新人进团上语音发3亿ISK 2.新人首次跟队获得战略PAP奖励3亿isk； 3.军团成员3人及以上小队补损单浪、PVP活动补损3亿上限/船； 3.任意希尔博拉斯、巴盖斯、LSK、皇冠蜥技能合格奖励5亿； 4.联盟出勤PAP2千万ISK一个，军团PAP出勤4千万ISK一个 5.入团后首次新角色无畏技能达标，近期军团活动多数出勤奖励【任意AG海军型或三神裔无畏舰】 （新人玩家为建号半年以内月卡玩家）
+
+## 补充线索（2026 招新帖原文及列传、线索归档）
+- 起源：[台风 RR 回忆](https://tieba.baidu.com/p/5688249663)，粉红鱼雷（紫瞳，旗舰制造线、接订单）与九帮十八会合并，嗜血带战斗成员加入。
+- 2019-05 离开 RR，李疯子愿出 4000E 转超旗盾抗技能被拒，南下支援 FRT；Zero煌 2019-11 进 FRT（列传 zerohuang-ss）。
+- 2025-02 [贴吧「天团加入 FRT 都凉了」](https://tieba.baidu.com/p/9491202327)；2026-04-07 同帖回“可没凉嗷”，分组战报 SARD 300 角色（docs/sources/corp-vitality-debate-2025.md）。
+- 2025-02-23 艾格玛尔、2026-04-25 4-H 北方战役均在 FRT 一侧，嗜血、Zero煌 在场（战役页）。
+- 2026-01-11 招新帖原文（嗜血本人发）：在线账号 200+；税 7.8%、LP 0；单浪/小队补损 3 亿上限，组织 PVP 全补；自愿出勤，联盟战略舰队每 PAP 3000 万并可兑换 PAP 商城；入团语音 2 亿 + 全套 +4 脑插，首次跟队 3 亿，狂热/海灾难/T2 后勤技能 5 亿，首个新角色无畏技能达标送海军型无畏或三神裔无畏；旗舰、超旗成本价；禁脚本与 RMT。
+- 2026-10 集结群截图：嗜血两周清理目标指向天宫（docs/sources/sard-drone-region-clearance-announcement.md）。

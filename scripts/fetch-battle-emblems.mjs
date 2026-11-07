@@ -15,6 +15,13 @@ for (const dir of await readdir(path.join(root, "src/battles"), { withFileTypes:
   } : null }));
   for (const side of emblemSides(sides)) for (const logo of side.logos) logos.set(logo.src, logo);
 }
+// 军团篇的徽标与战徽同一目录、同一命名，共用这一批缓存。
+for (const dir of await readdir(path.join(root, 'src/corps'), { withFileTypes: true })) {
+  if (!dir.isDirectory()) continue;
+  const { id } = JSON.parse(await readFile(path.join(root, 'src/corps', dir.name, `${dir.name}.json`), 'utf8')).corp;
+  const src = `/assets/emblems/corporation-${id}.png`;
+  logos.set(src, { src, id, kind: 'corporation' });
+}
 // 每批至多 60 枚，只取缺失图标；遇拦截停止，已缓存图标不联网。
 const request = createRequestGuard({ limit: 60 });
 const signature = Buffer.from("89504e470d0a1a0a", "hex");

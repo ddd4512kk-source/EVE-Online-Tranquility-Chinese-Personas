@@ -1,0 +1,786 @@
+{
+  "status": "reviewed",
+  "note": "逐事登记复核，重料均充分发挥",
+  "evidence": [
+    "src/people/silvitni/materials-silvitni.md",
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "src/people/silvitni/silvitni.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文与素材，逐事清点：上述事件均已入文；轻料（骂老俞、AI评价帖、访谈邀约等）素材已按轻料留档，不单独入列传；新增挂机事件对应KM与战役页。未采用的卿雪评述、FRT一侧评价属他人评价，非独立事件。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "### 轻料留档，不单独入列传（2026-10-21）"
+        },
+        {
+          "file": "src/people/silvitni/materials-silvitni.md",
+          "heading": "## 战场挂机被帝国系点名集火（2026-11-06归档，B站视频截图一张、聊天截图一张）"
+        },
+        {
+          "file": "docs/sources/fushui-zhiluan-2026-05.md",
+          "heading": "## 事件与来源"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件登记，重料均已写成完整小故事，含处境、反差和后果；轻料短写。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/silvitni.md",
+          "contains": "2026 年 11 月 "
+        }
+      ],
+      "items": [
+        {
+          "title": "拧螺丝：盘古运输与POS维护",
+          "weight": "light",
+          "reason": "红料，职责陈述，无冲突情节",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "### 逐事素材与证据边界"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "据他本人整理的[PLA "
+          },
+          "verdict": "sufficient",
+          "note": "红料，职责陈述，无冲突情节"
+        },
+        {
+          "title": "小厂造超旗",
+          "weight": "light",
+          "reason": "红料，单句史实",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "### 逐事素材与证据边界"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "同一份[军团回忆](ht"
+          },
+          "verdict": "sufficient",
+          "note": "红料，单句史实"
+        },
+        {
+          "title": "二手老号与战绩",
+          "weight": "light",
+          "reason": "身份边界说明",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**角色年资更正**"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "Silvitni 200"
+          },
+          "verdict": "sufficient",
+          "note": "身份边界说明"
+        },
+        {
+          "title": "怯薛争论中给对面老板点赞",
+          "weight": "ordinary",
+          "reason": "中等言论料，已写出评论区反指标与后续配皇帝的包袱",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "## 怯薛撤换同期争论与日期核对"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2025 年 4 月，F"
+          },
+          "verdict": "sufficient",
+          "note": "中等言论料，已写出评论区反指标与后续配皇帝的包袱"
+        },
+        {
+          "title": "白菜转述：错ping让超旗上线被抓",
+          "weight": "ordinary",
+          "reason": "转述性重料，限于B站评论区，未见原消息",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "## Atioth动员错ping的B站转述（2026-10-18）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2026年艾蒂斯大战后，"
+          },
+          "verdict": "sufficient",
+          "note": "转述性重料，限于B站评论区，未见原消息"
+        },
+        {
+          "title": "旗舰ping只许洋人发，社长没打算去问",
+          "weight": "heavy",
+          "reason": "自述公告加泰坦KM，社长态度原话可见",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**旗舰 ping 只许“有资质的洋人”发"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "蜜蜂有一条规矩：旗舰 p"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "旗舰ping规则与华人军团的出船出人",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "蜜蜂有一条规矩：旗舰 ping 只能由“有资质的洋人”发"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "不争资格，自己掏钱补无畏泰坦",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "社长不去争资格，自己掏钱替联盟把账补平"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "对同胞开榜单、对洋人门槛一句带过",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "社长在新闻社里骂起华人同胞来九大榜、五人册一样不少"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "自述公告加泰坦KM，社长态度原话可见"
+        },
+        {
+          "title": "三条游牧者与炸鸡通知",
+          "weight": "heavy",
+          "reason": "三号被击毁KM加通知原文，加税未执行已写明",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "### 三条游牧者与“重要通知”（2026-10-11 归档）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2026 年 10 月 10 日，荣耀的"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "二十六秒三条游牧者",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "从[第一条](https://zkillboard.com/kill/139051458/)到[第三条]"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "三船估值约406亿",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "三船连装备、货物的 KM 总估值约 406 亿 ISK"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "加税没落地、炸鸡先入公文",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "加税最后没落地，炸鸡倒先写进了公文"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "三号被击毁KM加通知原文，加税未执行已写明"
+        },
+        {
+          "title": "一分钟死十九条伊什塔与集体掉线说",
+          "weight": "heavy",
+          "reason": "KM列表加群聊截图，社长原话完整",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "### 2026-10-22 伊什塔集体死于 NPC 与脚本辩护（2026-10-23 归档，群聊截图与 KM 列表各一张）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2026 年 10 月 22 日凌晨 0"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "凌晨伊什塔雨与整齐的阵亡名单",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "蜜蜂和 Dracarys 的地盘上同时下起了伊什塔雨"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "“我管nm啊”“集体掉线不可以吗”",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "社长亲自接话，第一句是“我管nm啊”"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "检讨书里的“没有例外”对照自家伊什塔",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "一个月前他还在检讨书里写“没有例外"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "KM列表加群聊截图，社长原话完整"
+        },
+        {
+          "title": "九大榜与五人册",
+          "weight": "heavy",
+          "reason": "自署名论坛帖，公开辱骂榜",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**公开辱骂榜，重**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "荣耀自己发布的[蜜蜂中文"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "团规与新闻社并行",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "荣耀自己发布的[蜜蜂中文社区说明]"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "隔天又建五人册",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "隔天，他又署名发布了[《PLA SB RECORD》]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "成员守规章、社长开名册",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "成员骂人要守规章，社长却对 FRT 开九大榜"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "自署名论坛帖，公开辱骂榜"
+        },
+        {
+          "title": "私聊骂Han Dong并停补损",
+          "weight": "ordinary",
+          "reason": "私聊截图，无年份，写出撤销补损",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**私聊截图：骂 Han Dong 并停补损"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "荣耀私聊 [Han Do"
+          },
+          "verdict": "sufficient",
+          "note": "私聊截图，无年份，写出撤销补损"
+        },
+        {
+          "title": "2015年分家与残骸争吵",
+          "weight": "heavy",
+          "reason": "论坛存档加蜜蜂回忆两方叙述",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**2015 年残骸争吵，重**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2015 年 PLA 与"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "入盟时反对声与保证",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "PLA 要进 FRT 时，他、[冰冰](../92637945/)等人反对"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "邮件争执、劝停刷屏",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "有人劝他们别刷屏，先处理战场"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "换联盟自己做可以、别人做成檄文",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "换联盟本身没什么可骂的"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "论坛存档加蜜蜂回忆两方叙述"
+        },
+        {
+          "title": "解锚十几座矿堡被当面偷七座",
+          "weight": "heavy",
+          "reason": "贴吧长帖加对方回应及本人署名自述",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "## 隐秘诱导小号与踢团争议"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2025 年 11 月，"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "月矿放开先到先得",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "蜜蜂放开一批月矿让各军团先到先得"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "矿佬不挖，就在矿群开骂",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "后来发现 PLA 的矿佬不怎么去挖，他就在矿群里开骂"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "被偷七座，退群卸任",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "被人在脸上偷了 7 个"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "一批矿堡同时解锚，“小蜜蜂都不敢这么干”",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "小蜜蜂都不敢这么干"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "七堡事故写进个人名片",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "七堡事故就这样进了个人名片"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "贴吧长帖加对方回应及本人署名自述"
+        },
+        {
+          "title": "KZU冲突：备战、道歉、禁言",
+          "weight": "heavy",
+          "reason": "群聊原文三段：预防措施、道歉声明、温馨提示",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**与 KZU 宫斗，重，社交媒体信源**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2026 年 9 月 8"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "备战口气下“蓝家”“背刺”",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "为防止某些军团背刺帝国"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "公开道歉声明",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "发了一份《公开道歉声明》"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "承诺后五天通知别再关注",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "五天后就通知群友“不要再关注”"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "群聊原文三段：预防措施、道歉声明、温馨提示"
+        },
+        {
+          "title": "雇OSY互打与泰坦被击毁",
+          "weight": "heavy",
+          "reason": "泰坦KM加对手公开说法，圈内说法已标圈内",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "### KZU、OSY 与泰坦（2026-10-09 补充，群聊截图两张）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "KZU 这场宫斗，最后把"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "KZU雇OSY，荣耀踹OSY两脚",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "KZU 雇了 [舵主](../91254848/)的 OSY 去打蓝家"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "六十攻击者三十一来自舵主",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "六十个攻击者，三十一个来自舵主的 Guardians of Tranquility"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "钱是两份，泰坦一个人赔",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "钱是两份，泰坦是社长一个人赔"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "泰坦KM加对手公开说法，圈内说法已标圈内"
+        },
+        {
+          "title": "七宝：二十五份脑浆与谍战叙事",
+          "weight": "heavy",
+          "reason": "本人论坛自述，性意味措辞为本人公开所写",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**七宝捐助与踢团，中；性意味攻击，重**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "到 2024 年，老板又"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "动员给新人捐二十五个脑浆",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "他动员自己和团员给新人七宝捐了二十五个脑浆"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "女玩家提高语音人气",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "特意写到女玩家能提高语音人气"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "翻脸后改称阴谋，踢人发长帖",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "踢掉七宝，发长帖回击"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "培养新人变成敌情通报",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "开头还在讲新人培养，结尾已经换成敌情通报"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "本人论坛自述，性意味措辞为本人公开所写"
+        },
+        {
+          "title": "给吃瓜两任CEO开电疗处方",
+          "weight": "ordinary",
+          "reason": "论坛署名帖，中",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**吃瓜 CEO 电疗说，中**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2025 年 3 月 28 日的[吃瓜军"
+          },
+          "verdict": "sufficient",
+          "note": "论坛署名帖，中"
+        },
+        {
+          "title": "芙水之乱：十八分钟群发与翻脸",
+          "weight": "heavy",
+          "reason": "吃瓜CEO总结加群聊截图，原话完整",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**芙水之乱中的荣耀（重，社交媒体信源）**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2026 年 5 月，吃"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "线人递瓜、请求断章取义",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "吃瓜不，吃瓜的瓜"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "十八分钟后全员通报",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "十八分钟后，他就在自己的群里 @全体成员"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "白天线人晚上骚货",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "白天还是递瓜的线人，晚上就成了“骚货”"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "吃瓜CEO总结加群聊截图，原话完整"
+        },
+        {
+          "title": "两部手机与闪照",
+          "weight": "ordinary",
+          "reason": "群聊原话，属芙水之乱后续",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**芙水之乱中的荣耀（重，社交媒体信源）**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "锐评到一半，荣耀才弄明白"
+          },
+          "verdict": "sufficient",
+          "note": "群聊原话，属芙水之乱后续"
+        },
+        {
+          "title": "褪色哥绰号与踢群",
+          "weight": "ordinary",
+          "reason": "群聊截图，中",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**褪色哥梗（中，黑料；社交媒体）**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "荣耀卸任、检讨、丢泰坦之"
+          },
+          "verdict": "sufficient",
+          "note": "群聊截图，中"
+        },
+        {
+          "title": "零价合同禁令与简介矛盾",
+          "weight": "ordinary",
+          "reason": "团规与简介互证",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "contains": "**零价合同矛盾，中**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "他署名发布的[军团规定第"
+          },
+          "verdict": "sufficient",
+          "note": "团规与简介互证"
+        },
+        {
+          "title": "联盟因欠费解散",
+          "weight": "light",
+          "reason": "自述军团史一句",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "### 逐事素材与证据边界"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "荣耀在[军团历史](ht"
+          },
+          "verdict": "sufficient",
+          "note": "自述军团史一句"
+        },
+        {
+          "title": "要求老鹰解散生产小群",
+          "weight": "ordinary",
+          "reason": "他人叙述，回护老鹰一方",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "## 要求老鹰解散生产小群"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "农药有过一段 AFK 的"
+          },
+          "verdict": "sufficient",
+          "note": "他人叙述，回护老鹰一方"
+        },
+        {
+          "title": "战场挂机被阿舍点名集火",
+          "weight": "heavy",
+          "reason": "KM 139635298加视频及聊天截图，已与战役页对应",
+          "source": {
+            "file": "src/people/silvitni/materials-silvitni.md",
+            "heading": "## 战场挂机被帝国系点名集火（2026-11-06归档，B站视频截图一张、聊天截图一张）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/silvitni/silvitni.md",
+            "contains": "2026 年 11 月 "
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "绝念航母停原地、总指挥点名",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "停在原地，一动不动"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "三百二十九攻击者约四十四亿",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "三百二十九个攻击者里有两百四十来个挂着蜜蜂的旗号"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "与10月9日公告对不上",
+              "evidence": {
+                "file": "src/people/silvitni/silvitni.md",
+                "contains": "这个口气和 10 月 9 日的群公告对不上"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "KM 139635298加视频及聊天截图，已与战役页对应"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全文以管理失言与群聊翻脸为主线，战绩只占一小块；新增挂机块放在末尾，与评语里“输入框是旗舰”不冲突。",
+      "evidence": [
+        {
+          "file": "src/people/silvitni/silvitni.md",
+          "contains": "荣耀最熟练的一门手艺，是"
+        },
+        {
+          "file": "src/people/silvitni/silvitni.md",
+          "contains": "2026 年 11 月 "
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/fushui-zhiluan-2026-05.md",
+    "docs/sources/kheshig-removal-debate-2025.md",
+    "docs/sources/pla-dusk-departure-2026-10.md",
+    "docs/sources/qihei-siling-titan-intel-2025.md",
+    "src/people/silvitni/1664583033-id.json",
+    "src/people/silvitni/materials-silvitni.md",
+    "src/people/silvitni/silvitni.md",
+    "src/battles/ahbazon-2026/ahbazon-2026.json",
+    "src/battles/ahbazon-2026/ahbazon-2026.md",
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.md"
+  ],
+  "inputs": "06bcdadbf4ae28c20f6680b63530252f1a0327049d75c57824d9c743d424477b",
+  "inputParts": {
+    "docs/sources/fushui-zhiluan-2026-05.md": "759759a0acbcdaf23f90506294cb09a6de1f092c0688df672bede720edc076bc",
+    "docs/sources/kheshig-removal-debate-2025.md": "8a6e5a93fee3a89fb961a580d8b5ad52b4ccf22f83dfb32e0cc2c8e3616ffc61",
+    "docs/sources/pla-dusk-departure-2026-10.md": "48af3b5097118cae9dd1e08d76e6911ed12e4f9b787c090cb5348319753b98d5",
+    "docs/sources/qihei-siling-titan-intel-2025.md": "13e9976f999711467e867831106dc15ef7a05b8ed64a0f14da844dd15b50d924",
+    "src/people/silvitni/1664583033-id.json": "e1d439b29fb87c9d0ad4f11d5377961f754ad0350cb6c0f1303975e6969a5d2e",
+    "src/people/silvitni/materials-silvitni.md": "7862d0a30c331bf14fe447b7b8b304a35bceef93c2c8312e5d448ca7b7f903bc",
+    "src/people/silvitni/silvitni.md": "7f7bc2fec19e931ccd364903a1d47320283b01c2e0676da119c6cb7ac1f49691",
+    "battle:ahbazon-2026": "72bec33069602c3a1a8dbfb923f763ffbb9d55448fb7afaa3157b6b9e6738fdc",
+    "battle:amamake-2026": "7eeb4dbcfea0a57e224abc1d68e9c20d2389d0ccd70f3f65e1fc66a9ccb48492",
+    "battle:atioth-2026": "4df58cc8c1730a3ff82898d8b378ea78dd37153e4924670eff15fde76c463772",
+    "battle:fwst-8-2020": "e263e3c2a0c08daa89594e5d36c708580f97fee37115bd91d43fa62d8e6b2dd1",
+    "battle:hb-1nj-efm-c4-2025": "fb81fda5f77ca100edebf539cab50a6a16aa92fdfa42fda2b73690bd520ac408",
+    "battle:lj-ysw-2024": "2c94bf6def56c43a0d72b7223939fc5ee9852a9345c8a3cb2a6666ee9eeaf2c6",
+    "battle:m-md31-2026": "02bed39e88c43f4a3ae34070bf11a379812fdd93b38a66696b22822aacfd9160",
+    "battle:oijanen-2026": "d4fca81b21b3ffb9b682113238c0c95c09d0cb663823135a7be580da28d6023e"
+  },
+  "level": 1
+}

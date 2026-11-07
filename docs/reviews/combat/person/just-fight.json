@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "combat核读完成",
+  "evidence": [
+    "src/people/just-fight/materials-just-fight.md",
+    "src/people/just-fight/just-fight.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核对 stats 总览：196 击杀、20 损失、425B ISK 战果，2020-10 活跃。战绩非海量，主要是旗舰战地拍摄与特执老成员，与正文相符。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/materials-just-fight.md",
+          "heading": "## 身份与账号"
+        },
+        {
+          "file": "src/people/just-fight/just-fight.md",
+          "contains": "此人以「千里之外夺下菊花"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "无已登记小号，未合并其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/materials-just-fight.md",
+          "heading": "## 身份与账号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "无特定争议月份或异常峰值需要细查代表 KM。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/materials-just-fight.md",
+          "heading": "## 身份与账号"
+        }
+      ]
+    },
+    "battles": {
+      "status": "not-applicable",
+      "note": "库内无单独收录的战役文件包含该角色，战事均为军团日常及诱导首爆等事件视频记录。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/materials-just-fight.md",
+          "heading": "## 备注"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "not-applicable",
+      "note": "战斗经历不属显著战狂（击杀 196 次），立传主干为军团战宣与名场面处决，无需单独开战绩总结红料块。",
+      "evidence": [
+        {
+          "file": "src/people/just-fight/just-fight.md",
+          "contains": "此人以「千里之外夺下菊花"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/just-fight/2114152151-id.json",
+    "src/people/just-fight/just-fight.md",
+    "src/people/just-fight/materials-just-fight.md"
+  ],
+  "inputs": "af8bd25caafc2a20359cca5dc85fa902e1a2e988a008b2b6d283e77fb45b804b",
+  "inputParts": {
+    "src/people/just-fight/2114152151-id.json": "7c513b31e33d111199ae68e830e5c3433e314b162b707c73b24a403c698bf493",
+    "src/people/just-fight/just-fight.md": "a514282b8dd29d141778ed8362b767a8ae496f204bfa41e43c4848e763050b06",
+    "src/people/just-fight/materials-just-fight.md": "b727078a745762c1f90b56f163990cbeab892b46b35415c8da11ae512ace3cc8"
+  },
+  "level": 1
+}

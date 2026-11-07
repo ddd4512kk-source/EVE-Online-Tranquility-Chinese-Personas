@@ -1,0 +1,5 @@
+{#- 军团战徽上的动态标签。传入 status（scripts/activity.mjs 的 corpStatus 结果）。 -#}
+<span class="status-tags">
+  {%- if status.state == "active" %}<span class="status-tag tag-live">活跃</span>{% else %}<span class="status-tag tag-ash">沉寂</span>{% endif %}
+  {%- if status.recruiting %}<span class="status-tag tag-recruit">招新</span>{% endif -%}
+</span>

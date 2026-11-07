@@ -22,6 +22,20 @@
   --zhu: #e0554a;          /* 朱砂 */
   --zhu-bg: rgba(224, 85, 74, 0.08);
   --emblem-blue: #4f86c6;  /* 战徽右方底光；对阵第二方的主色 */
+  --emblem-plate: #090c13; /* 无封面战役的深空星图底盘，保证浅色联盟图标始终清晰 */
+  /* 动态状态：活跃绿、招新蓝、沉寂灰；实底配白字，深浅色都够对比 */
+  --live: #4ad07f;
+  --live-glow: rgba(74, 208, 127, 0.45);
+  --live-solid: #1c7f49;
+  --recruit: #5aa9ff;
+  --recruit-solid: #1f66b8;
+  --ash: rgba(190, 196, 208, 0.28);
+  --fame-sweep: rgba(232, 200, 130, 0.2);
+  --tycoon: #d89b48;
+  --tycoon-bright: #ffe299;
+  --shenren: #c678ff;
+  --upzhu: #fb7299;
+  --bili-pink: #fb7299;
   /* 氛围层：天幕辉光、星点、面板立体感、标题墨色、数字微光 */
   --glow-zhu: rgba(224, 85, 74, 0.11);
   --glow-blue: rgba(79, 134, 198, 0.10);
@@ -40,6 +54,29 @@
   --hei-fg: #e8e2d4;
   --hei-bg: rgba(0, 0, 0, 0.35);
   --hei-edge: #59606e;
+  --meter-pvp-a: #c9372c;
+  --meter-pvp-b: #f59b35;
+  --meter-pvp-ink: #f8a24b;
+  --meter-shenren-a: #7e2bd4;
+  --meter-shenren-b: #eb3b88;
+  --meter-shenren-ink: #f26ba8;
+  --meter-inf-a: #1c7ed6;
+  --meter-inf-b: #34d399;
+  --meter-inf-ink: #57dfb4;
+  --meter-track: rgba(6, 9, 14, 0.75);
+  --meter-tick: rgba(0, 0, 0, 0.5);
+  --style-tycoon-1: #e5b84b;
+  --style-tycoon-2: #f7df94;
+  --style-warlord-1: #ef4b3f;
+  --style-warlord-2: #f29d38;
+  --style-syndicate-1: #39b5cc;
+  --style-syndicate-2: #e09643;
+  --style-neon-1: #eb52c4;
+  --style-neon-2: #3dd9f5;
+  --style-dynasty-1: #de4337;
+  --style-dynasty-2: #e3b354;
+  --style-phantom-1: #a46eff;
+  --style-phantom-2: #3ad9ad;
 
   /* 本机有思源宋体就用本机，否则按需下载站内切片（fonts.css）；Cambria/Georgia 在宋体前，切片未到时西文不落到宋体的等宽字母 */
   --serif: "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Yeshi Serif", "Songti SC", "STSong", Cambria, Georgia, "SimSun", serif;
@@ -74,6 +111,19 @@
     --zhu: #b0322a;
     --zhu-bg: rgba(176, 50, 42, 0.06);
     --emblem-blue: #2f5f96;
+    --emblem-plate: #101520;
+    --live: #1c8a4e;
+    --live-glow: rgba(28, 138, 78, 0.35);
+    --live-solid: #1c7f49;
+    --recruit: #1f6fc4;
+    --recruit-solid: #1f66b8;
+    --ash: rgba(255, 252, 244, 0.4);
+    --fame-sweep: rgba(190, 145, 60, 0.2);
+    --tycoon: #8c5612;
+    --tycoon-bright: #d4952a;
+    --shenren: #7a29b8;
+    --upzhu: #d6366c;
+    --bili-pink: #f25d8e;
     --glow-zhu: rgba(176, 50, 42, 0.07);
     --glow-blue: rgba(47, 95, 150, 0.06);
     --stars: 0;
@@ -91,6 +141,29 @@
     --hei-fg: #f4efe4;
     --hei-bg: rgba(28, 26, 23, 0.05);
     --hei-edge: #1c1a17;
+    --meter-pvp-a: #b82c22;
+    --meter-pvp-b: #e07b1c;
+    --meter-pvp-ink: #a83c14;
+    --meter-shenren-a: #6a21b8;
+    --meter-shenren-b: #c9266d;
+    --meter-shenren-ink: #9e1b56;
+    --meter-inf-a: #1664ab;
+    --meter-inf-b: #1c9e72;
+    --meter-inf-ink: #156e52;
+    --meter-track: rgba(60, 46, 26, 0.13);
+    --meter-tick: rgba(255, 252, 245, 0.7);
+    --style-tycoon-1: #966b14;
+    --style-tycoon-2: #b88a28;
+    --style-warlord-1: #b8281e;
+    --style-warlord-2: #b56512;
+    --style-syndicate-1: #166c80;
+    --style-syndicate-2: #9c5b14;
+    --style-neon-1: #a61e84;
+    --style-neon-2: #127c96;
+    --style-dynasty-1: #a8241b;
+    --style-dynasty-2: #9c6f18;
+    --style-phantom-1: #6234b8;
+    --style-phantom-2: #158264;
     color-scheme: light;
   }
 }
@@ -112,6 +185,19 @@
   --zhu: #b0322a;
   --zhu-bg: rgba(176, 50, 42, 0.06);
   --emblem-blue: #2f5f96;
+  --emblem-plate: #101520;
+  --live: #1c8a4e;
+  --live-glow: rgba(28, 138, 78, 0.35);
+  --live-solid: #1c7f49;
+  --recruit: #1f6fc4;
+  --recruit-solid: #1f66b8;
+  --ash: rgba(255, 252, 244, 0.4);
+  --fame-sweep: rgba(190, 145, 60, 0.2);
+  --tycoon: #8c5612;
+  --tycoon-bright: #d4952a;
+  --shenren: #7a29b8;
+  --upzhu: #d6366c;
+  --bili-pink: #f25d8e;
   --glow-zhu: rgba(176, 50, 42, 0.07);
   --glow-blue: rgba(47, 95, 150, 0.06);
   --stars: 0;
@@ -129,6 +215,29 @@
   --hei-fg: #f4efe4;
   --hei-bg: rgba(28, 26, 23, 0.05);
   --hei-edge: #1c1a17;
+  --meter-pvp-a: #b82c22;
+  --meter-pvp-b: #e07b1c;
+  --meter-pvp-ink: #a83c14;
+  --meter-shenren-a: #6a21b8;
+  --meter-shenren-b: #c9266d;
+  --meter-shenren-ink: #9e1b56;
+  --meter-inf-a: #1664ab;
+  --meter-inf-b: #1c9e72;
+  --meter-inf-ink: #156e52;
+  --meter-track: rgba(60, 46, 26, 0.13);
+  --meter-tick: rgba(255, 252, 245, 0.7);
+  --style-tycoon-1: #966b14;
+  --style-tycoon-2: #b88a28;
+  --style-warlord-1: #b8281e;
+  --style-warlord-2: #b56512;
+  --style-syndicate-1: #166c80;
+  --style-syndicate-2: #9c5b14;
+  --style-neon-1: #a61e84;
+  --style-neon-2: #127c96;
+  --style-dynasty-1: #a8241b;
+  --style-dynasty-2: #9c6f18;
+  --style-phantom-1: #6234b8;
+  --style-phantom-2: #158264;
   color-scheme: light;
 }
 
@@ -190,10 +299,12 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .site-nav { display: flex; gap: .15rem; }
 .site-nav a {
   padding: .4rem .6rem; border-radius: var(--radius);
-  color: var(--text-dim); text-decoration: none; font-size: .95rem; white-space: nowrap;
+  color: var(--text-dim); text-decoration: none; font-size: .95rem; font-weight: 700; white-space: nowrap;
 }
 .site-nav a:hover { color: var(--text); background: var(--bg-raised); }
-.site-nav .nav-random { color: var(--gold); }
+.site-nav .nav-gold, .site-nav .nav-gold:hover { color: var(--gold); }
+.site-nav .nav-blue, .site-nav .nav-blue:hover { color: var(--emblem-blue); }
+.site-nav .nav-zhu, .site-nav .nav-zhu:hover { color: var(--zhu); }
 /* 深浅切换：显示要切过去的那一边（深色显示日，浅色显示月）；无 JS 时隐藏 */
 .theme-toggle {
   display: inline-grid; place-items: center; align-self: center;
@@ -225,8 +336,13 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   .site-nav a { padding: .4rem .3rem; font-size: .85rem; }
   .theme-toggle { width: 1.8rem; }
 }
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .brand-seal { display: none; }
+}
+/* 再窄连站名也放不下，只留站印 */
+@media (max-width: 365px) {
+  .brand-seal { display: inline-grid; }
+  .brand-text { display: none; }
 }
 
 /* ---------- 页脚 ---------- */
@@ -288,13 +404,15 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   color: var(--shuffle-text); font-family: var(--serif); font-size: .95rem; font-weight: 700;
   letter-spacing: .12em; padding: .55rem 1rem .55rem .85rem;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 1px 2px rgba(0, 0, 0, 0.25);
-  transition: background-color .15s, transform .1s;
+  transition: background-color .15s, transform .1s, box-shadow .15s;
 }
 .toolbar #shuffle svg { width: 1.1em; height: 1.1em; flex: none; }
 .toolbar #shuffle:hover { color: var(--shuffle-text); background: var(--shuffle-hover); border-color: var(--shuffle-edge); }
-.toolbar #shuffle:active { transform: translateY(1px); }
-.toolbar #shuffle.is-active { background: var(--shuffle-active); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.35); }
-.toolbar #shuffle.is-active:hover { background: var(--shuffle-hover); }
+.toolbar #shuffle:active {
+  background: var(--shuffle-active);
+  transform: translateY(1px);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+}
 .toolbar-full { align-self: center; font-size: .9rem; }
 /* 手机上保持一行：随机按钮只留“随机”，全文搜索靠导航栏的“搜索” */
 @media (max-width: 560px) {
@@ -323,17 +441,9 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .tag-bar .chip.is-active { background: var(--gold); border-color: var(--gold); color: var(--bg); }
 .tag-bar .chip.is-active small { color: inherit; opacity: .75; }
 
-/* 目录是一整块连续网格；每年第一张卡片顶边挂一个年份签 */
+/* 目录是一整块连续网格 */
 .cards.roster { margin-top: 1.5rem; }
 .card { position: relative; }
-.year-tag { display: none; }
-.card.year-start .year-tag {
-  display: block; position: absolute; z-index: 1; top: -.7rem; left: .6rem;
-  padding: 0 .45rem; border-radius: 3px;
-  background: var(--gold); color: var(--bg);
-  font-family: var(--mono); font-size: .72rem; font-weight: 700; line-height: 1.4rem;
-}
-.card.year-start a { border-color: var(--gold-dim); }
 
 .cards {
   list-style: none; margin: 0; padding: 0;
@@ -358,6 +468,635 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .card-meta { font-size: .78rem; color: var(--text-faint); line-height: 1.4; margin-top: auto; overflow-wrap: anywhere; }
 .card-meta .aff-corp, .card-meta .aff-ally { color: var(--text-dim); }
 .card-updated { display: block; }
+
+/* ---------- 动态状态：活跃、沉寂、招新、著名 ---------- */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.status-frame { position: relative; display: block; flex: none; align-self: flex-start; }
+.status-frame::before, .status-frame::after { position: absolute; pointer-events: none; }
+.card:nth-child(5n+2) { --stagger: -.7s; }
+.card:nth-child(5n+3) { --stagger: -1.5s; }
+.card:nth-child(5n+4) { --stagger: -2.2s; }
+.card:nth-child(5n) { --stagger: -2.9s; }
+
+/* 活跃：绿环呼吸，右下角一颗脉冲灯 */
+.status-active::before {
+  content: ""; inset: -3px; border: 2px solid var(--live); border-radius: 7px;
+  box-shadow: 0 0 9px var(--live-glow);
+  animation: status-breathe 3.2s ease-in-out var(--stagger, 0s) infinite;
+}
+.status-active::after {
+  content: ""; right: -4px; bottom: -4px; width: .72rem; height: .72rem; border-radius: 50%;
+  background: var(--live); border: 2px solid var(--bg-raised);
+  animation: status-pulse 1.6s ease-in-out var(--stagger, 0s) infinite;
+}
+/* 沉寂：头像褪色，一层灰光极慢地飘 */
+.status-dormant .portrait { filter: grayscale(.9) brightness(.82); }
+.status-dormant::before {
+  content: ""; inset: 0; border-radius: 4px;
+  background: linear-gradient(115deg, transparent 25%, var(--ash) 50%, transparent 75%);
+  animation: status-ash 9s ease-in-out var(--stagger, 0s) infinite;
+}
+/* 招新：蓝色声呐往外扩，两圈错开半拍 */
+.status-recruiting::before, .status-recruiting::after {
+  content: ""; inset: -1px; right: -1px; bottom: -1px; width: auto; height: auto;
+  background: none; border: 2px solid var(--recruit); border-radius: 7px; box-shadow: none;
+  animation: status-sonar 2.8s ease-out var(--stagger, 0s) infinite;
+}
+.status-recruiting::after { animation-delay: calc(var(--stagger, 0s) - 1.4s); }
+/* 军团靠标签说话，不再挂脉冲灯 */
+.corp-frame.status-active:not(.status-recruiting)::after { content: none; }
+
+/* 战徽上的标签：扫光走一遍，沉寂不扫 */
+.corp-emblem { object-fit: contain; }
+.status-tags {
+  position: absolute; z-index: 1; left: 0; right: 0; bottom: -.45rem;
+  display: flex; justify-content: center; gap: 2px;
+}
+.status-tag {
+  position: relative; overflow: hidden; padding: 0 .28rem; border-radius: 3px;
+  color: #fff; font-size: .66rem; font-weight: 700; line-height: 1.2rem; white-space: nowrap;
+}
+.tag-live { background: var(--live-solid); }
+.tag-recruit { background: var(--recruit-solid); }
+.tag-ash { background: #6d685e; }
+.tag-live::after, .tag-recruit::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, .55) 50%, transparent 70%);
+  transform: translateX(-110%);
+  animation: status-sheen 3.6s ease-in-out var(--stagger, 0s) infinite;
+}
+.tag-recruit::after { animation-delay: calc(var(--stagger, 0s) - 1.8s); }
+.status-frame-lg .status-tag { padding: 0 .5rem; font-size: .8rem; line-height: 1.5rem; }
+.status-frame-lg .status-tags { gap: 4px; bottom: -.6rem; }
+
+/* 著名：金光斜扫卡片，右上角一枚“名”字印；战神、大亨、神人、UP 主不用方块字印，全靠头像外框、HUD 与挂件呈现 */
+.card.is-famous a { position: relative; border-color: var(--gold-dim); box-shadow: 0 0 12px -6px var(--gold); }
+.fame-sweep { position: absolute; inset: 0; overflow: hidden; border-radius: var(--radius); pointer-events: none; }
+.fame-sweep::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 40%;
+  background: linear-gradient(105deg, transparent, var(--fame-sweep), transparent);
+  transform: translateX(-120%) skewX(-12deg);
+  animation: fame-sweep 7s ease-in-out var(--stagger, 0s) infinite;
+}
+.fame-seal {
+  position: absolute; z-index: 2; top: -.6rem; right: .5rem;
+  display: grid; place-items: center; width: 1.35rem; height: 1.35rem; border-radius: 3px;
+  background: var(--gold); color: var(--bg);
+  font-family: var(--serif); font-size: .82rem; font-weight: 700; line-height: 1;
+  animation: fame-seal 3.5s ease-in-out var(--stagger, 0s) infinite;
+}
+.status-frame-lg .fame-sweep { border-radius: 6px; }
+.status-frame-lg .fame-seal { top: -.5rem; right: -.5rem; }
+
+/* 战神：卡片朱砂战纹左缘 + 姓名旁双刃准星击杀勋章（不遮挡头像） */
+.card.is-wargod a { border-left: 2px solid var(--zhu); }
+.wargod-insignia {
+  display: inline-flex; align-items: center; vertical-align: -2px;
+  width: 1.35rem; height: 1rem; margin-left: .28rem;
+  color: var(--zhu); -webkit-text-fill-color: initial;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .5));
+}
+.wargod-insignia svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.wargod-insignia .wg-chevrons { animation: wargod-chevron 2.2s ease-in-out var(--stagger, 0s) infinite; }
+.bio-name .wargod-insignia { width: 1.85rem; height: 1.4rem; margin-left: .4rem; vertical-align: -3px; }
+
+/* 大亨：鎏金双线金库边框 + 底部外缘重工齿轮 × 飞翼金砖星币托座 + 浮金星芒 */
+.status-frame.is-tycoon .portrait {
+  border-color: var(--tycoon);
+  box-shadow: inset 0 0 0 1px var(--tycoon-bright), 0 0 10px -2px color-mix(in srgb, var(--tycoon) 65%, transparent);
+}
+.tycoon-rig {
+  position: absolute; z-index: 2; left: 50%; bottom: -9px; transform: translateX(-50%);
+  width: 2.5rem; height: 1.2rem; pointer-events: auto;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .75));
+}
+.tycoon-crest { display: block; width: 100%; height: 100%; }
+.tycoon-crest .tc-sparks { animation: tycoon-glint 2.8s ease-in-out var(--stagger, 0s) infinite; }
+.status-frame-lg .tycoon-rig { bottom: -7px; width: 3.7rem; height: 1.8rem; }
+
+/* 神人：头像微歪 + 头顶断裂电弧神环 + 太阳穴旁跳动的“？！”脑电波 */
+.status-frame.is-shenren .portrait { transform: rotate(-2.5deg); }
+.shenren-aura {
+  position: absolute; z-index: 2; top: -17px; left: -6px; right: -12px; height: 2rem;
+  pointer-events: auto; filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .8));
+}
+.shenren-svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.shenren-svg .sr-halo {
+  transform-origin: 42% 55%;
+  animation: shenren-halo 3.2s ease-in-out var(--stagger, 0s) infinite;
+}
+.shenren-svg .sr-wtf {
+  transform-origin: 84% 55%;
+  animation: shenren-wtf 1.8s ease-in-out var(--stagger, 0s) infinite;
+}
+.status-frame-lg .shenren-aura { top: -22px; left: -6px; right: -16px; height: 3rem; }
+
+/* UP 主：头像左下角外缘 B 站粉红双天线小电视挂件 */
+.upzhu-tv {
+  position: absolute; z-index: 2; left: -7px; bottom: -6px;
+  width: 1.38rem; height: 1.28rem; pointer-events: auto;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .65));
+  transform-origin: 50% 85%;
+  animation: bili-tv-bob 3.6s ease-in-out var(--stagger, 0s) infinite;
+}
+.upzhu-tv svg { display: block; width: 100%; height: 100%; }
+.status-frame-lg .upzhu-tv { left: -5px; bottom: -3px; width: 1.95rem; height: 1.8rem; }
+
+@keyframes status-breathe { 0%, 100% { opacity: .35; transform: scale(1); } 50% { opacity: 1; transform: scale(1.025); } }
+@keyframes status-pulse { 0%, 100% { opacity: .55; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.1); } }
+@keyframes status-ash { 0%, 100% { opacity: .15; } 50% { opacity: 1; } }
+@keyframes status-sonar { 0% { opacity: .9; transform: scale(1); } 100% { opacity: 0; transform: scale(1.3); } }
+@keyframes status-sheen { 0%, 55% { transform: translateX(-110%); } 85%, 100% { transform: translateX(110%); } }
+@keyframes fame-sweep { 0%, 45% { transform: translateX(-120%) skewX(-12deg); } 100% { transform: translateX(300%) skewX(-12deg); } }
+@keyframes fame-seal { 0%, 100% { transform: rotate(6deg) scale(1); } 50% { opacity: 1; transform: rotate(6deg) scale(1.1); } }
+@keyframes wargod-chevron { 0%, 100% { opacity: .45; transform: translateX(0); } 50% { opacity: 1; transform: translateX(1.5px); } }
+@keyframes tycoon-glint { 0%, 100% { opacity: .35; transform: translateY(1px); } 50% { opacity: 1; transform: translateY(-2px); } }
+@keyframes shenren-halo { 0%, 100% { opacity: .82; transform: translateY(0) rotate(-4deg); } 50% { opacity: 1; transform: translateY(-2.5px) rotate(3deg); } }
+@keyframes shenren-wtf { 0%, 100% { opacity: .75; transform: translateY(1px) scale(.94); } 50% { opacity: 1; transform: translateY(-2px) scale(1.08); } }
+@keyframes bili-tv-bob { 0%, 100% { transform: rotate(-7deg); } 50% { transform: rotate(4deg) translateY(-1.5px); } }
+
+/* 滚出视口与要求减少动效时都不动，颜色、灯与挂件照常显示 */
+.is-offscreen .status-frame::before, .is-offscreen .status-frame::after,
+.is-offscreen .status-tag::after, .is-offscreen .fame-sweep::before, .is-offscreen .fame-seal,
+.is-offscreen .wg-chevrons, .is-offscreen .tc-sparks, .is-offscreen .sr-halo, .is-offscreen .sr-wtf, .is-offscreen .upzhu-tv { animation: none; }
+@media (prefers-reduced-motion: reduce) {
+  .status-frame::before, .status-frame::after, .status-tag::after, .fame-sweep::before, .fame-seal,
+  .wg-chevrons, .tc-sparks, .sr-halo, .sr-wtf, .upzhu-tv { animation: none; }
+  .status-recruiting::after { content: none; }
+  .fame-seal { transform: rotate(6deg); }
+  .upzhu-tv { transform: rotate(-6deg); }
+}
+
+.status-text-active { color: var(--live); }
+.status-text-dormant { color: var(--text-faint); }
+.status-text-recruit { color: var(--recruit); }
+.status-text-fame { color: var(--gold); }
+.status-text-wargod { color: var(--zhu); }
+.status-text-tycoon { color: var(--tycoon); }
+.status-text-shenren { color: var(--shenren); }
+.status-text-upzhu { color: var(--upzhu); }
+.chip-live:not(.is-active) { color: var(--live); border-color: var(--live-solid); }
+.chip-ash:not(.is-active) { color: var(--text-faint); border-style: dashed; }
+.chip-fame:not(.is-active) { color: var(--gold); border-color: var(--gold-dim); }
+.chip-wargod:not(.is-active) { color: var(--zhu); border-color: var(--zhu); }
+.chip-tycoon:not(.is-active) { color: var(--tycoon); border-color: var(--tycoon); }
+.chip-shenren:not(.is-active) { color: var(--shenren); border-color: var(--shenren); }
+.chip-upzhu:not(.is-active) { color: var(--upzhu); border-color: var(--upzhu); }
+.chip-recruit:not(.is-active) { color: var(--recruit); border-color: var(--recruit); }
+.chip-pvp:not(.is-active) { color: var(--meter-pvp-ink); border-color: color-mix(in srgb, var(--meter-pvp-ink) 55%, transparent); }
+.chip-shenren:not(.is-active) { color: var(--meter-shenren-ink); border-color: color-mix(in srgb, var(--meter-shenren-ink) 55%, transparent); }
+.chip-influence:not(.is-active) { color: var(--meter-inf-ink); border-color: color-mix(in srgb, var(--meter-inf-ink) 55%, transparent); }
+
+/* ---------- 军团目录与军团页：浮夸商业招商风格 × 六大流派 ---------- */
+.corp-style-tycoon {
+  --corp-c1: var(--style-tycoon-1);
+  --corp-c2: var(--style-tycoon-2);
+  --corp-pattern: repeating-linear-gradient(135deg, color-mix(in srgb, var(--corp-c1) 7%, transparent) 0 1px, transparent 1px 12px);
+}
+.corp-style-warlord {
+  --corp-c1: var(--style-warlord-1);
+  --corp-c2: var(--style-warlord-2);
+  --corp-pattern: repeating-linear-gradient(-45deg, color-mix(in srgb, var(--corp-c1) 8%, transparent) 0 6px, transparent 6px 14px);
+}
+.corp-style-syndicate {
+  --corp-c1: var(--style-syndicate-1);
+  --corp-c2: var(--style-syndicate-2);
+  --corp-pattern:
+    linear-gradient(90deg, color-mix(in srgb, var(--corp-c1) 7%, transparent) 1px, transparent 1px),
+    linear-gradient(0deg, color-mix(in srgb, var(--corp-c1) 7%, transparent) 1px, transparent 1px);
+  --corp-pattern-size: 22px 22px;
+}
+.corp-style-neon {
+  --corp-c1: var(--style-neon-1);
+  --corp-c2: var(--style-neon-2);
+  --corp-pattern: radial-gradient(color-mix(in srgb, var(--corp-c2) 14%, transparent) 1px, transparent 1px);
+  --corp-pattern-size: 12px 12px;
+}
+.corp-style-dynasty {
+  --corp-c1: var(--style-dynasty-1);
+  --corp-c2: var(--style-dynasty-2);
+  --corp-pattern: repeating-linear-gradient(90deg, color-mix(in srgb, var(--corp-c2) 6%, transparent) 0 2px, transparent 2px 18px);
+}
+.corp-style-phantom {
+  --corp-c1: var(--style-phantom-1);
+  --corp-c2: var(--style-phantom-2);
+  --corp-pattern: repeating-radial-gradient(circle at 88% 18%, color-mix(in srgb, var(--corp-c1) 8%, transparent) 0 1px, transparent 1px 22px);
+}
+
+.corp-filters {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  margin-top: .75rem;
+}
+.corp-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem 1.6rem;
+}
+.corp-filter-row .toolbar {
+  margin: 0;
+  flex: 1 1 320px;
+}
+.corp-filter-group {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+.corp-filter-row .corp-filter-group {
+  flex: 0 1 auto;
+}
+.corp-filter-heading {
+  flex: none;
+  color: var(--text-dim);
+  font-size: .85rem;
+  line-height: 1.9rem;
+}
+.corp-filter-group .tag-wrap { flex: 1; min-width: 0; margin-top: 0; }
+.page-corps .filter-status {
+  font-size: .82rem;
+  color: var(--text-dim);
+  margin: .35rem 0 0;
+  line-height: 1.4;
+}
+#corp-cards.is-default > :not([data-group="recruiting"]) { display: none; }
+
+/* 目录网格：商业卡片更宽敞 */
+.cards.corp-cards {
+  margin-top: 1.25rem;
+  gap: 1.1rem .9rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19.5rem), 1fr));
+}
+.corp-card .corp-card-link {
+  position: relative; isolation: isolate; overflow: hidden;
+  display: flex; flex-direction: column; gap: .65rem; height: 100%;
+  padding: .8rem .85rem .75rem; border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 38%, var(--line));
+  background:
+    radial-gradient(ellipse 85% 55% at 0% 0%, color-mix(in srgb, var(--corp-c1) 16%, transparent), transparent 72%),
+    radial-gradient(ellipse 75% 55% at 100% 100%, color-mix(in srgb, var(--corp-c2) 12%, transparent), transparent 70%),
+    var(--corp-pattern),
+    var(--surface);
+  background-size: auto, auto, var(--corp-pattern-size, auto), auto;
+  box-shadow: var(--panel-shadow), inset 0 0 0 1px color-mix(in srgb, var(--corp-c2) 12%, transparent);
+  transition: transform .16s, border-color .16s, box-shadow .16s;
+}
+.corp-card .corp-card-link::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; pointer-events: none;
+  background: linear-gradient(90deg, var(--corp-c1), var(--corp-c2), color-mix(in srgb, var(--corp-c1) 35%, transparent));
+}
+.corp-style-warlord.corp-card .corp-card-link::before,
+.corp-style-warlord .corp-billboard::before {
+  height: 4px;
+  background: repeating-linear-gradient(-45deg, var(--corp-c1) 0 8px, var(--corp-c2) 8px 16px);
+}
+.corp-style-warlord.corp-card .corp-card-link,
+.corp-style-warlord .corp-billboard {
+  border-radius: 3px;
+}
+.corp-style-syndicate.corp-card .corp-card-link,
+.corp-style-syndicate .corp-billboard {
+  border-radius: 4px;
+  border-left-width: 3px;
+}
+.corp-style-neon.corp-card .corp-card-link,
+.corp-style-neon .corp-billboard {
+  border-radius: 12px;
+  box-shadow: var(--panel-shadow), 0 0 22px -12px color-mix(in srgb, var(--corp-c1) 50%, transparent);
+}
+.corp-style-dynasty.corp-card .corp-card-link {
+  box-shadow: var(--panel-shadow), inset 0 0 0 3px color-mix(in srgb, var(--corp-c2) 22%, transparent);
+}
+.corp-style-phantom.corp-card .corp-card-link,
+.corp-style-phantom .corp-billboard {
+  border-style: solid;
+  box-shadow: var(--panel-shadow), inset 0 1px 18px -10px color-mix(in srgb, var(--corp-c1) 45%, transparent);
+}
+.corp-card .corp-card-link:hover {
+  transform: translateY(-2px);
+  border-color: var(--corp-c1);
+  box-shadow: var(--panel-shadow), 0 0 0 1px var(--corp-c1), 0 12px 30px -14px color-mix(in srgb, var(--corp-c1) 55%, transparent);
+}
+.corp-card-wm {
+  position: absolute; right: -.8rem; bottom: -.8rem; z-index: -1;
+  width: 6.8rem; height: 6.8rem; object-fit: contain; pointer-events: none;
+  opacity: .07; filter: saturate(1.25); transform: rotate(-8deg);
+}
+.corp-card-ribbon {
+  display: flex; align-items: center; justify-content: space-between; gap: .4rem;
+  padding-bottom: .45rem; border-bottom: 1px dashed color-mix(in srgb, var(--corp-c1) 28%, var(--line));
+}
+.corp-card-meta {
+  min-width: 0; font-size: .74rem; color: var(--text-dim);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.corp-card-meta strong { color: var(--corp-c1); font-family: var(--mono); font-weight: 700; }
+.corp-card-pills { display: inline-flex; align-items: center; gap: .25rem; flex: none; }
+.corp-pill {
+  display: inline-flex; align-items: center; padding: .08rem .42rem; border-radius: 3px;
+  font-size: .68rem; font-weight: 700; line-height: 1.35; letter-spacing: .03em; white-space: nowrap;
+}
+.pill-live { background: var(--live-solid); color: #fff; }
+.pill-recruit { background: var(--recruit-solid); color: #fff; }
+.pill-ash { background: color-mix(in srgb, var(--text-faint) 30%, var(--bg-sunk)); color: var(--text-dim); }
+.pill-invite { border: 1px solid var(--line); color: var(--text-dim); background: var(--bg-sunk); }
+
+.corp-card-head { display: flex; align-items: center; gap: .75rem; min-width: 0; }
+.corp-crest-sm {
+  flex: none; display: grid; place-items: center; width: 64px; height: 64px; padding: 3px;
+  border-radius: 6px; background: var(--bg-sunk);
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 55%, var(--line));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--corp-c2) 14%, transparent), 0 6px 14px -8px rgba(0, 0, 0, .7);
+}
+.corp-crest-sm img { width: 100%; height: 100%; object-fit: contain; border-radius: 4px; }
+.corp-crest-sm.is-dormant img, .corp-crest.is-dormant img { filter: grayscale(.85) brightness(.85); }
+.corp-card-id { display: flex; flex-direction: column; gap: .1rem; min-width: 0; }
+.corp-card-title {
+  font-family: var(--serif); font-weight: 900; font-size: 1.18rem; line-height: 1.25;
+  color: var(--text); overflow-wrap: anywhere;
+}
+.corp-ticker-sm {
+  display: inline-block; vertical-align: .08em; padding: 0 .32rem; border-radius: 3px;
+  font-family: var(--mono); font-size: .72rem; font-weight: 700;
+  color: var(--corp-c1); background: color-mix(in srgb, var(--corp-c1) 13%, var(--bg-sunk));
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 35%, transparent);
+}
+.corp-card-en {
+  font-size: .76rem; color: var(--text-faint); line-height: 1.3;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.corp-card-aff { font-size: .78rem; color: var(--text-dim); line-height: 1.35; }
+.corp-card-aff strong { color: var(--corp-c2); font-weight: 700; }
+
+.corp-card-pitch {
+  display: block; margin: 0; padding: .38rem .55rem; border-radius: 4px;
+  border-left: 3px solid var(--corp-c1);
+  background: color-mix(in srgb, var(--corp-c1) 8%, var(--bg-sunk));
+  color: var(--text); font-family: var(--serif); font-size: .88rem; line-height: 1.45;
+}
+.corp-card-pitch-text {
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+/* ---------- 三维评价横条（RPG 装甲/HP 条风格） ---------- */
+.corp-ratings {
+  display: grid; gap: .34rem; padding: .45rem .55rem; border-radius: 5px;
+  background: color-mix(in srgb, var(--bg-sunk) 72%, transparent);
+  border: 1px solid color-mix(in srgb, var(--line) 75%, transparent);
+}
+.corp-meter { display: flex; align-items: center; gap: .48rem; min-width: 0; }
+.meter-pvp { --m-a: var(--meter-pvp-a); --m-b: var(--meter-pvp-b); --m-ink: var(--meter-pvp-ink); }
+.meter-shenren { --m-a: var(--meter-shenren-a); --m-b: var(--meter-shenren-b); --m-ink: var(--meter-shenren-ink); }
+.meter-influence { --m-a: var(--meter-inf-a); --m-b: var(--meter-inf-b); --m-ink: var(--meter-inf-ink); }
+
+.meter-label {
+  flex: 0 0 3.3em; font-size: .75rem; font-weight: 700; letter-spacing: .03em;
+  color: var(--text-dim); white-space: nowrap;
+}
+.meter-bar {
+  position: relative; flex: 1; min-width: 0; height: 9px; border-radius: 2px; overflow: hidden;
+  background: var(--meter-track);
+  border: 1px solid color-mix(in srgb, var(--m-ink) 32%, var(--line));
+  transform: skewX(-12deg);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .45);
+}
+/* 10 格血条刻度线 */
+.meter-bar::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: repeating-linear-gradient(90deg, transparent 0 calc(10% - 1px), var(--meter-tick) calc(10% - 1px) 10%);
+}
+.meter-fill {
+  display: block; height: 100%; min-width: 2px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .32) 0%, transparent 48%, rgba(0, 0, 0, .22) 100%),
+    linear-gradient(90deg, var(--m-a), var(--m-b));
+  box-shadow: 0 0 8px color-mix(in srgb, var(--m-b) 55%, transparent);
+}
+.meter-shenren.is-alert .meter-fill {
+  background:
+    repeating-linear-gradient(-45deg, rgba(255, 255, 255, .18) 0 4px, transparent 4px 8px),
+    linear-gradient(90deg, var(--m-a), var(--m-b));
+}
+.meter-num {
+  flex: 0 0 2.1em; text-align: right; font-family: var(--mono); font-size: .76rem; font-weight: 700;
+  font-variant-numeric: tabular-nums; color: var(--m-ink);
+}
+
+.corp-card-foot {
+  margin-top: auto; padding-top: .4rem; border-top: 1px solid color-mix(in srgb, var(--line) 65%, transparent);
+  display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .65rem;
+  font-size: .75rem; color: var(--text-faint); font-variant-numeric: tabular-nums;
+}
+.corp-card-foot strong { color: var(--text-dim); }
+.corp-rank-chip {
+  margin-left: auto; padding: 0 .38rem; border-radius: 3px;
+  font-family: var(--mono); font-size: .7rem; font-weight: 700;
+  color: var(--corp-c1); background: color-mix(in srgb, var(--corp-c1) 12%, transparent);
+}
+
+/* ---------- 军团详情页：巨幅集团招商路演牌匾 ---------- */
+.page-corp .back, .page-corp .corp-pager, .bio.corp { max-width: 48rem; }
+.corp-billboard {
+  position: relative; isolation: isolate; overflow: hidden;
+  margin: .5rem 0 1.75rem; padding: 1.1rem 1.35rem 1.25rem; border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 50%, var(--line));
+  background:
+    radial-gradient(ellipse 80% 55% at 8% 0%, color-mix(in srgb, var(--corp-c1) 20%, transparent), transparent 70%),
+    radial-gradient(ellipse 70% 60% at 96% 100%, color-mix(in srgb, var(--corp-c2) 15%, transparent), transparent 72%),
+    var(--corp-pattern),
+    var(--surface);
+  background-size: auto, auto, var(--corp-pattern-size, auto), auto;
+  box-shadow:
+    var(--panel-shadow),
+    inset 0 0 0 1px color-mix(in srgb, var(--corp-c2) 18%, transparent),
+    0 18px 42px -24px color-mix(in srgb, var(--corp-c1) 45%, rgba(0, 0, 0, .8));
+}
+.corp-billboard::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; pointer-events: none;
+  background: linear-gradient(90deg, var(--corp-c1), var(--corp-c2), var(--corp-c1));
+}
+.corp-style-dynasty .corp-billboard {
+  box-shadow:
+    var(--panel-shadow),
+    inset 0 0 0 4px color-mix(in srgb, var(--corp-c2) 22%, transparent),
+    0 18px 42px -24px color-mix(in srgb, var(--corp-c1) 45%, rgba(0, 0, 0, .8));
+}
+.corp-watermark {
+  position: absolute; right: -1.5rem; top: 1.5rem; z-index: -1;
+  width: 14rem; height: 14rem; object-fit: contain; pointer-events: none;
+  opacity: .08; filter: saturate(1.3); transform: rotate(-6deg);
+}
+
+.corp-marquee {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .45rem .75rem;
+  padding-bottom: .75rem; margin-bottom: 1rem;
+  border-bottom: 1px dashed color-mix(in srgb, var(--corp-c1) 35%, var(--line));
+}
+.corp-marquee-left, .corp-marquee-right { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
+.corp-aff-tag {
+  display: inline-flex; align-items: center; padding: .14rem .55rem; border-radius: 4px;
+  font-size: .76rem; font-weight: 700; text-decoration: none;
+  color: var(--corp-c1); background: color-mix(in srgb, var(--corp-c1) 14%, var(--bg-sunk));
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 42%, transparent);
+}
+a.corp-aff-tag:hover { border-color: var(--corp-c1); filter: brightness(1.1); }
+.corp-zone-tag {
+  display: inline-flex; align-items: center; padding: .12rem .48rem; border-radius: 4px;
+  font-size: .74rem; font-weight: 700; color: var(--corp-c2);
+  background: color-mix(in srgb, var(--corp-c2) 11%, var(--bg-sunk));
+  border: 1px solid color-mix(in srgb, var(--corp-c2) 34%, transparent);
+}
+
+.corp-hero-body { display: flex; align-items: flex-start; gap: 1.2rem; min-width: 0; }
+.corp-crest {
+  flex: none; display: grid; place-items: center; width: 116px; height: 116px; padding: 6px;
+  border-radius: 8px; background: var(--bg-sunk);
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 65%, var(--line));
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--bg) 85%, transparent),
+    0 0 0 4px color-mix(in srgb, var(--corp-c2) 45%, transparent),
+    0 14px 28px -14px rgba(0, 0, 0, .75);
+}
+.corp-crest-img { width: 100%; height: 100%; object-fit: contain; border-radius: 4px; }
+.corp-id { flex: 1; min-width: 0; }
+.corp-title-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: .45rem .65rem; }
+.corp-name {
+  margin: 0; font-family: var(--serif); font-weight: 900;
+  font-size: clamp(1.8rem, 5.5vw, 2.6rem); line-height: 1.18; letter-spacing: .05em;
+  color: var(--text); overflow-wrap: anywhere;
+}
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .corp-name {
+    background: linear-gradient(180deg, var(--text) 20%, var(--corp-c1) 125%);
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent; -webkit-text-fill-color: transparent;
+  }
+}
+.corp-suffix {
+  margin-left: .35em; font-size: .5em; font-weight: 700; letter-spacing: .18em;
+  color: var(--corp-c2); -webkit-text-fill-color: var(--corp-c2);
+}
+.corp-ticker {
+  padding: .1rem .5rem; border-radius: 4px; font-family: var(--mono); font-size: .88rem; font-weight: 800;
+  color: var(--corp-c1); background: color-mix(in srgb, var(--corp-c1) 14%, var(--bg-sunk));
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 42%, transparent);
+}
+.corp-reg { margin: .3rem 0 0; font-size: .9rem; color: var(--text-dim); line-height: 1.5; overflow-wrap: anywhere; }
+.corp-slogan {
+  margin: .65rem 0 0; padding: .48rem .75rem; border-radius: 5px;
+  border-left: 3px solid var(--corp-c1);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--corp-c1) 13%, var(--bg-sunk)), transparent 95%);
+  font-family: var(--serif); font-size: 1.05rem; font-weight: 700; line-height: 1.5; color: var(--text);
+}
+.corp-quote-mark { color: var(--corp-c1); font-size: 1.2em; margin: 0 .08em; }
+
+/* 四个路演大指标格 */
+.corp-kpis {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem;
+  margin-top: 1.1rem;
+}
+.corp-kpi {
+  display: flex; flex-direction: column; gap: .12rem; min-width: 0;
+  padding: .6rem .75rem; border-radius: 6px;
+  background: color-mix(in srgb, var(--bg-sunk) 72%, transparent);
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 24%, var(--line-soft));
+}
+.kpi-label { font-size: .74rem; font-weight: 700; letter-spacing: .08em; color: var(--text-faint); }
+.kpi-val {
+  font-family: var(--serif); font-size: 1.38rem; font-weight: 900; line-height: 1.2;
+  color: var(--corp-c1); font-variant-numeric: tabular-nums; overflow-wrap: anywhere;
+}
+.kpi-val a { color: inherit; text-decoration: none; border-bottom: 1px dashed currentColor; }
+.kpi-val small { margin-left: .2em; font-family: var(--sans); font-size: .56em; font-weight: 600; color: var(--text-dim); }
+.kpi-val-zone { font-size: 1.15rem; color: var(--corp-c2); }
+.kpi-sub { font-size: .75rem; color: var(--text-dim); line-height: 1.35; }
+
+/* 详情页三维血条面板 */
+.corp-eval-box {
+  margin-top: .85rem; padding: .7rem .85rem .8rem; border-radius: 6px;
+  background: color-mix(in srgb, var(--bg-sunk) 80%, transparent);
+  border: 1px solid color-mix(in srgb, var(--corp-c2) 26%, var(--line));
+}
+.corp-eval-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem;
+  margin-bottom: .5rem;
+}
+.corp-eval-title { font-family: var(--serif); font-size: .92rem; font-weight: 700; letter-spacing: .06em; color: var(--corp-c2); }
+.corp-eval-sub { font-size: .74rem; color: var(--text-faint); }
+.corp-ratings-lg { padding: 0; background: none; border: 0; gap: .5rem; }
+.corp-ratings-lg .meter-label { flex: 0 0 3.8em; font-size: .86rem; color: var(--text); }
+.corp-ratings-lg .meter-bar { height: 12px; border-radius: 3px; }
+.corp-ratings-lg .meter-num { flex: 0 0 2.5em; font-size: .9rem; }
+
+/* 招新皇榜专线横幅 */
+.corp-cta {
+  margin-top: .85rem; padding: .65rem .85rem; border-radius: 6px;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .55rem 1rem;
+  background: color-mix(in srgb, var(--bg-sunk) 70%, transparent);
+  border: 1px solid var(--line);
+}
+.corp-cta.is-open {
+  background: linear-gradient(90deg, color-mix(in srgb, var(--corp-c1) 18%, var(--bg-sunk)), color-mix(in srgb, var(--recruit) 14%, var(--bg-sunk)));
+  border-color: color-mix(in srgb, var(--corp-c1) 50%, var(--recruit));
+}
+.corp-cta-main { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .65rem; min-width: 0; }
+.corp-cta-badge {
+  padding: .12rem .48rem; border-radius: 3px; font-size: .74rem; font-weight: 800; letter-spacing: .05em;
+  background: var(--corp-c1); color: var(--bg); white-space: nowrap;
+}
+.corp-cta-text { font-size: .9rem; color: var(--text); overflow-wrap: anywhere; }
+.corp-cta-text strong { font-family: var(--mono); font-size: 1rem; color: var(--corp-c2); letter-spacing: .03em; }
+.corp-cta-btn {
+  display: inline-flex; align-items: center; padding: .35rem .75rem; border-radius: 4px;
+  font-size: .84rem; font-weight: 700; text-decoration: none; white-space: nowrap;
+  color: var(--bg); background: linear-gradient(90deg, var(--corp-c1), var(--corp-c2));
+  box-shadow: 0 4px 12px -6px color-mix(in srgb, var(--corp-c1) 70%, transparent);
+}
+.corp-cta-btn:hover { color: var(--bg); filter: brightness(1.08); }
+
+/* 军团页人物名录、正文与参战录也跟随该团商业主色 */
+.corp .corp-roll {
+  max-width: none; margin: 1.35rem 0; padding: .7rem 1.05rem;
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 26%, var(--line-soft));
+  border-left: 3px solid var(--corp-c1); border-radius: 6px;
+  background: var(--surface); box-shadow: var(--panel-shadow);
+}
+.corp-roll summary { cursor: pointer; }
+.corp-roll summary h2 { display: inline; margin: 0; font-family: var(--serif); font-size: 1.05rem; color: var(--corp-c1); }
+.corp-roll summary small { margin-left: .45rem; color: var(--text-dim); }
+.corp-roll .chips { margin-bottom: .5rem; }
+.corp-members-head { margin: .75rem 0 .3rem; color: var(--text-faint); font-size: .85rem; }
+.corp-battles { margin: .5rem 0 0; padding: 0; list-style: none; }
+.corp-battles li { padding: .32rem 0; border-bottom: 1px solid var(--line-soft); }
+.corp-battles li:last-child { border-bottom: 0; }
+.corp-battles small { margin-left: .4rem; color: var(--text-faint); }
+
+.corp-prose h2 {
+  border-left: 4px solid var(--corp-c1);
+  padding: .2rem .75rem;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--corp-c1) 11%, transparent), transparent 85%);
+  border-radius: 0 4px 4px 0;
+}
+.corp-prose blockquote {
+  border-left: 3px solid var(--corp-c2);
+  background: color-mix(in srgb, var(--corp-c2) 7%, var(--bg-sunk));
+  font-style: normal;
+}
+.corp-snapshot { padding-left: 0; padding-right: 0; margin-top: 1.25rem; }
+
+@media (max-width: 680px) {
+  .corp-billboard { padding: .9rem .95rem 1rem; }
+  .corp-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .corp-crest { width: 84px; height: 84px; padding: 4px; }
+  .corp-ratings-lg .meter-label { flex: 0 0 3.5em; font-size: .8rem; }
+}
+@media (max-width: 520px) {
+  .corp-hero-body { gap: .85rem; }
+  .corp-slogan { font-size: .95rem; padding: .4rem .6rem; }
+  .corp-cta { flex-direction: column; align-items: stretch; }
+  .corp-cta-btn { justify-content: center; }
+}
 
 /* ---------- 列传页 ---------- */
 .back { max-width: var(--measure); margin: 0 auto; font-size: .9rem; }
@@ -400,8 +1139,8 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .bio-facts-row { display: flex; flex-wrap: wrap; gap: .35rem 1.75rem; }
 .bio-facts-row > div { gap: .5rem; }
 .bio-facts.bio-facts-row dt { width: auto; }
-.bio-facts-row > div:has(.chips) { flex-basis: 100%; }
-.bio-facts dt { flex: none; width: 2.5em; color: var(--text-faint); }
+.bio-facts-row > div:has(.chips), .bio-facts-row > div:has(.battle-list-wrap) { flex-basis: 100%; }
+.bio-facts dt { flex: none; min-width: 2.5em; white-space: nowrap; color: var(--text-faint); }
 .bio-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .person-battles { min-width: 0; }
 
@@ -521,175 +1260,599 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .pager-next { text-align: right; }
 .pager-random { color: var(--gold) !important; text-align: center; font-family: var(--sans) !important; font-weight: 400 !important; }
 
-/* ---------- 战役 ---------- */
-.battle-head { display: flex; align-items: flex-start; gap: 1.25rem; margin: .5rem 0 1.25rem; }
-.battle-heading { min-width: 0; }
-/* 刀口对撞：各方主标放大出血、按刀口裁切；刀口（底色从缝里露出）颜色即档位。左朱右青只分两方，不编码胜负。 */
+/* ---------- 战役：头图、目录 Bento 画廊、详情页分屏舞台与战地实录台 ---------- */
+/* 战役头图一律 16:9：有视频封面则完整无遮挡呈现；无封面则在深空雷达星图上以精装徽章左右对阵，斜缝颜色随档位，左朱右青只分阵营、不编码胜负。 */
 .battle-emblem {
-  --emblem-size: 104px; --cut: 2px; --seam: var(--line);
-  position: relative; flex: 0 0 var(--emblem-size); isolation: isolate;
-  width: var(--emblem-size); height: var(--emblem-size); overflow: hidden;
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--cut);
-  background: var(--seam); border-radius: var(--radius);
+  position: relative; isolation: isolate; overflow: hidden; container-type: inline-size;
+  width: 100%; aspect-ratio: 16 / 9; background: var(--bg-sunk);
 }
-.battle-emblem-tier-epic { --seam: var(--zhu); }
-.battle-emblem-tier-large { --seam: var(--gold); }
-.battle-emblem-large { --emblem-size: 160px; --cut: 3px; }
-.battle-row .battle-emblem { --emblem-size: 76px; }
-.battle-emblem-side {
-  position: relative; overflow: hidden; min-width: 0; min-height: 0;
-  display: grid; place-items: center; background: var(--bg-sunk);
-  box-shadow: inset 0 0 calc(var(--emblem-size) * .18) rgba(0, 0, 0, .4);
+.battle-emblem-cover { display: block; }
+.battle-emblem-cover img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+
+/* 无视频战役：深空战术推演档案图版 */
+.battle-emblem-archive {
+  display: block; background: var(--emblem-plate);
+  border: 1px solid var(--line-soft);
 }
-.battle-emblem-side img { display: block; width: 92%; height: 92%; object-fit: contain; filter: saturate(1.15) contrast(1.05); }
-.battle-emblem-initials { color: var(--gold); font: 700 1rem var(--serif); }
-.battle-emblem-sides-1 { grid-template-columns: 1fr; }
-.battle-emblem-sides-2 { display: block; }
-.battle-emblem-sides-2 .battle-emblem-side { position: absolute; inset: 0; display: block; }
-.battle-emblem-sides-2 .battle-emblem-side:first-child {
-  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 0 calc(100% - var(--cut)));
-  background: radial-gradient(circle at 25% 25%, color-mix(in srgb, var(--zhu) 35%, var(--bg-sunk)), var(--bg-sunk) 70%);
+.battle-archive-plate {
+  position: relative; width: 100%; height: 100%; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: center;
 }
-.battle-emblem-sides-2 .battle-emblem-side:nth-child(2) {
-  clip-path: polygon(100% var(--cut), 100% 100%, var(--cut) 100%);
-  background: radial-gradient(circle at 75% 75%, color-mix(in srgb, var(--emblem-blue) 35%, var(--bg-sunk)), var(--bg-sunk) 70%);
+.archive-plate-bg {
+  position: absolute; inset: 0; pointer-events: none; overflow: hidden;
 }
-.battle-emblem-sides-2 .battle-emblem-side > * { position: absolute; width: 96%; height: 96%; }
-.battle-emblem-sides-2 .battle-emblem-side:first-child > * { left: -16%; top: -16%; }
-.battle-emblem-sides-2 .battle-emblem-side:nth-child(2) > * { right: -16%; bottom: -16%; }
-.battle-emblem-sides-2 .battle-emblem-initials { display: grid; place-items: center; }
-.battle-emblem-sides-2::after {
-  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; mix-blend-mode: screen;
-  background: linear-gradient(135deg, transparent 42%, color-mix(in srgb, var(--seam) 45%, transparent) 50%, transparent 58%);
+.archive-sys-ghost {
+  position: absolute; left: 50%; top: 48%; translate: -50% -50%;
+  font: 900 clamp(2.4rem, 16cqw, 4.4rem)/1 var(--sans);
+  letter-spacing: .08em; text-transform: uppercase;
+  color: var(--text-faint); opacity: .1; white-space: nowrap;
+  user-select: none;
 }
-.battle-emblem-sides-3, .battle-emblem-sides-4 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
-.battle-emblem-sides-3 .battle-emblem-side:nth-child(3) { grid-column: 1 / -1; }
-@media (max-width: 520px) {
-  .battle-head { gap: .9rem; }
-  .battle-emblem-large { --emblem-size: 104px; }
-  .battle-row .battle-emblem { --emblem-size: 64px; }
+.archive-tactical-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--line-soft) 40%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--line-soft) 40%, transparent) 1px, transparent 1px);
+  background-size: clamp(14px, 5cqw, 24px) clamp(14px, 5cqw, 24px);
+  opacity: .5;
+}
+.archive-clash {
+  position: relative; z-index: 2;
+  display: flex; align-items: center; justify-content: center;
+  gap: clamp(.6rem, 4cqw, 1.8rem); padding-inline: clamp(.8rem, 4cqw, 1.6rem);
+}
+.archive-side {
+  display: flex; flex-direction: column; align-items: center;
+  gap: clamp(.25rem, 1.5cqw, .45rem); max-width: 44%;
+}
+.archive-crest {
+  position: relative;
+  width: clamp(2.8rem, 18cqw, 4.4rem); aspect-ratio: 1;
+  border-radius: 8px; display: grid; place-items: center;
+  background: color-mix(in srgb, var(--bg-raised) 80%, #000);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 16px -4px rgba(0, 0, 0, .55);
+}
+.archive-side-1 .archive-crest {
+  border-color: color-mix(in srgb, #e0554a 45%, var(--line));
+  box-shadow: 0 4px 14px -3px rgba(0, 0, 0, .55), 0 0 12px -2px rgba(224, 85, 74, .2);
+}
+.archive-side-2 .archive-crest {
+  border-color: color-mix(in srgb, #4f86c6 45%, var(--line));
+  box-shadow: 0 4px 14px -3px rgba(0, 0, 0, .55), 0 0 12px -2px rgba(79, 134, 198, .2);
+}
+.archive-crest img {
+  display: block; width: 72%; height: 72%; object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, .6));
+}
+.archive-initials {
+  color: var(--gold); font: 700 clamp(.9rem, 5.5cqw, 1.35rem)/1 var(--serif);
+  letter-spacing: .06em;
+}
+.archive-side-label {
+  font: 600 clamp(.66rem, 3cqw, .82rem)/1.2 var(--sans);
+  color: var(--text-dim); text-align: center;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
+}
+.archive-vs-mark {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: clamp(.15rem, .8cqw, .3rem); flex-shrink: 0;
+}
+.archive-vs-line {
+  width: 1px; height: clamp(.6rem, 3.5cqw, 1.2rem);
+  background: linear-gradient(to bottom, transparent, var(--line), transparent);
+}
+.archive-vs-badge {
+  font: 800 clamp(.58rem, 2.6cqw, .72rem)/1 var(--sans);
+  letter-spacing: .12em; color: var(--gold); opacity: .85;
+}
+.archive-tagline {
+  position: absolute; bottom: clamp(.25rem, 1.4cqw, .5rem); inset-inline: 0;
+  text-align: center; pointer-events: none;
+}
+.archive-tagline span {
+  font: 700 clamp(.46rem, 1.8cqw, .58rem)/1 var(--sans);
+  letter-spacing: .22em; color: var(--text-faint); opacity: .65;
 }
 
+/* 规模徽记 */
 .tier {
-  display: inline-block; padding: 0 .4rem; border-radius: 3px; vertical-align: .15em;
-  font: 700 .72rem/1.6 var(--sans); letter-spacing: .1em; white-space: nowrap;
+  display: inline-flex; align-items: center; padding: .08rem .46rem; border-radius: 3px;
+  font: 700 .72rem/1.45 var(--sans); letter-spacing: .08em; white-space: nowrap; text-decoration: none;
 }
-.battle-head .tier { margin: 0 0 .4rem; font-size: .8rem; }
+a.tier:hover { filter: brightness(1.08); }
 .tier-epic { background: var(--zhu); color: #fff; }
+a.tier-epic:hover { color: #fff; }
 .tier-large { background: var(--gold); color: var(--bg); }
-.tier-medium { border: 1px solid var(--line); color: var(--text-dim); }
+a.tier-large:hover { color: var(--bg); }
+.tier-medium { border: 1px solid var(--line); color: var(--text-dim); background: color-mix(in srgb, var(--bg-sunk) 55%, transparent); }
+a.tier-medium:hover { border-color: var(--gold-dim); color: var(--gold); }
 
-/* 目录：一场一行，下面按阵营分栏；整行可点（标题链接铺满） */
-.battle-rows { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: .9rem; }
-.battle-row {
-  position: relative; padding: .8rem 1rem .9rem;
-  background: var(--bg-raised); border: 1px solid var(--line-soft); border-radius: var(--radius);
-  transition: border-color .15s;
+/* ---------- 战役目录：快筛栏、筛选抽屉、年份章头与杂志 Bento 网格 ---------- */
+.battle-quick-bar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .45rem .75rem;
+  margin-top: .45rem;
 }
-.battle-row:hover { border-color: var(--gold-dim); }
-/* 标题在左、总损失与人数大字在右；窄屏数字换到标题下 */
-.battle-row-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: .4rem 1.5rem; }
-.battle-row-identity { display: flex; align-items: center; flex: 1 1 24rem; gap: 1rem; min-width: 0; }
-.battle-row-head { display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
+.battle-tier-chips { flex: 1 1 auto; padding: .15rem 0; }
+.battle-filter-toggle {
+  flex: none; height: 1.9rem; padding: 0 .8rem; border-radius: 999px;
+  font: inherit; font-size: .86rem; color: var(--text-dim); background: var(--bg-raised);
+  border: 1px solid var(--line); cursor: pointer; white-space: nowrap;
+}
+.battle-filter-toggle:hover { border-color: var(--gold-dim); color: var(--gold); }
+.battle-filter-toggle.is-active, .battle-filter-toggle[aria-expanded="true"] {
+  border-color: var(--gold); color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 12%, var(--bg-raised));
+}
+.battle-tag-filters {
+  margin-top: .55rem; padding: .65rem .9rem .75rem; border-radius: 8px;
+  background: color-mix(in srgb, var(--bg-raised) 85%, transparent);
+  border: 1px solid var(--line-soft); box-shadow: var(--panel-shadow);
+}
+.battle-tag-group { display: flex; align-items: baseline; gap: .75rem; margin-top: .4rem; }
+.battle-tag-group:first-child { margin-top: 0; }
+.battle-tag-heading { flex: 0 0 4.2em; color: var(--text-dim); font-size: .85rem; font-weight: 600; }
+.battle-tag-group .tag-wrap { flex: 1; min-width: 0; margin-top: 0; }
+.battle-taxonomy-note { margin: .55rem 0 0; padding-top: .45rem; border-top: 1px dashed var(--line-soft); font-size: .8rem; color: var(--text-faint); }
+@media (max-width: 520px) {
+  .battle-tag-group { flex-direction: column; gap: .15rem; }
+  .battle-tag-heading { flex-basis: auto; }
+}
+
+.battle-rows {
+  margin: 1.15rem 0 0; display: grid; gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 820px) {
+  .battle-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.15rem 1rem; }
+}
+
+.battle-year {
+  grid-column: 1 / -1; display: flex; align-items: center; gap: .7rem;
+  margin: .75rem 0 -.15rem; font-family: var(--serif); font-size: 1.35rem; font-weight: 900;
+  letter-spacing: .08em; color: var(--gold); line-height: 1.2;
+}
+.battle-year:first-child { margin-top: .1rem; }
+.battle-year::after {
+  content: ""; flex: 1; height: 1px; order: 1;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--gold-dim) 55%, transparent), var(--line-soft) 70%, transparent);
+}
+.battle-year small {
+  order: 2; padding: .1rem .55rem; border-radius: 999px;
+  font-family: var(--mono); font-size: .74rem; font-weight: 600; letter-spacing: .02em;
+  color: var(--text-dim); background: var(--bg-raised); border: 1px solid var(--line-soft);
+}
+
+.battle-row {
+  --tier-c: var(--line);
+  position: relative; isolation: isolate; overflow: hidden;
+  display: flex; flex-direction: column;
+  background: var(--surface);
+  border: 1px solid color-mix(in srgb, var(--tier-c) 36%, var(--line-soft));
+  border-radius: 8px; box-shadow: var(--panel-shadow);
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.battle-row-epic {
+  --tier-c: var(--zhu);
+  background:
+    radial-gradient(ellipse 70% 75% at 100% 0%, color-mix(in srgb, var(--zhu) 11%, transparent), transparent 72%),
+    var(--surface);
+}
+.battle-row-large { --tier-c: var(--gold); }
+.battle-row::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; z-index: 3; pointer-events: none;
+  background: linear-gradient(90deg, var(--tier-c), color-mix(in srgb, var(--tier-c) 35%, transparent) 68%, transparent);
+}
+.battle-row-epic::after {
+  height: 3px;
+  background: linear-gradient(90deg, var(--zhu), var(--gold) 55%, var(--emblem-blue));
+}
+.battle-row:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--tier-c) 75%, var(--gold));
+  box-shadow: var(--panel-shadow), 0 0 0 1px color-mix(in srgb, var(--tier-c) 55%, var(--gold-dim)), 0 14px 32px -16px color-mix(in srgb, var(--tier-c) 48%, rgba(0, 0, 0, .65));
+}
+.battle-row:hover .battle-emblem-cover img { transform: scale(1.025); }
+
+.battle-row-body {
+  flex: 1; display: flex; flex-direction: column; gap: .45rem; min-width: 0;
+  padding: .85rem 1rem .9rem;
+}
+.battle-row-ribbon {
+  display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; gap: .5rem;
+}
+.battle-row-meta {
+  display: inline-flex; flex-wrap: wrap; align-items: center; gap: .25rem .42rem; min-width: 0;
+  font-size: .8rem; color: var(--text-dim); line-height: 1.4;
+}
+.battle-row-meta time { font-family: var(--mono); font-size: .78rem; color: var(--text-faint); }
+.battle-meta-dot { color: var(--text-faint); }
+.battle-row-sys { overflow-wrap: anywhere; }
+.battle-vid-badge {
+  flex: none; padding: .08rem .46rem; border-radius: 999px;
+  font-size: .71rem; font-weight: 600; letter-spacing: .02em; white-space: nowrap;
+  color: var(--gold); background: color-mix(in srgb, var(--gold) 11%, var(--bg-sunk));
+  border: 1px solid color-mix(in srgb, var(--gold) 32%, transparent);
+}
+.battle-row-heading { margin: .05rem 0 0; font-size: inherit; }
 .battle-row-title {
-  font-family: var(--serif); font-weight: 700; font-size: 1.6rem; line-height: 1.25;
+  font-family: var(--serif); font-weight: 800; font-size: 1.28rem; line-height: 1.3;
   color: var(--text); text-decoration: none; overflow-wrap: anywhere;
 }
-.battle-row-title::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); }
+.battle-row-title::after { content: ""; position: absolute; inset: 0; z-index: 4; border-radius: 8px; }
 .battle-row:hover .battle-row-title { color: var(--gold); }
-.battle-row-meta { font-size: .85rem; color: var(--text-dim); }
-.battle-row-meta .tier { margin-right: .2rem; }
-/* 行内链接浮在整行链接之上，才点得到 */
-.battle-row .side-grid a { position: relative; z-index: 1; }
+.battle-row-epithet {
+  margin: 0; color: var(--zhu); font-family: var(--serif); font-size: .92rem; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.battle-row-foot {
+  margin-top: auto; padding-top: .35rem;
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: .45rem 1rem;
+}
+.battle-row-sides {
+  margin: 0; font-size: .82rem; line-height: 1.45; color: var(--text-dim);
+  overflow-wrap: anywhere; text-align: right; flex: 1 1 11rem;
+}
+.battle-row-sides .side-ink-1 { color: var(--zhu); font-weight: 600; }
+.battle-row-sides .side-ink-2 { color: var(--emblem-blue); font-weight: 600; }
+.battle-row-sides .vs-mark { font-style: normal; margin: 0 .32em; color: var(--text-faint); font-size: .76rem; }
 
-/* 总损失、参战人数：重头数字 */
-.battle-stats { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; margin: 0; }
+/* 桌面端：史诗战役与单数收尾卡（.is-solo）横跨整行，左图右文无留白 */
+@media (min-width: 820px) {
+  .battle-row-epic,
+  .battle-row.is-solo {
+    grid-column: 1 / -1;
+    display: grid; align-items: stretch;
+  }
+  .battle-row-epic { grid-template-columns: minmax(21rem, 46%) minmax(0, 1fr); }
+  .battle-row.is-solo { grid-template-columns: 19.5rem minmax(0, 1fr); }
+  .battle-row-epic .battle-emblem,
+  .battle-row.is-solo .battle-emblem {
+    aspect-ratio: auto; height: 100%; min-height: 11.2rem;
+    border-right: 1px solid var(--line-soft);
+  }
+  .battle-row-epic .battle-emblem { min-height: 14rem; }
+  .battle-row-epic .battle-emblem-cover img,
+  .battle-row.is-solo .battle-emblem-cover img { position: absolute; inset: 0; }
+  .battle-row-epic .battle-row-body { padding: 1.1rem 1.4rem 1.15rem; gap: .55rem; }
+  .battle-row-epic .battle-row-title { font-size: clamp(1.48rem, 2.3vw, 1.82rem); line-height: 1.24; }
+  .battle-row-epic .battle-row-epithet {
+    padding-left: .6rem; border-left: 2.5px solid var(--zhu);
+    font-size: .98rem; -webkit-line-clamp: 3;
+  }
+  .battle-row-epic .battle-stats dd { font-size: 1.85rem; }
+}
+
+/* 总损失与人数统计大数字 */
+.battle-stats { display: flex; flex-wrap: wrap; gap: .3rem 1.25rem; margin: 0; }
 .battle-stats > div { display: flex; flex-direction: column-reverse; }
-.battle-stats dt { font-size: .75rem; letter-spacing: .08em; color: var(--text-faint); }
+.battle-stats dt { font-size: .72rem; letter-spacing: .07em; color: var(--text-faint); }
 .battle-stats dd {
-  margin: 0; font-family: var(--serif); font-weight: 700; font-size: 1.7rem; line-height: 1.1;
+  margin: 0; font-family: var(--serif); font-weight: 800; font-size: 1.48rem; line-height: 1.12;
   color: var(--gold); font-variant-numeric: tabular-nums; white-space: nowrap;
 }
 .battle-stats > div:first-child dd { color: var(--zhu); }
-.battle-stats dd small { margin-left: .15em; font-family: var(--sans); font-weight: 400; font-size: .5em; color: var(--text-dim); }
+.battle-stats dd small { margin-left: .15em; font-family: var(--sans); font-weight: 500; font-size: .52em; color: var(--text-dim); }
+.battle-stats dd .isk-prefix { margin: 0 .2em 0 0; font-size: .48em; color: var(--text-dim); }
 .battle-stats dd a { color: inherit; text-decoration: none; border-bottom: 1px dashed currentColor; }
-.battle-stats-lg {
-  gap: .5rem 2.2rem; margin: 0 0 1.25rem; padding: .9rem 1.1rem;
-  background: var(--bg-raised); border: 1px solid var(--line-soft); border-radius: var(--radius);
-}
-.battle-stats-lg dd { font-size: 2.4rem; }
+.battle-stats-lg { gap: .45rem 1.85rem; margin: .25rem 0 0; }
+.battle-stats-lg dd { font-size: clamp(1.65rem, 2.8vw, 2.2rem); }
 @media (max-width: 480px) {
-  .battle-row-title { font-size: 1.35rem; }
-  .battle-stats dd { font-size: 1.4rem; }
-  .battle-stats-lg dd { font-size: 1.9rem; }
+  .battle-row-title { font-size: 1.2rem; }
+  .battle-row-sides { text-align: left; flex-basis: 100%; }
+  .battle-stats dd { font-size: 1.35rem; }
+  .battle-stats-lg { gap: .4rem 1.3rem; }
+  .battle-stats-lg dd { font-size: 1.65rem; }
 }
-.battle-row-epithet { margin: .3rem 0 0; color: var(--zhu); font-family: var(--serif); font-size: .95rem; line-height: 1.5; }
-.side-grid {
-  list-style: none; margin: .7rem 0 0; padding: 0;
-  display: grid; gap: .5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
-}
-.side-mini {
-  display: flex; flex-direction: column; gap: .05rem; min-width: 0;
-  padding: .45rem .7rem; border-left: 3px solid var(--side-c, var(--line)); border-radius: 0 4px 4px 0;
-  background: linear-gradient(90deg, color-mix(in srgb, var(--side-c, var(--line)) 12%, var(--bg-sunk)), color-mix(in srgb, var(--bg-sunk) 80%, transparent) 60%);
-  font-size: .82rem; line-height: 1.5; color: var(--text-dim);
-}
-/* 各方主色与战徽一致：第一方朱、第二方青，其余灰；只区分阵营，不表示胜负 */
-.side-mini:first-child, .side:first-child { --side-c: var(--zhu); }
-.side-mini:nth-child(2), .side:nth-child(2) { --side-c: var(--emblem-blue); }
-.side-mini-name { font-family: var(--serif); font-weight: 700; font-size: .98rem; color: var(--text); }
-.side-mini-allies { color: var(--text-faint); overflow-wrap: anywhere; }
-.side-mini-cn { color: var(--gold); }
 
-/* 详情页：相关视频（顶部紧凑列表） */
-.battle-videos { margin: 0 0 1.5rem; }
-.battle-videos h2 { margin: 0 0 .5rem; font-family: var(--serif); font-size: 1.1rem; color: var(--gold); }
-.battle-videos ul { display: grid; gap: .5rem 1rem; margin: 0; padding: 0; list-style: none; }
-@media (min-width: 760px) { .battle-videos ul { grid-template-columns: 1fr 1fr; } }
-.battle-videos li { min-width: 0; padding: .45rem .7rem; border-left: 2px solid var(--line-soft); }
-.battle-videos a { font-family: var(--serif); overflow-wrap: anywhere; }
-.battle-videos small { display: block; margin-top: .1rem; color: var(--text-faint); }
-.battle-videos p { margin: .2rem 0 0; font-size: .88rem; color: var(--text-dim); }
+/* ---------- 战役详情页：顶部导航、分屏战策舞台、拔河战损条、阵营账本 ---------- */
+.bio.battle { max-width: none; }
+.battle > .prose { max-width: var(--measure); margin-inline: auto; }
+.battle-prose h2 {
+  border-left: 4px solid var(--zhu);
+  padding: .18rem .75rem;
+  background: linear-gradient(90deg, var(--zhu-bg), transparent 85%);
+  border-radius: 0 4px 4px 0;
+}
 
-/* 详情页：每方一张卡 */
-.sides { display: grid; gap: .75rem; margin: 0 0 2rem; }
+.battle-topbar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .4rem 1rem;
+  margin-bottom: .5rem;
+}
+.page-battle .back { max-width: none; margin: 0; }
+.battle-sources { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+.battle-br-link {
+  display: inline-flex; align-items: center; gap: .2rem;
+  padding: .18rem .65rem; border-radius: 999px;
+  font-size: .8rem; font-weight: 600; text-decoration: none;
+  color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, var(--bg-raised));
+  border: 1px solid color-mix(in srgb, var(--gold) 38%, var(--line));
+}
+.battle-br-link:hover { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 18%, var(--bg-raised)); }
+
+.battle-stage {
+  --tier-c: var(--line);
+  position: relative; isolation: isolate; overflow: hidden;
+  margin: 0 0 1.85rem; border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--tier-c) 48%, var(--line));
+  background:
+    radial-gradient(ellipse 65% 50% at 6% 0%, color-mix(in srgb, var(--zhu) 12%, transparent), transparent 72%),
+    radial-gradient(ellipse 65% 55% at 96% 100%, color-mix(in srgb, var(--emblem-blue) 12%, transparent), transparent 72%),
+    var(--surface);
+  box-shadow:
+    var(--panel-shadow),
+    0 20px 44px -26px color-mix(in srgb, var(--tier-c) 45%, rgba(0, 0, 0, .8));
+}
+.battle-stage-large { --tier-c: var(--gold); }
+.battle-stage-epic { --tier-c: var(--zhu); }
+.battle-stage::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; z-index: 2; pointer-events: none;
+  background: linear-gradient(90deg, var(--zhu), var(--tier-c) 50%, var(--emblem-blue));
+}
+
+.battle-hero {
+  display: flex; flex-direction: column; gap: 1rem;
+  padding: 1rem 1rem 1.05rem;
+}
+@media (min-width: 860px) {
+  .battle-hero {
+    display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr);
+    gap: 1.4rem; align-items: center; padding: 1.3rem 1.35rem 1.2rem;
+  }
+}
+.battle-stage-media {
+  position: relative; border-radius: 7px; overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--tier-c) 42%, var(--line));
+  background: var(--bg-sunk);
+  box-shadow: 0 14px 32px -18px rgba(0, 0, 0, .78);
+}
+.battle-stage-head { display: flex; flex-direction: column; gap: .5rem; min-width: 0; }
+.battle-eyebrow {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .32rem .55rem;
+  font-size: .84rem; color: var(--text-dim);
+}
+.battle-date { font-family: var(--mono); font-size: .82rem; color: var(--text-dim); }
+.battle-eyebrow-sep { color: var(--text-faint); }
+.battle-systems a { font-weight: 600; text-decoration-style: dashed; }
+.battle-stage .bio-name {
+  font-size: clamp(1.55rem, 3.1vw, 2.2rem); line-height: 1.22; letter-spacing: .04em;
+}
+.battle-stage .bio-aliases { margin: -.1rem 0 0; font-size: .84rem; }
+.battle-stage .epithet {
+  margin: .1rem 0 0; padding: .34rem .7rem; border-radius: 0 4px 4px 0;
+  border-left: 3px solid var(--zhu);
+  background: linear-gradient(90deg, var(--zhu-bg), transparent 92%);
+  font-size: .98rem; font-weight: 700; line-height: 1.48;
+}
+.battle-taxonomy { margin-top: .2rem; padding-top: .5rem; border-top: 1px dashed var(--line-soft); }
+.chip-alliance { font-family: var(--mono); font-size: .78rem; }
+
+/* 中腰：全场战损拔河对比横条 */
+.battle-clash {
+  padding: .7rem 1.35rem .8rem;
+  background: color-mix(in srgb, var(--bg-sunk) 65%, transparent);
+  border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);
+}
+.battle-clash-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .3rem .8rem;
+  margin-bottom: .42rem; font-size: .8rem;
+}
+.clash-multi-list { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .9rem; }
+.clash-label {
+  display: inline-flex; align-items: center; gap: .38rem; min-width: 0;
+  font-weight: 600; color: var(--text-dim);
+}
+.clash-label i {
+  flex: none; width: .5rem; height: .5rem; border-radius: 2px;
+  background: var(--text-faint); transform: skewX(-12deg);
+}
+.clash-label strong { font-family: var(--mono); font-size: .84rem; font-variant-numeric: tabular-nums; }
+.clash-label-1 { color: var(--zhu); }
+.clash-label-1 i { background: var(--zhu); }
+.clash-label-2 { color: var(--emblem-blue); }
+.clash-label-2 i { background: var(--emblem-blue); }
+.clash-name { overflow-wrap: anywhere; }
+.clash-center { font-size: .76rem; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) {
+  .battle-clash { padding: .65rem .95rem .75rem; }
+  .battle-clash-head.is-duel .clash-center { order: -1; flex-basis: 100%; }
+}
+
+/* 下半部：交战各方对称账本 */
+.side:first-child { --side-c: var(--zhu); }
+.side:nth-child(2) { --side-c: var(--emblem-blue); }
+
+.sides {
+  display: grid; gap: .9rem; margin: 0; padding: 1rem 1.35rem 1.25rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 720px) {
+  .sides { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* 三方参战时，前两方主战阵营左右对峙，第三方横跨底栏，杜绝右下角半屏空白 */
+  .sides-count-3 > .side:nth-child(3) { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .sides { padding: .9rem .95rem 1rem; }
+}
+
 .side {
-  min-width: 0; padding: .8rem 1rem .9rem;
-  border: 1px solid var(--line-soft); border-left: 3px solid var(--side-c, var(--line)); border-radius: var(--radius);
-  background: var(--bg-raised);
+  min-width: 0; padding: .9rem 1.05rem .95rem;
+  border: 1px solid color-mix(in srgb, var(--side-c, var(--line)) 30%, var(--line-soft));
+  border-top: 3px solid var(--side-c, var(--line));
+  border-radius: 7px;
 }
-.side-name { margin: 0; font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; }
-.side-stats { margin: .65rem 0 0; flex-wrap: wrap; }
-.side-stats dd { font-size: 1.3rem; }
+.side-head { display: flex; align-items: center; gap: .6rem; min-width: 0; }
+.side-crest {
+  flex: none; display: grid; place-items: center; width: 2.15rem; height: 2.15rem; padding: 3px;
+  border-radius: 5px; background: var(--emblem-plate);
+  border: 1px solid color-mix(in srgb, var(--side-c, var(--line)) 50%, var(--line));
+}
+.side-crest img { width: 100%; height: 100%; object-fit: contain; }
+.side-name { margin: 0; font-family: var(--serif); font-size: 1.14rem; font-weight: 800; line-height: 1.3; overflow-wrap: anywhere; }
+.side-stats { margin: .65rem 0 0; flex-wrap: wrap; gap: .3rem 1.35rem; }
+.side-stats dd { font-size: 1.32rem; }
 .side-stats > div:first-child dd { color: var(--gold); }
-.side-stats > div:nth-child(2) dd { color: var(--zhu); }
-.side-note { margin: .4rem 0 0; font-size: .88rem; color: var(--text-dim); }
-.side-bar { display: block; height: 4px; margin: .45rem 0 .2rem; background: var(--bg-sunk); border-radius: 2px; overflow: hidden; }
+.side-stats > .side-stat-loss dd { color: var(--side-c, var(--text)); }
+.side-stats > div:nth-child(3) dd { color: var(--text); }
+.side-note { margin: .45rem 0 0; font-size: .85rem; color: var(--text-dim); }
+.side-bar {
+  display: block; height: 5px; margin: .55rem 0 .25rem;
+  background: color-mix(in srgb, var(--bg-sunk) 85%, transparent);
+  border-radius: 2px; overflow: hidden; transform: skewX(-12deg);
+}
 .side-bar > span { display: block; height: 100%; min-width: 2px; background: var(--side-c, var(--text-faint)); }
-.side-facts { display: grid; gap: .45rem; margin: .6rem 0 0; font-size: .88rem; }
-.side-facts > div { display: grid; grid-template-columns: 4.5em 1fr; gap: .6rem; align-items: baseline; }
-.side-facts dt { color: var(--text-faint); }
+
+.side-facts {
+  display: grid; gap: .45rem; margin: .65rem 0 0; padding-top: .55rem;
+  border-top: 1px dashed var(--line-soft); font-size: .86rem;
+}
+.side-facts > div { display: grid; grid-template-columns: 4.6em 1fr; gap: .55rem; align-items: center; }
+.side-facts dt { color: var(--text-faint); font-size: .8rem; letter-spacing: .03em; }
 .side-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; color: var(--text-dim); }
-.corp-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .1rem .9rem; }
-/* 与标签栏一样按实际溢出折叠；无 JS 时保留完整名单。 */
-.battle-list-wrap { display: flex; align-items: flex-start; gap: .5rem; }
-.battle-list-wrap .tag-more { margin-top: 0; }
+
+/* 与列传页共用：名单超过一行时按实际高度折叠，无 JS 时完整可读 */
+.battle-list-wrap { display: flex; align-items: flex-start; gap: .45rem; }
+.battle-list-wrap .tag-more { margin-top: 0; height: 1.8rem; font-size: .8rem; padding: 0 .6rem; }
 .battle-list {
   flex: 1; min-width: 0; list-style: none; margin: 0; padding: 0;
-  display: flex; flex-wrap: wrap; gap: .4rem .9rem;
+  display: flex; flex-wrap: wrap; gap: .38rem .45rem;
 }
-.battle-list > li { display: flex; align-items: center; height: 1.9rem; min-width: 0; max-width: 100%; }
+.battle-list > li { display: flex; align-items: center; height: 1.8rem; min-width: 0; max-width: 100%; }
 .battle-list > li > a { overflow-wrap: anywhere; }
-.battle-list .chip { height: 1.9rem; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.battle-list .chip { height: 1.8rem; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: .82rem; }
 .battle-list .chip > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .battle-list .chip > small { flex: none; }
-.battle-list-wrap.is-collapsed .battle-list { max-height: 1.9rem; overflow: hidden; }
-.corp-list small { margin-left: .3em; font-family: var(--mono); font-size: .78rem; color: var(--text-faint); }
+.battle-list-wrap.is-collapsed .battle-list { max-height: 1.8rem; overflow: hidden; }
+
+.chip-person {
+  color: var(--gold); font-weight: 600;
+  background: color-mix(in srgb, var(--gold) 10%, var(--bg-sunk));
+  border-color: color-mix(in srgb, var(--gold) 48%, var(--line));
+}
+.chip-person:hover { background: color-mix(in srgb, var(--gold) 18%, var(--bg-sunk)); border-color: var(--gold); }
+
+.battle-org-pill {
+  display: inline-flex; align-items: center; gap: .32rem; height: 1.8rem; max-width: 100%;
+  padding: 0 .52rem; border-radius: 4px; white-space: nowrap; overflow: hidden;
+  background: color-mix(in srgb, var(--bg-sunk) 75%, transparent);
+  border: 1px solid var(--line); font-family: var(--mono); font-size: .79rem;
+}
+.battle-org-pill a {
+  color: var(--text); text-decoration: none; overflow: hidden; text-overflow: ellipsis;
+}
+.battle-org-pill a:hover { color: var(--gold); }
+.battle-org-pill.is-corp {
+  border-color: color-mix(in srgb, var(--side-c, var(--gold-dim)) 42%, var(--line));
+  background: color-mix(in srgb, var(--side-c, var(--gold)) 8%, var(--bg-sunk));
+}
+.battle-org-pill small {
+  flex: none; padding: 0 .3rem; border-radius: 3px; line-height: 1.35;
+  font-size: .72rem; font-weight: 700; color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 14%, var(--bg));
+}
 @media (max-width: 480px) {
-  .side-facts > div { grid-template-columns: 1fr; gap: .1rem; }
+  .side-facts > div { grid-template-columns: 1fr; gap: .2rem; align-items: flex-start; }
 }
 
-/* ---------- 质感层：面板立体、装裱、标题墨色、战役水印与刀口 ---------- */
+/* ---------- 战役详情页：自适应多视角战地实录台（置于正文前） ---------- */
+.battle-videos { margin: 0 0 2.1rem; }
+.battle-videos-bar {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .75rem;
+  margin-bottom: .75rem;
+}
+.battle-videos-bar h2 {
+  margin: 0; font-family: var(--serif); font-size: 1.2rem; font-weight: 800;
+  letter-spacing: .06em; color: var(--gold);
+}
+.battle-videos-sub { font-size: .8rem; color: var(--text-faint); }
+.battle-videos-bar::after {
+  content: ""; flex: 1 1 6rem; height: 1px; align-self: center;
+  background: linear-gradient(90deg, var(--line), transparent);
+}
+
+.pov-grid { display: grid; gap: .8rem; grid-template-columns: minmax(0, 1fr); }
+.pov-stack { display: grid; gap: .8rem; grid-template-columns: minmax(0, 1fr); }
+.pov-card {
+  position: relative; min-width: 0; padding: .85rem 1rem .9rem; border-radius: 8px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: .45rem;
+  background: var(--surface); border: 1px solid var(--line-soft); box-shadow: var(--panel-shadow);
+  transition: border-color .16s ease, transform .16s ease;
+}
+.pov-card:hover { border-color: var(--gold-dim); transform: translateY(-1px); }
+.pov-card-lead {
+  border-color: color-mix(in srgb, var(--gold-dim) 55%, var(--line));
+  background:
+    radial-gradient(ellipse 80% 65% at 0% 0%, color-mix(in srgb, var(--gold) 9%, transparent), transparent 72%),
+    var(--surface);
+}
+.pov-head { display: flex; flex-direction: column; gap: .32rem; min-width: 0; }
+.pov-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .48rem; font-size: .76rem; }
+.pov-index {
+  padding: .05rem .38rem; border-radius: 3px;
+  font-family: var(--mono); font-size: .7rem; font-weight: 700; letter-spacing: .04em;
+  color: var(--gold); background: color-mix(in srgb, var(--gold) 13%, var(--bg-sunk));
+  border: 1px solid color-mix(in srgb, var(--gold) 32%, transparent);
+}
+.pov-platform {
+  padding: .05rem .38rem; border-radius: 3px; font-size: .7rem; font-weight: 700;
+}
+.pov-platform.is-bili {
+  color: var(--term-link); background: color-mix(in srgb, var(--term-link) 12%, var(--bg-sunk));
+}
+.pov-platform.is-yt {
+  color: var(--zhu); background: var(--zhu-bg);
+}
+.pov-author { color: var(--text-dim); font-weight: 600; overflow-wrap: anywhere; }
+.pov-title { margin: 0; font-family: var(--serif); font-size: 1.04rem; font-weight: 700; line-height: 1.4; }
+.pov-card-lead .pov-title { font-size: 1.16rem; }
+.pov-link { color: var(--text); text-decoration: none; overflow-wrap: anywhere; }
+.pov-link::after { content: ""; position: absolute; inset: 0; border-radius: 8px; }
+.pov-card:hover .pov-link { color: var(--gold); }
+.pov-ext { font-family: var(--sans); font-size: .85em; color: var(--gold-dim); }
+.pov-desc { margin: 0; font-size: .86rem; line-height: 1.6; color: var(--text-dim); overflow-wrap: anywhere; }
+
+@media (min-width: 720px) {
+  /* 单部视频：横贯聚光灯双栏卡，右侧作导读摘录，消除大块留白 */
+  .pov-grid-1 .pov-card-lead {
+    display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+    gap: 1.25rem; align-items: center; padding: 1.05rem 1.25rem;
+  }
+  .pov-grid-1 .pov-desc {
+    padding-left: 1.1rem; border-left: 2px solid color-mix(in srgb, var(--gold-dim) 45%, var(--line));
+  }
+  /* 两部视频：等高对称双栏 */
+  .pov-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 820px) {
+  /* 三部及以上：左主推 POV 01 + 右侧双层叠放 POV 02/03 */
+  .pov-grid-bento {
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+    align-items: stretch;
+  }
+  .pov-grid-bento > .pov-card-lead { padding: 1.1rem 1.25rem; justify-content: flex-start; gap: .65rem; }
+  .pov-grid-bento > .pov-card-lead .pov-title { font-size: 1.22rem; }
+  .pov-stack { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+}
+
+.pov-more-grid {
+  margin-top: .8rem; display: grid; gap: .8rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 720px) {
+  .pov-more-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.pov-more-btn {
+  display: block; width: 100%; margin-top: .65rem; padding: .52rem 1rem;
+  border-radius: 6px; border: 1px dashed color-mix(in srgb, var(--gold-dim) 70%, var(--line));
+  background: color-mix(in srgb, var(--bg-raised) 72%, transparent);
+  color: var(--gold); font: 600 .86rem var(--sans); letter-spacing: .04em; cursor: pointer;
+}
+.pov-more-btn:hover {
+  border-style: solid; border-color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 12%, var(--bg-raised));
+}
+
+/* ---------- 质感层：面板立体、装裱、标题墨色 ---------- */
 .site-header { border-image: linear-gradient(90deg, transparent, var(--gold-dim) 20%, var(--gold-dim) 80%, transparent) 1; }
 .brand-seal {
   box-shadow: inset 0 0 0 2px var(--zhu), inset 0 0 0 3px rgba(255, 255, 255, .55);
@@ -707,60 +1870,47 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   content: ""; display: block; width: 7rem; height: 2px; margin-top: .45rem;
   background: linear-gradient(90deg, var(--zhu) 0 1.6rem, var(--gold-dim) 1.6rem, transparent);
 }
-.card a, .bio-facts, .pager a, .battle-row, .battle-stats-lg, .side {
+.card a, .bio-facts, .pager a, .side {
   background: var(--surface); box-shadow: var(--panel-shadow);
 }
-.card a, .battle-row { transition: border-color .15s, transform .15s, box-shadow .15s; }
-.card a:hover, .battle-row:hover {
+.card a { transition: border-color .15s, transform .15s, box-shadow .15s; }
+.card a:hover {
   box-shadow: var(--panel-shadow), 0 0 0 1px var(--gold-dim), 0 8px 28px -14px color-mix(in srgb, var(--gold) 45%, transparent);
 }
 .battle-stats dd { text-shadow: 0 0 .7em color-mix(in srgb, currentColor var(--num-glow), transparent); }
 /* 装裱：细线、留白、金边一圈 */
-.portrait-lg, .battle-emblem-large {
+.portrait-lg {
   box-shadow: 0 0 0 1px var(--line), 0 0 0 4px var(--bg), 0 0 0 5px var(--gold-dim), 0 16px 32px -16px rgba(0, 0, 0, .7);
 }
-.bio-head .portrait-lg, .battle-head .battle-emblem-large { margin: 5px; }
+.bio-head .portrait-lg { margin: 5px; }
 
-/* 战役目录行：右侧两方主标虚化成水印，顶边一道档位色 */
-.battle-row { --tier-c: var(--line); isolation: isolate; overflow: hidden; }
-.battle-row-epic { --tier-c: var(--zhu); }
-.battle-row-large { --tier-c: var(--gold); }
-.battle-row::before, .battle-row::after { content: ""; position: absolute; pointer-events: none; }
-.battle-row::before {
-  inset: 0; z-index: -1; border-radius: inherit; opacity: .1;
-  background: var(--wm1, none) no-repeat right 150px center / 200px, var(--wm2, none) no-repeat right -30px center / 200px;
-  filter: blur(1.5px) saturate(.6);
-  -webkit-mask-image: linear-gradient(90deg, transparent 35%, #000 90%); mask-image: linear-gradient(90deg, transparent 35%, #000 90%);
+/* 各方损失占比：斜切拔河能量条，颜色同各方，只分阵营不表胜负 */
+.loss-bar {
+  display: flex; flex: none; gap: 3px; height: 5px; margin: .15rem 0 0;
+  border-radius: 2px; overflow: hidden; background: var(--bg-sunk); transform: skewX(-12deg);
 }
-.battle-row::after {
-  left: 0; right: 0; top: 0; height: 2px;
-  background: linear-gradient(90deg, var(--tier-c), color-mix(in srgb, var(--tier-c) 30%, transparent) 60%, transparent);
+.loss-bar-stage { height: 8px; border-radius: 3px; }
+.loss-bar > span {
+  flex-basis: 0; min-width: 3px; opacity: .65;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .22), transparent 60%), var(--text-faint);
 }
-.battle-row-epic { background: radial-gradient(ellipse 60% 90% at 0 0, var(--glow-zhu), transparent 70%), var(--surface); }
-/* 各方损失占比：一条细带，颜色同各方 */
-.loss-bar { display: flex; gap: 2px; height: 3px; margin: .65rem 0 0; border-radius: 2px; overflow: hidden; }
-.loss-bar > span { flex-basis: 0; min-width: 3px; background: var(--text-faint); opacity: .5; }
-.loss-bar > .loss-bar-1 { background: var(--zhu); opacity: 1; }
-.loss-bar > .loss-bar-2 { background: var(--emblem-blue); opacity: 1; }
-.loss-bar + .side-grid { margin-top: .5rem; }
+.loss-bar > .loss-bar-1 {
+  opacity: 1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .26), transparent 60%), var(--zhu);
+}
+.loss-bar > .loss-bar-2 {
+  opacity: 1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .26), transparent 60%), var(--emblem-blue);
+}
 
-/* 战役页头：两方主标大水印，四周淡出 */
-.battle-head { position: relative; isolation: isolate; }
-.battle-head::before {
-  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: .12;
-  background: var(--wm1, none) no-repeat 38% 50% / auto 180%, var(--wm2, none) no-repeat 96% 50% / auto 180%;
-  filter: blur(3px) saturate(.6);
-  -webkit-mask-image: radial-gradient(closest-side at 65% 50%, #000 25%, transparent);
-  mask-image: radial-gradient(closest-side at 65% 50%, #000 25%, transparent);
-}
 /* 大数字之间加竖线 */
 .battle-stats-lg > div + div { position: relative; }
 .battle-stats-lg > div + div::before {
-  content: ""; position: absolute; left: -1.1rem; top: 15%; bottom: 15%; width: 1px;
+  content: ""; position: absolute; left: -.92rem; top: 15%; bottom: 15%; width: 1px;
   background: linear-gradient(180deg, transparent, var(--line), transparent);
 }
-@media (max-width: 520px) {
-  .battle-row::before { background-size: 140px; background-position: right 90px center, right -20px center; }
+@media (max-width: 480px) {
+  .battle-stats-lg > div + div::before { left: -.65rem; }
 }
 
 /* ---------- 搜索页（Pagefind UI 主题） ---------- */
@@ -782,11 +1932,3 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
-
-/* 战役标签按维度分行，长联盟列表独立折叠。 */
-.battle-tag-filters { margin-top: 1rem; }
-.battle-tag-filters > .chip { font: inherit; background: transparent; cursor: pointer; }
-.battle-tag-filters > .chip.is-active { background: var(--gold); color: var(--bg); }
-.battle-tag-group { display: flex; align-items: baseline; gap: .75rem; margin-top: .5rem; }
-.battle-tag-heading { flex: 0 0 4em; color: var(--text-dim); font-size: .88rem; }
-.battle-tag-group .tag-wrap { flex: 1; min-width: 0; margin-top: 0; }

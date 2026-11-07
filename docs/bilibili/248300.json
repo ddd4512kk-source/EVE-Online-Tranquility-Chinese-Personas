@@ -22,28 +22,221 @@
     "next": "沿已知UID按具体调查需要定向核对空间与作品，不重跑搜索，不读取影像、音轨或字幕。"
   },
   "channel": {
-    "profile": {},
+    "profile": {
+      "captured_at": "2026-11-07T11:45:00.000Z",
+      "signature": "永不停止思考 群：437685746",
+      "counters": {
+        "followers": "393",
+        "videos": "28"
+      },
+      "source": "https://space.bilibili.com/248300/upload/video"
+    },
     "coverage": {
       "latest": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "空间公开投稿中28条投稿中排除科技随笔与影评等3条非EVE内容，已收录25条EVE相关候选已存channel.listings；未逐项读取作品页。",
+        "evidence": "https://space.bilibili.com/248300/upload/video"
       },
       "popular": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-11-07T11:45:00.000Z",
+        "scope": "公开投稿列表（含播放量）已存channel.listings；按全量列表播放数排序代替；未读其余作品页。",
+        "evidence": "https://space.bilibili.com/248300/upload/video"
       },
       "series": {
         "state": "unknown",
         "observed_at": null,
-        "scope": "旧搜索只见标题，尚未读取空间及该排序；不据此重新扫描。",
+        "scope": "未读合集页；EVE投稿已包含在公开列表中。",
         "evidence": null
       }
     },
-    "prior_notes": []
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-11-07T11:45:00.000Z",
+        "source": "https://space.bilibili.com/248300/upload/video",
+        "scope": "公开投稿列表筛选收录25条EVE相关视频：标题、发布日、当时播放；未逐项读取作品页简介、署名与评论。按播放排序即最多播放，按日期即最新发布。",
+        "candidates": [
+          {
+            "bvid": "BV1XET3zsE6Y",
+            "title": "【EVE】KDS宽带山欧服 联盟提交补损教学",
+            "url": "https://www.bilibili.com/video/BV1XET3zsE6Y/",
+            "published": "2025-06-06",
+            "views": 473
+          },
+          {
+            "bvid": "BV1Cy411i7tX",
+            "title": "【EVE】轻拦截击教学2",
+            "url": "https://www.bilibili.com/video/BV1Cy411i7tX/",
+            "published": "2024-07-25",
+            "views": 1129
+          },
+          {
+            "bvid": "BV1Dw4m1k7bd",
+            "title": "【EVE】轻拦截击教学1",
+            "url": "https://www.bilibili.com/video/BV1Dw4m1k7bd/",
+            "published": "2024-07-25",
+            "views": 862
+          },
+          {
+            "bvid": "BV15c411v71q",
+            "title": "【EVE】KDS宽带山欧服成立3周年阅兵庆典",
+            "url": "https://www.bilibili.com/video/BV15c411v71q/",
+            "published": "2024-01-26",
+            "views": 2210
+          },
+          {
+            "bvid": "BV1f94y1w7ZC",
+            "title": "【EVE】KDS军团-超级旗舰剿灭无畏作战",
+            "url": "https://www.bilibili.com/video/BV1f94y1w7ZC/",
+            "published": "2023-12-27",
+            "views": 1888
+          },
+          {
+            "bvid": "BV1E14y117nh",
+            "title": "【EVE】 欧服 KDS 截击轻拦教学",
+            "url": "https://www.bilibili.com/video/BV1E14y117nh/",
+            "published": "2023-08-22",
+            "views": 2015
+          },
+          {
+            "bvid": "BV1QS4y1D7CJ",
+            "title": "【EVE】【KDS】双开寒鸦刷黑暗4级深渊教程",
+            "url": "https://www.bilibili.com/video/BV1QS4y1D7CJ/",
+            "published": "2021-12-05",
+            "views": 2477
+          },
+          {
+            "bvid": "BV1xv411M7R5",
+            "title": "【EVE】欧服 小米刷萨沙怪教学",
+            "url": "https://www.bilibili.com/video/BV1xv411M7R5/",
+            "published": "2021-11-07",
+            "views": 1304
+          },
+          {
+            "bvid": "BV1uB4y1A7rd",
+            "title": "【EVE】欧服宽带山炸弹实践炸集会点教学视频",
+            "url": "https://www.bilibili.com/video/BV1uB4y1A7rd/",
+            "published": "2021-04-11",
+            "views": 4291
+          },
+          {
+            "bvid": "BV1qV411b7G9",
+            "title": "【EVE】KDS军团-多开器和预警软件教学",
+            "url": "https://www.bilibili.com/video/BV1qV411b7G9/",
+            "published": "2020-12-24",
+            "views": 15737
+          },
+          {
+            "bvid": "BV1mC4y1W7Qd",
+            "title": "【EVE】KDS军团-天使6-10远征天使矿物采集哨站教学",
+            "url": "https://www.bilibili.com/video/BV1mC4y1W7Qd/",
+            "published": "2020-05-03",
+            "views": 2542
+          },
+          {
+            "bvid": "BV15Q4y1K7SK",
+            "title": "【EVE】KDS军团-EVE各大种族舰船简单介绍_初级",
+            "url": "https://www.bilibili.com/video/BV15Q4y1K7SK/",
+            "published": "2020-04-11",
+            "views": 459
+          },
+          {
+            "bvid": "BV1YK4y1r76k",
+            "title": "EVE】KDS军团-EVE武器系统介绍_初级",
+            "url": "https://www.bilibili.com/video/BV1YK4y1r76k/",
+            "published": "2020-04-09",
+            "views": 283
+          },
+          {
+            "bvid": "BV1Bc411h7fd",
+            "title": "【EVE】KDS军团-电容器面板及战术视图教学",
+            "url": "https://www.bilibili.com/video/BV1Bc411h7fd/",
+            "published": "2020-04-08",
+            "views": 592
+          },
+          {
+            "bvid": "BV1Yp4y1C7HZ",
+            "title": "【EVE】KDS军团-游戏左边栏快捷按钮小技巧教学集合",
+            "url": "https://www.bilibili.com/video/BV1Yp4y1C7HZ/",
+            "published": "2020-04-08",
+            "views": 417
+          },
+          {
+            "bvid": "BV1G5411t7gk",
+            "title": "【EVE】KDS军团-挂垃圾合同教程",
+            "url": "https://www.bilibili.com/video/BV1G5411t7gk/",
+            "published": "2020-04-08",
+            "views": 759
+          },
+          {
+            "bvid": "BV1U7411d7H8",
+            "title": "【EVE】KDS军团-舰队面板教学",
+            "url": "https://www.bilibili.com/video/BV1U7411d7H8/",
+            "published": "2020-03-18",
+            "views": 215
+          },
+          {
+            "bvid": "BV1oE411T7hn",
+            "title": "【EVE】KDS军团-行星开发P1补充教程",
+            "url": "https://www.bilibili.com/video/BV1oE411T7hn/",
+            "published": "2020-03-10",
+            "views": 198
+          },
+          {
+            "bvid": "BV1oE411W7QU",
+            "title": "【EVE】KDS军团-新人打捞教程",
+            "url": "https://www.bilibili.com/video/BV1oE411W7QU/",
+            "published": "2020-03-06",
+            "views": 1545
+          },
+          {
+            "bvid": "BV1oE411W7Fa",
+            "title": "【EVE】KDS军团-入团教程",
+            "url": "https://www.bilibili.com/video/BV1oE411W7Fa/",
+            "published": "2020-03-06",
+            "views": 596
+          },
+          {
+            "bvid": "BV1KE411W7Nd",
+            "title": "【EVE】KDS军团-P1行星开发基础教程",
+            "url": "https://www.bilibili.com/video/BV1KE411W7Nd/",
+            "published": "2020-03-05",
+            "views": 476
+          },
+          {
+            "bvid": "BV1KE411W7LK",
+            "title": "【EVE】KDS军团-作战船只介绍",
+            "url": "https://www.bilibili.com/video/BV1KE411W7LK/",
+            "published": "2020-03-05",
+            "views": 368
+          },
+          {
+            "bvid": "BV1VE411W7QL",
+            "title": "【EVE】KDS军团-新人假隐跳教学",
+            "url": "https://www.bilibili.com/video/BV1VE411W7QL/",
+            "published": "2020-03-05",
+            "views": 848
+          },
+          {
+            "bvid": "BV1KE411W7Me",
+            "title": "【EVE】KDS军团-联盟快递教学",
+            "url": "https://www.bilibili.com/video/BV1KE411W7Me/",
+            "published": "2020-03-05",
+            "views": 666
+          },
+          {
+            "bvid": "BV1VE411W7kj",
+            "title": "【EVE】KDS军团-新人毒蜥刷天使集会点教学视频",
+            "url": "https://www.bilibili.com/video/BV1VE411W7kj/",
+            "published": "2020-03-05",
+            "views": 2060
+          }
+        ]
+      }
+    ]
   },
   "videos": []
 }

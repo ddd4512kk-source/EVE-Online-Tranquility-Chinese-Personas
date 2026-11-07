@@ -13,7 +13,6 @@ import {
   formatIsk,
   orgIds,
   peopleIndex,
-  sideStats,
   statsOf,
   tierOf,
   toYmd,
@@ -97,12 +96,6 @@ test('分方统计不可由全场总计替代，缺项须显式声明并保留�
   assert.ok(withSide({ loss_count: -1 }).some(e => /loss_count 必须是非负整数/.test(e)));
   assert.ok(withSide({ loss_count: 1.5 }).some(e => /loss_count 必须是非负整数/.test(e)));
   assert.ok(withSide({ stats_note: ' ' }).some(e => /stats_note 必须是非空字符串/.test(e)));
-});
-
-test('分方显示保留未知项，零损失显示为零', () => {
-  assert.equal(sideStats({ pilots: 100, loss: 0, loss_count: 0 }), '参战 100 人 · 损失 0B · 损失记录 0 条');
-  assert.equal(sideStats({}), '参战人数待补 · 损失金额待补 · 损失计数待补');
-  assert.match(sideStats({ pilots: 20, loss: 1500, note: '折损泰坦' }), /参战 20 人 · 损失 1.5T · 损失计数待补 · 折损泰坦/);
 });
 
 test('正文块沿用列传规则', () => {
@@ -339,6 +332,26 @@ test('战役视频可选，最多8项，必须为完整B站视频且不重复', 
   for (const key of ['title', 'author', 'description']) assert.ok(check({ videos: [{ ...video, [key]: ' ' }] }).some(e => e.includes(key)));
   for (const videos of ['video', [null], ['video']]) assert.ok(check({ videos }).length);
   assert.ok(check({ videos: [{ ...video, typo: 'x' }] }).some(e => /未知字段/.test(e)));
+});
+
+test('战役头图须取自本场视频', () => {
+  const video = { title: '本场复盘', url: 'https://www.bilibili.com/video/BV1UK4y1H7XT/', author: 'UP', description: '本场撤离视角。' };
+  assert.deepEqual(check({ videos: [video], cover: video.url }), []);
+  assert.ok(check({ cover: video.url }).some(e => /cover 必须/.test(e)));
+  for (const cover of ['https://www.bilibili.com/video/BV0000000000/', { video: video.url }]) assert.ok(check({ videos: [video], cover }).some(e => /cover 必须/.test(e)));
+});
+
+test('头图改字：抹字矩形与新文字须合规，且不得重复页面标题', () => {
+  const video = { title: '本场复盘', url: 'https://www.bilibili.com/video/BV1UK4y1H7XT/', author: 'UP', description: '本场撤离视角。' };
+  const base = { videos: [video], cover: video.url, epithet: '来救铁壁，先救自己' };
+  const coverEdit = { erase: [[20, 270, 520, 250]], lines: [{ text: 'BOSS的阿拉莫', size: 96, x: 40, y: 395 }] };
+  assert.deepEqual(check({ ...base, coverEdit }), []);
+  assert.ok(check({ videos: [video], coverEdit }).some(e => /需要先配置 cover/.test(e)));
+  assert.ok(check({ ...base, coverEdit: { erase: [[1, 2, 3]] } }).some(e => /erase/.test(e)));
+  assert.ok(check({ ...base, coverEdit: { lines: [{ text: '来救铁壁，先救自己', size: 60, x: 0, y: 0 }] } }).some(e => /副标题重复/.test(e)));
+  assert.ok(check({ ...base, coverEdit: { lines: [{ text: '', size: 60, x: 0, y: 0 }] } }).some(e => /1—24 字/.test(e)));
+  assert.ok(check({ ...base, coverEdit: { lines: [{ text: '可以', size: 5, x: 0, y: 0 }] } }).some(e => /size/.test(e)));
+  assert.ok(check({ ...base, coverEdit: { extra: 1 } }).some(e => /不认识字段/.test(e)));
 });
 
 test('完整组织归方覆盖默认分队和交火，数字与人物同步且不增加主要联盟展示', () => {

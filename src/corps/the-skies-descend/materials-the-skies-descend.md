@@ -1,0 +1,14 @@
+# 天降 / The Skies Descend
+
+军团 ID 98799349。快照见同名 JSON。
+
+## 军团沿革
+- ESI：The Skies Descend [CYCIE]，2025-03-20 立团，CEO Cat's Shining，联盟 Snuffed Out，198 人。
+- zKB：击杀 1.38 万，最近 2026-11。
+- 素材：cheryl-astelir（折纸、ESI 4 月 30 日挂进 BBC/Snuffed Out）；bingxuan-123（609 个角色离开星尘守护）；l-nex；战役 obe-2026；dingdapao001、july-karin 线索。
+- 团内列传人物：折纸（2025-04 起）、少侠（2025-03 起）。
+- 贴吧 8506530124（2023-07）《欧服现在有哪些能打的华人FC？》：len困娇喘推荐“折纸和纸条都很强”，LQDYJCJY 列跟过的指挥。
+- 折纸教学：2022《导弹机制（翻译+仿真）》补充；2023《轻拦手册》（forums.winterco.org/t/topic/22473）；2024《隱轟投彈完全教學》图示（出处 src/people/cheryl-astelir）。
+- 2025-04 底贴吧 9665116867 欢迎词把折纸、丁大炮迎进 Snuffed Out；ESI 4-30 挂进 BBC。
+- 少侠 2025-06《首批天使无畏已交付》（BV1oTT8zyE4z）简介署“舰船制造by Cheryl Astelir”。
+- 欧贝 2026-10-10：折纸主号执政官，少侠主号神示级海军型（战役 obe-2026）。

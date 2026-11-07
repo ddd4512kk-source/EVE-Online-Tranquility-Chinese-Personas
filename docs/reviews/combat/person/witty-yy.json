@@ -1,0 +1,102 @@
+{
+  "status": "reviewed",
+  "note": "逐项核读，草稿登记",
+  "evidence": [
+    "src/people/witty-yy/materials-witty-yy.md",
+    "src/people/witty-yy/witty-yy.md",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号 Witty Yy zKill 击毁 6213、损失 78、ISK 1.73T，2026-10 单月击毁 541／损失 5，大舰击毁 48；正文开篇与“一人三号”块的数字与素材一致，定位为高频、低损的主力输出号，未夸大职责。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/materials-witty-yy.md",
+          "heading": "## 身份与小号"
+        },
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "歪歪的三个号都叫 Yy，"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Saucy Yy（ID 差 82、同头衔、本人自述）与 Niubility Yy（同军团同头衔）归同人；三号击毁合计约 11189、损失 631，正文逐号列数且以击毁最多的 Witty Yy 为收录号，未把小号战绩算到主号名下。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/materials-witty-yy.md",
+          "heading": "## 身份与小号"
+        },
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "歪歪的三个号都叫 Yy，"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "具体可查的峰值只有 2026-10 单月 541 击毁与 2026-11-06 ZZ-ZWC 乌鸦队 82 击毁；两者都在素材有数，正文写法止于数字，不另造职责。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/materials-witty-yy.md",
+          "heading": "## 身份与小号"
+        },
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "2026 年 11 月 "
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "仅 ZZ-ZWC（2026-11-06）一场：Saucy Yy 乌鸦 82 击毁、无损失，Witty Yy 本场 0；战役页与正文说法一致，主号与小号的分工没有混淆。",
+      "evidence": [
+        {
+          "file": "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md",
+          "contains": "人物本场：Saucy Yy（2115635875）乌鸦 82 次击毁"
+        },
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "2026 年 11 月 "
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "“一人三号”为独立战绩块，逐号给击毁／损失并有“扎实”的综合点评；乌鸦队块把战绩落在具体一夜；开篇只是概括数字，不替代战绩块。",
+      "evidence": [
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "歪歪的三个号都叫 Yy，"
+        },
+        {
+          "file": "src/people/witty-yy/witty-yy.md",
+          "contains": "2026 年 11 月 "
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md",
+    "src/people/witty-yy/2115635957-id.json",
+    "src/people/witty-yy/materials-witty-yy.md",
+    "src/people/witty-yy/witty-yy.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md"
+  ],
+  "inputs": "1bd21d65e36baa81f23e147472d070fb6d83861614f2f1065454d3772a59ad2c",
+  "inputParts": {
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.md": "0c1c9fddafdaa3861f4f0ddeb0b70d77c447905d48f7d124944c09ca0e75c7c1",
+    "src/people/witty-yy/2115635957-id.json": "78839ce5708ef230040a6fed69311c34ea02914f6e3f62395cf65b875a3ff275",
+    "src/people/witty-yy/materials-witty-yy.md": "b4dc1647fcb0dfd35aa5162f795a9a5037cbd291eabec55f4b571330546624d0",
+    "src/people/witty-yy/witty-yy.md": "766cb91349f62e181a633aa3caaf20a35b4ea3009ef9c641196c6728c5f7dadd",
+    "battle:atioth-2026": "9b44f5e5b3e21aac8917732b3506a40ba8ac95891db7d48782d761e96755cb96",
+    "battle:zz-zwc-2026": "673d278f64ac2c6c06991dc2a9b80264b4fea5972893ec9c8f4661bdb2966877"
+  },
+  "level": 1
+}

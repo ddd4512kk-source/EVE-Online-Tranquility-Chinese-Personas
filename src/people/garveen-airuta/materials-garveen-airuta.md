@@ -15,6 +15,10 @@
 
 - [英文版管理名单](https://wiki.winterco.org/en/coalition/leadership)（2026-10-09）列 Garveen 于 CN 执行领导组、CN 军事组，Garveen Airuta 为 IT 联系人。名单全文与对应见[职务快照](../../../docs/leads/winterco-leadership-2026.md)。
 
+### 工业与采矿背景
+
+- 伏羲军团元老与骨干，参与泰坦等旗舰制造；长期组织并参与大规模采矿与月矿开采运作。
+
 ## 2026-10-11：1T 大战核对
 
 [共用战斗口径](../../../docs/sources/capital-battles-2026-10-11.md)。只据 KM 写该角色的参战、船型和损失；Monitor 记录支持参与指挥。

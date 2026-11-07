@@ -38,7 +38,7 @@ Sna Revenger[综合KB](https://zkillboard.com/character/2113020473/)：4303次�
 | --- | --- | --- |
 | [FWST-8](../../battles/fwst-8-2020/materials-fwst-8-2020.md)，2020-10-05至07 | 主号／三鹿／旧RR；30004718，正式窗口10月5日11:00至7日06:00 UTC。KM87642090为狂热损失，87645376、87668322、87669271有希尔博拉斯（11993）出场；逐时BR缓存与正式名单相符；三张希尔博拉斯KM受害者依次为噩梦、使徒、尼铎格尔 | 战绩红料代表战斗 |
 | [Lantorn](../../battles/lantorn-2025/materials-lantorn-2025.md)，2025-06-17至18 | 两号／ES／INIT；30002540，6月17日19:19至18日00:30 UTC；两号都有鹏鲲，代表KM见上 | 高值月代表入文 |
-| [Sosala](../../battles/sosala-2025/materials-sosala-2025.md)，2025-07-13 | 两号／ES／INIT；30003070；正式名单与BR记录相符，Sna在KM128533541使用马克瑞；主号损失KM128533020 | 常规出勤留档，不逐场排账 |
+| [Sosala](../../battles/arzad-sosala-2025/materials-arzad-sosala-2025.md)，2025-07-13 | 两号／ES／INIT；30003070；正式名单与BR记录相符，Sna在KM128533541使用马克瑞；主号损失KM128533020 | 常规出勤留档，不逐场排账 |
 | [Y-MPWL](../../battles/y-mpwl-2025/materials-y-mpwl-2025.md)，2025-08-19至25 | 两号／ES／INIT；30003726；复核正式三段战报及ymp-2、ymp-3缓存，Sna在KM129351827、129426690使用鹏鲲；主号损失129351112，Sna损失129352104及129352180 | 留档，不从参与推导指挥 |
 | [Taff](../../battles/taff-2026/materials-taff-2026.md)，2026-02-22 | 两号／Obsidian／BIGAB；30002100；正式名单、损失133567941及133567976；BR缓存KM133568015有主号出场 | 留档，不增造个人战果 |
 | [4-HWWF／8TPX-N](../../battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md)，2026-04-25 | 两号／Euphoria.／RR；正式系统30000240、30000242；代表KM135008430实在8TPX-N，核对时间与人物 | 补全高值月与历史阵营，正文不堆泰坦名单 |

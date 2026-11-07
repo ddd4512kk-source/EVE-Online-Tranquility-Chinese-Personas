@@ -1,0 +1,88 @@
+{
+  "status": "reviewed",
+  "note": "combat核读完成",
+  "evidence": [
+    "src/people/feng-xuetian/materials-feng-xuetian.md",
+    "src/people/feng-xuetian/feng-xuetian.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核对 stats 总览：2912 击杀、343 损失、1.42T ISK 战果，2026-10 活跃。常年随 PMA 征战 00 前线，高击杀与多暴毙的画像与正文自嘲双开双死相符。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/materials-feng-xuetian.md",
+          "heading": "## 战绩与参战"
+        },
+        {
+          "file": "src/people/feng-xuetian/feng-xuetian.md",
+          "contains": "在战斗一线，他是标准的 "
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "无已登记小号，未合并其他角色。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/materials-feng-xuetian.md",
+          "heading": "## 身份与账号"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "无特定争议月份或异常峰值需要细查代表 KM。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/materials-feng-xuetian.md",
+          "heading": "## 战绩与参战"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核对参战 J-TPTA（2022）与 H-PA29（2022）两场大型战役，J-TPTA 战役有无畏参与记录与代表视频《千人旗舰战无UI纯享版》相印证。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/materials-feng-xuetian.md",
+          "heading": "## 战绩与参战"
+        },
+        {
+          "file": "src/people/feng-xuetian/feng-xuetian.md",
+          "contains": "2022 年夏天 J-T"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战绩红料块「绝地前线的战斗常客」紧接开篇，综合点评近三千次击杀、1.4T 战果与随叫随到的前线打手形象，未散入开篇或轻料代替。",
+      "evidence": [
+        {
+          "file": "src/people/feng-xuetian/feng-xuetian.md",
+          "contains": "在战斗一线，他是标准的 "
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/feng-xuetian/2114544750-id.json",
+    "src/people/feng-xuetian/feng-xuetian.md",
+    "src/people/feng-xuetian/materials-feng-xuetian.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/j-tpta-2022/j-tpta-2022.json",
+    "src/battles/j-tpta-2022/j-tpta-2022.md",
+    "src/battles/j-tpta-2022/materials-j-tpta-2022.md"
+  ],
+  "inputs": "5296fbc117aa68b373a6265907518eb3b07239693765ebcaaddca597a78b3b3f",
+  "inputParts": {
+    "src/people/feng-xuetian/2114544750-id.json": "eae70bb1a49f21b5561a62deb1e9c7998b1575f001077d958719d76c3c701579",
+    "src/people/feng-xuetian/feng-xuetian.md": "f376d930687018f0d82868d3e7b51da43e5e9a058fdf56ffc10f815700693be2",
+    "src/people/feng-xuetian/materials-feng-xuetian.md": "d879ccc9d343c0231c0543af54d77681e38aba03c88fc881ecb9bcfd850cda06",
+    "battle:h-pa29-2022": "13cd9994b1d133acfa6e8b7fc3ecb91542e6b13f06f5b1681f50846a61960a30",
+    "battle:j-tpta-2022": "861a0f58b2671fe7ab5bd4a891fc40eaa97534f5d642208996bd80e5f2b2428d"
+  },
+  "level": 1
+}

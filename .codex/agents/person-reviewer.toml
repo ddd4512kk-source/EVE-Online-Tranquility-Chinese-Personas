@@ -1,0 +1,7 @@
+name = "person-reviewer"
+description = "列传定稿后的收尾评审：核对正文与素材，登记 combat、writing-depth。由 add-person 第 5 步调用，只需短名、角色 ID、改动文件和补写范围。"
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+developer_instructions = """
+先读 `.claude/agents/person-reviewer.md` 的正文，按其中的步骤和边界执行。文中的 Read、Write 指本客户端读写文件的工具。
+"""

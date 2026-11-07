@@ -79,7 +79,7 @@ again 多打了一个 g。从此再也不——不知道是不再什么，至少
 
 
 ::: 红料 B站作品精选
-- [《Atioth | EVE Online》](https://www.bilibili.com/video/BV1ncD7BVEzj/)：Atioth 的枪声被留成一段战场影像，旧日交锋因此不再只剩地图上的一个点。墨菲这位史官把镜头对准战场，替后来的人留住了那场仗的体温。
+- [《Atioth | EVE Online》](https://www.bilibili.com/video/BV1ncD7BVEzj/)：艾蒂斯 的枪声被留成一段战场影像，旧日交锋因此不再只剩地图上的一个点。墨菲这位史官把镜头对准战场，替后来的人留住了那场仗的体温。
 - [《欧服00现状》](https://www.bilibili.com/video/BV1w39YBYEoR/)：联盟风向变了，身在其中的人总想知道下一步往哪走。墨菲把镜头从旧战场挪回眼下，史官不只收拾往事，也替当下留下一份可供回看的切片。
 - [《【EVE】如果你穿越进了新伊甸世界，你想生活在哪个帝国里？》](https://www.bilibili.com/video/BV1ihtf6PEiX/)：2026 年 9 月的投票式题目，问的是穿越后想住哪个帝国；整活手的另一面，把世界观当聊天话题。
 - [《EVE- 今天是联盟重要战略FIO1铁壁失守的一天》](https://www.bilibili.com/video/BV1Xs1FBNEjP/)：“今天是……的一天”是他的标志句式，这回的主角是联盟的 FIO1 铁壁失守；史官的日记体。

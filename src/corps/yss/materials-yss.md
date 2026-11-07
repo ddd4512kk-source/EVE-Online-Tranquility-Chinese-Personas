@@ -1,0 +1,18 @@
+# YSS / Why So Sage
+
+军团 ID 98738067。快照见同名 JSON。
+
+## 招新
+[招新帖](https://tieba.baidu.com/p/11161858027)，2026-11-03：DC 联盟；Why So Sage；每晚北京时间 19:00–22:00 固定集结；入团 2 亿 ISK＋一套＋3 脑插＋毒蜥（可折现 5 亿）；前两个月狂怒／回旋／苍鹭无限补损。
+[招新帖](https://tieba.baidu.com/p/10009747746)，2025-09-04，另见[旧帖](https://tieba.baidu.com/p/9382367994)：“我们做到了一年死一万条狂怒”；有虚拟主播；联盟 logo 龙头，军团 logo 独角兽妹子；“从注册游戏账户到弃坑一条龙服务”；龙焰旗下。
+- 2gg、七七现属（军团履历）。
+
+## 军团简介
+
+ESI，2026-11-06：
+
+> 我们是自由的，但并不代表我们没有组织； 我们不断提高我们的技术，磨练我们的意志，强化我们的军团，相信不用多长时间，我们将是一流的军团。 We are free, but that doesn't mean we have no organization; We constantly improve our technology, hone our will and strengthen our legion. I believe it won't take long for us to be a first-class legion.
+> 本团招新群：623793986 Our group recruits new groups：623793986
+- 建团日记（2gg 本人，贴吧 8364932821，2023-04-17 开帖）：先谈 TD 入盟、4-11 建团、翌日入盟；备新人船、虫洞运输、下阿塔诺挖气接反应；2023-09-07 搬进 DC（DOTLAN 军团事件）；2024-03-25 配合联盟夺回 HY 门户，自报此前三个月损 1880 狂怒者；2024-07 语音例会 52 人、投送泰坦、自动月矿设施（本人记述，未独立核验）。出处 src/people/2gg/materials-2gg.md。
+- 2026-11-03 招新帖 11161858027（白乐心发）：驻地贝斯，主要生产血袭者；福利与活动时间见正文。
+- 七七 B站视频简介：“DC旗下Why So Sage招新”，魔像刷怪（src/people/endless-i-journey/materials-endless-i-journey.md）。
