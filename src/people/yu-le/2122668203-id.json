@@ -85,6 +85,73 @@
     "tags": [
       "D.C",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:54:52Z",
+      "verdict": "FC和预警指南都挂在名片上，OGC冠军还连喊四遍；小船拦截和旗舰队出勤也一样没落下。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "简介自称“OGC冠军”，后面又把OGC排了四遍，排面重复得很认真，算轻巧的自我整活。",
+          "sources": [
+            {
+              "label": "老魏 zKillboard",
+              "url": "https://zkillboard.com/character/2122668203/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "近四千次击杀、三百余次单杀，长期驾驶捕蝇草、德劳格等战术舰船，也参加星城和旗舰级交战。",
+          "sources": [
+            {
+              "label": "老魏 zKillboard",
+              "url": "https://zkillboard.com/character/2122668203/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "zKillboard标有FC (MEDIUM)资质，并有星城攻防和带队击杀无畏的实战记录，达到中型战术舰队FC档。",
+          "sources": [
+            {
+              "label": "老魏 zKillboard",
+              "url": "https://zkillboard.com/character/2122668203/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "公开名片很有辨识度，但现有故事没有稳定拥趸或跨团号召力记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "老魏 zKillboard",
+              "url": "https://zkillboard.com/character/2122668203/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "材料集中于FC、舰队出勤和预警指南，没有外交斡旋或派系经营记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "老魏 zKillboard",
+              "url": "https://zkillboard.com/character/2122668203/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "舰队击杀价值和驾驶海军型无畏不等于个人产业或资产规模，现有材料没有筹资经营记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "老魏 zKillboard",
+              "url": "https://zkillboard.com/character/2122668203/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

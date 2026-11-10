@@ -1,0 +1,234 @@
+{
+  "status": "reviewed",
+  "note": "正文涵盖素材事件骨架，科莫多蓝图纠纷与借冬瓜泰坦赎身两项重料多维充分展开，叙事主线平衡",
+  "evidence": [
+    "src/people/gauzeee-military/materials-gauzeee-military.md",
+    "src/people/gauzeee-military/gauzeee-military.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "正文涵盖素材中纳瓦拉肉搏、A1-AUH旗舰战指挥、科莫多蓝图借用纠纷、借冬瓜泰坦及管理集资还钱后续、借圈圈超旗失联数年归还等事件骨架，核心事实与引语均有出处，无遗漏重料。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+          "contains": "- **2026-11 社区增补（蓝图公案与借泰坦后续）**："
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "两项 heavy 事件（蓝图公案、借冬瓜泰坦号及赎身）均充分展开多维度发挥，包含反差与后果；其余普通事件亦按事实记述。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/gauzeee-military.md",
+          "contains": "混血泰坦图纸这笔账，贴吧早有风声。2026 年 2 月，一篇[《创世内部矛盾还有和frt的爱恨情仇》](https://tieba.baidu.com/p/10489881442)把创世几位管理挨个点评了一遍，轮到纱布只有一句："
+        }
+      ],
+      "items": [
+        {
+          "title": "纳瓦拉肉搏带队与带跳失误",
+          "weight": "ordinary",
+          "reason": "参与联盟重点战役带领近身肉搏混编并发生带跳失误",
+          "source": {
+            "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+            "heading": "## 纱布 / Gauzeee Military"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gauzeee-military/gauzeee-military.md",
+            "contains": "2022 年春节初四的纳瓦拉之战，N老板的[战后总结](https://forums.winterco.org/t/topic/12874)里，各路 FC 分工明确："
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "战报与失误均有记录，正文结合分工与带跳失误记述。"
+        },
+        {
+          "title": "A1-AUH旗舰战指挥",
+          "weight": "ordinary",
+          "reason": "万亿级旗舰围猎战中担任队伍指挥",
+          "source": {
+            "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+            "heading": "### 2021-09-17 A1-AUH / 角色 96262961"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gauzeee-military/gauzeee-military.md",
+            "contains": "最能看出他分量的是 2021 年 9 月的 [A1-AUH](https://zkillboard.com/kill/95187540/)。FRT 与帝国围猎 AOM 的天价旗舰，一千多亿一条的大船成排倒下，创世那支队伍是纱布带进去的。几百人的频道里，有人想冲、有人想撤，旗舰在屏幕上一条条亮起来，谁都想多咬一口，最后都得等他一句“进”或者“停”。创世的老 FC 不靠头衔挂名：纳瓦拉的贴脸肉搏交给他，万亿级的旗舰围猎也交给他，创世人这个名头，一大半是他在频道里喊出来的。"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "结合监视者记录与战场角色展开描述指挥分量。"
+        },
+        {
+          "title": "混血泰坦蓝图借用纠纷",
+          "weight": "heavy",
+          "reason": "以借用为名占用团员科莫多蓝图到期不还，军团管理自费买图平账导致成员退团出走",
+          "source": {
+            "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+            "contains": "  - **混血泰坦蓝图**：非凭空贪污，实为纱布向成员美树（现 CACX 成员）借用科莫多蓝图约定归还，到期无法归还；美树找创世管理求助，管理起初偏袒纱布，最终由创世管理层出资购买科莫多蓝图还给美树平事，美树及部分成员退团。"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gauzeee-military/gauzeee-military.md",
+            "contains": "后来这桩公案被翻出了底细：倒不是平白无故贪污，而是纱布跟团员美树（后来转投 [CACX](../../corps/chaos/)）借科莫多蓝图一用，信誓旦旦订了归还日期。可到了日子，图纸却拿不出来。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "借用昂贵蓝图订期归还，到期无法兑现",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "后来这桩公案被翻出了底细：倒不是平白无故贪污，而是纱布跟团员美树（后来转投 [CACX](../../corps/chaos/)）借科莫多蓝图一用，信誓旦旦订了归还日期。可到了日子，图纸却拿不出来。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "管理起初偏袒，最终自费购买科莫多蓝图平账，团员心凉退团",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "美树无奈找创世管理层评理。管理层念着纱布常年在前线嘶吼带队的老功劳，胳膊肘往里拐，没肯站在成员这一边。拖到最后，为了平息事态，创世管理层不得不自掏腰包，重新在市场上买了一张昂贵的科莫多蓝图还给美树平账。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "情怀散文感谢兄弟姐妹相伴，现实中兄弟姐妹图纸进私账管理兜底",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "简介里写着“半边荆棘半边花，感谢兄弟姐妹们的一路相伴”——相伴的路上，兄弟姐妹的图纸进了他的私账，赔付的窟窿由军团管理兜底，留下被伤透心的老成员各奔东西。"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "图纸虽还但成员看透偏袒退团出走，军团人心离散",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "图是还了，心也彻底凉了。美树带着一部分看透了偏袒的团员愤而退团出走。简介里写着“半边荆棘半边花，感谢兄弟姐妹们的一路相伴”——相伴的路上，兄弟姐妹的图纸进了他的私账，赔付的窟窿由军团管理兜底，留下被伤透心的老成员各奔东西。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "起因、偏袒经过、买图平账后果与情怀反差展开充分。"
+        },
+        {
+          "title": "借冬瓜泰坦号及管理凑星币赎身",
+          "weight": "heavy",
+          "reason": "以联盟T2指挥身份借号投送转移势力泰坦，多年追索后管理层凑款还星币赎身，离盟争吵仍理直气壮",
+          "source": {
+            "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+            "contains": "  - **冬瓜借泰坦号后续**：补齐缺口，冬瓜即苦主 somnabulist。冬瓜通过加一、墨琦多年追索，至 2024 年底，创世管理层（两千/2000、贝尔、44 等人）为让纱布复活重归创世管理岗，集资等值资金以 ISK 赔偿冬瓜，原科莫多势力泰坦实物已失踪。2026 年创世脱离 FRT 时双方争论借泰坦旧事，冬瓜声明泰坦之事已解决并感谢创世管理（非为纱布洗白）。"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gauzeee-military/gauzeee-military.md",
+            "contains": "有人当众 @纱布：“人冬瓜直接A了你就算赔钱了又怎么样，有谁不知道你rmt？”随后贴出 2024 年 4 月 10 日的聊天记录，苦主 somnabulist（冬瓜）讲了自己的遭遇："
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "利用老指挥威望借号投送，将苦主号上科莫多交易走",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "冬瓜说，自己当时确实把他当兄弟，“试问一个当了几年t2指挥的人，找你借下tt号投送，绝大多数人都会借吧”，又说“这种事情不公开说吗，都骗了一年了”。好在苦主手快，泽尼塔转到一半改了密码，抢回了一条无畏。至于那条科莫多，交易走之后便在茫茫宇宙里不知所踪。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "冬瓜追索多年，管理层为使其复活自掏腰包凑星币还款赎身",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "借船容易还船难。冬瓜顺着[加一](../2113399287/)和[墨琦](../2113239951/)两条线找创世管理层追索了几年，直到 2024 年底才算见着亮光：为了让纱布“复活”重新回创世当管理，[两千](../2114348755/)、贝尔、44 几位管理合力凑钱，筹出了一笔等值于泰坦的星币还给了冬瓜。借的是势力泰坦，还的是管理自掏腰包的星币，“借泰坦还星币”也算创世式的诚实守信。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "离盟大群争执冬瓜出面感谢管理层，纱布却理直气壮激情对线",
+              "evidence": {
+                "file": "src/people/gauzeee-military/gauzeee-military.md",
+                "contains": "到了 2026 年创世离开 FRT 当口，大群里为此事吵得不可开交，纱布还在群里激情对线。冬瓜特意站出来发声明，说借泰坦的事已经解决、感谢创世管理的努力——冬瓜感谢的是掏钱替人擦屁股的管理，不是替纱布洗白，这却不妨碍纱布在大群里继续理直气壮。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "借号借船、追索、赎身平账及后续大群对线全过程描写充分。"
+        },
+        {
+          "title": "借圈圈超旗失联数年后提醒才归还",
+          "weight": "ordinary",
+          "reason": "借走前成员泰坦与超航数年失联不回消息，直到大群吵架被当场指出方才归还",
+          "source": {
+            "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+            "contains": "  - **圈圈超旗借出案**：纱布除借冬瓜势力泰坦外，还借走前成员圈圈泰坦与超级航空母舰（大航），QQ、微信数年不回。2026 年争论时经人提醒，纱布始联系圈圈归还借了三四年的泰坦与大航。"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gauzeee-military/gauzeee-military.md",
+            "contains": "更绝的是被借走超旗的还不止冬瓜一人。纱布还借过前成员圈圈的一条泰坦和一条超级航空母舰，借走之后 QQ、微信消息一概不回，苦等数年。直到 2026 年众人吵架吵到兴头上，有人当场提醒还有成员的大船没还，纱布这才在失联三四年后重新联系圈圈归还。信任军团管理和舰队指挥的兄弟，愣是在沉默中当了几年苦主；落在纱布身上的，是拿着“投送”二字借号，前有管理凑钱赎身，后有人在群里催账才想起还船。"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "借船失联与吵架催账归还事实清楚，叙述充分。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "红料（简介情怀、纳瓦拉、六千杀带队）与黑料（蓝图纠纷、借冬瓜泰坦、借圈圈超旗、拆迁办、带跳失误）分量均衡，评语收束在指挥情怀与烂账兜底的鲜明对比，主线清晰。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/gauzeee-military.md",
+          "contains": "纱布是那种把游戏当青春过的人：头衔玩梗，简介写散文，战场上带近身肉搏，偶尔也把舰队带到对面铁壁脸上。八年老大叔，一天创世人。蓝图找美树借，泰坦找冬瓜借，超旗找圈圈借；管理层自掏腰包买图、凑星币还款，他在大群里激情对线，在简介里抒发相伴。创世乱成什么样，管理层都得替他兜底；兄弟姐妹相伴一路，最大的考验大概就是别把大船和图纸借给他。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/gauzeee-military/96262961-id.json",
+    "src/people/gauzeee-military/gauzeee-military.md",
+    "src/people/gauzeee-military/materials-gauzeee-military.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "ba15980db39aa97b6ad2dc9f6c7e1056dece5cfc47e39e6cae491ae3889ab70d",
+  "inputParts": {
+    "docs/sources/capital-battles-2026-10-11.md": "7d329d7268098e6a253c11c90fb054c6ee13607fcf69f33000b7fb980858c6c1",
+    "docs/sources/large-battles-2026-10-11.md": "54b2c444412865591faeb14251fc35eeb73d5c421c5c9957c63a1c308a380c01",
+    "src/people/gauzeee-military/96262961-id.json": "a89b33066072e8d7a359bc251eeff192451eb09656f784fa7f94fd5680517253",
+    "src/people/gauzeee-military/gauzeee-military.md": "d90da390059c9827830bf859793d983d326bdeb37b17d186700de4c03a7a159a",
+    "src/people/gauzeee-military/materials-gauzeee-military.md": "75bc02600653bb7187a191d8a0fa777bae2995b76004989f103f56ce4e9e0f50",
+    "battle:1-smeb-2026": "1ae6ccf2f5c88678620752fdfc964b84ded559f1733f666bfffec87b1c8dea8d",
+    "battle:6q-r50-2026": "d4aeab5abc5940d7d8bedab05ff3def3ddd1994df4db493df1f886de0c6f6e29",
+    "battle:8f-tk3-2026": "cc6bd2ecbb00d933b7b14207f84e2bae8c749ca3210eac1543e1a0f34d7caf5b",
+    "battle:a1-auh-2021": "a028ede8e3f0cd0126e4f8e813a689d7e45d1de71b625fbe7f80b5c115004223",
+    "battle:m2-xfe-breakout-2021": "5bca690bf2ddb3d0e6168b1365667d2014d08b2307508118d6d95e0d2fd307f1",
+    "battle:otsasai-2021": "6723e0fc5464384f428f75ab330361b06b47e5c543315f300db10e76da7c3720",
+    "battle:svm-3k-2026": "984846aff116393f106d9e990d6cf0c6dafe5858c8b0eede67e3a66d01af1fc9",
+    "battle:t8t-ra-2026": "80666facc43d77f95211909e71afd7847eeaf03894e42626c8cfa8cefd806491"
+  },
+  "level": 1
+}

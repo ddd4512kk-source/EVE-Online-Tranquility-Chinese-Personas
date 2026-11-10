@@ -192,6 +192,73 @@
     "tags": [
       "B站",
       "低安"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:47:53Z",
+      "verdict": "名片善战不言战转头发大作战预告，负九安等录下四万播放艾蒂斯大片的海盗雨季。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "发预告、录败仗和低安负安全等级，都不是出格恶行。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "大作战预告龙骑团首都保卫战",
+              "url": "https://www.bilibili.com/video/BV1234567890/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "一千七百余次击杀，以渎圣、奉献随队为主，定位是熟练特种队员。",
+          "sources": [
+            {
+              "label": "Awakeallnight Awake zKillboard",
+              "url": "https://zkillboard.com/character/2114626303/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "zKillboard 未见 FC 标注或监视者指挥记录，在舰队中主要承担会战记录与常规随队作战，统御评常人基准 D。",
+          "sources": [
+            {
+              "label": "Awakeallnight Awake zKillboard",
+              "url": "https://zkillboard.com/character/2114626303/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "持续制作字幕战报，多篇获数万播放，在华人战报圈有稳定受众。",
+          "sources": [
+            {
+              "label": "Awakeallnight B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注低安自由海盗突击与战地影像记录，不涉联盟顶层权力博弈，常人基准。",
+          "sources": [
+            {
+              "label": "Awakeallnight Awake 雇佣记录",
+              "url": "https://zkillboard.com/character/2114626303/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "已有船损与用船体现常规自给，击杀额不能算掠夺收入。",
+          "sources": [
+            {
+              "label": "Awakeallnight Awake zKillboard",
+              "url": "https://zkillboard.com/character/2114626303/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

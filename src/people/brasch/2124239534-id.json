@@ -1,0 +1,162 @@
+{
+  "id": 2124239534,
+  "name": "Ten-Star General Brasch",
+  "birthday": "2026-03-25T13:42:11Z",
+  "corporation_id": 98776981,
+  "affiliation": {
+    "corporation_id": 98776981,
+    "alliance_id": 99009163,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000167,
+      "start": "2026-03-25T13:42:00Z",
+      "end": "2026-03-27T02:44:00Z"
+    },
+    {
+      "corporation_id": 1000180,
+      "start": "2026-03-27T02:44:00Z",
+      "end": "2026-03-28T03:16:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "start": "2026-03-28T03:16:00Z",
+      "end": "2026-03-30T11:48:00Z"
+    },
+    {
+      "corporation_id": 98816796,
+      "start": "2026-03-30T11:48:00Z",
+      "end": "2026-04-12T13:05:00Z"
+    },
+    {
+      "corporation_id": 98474063,
+      "start": "2026-04-12T13:05:00Z",
+      "end": "2026-04-28T15:03:00Z"
+    },
+    {
+      "corporation_id": 98776981,
+      "start": "2026-04-28T15:03:00Z",
+      "end": "2026-05-29T14:51:00Z"
+    },
+    {
+      "corporation_id": 1000167,
+      "start": "2026-05-29T14:51:00Z",
+      "end": "2026-06-05T14:52:00Z"
+    },
+    {
+      "corporation_id": 98776981,
+      "start": "2026-06-05T14:52:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-10",
+  "person": {
+    "cn_name": "布拉氏",
+    "aliases": [
+      "不拉屎",
+      "十星上将",
+      "Brasch",
+      "十星上将不拉屎"
+    ],
+    "epithet": "教新人跳超旗，凭一己之力封印全盟超旗。",
+    "tags": [
+      "D.C",
+      "00"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:00:00Z",
+      "verdict": "DC麾下著名的十星上将教官，创号满月即爆海拉展于门庭，组超旗小团体砸人，被戏称凭一己之力封印联盟超旗。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "身为军团教官带新人乱跳超旗致险些三度陨落，创号满月即爆超航挂在简介公开自嘲，圈内戏称凭一己之力封印全盟超旗。",
+          "sources": [
+            {
+              "label": "海拉级超级航空母舰击毁战报",
+              "url": "https://zkillboard.com/kill/135059108/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "创号仅数月参与三百余次击杀涉274B战果，早早开出海拉级超级航母下场参战，长于小队超旗跃迁砸人。",
+          "sources": [
+            {
+              "label": "zKillboard战绩总览",
+              "url": "https://zkillboard.com/character/2124239534/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "挂着军团Director·FC总监与实习指挥官头衔，热衷于作为群主组织超旗小团体砸人行动。",
+          "sources": [
+            {
+              "label": "EveWho 角色与头衔任职",
+              "url": "https://evewho.com/character/2124239534"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "个性张扬的大串子，头衔与简介挂满名场面，在群内极具造梗与招揽新人的话题度。",
+          "sources": [
+            {
+              "label": "EveWho 角色公开简介",
+              "url": "https://evewho.com/character/2124239534"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "游离于大联盟官僚体系边缘的军团教官，专事拉拢超旗小团体，无联盟级政治建树。",
+          "sources": [
+            {
+              "label": "EveWho 军团雇佣历史",
+              "url": "https://evewho.com/character/2124239534"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "建号一个月即手握海拉级超级航空母舰并在损失后继续高调展示天使泰坦阿萨谢尔装配，财力雄厚。",
+          "sources": [
+            {
+              "label": "个人海拉级损失KM",
+              "url": "https://zkillboard.com/kill/135059108/"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2124411140,
+        "name": "Brasch Titan",
+        "sources": [
+          "materials-brasch.json"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "2026-05",
+          "as_of": "2026-11-10"
+        }
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 366,
+      "lost": 60,
+      "isk_destroyed": 274125958446,
+      "last_active": "2026-11",
+      "as_of": "2026-11-10"
+    }
+  }
+}

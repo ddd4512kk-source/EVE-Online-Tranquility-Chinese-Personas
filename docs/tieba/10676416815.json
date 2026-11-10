@@ -4,15 +4,15 @@
   "url": "https://tieba.baidu.com/p/10676416815",
   "title": "阵营一换评论过万，这波要不是帝国干的，早被成员喷爆了。",
   "references": [
-    "docs/leads/tieba-prolific-posters.md",
-    "src/people/cyan-nomi/materials-cyan-nomi.md"
+    "docs/leads/tieba-prolific-posters.json",
+    "src/people/cyan-nomi/materials-cyan-nomi.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10676416815",
-        "初始引用文件": "docs/leads/tieba-prolific-posters.md",
+        "初始引用文件": "docs/leads/tieba-prolific-posters.json",
         "首尾状态": "首尾已取",
         "接口回复数": "129",
         "主楼总页数": "1",

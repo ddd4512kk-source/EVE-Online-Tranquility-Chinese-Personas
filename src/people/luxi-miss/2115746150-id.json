@@ -81,7 +81,74 @@
       "著名FC",
       "军团管理",
       "AT22亚军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "燃烧二十一克战斗总监，自封喵喵形态带队打无畏大战，挂名AT亚军队名册，突发封号取消活动的性情FC。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "卖萌头衔、账号被封及取消活动本身，不足认定蠢事或恶行。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "luxi Miss 角色名片",
+              "url": "https://esi.evetech.net/latest/characters/2115746150/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "无畏大战与常规舰队前线带队主力，兼精轻拦与电子战小号。",
+          "sources": [
+            {
+              "label": "luxi Miss zKillboard",
+              "url": "https://zkillboard.com/character/2115746150/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "燃烧二十一克与DC一线核心FC，在6Q-R50等大战中指挥龙焰舰队。",
+          "sources": [
+            {
+              "label": "6Q-R50 会战指挥记录",
+              "url": "https://zkillboard.com/kill/137375298/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有稳定跟队成员，喵喵头衔体现熟人亲和，未据此拔高号召力。",
+          "sources": [
+            {
+              "label": "luxi Miss 角色名片",
+              "url": "https://esi.evetech.net/latest/characters/2115746150/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "军团战斗总监，协调联盟军事出勤与防区防御。",
+          "sources": [
+            {
+              "label": "燃烧二十一克军团名册",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "可承担无畏与多套特种船投入；AT 仅列名不代表拥有全队赛船。",
+          "sources": [
+            {
+              "label": "DC AT22 战队名册",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -91,7 +158,7 @@
         "name": "mali miss",
         "basis": "同团，整段“喵喵形态，好战分子 战斗总监 华”头衔一致",
         "sources": [
-          "materials-luxi-miss.md#evewho小号对应2026-10-25utc"
+          "materials-luxi-miss.json#evewho小号对应2026-10-25utc"
         ],
         "zkb": {
           "kills": 147,
@@ -106,7 +173,7 @@
         "name": "luxi miss2",
         "basis": "同词根加数字、同属DC，头衔喵喵",
         "sources": [
-          "materials-luxi-miss.md#evewho小号对应2026-10-25utc"
+          "materials-luxi-miss.json#evewho小号对应2026-10-25utc"
         ],
         "zkb": {
           "kills": 0,
@@ -121,7 +188,7 @@
         "name": "luxi Miss en",
         "basis": "同词根加后缀、同属DC，头衔华",
         "sources": [
-          "materials-luxi-miss.md#evewho小号对应2026-10-25utc"
+          "materials-luxi-miss.json#evewho小号对应2026-10-25utc"
         ],
         "zkb": {
           "kills": 0,

@@ -4,7 +4,7 @@
   "url": "https://tieba.baidu.com/p/10621125230",
   "title": "这波N老板已经突破太阳系了",
   "references": [
-    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/materials-noraus.json",
     "src/people/noraus/noraus.md"
   ],
   "legacy_records": [
@@ -12,7 +12,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10621125230",
-        "初始引用文件": "src/people/noraus/materials-noraus.md;src/people/noraus/noraus.md",
+        "初始引用文件": "src/people/noraus/materials-noraus.json;src/people/noraus/noraus.md",
         "首尾状态": "首尾已取",
         "接口回复数": "7",
         "主楼总页数": "1",

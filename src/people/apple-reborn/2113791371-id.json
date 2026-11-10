@@ -28,7 +28,7 @@
         "id": 2113803780,
         "name": "solitarymax encounter",
         "sources": [
-          "materials-apple-reborn.md"
+          "materials-apple-reborn.json"
         ],
         "zkb": {
           "kills": 1929,
@@ -60,6 +60,73 @@
       "D.C",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T15:39:02Z",
+      "verdict": "头衔挂甲级战犯锅大王，招新拿女装冲业绩，一千四百次拉克希斯留住全场的BOP军团长。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "招新帖把变装奖励写成福利，后来一场 RMT 玩笑又把人劝退；军团招人和散伙都带着节目效果。",
+          "sources": [
+            {
+              "label": "BOP 2019秋季招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "拉克希斯使用逾千次，长点控制是明确专长；不宣称全联盟第一。",
+          "sources": [
+            {
+              "label": "Apple Reborn zKillboard",
+              "url": "https://zkillboard.com/character/2113791371/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "长期管团并承担前线长点职责；拉克希斯签名不等于主力舰队指挥。",
+          "sources": [
+            {
+              "label": "BOP 2019秋季招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "老团有稳定核心，招新互损有熟人气氛，也有被骂退团者；多年在任的大军团 CEO，按大军团标准评 B。",
+          "sources": [
+            {
+              "label": "BOP 2019秋季招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "作为DC主力执行军团掌门人，带领BOP从RR转投DC并稳居联盟执政核心，联盟重量级地缘执政元老。",
+          "sources": [
+            {
+              "label": "BOP军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "长期承担全补、超额补损和新人资助，支撑团队供给档。",
+          "sources": [
+            {
+              "label": "Apple Reborn zKillboard",
+              "url": "https://zkillboard.com/character/2113791371/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

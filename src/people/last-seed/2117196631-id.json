@@ -64,7 +64,7 @@
         "name": "god zhongzi",
         "basis": "2026-10-25 ESI：角色词根zhongzi及头衔“种子。联盟总监”对应last-seed头衔“种子”，同属Dracarys.。",
         "sources": [
-          "materials-last-seed.md#执行军团小号对应"
+          "materials-last-seed.json#执行军团小号对应"
         ],
         "zkb": {
           "kills": 0,
@@ -95,6 +95,77 @@
       "00区",
       "D.C",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "带着国服班底进入DC，种皇的排场写在头衔里，分量要看组织与动员。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "携巨量国服人口空降DC，一句“ping不出人怪谁”气走主力大酱，贴吧喜提三千字一长串太上皇头衔。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "贴吧空降管理气走大酱帖",
+              "url": "https://tieba.baidu.com/p/9103015391"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "星城大会战跟队出勤有据，按熟练常规队员评。",
+          "sources": [
+            {
+              "label": "U-QVWD星城击毁档案",
+              "url": "https://zkillboard.com/kill/119283746/"
+            },
+            {
+              "label": "X47L-Q战役损失记录",
+              "url": "https://zkillboard.com/kill/107823901/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "军团精神图腾与领袖，战斗调度主要委托战斗酋长指挥，负责把控出战大局。",
+          "sources": [
+            {
+              "label": "招新帖与军团分工",
+              "url": "https://tieba.baidu.com/p/7782094592"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "国服老班底跨服跟随、招新有拥趸，支持跨团队号召力。",
+          "sources": [
+            {
+              "label": "WAHE招新帖团员互动",
+              "url": "https://tieba.baidu.com/p/7782094592"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "WAAAGH军团长兼DC高层权力核心，掌握数千国服移民人口，在DC权力架构中举足轻重。",
+          "sources": [
+            {
+              "label": "DC管理层变动讨论",
+              "url": "https://tieba.baidu.com/p/9103015391"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "长期提供军团补损和购卡配套，属于团队供给，驻地不是个人产业。",
+          "sources": [
+            {
+              "label": "军团福利与购卡助手说明",
+              "url": "https://tieba.baidu.com/p/7782094592"
+            }
+          ]
+        }
+      }
+    }
   }
 }

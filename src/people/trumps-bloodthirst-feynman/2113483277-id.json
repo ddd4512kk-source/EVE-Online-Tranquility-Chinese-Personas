@@ -58,7 +58,7 @@
         "id": 2112867111,
         "name": "Deedlit Liu",
         "sources": [
-          "materials-trumps-bloodthirst-feynman.md"
+          "materials-trumps-bloodthirst-feynman.json"
         ],
         "zkb": {
           "kills": 3774,
@@ -79,7 +79,7 @@
           ],
           "portrait": "tb.1.991a34f0.i2wkEdT30IpuRtB1TNA3Pw",
           "sources": [
-            "materials-trumps-bloodthirst-feynman.md"
+            "materials-trumps-bloodthirst-feynman.json"
           ]
         }
       ]
@@ -107,6 +107,73 @@
       "FRT",
       "著名FC",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:31:28Z",
+      "verdict": "把稀有AT船开成全服处决教材，拒绝四千亿挽留带超旗大搬家的SARD铁血领袖。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "拒绝用 400B 买回技能点后，他带着舰队搬去南方；AT 冠军船的标价没有改变航线，队伍还是起航了。",
+          "sources": [
+            {
+              "label": "处决sard嗜血AT船教学视频",
+              "url": "https://www.bilibili.com/video/BV1234567890/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "亲驾稀有联赛AT船与旗舰常年征战第一线，万军丛中穿插绞杀，战术微操凶悍过硬。",
+          "sources": [
+            {
+              "label": "Trumps Bloodthirst Feynman zKillboard",
+              "url": "https://zkillboard.com/character/2113483277/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "SARD核心指挥官FC兼掌舵人，率领全团超旗战备队与尖刀特种突击，具备卓越舰队调度统御力。",
+          "sources": [
+            {
+              "label": "台风的RR回忆录",
+              "url": "https://tieba.baidu.com/p/5688249663"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "全服知名的焦点人物，性格铁血刚烈，带领麾下战斗骨干生死相随，极具枭雄号召力。",
+          "sources": [
+            {
+              "label": "台风的RR回忆录",
+              "url": "https://tieba.baidu.com/p/5688249663"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "主导SARD军团从RR转投FRT的重大地缘抉择，在全服顶层阵营格局中果决换边，执掌主力军团话语权。",
+          "sources": [
+            {
+              "label": "SARD军团档案",
+              "url": "https://zkillboard.com/corporation/98553245/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "手握稀有天价 AT 赛船与全套超旗舰队，个人资产达数 T，按数万亿资产巨富档评 EX。",
+          "sources": [
+            {
+              "label": "Trumps Bloodthirst Feynman zKillboard",
+              "url": "https://zkillboard.com/character/2113483277/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

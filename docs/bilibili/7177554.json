@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "7177554",
   "name": "烙夜",
   "url": "https://space.bilibili.com/7177554/",
   "identity": {
     "state": "source",
     "person": null,
-    "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.json",
     "label": "战役相关视频投稿者；本人未对应",
     "evidence": [
       "投稿BV1Gs411D7To，列为b-r5rb-2014相关视频"
@@ -57,10 +57,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "B站搜索“EVE B-R5”所得；简介写明星系、2014年1月27日与对阵"
       },
       "usage": {
         "body": false,

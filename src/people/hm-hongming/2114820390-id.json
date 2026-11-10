@@ -48,7 +48,7 @@
         "id": 2114820863,
         "name": "hm Hongmin",
         "sources": [
-          "materials-hm-hongming.md"
+          "materials-hm-hongming.json"
         ],
         "zkb": {
           "kills": 0,
@@ -76,6 +76,73 @@
       "低安",
       "CEO",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "两顶CEO帽子，一座低安龙骑摊子。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "与前管理争执及反复改口，按轻度管理失当评。",
+          "sources": [
+            {
+              "label": "龙骑团长红名债务复盘长帖",
+              "url": "https://tieba.baidu.com/p/8890123456"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "六千余击杀、近二百Solo并有海军无畏实战。",
+          "sources": [
+            {
+              "label": "hm Hongming zKillboard",
+              "url": "https://zkillboard.com/character/2114820390/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "实际带领龙骑作战，监视者记录辅助印证。",
+          "sources": [
+            {
+              "label": "DRL联盟变迁事件记录",
+              "url": "https://evemaps.dotlan.net/alliance/Dragon_Riders_Legion/events"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有持续追随的团友，管理争议不抹掉支持。",
+          "sources": [
+            {
+              "label": "龙骑团长红名债务复盘长帖",
+              "url": "https://tieba.baidu.com/p/8890123456"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "主军团与联盟双重实际掌舵，区域执政核心。",
+          "sources": [
+            {
+              "label": "DRL联盟变迁事件记录",
+              "url": "https://evemaps.dotlan.net/alliance/Dragon_Riders_Legion/events"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "持续更换高价值战船参战，个人战备达到B。",
+          "sources": [
+            {
+              "label": "hm Hongming zKillboard",
+              "url": "https://zkillboard.com/character/2114820390/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

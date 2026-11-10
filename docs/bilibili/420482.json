@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "420482",
   "name": "JonathanMayer",
   "url": "https://space.bilibili.com/420482/",
   "identity": {
     "state": "confirmed",
     "person": "jonathan-mayer",
-    "material": "src/people/jonathan-mayer/materials-jonathan-mayer.md",
+    "material": "src/people/jonathan-mayer/materials-jonathan-mayer.json",
     "label": "千秋",
     "evidence": [
       "对应Jonathan Mayer／92497884；明确角色对应，公开文字已归本人素材"
@@ -47,7 +47,7 @@
     "prior_notes": [
       {
         "text": "空间最新、实际点击最多播放首屏已经取得，代表系列候选并入筛选。下表记录实际取得范围；公开元数据与简介已读，评论只读加载的主线程与附带可见回复，不展开楼中楼，不看影像、音轨或字幕。作品owner为对应账号；未见公开联合创作署名者按本人投稿整理，不把战斗队友等同创作团队。",
-        "source": "src/people/jonathan-mayer/materials-jonathan-mayer.md"
+        "source": "src/people/jonathan-mayer/materials-jonathan-mayer.json"
       }
     ],
     "listings": [
@@ -390,9 +390,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jonathan-mayer/materials-jonathan-mayer.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -418,9 +415,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jonathan-mayer/materials-jonathan-mayer.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -446,9 +440,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jonathan-mayer/materials-jonathan-mayer.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -474,7 +465,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -500,9 +490,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jonathan-mayer/materials-jonathan-mayer.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

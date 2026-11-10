@@ -4,8 +4,8 @@
   "url": "https://tieba.baidu.com/p/10210391554",
   "title": "Hi， 有知道的能讲讲PH陨落的完整具体原因和故事吗？",
   "references": [
-    "src/people/bink-wang/materials-bink-wang.md",
-    "src/people/murphy222/materials-murphy222.md",
+    "src/people/bink-wang/materials-bink-wang.json",
+    "src/people/murphy222/materials-murphy222.json",
     "src/people/murphy222/murphy222.md"
   ],
   "legacy_records": [
@@ -13,7 +13,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10210391554",
-        "初始引用文件": "src/people/bink-wang/materials-bink-wang.md",
+        "初始引用文件": "src/people/bink-wang/materials-bink-wang.json",
         "首尾状态": "首尾已取",
         "接口回复数": "21",
         "主楼总页数": "1",

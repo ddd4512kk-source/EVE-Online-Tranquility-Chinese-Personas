@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "14264273",
   "name": "祖祖Limor",
   "url": "https://space.bilibili.com/14264273/",
@@ -17,7 +17,7 @@
         "label": "仓库提及，未核对应"
       },
       {
-        "material": "src/people/lao-ying/materials-lao-ying.md",
+        "material": "src/people/lao-ying/materials-lao-ying.json",
         "label": "仓库提及，未核对应"
       }
     ]
@@ -65,10 +65,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lao-ying/lao-ying.md",
-          "src/people/lao-ying/materials-lao-ying.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

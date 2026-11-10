@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "10974290",
   "name": "Fu1crum",
   "url": "https://space.bilibili.com/10974290/",
   "identity": {
     "state": "confirmed",
     "person": "fu1crum",
-    "material": "src/people/fu1crum/materials-fu1crum.md",
+    "material": "src/people/fu1crum/materials-fu1crum.json",
     "label": "表妹",
     "evidence": [
       "同名；AOM战事视频"
@@ -42,17 +42,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/fu1crum/materials-fu1crum.md"
+        "evidence": "src/people/fu1crum/materials-fu1crum.json"
       }
     },
     "prior_notes": [
       {
         "text": "空间65视频，最新与最多播放首页各42条入口已读；剩余历史页未全读。最高篇为SNUFFED OUT低安300无畏强杀征服者（失败）约4.3万，标题涉及他方视角／搬运，未认成本人经历或原创；国服PIBC宣传片约3.8万，AOM远征约1.1万。一龙与萌萌两页的旧评论加载失败未循环重读；旧文字覆盖仍复用。",
-        "source": "src/people/fu1crum/materials-fu1crum.md"
+        "source": "src/people/fu1crum/materials-fu1crum.json"
       },
       {
         "text": "复用UID10974290最新／最多播放首页各42条；另核合集页，未建合集。《救赎》九人合作继续排除，原署名与战役经历保留。此前加载失败的[《萌萌：我也中了馒狗的埋伏》](https://www.bilibili.com/video/BV1XE411r7kP/)本次用真实滚轮恢复20主线程，含可见回复预览；未展开其余折叠回复，未看影像、音频或字幕。本人上传、未见联合制作团队，简介也没有其他创作者署名。",
-        "source": "src/people/fu1crum/materials-fu1crum.md"
+        "source": "src/people/fu1crum/materials-fu1crum.json"
       }
     ],
     "listings": [
@@ -748,10 +748,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/fu1crum/materials-fu1crum.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介、作者回应及相关可见评论已核，工具取得20个主线程，余下线程未逐条核读。简介明确向PIBC/AOM/MASA成员致谢，附AOM招新与欧服入口。碎叶丶枯荣批评主观因素，质问主持与PIBC江山关系；Fu1crum答“败者组”并未在片中出现，称“我也就在PIBC待了10年吧，当了PIBC总指挥，的确挺路人的。”这支持国服任职自述，不把十年误写成总指挥任期十年。有人称2019年度片到2020年夏才发，机票叫“咕作温柔”；作者回应与催更入黑料。\n\n想读他怎样为AOM讲年度故事，这篇最合适。简介向PIBC、AOM、MASA成员致谢，评论区却从纪念册吵到“主持算不算路人”，作者亲自拿十年PIBC经历回应，作品和他的身份在这里接到了一起。"
       },
       "usage": {
         "body": true,
@@ -776,9 +774,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/fu1crum/materials-fu1crum.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -804,10 +799,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/fu1crum/materials-fu1crum.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者在评论解释交战一方的社区背景，也接住有关3V的起哄，片外又被催更；连同题目和简介读，最能看见这位战报作者的熟人损话风格。"
       },
       "usage": {
         "body": true,
@@ -832,10 +825,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/fu1crum/materials-fu1crum.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "从这篇认识他的战场宣传口味。简介主动交代部分内容为节目效果加入，配乐又用了葬礼进行曲；战报之外还添节目效果，他愿意先在简介里把这层心思交代出来。"
       },
       "usage": {
         "body": true,
@@ -860,14 +851,146 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/fu1crum/materials-fu1crum.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV13s411s7fe",
+      "title": "【PIBC】红光一闪，敌皆胆寒",
+      "url": "https://www.bilibili.com/video/BV13s411s7fe/",
+      "owner_uid": "10974290",
+      "published_at": "2016-11-27T15:21:10.000Z",
+      "captured_at": "2026-11-09T02:29:40.160Z",
+      "description": "PIBC携友军在普罗与北萌在北萌进行的干脆利落的战斗。",
+      "stats": {
+        "views": 8508,
+        "replies": 24
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和一条可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "简介称PIBC携友军在普罗与北萌交战，但地点措辞重复“北萌”，不据此补定星系。首批评论有人称COA新人不识“馒头”，有人担心PIBC称霸会对国服生态有负面影响；回复认为当时PIBC仍克制、没有要灭灯北盟。评论没有补足战斗时间或经过。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV13x411q74A",
+      "title": "【PIBC】南方超旗舰队征兵广告",
+      "url": "https://www.bilibili.com/video/BV13x411q74A/",
+      "owner_uid": "10974290",
+      "published_at": "2017-07-24T23:47:04.000Z",
+      "captured_at": "2026-11-09T02:30:01.023Z",
+      "description": "南方超旗舰队征兵广告",
+      "stats": {
+        "views": 7486,
+        "replies": 52
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "简介表明这是PIBC南方超旗舰队征兵广告。首批评论以北方是否也组超旗、将来内战及南北联盟关系打趣；一名评论者回忆等待北萌与PIBC交战多年，另一评论说长枪扫射的乐趣终需付代价。均为评论者闲谈，不能据此确认征募规模或后续战事。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Qx411m7MC",
+      "title": "【EVE】全EVE首次20长枪实战齐射！特武SEC永不为奴！",
+      "url": "https://www.bilibili.com/video/BV1Qx411m7MC/",
+      "owner_uid": "10974290",
+      "published_at": "2017-05-11T05:45:07.000Z",
+      "captured_at": "2026-11-09T02:28:58.457Z",
+      "description": "包括在世界服在内，首次在不依托任何建筑的情况下，进行20发长枪齐射。伽马安永不为奴！自由普罗！ 感谢PIBC南方超期舰队全体成员的不懈努力。",
+      "stats": {
+        "views": 13442,
+        "replies": 37
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论，未翻页或展开回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "简介称完成了不依托建筑的20发长枪齐射，口号为伽马安与普罗自由，并感谢PIBC南方超期舰队。首批可见评论是玩笑和阵营互怼，没有补充可核实的战斗时间、参战方或过程。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1SW411E7G7",
+      "title": "【EVE】[Fan Made] 战争召唤 4.5：PIBC 2017",
+      "url": "https://www.bilibili.com/video/BV1SW411E7G7/",
+      "owner_uid": "10974290",
+      "published_at": "2018-02-14T12:30:31.000Z",
+      "captured_at": "2026-11-09T02:28:37.935Z",
+      "description": "感谢PIBC联盟以及RnK所有成员，在过去的一年里对于我们的支持与帮助。\r\n\r\n新的一年里，也祝愿所有人身体健康，生活顺利。",
+      "stats": {
+        "views": 20880,
+        "replies": 301
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、简介、上传者UID及播放/评论数；阅读评论第一页返回的主评论和可见回复（含两条长篇自述），未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "标题标注Fan Made；简介仅致谢PIBC与RnK过去一年的支持。评论第一页有两名自称曾在希尔瓦娜斯的评论者回忆该团经历：一人描述初入虫洞团的友好社群与后来因指挥缺席、成员流失等转向PVE，之后一次会议及星城计划引发离开；另一人认可社群氛围，同时批评招新宣传、星域开发、新人训练与管理松散，称反对不成熟的虫洞生存/宣战PIBC设想后离团。第一位明确提示是个人记忆且可能不准确；两人均为评论者叙述，不等于UP本人陈述。另有评论肯定视频文案清楚，并建议旁白与激昂BGM错开。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1gt411U7qd",
+      "title": "【PIBC】诱导已开",
+      "url": "https://www.bilibili.com/video/BV1gt411U7qd/",
+      "owner_uid": "10974290",
+      "published_at": "2018-11-11T08:47:02.000Z",
+      "captured_at": "2026-11-09T02:29:19.307Z",
+      "description": "等待开服做的宣传短片",
+      "stats": {
+        "views": 12014,
+        "replies": 85
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、简介、上传者UID及播放/评论数；阅读评论第一页返回的主评论和可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "简介说明这是等待开服做的宣传短片。首批评论中有观众表示希望看到自己所属联盟最终被击溃、解散，并称是对悲剧结局的向往而非倒戈；回复围绕摧毁强者、享受PIBC胜利及反馒阵营打趣。另有评论谈到付费游戏体验，未形成对作品内容的补充。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "17754851",
   "name": "EVE波格得",
   "url": "https://space.bilibili.com/17754851/",
   "identity": {
     "state": "confirmed",
     "person": "pogue-was",
-    "material": "src/people/pogue-was/materials-pogue-was.md",
+    "material": "src/people/pogue-was/materials-pogue-was.json",
     "label": "波哥",
     "evidence": [
       "已归本人；与角色简介直播间是否同号未核"
@@ -42,33 +42,33 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/pogue-was/materials-pogue-was.md"
+        "evidence": "src/people/pogue-was/materials-pogue-was.json"
       }
     },
     "prior_notes": [
       {
         "text": "| [BV17PM36UE1e](https://www.bilibili.com/video/BV17PM36UE1e/) | 【直播趣事】单浪高价值击杀合集 |",
-        "source": "src/people/pogue-was/materials-pogue-was.md"
+        "source": "src/people/pogue-was/materials-pogue-was.json"
       },
       {
         "text": "| [BV1DY9hBzEsZ](https://www.bilibili.com/video/BV1DY9hBzEsZ/) | 【EVE波格得】最新视频来袭，快来看看吧！ |",
-        "source": "src/people/pogue-was/materials-pogue-was.md"
+        "source": "src/people/pogue-was/materials-pogue-was.json"
       },
       {
         "text": "[本人空间UID17754851](https://space.bilibili.com/17754851/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/pogue-was/materials-pogue-was.md"
+        "source": "src/people/pogue-was/materials-pogue-was.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/pogue-was/materials-pogue-was.md"
+        "source": "src/people/pogue-was/materials-pogue-was.json"
       },
       {
         "text": "**出处与已读范围：** 《【10/16日记】我拿我的ESS，你组你的队。》公开页面截图，发布时间显示 2026-10-16 15:26:58，计数显示 521 播放、0 弹幕；左上水印“EVE波格得 bilibili”。只读这张截图，未读视频、音频、字幕、简介与评论；未取得该篇 BV，后续复用本人 UID 17754851 的投稿入口定位。不以页面发布日期代替战斗时间。",
-        "source": "src/people/pogue-was/materials-pogue-was.md"
+        "source": "src/people/pogue-was/materials-pogue-was.json"
       },
       {
         "text": "按已归档双排序候选续读以下5篇公开元数据、简介和主评论线程，作者均为 EVE波格得（UID17754851），未见联合制作署名；影像、音频、字幕均未读。5条均已作为文字内容与作品互动推荐入文，不评价视听质量，不把评论转述代作独立战报。已读主线程分别20、20、20、18、17，共95个，折叠回复尚未全读。频道334条投稿的双排序只覆盖首页，5组合集内容仍未读；作品推荐完成不代表频道全量阅读。",
-        "source": "src/people/pogue-was/materials-pogue-was.md"
+        "source": "src/people/pogue-was/materials-pogue-was.json"
       }
     ],
     "listings": [
@@ -2675,9 +2675,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/pogue-was/materials-pogue-was.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2703,10 +2700,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/pogue-was/materials-pogue-was.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "AT“轮椅”与收割、反收割的双重标准之争，让他的出门倡议遇到了具体反问。最有波哥味的细节，是吵架时仍要替蹲了自己一小时的冰霜奇缘认领功劳。"
       },
       "usage": {
         "body": true,
@@ -2731,10 +2726,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/pogue-was/materials-pogue-was.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "看波哥如何跟质疑者拆招，比只看标题的豪言更有意思。作者亲自讲到雷兽、长尾与截击的保护和“四个保一个”的配合；国服新船的卖点，也成了他与追战损观众互呛的引线。"
       },
       "usage": {
         "body": true,
@@ -2759,9 +2752,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/pogue-was/materials-pogue-was.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2787,13 +2777,146 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/pogue-was/materials-pogue-was.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "跟队新人报喜，开头金鹏的驾驶员来认四十亿学费，作者补充跳桥出口偶遇的经过；这期的趣味落在猎人与苦主相会的售后现场，最后还有一声捡残骸“黑了”。"
       },
       "usage": {
         "body": true,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV16P3iz1ESz",
+      "title": "ETC吉他海关-今日最佳KB，盾/甲/结构三抗神装实践（EVE版三郎）",
+      "url": "https://www.bilibili.com/video/BV16P3iz1ESz/",
+      "owner_uid": "17754851",
+      "published_at": "2025-07-06T11:57:48.000Z",
+      "captured_at": "2026-11-09T02:42:53.815Z",
+      "description": "-",
+      "stats": {
+        "views": 2017,
+        "replies": 4
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对标题、空简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和一条可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "标题提到吉他海关与盾/甲/结构三抗配装，但简介为空。首屏只有少量评论：有人问标题与视频内容关系，回复称是引流；另一位评论者称自己的实战配装堆了盾扩和钢板。内容线索有限，无法从文字确认具体舰船、配装数值或击杀过程。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1JpCxB1ESR",
+      "title": "【EVE教学】EVE~Q手动走位零基础教学！",
+      "url": "https://www.bilibili.com/video/BV1JpCxB1ESR/",
+      "owner_uid": "17754851",
+      "published_at": "2025-11-13T10:18:55.000Z",
+      "captured_at": "2026-11-09T02:42:12.620Z",
+      "description": "",
+      "stats": {
+        "views": 2202,
+        "replies": 27
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对标题、空简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "标题标为EVE零基础Q键手动走位教学，简介为空。评论称教程是因队友不会用Q移动而做；有玩家说此前一直用菜单点目标，有玩家讨论PVE玩家较多、PVP活跃者少和服务器新人增长慢，上传者以“这话听了20年”打趣回应。评论还把想用手柄开飞机的新人引向《无人深空》，不据评论扩写教程步骤。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1NWQKBXET6",
+      "title": "《EVE评论》VVV的老鼠屎",
+      "url": "https://www.bilibili.com/video/BV1NWQKBXET6/",
+      "owner_uid": "17754851",
+      "published_at": "2026-04-11T02:31:54.000Z",
+      "captured_at": "2026-11-09T02:42:33.091Z",
+      "description": "-",
+      "stats": {
+        "views": 2020,
+        "replies": 76
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对标题、占位简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "标题为《EVE评论》“VVV的老鼠屎”，简介只有“-”。首屏评论提及作者黑眼圈、建议去宁静服玩并称延迟已有改善，也有人把国服与强化船比作《热血传奇》；另有评论者就AT被抓、ESS设伏与是否接战攻击作者，回复双方争辩先进入ESS是否该获得对方应战，上传者回称对方既来评论自己也会回复。上述指控与评价仅属评论争论，未核实事件经过。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1dkk2BbEwr",
+      "title": "【EVE教学】00地区抓人教学-基础5度分析",
+      "url": "https://www.bilibili.com/video/BV1dkk2BbEwr/",
+      "owner_uid": "17754851",
+      "published_at": "2025-11-12T02:55:25.000Z",
+      "captured_at": "2026-11-09T02:41:31.321Z",
+      "description": "",
+      "stats": {
+        "views": 2563,
+        "replies": 42
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对标题、空简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "标题为00地区抓人教学，简介为空。评论问如何抓深空点反复跳跃的目标，上传者回复用作战针；另有观众询问快捷键，上传者说明按住V点异常、定向扫描器闪动表示扫描完成。只记录评论与作者在评论区给出的操作说明，未看到教程影像本身。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1gYr8BqEYu",
+      "title": "【EVE战斗讲解】偶遇海盗，加入战场，跟\"VVV\"的默契配合！",
+      "url": "https://www.bilibili.com/video/BV1gYr8BqEYu/",
+      "owner_uid": "17754851",
+      "published_at": "2026-01-12T02:23:50.000Z",
+      "captured_at": "2026-11-09T02:41:51.995Z",
+      "description": "",
+      "stats": {
+        "views": 2335,
+        "replies": 33
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对标题、空简介、上传者UID及播放/评论数；阅读评论第一页返回的三条主评论和可见回复，未翻页或展开隐藏回复；未看画面、声音、字幕。",
+        "reviewed_at": "2026-11-09",
+        "digest": "标题称偶遇海盗后与VVV配合加入战场，简介为空。评论将情节解读为海盗通常按声望互动、遇到部分00联盟时又会一致对外；另有评论称00支援中既有新手也有资深玩家。自称参战者的评论说自己火力不足，回复讨论其船与作者舰船的价值差距，上传者简短回应。评论不能确认实际战场、双方身份或战果。"
+      },
+      "usage": {
+        "body": false,
         "selected": false
       }
     }

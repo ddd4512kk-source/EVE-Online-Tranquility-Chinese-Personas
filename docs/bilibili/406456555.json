@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "406456555",
   "name": "没有姓名字",
   "url": "https://space.bilibili.com/406456555/",
   "identity": {
     "state": "confirmed",
     "person": "evildobar",
-    "material": "src/people/evildobar/materials-evildobar.md",
+    "material": "src/people/evildobar/materials-evildobar.json",
     "label": "光头",
     "evidence": [
       "评论区直呼UP“光头”“头哥”；小号noarus的KM与《真男人钓鱼》视频吻合；【飞行甲板】系列"
     ],
     "related": [
       {
-        "material": "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+        "material": "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.json",
         "label": "战役相关视频"
       }
     ]
@@ -43,11 +43,11 @@
     "prior_notes": [
       {
         "text": "**频道概况**：69 条投稿（2020-07—2026-01），粉丝约570，签名空。主体是【飞行甲板】系列（2022-08 起），FRT 旗舰、黑隐、炸弹战列第一视角；飞行甲板为 FRT 高端 PVP 组织（[贴吧 9283698657](https://tieba.baidu.com/p/9283698657)，2024-11 称已解散）。另有【洛阳铲】考古（2009 年自制首个视频、YouTube @EVE-Files）、【人物访谈】探寻猪之秘境-Noarus（2025-11，“原来猪头长这样”）、《EVE欧服华人现状》（2022-03，约1.5万播放，评论吵 FRT／AOM 风评）、《一路上寻找我遗失的21个锶包》（建军简介所挂，见[建军素材](../jianjun-aideron/materials-jianjun-aideron.md)）。最多播放：真男人钓鱼 6.5万、实战是检验旗舰配置的唯一标准 2.0万、EVE欧服华人现状 1.5万、谁才是真正的无畏高手 1.4万、导弹丛中过 1.1万、吃归魂记 1.1万。",
-        "source": "src/people/evildobar/materials-evildobar.md"
+        "source": "src/people/evildobar/materials-evildobar.json"
       },
       {
         "text": "代表签名：[KM 125016212](https://zkillboard.com/kill/125016212/)。",
-        "source": "src/people/evildobar/materials-evildobar.md"
+        "source": "src/people/evildobar/materials-evildobar.json"
       }
     ],
     "listings": [
@@ -563,9 +563,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -586,16 +583,15 @@
         "replies": 16
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md",
-          "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "（没有姓名字）：从本场战报里挑出非旗舰伤害第一名拆解，简介落在“知己知彼选弹药”，别只会问FC首发打什么弹。"
       },
       "usage": {
         "body": false,
@@ -620,9 +616,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -649,10 +642,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md#bili-bv13z421w7ym"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "### [【洛阳铲】15年前自制的首个EVE视频——暴打老任（不是](https://www.bilibili.com/video/BV13Z421W7YM/)"
       },
       "usage": {
         "body": false,
@@ -672,15 +663,15 @@
         "replies": 16
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "**罪恶之死（2024-03-18）**：[《甲板再曝丑闻！AT赛冠军自带250惨死战场》](https://www.bilibili.com/video/BV12J4m1b7Nz/)（2024-03-18）简介“如果你看不懂标题可以看视频结尾”。评论“up主你的sin还好么”，UP回“打完这场就退役”。zKB：noarus 的罪恶当天 13:34 在 8QT-H4 被 8 人击毁（[KM 116347495](https://zkillboard.com/kill/116347495/)，约 1.63B）；之前 06:43 在 RKM-GE 驾驶罪恶参与击杀大鱼（KM 116343139，约 8.8B），罪恶死后三分钟以太空舱挂上 123 人击杀奇美拉的名单（KM 116347565）。本人是 AT19 冠军，标题“AT赛冠军”大概自指；视频结尾未看，不补具体死因。"
       },
       "usage": {
         "body": false,
@@ -700,15 +691,15 @@
         "replies": 56
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- 《谁才是真正的无畏高手》（2023-10-24）：简介称“开着大电蚊拍，抱着诸位FC就是一顿电”，含无畏高手与FC跳船桥段；评论盛赞龙根长枪，UP称其“长枪职校校长”。"
       },
       "usage": {
         "body": false,
@@ -728,15 +719,15 @@
         "replies": 44
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "《实战是检验旗舰配置的唯一标准》：19971播放；简介以“紧急损控怎么也能深渊了”设问，接续标题的实战配置主题。"
       },
       "usage": {
         "body": false,
@@ -756,15 +747,15 @@
         "replies": 73
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- 《导弹丛中过 片叶不沾身》（2023-03-21）：炸弹巴盖斯当防火墙炸导弹，简介称“2小时战斗 1100%快进”，作者说跑到最后自己也直迷糊；多名友军抱怨自家无人机被他炸掉，UP回“我敢保证是无人机先动的手”；有人嘲“frt家都要没了还发视频”，UP回“酸视频权是吧”。"
       },
       "usage": {
         "body": false,
@@ -789,9 +780,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -812,15 +800,15 @@
         "replies": 250
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "**小号 noarus（2119031117）**：2021-08-26 建号当天进 Nuwa Foundation，至今未动；头衔“PERMA evildoBANNED”，简介一行打 1DQ1-A 凛冬铁壁的战斗日志。名字是 N老板（Noraus，因买金被永封）的错位高仿，头衔把 evildo（EvilDobar）塞进“永封”里，不是 N老板小号。对应依据：[《真男人钓鱼》](https://www.bilibili.com/video/BV1U24y1q7z2/)视频（2023-02-11发布）评论有人贴 4-HWWF 当日 related 链接问“是猪猪的号？N老板站起来叻！！”，另一人回“应该是高仿号”；zKB 核 noarus 2023-02-11 05:13–05:17 在 4-HWWF 驾驶莫洛级海军型连续参与击杀净化、猎犬等隐轰（KM 106729660—106729764，多条单人击杀），与视频内容一致；同期 EvilDobar 本号在 4-HWWF 无该日记录。zKB 全期参与击杀 411，其中莫洛级海军型 237、罪恶 62。2026-04 女娲月榜第27（13杀）。按“同团＋本人视频驾驶”归本人小号。\n\n《真男人钓鱼 愿者上钩》（BV1U24y1q7z2）已在正文钓鱼故事展开，即使正文使用简称、未重挂BV，也不再列入作品精选。正文与来源保留。"
       },
       "usage": {
         "body": true,
@@ -840,15 +828,15 @@
         "replies": 57
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为没有姓名字（UID 406456555）；页面文字未明确外部原作者或团队署名，不据上传归属断言实际操作者或完整制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及首页前3条主评论和直接可见作者回复；未翻页，未展开其他楼中楼；未读视频影像、音轨或字幕，摘要限于页面文字。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- 《你先别急 | 吃归魂记》（2022-11-13）：简介称上回诱导专员早开5秒诱导被打死、导致半队人进不去、归魂逃走，苦主立下flag后再去吃一次；评论称用蓝＋轻拦硬抓。简介原文“归魂逃之天天”保留为原文。"
       },
       "usage": {
         "body": false,
@@ -874,10 +862,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md#bili-bv14w4y117bz"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "### [EVE - 单人6开4帕拉丁12分钟速刷C5核心兵站](https://www.bilibili.com/video/BV14W4y117Bz/)"
       },
       "usage": {
         "body": false,
@@ -903,10 +889,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md#bili-bv1cs4y1h7jg"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "### [【EVE】一路上寻找我遗失的21个锶包](https://www.bilibili.com/video/BV1CS4y1h7JG/)"
       },
       "usage": {
         "body": false,
@@ -931,9 +915,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/evildobar/materials-evildobar.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

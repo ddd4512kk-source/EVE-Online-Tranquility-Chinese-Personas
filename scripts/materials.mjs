@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 import { readOrganizations, readCharacters, characterArchivePath } from './corporation-archive.mjs';
+import { materialPath, readMaterial, validateMaterial } from './material-document.mjs';
 
 export const HISTORY = 'docs/sources/material-index-legacy-2026-10-22.jsonl';
 const KINDS = ['person', 'battle', 'source', 'lead', 'bilibili', 'corporation', 'character'];
@@ -11,20 +12,20 @@ const HELP = `离线定位已有材料；目录从正式档案按需生成，不
 
 用法：npm run materials -- [关键词] [选项]
   --kind <类别>   person / battle / source / lead / bilibili / corporation / character
-  --full-text     另搜素材正文；必须有关键词，返回首个命中行号和短摘记
+  --full-text     另搜素材正文与B站作品摘要；必须有关键词，返回命中位置和短摘记
   --limit <数量>  每页最多返回条数，默认 20，必须为正整数
   --offset <数量> 跳过的命中数，默认 0，必须为非负整数
   --history       只查冻结旧索引；必须有关键词，不与 --kind / --full-text 混用
   --help          显示帮助，不读取档案；须单独使用
 
-关键词默认匹配名称、短名、别名、已登记小号／账号、ID及路径，忽略英文大小写。
+关键词默认匹配名称、短名、别名、已登记小号／账号、ID、路径及B站作品标题／key，忽略英文大小写。
 多个关键词参数合成一个含空格的短语。无关键词且未指定类别时只报各类数量。
 输出 JSON：counts 为分类数量，total 为命中总数，records 为当前页。
 需纯 JSON 时用 npm run --silent materials -- ...。
 人物取 <ID>-id.json，战役取同名 JSON 的 battle，来源／线索取 Markdown 标题与路径，
 B站取 docs/bilibili/<UID>.json；军团与共享角色取 docs/corporations/。
 军团榜单只作固定线索，旧阅读记录不覆盖当前人物身份；素材不存在时 material 为 null。
-结果只定位文件，不证明已经核读、事件成立或调查完成；沿 material 读取事件与依据。
+结果只定位文件，不证明已经核读、事件成立或调查完成；沿 material 读事件整合，沿 archive 与作品key读B站摘要。
 
 示例：
   npm run materials -- "七喜"
@@ -46,8 +47,24 @@ const fold = value => String(value).normalize('NFKC').toLowerCase();
 const title = text => text.match(/^#{1,6}\s+(.+)$/m)?.[1] ?? '';
 const markdownFiles = (root, directory) => names(root, directory).flatMap(name => {
   const file = `${directory}/${name}`;
-  return fs.statSync(path.join(root, file)).isDirectory() ? markdownFiles(root, file) : file.endsWith('.md') ? [file] : [];
+  if (fs.statSync(path.join(root, file)).isDirectory()) return markdownFiles(root, file);
+  if (file.endsWith('.md')) return [file];
+  if (!file.endsWith('.json')) return [];
+  const data = JSON.parse(read(root, file));
+  if (data?.type !== 'material') {
+    if (/materials-[^/]+\.json$/.test(file)) readMaterial(path.join(root, file));
+    return [];
+  }
+  const errors = validateMaterial(data, file);
+  if (errors.length) readMaterial(path.join(root, file));
+  return [file];
 });
+
+const materialExists = (root, directory, slug) => {
+  const absolute = materialPath(path.join(root, directory), slug);
+  return fs.existsSync(absolute) ? path.relative(root, absolute).split(path.sep).join('/') : null;
+};
+const materialTitle = (root, file) => file.endsWith('.json') ? JSON.parse(read(root, file)).title : title(readMaterial(path.join(root, file)));
 
 export function collectMaterials(root) {
   const records = [];
@@ -56,25 +73,27 @@ export function collectMaterials(root) {
     if (!exists(root, body)) continue;
     const { archive, data, archiveFile } = readPersonDocument(path.join(root, body));
     const identity = archive.identity ?? {};
+    const material = materialExists(root, directory, slug);
     records.push({ kind: 'person', slug, title: data.cn_name || archive.name || slug,
       character_id: archive.id, name: archive.name, aliases: data.aliases ?? [],
       alts: (identity.alts ?? []).map(({ id, name }) => ({ id, name })),
       accounts: identity.accounts ?? {},
       body, archive: path.relative(root, archiveFile).split(path.sep).join('/'),
-      material: exists(root, `${directory}/materials-${slug}.md`) ? `${directory}/materials-${slug}.md` : null });
+      material, material_title: material ? materialTitle(root, material) : null });
   }
   for (const slug of names(root, 'src/battles')) {
     const directory = `src/battles/${slug}`, body = `${directory}/${slug}.md`, archive = `${directory}/${slug}.json`;
     if (!exists(root, body) || !exists(root, archive)) continue;
     const { battle } = JSON.parse(read(root, archive));
     if (!battle) throw new Error(`${archive}：缺少 battle 配置`);
+    const material = materialExists(root, directory, slug);
     records.push({ kind: 'battle', slug, title: battle.title, aliases: battle.aliases ?? [],
       start: battle.start, end: battle.end, systems: battle.systems ?? [], body, archive,
-      material: exists(root, `${directory}/materials-${slug}.md`) ? `${directory}/materials-${slug}.md` : null });
+      material, material_title: material ? materialTitle(root, material) : null });
   }
   for (const [directory, kind] of [['docs/sources', 'source'], ['docs/leads', 'lead'], ['docs/corporations/notes', 'source']]) {
     for (const material of markdownFiles(root, directory)) {
-      records.push({ kind, title: title(read(root, material)) || path.basename(material), material });
+      records.push({ kind, title: materialTitle(root, material) || path.basename(material), material });
     }
   }
   const people = new Map(records.filter(record => record.kind === 'person').map(record => [record.slug, record]));
@@ -93,7 +112,7 @@ export function collectMaterials(root) {
   for (const organization of readOrganizations(root)) {
     records.push({ kind: 'corporation', corporation_id: organization.id, title: organization.names[0],
       aliases: organization.names.slice(1), labels: organization.account_groups.map(group => group.label), archive: organization.archive,
-      material: organization.references.find(reference => reference.endsWith('.md')) ?? null });
+      material: organization.references.find(reference => /\.md$|\.json$/.test(reference)) ?? null });
   }
   for (const character of Object.values(readCharacters(root))) {
     const person = identities.get(character.id);
@@ -106,6 +125,29 @@ export function collectMaterials(root) {
   return records;
 }
 
+const excerpt = (text, needle) => {
+  const start = Math.max(0, fold(text).indexOf(needle) - 80);
+  return text.slice(start, start + 280);
+};
+
+function matchingText(value, needle, field = '') {
+  if (typeof value === 'string') return fold(value).includes(needle) ? { field, excerpt: excerpt(value, needle) } : null;
+  if (!value || typeof value !== 'object') return null;
+  for (const [key, child] of Object.entries(value)) {
+    const found = matchingText(child, needle, field ? `${field}.${key}` : key);
+    if (found) return found;
+  }
+  return null;
+}
+
+function workMatches(root, archive, needle, fullText) {
+  const profile = JSON.parse(read(root, archive));
+  return [...(profile.videos ?? []), ...(profile.posts ?? [])].flatMap(work => {
+    const found = matchingText(fullText ? work : { bvid: work.bvid, key: work.key, title: work.title, url: work.url }, needle);
+    return found ? [{ archive, key: work.bvid ?? work.key, url: work.url, ...found }] : [];
+  });
+}
+
 export function searchMaterials(root, { query = '', kind, fullText = false, history = false, limit = 20, offset = 0 } = {}) {
   if (kind && !KINDS.includes(kind)) throw new Error(`kind 必须是 ${KINDS.join(' / ')}`);
   if (!Number.isSafeInteger(limit) || limit < 1 || !Number.isSafeInteger(offset) || offset < 0) throw new Error('limit 必须为正整数，offset 必须为非负整数');
@@ -114,18 +156,32 @@ export function searchMaterials(root, { query = '', kind, fullText = false, hist
   let records = history ? (exists(root, HISTORY) ? read(root, HISTORY).trim().split('\n').filter(Boolean).map(JSON.parse) : []) : collectMaterials(root);
   const counts = history ? { historical: records.length } : Object.fromEntries(KINDS.map(k => [k, records.filter(r => r.kind === k).length]));
   const needle = fold(query.trim());
+  const archives = records.filter(record => record.kind === 'bilibili').map(record => record.archive);
+  const matches = new Map();
+  const findWorks = archive => {
+    if (!matches.has(archive)) matches.set(archive, workMatches(root, archive, needle, fullText));
+    return matches.get(archive);
+  };
   records = records.filter(record => {
     if (kind && record.kind !== kind) return false;
     if (!needle || fold(JSON.stringify(record)).includes(needle)) return true;
-    if (!fullText || !record.material?.endsWith('.md') || !exists(root, record.material)) return false;
-    const lines = read(root, record.material).split('\n');
+    if (record.kind === 'bilibili') {
+      const found = findWorks(record.archive)[0];
+      if (found) { record.match = found; return true; }
+    }
+    if (!fullText || !record.material || !exists(root, record.material)) return false;
+    const text = readMaterial(path.join(root, record.material)), lines = text.split('\n');
     const at = lines.findIndex(line => fold(line).includes(needle));
-    if (at < 0) return false;
-    const line = lines[at];
-    // Keep output bounded even when a material has a long prose line.
-    const matchAt = Math.max(0, fold(line).indexOf(needle) - 80);
-    record.match = { line: at + 1, excerpt: line.slice(matchAt, matchAt + 280) };
-    return true;
+    if (at >= 0) {
+      record.match = { line: at + 1, excerpt: excerpt(lines[at], needle) };
+      return true;
+    }
+    // 摘记迁入JSON后，沿素材内的作品引用查询，保留人物与战役原有的全文召回。
+    for (const archive of archives) {
+      const found = findWorks(archive).find(work => text.includes(work.key.startsWith('BV') ? work.key : work.url));
+      if (found) { record.match = found; return true; }
+    }
+    return false;
   });
   return { ...(history ? { historical: true, warning: '冻结旧索引；只作检索线索，当前身份、收录和阅读状态须核正式档案。' } : {}),
     counts, total: records.length, offset, limit,

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "23454047",
   "name": "奈男树",
   "url": "https://space.bilibili.com/23454047/",
   "identity": {
     "state": "confirmed",
     "person": "knighthood-abc",
-    "material": "src/people/knighthood-abc/materials-knighthood-abc.md",
+    "material": "src/people/knighthood-abc/materials-knighthood-abc.json",
     "label": "米拉",
     "evidence": [
       "对应Knighthood ABC／2112406877；明确角色对应，公开文字已归本人素材"
@@ -42,21 +42,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/knighthood-abc/materials-knighthood-abc.md"
+        "evidence": "src/people/knighthood-abc/materials-knighthood-abc.json"
       }
     },
     "prior_notes": [
       {
         "text": "大鱼保护伞简介自嘲震撼忘注电，评论保险玩笑只作起哄；泰坦一作作者解释用无畏钓大航、遇泰坦过门；元帅一作感谢茶米与布朗辅助位没签名，不把战斗协助当创作团队署名。扫描旧作滚轮超时，待读，不能当淘汰。",
-        "source": "src/people/knighthood-abc/materials-knighthood-abc.md"
+        "source": "src/people/knighthood-abc/materials-knighthood-abc.json"
       },
       {
         "text": "空间最新、实际点击最多播放首屏已经取得，代表系列候选并入筛选。下表记录实际取得范围；公开元数据与简介已读，评论只读加载的主线程与附带可见回复，不展开楼中楼，不看影像、音轨或字幕。作品owner为对应账号；未见公开联合创作署名者按本人投稿整理，不把战斗队友等同创作团队。",
-        "source": "src/people/knighthood-abc/materials-knighthood-abc.md"
+        "source": "src/people/knighthood-abc/materials-knighthood-abc.json"
       },
       {
         "text": "| [【EVE欧服】G.O.T 近期砸GOONS保护伞合集](https://www.bilibili.com/video/BV112Vn6BET3/) | 2026-05-31 | 12 | 已读；正文与精选见列传 |",
-        "source": "src/people/knighthood-abc/materials-knighthood-abc.md"
+        "source": "src/people/knighthood-abc/materials-knighthood-abc.json"
       }
     ],
     "listings": [
@@ -995,10 +995,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/knighthood-abc/materials-knighthood-abc.md#bili-bv1nagf6qeky"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "### [【EVE欧服】吉他宣战党元帅击杀 <红楼出品>](https://www.bilibili.com/video/BV1NAgF6qEKY/)"
       },
       "usage": {
         "body": false,
@@ -1023,7 +1021,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1049,9 +1046,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/knighthood-abc/materials-knighthood-abc.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1077,9 +1071,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/knighthood-abc/materials-knighthood-abc.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1105,14 +1096,146 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/knighthood-abc/materials-knighthood-abc.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV12E411i7pZ",
+      "title": "【EVE Online】I'm back ，Init 震撼回归！",
+      "url": "https://www.bilibili.com/video/BV12E411i7pZ/",
+      "owner_uid": "23454047",
+      "published_at": "2019-11-06T23:35:17.000Z",
+      "captured_at": "2026-11-08T17:03:45.792Z",
+      "description": "The Initiative",
+      "stats": {
+        "views": 1904,
+        "replies": 5
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "digest": "简介仅标注 The Initiative。评论讨论 INIT 是否回归及“独狼”玩法，没有足以确认联盟状态、具体战斗或 UP 主参与情况的信息，也未见 UP 主回应。",
+        "scope": "核对作品页简介及评论 API 首屏主评论；未翻页或展开楼中楼，未读影像、音轨或字幕。评论中的联盟状态说法未独立核实。",
+        "reviewed_at": "2026-11-08T17:07:22.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1AE411v7uu",
+      "title": "【EVE Online】Lussy lou 低安无双小克",
+      "url": "https://www.bilibili.com/video/BV1AE411v7uu/",
+      "owner_uid": "23454047",
+      "published_at": "2019-11-09T00:55:32.000Z",
+      "captured_at": "2026-11-08T17:03:04.853Z",
+      "description": "",
+      "stats": {
+        "views": 2162,
+        "replies": 4
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "digest": "简介为空。评论调侃拉克西斯配置，并有人询问是否转载；UP主回复“嗯对”，确认这是转载内容，不应当作 UP 主本人的洛基战绩。",
+        "scope": "核对作品页空简介及评论 API 首屏主评论和可见直接回复；未翻页或展开楼中楼，未读影像、音轨或字幕。转载确认来自 UP 主直接回复。",
+        "reviewed_at": "2026-11-08T17:07:22.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1WJ41117QV",
+      "title": "【EVE Online】Inner Hell - 不管是脚本还是挂机，我们一样吃了你",
+      "url": "https://www.bilibili.com/video/BV1WJ41117QV/",
+      "owner_uid": "23454047",
+      "published_at": "2019-11-19T15:46:36.000Z",
+      "captured_at": "2026-11-08T17:03:25.331Z",
+      "description": "-",
+      "stats": {
+        "views": 2020,
+        "replies": 22
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "digest": "简介为“-”。评论调侃安全下线、虫洞规避和反收割，也有人对飞行员或配置作推测；这些评论不能证明标题涉及的行为或实际战斗。",
+        "scope": "核对作品页简介及评论 API 首屏主评论；未翻页或展开楼中楼，未读影像、音轨或字幕。评论中的行为与配置推测未独立核实。",
+        "reviewed_at": "2026-11-08T17:07:22.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1dJ411U7YC",
+      "title": "【EVE Online】Inner Hell - 势力血袭者无畏 Chemosh 击杀录",
+      "url": "https://www.bilibili.com/video/BV1dJ411U7YC/",
+      "owner_uid": "23454047",
+      "published_at": "2019-11-16T19:46:18.000Z",
+      "captured_at": "2026-11-08T17:02:44.007Z",
+      "description": "Inner Hell",
+      "stats": {
+        "views": 2231,
+        "replies": 10
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "digest": "简介仅标注 Inner Hell。评论围绕 Inner Hell 的战斗表现及高端虫洞团实力作评价和争论，未给出可核实的击杀细节，也未见 UP 主回应。",
+        "scope": "核对作品页简介及评论 API 首屏主评论；未翻页或展开楼中楼，未读影像、音轨或字幕。评论属于观众评价，未独立核实。",
+        "reviewed_at": "2026-11-08T17:07:22.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1tE411v7Zt",
+      "title": "【EVE Online】Inner Hell 抓夜神全程",
+      "url": "https://www.bilibili.com/video/BV1tE411v7Zt/",
+      "owner_uid": "23454047",
+      "published_at": "2019-11-09T09:04:54.000Z",
+      "captured_at": "2026-11-08T17:02:23.152Z",
+      "description": "Inner Hell",
+      "stats": {
+        "views": 2520,
+        "replies": 15
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "digest": "简介仅标注 Inner Hell。评论有人称其团队的航母曾获救，UP主回复说自己会持续关注 Inner Hell 的更新；另有评论称其为搬运，UP主未说明原创来源。评论未提供可独立核实的战斗细节。",
+        "scope": "核对作品页简介及评论 API 首屏的主评论与可见直接回复；未翻页或展开楼中楼，未读影像、音轨或字幕。评论中的经历与来源说法未独立核实。",
+        "reviewed_at": "2026-11-08T17:07:22.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "status": "reviewed",
-  "note": "独立通读正文与素材，CEO短篇事件已逐件称量与采用",
+  "note": "接手老号的低安土著CEO重构完成，剔除旧账，主线平衡",
   "evidence": [
     "src/people/la-rusa/materials-la-rusa.md",
     "src/people/la-rusa/la-rusa.md"
@@ -8,43 +8,39 @@
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "通读正文与素材：军团简介全文、雇佣记录、个人简介、六条结构KM、Obe泰坦KM、阿巴宗参战均入文；旧招新帖不归本人未写正确。",
+      "note": "通读正文与素材：2026年接手老号核定、军团简介全文、低安出勤高频战绩、阿巴宗参战与欧贝泰坦KM均已如实入文；前号主拆房旧事与无关旧招新帖已正确剥离与排除。",
       "evidence": [
         {
           "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## 2026-11-01补充"
-        },
-        {
-          "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## KB与已确认经历"
+          "heading": "## 角色买卖与号主变更核实（2026-11）"
         }
       ]
     },
     "events": {
       "status": "reviewed",
-      "note": "事件为结构击杀、泰坦参与与军团简介，无本人重大争议。",
+      "note": "事件为接手老号任CEO及双语告示、高频巡逻战绩与欧贝泰坦击杀，无本人重大争议。",
       "evidence": [
         {
           "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## KB与已确认经历"
+          "heading": "## 2026-02 起本人有效战绩与经历"
         }
       ],
-      "noHeavyReason": "无社区争议或本人重大言行；泰坦击杀为参与（伤害835），结构KM为随队参与，均按红料战果写，不抬为重事。",
+      "noHeavyReason": "无社区争议或本人重大言行；泰坦击杀为参与（伤害835），高频巡逻为战绩总结，CEO任职依公开简介，均按普通红料记述。",
       "items": [
         {
-          "title": "J132601一天拆四栋建筑",
+          "title": "“This is a CN corp”与CEO职务",
           "weight": "ordinary",
-          "reason": "代表性虫洞拆房战斗，本人非最后一击。",
+          "reason": "CEO任职依据与双语告示拒老外的反差。",
           "source": {
             "file": "src/people/la-rusa/materials-la-rusa.md",
-            "heading": "## KB与已确认经历"
+            "heading": "## 2026-02 起本人有效战绩与经历"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/la-rusa/la-rusa.md",
-            "contains": "真正的大活在五天后"
+            "contains": "接手老号当上 CEO，奈何给军团立的规矩很干脆：简介第一句是“沉默旅人 低安土著军团，专注于中小规模内容”，紧接着一句英文写给老外看：“This is a CN corp and is temporarily not accepting members who speak other languages.”请勿直接申请，加团先找 CEO。沉默旅人如今一百七十多个角色，挂在 Shadow Cartel 联盟。奈何自己管中文和欧洲时区，外交官 Pour Rien 管美洲时区，明明是个纯华人团，偏要用英文把老外挡在门外。"
           },
-          "note": "时间、估值与伤害准确。"
+          "note": "简介原文与双语时区分工入文。"
         },
         {
           "title": "参与Obe泰坦击杀",
@@ -52,53 +48,46 @@
           "reason": "高值旗舰击杀算红料，但本人只是参与。",
           "source": {
             "file": "src/people/la-rusa/materials-la-rusa.md",
-            "heading": "## KB与已确认经历"
+            "heading": "## 2026-02 起本人有效战绩与经历"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/la-rusa/la-rusa.md",
-            "contains": "2026 年 10 月 10 日，Obe 那场"
+            "contains": "到了 10 月 10 日，[欧贝](../../battles/obe-2026/)那场烧掉六万多亿的大混战里，一台俄洛巴斯泰坦被打爆，估值一千五百多亿。KM 的攻击者名单里赫然挂着奈何的名字：开的是一条小小的净化隐身轰炸舰，轰出一发鱼雷打出八百三十五点伤害。放在泰坦几千万的血量上，这点伤害连给护盾挠痒痒都嫌轻，但千亿 KM 上白纸黑字留下了名号。平时开着重巡战列带队抓人，碰上天价泰坦就开着隐轰上去戳一脚，主打一个重在参与。"
           },
-          "note": "如实写伤害零头。"
-        },
-        {
-          "title": "“This is a CN corp”与CEO职务",
-          "weight": "ordinary",
-          "reason": "CEO任职依据与洋人团出身的反差。",
-          "source": {
-            "file": "src/people/la-rusa/materials-la-rusa.md",
-            "heading": "## 2026-11-01补充"
-          },
-          "treatment": "expanded",
-          "body": {
-            "file": "src/people/la-rusa/la-rusa.md",
-            "contains": "在洋人团里拆了两年房子"
-          },
-          "note": "简介原文入文。"
+          "note": "如实写伤害零头与重在参与。"
         }
       ]
     },
     "balance": {
       "status": "reviewed",
-      "note": "三块分写洋人团拆房、只收中文的CEO与戳泰坦，评语串起反差，比例合适。",
+      "note": "两块分写英文告示拒老外的低安CEO与隐轰戳泰坦，评语收束在接手老号、高频巡逻与蹭泰坦功劳簿的鲜明对比，比例合适。",
       "evidence": [
         {
           "file": "src/people/la-rusa/la-rusa.md",
-          "contains": "奈何在英文虫洞团里学会了拆房子"
+          "contains": "奈何是那种雷厉风行的低安土著团长：买下老号挂上 CEO，先用英文告示把老外挡在门外，再带着几十号人天天在低安巡逻。一个月打两百多杀，开着纪念碑和夜鹰四处抓人；碰上泰坦会战，开着隐轰蹭个八百点伤害，泰坦掉下来的时候，功劳簿上照样有他一笔。"
         }
       ]
     }
   },
   "dependencies": [
-    "docs/sources/capital-battles-2026-10-11.md",
-    "docs/sources/large-battles-2026-10-11.md",
     "src/people/la-rusa/2118160416-id.json",
     "src/people/la-rusa/la-rusa.md",
     "src/people/la-rusa/materials-la-rusa.md",
     "src/battles/ahbazon-2026/ahbazon-2026.json",
     "src/battles/ahbazon-2026/ahbazon-2026.md",
-    "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md"
   ],
-  "inputs": "e8d1ea24257bb22e8fc68d6b7f926a95cc1937dc3c8713c4630ba3c5dffb26ad",
+  "inputs": "3c4ded827031330ee5c32e755b28062a7f6f965e9717e21882406d63bf24e27d",
+  "inputParts": {
+    "src/people/la-rusa/2118160416-id.json": "0efaabc1411e1a29314bc127bc8d5e54a9d6908a02abd2f3710d55036c18ac8e",
+    "src/people/la-rusa/la-rusa.md": "5fe79e90da26859c414f1035ec30290a76dbb361ef3bc82a06d77c22448fddf7",
+    "src/people/la-rusa/materials-la-rusa.md": "d77328e0cb5e760d79fe058483d98af443c1b15f2814ea5e6a9b8f6c79d74a98",
+    "battle:ahbazon-2026": "706b3352010cbac6eef6222461062089460b3a3e5f39b8a207e804087af82a03",
+    "battle:amamake-2026": "82d2a151d8b7d3c6f5c4ecb9004864c3d924a251c06d05362ca52273eb0da815"
+  },
   "level": 1
 }

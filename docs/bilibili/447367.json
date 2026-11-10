@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "447367",
   "name": "那个毒蝎",
   "url": "https://space.bilibili.com/447367/",
   "identity": {
     "state": "confirmed",
     "person": "kei-hazard",
-    "material": "src/people/kei-hazard/materials-kei-hazard.md",
+    "material": "src/people/kei-hazard/materials-kei-hazard.json",
     "label": "Kei素材",
     "evidence": [
-      "Kei Hazard自称ATXVI官方中文观战位与解说；本频道上传ATXVI“我的分析讲解版本”，AT历届中文解说录像为主，见[Kei素材](../src/people/kei-hazard/materials-kei-hazard.md)"
+      "Kei Hazard自称ATXVI官方中文观战位与解说；本频道上传ATXVI“我的分析讲解版本”，AT历届中文解说录像为主，见[Kei素材](../src/people/kei-hazard/materials-kei-hazard.json)"
     ],
     "related": [
       {
-        "material": "src/people/darkdez-ever/materials-darkdez-ever.md",
+        "material": "src/people/darkdez-ever/materials-darkdez-ever.json",
         "label": "2021 CN10v10中文直播流"
       }
     ]
@@ -1346,11 +1346,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1zp411o7am"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [【EVE】2K DPS...这船太扎实了。](https://www.bilibili.com/video/BV1Zp411o7aM/)"
       },
       "usage": {
         "body": false,
@@ -1375,11 +1373,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1jw41157qv"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [【EVE】6分钟快速理解EVE之中的角速度](https://www.bilibili.com/video/BV1jW41157QV/)"
       },
       "usage": {
         "body": false,
@@ -1404,11 +1400,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1qs4y1d7ch"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [【EVE更新日志】新出探索内容。最后一期了~](https://www.bilibili.com/video/BV1qS4y1d7CH/)"
       },
       "usage": {
         "body": false,
@@ -1433,11 +1427,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv17e41177rv"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [【EVE】那个（海军）毒蝎之死](https://www.bilibili.com/video/BV17E41177Rv/)"
       },
       "usage": {
         "body": false,
@@ -1462,11 +1454,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1cb411e77u"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [【EVE】为什么我喜欢指挥驱逐舰-以及WC显轰队宣传](https://www.bilibili.com/video/BV1Cb411e77U/)"
       },
       "usage": {
         "body": false,
@@ -1491,11 +1481,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv17s411t7ez"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "- **B站“那个毒蝎”（[UID447367](https://space.bilibili.com/447367/)）**，档案见 [docs/bilibili/447367.json](447367.json)：本人 2017 年自称 ATXVI 官方中文观战位及解说；该频道上传 [ATXVI 记录与分析 BV17s411T7eZ](https://www.bilibili.com/video/BV17s411T7eZ/)。频道 944 个视频、384 篇图文、15 个合集，粉丝三千六百上下，总播放五十余万；2021 年 CN10v10（EVE 夏季锦标赛）中文直播流也在此频道，见[小D素材](../../src/people/darkdez-ever/materials-darkdez-ever.json)。频道头衔“瞬獄殺”，签名“来年再见！”。\n\n- 弹幕与评论里的称呼：“K sama”（D Manson 在 BV17s411T7eZ 评论）、“kei酱”、“吧k”。\n\n- B站 [BV17s411T7eZ](https://www.bilibili.com/video/BV17s411T7eZ/)（2018-08-12）：“华人联盟Fraternity ATXVI比赛记录与解说”，分英文原版官方解说与“我的分析讲解版本”两 P，简介“三个月的时光，无怨无悔”。置顶评论 cerberuslegend：“妈的 最菜联盟 竟然进入了16强？”其他评论：“解说八成不熟悉frt，各种吹爆”；D Manson“支持K sama!!!!!!!!舔舌头ing”；“kei酱！kei酱！”；“做个AT赛的解说视频呗？”\n\n### [【EVE】华人联盟Fraternity ATXVI比赛记录与解说](https://www.bilibili.com/video/BV17s411T7eZ/)"
       },
       "usage": {
         "body": false,
@@ -1520,11 +1508,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1ex411w7dt"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [《EVE》第十五届欧服联盟赛-华人联盟FRT第一日比赛-中文解说](https://www.bilibili.com/video/BV1ex411W7dt/)"
       },
       "usage": {
         "body": false,
@@ -1549,11 +1535,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/kei-hazard/materials-kei-hazard.md#bili-bv1tj411y7wv"
-        ],
         "scope": "公开简介、首屏主评论及可见作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-01"
+        "reviewed_at": "2026-11-01",
+        "digest": "### [【EVE】谨以此视频纪念-猪场欧服泰坦首杀](https://www.bilibili.com/video/BV1tJ411Y7wv/)"
       },
       "usage": {
         "body": false,

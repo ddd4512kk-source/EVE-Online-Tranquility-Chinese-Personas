@@ -97,6 +97,73 @@
     "tags": [
       "00区",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "榜单记团员击杀，新人记发船的人。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "治团与离盟争议不自动认定个人恶行。",
+          "sources": [
+            {
+              "label": "华人团采访之怯薛",
+              "url": "https://tieba.baidu.com/p/9016827335"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "公开收录号无战果，不能拿军团成绩评本人B。",
+          "sources": [
+            {
+              "label": "Master Zachary zKillboard",
+              "url": "https://zkillboard.com/character/2114270880/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "经营军团与发船未见本人实战带队。",
+          "sources": [
+            {
+              "label": "华人团采访之怯薛",
+              "url": "https://tieba.baidu.com/p/9016827335"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "新人直接记得其发船，具稳定团队支持。",
+          "sources": [
+            {
+              "label": "怯薛清算讨论帖",
+              "url": "https://tieba.baidu.com/p/9665116867"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "受托长期经营大型怯薛军团，实际管理明确。",
+          "sources": [
+            {
+              "label": "怯薛军团档案",
+              "url": "https://zkillboard.com/corporation/98684711/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "持续供给新人舰船与补助，能为团队垫资。",
+          "sources": [
+            {
+              "label": "Master Zachary zKillboard",
+              "url": "https://zkillboard.com/character/2114270880/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

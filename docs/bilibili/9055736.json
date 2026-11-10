@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "9055736",
   "name": "金鹏防御放大节点",
   "url": "https://space.bilibili.com/9055736/",
   "identity": {
     "state": "candidate",
     "person": null,
-    "material": "docs/leads/jin-peng-translator.md",
+    "material": "docs/leads/jin-peng-translator.json",
     "label": "线索：金鹏",
     "evidence": [
       "UP与贴吧译者已对应，游戏角色未对上"
     ],
     "related": [
       {
-        "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+        "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.json",
         "label": "战役相关视频"
       }
     ]
@@ -2561,9 +2561,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2589,10 +2586,143 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/ualx-3-2018/materials-ualx-3-2018.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "- [[EVE]7月19日UALX-3星系Imperial Legacy vs PanFam+HRE+Winter Co.+GOTG](https://www.bilibili.com/video/BV1fs411N76U/)：投稿日2018-07-21；标题写明日期、星系与对阵，简介附YouTube原片与br.inyour.space战报"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1At411b76V",
+      "title": "[EVE]玻色立场惨案，二连",
+      "url": "https://www.bilibili.com/video/BV1At411b76V/",
+      "owner_uid": "9055736",
+      "published_at": "2019-01-23T05:31:33.000Z",
+      "captured_at": "2026-11-08T16:27:00.140Z",
+      "description": "https://www.youtube.com/watch?v=ISsp4wfjopw\n惨案现场:\nhttps://br.inyour.space/?s=1984&b=8446680&e=172&t=bvrb",
+      "stats": {
+        "views": 38328,
+        "replies": 78
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取作品页完整简介；评论API第一页返回3条主评论及可见直接回复，未翻页或展开折叠回复；未观看画面、音频、字幕；简介内YouTube/BR/KB链接未独立核验。",
+        "reviewed_at": "2026-11-08T16:32:04.000Z",
+        "digest": "简介附YouTube链接和BR链接。第一页评论围绕带跳进入波色立场区域的指挥选择争论，热评把场面形容为教科书式带跳，另有观众承认自己不熟欧服。未见上传者回应；本轮未打开BR或原视频，评论里的战术和阵营评价均属观众意见，不能据此确认交战经过。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1EW411H7h6",
+      "title": "[EVE]合众国荣光永存！- 凤凰级Solo PVP",
+      "url": "https://www.bilibili.com/video/BV1EW411H7h6/",
+      "owner_uid": "9055736",
+      "published_at": "2018-02-01T19:29:50.000Z",
+      "captured_at": "2026-11-08T16:26:39.687Z",
+      "description": "https://www.youtube.com/watch?v=iWUN0wyNyqk\n相关游戏: EVE、EVEonline、星战前夜\n简介补充: 凤凰 x1 vs 常规 x30 + 旗舰 x30\nBGM: Animus Vox by Glitch Mob\n配置: \nBallistic Control System II\nBallistic Control System II\nDamage Control II\nBallistic Control System II\nBallistic Control System II\n\nCONCORD Capital Shield Booster\nMissile Guidance Computer II, Missile Precision Script\nRepublic Fleet Warp Disruptor\nHeavy Stasis Grappler II\nPithum C-Type Adaptive Invulnerability Field\nRepublic Fleet Target Painter\nCapital Capacitor Booster II, Navy Cap Booster 3200\n\nRapid Torpedo Launcher II, Caldari Navy Inferno Torpedo\nSiege Module II\nRapid Torpedo Launcher II, Caldari Navy Inferno Torpedo\nCorpus X-Type Heavy Energy Neutralizer\nRapid Torpedo Launcher II, Caldari Navy Inferno Torpedo\n\nCapital Core Defense Capacitor Safeguard II\nCapital Warhead Rigor Catalyst II\nCapital Warhead Rigor Catalyst II",
+      "stats": {
+        "views": 48036,
+        "replies": 116
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取作品页完整简介；评论API第一页返回3条主评论及可见直接回复，未翻页或展开折叠回复；未观看画面、音频、字幕；简介内YouTube/BR/KB链接未独立核验。",
+        "reviewed_at": "2026-11-08T16:32:04.000Z",
+        "digest": "简介附YouTube原片链接，写作凤凰 x1 vs 常规 x30 + 旗舰 x30，并列出凤凰配置，包括快速鱼雷发射器、围攻模块、重型能量中和器及盾抗、电容装备。评论区围绕国服与欧服的PVP环境争论：有人用自己在国服驾驶大船的遭遇反驳单船无双的说法，也有人反驳欧服同样有诱导和旗舰增援。这是观众的服务器环境争论，不是本片战况或作者观点。本轮未打开YouTube原片，也未看录像，不能确认交战过程、配装实装或凤凰表现。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1bt411e7Df",
+      "title": "[EVE]iBeast - 元帅级黑隐PVP",
+      "url": "https://www.bilibili.com/video/BV1bt411e7Df/",
+      "owner_uid": "9055736",
+      "published_at": "2018-12-17T04:53:40.000Z",
+      "captured_at": "2026-11-08T16:28:01.521Z",
+      "description": "https://www.youtube.com/watch?v=169OrX1kmO8\nBGM:\nMusic: Ghost Assassin Original Mix Maduk feat. Veela",
+      "stats": {
+        "views": 25269,
+        "replies": 51
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取作品页完整简介；评论API第一页返回3条主评论及可见直接回复，未翻页或展开折叠回复；未观看画面、音频、字幕；简介内YouTube/BR/KB链接未独立核验。",
+        "reviewed_at": "2026-11-08T16:32:04.000Z",
+        "digest": "简介只列YouTube来源与音乐信息。评论讨论元帅级PVP的选址风险、用辅助号提供后勤或眼位，以及一名观众对锁定目标、等待队友进场的观战解读；其他回复对增援是否已到场意见不一。均属观众建议与观察，未见上传者回应，不能据此确认配置、战斗过程或作者在其中的角色；本轮未观看影像、音频或字幕。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ix41167e1",
+      "title": "[EVE]6月25日仇恨级陨落（估值：1332.9亿）",
+      "url": "https://www.bilibili.com/video/BV1ix41167e1/",
+      "owner_uid": "9055736",
+      "published_at": "2017-06-26T07:28:29.000Z",
+      "captured_at": "2026-11-08T16:27:41.070Z",
+      "description": "https://www.youtube.com/watch?v=16vMMzI5Vss\n4小时前的快讯，一条仇恨级（天蛇大航）在Placid星域Alperaute星系陨落星海，KB估价：1332.9亿，约等于1657.41美金。\nKB：https://zkillboard.com/kill/63138708/ （根本不用贴链接，打开宁静KB第一个就是它。今天新闻真多）",
+      "stats": {
+        "views": 26313,
+        "replies": 43
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取作品页完整简介；评论API第一页返回3条主评论及可见直接回复，未翻页或展开折叠回复；未观看画面、音频、字幕；简介内YouTube/BR/KB链接未独立核验。",
+        "reviewed_at": "2026-11-08T16:32:04.000Z",
+        "digest": "简介称作者发帖时几小时前，Placid星域Alperaute有一艘仇恨级（天蛇大航）陨落，附当时KB估值与zKillboard链接；分P标为PL无畏视角及G卫队电子攻击舰视角。评论讨论SC实力、俄罗斯方块梗和欧服低安环境。简介内容作为作者当时陈述，评论作为观众意见；本轮未打开zKillboard或YouTube，也未观看录像，不据此确定舰船、战斗结果或阵营表现。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1yx411h713",
+      "title": "[EVE]NC.泰坦怒干YST队",
+      "url": "https://www.bilibili.com/video/BV1yx411h713/",
+      "owner_uid": "9055736",
+      "published_at": "2017-06-21T22:30:13.000Z",
+      "captured_at": "2026-11-08T16:27:20.598Z",
+      "description": "https://www.youtube.com/watch?v=6FWEis-j9rU&t\n无人机保护协会发出严正抗议！",
+      "stats": {
+        "views": 31006,
+        "replies": 29
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取作品页完整简介；评论API第一页返回3条主评论及可见直接回复，未翻页或展开折叠回复；未观看画面、音频、字幕；简介内YouTube/BR/KB链接未独立核验。",
+        "reviewed_at": "2026-11-08T16:32:04.000Z",
+        "digest": "简介附YouTube链接，并以无人机保护协会抗议作梗。评论分别谈大屏幕的可读性、在低安与00区采矿时被蹲守的个人经历；回复进一步争论清理陌生人的安全规则。这些是观众经验与看法，未见上传者回应，本轮未核实评论经历是否对应本片，也未观看影像。"
       },
       "usage": {
         "body": false,

@@ -1,5 +1,7 @@
 # 按问题复查，不重读全站
 
+本流程用于人物正文、身份与战绩归因等内容复查，不用于雷达图、趣味评分等独立组件的增删改。组件的数据、维度、样式及展示变动不进入主列传的复审或失效依赖；不得因旧实现把组件数据混在人物档案里，就启动 `template`、`mark`、`verify` 或全局规则声明。执行边界见[开发与验证](development.md#展示组件与样例的执行边界)。
+
 `npm run review` 离线扫描正式档案，只输出数量。脚本读取全站文件不消耗模型上下文；代理只读分页候选、对象卡片和必要段落。目录、块数、首次加入日期、身份对应、战役关联均按需计算，不维护另一份全员总表，也不把扫描结果当作已读。
 
 ## 先筛选，再定本批范围
@@ -24,7 +26,7 @@ npm run review -- read person:alero-araragiero --file material --from 20 --lines
 ```sh
 npm run review -- mark person:短名 --feature combat --status needs-work \
   --note '尚未读取stats总览；已有战役已对照' \
-  --evidence src/people/短名/materials-短名.md
+  --evidence src/people/短名/materials-短名.json
 npm run review -- list --feature combat --state needs-work
 npm run review -- list --feature combat --state stale
 ```

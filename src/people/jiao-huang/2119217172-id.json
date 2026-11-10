@@ -69,9 +69,80 @@
     "tags": [
       "00区",
       "INIT.",
-      "FC",
+      "著名FC",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "绝地最能折腾的“草蛙教皇”，一手豪掷海量脑子打造百人洛基队，一手在贴吧以洗脚招新和激情对线打出华人军团独立声势。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "招募帖发月卡、送便宜船，还搞了个洗脚活动；别人忙着报舰队，他先替新人把泡脚盆摆好了。",
+          "sources": [
+            {
+              "label": "贴吧从0开始建立LOKI队",
+              "url": "https://tieba.baidu.com/p/10926005541"
+            },
+            {
+              "label": "贴吧草蛙招新绝地大开发",
+              "url": "https://tieba.baidu.com/p/10878950653"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "开海游龙、洛基与重突长年高频出战，参与绝地反收割与5C攻防，击杀无数。",
+          "sources": [
+            {
+              "label": "官方战绩与出勤汇总",
+              "url": "https://zkillboard.com/character/2119217172/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "宇宙流浪者核心战术FC，亲手带出一支单组百人以上的洛基战备劲旅。",
+          "sources": [
+            {
+              "label": "单组110人集结记录",
+              "url": "https://tieba.baidu.com/p/10878950653"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "贴吧最勤快且待遇最豪横的军团长，肯为团员砸钱买脑子买船，深聚兄弟人心。",
+          "sources": [
+            {
+              "label": "团员回帖表态与互动",
+              "url": "https://tieba.baidu.com/p/10926005541"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "宇宙流浪者军团长，果断脱离东风转投INIT并立足绝地，掌控百人独立武装。",
+          "sources": [
+            {
+              "label": "军团脱离东风加入INIT公告",
+              "url": "https://esi.evetech.net/latest/characters/2119217172/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "常备数百管脑抽、数十条主力战舰免费发放，拥有雄厚的工业与军团金库。",
+          "sources": [
+            {
+              "label": "自费脑浆与福利明细",
+              "url": "https://tieba.baidu.com/p/10926005541"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -81,7 +152,7 @@
         "name": "Jiao-Huang",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Xiao HuangRen",
         "sources": [
-          "materials-jiao-huang.md"
+          "materials-jiao-huang.json"
         ],
         "zkb": {
           "kills": 2684,
@@ -95,7 +166,7 @@
         "id": 2121685477,
         "name": "KK Huang",
         "sources": [
-          "materials-jiao-huang.md"
+          "materials-jiao-huang.json"
         ],
         "zkb": {
           "kills": 0,
@@ -109,7 +180,7 @@
         "id": 2119362525,
         "name": "Xiao Huang Fight",
         "sources": [
-          "materials-jiao-huang.md"
+          "materials-jiao-huang.json"
         ],
         "zkb": {
           "kills": 3343,
@@ -130,7 +201,7 @@
           ],
           "portrait": "tb.1.d55891df.-W0rgR63GmcgIm-xgXNI1Q",
           "sources": [
-            "materials-jiao-huang.md"
+            "materials-jiao-huang.json"
           ]
         }
       ]

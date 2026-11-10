@@ -4,7 +4,7 @@
   "url": "https://tieba.baidu.com/p/11045446984",
   "title": "德克萨斯故土团招新",
   "references": [
-    "src/people/texas/materials-texas.md",
+    "src/people/texas/materials-texas.json",
     "src/people/texas/texas.md"
   ],
   "legacy_records": [
@@ -12,7 +12,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "11045446984",
-        "初始引用文件": "src/people/texas/materials-texas.md;src/people/texas/texas.md",
+        "初始引用文件": "src/people/texas/materials-texas.json;src/people/texas/texas.md",
         "首尾状态": "首尾已取",
         "接口回复数": "24",
         "主楼总页数": "1",

@@ -1,72 +1,78 @@
 {
   "status": "reviewed",
-  "note": "对照本人素材、战斗画像与正文核查。",
+  "note": "五项复核已逐一完成。",
   "evidence": [
-    "src/people/mordiggianking/materials-mordiggianking.md",
-    "src/people/mordiggianking/2122236063-id.json",
+    "src/people/mordiggianking/materials-mordiggianking.json",
     "src/people/mordiggianking/mordiggianking.md"
   ],
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "复核角色stats与本人带队自述，区分团队击杀和个人指挥。",
+      "note": "统计与战斗素材相符；参加过联盟战斗并自述带毒蜥队，正文现有独立综合评价块概括其后勤与指挥反差。",
       "evidence": [
         {
-          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "file": "src/people/mordiggianking/materials-mordiggianking.json",
           "heading": "## 战斗画像与后续出勤"
         }
       ]
     },
     "alts": {
       "status": "not-applicable",
-      "note": "身份与素材无确认小号，不推断不存在其他角色。",
+      "note": "素材称未见可归并小号；没有已确认主力小号需要合并统计。",
       "evidence": [
         {
-          "file": "src/people/mordiggianking/2122236063-id.json",
-          "contains": "2122236063"
+          "file": "src/people/mordiggianking/materials-mordiggianking.json",
+          "contains": "未见可归并小号"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "核最高价值月2026-10及代表KM，写团队出勤。",
+      "note": "对照2026年10月高值月与代表击杀，没有把共同攻击记录写作独立战果。",
       "evidence": [
         {
-          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "file": "src/people/mordiggianking/materials-mordiggianking.json",
           "contains": "2026-10月度接口取得19条"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "核原列传5C-RPA建筑战绩与本人毒蜥小队自述，未认大会战总指挥。",
+      "note": "对照欧贝已关联战役与本人毒蜥带队自述，区分战场参与和具体指挥职责。",
       "evidence": [
         {
-          "file": "src/people/mordiggianking/materials-mordiggianking.md",
+          "file": "src/people/mordiggianking/materials-mordiggianking.json",
           "contains": "第12楼本人回忆第一次也是最后一次带毒蜥"
         }
       ]
     },
     "narrative": {
       "status": "reviewed",
-      "note": "补低安后续出勤并保留本人毒蜥带队与墨家战绩。",
+      "note": "独立战绩块已综合墨家及后续低安出勤，写出后勤与带队反差。",
       "evidence": [
         {
           "file": "src/people/mordiggianking/mordiggianking.md",
-          "contains": "离开墨家后，他又到了自己经营的低安小团"
+          "contains": "卡戎的战斗经历横跨墨家和后来经营的低安小团"
         }
       ]
     }
   },
   "dependencies": [
-    "docs/sources/cacx-tuxedoee-expulsion-2025.md",
+    "docs/sources/cacx-tuxedoee-expulsion-2025.json",
     "src/people/mordiggianking/2122236063-id.json",
-    "src/people/mordiggianking/materials-mordiggianking.md",
+    "src/people/mordiggianking/materials-mordiggianking.json",
     "src/people/mordiggianking/mordiggianking.md",
     "src/battles/obe-2026/obe-2026.json",
     "src/battles/obe-2026/obe-2026.md",
-    "src/battles/obe-2026/materials-obe-2026.md"
+    "src/battles/obe-2026/materials-obe-2026.json"
   ],
-  "inputs": "51cfd7dedcea063cfe29a1c215cfc5f0d362adfbcd66c507f872a5b20eb3246c",
+  "inputs": "c1ef2db758803c904328d1577ead78eada5914d303f0517ec2b2653cdad3352e",
+  "inputParts": {
+    "docs/sources/cacx-tuxedoee-expulsion-2025.json": "8c0bab214e3650b6d9a2150d9a7ebf650e3bf187b4583e06422c12bb288e8274",
+    "src/people/mordiggianking/2122236063-id.json": "5ac16dd95be887e6ff8ad8d7e9c3d591870f3856ae704abea6f0719adfae010b",
+    "src/people/mordiggianking/materials-mordiggianking.json": "3835dbe4b24d6fd888721eee7e4e1378f885686276aa1b84c8020ddb3e7416dd",
+    "src/people/mordiggianking/mordiggianking.md": "af46e6e258c049f36dea90c7156839673b30bf2af856b7752ec898460baca864",
+    "battle:obe-2026": "85ebfd1df4703be807f6ed0f29bccc1e66a8a2cc3f8179244b8217d533925521"
+  },
   "level": 1
 }

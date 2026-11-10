@@ -71,6 +71,73 @@
       "00区",
       "FRT",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "前线带得动队，后台也爱下命令。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "新人只问私卖，便拿建筑、运输和补损权限施压。",
+          "sources": [
+            {
+              "label": "贴吧LP争议讨论帖",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三千余次击杀，参与前线并有五十余次Solo。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119615259/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "跨年驾驶监视者且有明确带队经历，属指挥骨干。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/kill/133393520/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "LP争执显示强制管理，未见稳定拥趸可再上调。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "参与LP回收与补损规章执行，属于部门管理。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "回收管理未显示本人掌控产业，按日常自给。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        }
+      }
+    }
   }
 }

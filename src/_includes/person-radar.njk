@@ -1,0 +1,83 @@
+<aside class="bio-radar-bay person-radar" aria-label="{{ displayName }}的六维雷达图" data-pagefind-ignore>
+  <div class="radar-chart-wrap">
+    <svg viewBox="0 0 230 205" class="radar-chart-svg" role="img" aria-labelledby="radar-svg-title radar-svg-desc">
+      <title id="radar-svg-title">{{ displayName }}的六维阶位图</title>
+      <desc id="radar-svg-desc">{% for axis in radarPanel.axes %}{{ axis.fullLabel }}：{{ axis.tierLabel }}。{% endfor %}</desc>
+      <defs>
+        <radialGradient id="radarAreaGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="var(--gold)" stop-opacity="0.45"/>
+          <stop offset="100%" stop-color="var(--zhu)" stop-opacity="0.25"/>
+        </radialGradient>
+      </defs>
+
+      <!-- 导引环：普通人基准环（D 档虚线）、精锐环（A 档）、外圈（EX 档） -->
+      <polygon points="{{ radarPanel.rings[2] }}" class="radar-ring ring-outer"/>
+      <polygon points="{{ radarPanel.rings[1] }}" class="radar-ring ring-mid"/>
+      <polygon points="{{ radarPanel.rings[0] }}" class="radar-ring ring-baseline"/>
+
+      <!-- 6 根辐射轴；待考维度用虚线标明 -->
+      {% for axis in radarPanel.axes %}
+      <line x1="115" y1="102" x2="{{ axis.spokeEnd.x }}" y2="{{ axis.spokeEnd.y }}" class="radar-spoke{% if not axis.known %} radar-spoke-unknown{% endif %}"/>
+      {% endfor %}
+
+      <!-- 六维完整时闭合填色；有待考时只连接相邻的已评维度 -->
+      {% if radarPanel.complete %}
+      <polygon points="{{ radarPanel.polygon }}" class="radar-area"/>
+      {% else %}
+      {% for axis in radarPanel.axes %}
+      {% set nextAxis = radarPanel.axes[loop.index % radarPanel.axes.length] %}
+      {% if axis.known and nextAxis.known %}
+      <line x1="{{ axis.point.x }}" y1="{{ axis.point.y }}" x2="{{ nextAxis.point.x }}" y2="{{ nextAxis.point.y }}" class="radar-partial-segment"/>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+
+      <!-- 各维度顶点圆点与端点文本 -->
+      {% for axis in radarPanel.axes %}
+      {% if axis.point %}
+      <circle cx="{{ axis.point.x }}" cy="{{ axis.point.y }}" r="3.5" class="radar-vertex {{ axis.tierClass }}"/>
+      {% endif %}
+      <text x="{{ axis.labelCoord.x }}" y="{{ axis.labelCoord.y }}" text-anchor="{{ axis.labelCoord.anchor }}" class="radar-axis-text {{ axis.tierClass }}">
+        <tspan class="axis-txt-name">{{ axis.label }}</tspan>
+        <tspan class="axis-txt-tier" dx="3">{{ axis.tierLabel }}</tspan>
+      </text>
+      {% endfor %}
+    </svg>
+  </div>
+
+  <!-- 考据案由展开抽屉：默认收起，点击在下方滑出卡片 -->
+  <details class="radar-inspect-details">
+    <summary class="radar-inspect-summary">
+      <span class="inspect-btn-text">案由考据 ▾</span>
+    </summary>
+    <div class="radar-inspect-dropdown">
+      <div class="inspect-axes-list">
+        {% for axis in radarPanel.axes %}
+        <details class="radar-dimension inspect-axis-item {{ axis.tierClass }}">
+          <summary class="inspect-axis-summary">
+            <span class="inspect-axis-name">{{ axis.fullLabel }}</span>
+            <strong class="inspect-axis-grade">{{ axis.tierLabel }}</strong>
+          </summary>
+          <div class="inspect-axis-body">
+            <p class="inspect-axis-reason">{{ axis.reason }}</p>
+            {% if axis.sources.length %}
+            <div class="inspect-axis-sources">
+              <span class="inspect-sources-label">案由考据：</span>
+              {% for source in axis.sources %}
+              <a href="{{ source.url }}" target="_blank" rel="noopener noreferrer">{{ source.label }} <span class="ext-arrow" aria-hidden="true">↗</span></a>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+      {% if radarPanel.verdict %}
+      <div class="inspect-verdict-line">
+        <span class="inspect-verdict-seal">史官曰</span>
+        <p class="inspect-verdict-text">{{ radarPanel.verdict }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </details>
+</aside>

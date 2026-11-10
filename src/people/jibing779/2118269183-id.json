@@ -39,7 +39,78 @@
       "高安",
       "低安",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:38:00Z",
+      "verdict": "拥有庞大编号分身的顶尖高安猎手与单杀狂魔，以文明交流名片掩盖600单杀的血腥账本，新伊甸独行恶煞。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "常规高安强暴与PVP单杀玩法，名片自嘲与小号击杀属于游戏内机制与乐子玩梗，无真实突破底线的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "官方公开名片文明交流简介",
+              "url": "https://esi.evetech.net/latest/characters/2118269183/"
+            },
+            {
+              "label": "高安强暴最后一击KM",
+              "url": "https://zkillboard.com/kill/95383449/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "小号jibing779-G2斩获4000+击杀涉两万亿战果，拥有六百多个单杀记录，精通高安强暴与低安极限收割。",
+          "sources": [
+            {
+              "label": "G2角色官方ZK战绩",
+              "url": "https://zkillboard.com/character/2118269183/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "擅长小规模特种猎杀与伏击协同，不涉足大规模舰队正面统御。",
+          "sources": [
+            {
+              "label": "伏羲出勤与协同记录",
+              "url": "https://zkillboard.com/character/2118269183/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站风格独特的视频创作者与单兵狂魔，以冷酷高效的击杀风格在海盗圈名气斐然。",
+          "sources": [
+            {
+              "label": "B站极冰个人空间",
+              "url": "https://space.bilibili.com/354714559"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "独行强暴犯与特战打手，远离任何军团大权与联盟政治漩涡。",
+          "sources": [
+            {
+              "label": "三体学院与伏羲任职履历",
+              "url": "https://esi.evetech.net/latest/characters/2118269183/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "海量强暴与单杀掠夺战果丰硕，支撑数百艘强暴战舰损耗与高阶植入体。",
+          "sources": [
+            {
+              "label": "强暴战舰损失与收益清单",
+              "url": "https://zkillboard.com/character/2118269183/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -49,7 +120,7 @@
         "name": "jibing779",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收jibing779-G2",
         "sources": [
-          "materials-jibing779.md"
+          "materials-jibing779.json"
         ],
         "zkb": {
           "kills": 273,
@@ -63,7 +134,7 @@
         "id": 2117930122,
         "name": "jibing779-G1",
         "sources": [
-          "materials-jibing779.md"
+          "materials-jibing779.json"
         ],
         "zkb": {
           "kills": 901,
@@ -77,7 +148,7 @@
         "id": 2116991020,
         "name": "jibing779-2",
         "sources": [
-          "materials-jibing779.md"
+          "materials-jibing779.json"
         ],
         "zkb": {
           "kills": 2,
@@ -91,7 +162,7 @@
         "id": 2117900752,
         "name": "jibing779-3",
         "sources": [
-          "materials-jibing779.md"
+          "materials-jibing779.json"
         ],
         "zkb": {
           "kills": 0,
@@ -105,7 +176,7 @@
         "id": 2118133087,
         "name": "jibing779-4",
         "sources": [
-          "materials-jibing779.md"
+          "materials-jibing779.json"
         ],
         "zkb": {
           "kills": 0,
@@ -119,7 +190,7 @@
         "id": 2118886112,
         "name": "jibing779-D1",
         "sources": [
-          "materials-jibing779.md"
+          "materials-jibing779.json"
         ],
         "zkb": {
           "kills": 1,

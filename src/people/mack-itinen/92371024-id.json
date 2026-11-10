@@ -68,7 +68,7 @@
         "id": 94790614,
         "name": "test Buelle",
         "sources": [
-          "materials-mack-itinen.md"
+          "materials-mack-itinen.json"
         ],
         "zkb": {
           "kills": 0,
@@ -96,6 +96,73 @@
     "epithet": "办过希望工程，余生都在贴吧给 FRT 写诗。",
     "tags": [
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:25:00Z",
+      "verdict": "贴吧诗人体字字带波浪号，一手创办华人希望工程无私资助五千万的慈悲老农。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "贴吧发言自带波浪号打油诗体，创办匿名非营利希望工程，性情平和风趣，常人基准。",
+          "sources": [
+            {
+              "label": "希望工程两周年纪念帖",
+              "url": "https://tieba.baidu.com/p/6137595109"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "快照仅1次击杀、6次损失，纯粹的商业与公益后方小号，无一线作战经历。",
+          "sources": [
+            {
+              "label": "Mack Itinen zKillboard",
+              "url": "https://zkillboard.com/character/92371024/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "创立并打理阿帕奇基金会，主管慈善助学与新人帮扶，未参与战场舰队指挥调度。",
+          "sources": [
+            {
+              "label": "The Apache Foundation 档案",
+              "url": "https://zkillboard.com/corporation/98511736/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "无私资助数百位初入欧服的华人新人启动资金，被誉为社区慈善家与贴吧文雅诗翁，深得人心。",
+          "sources": [
+            {
+              "label": "希望工程两周年纪念帖",
+              "url": "https://tieba.baidu.com/p/6137595109"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "专注跨阵营无偿公益与商业买卖，严守中立，不卷入任何联盟高层博弈纷争。",
+          "sources": [
+            {
+              "label": "希望工程两周年纪念帖",
+              "url": "https://tieba.baidu.com/p/6137595109"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "一次性大手笔收购20B四族LP，拥有数十个提取脑浆号，自费长年捐赠天量ISK，工业金融财力极其深厚。",
+          "sources": [
+            {
+              "label": "希望工程两周年纪念帖",
+              "url": "https://tieba.baidu.com/p/6137595109"
+            }
+          ]
+        }
+      }
+    }
   }
 }

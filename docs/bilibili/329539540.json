@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "329539540",
   "name": "ACRMystery",
   "url": "https://space.bilibili.com/329539540/",
   "identity": {
     "state": "confirmed",
     "person": "acr-impact",
-    "material": "src/people/acr-impact/materials-acr-impact.md",
+    "material": "src/people/acr-impact/materials-acr-impact.json",
     "label": "ACR",
     "evidence": [
       "已归本人；黑渊、Snuffed Out、势力旗舰击杀等作品"
     ],
     "related": [
       {
-        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
         "label": "战役相关视频"
       }
     ]
@@ -46,17 +46,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/acr-impact/materials-acr-impact.md"
+        "evidence": "src/people/acr-impact/materials-acr-impact.json"
       }
     },
     "prior_notes": [
       {
         "text": "**播放页截图**：B 站视频《【EVE ONLINE】这泰坦是俺拾嘞，凭啥给…》（标题被截断），创作团队 NoNoOwO（Creator）、BeliEVE76（Performer）等共 5 人，2026-8-27 23:22 发布，999 播放、17 评论、32 赞，系列“EVE 离谱合集”13/13。画面为 Vaaralen 星系、Erebus 泰坦、Snuffed Out 标识。",
-        "source": "src/people/acr-impact/materials-acr-impact.md"
+        "source": "src/people/acr-impact/materials-acr-impact.json"
       },
       {
         "text": "代表签名：[KM 125016098](https://zkillboard.com/kill/125016098/)。",
-        "source": "src/people/acr-impact/materials-acr-impact.md"
+        "source": "src/people/acr-impact/materials-acr-impact.json"
       }
     ],
     "listings": [
@@ -929,11 +929,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/acr-impact/materials-acr-impact.md",
-          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（ACRMystery）：ACR的六开无畏参战记录；简介说回归第一战，六个号只录下一个视角，CPU已经过载。"
       },
       "usage": {
         "body": false,

@@ -81,6 +81,73 @@
       "00区",
       "D.C",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "几亿立方能造出来，搬家又是另一门课。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "工业与搬家困难是正常游戏经历。",
+          "sources": [
+            {
+              "label": "AOM招新海报大赛作品",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "五百余击杀和重型常规出勤，按熟练职责评。",
+          "sources": [
+            {
+              "label": "Undead0027 zKillboard",
+              "url": "https://zkillboard.com/character/2113823279/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "工业CEO和跳货教学未见稳定舰队带领。",
+          "sources": [
+            {
+              "label": "陌然回忆录手把手教跳货",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期军团经营与物流教学，形成跨团服务口碑。",
+          "sources": [
+            {
+              "label": "陌然回忆录手把手教跳货",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "五年浮岳CEO、跨联盟迁移与工业治理。",
+          "sources": [
+            {
+              "label": "浮岳重工军团档案",
+              "url": "https://zkillboard.com/corporation/98553245/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "大亨名单、T2旗舰制造与巨量组件库存支撑A。",
+          "sources": [
+            {
+              "label": "AOM招新海报大赛作品",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        }
+      }
+    }
   }
 }

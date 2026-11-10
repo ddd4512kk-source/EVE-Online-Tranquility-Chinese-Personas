@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "48030884",
   "name": "不是甜酱是辣酱",
   "url": "https://space.bilibili.com/48030884/",
   "identity": {
     "state": "confirmed",
     "person": "la-jiang",
-    "material": "src/people/la-jiang/materials-la-jiang.md",
+    "material": "src/people/la-jiang/materials-la-jiang.json",
     "label": "辣酱",
     "evidence": [
       "签名与贴吧、AVDOT简介相同"
     ],
     "related": [
       {
-        "material": "src/battles/x47l-q-2018/materials-x47l-q-2018.md",
+        "material": "src/battles/x47l-q-2018/materials-x47l-q-2018.json",
         "label": "战役相关视频"
       }
     ]
@@ -37,29 +37,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/la-jiang/materials-la-jiang.md"
+        "evidence": "src/people/la-jiang/materials-la-jiang.json"
       }
     },
     "prior_notes": [
       {
         "text": "状态：**已有[列传](la-jiang.md)**。收录角色 Mogami Chaos（95742512）。身份交叉依据：ESI 头衔“辣酱”；Tieba 作者 `extraquoo` 的签名“曲终人不见 江上数峰青”；B站 UP 主“不是甜酱是辣酱”（MID 48030884）使用相同签名；角色雇佣记录与其文章提到的 Infinity Avenger 相合。",
-        "source": "src/people/la-jiang/materials-la-jiang.md"
+        "source": "src/people/la-jiang/materials-la-jiang.json"
       },
       {
         "text": "[B站作者页](https://space.bilibili.com/48030884)：MID 48030884，311 粉丝、98 个投稿，简介签名与 Tieba 相同。[AVDOT 军团 ESI 简介](https://esi.evetech.net/latest/corporations/98556933/)也写“曲终人不见，江上数峰青”。",
-        "source": "src/people/la-jiang/materials-la-jiang.md"
+        "source": "src/people/la-jiang/materials-la-jiang.json"
       },
       {
         "text": "[本人空间UID48030884](https://space.bilibili.com/48030884/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/la-jiang/materials-la-jiang.md"
+        "source": "src/people/la-jiang/materials-la-jiang.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/la-jiang/materials-la-jiang.md"
+        "source": "src/people/la-jiang/materials-la-jiang.json"
       },
       {
         "text": "复用已核最新／最多播放排序及[《年底了，绝地过门还是这么恐怖》](https://www.bilibili.com/video/BV1dt411i7MD/)的成功读取，不新增联网。作品2018-12-09发布，上传者为已对应的不是甜酱是辣酱（48030884）；当时元数据10292播放、20回复，实际已取得13个主评论线程及直接可见回复，未翻页或展开其他楼中楼，未读影像、音频或字幕。",
-        "source": "src/people/la-jiang/materials-la-jiang.md"
+        "source": "src/people/la-jiang/materials-la-jiang.json"
       }
     ],
     "listings": [
@@ -778,10 +778,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "辣酱整理，数据校对署NomadThanatos，并感谢储君校对。"
       },
       "usage": {
         "body": true,
@@ -806,10 +804,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题报损，简介说“敢打能打”，评论追问后半场；自家阵营的鼓劲怎样碰上观众追账，是他最有辨识度的一篇配文。"
       },
       "usage": {
         "body": true,
@@ -834,10 +830,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "原片UtCMwUI720Q，配文“绝地特色，玻色服务，快速回家”；主题与最高播放重复，优先亲历说明更具体的前篇，13条评论留存范围，不判质量低。\n\n把玻色拦路写成“快速回家”的地方服务，评论又接出门前门后两道关的惊叹；看点是这句中文广告怎样把外网战斗入口变成了老玩家的过门笑话。"
       },
       "usage": {
         "body": true,
@@ -862,9 +856,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -890,10 +881,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "原片0YKNZX9Y_D0，简介只有简短主题；读者讨论舰船和配置，未见本人创作／驾驶署名。本轮不选，已有文字不足以支持个人加工与评价，不判差。"
       },
       "usage": {
         "body": true,
@@ -918,10 +907,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人明说这是第三次转同类团灭录像，接着又写RIP；与前一篇对照读，能看见他给别人和自家战报抹的两种酱。"
       },
       "usage": {
         "body": true,
@@ -946,10 +933,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "原片YouTube 5sN6_tetmdI，所附相关战报201805210600；本人说亲历同类星门玻色。亲历未有具体KM日期，不将此原片当他的遇袭实录。评论含大量国服回忆，各归其服，不套本人欧服。\n\n外网录像配本人亲历说明和战报入口，读者也接出过门回家的旧梗；原作展示与辣酱自己的记忆可以分开读。"
       },
       "usage": {
         "body": true,
@@ -974,10 +959,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/la-jiang/materials-la-jiang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "原片GrTDAez8Haw，简介列Master Baiter Hy Wanto及旧br.inyour.space；2条读者问题不足以确认本人加工，本轮不选，原录像不归辣酱。"
       },
       "usage": {
         "body": false,

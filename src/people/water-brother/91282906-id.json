@@ -75,7 +75,95 @@
     ],
     "epithet": "炸弹负责扬名，星门负责断人财路。",
     "tags": [
-      "00区"
-    ]
+      "00区",
+      "著名FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:05:00Z",
+      "verdict": "三千七百次短剑抓出五万亿战损，十人小队夺下主权；开最便宜的快船，让对手赔最热闹的账。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "角色简介文言体‘鞭赋’与安全等级表属名片自嘲整活，BWF星门收过路费属正常海盗截击对抗机制，无突破道德底线的出格恶行，按常人基准评D。",
+          "sources": [
+            {
+              "label": "Water Brother 角色简介与名片",
+              "url": "https://zkillboard.com/character/91282906/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "主号击杀7759次、单杀209次，战损近5万亿ISK；短剑击杀达3691次，曾参战阿萨凯击毁泰坦与超旗，旗舰击杀54艘，拦截与实战属顶尖战力，维持S。",
+          "sources": [
+            {
+              "label": "Water Brother zKillboard",
+              "url": "https://zkillboard.com/character/91282906/"
+            },
+            {
+              "label": "阿萨凯战役神使泰坦击毁 KM",
+              "url": "https://zkillboard.com/kill/28076566/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "早期闪电与盘古核心FC，2012年南北大战带队全歼幼龙队七十余艘，十人突击队夺下H74-B0主权阻滞敌军逾一周，具备开辟战略局面的指挥水准，评A。",
+          "sources": [
+            {
+              "label": "社区编年史（南北大战轰炸队）",
+              "url": "https://forums.winterco.org/t/topic/3336"
+            },
+            {
+              "label": "FlyingBee 亲历回忆（H74-B0 夺权战）",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            },
+            {
+              "label": "Water Brother zKillboard",
+              "url": "https://zkillboard.com/character/91282906/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "早年华人圈极具声望的战术灵魂导师，被盟友著文称为划时代的男人；带队救援高安新人团促成合组北极星，深具跨军团号召力与长期拥趸，评A。",
+          "sources": [
+            {
+              "label": "FlyingBee 亲历回忆",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            },
+            {
+              "label": "社区编年史",
+              "url": "https://forums.winterco.org/t/topic/3336"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "闪电军团核心高层，主导与LOTM合组北极星联盟，后作为三方创始领袖之一与Wind、内森共建FRT；具备跨联盟决策力，但主要分工在一线战力，评B。",
+          "sources": [
+            {
+              "label": "FlyingBee 亲历回忆",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            },
+            {
+              "label": "社区编年史",
+              "url": "https://forums.winterco.org/t/topic/3336"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "长年专精短剑与隐轰等低成本轻快舰船作战，靠星门拦截与日常战果自给自足；未见大鱼、工业产业运作或个人垫资筹资记录，按常人基准评D。",
+          "sources": [
+            {
+              "label": "Water Brother zKillboard",
+              "url": "https://zkillboard.com/character/91282906/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

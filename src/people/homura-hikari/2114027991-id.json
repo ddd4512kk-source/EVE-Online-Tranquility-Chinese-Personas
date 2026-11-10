@@ -153,7 +153,7 @@
         "id": 2117561817,
         "name": "HikariHomura",
         "sources": [
-          "materials-homura-hikari.md"
+          "materials-homura-hikari.json"
         ],
         "zkb": {
           "kills": 897,
@@ -167,7 +167,7 @@
         "id": 2114003356,
         "name": "Hikari Homura",
         "sources": [
-          "materials-homura-hikari.md"
+          "materials-homura-hikari.json"
         ],
         "zkb": {
           "kills": 1657,
@@ -201,6 +201,73 @@
       "著名FC",
       "B站",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "名片挂着Mio没你我怎么活，手里握着超旗暴力化矿小队，二次元中二拉满的秋名山盟主。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "鸟门报复、群管理争执和反复言语攻击，比二次元名片更能支撑严重烂事档。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "Homura Hikari 角色名片与简介",
+              "url": "https://zkillboard.com/character/2114027991/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "秋名山超旗特种化矿小队核心，击杀数千次，精通超旗诱导跳杀与敌后暴力清场，一线硬核战力。",
+          "sources": [
+            {
+              "label": "Homura Hikari zKillboard",
+              "url": "https://zkillboard.com/character/2114027991/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "早年是 FBC 的招牌 FC，如今在秋名山带的是蹲点、超旗特种小队，不统领大舰队，指挥骨干评 B。",
+          "sources": [
+            {
+              "label": "AKINA超旗暴力化矿小队宣传",
+              "url": "https://www.bilibili.com/video/BV1iy4y167Yh"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期攻略、直播与秋名山特战招牌，在圈内有稳定受众。",
+          "sources": [
+            {
+              "label": "AKINA超旗暴力化矿小队宣传",
+              "url": "https://www.bilibili.com/video/BV1iy4y167Yh"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "建立并长期维持独立联盟与军团，实际治理超过普通军团骨干。",
+          "sources": [
+            {
+              "label": "Homura Hikari 雇佣记录",
+              "url": "https://zkillboard.com/character/2114027991/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "主小号长期投入超级旗舰，黑色星期五同场损失阿扎里尔与归魂，资源强度鲜明。",
+          "sources": [
+            {
+              "label": "Homura Hikari zKillboard",
+              "url": "https://zkillboard.com/character/2114027991/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

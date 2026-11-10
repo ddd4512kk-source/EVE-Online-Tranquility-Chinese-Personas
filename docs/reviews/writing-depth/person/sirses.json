@@ -1,38 +1,138 @@
 {
   "status": "reviewed",
-  "note": "对照本人素材、战斗画像与正文核查。",
+  "note": "三项写作验收与六件重料已逐项复核。",
   "evidence": [
-    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/materials-sirses.json",
     "src/people/sirses/sirses.md"
   ],
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "通读正文及本人素材，核原主线、争议和作战画像。",
+      "note": "对照正文与本人素材，主要战斗、报价、工资、虫洞、汤圆旧怨及新补的卡戎争执均有事件依据；未把不实匿名图升级为RMT事实。",
       "evidence": [
         {
-          "file": "src/people/sirses/materials-sirses.md",
+          "file": "src/people/sirses/materials-sirses.json",
           "heading": "## 声望哥 / Sirses"
         }
       ]
     },
     "events": {
       "status": "reviewed",
-      "note": "逐件对照事件分量和正文发挥。",
+      "note": "重料均保留来源争议并写出冲突过程；本次删去了同一事实反复收束的段落。",
       "evidence": [
         {
-          "file": "src/people/sirses/materials-sirses.md",
+          "file": "src/people/sirses/materials-sirses.json",
           "heading": "## 声望哥 / Sirses"
         }
       ],
       "items": [
         {
-          "title": "五级群工资纠纷",
-          "reason": "事件有持续冲突或重大个人行为，影响人物主线。",
-          "note": "对照本人素材与正文，保留各方说法并写出过程和反应。",
+          "title": "叶落星海驻地蹲守",
           "weight": "heavy",
+          "reason": "持续数月在大型对手地盘进行个人猎杀，构成人物战斗形象的主体。",
+          "note": "写出长期游击、驻地人口与个人小船的力量反差，以及简介自我宣传。",
           "source": {
-            "file": "src/people/sirses/materials-sirses.md",
+            "file": "src/people/sirses/materials-sirses.json",
+            "contains": "**猎杀叶落星海**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sirses/sirses.md",
+            "contains": "2026 年夏天，声望哥拿小号去 FRT"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "在对手驻地附近长期守候，抓落单目标。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "他还有几个同团角色陪着出门"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "以驻地规模与数月蹲守体现玩法耐性。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "一蹲就是两三个月"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "猎杀之外还反复把人数和战果写进简介。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "抓得到就发战报"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "贴吧既有人替他辩护，也有人接话起哄。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "有人帮他说话"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "声望服务天价报价",
+          "weight": "heavy",
+          "reason": "夸张报价成为长期外号，并由本人讲述反复扩散。",
+          "note": "报价等级与客户实际需求的落差、外号反噬及本人态度变化互相呼应。",
+          "source": {
+            "file": "src/people/sirses/materials-sirses.json",
+            "contains": "**声望报价，中**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sirses/sirses.md",
+            "contains": "外号的源头，按声望哥自己的"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "买家只想把负声望稍微拉回安全线。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "求助者只想把约负 5.2 的声望带到负 5"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "报价由千亿档落到六十亿，套餐差距变成笑点。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "后来口中的到 9 方案"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "围观者把报价转成了他的外号。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "外号倒从来不用分套餐"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "他先厌恶外号，后来主动认领。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "2026 年 7 月，又改成了"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "五级任务群工资纠纷",
+          "weight": "heavy",
+          "reason": "工资垫付引发本人长期挂人及双方公开争执。",
+          "note": "呈现声望哥、汤圆和打手各自的结算位置，并保留对立版本。",
+          "source": {
+            "file": "src/people/sirses/materials-sirses.json",
             "contains": "**五级群工资，中**"
           },
           "treatment": "expanded",
@@ -43,49 +143,57 @@
           "development": [
             {
               "angle": "处境",
-              "note": "他与任务群就工资税率产生矛盾",
+              "note": "任务群打手等待结算，声望哥按自己的周期发工资。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "自己在 FRT 欧塔的加达里五级任务群组队"
+                "contains": "给打手的工资一向半个月一结"
               }
             },
             {
               "angle": "反差",
-              "note": "声望哥称多付款，对方称拖账",
+              "note": "声望哥称多付三千万，对手指他拖账并由汤圆垫付。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "一边说是被逼着还了钱还多打三千万"
+                "contains": "骑猫兵的说法只有一句"
               }
             },
             {
               "angle": "反应与后果",
-              "note": "骑猫兵翻出工资备注和旧账",
+              "note": "工资备注和实发数字被贴出，结账争议又牵出旧虫洞。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "声望哥发帖控诉汤圆的同一周"
+                "contains": "把账从另一头算"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "双方退团后仍围绕由谁先垫钱争论。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "散伙以后最耐打的却是这笔账"
               }
             }
           ],
           "verdict": "sufficient"
         },
         {
-          "title": "虫洞工资与跑路争议",
-          "reason": "事件有持续冲突或重大个人行为，影响人物主线。",
-          "note": "对照本人素材与正文，保留各方说法并写出过程和反应。",
+          "title": "虫洞工资与拆家逃离争议",
           "weight": "heavy",
+          "reason": "受雇管理虫洞却发生拆家，爆料人与本人对责任各执一词。",
+          "note": "先铺雇主投入与职位，再并列逃离指控和声望哥的反诉。",
           "source": {
-            "file": "src/people/sirses/materials-sirses.md",
+            "file": "src/people/sirses/materials-sirses.json",
             "contains": "**2022 虫洞，中**"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/sirses/sirses.md",
-            "contains": "2025 年 10 月，一位吧友发帖"
+            "contains": "回忆 2022 年和声望哥合作开发虫洞"
           },
           "development": [
             {
               "angle": "处境",
-              "note": "其受雇管理虫洞并带新人",
+              "note": "雇主付卡费，让他负责洞内管理和带新人。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
                 "contains": "声望哥负责管理虫洞、带新人刷洞"
@@ -93,30 +201,38 @@
             },
             {
               "angle": "反差",
-              "note": "被指责临阵逃离，他说对方招来拆家",
+              "note": "雇主描述他沉默逃跑，本人称自己安静刷洞遭对方招来拆家。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "一周后声望哥在另一帖"
+                "contains": "苦主奇葩操作"
               }
             },
             {
-              "angle": "反应与后果",
-              "note": "各方金额与因果版本不一",
+              "angle": "分量",
+              "note": "建筑、刷怪船和装家当的工业舰把争论落到实际损失。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "四十亿工资还是二十亿买洞"
+                "contains": "开着装满家当的工业舰想溜"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "双方都把经营失败归到对方操作上。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "两个人都认为是对方把家经营没了"
               }
             }
           ],
           "verdict": "sufficient"
         },
         {
-          "title": "持续点名汤圆",
-          "reason": "事件有持续冲突或重大个人行为，影响人物主线。",
-          "note": "对照本人素材与正文，保留各方说法并写出过程和反应。",
+          "title": "两年持续点名汤圆",
           "weight": "heavy",
+          "reason": "本人多次公开定位、悬赏并指控前团友，成为持续两年的公开恩怨。",
+          "note": "把追踪、悬赏和假图争议连成一条反复追讨的主线。",
           "source": {
-            "file": "src/people/sirses/materials-sirses.md",
+            "file": "src/people/sirses/materials-sirses.json",
             "contains": "**持续点名汤圆，重**"
           },
           "treatment": "expanded",
@@ -127,26 +243,84 @@
           "development": [
             {
               "angle": "处境",
-              "note": "离团后继续追着汤圆公开点名",
+              "note": "离团后仍将汤圆作为唯一悬赏对象。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "离开 FRT 后，汤圆成了声望哥的固定话题"
+                "contains": "他把汤圆的位置摆到帖子里"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "旧账使他持续把汤圆的行踪和联盟变化解读为针对自己的新内容。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "前团友换了多少处境"
               }
             },
             {
               "angle": "反差",
-              "note": "借搬家公告及假图指责RMT",
+              "note": "搬家公告和假图被用来支持跑路指控，追问时只得到反问。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "正文贴了一份 PH 搬家公告"
+                "contains": "匿名交易图后来已被鉴定为假"
               }
             },
             {
               "angle": "反应与后果",
-              "note": "两年中悬赏、公布行踪并回击质疑",
+              "note": "多年帖子将联盟迁移改写成私人账本的续页。",
               "evidence": {
                 "file": "src/people/sirses/sirses.md",
-                "contains": "声望哥一会儿悬赏、一会儿公布行踪"
+                "contains": "声望哥的帖子可以跨过时间继续追人"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "卡戎的测试服借款与佛珠威胁",
+          "weight": "heavy",
+          "reason": "群聊里把单笔借款争执说成要将对方制成骷髅佛珠，形成强烈人物冲突。",
+          "note": "用声望哥的悬赏旧习与卡戎的夸张报复构成双向回响。",
+          "source": {
+            "file": "src/people/sirses/materials-sirses.json",
+            "heading": "## 卡戎测试服借钱"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/sirses/sirses.md",
+            "contains": "卡戎说，声望哥真找他借过钱"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "卡戎称正式服没有借钱，测试服借出后又遭对方翻脸。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "正式服没借，测试服借了"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "普通借款纠纷被卡戎升级为骷髅佛珠和十八酷刑。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "象征十八种酷刑"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "群友追问他平时是否也玩得如此夸张。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "群友问他平时玩这么大"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "卡戎的佛珠与声望哥的悬赏遥相照面。",
+              "evidence": {
+                "file": "src/people/sirses/sirses.md",
+                "contains": "声望哥对汤圆的悬赏有价有对象"
               }
             }
           ],
@@ -156,23 +330,29 @@
     },
     "balance": {
       "status": "reviewed",
-      "note": "主要事件仍是正文重心，新战斗块衔接人物玩法。",
+      "note": "开篇、猎杀红料和结尾将声望哥的耐性、自我宣传及多起结账冲突串联；正文以公开恩怨和自我经营为主。",
       "evidence": [
         {
           "file": "src/people/sirses/sirses.md",
-          "contains": "他还有几个同团角色陪着出门"
+          "contains": "一个能把游戏玩成长期讨债现场的人"
         }
       ]
     }
   },
   "dependencies": [
     "src/people/sirses/2120632368-id.json",
-    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/materials-sirses.json",
     "src/people/sirses/sirses.md",
     "src/battles/sahtogas-2026/sahtogas-2026.json",
     "src/battles/sahtogas-2026/sahtogas-2026.md",
-    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.json"
   ],
-  "inputs": "df4a648c900a7fbf1037f055407f84328972beb1f6c1fd083593181b4ac963b8",
+  "inputs": "454859e868c60b9b85d78f4557bbd8de17cf58594d1ebca712550b4bb112bc0e",
+  "inputParts": {
+    "src/people/sirses/2120632368-id.json": "fdb6ff3610aa1e6fd9a5dc7d70de1e40b41917d7984123b7106b98d3a5e8bc98",
+    "src/people/sirses/materials-sirses.json": "b641be6951556bb41e8f413c653303c3a0230f92481ebd81460ada7fbd7c386d",
+    "src/people/sirses/sirses.md": "e6125f60f35e450be7f24c9258f60fafa8740e938f0c1703f06f4f546d14b6cb",
+    "battle:sahtogas-2026": "5a4d3e36ce64ee2e1b921c13800320bdd8535240af7e74a3894d7bc62e1cdea8"
+  },
   "level": 1
 }

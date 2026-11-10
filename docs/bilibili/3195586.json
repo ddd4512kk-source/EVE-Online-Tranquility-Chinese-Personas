@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "3195586",
   "name": "bvjnj",
   "url": "https://space.bilibili.com/3195586/",
   "identity": {
     "state": "confirmed",
     "person": "bvjnj",
-    "material": "src/people/bvjnj/materials-bvjnj.md",
+    "material": "src/people/bvjnj/materials-bvjnj.json",
     "label": "辉夜素材",
     "evidence": [
       "97条，《FRT 2023/4/19联盟会议》、AOM 7.29联盟大会、1500人会战字幕；少侠视频素材致谢名单有此名"
     ],
     "related": [
       {
-        "material": "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+        "material": "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
         "label": "战役相关视频"
       }
     ]
@@ -48,25 +48,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/bvjnj/materials-bvjnj.md"
+        "evidence": "src/people/bvjnj/materials-bvjnj.json"
       }
     },
     "prior_notes": [
       {
         "text": "空间 https://space.bilibili.com/3195586 ：投稿145条（视频97），粉丝342；签名“EVE玩家 勋奖章收藏爱好者 世界男子复合弓一哥们”。",
-        "source": "src/people/bvjnj/materials-bvjnj.md"
+        "source": "src/people/bvjnj/materials-bvjnj.json"
       },
       {
         "text": "代表作：《EVE欧服 1500人会战 字幕解说》《EVE欧服 世界大战贝斯门户争夺战》《EVE欧服 0.1龙的荣耀 旗舰抗压虽败犹荣》；另有《EVE欧服 FRT 2023/4/19联盟会议（带字幕）》《EVE欧服 AOM 7.29联盟大会》《EVE欧服 北方日常战斗合集》系列。近作多为生活与射箭内容。",
-        "source": "src/people/bvjnj/materials-bvjnj.md"
+        "source": "src/people/bvjnj/materials-bvjnj.json"
       },
       {
         "text": "2026-10-16初查时仅读空间首页，未核最多播放排序，未展开作品页；此状态已由2026-10-17的作品页采集更新，补档清单见下文。联盟会议录像可作FRT、AOM事件来源。",
-        "source": "src/people/bvjnj/materials-bvjnj.md"
+        "source": "src/people/bvjnj/materials-bvjnj.json"
       },
       {
         "text": "本次逐条复核8页作者UID、标题与简介，回看各页前2个可见评论线程的已有摘录；不代表已穷尽评论或展开楼中楼。未读取视频、音轨、字幕或弹幕。旧空间缓存的排序URL不能单独证明实际切换了最多播放。",
-        "source": "src/people/bvjnj/materials-bvjnj.md"
+        "source": "src/people/bvjnj/materials-bvjnj.json"
       }
     ],
     "listings": [
@@ -1443,10 +1443,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介为空；标题可证频道发布联盟会议字幕作品，不能代替读取会议内容。"
       },
       "usage": {
         "body": true,
@@ -1471,11 +1469,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md",
-          "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介挂X47战报；“被举报重传”与“狂送120B”是标题口径，举报者、理由与实际损失不由标题补齐。"
       },
       "usage": {
         "body": false,
@@ -1500,10 +1495,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介为空；2000人与20B仅为标题口径，未独立核验。"
       },
       "usage": {
         "body": true,
@@ -1528,10 +1521,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介为空；“没有败走但是坐牢”为作品标题与作者态度，不能用来独立确认人数。"
       },
       "usage": {
         "body": true,
@@ -1556,10 +1547,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介讽刺同一条河淹死两次，并挂前哨与主战场两份战报；正文已有这条叙事。"
       },
       "usage": {
         "body": true,
@@ -1584,9 +1573,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1612,10 +1598,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介为空；标题是作者对纳瓦拉接战的判断，不能作为客观战斗结论。"
       },
       "usage": {
         "body": true,
@@ -1640,14 +1624,147 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/bvjnj/materials-bvjnj.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介为空；标题同时调侃BRAVE隐轰守集结与诱导死亡，不把戏谑标题当完整事件经过。"
       },
       "usage": {
         "body": false,
         "selected": false
+      }
+    },
+    {
+      "bvid": "BV14T4y1E7dL",
+      "title": "EVE欧服 FRT海燕队被单隐轰团灭",
+      "url": "https://www.bilibili.com/video/BV14T4y1E7dL/",
+      "owner_uid": "3195586",
+      "published_at": "2020-07-22T06:11:26.000Z",
+      "captured_at": "2026-11-08T16:37:43.965Z",
+      "description": "EVE欧服 愉快的船蛋双飞\n创世倾域EVE 十三年EVE顶级PVP/PVE军团，5-6月份华人军团击杀第一，15小时超旗保护伞，欢迎各位加入。\n游戏内联络人：JC Alba、CFA 44、Qi Mo、Bai Shan\nhttps://chuangshiqingyu.com/blog/details/url/summer-recruit",
+      "stats": {
+        "views": 3746,
+        "replies": 12
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "读取作品页简介及评论API第一页的3个主评论线程和其中可见回复；未翻页、未展开其他楼层；未看影像、音轨、字幕，未核战报或评论中事实说法。",
+        "reviewed_at": "2026-11-08T16:41:32.000Z",
+        "digest": "简介只有“愉快的船蛋双飞”和招募信息。首屏评论有人笑称当事人急着回家、有人询问海燕是否能出货；另一位评论者讲自己参加过相关交战并描述投弹结果，未见作者回应。该战斗叙述属于评论者个人回忆，不能归为上传者经历或本片已核战果。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1Q54y127Jd",
+      "title": "EVE欧服 泰坦无抵抗拆迁第一视角 联军超旗北方战场首秀",
+      "url": "https://www.bilibili.com/video/BV1Q54y127Jd/",
+      "owner_uid": "3195586",
+      "published_at": "2020-08-28T15:06:05.000Z",
+      "captured_at": "2026-11-08T16:37:23.505Z",
+      "description": "除了可怜的剑齿虎外没有别的战损发生\n创世倾域EVE 十三年EVE顶级PVP/PVE军团，5-6月份华人军团击杀第一，15小时超旗保护伞，欢迎各位加入。\n游戏内联络人：JC Alba、CFA 44、Qi Mo、Bai Shan\nhttps://chuangshiqingyu.com/blog/details/url/summer-recruit",
+      "stats": {
+        "views": 4157,
+        "replies": 31
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "读取作品页简介及评论API第一页的3个主评论线程和其中可见回复；未翻页、未展开其他楼层；未看影像、音轨、字幕，未核战报或评论中事实说法。",
+        "reviewed_at": "2026-11-08T16:41:32.000Z",
+        "digest": "简介称除一艘剑齿虎外没有其他战损，并附招募信息。首屏评论围绕联军泰坦数量与GSF对比、是否会继续进绝地争论；作者回应了泰坦装配变化与抗性改版、钢板加成削弱的关系，另有评论者补充自己的装配。战损和人数说法未独立核实，作者的配装答复限于当时评论。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Vg4y1v7xK",
+      "title": "EVE欧服 萨沙入侵决战 泰坦第一视角",
+      "url": "https://www.bilibili.com/video/BV1Vg4y1v7xK/",
+      "owner_uid": "3195586",
+      "published_at": "2020-07-02T12:08:35.000Z",
+      "captured_at": "2026-11-08T16:36:22.059Z",
+      "description": "EVE欧服FRT萨沙入侵决战\nBGM：内田真礼 - 創傷イノセンス\n创世倾域EVE 十三年EVE顶级PVP/PVE军团，5-6月份华人军团击杀第一，15小时超旗保护伞，欢迎各位加入。\n游戏内联络人：JC Alba、CFA 44、Qi Mo、Bai Shan\nhttps://chuangshiqingyu.com/blog/details/url/summer-recruit",
+      "stats": {
+        "views": 13736,
+        "replies": 23
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "读取作品页简介及评论API第一页的3个主评论线程和其中可见回复；未翻页、未展开其他楼层；未看影像、音轨、字幕，未核战报或评论中事实说法。",
+        "reviewed_at": "2026-11-08T16:41:32.000Z",
+        "digest": "简介把作品定位为FRT萨沙入侵决战，并附招募与音乐信息。首屏评论一条询问星系名遮挡的界面行为，另两条拿萨沙入侵与泰坦调侃；未见作者回应。评论是界面问题和阵营玩笑，不构成会战经过或战损证明。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1vD4y1Q7qx",
+      "title": "EVE欧服 世界大战前夜 泰坦舰队移动实录",
+      "url": "https://www.bilibili.com/video/BV1vD4y1Q7qx/",
+      "owner_uid": "3195586",
+      "published_at": "2020-07-04T17:13:06.000Z",
+      "captured_at": "2026-11-08T16:36:42.546Z",
+      "description": "EVE欧服 凛冬联盟群泰坦移动实录\n创世倾域EVE 十三年EVE顶级PVP/PVE军团，5-6月份华人军团击杀第一，15小时超旗保护伞，欢迎各位加入。\n游戏内联络人：JC Alba、CFA 44、Qi Mo、Bai Shan\nhttps://chuangshiqingyu.com/blog/details/url/summer-recruit",
+      "stats": {
+        "views": 5449,
+        "replies": 24
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "读取作品页简介及评论API第一页的3个主评论线程和其中可见回复；未翻页、未展开其他楼层；未看影像、音轨、字幕，未核战报或评论中事实说法。",
+        "reviewed_at": "2026-11-08T16:41:32.000Z",
+        "digest": "简介称这是凛冬联盟的泰坦移动实录，另附招募信息。评论里有人对音乐、锐化和隐藏界面提剪辑建议，作者表示感谢并答复；另一评论者列举数场行动并夹带联盟政治调侃，未作独立核实。只记作者对剪辑意见的回应，不把评论列举的战事当作视频事实。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1vV411k7gx",
+      "title": "EVE欧服 当你的投送泰坦没有跳桥",
+      "url": "https://www.bilibili.com/video/BV1vV411k7gx/",
+      "owner_uid": "3195586",
+      "published_at": "2020-06-27T15:35:43.000Z",
+      "captured_at": "2026-11-08T16:37:02.996Z",
+      "description": "关于一个投送泰坦两次没装跳桥的故事",
+      "stats": {
+        "views": 4566,
+        "replies": 18
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "读取作品页简介及评论API第一页的3个主评论线程和其中可见回复；未翻页、未展开其他楼层；未看影像、音轨、字幕，未核战报或评论中事实说法。",
+        "reviewed_at": "2026-11-08T16:41:32.000Z",
+        "digest": "简介把内容概括为一艘投送泰坦两次没装跳桥的故事。首屏评论以“大巴没带轮胎”“至少没把自己投过去”等比喻玩梗，另有人猜测泰坦后续动作；未见作者回应。没有可核对的行动细节，不能据评论补写战斗经过。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
       }
     }
   ]

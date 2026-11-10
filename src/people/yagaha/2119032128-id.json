@@ -39,7 +39,78 @@
       "00区",
       "CEO",
       "CONDI"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "旧团沉船九小时，新团先挂起招牌。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "星华解体与索赔争执不自动算个人恶行。",
+          "sources": [
+            {
+              "label": "昆仑成立通告与重组声明",
+              "url": "https://esi.evetech.net/latest/characters/2119032128/"
+            },
+            {
+              "label": "300亿罚单仲裁追回整理帖",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "双号四千余击杀，长期常规舰队实战。",
+          "sources": [
+            {
+              "label": "角色战绩与出勤概览",
+              "url": "https://zkillboard.com/character/2119032128/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "重建军团与对外谈判不等于舰队带领。",
+          "sources": [
+            {
+              "label": "昆仑军团规模官方数据",
+              "url": "https://esi.evetech.net/latest/characters/2119032128/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "重组后成员跟随进入昆仑，具跨团队凝聚。",
+          "sources": [
+            {
+              "label": "招新简介与福利政策",
+              "url": "https://esi.evetech.net/latest/characters/2119032128/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "实际接手重组大型军团，协调重返GSF与赔偿事务。",
+          "sources": [
+            {
+              "label": "Goonswarm联盟月度贴文",
+              "url": "https://esi.evetech.net/latest/characters/2119032128/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "团队福利与双号投入有余，未见雄厚个人产业。",
+          "sources": [
+            {
+              "label": "军团福利与金库储备",
+              "url": "https://esi.evetech.net/latest/characters/2119032128/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -49,7 +120,7 @@
         "name": "YAGAHA",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收YAGAHA3",
         "sources": [
-          "materials-yagaha.md"
+          "materials-yagaha.json"
         ],
         "zkb": {
           "kills": 1527,

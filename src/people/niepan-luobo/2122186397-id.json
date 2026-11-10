@@ -93,7 +93,7 @@
         "id": 2122186266,
         "name": "NVA-Queen",
         "sources": [
-          "materials-niepan-luobo.md"
+          "materials-niepan-luobo.json"
         ],
         "zkb": {
           "kills": 1040,
@@ -107,7 +107,7 @@
         "id": 2122279930,
         "name": "NVA-Nirvana",
         "sources": [
-          "materials-niepan-luobo.md"
+          "materials-niepan-luobo.json"
         ],
         "zkb": {
           "kills": 235,
@@ -121,7 +121,7 @@
         "id": 2122238003,
         "name": "NVA-Prince",
         "sources": [
-          "materials-niepan-luobo.md"
+          "materials-niepan-luobo.json"
         ],
         "zkb": {
           "kills": 88,
@@ -135,7 +135,7 @@
         "id": 2122279631,
         "name": "NVA-Luo",
         "sources": [
-          "materials-niepan-luobo.md"
+          "materials-niepan-luobo.json"
         ],
         "zkb": {
           "kills": 4,
@@ -149,7 +149,7 @@
         "id": 2123492459,
         "name": "NVA-BYB",
         "sources": [
-          "materials-niepan-luobo.md"
+          "materials-niepan-luobo.json"
         ],
         "zkb": {
           "kills": 1,
@@ -169,7 +169,7 @@
             "涅磐萝卜"
           ],
           "sources": [
-            "materials-niepan-luobo.md"
+            "materials-niepan-luobo.json"
           ]
         }
       ]
@@ -196,6 +196,73 @@
       "CEO",
       "脚本",
       "D.C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "宝宝巴士换房契，招募楼还照常顶。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "既有封号与脚本事件按具体违规评B。",
+          "sources": [
+            {
+              "label": "萨沙怪区招新帖",
+              "url": "https://tieba.baidu.com/p/11022405603"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三号过百击杀，多号合计两千余，稳定实战。",
+          "sources": [
+            {
+              "label": "NVA-King 战斗记录",
+              "url": "https://zkillboard.com/character/2122186397/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO与多号出勤未见本人舰队指挥。",
+          "sources": [
+            {
+              "label": "萨沙怪区招新帖",
+              "url": "https://tieba.baidu.com/p/11022405603"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "日常百余人军团和持续招募，具团队号召。",
+          "sources": [
+            {
+              "label": "萨沙怪区招新帖",
+              "url": "https://tieba.baidu.com/p/11022405603"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "实际经营大型宝宝巴士，管理税返和福利体系。",
+          "sources": [
+            {
+              "label": "萝卜的军团招新与管理记录",
+              "url": "https://tieba.baidu.com/p/11022405603"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "三个确认活跃号均过百击杀，达到多号经营A。",
+          "sources": [
+            {
+              "label": "萨沙任务团招新信息",
+              "url": "https://tieba.baidu.com/p/11022405603"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "5816476",
   "name": "离子态狍子",
   "url": "https://space.bilibili.com/5816476/",
   "identity": {
     "state": "confirmed",
     "person": "mipha-holic",
-    "material": "src/people/mipha-holic/materials-mipha-holic.md",
+    "material": "src/people/mipha-holic/materials-mipha-holic.json",
     "label": "HOLIC",
     "evidence": [
       "本人贴吧帖挂此主页"
@@ -43,21 +43,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/mipha-holic/materials-mipha-holic.md"
+        "evidence": "src/people/mipha-holic/materials-mipha-holic.json"
       }
     },
     "prior_notes": [
       {
         "text": "B站：[离子态狍子（UID5816476）](https://space.bilibili.com/5816476)，签名“源泉猎人Holic”，粉丝 1017、投稿 222（2026-10-15）；本人贴吧帖多次写“B站搜离子态狍子，或者EVE海盗生涯”，2021 年四级任务攻略帖挂“https://space.bilibili.com/5816476 （HOLIC视频教学）”。API videos 第 2 页 412，按规则停 API；Chrome 读投稿第 1 页（42 条）及 8 个视频页（元数据＋最多 20 条主评论，未看影像、未展开楼中楼）。",
-        "source": "src/people/mipha-holic/materials-mipha-holic.md"
+        "source": "src/people/mipha-holic/materials-mipha-holic.json"
       },
       {
         "text": "BV152CRBQEtw《【EVE海盗生涯99】告别的盛宴》2025-11-17，1689 播放；简介“暂时告别新伊甸了，fly safe”；合集标“EVE海盗生涯（100/100）10.8万播放”；答“那咋了”。**入选**。",
-        "source": "src/people/mipha-holic/materials-mipha-holic.md"
+        "source": "src/people/mipha-holic/materials-mipha-holic.json"
       },
       {
         "text": "空间最新、最多播放首页各42个视频入口已核，合集／系列5个；未翻更深历史页或逐一打开合集。最多播放前列包含汽车与电脑内容，排除出EVE精选；EVE天钩篇约1.6万、白嫖脑浆8752、ESS单人作战5924。原4条推荐保留，新增白嫖脑浆为第5条，不将汽车等频道高播放误当EVE代表作。",
-        "source": "src/people/mipha-holic/materials-mipha-holic.md"
+        "source": "src/people/mipha-holic/materials-mipha-holic.json"
       }
     ],
     "listings": [
@@ -1863,10 +1863,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md#bili-bv1bvztb6eo3"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "- BV1BvztB6Eo3《【FC退休生活03】他人即地狱》2026-01-26，1289 播放；简介“我没AFK，我只是不搞军团了”；答“对，解散了”“游戏时间得不到保证，只能玩点独乐乐的内容”。\n\n### [【FC退休生活03】他人即地狱](https://www.bilibili.com/video/BV1BvztB6Eo3/)"
       },
       "usage": {
         "body": false,
@@ -1891,9 +1889,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1919,9 +1914,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1947,9 +1939,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1975,9 +1964,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2003,9 +1989,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2031,9 +2014,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2059,9 +2039,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2087,14 +2064,146 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mipha-holic/materials-mipha-holic.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV1ZT4y1U7yn",
+      "title": "EVE海盗生涯 第四期：猛猴出击",
+      "url": "https://www.bilibili.com/video/BV1ZT4y1U7yn/",
+      "owner_uid": "5816476",
+      "published_at": "2022-03-22T02:13:54.000Z",
+      "captured_at": "2026-11-08T17:13:15.668Z",
+      "description": "本期教了 战前准备、做安全点、捏纤维、D-SCAN扫人、审判吃肉、看星图、安全下线\n\n海盗碰到正经队伍头都要被打烂，也就欺负欺负萌新和偷袭。",
+      "stats": {
+        "views": 4618,
+        "replies": 34
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介及评论 API 首屏（3 条主评论及可见回复）；未观看视频画面，也未读取后续评论页。摘要仅记作者自述与首屏讨论，不代表指南或战斗经过已核实。",
+        "digest": "简介将本期定位为单人海盗实操入门，列出战前准备、安全点、D-scan、拦截与接战、星图和安全下线；作者称海盗遇到组织化队伍常处下风，更多针对新人或偷袭。首屏观众称教程细，评论围绕海盗与正面团战的取舍展开；这些是作者介绍和评论观点，未核验操作效果或战斗叙述。",
+        "reviewed_at": "2026-11-08T17:18:42Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1eo4y1L7mi",
+      "title": "[EVE]源泉猎人小课堂01：如何独立破防超大修",
+      "url": "https://www.bilibili.com/video/BV1eo4y1L7mi/",
+      "owner_uid": "5816476",
+      "published_at": "2023-04-29T09:31:12.000Z",
+      "captured_at": "2026-11-08T17:13:57.553Z",
+      "description": "720 Cynabal配置，此配置能打ishta狂怒gila，要带移动仓库换装针对抗才能打过，打不过其他任何东西，护卫打不中，战巡打不动~ 专门用来破防超大修的配置，双T2电抗会拉角速度的ishta打不过，技能太高的ishta打不过。\n中英文配置见评论",
+      "stats": {
+        "views": 4123,
+        "replies": 41
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介及评论 API 首屏（3 条主评论及可见回复）；未观看视频画面，也未读取后续评论页。摘要概括配置用途和首屏讨论，不把玩家经验视作当前版本验证。",
+        "digest": "简介将720 Cynabal定位为针对特定超大主动修复目标的针对性配置，需用移动仓库切换抗性，并列出若干不适用情形。首屏评论补充配置细节，讨论中子 Hecate、对不同舰船的伤害与适用性，也有观众称作者上电视；配置及效果均为投稿与评论经验，未验证当前版本。",
+        "reviewed_at": "2026-11-08T17:18:42Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1mb4y1p7Sh",
+      "title": "EVE海盗生涯 第一期：千难万险的开端",
+      "url": "https://www.bilibili.com/video/BV1mb4y1p7Sh/",
+      "owner_uid": "5816476",
+      "published_at": "2022-03-19T08:35:59.000Z",
+      "captured_at": "2026-11-08T17:13:36.719Z",
+      "description": "我是EVE欧服海盗军团Fountain Hunter的HOLIC（简称 猴），接下来请随我一起，开启新伊甸的旅程\n勇气 是海盗的骄傲\n\n交流群：454361060",
+      "stats": {
+        "views": 4409,
+        "replies": 30
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介及评论 API 首屏（3 条主评论及可见回复）；未观看视频画面，也未读取后续评论页。封禁经历和收益说法均按发言者归属记录，未作政策或收益核验。",
+        "digest": "作者自述以 HOLIC（猴）身份加入欧服 Fountain Hunter 海盗团，开启新伊甸旅程并以勇气作海盗标语。首屏评论中作者讲述土耳其区 Steam 充值/账号触发封禁的个人经历；另一观众质疑新手短时赚取大量 ISK 的估算并称实际耗时更长，评论也争论海盗与正面交战。这些是个人经历、网友估算和观点，不构成政策或收益验证。",
+        "reviewed_at": "2026-11-08T17:18:42Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ri421k7JM",
+      "title": "【EVE海盗生涯63】ESS单人作战11杀（诅咒+CFI）",
+      "url": "https://www.bilibili.com/video/BV1ri421k7JM/",
+      "owner_uid": "5816476",
+      "published_at": "2024-05-09T09:27:45.000Z",
+      "captured_at": "2026-11-08T17:12:33.851Z",
+      "description": "诅咒4E，舰队飓风2E，指挥脑插50M\n成本低的双开方案，打ESS能处理小队\n这次主要是运气好对面着急了，一直在葫芦娃\n跟墨辉老板学的，他神装经常能吃掠夺队",
+      "stats": {
+        "views": 5979,
+        "replies": 46
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介及评论 API 首屏（3 条主评论及可见回复）；未观看视频画面，也未读取后续评论页。战果、配置与相关经历均按作者自述归属记录，未作独立核验。",
+        "digest": "简介介绍低成本双开 ESS 思路，称诅咒与舰队飓风配置可应对小队，并把本次情况归于对手急于逐个推进和自身运气，也提及向墨辉学习高价装应对掠夺队的经验。首屏评论主要是对操作表现的玩笑式赞叹，未见作者补充战斗细节；战果与配置效果仅按作者简介记录，未独立核验。",
+        "reviewed_at": "2026-11-08T17:18:42Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1tjtpeBEpL",
+      "title": "EVE天钩海盗·20分钟58亿",
+      "url": "https://www.bilibili.com/video/BV1tjtpeBEpL/",
+      "owner_uid": "5816476",
+      "published_at": "2024-09-19T02:25:35.000Z",
+      "captured_at": "2026-11-08T17:12:54.702Z",
+      "description": "一个号分7E。嘻嘻",
+      "stats": {
+        "views": 5074,
+        "replies": 21
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介及评论 API 首屏（3 条主评论及可见回复）；未观看视频画面，也未读取后续评论页。摘要只记录可见问答和观众反馈，不据标题确认战利品过程。",
+        "digest": "简介以单号分账作俏皮说明。首屏观众询问 Thukker Caravan 的交互与护盾相关操作，作者提示交互按钮较小并建议查看往期视频；另有粉丝表达喜爱并希望更新。现有简介与首屏摘录不足以确认标题所示战利品过程及其经过。",
+        "reviewed_at": "2026-11-08T17:18:42Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

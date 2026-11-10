@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "52322115",
   "name": "Sixshot-",
   "url": "https://space.bilibili.com/52322115/",
   "identity": {
     "state": "confirmed",
     "person": "chessplayer",
-    "material": "src/people/chessplayer/materials-chessplayer.md",
+    "material": "src/people/chessplayer/materials-chessplayer.json",
     "label": "青衣",
     "evidence": [
       "已归本人；签名“AT19世界冠军！”，本人贴吧帖贴其翻译投稿BV1Sh411d7Yk"
@@ -48,7 +48,7 @@
     "prior_notes": [
       {
         "text": "**翻译视频投稿账号**（2026-10-16）：BV1Sh411d7Yk 由 Sixshot-（UID 52322115，https://space.bilibili.com/52322115 ）投稿。空间签名“AT19世界冠军！”，投稿140条（视频115），EVE作品有《[英语熟肉]（Auraus Porcaleus）PvP解说视频#5 维德马克&手动风筝教程》、《AT19登神长阶-Fraternity冠军成员第一视角（部分）》、《[代发第一视角]AT19 FRT队POV 克勒斯 哨兵 海鱼鹰》，合作《最精彩的决赛？全华班首个EVE世界总冠军！》《离谱！论一个诈骗合同如何灭掉一家联盟。》，其余多为阿尔比恩。已归本人；FRT队POV一条标题自注“代发”。",
-        "source": "src/people/chessplayer/materials-chessplayer.md"
+        "source": "src/people/chessplayer/materials-chessplayer.json"
       }
     ],
     "listings": [
@@ -1416,10 +1416,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/chessplayer/materials-chessplayer.md#bili-bv1sh411d7yk"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "- [《Auraus Porcaleus维德马克风筝教学》](https://tieba.baidu.com/p/6899441216)，2020-08-22：本人称“视频是我自己翻译的”，贴[BV1Sh411d7Yk](https://www.bilibili.com/video/BV1Sh411d7Yk)，并在帖中补答高蛇成本、大电池、总览调整。读者感谢翻译、期待继续，也指出画质需提高。未看影像、未读字幕、未听音频；只按已读本人文字写翻译劳动和教学互动，不作视频作品质量推荐。2026-10-15读取视频作者元数据被B站共享停止状态拦下，未发送请求，不记成此次真实403；B站发布账号UID／作者名仍待入口恢复后核，不能误把原视频作者Auraus Porcaleus归成青衣。\n\n- **翻译视频投稿账号**（2026-10-16）：BV1Sh411d7Yk 由 Sixshot-（UID 52322115，https://space.bilibili.com/52322115 ）投稿。空间签名“AT19世界冠军！”，投稿140条（视频115），EVE作品有《[英语熟肉]（Auraus Porcaleus）PvP解说视频#5 维德马克&手动风筝教程》、《AT19登神长阶-Fraternity冠军成员第一视角（部分）》、《[代发第一视角]AT19 FRT队POV 克勒斯 哨兵 海鱼鹰》，合作《最精彩的决赛？全华班首个EVE世界总冠军！》《离谱！论一个诈骗合同如何灭掉一家联盟。》，其余多为阿尔比恩。已归本人；FRT队POV一条标题自注“代发”。\n\n### [[英语熟肉]（Auraus Porcaleus）PvP解说视频#5 维德马克&手动风筝教程](https://www.bilibili.com/video/BV1Sh411d7Yk/)"
       },
       "usage": {
         "body": false,

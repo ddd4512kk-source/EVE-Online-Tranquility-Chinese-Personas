@@ -88,7 +88,7 @@
         "id": 2112611896,
         "name": "fliet100",
         "sources": [
-          "materials-fliet99.md"
+          "materials-fliet99.json"
         ],
         "zkb": {
           "kills": 7304,
@@ -113,7 +113,75 @@
     "epithet": "两家蓝加的钱都收，收完连雇主一起官宣。",
     "tags": [
       "00区",
-      "CEO"
-    ]
+      "CEO",
+      "FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:00:00Z",
+      "verdict": "OSY 门神 CEO 兼核心 FC，一万五千杀，简介抄克苏鲁经文，两家雇主的钱都收。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "收两家蓝加的钱再共同官宣，引发具体利益争议，评的是这件事。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "图万·奥斯神殿军团简介",
+              "url": "https://forums.winterco.org/t/topic/6371"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "主号一万五千余杀、五百多次单杀；无畏一百六十余、超旗与泰坦各有斩获，航母与战力辅助舰也各数十，常年守 OSY 老家，也随 GOT 出远门打无畏混战。",
+          "sources": [
+            {
+              "label": "fliet99 zKillboard 统计",
+              "url": "https://zkillboard.com/character/91254848/stats/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "OSY 的核心 FC 之一，长年在 OSY 带本地舰队守门、封锁，也带 GOT 的队伍出征，又是四百余人军团的 CEO。",
+          "sources": [
+            {
+              "label": "图万·奥斯神殿军团档案",
+              "url": "https://zkillboard.com/corporation/98654854/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期守 OSY、编写教学，已有跨团可辨识的地方领袖形象。",
+          "sources": [
+            {
+              "label": "燃烧任务测试服教学",
+              "url": "https://forums.winterco.org/t/topic/14039"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期执掌四百余人军团及联盟执行军团，实际组织权力清楚。",
+          "sources": [
+            {
+              "label": "关于 OSY 战区近况讨论",
+              "url": "https://forums.winterco.org/t/topic/6371"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "经营大军团并参与有偿作战，体现资源运作；未据此推定联盟级巨库。",
+          "sources": [
+            {
+              "label": "fliet99 zKillboard",
+              "url": "https://zkillboard.com/character/91254848/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

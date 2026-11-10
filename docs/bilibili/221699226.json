@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "221699226",
   "name": "账号已注销",
   "url": "https://space.bilibili.com/221699226/",
@@ -13,7 +13,7 @@
     ],
     "related": [
       {
-        "material": "src/people/freakdog-otto/materials-freakdog-otto.md",
+        "material": "src/people/freakdog-otto/materials-freakdog-otto.json",
         "label": "仓库提及，未核对应"
       }
     ]
@@ -61,10 +61,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/freakdog-otto/materials-freakdog-otto.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者[账号已注销（221699226）](https://space.bilibili.com/221699226)，2023-05-07。"
       },
       "usage": {
         "body": false,

@@ -21,7 +21,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98185110.md"
+        "docs/corporations/notes/member-research/98185110.json"
       ],
       "entries": [
         {
@@ -640,7 +640,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98185110.md"
+        "docs/corporations/notes/member-research/98185110.json"
       ],
       "entries": [
         {
@@ -1327,7 +1327,7 @@
     {
       "label": "Outuni Mesean",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98185110.md#伏羲历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2113284859",
@@ -1337,7 +1337,7 @@
     {
       "label": "叶瞳",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98185110.md#伏羲历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2114444328",
@@ -1350,7 +1350,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "3",
         "alliance": "Fraternity.",
@@ -1361,16 +1361,16 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-11",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "Gary CHGS / 90459120",
-        "prior_finding": "同人号已收录；[人物素材](../../../src/people/linkin-hy/materials-linkin-hy.md)"
+        "prior_finding": "同人号已收录；[人物素材](../../../src/people/linkin-hy/materials-linkin-hy.json)"
       }
     }
   ],
   "references": [
-    "docs/corporations/notes/descriptions.md",
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98185110.md"
+    "docs/corporations/notes/descriptions.json",
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98185110.json"
   ]
 }

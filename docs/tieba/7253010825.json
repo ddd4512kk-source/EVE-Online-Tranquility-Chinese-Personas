@@ -4,13 +4,13 @@
   "url": "https://tieba.baidu.com/p/7253010825",
   "title": "菜逼卖手手惨遭新人毒打（进来吃瓜）",
   "references": [
-    "docs/leads/tieba-history-replies.md",
+    "docs/leads/tieba-history-replies.json",
     "docs/tieba-review-2026-10-10.md",
-    "src/people/gone-with-windy/materials-gone-with-windy.md",
+    "src/people/gone-with-windy/materials-gone-with-windy.json",
     "src/people/mai-shoushou/mai-shoushou.md",
-    "src/people/mai-shoushou/materials-mai-shoushou.md",
-    "src/people/qiya-hei/materials-qiya-hei.md",
-    "src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.md",
+    "src/people/mai-shoushou/materials-mai-shoushou.json",
+    "src/people/qiya-hei/materials-qiya-hei.json",
+    "src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.json",
     "src/people/wisi-vida-wisivada/wisi-vida-wisivada.md"
   ],
   "legacy_records": [
@@ -18,7 +18,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7253010825",
-        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.md",
+        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.json",
         "首尾状态": "首尾已取",
         "接口回复数": "348",
         "主楼总页数": "3",

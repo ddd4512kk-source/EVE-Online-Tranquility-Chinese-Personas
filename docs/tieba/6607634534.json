@@ -4,8 +4,8 @@
   "url": "https://tieba.baidu.com/p/6607634534",
   "title": "萌新求助，为何N老板能统领WC？",
   "references": [
-    "src/people/cyan-nomi/materials-cyan-nomi.md",
-    "src/people/noraus/materials-noraus.md",
+    "src/people/cyan-nomi/materials-cyan-nomi.json",
+    "src/people/noraus/materials-noraus.json",
     "src/people/noraus/noraus.md"
   ],
   "legacy_records": [
@@ -13,7 +13,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6607634534",
-        "初始引用文件": "src/people/noraus/materials-noraus.md;src/people/noraus/noraus.md",
+        "初始引用文件": "src/people/noraus/materials-noraus.json;src/people/noraus/noraus.md",
         "首尾状态": "首尾已取",
         "接口回复数": "224",
         "主楼总页数": "3",

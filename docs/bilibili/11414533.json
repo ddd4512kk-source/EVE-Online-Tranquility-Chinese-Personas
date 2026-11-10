@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "11414533",
   "name": "邓天翔很2",
   "url": "https://space.bilibili.com/11414533/",
   "identity": {
     "state": "confirmed",
     "person": "fley-den",
-    "material": "src/people/fley-den/materials-fley-den.md",
+    "material": "src/people/fley-den/materials-fley-den.json",
     "label": "乌鸦王",
     "evidence": [
       "贴吧署名乌鸦王-KoR与B站同人，频道有EVE南华军团相关内容"
     ],
     "related": [
       {
-        "material": "src/people/nanhua-college/materials-nanhua-college.md",
+        "material": "src/people/nanhua-college/materials-nanhua-college.json",
         "label": "仓库提及，未核对应"
       }
     ]
@@ -296,10 +296,142 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nanhua-college/materials-nanhua-college.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV14W411s7QN",
+      "title": "【EVE实用工具】Nea2预警软件教程by恶凯旋",
+      "url": "https://www.bilibili.com/video/BV14W411s7QN/",
+      "owner_uid": "11414533",
+      "published_at": "2018-03-11T16:23:21.000Z",
+      "captured_at": "2026-11-09T02:28:30.199Z",
+      "description": "QQ文件\n相关游戏: EVE（星战前夜）\n简介补充: 实用预警软件设置教学及战术地图示范\n欢迎加入OSY华人社区；\n欢迎加入核爆舰队；（Nuclear Explosion Fleet）\n性感FC在线语音指挥；\n富爆总监急速全额补损；\n更有不定期集体误国活动！（睿智的群星玩家+1000）\n感谢军团长邪恶特朗普（误）Evil Triumph制作教程并献声（重点画好，滑稽）\n我们在1L-OEK等着你！",
+      "stats": {
+        "views": 9085,
+        "replies": 9
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介和播放/评论计数；读取 API 返回的热门主评论首屏（每条本次显示 3 条主评及界面随附回复），未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。",
+        "digest": "简介称作品为 EVE 的 Nea2 预警软件及战术地图教程，但明确说明教程制作与配音来自邪恶特朗普（Evil Triumph），不能把教程创作归给上传者。公开评论讨论更新后在 Windows 10 弹窗报错，以及无法添加人物；页面没有给出问题解决结论。\n\n范围内未见上传者对这些问题作答。",
+        "reviewed_at": "2026-11-09T02:34:35.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1QKoqBAEwb",
+      "title": "【EVE欧服】我向Rush之神祈祷，回应我的只有AT21的自己",
+      "url": "https://www.bilibili.com/video/BV1QKoqBAEwb/",
+      "owner_uid": "11414533",
+      "published_at": "2026-04-27T04:00:00.000Z",
+      "captured_at": "2026-11-09T02:28:50.693Z",
+      "description": "AG7是由玩家主办、CCP协办的类AT规则、7V7小队战比赛。\n以FRT成员为主的队伍：宏山科学院（Hongshan Academy of Sciences）先后在小组赛中击败劲旅Volta、在败者组第四轮比赛中击败连续两届AT冠军Tusker，最终成绩止步8强。\n由乌鸦王Fley Den带领的FRT队伍的M RUSH阵容目前在所有正式比赛中保持全胜战绩。\nAT21相关比赛视频【青春熊猫人M RUSH不会遇到带派旗舰海灾】 https://www.bilibili.com/video/BV1mrUpBYEvF/?share_source=copy_web&vd_source=7849c8ee44eee9d07b77027d6e7c334d",
+      "stats": {
+        "views": 5229,
+        "replies": 43
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介和播放/评论计数；读取 API 返回的热门主评论首屏（每条本次显示 3 条主评及界面随附回复），未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。",
+        "digest": "简介介绍 AG7 的 7 对 7 赛事背景：宏山科学院（FRT 成员为主）先后击败 Volta 和两届 AT 冠军 Tusker，最终止步八强；并称 Fley Den 带领的 M RUSH 阵容保持正式比赛全胜，附有 AT21 相关视频和两场分 P。评论把赛事调侃为“斯雷大学习”；有观众询问 Tusker 一战黑鸟为何不上网，上传者回复称追击时角速度低，开网环绕反会损失伤害。评论说法与简介成绩均按页面记录，未据此评价比赛画面。",
+        "reviewed_at": "2026-11-09T02:34:35.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1U4411i7Xu",
+      "title": "【EVE】莽字当头！塞纳波一次反收割战斗实录",
+      "url": "https://www.bilibili.com/video/BV1U4411i7Xu/",
+      "owner_uid": "11414533",
+      "published_at": "2019-05-05T17:38:35.000Z",
+      "captured_at": "2026-11-09T02:29:11.174Z",
+      "description": "跳0说不定还能收了那个洛基QwQ\n感谢前来增援的战友！\n特别鸣谢：左（咸）老（鱼）板",
+      "stats": {
+        "views": 4468,
+        "replies": 11
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介和播放/评论计数；读取 API 返回的热门主评论首屏（每条本次显示 3 条主评及界面随附回复），未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。",
+        "digest": "标题称塞纳波反收割战斗实录；简介只说跳 0 可能收掉洛基、感谢增援战友并特别鸣谢左老板。评论有人讨论对方洛基配装的有效抗性，也有观众询问欧服角色名。页面文字没有交代交战结果，未据标题或评论补写战斗过程。",
+        "reviewed_at": "2026-11-09T02:34:35.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV18V41167yJ",
+      "title": "【EVE欧服】PGL的愤怒",
+      "url": "https://www.bilibili.com/video/BV18V41167yJ/",
+      "owner_uid": "11414533",
+      "published_at": "2020-07-10T19:21:05.000Z",
+      "captured_at": "2026-11-09T02:29:32.046Z",
+      "description": "",
+      "stats": {
+        "views": 2927,
+        "replies": 35
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介和播放/评论计数；读取 API 返回的热门主评论首屏（每条本次显示 3 条主评及界面随附回复），未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。",
+        "digest": "简介为空。标题为“PGL 的愤怒”；首屏评论有人建议给 AOM 全体观看，也有人称从公众号看到该视频。另有评论者推测馒虚子在等帝国反攻、再与帝国夹击 Legacy；这是评论者的局势解读，不是已核实的事件或上传者表态。页面文字不能确认视频影像具体内容。",
+        "reviewed_at": "2026-11-09T02:34:35.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1TW411P7W4",
+      "title": "【EVE】天使军用复合体（Angle Military Complex）速通打法",
+      "url": "https://www.bilibili.com/video/BV1TW411P7W4/",
+      "owner_uid": "11414533",
+      "published_at": "2018-06-08T10:53:17.000Z",
+      "captured_at": "2026-11-09T02:29:52.877Z",
+      "description": "相关游戏: EVE\n简介补充: 天使军用复合体，无分级战斗地点，扫描难度为二级，第二层固定刷出一个主天使Boss；\n速通打法的关键是天使钻石铭牌，注意在刷怪捡的垃圾里留意一下。\n远征为先锋危机，又臭又长，而且我打了第一步发现第二步刷在Test那边了。。。",
+      "stats": {
+        "views": 2185,
+        "replies": 4
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介和播放/评论计数；读取 API 返回的热门主评论首屏（每条本次显示 3 条主评及界面随附回复），未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。",
+        "digest": "简介称这是天使军用复合体速通打法，描述场景等级、第二层主天使 Boss、天使钻石铭牌和先锋危机远征，并说其第二步刷在 Test 一侧。评论谈及欧服与国服版本差异；上传者回复称残骸中有主天使超载喷注，价值不算高。另有评论质疑场景中文名称，指出“军事复合体”的译名差异。这里只依据简介和评论记录攻略说法，未核对影像演示。",
+        "reviewed_at": "2026-11-09T02:34:35.000Z"
       },
       "usage": {
         "body": false,

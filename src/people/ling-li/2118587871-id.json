@@ -117,7 +117,78 @@
       "CONDI",
       "CEO",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "创团者删号了，接班人还在出勤。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "字符画与跳团经历不算出格。",
+          "sources": [
+            {
+              "label": "官方名片字符画简介",
+              "url": "https://esi.evetech.net/latest/characters/2118587871/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "八百余击杀，具稳定常规实战。",
+          "sources": [
+            {
+              "label": "艾蒂斯参战记录",
+              "url": "https://zkillboard.com/kill/134556788/"
+            },
+            {
+              "label": "击杀与损失汇总",
+              "url": "https://zkillboard.com/character/2118587871/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO接班与招募不等于舰队指挥。",
+          "sources": [
+            {
+              "label": "星尘海军联合舰队官方资料",
+              "url": "https://esi.evetech.net/latest/characters/2118587871/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "两百余角色军团的日常社群支持。",
+          "sources": [
+            {
+              "label": "蜂群华人社区互动",
+              "url": "https://esi.evetech.net/latest/characters/2118587871/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际接任并经营星尘海军CEO。",
+          "sources": [
+            {
+              "label": "Goonswarm军团名册",
+              "url": "https://esi.evetech.net/latest/characters/2118587871/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有常规战备只能支持自给。",
+          "sources": [
+            {
+              "label": "主力战舰损失与装配档案",
+              "url": "https://zkillboard.com/character/2118587871/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

@@ -4,15 +4,15 @@
   "url": "https://tieba.baidu.com/p/10653529932",
   "title": "小蜜蜂打掉FRT后遗症",
   "references": [
-    "docs/leads/tieba-sk-questions-replies.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md"
+    "docs/leads/tieba-sk-questions-replies.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10653529932",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json",
         "首尾状态": "首尾已取",
         "接口回复数": "19",
         "主楼总页数": "1",

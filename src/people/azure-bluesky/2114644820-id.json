@@ -89,7 +89,7 @@
         "name": "CEO Stareine",
         "basis": "2026-10-25 ESI：头衔“天兵”对应Azure bluesky头衔“天兵，军团首席菜鸡”，同属Dracarys.。",
         "sources": [
-          "materials-azure-bluesky.md#执行军团小号对应"
+          "materials-azure-bluesky.json#执行军团小号对应"
         ],
         "zkb": {
           "kills": 111,
@@ -119,6 +119,73 @@
       "00区",
       "D.C",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "钱拿去发船，人情拿来借泰坦。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "MTU报复与内部站队仍属正常游戏冲突。",
+          "sources": [
+            {
+              "label": "卖手手的小故事长帖",
+              "url": "https://tieba.baidu.com/p/7229688818"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "四千余击杀及六十余Solo，长期月刃实战。",
+          "sources": [
+            {
+              "label": "Azure bluesky zKillboard",
+              "url": "https://zkillboard.com/character/2114644820/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "DC联盟FC，持续带队并有大型战事经验。",
+          "sources": [
+            {
+              "label": "卖手手的小故事长帖",
+              "url": "https://tieba.baidu.com/p/7229688818"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "带入新人、出资发船，获得成员长期追随。",
+          "sources": [
+            {
+              "label": "卖手手的小故事长帖",
+              "url": "https://tieba.baidu.com/p/7229688818"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "钢羽CEO并组织跨服迁移，长期管理与联盟交涉。",
+          "sources": [
+            {
+              "label": "Azure bluesky 角色档案",
+              "url": "https://zkillboard.com/character/2114644820/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "持续资助新人、备百条小船，能为队伍垫资。",
+          "sources": [
+            {
+              "label": "卖手手的小故事长帖",
+              "url": "https://tieba.baidu.com/p/7229688818"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -35,6 +35,9 @@ function fixture(t) {
   put('src/corps/fict/fict.md', '虚构军团的正文，[甲](../../p/42/)。\n');
   put('src/corps/fict/materials-fict.md', '# 虚构\n');
   put('docs/sources/note.md', '无关的一行\nFictional Corp 2021 年搬进 00。\n别名那行：幻影团打过仗。\n');
+  put('docs/sources/note.json', { version: 1, type: 'material', title: '结构化来源', sections: [
+    { id: 'recruit', heading: '招募旧事', level: 2, content: 'Fictional Corp 2022 年在重组时招人。\n' },
+  ] });
   put('docs/tieba/1.json', { url: 'https://example.com/p/1', title: 'Fictional Corp 招新' });
   return { root, put };
 }
@@ -57,7 +60,9 @@ test('候选只列未开页、未排除、有现任列传人物的非 NPC 军团
 test('开页写骨架与华人标记，已有页面或已排除的拒绝', t => {
   const { root } = fixture(t);
   assert.match(openCorp(root, 98000003), /foreign-corp/);
-  assert.ok(fs.existsSync(path.join(root, 'src/corps/foreign-corp/materials-foreign-corp.md')));
+  const material = JSON.parse(fs.readFileSync(path.join(root, 'src/corps/foreign-corp/materials-foreign-corp.json'), 'utf8'));
+  assert.equal(material.type, 'material');
+  assert.match(material.sections[0].content, /军团 ID 98000003/);
   const names = JSON.parse(fs.readFileSync(path.join(root, 'src/_data/entityNames.json'), 'utf8'));
   assert.equal(names.corporations[98000003].chinese, true);
   assert.throws(() => openCorp(root, 98000001), /已有页面/);
@@ -73,6 +78,7 @@ test('线索汇总含列传履历、招新帖候选与全仓命中', t => {
   assert.match(output, /甲\(42\) 2020-01~今/);
   assert.match(output, /https:\/\/example\.com\/p\/1 Fictional Corp 招新/);
   assert.match(output, /2021 年搬进 00/);
+  assert.match(output, /2022 年在重组时招人/);
   assert.doesNotMatch(output, /无关的一行/);
   assert.doesNotMatch(output, /别名那行/);
   assert.match(run(root, ['clues', 'fict', '--also', '幻影团,别名', '--limit', '3']).output, /别名那行/);

@@ -136,7 +136,20 @@
       "00区",
       "CONDI",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:51:07Z",
+      "verdict": "频道名叫兔兔，战场上却带队堵出口、拆星城；两字昵称不妨碍一队人听他集合。",
+      "axes": {
+        "shenren": { "tier": "C", "reason": "兔兔、卿卿的软萌名片配上围猎大船、拆迁星城的指挥履历，反差鲜明但属于日常战场乐子。", "sources": [{ "label": "萨托加斯首都星城之战", "url": "https://zkillboard.com/kill/131126432/" }] },
+        "combat": { "tier": "D", "reason": "主号有常规舰队击杀和损失记录，也多次驾驶死亡漩涡参战；战绩主要体现跟队出勤，按常人基准记D。", "sources": [{ "label": "Alive111 zKillboard", "url": "https://zkillboard.com/character/2123050360/" }] },
+        "command": { "tier": "B", "reason": "在红楼的指挥位带队参加围猎与星城拆迁，后续仍在昆仑活动；属于军团主力FC。", "sources": [{ "label": "K-IYNW 交火", "url": "https://zkillboard.com/kill/130592787/" }, { "label": "萨托加斯首都星城之战", "url": "https://zkillboard.com/kill/131126432/" }] },
+        "charisma": { "tier": "D", "reason": "现有材料能确认队员跟随其指挥出勤，但没有独立于职务的稳定粉丝或广泛号召记录，按常人基准记D。", "sources": [{ "label": "Alive111 zKillboard", "url": "https://zkillboard.com/character/2123050360/" }] },
+        "politics": { "tier": "D", "reason": "故事集中于舰队行动与军团出勤，没有外交斡旋、派系经营或组织利益协调事迹，按常人基准记D。", "sources": [{ "label": "Alive111 zKillboard", "url": "https://zkillboard.com/character/2123050360/" }] },
+        "wealth": { "tier": "D", "reason": "日常承担死亡漩涡等出勤舰船投入，也有战损记录；未见个人产业或大额资源运作，按自给自足常人基准记D。", "sources": [{ "label": "Alive111 zKillboard", "url": "https://zkillboard.com/character/2123050360/" }] }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -146,7 +159,7 @@
         "name": "QingQing999",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Alive111；两号对应：头衔兔兔，与QingQing999在KM 133170207同属Sing Hua，现同属昆仑。",
         "sources": [
-          "materials-qingqing999.md"
+          "materials-qingqing999.json"
         ],
         "zkb": {
           "kills": 28,
@@ -160,7 +173,7 @@
         "id": 2123872751,
         "name": "qingqing1",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与QingQing999同场加入Sing Hua击杀名单，现同属昆仑；同词根，头衔卿卿。",
         "zkb": {
@@ -175,7 +188,7 @@
         "id": 2123872724,
         "name": "qingqingivi",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与qingqing1同日相隔28分钟建号、同词根，头衔卿卿.；同场Sing Hua出勤，现同属昆仑。",
         "zkb": {
@@ -190,7 +203,7 @@
         "id": 2123671155,
         "name": "QingBao99",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与QingQing999同为兔兔头衔，KM 133170207同属Sing Hua，现同属昆仑。",
         "zkb": {
@@ -205,7 +218,7 @@
         "id": 2123729634,
         "name": "Halftime888",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "头衔卿卿，与qingqing1、qingqingivi在KM 133170207同属Sing Hua，现同属昆仑。",
         "zkb": {
@@ -220,7 +233,7 @@
         "id": 2123872763,
         "name": "qingqing2",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与qingqing1同词根、同日相隔8分钟建号，同属昆仑，头衔卿卿。",
         "zkb": {
@@ -235,7 +248,7 @@
         "id": 2123872767,
         "name": "qingqing3",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与qingqing1、2同日连续建号，同属昆仑，头衔卿卿。",
         "zkb": {
@@ -250,7 +263,7 @@
         "id": 2123872770,
         "name": "qingqing4",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与qingqing1、2、3同日连续建号，同属昆仑，头衔卿卿。",
         "zkb": {
@@ -265,7 +278,7 @@
         "id": 2123895119,
         "name": "qingqing5",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与qingqing1—4同词根、同属昆仑，头衔卿卿。",
         "zkb": {
@@ -280,7 +293,7 @@
         "id": 2123696811,
         "name": "QingQing9",
         "sources": [
-          "materials-qingqing999.md#小号对应"
+          "materials-qingqing999.json#小号对应"
         ],
         "basis": "与QingQing999同词根、同属昆仑，头衔同为兔兔。",
         "zkb": {

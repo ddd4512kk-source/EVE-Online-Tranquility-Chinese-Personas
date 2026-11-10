@@ -43,7 +43,7 @@
         "id": 2117795028,
         "name": "GodHand zZZ",
         "sources": [
-          "materials-godhand-kk.md"
+          "materials-godhand-kk.json"
         ],
         "zkb": {
           "kills": 0,
@@ -63,7 +63,7 @@
             "猪头1019316"
           ],
           "sources": [
-            "materials-godhand-kk.md"
+            "materials-godhand-kk.json"
           ]
         }
       ]
@@ -88,6 +88,77 @@
       "00区",
       "CEO",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "泰坦最后开出来了，朋友早被抵押了。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "扣住托付的泰坦逼人认亲并索费，突破盟友信任底线。",
+          "sources": [
+            {
+              "label": "贴吧《婊一婊49城的CEO》",
+              "url": "https://tieba.baidu.com/p/7075391049"
+            },
+            {
+              "label": "贴吧《3B做朋友事件看法》",
+              "url": "https://tieba.baidu.com/p/7076172050"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "二百余常规击杀，熟练随队记录，不抹成白板。",
+          "sources": [
+            {
+              "label": "角色官方战绩概览",
+              "url": "https://zkillboard.com/character/2117766543/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO与代开泰坦不等于带队履历。",
+          "sources": [
+            {
+              "label": "四九城内部管理记录",
+              "url": "https://tieba.baidu.com/p/7075391049"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "具体背信事件招来公开声讨和后续黑名单。",
+          "sources": [
+            {
+              "label": "贴吧第77楼与82楼嘲讽",
+              "url": "https://tieba.baidu.com/p/7075391049"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "四九城实际CEO，组织经营达到B底线。",
+          "sources": [
+            {
+              "label": "Brave黑名单威胁事件",
+              "url": "https://tieba.baidu.com/p/7075391049"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "代开别人的泰坦不能当作本人资产A依据。",
+          "sources": [
+            {
+              "label": "租地收税与上贡指控",
+              "url": "https://tieba.baidu.com/p/7075391049"
+            }
+          ]
+        }
+      }
+    }
   }
 }

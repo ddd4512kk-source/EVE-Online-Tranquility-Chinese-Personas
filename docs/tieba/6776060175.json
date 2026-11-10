@@ -4,22 +4,22 @@
   "url": "https://tieba.baidu.com/p/6776060175",
   "title": "李疯子的艰辛EVE之旅（长更回忆录）",
   "references": [
-    "docs/leads/tieba-history-replies.md",
+    "docs/leads/tieba-history-replies.json",
     "docs/tieba-review-2026-10-10.md",
     "src/people/fu1crum/fu1crum.md",
-    "src/people/fu1crum/materials-fu1crum.md",
-    "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md",
+    "src/people/fu1crum/materials-fu1crum.json",
+    "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json",
     "src/people/treenewbee-ribbons/treenewbee-ribbons.md",
-    "src/people/zhong-ma/materials-zhong-ma.md",
+    "src/people/zhong-ma/materials-zhong-ma.json",
     "src/people/zhong-ma/zhong-ma.md",
-    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
+    "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6776060175",
-        "初始引用文件": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md;src/people/treenewbee-ribbons/treenewbee-ribbons.md;src/people/zhong-ma/materials-zhong-ma.md;src/people/zhong-ma/zhong-ma.md",
+        "初始引用文件": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json;src/people/treenewbee-ribbons/treenewbee-ribbons.md;src/people/zhong-ma/materials-zhong-ma.json;src/people/zhong-ma/zhong-ma.md",
         "首尾状态": "首尾已取",
         "接口回复数": "333",
         "主楼总页数": "6",

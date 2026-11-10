@@ -4,19 +4,19 @@
   "url": "https://tieba.baidu.com/p/6233897251",
   "title": "B.O.P Supplication For Glorious 秋季招新",
   "references": [
-    "docs/leads/tieba-bop-replies.md",
+    "docs/leads/tieba-bop-replies.json",
     "src/people/akissone/akissone.md",
-    "src/people/akissone/materials-akissone.md",
+    "src/people/akissone/materials-akissone.json",
     "src/people/apple-reborn/apple-reborn.md",
-    "src/people/apple-reborn/materials-apple-reborn.md",
-    "src/people/mumusan/materials-mumusan.md"
+    "src/people/apple-reborn/materials-apple-reborn.json",
+    "src/people/mumusan/materials-mumusan.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6233897251",
-        "初始引用文件": "src/people/mumusan/materials-mumusan.md",
+        "初始引用文件": "src/people/mumusan/materials-mumusan.json",
         "首尾状态": "首尾已取",
         "接口回复数": "313",
         "主楼总页数": "8",

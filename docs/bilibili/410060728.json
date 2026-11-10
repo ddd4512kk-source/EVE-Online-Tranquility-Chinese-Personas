@@ -1,27 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "410060728",
   "name": "小宋宋132132",
   "url": "https://space.bilibili.com/410060728/",
   "identity": {
     "state": "confirmed",
     "person": "xiaosong223333",
-    "material": "src/people/xiaosong223333/materials-xiaosong223333.md",
+    "material": "src/people/xiaosong223333/materials-xiaosong223333.json",
     "label": "小宋宋",
     "evidence": [
       "BR与角色联盟一致"
     ],
     "related": [
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/oijanen-2026/materials-oijanen-2026.md",
+        "material": "src/battles/oijanen-2026/materials-oijanen-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "material": "src/battles/atioth-2026/materials-atioth-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -45,21 +45,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/xiaosong223333/materials-xiaosong223333.md"
+        "evidence": "src/people/xiaosong223333/materials-xiaosong223333.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID410060728](https://space.bilibili.com/410060728/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得21、21个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/xiaosong223333/materials-xiaosong223333.md"
+        "source": "src/people/xiaosong223333/materials-xiaosong223333.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/xiaosong223333/materials-xiaosong223333.md"
+        "source": "src/people/xiaosong223333/materials-xiaosong223333.json"
       },
       {
         "text": "复用空间21条最新／最多播放及此前10篇热门评论的阅读。本轮新读4个候选简介、选集和公开署名；因同轮评论入口停在加载态，后续仅取公开文字，没有本轮新增评论。未看影像、字幕或音频，不将HDR／Hi-Res自述当亲自视听评价。",
-        "source": "src/people/xiaosong223333/materials-xiaosong223333.md"
+        "source": "src/people/xiaosong223333/materials-xiaosong223333.json"
       }
     ],
     "listings": [
@@ -239,10 +239,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "附[BR](https://br.evetools.org/br/6a7f976daea5ff69fefb480b)与[WarBeacon](https://warbeacon.net/br/report/fe6833b9-3dee-4865-95bf-79829784ae98)。作者前情称7.62、FRT等增强故土公开铁壁，INIT装甲轮失利，结构轮CTA，对方准备3000战列；末尾继续INIT CN招新。标题说四小时没守住，公开片长2073秒；未看画面，不把片长当实战全程。原报未核，不认标题万亿已达到战役分档或直接归本人FC；正文按本人简介写防守经历与招新反差，普通败仗不另当黑料。\n\n1810播放、20评论，读10主线程。求道之路自称捡四五B、乌鸦由7.62发；短炮突脸自称捡两战列三战巡一驱逐；无限航区自称三条洛基撤离，帅气的英仙座自称跑刀1B下次还来。是不同观众自己的捡取与撤离经历，作为频道互动入原守不住也招新段，不移植给小宋。血书罗马短剑问UP捡到啥，本批没有作者回答。外网控诉FRT／7.62的留言无原帖，不延伸为核实事件。\n\n简介交代装甲轮失守、结构轮CTA和对方准备，再附战报；本方防守失利后照样招新的反差，也留下了他经营频道的习惯。"
       },
       "usage": {
         "body": true,
@@ -267,9 +265,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -295,11 +290,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md",
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介里“低tidi爽射难得”的感慨，与评论区追问他究竟属INIT还是DC放在一起，最能读出这个频道的阵营玩笑。\n\n（小宋宋132132）：龙焰一侧作品，标题直呼“4-H旁FRT大溃败”，简介附本场战报链接。"
       },
       "usage": {
         "body": true,
@@ -324,11 +316,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md",
-          "src/battles/oijanen-2026/materials-oijanen-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "附[BR](https://br.evetools.org/br/69e75f37a2b082001365b43b)及[WarBeacon](https://warbeacon.net/br/report/4d17700b-59f5-49d0-95b3-8ac3a9c6dbec)，原报尚未联网核；本人文案“帝国大军2比1的惊天人数优势，恐不能敌”“将军走此小道，绕路菲德，转进低安”，带明显反讽，不直译为帝国战败或据此认定谁真的撤退。正文只写其文案口气、挂报与招新，不补战果和指挥归因。\n\n（小宋宋132132）：标题叫“欧加仑的葬礼”，简介写帝国二比一人数优势与绕路转进低安。"
       },
       "usage": {
         "body": true,
@@ -353,11 +342,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md",
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介只说全场10分钟、TU ZI招新、HDR及Hi-Res制作；未交代具体过程，本轮不选，不凭标题判技术故障原因、责任或被困战果。不是判作品质量差，具体内容仍未读。\n\n2313播放、26评论，读14主线程。伊利法尔“不是应该大家一起谴责ccp吗”被置顶、获作者点赞；芳乃小可耐指称有人占满服务器阴招反噬，威尔尔尔用“都是frt的错”反讽回应；另有无人机导致崩溃、BUG等归因，均为观众争论，没有核定技术原因。作者自行评论“已投凛冬”并@多个社区账号，界面标蓝方投票。本文写录像下面的阵营争论和作者互动，不断定投票具体题目、不将点赞等同认同全部指控、不把故障责任套给他。\n\n（小宋宋132132）：帝国侧的节点崩溃前记录：作品讲GS超旗队被困前发生了什么，战后一天发布，简介注明记录长十分钟。可与凛冬泰坦视角对照。"
       },
       "usage": {
         "body": true,
@@ -382,9 +368,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -410,10 +393,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/xiaosong223333/materials-xiaosong223333.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者与对手跨频道互贴录像，求赞也不耽误哈气，同一场冲突值得两边对着看，“哈气宋”的故事就在作品互动里。"
       },
       "usage": {
         "body": true,

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "391605312",
   "name": "亮神惊天战神",
   "url": "https://space.bilibili.com/391605312/",
   "identity": {
     "state": "confirmed",
     "person": "lightgod",
-    "material": "src/people/lightgod/materials-lightgod.md",
+    "material": "src/people/lightgod/materials-lightgod.json",
     "label": "亮神",
     "evidence": [
       "护航系列序号与贴吧“亮神3”一致"
@@ -32,37 +32,37 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/lightgod/materials-lightgod.md"
+        "evidence": "src/people/lightgod/materials-lightgod.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID391605312](https://space.bilibili.com/391605312/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       },
       {
         "text": "复用2026-10-16空间最新／最多播放首页各42条；最新首页以英魂之刃等其他游戏为主，未归入EVE经历。空间显示8个合集和系列，旧缓存没有具体目录，不能写成合集已读。先从最多播放首页取护航第19／11／12次、绕杆教学与第四天反堵门五候选，逐篇核公开简介、署名与实际加载的评论；本次未读影像、音频或字幕。",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       },
       {
         "text": "[《eve阿巴宗护航第十二次记录！对方出动了无畏队！》](https://www.bilibili.com/video/BV1Vj3VzuEFw/)：2025-07-04发布，作者同UID，1730播放、reply21；简介为铁道护航及招新，无合作署名。实际读9个主评论线程及直接回复。有人由无畏打趣泰坦快来了，作者却说对方只是拿无畏炫耀，不太可能与他们接战，不能把标题写成双方已打无畏战。好粤来粤称质量高，作者说听大佬建议改了解说风格，“总结起来比较好”；花滿天城拿军用馒头口令开玩笑，作者说自己剪辑还菜、原想把它剪进去，这不是军用馒头参与本作品或指挥本场的证据。孤竹成林说被强暴驾驶员都是预备兵力，作者回从拼好队到能集结一大批兵力、支持者变多。砖头在手提Reddit致谢，作者答与货舰聊天时对方已知道事迹，顺势邀请护航；康斯坦丁IX问玩法，作者说不断骚扰阿巴宗土著、使其在自家时区无法安心堵门，另邀看最新胜仗作品。IanZhang_自报掉线片段并谈截击单吃nega，作者回没抢到KM；缺具体驾驶员和KM，不把此条战果认作者本人。",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       },
       {
         "text": "### 合集与第五候选补齐",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       },
       {
         "text": "[合集目录](https://space.bilibili.com/391605312/lists)已读：8组中7组为英魂之刃、游戏王、荒野行动、小说漫改、魔兽世界及美食等其他内容；唯一EVE合集“【EVE】阿巴宗护航”显示38篇，目录首屏列前6期。该页只核系列结构，没有把38篇全部读完；第四天作品仍沿失败记录保留覆盖边界，不循环重试或由标题补旗舰战经过。",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       },
       {
         "text": "五条精选与人物增量已入文。其余合集篇目、失败第四天候选与折叠回复为覆盖边界，未有新的确定BR或身份问题，不要求全频道读完；所有影像、音频、字幕仍未读。",
-        "source": "src/people/lightgod/materials-lightgod.md"
+        "source": "src/people/lightgod/materials-lightgod.json"
       }
     ],
     "listings": [
@@ -4981,7 +4981,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -5007,9 +5006,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lightgod/materials-lightgod.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -5035,10 +5031,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lightgod/materials-lightgod.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "除了作者解释低门槛配船，抓人者还现身道歉、补币，亮神反把被抓收进教学。操作之外，这段师生与对手临时凑成的课后讨论最见其脾气。"
       },
       "usage": {
         "body": true,
@@ -5063,9 +5057,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lightgod/materials-lightgod.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -5091,10 +5082,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lightgod/materials-lightgod.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "亮神亲自解释对方只是亮无畏，又聊起按建议调整讲解风格。标题与作者答话对着读，能看到这位连载作者如何在阵仗、解说和观众期待之间找位置。"
       },
       "usage": {
         "body": true,
@@ -5119,10 +5108,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lightgod/materials-lightgod.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人逐波目录、救天鹤叙述与战术答疑最集中；赞美之外，他也认紧张、没开抗和建制不齐。看的是一支志愿舰队如何在评论里接着复盘。"
       },
       "usage": {
         "body": true,

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "thread_id": "11181729984",
+  "url": "https://tieba.baidu.com/p/11181729984",
+  "title": "关于原SARD军团FC 地板兴趣小组FC黑鸦行为做出公开回复",
+  "published_date": "2026-11-09",
+  "references": [
+    "src/people/scorpio-d/materials-scorpio-d.json",
+    "src/people/scorpio-d/scorpio-d.md",
+    "src/people/trumps-bloodthirst-feynman/materials-trumps-bloodthirst-feynman.json",
+    "src/people/trumps-bloodthirst-feynman/trumps-bloodthirst-feynman.md"
+  ],
+  "legacy_records": [],
+  "discovery": {
+    "scope": "直接帖号入口；eve欧服吧，嗜血公开回复黑鸦列传及澄清帖"
+  },
+  "review": {
+    "status": "reviewed",
+    "read_at": "2026-11-10",
+    "notes": [
+      "SARD军团CEO嗜血（UID 2859130668）公开回复黑鸦，指出其被列入FRT联盟黑名单并非遭诬陷，以ITseat数据列出三大指控：",
+      "1. 挪用公款与采购吃差价：违背军团资金与地板战备资金分开管理的规定，先后挪用约100B军团资金为地板做SRP，被其他总监查出追还；采购合同低买高卖（475B卖价按540B采购），资金使用不透明；",
+      "2. 借号私用脑浆与转借欠款：借用成员象拔蚌旗舰号，未经号主同意私自注入145个技能注入器（脑浆），其中30个注入黑鸦自己账号；随后将该号转借朋友许诺自由支配资产，至今欠象拔蚌1200亿未还并甩锅；",
+      "3. 拖欠与RMT卖号：催促一年未还分文，黑鸦以个人资金紧张线下卖号走人（证实RMT）；SARD和地板组织要求联盟将其QQ及关联账号永久列入黑名单。"
+    ],
+    "evidence": [
+      "src/people/scorpio-d/materials-scorpio-d.json",
+      "src/people/trumps-bloodthirst-feynman/materials-trumps-bloodthirst-feynman.json"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/11181729984.json",
+    "fetched_at": "2026-11-09T22:55:15.541Z",
+    "main_posts": 27,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

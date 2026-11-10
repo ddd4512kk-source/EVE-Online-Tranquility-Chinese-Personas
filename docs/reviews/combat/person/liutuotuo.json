@@ -1,0 +1,100 @@
+{
+  "status": "reviewed",
+  "note": "高安强暴仙人战绩核验完成，主号与小号画像及6场大型战役相符",
+  "evidence": [
+    "src/people/liutuotuo/materials-liutuotuo.md",
+    "src/people/liutuotuo/liutuotuo.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "核实主号 LiuTuoTuo DiDi（2114568481）zKB stats：5112 击杀、636 损失，安全等级 -2.3，长期活跃于高安低安强暴收割，正文叙述与此相符。",
+      "evidence": [
+        {
+          "file": "src/people/liutuotuo/materials-liutuotuo.md",
+          "heading": "## 战绩画像与战役记录（zKillboard，2026-11 取）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已确认登记 11 个强暴多开小号及 1 个早期小号，依据同军团同名头衔与协同强暴 KM 核实，战绩画像与正文一人舰队相符。",
+      "evidence": [
+        {
+          "file": "src/people/liutuotuo/materials-liutuotuo.md",
+          "heading": "## 角色对应"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "无超旗泰坦击杀或特定高值月份争议需要单独考证，日常强暴单杀账单直接体现于击杀总量与安全等级。",
+      "evidence": [
+        {
+          "file": "src/people/liutuotuo/materials-liutuotuo.md",
+          "heading": "## 战绩画像与战役记录（zKillboard，2026-11 取）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "核实全站 6 场大型与史诗战役（X47L-Q、艾蒂斯、TN25-J、MC6O-F、艾格玛尔、H-PA29），主号及小号均在编幸存，正文展开对比联盟超旗会战打工人与高安强暴的双面反差。",
+      "evidence": [
+        {
+          "file": "src/people/liutuotuo/materials-liutuotuo.md",
+          "heading": "## 战绩画像与战役记录（zKillboard，2026-11 取）"
+        },
+        {
+          "file": "src/people/liutuotuo/liutuotuo.md",
+          "contains": "这十一万亿并不是全靠高安打劫凑出来的，他的履历折射出新伊甸老农奴最极致的双面生活。"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩红料块置于正文开篇之后，对五千多次高安强暴单杀经历与十一万亿战神勋章及各大决战经历做出总结性对比点评，不列流水账。",
+      "evidence": [
+        {
+          "file": "src/people/liutuotuo/liutuotuo.md",
+          "contains": "在 zKillboard 上，他留下了超过五千一百个击杀和六百多次损失，主号与小号累计斩获十一万亿 ISK 的目标总额，在姓名旁挂上了战神勋章。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/liutuotuo/2114568481-id.json",
+    "src/people/liutuotuo/liutuotuo.md",
+    "src/people/liutuotuo/materials-liutuotuo.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.md",
+    "src/battles/h-pa29-2022/h-pa29-2022.json",
+    "src/battles/h-pa29-2022/h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.md",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+  ],
+  "inputs": "e2a572ff9ba125e002f5b8fe4a2cba68c1492e5fcaa779b9b13320603d6b0a4b",
+  "inputParts": {
+    "src/people/liutuotuo/2114568481-id.json": "3f7890cada9d415ee62b6d0b0ef3fee66d5eb0395be49d23dc9b1b328aca74d3",
+    "src/people/liutuotuo/liutuotuo.md": "409d7b32de1cfd5b69cf31eafd8addaaed47371eeaa08a6f752118810237743d",
+    "src/people/liutuotuo/materials-liutuotuo.md": "96ad1b104d0055f8876c2730fc1de476ae4a92cbbe421763cf7d44222bf37c51",
+    "battle:atioth-2026": "a1ab965f2bda3c2724046fe77df501a83176798b908cb124136db1563f29eaa4",
+    "battle:egmar-2025-02-23": "0bd7b7bc877ad0e849a1fc70533a6375cb0f86f5df5623d1cf7a0d9219491434",
+    "battle:h-pa29-2022": "a6d0469574c68ea7c61c90df49f20e2215e51e9135280cc975764b1fc767daeb",
+    "battle:mc6o-f-2026": "79c404f3f272f606d311fcfee6f42aebc7a820c07c8eebc13f73d88320c111d9",
+    "battle:tn25-j-2025": "c501d7f6256c49d9813d328458e36f674f83f1997d6e53b8f21f3a730c8cb23a",
+    "battle:x47l-q-2023": "88a91461ee264e3c705fb8fc307ff65c2aaa26486166c91d81dc2a0d88c43b49"
+  },
+  "level": 1
+}

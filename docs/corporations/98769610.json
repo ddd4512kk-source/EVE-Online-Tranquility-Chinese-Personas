@@ -20,8 +20,8 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98769610.md",
-        "docs/corporations/notes/member-research/98537981-98769610.md"
+        "docs/corporations/notes/member-research/98769610.json",
+        "docs/corporations/notes/member-research/98537981-98769610.json"
       ],
       "entries": [
         {
@@ -640,8 +640,8 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98769610.md",
-        "docs/corporations/notes/member-research/98537981-98769610.md"
+        "docs/corporations/notes/member-research/98769610.json",
+        "docs/corporations/notes/member-research/98537981-98769610.json"
       ],
       "entries": [
         {
@@ -1328,7 +1328,7 @@
     {
       "label": "峰芒",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2115789354",
@@ -1338,7 +1338,7 @@
     {
       "label": "唔该",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2124043350",
@@ -1348,7 +1348,7 @@
     {
       "label": "未了",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2114981753",
@@ -1359,7 +1359,7 @@
     {
       "label": "爱",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2120324741",
@@ -1369,7 +1369,7 @@
     {
       "label": "柠七",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2121369586",
@@ -1379,7 +1379,7 @@
     {
       "label": "清承",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98769610.md#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2123367396",
@@ -1392,7 +1392,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "24",
         "alliance": "The Initiative.",
@@ -1403,17 +1403,17 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-11",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "KK Huang / 2121685477",
-        "prior_finding": "实际主事人已收录为[小黄人](../../../src/people/jiao-huang/materials-jiao-huang.md)（Jiao-Huang / 2119497024），KK Huang 为本人号"
+        "prior_finding": "实际主事人已收录为[小黄人](../../../src/people/jiao-huang/materials-jiao-huang.json)（Jiao-Huang / 2119497024），KK Huang 为本人号"
       }
     },
     {
       "kind": "description",
       "period": null,
       "as_of": "2026-10-10",
-      "source": "docs/corporations/notes/descriptions.md",
+      "source": "docs/corporations/notes/descriptions.json",
       "fields": {
         "alliance": "Initiative",
         "member_count": "398",
@@ -1423,9 +1423,9 @@
     }
   ],
   "references": [
-    "docs/corporations/notes/descriptions.md",
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98769610.md",
-    "docs/corporations/notes/member-research/98537981-98769610.md"
+    "docs/corporations/notes/descriptions.json",
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98769610.json",
+    "docs/corporations/notes/member-research/98537981-98769610.json"
   ]
 }

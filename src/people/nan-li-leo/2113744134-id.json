@@ -143,7 +143,7 @@
         "id": 2114531200,
         "name": "Yakumo Aka",
         "sources": [
-          "materials-nan-li-leo.md"
+          "materials-nan-li-leo.json"
         ],
         "zkb": {
           "kills": 250,
@@ -170,6 +170,73 @@
       "00区",
       "江湖恩怨",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "桥是自己搭的，后来也由自己拆。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "牵线现金售赛船及公开旧账中的越界行为，按严重失当评。",
+          "sources": [
+            {
+              "label": "帝国新闻社RMT梳理长文",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "两号数百击杀，具熟练虫洞实战。",
+          "sources": [
+            {
+              "label": "Nan Li Leo zKillboard",
+              "url": "https://zkillboard.com/character/2113744134/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "指挥离线后亲自召集救援，具小队带领经历。",
+          "sources": [
+            {
+              "label": "帝国新闻社RMT梳理长文",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "虫洞圈老成员，有稳定熟人联系。",
+          "sources": [
+            {
+              "label": "帝国新闻社RMT梳理长文",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "参与虫洞团组织、协调对外声明与交易。",
+          "sources": [
+            {
+              "label": "帝国新闻社RMT梳理长文",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "赛船交易中介并非本人持船，按交易经营B。",
+          "sources": [
+            {
+              "label": "Nan Li Leo zKillboard",
+              "url": "https://zkillboard.com/character/2113744134/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

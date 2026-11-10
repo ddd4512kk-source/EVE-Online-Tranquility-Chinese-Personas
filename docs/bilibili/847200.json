@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "847200",
   "name": "Ren.Lin",
   "url": "https://space.bilibili.com/847200/",
@@ -13,11 +13,11 @@
     ],
     "related": [
       {
-        "material": "src/battles/m-md31-2026/materials-m-md31-2026.md",
+        "material": "src/battles/m-md31-2026/materials-m-md31-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -161,10 +161,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指名4-HWWF装甲攻坚战，投稿日2026-04-27；同时出现在两位UP主投稿列表。\n\n（伊利法尔、Ren.Lin（联合投稿））：“胸有凌云志，手可摘星辰”：标题称其为4-HWWF装甲攻坚战全复盘。"
       },
       "usage": {
         "body": false,
@@ -189,10 +187,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/m-md31-2026/materials-m-md31-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（Ren.Lin）：4K作品，标题以“帝国洪流，龙炎焚敌”概括这场主权争夺。"
       },
       "usage": {
         "body": false,

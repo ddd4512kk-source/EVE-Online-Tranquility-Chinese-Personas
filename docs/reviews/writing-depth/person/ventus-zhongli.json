@@ -1,116 +1,217 @@
 {
   "status": "reviewed",
-  "note": "对照本人素材、战斗画像与正文核查。",
+  "note": "重核现稿正文和完整素材；按金主与星城家业、联盟招募、战斗经历及译稿逐项判断。",
   "evidence": [
-    "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+    "src/people/ventus-zhongli/materials-ventus-zhongli.json",
     "src/people/ventus-zhongli/ventus-zhongli.md"
   ],
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "通读本人素材和完整正文，首星捐赠、译稿和战斗经历均保留。",
+      "note": "通读全篇与11节人物素材。金主及多处家业有简介和2022年贴吧原帖支撑；招募职责有2025年联盟招募帖；战斗经历有既存战役与统计材料；译稿有原帖依据。图文缺口按素材记下，正文未写缺口内容。",
       "evidence": [
         {
-          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
-          "heading": "## 本人公开简介"
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+          "heading": "## 金主与星城家业"
         },
         {
-          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+          "heading": "## 联盟招募职责"
+        },
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
           "heading": "## 宁静周刊译稿"
         },
         {
-          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
-          "heading": "## 战斗画像、主力号与战役复核"
+          "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+          "contains": "钟离给 DC 的投入，早已超出捐一笔钱、留一声谢谢的排场。"
         }
       ]
     },
     "events": {
       "status": "reviewed",
-      "note": "目前材料主要是自述捐赠、译稿参与和普通舰队经历，未见重大个人冲突事件。",
-      "noHeavyReason": "核读角色材料与译稿来源，未发现重大个人冲突或造成重大损失的独立事件。",
+      "note": "重料是出资和星城家业，现作为全文主线充分展开；招募职责、参战经历与译稿各有出处并按分量入文。未把回复者的补损自述归给钟离，也未将HY-星城与公开简介中的两座星城合并为三座购建事实。",
       "evidence": [
         {
-          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
-          "heading": "## 本人公开简介"
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+          "heading": "## 金主与星城家业"
         },
         {
-          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+          "heading": "## 联盟招募职责"
+        },
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+          "heading": "## 战斗画像、主力号与战役复核"
+        },
+        {
+          "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
           "heading": "## 宁静周刊译稿"
         }
       ],
       "items": [
         {
-          "title": "首星捐赠与个人简介",
-          "reason": "本人公开简介中自述捐赠和建筑名",
-          "note": "正文采用自述并连接本人财团名片。",
-          "weight": "ordinary",
+          "title": "DC金主与星城家业",
+          "reason": "这是人物的核心身份与用户指定主线；素材有公开简介中的两座星城、首星无偿捐赠文字，以及社区讨论中HY-钟离星城的称呼。",
+          "note": "素材骨架均有出处，四个方向推动同一条金主主线，没有将推演伪装成精确财务或资产事实。",
+          "weight": "heavy",
           "source": {
-            "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
-            "heading": "## 本人公开简介"
+            "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+            "heading": "## 金主与星城家业"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/ventus-zhongli/ventus-zhongli.md",
-            "contains": "钟离的[公开简介]"
+            "contains": "钟离给 DC 的投入，早已超出捐一笔钱、留一声谢谢的排场。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "把出资放回联盟需在星域安家的处境，说明建筑为何成为联盟共同家业。",
+              "evidence": {
+                "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+                "contains": "联盟打仗要有人出船，驻扎要有地方落脚，招新还得让来的人相信这里住得下去；"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "2022年的战事争论把HY-钟离星城与EX6首都星城并列作为战略目标，写出了名字进入公共地理称呼的影响。",
+              "evidence": {
+                "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+                "contains": "别人辨认前线靠星系名，他的名字干脆成了地标：吵到该打哪座楼，连对面的人也得顺嘴叫一声钟离。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "把龙焰首星的无偿捐赠标注与钟离之星的个人门牌并置，突出公用家园和个人冠名并存。",
+              "evidence": {
+                "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+                "contains": "一座拿去给联盟当家，一座把自己的姓挂在门头。"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "把重工业索迪约写成夜总会并接上招募舞者的门面，落回同一份财团家业。",
+              "evidence": {
+                "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+                "contains": "财团的另一块招牌更有兴致：G-M4GK 的“钟离的夜总会”，实际是一座索迪约，门口长期招收游戏里的女性异族舞者。"
+              }
+            }
+          ],
+          "verdict": "sufficient"
+        },
+        {
+          "title": "联盟中国时区招募职责",
+          "reason": "官方联盟招募帖列明Ventus ZhongLi为CNTZ联络人。",
+          "note": "放在开篇交代其出资之外仍承担实际联盟工作，并以迎客场面展开。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+            "heading": "## 联盟招募职责"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+            "contains": "出完钱也没落得清闲。2025 年的[龙焰官方招募帖]"
           }
         },
         {
-          "title": "宁静周刊译稿",
-          "reason": "公开帖记录三人参与翻译和选稿",
-          "note": "正文保留参与和最终采用别人的版本。",
+          "title": "龙焰舰队参战",
+          "reason": "人物素材核过主号、小号统计以及X47、哈拉斯、8F等战役关联。",
+          "note": "保留开篇后的独立战绩红料，归纳其作为舰队成员、旗舰驾驶员的角色，不推断其指挥。",
           "weight": "ordinary",
           "source": {
-            "file": "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+            "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
+            "heading": "## 战斗画像、主力号与战役复核"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+            "contains": "钟离也确实上船。主号积下数千次参与击杀"
+          }
+        },
+        {
+          "title": "宁静周刊战前动员译稿",
+          "reason": "贴吧原帖感谢钟离参与翻译，并说明最终采用文华版本。",
+          "note": "保留落选反差，明确译稿参与者和最终入选者，不将未读图片中的内容归给钟离。",
+          "weight": "ordinary",
+          "source": {
+            "file": "src/people/ventus-zhongli/materials-ventus-zhongli.json",
             "heading": "## 宁静周刊译稿"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/ventus-zhongli/ventus-zhongli.md",
-            "contains": "三个人都译了"
+            "contains": "给联盟出钱出楼之外，钟离还给宁静周刊交过稿。"
           }
         }
       ]
     },
     "balance": {
       "status": "reviewed",
-      "note": "地产名片和译稿仍为主线，新增舰队经历没有取代原有特点。",
+      "note": "全文重心从旧稿的地产名片与译稿反差转为金主给DC出资置业；战斗点评紧接开篇，招募工作作身份补充，译稿保留为独立轻红料。末评回扣出资、联盟杂务和编辑选稿，未让普通参战压过核心人物特点。",
       "evidence": [
         {
           "file": "src/people/ventus-zhongli/ventus-zhongli.md",
-          "contains": "钟离的名片上"
+          "contains": "钟离给 DC 留下的分量，停在星城里比写在头衔上更直观。"
+        },
+        {
+          "file": "src/people/ventus-zhongli/ventus-zhongli.md",
+          "contains": "财团老板的体面，最后落在两处：前线吵架时，别人要喊他那座星城的名字；编辑选稿时，照样可以把他的译稿放到一边。"
         }
       ]
     }
   },
   "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/ningjing-interview-guests-2022.json",
+    "docs/leads/ps-rogen.json",
     "src/people/ventus-zhongli/2119086999-id.json",
-    "src/people/ventus-zhongli/materials-ventus-zhongli.md",
+    "src/people/ventus-zhongli/materials-ventus-zhongli.json",
     "src/people/ventus-zhongli/ventus-zhongli.md",
     "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
     "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
-    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
     "src/battles/8f-tk3-2026/8f-tk3-2026.json",
     "src/battles/8f-tk3-2026/8f-tk3-2026.md",
-    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.json",
     "src/battles/a1-auh-2021/a1-auh-2021.json",
     "src/battles/a1-auh-2021/a1-auh-2021.md",
-    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
     "src/battles/h-pa29-2022/h-pa29-2022.json",
     "src/battles/h-pa29-2022/h-pa29-2022.md",
-    "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+    "src/battles/h-pa29-2022/materials-h-pa29-2022.json",
     "src/battles/haras-2023/haras-2023.json",
     "src/battles/haras-2023/haras-2023.md",
-    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.json",
     "src/battles/m-md31-2026/m-md31-2026.json",
     "src/battles/m-md31-2026/m-md31-2026.md",
-    "src/battles/m-md31-2026/materials-m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.json",
     "src/battles/sahtogas-2026/sahtogas-2026.json",
     "src/battles/sahtogas-2026/sahtogas-2026.md",
-    "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.json",
     "src/battles/x47l-q-2023/x47l-q-2023.json",
     "src/battles/x47l-q-2023/x47l-q-2023.md",
-    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json"
   ],
-  "inputs": "47716e776e479a43fb4ec7ace5857f755e06fcb210af22eb038c691404861107",
+  "inputs": "3b5d439a3000208d9766fa58dc15b3f0d07c810251d2fc9a5829c88e23636994",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/ningjing-interview-guests-2022.json": "805db6fd21019cd8595cb98f4b51d7bcd89f912be89697947c29aa1dd49563d1",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "src/people/ventus-zhongli/2119086999-id.json": "1d3d714d23a9aead3eda9648fc0595f3cd64813f34c133d4466cb0844263a789",
+    "src/people/ventus-zhongli/materials-ventus-zhongli.json": "73317e99de8be93a8e91585834d729770fcec3ea57935a8d56cccd27879146b3",
+    "src/people/ventus-zhongli/ventus-zhongli.md": "11b1c3a154e685c2921ef35224688e41baba161917162d4fbf23d61b96891012",
+    "battle:4-hwwf-8tpx-n-2026": "c27e55205a50a1173d59c208a2328667f8d68968afc4c9aaf594ff5ce52c710f",
+    "battle:8f-tk3-2026": "306b87c199ee594ab12e586ff95fc6ce09fcb6b6361fb8c293942ec4b60c43cb",
+    "battle:a1-auh-2021": "98bd10f55a8df09ef8e7141375cc7e83e47b719e6c5f0ef5e873d8876ad306ef",
+    "battle:h-pa29-2022": "c6b7cadb9c2eb5d05fcf6a5c228b8a4ae48cdfcf59341af720ab697c3fe03302",
+    "battle:haras-2023": "22278366f069bac47fd32d277fafd4ddabe894b87e3ac46a050fe833266f6211",
+    "battle:m-md31-2026": "306555479eb4bc0150e6505fc0eda1829f1f7b3128b03b6388675bc124ccbbdc",
+    "battle:sahtogas-2026": "ffac3fba6ad2a68284bc736e7971c2cb9e4de81dd27ab79adc621a3e12c324d6",
+    "battle:x47l-q-2023": "05b2d7e8a5f0afe3aa79b960b09d3e4f9fce9508f2cafb61f35357ef8823bce1"
+  },
   "level": 1
 }

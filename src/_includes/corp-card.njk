@@ -6,7 +6,6 @@
 {%- set ratingFull = false -%}
 <li class="card corp-card corp-style-{{ d.styleKey }}" data-group="{{ status.group }}" data-rank="{{ d.zkb.rank_recent }}" data-pvp="{{ ratings.pvp }}" data-shenren="{{ ratings.shenren }}" data-tank="{{ (d.zkb.lost / d.zkb.kills) if d.zkb.kills else 0 }}" data-alliance="{{ d.esi | corpAlliance }}" data-zones="{% for z in d.zones %}{{ z.key }} {% endfor %}" data-key="{{ d | corpKey }}">
   <a class="corp-card-link" href="{{ c.url | url }}">
-    <img class="corp-card-wm" src="{{ d.emblemSrc | url }}" alt="" width="128" height="128" loading="lazy" decoding="async" aria-hidden="true">
     <span class="corp-card-ribbon">
       <span class="corp-card-meta">{% if d.esi.alliance %}<strong>{{ d.esi.alliance.ticker }}</strong>{% else %}独立军团{% endif %}{% for z in d.zones %} · {{ z.name }}{% endfor %}</span>
       <span class="corp-card-pills">

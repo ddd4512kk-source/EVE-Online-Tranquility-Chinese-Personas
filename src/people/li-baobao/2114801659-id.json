@@ -58,6 +58,73 @@
       "00区",
       "FRT",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "头衔叫梦魇，一万四现金买下三艘AT世界冠军船被全服实锤曝光的神秘神豪买家。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "他花一万四人民币买了三条 AT 冠军舰，新闻和贴吧替这张账单传遍圈子；从此每次提到李宝宝，价钱先到。",
+          "sources": [
+            {
+              "label": "帝国新闻社RMT梳理长文",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "FRT旗舰舰队神示无畏重炮手，4-ABS8无畏大会战单月轰下五千多亿击杀，旗舰战力合格稳健。",
+          "sources": [
+            {
+              "label": "4-ABS8 无畏战出勤记录",
+              "url": "https://zkillboard.com/kill/110543210/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "常规旗舰后排按指令开炮打手，未见独立大舰队带队指挥，常人基准。",
+          "sources": [
+            {
+              "label": "Li BaoBao 角色档案",
+              "url": "https://zkillboard.com/character/2114801659/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "在 TCF 开了五年神示，只在买冠军船的爆料里出过名；没有人气、号召力或被排挤的材料，按常人。",
+          "sources": [
+            {
+              "label": "帝国新闻社RMT梳理长文",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "纯粹暗中氪金买船的散人高玩，不参与联盟顶层政治博弈，常人基准。",
+          "sources": [
+            {
+              "label": "Li BaoBao 雇佣记录",
+              "url": "https://zkillboard.com/character/2114801659/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "随手掏出一万四千元现金收购三艘神话级AT冠军船，机库常备神示无畏与冠军特种，个人资本实力极其雄厚。",
+          "sources": [
+            {
+              "label": "Li BaoBao zKillboard",
+              "url": "https://zkillboard.com/character/2114801659/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

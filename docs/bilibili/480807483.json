@@ -1,15 +1,15 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "480807483",
   "name": "银河系吹水员-潘大叔",
   "url": "https://space.bilibili.com/480807483/",
   "identity": {
     "state": "source",
     "person": null,
-    "material": "src/people/gone-with-windy/materials-gone-with-windy.md",
+    "material": "src/people/gone-with-windy/materials-gone-with-windy.json",
     "label": "随风素材",
     "evidence": [
-      "随风2020年盟主信，见[随风素材](../src/people/gone-with-windy/materials-gone-with-windy.md)"
+      "随风2020年盟主信，见[随风素材](../src/people/gone-with-windy/materials-gone-with-windy.json)"
     ],
     "related": []
   },
@@ -56,10 +56,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/gone-with-windy/materials-gone-with-windy.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "《欧服EVE D. C（龙焰）联盟CEO随风《给联盟所有人的一封信》原稿内容》，UP 银河系吹水员-潘大叔（mid 480807483），2020-09-23；帖中称“DC WWB 战前动员视频”。即此前待补的 2020 年盟主信，正文未读。"
       },
       "usage": {
         "body": false,

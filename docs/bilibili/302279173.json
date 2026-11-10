@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "302279173",
   "name": "魔丸和多米",
   "url": "https://space.bilibili.com/302279173/",
   "identity": {
     "state": "confirmed",
     "person": "duomi",
-    "material": "src/people/duomi/materials-duomi.md",
+    "material": "src/people/duomi/materials-duomi.json",
     "label": "多米",
     "evidence": [
       "已归本人；PHCN会议记录"
@@ -32,33 +32,33 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/duomi/materials-duomi.md"
+        "evidence": "src/people/duomi/materials-duomi.json"
       }
     },
     "prior_notes": [
       {
         "text": "**《最新消息ph华人社区内乱》**（[9067120500](https://tieba.baidu.com/p/9067120500)，2024-06-26，楼主烧鸭饭和螺蛳粉）：“pf华人社区多个军团宣布，因不满多米大元帅暴政，宣布反叛。已经有大量军团离开m-j驻地。”3 楼有人称造谣，楼中楼“我们团就从mj走了”；9 楼“说好的ph不要求出勤呢”；14 楼“招募要求就是放屁，不出勤就踢团”；18 楼“欢迎伤心ph朋友来帝国 直接复仇多米”；20 楼称只有一个团去了蜜蜂。已入正文。哥布林列传也引此帖。",
-        "source": "src/people/duomi/materials-duomi.md"
+        "source": "src/people/duomi/materials-duomi.json"
       },
       {
         "text": "[本人空间UID302279173](https://space.bilibili.com/302279173/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得5、5个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/duomi/materials-duomi.md"
+        "source": "src/people/duomi/materials-duomi.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/duomi/materials-duomi.md"
+        "source": "src/people/duomi/materials-duomi.json"
       },
       {
         "text": "复用UID302279173最新／最多播放各5条及选中态，另核合集页，未建合集。两条会议公开简介均只有“-”，分别读10、5个已加载主线程，预览以外楼中楼未展开；没有听会议、取字幕或转录。",
-        "source": "src/people/duomi/materials-duomi.md"
+        "source": "src/people/duomi/materials-duomi.json"
       },
       {
         "text": "当时推荐为0条，漏查实际战斗候选；该结论已撤销，补查见下节。已从最新、最多播放各5条及无合集的实际频道范围中，选取播放最高的两段会议，读完其公开简介与15个已加载主线程。两段简介均只有“-”，已有评论足以归档会议发布后的争议，却没有会议论点、明确发言人或本人补充，因而不把评论热闹当作推荐整段录音的依据；不是判断这两段会议内容差。",
-        "source": "src/people/duomi/materials-duomi.md"
+        "source": "src/people/duomi/materials-duomi.json"
       },
       {
         "text": "代表签名：[KM 125017351](https://zkillboard.com/kill/125017351/)。",
-        "source": "src/people/duomi/materials-duomi.md"
+        "source": "src/people/duomi/materials-duomi.json"
       }
     ],
     "listings": [
@@ -137,9 +137,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/duomi/materials-duomi.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -165,9 +162,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/duomi/materials-duomi.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -193,10 +187,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/duomi/materials-duomi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题把两边舰队规模和主力船型摆在一起，是频道日常舰队战题材的一条直观入口。"
       },
       "usage": {
         "body": false,
@@ -221,10 +213,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/duomi/materials-duomi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "1045播放、7评论。5个主线程多为催第三段／故事、问军团名字，商见曜灬质问加入深水与下铁壁的关系，缺被回应人的明确身份和原话，不推断多米真实决策。\n\n会议记录把视线从战场转到组织内部；与第一段连读，可以补上FC频道之外的管理场景。"
       },
       "usage": {
         "body": false,
@@ -249,10 +239,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/duomi/materials-duomi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "1648播放、16评论、2弹幕，上传者魔丸和多米。绝对力量X、龙哥哥哥哥哥哥z把它叫跑路／散伙动员，商见曜灬讥讽只打顺风战，筱橘ORG质疑PHCN内部活跃与内斗。其他回复谈远程桌面／QQ检查，但没有点明谁实施，不能写成多米本人提出或下令，不把不明主语的隐私指控归到他身上。"
       },
       "usage": {
         "body": true,

@@ -34,7 +34,7 @@
           "uid": "2160811345",
           "name": "北上♂又懒床℃",
           "sources": [
-            "materials-kitakamile-l.md"
+            "materials-kitakamile-l.json"
           ]
         }
       ]
@@ -60,6 +60,73 @@
       "高安",
       "FRT",
       "新人教官"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T16:00:00Z",
+      "verdict": "神韵新人课堂主讲人，撰写详尽配船合同教材，贴吧长年答疑不装全知，小船收割打下冥府最后一下的良师。",
+      "axes": {
+        "shenren": {
+          "tier": "E",
+          "reason": "极其纯粹热情的新手导师，讲合同教配船，坦诚承认自己不足，模范守序学者。",
+          "sources": [
+            {
+              "label": "北上的神韵新人课堂文字记录",
+              "url": "https://tieba.baidu.com/p/7443988766"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "2700+击杀，常开缪宁/洛基/唤风，小船收割打出冥府最后一击。",
+          "sources": [
+            {
+              "label": "KitakamiLE L zKillboard",
+              "url": "https://zkillboard.com/character/2115947381/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "以新人教学与小队带队为主，无大型主权会战主指。",
+          "sources": [
+            {
+              "label": "新人答疑帖",
+              "url": "https://tieba.baidu.com/p/7194767243"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "神韵新人导师，贴吧长期答疑耐心解惑，深受新人爱戴。",
+          "sources": [
+            {
+              "label": "北上的神韵新人课堂文字记录",
+              "url": "https://tieba.baidu.com/p/7443988766"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注军团新人教学与基础科普，远离高层政治争斗，常人基准。",
+          "sources": [
+            {
+              "label": "KitakamiLE L 雇佣记录",
+              "url": "https://zkillboard.com/character/2115947381/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "常规巡洋战备充沛，自给自足的新手教官。",
+          "sources": [
+            {
+              "label": "KitakamiLE L zKillboard",
+              "url": "https://zkillboard.com/character/2115947381/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

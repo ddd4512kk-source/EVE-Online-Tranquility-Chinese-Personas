@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "3546932",
   "name": "EVE-008",
   "url": "https://space.bilibili.com/3546932/",
   "identity": {
     "state": "confirmed",
     "person": "ace-008",
-    "material": "src/people/ace-008/materials-ace-008.md",
+    "material": "src/people/ace-008/materials-ace-008.json",
     "label": "008",
     "evidence": [
       "签名写国际服军团日常，与头衔相合"
@@ -32,17 +32,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/ace-008/materials-ace-008.md"
+        "evidence": "src/people/ace-008/materials-ace-008.json"
       }
     },
     "prior_notes": [
       {
-        "text": "收录角色：**ACE-008（2121669020）**。对应依据：B 站 UP 主 EVE-008（UID 3546932，签名“网络游戏up主，星战前夜，eveonline国际服 分享军团有趣日常”）对应此角色，来源可靠；混沌群名片“CACX-阿捌/ACE-008”（见[芙水之乱线索](../../../docs/sources/fushui-zhiluan-2026-05.md)）。",
-        "source": "src/people/ace-008/materials-ace-008.md"
+        "text": "收录角色：**ACE-008（2121669020）**。对应依据：B 站 UP 主 EVE-008（UID 3546932，签名“网络游戏up主，星战前夜，eveonline国际服 分享军团有趣日常”）对应此角色，来源可靠；混沌群名片“CACX-阿捌/ACE-008”（见[芙水之乱线索](../../../docs/sources/fushui-zhiluan-2026-05.json)）。",
+        "source": "src/people/ace-008/materials-ace-008.json"
       },
       {
         "text": "空间最新与最多播放首页各42视频入口，7合集／系列；总投稿82为混合计数，视频总数本页未可靠拆出，不把82全部当已读EVE视频。最高仍为退团体验约3.7万、杆子教程约3.4万；后续混有线下面基与现实婚礼，不取现实人物照片／地点，也不选这些作EVE精选。历史更深页、合集内部未全读。",
-        "source": "src/people/ace-008/materials-ace-008.md"
+        "source": "src/people/ace-008/materials-ace-008.json"
       }
     ],
     "listings": [
@@ -618,10 +618,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ace-008/materials-ace-008.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-08-28：“当我日入百亿，回首望去，还有一个yst默默的停在星城里。他好像在说，你长大了”。"
       },
       "usage": {
         "body": false,
@@ -646,10 +644,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ace-008/materials-ace-008.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-01-26，4815：“两家军团历经多年精诚合作 23年北上抵抗蜜蜂 int 25年南下对抗dc 风萧萧兮易水寒，壮士一去不复还。”\n\n从招人换到送人，频道难得换了口气。简介用23年北上、25年南下的共同经历给创世送行，比单报一个退盟消息多了一层旧同伴的情分。"
       },
       "usage": {
         "body": true,
@@ -674,10 +670,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ace-008/materials-ace-008.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "想知道他为什么不断发招新片，这条置顶最直接。他把新增、留存和老人AFK连起来讲，正好能和逐期升级的“最大军团”广告对照着读。"
       },
       "usage": {
         "body": true,
@@ -702,9 +696,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ace-008/materials-ace-008.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -730,9 +721,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ace-008/materials-ace-008.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -758,10 +746,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ace-008/materials-ace-008.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介仅“每天都在上演激情火拼”与招新，评论未加载，未选，不把标题当已经赶走某个具体人的已核事件。"
       },
       "usage": {
         "body": true,

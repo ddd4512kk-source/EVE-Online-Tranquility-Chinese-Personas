@@ -21,7 +21,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98808817.md"
+        "docs/corporations/notes/member-research/98808817.json"
       ],
       "entries": [
         {
@@ -640,7 +640,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98808817.md"
+        "docs/corporations/notes/member-research/98808817.json"
       ],
       "entries": [
         {
@@ -1327,7 +1327,7 @@
     {
       "label": "西卡",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98808817.md#kzu历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98808817.json#kzu历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2123985294",
@@ -1337,7 +1337,7 @@
     {
       "label": "大M",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98808817.md#kzu历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98808817.json#kzu历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2124288253",
@@ -1349,7 +1349,7 @@
     {
       "label": "板栗",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98808817.md#kzu历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98808817.json#kzu历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "724312690",
@@ -1362,7 +1362,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "7",
         "alliance": "Out of the Blue.",
@@ -1373,15 +1373,15 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-12",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "chitian / 2120421439",
-        "prior_finding": "已收录；[人物素材](../../../src/people/chitian/materials-chitian.md)"
+        "prior_finding": "已收录；[人物素材](../../../src/people/chitian/materials-chitian.json)"
       }
     }
   ],
   "references": [
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98808817.md"
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98808817.json"
   ]
 }

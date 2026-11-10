@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "type": "material",
+  "title": "华人军团泰坦驾驶员线索",
+  "sections": [
+    {
+      "id": "fraternity-nuwa-asearch",
+      "heading": "Nuwa Foundation 的高级搜索结果与缺口",
+      "level": 2,
+      "content": "\n2026-11-10 按 zKillboard Advanced Search 全时段检索 Nuwa Foundation（军团ID 98178881）作为攻击方且同一角色驾驶泰坦（groupID 30）。[查询链接](https://zkillboard.com/asearch/#%7B%22buttons%22%3A%5B%22alltime%22%2C%22attackers-aand%22%2C%22sort-date%22%2C%22sort-desc%22%5D%2C%22attackers%22%3A%5B%7B%22type%22%3A%22corporationID%22%2C%22id%22%3A98178881%7D%2C%7B%22type%22%3A%22groupID%22%2C%22id%22%3A30%7D%5D%7D) 共返回3169张KM ID；因超过单次分页上限自动拆分，累计查询106次。该数是击杀邮件数量，不是驾驶员人数。\n\n本次用了仅取ID模式，没有取得KM驾驶员名单，故没有任何角色可据此确认或排除为泰坦驾驶员，也没有与正式列传小号登记作身份比对。联盟级 Fraternity. 查询同样超量，未作为名单依据。\n\n后续应先从 zKillboard 超旗／泰坦驾驶员公开索引缩小候选，再用 Advanced Search 按角色ID与 groupID 30 进行同一攻击者匹配；逐个对照列传主号及已登记小号，并保留各自的KM链接。当前覆盖仅为 Nuwa Foundation 全时段；其他主要华人军团尚未查询。\n"
+    }
+  ]
+}

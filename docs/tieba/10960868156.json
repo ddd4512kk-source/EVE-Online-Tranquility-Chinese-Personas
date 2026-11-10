@@ -4,9 +4,9 @@
   "url": "https://tieba.baidu.com/p/10960868156",
   "title": "老瓜新吃防止岁月史书，整理帝华蓝章鱼KZU 30B 全过程",
   "references": [
-    "docs/sources/kzu-kunlun-2026-07.md",
+    "docs/sources/kzu-kunlun-2026-07.json",
     "src/people/iba-la-sotken/iba-la-sotken.md",
-    "src/people/shikongsa/materials-shikongsa.md",
+    "src/people/shikongsa/materials-shikongsa.json",
     "src/people/shikongsa/shikongsa.md",
     "src/people/zhayu111/zhayu111.md"
   ],
@@ -15,7 +15,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10960868156",
-        "初始引用文件": "src/people/shikongsa/materials-shikongsa.md;src/people/shikongsa/shikongsa.md",
+        "初始引用文件": "src/people/shikongsa/materials-shikongsa.json;src/people/shikongsa/shikongsa.md",
         "首尾状态": "首尾已取",
         "接口回复数": "35",
         "主楼总页数": "2",

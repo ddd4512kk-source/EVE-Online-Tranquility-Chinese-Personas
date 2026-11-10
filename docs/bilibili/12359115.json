@@ -1,15 +1,15 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "12359115",
   "name": "JackyangMiao",
   "url": "https://space.bilibili.com/12359115/",
   "identity": {
     "state": "source",
     "person": null,
-    "material": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md",
+    "material": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json",
     "label": "李疯子素材",
     "evidence": [
-      "WC征服者泰坦带跳损，见[李疯子素材](../src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md)；2017年FRT秋名山飙车记等，现为英语教学频道"
+      "WC征服者泰坦带跳损，见[李疯子素材](../src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json)；2017年FRT秋名山飙车记等，现为英语教学频道"
     ],
     "related": []
   },
@@ -48,7 +48,7 @@
     "prior_notes": [
       {
         "text": "代表签名：[KM 125017362](https://zkillboard.com/kill/125017362/)。",
-        "source": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md"
+        "source": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json"
       }
     ],
     "listings": [
@@ -316,10 +316,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者JackyangMiao（12359115），简介明确搬运YouTube并自行翻译少量字幕；自称已经AFK仍每天看KB，见榜首联盟泰坦感到意外。附KM 78224491；40条评论与片中带跳过程未读，标题指控仍按作者说法。"
       },
       "usage": {
         "body": false,

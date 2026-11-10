@@ -1,0 +1,72 @@
+{
+  "status": "reviewed",
+  "note": "逐项核对角色概览、小号、战役与正文；无个人战斗故事可展开。",
+  "evidence": [
+    "src/people/mantou-eve/materials-mantou-eve.json",
+    "src/people/mantou-eve/mantou-eve.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "人物卡显示收录号零击杀、两次普通损失；正文没有把联盟战争写成个人战绩，主要讲组织和外交履历。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/materials-mantou-eve.json",
+          "heading": "### 检索记录与缺口"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "身份摘要没有已确认小号，也没有可合并的主力小号战绩。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/materials-mantou-eve.json",
+          "contains": "历史画像中收录角色击杀很少；管理、工业和小号均可能如此，不据此推演人物黑料。"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "现有总览没有个人代表战果；两次普通损失不需要细查月份或 KM。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/materials-mantou-eve.json",
+          "heading": "### 检索记录与缺口"
+        }
+      ]
+    },
+    "battles": {
+      "status": "not-applicable",
+      "note": "人物卡没有关联战役记录，本篇也没有把他列作舰队指挥者或战斗主角。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/materials-mantou-eve.json",
+          "heading": "### 2022 年借 RR 入帝国：主线复核"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文将星城防守作为局势背景，个人故事落在组织决策；没有个人战绩可供独立战斗红料展开，不硬凑击杀故事。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/mantou-eve.md",
+          "contains": "战场上守住了星城，会议上交出了星城；本想保住指挥部，最后成员各找出路，指挥部反而成了帝国拒收的部分。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mantou-eve/2115140351-id.json",
+    "src/people/mantou-eve/mantou-eve.md",
+    "src/people/mantou-eve/materials-mantou-eve.json"
+  ],
+  "inputs": "defae637dac97aa27fc4ae8123b5077bbb0c97b7856fe709d3246deb130e1ac4",
+  "inputParts": {
+    "src/people/mantou-eve/2115140351-id.json": "f684e07bef7943df9fdc677fbce46458694ab26f38f601a9713c30ae53540ebd",
+    "src/people/mantou-eve/mantou-eve.md": "fd28b2024459b04116f3a702f377199a52d6f370f0f833b0438310984c867860",
+    "src/people/mantou-eve/materials-mantou-eve.json": "2dda0129d1915603e1b0a8d13951cd5adde32a181a403e39973f440badf5e9cc"
+  },
+  "level": 1
+}

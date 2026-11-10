@@ -3,8 +3,9 @@ import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { characterFile } from "./character-snapshot.mjs";
+import { validatePersonRadar } from './person-radar.mjs';
 
-export const PERSON_FIELDS = ["cn_name", "aliases", "epithet", "tags"];
+export const PERSON_FIELDS = ['cn_name', 'aliases', 'epithet', 'tags', 'radar'];
 const object = value => value !== null && typeof value === "object" && !Array.isArray(value);
 const strings = value => Array.isArray(value) && value.every(item => typeof item === "string" && item.trim());
 
@@ -22,7 +23,7 @@ export function readPersonDocument(file) {
     throw new Error(`${archiveFile}：档案 id 必须是正整数且与文件名一致`);
   }
   if (!object(archive.person)) throw new Error(`${archiveFile}：缺少 person 展示配置对象`);
-  const errors = [];
+  const errors = validatePersonRadar(archive.person.radar);
   for (const key of Object.keys(archive.person)) if (!PERSON_FIELDS.includes(key)) errors.push(`person 未知字段 ${key}`);
   for (const key of ["cn_name", "epithet"]) {
     if (archive.person[key] !== undefined && typeof archive.person[key] !== "string") errors.push(`${key} 必须是字符串`);

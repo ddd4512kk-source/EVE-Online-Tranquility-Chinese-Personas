@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "457387123",
   "name": "黑米黑米i",
   "url": "https://space.bilibili.com/457387123/",
   "identity": {
     "state": "confirmed",
     "person": "huya-heimi",
-    "material": "src/people/huya-heimi/materials-huya-heimi.md",
+    "material": "src/people/huya-heimi/materials-huya-heimi.json",
     "label": "黑米",
     "evidence": [
       "2026-10-15素材已确认"
     ],
     "related": [
       {
-        "material": "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+        "material": "src/battles/bwf-zz-2025/materials-bwf-zz-2025.json",
         "label": "战役相关视频"
       }
     ]
@@ -43,19 +43,19 @@
     "prior_notes": [
       {
         "text": "[汉兰达旗开得胜，但我要宣布我是签名大赛第一名](https://www.bilibili.com/video/BV1Ur421b7cy/)，2024-03-29，2747 播放；[欧加仑旗舰对波](https://www.bilibili.com/video/BV1v4yYYzE9J/)，2024-10-20，2114 播放；[BWF星城决战](https://www.bilibili.com/video/BV1yqR1Y2EcK/)，2025-04-07，2202 播放。战役金额、战报、视角与角色均待视频核对，不从标题计算战损。",
-        "source": "src/people/huya-heimi/materials-huya-heimi.md"
+        "source": "src/people/huya-heimi/materials-huya-heimi.json"
       },
       {
         "text": "BV1Ur421b7cy 汉兰达旗开得胜／签名大赛第一名（2024-03-30，[BR](https://br.evetools.org/br/6606e7bb953bc4001246b7a8)）：“怪不得你签名这么多，你他娘的分4炮！”（UP 点赞）、“细节分炮”“分炮仙人”“一眼指挥界面➕分炮高手”；“怎么你偷偷买了黄球”→“我这是高贵的bfl噩梦”；总览→“自制总览”。“一眼指挥界面”为观众说法，不作 FC 依据。",
-        "source": "src/people/huya-heimi/materials-huya-heimi.md"
+        "source": "src/people/huya-heimi/materials-huya-heimi.json"
       },
       {
         "text": "作品精选按已读内容选 5 支写入正文：五级任务教程、严查SPY、掠夺骑、帝国超旗开拔、汉兰达／签名大赛。",
-        "source": "src/people/huya-heimi/materials-huya-heimi.md"
+        "source": "src/people/huya-heimi/materials-huya-heimi.json"
       },
       {
         "text": "代表签名：[KM 125017351](https://zkillboard.com/kill/125017351/)。",
-        "source": "src/people/huya-heimi/materials-huya-heimi.md"
+        "source": "src/people/huya-heimi/materials-huya-heimi.json"
       }
     ],
     "listings": [
@@ -356,16 +356,15 @@
         "replies": 13
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md",
-          "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及11个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- BV1yqR1Y2EcK BWF 星城决战（2025-04-07，[BR](https://br.evetools.org/br/67f12e93a619dd0012d0017c)）：评论“感觉fc带的一般”“对面人数都不够分战功的”。"
       },
       "usage": {
         "body": false,
@@ -385,13 +384,15 @@
         "replies": 19
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "captured",
-        "material_refs": [],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及8个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介只有招新群号。置顶评论由探归者夕迁Official附上战报链接，UP 点赞；评论有人追问对方舰船为何如此耐打，也有人怀念配乐、抱怨被秒杀或用“拼好饭”调侃拼队配置。它们是观众评论，不能据此复原舰队表现；页面未提供本人角色或指挥署名。"
       },
       "usage": {
         "body": false,
@@ -411,15 +412,15 @@
         "replies": 13
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及9个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "2024-11-15，标题称人数劣势打平战损并完成战略；已取公开视频资料，UP 为上述 UID，时长 230 秒，1260 播放、13 条评论。简介只有招新信息，没有角色自报或 BR；联络号码不保存。未看画面与评论，不能将“新人指挥”认作黑米或认定为本人的首战。"
       },
       "usage": {
         "body": false,
@@ -439,15 +440,15 @@
         "replies": 88
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及20个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- BV1cpvCe6EXf 帝国超旗开拔（2024-07-30，8989 播放、88 评）：评论“视频做的真的是太好了，辛苦heimi大酱”（称转给 imp tsc）、“做得非常用心”、“我以为黑米25到蜜蜂了”、帝国新 CEO “王冠保卫战”长评；本人答字体“pr没什么好字体”。"
       },
       "usage": {
         "body": false,
@@ -467,15 +468,15 @@
         "replies": 47
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及20个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- BV1Ur421b7cy 汉兰达旗开得胜／签名大赛第一名（2024-03-30，[BR](https://br.evetools.org/br/6606e7bb953bc4001246b7a8)）：“怪不得你签名这么多，你他娘的分4炮！”（UP 点赞）、“细节分炮”“分炮仙人”“一眼指挥界面➕分炮高手”；“怎么你偷偷买了黄球”→“我这是高贵的bfl噩梦”；总览→“自制总览”。“一眼指挥界面”为观众说法，不作 FC 依据。"
       },
       "usage": {
         "body": false,
@@ -500,9 +501,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -523,15 +521,15 @@
         "replies": 28
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及20个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- BV1KY41127B7 掠夺骑（2023-01-07，4290 播放）：黑隐队；本人“哥们你要不看看场上有多少战列的图标”，对“我记得你不是frt的么”答“变成罕见辣”。"
       },
       "usage": {
         "body": false,
@@ -556,9 +554,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -579,15 +574,15 @@
         "replies": 20
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及11个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- BV16g411Q7xC 严查SPY（2022-06-16，FRT 招新）：“我在对面 理智的点了停船 FC已经在写检讨了”“frt首席 spy 屑黑米”“效率极高，排队枪毙”。"
       },
       "usage": {
         "body": false,
@@ -607,19 +602,47 @@
         "replies": 19
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/huya-heimi/materials-huya-heimi.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介及10个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- BV1MS4y1h781 五级任务教程（2022-05-05，6412 播放、81 收藏、5 分 P：堡垒／天使的愤怒／净化的火焰／自由间谍1／开拓号）：简介“军团有共享任务船 可免费带声望 集结分可换钱可换脑浆 技能够就发船喔”“呜呜呜xdm多投币点赞吧没流量天天被二压”；本人答“魔像打很快的”“帕拉丁打自由间谍 小克不行 恶狼最好搭配上黑隐之类的 最舒服的还是导弹船”“乌鸦海乌鸦别做堡垒 至少巴盖斯 不然真的会死”；“小黑米在隔壁创世哦”（另一人，待查）。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV1r54y1f7p3",
+      "title": "【EVE欧服】旗舰战 但是我们人比他们多一倍",
+      "url": "https://www.bilibili.com/video/BV1r54y1f7p3/",
+      "owner_uid": "457387123",
+      "published_at": "2022-05-10T07:58:01.000Z",
+      "captured_at": "2026-11-08T10:40:42.000Z",
+      "description": "怯薛军隶属凛冬华人联盟群旗下FRT联盟，并招新。",
+      "stats": {
+        "views": 5532,
+        "replies": 37
+      },
+      "credit": {
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为黑米黑米i（UID 457387123）；未见明确的外部原作者或团队署名，不据上传归属断言实际驾驶者或制作分工。"
+      },
+      "reading": {
+        "state": "digested",
+        "reviewed_at": "2026-11-08",
+        "scope": "公开简介及20个已加载主评论线程（含页面直接可见回复）；未翻页或展开其他楼中楼，未观看影像、音轨或字幕。",
+        "digest": "></a>\n\n- [BV1r54y1f7p3](https://www.bilibili.com/video/BV1r54y1f7p3/)：简介说明怯薛军隶属FRT并招新。可见评论里，有自称在现场的观众说自己在圣卒队开守卫、看见FRT旗舰群跳入后老外语音兴奋；另有评论将交火解读为“旗舰占优而常规崩盘”，并讨论常规控制、分炮及战报损失处理。这些是观众的回忆和判断，未由本页文字证实；本次未看影像或音轨，不能据标题或评论确认战局、驾驶者或黑米的指挥职责。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

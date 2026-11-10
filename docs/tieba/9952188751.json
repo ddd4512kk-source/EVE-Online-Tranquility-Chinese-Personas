@@ -4,13 +4,13 @@
   "url": "https://tieba.baidu.com/p/9952188751",
   "title": "关于怯薛账号“被盗”吃瓜",
   "references": [
-    "docs/leads/tieba-short-disputes-replies.md",
-    "src/people/crysisdeathgun-yorha/materials-crysisdeathgun-yorha.md",
+    "docs/leads/tieba-short-disputes-replies.json",
+    "src/people/crysisdeathgun-yorha/materials-crysisdeathgun-yorha.json",
     "src/people/master-zachary/master-zachary.md",
-    "src/people/master-zachary/materials-master-zachary.md",
-    "src/people/qihei/materials-qihei.md",
+    "src/people/master-zachary/materials-master-zachary.json",
+    "src/people/qihei/materials-qihei.json",
     "src/people/qihei/qihei.md",
-    "src/people/tang-yuan/materials-tang-yuan.md",
+    "src/people/tang-yuan/materials-tang-yuan.json",
     "src/people/tang-yuan/tang-yuan.md"
   ],
   "legacy_records": [
@@ -18,7 +18,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9952188751",
-        "初始引用文件": "src/people/master-zachary/master-zachary.md;src/people/master-zachary/materials-master-zachary.md;src/people/qihei/materials-qihei.md;src/people/qihei/qihei.md;src/people/tang-yuan/materials-tang-yuan.md;src/people/tang-yuan/tang-yuan.md",
+        "初始引用文件": "src/people/master-zachary/master-zachary.md;src/people/master-zachary/materials-master-zachary.json;src/people/qihei/materials-qihei.json;src/people/qihei/qihei.md;src/people/tang-yuan/materials-tang-yuan.json;src/people/tang-yuan/tang-yuan.md",
         "首尾状态": "首尾已取",
         "接口回复数": "21",
         "主楼总页数": "1",

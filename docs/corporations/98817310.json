@@ -21,7 +21,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98817310.md"
+        "docs/corporations/notes/member-research/98817310.json"
       ],
       "entries": [
         {
@@ -640,7 +640,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98817310.md"
+        "docs/corporations/notes/member-research/98817310.json"
       ],
       "entries": [
         {
@@ -1327,7 +1327,7 @@
     {
       "label": "鎏年时光 已认证",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98817310.md#dusk历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98817310.json#dusk历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2123131868",
@@ -1337,7 +1337,7 @@
     {
       "label": "Director山之内花音",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98817310.md#dusk历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98817310.json#dusk历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2123345431",
@@ -1347,7 +1347,7 @@
     {
       "label": "小虎牙",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98817310.md#dusk历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98817310.json#dusk历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2115198403",
@@ -1357,7 +1357,7 @@
     {
       "label": "消毒柜 已认证 PP第一帅",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98817310.md#dusk历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98817310.json#dusk历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2121210494",
@@ -1370,7 +1370,7 @@
     {
       "label": "幻 已认证",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98817310.md#dusk历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98817310.json#dusk历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2122488112",
@@ -1383,7 +1383,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "13",
         "alliance": "Dracarys.",
@@ -1394,17 +1394,17 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-12",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "Duomi D03 / 2118786461",
-        "prior_finding": "同人号已收录；[人物素材](../../../src/people/duomi/materials-duomi.md)"
+        "prior_finding": "同人号已收录；[人物素材](../../../src/people/duomi/materials-duomi.json)"
       }
     },
     {
       "kind": "description",
       "period": null,
       "as_of": "2026-10-10",
-      "source": "docs/corporations/notes/descriptions.md",
+      "source": "docs/corporations/notes/descriptions.json",
       "fields": {
         "alliance": "DC",
         "member_count": "786",
@@ -1414,10 +1414,10 @@
     }
   ],
   "references": [
-    "docs/corporations/notes/descriptions.md",
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/dc-goons-monthly.md",
-    "docs/corporations/notes/dc-discovery.md",
-    "docs/corporations/notes/member-research/98817310.md"
+    "docs/corporations/notes/descriptions.json",
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/dc-goons-monthly.json",
+    "docs/corporations/notes/dc-discovery.json",
+    "docs/corporations/notes/member-research/98817310.json"
   ]
 }

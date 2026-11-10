@@ -4,8 +4,8 @@
   "url": "https://tieba.baidu.com/p/6156036317",
   "title": "【SETCR紫竹梅】无畏刷怪教学交流贴",
   "references": [
-    "docs/leads/july-karin.md",
-    "src/people/ranger-yl/materials-ranger-yl.md",
+    "docs/leads/july-karin.json",
+    "src/people/ranger-yl/materials-ranger-yl.json",
     "src/people/ranger-yl/ranger-yl.md"
   ],
   "legacy_records": [
@@ -13,7 +13,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6156036317",
-        "初始引用文件": "src/people/ranger-yl/materials-ranger-yl.md;src/people/ranger-yl/ranger-yl.md",
+        "初始引用文件": "src/people/ranger-yl/materials-ranger-yl.json;src/people/ranger-yl/ranger-yl.md",
         "首尾状态": "首尾已取",
         "接口回复数": "287",
         "主楼总页数": "5",

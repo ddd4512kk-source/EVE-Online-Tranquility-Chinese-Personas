@@ -6,9 +6,9 @@
   "references": [
     "docs/tieba-review-2026-10-10.md",
     "src/people/d-manson/d-manson.md",
-    "src/people/d-manson/materials-d-manson.md",
+    "src/people/d-manson/materials-d-manson.json",
     "src/people/j0kk3rr/j0kk3rr.md",
-    "src/people/j0kk3rr/materials-j0kk3rr.md",
+    "src/people/j0kk3rr/materials-j0kk3rr.json",
     "src/people/jezz-zena/jezz-zena.md",
     "src/people/lizard-k/lizard-k.md",
     "src/people/thunder-andy/thunder-andy.md",
@@ -19,7 +19,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6619933254",
-        "初始引用文件": "src/people/d-manson/d-manson.md;src/people/d-manson/materials-d-manson.md;src/people/jezz-zena/jezz-zena.md;src/people/lizard-k/lizard-k.md;src/people/thunder-andy/thunder-andy.md;src/people/thunder-ebon/thunder-ebon.md",
+        "初始引用文件": "src/people/d-manson/d-manson.md;src/people/d-manson/materials-d-manson.json;src/people/jezz-zena/jezz-zena.md;src/people/lizard-k/lizard-k.md;src/people/thunder-andy/thunder-andy.md;src/people/thunder-ebon/thunder-ebon.md",
         "首尾状态": "首尾已取",
         "接口回复数": "366",
         "主楼总页数": "7",

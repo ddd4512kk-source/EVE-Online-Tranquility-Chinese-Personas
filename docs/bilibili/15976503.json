@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "15976503",
   "name": "剑穿天下",
   "url": "https://space.bilibili.com/15976503/",
   "identity": {
     "state": "confirmed",
     "person": "contingency-jctx",
-    "material": "src/people/contingency-jctx/materials-contingency-jctx.md",
+    "material": "src/people/contingency-jctx/materials-contingency-jctx.json",
     "label": "剑穿天下",
     "evidence": [
       "同名；另一“一剑穿天下”零投稿号未并入"
@@ -48,11 +48,11 @@
     "prior_notes": [
       {
         "text": "B站账号检索精确命中该账号：158 粉丝、26 投稿，签名“一个喜欢游戏的普通人，向星海前进！咕~”。同次另有“一剑穿天下”零投稿账号，未并入。因同轮 B站请求触发 412，未继续取得视频标题或评论，不把 26 投稿当作已读。",
-        "source": "src/people/contingency-jctx/materials-contingency-jctx.md"
+        "source": "src/people/contingency-jctx/materials-contingency-jctx.json"
       },
       {
         "text": "空间26视频、9图文；最新与最多播放首页各26条，覆盖全部视频标题。最多播放前三均手游，排除出宁静经历与精选；PC作品前列为欧塔杂技跳驱2708、忏悔活动2601、重拦2437、拆迁2377。原5篇文字读过但没有列出作品推荐；本轮续读2篇，最终精选欧塔、拆迁、两篇洞内对局及ESS，保留原故事。",
-        "source": "src/people/contingency-jctx/materials-contingency-jctx.md"
+        "source": "src/people/contingency-jctx/materials-contingency-jctx.json"
       }
     ],
     "listings": [
@@ -416,10 +416,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者说铁壁击杀后舰队忙着回家睡觉，余下场面像故土搜打撤；感谢各位FC和FUXI提供素材，附[BR6a7e65c5c38f7c6d19fb476e](https://br.evetools.org/br/6a7e65c5c38f7c6d19fb476e)。14个主评论线程已读，他置顶“怎么我就摸不到这样的箱子呢”；观众分别自报多米射了一小时拿160个KM、捡到6000红纸、只拿20E的T2装备等，是各自经历，不归本人收益或战果。借此写其作品和战后捡东西的评论互动，不从感谢FC推断本人指挥了此次拆迁。\n\n打仗之后还有拾荒。简介写舰队打完忙着睡觉，评论区则晒红纸、装备与箱子，作者置顶眼馋；比只报一座铁壁，更能看到这场集体活动怎样收尾。"
       },
       "usage": {
         "body": true,
@@ -444,10 +442,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介自称卡点守住998M赏金ESS，NTR失败，附[WarBeacon报](https://warbeacon.net/br/report/5d0bb4da-d88e-41b7-b3f7-82c6f6fc63ec)。只归作者所述结果，标题不当实际指挥对白。页面reply4，评论未加载。"
       },
       "usage": {
         "body": true,
@@ -472,10 +468,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介“人数劣势就要勇于用旗舰出重拳”，附[BR69a0b0af6e47f9001276dea9](https://br.evetools.org/br/69a0b0af6e47f9001276dea9)。不从标题认出驾驶员、重拦或旗舰具体操作。页面reply13，评论未加载。"
       },
       "usage": {
         "body": true,
@@ -500,10 +494,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介附[BR69011ff5a23462001261a4d2](https://br.evetools.org/br/69011ff5a23462001261a4d2)，对w佬说“快去练走位”。3个主评论线程已读：观众问泡泡是否诱导，他答轻拦泡、洞里诱导没用；另一人称“钢琴手”，他回“燃尽了”。不将前一句当未读影像中的具体失误或指挥责任。"
       },
       "usage": {
         "body": true,
@@ -528,9 +520,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -556,10 +545,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者对照前一次诅咒不足，称本次4条诅咒奏效、后来洞塌，没能添油继续吃无畏；附[BR684df59987003700128d3486](https://br.evetools.org/br/684df59987003700128d3486)。只按本人复盘写此次取舍和结果，不把未吃到的无畏当战果。\n\n配队复盘这一篇最明确。作者先解释上回诅咒带少，这回改带四条，又惦记塌洞后没吃到的无畏；读者能从简介看清他怎样为上次的遗憾改队伍。"
       },
       "usage": {
         "body": true,
@@ -584,9 +571,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/contingency-jctx/materials-contingency-jctx.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

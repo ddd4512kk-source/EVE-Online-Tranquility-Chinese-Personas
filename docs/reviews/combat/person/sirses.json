@@ -1,70 +1,76 @@
 {
   "status": "reviewed",
-  "note": "对照本人素材、战斗画像与正文核查。",
+  "note": "五项复核已逐一完成。",
   "evidence": [
-    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/materials-sirses.json",
     "src/people/sirses/sirses.md"
   ],
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "核收录号小船猎杀玩法与整体记录",
+      "note": "统计显示主号与现役小号持续以小船猎杀为主，正文围绕驻地游击和长期蹲守展开。",
       "evidence": [
         {
-          "file": "src/people/sirses/materials-sirses.md",
+          "file": "src/people/sirses/materials-sirses.json",
           "heading": "## 主小号战斗画像与高值月"
         }
       ]
     },
     "alts": {
       "status": "reviewed",
-      "note": "核两个现役同人号及低于主力门槛的Wibrik，主号未识别",
+      "note": "核对已确认小号及Wibrik画像，未把各角色统计相加或认定未识别主号。",
       "evidence": [
         {
-          "file": "src/people/sirses/materials-sirses.md",
-          "heading": "## 主小号战斗画像与高值月"
+          "file": "src/people/sirses/materials-sirses.json",
+          "heading": "### DingJiLieRen 现役小号"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "核2026年10月两号共同攻击样本，未把同一KM重复计数",
+      "note": "对照最高活跃月及同一击杀记录的双角色参与，正文只用支撑个人玩法的代表战果。",
       "evidence": [
         {
-          "file": "src/people/sirses/materials-sirses.md",
+          "file": "src/people/sirses/materials-sirses.json",
           "heading": "## 主小号战斗画像与高值月"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "核萨托加斯Taltogai快照损失，不推舰型和职责",
+      "note": "核对萨托加斯中Taltogai损失记录；未推定舰型或指挥职责。",
       "evidence": [
         {
-          "file": "src/people/sirses/materials-sirses.md",
-          "heading": "## 主小号战斗画像与高值月"
+          "file": "src/people/sirses/materials-sirses.json",
+          "contains": "萨托加斯"
         }
       ]
     },
     "narrative": {
       "status": "reviewed",
-      "note": "既有猎杀故事移至开篇后并扩为综合画像",
+      "note": "独立战绩块写出长期蹲守、单船游击、同团角色协作与宣传反差。",
       "evidence": [
         {
           "file": "src/people/sirses/sirses.md",
-          "contains": "他还有几个同团角色陪着出门"
+          "contains": "声望哥蹲得住，贴吧也没闲着"
         }
       ]
     }
   },
   "dependencies": [
     "src/people/sirses/2120632368-id.json",
-    "src/people/sirses/materials-sirses.md",
+    "src/people/sirses/materials-sirses.json",
     "src/people/sirses/sirses.md",
     "src/battles/sahtogas-2026/sahtogas-2026.json",
     "src/battles/sahtogas-2026/sahtogas-2026.md",
-    "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.json"
   ],
-  "inputs": "df4a648c900a7fbf1037f055407f84328972beb1f6c1fd083593181b4ac963b8",
+  "inputs": "454859e868c60b9b85d78f4557bbd8de17cf58594d1ebca712550b4bb112bc0e",
+  "inputParts": {
+    "src/people/sirses/2120632368-id.json": "fdb6ff3610aa1e6fd9a5dc7d70de1e40b41917d7984123b7106b98d3a5e8bc98",
+    "src/people/sirses/materials-sirses.json": "b641be6951556bb41e8f413c653303c3a0230f92481ebd81460ada7fbd7c386d",
+    "src/people/sirses/sirses.md": "e6125f60f35e450be7f24c9258f60fafa8740e938f0c1703f06f4f546d14b6cb",
+    "battle:sahtogas-2026": "5a4d3e36ce64ee2e1b921c13800320bdd8535240af7e74a3894d7bc62e1cdea8"
+  },
   "level": 1
 }

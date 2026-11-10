@@ -4,17 +4,17 @@
   "url": "https://tieba.baidu.com/p/10047143332",
   "title": "Goonswarm Federation直属CN军团招募",
   "references": [
-    "docs/sources/pla-kaisa-departure-2017.md",
-    "src/people/reinhard-merlin/materials-reinhard-merlin.md",
+    "docs/sources/pla-kaisa-departure-2017.json",
+    "src/people/reinhard-merlin/materials-reinhard-merlin.json",
     "src/people/reinhard-merlin/reinhard-merlin.md",
-    "src/people/skyendless123/materials-skyendless123.md"
+    "src/people/skyendless123/materials-skyendless123.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10047143332",
-        "初始引用文件": "src/people/skyendless123/materials-skyendless123.md",
+        "初始引用文件": "src/people/skyendless123/materials-skyendless123.json",
         "首尾状态": "首尾已取",
         "接口回复数": "64",
         "主楼总页数": "1",

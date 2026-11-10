@@ -48,7 +48,7 @@
         "id": 2124258245,
         "name": "L-Zarek",
         "sources": [
-          "materials-l-nex.md"
+          "materials-l-nex.json"
         ],
         "zkb": {
           "kills": 3,
@@ -79,6 +79,89 @@
       "00区",
       "B B C",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:08:00Z",
+      "verdict": "欧服出色的电影级战地记录者与泰坦驾驶员，以一句谦逊坦荡的“Involved”在万亿战火中书写史诗。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "简介自题单字Involved诚实晒满整墙超旗KM，自嘲活成了讨厌的F1战士与猎坦鼠鼠，欧贝大战自己也送掉一条1500亿俄洛巴斯泰坦。",
+          "sources": [
+            {
+              "label": "官方简介Involved与超旗列表",
+              "url": "https://zkillboard.com/character/2118354268/"
+            },
+            {
+              "label": "欧贝损失1497亿泰坦KM",
+              "url": "https://zkillboard.com/kill/139046897/"
+            },
+            {
+              "label": "年中总结活成了讨厌的样子",
+              "url": "https://www.bilibili.com/video/BV1zku9zdEHe/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "三万亿击杀战果，驾驭俄洛巴斯泰坦与神示级海军型亲历阿尔扎德、欧贝等超级会战。",
+          "sources": [
+            {
+              "label": "阿尔扎德参战记录",
+              "url": "https://zkillboard.com/kill/128513228/"
+            },
+            {
+              "label": "欧贝神使击毁攻击名单",
+              "url": "https://zkillboard.com/kill/139047726/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "作为旗舰主力与随军战地导演参与各次行动，未见独立舰队FC资质与带队记录，常人基准评 D。",
+          "sources": [
+            {
+              "label": "电影化舰船录制记录",
+              "url": "https://www.bilibili.com/video/BV1YJizYFEmn/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站顶流电影级战报与舰船UP主，制作精美绝伦的华人战史视觉大片，名动新伊甸。",
+          "sources": [
+            {
+              "label": "IN-FJ8星舰坟场高赞视频",
+              "url": "https://www.bilibili.com/video/BV1fvz6YUEyS/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "脱离大联盟加入Snuff等雇佣集团，专注于硬核视觉艺术与自由猎杀，远离政治官僚。",
+          "sources": [
+            {
+              "label": "军团变动履历",
+              "url": "https://esi.evetech.net/latest/characters/2118354268/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "坐拥个人俄洛巴斯泰坦、神示级海军型，更能配置并玩转首批天使无畏（萨拉希尔级）等顶尖混血旗舰，个人战略资产极其雄厚，评 S。",
+          "sources": [
+            {
+              "label": "泰坦装配与战损估值",
+              "url": "https://zkillboard.com/kill/139046897/"
+            },
+            {
+              "label": "少侠天使无畏交付实况",
+              "url": "https://www.bilibili.com/video/BV1oTT8zyE4z/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

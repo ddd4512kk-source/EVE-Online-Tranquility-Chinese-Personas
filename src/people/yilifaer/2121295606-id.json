@@ -48,7 +48,82 @@
       "FC",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:38:38Z",
+      "verdict": "预警频道严禁中文痛斥丢人现眼，竞选CSM高呼代表中文玩家；四十颗电池当战略物资审问。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "他在盟里斥中文预警“丢人现眼”，竞选 CSM 时又以中文社区代表自居；一边嫌中文，一边举中文的牌子。",
+          "sources": [
+            {
+              "label": "yilifaerr CSM 20 官方竞选稿",
+              "url": "https://forums.eveonline.com/t/yilifaerr-for-csm-20-the-voices-of-new-players-small-alliance-and-the-chinese-community/498435"
+            },
+            {
+              "label": "贴吧《ICG旗下华人军团先击毙后踢团》",
+              "url": "https://tieba.baidu.com/p/8924360773"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "本人及登记小号累计参与击杀约 9.03 万亿 ISK，按 2023-06 至 2026-10 折算年均约 2.71 万亿，达到战神线，战力至少 A。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121295606/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "曾任 IGC FC、外交官和联盟总监，在黑色星期五与 R-AG7W 会战带队；后来创建三百人军团任 CEO，已是联盟重要 FC。",
+          "sources": [
+            {
+              "label": "Your Ex's 军团战报与活跃记录",
+              "url": "https://zkillboard.com/corporation/98806948/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站高播视频二十余期，自建军团吸引数百人跟随，虽因双标言论引发轰动争议，但在所辖圈内号召力显著。",
+          "sources": [
+            {
+              "label": "yilifaerr CSM 20 官方竞选稿",
+              "url": "https://forums.eveonline.com/t/yilifaerr-for-csm-20-the-voices-of-new-players-small-alliance-and-the-chinese-community/498435"
+            },
+            {
+              "label": "伊利法尔 B站主页",
+              "url": "https://space.bilibili.com/12359115"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "一手创办数百人规模军团并率团周旋于北方诸强，深度参与联盟事务与 CSM 竞选博弈。",
+          "sources": [
+            {
+              "label": "yilifaerr CSM 20 官方竞选稿",
+              "url": "https://forums.eveonline.com/t/yilifaerr-for-csm-20-the-voices-of-new-players-small-alliance-and-the-chinese-community/498435"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "自建三百人军团，能承担常规旗舰与重型战备投入，资产自给充裕。",
+          "sources": [
+            {
+              "label": "Your Ex's 军团资产与数据",
+              "url": "https://evewho.com/corporation/98806948"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -58,7 +133,7 @@
         "name": "yilifaer",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收yilifaerrrrrrr",
         "sources": [
-          "materials-yilifaer.md"
+          "materials-yilifaer.json"
         ],
         "zkb": {
           "kills": 243,
@@ -72,7 +147,7 @@
         "id": 2123197012,
         "name": "Yilifaer-Eli",
         "sources": [
-          "materials-yilifaer.md"
+          "materials-yilifaer.json"
         ],
         "zkb": {
           "kills": 1,

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "2129407463",
   "name": "Texas火锅",
   "url": "https://space.bilibili.com/2129407463/",
   "identity": {
     "state": "confirmed",
     "person": "texas",
-    "material": "src/people/texas/materials-texas.md",
+    "material": "src/people/texas/materials-texas.json",
     "label": "火锅",
     "evidence": [
       "本人招新帖贴此短链"
@@ -32,29 +32,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/texas/materials-texas.md"
+        "evidence": "src/people/texas/materials-texas.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID2129407463](https://space.bilibili.com/2129407463/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得21、21个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/texas/materials-texas.md"
+        "source": "src/people/texas/materials-texas.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/texas/materials-texas.md"
+        "source": "src/people/texas/materials-texas.json"
       },
       {
         "text": "[《【EVE】2024最新30s挣半月卡教程》](https://www.bilibili.com/video/BV1V66hYEEAj/)",
-        "source": "src/people/texas/materials-texas.md"
+        "source": "src/people/texas/materials-texas.json"
       },
       {
         "text": "BV1V66hYEEAj《2024最新30s挣半月卡教程》本轮滚轮超时，没有取得简介或作者文字，仍为具体未读缺口，不据标题凑数。更多本人作品补选仍在继续，当前2条不代表只有2条合适。未读影像、音频、字幕和折叠回复。",
-        "source": "src/people/texas/materials-texas.md"
+        "source": "src/people/texas/materials-texas.json"
       },
       {
         "text": "《2024最新30s挣半月卡教程》BV1V66hYEEAj恢复了元数据及简介：1807播放、reply12；简介挂文字“海凤凰KB：Phoenix Navy Issue | Zamestian Han | Killmail | zKillboard”，没有取得完整KM链接或具体教程文字。未读评论、不认0条，仍不据标题或这段链接标签推荐。下一候选沿既有最多播放入口BV1m9RFBmEnT《故土“同步器”Be Like》核作者公开回应，禁止把片名作自认作弊。未读影像、音频、字幕。",
-        "source": "src/people/texas/materials-texas.md"
+        "source": "src/people/texas/materials-texas.json"
       }
     ],
     "listings": [
@@ -234,10 +234,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "公开元数据确认 UP 为 Texas火锅；其账号投稿列表曾返回 21 条，含《Best In Pochven》《镇压PH武装农民起义！》等，标题不可当战果核验。\n\n作者Texas火锅（2129407463），简介只有“-”；页面总评论数34，未读。\n\n火锅的多开招牌在这里引出了最具体的一轮围观：有人问显卡和显存，有人追问如何锁广播，还有人感叹“玩的是同一个游戏吗”。想看“十二开起招”为什么会让人联想到上班，这篇作品和评论区正好摆出了那份操作量引发的好奇。"
       },
       "usage": {
         "body": true,
@@ -262,10 +260,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "片名拿同步器开玩笑，具体问答却落在轻拦怎么接近三百公里、对方魔像为什么不跑。火锅一句“是这样的”、一句“我也看不懂”，把操作奇观之外的战术疑问和对手反应也留给了围观者。"
       },
       "usage": {
         "body": true,
@@ -290,10 +286,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "3097播放、reply47，实际读20主线程。一江春水无处流问月卡成本，作者2026-02-06答“一小时能刷120-150e”；是其当时自述，未核收益、投入与窗口。傅里叶JW问固定窗口或窗口模式，作者答固定。观众惊叹15开、切屏如星际选手、连后勤也多开，均为旁人观察；标题“2对36”未按BR核人数，不写成已核战果。可据硬件设置答复与月卡问答荐为第3条。\n\n观众从战斗标题追问到月卡怎么养、窗口怎么摆，火锅直接答固定窗口，还报出自己的小时收益说法。这组问答把“一个人像一支队”的惊叹接回成本与操作习惯，比单看人数标题更能认识他的玩法。"
       },
       "usage": {
         "body": true,
@@ -318,9 +312,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -346,10 +337,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "1570播放、reply21，实际读16主线程。夜鸣夜语惊叹18开、半夏笙歌称钢琴大师，77j追问o-preview切屏，没有读到作者的具体答复。陌路つ熟人问是否两人各操一队友谊赛，只是提问，不当实际参赛人数与规则。传奇海帕布丁称“火锅vs邦邦”，仅作观众称呼，未给邦邦认号。文字互动归多开围观主线，具体作品信息不足，暂不作填满第5条的依据；不是质量判差。"
       },
       "usage": {
         "body": false,
@@ -374,10 +363,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "上一年的评论已经有人惊叹“十五开”，追问怎么快速切换窗口。火锅给出的答案只有“快捷键”，看这一问一答，便能明白后来十二开招新在他那里为什么像个正常门槛。"
       },
       "usage": {
         "body": true,
@@ -402,9 +389,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/texas/materials-texas.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

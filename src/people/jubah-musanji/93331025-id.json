@@ -108,7 +108,7 @@
         "id": 2114147565,
         "name": "wgdes Anzomi",
         "sources": [
-          "materials-jubah-musanji.md"
+          "materials-jubah-musanji.json"
         ],
         "zkb": {
           "kills": 718,
@@ -137,8 +137,75 @@
     "tags": [
       "00区",
       "FRT",
-      "FC",
+      "著名FC",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:25:00Z",
+      "verdict": "一万六千杀的反时区夜班门神，把蜜蜂领袖气急败坏的差评裱进简介的一线大FC。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把敌对阵营领袖被揍得气急败坏的差评裱在个人简介当勋章，反差感与嘲讽拉满。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "Jubah Musanji 角色名片与差评展示",
+              "url": "https://zkillboard.com/character/93331025/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "生涯击杀超16400次、消灭超8.6万亿，常年挂在反时区指挥席上一线搏杀，战功卓著的战神级FC。",
+          "sources": [
+            {
+              "label": "Jubah Musanji zKillboard",
+              "url": "https://zkillboard.com/character/93331025/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "拥有zKB官方FC资质认证，担任FRT欧洲反时区主力总指挥，把夜班队伍带成令洋人大盟胆寒的铁血之师。",
+          "sources": [
+            {
+              "label": "Jubah Musanji zKillboard",
+              "url": "https://zkillboard.com/character/93331025/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "深夜麦上一言九鼎的主心骨，一句牢骚加干脆调度便能把熬夜打手拢齐上船，凝聚力极其强大。",
+          "sources": [
+            {
+              "label": "Jubah Musanji 战场录像与评价",
+              "url": "https://zkillboard.com/character/93331025/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "掌管整个反时区防区作战部署，有效协调与联盟白天作战部的战略交接，是地缘防御的重要支柱。",
+          "sources": [
+            {
+              "label": "Jubah Musanji 角色档案",
+              "url": "https://zkillboard.com/character/93331025/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "长年执掌一线核心指挥获取丰厚顶层津贴，个人机库坐拥完备战列与旗舰战备，财力充裕。",
+          "sources": [
+            {
+              "label": "Jubah Musanji zKillboard",
+              "url": "https://zkillboard.com/character/93331025/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

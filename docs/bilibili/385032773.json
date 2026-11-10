@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "385032773",
   "name": "七喜想睡觉",
   "url": "https://space.bilibili.com/385032773/",
   "identity": {
     "state": "confirmed",
     "person": "genshin-impart",
-    "material": "src/people/genshin-impart/materials-genshin-impart.md",
+    "material": "src/people/genshin-impart/materials-genshin-impart.json",
     "label": "INIT七喜",
     "evidence": [
       "ES／INIT七喜GENSHIN IMPART2122335637；与PLA Han Dong分开；他人视角不算本人驾驶或个人精选"
@@ -48,7 +48,7 @@
     "prior_notes": [
       {
         "text": "频道最新与实际点击最多播放首屏已取得；最新多为其他游戏，不把115视频全算EVE。既有空间页中的EVE作品与本轮候选去重。实际读过以下作品的元数据、简介及已加载主评论线程（每页最多20，不展开楼中楼；附带回复只计可见部分），未看影像、音轨、字幕：",
-        "source": "src/people/genshin-impart/materials-genshin-impart.md"
+        "source": "src/people/genshin-impart/materials-genshin-impart.json"
       }
     ],
     "listings": [
@@ -1466,9 +1466,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/genshin-impart/materials-genshin-impart.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1494,9 +1491,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/genshin-impart/materials-genshin-impart.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1522,9 +1516,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/genshin-impart/materials-genshin-impart.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1550,9 +1541,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/genshin-impart/materials-genshin-impart.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1579,10 +1567,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/genshin-impart/materials-genshin-impart.md#bili-bv1bdayesejd"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "| [五条海无畏 BV1BdAYesEJd](https://www.bilibili.com/video/BV1BdAYesEJd/) | 9 | 2025-02-19；简介忘补电池，作者回复从无畏身上捡。入文与精选；所说视频结尾BR本轮未读，不编具体战果 |\n\n- [丸辣，五条海无畏把黑隐队包围辣](https://www.bilibili.com/video/BV1BdAYesEJd/)：忘补电池的自白与“从无畏身上捡”的补救方案，是本人的最佳说明书。\n\n### [[EVE欧服INIT华人社区]丸辣，五条海无畏把黑隐队包围辣](https://www.bilibili.com/video/BV1BdAYesEJd/)"
       },
       "usage": {
         "body": true,
@@ -1607,9 +1593,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/genshin-impart/materials-genshin-impart.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

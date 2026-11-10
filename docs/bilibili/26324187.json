@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "26324187",
   "name": "眠眠渡春",
   "url": "https://space.bilibili.com/26324187/",
   "identity": {
     "state": "confirmed",
     "person": "mianmian-duchun",
-    "material": "src/people/mianmian-duchun/materials-mianmian-duchun.md",
+    "material": "src/people/mianmian-duchun/materials-mianmian-duchun.json",
     "label": "小珈",
     "evidence": [
       "对应Tenma Gabriel White／2115958161；Hiiragi Na Na由本人损失叙事对应；最新1—2页／最多首页／合集已查，6项本人作品公开文字已读、选5项推荐"
@@ -42,13 +42,13 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/mianmian-duchun/materials-mianmian-duchun.md"
+        "evidence": "src/people/mianmian-duchun/materials-mianmian-duchun.json"
       }
     },
     "prior_notes": [
       {
         "text": "2026-10-17：119条视频，跨多个游戏；最新发布第1、2页实际读取，最多播放第1页实际点选并核选中态；合集和系列页显示未建。最新页与旧页均有本人独立EVE投稿，连同合作作品远超5项，保留B站标签。最多播放前列主要是其他游戏，不把它们当EVE代表作。",
-        "source": "src/people/mianmian-duchun/materials-mianmian-duchun.md"
+        "source": "src/people/mianmian-duchun/materials-mianmian-duchun.json"
       }
     ],
     "listings": [
@@ -1132,9 +1132,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mianmian-duchun/materials-mianmian-duchun.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1160,9 +1157,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mianmian-duchun/materials-mianmian-duchun.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1188,10 +1182,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mianmian-duchun/materials-mianmian-duchun.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人解释玩梗标题、承认失误，又在回复里补上“MJD”的迟到释义，最能看出他怎么把翻车讲成自己的故事。"
       },
       "usage": {
         "body": true,
@@ -1216,9 +1208,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mianmian-duchun/materials-mianmian-duchun.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1244,10 +1233,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mianmian-duchun/materials-mianmian-duchun.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "从作者的第一次救援，到评论区对停车、开模块和重拦能否受修的讨论，是一场有来有回的舰队课后答疑。"
       },
       "usage": {
         "body": true,
@@ -1272,10 +1259,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mianmian-duchun/materials-mianmian-duchun.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题的“好玩”与作者回复里第一波就被炸没的尴尬相互照应，熟人认队伍、UP乱答游戏名，也都很有日常气息。"
       },
       "usage": {
         "body": true,

@@ -1,27 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "25786471",
   "name": "少侠LNP",
   "url": "https://space.bilibili.com/25786471/",
   "identity": {
     "state": "confirmed",
     "person": "l-nex",
-    "material": "src/people/l-nex/materials-l-nex.md",
+    "material": "src/people/l-nex/materials-l-nex.json",
     "label": "少侠",
     "evidence": [
       "头衔“少侠”；视频所附KM即角色简介所列"
     ],
     "related": [
       {
-        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md",
+        "material": "src/battles/bwf-zz-2025/materials-bwf-zz-2025.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/ignoitton-2026/materials-ignoitton-2026.md",
+        "material": "src/battles/ignoitton-2026/materials-ignoitton-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -45,17 +45,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/l-nex/materials-l-nex.md"
+        "evidence": "src/people/l-nex/materials-l-nex.json"
       }
     },
     "prior_notes": [
       {
         "text": "## B 站“少侠LNP”（投稿 89，粉丝 581，签名“行于米德加与拉卡帕斯的裂隙之间…”）",
-        "source": "src/people/l-nex/materials-l-nex.md"
+        "source": "src/people/l-nex/materials-l-nex.json"
       },
       {
         "text": "空间84视频、2图文、5合集／系列；最新与最多播放首页各42条入口，历史页与合集内容未全读。最多播放首篇H-PA29开门约3.7万，后续高播放多为“合作”；必须逐片核owner和团队，不能把空间展示等于本人独立主讲。FF7与其他游戏不计EVE精选。",
-        "source": "src/people/l-nex/materials-l-nex.md"
+        "source": "src/people/l-nex/materials-l-nex.json"
       }
     ],
     "listings": [
@@ -687,10 +687,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/l-nex/materials-l-nex.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2025-10-13，16543，“地图是我手搓的…素材来自：RaysGames、Freak_03、bvjnj…”。\n\n作者少侠LNP，简介写手搓地图、可纠错，署RaysGames、Freak_03、bvjnj、超级无敌权限大王；观众求素材，作者称发片后已删。发表于2025-10，角色已于同年3月离开FRT；旧“还在FRT的时候”时间关系已纠正为替旧东家制作，不把视频宣传阵营等于现属。"
       },
       "usage": {
         "body": true,
@@ -715,10 +713,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/l-nex/materials-l-nex.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "“舰船制造by Cheryl Astelir”（见[折纸](../../src/people/cheryl-astelir/cheryl-astelir.md)）。"
       },
       "usage": {
         "body": false,
@@ -743,10 +739,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/l-nex/materials-l-nex.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者少侠LNP；简介谢DoomS89 Arkaral和yunnnnn提供机会，4个选集Molok、Vanquisher、Komodo、Ragnarok。作者回复坐在目标船右键可重看动画，解释模型／光效／镜头与星城衔接；不把四艘船归为少侠资产，不评价未看的画面。"
       },
       "usage": {
         "body": false,
@@ -771,9 +765,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/l-nex/materials-l-nex.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -799,11 +790,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/l-nex/materials-l-nex.md",
-          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题将旗舰战和“星舰坟场”并置，给这场反bait战役留下了鲜明的战场入口。\n\n标题写IN-FJ8（即1N-FJ8）反bait旗舰战，投稿日当天。\n\n（少侠LNP）：标题把这场称作价值18万亿的星舰坟场，从反bait旗舰战角度切入。"
       },
       "usage": {
         "body": false,
@@ -828,11 +816,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/l-nex/materials-l-nex.md",
-          "src/battles/bwf-zz-2025/materials-bwf-zz-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "从宣战到星城攻防，题目覆盖一场结构战的前后脉络，是频道记录联盟冲突的代表题材。\n\n（少侠LNP）：标题写“向四大联盟宣战”的BWF-ZZ星城攻防战。"
       },
       "usage": {
         "body": false,

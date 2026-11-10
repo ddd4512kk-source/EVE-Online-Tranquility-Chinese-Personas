@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "94609129",
   "name": "黑珍珠号-不懒",
   "url": "https://space.bilibili.com/94609129/",
   "identity": {
     "state": "confirmed",
     "person": "bulanbulan",
-    "material": "src/people/bulanbulan/materials-bulanbulan.md",
+    "material": "src/people/bulanbulan/materials-bulanbulan.json",
     "label": "不懒",
     "evidence": [
       "标题写“不懒视角”，角色名为拼音"
@@ -42,33 +42,33 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/bulanbulan/materials-bulanbulan.md"
+        "evidence": "src/people/bulanbulan/materials-bulanbulan.json"
       }
     },
     "prior_notes": [
       {
         "text": "B 站 [黑珍珠号-不懒（mid 94609129）](https://space.bilibili.com/94609129)：签名“EVE欧服海盗散打，不懒（勤快开组）”，附黑珍珠群号；视频标题多次写“不懒视角”“不懒截击视角”。角色名 bulanbulan 即“不懒不懒”拼音。",
-        "source": "src/people/bulanbulan/materials-bulanbulan.md"
+        "source": "src/people/bulanbulan/materials-bulanbulan.json"
       },
       {
         "text": "B站历史分页／合集仍有未读；“第一次口播”已核为奥拉蛋上传、不懒参演的合作作品，公开文字与互动见后文，不读影像、字幕或音频。",
-        "source": "src/people/bulanbulan/materials-bulanbulan.md"
+        "source": "src/people/bulanbulan/materials-bulanbulan.json"
       },
       {
         "text": "[本人空间UID94609129](https://space.bilibili.com/94609129/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/bulanbulan/materials-bulanbulan.md"
+        "source": "src/people/bulanbulan/materials-bulanbulan.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/bulanbulan/materials-bulanbulan.md"
+        "source": "src/people/bulanbulan/materials-bulanbulan.json"
       },
       {
         "text": "追加候选[《小队散打深度探讨第三期｜单人后勤（后勤必备）》BV1DmkZB9EiR](https://www.bilibili.com/video/BV1DmkZB9EiR/)已完成一次读取：本人UID94609129，2025-11-10发布，27:36，1239播放，页面回复计数5；实际读3个主线程及直接可见内容，未展开其余楼中楼。简介仅给[原作mv1kwD0U0IM](https://youtu.be/mv1kwD0U0IM)，没有作者署名或本人翻译／加工说明。该篇收在“EVE教程研讨课”4篇合集中，不能因与走位第一期同合集就推定本篇也由他加字幕。",
-        "source": "src/people/bulanbulan/materials-bulanbulan.md"
+        "source": "src/people/bulanbulan/materials-bulanbulan.json"
       },
       {
         "text": "本轮5条精选已补齐，具体候选扩大至10篇。单人后勤未入选的实际文字与本人点赞故事照留，不将它判为质量差。历史分页、其他合集及日记仍有一般覆盖缺口，未读不代表不合适；已有双排序、本人创作／中文整理和实战日记均已纳入本次取舍，不再为凑数追加评论、原片、字幕、音频、BR或KM。",
-        "source": "src/people/bulanbulan/materials-bulanbulan.md"
+        "source": "src/people/bulanbulan/materials-bulanbulan.json"
       }
     ],
     "listings": [
@@ -759,15 +759,15 @@
         "replies": 20
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????7????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [马克瑞Solo](https://www.bilibili.com/video/BV1i8ti6iEiw/)：原作者Nanobrain_EVE，wOkUTJmVcWE，原题Mostly Solo Machariel。本人配文常威打来福，面对“你怎么还变素材”接梗，另答将出教材；新增本人回应故事，不推断他开哪船或具体损失。不因作为素材就认合作创作，本轮不列本人精选。"
       },
       "usage": {
         "body": true,
@@ -787,15 +787,15 @@
         "replies": 10
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????0???????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "此前候选偏重教程、外网整理与其加工归属，漏掉了已经取得入口的本人实战日记；不能把没有额外教学或独立评论故事当作实战作品不合格。补核[《黑珍珠散打小队｜C-J遭遇战（不懒视角）》BV1cFbC6PEET](https://www.bilibili.com/video/BV1cFbC6PEET/)公开元数据：作者为本人UID94609129，标题明确本人视角，时长3:19，486播放、回复计数10。简介写“欢迎加入黑珍珠号群，游戏频道搜索 黑珍珠号”“以后会持续更新该系列，记录一下日常散打”。依此收为第5条本人实战推荐，理由是C-J遭遇战的本人记录及持续更新的日记主题，不依赖热度或额外教学。该页评论未读，缓存空评论数组不代表没有评论；未看影像、字幕或音频，不增写战术、战果和制作质量。"
       },
       "usage": {
         "body": false,
@@ -820,7 +820,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -841,15 +840,15 @@
         "replies": 13
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????8????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "作者附BR，答电子战分工和配置问题，又谈参加AT的人手、时区难处；从一场遭遇战接到团队日常，内容更具体。"
       },
       "usage": {
         "body": true,
@@ -869,15 +868,15 @@
         "replies": 5
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????3????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "原作b2avXYLfNqo、Fenrir Chainbreaker，未见额外本人加工，不选，具体事迹仍留来源。"
       },
       "usage": {
         "body": false,
@@ -897,15 +896,15 @@
         "replies": 71
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????20????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "（2025-11-15，5058 播放，频道最高）；第 1 页未见 02 期。"
       },
       "usage": {
         "body": true,
@@ -925,15 +924,15 @@
         "replies": 5
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????3????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "追加候选[《小队散打深度探讨第三期｜单人后勤（后勤必备）》BV1DmkZB9EiR](https://www.bilibili.com/video/BV1DmkZB9EiR/)已完成一次读取：本人UID94609129，2025-11-10发布，27:36，1239播放，页面回复计数5；实际读3个主线程及直接可见内容，未展开其余楼中楼。简介仅给[原作mv1kwD0U0IM](https://youtu.be/mv1kwD0U0IM)，没有作者署名或本人翻译／加工说明。该篇收在“EVE教程研讨课”4篇合集中，不能因与走位第一期同合集就推定本篇也由他加字幕。"
       },
       "usage": {
         "body": true,
@@ -953,15 +952,15 @@
         "replies": 9
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????7????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [小队走位第一期](https://www.bilibili.com/video/BV11CkSBsEb1/)：简介给原作sP0hYYK3Tc8，称“更新了高清加字幕”；7个已读主线程中，有人问Q变换方向，有人指五月の园游会已有汉化，也有“干货”“好东西”等反应。按本人频道公开说明收为中文教材整理／译介推荐，保留外网原作链接；不认原片是本人创作，不冒称字幕由他亲译，不评价字幕质量，也未读字幕。旧版已有汉化不等于这次高清加字幕整理无价值，原作来自外网本身也不作为排除理由。\n\n- [《小队散打深度探讨第一期｜小队PVP走位（截击必备）》](https://www.bilibili.com/video/BV11CkSBsEb1/)：简介明确补高清、加字幕，并附[外网原作](https://youtu.be/sP0hYYK3Tc8)；评论从Q变向问到旧版汉化，适合作为他给中文散打圈整理的教材入口。"
       },
       "usage": {
         "body": true,
@@ -981,15 +980,15 @@
         "replies": 4
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????3????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介自嘲低强度；本人评论公开欢迎FC自行起队、新人提问、各势力招新官、老板出资雇佣，属于组织自述，不认有实际已兑现雇佣合同。奥拉蛋赞其走位与本人回应，只写互捧，不替作品质量背书。\n\n本人视角之外，公开评论把不加团、自由起队、欢迎新人和招新官的规矩讲得很明白；能读到黑珍珠怎样组织人。"
       },
       "usage": {
         "body": true,
@@ -1009,15 +1008,15 @@
         "replies": 4
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "???UID???????????????????????????????????????????"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/bulanbulan/materials-bulanbulan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "?????3????????????????????????????????????????????",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [海神视角](https://www.bilibili.com/video/BV18z2cBBEx9/)：简介只有HFa8S5vfLqQ原片，读者要求补作者名，另嫌画面糊，本人说马上改进。不能与其他评论提到“上次讲海神”强行认同一教材，不列本人精选。"
       },
       "usage": {
         "body": false,

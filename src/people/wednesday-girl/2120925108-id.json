@@ -55,7 +55,74 @@
     "tags": [
       "B站",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:50:00Z",
+      "verdict": "手操九十号秒速压矿的工业奇人，开着巡洋与黑隐也能打满泰坦决战，消灭数万亿资产。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "列传未见超出日常整活的出格事迹，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://www.bilibili.com/video/BV11MT46TE4w/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号与星期三累计消灭超 7.6 万亿 ISK，年均达 2.07 万亿达战神线；四千余次击杀且打满 1N-FJ8 黑色星期五泰坦决战，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "Wednesday girl zKillboard",
+              "url": "https://zkillboard.com/character/2120925108/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "列传记录小队带队、教官指导或部门协调职责，评 C。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://www.bilibili.com/video/BV18d3t6ZEJY/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "列传记录稳定的军团内支持、粉丝或骨干影响，评 C。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://www.bilibili.com/video/BV1cBNBzzEX7/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "列传未见高层利益协调或组织管理，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://www.bilibili.com/video/BV11MT46TE4w/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "九十开手工多开采矿生产，以47秒压缩90号矿闻名，远超十二开生产硬底线，全服罕见的超大规模矿工与工业奇人，评 S。",
+          "sources": [
+            {
+              "label": "47秒压90号矿视频",
+              "url": "https://www.bilibili.com/video/BV11MT46TE4w/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

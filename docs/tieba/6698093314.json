@@ -4,9 +4,9 @@
   "url": "https://tieba.baidu.com/p/6698093314",
   "title": "这贴吧全是小学生吵架贴@这个！@那个！跟这个对线跟那个对战，",
   "references": [
-    "docs/leads/tieba-short-disputes-replies.md",
+    "docs/leads/tieba-short-disputes-replies.json",
     "docs/shared-sources.md",
-    "src/people/noraus/materials-noraus.md",
+    "src/people/noraus/materials-noraus.json",
     "src/people/noraus/noraus.md"
   ],
   "legacy_records": [
@@ -14,7 +14,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6698093314",
-        "初始引用文件": "docs/shared-sources.md;src/people/noraus/materials-noraus.md;src/people/noraus/noraus.md",
+        "初始引用文件": "docs/shared-sources.md;src/people/noraus/materials-noraus.json;src/people/noraus/noraus.md",
         "首尾状态": "首尾已取",
         "接口回复数": "31",
         "主楼总页数": "1",

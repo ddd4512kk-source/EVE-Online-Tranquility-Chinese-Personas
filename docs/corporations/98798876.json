@@ -21,7 +21,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98798876.md"
+        "docs/corporations/notes/member-research/98798876.json"
       ],
       "entries": [
         {
@@ -640,7 +640,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98798876.md"
+        "docs/corporations/notes/member-research/98798876.json"
       ],
       "entries": [
         {
@@ -1245,7 +1245,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "23",
         "alliance": "Deepwater Hooligans",
@@ -1256,15 +1256,15 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-16",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "Cyan nomi / 2122229391",
-        "prior_finding": "已收录创建者兼CEO；[人物素材](../../../src/people/cyan-nomi/materials-cyan-nomi.md)"
+        "prior_finding": "已收录创建者兼CEO；[人物素材](../../../src/people/cyan-nomi/materials-cyan-nomi.json)"
       }
     }
   ],
   "references": [
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98798876.md"
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98798876.json"
   ]
 }

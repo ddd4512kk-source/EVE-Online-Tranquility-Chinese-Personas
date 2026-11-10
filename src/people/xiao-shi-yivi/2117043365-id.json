@@ -136,6 +136,77 @@
     "epithet": "名叫十亿，出团盖了三枚章。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:33:00Z",
+      "verdict": "因泄密被玉麒麟发通报逐出的争议成员，转战B站录远征教学与单机教程，以“不会安装”的坦率在新手区自成一派。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "因跨区传送军团情报荣登玉麒麟1号处罚通告被开除，转头录单机从入门到入土教程却坦言自己不会安装。",
+          "sources": [
+            {
+              "label": "玉宣1号处分通告",
+              "url": "https://tieba.baidu.com/p/8923985161"
+            },
+            {
+              "label": "单机版教程评论区自述",
+              "url": "https://www.bilibili.com/video/BV1WfHH6ZEw1/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "主要从事10-10远征与高安刷怪，缺乏一线大型PVP高光记录。",
+          "sources": [
+            {
+              "label": "10-10远征教学录像",
+              "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "无舰队指挥经历，仅在视频中指导群友走位与跳刀技巧。",
+          "sources": [
+            {
+              "label": "远征教学讲解",
+              "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "授课风格朴实直白，在小圈子内答疑热心，但因泄密前科在联盟圈声誉受损。",
+          "sources": [
+            {
+              "label": "教学视频互动评论",
+              "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "E",
+          "reason": "因私传高零安信息遭联盟外交与执委会三方公文开除，毫无政治敏感度。",
+          "sources": [
+            {
+              "label": "玉宣1号通告细节",
+              "url": "https://tieba.baidu.com/p/8923985161"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "常开帕拉丁掠夺舰速刷远征，经济水平自给自足。",
+          "sources": [
+            {
+              "label": "帕拉丁刷怪配置说明",
+              "url": "https://www.bilibili.com/video/BV1HWh7zUEDF/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

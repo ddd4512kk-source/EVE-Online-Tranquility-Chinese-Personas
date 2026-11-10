@@ -38,7 +38,7 @@
           ],
           "portrait": "tb.1.ef6028a5.6-gp_KTCsdCxP3qh_wSPpw",
           "sources": [
-            "materials-murphy222.md"
+            "materials-murphy222.json"
           ]
         }
       ]
@@ -64,6 +64,81 @@
       "00区",
       "FRT",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:35:00Z",
+      "verdict": "欧服华人社区最用心的民间史官，以真诚求教的姿态编撰新伊甸往事年表，在浩瀚宇宙中为普通玩家书写记忆。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "简介把never again拼错成never agagin，编年史引用红楼梦与三国演义，发帖谦逊求教喵喵叫，幽默真实。",
+          "sources": [
+            {
+              "label": "角色简介英文错词",
+              "url": "https://esi.evetech.net/latest/characters/2117806220/"
+            },
+            {
+              "label": "论坛新伊甸往事回忆录长文",
+              "url": "https://forums.winterco.org/t/topic/25836"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "日常参与千人会战与前线CTA，击杀千余次，常备主力战列与特种战舰出勤。",
+          "sources": [
+            {
+              "label": "出战与击杀统计",
+              "url": "https://zkillboard.com/character/2117806220/"
+            },
+            {
+              "label": "艾蒂斯战场视频实录",
+              "url": "https://www.bilibili.com/video/BV1ncD7BVEzj/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "一线按F1的常规战斗员与战地记录者，不参与舰队宏观指挥调度。",
+          "sources": [
+            {
+              "label": "四年老兵自述只会按F1",
+              "url": "https://tieba.baidu.com/p/9071548625"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站知名文化UP主，以极其真诚的修史态度打动老玩家，产出广受社区珍视的二十年大事纪。",
+          "sources": [
+            {
+              "label": "简陋EVE编年史视频",
+              "url": "https://www.bilibili.com/video/BV1eT2uBaEPQ/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "始终立足于民间观察与历史记录，刻意与联盟高层政治保持距离。",
+          "sources": [
+            {
+              "label": "回忆录开篇声明普通玩家身份",
+              "url": "https://forums.winterco.org/t/topic/25836"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "常年刷十五人故土与00高级异常，日入十亿，自备主力战舰与旗舰资产。",
+          "sources": [
+            {
+              "label": "故土刷怪日入十亿自述",
+              "url": "https://tieba.baidu.com/p/9071548625"
+            }
+          ]
+        }
+      }
+    }
   }
 }

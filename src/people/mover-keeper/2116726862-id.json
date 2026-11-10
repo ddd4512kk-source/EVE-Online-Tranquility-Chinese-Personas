@@ -54,7 +54,74 @@
       "FRT",
       "CEO",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "奏表求更新，眼前的仗自己带。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "奏表催更与自荐运输都是正常趣味。",
+          "sources": [
+            {
+              "label": "凛冬论坛催更奏表",
+              "url": "https://forums.winterco.org/t/topic/13601"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三号主力均过百击杀，合计六千余，资深多号实战。",
+          "sources": [
+            {
+              "label": "出战与击杀统计",
+              "url": "https://zkillboard.com/character/2116726862/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "长期凛冬主力FC，二十五个监视者日期辅助印证。",
+          "sources": [
+            {
+              "label": "运输与指挥经历自述",
+              "url": "https://forums.winterco.org/t/topic/13601"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "凤凰城经营与长期带队形成跨团队追随。",
+          "sources": [
+            {
+              "label": "论坛奏表讨论",
+              "url": "https://forums.winterco.org/t/topic/13601"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期大型军团凤凰城CEO，承担组织和后勤。",
+          "sources": [
+            {
+              "label": "论坛奏表君臣劝诫论述",
+              "url": "https://forums.winterco.org/t/topic/13601"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "三个确认活跃号均过百击杀，按多号经营A。",
+          "sources": [
+            {
+              "label": "后勤运输业务记录",
+              "url": "https://forums.winterco.org/t/topic/13601"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -64,7 +131,7 @@
         "name": "mover keper",
         "basis": "同词根、同凤凰城及漫步星海头衔",
         "sources": [
-          "materials-mover-keeper.md"
+          "materials-mover-keeper.json"
         ],
         "zkb": {
           "kills": 843,
@@ -79,7 +146,7 @@
         "name": "mover kpr",
         "basis": "同词根、同凤凰城及漫步星海头衔",
         "sources": [
-          "materials-mover-keeper.md"
+          "materials-mover-keeper.json"
         ],
         "zkb": {
           "kills": 1041,
@@ -94,7 +161,7 @@
         "name": "mover faxer",
         "basis": "同词根、同凤凰城及漫步星海头衔",
         "sources": [
-          "materials-mover-keeper.md"
+          "materials-mover-keeper.json"
         ],
         "zkb": {
           "kills": 30,

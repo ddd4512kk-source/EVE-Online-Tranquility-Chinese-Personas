@@ -6,17 +6,17 @@
   "references": [
     "docs/tieba-review-2026-10-10.md",
     "src/people/godhand-kk/godhand-kk.md",
-    "src/people/godhand-kk/materials-godhand-kk.md",
+    "src/people/godhand-kk/materials-godhand-kk.json",
     "src/people/mack-itinen/mack-itinen.md",
-    "src/people/mack-itinen/materials-mack-itinen.md",
-    "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md"
+    "src/people/mack-itinen/materials-mack-itinen.json",
+    "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7075391049",
-        "初始引用文件": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.md",
+        "初始引用文件": "src/people/treenewbee-ribbons/materials-treenewbee-ribbons.json",
         "首尾状态": "首尾已取",
         "接口回复数": "359",
         "主楼总页数": "7",

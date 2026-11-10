@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "908550",
   "name": "WZ_______-",
   "url": "https://space.bilibili.com/908550/",
   "identity": {
     "state": "source",
     "person": null,
-    "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+    "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.json",
     "label": "战役相关视频投稿者；本人未对应",
     "evidence": [
       "投稿BV1Rp4y1r7uY，列为yz9-f6-2020相关视频"
@@ -57,10 +57,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "B站搜索所得；投稿日2020-10-15，简介附br.evetools战报与r/Eve上Operation ENHO的战后总结\n\n（WZ_______-）：简介记录玻色泰坦出场的时间点，并转引Asher战后总结对伤害未充分生效的解释，可对照帝国方的作战记录。"
       },
       "usage": {
         "body": false,

@@ -5,8 +5,8 @@
   "title": "这里是北上直播间，回答新人的所有问题『狮子:喵』",
   "references": [
     "src/people/kitakamile-l/kitakamile-l.md",
-    "src/people/kitakamile-l/materials-kitakamile-l.md",
-    "src/people/yun-sen/materials-yun-sen.md",
+    "src/people/kitakamile-l/materials-kitakamile-l.json",
+    "src/people/yun-sen/materials-yun-sen.json",
     "src/people/yun-sen/yun-sen.md"
   ],
   "legacy_records": [
@@ -14,7 +14,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7194767243",
-        "初始引用文件": "src/people/kitakamile-l/kitakamile-l.md;src/people/kitakamile-l/materials-kitakamile-l.md;src/people/yun-sen/materials-yun-sen.md;src/people/yun-sen/yun-sen.md",
+        "初始引用文件": "src/people/kitakamile-l/kitakamile-l.md;src/people/kitakamile-l/materials-kitakamile-l.json;src/people/yun-sen/materials-yun-sen.json;src/people/yun-sen/yun-sen.md",
         "首尾状态": "首尾已取",
         "接口回复数": "92",
         "主楼总页数": "2",

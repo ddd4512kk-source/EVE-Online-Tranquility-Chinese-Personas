@@ -127,6 +127,73 @@
       "FRT",
       "CEO",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "泡泡留人，规矩也想把人留住。",
+      "axes": {
+        "shenren": {
+          "tier": "E",
+          "reason": "冲突中明确要求互尊、禁歧视并处理冒犯，符合克制E。",
+          "sources": [
+            {
+              "label": "吃瓜军团芙水之乱事件总结",
+              "url": "https://tieba.baidu.com/p/10721169361"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "四千余击杀、近百Solo，资深泡泡与战列实战。",
+          "sources": [
+            {
+              "label": "Nine L zKillboard",
+              "url": "https://zkillboard.com/character/2115444624/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "处理禁言和纠纷不等于舰队指挥。",
+          "sources": [
+            {
+              "label": "Nine -L zKillboard",
+              "url": "https://zkillboard.com/character/2115444624/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期吃瓜管理与成员认可，具团队号召。",
+          "sources": [
+            {
+              "label": "吃瓜军团芙水之乱事件总结",
+              "url": "https://tieba.baidu.com/p/10721169361"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期核心总监后任吃瓜CEO，属大团高层。",
+          "sources": [
+            {
+              "label": "吃瓜军团芙水之乱事件总结",
+              "url": "https://tieba.baidu.com/p/10721169361"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "现有常规战备与管理记录只支持资源有余。",
+          "sources": [
+            {
+              "label": "Nine L zKillboard",
+              "url": "https://zkillboard.com/character/2115444624/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -38,11 +38,11 @@
     },
     "battles": {
       "status": "not-applicable",
-      "note": "复查卡片显示本地战役关联为0；联盟赛在独立服务器、zKill不收录，不能当参战记录，正文只写组织与解说。",
+      "note": "复查卡片显示本地战役关联为0；联盟赛为专设封闭赛场、无本人选手上场记录，不能当参战记录，正文只写组织与解说。",
       "evidence": [
         {
           "file": "src/people/kei-hazard/materials-kei-hazard.md",
-          "contains": "AT 在独立赛事服务器进行"
+          "contains": "AT 在专设封闭赛场星系进行"
         }
       ]
     },

@@ -1,27 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "199957503",
   "name": "青春的工作室",
   "url": "https://space.bilibili.com/199957503/",
   "identity": {
     "state": "confirmed",
     "person": "jason-yusi",
-    "material": "src/people/jason-yusi/materials-jason-yusi.md",
+    "material": "src/people/jason-yusi/materials-jason-yusi.json",
     "label": "青春",
     "evidence": [
       "角色简介署名"
     ],
     "related": [
       {
-        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+        "material": "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.json",
         "label": "日期候选的核读与排除依据"
       }
     ]
@@ -807,10 +807,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（青春的工作室）：无畏视角的会战纪实，标题注明10.4。"
       },
       "usage": {
         "body": false,
@@ -835,10 +833,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（青春的工作室）：蜜蜂一侧Kiki视角，标题把这场叫作“917破伞行动”。"
       },
       "usage": {
         "body": false,
@@ -863,11 +859,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "- BV1odu26XE1a“我的无畏才买了10分钟”：完整简介两张KM已实际读取，[137591271](https://zkillboard.com/kill/137591271/)为2026-08-09 10:04 UTC、ZA0L-U的FRT凤凰海军型；[137591924](https://zkillboard.com/kill/137591924/)为同日10:29、YMJG-4的Ark跳货，均在伏尔戈。明确是另场抓船，不与6Q无畏会战混配。"
       },
       "usage": {
         "body": false,

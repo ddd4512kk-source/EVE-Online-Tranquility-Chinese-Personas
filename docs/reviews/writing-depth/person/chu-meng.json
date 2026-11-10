@@ -1,0 +1,88 @@
+{
+  "status": "reviewed",
+  "note": "三项核读通过；独立重料事件暂缺。",
+  "evidence": [
+    "src/people/chu-meng/materials-chu-meng.json",
+    "src/people/chu-meng/chu-meng.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐段核对开篇、战斗画像、管理职责和评语；简介精选战果三件均有来源，8F-TK3与官网任职、政策规则均能回到正式素材。未把收藏列表其余KM、Monitor零命中或常规会战过度转成个人战功。未采用材料未见未展开的独立重料。",
+      "evidence": [
+        {
+          "file": "src/people/chu-meng/materials-chu-meng.json",
+          "heading": "## 个人简介战果的本人参与核对"
+        },
+        {
+          "file": "src/people/chu-meng/materials-chu-meng.json",
+          "heading": "## 六场已有战役的参战范围"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "本篇没有独立已核实的重型黑料或单一冲突事件；管理任职与普通战斗参与支撑人物定位，但不能拔高成管理事故。",
+      "evidence": [
+        {
+          "file": "src/people/chu-meng/materials-chu-meng.json",
+          "heading": "## 公开社区检索与未取得范围"
+        }
+      ],
+      "items": [],
+      "noHeavyReason": "现有来源支持股东与战斗总监职责、长期PVP画像和数场参战，并无具体冲突、滥权或管理失误事件可立为heavy；未把常规击杀、简介收藏和本人无畏损失误判为黑料。"
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "战斗画像位于开篇后独立红料块且三段约占全文一半，另以职责红料展开组织权责与战斗部门工作，评语回扣两条主线。虽然没有社区冲突黑料，已收录的管理身份和战斗经历均有正文分量，不再以经历清单替代点评。",
+      "evidence": [
+        {
+          "file": "src/people/chu-meng/chu-meng.md",
+          "contains": "初梦的简介像猎物陈列室，官网像值班表"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/member-research/98755298.json",
+    "docs/leads/fpsless-guo.json",
+    "docs/sources/foxor-management-2026-10-15.json",
+    "src/people/chu-meng/2116299695-id.json",
+    "src/people/chu-meng/chu-meng.md",
+    "src/people/chu-meng/materials-chu-meng.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.json",
+    "src/battles/y-2ano-2020/y-2ano-2020.md",
+    "src/battles/y-2ano-2020/materials-y-2ano-2020.json"
+  ],
+  "inputs": "4b71ec7c50f5ae53d253f95c029db2707ef0aca6f16c13d5ed567f5d52ffd0df",
+  "inputParts": {
+    "docs/corporations/notes/member-research/98755298.json": "247ee7cec08fe0bad112fd4dde9d77fa560e23a48b31104f52cd31f67147b661",
+    "docs/leads/fpsless-guo.json": "7b4603142fb968ac5fa94fba0eed19da45e5a64e2e9788e70298cfbf45aff24c",
+    "docs/sources/foxor-management-2026-10-15.json": "292fceb9e9a4003fb70dadf58b13c492750e134a17bf2e3b17bb4581c4528f0f",
+    "src/people/chu-meng/2116299695-id.json": "0c8d7826c89106601685195f74af12ec931b9a7e8ffc9c536e5149b1d5c3b23e",
+    "src/people/chu-meng/chu-meng.md": "a6f7e3914618b3c45d04750326ead886151b41a5a203913c48ca7ec163dcd868",
+    "src/people/chu-meng/materials-chu-meng.json": "33bdba64a16ed4683c529392bb4074c51cfd5396e6137ea7a78c3dda54ce7526",
+    "battle:4-hwwf-8tpx-n-2026": "01026a6005b463b206dab18c8f5d8f29293a08e4ec2bc07c4fc7deb778b9c1e0",
+    "battle:8f-tk3-2026": "b45fbdcacc54b415d3bb7de1a013d673581d5ebf8f792b7f2881e6183e487b9f",
+    "battle:bwf-zz-2025": "4126da49fad7524103ebdd1337cf415aab2660204f8b06b8bcc8c8a8a0956fbc",
+    "battle:lj-ysw-2024": "58d596a29ced26bc5500f11ce192cf8f84572ac40f461079905e7acd85d5e3d6",
+    "battle:r-ag7w-2025": "f67b5b2f808333285774276dcadce1dd337b615786beb42acdcfd111a9d42513",
+    "battle:y-2ano-2020": "76182bb1c2692396317a7242578e5352d499722033eeaea084b6bb37a4ba91de"
+  },
+  "level": 1
+}

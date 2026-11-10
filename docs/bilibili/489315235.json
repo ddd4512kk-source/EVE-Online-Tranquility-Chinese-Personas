@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "489315235",
   "name": "MSG-Mashimaro曲馨",
   "url": "https://space.bilibili.com/489315235/",
   "identity": {
     "state": "confirmed",
     "person": "msg-mashimaro",
-    "material": "src/people/msg-mashimaro/materials-msg-mashimaro.md",
+    "material": "src/people/msg-mashimaro/materials-msg-mashimaro.json",
     "label": "曲馨",
     "evidence": [
       "对应MSG-MashiMaro／2122590961；明确角色对应，公开文字已归本人素材"
     ],
     "related": [
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -47,13 +47,13 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/msg-mashimaro/materials-msg-mashimaro.md"
+        "evidence": "src/people/msg-mashimaro/materials-msg-mashimaro.json"
       }
     },
     "prior_notes": [
       {
         "text": "频道最新发布／实际点击最多播放首屏已经取得并核候选，系列信息结合首页和作品页目录；未逐合集翻页。以下已读元数据、简介，每页实际阅读最多前10主评论线程与附带可见回复；不把取得数冒充完整阅读数。没有展开全部楼中楼，没有读影像、音轨或字幕，推荐依据只用公开文字；评论的视听评价不当本站评测。未见公开联合署名者按本人投稿，出现他人素材或视角时另列边界。",
-        "source": "src/people/msg-mashimaro/materials-msg-mashimaro.md"
+        "source": "src/people/msg-mashimaro/materials-msg-mashimaro.json"
       }
     ],
     "listings": [
@@ -1064,9 +1064,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1093,10 +1090,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md#bili-bv1mfab6zerz"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "- [第十三期：狂怒、毒蜥、伊什塔规划](https://www.bilibili.com/video/BV1MFaB6zErZ/)：简介直接给三条船定位，尤其保留低成本与摸鱼这条老玩家思路。\n\n### [第十三期~【2026EVE欧服】新手教程~舰船规划【萌新PVE刷怪路线伴随终身的三只神船 狂怒 毒蜥 YST】](https://www.bilibili.com/video/BV1MFaB6zErZ/)"
       },
       "usage": {
         "body": true,
@@ -1121,7 +1116,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1147,7 +1141,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1173,7 +1166,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1200,10 +1192,8 @@
       "reading": {
         "state": "digested",
         "reviewed_at": "2026-10-22",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md#bili-bv1fq3bzheeh"
-        ],
-        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。"
+        "scope": "本轮公开简介、前3主评论与直接可见作者回复；既有素材的其他阅读范围保留，未展开其余回复。",
+        "digest": "第一期从2025年持续到2026年处理中文路径、启动器、建号等问题；手游被海盗骗组队的是观众经历，作者只给建议。第九期方法优先于指定异常；第十三期简介逐项写狂怒成本抗、毒蜥、YST摸鱼定位；第十六期走向PVP职责。扫描六分钟BV1fQ3BzHEEh明确感谢红楼幻想大酱提供，不作曲馨独立精选；YST篇写她用了2YST，记录他人演示线索，暂不作本人独立视角。软件推荐篇无公开工具名、正文可用细节不足，留来源不精选。七候选四项入精选，排除或暂缓的理由具体如上；不能把投稿总数当本人独立教程数。\n\n### [【EVE欧服】-【萌新扫描教学】-【花6分钟让你化身扫描超人】](https://www.bilibili.com/video/BV1fQ3BzHEEh/)"
       },
       "usage": {
         "body": false,
@@ -1228,9 +1218,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/msg-mashimaro/materials-msg-mashimaro.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1256,14 +1243,147 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（MSG-Mashimaro曲馨）：进攻方的“狂怒大闯关”。简介明确记录4月25日至26日的4-H行动，从小船队闯关的角度补充攻坚过程。"
       },
       "usage": {
         "body": false,
         "selected": false
+      }
+    },
+    {
+      "bvid": "BV12davzCEVk",
+      "title": "酱油3期-【EVE欧服】-【萌新！上课了！上课了！搬了些有趣是视频】-我得弄点什么好给萌新发补助！~",
+      "url": "https://www.bilibili.com/video/BV12davzCEVk/",
+      "owner_uid": "489315235",
+      "published_at": "2025-09-06T03:04:04.000Z",
+      "captured_at": "2026-11-08T16:54:00.772Z",
+      "description": "PS：欢迎萌新/AFK回归/老屁股……加入我们一起玩耍，我们军团的招新&萌新交流&教学群：1043957459",
+      "stats": {
+        "views": 4262,
+        "replies": 14
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取完整简介及评论API首屏3个主线程和可见回复；未翻页或展开楼中楼，未看影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:57:29.000Z",
+        "digest": "简介是面向萌新招募与交流的群组欢迎信息。评论首屏谈到目标信号、感应与锁定距离等机制，也有玩笑和补充说明，并称中文翻译不错；这些是观众发言，不能证明作品讲了哪些操作或上传者本人进行了何种游戏活动。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1MSE26cEYN",
+      "title": "第一期前置~【2026EVE欧服始源星系】新手教程~1前置【关于新版本的高安新手区始源星系对于新人来说？】：如果我玩EVE的时候也有妹子新手教官的话",
+      "url": "https://www.bilibili.com/video/BV1MSE26cEYN/",
+      "owner_uid": "489315235",
+      "published_at": "2026-06-09T14:27:10.000Z",
+      "captured_at": "2026-11-08T16:53:40.285Z",
+      "description": "丧总出门吃好吃的了！！！只能卑微自己录了！！！\n\nOK~我们第一时间创建了一个小号。\n来查看这次始源星系的设立对我们之前的新手前期教程是否存在影响。\n我得出了以下几个结论。\n1. 我查看了对应的这个新的市场，应该NPC存在铺了一些基础货物，以及一些老玩家应该是提前铺设了一些东西，总的来看，相比吉他，商品不全，物价相对偏高，目前来看这里会形成一个和吉他一样的市场的概率不大。\n2. 它将五个职业代理人的任务原原本本完整的移植到了这个新手星系里面，也就是B站合集对应的第一期到第四期所涉及的内容，那么我的建议是，请一定务必辛苦在完成这一系列的任务后，再选择离开这个地方。否则回头再做将需要更多的时间成本投入！\n3. 如图所示，在这4个地方，会有一个一次性的传送门供你选择，我建议你在做完五个职业代理人任务后选择右上角蓝色这个点位的传送门传送，因为这离吉他市场最近，这很棒，我们再也不用为了离市场近而选择加达里的，经过测试不管你选的四大帝国是那个，你都可以通过这里选择传送。同时，我会实操一遍如何使用这个传送门。\n4. 虽然这里面是100%绝对安全，但是为什么不建议更多的逗留？因为这里面的收益非常低！非常低！非常低！在你完成了5个职业代理人任务后，这里将变的毫无意义。\n5. 现在新人的发展路线变的更加明确，在过完剧情后，请先完成新手教学的5个职业代理人任务，通过这些任务你将能够熟悉基础的游戏知识，而后通过塔特里斯的传送门，赶往吉他，购买船只，出发做血染之星，在血染倒数第三个任务的时候寻找买家并出售后获取启动资金。然后你就可以开始进行更深入的其他玩法了~",
+      "stats": {
+        "views": 4473,
+        "replies": 25
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取完整简介及评论API首屏3个主线程和可见回复；未翻页或展开楼中楼，未看影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:57:29.000Z",
+        "digest": "上传者称自己建小号测试始源星系，并归纳市场供给与价格、五组职业代理人任务、离开路径、安全性与收益、后续发展路线五点；这些是作者在当时的测试和建议，未在本次独立验证。评论主要调侃游戏设计、市场与税费，也有人指出采矿和贸易内容不足。摘要记录作者主张，不把评论当作教程结论或现行机制说明。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1epYkzVEWL",
+      "title": "第十期~【EVE欧服】新手进阶~【毒蜥如何刷怪】如果我玩EVE的时候也有妹子新手教官的话",
+      "url": "https://www.bilibili.com/video/BV1epYkzVEWL/",
+      "owner_uid": "489315235",
+      "published_at": "2025-08-17T04:53:12.000Z",
+      "captured_at": "2026-11-08T16:52:58.182Z",
+      "description": "断更2周了 哈哈 因为UP生病了~刚病好~群里的娃已经都嗷嗷待哺~我们该恢复新作品发救济啦！\n马不停蹄鞭策我们可爱的丧失老师快点交作业！！\n\nPS：欢迎萌新/AFK回归/老屁股……加入我们一起玩耍，我们军团的招新&萌新交流&教学群：1043957459",
+      "stats": {
+        "views": 4777,
+        "replies": 32
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取完整简介及评论API首屏3个主线程和可见回复；未翻页或展开楼中楼，未看影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:57:29.000Z",
+        "digest": "简介称上传者病后恢复更新，并催成员小丧尸老师交作业。评论有人分享用毒蜥刷高安远征，询问战利品是否要捡，上传者回答高安可不捡；另有星际题材玩笑。评论只能作为观众经验交流，不能据此当作当前刷怪或收益指南，也没有从未看的视频确认实际操作。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1wa7UzqEFv",
+      "title": "第二期~【EVE欧服】新手教程~2职业代理人【执法者-飞行员的财源-完整版】：如果我玩EVE的时候也有妹子新手教官的话",
+      "url": "https://www.bilibili.com/video/BV1wa7UzqEFv/",
+      "owner_uid": "489315235",
+      "published_at": "2025-06-02T07:39:31.000Z",
+      "captured_at": "2026-11-08T16:52:37.214Z",
+      "description": "EVE欧服新手教程-2\n如果我玩EVE的时候也有妹子新手教官的话……\n为什么我的新手教官不是女玩家！？\n\n本期主要围绕：职业代理人(新手教程)-执法家 飞行员的财源 系列全程\n希望你在EVE的游戏里最开始的阶段不再迷茫！~\n希望能更好的帮助萌新在EVE的游戏里渡过最开始的阶段！~\n\n她早起录的，估计一开始声音会有点糊，我已经把声音拉大了最大，望谅解……\n所以……总而言之……\n这不是压榨！这只是简单的完成广大群众萌新阶段的遗憾！~\n\n1.关于上期的补充说明，在你下载好安装包的时候，请记得设置英文目录，中文目录会导致打不开游戏。\n2.如果可以，铁铁能给个关注嘛，投币啥的不重要的，我们需要关注人数开通合集，好把这些视频装在一起，方便新人查询，这边提前感谢你为EVE萌新事业所做的这一份贡献。\n\n感谢军团优秀成员小丧尸的亲力亲录，辛苦辛苦……（小声）她收了我10个脑……（已被灭口）……\n\n小卡片：欢迎萌新/AFK回归/老屁股……加入我们一起玩耍，我们军团的招新&萌新交流&教学群：1043957459",
+      "stats": {
+        "views": 5441,
+        "replies": 23
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取完整简介及评论API首屏3个主线程和可见回复；未翻页或展开楼中楼，未看影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:57:29.000Z",
+        "digest": "简介将内容定位为职业代理人执法者任务的新手教程，提醒安装目录使用英文，并称成员小丧尸亲自录制、自己把音量调大；作者还请求关注以便开合集供新人查询。评论围绕女性新手教官的玩笑互动，小丧尸自嘲怕黄段子不过审，上传者接话。这里能确认的是其教程系列与互动方式，不能据此补写未看的教程操作或画面。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1xpT56uESs",
+      "title": "【2026EVE欧服】-炸鱼简易教学-如果当年我炸鱼的时候也是妹子教我，我肯定好好学。",
+      "url": "https://www.bilibili.com/video/BV1xpT56uESs/",
+      "owner_uid": "489315235",
+      "published_at": "2026-06-29T05:03:54.000Z",
+      "captured_at": "2026-11-08T16:53:19.058Z",
+      "description": "如果当年我炸鱼的时候也是妹子教我，我肯定好好学。\n\n视频提供：MAX\n视频解说：小丧尸",
+      "stats": {
+        "views": 4744,
+        "replies": 44
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-08读取完整简介及评论API首屏3个主线程和可见回复；未翻页或展开楼中楼，未看影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:57:29.000Z",
+        "digest": "简介明示视频素材由MAX提供、解说由小丧尸完成，不能把捕鱼操作或画面归给上传者本人。评论讨论双开电鱼的成本与收益；一位观众给出雷毅加海灾炸弹的方案和其测试收益，上传者认为相较新手初期预算成本较高但承认这可作为生产方法。另有观众追问为何针对天使怪使用电磁炸弹，回复者指出评论所说对象是萨沙。上述配装和收益均为评论区建议，未核实为作者实测或当前机制。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
       }
     }
   ]

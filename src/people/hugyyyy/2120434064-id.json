@@ -33,7 +33,7 @@
         "id": 2123487182,
         "name": "Hugyyyy II",
         "sources": [
-          "materials-hugyyyy.md"
+          "materials-hugyyyy.json"
         ],
         "zkb": {
           "kills": 0,
@@ -63,6 +63,73 @@
       "FRT",
       "CEO",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "系统和后勤都要管，可爱也没耽误。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "可爱头衔与肛肠科玩笑不算神人行为。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9387619936"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "千余击杀并驾驶无畏、泽尼塔实战，达到资深战斗员。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120434064/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "系统、招新与后勤管理不等于舰队指挥。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://evemaps.dotlan.net/corp/Fuxi_Legion"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "大学接待与军团系统工作形成团内稳定联系。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120434064/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期伏羲总监兼IT主管、大学CEO，属大团核心管理。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120434064/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "本人泽尼塔实装，达到派系旗舰B底线。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120434064/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

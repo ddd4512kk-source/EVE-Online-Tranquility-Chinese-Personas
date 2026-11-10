@@ -58,7 +58,7 @@
         "id": 2113941665,
         "name": "Den Like Raven",
         "sources": [
-          "materials-fley-den.md"
+          "materials-fley-den.json"
         ],
         "zkb": {
           "kills": 3483,
@@ -89,6 +89,73 @@
       "FRT",
       "CEO",
       "AT19冠军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:50:00Z",
+      "verdict": "神农裔千人大军团CEO，自封AT冠军一郎，九千杀单杀六百次的王牌全能战神。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "头衔自称‘神農裔最強伝説とATの冠軍！烏鴉王一郎’，从高安种菜咸鱼一路杀成千人CEO，反差喜感拉满。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "神农裔军团公开介绍与名片",
+              "url": "https://esi.evetech.net/latest/corporations/98701625/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "近9000击杀、消灭超3.4万亿、单杀超600次，洛基缪宁马克瑞样样精通，全能一线杀神。",
+          "sources": [
+            {
+              "label": "Fley Den zKillboard",
+              "url": "https://zkillboard.com/character/2113213717/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "千人军团的 CEO，也亲自带队出勤；稳定带队的指挥骨干，评 B。",
+          "sources": [
+            {
+              "label": "神农裔军团档案",
+              "url": "https://zkillboard.com/corporation/98701625/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "神农裔灵魂创始人，将群星彩虹小马小团发展成千人规模，极受团员狂热追随支持。",
+          "sources": [
+            {
+              "label": "神农裔军团公开介绍",
+              "url": "https://esi.evetech.net/latest/corporations/98701625/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "执掌千人主力军团CEO，在FRT联盟旗下稳居主力军团核心席位，具有卓越地缘话语权。",
+          "sources": [
+            {
+              "label": "神农裔军团档案",
+              "url": "https://zkillboard.com/corporation/98701625/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "执掌千人军团财税与军工大盘，个人单月战损超千亿谈笑自若，身家资产极其雄厚。",
+          "sources": [
+            {
+              "label": "Fley Den zKillboard",
+              "url": "https://zkillboard.com/character/2113213717/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

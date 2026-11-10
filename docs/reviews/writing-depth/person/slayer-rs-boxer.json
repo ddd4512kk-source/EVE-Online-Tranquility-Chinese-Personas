@@ -1,0 +1,140 @@
+{
+  "status": "reviewed",
+  "note": "实战与FC指挥画像充足，高安强暴黑料到位，结构均衡",
+  "evidence": [
+    "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+    "src/people/slayer-rs-boxer/slayer-rs-boxer.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文与已有素材：2023年底建号、军团沿革、名片头衔、0.0前线赫卡特与女妖突击战绩、阿巴宗与埃玛马克撕线、UALX-3大会战指挥近四百人主力会战击杀无畏舰、吉他出站口促进高安强暴与两千三百余单杀均已入文，事件骨架清晰且有素材出处，无未采用之重料。",
+      "evidence": [
+        {
+          "file": "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+          "heading": "## 战斗画像与指挥依据"
+        },
+        {
+          "file": "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+          "heading": "## 身份与角色沿革"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "全文由战斗实战画像、大会战指挥履历、吉他高安强暴三个料块组成，逐件判明分量与发挥程度，无社区争议重料。",
+      "evidence": [
+        {
+          "file": "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+          "heading": "## 战斗画像与指挥依据"
+        }
+      ],
+      "noHeavyReason": "无本人社区争执、封号诈骗或联盟内讧等社区争议；全文核心为FC指挥依据、前线实战与高安强暴双重战场画像，分量属常规战绩与玩法，不强抬为重料。",
+      "items": [
+        {
+          "title": "0.0前线突击与常规战斗画像",
+          "weight": "ordinary",
+          "reason": "常规PVP战绩与主力冲锋船型画像。",
+          "source": {
+            "file": "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+            "heading": "## 战斗画像与指挥依据"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/slayer-rs-boxer/slayer-rs-boxer.md",
+            "contains": "作为两家北方主力军团的头号战力"
+          },
+          "note": "赫卡特与女妖高速穿插、数千击杀及两万一千次生涯战绩入文展开。"
+        },
+        {
+          "title": "坐镇中军指挥UALX-3大会战",
+          "weight": "ordinary",
+          "reason": "主权决战主力指挥依据与带队代表战斗。",
+          "source": {
+            "file": "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+            "heading": "## 战斗画像与指挥依据"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/slayer-rs-boxer/slayer-rs-boxer.md",
+            "contains": "虽然游戏名片里的头衔低调地写着“太空”二字"
+          },
+          "note": "名片头衔反差、低安撕线与2026年9月UALX-3指挥近400人混编舰队集火神示级无畏舰入文展开。"
+        },
+        {
+          "title": "吉他出站口促进高安强暴",
+          "weight": "ordinary",
+          "reason": "高安商业枢纽常年强暴过路商船与高额单杀特色玩法。",
+          "source": {
+            "file": "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+            "heading": "## 战斗画像与指挥依据"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/slayer-rs-boxer/slayer-rs-boxer.md",
+            "contains": "当主权战线稍有间歇，吉他 出站口的海关警卫便会迎来他们的老熟人"
+          },
+          "note": "促进廉价伏击、强运与高额蛋伏击、本地频道痛骂与迅速换船入文展开。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "红料两块分别交代一线冲锋战力与主力舰队指挥，黑料一块写高安强暴行径，评语收束打手与指挥官、主权与强暴的双重做派，叙事均衡，落点有力。",
+      "evidence": [
+        {
+          "file": "src/people/slayer-rs-boxer/slayer-rs-boxer.md",
+          "contains": "在北方主权大洋里，他是带着数百人舰队冲锋陷阵"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/slayer-rs-boxer/2121940078-id.json",
+    "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json",
+    "src/people/slayer-rs-boxer/slayer-rs-boxer.md",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.json",
+    "src/battles/hb-1nj-efm-c4-2025/hb-1nj-efm-c4-2025.md",
+    "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.json",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.json",
+    "src/battles/r-ag7w-2025/r-ag7w-2025.md",
+    "src/battles/r-ag7w-2025/materials-r-ag7w-2025.json",
+    "src/battles/rjbc-i-2025/rjbc-i-2025.json",
+    "src/battles/rjbc-i-2025/rjbc-i-2025.md",
+    "src/battles/rjbc-i-2025/materials-rjbc-i-2025.json",
+    "src/battles/sakht-2025/sakht-2025.json",
+    "src/battles/sakht-2025/sakht-2025.md",
+    "src/battles/sakht-2025/materials-sakht-2025.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.json"
+  ],
+  "inputs": "1bba120ff8e869e0d292aa268702ae08dbbe6ed447b344549d28576c802c420b",
+  "inputParts": {
+    "src/people/slayer-rs-boxer/2121940078-id.json": "35800f0e3e0398ffdcbca732173ce5178d33f1a16a1d00381069f61696d19852",
+    "src/people/slayer-rs-boxer/materials-slayer-rs-boxer.json": "db1e4e9cd0b297a6fd0bd8bf67b2838a747e9bd86703f92c636b24aa5d897ca6",
+    "src/people/slayer-rs-boxer/slayer-rs-boxer.md": "433dfb1d9698d1489d68823e8ca12ce16a68dcfc7b75069a8322ac51b24c6387",
+    "battle:akkio-2026": "61c58dc6ad8658d7093f2553470793ee0649ea5cf4618b132d3dde66dce3653a",
+    "battle:amamake-2026": "d44d950874df4a07ac2311cd7ea987f0c98d6d348d9870b0124fbcf6b9e8a213",
+    "battle:atioth-2026": "e9abbb5df0631b2062478bad9d1d31f4ccc6e13f38e557f91e0a80910b35d540",
+    "battle:hb-1nj-efm-c4-2025": "5e4a08ffc963de6a008539a37d1a1ba16c45d5eeedf47d26d6debe24e67fb042",
+    "battle:oijanen-2026": "a1701b8b3c40bd16db35d94a8d403286bfcd503c4f272f3558a4f21e75413350",
+    "battle:r-ag7w-2025": "af977050cc9e682ba1c951159c6a30e91eb9ad536dcf6be5e306d7dd096d242c",
+    "battle:rjbc-i-2025": "76842504ee998c0a35bed91f7d12a024e6ad8db3180264903385c3b96bdee752",
+    "battle:sakht-2025": "7d5d25bd1d8201337c12e3581513442c514e655de9b34874b4cc91b656fc2751",
+    "battle:sr-kbb-2026": "e61cdbb835bb06e5fda7d2618fbe930665d9b6ac424d334a3f83cf1008fa3ff6"
+  },
+  "level": 1
+}

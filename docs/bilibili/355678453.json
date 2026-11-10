@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "355678453",
   "name": "一般路过的机械神甫",
   "url": "https://space.bilibili.com/355678453/",
   "identity": {
     "state": "confirmed",
     "person": "m-ap",
-    "material": "src/people/m-ap/materials-m-ap.md",
+    "material": "src/people/m-ap/materials-m-ap.json",
     "label": "机械神甫",
     "evidence": [
       "头衔相合，贴吧同名"
     ],
     "related": [
       {
-        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -47,25 +47,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/m-ap/materials-m-ap.md"
+        "evidence": "src/people/m-ap/materials-m-ap.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID355678453](https://space.bilibili.com/355678453/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得24、24个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/m-ap/materials-m-ap.md"
+        "source": "src/people/m-ap/materials-m-ap.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/m-ap/materials-m-ap.md"
+        "source": "src/people/m-ap/materials-m-ap.json"
       },
       {
         "text": "空间最多播放首页实际顺序中，非 EVE《现代战舰15级萌新的第一条三级航母》1925播放不作EVE精选；《还真是打的好不如接的好》1378、《2.15外出活动，汉莎哥哥原声大片（鱼饵视角）》1252均在8F作品之前，逐篇核读后前者确认为非EVE、后者为国服EVE，详见下节。标题与播放数来自2026-10-16双排序缓存；旧素材的三条候选并非全频道前三。二者不再作为未读缺口。",
-        "source": "src/people/m-ap/materials-m-ap.md"
+        "source": "src/people/m-ap/materials-m-ap.json"
       },
       {
         "text": "### 最多播放候选纠正与国服旧作",
-        "source": "src/people/m-ap/materials-m-ap.md"
+        "source": "src/people/m-ap/materials-m-ap.json"
       }
     ],
     "listings": [
@@ -402,9 +402,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/m-ap/materials-m-ap.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -430,10 +427,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/m-ap/materials-m-ap.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "四层的清理顺序、环绕距离和最后捡取掉落物的步骤都写在简介里，文字本身就有明确用途。团友奎尔提供录像素材，神甫把新人容易遗漏的动作整理成逐层清单，延续了他把简介当说明书的习惯。"
       },
       "usage": {
         "body": true,
@@ -458,9 +453,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/m-ap/materials-m-ap.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -486,11 +478,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/m-ap/materials-m-ap.md",
-          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介全文仅附 [BR](https://br.evetools.org/br/6ac28f53d9fb97f9f51f67c4)，BR 本轮未读。已读20个主评论线程和直接显示的作者回复。作者置顶为 WINGS 招募活跃五人以上的小军团；冲钱使我更强称 DC 埋下两支满编舰队、执行力颠覆其印象，作者答“我其实感觉老外完全没摸准DC会不会来”。两支满编与对手判断均按评论者、作者说法，不据此替作者认 FC 或独占战果。“五日之内摧毁womp”是观众玩梗，不归作真实命令。\n\n除了附战报，神甫还在评论里接着讨论 DC 参战给对手判断带来的影响。看点是华人联军一次交战后的社区议论，以及他把战报门口变成 WINGS 招生处的熟练。\n\n（一般路过的机械神甫）：标题写明WINGS联军加DC对阵WOMP的无畏战，简介附战报。"
       },
       "usage": {
         "body": true,
@@ -515,9 +504,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/m-ap/materials-m-ap.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -543,10 +529,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/m-ap/materials-m-ap.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "已读简介“其实是不会剪辑剪的很烂”、7个主评论线程与直接可见回复，页面标签含“晨曦服”“北方联盟”“3v”，明确为本人国服旧作。汉莎一号问其他掠夺那么多为什么抓伏波斯，作者答其余已被队友扣住、伏波斯想溜；被观众催跳刀与点人时，答“刚过新手期，操作不太熟练”。国服经历只归本人，不套到当前欧服角色的创建时间或KB。暂荐此篇，依据是实际新人互动和作者对抓人选择的解释，不评价所谓原声或剪辑。"
       },
       "usage": {
         "body": true,

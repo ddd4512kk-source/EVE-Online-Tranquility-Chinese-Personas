@@ -58,6 +58,73 @@
       "00区",
       "FRT",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "五国语言识别区，不如一句集合管用。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "带队误跳敌方铁壁，是具体轻度指挥糗事。",
+          "sources": [
+            {
+              "label": "纳瓦拉会战战报",
+              "url": "https://forums.winterco.org/t/topic/11658"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "七千余击杀、六万亿级战果，长期主力重突实战。",
+          "sources": [
+            {
+              "label": "塔夫大战战损 KM",
+              "url": "https://zkillboard.com/kill/133568667/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "长期满编缪宁主力FC，三十个监视者日期辅助印证。",
+          "sources": [
+            {
+              "label": "纳瓦拉会战战报",
+              "url": "https://forums.winterco.org/t/topic/11658"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "稳定大舰队成员追随，具跨团队带队号召。",
+          "sources": [
+            {
+              "label": "纳瓦拉会战战报",
+              "url": "https://forums.winterco.org/t/topic/11658"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "主力FC身份不直接等同联盟治理核心。",
+          "sources": [
+            {
+              "label": "Chaos Arbitrator 军团档案",
+              "url": "https://zkillboard.com/corporation/98485299/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "常年重突战备与战损投入，按资产充裕评。",
+          "sources": [
+            {
+              "label": "gelanchuan Erata zKillboard",
+              "url": "https://zkillboard.com/character/2115478949/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

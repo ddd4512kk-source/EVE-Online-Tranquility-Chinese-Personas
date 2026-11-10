@@ -106,6 +106,73 @@
       "00区",
       "FRT",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "手册留下了，同僚的吐槽也留下了。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "被同僚说摸鱼，不直接等于出格恶行。",
+          "sources": [
+            {
+              "label": "OnEplus Tsuruomo 角色名片与简介",
+              "url": "https://zkillboard.com/character/2113461373/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千余击杀、四十余Solo，多年常规出勤。",
+          "sources": [
+            {
+              "label": "OnEplus Tsuruomo zKillboard",
+              "url": "https://zkillboard.com/character/2113461373/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "发起手册与招募工作不等于舰队指挥。",
+          "sources": [
+            {
+              "label": "伏羲新人手册前言",
+              "url": "https://wiki.winterco.org/zh/guide/新手入门/伏羲新人手册/start"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "新人手册与团内联系形成稳定内部支持。",
+          "sources": [
+            {
+              "label": "伏羲新人手册前言",
+              "url": "https://wiki.winterco.org/zh/guide/新手入门/伏羲新人手册/start"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "多年伏羲管理，实际参与大团新人体系。",
+          "sources": [
+            {
+              "label": "2018年伏羲招募帖",
+              "url": "https://forums.winterco.org/t/topic/14508"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "长期常规战备有余，未见个人产业雄厚。",
+          "sources": [
+            {
+              "label": "OnEplus Tsuruomo zKillboard",
+              "url": "https://zkillboard.com/character/2113461373/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

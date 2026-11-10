@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "221218622",
   "name": "魔三火",
   "url": "https://space.bilibili.com/221218622/",
   "identity": {
     "state": "confirmed",
     "person": "gipsydanger-066",
-    "material": "src/people/gipsydanger-066/materials-gipsydanger-066.md",
+    "material": "src/people/gipsydanger-066/materials-gipsydanger-066.json",
     "label": "魔焱",
     "evidence": [
       "本人贴吧帖贴其视频，拆字对应"
     ],
     "related": [
       {
-        "material": "src/battles/turnur-2023/materials-turnur-2023.md",
+        "material": "src/battles/turnur-2023/materials-turnur-2023.json",
         "label": "战役相关视频"
       }
     ]
@@ -43,7 +43,7 @@
     "prior_notes": [
       {
         "text": "2022-05-19｜eve欧服｜[最新吸气指南](https://tieba.baidu.com/p/7841851711)",
-        "source": "src/people/gipsydanger-066/materials-gipsydanger-066.md"
+        "source": "src/people/gipsydanger-066/materials-gipsydanger-066.json"
       }
     ],
     "tag_review": {
@@ -278,5 +278,141 @@
       }
     ]
   },
-  "videos": []
+  "videos": [
+    {
+      "bvid": "BV1Mc411c7YW",
+      "title": "【EVE欧服】【星战前夜】——什么样的散打小队值得泰坦出手",
+      "url": "https://www.bilibili.com/video/BV1Mc411c7YW/",
+      "owner_uid": "221218622",
+      "published_at": "2023-08-01T15:22:28.000Z",
+      "captured_at": "2026-11-09T02:47:11.986Z",
+      "description": "FC：大狙\n累了，一会儿再写简介",
+      "stats": {
+        "views": 16880,
+        "replies": 64
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介、播放/评论计数；读取热门主评论首屏，本次显示3条主评线程及界面随附回复；未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。简介中的 BR/KM 链接未打开。",
+        "digest": "简介仅写 FC 为“大狙”，并称自己累了、稍后再补简介。首屏评论调侃多种级别舰船轮番投入及富裕联盟的打法；另一评论把问题归于后勤数量和配置，并讨论舰队分割、轻拦与甲抗/结构抗。还有一名评论者回忆自己曾在华人联盟驾驶小航，自述没有在线见到 2021 年星城被毁的决战，只是在通知后撤船；其中对战况的转述部分来自他人视频。该回忆是评论者个人陈述，不足以确认视频所述战斗经过。",
+        "reviewed_at": "2026-11-09T02:52:42.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Ps4y1r7r4",
+      "title": "【EVE欧服】【星战前夜】塔玛尝试击杀T2无畏——八对一，优势在我！",
+      "url": "https://www.bilibili.com/video/BV1Ps4y1r7r4/",
+      "owner_uid": "221218622",
+      "published_at": "2023-07-07T04:44:59.000Z",
+      "captured_at": "2026-11-09T02:47:32.462Z",
+      "description": "游戏名：EVE Online 星战前夜\nFC:大狙（掉线版）\nT2无畏刚出不久，塔玛古战场BBC在用T2G无畏堵门，临时起意移动了八条无畏尝试击杀，因为没加总览等原因实际只有五条左右的火力。\nBR：https://br.evetools.org/related/30002813/1688464800/\n最终战损40B",
+      "stats": {
+        "views": 11425,
+        "replies": 91
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介、播放/评论计数；读取热门主评论首屏，本次显示3条主评线程及界面随附回复；未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。简介中的 BR/KM 链接未打开。",
+        "digest": "简介称这是 EVE Online 塔玛一战：T2 无畏舰刚推出时，BBC 在塔玛用 T2G 无畏堵门，FC 大狙临时调动八艘无畏尝试击杀；因未加总览等原因，实际只有约五艘能输出，简介称最终战损 40B，并附 BR 链接。本次未打开 BR。评论围绕 T2 无畏的抗性/维修机制、FAX 能否修复、舰队配置和集火机会争论；这些评论观点不替代战报核验。",
+        "reviewed_at": "2026-11-09T02:52:42.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Za4y1V7tF",
+      "title": "【EVE欧服】【星战前夜】故土与闪点简介    “战士犁地幻天堂，农民梦碎修罗道”",
+      "url": "https://www.bilibili.com/video/BV1Za4y1V7tF/",
+      "owner_uid": "221218622",
+      "published_at": "2023-04-28T05:57:27.000Z",
+      "captured_at": "2026-11-09T02:47:52.929Z",
+      "description": "游戏名：EVE Online  星战前夜\n本视频是面向新手的故土与闪点介绍\n主要内容包括：\n故土是什么\n如何使用纤维进入故土\n如何修正三神裔声望\n观测站闪点基本PVE流程",
+      "stats": {
+        "views": 10907,
+        "replies": 49
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介、播放/评论计数；读取热门主评论首屏，本次显示3条主评线程及界面随附回复；未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。简介中的 BR/KM 链接未打开。",
+        "digest": "简介说明这是面向新手的“故土与闪点”介绍，列出故土概念、用纤维进入、修正三神裔声望和观测站闪点 PVE 流程。评论者称闪点观测站相较世界方舟更容易、收益不错，并谈可用的船；另一观众说试打后被 VVV 团灭，有人提醒上传者在欧服，环境与国服不同。该条目只据简介和评论摘记，未核对画面中的配置或收益。",
+        "reviewed_at": "2026-11-09T02:52:42.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Sg4y1M7yw",
+      "title": "【EVE欧服】【星战前夜】气云采集简介",
+      "url": "https://www.bilibili.com/video/BV1Sg4y1M7yw/",
+      "owner_uid": "221218622",
+      "published_at": "2023-04-10T17:23:30.000Z",
+      "captured_at": "2026-11-09T02:48:13.392Z",
+      "description": "太空客观沙盒游戏：EVE Online 星战前夜气云采集简介\n主要内容包括：气云种类与分布，扫描气云所需的舰船装配与扫描方法，气云采集方法，气云作用以及售卖相关",
+      "stats": {
+        "views": 10419,
+        "replies": 70
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介、播放/评论计数；读取热门主评论首屏，本次显示3条主评线程及界面随附回复；未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。简介中的 BR/KM 链接未打开。",
+        "digest": "简介称内容包括气云种类与分布、扫描所需舰船装配及方法、采集方法、用途和售卖。评论对富勒烯气云是否出现在 00 区存在分歧：一位评论者说 00 区会刷新；上传者回复称自己记忆中原本只在虫洞，国服某次更新后才增加到 00，但自己玩欧服且视频未区分；另一评论者称欧服 00 没有。首屏还出现玩家分享用不同采集舰的耗时与收益。此处保留评论冲突，未外查游戏版本或验证机制。",
+        "reviewed_at": "2026-11-09T02:52:42.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1sz4y1B7pN",
+      "title": "【EVE欧服】【星战前夜】塔玛无畏偷袭超神装复仇",
+      "url": "https://www.bilibili.com/video/BV1sz4y1B7pN/",
+      "owner_uid": "221218622",
+      "published_at": "2023-05-26T14:58:38.000Z",
+      "captured_at": "2026-11-09T02:48:33.858Z",
+      "description": "游戏名：EVE Online 星战前夜\n在最危险的低安星系之一动用六无畏砸坏FAX一条，并击杀堵门超神装复仇者级（总价值40B+isk）战列舰一条\n复仇者KM链接：https://zkillboard.com/kill/109190258/\nFC:大狙",
+      "stats": {
+        "views": 9917,
+        "replies": 67
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核对作品页标题、发布日期、简介、播放/评论计数；读取热门主评论首屏，本次显示3条主评线程及界面随附回复；未翻页、未展开楼中楼；未观看影像、未听音频、未查字幕。简介中的 BR/KM 链接未打开。",
+        "digest": "简介称在低安动用六艘无畏舰击毁一艘 FAX，并击杀堵门的超装复仇者级战列舰，标注总价值 40B+ ISK 和击杀链接；本次未打开击杀链接。评论者询问苦主是否赎回装备，上传者回复称以 40B 卖回，若拆卖可能更高；评论另讨论回欧服还是国服，上传者偏向推荐欧服，同时说需看个人情况。其他评论者补充曾与该目标交战的个人记忆，不能据此扩大成已核实战史。",
+        "reviewed_at": "2026-11-09T02:52:42.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
 }

@@ -171,7 +171,86 @@
       "CEO",
       "AT22亚军",
       "B B C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "华人圈极具争议的低安恶霸与“体面人”，以被凛冬永久拉红为勋章，开创了战力顶尖与骂名满载并存的极道生涯。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "他一边自称文明人，一边被 Noraus 永久红黑；虫洞分裂时拆推旧团，退场后又在 Reddit 接着跟人吵。",
+          "sources": [
+            {
+              "label": "FRT全联盟拉红公告转帖",
+              "url": "https://tieba.baidu.com/p/8034508845"
+            },
+            {
+              "label": "reddit讨论RHG涉事战报",
+              "url": "https://www.reddit.com/r/Eve/comments/15u7dzd/turnur_drama/"
+            },
+            {
+              "label": "前洞团玩家分享被推经历",
+              "url": "https://tieba.baidu.com/p/10157551835"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "个人KB击毁目标价值高达三万多亿，AT22锦标赛亚军队主力，长期活跃于低安与虫洞绞肉场。",
+          "sources": [
+            {
+              "label": "官方战绩与三万亿统计",
+              "url": "https://zkillboard.com/character/2117195144/"
+            },
+            {
+              "label": "AT22官方名册",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "RHG核心掌门兼舰队指挥，频繁拉起低安袭扰与虫洞推点战役，战术凶悍。",
+          "sources": [
+            {
+              "label": "图尔鲁尔交战记录",
+              "url": "https://tieba.baidu.com/p/8556717432"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "脾气暴躁，被指责打输骂队友、排除异己，但仍牢牢吸引着一批铁血好战打手。",
+          "sources": [
+            {
+              "label": "贴吧关于CEO脾气的爆料",
+              "url": "https://tieba.baidu.com/p/10157551835"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "熟稔雇佣海盗与外部阵营结盟之道，先后投靠深水与Snuff，长期与FRT等大联盟死磕抗衡。",
+          "sources": [
+            {
+              "label": "深水与RHG盟约历史",
+              "url": "https://tieba.baidu.com/p/8034508845"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "坐拥庞大虫洞与低安海盗雇佣收益，支撑数万亿高强度对抗。",
+          "sources": [
+            {
+              "label": "数万亿KB账目与装备记录",
+              "url": "https://zkillboard.com/character/2117195144/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -180,7 +259,7 @@
         "id": 2117064646,
         "name": "never left",
         "sources": [
-          "materials-hanbo-han.md"
+          "materials-hanbo-han.json"
         ],
         "zkb": {
           "kills": 1319,
@@ -194,7 +273,7 @@
         "id": 2117524558,
         "name": "Hanbo HAN",
         "sources": [
-          "materials-hanbo-han.md#at22同人补全"
+          "materials-hanbo-han.json#at22同人补全"
         ],
         "basis": "与本次参赛号为同一玩家；旧收录号保留为小号",
         "zkb": {
@@ -209,7 +288,7 @@
         "id": 2118334950,
         "name": "CITR44",
         "sources": [
-          "materials-hanbo-han.md#at22同人补全"
+          "materials-hanbo-han.json#at22同人补全"
         ],
         "basis": "与GAnnio、never left同为汉堡；RHG历史CEO角色，现公开头衔hhbb",
         "zkb": {

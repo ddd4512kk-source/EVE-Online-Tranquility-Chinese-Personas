@@ -114,6 +114,73 @@
     "tags": [
       "00区",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "装配未必先会，给新人的船先备齐。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "外交激烈措辞与普通录音口角按轻度纠纷评。",
+          "sources": [
+            {
+              "label": "台风谈RR北上之我见",
+              "url": "https://tieba.baidu.com/p/5702514903"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "六十八击杀多为随队，不因参与泰坦KM评熟练高战力。",
+          "sources": [
+            {
+              "label": "yinhun LRD zKillboard",
+              "url": "https://zkillboard.com/character/2113249587/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO、发船和福利未见实际舰队带领。",
+          "sources": [
+            {
+              "label": "天朝之刃军团历史记录",
+              "url": "https://esi.evetech.net/latest/corporations/98539247/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "新人长期感谢发船与资助，具跨团招募号召。",
+          "sources": [
+            {
+              "label": "台风谈RR北上之我见",
+              "url": "https://tieba.baidu.com/p/5702514903"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期大型招新军团天朝之刃主官，实际运营明确。",
+          "sources": [
+            {
+              "label": "台风谈RR北上之我见",
+              "url": "https://tieba.baidu.com/p/5702514903"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "持续送船脑浆与战损补助，能为团队垫资。",
+          "sources": [
+            {
+              "label": "天朝之刃买星系讨论帖",
+              "url": "https://tieba.baidu.com/p/5702514903"
+            }
+          ]
+        }
+      }
+    }
   }
 }

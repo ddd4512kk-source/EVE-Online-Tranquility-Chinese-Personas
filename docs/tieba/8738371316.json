@@ -4,22 +4,22 @@
   "url": "https://tieba.baidu.com/p/8738371316",
   "title": "一个无名小卒的回忆录（长更）",
   "references": [
-    "docs/leads/fuyue.md",
-    "docs/leads/mrpro-lowsec-accounts.md",
-    "docs/sources/ln1p-lowkey-hel-2024.md",
+    "docs/leads/fuyue.json",
+    "docs/leads/mrpro-lowsec-accounts.json",
+    "docs/sources/ln1p-lowkey-hel-2024.json",
     "src/people/codeboss/codeboss.md",
     "src/people/mantou-eve/mantou-eve.md",
-    "src/people/mantou-eve/materials-mantou-eve.md",
-    "src/people/mrpro/materials-mrpro.md",
+    "src/people/mantou-eve/materials-mantou-eve.json",
+    "src/people/mrpro/materials-mrpro.json",
     "src/people/mrpro/mrpro.md",
-    "src/people/power-yyn/materials-power-yyn.md",
-    "src/people/taishang-laojun/materials-taishang-laojun.md",
+    "src/people/power-yyn/materials-power-yyn.json",
+    "src/people/taishang-laojun/materials-taishang-laojun.json",
     "src/people/taishang-laojun/taishang-laojun.md",
-    "src/people/undead0027/materials-undead0027.md",
+    "src/people/undead0027/materials-undead0027.json",
     "src/people/undead0027/undead0027.md",
-    "src/people/woaidao-2/materials-woaidao-2.md",
+    "src/people/woaidao-2/materials-woaidao-2.json",
     "src/people/woaidao-2/woaidao-2.md",
-    "src/people/zhaqiang/materials-zhaqiang.md",
+    "src/people/zhaqiang/materials-zhaqiang.json",
     "src/people/zhaqiang/zhaqiang.md"
   ],
   "legacy_records": [
@@ -27,7 +27,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "8738371316",
-        "初始引用文件": "docs/leads/fuyue.md;docs/leads/old-threads-2016-2024.md;src/people/mrpro/materials-mrpro.md;src/people/mrpro/mrpro.md;src/people/taishang-laojun/materials-taishang-laojun.md;src/people/taishang-laojun/taishang-laojun.md;src/people/undead0027/undead0027.md",
+        "初始引用文件": "docs/leads/fuyue.json;docs/leads/old-threads-2016-2024.md;src/people/mrpro/materials-mrpro.json;src/people/mrpro/mrpro.md;src/people/taishang-laojun/materials-taishang-laojun.json;src/people/taishang-laojun/taishang-laojun.md;src/people/undead0027/undead0027.md",
         "首尾状态": "首尾已取",
         "接口回复数": "346",
         "主楼总页数": "8",
@@ -59,11 +59,11 @@
       "旧记录确认eve欧服吧；2026-10-11及本人素材记已通读226主楼、119楼中楼可见文字，附图待核、删失与计数缺口保留。作者归陌然MrPRO；胡汉三归Taishang Laojun，梦雨归Undead0027，刀哥已对应；华义及低安人物的身份入口分别归fuyue、mrpro-lowsec-accounts。迁移不表示本次重读原帖或图片。"
     ],
     "evidence": [
-      "src/people/mrpro/materials-mrpro.md",
-      "src/people/taishang-laojun/materials-taishang-laojun.md",
-      "src/people/undead0027/materials-undead0027.md",
-      "docs/leads/fuyue.md",
-      "docs/leads/mrpro-lowsec-accounts.md"
+      "src/people/mrpro/materials-mrpro.json",
+      "src/people/taishang-laojun/materials-taishang-laojun.json",
+      "src/people/undead0027/materials-undead0027.json",
+      "docs/leads/fuyue.json",
+      "docs/leads/mrpro-lowsec-accounts.json"
     ]
   },
   "acquisition": {

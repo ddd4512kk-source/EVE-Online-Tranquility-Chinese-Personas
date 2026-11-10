@@ -73,23 +73,39 @@
         "id": 2123738920,
         "name": "TweakCukess",
         "sources": [
-          "materials-tweak-cuke.md"
+          "materials-tweak-cuke.json"
         ],
         "zkb": {
-          "kills": 61,
-          "lost": 24,
-          "isk_destroyed": 453460791330,
-          "last_active": "2026-10",
-          "as_of": "2026-10-23"
+          "kills": 70,
+          "lost": 33,
+          "isk_destroyed": 454186542087,
+          "last_active": "2026-11",
+          "as_of": "2026-11-10",
+          "fc": {
+            "tag": "FC(HIGH)",
+            "level": "high",
+            "score": 106,
+            "monitor": 9,
+            "command_ship": 0,
+            "large_fleet": 32
+          }
         }
       }
     ],
     "zkb": {
-      "kills": 612,
-      "lost": 333,
-      "isk_destroyed": 678077525232,
-      "last_active": "2026-10",
-      "as_of": "2026-10-23"
+      "kills": 637,
+      "lost": 335,
+      "isk_destroyed": 701396581623,
+      "last_active": "2026-11",
+      "as_of": "2026-11-10",
+      "fc": {
+        "tag": "FC(HIGH)",
+        "level": "high",
+        "score": 146,
+        "monitor": 77,
+        "command_ship": 13,
+        "large_fleet": 105
+      }
     }
   },
   "person": {
@@ -100,6 +116,73 @@
       "00区",
       "CONDI",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "两个号都上场，频道里也得接上话。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "双号同头衔与正常拆堡不算出格。",
+          "sources": [
+            {
+              "label": "TweakCuke 参战记录",
+              "url": "https://zkillboard.com/character/2122236855/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两号七百余击杀，指挥和常规实战稳定。",
+          "sources": [
+            {
+              "label": "TweakCuke 战斗记录",
+              "url": "https://zkillboard.com/character/2122236855/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "长期PLA带队，主小号均有监视者记录。",
+          "sources": [
+            {
+              "label": "TweakCuke zKillboard 认证",
+              "url": "https://zkillboard.com/character/2122236855/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "固定舰队成员跟随，影响以本队为主。",
+          "sources": [
+            {
+              "label": "TweakCuke 战斗记录",
+              "url": "https://zkillboard.com/character/2122236855/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "舰队带队未见组织治理职务。",
+          "sources": [
+            {
+              "label": "TweakCuke 战斗记录",
+              "url": "https://zkillboard.com/character/2122236855/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "双号同时承担战斗与指挥战备，按多号投入B。",
+          "sources": [
+            {
+              "label": "TweakCuke 战斗记录",
+              "url": "https://zkillboard.com/character/2122236855/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

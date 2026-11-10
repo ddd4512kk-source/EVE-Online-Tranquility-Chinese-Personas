@@ -131,6 +131,73 @@
       "低安",
       "RMT",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "Snuff海盗王牌，塔玛门神经手击杀二十万亿，狂塞马甲渗透全服联盟，带队兰多恩大战后卖号跑路的狠人。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "先要求绝对保密，转头把几家联盟的舰队编制递给阿舍，还补一句“别输给他们”；这份机密最后成了贴吧公开聊天记录。",
+          "sources": [
+            {
+              "label": "Snuff 塔玛星门战报",
+              "url": "https://zkillboard.com/kill/110098544/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "击杀破万次、经手摧毁逾20万亿ISK，塔玛门神，兰多恩会战前线总指挥。",
+          "sources": [
+            {
+              "label": "兰多恩会战指挥战报",
+              "url": "https://zkillboard.com/kill/127954356/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "Snuff华语主力FC，统领海盗旗舰与巡洋大队打出兰多恩等经典伏击战。",
+          "sources": [
+            {
+              "label": "兰多恩会战指挥战报",
+              "url": "https://zkillboard.com/kill/127954356/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "海盗群中威信极高，但在各大主权联盟眼中是人人防范的情报恶魔。",
+          "sources": [
+            {
+              "label": "ACR Impact 角色档案",
+              "url": "https://zkillboard.com/character/2115611133/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "极其高超的潜伏谍战大师，将马甲渗透做到极致，掌控多联盟高层情报网。",
+          "sources": [
+            {
+              "label": "ACR Impact 雇佣记录",
+              "url": "https://zkillboard.com/character/2115611133/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "长期低安打劫与高价值旗舰围杀，积攒海量掠夺财富，战备极其丰厚。",
+          "sources": [
+            {
+              "label": "A1-AUH 围猎旗舰战报",
+              "url": "https://zkillboard.com/kill/95191703/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

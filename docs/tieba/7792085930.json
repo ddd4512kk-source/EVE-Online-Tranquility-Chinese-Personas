@@ -5,8 +5,8 @@
   "title": "不针对某个军团 只针对团里几个**管理和联盟频道管理",
   "references": [
     "src/people/jc-alba/jc-alba.md",
-    "src/people/jc-alba/materials-jc-alba.md",
-    "src/people/qi-mo/materials-qi-mo.md",
+    "src/people/jc-alba/materials-jc-alba.json",
+    "src/people/qi-mo/materials-qi-mo.json",
     "src/people/qi-mo/qi-mo.md"
   ],
   "legacy_records": [
@@ -14,7 +14,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7792085930",
-        "初始引用文件": "src/people/qi-mo/materials-qi-mo.md",
+        "初始引用文件": "src/people/qi-mo/materials-qi-mo.json",
         "首尾状态": "首尾已取",
         "接口回复数": "6",
         "主楼总页数": "1",

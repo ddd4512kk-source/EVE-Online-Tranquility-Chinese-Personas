@@ -58,7 +58,7 @@
         "id": 2122114727,
         "name": "6666666 66",
         "sources": [
-          "materials-6666666-6.md"
+          "materials-6666666-6.json"
         ],
         "zkb": {
           "kills": 171,
@@ -72,7 +72,7 @@
         "id": 2122114799,
         "name": "6666666 666666",
         "sources": [
-          "materials-6666666-6.md"
+          "materials-6666666-6.json"
         ],
         "zkb": {
           "kills": 704,
@@ -102,6 +102,85 @@
       "00区",
       "CONDI",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:49:36Z",
+      "verdict": "黑隐带队，正面参战；PLA总监的本事要到战场找，不能只看头衔。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "埋号、黑隐投送和防背刺预案属于正常游戏操作。",
+          "sources": [
+            {
+              "label": "6666666 6 zKillboard",
+              "url": "https://zkillboard.com/character/2114834014/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "多开无畏投入实战，还开泰坦打过 M2，黑隐也是长期主力；多号旗舰操作与不同战斗角色都有积累。主号三千六百余次击杀、参与击杀目标累计价值约十五万亿，按顶尖重装实战档评 S。",
+          "sources": [
+            {
+              "label": "M2-XFE 俄洛巴斯击毁 KM",
+              "url": "https://zkillboard.com/kill/89613853/"
+            },
+            {
+              "label": "小洋主号战绩",
+              "url": "https://zkillboard.com/character/2114834014/"
+            },
+            {
+              "label": "已确认小号 6666666 66",
+              "url": "https://zkillboard.com/character/2122114727/"
+            },
+            {
+              "label": "已确认小号 6666666 666666",
+              "url": "https://zkillboard.com/character/2122114799/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "PLA黑隐总监与资深FC，在R-AG7W、4-HWWF与MC6O-F等大型及史诗战役中在帝国一方一线带队。",
+          "sources": [
+            {
+              "label": "R-AG7W 带队指挥击杀",
+              "url": "https://zkillboard.com/kill/131025013/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有稳定跟队的黑隐伙伴，号召范围主要是本队。",
+          "sources": [
+            {
+              "label": "6666666 6 zKillboard",
+              "url": "https://zkillboard.com/character/2114834014/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期担任 PLA 总监，又实际参与 KZU 引荐与阵营关系协调。",
+          "sources": [
+            {
+              "label": "People's Liberation Army 军团页",
+              "url": "https://zkillboard.com/corporation/98422480/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "自备俄洛巴斯泰坦、莫洛无畏与多艘黑隐特种船，资产雄厚且敢打敢赔。",
+          "sources": [
+            {
+              "label": "M2-XFE 俄洛巴斯击毁 KM",
+              "url": "https://zkillboard.com/kill/89613853/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -53,6 +53,73 @@
       "FC",
       "CEO",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "皇帝收情报，CCP收账号。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "CCP明确以RMT永久封禁，属于真实违规行为。",
+          "sources": [
+            {
+              "label": "呆始皇的公开简介与封禁记录",
+              "url": "https://tieba.baidu.com/p/11105891458"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "七百余击杀，具熟练常规舰队实战经历。",
+          "sources": [
+            {
+              "label": "8TPX-N 俄洛巴斯击杀",
+              "url": "https://zkillboard.com/kill/135008430/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "十三个监视者日期并有北方大战带队，属指挥骨干。",
+          "sources": [
+            {
+              "label": "8TPX-N 俄洛巴斯击杀",
+              "url": "https://zkillboard.com/kill/135008430/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "战斗头衔与收情报招牌，尚无稳定受众可拔高。",
+          "sources": [
+            {
+              "label": "呆始皇的公开简介与封禁记录",
+              "url": "https://tieba.baidu.com/p/11105891458"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际执掌燃烧二十一克CEO，按履职团长评。",
+          "sources": [
+            {
+              "label": "呆始皇的公开简介与封禁记录",
+              "url": "https://tieba.baidu.com/p/11105891458"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "收购情报与RMT封禁不自动说明产业规模。",
+          "sources": [
+            {
+              "label": "呆始皇的公开简介与封禁记录",
+              "url": "https://tieba.baidu.com/p/11105891458"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -58,7 +58,7 @@
         "id": 2121410226,
         "name": "LentoZero",
         "sources": [
-          "materials-galician0.md"
+          "materials-galician0.json"
         ],
         "zkb": {
           "kills": 1297,
@@ -87,6 +87,77 @@
       "00区",
       "FRT",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:35:00Z",
+      "verdict": "凛冬坚毅的实战FC与“狼心守望者”，恪守绝对纪律鏖战四小时至弹尽粮绝，用钢铁意志铸就防线。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "名片信奉绝对纪律与绝对火力，行事极度稳重严明，战场苦撑4小时直至撤场，无任何荒诞神人行径。",
+          "sources": [
+            {
+              "label": "东线主权攻守战后回顾",
+              "url": "https://tieba.baidu.com/p/10615890015"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "开永灭与狂热深度参战MC6O-F史诗会战、艾格玛尔混战，并血战9-GBPD四小时。",
+          "sources": [
+            {
+              "label": "MC6O-F参战记录",
+              "url": "https://zkillboard.com/kill/133727695/"
+            },
+            {
+              "label": "艾格玛尔永灭战绩",
+              "url": "https://zkillboard.com/kill/125039128/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "FRT核心实战FC，在鸿沟攻防中顶住敌军人数反超，打光导弹耗尽电池坚持至最后一刻，获联盟战后通报表彰。",
+          "sources": [
+            {
+              "label": "凛冬领导战后点名消息",
+              "url": "https://tieba.baidu.com/p/10615890015"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "治军严谨，以身作则带领舰队跨时区苦熬硬仗，深得底层将士敬仰。",
+          "sources": [
+            {
+              "label": "参战成员贴吧评价",
+              "url": "https://tieba.baidu.com/p/10615890015"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "纯正的前线带兵实战将领，专注于阵线坚守与火力发挥，不参与官僚角力。",
+          "sources": [
+            {
+              "label": "军团任职历史",
+              "url": "https://esi.evetech.net/latest/characters/2117641420/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "常备永灭战列与各型重突主力舰，后勤储备充足。",
+          "sources": [
+            {
+              "label": "官方战舰损失档案",
+              "url": "https://zkillboard.com/character/2117641420/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

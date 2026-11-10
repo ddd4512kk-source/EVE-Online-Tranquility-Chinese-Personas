@@ -39,7 +39,7 @@
         "name": "sk mmm",
         "basis": "与收录号sk mmmm只差一个m；2021-12-10建号十六分钟后进收录号所在98588384，至今同团",
         "sources": [
-          "materials-sk-mmmm.md#alts-2026-11-01"
+          "materials-sk-mmmm.json#alts-2026-11-01"
         ],
         "zkb": {
           "kills": 0,
@@ -70,6 +70,73 @@
       "00区",
       "FRT",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "头衔喊萌新却坐拥两千四百人十大军团，倡导换家政策、宣称一直爆一直补的叶落创始人青春。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "挂着“新人”标题替大联盟出搬迁主意，顺手问帝国会不会接 FRT；标题是青春，帖子里却全是老玩家的政治路。",
+          "sources": [
+            {
+              "label": "学习毛主席打法换家讨论帖",
+              "url": "https://tieba.baidu.com/p/10653511533"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "常规战巡战列随队出勤，统筹全团维纳尔防区常态战备，实战跟队扎实过硬。",
+          "sources": [
+            {
+              "label": "sk mmmm zKillboard",
+              "url": "https://zkillboard.com/character/2114598179/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "叶落星海的创建人，亲自带队出勤，吧里还有人专门拿“青春 FC”开涮；稳定带队，评 B。",
+          "sources": [
+            {
+              "label": "叶落星海2020招新帖",
+              "url": "https://forums.winterco.org/t/topic/2483"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "战斗船‘一直爆一直补’豪气冲天，新手进团起步送数亿礼包，在维纳尔老团员中被视为不可替代的灵魂青春哥。",
+          "sources": [
+            {
+              "label": "叶落星海2020招新帖",
+              "url": "https://forums.winterco.org/t/topic/2483"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "执掌FRT旗下十大军团之一，维纳尔大区主力主权领袖，深入参与联盟地缘治理，联盟核心掌印人。",
+          "sources": [
+            {
+              "label": "叶落星海军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "执掌两千四百人军团金库与任务刷金大盘，开出无限补损与超额礼包底气，军团与个人资产极富。",
+          "sources": [
+            {
+              "label": "sk mmmm 角色简介名片",
+              "url": "https://zkillboard.com/character/2114598179/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

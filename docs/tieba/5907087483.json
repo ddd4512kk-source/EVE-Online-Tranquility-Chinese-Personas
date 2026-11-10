@@ -5,9 +5,9 @@
   "title": "【纪录司快讯】帝国永远的敌人，南华大学完蛋了",
   "references": [
     "src/people/fang-xiaoming/fang-xiaoming.md",
-    "src/people/fang-xiaoming/materials-fang-xiaoming.md",
-    "src/people/nanhua-college/materials-nanhua-college.md",
-    "src/people/nono-fire/materials-nono-fire.md",
+    "src/people/fang-xiaoming/materials-fang-xiaoming.json",
+    "src/people/nanhua-college/materials-nanhua-college.json",
+    "src/people/nono-fire/materials-nono-fire.json",
     "src/people/nono-fire/nono-fire.md"
   ],
   "legacy_records": [
@@ -15,7 +15,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "5907087483",
-        "初始引用文件": "src/people/nanhua-college/materials-nanhua-college.md;src/people/nono-fire/materials-nono-fire.md;src/people/nono-fire/nono-fire.md",
+        "初始引用文件": "src/people/nanhua-college/materials-nanhua-college.json;src/people/nono-fire/materials-nono-fire.json;src/people/nono-fire/nono-fire.md",
         "首尾状态": "首尾已取",
         "接口回复数": "67",
         "主楼总页数": "2",

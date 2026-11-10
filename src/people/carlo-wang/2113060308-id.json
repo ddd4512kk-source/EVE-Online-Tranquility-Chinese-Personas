@@ -554,7 +554,7 @@
           "uid": "972454643",
           "name": "阴影大地",
           "sources": [
-            "materials-carlo-wang.md"
+            "materials-carlo-wang.json"
           ]
         }
       ]
@@ -576,6 +576,73 @@
     "tags": [
       "00区",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:47:53Z",
+      "verdict": "与嗜血隔空对线的洛基侦查老兵，纠偏“抓剧本和毒蜥的主号在此”，专打硬仗。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "在贴吧与嗜血公开激烈对线，据理力争澄清小号马甲与蓝加争端，敢说敢打，极具火药味戏剧性。；常规社区交流、论坛口水或军团内务分歧，未涉及恶性人肉造谣或现实骚扰，属普通玩家互动与摩擦，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "HOS 争端讨论帖",
+              "url": "https://zkillboard.com/character/2113060308/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千余次击杀，金鹏侦察、洛基抓人是长期专长。",
+          "sources": [
+            {
+              "label": "Carlo Wang zKillboard",
+              "url": "https://zkillboard.com/character/2113060308/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "zKillboard 无 FC 标签及监视者带队记录，履历重在一线侦察与特战抓人协同，未承担实质舰队调度，统御评常人基准 D。",
+          "sources": [
+            {
+              "label": "Carlo Wang zKillboard",
+              "url": "https://zkillboard.com/character/2113060308/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "已知交流主要是旧友与对手间对账、争辩，按熟人圈评。",
+          "sources": [
+            {
+              "label": "HOS 争端讨论帖",
+              "url": "https://zkillboard.com/character/2113060308/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注于敌后情报搜集与小队特种渗透，不参与高层地缘建制运作，常人基准。",
+          "sources": [
+            {
+              "label": "Carlo Wang 角色档案",
+              "url": "https://zkillboard.com/character/2113060308/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "长期使用 T3 舰船抓人，可承担高价值单船投入。",
+          "sources": [
+            {
+              "label": "Carlo Wang zKillboard",
+              "url": "https://zkillboard.com/character/2113060308/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

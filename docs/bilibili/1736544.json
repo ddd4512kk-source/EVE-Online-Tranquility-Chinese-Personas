@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "1736544",
   "name": "hitncl",
   "url": "https://space.bilibili.com/1736544/",
   "identity": {
     "state": "confirmed",
     "person": "cyncia-geass",
-    "material": "src/people/cyncia-geass/materials-cyncia-geass.md",
+    "material": "src/people/cyncia-geass/materials-cyncia-geass.json",
     "label": "H叔",
     "evidence": [
       "与别名同名；2018年起“EVE - 欧服华人建国史”等南方战争系列"
     ],
     "related": [
       {
-        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.json",
         "label": "战役相关视频"
       }
     ]
@@ -1455,14 +1455,147 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/ualx-3-2018/materials-ualx-3-2018.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "投稿日2018-07-22，战后3天；标题“星城两连爆”与简介里的南方战争对应本场"
       },
       "usage": {
         "body": false,
         "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Dx41157zt",
+      "title": "EVE - 胜利属于中国！南方战争最终话！25分钟游戏电影！",
+      "url": "https://www.bilibili.com/video/BV1Dx41157zt/",
+      "owner_uid": "1736544",
+      "published_at": "2017-11-13T01:01:58.000Z",
+      "captured_at": "2026-11-08T16:46:32.537Z",
+      "description": "抱歉，因为入职了搜狐畅游，大公司、大项目导致我工作压力极其大，所以这部新番我整整拖了3个星期才将它剪完。\r\n但是拖归拖，相信这部片子绝对不会令大家失望，因为这是我迄今为止发布的54部EVE影片里自己最满意，也是最集大成的一部作品。\r\n那么南方战争戛然而止，本想将推FCON的4-GB星城作为最终话但现在看来已不能再继续拖下去了，所以星城一役到时候我们就当做剧场版来看吧！\r\n感谢大家九个月来的陪伴，未来我还是得先把工作理顺，进搜狐真的真的是太不容易了（但谁让搜狐CEO是我大型网络科幻番剧的粉丝呢！）",
+      "stats": {
+        "views": 646203,
+        "replies": 1893
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介与评论API第一页3个主评论线程及可见直接回复；未翻页或展开楼中楼，未读影像、音轨、字幕；战斗及评论说法未独立核验。",
+        "reviewed_at": "2026-11-08",
+        "digest": "作者称入职搜狐畅游后剪辑延迟，并把本片称为其54部EVE作品中最满意的一部；原计划以4-GB星城战作终章。评论围绕新工作、老板是否关注作品开玩笑，不能据此确认老板身份。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1Gx411z7Pj",
+      "title": "EVE - 坏事做尽终得报应！欧服华人社区被联合围剿纪实！",
+      "url": "https://www.bilibili.com/video/BV1Gx411z7Pj/",
+      "owner_uid": "1736544",
+      "published_at": "2017-07-05T01:12:41.000Z",
+      "captured_at": "2026-11-08T16:47:14.742Z",
+      "description": "这部视频记录了2017年7月初，EVE欧服OSY华人社区被周边老外联合围剿的数场连战。\n在视频中你将看到这些华人是如何顶着两倍于自己的敌人和大量旗舰，在高压下以智慧与敌人周旋。\n本视频配套教材已编写完毕：https://tieba.baidu.com/p/5209253222\n---------\nBGM：Summer Mix 2016 - Best of Summer Club Charts Hits - Best Summer Remixes Dance Mix",
+      "stats": {
+        "views": 329103,
+        "replies": 1251
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介与评论API第一页3个主评论线程及可见直接回复；未翻页或展开楼中楼，未读影像、音轨、字幕；战斗及评论说法未独立核验。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介称记录2017年7月OSY华人社区与周边联盟的数场交战，并以敌方人数和旗舰优势下周旋作宣传性描述。评论涉及舰队战流程、主权与游戏社交属性；均未独立核验。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Jx411x7Jn",
+      "title": "EVE - 国服空降师力挽狂澜！我们身处绝境，但宁死不降！",
+      "url": "https://www.bilibili.com/video/BV1Jx411x7Jn/",
+      "owner_uid": "1736544",
+      "published_at": "2017-09-20T01:34:23.000Z",
+      "captured_at": "2026-11-08T16:47:35.364Z",
+      "description": "最近有越来越多的外国联盟找到我们，意思无非就是这场仗你们输定了，与其继续坚持不如早点投降？\r\n但我们的回答是NO，因为我们的字典里根本就没有投降这两个字！\r\n感谢一直以来纷纷加入并帮助我们的国服玩家，最近包括我们的新人基地都在被数个外国联盟轮流蹲守，大家的日子都过得很苦，但我相信只要我们能继续坚持下去，胜利的天平就一定会再次向我方倾斜！\r\n---------------\r\nBGM：Ocean Princess，Rada，Journey (feat. Kronos Quartet)",
+      "stats": {
+        "views": 327121,
+        "replies": 1640
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介与评论API第一页3个主评论线程及可见直接回复；未翻页或展开楼中楼，未读影像、音轨、字幕；战斗及评论说法未独立核验。",
+        "reviewed_at": "2026-11-08",
+        "digest": "作者称外国联盟施压要求投降、国服玩家加入支援且新人基地遭多方蹲守，并表达继续坚持的态度。评论者解释国服空降师并发表联盟忠诚宣言；这些评论不能替代战况核验。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Xx411q77K",
+      "title": "EVE - 欧服华人反围剿进入第二周！极限集结一致对外！",
+      "url": "https://www.bilibili.com/video/BV1Xx411q77K/",
+      "owner_uid": "1736544",
+      "published_at": "2017-07-13T10:29:23.000Z",
+      "captured_at": "2026-11-08T16:46:54.252Z",
+      "description": "周末的极限集结破天荒地组起了一个半满编舰队，这在欧服华人历史上属于首次。\r\n另外本部视频制作花费了相当长的时间，具体原因是我准备了两篇文章送给所有支持我的朋友。\r\n这两篇文章我都发在了欧服华人社区的公开版块，阅读无需注册，但360浏览器需要升级到IE11或切换浏览器。\r\n---------\r\nBGM：Best Deep House Charts Mix 2015 New Electro House Music Remix - EDM Party Dance",
+      "stats": {
+        "views": 414796,
+        "replies": 1053
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介与评论API第一页3个主评论线程及可见直接回复；未翻页或展开楼中楼，未读影像、音轨、字幕；战斗及评论说法未独立核验。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介称周末集结组起半满编舰队，并说明因准备两篇社区文章而延迟制作。评论者讨论是否因人数取消交战、猜测双方人数；作者回复称外国联军standing down。数字和战局未核实。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1rx41147vd",
+      "title": "EVE - 欧服华人正面决战十国联军！在绝境中血战到底！",
+      "url": "https://www.bilibili.com/video/BV1rx41147vd/",
+      "owner_uid": "1736544",
+      "published_at": "2017-09-11T01:09:47.000Z",
+      "captured_at": "2026-11-08T16:46:12.079Z",
+      "description": "这应该是欧服历史上第一场完全由华人挑大梁，以少打多而且最后还打赢的大仗。\r\n在结束后一个名为FRT/TRI/SC Delete FCON Fortizar的帖子成为Reddit的首页热帖，无论是敌还是我的外国玩家都对FRT快速成长的战斗素质给予了高度的评价。\r\n甚至还有人说：Looking at FRT's numbers, I am just gonna start calling this Chinese timezone（在看到FRT的舰队时，我觉得之前所谓的澳洲时区，该改名叫中国时区了）",
+      "stats": {
+        "views": 3954277,
+        "replies": 6614
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介与评论API第一页3个主评论线程及可见直接回复；未翻页或展开楼中楼，未读影像、音轨、字幕；战斗及评论说法未独立核验。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介将其称为华人主导、以少胜多的大战，并转述Reddit热帖和外国玩家对FRT成长的评价；评论者称自己做T2后勤、补给不足，另有老玩家强调准备与指挥。均为作者或评论者说法，未核战报。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
       }
     }
   ]

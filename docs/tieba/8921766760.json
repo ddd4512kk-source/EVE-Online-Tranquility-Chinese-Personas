@@ -4,9 +4,9 @@
   "url": "https://tieba.baidu.com/p/8921766760",
   "title": "已A玩家回忆录",
   "references": [
-    "src/people/taosuo/materials-taosuo.md",
+    "src/people/taosuo/materials-taosuo.json",
     "src/people/taosuo/taosuo.md",
-    "src/people/zhong-ma/materials-zhong-ma.md",
+    "src/people/zhong-ma/materials-zhong-ma.json",
     "src/people/zhong-ma/zhong-ma.md"
   ],
   "legacy_records": [
@@ -14,7 +14,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "8921766760",
-        "初始引用文件": "src/people/zhong-ma/materials-zhong-ma.md;src/people/zhong-ma/zhong-ma.md",
+        "初始引用文件": "src/people/zhong-ma/materials-zhong-ma.json;src/people/zhong-ma/zhong-ma.md",
         "首尾状态": "首尾已取",
         "接口回复数": "133",
         "主楼总页数": "3",

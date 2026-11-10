@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "34498415",
   "name": "DOUCHU000号",
   "url": "https://space.bilibili.com/34498415/",
   "identity": {
     "state": "confirmed",
     "person": "douchu",
-    "material": "src/people/douchu/materials-douchu.md",
+    "material": "src/people/douchu/materials-douchu.json",
     "label": "DOUCHU000号",
     "evidence": [
       "DOUCHU001／2116988530收录，001／002／006／007均同人；R-A撤离与作者答疑已入文，9项EVE视频中8项合作，精选唯一独立撤离投稿"
     ],
     "related": [
       {
-        "material": "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+        "material": "src/battles/r-ag7w-2025/materials-r-ag7w-2025.json",
         "label": "战役相关视频"
       }
     ]
@@ -47,17 +47,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/douchu/materials-douchu.md"
+        "evidence": "src/people/douchu/materials-douchu.json"
       }
     },
     "prior_notes": [
       {
         "text": "B站[DOUCHU000号](https://space.bilibili.com/34498415/)，UID34498415，空间签名“DOUCHU000一号机”。游戏角色名以DOUCHU00开头，以下四号均属于本人；采用DOUCHU001作为收录号，不据此宣称它是目前最活跃的主号。",
-        "source": "src/people/douchu/materials-douchu.md"
+        "source": "src/people/douchu/materials-douchu.json"
       },
       {
         "text": "2026-10-17实际核到最新发布与最多播放各第1页，最多播放按钮为选中态；9条EVE视频全部在一页内，其中8条标合作、1条独立撤离投稿，另有1篇图文未读。已打开合集和系列页，显示未建合集／系列。账号有足量EVE作品，保留B站身份标签；合作作品排除于本人精选之外。",
-        "source": "src/people/douchu/materials-douchu.md"
+        "source": "src/people/douchu/materials-douchu.json"
       }
     ],
     "listings": [
@@ -217,11 +217,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/douchu/materials-douchu.md",
-          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "连同作者回复一起读，能看到军团怎样集中叫人搬家、怎样算跳驱换大航的账；最有意思的是逃出来的人如何回答还在门口发愁的人。"
       },
       "usage": {
         "body": true,

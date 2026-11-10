@@ -4,19 +4,19 @@
   "url": "https://tieba.baidu.com/p/9254375147",
   "title": "叶落星海FC 青春吹牛贴",
   "references": [
-    "docs/leads/tieba-sk-fc-replies.md",
-    "src/people/docter-hikanami/materials-docter-hikanami.md",
-    "src/people/frost-clancy/materials-frost-clancy.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "docs/leads/tieba-sk-fc-replies.json",
+    "src/people/docter-hikanami/materials-docter-hikanami.json",
+    "src/people/frost-clancy/materials-frost-clancy.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json",
     "src/people/sk-mmmm/sk-mmmm.md",
-    "src/people/titan-acrad/materials-titan-acrad.md"
+    "src/people/titan-acrad/materials-titan-acrad.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9254375147",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md;src/people/sk-mmmm/sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json;src/people/sk-mmmm/sk-mmmm.md",
         "首尾状态": "首尾已取",
         "接口回复数": "30",
         "主楼总页数": "1",

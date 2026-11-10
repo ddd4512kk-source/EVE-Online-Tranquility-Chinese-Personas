@@ -190,7 +190,74 @@
       "CEO",
       "军团管理",
       "D.C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "科研主业摸鱼，福利表却很认真。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把友军监视者挂作战功是游戏内趣味。",
+          "sources": [
+            {
+              "label": "大坝科研军团简介与招募帖",
+              "url": "https://tieba.baidu.com/p/9595459307"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三号合计千余击杀，具稳定多号常规实战。",
+          "sources": [
+            {
+              "label": "huaxia junyue zKillboard",
+              "url": "https://zkillboard.com/character/95232784/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO招新与福利发放未见实战带队。",
+          "sources": [
+            {
+              "label": "大坝科研福利制度",
+              "url": "https://tieba.baidu.com/p/9595459307"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "HXD小团福利形成稳定团内支持。",
+          "sources": [
+            {
+              "label": "大坝科研福利制度",
+              "url": "https://tieba.baidu.com/p/9595459307"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际经营大坝科研CEO并对外招募。",
+          "sources": [
+            {
+              "label": "大坝科研联盟变迁记录",
+              "url": "https://zkillboard.com/character/95232784/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "本人三个活跃号均过百击杀，达到多号经营A底线。",
+          "sources": [
+            {
+              "label": "大坝科研福利制度",
+              "url": "https://tieba.baidu.com/p/9595459307"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -200,7 +267,7 @@
         "name": "huaxia junyue",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收jun yue zou；两号对应：ESI公开头衔同为“君越”，该头衔只见于本号主同组角色；同军团98606029历史榜同组",
         "sources": [
-          "materials-huaxia-junyue.md"
+          "materials-huaxia-junyue.json"
         ],
         "zkb": {
           "kills": 278,
@@ -215,7 +282,7 @@
         "name": "xianyu junyue",
         "basis": "ESI公开头衔同为“君越”，该头衔只见于本号主同组角色；同军团98606029历史榜同组",
         "sources": [
-          "materials-huaxia-junyue.md"
+          "materials-huaxia-junyue.json"
         ],
         "zkb": {
           "kills": 117,

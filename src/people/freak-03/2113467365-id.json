@@ -54,7 +54,7 @@
         "name": "Dau Sung",
         "basis": "ESI公开头衔同为“Freak 03”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-freak-03.md"
+          "materials-freak-03.json"
         ],
         "zkb": {
           "kills": 1195,
@@ -69,7 +69,7 @@
         "name": "Wen Tian",
         "basis": "ESI公开头衔同为“Freak 03”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-freak-03.md"
+          "materials-freak-03.json"
         ],
         "zkb": {
           "kills": 755,
@@ -100,6 +100,73 @@
       "FRT",
       "低安",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:30:00Z",
+      "verdict": "两万七千杀消灭二十万亿，两百多部黑隐刺杀视频记录深空，低调恐怖的北军杀神。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "简介仅留广播预设，B站常年更新两百余部黑隐暗杀跳脸与泰坦救援大片，专注本职一线作战，常人基准。",
+          "sources": [
+            {
+              "label": "Freak_03 B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "击杀超27000次、消灭超20万亿，恶狼、元帅、救世、帕拉丁全通，全服顶尖黑隐暗杀战神。",
+          "sources": [
+            {
+              "label": "Freak 03 zKillboard",
+              "url": "https://zkillboard.com/character/2113467365/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "北军（FRT黑隐部队）主力带头人，熟练掌握黑隐投送、无畏诱导与小队战场穿插调度。",
+          "sources": [
+            {
+              "label": "Freak_03 B站视频列表",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "两百多条高质战场视频成为无数黑隐玩家的实战启蒙圣经，深得硬核战友与粉丝崇拜推崇。",
+          "sources": [
+            {
+              "label": "Freak_03 B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注于敌后暗杀与战事影像记录，不涉联盟顶层权力博弈，常人基准。",
+          "sources": [
+            {
+              "label": "Freak 03 雇佣记录",
+              "url": "https://zkillboard.com/character/2113467365/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "数千次自驾元帅掠夺舰与高价值黑隐作战，二十万亿击杀掠夺收益，机库特种资产极其浑厚。",
+          "sources": [
+            {
+              "label": "Freak 03 zKillboard",
+              "url": "https://zkillboard.com/character/2113467365/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

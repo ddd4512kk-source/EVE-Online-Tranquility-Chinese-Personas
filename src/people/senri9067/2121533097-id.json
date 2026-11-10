@@ -94,7 +94,74 @@
       "军团管理",
       "新人教官",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "东家换过几家，新人课一直没停。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "雷裔归属两边争议未清，不把指控直接判成洗劫。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8959392146"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "多号千余击杀，稳定小队与多开实战。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121533097/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "新人教学未显示本人稳定舰队指挥。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8959392146"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "换团后仍持续教新人，有固定小圈支持。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8959392146"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "做过招新接待和新人事务，按基层协调。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8959392146"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "多开炸鱼教学及账号规划，符合刷钱能手S。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8959392146"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -107,7 +174,7 @@
             "千里丶孤行"
           ],
           "sources": [
-            "materials-senri9067.md"
+            "materials-senri9067.json"
           ],
           "portrait": "tb.1.6ea28e04.hK5tqRVYWo84K1Yi9BP3CQ"
         }
@@ -119,7 +186,7 @@
         "name": "Senri0527",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Black Cat CN；两号对应：ESI公开头衔同为“千里”，该头衔只见于本号主同组角色；同军团98841123历史榜同组",
         "sources": [
-          "materials-senri9067.md"
+          "materials-senri9067.json"
         ],
         "zkb": {
           "kills": 352,
@@ -178,7 +245,7 @@
         "id": 2123821987,
         "name": "Mono Cat CN",
         "sources": [
-          "materials-senri9067.md"
+          "materials-senri9067.json"
         ],
         "zkb": {
           "kills": 3,
@@ -193,7 +260,7 @@
         "name": "White Cat CN",
         "basis": "ESI公开头衔同为“千里”，该头衔只见于本号主同组角色；同军团98841123历史榜同组",
         "sources": [
-          "materials-senri9067.md"
+          "materials-senri9067.json"
         ],
         "zkb": {
           "kills": 403,

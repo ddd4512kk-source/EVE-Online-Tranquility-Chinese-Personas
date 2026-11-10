@@ -114,6 +114,73 @@
     "tags": [
       "00区",
       "脚本"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:35:00Z",
+      "verdict": "以一封“脚本挂机别打我”邮件名动贴吧的奇人，将挂机求饶写得如此坦荡，堪称脚本界的行为艺术家。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "在游戏内邮件向猎人发信坦白“小号没时间玩，脚本挂机，别打我了哈”，白纸黑字成为贴吧打假铁证。",
+          "sources": [
+            {
+              "label": "贴吧打假与邮件曝光帖",
+              "url": "https://tieba.baidu.com/p/7262587058"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "纯挂机刷怪小号，无任何实质性PVP战斗或自卫战果。",
+          "sources": [
+            {
+              "label": "卖手曝光战绩与邮件",
+              "url": "https://tieba.baidu.com/p/7262587058"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "挂机农夫角色，毫无舰队指挥与协同组织经历。",
+          "sources": [
+            {
+              "label": "挂机记录说明",
+              "url": "https://tieba.baidu.com/p/7262587058"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "公开写信求饶暴露脚本行为，沦为贴吧阵营论战中的经典反面笑柄。",
+          "sources": [
+            {
+              "label": "贴吧讨论与赌约楼层",
+              "url": "https://tieba.baidu.com/p/7262587058"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "E",
+          "reason": "底层刷怪小号，对军团及联盟事务无任何政治影响力。",
+          "sources": [
+            {
+              "label": "军团履历记录",
+              "url": "https://tieba.baidu.com/p/7262587058"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "依赖自动化脚本长期产出ISK，维持基础刷怪船只配置。",
+          "sources": [
+            {
+              "label": "刷怪资产与挂机描述",
+              "url": "https://tieba.baidu.com/p/7262587058"
+            }
+          ]
+        }
+      }
+    }
   }
 }

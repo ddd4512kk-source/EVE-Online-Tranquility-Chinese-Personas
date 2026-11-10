@@ -4,18 +4,18 @@
   "url": "https://tieba.baidu.com/p/10437353757",
   "title": "如果N老板把FRT的CEO转给创世，创世怎么应对？",
   "references": [
-    "docs/leads/tieba-sk-questions-replies.md",
+    "docs/leads/tieba-sk-questions-replies.json",
     "src/people/jc-alba/jc-alba.md",
-    "src/people/jc-alba/materials-jc-alba.md",
-    "src/people/noraus/materials-noraus.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md"
+    "src/people/jc-alba/materials-jc-alba.json",
+    "src/people/noraus/materials-noraus.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10437353757",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json",
         "首尾状态": "首尾已取",
         "接口回复数": "28",
         "主楼总页数": "1",

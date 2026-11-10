@@ -64,7 +64,78 @@
       "00区",
       "FRT",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:11Z",
+      "verdict": "红领鲸军团的争议掌舵人，自诩全能后勤打钱，却深陷防夺权内耗与资产甩卖风波，在贴吧肉团争议中硬核自辩。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把后勤叫成“十大肉团”，与管理误会一场后又打折回购；大黑处理分歧的办法，是把价格也谈进去。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "贴吧《评点十大肉团》",
+              "url": "https://tieba.baidu.com/p/10947640275"
+            },
+            {
+              "label": "B站《红领巾反向招新》",
+              "url": "https://www.bilibili.com/video/BV1SG8r6gEPF/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "本人主力号 midemaso 与 Monster 系列小号累计消灭超 8.8 万亿 ISK，年均达 1.65 万亿达到战神线；多号协同高频投入集结与反收割实战，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "midemaso zKillboard",
+              "url": "https://zkillboard.com/character/2118763643/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "红领鲸军团长，组织军团集结与反收割行动，自建集结网站。",
+          "sources": [
+            {
+              "label": "军团集结系统说明",
+              "url": "https://www.bilibili.com/video/BV1SG8r6gEPF/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "后勤投入大但疑心极重、排除异己，社区口碑褒贬对立。",
+          "sources": [
+            {
+              "label": "贴吧内讧与退团讨论",
+              "url": "https://tieba.baidu.com/p/10947640275"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "军团CEO，在东风与各大联盟变动中多方交涉周旋。",
+          "sources": [
+            {
+              "label": "东风灭灯交涉始末",
+              "url": "https://www.bilibili.com/video/BV1SG8r6gEPF/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "掌控军团物资流与资产回收网络，自备充值拼卡渠道与金库。",
+          "sources": [
+            {
+              "label": "军团资产回收明细",
+              "url": "https://www.bilibili.com/video/BV1SG8r6gEPF/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -74,7 +145,7 @@
         "name": "Monster0001",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收midemaso；两号对应：ESI公开头衔同为“大黑”，该头衔只见于本号主同组角色；同军团98632030历史榜同组",
         "sources": [
-          "materials-monster0001.md"
+          "materials-monster0001.json"
         ],
         "zkb": {
           "kills": 467,
@@ -88,7 +159,7 @@
         "id": 2122641634,
         "name": "Monster0002",
         "sources": [
-          "materials-monster0001.md"
+          "materials-monster0001.json"
         ],
         "zkb": {
           "kills": 321,
@@ -102,7 +173,7 @@
         "id": 2122647502,
         "name": "Monster0005",
         "sources": [
-          "materials-monster0001.md"
+          "materials-monster0001.json"
         ],
         "zkb": {
           "kills": 339,
@@ -116,7 +187,7 @@
         "id": 2122647496,
         "name": "Monster0004",
         "sources": [
-          "materials-monster0001.md"
+          "materials-monster0001.json"
         ],
         "zkb": {
           "kills": 292,
@@ -130,7 +201,7 @@
         "id": 2122647469,
         "name": "Monster0003",
         "sources": [
-          "materials-monster0001.md"
+          "materials-monster0001.json"
         ],
         "zkb": {
           "kills": 277,

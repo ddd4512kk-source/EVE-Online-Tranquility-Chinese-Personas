@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "404280682",
   "name": "泰迪br",
   "url": "https://space.bilibili.com/404280682/",
   "identity": {
     "state": "confirmed",
     "person": "moon-island",
-    "material": "src/people/moon-island/materials-moon-island.md",
+    "material": "src/people/moon-island/materials-moon-island.json",
     "label": "月岛",
     "evidence": [
       "对应moon island／2123395596；明确角色对应，公开文字已归本人素材"
@@ -41,17 +41,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/moon-island/materials-moon-island.md"
+        "evidence": "src/people/moon-island/materials-moon-island.json"
       }
     },
     "prior_notes": [
       {
         "text": "挖坟标题日入10E不是稳定收益；作者答新手误入异常点，招呼到高安团领3kw随便爆。炸鱼评论本人谈PVE有尽头、玩法在军团战和收割反收割，回复单号生产选挖坟。00保命篇自报角色、解释DC龙焰与KDS宽带山，不给出未知具体组织职务。最新／最多所见EVE候选仅这三篇，其他为其他游戏与非EVE投稿；不拿非EVE内容凑五个精选，不归档现实生活信息。关于自动化与封禁的作者回复不作站方政策结论。",
-        "source": "src/people/moon-island/materials-moon-island.md"
+        "source": "src/people/moon-island/materials-moon-island.json"
       },
       {
         "text": "频道最新发布／实际点击最多播放首屏已经取得并核候选，系列信息结合首页和作品页目录；未逐合集翻页。以下已读元数据、简介，每页实际阅读最多前20主评论线程与附带可见回复；不把取得数冒充完整阅读数。没有展开全部楼中楼，没有读影像、音轨或字幕，推荐依据只用公开文字；评论的视听评价不当本站评测。未见公开联合署名者按本人投稿，出现他人素材或视角时另列边界。",
-        "source": "src/people/moon-island/materials-moon-island.md"
+        "source": "src/people/moon-island/materials-moon-island.json"
       }
     ],
     "listings": [
@@ -845,7 +845,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -871,10 +870,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/moon-island/materials-moon-island.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "公开简介自报moon island；作者与观众讨论赚钱、月卡和PVE终点，留下教程之外的游戏观。"
       },
       "usage": {
         "body": true,
@@ -899,9 +896,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/moon-island/materials-moon-island.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

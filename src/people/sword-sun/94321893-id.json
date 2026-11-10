@@ -104,6 +104,81 @@
       "00区",
       "FRT",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T02:28:00Z",
+      "verdict": "修史记千秋兴亡，立规管眼前是非。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "打错招新字、劝人“格局高一点”及撤换小吧主引发口水，属社区管理常规摩擦，未达出格恶行线。",
+          "sources": [
+            {
+              "label": "EVE欧服华人势力发展简史",
+              "url": "https://tieba.baidu.com/p/6656022309"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三千八百余击杀、近3T击毁战果，亲历艾蒂斯近10T旗舰会战，资深常规主力巡洋与拦截实战。",
+          "sources": [
+            {
+              "label": "Sword Sun zKillboard",
+              "url": "https://zkillboard.com/character/94321893/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "常规主力随队出勤，无公开舰队指挥资质与Monitor带队记录，按随队常人基准定档。",
+          "sources": [
+            {
+              "label": "Sword Sun 角色履历",
+              "url": "https://zkillboard.com/character/94321893/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "修撰《EVE欧服华人势力发展简史》跨联盟传诵并获机核网引用，常年执掌贴吧坐拥全服华人受众与号召力。",
+          "sources": [
+            {
+              "label": "EVE欧服华人势力发展简史",
+              "url": "https://tieba.baidu.com/p/6656022309"
+            },
+            {
+              "label": "机核网引用文章",
+              "url": "https://www.gcores.com/articles/142330"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期担任千人级大军团凤凰城核心总监（基准A），兼掌全服贴吧中枢立规治乱、调处阵营纠纷，跨组织舆论治理与政治影响力显著。",
+          "sources": [
+            {
+              "label": "EVE欧服华人势力发展简史",
+              "url": "https://tieba.baidu.com/p/6656022309"
+            },
+            {
+              "label": "凤凰城军团简介",
+              "url": "https://esi.evetech.net/latest/corporations/98575144/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "自备主力与重巡战备充裕，未入大亨名单或运营高门槛产业，史官与吧主身份不计入搞钱。",
+          "sources": [
+            {
+              "label": "Sword Sun zKillboard",
+              "url": "https://zkillboard.com/character/94321893/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

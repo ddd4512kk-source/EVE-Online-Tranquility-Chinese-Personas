@@ -189,7 +189,78 @@
       "比赛",
       "AT22亚军",
       "B B C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:50:00Z",
+      "verdict": "AT22亚军决战海军末日旗舰主力，简介长篇论述如何定义“鸠黑”的哲学家高玩。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "角色简介通篇撰写长文《如何定义鸠黑》分门别类哲学剖析，兼具硬核竞技与幽默整活，风格独特。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "Alknight Dong 角色名片与简介",
+              "url": "https://zkillboard.com/character/2113059348/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "击杀近3500次、消灭超3.5万亿，AT22世界亚军决战全队唯一海军末日旗舰驾驶员，重装竞技杀手。",
+          "sources": [
+            {
+              "label": "Alknight Dong zKillboard",
+              "url": "https://zkillboard.com/character/2113059348/"
+            },
+            {
+              "label": "老人星狂暴战损记录",
+              "url": "https://zkillboard.com/kill/109208376/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "世界大赛旗舰位压轴打手，具备顶尖微操战术理解与小队协同集火执行力。",
+          "sources": [
+            {
+              "label": "AT22 赛事名册",
+              "url": "https://zkillboard.com/character/2113059348/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "斑鸠坚定的铁杆护法与战友，在龙焰与高战圈中深受信任，技术口碑扎实。",
+          "sources": [
+            {
+              "label": "Alknight Dong 角色名片与简介",
+              "url": "https://zkillboard.com/character/2113059348/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注于高难度竞技对抗与战术研究，不涉足联盟地缘政治博弈，常人基准。",
+          "sources": [
+            {
+              "label": "Alknight Dong 雇佣记录",
+              "url": "https://zkillboard.com/character/2113059348/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "常备高昂海军末日旗舰与狂暴舰队型，机库特种战备储备极其充足富余。",
+          "sources": [
+            {
+              "label": "Alknight Dong zKillboard",
+              "url": "https://zkillboard.com/character/2113059348/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -199,7 +270,7 @@
         "name": "willlll Akachi",
         "basis": "与收录号同在Infinity Avenger（2018—2019）、F1 Monkey.（2021—2022）各一年以上；2026年初与收录号、dada dadaing十天内先后离团，又与dada dadaing同日回团。",
         "sources": [
-          "materials-alknight-dong.md#身份与待核"
+          "materials-alknight-dong.json#身份与待核"
         ],
         "zkb": {
           "kills": 3746,
@@ -214,7 +285,7 @@
         "name": "dada dadaing",
         "basis": "与willlll Akachi同头衔“dada”，2023-08-31、2026-07-14两次同日进Infinity Avenger；与收录号在该团多段同期。",
         "sources": [
-          "materials-alknight-dong.md#身份与待核"
+          "materials-alknight-dong.json#身份与待核"
         ],
         "zkb": {
           "kills": 242,

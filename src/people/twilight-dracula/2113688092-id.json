@@ -69,7 +69,7 @@
           "uid": "954889577",
           "name": "保持理智ºº◆",
           "sources": [
-            "materials-twilight-dracula.md"
+            "materials-twilight-dracula.json"
           ]
         }
       ]
@@ -90,6 +90,73 @@
     "tags": [
       "00区",
       "D.C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:30:00Z",
+      "verdict": "头衔写保持理智，秒接少打一个零的十张月卡坚决不退，一句‘别烦我我在忙’引爆风波。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "头衔挂‘保持理智’，秒接卡商少打一个零的十张月卡合同，面对苦商求请冷硬回复‘不要多烦我我在忙’坚决不退，引发全贴吧大地震和联盟风波，恶名破圈。",
+          "sources": [
+            {
+              "label": "BOP十张月卡争议事件帖",
+              "url": "https://tieba.baidu.com/p/7778912345"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "击杀982次，开希尔博拉斯长年随大队出勤参战，大舰队常规合格打手。",
+          "sources": [
+            {
+              "label": "twilight Dracula zKillboard",
+              "url": "https://zkillboard.com/character/2113688092/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "常规随队出勤成员，未见任何独立带队或管理履历，常人基准。",
+          "sources": [
+            {
+              "label": "twilight Dracula 角色档案",
+              "url": "https://zkillboard.com/character/2113688092/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "黑掉少打零月卡坚决不退并导致劝架盟友被踢，在社区引发极大公愤、名声扫地，魅力探底至E档。",
+          "sources": [
+            {
+              "label": "BOP十张月卡争议事件帖",
+              "url": "https://tieba.baidu.com/p/7778912345"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "基层出勤成员，被动卷入联盟高层舆论纠纷，常人基准。",
+          "sources": [
+            {
+              "label": "twilight Dracula 雇佣记录",
+              "url": "https://zkillboard.com/character/2113688092/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "日常深渊毒蜥刷怪加上低价秒接月卡收益，个人日常开销自足无虞。",
+          "sources": [
+            {
+              "label": "twilight Dracula zKillboard",
+              "url": "https://zkillboard.com/character/2113688092/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

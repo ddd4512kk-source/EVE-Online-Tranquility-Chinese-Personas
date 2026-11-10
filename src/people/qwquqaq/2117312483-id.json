@@ -44,7 +44,7 @@
         "name": "tommyshelby001",
         "basis": "2026-10-25 ESI公开头衔同为“阙”，与qwquqaq同属Stardust-Guardian（98550682）／Fraternity.，按同头衔且同军团对应。",
         "sources": [
-          "materials-qwquqaq.md#tommyshelby001小号"
+          "materials-qwquqaq.json#tommyshelby001小号"
         ],
         "zkb": {
           "kills": 440,
@@ -72,6 +72,77 @@
       "00区",
       "FRT",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:33:00Z",
+      "verdict": "星尘守护者的耐心带队FC，把基层出勤者的灵魂碎碎念写成经典简介，在万亿旗舰混战中稳稳护持自家队伍。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "简介把队员“在哪集结、有分吗、能先算分吗”等各种摸鱼灵魂拷问连成段子，还自挂4B诈骗合同。",
+          "sources": [
+            {
+              "label": "官方角色公开简介",
+              "url": "https://esi.evetech.net/latest/characters/2117312483/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "开巴盖斯等战列舰参与兰多恩3万亿会战、艾格玛尔低安战役与MC6O-F史诗战役。",
+          "sources": [
+            {
+              "label": "兰多恩会战击杀档案",
+              "url": "https://zkillboard.com/kill/127954038/"
+            },
+            {
+              "label": "艾格玛尔第二场参战",
+              "url": "https://zkillboard.com/kill/125039128/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "星尘守护者核心实战FC，负责艾格玛尔第一场带队指挥，多次在大联盟作战中独立率队完成穿插。",
+          "sources": [
+            {
+              "label": "艾格玛尔带队战报记录",
+              "url": "https://zkillboard.com/kill/124501239/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "极具耐心的实干FC，对队员各项配装与出勤提问悉心答疑，深得底层团员爱戴。",
+          "sources": [
+            {
+              "label": "星尘守护者出勤记录",
+              "url": "https://esi.evetech.net/latest/characters/2117312483/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注基层带队打仗与实战指导，对高层地缘政治保持距离。",
+          "sources": [
+            {
+              "label": "军团任职历史",
+              "url": "https://esi.evetech.net/latest/characters/2117312483/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "主力常备巴盖斯等高阶战舰，后勤补给充足。",
+          "sources": [
+            {
+              "label": "出战战舰装配档案",
+              "url": "https://zkillboard.com/character/2117312483/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

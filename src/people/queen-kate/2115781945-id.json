@@ -45,6 +45,73 @@
       "00区",
       "FRT",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T15:30:00Z",
+      "verdict": "FRT Holding法人CEO，撰写凛冬编年史，随手禁言24小时误删投诉帖喜提台风同道姐妹诗的女王陛下。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "自封女王陛下，群里随手禁言24小时说“懒得解释”，论坛想锁贴反手全删被全盟通报警告，喜提“台风同道姐妹”打油诗。",
+          "sources": [
+            {
+              "label": "投诉贴 Dispredestination 凯特",
+              "url": "https://forums.winterco.org/t/topic/3942"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "甚少一线开火打仗，以文职管理与论坛建设为主，常人基准。",
+          "sources": [
+            {
+              "label": "Queen Kate zKillboard",
+              "url": "https://zkillboard.com/character/2115781945/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "执政军团法人CEO，主要从事联盟人事与行政治理，常人基准。",
+          "sources": [
+            {
+              "label": "Fraternity Holding 军团档案",
+              "url": "https://zkillboard.com/corporation/98422480/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "撰写连载编年史，论坛新人问答导师，公认联盟早期文化奠基人之一。",
+          "sources": [
+            {
+              "label": "凛冬及 Fraternity. 的编年史",
+              "url": "https://forums.winterco.org/t/topic/3336"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "FRT Holding执政军团CEO，把持联盟最高法人印章，牵线核心大佬回归。",
+          "sources": [
+            {
+              "label": "Fraternity Holding 军团档案",
+              "url": "https://zkillboard.com/corporation/98422480/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "执掌联盟执政军团行政资源与资产盘子。",
+          "sources": [
+            {
+              "label": "Fraternity Holding 军团档案",
+              "url": "https://zkillboard.com/corporation/98422480/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

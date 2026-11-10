@@ -65,6 +65,73 @@
       "低安",
       "B站",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:16:51Z",
+      "verdict": "名片写养老，黑隐照常出门；旧团遭盗号，凌晨递嘲讽的差事也没退休。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "怯薛遭盗号、建筑与钱包被转走时，同期回帖点名他在凌晨六点四十九分向 N老板递送嘲讽，追着苦主问精神状态。趁盗号损失替对方戳人痛处，恶劣程度已超出普通口角；不据此认定他亲自盗号。",
+          "sources": [
+            {
+              "label": "Noraus盗号通报及同期回帖点名传话人",
+              "url": "https://tieba.baidu.com/p/9923182853"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀超6000次、消灭超7万亿，土狼奉献与救世黑隐精熟，打满塔夫史诗战与希瑟伊德旗舰大战，一线顶尖刺客。",
+          "sources": [
+            {
+              "label": "CrysisDeathgun YoRHa zKillboard",
+              "url": "https://zkillboard.com/character/2114324057/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "接手军团并开展教学、活动组织；不能由 CEO 头衔推出特战 FC。",
+          "sources": [
+            {
+              "label": "Obsidian Armament军团档案",
+              "url": "https://zkillboard.com/corporation/98684711/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期制作教程、战报且持续答疑，是有稳定受众的圈内 UP。",
+          "sources": [
+            {
+              "label": "EVE神崎 B站空间",
+              "url": "https://space.bilibili.com/10126340"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "出任低安军团CEO，维持团队独立运作与跨联盟雇佣战备，军团长基准B档。",
+          "sources": [
+            {
+              "label": "Obsidian Armament军团档案",
+              "url": "https://zkillboard.com/corporation/98684711/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "可持续承担黑隐与特种舰投入；简介里的神使、归魂 KM 是猎物。",
+          "sources": [
+            {
+              "label": "CrysisDeathgun YoRHa zKillboard",
+              "url": "https://zkillboard.com/character/2114324057/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

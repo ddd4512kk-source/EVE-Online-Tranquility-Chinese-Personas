@@ -6,10 +6,10 @@
   "references": [
     "docs/tieba-review-2026-10-10.md",
     "src/people/ba-yun/ba-yun.md",
-    "src/people/ba-yun/materials-ba-yun.md",
+    "src/people/ba-yun/materials-ba-yun.json",
     "src/people/lao-ying/lao-ying.md",
-    "src/people/lao-ying/materials-lao-ying.md",
-    "src/people/yilifaer/materials-yilifaer.md",
+    "src/people/lao-ying/materials-lao-ying.json",
+    "src/people/yilifaer/materials-yilifaer.json",
     "src/people/yilifaer/yilifaer.md"
   ],
   "legacy_records": [
@@ -17,7 +17,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "8968264055",
-        "初始引用文件": "src/people/ba-yun/ba-yun.md;src/people/ba-yun/materials-ba-yun.md;src/people/lao-ying/lao-ying.md;src/people/lao-ying/materials-lao-ying.md;src/people/yilifaer/materials-yilifaer.md;src/people/yilifaer/yilifaer.md",
+        "初始引用文件": "src/people/ba-yun/ba-yun.md;src/people/ba-yun/materials-ba-yun.json;src/people/lao-ying/lao-ying.md;src/people/lao-ying/materials-lao-ying.json;src/people/yilifaer/materials-yilifaer.json;src/people/yilifaer/yilifaer.md",
         "首尾状态": "首尾已取",
         "接口回复数": "82",
         "主楼总页数": "2",

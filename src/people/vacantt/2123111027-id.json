@@ -45,6 +45,97 @@
       "00区",
       "FC",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "多一个t回了创世，旧指挥的手艺还在。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "人民币售号属具体违规经历，按已见行为评B。",
+          "sources": [
+            {
+              "label": "老号 Vacant 雇佣记录",
+              "url": "https://evewho.com/character/2113849509"
+            },
+            {
+              "label": "Vacantt zKillboard",
+              "url": "https://zkillboard.com/character/2123111027/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "新号两千余击杀、四百余Solo兼老号本人超旗实战。",
+          "sources": [
+            {
+              "label": "77S8 泰坦战击杀记录",
+              "url": "https://zkillboard.com/kill/75489664/"
+            },
+            {
+              "label": "隐轰击毁冥府记录",
+              "url": "https://zkillboard.com/kill/82855330/"
+            },
+            {
+              "label": "Vacantt zKillboard",
+              "url": "https://zkillboard.com/character/2123111027/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "创世正式指挥之一，售号不抹掉原本带队履历。",
+          "sources": [
+            {
+              "label": "创世倾域军团指挥名单",
+              "url": "https://tieba.baidu.com/p/6433900881"
+            },
+            {
+              "label": "新人跟队评价",
+              "url": "https://tieba.baidu.com/p/6268975374"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "同团老成员和游猎圈有固定认可。",
+          "sources": [
+            {
+              "label": "新人跟队评价",
+              "url": "https://tieba.baidu.com/p/6268975374"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "FC身份与售号经历不直接等同组织治理。",
+          "sources": [
+            {
+              "label": "Vacantt zKillboard",
+              "url": "https://zkillboard.com/character/2123111027/"
+            },
+            {
+              "label": "创世出走绝地讨论帖",
+              "url": "https://tieba.baidu.com/p/10489881442"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "本人早年驾驶万古派系超旗，按生涯财富A底线。",
+          "sources": [
+            {
+              "label": "Vacant 老号战绩",
+              "url": "https://zkillboard.com/character/2113849509/"
+            },
+            {
+              "label": "Vacantt 新号战绩",
+              "url": "https://zkillboard.com/character/2123111027/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

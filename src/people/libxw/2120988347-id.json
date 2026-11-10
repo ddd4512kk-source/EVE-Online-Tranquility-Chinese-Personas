@@ -73,7 +73,7 @@
         "id": 2121733247,
         "name": "lbxw donefread",
         "sources": [
-          "materials-libxw.md"
+          "materials-libxw.json"
         ],
         "zkb": {
           "kills": 1065,
@@ -90,7 +90,7 @@
           "uid": "1153957467",
           "name": "烈冰玄武",
           "sources": [
-            "materials-libxw.md"
+            "materials-libxw.json"
           ]
         }
       ]
@@ -114,6 +114,73 @@
       "低素质",
       "军团管理",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "自称三年萌新，低安账本却很老练。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "招新争执与普通骂战按轻度口角评。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120988347/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "两号五千余击杀、三百余Solo，低安单杀强项突出。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120988347/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "招新与同队出勤不能直接当舰队带领。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120988347/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "团内老成员持续互动，支持主要在龙骑圈。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10905877285"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "公开承担招新与成员协调，按基层管理评。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120988347/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "双号重型常规持续实战，按个人战备余力C。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120988347/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

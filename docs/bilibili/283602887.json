@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "283602887",
   "name": "love-LULU",
   "url": "https://space.bilibili.com/283602887/",
   "identity": {
     "state": "excluded",
     "person": null,
-    "material": "src/people/lulu-love/materials-lulu-love.md",
+    "material": "src/people/lulu-love/materials-lulu-love.json",
     "label": "LULU奶爸",
     "evidence": [
       "仅一条无关视频"
@@ -30,7 +30,7 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/lulu-love/materials-lulu-love.md"
+        "evidence": "src/people/lulu-love/materials-lulu-love.json"
       },
       "popular": {
         "state": "unknown",
@@ -48,7 +48,7 @@
     "prior_notes": [
       {
         "text": "奶爸以 IAS38、研发资本化及项目取消后费用化解释当年的亏损，并用度假村投资失败作比喻。分量：中，是具体有署名的财经解释作品，不足以证明现实职业或资质。正文只描述他的历史解释，不把这段当最新 CCP 财报结论。",
-        "source": "src/people/lulu-love/materials-lulu-love.md"
+        "source": "src/people/lulu-love/materials-lulu-love.json"
       }
     ],
     "listings": [

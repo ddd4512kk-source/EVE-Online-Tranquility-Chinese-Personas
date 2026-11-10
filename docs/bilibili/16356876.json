@@ -1,27 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "16356876",
   "name": "夺米台风",
   "url": "https://space.bilibili.com/16356876/",
   "identity": {
     "state": "confirmed",
     "person": "domityphoon",
-    "material": "src/people/domityphoon/materials-domityphoon.md",
+    "material": "src/people/domityphoon/materials-domityphoon.json",
     "label": "台风",
     "evidence": [
       "同名；KZU系列专栏"
     ],
     "related": [
       {
-        "material": "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+        "material": "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md",
+        "material": "src/battles/m2-xfe-2020/materials-m2-xfe-2020.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+        "material": "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.json",
         "label": "战役相关视频"
       }
     ]
@@ -51,7 +51,7 @@
     "prior_notes": [
       {
         "text": "#124/#127聊天重点图：说话者昵称喜欢美女的艾瑞，截图称军团CEO，自己说“我单方面不让他还钱”“我现在禁止他还钱”“我不向敌对低头”。#124有前后互补两图，第127有延续，不是只看裁出一句话。来源仍是群聊截图，不冒充平台本人签名原帖。",
-        "source": "src/people/domityphoon/materials-domityphoon.md"
+        "source": "src/people/domityphoon/materials-domityphoon.json"
       }
     ],
     "tag_review": {
@@ -4319,10 +4319,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/m2-xfe-2020/materials-m2-xfe-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指名M2-XFE，投稿日2020-12-31。\n\n（夺米台风）：RR联盟第一视角，标题称其为史上最强的M2-XFE超旗战。"
       },
       "usage": {
         "body": false,
@@ -4347,10 +4345,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/fwst-8-2020/materials-fwst-8-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指FWST星城战，投稿日2020-10-08。\n\n（夺米台风）：中秋献礼第四弹：帝国对南北联军的FWST星城战片段。"
       },
       "usage": {
         "body": false,
@@ -4375,10 +4371,142 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Fp411o7Jv",
+      "title": "Eve世界服-决战到天明！华人首次超旗战告捷！——C-L全程录播五小时特辑",
+      "url": "https://www.bilibili.com/video/BV1Fp411o7Jv/",
+      "owner_uid": "16356876",
+      "published_at": "2018-05-20T22:50:56.000Z",
+      "captured_at": "2026-11-08T16:26:33.208Z",
+      "description": "相关游戏: eve\n简介补充: 第一次华人主导的超大规模超旗战胜利\n5月20日凌晨WC及TRI成功拦截俄罗斯联盟XIXX自88A星城撤离至legacy位于邪恶湾流星域C-LTXS的超旗搬家舰队。双方展开超旗战。并投入了无畏、航母、常规、银魂舰队。\n当TRI+WC联军因超旗数量劣势而逐渐不支时，NCPL、snuff等无畏队相继投送支援战场，而本来支援XIXX的Goons突然反水进攻。欧服几乎所有势力都站在我们的一方。\n而TEST的满编超旗舰队在犹豫再三后始终未能进场，决定抛弃XIXX以明哲保身，最终导致了XIXX+TEST联合舰队被击杀近半超旗，旗舰队损失殆尽。\n整场战役时长5小时左右，从国内凌晨12点打到早上5点半。\nXIXX方式损失两万亿ISK，WC方损失5000亿ISK。\n\n这是第一次华人联盟群参加正规超旗决战，不但赢得了胜利，也获得了宝贵的超期战经验。\n欧服，精彩常在！",
+      "stats": {
+        "views": 15935,
+        "replies": 44
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-09读取简介、分P标题及第一页API返回的3个主评论线程与直接显示回复；未翻页、未展开其余楼层，未核战报，未读影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:32:34Z",
+        "digest": "简介叙述称2018年5月20日WC、TRI拦截XIXX搬家舰队，盟军与增援、Goons转向及TEST未进场构成其战局叙事，并报出双方损失；这些是上传者简介的说法，本轮未独立核对战报或战损。评论者自称自己驾驶的泰坦Phantom of LOTM阵亡并请求捐款，另有参战者描述自己分炮、后勤无人回应和掉线循环；均是评论者个人回忆，不当作完整战报或经过验证的总损失。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Ux411L7o8",
+      "title": "Eve世界服/夺米台风-听说欧服有个辱华联盟叫SLOW CHILDREN AT PLAY？哦，那我们现在灭了他们吧",
+      "url": "https://www.bilibili.com/video/BV1Ux411L7o8/",
+      "owner_uid": "16356876",
+      "published_at": "2017-11-19T04:01:17.000Z",
+      "captured_at": "2026-11-08T16:26:12.739Z",
+      "description": "没有华丽的特效，没有激情的宣传。\n有的只有华人联军一步一个脚印的前进。\n新伊甸世界中，有一支舰队在前进。\n现代战争早就脱离了古代线列步兵式的排队枪毙。\n但懂得这个游戏的人，才会真正理解它的精彩。\n和那平淡无奇的画面后，所包含的拼搏与血泪。",
+      "stats": {
+        "views": 33723,
+        "replies": 167
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-09读取简介及第一页API返回的3个主评论线程与直接显示回复；未翻页、未展开其余楼层，未读影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:32:34Z",
+        "digest": "简介以华人联军推进和现代战争作概括性描述，未标明具体战场、时间或作者职责。评论有人询问“台风阿姨”是否在欧服，作者回应他们在星华开大航并指导新人打捞；这是作者账号在评论中的自述，不足以确认其在本片中的角色或具体作战贡献。其他评论是观众表达，不归为作者观点。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Y1421C7Wj",
+      "title": "Eve欧服-新版本新远征：旗舰集结地初体验（总计收益1.8E左右）",
+      "url": "https://www.bilibili.com/video/BV1Y1421C7Wj/",
+      "owner_uid": "16356876",
+      "published_at": "2024-06-13T07:59:28.000Z",
+      "captured_at": "2026-11-08T16:27:34.919Z",
+      "description": "",
+      "stats": {
+        "views": 10540,
+        "replies": 37
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-09读取空简介及第一页API返回的3个主评论线程与直接显示回复；未翻页、未展开其余楼层，未读影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:32:34Z",
+        "digest": "简介为空。评论围绕对抗舰船和舰炮效果提问、猜测；作者答称转速不够，另有观众催要配置并询问海凤凰表现。评论内容无法确认视频中的实际配置、伤害效果或远征收益，也没有展开成完整教程。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ds411p7yS",
+      "title": "Eve世界服-难怪你们都喜欢用大航刷怪，是爽啊",
+      "url": "https://www.bilibili.com/video/BV1ds411p7yS/",
+      "owner_uid": "16356876",
+      "published_at": "2018-07-09T07:07:22.000Z",
+      "captured_at": "2026-11-08T16:26:53.997Z",
+      "description": "",
+      "stats": {
+        "views": 15355,
+        "replies": 44
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-09读取作品页空简介及第一页API返回的3个主评论线程与直接显示回复；未翻页、未展开其余楼层，未读影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:32:34Z",
+        "digest": "简介为空。首屏评论以观众玩梗为主：有人说大型舰船刷怪很爽，有人调侃被抓后能叫来一军团；这些不是作者自述，也不能据此确认视频中的配置、抓捕经过或观众舰船。作者未在读到的评论中回应。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ks411H7vS",
+      "title": "Eve世界服-太开心了，又可以炮决脚本了，这次是M大航冥府哦",
+      "url": "https://www.bilibili.com/video/BV1ks411H7vS/",
+      "owner_uid": "16356876",
+      "published_at": "2018-07-12T14:59:54.000Z",
+      "captured_at": "2026-11-08T16:27:14.465Z",
+      "description": "好开心虽然没拿到KM",
+      "stats": {
+        "views": 12525,
+        "replies": 36
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "2026-11-09读取简介及第一页API返回的3个主评论线程与直接显示回复；未翻页、未展开其余楼层，未读影像、音轨、字幕。",
+        "reviewed_at": "2026-11-08T16:32:34Z",
+        "digest": "简介称作者很开心但没有拿到击杀记录。评论有人把作者与刷怪、炮决脚本联系起来，也有人指称RR方面某个CEO号曾用脚本；这些都是评论者说法，本轮未核，不能归为作者使用脚本。作者仅回应RR已经解散。另有人建议使用另一类舰队以争取击杀记录；不据此确认配置或战果。"
       },
       "usage": {
         "body": false,

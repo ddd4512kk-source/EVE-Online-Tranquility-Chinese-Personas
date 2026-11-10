@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "23176130",
   "name": "SSSSSSOcean",
   "url": "https://space.bilibili.com/23176130/",
   "identity": {
     "state": "confirmed",
     "person": "jing-ji",
-    "material": "src/people/jing-ji/materials-jing-ji.md",
+    "material": "src/people/jing-ji/materials-jing-ji.json",
     "label": "景纪",
     "evidence": [
       "高安任务教程；不是十六"
@@ -32,17 +32,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/jing-ji/materials-jing-ji.md"
+        "evidence": "src/people/jing-ji/materials-jing-ji.json"
       }
     },
     "prior_notes": [
       {
         "text": "命中：B 站 UID 23176130，当前昵称 SSSSSSOcean，签名“四十年和平,四十年河西”；投稿 123 条。与景纪的关联沿用人物对应记录。2019 年起投稿大量 EVE 高安任务流程、涅迦尔燃烧配置、魔像/掠夺舰、导弹和炮术讲解。",
-        "source": "src/people/jing-ji/materials-jing-ji.md"
+        "source": "src/people/jing-ji/materials-jing-ji.json"
       },
       {
         "text": "空间123视频、56图文、6合集／系列；最新与最多播放首页各42视频入口已核，旧“123条列表检查”不能代替本次排序核对。最多播放首篇涅迦尔五燃烧约6.3万、泰坦波色约5.8万、一船八约5.6万；不按前五直接抄，选择实际文字较充实、题材互补的5条。原一船八的已读作者答疑复用，新增4篇；未翻更深历史页或逐个打开合集。",
-        "source": "src/people/jing-ji/materials-jing-ji.md"
+        "source": "src/people/jing-ji/materials-jing-ji.json"
       }
     ],
     "listings": [
@@ -936,10 +936,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jing-ji/materials-jing-ji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "把技能、船装投入和一船适用范围一起说明，后续还有转码缺段的补课与评论勘误。看他的教学，最好从这份方案与售后记录一起入门。"
       },
       "usage": {
         "body": true,
@@ -964,10 +962,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jing-ji/materials-jing-ji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介写“摆脱pyfa（成为人工pyfa）”，两段分别命中与浮动，公开给出函数；回复最佳距离以外的重网、标记也可相似计算。数字仅作作者课程内容摘要，不自行验算或宣传无误公式。另称只删广告评论、不删一般批评，按本人说法保存，不核所有删评历史。\n\n从抄配置往自己算迈一步。作者分命中与浮动两段，简介直接给函数，还回答电子战最佳距离外的计算问题；“成为人工pyfa”这句玩笑，至少有公式垫着。"
       },
       "usage": {
         "body": true,
@@ -992,9 +988,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jing-ji/materials-jing-ji.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1020,10 +1013,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jing-ji/materials-jing-ji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "最值得连作者置顶一起读的一篇。他把漏掉的操作、声望安排和任务取舍补成清单；讲义有修订，才比一句“照着刷”更有意思。"
       },
       "usage": {
         "body": true,
@@ -1048,10 +1039,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jing-ji/materials-jing-ji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介、6个选集标题、作者置顶与可见回复已核。说明脑插修量与突击损控用于防玩家，后续置顶区分宁静获取更新配置的频道与晨曦；2019回复说明当时为网易删档环境。将它认作同一作者早期教学，不将测试服画面归为收录号欧服战斗，不说旧配置仍适用现版。"
       },
       "usage": {
         "body": false,

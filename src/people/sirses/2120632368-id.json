@@ -218,7 +218,7 @@
           ],
           "portrait": "tb.1.46eca62.k6ox2pff1mUJDGfDBj8Dlg",
           "sources": [
-            "materials-sirses.md"
+            "materials-sirses.json"
           ]
         }
       ]
@@ -243,7 +243,7 @@
         "id": 2121800011,
         "name": "Sasotuk",
         "sources": [
-          "materials-sirses.md"
+          "materials-sirses.json"
         ],
         "zkb": {
           "kills": 213,
@@ -257,7 +257,7 @@
         "id": 2120632359,
         "name": "Taltogai",
         "sources": [
-          "materials-sirses.md"
+          "materials-sirses.json"
         ],
         "zkb": {
           "kills": 176,
@@ -288,6 +288,77 @@
       "军团管理",
       "诈骗",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:52:44Z",
+      "verdict": "开千亿声望天价，欠薪打手四十亿；追着汤圆骚扰两年，公开发表‘欺负我的死残病’逆天言论。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "开价 1500 亿声望天价，欠薪 40 亿纠缠汤圆两年，在论坛公开发表‘生活中欺负我的，死的死，残的残，病的病’逆天言论。",
+          "sources": [
+            {
+              "label": "贴吧声望哥控诉汤圆记录",
+              "url": "https://tieba.baidu.com/p/9242598457"
+            },
+            {
+              "label": "贴吧《感谢FRT汤圆，让我如今钱包200B》",
+              "url": "https://tieba.baidu.com/p/10108470895"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "列传记录稳定出勤并熟练承担特定战术职责，评 C。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2120632368/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "列传未见实质带队调度，按普通随队者基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10876476125"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "吧里一提骗子、欠账，总有人补一句“不得不说声望哥”；材料里陪他聊了两年的只有汤圆一个。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10876476125"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "列传未见高层利益协调或组织管理，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/10876476125"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "列传记录资产充裕、自立工业或能自备高价值重船，评 C。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9238605473"
+            }
+          ]
+        }
+      }
+    }
   }
 }

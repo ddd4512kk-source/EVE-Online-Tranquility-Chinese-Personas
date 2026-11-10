@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "32966318",
   "name": "EVE-Online_中文站",
   "url": "https://space.bilibili.com/32966318/",
   "identity": {
     "state": "source",
     "person": null,
-    "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md",
+    "material": "src/battles/b-r5rb-2014/materials-b-r5rb-2014.json",
     "label": "战役相关视频投稿者；本人未对应",
     "evidence": [
       "投稿BV1zvMu6UEm9，列为b-r5rb-2014相关视频"
@@ -57,10 +57,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/b-r5rb-2014/materials-b-r5rb-2014.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "B站搜索所得；2026-07-05投稿的回顾，简介逐段写背景、规模、损失与纪念碑"
       },
       "usage": {
         "body": false,

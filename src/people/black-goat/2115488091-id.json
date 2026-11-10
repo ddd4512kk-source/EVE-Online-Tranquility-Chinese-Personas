@@ -89,7 +89,7 @@
         "name": "gogo laiba",
         "basis": "ESI公开头衔同为“黑山羊.seat”，该头衔只见于本号主同组角色；同军团98725234历史榜同组",
         "sources": [
-          "materials-black-goat.md"
+          "materials-black-goat.json"
         ],
         "zkb": {
           "kills": 3466,
@@ -117,6 +117,77 @@
       "00区",
       "INIT.",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:09:43Z",
+      "verdict": "简介像矿物工具箱，战绩却从拦截一路打到泰坦；拆迁办领队自己也有重家伙。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "整理矿物资料和拆敌方钻机都是正常玩法；现有材料没有独立的出格行为，按 D，不从工具清单推断本人严谨克制，更不直接评守序典范。",
+          "sources": [
+            {
+              "label": "Y-C3EQ 月矿钻机拆除战报",
+              "url": "https://zkillboard.com/kill/138807390/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号 5756 杀、273 次单杀，小号另有 3466 杀、236 次单杀，两号都有扎实积累；主号还用神示级无畏、勒维亚坦级泰坦参战。多号与旗舰实战合评 A，强项不同于小白菜的掠夺舰与夜神。",
+          "sources": [
+            {
+              "label": "War martyrdom Freedom zKillboard",
+              "url": "https://zkillboard.com/character/2115488091/"
+            },
+            {
+              "label": "gogo laiba zKillboard",
+              "url": "https://zkillboard.com/character/2114551292/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "已核主号在 2026 年 5 月、6 月和 9 月三个日期驾驶监视者参战，含 Y-C3EQ 拆钻机行动，支持瑶光 FC 骨干的 B；36 条 KM 不等于 36 场带队，也不足单独推成联盟主力指挥。",
+          "sources": [
+            {
+              "label": "Y-C3EQ 月矿钻机拆除战报",
+              "url": "https://zkillboard.com/kill/138807390/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "以瑶光 FC 身份组织队伍，团内骨干的合作基础支持 C；简介还分享查询工具，但收藏链接不等于工具作者，也没有跨圈人气材料支撑 B。",
+          "sources": [
+            {
+              "label": "瑶光军团作战记录",
+              "url": "https://zkillboard.com/corporation/98725234/top/year/2026/month/9/ship/45534/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "在瑶光承担带队骨干职责，能协调团内成员与日常行动，基层组织协调按 C 评。",
+          "sources": [
+            {
+              "label": "War martyrdom Freedom 公开角色资料",
+              "url": "https://esi.evetech.net/latest/characters/2115488091/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "主号驾驶神示级无畏有 45 条、勒维亚坦级泰坦有 5 条参与击杀，另有长须鲸与大量恶狼实战，双主力号的重船投入支持 B。矿物清单不算产业收入，长须鲸战斗记录也不当作已证实采矿。",
+          "sources": [
+            {
+              "label": "War martyrdom Freedom zKillboard",
+              "url": "https://zkillboard.com/character/2115488091/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

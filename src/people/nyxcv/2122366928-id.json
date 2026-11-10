@@ -41,6 +41,77 @@
       "00区",
       "NC",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:03:15Z",
+      "verdict": "前线带队、后方管技术，公开岗位和战斗记录互相对得上。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "材料未见足以明显超出常人基线的争议或个人轶事。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队名单",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "角色快照记录五千余次击杀，长期前线作战，战斗量明显突出。",
+          "sources": [
+            {
+              "label": "NyxCV 战斗记录",
+              "url": "https://zkillboard.com/character/2122366928/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "军团官网列为前线 FC，且 zKillboard 认证 FC (MEDIUM)，达到有资质的持续带队档。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队名单",
+              "url": "https://foxor.cc/team/"
+            },
+            {
+              "label": "NyxCV zKillboard 认证",
+              "url": "https://zkillboard.com/character/2122366928/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "担任前线 FC 并受军团托付带队，能体现一定团队信任；没有更广泛个人影响力材料。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队名单",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "现有材料显示前线指挥与 IT 运维职责，没有联盟外交或派系协调履历。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队名单",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "击杀价值不等于个人净资产，材料没有可靠的个人财富或产业记录。",
+          "sources": [
+            {
+              "label": "NyxCV 战斗记录",
+              "url": "https://zkillboard.com/character/2122366928/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -1,31 +1,31 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "2874813",
   "name": "Dmanson",
   "url": "https://space.bilibili.com/2874813/",
   "identity": {
     "state": "confirmed",
     "person": "d-manson",
-    "material": "src/people/d-manson/materials-d-manson.md",
+    "material": "src/people/d-manson/materials-d-manson.json",
     "label": "D哥哥",
     "evidence": [
       "同名"
     ],
     "related": [
       {
-        "material": "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
+        "material": "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/otsasai-2021/materials-otsasai-2021.md",
+        "material": "src/battles/otsasai-2021/materials-otsasai-2021.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/asakai-2013/materials-asakai-2013.md",
+        "material": "src/battles/asakai-2013/materials-asakai-2013.json",
         "label": "战役相关视频"
       }
     ]
@@ -49,29 +49,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/d-manson/materials-d-manson.md"
+        "evidence": "src/people/d-manson/materials-d-manson.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID2874813](https://space.bilibili.com/2874813/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/d-manson/materials-d-manson.md"
+        "source": "src/people/d-manson/materials-d-manson.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/d-manson/materials-d-manson.md"
+        "source": "src/people/d-manson/materials-d-manson.json"
       },
       {
         "text": "复用UID2874813最新／最多播放各42条与选中排序。另读合集页，EVE系列11条，本页展示6条，主要2017年录像。首批热门5篇、招募帖两篇旧比赛，共7个不同作品，其中一篇实际属别的UP；巨蟒、海神首取滚轮调用超时，随后其他页均正常，再在预留预算内各恢复一次，未遇403／412／429、验证码，不换出口。合计9次作品导航、7篇成功、75个主评论线程，预览以外回复未展开，未看影像／声音／字幕。与W佬共20次Chrome导航上限，包含双方合集。",
-        "source": "src/people/d-manson/materials-d-manson.md"
+        "source": "src/people/d-manson/materials-d-manson.json"
       },
       {
         "text": "两篇均为2018年投稿，不在此前实际展示的2017年系列六篇中，不能把推荐栏当所属合集。仍需公开原作者署名、原片出处或角色对应文字来厘清归属；先保留上述原始标题与已读内容，不自动认D哥哥本人操作，也不将来源未核写成作品不优秀。此为可继续的具体B站候选缺口，未读取视听，不扩到BR／KM。",
-        "source": "src/people/d-manson/materials-d-manson.md"
+        "source": "src/people/d-manson/materials-d-manson.json"
       },
       {
         "text": "代表签名：[KM 125016212](https://zkillboard.com/kill/125016212/)。",
-        "source": "src/people/d-manson/materials-d-manson.md"
+        "source": "src/people/d-manson/materials-d-manson.json"
       }
     ],
     "listings": [
@@ -1070,10 +1070,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/d-manson/materials-d-manson.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "恢复后14主线程。简介明确原片 `vb4mxCbsxtE`、称4000DPS，与标题3000+不冲突但均未实测；附BR `68404d7f82347e001243f46a`，未取。观众围绕电子战、舰队选择和对方FC争论；别人说怎样就能打赢，不当本人战术结论或本人操作。作者目前文字仅短转述，尚无足够个人制作说明，未荐、不判差。"
       },
       "usage": {
         "body": true,
@@ -1098,10 +1096,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/d-manson/materials-d-manson.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "恢复后14主线程。简介仅原片 `zhhsrw9yv2M`。Oemgkai长评谈冰雪节加成／增效剂、超载与修量、怪帮网等，是评论者解释，未核原作过程，不认D哥哥教学内容／实际操作。未荐，保留可查文字背景，不把原片好评当视听验收。"
       },
       "usage": {
         "body": true,
@@ -1126,9 +1122,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/d-manson/materials-d-manson.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1154,10 +1147,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/d-manson/materials-d-manson.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "外网原片配有D哥哥的具体中文导读，指出建筑与舰队配合的看点，也回应建筑流程；连建筑名称也在评论里引出纠正，战报之外又多了一堂建筑课。"
       },
       "usage": {
         "body": true,
@@ -1182,10 +1173,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/d-manson/materials-d-manson.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "20主线程。简介仅称神装掠夺对50人小队、很high，无本人驾驶或制作说明。萌新崖、梅塞施密特幺零九质疑摆拍；有人谈缺毁电／电子战，有人批操作，都是观众判断，不据此认定摆拍属实或D哥哥伪造影片。本人只对CVA话题回梗。此前用“没有加工说明”不荐不成立；现保留候选，具体待核是英文原始分P所对应的原作者与驾驶员，不是要求它另有人物故事。"
       },
       "usage": {
         "body": false,
@@ -1210,10 +1199,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/d-manson/materials-d-manson.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "6主线程。简介只说贴脸输出high，观众谈电池、修量／装配，作者回一个梗。未认片中驾驶员为他本人，原作来源待核；撤销因短简介／加工范围不足而淘汰的判断，保留候选。"
       },
       "usage": {
         "body": false,
@@ -1238,9 +1225,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/otsasai-2021/materials-otsasai-2021.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1266,11 +1250,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/fwst-8-2020/materials-fwst-8-2020.md",
-          "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（Dmanson）：PAPI方NC小旗舰与缪宁视角，简介注明原作来源，可对照星城攻防叙事。"
       },
       "usage": {
         "body": false,

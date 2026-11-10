@@ -4,8 +4,8 @@
   "url": "https://tieba.baidu.com/p/10635420254",
   "title": "在frt死之前，这游戏永远无法正常交流了",
   "references": [
-    "src/people/fley-den/materials-fley-den.md",
-    "src/people/shawn-wade/materials-shawn-wade.md",
+    "src/people/fley-den/materials-fley-den.json",
+    "src/people/shawn-wade/materials-shawn-wade.json",
     "src/people/shawn-wade/shawn-wade.md"
   ],
   "legacy_records": [
@@ -13,7 +13,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10635420254",
-        "初始引用文件": "src/people/fley-den/materials-fley-den.md",
+        "初始引用文件": "src/people/fley-den/materials-fley-den.json",
         "首尾状态": "首尾已取",
         "接口回复数": "164",
         "主楼总页数": "3",

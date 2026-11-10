@@ -73,6 +73,63 @@ test('receipts become stale on own prose, alts, shared evidence and newly linked
     assert.equal(call('card', 'person:demo').state, 'stale', change);
   }
 });
+test('素材引用的B站JSON参与复查指纹，摘要变动使旧结论失效', t => {
+  const { put, call, mark } = fixture(t);
+  const archive = 'docs/bilibili/123.json';
+  put(archive, { uid: '123', videos: [{ bvid: 'BV1abcdefghJ', reading: { digest: '原有作者回应。[原始证据](../sources/shared.md)' } }] });
+  put('src/people/demo/materials-demo.md', '# 素材\n[作品摘记](../../../docs/bilibili/123.json)，BV1abcdefghJ。');
+  assert.deepEqual(call('card', 'person:demo').sharedSources, [archive, 'docs/sources/shared.md']);
+  mark();
+  assert.equal(call('card', 'person:demo').state, 'reviewed');
+  put('docs/sources/shared.md', '# 共享\n原始证据出现新上下文。');
+  assert.equal(call('card', 'person:demo').state, 'stale');
+  mark();
+  put(archive, { uid: '123', videos: [{ bvid: 'BV1abcdefghJ', reading: { digest: '新取得的作者回应，旧说法有误。' } }] });
+  assert.equal(call('card', 'person:demo').state, 'stale');
+});
+test('材料 JSON 的投影可读与定位；旧 Markdown 回执不迁写并因输入迁移变 stale', t => {
+  const { root, put, call, mark } = fixture(t);
+  mark();
+  const oldReceipt = fs.readFileSync(path.join(root, 'docs/reviews/combat/person/demo.json'), 'utf8');
+  const legacy = fs.readFileSync(path.join(root, 'src/people/demo/materials-demo.md'), 'utf8');
+  fs.rmSync(path.join(root, 'src/people/demo/materials-demo.md'));
+  put('src/people/demo/materials-demo.json', { version: 1, type: 'material', title: '素材', sections: [
+    { id: 'intro', heading: '素材', level: 1, content: '' },
+    { id: 'portrait', heading: '画像', level: 2, content: legacy.slice(legacy.indexOf('## 画像')).replace(/^## 画像\n/, '') },
+  ] });
+  assert.equal(call('card', 'person:demo').state, 'stale');
+  assert.equal(fs.readFileSync(path.join(root, 'docs/reviews/combat/person/demo.json'), 'utf8'), oldReceipt);
+  const read = call('read', 'person:demo', '--file', 'material');
+  assert.equal(read.file, 'src/people/demo/materials-demo.json');
+  assert.ok(read.lines.some(line => line.text === '## 画像'));
+  const features = JSON.parse(fs.readFileSync(path.join(root, 'docs/review-features.json'), 'utf8'));
+  features['writing-depth'] = { kinds: ['person'], pattern: '画像', rules: [{ file: 'docs/rules.md', heading: '## 战斗' }], checks: { narrative: '正文叙述' } };
+  put('docs/review-features.json', features);
+  call('accept', '--feature', 'writing-depth', '--change', 'relax');
+  const template = call('template', 'person:demo', '--feature', 'writing-depth');
+  assert.ok(template.anchors, JSON.stringify(template));
+  assert.ok(template.anchors['src/people/demo/materials-demo.json']?.records.some(anchor => anchor.heading === '## 画像'), JSON.stringify(template.anchors));
+});
+test('材料 JSON 递归跟踪来源 JSON 与 B站作品 JSON，深层改动使回执失效', t => {
+  const { root, put, call, mark } = fixture(t);
+  fs.rmSync(path.join(root, 'src/people/demo/materials-demo.md'));
+  put('src/people/demo/materials-demo.json', { version: 1, type: 'material', title: '素材', sections: [
+    { id: 'proof', heading: '作品材料', level: 1, content: '[共享来源](../../../docs/sources/shared.json)。\n' },
+  ] });
+  put('docs/sources/shared.json', { version: 1, type: 'material', title: '共享来源', sections: [
+    { id: 'proof', heading: '共享证据', level: 2, content: '[作品档案](../bilibili/123.json)。[关联人物](../../src/people/other/materials-other.json)\n' },
+  ] });
+  put('src/people/other/materials-other.json', { version: 1, type: 'material', title: '关联人物', sections: [
+    { id: 'other', heading: '其他事件', level: 2, content: '[另一来源](../../../docs/sources/unrelated.json)\n' },
+  ] });
+  put('docs/sources/unrelated.json', { version: 1, type: 'material', title: '无关事件', sections: [] });
+  put('docs/bilibili/123.json', { uid: '123', videos: [{ bvid: 'BV1abcdefghJ', reading: { digest: '原始作品摘要' } }] });
+  assert.deepEqual(call('card', 'person:demo').sharedSources, ['docs/sources/shared.json', 'docs/bilibili/123.json']);
+  mark();
+  assert.equal(call('card', 'person:demo').state, 'reviewed');
+  put('docs/bilibili/123.json', { uid: '123', videos: [{ bvid: 'BV1abcdefghJ', reading: { digest: '更新后的作品摘要' } }] });
+  assert.equal(call('card', 'person:demo').state, 'stale');
+});
 test('unrelated prose and rule sections do not invalidate a review; selected rule edits must be declared', t => {
   const { put, call, mark, accept } = fixture(t);
   mark();

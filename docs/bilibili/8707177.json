@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "8707177",
   "name": "活动送的圣晶石",
   "url": "https://space.bilibili.com/8707177/",
   "identity": {
     "state": "confirmed",
     "person": "feng-xuetian",
-    "material": "src/people/feng-xuetian/materials-feng-xuetian.md",
+    "material": "src/people/feng-xuetian/materials-feng-xuetian.json",
     "label": "圣晶石",
     "evidence": [
       "PMA视角《PMA噩梦的上半生》、J-TPTA千人旗舰战；对应欧服角色feng xuetian（2114544750，所属军团PMA / 98626718）"
     ],
     "related": [
       {
-        "material": "src/people/feng-xuetian/materials-feng-xuetian.md",
+        "material": "src/people/feng-xuetian/materials-feng-xuetian.json",
         "label": "本人列传素材"
       },
       {
-        "material": "src/battles/j-tpta-2022/materials-j-tpta-2022.md",
+        "material": "src/battles/j-tpta-2022/materials-j-tpta-2022.json",
         "label": "战役相关视频"
       }
     ]
@@ -310,11 +310,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/feng-xuetian/materials-feng-xuetian.md",
-          "src/battles/j-tpta-2022/materials-j-tpta-2022.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指名J-TPTA千人旗舰战。"
       },
       "usage": {
         "body": false,

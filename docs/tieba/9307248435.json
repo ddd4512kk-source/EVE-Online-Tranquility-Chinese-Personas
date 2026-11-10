@@ -4,14 +4,14 @@
   "url": "https://tieba.baidu.com/p/9307248435",
   "title": "标题五个字",
   "references": [
-    "docs/leads/tieba-yeluo-tax-replies.md",
+    "docs/leads/tieba-yeluo-tax-replies.json",
     "src/people/frost-clancy/frost-clancy.md",
-    "src/people/frost-clancy/materials-frost-clancy.md",
+    "src/people/frost-clancy/materials-frost-clancy.json",
     "src/people/huajianxiao/huajianxiao.md",
-    "src/people/huajianxiao/materials-huajianxiao.md",
+    "src/people/huajianxiao/materials-huajianxiao.json",
     "src/people/joy-chong/joy-chong.md",
-    "src/people/joy-chong/materials-joy-chong.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "src/people/joy-chong/materials-joy-chong.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json",
     "src/people/sk-mmmm/sk-mmmm.md"
   ],
   "legacy_records": [
@@ -19,7 +19,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9307248435",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md;src/people/sk-mmmm/sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json;src/people/sk-mmmm/sk-mmmm.md",
         "首尾状态": "首尾已取",
         "接口回复数": "222",
         "主楼总页数": "2",

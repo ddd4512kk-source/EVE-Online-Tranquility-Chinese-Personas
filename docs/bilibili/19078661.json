@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "19078661",
   "name": "GLaBOSS",
   "url": "https://space.bilibili.com/19078661/",
   "identity": {
     "state": "source",
     "person": null,
-    "material": "src/people/kuo-kuo/materials-kuo-kuo.md",
+    "material": "src/people/kuo-kuo/materials-kuo-kuo.json",
     "label": "阔阔素材",
     "evidence": [
-      "《制裁 Frt 脚本大航》，见[阔阔素材](../src/people/kuo-kuo/materials-kuo-kuo.md)；另有《欧服传奇指挥Progodlegend如何玩EVE》"
+      "《制裁 Frt 脚本大航》，见[阔阔素材](../src/people/kuo-kuo/materials-kuo-kuo.json)；另有《欧服传奇指挥Progodlegend如何玩EVE》"
     ],
     "related": [
       {
-        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.json",
         "label": "战役相关视频"
       }
     ]
@@ -61,10 +61,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "B站搜索所得；投稿日2020-10-16，简介挂YouTube原片、EN-PL军团信息与br.evetools战报\n\n（GLaBOSS）：TEST一方的视角，投稿者在简介里挂的是TEST华人军团EN-PL的招募信息。"
       },
       "usage": {
         "body": false,
@@ -89,9 +87,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/kuo-kuo/materials-kuo-kuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

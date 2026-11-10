@@ -2,8 +2,14 @@
 {%- set aff = char.affiliation -%}
 {%- if aff -%}
 <span class="aff">
-  <span class="aff-corp">{% if affLink %}<a href="https://evewho.com/corporation/{{ aff.corporation.id }}" target="_blank" rel="noopener noreferrer">{{ aff.corporation.name }}</a>{% else %}{{ aff.corporation.name }}{% endif %}{% if aff.corporation.ticker %} <span class="ticker">[{{ aff.corporation.ticker }}]</span>{% endif %}</span>
-  {%- if aff.alliance %}<span class="aff-sep"> · </span><span class="aff-ally">{% if affLink %}<a href="https://evewho.com/alliance/{{ aff.alliance.id }}" target="_blank" rel="noopener noreferrer">{{ aff.alliance.name }}</a>{% else %}{{ aff.alliance.name }}{% endif %}{% if aff.alliance.ticker %} <span class="ticker">&lt;{{ aff.alliance.ticker }}&gt;</span>{% endif %}</span>{% endif %}
+  {#- aff-main 收军团名与缩写：目录卡片里限两行，过长的军团名以省略号截断，悬停看全名 -#}
+  <span class="aff-main"><span class="aff-corp"><span class="aff-corp-name" title="{{ aff.corporation.name }}">{% if affLink %}<a href="https://evewho.com/corporation/{{ aff.corporation.id }}" target="_blank" rel="noopener noreferrer">{{ aff.corporation.name }}</a>{% else %}{{ aff.corporation.name }}{% endif %}</span></span> <span class="aff-tickers">{% if aff.corporation.ticker %}<span class="ticker">[{{ aff.corporation.ticker }}]</span>{% endif %}
+  {#- 联盟只显示缩写，悬停看全名；无缩写时退回全名 -#}
+  {%- if aff.alliance %}<span class="aff-sep"> · </span><span class="aff-ally" title="{{ aff.alliance.name }}">
+    {%- if affLink %}<a href="https://evewho.com/alliance/{{ aff.alliance.id }}" target="_blank" rel="noopener noreferrer">{% endif -%}
+    {%- if aff.alliance.ticker %}<span class="ticker">&lt;{{ aff.alliance.ticker }}&gt;</span>{% else %}{{ aff.alliance.name }}{% endif -%}
+    {%- if affLink %}</a>{% endif -%}
+  </span>{% endif %}</span></span>
   {%- if aff.left_at %} <span class="aff-left">（{{ aff.left_at | ym }} 离开）</span>{% endif %}
 </span>
 {%- else -%}

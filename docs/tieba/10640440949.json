@@ -4,9 +4,9 @@
   "url": "https://tieba.baidu.com/p/10640440949",
   "title": "FRT被锤，创世联邦会来帮忙吗？",
   "references": [
-    "docs/leads/tieba-sk-questions-replies.md",
-    "src/people/noraus/materials-noraus.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "docs/leads/tieba-sk-questions-replies.json",
+    "src/people/noraus/materials-noraus.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json",
     "src/people/sk-mmmm/sk-mmmm.md"
   ],
   "legacy_records": [
@@ -14,7 +14,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10640440949",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json",
         "首尾状态": "首尾已取",
         "接口回复数": "65",
         "主楼总页数": "1",

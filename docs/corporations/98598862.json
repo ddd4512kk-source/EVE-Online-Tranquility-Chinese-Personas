@@ -21,7 +21,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98598862.md"
+        "docs/corporations/notes/member-research/98598862.json"
       ],
       "entries": [
         {
@@ -640,7 +640,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98598862.md"
+        "docs/corporations/notes/member-research/98598862.json"
       ],
       "entries": [
         {
@@ -1327,7 +1327,7 @@
     {
       "label": "珉",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98598862.md#混沌历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98598862.json#混沌历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2112509044",
@@ -1339,7 +1339,7 @@
     {
       "label": "大狙",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98598862.md#混沌历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98598862.json#混沌历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2116111891",
@@ -1349,7 +1349,7 @@
     {
       "label": "柔情似水",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98598862.md#混沌历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98598862.json#混沌历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2114557066",
@@ -1362,7 +1362,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "1",
         "alliance": "Fraternity.",
@@ -1373,15 +1373,15 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-11",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "s2eirio / 2114589633",
-        "prior_finding": "已收录；[人物素材](../../../src/people/s2eirio/materials-s2eirio.md)"
+        "prior_finding": "已收录；[人物素材](../../../src/people/s2eirio/materials-s2eirio.json)"
       }
     }
   ],
   "references": [
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98598862.md"
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98598862.json"
   ]
 }

@@ -80,6 +80,73 @@
       "FRT",
       "联盟管理",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:20:00Z",
+      "verdict": "早期 FRT 财务总监，用 Excel 算清兄弟会每一笔糊涂账的白发账房。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "做事公开透明，在论坛写历史对账单开诚布公请大家监督，言行极其务实守序，常人模范。",
+          "sources": [
+            {
+              "label": "LULU奶爸回忆录",
+              "url": "https://tieba.baidu.com/p/3720945487"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "击杀仅540次，长年专注于内政后勤与文职财务，极少参与前线正面突击。",
+          "sources": [
+            {
+              "label": "lulu love zKillboard",
+              "url": "https://zkillboard.com/character/92189699/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "专注于军团与联盟财务月报管理，未直接担任战场大舰队作战指挥官。",
+          "sources": [
+            {
+              "label": "蜜蜂回忆录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "凭借干净清晰的账目与担当精神赢得各派军团尊重，在老FRT人心中威望良好。",
+          "sources": [
+            {
+              "label": "LULU奶爸回忆录",
+              "url": "https://tieba.baidu.com/p/3720945487"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "作为早期FRT核心高层与LOTM总监，协助维系艰难时期的联盟制度运转与财政平衡。",
+          "sources": [
+            {
+              "label": "LULU奶爸回忆录",
+              "url": "https://tieba.baidu.com/p/3720945487"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "执掌联盟财务大印，核销数以千亿计的战损与启动资金，具有深厚的财政调配经验与资本储备。",
+          "sources": [
+            {
+              "label": "LULU奶爸回忆录",
+              "url": "https://tieba.baidu.com/p/3720945487"
+            }
+          ]
+        }
+      }
+    }
   }
 }

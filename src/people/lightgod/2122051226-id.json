@@ -64,7 +64,7 @@
           "uid": "1058646646",
           "name": "亮神3",
           "sources": [
-            "materials-lightgod.md"
+            "materials-lightgod.json"
           ]
         }
       ]
@@ -90,6 +90,73 @@
       "高安",
       "B站",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "护航每做一次，视频就续一集。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "护航翻车与招新玩笑属轻度糗事。",
+          "sources": [
+            {
+              "label": "铁道军团护航系列",
+              "url": "https://www.bilibili.com/video/BV1bNXMBiEAa"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "百余击杀和系列护航实战，按熟练职责评。",
+          "sources": [
+            {
+              "label": "亮神 zKillboard 战斗记录",
+              "url": "https://zkillboard.com/character/2122051226/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "长期组织护航公开队，实际带领活动。",
+          "sources": [
+            {
+              "label": "阿巴宗护航行动记录",
+              "url": "https://www.bilibili.com/video/BV1bNXMBiEAa"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "教学与公益护航有稳定观众和成员。",
+          "sources": [
+            {
+              "label": "铁道护航与招募记录",
+              "url": "https://tieba.baidu.com/p/9842536403"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "铁道实际总监并负责高安分团。",
+          "sources": [
+            {
+              "label": "铁道军团成立与护航帖",
+              "url": "https://tieba.baidu.com/p/9810936812"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "护航与教学投入可见，未见雄厚个人产业。",
+          "sources": [
+            {
+              "label": "阿巴宗护航行动记录",
+              "url": "https://www.bilibili.com/video/BV1jx3HzNEHK/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

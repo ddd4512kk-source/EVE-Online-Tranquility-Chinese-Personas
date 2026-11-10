@@ -28,7 +28,7 @@
         "id": 115836654,
         "name": "Reimu Shang shan1",
         "sources": [
-          "materials-reimu-suzumiya.md"
+          "materials-reimu-suzumiya.json"
         ],
         "zkb": {
           "kills": 0,
@@ -59,6 +59,77 @@
       "NC",
       "军团管理",
       "新人教官"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "白天招新人，夜里抓矿船。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "三神裔仙人与战术白给是普通整活。",
+          "sources": [
+            {
+              "label": "3.3B涅斯托自爆击毁战报",
+              "url": "https://zkillboard.com/kill/115836654/"
+            },
+            {
+              "label": "FOX团队人事总监页面",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "千余击杀并专精救世黑隐抓船，资深战斗路径。",
+          "sources": [
+            {
+              "label": "黑隐连环猎杀战报",
+              "url": "https://zkillboard.com/character/2118143751/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "新人教官和人事总监未见实战带队履历。",
+          "sources": [
+            {
+              "label": "抵抗之狐官网教官简介",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "长期接待新人和教官管理，支持主要在军团内。",
+          "sources": [
+            {
+              "label": "人事总监公开致辞",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "官网核心股东、人事总监，实际管理职责明确。",
+          "sources": [
+            {
+              "label": "FOX核心股东架构",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "持续黑隐与高价值战备投入，达到个人战备B。",
+          "sources": [
+            {
+              "label": "尼铎格尔战损档案",
+              "url": "https://zkillboard.com/kill/132535266/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

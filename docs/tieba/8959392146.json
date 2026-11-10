@@ -4,8 +4,8 @@
   "url": "https://tieba.baidu.com/p/8959392146",
   "title": "不知不觉就入坑一年了来个回忆录吧。",
   "references": [
-    "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
-    "src/people/senri9067/materials-senri9067.md",
+    "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.json",
+    "src/people/senri9067/materials-senri9067.json",
     "src/people/senri9067/senri9067.md"
   ],
   "legacy_records": [
@@ -13,7 +13,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "8959392146",
-        "初始引用文件": "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.md",
+        "初始引用文件": "src/people/gongcheng-xiangmu/materials-gongcheng-xiangmu.json",
         "首尾状态": "首尾已取",
         "接口回复数": "50",
         "主楼总页数": "1",

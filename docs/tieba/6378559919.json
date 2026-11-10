@@ -5,10 +5,10 @@
   "title": "RR旗下隐星军团管理神话借钱不还！",
   "references": [
     "docs/tieba-review-2026-10-10.md",
-    "src/people/domityphoon/materials-domityphoon.md",
+    "src/people/domityphoon/materials-domityphoon.json",
     "src/people/karl-booker/karl-booker.md",
-    "src/people/karl-booker/materials-karl-booker.md",
-    "src/people/vagabond-z/materials-vagabond-z.md",
+    "src/people/karl-booker/materials-karl-booker.json",
+    "src/people/vagabond-z/materials-vagabond-z.json",
     "src/people/vagabond-z/vagabond-z.md"
   ],
   "legacy_records": [
@@ -16,7 +16,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "6378559919",
-        "初始引用文件": "src/people/vagabond-z/materials-vagabond-z.md;src/people/vagabond-z/vagabond-z.md",
+        "初始引用文件": "src/people/vagabond-z/materials-vagabond-z.json;src/people/vagabond-z/vagabond-z.md",
         "首尾状态": "首尾已取",
         "接口回复数": "460",
         "主楼总页数": "5",

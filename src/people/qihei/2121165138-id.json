@@ -101,7 +101,74 @@
       "00区",
       "D.C",
       "著名FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:31Z",
+      "verdict": "盗号把怯薛39座建筑转走，逼联盟自拆两千亿星城退游；新伊甸史上最惨烈盗号毁团惨案。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "他把怯薛 39 座建筑搬进自己控制的空壳团，六百人被迫自拆两千亿星城；最后删号离场，把残局留给全盟。",
+          "sources": [
+            {
+              "label": "FRT 怯薛盗号惨案官方通告",
+              "url": "https://winterco.org/2025/04/23/659/frt-lian-meng-geng-xin-tong-gao-20254/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号已有 6264 次击杀、38 次单杀和 184 次无畏击杀；确认小号另有 205 次无畏击杀，旗舰实战积累突出。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121165138/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "从 FRT 怯薛起队、在艾格玛尔混战带队，到 DC 担任旗舰 FC，跨联盟持续指挥，达到联盟重要 FC 档。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/kill/135008430/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "现有材料未显示稳定拥趸或广泛号召力，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9665116867"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "列传未见高层利益协调或组织管理，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9665116867"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "主号与两枚已确认活跃小号分别有6,264、723、674次击杀，三号均过百，财力至少A。统计中的5次泰坦击杀是被击毁目标数，不代表本人持有泰坦。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9665116867"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -111,7 +178,7 @@
         "name": "qihei",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收QHei",
         "sources": [
-          "materials-qihei.md"
+          "materials-qihei.json"
         ],
         "zkb": {
           "kills": 674,
@@ -126,7 +193,7 @@
         "name": "QHei2",
         "basis": "与收录号同词根；2024-05-05、2024-05-12两次与qihei同分钟进同一军团，2025-04-28同日进98802264",
         "sources": [
-          "materials-qihei.md#alts-2026-11-01"
+          "materials-qihei.json#alts-2026-11-01"
         ],
         "zkb": {
           "kills": 723,
@@ -141,7 +208,7 @@
         "name": "I M Taitan",
         "basis": "2024-11-01建号三分钟后进qihei所在98694557，2025-04-29随qihei转团次日离开",
         "sources": [
-          "materials-qihei.md#alts-2026-11-01"
+          "materials-qihei.json#alts-2026-11-01"
         ],
         "zkb": {
           "kills": 4,

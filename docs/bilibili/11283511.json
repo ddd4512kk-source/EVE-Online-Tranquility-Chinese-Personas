@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "11283511",
   "name": "Karthuser",
   "url": "https://space.bilibili.com/11283511/",
@@ -17,7 +17,7 @@
         "label": "仓库提及，未核对应"
       },
       {
-        "material": "src/people/governor-lee/materials-governor-lee.md",
+        "material": "src/people/governor-lee/materials-governor-lee.json",
         "label": "仓库提及，未核对应"
       }
     ]
@@ -65,11 +65,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/governor-lee/governor-lee.md",
-          "src/people/governor-lee/materials-governor-lee.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（2021-05）肃正 2021 宣传视频，B 站 [BV15y4y137iS](https://www.bilibili.com/video/BV15y4y137iS)（UP Karthuser，播放 3324）。评论接口 412，未读。\n\n可见文字复读：五条可见主楼已读，题为肃正2021宣传视频，主楼无文字，二楼链接BV15y4y137iS，后面只顶帖；视频须独立看，不能按标题补视频讲话。\n\n作者Karthuser（11283511），简介明确为欧服西北肃正招新宣传，并列游戏联系人Governor Lee；页面总评论数21，评论未读。"
       },
       "usage": {
         "body": false,

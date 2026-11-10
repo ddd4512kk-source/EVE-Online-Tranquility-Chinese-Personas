@@ -33,7 +33,7 @@
         "id": 2123483928,
         "name": "Rainbow'Sea",
         "sources": [
-          "materials-kinomoto-sakura.md"
+          "materials-kinomoto-sakura.json"
         ],
         "zkb": {
           "kills": 526,
@@ -59,6 +59,43 @@
     "tags": [
       "00区",
       "D.C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "给老板递了邀请函，也顺手贴上了禁入牌；出门还开泰坦。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "刚把极端荣耀拉进群，立刻写“荣耀与狗不得入内”；邀请与羞辱连成同一幕，荒唐出格，但止于群聊名场面。",
+          "sources": [{ "label": "kinomoto'sakura zKillboard", "url": "https://zkillboard.com/character/2123483807/" }]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "黑隐战列、隐轰与旗舰都是常见船型，数百次参与击杀，还曾驾驶泰坦参战，属于资深特种与重船玩家。",
+          "sources": [{ "label": "kinomoto'sakura zKillboard", "url": "https://zkillboard.com/character/2123483807/" }]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "zKillboard 标有 FC (LOW)，具备小队带队资质；现有材料未见更大舰队或战区统御，定 B。",
+          "sources": [{ "label": "kinomoto'sakura zKillboard", "url": "https://zkillboard.com/character/2123483807/" }]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "现有故事只有出言损老板与同群作战，没有可见追随或号召记录，评常人基准 D。",
+          "sources": [{ "label": "kinomoto'sakura zKillboard", "url": "https://zkillboard.com/character/2123483807/" }]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "故事聚焦群管理和对老板开玩笑，未见外交斡旋或派系经营，评常人基准 D。",
+          "sources": [{ "label": "kinomoto'sakura zKillboard", "url": "https://zkillboard.com/character/2123483807/" }]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "战绩中出现旗舰与泰坦，但装备和舰队资产不能直接换算个人身家；没有个人资产材料，评自给基准 D。",
+          "sources": [{ "label": "kinomoto'sakura zKillboard", "url": "https://zkillboard.com/character/2123483807/" }]
+        }
+      }
+    }
   }
 }

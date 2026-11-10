@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "381738365",
   "name": "我不是猫猫人",
   "url": "https://space.bilibili.com/381738365/",
   "identity": {
     "state": "confirmed",
     "person": "ryan-claire",
-    "material": "src/people/ryan-claire/materials-ryan-claire.md",
+    "material": "src/people/ryan-claire/materials-ryan-claire.json",
     "label": "云曦",
     "evidence": [
       "短链指向此空间"
     ],
     "related": [
       {
-        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "material": "src/battles/obe-2026/materials-obe-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -37,29 +37,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/ryan-claire/materials-ryan-claire.md"
+        "evidence": "src/people/ryan-claire/materials-ryan-claire.json"
       }
     },
     "prior_notes": [
       {
         "text": "[B 站移动空间页](https://m.bilibili.com/space/381738365)可读 `window.__INITIAL_STATE__`：账号名“我不是猫猫人”、签名“一个普普通通的EVE玩家”；直播间标题为“EVE-对舞4VY-Y1战役-聊天吹水”。短链与空间 UID 对应；视频 `x/web-interface/view` 的作者 mid 也为 381738365。直播间标题只证明页面如此显示，不据此写他参加或指挥 4VY-Y1 战役。",
-        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+        "source": "src/people/ryan-claire/materials-ryan-claire.json"
       },
       {
         "text": "[本人空间UID381738365](https://space.bilibili.com/381738365/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得7、7个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+        "source": "src/people/ryan-claire/materials-ryan-claire.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+        "source": "src/people/ryan-claire/materials-ryan-claire.json"
       },
       {
         "text": "复用UID381738365最新／最多播放各7条与选中态；另核合集《FUXI成员的反收割日常》5条入口。Obe篇首次真实滚轮调用超时，后续页验证正常后预算内重读，恢复20主线程；战巡篇实际13评论，补读4主线程。洛基544播放／7评论、5ZXX465播放／5评论仅核元数据，复用已有读过的作者回复，不为凑数主动续读低关注评论。空间卡片数字是弹幕，不能把0弹幕当0评论；战巡就是低播放、评论达标的反例。",
-        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+        "source": "src/people/ryan-claire/materials-ryan-claire.json"
       },
       {
         "text": "现存7篇的双排序入口及日常合集已覆盖，本轮选五篇：Obe、一炮战列、洛基、战巡及快乐纤维。前四篇之外继续筛选的三篇情况如下：",
-        "source": "src/people/ryan-claire/materials-ryan-claire.md"
+        "source": "src/people/ryan-claire/materials-ryan-claire.json"
       }
     ],
     "listings": [
@@ -141,11 +141,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md",
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "6124播放、100评论，上传者我不是猫猫人。本人置顶说Snuff预备征服者诱敌、二十多FAX、一百多泰坦，预想凛冬进无畏／少量泰坦；又说国内六点大家有空，十多分钟凑三百多泰坦。均为**作者阵营视角的复盘说法**，不替代原BR总量，也不把人物当总指挥。本人对Dmanson错过回“看到消息百米冲刺回去开的电脑”，对StarsAwn说低安蹲一周回“艺术处理艺术处理”。新增一块出勤／叙事反差，D哥哥互链只作为已对应留言者，不补其当场出勤或5条泰坦身份。\n\n本人置顶交代凛冬一方对交战起因的理解，又在回复里讲百米冲刺开电脑、承认开场“艺术处理”，阵营叙事和个人经历都很鲜明。\n\n投稿日期为2026-10-10；标题指名Obe，置顶讲Snuff征服者诱饵与FRT泰坦集结，与本场相符。已归档的置顶及评论见云曦素材，介绍沿用作者说法。\n\n（我不是猫猫人）：从凛冬一方回顾征服者诱敌与泰坦集结；作者在置顶与评论中，还讲到看到消息后赶回家开电脑的经过。"
       },
       "usage": {
         "body": true,
@@ -170,10 +167,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-10-19核182播放／7回复、简介空；按双阈值粗筛不主动续读评论。旧文字的声音玩笑与作者接梗仍归档；本轮五个名额已满，不因简介空、没有独立故事而判作品不合格。"
       },
       "usage": {
         "body": false,
@@ -198,10 +193,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-08-08，aid `117057991545279`。评论“是 FNI 大人我们有救了”，未读到战斗经过，留作备用。\n\n想看他家门口反收割之外的纤维实战日常，可以从海军猛鲑这篇开始；作者自己拿素材清晰度开玩笑，转头又招呼熟人“你也要来”，延续了边打边喊朋友出门的频道气。"
       },
       "usage": {
         "body": true,
@@ -226,10 +219,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-04-19，aid `116431412926568`。小恒星呀问“这叫反收割？”本人回“也算是吧 差不多 反正家门口哈哈哈”；观众想让他带玩 EVE，本人回“可以可以”；观众说挖五天矿买到第一艘巡洋舰，本人回“加油”。标题“一炮一个战列”是作者给视频起的名，未凭标题统计击杀数。"
       },
       "usage": {
         "body": true,
@@ -254,10 +245,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-01-12，aid `115882814675472`。评论提“齐格菲、士力架和闪星”的声音；另有人说“我的截击”，本人回复“贴贴”。三人的角色或语音身份未核，不据此写他们出战。"
       },
       "usage": {
         "body": false,
@@ -282,10 +271,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-01-12，aid `115882814610715`。童嘉凡评论“环绕洛基减少自己的出伤”；本人回复“你别说还真是[笑哭]这逻辑环绕他没意义”。DarkDarkTT 评论“超大注记得超载吃”；本人回复“说的没错，我还没按shift就被灌满了.....”。仅按评论互动写操作复盘，不把评论者判断当作独立战斗记录。"
       },
       "usage": {
         "body": true,
@@ -310,10 +297,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ryan-claire/materials-ryan-claire.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-01-12，aid `115882814607391`。评论问“冥府？”本人回“青春版冥府”。"
       },
       "usage": {
         "body": false,

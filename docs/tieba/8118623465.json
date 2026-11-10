@@ -4,15 +4,15 @@
   "url": "https://tieba.baidu.com/p/8118623465",
   "title": "话说………九州的事情没人水吗",
   "references": [
-    "src/people/jita-ezra/materials-jita-ezra.md",
-    "src/people/roses-mary/materials-roses-mary.md"
+    "src/people/jita-ezra/materials-jita-ezra.json",
+    "src/people/roses-mary/materials-roses-mary.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "8118623465",
-        "初始引用文件": "src/people/jita-ezra/materials-jita-ezra.md;src/people/roses-mary/materials-roses-mary.md",
+        "初始引用文件": "src/people/jita-ezra/materials-jita-ezra.json;src/people/roses-mary/materials-roses-mary.json",
         "首尾状态": "首尾已取",
         "接口回复数": "35",
         "主楼总页数": "1",

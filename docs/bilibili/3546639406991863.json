@@ -1,39 +1,39 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "3546639406991863",
   "name": "抵抗之狐officials",
   "url": "https://space.bilibili.com/3546639406991863/",
   "identity": {
     "state": "confirmed",
     "person": "renard42",
-    "material": "src/people/renard42/materials-renard42.md",
+    "material": "src/people/renard42/materials-renard42.json",
     "label": "四十二",
     "evidence": [
       "本人账号，以军团官号名义运营；部分作品署“制作:四十二”"
     ],
     "related": [
       {
-        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "material": "src/battles/atioth-2026/materials-atioth-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "material": "src/battles/obe-2026/materials-obe-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/vyo-68-2026/materials-vyo-68-2026.md",
+        "material": "src/battles/vyo-68-2026/materials-vyo-68-2026.json",
         "label": "战役视频关联与来源核对"
       }
     ]
@@ -57,29 +57,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/renard42/materials-renard42.md"
+        "evidence": "src/people/renard42/materials-renard42.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID3546639406991863](https://space.bilibili.com/3546639406991863/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/renard42/materials-renard42.md"
+        "source": "src/people/renard42/materials-renard42.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/renard42/materials-renard42.md"
+        "source": "src/people/renard42/materials-renard42.json"
       },
       {
         "text": "前4篇保留精选；[76回坑新闻合作](https://www.bilibili.com/video/BV1JWti66ERx/)撤出本人推荐，合作角色仍归FOX官号封面设计，76是上传者，具体团队见共享来源。新闻的多社区合作与开放招新文字已读，未冒称42主持整部作品。已知Noraus／Vince演讲为他人讲话，本轮不以频道播放高直接代替42作品优先项。频道其余作品、合集内容与具体指挥仍待核读；原有债务、宫斗、职责和战役全部保留。原正文将40B写成“四十亿”的数量换算错误改正为40B，不据公开视频“小伙”标题归本人花费。",
-        "source": "src/people/renard42/materials-renard42.md"
+        "source": "src/people/renard42/materials-renard42.json"
       },
       {
         "text": "当时保留4条精选；2026-10-18从已核最多播放候选补足第5条，见下节。",
-        "source": "src/people/renard42/materials-renard42.md"
+        "source": "src/people/renard42/materials-renard42.json"
       },
       {
         "text": "沿已成功读取的最新／最多播放首页与5个合集／系列入口记录选择候选，不重扫频道。优先核读最多播放首页约九千播放的[《EVEonline可能的结局》](https://www.bilibili.com/video/BV1nU866oEsz/)，备选为《联盟观察第一期：在big3之外——WOMP》（BV1iBbv6NEQ9）及《EVE的列宁格勒》（BV15HXeBDEyJ）。第一篇已足够补选，后两篇未读取内容，不以未读判质量不足。",
-        "source": "src/people/renard42/materials-renard42.md"
+        "source": "src/people/renard42/materials-renard42.json"
       }
     ],
     "listings": [
@@ -650,15 +650,15 @@
         "replies": 39
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；未见外部原作或团队署名，不据上传归属断言完整作品的制作分工。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "评论把欧贝泰坦遭遇放在临近DT和FRT控制场面的语境里，一位观众称对方强进后局势已定，另一位因运输进场晚只捡到装备而惋惜；还有观众讨论泰坦与传真维修的配合，并援引2017年Snuff对钓鱼征服者作对比。这些是玩家复盘和类比，不能据此确认舰队动机、装备配置或最终战损。\n\n（抵抗之狐officials）：抵抗之狐记录WC三百泰坦正面迎战BBC、强杀征服者，标题点明欧贝与击杀成功。"
       },
       "usage": {
         "body": false,
@@ -678,17 +678,15 @@
         "replies": 15
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "标题与公开BR对应四十二的三开无畏视角；上传者已核，不据POV归纳其FC职责。"
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
-          "docs/sources/battle-video-brs-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及所附BR公开页面，实际交战星系、日期、可见分方与关联结论已归档；NoNo、irrrrv另核composition唯一KM及金额。评论仅沿已存可见范围，不称全部评论已读；未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "（抵抗之狐officials）：FOX三开无畏参战记录，标题记绝地1.8T交火、创世与龙焰对Horde 3.1；简介另附完整BR入口，可与本页主报对照。"
       },
       "usage": {
         "body": false,
@@ -708,15 +706,15 @@
         "replies": 106
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为四十二对应的官号；公开页面未列联合制作或原作署名。评论构想不等于作者本人表态。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/renard42/materials-renard42.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读公开标题、空简介及20个已加载主评论线程和可见回复；未翻页、未展开其他回复，未读影像、音频或字幕；具体评论叙事及推演边界见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "穿越抄底、孤独私服和“PH闪电归来”，玩家把宇宙末日续写成了几种舍不得散场的理由；官号点赞的抄底梗，下面还有比赚钱更扎心的后续。"
       },
       "usage": {
         "body": true,
@@ -736,16 +734,15 @@
         "replies": 16
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "标题及上传者对应抵抗之狐officials；未见原作或联合制作署名，不据POV判断实际指挥职责。"
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/vyo-68-2026/materials-vyo-68-2026.md"
-        ],
-        "scope": "已读公开标题与完整简介，已确认对应VYO，中文标题日期、上传UTC及战报UTC分开保存；未读影像、音轨或字幕，不以中文时段措辞排除。",
-        "reviewed_at": "2026-10-24"
+        "scope": "已读公开标题与完整简介，确认对应VYO并分开保存中文标题日期、上传UTC及战报UTC；评论未读，未看影像、音轨或字幕，不以中文时段措辞排除。",
+        "reviewed_at": "2026-10-24",
+        "digest": "抵抗之狐BV1Wiu66VEGe已确认对应本场，加入推荐。已读完整公开标题与简介，标题写8月11日晚、800甲马三开、射击暴风和铁壁；上传时间为2026-08-11T18:38:38Z，即北京时间8月12日02:38:38。标题中的中文作战日期、上传时刻和本页02:49—04:03 UTC战报窗口分别保存；不再把“晚间／清晨”的文字差异当作排除本场的充分条件，也不用标题改写主报窗口。原录像具体归方未独立核清，介绍只写已知三开视角，不编造其站队。"
       },
       "usage": {
         "body": false,
@@ -770,10 +767,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（抵抗之狐officials）：4月24日发布的守方战前动员，凛冬领导人Noraus回应Asher、Dark Shines；补上进攻前一日的凛冬声音。"
       },
       "usage": {
         "body": false,
@@ -793,13 +788,15 @@
         "replies": 38
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；未见外部原作或团队署名，不据上传归属断言完整作品的制作分工。"
       },
       "reading": {
-        "state": "captured",
-        "material_refs": [],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介只有笑声，评论以“Vince是谁”和催更后续战斗为主；有人称这场战斗损失比好看，同时提醒应关注VSJ星城装甲，还有人猜TEST乐见其成、NC后悔未集结超旗。作品是艾蒂斯会战的meme剪辑；这些留言体现观众的胜负与结构争论，不是作品中的战术说明，也不能确认各联盟态度。"
       },
       "usage": {
         "body": false,
@@ -824,10 +821,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指名艾蒂斯与4.7/8，投稿日2026-04-08。"
       },
       "usage": {
         "body": false,
@@ -852,10 +847,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（抵抗之狐officials）：NC领导人Vince的战后讲话，公开简介回顾连续二十多小时作战、泰坦击杀与星城攻防，并说明战争仍在继续。"
       },
       "usage": {
         "body": false,
@@ -880,7 +873,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -901,15 +893,15 @@
         "replies": 47
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为四十二对应的官号；页面未见联合制作或外部原作署名，不据上传归属补造口播者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/renard42/materials-renard42.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "（20线程）：简介复述标题与招新，未取回忆录讲述正文。评论一方怀念卡彻作战的烈度与收益，另一方讨论主权改版、撤离与管理；“夺米台风”发言不能仅凭昵称归到已有多米。以不同阵营回忆的讨论入口入选，不据标题补战争史、不拿音量批评当本人视听评价。"
       },
       "usage": {
         "body": true,
@@ -929,15 +921,15 @@
         "replies": 98
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为四十二对应的官号；页面未见联合制作或外部原作署名，不据上传归属补造口播者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/renard42/materials-renard42.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "（20线程）：简介保留PH时期FOX与北方十字军招新，作品标签sora2。可见文字主要为玩家续梗：结构警报、老FC听见舰队撞泡后“复苏”、账号传承等；后来的留言追问“PH还在吗”。均为玩笑／读者说法，不替四十二或其他人造真实现场。正文写社区互动及历史招新反差，不描述未看画面与音轨。"
       },
       "usage": {
         "body": true,
@@ -957,15 +949,15 @@
         "replies": 60
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "简介明署制作：四十二；未见其他制作署名。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/renard42/materials-renard42.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "（20线程）：简介明确“制作:四十二”。评论围绕惩罚、毛鲁斯、狮鹫、特里斯坦等用途提出异议；有人用伐木运输泰坦旧梗要求最高档。正文只写本人创作引起船型评级争论，不补视频里每条船的实际档次，也不把运输梗认作本次事件。"
       },
       "usage": {
         "body": true,
@@ -985,15 +977,15 @@
         "replies": 193
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者为四十二对应的官号；页面未见联合制作或外部原作署名，不据上传归属补造口播者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/renard42/materials-renard42.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "（20线程）：简介与置顶仅招新，未取得作者完整论证。评论“波吉君”从月卡、死亡惩罚、信息差、刷钱与群体生活列反对意见；“商见曜灬”强调别开损不起的船、出站接受PVP、休闲而非只追贵船；也有人提醒新手术语难懂。按作品引出的正反讨论入选，不把这些评论冒写成四十二讲述的观点。\n\n招新向作品下面，赞成和反对入坑的人分别谈月卡、死亡惩罚、社交与新手成本；这些互相顶撞的意见，是比一句“值得”更实在的入坑参考。"
       },
       "usage": {
         "body": true,
@@ -1013,15 +1005,15 @@
         "replies": 17
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "简介署视频录制为小周；上传账号是四十二对应的抵抗之狐officials，不把摄录归给四十二。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/renard42/materials-renard42.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存中的公开标题、简介及5个已加载主评论线程与可见回复；未翻页或展开其他楼层，未读影像、音频或字幕；评论摘要见本人素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "（13线程）：简介明确“视频录制：小周”，本次文字未见具体操作教学或四十二个人制作署名；评论有带移动牵引捡箱子等读者建议，也有活动触发困惑。本轮不选，原因是现有文字少、录制应归小周，不把官号owner当个人录制者；仍保留来源与具体未读缺口，不判作品质量差。\n\n这是新探索活动内容的新人教学，简介明确把录制署给小周，故不把摄录归给四十二。评论询问安全等级、打捞件和收益；有人说之前扫到过该目标却没认出来，也有人建议继续在基地星系刷群。后两者是玩家交流，不能当作版本收益或进入条件的权威说明。"
       },
       "usage": {
         "body": false,

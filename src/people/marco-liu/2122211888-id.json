@@ -49,6 +49,73 @@
       "00区",
       "CEO",
       "脚本"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:15:02Z",
+      "verdict": "一个人、一家军团、八台电脑和六十四个阿尔法号，预警系统因此上了外网头条。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "公开帖展示其多机多阿尔法预警安排并引发脚本争议；现有材料能确认争议，不把每项外部指控当作官方定案。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "Dracarys CEO 多开预警争议帖",
+              "url": "https://www.reddit.com/r/Eve/comments/1dt52bf/dracarys_ceo_imperium_member_showing_off_his_bot/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "角色战斗记录很少，人物材料主要关于预警系统和军团运营，没有突出战斗表现，按常人基准记 D。",
+          "sources": [
+            {
+              "label": "Mr Marco Liu 战斗记录",
+              "url": "https://zkillboard.com/character/2122211888/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "担任一人军团 CEO 不等同于舰队指挥，材料没有实际带队记录。",
+          "sources": [
+            {
+              "label": "Dracarys CEO 多开预警争议帖",
+              "url": "https://www.reddit.com/r/Eve/comments/1dt52bf/dracarys_ceo_imperium_member_showing_off_his_bot/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "外部关注来自预警争议，不能据此认定有稳定追随者或正向号召力。",
+          "sources": [
+            {
+              "label": "Dracarys CEO 多开预警争议帖",
+              "url": "https://www.reddit.com/r/Eve/comments/1dt52bf/dracarys_ceo_imperium_member_showing_off_his_bot/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "创建并担任军团 CEO，亲自运营招新和对外联系方式，属于组织管理职责。",
+          "sources": [
+            {
+              "label": "Dracarys CEO 多开预警争议帖",
+              "url": "https://www.reddit.com/r/Eve/comments/1dt52bf/dracarys_ceo_imperium_member_showing_off_his_bot/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "多开预警和军团 CEO 身份不能证明个人净资产，材料没有可靠财富或产业记录。",
+          "sources": [
+            {
+              "label": "Mr Marco Liu 战斗记录",
+              "url": "https://zkillboard.com/character/2122211888/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

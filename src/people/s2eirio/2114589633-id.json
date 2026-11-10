@@ -48,7 +48,7 @@
         "id": 2115759889,
         "name": "EIRIO Uchonela",
         "sources": [
-          "materials-s2eirio.md"
+          "materials-s2eirio.json"
         ],
         "zkb": {
           "kills": 2,
@@ -66,7 +66,7 @@
           "name": "s2eirio",
           "portrait": "tb.1.871b2b14.co9ZZM4KC7C0y0uep31FXg",
           "sources": [
-            "materials-s2eirio.md"
+            "materials-s2eirio.json"
           ]
         }
       ]
@@ -91,6 +91,73 @@
       "CEO",
       "新人教官",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T12:45:00Z",
+      "verdict": "头衔霸气喊看清楚18年建号，简介写300人却带出六千角色超级大团的大姐头E姐。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "头衔霸气喊‘看清楚了18年建的号’，简介写300人实则带出6085角色超级大团，带全团新人每晚20分钟白嫖技能点，大姐头风范拉满。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "新人零门槛325万技能点开局指南",
+              "url": "https://tieba.baidu.com/p/8415709319"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "常规战备出勤与重装巡洋战列熟练，大舰队实战表现成熟过硬，合格主力战力。",
+          "sources": [
+            {
+              "label": "s2eirio zKillboard",
+              "url": "https://zkillboard.com/character/2114589633/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "六千多号的大军团 CEO，管新人筛选和培训流水线，没有带队记录；D。",
+          "sources": [
+            {
+              "label": "混沌仲裁者军团档案",
+              "url": "https://esi.evetech.net/latest/corporations/98555248/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "贴吧发精华起号指南造福全服，每晚组织老人带新人刷技能点，被团员深情呼为‘E姐’，威望极高。",
+          "sources": [
+            {
+              "label": "新人零门槛325万技能点开局指南",
+              "url": "https://tieba.baidu.com/p/8415709319"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "执掌六千角色超级军团出任CEO，带领混沌在FRT站稳核心席位，联盟内阁重量级领袖。",
+          "sources": [
+            {
+              "label": "混沌仲裁者军团档案",
+              "url": "https://esi.evetech.net/latest/corporations/98555248/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "掌管六千角色超级军团金库、月矿与工业流水线，军团与个人资产极度浑厚。",
+          "sources": [
+            {
+              "label": "s2eirio zKillboard",
+              "url": "https://zkillboard.com/character/2114589633/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

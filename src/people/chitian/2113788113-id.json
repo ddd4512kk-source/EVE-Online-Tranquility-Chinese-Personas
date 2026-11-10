@@ -236,7 +236,74 @@
       "低素质",
       "军团管理",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "门面是清风不语明月自来，招新是九十分靠莽全补，白魔爪骑士团掌舵人炽天。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "三百亿罚单争议、友军生产冲突及雇红减打蓝家，已属严重烂事。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "炽天角色名片与简介",
+              "url": "https://zkillboard.com/character/2120421439/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号四千七百余杀，另有多个千杀小号，结合多号常规与低安经历评定。",
+          "sources": [
+            {
+              "label": "chitian zKillboard",
+              "url": "https://zkillboard.com/character/2120421439/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "建团日记主要是带新人、发船和小队活动，还需另招 FC。",
+          "sources": [
+            {
+              "label": "KZU军团公开简介",
+              "url": "https://esi.evetech.net/latest/corporations/98808817/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "低税与视频招募曾迅速吸入大批成员，也引来跨团争议。",
+          "sources": [
+            {
+              "label": "KZU军团招募公开帖",
+              "url": "https://esi.evetech.net/latest/corporations/98808817/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "一年内将 KZU 扩至华人前列并保住管理班底；失去共享不抹掉组织扩张。",
+          "sources": [
+            {
+              "label": "KZU军团档案",
+              "url": "https://zkillboard.com/corporation/98808817/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "三个号击杀一千到近两千，共计过三千亿击毁；亲自管生产又发船打架，白魔爪新人生产全补，评 A。",
+          "sources": [
+            {
+              "label": "chitian zKillboard",
+              "url": "https://zkillboard.com/character/2120421439/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -246,7 +313,7 @@
         "name": "chitian",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收chitian hehehe",
         "sources": [
-          "materials-chitian.md"
+          "materials-chitian.json"
         ],
         "zkb": {
           "kills": 1252,
@@ -260,7 +327,7 @@
         "id": 2114917439,
         "name": "chitian xiao",
         "sources": [
-          "materials-chitian.md"
+          "materials-chitian.json"
         ],
         "zkb": {
           "kills": 1986,
@@ -274,7 +341,7 @@
         "id": 2120559143,
         "name": "chitian huhuhu",
         "sources": [
-          "materials-chitian.md"
+          "materials-chitian.json"
         ],
         "zkb": {
           "kills": 144,
@@ -288,7 +355,7 @@
         "id": 2120819670,
         "name": "chitian wuhu",
         "sources": [
-          "materials-chitian.md"
+          "materials-chitian.json"
         ],
         "zkb": {
           "kills": 0,
@@ -308,7 +375,7 @@
             "心诤♬"
           ],
           "sources": [
-            "materials-chitian.md"
+            "materials-chitian.json"
           ]
         }
       ]

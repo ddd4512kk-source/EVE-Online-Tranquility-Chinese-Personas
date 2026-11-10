@@ -161,7 +161,78 @@
     "tags": [
       "D.C",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:35:00Z",
+      "verdict": "B站团子，把战场失误做成爆笑切片的战地记者，三个号同时赶上神使泰坦击毁。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把跳错诱导、抓人磨蹭的尴尬名场面做成自黑爆笑录像，三个号同时赶上神使泰坦和冥府击杀，整活战地记者。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "B站团子Yuigahama投稿专栏",
+              "url": "https://zkillboard.com/character/96646658/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀5400余次、消灭超6.4万亿，三号同开打满R-AG7W泰坦超旗绞杀，战勋卓著。",
+          "sources": [
+            {
+              "label": "Mei Kanata zKillboard",
+              "url": "https://zkillboard.com/character/96646658/"
+            },
+            {
+              "label": "R-AG7W 神使击毁记录",
+              "url": "https://zkillboard.com/kill/131023298/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "以小队突袭、三开跟队与战场纪实为主，未见大舰队FC带队资质。",
+          "sources": [
+            {
+              "label": "Mei Kanata zKillboard",
+              "url": "https://zkillboard.com/character/96646658/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站‘团子Yuigahama’战地自黑短片极受欢迎，风格幽默接地气，在DC及圈内拥趸甚众。",
+          "sources": [
+            {
+              "label": "B站团子战报专栏",
+              "url": "https://zkillboard.com/character/96646658/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "自称全宇宙白，秉持吃瓜与记录心态，不涉联盟权力派系争端，常人基准。",
+          "sources": [
+            {
+              "label": "Mei Kanata 社区发言",
+              "url": "https://zkillboard.com/character/96646658/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "三个号击杀都在六百以上，账面合计一万亿以上，泰坦、超航的场面都有名；评 A。",
+          "sources": [
+            {
+              "label": "Mei Kanata zKillboard",
+              "url": "https://zkillboard.com/character/96646658/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -171,7 +242,7 @@
         "name": "Mei Kanata",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收AI Pko；两号对应：与收录号同侃侃熊头衔、同军团",
         "sources": [
-          "materials-mei-kanata.md"
+          "materials-mei-kanata.json"
         ],
         "zkb": {
           "kills": 1815,
@@ -185,7 +256,7 @@
         "id": 2113379219,
         "name": "Mei Konata",
         "sources": [
-          "materials-mei-kanata.md"
+          "materials-mei-kanata.json"
         ],
         "basis": "与收录号同侃侃熊头衔、同军团",
         "zkb": {
@@ -200,7 +271,7 @@
         "id": 2121364826,
         "name": "Mikoto-1",
         "sources": [
-          "materials-mei-kanata.md"
+          "materials-mei-kanata.json"
         ],
         "basis": "与收录号同侃侃熊头衔、同军团",
         "zkb": {
@@ -215,7 +286,7 @@
         "id": 2121364851,
         "name": "Mikoto-3",
         "sources": [
-          "materials-mei-kanata.md"
+          "materials-mei-kanata.json"
         ],
         "basis": "与收录号同侃侃熊头衔、同军团",
         "zkb": {

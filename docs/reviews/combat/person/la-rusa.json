@@ -1,6 +1,6 @@
 {
   "status": "reviewed",
-  "note": "独立复查已核stats总览、小号、已有战役与正文战斗呈现；CEO短篇不认FC",
+  "note": "2026年买号核定，剥离前号主旧战绩，重构低安土著CEO战果",
   "evidence": [
     "src/people/la-rusa/materials-la-rusa.md",
     "src/people/la-rusa/la-rusa.md"
@@ -8,17 +8,17 @@
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "已读stats总览：2110参与击杀、约2359B，损失198、约76B，单杀76；军团子榜沉默旅人1544、Lazerhawks 510（价值更高），纪念碑、夜鹰、洛基为主，正文两段经历与月份变化相符。",
+      "note": "已核实 2026-02-07 奈何接手老号后在沉默旅人期间的 stats：1544 击杀、约 912B 目标总值，月度出勤密集；前号主 2021-2025 年 510 击杀已按规则剥离。",
       "evidence": [
         {
           "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## 2026-11-01补充"
+          "heading": "## 2026-02 起本人有效战绩与经历"
         }
       ]
     },
     "alts": {
       "status": "not-applicable",
-      "note": "identity.alts为空；登记CEO号Silent Sojourner CEO无同人桥，素材明确不并；2023招新帖楼主不归本人。",
+      "note": "identity.alts 为空；登记 CEO 号 Silent Sojourner CEO 无同人桥，素材明确不合并；前号主旧记录已作废。",
       "evidence": [
         {
           "file": "src/people/la-rusa/materials-la-rusa.md",
@@ -28,53 +28,53 @@
     },
     "peaks": {
       "status": "reviewed",
-      "note": "正文写J132601一天四座建筑与Obe泰坦，均已逐条核读KM：本号驾驶船型、伤害、final_blow=false，正文未认最后一击或指挥。",
+      "note": "核实 Obe 泰坦 KM 139047423：净化级隐轰伤害 835、final_blow=false，正文未认最后一击或单杀；旧结构 KM 已按买号事实作废。",
       "evidence": [
         {
           "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## KB与已确认经历"
+          "heading": "## 2026-02 起本人有效战绩与经历"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "本人角色在阿巴宗2026 pilots，正文只写参战名单有名；Obe大混战按共用摘要写总额，不并入未核阵营。",
+      "note": "本人在阿巴宗 2026 pilots 中；欧贝大战按共用摘要写总额与参与泰坦击杀，不并入未核阵营。",
       "evidence": [
         {
           "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## 2026-11-01补充"
-        },
-        {
-          "file": "src/people/la-rusa/materials-la-rusa.md",
-          "heading": "## KB与已确认经历"
+          "heading": "## 2026-02 起本人有效战绩与经历"
         }
       ]
     },
     "narrative": {
       "status": "reviewed",
-      "note": "Lazerhawks拆房块与沉默旅人战绩块构成综合战斗点评，泰坦块为代表战斗，均有KM依据。",
+      "note": "战绩红料块集中点评接手老号后出勤极密（1540+击杀、9000亿目标）与常用船型，泰坦块为代表战果，均有 KM 依据。",
       "evidence": [
         {
           "file": "src/people/la-rusa/la-rusa.md",
-          "contains": "奈何挂在 Lazerhawks 名下的击杀只有五百一十条"
-        },
-        {
-          "file": "src/people/la-rusa/la-rusa.md",
-          "contains": "奈何到了这里反倒比在 Lazerhawks 时勤快得多"
+          "contains": "号是新接手的，打起架来却一点不含糊。进团八个月，奈何在低安和 00 区四处游弋，打了将近一千五百五十多条击杀、参与目标超过九千亿。从 3 月起每月击杀一百四十到两百五十条，出勤密度比全职老兵还高。他最常开的是纪念碑，出动四百六十多次，其次夜鹰三百多次、洛基近三百次，再往下是救赎、勒沙克和剑齿虎；从低安的 耶舒尔 到 00 区的 1A8-6G，哪里有肉就往哪里扑。"
         }
       ]
     }
   },
   "dependencies": [
-    "docs/sources/capital-battles-2026-10-11.md",
-    "docs/sources/large-battles-2026-10-11.md",
     "src/people/la-rusa/2118160416-id.json",
     "src/people/la-rusa/la-rusa.md",
     "src/people/la-rusa/materials-la-rusa.md",
     "src/battles/ahbazon-2026/ahbazon-2026.json",
     "src/battles/ahbazon-2026/ahbazon-2026.md",
-    "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
+    "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.md"
   ],
-  "inputs": "e8d1ea24257bb22e8fc68d6b7f926a95cc1937dc3c8713c4630ba3c5dffb26ad",
+  "inputs": "3c4ded827031330ee5c32e755b28062a7f6f965e9717e21882406d63bf24e27d",
+  "inputParts": {
+    "src/people/la-rusa/2118160416-id.json": "0efaabc1411e1a29314bc127bc8d5e54a9d6908a02abd2f3710d55036c18ac8e",
+    "src/people/la-rusa/la-rusa.md": "5fe79e90da26859c414f1035ec30290a76dbb361ef3bc82a06d77c22448fddf7",
+    "src/people/la-rusa/materials-la-rusa.md": "d77328e0cb5e760d79fe058483d98af443c1b15f2814ea5e6a9b8f6c79d74a98",
+    "battle:ahbazon-2026": "706b3352010cbac6eef6222461062089460b3a3e5f39b8a207e804087af82a03",
+    "battle:amamake-2026": "82d2a151d8b7d3c6f5c4ecb9004864c3d924a251c06d05362ca52273eb0da815"
+  },
   "level": 1
 }

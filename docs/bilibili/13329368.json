@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "13329368",
   "name": "dzkell",
   "url": "https://space.bilibili.com/13329368/",
   "identity": {
     "state": "confirmed",
     "person": "jubah-musanji",
-    "material": "src/people/jubah-musanji/materials-jubah-musanji.md",
+    "material": "src/people/jubah-musanji/materials-jubah-musanji.json",
     "label": "W佬",
     "evidence": [
       "外号即UP名；搬运新闻"
     ],
     "related": [
       {
-        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.json",
         "label": "日期候选的核读与排除依据"
       }
     ]
@@ -37,7 +37,7 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "evidence": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       "opus": {
         "state": "captured",
@@ -74,31 +74,31 @@
     "prior_notes": [
       {
         "text": "## B 站 dzkell（投稿约 353，粉丝约 947）",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       {
         "text": "最新 50 条（2026-08-20—10-09）：几乎每日一条，搬运 YouTube/Reddit 并配中文标题与吐槽。",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       {
         "text": "[本人空间UID13329368](https://space.bilibili.com/13329368/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       {
         "text": "复用UID13329368最新／最多播放各42条和已核排序，注意最多播放首条标“合作”，不是本人独立上传。另读合集页：搬运视频331、欧服日常113、EVE系列15，每组仅本页最多6条；没有把列表总量当阅读量。共读9个不同作品简介与85个主评论线程，另复用已读SUS回忆与小冬委托宣传文字；未翻主评论页／展开其余楼中楼，不看影像、声音、字幕或转录。与D哥哥共20次Chrome导航，包含两人的合集和D哥哥两次恢复；本人物未遇拦截。",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       {
         "text": "[FC练兵 BV1hc411b73G](https://www.bilibili.com/video/BV1hc411b73G/)：简介仅“视频已加速”，2主线程呼W佬；[红蓝对抗 BV1cp4y1o7t1](https://www.bilibili.com/video/BV1cp4y1o7t1/)同简介，1主线程加油；[Akd将军 BV1n1421f7KM](https://www.bilibili.com/video/BV1n1421f7KM/)同简介，4主线程问小总览、称多开警示、夸W佬。三篇均由本人上传，来自角色简介7条既有代表入口，属于本人欧服日常合集。此前因仅加速、评论少而暂不荐，标准有误；已按下方修订收作本人带队／实战代表，归属结合本人频道、角色自荐与系列上下文。没有读取视听，仍不把“达成共识”的戏谑题目当真实协议，不补具体战术、命令或制作质量评价。",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       },
       {
         "text": "本轮与D哥哥共3次Chrome导航，本人占2次，均成功，无重试、无拦截；只读公开文字，未读影像、音频、字幕、AI转录或原片，未追BR/KM。以下两页均owner dzkell UID13329368，列在本人“EVE搬运视频合集”（页面当时标333条），没有把合集总量当作本次阅读量。",
-        "source": "src/people/jubah-musanji/materials-jubah-musanji.md"
+        "source": "src/people/jubah-musanji/materials-jubah-musanji.json"
       }
     ],
     "listings": [
@@ -2835,10 +2835,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-10-06：“Frt国庆攻势尝试失败/吃鸡区依旧吃鸡中/WOMP被创世暴打/无畏仙人泰坦庆生日/Init成立18周年/Snf父子暴打深水/GM主播队超无聊”。\n\n2主线程，原出处YouTube `9_nt_ejBfg8`。本人说连续两AI不可用／无俄语选项，让读者用B站翻译，不行就看图片理解大概；读者问怎么要啃俄语生肉，他指向简介，置顶也重复说明。此前正文“他还做新闻速报”易读成独立采编，改为搬运并列中文标题；保留他把己方失败写在题目里的风格，不认独立核验全部新闻。翻译失败与观众反应入新闻台一段，原片本体和翻译未读，暂不荐，不判新闻质量差。\n\n原片[9_nt_ejBfg8](https://www.youtube.com/watch?v=9_nt_ejBfg8)，实际作者[CRAKEN V／@CRAKENV](https://www.youtube.com/@CRAKENV)，俄语新闻系列，简介另挂其Twitch与VK；不能认成W佬自己的YouTube。未读音频、字幕或AI总结。"
       },
       "usage": {
         "body": true,
@@ -2863,10 +2861,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-09-09：“（指SUS并不愿意出制式队跟Frt接战了XD）”；简介“SUS在2024年7月还是8月YMJG的bait战斗令我回味无穷~”。\n\n简介链接YouTube原片，并称2024年7月或8月YMJG的bait战斗令其回味。该日期是作者模糊回忆，不消除月份分歧；页面显示1条评论，未读。\n\n的原片[0tL-DkLNrZU](https://www.youtube.com/watch?v=0tL-DkLNrZU)，实际页题“SUS PVP Vol 5 - The Leshak Boosh Bananza”，作者[Yes Be Afraid／@yesbeafraid6131](https://www.youtube.com/@yesbeafraid6131)。其简介说与Siberian Squads重甲队交战。W佬的中文标题自称W佬，不证明原片频道同属他。"
       },
       "usage": {
         "body": true,
@@ -2891,10 +2887,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "9主线程，原片 `tAN5M167sHU`；本人配文“汉堡已经成为了深水的叛徒了~XD”，属于玩梗，不推成已发生的背叛事件。其他人谈无畏速度、分割打法，是评论视角，非W本人战果。未有足够具体本人加工说明，暂不荐。\n\nW佬把“飙车bait无畏”直接写进标题，熟悉他的反时区舰队频道后，这个题目像是给战场上的意外留了一张名片。"
       },
       "usage": {
         "body": false,
@@ -2919,10 +2913,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "15主线程，简介仅外部原片 `CEJ2P7OfLDo`。Oemgkai等提POS弹飞、其他人问加速／船型，极冰说严肃学习；只是评论者观察，未按此写玩法指南或认W佬是驾驶员。个人加工、具体解说内容缺口，暂不荐，不判差。"
       },
       "usage": {
         "body": false,
@@ -2947,10 +2939,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "五年前的原片配AI字幕，简介和本人回复又把话题接回近期战局；评论里认旧片、问真假的反应，正好凑成这家新闻台拿旧事敲今天边鼓的趣味。"
       },
       "usage": {
         "body": true,
@@ -2975,10 +2965,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "外网原片配愚人节中文题目与日期提醒，评论却仍认真许愿，集中体现新闻台的坏笑；这篇不是官方改版公告。"
       },
       "usage": {
         "body": true,
@@ -3003,10 +2991,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "12主线程，原片 `dw2V0YfBSqk`；讨论反跳、网子、炮扰和ESS准入等，无本人答疑。不能把“主播教你”读成W佬亲自教学，内容和个人加工未读，暂不荐、不判差。"
       },
       "usage": {
         "body": false,
@@ -3031,10 +3017,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "7143播放、59评论、52弹幕；17个主线程，未展开折叠回复。简介只有YouTube原片 `xrABeie52-U` 和“此视频发布于5个月之前”。观众争论投弹、电池、抗性、救援和进攻舰队选择，也有人反对旁观者苛责操作；未见作者教学或具体加工说明。标题的“Init教你”不等于W佬本人教学，观众技术意见不改成他的结论，原片驾驶和战果也不归他。与前批外网教学候选相同，本页缺足够本人内容依据，未选；这不是对未读原片的质量判断。"
       },
       "usage": {
         "body": false,
@@ -3059,10 +3043,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人实战系列与角色简介的自荐作品；评论从多开聊到总览设置，想认识新闻台背后的带队FC，可以先从这条入门。"
       },
       "usage": {
         "body": true,
@@ -3087,9 +3069,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3115,10 +3094,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "围绕FRT欧洲时区练兵的本人日常，把“反时区主力”接回平常带队的功课；比热闹的新闻标题更贴近他的本业。"
       },
       "usage": {
         "body": true,
@@ -3143,11 +3120,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "- BV1XduK6hE5u“无畏仙人的日常12”：发布于2026-08-08T04:00:00Z，早于本场开战；简介是另一原作YouTube入口，原作未读。不与当晚6Q配对。"
       },
       "usage": {
         "body": false,
@@ -3172,11 +3147,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md#youtube-source-chain"
-        ],
         "scope": "作品页标题、简介、owner与YouTube原片作者已核：Metal Cosmonaut；评论未读，影像未取得，不归W佬实战。",
-        "reviewed_at": "2026-10-25"
+        "reviewed_at": "2026-10-25",
+        "digest": "BV1xGsQzYEEt《EVE-魔像级 PVP-Solo-剧本10+审判队》（3287播放），来源UID 13329368（docs/bilibili/13329368.json）。\n\n- 新补[魔像篇BV1xGsQzYEEt](https://www.bilibili.com/video/BV1xGsQzYEEt/)作品页，dzkell本人上传，3289播放、reply30，简介给出[zTmNQA5-uvI](https://www.youtube.com/watch?v=zTmNQA5-uvI)。原页题“Eve Online - Golem PvP - Solo - Baiting Small Fishes 14”，作者[Metal Cosmonaut／@metalcosmonaut915](https://www.youtube.com/@metalcosmonaut915)。评论未读，原片驾驶不归W佬。"
       },
       "usage": {
         "body": false,
@@ -3201,7 +3174,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3227,7 +3199,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3253,7 +3224,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3279,7 +3249,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3305,9 +3274,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3333,9 +3299,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3361,9 +3324,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3389,9 +3349,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/jubah-musanji/materials-jubah-musanji.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

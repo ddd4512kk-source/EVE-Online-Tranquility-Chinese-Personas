@@ -183,7 +183,82 @@
     "tags": [
       "AT19冠军",
       "AT22亚军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:31:00Z",
+      "verdict": "摘得AT19冠与AT22亚的顶尖战力，偏爱装萌新散打被罚扣奖金干社区服务，是华人竞技圈极具喜感的超级高手。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "拿过世界冠军却爱在反时区散打中装萌新FC，被拉面林在喜报中当场揭发并罚扣1000 PLEX干社区服务。",
+          "sources": [
+            {
+              "label": "AT22庆功喜报通报批评",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            },
+            {
+              "label": "AT19冠军复盘名单",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "EX",
+          "reason": "AT19世界冠军、AT22世界亚军主力选手，五场决胜局全程在场，精通1400炮与极端走位。",
+          "sources": [
+            {
+              "label": "黑莲AT19冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            },
+            {
+              "label": "AT22官方名册",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "散打小队灵魂组织者与实战大脑，具备极强的临场嗅觉，被联盟指派开课教散打。",
+          "sources": [
+            {
+              "label": "庆功公告散打导师安排",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "从靠推荐入队的新人成长为全联盟公认的世界级刀斧手，幽默风趣深受团友喜爱。",
+          "sources": [
+            {
+              "label": "黑莲复盘评价",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "纯粹的顶尖竞技打手与散打狂魔，不参与大联盟高层政治角逐。",
+          "sources": [
+            {
+              "label": "历年军团变动记录",
+              "url": "https://zkillboard.com/character/2116953232/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "双料赛事巨额奖金与冠军奖励获得者，各类特种战舰储备充足。",
+          "sources": [
+            {
+              "label": "官方赛事奖金分配",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -192,7 +267,7 @@
         "id": 2115566419,
         "name": "Funny RUA",
         "sources": [
-          "materials-funny-rua.md#at22同人补全"
+          "materials-funny-rua.json#at22同人补全"
         ],
         "basis": "与本次参赛号为同一玩家；旧收录号保留为小号",
         "zkb": {
@@ -207,7 +282,7 @@
         "id": 2119710144,
         "name": "F RUA",
         "sources": [
-          "materials-funny-rua.md#at22同人补全"
+          "materials-funny-rua.json#at22同人补全"
         ],
         "basis": "F RU系列，与F RUAA及F RUEE在2022-02-16连续建号，现与Funny RUA同军团"
       },
@@ -215,7 +290,7 @@
         "id": 2119710171,
         "name": "F RUAA",
         "sources": [
-          "materials-funny-rua.md#at22同人补全"
+          "materials-funny-rua.json#at22同人补全"
         ],
         "basis": "F RU系列连续建号，头衔滑，与F RUE共有叶落星海军团"
       },
@@ -223,7 +298,7 @@
         "id": 2119710184,
         "name": "F RUEE",
         "sources": [
-          "materials-funny-rua.md#at22同人补全"
+          "materials-funny-rua.json#at22同人补全"
         ],
         "basis": "F RU系列，与F RUA及F RUAA同日相隔数分钟建号"
       },
@@ -231,7 +306,7 @@
         "id": 2118366136,
         "name": "F RUEEEE",
         "sources": [
-          "materials-funny-rua.md#at22同人补全"
+          "materials-funny-rua.json#at22同人补全"
         ],
         "basis": "F RUE的独特扩字命名系列；与其余同系列角色一起核对，军团默认简介不另推职责"
       },
@@ -239,7 +314,7 @@
         "id": 2120949769,
         "name": "F RUOOOO",
         "sources": [
-          "materials-funny-rua.md#at22同人补全"
+          "materials-funny-rua.json#at22同人补全"
         ],
         "basis": "F RU系列，头衔滑，与同组F RUAA同在叶落星海"
       }

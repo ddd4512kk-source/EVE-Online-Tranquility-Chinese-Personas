@@ -1,31 +1,31 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "74600404",
   "name": "伊利法尔",
   "url": "https://space.bilibili.com/74600404/",
   "identity": {
     "state": "confirmed",
     "person": "yilifaer",
-    "material": "src/people/yilifaer/materials-yilifaer.md",
+    "material": "src/people/yilifaer/materials-yilifaer.json",
     "label": "伊利法尔",
     "evidence": [
       "同名；转载黑色星期五INIT视角"
     ],
     "related": [
       {
-        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/todifrauan-2025/materials-todifrauan-2025.md",
+        "material": "src/battles/todifrauan-2025/materials-todifrauan-2025.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+        "material": "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
         "label": "战役相关视频"
       }
     ]
@@ -867,7 +867,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -893,9 +892,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/todifrauan-2025/materials-todifrauan-2025.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -921,11 +917,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/yilifaer/materials-yilifaer.md",
-          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介附YouTube原片，并写“看看INIT视角吧”；两P分别为4S Corp/Flight Deck与INIT黑色星期五录像。视频是其他阵营视角入口，不据上传认定伊利法尔本人参战；32条评论未读。\n\n2024-11-29发布，既有伊利法尔素材已将本片归入1N-FJ8黑色星期五并归档评论；简介指向YouTube原片MaMbGtrh_NE，写明INIT视角。属于转载，不认定为伊利法尔本人驾驶视角。\n\n（伊利法尔（转载整理；INIT视角））：这份转载从INIT一侧看“黑色星期五”的泰坦交锋，简介保留原片入口，给多方混战补上一份阵营视角。"
       },
       "usage": {
         "body": true,
@@ -950,10 +943,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "伊利法尔（UID 74600404）2024-08-15 投稿，播放约 593，简介空。评论 杰森02 称 FNT 惹毛了 shadow、不遵守联盟群刷怪规矩，作者回“不是我就发个视频？？”。"
       },
       "usage": {
         "body": false,

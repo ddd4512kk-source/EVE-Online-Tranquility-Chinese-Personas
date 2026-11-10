@@ -21,7 +21,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98652614.md"
+        "docs/corporations/notes/member-research/98652614.json"
       ],
       "entries": [
         {
@@ -640,7 +640,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98652614.md"
+        "docs/corporations/notes/member-research/98652614.json"
       ],
       "entries": [
         {
@@ -1327,7 +1327,7 @@
     {
       "label": "Yuki",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98652614.md#图万神殿历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98652614.json#图万神殿历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2112484762",
@@ -1338,7 +1338,7 @@
     {
       "label": "沃尔war",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98652614.md#图万神殿历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98652614.json#图万神殿历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "92432204",
@@ -1348,7 +1348,7 @@
     {
       "label": "茅台",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98652614.md#图万神殿历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98652614.json#图万神殿历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "91599501",
@@ -1361,7 +1361,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "19",
         "alliance": "Guardians of Tranquility",
@@ -1372,15 +1372,15 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-12",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "fliet99 / 91254848",
-        "prior_finding": "已收录；[人物素材](../../../src/people/fliet99/materials-fliet99.md)"
+        "prior_finding": "已收录；[人物素材](../../../src/people/fliet99/materials-fliet99.json)"
       }
     }
   ],
   "references": [
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98652614.md"
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98652614.json"
   ]
 }

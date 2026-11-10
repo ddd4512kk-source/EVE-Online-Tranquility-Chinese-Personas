@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "299085813",
   "name": "RaysGames",
   "url": "https://space.bilibili.com/299085813/",
   "identity": {
     "state": "confirmed",
     "person": "flyingbee",
-    "material": "src/people/flyingbee/materials-flyingbee.md",
+    "material": "src/people/flyingbee/materials-flyingbee.json",
     "label": "蜜蜂",
     "evidence": [
       "签名写“欧服主ID:FlyingBee”，自述23RD、悟空、闪电、盘古、NC后回FRT"
     ],
     "related": [
       {
-        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.json",
         "label": "日期候选的核读与排除依据"
       }
     ]
@@ -53,11 +53,11 @@
     "prior_notes": [
       {
         "text": "**B站账号**：RaysGames（UID 299085813，https://space.bilibili.com/299085813 ）。签名自报“欧服主ID:FlyingBee 06国服公测开始，09年欧服至今，经历欧服华人起起落落，23RD，悟空，闪电，盘古，NC，现在已回FRT。”2026-10-16 B站板块扫描读空间首页：投稿116条，近作为FRT对INIT、Goons的低安与旗舰战录像（《paper INIT 一捅就破》《常规打不过不要紧，拖到对方要睡觉，跳泰坦超旗，再叫上爹就能赢了》），较早有“NC刺客欢乐大捷队”等NC时期录像；少侠《发动最后攻势！FRT向南方前进》素材致谢名单含此名。频道身份按首页自报对应；2026-10-21的作品补读与精选见下。",
-        "source": "src/people/flyingbee/materials-flyingbee.md"
+        "source": "src/people/flyingbee/materials-flyingbee.json"
       },
       {
         "text": "短链nZz1AFs解析至299085813，沿用首页自报FlyingBee的明确对应；RaysGames入搜索别名。频道最新与实际最多播放首屏、既有NC／FRT系列入口对照候选；共114项视频不当全部已读，既有主线和史料保留。五篇均读元数据、简介和所载可见主评论及附带回复，未展开楼中楼，未读影像、音轨或字幕。未见公开联合制作署名，不将战斗队友算成创作团队；他人致谢RaysGames的新闻合作不算本人独立作品。",
-        "source": "src/people/flyingbee/materials-flyingbee.md"
+        "source": "src/people/flyingbee/materials-flyingbee.json"
       }
     ],
     "listings": [
@@ -1432,11 +1432,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "docs/sources/battle-video-brs-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及所附BR公开页面，实际交战星系、日期、可见分方与关联结论已归档；NoNo、irrrrv另核composition唯一KM及金额。评论仅沿已存可见范围，不称全部评论已读；未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "[作品 BV1CvAzzkEU3](https://www.bilibili.com/video/BV1CvAzzkEU3/)，UID299085813，3 月 1 日发布，标题“常规打不过不要紧，拖到对方要睡觉，跳泰坦超旗，再叫上爹就能赢了”。简介所附 [WarBeacon 原报](https://warbeacon.net/br/report/9837d31c-523e-4340-9bad-907837bb30a9)实际显示 **6RCQ-V、Cloud Ring、2026-02-28 13:27–18:52**，末条显示 18:52:49；不是 MC6O-F。评论提及的 B-9、C-N 是集结、增援及回家时区背景，不能据此改写 BR 的交战地点。"
       },
       "usage": {
         "body": false,
@@ -1461,10 +1459,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flyingbee/materials-flyingbee.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "龙根T1与停机：简介附战报，作者将对面高频集结说成据说；不把据说的三天十次舰队升级为战事实录。 取得并阅读13主线程。"
       },
       "usage": {
         "body": false,
@@ -1489,10 +1485,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flyingbee/materials-flyingbee.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "泰坦手滑：公开标签一边写桥接点错跳跃，一边反问死后装备没有桥接；保留疑问，不将手滑定为已证实原因。 取得并阅读16主线程。"
       },
       "usage": {
         "body": false,
@@ -1517,10 +1511,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flyingbee/materials-flyingbee.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "AT冠军没臭氧：附2024-03-18战报入口，作者说明语音不额外滤有趣或不好听的段落；评论各方归责不当实际人数和指挥责任。 取得并阅读18主线程。"
       },
       "usage": {
         "body": false,
@@ -1545,10 +1537,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flyingbee/materials-flyingbee.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "泰坦发射器：作者答旧POS而非铁壁，谈联盟收拾掉落并奖励首抓者，属于作者解释，不替交易合同背书。 取得并阅读20主线程。"
       },
       "usage": {
         "body": false,
@@ -1573,10 +1563,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flyingbee/materials-flyingbee.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "极端大航救援：作者说本在调总览、遇大航被抓，打完觉得记录值得留下，回复回看才发现当时未见细节；只写其记录经验，不认他为FC。 取得并阅读20主线程。"
       },
       "usage": {
         "body": false,
@@ -1601,11 +1589,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "- BV1ZDug6nE5Q“离goons近了后，按门铃方便多了，周末晨练，打了接近1：2”：发布于2026-08-08T06:40:36Z，早于本场，简介另附BR6a769c310721d5f1d64c62dd；该BR未读，时间先后已经足以排除与本场晚间同一轮交火，不把未读BR地点编成已核。"
       },
       "usage": {
         "body": false,

@@ -48,6 +48,73 @@
       "00区",
       "FRT",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T15:39:02Z",
+      "verdict": "口号是现实生活第一，集结是帕拉丁从不缺席，九年坚守一家老军团的老牌CEO。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "招新提倡‘现实生活第一无强制出勤’，自己集结次次开主力帕拉丁出勤，作风踏实稳重，守序常人模范。",
+          "sources": [
+            {
+              "label": "龙裔2020招新帖",
+              "url": "https://forums.winterco.org/t/topic/5695"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "九年三千五百余次击杀，持续驾驶常规主力舰，是资深大队老兵。",
+          "sources": [
+            {
+              "label": "Akagi Mic zKillboard",
+              "url": "https://zkillboard.com/character/2113316712/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "长期经营军团、组织成员出勤；CEO 任期不直接折算舰队指挥等级。",
+          "sources": [
+            {
+              "label": "龙裔军团档案",
+              "url": "https://zkillboard.com/corporation/98479590/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "自由团风与长期团友关系支撑团内凝聚力；多年在任的大军团 CEO，评 B。",
+          "sources": [
+            {
+              "label": "龙裔2020招新帖",
+              "url": "https://forums.winterco.org/t/topic/5695"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "九年经营龙裔，经历退出、重返 FRT，长期维持组织延续。",
+          "sources": [
+            {
+              "label": "龙裔军团档案",
+              "url": "https://zkillboard.com/corporation/98479590/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "持续自备帕拉丁等重船；老团资历不能直接等同雄厚国库。",
+          "sources": [
+            {
+              "label": "Akagi Mic zKillboard",
+              "url": "https://zkillboard.com/character/2113316712/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

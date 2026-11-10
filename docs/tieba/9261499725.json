@@ -4,12 +4,12 @@
   "url": "https://tieba.baidu.com/p/9261499725",
   "title": "叶落星海 某FC 每日战报",
   "references": [
-    "docs/leads/tieba-sk-fc-replies.md",
-    "src/people/docter-hikanami/materials-docter-hikanami.md",
-    "src/people/frost-clancy/materials-frost-clancy.md",
+    "docs/leads/tieba-sk-fc-replies.json",
+    "src/people/docter-hikanami/materials-docter-hikanami.json",
+    "src/people/frost-clancy/materials-frost-clancy.json",
     "src/people/jazoneq/jazoneq.md",
-    "src/people/jazoneq/materials-jazoneq.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "src/people/jazoneq/materials-jazoneq.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json",
     "src/people/sk-mmmm/sk-mmmm.md"
   ],
   "legacy_records": [
@@ -17,7 +17,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9261499725",
-        "初始引用文件": "src/people/docter-hikanami/materials-docter-hikanami.md;src/people/sk-mmmm/materials-sk-mmmm.md;src/people/sk-mmmm/sk-mmmm.md",
+        "初始引用文件": "src/people/docter-hikanami/materials-docter-hikanami.json;src/people/sk-mmmm/materials-sk-mmmm.json;src/people/sk-mmmm/sk-mmmm.md",
         "首尾状态": "首尾已取",
         "接口回复数": "34",
         "主楼总页数": "2",

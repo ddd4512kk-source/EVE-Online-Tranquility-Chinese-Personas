@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "5877725",
   "name": "DroneWang",
   "url": "https://space.bilibili.com/5877725/",
   "identity": {
     "state": "confirmed",
     "person": "drone-wang",
-    "material": "src/people/drone-wang/materials-drone-wang.md",
+    "material": "src/people/drone-wang/materials-drone-wang.json",
     "label": "王答答",
     "evidence": [
       "同名"
@@ -42,33 +42,33 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/drone-wang/materials-drone-wang.md"
+        "evidence": "src/people/drone-wang/materials-drone-wang.json"
       }
     },
     "prior_notes": [
       {
         "text": "**大号活跃度（2026-10-15 zKill 查）**：Drone Wang（2112538533）最新 KM 为 [121076190](https://zkillboard.com/kill/121076190/)，2024-09-22，此后两年无记录；Charon1（2119928531）最新 KM [139156391](https://zkillboard.com/kill/139156391/)，2026-10-14。帖内“大号被封”原指天宫本地喷子；Drone Wang 大号两年无动作，按社区判断视为因 RMT 被永久封号，正文按此写。",
-        "source": "src/people/drone-wang/materials-drone-wang.md"
+        "source": "src/people/drone-wang/materials-drone-wang.json"
       },
       {
         "text": "| [BV1VW411j7Lc](https://www.bilibili.com/video/BV1VW411j7Lc/) | 【EVE】RR无人机王答答无双小合集 |",
-        "source": "src/people/drone-wang/materials-drone-wang.md"
+        "source": "src/people/drone-wang/materials-drone-wang.json"
       },
       {
         "text": "[四天吃掉十条黑隐](https://www.bilibili.com/video/BV1hZ4y1N7nP/)：公开1858播放、reply21，实际读18个主线程。简介自称4条元帅、6条其他黑隐，不把作者集体战果计成个人独占。观众起哄“放出王哒哒，协助无人机”、询问招新；另有评论者说少录了一段。未据剪辑标题指定实际指挥或还原各次交战，评论的伤害／签名比较不用作贡献评价。",
-        "source": "src/people/drone-wang/materials-drone-wang.md"
+        "source": "src/people/drone-wang/materials-drone-wang.json"
       },
       {
         "text": "空间37视频、1图文、1音频、3合集／系列；最新与最多播放首页各37视频入口，视频标题全覆盖，音频不取、合集内容未逐个打开。最高为血袭者10/10 PLD教学6209、RR跟队教程3818，第三为明确标曙光的作品3039；不把曙光战斗当宁静经历。旧“投稿列表412”实际没有频道数量依据，当前以空间37视频为准，接口失败与作品总数分别记。",
-        "source": "src/people/drone-wang/materials-drone-wang.md"
+        "source": "src/people/drone-wang/materials-drone-wang.json"
       },
       {
         "text": "[无双小合集BV1VW411j7Lc](https://www.bilibili.com/video/BV1VW411j7Lc/)：简介只“无人机王答答的无双小剧场”，评论未加载。与已有SOLO篇相比缺少可读具体内容，暂不选，不说影像差。",
-        "source": "src/people/drone-wang/materials-drone-wang.md"
+        "source": "src/people/drone-wang/materials-drone-wang.json"
       },
       {
         "text": "10/10与无双小合集的评论加载失败仍保留原入口与未读状态，不计零评论或已消化；它们是未选候选的内容覆盖缺口，并不自动要求把全频道和折叠回复补完。下一项具体问题是血特作品的团队署名范围。",
-        "source": "src/people/drone-wang/materials-drone-wang.md"
+        "source": "src/people/drone-wang/materials-drone-wang.json"
       }
     ],
     "listings": [
@@ -553,9 +553,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -580,11 +577,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介空；已读13个主评论线程及可见作者回复。DroneWang明确视角不是自己、视频由自己发布，并与录像师交流修改；未翻页或展开其余回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [CP战列BV1Tq4y187W4](https://www.bilibili.com/video/BV1Tq4y187W4/)：简介空，但13个主线程及可见作者回复已读。DroneWang明确“视角不是我，发视频的是我”，自称低安随便玩玩，答RR“凉了”；录像师柯西西kxx称第一次舰队狂暴不熟、已改；作者也称录像师已改正。被猜列沙克是本人，答“被发现了”。作为团队视角发布与本人交流入红料、精选，不把摄像者失误归答答，也不据此造个人丢船。"
       },
       "usage": {
         "body": true,
@@ -609,10 +605,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介仅重复进出合计15分钟、可压到13分钟，评论未加载；不能从标题效率判断实际教学质量，未选，保留内容缺口。"
       },
       "usage": {
         "body": false,
@@ -636,11 +630,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读简介及18个主评论线程；简介自称4条元帅、6条其他黑隐，评论有协助无人机梗、招新问答与漏录说法。未指派指挥或逐场战果；未翻页/展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "公开1858播放、reply21，实际读18个主线程。简介自称4条元帅、6条其他黑隐，不把作者集体战果计成个人独占。观众起哄“放出王哒哒，协助无人机”、询问招新；另有评论者说少录了一段。未据剪辑标题指定实际指挥或还原各次交战，评论的伤害／签名比较不用作贡献评价。"
       },
       "usage": {
         "body": true,
@@ -664,11 +657,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读简介、20个主评论线程及可见回复；记录Ranger Regiment影片品牌署名、对阵编成和评论讨论。评论者自报数量不当核实战果；未认定作者驾驶或指挥，未翻页/展开全部回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [血特BV1bJ411t75W](https://www.bilibili.com/video/BV1bJ411t75W/)：简介列RR＋Darkness＋SBSQ超旗队，对VVV＋MSN＋NC多米／无畏队，署Ranger Regiment电影制片厂；20个主线程及可见回复已读。观众讨论有无超旗的差别、3V到欧服时间、考古与复国，评论自报数量不单列为实核战果。作为本人发布的RR队伍记录入精选，不认本人操作或总指挥。"
       },
       "usage": {
         "body": false,
@@ -692,11 +684,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读简介与10个主评论线程；教程分火力、后勤、航母并穿插对台风的操作玩笑，观众要求补讲铁骑。多年后的回复不证明新联盟沿用教程；未翻页或展开全部回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "公开3817播放、reply13，实际读10个主线程。简介列火力、后勤与航母三部分，技能要求与操作提醒夹着对台风的游戏操作调侃，也自嘲自己的点按钮准确度。观众说标题在“迫害阿姨”、要求补铁骑操作等教学；2022年的可见回复说RR已没，2026年台风回“现在是CP了”。这些是多年后评论，不当原教程在新联盟已经复用的证明。关于伤害或未输出的起哄不作为人物贡献、能力或参战态度依据，未沿用0伤害论据。"
       },
       "usage": {
         "body": true,
@@ -720,11 +711,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读简介与14个主评论线程；DroneWang自述本想攒100星再发，因挂机与操作失误损失两条50星及一条45星毒蜥，击杀标记重置；保留为本人公开计划被打断，不另列黑料。未翻页/展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "公开1531播放、reply18，实际读14个主线程。简介自称使用毒蜥、响尾蛇，本来想攒100星再发，因星门挂机丢两条50星毒蜥、操作失误丢一条45星毒蜥，击杀标记重置，只好从头开始、先请观众三连。普通巡洋损失只作本人发表作品和计划打断的背景，不另列黑料或推断金额。观众把他的操作与台风相比，另有人以联盟底层身份拒绝三连；作者回答配装问题，均归公开作品互动，不从观众评价认定实际录像操作。"
       },
       "usage": {
         "body": true,
@@ -749,9 +739,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -776,11 +763,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介自称Goons蓝加抓人剧本并附BR链接；已读6个主评论线程，主要是协助无人机梗和舰队规模猜测。BR未读，评论猜测不补战果；未翻页或展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介自称剧本Goons蓝加抓人组，附 https://zkillboard.com/related/30004399/201806161300/ ，6主线程已读。评论主要玩协助无人机梗与猜舰队规模，未进一步讲过程，BR未读；作为候选保留，本轮选五个已有更具体组织／个人内容的作品，不按评论猜测填战果。"
       },
       "usage": {
         "body": false,
@@ -805,14 +791,120 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/drone-wang/materials-drone-wang.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介只“无人机王答答的无双小剧场”，评论未加载。与已有SOLO篇相比缺少可读具体内容，暂不选，不说影像差。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV14hbVz6EhZ",
+      "title": "【EVE欧服】8.10 牧星击杀大航",
+      "url": "https://www.bilibili.com/video/BV14hbVz6EhZ/",
+      "owner_uid": "5877725",
+      "published_at": "2025-08-11T05:36:07.000Z",
+      "captured_at": "2026-11-08T10:42:55.707Z",
+      "description": "【EVE欧服】8.10 牧星击杀大航",
+      "stats": {
+        "views": 1977,
+        "replies": 23
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "简介复述牧星击杀大航并附招新群；已读首屏3个主评论线程及可见回复，没有作者回应。评论提到FAX修理操作并玩年龄与游戏身份梗，未补交战经过；未翻页或展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介复述牧星击杀大航并附招新群。首屏三条主评论及可见回复中，有人提到FAX修理操作，有人用年龄梗认出王答答，还有观众猜测EVE是哪款游戏；没有作者回应。评论没有补出交战过程，不据标题和一句模块操作议论认定王答答驾驶或指挥，也未核战报。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1FY4113749",
+      "title": "【EVE欧服】3.11 CP天宫联盟 低安 旗舰战",
+      "url": "https://www.bilibili.com/video/BV1FY4113749/",
+      "owner_uid": "5877725",
+      "published_at": "2022-03-11T18:34:49.000Z",
+      "captured_at": "2026-11-08T10:45:00.722Z",
+      "description": "【EVE欧服】3.11 CP天宫联盟 低安 旗舰战  。 常规损失惨重，旗舰大捷。损失2无畏，团灭敌对10无畏。总战损比：我方损失13.6B，友军损失11B VS 敌对损失 62B  。BR：https://br.evetools.org/related/30002414/202203111200   4分钟后纯音乐",
+      "stats": {
+        "views": 1005,
+        "replies": 17
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "简介自称旗舰战大胜并列损失2艘、击毁10艘无畏、40余B损失口径和BR链接；已读首屏3个主评论线程及可见回复，含低安招募讨论与作者确认BGM。BR未读，简介数字仅作上传者说法；未翻页/展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介自称常规船损失较重、旗舰战大胜，称损失2艘无畏、击毁对方10艘，并列我方、友军与敌方总损失和BR链接。首屏三条主评论及可见回复中，观众问王答答是否已在低安站稳、有人招募咨询；王答答确认背景音乐为玉米演唱。BR未打开，简介中的击毁数与战损只作上传者公开说法，不当本站已核战报或个人战果。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1KT4y1X7P9",
+      "title": "【EVE欧服】 2.11 旗舰战 CP VS 低安毛子土著",
+      "url": "https://www.bilibili.com/video/BV1KT4y1X7P9/",
+      "owner_uid": "5877725",
+      "published_at": "2022-02-11T16:07:17.000Z",
+      "captured_at": "2026-11-08T10:43:37.488Z",
+      "description": "双方都知道对方要跳旗舰，然后双方都跳了旗舰，其实我自己也没想明白咋赢的，打完复盘了下，感觉稳输的局\n40B：57B\nhttps://br.evetools.org/related/30002388/202202111300",
+      "stats": {
+        "views": 1804,
+        "replies": 16
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "简介自述双方预判并互跳旗舰、作者复盘认为原本稳输，列40B：57B并附BR；已读首屏3个主评论线程及可见回复，观众对无畏数量有分歧，作者以表情回应操作评价。BR未读，统计与评论说法未独立核验；未翻页/展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介自述双方都预判对手会跳旗舰、结果都进场，王答答复盘后仍觉得原本稳输，并附BR与40B：57B的战损说法。首屏三条主评论及可见回复中，观众对无畏数量有不同说法，王答答笑答“色批”操作比上次好；另有bot联盟玩笑。BR未打开，简介统计和评论推断均未独立核验；不从上传者口吻推总指挥或本人驾驶。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1Rb4y1S7HG",
+      "title": "【EVE】RR北方黑隐隐投队",
+      "url": "https://www.bilibili.com/video/BV1Rb4y1S7HG/",
+      "owner_uid": "5877725",
+      "published_at": "2021-04-01T11:34:37.000Z",
+      "captured_at": "2026-11-08T10:44:19.190Z",
+      "description": "话不多说，看视频，北方黑隐隐投队",
+      "stats": {
+        "views": 1504,
+        "replies": 25
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "简介仅称北方黑隐隐投队；已读首屏3个主评论线程及可见回复。DroneWang自占沙发并回哈哈，观众用下次一定和催更梗互动；没有交战细节，不据标题补战果或职责。未翻页/展开回复，未看影像/音频/字幕。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介仅称北方黑隐隐投队。首屏三条主评论及可见回复里，观众用“下次一定”接梗，王答答自占沙发并回哈哈；另一位观众催更并拿毒蜥忘带无人机开玩笑。页面没有交战细节，不据标题补战果、指挥或驾驶信息。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

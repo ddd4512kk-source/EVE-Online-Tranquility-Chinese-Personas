@@ -68,7 +68,7 @@
         "id": 2123118920,
         "name": "TEST-NJ",
         "sources": [
-          "materials-nanjin.md",
+          "materials-nanjin.json",
           "https://evewho.com/character/2123118920"
         ],
         "zkb": {
@@ -98,6 +98,85 @@
       "D.C",
       "FC",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:35:40Z",
+      "verdict": "老板撤了他的指挥位，二十多人却继续跟他走；简介写着去经历失败或成功，队伍真跟着实践了。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "离团和人员流动属于常规组织变动；不因老板免职或政治摩擦把他评成神人，按常人基准记D。",
+          "sources": [
+            {
+              "label": "暗枪离团消息",
+              "url": "https://tieba.baidu.com/p/11126019960"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "两年参与击杀近两千次、消灭超 3.7 万亿 ISK，年均达 1.61 万亿达战神线；亲历 R-AG7W 万亿包围战与 4-HWWF 北方大会战一线拼杀，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "暗枪 zKillboard",
+              "url": "https://zkillboard.com/character/2122496778/"
+            },
+            {
+              "label": "北方大战击杀记录",
+              "url": "https://zkillboard.com/kill/135011562/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "PLA公开会议纪要称其为军团总指挥；长期带队，Monitor记录分布在34个UTC日期，并匹配本站6篇战役。团级指挥职责与多场大战履历支持A；这些记录证明参与指挥，不代表他是每场战役的总指挥。",
+          "sources": [
+            {
+              "label": "PLA军团会议纪要",
+              "url": "https://forum.pla-eve.com/topic/240-pla%E5%86%9B%E5%9B%A2%E4%BC%9A%E8%AE%AE%E7%BA%AA%E8%A6%81/"
+            },
+            {
+              "label": "PLA军团指挥官体系",
+              "url": "https://forum.pla-eve.com/topic/244-pla%E5%86%9B%E5%9B%A2%E6%8C%87%E6%8C%A5%E5%AE%98%E4%BB%A5%E5%8F%8A%E5%A3%AB%E5%AE%98%E4%BD%93%E7%B3%BB/"
+            },
+            {
+              "label": "暗枪 zKillboard",
+              "url": "https://zkillboard.com/character/2122496778/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "荣耀一句免职，他带着二十来个人一起走；指挥的名头没了，队伍还愿意跟他换团。",
+          "sources": [
+            {
+              "label": "暗枪离团消息",
+              "url": "https://tieba.baidu.com/p/11126019960"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "曾担任华人社区负责人并处理内部摩擦，但没有长期操盘联盟外交或地缘格局的记录，按基层协调档记C。",
+          "sources": [
+            {
+              "label": "暗枪离团消息",
+              "url": "https://tieba.baidu.com/p/11126019960"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "多场高价值战役的击杀与战损是团队战果，不代表个人资产，未见经营或筹资材料，按常人基准记D。",
+          "sources": [
+            {
+              "label": "暗枪 zKillboard",
+              "url": "https://zkillboard.com/character/2122496778/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

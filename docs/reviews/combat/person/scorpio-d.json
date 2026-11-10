@@ -1,9 +1,9 @@
 {
   "status": "reviewed",
-  "note": "总览、代表泰坦参与、三场正式战役及售号后归因已核，战绩合成首块",
+  "note": "核对售号3000元RMT与送朋友追梦话术、战绩画像与战役参战",
   "evidence": [
-    "src/people/scorpio-d/materials-scorpio-d.md",
-    "src/people/scorpio-d/2120656041-id.json",
+    "src/people/scorpio-d/materials-scorpio-d.json",
+    "src/people/scorpio-d/2124784239-id.json",
     "src/battles/haras-2023/haras-2023.json",
     "src/battles/lantorn-2025/lantorn-2025.json",
     "src/people/scorpio-d/scorpio-d.md"
@@ -14,39 +14,39 @@
       "note": "素材总览4387击杀、1580损失、142单杀与鹳鸟/占星常用船显示长期收割；正式档案4390为稍晚角色累计，不把售号后新增记录当旧驾驶员新经历。",
       "evidence": [
         {
-          "file": "src/people/scorpio-d/2120656041-id.json",
-          "contains": "\"name\": \"Scorpio D\""
+          "file": "src/people/scorpio-d/2124784239-id.json",
+          "contains": "\"name\": \"Black crow D\","
         },
         {
-          "file": "src/people/scorpio-d/materials-scorpio-d.md",
+          "file": "src/people/scorpio-d/materials-scorpio-d.json",
           "heading": "### 检索记录与缺口"
         }
       ]
     },
     "alts": {
       "status": "reviewed",
-      "note": "正式档案没有已确认主力小号；2025-12售号、后续SR-KBB仅角色命中归新持有人，未补入黑鸦经历。",
+      "note": "正式档案没有已确认主力小号；2025-12线下3000元RMT售号、后续SR-KBB仅角色命中归新持有人，未补入黑鸦经历。",
       "evidence": [
         {
-          "file": "src/people/scorpio-d/2120656041-id.json",
-          "contains": "\"name\": \"Scorpio D\""
+          "file": "src/people/scorpio-d/2124784239-id.json",
+          "contains": "\"basis\": \"曾用主号，2025-12 售号（3000元 RMT 线下出号，公开称“送朋友追梦”）；买家后续战绩不计入本人\","
         },
         {
-          "file": "src/people/scorpio-d/materials-scorpio-d.md",
-          "heading": "## 2026-10-17：出售账号与疑似 RMT"
+          "file": "src/people/scorpio-d/materials-scorpio-d.json",
+          "heading": "## 2026-11-08：本人发帖回应列传、澄清贪污与主号去向（11178992040）"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "核素材2025-08参与泰坦129052466、Dominix与100+攻击者归因，正文写补刀参与；2025-06至12活跃走势仅说明退场，不将集体235B归个人。",
+      "note": "核素材2025-08参与泰坦129052466、Dominix与100+攻击者归因，正文写补刀参与；2025-06至12活跃走势说明退场，不将集体235B归个人。",
       "evidence": [
         {
-          "file": "src/people/scorpio-d/materials-scorpio-d.md",
+          "file": "src/people/scorpio-d/materials-scorpio-d.json",
           "heading": "### 检索记录与缺口"
         },
         {
-          "file": "src/people/scorpio-d/materials-scorpio-d.md",
+          "file": "src/people/scorpio-d/materials-scorpio-d.json",
           "heading": "## 2026-10-17：出售账号与疑似 RMT"
         }
       ]
@@ -64,7 +64,7 @@
           "contains": "\"2120656041\": [98540583,99003581]"
         },
         {
-          "file": "src/people/scorpio-d/materials-scorpio-d.md",
+          "file": "src/people/scorpio-d/materials-scorpio-d.json",
           "heading": "## 2026-04-12 SR-KBB参战（2026-10-20补档）"
         }
       ]
@@ -75,7 +75,7 @@
       "evidence": [
         {
           "file": "src/people/scorpio-d/scorpio-d.md",
-          "contains": "zKillboard 上 4387 个击杀"
+          "contains": "zKillboard 上 4387 个击杀、2508.7B，损失 1580 个、116.9B，单杀 142 个；"
         },
         {
           "file": "src/people/scorpio-d/scorpio-d.md",
@@ -85,21 +85,39 @@
     }
   },
   "dependencies": [
-    "docs/sources/frt-offtimezone-quotes-2025.md",
-    "docs/sources/winterco-communications-review-2026-10-13.md",
+    "docs/leads/lancetlot-outamon.json",
+    "docs/leads/shi-yuan-yu.json",
+    "docs/leads/ster-sing.json",
+    "docs/sources/frt-offtimezone-quotes-2025.json",
+    "docs/sources/winterco-communications-review-2026-10-13.json",
     "src/battles/haras-2023/haras-2023.json",
     "src/battles/lantorn-2025/lantorn-2025.json",
-    "src/people/scorpio-d/2120656041-id.json",
-    "src/people/scorpio-d/materials-scorpio-d.md",
+    "src/people/scorpio-d/2124784239-id.json",
+    "src/people/scorpio-d/materials-scorpio-d.json",
     "src/people/scorpio-d/scorpio-d.md",
     "src/battles/haras-2023/haras-2023.md",
-    "src/battles/haras-2023/materials-haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.json",
     "src/battles/lantorn-2025/lantorn-2025.md",
-    "src/battles/lantorn-2025/materials-lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.json",
     "src/battles/sr-kbb-2026/sr-kbb-2026.json",
     "src/battles/sr-kbb-2026/sr-kbb-2026.md",
-    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.md"
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.json"
   ],
-  "inputs": "ce318a4fece9c6f4a4b5de0a716ba6a733851fd0366cfaa46d1b6490381636c3",
+  "inputs": "76484b6f55227d04b8da97f3aa30998c113e7c8036ba1c5a79c634885c02dc11",
+  "inputParts": {
+    "docs/leads/lancetlot-outamon.json": "c580df1dc4a91e53ff9ce3c1711cab8b62567c1997f4af04f1374a0fe96de059",
+    "docs/leads/shi-yuan-yu.json": "bb8df348d28cc39f9f71f079ce6dcd87f93be4384bbf43c9d1068d2b257a0720",
+    "docs/leads/ster-sing.json": "cb7cc3f133c66fa47567b2b8625ccf0c888d8d6cfdf4cf759fc6fc84f261cb19",
+    "docs/sources/frt-offtimezone-quotes-2025.json": "d6380e478f4b4fbc0b16c03959b7bf78cbe76f84b1ba293397bbeca10a257357",
+    "docs/sources/winterco-communications-review-2026-10-13.json": "888e495d28636c67f996507ffef734f247fb4a2e609d57dd8f11095679f05d1f",
+    "src/battles/haras-2023/haras-2023.json": "be25296a8c4eafdcfc1bb44cd3aac52febdf9e9bfe4c31b48539e34483d6a5df",
+    "src/battles/lantorn-2025/lantorn-2025.json": "dbd8ba2e525006851d2d267eba75eabe1f7be874ce3877fe8a7b7441b43a59fd",
+    "src/people/scorpio-d/2124784239-id.json": "4aad41bd1c3f95a45aff0a06f54e024ed6318224faef290db39b861f292572e3",
+    "src/people/scorpio-d/materials-scorpio-d.json": "b84d20c2a5b610fe596095339a36b94045f62072d8735819f84de7f04d838b1f",
+    "src/people/scorpio-d/scorpio-d.md": "8a67f69988b9bc4d23080b9e7395e8629f0df138e156d5b4390eea031bce99fa",
+    "battle:haras-2023": "3f9832ae6e5e83204a74f994fd68fc45115e1b6f5aa22ad064281bd13dc7d1f1",
+    "battle:lantorn-2025": "776ebb216e9948a96bfdbd440457ab472c86700a8832bb19b9c1b893f951c9e8",
+    "battle:sr-kbb-2026": "11433bd0d529be9f0424fce8bdecd61841bfe9d51510334f7702effdb6a06e33"
+  },
   "level": 1
 }

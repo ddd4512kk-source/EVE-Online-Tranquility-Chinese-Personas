@@ -91,6 +91,73 @@
       "00区",
       "NC",
       "工业"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:55:12Z",
+      "verdict": "安等随战事跌入负数；舰队出勤与物流岗位各有本分。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把安全点成红色、安等随战事下降，是轻度反差，未到出格事件。",
+          "sources": [
+            {
+              "label": "FOX 官网团队页",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "近千次击杀参与，常规舰队船型稳定出勤，属于普通随队战斗职责。",
+          "sources": [
+            {
+              "label": "Audacon Eyrou zKillboard",
+              "url": "https://zkillboard.com/character/2121687358/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "官网列其负责公司快递运作和远征合作社，承担部门组织协调。",
+          "sources": [
+            {
+              "label": "FOX 官网团队页",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "现有材料未显示稳定拥趸或广泛号召力，按常人基准 D。",
+          "sources": [
+            {
+              "label": "FOX 官网团队页",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "负责团内远征合作社的组织与收益协作，体现基层利益协调。",
+          "sources": [
+            {
+              "label": "FOX 官网团队页",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "击杀价值和岗位职责不足以推断个人资产或经营能力。",
+          "sources": [
+            {
+              "label": "Audacon Eyrou zKillboard",
+              "url": "https://zkillboard.com/character/2121687358/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

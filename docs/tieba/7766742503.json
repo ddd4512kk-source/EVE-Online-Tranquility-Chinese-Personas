@@ -5,9 +5,9 @@
   "title": "请大家看清BOP这些人的嘴脸",
   "references": [
     "docs/tieba-review-2026-10-10.md",
-    "src/people/twilight-dracula/materials-twilight-dracula.md",
+    "src/people/twilight-dracula/materials-twilight-dracula.json",
     "src/people/twilight-dracula/twilight-dracula.md",
-    "src/people/weiyang/materials-weiyang.md",
+    "src/people/weiyang/materials-weiyang.json",
     "src/people/weiyang/weiyang.md"
   ],
   "legacy_records": [
@@ -15,7 +15,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7766742503",
-        "初始引用文件": "src/people/weiyang/materials-weiyang.md",
+        "初始引用文件": "src/people/weiyang/materials-weiyang.json",
         "首尾状态": "首尾已取",
         "接口回复数": "546",
         "主楼总页数": "5",

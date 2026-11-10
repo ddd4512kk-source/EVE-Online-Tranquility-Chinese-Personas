@@ -209,7 +209,7 @@
         "name": "BalmungS",
         "basis": "军团头衔就是“Sayler”，2017—2018年多次与收录号同日进出同一军团",
         "sources": [
-          "materials-sayler.md#小号"
+          "materials-sayler.json#小号"
         ],
         "zkb": {
           "kills": 2239,
@@ -239,6 +239,73 @@
       "B B C",
       "CEO",
       "AT22亚军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:00:00Z",
+      "verdict": "一万六千杀打掉二十一万亿，名片写着绝不送人头、挂着三条泰坦KM的低安海盗王者。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "名片直写‘Sayler 绝不送人头’并嚣张裱上三条泰坦KM，名副其实的低安海盗老炮，霸气拉满。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "Sayler 角色名片与简介",
+              "url": "https://zkillboard.com/character/2113271910/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "击杀超16000次、消灭超21万亿、单杀400多次，马克瑞出勤近两千次，Snuffed Out王牌杀神。",
+          "sources": [
+            {
+              "label": "Sayler zKillboard",
+              "url": "https://zkillboard.com/character/2113271910/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "AVDOT 的主要 FC，长期带着无畏舰队和主力突击队出击，是这支精锐的指挥核心；评 S。",
+          "sources": [
+            {
+              "label": "Infinity Avenger 军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "华语低安海盗圈旗帜性领军人物，带出两百余名精锐海盗兄弟长年追随，威望极高。",
+          "sources": [
+            {
+              "label": "Infinity Avenger 军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "率领全华班军团深度融入Snuffed Out国际低安霸权联盟，外交关系处理游刃有余。",
+          "sources": [
+            {
+              "label": "Sayler 角色名片与简介",
+              "url": "https://zkillboard.com/character/2113271910/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "掠夺斩获21万亿，执掌低安顶级精锐海盗军团金库，常备无畏重装舰队，个人身家巨富。",
+          "sources": [
+            {
+              "label": "Sayler zKillboard",
+              "url": "https://zkillboard.com/character/2113271910/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "88162728",
   "name": "老黑233",
   "url": "https://space.bilibili.com/88162728/",
   "identity": {
     "state": "confirmed",
     "person": "laohei2333333",
-    "material": "src/people/laohei2333333/materials-laohei2333333.md",
+    "material": "src/people/laohei2333333/materials-laohei2333333.json",
     "label": "老黑",
     "evidence": [
       "与别名laohei233相合；INIT视角、FDZ击杀作品"
     ],
     "related": [
       {
-        "material": "src/battles/taff-2026/materials-taff-2026.md",
+        "material": "src/battles/taff-2026/materials-taff-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -379,10 +379,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/laohei2333333/materials-laohei2333333.md",
-          "src/battles/taff-2026/materials-taff-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

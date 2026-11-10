@@ -93,7 +93,7 @@
         "id": 2122596283,
         "name": "FallNight1",
         "sources": [
-          "materials-zhui-chen.md"
+          "materials-zhui-chen.json"
         ],
         "zkb": {
           "kills": 1212,
@@ -107,7 +107,7 @@
         "id": 2122670126,
         "name": "FallNight4",
         "sources": [
-          "materials-zhui-chen.md"
+          "materials-zhui-chen.json"
         ],
         "zkb": {
           "kills": 9,
@@ -137,6 +137,73 @@
       "低安",
       "00区",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "传说有千艘泰坦，实战爱开小船。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "AI封元帅是玩笑，正常打蓝与玩法不加神人分。",
+          "sources": [
+            {
+              "label": "圣诞节轰爆自家奇美拉航母战报",
+              "url": "https://zkillboard.com/kill/123380226/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主小号两千余击杀，轻型实战与Solo强项明确。",
+          "sources": [
+            {
+              "label": "Zhui Chen zKillboard",
+              "url": "https://zkillboard.com/character/2115916938/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "AI传说不能当带队事实，现有记录未见本人指挥。",
+          "sources": [
+            {
+              "label": "Zhui Chen zKillboard",
+              "url": "https://zkillboard.com/character/2115916938/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "势战小圈与固定团友有稳定互动。",
+          "sources": [
+            {
+              "label": "Zhui Chen 角色名片",
+              "url": "https://esi.evetech.net/latest/characters/2115916938/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "普通团员与多号出勤未见组织治理。",
+          "sources": [
+            {
+              "label": "Zhui Chen 雇佣记录",
+              "url": "https://zkillboard.com/character/2115916938/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "双号舰队战备有余，未见雄厚个人产业。",
+          "sources": [
+            {
+              "label": "圣诞节轰爆自家奇美拉航母战报",
+              "url": "https://zkillboard.com/kill/123380226/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

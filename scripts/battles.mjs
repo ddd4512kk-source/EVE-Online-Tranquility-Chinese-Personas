@@ -3,7 +3,7 @@ import { existsSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { coverSrc } from './battle-emblem.mjs';
-import { bodyLineOffset, validateBlocks } from './blocks.mjs';
+import { BATTLE_BLOCK_KINDS, bodyLineOffset, validateBlocks } from './blocks.mjs';
 import systemNames from '../src/_data/systemNames.js';
 import { battleAllianceIds, checkBattleTaxonomy } from './battle-tags.mjs';
 import {
@@ -380,7 +380,7 @@ export function validateBattle(data, body, lineOffset, people) {
   }
   if (data.pilots_peak != null && !isPosInt(data.pilots_peak)) errs.push('pilots_peak 必须是正整数');
   errs.push(...validateSides(data.sides, people, snapshot));
-  errs.push(...validateBlocks(body, lineOffset));
+  errs.push(...validateBlocks(body, lineOffset, BATTLE_BLOCK_KINDS));
   return errs;
 }
 

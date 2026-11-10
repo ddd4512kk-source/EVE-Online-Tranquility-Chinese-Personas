@@ -96,6 +96,77 @@
     "epithet": "宣传千人会战，自己偏爱少坐牢。",
     "tags": [
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:09:18Z",
+      "verdict": "宣传片里的千人会战到了他的视频里，要先问F1和PPT坐牢多久。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "用玩家实际体验拆解千人会战宣传，吐槽具体又有辨识度，属于轻量社区趣味。",
+          "sources": [
+            {
+              "label": "《你以为的千人会战与实际上的千人会战》",
+              "url": "https://www.bilibili.com/video/BV1REdJYoEk8/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "有一千五百余次击杀并参加大型舰队与海盗围猎，实战经验稳定高于普通起点。",
+          "sources": [
+            {
+              "label": "Lova 8899 战斗记录",
+              "url": "https://zkillboard.com/character/2122318173/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "材料写到海盗团自行组织出勤，但没有足够证据确认他本人承担舰队指挥职责。",
+          "sources": [
+            {
+              "label": "Lova 8899 战斗记录",
+              "url": "https://zkillboard.com/character/2122318173/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站‘EVE老头乐’高互动吐槽千人会战与招新实态，视频播放破万，在社区拥有广泛活宝受众。",
+          "sources": [
+            {
+              "label": "《你以为的千人会战与实际上的千人会战》",
+              "url": "https://www.bilibili.com/video/BV1REdJYoEk8/"
+            },
+            {
+              "label": "EVE老头乐 B站主页",
+              "url": "https://space.bilibili.com/480807483"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "现有材料没有外交协商、联盟治理或派系经营履历。",
+          "sources": [
+            {
+              "label": "Lova 8899 人物资料",
+              "url": "https://zkillboard.com/character/2122318173/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "战斗参与和舰船损失无法证明个人财富，材料没有可靠的个人产业或资产记录。",
+          "sources": [
+            {
+              "label": "Lova 8899 战斗记录",
+              "url": "https://zkillboard.com/character/2122318173/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

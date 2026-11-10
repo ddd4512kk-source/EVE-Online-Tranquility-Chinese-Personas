@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "type": "material",
+  "title": "伊格诺伊顿一小时，无畏烧出一万亿 · 素材",
+  "sections": [
+    {
+      "id": "伊格诺伊顿一小时-无畏烧出一万亿-素材",
+      "heading": "伊格诺伊顿一小时，无畏烧出一万亿 · 素材",
+      "level": 1,
+      "content": "\n"
+    },
+    {
+      "id": "战报口径-2026-10-20",
+      "heading": "战报口径（2026-10-20）",
+      "level": 2,
+      "content": "\n- 来源：https://br.evetools.org/battle/17321\n- 星系：Ignoitton（30002647）；完整接口读取成功。\n- UTC窗口：2026-07-31T01:34:32.000Z 至 2026-07-31T02:31:54.000Z。\n- 按KM ID去重，共229条损失记录（含太空舱等），569个角色，合计1017.128693962B。\n- 数字编号网页摘要可能与逐KM金额略有差异；页面采用快照逐KM金额，不混用摘要金额。\n- 本接口没有作者分队。点名组织分别归方；伊格诺伊顿为两方交火推断，其余三方混战不自动推断，未点名组织列第三方；同一联盟内交火不另拆同盟角色。各方是战报统计归组，不据此推定长期外交关系。\n- 仅有战报，开战缘由、具体动员与战场命令仍缺公开文字复盘；不凭胜负指定总指挥或归责。\n- 首轮网页工具访问失败，curl取得404；随后Node GET取得正常网页，读取网页主脚本确认数字入口为 /newapi/br/battle/<ID>，再取得完整JSON。三条数字链接站外精确搜索零命中，不作为事件不存在的依据。\n\n"
+    },
+    {
+      "id": "分方与人物",
+      "heading": "分方与人物",
+      "level": 2,
+      "content": "\n"
+    },
+    {
+      "id": "snuffed-out及友军",
+      "heading": "Snuffed Out及友军",
+      "level": 3,
+      "content": "\n329角色，损失256.908737B，47条损失记录。\n\n- [Sayler](../../src/people/sayler/sayler.md)：命中角色 2113271910；舰船typeID 33820。无本窗口损失记录。\n\n"
+    },
+    {
+      "id": "deepwater-hooligans及友军",
+      "heading": "Deepwater Hooligans及友军",
+      "level": 3,
+      "content": "\n230角色，损失758.227776B，168条损失记录。\n\n\n"
+    },
+    {
+      "id": "第三方",
+      "heading": "第三方",
+      "level": 3,
+      "content": "\n10角色，损失1.992181B，14条损失记录。\n\n\n"
+    },
+    {
+      "id": "续查",
+      "heading": "续查",
+      "level": 2,
+      "content": "\n已取得完整战报，按全部KM解析并对照全部收录号与已登记小号，快照保留完整参战对应。人物具体船型、指挥位与独立情节的增补以本人素材和后续复盘为准。未知组织是否为华人军团需有组织依据，不能仅靠中文角色名打标。\n\n"
+    },
+    {
+      "id": "本地视频对应-2026-10-20",
+      "heading": "本地视频对应（2026-10-20）",
+      "level": 2,
+      "content": "\n本轮仅复用本地缓存的公开元数据、简介与既有素材中已归档的评论；未联网取材，未读取影像、音轨或字幕。下列介绍不包含视听质量评价。\n\n- [BV1emGF6WEAf](https://www.bilibili.com/video/BV1emGF6WEAf/)已于2026-10-22读取作品页，见下节。另一条[BV1XMb9eMES9](https://www.bilibili.com/video/BV1XMb9eMES9/)标题称2T，不能因同星系便并入。\n\n"
+    },
+    {
+      "id": "bili-bv1emgf6weaf",
+      "heading": "本地视频对应（2026-10-22）",
+      "level": 2,
+      "content": "\n本轮仅按本地B站档案（`docs/bilibili/`）中的标题、投稿日与简介，以及YouTube搜索页公开的标题与频道名对应本场；未读取影像、音轨或字幕，介绍只转述标题与简介。\n\n<a id=\"bili-bv1emgf6weaf\"></a>\n- [BV1emGF6WEAf 摘记](../../../docs/bilibili/335849770.json#BV1emGF6WEAf)；作品：[【SnuffedOut】Ignoitton-轰一把900b的旗舰](https://www.bilibili.com/video/BV1emGF6WEAf/)\n\n"
+    },
+    {
+      "id": "视频关联与选取结论-2026-10-24",
+      "heading": "视频关联与选取结论（2026-10-24）",
+      "level": 2,
+      "content": "\n选取依据为已存公开文字、完整简介及本场素材；未读取影像、音轨、字幕。已知双方视角优先，实际参战的第三阵营按参战作品选；同场报道、旁观或复盘可补充。以下为当前页面采用，未核原视角者不编造驾驶者或阵营。\n\n新增Beli转载BV1S4GK6wET4（7月31日），标题指向Snuff对BIGAB使用泰坦，简介附原作FXXtGWBg74I。日期、参战方及低安旗舰主题与本场吻合，无明确另场线索，按高度相关采用，原录像驾驶者不归给搬运作者。\n\n- [【SnuffedOut】Ignoitton-轰一把900b的旗舰](https://www.bilibili.com/video/BV1emGF6WEAf/)（NoNoOwO、舰长雷耶斯、少侠LNP、BeliEVE76（联合投稿））：Snuff一侧作品，标题说轰下一把900b的旗舰，简介只写比分“200b：700b”。\n- [[EVE Online][搬运]久违了！对BIGAB使用泰坦吧！](https://www.bilibili.com/video/BV1S4GK6wET4/)（BeliEVE76）：Snuff对BIGAB的泰坦出击转载，与7月31日本场交战方和日期相合；简介明确附英文原作，不将泰坦驾驶归给搬运者。\n"
+    }
+  ]
+}

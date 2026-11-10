@@ -4,12 +4,12 @@
   "url": "https://tieba.baidu.com/p/10012132148",
   "title": "远离init联盟军团",
   "references": [
-    "src/people/born-reaper/materials-born-reaper.md",
+    "src/people/born-reaper/materials-born-reaper.json",
     "src/people/jiao-huang/jiao-huang.md",
-    "src/people/jiao-huang/materials-jiao-huang.md",
+    "src/people/jiao-huang/materials-jiao-huang.json",
     "src/people/m1kiiy/m1kiiy.md",
-    "src/people/m1kiiy/materials-m1kiiy.md",
-    "src/people/n-bomber/materials-n-bomber.md",
+    "src/people/m1kiiy/materials-m1kiiy.json",
+    "src/people/n-bomber/materials-n-bomber.json",
     "src/people/n-bomber/n-bomber.md"
   ],
   "legacy_records": [
@@ -17,7 +17,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10012132148",
-        "初始引用文件": "src/people/born-reaper/materials-born-reaper.md",
+        "初始引用文件": "src/people/born-reaper/materials-born-reaper.json",
         "首尾状态": "首尾已取",
         "接口回复数": "64",
         "主楼总页数": "2",

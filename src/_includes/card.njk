@@ -1,7 +1,7 @@
 {#- 目录卡片。传入 p（列传页面对象）。 -#}
 {%- set d = p.data -%}
 {%- set char = d.char -%}
-<li class="card{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}" data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
+<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}" data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
   <a href="{{ p.url | url }}">
     {%- if d.famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ d.famous }}">名</span>{% endif %}
     <span class="status-frame status-{{ d.activity.state }}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}"{% if d.activityLabel %} title="{{ d.activityLabel }}"{% endif %}>
@@ -16,9 +16,34 @@
       {% if d.epithet %}<span class="card-epithet">{{ d.epithet }}</span>{% endif %}
       <span class="card-meta">
         {%- if d.liao.hong or d.liao.hei %}<span class="liao-count">{% if d.liao.hong %}<span class="lc-hong" title="红料 {{ d.liao.hong }} 条">红 {{ d.liao.hong }}</span>{% endif %}{% if d.liao.hei %}<span class="lc-hei" title="黑料 {{ d.liao.hei }} 条">黑 {{ d.liao.hei }}</span>{% endif %}</span>{% endif -%}
-        <time datetime="{{ char.birthday }}">{{ char.birthday | ymd }}</time> · {% include "affiliation.njk" %}
+        {% include "affiliation.njk" %}
         <span class="card-updated">更新于 <time datetime="{{ d.updated }}">{{ d.updated | ymd }}</time></span>
       </span>
     </span>
+    {%- if d.radarPanel %}
+    {%- set radar = d.radarPanel %}
+    <span class="card-radar" aria-hidden="true">
+      <svg viewBox="57 44 116 116" focusable="false">
+        <polygon points="{{ radar.rings[2] }}" class="card-radar-plate"/>
+        <polygon points="{{ radar.rings[0] }}" class="card-radar-base"/>
+        {%- for axis in radar.axes %}
+        <line x1="115" y1="102" x2="{{ axis.spokeEnd.x }}" y2="{{ axis.spokeEnd.y }}" class="card-radar-spoke"/>
+        {%- endfor %}
+        {%- if radar.complete %}
+        <polygon points="{{ radar.polygon }}" class="card-radar-area"/>
+        {%- else %}
+        {%- for axis in radar.axes %}
+        {%- set nextAxis = radar.axes[loop.index % radar.axes.length] %}
+        {%- if axis.known and nextAxis.known %}
+        <line x1="{{ axis.point.x }}" y1="{{ axis.point.y }}" x2="{{ nextAxis.point.x }}" y2="{{ nextAxis.point.y }}" class="card-radar-segment"/>
+        {%- endif %}
+        {%- endfor %}
+        {%- endif %}
+        {%- if radar.axes[0].point %}
+        <circle cx="{{ radar.axes[0].point.x }}" cy="{{ radar.axes[0].point.y }}" r="6" class="card-radar-shenren"/>
+        {%- endif %}
+      </svg>
+    </span>
+    {%- endif %}
   </a>
 </li>

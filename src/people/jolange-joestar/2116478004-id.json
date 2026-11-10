@@ -126,6 +126,89 @@
       "著名FC",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:31:00Z",
+      "verdict": "FRT执行四人班子核心总监，既管大工业与飞行甲板，又双号开夜神长年挂帅前线大动员，名副其实的联盟柱石。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "自嘲又菜又爱van，飞行甲板招新卡10b门槛与担保人被称瓜giegie，个人简介立志要买科莫多。",
+          "sources": [
+            {
+              "label": "黑隐心得与自我介绍",
+              "url": "https://forums.winterco.org/t/topic/11678"
+            },
+            {
+              "label": "飞行甲板招新公告",
+              "url": "https://forums.winterco.org/t/topic/22040"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "主号一万二千多杀、消灭一万多亿，无畏二百多条，超旗二十多条、泰坦七条，战斗后勤旗舰百余条；双号并开，夜神、洛基、噩梦常年一线。",
+          "sources": [
+            {
+              "label": "LS-JEP击杀档案",
+              "url": "https://zkillboard.com/kill/127255808/"
+            },
+            {
+              "label": "E-OGL4夜神出战",
+              "url": "https://zkillboard.com/kill/129322329/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "FRT CN军事领导组四人核心之一，长年挂帅全联盟大动员舰队，指挥艾格玛尔、YMJG-4等多场百B战役。",
+          "sources": [
+            {
+              "label": "凛冬管理层名单",
+              "url": "https://wiki.winterco.org/en/coalition/leadership"
+            },
+            {
+              "label": "纳瓦拉战报场外指挥记录",
+              "url": "https://forums.winterco.org/t/topic/12874"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "军团CEO兼精英小组门卫，备受成员拥戴与“贴贴”，以华人桥梁身份参选第20届CSM。",
+          "sources": [
+            {
+              "label": "CSM20官方竞选帖",
+              "url": "https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "位列凛冬联盟执行领导组四人班子与联盟总监，直面大联盟政治并代表华人社群竞选CSM。",
+          "sources": [
+            {
+              "label": "凛冬执行领导架构",
+              "url": "https://wiki.winterco.org/en/coalition/leadership"
+            },
+            {
+              "label": "CSM20竞选纲领",
+              "url": "https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "自述为大工业玩家，常备双号泰坦/夜神级旗舰，招新要求10b门槛，身家充裕。",
+          "sources": [
+            {
+              "label": "CSM竞选自述大工业",
+              "url": "https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771"
+            }
+          ]
+        }
+      }
+    }
   }
 }

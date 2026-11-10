@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "3050993",
   "name": "馒狗",
   "url": "https://space.bilibili.com/3050993/",
   "identity": {
     "state": "candidate",
     "person": null,
-    "material": "docs/leads/zm-x.md",
+    "material": "docs/leads/zm-x.json",
     "label": "线索：馒狗",
     "evidence": [
-      "作品多为国服PIBC；欧服有AOM《馒大林格勒保卫战》、YZ9-F6、M2-XFE超旗战OB；不归[军用馒头](../src/people/mantou-eve/materials-mantou-eve.md)"
+      "作品多为国服PIBC；欧服有AOM《馒大林格勒保卫战》、YZ9-F6、M2-XFE超旗战OB；不归[军用馒头](../src/people/mantou-eve/materials-mantou-eve.json)"
     ],
     "related": [
       {
-        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.json",
         "label": "战役相关视频"
       }
     ]
@@ -53,15 +53,15 @@
     "prior_notes": [
       {
         "text": "B站签名自报“晨曦服ID：SCP O5议员 曙光服ID：SCPO5 宁静服ID：ZM X 王师北定对舞日，家祭无忘告恩公。”宁静服角色由此确定。",
-        "source": "docs/leads/zm-x.md"
+        "source": "docs/leads/zm-x.json"
       },
       {
         "text": "[ZM X ESI](https://esi.evetech.net/latest/characters/2112541858/)：2017-03-16建号，头衔“SCP O5 议员”“误国头子 逃离塔科夫真好玩”，与B站签名的国服ID、近作《逃离塔科夫》相合。",
-        "source": "docs/leads/zm-x.md"
+        "source": "docs/leads/zm-x.json"
       },
       {
         "text": "只读了空间首页与搜索结果标题，未读视频与评论；欧服作品数未逐页统计。",
-        "source": "docs/leads/zm-x.md"
+        "source": "docs/leads/zm-x.json"
       }
     ],
     "listings": [
@@ -184,10 +184,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "B站搜索“EVE YZ9”所得；投稿日2020-10-15即开战当天\n\n（馒狗）：当天投出的全高画质旁观视角，标题记下最醒目的一笔：Goons沉了十二条泰坦。"
       },
       "usage": {
         "body": false,

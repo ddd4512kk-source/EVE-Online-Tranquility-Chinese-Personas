@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "60477858",
   "name": "Six-Bamboo",
   "url": "https://space.bilibili.com/60477858/",
   "identity": {
     "state": "confirmed",
     "person": "six-bamboo",
-    "material": "src/people/six-bamboo/materials-six-bamboo.md",
+    "material": "src/people/six-bamboo/materials-six-bamboo.json",
     "label": "六竹",
     "evidence": [
       "同名；BV1Zq4y1Q7E2投稿者"
@@ -94,9 +94,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/six-bamboo/materials-six-bamboo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

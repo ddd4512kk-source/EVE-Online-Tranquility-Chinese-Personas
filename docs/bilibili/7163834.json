@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "7163834",
   "name": "梦之天籁",
   "url": "https://space.bilibili.com/7163834/",
   "identity": {
     "state": "confirmed",
     "person": "nature00-soul",
-    "material": "src/people/nature00-soul/materials-nature00-soul.md",
+    "material": "src/people/nature00-soul/materials-nature00-soul.json",
     "label": "天籁",
     "evidence": [
       "头衔“天籁”，标题统一【天籁EVE】"
@@ -32,29 +32,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/nature00-soul/materials-nature00-soul.md"
+        "evidence": "src/people/nature00-soul/materials-nature00-soul.json"
       }
     },
     "prior_notes": [
       {
         "text": "最新一期 2023-07-26 BV1NV4y1q7R2（“深水这次是轻敌”），此后无更新。",
-        "source": "src/people/nature00-soul/materials-nature00-soul.md"
+        "source": "src/people/nature00-soul/materials-nature00-soul.json"
       },
       {
         "text": "[本人空间UID7163834](https://space.bilibili.com/7163834/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/nature00-soul/materials-nature00-soul.md"
+        "source": "src/people/nature00-soul/materials-nature00-soul.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/nature00-soul/materials-nature00-soul.md"
+        "source": "src/people/nature00-soul/materials-nature00-soul.json"
       },
       {
         "text": "复用UID7163834空间最新／最多播放各42条，选中排序已核；另读合集页，“指挥是怎样炼成的”共3条，第一3853播放、第二1060、第三842。首批热门五篇后再扩读系列第一、二，实际7篇简介及104个主评论线程，含各主线程直接展示的回复预览。未翻主评论页、展开其他楼中楼、观看影像或读取声音／字幕／转录。owner均为本人UID，不仅凭owner认指挥员；以下本人经历来自其简介与明确回复。",
-        "source": "src/people/nature00-soul/materials-nature00-soul.md"
+        "source": "src/people/nature00-soul/materials-nature00-soul.json"
       },
       {
         "text": "[韩国舰队 BV1Xb411x78b](https://www.bilibili.com/video/BV1Xb411x78b/)：20主线程。简介本人军团驻地来十几人T1战巡、主队收割返回到位堵住死角，称第一次交手、尝试改变视频风格；未独立核对舰队阵营和最终损失。置顶BOP招新帖 `5991798958`，本次未取。评论有要求补KB、质疑可能新人拉练及战损值不值，不能当成完整战报。国别贬称／刻板印象不归档，不把对方国别当能力结论。此篇3.4万播放证明旧正文“2019告辞之后再无EVE破万”不对，改为同年此篇也破万、2020以后的投稿未破万（按已核最多播放首页）。入精选。",
-        "source": "src/people/nature00-soul/materials-nature00-soul.md"
+        "source": "src/people/nature00-soul/materials-nature00-soul.json"
       }
     ],
     "listings": [
@@ -980,9 +980,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1008,10 +1005,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "3主线程。简介表示课程共三节、为想做FC的人少走弯路；EVE老头乐建议从教官提拔FC，没有作者补充。本次未读声音／导图，不知具体课程分工，不额外以此作新指挥经历。未选，第一节作同系列入口；不判差。"
       },
       "usage": {
         "body": false,
@@ -1036,10 +1031,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "三节系列的入口，作者亲自回应冷静决策的标准，又把课程接到自由港社群；值得认识这位FC怎样把带队经验变成公开教学。"
       },
       "usage": {
         "body": true,
@@ -1064,10 +1057,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "作者说明要梳理抓稳、抓死的问题，还在评论回答小队搭配，最贴合他课代表的一面。"
       },
       "usage": {
         "body": true,
@@ -1092,9 +1083,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1120,10 +1108,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "小魔符面对超旗的年夜主权故事，连同敌方对其抱怨的反驳，能读到战事与立场怎样混在一起。"
       },
       "usage": {
         "body": true,
@@ -1148,9 +1134,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1176,9 +1159,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/nature00-soul/materials-nature00-soul.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

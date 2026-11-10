@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "5636499",
   "name": "Remeleen丨",
   "url": "https://space.bilibili.com/5636499/",
   "identity": {
     "state": "confirmed",
     "person": "remeleen",
-    "material": "src/people/remeleen/materials-remeleen.md",
+    "material": "src/people/remeleen/materials-remeleen.json",
     "label": "拉面林",
     "evidence": [
       "与角色名同名；NC宣传片、AT XIX等作品"
     ],
     "related": [
       {
-        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.md",
+        "material": "src/battles/ualx-3-2018/materials-ualx-3-2018.json",
         "label": "战役相关视频"
       }
     ]
@@ -53,7 +53,7 @@
     "prior_notes": [
       {
         "text": "代表签名：[KM 125016212](https://zkillboard.com/kill/125016212/)。",
-        "source": "src/people/remeleen/materials-remeleen.md"
+        "source": "src/people/remeleen/materials-remeleen.json"
       }
     ],
     "listings": [
@@ -982,11 +982,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/remeleen/materials-remeleen.md",
-          "src/battles/ualx-3-2018/materials-ualx-3-2018.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "投稿日2018-07-27；简介挂YouTube原片与r/Eve帖“The UALX-3 escape: behind the scenes planning”，讲本场之后的超旗撤离"
       },
       "usage": {
         "body": false,

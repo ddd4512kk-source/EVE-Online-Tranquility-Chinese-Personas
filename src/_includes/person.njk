@@ -23,6 +23,7 @@ bodyClass: page-person
       {% if identity.alts.length %}<div class="bio-alts-wrap"><p class="bio-aliases bio-alts" id="bio-alts">小号 {% for alt in identity.alts %}<a href="https://evewho.com/character/{{ alt.id }}" target="_blank" rel="noopener noreferrer" title="角色 ID：{{ alt.id }}">{{ alt.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p><button type="button" class="tag-more" aria-controls="bio-alts" aria-expanded="false" hidden>展开 ▾</button></div>{% endif %}
       {% if epithet %}<p class="epithet">{{ epithet }}</p>{% endif %}
     </div>
+    {% ifAsync radarPanel %}{% include "person-radar.njk" %}{% endif %}
   </header>
 
   <dl class="bio-facts" data-pagefind-ignore>
@@ -37,7 +38,6 @@ bodyClass: page-person
       {%- if shenren %}{% if sep %} · {% endif %}<span class="status-text status-text-shenren">神人：{{ shenren }}</span>{% set sep = true %}{% endif -%}
       {%- if upzhu %}{% if sep %} · {% endif %}<span class="status-text status-text-upzhu">{{ upzhuLabel }}</span>{% endif -%}
     </dd></div>{% endif %}
-    {% set servedCorps = collections.corps | corpsOfPerson(char) %}{% if servedCorps.length %}<div><dt>军团</dt><dd class="chips">{% for c in servedCorps %}<a class="chip" href="{{ c.url | url }}">{{ c.data.displayName }}</a>{% endfor %}</dd></div>{% endif %}
     {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
     {% if battles.length %}<div><dt>战役</dt><dd class="battle-list-wrap person-battles">
       <ul class="battle-list" id="person-battles">{% for b in battles %}<li><a class="chip" href="{{ b.url | url }}"><span>{{ b.data.title }}</span><small>{{ b.data.tier.name }}</small></a></li>{% endfor %}</ul>

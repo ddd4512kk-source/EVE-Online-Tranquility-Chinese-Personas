@@ -1,27 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "22305747",
   "name": "FRT-文华",
   "url": "https://space.bilibili.com/22305747/",
   "identity": {
     "state": "confirmed",
     "person": "ranger-yl",
-    "material": "src/people/ranger-yl/materials-ranger-yl.md",
+    "material": "src/people/ranger-yl/materials-ranger-yl.json",
     "label": "文华",
     "evidence": [
       "同名"
     ],
     "related": [
       {
-        "material": "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+        "material": "src/battles/4-abs8-2023/materials-4-abs8-2023.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+        "material": "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+        "material": "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
         "label": "战役相关视频"
       }
     ]
@@ -45,25 +45,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/ranger-yl/materials-ranger-yl.md"
+        "evidence": "src/people/ranger-yl/materials-ranger-yl.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID22305747](https://space.bilibili.com/22305747/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/ranger-yl/materials-ranger-yl.md"
+        "source": "src/people/ranger-yl/materials-ranger-yl.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/ranger-yl/materials-ranger-yl.md"
+        "source": "src/people/ranger-yl/materials-ranger-yl.json"
       },
       {
         "text": "AT19九人合作仍不进入个人精选，保留后期署名及原有人物经历。复用UID22305747最新／最多播放首页各42条，另核合集《联盟公司月报》4个入口，题目与公开计数已读，不当四篇内容全读。《你见过凌晨四点的新伊甸吗》读20主线程；另候选《燃尽五万亿》滚轮调用超时，未取得正文，不判零评论或质量差。没有看影像、听音频或读字幕。",
-        "source": "src/people/ranger-yl/materials-ranger-yl.md"
+        "source": "src/people/ranger-yl/materials-ranger-yl.json"
       },
       {
         "text": "现5条为十周年、移交TEST、FR46-E、IAS-15、凌晨四点；新推荐落在本人回应与公开出勤经历，旧AT合作不回填。原教程、战役、泰坦定金、历史创作及职责／争议保留；月报合集作品、燃尽五万亿正文与有用折叠回复仍有缺口。",
-        "source": "src/people/ranger-yl/materials-ranger-yl.md"
+        "source": "src/people/ranger-yl/materials-ranger-yl.json"
       }
     ],
     "listings": [
@@ -495,10 +495,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ranger-yl/materials-ranger-yl.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "为本人上传，简介“MAN!”，未见联合制作团队或其他制作署名。剑穿天下自报杂技跳驱队FC，文华答建制队太多写不下；沿已知人物2118016008互链，不加总指挥角色，不因发影片给文华新增本场指挥身份。"
       },
       "usage": {
         "body": true,
@@ -523,9 +521,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/ahbazon-2024/materials-ahbazon-2024.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -551,10 +546,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ranger-yl/materials-ranger-yl.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介自嘲只转TCU及工业设施，主权费不如N老板自己交。面对读者对旧敌成为盟友的质疑、猜测，文华称TEST暂属WC-EN，叫“赛博功德林”，说现在一次战斗勉强凑60人，不是60条泰坦；表示要团结、改造对方，减少嘴臭。对77S科摩多旧事，答首杀与首爆现均在WC，“四舍五入是我杀了我自己”。这些是作者的时点说法，不拿来独立认定整个TEST现状或移交决策由他主导。另有“遇华”长篇底特回忆，归留言者，未对应本人角色。\n\n简介解释了为何只移交部分设施，作者又在评论里讲“赛博功德林”和 TEST 当时的人手，旧敌变盟友的反差最有文华味。"
       },
       "usage": {
         "body": true,
@@ -579,11 +572,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ranger-yl/materials-ranger-yl.md",
-          "src/battles/4-abs8-2023/materials-4-abs8-2023.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指名4-ABS8无畏会战，投稿日2023-09-01。\n\n（FRT-文华）：凛冬方微纪录片，标题以“燃尽五万亿，血战到天明”概括这场无畏会战。"
       },
       "usage": {
         "body": false,
@@ -608,9 +598,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ranger-yl/materials-ranger-yl.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -636,9 +623,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -664,10 +648,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ranger-yl/materials-ranger-yl.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介明确4月7日IAS-15攻防、重新启用的舰队狂暴视角。后勤读者“钢之控台术师”抱怨守卫、奥内遥修吃紧且被隐轰攻击，文华答忘给后勤加鸡腿；另向Panfam友军致谢。后勤段是读者说法，未逐人匹配角色；不从视角推断本人FC。"
       },
       "usage": {
         "body": false,
@@ -692,10 +674,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ranger-yl/materials-ranger-yl.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人简介称Legacy攻击主权、凛冬起队击退保卫绕点的缪宁队，报告Winter0.9B、Legacy6.3B；数额为作者说法，未另核BR。置顶称第一次做视频后期“用力过猛”，硬件帧数不佳，暂计划短记录。有人当天退凛冬仍参战，他感谢并祝新家玩得开心；面对失败评价，他说败了就总结经验再来，不掩饰败退。正文新增创作起步与互动，不补造本人驾驶或指挥职责。"
       },
       "usage": {
         "body": false,

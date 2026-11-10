@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "23262671",
   "name": "小猪搞快跑",
   "url": "https://space.bilibili.com/23262671/",
@@ -13,7 +13,7 @@
     ],
     "related": [
       {
-        "material": "src/people/ka-diao/materials-ka-diao.md",
+        "material": "src/people/ka-diao/materials-ka-diao.json",
         "label": "仓库提及，未核对应"
       }
     ]
@@ -61,9 +61,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/ka-diao/materials-ka-diao.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "3546921471838908",
   "name": "MiMi是小米糕",
   "url": "https://space.bilibili.com/3546921471838908/",
   "identity": {
     "state": "confirmed",
     "person": "micahel-wu",
-    "material": "src/people/micahel-wu/materials-micahel-wu.md",
+    "material": "src/people/micahel-wu/materials-micahel-wu.json",
     "label": "小米糕",
     "evidence": [
       "角色简介写“B站搜索：MiMi是小米糕”"
@@ -42,37 +42,37 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/micahel-wu/materials-micahel-wu.md"
+        "evidence": "src/people/micahel-wu/materials-micahel-wu.json"
       }
     },
     "prior_notes": [
       {
         "text": "| [BV1MZuP6pExt](https://www.bilibili.com/video/BV1MZuP6pExt/) | 【EVE欧服】2026最新！伊什塔深渊伽马配置教学 Gamma 丐版-中配版-高配版 Yst |",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       },
       {
         "text": "| [BV1zMRcBMEMe](https://www.bilibili.com/video/BV1zMRcBMEMe/) | 【EVE欧服 教学向】2026 最新！EVE 欧服/宁静 古斯塔斯兔子10-10远征 Yst单刷 新手向教学 eve星战前夜 |",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       },
       {
         "text": "[本人空间UID3546921471838908](https://space.bilibili.com/3546921471838908/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得18、18个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       },
       {
         "text": "[《【EVE欧服】2026最新！伊什塔深渊伽马配置教学 Gamma 丐版-中配版-高配版 Yst》](https://www.bilibili.com/video/BV1MZuP6pExt/)",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       },
       {
         "text": "空间最新、最多播放及配置系列入口已核后，新增读5篇本人作品的简介、选集和92个已加载主评论线程及直接可见回复。未看影像、字幕或音频，未展开所有楼中楼；配装、技能和收益只记作者当时的回答，不当独立现行攻略。",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       },
       {
         "text": "[新版伽马配置](https://www.bilibili.com/video/BV1MZuP6pExt/)（20线程）：简介自述旧配装重制，分丐、中、高档；配置合集共两篇，新旧两版同属该系列。作者回答配置未计脑插，频道有技能包；提醒按具体配置选天气、黑暗不要打，回应加速云影响无人机与卡推进者波次。读者说收益被砍，他认为钥匙贵了、产出差不多；有读者认夕阳红旧身份，他答“是的”。这些均为本人时点自述。有人问毒蜥五级素材，他说全删了；没有未见视频的题目与内容可补。",
-        "source": "src/people/micahel-wu/materials-micahel-wu.md"
+        "source": "src/people/micahel-wu/materials-micahel-wu.json"
       }
     ],
     "listings": [
@@ -340,10 +340,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/micahel-wu/materials-micahel-wu.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（20线程）：简介自述旧配装重制，分丐、中、高档；配置合集共两篇，新旧两版同属该系列。作者回答配置未计脑插，频道有技能包；提醒按具体配置选天气、黑暗不要打，回应加速云影响无人机与卡推进者波次。读者说收益被砍，他认为钥匙贵了、产出差不多；有读者认夕阳红旧身份，他答“是的”。这些均为本人时点自述。有人问毒蜥五级素材，他说全删了；没有未见视频的题目与内容可补。"
       },
       "usage": {
         "body": false,
@@ -368,10 +366,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/micahel-wu/materials-micahel-wu.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（20线程）：简介先警告新人别轻易尝试；评论有人要三开，他认为成本高、不如护卫；新人说要试，他劝四级即可；另答毒蜥技能门槛更低。置顶抽3人赠突变装备，不写抽奖已兑现。部分问配置的回复引向后续作品，未见完整配置文字，不凭题目补清单。"
       },
       "usage": {
         "body": false,
@@ -396,9 +392,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/micahel-wu/materials-micahel-wu.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -424,10 +417,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/micahel-wu/materials-micahel-wu.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（20线程）：简介定位为《教练》番外，讲进阶伊什塔配置用于五、六级。读者“冲滩獭獭”自称刷800多把，报5船损失（掉线2、毁电1、超时2），提示加速云、长期收益和新人连续翻车风险；作者点赞并答“佬”。作者另解释卡爹全伤、无人机比较、新手先练技能、超深空点等问题，称熟练情况下无必死组合；风险自信按本人说法存，不当安全保证。"
       },
       "usage": {
         "body": false,
@@ -452,9 +443,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/micahel-wu/materials-micahel-wu.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

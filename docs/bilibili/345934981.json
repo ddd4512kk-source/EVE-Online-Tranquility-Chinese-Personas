@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "345934981",
   "name": "铁锅炖小小白",
   "url": "https://space.bilibili.com/345934981/",
@@ -13,7 +13,7 @@
     ],
     "related": [
       {
-        "material": "src/people/manuer/materials-manuer.md",
+        "material": "src/people/manuer/materials-manuer.json",
         "label": "仓库提及，未核对应"
       }
     ]
@@ -61,9 +61,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "34656179",
   "name": "EVE欧服玉麒麟联盟",
   "url": "https://space.bilibili.com/34656179/",
   "identity": {
     "state": "confirmed",
     "person": "lao-ying",
-    "material": "src/people/lao-ying/materials-lao-ying.md",
+    "material": "src/people/lao-ying/materials-lao-ying.json",
     "label": "老鹰",
     "evidence": [
       "老鹰本人运营，亦为本人创作与发布账号；有新人教程系列；直播间是否同UID另待核"
@@ -42,13 +42,13 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/lao-ying/materials-lao-ying.md"
+        "evidence": "src/people/lao-ying/materials-lao-ying.json"
       }
     },
     "prior_notes": [
       {
         "text": "**B站账号**（2026-10-16）：EVE欧服玉麒麟联盟（UID 34656179，https://space.bilibili.com/34656179 ）。本人角色简介所挂[走私者新活动教学](https://www.bilibili.com/video/BV1Cv4y1K7Dx)即此号投稿；账号由老鹰本人运营。读空间首页：投稿103条（视频80），粉丝4846，合集16个；代表作《【EVE新人教程2022年版】第一期：《This is EVE Online》》（9.7万播放）、第二期游戏下载安装注册（10万）、第三期角色创建与新手剧情（4.1万）；另有《【EVE】2026杆子区教程》《【EVE】2026年，加入军团的好处是什么？》《【EVE新人必看技巧】如何安全进出空间站？》《玄武军团新手指南：如何创建合同给后勤军团》，合作《2026年，现在是回坑和入坑EVE的最好时机吗？》。直播间23620348是否同号未核。作品精选待读。",
-        "source": "src/people/lao-ying/materials-lao-ying.md"
+        "source": "src/people/lao-ying/materials-lao-ying.json"
       }
     ],
     "listings": [
@@ -1280,10 +1280,142 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/lao-ying/materials-lao-ying.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV143411V7Fp",
+      "title": "【EVE新人教程2022年版】第三期：角色创建与新手剧情",
+      "url": "https://www.bilibili.com/video/BV143411V7Fp/",
+      "owner_uid": "34656179",
+      "published_at": "2022-05-26T17:17:10.000Z",
+      "captured_at": "2026-11-08T16:37:10.293Z",
+      "description": "【EVE新人教程2022年版】手把手教你从零开始玩EVE第三期\n\n本期视频要点：角色创建与新手剧情\n\nEVE官网：https://www.eveonline.com/\n老鹰的邀请链接（使用该链接注册可获得免费的一百万自由技能点，使用老鹰的链接充值将不会获得返利，望周知！）：https://www.eveonline.com/zh/signup?invc=a48fdbf6-2a6f-446a-8147-5401c83af4c8\n\n重要通知！所有需要使用汉化的玩家，请在游戏里选择官方中文语言，严禁再次使用汉化脚本，这可能会导致你会被封号！\n\n游戏内频道：新手互助交流\n配置邮件列表：HWB-FITS EXP\n公开交流群：544526338",
+      "stats": {
+        "views": 40941,
+        "replies": 148
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介（BV1ER4y1w76f与BV1TN411r7eA无简介）及API返回首屏3个主评论线程和可见回复；未翻页或展开楼中楼，未读影像、音轨、字幕，未复核外链。",
+        "reviewed_at": "2026-11-08T16:43:45.823Z",
+        "digest": "简介只列第三期主题“角色创建与新手剧情”。评论者说关注这个游戏多年后被系列勾起入坑念头，也有人称教程讲得好并催更。另有观众询问电脑配置，UP回答旧电脑理论上可以运行，建议检查游戏文件是否完整并调低画质；这是2022年的回复，不当当前系统要求。评论区没有提供本人的战斗经历证据。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1ER4y1w76f",
+      "title": "【EVE新人教程2022年版】第二期：游戏下载、安装、账号注册",
+      "url": "https://www.bilibili.com/video/BV1ER4y1w76f/",
+      "owner_uid": "34656179",
+      "published_at": "2022-05-24T04:08:42.000Z",
+      "captured_at": "2026-11-08T16:36:08.774Z",
+      "description": "",
+      "stats": {
+        "views": 100409,
+        "replies": 883
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介（BV1ER4y1w76f与BV1TN411r7eA无简介）及API返回首屏3个主评论线程和可见回复；未翻页或展开楼中楼，未读影像、音轨、字幕，未复核外链。",
+        "reviewed_at": "2026-11-08T16:43:45.823Z",
+        "digest": "简介为空；置顶评论由UP补写本期包括启动器与游戏本体下载、账号注册，并列出汉化下载、新手频道和配装邮件列表。评论中有人询问邀请注册奖励未到账，UP解释领取入口；也有玩家讨论欧服月卡和新手生存，UP给出当时关于高安任务与低安、00区风险的看法。这些是2022年的推广信息与作者答复，不作现行费用或新手建议。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1J5411X728",
+      "title": "【EVE新人教程2022年版】第一期：《This is EVE Online》",
+      "url": "https://www.bilibili.com/video/BV1J5411X728/",
+      "owner_uid": "34656179",
+      "published_at": "2022-05-23T04:00:53.000Z",
+      "captured_at": "2026-11-08T16:36:29.347Z",
+      "description": "Hello各位大家好，我是老鹰，我现在是EVE欧服国人高安入侵队的指挥，曾担任过低安卫队团指挥兼新手教官一职。这期视频是关于EVE新手入门的全套教程，作为一款位居鄙视链顶端的多人在线网络游戏，EVE中的职业和玩法数不胜数。我将做一套视频合集为各位一一介绍在这个游戏里的各种玩法，希望各位能在这个游戏中存活下来并选择属于自己的道路。\n\n【EVE新人教程2022年版】手把手教你从零开始玩EVE第一期\n本期视频要点：游戏宣传片\n\nEVE官网：https://www.eveonline.com/\n老鹰的邀请链接（使用该链接注册可获得免费的一百万自由技能点，使用老鹰的链接充值将不会获得返利，望周知！）：https://www.eveonline.com/zh/signup?invc=a48fdbf6-2a6f-446a-8147-5401c83af4c8\n\n重要通知！所有需要使用汉化的玩家，请在游戏里选择官方中文语言，严禁再次使用汉化脚本，这可能会导致你会被封号！\n\n游戏内频道：新手互助交流\n配置邮件列表：HWB-FITS EXP\n公开交流群：544526338",
+      "stats": {
+        "views": 96808,
+        "replies": 283
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介（BV1ER4y1w76f与BV1TN411r7eA无简介）及API返回首屏3个主评论线程和可见回复；未翻页或展开楼中楼，未读影像、音轨、字幕，未复核外链。",
+        "reviewed_at": "2026-11-08T16:43:45.823Z",
+        "digest": "简介中“老鹰”自述当时担任EVE欧服国人高安入侵队指挥、曾任低安卫队团指挥兼新手教官，并称将制作涵盖玩法的入门系列；本期主题是宣传片。评论者回忆自己曾被劫后退出，UP建议新手先在高安活动，并比较两服的冲突强度与经济体系。这些是作者当时的自述、建议和玩家经历，不能证明其不同时期职务，也不是当前服务器指南。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1TN411r7eA",
+      "title": "【EVE新人教程2023年版】第二期：游戏介绍与下载，高燃混剪",
+      "url": "https://www.bilibili.com/video/BV1TN411r7eA/",
+      "owner_uid": "34656179",
+      "published_at": "2023-06-17T10:25:34.000Z",
+      "captured_at": "2026-11-08T16:37:30.774Z",
+      "description": "",
+      "stats": {
+        "views": 34695,
+        "replies": 345
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介（BV1ER4y1w76f与BV1TN411r7eA无简介）及API返回首屏3个主评论线程和可见回复；未翻页或展开楼中楼，未读影像、音轨、字幕，未复核外链。",
+        "reviewed_at": "2026-11-08T16:43:45.823Z",
+        "digest": "简介为空。评论者有人看完才发现自己只离开游戏一年，也有人说按教程进入游戏后询问电脑性能、安装文件和月卡开销。UP答复建议先确认游戏文件已完整下载、降低画质，并按当时游戏经济估算月卡时间，还建议使用较稳定的加速器。内容主要是教程反馈与作者答疑；性能和费用判断限于2023年语境，未核当前有效性。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1zZ4y1q71d",
+      "title": "【EVE新人教程2022年版】第九期：新手职业发展规划讲解（上）",
+      "url": "https://www.bilibili.com/video/BV1zZ4y1q71d/",
+      "owner_uid": "34656179",
+      "published_at": "2022-06-16T16:13:31.000Z",
+      "captured_at": "2026-11-08T16:36:49.829Z",
+      "description": "【EVE新人教程2022年版】手把手教你从零开始玩EVE第九期\n\n本期视频要点：新手职业发展规划讲解（PVE）\n\nEVE官网：https://www.eveonline.com/\n老鹰的邀请链接（使用该链接注册可获得免费的一百万自由技能点，使用老鹰的链接充值将不会获得返利，望周知！）：https://www.eveonline.com/zh/signup?invc=a48fdbf6-2a6f-446a-8147-5401c83af4c8\n\n重要通知！所有需要使用汉化的玩家，请在游戏里选择官方中文语言，严禁再次使用汉化脚本，这可能会导致你会被封号！\n\n游戏内频道：新手互助交流\n配置邮件列表：HWB-FITS EXP\n公开交流群：544526338",
+      "stats": {
+        "views": 41790,
+        "replies": 183
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品简介（BV1ER4y1w76f与BV1TN411r7eA无简介）及API返回首屏3个主评论线程和可见回复；未翻页或展开楼中楼，未读影像、音轨、字幕，未复核外链。",
+        "reviewed_at": "2026-11-08T16:43:45.823Z",
+        "digest": "简介将内容定为新手PVE职业规划。评论者按时间列出高安异常、远征、00区活动、深渊、入侵、普通与牌子任务、燃烧任务、物流和故事线等玩法，比较门槛、风险和收益并摘录作者当时的推荐度；评论者追问甲抗配置，UP称可参考教程中的方案。这是2022课程与评论里的旧配置和收益判断，未核当前机制。"
       },
       "usage": {
         "body": false,

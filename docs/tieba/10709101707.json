@@ -4,17 +4,17 @@
   "url": "https://tieba.baidu.com/p/10709101707",
   "title": "谁知道牧星的情况?",
   "references": [
-    "docs/leads/tieba-sk-questions-replies.md",
+    "docs/leads/tieba-sk-questions-replies.json",
     "src/people/drone-wang/drone-wang.md",
-    "src/people/drone-wang/materials-drone-wang.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md"
+    "src/people/drone-wang/materials-drone-wang.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10709101707",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json",
         "首尾状态": "首尾已取",
         "接口回复数": "22",
         "主楼总页数": "1",

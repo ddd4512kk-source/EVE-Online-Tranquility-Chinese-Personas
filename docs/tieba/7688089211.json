@@ -4,7 +4,7 @@
   "url": "https://tieba.baidu.com/p/7688089211",
   "title": "米塔尼锐评馒头演讲",
   "references": [
-    "src/people/mantou-eve/materials-mantou-eve.md",
+    "src/people/mantou-eve/materials-mantou-eve.json",
     "src/people/the-mittani/the-mittani.md"
   ],
   "legacy_records": [
@@ -12,7 +12,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7688089211",
-        "初始引用文件": "src/people/mantou-eve/materials-mantou-eve.md;src/people/the-mittani/the-mittani.md",
+        "初始引用文件": "src/people/mantou-eve/materials-mantou-eve.json;src/people/the-mittani/the-mittani.md",
         "首尾状态": "首尾已取",
         "接口回复数": "54",
         "主楼总页数": "2",

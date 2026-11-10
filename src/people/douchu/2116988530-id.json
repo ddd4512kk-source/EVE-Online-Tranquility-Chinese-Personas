@@ -33,7 +33,7 @@
         "id": 2116988654,
         "name": "DOUCHU002",
         "sources": [
-          "materials-douchu.md"
+          "materials-douchu.json"
         ],
         "zkb": {
           "kills": 1,
@@ -47,7 +47,7 @@
         "id": 2117666499,
         "name": "douchu006",
         "sources": [
-          "materials-douchu.md"
+          "materials-douchu.json"
         ],
         "zkb": {
           "kills": 0,
@@ -61,7 +61,7 @@
         "id": 2117666513,
         "name": "DOUCHU007",
         "sources": [
-          "materials-douchu.md"
+          "materials-douchu.json"
         ],
         "zkb": {
           "kills": 0,
@@ -86,6 +86,77 @@
     "epithet": "联盟散了，跳驱先替大航交学费。",
     "tags": [
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:33:00Z",
+      "verdict": "亲历PH解体大撤离的知名UP主，以向哥布林结账的决绝视频与高质量改版解读闻名社区。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "自封一号机，RA星城突围后发视频公开向哥布林结账称不欠，在各大评论区因阵营立场激情对阵。",
+          "sources": [
+            {
+              "label": "RA星城百亿撤离视频",
+              "url": "https://www.bilibili.com/video/BV1QW2PBLEcr/"
+            },
+            {
+              "label": "WC众评论区辩护",
+              "url": "https://www.bilibili.com/video/BV1GE411q7uD/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "经历多次主权大会战与撤离行动，熟练运用跳驱与拦截战术突围重围。",
+          "sources": [
+            {
+              "label": "星城撤离评论区战术说明",
+              "url": "https://www.bilibili.com/video/BV1QW2PBLEcr/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "随军团调动与战地记录，不承担舰队战役层面的统帅调度。",
+          "sources": [
+            {
+              "label": "撤离行动自述",
+              "url": "https://www.bilibili.com/video/BV1QW2PBLEcr/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站知名资讯创作者，制作战争摇篮、WWB2长篇回顾等高赞视频，生动展现前线视角。",
+          "sources": [
+            {
+              "label": "战争摇篮资料片解读",
+              "url": "https://www.bilibili.com/video/BV13H5r6gEeP/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "看透各大联盟兴废起落但未涉足管理层博弈，保持基层独立观察。",
+          "sources": [
+            {
+              "label": "WWB2战争历史复盘",
+              "url": "https://www.bilibili.com/video/BV1umVV6REQA/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "拥有百亿级撤离家底、大航与多艘旗舰资产。",
+          "sources": [
+            {
+              "label": "百亿资产撤离记录",
+              "url": "https://www.bilibili.com/video/BV1QW2PBLEcr/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

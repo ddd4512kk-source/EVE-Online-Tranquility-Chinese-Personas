@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "289511974",
   "name": "哒哒小橙子",
   "url": "https://space.bilibili.com/289511974/",
   "identity": {
     "state": "confirmed",
     "person": "chengzi",
-    "material": "src/people/chengzi/materials-chengzi.md",
+    "material": "src/people/chengzi/materials-chengzi.json",
     "label": "橙子",
     "evidence": [
       "素材已核；不与无面者“憨憨橙子”混同"
     ],
     "related": [
       {
-        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.json",
         "label": "日期候选的核读与排除依据"
       }
     ]
@@ -1388,10 +1388,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（哒哒小橙子）：橙子的萨托佳斯千人会战作品，发表于1月15日，与本场日期及星系相合；补充同一场交火的另一位作者记录。"
       },
       "usage": {
         "body": false,
@@ -1416,9 +1414,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/chengzi/materials-chengzi.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1444,11 +1439,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "- BV1zau36pEJJ“202608082027”：发布于2026-08-08T12:33:36Z，早于本场；空简介，不能用同日数字标题认作本场。"
       },
       "usage": {
         "body": false,

@@ -4,19 +4,19 @@
   "url": "https://tieba.baidu.com/p/10356363007",
   "title": "震惊，frt联盟黑名单再加一人",
   "references": [
-    "docs/leads/yao-guang.md",
+    "docs/leads/yao-guang.json",
     "src/people/huabuyu/huabuyu.md",
-    "src/people/huabuyu/materials-huabuyu.md",
+    "src/people/huabuyu/materials-huabuyu.json",
     "src/people/longgo-china/longgo-china.md",
-    "src/people/longgo-china/materials-longgo-china.md",
-    "src/people/jita-ezra/materials-jita-ezra.md"
+    "src/people/longgo-china/materials-longgo-china.json",
+    "src/people/jita-ezra/materials-jita-ezra.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10356363007",
-        "初始引用文件": "docs/leads/yao-guang.md;src/people/longgo-china/longgo-china.md;src/people/longgo-china/materials-longgo-china.md",
+        "初始引用文件": "docs/leads/yao-guang.json;src/people/longgo-china/longgo-china.md;src/people/longgo-china/materials-longgo-china.json",
         "首尾状态": "首尾已取",
         "接口回复数": "78",
         "主楼总页数": "2",
@@ -39,7 +39,7 @@
     ],
     "read_at": "2026-10-28T13:14:08.638934Z",
     "evidence": [
-      "src/people/jita-ezra/materials-jita-ezra.md"
+      "src/people/jita-ezra/materials-jita-ezra.json"
     ]
   },
   "acquisition": {

@@ -61,6 +61,73 @@
       "00区",
       "FRT",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "先检查装备，再检查老板。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "因运输船争执写失望宣言，按普通口角评。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/kill/121720417/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "千余击杀、五十余Solo，具资深常规实战。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121355955/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "既有带队职责明确，不因缺监视者记录压成C。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121355955/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "现有材料以职责和争执为主，未见固定受众。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121355955/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "舰队指挥身份不自动等同组织治理。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121355955/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "常规战备自给，不从尊号推财力。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121355955/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

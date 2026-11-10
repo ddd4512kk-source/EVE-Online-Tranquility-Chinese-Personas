@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "53247199",
   "name": "（见素材）",
   "url": "https://space.bilibili.com/53247199/",
   "identity": {
     "state": "confirmed",
     "person": "optimus-mecca",
-    "material": "src/people/optimus-mecca/materials-optimus-mecca.md",
+    "material": "src/people/optimus-mecca/materials-optimus-mecca.json",
     "label": "娃娃",
     "evidence": [
       "本人账号；贴吧观众认其B站教程"
     ],
     "related": [
       {
-        "material": "src/battles/lantorn-2025/materials-lantorn-2025.md",
+        "material": "src/battles/lantorn-2025/materials-lantorn-2025.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md",
+        "material": "src/battles/mc6o-f-2026/materials-mc6o-f-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -41,21 +41,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/optimus-mecca/materials-optimus-mecca.md"
+        "evidence": "src/people/optimus-mecca/materials-optimus-mecca.json"
       }
     },
     "prior_notes": [
       {
         "text": "接口研究：[BiliBili-API 客户端](https://github.com/abcLiyew/BiliBili-API)记录网页投稿列表 `x/space/wbi/arc/search` 使用 WBI 签名与凭据；[bilibili-tizen 开发记录](https://github.com/titlog/bilibili-tizen/blob/master/docs/平台坑.md)提到 App 投稿列表 `x/v2/space/archive/cursor`。本机未实测这些替代接口；Chrome 成功仅说明网页入口可用，不能把一次接口 412 等同整个 IP 都不可用。",
-        "source": "src/people/optimus-mecca/materials-optimus-mecca.md"
+        "source": "src/people/optimus-mecca/materials-optimus-mecca.json"
       },
       {
         "text": "| [BV1id2iBCEGC](https://www.bilibili.com/video/BV1id2iBCEGC/) | 【EVE欧服】FRT嗜血炸鱼队轰炸Goons鹏鲲队 这个避难怎么一跳100个签名呀 |",
-        "source": "src/people/optimus-mecca/materials-optimus-mecca.md"
+        "source": "src/people/optimus-mecca/materials-optimus-mecca.json"
       },
       {
         "text": "空间视频36、合集／系列2；最新与最多播放首页各36个视频入口已核，覆盖全频道标题，未逐个打开合集。最多播放前三为泰坦波色教学约1.1万、FRT怒炸INIT篇9035、大航教学7186；前两篇教学及告别怯薛均已在此前5篇文字阅读中，另两篇为搬家救援与十开后勤。榜二“语音原生放送”未听音频，不据标题复盘具体指挥。",
-        "source": "src/people/optimus-mecca/materials-optimus-mecca.md"
+        "source": "src/people/optimus-mecca/materials-optimus-mecca.json"
       }
     ],
     "listings": [
@@ -340,10 +340,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "最能接上他的“萌新人设”。简介哭着谢W佬，观众认作钓鱼，他又回“演员的自我修养”；救命、做戏、熟人拆台都留在公开文字里，读起来比只看胜负更像娃娃。"
       },
       "usage": {
         "body": true,
@@ -368,10 +366,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "看他怎样从喊三开转到标题自报十开后勤。简介附战报，评论却一片“几个大脑”“双开都手忙脚乱”；三开喊成十开，老教师又给熟人出了一道看着就手忙脚乱的新题。"
       },
       "usage": {
         "body": true,
@@ -396,10 +392,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "军团生活这一面值得留一篇。简介拿一封邮件和“END”收尾，评论区却继续问重建、去向和FRT近况；他答“好玩捏”，告别组织与继续玩游戏并不妨碍同时发生。"
       },
       "usage": {
         "body": true,
@@ -424,9 +418,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -452,10 +443,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "想认识早年的娃上将，从这间课堂读起。简介留了游戏内答疑入口，后来还有课代表补舰载机操作、作者回头道谢；有用的不只是教程题目，还有老师承认自己也在逐渐补课的过程。"
       },
       "usage": {
         "body": true,
@@ -480,9 +469,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
         "scope": "最多播放榜标题与约9035播放数；简介、评论、署名细节及视听未读。"
       },
       "usage": {
@@ -508,11 +494,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md",
-          "src/battles/lantorn-2025/materials-lantorn-2025.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指兰多恩铁壁，投稿日当天。\n\n（星月也想睡觉）：FRT EN方作品，标题称这是正名之战，Snuff兰多恩铁壁结构。"
       },
       "usage": {
         "body": false,
@@ -537,11 +520,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md",
-          "src/battles/mc6o-f-2026/materials-mc6o-f-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题从泰坦出击写到无畏群，并抛出“复刻”的疑问，呈现频道另一类旗舰战题材。"
       },
       "usage": {
         "body": false,
@@ -566,11 +546,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/optimus-mecca/materials-optimus-mecca.md"
-        ],
         "scope": "公开简介与作品页首屏主评论及作者回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-11-06"
+        "reviewed_at": "2026-11-06",
+        "digest": "BV1FUxm6KEro《W佬反时区严肃加入MTO2混战 噩梦曲剑+6开无畏第一视角》，UID 53247199（docs/bilibili/53247199.json），2026-11-04发布，约1170播放、25评论，时长约9分钟，标签含FRT、第一视角。2026-11-06用Chrome打开作品页，读简介、首屏主评论与作者回复；未翻页、未看影像音轨。"
       },
       "usage": {
         "body": false,

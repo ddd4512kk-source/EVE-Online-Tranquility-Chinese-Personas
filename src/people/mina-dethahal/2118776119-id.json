@@ -195,9 +195,84 @@
     "tags": [
       "00区",
       "FRT",
-      "FC",
+      "著名FC",
       "联盟管理",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:40:00Z",
+      "verdict": "伏羲实权总监与天国小屋之主，坐拥勒维亚坦泰坦与万亿战功，以严苛的门房挑剔与魔像十星自爆的冷幽默纵横新伊甸。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "魔像完成十星后战损并挂进简介自嘲，属于常规高价值舰船损失与自黑，不构成神人加分，常人基准。",
+          "sources": [
+            {
+              "label": "角色官方掠夺生命周期名片",
+              "url": "https://esi.evetech.net/latest/characters/2118776119/"
+            },
+            {
+              "label": "魔像被毁终结KM",
+              "url": "https://zkillboard.com/kill/97003445/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "6078次击杀涉3.7T战果，熟练驾驶泰坦（勒维亚坦）、无畏（莫洛/凤凰）及各型掠夺，单人多开顶级战斗力。",
+          "sources": [
+            {
+              "label": "欧贝泰坦参战记录",
+              "url": "https://zkillboard.com/kill/139046717/"
+            },
+            {
+              "label": "4-H莫洛无畏参战记录",
+              "url": "https://zkillboard.com/kill/134999643/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "伏羲核心带队FC，天国小屋统领，亲自指挥伊瓦提七千亿旗舰大战。",
+          "sources": [
+            {
+              "label": "伊瓦提七千亿会战带队记录",
+              "url": "https://zkillboard.com/kill/129568234/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "治军严谨挑剔，虽设高门槛但实战硬核极具威望。",
+          "sources": [
+            {
+              "label": "论坛天国小屋招募讨论",
+              "url": "https://forums.winterco.org/t/topic/24215"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "伏羲军团总监，FRT核心战术力量主管，在全联盟拥有强大军事话语权。",
+          "sources": [
+            {
+              "label": "伏羲总监任职记录",
+              "url": "https://esi.evetech.net/latest/characters/2118776119/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "常备勒维亚坦泰坦、莫洛、凤凰多艘旗舰及顶格插头高价值掠夺，财力极其雄厚。",
+          "sources": [
+            {
+              "label": "勒维亚坦泰坦出战记录",
+              "url": "https://zkillboard.com/kill/139046717/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -118,7 +118,7 @@
         "id": 2121523894,
         "name": "JUEJUEJUE",
         "sources": [
-          "materials-beijue.md",
+          "materials-beijue.json",
           "https://evewho.com/character/2121523894"
         ],
         "zkb": {
@@ -133,7 +133,7 @@
         "id": 2121994319,
         "name": "IKINGI",
         "sources": [
-          "materials-beijue.md",
+          "materials-beijue.json",
           "https://evewho.com/character/2121994319"
         ],
         "zkb": {
@@ -151,7 +151,7 @@
           "uid": "7011177994",
           "name": "囧家佳",
           "sources": [
-            "materials-beijue.md"
+            "materials-beijue.json"
           ]
         }
       ]
@@ -176,6 +176,73 @@
       "CEO",
       "FC",
       "低安"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "团可以重开，招募帖总得自己顶。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "借别人超旗KM撑门面，属于轻度虚张声势。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9271449011"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主小号近四千击杀，有持续前线和Solo积累。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121509601/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "自2025年持续坐指挥位并起队，属带队骨干。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/kill/130592787/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "反复建团招募并有固定成员跟随，影响仍在团队内。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9271449011"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际创办经营星守与Void Kraken，CEO履职明确。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9271449011"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "本人两个号均过百击杀并另有建团号，多号投入按B。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9271449011"
+            }
+          ]
+        }
+      }
+    }
   }
 }

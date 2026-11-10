@@ -20,7 +20,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.json"
       ],
       "entries": [
         {
@@ -639,7 +639,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.json"
       ],
       "entries": [
         {
@@ -1020,7 +1020,7 @@
     {
       "label": "♚ 宫泽 ♚",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98538918.json#foredawn历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2116804891",
@@ -1030,7 +1030,7 @@
     {
       "label": "♚ 京酒 ♚",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98538918.json#foredawn历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2115353761",
@@ -1041,7 +1041,7 @@
     {
       "label": "贪岁",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98538918.json#foredawn历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "1114534817",
@@ -1051,7 +1051,7 @@
     {
       "label": "梦影",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98538918.md#foredawn历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98538918.json#foredawn历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2113239115",
@@ -1064,7 +1064,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "37",
         "alliance": "Fraternity.",
@@ -1075,17 +1075,17 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-12",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "Yohane Bonaventura / 2113698511",
-        "prior_finding": "同人号已收录；[人物素材](../../../src/people/alice-seraph/materials-alice-seraph.md)"
+        "prior_finding": "同人号已收录；[人物素材](../../../src/people/alice-seraph/materials-alice-seraph.json)"
       }
     },
     {
       "kind": "description",
       "period": null,
       "as_of": "2026-10-10",
-      "source": "docs/corporations/notes/descriptions.md",
+      "source": "docs/corporations/notes/descriptions.json",
       "fields": {
         "alliance": "FRT",
         "member_count": "350",
@@ -1095,7 +1095,7 @@
     }
   ],
   "references": [
-    "docs/corporations/notes/descriptions.md",
-    "docs/corporations/notes/activity-2026-09.md"
+    "docs/corporations/notes/descriptions.json",
+    "docs/corporations/notes/activity-2026-09.json"
   ]
 }

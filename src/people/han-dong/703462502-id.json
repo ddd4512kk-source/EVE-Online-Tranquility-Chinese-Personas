@@ -80,8 +80,79 @@
     "tags": [
       "00区",
       "CONDI",
-      "FC"
-    ]
+      "著名FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "PLA 黑影队当家隐秘 FC，专杀渡神货舰，更爱把军团老板踢出核心群。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "踢老板的熟人互损不作神人加分，补损争论也不自动升档。；常规社区交流、论坛口水或军团内务分歧，未涉及恶性人肉造谣或现实骚扰，属普通玩家互动与摩擦，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "PLA 黑影队往事与战报",
+              "url": "https://zkillboard.com/character/703462502/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主小号合计万杀，专精隐轰、黑隐战列与特种拦截，在MC6O-F史诗战役及日常猎杀中表现出色。",
+          "sources": [
+            {
+              "label": "Han Dong zKillboard",
+              "url": "https://zkillboard.com/character/703462502/"
+            },
+            {
+              "label": "H-PA29 战役厄里斯击损",
+              "url": "https://zkillboard.com/kill/105128074/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "拥有zKB官方FC资质认证，担任PLA黑影队核心指挥官，长期率领隐秘特战舰队猎杀敌后大船与战备。",
+          "sources": [
+            {
+              "label": "Han Dong zKillboard",
+              "url": "https://zkillboard.com/character/703462502/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "黑影队长期跟队、群内熟人互动，体现本队凝聚力。",
+          "sources": [
+            {
+              "label": "PLA 黑影队内部交流记事",
+              "url": "https://zkillboard.com/character/703462502/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "黑影队日常协调是基层事务，不以不涉高层作为负面理由。",
+          "sources": [
+            {
+              "label": "Han Dong zKillboard",
+              "url": "https://zkillboard.com/character/703462502/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "主小号长期参与隐轰、黑隐特战，持续承担多号高价值机库。",
+          "sources": [
+            {
+              "label": "Han Dong zKillboard",
+              "url": "https://zkillboard.com/character/703462502/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -90,7 +161,7 @@
         "id": 93926714,
         "name": "Han Dong",
         "sources": [
-          "materials-han-dong.md"
+          "materials-han-dong.json"
         ],
         "zkb": {
           "kills": 977,

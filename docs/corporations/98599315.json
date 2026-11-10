@@ -20,7 +20,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.json"
       ],
       "entries": [
         {
@@ -639,7 +639,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research.md"
+        "docs/corporations/notes/member-research.json"
       ],
       "entries": [
         {
@@ -1170,7 +1170,7 @@
     {
       "label": "「BKB-长门」",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "736339179",
@@ -1192,7 +1192,7 @@
     {
       "label": "「BKB-一万」",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2122445479",
@@ -1210,7 +1210,7 @@
     {
       "label": "「BKB-楓葉」",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2122913577",
@@ -1234,7 +1234,7 @@
     {
       "label": "泰式香米",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2122896923",
@@ -1247,7 +1247,7 @@
     {
       "label": "「BKB-墨子」",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2123703905",
@@ -1259,7 +1259,7 @@
     {
       "label": "落尘",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2114276761",
@@ -1269,7 +1269,7 @@
     {
       "label": "K男",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2123907463",
@@ -1279,7 +1279,7 @@
     {
       "label": "「BKB-尘」",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2124231639",
@@ -1292,7 +1292,7 @@
     {
       "label": "「BKB-宫大郎」",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98599315.md#bkb历史榜前100头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2119164835",
@@ -1306,7 +1306,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "49",
         "alliance": "ChuangShi Federation",
@@ -1317,7 +1317,7 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-12",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "Black KingBar / 2115169223",
         "prior_finding": "候选待取材"
@@ -1325,6 +1325,6 @@
     }
   ],
   "references": [
-    "docs/corporations/notes/activity-2026-09.md"
+    "docs/corporations/notes/activity-2026-09.json"
   ]
 }

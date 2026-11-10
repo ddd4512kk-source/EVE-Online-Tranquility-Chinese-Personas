@@ -3,6 +3,7 @@ import { statSync } from 'node:fs';
 import path from 'node:path';
 import { activityText, combatText, personActivity, personCombat, personStatusTags } from '../../scripts/activity.mjs';
 import { PERSON_FIELDS, readPersonDocument } from '../../scripts/person-document.mjs';
+import { personRadar } from '../../scripts/person-radar.mjs';
 
 // 列传最后更新时间 = 该 .md 最后一次提交的时间（只看列传本身，素材、快照不算）。
 // 未提交的新文件按构建时间算。CI 需完整历史（checkout fetch-depth: 0）。
@@ -39,6 +40,7 @@ export default {
   layout: "person.njk",
   eleventyComputed: {
     ...Object.fromEntries(["character_id", ...PERSON_FIELDS].map(key => [key, d => documentOf(d).data[key]])),
+    radarPanel: d => personRadar(documentOf(d).data.radar),
     // 网址用角色 ID，文件改名不影响链接
     permalink: (d) => `/p/${d.character_id}/`,
     char: (d) => d.characters?.[String(d.character_id)],

@@ -1,47 +1,47 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "259433622",
   "name": "Awakeallnight",
   "url": "https://space.bilibili.com/259433622/",
   "identity": {
     "state": "confirmed",
     "person": "awakeallnight",
-    "material": "src/people/awakeallnight/materials-awakeallnight.md",
+    "material": "src/people/awakeallnight/materials-awakeallnight.json",
     "label": "Awakeallnight素材",
     "evidence": [
       "角色简介直挂此空间；约194条，会战全程录像与中文字幕解说（艾蒂斯、萨托加斯、B6星城），已立传"
     ],
     "related": [
       {
-        "material": "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+        "material": "src/battles/1-smeb-2026/materials-1-smeb-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+        "material": "src/battles/8f-tk3-2026/materials-8f-tk3-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/ahbazon-2026/materials-ahbazon-2026.md",
+        "material": "src/battles/ahbazon-2026/materials-ahbazon-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "material": "src/battles/atioth-2026/materials-atioth-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "material": "src/battles/obe-2026/materials-obe-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.json",
         "label": "战役视频关联与来源核对"
       }
     ]
@@ -82,15 +82,15 @@
     "prior_notes": [
       {
         "text": "空间 https://space.bilibili.com/259433622 ：投稿约194条，粉丝约1.5万，播放约335.5万；签名“EVE自由海盗 红龙，格斗游戏人机king 影之诗咸鱼 战地老薯条 天文爱好者”。",
-        "source": "src/people/awakeallnight/materials-awakeallnight.md"
+        "source": "src/people/awakeallnight/materials-awakeallnight.json"
       },
       {
         "text": "2026-10-16初查时仅读空间首页，未核最多播放排序，未展开作品页；此状态已由2026-10-17的作品页采集更新，补档清单见下文。萨托加斯一战是龙骑星城被毁的会战，可与[奥托素材](../freakdog-otto/materials-freakdog-otto.md)的龙骑回忆录对照。",
-        "source": "src/people/awakeallnight/materials-awakeallnight.md"
+        "source": "src/people/awakeallnight/materials-awakeallnight.json"
       },
       {
         "text": "本次逐条复核8页作者UID、标题与简介，回看各页前2个可见评论线程的已有摘录；不代表已穷尽评论或展开楼中楼。未读取视频、音轨、字幕或弹幕。旧空间缓存的排序URL不能单独证明实际切换了最多播放。",
-        "source": "src/people/awakeallnight/materials-awakeallnight.md"
+        "source": "src/people/awakeallnight/materials-awakeallnight.json"
       }
     ],
     "listings": [
@@ -2057,23 +2057,22 @@
       "url": "https://www.bilibili.com/video/BV139p36LEBH/",
       "owner_uid": "259433622",
       "published_at": "2026-10-10T16:37:15.000Z",
-      "captured_at": "2026-10-17T11:32:13.415Z",
+      "captured_at": "2026-11-08T10:18:38.000Z",
       "description": "",
       "stats": {
-        "views": 3303,
-        "replies": 44
+        "views": 5037,
+        "replies": 47
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为空，未见原创或团队署名，不据上传归属断言录像作者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md",
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读标题与空简介、最多3个已加载主评论线程及其可见回复；未翻页、未展开其他楼层，未看影像、音轨、字幕或弹幕。具体评论观点及边界见人物素材对应段落；未见原创或团队署名。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介为空；正文已提此作，不再凭标题补写会战细节。\n\n热门评论把超旗会战与日常收割队的集结规模对比，强调此类泰坦对轰少见、值得分享；也有人提到FRT获得视频权后持续发布。后一句是评论者对传播／授权的说法，尚未核验。简介为空、评论也未提供足够战斗细节，故不从标题扩写参战经过。"
       },
       "usage": {
         "body": false,
@@ -2098,9 +2097,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2126,9 +2122,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2154,9 +2147,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/ahbazon-2026/materials-ahbazon-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2177,15 +2167,15 @@
         "replies": 19
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介将素材来源署给Warlockindustries、CabbageTimil，未将其称为联合制作方。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存的标题、简介及最多5条已加载主评论和可见回复；未翻页或展开更多楼层，未播放视频、音轨或字幕；具体摘要和归因边界见素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介署素材来源 Warlockindustries、CabbageTimil，为阿巴宗之战一周年纪念作品。\n\n简介署素材来源Warlockindustries、CabbageTimil，并说明是阿巴宗会战一周年纪念。评论者认为一次空堡被拆引发了跨势力大混战，甚至出现同一联盟成员站在交战双方的情况；这是观众对冲突规模的概括，不能替代参战名单核实。"
       },
       "usage": {
         "body": true,
@@ -2198,22 +2188,22 @@
       "url": "https://www.bilibili.com/video/BV1GUK66WESi/",
       "owner_uid": "259433622",
       "published_at": "2026-07-19T16:30:02.000Z",
-      "captured_at": "2026-10-17T11:31:05.894Z",
+      "captured_at": "2026-11-08T10:18:38.000Z",
       "description": "",
       "stats": {
-        "views": 2395,
+        "views": 2496,
         "replies": 14
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为空，未见原创或团队署名，不据上传归属断言录像作者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读标题与空简介、最多3个已加载主评论线程及其可见回复；未翻页、未展开其他楼层，未看影像、音轨、字幕或弹幕。具体评论观点及边界见人物素材对应段落；未见原创或团队署名。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介为空；仅凭标题不能补造三次出击过程。正文已有此作。\n\n评论者称无畏输出约2000 DPS，并惊讶于单开操作；另一评论批评诱导与近炮无畏配置，还指称有转速脚本。前者是观众估算，后者是未经核实的作弊指控，均不作事实；标题中的“一小时三次出击”也未由评论或本次读取验证。"
       },
       "usage": {
         "body": false,
@@ -2226,23 +2216,22 @@
       "url": "https://www.bilibili.com/video/BV1oJKT6PE2i/",
       "owner_uid": "259433622",
       "published_at": "2026-07-18T21:18:32.000Z",
-      "captured_at": "2026-10-17T11:31:19.250Z",
+      "captured_at": "2026-11-08T10:18:38.000Z",
       "description": "",
       "stats": {
-        "views": 3068,
+        "views": 3187,
         "replies": 26
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为空，未见原创或团队署名，不据上传归属断言录像作者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md",
-          "src/battles/1-smeb-2026/materials-1-smeb-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读标题与空简介、最多3个已加载主评论线程及其可见回复；未翻页、未展开其他楼层，未看影像、音轨、字幕或弹幕。具体评论观点及边界见人物素材对应段落；未见原创或团队署名。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介为空；保留作品标题线索，不把标题当完整战报。正文已有此作。\n\n评论询问进场装甲缺损及为何没开火力广播，回复者称有炸弹追击；另有观众称战斗酣畅，并出现“打老外就点赞”的阵营偏好表达。这些是观看者的局部观察和态度，不能替代录像战报或确认伤害来源。"
       },
       "usage": {
         "body": false,
@@ -2262,16 +2251,15 @@
         "replies": 12
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为周年纪念文案，未见原录像或团队署名；阵营说法保留为作者口径。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md",
-          "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存的标题、简介及最多5条已加载主评论和可见回复；未翻页或展开更多楼层，未播放视频、音轨或字幕；具体摘要和归因边界见素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介以龙骑防守、混沌等驰援，Goons、INIT、DC进攻叙事；这是作者的纪念口径，不能据此独立确认兵力和战果。\n\n简介把萨托加斯描述成龙骑与盟友面对Goons、INIT、DC等多路进攻的防守战；这是纪念作品的作者口径。评论者问“守住了吗”，另一条评论把其个人旗舰击杀经历与星城防守失利分开；标签“银色汤勺”引来调侃，上传者回“每日都严肃进行汤勺大学习”。纪念文案没有交代失守结局，评论亦不补作独立战报。\n\n（Awakeallnight）：首都失守后的周年纪念，壮烈文案与评论区“守住了吗”的追问恰好相对。"
       },
       "usage": {
         "body": true,
@@ -2291,16 +2279,15 @@
         "replies": 56
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介称为直播部分片段，未注明原直播者或联合制作，不据上传归属推定参战者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md",
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存的标题、简介及最多5条已加载主评论和可见回复；未翻页或展开更多楼层，未播放视频、音轨或字幕；具体摘要和归因边界见素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介说这是过长直播的部分片段。上传者评论标注截至早上6时FRT已损失两艘泰坦；评论者追问星城是否守住、蜜蜂攻势战损如何，也有人质疑在小船海面前投入超旗的性价比。上传者这条数字是当时阶段性报告，不等于全场最终统计。\n\n（Awakeallnight）：4月25日发布的首都攻防直播回放片段，标题明确4-H星城退增强；与双方复盘对照，简介说明原录像过长，仅截取部分。"
       },
       "usage": {
         "body": false,
@@ -2320,16 +2307,15 @@
         "replies": 345
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "简介署EVE-西红柿炒番茄为素材来源，并称Awakeallnight熬夜剪辑；分别归因原始素材与投稿剪辑，不推断录像中的驾驶者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md",
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复核本地作品页缓存的标题、简介及最多5条已加载主评论和可见回复；未翻页或展开更多楼层，未播放视频、音轨或字幕；具体摘要和归因边界见素材。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介署素材来源 EVE-西红柿炒番茄，并称熬夜剪辑；录像素材与剪辑作者分开归因。\n\n简介将素材来源归给EVE-西红柿炒番茄，Awakeallnight说明自己熬夜剪辑；应区分原始战斗素材与投稿剪辑／解说。缓存评论把艾蒂斯攻防的服务器故障、时间膨胀和参战体验放在同一场争论里：有人认为大型主权战的胜负应看目标是否达成而非只看战损比；也有人描述泰坦长时间卡顿、维护前未能开火。另有关于扫射无畏与旗舰战编队的争论。这些是观众留言，不据此确认舰船损失或战果。\n\n2026-04-07发布，标题明确艾蒂斯会战与万人规模；简介注明素材来源。按公开署名保留投稿剪辑与素材来源，不认定投稿者驾驶了录像中的舰船；原题人数是来源表述，不替代本页统计。\n\n（Awakeallnight（投稿、剪辑）；素材来自EVE-西红柿炒番茄）：以会战录像与中文解说整理艾蒂斯攻防，简介注明素材来自EVE-西红柿炒番茄，可与泰坦视角的投稿对照。"
       },
       "usage": {
         "body": true,
@@ -2354,9 +2340,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2370,23 +2353,22 @@
       "url": "https://www.bilibili.com/video/BV1UXr7BNE4d/",
       "owner_uid": "259433622",
       "published_at": "2026-01-13T18:34:21.000Z",
-      "captured_at": "2026-10-22T09:37:12.540Z",
+      "captured_at": "2026-11-08T10:18:38.000Z",
       "description": "",
       "stats": {
-        "views": 14988,
-        "replies": 116
+        "views": 15491,
+        "replies": 120
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为空，未见原创或团队署名，不据上传归属断言录像作者。"
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md",
-          "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读标题与空简介、最多3个已加载主评论线程及其可见回复；未翻页、未展开其他楼层，未看影像、音轨、字幕或弹幕。具体评论观点及边界见人物素材对应段落；未见原创或团队署名。",
+        "reviewed_at": "2026-11-08",
+        "digest": "一名评论者称其团前一晚损失多数无畏、因人数差距守不住；上传者在楼中回应“被人海战术淹没”，另一层回复认为当时无畏难以造成实质伤害。此处只记录参战者与上传者在评论区的回顾，未从未观看的录像核实战损或战况。另有观众以《第二银河》对照EVE的大规模舰队战，讨论控号手。"
       },
       "usage": {
         "body": false,
@@ -2411,9 +2393,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/awakeallnight/materials-awakeallnight.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2434,16 +2413,15 @@
         "replies": 39
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为空、未见原创或团队署名，不据上传归属断言录像作者。"
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
-        ],
-        "scope": "已读公开标题、空简介及13条可见主评论／回复；未展开其他楼层，未读影像、音轨或字幕。作品地点、日期、评论中的INIT独立介入及DC支援争论已归档。",
-        "reviewed_at": "2026-10-24"
+        "scope": "已读公开标题、空简介及13条可见主评论／回复；未展开其他楼层，未读影像、音轨或字幕。页面无原创或团队署名，不据上传者身份推断录像作者。作品地点、日期、评论中的INIT独立介入及DC支援争论已归档。",
+        "reviewed_at": "2026-10-24",
+        "digest": "[作品](https://www.bilibili.com/video/BV1XMuL6sEru/)，UID259433622，标题“【EVE】绝地6Q会战，百条无畏贴脸肉搏”，2026-08-08 UTC上传；已读公开标题、空简介和13条可见主评论／回复，未展开其余楼层。标题点名6Q且日期与本场相合；上传者本人由已有小号档案命中本场华人一侧，作为相关作品选取，不凭标题推定具体驾驶船型。"
       },
       "usage": {
         "body": false,
@@ -2456,20 +2434,22 @@
       "url": "https://www.bilibili.com/video/BV1YG4K6kE7k/",
       "owner_uid": "259433622",
       "published_at": "2026-11-02T17:26:30.000Z",
-      "captured_at": "2026-11-03T11:02:35.828Z",
+      "captured_at": "2026-11-08T10:18:38.000Z",
       "description": "",
       "stats": {
-        "views": 3199,
+        "views": 3045,
         "replies": 50
       },
       "credit": {
-        "state": "unreviewed",
-        "team": []
+        "state": "reviewed",
+        "team": [],
+        "note": "上传者UID已核；简介为空，未见原创或团队署名，不据上传归属断言录像作者。"
       },
       "reading": {
-        "state": "captured",
-        "material_refs": [],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读标题与空简介、最多3个已加载主评论线程及其可见回复；未翻页、未展开其他楼层，未看影像、音轨、字幕或弹幕。具体评论观点及边界见人物素材对应段落；未见原创或团队署名。",
+        "reviewed_at": "2026-11-08",
+        "digest": "评论区围绕反Goons低安联军、拆建筑和低安玩家对跳桥电容改动的意见展开；另有评论质疑为何把混沌单独列出，回复称混沌另组舰队，并以军团与联盟的蓝白关系解释。属于评论者对阵营协作与低安政治的解读，不能当作已核实的战役编成；抽取范围内未见上传者回应。"
       },
       "usage": {
         "body": false,

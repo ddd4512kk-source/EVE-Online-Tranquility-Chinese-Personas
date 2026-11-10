@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "64907860",
   "name": "进击的小肥皂泡",
   "url": "https://space.bilibili.com/64907860/",
   "identity": {
     "state": "confirmed",
     "person": "free-zaopao",
-    "material": "src/people/free-zaopao/materials-free-zaopao.md",
+    "material": "src/people/free-zaopao/materials-free-zaopao.json",
     "label": "肥皂泡",
     "evidence": [
       "头衔相合，简介光点学院招新"
     ],
     "related": [
       {
-        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "material": "src/battles/obe-2026/materials-obe-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -47,17 +47,17 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/free-zaopao/materials-free-zaopao.md"
+        "evidence": "src/people/free-zaopao/materials-free-zaopao.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人主页](https://space.bilibili.com/64907860/upload/video)，UP“进击的小肥皂泡”，UID64907860。检索页精确作者名、公开简介的光点学院招新与既有游戏对应互相相合；两期本人评论另明说“我是国际服”。主页显示58个视频、两页，本次读第一页40个投稿入口，第二页未读，不标全作品覆盖。舰船科普合集页面列47期；具体影像没有播放，作品推荐暂不按标题硬选，已读评论互动可直接成为人物故事。",
-        "source": "src/people/free-zaopao/materials-free-zaopao.md"
+        "source": "src/people/free-zaopao/materials-free-zaopao.json"
       },
       {
         "text": "空间59视频、1图文、2个合集／系列，最新与最多播放首页各42个视频入口已核；更深分页与合集内容未全读。旧稿只有渎圣、小希两篇创作故事，无明确推荐。最多播放首篇神使约2.4万；较受关注的多米、毒蜥和舰队台风一并补读。最终精选神使、多米、毒蜥与原两篇，共5条；理由基于实际问答，不评论未看讲解／制作。",
-        "source": "src/people/free-zaopao/materials-free-zaopao.md"
+        "source": "src/people/free-zaopao/materials-free-zaopao.json"
       }
     ],
     "listings": [
@@ -732,9 +732,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -760,10 +757,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/free-zaopao/materials-free-zaopao.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-10-08，127秒；作者UID64907860，简介为欧服光点学院招新。14个已加载主评论线程及可见楼中楼已读：暴躁三川问与盖伦特近战，UP答“你要不要看看这船的动热抗有多高”；失落星尘谈140km近距离，UP解释重突版本；羊驼不是叶羊认作狞獾，UP答“额....”；会过河的菠菜问国服未更新，UP答“是的我是国际服”。评论分服务器与作者解答，不把国服评论经历归作者。"
       },
       "usage": {
         "body": true,
@@ -788,10 +783,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/free-zaopao/materials-free-zaopao.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-10-02，108秒；同作者、同招新简介。17个已加载主评论线程及可见楼中楼已读：4442228猜下一期小希，UP答“请不要揣测我”；东方砱钰问两船导弹选择，UP答小希有重攻射程加成；有人问入群验证，UP答“啊？有验证码吗”。未展示的楼中楼与影像仍留缺口，不转述置顶NPC世界观。\n\n从导弹选择的问题延伸读他的答疑。观众把渎圣和小希放在一起比，他解释重攻射程加成；下一期选题又被评论猜中，课堂还有一点熟人追更的乐趣。"
       },
       "usage": {
         "body": true,
@@ -816,9 +809,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/free-zaopao/materials-free-zaopao.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -844,9 +834,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/free-zaopao/materials-free-zaopao.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -872,9 +859,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/free-zaopao/materials-free-zaopao.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -900,10 +884,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/free-zaopao/materials-free-zaopao.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "旗舰入门可从这篇的文字答疑开始。观众问有没有末日以外的武器，作者解释旗舰炮的用途和局限，又回答素材如何录制；比只认一个巨舰名字多走了一步。"
       },
       "usage": {
         "body": true,

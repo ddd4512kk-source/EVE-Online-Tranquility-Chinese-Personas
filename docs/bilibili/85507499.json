@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "85507499",
   "name": "筱橘ORG",
   "url": "https://space.bilibili.com/85507499/",
   "identity": {
     "state": "confirmed",
     "person": "mikanorg",
-    "material": "src/people/mikanorg/materials-mikanorg.md",
+    "material": "src/people/mikanorg/materials-mikanorg.json",
     "label": "筱橘",
     "evidence": [
       "头衔筱橘＋角色后缀ORG，第一人称FRT事件及EN部参战上下文对应；双排序10视频仅1条EVE，无合集"
@@ -42,21 +42,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/mikanorg/materials-mikanorg.md"
+        "evidence": "src/people/mikanorg/materials-mikanorg.json"
       }
     },
     "prior_notes": [
       {
         "text": "空间双排序、合集及UMI作品已续读，见下节。上述评论各只读到已有可见线程，未重新请求分页或楼中楼；没有读影像、字幕、转录或音频。",
-        "source": "src/people/mikanorg/materials-mikanorg.md"
+        "source": "src/people/mikanorg/materials-mikanorg.json"
       },
       {
         "text": "[空间85507499](https://space.bilibili.com/85507499/upload/video)最新、最多播放已核选中态，各10条视频、均一页可见；另有5篇图文，未读。名字“筱橘ORG”同时对应角色头衔筱橘、角色名MikanORG后缀，作品简介以“我们”叙述FRT队伍，已有2024年评论亦以本人FRT／EN部参战身份发言，组织、时间与角色履历相合，归为本人账号，不再等第二次自报。空间签名“哈基没路多”，无额外身份内容；[合集页](https://space.bilibili.com/85507499/lists)明确未建合集和系列。UP登记总表及人物别名已同步。",
-        "source": "src/people/mikanorg/materials-mikanorg.md"
+        "source": "src/people/mikanorg/materials-mikanorg.json"
       },
       {
         "text": "十条视频里仅BV1PN411J7cp标题明确EVE；其余为阿尔比恩、APEX、三角洲等其他游戏，不因作品总数10就标B站UP标签。最新与最多播放均覆盖全部十条视频，只选一条EVE作品，非因预算用尽、未读或质量差而少选；未逐篇读取其他游戏影像或评论。",
-        "source": "src/people/mikanorg/materials-mikanorg.md"
+        "source": "src/people/mikanorg/materials-mikanorg.json"
       }
     ],
     "listings": [
@@ -228,9 +228,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mikanorg/materials-mikanorg.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

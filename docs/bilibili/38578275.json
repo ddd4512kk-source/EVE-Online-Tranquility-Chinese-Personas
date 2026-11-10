@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "38578275",
   "name": "银魂花花",
   "url": "https://space.bilibili.com/38578275/",
@@ -13,11 +13,11 @@
     ],
     "related": [
       {
-        "material": "docs/sources/red-scarf-disputes-2026-08.md",
+        "material": "docs/sources/red-scarf-disputes-2026-08.json",
         "label": "仓库提及，未核对应"
       },
       {
-        "material": "src/corps/redscarf/materials-redscarf.md",
+        "material": "src/corps/redscarf/materials-redscarf.json",
         "label": "仓库提及，未核对应"
       },
       {
@@ -25,7 +25,7 @@
         "label": "仓库提及，未核对应"
       },
       {
-        "material": "src/people/monster0001/materials-monster0001.md",
+        "material": "src/people/monster0001/materials-monster0001.json",
         "label": "仓库提及，未核对应"
       },
       {
@@ -77,13 +77,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "docs/sources/red-scarf-disputes-2026-08.md",
-          "src/corps/redscarf/materials-redscarf.md",
-          "src/corps/redscarf/redscarf.md",
-          "src/people/monster0001/materials-monster0001.md",
-          "src/people/monster0001/monster0001.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

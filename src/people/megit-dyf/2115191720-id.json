@@ -99,7 +99,74 @@
       "比赛",
       "AT22亚军",
       "B B C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:00:00Z",
+      "verdict": "龙焰AT22世界亚军队首发外援，决胜局全勤从小护卫打到教皇，赛后在简介中参悟失败与人生的悲壮高手。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "亚军之后将2:2与“失败贯穿人生”挂满简介参悟哲学，戏剧性中带着竞技选手的悲壮。",
+          "sources": [
+            {
+              "label": "megit dyf 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115191720/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "AT22世界亚军队首发主力小船位，决胜局全勤，KB五千余次击杀底蕴深厚。",
+          "sources": [
+            {
+              "label": "ATXXII 总决赛战报",
+              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "顶级小队竞技协同与单兵走位操作，精通小船控场与技能轮转。",
+          "sources": [
+            {
+              "label": "ATXXII 总决赛战报",
+              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "比赛圈知名小船好手，靠硬核技术赢得同行认可。",
+          "sources": [
+            {
+              "label": "megit dyf zKillboard",
+              "url": "https://zkillboard.com/character/2115191720/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "纯粹高水平比赛雇佣兵，赛前加盟赛后回原军团，常人基准。",
+          "sources": [
+            {
+              "label": "megit dyf 雇佣记录",
+              "url": "https://zkillboard.com/character/2115191720/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "顶级赛事外援身价，享受2T级别参赛赞助与AT赛船奖励分配。",
+          "sources": [
+            {
+              "label": "ATXXII 总决赛战报",
+              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -109,7 +176,7 @@
         "name": "894 ZX",
         "basis": "头衔“猪皮”；2022-11-24、2023-08-16、2024-03-10三次与收录号同日进同一军团，当前同团。",
         "sources": [
-          "materials-megit-dyf.md#身份与待核"
+          "materials-megit-dyf.json#身份与待核"
         ],
         "zkb": {
           "kills": 1535,
@@ -124,7 +191,7 @@
         "name": "megit shop",
         "basis": "同用megit词根，2020-07-03建号，未进过玩家军团。",
         "sources": [
-          "materials-megit-dyf.md#身份与待核"
+          "materials-megit-dyf.json#身份与待核"
         ],
         "zkb": {
           "kills": 0,

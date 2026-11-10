@@ -77,7 +77,91 @@
     "tags": [
       "00区",
       "FRT",
-      "军团管理"
-    ]
+      "军团管理",
+      "联盟管理"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:46:04Z",
+      "verdict": "北军管理兼实权总监，开着冥府大航踏上万亿战场，却以“99%责任论”与黑豹白给笑傲江湖。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "名片写“就算我担99%责任难道你没有1%吗”；带队抓人嫌队友追问喷“b嘴真多”，转头16亿黑豹白给进贴吧离谱盘点。",
+          "sources": [
+            {
+              "label": "贴吧《盘点离谱操作》黑豹白给",
+              "url": "https://tieba.baidu.com/p/7768449934"
+            },
+            {
+              "label": "16.3亿黑豹被毁战报",
+              "url": "https://zkillboard.com/kill/102908602/"
+            },
+            {
+              "label": "角色官方名片99%责任论",
+              "url": "https://esi.evetech.net/latest/characters/2118954970/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "达成战神硬底线，参与击毁逾12万亿；驾驶冥府超旗、帕拉丁、巴盖斯深入艾格玛尔、4-H与欧贝等一线万亿大会战。",
+          "sources": [
+            {
+              "label": "4-H北方战役帕拉丁参战",
+              "url": "https://zkillboard.com/kill/134999119/"
+            },
+            {
+              "label": "欧贝冥府超旗参战档案",
+              "url": "https://zkillboard.com/kill/139047423/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "zKB 评有 FC (low) 资质，高于常人基准；参与小队抓人与集结协调，并随主力舰队出勤数百场，统御评 C。",
+          "sources": [
+            {
+              "label": "zKillboard角色档案与FC评定",
+              "url": "https://zkillboard.com/character/2118954970/"
+            },
+            {
+              "label": "艾格玛尔出战记录",
+              "url": "https://zkillboard.com/kill/125016212/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "跨军团熟人圈公认活宝，自黑坦荡、幽默嘴碎，被队友命名太空建筑纪念，在FRT与SGCN等多团队内人缘极佳。",
+          "sources": [
+            {
+              "label": "B站阿阳屠夫show视频",
+              "url": "https://www.bilibili.com/video/BV1LkzJYWEvn/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "历任SGCN与明日方舟，担任军团人事总监掌握招新实权，且实际履职北军（FRT联盟）管理层，达标联盟管理硬底线。",
+          "sources": [
+            {
+              "label": "官方名片人事总监职位",
+              "url": "https://esi.evetech.net/latest/characters/2118954970/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "常备冥府超级航母、黑隐与掠夺主力舰深入一线大会战，能持续承担高价值船损，个人战备产业雄厚，依高价值出勤加分评B。",
+          "sources": [
+            {
+              "label": "冥府大航装配与出勤记录",
+              "url": "https://zkillboard.com/kill/139047423/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

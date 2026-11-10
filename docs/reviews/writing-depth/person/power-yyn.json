@@ -1,0 +1,208 @@
+{
+  "status": "reviewed",
+  "note": "逐项复用已验证的全文与素材核读；只复核本次雷达理由改动，正文与事件结论未变，出处锚点有效。",
+  "evidence": [
+    "src/people/power-yyn/materials-power-yyn.json",
+    "src/people/power-yyn/power-yyn.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "逐段对照完整正文与本人素材：AOM救援后离团、长期战斗与SRP/纳税经历、2022年小组除名与泰坦自爆、本人公开长帖及甲板一方回应、2023年交出旗舰号和FRT公告移除，均有对应材料。AOM长文原帖未找到，正文将改规矩一事保留为吧友说法，没有写成已证实结果；spy争议保留双方版本，没有判定谁是真spy。自爆KM的角色、时间、星系、价值和最后一枪能对应本人画像。过场中的小航、分船等叙述没有新增独立事件或改变核心结果。",
+      "evidence": [
+        {
+          "file": "src/people/power-yyn/materials-power-yyn.json",
+          "contains": "AOM 长文原帖未找到"
+        },
+        {
+          "file": "src/people/power-yyn/materials-power-yyn.json",
+          "contains": "击杀 2630（1995.9B）"
+        },
+        {
+          "file": "src/people/power-yyn/power-yyn.md",
+          "contains": "据吧友回忆，他还是新人时开着小航出站"
+        },
+        {
+          "file": "src/people/power-yyn/power-yyn.md",
+          "contains": "[KM](https://zkillboard.com/kill/103549932/) 上，9 月 23 日，4-HWWF"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "已逐项判断本篇两件重料与一段背景；两件重料均有出处、展开与后果，未发现被正文跳过的独立重事。",
+      "evidence": [
+        {
+          "file": "src/people/power-yyn/power-yyn.md",
+          "contains": "2022 年 9 月，盖瑞在一个 DC 朋友军团的群里说了几句话"
+        },
+        {
+          "file": "src/people/power-yyn/power-yyn.md",
+          "contains": "一个月后，2023 年 12 月 7 日，N老板在 FRT 全联盟发公告"
+        }
+      ],
+      "items": [
+        {
+          "title": "AOM新人救援与离团回忆",
+          "weight": "ordinary",
+          "reason": "是盖瑞与汉堡旧交及离开AOM的背景；原帖未找到，素材只保存吧友的回忆和长文改规矩说法，不把这条传闻升格为独立重料。",
+          "source": {
+            "file": "src/people/power-yyn/materials-power-yyn.json",
+            "contains": "AOM 救汉堡黑隐、离开 AOM"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/power-yyn/power-yyn.md",
+            "contains": "据吧友回忆，他还是新人时开着小航出站"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "作为履历背景以来源归属限定，篇幅与分量相称。"
+        },
+        {
+          "title": "飞行甲板除名、泰坦自爆与清白长帖",
+          "weight": "heavy",
+          "reason": "核心角色被指为spy、失去小组位置并以自爆旗舰告别，是具有高价值资产损失和后续公开争执的决定性事件；素材保存本人叙述、KM及小组一方反驳。",
+          "source": {
+            "file": "src/people/power-yyn/materials-power-yyn.json",
+            "contains": "TT自爆自己拿个KB留个永久纪念"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/power-yyn/power-yyn.md",
+            "contains": "他决定 AFK。大小航、无畏、大鱼、FAX、跳货、元帅，八百多亿的船和工业材料分给团里朋友"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代小组除名发生在朋友军团群发言被截后，随后才决定AFK。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "被飞行甲板的核心成员截了图，认定他是 spy，踢出了小组。"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "引用其留下永久KB纪念和告别EVE的原话，解释他为何选择结束角色生涯。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "TT 自爆自己拿个 KB 留个永久纪念，EVE 生涯画下个句号。"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "KM写清神使价值与本人驾驶审判者补最后一枪，把告别选择落到具体损失。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "估价 **1599 亿**。击杀者只有一个——Power YYN 本人"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "长期战斗记录与自毁泰坦形成反差，结尾再用此前别人拿自爆开玩笑的回帖回扣。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "两千六百多个击杀的人，生涯里最被人记住的一条击杀，却是自己补的那一枪。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "次日长帖展开本人自辩、其点名和对朋友的区分，并保留甲板一方对消息外传的另一种解释。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "飞行甲板一方的 Razor 在楼里给了另一个版本："
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "事件分为行动与公开回应两块，但共同构成完整冲突；当前顺序完整交代起因、选择、代价和对方回应。"
+        },
+        {
+          "title": "告别后仍在游戏，以及FRT再次除名",
+          "weight": "heavy",
+          "reason": "告别后继续使用主号、把旧旗舰交给好友，随后本人再次出现在FRT除名公告中；这段经历重写了前一次自证清白的结局。",
+          "source": {
+            "file": "src/people/power-yyn/materials-power-yyn.json",
+            "contains": "积极的在帮助敌对泄漏情报"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/power-yyn/power-yyn.md",
+            "contains": "一个月后，2023 年 12 月 7 日，N老板在 FRT 全联盟发公告"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "按时间写明说AFK后的主号仍继续活动、旗舰号另交给汉堡，之后团队关系变化。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "整个 2023 年，号上玩的还是盖瑞自己"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "用“号丢了、人可没走”的旧说法与后续继续操作主号相对照。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "号是丢了，人可没走。"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "补入联盟公告的时间、涉及组织与具体移除理由，让再次除名不是笼统的传闻。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "理由是“积极的在帮助敌对泄漏情报”。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "结尾把此前长帖的自证请求和这一回沉默并置，落到前后态度变化。",
+              "evidence": {
+                "file": "src/people/power-yyn/power-yyn.md",
+                "contains": "这一回，再没有人替他喊冤，他自己也没喊。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "第二件重事回收前文的AFK、自证与账号移交主线，篇幅及结尾与其后续影响相称。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全文主轴由两件spy争议和角色选择构成；第一件写出双方说法与昂贵代价，第二件补足后续结局，文末评语扣住前后反差。KB和联盟事务用于说明长期出勤与投入，属服务主线的背景，没有淹没事件。AOM离团传闻保持短背景且注明来源。未见单纯编排史料但遗漏重要情节、独立重料或人物评语与全文脱节。",
+      "evidence": [
+        {
+          "file": "src/people/power-yyn/power-yyn.md",
+          "contains": "盖瑞的 KB 是一本老实人的账"
+        },
+        {
+          "file": "src/people/power-yyn/power-yyn.md",
+          "contains": "可惜清白这东西，留不过一年。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/power-yyn/2117876094-id.json",
+    "src/people/power-yyn/materials-power-yyn.json",
+    "src/people/power-yyn/power-yyn.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+    "src/battles/ignoitton-2024/ignoitton-2024.json",
+    "src/battles/ignoitton-2024/ignoitton-2024.md",
+    "src/battles/ignoitton-2024/materials-ignoitton-2024.json"
+  ],
+  "inputs": "6c9cd924bb88ad720ecb5a5eff2ef138d9fd4e32a3a69dc26dc41c55a4b8029e",
+  "inputParts": {
+    "src/people/power-yyn/2117876094-id.json": "00b64e4198b28faf63e651b56194e844204135cc8975f56d1dc5ccd40c235fd4",
+    "src/people/power-yyn/materials-power-yyn.json": "0283301e945682f5c56022ef9f1306871a28c2839131df6543e785e8f919c271",
+    "src/people/power-yyn/power-yyn.md": "82cc3d8df7a7870b65d39b2024db6c9aed46cf473d8ca946f822694be329eca0",
+    "battle:a1-auh-2021": "ea4af9e0bd268f93456a715c40feaedcd760e7bdd0ea1d0e013f92db18e55822",
+    "battle:ignoitton-2024": "5b83ea98fbb9ef543f75c212bf24e66bc7f3134050ae8bf3e2e837509dee1d8d"
+  },
+  "level": 1
+}

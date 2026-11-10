@@ -5,24 +5,24 @@
   "title": "世界服华人联盟再次因为内斗分裂散伙，小高层回忆录不断更新",
   "references": [
     "docs/leads/suo-si.md",
-    "docs/leads/tieba-history-replies.md",
+    "docs/leads/tieba-history-replies.json",
     "docs/tieba-review-2026-10-10.md",
-    "src/people/ctril/materials-ctril.md",
-    "src/people/hitoming/materials-hitoming.md",
+    "src/people/ctril/materials-ctril.json",
+    "src/people/hitoming/materials-hitoming.json",
     "src/people/linkin-hy/linkin-hy.md",
-    "src/people/linkin-hy/materials-linkin-hy.md",
+    "src/people/linkin-hy/materials-linkin-hy.json",
     "src/people/lulu-love/lulu-love.md",
-    "src/people/lulu-love/materials-lulu-love.md",
+    "src/people/lulu-love/materials-lulu-love.json",
     "src/people/martianpower/martianpower.md",
-    "src/people/martianpower/materials-martianpower.md",
-    "src/people/reiko-hita/materials-reiko-hita.md"
+    "src/people/martianpower/materials-martianpower.json",
+    "src/people/reiko-hita/materials-reiko-hita.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "3720945487",
-        "初始引用文件": "docs/leads/suo-si.md;src/people/ctril/materials-ctril.md;src/people/lulu-love/lulu-love.md;src/people/lulu-love/materials-lulu-love.md",
+        "初始引用文件": "docs/leads/suo-si.md;src/people/ctril/materials-ctril.json;src/people/lulu-love/lulu-love.md;src/people/lulu-love/materials-lulu-love.json",
         "首尾状态": "首尾已取",
         "接口回复数": "556",
         "主楼总页数": "11",

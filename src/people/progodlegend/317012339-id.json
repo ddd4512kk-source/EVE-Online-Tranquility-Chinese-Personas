@@ -132,9 +132,76 @@
     "epithet": "演讲换了敌人，舰队继续出门",
     "tags": [
       "00区",
-      "FC",
+      "著名FC",
       "CONDI"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "激情咆哮响彻全宇宙，率万人联军围攻 1DQ；虽未登顶封神，战史千秋抹不去姓名。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "国际服著名的激情咆哮型总指挥，作战失利时在语音中狂暴咆哮、情绪失控大发雷霆，火爆粗口风格极具戏剧性。",
+          "sources": [
+            {
+              "label": "WWB2 终局各方采访记录",
+              "url": "https://forums.eveonline.com/t/the-official-end-of-the-beeitnam-war/326159"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "逾万次击杀，长年驾驶战列舰与重装战巡坐镇大舰队前线开火。",
+          "sources": [
+            {
+              "label": "progodlegend zKillboard",
+              "url": "https://zkillboard.com/character/317012339/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "EX",
+          "reason": "统帅 TEST 与 PAPI 万人联军攻打蜜蜂帝国，执掌新伊甸历史上最大规模史诗战役。",
+          "sources": [
+            {
+              "label": "M2-XFE 与 1DQ 战役记录",
+              "url": "https://zkillboard.com/kill/89617016/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "S",
+          "reason": "全球最富感染力的大嗓门喊麦 FC，在欧美社区与联盟内拥有万人景从的号召力。",
+          "sources": [
+            {
+              "label": "Talking in Stations 节目专访",
+              "url": "https://www.talkinginstations.com/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期参与 TEST 与 Legacy 联盟群最高军事外交决策，推动组建 PAPI 全服联军。",
+          "sources": [
+            {
+              "label": "Legacy 联盟群外交公告",
+              "url": "https://forums.eveonline.com/t/the-official-end-of-the-beeitnam-war/326159"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "顶级联盟总指挥官，享有全服最高规格的联盟战备与补损支撑，底蕴充沛。",
+          "sources": [
+            {
+              "label": "PAPI 战役舰队补损说明",
+              "url": "https://forums.winterco.org/t/topic/11892"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

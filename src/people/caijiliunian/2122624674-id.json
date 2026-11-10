@@ -67,7 +67,7 @@
             "商大背包客"
           ],
           "sources": [
-            "materials-caijiliunian.md"
+            "materials-caijiliunian.json"
           ]
         }
       ]
@@ -91,6 +91,73 @@
       "00区",
       "D.C",
       "新人教官"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "船能运到吉他，忠诚审查也能跟过去。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "把吉他卖船上升为资敌，是福利争议里的轻度失当。",
+          "sources": [
+            {
+              "label": "福利争执",
+              "url": "https://tieba.baidu.com/p/9218435760"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "七十九次参与击杀，按普通随队经验评。",
+          "sources": [
+            {
+              "label": "流年 zKillboard",
+              "url": "https://zkillboard.com/character/2122624674/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "语音接待和福利答疑未显示实战教学带队。",
+          "sources": [
+            {
+              "label": "流年回应新人福利争议",
+              "url": "https://tieba.baidu.com/p/9220680410"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "一次福利争议不能推出稳定拥趸，按普通社交评。",
+          "sources": [
+            {
+              "label": "流年回应新人福利争议",
+              "url": "https://tieba.baidu.com/p/9220680410"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "承担新人接待与福利解释，属基层事务协调。",
+          "sources": [
+            {
+              "label": "流年回应新人福利争议",
+              "url": "https://tieba.baidu.com/p/9220680410"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "拿到补贴不等于个人经营能力，按日常自给。",
+          "sources": [
+            {
+              "label": "流年回应新人福利争议",
+              "url": "https://tieba.baidu.com/p/9220680410"
+            }
+          ]
+        }
+      }
+    }
   }
 }

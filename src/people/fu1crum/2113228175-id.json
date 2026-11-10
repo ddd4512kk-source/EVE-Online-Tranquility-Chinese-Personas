@@ -63,7 +63,7 @@
         "id": 95502031,
         "name": "Fu1crum",
         "sources": [
-          "materials-fu1crum.md"
+          "materials-fu1crum.json"
         ],
         "zkb": {
           "kills": 0,
@@ -120,9 +120,76 @@
     "epithet": "刷怪听他红绿灯，联盟翻车时却联系不上。",
     "tags": [
       "00区",
-      "FC",
+      "著名FC",
       "B站",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "给AOM配旁白、开红绿灯管全盟纪律的核心总监，平日威武霸气，致命转弯偏未在场。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "公开嘲讽成员、转发私聊及关键时刻失联有具体后果，不以配乐当黑料。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "AOM 军团会议录音帖",
+              "url": "https://tieba.baidu.com/p/6643642398"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "AOM一线主力指挥官与核心特种驾驶员，常备主力战备巡洋舰与指挥舰出勤，战术熟练过硬。",
+          "sources": [
+            {
+              "label": "Lv223 zKillboard",
+              "url": "https://zkillboard.com/character/2113228175/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "馒头麾下核心大舰队主力指挥官，统领全盟日常防区集结、作战动员与战略值班。",
+          "sources": [
+            {
+              "label": "AOM 战役视频集锦",
+              "url": "https://space.bilibili.com/10974290"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有固定队员与战事视频受众，岗位服从不直接等同跨团队喜爱。",
+          "sources": [
+            {
+              "label": "AOM 军团会议录音帖",
+              "url": "https://tieba.baidu.com/p/6643642398"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "位列AOM最高内阁总监，协助馒头操盘全盟外交与战略决策，联盟中枢核心执政大臣。",
+          "sources": [
+            {
+              "label": "AOM 入帝国翻车复盘长文",
+              "url": "https://tieba.baidu.com/p/7854652458"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "掌控联盟战备中枢部分调配权，个人高阶军备与资产储备充裕自如。",
+          "sources": [
+            {
+              "label": "Lv223 zKillboard",
+              "url": "https://zkillboard.com/character/2113228175/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

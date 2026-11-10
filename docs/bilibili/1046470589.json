@@ -1,31 +1,31 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "1046470589",
   "name": "天机坊",
   "url": "https://space.bilibili.com/1046470589/",
   "identity": {
     "state": "confirmed",
     "person": "cherie-allison",
-    "material": "src/people/cherie-allison/materials-cherie-allison.md",
+    "material": "src/people/cherie-allison/materials-cherie-allison.json",
     "label": "天机坊素材",
     "evidence": [
       "365条，欧服PVP、SOLO、联盟漫谈（纳瓦拉铁壁、凛冬VS Snuff），最新停在2023年6月"
     ],
     "related": [
       {
-        "material": "src/battles/h-pa29-2022/materials-h-pa29-2022.md",
+        "material": "src/battles/h-pa29-2022/materials-h-pa29-2022.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/old-man-star-2023/materials-old-man-star-2023.md",
+        "material": "src/battles/old-man-star-2023/materials-old-man-star-2023.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/turnur-2023/materials-turnur-2023.md",
+        "material": "src/battles/turnur-2023/materials-turnur-2023.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/x47l-q-2023/materials-x47l-q-2023.md",
+        "material": "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
         "label": "战役相关视频"
       }
     ]
@@ -59,25 +59,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/cherie-allison/materials-cherie-allison.md"
+        "evidence": "src/people/cherie-allison/materials-cherie-allison.json"
       }
     },
     "prior_notes": [
       {
         "text": "空间 https://space.bilibili.com/1046470589 ：投稿约365条，粉丝1103，播放约107.5万。代表作《【EVE怀旧】星战前夜（EVE Online）2005年宣传片》；最新投稿停在2023年6月。",
-        "source": "src/people/cherie-allison/materials-cherie-allison.md"
+        "source": "src/people/cherie-allison/materials-cherie-allison.json"
       },
       {
         "text": "2026-10-16初查时仅读空间首页，未核最多播放排序，未展开作品页；此状态已由2026-10-17的作品页采集更新，补档清单见下文。",
-        "source": "src/people/cherie-allison/materials-cherie-allison.md"
+        "source": "src/people/cherie-allison/materials-cherie-allison.json"
       },
       {
         "text": "空间最新发布、实际点击最多播放的第一页各42个作品入口已核，共365条视频、4条图文、4个合集／系列；未逐页或逐合集展开。合并两种排序与怀旧、机制、社群系列，补读7篇视频元数据、简介和每篇前3个主评论线程的可见文字，未展开楼中楼；没有读影像、字幕、音轨或转录。各页作者均为天机坊（1046470589），简介逐条挂YouTube原链接，按转载作品而非本人原创入选。标题写“字幕”不据此认定字幕由他翻译。",
-        "source": "src/people/cherie-allison/materials-cherie-allison.md"
+        "source": "src/people/cherie-allison/materials-cherie-allison.json"
       },
       {
         "text": "本次逐条复核8页作者UID、标题与简介，回看各页前2个可见评论线程的已有摘录；不代表已穷尽评论或展开楼中楼。未读取视频、音轨、字幕或弹幕。旧空间缓存的排序URL不能单独证明实际切换了最多播放。",
-        "source": "src/people/cherie-allison/materials-cherie-allison.md"
+        "source": "src/people/cherie-allison/materials-cherie-allison.json"
       }
     ],
     "listings": [
@@ -3263,11 +3263,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介挂原作，称为 Meta Shift 挑战的又一部作品；不是UP本人驾驶。"
       },
       "usage": {
         "body": false,
@@ -3291,11 +3289,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介在掠夺调整、T2无畏定位争论下谈玩法多样性，挂俄语直播原作；小克操作不归给UP。"
       },
       "usage": {
         "body": false,
@@ -3319,11 +3315,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介明确为 Grunt Kado 韦德马克系列第六部，挂击杀103972160、103972499；不归为UP本人战果。"
       },
       "usage": {
         "body": false,
@@ -3347,11 +3341,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=kXRuDo8EEoI；EVE这个游戏玩家社群才是核心啊，真希望有机会也能去冰岛参加一次聚会 :)"
       },
       "usage": {
         "body": false,
@@ -3376,10 +3368,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/old-man-star-2023/materials-old-man-star-2023.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2023-05-28发布，标题Old Man Star、1400余人与Snuff敌对侧，与本页5月27日会战对应。简介附替代战报64717b91543bb54ab3337066，区别于本页主报64717fa0afc8fc4c3fe95e24；本轮未获取替代战报，不引入其统计。天机坊转载，原片t4iMuMIem7U。"
       },
       "usage": {
         "body": false,
@@ -3403,11 +3393,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介明确为 CCP Bee、Aurora、Swift 在测试服演示T2无畏；不是UP实战。"
       },
       "usage": {
         "body": false,
@@ -3431,11 +3419,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介挂原作，称T2无畏与Lancer武器、细节不多，补充放在弹幕；本次未读弹幕，不推演其内容。"
       },
       "usage": {
         "body": false,
@@ -3459,11 +3445,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介调侃CCP只有美工干活，列护卫新模、导弹、气云与掠夺模块效果，挂YouTube原作。"
       },
       "usage": {
         "body": false,
@@ -3487,11 +3471,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介挂原作与战报，并感叹十开是否忙得过来；不是UP本人十开。"
       },
       "usage": {
         "body": false,
@@ -3515,11 +3497,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=PWqvAo4Wv6c；14年前的视频了，前半部分是Jovian的船，当初的设计者正是有才啊。。。不知道还会不会在有生之年推出。。。"
       },
       "usage": {
         "body": false,
@@ -3544,9 +3524,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -3572,10 +3549,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/h-pa29-2022/materials-h-pa29-2022.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2022-12-04发布，标题指名H-PA29的BOSS铁壁，简介交代PanFam/FRT与Imperium/Brave/GTC及未能继续增强铁壁的结果，对应本页12月3日攻防。空间UID1046470589为天机坊；原片nzQigo4flUM，未打开外站。\n\n（天机坊（转载整理；NC视角））：从NC一侧介绍BOSS铁壁攻防，简介交代两边增援与旗舰投入；这份转引的外站录像，可与帝国救堡叙事对照。"
       },
       "usage": {
         "body": false,
@@ -3599,11 +3574,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=iGmIXpxdwBw；Pandemic Horde联盟组织了120+条帕拉丁刷Drone Horde（相当于古斯塔斯圣所的普通异常）的视频，感觉有点杀鸡用牛刀了 :D"
       },
       "usage": {
         "body": false,
@@ -3627,11 +3600,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=5fBxpz6lHvs&ab_channel=Era5872；每次会战因为时间膨胀都会调低图像质量，而且泰坦DD的场景也不多见，原来四族的末日武器还不一样，拉格的那个看着实在不怎么样啊。。。"
       },
       "usage": {
         "body": false,
@@ -3655,11 +3626,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=BebWSMTqnuc；这个视频显示的方法至少一两年前就被人发现了，但是至今还未被CCP归于系统漏洞，因为该方法是基于游戏设计的机制，除非把游戏里的跃迁功能重新设计一番，否则无法避免。大家有兴趣的也可以去试一下 :D"
       },
       "usage": {
         "body": false,
@@ -3683,11 +3652,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=UK75pzMvA-4；重温一下带我入坑的宣传片 :)"
       },
       "usage": {
         "body": false,
@@ -3711,11 +3678,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者、标题、简介与YouTube原作链接；读取简介公开文字及每页前3个主评论线程可见文字，未展开楼中楼。未读影像、字幕、音轨或转录；按转载归档，不把原片操作归为UP本人经历。",
+        "digest": "简介原作 https://www.youtube.com/watch?v=BRmJ5JfCQLE&ab_channel=%EB%B8%8C%EB%9E%80%EC%8A%A4；EVE欧服多开狂人，这强度比上班还要高。。。。大家切勿模仿 :D"
       },
       "usage": {
         "body": false,
@@ -3739,11 +3704,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/cherie-allison/materials-cherie-allison.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "核对作品页作者UID、标题、简介和原作/署名；回看每页前2个已有可见评论摘录，不代表穷尽线程。未读影像、字幕、音轨、弹幕或转录；转载内容与UP自身经历分开归档。",
+        "digest": "简介明确搬运 Talking in Stations 访谈，提及 Rote Kapelle 代表、FRT FC与外交代表；自称节目过长、懒得制作字幕。提到一小时处FRT/AOM话题，仅按简介记载，未听节目。"
       },
       "usage": {
         "body": true,

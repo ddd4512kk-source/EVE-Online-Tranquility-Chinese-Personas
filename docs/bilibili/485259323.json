@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "485259323",
   "name": "irrrrv",
   "url": "https://space.bilibili.com/485259323/",
   "identity": {
     "state": "confirmed",
     "person": "irving-zh",
-    "material": "src/people/irving-zh/materials-irving-zh.md",
+    "material": "src/people/irving-zh/materials-irving-zh.json",
     "label": "老赵",
     "evidence": [
       "与别名同名"
     ],
     "related": [
       {
-        "material": "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md",
+        "material": "src/battles/t8t-ra-2026/materials-t8t-ra-2026.json",
         "label": "战役视频关联与来源核对"
       }
     ]
@@ -37,29 +37,29 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/irving-zh/materials-irving-zh.md"
+        "evidence": "src/people/irving-zh/materials-irving-zh.json"
       }
     },
     "prior_notes": [
       {
         "text": "收录角色：**IrvingZH（2120715980）**。对应依据：B 站 UP 主 irrrrv（UID 485259323，签名 Still I Rise）与该角色对应，来源可靠；角色头衔“赵 #57607”。",
-        "source": "src/people/irving-zh/materials-irving-zh.md"
+        "source": "src/people/irving-zh/materials-irving-zh.json"
       },
       {
         "text": "[本人空间UID485259323](https://space.bilibili.com/485259323/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/irving-zh/materials-irving-zh.md"
+        "source": "src/people/irving-zh/materials-irving-zh.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/irving-zh/materials-irving-zh.md"
+        "source": "src/people/irving-zh/materials-irving-zh.json"
       },
       {
         "text": "复用本人UID485259323的最新／最多播放各42条缓存与已核选中态；空间当时115视频、4图文、2合集。访谈已有成功缓存不重读，另读最多播放首页中四个EVE热门候选，各1次导航、最多20主线程。四篇均高于1000播放，实际取得20／20／20／5共65主线程；未翻评论页或展开楼中楼，不取影像、音频、字幕或转录。加已有访谈共五篇，以下只据公开文字解释推荐用途，不评价画面、剪辑、音乐或完整口述。",
-        "source": "src/people/irving-zh/materials-irving-zh.md"
+        "source": "src/people/irving-zh/materials-irving-zh.json"
       },
       {
         "text": "[《创世之力，倾域之志-创世倾域2025夏季招新》BV1MvT4zfEkz](https://www.bilibili.com/video/BV1MvT4zfEkz/)：11,933播放／83回复，简介空，20已加载主线程。置顶的萌新崖批评广告列“18万亿isk击杀”，称小船签名铁壁也会计入大额战果，质疑按击毁总价招新；静間さくや亦拿多号签名重复计算起哄。暴躁的无厘头问每天8600E是否多打一个0，作者直接回“平均下来每天真有860b”。另一注销账号质疑单团日均860B，SherryJinx另算平均数；这些全是广告口径争议，不能核定军团真实日均战果或断言造假。作者另发一条“关于有些许质疑说创世在国服KB网上6个月达到不了2000E击杀的”回应，但缓存只有折叠开头，未读全论证，不能当其没回答。GipsyStriker问生产地点，作者反问何时回归；福熙Foch请帮运泽尼塔，作者答可找古法代驾、创世从4H到绝地有优惠并可找44返点，属其招新服务答复，不核为现行运输承诺。韵律晚八点Arcaea自报监管燃烧任务环境、讲刷点收入，是该评论者说法，不移为老赵职责。推荐用于看招新宣传如何遇到统计口径争论，未凭评论裁定广告数字。",
-        "source": "src/people/irving-zh/materials-irving-zh.md"
+        "source": "src/people/irving-zh/materials-irving-zh.json"
       }
     ],
     "listings": [
@@ -908,10 +908,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/irving-zh/materials-irving-zh.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "与前期招新、告别记录对照读，评论区把好聚好散、成员分流和自主权的分歧摆到一起，作者的背景音乐后记又添了一点节目制作日常。"
       },
       "usage": {
         "body": true,
@@ -936,13 +934,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/irving-zh/materials-irving-zh.md",
-          "docs/sources/battle-video-brs-2026.md",
-          "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
-        ],
         "scope": "公开标题、完整简介及所附BR已读；视频本身已确认对应T8T，简介BR另为DG-L7S，分开记录，不混算损失。未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "- [五一凌晨创世ONLYFLEET无畏战](https://www.bilibili.com/video/BV1WbRKBFEAG) 2026-05-01。\n\n[作品 BV1WbRKBFEAG](https://www.bilibili.com/video/BV1WbRKBFEAG/)，UID485259323，5 月 1 日发布，标题“【EVE欧服】五一凌晨创世ONLYFLEET无畏战”。[简介原报](https://br.evetools.org/br/69f3d4d212985f0012b5541d)及其 [composition](https://br.evetools.org/newapi/br/composition/69f3d4d212985f0012b5541d)选择 **2026-04-30 21:00–23:00，DG-L7S（30004016）、Querious**。实际 KM 时段为 21:48:25–22:33:02，正是北京时间 5 月 1 日凌晨；不是 5 月 2 日 T8T-RA。\n\n新读irrrrv BV1WbRKBFEAG（5月1日）完整简介，标题明确五一凌晨创世对OnlyFleets无畏战，附BR69f3d4d212985f0012b5541d。此前接口失败的缺口已通过公开网页及composition补核：实际为2026-04-30 21:00–23:00 UTC所选窗口的DG-L7S，实际KM为21:48:25–22:33:02；282条唯一KM共375,438,575,819 ISK。网页为WINGS、创世等对OnlyFleets等，标题“五一凌晨”对应北京时间，不能改成5月2日UTC。视频本身已确认对应T8T，已加入本页推荐；简介BR仍是DG-L7S，单独保留来源差异，不据这一附链否定作品关联，也不将DG-L统计并入本页；完整来源与分方摘要见[视频BR实际地点](../sources/battle-video-brs-2026.json#irrrrv4-月-30-日-dg-l7s)。 本轮仅读公开文字与可见评论，未读取影像、音轨或字幕。\n\n作品BV1WbRKBFEAG的原录像具体归方未独立核清，不按上传者名号编造阵营；标题明确创世与OnlyFleets的无畏交战。B站上传时间、标题中文日期与战斗实际UTC分别记录，时区转换不能解释的附链差异如实保留，不擅改主报日期。"
       },
       "usage": {
         "body": false,
@@ -967,10 +961,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/irving-zh/materials-irving-zh.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "2026-04-12，57437 播放，“第一次尝试这种形式的节目 求求各位高抬贵手给个一键三连”。\n\n作者irrrrv（485259323），简介自称第一次尝试这种节目并征求意见；页面总评论数882。采访本体、具体受访者与评论仍待读，不能把标题“所有华人势力”当覆盖证明。\n\n作者把邀约、致谢和遗漏名单留在评论里，面对时间成本与制造门槛的质疑继续答复，能看见一次跨势力节目怎样凑起来、又怎样接住新人的顾虑。"
       },
       "usage": {
         "body": true,
@@ -995,9 +987,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/irving-zh/materials-irving-zh.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1023,10 +1012,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/irving-zh/materials-irving-zh.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "宣传数字引来统计口径争论，作者亲自回应，招新口号之外还留下一场社区对账。"
       },
       "usage": {
         "body": true,
@@ -1051,10 +1038,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/irving-zh/materials-irving-zh.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "对照他后来的创世招新，能串起同一位剪辑者替不同军团张罗门面的经历；硬气口号下，新人问能否来，他答得直接。"
       },
       "usage": {
         "body": true,

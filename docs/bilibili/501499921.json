@@ -1,31 +1,31 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "501499921",
   "name": "Murphy_eve",
   "url": "https://space.bilibili.com/501499921/",
   "identity": {
     "state": "confirmed",
     "person": "murphy222",
-    "material": "src/people/murphy222/materials-murphy222.md",
+    "material": "src/people/murphy222/materials-murphy222.json",
     "label": "墨菲",
     "evidence": [
       "头衔“墨菲”，凛冬论坛同名"
     ],
     "related": [
       {
-        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.md",
+        "material": "src/battles/sahtogas-2026/materials-sahtogas-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "material": "src/battles/atioth-2026/materials-atioth-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+        "material": "src/battles/6q-r50-2026/materials-6q-r50-2026.json",
         "label": "日期候选的核读与排除依据"
       }
     ]
@@ -49,25 +49,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/murphy222/materials-murphy222.md"
+        "evidence": "src/people/murphy222/materials-murphy222.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID501499921](https://space.bilibili.com/501499921/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/murphy222/materials-murphy222.md"
+        "source": "src/people/murphy222/materials-murphy222.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/murphy222/materials-murphy222.md"
+        "source": "src/people/murphy222/materials-murphy222.json"
       },
       {
         "text": "复用UID501499921最新／最多播放各42条入口，另读合集页，页头未显示数量，正文称没有合集；未取得具体系列。最初5篇热门之外，再读2篇宣传整活、两篇咕咕日记与两篇守城日记，初轮11次作品导航中10篇成功、1篇滚轮调用超时；恢复后追加1次成功，共11篇及139主评论线程与已展示回复预览。另有白菜6篇及双方合集2次，共20次导航，在本批20次上限内。未观看影像、听录音、读字幕或转录，没有用评论夸制作代替亲自视听评价。所有成功作品owner均核本人UID，owner不单独证明影像原创／参战。",
-        "source": "src/people/murphy222/materials-murphy222.md"
+        "source": "src/people/murphy222/materials-murphy222.json"
       },
       {
         "text": "[录音合集 BV1rP1CBBEk4](https://www.bilibili.com/video/BV1rP1CBBEk4/)：简介“-”，20主线程。双门木二号机怀念馒头并说仍开课，作者问在哪里、有无群；观众索取岁月、起凡、Q哥、DF Will等录音，只是需求与怀念。dudugo5回忆魔神重生喝醉在U-L站门口放泰坦末日，服务器／人物链未核；不能套为欧服本人事件。老电脑里还有TGA录音等只是可续查的来源线索，音频仍禁读。N老板照片邀约、现实犯罪传闻、公开用户名中的联系方式不归档；其他账号封禁传言无确切对应，不并入人物结论。未入精选：实际录音未读、简介没内容，不能判断收集编排好坏。",
-        "source": "src/people/murphy222/materials-murphy222.md"
+        "source": "src/people/murphy222/materials-murphy222.json"
       }
     ],
     "listings": [
@@ -442,11 +442,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与20个主评论线程及显示回复；识别评论者账号互链并区分太流畅梗与实际剪辑事实，未读影像、音轨、字幕。",
+        "digest": "></a>\n- [BV112546dEEg](https://www.bilibili.com/video/BV112546dEEg/)：简介空，20主线程。OzenCandywand建议加tidi环，对应已有[泡泡仙人素材](../../src/people/ozen-wand/materials-ozen-wand.json)中UID37720838账号，不能与Aoruadan／奥拉蛋混认；HomuraHikari留“网络状况不佳”，对应既有冷剑。其他人反复嫌太快、太流畅，属于梗与各自等待记忆，不据此证明UP做了何种倍速剪辑。入精选并写整活互动。"
       },
       "usage": {
         "body": true,
@@ -470,11 +468,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与20个主评论线程及显示回复；区分观众经历与作者回应，不据此评画质或硬件，未读影像、音轨、字幕。",
+        "digest": "></a>\n- [BV18PRpBJERQ](https://www.bilibili.com/video/BV18PRpBJERQ/)：简介空，20主线程。Phoenix_Thunder叙自己为大船入坑却没开到驱逐舰，回复纠正教程即可得驱逐舰；其他人争画质／会战等待，有人称集结三小时起步、交火不足一小时。都是评论者经历，不归UP，更不发布为当前新手指南／硬件结论。与下篇形成具体的玩家互动故事，入精选，推荐落在体验讨论而非视听效果。"
       },
       "usage": {
         "body": true,
@@ -498,11 +494,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读简介所列Reddit出处及12个主评论线程；原Reddit未开，评论指控未独立核实，不据此归为UP原创或组织事实，未读影像、音轨、字幕。",
+        "digest": "></a>\n- [BV1w39YBYEoR](https://www.bilibili.com/video/BV1w39YBYEoR/)：简介给Reddit原出处 `https://www.reddit.com/r/Eve/comments/1sy6ufk/current_state_of_nullsec/`，12主线程；本人说蜜蜂和两个小跟班。原Reddit未开，不能认作本人原创整片。其他人关于联盟作弊与背刺的概括缺独立事件，不据此给本人或组织加结论。未入精选，个人加工归属与具体内容待补。"
       },
       "usage": {
         "body": false,
@@ -527,9 +521,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -555,9 +546,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -582,12 +570,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md",
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与6个主评论线程及可见回复；未见可归UP的具体事件陈述，不据同场标题或评论认定参战。",
+        "digest": "- [BV1ncD7BVEzj](https://www.bilibili.com/video/BV1ncD7BVEzj/)：简介空，6主线程，主要问为何围攻WC、夸视频及抱怨延迟，缺具体本人创作说明／事件内容。未入精选，不判差；不因同场题材自动补本人参战。"
       },
       "usage": {
         "body": false,
@@ -612,9 +597,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/sahtogas-2026/materials-sahtogas-2026.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -639,11 +621,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与9个主评论线程及显示回复；具体战况评论未核实，不将嘲讽中的损失说法当事实，未读影像、音轨、字幕。",
+        "digest": "></a>\n- [BV1B62aBMEgT](https://www.bilibili.com/video/BV1B62aBMEgT/)：简介空，9主线程；本人“呜呜呜”“我爱这个地球”，别人嘲源泉主权、无畏保险过期、矿机损失，或提议下星城。具体战况未核，不将调侃数目算事实；不能因日期邻近就把论坛6RCQ铁壁叙述与此片具体事件完全等同。未入选，因为本人具体内容仍少、影像未读，且已选11月同主题；不判制作平庸。"
       },
       "usage": {
         "body": true,
@@ -667,11 +647,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与5个主评论线程及显示回复；作者称星空摄影、观众指出双方爽约，不据此推断画面、FC职责或战况，未读影像、音轨、字幕。",
+        "digest": "></a>\n- [BV1mqyjBME4L](https://www.bilibili.com/video/BV1mqyjBME4L/)：简介空，5主线程；本人问自己拍的星空摄影好不好看，Euphoria军团提醒双方都爽约，并非只INIT。已有本人论坛咕咕叙事作人物创作主线，新增此篇明确本人拍摄与反方互动，入精选；不据拍摄自述推断画面质量、自己担任FC或片中实际战况。"
       },
       "usage": {
         "body": true,
@@ -695,11 +673,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介与15个可见主评论线程（含一条重复文）及显示回复；核到作者置顶、本人问答和论坛来源指引，未重开论坛全文，未读影像、音轨、字幕。",
+        "digest": "></a>\n[BV1qHCcBuEgZ](https://www.bilibili.com/video/BV1qHCcBuEgZ/)在本批最后一次导航恢复成功：简介空、15个可见主线程（含一条重复发布同文，按DOM线程计数，非15个不同发言），未出现验证码或限流。作者置顶把观众导向自己论坛25836长文，说明其中为HY的PH崩盘启示录；这与已读论坛引用说明吻合，未再打开全文。本人11月11日问为何只跑一个CEO便全盟垮，另一条自嘲“感觉又仿H叔视频失败”，1月再引导疑问者看置顶文章。公开文字可见从求解、写长文到作品互链的创作过程，新增本文与第五条推荐；“H叔”具体对应尚未核，不擅加人物互链。\n\n其余评论有人以FRT盟友视角惋惜、有人声称PH损失200多亿的蛋、有人替复出者问资产转移，都是各人经历，不算作者损失。剧情／战损和其他动员指令未独立核验；不从评论推知片中实际镜头或自己已听过复盘。恢复仅使用余下预算，后续页面已经证明真实滚轮能加载，非换出口绕拦截。\n\n五条为编年史、宣传片VS实际、10%Tidi、沉重的一天、11月咕咕。实际扩到11个不同候选，另一次恢复失败页，不把首批上限当完成理由；明确搬运、空简介且缺具体内容的守城片、录音未读等仍记缺口，不判作品差。其他历史页、折叠回复和影像／音频未读，不宣称全频道五强。原回忆录、贴吧经历、综合战绩及战役保留。"
       },
       "usage": {
         "body": true,
@@ -723,11 +699,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与20个主评论线程及显示回复；区分作者点赞、评论者补史及勘误意见，未独立核年表，未读影像、音轨、字幕。",
+        "digest": "></a>\n- [BV1eT2uBaEPQ](https://www.bilibili.com/video/BV1eT2uBaEPQ/)：简介空，20主线程。蕴含的太阳哥长评补帝国东征、FIRE／B3至PH崩溃，作者点赞不等于核定整套史实；另有人问北方战争为何不见、提醒写清宁静、质疑拉白年份。Bateau评“有些史实错误，不过还行，做得好”。不把评论者年表冒认为UP原文；将具体勘误互动补入原史官求校对块，入精选。LOTM去向一问没有查证答案，不据此改他的军团。"
       },
       "usage": {
         "body": true,
@@ -751,11 +725,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页公开简介与20个主评论线程及当时显示回复；录音内容、影像、音轨、字幕未读，不把评论者回忆归为UP本人经历。",
+        "digest": "></a>\n- [BV1rP1CBBEk4](https://www.bilibili.com/video/BV1rP1CBBEk4/)：简介“-”，20主线程。双门木二号机怀念馒头并说仍开课，作者问在哪里、有无群；观众索取岁月、起凡、Q哥、DF Will等录音，只是需求与怀念。dudugo5回忆魔神重生喝醉在U-L站门口放泰坦末日，服务器／人物链未核；不能套为欧服本人事件。老电脑里还有TGA录音等只是可续查的来源线索，音频仍禁读。N老板照片邀约、现实犯罪传闻、公开用户名中的联系方式不归档；其他账号封禁传言无确切对应，不并入人物结论。未入精选：实际录音未读、简介没内容，不能判断收集编排好坏。"
       },
       "usage": {
         "body": true,
@@ -779,11 +751,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17已读作品页简介（空）与6个主评论线程及可见回复；评论中的舰船数量与损失说法未核，无作者补充，未读影像、音轨、字幕。",
+        "digest": "- [BV1Xs1FBNEjP](https://www.bilibili.com/video/BV1Xs1FBNEjP/)：简介空，6主线程；有人评战略要地失守后重下困难，离爱道主用“300多乌鸦、500多狂热、100多缪宁打价值连城铁壁”作反讽，其他人问赢没赢。没有作者补充，不能用这些数值写一份新BR，具体叙述待补；未入选不等于差。"
       },
       "usage": {
         "body": false,
@@ -808,10 +778,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/murphy222/materials-murphy222.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介空，6主线程，空中一抹残阳记得他在兔子飞、凛冬大群，本人反问是否当年那个熊猫，补强旧军团生活的账号连贯性。别人称坐牢／恭喜6400万没有清楚事件上下文，不写确切收益。缺内容，未入选，不判差。"
       },
       "usage": {
         "body": false,
@@ -836,11 +804,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/6q-r50-2026/materials-6q-r50-2026.md"
-        ],
         "scope": "已读公开标题、完整简介及取得的可见评论，6Q候选的时段排除、另场KM或仍缺事件定位分别归档；未展开其余评论楼层，未读影像、音轨或字幕。",
-        "reviewed_at": "2026-10-24"
+        "reviewed_at": "2026-10-24",
+        "digest": "- BV1wZu86EEB7“新伊甸的烟花”：发布于2026-08-07T12:32:18Z，早于本场，不能因8月9日的评论日期误认发布或交战日期。"
       },
       "usage": {
         "body": false,

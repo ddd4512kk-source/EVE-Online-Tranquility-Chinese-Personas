@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "397037840",
   "name": "Aoruadan",
   "url": "https://space.bilibili.com/397037840/",
   "identity": {
     "state": "confirmed",
     "person": "auradan",
-    "material": "src/people/auradan/materials-auradan.md",
+    "material": "src/people/auradan/materials-auradan.json",
     "label": "奥拉蛋",
     "evidence": [
       "年度报告标题写“EVE奥拉蛋”"
@@ -32,21 +32,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/auradan/materials-auradan.md"
+        "evidence": "src/people/auradan/materials-auradan.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID397037840](https://space.bilibili.com/397037840/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得37、37个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/auradan/materials-auradan.md"
+        "source": "src/people/auradan/materials-auradan.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/auradan/materials-auradan.md"
+        "source": "src/people/auradan/materials-auradan.json"
       },
       {
         "text": "复用UID397037840最新／最多播放各37条，排序选中态已核；另读合集页，欧服日记4篇，全部标题入口可见。首批热门5篇后，再核欧服日记两篇、明确题为国服的复盘；热门首篇滚轮调用超时，之后各页评论正常，预留预算内单独重读恢复。共9次作品导航、8个不同作品成功、121主线程，另复用已读2026合作篇及20主线程。与七七共18次Chrome导航（含双方合集），没有遇403／412／429、验证码或换出口。预览以外楼中楼未展开；影像、指挥原声、音频、字幕／转录均未读，不评价视听制作。",
-        "source": "src/people/auradan/materials-auradan.md"
+        "source": "src/people/auradan/materials-auradan.json"
       }
     ],
     "listings": [
@@ -338,9 +338,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -366,10 +363,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "4主线程，本人回“来of打架的吗”“of偶尔的活”“想玩叫我”，另答用错针可在倒计时后继续找信号。能记自然人的公开自述与邀队，**不能独立证明2122058537这个具体号在2024封号传言后上线，更不排除短期封禁后复归**；既有封号复核段不变。此篇内容文字仍少、未入选五条，不把741播放视作质量差。沿已知日记主线核读，非盲扫低播放作品。"
       },
       "usage": {
         "body": true,
@@ -394,10 +389,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题明确欧服，8主线程，有人问头像像国服奥拉蛋，本人回应；被问在哪个团，自称当时高安（原答含NPC，正文不写NPC设定），不以此覆盖当前军团快照。本人说“我是娱乐主播，不是技播”，愿意分享逗趣时刻；被笑行为艺术，答被人轻松拿捏。新正文写频道定位与欧服日记，不恢复未看镜头。既有别名Aoruadan保留，2021本人投稿标题还自称“奥rua蛋”，补该昵称，不增新角色。"
       },
       "usage": {
         "body": true,
@@ -422,10 +415,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "10主线程，简介空，问开火、弹药、名字显示与催另一条凤凰录像；具体讲解未读，不能只看“复盘”二字宣称内容高质量。未入选五条，不判差；这里明确是国服，不能认成欧服带队案例。"
       },
       "usage": {
         "body": false,
@@ -450,10 +441,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人在简介自嘲好局不多、让人看乐呵，又在评论里解释自己的逗趣风格；与欧服日记对读，能看见这个频道多年一贯的嘴硬与自嘲。"
       },
       "usage": {
         "body": true,
@@ -478,10 +467,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "本人说明忘了录像、素材来自舰队成员，评论里继续邀人跟队，能读出一个由队友共同供素材的频道怎么运转。"
       },
       "usage": {
         "body": true,
@@ -506,9 +493,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -534,9 +518,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -562,10 +543,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/auradan/materials-auradan.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "恢复后20主线程，2021-07-31佐洱父子集团问“你是国服那个叫奥拉蛋的吗”，本人答“是的呀”。补强国服旧身份与此B站账号同人的链条，但回答的是人，不能单据此把每段旧录像的服务器全部定成国服／欧服。最高7359播放篇确已读文字，不以故障当零结果。\n\n最高播放旧作里，作者具体回答舰队注册、天象与伤害准备，读这些问答比只看“一分钟”的战果标题更有收获。"
       },
       "usage": {
         "body": true,

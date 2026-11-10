@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "24773167",
   "name": "半盏醉颜红",
   "url": "https://space.bilibili.com/24773167/",
   "identity": {
     "state": "confirmed",
     "person": "one-half-wine",
-    "material": "src/people/one-half-wine/materials-one-half-wine.md",
+    "material": "src/people/one-half-wine/materials-one-half-wine.json",
     "label": "半盏醉颜红",
     "evidence": [
       "同名；低安PVP教学"
@@ -32,25 +32,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/one-half-wine/materials-one-half-wine.md"
+        "evidence": "src/people/one-half-wine/materials-one-half-wine.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID24773167](https://space.bilibili.com/24773167/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/one-half-wine/materials-one-half-wine.md"
+        "source": "src/people/one-half-wine/materials-one-half-wine.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/one-half-wine/materials-one-half-wine.md"
+        "source": "src/people/one-half-wine/materials-one-half-wine.json"
       },
       {
         "text": "在已核空间双排序基础上，新读最多播放候选中4篇简介、选集、65个主评论线程及可见回复，复用已读1400恶狼配装交流，形成5条精选。未看影像、字幕或音频，未展开全部楼中楼；不评价镜头与讲解制作。素材中Taff的攻击者KM133568759与损失KM133569151原已分开，正文把损失误链到攻击者记录，本轮纠正。",
-        "source": "src/people/one-half-wine/materials-one-half-wine.md"
+        "source": "src/people/one-half-wine/materials-one-half-wine.json"
       },
       {
         "text": "4篇与此前已读[1400恶狼](https://www.bilibili.com/video/BV1ZY411Q7J2/)共5条已入精选，保留老作者强调本地低安适用环境的回答。最多播放里的[异端加姆搬运](https://www.bilibili.com/video/BV19A411v7x8/)明确题标搬运，本轮未读内容，也无额外改编署名依据，优先本人实作与答疑，不独占他人原作。其余历史作品、低安日记和未展开回复仍待按具体增量补；原有创作、翻译、KB与Taff经历保留。",
-        "source": "src/people/one-half-wine/materials-one-half-wine.md"
+        "source": "src/people/one-half-wine/materials-one-half-wine.json"
       }
     ],
     "listings": [
@@ -434,10 +434,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1zy411q7j2"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“1400恶狼”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“1400恶狼”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1ZY411Q7J2](https://www.bilibili.com/video/BV1ZY411Q7J2/)：2026-10-09既往作品页与首批评论已读，交流1400配置，本人强调主要用于当地低安环境。2026-10-17复核公开简介与署名，未见联合制作。推荐保留环境适用边界，不把1400标题等同具体击杀成绩。正文教学概括不再展开同一视频，精选保留。"
       },
       "usage": {
         "body": false,
@@ -463,10 +461,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1z34y1c72h"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“结构抗毁电多米与小说催更”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“结构抗毁电多米与小说催更”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1Z34y1C72h](https://www.bilibili.com/video/BV1Z34y1C72h/)：20线程。简介迎战列加强、自称小航难以单挑，缺战报不能补本人单杀小航。本人说打巡洋战巡好用，有后勤甲抗、小队单浪结构抗有效更高，版本以2022年为准；被催小说更新，答“看了下没满一年”。说进结构时在拉客贴近抢KM，未见对手不编具体战果。催更在正文展开，不重复精选；不是单纯因撤选判质量不足。"
       },
       "usage": {
         "body": true,
@@ -492,10 +488,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1iv411y7ow"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“偏振海霍克”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“偏振海霍克”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1iv411y7ow](https://www.bilibili.com/video/BV1iv411y7ow/)：13线程。简介自称初级杆子里比神装加姆还贵，非独立估价。观众指出网子本来够、若不烧坏可能脱反走；本人认失误，说网子隔两个盾扩也坏这么快，后自嘲“学了个假的超载理论V”。无反跳配置被笑意念反，他回“我赌你的船上没有反跳”，说老手半甲走、素材半数跑掉。是本人操作与复盘趣事，普通丢船本身不算黑料。有人空泛指演员，他讽刺“你说的都对”，不认摆拍实锤。正文已展开，不入精选。"
       },
       "usage": {
         "body": true,
@@ -521,10 +515,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1cv411k7dp"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“万速加姆”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“万速加姆”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1cV411k7DP](https://www.bilibili.com/video/BV1cV411k7DP/)：20线程。本人置顶高奎、速度插、9%速度药、5%酷菲、A推超载9909，标题万速不作精确实测。观众望价格退却，他说自己平时也白蛋开；炮扰照配电量只够一分钟，他建议查导航减微曲耗电技能；说做字幕最累，未读字幕不评价效果。2026-09答休闲玩，非新人教官职务证明。相关配装与答疑已在正文展开，不入精选。"
       },
       "usage": {
         "body": false,
@@ -550,10 +542,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1j5411w7jd"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“奇奇莫拉风筝”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“奇奇莫拉风筝”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1j5411W7Jd](https://www.bilibili.com/video/BV1j5411W7Jd/)：12线程。简介BGM与招新，内容依据在评论；读者谈同吨位速度、熵能射程、护卫对抗，作者给问者加姆配置、答欧服奇奇莫拉含炮成本。推荐写船型主题、配置与风筝取舍，不把读者观点统统当作者结论，不因标题“深渊”给深渊标签。"
       },
       "usage": {
         "body": false,
@@ -579,10 +569,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1es4y1h7vh"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“掠夺队以一当十”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“掠夺队以一当十”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1eS4y1h7Vh](https://www.bilibili.com/video/BV1eS4y1h7Vh/)，2022-05-05发布。2026-10-27 UTC新读完整简介与11个主评论线程及可见作者回复：原意陪心情低落的兄弟去送死，结果打赢；作者承认最后损失一条恶狼，怕对方跳无畏所以舍一条撤走，不能按标题写全程无损碾压。对实践配置，作者说若是甲抗会输；答三超大注配高水、10AB魔女保蛋为当时版本答案，不当现版本攻略。未见公开合作署名。替代旧仅标题／播放量的推荐依据，不虚构已看战斗。"
       },
       "usage": {
         "body": false,
@@ -608,10 +596,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv17t411m7vz"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“中风筝教学上篇”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“中风筝教学上篇”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV17T411M7Vz](https://www.bilibili.com/video/BV17T411M7Vz/)，2022-09-09发布。2026-10-27 UTC新读完整简介、13个主评论线程及可见作者回复。简介点赞过百出第二期；作者答“大船没人跟你打架”、遇轻重拦“跑得比队友快”、2024-12答仍玩自由PVP，2022答“一套看完保命一流”。不能把中风筝教学误写成“近战船如何顶着风筝贴近”的反制教程，未读影像不能归纳具体课程步骤；推荐按本人教学主题和互动写。未见联合署名。"
       },
       "usage": {
         "body": false,
@@ -637,10 +623,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/one-half-wine/materials-one-half-wine.md#bili-bv1sk411k7fy"
-        ],
-        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“龙卷风钓鱼”；未读影像、音频、字幕，未穷尽折叠回复。"
+        "scope": "完整简介及已加载主评论／可见作者回复已核，实际范围见素材“龙卷风钓鱼”；未读影像、音频、字幕，未穷尽折叠回复。",
+        "digest": "[BV1sK411K7fy](https://www.bilibili.com/video/BV1sK411K7fy/)，2020-09-14发布。2026-10-09旧读简介与评论，本轮补核完整简介、4个主评论线程及可见回复；本人说第一次半小时上钩，第二次等得遥遥无期，也可装肉船。观众谈看炮识别、熟人邀回山水；“号没了”“给个号”没有角色ID与具体处置，留身份边界不编售号。推荐落在钓鱼等待与对手是否接战，不追加具体战果。未见联合署名。"
       },
       "usage": {
         "body": false,

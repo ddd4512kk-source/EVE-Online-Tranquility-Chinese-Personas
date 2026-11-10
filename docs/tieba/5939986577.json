@@ -4,9 +4,9 @@
   "url": "https://tieba.baidu.com/p/5939986577",
   "title": "【凤凰城】Phoenix City—萌新天堂 欢迎您",
   "references": [
-    "docs/leads/tieba-phoenix-replies.md",
-    "src/people/fley-den/materials-fley-den.md",
-    "src/people/sword-sun/materials-sword-sun.md",
+    "docs/leads/tieba-phoenix-replies.json",
+    "src/people/fley-den/materials-fley-den.json",
+    "src/people/sword-sun/materials-sword-sun.json",
     "src/people/sword-sun/sword-sun.md"
   ],
   "legacy_records": [
@@ -14,7 +14,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "5939986577",
-        "初始引用文件": "src/people/sword-sun/materials-sword-sun.md",
+        "初始引用文件": "src/people/sword-sun/materials-sword-sun.json",
         "首尾状态": "首尾已取",
         "接口回复数": "464",
         "主楼总页数": "11",

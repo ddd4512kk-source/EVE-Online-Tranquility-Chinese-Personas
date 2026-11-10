@@ -300,6 +300,73 @@
       "非华人",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "频道里常年掌舵，从帝国偏师带成宇宙第三极；能开小船冲锋，也能收留黄昏残局。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "顶尖地缘领袖，战略上有精明计算或避战体面，但不属于疯癫抽象神人，归常人基准。",
+          "sources": [
+            {
+              "label": "Reddit INIT 战略动员帖",
+              "url": "https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "三万五千余次击杀，常年坐在指挥椅上并亲驾拦截舰、神示无畏深入一线伏击圈。",
+          "sources": [
+            {
+              "label": "Dark Shines zKillboard",
+              "url": "https://zkillboard.com/character/1869573834/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "EX",
+          "reason": "执掌 The Initiative. 联盟，顶尖大舰队总指挥官，带领全盟驰骋全宇宙。",
+          "sources": [
+            {
+              "label": "1N-FJ8 战役战报",
+              "url": "https://zkillboard.com/character/1869573834/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "S",
+          "reason": "INIT 精神领袖，万千部众誓死追随，开 Twitch 直播，全服知名传奇统帅。",
+          "sources": [
+            {
+              "label": "INIT 官方频道与动员记录",
+              "url": "https://www.reddit.com/r/Eve/comments/1e3h175/imperium_open_letter_to_ccp/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "带领 INIT 脱离帝国自立门户成宇宙第三极，操盘收编 PH，斡旋于蜜蜂与凛冬之间。",
+          "sources": [
+            {
+              "label": "贴吧 INIT 独立与地缘分析",
+              "url": "https://tieba.baidu.com/p/10191264160"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "执掌 INIT 庞大财政与战备工业体系，支配数万亿计资产，拥有大型社区产业。",
+          "sources": [
+            {
+              "label": "INIT 联盟主权与战备体系",
+              "url": "https://evemaps.dotlan.net/alliance/The_Initiative."
+            }
+          ]
+        }
+      }
+    }
   }
 }

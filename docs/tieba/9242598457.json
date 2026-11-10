@@ -4,17 +4,17 @@
   "url": "https://tieba.baidu.com/p/9242598457",
   "title": "来！来！有脾气把贴吧里所有人都拉黑。",
   "references": [
-    "docs/leads/tieba-short-disputes-replies.md",
-    "src/people/sirses/materials-sirses.md",
+    "docs/leads/tieba-short-disputes-replies.json",
+    "src/people/sirses/materials-sirses.json",
     "src/people/sirses/sirses.md",
-    "src/people/tang-yuan/materials-tang-yuan.md"
+    "src/people/tang-yuan/materials-tang-yuan.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9242598457",
-        "初始引用文件": "src/people/sirses/materials-sirses.md;src/people/sirses/sirses.md;src/people/tang-yuan/materials-tang-yuan.md",
+        "初始引用文件": "src/people/sirses/materials-sirses.json;src/people/sirses/sirses.md;src/people/tang-yuan/materials-tang-yuan.json",
         "首尾状态": "首尾已取",
         "接口回复数": "26",
         "主楼总页数": "1",

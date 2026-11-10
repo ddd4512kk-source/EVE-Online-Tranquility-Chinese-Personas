@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "31544583",
   "name": "EVE老头乐",
   "url": "https://space.bilibili.com/31544583/",
   "identity": {
     "state": "confirmed",
     "person": "lova-8899",
-    "material": "src/people/lova-8899/materials-lova-8899.md",
+    "material": "src/people/lova-8899/materials-lova-8899.json",
     "label": "萌萌",
     "evidence": [
       "对应Lova 8899／2122318173；明确角色对应，公开文字已归本人素材"
@@ -43,21 +43,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/lova-8899/materials-lova-8899.md"
+        "evidence": "src/people/lova-8899/materials-lova-8899.json"
       }
     },
     "prior_notes": [
       {
         "text": "2026-10-17资料卡返回投稿431；[空间视频页](https://space.bilibili.com/31544583/upload/video)显示视频432、图文3、音频1、合集和系列16、课堂1，共11页。当前只读最新第一页42项标题及公开计数，其中有牧星招新、EVE教程／战斗，也有摄影、动画与流放2等题材；不把432当EVE作品数，不把视频总数／课堂入口当已读课程。该账号现已对应Lova 8899／萌萌，原身份缺口已解决。",
-        "source": "src/people/lova-8899/materials-lova-8899.md"
+        "source": "src/people/lova-8899/materials-lova-8899.json"
       },
       {
         "text": "原先order=click参数页仍是最新序列，现已在公开页面实际点击最多播放，核选中状态与次序改变；最多播放第一屏42项标题已读，不能把卡片第二计数当评论数。高播放入口包括[你以为的千人会战与实际上的千人会战](https://www.bilibili.com/video/BV1REdJYoEk8/)约10万、[EVE2025年无脑推荐玩欧服](https://www.bilibili.com/video/BV1BJrgYNEjk/)约3.7万、欧服与国服对比约2.2万；只是空间标题／展示值，尚未全部读作品。",
-        "source": "src/people/lova-8899/materials-lova-8899.md"
+        "source": "src/people/lova-8899/materials-lova-8899.json"
       },
       {
         "text": "目录16项实际为15合集与一个0条的直播回放系列，本页每合集最多可见6个作品标题，未逐合集翻页。EVE相关包括海盗生涯147、杂谈42、入门60、三神裔故土之旅4、PVP解析4、0氪生涯10、战术分析2、网站开发记录4；其他为流放／LOL、摄影、带货等，不把全部作品当EVE或虚构摄影职业。网站开发标题自称用AI做EVE商业分析网，具体项目链接／内容未读，不当已核技术成果。课堂显示1，课程正文未读。",
-        "source": "src/people/lova-8899/materials-lova-8899.md"
+        "source": "src/people/lova-8899/materials-lova-8899.json"
       }
     ],
     "listings": [
@@ -3760,11 +3760,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/lova-8899/materials-lova-8899.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "既有摘记记录读空简介、12个主评论线程和8条附带回复，未展开全部楼中楼；旧记录未注明是否播放影像或读取字幕，不补推。",
+        "digest": "2026-07-10，1133播放、元数据reply21、简介空；实际12主评论＋8附带回复已读，未展开全部楼中楼。有人想回坑，作者回复“来打pla”；问汉化情况，他说除最近更新外其他完全汉化；问是否刷古斯塔斯怪、想进团，作者回复“是的”。这些是具体招新接话，未据此认CEO或教学职位；“完全汉化”为当时作者说法，不当本站现行覆盖结论。其他普通捧场／星球大战字幕样式评论不等于影像已看过。"
       },
       "usage": {
         "body": false,
@@ -3788,11 +3786,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/lova-8899/materials-lova-8899.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "既有摘记记录取得3个主评论线程，并读前五个评论及可见附带回复；未说明是否翻页或读取视听字幕，不补推。",
+        "digest": "取得3主评论线程，本轮读前五个与可见附带回复；新手建号两月赚5亿，作者答有月卡不必太在意ISK；不评价声音或画面。"
       },
       "usage": {
         "body": true,
@@ -3816,11 +3812,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/lova-8899/materials-lova-8899.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "既有摘记记录取得1个主评论线程，并读前五个评论及可见附带回复；未说明是否翻页或读取视听字幕，不补推。",
+        "digest": "取得1主评论线程，本轮读前五个与可见附带回复；快递合同问会否不送、耗几周，作者解释团内负责，一般隔天到货；这是作者当时说明，不认本站保证时效。"
       },
       "usage": {
         "body": true,
@@ -3844,11 +3838,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/lova-8899/materials-lova-8899.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "既有摘记记录读20个主评论线程与46条附带回复，未穷尽全部评论；技术性评论未核实。旧记录未注明视听字幕是否读取，不补推。",
+        "digest": "2025-04-08，99823播放、元数据reply394，简介明确为千人会战CG宣传与实际内容对比。实际20主评论＋46附带回复已读，未展开394条计数对应的全部内容。观众拿千人坐牢、F1／PPT与宣传片反差起哄，GLaBOSS也用无畏等补损开玩笑；作者回过服务器升级、偏爱千人以下战斗。关于网速、服务器与时间膨胀的评论均未作技术验证，不当机制说明。"
       },
       "usage": {
         "body": true,
@@ -3872,11 +3864,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/lova-8899/materials-lova-8899.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "既有摘记记录取得20个主评论线程，并读前五个评论及可见附带回复；未说明是否翻页或读取视听字幕，不补推。",
+        "digest": "取得20主评论线程，本轮读前五个与可见附带回复；作者答应按期写清内容，又叹习惯杆子区后零氪路线艰难；国服资产／技能说法为作者游戏经历，不涉现实隐私。"
       },
       "usage": {
         "body": true,
@@ -3901,8 +3891,142 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    },
+    {
+      "bvid": "BV1BJrgYNEjk",
+      "title": "EVE2025年无脑推荐玩欧服",
+      "url": "https://www.bilibili.com/video/BV1BJrgYNEjk/",
+      "owner_uid": "31544583",
+      "published_at": "2025-01-06T02:31:02.000Z",
+      "captured_at": "2026-11-08T16:26:31.522Z",
+      "description": "",
+      "stats": {
+        "views": 36847,
+        "replies": 551
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介（为空时如实注明）及公开评论API第一页最多3个主线程和可见回复；未翻页、未展开折叠回复，未读视听与字幕。",
+        "digest": "简介为空。置顶意见对是否适合入坑分歧明显：有人劝退并批评月卡成本，其他玩家讨论免费账号可用舰船、续卡负担和欧服日常收益；作者回应称不少新人是因为没体验到游戏内容，并自述欧服当时约30亿ISK一张月卡、半个月可肝出。该价格和收益是作者个人估算与当时玩家经验，不是现行经济结论。评论里还回忆因免费账号技能训练限制而退坑，均为评论者经历。",
+        "reviewed_at": "2026-11-08T16:31:32.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1Mc91YEERE",
+      "title": "EVE2025年欧服与国服对比",
+      "url": "https://www.bilibili.com/video/BV1Mc91YEERE/",
+      "owner_uid": "31544583",
+      "published_at": "2025-03-07T08:04:53.000Z",
+      "captured_at": "2026-11-08T16:26:52.300Z",
+      "description": "",
+      "stats": {
+        "views": 22600,
+        "replies": 403
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介（为空时如实注明）及公开评论API第一页最多3个主线程和可见回复；未翻页、未展开折叠回复，未读视听与字幕。",
+        "digest": "简介为空。评论把“不要玩EVE”当梗，也围绕欧服与国服的月卡和经济环境争论：有人认为国服资源稀缺、舰船价格上涨，另有人认为欧服玩家多、争夺强，适合PVP却增加PVE和生产压力。作者以欧服月卡约30亿ISK、个人半月收益回应“赚月卡难”的说法；其他玩家用双开收入反驳。以上都是评论者和作者对当时服况的经验及估算，未在本轮核实价格、收入或两服全貌。",
+        "reviewed_at": "2026-11-08T16:31:32.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1Xw4m1Q7GB",
+      "title": "EVE入门-新手矿工教程",
+      "url": "https://www.bilibili.com/video/BV1Xw4m1Q7GB/",
+      "owner_uid": "31544583",
+      "published_at": "2024-05-14T05:19:33.000Z",
+      "captured_at": "2026-11-08T16:27:12.804Z",
+      "description": "EVE欧服矿工基础教程",
+      "stats": {
+        "views": 15057,
+        "replies": 127
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介（为空时如实注明）及公开评论API第一页最多3个主线程和可见回复；未翻页、未展开折叠回复，未读视听与字幕。",
+        "digest": "简介称这是欧服矿工基础教程。评论区有新手询问气云扫描、虫洞危险和能否靠采矿负担月卡。作者回答建议不要把“赚月卡”当游戏目标，称虫洞气云可用冲锋级开采、单点收益约2500万ISK，并说高安和低安气云较少；另一观众分享四开挖矿收益和高安货船风险，作者概括欧服会把玩家往00区引。数值、刷新分布与配船观点均是当时留言经验，不作为当前采矿指南。",
+        "reviewed_at": "2026-11-08T16:31:32.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1YH4y1u7LR",
+      "title": "EVE新手气云采集入门教程",
+      "url": "https://www.bilibili.com/video/BV1YH4y1u7LR/",
+      "owner_uid": "31544583",
+      "published_at": "2024-05-21T02:32:13.000Z",
+      "captured_at": "2026-11-08T16:27:33.296Z",
+      "description": "EVE新手气云采集入门教程。",
+      "stats": {
+        "views": 11749,
+        "replies": 101
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介（为空时如实注明）及公开评论API第一页最多3个主线程和可见回复；未翻页、未展开折叠回复，未读视听与字幕。",
+        "digest": "简介称这是新手气云采集教程。评论询问带冬眠者守卫的气云点该如何处理、需要什么级别的船；作者让其看教程后段，另有观众称可靠自修硬扛。另一串讨论曙光服高安无守卫气云和欧服高安气云竞争，作者以“你运气好”回应并劝来欧服。观众还谈到C32气云估价与测量扫描器。这里记录的是教程答疑和个人服况／估价，未核机制与价格，不当作当前配置建议。",
+        "reviewed_at": "2026-11-08T16:31:32.000Z"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1YoEwzoEXs",
+      "title": "EVE-起源CG",
+      "url": "https://www.bilibili.com/video/BV1YoEwzoEXs/",
+      "owner_uid": "31544583",
+      "published_at": "2025-05-13T12:58:19.000Z",
+      "captured_at": "2026-11-08T16:27:53.804Z",
+      "description": "",
+      "stats": {
+        "views": 9353,
+        "replies": 142
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品页简介（为空时如实注明）及公开评论API第一页最多3个主线程和可见回复；未翻页、未展开折叠回复，未读视听与字幕。",
+        "digest": "简介为空。评论追忆EVE曾尝试把尘埃514地面战、瓦尔基里舰载机与太空战联动，也谈到舰长室功能被移除；另有玩家问旧版角色死亡后技能点损失，作者回忆当时克隆体未升级会按比例损技能点、后来取消。第三条评论质疑地面战场的兑现，回复称尘埃514是另一款已停运的游戏。作者在2025年5月评论中称地面作战计划当年9月公测；本轮只记录当时留言，未核其后续兑现。",
+        "reviewed_at": "2026-11-08T16:31:32.000Z"
       },
       "usage": {
         "body": false,

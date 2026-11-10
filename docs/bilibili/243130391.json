@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "243130391",
   "name": "天策府紫电",
   "url": "https://space.bilibili.com/243130391/",
   "identity": {
     "state": "confirmed",
     "person": "zidian-bloodthirsty",
-    "material": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md",
+    "material": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json",
     "label": "紫电",
     "evidence": [
       "同名；墨家收割、反收割与直播剪辑"
@@ -42,25 +42,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
+        "evidence": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json"
       }
     },
     "prior_notes": [
       {
         "text": "**B站UID**（2026-10-16）：天策府紫电 为 UID 243130391（https://space.bilibili.com/243130391 ）。读空间首页：投稿42条（视频41），粉丝358；近作均为墨家相关——《墨家11.11光棍收割行动》《抓个偷钩子的小偷》《反收割救恶狼（未成功）杀一条救世》《10月31号，处理一个偷ESS的。》《日常偷邻居天沟被反制与反反制》《500MN的海神，我承认你跑的很快，但你的无人机是我的了！》《10.28直播剪辑：敌人囤粮我囤枪，敌人粮仓就是我粮仓》《人的悲欢并不相通---记墨者某人打官员过程中的大喜大悲》《PLD做任务合集》。作品精选待读。",
-        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
+        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json"
       },
       {
         "text": "## 最多播放排序补核（2026-10-16）",
-        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
+        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json"
       },
       {
         "text": "本人UP UID243130391已登记，最新首页沿用前段记录；本轮补核最多播放选中态，首页取得41个视频入口，覆盖全频道标题。最高为《超旗救援》2814，其次《500MN的海神》1495、《eve-暴打AOM》1054。并非只有最近墨家活动，历史游骑兵、维新与云环旧战同样在频道中；不把标题直接归为本人指挥或独立战果。",
-        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
+        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json"
       },
       {
         "text": "空间41视频最新／最多播放、系列入口已核。本轮先读播放过千3篇简介与25个主线程，未看影像、字幕或音频，未展开全部回复。",
-        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
+        "source": "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.json"
       }
     ],
     "listings": [
@@ -438,9 +438,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -466,10 +463,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介交代狂热与猛鲑，评论则留下对约架、人数和后勤航的质疑，以及紫电自己的损控解释；值得把这几种说法连着读，看看一份胜报怎样在楼下变成另一场交火。"
       },
       "usage": {
         "body": true,
@@ -494,9 +489,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/zidian-bloodthirsty/materials-zidian-bloodthirsty.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

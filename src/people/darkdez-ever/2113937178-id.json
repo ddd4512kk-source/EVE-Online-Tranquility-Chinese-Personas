@@ -45,7 +45,7 @@
           "name": "DarKdeZeveR",
           "portrait": "tb.1.2968b880.yGBQekbqUpIpK6KTmYpQHw",
           "sources": [
-            "materials-darkdez-ever.md"
+            "materials-darkdez-ever.json"
           ]
         }
       ]
@@ -63,7 +63,7 @@
         "name": "DarKdeZ",
         "basis": "同名前缀DarKdeZ，2020年建号后即入收录号所在D-Line Force，同一玩家确认。",
         "sources": [
-          "materials-darkdez-ever.md#小号"
+          "materials-darkdez-ever.json#小号"
         ],
         "zkb": {
           "kills": 21,
@@ -78,7 +78,7 @@
         "name": "DarKdeZ QingYu",
         "basis": "同名前缀DarKdeZ，2020年入收录号早年所在ChuangShi，同一玩家确认。",
         "sources": [
-          "materials-darkdez-ever.md#小号"
+          "materials-darkdez-ever.json#小号"
         ],
         "zkb": {
           "kills": 2,
@@ -93,7 +93,7 @@
         "name": "DarKdeZ Daefaron",
         "basis": "同名前缀DarKdeZ，2017年建号，曾在The New Yan Jung、Azure Citizen Holding，同一玩家确认。",
         "sources": [
-          "materials-darkdez-ever.md#小号"
+          "materials-darkdez-ever.json#小号"
         ],
         "zkb": {
           "kills": 0,
@@ -108,7 +108,7 @@
         "name": "DarKdeZ Orlenard",
         "basis": "同名前缀DarKdeZ，2016年建号，一直留在NPC军团，同一玩家确认。",
         "sources": [
-          "materials-darkdez-ever.md#小号"
+          "materials-darkdez-ever.json#小号"
         ],
         "zkb": {
           "kills": 0,
@@ -130,6 +130,73 @@
       "00区",
       "AT19冠军",
       "AT22亚军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:45:00Z",
+      "verdict": "名片写着请忘了我因为我不真实，网格里用洛基以少打多零损全灭对手的AT19冠军杀手。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "角色简介挂德语金句‘请忘了我因为我不真实❤’，太空里却用特种抓人零损虐杀对手，文艺抒情与致命杀手反差拉满。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "DarKdeZ Ever 角色简介名片",
+              "url": "https://zkillboard.com/character/2113937178/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "AT19世界冠军核心打手、AT22世界亚军名册成员，击杀超3600次，精通洛基休津特种抓人，一线顶级竞技杀手。",
+          "sources": [
+            {
+              "label": "DarKdeZ Ever zKillboard",
+              "url": "https://zkillboard.com/character/2113937178/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "D-Line Force特种反收割小队核心指挥，带出‘两个月以少胜多主建制零损’的惊人战术协同战绩。",
+          "sources": [
+            {
+              "label": "AT19 冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "圈内威名赫赫的D佬，反收割小队的精神领袖，文艺名片风靡全盟，极具个人独特魅力。",
+          "sources": [
+            {
+              "label": "AT19 冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注特种小队战术反收割与联赛竞技，不参与主权联盟政局操盘，常人基准。",
+          "sources": [
+            {
+              "label": "DarKdeZ Ever 雇佣记录",
+              "url": "https://zkillboard.com/character/2113937178/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "手握AT世界冠军赛船与高额奖金，常备全套特种抓人精装战舰，资产储备极为充实富足。",
+          "sources": [
+            {
+              "label": "DarKdeZ Ever zKillboard",
+              "url": "https://zkillboard.com/character/2113937178/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

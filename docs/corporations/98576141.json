@@ -20,7 +20,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98576141.md"
+        "docs/corporations/notes/member-research/98576141.json"
       ],
       "entries": [
         {
@@ -648,7 +648,7 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-12",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "无有效CEO（ceo_id=1）",
         "prior_finding": "接口显示0成员、ceo_id=1；无有效现任CEO，历史任职待查"
@@ -658,15 +658,15 @@
       "kind": "identity",
       "period": null,
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98764551.md",
+      "source": "docs/corporations/notes/member-research/98764551.json",
       "fields": {
         "note": "2018-10-04建立的同名旧团，ESI现为0成员、ceo_id=1；2026-09活跃榜第18名PLA Fleet实为98764551，旧对照抄错ID。本档历史榜是旧团成员，不代表现役兔子卫队。"
       }
     }
   ],
   "references": [
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/member-research/98576141.md",
-    "docs/corporations/notes/member-research/98764551.md"
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/member-research/98576141.json",
+    "docs/corporations/notes/member-research/98764551.json"
   ]
 }

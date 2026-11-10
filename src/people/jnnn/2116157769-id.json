@@ -43,7 +43,7 @@
         "id": 2116257822,
         "name": "Lemon JN",
         "sources": [
-          "materials-jnnn.md"
+          "materials-jnnn.json"
         ],
         "zkb": {
           "kills": 653,
@@ -70,6 +70,73 @@
       "00区",
       "NC",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "出门管航向，回来还得查门禁。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "安全调查与IT运维是正常职责。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两号两千余击杀，具资深常规舰队经验。",
+          "sources": [
+            {
+              "label": "Q-K2T7 战损 KM",
+              "url": "https://zkillboard.com/kill/127516378/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "官网明确前线FC，Q-K2T7有本人带队记录。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "团内多岗位服务形成固定成员联系。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "安全官兼IT管理，掌握核心准入与调查。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "双号战备有余，未见雄厚产业规模。",
+          "sources": [
+            {
+              "label": "JNNN zKillboard",
+              "url": "https://zkillboard.com/character/2116157769/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

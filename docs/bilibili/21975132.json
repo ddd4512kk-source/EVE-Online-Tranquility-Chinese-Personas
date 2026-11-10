@@ -1,31 +1,31 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "21975132",
   "name": "HiToMing",
   "url": "https://space.bilibili.com/21975132/",
   "identity": {
     "state": "confirmed",
     "person": "hitoming",
-    "material": "src/people/hitoming/materials-hitoming.md",
+    "material": "src/people/hitoming/materials-hitoming.json",
     "label": "所思（HiToMinG）本人账号",
     "evidence": [
-      "B站账号名HiToMing与角色HiToMinG同名，见src/people/hitoming/materials-hitoming.md“B站账号对应”"
+      "B站账号名HiToMing与角色HiToMinG同名，见src/people/hitoming/materials-hitoming.json“B站账号对应”"
     ],
     "related": [
       {
-        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md",
+        "material": "src/battles/yz9-f6-2020/materials-yz9-f6-2020.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/319-3d-2020/materials-319-3d-2020.md",
+        "material": "src/battles/319-3d-2020/materials-319-3d-2020.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+        "material": "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/y-2ano-2020/materials-y-2ano-2020.md",
+        "material": "src/battles/y-2ano-2020/materials-y-2ano-2020.json",
         "label": "战役相关视频"
       }
     ]
@@ -222,12 +222,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md",
-          "src/battles/yz9-f6-2020/materials-yz9-f6-2020.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介与首屏已返回的3个主评论线程及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-08",
+        "digest": "B站搜索所得；投稿日2020-10-15，简介附br.evetools战报\n\n（HiToMing）：帝国一方无畏与航母视角。简介说帝国手里有三个铁壁出甲增强，战局逐步扩大、联军航母密集进场；帝国想用玻色泰坦战术，伤害却像是被服务器吞了。"
       },
       "usage": {
         "body": false,
@@ -252,11 +250,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "所思（HiToMing，UID 21975132）2024-08-14 投稿，播放约 364。简介：“PH铁壁出结构增强，帝国方提前2分钟入场，帝国海乌鸦队负责守门，INIT甲抗乌鸦攻击铁壁。本地系统膨胀18%视频为10倍速，原始总时常1小时12分”，附 related/30001038/202408131200，“基本上55开”。评论 御坂18037號：“只能說不愧是帝國 我們都快把你們常規打崩了結果跳旗艦進來”。\n\n（HiToMing）：帝国海乌鸦队守门、INIT装甲拆铁壁，十倍速，作者评“基本上55开”。"
       },
       "usage": {
         "body": false,
@@ -281,11 +277,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md#bili-bv1cf4y1s7um"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "></a>\n- [EVE欧服3月20 39P-绕点战。帝国谬宁+龙卷风 VS 联军谬宁+小希](https://www.bilibili.com/video/BV1Cf4y1s7UM/)：2021-03-20 投稿，播放约 615、评论 9。简介：第一场帝国谬宁+龙卷风对联军谬宁+小希+1 条 FAX；10 分钟后第二场联军加入龙卷风、寒鸦、小航，帝国离开。HiToMing 回复：小希“被龙卷风兴趣小组打崩了，一发一个，导弹还没飞到人家已经换位置了。后来test也换了龙卷风过来”；问为何不早进航母，答“同时绕4个星系，其他三个都增强了，旗舰只能救一个”；另答“隐轰毁电炸弹一轮又一轮”。自贴 related/30004766/202103200300 战报。"
       },
       "usage": {
         "body": false,
@@ -310,9 +304,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -338,11 +329,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md#bili-bv1bb4y1x7fj"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "></a>\n- [EVE欧服 帝国VS联军 2月26日元宵节 1dq保卫战](https://www.bilibili.com/video/BV1bb4y1X7FJ/)：2021-02-26 投稿，播放约 1144、评论 5。简介：万王对谬宁，改版后的贴脸近战；中途帝国远飘的铁骑飞到，联军增援的女妖队与帝国增援的萌龟队在星门上遭遇。评论有“打的55开”“425万王永远的神”。"
       },
       "usage": {
         "body": false,
@@ -367,9 +356,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -395,11 +381,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/319-3d-2020/materials-319-3d-2020.md"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "所思（HiToMing，UID 21975132）2020-10-12 投稿，播放约 719。简介：“第三场星城战和前两场比流畅了很多，至少武器激活是在可忍受范围，全程无加速也无声音，让你体验真实的EVE大会战。”本人评论回复：坚持到 2 点睡觉，3 点多就打完了，至少伤害能打出来。"
       },
       "usage": {
         "body": false,
@@ -424,11 +408,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md#bili-bv18a4y1j7tm"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "></a>\n- [9月21日DT后，公司小队在联军集结地的日常](https://www.bilibili.com/video/BV18a4y1j7TM/)：2020-09-21 投稿，播放约 254、评论 2。简介：公司的小号集结地在联军集结点 P-Z 隔壁，互打诱导；第一场“我的425暴风环绕500m非常失败，打扎马德miss一堆，没注意看”，附 zKill related/30003978/202009211200。HSnow 评论建议减少重复操作（环绕 500m），多看战场与 dscan。"
       },
       "usage": {
         "body": false,
@@ -453,9 +435,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -481,11 +460,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "所思（HiToMing，UID 21975132）2020-08-16 投稿，播放约 830、评论 13。简介：“联军提前进入星系摆阵堵门，帝国军强行过门突围，dbrb和sisterbliss的隐轰队立下大功。联军依旧没有出动超旗，也不想硬刚，PGL远狙乌鸦队惨遭删除之后无后备计划，星城瞬间修复完毕。”"
       },
       "usage": {
         "body": false,
@@ -510,10 +487,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md",
-          "src/battles/y-2ano-2020/materials-y-2ano-2020.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -539,9 +512,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -567,9 +537,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -595,11 +562,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md#bili-bv11s411w7nr"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "></a>\n- [7月31 NC老家keepstar被打增强，Goons联军落单泰坦千里跑毒](https://www.bilibili.com/video/BV11s411w7nr/)：2018-08-01 投稿，播放约 1751、评论 12。简介：北方战事因诱导干扰器陷入胶着，NC 集结星系主权只有 1 级，Goons 联军直接攻击 keepstar；NC 旗舰出站没敢开火，增强后离开时 Goons 一条 Avatar 落单被抓，NC 叫来华人联盟盟友。评论 Halo_of_the_Sun 称打蛋最蠢，HiToMing 回复：最后不是打完了？打蛋是 FC 下的命令，中期 FC 命令必须盯着 FRT 的蛋打，他们回家和直接在 keepstar 取船哪个快、住哪儿知道吗。另有评论称现场是 PLA，约 35 人；HiToMing 另答重拦泡泡跃迁是显示 bug。"
       },
       "usage": {
         "body": false,
@@ -624,11 +589,9 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md#bili-bv1mw411w7kw"
-        ],
         "scope": "公开简介与作品页首屏主评论及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
-        "reviewed_at": "2026-10-22"
+        "reviewed_at": "2026-10-22",
+        "digest": "></a>\n- [EVE欧服3月18日晚, OSY本地, GOONS co + TEST VS FRT co + NC dot](https://www.bilibili.com/video/BV1MW411W7KW/)：2018-03-19 投稿，播放约 1483、评论 24。简介：本地上千；Goons 三队（Cerberus、Rokh、电子战护卫），TEST 开 Ferox；FRT 四队（Tempest、Gila、旗舰、隐轰），NC dot 开 Loki，NC 与 TEST 中途入场。评论问 NC 何时成了 FRT 盟友，HiToMing 答“从pangu时代就是了 3-4年有了吧”。评论另称 FRT 的日本盟友、TRI、RA 在周边拦截，“八方势力荟聚”；一条评论估 Goons 与 TEST 共损失 23B、凛冬 24B。"
       },
       "usage": {
         "body": false,
@@ -653,9 +616,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -680,11 +640,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "公开简介与首屏实际返回的3个主评论线程及其显示回复；未翻页、未展开折叠回复，未看影像音轨。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [BV1iW411i7ch](https://www.bilibili.com/video/BV1iW411i7ch/)：简介把冲突缘由概括为“去照主权”惹恼北方，并说录像随手录、未剪辑。评论中HiToMing澄清与源泉无关，那里有不打主权的协议；另有观众称打得痛快，也有人嫌时长太长、建议加速。本次仅读评论第1页返回的3个主评论线程及其显示回复，未翻页、未展开折叠回复，未看影像音轨。"
       },
       "usage": {
         "body": false,
@@ -709,9 +668,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/hitoming/materials-hitoming.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

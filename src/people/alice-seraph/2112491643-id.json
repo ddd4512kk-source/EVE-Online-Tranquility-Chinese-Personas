@@ -39,7 +39,7 @@
         "name": "Yohane Bonaventura",
         "basis": "ESI公开头衔“爱丽丝Alt，CEO”，自标为本人小号",
         "sources": [
-          "materials-alice-seraph.md"
+          "materials-alice-seraph.json"
         ],
         "zkb": {
           "kills": 4656,
@@ -69,7 +69,78 @@
     "tags": [
       "00区",
       "FRT",
-      "FC"
-    ]
+      "著名FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "隐轰练成招牌，重拦坐进决战，论坛上还有另一套集火手法。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "挖人投诉、踢兴趣组和拉闸争论反复升级，属常见范围内的烂事。；常规社区交流、论坛口水或军团内务分歧，未涉及恶性人肉造谣或现实骚扰，属普通玩家互动与摩擦，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "贴吧台风下台风波讨论",
+              "url": "https://zkillboard.com/character/2112491643/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "长期隐轰专精，六千余次击杀并能兼任重拦，强项鲜明。",
+          "sources": [
+            {
+              "label": "Alice Seraph zKillboard",
+              "url": "https://zkillboard.com/character/2112491643/"
+            },
+            {
+              "label": "A1-AUH 阔刀记录",
+              "url": "https://zkillboard.com/kill/95191703/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "不只带隐轰，WWB2 战报还记有组织 Baltec 与支援旗舰的经历。",
+          "sources": [
+            {
+              "label": "Alice Seraph zKillboard",
+              "url": "https://zkillboard.com/character/2112491643/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "隐轰圈知名，论坛投诉能动员一批响应者；按圈内号召力评。",
+          "sources": [
+            {
+              "label": "Alice Seraph 角色名片与荣誉",
+              "url": "https://zkillboard.com/character/2112491643/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "深谙社区规则运作，成功动员舆论合力迫使对手让步，在社区舆论博弈中展现极高手段。",
+          "sources": [
+            {
+              "label": "贴吧台风下台风波讨论",
+              "url": "https://zkillboard.com/character/2112491643/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "能长期维持隐轰与重拦战备；四万亿击杀额不等于个人所得。",
+          "sources": [
+            {
+              "label": "Alice Seraph zKillboard",
+              "url": "https://zkillboard.com/character/2112491643/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

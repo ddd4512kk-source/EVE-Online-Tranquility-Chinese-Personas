@@ -91,6 +91,73 @@
       "00区",
       "FRT",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T15:39:02Z",
+      "verdict": "雪月城千人大团CEO，A1开缪宁参战，发低成本ESS取款攻略，简介把熟人骂自己的独裁者老色魔全署名挂首页的妙人。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把熟人差评挂简介是自嘲，独裁绰号不能单独证明具体恶行。",
+          "sources": [
+            {
+              "label": "Six bamboo 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2116162416/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "近千次击杀，以缪宁等常规职责为主，A1 签名不自动升至卓越。",
+          "sources": [
+            {
+              "label": "A1-AUH 缪宁参战 KM",
+              "url": "https://zkillboard.com/kill/95187540/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "经营千人角色军团与组织动员，未据此认定实战 FC。",
+          "sources": [
+            {
+              "label": "Snow Moon City 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "有稳定团友互动与攻略交流，差评置顶不直接证明广泛拥戴；长期执掌千人军团雪月城，按大军团 CEO 尺度评 B。",
+          "sources": [
+            {
+              "label": "Six bamboo 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2116162416/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "雪月城CEO，把持千人大军团并在FRT内部分量举足轻重。",
+          "sources": [
+            {
+              "label": "Snow Moon City 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "经营大团并有 ESS 资源获取经验，按团队资源运作评，不凭人数推定巨库。",
+          "sources": [
+            {
+              "label": "ESS赏金池钥匙低成本攻略",
+              "url": "https://www.bilibili.com/video/BV1Zq4y1Q7E2"
+            }
+          ]
+        }
+      }
+    }
   }
 }

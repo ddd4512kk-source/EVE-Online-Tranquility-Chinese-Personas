@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "2250709",
   "name": "兔仔豬",
   "url": "https://space.bilibili.com/2250709/",
   "identity": {
     "state": "confirmed",
     "person": "rabbit-p",
-    "material": "src/people/rabbit-p/materials-rabbit-p.md",
+    "material": "src/people/rabbit-p/materials-rabbit-p.json",
     "label": "兔仔猪",
     "evidence": [
       "同名；CCP官方视频汉化"
     ],
     "related": [
       {
-        "material": "src/battles/lantorn-2025/materials-lantorn-2025.md",
+        "material": "src/battles/lantorn-2025/materials-lantorn-2025.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md",
+        "material": "src/battles/r-ag7w-2025/materials-r-ag7w-2025.json",
         "label": "战役相关视频"
       }
     ]
@@ -41,21 +41,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/rabbit-p/materials-rabbit-p.md"
+        "evidence": "src/people/rabbit-p/materials-rabbit-p.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID2250709](https://space.bilibili.com/2250709/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/rabbit-p/materials-rabbit-p.md"
+        "source": "src/people/rabbit-p/materials-rabbit-p.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/rabbit-p/materials-rabbit-p.md"
+        "source": "src/people/rabbit-p/materials-rabbit-p.json"
       },
       {
         "text": "复用双排序各42条入口，不重扫空间。空间简介自述“自2012年起興趣使然致力於翻譯 EVE Online 更新內容”，当时为143视频、364图文、14合集。此次按最多播放前五个候选各读1页公开文字，全部高于1000播放；合计5次导航、100个已加载主评论线程，未翻页或展开楼中楼，未读取影像、音频、字幕或转录。",
-        "source": "src/people/rabbit-p/materials-rabbit-p.md"
+        "source": "src/people/rabbit-p/materials-rabbit-p.json"
       }
     ],
     "listings": [
@@ -1100,10 +1100,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/rabbit-p/materials-rabbit-p.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "版本消息之外，评论区还有新工业船、资产保障与地面作战预期的直接答疑，能看见老译者怎样接住回归玩家的问题。"
       },
       "usage": {
         "body": true,
@@ -1128,9 +1126,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/rabbit-p/materials-rabbit-p.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1156,10 +1151,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/rabbit-p/materials-rabbit-p.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介集中列出管理、建筑和新舰种变化；往下看作者一句“6000人不卡就挤9000人”，还能顺手领走一份会战民情。"
       },
       "usage": {
         "body": true,
@@ -1184,10 +1177,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/rabbit-p/materials-rabbit-p.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "配套中文译帖讲清声音更新想解决什么问题，评论里还接着回答会战声音杂乱与卡顿的疑问。"
       },
       "usage": {
         "body": true,
@@ -1212,10 +1203,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/rabbit-p/materials-rabbit-p.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "给摘要补演示入口，作者答疑把构思、概念图与已有机制分开，省得把美术设想当成实装承诺。"
       },
       "usage": {
         "body": true,
@@ -1240,9 +1229,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/lantorn-2025/materials-lantorn-2025.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1268,9 +1254,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/r-ag7w-2025/materials-r-ag7w-2025.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

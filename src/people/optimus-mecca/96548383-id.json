@@ -139,7 +139,7 @@
         "name": "last chu",
         "basis": "ESI公开头衔同为“娃娃”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-optimus-mecca.md"
+          "materials-optimus-mecca.json"
         ],
         "zkb": {
           "kills": 965,
@@ -154,7 +154,7 @@
         "name": "NATURALDISASTER Tepes",
         "basis": "ESI公开头衔同为“娃娃”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-optimus-mecca.md"
+          "materials-optimus-mecca.json"
         ],
         "zkb": {
           "kills": 720,
@@ -169,7 +169,7 @@
         "name": "hoshitsuki1",
         "basis": "ESI公开头衔同为“娃娃”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-optimus-mecca.md"
+          "materials-optimus-mecca.json"
         ],
         "zkb": {
           "kills": 659,
@@ -184,7 +184,7 @@
         "name": "hoshitsuki2",
         "basis": "ESI公开头衔同为“娃娃”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-optimus-mecca.md"
+          "materials-optimus-mecca.json"
         ],
         "zkb": {
           "kills": 611,
@@ -199,7 +199,7 @@
         "name": "hoshitsuki",
         "basis": "ESI公开头衔同为“娃娃”，该头衔只见于本号主同组角色；同军团98725089历史榜同组",
         "sources": [
-          "materials-optimus-mecca.md"
+          "materials-optimus-mecca.json"
         ],
         "zkb": {
           "kills": 748,
@@ -233,6 +233,73 @@
       "00区",
       "FRT",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:35:00Z",
+      "verdict": "娃上将的大航公开课，教三开大航投弹带偏萌新预算，偶尔上线定向扫出别人夜神的欧皇。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "自封双泰坦莽夫娃上将，满底特波色被抓狂奔外语语音求救，偶然上线多看一眼直接捡回一条夜神超旗，戏剧性拉满。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "欧服周年回忆录",
+              "url": "https://tieba.baidu.com/p/6064853777/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "精通泰坦波色与超级航母指派投弹，熟练掌握高烈度旗舰对抗与截杀技能。",
+          "sources": [
+            {
+              "label": "泰坦波色与大航进阶教学",
+              "url": "https://www.bilibili.com/video/BV14s411F7Hh/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "制作大航教学体系引导大批新人上手，具备成熟的小队特战与旗舰编队认知。",
+          "sources": [
+            {
+              "label": "采星者大航教学视频",
+              "url": "https://www.bilibili.com/video/BV1qp411Z7yT/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站‘娃上将出品’大航公开课引爆全网，评论区课代表争相补讲义，深受旗舰玩家追捧与喜爱。",
+          "sources": [
+            {
+              "label": "采星者大航教学视频",
+              "url": "https://www.bilibili.com/video/BV1qp411Z7yT/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "专注于旗舰整活与视频创作，不涉足联盟地缘政局运作，常人基准。",
+          "sources": [
+            {
+              "label": "欧服周年回忆录",
+              "url": "https://tieba.baidu.com/p/6064853777/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "名下拥有双泰坦与多艘超级航母，定向扫描直接缴获夜神超旗，旗舰资产与工业资本极其雄厚。",
+          "sources": [
+            {
+              "label": "收割斥候纪律与夜神记录",
+              "url": "https://tieba.baidu.com/p/6201112799/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

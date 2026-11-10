@@ -6,17 +6,17 @@
   "references": [
     "docs/tieba-review-2026-10-10.md",
     "src/people/guaji01/guaji01.md",
-    "src/people/guaji01/materials-guaji01.md",
+    "src/people/guaji01/materials-guaji01.json",
     "src/people/mai-shoushou/mai-shoushou.md",
-    "src/people/mai-shoushou/materials-mai-shoushou.md",
-    "src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.md"
+    "src/people/mai-shoushou/materials-mai-shoushou.json",
+    "src/people/wisi-vida-wisivada/materials-wisi-vida-wisivada.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7262587058",
-        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.md",
+        "初始引用文件": "src/people/mai-shoushou/mai-shoushou.md;src/people/mai-shoushou/materials-mai-shoushou.json",
         "首尾状态": "首尾已取",
         "接口回复数": "32",
         "主楼总页数": "1",

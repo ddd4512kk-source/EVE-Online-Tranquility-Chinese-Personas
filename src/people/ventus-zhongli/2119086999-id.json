@@ -38,7 +38,7 @@
         "id": 2115172272,
         "name": "JIU Shi",
         "sources": [
-          "materials-ventus-zhongli.md"
+          "materials-ventus-zhongli.json"
         ],
         "zkb": {
           "kills": 2591,
@@ -63,11 +63,86 @@
       "钟离",
       "钟离财团"
     ],
-    "epithet": "首星捐给联盟，门牌留给自己。",
+    "epithet": "捐楼给联盟，自己还得来上班。",
     "tags": [
       "00区",
       "D.C",
       "联盟管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:42:00Z",
+      "verdict": "龙焰联盟名副其实的地产巨鳄与实权元老，无偿捐赠联盟首星以冠家族之名，兼具千亿财富与夜总会式的浪漫幽默。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "开创钟离财团无偿捐赠联盟首星，名片广开夜总会长期招收异族舞者，动员翻译三选一落选，豪气与整活并存。",
+          "sources": [
+            {
+              "label": "角色官方名片捐赠首星与夜总会",
+              "url": "https://esi.evetech.net/latest/characters/2119086999/"
+            },
+            {
+              "label": "战前动员翻译三选一记录",
+              "url": "https://tieba.baidu.com/p/7887648672"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "开海军暴风与主力战舰深度参战X47L-Q万亿大会战、哈拉斯低安战与8F-TK3，损失在所不惜。",
+          "sources": [
+            {
+              "label": "X47L-Q参战战损档案",
+              "url": "https://zkillboard.com/kill/107823901/"
+            },
+            {
+              "label": "8F-TK3海军暴风战报",
+              "url": "https://zkillboard.com/kill/135198273/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "龙焰核心战术管理人员，参与联盟大规模战略动员与防务调度。",
+          "sources": [
+            {
+              "label": "哈拉斯战役协同记录",
+              "url": "https://zkillboard.com/character/2119086999/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "以捐赠首星冠名的豪杰风范备受联盟推崇，在管理层与基层拥趸众多。",
+          "sources": [
+            {
+              "label": "龙焰首星命名互动",
+              "url": "https://esi.evetech.net/latest/characters/2119086999/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "Dracarys联盟元老与核心决策管理层，奠定联盟首个主权星系基础的实权大佬。",
+          "sources": [
+            {
+              "label": "联盟首星无偿捐赠契约",
+              "url": "https://esi.evetech.net/latest/characters/2119086999/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "掌舵钟离财团，独资捐赠整座星系主权设施与地标建筑，个人身家巨富。",
+          "sources": [
+            {
+              "label": "名下星系地标与建筑资产",
+              "url": "https://esi.evetech.net/latest/characters/2119086999/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

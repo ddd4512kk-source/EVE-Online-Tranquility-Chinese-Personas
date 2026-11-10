@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "491401926",
   "name": "Ganguehill套索",
   "url": "https://space.bilibili.com/491401926/",
   "identity": {
     "state": "confirmed",
     "person": "taosuo",
-    "material": "src/people/taosuo/materials-taosuo.md",
+    "material": "src/people/taosuo/materials-taosuo.json",
     "label": "套司令",
     "evidence": [
       "本人任CEO的矸石山军团简介url指向此空间；21条EVE视频"
@@ -43,21 +43,21 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/taosuo/materials-taosuo.md"
+        "evidence": "src/people/taosuo/materials-taosuo.json"
       }
     },
     "prior_notes": [
       {
         "text": "UID 491401926「Ganguehill套索」，由本人军团简介 url 字段指向，已登记[账号档案](docs/bilibili/491401926.json)。2026-10-16 读空间投稿页：21个视频（2022-09-28 至 2023-02-21），全为 EVE；合集“EVE欧服静寂谷生存日记”（12集）、“FRT超旗斩！斩！斩！”（5集）；粉丝101，总播放2.2万。带 `B站` 标签。",
-        "source": "src/people/taosuo/materials-taosuo.md"
+        "source": "src/people/taosuo/materials-taosuo.json"
       },
       {
         "text": "精选范围：空间最新发布全量21条已列；读了8个视频页（BV1F8411t78w、BV1Ft4y1K7ys、BV1hG41177cH、BV1tg411a7Sf、BV1ye4y1n7i2、BV17e4y177DN、BV13t4y1N7GH、BV18R4y1v7bg），确认标题、合集、标签、简介与计数；视频画面与语音未看，推荐理由只依据页面信息与作品在合集中的位置，不作视听评价。未单独读“最多播放”排序页，按全量列表播放数排序代替。",
-        "source": "src/people/taosuo/materials-taosuo.md"
+        "source": "src/people/taosuo/materials-taosuo.json"
       },
       {
         "text": "[《FRT轻松斩冥府，完成对蜜蜂超旗4族大航4连斩》](https://www.bilibili.com/video/BV13t4y1N7GH/)：“超旗斩”合集的头一集，四族大航连斩凑齐，FRT 那一季猎旗舰的高光就收在这里。",
-        "source": "src/people/taosuo/materials-taosuo.md"
+        "source": "src/people/taosuo/materials-taosuo.json"
       }
     ],
     "listings": [
@@ -350,9 +350,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -378,10 +375,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "“超旗斩”合集的头一集，四族大航连斩凑齐，FRT 那一季猎旗舰的高光就收在这里。"
       },
       "usage": {
         "body": true,
@@ -406,9 +401,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -434,9 +426,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -462,9 +451,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -490,9 +476,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -518,9 +501,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -546,9 +526,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/taosuo/materials-taosuo.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

@@ -309,7 +309,74 @@
       "比赛",
       "AT22亚军",
       "B B C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "退出键挂门口，自己打到决赛最后一局。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "退游按钮与美好生活玩笑不算出格行为。",
+          "sources": [
+            {
+              "label": "King MYF 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115593581/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "AT22亚军实际选手，多号近万击杀及数百Solo。",
+          "sources": [
+            {
+              "label": "ATXXII 总决赛战报",
+              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "副队长承担比赛团队协调，未据此等同大战主力FC。",
+          "sources": [
+            {
+              "label": "ATXXII 总决赛战报",
+              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "竞技队内认可明确，未见大型跨圈受众。",
+          "sources": [
+            {
+              "label": "King MYF zKillboard",
+              "url": "https://zkillboard.com/character/2115593581/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "比赛副队长是局部组织协调，不套军团CEO档。",
+          "sources": [
+            {
+              "label": "DC AT22 战队名册",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "五个确认活跃号过百击杀，另有赛事稀有战备，达到A。",
+          "sources": [
+            {
+              "label": "ATXXII 总决赛战报",
+              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -319,7 +386,7 @@
         "name": "CoCoKing",
         "basis": "名字带King；2023-03-20与收录号同日进quit the game，又先后同在Antimatter Ruins You、ZERO Association等团。",
         "sources": [
-          "materials-king-myf.md#身份与待核"
+          "materials-king-myf.json#身份与待核"
         ],
         "zkb": {
           "kills": 2728,
@@ -334,7 +401,7 @@
         "name": "CoCo----King",
         "basis": "与CoCoKing同头衔“#COCO”，2024-03-19、2026-05-21两次同日进同一军团。",
         "sources": [
-          "materials-king-myf.md#身份与待核"
+          "materials-king-myf.json#身份与待核"
         ],
         "zkb": {
           "kills": 220,
@@ -349,7 +416,7 @@
         "name": "Paasio Onzo",
         "basis": "与收录号先后同在Infinity Avenger、ZERO Association、Antimatter Ruins You等团，ZERO两天内先后入团；头衔“零落”与Chipmunk OvO相同。",
         "sources": [
-          "materials-king-myf.md#身份与待核"
+          "materials-king-myf.json#身份与待核"
         ],
         "zkb": {
           "kills": 785,
@@ -364,7 +431,7 @@
         "name": "MRE 02",
         "basis": "2020至2022年紧跟收录号在同四个军团进出，Antimatter Ruins You与收录号七天内先后入团。",
         "sources": [
-          "materials-king-myf.md#身份与待核"
+          "materials-king-myf.json#身份与待核"
         ],
         "zkb": {
           "kills": 62,
@@ -379,7 +446,7 @@
         "name": "Chipmunk OvO",
         "basis": "简介与收录号同写“如何让你的生活更美好”并挂同一B站空间165728191；头衔“零落”，2024-05-07与Paasio Onzo同日进Infinity Avenger。",
         "sources": [
-          "materials-king-myf.md#身份与待核"
+          "materials-king-myf.json#身份与待核"
         ],
         "zkb": {
           "kills": 281,

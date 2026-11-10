@@ -68,7 +68,7 @@
         "id": 2120382923,
         "name": "HeimiHeimiHeimi",
         "sources": [
-          "materials-huya-heimi.md"
+          "materials-huya-heimi.json"
         ],
         "zkb": {
           "kills": 0,
@@ -100,6 +100,85 @@
       "著名FC",
       "B站",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "对外是外交官，开战还是这副嗓子。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "签名与社区玩笑不算出格行为。",
+          "sources": [
+            {
+              "label": "卡戎回忆录离团评价",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            },
+            {
+              "label": "官方论坛税制建议讨论",
+              "url": "https://forums.eveonline.com/t/finished-mass-test-on-singularity-friday-27-june-through-to-monday-the-30th/491446/34"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "八千余击杀、百余Solo并有多次旗舰战，精锐实战突出。",
+          "sources": [
+            {
+              "label": "B站第一视角战斗合集",
+              "url": "https://space.bilibili.com/457387123"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "长期PP主力FC，一百三十三个监视者日期及多场大战。",
+          "sources": [
+            {
+              "label": "zKillboard角色档案",
+              "url": "https://zkillboard.com/character/2117153585/"
+            },
+            {
+              "label": "艾格玛尔代表KM",
+              "url": "https://zkillboard.com/kill/125017351/"
+            },
+            {
+              "label": "艾格玛尔完整战报",
+              "url": "https://br.evetools.org/br/67bb19acf0ce84001159159f"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期总监、外交与带队形成跨团队稳定号召。",
+          "sources": [
+            {
+              "label": "贴吧军团声明与连顶回帖",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "大型军团长期总监兼联盟中文招募与外交核心。",
+          "sources": [
+            {
+              "label": "PP军团外交与招募公告",
+              "url": "https://esi.evetech.net/latest/characters/2117153585/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "五级任务教学和持续旗舰投入，符合PVE能手S。",
+          "sources": [
+            {
+              "label": "大航移动战报与装配",
+              "url": "https://space.bilibili.com/457387123"
+            }
+          ]
+        }
+      }
+    }
   }
 }

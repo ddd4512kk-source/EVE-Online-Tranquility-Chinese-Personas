@@ -4,7 +4,7 @@
   "url": "https://tieba.baidu.com/p/9273828491",
   "title": "蜜蜂旗下 某乡下小团fc 收割吹牛帖",
   "references": [
-    "src/people/texas/materials-texas.md",
+    "src/people/texas/materials-texas.json",
     "src/people/texas/texas.md"
   ],
   "legacy_records": [
@@ -12,7 +12,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9273828491",
-        "初始引用文件": "src/people/texas/materials-texas.md;src/people/texas/texas.md",
+        "初始引用文件": "src/people/texas/materials-texas.json;src/people/texas/texas.md",
         "首尾状态": "首尾已取",
         "接口回复数": "51",
         "主楼总页数": "2",

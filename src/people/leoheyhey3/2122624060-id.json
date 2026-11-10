@@ -48,7 +48,7 @@
         "id": 2122566259,
         "name": "leoheyhey",
         "sources": [
-          "materials-leoheyhey3.md"
+          "materials-leoheyhey3.json"
         ],
         "zkb": {
           "kills": 1268,
@@ -65,7 +65,7 @@
           "uid": "2062748139",
           "name": "129Leo",
           "sources": [
-            "materials-leoheyhey3.md"
+            "materials-leoheyhey3.json"
           ]
         }
       ]
@@ -88,6 +88,19 @@
       "00区",
       "FRT",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:54:52Z",
+      "verdict": "招新帖成了投诉窗口，他先认领总监身份；小船追人照常，售后工单也没躲。",
+      "axes": {
+        "shenren": { "tier": "C", "reason": "招聘帖里突然冒出踢团、黑站和私卖LP争议，他还得替两个团厘清谁说了什么，属于轻度社区闹剧。", "sources": [{ "label": "DSN、伏羲招新及投诉帖", "url": "https://tieba.baidu.com/p/10430077310" }] },
+        "combat": { "tier": "B", "reason": "同人两号合计两千五百余次击杀，常用网子、泡泡和黑隐小船抓人，也稳定参与旗舰与大舰队交火。", "sources": [{ "label": "Leo zKillboard", "url": "https://zkillboard.com/character/2122624060/" }, { "label": "Leo小号 zKillboard", "url": "https://zkillboard.com/character/2122566259/" }] },
+        "command": { "tier": "D", "reason": "担任军团总监并不自动等于舰队指挥；现有故事没有FC或行动调度记录，舰队维度按常规出勤记D。", "sources": [{ "label": "Leo zKillboard", "url": "https://zkillboard.com/character/2122624060/" }] },
+        "charisma": { "tier": "D", "reason": "公开接投诉、解释事件体现责任感，但没有稳定粉丝或个人号召力证据，按常人基准记D。", "sources": [{ "label": "DSN、伏羲招新及投诉帖", "url": "https://tieba.baidu.com/p/10430077310" }] },
+        "politics": { "tier": "B", "reason": "担任DSN军团总监，负责调查成员纠纷、对外回应并协调军团间争议，属于核心管理职责。", "sources": [{ "label": "DSN、伏羲招新及投诉帖", "url": "https://tieba.baidu.com/p/10430077310" }] },
+        "wealth": { "tier": "D", "reason": "多号战绩和参与击杀的战损价值不等于个人资产，未见其经营工业或筹措资源，按常人基准记D。", "sources": [{ "label": "Leo zKillboard", "url": "https://zkillboard.com/character/2122624060/" }] }
+      }
+    }
   }
 }

@@ -1,6 +1,0 @@
-
-## 补充线索（正文取材）
-- 联盟履历：2019-06-30 进 AOM，2022-01-07 离开，01-09 进 Dracarys.，01-21 进 Pandemic Horde，2025-11-20 回 Dracarys.（见 [表妹素材](../../people/fu1crum/materials-fu1crum.md)）。
-- 君越 2022-01-09 去 Taylor Heavy Industries，01-21 回大坝，2 月去 cangqiong strategic transportation，05-06 回团，此后未离开；见 [君越列传](../../p/95232784/)。
-- 君越 KB：近 300 次参与击杀、5000 多亿、损失 20 多条船；战报见 H-PA29、X47L-Q、2026 萨托加斯。
-- D-PNP9 KM 89264362（2020-12-14，41 名 AOM 攻击者），简介挂此 KM。

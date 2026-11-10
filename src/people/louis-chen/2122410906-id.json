@@ -189,6 +189,77 @@
     "tags": [
       "虫洞",
       "诈骗"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "何必严肃写在简介，欠款却得认真追。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "以借款和代刷为由洗走资产，多名团员受害。",
+          "sources": [
+            {
+              "label": "苦主帖《一个虫洞军团从组建到解散只用了26天》",
+              "url": "https://tieba.baidu.com/p/9334710527"
+            },
+            {
+              "label": "本人帖《不逃了 这次一定还清》",
+              "url": "https://tieba.baidu.com/p/9511082228"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "六百余击杀、近九十Solo，有熟练黑隐实战。",
+          "sources": [
+            {
+              "label": "Louis-CHEN 战斗记录",
+              "url": "https://zkillboard.com/character/2122410906/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "建团与欠款协调未见实战带队。",
+          "sources": [
+            {
+              "label": "苦主帖与军团经历",
+              "url": "https://tieba.baidu.com/p/9334710527"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "多名团员公开追债，未见真实拥趸抵消。",
+          "sources": [
+            {
+              "label": "苦主帖与后续还款帖",
+              "url": "https://tieba.baidu.com/p/9334710527"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际创建并运转虫洞团，失信不抹掉履职事实。",
+          "sources": [
+            {
+              "label": "Louis-CHEN 军团经历",
+              "url": "https://tieba.baidu.com/p/9334710527"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "本人参与虫洞国土刷钱，按PVE能手尺度，不把欠款当破产。",
+          "sources": [
+            {
+              "label": "本人帖《不逃了 这次一定还清》",
+              "url": "https://tieba.baidu.com/p/9511082228"
+            }
+          ]
+        }
+      }
+    }
   }
 }

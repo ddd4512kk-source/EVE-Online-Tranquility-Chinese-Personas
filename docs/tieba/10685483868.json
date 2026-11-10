@@ -4,18 +4,18 @@
   "url": "https://tieba.baidu.com/p/10685483868",
   "title": "N老板发布争议性言论",
   "references": [
-    "docs/leads/tieba-short-disputes-replies.md",
-    "docs/sources/noraus-ray-dispute-2026-05.md",
-    "src/people/noraus/materials-noraus.md",
+    "docs/leads/tieba-short-disputes-replies.json",
+    "docs/sources/noraus-ray-dispute-2026-05.json",
+    "src/people/noraus/materials-noraus.json",
     "src/people/noraus/noraus.md",
-    "src/people/silvitni/materials-silvitni.md"
+    "src/people/silvitni/materials-silvitni.json"
   ],
   "legacy_records": [
     {
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "10685483868",
-        "初始引用文件": "src/people/noraus/materials-noraus.md;src/people/noraus/noraus.md",
+        "初始引用文件": "src/people/noraus/materials-noraus.json;src/people/noraus/noraus.md",
         "首尾状态": "首尾已取",
         "接口回复数": "21",
         "主楼总页数": "1",

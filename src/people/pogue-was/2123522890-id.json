@@ -45,7 +45,86 @@
       "脚本",
       "诈骗",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T02:05:00Z",
+      "verdict": "合同栏里摆过诈骗摊，直播间里接着教抓人；旧号封了，招牌还在。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "合同骗局和脚本产出连成一门生意，账号封禁后又换号开张；“刚起步”的那个人，已经把旧账带来了。",
+          "sources": [
+            {
+              "label": "《00地区新型骗术》",
+              "url": "https://tieba.baidu.com/p/6060269351"
+            },
+            {
+              "label": "本人回归与封号帖",
+              "url": "https://tieba.baidu.com/p/6523005707"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "旧号有2174次击杀、112次单杀，常年以塞纳波配置收割；战斗履历扎实，尚未到持续顶尖的档位。",
+          "sources": [
+            {
+              "label": "pogue 'was zKillboard",
+              "url": "https://zkillboard.com/character/2119468347/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "长期组织并带领游击与挺针收割小队，带队抓人与吃无畏履历明确；缺乏大型联盟舰队指挥记录，统御定骨干 B。",
+          "sources": [
+            {
+              "label": "挺针鉴宝吃无畏视频",
+              "url": "https://www.bilibili.com/video/BV1eYVpzKEPa/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "从早年配装讨论到持续的B站教学与战斗作品，有老粉、新人和对手长期跟帖互动；争议与播放量本身不另算魅力分。",
+          "sources": [
+            {
+              "label": "2012年塞纳波配置讨论",
+              "url": "https://tieba.baidu.com/p/1032055714"
+            },
+            {
+              "label": "00地区抓人教学",
+              "url": "https://www.bilibili.com/video/BV1dkk2BbEwr/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "远征脚本、私群与规则争议体现局部利益操作，未达到军团核心治理。",
+          "sources": [
+            {
+              "label": "FRT远征生意与联盟拉黑记录",
+              "url": "https://tieba.baidu.com/p/10356363007"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "自报四百余亿相关收入并持续经营合同生意，支持大额个人经营，未到资产巨擘。",
+          "sources": [
+            {
+              "label": "本人回归与封号帖",
+              "url": "https://tieba.baidu.com/p/6523005707"
+            },
+            {
+              "label": "《00地区新型骗术》",
+              "url": "https://tieba.baidu.com/p/6060269351"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -55,7 +134,7 @@
         "name": "Pogue was",
         "basis": "2019 年本人自报欧服名；2020 年本人写明该旧号已永封，ESI 精确名查询对应此 ID。",
         "sources": [
-          "materials-pogue-was.md#欧服角色沿革与封禁依据"
+          "materials-pogue-was.json#欧服角色沿革与封禁依据"
         ],
         "zkb": {
           "kills": 1640,
@@ -70,7 +149,7 @@
         "name": "pogue 'was",
         "basis": "2021 年创建；波哥后续使用的第二个收割号，2025 年因脚本、作弊被官方永久封禁。",
         "sources": [
-          "materials-pogue-was.md#欧服角色沿革与封禁依据"
+          "materials-pogue-was.json#欧服角色沿革与封禁依据"
         ],
         "zkb": {
           "kills": 2174,

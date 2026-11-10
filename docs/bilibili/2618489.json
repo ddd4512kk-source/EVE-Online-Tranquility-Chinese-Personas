@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "2618489",
   "name": "Bateau",
   "url": "https://space.bilibili.com/2618489/",
   "identity": {
     "state": "confirmed",
     "person": "noraus",
-    "material": "src/people/noraus/materials-noraus.md",
+    "material": "src/people/noraus/materials-noraus.json",
     "label": "N老板",
     "evidence": [
       "已归本人；曼努尔视频BV1q44y1p7cS评论区；2018年投稿《Total damage received:39966 南华麻烦你学习一下》"
@@ -38,7 +38,7 @@
     "prior_notes": [
       {
         "text": "缺口：winterco.org 公众号最新文章止于 2026-04-09，无 Fanfest 总结；凛冬论坛 search.json 搜“冰岛”报参数错误，未查。总结原文仅见截图转载。",
-        "source": "src/people/noraus/materials-noraus.md"
+        "source": "src/people/noraus/materials-noraus.json"
       }
     ],
     "tag_review": {

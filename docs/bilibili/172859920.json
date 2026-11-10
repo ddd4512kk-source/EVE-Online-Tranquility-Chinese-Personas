@@ -1,27 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "172859920",
   "name": "EVE曼努尔",
   "url": "https://space.bilibili.com/172859920/",
   "identity": {
     "state": "confirmed",
     "person": "manuer",
-    "material": "src/people/manuer/materials-manuer.md",
+    "material": "src/people/manuer/materials-manuer.json",
     "label": "曼努尔",
     "evidence": [
       "角色简介首行挂此主页"
     ],
     "related": [
       {
-        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md",
+        "material": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+        "material": "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "material": "src/battles/obe-2026/materials-obe-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -45,25 +45,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/manuer/materials-manuer.md"
+        "evidence": "src/people/manuer/materials-manuer.json"
       }
     },
     "prior_notes": [
       {
         "text": "## B 站（UID 172859920，粉丝 602，投稿 71，签名“专心工作，暂不接广，只作视频，不看私信，剪辑只是兴趣，更新全看心情”）",
-        "source": "src/people/manuer/materials-manuer.md"
+        "source": "src/people/manuer/materials-manuer.json"
       },
       {
         "text": "[本人空间UID172859920](https://space.bilibili.com/172859920/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/manuer/materials-manuer.md"
+        "source": "src/people/manuer/materials-manuer.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/manuer/materials-manuer.md"
+        "source": "src/people/manuer/materials-manuer.json"
       },
       {
         "text": "沿已核UID172859920空间最新／最多播放各42条、选中排序续查。合集页另读：EVE故事集18、整活12、短视频3，每组可见最多6条，未逐组翻页。新读取泰坦续篇、防御泡教学、重拦作战针三篇简介及46个可见主评论线程，另复用原“卖家秀”“空间站”“泰坦不要觉得能抗”已吸收文字、N老板勒维亚坦14线程缓存，不重扫这些成功来源。未读影像、声音、字幕／转录；简介与热评提供具体内容，但不据热评评分剪辑画质。本人owner均为UID172859920，单看owner不认所有船为本人驾驶或所有素材为本人原创。",
-        "source": "src/people/manuer/materials-manuer.md"
+        "source": "src/people/manuer/materials-manuer.json"
       }
     ],
     "listings": [
@@ -599,22 +599,20 @@
       "url": "https://www.bilibili.com/video/BV1BDp76rEbh/",
       "owner_uid": "172859920",
       "published_at": "2026-10-11T11:17:51.000Z",
-      "captured_at": "2026-10-24T07:08:33.202Z",
+      "captured_at": "2026-11-08T10:37:43.000Z",
       "description": "-",
       "stats": {
-        "views": 11317,
-        "replies": 173
+        "views": 13568,
+        "replies": 182
       },
       "credit": {
         "state": "unreviewed",
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "读取作品简介（无正文）及3个可见主评论线程和其展开回复；未翻页，未读影像、声音或字幕。评论提及的战损、舰船损失与组织决策均未独立核验。",
+        "digest": "></a>\n- [BV1BDp76rEbh](https://www.bilibili.com/video/BV1BDp76rEbh/)：简介为空。可见评论围绕标题所称欧贝泰坦战的损失规模、征服者被抓后的位置选择，以及有人下班赶回家参战展开；这些是评论者说法。热评称UP补过Snuff众筹补损的事，但当前页面样本未显示这句原话，本轮不将其记作已核的作者观点，也未核标题战损数字。"
       },
       "usage": {
         "body": false,
@@ -627,23 +625,20 @@
       "url": "https://www.bilibili.com/video/BV1PNpg6FEHH/",
       "owner_uid": "172859920",
       "published_at": "2026-10-10T11:24:11.000Z",
-      "captured_at": "2026-10-22T09:34:08.359Z",
+      "captured_at": "2026-11-08T10:37:43.000Z",
       "description": "",
       "stats": {
-        "views": 17540,
-        "replies": 338
+        "views": 19406,
+        "replies": 346
       },
       "credit": {
         "state": "unreviewed",
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md",
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "读取作品简介（空）及3个可见主评论线程和其展开回复；未翻页，未读影像、声音或字幕。动员、历史战例和损失说法均为评论者观点，未独立核验。",
+        "digest": "></a>\n- [BV1PNpg6FEHH](https://www.bilibili.com/video/BV1PNpg6FEHH/)：简介为空。评论拿FRT、BBC和此前征服者战事互相比较，有NC玩家回忆Discord连环ping和指挥语气，也有人提醒不要拉踩；有关调动、历史战损和当前组织态势都属于评论者叙述，未作独立核查。"
       },
       "usage": {
         "body": false,
@@ -667,11 +662,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有泰坦续篇摘要与20个主评论线程；未重读作品影像。",
+        "digest": "- [泰坦续篇 BV1hpbp6oEkf](https://www.bilibili.com/video/BV1hpbp6oEkf/)：简介“-”，20主线程；作者置顶给大航篇与原版入口。心风岚问如何把泰坦放进站，作者答个人资产右键资产安全、20天移往近低安站，泰坦／大航也能移，但出站就不能进；这是2026-09作者公开解释，不作为当前机制操作保证。Murphy_eve问UP怎么每族泰坦都有，不能据这句认定他真拥有全部船型。评论中世界观空间压缩说法不写，未把原版“测试服”自动套到续篇；续篇实际录制服务器未核，只写公开问答。新“空间站笑话还要售后”故事入文并精选。"
       },
       "usage": {
         "body": false,
@@ -695,11 +688,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有防御泡泡教学简介及6个可见主评论线程摘要；未读影像、声音或字幕。",
+        "digest": "- [防御泡 BV1ayAne5E3W](https://www.bilibili.com/video/BV1ayAne5E3W/)：简介仅新人营及KM `116488310`，6主线程。NoSep补小泡泡、ping点封锁思路，UP点赞不等于本人原话；两条留言称录像隔近一年才发，不能把2025-02投稿日期当战斗发生日。本次未取KM、不认本人具体驾驶／指挥。未入精选：文字主要是第三方操作补充，作者内容说明不足；留作旧录像教学候选，不判差。\n\n[防御泡篇](https://www.bilibili.com/video/BV1ayAne5E3W/)简介明确把[116488310](https://zkillboard.com/kill/116488310/)称为“大鱼击杀报告”。2026-10-18核该KM后，另用一次导航展开“List all pilots”，取得68名攻击者：Enterprise Tadaruwa（2113208414）驾驶Eris／厄里斯，战时Foredawn Business Corporation／Fraternity.，本人角色直接命中，不再等待画面认船。"
       },
       "usage": {
         "body": true,
@@ -723,11 +714,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有作战针教学简介及20个可见主评论线程摘要；未读影像、声音或字幕。",
+        "digest": "- [重拦作战针 BV1EKC8YYES1](https://www.bilibili.com/video/BV1EKC8YYES1/)：20主线程，简介给KM `89282773`、新人营。作者置顶配置仅参考、CPU极限，答阔刀如何装作战针和注电时说塞3个CPU；分屏工具答EVE-O Preview。冰雪丶Ice自报诱导Misaka0001、没想到还有人存录像；机票--自称苦主、说“吃一屎长一智”，未核这两人的角色ID／战斗职责，不给他们另添列传或把损失归UP。Tallias_Vija在2025年说重拦可带白诱导，是后续评论者机制说法，不补作2024年原操作。新旧录像与答疑故事入文并精选。\n\n- [《为什么我说重拦一定要带作战针》](https://www.bilibili.com/video/BV1EKC8YYES1/)：配装CPU、分屏工具与当事人认领在评论里接上，适合把故事与作者的具体答疑一起读。"
       },
       "usage": {
         "body": true,
@@ -740,10 +729,10 @@
       "url": "https://www.bilibili.com/video/BV1MAzoY1ENs/",
       "owner_uid": "172859920",
       "published_at": "2024-12-01T08:30:35.000Z",
-      "captured_at": "2026-10-22T09:27:33.071Z",
+      "captured_at": "2026-11-08T10:37:43.000Z",
       "description": "EVE欧服-FBC军团新人成长营\n[联系方式略]\n\n背景音乐:\nTriumph-neurotech\n\n战损一览：\nhttps://br.evetools.org/related/30000294/202411291300",
       "stats": {
-        "views": 13756,
+        "views": 14127,
         "replies": 121
       },
       "credit": {
@@ -751,12 +740,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md",
-          "src/battles/1n-fj8-2024/materials-1n-fj8-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "读取简介及3个可见主评论线程和其展开回复；未翻页、未打开战损报告，未读影像、声音或字幕。对值班、诱导船及FC处置的看法来自评论者。",
+        "digest": "></a>\n- [BV1MAzoY1ENs](https://www.bilibili.com/video/BV1MAzoY1ENs/)：简介列新人营招募入口、背景音乐和一条战报链接。评论围绕被抓长须鲸未在舰队诱导、值守时间、是否应当救援，以及FC在语音里的用词争论；各人描述和评价彼此不同，未据此判定当时指挥责任或战斗经过，战报链接未在本轮打开。"
       },
       "usage": {
         "body": false,
@@ -780,11 +766,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有五毛钱事件评论摘要；热评叙述仅作评论观点，不作独立事实证明。",
+        "digest": "- BV1q44y1p7cS《那一晚，N老板失去了5毛钱》2022-01-29，播放 15127，评论 15。热评：梨花落后清明雨（53）讲突围后交换比；一只_炒鸡（28）“@Bateau 给钱”，楼中楼“noraus：dsb,dsb！（超大声）”；Methyl_ovo“你们有谁看到我的勒维亚坦了？.jpg”。"
       },
       "usage": {
         "body": false,
@@ -809,11 +793,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md",
-          "src/battles/a1-auh-2021/materials-a1-auh-2021.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "复用曼努尔素材已有完整投稿标题与简介调查记录：2021-09-18发布，原简介BR6144a372874be8002b6a78cd明确对应2021-09-17 A1-AUH。本轮未另取视频页，不评价剪辑质量或声称观看影像。\n\n（EVE曼努尔）：围绕AOM超旗损失整理的“烟花纯享版”，原简介所附战报对应9月17日的A1-AUH会战。"
       },
       "usage": {
         "body": false,
@@ -837,11 +818,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有空间站整活摘要与创作者置顶评论记录；未重读作品影像。",
+        "digest": "- BV1xX4y1G7nG《空间站无法承受之重》2021-03-23，简介“测试服”，播放 82959。UP 置顶：“2026更新，不知不觉都5年了 泰坦篇：BV1hpbp6oEkf 大航篇(含大便干燥级)：BV1Ldbp6NELN”。热评：“是归魂就完美了”（431）→ 楼中楼“大 便 干 燥”；“哟哟哟 这不是空间站吗 几天没见 这么能拉了”（297）；“空间站那么小居然能拉出来这么大，不科学”（214）。续作泰坦篇 2026-09-06 播放 23725，大航篇 5960。\n\n- [《空间站无法承受之重》](https://www.bilibili.com/video/BV1xX4y1G7nG/)：明确标为测试服，作者五年后还置顶续篇入口；测试服也能给观众攒出一个接了多年的老梗。"
       },
       "usage": {
         "body": false,
@@ -865,11 +844,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有作品内容与评论摘要；摘要范围、作者回复及未经证实的评论归因以素材原文为准。",
+        "digest": "- BV1Ny4y1J7yi《【EVE】卖家秀和买家秀》2021-02-10，播放 169389，评论 148。热评：Villers-G（赞 999）“满编舰队帅气的摆出了多层雁行阵，落地发现后勤离自己70km”；pal1101（赞 726）“气势磅礴的太空游戏 （X） word里Excel制表 （√）”；fitzroywang（赞 479）“列阵越迁一时爽，后勤摇修火葬场”。\n\n- [《卖家秀和买家秀》](https://www.bilibili.com/video/BV1Ny4y1J7yi/)：雁行阵与落地找后勤的反差，被观众一句话点透，能读到曼努尔怎样把会战日常做成全圈都懂的笑话。"
       },
       "usage": {
         "body": false,
@@ -893,11 +870,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/manuer/materials-manuer.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "复用人物素材中已有勒维亚坦损失故事摘要与14个主评论线程；不据此独立确认评论中的事件归因。",
+        "digest": "简介附KM 89452535，称第二天在铁壁挂机被撞出去白给，“qq群里充满了欢乐的气息”。这是UP对事故的转述；页面总评论数18，未读。\n\n简介附损失KM并叙挂机被撞事故，是他长期记录老板翻车的代表；老板翻车，曼努尔的频道又添一集。"
       },
       "usage": {
         "body": false,

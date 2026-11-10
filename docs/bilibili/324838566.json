@@ -1,31 +1,31 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "324838566",
   "name": "Freak_03",
   "url": "https://space.bilibili.com/324838566/",
   "identity": {
     "state": "confirmed",
     "person": "freak-03",
-    "material": "src/people/freak-03/materials-freak-03.md",
+    "material": "src/people/freak-03/materials-freak-03.json",
     "label": "Freak",
     "evidence": [
       "同名，凛冬论坛同名"
     ],
     "related": [
       {
-        "material": "src/battles/4-abs8-2023/materials-4-abs8-2023.md",
+        "material": "src/battles/4-abs8-2023/materials-4-abs8-2023.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+        "material": "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "material": "src/battles/atioth-2026/materials-atioth-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/obe-2026/materials-obe-2026.md",
+        "material": "src/battles/obe-2026/materials-obe-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -60,41 +60,41 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/freak-03/materials-freak-03.md"
+        "evidence": "src/people/freak-03/materials-freak-03.json"
       }
     },
     "prior_notes": [
       {
         "text": "2020-03-16 [零花钱SRP的规定](https://forums.winterco.org/t/topic/3867/3)：“最新的零花钱补损 是船体价格的40% 一个月1B”。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "空间UID324838566，简介自称“EVE星战前夜 欧服 Frt联盟旗下F1小战士”；显示241个视频、4篇图文、4个合集／系列。最新发布第1页与最多播放第1页各42个作品已读；最多播放的选中态已核，尚未翻其他页、逐个打开合集。UP身份和超过5个EVE视频的依据充分；作品未读完不影响B站标签。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "最多播放前三：《goons50+大鱼团灭，泰坦救援视角》BV1wJ411i7pi（2019-12-05，约3.8万）、《Winterco泰坦舰队移动》BV1Ng4y1b7Cu（2023-03-11，约1.7万）、《泰坦手滑jump进场，紧急救援》BV1Qy411a7yP（约1.5万）。旧“手滑篇播放最高”的说法仅来自最新投稿首页，已纠正；不能沿用为频道排名。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "### 最多播放前两条补读",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "本轮共80个新增主评论线程（首批45＋最多播放前两条35），旧2线程不重计。最终精选3条；前两排序各只读第1页，合集具体分组及其余历史页仍待查。频道最多播放不等于本人原创最高播放。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "沿最多播放首页继续读两个已知作品，新增40个主评论线程及可见回复；未翻页／展开楼中楼，未看影像、字幕或音频。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "复用前批已读《有仇必报》作者置顶及回复，以spy争议与阵营对线这一鲜明内容入精选；加ABZ篇后共5条。不选钓鱼篇不等于否定其影像质量。频道其余历史页与合集仍未全读，但本轮精选已补足5个，不再因名额继续扩读。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       },
       {
         "text": "代表签名：[KM 125016728](https://zkillboard.com/kill/125016728/)。",
-        "source": "src/people/freak-03/materials-freak-03.md"
+        "source": "src/people/freak-03/materials-freak-03.json"
       }
     ],
     "listings": [
@@ -2032,10 +2032,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/obe-2026/materials-obe-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（Freak_03）：Freak的九开泰坦作品，标题直指为救征服者不断加码的Snuff；与另一侧泰坦阵亡记录对照。"
       },
       "usage": {
         "body": false,
@@ -2060,10 +2058,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（Freak_03）：4月8日发布的艾蒂斯泰坦参战作品，标题直称“泰坦爽射”，补充本场大型舰船一侧的记录。"
       },
       "usage": {
         "body": false,
@@ -2076,10 +2072,10 @@
       "url": "https://www.bilibili.com/video/BV1MNDqBGEF8/",
       "owner_uid": "324838566",
       "published_at": "2026-04-07T13:29:32.000Z",
-      "captured_at": "2026-10-24T07:00:01.345Z",
+      "captured_at": "2026-11-08T10:30:48.000Z",
       "description": "",
       "stats": {
-        "views": 5449,
+        "views": 5466,
         "replies": 35
       },
       "credit": {
@@ -2087,12 +2083,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md",
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介为空；已读首屏返回的3个主评论线程及其中显示的2条回复；未翻页、未展开未显示回复，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介为空。首屏返回3条主评论；其中“战报”楼显示2条回复。白子-official说“从隔壁拷贝来的”；帝企鹅X_ivy提到战报，楼中两名观众讨论PL人数与帝国损失；Metis_01另提4月28日击杀掉线星城。页面没有Freak的作者回应。这些是评论者说法，未核战报，也无法确认其是否对应视频所述泰坦；不据此补写事件过程或归属。未翻页、未展开未显示回复，未看影像、字幕或音频。"
       },
       "usage": {
         "body": true,
@@ -2116,11 +2110,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介仅BGM；已读2个主评论线程与其中可见回复，另有8条提示未展开；未翻页，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "2025-04-29，7218，简介仅 BGM；内容未读（B 站视频接口 412），勒维亚坦归属未核。\n\n作者Freak_03（324838566），简介仅BGM，页面总评论数70；标题里的勒维亚坦归属仍须影像或评论核对。"
       },
       "usage": {
         "body": true,
@@ -2144,11 +2137,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介BGM；已读11个主评论线程；未翻页、未展开楼中楼，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介BGM，11个主评论线程已读。观众问是否截击视角，笑UP划水，多人围绕不带电池、电容不足打趣；舰船、驾驶员、具体损失仍未对应。不拿标题认定Freak被群殴或本人丢船。"
       },
       "usage": {
         "body": true,
@@ -2172,11 +2164,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介BGM；已读14个主评论线程及直接显示回复；未翻页、未展开楼中楼，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "简介BGM，14个主评论线程及直接显示回复已读。Freak置顶回应DC成员对spy的批评，反指DC曾用蓝星轻拦spy抓FRT EN大航；在回复中重复这一说法。观众猜测敌对黑隐同跳固定诱导与间谍导管有关，尚无具体角色对应。另有两位观众笑他没修超载装备就出站。可补双方游戏间谍手法争议，不把观众猜测写成已核机制或台风本人经历。\n\n想看北军战报如何变成阵营对线，可以从这条的作者置顶读起。Freak回应DC成员对使用spy的批评，反问对方此前抓FRT EN大航时，蓝星轻拦的泡泡是谁打的。战报把损失挂在标题，置顶则把“你们以前也这么干”的旧账摊开；比单纯看战果，更能认识他的嘴上功夫。"
       },
       "usage": {
         "body": true,
@@ -2200,11 +2191,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介BGM；已读20个主评论线程；未翻页、未展开楼中楼，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [《泰坦手滑jump进场，紧急救援》](https://www.bilibili.com/video/BV1Qy411a7yP/)：简介BGM，20个主评论线程已读。DF54321称友军娜迦法在救援中损失；西行寺幽灵子自称后续救援队，抱怨无畏／FAX准备好后未及时开诱导；另有观众称SYN两条海凤凰跑掉。均为评论者说法，不能据此认定Freak负责指挥、手滑或友军损失。推荐理由可写评论展现的救援混乱，不评价未看的画面与剪辑。\n\n- [《泰坦手滑jump进场，紧急救援》](https://www.bilibili.com/video/BV1Qy411a7yP/)：推荐从这条认识他的战地录像。标题里的手滑把救援队也卷了进来，观众DF54321抱怨搭进去友军娜迦法，另有自称后续救援队成员的观众埋怨迟迟不开诱导。比起一串战损数字，这些不同位置的抱怨更能带出救场的混乱；有人在评论里干脆叫它“泰坦打窝”。"
       },
       "usage": {
         "body": true,
@@ -2228,11 +2218,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介BGM并列总战损；已读20个主评论线程；未翻页、未展开楼中楼，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [《无畏钓鱼？直接把你鱼竿打断》](https://www.bilibili.com/video/BV1Tf421d7tf/)：6367播放、46评论，简介BGM与总战损44B；20个主线程已读。Freak答事件时间是“前几天上午”，并对回坑者招呼加入FRT系军团。观众讨论Kikimora与猛鲑／轻快舰队应对，也有笑UP没抢到KM；不据玩梗认定本人未参战或贡献。文字内容主要是配队闲谈，较已选作品缺少作者展开的事件叙述，本轮不入精选，材料保留。"
       },
       "usage": {
         "body": false,
@@ -2256,12 +2245,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md",
-          "src/battles/ahbazon-2024/materials-ahbazon-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读20个主评论线程；未翻页、未展开楼中楼，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [《7分钟速览ABZ千艘无畏对轰战斗》](https://www.bilibili.com/video/BV1jf421U74Q/)：8918播放、72评论；20个主线程已读。Freak置顶自称“欧服第二大无畏海战斗”，列北京时间7点集结、8点铁壁结构出增强，攻守合计投入1489艘无畏、击毁484艘；进攻panfam＋WC＋DW，2764角色、969无畏；防守帝国系＋INIT，2166角色、520无畏；称FRT美洲时区投入300余无畏。排名及统计均为作者说法，不另立为已核BR数据。观众有早起集结、时间膨胀体验、捡残骸及称赞压缩长战斗的评论。以置顶提供清楚的交战背景、双方编组和规模说明入精选，不凭观众夸剪辑评价未看影像。"
       },
       "usage": {
         "body": false,
@@ -2285,11 +2272,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介BGM；评论恢复后已读20个已加载主评论线程与直接显示回复；未翻页，未展开折叠回复，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [《打穿蜜蜂黑影保护伞，600B损失》](https://www.bilibili.com/video/BV1o4421w7of/)：简介仅BGM；4487播放、47条评论，评论正文未加载。只留候选，不因标题金额和播放量入精选。\n\n[打穿蜜蜂黑影保护伞，600B损失](https://www.bilibili.com/video/BV1o4421w7of/)此前评论加载失败；本次一次导航恢复，公开作者为Freak_03／324838566，4492播放、47评论，实际读20个已加载主线程及直接显示回复。简介仍只有BGM，没有联合制作署名；五条精选保持。"
       },
       "usage": {
         "body": true,
@@ -2314,9 +2300,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-abs8-2023/materials-4-abs8-2023.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2342,10 +2325,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-abs8-2023/materials-4-abs8-2023.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（Freak_03）：4-ABS8无畏会战的电影模式作品；原简介附英文原片入口，可与双方实战记录对照。"
       },
       "usage": {
         "body": false,
@@ -2370,7 +2351,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -2395,11 +2375,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "简介为空；已读20个主评论线程及直接显示回复；未翻页、未展开楼中楼，未看影像、字幕或音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [《Winterco泰坦舰队移动》](https://www.bilibili.com/video/BV1Ng4y1b7Cu/)：17489播放，简介空，20个主评论线程及显示回复已读。Freak置顶自述：此前O-B iHub争夺已移动过超旗泰坦，自己3艘泰坦提前到位，本次再移超过300艘，后两天继续；回复强调此前有人未搬回，实际到位数量更多。观众有复活参战、催帝国推进、质疑数量等反应；不将网友仿N老板的台词认作真实指挥录音。本人三泰坦部署自述入文；作品精选推荐基于这段部署文字，不评价未看影像。\n\n- [《Winterco泰坦舰队移动》](https://www.bilibili.com/video/BV1Ng4y1b7Cu/)：推荐连作者置顶和答疑一起读。舰队数量的热闹之外，他交代了前后两轮部署，还自报三艘泰坦提前到位；最能把空间简介里的“F1小战士”和他实际的游戏生活接起来。"
       },
       "usage": {
         "body": true,
@@ -2423,11 +2402,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/freak-03/materials-freak-03.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "已读15个主评论线程及直接显示回复；未翻页、未展开楼中楼，未看YouTube原片或B站影像、字幕、音频。",
+        "reviewed_at": "2026-11-08",
+        "digest": "- [《goons50+大鱼团灭，泰坦救援视角》](https://www.bilibili.com/video/BV1wJ411i7pi/)：38095播放，简介只有YouTube来源 https://www.youtube.com/watch?v=7wfAOCpDbfw ，分P原题“The Sinking of the Locusttina (2019 Colourised)”。15个主评论线程及显示回复已读，观众给出战报 https://zkillboard.com/related/30004638/201912011800/ ，有人估大鱼损失416.8B（仅评论者说法，战报未读）。Freak答疑称片中使用单体末日，不无差别攻击。来源显示外部视频入口，原创作者、视角驾驶员与Freak参战关系未核；暂不当本人原创代表作或本人泰坦救援经历，不入精选。不打开或观看YouTube影像。"
       },
       "usage": {
         "body": true,

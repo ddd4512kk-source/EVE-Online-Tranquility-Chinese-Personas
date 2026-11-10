@@ -4,11 +4,11 @@
   "url": "https://tieba.baidu.com/p/9370294182",
   "title": "叶落星海2025年新春招新开启了！福利爆炸！",
   "references": [
-    "docs/leads/tieba-yeluo-replies.md",
-    "src/people/huajianxiao/materials-huajianxiao.md",
-    "src/people/sk-mmmm/materials-sk-mmmm.md",
+    "docs/leads/tieba-yeluo-replies.json",
+    "src/people/huajianxiao/materials-huajianxiao.json",
+    "src/people/sk-mmmm/materials-sk-mmmm.json",
     "src/people/sk-mmmm/sk-mmmm.md",
-    "src/people/titan-acrad/materials-titan-acrad.md",
+    "src/people/titan-acrad/materials-titan-acrad.json",
     "src/people/titan-acrad/titan-acrad.md"
   ],
   "legacy_records": [
@@ -16,7 +16,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "9370294182",
-        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.md;src/people/sk-mmmm/sk-mmmm.md",
+        "初始引用文件": "src/people/sk-mmmm/materials-sk-mmmm.json;src/people/sk-mmmm/sk-mmmm.md",
         "首尾状态": "首尾已取",
         "接口回复数": "351",
         "主楼总页数": "12",

@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "54969171",
   "name": "银色汤勺",
   "url": "https://space.bilibili.com/54969171/",
   "identity": {
     "state": "confirmed",
     "person": "mc-jiaming",
-    "material": "src/people/mc-jiaming/materials-mc-jiaming.md",
+    "material": "src/people/mc-jiaming/materials-mc-jiaming.json",
     "label": "银色汤勺",
     "evidence": [
       "本人回应视频"
     ],
     "related": [
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       },
       {
-        "material": "src/battles/atioth-2026/materials-atioth-2026.md",
+        "material": "src/battles/atioth-2026/materials-atioth-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -41,25 +41,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/mc-jiaming/materials-mc-jiaming.md"
+        "evidence": "src/people/mc-jiaming/materials-mc-jiaming.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID54969171](https://space.bilibili.com/54969171/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/mc-jiaming/materials-mc-jiaming.md"
+        "source": "src/people/mc-jiaming/materials-mc-jiaming.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/mc-jiaming/materials-mc-jiaming.md"
+        "source": "src/people/mc-jiaming/materials-mc-jiaming.json"
       },
       {
         "text": "复用空间最新／最多播放、系列入口后，本轮新读4篇简介与80个主评论线程及可见回复，复用2022回应页已读置顶。未看影像、字幕或音频，未展开全部回复；作品中的指挥、救援与战果不能直接归上传者。",
-        "source": "src/people/mc-jiaming/materials-mc-jiaming.md"
+        "source": "src/people/mc-jiaming/materials-mc-jiaming.json"
       },
       {
         "text": "以上4篇加[2022回应页](https://www.bilibili.com/video/BV1Cg411s7ik/)共5条入精选，优先作者特色、阵营争论、传播与新人接待；理由不评价未看音画。第五篇按既有年份与回应主题标识，没有重造未保存的原题。最多播放的晚间钢板等其余候选、历史分页与折叠回复仍未读，不判质量不足。旧回应、创作主线、KB及两场已核战役保留。",
-        "source": "src/people/mc-jiaming/materials-mc-jiaming.md"
+        "source": "src/people/mc-jiaming/materials-mc-jiaming.json"
       }
     ],
     "listings": [
@@ -1405,7 +1405,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1430,9 +1429,9 @@
         "team": []
       },
       "reading": {
-        "state": "captured",
-        "material_refs": [],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-11-08读作品页简介、1页3个高赞主评论线程及可见回复；未翻页或展开其他楼层，未读影像、音轨、字幕；标题与评论中的33艘泰坦及补偿说法未独立核实。",
+        "digest": "></a>\n- [BV1pPjc67ELe](https://www.bilibili.com/video/BV1pPjc67ELe/)：简介称战争结束后凛冬将至逐步收复失地，并招募新人。可见评论谈新人进入EVE后缺少即时反馈、成长慢，作者称难忘记忆是游戏的重要正反馈；另一楼问凛冬对外宣传，作者说自己会向外界讲华人社区故事。圈外观众追问泰坦损失代价，作者解释其观点，但标题及评论中的战损与补偿规模本轮未独立核实。"
       },
       "usage": {
         "body": false,
@@ -1456,11 +1455,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mc-jiaming/materials-mc-jiaming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-16读作品简介、本人公开文字与20个已加载主评论线程及可见回复；不以标题代替战报，不采纳未经核实的评论指控。",
+        "digest": "></a>\n- [BV1dUL36AEcz](https://www.bilibili.com/video/BV1dUL36AEcz/)：简介是本人对2026年战争一个半月时战线僵持的评价，不能替代BR。他向新人劝先玩两个月熟悉再考虑泰坦；回应游戏炒爱国情绪，称不同国家玩家存在时不会停，“我们也是老外也是”；面对华人内战抱怨，反对强行团结所有中国人，主张按同目标、理想团结。新增作者说法入文；评论中开发商串通、某高层为员工、歧视性泛论不作本次事实，不据标题杜撰原始辱骂者身份与战果。"
       },
       "usage": {
         "body": true,
@@ -1484,11 +1481,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-24复用战役素材所记作品简介、可辨评论和作者回应；具体评论线程数未留存，战术评价未当作核实事实，未读影像、音轨、字幕。",
+        "digest": "（UID 54969171，2026-04-27 12:24:04 UTC）：在本场后两天发布。简介主要为军团招新，没有BR；评论可辨讨论本次装甲防御、帝国受阻与隐轰牵制。作者回应守方局势及首都星城问题，延续前一作品的本方战况更新。按日期、话题与上下篇归属列入，不要求标题写“4-H”；不把评论的战术评价写成事实。"
       },
       "usage": {
         "body": false,
@@ -1512,11 +1507,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-24复用战役素材所记作品简介和可辨作者回复、评论；具体评论线程数未留存，未读影像、音轨、字幕。",
+        "digest": "（UID 54969171，2026-04-25 10:42:14 UTC）：与本场同日发布；简介主动说明标题和封面为了渲染氛围，没有字面上那么夸张。作者回应评论称帝国跳过外围星系直接打4-H，另以“我们”回应狂怒打法来源；结合本页已存的银色汤勺 STARCHASER／FRT 战时KM135011258，归为守方自己的动员作品，不据当下军团倒推。标题没有星系名仍成立关联。没有附BR。\n\n（银色汤勺）：凛冬守方的战前动员。作者在简介解释“无路可退”是渲染氛围的标题，评论回应帝国越过外围、直取4-H的进攻。"
       },
       "usage": {
         "body": false,
@@ -1541,10 +1534,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/atioth-2026/materials-atioth-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "（银色汤勺）：会战结束后发布的中文回顾，作者以凛冬华人社区的口吻邀请新人参与战争；与双方现场记录一起了解这场万人会战。"
       },
       "usage": {
         "body": false,
@@ -1568,9 +1559,9 @@
         "team": []
       },
       "reading": {
-        "state": "captured",
-        "material_refs": [],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-11-08读作品页简介、1页3个主评论线程及可见回复；未翻页或展开其他楼层，未读影像、音轨、字幕；评论为受众经历，不能验证标题的中外玩家比较。",
+        "digest": "></a>\n- [BV1hFxvzhEFk](https://www.bilibili.com/video/BV1hFxvzhEFk/)：简介提供国服Steam下载与军团招新入口。可见评论有玩笑接梗，也有观众回忆初入EVE被带去挖矿后不再尝试；回复围绕新人矿业体验是否适合作为早期玩法展开。评论样本反映受众接收与新手经历，不能验证标题关于中外玩家差异的判断，也不足以概括两场战事。"
       },
       "usage": {
         "body": false,
@@ -1595,7 +1586,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1620,11 +1610,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mc-jiaming/materials-mc-jiaming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-17复用合作素材中的20个主评论线程、简介与署名信息；确认上传者、两人团队及参演／接敌职责边界，不据此指定总指挥或独立剪辑。",
+        "digest": "- **[泰坦进场 BV1jK2GYnEC2](https://www.bilibili.com/video/BV1jK2GYnEC2/)**：20主线程，owner银色汤勺UID54969171，公开创作团队2人，dzkell署“参演”。简介明确另一位联合投稿朋友为当场第一位与敌人接触的舰队指挥官，支持W佬本场接敌FC职责；不升级总指挥、调超旗发令人或独立导演／剪辑。2024-10-10为投稿日期，不直接认战斗日。筱橘ORG自述海凤凰换舰队纳迦法后自己损失，另有人回忆从海送葬到小航、FAX、无畏、大航泰坦增援；这些属各自经历，不能变成W佬本人损失或全场已核BR。常规回忆提YMJG、400B对100B，未独立核；不与W此前回味2024年7／8月YMJG bait自动合成同一战。三十三万为本次页面播放量，未视听评分。补入具体职责与合作经历，撤出本人精选；[汤勺素材](../../src/people/mc-jiaming/materials-mc-jiaming.json)补互引。\n\n- [《当泰坦进场的那一刻，一切陷阱都形同虚设》](https://www.bilibili.com/video/BV1jK2GYnEC2/)：银色汤勺上传，W佬署参演。"
       },
       "usage": {
         "body": false,
@@ -1648,11 +1636,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mc-jiaming/materials-mc-jiaming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-16读简介、作者置顶及20个已加载主评论线程和可见回复；区分传话梗与作者回答，不据此认定舰队兵力或机制。",
+        "digest": "></a>\n- [BV1tw4m1v7iV](https://www.bilibili.com/video/BV1tw4m1v7iV/)：简介空；本人置顶列采星者、怯薛与新伊甸光点学院，并解释三个军团能带新人，国服入口与欧服分开。评论围绕传话误听续梗，他回复配置、玩法，并称配乐来自原神4.4；不将读者玩笑写成真实兵力变化，不独立背书配置建议。他说被CCP安排休假、去不了某场，无原因和账号细节，不认定封号或作弊。"
       },
       "usage": {
         "body": true,
@@ -1676,11 +1662,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mc-jiaming/materials-mc-jiaming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-16读简介、作者置顶及20个已加载主评论线程和可见回复；不据留言经历认定上传者驾驶或指挥，不评价未读视听。",
+        "digest": "></a>\n- [BV1wD421T7TN](https://www.bilibili.com/video/BV1wD421T7TN/)：简介、本人置顶均否认暗示“华人正统”，随后招新；读者赞FRT英语时区分部，另一人仿同句式改为DC，形成阵营互呛。其他救援经历为留言者自述，不认汤勺指挥或驾驶泰坦。未见明确外部录制署名，不反向认全片本人实录。新增正统争论与招新故事入文。"
       },
       "usage": {
         "body": true,
@@ -1704,11 +1688,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mc-jiaming/materials-mc-jiaming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-16读简介与20个已加载主评论线程及可见回复；仅记录多语言文字互动，不把评论中的技术或族群判断当事实。",
+        "digest": "- [BV1Cw4m1m7Mm](https://www.bilibili.com/video/BV1Cw4m1m7Mm/)：简介分别列欧服和国服招新；评论围绕火星文、黑话、剧本与脚本混译接龙。只推荐实际读到的跨语言文字互动，不认其中技术猜测、他游戏诈死梗或族群优劣判断为EVE事实。"
       },
       "usage": {
         "body": false,
@@ -1732,11 +1714,9 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "material_refs": [
-          "src/people/mc-jiaming/materials-mc-jiaming.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-10-09核对作品页作者、简介、置顶与首屏评论；2026-10-16复用置顶，未重新翻页；未读口播、影像、音轨或字幕。",
+        "digest": "></a>\n- **黑料，中，本人公开回应**：[BV1Cg411s7ik](https://www.bilibili.com/video/BV1Cg411s7ik/)的公开视频页确认 UP 为银色汤勺、UID 54969171，评论接口读到 UP 置顶的“省流版”。其逐项列出关于抖音粉丝可比性、视频盈利动机、营销号风格、直播时未说明 DC 是中国玩家、常开磨难混舰队的质疑，并分别回应；关于盈利说“废话不挣钱你养我？”，关于视频风格称一条视频可填满一个招新群，关于磨难称船由自己提炼垃圾制造、不影响舰队就有权选择。这里是本人转述的提问和本人回答，不把提问直接当事实，也不称其道歉、诈骗。国服光点学院招新视频是另服内容，不能由此推断其欧服军团和 CEO 任职。\n- **2026-10-09 复查**：原 `video` 接口仍 HTTP 412；公开视频页和评论接口成功，取得标题、作者、简介（空）、置顶评论及首批评论。视频无可用字幕，口播全文仍未读。\n- **角色确认**：采用 MC jiaming；旧同名猜测 Silver Spoon、Silverspoon、TangShao、Silver TS 均废弃，不再作为待确认候选。身份已确认，已有列传。\n\n百度检索、360 被拦，国内必应两组检索为无关页；补充网页搜索命中本人视频。论坛中文检索“汤勺”命中入坑回忆，另一条是做菜帖，与人物无关。已按确认的角色 MC jiaming 完成画像：角色简介为空；EveWho 可对上采星者旧公司 STARCHASER Inc. 与现公司 STARCHASER Inc，以及相应的采星者联盟、FRT 历史；zKillboard 常用船为 Deimos、Muninn、Zealot。这些只作取材背景，不据此编指挥或战斗事故。凛冬论坛账号 MC_jiaming 的公开 user_actions 返回主题 0 / 回帖 0，仍需留意旧站导入帖。"
       },
       "usage": {
         "body": true,

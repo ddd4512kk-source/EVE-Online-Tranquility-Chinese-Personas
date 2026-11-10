@@ -1,0 +1,108 @@
+{
+  "status": "reviewed",
+  "note": "战斗频率、小号归因、A1-AUH与8F-TK3参战及独立战绩料块均已核验",
+  "evidence": [
+    "src/people/gauzeee-military/materials-gauzeee-military.md",
+    "src/people/gauzeee-military/gauzeee-military.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号6033击杀、总击毁逾4T，正文六千多杀与常年带队FC职责相符。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/gauzeee-military.md",
+          "contains": "[KB](https://zkillboard.com/character/96262961/) 上六千多个击杀，可纱布更多的工作是在频道里：他是创世常年带队的老 FC，几年里凡是创世要出门打的大仗，频道里发号施令的就是他，击杀栏只记下他偶尔蹭到的几个签名，真正的账记在整支舰队身上。"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "三个小号按公开头衔及战死记录归入同人，已确认战绩规模与归因边界。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+          "heading": "## 2026-10-11：小号对应补录"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "无须细查特定峰值月份或单项异常战果，代表性战事A1-AUH与纳瓦拉已按战役及战报核对。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+          "heading": "### 2021-09-17 A1-AUH / 角色 96262961"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已对照A1-AUH与8F-TK3等战役记录，监视者零伤害支持参与指挥，正文据此体现。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/materials-gauzeee-military.md",
+          "heading": "### 2021-09-17 A1-AUH / 角色 96262961"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "设有独立战绩红料块（KB：六千杀，嗓门比炮火大），结合A1-AUH围猎旗舰与纳瓦拉肉搏做综合点评，战绩未散落在开篇。",
+      "evidence": [
+        {
+          "file": "src/people/gauzeee-military/gauzeee-military.md",
+          "contains": "[KB](https://zkillboard.com/character/96262961/) 上六千多个击杀，可纱布更多的工作是在频道里：他是创世常年带队的老 FC，几年里凡是创世要出门打的大仗，频道里发号施令的就是他，击杀栏只记下他偶尔蹭到的几个签名，真正的账记在整支舰队身上。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/sources/capital-battles-2026-10-11.md",
+    "docs/sources/large-battles-2026-10-11.md",
+    "src/people/gauzeee-military/96262961-id.json",
+    "src/people/gauzeee-military/gauzeee-military.md",
+    "src/people/gauzeee-military/materials-gauzeee-military.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.md",
+    "src/battles/6q-r50-2026/6q-r50-2026.json",
+    "src/battles/6q-r50-2026/6q-r50-2026.md",
+    "src/battles/6q-r50-2026/materials-6q-r50-2026.md",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.json",
+    "src/battles/8f-tk3-2026/8f-tk3-2026.md",
+    "src/battles/8f-tk3-2026/materials-8f-tk3-2026.md",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.md",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.md",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/svm-3k-2026/svm-3k-2026.json",
+    "src/battles/svm-3k-2026/svm-3k-2026.md",
+    "src/battles/svm-3k-2026/materials-svm-3k-2026.md",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.json",
+    "src/battles/t8t-ra-2026/t8t-ra-2026.md",
+    "src/battles/t8t-ra-2026/materials-t8t-ra-2026.md"
+  ],
+  "inputs": "ba15980db39aa97b6ad2dc9f6c7e1056dece5cfc47e39e6cae491ae3889ab70d",
+  "inputParts": {
+    "docs/sources/capital-battles-2026-10-11.md": "7d329d7268098e6a253c11c90fb054c6ee13607fcf69f33000b7fb980858c6c1",
+    "docs/sources/large-battles-2026-10-11.md": "54b2c444412865591faeb14251fc35eeb73d5c421c5c9957c63a1c308a380c01",
+    "src/people/gauzeee-military/96262961-id.json": "a89b33066072e8d7a359bc251eeff192451eb09656f784fa7f94fd5680517253",
+    "src/people/gauzeee-military/gauzeee-military.md": "d90da390059c9827830bf859793d983d326bdeb37b17d186700de4c03a7a159a",
+    "src/people/gauzeee-military/materials-gauzeee-military.md": "75bc02600653bb7187a191d8a0fa777bae2995b76004989f103f56ce4e9e0f50",
+    "battle:1-smeb-2026": "1ae6ccf2f5c88678620752fdfc964b84ded559f1733f666bfffec87b1c8dea8d",
+    "battle:6q-r50-2026": "d4aeab5abc5940d7d8bedab05ff3def3ddd1994df4db493df1f886de0c6f6e29",
+    "battle:8f-tk3-2026": "cc6bd2ecbb00d933b7b14207f84e2bae8c749ca3210eac1543e1a0f34d7caf5b",
+    "battle:a1-auh-2021": "a028ede8e3f0cd0126e4f8e813a689d7e45d1de71b625fbe7f80b5c115004223",
+    "battle:m2-xfe-breakout-2021": "5bca690bf2ddb3d0e6168b1365667d2014d08b2307508118d6d95e0d2fd307f1",
+    "battle:otsasai-2021": "6723e0fc5464384f428f75ab330361b06b47e5c543315f300db10e76da7c3720",
+    "battle:svm-3k-2026": "984846aff116393f106d9e990d6cf0c6dafe5858c8b0eede67e3a66d01af1fc9",
+    "battle:t8t-ra-2026": "80666facc43d77f95211909e71afd7847eeaf03894e42626c8cfa8cefd806491"
+  },
+  "level": 1
+}

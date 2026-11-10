@@ -4,10 +4,10 @@
   "url": "https://tieba.baidu.com/p/7173850192",
   "title": "以下是我（root 3）个人的游戏经历的分享",
   "references": [
-    "docs/corporations/notes/member-research.md",
-    "src/people/root-3/materials-root-3.md",
+    "docs/corporations/notes/member-research.json",
+    "src/people/root-3/materials-root-3.json",
     "src/people/root-3/root-3.md",
-    "src/people/zigeng-z/materials-zigeng-z.md",
+    "src/people/zigeng-z/materials-zigeng-z.json",
     "src/people/zigeng-z/zigeng-z.md"
   ],
   "legacy_records": [
@@ -15,7 +15,7 @@
       "source": "docs/tieba-review-inventory-2026-10-10.tsv",
       "values": {
         "帖号": "7173850192",
-        "初始引用文件": "src/people/root-3/materials-root-3.md;src/people/root-3/root-3.md",
+        "初始引用文件": "src/people/root-3/materials-root-3.json;src/people/root-3/root-3.md",
         "首尾状态": "首尾已取",
         "接口回复数": "300",
         "主楼总页数": "6",

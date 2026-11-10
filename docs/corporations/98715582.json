@@ -22,7 +22,7 @@
         "note": "既有历史榜固定hint；不刷新。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98715582.md"
+        "docs/corporations/notes/member-research/98715582.json"
       ],
       "entries": [
         {
@@ -641,7 +641,7 @@
         "note": "既有固定线索；recent时间窗不明，不替代自然月。"
       },
       "references": [
-        "docs/corporations/notes/member-research/98715582.md"
+        "docs/corporations/notes/member-research/98715582.json"
       ],
       "entries": [
         {
@@ -1328,7 +1328,7 @@
     {
       "label": "独孤啸月",
       "as_of": "2026-11-01",
-      "source": "docs/corporations/notes/member-research/98715582.md#帝皇之镰历史榜第51至100名头衔核读2026-11-01",
+      "source": "docs/corporations/notes/member-research/98715582.json#帝皇之镰历史榜第51至100名头衔核读2026-11-01",
       "scope": "同一外号头衔；号主分组，非当前军团快照",
       "character_ids": [
         "2115558750",
@@ -1341,7 +1341,7 @@
       "kind": "activity",
       "period": "2026-09",
       "as_of": null,
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "rank": "11",
         "alliance": "The Initiative.",
@@ -1352,17 +1352,17 @@
       "kind": "ceo",
       "period": null,
       "as_of": "2026-10-11",
-      "source": "docs/corporations/notes/activity-2026-09.md",
+      "source": "docs/corporations/notes/activity-2026-09.json",
       "fields": {
         "registered_ceo": "Hoshino X / 2120556332",
-        "prior_finding": "已收录；[人物素材](../../../src/people/hoshino-x/materials-hoshino-x.md)"
+        "prior_finding": "已收录；[人物素材](../../../src/people/hoshino-x/materials-hoshino-x.json)"
       }
     },
     {
       "kind": "description",
       "period": null,
       "as_of": "2026-10-10",
-      "source": "docs/corporations/notes/descriptions.md",
+      "source": "docs/corporations/notes/descriptions.json",
       "fields": {
         "alliance": "Initiative",
         "member_count": "648",
@@ -1372,9 +1372,9 @@
     }
   ],
   "references": [
-    "docs/corporations/notes/descriptions.md",
-    "docs/corporations/notes/activity-2026-09.md",
-    "docs/corporations/notes/dc-discovery.md",
-    "docs/corporations/notes/member-research/98715582.md"
+    "docs/corporations/notes/descriptions.json",
+    "docs/corporations/notes/activity-2026-09.json",
+    "docs/corporations/notes/dc-discovery.json",
+    "docs/corporations/notes/member-research/98715582.json"
   ]
 }

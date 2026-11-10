@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "15346174",
   "name": "星星定乾坤",
   "url": "https://space.bilibili.com/15346174/",
   "identity": {
     "state": "confirmed",
     "person": "flashing-shark",
-    "material": "src/people/flashing-shark/materials-flashing-shark.md",
+    "material": "src/people/flashing-shark/materials-flashing-shark.json",
     "label": "星星",
     "evidence": [
       "同名"
     ],
     "related": [
       {
-        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+        "material": "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
         "label": "战役相关视频"
       }
     ]
@@ -37,45 +37,45 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/flashing-shark/materials-flashing-shark.md"
+        "evidence": "src/people/flashing-shark/materials-flashing-shark.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID15346174](https://space.bilibili.com/15346174/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得42、42个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "范围仅限UID15346174的已登记B站入口；复用双排序缓存 `.cache/bilibili-selection-remaining-spaces-20261016/flashing-shark.json`，最新与最多播放选中态均已核，各42条入口，空间显示74视频、5图文、3合集。缓存只提供卡片标题与计数，未取得本人候选作品的简介／署名／评论，不计作品内容已读。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "本批Chrome导航预算上限12次（含合集、失败与恢复）；先读合集1页、最高播放招新篇及焦点访谈第2／6期，再据实际作者文字扩到其余访谈或本人教程，选满5个有具体内容的独作候选或留下可执行缺口。每篇最多20个已加载主评论线程，折叠回复不作全量目标；仅读公开简介、署名、选集标题与评论。浏览器9223由共享调度串行使用，未获时段前不导航。API预算0次；不取影像、音频、字幕或转录，不追BR／KM／PDF，不重新扫描UP名单。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "4次Chrome导航已用：合集1、作品3，未遇拦截；作品先核公开元数据，播放分别9721、8767、2651，评论总数分别36、79、39，均达到关注度筛选条件。3页上传者均为15346174，公开页未见联合制作团队或其他制作作者署名；受访者、来宾、评论者与共同制作分开。缓存为 `.cache/flashing-shark-first-20261018/001—003.json`，合集为 `.cache/bili-flashing-20261018-lists-flashing-shark.json`。实际读17／20／19主评论线程及可见回复，折叠未展开；未看影像、字幕或音频，不从页面进度读数认定观看内容。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "BV1Wbh66eERG：2026-09-22访谈第6期，同样接受游戏邮件并择优提问。古典战士老李支持拉面、夸其果断，次日另批节目“一大部分痴迷于所谓流程”，认为话事人比流程更要紧，可能口服心不服；这是观众批评，不编成星星自己的制度主张。HAOXYI问“怎么关键词和上期一样啊”：作品大标题为拉面林接任，选集part及合集卡片仍写华人遍地开花／FRT无封地，保存这个公开文字反差，不据此说音视频重复。商见曜灬赞混沌“去做，军团买单”，不由评论补实际付款或其组织职责。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "合集页显示活动集锦3条、焦点访谈4条、教学25条；访谈可见为第1期、6月第4期、8月第4期、第6期，不能把未收进该合集的第2／3期认作不存在；教学页仅显示6个入口，不称25篇已读。婚礼与团友署名课仍排除本人精选。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "BV1h9jP66ENP，6月第4期：本次Chrome报 `Input.dispatchMouseEvent超时`，未生成正文／元数据／评论缓存；计1次失败，不称作品已读、不重试、不判作品质量。现有标题来自双排序及合集，不能拿标题当原声内容。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       },
       {
         "text": "精选5条为招新BV1dL4y1x7L6、访谈2 BV1BtRuB4ECZ、3 BV1VbGy6LENG、8月4 BV1BahV62E8c、6 BV1Wbh66eERG；理由以实际公开简介及评论所呈现的招新人事、问题收集、组织争论和节目互动为依据，不声称已观看讲解或视听制作。第1期不选理由见上；婚礼合作片及明确署名团友的教程排除个人精选。此轮已核双排序、3合集入口、7篇候选中6篇公开文字，选满5，不把课程总量、未读影像、折叠回复再作为待办。真正残余是6月第4期的公开文字读取失败；它不是身份桥梁、已知独立人物事件或补足5条所必需入口，保留失败记录供将来有具体内容线索时复用，本轮无需泛等板块扫描。",
-        "source": "src/people/flashing-shark/materials-flashing-shark.md"
+        "source": "src/people/flashing-shark/materials-flashing-shark.json"
       }
     ],
     "listings": [
@@ -626,10 +626,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flashing-shark/materials-flashing-shark.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "评论既支持新话事人，也追问流程与人的分量；连没换掉的关键词都有人抓，主持人搭台，观众也有自己的审稿权。"
       },
       "usage": {
         "body": true,
@@ -654,9 +652,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flashing-shark/materials-flashing-shark.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -682,10 +677,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flashing-shark/materials-flashing-shark.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "主权规划的题目，配上观众对绩效拆解、层层加码的吐槽，游戏管理与上班体验撞了个正着。"
       },
       "usage": {
         "body": true,
@@ -710,11 +703,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flashing-shark/materials-flashing-shark.md",
-          "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介交代收问题、择优提问的办法，评论从战后情绪一路争到分封与郡县，最能看出这扇联盟窗口为何有人围观。"
       },
       "usage": {
         "body": true,
@@ -739,9 +729,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flashing-shark/materials-flashing-shark.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -767,14 +754,119 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/flashing-shark/materials-flashing-shark.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
         "body": false,
         "selected": true
+      }
+    },
+    {
+      "bvid": "BV16c6bB2EZy",
+      "title": "【EVE进阶教学攻略】小航操作从攻略入门到精通【带详细教学解说】【作者：地平线】",
+      "url": "https://www.bilibili.com/video/BV16c6bB2EZy/",
+      "owner_uid": "15346174",
+      "published_at": "2026-02-01T14:20:37.000Z",
+      "captured_at": "2026-11-09T02:31:53.602Z",
+      "description": "",
+      "stats": {
+        "views": 9170,
+        "replies": 37
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核看作品页简介；读取首屏返回的3条主评论及可见回复，未翻页或另行展开楼中楼；未看视频画面、字幕或分P。",
+        "reviewed_at": "2026-11-09T02:37:35Z",
+        "digest": "标题标注作者为地平线，作品页上传者为星星定乾坤（UID 15346174）；简介介绍欧服华人军团及招新，联系方式未保留。首屏三条主评论中，一条用‘出售伤心小航’调侃教程标题，一条说‘从入门到放弃’，另一条询问小航如何完成环绕，称选中铁骑、按W再点自己后仍原地不动。评论反映新手操作疑问和标题梗，不代表已核实教程内容或实机效果。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1zLzQBrEro",
+      "title": "【EVE混沌仲裁者教学】【12分钟学会高效多开】【作者：囚鸟】",
+      "url": "https://www.bilibili.com/video/BV1zLzQBrEro/",
+      "owner_uid": "15346174",
+      "published_at": "2026-01-25T10:10:26.000Z",
+      "captured_at": "2026-11-09T02:32:14.439Z",
+      "description": "EVE星战前夜华人最具活力军团等你加入，快来1007805049加入我们！\n1：区域监视,OnTopReplica,百度搜索下载\n2：窗口定位,知乎网下载, https://zhuanlan.zhihu.com/p/51923480",
+      "stats": {
+        "views": 5876,
+        "replies": 33
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核看作品页简介；读取首屏返回的3条主评论及可见回复，未翻页或另行展开楼中楼；未看视频画面、字幕或分P。",
+        "reviewed_at": "2026-11-09T02:37:35Z",
+        "digest": "标题标注作者为囚鸟，作品页上传者为星星定乾坤（UID 15346174）；简介称华人军团招新，并列出区域监视、OnTopReplica和窗口定位等多开辅助工具。首屏主评论中，有人认为多开毁了游戏；另一人称OnTopReplica已停止维护，回复里有人反馈下载后无法启动；还有评论称区域监视运行数分钟后画面冻结，并询问窗口设置。这里记录的是评论者的使用反馈与观点，未核实工具状态或视频演示。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1BKDLBwETm",
+      "title": "【EVE混沌仲裁者教学】【5分钟速成狞獾高手】【作者：416】",
+      "url": "https://www.bilibili.com/video/BV1BKDLBwETm/",
+      "owner_uid": "15346174",
+      "published_at": "2026-04-05T02:38:22.000Z",
+      "captured_at": "2026-11-09T02:32:35.283Z",
+      "description": "EVE星战前夜华人最大、最具活力军团等你加入，快来1007805049加入我们！",
+      "stats": {
+        "views": 5269,
+        "replies": 51
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核看作品页简介；读取首屏返回的3条主评论及可见回复，未翻页或另行展开楼中楼；未看视频画面、字幕或分P。",
+        "reviewed_at": "2026-11-09T02:37:35Z",
+        "digest": "标题标注作者为416，作品页上传者为星星定乾坤（UID 15346174）；简介为华人军团招新。首屏评论提到狞獾曾为评论者带来收益，并讨论狞獾与狂怒的选择、中型无人机成本和新手赚钱；有回复询问服务器与军团，答复称欧服和天使卫队。另有评论建议做‘血染之星’任务获取收入，这是评论者建议，未作核实。"
+      },
+      "usage": {
+        "body": false,
+        "selected": true
+      }
+    },
+    {
+      "bvid": "BV1KX4y1y7rG",
+      "title": "【EVE星战前夜】WC联盟群霸王硬上弓之4U9攻势【作者：红糖姜茶】",
+      "url": "https://www.bilibili.com/video/BV1KX4y1y7rG/",
+      "owner_uid": "15346174",
+      "published_at": "2023-05-23T18:23:14.000Z",
+      "captured_at": "2026-11-09T02:32:56.096Z",
+      "description": "",
+      "stats": {
+        "views": 5006,
+        "replies": 18
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "核看作品页简介；读取首屏返回的3条主评论及可见回复，未翻页或另行展开楼中楼；未看视频画面、字幕或分P。",
+        "reviewed_at": "2026-11-09T02:37:35Z",
+        "digest": "标题标注作者为红糖姜茶，作品页上传者为星星定乾坤（UID 15346174）；简介宣传EVE及军团招募。首屏评论以泰坦驾驶员和‘投送’为梗，讨论是否会因此阵亡、运输与战损；有评论追问泰坦是否损失，名为EVE-红糖姜茶CACX的可见回复称没有阵亡、当时只是中转星系。未看视频，不能据标题和评论复原战斗经过。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
       }
     }
   ]

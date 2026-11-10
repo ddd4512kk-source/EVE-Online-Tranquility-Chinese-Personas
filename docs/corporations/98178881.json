@@ -21,7 +21,7 @@
         "note": "旧文记来源返回57名，仅保存前50名；未保存的第51—57名本轮不补。"
       },
       "references": [
-        "docs/corporations/notes/nuwa-2026-04.md"
+        "docs/corporations/notes/nuwa-2026-04.json"
       ],
       "entries": [
         {
@@ -333,7 +333,7 @@
       "kind": "description",
       "period": null,
       "as_of": "2026-10-10",
-      "source": "docs/corporations/notes/descriptions.md",
+      "source": "docs/corporations/notes/descriptions.json",
       "fields": {
         "alliance": "FRT",
         "member_count": "224",
@@ -343,7 +343,7 @@
     }
   ],
   "references": [
-    "docs/corporations/notes/descriptions.md",
-    "docs/corporations/notes/nuwa-2026-04.md"
+    "docs/corporations/notes/descriptions.json",
+    "docs/corporations/notes/nuwa-2026-04.json"
   ]
 }

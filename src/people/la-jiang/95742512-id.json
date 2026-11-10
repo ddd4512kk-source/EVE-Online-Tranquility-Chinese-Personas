@@ -108,6 +108,73 @@
       "低安",
       "B B C",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:30:00Z",
+      "verdict": "B站百条战报的搬运站长，签名曲终人不见，随 Snuff 纵横低安的狂暴老打手。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "签名文雅写意，虽然狂暴队团灭多次自嘲RIP，但视频与帖子全为硬核机制探讨，严谨守序常人模范。",
+          "sources": [
+            {
+              "label": "B站视频与专栏",
+              "url": "https://space.bilibili.com/48030884"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀近2100次仅损139次，消灭战损破万亿，随顶级低安海盗联盟出战，战场生存与收割效率极其出众。",
+          "sources": [
+            {
+              "label": "Mogami Chaos zKillboard",
+              "url": "https://zkillboard.com/character/95742512/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "组建25人海盗精锐突击队，深入剖析炮塔机制与海盗巡洋舰战术协同，具备扎实的小队调度能力。",
+          "sources": [
+            {
+              "label": "贴吧海盗战术长文",
+              "url": "https://space.bilibili.com/48030884"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "在B站发布近百条高质量实战录像与战报，播放量数以万计，贴吧技术长帖备受推崇，影响力深远。",
+          "sources": [
+            {
+              "label": "B站视频《欧服绝地过个星门有多恐怖！？》",
+              "url": "https://www.bilibili.com/video/BV1HW411N7su"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "专注于低安海盗生活与高水准PVP战术传播，超然于主权联盟恩怨之外。",
+          "sources": [
+            {
+              "label": "Mogami Chaos 雇佣履历",
+              "url": "https://zkillboard.com/character/95742512/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "极高击损比保全资产，自备充足高级海盗势力舰船与高级特种战备，资财富足自给。",
+          "sources": [
+            {
+              "label": "Mogami Chaos zKillboard",
+              "url": "https://zkillboard.com/character/95742512/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

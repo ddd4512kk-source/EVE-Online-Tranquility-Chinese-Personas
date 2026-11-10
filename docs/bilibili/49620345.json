@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "49620345",
   "name": "军工品质砸核桃",
   "url": "https://space.bilibili.com/49620345/",
   "identity": {
     "state": "confirmed",
     "person": null,
-    "material": "docs/leads/a-chen.md",
+    "material": "docs/leads/a-chen.json",
     "label": "本人线索",
     "evidence": [
       "账号与角色已对应；两项普通小队战公开文字已读，独立故事／具体创作职责待补，暂未立传"
@@ -47,7 +47,7 @@
     "prior_notes": [
       {
         "text": "空间最新与实际最多播放首屏已取得。实际读[小队战无剪辑BV1dKrvB8EdB](https://www.bilibili.com/video/BV1dKrvB8EdB/)的简介和3主评论，以及[散打吃无畏BV1zXzKBUEqc](https://www.bilibili.com/video/BV1zXzKBUEqc/)的简介和3主评论及可见附带回复。前者简介仅“-”、评论捧场；后者作者答超载是为快速叠伤害，不能从观众提问“指挥不知道”认定阿晨为FC，也不能仅凭标题把战果写成本人独立指挥。两项均为普通战斗记录，当前尚不足以写出独立人物事件；已知其他少量EVE投稿仅见标题，不能当质量不足。",
-        "source": "docs/leads/a-chen.md"
+        "source": "docs/leads/a-chen.json"
       }
     ],
     "listings": [
@@ -424,9 +424,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "docs/leads/a-chen.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -452,9 +449,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "docs/leads/a-chen.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "13066246",
   "name": "夫鲁夫鲁最最可爱",
   "url": "https://space.bilibili.com/13066246/",
   "identity": {
     "state": "confirmed",
     "person": "khezu-knight",
-    "material": "src/people/khezu-knight/materials-khezu-knight.md",
+    "material": "src/people/khezu-knight/materials-khezu-knight.json",
     "label": "夫鲁",
     "evidence": [
       "UP简介写“EVE ID：Khezu knight”"
@@ -32,25 +32,25 @@
         "state": "legacy_record",
         "observed_at": null,
         "scope": "旧素材已有覆盖或缺口记录，须按下列原文判断，不能视为未调查。",
-        "evidence": "src/people/khezu-knight/materials-khezu-knight.md"
+        "evidence": "src/people/khezu-knight/materials-khezu-knight.json"
       }
     },
     "prior_notes": [
       {
         "text": "[本人空间UID13066246](https://space.bilibili.com/13066246/upload/video)的最新与最多播放两种首页均已取得，最多播放选中态已核；分别取得6、6个不同BV入口。取得入口不代表视频内容已读，历史分页／合集内容未全读；原标题的服务器、转载与合作署名仍须逐篇核对。",
-        "source": "src/people/khezu-knight/materials-khezu-knight.md"
+        "source": "src/people/khezu-knight/materials-khezu-knight.json"
       },
       {
         "text": "最多播放首页中需续读的EVE相关标题入口（按页面次序，只是候选，不据标题归个人事件或判质量）：",
-        "source": "src/people/khezu-knight/materials-khezu-knight.md"
+        "source": "src/people/khezu-knight/materials-khezu-knight.json"
       },
       {
         "text": "复用UID13066246最新／最多播放各6个视频及选中态；空间实际22投稿为6视频、16图文，不把投稿总数写成全是视频。合集页已核，未建合集。最高播放皮肤教程先读，随后按实际评论数扩读其余4个EVE作品，共5篇简介与72个主线程，预览以外楼中楼未展开。影像、音频、字幕未读，不评成片制作质量。其余一条《小猫贴贴你》非EVE，不作为本人EVE精选凑数。",
-        "source": "src/people/khezu-knight/materials-khezu-knight.md"
+        "source": "src/people/khezu-knight/materials-khezu-knight.json"
       },
       {
         "text": "空间卡片第二个数字为弹幕，不是评论。最高皮肤教程1329播放、36评论；毛绒477播放、34评论；小火龙450播放、18评论；联盟小宠物381播放、15评论；INIT皮套254播放、17评论。后四篇都因**评论达10**进入候选，不以低播放排除；皮套刚好十秒，不能只据短时长判差。此前仅按最多播放列两篇入口不代表其余质量不足。取材手册已补明以公开元数据`stat.reply`核评论数。",
-        "source": "src/people/khezu-knight/materials-khezu-knight.md"
+        "source": "src/people/khezu-knight/materials-khezu-knight.json"
       }
     ],
     "listings": [
@@ -136,9 +136,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/khezu-knight/materials-khezu-knight.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -164,10 +161,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/khezu-knight/materials-khezu-knight.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "12主线程。本人说喜欢呆呆的小火龙、最近画了很多，在学AE，比手搓GIF智能；有人求熊猫人，回答“可以有 以后会有的”。白菜也留言，本人回应。发布日期晚于毛绒篇几天，但没有本人说明这篇因白菜催单才制作，正文只并置时间与点单，不补造订单、交付或因果。新增一块创作／需求故事，与原有周边、刺绣、咪咪争议并列保留。"
       },
       "usage": {
         "body": true,
@@ -192,10 +187,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/khezu-knight/materials-khezu-knight.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "简介本人做小章鱼与INIT大眼仔，20主线程。多人惦记PH小章鱼，白菜CabbageTimil说“没有小火龙，不消费”；本人向夸奖者道谢、与索要者开玩笑。正文把跨阵营顾客与创作题材写在一起，不把留言者情绪扩成具体联盟历史事件。\n\n本人自制两家联盟形象，评论里既有人惦记小章鱼，也有白菜来催小火龙，作品和跨阵营熟人圈接得很紧。"
       },
       "usage": {
         "body": true,
@@ -220,10 +213,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/khezu-knight/materials-khezu-knight.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "评论里区分定制船与涂料、讨论低画质皮肤的需求，能看到这位创作者怎样接住玩家的具体问题。"
       },
       "usage": {
         "body": true,
@@ -248,9 +239,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/khezu-knight/materials-khezu-knight.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

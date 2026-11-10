@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "396322447",
   "name": "Ghost与加里",
   "url": "https://space.bilibili.com/396322447/",
   "identity": {
     "state": "confirmed",
     "person": "mahola-dian",
-    "material": "src/people/mahola-dian/materials-mahola-dian.md",
+    "material": "src/people/mahola-dian/materials-mahola-dian.json",
     "label": "Ghost与加里",
     "evidence": [
       "对应Mahola Dian／2120624679；明确角色对应，公开文字已归本人素材"
     ],
     "related": [
       {
-        "material": "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md",
+        "material": "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.json",
         "label": "战役相关视频"
       }
     ]
@@ -52,7 +52,7 @@
     "prior_notes": [
       {
         "text": "空间最新、实际点击最多播放首屏已经取得，代表系列候选并入筛选。下表记录实际取得范围；公开元数据与简介已读，评论只读加载的主线程与附带可见回复，不展开楼中楼，不看影像、音轨或字幕。作品owner为对应账号；未见公开联合创作署名者按本人投稿整理，不把战斗队友等同创作团队。",
-        "source": "src/people/mahola-dian/materials-mahola-dian.md"
+        "source": "src/people/mahola-dian/materials-mahola-dian.json"
       }
     ],
     "listings": [
@@ -1053,9 +1053,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mahola-dian/materials-mahola-dian.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1081,7 +1078,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1107,9 +1103,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mahola-dian/materials-mahola-dian.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1135,9 +1128,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mahola-dian/materials-mahola-dian.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1163,7 +1153,6 @@
       },
       "reading": {
         "state": "captured",
-        "material_refs": [],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {
@@ -1189,10 +1178,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/mahola-dian/materials-mahola-dian.md",
-          "src/battles/hb-1nj-efm-c4-2025/materials-hb-1nj-efm-c4-2025.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

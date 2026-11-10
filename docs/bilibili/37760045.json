@@ -1,23 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "37760045",
   "name": "Falkia长门",
   "url": "https://space.bilibili.com/37760045/",
   "identity": {
     "state": "confirmed",
     "person": "black-kingbar",
-    "material": "src/people/black-kingbar/materials-black-kingbar.md",
+    "material": "src/people/black-kingbar/materials-black-kingbar.json",
     "label": "黑黄杖 / 长门",
     "evidence": [
       "B站账号Falkia长门对应BKB军团CEO长门（角色Falkia / 736339179）"
     ],
     "related": [
       {
-        "material": "src/people/black-kingbar/materials-black-kingbar.md",
+        "material": "src/people/black-kingbar/materials-black-kingbar.json",
         "label": "本人列传素材"
       },
       {
-        "material": "src/corps/bkb/materials-bkb.md",
+        "material": "src/corps/bkb/materials-bkb.json",
         "label": "所属军团志"
       }
     ]
@@ -195,9 +195,6 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/people/black-kingbar/materials-black-kingbar.md"
-        ],
         "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
       },
       "usage": {

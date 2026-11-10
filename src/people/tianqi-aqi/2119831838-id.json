@@ -62,6 +62,73 @@
     "epithet": "单开 Marauder 满宇宙找架打，死了就发帖，帖名比战损还长。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:52:44Z",
+      "verdict": "天启阿柒：普通表现以 D 为起点，突出项按已有列传记录上调。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "列传记录轻度戏剧性或常规整活，在 D 基准上小幅上调至 C。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9098594555"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "列传记录高强度实战与核心作战职责，评 B。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119831838/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "列传未见实质带队调度，按普通随队者基准 D。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119831838/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "列传记录稳定的军团内支持、粉丝或骨干影响，评 C。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9160159050"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "列传未见高层利益协调或组织管理，按常人基准 D。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119831838/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "列传未见超出日常配船的经营或资源运作，按常人基准 D。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119831838/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

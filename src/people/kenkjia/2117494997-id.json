@@ -46,7 +46,78 @@
     "tags": [
       "00区",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:33:00Z",
+      "verdict": "伏羲军团的王牌宣传魔尊，以十五秒官方夺冠短片让自家招牌闪耀全宇宙空间站，更在日常战斗中勤勉不辍。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "头衔称钢铁魔尊，兢兢业业为军团制作顶级宣传片荣获CCP官方第一名，无任何出格神人行为。",
+          "sources": [
+            {
+              "label": "CCP官方宣传大赛冠军公告",
+              "url": "https://www.eveonline.com/news/view/corp-propaganda-contest-the-winners"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀数千次，战舰横跨后勤、电子战与主力输出，常年出勤欧塔萨塞等大会战并在低安solo。",
+          "sources": [
+            {
+              "label": "官方KB数千击杀档案",
+              "url": "https://zkillboard.com/character/2117494997/"
+            },
+            {
+              "label": "欧塔萨塞参战记录",
+              "url": "https://zkillboard.com/kill/89775369/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "服从军团与联盟大动员指挥，协助小队日常活动协同。",
+          "sources": [
+            {
+              "label": "伏羲日常出勤记录",
+              "url": "https://zkillboard.com/character/2117494997/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "凭实力拿下CCP官方视频组第一名，将伏羲招牌送上游戏内广告大屏与CCPTV，为军团赢得莫大荣誉。",
+          "sources": [
+            {
+              "label": "官方比赛评选论坛",
+              "url": "https://forums.eveonline.com/t/corp-propaganda-contest/325424?page=2"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "军团核心宣传与一线战斗员，不参与联盟层级的政治角逐。",
+          "sources": [
+            {
+              "label": "伏羲军团内任职记录",
+              "url": "https://esi.evetech.net/latest/characters/2117494997/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "拥有丰厚的官方比赛PLEX奖励与海量专属皮肤，常备各型主力作战舰船。",
+          "sources": [
+            {
+              "label": "官方大赛奖励明细",
+              "url": "https://www.eveonline.com/news/view/corp-propaganda-contest-the-winners"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -55,7 +126,7 @@
         "id": 2118552048,
         "name": "Neon Cathedral",
         "sources": [
-          "materials-kenkjia.md"
+          "materials-kenkjia.json"
         ],
         "zkb": {
           "kills": 1292,

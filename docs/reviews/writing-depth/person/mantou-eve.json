@@ -1,0 +1,124 @@
+{
+  "status": "reviewed",
+  "note": "核对整篇正文与新增录音料块；事件骨架有出处，展开及前后照应充分。",
+  "evidence": [
+    "src/people/mantou-eve/materials-mantou-eve.json",
+    "src/people/mantou-eve/mantou-eve.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "录音事件的存在、说话者、情境和核心引语均在人物素材中对应到知乎文章；列传标明国服，不与欧服会议混同。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/materials-mantou-eve.json",
+          "heading": "### 国服：这个频道不许录音"
+        },
+        {
+          "file": "src/people/mantou-eve/mantou-eve.md",
+          "contains": "2021 年底，国服两个盟友起了矛盾，馒头出面主持公道。"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "通读整篇正文与对应素材；各独立主线均有来源，新增录音故事展开充分，围绕现有会议骨架发挥，没有补造录音来源。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/mantou-eve.md",
+          "contains": "接下来才是解决问题的办法。他告诉两边："
+        },
+        {
+          "file": "src/people/mantou-eve/materials-mantou-eve.json",
+          "heading": "### 国服：这个频道不许录音"
+        }
+      ],
+      "items": [
+        {
+          "title": "国服：这个频道不许录音",
+          "weight": "heavy",
+          "reason": "公开录音把联盟领袖的地盘控制权和威吓口吻压缩成圈内名场面，是鲜明的人物事件。",
+          "source": {
+            "file": "src/people/mantou-eve/materials-mantou-eve.json",
+            "heading": "### 国服：这个频道不许录音"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/mantou-eve/mantou-eve.md",
+            "contains": "2021 年底，国服两个盟友起了矛盾，馒头出面主持公道。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "两个盟友来找他处理领土争执，他以会议主持者身份先宣布自己拥有最终许可权。",
+              "evidence": {
+                "file": "src/people/mantou-eve/mantou-eve.md",
+                "contains": "2021 年底，国服两个盟友起了矛盾，馒头出面主持公道。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "一边喝止录音，一边威胁两人；禁止传播的话反成最出名的传播内容。",
+              "evidence": {
+                "file": "src/people/mantou-eve/mantou-eve.md",
+                "contains": "这套话在国服有 PIBC 多年的家底撑腰，说出口时像一纸圣旨；录音流出去，圣旨连同那句保密要求一起成了笑话。"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "把领土变更说成须经自己许可，显出争执背后的权力尺度。",
+              "evidence": {
+                "file": "src/people/mantou-eve/mantou-eve.md",
+                "contains": "接下来才是解决问题的办法。他告诉两边：“你们没有权力改变你们的领土大小，除非我许可！”"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "录音流传把会议威吓变成圈内梗，也让控制欲有了可反复引用的声音。",
+              "evidence": {
+                "file": "src/people/mantou-eve/mantou-eve.md",
+                "contains": "这套话在国服有 PIBC 多年的家底撑腰，说出口时像一纸圣旨；录音流出去，圣旨连同那句保密要求一起成了笑话。"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "结尾将国服录音梗与后来欧服的权力博弈连接，形成照应。",
+              "evidence": {
+                "file": "src/people/mantou-eve/mantou-eve.md",
+                "contains": "国服的频道不许录音，欧服的大会却拦不住坏消息传出去。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "会议引语依文章转述归档；叙事围绕这一事件的权力姿态与传播反差展开。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "新增录音块完整，开头和末尾点题；2019 年承诺与称呼风波引向 2022 年帝国危机，后者仍是篇幅和评语中心。",
+      "evidence": [
+        {
+          "file": "src/people/mantou-eve/mantou-eve.md",
+          "contains": "国服开会时，他一句“这个频道不许录音”，让整段录音出了圈；到了欧服，他最轰动的故事是 2022 年 1 月那场借 RR 入帝国的风波："
+        },
+        {
+          "file": "src/people/mantou-eve/mantou-eve.md",
+          "contains": "国服的频道不许录音，欧服的大会却拦不住坏消息传出去。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/mantou-eve/2115140351-id.json",
+    "src/people/mantou-eve/mantou-eve.md",
+    "src/people/mantou-eve/materials-mantou-eve.json"
+  ],
+  "inputs": "defae637dac97aa27fc4ae8123b5077bbb0c97b7856fe709d3246deb130e1ac4",
+  "inputParts": {
+    "src/people/mantou-eve/2115140351-id.json": "f684e07bef7943df9fdc677fbce46458694ab26f38f601a9713c30ae53540ebd",
+    "src/people/mantou-eve/mantou-eve.md": "fd28b2024459b04116f3a702f377199a52d6f370f0f833b0438310984c867860",
+    "src/people/mantou-eve/materials-mantou-eve.json": "2dda0129d1915603e1b0a8d13951cd5adde32a181a403e39973f440badf5e9cc"
+  },
+  "level": 1
+}

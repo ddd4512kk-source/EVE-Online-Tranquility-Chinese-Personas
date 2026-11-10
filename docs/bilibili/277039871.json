@@ -1,12 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "277039871",
   "name": "sabersma",
   "url": "https://space.bilibili.com/277039871/",
   "identity": {
     "state": "confirmed",
     "person": "saber-lv1",
-    "material": "src/people/saber-lv1/materials-saber-lv1.md",
+    "material": "src/people/saber-lv1/materials-saber-lv1.json",
     "label": "saber",
     "evidence": [
       "与别名sabersama近同；唯一投稿为本人任CEO的Salted Fish Inc招新"
@@ -102,10 +102,8 @@
       },
       "reading": {
         "state": "digested",
-        "material_refs": [
-          "src/people/saber-lv1/materials-saber-lv1.md"
-        ],
-        "scope": "已读标题、简介、公开元数据及20个已加载主评论线程和页面可见部分回复；未翻页、未完整展开楼中楼，未读影像、音轨、字幕。招新本人答复与各方评价已入素材。"
+        "scope": "已读标题、简介、公开元数据及20个已加载主评论线程和页面可见部分回复；未翻页、未完整展开楼中楼，未读影像、音轨、字幕。招新本人答复与各方评价已入素材。",
+        "digest": "[《【EVE欧服】虫洞团Salted Fish Inc 2026招新》](https://www.bilibili.com/video/BV1PTcgzpERf/)，UP sabersma／277039871，2026-02-10发布，49秒。复用2026-10-16空间缓存：当时仅1条投稿，卡片播放1668、弹幕0；不是评论0。此次Chrome读取作品公开元数据：播放1686、评论33、赞28。作者简介直接链接[贴吧招新帖10460841084](https://tieba.baidu.com/p/10460841084)。空间未切最多播放或查合集，本次不声称完成作品精选；正文已展开这条作品，不重复放精选。"
       },
       "usage": {
         "body": true,

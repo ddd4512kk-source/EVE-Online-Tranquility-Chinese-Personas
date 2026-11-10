@@ -43,6 +43,77 @@
       "00区",
       "CONDI",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:57:33Z",
+      "verdict": "舰队总览署自己的名，坏事先归雨夜；工具箱备得齐，甩锅的题签也提前刻好。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "简介先声明“一切坏事都是yuyexf指示的”，又把“战场食尸鬼”挂在名片上，幽默鲜明但只是轻松整活。",
+          "sources": [
+            {
+              "label": "zrxzhh zKillboard",
+              "url": "https://zkillboard.com/character/2122520286/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "有八百余次击杀与稳定队伍出勤记录，常年驾驶舰队战术船参加大型会战，表现达到熟练打手档。",
+          "sources": [
+            {
+              "label": "zrxzhh zKillboard",
+              "url": "https://zkillboard.com/character/2122520286/"
+            },
+            {
+              "label": "北方大战击杀记录",
+              "url": "https://zkillboard.com/kill/135017154/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "zKillboard标有FC (HIGH)，且长期担任PLA/Goons一线FC，在4-HWWF大战中实际带队。",
+          "sources": [
+            {
+              "label": "zrxzhh zKillboard",
+              "url": "https://zkillboard.com/character/2122520286/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "个人工具页面和战场绰号很醒目，但材料没有稳定拥趸或跨团号召记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "zrxzhh zKillboard",
+              "url": "https://zkillboard.com/character/2122520286/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "故事集中于队内指挥、战场工具和同事互损，没有联盟外交或组织利益协调，按常人基准记D。",
+          "sources": [
+            {
+              "label": "zrxzhh zKillboard",
+              "url": "https://zkillboard.com/character/2122520286/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "数百次集体击杀的总价值不归为个人资产，现有材料没有工业、经营或筹资记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "zrxzhh zKillboard",
+              "url": "https://zkillboard.com/character/2122520286/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

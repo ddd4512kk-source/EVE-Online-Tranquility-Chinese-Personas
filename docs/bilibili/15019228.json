@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "uid": "15019228",
   "name": "青馆love",
   "url": "https://space.bilibili.com/15019228/",
   "identity": {
     "state": "confirmed",
     "person": "taishang-laojun",
-    "material": "src/people/taishang-laojun/materials-taishang-laojun.md",
+    "material": "src/people/taishang-laojun/materials-taishang-laojun.json",
     "label": "胡汉三",
     "evidence": [
       "与别名“青馆”相合；Shadow Cartel、Deepwater Hooligans等低安作品与经历一致"
     ],
     "related": [
       {
-        "material": "src/battles/otela-2024/materials-otela-2024.md",
+        "material": "src/battles/otela-2024/materials-otela-2024.json",
         "label": "战役相关视频"
       }
     ]
@@ -239,10 +239,8 @@
       },
       "reading": {
         "state": "material_linked",
-        "material_refs": [
-          "src/battles/otela-2024/materials-otela-2024.md"
-        ],
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "digest": "标题指乌特拉，对阵与本场相符。\n\n（青馆love）：标题把这场叫作“乌特拉射击比赛”。"
       },
       "usage": {
         "body": false,

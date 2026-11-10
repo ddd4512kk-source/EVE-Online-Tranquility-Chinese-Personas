@@ -38,7 +38,7 @@
         "id": 2123642312,
         "name": "BB ice2",
         "sources": [
-          "materials-bb-ice.md"
+          "materials-bb-ice.json"
         ],
         "zkb": {
           "kills": 31,
@@ -52,7 +52,7 @@
         "id": 2124706396,
         "name": "BB SR-71",
         "sources": [
-          "materials-bb-ice.md"
+          "materials-bb-ice.json"
         ],
         "zkb": {
           "kills": 25,
@@ -66,7 +66,7 @@
         "id": 2124575048,
         "name": "BBB ice",
         "sources": [
-          "materials-bb-ice.md"
+          "materials-bb-ice.json"
         ],
         "zkb": {
           "kills": 4,
@@ -87,7 +87,7 @@
           ],
           "portrait": "tb.1.95e03bbe.bi9o4tdL5WouACc9bMaFHA",
           "sources": [
-            "materials-bb-ice.md"
+            "materials-bb-ice.json"
           ]
         }
       ]
@@ -110,6 +110,77 @@
     "tags": [
       "00区",
       "INIT."
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "账本精确到每跳万位，炸弹却把自家主号也记进损失栏。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "多次亲笔复盘“脑子抽了”，但反复犯傻和自嘲仍是普通翻车，不把常规战损拔高为神人，常人基准。",
+          "sources": [
+            {
+              "label": "三开炸鱼流水账",
+              "url": "https://tieba.baidu.com/p/10926336786"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "长期以唤风和势力炸弹船刷零安，也驾驶黑隐、寡妇等特种船；有熟练船型与稳定出勤，评 C。",
+          "sources": [
+            {
+              "label": "BB ice zKillboard",
+              "url": "https://zkillboard.com/character/2123440570/"
+            },
+            {
+              "label": "三开炸鱼流水账",
+              "url": "https://tieba.baidu.com/p/10926336786"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "跟随 INIT 大队参战并经营刷怪流程，但未见 FC 认证或带队履历，统御评常人基准 D。",
+          "sources": [
+            {
+              "label": "BB ice zKillboard",
+              "url": "https://zkillboard.com/character/2123440570/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "长期分享刷钱流水账并回答配船问题，但现有材料未见稳定追随，评常人基准 D。",
+          "sources": [
+            {
+              "label": "三开炸鱼流水账",
+              "url": "https://tieba.baidu.com/p/10926336786"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "帖子聚焦个人刷怪和舰队出勤，没有基层管理或派系协调记录，评专注自身事务的 D。",
+          "sources": [
+            {
+              "label": "三开炸鱼流水账",
+              "url": "https://tieba.baidu.com/p/10926336786"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "本人记录十五个月攒约 70B，并购置一艘冥府空船；能自备高价值重船，评 C。",
+          "sources": [
+            {
+              "label": "三开炸鱼流水账",
+              "url": "https://tieba.baidu.com/p/10926336786"
+            }
+          ]
+        }
+      }
+    }
   }
 }

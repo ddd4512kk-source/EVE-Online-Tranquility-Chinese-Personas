@@ -53,7 +53,7 @@
         "id": 2116486591,
         "name": "Arri AlexaMini",
         "sources": [
-          "materials-gauzeee-military.md"
+          "materials-gauzeee-military.json"
         ],
         "zkb": {
           "kills": 391,
@@ -67,7 +67,7 @@
         "id": 2117025628,
         "name": "Shabumaru",
         "sources": [
-          "materials-gauzeee-military.md"
+          "materials-gauzeee-military.json"
         ],
         "zkb": {
           "kills": 1275,
@@ -82,7 +82,7 @@
         "name": "Arri Amira",
         "basis": "创世角色头衔“纱布平一郎”，与纱布对应。",
         "sources": [
-          "materials-gauzeee-military.md"
+          "materials-gauzeee-military.json"
         ],
         "zkb": {
           "kills": 148,
@@ -110,8 +110,75 @@
     "epithet": "简介写了八百字创世人回忆录，成员的泰坦蓝图没写进去。",
     "tags": [
       "00区",
-      "FC",
+      "著名FC",
       "诈骗"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "创世核心管理兼老 FC，简介深情写创世回忆录，转头借走成员的蓝图和泰坦。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "借成员的科莫多蓝图到期不还，又借冬瓜、圈圈的泰坦和超旗久拖不还，管理层集资替他平账；借船还账，一路借成了名场面。",
+          "sources": [
+            {
+              "label": "创世往事与泰坦蓝图争议",
+              "url": "https://tieba.baidu.com/p/8921766760"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号六千余杀，小号 Shabumaru、Arri AlexaMini 也各有上千、数百杀，多号长期实战，并参与 A1、纳瓦拉。",
+          "sources": [
+            {
+              "label": "Gauzeee Military zKillboard",
+              "url": "https://zkillboard.com/character/96262961/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "A1 带创世入场，纳瓦拉又承担近身舰队，跨多次大战的主力指挥经历明确。",
+          "sources": [
+            {
+              "label": "创世军团档案",
+              "url": "https://zkillboard.com/character/96262961/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "团内曾有认可，蓝图事件又损耗人望，不把围观直接当拥戴。",
+          "sources": [
+            {
+              "label": "创世军团回忆长文",
+              "url": "https://tieba.baidu.com/p/8921766760"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "创世核心管理，既管军团又带出门的仗；管理层几度集资替他平账，还要为他“复活”回管理岗，说明他在班子里的分量。",
+          "sources": [
+            {
+              "label": "Gauzeee Military 履历",
+              "url": "https://zkillboard.com/character/96262961/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "名下三号击杀过千亿，天价旗舰围猎与创世的大场面他都在场，养得起这批战备；评 A。",
+          "sources": [
+            {
+              "label": "Gauzeee Military zKillboard",
+              "url": "https://zkillboard.com/character/96262961/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

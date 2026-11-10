@@ -18,7 +18,7 @@ async function fixture(t) {
   await fs.writeFile(path.join(root, 'src/people/demo/2000000001-id.json'), JSON.stringify({ id: 2000000001, person: {}, identity: { version: 1, alts: [], accounts: {} } }));
   await fs.writeFile(path.join(root, 'src/people/demo/demo.md'), `::: 红料 旧故事\n[原作](https://www.bilibili.com/video/${bv}/)\n:::\n`);
   await fs.writeFile(path.join(root, 'src/people/demo/materials-demo.md'), `<a id="bili-test"></a>\n${bv}：简介与作者答疑的摘要。`);
-  const p = { version: 1, uid: '123', name: '测试UP', url: 'https://space.bilibili.com/123/',
+  const p = { version: 2, uid: '123', name: '测试UP', url: 'https://space.bilibili.com/123/',
     identity: { state: 'confirmed', person: 'demo', material: 'src/people/demo/materials-demo.md', label: '测试人物', evidence: ['公开署名'], related: [] },
     channel: { coverage: Object.fromEntries(['latest', 'popular', 'series'].map(key => [key, { state: 'unknown', scope: '尚未核读' }])) },
     videos: [videoFromCapture(capture())] };
@@ -74,6 +74,29 @@ test('战报查询包含旧简介、分页及独立的主报匹配与素材提�
   assert.equal(JSON.parse(await fs.readFile(path.join(root, 'docs/bilibili/123.json'))).videos[0].reading.state, 'captured');
   await assert.rejects(run(root, 'reports', '-1'), /偏移/);
   await assert.rejects(run(root, 'reports', '0', '21'), /条数/);
+});
+
+test('同步与战报扫描使用材料 JSON 投影，同时兼容旧 identity.material Markdown 路径', async t => {
+  const { root, p } = await fixture(t);
+  const old = path.join(root, 'src/people/demo/materials-demo.md');
+  await fs.rm(old);
+  await fs.writeFile(path.join(root, 'src/people/demo/materials-demo.json'), JSON.stringify({ version: 1, type: 'material', title: '人物素材', sections: [
+    { id: 'proof', heading: '视频证据', level: 2, content: `${bv}：简介与作者答疑的摘要。` },
+  ] }));
+  assert.equal(p.identity.material, 'src/people/demo/materials-demo.md');
+  const synced = await syncProfile(root, p);
+  assert.equal(synced.videos[0].reading.state, 'material_linked');
+  assert.deepEqual(await validateProfile(root, 'docs/bilibili/123.json', synced), []);
+  await fs.mkdir(path.join(root, 'src/battles/demo'), { recursive: true });
+  await fs.writeFile(path.join(root, 'src/battles/demo/demo.json'), JSON.stringify({ battle: { loss_source: [] } }));
+  const report = 'https://br.evetools.org/br/64717b91543bb54ab3337066';
+  p.videos[0].description = report;
+  await fs.writeFile(path.join(root, 'docs/bilibili/123.json'), JSON.stringify(p));
+  await fs.writeFile(path.join(root, 'src/battles/demo/materials-demo.json'), JSON.stringify({ version: 1, type: 'material', title: '战役素材', sections: [
+    { id: 'report', heading: '相关战报', level: 1, content: `候选报：${report}` },
+  ] }));
+  const rows = JSON.parse((await run(root, 'reports', '0', '10'))[0]).rows;
+  assert.ok(rows.some(row => row.material_mentions.includes('src/battles/demo/materials-demo.json')));
 });
 
 test('近5日候选读简介与多日窗口，不要求标题写星系，不按播放筛选', () => {
@@ -146,12 +169,13 @@ test('全站盘点保留没有战役关键词的日期候选，不把未读当�
 
 test('再导入保留消化、署名、旧简介，不回退人工状态', () => {
   const original = videoFromCapture(capture());
-  original.reading = { state: 'digested', material_refs: ['materials.md#bili-test'], scope: '简介与2主评论' };
+  original.reading = { state: 'digested', digest: '作者公开答疑：驾驶者另有其人，原片来自另一作者。', scope: '简介与2主评论' };
   original.credit = { state: 'repost', note: '原作者另有其人' };
   const newer = videoFromCapture(capture({ at: '2026-10-22T10:00:00Z', metadata: { ...capture().metadata, desc: '新版简介' } }));
   const merged = mergeVideo(original, newer);
   assert.equal(merged.description, '新版简介');
   assert.equal(merged.reading.state, 'digested');
+  assert.deepEqual(merged.reading, original.reading);
   assert.equal(merged.credit.state, 'repost');
   assert.equal(merged.description_history[0].text, original.description);
   assert.throws(() => mergeVideo(original, { ...newer, owner_uid: '999' }), /UID\/BV冲突/);
@@ -170,27 +194,52 @@ test('使用新版人物JSON；同步幂等，读取与入文不混为同一状�
   await run(root, 'check');
 });
 
-test('检查正文与精选重叠，以及丢失的消化锚点和临时缓存链接', async t => {
+test('检查正文与精选重叠，拒绝缺摘要的已消化状态和旧回链字段', async t => {
   const { root, p } = await fixture(t);
   await fs.appendFile(path.join(root, 'src/people/demo/demo.md'), `\n::: 红料 B站作品精选\n- [重复](https://www.bilibili.com/video/${bv}/)\n:::\n`);
   const synced = await syncProfile(root, p);
   synced.videos[0].reading = { state: 'digested', scope: '简介', material_refs: ['src/people/demo/materials-demo.md#missing', '.cache/temporary.md'] };
   const errors = await validateProfile(root, 'docs/bilibili/123.json', synced);
   assert.ok(errors.some(s => s.includes('正文与精选重复')));
-  assert.ok(errors.some(s => s.includes('锚点未落档')));
-  assert.ok(errors.some(s => s.includes('素材路径无效')));
+  assert.ok(errors.some(s => s.includes('旧material_refs')));
+  assert.ok(errors.some(s => s.includes('缺少本作品摘要与阅读范围')));
 });
 
-test('按BV直接读既有摘记与范围，不把阅读表当作已消化', async t => {
-  const { root } = await fixture(t);
+test('按BV直接完整读JSON摘记，不扫描Markdown或把阅读表当作已消化', async t => {
+  const { root, p } = await fixture(t);
+  const digest = '作者补充原作出处，驾驶者另有其人。\n'.repeat(300);
+  p.videos[0].reading.digest = digest;
+  p.videos[0].reading.scope = '只读简介与2主线程，未看影像。';
+  await fs.writeFile(path.join(root, 'docs/bilibili/123.json'), JSON.stringify(p));
   await fs.writeFile(path.join(root, 'src/people/demo/materials-demo.md'),
     `# 素材\n\n## 旧阅读范围\n\n只读简介与2主线程，未看影像。\n\n| [作品](${bv}) | 取得20线程 |\n\n- ${bv}：作者补充原作出处，驾驶者另有其人。\n`);
   await run(root, 'sync');
   const v = JSON.parse((await run(root, 'show', '123', bv))[0]);
   assert.equal(v.reading.state, 'material_linked');
-  assert.equal(v.material_evidence[0].kind, 'table_row');
-  assert.match(v.material_evidence[0].context, /只读简介与2主线程/);
-  assert.match(v.material_evidence[1].text, /驾驶者另有其人/);
+  assert.equal(v.reading.digest, digest);
+  assert.equal(v.reading.scope, p.videos[0].reading.scope);
+  assert.equal(v.material_evidence, undefined);
+  assert.equal(v.reading.material_refs, undefined);
+  const summary = JSON.parse((await run(root, 'show', '123'))[0]);
+  assert.equal(summary.videos[0].reading.has_digest, true);
+  assert.equal(summary.videos[0].reading.digest, undefined);
+  await fs.rm(path.join(root, 'src/people/demo/materials-demo.md'));
+  assert.equal(JSON.parse((await run(root, 'show', '123', bv))[0]).reading.digest, digest);
+});
+
+test('独立消化摘要不依赖素材回链，校验阅读范围与字段类型', async t => {
+  const { root, p } = await fixture(t);
+  p.identity.material = null;
+  p.videos[0].reading = { state: 'digested', digest: '简介提及原作，作者答复驾驶者不是自己。', scope: '简介与两个公开回复；影像未读' };
+  assert.deepEqual(await validateProfile(root, 'docs/bilibili/123.json', p), []);
+  assert.deepEqual((await syncProfile(root, p)).videos[0].reading, p.videos[0].reading);
+  for (const change of [{ digest: '' }, { digest: '  ' }, { digest: {} }, { scope: '' }, { scope: '  ' }, { scope: null }]) {
+    const invalid = structuredClone(p);
+    Object.assign(invalid.videos[0].reading, change);
+    assert.ok((await validateProfile(root, 'docs/bilibili/123.json', invalid)).some(s => s.includes('消化状态缺少')));
+  }
+  p.version = 1;
+  assert.ok((await validateProfile(root, 'docs/bilibili/123.json', p)).some(s => s.includes('version 2')));
 });
 
 test('旧搜索候选直接关联扫描记录，缺失批次或依据路径会报错', async t => {
@@ -233,12 +282,13 @@ test('图文按字符串ID归档，拒绝列表、摘要壳、错配URL和失败
 
 test('图文再导入保留旧文字与范围、署名及已消化状态', () => {
   const data = postCapture(), original = postFromCapture(data);
-  original.reading = { state: 'digested', material_refs: ['materials.md#post'], scope: '正文已摘要，评论未读' };
+  original.reading = { state: 'digested', digest: '作者说明原作和译者为不同账号，不能将翻译归给上传者。', scope: '正文已摘要，评论未读' };
   original.credit = { state: 'repost', note: '须区别译者和原作者' };
   const newer = postFromCapture({ ...data, at: '2026-10-25T00:00:00Z', coverage: '只读正文前半', metadata: { ...data.metadata, text: '更新的正文' } });
   const result = mergePost(original, newer);
   assert.equal(result.text, '更新的正文');
   assert.equal(result.reading.state, 'digested');
+  assert.deepEqual(result.reading, original.reading);
   assert.equal(result.credit.state, 'repost');
   assert.equal(result.text_history[0].text, original.text);
   assert.equal(result.text_history[0].capture_scope, data.coverage);
@@ -307,14 +357,18 @@ test('同一UID导入图文、同步、查询摘要与校验，不改视频状�
   assert.equal(summary.coverage.opus.state, 'unknown');
   assert.equal(summary.posts[0].reading.state, 'material_linked');
   const detail = JSON.parse((await run(root, 'show', '123', p.posts[0].key))[0]);
-  assert.match(detail.material_evidence[0].text, /事件摘记/);
+  assert.equal(detail.reading.digest, undefined);
   assert.equal(detail.usage.body, false);
   p = JSON.parse(await fs.readFile(path.join(root, 'docs/bilibili/123.json')));
-  p.posts[0].reading = { state: 'digested', scope: '仅正文', material_refs: ['src/people/demo/materials-demo.md#missing'] };
+  p.posts[0].reading = { state: 'digested', scope: '仅正文', digest: '作者亲述这一事件的经过；配图与评论未读。' };
+  await fs.writeFile(path.join(root, 'docs/bilibili/123.json'), JSON.stringify(p));
+  assert.equal(JSON.parse((await run(root, 'show', '123', p.posts[0].key))[0]).reading.digest, p.posts[0].reading.digest);
+  assert.deepEqual(await validateProfile(root, 'docs/bilibili/123.json', p), []);
+  p.posts[0].reading.digest = '  ';
   p.posts.push(structuredClone(p.posts[0]));
   p.channel.coverage.opus = { state: 'reviewed', scope: '图文首页' };
   const errors = await validateProfile(root, 'docs/bilibili/123.json', p);
   assert.ok(errors.some(e => e.includes('opus已取得状态缺少依据')));
-  assert.ok(errors.some(e => e.includes('锚点未落档')));
+  assert.ok(errors.some(e => e.includes('缺少本作品摘要')));
   assert.ok(errors.some(e => e.includes('无效或重复')));
 });
