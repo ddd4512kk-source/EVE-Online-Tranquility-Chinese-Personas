@@ -93,6 +93,43 @@
     "tags": [
       "00区",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:13:44Z",
+      "verdict": "国服开会不许录音，欧服谈判连棺材都交给了米塔尼。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "国服盟友会议上宣布不许录音，还说地盘变动须经他许可；整段话偏偏被录下来传成名场面。",
+          "sources": [{ "label": "知乎：国服霸权与录音风波", "url": "https://zhuanlan.zhihu.com/p/552425857" }]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "收录号零击杀、两次损失，战绩板空空荡荡；他的故事主要在联盟会议和外交桌上。",
+          "sources": [{ "label": "Mantou EVE zKillboard", "url": "https://zkillboard.com/character/2115140351/" }]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "组织移民欧服并拉起 AOM，把大批国服玩家聚到一面新旗帜下。",
+          "sources": [{ "label": "PIBC 移民大会纪要", "url": "https://www.reddit.com/r/Eve/comments/beqjsi/" }]
+        },
+        "charisma": {
+          "tier": "S",
+          "reason": "国服聚起 PIBC，移民时又有人跟着他在欧服竖起 AOM 的旗。",
+          "sources": [{ "label": "PIBC 移民大会纪要", "url": "https://www.reddit.com/r/Eve/comments/beqjsi/" }]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "跨服统揽国服 PIBC 十年霸权、西进欧服拉起 AOM 割据一方并纵横于大群雄之间；虽终局借壳进帝国受挫，其地缘操盘手腕仍属顶尖。",
+          "sources": [{ "label": "Reddit AOM 移民大会纪要译文", "url": "https://www.reddit.com/r/Eve/comments/beqjsi/" }, { "label": "Reddit 帝国逐出 RR 与 AOM 事件复盘", "url": "https://www.reddit.com/r/Eve/comments/s0ovyw/" }]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "PIBC 在国服经营交易星城，欧服 AOM 的守城补损也有大手笔；这位老板管的是联盟级的账。",
+          "sources": [{ "label": "知乎：PIBC 交易星城", "url": "https://zhuanlan.zhihu.com/p/552425857" }, { "label": "浮岳补损官回忆", "url": "https://tieba.baidu.com/p/8738371316" }]
+        }
+      }
+    }
   }
 }

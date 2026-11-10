@@ -73,7 +73,7 @@
         "id": 2117947295,
         "name": "Tantami duominx",
         "sources": [
-          "materials-duomi.md"
+          "materials-duomi.json"
         ],
         "zkb": {
           "kills": 234,
@@ -87,7 +87,7 @@
         "id": 2118744005,
         "name": "Duomi D01",
         "sources": [
-          "materials-duomi.md"
+          "materials-duomi.json"
         ],
         "zkb": {
           "kills": 0,
@@ -101,7 +101,7 @@
         "id": 2118767881,
         "name": "Duomi D02",
         "sources": [
-          "materials-duomi.md"
+          "materials-duomi.json"
         ],
         "zkb": {
           "kills": 0,
@@ -115,7 +115,7 @@
         "id": 2118786461,
         "name": "Duomi D03",
         "sources": [
-          "materials-duomi.md"
+          "materials-duomi.json"
         ],
         "zkb": {
           "kills": 0,
@@ -130,7 +130,7 @@
         "name": "Fugas duominx",
         "basis": "2026-10-25 ESI：同duominx词根，与Aitt duominx同属Dracarys.；当前在执行军团SummerHall。",
         "sources": [
-          "materials-duomi.md#执行军团小号对应"
+          "materials-duomi.json#执行军团小号对应"
         ],
         "zkb": {
           "kills": 5,
@@ -165,6 +165,77 @@
       "CEO",
       "B站",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:38:00Z",
+      "verdict": "叱咤PH与DC两朝的“多米大元帅”，集无畏统帅之武略与军团治理于一身，雷厉风行的大舰队核心指挥官。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "军团简介借绝地潜兵‘管理式民主’幽默整活，虽有PH散伙会与内部管理摩擦，但属常规自嘲玩笑，无出格恶行。",
+          "sources": [
+            {
+              "label": "管理式民主军团简介",
+              "url": "https://esi.evetech.net/latest/corporations/98817310/"
+            },
+            {
+              "label": "B站《PHCN皇家会议记录》",
+              "url": "https://www.bilibili.com/video/BV15LbpzkEbe/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "个人击杀近八千次，常年亲率无畏与旗舰机队杀入塔夫等大型战役，战力强悍。",
+          "sources": [
+            {
+              "label": "塔夫大型无畏战击杀",
+              "url": "https://zkillboard.com/kill/133568058/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "PH华人圈与黄昏无畏绝对统帅，塔夫等大型旗舰会战主力核心指挥官。",
+          "sources": [
+            {
+              "label": "塔夫战役指挥记录",
+              "url": "https://zkillboard.com/kill/133568058/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "治军严苛虽被讥为暴政，却拥有极强号召力，迅速在DC拉起七百余人的庞大军团。",
+          "sources": [
+            {
+              "label": "黄昏无畏军团规模数据",
+              "url": "https://esi.evetech.net/latest/corporations/98817310/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "PH与DC两朝实权元帅，深谙告状、制衡与站队之道，坐拥联盟总监席位与独立决策权。",
+          "sources": [
+            {
+              "label": "军团简介声明联盟决策权",
+              "url": "https://esi.evetech.net/latest/corporations/98817310/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "统领700多角色大军团税收金库，坐拥庞大旗舰舰队与顶级战略资源。",
+          "sources": [
+            {
+              "label": "军团补助政策与战备资产",
+              "url": "https://esi.evetech.net/latest/corporations/98817310/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

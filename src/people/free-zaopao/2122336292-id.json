@@ -50,6 +50,77 @@
       "FRT",
       "B站",
       "新人教官"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:03:15Z",
+      "verdict": "战斗记录很勤，视频里也常见新人教学；耻辱榜公开挂，教官证倒是续得很稳定。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "公开耻辱榜和轻松自嘲形成了可辨识的趣味记录，影响有限，不上调为重大争议。",
+          "sources": [
+            {
+              "label": "新人教学视频",
+              "url": "https://www.bilibili.com/video/BV1ExaS6HEHZ/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "有近三千次击杀及多场规模战斗记录，战斗参与度突出；尚不足以单凭数量认定顶尖个人战力。",
+          "sources": [
+            {
+              "label": "Free Zaopao 战斗记录",
+              "url": "https://zkillboard.com/character/2122336292/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "材料重点是新人教学与内容分享，没有证据显示其承担舰队指挥或实战组织职责。",
+          "sources": [
+            {
+              "label": "新人教学视频",
+              "url": "https://www.bilibili.com/video/BV1quHX6YERi/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站‘进击的小肥皂泡’发布近50条高播视频，连载全套新人教学与耻辱榜，积累大量跨军团新手拥趸。",
+          "sources": [
+            {
+              "label": "新人教学视频",
+              "url": "https://www.bilibili.com/video/BV1ExaS6HEHZ/"
+            },
+            {
+              "label": "进击的小肥皂泡 B站主页",
+              "url": "https://space.bilibili.com/21781211"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "现有材料未显示联盟外交、军团治理或派系协调职责。",
+          "sources": [
+            {
+              "label": "新人教学视频",
+              "url": "https://www.bilibili.com/video/BV1quHX6YERi/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "战斗价值和视频播放量都不能证明个人资产或稳定产业收入。",
+          "sources": [
+            {
+              "label": "Free Zaopao 战斗记录",
+              "url": "https://zkillboard.com/character/2122336292/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

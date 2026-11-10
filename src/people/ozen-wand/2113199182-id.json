@@ -39,7 +39,7 @@
           "uid": "1433722596",
           "name": "史诗级蛇精病",
           "sources": [
-            "materials-ozen-wand.md"
+            "materials-ozen-wand.json"
           ]
         }
       ]
@@ -66,6 +66,73 @@
       "FC",
       "B站",
       "低素质"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "拦路铆泡泡，送客做代驾。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "普通骂街与梗图按口角评，不把代驾当神人。",
+          "sources": [
+            {
+              "label": "本人补述群聊禁言经过",
+              "url": "https://forums.winterco.org/t/ozen-wand/25906/2"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千余击杀、五十余Solo，专精泡泡与重船协同。",
+          "sources": [
+            {
+              "label": "Ozen Wand zKillboard",
+              "url": "https://zkillboard.com/character/2113199182/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "实际带过后勤走位并任舰队指挥，有十个监视者日期。",
+          "sources": [
+            {
+              "label": "后勤走位实战复盘",
+              "url": "https://www.bilibili.com/video/BV1AL4y177YD/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期视频、梗图与代驾服务，有跨团受众。",
+          "sources": [
+            {
+              "label": "古法代驾工作室广告",
+              "url": "https://tieba.baidu.com/p/8449104124"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "军团公共事务协助为主，未见核心治理权力。",
+          "sources": [
+            {
+              "label": "古法代驾工作室广告",
+              "url": "https://tieba.baidu.com/p/8449104124"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "大亨名单确认多年经营旗舰、长须鲸和跳货代驾。",
+          "sources": [
+            {
+              "label": "古法代驾工作室广告",
+              "url": "https://tieba.baidu.com/p/8449104124"
+            }
+          ]
+        }
+      }
+    }
   }
 }

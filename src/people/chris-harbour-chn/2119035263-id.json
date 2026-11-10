@@ -54,7 +54,82 @@
       "比赛",
       "AT22亚军",
       "D.C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "名册排第一，十九场座位里没有他。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "比赛名册与上场名单反差不属于出格行为。",
+          "sources": [
+            {
+              "label": "AT22官方名册榜首队长",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            },
+            {
+              "label": "全19场比赛席位记录",
+              "url": "https://open.eve-nt.uk/portal/match/4123"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两号两千余击杀及一百余Solo；十九场未上场，不套AT选手底线。",
+          "sources": [
+            {
+              "label": "阿提奥斯星空参战记录",
+              "url": "https://zkillboard.com/kill/134568727/"
+            },
+            {
+              "label": "出战与击杀总览",
+              "url": "https://zkillboard.com/character/2119035263/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "AT22队长承担赛事团队协调，未据此算大战FC。",
+          "sources": [
+            {
+              "label": "队伍构成与官方名单",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "亚军队队长身份有竞技圈辨识度，未见大型受众。",
+          "sources": [
+            {
+              "label": "战友名册互动",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "负责比赛队组织，按局部团队协调评。",
+          "sources": [
+            {
+              "label": "龙焰赛事架构",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有记录未显示赛船持有或大额产业，按自给评。",
+          "sources": [
+            {
+              "label": "出战战舰损失档案",
+              "url": "https://zkillboard.com/character/2119035263/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -63,7 +138,7 @@
         "id": 2119693150,
         "name": "Chris Harbour CH1",
         "sources": [
-          "materials-chris-harbour-chn.md#同系列角色"
+          "materials-chris-harbour-chn.json#同系列角色"
         ],
         "basis": "Chris Harbour系列，同在宽带山，公开头衔均为翎枫钧",
         "zkb": {
@@ -78,7 +153,7 @@
         "id": 2119696419,
         "name": "Chris Harbour CH2",
         "sources": [
-          "materials-chris-harbour-chn.md#同系列角色"
+          "materials-chris-harbour-chn.json#同系列角色"
         ],
         "basis": "Chris Harbour系列，同在宽带山，公开头衔均为翎枫钧",
         "zkb": {

@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readAllIdentities } from './person-identity.mjs';
 import { readPersonDocument } from './person-document.mjs';
+import { materialPath } from './material-document.mjs';
 
 export const DIRECTORY = 'docs/corporations';
 const ID = /^[1-9]\d*$/;
@@ -79,7 +80,10 @@ function identityIndex(root) {
   for (const person of readAllIdentities(root).values()) {
     for (const id of [person.character_id, ...person.alts.map(alt => alt.id)]) {
       identities.set(String(id), { person: person.slug, character_id: person.character_id,
-        material: fs.existsSync(path.join(root, `src/people/${person.slug}/materials-${person.slug}.md`)) ? `src/people/${person.slug}/materials-${person.slug}.md` : null });
+        material: (() => {
+          const file = materialPath(path.join(root, 'src/people', person.slug), person.slug);
+          return fs.existsSync(file) ? path.relative(root, file).replaceAll('\\', '/') : null;
+        })() });
     }
   }
   return identities;
@@ -181,10 +185,20 @@ export function rankingMembers(root, id, { scope, period, alliance = false, ...p
 function localReference(root, value) {
   if (typeof value !== 'string' || !value) throw new Error('来源引用须为非空字符串');
   if (/^https:\/\//.test(value)) return;
-  const file = value.split('#')[0];
-  const absolute = path.resolve(root, file);
+  let file = value.split('#')[0];
+  let absolute = path.resolve(root, file);
   if (!file.startsWith('docs/') && !file.startsWith('src/')) throw new Error(`本地引用须从仓库根目录起算：${value}`);
-  if (!absolute.startsWith(path.resolve(root) + path.sep) || !fs.existsSync(absolute)) throw new Error(`本地引用不存在：${value}`);
+  if (!absolute.startsWith(path.resolve(root) + path.sep)) throw new Error(`本地引用不存在：${value}`);
+  if (!fs.existsSync(absolute) && /\.md$/.test(file)) {
+    for (const candidate of [file.replace(/\.md$/, '.json'), file.replace(/\.md$/, '-material.json')]) {
+      const resolved = path.resolve(root, candidate);
+      if (!resolved.startsWith(path.resolve(root) + path.sep) || !fs.existsSync(resolved)) continue;
+      try {
+        if (JSON.parse(fs.readFileSync(resolved, 'utf8')).type === 'material') { file = candidate; absolute = resolved; break; }
+      } catch { /* A non-material JSON file is not a Markdown alias. */ }
+    }
+  }
+  if (!fs.existsSync(absolute)) throw new Error(`本地引用不存在：${value}`);
 }
 
 export function checkArchive(root) {

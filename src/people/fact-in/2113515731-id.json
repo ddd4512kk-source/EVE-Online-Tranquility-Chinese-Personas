@@ -89,7 +89,7 @@
         "name": "Lao li",
         "basis": "ESI公开头衔“老李，古老IP，请修我的蛋”，自署老李并扣“遥修老李的蛋”梗；伏羲98185110历史榜第52名",
         "sources": [
-          "materials-fact-in.md"
+          "materials-fact-in.json"
         ],
         "zkb": {
           "kills": 4446,
@@ -120,8 +120,75 @@
     "tags": [
       "00区",
       "FRT",
-      "FC",
+      "著名FC",
       "低素质"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "敌人记得他的蛋，队友记得他的口令。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "普通谐星口令与论坛对线，按轻度口角评。",
+          "sources": [
+            {
+              "label": "白杉EVE梗王纪录片",
+              "url": "https://www.bilibili.com/video/BV1wK411r7sN/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "两号近八千击杀、九百余Solo，单杀与小队强项突出。",
+          "sources": [
+            {
+              "label": "fact in zKillboard",
+              "url": "https://zkillboard.com/character/2113515731/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "FDK到FRT长期散打主力FC，有稳定教学带队。",
+          "sources": [
+            {
+              "label": "老李fdk时期讲座录音",
+              "url": "https://forums.winterco.org/t/topic/2656"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "“遥修老李的蛋”跨团队传播，属著名谐星指挥。",
+          "sources": [
+            {
+              "label": "白杉EVE梗王纪录片",
+              "url": "https://www.bilibili.com/video/BV1wK411r7sN/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "军事指挥与游历军团不自动换成治理高层。",
+          "sources": [
+            {
+              "label": "老李fdk时期讲座录音",
+              "url": "https://forums.winterco.org/t/topic/2656"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "双号长期实战与高价值战备，按个人投入B。",
+          "sources": [
+            {
+              "label": "fact in zKillboard",
+              "url": "https://zkillboard.com/character/2113515731/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

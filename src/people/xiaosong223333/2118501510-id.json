@@ -127,6 +127,81 @@
       "00区",
       "INIT.",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "忠心挂在嘴上，溃败留给播放量。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "跑评论区挑衅属于普通阵营口水，至多C。",
+          "sources": [
+            {
+              "label": "4-H旁FRT大溃败视频",
+              "url": "https://www.bilibili.com/video/BV1zWodBYECW/"
+            },
+            {
+              "label": "早起后勤评论区自述正统性",
+              "url": "https://www.bilibili.com/video/BV1L8cxzQELt/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "四千余击杀、七十余Solo，稳定常规实战。",
+          "sources": [
+            {
+              "label": "塔夫战役咒灭出战记录",
+              "url": "https://zkillboard.com/kill/133569043/"
+            },
+            {
+              "label": "官方战绩与出勤档案",
+              "url": "https://zkillboard.com/character/2118501510/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "录下FC说话不是本人担任FC。",
+          "sources": [
+            {
+              "label": "后勤摸鱼日记视频",
+              "url": "https://www.bilibili.com/video/BV1G7zVBdEtN/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "持续会战影片有固定观众，未到大型跨圈受众A。",
+          "sources": [
+            {
+              "label": "小宋宋132132空间",
+              "url": "https://space.bilibili.com/410060728"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "招新宣传未显示组织管理。",
+          "sources": [
+            {
+              "label": "阵营横跳发言记录",
+              "url": "https://www.bilibili.com/video/BV1WfDEBpEak/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "常规战损与视频录制不当雄厚产业。",
+          "sources": [
+            {
+              "label": "战舰损失与装配档案",
+              "url": "https://zkillboard.com/character/2118501510/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

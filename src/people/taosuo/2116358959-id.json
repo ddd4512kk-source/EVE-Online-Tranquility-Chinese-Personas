@@ -55,6 +55,73 @@
       "CEO",
       "B站",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "套人录像很勤，自己的CEO岗却歇了。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "旧借款与团内口角按已见轻度纠纷评。",
+          "sources": [
+            {
+              "label": "Ganguehill套索 B站主页",
+              "url": "https://space.bilibili.com/27285042"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "八百余击杀，长期专精轻拦，资深战术职责。",
+          "sources": [
+            {
+              "label": "taosuo zKillboard",
+              "url": "https://zkillboard.com/character/2116358959/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "名字叫司令和拍FC录像不算本人带队。",
+          "sources": [
+            {
+              "label": "Gangue hill 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "二十一条会战录像有固定老团受众。",
+          "sources": [
+            {
+              "label": "Ganguehill套索 B站主页",
+              "url": "https://space.bilibili.com/27285042"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际创办并经营矸石山，CEO履职明确。",
+          "sources": [
+            {
+              "label": "Gangue hill 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "小船出勤与建团投入有余，未见雄厚产业。",
+          "sources": [
+            {
+              "label": "taosuo zKillboard",
+              "url": "https://zkillboard.com/character/2116358959/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

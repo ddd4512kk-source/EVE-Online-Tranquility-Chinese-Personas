@@ -43,11 +43,6 @@
       "count": 78
     }
   },
-  "scripts/blocks.mjs": {
-    "@stylistic/quotes": {
-      "count": 6
-    }
-  },
   "scripts/character-snapshot.mjs": {
     "@stylistic/arrow-parens": {
       "count": 4
@@ -111,28 +106,12 @@
   },
   "scripts/person-document.mjs": {
     "@stylistic/quotes": {
-      "count": 23
+      "count": 19
     }
   },
   "scripts/person-document.test.mjs": {
     "@stylistic/quotes": {
       "count": 33
-    }
-  },
-  "scripts/person-identity.mjs": {
-    "@stylistic/arrow-parens": {
-      "count": 15
-    },
-    "@stylistic/quotes": {
-      "count": 65
-    }
-  },
-  "scripts/person-identity.test.mjs": {
-    "@stylistic/arrow-parens": {
-      "count": 9
-    },
-    "@stylistic/quotes": {
-      "count": 82
     }
   },
   "scripts/research/baidu-search.mjs": {
@@ -299,14 +278,6 @@
     },
     "@stylistic/quotes": {
       "count": 91
-    }
-  },
-  "scripts/research/zkb-stats.mjs": {
-    "@stylistic/arrow-parens": {
-      "count": 6
-    },
-    "@stylistic/quotes": {
-      "count": 14
     }
   },
   "src/_data/characters.js": {

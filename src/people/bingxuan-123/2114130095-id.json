@@ -57,6 +57,73 @@
       "FRT",
       "CEO",
       "工业"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:31:28Z",
+      "verdict": "头衔自封活菩萨，手搓泰坦造血万千，执掌三千角色第二大军团的星尘守护CEO。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "头衔自封‘军团支柱 活菩萨’，将星尘守护做大到三千多角色并列全盟第二大军团，豪迈手搓泰坦战备，菩萨掌门形象极具辨识度。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "星尘守护招新帖",
+              "url": "https://forums.winterco.org/t/topic/10619"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "常备主力战备巡洋与重装出勤，常规实战跟队成熟稳健，合格中坚主力。",
+          "sources": [
+            {
+              "label": "bingxuan 123 zKillboard",
+              "url": "https://zkillboard.com/character/2114130095/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "星尘守护的 CEO，管的是三千多号人的军团与工业，没有 FC 标注或带队记录；军团管理不算舰队指挥，按普通随队 D。",
+          "sources": [
+            {
+              "label": "帝国新闻社关于星尘守护报道",
+              "url": "https://forum.pla-eve.com/topic/248-sgcn/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "被全团三千多名成员由衷尊为‘活菩萨’，为新手提供全额工业造血扶持，军团内部威望极高。",
+          "sources": [
+            {
+              "label": "星尘守护招新帖",
+              "url": "https://forums.winterco.org/t/topic/10619"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "执掌全联盟第二大成员军团，深度参与FRT联盟中枢战略与战备地缘布局，无可争议的内阁重臣。",
+          "sources": [
+            {
+              "label": "星尘守护军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "成规模流水线批量建造泰坦与战备超旗，个人资产达数 T，全服顶级工业巨擘评 EX。",
+          "sources": [
+            {
+              "label": "星尘守护招新帖",
+              "url": "https://forums.winterco.org/t/topic/10619"
+            }
+          ]
+        }
+      }
+    }
   }
 }

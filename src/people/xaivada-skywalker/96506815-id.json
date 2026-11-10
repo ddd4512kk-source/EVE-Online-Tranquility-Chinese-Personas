@@ -108,7 +108,7 @@
         "id": 2115594093,
         "name": "WTB Fanta",
         "sources": [
-          "materials-xaivada-skywalker.md"
+          "materials-xaivada-skywalker.json"
         ],
         "zkb": {
           "kills": 979,
@@ -122,7 +122,7 @@
         "id": 2122203216,
         "name": "Uber Eat",
         "sources": [
-          "materials-xaivada-skywalker.md"
+          "materials-xaivada-skywalker.json"
         ],
         "zkb": {
           "kills": 935,
@@ -150,6 +150,77 @@
       "NC",
       "FC",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "抵抗之狐“第一巴图鲁”，欧区外交总监兼黑隐指挥与IT运维，杂活全包的老黄牛。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "名片写‘FOX镶黄旗第一巴图鲁’极具趣味，实则桌上谈外交、出门带队、回头发服务器，标准守序老黄牛模范。",
+          "sources": [
+            {
+              "label": "抵抗之狐管理团队架构",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号五千五百余杀，已确认两个小号均近千杀，长期多号与黑隐实战共同评价。",
+          "sources": [
+            {
+              "label": "Xaivada Skywalker zKillboard",
+              "url": "https://zkillboard.com/character/96506815/"
+            },
+            {
+              "label": "艾格玛尔战损记录",
+              "url": "https://zkillboard.com/kill/125018250/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "出任抵抗之狐黑隐队指挥官，负责敌后战术突袭与特战侦察组织。",
+          "sources": [
+            {
+              "label": "抵抗之狐管理团队架构",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "兼顾外交、运维和黑隐队工作，体现本团信任与固定队员认可。",
+          "sources": [
+            {
+              "label": "抵抗之狐管理团队架构",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "担任军团欧区外交总监，负责开拓多国联盟合作与外交互信，外交素养扎实。",
+          "sources": [
+            {
+              "label": "抵抗之狐管理团队架构",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "持续承担黑隐等高价值单船投入，后勤完善不等于个人大额筹资能力。",
+          "sources": [
+            {
+              "label": "Xaivada Skywalker zKillboard",
+              "url": "https://zkillboard.com/character/96506815/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

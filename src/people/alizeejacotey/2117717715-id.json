@@ -81,7 +81,74 @@
       "00区",
       "CEO",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "当了老板，才开始认真上班。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "建号简介与建团后勤奋的反差不算出格行为。",
+          "sources": [
+            {
+              "label": "角色官方宏大长文简介",
+              "url": "https://esi.evetech.net/latest/characters/2117717715/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "建团后稳定出勤短剑与海军巡洋，六百余击杀。",
+          "sources": [
+            {
+              "label": "近三个月狂暴击杀档案",
+              "url": "https://zkillboard.com/character/2117717715/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "创团和招募不能代替实战带队记录。",
+          "sources": [
+            {
+              "label": "军团作战出勤记录",
+              "url": "https://zkillboard.com/character/2117717715/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "三个月聚起两百余角色并建立招新分工。",
+          "sources": [
+            {
+              "label": "军团总监与招新官配置",
+              "url": "https://esi.evetech.net/latest/characters/2117717715/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "亲自创办并经营Deadspace Spearhead，按履职CEO评。",
+          "sources": [
+            {
+              "label": "军团联盟变迁记录",
+              "url": "https://esi.evetech.net/latest/characters/2117717715/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "短剑与巡洋出勤只能支撑自给判断。",
+          "sources": [
+            {
+              "label": "作战装配与损失明细",
+              "url": "https://zkillboard.com/character/2117717715/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -91,7 +158,7 @@
         "name": "zhayu0007",
         "basis": "ESI公开头衔同为“斯特”，该头衔只见于本号主同组角色；同军团98841123历史榜同组",
         "sources": [
-          "materials-alizeejacotey.md"
+          "materials-alizeejacotey.json"
         ],
         "zkb": {
           "kills": 5,
@@ -106,7 +173,7 @@
         "name": "zhayu0005",
         "basis": "ESI公开头衔同为“斯特”，该头衔只见于本号主同组角色；同军团98841123历史榜同组",
         "sources": [
-          "materials-alizeejacotey.md"
+          "materials-alizeejacotey.json"
         ],
         "zkb": {
           "kills": 4,
@@ -121,7 +188,7 @@
         "name": "zhayu0008",
         "basis": "ESI公开头衔同为“斯特”，该头衔只见于本号主同组角色；同军团98841123历史榜同组",
         "sources": [
-          "materials-alizeejacotey.md"
+          "materials-alizeejacotey.json"
         ],
         "zkb": {
           "kills": 2,

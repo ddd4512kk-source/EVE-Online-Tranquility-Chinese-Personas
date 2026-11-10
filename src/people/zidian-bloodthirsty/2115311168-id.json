@@ -187,6 +187,73 @@
       "CEO",
       "低素质",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "散场会他主持，新团的灯也由他开。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "外交争吵与阵营口水按C，不把迁徙失败当恶行。",
+          "sources": [
+            {
+              "label": "震惊：新伊甸知名FC卡戎大将负气离场讨论帖",
+              "url": "https://tieba.baidu.com/p/9905196082"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "五千余击杀、百余Solo，多年常规实战扎实。",
+          "sources": [
+            {
+              "label": "zidian bloodthirsty zKillboard",
+              "url": "https://zkillboard.com/character/2115311168/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "炸弹与游击队长期带领，实际FC职责明确。",
+          "sources": [
+            {
+              "label": "墨者联盟人事名册",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期摄影、招募与旧团追随，跨团知名度稳定。",
+          "sources": [
+            {
+              "label": "墨者联盟招新讨论帖",
+              "url": "https://tieba.baidu.com/p/9905196082"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期墨者CEO并主持RR散场、墨家治理，属联盟核心。",
+          "sources": [
+            {
+              "label": "墨者联盟招新讨论帖",
+              "url": "https://tieba.baidu.com/p/9905196082"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "持续军团战备有余，未见雄厚个人产业依据。",
+          "sources": [
+            {
+              "label": "zidian bloodthirsty zKillboard",
+              "url": "https://zkillboard.com/character/2115311168/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

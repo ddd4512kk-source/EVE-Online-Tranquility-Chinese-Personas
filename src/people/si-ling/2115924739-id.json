@@ -53,6 +53,73 @@
       "00区",
       "FC",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "创世老牌魔域冰人，丢底特后率团重整旗鼓登周榜前三，开泰坦出门却被自家管理一路报点催促敌对抓捕的功勋FC。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "泰坦行踪被自己人通报，属于遭遇背刺，不给受害者加神人值。",
+          "sources": [
+            {
+              "label": "怯薛整顿通报与报点截图",
+              "url": "https://forums.winterco.org/t/topic/13441"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "近八千次参与击杀、2.83T战果，创世老牌核心战斗指挥与泰坦机师。",
+          "sources": [
+            {
+              "label": "Ahulamumu zKillboard",
+              "url": "https://zkillboard.com/character/2115924739/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "军团六位指挥之一，长期反收割获联盟简报点名，支持稳定指挥骨干。",
+          "sources": [
+            {
+              "label": "创世倾域战报与周榜喜报帖",
+              "url": "https://tieba.baidu.com/p/6433900881"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "军团招新以六位指挥作招牌，有固定跟队认同，未见跨圈大型受众。",
+          "sources": [
+            {
+              "label": "创世倾域战报与周榜喜报帖",
+              "url": "https://tieba.baidu.com/p/6433900881"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "前线骨干和被卷入整顿是已知经历，不能据此推定实际高层治理权限。",
+          "sources": [
+            {
+              "label": "ChuangShi 军团档案",
+              "url": "https://zkillboard.com/corporation/98485299/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "实际拥有、投入泰坦与多套战备，支撑大额个人资产档。",
+          "sources": [
+            {
+              "label": "Ahulamumu zKillboard",
+              "url": "https://zkillboard.com/character/2115924739/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

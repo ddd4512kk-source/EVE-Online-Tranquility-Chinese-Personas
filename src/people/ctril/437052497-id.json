@@ -154,6 +154,73 @@
     "epithet": "前线集结时发邮件收死亡，一封邮件收走了半个盘古。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "前线生死CTA时群发邮件收死亡，引爆五十亿罚款促成 FRT 诞生的蝴蝶翅膀。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "CTA 邮件里三折收购虫洞星系，开战动员被写成房产甩卖，盟友的战前频道多了一场议价风波。",
+          "sources": [
+            {
+              "label": "盘古收死亡事件与道歉信记录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "击杀仅24次，几乎不参与大队对抗，长年沉溺于单人收死亡与避战，战力探底。",
+          "sources": [
+            {
+              "label": "Ctril zKillboard",
+              "url": "https://zkillboard.com/character/437052497/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "纯粹的独行老农与商人，从未参与或承担任何舰队带队任务，甚至屡次逃避联盟大集结。",
+          "sources": [
+            {
+              "label": "Ctril 历史履历",
+              "url": "https://zkillboard.com/character/437052497/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "圈内老牌自留地老农，虽有同团管理出面求情垫款，但对外界并无大众号召力，常人基准。",
+          "sources": [
+            {
+              "label": "盘古收死亡事件",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "政治嗅觉极其迟钝，战火纷飞之际公然踩中联盟军纪雷区，检讨信连出三处错别字，彻底引爆高层地缘决裂。",
+          "sources": [
+            {
+              "label": "《发错联盟邮件的处罚》全盟道歉信",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "‘眼中没有联盟又不缺钱的老成员’，长年包揽高端死亡空间产出，随手支付五亿巨额现金罚款毫无压力。",
+          "sources": [
+            {
+              "label": "盘古收死亡事件",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        }
+      }
+    }
   }
 }

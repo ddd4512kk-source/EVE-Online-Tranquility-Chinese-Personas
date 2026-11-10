@@ -103,7 +103,7 @@
         "id": 343563816,
         "name": "nextorian",
         "sources": [
-          "materials-noraus.md"
+          "materials-noraus.json"
         ],
         "zkb": {
           "kills": 1890,
@@ -117,7 +117,7 @@
         "id": 2119903834,
         "name": "10seconds",
         "sources": [
-          "materials-noraus.md"
+          "materials-noraus.json"
         ],
         "zkb": {
           "kills": 481,
@@ -131,7 +131,7 @@
         "id": 126517376,
         "name": "Randolph Yuan",
         "sources": [
-          "materials-noraus.md"
+          "materials-noraus.json"
         ],
         "zkb": {
           "kills": 586,
@@ -145,7 +145,7 @@
         "id": 2119358424,
         "name": "larren lawson",
         "sources": [
-          "materials-noraus.md"
+          "materials-noraus.json"
         ],
         "zkb": {
           "kills": 22,
@@ -180,6 +180,81 @@
       "联盟管理",
       "CEO",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "笔下是《N子兵法》，战壕里是唱歌动员；仇人可以拉蓝，账本绝不拉红。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "常年在联盟动员与舰队语音中粗口连篇、暴躁训斥（名言‘安全套永远准备两个’、‘看看谁耻辱得没有跟上’、公然痛斥对手为懦夫），毒舌粗犷风格全服闻名。",
+          "sources": [
+            {
+              "label": "知乎 UALX 战役回忆",
+              "url": "https://www.zhihu.com/question/285967560"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号近一千五百次击杀，多个常用小号千次参战；UALX-3 亲开使徒进战场支援，常年开特种巡洋跟队。",
+          "sources": [
+            {
+              "label": "UALX-3 使徒参战损失记录",
+              "url": "https://zkillboard.com/kill/71332828/"
+            },
+            {
+              "label": "noraus zKillboard",
+              "url": "https://zkillboard.com/character/1618197191/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "执掌凛冬联盟最高军事调度，亲自指挥多次战役动员、战略添油布局，是全服最具威望的大联盟总指挥之一。",
+          "sources": [
+            {
+              "label": "《北方战争总结》",
+              "url": "https://winterco.org/2023/11/24/647/bei-fang-zhan-zheng-zong-jie/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "S",
+          "reason": "凝聚海内外华人与国际军团，善写连载战报与《N子兵法》，动员会上唱歌让敌对严阵备勤，领袖魅力极高。",
+          "sources": [
+            {
+              "label": "EN24 专访 noraus",
+              "url": "https://evenews24.com/2021/06/04/interview-with-noraus/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "EX",
+          "reason": "从南方败退北迁后白手重组，击溃北方联军、重创帝国北伐，将 FRT 带成与帝国、PH 平起平坐的新伊甸三极之一。",
+          "sources": [
+            {
+              "label": "EN24 专访 noraus",
+              "url": "https://evenews24.com/2021/06/04/interview-with-noraus/"
+            },
+            {
+              "label": "《北方战争总结》",
+              "url": "https://winterco.org/2023/11/24/647/bei-fang-zhan-zheng-zong-jie/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "执掌整个 Winter Coalition 财政与补损中枢，调动数百 T 战争资金，一手打造顶级战争机器与工业流水线。",
+          "sources": [
+            {
+              "label": "艾蒂斯战役战后公告",
+              "url": "https://winterco.org/2026/04/09/749/ji-lu-ai-di-si-xing-cheng-zhan-ji-qi-hou-xu/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

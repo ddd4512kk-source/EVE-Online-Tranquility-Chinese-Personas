@@ -142,10 +142,77 @@
     "epithet": "北方停战的签字人",
     "tags": [
       "00区",
-      "FC",
+      "著名FC",
       "联盟管理",
       "INIT."
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "和平谈妥了，北方的账还得算。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "交易与联盟外交争议不直接当个人严重恶行。",
+          "sources": [
+            {
+              "label": "Reddit DARKNESS 主权打包出售分析",
+              "url": "https://www.reddit.com/r/Eve/comments/c2df47/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "本人泰坦实战承受集火，达到旗舰资深战斗路径。",
+          "sources": [
+            {
+              "label": "Sort Dragon zKillboard",
+              "url": "https://zkillboard.com/character/1272172192/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "B-R协调俄方舰队，长期集团主力指挥。",
+          "sources": [
+            {
+              "label": "北方战役史料记录",
+              "url": "https://evemaps.dotlan.net/alliance/Darkness."
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "联盟和CSM长期经营，具跨团追随与知名度。",
+          "sources": [
+            {
+              "label": "CSM 历届名单记录",
+              "url": "https://www.eveonline.com/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "长期执掌DARKNESS与GOTG重要派系。",
+          "sources": [
+            {
+              "label": "Reddit DARKNESS 主权变卖分析",
+              "url": "https://www.reddit.com/r/Eve/comments/c2df47/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "处置四十座堡垒与集团资源，顶级联盟资金调度。",
+          "sources": [
+            {
+              "label": "DARKNESS 资产流转记录",
+              "url": "https://evemaps.dotlan.net/alliance/Darkness."
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

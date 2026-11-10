@@ -65,7 +65,90 @@
       "新人教官",
       "江湖恩怨",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "教过一代萌新，封过一吧网友；反手删掉官方帖，深空扔币带走全团。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "删了自己的版主帖，又把一百八十多人的电话名单贴出来叫人去骚扰；通讯录被他写成了出征名单。",
+          "sources": [
+            {
+              "label": "爱丽丝《关于夺米台风利用吧务权限乱删帖的事实》",
+              "url": "https://forums.winterco.org/t/topic/3657"
+            },
+            {
+              "label": "星华公开电话本原帖",
+              "url": "https://forums.winterco.org/t/topic/14252"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "六千余次击杀，资深黑隐猎手；M2-XFE 两场史诗决战均驾驶冥府级超级航空母舰参战，多次亲驾监视者指挥。",
+          "sources": [
+            {
+              "label": "M2-XFE 首战冥府参战记录",
+              "url": "https://zkillboard.com/kill/89617036/"
+            },
+            {
+              "label": "DomiTyphoon zKillboard",
+              "url": "https://zkillboard.com/character/2113029856/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "星华多年军团长，多次驾驶监视者带队指挥作战，但内部带队常伴随情绪化争端与人员流失。",
+          "sources": [
+            {
+              "label": "监视者出勤与军团出勤记录",
+              "url": "https://zkillboard.com/character/2113029856/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "两朝元老总教头，国服欧服撰写数十万字百科攻略，自称‘老娘是纯爷们’，拥有大量跨服拥趸与争议声望。",
+          "sources": [
+            {
+              "label": "知乎《台风阿姨的 Eve 之旅》",
+              "url": "https://zhuanlan.zhihu.com/p/31771818"
+            },
+            {
+              "label": "晨曦名人堂盘点",
+              "url": "https://baijiahao.baidu.com/s?id=1683972824812413117"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "两度当吧主皆因滥权被官方撤职；在蜜蜂被定性为泄密间谍扫地出门；因个人 RMT 导致星华被迫解散切割，手腕极其狼狈。",
+          "sources": [
+            {
+              "label": "Reddit 帝国清出星华通告",
+              "url": "https://www.reddit.com/r/eveonline/comments/1qymhth/a_chinese_gsf_ceo_domityphoon_has_been/"
+            },
+            {
+              "label": "贴吧《请求撤销吧主夺米台风》",
+              "url": "https://tieba.baidu.com/p/6532450342"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "常开冥府、救世级高价值舰船，经营物流快递与外围产业；但因违规被 CCP 永久封禁主号，资产屡受重创。",
+          "sources": [
+            {
+              "label": "贴吧封号讨论记录",
+              "url": "https://tieba.baidu.com/p/10319920830"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -75,7 +158,7 @@
         "name": "DomiTyphoon",
         "basis": "原收录号，2026-11-01因因RMT被CCP永久封号改收not a dropper；两号对应：ESI：2025-12-18 建号，进 Sing Hua（CN.S，台风的军团）；2026-01-31 起在 Euphoria.（E0.），ESI 头衔同为“元帅哥”",
         "sources": [
-          "materials-domityphoon.md"
+          "materials-domityphoon.json"
         ],
         "zkb": {
           "kills": 6204,
@@ -90,7 +173,7 @@
         "name": "Brad Aivora",
         "sources": [
           "https://evewho.com/character/2124554055",
-          "materials-domityphoon.md#11月4日脱离天宫加入创世主导wf的安排"
+          "materials-domityphoon.json#11月4日脱离天宫加入创世主导wf的安排"
         ],
         "zkb": {
           "kills": 0,
@@ -99,7 +182,7 @@
           "last_active": "",
           "as_of": "2026-10-26"
         },
-        "basis": "ESI：2026-07-18 建号，当日进入 Euphoria.（E0.，98825114），头衔“元帅哥”（见[王答答素材](../drone-wang/materials-drone-wang.md)中嗜血贴吧帖截图），QQ 群昵称“[E0]救世哥”。为台风的新号；新增QQ群通知中Brad Aivora资料卡昵称夺米台风，沿用[E0]救世哥名发布搬迁安排。"
+        "basis": "ESI：2026-07-18 建号，当日进入 Euphoria.（E0.，98825114），头衔“元帅哥”（见[王答答素材](../drone-wang/materials-drone-wang.json)中嗜血贴吧帖截图），QQ 群昵称“[E0]救世哥”。为台风的新号；新增QQ群通知中Brad Aivora资料卡昵称夺米台风，沿用[E0]救世哥名发布搬迁安排。"
       }
     ],
     "accounts": {},

@@ -298,7 +298,7 @@
         "id": 1264671732,
         "name": "LIZARD MK",
         "sources": [
-          "materials-lizard-k.md"
+          "materials-lizard-k.json"
         ],
         "zkb": {
           "kills": 2091,
@@ -324,6 +324,85 @@
     "epithet": "头衔封了三公一国公，简介自挂东南枝五次。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "简介封满三公一国公的OSY核心管理兼主力FC，坐拥万四击杀，开着短剑打满M2-XFE泰坦决战。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "三公头衔、自挂东南枝与海盗路费是游戏玩梗，未据此判恶行。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "LIZARD K 角色名片与档案",
+              "url": "https://zkillboard.com/character/983162808/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "生涯击杀超14000次、单杀超300次，开灵感长年坐镇OSY门神，并驾驶短剑打满M2-XFE泰坦大决战。",
+          "sources": [
+            {
+              "label": "LIZARD K zKillboard",
+              "url": "https://zkillboard.com/character/983162808/"
+            },
+            {
+              "label": "M2-XFE 泰坦决战击损记录",
+              "url": "https://zkillboard.com/kill/89683597/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "长期负责 OSY 周边巡猎与防御，是稳定地方 FC，未据此推定联盟级大舰队主官。",
+          "sources": [
+            {
+              "label": "EveWho 角色与联盟履历",
+              "url": "https://evewho.com/character/983162808"
+            },
+            {
+              "label": "LIZARD K zKillboard",
+              "url": "https://zkillboard.com/character/983162808/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "多年 OSY 门神与老玩家圈辨识度，支持地方海盗领袖档。",
+          "sources": [
+            {
+              "label": "老老男人军团历史讨论",
+              "url": "https://zkillboard.com/character/983162808/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期参与 OSY 联盟核心管理与据点协调，有实际联盟层级职责。",
+          "sources": [
+            {
+              "label": "EveWho 联盟任职记录",
+              "url": "https://evewho.com/character/983162808"
+            },
+            {
+              "label": "贴吧OSY堡垒交涉记录",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "长期维持特种战备；堡垒赔款是损失补偿，不当作新增产业收入。",
+          "sources": [
+            {
+              "label": "LIZARD K zKillboard",
+              "url": "https://zkillboard.com/character/983162808/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

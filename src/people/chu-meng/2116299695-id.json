@@ -88,7 +88,7 @@
         "id": 2112470936,
         "name": "YoYo zhang",
         "sources": [
-          "materials-chu-meng.md"
+          "materials-chu-meng.json"
         ],
         "zkb": {
           "kills": 1660,
@@ -110,12 +110,79 @@
   "person": {
     "cn_name": "初梦",
     "aliases": [],
-    "epithet": "名字怕人记不住，战斗业务倒都归他",
+    "epithet": "猎物挂简介，打架归他管",
     "tags": [
       "00区",
       "NC",
       "FC",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "抵抗之狐的战斗总监兼股东，既要出勤，也要替一团人写出战的话。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "正规军团战斗总监与股东，名片虽长但行事正派守序，常人基准。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号近六千杀、小号一千六百余杀，多个已确认角色长期作战，不能只看官网职务。",
+          "sources": [
+            {
+              "label": "chu meng zKillboard",
+              "url": "https://zkillboard.com/character/2116299695/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "官网明确统筹战斗指挥体系，支持指挥骨干；尚无大战规模支撑 A 档。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "官网致辞与战斗部门工作体现军团内影响。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "核心股东、战斗总监，实际参与军团最高决策。",
+          "sources": [
+            {
+              "label": "抵抗之狐团队官网",
+              "url": "https://foxor.cc/team/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": null,
+          "reason": "股东身份本身不能说明持有多少资产或承担多少战备。",
+          "sources": [
+            {
+              "label": "chu meng zKillboard",
+              "url": "https://zkillboard.com/character/2116299695/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

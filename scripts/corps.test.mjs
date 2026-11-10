@@ -39,6 +39,14 @@ test('军团志不用列传的料块与朱批，不能空着，公开招新群�
   assert.equal(validateCorpBody('   ', 'fict').length, 1);
 });
 
+test('宣传语不用感叹号', () => {
+  for (const epithet of ['一句话！', '一句话!']) {
+    const loud = archive();
+    loud.corp.epithet = epithet;
+    assert.equal(validateCorpArchive(loud, 'fict').length, 1);
+  }
+});
+
 test('手工区域只收已知键', () => {
   const zoned = archive();
   zoned.corp.zones = ['high', 'null'];
@@ -48,7 +56,7 @@ test('手工区域只收已知键', () => {
 });
 
 test('军团视觉风格与三维评价指数须合法', () => {
-  assert.equal(CORP_STYLES.length, 6);
+  assert.equal(CORP_STYLES.length, 11);
   assert.deepEqual(CORP_RATING_DIMENSIONS.map(d => d.label), ['武德', '含神量', '声望']);
 
   const edge = archive();

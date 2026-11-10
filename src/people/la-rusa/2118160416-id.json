@@ -66,13 +66,87 @@
     "aliases": [
       "La Rusa"
     ],
-    "epithet": "在洋人虫洞团拆过星城，回头去当只收中文的团长。",
+    "epithet": "接手老号的低安土著团长，拿英文告示把老外挡在门外。",
     "tags": [
-      "虫洞",
       "低安",
       "CEO",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "简介写英文，门口只接华人。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "纯华人团用英文简介是趣味，不算出格。",
+          "sources": [
+            {
+              "label": "军团官方英文拒绝告示",
+              "url": "https://esi.evetech.net/latest/characters/2118160416/"
+            },
+            {
+              "label": "欧贝泰坦835伤害KM",
+              "url": "https://zkillboard.com/kill/139046897/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "只看购号后本人千余击杀，不拿前主人战果拔高。",
+          "sources": [
+            {
+              "label": "出战统计与月度击杀",
+              "url": "https://zkillboard.com/character/2118160416/"
+            },
+            {
+              "label": "阿巴宗参战记录",
+              "url": "https://zkillboard.com/kill/138210344/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO和小队出勤未见本人稳定实战带队依据。",
+          "sources": [
+            {
+              "label": "军团作战出勤分布",
+              "url": "https://zkillboard.com/character/2118160416/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有稳定本团成员和招募互动，按团内影响评。",
+          "sources": [
+            {
+              "label": "军团招新与对外交流",
+              "url": "https://esi.evetech.net/latest/characters/2118160416/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际负责沉默旅人，登记挂名号不影响履职判断。",
+          "sources": [
+            {
+              "label": "联盟任职与归属记录",
+              "url": "https://esi.evetech.net/latest/characters/2118160416/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "购号并维持重型常规战备，按资产充裕评。",
+          "sources": [
+            {
+              "label": "战舰损失与装配档案",
+              "url": "https://zkillboard.com/character/2118160416/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

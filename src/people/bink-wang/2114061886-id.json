@@ -89,7 +89,7 @@
           "uid": "20138727",
           "name": "binkcn",
           "sources": [
-            "materials-bink-wang.md"
+            "materials-bink-wang.json"
           ]
         }
       ]
@@ -111,6 +111,73 @@
     "tags": [
       "00区",
       "INIT."
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T12:00:00Z",
+      "verdict": "回忆录通篇坦白自己怎么死，长尾鲛撞出七亿霍克的耿直老海盗。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "长文连载回忆录开篇叠甲认菜复盘自己死因，开长尾鲛撞出驻留圈霍克击杀，真实耿直得极富喜感。",
+          "sources": [
+            {
+              "label": "米玛塔尔飞行员战斗回忆录",
+              "url": "https://tieba.baidu.com/p/9541988304"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "精通长尾鲛单刷与恶狼守ESS，小船单杀霍克，低安散打战斗老手，合格打手基准。",
+          "sources": [
+            {
+              "label": "Bink Wang zKillboard",
+              "url": "https://zkillboard.com/character/2114061886/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "专注单兵低安游击与散打，未见独立大舰队带队指挥，常人基准。",
+          "sources": [
+            {
+              "label": "米玛塔尔飞行员战斗回忆录",
+              "url": "https://tieba.baidu.com/p/9541988304"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "回忆录文笔生动毫无架子，坦荡复盘失误引发无数吧友强烈共鸣追更，贴吧口碑极佳。",
+          "sources": [
+            {
+              "label": "米玛塔尔飞行员战斗回忆录",
+              "url": "https://tieba.baidu.com/p/9541988304"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "底层散兵视角，公开吐槽大联盟盟主决策，不涉主权地缘政治运作，常人基准。",
+          "sources": [
+            {
+              "label": "Bink Wang 雇佣档案",
+              "url": "https://zkillboard.com/character/2114061886/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "长尾鲛小船作战战损自理，靠拾荒打捞维持收支，自给自足常人基准。",
+          "sources": [
+            {
+              "label": "米玛塔尔飞行员战斗回忆录",
+              "url": "https://tieba.baidu.com/p/9541988304"
+            }
+          ]
+        }
+      }
+    }
   }
 }

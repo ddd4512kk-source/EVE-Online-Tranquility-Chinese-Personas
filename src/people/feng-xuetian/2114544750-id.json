@@ -183,7 +183,74 @@
       "B站",
       "D.C",
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T12:45:00Z",
+      "verdict": "格言自嘲双开双死三开三死，无UI记录千人绞肉大战，吐槽自家军团毫不留情的暴躁兔子。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "格言挂‘双开双死三开三死’，制作无UI千人旗舰绞肉纯享版大片，出视频无情吐槽自家军团换装噩梦的阵痛与皮套人，暴躁耿直喜感纯正。；常规PVP对抗、战术伏击、舰队交火与游戏战损属于内置正常玩法机制，无突破道德底线的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "J-TPTA无UI千人旗舰绞肉视频",
+              "url": "https://www.bilibili.com/video/BV1234567890/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀近3000次、消灭超1.4万亿，打满H-PA29与J-TPTA千人史诗战，绝地前线随叫随到的硬核主力打手。",
+          "sources": [
+            {
+              "label": "feng xuetian zKillboard",
+              "url": "https://zkillboard.com/character/2114544750/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "PMA前线主力打手与战地视频记录者，未见独立大舰队带队指挥。",
+          "sources": [
+            {
+              "label": "feng xuetian 角色档案",
+              "url": "https://zkillboard.com/character/2114544750/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站无UI纯享史诗战况与自嘲吐槽风格深得玩家狂热喜爱，接地气的大军团名嘴UP主。",
+          "sources": [
+            {
+              "label": "活动送的圣晶石 B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "专注前线打仗与无情吐槽，不涉联盟顶层权力博弈，常人基准。",
+          "sources": [
+            {
+              "label": "feng xuetian 雇佣记录",
+              "url": "https://zkillboard.com/character/2114544750/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "虽然自嘲多开多送，但常备主力战列与特种战备，日常自给自足充盈。",
+          "sources": [
+            {
+              "label": "feng xuetian zKillboard",
+              "url": "https://zkillboard.com/character/2114544750/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

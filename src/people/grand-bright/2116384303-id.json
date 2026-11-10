@@ -33,7 +33,7 @@
         "id": 2115398507,
         "name": "BigSmart XD",
         "sources": [
-          "materials-grand-bright.md"
+          "materials-grand-bright.json"
         ],
         "zkb": {
           "kills": 206,
@@ -47,7 +47,7 @@
         "id": 2116512713,
         "name": "Grand Wisdom",
         "sources": [
-          "materials-grand-bright.md"
+          "materials-grand-bright.json"
         ],
         "zkb": {
           "kills": 16,
@@ -95,6 +95,73 @@
       "FRT",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "大聪明，军团名把盟主当贬义词，名片自封N老板发言人称偷天钩是公务，升格大奇迹定盟规的顶级弄臣。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "把团名起成“U Fly Like Noraus”，自封联盟发言人，还宣布拆对方结构是公众责任；建团先替他递了战书。",
+          "sources": [
+            {
+              "label": "U Fly Like Noraus 军团公开资料",
+              "url": "https://esi.evetech.net/latest/corporations/98738907/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "两号合力击杀超两千九百次、超4.3万亿战果，亲历MC6O-F史诗战役。",
+          "sources": [
+            {
+              "label": "MC6O-F 战役参与记录",
+              "url": "https://br.evetools.org/br/69a42471e60d670011c8adae/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "负责全联盟天钩管理与战术巡查，组织协调能力强。",
+          "sources": [
+            {
+              "label": "Large Wit 角色头衔",
+              "url": "https://esi.evetech.net/latest/characters/2116384303/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "自称大聪明与N老板发言人，一边管天钩定盟规一边拿盟主开涮，深受全盟喜爱。",
+          "sources": [
+            {
+              "label": "Large Wit 角色头衔",
+              "url": "https://esi.evetech.net/latest/characters/2116384303/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "FRT联盟核心规则与战略协调组负责人，掌管CN规则协调与天钩资源大权。",
+          "sources": [
+            {
+              "label": "凛冬联盟管理名单",
+              "url": "https://wiki.winterco.org/en/coalition/leadership"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "掌控全联盟天钩产出与军团基建，物资流动极度充盈。",
+          "sources": [
+            {
+              "label": "凛冬联盟管理名单",
+              "url": "https://wiki.winterco.org/en/coalition/leadership"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -41,7 +41,78 @@
       "高安",
       "军团管理",
       "新人教官"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:40:00Z",
+      "verdict": "欧服中文圈最富耐心的任务领路人与围猎泰坦的阔剑飞手，将高安答疑的大半年坚持做成了最动人的新手招牌。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "任务帖长答大半年，招新帖宣称高安零税被对账坦白自己只管一半，发帖当晚自己跳槽换团徽。",
+          "sources": [
+            {
+              "label": "贴吧任务长篇答疑帖",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            },
+            {
+              "label": "招新帖坦白只管一半记录",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "亲历黑色星期五与欧贝大会战，开阔剑参与围猎击杀全服极罕见的征服者超旗。",
+          "sources": [
+            {
+              "label": "欧贝征服者终结KM",
+              "url": "https://zkillboard.com/kill/139046684/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "组织高安萨沙入侵舰队，辅助新人出勤与任务指导。",
+          "sources": [
+            {
+              "label": "高安入侵招募公告",
+              "url": "https://esi.evetech.net/latest/characters/2119009927/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "贴吧极其罕见的耐心答疑UP主，大半年不烂尾答遍所有新手问题，深得社群赞誉。",
+          "sources": [
+            {
+              "label": "贴吧任务楼六十层互动",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "纯正的高安任务指导员与基层招募者，不参与大联盟权力斗争。",
+          "sources": [
+            {
+              "label": "军团流转历史",
+              "url": "https://esi.evetech.net/latest/characters/2119009927/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "高安与低安海盗任务专家，熟稔LP兑换与高安入侵收益，经济自足富裕。",
+          "sources": [
+            {
+              "label": "任务配置与资产沉淀",
+              "url": "https://zkillboard.com/character/2119009927/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -56,7 +127,7 @@
           ],
           "portrait": "tb.1.9dcdf54d.aO-GeAauBEqGQgSP3bmLSQ",
           "sources": [
-            "materials-missionlin.md"
+            "materials-missionlin.json"
           ]
         }
       ]

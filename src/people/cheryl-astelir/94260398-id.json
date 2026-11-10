@@ -53,7 +53,7 @@
         "id": 2116465308,
         "name": "Fujed Cericy",
         "sources": [
-          "materials-cheryl-astelir.md"
+          "materials-cheryl-astelir.json"
         ],
         "zkb": {
           "kills": 16,
@@ -67,7 +67,7 @@
         "id": 2120416670,
         "name": "Cat's Shining",
         "sources": [
-          "materials-cheryl-astelir.md"
+          "materials-cheryl-astelir.json"
         ],
         "zkb": {
           "kills": 0,
@@ -81,7 +81,7 @@
         "id": 2116708093,
         "name": "Cat's Gneiss",
         "sources": [
-          "materials-cheryl-astelir.md"
+          "materials-cheryl-astelir.json"
         ],
         "zkb": {
           "kills": 5,
@@ -113,6 +113,81 @@
       "B B C",
       "CEO",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:05:00Z",
+      "verdict": "带队打旗舰战的著名FC，在星尘开军团银行吃利息，结果银行号先被封停。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "她把军团银行做成收存款、付利息的生意，后来与 CEO 闹翻，PVP 队伍也跟着她去了 Snuffed Out。",
+          "sources": [
+            {
+              "label": "星尘守护军团银行风波",
+              "url": "https://zkillboard.com/character/94260398/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "击杀突破4100次、消灭超3.3万亿，精通重拦与隐轰，打满A1-AUH等万亿旗舰决战，一线战力顶尖。",
+          "sources": [
+            {
+              "label": "Cheryl Astelir zKillboard",
+              "url": "https://zkillboard.com/character/94260398/"
+            },
+            {
+              "label": "A1-AUH 旗舰围猎记录",
+              "url": "https://zkillboard.com/kill/95187540/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "拥有zKB官方FC资质认证，星尘守护招牌带队指挥，出走后独立建立军团并带领舰队征战低安。",
+          "sources": [
+            {
+              "label": "Cheryl Astelir zKillboard",
+              "url": "https://zkillboard.com/character/94260398/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "带队激情深得麾下信任，另立门户建立The Skies Descend时大批骨干打手甘愿追随相伴。",
+          "sources": [
+            {
+              "label": "The Skies Descend 档案",
+              "url": "https://zkillboard.com/corporation/98774797/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "率团从FRT脱离后迅速敲开低安霸主Snuffed Out大门成功入驻，具备敏锐的外交自立手腕。",
+          "sources": [
+            {
+              "label": "The Skies Descend 档案",
+              "url": "https://zkillboard.com/corporation/98774797/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "不仅操办军团银行运作庞大资本，更具备超旗与新型派系旗舰（如首批天使无畏）工业制造能力，名下自备泰坦旗舰，达到顶尖搞钱能力 S 级。",
+          "sources": [
+            {
+              "label": "少侠天使无畏交付实况",
+              "url": "https://www.bilibili.com/video/BV1oTT8zyE4z/"
+            },
+            {
+              "label": "Cheryl Astelir zKillboard",
+              "url": "https://zkillboard.com/character/94260398/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -50,6 +50,73 @@
     "tags": [
       "00区",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "纲领写得很齐，盟主还想知道谁喊的跳。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "恋爱模板与八荣八耻反差属于普通整活。",
+          "sources": [
+            {
+              "label": "星尘守护无畏出勤纪律争论帖",
+              "url": "https://tieba.baidu.com/p/10644933726"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "近四千击杀、恶狼与多种常规职责稳定。",
+          "sources": [
+            {
+              "label": "Yoluhaluka GA zKillboard",
+              "url": "https://zkillboard.com/character/2115558475/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "无畏出勤被追问组织者，尚不足认定本人实际指挥。",
+          "sources": [
+            {
+              "label": "星尘守护无畏出勤纪律争论帖",
+              "url": "https://tieba.baidu.com/p/10644933726"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "星尘熟人圈有稳定互动，按内部影响评。",
+          "sources": [
+            {
+              "label": "星尘守护无畏出勤纪律争论帖",
+              "url": "https://tieba.baidu.com/p/10644933726"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "参与团内出勤与纪律协调，未见核心执政职务。",
+          "sources": [
+            {
+              "label": "Stardust Guard 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "常规出勤战备不能从纪律口号推成产业。",
+          "sources": [
+            {
+              "label": "Yoluhaluka GA zKillboard",
+              "url": "https://zkillboard.com/character/2115558475/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -30,7 +30,74 @@
     "epithet": "是非交给联盟，联盟把罚单改了。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:08:15Z",
+      "verdict": "一次索赔争执里先喊裁决已定，联盟随后又给这场争执加了续集。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "三百亿赔偿争论里反复拿初次裁决劝对手闭嘴，略有戏剧性；目前没有出格大事支撑更高神人档。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "参与常规集体舰队交火，操作与战术作用平平，随大流打手属性。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "普通打手成员，未见任何FC资质或带队经历，统御力探底至E。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "索赔争执中态度僵硬，难以争取广泛同情与支持，号召力不足。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "此事体现的是个人索赔与联盟裁决，没有外交斡旋或阵营格局经营；按常规玩家基准记D。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "自备主力会战舰船，承担常规出勤开销，按自给自足常人基准记D。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -40,7 +107,7 @@
         "name": "zhayu111",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收zhayu333",
         "sources": [
-          "materials-zhayu111.md"
+          "materials-zhayu111.json"
         ],
         "zkb": {
           "kills": 14,
@@ -54,7 +121,7 @@
         "id": 2124157084,
         "name": "zhayu444",
         "sources": [
-          "materials-zhayu111.md"
+          "materials-zhayu111.json"
         ],
         "zkb": {
           "kills": 21,
@@ -68,7 +135,7 @@
         "id": 2124157086,
         "name": "daitiao111",
         "sources": [
-          "materials-zhayu111.md"
+          "materials-zhayu111.json"
         ],
         "zkb": {
           "kills": 15,
@@ -82,7 +149,7 @@
         "id": 2124287881,
         "name": "zhayu222",
         "sources": [
-          "materials-zhayu111.md"
+          "materials-zhayu111.json"
         ],
         "zkb": {
           "kills": 15,

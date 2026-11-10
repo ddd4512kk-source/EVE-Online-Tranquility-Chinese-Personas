@@ -33,7 +33,74 @@
       "FRT",
       "工业",
       "联盟管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "FRT后勤与基建总管，连续两次手动自毁首都4-H设施导致超旗停产跳桥瘫痪，强运被救因忘了挪再送命的史诗内鬼。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "一连串误点把自家建筑、主权和桥线点没了；龙根事后只说忘了，下一次意外又接着发生。",
+          "sources": [
+            {
+              "label": "FRT的凶兆啊讨论帖",
+              "url": "https://tieba.baidu.com/p/7789453731"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "长期开长剑等轻巡参战H-PA29等战役，但主职为后勤运输。",
+          "sources": [
+            {
+              "label": "H-PA29 长剑参战 KM",
+              "url": "https://zkillboard.com/kill/105129054/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "FRT核心后勤指挥与跳货诱导调度总管，统筹联盟物流生命线。",
+          "sources": [
+            {
+              "label": "春节初四纳瓦拉战后总结",
+              "url": "https://forums.winterco.org/t/topic/12874"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "全盟无人不知的龙根哥，后勤劳苦功高但捅娄子也惊天动地。",
+          "sources": [
+            {
+              "label": "FRT的凶兆啊讨论帖",
+              "url": "https://tieba.baidu.com/p/7789453731"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "执掌FRT全联盟主权基建、税务征收与ACL建筑门禁大权。",
+          "sources": [
+            {
+              "label": "凛冬联盟管理名单",
+              "url": "https://wiki.winterco.org/en/coalition/leadership"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "掌管整个联盟跳货物流与建筑基建巨额流水。",
+          "sources": [
+            {
+              "label": "凛冬联盟管理名单",
+              "url": "https://wiki.winterco.org/en/coalition/leadership"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -43,7 +110,7 @@
         "name": "Greed jf cyno",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Greed Titan",
         "sources": [
-          "materials-greed-jf-cyno.md"
+          "materials-greed-jf-cyno.json"
         ],
         "zkb": {
           "kills": 5,
@@ -57,7 +124,7 @@
         "id": 2117389656,
         "name": "Greed cyno",
         "sources": [
-          "materials-greed-jf-cyno.md"
+          "materials-greed-jf-cyno.json"
         ],
         "zkb": {
           "kills": 73,
@@ -71,7 +138,7 @@
         "id": 1636264302,
         "name": "Greed Island",
         "sources": [
-          "materials-greed-jf-cyno.md"
+          "materials-greed-jf-cyno.json"
         ],
         "zkb": {
           "kills": 0,

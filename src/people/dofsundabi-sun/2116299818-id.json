@@ -139,7 +139,7 @@
           "uid": "1932691083",
           "name": "咫中人",
           "sources": [
-            "materials-dofsundabi-sun.md"
+            "materials-dofsundabi-sun.json"
           ]
         }
       ]
@@ -159,6 +159,73 @@
       "00区",
       "TEST",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "招募帖不只自顶，也附上输赢账本。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "KFC与赛博魅魔自嘲不算出格行为。",
+          "sources": [
+            {
+              "label": "鳄鱼联盟养老军团招新帖",
+              "url": "https://tieba.baidu.com/p/10906318289"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千余击杀、八十余Solo，具资深战斗积累。",
+          "sources": [
+            {
+              "label": "4-HWWF 乌鸦参战 KM",
+              "url": "https://zkillboard.com/kill/134958055/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "持续组织反收割救援与小队活动，带队履历明确。",
+          "sources": [
+            {
+              "label": "鳄鱼联盟养老军团招新帖",
+              "url": "https://tieba.baidu.com/p/10906318289"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "招募楼持续经营，有稳定团友和互动。",
+          "sources": [
+            {
+              "label": "鳄鱼联盟养老军团招新帖",
+              "url": "https://tieba.baidu.com/p/10906318289"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际创办KFC并运营TEST旗下军团。",
+          "sources": [
+            {
+              "label": "King For Crazy 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "维持小团战备与活动，未见雄厚个人产业。",
+          "sources": [
+            {
+              "label": "dofsundabi sun zKillboard",
+              "url": "https://zkillboard.com/character/2116299818/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

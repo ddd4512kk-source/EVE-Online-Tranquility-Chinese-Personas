@@ -189,13 +189,13 @@
           "uid": "6640734164",
           "name": "荒野奥托哥",
           "sources": [
-            "materials-freakdog-otto.md"
+            "materials-freakdog-otto.json"
           ]
         },
         {
           "name": "普罗米修斯之翼",
           "sources": [
-            "materials-freakdog-otto.md"
+            "materials-freakdog-otto.json"
           ]
         }
       ]
@@ -213,7 +213,7 @@
         "name": "Arthur Prometheus",
         "basis": "ESI公开头衔同为“奥托”，该头衔只见于本号主同组角色；同军团98613748历史榜同组",
         "sources": [
-          "materials-freakdog-otto.md"
+          "materials-freakdog-otto.json"
         ],
         "zkb": {
           "kills": 516,
@@ -240,6 +240,73 @@
       "脚本",
       "军团管理",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "兵法从马汉讲起，军费用自己的大航付。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "既有违规对抗违规与RMT、脚本争议，按具体行为评B。",
+          "sources": [
+            {
+              "label": "萨托加斯星城苦主龙骑回忆",
+              "url": "https://tieba.baidu.com/p/8921766760"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两号千余击杀、二百余Solo，兼有旗舰作战。",
+          "sources": [
+            {
+              "label": "Freakdog Otto zKillboard",
+              "url": "https://zkillboard.com/character/97259613/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "龙骑实际带队并研究低安舰队建制。",
+          "sources": [
+            {
+              "label": "Freakdog Otto 角色档案",
+              "url": "https://zkillboard.com/character/97259613/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有教学与管理关系，公开支持仍集中在团友圈。",
+          "sources": [
+            {
+              "label": "萨托加斯星城苦主龙骑回忆",
+              "url": "https://tieba.baidu.com/p/8921766760"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "实际主导龙骑发展规划、外交和建制，属区域核心管理。",
+          "sources": [
+            {
+              "label": "萨托加斯星城苦主龙骑回忆",
+              "url": "https://tieba.baidu.com/p/8921766760"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "投入泰坦与航母账号，出售四条全装大航筹款。",
+          "sources": [
+            {
+              "label": "Freakdog Otto zKillboard",
+              "url": "https://zkillboard.com/character/97259613/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

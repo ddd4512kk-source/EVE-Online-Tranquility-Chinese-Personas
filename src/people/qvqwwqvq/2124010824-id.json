@@ -29,7 +29,74 @@
     "epithet": "群里等数据，出门找地方撒气。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:08:15Z",
+      "verdict": "群里让人等数据，出门前先把“找地方撒气”列入计划。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "一次私聊里把找刷怪地和吵架后的出气连在一起，显得有点拧巴；只是说法，没有实际出格行动支撑高档。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "主要以日常刷怪为主，缺乏高烈度战场操作与战术作用展现，战力偏弱。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "基层普通团员，无大队调度与带队指挥经历，统御力探底。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "言行拧巴，私聊发泄情绪引发反感，缺少追随认同，人脉维持偏弱。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "处理赔偿争议缺乏理性沟通，单方面情绪宣泄导致矛盾激化，政治处理失当。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "自理日常刷怪舰船，维持常规游戏开销，按常人基准记D。",
+          "sources": [
+            {
+              "label": "御天与昆仑赔偿争议后续整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -39,7 +106,7 @@
         "name": "qvqwwqvq",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收qvqwwqvq2",
         "sources": [
-          "materials-qvqwwqvq.md"
+          "materials-qvqwwqvq.json"
         ],
         "zkb": {
           "kills": 0,
@@ -53,7 +120,7 @@
         "id": 2124019666,
         "name": "qvqwwqvq3",
         "sources": [
-          "materials-qvqwwqvq.md"
+          "materials-qvqwwqvq.json"
         ],
         "zkb": {
           "kills": 25,
@@ -67,7 +134,7 @@
         "id": 2124030233,
         "name": "qvqwwqvq4",
         "sources": [
-          "materials-qvqwwqvq.md"
+          "materials-qvqwwqvq.json"
         ],
         "zkb": {
           "kills": 14,
@@ -81,7 +148,7 @@
         "id": 2124315550,
         "name": "qvqwwqvq6",
         "sources": [
-          "materials-qvqwwqvq.md"
+          "materials-qvqwwqvq.json"
         ],
         "zkb": {
           "kills": 8,

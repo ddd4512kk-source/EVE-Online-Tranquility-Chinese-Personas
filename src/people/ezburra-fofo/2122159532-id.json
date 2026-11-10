@@ -73,7 +73,74 @@
       "低素质",
       "江湖恩怨",
       "AT22亚军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:15:02Z",
+      "verdict": "群聊里把争吵剪成连续剧，AT名册挂着亚军，十九场比赛却一场没上。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "多群刷屏辱骂、截取聊天并推动跨团对质，三天内升级为联盟层面争端；事件有记录，不把AT银牌算作他的个人功劳。",
+          "sources": [
+            {
+              "label": "Ezburra fofo 战斗记录及人物材料",
+              "url": "https://zkillboard.com/character/2122159532/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "有一千二百余次击杀和百余次单杀，长期驾驶中小型前排舰船；战斗经历高于常人基线。",
+          "sources": [
+            {
+              "label": "Ezburra fofo 战斗记录",
+              "url": "https://zkillboard.com/character/2122159532/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "没有带队或舰队组织证据；AT22名册身份不等于实际参赛，本人一场未上。",
+          "sources": [
+            {
+              "label": "AT22 参赛记录与人物材料",
+              "url": "https://zkillboard.com/character/2122159532/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "三天里骂遍吃瓜、混沌，教新人怎么哭诉，被他出头的芙在道歉信第一句写“被水母完全带偏了”；混沌劝退，创世旧团友也在吧里翻他的旧账。",
+          "sources": [
+            {
+              "label": "《芙水之乱》事件整理",
+              "url": "https://tieba.baidu.com/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "跨群争端是个人冲突，并未显示其承担军团治理或联盟协调职责。",
+          "sources": [
+            {
+              "label": "《芙水之乱》事件整理",
+              "url": "https://tieba.baidu.com/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "战斗价值与参赛名册都不能证明个人资产或经济实力。",
+          "sources": [
+            {
+              "label": "Ezburra fofo 战斗记录",
+              "url": "https://zkillboard.com/character/2122159532/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -83,7 +150,7 @@
         "name": "Ezburra fufu",
         "basis": "同名前缀Ezburra，与收录号同为2024年建号，同一玩家确认。",
         "sources": [
-          "materials-ezburra-fofo.md#小号"
+          "materials-ezburra-fofo.json#小号"
         ],
         "zkb": {
           "kills": 71,
@@ -98,7 +165,7 @@
         "name": "Ezburra opai",
         "basis": "同名前缀Ezburra，与收录号同为2024年建号，同一玩家确认。",
         "sources": [
-          "materials-ezburra-fofo.md#小号"
+          "materials-ezburra-fofo.json#小号"
         ],
         "zkb": {
           "kills": 37,
@@ -113,7 +180,7 @@
         "name": "Ezburra amber",
         "basis": "同名前缀Ezburra，与收录号同为2024年建号，同一玩家确认。",
         "sources": [
-          "materials-ezburra-fofo.md#小号"
+          "materials-ezburra-fofo.json#小号"
         ],
         "zkb": {
           "kills": 4,

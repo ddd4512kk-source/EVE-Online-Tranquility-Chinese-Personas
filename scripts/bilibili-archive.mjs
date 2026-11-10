@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 import { brApiUrl } from './battle-report.mjs';
+import { readMaterial } from './material-document.mjs';
 
 export const ARCHIVE = 'docs/bilibili';
 const UID = /^\d+$/;
@@ -124,7 +125,7 @@ export function videoFromCapture(data) {
     description: cleanDescription(m.desc),
     stats: { views: m.stat?.view ?? null, replies: m.stat?.reply ?? null },
     credit: { state: 'unreviewed', team: (m.staff ?? []).map(s => ({ uid: String(s.mid), name: s.name, role: s.title })) },
-    reading: { state: 'captured', material_refs: [], scope: '标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。' },
+    reading: { state: 'captured', scope: '标题、简介及计数已保存；未据取得状态推定已精读。人工摘要保存在本作品的reading.digest。' },
     usage: { body: false, selected: false },
   };
 }
@@ -166,7 +167,7 @@ export function postFromCapture(data) {
     published_at: m.published_at ?? null, captured_at: data.at ?? null,
     text, capture_scope: data.coverage,
     credit: { state: 'unreviewed' },
-    reading: { state: 'captured', material_refs: [], scope: '公开文字已保存；图片、评论及人工消化范围另核。' },
+    reading: { state: 'captured', scope: '公开文字已保存；图片、评论及人工消化范围另核。' },
     usage: { body: false, selected: false } };
 }
 
@@ -190,30 +191,32 @@ const contentToken = item => item.bvid ?? item.url;
 export const opusCoverage = () => ({ state: 'unknown', scope: '尚未核定图文列表覆盖；视频排序与动态首页不能替代图文列表。' });
 
 async function safeFile(root, relative) {
-  const full = path.resolve(root, relative.split('#')[0]);
+  let full = path.resolve(root, relative.split('#')[0]);
+  if (!(await fs.access(full).then(() => true, () => false)) && /\.md$/.test(full)) {
+    for (const json of [full.replace(/\.md$/, '.json'), full.replace(/\.md$/, '-material.json')]) {
+      if (!(await fs.access(json).then(() => true, () => false))) continue;
+      const document = JSON.parse(await fs.readFile(json, 'utf8'));
+      if (document?.type === 'material') { readMaterial(json); full = json; break; }
+    }
+  }
   if (!full.startsWith(path.resolve(root) + path.sep) || relative.startsWith('.cache/')) throw new Error(`归档链接不可依赖缓存或越界：${relative}`);
   await fs.access(full);
   return full;
 }
 
-// Locate the existing prose on demand; never infer digestion from a matching BV.
-export async function materialEvidence(root, video) {
-  const results = [];
-  for (const ref of video.reading?.material_refs ?? []) {
-    const lines = (await fs.readFile(await safeFile(root, ref), 'utf8')).split('\n');
-    let section = '', start = 0;
-    for (let i = 0; i < lines.length; i++) {
-      if (/^#{1,6} /.test(lines[i])) { section = lines[i]; start = i; }
-      if (!lines[i].includes(contentToken(video))) continue;
-      results.push({ ref, line: i + 1, section,
-        kind: lines[i].startsWith('|') ? 'table_row' : 'prose_reference',
-        // Include the section introduction/reading boundary and the matching paragraph.
-        context: lines.slice(start + 1, Math.min(i, start + 7)).join('\n').trim().slice(0, 1200),
-        text: lines[i].slice(0, 2400) });
-    }
-  }
-  return results;
+function validateReading(reading, label, fail) {
+  if (!READING.has(reading?.state)) fail(`${label}阅读状态无效`);
+  if (reading && Object.hasOwn(reading, 'material_refs')) fail(`${label}仍使用旧material_refs，请将作品摘记迁入reading.digest`);
+  if (reading?.digest !== undefined && (typeof reading.digest !== 'string' || !reading.digest.trim())) fail(`${label}消化摘要须为非空文字`);
+  if (reading?.state === 'digested' && (typeof reading.digest !== 'string' || !reading.digest.trim()
+    || typeof reading.scope !== 'string' || !reading.scope.trim())) fail(`${label}消化状态缺少本作品摘要与阅读范围`);
 }
+
+// 账号概览只报覆盖，单篇查询才输出完整摘要，避免整频道重复倾倒。
+const readingSummary = reading => {
+  const { digest, ...summary } = reading;
+  return { ...summary, has_digest: Boolean(digest?.trim()) };
+};
 
 export async function readProfiles(root) {
   const dir = path.join(root, ARCHIVE);
@@ -244,13 +247,16 @@ export async function syncProfile(root, profile) {
   }
   const materials = new Map();
   for (const ref of [p.identity.material, ...(p.identity.related ?? []).map(r => r.material)].filter(Boolean)) {
-    materials.set(ref, await fs.readFile(await safeFile(root, ref), 'utf8'));
+    const file = await safeFile(root, ref);
+    if (file.endsWith('.json')) {
+      const document = JSON.parse(await fs.readFile(file, 'utf8'));
+      materials.set(ref, document?.type === 'material' ? readMaterial(file) : JSON.stringify(document));
+    } else materials.set(ref, await fs.readFile(file, 'utf8'));
   }
   for (const v of [...p.videos, ...(p.posts ?? [])]) {
     v.usage = personaUsage(body, v);
     if (v.reading.state !== 'digested') {
-      v.reading.material_refs = [...materials].filter(([, text]) => text.includes(contentToken(v))).map(([ref]) => ref);
-      v.reading.state = v.reading.material_refs.length ? 'material_linked' : 'captured';
+      v.reading.state = [...materials.values()].some(text => text.includes(contentToken(v))) ? 'material_linked' : 'captured';
     }
   }
   return p;
@@ -259,7 +265,7 @@ export async function syncProfile(root, profile) {
 export async function validateProfile(root, file, p) {
   const errors = [];
   const fail = message => errors.push(`${file}：${message}`);
-  if (p.version !== 1 || !UID.test(p.uid ?? '') || path.basename(file) !== `${p.uid}.json`) fail('版本／UID／文件名不一致');
+  if (p.version !== 2 || !UID.test(p.uid ?? '') || path.basename(file) !== `${p.uid}.json`) fail('版本／UID／文件名不一致（UID档案须为version 2）');
   if (!p.name || p.url !== `https://space.bilibili.com/${p.uid}/`) fail('缺少账号名或规范主页');
   if (!STATES.has(p.identity?.state)) fail('身份状态无效');
   for (const ref of [p.identity?.material, ...(p.identity?.related ?? []).map(r => r.material)].filter(Boolean)) {
@@ -284,16 +290,8 @@ export async function validateProfile(root, file, p) {
     if (!BV.test(v.bvid ?? '') || seen.has(v.bvid)) fail(`BV无效或重复：${v.bvid}`);
     seen.add(v.bvid);
     if (v.owner_uid !== p.uid || v.url !== `https://www.bilibili.com/video/${v.bvid}/` || !v.title) fail(`${v.bvid}作者／链接／标题无效`);
-    if (!READING.has(v.reading?.state)) fail(`${v.bvid}阅读状态无效`);
+    validateReading(v.reading, v.bvid, fail);
     if (v.usage?.selected && v.usage?.body) fail(`${v.bvid}正文与精选重复`);
-    if (v.reading?.state === 'digested' && (!v.reading.material_refs?.length || !v.reading.scope)) fail(`${v.bvid}消化状态缺少素材与范围`);
-    for (const ref of v.reading?.material_refs ?? []) {
-      try {
-        const full = await safeFile(root, ref), text = await fs.readFile(full, 'utf8');
-        const id = ref.split('#')[1];
-        if (!text.includes(v.bvid) || (id && !text.includes(`id="${id}"`))) fail(`${v.bvid}素材或锚点未落档：${ref}`);
-      } catch { fail(`${v.bvid}素材路径无效：${ref}`); }
-    }
   }
   const postKeys = new Set();
   for (const post of p.posts ?? []) {
@@ -304,15 +302,8 @@ export async function validateProfile(root, file, p) {
       if (normalized.key !== post.key || post.owner_uid !== p.uid || post.url !== normalized.url || postKeys.has(post.key)) fail(`${label}类型／ID／作者／链接无效或重复`);
     } catch (error) { fail(`${label}：${error.message}`); }
     postKeys.add(post.key);
-    if (!READING.has(post.reading?.state)) fail(`${label}阅读状态无效`);
+    validateReading(post.reading, label, fail);
     if (post.usage?.body && post.usage?.selected) fail(`${label}正文与精选重复`);
-    if (post.reading?.state === 'digested' && (!post.reading.material_refs?.length || !post.reading.scope)) fail(`${label}消化状态缺少素材与范围`);
-    for (const ref of post.reading?.material_refs ?? []) {
-      try {
-        const text = await fs.readFile(await safeFile(root, ref), 'utf8'), id = ref.split('#')[1];
-        if (!text.includes(post.url) || (id && !text.includes(`id="${id}"`))) fail(`${label}素材或锚点未落档：${ref}`);
-      } catch { fail(`${label}素材路径无效：${ref}`); }
-    }
   }
   return errors;
 }
@@ -322,7 +313,7 @@ const MENTION_DIRS = ['src', 'docs/sources', 'docs/leads', 'docs/corporations', 
 const BV_MENTION = /\bBV1[1-9A-HJ-NP-Za-km-z]{9}\b/g, UID_MENTION = /space\.bilibili\.com\/(\d+)/g;
 
 export async function repoMentions(root) {
-  const mentions = new Map();
+  const mentions = new Map(), materialFiles = new Set();
   for (const dir of MENTION_DIRS) {
     const names = await fs.readdir(path.join(root, dir), { recursive: true }).catch(error => {
       if (error.code === 'ENOENT') return [];
@@ -330,21 +321,30 @@ export async function repoMentions(root) {
     });
     for (const name of names.filter(n => /\.(?:md|json)$/.test(n))) {
       const file = path.posix.join(dir, name.replaceAll('\\', '/'));
-      const text = await fs.readFile(path.join(root, file), 'utf8');
+      const full = path.join(root, file), raw = await fs.readFile(full, 'utf8');
+      const isMaterialArea = /^src\/(?:people|battles)\/[^/]+\/materials-[^/]+\.json$/.test(file)
+        || /^docs\/(?:sources|leads|corporations\/notes)\/.+\.json$/.test(file);
+      let text = raw;
+      if (isMaterialArea) {
+        const document = JSON.parse(raw);
+        if (document?.type === 'material') { text = readMaterial(full); materialFiles.add(file); }
+      }
       for (const token of [...text.matchAll(BV_MENTION)].map(m => m[0]).concat([...text.matchAll(UID_MENTION)].map(m => m[1]))) {
         if (!mentions.has(token)) mentions.set(token, new Set());
         mentions.get(token).add(file);
       }
     }
   }
+  mentions.materialFiles = materialFiles;
   return mentions;
 }
 
 function newProfile(uid, name, mentions, tokens) {
   const unknown = { state: 'unknown', observed_at: null, scope: '尚未核定覆盖；登记时只见到仓库链接或作品页。', evidence: null };
-  const related = [...new Set(tokens.flatMap(t => [...mentions.get(t) ?? []]))].filter(f => f.endsWith('.md')).sort()
+  const related = [...new Set(tokens.flatMap(t => [...mentions.get(t) ?? []]))]
+    .filter(f => f.endsWith('.md') || mentions.materialFiles?.has(f)).sort()
     .map(material => ({ material, label: '仓库提及，未核对应' }));
-  return { version: 1, uid, name, url: `https://space.bilibili.com/${uid}/`,
+  return { version: 2, uid, name, url: `https://space.bilibili.com/${uid}/`,
     identity: { state: 'candidate', person: null, material: null, label: name, evidence: ['作品页作者或仓库链接；未核对应人物'], related },
     channel: { profile: {}, coverage: { latest: { ...unknown }, popular: { ...unknown }, series: { ...unknown } }, prior_notes: [] },
     videos: [] };
@@ -408,11 +408,18 @@ export async function run(root, command, input, bvid) {
       if (!dir.isDirectory()) continue;
       const file = `src/battles/${dir.name}/${dir.name}.json`;
       const { battle } = JSON.parse(await fs.readFile(path.join(root, file), 'utf8'));
-      const material = `src/battles/${dir.name}/materials-${dir.name}.md`;
+      const material = `src/battles/${dir.name}/materials-${dir.name}.json`;
+      const legacyMaterial = `src/battles/${dir.name}/materials-${dir.name}.md`;
       let text = '';
-      try { text = await fs.readFile(path.join(root, material), 'utf8'); }
-      catch (error) { if (error.code !== 'ENOENT') throw error; }
-      battles.push({ file, material, text, sources: [battle.loss_source].flat().filter(Boolean) });
+      let usedMaterial = material;
+      try { text = readMaterial(path.join(root, material)); }
+      catch (error) {
+        if (error.code !== 'ENOENT' && !/ENOENT/.test(error.message)) throw error;
+        usedMaterial = legacyMaterial;
+        try { text = readMaterial(path.join(root, legacyMaterial)); }
+        catch (legacyError) { if (legacyError.code !== 'ENOENT' && !/ENOENT/.test(legacyError.message)) throw legacyError; }
+      }
+      battles.push({ file, material: usedMaterial, text, sources: [battle.loss_source].flat().filter(Boolean) });
     }
     const rows = [];
     for (const { file, data: p } of profiles) for (const v of p.videos) {
@@ -437,15 +444,15 @@ export async function run(root, command, input, bvid) {
     if (bvid) {
       const v = p.videos.find(v => v.bvid === bvid) ?? (p.posts ?? []).find(v => v.key === bvid);
       if (!v) throw new Error('此UID没有该BV／图文key的作品页档案；先查channel.listings是否仅有候选。');
-      return [JSON.stringify({ ...v, material_evidence: await materialEvidence(root, v) }, null, 2)];
+      return [JSON.stringify(v, null, 2)];
     }
     return [JSON.stringify({ uid: p.uid, name: p.name, identity: p.identity,
       profile: p.channel.profile, coverage: { ...p.channel.coverage, opus: p.channel.coverage.opus ?? opusCoverage() },
       ...(p.discovery ? { discovery: p.discovery } : {}),
       ...(p.channel.tag_review ? { tag_review: p.channel.tag_review } : {}),
       prior_notes: p.channel.prior_notes ?? [],
-      posts: (p.posts ?? []).map(v => ({ key: v.key, title: v.title, reading: v.reading, usage: v.usage })),
-      videos: p.videos.map(v => ({ bvid: v.bvid, title: v.title, reading: v.reading, usage: v.usage })) }, null, 2)];
+      posts: (p.posts ?? []).map(v => ({ key: v.key, title: v.title, reading: readingSummary(v.reading), usage: v.usage })),
+      videos: p.videos.map(v => ({ bvid: v.bvid, title: v.title, reading: readingSummary(v.reading), usage: v.usage })) }, null, 2)];
   }
   if (command === 'register') {
     if (!UID.test(input ?? '') || !bvid?.trim()) throw new Error('register需要确切UID和账号名');

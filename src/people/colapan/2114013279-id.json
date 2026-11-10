@@ -103,7 +103,7 @@
         "id": 2124552411,
         "name": "ColaPanna",
         "sources": [
-          "materials-colapan.md"
+          "materials-colapan.json"
         ],
         "zkb": {
           "kills": 0,
@@ -117,7 +117,7 @@
         "id": 2124224983,
         "name": "ColaGuo",
         "sources": [
-          "materials-colapan.md"
+          "materials-colapan.json"
         ],
         "zkb": {
           "kills": 37,
@@ -149,6 +149,73 @@
       "低安",
       "军团管理",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "和气生财挂四遍，索赔另有报价。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "邀请遭拒后的辱骂按普通口角，不因索赔金额判恶行。",
+          "sources": [
+            {
+              "label": "昆仑索赔30B纠纷情况说明",
+              "url": "https://tieba.baidu.com/p/10258617353"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "主小号数百击杀，以常规跟队为主。",
+          "sources": [
+            {
+              "label": "ColaPan zKillboard",
+              "url": "https://zkillboard.com/character/2114013279/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "外交经办不等于舰队指挥。",
+          "sources": [
+            {
+              "label": "ColaPan 角色档案",
+              "url": "https://zkillboard.com/character/2114013279/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "外交职位和国际化名片不证明额外拥趸。",
+          "sources": [
+            {
+              "label": "昆仑索赔30B纠纷情况说明",
+              "url": "https://tieba.baidu.com/p/10258617353"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际经办KZU对外索赔与联盟交涉，按核心外交评。",
+          "sources": [
+            {
+              "label": "昆仑索赔30B纠纷情况说明",
+              "url": "https://tieba.baidu.com/p/10258617353"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "索赔是军团款项，不能充当个人产业。",
+          "sources": [
+            {
+              "label": "ColaPan zKillboard",
+              "url": "https://zkillboard.com/character/2114013279/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

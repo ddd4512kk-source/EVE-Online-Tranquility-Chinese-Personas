@@ -1,6 +1,6 @@
 # 人物取材
 
-人物够格就可以先立传，料以后再补（门槛见[列传规则](rules-person.md)的“总方针”）。本页只写怎么查人，联网预算和平台读法见[取材手册](research-method.md)。材料写进本人 `materials-<短名>.md` 或 `docs/leads/`。
+人物够格就可以先立传，料以后再补（门槛见[列传规则](rules-person.md)的“总方针”）。本页只写怎么查人，联网预算和平台读法见[取材手册](research-method.md)。材料写进本人 `materials-<短名>.json` 或 `docs/leads/`。
 
 ## 取材方向
 

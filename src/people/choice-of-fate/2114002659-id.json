@@ -159,7 +159,7 @@
           "uid": "1073506627",
           "name": "1643528892a",
           "sources": [
-            "materials-choice-of-fate.md"
+            "materials-choice-of-fate.json"
           ]
         }
       ]
@@ -181,6 +181,73 @@
       "00区",
       "虫洞",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "船可以买小，管理课先上旗舰。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "临时改考核、用辱称说教，属轻度管理失当。",
+          "sources": [
+            {
+              "label": "从零开始的军团建设路程日记",
+              "url": "https://tieba.baidu.com/p/9394320576"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "三百余击杀并驾驶夜鹰出勤，按熟练队员评。",
+          "sources": [
+            {
+              "label": "Qui tacet consentit 军团战报",
+              "url": "https://tieba.baidu.com/p/10258617353"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "新人课堂与治团书单未见本人实战带队。",
+          "sources": [
+            {
+              "label": "从零开始的军团建设路程日记",
+              "url": "https://tieba.baidu.com/p/9394320576"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "一批虫洞老友跟随建团，支持主要在小团内部。",
+          "sources": [
+            {
+              "label": "从零开始的军团建设路程日记",
+              "url": "https://tieba.baidu.com/p/9394320576"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际运转Qui tacet consentit并负责人员制度。",
+          "sources": [
+            {
+              "label": "从零开始的军团建设路程日记",
+              "url": "https://tieba.baidu.com/p/9394320576"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "能承担建团和新人供给，未见产业雄厚的依据。",
+          "sources": [
+            {
+              "label": "从零开始的军团建设路程日记",
+              "url": "https://tieba.baidu.com/p/9394320576"
+            }
+          ]
+        }
+      }
+    }
   }
 }

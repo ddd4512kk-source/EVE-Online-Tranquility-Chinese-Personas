@@ -28,7 +28,7 @@
         "id": 2115982767,
         "name": "R virustao",
         "sources": [
-          "materials-virustao-wang.md"
+          "materials-virustao-wang.json"
         ],
         "zkb": {
           "kills": 9272,
@@ -42,7 +42,7 @@
         "id": 2121649568,
         "name": "virustao shao",
         "sources": [
-          "materials-virustao-wang.md"
+          "materials-virustao-wang.json"
         ],
         "zkb": {
           "kills": 538,
@@ -98,7 +98,74 @@
     "tags": [
       "00区",
       "D.C",
-      "FC"
-    ]
+      "著名FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "头衔自封土皇帝，日常负责喊锁人；大炮丈量国土，全靠夜夜开麦。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "头衔挂‘土皇帝’但行为极其务实守序，不水帖、不搞政治内讧，夜夜开麦指挥带队，属规矩克制的一线纯粹武官。",
+          "sources": [
+            {
+              "label": "virustao wang zKillboard",
+              "url": "https://zkillboard.com/character/2115847829/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "主号逾两万击杀，加上小号累计超四万次击杀，多年常驻 00 区一线高烈度作战。",
+          "sources": [
+            {
+              "label": "virustao wang zKillboard",
+              "url": "https://zkillboard.com/character/2115847829/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "S",
+          "reason": "BOP 核心带队 FC，夜夜开麦指挥抓人，军团与同盟舰队行动的常任战术现场负责人。",
+          "sources": [
+            {
+              "label": "G-M4GK 带队击杀战报",
+              "url": "https://zkillboard.com/kill/138726918/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "不喜水帖但军团内部号召力坚实，舰队成员信赖其战术指令，在防守区声望扎实。",
+          "sources": [
+            {
+              "label": "BOP 军团作战击杀榜",
+              "url": "https://zkillboard.com/kill/138726918/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "专注本土防御与日常作战带队，较少卷入跨联盟层面的复杂外交斡旋。",
+          "sources": [
+            {
+              "label": "军团归属与作战范围",
+              "url": "https://zkillboard.com/character/2115847829/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "四个号击杀合计两万多，账面五万亿级，号号都是主力出勤；评 A。",
+          "sources": [
+            {
+              "label": "主号作战与损失记录",
+              "url": "https://zkillboard.com/character/2115847829/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

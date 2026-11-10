@@ -49,7 +49,7 @@
           "uid": "5986119509",
           "name": "qead13qwq",
           "sources": [
-            "materials-awa-123.md"
+            "materials-awa-123.json"
           ]
         }
       ]
@@ -71,6 +71,73 @@
     "epithet": "来学绕杆子，先学会跟管理对线。",
     "tags": [
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:13:50Z",
+      "verdict": "想让全吧评理，却先嫌证据太长；最后把新手教学吵成公开课。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "发帖求评理却先嫌记录太长，随后又追着新人教学的问题辩论数月；有点执拗，但没有出格大事支撑高档。",
+          "sources": [
+            {
+              "label": "《FRT旗下dsn，fuxi 招新》",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "入坑摸索期新人，角色快照无前线战果，主要精力在纠纷发帖，未展现个人实战战力。",
+          "sources": [
+            {
+              "label": "《FRT旗下dsn，fuxi 招新》",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "纯新人新号，完全欠缺正规舰队协同与带队组织经验，探底至E档。",
+          "sources": [
+            {
+              "label": "《FRT旗下dsn，fuxi 招新》",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "发帖与军团管理激烈争吵引发舆论对线，未能赢得广泛追随与支持，人际维系偏弱。",
+          "sources": [
+            {
+              "label": "《FRT旗下dsn，fuxi 招新》",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "主要是新人对军团规则与教学的个人争议，没有联盟外交或派系协调事迹，按常人基准记D。",
+          "sources": [
+            {
+              "label": "《FRT旗下dsn，fuxi 招新》",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "因新手任务LP和补贴与军团产生严重纠纷，自身初期生产造血与积累能力偏弱。",
+          "sources": [
+            {
+              "label": "《FRT旗下dsn，fuxi 招新》",
+              "url": "https://tieba.baidu.com/p/10430077310"
+            }
+          ]
+        }
+      }
+    }
   }
 }

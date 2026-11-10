@@ -193,7 +193,7 @@
         "id": 2115162532,
         "name": "Casimir Platinum",
         "sources": [
-          "materials-casimir-exusiai.md"
+          "materials-casimir-exusiai.json"
         ],
         "zkb": {
           "kills": 514,
@@ -207,7 +207,7 @@
         "id": 2115231802,
         "name": "Casimir Skyfire",
         "sources": [
-          "materials-casimir-exusiai.md"
+          "materials-casimir-exusiai.json"
         ],
         "zkb": {
           "kills": 0,
@@ -221,7 +221,7 @@
         "id": 2116534122,
         "name": "Leon 7ovol",
         "sources": [
-          "materials-casimir-exusiai.md"
+          "materials-casimir-exusiai.json"
         ],
         "zkb": {
           "kills": 2077,
@@ -235,7 +235,7 @@
         "id": 2117081347,
         "name": "Redamancy alt01",
         "sources": [
-          "materials-casimir-exusiai.md"
+          "materials-casimir-exusiai.json"
         ],
         "zkb": {
           "kills": 0,
@@ -249,7 +249,7 @@
         "id": 2117526410,
         "name": "call me Senorita",
         "sources": [
-          "materials-casimir-exusiai.md"
+          "materials-casimir-exusiai.json"
         ],
         "zkb": {
           "kills": 0,
@@ -263,7 +263,7 @@
         "id": 2118190675,
         "name": "Thunder Pony",
         "sources": [
-          "materials-casimir-exusiai.md"
+          "materials-casimir-exusiai.json"
         ],
         "zkb": {
           "kills": 1158,
@@ -292,6 +292,73 @@
       "00区",
       "AT19冠军",
       "RMT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "AT19冠军王牌，带新东家推平老友母洞铁壁，当指挥半路跳走下线，将冠军船换一万四现金高呼好吃的极端神人。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "拆了老友的虫洞后退指挥，又把 AT 冠军舰卖了 1.4 万元；马哥离场时，连冠军船也换成了现金。",
+          "sources": [
+            {
+              "label": "FRT成员现金倒卖AT冠军船爆料",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "AT19世界冠军正赛绝对王牌，A1-AUH战列出勤，多次低安大赛一线主力。",
+          "sources": [
+            {
+              "label": "AT19 冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "AT 里的小队 FC，主导集火与走位，规模限于小队；C。",
+          "sources": [
+            {
+              "label": "AT19 冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "顶尖竞技实力自带光环，但在散伙事件中因怒喷队友与带路推老家而威信大损。",
+          "sources": [
+            {
+              "label": "FRT成员现金倒卖AT冠军船爆料",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "在老东家PMA与新东家FRT之间反复横跳，带路拆老家铁壁，政治处境争议极大。",
+          "sources": [
+            {
+              "label": "FRT成员现金倒卖AT冠军船爆料",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "坐拥AT冠军船队，变现万元人民币现金与数万亿ISK，商业头脑极度活跃。",
+          "sources": [
+            {
+              "label": "FRT成员现金倒卖AT冠军船爆料",
+              "url": "https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

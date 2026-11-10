@@ -33,7 +33,7 @@
         "id": 2122185391,
         "name": "qiaobu798",
         "sources": [
-          "materials-qiaobu123.md"
+          "materials-qiaobu123.json"
         ],
         "zkb": {
           "kills": 1478,
@@ -47,7 +47,7 @@
         "id": 2121799472,
         "name": "qiaobu668",
         "sources": [
-          "materials-qiaobu123.md"
+          "materials-qiaobu123.json"
         ],
         "zkb": {
           "kills": 1199,
@@ -61,7 +61,7 @@
         "id": 2121439460,
         "name": "qiaobu11",
         "sources": [
-          "materials-qiaobu123.md"
+          "materials-qiaobu123.json"
         ],
         "zkb": {
           "kills": 205,
@@ -75,7 +75,7 @@
         "id": 2121439486,
         "name": "qiaobu22",
         "sources": [
-          "materials-qiaobu123.md"
+          "materials-qiaobu123.json"
         ],
         "zkb": {
           "kills": 174,
@@ -102,6 +102,77 @@
     "tags": [
       "00区",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:49:08Z",
+      "verdict": "乔布：普通表现以 D 为起点，突出项按已有列传记录上调。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "列传记录轻度戏剧性或常规整活，在 D 基准上小幅上调至 C。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/kill/130051128/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "主号及两枚已确认小号合计17,582杀、99次单杀，击毁目标含194艘无畏、33艘航母、44艘战斗后勤旗舰、11艘超旗和4艘泰坦（账号汇总可能有重复KM）；2025年10月洛基单杀刀哥的噩梦，火力与独立击杀都达到S档。",
+          "sources": [
+            {
+              "label": "乔布及已确认小号 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121450438/"
+            },
+            {
+              "label": "洛基单杀刀哥噩梦",
+              "url": "https://zkillboard.com/kill/130821192/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "本人驾驶监视者的公开KM共40条、跨7个UTC日；2026年8月9日D-W7F0同日同星系集中11条。按本轮校准，这类超过10条的监视者记录表明会战带队，统御至少评B；这组记录尚未匹配本站战役页。",
+          "sources": [
+            {
+              "label": "D-W7F0 监视者记录（2026-08-09）",
+              "url": "https://zkillboard.com/kill/137594150/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "现有材料未显示稳定拥趸或广泛号召力，按常人基准 D。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121450438/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "列传未见高层利益协调或组织管理，按常人基准 D。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121450438/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "四个号击杀一两千，账面合计两千多亿，几个号同时养着出勤；评 A。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121450438/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

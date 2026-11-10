@@ -91,6 +91,36 @@ test('无效查询和损坏的正式档案明确报错，不静默当成没有�
   assert.throws(() => searchMaterials(root), /42-id.json/);
 });
 
+test('B站作品摘要迁入JSON后，按标题和BV定位，全文保留人物及战役召回与分页', t => {
+  const { root, put } = fixture(t);
+  const bvid = 'BV1abcdefghJ';
+  put('docs/bilibili/123.json', { uid: '123', name: 'UP甲', identity: { state: 'confirmed', person: 'demo', material: 'src/people/demo/materials-demo.md' },
+    videos: [{ bvid, title: '关于舰队的公开复盘', url: `https://www.bilibili.com/video/${bvid}/`, reading: {
+      state: 'digested', digest: '上下文。'.repeat(150) + '独有的调度争议，作者回应仍待战报核对。', scope: '简介与作者两条回复，未看影像',
+    } }],
+    posts: [{ key: 'opus:456', url: 'https://www.bilibili.com/opus/456', title: '图文补记', reading: { digest: '图文里的不同说法', scope: '只读正文' } }] });
+  put('src/people/demo/materials-demo.md', `# 人物事件整合\n作品摘记见 docs/bilibili/123.json，${bvid}。`);
+  put('src/battles/test/materials-test.md', `# 战役判断\n同场来源：${bvid}。`);
+  assert.equal(searchMaterials(root, { query: '公开复盘', kind: 'bilibili' }).records[0].match.key, bvid);
+  assert.equal(searchMaterials(root, { query: bvid, kind: 'bilibili' }).total, 1);
+  assert.equal(searchMaterials(root, { query: '调度争议' }).total, 0);
+  const results = searchMaterials(root, { query: '调度争议', fullText: true });
+  assert.deepEqual(results.records.map(record => record.kind), ['person', 'battle', 'bilibili']);
+  for (const record of results.records) {
+    assert.equal(record.match.archive, 'docs/bilibili/123.json');
+    assert.equal(record.match.key, bvid);
+    assert.equal(record.match.field, 'reading.digest');
+    assert.match(record.match.excerpt, /调度争议/);
+    assert.ok(record.match.excerpt.length <= 280);
+  }
+  assert.equal(searchMaterials(root, { query: '调度争议', fullText: true, offset: 1, limit: 1 }).records[0].kind, 'battle');
+  assert.equal(searchMaterials(root, { query: '未看影像', fullText: true, kind: 'person' }).total, 1);
+  assert.equal(searchMaterials(root, { query: '不同说法', fullText: true, kind: 'bilibili' }).records[0].match.key, 'opus:456');
+  assert.equal(searchMaterials(root, { query: '不同说法', fullText: true, kind: 'person' }).total, 0);
+  put('src/people/demo/materials-demo.md', '# 图文关联\nhttps://www.bilibili.com/opus/456');
+  assert.equal(searchMaterials(root, { query: '不同说法', fullText: true, kind: 'person' }).total, 1);
+});
+
 test('军团ID、角色名与账号组昵称可直接定位结构化档案，不需要全文搜索', t => {
   const { root, put } = fixture(t);
   put('docs/corporations/123.json', { id: '123', names: ['Kuan.Dai.Shan', '宽带山'], rankings: [],
@@ -110,4 +140,26 @@ test('军团ID、角色名与账号组昵称可直接定位结构化档案，不
   assert.equal(excerpt.records[0].material, 'docs/corporations/notes/members/123.md');
   assert.equal(excerpt.records[0].title, '宽带山成员核读');
   assert.equal(excerpt.records[0].match.line, 2);
+});
+
+test('材料 JSON 投影参与标题、正文、作品引用全文召回并保留行号', t => {
+  const { root, put } = fixture(t);
+  fs.rmSync(path.join(root, 'src/people/demo/materials-demo.md'));
+  put('docs/sources/shared.json', { version: 1, type: 'material', title: '共享来源标题', sections: [
+    { id: 'source', heading: '共享来源标题', level: 1, content: '来源正文独有词。\n' },
+  ] });
+  put('docs/bilibili/123.json', { uid: '123', name: 'UP甲', videos: [{ bvid: 'BV1abcdefghJ', title: '视频标题', reading: { digest: '作者回应中的独有异议词。' } }] });
+  put('src/people/demo/materials-demo.json', { version: 1, type: 'material', title: '人物素材标题', sections: [
+    { id: 'overview', heading: '人物素材标题', level: 1, content: '' },
+    { id: 'evidence', heading: '作品回查', level: 2, content: '摘要异议词，详见 [共享来源](../../../docs/sources/shared.json) 与 [作品](../../../docs/bilibili/123.json)，BV1abcdefghJ。\n' },
+  ] });
+  const titleHit = searchMaterials(root, { query: '人物素材标题', kind: 'person' }).records[0];
+  assert.equal(titleHit.material, 'src/people/demo/materials-demo.json');
+  const proseHit = searchMaterials(root, { query: '来源正文独有词', fullText: true, kind: 'source' });
+  assert.equal(proseHit.records[0].title, '共享来源标题');
+  const excerpt = searchMaterials(root, { query: '摘要异议词', fullText: true, kind: 'person' });
+  assert.equal(excerpt.records[0].match.line, 3);
+  assert.match(excerpt.records[0].match.excerpt, /摘要异议词/);
+  const linkedWork = searchMaterials(root, { query: '作者回应中的独有异议词', fullText: true, kind: 'person' });
+  assert.equal(linkedWork.records[0].match.key, 'BV1abcdefghJ');
 });

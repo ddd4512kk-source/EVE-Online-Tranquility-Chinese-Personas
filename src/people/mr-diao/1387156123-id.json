@@ -108,7 +108,7 @@
         "id": 2118070113,
         "name": "Not Mrdiao",
         "sources": [
-          "materials-mr-diao.md"
+          "materials-mr-diao.json"
         ],
         "zkb": {
           "kills": 3337,
@@ -122,7 +122,7 @@
         "id": 712912091,
         "name": "DiaoMoney",
         "sources": [
-          "materials-mr-diao.md"
+          "materials-mr-diao.json"
         ],
         "zkb": {
           "kills": 536,
@@ -156,6 +156,85 @@
       "工业",
       "联盟管理",
       "诈骗"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:54:33Z",
+      "verdict": "教程有人受益，机库也有人受害。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "具体诈骗与洗机库旧事，按已有事件严重程度评A。",
+          "sources": [
+            {
+              "label": "MrDiao 运输与安全教学",
+              "url": "https://zkillboard.com/character/1387156123/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "战神底线之上，万余击杀、数百Solo及泰坦实战突出。",
+          "sources": [
+            {
+              "label": "MrDiao zKillboard",
+              "url": "https://zkillboard.com/character/1387156123/"
+            },
+            {
+              "label": "B-R5RB 纳迦法击毁记录",
+              "url": "https://zkillboard.com/kill/36255172/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "长期组织高安强暴队与极小队深渊特遣，制定大鱼值守与救援FC分工，具备稳定实战带队履历。",
+          "sources": [
+            {
+              "label": "极小队强暴攻略",
+              "url": "https://forums.winterco.org/t/topic/12185"
+            },
+            {
+              "label": "大鱼值守 FC 补贴草案",
+              "url": "https://forums.winterco.org/t/topic/25050"
+            },
+            {
+              "label": "MrDiao zKillboard",
+              "url": "https://zkillboard.com/character/1387156123/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "工业教程与社区长期传播，具跨团辨识度。",
+          "sources": [
+            {
+              "label": "MrDiao 教学与社区评价",
+              "url": "https://zkillboard.com/character/1387156123/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期参与联盟工业与资源制度，属于联盟核心管理。",
+          "sources": [
+            {
+              "label": "MrDiao 早期联盟履历",
+              "url": "https://zkillboard.com/character/1387156123/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "大亨名单与工业工具、制造经营，达到成体系工业经营A。",
+          "sources": [
+            {
+              "label": "MrDiao zKillboard",
+              "url": "https://zkillboard.com/character/1387156123/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -102,7 +102,78 @@
     "tags": [
       "FRT",
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "工资表算得清，意见表总要吵。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "公开为RMT辩护并轻率担保封号风险，属轻度失当。",
+          "sources": [
+            {
+              "label": "萨沙护航队贴吧解散讨论帖",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主小号均有旗舰实战，累计六万亿级参与击杀。",
+          "sources": [
+            {
+              "label": "MC6O-F会战击杀档案",
+              "url": "https://zkillboard.com/kill/133727672/"
+            },
+            {
+              "label": "艾蒂斯狂怒者参战记录",
+              "url": "https://zkillboard.com/kill/134556788/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "长期组织审判护航队，制定值守与FC分工。",
+          "sources": [
+            {
+              "label": "护航反击战报记录",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有护航队协作基础，争议不抹掉实际成员支持。",
+          "sources": [
+            {
+              "label": "工资表争议楼层",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "组织护航收费与内部规则，尚非联盟执政核心。",
+          "sources": [
+            {
+              "label": "极光舰队筹备帖",
+              "url": "https://tieba.baidu.com/p/5891791371"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "三开电鱼研究收益并经营旗舰制造，符合刷怪能手尺度。",
+          "sources": [
+            {
+              "label": "两服体验与旗舰制造经验",
+              "url": "https://tieba.baidu.com/p/5650722198"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -112,7 +183,7 @@
         "name": "Tina Ortini",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Airluonear noder",
         "sources": [
-          "materials-ai-ruo.md"
+          "materials-ai-ruo.json"
         ],
         "zkb": {
           "kills": 415,
@@ -126,7 +197,7 @@
         "id": 2116121414,
         "name": "yunya No6",
         "sources": [
-          "materials-ai-ruo.md"
+          "materials-ai-ruo.json"
         ],
         "zkb": {
           "kills": 151,
@@ -143,7 +214,7 @@
           "uid": "876922571",
           "name": "ss堕落oo",
           "sources": [
-            "materials-ai-ruo.md"
+            "materials-ai-ruo.json"
           ]
         }
       ]

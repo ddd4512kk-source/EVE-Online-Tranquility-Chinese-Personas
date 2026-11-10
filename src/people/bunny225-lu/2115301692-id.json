@@ -74,6 +74,73 @@
       "00区",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "名震欧服的北境女王，脑子一热买下主权联盟，晒出海量充值记录，账号密码任由馒头登录借壳的传奇金主。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "“买下 RR”的传闻传得满天飞，她否认 RMT 和收购计划；十三天后 AOM 团壳散场，CEO 号还留着代登录的门。",
+          "sources": [
+            {
+              "label": "Talking in Stations 兔小姐收购游骑兵团节目",
+              "url": "https://www.talkinginstations.com/2019/10/miss-rabbit-buys-ranger-regiment/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "基本不涉一线开火打仗，以投资人与挂名CEO为主，常人基准。",
+          "sources": [
+            {
+              "label": "Bunny225 Lu zKillboard",
+              "url": "https://zkillboard.com/character/2115301692/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "纯投资人与所有者身份，无舰队指挥带队记录。",
+          "sources": [
+            {
+              "label": "RR官方声明",
+              "url": "https://www.reddit.com/r/Eve/comments/db6uwt/official_statement_from_ranger_regiment_for/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "欧服华人圈传奇“北境女王”，一句“脑子一热买联盟”震动全欧服。",
+          "sources": [
+            {
+              "label": "RR官方声明",
+              "url": "https://www.reddit.com/r/Eve/comments/db6uwt/official_statement_from_ranger_regiment_for/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "S",
+          "reason": "曾挂名RR联盟CEO，直接卷入AOM借壳RR的史诗级联盟政变，账号归属成为米塔尼清洗RR的关键导火索。",
+          "sources": [
+            {
+              "label": "帝国的意志 专栏分析",
+              "url": "https://www.bilibili.com/read/cv14779581/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "天花板级真金白银现金金主，晒出惊人信用卡充值账单，被外媒直接报道“买下整个主权联盟”。",
+          "sources": [
+            {
+              "label": "Talking in Stations 兔小姐收购游骑兵团节目",
+              "url": "https://www.talkinginstations.com/2019/10/miss-rabbit-buys-ranger-regiment/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

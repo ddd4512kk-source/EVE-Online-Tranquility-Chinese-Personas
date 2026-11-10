@@ -267,6 +267,77 @@
     "tags": [
       "00区",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:15:00Z",
+      "verdict": "枪上写着准备开火，号是六年后建的；八千杀的沉默打手，自掏腰包贴军团。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "简介用字符画写错字吹嘘2003开服老兵，实为沉默寡言默默往团里垫钱垫船的守序好人，常人基准。",
+          "sources": [
+            {
+              "label": "Jezz Zena 角色简介与名片",
+              "url": "https://zkillboard.com/character/536107961/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀超8100次、单杀超300次，持续138个月有战场斩获，洛基奥苏斯老手，打满A1-AUH旗舰绞杀。",
+          "sources": [
+            {
+              "label": "Jezz Zena zKillboard",
+              "url": "https://zkillboard.com/character/536107961/"
+            },
+            {
+              "label": "A1-AUH 旗舰参战记录",
+              "url": "https://zkillboard.com/kill/95187540/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "长年担任前线资深火力打手，未见其独立执掌战役大舰队的主力FC认证。",
+          "sources": [
+            {
+              "label": "Jezz Zena zKillboard",
+              "url": "https://zkillboard.com/character/536107961/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "话少，论坛上几乎没有他的发言；材料里只见他劝过 CEO、往团里放过钱和船，没有人气或号召力的记录。",
+          "sources": [
+            {
+              "label": "TCF 往事讨论帖",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "私下力劝CEO规范账目却无端被诬陷另立门户，厌恶内斗算计，专注本分作战。",
+          "sources": [
+            {
+              "label": "TCF 往事讨论帖",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "个人资财极其充盈，多次主动向军团公库无偿提供资金与高价值舰船战备。",
+          "sources": [
+            {
+              "label": "TCF 往事讨论帖",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        }
+      }
+    }
   }
 }

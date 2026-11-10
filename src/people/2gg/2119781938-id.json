@@ -32,7 +32,7 @@
             "a1216029379"
           ],
           "sources": [
-            "materials-2gg.md"
+            "materials-2gg.json"
           ]
         }
       ]
@@ -60,6 +60,73 @@
       "D.C",
       "工业",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "规划写满一年，副手还得再招。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "接雇佣轻敌与外交翻译翻车，是具体的轻度糗事。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8364932821"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "九百余次击杀，以暴风等战巡持续出勤。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119781938/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "组织反收割与军团作战，长期亲自承担FC工作。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8364932821"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "回归能召回成员，YSS的凝聚长期依赖本人。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8364932821"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "YSS创团CEO兼DC主要管理，承担联盟治理。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8364932821"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "建立气云反应、月矿与补贴体系，周转紧张不抹掉经营能力。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/8364932821"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -93,7 +93,7 @@
         "id": 2122946394,
         "name": "Heite Xiao",
         "sources": [
-          "materials-lvte-xiao.md"
+          "materials-lvte-xiao.json"
         ],
         "zkb": {
           "kills": 3289,
@@ -110,7 +110,7 @@
           "uid": "990493457",
           "name": "Demons_x",
           "sources": [
-            "materials-lvte-xiao.md"
+            "materials-lvte-xiao.json"
           ]
         }
       ]
@@ -134,8 +134,75 @@
     "tags": [
       "00区",
       "FRT",
-      "FC",
+      "著名FC",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "吃瓜强力值班FC，一天起三次队，签名“再也没有你的夏天就要来了”的收割劳模。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "签名带点文艺感伤，但带队雷打不动极其敬业，是吃瓜军团最规矩勤勉的模范FC，常人基准。",
+          "sources": [
+            {
+              "label": "Lvte Xiao 角色名片与简介",
+              "url": "https://zkillboard.com/character/2112612580/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀超5800次、消灭超4.5万亿，精通教皇、狂热与天梯指挥驱逐舰极速收割，一线实战过硬。",
+          "sources": [
+            {
+              "label": "Lvte Xiao zKillboard",
+              "url": "https://zkillboard.com/character/2112612580/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "有 FC 标注，每天多次起队、收割教学，大战里驾驶教皇领军，是 FRT 一线的主力 FC；带队频率高、资历硬，按主力指挥评 A。",
+          "sources": [
+            {
+              "label": "Lvte Xiao zKillboard",
+              "url": "https://zkillboard.com/character/2112612580/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期教学、战斗录像与招新形成稳定圈内受众，不只团内号令。",
+          "sources": [
+            {
+              "label": "小绿特 B站空间",
+              "url": "https://space.bilibili.com/32738444"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "日常防务、带新与值班属于军事部门协调，未等同核心执政。",
+          "sources": [
+            {
+              "label": "吃瓜军团招新通报",
+              "url": "https://zkillboard.com/character/2112612580/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "持续承担高频收割战备，尚不以击杀签名推定战利品与津贴收入。",
+          "sources": [
+            {
+              "label": "Lvte Xiao zKillboard",
+              "url": "https://zkillboard.com/character/2112612580/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

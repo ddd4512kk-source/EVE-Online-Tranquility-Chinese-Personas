@@ -115,6 +115,73 @@
   },
   "person": {
     "epithet": "总监被指是间谍，他认疏忽，不认欺骗。",
-    "tags": []
+    "tags": [],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T15:00:00Z",
+      "verdict": "刚开台风打完4-HWWF北方大战，两天后因军团总监当间谍导致全团被踢，贴吧讲理的委屈成员。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "刚开台风打完前线，两天后因总监当间谍整个军团被光速踢出联盟，被动卷入神人遭殃惨剧，常人基准。",
+          "sources": [
+            {
+              "label": "被踢军团对话与争执帖",
+              "url": "https://tieba.baidu.com/p/8924360773"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "开台风跟队打大战，普通常规跟队打手，常人基准。",
+          "sources": [
+            {
+              "label": "4-HWWF 台风参战 KM",
+              "url": "https://zkillboard.com/kill/135003484/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "普通军团成员，无任何指挥带队记录。",
+          "sources": [
+            {
+              "label": "creatorlxd zKillboard",
+              "url": "https://zkillboard.com/character/2115505057/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "普通成员，无团队号召力，常人基准。",
+          "sources": [
+            {
+              "label": "creatorlxd zKillboard",
+              "url": "https://zkillboard.com/character/2115505057/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "军团底层成员，总监间谍案被波及踢团后贴吧讲理，常人基准。",
+          "sources": [
+            {
+              "label": "被踢军团对话与争执帖",
+              "url": "https://tieba.baidu.com/p/8924360773"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "常规战列台风战备，自给自足普通玩家水平，常人基准。",
+          "sources": [
+            {
+              "label": "4-HWWF 台风参战 KM",
+              "url": "https://zkillboard.com/kill/135003484/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

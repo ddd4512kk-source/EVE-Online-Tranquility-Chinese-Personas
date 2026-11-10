@@ -509,6 +509,77 @@
       "FRT",
       "工业",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "嘴上又菜又抠，船厂和矿堡却没闲着。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "自嘲又菜又抠不算神人事迹。",
+          "sources": [
+            {
+              "label": "Rebirth EVE 角色名片与简介",
+              "url": "https://zkillboard.com/character/93209504/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "万余击杀、四百余Solo，多年实战精锐。",
+          "sources": [
+            {
+              "label": "Rebirth EVE zKillboard",
+              "url": "https://zkillboard.com/character/93209504/"
+            },
+            {
+              "label": "A1-AUH 旗舰大战记录",
+              "url": "https://zkillboard.com/kill/95191703/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "创团、后勤集结和少量监视者出勤，未说明本人实际实战带队。",
+          "sources": [
+            {
+              "label": "吃瓜军团招新干货帖",
+              "url": "https://forums.winterco.org/t/topic/14129"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期招新、攻略与创团人影响，具跨团受众。",
+          "sources": [
+            {
+              "label": "吃瓜军团招新干货帖",
+              "url": "https://forums.winterco.org/t/topic/14129"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "吃瓜创团掌事，长期经营大型军团。",
+          "sources": [
+            {
+              "label": "吃瓜军团发展档案",
+              "url": "https://zkillboard.com/corporation/98522339/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "大亨名单确认成体系旗舰制造、长须鲸供给与跳货专线，达到工业核心A。",
+          "sources": [
+            {
+              "label": "吃瓜军团招新干货帖",
+              "url": "https://forums.winterco.org/t/topic/14129"
+            }
+          ]
+        }
+      }
+    }
   }
 }

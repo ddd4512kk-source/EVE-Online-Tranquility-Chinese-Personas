@@ -42,6 +42,81 @@
     "tags": [
       "FRT",
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "一顶后勤帽子，被对手估出几万亿。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "“第一导”口头整活不加神人分，被指贪污也不当事实。",
+          "sources": [
+            {
+              "label": "贴吧声望哥指控后勤主管贪污帖",
+              "url": "https://tieba.baidu.com/p/10955717316"
+            },
+            {
+              "label": "官方角色名片广播预设",
+              "url": "https://esi.evetech.net/latest/characters/2118244824/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千六百击杀、五十余Solo，稳定资深实战。",
+          "sources": [
+            {
+              "label": "泰坦终结击杀记录",
+              "url": "https://zkillboard.com/kill/102120445/"
+            },
+            {
+              "label": "H-PA29大型战役记录",
+              "url": "https://zkillboard.com/kill/105127764/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "战备后勤主管不等于舰队指挥。",
+          "sources": [
+            {
+              "label": "战备出勤记录",
+              "url": "https://zkillboard.com/character/2118244824/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "五年叶落老成员，有团内稳定辨识度。",
+          "sources": [
+            {
+              "label": "叶落星海七周年讨论",
+              "url": "https://tieba.baidu.com/p/10829500647"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际承担叶落战备后勤主管，按核心部门管理评。",
+          "sources": [
+            {
+              "label": "贴吧后勤职位说明",
+              "url": "https://tieba.baidu.com/p/10955717316"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "主管职位能支持资源供给判断，匿名贪污估算不当资产。",
+          "sources": [
+            {
+              "label": "军团驻地生产规模",
+              "url": "https://tieba.baidu.com/p/10955717316"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -129,7 +129,74 @@
     "epithet": "广告送到小航，售后接到标点。",
     "tags": [
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T12:45:00Z",
+      "verdict": "自封精致的猪猪东，五级任务与多开快捷键流水线教学，打满无畏大战的牧星导师。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "B站自称‘精致的猪猪东’，把多开快捷键与五级任务做成流水线教程，会战开灾难战列打满千亿无畏大战，风趣尽责。",
+          "sources": [
+            {
+              "label": "精致的猪猪东 B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "开灾难级战列与海军先知跟队参战TN25-J千亿无畏大战，一线实战出勤稳健过硬。",
+          "sources": [
+            {
+              "label": "TN25-J 战役出勤记录",
+              "url": "https://zkillboard.com/kill/131028741/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "牧星教学与招新负责人，组织新手多开PVE与基础PVP培训协同，合格导师领头人。",
+          "sources": [
+            {
+              "label": "精致的猪猪东 B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站教学深入浅出有问必答，从任务到配置文件悉心指引，深受广大萌新与粉丝敬仰喜爱。",
+          "sources": [
+            {
+              "label": "精致的猪猪东 B站空间",
+              "url": "https://space.bilibili.com/9468015"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "负责军团内部招募与基础管理辅导，不涉高层联盟博弈，基层管理基准。",
+          "sources": [
+            {
+              "label": "DA DONG 角色档案",
+              "url": "https://zkillboard.com/character/2114473238/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "五级任务与海盗折差印钞大师，熟练流水线多开工业运作，自备战备极其充裕富足。",
+          "sources": [
+            {
+              "label": "DA DONG zKillboard",
+              "url": "https://zkillboard.com/character/2114473238/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -139,7 +206,7 @@
         "name": "DA DONG",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收DONG DA",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 759,
@@ -153,7 +220,7 @@
         "id": 2114599995,
         "name": "da dongwk",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 192,
@@ -167,7 +234,7 @@
         "id": 2123625241,
         "name": "Hi Life",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 416,
@@ -181,7 +248,7 @@
         "id": 2123764452,
         "name": "dongdong JT",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 0,
@@ -195,7 +262,7 @@
         "id": 2123773230,
         "name": "Max--Verstappen",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 0,
@@ -209,7 +276,7 @@
         "id": 2123777380,
         "name": "DongDong001",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 0,
@@ -223,7 +290,7 @@
         "id": 2123777393,
         "name": "Charles-Leclerc",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 0,
@@ -237,7 +304,7 @@
         "id": 2123777625,
         "name": "DongDong002",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 0,
@@ -251,7 +318,7 @@
         "id": 2123777630,
         "name": "DongDong003",
         "sources": [
-          "materials-da-dong.md"
+          "materials-da-dong.json"
         ],
         "zkb": {
           "kills": 0,

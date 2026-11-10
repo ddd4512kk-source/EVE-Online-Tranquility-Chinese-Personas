@@ -451,6 +451,73 @@
     "tags": [
       "00区",
       "INIT."
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "八千击杀万亿战果的精锐老打手，抓盟友脚本敲诈勒索反被光速踢出的骚操作主角。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "发现盟友开脚本，他没先点举报，而是开小号袭击再试着要钱封口；结果对线记录把告密者自己也送上名单。",
+          "sources": [
+            {
+              "label": "小G抓脚本勒索纠纷记录",
+              "url": "https://tieba.baidu.com/p/8567123456"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀超8000次、消灭超4万亿，单杀200多次，开审判者后勤护卫在北方大战中拿下两条泰坦KM，一线战力顶尖彪悍。",
+          "sources": [
+            {
+              "label": "Galaxy Feather zKillboard",
+              "url": "https://zkillboard.com/character/2114069885/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "穿梭于各大豪门联盟的王牌执行打手，未见独立带队或大舰队FC指挥资质认证。",
+          "sources": [
+            {
+              "label": "Galaxy Feather 角色档案",
+              "url": "https://zkillboard.com/character/2114069885/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "因勒索丑闻被老东家开除而广受争议，但在战斗小队内部是极具杀伤力的老兵尖刀。",
+          "sources": [
+            {
+              "label": "小G抓脚本勒索纠纷记录",
+              "url": "https://tieba.baidu.com/p/8567123456"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "内部勒索违纪导致被扫地出门，不具备联盟地缘政治运作能力，常人基准。",
+          "sources": [
+            {
+              "label": "Galaxy Feather 雇佣记录",
+              "url": "https://zkillboard.com/character/2114069885/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "八千击杀掠夺丰厚收益，自备掠夺舰与高价值特种战船，机库战备储备充裕富裕。",
+          "sources": [
+            {
+              "label": "Galaxy Feather zKillboard",
+              "url": "https://zkillboard.com/character/2114069885/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

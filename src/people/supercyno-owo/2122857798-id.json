@@ -59,7 +59,78 @@
     "tags": [
       "00区",
       "FRT",
-      "FC"
-    ]
+      "著名FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:51:07Z",
+      "verdict": "名片说他是诱导，真正要集合、分后勤、带人进大战时，频道都等着苏帕开麦。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "名字像只负责点灯的工具号，实际从队员做到大仗FC；称呼与工作错位，带点日常反差。",
+          "sources": [
+            {
+              "label": "此方 zKillboard",
+              "url": "https://zkillboard.com/character/2122857798/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "三千七百余次击杀、四万亿ISK以上战果，长期参与大战并驾驶多种战术舰船，表现稳定突出。",
+          "sources": [
+            {
+              "label": "此方 zKillboard",
+              "url": "https://zkillboard.com/character/2122857798/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "zKillboard标有FC (HIGH)，且在艾蒂斯、欧贝等大型行动中实际带队，负责集结、分配后勤并指挥成建制舰队。",
+          "sources": [
+            {
+              "label": "此方 zKillboard",
+              "url": "https://zkillboard.com/character/2122857798/"
+            },
+            {
+              "label": "欧贝大战",
+              "url": "https://zkillboard.com/kill/139047172/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "队员依其广播集结并听从舰队安排，体现稳定的组织认同；尚无跨联盟的广泛个人号召记录。",
+          "sources": [
+            {
+              "label": "欧贝大战",
+              "url": "https://zkillboard.com/kill/139047172/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "公开履历集中于舰队指挥与战场组织，没有联盟外交、派系经营或战略协商事迹，按常人基准记D。",
+          "sources": [
+            {
+              "label": "此方 zKillboard",
+              "url": "https://zkillboard.com/character/2122857798/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "战场击杀总值不等于个人资产；现有故事没有个人工业、经营或筹资材料，按常人基准记D。",
+          "sources": [
+            {
+              "label": "此方 zKillboard",
+              "url": "https://zkillboard.com/character/2122857798/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

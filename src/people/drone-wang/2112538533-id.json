@@ -95,12 +95,83 @@
     "epithet": "自称选盟主，围观群众却在问价格。",
     "tags": [
       "00区",
-      "FC",
+      "著名FC",
       "B站",
       "联盟管理",
       "CEO",
       "RMT",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "RR 游骑兵初创盟主，因RMT被封后开新号重掌牧星，带队手艺极硬的老军阀。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "RR 卖盟会议上他急着做主，卖价被夺米台风当场追问；老号因 RMT 永久封禁后，新号挂回“悟道导师”牌子。",
+          "sources": [
+            {
+              "label": "RR 游骑兵创立与卖盟往事",
+              "url": "https://forums.winterco.org/t/topic/14294"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "六千一百杀、消灭三万多亿，无畏打掉百余条，超旗、泰坦也有击杀；指挥舰与重巡领军冲杀，实战扎实，但单杀少、未见多开，够不上全服顶尖。",
+          "sources": [
+            {
+              "label": "Drone Wang zKillboard",
+              "url": "https://zkillboard.com/character/2112538533/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "有 FC 标注，RR 游骑兵创盟时的军事总指挥，定下舰队战备规矩，带队手艺硬；但 RR 的队伍人数一直不多，称不上统领大联盟主力的顶级 FC。",
+          "sources": [
+            {
+              "label": "Drone Wang zKillboard",
+              "url": "https://zkillboard.com/character/2112538533/"
+            },
+            {
+              "label": "台风2017势力介绍",
+              "url": "https://forums.winterco.org/t/topic/14294"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "虽毁誉参半、旧怨缠身，但带队手艺极硬，换号后仍能一呼百应迅速重组班底，老军阀威严不减。",
+          "sources": [
+            {
+              "label": "RR 游骑兵创立与卖盟往事",
+              "url": "https://forums.winterco.org/t/topic/14294"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "与台风、种马联手创立RR联盟并任盟主，主导早期扩张；但此后颠沛流离、身边少有人支持，够得上联盟核心，称不上长期操盘。",
+          "sources": [
+            {
+              "label": "台风2017势力介绍",
+              "url": "https://forums.winterco.org/t/topic/14294"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "执掌RR联盟的后勤财政与战备，掌管主权矿税，是联盟财政中枢；但RR规模有限，称不上顶级联盟国库。",
+          "sources": [
+            {
+              "label": "Drone Wang 角色档案",
+              "url": "https://zkillboard.com/character/2112538533/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

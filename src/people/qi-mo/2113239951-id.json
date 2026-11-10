@@ -48,7 +48,7 @@
         "id": 2120888832,
         "name": "MOSS 550W",
         "sources": [
-          "materials-qi-mo.md"
+          "materials-qi-mo.json"
         ],
         "zkb": {
           "kills": 0,
@@ -81,6 +81,77 @@
       "00区",
       "FRT",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "换了门牌，仍有人记得门口接待的人。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "招新玩笑与提醒现金交易习惯是正常互动。",
+          "sources": [
+            {
+              "label": "创世成员退团长文",
+              "url": "https://tieba.baidu.com/p/7792085930"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "五次公开击杀，不据此虚构熟练实战。",
+          "sources": [
+            {
+              "label": "Qi Mo zKillboard",
+              "url": "https://zkillboard.com/character/2113239951/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "招募与外交接待未见舰队带领。",
+          "sources": [
+            {
+              "label": "2024 年创世招新视频",
+              "url": "https://www.bilibili.com/video/BV1j2421L712/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "退团者仍单独肯定接待，属稳定本团口碑。",
+          "sources": [
+            {
+              "label": "创世成员退团长文",
+              "url": "https://tieba.baidu.com/p/7792085930"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "长期招募并承担新团外交联系人，按核心职能评。",
+          "sources": [
+            {
+              "label": "创世2020冬季招新帖",
+              "url": "https://forums.winterco.org/t/topic/2649"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "接待职务不能折算个人产业，按日常自给。",
+          "sources": [
+            {
+              "label": "Qi Mo zKillboard 旗舰与活动记录",
+              "url": "https://zkillboard.com/character/2113239951/"
+            },
+            {
+              "label": "Navigators' Union 招募与福利公告",
+              "url": "https://tieba.baidu.com/p/10721780885"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -114,6 +114,81 @@
       "CEO",
       "低素质",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "一张嘴拆掉 Band of Brothers，也是这张嘴把自己请下皇位。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "Fanfest 台上，他喝着酒催一名抑郁求助者去自杀；离开 CSM 后，后台聊天里那套骚扰文化又被他亲口翻了出来。",
+          "sources": [
+            {
+              "label": "Engadget Fanfest 违规事件报道",
+              "url": "https://www.engadget.com/2012-03-28-the-mittani-gets-hit-with-ban-and-resigns-in-wake-of-eve-online.html"
+            },
+            {
+              "label": "叼爷《在位蜜蜂CEO 12年，Mittani退位事件始末》",
+              "url": "https://forums.winterco.org/t/topic/21496"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "十七年生涯仅一千击杀，极少开战斗船直接下场交火，纯粹依靠麦克风和意识形态治国的幕后皇帝。",
+          "sources": [
+            {
+              "label": "The Mittani zKillboard",
+              "url": "https://zkillboard.com/character/443630591/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "Goonswarm 的领导人，大战中坐镇战略与组织，页面没有他本人带队的记录；B。",
+          "sources": [
+            {
+              "label": "《Coming home》战略总结",
+              "url": "https://forums.winterco.org/t/topic/11892"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "EX",
+          "reason": "炉边谈话与 The Meta Show 的灵魂人物，万千蜜蜂誓死效忠，被对手称为‘疯王带领下不可折断’的狂热精神图腾。",
+          "sources": [
+            {
+              "label": "贴吧《推荐大家阅读一下米塔尼教科书》",
+              "url": "https://tieba.baidu.com/p/7029417679"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "EX",
+          "reason": "间谍解散 BOB、抢注联盟名，操盘全宇宙政治十二年；敏锐吞纳晨曦移民，谈笑间收编没收 AOM 关键星城。",
+          "sources": [
+            {
+              "label": "贴吧《米塔尼锐评馒头演讲》",
+              "url": "https://tieba.baidu.com/p/7688089211"
+            },
+            {
+              "label": "储葛亮《The Mittani对于华人玩家的一些看法》",
+              "url": "https://forums.winterco.org/t/topic/14272"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "统御德勒夫帝国金融与矿业流水线，全服泰坦供应链的定价者，支配数万亿计的超额战备资源储备。",
+          "sources": [
+            {
+              "label": "贴吧泰坦价格链讨论",
+              "url": "https://tieba.baidu.com/p/7176356530"
+            }
+          ]
+        }
+      }
+    }
   }
 }

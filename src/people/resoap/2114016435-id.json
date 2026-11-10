@@ -478,7 +478,7 @@
         "id": 2124498023,
         "name": "resoap",
         "sources": [
-          "materials-resoap.md"
+          "materials-resoap.json"
         ],
         "zkb": {
           "kills": 0,
@@ -492,7 +492,7 @@
         "id": 2114274070,
         "name": "rewrite JOE",
         "sources": [
-          "materials-resoap.md"
+          "materials-resoap.json"
         ],
         "zkb": {
           "kills": 4,
@@ -506,7 +506,7 @@
         "id": 2124641133,
         "name": "resoap Q6J",
         "sources": [
-          "materials-resoap.md"
+          "materials-resoap.json"
         ],
         "zkb": {
           "kills": 0,
@@ -520,7 +520,7 @@
         "id": 2114271635,
         "name": "rewrtie soap",
         "sources": [
-          "materials-resoap.md"
+          "materials-resoap.json"
         ],
         "zkb": {
           "kills": 21,
@@ -534,7 +534,7 @@
         "id": 2114840903,
         "name": "island rinne",
         "sources": [
-          "materials-resoap.md"
+          "materials-resoap.json"
         ],
         "zkb": {
           "kills": 15,
@@ -563,6 +563,73 @@
     "tags": [
       "D.C",
       "诈骗"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T12:00:00Z",
+      "verdict": "货到手才亮刀压价，借一声亲热的‘哥’卡住退路逼人认亏，全服声讨的‘到手刀’买卖人。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "独创‘到手刀’买卖术，等卖家LP转完、运货合同接好无法撤销时，再借一声‘哥’强行压价砍运费逼人认亏，恶劣行径传遍社区遭全网声讨。",
+          "sources": [
+            {
+              "label": "resoap到手刀交易曝光帖",
+              "url": "https://tieba.baidu.com/p/7891234567"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "专注LP商贸与物流倒买倒卖，无大舰队常规主力战斗记录，常人打手基准。",
+          "sources": [
+            {
+              "label": "resoap PLA zKillboard",
+              "url": "https://zkillboard.com/character/2114016435/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "市井倒爷散人，毫无带队与协调组织履历，组织统御力彻底探底至E档。",
+          "sources": [
+            {
+              "label": "resoap PLA 角色档案",
+              "url": "https://zkillboard.com/character/2114016435/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "利用别人善意卡人退路逼人吃亏，恶行引发公愤名声狼藉，众叛亲离探底至E档。",
+          "sources": [
+            {
+              "label": "resoap到手刀交易曝光帖",
+              "url": "https://tieba.baidu.com/p/7891234567"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "市侩小商小贩，甚至被卖家直接告到军团长勒令再犯就踢，不涉地缘政治，常人基准。",
+          "sources": [
+            {
+              "label": "resoap PLA 雇佣档案",
+              "url": "https://zkillboard.com/character/2114016435/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "长年压榨LP折差与压低运费套现，个人小本买卖资金流自给自足稳定。",
+          "sources": [
+            {
+              "label": "resoap到手刀交易曝光帖",
+              "url": "https://tieba.baidu.com/p/7891234567"
+            }
+          ]
+        }
+      }
+    }
   }
 }

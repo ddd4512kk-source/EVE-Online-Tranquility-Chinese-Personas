@@ -349,6 +349,77 @@
       "00区",
       "FRT",
       "AT19冠军"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "二十载星海浮沉，从 PL 走到女娲；老号熬成真传奇，十九届 AT 终夺魁。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "虽在简介挂字符画与原神团名，但属老兵正派趣味，行事守序本分，无反常出格神迹，常人基准。",
+          "sources": [
+            {
+              "label": "Kalek Astroth 人物简介",
+              "url": "https://esi.evetech.net/latest/characters/848325459/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "AT19 冠军主力队员，PL 与 TRI 顶级 PVP 功底，二十年老将复出单月击杀超六百次。",
+          "sources": [
+            {
+              "label": "AT19 冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            },
+            {
+              "label": "Kalek Astroth zKillboard",
+              "url": "https://zkillboard.com/character/848325459/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "专精小队竞技对抗与一线精锐打手，未见其独立带队或成建制大舰队指挥记录。",
+          "sources": [
+            {
+              "label": "AT19 参赛阵容记录",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "全服 AT 冠军成员光环，跨越二十年的活化石级老兵，在竞技圈与华人圈声望极高。",
+          "sources": [
+            {
+              "label": "AT19 冠军复盘名单",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "专注战术竞技与个人战斗，较少卷入大联盟高层外交博弈与派系政治操盘。",
+          "sources": [
+            {
+              "label": "军团流转记录",
+              "url": "https://evewho.com/character/848325459"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "坐拥 AT 冠军高额奖船与奖金池分配，二十年积累充沛，高价值战舰自给自足。",
+          "sources": [
+            {
+              "label": "AT19 战报与奖船流转",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            }
+          ]
+        }
+      }
+    }
   }
 }

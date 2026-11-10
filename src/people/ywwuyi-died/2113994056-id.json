@@ -133,7 +133,7 @@
         "id": 2113378397,
         "name": "ywwuyi",
         "sources": [
-          "materials-ywwuyi-died.md"
+          "materials-ywwuyi-died.json"
         ],
         "zkb": {
           "kills": 448,
@@ -147,7 +147,7 @@
         "id": 2113966344,
         "name": "ywwuyi shuang",
         "sources": [
-          "materials-ywwuyi-died.md"
+          "materials-ywwuyi-died.json"
         ],
         "zkb": {
           "kills": 0,
@@ -175,6 +175,73 @@
     "epithet": "船能讲成印钞机，版本会来拆招牌。",
     "tags": [
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "印钞机有版本，旧教材也肯贴停用。",
+      "axes": {
+        "shenren": {
+          "tier": "E",
+          "reason": "明确给旧高播教程贴停用和新版入口，体现克制负责E。",
+          "sources": [
+            {
+              "label": "逆戟鲸教学停用置顶说明",
+              "url": "https://www.bilibili.com/video/BV1zT4y1g7XY/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "两号近九百击杀，有熟练常规作战积累。",
+          "sources": [
+            {
+              "label": "垃圾堆反收割舰队教学",
+              "url": "https://www.bilibili.com/video/BV1bt5a65Eaf/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "舰船科普与收益教学不代表实战带队。",
+          "sources": [
+            {
+              "label": "垃圾堆反收割舰队教学",
+              "url": "https://www.bilibili.com/video/BV1bt5a65Eaf/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "长期高播舰船课与跨游戏受众，传播达到A。",
+          "sources": [
+            {
+              "label": "逆戟鲸教学停用置顶说明",
+              "url": "https://www.bilibili.com/video/BV1zT4y1g7XY/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "视频作者未见组织管理职责。",
+          "sources": [
+            {
+              "label": "ywwuyi died 角色档案",
+              "url": "https://zkillboard.com/character/2113994056/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "魔像刷钱与任务收益教学，符合PVE能手S。",
+          "sources": [
+            {
+              "label": "垃圾堆反收割舰队教学",
+              "url": "https://www.bilibili.com/video/BV1bt5a65Eaf/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

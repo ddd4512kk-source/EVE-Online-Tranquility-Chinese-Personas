@@ -106,7 +106,74 @@
       "00区",
       "D.C",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "泰坦能抵押，信用还得另还。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "长期欠款拖延并让债主反受教育，属具体失信。",
+          "sources": [
+            {
+              "label": "RR旗下隐星军团管理神话借钱不还帖",
+              "url": "https://tieba.baidu.com/p/6378559919"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主小号千余击杀，有泰坦、超航本人实战。",
+          "sources": [
+            {
+              "label": "7D-PAT 勒维亚坦被击毁 KM",
+              "url": "https://zkillboard.com/kill/77486470/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "后勤管理和旗舰驾驶不等于舰队FC。",
+          "sources": [
+            {
+              "label": "RR旗下隐星军团管理神话借钱不还帖",
+              "url": "https://tieba.baidu.com/p/6378559919"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "具体公开讨债与旧团声讨，未见真实拥趸。",
+          "sources": [
+            {
+              "label": "RR旗下隐星军团管理神话借钱不还帖",
+              "url": "https://tieba.baidu.com/p/6378559919"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "隐星实际管理参与资源和税费协调。",
+          "sources": [
+            {
+              "label": "RR旗下隐星军团管理神话借钱不还帖",
+              "url": "https://tieba.baidu.com/p/6378559919"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "泰坦、超航战备及抵押明确，个人资产达到B。",
+          "sources": [
+            {
+              "label": "7D-PAT 勒维亚坦被击毁 KM",
+              "url": "https://zkillboard.com/kill/77486470/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -116,7 +183,7 @@
         "name": "Vagabond z",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Vagabond TT；两号对应：ESI：2019-03-15 建号，2019-06-13 进 Hidden Star Legion，2022-12-31 进 Tu Zi Fei Corporation，与 Vagabond z 同一时间进出同一军团。角色对应已明确",
         "sources": [
-          "materials-vagabond-z.md"
+          "materials-vagabond-z.json"
         ],
         "zkb": {
           "kills": 56,

@@ -38,7 +38,7 @@
         "id": 2115135561,
         "name": "KISSMYASSTHX",
         "sources": [
-          "materials-jason-yusi.md"
+          "materials-jason-yusi.json"
         ],
         "zkb": {
           "kills": 2428,
@@ -58,7 +58,7 @@
             "青春丶男神"
           ],
           "sources": [
-            "materials-jason-yusi.md"
+            "materials-jason-yusi.json"
           ]
         }
       ]
@@ -83,6 +83,73 @@
     "tags": [
       "00区",
       "CONDI"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:00:00Z",
+      "verdict": "大航刷怪教学与PLA招新招生办，击杀超万次、面对通敌指控在贴吧大方给全社区认亲的泼辣战将。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "面对通敌指控直接在贴吧给全社区认亲，让对方开小号来任务空间对线，行事泼辣接地气。",
+          "sources": [
+            {
+              "label": "紫电的回复帖与争论",
+              "url": "https://tieba.baidu.com/p/7342044116"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "参与击杀超1.2万次、总值约5.9万亿ISK，曾登PLA单月击杀榜首，参战星城与阿巴宗大战。",
+          "sources": [
+            {
+              "label": "Jason Yusi zKillboard",
+              "url": "https://zkillboard.com/character/2114969276/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "小号曾挂FC与后勤头衔，但主要是常规与小队FC，以教程推介为主。",
+          "sources": [
+            {
+              "label": "Jason Yusi zKillboard",
+              "url": "https://zkillboard.com/character/2114969276/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站教程高产UP主，将招募摊位办进教学视频，在PLA内部具备极高辨识度。",
+          "sources": [
+            {
+              "label": "大航刷血袭者异常教程",
+              "url": "https://www.bilibili.com/video/BV1SJ411271M"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "PLA资深招新与舆论骨干，贴吧逻辑清晰反串回怼指控，维系军团招募底盘。",
+          "sources": [
+            {
+              "label": "紫电的回复帖与争论",
+              "url": "https://tieba.baidu.com/p/7342044116"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "坐拥大航、小航、无畏旗舰机库，血袭者10/10与高难异常专业刷金户。",
+          "sources": [
+            {
+              "label": "大航刷血袭者异常教程",
+              "url": "https://www.bilibili.com/video/BV1SJ411271M"
+            }
+          ]
+        }
+      }
+    }
   }
 }

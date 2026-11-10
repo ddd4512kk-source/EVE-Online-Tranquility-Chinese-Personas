@@ -374,6 +374,73 @@
     "tags": [
       "00区",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T10:10:00Z",
+      "verdict": "洋人圈杀出近万杀的老海盗，一言不合先退团执法再回家的真打架人。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "华人圈发生纠纷时不仅发帖吵架，还直接带队开火‘退团执法’，打完还能安然回家，行事彪悍出格。；常规PVP对抗、战术伏击、舰队交火与游戏战损属于内置正常玩法机制，无突破道德底线的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "蜜蜂回忆录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "击杀近万、战损消灭近7万亿ISK，常年混迹洋人海盗联盟与前线，重巡与特种作战能力强硬。",
+          "sources": [
+            {
+              "label": "Cho Wong zKillboard",
+              "url": "https://zkillboard.com/character/1479807223/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "属于典型的一线高战打手与特种骨干，未见大型战役的战略大舰队FC带队资质认证。",
+          "sources": [
+            {
+              "label": "Cho Wong zKillboard",
+              "url": "https://zkillboard.com/character/1479807223/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "因作风硬朗、肯出来真刀真枪干架，在蜜蜂等好战群体中深受推崇，拥有稳固的拥趸圈。",
+          "sources": [
+            {
+              "label": "蜜蜂回忆录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "快意恩仇、直来直往，倾向于用战舰而非外交谈判解决问题，不经营地缘与政治博弈。",
+          "sources": [
+            {
+              "label": "女娲会历史档案",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "长年维持高烈度PVP与海盗生涯，个人战斗资财丰厚，可随手更换高价值特种作战舰船。",
+          "sources": [
+            {
+              "label": "Cho Wong zKillboard",
+              "url": "https://zkillboard.com/character/1479807223/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -32,11 +32,14 @@ export default function (eleventyConfig) {
     }
   }
   eleventyConfig.ignores.add('src/people/*/materials-*.md');
+  eleventyConfig.ignores.add('src/people/*/materials-*.json');
   eleventyConfig.ignores.add('src/people/_*.md');
   eleventyConfig.ignores.add('src/battles/*/materials-*.md');
+  eleventyConfig.ignores.add('src/battles/*/materials-*.json');
   eleventyConfig.ignores.add('src/battles/_*/**');
   eleventyConfig.ignores.add('src/battles/*/_*.md');
   eleventyConfig.ignores.add('src/corps/*/materials-*.md');
+  eleventyConfig.ignores.add('src/corps/*/materials-*.json');
 
   eleventyConfig.amendLibrary('md', md => {
     // 中文写作不手动折行：单个换行即换行（聊天记录可逐行书写）
@@ -48,8 +51,9 @@ export default function (eleventyConfig) {
           ? '<aside class="zhupi"><span class="zhupi-mark" data-pagefind-ignore>评曰</span>\n'
           : '</aside>\n',
     });
-    // ::: 红料 [标题] … :::（正面）与 ::: 黑料 [标题] … :::（负面），每块一条
-    for (const [kind, cls] of [['红料', 'liao-hong'], ['黑料', 'liao-hei']]) {
+    // ::: 红料 [标题] … :::（正面）与 ::: 黑料 [标题] … :::（负面），每块一条；
+    // ::: 高潮 [标题] … ::: 只用于战役正文，标出时间线里的亮点场面
+    for (const [kind, cls, badge] of [['红料', 'liao-hong', '红'], ['黑料', 'liao-hei', '黑'], ['高潮', 'liao-gaochao', '高潮']]) {
       const re = new RegExp(`^${kind}(?:\\s+(.*))?$`);
       md.use(markdownItContainer, kind, {
         validate: params => re.test(params.trim()),
@@ -57,7 +61,7 @@ export default function (eleventyConfig) {
           if (tokens[idx].nesting !== 1) return '</section>\n';
           const title = tokens[idx].info.trim().match(re)[1];
           return (
-            `<section class="liao ${cls}"><h3 class="liao-head"><span class="liao-badge" data-pagefind-ignore>${kind[0]}</span>` +
+            `<section class="liao ${cls}"><h3 class="liao-head"><span class="liao-badge" data-pagefind-ignore>${badge}</span>` +
             (title ? md.utils.escapeHtml(title) : kind) +
             '</h3>\n'
           );

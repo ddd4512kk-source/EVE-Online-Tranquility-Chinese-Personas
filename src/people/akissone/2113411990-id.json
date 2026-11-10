@@ -43,6 +43,73 @@
       "00区",
       "D.C",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "八年不挪窝，缺什么船就补什么位。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "八年前的KM收藏与招新玩笑属于普通整活。",
+          "sources": [
+            {
+              "label": "BOP 军团招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "近一千八百击杀，长期补位并驾驶纳迦法参战。",
+          "sources": [
+            {
+              "label": "akissone zKillboard",
+              "url": "https://zkillboard.com/character/2113411990/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "人事接待与特种船补位，不等于实际带队。",
+          "sources": [
+            {
+              "label": "BOP 军团招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "八年老团员兼招新联系人，影响集中在本团。",
+          "sources": [
+            {
+              "label": "BOP 军团招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "承担BOP人力资源和新人审核，属基层管理。",
+          "sources": [
+            {
+              "label": "akissone 雇佣记录",
+              "url": "https://zkillboard.com/character/2113411990/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有经历以常规战备自给为主。",
+          "sources": [
+            {
+              "label": "akissone zKillboard",
+              "url": "https://zkillboard.com/character/2113411990/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

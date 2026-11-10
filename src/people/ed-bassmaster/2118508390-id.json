@@ -48,7 +48,7 @@
         "id": 2116157768,
         "name": "thebosszang",
         "sources": [
-          "materials-ed-bassmaster.md"
+          "materials-ed-bassmaster.json"
         ],
         "zkb": {
           "kills": 338,
@@ -74,6 +74,81 @@
     "tags": [
       "00区",
       "联盟管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:40:00Z",
+      "verdict": "Wings联盟的实权执行重臣与超级航母掌门，战场上不嫌苦差开隐轰，家门口以大字通报和7B爆蛋给ESS小偷立威。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "简介大字通报“偷ess的就这个下场”，一人一船把偷ESS的刺客和7B脑插蛋秒杀挂牌示众。",
+          "sources": [
+            {
+              "label": "官方公开名片偷ESS通报",
+              "url": "https://esi.evetech.net/latest/characters/2118508390/"
+            },
+            {
+              "label": "7B太空舱单杀击毁战报",
+              "url": "https://zkillboard.com/kill/111252689/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号四千多次击杀涉两万亿，小号常备夜神超旗出勤，亲历H-PA29、老人星等大型会战。",
+          "sources": [
+            {
+              "label": "H-PA29大型战役记录",
+              "url": "https://zkillboard.com/kill/105127764/"
+            },
+            {
+              "label": "老人星隐轰出勤记录",
+              "url": "https://zkillboard.com/kill/109209926/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "Wings核心执行管理，协助军团与联盟旗舰战略协同。",
+          "sources": [
+            {
+              "label": "执行军团管理履历",
+              "url": "https://esi.evetech.net/latest/characters/2118508390/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "雷厉风行，对待盗贼毫不手软，执行力强。",
+          "sources": [
+            {
+              "label": "创世与Wings迁移记录",
+              "url": "https://esi.evetech.net/latest/characters/2118508390/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "Wings Freedom联盟执行军团核心管理者，主导创世加入Wings的战略迁徙。",
+          "sources": [
+            {
+              "label": "Wings执行军团架构",
+              "url": "https://esi.evetech.net/latest/characters/2118508390/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "双号资产，拥有夜神超旗、天梯、泽尼塔及神示舰队，财力雄厚。",
+          "sources": [
+            {
+              "label": "超旗机库与战备档案",
+              "url": "https://zkillboard.com/character/2118508390/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

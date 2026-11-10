@@ -61,6 +61,73 @@
     "tags": [
       "00区",
       "联盟管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "早期 FRT 掌管后勤与军纪的核心灭火队长，不替整家公司扣锅的讲理大管家。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "就事论事调解派系争端，坚决不搞扩大化株连，言行举止极具职业素养，守序常人模范。",
+          "sources": [
+            {
+              "label": "PLA 离开 FRT 事件汇编",
+              "url": "https://forum.pla-eve.com/topic/300-pla打算离开frt的主要事件/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "近三千次击杀并驾驶航母、后勤舰，战斗经验不只办公室履历。",
+          "sources": [
+            {
+              "label": "Heavy chest zKillboard",
+              "url": "https://zkillboard.com/character/90851508/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "联盟后勤协调明确，未把大后方调度等同舰队实战指挥。",
+          "sources": [
+            {
+              "label": "蜜蜂回忆录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "处理残骸纠纷与后勤工作形成内部信任，现有影响以熟人管理圈为主。",
+          "sources": [
+            {
+              "label": "PLA 离开 FRT 事件汇编",
+              "url": "https://forum.pla-eve.com/topic/300-pla打算离开frt的主要事件/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "早期 FRT 三人核心之一，实际接管联盟后勤并处理跨团纠纷。",
+          "sources": [
+            {
+              "label": "PLA 离开 FRT 事件汇编",
+              "url": "https://forum.pla-eve.com/topic/300-pla打算离开frt的主要事件/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "执掌联盟后勤补给大盘，统筹分发庞大战备资产，后勤实力雄厚。",
+          "sources": [
+            {
+              "label": "蜜蜂回忆录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        }
+      }
+    }
   }
 }

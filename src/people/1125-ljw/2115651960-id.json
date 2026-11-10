@@ -28,7 +28,7 @@
         "id": 2119006693,
         "name": "1125 Ljw Saken",
         "sources": [
-          "materials-1125-ljw.md"
+          "materials-1125-ljw.json"
         ],
         "zkb": {
           "kills": 4,
@@ -42,7 +42,7 @@
         "id": 2116264881,
         "name": "1126 Ljw Saken",
         "sources": [
-          "materials-1125-ljw.md"
+          "materials-1125-ljw.json"
         ],
         "zkb": {
           "kills": 2448,
@@ -68,6 +68,73 @@
       "00区",
       "FRT",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "星尘守护主力FC，自研总览5.0被团员挂进简介，入选远古星门发现小组，简介反写散伙指南的幽默军官。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "简介反着念舰队纪律，是自嘲；借钱不还、骗补并非已发生的事。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "1125 Ljw 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115651960/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号约三千二百杀，已确认战斗小号另有两千四百余杀，多号长期实战合并评价。",
+          "sources": [
+            {
+              "label": "1125 Ljw zKillboard",
+              "url": "https://zkillboard.com/character/2115651960/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "常驻常规 FC，并有供队友使用的总览；按稳定带队骨干评。",
+          "sources": [
+            {
+              "label": "1125 Ljw zKillboard",
+              "url": "https://zkillboard.com/character/2115651960/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "总览被团友沿用，有军团内的认可；影响主要落在本团。",
+          "sources": [
+            {
+              "label": "1125 Ljw 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115651960/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "SGCN（星尘守护）的总监与管理层成员，2019 年入团至今；星尘是 FRT 第二大军团、近三千角色，长期在大型军团管理层任职。",
+          "sources": [
+            {
+              "label": "星尘守护军团档案",
+              "url": "https://evewho.com/corporation/98550682"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有经历体现常规战备自给；参加星门研究不代表财力。",
+          "sources": [
+            {
+              "label": "CCP 远古星门发现新闻报道",
+              "url": "https://www.eveonline.com/zh/news/view/breaking-ancient-jovian-stargates-discovered"
+            }
+          ]
+        }
+      }
+    }
   }
 }

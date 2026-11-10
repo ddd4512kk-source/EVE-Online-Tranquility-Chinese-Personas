@@ -28,7 +28,7 @@
         "id": 2113882039,
         "name": "peter li peter1",
         "sources": [
-          "materials-peter-li-peter.md"
+          "materials-peter-li-peter.json"
         ],
         "zkb": {
           "kills": 324,
@@ -59,6 +59,73 @@
       "FRT",
       "CEO",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "九年一家军团的吃瓜CEO，为领奖金写出21兆教程，大仗集结践行‘我是凤凰’的老板。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "芙水争执、基本法与撤总监等治理冲突有具体后果，不以教程拿奖金当黑料。；属正常游戏内活动与社区互动，无突破公序良俗的恶劣劣迹，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "从零开始带你走进吃瓜军团教程",
+              "url": "https://forums.winterco.org/t/topic/14573"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "击杀超2600次、消灭超万亿，亲自开凤凰级旗舰参战MC6O-F等史诗战役，一线重装战力稳定。",
+          "sources": [
+            {
+              "label": "MC6O-F 会战战损记录",
+              "url": "https://zkillboard.com/kill/133728260/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "经营军团、写新人教程与组织集结有据，未以 CEO 身份替代实战 FC。",
+          "sources": [
+            {
+              "label": "吃瓜军团档案",
+              "url": "https://zkillboard.com/corporation/98484918/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "长期同团、给新人写教程，支撑稳定内部认同，不宣称老少全员拥戴。",
+          "sources": [
+            {
+              "label": "从零开始带你走进吃瓜军团教程",
+              "url": "https://forums.winterco.org/t/topic/14573"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "多年实际掌管吃瓜并参与跨团冲突处理，长期大团管理有分量。",
+          "sources": [
+            {
+              "label": "吃瓜军团档案",
+              "url": "https://zkillboard.com/corporation/98484918/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "自驾凤凰等重装旗舰出勤，掌管军团财政体系，个人战备充盈自足富裕。",
+          "sources": [
+            {
+              "label": "peter li peter zKillboard",
+              "url": "https://zkillboard.com/character/2113450798/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

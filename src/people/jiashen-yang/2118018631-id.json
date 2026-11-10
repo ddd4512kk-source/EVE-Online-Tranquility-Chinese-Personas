@@ -53,7 +53,7 @@
         "id": 2116756372,
         "name": "JiaShen Yang",
         "sources": [
-          "materials-jiashen-yang.md"
+          "materials-jiashen-yang.json"
         ],
         "zkb": {
           "kills": 1370,
@@ -137,6 +137,81 @@
       "00区",
       "D.C",
       "联盟管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:11Z",
+      "verdict": "龙焰外交官上桌谈关系，下桌照样开船；正经公文之外少不了自黑。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "替身和借条括号是名片玩笑，不能当成真实赖账。",
+          "sources": [
+            {
+              "label": "角色官方公开头衔",
+              "url": "https://esi.evetech.net/latest/characters/2118018631/"
+            },
+            {
+              "label": "D哥哥猎獒击毁战评简介",
+              "url": "https://zkillboard.com/kill/117323348/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "本人主号与外交号累计消灭超 9.5 万亿 ISK，年均达 1.64 万亿达到战神线；主小号并进打满舰队主力与特种作战，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "JiaShen Yang战绩总览",
+              "url": "https://zkillboard.com/character/2118018631/"
+            },
+            {
+              "label": "猎獒级击毁记录",
+              "url": "https://zkillboard.com/kill/117323348/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "zKillboard 查无 FC 认证及监视者（Monitor）记录，实战聚焦小队电子战与单船走位协同，统御评常人基准 D。",
+          "sources": [
+            {
+              "label": "JiaShen Yangg zKillboard",
+              "url": "https://zkillboard.com/character/2118018631/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "外交岗位与熟人调侃形成稳定管理圈人脉。",
+          "sources": [
+            {
+              "label": "战报点评与头衔互动",
+              "url": "https://esi.evetech.net/latest/characters/2118018631/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "Dracarys联盟官方外交官，负责联盟关键涉外谈判与阵营利益平衡。",
+          "sources": [
+            {
+              "label": "联盟外交官方头衔",
+              "url": "https://esi.evetech.net/latest/characters/2118018631/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "能维持主力和特种舰投入，外交权限不是个人资产。",
+          "sources": [
+            {
+              "label": "角色机库战备与出战记录",
+              "url": "https://zkillboard.com/character/2118018631/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

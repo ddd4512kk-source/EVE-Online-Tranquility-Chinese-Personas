@@ -81,6 +81,73 @@
       "00区",
       "FRT",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "发言不多，合同和战备要准时。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "AWSL取名和稀少发言不算出格。",
+          "sources": [
+            {
+              "label": "伊什塔后勤挂单记录",
+              "url": "https://forums.winterco.org/t/topic/2820/18"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千余击杀，长期专精隐轰出勤。",
+          "sources": [
+            {
+              "label": "Mangosteen Steve zKillboard",
+              "url": "https://zkillboard.com/character/2113053705/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "战备制造管理不等于本人舰队指挥。",
+          "sources": [
+            {
+              "label": "AWSL 军团历史与简介",
+              "url": "https://esi.evetech.net/latest/corporations/98617920/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期军团经营与固定合同客户，具团队号召。",
+          "sources": [
+            {
+              "label": "伊什塔后勤挂单记录",
+              "url": "https://forums.winterco.org/t/topic/2820/18"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "长期任AWSL CEO，管理联盟群后勤供给。",
+          "sources": [
+            {
+              "label": "AWSL 军团历史与简介",
+              "url": "https://esi.evetech.net/latest/corporations/98617920/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "实际经营成体系制造战备，达到联盟资源供给A。",
+          "sources": [
+            {
+              "label": "Mangosteen Steve zKillboard",
+              "url": "https://zkillboard.com/character/2113053705/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

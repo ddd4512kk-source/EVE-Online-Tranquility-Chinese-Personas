@@ -45,6 +45,19 @@
       "NC",
       "军团管理",
       "新人教官"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:09:18Z",
+      "verdict": "外交总监兼教官，官网负责教人，开场白却先说老板外行。",
+      "axes": {
+        "shenren": {"tier":"C","reason":"把“42是个外行”挂在军团官网教官介绍里，反差鲜明但属于熟人整活。","sources":[{"label":"抵抗之狐核心团队与教官名单","url":"https://foxor.cc/team/"}]},
+        "combat": {"tier":"D","reason":"击杀主要来自跟队出勤和大型星城战，个人战斗表现没有明显高于常人基线。","sources":[{"label":"ClarityJupiter 战斗记录","url":"https://zkillboard.com/character/2122296275/"}]},
+        "command": {"tier":"C","reason":"负责教官管理和新人教学，有基层组织与指导职责；没有舰队 FC 履历。","sources":[{"label":"抵抗之狐核心团队与教官名单","url":"https://foxor.cc/team/"}]},
+        "charisma": {"tier":"D","reason":"官网职务体现工作信任，现有材料没有证明其拥有稳定粉丝或显著个人号召力。","sources":[{"label":"抵抗之狐核心团队与教官名单","url":"https://foxor.cc/team/"}]},
+        "politics": {"tier":"B","reason":"官网列其为外交总监，负责外交、美区工作、招募与教官管理，属于军团核心管理职责。","sources":[{"label":"抵抗之狐核心团队名单","url":"https://foxor.cc/team/"}]},
+        "wealth": {"tier":"D","reason":"材料记录的是管理、教学和舰队出勤，没有可靠个人资产或产业证据。","sources":[{"label":"ClarityJupiter 战斗记录","url":"https://zkillboard.com/character/2122296275/"}]}
+      }
+    }
   }
 }

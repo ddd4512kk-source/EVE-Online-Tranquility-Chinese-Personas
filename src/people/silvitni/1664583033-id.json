@@ -213,7 +213,7 @@
         "id": 93265237,
         "name": "Prince Corleone",
         "sources": [
-          "materials-silvitni.md"
+          "materials-silvitni.json"
         ],
         "zkb": {
           "kills": 116,
@@ -227,7 +227,7 @@
         "id": 2122091385,
         "name": "PLA Fleet CEO",
         "sources": [
-          "materials-silvitni.md"
+          "materials-silvitni.json"
         ],
         "zkb": {
           "kills": 0,
@@ -241,7 +241,7 @@
         "id": 2115078172,
         "name": "Henry Nakrar",
         "sources": [
-          "materials-silvitni.md"
+          "materials-silvitni.json"
         ],
         "zkb": {
           "kills": 0,
@@ -255,7 +255,7 @@
         "id": 945883645,
         "name": "Razor Jaxx",
         "sources": [
-          "materials-silvitni.md"
+          "materials-silvitni.json"
         ],
         "zkb": {
           "kills": 2058,
@@ -269,7 +269,7 @@
         "id": 876000651,
         "name": "Vegetate",
         "sources": [
-          "materials-silvitni.md"
+          "materials-silvitni.json"
         ],
         "zkb": {
           "kills": 1753,
@@ -283,7 +283,7 @@
         "id": 936393057,
         "name": "Samean",
         "sources": [
-          "materials-silvitni.md"
+          "materials-silvitni.json"
         ],
         "zkb": {
           "kills": 1564,
@@ -317,6 +317,81 @@
       "CEO",
       "低素质",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:38:38Z",
+      "verdict": "办新闻社造色情报纸，雇海盗内战反折泰坦；脑浆捐成谍战，炸鸡报销精神损失。",
+      "axes": {
+        "shenren": {
+          "tier": "EX",
+          "reason": "雇海盗打友军反被对方雇海盗打死自己泰坦；捐脑浆写成色情谍战与 NTR 脑洞；加税要求团员报销炸鸡精神损失。",
+          "sources": [
+            {
+              "label": "七宝事件前因后果长帖",
+              "url": "https://forum.pla-eve.com/topic/236-关于七宝事件的前因后果/"
+            },
+            {
+              "label": "H-ADOC 泰坦击毁记录",
+              "url": "https://zkillboard.com/kill/138999128/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "本人及登记小号累计参与击杀约 13.16 万亿 ISK，超过 10 万亿战神线；九千余次主号击杀与旗舰实战支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "Silvitni zKillboard",
+              "url": "https://zkillboard.com/character/1664583033/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "PLA 老板却无权发旗舰集结 ping，号令混乱致使团员开错超旗送死，缺乏正统指挥威信。",
+          "sources": [
+            {
+              "label": "B站评论区艾蒂斯战后解释",
+              "url": "https://www.bilibili.com/video/BV1CQDvBwEBN/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "PLA 从 2013 年办到今天，军团名册三千五百人，他一直是 CEO；骂声不断，群里仍有一批人跟着他走。",
+          "sources": [
+            {
+              "label": "PLA 论坛大事记",
+              "url": "https://forum.pla-eve.com/topic/59-pla军团历史/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "执掌PLA十余年牢握军团帅印，热衷宫斗整肃并逼退老鹰等内部势力，长年与KZU暗战互掐，深谙舆论战与权术博弈。",
+          "sources": [
+            {
+              "label": "PLA 论坛关于 KZU 冲突总结",
+              "url": "https://forum.pla-eve.com/topic/217-pla-and-frt-story/"
+            },
+            {
+              "label": "PLA 军团历史",
+              "url": "https://forum.pla-eve.com/topic/59-pla军团历史/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "掌管 PLA 军团财政中枢，经营多年超级旗舰制造、收垃圾与庞大工业流水线。",
+          "sources": [
+            {
+              "label": "PLA 军团历史与工业制造",
+              "url": "https://forum.pla-eve.com/topic/59-pla军团历史/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

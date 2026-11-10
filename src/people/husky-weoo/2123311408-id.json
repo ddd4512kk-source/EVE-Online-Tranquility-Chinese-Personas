@@ -34,7 +34,7 @@
           "uid": "5776473188",
           "name": "哈威s",
           "sources": [
-            "materials-husky-weoo.md"
+            "materials-husky-weoo.json"
           ]
         }
       ]
@@ -57,6 +57,77 @@
     "tags": [
       "低安",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:11Z",
+      "verdict": "自称摸鱼选手，蹭 LP 的清场时机倒解释得一清二楚。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "认真替石头解释清蹭者的理由和时机，是社区争论里的鲜明立场，但未到出格名场面。",
+          "sources": [
+            {
+              "label": "混沌退团避坑帖",
+              "url": "https://tieba.baidu.com/p/9749065335/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "参与击杀逾九千次、消灭超 4.6 万亿 ISK，折算年均达 2.32 万亿达到战神线；兼具二百余次单杀与埃加奥旗舰战出勤，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "Husky Weoo zKillboard",
+              "url": "https://zkillboard.com/character/2123311408/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "zKillboard 未标 FC，故事中是解释队伍清蹭时机的普通成员，没有带队记录，统御评 D。",
+          "sources": [
+            {
+              "label": "Husky Weoo zKillboard",
+              "url": "https://zkillboard.com/character/2123311408/"
+            },
+            {
+              "label": "混沌退团避坑帖",
+              "url": "https://tieba.baidu.com/p/9749065335/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "他在帖子里为队友和规则辩护，但现有材料没有追随者或号召力表现，评常人基准 D。",
+          "sources": [
+            {
+              "label": "混沌退团避坑帖",
+              "url": "https://tieba.baidu.com/p/9749065335/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "只涉及军团内部刷 LP 规则与等待成本的争论，没有承担管理协调或派系经营，评 D。",
+          "sources": [
+            {
+              "label": "混沌退团避坑帖",
+              "url": "https://tieba.baidu.com/p/9749065335/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有材料没有个人资产或资源经营记录；舰队参战金额不归个人，评自给基准 D。",
+          "sources": [
+            {
+              "label": "Husky Weoo zKillboard",
+              "url": "https://zkillboard.com/character/2123311408/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

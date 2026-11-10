@@ -174,8 +174,79 @@
     "epithet": "舰队几点起，先问生产线。",
     "tags": [
       "低安",
-      "FC",
+      "著名FC",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:40:00Z",
+      "verdict": "华人圈独特的“造船FC”，起队时刻表贴在暴风生产线上，用亲手拧出来的舰队打出五千次击杀。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "起队全看自己什么时候把暴风搓好，工厂与集结点一线牵，被陌然写进回忆录调侃。",
+          "sources": [
+            {
+              "label": "陌然回忆录记造船FC",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "五千多次参与击杀，亲历艾蒂斯万人史诗战役，常备狂热、巴盖斯、元帅。",
+          "sources": [
+            {
+              "label": "艾蒂斯参战记录",
+              "url": "https://zkillboard.com/kill/134556788/"
+            },
+            {
+              "label": "战斗击杀统计档案",
+              "url": "https://zkillboard.com/character/2118780937/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "BOP暴风队核心FC，能组织低安公开舰队狠揍敌对，低安小队战术老手。",
+          "sources": [
+            {
+              "label": "低安公开舰队战报回忆",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "肯干肯造船，把螺丝拧到舰队起锚，深受兄弟信赖。",
+          "sources": [
+            {
+              "label": "承天府创团历史",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "低安军团核心战术骨干，随陌然转战Shadow Cartel，不涉主权联盟权谋。",
+          "sources": [
+            {
+              "label": "军团变迁与Shadow Cartel记录",
+              "url": "https://esi.evetech.net/latest/characters/2118780937/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "掌握完整的巡洋制造生产线与海量战备，自给自足。",
+          "sources": [
+            {
+              "label": "工业造船生产能力记录",
+              "url": "https://tieba.baidu.com/p/8738371316"
+            }
+          ]
+        }
+      }
+    }
   }
 }

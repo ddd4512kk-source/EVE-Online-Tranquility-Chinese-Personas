@@ -38,7 +38,7 @@
         "id": 2115016884,
         "name": "DEMA 119",
         "sources": [
-          "materials-dema1.md"
+          "materials-dema1.json"
         ],
         "zkb": {
           "kills": 169,
@@ -52,7 +52,7 @@
         "id": 2114204576,
         "name": "dema110",
         "sources": [
-          "materials-dema1.md"
+          "materials-dema1.json"
         ],
         "zkb": {
           "kills": 1437,
@@ -80,6 +80,73 @@
       "00区",
       "CONDI",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "红楼军团创办老板，万杀榜首，吉他门口狂贴牛皮癣招新，名片大写五彩长篇情诗的纯爷们团长。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "吉他门口被他的广告贴刷满，聊天吵起来又叫人闭上肛门；德玛把招牌和粗口一起贴进了窗口。",
+          "sources": [
+            {
+              "label": "红楼端午送粽子招新争议帖",
+              "url": "https://tieba.baidu.com/p/6770452823"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "红楼历史击杀榜第一，击杀破万次、近9T战果，泽尼塔与战列长期出勤。",
+          "sources": [
+            {
+              "label": "Dema1 zKillboard",
+              "url": "https://zkillboard.com/character/2115768319/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "创团并组织数百人出勤，尚不以创始人身份认作实战 FC。",
+          "sources": [
+            {
+              "label": "HongLou 军团档案",
+              "url": "https://zkillboard.com/corporation/98642732/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "招新有稳定成员响应，群内威信与长篇头衔不等于跨团拥戴。",
+          "sources": [
+            {
+              "label": "Dema1 角色名片",
+              "url": "https://esi.evetech.net/latest/characters/2115768319/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "创建470人红楼军团并稳坐蜜蜂华人主力，在老东家星华被清洗后独善其身保留军团。",
+          "sources": [
+            {
+              "label": "HongLou 军团档案",
+              "url": "https://zkillboard.com/corporation/98642732/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "长期提供新人资助、补助与军团供给，支持资源经营档。",
+          "sources": [
+            {
+              "label": "红楼招新帖",
+              "url": "https://tieba.baidu.com/p/6683205007"
+            }
+          ]
+        }
+      }
+    }
   }
 }

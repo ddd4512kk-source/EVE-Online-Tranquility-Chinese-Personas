@@ -123,7 +123,7 @@
         "id": 2114818738,
         "name": "mumusan Chen",
         "sources": [
-          "materials-mumusan.md"
+          "materials-mumusan.json"
         ],
         "zkb": {
           "kills": 3235,
@@ -137,7 +137,7 @@
         "id": 2116699191,
         "name": "Crea1ure",
         "sources": [
-          "materials-mumusan.md"
+          "materials-mumusan.json"
         ],
         "zkb": {
           "kills": 1284,
@@ -152,7 +152,7 @@
         "name": "Heguy Inventor",
         "basis": "2026-10-25 ESI：头衔“木木3 - Vice CEO”对应木木三，与dear mumusan同属Dracarys.。",
         "sources": [
-          "materials-mumusan.md#执行军团小号对应"
+          "materials-mumusan.json#执行军团小号对应"
         ],
         "zkb": {
           "kills": 25,
@@ -167,7 +167,7 @@
         "name": "Heguy Industry Fax",
         "basis": "ESI公开头衔同为“木木三”，该头衔只见于本号主同组角色；同军团98547771历史榜同组",
         "sources": [
-          "materials-mumusan.md"
+          "materials-mumusan.json"
         ],
         "zkb": {
           "kills": 1377,
@@ -196,6 +196,73 @@
       "00区",
       "D.C",
       "联盟管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "报木木三名号就能进团，管事与出勤都落在同一张忙碌名片上。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "耐心处理杂务、求购 KB 和引用诗句不构成蠢事恶行。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "BOP 2019秋季招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号七千余杀，已确认小号中还有多个千杀角色，多号主力出勤形成长期积累。",
+          "sources": [
+            {
+              "label": "dear mumusan zKillboard",
+              "url": "https://zkillboard.com/character/2114825720/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "人资、迎新和活动协调是组织工作，不等同实战舰队指挥。",
+          "sources": [
+            {
+              "label": "BOP 2019秋季招新帖",
+              "url": "https://tieba.baidu.com/p/6233897251"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期担当 DC 接待与答疑入口，有跨军团稳定认可，未到全服精神图腾。",
+          "sources": [
+            {
+              "label": "DC老指挥七年经历回顾长帖",
+              "url": "https://tieba.baidu.com/p/8901234567"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "在 DC 执行军团长期承担人资与核心管理，实际联盟职能清楚。",
+          "sources": [
+            {
+              "label": "BOP军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "三个号击杀一千到三千多，账面近五千亿，无畏旗舰常出场，养得起成串大船；评 A。",
+          "sources": [
+            {
+              "label": "dear mumusan zKillboard",
+              "url": "https://zkillboard.com/character/2114825720/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -444,7 +444,74 @@
       "军团管理",
       "工业",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "十四个长门齐进退，自掏腰包补税差，被催债反向打脸盟主‘我欠的是一千六百亿’。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "被追讨联盟税时亲自下场公然叫板‘我欠的我就不交’，反向纠偏‘我欠的是1600亿不是200亿’嘲讽盟主算不清账，自曝式争吵节目效果拉满。",
+          "sources": [
+            {
+              "label": "贴吧长门饭店军团帖",
+              "url": "https://tieba.baidu.com/p/8742601380"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号与十四个已确认小号均有实战，多号累计远非旧评语的三千余杀。",
+          "sources": [
+            {
+              "label": "Falkia zKillboard",
+              "url": "https://zkillboard.com/character/736339179/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "实际组织矿队与物流，体现生产协同，不能直接算舰队 FC。",
+          "sources": [
+            {
+              "label": "军团历史与管理记录",
+              "url": "https://evewho.com/corporation/98599770"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "从一人建团到稳定成员群，支撑团内凝聚力。",
+          "sources": [
+            {
+              "label": "贴吧军团建设说明",
+              "url": "https://tieba.baidu.com/p/8742601380"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "一手将BKB军团从一人扩至上百人，搞矿队、办快递、统筹各部运转，在联盟声望事故与脱离转投中力保本团利益，具备成熟的军团治理手腕。",
+          "sources": [
+            {
+              "label": "联盟税单交涉记录",
+              "url": "https://tieba.baidu.com/p/8742601380"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "十三个号各自击杀三四百到四千多，一个人四开守星门、带矿队、跑快递；这样一摊产业养得起，评 A。",
+          "sources": [
+            {
+              "label": "黑皇杖资产与工业流水",
+              "url": "https://evewho.com/corporation/98599770"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -454,7 +521,7 @@
         "name": "Black KingBar",
         "basis": "BKB创建者兼现任CEO（creator_id与ceo_id均为本号），贴吧長門饭店以建团者自述，团长号无击杀",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 0,
@@ -469,7 +536,7 @@
         "name": "CO Deninard",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-14建号，与团长号Black KingBar同月建号的连号多开，2019-05-07入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 724,
@@ -484,7 +551,7 @@
         "name": "K Pollard",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-14建号，与团长号Black KingBar同月建号的连号多开，2019-05-07入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 707,
@@ -499,7 +566,7 @@
         "name": "Kohler's Dagger",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-25建号，与团长号Black KingBar同月建号的连号多开，2023-01-20入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 652,
@@ -514,7 +581,7 @@
         "name": "Serinity Ormand",
         "basis": "BKB头衔“「BKB-长门」”；2014年建号老号，2023-01-20自NPC团入BKB，按入团后算本人，此前经历不算",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 1556,
@@ -529,7 +596,7 @@
         "name": "BKB27",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-10建号，与团长号Black KingBar同月建号的连号多开，2020-11-22入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 571,
@@ -544,7 +611,7 @@
         "name": "Krasimus",
         "basis": "BKB头衔“「BKB-长门」”；2011年建号老号，2023-03-26自NPC团入BKB，按入团后算本人，此前经历不算",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 563,
@@ -559,7 +626,7 @@
         "name": "Kewer",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-14建号，与团长号Black KingBar同月建号的连号多开，2019-05-03入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 492,
@@ -574,7 +641,7 @@
         "name": "Vicoton",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-14建号，与团长号Black KingBar同月建号的连号多开，2019-05-03入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 460,
@@ -589,7 +656,7 @@
         "name": "Zunto",
         "basis": "BKB头衔“「BKB-长门」”；2019-04-14建号，与团长号Black KingBar同月建号的连号多开，2019-05-03入BKB",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 458,
@@ -604,7 +671,7 @@
         "name": "Polytor Naari",
         "basis": "BKB头衔“「BKB-长门」”；2012年建号老号，2025-11-23自NPC团入BKB，按入团后算本人，此前经历不算",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 388,
@@ -619,7 +686,7 @@
         "name": "Aszione",
         "basis": "BKB头衔“「BKB-长门」”；2008年建号老号，2025-11-28自NPC团入BKB，按入团后算本人，此前经历不算",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 356,
@@ -634,7 +701,7 @@
         "name": "pembs",
         "basis": "BKB头衔“「BKB-长门」”；2010年建号老号，2026-01-18自NPC团入BKB，按入团后算本人，此前经历不算",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 4151,
@@ -649,7 +716,7 @@
         "name": "Phantomchef",
         "basis": "BKB头衔“「BKB-长门」”；2006年建号老号，2026-01-18自NPC团入BKB，按入团后算本人，此前经历不算",
         "sources": [
-          "materials-black-kingbar.md"
+          "materials-black-kingbar.json"
         ],
         "zkb": {
           "kills": 1873,

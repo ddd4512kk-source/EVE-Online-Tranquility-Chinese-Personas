@@ -28,7 +28,7 @@
         "id": 2114883792,
         "name": "Garveen Doomsday",
         "sources": [
-          "materials-garveen-airuta.md"
+          "materials-garveen-airuta.json"
         ],
         "zkb": {
           "kills": 430,
@@ -42,7 +42,7 @@
         "id": 2119220143,
         "name": "Garveen",
         "sources": [
-          "materials-garveen-airuta.md"
+          "materials-garveen-airuta.json"
         ],
         "zkb": {
           "kills": 227,
@@ -72,6 +72,73 @@
       "AT19冠军",
       "联盟管理",
       "工业"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T12:30:00Z",
+      "verdict": "头衔只挂AT19冠军，M2开勒维亚坦沉泰坦，七百次巴戈龙压制全场的主力FC慕容。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "头衔只低调挂一句AT19冠军，实则兼任主力FC、勒维亚坦泰坦舰长与联盟IT申诉大管家，多面手沉着低调，常人基准。",
+          "sources": [
+            {
+              "label": "Garveen Airuta 角色简介",
+              "url": "https://zkillboard.com/character/2114279817/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "击杀超11000次、消灭超14万亿，AT19世界冠军主力，M2-XFE亲驾勒维亚坦泰坦击毁敌方泰坦，顶尖全能战神。",
+          "sources": [
+            {
+              "label": "M2-XFE 泰坦击毁记录",
+              "url": "https://zkillboard.com/kill/89616365/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "FRT大舰队核心主力FC，统率成建制超级舰队与常规主力突击大队，战术指挥掌控力卓绝。",
+          "sources": [
+            {
+              "label": "Garveen Airuta 角色档案",
+              "url": "https://zkillboard.com/character/2114279817/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "全能技术流金牌FC，负责全盟IT与申诉协调，在伏羲和FRT深受打手与高层由衷敬服。",
+          "sources": [
+            {
+              "label": "Garveen Airuta 角色档案",
+              "url": "https://zkillboard.com/character/2114279817/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "担任FRT核心申诉受理人与技术决策管理，深度参与全联盟秩序维护与矛盾裁决。",
+          "sources": [
+            {
+              "label": "Garveen Airuta 角色档案",
+              "url": "https://zkillboard.com/character/2114279817/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "常备勒维亚坦等泰坦超旗与巴戈龙海盗战舰，AT冠军奖励持有者，资产实力极其厚重。",
+          "sources": [
+            {
+              "label": "Garveen Airuta zKillboard",
+              "url": "https://zkillboard.com/character/2114279817/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

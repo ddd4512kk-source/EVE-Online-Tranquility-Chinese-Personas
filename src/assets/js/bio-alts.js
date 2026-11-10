@@ -1,4 +1,4 @@
-// 小号过多时只显示两行，其余折叠；无 JS 时全部可读。
+// 小号过多时只显示一行，其余折叠；无 JS 时全部可读。
 (() => {
   const wrap = document.querySelector(".bio-alts-wrap");
   if (!wrap) return;

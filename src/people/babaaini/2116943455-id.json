@@ -114,6 +114,77 @@
     "epithet": "招新挂前门，星城 KM 挂的是一具太空舱。",
     "tags": [
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "进门叫表哥，进站还得看权限。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把太空舱KM挂门口是自嘲，不是神人事迹。",
+          "sources": [
+            {
+              "label": "4-HWWF星城KM挂主页",
+              "url": "https://zkillboard.com/kill/135096173/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "近三千击杀，八百余次送葬者出勤体现后勤专长。",
+          "sources": [
+            {
+              "label": "babaaini战绩总览",
+              "url": "https://zkillboard.com/character/2116943455/"
+            },
+            {
+              "label": "星城终结KM",
+              "url": "https://zkillboard.com/kill/135096173/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "后勤出勤与新人教程未显示本人实际带队。",
+          "sources": [
+            {
+              "label": "军团职位与后勤出勤记录",
+              "url": "https://esi.evetech.net/latest/characters/2116943455/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "长期整理新人路线并承担接待，支持集中团内。",
+          "sources": [
+            {
+              "label": "角色配置与教程公开信息",
+              "url": "https://esi.evetech.net/latest/characters/2116943455/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际任职招新总监并掌握POS权限，按核心管理评。",
+          "sources": [
+            {
+              "label": "官方头衔总监及权限记录",
+              "url": "https://esi.evetech.net/latest/characters/2116943455/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "长期承担后勤重船损耗，支持资产充裕，未到产业雄厚。",
+          "sources": [
+            {
+              "label": "损失档案与战备沉淀",
+              "url": "https://zkillboard.com/character/2116943455/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -53,7 +53,78 @@
       "联盟管理",
       "CEO",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:47:53Z",
+      "verdict": "FRT建筑管理重臣与怯薛看家人，既能开泰坦决战黑色星期五，又能自掏数十亿为联盟擦屁股，风雨兼程的实权总监。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "自封“鲜衣怒马汤圆郎，谁人不识怯薛王”，自掏腰包40亿垫付打手工资反被声望哥在贴吧全宇宙悬赏两年。",
+          "sources": [
+            {
+              "label": "角色简介自封诗句",
+              "url": "https://esi.evetech.net/latest/characters/2117147972/"
+            },
+            {
+              "label": "贴吧声望哥悬赏帖",
+              "url": "https://tieba.baidu.com/p/9238605473"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "驾驶神使泰坦与万古超旗亲历1N-FJ8黑色星期五等旗舰会战，击杀含金量极高。",
+          "sources": [
+            {
+              "label": "1N-FJ8黑色星期五战报",
+              "url": "https://zkillboard.com/kill/122868712/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "接管怯薛内务、建筑与权限属于管理职责；没有 FC 或实际带队记录，统御按随队队员评 D。",
+          "sources": [
+            {
+              "label": "Silver Magician zKillboard",
+              "url": "https://zkillboard.com/character/2117571969/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "肯自掏腰包平息下属欠薪纠纷，为人勇于任事，深受高层与基层信任。",
+          "sources": [
+            {
+              "label": "五级群工资事件始末",
+              "url": "https://tieba.baidu.com/p/9238605473"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "FRT外交组组长兼建筑管理核心骨干，在怯薛动荡时受N老板委派全权看家接管。",
+          "sources": [
+            {
+              "label": "FRT联盟更新通告2025年4月",
+              "url": "https://winterco.org/2025/04/23/659/frt-lian-meng-geng-xin-tong-gao-20254/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "常备个人泰坦、万古超旗与重型工业资产，随手垫付数十亿现金而面不改色。",
+          "sources": [
+            {
+              "label": "泰坦装配与出勤记录",
+              "url": "https://zkillboard.com/character/2117147972/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -63,7 +134,7 @@
         "name": "Tang Yuan",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Silver Magician",
         "sources": [
-          "materials-tang-yuan.md"
+          "materials-tang-yuan.json"
         ],
         "zkb": {
           "kills": 89,
@@ -77,7 +148,7 @@
         "id": 2118258666,
         "name": "Light Cone",
         "sources": [
-          "materials-tang-yuan.md"
+          "materials-tang-yuan.json"
         ],
         "zkb": {
           "kills": 52,

@@ -53,6 +53,73 @@
       "00区",
       "D.C",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "七年一个团，CCP的船也收进纪念册。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "CCP击杀收藏与皇帝头衔只是游戏趣味。",
+          "sources": [
+            {
+              "label": "M'r olddriver 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115269611/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "两千余击杀、近二百Solo，资深个人实战。",
+          "sources": [
+            {
+              "label": "M'r olddriver zKillboard",
+              "url": "https://zkillboard.com/character/2115269611/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "CEO名片未显示舰队指挥经历。",
+          "sources": [
+            {
+              "label": "Fuente Vacio 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "长期同团形成固定成员支持，未见跨圈受众。",
+          "sources": [
+            {
+              "label": "Fuente Vacio 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "七年经营Fuente Vacio，长期军团主官。",
+          "sources": [
+            {
+              "label": "Fuente Vacio 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "现有常规战备支持C，未见雄厚产业依据。",
+          "sources": [
+            {
+              "label": "M'r olddriver zKillboard",
+              "url": "https://zkillboard.com/character/2115269611/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -71,6 +71,73 @@
       "00区",
       "FRT",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "等不到期货，转身自己搓泰坦。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "追债者骂人仍属普通纠纷，不把受害经历当神人。",
+          "sources": [
+            {
+              "label": "《EVE年度大戏之赛博民工，在线要账》",
+              "url": "https://tieba.baidu.com/p/10424407988"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "年均口径达到战神，五千余击杀并有旗舰实战。",
+          "sources": [
+            {
+              "label": "WLlng 战斗记录",
+              "url": "https://zkillboard.com/character/2122271544/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "追债、制造与参战未见舰队带领。",
+          "sources": [
+            {
+              "label": "WLlng 战斗记录",
+              "url": "https://zkillboard.com/character/2122271544/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "长期要账帖有固定关注和支持。",
+          "sources": [
+            {
+              "label": "《EVE年度大戏之赛博民工，在线要账》",
+              "url": "https://tieba.baidu.com/p/10424407988"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "本人制造与合同交易不等同军团核心管理。",
+          "sources": [
+            {
+              "label": "《EVE年度大戏之赛博民工，在线要账》",
+              "url": "https://tieba.baidu.com/p/10424407988"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "自造泰坦及长期旗舰投入，经营与资产支撑A。",
+          "sources": [
+            {
+              "label": "《EVE年度大戏之赛博民工，在线要账》",
+              "url": "https://tieba.baidu.com/p/10424407988"
+            }
+          ]
+        }
+      }
+    }
   }
 }

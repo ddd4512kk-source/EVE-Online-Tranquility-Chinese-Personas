@@ -118,7 +118,7 @@
         "id": 2123262345,
         "name": "Yuki 007",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 3289,
@@ -132,7 +132,7 @@
         "id": 2121619873,
         "name": "Zeus002",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 2548,
@@ -146,7 +146,7 @@
         "id": 2121593844,
         "name": "Zeus005",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 2396,
@@ -160,7 +160,7 @@
         "id": 2122778562,
         "name": "Zeus589",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 3392,
@@ -174,7 +174,7 @@
         "id": 2121728332,
         "name": "Zeus886",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 3214,
@@ -188,7 +188,7 @@
         "id": 2122616623,
         "name": "Zeus996",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 3410,
@@ -202,7 +202,7 @@
         "id": 2121619890,
         "name": "ZeusDSN",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 4756,
@@ -216,7 +216,7 @@
         "id": 2121676163,
         "name": "ZeusGTR",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 3251,
@@ -231,7 +231,7 @@
         "name": "TexasOmertosa",
         "basis": "ESI公开头衔同为“火锅，德克❅萨斯”，该头衔只见于本号主同组角色；同军团98806126历史榜同组",
         "sources": [
-          "materials-texas.md"
+          "materials-texas.json"
         ],
         "zkb": {
           "kills": 3037,
@@ -251,7 +251,7 @@
             "希大酱Yuki"
           ],
           "sources": [
-            "materials-texas.md"
+            "materials-texas.json"
           ]
         }
       ]
@@ -280,6 +280,77 @@
       "B站",
       "FC",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "别人凑舰队，他先把一排号上线。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "多开与普通社区互嘲不算神人事迹。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/11045446984"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "战神且十号均高活跃，多开重船战斗强项突出。",
+          "sources": [
+            {
+              "label": "Zeus008 zKillboard",
+              "url": "https://zkillboard.com/character/2121593859/"
+            },
+            {
+              "label": "Yuki 007 zKillboard",
+              "url": "https://zkillboard.com/character/2123262345/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "本人乡下FC流水账与持续小队带领明确。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/9273828491"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "多开实战和故土教程有固定圈内观众。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121593859/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "实际经营Texas军团并组织招募。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://evemaps.dotlan.net/corp/Bronze_Fury/events"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "故土刷钱、魔像实操与十二开体系，符合PVE能手S。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://www.bilibili.com/video/BV1bFFLzBENo/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

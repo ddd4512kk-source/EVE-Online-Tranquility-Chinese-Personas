@@ -218,6 +218,73 @@
       "工业",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "上将的嗓子很响，建盟与工业也真干过。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "普通大嗓门、战略失利与口水不算恶行。",
+          "sources": [
+            {
+              "label": "再见了国服长帖",
+              "url": "https://tieba.baidu.com/p/5582918274"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三千余击杀、百余Solo，兼旗舰实战。",
+          "sources": [
+            {
+              "label": "nanhua college zKillboard",
+              "url": "https://zkillboard.com/character/2113876442/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "长期主力指挥与实际联盟作战统筹，达到A。",
+          "sources": [
+            {
+              "label": "灵魂收割者军团档案",
+              "url": "https://zkillboard.com/corporation/98555248/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "跨团老名声和持续跟随者，团队号召明确。",
+          "sources": [
+            {
+              "label": "再见了国服长帖",
+              "url": "https://tieba.baidu.com/p/5582918274"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "实际创建灵魂守望并经营联盟。",
+          "sources": [
+            {
+              "label": "Cherry小牛晒星城帖",
+              "url": "https://tieba.baidu.com/p/7339736829"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "大亨名单、泰坦实装和星城筹资，资源供给达到A。",
+          "sources": [
+            {
+              "label": "特里菲斯46DP大工业时代帖",
+              "url": "https://tieba.baidu.com/p/5852035757"
+            }
+          ]
+        }
+      }
+    }
   }
 }

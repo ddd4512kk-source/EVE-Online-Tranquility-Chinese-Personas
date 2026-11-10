@@ -158,7 +158,78 @@
       "比赛",
       "AT22亚军",
       "B B C"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "决赛有银牌，旧借款还有代还人。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "借款后长期不回应、由他人代还，属具体失信。",
+          "sources": [
+            {
+              "label": "Snow Kidfox 角色档案",
+              "url": "https://zkillboard.com/character/96137114/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "战神兼AT22亚军实际主力，上万击杀与多号旗舰。",
+          "sources": [
+            {
+              "label": "Snow Kidfox zKillboard",
+              "url": "https://zkillboard.com/character/96137114/"
+            },
+            {
+              "label": "希瑟伊德狂暴战损记录",
+              "url": "https://zkillboard.com/kill/128025323/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "AT赛场协同与一日监视者记录，不足确认稳定带队职责。",
+          "sources": [
+            {
+              "label": "AT22 赛事复盘",
+              "url": "https://zkillboard.com/character/96137114/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "竞技队友与熟人圈认可，未见广泛受众。",
+          "sources": [
+            {
+              "label": "AT22 赛事复盘",
+              "url": "https://zkillboard.com/character/96137114/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "参赛与游戏整活未见组织治理职务。",
+          "sources": [
+            {
+              "label": "Snow Kidfox 雇佣记录",
+              "url": "https://zkillboard.com/character/96137114/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "双号长期无畏与高价值常规实战，能持续承担重船投入。",
+          "sources": [
+            {
+              "label": "Snow Kidfox zKillboard",
+              "url": "https://zkillboard.com/character/96137114/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -168,7 +239,7 @@
         "name": "AIIahu Akbar",
         "basis": "简介挂与收录号同名的蓝调总览2.1，2017年与2019—2020年两度同军团",
         "sources": [
-          "materials-snow-kidfox.md#身份与待核"
+          "materials-snow-kidfox.json#身份与待核"
         ],
         "zkb": {
           "kills": 1479,
@@ -183,7 +254,7 @@
         "name": "Dingguo Lee",
         "basis": "AIIahu Akbar简介点名并链接此号，简介同收录号一样取古文",
         "sources": [
-          "materials-snow-kidfox.md#身份与待核"
+          "materials-snow-kidfox.json#身份与待核"
         ],
         "zkb": {
           "kills": 0,

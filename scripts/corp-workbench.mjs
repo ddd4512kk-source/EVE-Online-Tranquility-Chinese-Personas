@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CORP_PLACEHOLDER as PLACEHOLDER, corpHasEnoughMembers, corpMembers, corpStatus } from './activity.mjs';
+import { materialPath, readMaterial } from './material-document.mjs';
 
 const CORPS = 'src/corps';
 const NAMES = 'src/_data/entityNames.json';
@@ -12,9 +13,9 @@ const CLUE_WIDTH = 480;
 const ROSTER_MIN = 3;
 const RECRUIT_WORDS = /招新|招人|招募|纳新|诚招|入团|recruit/i;
 const CORPUS = [
-  ['src/people', /\.md$/],
+  ['src/people', /\.md$|materials-.*\.json$/],
   ['src/battles', /\.(?:md|json)$/],
-  ['docs/leads', /\.md$/],
+  ['docs/leads', /\.(?:md|json)$/],
   ['docs/sources', /\.(?:md|json)$/],
   ['docs/bilibili', /\.json$/],
   ['docs/tieba', /\.json$/],
@@ -39,7 +40,7 @@ export function loadCorps(root) {
     slug,
     archive: readJson(path.join(base, slug, `${slug}.json`)),
     body: fs.readFileSync(path.join(base, slug, `${slug}.md`), 'utf8'),
-    hasMaterials: fs.existsSync(path.join(base, slug, `materials-${slug}.md`)),
+    hasMaterials: fs.existsSync(materialPath(path.join(base, slug), slug)),
   }));
 }
 
@@ -125,7 +126,10 @@ export function openCorp(root, id) {
     corp: { id, cn_name: name, epithet: '待定', style: 'tycoon', ratings: { pvp: 50, shenren: 20, influence: 30 } },
   });
   fs.writeFileSync(path.join(dir, `${slug}.md`), `${PLACEHOLDER}\n`);
-  fs.writeFileSync(path.join(dir, `materials-${slug}.md`), `# ${name}\n\n军团 ID ${id}。快照见同名 JSON。\n`);
+  fs.writeFileSync(path.join(dir, `materials-${slug}.json`), JSON.stringify({
+    version: 1, type: 'material', title: name,
+    sections: [{ id: 'overview', heading: name, level: 1, content: `军团 ID ${id}。快照见同名 JSON。\n` }],
+  }, null, 2) + '\n');
   names.corporations[id].chinese = true;
   writeJson(namesFile, names);
   return `已开页 ${slug}，接着：npm run corps:snapshot -- ${slug}`;
@@ -137,7 +141,19 @@ function collectCorpus(root) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const file = path.join(dir, entry.name);
       if (entry.isDirectory()) walk(file, pattern);
-      else if (pattern.test(entry.name)) texts.set(path.relative(root, file).replaceAll('\\', '/'), fs.readFileSync(file, 'utf8'));
+      else if (pattern.test(entry.name)) {
+        const relative = path.relative(root, file).replaceAll('\\', '/');
+        const materialArea = /^src\/(?:people|battles)\/[^/]+\/materials-[^/]+\.json$/.test(relative)
+          || /^docs\/(?:leads|sources|corporations\/notes)\/.+\.json$/.test(relative);
+        if (materialArea) {
+          const document = JSON.parse(fs.readFileSync(file, 'utf8'));
+          if (document?.type !== 'material') {
+            if (relative.startsWith('src/')) throw new Error(`${relative}：materials JSON 须为 material 文档`);
+            return;
+          }
+          texts.set(relative, readMaterial(file));
+        } else texts.set(relative, fs.readFileSync(file, 'utf8'));
+      }
     }
   };
   for (const [dir, pattern] of CORPUS) if (fs.existsSync(path.join(root, dir))) walk(path.join(root, dir), pattern);

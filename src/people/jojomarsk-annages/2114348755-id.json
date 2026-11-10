@@ -166,8 +166,75 @@
     "epithet": "头衔秦始皇，一统了创世的舰队，没统一创世的人心。",
     "tags": [
       "00区",
-      "FC"
-    ]
+      "著名FC"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "头衔三颗星秦始皇，开什么船讲什么理称霸故土，一人掀起军团权力风暴的创世总指挥。",
+      "axes": {
+        "shenren": {
+          "tier": "B",
+          "reason": "故土收益优先、军事决策与脱盟争执有实际影响，不能因做录像就按纯守序评。",
+          "sources": [
+            {
+              "label": "毛蛋讨伐两千抢闪点长帖",
+              "url": "https://tieba.baidu.com/p/7987170081"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号八千余杀、多个战斗小号另有数千杀，长期多号、重装实战一起评。",
+          "sources": [
+            {
+              "label": "A1-AUH 旗舰击毁记录",
+              "url": "https://zkillboard.com/kill/95192034/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "创世军团总指挥FC，一路打上实权核心，统领全团舰队约架、故土扫荡与大型主权战役。",
+          "sources": [
+            {
+              "label": "创世内部矛盾讨论帖",
+              "url": "https://tieba.baidu.com/p/10489881442"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "能聚起固定队伍，也因指挥权集中出现反对，按本团认同评。",
+          "sources": [
+            {
+              "label": "毛蛋讨伐两千抢闪点长帖",
+              "url": "https://tieba.baidu.com/p/7987170081"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "掌握创世军事决策并参与脱离 FRT 的拍板，是实际大团高层。",
+          "sources": [
+            {
+              "label": "创世内部矛盾讨论帖",
+              "url": "https://tieba.baidu.com/p/10489881442"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "参与故土收益分配且长期投入掠夺舰，支持大额资源经营，未见巨擘规模。",
+          "sources": [
+            {
+              "label": "毛蛋讨伐两千抢闪点长帖",
+              "url": "https://tieba.baidu.com/p/7987170081"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -177,7 +244,7 @@
         "name": "jojomarsk Annages",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Jason Bournne；两号对应：收录号简介Discord为jasonbournne，两号简介挂同两张星城KM；2019-04-11、2019-11-25与收录号同分钟转团",
         "sources": [
-          "materials-jojomarsk-annages.md"
+          "materials-jojomarsk-annages.json"
         ],
         "zkb": {
           "kills": 4307,
@@ -192,7 +259,7 @@
         "name": "Totowisent Louis",
         "basis": "2018-12-28、2019-12-09、2019-12-17三次与收录号同分钟转团，现同在98535868",
         "sources": [
-          "materials-jojomarsk-annages.md#alts-2026-11-01"
+          "materials-jojomarsk-annages.json#alts-2026-11-01"
         ],
         "zkb": {
           "kills": 1083,
@@ -207,7 +274,7 @@
         "name": "Gaga Jojomarsk",
         "basis": "名带jojomarsk，ESI头衔“2000”；2019-06-26与收录号同日进98584956",
         "sources": [
-          "materials-jojomarsk-annages.md#alts-2026-11-01"
+          "materials-jojomarsk-annages.json#alts-2026-11-01"
         ],
         "zkb": {
           "kills": 0,

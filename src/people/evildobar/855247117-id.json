@@ -498,7 +498,7 @@
         "id": 2119031117,
         "name": "noarus",
         "sources": [
-          "materials-evildobar.md"
+          "materials-evildobar.json"
         ],
         "zkb": {
           "kills": 412,
@@ -530,6 +530,77 @@
       "FRT",
       "AT19冠军",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "二十年老号拿冠军，甲板上还带着相机。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "仿名N老板与嘲战损属于普通整活。",
+          "sources": [
+            {
+              "label": "B站《真男人钓鱼》",
+              "url": "https://www.bilibili.com/video/BV1U24y1q7z2/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "三万余击杀、六百八十Solo兼AT冠军，顶尖战斗强项。",
+          "sources": [
+            {
+              "label": "EvilDobar zKillboard",
+              "url": "https://zkillboard.com/character/855247117/"
+            },
+            {
+              "label": "B站《导弹丛中过 片叶不沾身》",
+              "url": "https://www.bilibili.com/video/BV1ic411j7Cp/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "冠军出场和摄影录像不能代替带队履历。",
+          "sources": [
+            {
+              "label": "MC6O-F 战役出勤记录",
+              "url": "https://zkillboard.com/kill/133727289/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期视频和“头哥”观众形成圈内稳定人气，未到全服图腾。",
+          "sources": [
+            {
+              "label": "B站个人空间 没有姓名字",
+              "url": "https://space.bilibili.com/406456555"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "长期出勤与比赛身份未见组织治理。",
+          "sources": [
+            {
+              "label": "女娲军团履历记录",
+              "url": "https://evewho.com/character/855247117"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "AT奖励船与多年高价值旗舰战备达到A。",
+          "sources": [
+            {
+              "label": "EvilDobar 战损与资产记录",
+              "url": "https://zkillboard.com/character/855247117/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -73,6 +73,77 @@
       "00区",
       "FRT",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "歌颂平凡，也把速报剪得及时。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "速报、自嘲与正常招新不算出格。",
+          "sources": [
+            {
+              "label": "创世退盟速报带货视频",
+              "url": "https://www.bilibili.com/video/BV1Ryr9BjEua/"
+            },
+            {
+              "label": "莫德团燃烧篇放慢音乐自述",
+              "url": "https://www.bilibili.com/video/BV1dGvaBTEaY/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "千余击杀，长期净化隐轰实战。",
+          "sources": [
+            {
+              "label": "阿希尔千人会战视频实录",
+              "url": "https://www.bilibili.com/video/BV1Ryr9BjEua/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "借用FC音频与拍会战不代表本人带队。",
+          "sources": [
+            {
+              "label": "沉浸式体验放鸽子视频",
+              "url": "https://www.bilibili.com/video/BV1HjkJBaEng/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "万播速报、稳定战史影片，圈内作者影响明确。",
+          "sources": [
+            {
+              "label": "B站空间全作品集",
+              "url": "https://space.bilibili.com/92133449"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "速报和招新协助未见核心治理职务。",
+          "sources": [
+            {
+              "label": "退盟速报评论互动",
+              "url": "https://www.bilibili.com/video/BV1Ryr9BjEua/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "一首歌刷完的刷怪实操与收益教程，按PVE能手S。",
+          "sources": [
+            {
+              "label": "燃烧任务配置说明",
+              "url": "https://www.bilibili.com/video/BV1dGvaBTEaY/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

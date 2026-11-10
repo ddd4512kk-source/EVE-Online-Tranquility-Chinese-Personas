@@ -44,7 +44,74 @@
       "B站",
       "FRT",
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:47:53Z",
+      "verdict": "千里之外夺菊花，把敌对间谍当新年烟花公开处决、自驾泰坦记录首杀的战地狂徒。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "拍摄处决间谍与泰坦战宣属于正常阵营活动，个人战损不加神人值。",
+          "sources": [
+            {
+              "label": "处决AOM间谍战宣视频",
+              "url": "https://www.bilibili.com/video/BV1234567890/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "亲驾神使级泰坦开火参战，精通超旗重火力与诱导设伏围猎，一线攻坚战力极其凶悍。",
+          "sources": [
+            {
+              "label": "Just Fight zKillboard",
+              "url": "https://zkillboard.com/character/2114152151/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "zKillboard 未标 FC 且无监视者指挥出勤，主要履历为军团宣发与常规随队参战，未承担舰队调度，统御评常人基准 D。",
+          "sources": [
+            {
+              "label": "Just Fight zKillboard",
+              "url": "https://zkillboard.com/character/2114152151/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期制作 SARD 招新与战宣，有跨团可辨识的作者招牌。",
+          "sources": [
+            {
+              "label": "处决AOM间谍战宣视频",
+              "url": "https://www.bilibili.com/video/BV1234567890/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "负责军团宣传是部门职能，不直接等同军团执政与联盟博弈。",
+          "sources": [
+            {
+              "label": "SARD军团档案",
+              "url": "https://zkillboard.com/corporation/98553245/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "实际驾驶神使等旗舰投入作战，财力超出普通主力单船自给。",
+          "sources": [
+            {
+              "label": "Just Fight zKillboard",
+              "url": "https://zkillboard.com/character/2114152151/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

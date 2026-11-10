@@ -138,7 +138,7 @@
         "id": 2120420992,
         "name": "YoHRaPodA010",
         "sources": [
-          "materials-fauux.md",
+          "materials-fauux.json",
           "https://esi.evetech.net/latest/characters/2120420992/"
         ],
         "zkb": {
@@ -153,7 +153,7 @@
         "id": 2117285345,
         "name": "XD 26",
         "sources": [
-          "materials-fauux.md"
+          "materials-fauux.json"
         ],
         "zkb": {
           "kills": 2331,
@@ -180,6 +180,73 @@
       "00区",
       "CONDI",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T11:12:03Z",
+      "verdict": "每添一条超旗，就拿自家旗舰装满烟花来剪彩；名片还兼任战报展柜。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "多条自有旗舰被安排互相击杀作剪彩，烟花、节日发射器和“下水”名册组成辨识度很高的个人仪式。；常规PVP对抗、战术伏击、舰队交火与游戏战损属于内置正常玩法机制，无突破道德底线的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "Fauux 战斗记录与个人名片",
+              "url": "https://zkillboard.com/character/2122263187/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号与关联小号合计有万余次击杀，长期高频参战并涉足旗舰战斗，战斗经历非常突出。",
+          "sources": [
+            {
+              "label": "Fauux 战斗记录",
+              "url": "https://zkillboard.com/character/2122263187/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "现有材料确认总监和外交职责，但没有舰队 FC 或持续带队记录。",
+          "sources": [
+            {
+              "label": "昆仑管理重组信息",
+              "url": "https://www.bilibili.com/opus/1252576776087928835"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "有醒目的个人名片和战报记录，材料没有证明其具有显著个人追随者或广泛号召力。",
+          "sources": [
+            {
+              "label": "Fauux 战斗记录",
+              "url": "https://zkillboard.com/character/2122263187/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "担任军团总监和外交官，负责重组沟通、联盟关系与对外交涉，属于核心管理档。",
+          "sources": [
+            {
+              "label": "昆仑管理重组信息",
+              "url": "https://www.bilibili.com/opus/1252576776087928835"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "材料记录其拥有并驾驶多艘泰坦与超级航母，已体现显著个人资产；不据此推定其全部经济实力。",
+          "sources": [
+            {
+              "label": "Fauux 战斗记录与旗舰名册",
+              "url": "https://zkillboard.com/character/2122263187/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

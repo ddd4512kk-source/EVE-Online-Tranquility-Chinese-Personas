@@ -38,7 +38,68 @@
   "fetched_at": "2026-10-14",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2120357141,
+        "name": "CHchild",
+        "basis": "2026-11-09 ESI公开头衔“夹子、脉冲高手”含主号外号“夹子/小夹子”，且同属军团98598862与联盟99003581；按人物对应规则登记为小号。",
+        "sources": [
+          "materials-mctimes.json#2026-11-09-alt-titles-zkb"
+        ],
+        "zkb": {
+          "kills": 1825,
+          "lost": 603,
+          "isk_destroyed": 972619218607,
+          "last_active": "2026-11",
+          "as_of": "2026-11-09"
+        }
+      },
+      {
+        "id": 2121071254,
+        "name": "Xiao Jia Zi",
+        "basis": "2026-11-09 ESI公开头衔“#4379 夹子，混沌-凤雏”含主号外号“夹子/小夹子”，且同属军团98598862与联盟99003581；按人物对应规则登记为小号。",
+        "sources": [
+          "materials-mctimes.json#2026-11-09-alt-titles-zkb"
+        ],
+        "zkb": {
+          "kills": 1748,
+          "lost": 366,
+          "isk_destroyed": 2658276134845,
+          "last_active": "2026-11",
+          "as_of": "2026-11-09"
+        }
+      },
+      {
+        "id": 2121325680,
+        "name": "Xiao Shua Zi",
+        "basis": "2026-11-09 ESI公开头衔“夹子小号”含主号外号“夹子/小夹子”，且同属军团98598862与联盟99003581；按人物对应规则登记为小号。",
+        "sources": [
+          "materials-mctimes.json#2026-11-09-alt-titles-zkb"
+        ],
+        "zkb": {
+          "kills": 600,
+          "lost": 168,
+          "isk_destroyed": 354682178262,
+          "last_active": "2026-11",
+          "as_of": "2026-11-09"
+        }
+      },
+      {
+        "id": 2124277725,
+        "name": "MCtimes-TiTan",
+        "basis": "2026-11-09 ESI公开头衔“小夹子”含主号外号“夹子/小夹子”，且同属军团98598862与联盟99003581；按人物对应规则登记为小号。",
+        "sources": [
+          "materials-mctimes.json#2026-11-09-alt-titles-zkb"
+        ],
+        "zkb": {
+          "kills": 16,
+          "lost": 8,
+          "isk_destroyed": 10453263018,
+          "last_active": "2026-11",
+          "as_of": "2026-11-09"
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 4737,
@@ -61,6 +122,89 @@
       "FRT",
       "00区",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:31Z",
+      "verdict": "小夹子：普通表现以 D 为起点，突出项按已有列传记录上调。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "列传未见超出日常整活的出格事迹，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "主号及按击杀活跃度选出的两枚主力小号（CHchild、Xiao Jia Zi）共8,398杀、122次单杀、击毁旗舰418艘（无畏271、航母47、战斗后勤旗舰96、超旗0、泰坦4；账号合计可能有重复KM）；欧贝会战中主号驾驶Vulture参与击杀征服者级泰坦，战斗力评A。",
+          "sources": [
+            {
+              "label": "小夹子及两枚主力小号 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119942097/"
+            },
+            {
+              "label": "CHchild 战绩",
+              "url": "https://zkillboard.com/character/2120357141/"
+            },
+            {
+              "label": "Xiao Jia Zi 战绩",
+              "url": "https://zkillboard.com/character/2121071254/"
+            },
+            {
+              "label": "欧贝会战征服者级泰坦 KM",
+              "url": "https://zkillboard.com/kill/139046684/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "本人驾驶监视者的公开KM共121条、跨15个UTC日（2025-02-23至2026-11-05）；M-MD31会战匹配49条。记录规模和代表战役表明其承担会战带队，统御至少评B。",
+          "sources": [
+            {
+              "label": "M-MD31 监视者记录（2026-04-14）",
+              "url": "https://zkillboard.com/kill/134737309/"
+            },
+            {
+              "label": "小夹子 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2119942097/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "现有材料未显示稳定拥趸或广泛号召力，按常人基准 D。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "列传记录基层管理、内部协调或局部纠纷处理，评 C。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "主号与三枚已确认活跃小号分别有4,825、1,825、1,748、600次击杀，四号均过百，财力至少A。",
+          "sources": [
+            {
+              "label": "列传相关资料",
+              "url": "https://tieba.baidu.com/p/11087232721"
+            }
+          ]
+        }
+      }
+    }
   }
 }

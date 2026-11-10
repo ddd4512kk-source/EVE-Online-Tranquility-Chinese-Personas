@@ -33,7 +33,44 @@
     "tags": [
       "00区",
       "NC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T08:00:00Z",
+      "verdict": "狐窝系统归他管，吉祥物叫他爸爸；出门则开乌鸦挤进泰坦击杀名单。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "IT 运维之外被军团叫作狐姬之父，简介还挂着字符狐狸；是可爱的门面反差，不是出格争议。",
+          "sources": [{ "label": "抵抗之狐官网团队页", "url": "https://foxor.cc/team/" }]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "常开赫卡特、猎狼等战术船，也参加小队与大队作战；有明确的小船专长和稳定实战，评 C。",
+          "sources": [{ "label": "Mor Morgana zKillboard", "url": "https://zkillboard.com/character/2123103540/" }, { "label": "Gtroy zKillboard", "url": "https://zkillboard.com/character/2120504987/" }]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "Mor Morgana 的 zKillboard 有 FC (MEDIUM) 认证；按中型舰队带队资质起评 B，现有材料未显示战区统御。",
+          "sources": [{ "label": "Mor Morgana zKillboard", "url": "https://zkillboard.com/character/2123103540/" }]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "军团官网称他为狐姬之父，具备团内辨识度，但材料未显示稳定追随，评常人基准 D。",
+          "sources": [{ "label": "抵抗之狐官网团队页", "url": "https://foxor.cc/team/" }]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "他的公开职责是 IT 运维，没有基层管理协调或联盟决策记录，评专注本职的 D。",
+          "sources": [{ "label": "抵抗之狐官网团队页", "url": "https://foxor.cc/team/" }]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "泰坦击杀估值属于八百多人共同参战，不归为个人资产；现有材料没有个人经营或筹资依据，评自给基准 D。",
+          "sources": [{ "label": "欧贝泰坦击杀记录", "url": "https://zkillboard.com/kill/139046684/" }]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -43,7 +80,7 @@
         "name": "Gtroy",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收Mor Morgana",
         "sources": [
-          "materials-gtroy.md"
+          "materials-gtroy.json"
         ],
         "zkb": {
           "kills": 420,

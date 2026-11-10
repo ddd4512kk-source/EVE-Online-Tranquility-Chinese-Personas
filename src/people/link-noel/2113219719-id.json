@@ -41,6 +41,73 @@
       "00区",
       "FRT",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "手册能写完，皇上的批示还得等。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "催表格和同僚吐槽属于正常内务。",
+          "sources": [
+            {
+              "label": "伏羲新人手册前言",
+              "url": "https://wiki.winterco.org/zh/guide/新手入门/伏羲新人手册/start"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "三千余击杀、三万亿级战果，长期稳定实战。",
+          "sources": [
+            {
+              "label": "4-HWWF 北方大战战损记录",
+              "url": "https://zkillboard.com/kill/135003255/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "统计出勤、编手册不等于实际带队。",
+          "sources": [
+            {
+              "label": "他写的伏羲历程",
+              "url": "https://wiki.winterco.org/zh/guide/新手入门/伏羲新人手册/凛冬与伏羲"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "多年新人手册与公共服务，有跨团读者。",
+          "sources": [
+            {
+              "label": "伏羲新人手册前言",
+              "url": "https://wiki.winterco.org/zh/guide/新手入门/伏羲新人手册/start"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "伏羲长期实际总监，承担奖励和新人体系。",
+          "sources": [
+            {
+              "label": "他写的伏羲历程",
+              "url": "https://wiki.winterco.org/zh/guide/新手入门/伏羲新人手册/凛冬与伏羲"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "奖励表由军团审批，不能算个人财力。",
+          "sources": [
+            {
+              "label": "4-HWWF 北方大战战损记录",
+              "url": "https://zkillboard.com/kill/135003255/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

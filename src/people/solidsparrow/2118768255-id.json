@@ -81,6 +81,81 @@
     "epithet": "一边教人偷 ESS，一边在简介里“救死扶伤”。",
     "tags": [
       "00区"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:40:00Z",
+      "verdict": "凛冬论坛文采斐然的硬核散打专栏作家，将“医者仁心”后勤与“盗亦有道”偷ESS集于一身，翻车与高光同样坦荡的生猛暴民。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "简介挂医者仁心救死扶伤，反手在论坛写教程教新人22M配置偷ESS，后来抓到小偷自嘲做贼喊抓贼，极其喜感。；个人名片戏谑、梗文化与社区幽默属于正常玩家趣味表达，无触及公序良俗的出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "论坛《盜亦有盜：ESS作案工具》",
+              "url": "https://forums.winterco.org/t/topic/21591"
+            },
+            {
+              "label": "角色官方后勤广告简介",
+              "url": "https://esi.evetech.net/latest/characters/2118768255/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "两千五百多次击杀、86次单杀，精通十字军四门炮超载、洛基、海送葬与阔刀散打测试。",
+          "sources": [
+            {
+              "label": "官方战绩与单杀统计",
+              "url": "https://zkillboard.com/character/2118768255/"
+            },
+            {
+              "label": "论坛十字军四炮专栏",
+              "url": "https://forums.winterco.org/t/topic/21902"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "小队散打与实操测试先驱，不主导大规模战役指挥。",
+          "sources": [
+            {
+              "label": "星门战斗心得专栏",
+              "url": "https://forums.winterco.org/t/topic/21900"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "凛冬论坛极富文采的繁体专栏作家，自嘲真诚、测评硬核，广受读者推崇。",
+          "sources": [
+            {
+              "label": "论坛《草叉暴民》专栏",
+              "url": "https://forums.winterco.org/t/topic/23907"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "论坛专栏作家与自由飞手，不涉大联盟政治管理。",
+          "sources": [
+            {
+              "label": "军团任职历史",
+              "url": "https://esi.evetech.net/latest/characters/2118768255/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "自营短途物流与后勤业务，厂商长期赞助测试船只，经济宽裕。",
+          "sources": [
+            {
+              "label": "后勤物流业务报价",
+              "url": "https://esi.evetech.net/latest/characters/2118768255/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

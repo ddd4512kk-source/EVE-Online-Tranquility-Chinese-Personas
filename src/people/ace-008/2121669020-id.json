@@ -43,7 +43,7 @@
         "id": 2121703836,
         "name": "ACE-001",
         "sources": [
-          "materials-ace-008.md"
+          "materials-ace-008.json"
         ],
         "zkb": {
           "kills": 442,
@@ -57,7 +57,7 @@
         "id": 2121881774,
         "name": "ACE-003",
         "sources": [
-          "materials-ace-008.md"
+          "materials-ace-008.json"
         ],
         "zkb": {
           "kills": 452,
@@ -71,7 +71,7 @@
         "id": 2121799301,
         "name": "ACE-005",
         "sources": [
-          "materials-ace-008.md"
+          "materials-ace-008.json"
         ],
         "zkb": {
           "kills": 5,
@@ -85,7 +85,7 @@
         "id": 2121681941,
         "name": "ACE-007",
         "sources": [
-          "materials-ace-008.md"
+          "materials-ace-008.json"
         ],
         "zkb": {
           "kills": 2,
@@ -119,6 +119,77 @@
       "FRT",
       "B站",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:11Z",
+      "verdict": "混沌仲裁者核心政工总监，B站深耕两年招新教程引流；头衔挂打过长江去解放全中国。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "为人处世正派温和，热心指导新人，无恶俗出格黑料，守序常人。",
+          "sources": [
+            {
+              "label": "ACE-008 人物简介与档案",
+              "url": "https://zkillboard.com/character/2121669020/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "本人及登记小号累计消灭超 5 万亿 ISK，折算年均 1.68 万亿达到战神线；多号协同高频投入主力作战，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "ACE-008 zKillboard",
+              "url": "https://zkillboard.com/character/2121669020/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "混沌仲裁者政工总监，长期组织新人教学带队并统筹军团集结事务。",
+          "sources": [
+            {
+              "label": "混沌仲裁者招新部资料",
+              "url": "https://www.bilibili.com/video/BV1usrUBdEe3"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "B站招新与绕杆子教程收获数万播放，每月主持新人毕业与面基直播，军团核心活宝政工总监。",
+          "sources": [
+            {
+              "label": "EVE绕杆子教程视频",
+              "url": "https://www.bilibili.com/video/BV1HEKizBEx9"
+            },
+            {
+              "label": "EVE-008 B站主页",
+              "url": "https://space.bilibili.com/396655239"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "长期担任数百人主力军团执行总监，协调招新、福利与联盟内部事务，组织管理经验丰富。",
+          "sources": [
+            {
+              "label": "混沌仲裁者军团管理页面",
+              "url": "https://zkillboard.com/corporation/98696860/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "管理军团工业与福利配发，个人战备充裕能随手自备主力重船。",
+          "sources": [
+            {
+              "label": "《我做招新的这两年》视频",
+              "url": "https://www.bilibili.com/video/BV1usrUBdEe3"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -244,6 +244,77 @@
       "CEO",
       "低素质",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "兄弟归兄弟，机库归机库；战场上能扛泰坦，下线后负责卖大航。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "代管大航后出现低价卖船合同，另有多起公款与收费争议，属严重烂事。",
+          "sources": [
+            {
+              "label": "贴吧扒皮长帖与卖船合同",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "三万七千余次击杀，UALX-3 与 M2-XFE 两场史诗大战均驾驶神使泰坦正面参战，联盟开仗从不缺席。",
+          "sources": [
+            {
+              "label": "UALX-3 泰坦参战记录",
+              "url": "https://zkillboard.com/kill/71333249/"
+            },
+            {
+              "label": "M2-XFE 首战参战记录",
+              "url": "https://zkillboard.com/kill/89617016/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "军团组织与补损运作明确，现有理由不足说明稳定实战带队。",
+          "sources": [
+            {
+              "label": "TCF 军团招募帖",
+              "url": "https://forums.winterco.org/t/topic/2613"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "TCF 老成员在贴吧联名翻账：大航被十 B 卖掉、公款机库当私产、翻脸把整个 TNND 一并骂进黑名单；扶他上位的老兄弟也大批出走。",
+          "sources": [
+            {
+              "label": "TCF 往事与翻账讨论",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "接掌老牌 TCF 后长期控制 CEO 席位，内部冲突未让其失去组织权力。",
+          "sources": [
+            {
+              "label": "TCF 往事与管理更迭讨论",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "有本人泰坦与军团机库运作；代卖成员资产不能证明掌握全服级国库。",
+          "sources": [
+            {
+              "label": "10B 变卖大航合同截屏记录",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        }
+      }
+    }
   }
 }

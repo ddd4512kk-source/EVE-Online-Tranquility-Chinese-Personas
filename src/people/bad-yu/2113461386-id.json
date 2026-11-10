@@ -58,6 +58,77 @@
       "00区",
       "CEO",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:51:00Z",
+      "verdict": "头衔自嘲刚出锅的酸菜鱼，因卷走大鱼夜神被老东家写进军团史留名多年的背叛主角。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "借走大鱼又抽技能点，转头把夜神开去敌方；一笔友情借贷最后开成了投敌战报。",
+          "sources": [
+            {
+              "label": "FBC战记背叛专章",
+              "url": "https://forums.winterco.org/t/topic/288"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "快照击杀48次，开尼铎格尔等旗舰参战，具备常规主力旗舰操作素养，合格打手基准。",
+          "sources": [
+            {
+              "label": "bad yu zKillboard",
+              "url": "https://zkillboard.com/character/2113461386/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "常规参战与工业人员，未见任何独立带队或管理调度记录，常人基准。",
+          "sources": [
+            {
+              "label": "FBC战记背叛专章",
+              "url": "https://forums.winterco.org/t/topic/288"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "因变卖借船恶性事件被老东家写入军团史公开声讨背叛，在华人圈名誉扫地，众叛亲离探底至E档。",
+          "sources": [
+            {
+              "label": "FBC战记背叛专章",
+              "url": "https://forums.winterco.org/t/topic/288"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "卷入变卖军团资产跑路纠纷，不涉联盟高层地缘政治操盘，常人基准。",
+          "sources": [
+            {
+              "label": "bad yu 雇佣记录",
+              "url": "https://zkillboard.com/character/2113461386/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "借走长须鲸级（大鱼）后变卖资产、抽取技能点变现，并曾拥有与驾驶数百亿级夜神超旗，资产池底子雄厚。",
+          "sources": [
+            {
+              "label": "FBC战记背叛专章",
+              "url": "https://forums.winterco.org/t/topic/288"
+            },
+            {
+              "label": "bad yu 253亿夜神战损",
+              "url": "https://zkillboard.com/kill/68531815/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

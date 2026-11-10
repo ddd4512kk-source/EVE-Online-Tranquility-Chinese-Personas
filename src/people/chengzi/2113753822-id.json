@@ -151,7 +151,74 @@
       "00区",
       "军团管理",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "人想挖走，怪也不想留给友军。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "教成员抢友军生产并规避留下KM，按轻度内部纠纷评。",
+          "sources": [
+            {
+              "label": "哒哒小橙子B站空间",
+              "url": "https://space.bilibili.com/289511974"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主小号合计两千七百余击杀，三万亿级战果积累。",
+          "sources": [
+            {
+              "label": "萨托加斯星城会战击毁记录",
+              "url": "https://zkillboard.com/kill/132563300/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "招募与生产协调未见舰队实战带领。",
+          "sources": [
+            {
+              "label": "哒哒小橙子B站空间",
+              "url": "https://space.bilibili.com/289511974"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "有本团招募及会战观众，以团内影响评。",
+          "sources": [
+            {
+              "label": "哒哒小橙子B站空间",
+              "url": "https://space.bilibili.com/289511974"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "KZU实际核心总监，参与成员招募与对外协调。",
+          "sources": [
+            {
+              "label": "KZU军团公开资料",
+              "url": "https://esi.evetech.net/latest/corporations/98808817/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "管理生产地点不能直接折为本人收入和产业。",
+          "sources": [
+            {
+              "label": "ZS-The only love zKillboard",
+              "url": "https://zkillboard.com/character/2113753822/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -161,7 +228,7 @@
         "name": "BIGORANGE6 TANORANGE",
         "basis": "原收录号，2026-11-01按本人名下击杀最多改收ZS-The only love",
         "sources": [
-          "materials-chengzi.md"
+          "materials-chengzi.json"
         ],
         "zkb": {
           "kills": 229,
@@ -175,7 +242,7 @@
         "id": 2122257495,
         "name": "W634",
         "sources": [
-          "materials-chengzi.md"
+          "materials-chengzi.json"
         ],
         "zkb": {
           "kills": 26,

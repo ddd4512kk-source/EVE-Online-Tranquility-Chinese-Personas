@@ -39,14 +39,94 @@
     }
   },
   "person": {
-    "cn_name": "terranangel",
+    "cn_name": "泰兰天使",
     "aliases": [
+      "terranangel",
       "Tian",
       "赛博讨口子"
     ],
     "epithet": "不是讨饭，是要；不是乞丐，是伸手党。",
     "tags": [
       "高安"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "五天募来五亿买战舰，最后把“无敌海万王”停在新手村。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "五天里连续在贴吧问人要游戏币，泰兰天使还特地声明“不是讨饭”；新人指南还没写完，募款帖先更了好几章。",
+          "sources": [
+            {
+              "label": "《欧服谁富有给我来5个亿》",
+              "url": "https://tieba.baidu.com/p/11016688084"
+            },
+            {
+              "label": "《有个老外说我是伸手党》",
+              "url": "https://tieba.baidu.com/p/11024283849"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "自述仍在学习基础任务，角色快照为零击杀、已有多次被击毁记录；目前看不出实战能力。",
+          "sources": [
+            {
+              "label": "Vellygalle Colin Stenier-Tian zKillboard",
+              "url": "https://zkillboard.com/character/2124628512/"
+            },
+            {
+              "label": "低安挖矿与求助帖",
+              "url": "https://tieba.baidu.com/p/11016688084"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "纯新手入坑，处于基础任务摸索期，完全没有舰队作战与带队调度经验，谈不上统御指挥。",
+          "sources": [
+            {
+              "label": "《新人称霸始源星域之路》",
+              "url": "https://tieba.baidu.com/p/11027463445"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "五天多帖后凑齐买船资金，吧友和军团长主动赠款、招募；短期内确实吸引了一批愿意回应和支持他的玩家。",
+          "sources": [
+            {
+              "label": "《欧服谁富有给我来5个亿》",
+              "url": "https://tieba.baidu.com/p/11016688084"
+            },
+            {
+              "label": "《新人称霸始源星域之路》",
+              "url": "https://tieba.baidu.com/p/11027463445"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "现有活动围绕个人入坑、求助和新手任务，没有参与联盟外交或派系经营，按专注本职的常人基准记D。",
+          "sources": [
+            {
+              "label": "《新人称霸始源星域之路》",
+              "url": "https://tieba.baidu.com/p/11027463445"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "E",
+          "reason": "自身完全缺乏生产、刷怪或贸易积累能力，日常战列舰无法自行负担，全靠贴吧发帖向吧友募资五亿渡日。",
+          "sources": [
+            {
+              "label": "《欧服谁富有给我来5个亿》",
+              "url": "https://tieba.baidu.com/p/11016688084"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -116,6 +116,73 @@
     "tags": [
       "00区",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "王者没有远走，北极星的灯也还亮。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "早期友军误伤不等于本人严重出格。",
+          "sources": [
+            {
+              "label": "TCF 往事与公款讨论帖",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "近九千击杀、四百余Solo，AT实际登场且有稀有船实战。",
+          "sources": [
+            {
+              "label": "Thunder ebon zKillboard",
+              "url": "https://zkillboard.com/character/166847438/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "持续拉起队伍作战，有监视者记录辅助。",
+          "sources": [
+            {
+              "label": "社区大事记",
+              "url": "https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "老玩家跨团认可，固定队伍长期跟随。",
+          "sources": [
+            {
+              "label": "闪电军团简介与名册",
+              "url": "https://evemaps.dotlan.net/corp/Thunder_Mercenary_Army/alliances"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "北极星创始人，长期军团联盟组织核心。",
+          "sources": [
+            {
+              "label": "社区大事记",
+              "url": "https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "希兹里尔等AT船本人实战，实际达到AT船资产A。",
+          "sources": [
+            {
+              "label": "TCF 往事与公款讨论帖",
+              "url": "https://tieba.baidu.com/p/6619933254"
+            }
+          ]
+        }
+      }
+    }
   }
 }

@@ -43,6 +43,77 @@
     "tags": [
       "B站",
       "INIT."
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T23:24:11Z",
+      "verdict": "黑隐和泰坦大战都留下了记录，电池也总有办法从敌方旗舰上补。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "电池梗与战场拾荒说法形成轻松个人趣味，有记忆点但没有重大争议。",
+          "sources": [
+            {
+              "label": "电池相关视频",
+              "url": "https://www.bilibili.com/video/BV1BdAYesEJd/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "两年参与击杀逾五万亿 ISK，年均达 2.13 万亿达到战神线；亲历 1N-FJ8 黑色星期五斩获征服者与科莫多等泰坦战果，支撑 A 档战力。",
+          "sources": [
+            {
+              "label": "GENSHIN IMPART 战斗记录",
+              "url": "https://zkillboard.com/character/2122335637/"
+            },
+            {
+              "label": "1N-FJ8 征服者泰坦击毁记录",
+              "url": "https://zkillboard.com/kill/122868724/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "现有材料显示黑隐作战参与者，没有舰队指挥或带队职责证据。",
+          "sources": [
+            {
+              "label": "GENSHIN IMPART 战斗记录",
+              "url": "https://zkillboard.com/character/2122335637/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "持续发布战斗内容并形成可辨识系列，有一定观众互动，影响范围有限。",
+          "sources": [
+            {
+              "label": "电池相关视频",
+              "url": "https://www.bilibili.com/video/BV1BdAYesEJd/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "材料未显示联盟外交、军团治理或派系协调履历。",
+          "sources": [
+            {
+              "label": "GENSHIN IMPART 战斗记录",
+              "url": "https://zkillboard.com/character/2122335637/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "总击杀价值不能直接代表个人财富，材料没有可靠的资产或生产记录。",
+          "sources": [
+            {
+              "label": "GENSHIN IMPART 战斗记录",
+              "url": "https://zkillboard.com/character/2122335637/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

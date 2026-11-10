@@ -214,7 +214,7 @@
           "uid": "5699832061",
           "name": "肖恩白给",
           "sources": [
-            "materials-shawn-wade.md"
+            "materials-shawn-wade.json"
           ]
         }
       ]
@@ -240,6 +240,73 @@
       "低素质",
       "江湖恩怨",
       "军团管理"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "招新写一万字，骂人倒不用那么长。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "普通辱骂与论坛对线按口角C，不由黑名单升B。",
+          "sources": [
+            {
+              "label": "在frt死之前这游戏永远无法正常交流了讨论帖",
+              "url": "https://tieba.baidu.com/p/10635420254"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "千余击杀，专精忏悔者并有稳定收割。",
+          "sources": [
+            {
+              "label": "Shawn Wade zKillboard",
+              "url": "https://zkillboard.com/character/2115855515/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "招新头子与论文作者未见实战带队。",
+          "sources": [
+            {
+              "label": "Shawn Wade 角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115855515/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "新人对接与固定读者有小圈联系。",
+          "sources": [
+            {
+              "label": "在frt死之前这游戏永远无法正常交流了讨论帖",
+              "url": "https://tieba.baidu.com/p/10635420254"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "带招新团队并设计对接流程，属基层管理。",
+          "sources": [
+            {
+              "label": "要不要封禁极端荣耀的贴吧民意调查",
+              "url": "https://tieba.baidu.com/p/9782001341"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "普通轻型战备，不因招募工作推成产业。",
+          "sources": [
+            {
+              "label": "Shawn Wade zKillboard",
+              "url": "https://zkillboard.com/character/2115855515/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

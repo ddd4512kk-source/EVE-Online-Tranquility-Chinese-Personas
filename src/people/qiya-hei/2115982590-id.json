@@ -53,6 +53,73 @@
       "00区",
       "D.C",
       "FC"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "无面者FC的招新单写满福利，守卫级后勤才是最常坐的保姆席。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "联盟 FC 同时发招新福利，属于正常工作分工。",
+          "sources": [
+            {
+              "label": "神奇黑旗 角色头衔与简介",
+              "url": "https://esi.evetech.net/latest/characters/2115982590/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "5127次参与击杀，超3.2T战果，开守卫级后勤舰超1400次，顶级后勤劳模。",
+          "sources": [
+            {
+              "label": "qiya hei zKillboard",
+              "url": "https://zkillboard.com/character/2115982590/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "公开身份为联盟 FC，按指挥骨干起评；现有故事未展开大舰队指挥规模。",
+          "sources": [
+            {
+              "label": "神奇黑旗 角色头衔与简介",
+              "url": "https://esi.evetech.net/latest/characters/2115982590/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "新人补贴与后勤职责能吸引、维系成员，主要是组织内部认可。",
+          "sources": [
+            {
+              "label": "神奇黑旗 角色头衔与简介",
+              "url": "https://esi.evetech.net/latest/characters/2115982590/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "接待新团、执行免税孵化与招募，支持职能协调，未直接推定联盟高层。",
+          "sources": [
+            {
+              "label": "Faceless. 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "提供起号、旗舰补贴与独立盒饭，是实际团队供给，不把补贴基金等同私产。",
+          "sources": [
+            {
+              "label": "qiya hei zKillboard",
+              "url": "https://zkillboard.com/character/2115982590/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

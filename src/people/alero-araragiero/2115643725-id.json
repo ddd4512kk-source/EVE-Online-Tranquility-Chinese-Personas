@@ -32,7 +32,74 @@
       "00区",
       "工业",
       "FRT"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T15:00:00Z",
+      "verdict": "紫竹梅重工大A超市老板，开源开发Kahuna工业系统，在艾蒂斯星城会战亲开俄洛巴斯泰坦出勤的实业家。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "极度硬核务实的工业大佬兼泰坦机师，造船算盘打得清清楚楚，常人基准。",
+          "sources": [
+            {
+              "label": "Kahuna System 开源项目",
+              "url": "https://github.com/AraragiEro/EveKahunaSystem"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "开俄洛巴斯泰坦亲历艾蒂斯巨型会战击毁敌方泰坦，小船亦熟练开赫卡特出勤。",
+          "sources": [
+            {
+              "label": "艾蒂斯会战泰坦击毁 KM",
+              "url": "https://zkillboard.com/kill/134565707/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "紫竹梅重工核心总监，统筹工业生产与小队护航调度。",
+          "sources": [
+            {
+              "label": "Kahuna System 开源项目",
+              "url": "https://github.com/AraragiEro/EveKahunaSystem"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "开源自研巨型Kahuna工业系统造福社区，一人架设算账与化矿全套生产线。",
+          "sources": [
+            {
+              "label": "Kahuna System 开源项目",
+              "url": "https://github.com/AraragiEro/EveKahunaSystem"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "紫竹梅重工高层，负责军团工业后台与联盟后勤供应链协同。",
+          "sources": [
+            {
+              "label": "SETCR 军团档案",
+              "url": "https://zkillboard.com/corporation/98606473/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "大A超市老板，手搓泰坦与超旗，自研开源工业系统掌控数万亿造船流水线。",
+          "sources": [
+            {
+              "label": "Kahuna System 开源项目",
+              "url": "https://github.com/AraragiEro/EveKahunaSystem"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
@@ -42,7 +109,7 @@
         "name": "Alero Poljus",
         "basis": "收录号简介列为化矿服务号，同团且头衔同为大A。",
         "sources": [
-          "materials-alero-araragiero.md#角色对应"
+          "materials-alero-araragiero.json#角色对应"
         ],
         "zkb": {
           "kills": 4,
@@ -57,7 +124,7 @@
         "name": "Alero BararagiEro",
         "basis": "收录号简介列为快递服务号，与主号同词根。",
         "sources": [
-          "materials-alero-araragiero.md#角色对应"
+          "materials-alero-araragiero.json#角色对应"
         ],
         "zkb": {
           "kills": 0,

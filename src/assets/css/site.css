@@ -77,6 +77,17 @@
   --style-dynasty-2: #e3b354;
   --style-phantom-1: #a46eff;
   --style-phantom-2: #3ad9ad;
+  --style-forge-1: #ef7a34;
+  --style-forge-2: #a9b6c3;
+  --style-abyss-1: #5f7dff;
+  --style-abyss-2: #c86bff;
+  --style-academy-1: #5ccf72;
+  --style-academy-2: #efd174;
+  --style-corsair-1: #2fc4a3;
+  --style-corsair-2: #e9dba8;
+  --style-nebula-1: #ff6f98;
+  --style-nebula-2: #ffd98a;
+  --corp-plate-mix: 62%;
 
   /* 本机有思源宋体就用本机，否则按需下载站内切片（fonts.css）；Cambria/Georgia 在宋体前，切片未到时西文不落到宋体的等宽字母 */
   --serif: "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", "Yeshi Serif", "Songti SC", "STSong", Cambria, Georgia, "SimSun", serif;
@@ -164,6 +175,17 @@
     --style-dynasty-2: #9c6f18;
     --style-phantom-1: #6234b8;
     --style-phantom-2: #158264;
+    --style-forge-1: #b0521a;
+    --style-forge-2: #4f5e6c;
+    --style-abyss-1: #3348c4;
+    --style-abyss-2: #8a2fb8;
+    --style-academy-1: #23803a;
+    --style-academy-2: #8a6b0e;
+    --style-corsair-1: #0f7a63;
+    --style-corsair-2: #7a6624;
+    --style-nebula-1: #b8325a;
+    --style-nebula-2: #9a6a10;
+    --corp-plate-mix: 88%;
     color-scheme: light;
   }
 }
@@ -238,6 +260,17 @@
   --style-dynasty-2: #9c6f18;
   --style-phantom-1: #6234b8;
   --style-phantom-2: #158264;
+  --style-forge-1: #b0521a;
+  --style-forge-2: #4f5e6c;
+  --style-abyss-1: #3348c4;
+  --style-abyss-2: #8a2fb8;
+  --style-academy-1: #23803a;
+  --style-academy-2: #8a6b0e;
+  --style-corsair-1: #0f7a63;
+  --style-corsair-2: #7a6624;
+  --style-nebula-1: #b8325a;
+  --style-nebula-2: #9a6a10;
+  --corp-plate-mix: 88%;
   color-scheme: light;
 }
 
@@ -375,6 +408,8 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 
 .ticker { font-family: var(--mono); font-size: .85em; color: var(--text-faint); }
 .aff-left, .aff-none { color: var(--text-faint); }
+.aff-left { white-space: nowrap; }
+.aff-ally .ticker { color: inherit; }
 .aff-deleted { font-size: .8em; padding: 0 .35em; border: 1px solid var(--line); border-radius: 3px; color: var(--text-faint); white-space: nowrap; }
 
 /* ---------- 首页 ---------- */
@@ -467,7 +502,31 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 .card-meta { font-size: .78rem; color: var(--text-faint); line-height: 1.4; margin-top: auto; overflow-wrap: anywhere; }
 .card-meta .aff-corp, .card-meta .aff-ally { color: var(--text-dim); }
+/* 卡片里军团名＋缩写最多两行：名字过长时以省略号截断，军团缩写与联盟缩写始终完整 */
+.card-meta .aff-main { display: inline; }
+.card-meta .aff-corp { display: contents; }
+.card-meta .aff-corp-name {
+  display: inline-block; max-width: 100%; vertical-align: bottom;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.card-meta .aff-tickers { display: inline-block; white-space: nowrap; }
 .card-updated { display: block; }
+
+/* 六维小雷达：只给轮廓，不出维度字；固定尺寸，压在头像列底部，与同排卡片底线对齐 */
+.card.has-radar a { position: relative; min-height: calc(72px + .55rem + 2.65rem + 1.4rem + 2px); }
+.card.has-radar.is-tycoon a { min-height: calc(72px + 1.15rem + 2.65rem + 1.4rem + 2px); }
+.card-radar {
+  position: absolute; bottom: .7rem; left: calc(.7rem + 36px - 1.325rem);
+  width: 2.65rem; height: 2.65rem; pointer-events: none;
+}
+.card-radar svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.card-radar-plate { fill: var(--gold); fill-opacity: .06; stroke: var(--gold-dim); stroke-opacity: .55; stroke-width: 1; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+.card-radar-base { fill: none; stroke: var(--gold-dim); stroke-opacity: .35; stroke-width: 1; stroke-dasharray: 1.5 2; vector-effect: non-scaling-stroke; }
+.card-radar-spoke { stroke: var(--gold-dim); stroke-opacity: .22; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.card-radar-area { fill: var(--gold); fill-opacity: .38; stroke: var(--gold); stroke-width: 1.4; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.card-radar-segment { stroke: var(--gold); stroke-width: 1.4; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.card-radar-shenren { fill: var(--zhu); }
+.card a:hover .card-radar-plate { stroke-opacity: .9; }
 
 /* ---------- 动态状态：活跃、沉寂、招新、著名 ---------- */
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -682,6 +741,34 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   --corp-c2: var(--style-phantom-2);
   --corp-pattern: repeating-radial-gradient(circle at 88% 18%, color-mix(in srgb, var(--corp-c1) 8%, transparent) 0 1px, transparent 1px 22px);
 }
+.corp-style-forge {
+  --corp-c1: var(--style-forge-1);
+  --corp-c2: var(--style-forge-2);
+  --corp-pattern: radial-gradient(circle, color-mix(in srgb, var(--corp-c2) 16%, transparent) 0 1.5px, transparent 2px);
+  --corp-pattern-size: 26px 26px;
+}
+.corp-style-abyss {
+  --corp-c1: var(--style-abyss-1);
+  --corp-c2: var(--style-abyss-2);
+  --corp-pattern: repeating-radial-gradient(circle at 0 100%, color-mix(in srgb, var(--corp-c1) 8%, transparent) 0 1px, transparent 1px 16px);
+}
+.corp-style-academy {
+  --corp-c1: var(--style-academy-1);
+  --corp-c2: var(--style-academy-2);
+  --corp-pattern: linear-gradient(0deg, color-mix(in srgb, var(--corp-c1) 7%, transparent) 1px, transparent 1px);
+  --corp-pattern-size: 100% 28px;
+}
+.corp-style-corsair {
+  --corp-c1: var(--style-corsair-1);
+  --corp-c2: var(--style-corsair-2);
+  --corp-pattern: repeating-linear-gradient(45deg, color-mix(in srgb, var(--corp-c1) 7%, transparent) 0 1px, transparent 1px 16px), repeating-linear-gradient(-45deg, color-mix(in srgb, var(--corp-c1) 7%, transparent) 0 1px, transparent 1px 16px);
+}
+.corp-style-nebula {
+  --corp-c1: var(--style-nebula-1);
+  --corp-c2: var(--style-nebula-2);
+  --corp-pattern: radial-gradient(circle, color-mix(in srgb, var(--corp-c2) 22%, transparent) 0 1px, transparent 1.5px), radial-gradient(circle, color-mix(in srgb, var(--corp-c1) 16%, transparent) 0 1px, transparent 1.5px);
+  --corp-pattern-size: 37px 29px, 23px 41px;
+}
 
 .corp-filters {
   display: flex;
@@ -722,76 +809,184 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 #corp-cards.is-default > :not([data-group="recruiting"]) { display: none; }
 
-/* 目录网格：商业卡片更宽敞 */
+/* 目录网格：招商名片。顶上一块实色招牌门头，流派靠门头下沿的大轮廓与战徽框形状区分；正文素底，不铺纹样 */
 .cards.corp-cards {
   margin-top: 1.25rem;
   gap: 1.1rem .9rem;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 19.5rem), 1fr));
 }
 .corp-card .corp-card-link {
+  --edge: 12px;
+  --plate: color-mix(in srgb, var(--corp-c1) var(--corp-plate-mix), #121216);
   position: relative; isolation: isolate; overflow: hidden;
-  display: flex; flex-direction: column; gap: .65rem; height: 100%;
-  padding: .8rem .85rem .75rem; border-radius: 8px;
-  border: 1px solid color-mix(in srgb, var(--corp-c1) 38%, var(--line));
-  background:
-    radial-gradient(ellipse 85% 55% at 0% 0%, color-mix(in srgb, var(--corp-c1) 16%, transparent), transparent 72%),
-    radial-gradient(ellipse 75% 55% at 100% 100%, color-mix(in srgb, var(--corp-c2) 12%, transparent), transparent 70%),
-    var(--corp-pattern),
-    var(--surface);
-  background-size: auto, auto, var(--corp-pattern-size, auto), auto;
-  box-shadow: var(--panel-shadow), inset 0 0 0 1px color-mix(in srgb, var(--corp-c2) 12%, transparent);
+  display: flex; flex-direction: column; gap: .7rem; height: 100%;
+  padding: 0 .9rem .8rem; border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--corp-c1) 30%, var(--line));
+  background: var(--surface);
+  box-shadow: var(--panel-shadow);
   transition: transform .16s, border-color .16s, box-shadow .16s;
 }
-.corp-card .corp-card-link::before {
-  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; pointer-events: none;
-  background: linear-gradient(90deg, var(--corp-c1), var(--corp-c2), color-mix(in srgb, var(--corp-c1) 35%, transparent));
-}
-.corp-style-warlord.corp-card .corp-card-link::before,
-.corp-style-warlord .corp-billboard::before {
-  height: 4px;
-  background: repeating-linear-gradient(-45deg, var(--corp-c1) 0 8px, var(--corp-c2) 8px 16px);
-}
-.corp-style-warlord.corp-card .corp-card-link,
-.corp-style-warlord .corp-billboard {
-  border-radius: 3px;
-}
-.corp-style-syndicate.corp-card .corp-card-link,
-.corp-style-syndicate .corp-billboard {
-  border-radius: 4px;
-  border-left-width: 3px;
-}
-.corp-style-neon.corp-card .corp-card-link,
-.corp-style-neon .corp-billboard {
-  border-radius: 12px;
-  box-shadow: var(--panel-shadow), 0 0 22px -12px color-mix(in srgb, var(--corp-c1) 50%, transparent);
-}
-.corp-style-dynasty.corp-card .corp-card-link {
-  box-shadow: var(--panel-shadow), inset 0 0 0 3px color-mix(in srgb, var(--corp-c2) 22%, transparent);
-}
-.corp-style-phantom.corp-card .corp-card-link,
-.corp-style-phantom .corp-billboard {
-  border-style: solid;
-  box-shadow: var(--panel-shadow), inset 0 1px 18px -10px color-mix(in srgb, var(--corp-c1) 45%, transparent);
-}
+.corp-card .corp-card-link:focus-visible { outline-offset: -4px; }
 .corp-card .corp-card-link:hover {
   transform: translateY(-2px);
   border-color: var(--corp-c1);
-  box-shadow: var(--panel-shadow), 0 0 0 1px var(--corp-c1), 0 12px 30px -14px color-mix(in srgb, var(--corp-c1) 55%, transparent);
+  box-shadow: var(--panel-shadow), 0 12px 30px -14px color-mix(in srgb, var(--corp-c1) 55%, transparent);
 }
-.corp-card-wm {
-  position: absolute; right: -.8rem; bottom: -.8rem; z-index: -1;
-  width: 6.8rem; height: 6.8rem; object-fit: contain; pointer-events: none;
-  opacity: .07; filter: saturate(1.25); transform: rotate(-8deg);
-}
+
+/* 招牌门头：实色底，只放联盟、区域与状态 */
 .corp-card-ribbon {
   display: flex; align-items: center; justify-content: space-between; gap: .4rem;
-  padding-bottom: .45rem; border-bottom: 1px dashed color-mix(in srgb, var(--corp-c1) 28%, var(--line));
+  margin: 0 -.9rem; padding: .5rem .9rem calc(.5rem + var(--edge));
+  background: var(--plate); color: #fff;
 }
 .corp-card-meta {
-  min-width: 0; font-size: .74rem; color: var(--text-dim);
+  min-width: 0; font-size: .74rem; color: rgba(255, 255, 255, .82);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.corp-card-meta strong { color: var(--corp-c1); font-family: var(--mono); font-weight: 700; }
+.corp-card-meta strong { color: #fff; font-family: var(--mono); font-weight: 700; }
+.corp-card-ribbon .pill-ash { background: rgba(0, 0, 0, .28); color: rgba(255, 255, 255, .8); }
+
+/* 财阀：证券抬头——平直门头，下压金色双线 */
+.corp-style-tycoon .corp-card-ribbon { padding-bottom: .55rem; margin-bottom: .15rem; border-bottom: 4px double var(--corp-c2); }
+
+/* 军阀：装甲——门头整条斜切，八角战徽框 */
+.corp-style-warlord .corp-card-ribbon { clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--edge)), 0 100%); }
+.corp-style-warlord .corp-crest-sm {
+  --oct: polygon(28% 0, 72% 0, 100% 28%, 100% 72%, 72% 100%, 28% 100%, 0 72%, 0 28%);
+  border: 0; border-radius: 0; padding: 2px;
+  background: linear-gradient(160deg, var(--corp-c1), var(--corp-c2));
+  clip-path: var(--oct);
+}
+.corp-style-warlord .corp-crest-sm img { border-radius: 0; clip-path: var(--oct); background: var(--bg-sunk); }
+
+/* 商会：档案夹——门头右侧下垂一块标签页，方角盖印战徽框 */
+.corp-style-syndicate .corp-card-link { border-radius: 3px; }
+.corp-style-syndicate .corp-card-ribbon {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 64% 100%, calc(64% - var(--edge)) calc(100% - var(--edge)), 0 calc(100% - var(--edge)));
+}
+.corp-style-syndicate .corp-crest-sm {
+  border-radius: 0; border-color: var(--corp-c1);
+  box-shadow: 3px 3px 0 color-mix(in srgb, var(--corp-c1) 30%, transparent);
+}
+.corp-style-syndicate .corp-crest-sm img { border-radius: 0; }
+
+/* 霓虹：灯箱——双色渐变门头带一道灯光，大圆角，发光圆形战徽框 */
+.corp-style-neon .corp-card-link { border-radius: 16px; }
+.corp-style-neon .corp-card-ribbon {
+  padding-bottom: .55rem; margin-bottom: .15rem;
+  background: linear-gradient(100deg, var(--plate), color-mix(in srgb, var(--corp-c2) var(--corp-plate-mix), #121216));
+  box-shadow: 0 3px 0 -1px var(--corp-c2), 0 6px 16px -4px color-mix(in srgb, var(--corp-c2) 70%, transparent);
+}
+.corp-style-neon .corp-crest-sm {
+  border: 0; border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--corp-c1), 0 0 14px -3px var(--corp-c1);
+}
+.corp-style-neon .corp-crest-sm img { border-radius: 50%; }
+
+/* 王朝：牌匾——门头正中垂下吊坠尖角，粗边印章战徽框 */
+.corp-style-dynasty .corp-card-link { border-radius: 3px; }
+.corp-style-dynasty .corp-card-ribbon {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--edge)), calc(50% + var(--edge) * 1.4) calc(100% - var(--edge)), 50% 100%, calc(50% - var(--edge) * 1.4) calc(100% - var(--edge)), 0 calc(100% - var(--edge)));
+}
+.corp-style-dynasty .corp-crest-sm {
+  border: 3px solid var(--corp-c1); border-radius: 4px;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--corp-c2) 55%, transparent);
+}
+
+/* 幽灵：暗影——门头向右渐隐，虚线外框，虚线圆形战徽框 */
+.corp-style-phantom .corp-card-link {
+  border-radius: 18px 3px 18px 3px; border-style: dashed;
+  border-color: color-mix(in srgb, var(--corp-c1) 50%, var(--line));
+}
+.corp-style-phantom .corp-card-ribbon {
+  padding-bottom: .5rem; margin-bottom: .15rem;
+  background: linear-gradient(90deg, var(--plate) 35%, color-mix(in srgb, var(--corp-c1) 12%, transparent));
+}
+.corp-style-phantom .corp-crest-sm {
+  border: 1px dashed var(--corp-c2); border-radius: 50%;
+  box-shadow: 0 0 18px -6px color-mix(in srgb, var(--corp-c1) 60%, transparent);
+}
+.corp-style-phantom .corp-crest-sm img { border-radius: 50%; }
+
+/* 重工：船坞——门头左高右低一级台阶，厚底座，六角战徽框 */
+.corp-style-forge .corp-card-link {
+  border-radius: 3px;
+  border-bottom: 4px solid color-mix(in srgb, var(--corp-c2) 55%, var(--line));
+}
+.corp-style-forge .corp-card-ribbon {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--edge)), 58% calc(100% - var(--edge)), calc(58% - var(--edge)) 100%, 0 100%);
+}
+.corp-style-forge .corp-crest-sm {
+  --hex: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  border: 0; border-radius: 0; padding: 2px;
+  background: linear-gradient(180deg, var(--corp-c2), color-mix(in srgb, var(--corp-c2) 45%, var(--bg-sunk)));
+  clip-path: var(--hex);
+}
+.corp-style-forge .corp-crest-sm img { border-radius: 0; clip-path: var(--hex); background: var(--bg-sunk); }
+
+/* 深渊：虫洞——门头下沿挖出一道凹弧，底部圆角，同心环战徽框 */
+.corp-style-abyss .corp-card-link { border-radius: 6px 6px 20px 20px; }
+.corp-style-abyss .corp-card-ribbon {
+  -webkit-mask: radial-gradient(ellipse 58% var(--edge) at 50% 100%, transparent 97%, #000);
+  mask: radial-gradient(ellipse 58% var(--edge) at 50% 100%, transparent 97%, #000);
+}
+.corp-style-abyss .corp-crest-sm {
+  border: 1px solid var(--corp-c1); border-radius: 50%;
+  box-shadow: 0 0 0 3px var(--surface), 0 0 0 4px color-mix(in srgb, var(--corp-c1) 50%, transparent), 0 0 0 7px var(--surface), 0 0 0 8px color-mix(in srgb, var(--corp-c2) 30%, transparent);
+}
+.corp-style-abyss .corp-crest-sm img { border-radius: 50%; }
+
+/* 学院：练习簿——门头右侧垂下一条书签，双线圆角战徽框 */
+.corp-style-academy .corp-card-link { border-radius: 3px 12px 12px 3px; }
+.corp-style-academy .corp-card-ribbon {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--edge)), calc(100% - 1.6rem) calc(100% - var(--edge)), calc(100% - 1.6rem) 100%, calc(100% - 2.15rem) calc(100% - 5px), calc(100% - 2.7rem) 100%, calc(100% - 2.7rem) calc(100% - var(--edge)), 0 calc(100% - var(--edge)));
+}
+.corp-style-academy .corp-crest-sm { border: 3px double var(--corp-c1); border-radius: 14px; padding: 2px; }
+.corp-style-academy .corp-crest-sm img { border-radius: 9px; }
+
+/* 海盗：私掠旗——门头下沿一排大锯齿，盾形战徽框 */
+.corp-style-corsair .corp-card-ribbon {
+  -webkit-mask:
+    linear-gradient(#000, #000) top / 100% calc(100% - var(--edge)) no-repeat,
+    conic-gradient(from -45deg at 50% 100%, #000 90deg, transparent 0) bottom left / calc(var(--edge) * 2) var(--edge) repeat-x;
+  mask:
+    linear-gradient(#000, #000) top / 100% calc(100% - var(--edge)) no-repeat,
+    conic-gradient(from -45deg at 50% 100%, #000 90deg, transparent 0) bottom left / calc(var(--edge) * 2) var(--edge) repeat-x;
+}
+.corp-style-corsair .corp-crest-sm {
+  --shield: polygon(0 0, 100% 0, 100% 62%, 50% 100%, 0 62%);
+  border: 0; border-radius: 0; padding: 2px 2px 4px;
+  background: linear-gradient(180deg, var(--corp-c2), var(--corp-c1));
+  clip-path: var(--shield);
+}
+.corp-style-corsair .corp-crest-sm img { border-radius: 0; clip-path: var(--shield); background: var(--bg-sunk); }
+
+/* 星云：天穹——门头下沿鼓成一道圆弧，带卫星的轨道战徽框 */
+.corp-style-nebula .corp-card-link { border-radius: 14px; }
+.corp-style-nebula .corp-card-ribbon {
+  background: linear-gradient(100deg, var(--plate), color-mix(in srgb, var(--corp-c1) calc(var(--corp-plate-mix) - 18%), #121216));
+  -webkit-mask:
+    linear-gradient(#000, #000) top / 100% calc(100% - var(--edge)) no-repeat,
+    radial-gradient(ellipse 50% 100% at 50% 0, #000 98%, transparent) bottom / 100% var(--edge) no-repeat;
+  mask:
+    linear-gradient(#000, #000) top / 100% calc(100% - var(--edge)) no-repeat,
+    radial-gradient(ellipse 50% 100% at 50% 0, #000 98%, transparent) bottom / 100% var(--edge) no-repeat;
+}
+.corp-style-nebula .corp-crest-sm {
+  position: relative; border-radius: 50%; border-color: var(--corp-c1);
+  outline: 1px dotted var(--corp-c2); outline-offset: 4px;
+}
+.corp-style-nebula .corp-crest-sm::after {
+  content: ""; position: absolute; top: 1px; right: 1px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--corp-c2); box-shadow: 0 0 6px var(--corp-c2);
+}
+.corp-style-nebula .corp-crest-sm img { border-radius: 50%; }
+
+/* 财阀战徽：双圈 */
+.corp-style-tycoon .corp-crest-sm {
+  border-color: var(--corp-c1);
+  box-shadow: 0 0 0 2px var(--surface), 0 0 0 3px color-mix(in srgb, var(--corp-c1) 55%, transparent);
+}
 .corp-card-pills { display: inline-flex; align-items: center; gap: .25rem; flex: none; }
 .corp-pill {
   display: inline-flex; align-items: center; padding: .08rem .42rem; border-radius: 3px;
@@ -802,18 +997,17 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .pill-ash { background: color-mix(in srgb, var(--text-faint) 30%, var(--bg-sunk)); color: var(--text-dim); }
 .pill-invite { border: 1px solid var(--line); color: var(--text-dim); background: var(--bg-sunk); }
 
-.corp-card-head { display: flex; align-items: center; gap: .75rem; min-width: 0; }
+.corp-card-head { display: flex; align-items: center; gap: .8rem; min-width: 0; }
 .corp-crest-sm {
   flex: none; display: grid; place-items: center; width: 64px; height: 64px; padding: 3px;
   border-radius: 6px; background: var(--bg-sunk);
   border: 1px solid color-mix(in srgb, var(--corp-c1) 55%, var(--line));
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--corp-c2) 14%, transparent), 0 6px 14px -8px rgba(0, 0, 0, .7);
 }
 .corp-crest-sm img { width: 100%; height: 100%; object-fit: contain; border-radius: 4px; }
 .corp-crest-sm.is-dormant img, .corp-crest.is-dormant img { filter: grayscale(.85) brightness(.85); }
 .corp-card-id { display: flex; flex-direction: column; gap: .1rem; min-width: 0; }
 .corp-card-title {
-  font-family: var(--serif); font-weight: 900; font-size: 1.18rem; line-height: 1.25;
+  font-family: var(--serif); font-weight: 700; font-size: 1.18rem; line-height: 1.25;
   color: var(--text); overflow-wrap: anywhere;
 }
 .corp-ticker-sm {
@@ -829,15 +1023,24 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .corp-card-aff { font-size: .78rem; color: var(--text-dim); line-height: 1.35; }
 .corp-card-aff strong { color: var(--corp-c2); font-weight: 700; }
 
+/* 宣传语完整显示，不截断 */
 .corp-card-pitch {
-  display: block; margin: 0; padding: .38rem .55rem; border-radius: 4px;
-  border-left: 3px solid var(--corp-c1);
-  background: color-mix(in srgb, var(--corp-c1) 8%, var(--bg-sunk));
-  color: var(--text); font-family: var(--serif); font-size: .88rem; line-height: 1.45;
+  display: block; margin: 0; padding: .1rem 0 .1rem .7rem;
+  border-left: 2px solid var(--corp-c1);
+  color: var(--text); font-family: var(--serif); font-size: .9rem; line-height: 1.6; text-wrap: pretty;
 }
-.corp-card-pitch-text {
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-}
+
+/* 详情页牌匾沿用流派边框 */
+.corp-style-warlord .corp-billboard { border-radius: 3px; }
+.corp-style-warlord .corp-billboard::before { height: 4px; background: repeating-linear-gradient(-45deg, var(--corp-c1) 0 8px, var(--corp-c2) 8px 16px); }
+.corp-style-syndicate .corp-billboard { border-radius: 4px; border-left-width: 3px; }
+.corp-style-neon .corp-billboard { border-radius: 12px; box-shadow: var(--panel-shadow), 0 0 22px -12px color-mix(in srgb, var(--corp-c1) 50%, transparent); }
+.corp-style-forge .corp-billboard { border-radius: 3px; border-bottom-width: 4px; }
+.corp-style-abyss .corp-billboard { border-radius: 10px 10px 28px 28px; }
+.corp-style-academy .corp-billboard { border-radius: 3px 12px 12px 3px; border-left: 6px solid var(--corp-c1); }
+.corp-style-corsair .corp-billboard { border-radius: 0 0 16px 16px; }
+.corp-style-nebula .corp-billboard { border-radius: 14px; }
+.corp-style-phantom .corp-billboard { box-shadow: var(--panel-shadow), inset 0 1px 18px -10px color-mix(in srgb, var(--corp-c1) 45%, transparent); }
 
 /* ---------- 三维评价横条（RPG 装甲/HP 条风格） ---------- */
 .corp-ratings {
@@ -1117,7 +1320,7 @@ a.corp-aff-tag:hover { border-color: var(--corp-c1); filter: brightness(1.1); }
 .bio-aliases { margin: .15rem 0 0; color: var(--text-faint); font-size: .88rem; }
 .bio-aliases span { color: var(--text-dim); }
 .bio-alts { overflow-wrap: anywhere; line-height: 1.5; }
-.bio-alts-wrap.is-collapsed .bio-alts { max-height: 3em; overflow: hidden; }
+.bio-alts-wrap.is-collapsed .bio-alts { max-height: 1.5em; overflow: hidden; }
 .bio-alts-wrap .tag-more { margin-top: .3rem; height: 1.6rem; }
 .epithet {
   margin: .6rem 0 0; color: var(--zhu);
@@ -1143,6 +1346,107 @@ a.corp-aff-tag:hover { border-color: var(--corp-c1); filter: brightness(1.1); }
 .bio-facts dt { flex: none; min-width: 2.5em; white-space: nowrap; color: var(--text-faint); }
 .bio-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .person-battles { min-width: 0; }
+
+/* ---------- 头像行右端：微型六维雷达图 ---------- */
+.bio:has(.bio-radar-bay) { max-width: 49rem; }
+.bio-radar-bay {
+  flex-shrink: 0; width: 195px; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; position: relative;
+  margin-left: auto; align-self: center;
+}
+.radar-chart-wrap { width: 190px; height: 170px; display: flex; align-items: center; justify-content: center; }
+.radar-chart-svg { width: 100%; height: 100%; overflow: visible; display: block; }
+.radar-ring { fill: none; }
+.radar-ring.ring-outer { stroke: var(--line); stroke-width: 1.1; }
+.radar-ring.ring-mid { stroke: var(--line-soft); stroke-width: .8; stroke-dasharray: 2 2; }
+.radar-ring.ring-baseline { stroke: var(--gold-dim); stroke-width: .9; stroke-dasharray: 3 3; }
+.radar-spoke { stroke: var(--line-soft); stroke-width: .85; }
+.radar-spoke-unknown { stroke-dasharray: 2 2; }
+.radar-partial-segment {
+  fill: none; stroke: var(--gold); stroke-width: 1.8; stroke-linecap: round;
+  filter: drop-shadow(0 0 4px rgba(200, 165, 96, .4));
+}
+.radar-area {
+  fill: url(#radarAreaGlow); stroke: var(--gold); stroke-width: 1.8;
+  stroke-linejoin: round; filter: drop-shadow(0 0 5px rgba(200, 165, 96, .45));
+}
+.radar-vertex { fill: var(--gold); stroke: var(--surface); stroke-width: 1.5; }
+.radar-vertex.tier-ex { fill: #ff5252; stroke: #fff; }
+.radar-axis-text { font-family: var(--serif); font-size: 13.5px; fill: var(--text); }
+.axis-txt-name { font-weight: 700; letter-spacing: .02em; }
+.axis-txt-tier { font-family: var(--mono); font-size: 15px; font-weight: 900; }
+
+/* 阶位字色：加大对比度，全天候清晰可辨 */
+.tier-ex .axis-txt-tier { fill: #ff5252; font-weight: 900; filter: drop-shadow(0 0 5px rgba(255, 82, 82, .65)); }
+.tier-s .axis-txt-tier { fill: #ffb300; filter: drop-shadow(0 0 5px rgba(255, 179, 0, .55)); }
+.tier-a .axis-txt-tier { fill: #ce93d8; }
+.tier-b .axis-txt-tier { fill: #4fc3f7; }
+.tier-c .axis-txt-tier { fill: var(--text); }
+.tier-d .axis-txt-tier { fill: #ffcc80; }
+.tier-e .axis-txt-tier { fill: #cfd8dc; }
+.tier-unknown .axis-txt-tier { fill: var(--text-faint); font-size: 11px; }
+
+/* 展开考据案由按钮与悬浮卡片 */
+.radar-inspect-details { width: 100%; position: relative; margin-top: .15rem; }
+.radar-inspect-summary {
+  text-align: center; cursor: pointer; list-style: none; user-select: none;
+  padding: .15rem .4rem; border-radius: 3px; font-size: .72rem; color: var(--text-faint);
+  transition: color .15s, background .15s;
+}
+.radar-inspect-summary::-webkit-details-marker { display: none; }
+.radar-inspect-summary:hover { color: var(--gold); background: var(--bg-raised); }
+.radar-inspect-details[open] .radar-inspect-summary { color: var(--gold); }
+.radar-inspect-dropdown {
+  position: absolute; right: 0; top: calc(100% + 6px); z-index: 40;
+  width: min(390px, 90vw); background: var(--surface);
+  border: 1px solid var(--gold); border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); padding: .75rem 1rem;
+}
+.inspect-axis-item {
+  margin-bottom: .35rem; padding-bottom: .35rem; border-bottom: 1px dashed var(--line-soft);
+}
+.inspect-axis-item:last-child { border-bottom: 0; margin-bottom: 0; }
+.inspect-axis-summary {
+  display: flex; justify-content: space-between; align-items: center;
+  cursor: pointer; list-style: none; font-size: .86rem; font-weight: 700;
+  color: var(--text);
+}
+.inspect-axis-summary::-webkit-details-marker { display: none; }
+.inspect-axis-grade { font-family: var(--mono); }
+.inspect-axis-body { padding: .2rem 0 .15rem; }
+.inspect-axis-reason {
+  margin: .15rem 0 .35rem; font-size: .82rem; line-height: 1.65;
+  color: var(--text-dim); text-align: justify;
+}
+.inspect-axis-sources {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .25rem .45rem; font-size: .72rem;
+}
+.inspect-sources-label { color: var(--text-faint); font-family: var(--serif); }
+.inspect-axis-sources a {
+  display: inline-flex; align-items: center; gap: .2rem; padding: .08rem .35rem;
+  background: var(--bg-raised); border: 1px solid var(--line-soft); border-radius: 3px;
+  color: var(--link); text-decoration: none; font-size: .72rem;
+}
+.inspect-verdict-line {
+  display: flex; align-items: center; gap: .55rem; margin-top: .5rem; padding-top: .45rem;
+  border-top: 1px dashed var(--line-soft);
+}
+.inspect-verdict-seal {
+  flex-shrink: 0; padding: .1rem .35rem; background: var(--zhu); color: #fff9f0;
+  font-family: var(--serif); font-size: .68rem; font-weight: 700; border-radius: 2px;
+  letter-spacing: .12em; line-height: 1.2;
+}
+.inspect-verdict-text {
+  margin: 0; font-family: var(--serif); font-size: .88rem; font-weight: 600;
+  font-style: italic; color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .bio-head { flex-wrap: wrap; }
+  .bio-radar-bay { width: 100%; order: 3; margin: .85rem auto 0; }
+  .radar-chart-wrap { margin: 0 auto; }
+  .radar-inspect-dropdown { right: auto; left: 50%; transform: translateX(-50%); }
+}
 
 /* 正文：衬线、宽行距，适合长篇阅读 */
 .prose { font-family: var(--serif); font-size: 1.075rem; line-height: 1.95; overflow-wrap: break-word; }
@@ -1225,6 +1529,9 @@ a.corp-aff-tag:hover { border-color: var(--corp-c1); filter: brightness(1.1); }
 .liao-hong .liao-badge { background: var(--hong); color: #fff; }
 .liao-hei { border-left-color: var(--hei-edge); background: var(--hei-bg); }
 .liao-hei .liao-badge { background: var(--hei); color: var(--hei-fg); box-shadow: inset 0 0 0 1px var(--hei-edge); }
+/* 高潮（战役亮点）：::: 高潮 标题，金边金徽，徽记两字故放宽 */
+.liao-gaochao { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold) 9%, transparent); }
+.liao-gaochao .liao-badge { width: auto; padding: 0 .4em; background: var(--gold); color: var(--bg, #fff); }
 
 .liao-count { display: inline-flex; gap: .3rem; margin-right: .45rem; }
 .liao-count > span { padding: 0 .35rem; border-radius: 3px; font-size: .72rem; font-weight: 700; }

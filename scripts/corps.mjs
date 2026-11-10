@@ -3,7 +3,7 @@ const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const ZONE_KEYS = ['high', 'low', 'null', 'wh', 'pochven'];
 const https = value => /^https:\/\//.test(value ?? '');
 
-export const CORP_STYLES = ['tycoon', 'warlord', 'syndicate', 'neon', 'dynasty', 'phantom'];
+export const CORP_STYLES = ['tycoon', 'warlord', 'syndicate', 'neon', 'dynasty', 'phantom', 'forge', 'abyss', 'academy', 'corsair', 'nebula'];
 
 export const CORP_RATING_DIMENSIONS = [
   { key: 'pvp', label: '武德', hint: '前线交火与 PVP 活跃度' },
@@ -20,6 +20,7 @@ export function validateCorpArchive(archive, slug) {
   if (!Number.isInteger(corp?.id)) fail('corp.id 必须是军团 ID');
   if (!corp?.cn_name) fail('缺 corp.cn_name');
   if (!corp?.epithet) fail('缺 corp.epithet');
+  else if (/[！!]/.test(corp.epithet)) fail('corp.epithet 不用感叹号');
   if (!CORP_STYLES.includes(corp?.style)) fail(`corp.style 只能是 ${CORP_STYLES.join('、')}`);
   for (const { key } of CORP_RATING_DIMENSIONS) {
     if (!isScore(corp?.ratings?.[key])) fail(`corp.ratings.${key} 必须是 0–100 的整数`);

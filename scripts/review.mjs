@@ -5,6 +5,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
+import { materialPath, materialReferences, readMaterial } from './material-document.mjs';
 
 const REGISTRY = 'docs/review-features.json';
 const RECEIPTS = 'docs/reviews';
@@ -32,6 +33,16 @@ check：核对全部功能的规则声明及已删对象的残留记录。
 详情：docs/review-workflow.md。信号不是漏项定论，互链和构建通过不是调查完成。
 `;
 const read = (root, file) => fs.readFileSync(path.join(root, file), 'utf8');
+const materialCandidate = file => /(?:^|\/)materials-[^/]+\.json$/.test(file)
+ || /^docs\/(?:sources|leads|corporations\/notes)\/.+\.json$/.test(file);
+const isMaterialFile = (root, file) => {
+  if (!materialCandidate(file) || !exists(root, file)) return false;
+  const document = JSON.parse(read(root, file));
+  if (document?.type !== 'material') return false;
+  readMaterial(path.join(root, file));
+  return true;
+};
+const documentText = (root, file) => isMaterialFile(root, file) ? readMaterial(path.join(root, file)) : read(root, file);
 const exists = (root, file) => fs.existsSync(path.join(root, file));
 const dirs = (root, dir) => exists(root, dir) ? fs.readdirSync(path.join(root, dir)).sort() : [];
 const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object' ? Object.fromEntries(Object.entries(value).sort(([a], [b]) => a.localeCompare(b)).map(([key, item]) => [key, canonical(item)])) : value;
@@ -39,17 +50,29 @@ const hash = value => createHash('sha256').update(JSON.stringify(canonical(value
 const posix = file => file.split(path.sep).join('/');
 const unique = values => [...new Set(values)];
 function safeFile(root, file) {
-  const base = file.split('#')[0];
-  const rel = posix(path.relative(root, path.resolve(root, base)));
-  if (!rel || rel.startsWith('../') || path.isAbsolute(rel)) throw new Error(`路径必须在仓库内：${file}`);
-  if (exists(root, rel)) {
-    const real = path.relative(fs.realpathSync(root), fs.realpathSync(path.join(root, rel)));
-    if (real.startsWith('..') || path.isAbsolute(real)) throw new Error(`路径不能指向仓库外：${file}`);
+  let base = file.split('#')[0];
+  let absolute = path.resolve(root, base);
+  const relFor = candidate => {
+    const relative = posix(path.relative(root, candidate));
+    if (!relative || relative.startsWith('../') || path.isAbsolute(relative)) throw new Error(`路径必须在仓库内：${file}`);
+    if (exists(root, relative)) {
+      const real = path.relative(fs.realpathSync(root), fs.realpathSync(path.join(root, relative)));
+      if (real.startsWith('..') || path.isAbsolute(real)) throw new Error(`路径不能指向仓库外：${file}`);
+    }
+    return relative;
+  };
+  let rel = relFor(absolute);
+  if (!exists(root, rel) && /\.md$/.test(base)) {
+    const candidates = [base.replace(/\.md$/, '.json'), base.replace(/\.md$/, '-material.json')];
+    for (const name of candidates) {
+      const candidate = path.resolve(root, name), relative = relFor(candidate);
+      if (exists(root, relative) && isMaterialFile(root, relative)) { base = name; absolute = candidate; rel = relative; break; }
+    }
   }
   return rel;
 }
 export function ruleText(root, spec) {
-  const text = read(root, spec.file);
+  const text = documentText(root, spec.file);
   if (spec.contains) {
     const matches = text.split('\n').filter(line => line.includes(spec.contains));
     if (matches.length !== 1) throw new Error(`${spec.file}：规则定位必须唯一：${spec.contains}`);
@@ -88,20 +111,30 @@ function snippets(text, pattern, limit = 6) {
     return at < 0 ? [] : [{ line: i + 1, excerpt: line.slice(Math.max(0, at - 70), Math.max(0, at - 70) + 320) }];
   }).slice(0, limit);
 }
-function sharedSources(root, file, seen = new Set()) {
+function sharedSources(root, file, seen = new Set(), dependencies = new Map()) {
   if (!file || seen.has(file)) return seen;
   seen.add(file);
-  // Follow only archived shared sources, not people-to-people links or the whole research graph.
-  for (const m of read(root, file).matchAll(/\]\(([^)]+)\)/g)) {
-    let target = m[1].split('#')[0];
-    if (!target || /^(?:[a-z]+:|\/)/i.test(target)) continue;
-    target = posix(path.normalize(path.join(path.dirname(file), target)));
-    if (target.startsWith('docs/sources/') && target.endsWith('.md') && exists(root, target)) sharedSources(root, safeFile(root, target), seen);
+  // 只跟随共享材料与作品档案，不沿人物互链展开整个调查图。
+  if (!dependencies.has(file)) {
+    const references = isMaterialFile(root, file) ? materialReferences(JSON.parse(read(root, file)))
+      : [...read(root, file).matchAll(/\]\(([^)]+)\)/g)].map(match => match[1]);
+    const targets = [];
+    for (const reference of references) {
+      let target = reference.split('#')[0];
+      if (!target || /^(?:[a-z]+:|\/)/i.test(target)) continue;
+      target = posix(path.normalize(path.join(path.dirname(file), target)));
+      if ((/^docs\/(?:sources|leads|corporations\/notes)\/.+\.(?:md|json)$/.test(target)
+        || /^docs\/bilibili\/\d+\.json$/.test(target)) && exists(root, target)) targets.push(safeFile(root, target));
+    }
+    dependencies.set(file, unique(targets));
   }
+  for (const target of dependencies.get(file)) sharedSources(root, target, seen, dependencies);
   return seen;
 }
 export function inventory(root) {
   const { dates, available } = creationDates(root), records = [], owners = new Map();
+  // 同一轮查询复用来源解析，跨轮重新读取，避免共享事件被每个人反复解析。
+  const sourceDependencies = new Map();
   const namesFile = 'src/_data/entityNames.json';
   const entityNames = exists(root, namesFile) ? JSON.parse(read(root, namesFile)) : null;
   for (const kind of ['person', 'battle']) {
@@ -112,14 +145,16 @@ export function inventory(root) {
       let archive, archiveFile;
       if (kind === 'person') ({ archive, archiveFile } = readPersonDocument(path.join(root, body)));
       else { archiveFile = path.join(root, `${folder}/${slug}.json`); archive = JSON.parse(fs.readFileSync(archiveFile, 'utf8')); }
-      const material = `${folder}/materials-${slug}.md`;
+      const selectedMaterial = materialPath(path.join(root, folder), slug);
+      const materialPathRelative = posix(path.relative(root, selectedMaterial));
+      const material = exists(root, materialPathRelative) ? materialPathRelative : null;
       const text = read(root, body), record = {
         key: `${kind}:${slug}`, kind, slug, title: kind === 'person' ? archive.person.cn_name || archive.name : archive.battle.title,
-        body, archiveFile: posix(path.relative(root, archiveFile)), material: exists(root, material) ? material : null,
-        archive, text, blocks: (text.match(/^:::\s*(?:红料|黑料)(?:\s|$)/gm) ?? []).length,
+        body, archiveFile: posix(path.relative(root, archiveFile)), material,
+        archive, text, materialText: material ? documentText(root, material) : '', blocks: (text.match(/^:::\s*(?:红料|黑料)(?:\s|$)/gm) ?? []).length,
         added: dates.get(body) ?? null, historyAvailable: available, battles: [],
       };
-      record.sources = [...sharedSources(root, record.material)];
+      record.sources = [...sharedSources(root, record.material, new Set(), sourceDependencies)];
       records.push(record);
       if (kind === 'person') for (const id of [archive.id, ...(archive.identity?.alts ?? []).map(alt => alt.id)]) {
         if (owners.has(id)) throw new Error(`角色 ${id} 重复对应：${owners.get(id).key} / ${record.key}`);
@@ -295,7 +330,7 @@ function validateWriting(root, record, assessment) {
 }
 // Anchors that pass validation as-is: non-empty headings, plus the first prose line of the opening and of each ::: block.
 function anchorsOf(root, file, limit = 30) {
-  const lines = read(root, file).split('\n'), rows = [];
+  const lines = documentText(root, file).split('\n'), rows = [];
   const once = text => lines.filter(line => line.includes(text)).length === 1;
   const snippet = line => [12, 20, 32, 48, 80, Infinity].map(n => line.trim().slice(0, n)).find(once) ?? null;
   let opener = '开篇';
@@ -332,10 +367,10 @@ function assess(root, record, feature) {
   const signals = [];
   const missing = missingChecks(feature, receipt);
   if (missing.length) signals.push('review-incomplete');
-  if (feature.eventReview && feature.pattern.test(record.text + (record.material ? read(root, record.material) : ''))) signals.push('heavy-story-candidate');
+  if (feature.eventReview && feature.pattern.test(record.text + record.materialText)) signals.push('heavy-story-candidate');
   if (feature.name === 'combat' && record.kind === 'person' && record.battles.some(b => b.characters.some(c => c.via.some(v => ['pilot', 'loss', 'manual'].includes(v)))) && !feature.pattern.test(record.text)) signals.push('battle-without-narrative');
   if (feature.name === 'combat' && record.kind === 'person' && (/zkillboard\.com\/character\//.test(record.text) || record.battles.some(b => b.characters.some(c => c.via.some(v => ['pilot', 'loss', 'manual'].includes(v))))) && ![...record.text.matchAll(/^:::\s*红料(.*)\n([\s\S]*?)^:::\s*$/gm)].some(([, title, body]) => feature.pattern.test(title) || /zkillboard\.com\/|battles\//.test(body))) signals.push('combat-without-block');
-  if (feature.name === 'combat' && record.kind === 'person' && /FLEET\s+COMMANDER/i.test(record.text + (record.material ? read(root, record.material) : '')) && !(record.archive.person.tags ?? []).some(tag => ['FC', '著名FC'].includes(tag))) signals.push('command-without-tag');
+  if (feature.name === 'combat' && record.kind === 'person' && /FLEET\s+COMMANDER/i.test(record.text + record.materialText) && !(record.archive.person.tags ?? []).some(tag => ['FC', '著名FC'].includes(tag))) signals.push('command-without-tag');
   if (record.blocks <= 2) signals.push('few-blocks');
   if (!record.material) signals.push('no-material');
   if (record.kind === 'person' && !record.archive.identity?.zkb) signals.push('no-saved-kb');
@@ -392,7 +427,7 @@ export function run(root, args, suppliedRecords) {
     if (!['body', 'material'].includes(options.file)) throw new Error('--file 须为 body 或 material');
     const file = record[options.file];
     if (!file) throw new Error('此对象没有素材文件');
-    const from = integer(options, 'from', 1, 1), count = integer(options, 'lines', 30, 1, 80), lines = read(root, file).split('\n');
+    const from = integer(options, 'from', 1, 1), count = integer(options, 'lines', 30, 1, 80), lines = options.file === 'material' ? documentText(root, file).split('\n') : read(root, file).split('\n');
     return { file, totalLines: lines.length, from, lines: lines.slice(from - 1, from - 1 + count).map((text, i) => ({ line: from + i, text })) };
   }
   const feature = loadFeature(root, options.feature ?? 'combat');
@@ -467,8 +502,8 @@ export function run(root, args, suppliedRecords) {
       ...(record.kind === 'person' ? { id: record.archive.id, alts: { total: (record.archive.identity?.alts ?? []).length, records: (record.archive.identity?.alts ?? []).slice(0, 8).map(({ id, name, zkb }) => ({ id, name, zkb })) }, zkb: record.archive.identity?.zkb ?? null, tags: record.archive.person.tags } : {}),
       structure: { total: sections(record.text).length, records: sections(record.text).slice(0, 20) },
       bodyMatches: snippets(record.text, feature.pattern),
-      materialStructure: record.material ? { total: sections(read(root, record.material)).length, records: sections(read(root, record.material)).slice(0, 20) } : null,
-      materialMatches: record.material ? snippets(read(root, record.material), feature.pattern) : [],
+      materialStructure: record.material ? { total: sections(record.materialText).length, records: sections(record.materialText).slice(0, 20) } : null,
+      materialMatches: record.material ? snippets(record.materialText, feature.pattern) : [],
       battles: { total: record.battles.length, records: record.battles.slice(0, 12).map(({ fingerprint, ...battle }) => battle) },
       sharedSources: record.sources.filter(file => file !== record.material),
       checks: feature.checks ?? {}, missingChecks: missing,

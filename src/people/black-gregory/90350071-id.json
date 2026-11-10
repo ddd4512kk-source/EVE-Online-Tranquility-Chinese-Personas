@@ -48,7 +48,7 @@
         "id": 2115243663,
         "name": "GoldMining Owner",
         "sources": [
-          "materials-black-gregory.md"
+          "materials-black-gregory.json"
         ],
         "zkb": {
           "kills": 0,
@@ -66,7 +66,7 @@
           "name": "BlackGregory",
           "portrait": "tb.1.bcd14eaf.NmjNzZyFFJ8YGSuqd5vl4w",
           "sources": [
-            "materials-black-gregory.md"
+            "materials-black-gregory.json"
           ]
         }
       ]
@@ -93,6 +93,73 @@
       "00区",
       "联盟管理",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T13:01:25Z",
+      "verdict": "线下云玩家一年上线五小时打钱，亲手买下一个半星域缔造滑稽联盟的神秘巨富。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "买下一片地、拉起联盟之后，他消失了六年；给管理们开的玩笑头衔，倒像他留下的最后一封群邮件。",
+          "sources": [
+            {
+              "label": "老黑贴吧声明与回忆",
+              "url": "https://tieba.baidu.com/p/6710431215"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "E",
+          "reason": "主号快照零击杀、仅10次损失，十余年未开火，纯粹的线下战略资本账号。",
+          "sources": [
+            {
+              "label": "Black Gregory zKillboard",
+              "url": "https://zkillboard.com/character/90350071/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "E",
+          "reason": "几乎从不登录游戏参与舰队指挥，完全不具备任何实战现场统御调度。",
+          "sources": [
+            {
+              "label": "老黑贴吧声明与回忆",
+              "url": "https://tieba.baidu.com/p/6710431215"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "‘黑在盯着你’，欧服华人传奇黑老板，神龙见首不见尾，靠一掷千金与深厚人脉在圈内享有崇高神秘感。",
+          "sources": [
+            {
+              "label": "滑稽联盟创盟历史",
+              "url": "https://tieba.baidu.com/p/6710431215"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "凭超然财力直接出资盘下一个半星域地盘，亲手创建滑稽联盟（I.S.K），重构欧服华人地缘板块。",
+          "sources": [
+            {
+              "label": "老黑贴吧声明与回忆",
+              "url": "https://tieba.baidu.com/p/6710431215"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "个人财富登峰造极，单枪匹马出资买下一个半星域并注资铁银行（Iron-Bank），金元帝国的绝对金主。",
+          "sources": [
+            {
+              "label": "老黑贴吧声明与回忆",
+              "url": "https://tieba.baidu.com/p/6710431215"
+            }
+          ]
+        }
+      }
+    }
   }
 }

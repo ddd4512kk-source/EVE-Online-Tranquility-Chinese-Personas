@@ -129,8 +129,76 @@
     "tags": [
       "00区",
       "FRT",
+      "著名FC",
       "联盟管理",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T14:13:26Z",
+      "verdict": "早年坐镇盘古与紫禁城，一张五十亿罚单撕开裂痕；执纪严苛终致分道，联盟元老亦是铁腕。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "虽因CTA期间开出五十亿巨额罚单引发盘古内部管理剧烈震荡，但属严苛纪律执法与高层管理博弈，无触及公序良俗出格恶行，按常人基准评 D。",
+          "sources": [
+            {
+              "label": "连山转录盘古纪律会议纪要",
+              "url": "https://tieba.baidu.com/p/6656022309"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "近两千次击杀、打掉逾万亿，参与多场早期会战，具备扎实一线战斗出勤经历。",
+          "sources": [
+            {
+              "label": "shou xin zKillboard",
+              "url": "https://zkillboard.com/character/461504418/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "华人圈早期核心主力指挥，曾统领盘古与23rd Armor带队出征并执掌主权会战大局，资深元老级主战FC。",
+          "sources": [
+            {
+              "label": "华人势力大事记",
+              "url": "https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "盘古话事人时抢麦、罚款、谈崩，蜜蜂回忆里评他“说话腔调让人不爽”，紫禁城合流他又是组织者缺席；没有人缘好的材料，按常人。",
+          "sources": [
+            {
+              "label": "蜜蜂的回忆录",
+              "url": "https://forums.winterco.org/t/topic/13924"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "实际担任盘古核心主事者并参与合流、纪律和内政，失败不抹掉联盟高层任职。",
+          "sources": [
+            {
+              "label": "华人势力大事记",
+              "url": "https://forum.pla-eve.com/topic/61-eve欧服华人势力大事记/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "掌握军团财税与早期主权基建，支配大额罚金与补损运作，个人资产充足。",
+          "sources": [
+            {
+              "label": "盘古纪律案记录",
+              "url": "https://tieba.baidu.com/p/6656022309"
+            }
+          ]
+        }
+      }
+    }
   }
 }

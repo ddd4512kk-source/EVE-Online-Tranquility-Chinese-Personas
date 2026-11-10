@@ -134,6 +134,73 @@
       "D.C",
       "低安",
       "CEO"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:46:18Z",
+      "verdict": "招新写满福利，兑现还要评论区催。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "福利返卡与踢人纠纷按具体管理摩擦评，不照搬手游指控。",
+          "sources": [
+            {
+              "label": "贴吧队内狂野曝光帖",
+              "url": "https://tieba.baidu.com/p/7782094592"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "千余击杀及百次Solo，有熟练小队实战。",
+          "sources": [
+            {
+              "label": "出战与击杀统计",
+              "url": "https://zkillboard.com/character/2117652442/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "军团招新与CEO身份未见本人稳定实战带队。",
+          "sources": [
+            {
+              "label": "狂野军团发展历程",
+              "url": "https://esi.evetech.net/latest/characters/2117652442/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "B",
+          "reason": "长期创办军团并聚起五十余活人，具团队号召。",
+          "sources": [
+            {
+              "label": "退团成员指责与贴吧反馈",
+              "url": "https://tieba.baidu.com/p/7782094592"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "长期经营狂野海盗、协调建筑福利与驻地。",
+          "sources": [
+            {
+              "label": "DC黑名单沟通争议",
+              "url": "https://tieba.baidu.com/p/7782094592"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "S",
+          "reason": "组织兔子卫队控场回收并教学带新人赚月卡，属刷钱经营能手。",
+          "sources": [
+            {
+              "label": "泰坦建造与工业招商记录",
+              "url": "https://esi.evetech.net/latest/characters/2117652442/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

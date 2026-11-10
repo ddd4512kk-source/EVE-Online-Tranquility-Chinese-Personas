@@ -36,6 +36,89 @@
       "高安",
       "B站",
       "低素质"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T02:46:18Z",
+      "verdict": "任务讲得细，嘴仗也不肯下班。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "配装争端直播对线至次晨，隔月仍被贴吧指责天天造谣误导新人；跨区充值被封后高调亮出GM工单自称破例解封，随即二进宫永封并地图炮整个联盟，出格程度达S。",
+          "sources": [
+            {
+              "label": "鸟哥二代目",
+              "url": "https://tieba.baidu.com/p/9045168034"
+            },
+            {
+              "label": "关于某族长天天造谣别人还误导新人这件事",
+              "url": "https://tieba.baidu.com/p/9095381454"
+            },
+            {
+              "label": "号外，某族长大号二进宫被封，发视频地图炮FRT",
+              "url": "https://tieba.baidu.com/p/9122984014"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "三百余击杀中大量为犹大码反强暴目标，Solo数不直接等于单浪强度。",
+          "sources": [
+            {
+              "label": "Hellmar 神使泰坦击毁 KM",
+              "url": "https://zkillboard.com/kill/109033327/"
+            },
+            {
+              "label": "CTIRx zKillboard",
+              "url": "https://zkillboard.com/character/2120612143/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "单人任务与配置讲解未见舰队带领。",
+          "sources": [
+            {
+              "label": "Ctirx 任务单刷记录",
+              "url": "https://zkillboard.com/character/2120894709/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "千余粉丝与七十余投稿，任务教学有稳定受众。",
+          "sources": [
+            {
+              "label": "四帝国声望全刷正教程",
+              "url": "https://www.bilibili.com/video/BV1ju411b7jB/"
+            },
+            {
+              "label": "某族长 B站主页",
+              "url": "https://space.bilibili.com/472710027"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "未入玩家军团，未见组织治理职责。",
+          "sources": [
+            {
+              "label": "CTIRx 雇佣记录",
+              "url": "https://zkillboard.com/character/2120612143/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "专攻纯高安四级与燃烧任务自给，虽自报五天三十亿等收益，但仅属常规单人PVE积累，未见工业大盘或高阶资本运作，定B。",
+          "sources": [
+            {
+              "label": "《纯掠夺5天四级任务30e》视频",
+              "url": "https://www.bilibili.com/video/BV1as421u7ye/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

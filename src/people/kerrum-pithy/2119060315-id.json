@@ -73,7 +73,7 @@
         "id": 2120636233,
         "name": "Ashemi Shaishi",
         "sources": [
-          "materials-kerrum-pithy.md"
+          "materials-kerrum-pithy.json"
         ],
         "zkb": {
           "kills": 20,
@@ -87,7 +87,7 @@
         "id": 2120556255,
         "name": "Vocan Hephaes",
         "sources": [
-          "materials-kerrum-pithy.md"
+          "materials-kerrum-pithy.json"
         ],
         "zkb": {
           "kills": 136,
@@ -117,6 +117,81 @@
     "tags": [
       "00区",
       "B站"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-09T22:42:00Z",
+      "verdict": "创世的硬核装配博主与“贝斯城管”，以“先死过好几条”的踏实求真态度做教学，在万亿战火与严谨讲义中自得其乐。",
+      "axes": {
+        "shenren": {
+          "tier": "C",
+          "reason": "自封贝斯城管，教学视频太糊自嘲当播客听，写双推恩尤攻略直言“肯定死过好几条才手动环绕”，喜感求真。",
+          "sources": [
+            {
+              "label": "双推恩尤教学评论回复",
+              "url": "https://www.bilibili.com/video/BV1ySnszmE6T/"
+            },
+            {
+              "label": "装配101第零期播客自嘲",
+              "url": "https://www.bilibili.com/video/BV115eszUEWi/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "A",
+          "reason": "GM周一夜开狞獾连蹭四艘GM泰坦入账六千多亿，千余次击杀涉1.7万亿，精通恩尤、夜魔侠与重拦。",
+          "sources": [
+            {
+              "label": "GM泰坦击毁战报",
+              "url": "https://zkillboard.com/kill/112562581/"
+            },
+            {
+              "label": "T8T-RA会战重拦出战",
+              "url": "https://www.bilibili.com/video/BV1L49dBDE4t/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "专注于小队特战穿插与战术装配测试，不担任大舰队统帅。",
+          "sources": [
+            {
+              "label": "8F-TK3投弹战术视频",
+              "url": "https://www.bilibili.com/video/BV1PiHn6REBo/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "B站极富耐心与严谨治学精神的舰船装配讲师，先死先试、自垫耗材，深得新人信服。",
+          "sources": [
+            {
+              "label": "B站notHenryZ空间",
+              "url": "https://space.bilibili.com/646042741"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "纯粹的技术流学者与战地剪辑师，不涉足联盟政治斗争。",
+          "sources": [
+            {
+              "label": "创世军团出勤记录",
+              "url": "https://esi.evetech.net/latest/characters/2119060315/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "B",
+          "reason": "多账号高效做活动与速刷四级任务，自备充足测试与作战船只。",
+          "sources": [
+            {
+              "label": "总统大选速刷流程说明",
+              "url": "https://www.bilibili.com/video/BV1WcDHBfEGd/"
+            }
+          ]
+        }
+      }
+    }
   }
 }

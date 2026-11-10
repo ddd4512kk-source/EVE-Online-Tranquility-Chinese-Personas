@@ -109,7 +109,74 @@
       "脚本",
       "诈骗",
       "江湖恩怨"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T02:58:00Z",
+      "verdict": "六百余杀是老号履历，远征脚本和两边黑名单才是出圈名片。",
+      "axes": {
+        "shenren": {
+          "tier": "S",
+          "reason": "脚本把远征刷成他的专场，队伍产出也得按他的价回收；封号后换壳重开，旧生意又在新号名下开张。",
+          "sources": [
+            {
+              "label": "《震惊，frt联盟黑名单再加一人》",
+              "url": "https://tieba.baidu.com/p/10356363007"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "老号有613次击杀，常用缪宁与银鹰跟队，实战积累稳定；现有记录看不出多开、旗舰或单杀等突出战力。",
+          "sources": [
+            {
+              "label": "longgo china zKillboard",
+              "url": "https://zkillboard.com/character/2114242959/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "脚本抢远征、私群收货是生意组织，不是舰队带队；现有材料未见FC资质或实际指挥履历。",
+          "sources": [
+            {
+              "label": "《震惊，frt联盟黑名单再加一人》",
+              "url": "https://tieba.baidu.com/p/10356363007"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "E",
+          "reason": "FRT、帝国先后把他和小号拉进黑名单；小团体里的乔伊举报他，欠款对面追来，他回“不受威胁，不还”，连老打手都说他迟早爆雷。",
+          "sources": [
+            {
+              "label": "《震惊，frt联盟黑名单再加一人》",
+              "url": "https://tieba.baidu.com/p/10356363007"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "私群争夺远征流量，逼出联盟改规和拉黑；影响局部组织利益，但未见实际管理任职或更高层的权力经营。",
+          "sources": [
+            {
+              "label": "《震惊，frt联盟黑名单再加一人》",
+              "url": "https://tieba.baidu.com/p/10356363007"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "脚本垄断远征并建立打手网络低买高卖，自曝单月利润超200B，海星曾欲代售其500B资产，封号后另起整排名号持续经营，达规模化产业巨擘A级。",
+          "sources": [
+            {
+              "label": "《震惊，frt联盟黑名单再加一人》",
+              "url": "https://tieba.baidu.com/p/10356363007"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,

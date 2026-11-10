@@ -239,10 +239,77 @@
     "epithet": "请你开巨蟒来吃饭，一年后再来笑你。",
     "tags": [
       "低安",
-      "FC",
+      "著名FC",
       "B B C",
       "非华人"
-    ]
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-10T00:31:28Z",
+      "verdict": "低安安等常驻负十，专吃高价赛船开大席；饭局摆下请君入瓮，笑傲论坛十载留名。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "老派低安海盗老手，虽有请客吃饭钓鱼吃巨蟒发大笑动图的搞人心态举动，但属纯正 PVP 江湖风范，常人基准。",
+          "sources": [
+            {
+              "label": "官方论坛巨蟒求购回帖记录",
+              "url": "https://forums.eveonline.com/t/wtb-python/478201"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "S",
+          "reason": "一万三千多次击杀，安等常年 -10.0，Hydra Reloaded 赛队顶级单兵与小队竞技操作天花板。",
+          "sources": [
+            {
+              "label": "Bluemelon zKillboard",
+              "url": "https://zkillboard.com/character/889732885/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "A",
+          "reason": "PL 资深 FC 与 Hydra 赛队队长，低安特种袭扰、管道伏击与精英小队带队大师。",
+          "sources": [
+            {
+              "label": "Hydra 赛队锦标赛战绩",
+              "url": "https://evewho.com/character/889732885"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "A",
+          "reason": "全服低安海盗圈与锦标赛圈风云人物，“Thanks Blue”成为知名社区梗，极具个人特色。",
+          "sources": [
+            {
+              "label": "Bluemelon 人物简介",
+              "url": "https://esi.evetech.net/latest/characters/889732885/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "超然于 00 主权纷争之外，穿梭于各大低安海盗公司之间，专注于战术伏击与猎杀。",
+          "sources": [
+            {
+              "label": "军团雇佣记录",
+              "url": "https://evewho.com/character/889732885"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "EX",
+          "reason": "全服罕见的顶级 AT 赛船大亨，长期经营稀有舰船与高价装备，个人资产达数 T，评 EX。",
+          "sources": [
+            {
+              "label": "巨蟒等稀有舰船交易记录",
+              "url": "https://zkillboard.com/kill/128189469/"
+            }
+          ]
+        }
+      }
+    }
   },
   "identity": {
     "version": 1,
