@@ -28,7 +28,7 @@
 | 九州旧任管理者与封号角色 | 九州一世、二世分别对应 NINE Continent（98540691）和 Gaze into the Abyss（98614214）；白井主号 jita ezra（2114511818），NCT 历任 CEO 角色 kazuha shirai、Lynn Mich、lucy lilith 是其小号；2021-05 踢人争议时 CEO 角色 roses mary 对应简素言。两人均已收录。招新帖署名的 FC“小小白”即白井，已归入本人；旧事中其他被封账号仍未查到名字。 | 核对早期其他被封角色的游戏 ID、时间与事件细节。 | [人物素材](leads/yao-guang.json) |
 | 三明治 / 二五治 | 贴吧“一块三明治🌋”（uid 1678870349）；《二五之日》回忆录作者，2018 年在 RR 系；游戏角色未知 | 本人任一角色的准确名字 / ID？《二五之日》原帖在哪？ | [人物素材](leads/san-ming-zhi.json) |
 | 本地对喷未对应名字 | Dodgy Bob（786787363候选）、O'Nell Z、Jedi POMA、xiaonimeia、lingzai | 雪山飞鸟、雪域孤狼、浅空均暂不立传；娃娃已据B站创作与互动恢复列传；续查独立故事、剩余身份与具体战事背景 | [共享材料](sources/4h-local-dispute.json) |
-| 麦克EVE／兔子舰队CEO | UID 6797798064，2025年五月建团日记与同UID招新；招新承诺改口、骨干流失、后来AFK的参与者说法已归档，角色完全未对应。 | 五月／六月招新署名及本人游戏角色；不与手游同名者合并。 | [建团日记素材](leads/tieba-corp-diaries.json) |
+| 麦克EVE／兔子舰队CEO | UID 6797798064，2025年五月建团日记与同UID招新；招新承诺改口、骨干流失、后来AFK的参与者说法已归档，角色完全未对应。 | 三篇招新无游戏署名；本人自述高安运输号与杆子团主号。已核Sundayclouds与狂野卫队后继招新，继续查英文团名及旧兔子舰队角色桥接，不由现任CEO反认麦克；不与手游同名者合并。 | [建团日记素材](leads/tieba-corp-diaries.json) |
 | 新八吃鸡区出逃军团 CEO 天文仪 | 天文仪（贴吧账号） | 游戏角色待查；贴吧 11175031125 记述 BOSS 瓦解与流亡 DC 经过；文中王哒哒为已收录人物[王答答](../src/people/drone-wang/materials-drone-wang.json)（charon1） | [战局与出逃线索](leads/siseide-lowsec-and-boss-2026.json) |
 
 ## 二、事件与回帖人物（角色多未对应）
@@ -68,6 +68,7 @@
 
 | 人物 / 问题 | 候选或关联线索 | 待核对问题 | 素材 |
 | --- | --- | --- | --- |
+| 折木／Charly OUO（2121856723） | 官网 CFO／兼任 FC 介绍；已有身份与战绩快照 | 已撤传；只有职务介绍，待本人具体故事再收录 | [线索](leads/charly-ouo.json) |
 | 浩／teleportor（704527521） | 军团内部后勤／外交自述与普通参战 | 已撤传；缺独立人物故事，内部岗位不适用管理者收录例外 | [线索](leads/teleportor.json) |
 | 茅台／sven lestart（91599501） | OSY头衔、普通战斗日志与榜单 | 已撤传；并非实际FC，自称头衔不再作指挥依据，待独立故事 | [线索](leads/sven-lestart.json) |
 | 小小苏／fpsless Guo（2114750098），小号Moon Guo | CFO头衔、角色竞价、KM收藏、PLA拆星城与欧贝跟队 | 已撤传；CFO属内部岗位，不适用管理者例外，缺独立故事 | [线索](leads/fpsless-guo.json) |

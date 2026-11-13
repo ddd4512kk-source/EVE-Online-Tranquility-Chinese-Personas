@@ -1,0 +1,128 @@
+{
+  "status": "reviewed",
+  "note": "核对主号、小号与代表战役；综合战绩红料位于开篇后，个人与舰队战果边界清楚。",
+  "evidence": [
+    "src/people/freakdog-otto/materials-freakdog-otto.json",
+    "src/people/freakdog-otto/freakdog-otto.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "正文只用概数概括主号战绩；素材明确区分2026-10-23的1041/362快照与旧1005记录，未混用时间点，也未把联盟战果归到个人。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "heading": "### 游戏数据"
+        },
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "contains": "主号1041击杀／362损失／2697269152259 ISK（2026-10-23）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Arthur Prometheus作为已确认小号单列；材料分别列主号、小号统计和艾蒂斯、艾格玛尔、4-H、萨托加斯参与，不把战绩相加，也不把未知同步器角色冒认为小号。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "contains": "已确认小号516／246／609680610189（2026-11-01）"
+        },
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "他的小号 Arthur Prometheus 也有数百次击杀"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "核过2026年4月峰值月份及艾蒂斯代表KM；正文把增值归于参与联盟大战，并明确不将整场舰队账算作金主个人本领。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "contains": "2026-04 击杀 2258B"
+        },
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "那个月参与击毁价值猛涨，靠的是进了联盟大战的火线"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "战役对照按主号/小号归属：4-H仅主号记录、整窗969B不归个人；艾格玛尔属小号，艾蒂斯两号皆有记录，萨托加斯奇美拉是主号损失。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "contains": "已有四场战役按自然人核对：艾蒂斯主小号均在，艾格玛尔为小号，4-H为主号，萨托加斯主号有损失。"
+        },
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "heading": "## 2026-04-25 北方大型战役"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战绩红料紧接开篇，兼顾主号、小号和具体战役，明确集体战果边界，综合点评把金主与舰队普通一员并置。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "奥托的[战绩](https://zkillboard.com/character/97259613/)有上千次击杀、百余次单杀"
+        },
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "钱怎样花，他能写一大篇；队伍真集结起来，自己又坐回一个具体的舰队位置。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/corporations/notes/member-research/98613748.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
+    "src/people/freakdog-otto/97259613-id.json",
+    "src/people/freakdog-otto/freakdog-otto.md",
+    "src/people/freakdog-otto/materials-freakdog-otto.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
+    "src/battles/arnher-2026/arnher-2026.json",
+    "src/battles/arnher-2026/arnher-2026.md",
+    "src/battles/arnher-2026/materials-arnher-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.json"
+  ],
+  "inputs": "90434d66a428585a7ea28d104a327f04832e78301fd38bdf6d7bb846e8510fae",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/corporations/notes/member-research/98613748.json": "9af436bc247a2f3b29cc8a3f6ade7adc2ab4a2be480eb7bfcff22e00c9d95971",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "280eef9eb1d0f7d5d3711d524055d7b5d6aae1a842a69458c659599b1de5dbec",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "src/people/freakdog-otto/97259613-id.json": "e70a6ef26cc760be23440dac5857507a3255e00bfcb5cf5c9fb933fa0322bd83",
+    "src/people/freakdog-otto/freakdog-otto.md": "443c52a848048a5a4a0bb7afbfb87dfeb0323f79c780d6b53dc3bc5cd5831486",
+    "src/people/freakdog-otto/materials-freakdog-otto.json": "490b12c560e691f02586f23420dcf22fae8864eb12e55805130454c650ff7ed9",
+    "battle:4-hwwf-8tpx-n-2026": "5969928ee296e24c3e691ca518157de92691797d18c2e30df6ce6fc0bfaf0f8c",
+    "battle:arnher-2026": "08bd4be86a590e922dbb68dc449372fde0f46b578f34f4f09d47029d1e26eccd",
+    "battle:atioth-2026": "05b470dd0bf8905417b4e9c66eac50ba43b45c10b63e1ff922edc4a8b2c60fc9",
+    "battle:egmar-2025-02-23": "48a36d87b054e75f3fa1b25b4872c2e238c2137ceb8ef61fdb24f405967c82b8",
+    "battle:sahtogas-2026": "df6d7c57460cfacbfbbe61f5aee3e9df4ca0339df51e6b7ee547dc9450fc2523"
+  },
+  "level": 1
+}

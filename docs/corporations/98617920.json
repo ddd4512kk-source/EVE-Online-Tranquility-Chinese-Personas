@@ -1,0 +1,633 @@
+{
+  "version": 1,
+  "kind": "corporation",
+  "id": "98617920",
+  "names": [
+    "Advanced Weapon Supplement League",
+    "先进武器补给联盟"
+  ],
+  "rankings": [
+    {
+      "scope": "all-time",
+      "period": null,
+      "target": 100,
+      "purpose": "hint",
+      "refresh": "never",
+      "source": "https://zkillboard.com/api/stats/corporationID/98617920/kills/",
+      "captured_on": "2026-11-13",
+      "acquisition": {
+        "state": "captured",
+        "available_count": 100,
+        "note": "取得 stats 返回的 topAllTime 角色榜 100 项；完整覆盖Top100。"
+      },
+      "references": [
+        "docs/corporations/notes/member-research/98617920.json"
+      ],
+      "entries": [
+        {
+          "rank": 1,
+          "character_id": "2114161533",
+          "kills": "2039",
+          "isk": "2655371586006.7905"
+        },
+        {
+          "rank": 2,
+          "character_id": "2113486903",
+          "kills": "1573",
+          "isk": "4148805024160.588"
+        },
+        {
+          "rank": 3,
+          "character_id": "2112943516",
+          "kills": "1107",
+          "isk": "849052913540.2917"
+        },
+        {
+          "rank": 4,
+          "character_id": "2113053705",
+          "kills": "1088",
+          "isk": "403213937677.15"
+        },
+        {
+          "rank": 5,
+          "character_id": "2113941494",
+          "kills": "987",
+          "isk": "5906809832264.893"
+        },
+        {
+          "rank": 6,
+          "character_id": "2113903082",
+          "kills": "643",
+          "isk": "161533364597.94"
+        },
+        {
+          "rank": 7,
+          "character_id": "2118298521",
+          "kills": "338",
+          "isk": "628291079911.58"
+        },
+        {
+          "rank": 8,
+          "character_id": "2113063653",
+          "kills": "331",
+          "isk": "745369148886.1276"
+        },
+        {
+          "rank": 9,
+          "character_id": "2113903075",
+          "kills": "329",
+          "isk": "578870873805.5797"
+        },
+        {
+          "rank": 10,
+          "character_id": "2113967049",
+          "kills": "273",
+          "isk": "1363961101691.348"
+        },
+        {
+          "rank": 11,
+          "character_id": "2114970034",
+          "kills": "224",
+          "isk": "56461274867.69"
+        },
+        {
+          "rank": 12,
+          "character_id": "2117863729",
+          "kills": "213",
+          "isk": "709082716478.47"
+        },
+        {
+          "rank": 13,
+          "character_id": "2115476745",
+          "kills": "185",
+          "isk": "79963815129.48"
+        },
+        {
+          "rank": 14,
+          "character_id": "2122725110",
+          "kills": "124",
+          "isk": "1237006374226.1"
+        },
+        {
+          "rank": 15,
+          "character_id": "2114736465",
+          "kills": "104",
+          "isk": "27889679135.4"
+        },
+        {
+          "rank": 16,
+          "character_id": "2115494909",
+          "kills": "100",
+          "isk": "628465599507.155"
+        },
+        {
+          "rank": 17,
+          "character_id": "2118755235",
+          "kills": "96",
+          "isk": "70195472838.28"
+        },
+        {
+          "rank": 18,
+          "character_id": "2114259244",
+          "kills": "92",
+          "isk": "16796981250.51"
+        },
+        {
+          "rank": 19,
+          "character_id": "2113137683",
+          "kills": "88",
+          "isk": "2464537466690.387"
+        },
+        {
+          "rank": 20,
+          "character_id": "2113059173",
+          "kills": "78",
+          "isk": "231923598780.18"
+        },
+        {
+          "rank": 21,
+          "character_id": "2114231777",
+          "kills": "66",
+          "isk": "111872400189.85437"
+        },
+        {
+          "rank": 22,
+          "character_id": "2114212660",
+          "kills": "64",
+          "isk": "107752623959.91336"
+        },
+        {
+          "rank": 23,
+          "character_id": "2122114115",
+          "kills": "64",
+          "isk": "22018796254.39"
+        },
+        {
+          "rank": 24,
+          "character_id": "2112733487",
+          "kills": "59",
+          "isk": "34774019940.64"
+        },
+        {
+          "rank": 25,
+          "character_id": "2113281809",
+          "kills": "57",
+          "isk": "725738932385.9451"
+        },
+        {
+          "rank": 26,
+          "character_id": "2113306690",
+          "kills": "57",
+          "isk": "13368206792.85"
+        },
+        {
+          "rank": 27,
+          "character_id": "2122259698",
+          "kills": "54",
+          "isk": "260145875116.37"
+        },
+        {
+          "rank": 28,
+          "character_id": "2116547899",
+          "kills": "47",
+          "isk": "5519049208.15"
+        },
+        {
+          "rank": 29,
+          "character_id": "2116375410",
+          "kills": "43",
+          "isk": "193795010798.19998"
+        },
+        {
+          "rank": 30,
+          "character_id": "2115096746",
+          "kills": "40",
+          "isk": "18975322527.41"
+        },
+        {
+          "rank": 31,
+          "character_id": "2118555091",
+          "kills": "34",
+          "isk": "303131616202.1"
+        },
+        {
+          "rank": 32,
+          "character_id": "2114879567",
+          "kills": "34",
+          "isk": "416417123.69"
+        },
+        {
+          "rank": 33,
+          "character_id": "2114879582",
+          "kills": "34",
+          "isk": "416303651.83"
+        },
+        {
+          "rank": 34,
+          "character_id": "2114879557",
+          "kills": "33",
+          "isk": "415823806.07"
+        },
+        {
+          "rank": 35,
+          "character_id": "2114879573",
+          "kills": "33",
+          "isk": "375947960.53"
+        },
+        {
+          "rank": 36,
+          "character_id": "2114311425",
+          "kills": "31",
+          "isk": "60413985.910000004"
+        },
+        {
+          "rank": 37,
+          "character_id": "2114230136",
+          "kills": "30",
+          "isk": "60085597.34"
+        },
+        {
+          "rank": 38,
+          "character_id": "2114865661",
+          "kills": "29",
+          "isk": "2986368377.4100003"
+        },
+        {
+          "rank": 39,
+          "character_id": "2114029293",
+          "kills": "29",
+          "isk": "13677824.37"
+        },
+        {
+          "rank": 40,
+          "character_id": "2112657392",
+          "kills": "28",
+          "isk": "12854460408.03"
+        },
+        {
+          "rank": 41,
+          "character_id": "2112529525",
+          "kills": "28",
+          "isk": "2716671931.69"
+        },
+        {
+          "rank": 42,
+          "character_id": "2114865683",
+          "kills": "25",
+          "isk": "11853482.9"
+        },
+        {
+          "rank": 43,
+          "character_id": "96489212",
+          "kills": "22",
+          "isk": "413678878342.65"
+        },
+        {
+          "rank": 44,
+          "character_id": "2112953252",
+          "kills": "22",
+          "isk": "339000338760.29004"
+        },
+        {
+          "rank": 45,
+          "character_id": "2116438087",
+          "kills": "22",
+          "isk": "6020219458.78"
+        },
+        {
+          "rank": 46,
+          "character_id": "2116190595",
+          "kills": "21",
+          "isk": "3940930184.68"
+        },
+        {
+          "rank": 47,
+          "character_id": "2122277902",
+          "kills": "20",
+          "isk": "3895832175.64"
+        },
+        {
+          "rank": 48,
+          "character_id": "2115768523",
+          "kills": "18",
+          "isk": "284431133004.24"
+        },
+        {
+          "rank": 49,
+          "character_id": "2115175868",
+          "kills": "18",
+          "isk": "1185023433.6799998"
+        },
+        {
+          "rank": 50,
+          "character_id": "2116015782",
+          "kills": "17",
+          "isk": "441300740108.19"
+        },
+        {
+          "rank": 51,
+          "character_id": "2122386006",
+          "kills": "17",
+          "isk": "7285302700.04"
+        },
+        {
+          "rank": 52,
+          "character_id": "2122243204",
+          "kills": "15",
+          "isk": "3071947773.74"
+        },
+        {
+          "rank": 53,
+          "character_id": "2114605288",
+          "kills": "14",
+          "isk": "1657966926.49"
+        },
+        {
+          "rank": 54,
+          "character_id": "2113712845",
+          "kills": "13",
+          "isk": "659804884152.02"
+        },
+        {
+          "rank": 55,
+          "character_id": "2116751718",
+          "kills": "13",
+          "isk": "11941272099.6"
+        },
+        {
+          "rank": 56,
+          "character_id": "2122218047",
+          "kills": "11",
+          "isk": "234652332266.41"
+        },
+        {
+          "rank": 57,
+          "character_id": "2122279966",
+          "kills": "11",
+          "isk": "3515974873"
+        },
+        {
+          "rank": 58,
+          "character_id": "2115074735",
+          "kills": "11",
+          "isk": "304032597.52"
+        },
+        {
+          "rank": 59,
+          "character_id": "2113450902",
+          "kills": "10",
+          "isk": "29541543921.929996"
+        },
+        {
+          "rank": 60,
+          "character_id": "2114643771",
+          "kills": "10",
+          "isk": "15930748193.63"
+        },
+        {
+          "rank": 61,
+          "character_id": "2115516829",
+          "kills": "10",
+          "isk": "508486003.81"
+        },
+        {
+          "rank": 62,
+          "character_id": "2113709603",
+          "kills": "10",
+          "isk": "5079572.13"
+        },
+        {
+          "rank": 63,
+          "character_id": "2122803002",
+          "kills": "9",
+          "isk": "1982742850.1399999"
+        },
+        {
+          "rank": 64,
+          "character_id": "2114451371",
+          "kills": "9",
+          "isk": "1156545354.71"
+        },
+        {
+          "rank": 65,
+          "character_id": "2115244109",
+          "kills": "8",
+          "isk": "3495706.67"
+        },
+        {
+          "rank": 66,
+          "character_id": "2115029736",
+          "kills": "7",
+          "isk": "4161901817.25"
+        },
+        {
+          "rank": 67,
+          "character_id": "2114800076",
+          "kills": "7",
+          "isk": "771105008.57"
+        },
+        {
+          "rank": 68,
+          "character_id": "2119442605",
+          "kills": "6",
+          "isk": "293215453935.86"
+        },
+        {
+          "rank": 69,
+          "character_id": "2114226595",
+          "kills": "6",
+          "isk": "2294845067.3700004"
+        },
+        {
+          "rank": 70,
+          "character_id": "2114044082",
+          "kills": "6",
+          "isk": "673422870.21"
+        },
+        {
+          "rank": 71,
+          "character_id": "2115095735",
+          "kills": "6",
+          "isk": "240497674.27"
+        },
+        {
+          "rank": 72,
+          "character_id": "2123460958",
+          "kills": "6",
+          "isk": "85490438.2"
+        },
+        {
+          "rank": 73,
+          "character_id": "2114598560",
+          "kills": "5",
+          "isk": "1059649870.26"
+        },
+        {
+          "rank": 74,
+          "character_id": "2115116119",
+          "kills": "5",
+          "isk": "505636539.48"
+        },
+        {
+          "rank": 75,
+          "character_id": "90179426",
+          "kills": "5",
+          "isk": "2237065.68"
+        },
+        {
+          "rank": 76,
+          "character_id": "2115153696",
+          "kills": "4",
+          "isk": "5385097234.56"
+        },
+        {
+          "rank": 77,
+          "character_id": "2115053044",
+          "kills": "4",
+          "isk": "1550741075.94"
+        },
+        {
+          "rank": 78,
+          "character_id": "2122696325",
+          "kills": "4",
+          "isk": "1439583046.36"
+        },
+        {
+          "rank": 79,
+          "character_id": "2122696342",
+          "kills": "4",
+          "isk": "1439583046.36"
+        },
+        {
+          "rank": 80,
+          "character_id": "2122696306",
+          "kills": "4",
+          "isk": "1439583046.36"
+        },
+        {
+          "rank": 81,
+          "character_id": "2115246921",
+          "kills": "4",
+          "isk": "1225386463.4"
+        },
+        {
+          "rank": 82,
+          "character_id": "2112640257",
+          "kills": "4",
+          "isk": "912356171.79"
+        },
+        {
+          "rank": 83,
+          "character_id": "93470559",
+          "kills": "4",
+          "isk": "223342384.06"
+        },
+        {
+          "rank": 84,
+          "character_id": "1062024041",
+          "kills": "4",
+          "isk": "101925419.37"
+        },
+        {
+          "rank": 85,
+          "character_id": "2122696364",
+          "kills": "3",
+          "isk": "1148493603.6599998"
+        },
+        {
+          "rank": 86,
+          "character_id": "2116098565",
+          "kills": "3",
+          "isk": "786833820.89"
+        },
+        {
+          "rank": 87,
+          "character_id": "2116359485",
+          "kills": "3",
+          "isk": "744144628.75"
+        },
+        {
+          "rank": 88,
+          "character_id": "2120369533",
+          "kills": "3",
+          "isk": "561593055.14"
+        },
+        {
+          "rank": 89,
+          "character_id": "96280552",
+          "kills": "3",
+          "isk": "95777091.18"
+        },
+        {
+          "rank": 90,
+          "character_id": "94502567",
+          "kills": "2",
+          "isk": "28777629033.51"
+        },
+        {
+          "rank": 91,
+          "character_id": "2114506220",
+          "kills": "2",
+          "isk": "8414122447.570001"
+        },
+        {
+          "rank": 92,
+          "character_id": "2118883483",
+          "kills": "2",
+          "isk": "3047035578.64"
+        },
+        {
+          "rank": 93,
+          "character_id": "2122249292",
+          "kills": "2",
+          "isk": "1530721745.9199998"
+        },
+        {
+          "rank": 94,
+          "character_id": "2114605360",
+          "kills": "2",
+          "isk": "1094340453.48"
+        },
+        {
+          "rank": 95,
+          "character_id": "2117330312",
+          "kills": "2",
+          "isk": "331595155.13"
+        },
+        {
+          "rank": 96,
+          "character_id": "2115307294",
+          "kills": "2",
+          "isk": "307934880.88"
+        },
+        {
+          "rank": 97,
+          "character_id": "2114931657",
+          "kills": "2",
+          "isk": "164081632.93"
+        },
+        {
+          "rank": 98,
+          "character_id": "2113791641",
+          "kills": "2",
+          "isk": "99668602.1"
+        },
+        {
+          "rank": 99,
+          "character_id": "2123850527",
+          "kills": "2",
+          "isk": "98410610.25"
+        },
+        {
+          "rank": 100,
+          "character_id": "93150455",
+          "kills": "2",
+          "isk": "20648144.71"
+        }
+      ]
+    }
+  ],
+  "account_groups": [],
+  "observations": [],
+  "references": []
+}

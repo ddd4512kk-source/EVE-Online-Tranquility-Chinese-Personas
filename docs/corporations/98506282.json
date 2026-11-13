@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "kind": "corporation",
+  "id": "98506282",
+  "names": [
+    "The Apache Foundation"
+  ],
+  "rankings": [
+    {
+      "scope": "all-time",
+      "period": null,
+      "target": 100,
+      "purpose": "hint",
+      "refresh": "never",
+      "source": "https://zkillboard.com/api/stats/corporationID/98506282/kills/",
+      "captured_on": "2026-11-13",
+      "acquisition": {
+        "state": "unknown",
+        "available_count": 0,
+        "note": "HTTP 200响应中 topAllTime 未提供角色榜（字段为null或缺失）；榜单覆盖未知，未按零处理。"
+      },
+      "references": [
+        "docs/corporations/notes/member-research/98506282.json"
+      ],
+      "entries": []
+    }
+  ],
+  "account_groups": [],
+  "observations": [],
+  "references": []
+}

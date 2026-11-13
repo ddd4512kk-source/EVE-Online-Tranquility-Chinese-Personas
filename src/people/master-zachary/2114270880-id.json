@@ -78,7 +78,17 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2114595477,
+        "name": "Kuroda Kanbee",
+        "basis": "完整公开名片头衔“扎克”对应扎克，军团98802264与本人当前／历史军团吻合。",
+        "sources": [
+          "materials-master-zachary.json#军团名片身份对应",
+          "https://esi.evetech.net/latest/characters/2114595477/"
+        ]
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 0,
@@ -90,9 +100,7 @@
   },
   "person": {
     "cn_name": "扎克",
-    "aliases": [
-      "Kuroda Kanbee"
-    ],
+    "aliases": [],
     "epithet": "带人出走找乐子，自己先退游散了场。",
     "tags": [
       "00区",

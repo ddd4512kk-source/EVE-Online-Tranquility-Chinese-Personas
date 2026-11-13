@@ -1,0 +1,351 @@
+{
+  "status": "reviewed",
+  "note": "重料已展开，平衡合理",
+  "evidence": [
+    "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+    "src/people/gelanchuan-erata/gelanchuan-erata.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "素材中的独立事件均已入文：纳瓦拉满编缪宁与带跳失误（战后总结）、塔夫、北方、埃加奥、M2-XFE、3V 起家与建号时间线、2020 泰坦尾盘、地板群“先别急”、格蓝重组队外号、3V 防空警告。事件骨架均有出处（社区口述的外号事件素材已登记为中等强度，正文只写骨架）；Todifrauan 仅为一般参战，素材已声明不另立料块。引用的战报原话（“星星格兰川组了一支满编双喷注缪宁……”“犯了FC都会犯的错误……”“战歌与格兰川得把队伍带起来”）均能在仓库对应文件中找到。小注：地板群一块里“核实对方已道歉”指带鱼已道歉，措辞略简，不影响骨架。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-11-14：3V 起家、2020 年泰坦尾盘与 M2-XFE"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-11-14：“格蓝重组队”外号来历"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 格兰川 / GeLanChuan Erata"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "2026 年 5 月的芙水之乱"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "两件 heavy：格蓝重组队外号事件、带跳带到铁壁零米；其余为 ordinary/light。heavy 均已展开并有三个以上方向。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "3V 驻守钴蓝的那段日子"
+        }
+      ],
+      "items": [
+        {
+          "title": "格蓝重组队外号来历",
+          "weight": "heavy",
+          "reason": "指挥翻车直接放走一支舰队，并催生本人外号，是全文最有故事性的一块黑料。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 2026-11-14：“格蓝重组队”外号来历"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "3V 驻守钴蓝的那段日子"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "3V 驻钴蓝，轻拦咬着 INIT 舰队尾巴，连分战利品都盘算好了。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "3V 驻守钴蓝的那段日子"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "已追到嘴边，却因一声重新组队掉头，煮熟的鸭子飞了。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "煮熟的鸭子飞进了别人的空间站"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "轻拦驾驶员一句调侃，外号由此而来。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "轻拦驾驶员气得在频道里"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "“别人抓捕是追击，他的抓捕是先把队伍重新组一遍”，并在评语中回扣。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "格兰川是混沌仲裁的老牌缪"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "素材为口述无 KM，正文骨架与素材一致，场面为叙述展开。"
+        },
+        {
+          "title": "带跳带到敌方铁壁零米",
+          "weight": "heavy",
+          "reason": "战后总结点名的指挥失误，有原话佐证。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 格兰川 / GeLanChuan Erata"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "同一篇战报也记下了失误："
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "盟主先带队跳错，开了先河，随后格兰川也犯。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "同一篇战报也记下了失误："
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "“我30人”对“他满编”，同一个坑他填得更满。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "盟主带 30 人跳错"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "本该踩脸的拳头落进对方火力圈，整队被倒计时数血条。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "满编的缪宁队落在对方铁壁的零米处"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "此后每次点跳前多看一眼坐标，写进老 FC 的稳扎稳打。",
+              "evidence": {
+                "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+                "contains": "纳瓦拉那晚，他和星星拉起满编缪宁队"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "不把整场损失归他，写明盟主同犯，符合素材边界。"
+        },
+        {
+          "title": "纳瓦拉满编缪宁队",
+          "weight": "ordinary",
+          "reason": "战后总结的分工记载，有原话。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 格兰川 / GeLanChuan Erata"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "2022 年春节初四的纳"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "原话引用并交代对手与盟主配合，足够。"
+        },
+        {
+          "title": "建号两天进 VVV，一周进混沌",
+          "weight": "ordinary",
+          "reason": "军团时间线与 3V 迁服背景。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 2026-11-14：3V 起家、2020 年泰坦尾盘与 M2-XFE"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "2019 年 7 月，国服的 3V"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "日期与素材一致。"
+        },
+        {
+          "title": "2020 年泰坦尾盘与 M2-XFE",
+          "weight": "ordinary",
+          "reason": "KB 峰值解释与跨年大战参与。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 2026-11-14：3V 起家、2020 年泰坦尾盘与 M2-XFE"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "2020 年 2、3 月是他 KB 最肥"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "明确写成集体战果，不作个人战功。"
+        },
+        {
+          "title": "地板群里劝先别急",
+          "weight": "light",
+          "reason": "仅一句劝话，素材强度低。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 2026-11-14：3V 起家、2020 年泰坦尾盘与 M2-XFE"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "2026 年 5 月的芙水之乱"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "轻量处理合适。"
+        },
+        {
+          "title": "3V 防空识别区简介",
+          "weight": "ordinary",
+          "reason": "简介警告与 3V 兴衰。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 外文原话原文（2026-10-24 正文译中留档）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "格兰川的角色简介开头是一"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "原话与译文对应，3V 背景有贴吧出处。"
+        },
+        {
+          "title": "塔夫、埃加奥与北方战役的参战",
+          "weight": "ordinary",
+          "reason": "近期大型战役经历，有 KM。",
+          "source": {
+            "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+            "heading": "## 2026-10-11：Taff 大型战役"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+            "contains": "他也不是只会坐在指挥位上"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "普通战损不当黑料，处理正确。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主线是缪宁队老 FC；两件重料（外号事件、带跳失误）各占独立块且篇幅与素材相称，评语回扣外号与带跳满编，轻事件不抢分量。相对 HEAD 旧稿（约 4KB）正文明显加长，无料块变短。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "格兰川是混沌仲裁的老牌缪"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "格兰川的 KB 是一本重突人的账"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/corporations/notes/member-research/98524084.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/chersea.json",
+    "docs/leads/cute-catttt.json",
+    "docs/leads/esther-annabelle.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/man-in-rainy.json",
+    "docs/leads/mikoyan-anzomi.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/fushui-zhiluan-2026-05.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
+    "src/people/gelanchuan-erata/2115478949-id.json",
+    "src/people/gelanchuan-erata/gelanchuan-erata.md",
+    "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.md",
+    "src/battles/x47l-q-2023-03/materials-x47l-q-2023-03.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.json"
+  ],
+  "inputs": "395ce4296352036b065bea5f22e2dbcb7755c83e200e12fefb9237dce9fb14fd",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/corporations/notes/member-research/98524084.json": "b8c3fc4de4c29c2613eaa2407ce4c61b00a59542e996b350f17f56adee7aefd6",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/chersea.json": "77b16913a937fb2703fb7525f1af3189c66690f817ea82e7fd7fd4d3e099fb72",
+    "docs/leads/cute-catttt.json": "455ee927e0bb988daaaa6ec81d510569f33dc263966ebdabdaedf84f8c92dd5b",
+    "docs/leads/esther-annabelle.json": "da6f06bea4fc0f1072d4bfdc8620557c3ab2eb9a678343907752e64c277642b8",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/man-in-rainy.json": "5e5da9e37e08f0ca360d934b1ff3f5de2cba7ee251013c08e525df0c43b0830c",
+    "docs/leads/mikoyan-anzomi.json": "dac0d9f48e7d4ecdc8b3eb51c674a269bc7b2256bc3e61abba0d24efd17dd0f7",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/fushui-zhiluan-2026-05.json": "79eba2c1f8d98832d832de3e5766b1860afd450f280cd22c0d2c101fc27dcdf6",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "src/people/gelanchuan-erata/2115478949-id.json": "8b7331366b871a1f4fd73331f771b292974822d90a2574ec02f980cf3234cb7c",
+    "src/people/gelanchuan-erata/gelanchuan-erata.md": "604a2a4f0d9b0471bf2b9a72ca44528d17de0eb9c4b7bf7e89fee24bb178e144",
+    "src/people/gelanchuan-erata/materials-gelanchuan-erata.json": "70cf9bbb67fb2a6cb288fffec9ddb6c574eced126c1dd7083272c439d0af3870",
+    "battle:4-hwwf-8tpx-n-2026": "c359c5037dd7f2e609758655816e108f10d28f61c00629ab3efcc60043782139",
+    "battle:ahbazon-2024": "0d62ad077ddd63645ed4d62a9d1c06ecc94bd2f95e6f06bddcf3139eb0a1b994",
+    "battle:akkio-2026": "db39869c172bada34d4ad4268b9faf726e2ed99422244e8456a2ec2a0d32be44",
+    "battle:atioth-2026": "6d86684bb99026b1c0abe5d6c15b504b0c1d65c7cefbce4c29a5f997a50f40ce",
+    "battle:fwst-8-2020": "c63c6d54ad3da0e0e60a82753d06f0f3ac0b1da356faf82ec500c00e1d12517a",
+    "battle:m-md31-2026": "dd66d391555e1731751cb5f55a5ac1cc08e6f638624967f8c06da8fe042c53cb",
+    "battle:m2-xfe-2020": "bc9ffe5bf2db133230e53e5ecc39fae46e5e0fe9d3ca0ced7bc7d3daca7665ff",
+    "battle:m2-xfe-breakout-2021": "5abc7a3183fb9589272264f4e3f75ccf6959373998f96466f5de74726c00a17c",
+    "battle:taff-2026": "fc6f6c5525436ed194e6d7d6d8dcb8b4bebd8e72b9c4c20e7b31339feb04e312",
+    "battle:todifrauan-2025": "7d718c3ddd1f39188a74dd8e0e374538c064587df386968f531880a171f03d1f",
+    "battle:x47l-q-2023": "f57b7de7fb5f3524f160df3268078e2e45915457edb01f1cc5982b1c55ea3f2f",
+    "battle:x47l-q-2023-03": "ce53a50ba018003d5515fb3133562964b96902a9be25a2fcc43d05282f4b6586",
+    "battle:zz-zwc-2026": "fce3a089ee250b9123f1f2d13e4bbac6fe4ea91e140a69f47b4089e7adc9bc47"
+  },
+  "level": 1
+}

@@ -4,16 +4,64 @@
   "url": "https://tieba.baidu.com/p/10210025073",
   "title": "新生C卫队势力战争团招新",
   "published_date": "2025-11-13",
-  "references": [],
+  "references": [
+    "docs/leads/tieba-corp-diaries.json"
+  ],
   "legacy_records": [],
   "review": {
-    "status": "unread",
-    "read_at": null,
-    "notes": [],
-    "evidence": []
+    "status": "partial",
+    "read_at": "2026-11-13",
+    "notes": [
+      "正反各1页、14主楼无楼中楼文字通读，作者Sundayclouds稳定UID与兔子舰队日记参与者相同；首楼自报狂野卫队及游戏邮件联系人hope Amipular。#2图未读，不保存QQ；尚不能对应麦克主号。"
+    ],
+    "evidence": [
+      "docs/leads/tieba-corp-diaries.json#新人建团日记202505起-麦克eve"
+    ]
   },
   "discovery": {
     "scan_id": "recruit-tab-2026-11-06",
     "scope": "招募专区列表入口，仅见标题与首楼摘要，未读全文不升级状态"
+  },
+  "acquisition": {
+    "cache": ".cache/material-use-first-batch/10210025073.json",
+    "fetched_at": "2026-11-13T13:52:26.610Z",
+    "main_posts": 14,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
   }
 }

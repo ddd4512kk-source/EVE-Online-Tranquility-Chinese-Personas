@@ -100,7 +100,7 @@ node scripts/bilibili-archive.mjs register <UID> <账号名>           # 只有U
 npm run bilibili:sync
 ```
 
-`capture`受请求守卫单次30次限制，触顶即停、已写出的文件保留，未取得的不算失效。新UID只按`candidate`登记，人物对应仍人工判断。作品或账号已失效时写入`unavailable.json`（`"编号": "原因"`）。b23.tv短链离线无法识别，先还原成BV再入档。
+`capture`受请求守卫单次30次限制，触顶即停、已写出的文件保留，未取得的不算失效。新UID只按`candidate`登记，人物对应仍人工判断。作品或账号已失效时写入`unavailable.json`，核过与EVE无关的（如名片里挂的歌曲、主播）写入`ignored.json`，格式都是`"编号": "原因"`；两表里的编号不再报未登记。b23.tv短链离线无法识别，先还原成BV再入档。
 
 导入也接受Chrome作品页结果；再导入不回退人工阅读状态，也不覆盖旧简介。
 

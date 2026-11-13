@@ -1,0 +1,213 @@
+{
+  "status": "reviewed",
+  "note": "核对完整正文、事件来源与发挥；NSGY重料展开充分，两场日常指挥简并进战绩块。",
+  "evidence": [
+    "src/people/jj-soulmate/materials-jj-soulmate.json",
+    "src/people/jj-soulmate/jj-soulmate.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照正文、人物素材与UID作品摘要，核心事件均有出处；战役与数字有来源。两场日常战斗按附带BR和digest归纳，不采用标题人数作统计；精选只作静寂谷题材入口，没有断言驾驶员。",
+      "evidence": [
+        {
+          "file": "src/people/jj-soulmate/materials-jj-soulmate.json",
+          "heading": "## B站账号与北军指挥对应"
+        },
+        {
+          "file": "src/people/jj-soulmate/materials-jj-soulmate.json",
+          "heading": "### 待修订：2024 年 NSGY 铁壁事件（涉账号使用指控，待确认能否写入正文）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "NSGY借号转移铁壁为重料，写足背景、质问与回应、损失补偿和前线勤奋反差；两场影像附带BR日常指挥为轻量例子，融入红料，不另立重料。",
+      "evidence": [
+        {
+          "file": "src/people/jj-soulmate/jj-soulmate.md",
+          "contains": "2024 年 3 月底，汉兰达离开 DC 去了 PH 的 Profane Proverb。"
+        }
+      ],
+      "items": [
+        {
+          "title": "NSGY借号转移两座铁壁",
+          "weight": "heavy",
+          "reason": "好友出借账号、争执后资产转移和敌对转团引出重大信任冲突，构成人物主线黑料。",
+          "source": {
+            "file": "src/people/jj-soulmate/materials-jj-soulmate.json",
+            "heading": "### 待修订：2024 年 NSGY 铁壁事件（涉账号使用指控，待确认能否写入正文）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/jj-soulmate/jj-soulmate.md",
+            "contains": "据 DC 下 NSGY 军团的管理和团员在"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "从DC转去PH后，借号好友不愿随行，双方关系与转团冲突同时出现。",
+              "evidence": {
+                "file": "src/people/jj-soulmate/jj-soulmate.md",
+                "contains": "一个多月后，正主的故事出来了。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "前线持续带队与搬走旧团铁壁并置，勤奋FC形象带上后台争议。",
+              "evidence": {
+                "file": "src/people/jj-soulmate/jj-soulmate.md",
+                "contains": "汉兰达带队勤快，搬家也勤快；两座铁壁一转，朋友就多了一件要记住的事。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "帖内有当面质问、本人回应，也记到团员称损失全补。",
+              "evidence": {
+                "file": "src/people/jj-soulmate/jj-soulmate.md",
+                "contains": "NSGY 的团员后来说损失已经全补。"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "好友面基、账号出借与两座铁壁转移构成信任及资产损失的反差。",
+              "evidence": {
+                "file": "src/people/jj-soulmate/jj-soulmate.md",
+                "contains": "从面基好友到转走铁壁，再到带队回来打老东家"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "正文展开冲突与后续，反差、分量、回应后果和落点都有呈现。"
+        },
+        {
+          "title": "INIT与LX-ZOJ日常舰队指挥",
+          "weight": "ordinary",
+          "reason": "两场属普通规模日常行动，不独立成料；附带BR及作品摘要支持参战指挥归属。",
+          "source": {
+            "file": "src/people/jj-soulmate/materials-jj-soulmate.json",
+            "heading": "## B站账号与北军指挥对应"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/jj-soulmate/jj-soulmate.md",
+            "contains": "这些班也不全是押上旗舰的大会战。"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "并入战绩红料补足日常出勤画像，不逐场报数字，也不将原片制作归本人。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "主线仍是NSGY借号铁壁争议，战绩红料说明FC日常与代表会战；两场普通行动只作简短补充，精选置于评语前，不挤压主线。",
+      "evidence": [
+        {
+          "file": "src/people/jj-soulmate/jj-soulmate.md",
+          "contains": "::: 黑料 借来的号，转走的铁壁"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/302279173.json",
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/corporations/notes/member-research/98725089.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "src/people/jj-soulmate/2115597604-id.json",
+    "src/people/jj-soulmate/jj-soulmate.md",
+    "src/people/jj-soulmate/materials-jj-soulmate.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.json",
+    "src/battles/arnher-2026/arnher-2026.json",
+    "src/battles/arnher-2026/arnher-2026.md",
+    "src/battles/arnher-2026/materials-arnher-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/b-9c24-2026/b-9c24-2026.json",
+    "src/battles/b-9c24-2026/b-9c24-2026.md",
+    "src/battles/b-9c24-2026/materials-b-9c24-2026.json",
+    "src/battles/dt-tcd-2026/dt-tcd-2026.json",
+    "src/battles/dt-tcd-2026/dt-tcd-2026.md",
+    "src/battles/dt-tcd-2026/materials-dt-tcd-2026.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.json",
+    "src/battles/mc6o-f-2026/mc6o-f-2026.md",
+    "src/battles/mc6o-f-2026/materials-mc6o-f-2026.json",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.json",
+    "src/battles/sr-kbb-2026/sr-kbb-2026.md",
+    "src/battles/sr-kbb-2026/materials-sr-kbb-2026.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.json",
+    "src/battles/u-qvwd-2024/u-qvwd-2024.json",
+    "src/battles/u-qvwd-2024/u-qvwd-2024.md",
+    "src/battles/u-qvwd-2024/materials-u-qvwd-2024.json",
+    "src/battles/x47l-q-2023-04/x47l-q-2023-04.json",
+    "src/battles/x47l-q-2023-04/x47l-q-2023-04.md",
+    "src/battles/x47l-q-2023-04/materials-x47l-q-2023-04.json"
+  ],
+  "inputs": "d9a346f2f9d8ab0f32d4f9ee6d505525f61cfeaebdb235925e6d79fdb35c0ded",
+  "inputParts": {
+    "docs/bilibili/302279173.json": "c47b30668e37c210fa305057dd43dbb904e2eefa9984556a4f4a7a32b1679112",
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/corporations/notes/member-research/98725089.json": "4042fcb549baee605eba958c810012500e31d2be7dd096b3ef42809e686b608e",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "280eef9eb1d0f7d5d3711d524055d7b5d6aae1a842a69458c659599b1de5dbec",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "src/people/jj-soulmate/2115597604-id.json": "60d6df8aeb6781f778485b644ee577ec49f894a9616cf3ab0535676c94e795bd",
+    "src/people/jj-soulmate/jj-soulmate.md": "879ebc6715bf7e75e01e981f328d04bedb753e67df43f5c598390ce20bccf378",
+    "src/people/jj-soulmate/materials-jj-soulmate.json": "b7efde1daff6d306e85a13899adff8002ed4ffc9b3362b5af1377a8dff225892",
+    "battle:ahbazon-2024": "946cab56e34058b29cd657fc6b02e0a808e47448fd3119000bcc817092eacfc2",
+    "battle:akkio-2026": "5ca1a1d7dc926411851ae785135f07503fa6ed97b2b8ff74931f7ea2208a9b87",
+    "battle:amamake-2026": "ca4dfd47691b64d8e1a1e425414987703f67e6757aa7a646de7a02dce30f6f2f",
+    "battle:arnher-2026": "9b990829cd1b00e512c58a77db2afc962cf702027326dc7a8f30b6b5dc667912",
+    "battle:atioth-2026": "c84a348746c01562d1b2a6bb0b5ad2837fecdade56a12af3bbc3d0f7364261ad",
+    "battle:b-9c24-2026": "ec97bff28792e5f27a67e3d697d83ac85c93877ff5cb57169a502bffc8cc6ee6",
+    "battle:dt-tcd-2026": "478cbd209cf1307266eddd10dd2156ff7247337f5d64bcc07430aba2ced6dc7a",
+    "battle:lantorn-2025": "e3957d98cf26db2ddbb19e762474c109e2edd920ca3ec62e0e47b986796b6fde",
+    "battle:lj-ysw-2024": "c6422eeeb1aeea7a80287a35eab58aea5df12429f709f1b934b5859ed83c6d20",
+    "battle:m-md31-2026": "ef88b3dfd16e7b630a2a26ff6f16ad87eb1b12281a30211e0f76e1fb43bd1823",
+    "battle:mc6o-f-2026": "adee3a3e290f099657feb4c7be43e779ec41e93d95047b99d5dc31d0c41a80d4",
+    "battle:obe-2026": "4ad24c4fcb3e4941ce35848dbe85104d4af3c44a6eec00e194fe9f1aa9a40cf2",
+    "battle:oijanen-2026": "49034d48adc7f3c1c871860949a447ae898d7174ebeefadd921cb049b036a1a2",
+    "battle:sr-kbb-2026": "a73b38bc4f68fc00f4395b8562affdec6acac39fc29e065ab245d0cc81cd85ff",
+    "battle:taff-2026": "84fb1065f8f06c07bae1fc2a3f9f3453eddc2a2edeed97ee1e83eabf84c25a46",
+    "battle:turnur-2023": "8f462143f936406d4b0a77d64d6c3f48ab7e2ba3985505dea96b8c8eb43da1bf",
+    "battle:u-qvwd-2024": "bcec27ceb44938ff51d1c75aa7533d16f8ad00509fef9e2cedeb34dfc5605af0",
+    "battle:x47l-q-2023-04": "83cedadba3fa4903315c0da2272738527664e4d999b7c88a39b0aef50385b42c"
+  },
+  "level": 1
+}

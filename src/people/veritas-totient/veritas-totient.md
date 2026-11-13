@@ -1,5 +1,5 @@
 
-储葛亮，游戏名 Veritas Totient，头衔“储葛亮”——诸葛亮的“诸”换成了储蓄的“储”。2016 年 1 月建号，第一家军团叫 **JiangNanP'ige**，简称 2CHAN：江南皮革厂。
+储葛亮，游戏名 Veritas Totient——诸葛亮的“诸”换成了储蓄的“储”。2016 年 1 月建号，第一家军团叫 **JiangNanP'ige**，简称 2CHAN：江南皮革厂。
 
 2017 年 2 月他进了 [Hita](../91163205/) 的太极（Tai-Chi），挂在 Northern Coalition. 下面，同时是 OSY 华人社区的“网管”；2018 年 10 月转进华语军团 Infinity Avenger（AVDOT），从此在低安海盗联盟 Snuffed Out 定居，至今没挪窝。安全等级 -9.9。
 

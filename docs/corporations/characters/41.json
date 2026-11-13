@@ -55,6 +55,35 @@
         "docs/corporations/notes/member-research/98540583.json#特执历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "91992141": {
+      "id": "91992141",
+      "names": [
+        "Meg Ryan Aldof"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#bfffffff\"> </font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:a906738c824bb83d5f8f8d69ca19fbbf17d6f272//1\">\\u661f\\u9645\\u603b\\u89c8-9.0\\u8ff7\\u5f69\\u7248</a></font><font size=\"12\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "1000166",
+          "source": "https://esi.evetech.net/latest/characters/91992141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98618014.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/91992141/"
+      ]
+    },
     "92438641": {
       "id": "92438641",
       "names": [
@@ -70,7 +99,7 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "头衔与完整简介已读；人物续查",
@@ -81,6 +110,19 @@
             "note": "逐人身份与故事待查",
             "material_hint": "",
             "source": "docs/corporations/notes/dc-goons-monthly.json"
+          },
+          {
+            "note": "2026-11-13头衔身份清查（thunder-andy）：现有名片头衔与Thunder andy的名字／外号相同，但未取得共同军团、同步经历或本人简介互链。下一步核本号完整头衔署名、本人互链与收录号历史军团，区分同名人物。",
+            "source": "docs/corporations/notes/member-research/98190062.json#pla前50头衔增量2026-10-14"
+          },
+          {
+            "note": "2026-11-13公开ESI完整雇佣史核读，非NPC军团ID：98190062。与本轮待核人物档案的既有非NPC军团无交集；仅记录当前证据缺口，不据此断言两号必属不同真人。",
+            "source": "https://esi.evetech.net/latest/characters/92438641/corporationhistory/"
+          },
+          {
+            "note": "2026-11-13身份排除复核（thunder-andy）：按敌对势力同名规则排除：2026-10-14名片署“Andy”，所在军团98190062，与收录号468540318（军团992634837）分属Goons／帝皇之镰与FRT／NC敌对阵营；现有证据仅为同名，无本人自报或角色互链。此为同名候选排除，不断言终身没有关联；取得明确自报、互链或可核实转团时间链后可重开。2026年欧贝分方亦记录帝皇之镰金色镰刀与FRT军团对阵，不能将跨势力同名直接合并。",
+            "source": "docs/corporations/notes/member-research/98190062.json#pla前50头衔增量2026-10-14",
+            "not_alt_of": "thunder-andy"
           }
         ],
         "next_steps": [
@@ -91,6 +133,267 @@
         "docs/corporations/notes/member-research/98190062.json",
         "docs/corporations/notes/dc-goons-monthly.json",
         "docs/corporations/notes/member-research/98190062.json#pla前50头衔增量2026-10-14"
+      ]
+    },
+    "94805741": {
+      "id": "94805741",
+      "names": [
+        "Carmen Rosse"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "#1401 曼森",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"36\" color=\"#ffff0000\"><b>\\u5978\\u5546\\u52a8\\u529b\\u6218\\u8230\\u5356\\u6211\\u7684\\u5927\\u9c7c\\u53f7\\u5c45\\u7136\\u6ca1\\u6709\\u6821\\u5bf9\\uff01\\uff01\\uff01\\uff01</b><br></font><font size=\"36\" color=\"#ffffffff\">~  \\u0f3c\\u0332\\u0332\\u2594\\u0332\\u2594\\u0332\\u0f3d\\u0332  LET ME<br>~  (*O*)   BOMB!<br>~  /\\u0332\\u2594\\u0332]\\\\\\u0b4d\\\\\\u0b4d<br>~[\\u2588 \\u232a\\u031a\\u0322 \\u2594\\u0332\\u2588\\u2588\\u300b</font>'",
+          "description_state": "value",
+          "corporation_id": "98608055",
+          "source": "https://esi.evetech.net/latest/characters/94805741/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98608055.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/94805741/"
+      ]
+    },
+    "94857941": {
+      "id": "94857941",
+      "names": [
+        "rag war"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "Enemies ------- Hardener ------- Damage Type<br>Blood Raider --- EM/Thermal ------ EM/Thermal<br>Guristas/EoM --- Kin/Thermal ----- Kin<br>Sanshas ------- EM/Thermal ----- EM<br>Serpentis ------ Thermal/Kin ----- Kin<br>Angel --------- Explosive/Kin ---- Explo<br>Mordus -------- Kin/Thermal ----- Kin<br>Rogue Drones -- All Res --------- EM<br>Mercenary ----- All Res --------- Thermal<br>Minmatar ------ All Res --------- Thermal (sec. Explo)<br>Gallente ------- Kinetic --------- Kin<br>Amarr --------- EM/Thermal ----- Thermal<br>Caldari -------- Kin/Thermal ----- Kin<br>Thukker Tribe --- All Res -------- Explo<br>The Syndicate ---- All Res ------- Kin<br><br>Easiest to Hardest Site:<br> Hidden Forsaken Forlorn<br><br>Difficulty    Data Site      Relic Site<br>Very Easy  Info Shard     Debris<br>Easy        Com Tower    Rubble<br>Medium     Mainframe     Remains<br>Hard        Database      Ruins<br><br>      C1      C2     C3     C4    C5    C6    High    Low    Null<br><br>C1 Z791/H121 C125   O833  M609  L614  S804  N110    J244   Z060<br><br>C2    Z647    D382   O477  Y683  N062  R474  B274    A239  E545/C248<br><br>C3    V301    I182  N968   T405   N770  A982  D845    U210   K346<br><br>C4    P060    N766  C247   X877  H900  U574            <br><br>C5    Y790    D364  M267   E175  H296  V753  D792    C140   Z142<br><br>C6    Q317    G024  L477   Z457  V911  W237  D792    C140   Z142<br><br>High   Z971    R943  X702         M555        A641    R051   V283<br><br>Low   Z971    R943  X702         N432        B449    N944    S199<br><br>Null   Z971    R943  X702         N432  N432  B449    N944    S199  ",
+          "description_state": "value",
+          "corporation_id": "98651050",
+          "source": "https://esi.evetech.net/latest/characters/94857941/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98650314.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/94857941/"
+      ]
+    },
+    "95948641": {
+      "id": "95948641",
+      "names": [
+        "Armour Hegirin"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98564814",
+          "source": "https://esi.evetech.net/latest/characters/95948641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98618014.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/95948641/"
+      ]
+    },
+    "96325741": {
+      "id": "96325741",
+      "names": [
+        "Quintus Consul"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "EN Governor Quintus",
+          "title_state": "value",
+          "description": "<font size=\"14\" color=\"#bfffffff\"></font><font size=\"24\" color=\"#bfffffff\">Beloved Son<br><br></font><font size=\"18\" color=\"#ffffff00\">ASSET SAFETY SYSTEMS BY # OF SYSTEMS THAT RELOCATE THERE<br><br></font><font size=\"14\" color=\"#bfffffff\">System, Count<br>Odebeinn, 454<br>Jayneleb, 299<br>Egbinger, 297<br>Podion, 282<br>Konora, 243<br>Misaba, 224<br>Daras, 200<br>Osaa, 163<br>Saminer, 140<br>Korasen, 125<br>...<br><br></font><font size=\"18\" color=\"#ffffff00\">SYSTEMS BY CENTRALITY WITHIN ITS REGION<br><br></font><font size=\"14\" color=\"#bfffffff\">Region, Central System, Average Jump Intra-Distance<br>Aridia, Nema, 6.69<br>Black Rise, Kinakka, 5.62<br>Branch, X4UV-Z, 7.41<br>Cache, C-6YHJ, 7.05<br>Catch, HY-RWO, 8.52<br>Cloud Ring, O-ZXUV, 5.72<br>Cobalt Edge, CUT-0V, 6.42<br>Curse, VOL-MI, 5.34<br>Deklein, 3QE-9Q, 9.24<br>Delve, NOL-M9, 7.9<br>Derelik, Akpivem, 6.91<br>Detorid, O3-4MN, 7.9<br>Devoid, Choonka, 6.1<br>Domain, Amarr, 6.71<br>Esoteria, VUAC-Y, 7.61<br>Essence, Villore, 4.66<br>Etherium Reach, 2G-VDP, 7.95<br>Everyshore, Atlanins, 4.34<br>Fade, X36Y-G, 4.11<br>Feythabolis, 3L-Y9M, 9.3<br>Fountain, RE-C26, 8.09<br>Geminate, O1-FTD, 8.3<br>Genesis, Gergish, 6.6<br>Great Wildlands, 504Z-V, 8.29<br>Heimatar, Onga, 6.19<br>Impass, IRE-98, 5.16<br>Immensea, NS2L-4, 7.46<br>Insmother, 2JT-3Q, 7.78<br>Kador, Gonan, 7.11<br>Khanid, Arzanni, 8.33<br>Kor-Azor, Atarli, 6.82<br>Lonetrek, Uemisaisen, 5.6<br>Malpais, NIM-FY, 7.88<br>Metropolis, Hek, 7.54<br>Molden Heath, Oddelulf, 4.78<br>Oasa, DYS-CG, 7.59<br>Omist, LOI-L1, 5.21<br>Outer Passage, K4UV-G, 7.68<br>Outer Ring, 4C-B7X, 6.64<br>Paragon Soul, H8-ZTO, 5.95<br>Period Basis, VYO-68, 5.55<br>Perrigen Falls, H-HGGJ, 8.47<br>Placid, Ostingele, 6.24<br>Providence, T-RPFU, 7.96<br>Pure Blind, KLY-C0, 6.36<br>Querious, V-LEKM, 7.64<br>Scalding Pass, N3-JBX, 5.67<br>Sinq Laison, Balle, 6.45<br>Solitude, Yveve, 5.74<br>Stain, 37S-KO, 13.31<br>Syndicate, Poitot, 9.07<br>Tash-Murkon, Tash-Murkon Prime, 4.83<br>Tenal, IG-ZAM, 6.84<br>Tenerifis, X-1QGA, 10.63<br>The Bleak Lands, Sosala, 3.97<br>The Citadel, Halaima, 6.07<br>The Forge, Obanen, 6.95<br>The Kalevala Expanse, 74-DRC, 6.64<br>The Spire, VK6-EZ, 5.76<br>Tribute, PNDN-V, 6.09<br>Vale of the Silent, MC6O-F, 8.16<br>Venal, VG-6CH, 8.74<br>Verge Vendor, Scolluzer, 4.48<br>Wicked Creek, 5DE-QS, 6.76</font>",
+          "description_state": "value",
+          "corporation_id": "98813744",
+          "source": "https://esi.evetech.net/latest/characters/96325741/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98813744.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/96325741/"
+      ]
+    },
+    "96619841": {
+      "id": "96619841",
+      "names": [
+        "Anne Amdrew"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "安喵鲁 <color=0xFFFF007F>喵の男 <color>",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffffffff\">Do not stand at my grave and weep<br><br>I am not there. I do not sleep.<br><br>I am a thousand winds that blow.<br><br>I am the diamond glints on snow.<br><br>I am the sunlight on ripened grain.<br><br>I am the gentle autumn rain.<br><br>when you awaken in the morning\\'s hush<br><br>I am the swife uplifting rush<br><br>of quiet birds in circled flight.<br><br>I am the soft stars that shine at night.<br><br>Do not stand at my grave and cry;<br><br>I am not there. I did not die.<br><br></font><font size=\"12\" color=\"#ffff0000\"><u>...Heroes. Never. Die<br><br>TO : WU Hong Yu</u><br><br><br></font><font size=\"18\" color=\"#ffd98d00\"><a href=\"killReport:102120445:a0721f00545c75c5f764b100dc0cd3894a6b79a1\">Kill: HY IIPuBeT PoGaneC (Ragnarok) \\u7136\\u800c\\u624b\\u6ed1</a><br><a href=\"killReport:102169413:6c56093301cf0a882eeae6779e95c7d750ff547c\">Kill: Almec Praetor (Ragnarok)</a><a href=\"killReport:102120445:a0721f00545c75c5f764b100dc0cd3894a6b79a1\"> \\u610f\\u5916\\u6b7b\\u4ea1</a><br><br></font><font size=\"18\" color=\"#ff00a99d\"><a href=\"sharedSetting:0d7d6a101533c428559d99d4a9a4c3cb24dc1ce3//1//3\">\\u706b\\u529b\\u5e7f\\u64ad\\u8bbe\\u7f6e</a></font><font size=\"18\" color=\"#bfffffff\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"sharedSetting:61d3c5a529329975fe9c036b8944697ff1950735//1//3\">\\u540e\\u52e4\\u5e7f\\u64ad\\u8bbe\\u7f6e</a></font><font size=\"18\" color=\"#bfffffff\">  </font><font size=\"18\" color=\"#ffffe400\"><a href=\"https://janice.e-351.com/\">https://janice.e-351.com/</a></font><font size=\"18\" color=\"#bfffffff\">\\u4f30\\u4ef7</font>'",
+          "description_state": "value",
+          "corporation_id": "98456980",
+          "source": "https://esi.evetech.net/latest/characters/96619841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/1097611545.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/96619841/"
+      ]
+    },
+    "395652641": {
+      "id": "395652641",
+      "names": [
+        "Siria Ebras"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000014",
+          "source": "https://esi.evetech.net/latest/characters/395652641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98505151.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/395652641/"
+      ]
+    },
+    "496117741": {
+      "id": "496117741",
+      "names": [
+        "Ixius Del'Monar"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-10-25",
+          "title": "<color=red><b>发改委民营经济振兴司副司长-012</color></b>",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:b74a9922fb93f3b47de1200ab3df06bb60ba3ac0//1\">\\u56fd\\u670d\\u642c\\u6765\\u7684\\u901a\\u7528\\u603b\\u89c8</a></font><font size=\"13\" color=\"#ff999999\">  </font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:82f0bd42aa15bc2ec68bd0a525fc22539dfe591f//1\">\\u661f\\u9645\\u603b\\u89c8-16.0\\u8ff7\\u5f69\\u7248</a></font><font size=\"13\" color=\"#ff999999\">  </font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:352d4b9ac6e1bc30d82c1691cf8884f59c939974//1\">\\u5357\\u5317\\u6d3e\\u603b\\u89c8\\u6dfb\\u52a0\\u6b8b\\u9ab8\\u603b\\u89c8688\\u8d85\\u51ac\\u6539</a></font><font size=\"13\" color=\"#ff999999\">  </font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:da85badcb86a9c9d0ad12ef9ced4878952b92cb2//1\">\\u4e8c\\u54c8\\u5bb6\\u8d85\\u65d7\\u603b\\u89c8QVQ</a></font><font size=\"13\" color=\"#ff999999\"> <br><br><br><br><br> </font><font size=\"13\" color=\"#ffffe400\"><a href=\"http://www.evepraisal.com/\">\\u6b27\\u670d\\u67e5\\u4ef7\\u7f51\\u5740</a></font><font size=\"13\" color=\"#ff999999\">  </font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:64856b36589f4c570a46937c8c90ac692fa38fc1//1\">OF\\u603b\\u89c8</a></font><font size=\"13\" color=\"#ff999999\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98456550",
+          "source": "https://esi.evetech.net/latest/characters/496117741/",
+          "source_key": "esi-history:2026-10-25"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98456550.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/"
+      ]
+    },
+    "1062024041": {
+      "id": "1062024041",
+      "names": [
+        "Ashan Chalder"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "卢卡斯",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98617920",
+          "source": "https://esi.evetech.net/latest/characters/1062024041/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98617920.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/1062024041/"
+      ]
+    },
+    "2112398841": {
+      "id": "2112398841",
+      "names": [
+        "Tyrin Davaham"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000166",
+          "source": "https://esi.evetech.net/latest/characters/2112398841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98650314.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2112398841/"
       ]
     },
     "2112826041": {
@@ -148,6 +451,16 @@
           "title": "Big qi",
           "corporation_id": "98705642",
           "source": "docs/corporations/notes/member-research/98705642.json#创世学院历史榜第51至100名头衔核读2026-11-01"
+        },
+        {
+          "as_of": "2026-11-13",
+          "title": "Big qi#56365",
+          "title_state": "value",
+          "description": "u'\\u8840 \\u88ad \\u8005--\\u6253\\u5b83\\u7528\\uff1a\\u7535\\u78c1\\uff0b\\u70ed\\u80fd--\\u9632\\u5b83\\u7528\\uff1a\\u7535\\u6297\\uff0b\\u70ed\\u6297 \\u70ed<br>\\u5361 \\u5c3c \\u8fea--\\u6253\\u5b83\\u7528\\uff1a\\u70ed\\u80fd\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u7535\\u6297\\uff0b\\u70ed\\u6297 <br>\\u83ab \\u5fb7 \\u56e2--\\u6253\\u5b83\\u7528\\uff1a\\u70ed\\u80fd\\u52a8\\u80fd----\\u9632\\u5b83\\u7528\\uff1a\\u52a8\\u6297\\uff0b\\u70ed\\u6297<br>\\u96c7 \\u4f63 \\u5175--\\u6253\\u5b83\\u7528\\uff1a\\u70ed\\u80fd\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u52a8\\u6297+\\u5168\\u6297<br>\\u79d1 \\u6ce2 \\u59c6--\\u6253\\u5b83\\u7528\\uff1a\\u7535\\u78c1\\uff0b\\u70ed\\u80fd--\\u9632\\u5b83\\u7528\\uff1a\\u52a8\\u6297<br>\\u5409 \\u65af \\u7279--\\u6253\\u5b83\\u7528\\uff1a\\u7206\\u70b8\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u7206\\u6297\\uff0b\\u52a8\\u6297<br>\\u8428\\u6c99\\u5e1d\\u56fd--\\u6253\\u5b83\\u7528\\uff1a\\u7535\\u78c1\\uff0b\\u70ed\\u80fd--\\u9632\\u5b83\\u7528\\uff1a\\u7535\\u6297\\uff0b\\u70ed\\u7095<br>\\u53e4\\u65af\\u5854\\u65af--\\u6253\\u5b83\\u7528\\uff1a\\u52a8\\u80fd\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u52a8\\u6297\\uff0b\\u70ed\\u6297<br>\\u5929\\u4f7f\\u96c6\\u56e2--\\u6253\\u5b83\\u7528\\uff1a\\u7206\\u70b8\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u7206\\u6297\\uff0b\\u5168\\u6297<br>\\u5929\\u86c7\\u96c6\\u56e2--\\u6253\\u5b83\\u7528\\uff1a\\u52a8\\u80fd\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u70ed\\u6297\\uff0b\\u52a8\\u6297<br>E O M--\\u6253\\u5b83\\u7528\\uff1a\\u52a8\\u80fd\\u71b1\\u80fd\\u4f24\\u5bb3----\\u9632\\u5b83\\u7528\\uff1a\\u52a8\\u6297+\\u70ed\\u6297<br>\\uff21\\u65cf\\u6d77\\u519b--\\u6253\\u5b83\\u7528\\uff1a\\u7535\\u78c1\\uff0b\\u70ed\\u80fd--\\u9632\\u5b83\\u7528\\uff1a\\u7535\\u6297\\uff0b\\u70ed\\u6297<br>\\uff23\\u65cf\\u6d77\\u519b--\\u6253\\u5b83\\u7528\\uff1a\\u52a8\\u80fd\\uff0b\\u70ed\\u80fd--\\u9632\\u5b83\\u7528\\uff1a\\u52a8\\u6297\\uff0b\\u70ed\\u6297<br>G\\u65cf\\u6d77\\u519b--\\u6253\\u5b83\\u7528\\uff1a\\u52a8\\u80fd\\uff0b\\u70ed\\u80fd<br>M\\u65cf\\u6d77\\u519b\\u2014\\u2014\\u6253\\u4ed6\\u7528\\uff1a\\u7206\\u80fd\\u2014\\u2014\\u9632\\u5b83\\u7528\\uff1a\\u753518% \\u70ed10% \\u52a824% \\u720648%<br>\\u4e3b\\u611f\\u77e5 \\u526f\\u6bc5\\u529b\\u3010\\u5bfc\\u5f39\\u3001\\u98de\\u8239\\u5b66\\u3001\\u5c04\\u51fb\\u5b66\\u3011<br>\\u4e3b\\u667a\\u529b \\u526f\\u611f\\u77e5\\u3010\\u5bfc\\u822a\\u5b66\\u3011<br>\\u4e3b\\u667a\\u529b \\u526f\\u8bb0\\u5fc6\\u3010\\u7535\\u5b50\\u5b66\\u3001\\u5de5\\u7a0b\\u5b66\\u3001\\u673a\\u68b0\\u5b66\\u3001\\u79d1\\u5b66\\u3001\\u5b50\\u7cfb\\u7edf\\u3011<br>\\u4e3b\\u8bb0\\u5fc6 \\u526f\\u667a\\u529b\\u3010\\u5de5\\u4e1a\\u3011<br>\\u4e3b\\u8bb0\\u5fc6 \\u526f\\u9b45\\u529b\\u3010\\u519b\\u56e2\\u3011<br>\\u4e3b\\u9b45\\u529b \\u526f\\u6bc5\\u529b\\u3010\\u9886\\u5bfc\\u5b66\\u3011<br>\\u4e3b\\u6bc5\\u529b \\u526f\\u9b45\\u529b\\u3010\\u8d38\\u6613\\u5b66\\u3011<br>\\u4e3b\\u9b45\\u529b \\u526f\\u667a\\u529b\\u3010\\u793e\\u4f1a\\u5b66\\u3011<br>\\u4e3b\\u8bb0\\u5fc6 \\u526f\\u611f\\u77e5\\u3010\\u65e0\\u4eba\\u673a\\u3011 <br>\\u65e0\\u4eba\\u673a\\u602a\\uff1a\\u540d\\u5b57\\u524d\\u9762\\u6709\\u52a0\\u5f3a\\u578b\\u4e09\\u4e2a\\u5b57\\u7684\\u5c31\\u662f\\u53cd\\u8df3\\u602a<br>\\u8428\\u6c99\\u602a\\uff1a\\u540d\\u5b57\\u540e\\u9762\\u5e26\\u6709\\u5ba0\\u81e3\\uff0c\\u4ec6\\u4eba\\uff0c\\u98df\\u8150\\u8005\\uff0c\\u63a0\\u593a\\u8005\\u7684\\u62a4\\u536b\\u602a\\u662f\\u53cd\\u8df3\\u602a<br>\\u8840\\u88ad\\u8005\\uff1a\\u8840\\u88ad\\u8005\\u95f4\\u8c0d\\u4f1a\\u53cd\\u8df3<br>A\\u65cf\\uff1a\\u96f7\\u8fbe\\u611f\\u5e94\\u5668<br>G\\u65cf\\uff1a\\u78c1\\u529b\\u8ba1\\u611f\\u5e94\\u5668<br>C\\u65cf\\uff1a\\u5f15\\u529b\\u8ba1\\u611f\\u5e94\\u5668<br>M\\u65cf\\uff1a\\u5149\\u96f7\\u8fbe\\u611f\\u5e94\\u5668<br>\\u88c5\\u5907\\u60e9\\u7f5a\\uff1a<br>\\u7b2c\\u4e8c\\u4e2a\\u88c5\\u7f6e 87.08860% \\u6548\\u679c<br>\\u7b2c\\u4e09\\u4e2a\\u88c5\\u7f6e 57.05831% \\u6548\\u679c<br>\\u7b2c\\u56db\\u4e2a\\u88c5\\u7f6e 28.29552% \\u6548\\u679c<br>\\u7b2c\\u4e94\\u4e2a\\u88c5\\u7f6e 10.59927% \\u6548\\u679c<br>\\u7b2c\\u516d\\u4e2a\\u88c5\\u7f6e 2.99912% \\u6548\\u679c<br>\\u81ea\\u7531\\u65e0\\u4eba\\u673a\\u3000\\u3000\\uff5c\\u7206\\u3000\\u52a8\\u3000\\u70ed\\u3000\\u7535\\uff5c\\u7535\\u3000\\u70ed<br>\\u6253\\u5154\\u5b50\\u7528\\u76fe \\u6253\\u8428\\u6c99\\u662f\\u7528\\u7532'",
+          "description_state": "value",
+          "corporation_id": "98705642",
+          "source": "https://esi.evetech.net/latest/characters/2113032141/",
+          "source_key": "esi-current:2026-11-13"
         }
       ],
       "review": {
@@ -168,7 +481,8 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research/98537981-98705642.json",
-        "docs/corporations/notes/member-research/98705642.json#创世学院历史榜第51至100名头衔核读2026-11-01"
+        "docs/corporations/notes/member-research/98705642.json#创世学院历史榜第51至100名头衔核读2026-11-01",
+        "https://esi.evetech.net/latest/characters/2113032141/"
       ]
     },
     "2113039341": {
@@ -185,6 +499,35 @@
       },
       "evidence": []
     },
+    "2113042041": {
+      "id": "2113042041",
+      "names": [
+        "smile neko"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "笑猫",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98538099",
+          "source": "https://esi.evetech.net/latest/characters/2113042041/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98538099.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113042041/"
+      ]
+    },
     "2113093141": {
       "id": "2113093141",
       "names": [
@@ -200,12 +543,25 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "头衔简介已读；未收录；飞鸟；字符画与现成英文歌词，不认本人创作，实际职责／故事待补",
             "material_hint": "docs/corporations/notes/member-research.json",
             "source": "docs/corporations/notes/member-research/98715582.json#帝皇之镰前50头衔增量2026-10-14"
+          },
+          {
+            "note": "2026-11-13头衔身份清查（for-undead-asuka）：现有名片头衔与飛鳥的名字／外号相同，但未取得共同军团、同步经历或本人简介互链。下一步核本号完整头衔署名、本人互链与收录号历史军团，区分同名人物。",
+            "source": "docs/corporations/notes/member-research/98715582.json#帝皇之镰前50头衔增量2026-10-14"
+          },
+          {
+            "note": "2026-11-13公开ESI完整雇佣史核读，非NPC军团ID：98715582、98639667、98730639。与本轮待核人物档案的既有非NPC军团无交集；仅记录当前证据缺口，不据此断言两号必属不同真人。",
+            "source": "https://esi.evetech.net/latest/characters/2113093141/corporationhistory/"
+          },
+          {
+            "note": "2026-11-13身份排除复核（for-undead-asuka）：按敌对势力同名规则排除：2026-10-14名片署“飞鸟”，所在军团98715582，与收录号2121130491（军团98570132）分属Goons／帝皇之镰与FRT／NC敌对阵营；现有证据仅为同名，无本人自报或角色互链。此为同名候选排除，不断言终身没有关联；取得明确自报、互链或可核实转团时间链后可重开。2026年欧贝分方亦记录帝皇之镰金色镰刀与FRT军团对阵，不能将跨势力同名直接合并。",
+            "source": "docs/corporations/notes/member-research/98715582.json#帝皇之镰前50头衔增量2026-10-14",
+            "not_alt_of": "for-undead-asuka"
           }
         ],
         "next_steps": []
@@ -221,13 +577,26 @@
         "Toby CCH"
       ],
       "labels": [],
-      "profiles": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "龙马",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98550682",
+          "source": "https://esi.evetech.net/latest/characters/2113107141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
       "review": {
         "state": "legacy",
         "findings": [],
         "next_steps": []
       },
-      "evidence": []
+      "evidence": [
+        "https://esi.evetech.net/latest/characters/2113107141/"
+      ]
     },
     "2113180741": {
       "id": "2113180741",
@@ -240,7 +609,11 @@
           "as_of": "2026-10-15",
           "title": "赐客",
           "corporation_id": "98783407",
-          "source": "docs/corporations/notes/member-research/98576141.json#pla-fleet前50头衔增量2026-10-15"
+          "source": "https://esi.evetech.net/latest/characters/2113180741/",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"36\" color=\"#ff00ff00\"><b><i>There</font><font size=\"36\" color=\"#ffff0000\"> is</font><font size=\"36\" color=\"#ffffff00\"> a</font><font size=\"36\" color=\"#ff007f00\"> harmony</font><font size=\"36\" color=\"#ffffffff\"> in</font><font size=\"36\" color=\"#ffffff00\"> autumn</font><font size=\"36\" color=\"#ff007fff\">\\uff0cand</font><font size=\"36\" color=\"#ff7f007f\"> a</font><font size=\"36\" color=\"#ffffff00\"> </font><font size=\"36\" color=\"#ff000000\">luster </font><font size=\"36\" color=\"#ffffffff\">in</font><font size=\"36\" color=\"#ff007fff\"> its</font><font size=\"36\" color=\"#ffffff00\"> </font><font size=\"36\" color=\"#ff00ffff\">sky</font><font size=\"36\" color=\"#ff7f007f\">\\uff0c</font><font size=\"36\" color=\"#ffffff00\">which </font><font size=\"36\" color=\"#ffff0000\">through</font><font size=\"36\" color=\"#ff7f007f\"> the</font><font size=\"36\" color=\"#ff00ff00\"> summer</font><font size=\"36\" color=\"#ffffff00\"> is </font><font size=\"36\" color=\"#ff00007f\">not</font><font size=\"36\" color=\"#ffffff00\"> </font><font size=\"36\" color=\"#ff00ff00\">heard</font><font size=\"36\" color=\"#ffffff00\"> or</font><font size=\"36\" color=\"#ff00ffff\"> seen</font><font size=\"36\" color=\"#ffffffff\">\\uff0c</font><font size=\"36\" color=\"#ffffff00\">as</font><font size=\"36\" color=\"#ff00ff00\"> if</font><font size=\"36\" color=\"#ffff00ff\"> it</font><font size=\"36\" color=\"#ffffff00\"> could </font><font size=\"36\" color=\"#ffffffff\">not </font><font size=\"36\" color=\"#ff7f0000\">be</font><font size=\"36\" color=\"#ffffff00\">\\uff0cas if</font><font size=\"36\" color=\"#ff00ffff\"> it</font><font size=\"36\" color=\"#ffffff00\"> had</font><font size=\"36\" color=\"#ff7f0000\"> not</font><font size=\"36\" color=\"#ffffff00\"> been</font><font size=\"36\" color=\"#ffff0000\">\\uff01 <br><br><br><br>WTB  </font><font size=\"36\" color=\"#ffd98d00\"><a href=\"showinfo:30//500012\">your</a></font><font size=\"36\" color=\"#ffff0000\"> life</b></i><br><br></font><font size=\"14\" color=\"#ffff0000\">\\u3000\\u3000\\u3000\\u3000</font><font size=\"14\" color=\"#ff4c4c4c\">\\u3000\\u3000\\u3000\\u3000\\u3000\\u2582\\u2583\\u25a0\\u2583\\u2586\\u2582<br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 \\u2583\\u25e2\\u25e4\\u3000\\u3000\\u3000\\u3000\\u25b2\\u25e5\\u25e3                      \\u2764 <br>\\u3000\\u3000\\u3000 \\u3000 \\u3000 \\u25e2\\u25e4\\u258a\\u3000\\u3000\\u2583\\u25e2\\u25e4\\u3000 \\u25e5\\u258b\\u3000\\u258d<br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u258c \\u2589 \\u25e2\\u25e4 \\u2582\\u2584 \\u3000 \\u2582\\u258c \\u2590<br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u25e2\\u258c \\u25bc\\u2580 \\u25e2\\u25e4\\u2586\\u3000 \\u25e2\\u2585\\u258d \\u25e4<br>\\u3000\\u3000\\u3000\\u3000\\u3000 \\u258c\\u3000 \\u25e5\\u25e3 \\u3000 \\u3000\\u3000\\u258d \\u25b2\\u3000<br>\\u3000\\u3000\\u3000\\u3000 \\u25e2\\u258c\\u3000\\u3000 \\u2590\\u25e3\\u3000\\u25e5\\u2585\\u25e4\\u25e2\\u25e4 \\u2590<br>\\u3000\\u3000\\u3000\\u3000 \\u2590\\u2583\\u2582\\u25e2\\u25e4\\u2593\\u2593\\u2583\\u2583\\u3000\\u2586\\u25e5\\u25e3\\u2583\\u25b2<br>\\u3000\\u3000\\u3000\\u3000\\u25e2\\u258d\\u2593\\u2585\\u3000 \\u2593\\u2593\\u2593\\u2593\\u2593\\u258d\\u3000\\u3000\\u3000\\u2593\\u25e3<br>\\u3000\\u3000\\u3000\\u3000 \\u258c\\u2580\\u2593\\u2593\\u3000 \\u2580\\u2593\\u2593\\u2593\\u258c\\u3000\\u3000\\u3000\\u2593 \\u25e5\\u25e3<br>\\u3000\\u3000\\u3000\\u3000 \\u25bc\\u3000\\u2593\\u2593\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 \\u2593\\u258d \\u25e5\\u25e3<br>\\u3000 \\u3000 \\u3000 \\u258c\\u3000\\u2583\\u2593\\u2593\\u3000    \\u2583\\u2583\\u25e2\\u25e3\\u3000\\u258c\\u25b2\\u3000\\u25e5\\u25e3<br>\\u3000\\u3000\\u3000\\u3000\\u258b\\u3000\\u3000\\u2580\\u25a0\\u2583\\u25e2\\u25e4    \\u2590 \\u25e5\\u25e3\\u2585\\u2580\\u3000\\u25bc<br>\\u3000\\u3000\\u3000\\u3000\\u2580\\u25e5\\u25e3\\u2583\\u2584\\u2582\\u2582\\u2582\\u2582\\u2583\\u25e2\\u25e3\\u2583\\u25e2\\u25e3\\u2583\\u2582\\u2582\\u2582\\u2583\\u25e2\\u25e4<br>\\u3000\\u3000\\u3000 \\u3000 \\u2585\\u2593\\u2593\\u2593\\u2580\\u3000\\u3000\\u3000\\u25bc\\u3000 \\u2580\\u2593\\u2583<br>\\u3000\\u3000\\u3000 \\u2585\\u2593\\u2593\\u2593\\u2589\\u3000\\u3000\\u3000\\u3000\\u3000\\u258d\\u3000\\u3000\\u3000\\u2580\\u2593<br>\\u3000\\u3000</font>'",
+          "description_state": "value",
+          "source_key": "esi-history:2026-10-15"
         }
       ],
       "review": {
@@ -256,7 +629,8 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research/98576141.json",
-        "docs/corporations/notes/member-research/98576141.json#pla-fleet前50头衔增量2026-10-15"
+        "docs/corporations/notes/member-research/98576141.json#pla-fleet前50头衔增量2026-10-15",
+        "https://esi.evetech.net/latest/characters/2113180741/"
       ]
     },
     "2113219141": {
@@ -270,7 +644,11 @@
           "as_of": "2026-10-15",
           "title": "三三",
           "corporation_id": "98702890",
-          "source": "docs/corporations/notes/member-research/98702890.json#神农第11至40名增量"
+          "source": "https://esi.evetech.net/latest/characters/2113219141/",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"15\" color=\"#ff00a99d\"><a href=\"sharedSetting:01459aa0da81f834aa81b3c85da991fe12036367//1//3\">\\u540e\\u52e4\\u5e7f\\u64ad</a></font><font size=\"15\" color=\"#bfffffff\">  </font><font size=\"15\" color=\"#ff00a99d\"><a href=\"sharedSetting:0d7d6a101533c428559d99d4a9a4c3cb24dc1ce3//1//3\">\\u706b\\u529b\\u5e7f\\u64ad</a></font><font size=\"15\" color=\"#bfffffff\"> <br><br><br>SB CCP<br></font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:130887317:0b5ec206e3b83838b99687443deb5bbc5ce22c9c\">\\u51fb\\u6740\\uff1aNoone Null (\\u5ba1\\u5224\\u8005\\u7ea7*)</a></font><font size=\"15\" color=\"#bfffffff\"> <br></font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:130887320:a27aa92156234d2e40ca3d19e2427adf93aad7e6\">\\u51fb\\u6740\\uff1aCCP Swift (\\u963f\\u4ec0\\u59c6\\u7ea7*)</a></font><font size=\"15\" color=\"#bfffffff\"> <br><br>SB CCP<br></font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:131723001:bd50eff6830f2f4c9707635c89b236a5b6d31a17\">\\u51fb\\u6740\\uff1aCCP Beast (\\u5be1\\u5987\\u7ea7*)</a></font><font size=\"15\" color=\"#bfffffff\"> <br></font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:131723053:d1a009290fcc4eedfd51f770a380a5a634d3c8a0\">\\u51fb\\u6740\\uff1aCCP Nomad (\\u5be1\\u5987\\u7ea7*)</a></font><font size=\"15\" color=\"#bfffffff\"> <br></font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:131723100:25f72b3bd21f7736bc83acab30df18a5e6cdd484\">\\u51fb\\u6740\\uff1aCCP Swift (\\u592a\\u7a7a\\u8231*)</a></font><font size=\"15\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "source_key": "esi-history:2026-10-15"
         }
       ],
       "review": {
@@ -286,7 +664,8 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research/98702890.json",
-        "docs/corporations/notes/member-research/98702890.json#神农第11至40名增量"
+        "docs/corporations/notes/member-research/98702890.json#神农第11至40名增量",
+        "https://esi.evetech.net/latest/characters/"
       ]
     },
     "2113249241": {
@@ -359,6 +738,35 @@
         "docs/corporations/notes/member-research/98702890.json",
         "docs/corporations/notes/descriptions.json#简介链接角色-id-对照未收录者",
         "docs/corporations/notes/member-research/98702890.json#神农第41至50名与leo成文"
+      ]
+    },
+    "2113374841": {
+      "id": "2113374841",
+      "names": [
+        "Firefang Skywalker"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "J20",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:72504900:85f456df56ddd3232a68a436c04500af4ea3ca03\">Kill: Firefang Skywalker (Erebus)</a></font><font size=\"12\" color=\"#bfffffff\"> DNE\\u9996\\u7206\\u6cf0\\u5766<br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:72504910:5e91a2f868e35c9c123982be5e5f1a52907b3d30\">Kill: Firefang Skywalker (Capsule)</a></font><font size=\"12\" color=\"#bfffffff\">  \\u6cf0\\u5766\\u86cb\\u9996\\u7206</font>'",
+          "description_state": "value",
+          "corporation_id": "98456980",
+          "source": "https://esi.evetech.net/latest/characters/2113374841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98456980.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113374841/"
       ]
     },
     "2113437541": {
@@ -465,6 +873,180 @@
         "docs/corporations/notes/member-research/98524084.json#吃瓜第1130名增量"
       ]
     },
+    "2113791641": {
+      "id": "2113791641",
+      "names": [
+        "asdwwwwww Naari"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "乱码 Main",
+          "title_state": "value",
+          "description": "u'<font size=\"12\" color=\"#bfffffff\"> </font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:31d5da40181559f4de753bd54c9dc9b00d26b18f//1\">\\u661f\\u9645\\u603b\\u89c8-15.0\\u8ff7\\u5f69\\u7248</a></font><font size=\"12\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98617920",
+          "source": "https://esi.evetech.net/latest/characters/2113791641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98617920.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113791641/"
+      ]
+    },
+    "2113806441": {
+      "id": "2113806441",
+      "names": [
+        "Dizzy Helsing"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "鸭鸭",
+          "title_state": "value",
+          "description": "<font size=\"15\" color=\"#bfffffff\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:22190022:66b2eedbed53083eab47176d4a8ec08e2b9624e8\">Kill: Garmon's Adrestia</a><br><br></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:c5d6028e48a8e9971e905f4ad4a6a9634b5d0a1b//1\">Dizzy OV</a></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:22190022:66b2eedbed53083eab47176d4a8ec08e2b9624e8\">  </a></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:02d5a7eb55fa1b3e5e77d47384e07af55fc7d2ca//1\">Dizzy OV 25</a></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:22190022:66b2eedbed53083eab47176d4a8ec08e2b9624e8\"> </a></font>",
+          "description_state": "value",
+          "corporation_id": "98777557",
+          "source": "https://esi.evetech.net/latest/characters/2113806441/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98807451.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113806441/"
+      ]
+    },
+    "2113831841": {
+      "id": "2113831841",
+      "names": [
+        "SADA95"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=Yellow><b>萨达</b></color>",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:16efe1d8feb4ac3402aa1b19af9bb9cf2a8ab553//1\">\\u51db\\u51ac\\u603b\\u89c8\\u6846\\u67b6\\uff08\\u65b0\\uff09</a></font><font size=\"13\" color=\"#ffbfbfbf\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98538099",
+          "source": "https://esi.evetech.net/latest/characters/2113831841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98538099.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113831841/"
+      ]
+    },
+    "2113863641": {
+      "id": "2113863641",
+      "names": [
+        "XiaoYINGHUA Cute"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "小孩",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"8\" color=\"#ffff0000\">\\u6797\\u4f73\\u6167<br></font><font size=\"11\" color=\"#ff00ff00\">\\u6653\\u6a31\\u82b1</font>'",
+          "description_state": "value",
+          "corporation_id": "98783407",
+          "source": "https://esi.evetech.net/latest/characters/2113863641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98783407.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113863641/"
+      ]
+    },
+    "2113934441": {
+      "id": "2113934441",
+      "names": [
+        "SKye Kashada"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "斯盖SKYE",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"36\" color=\"#ffff00ff\"><loc><b>      MAKE THE GALAXY<br>          GREAT AGAIN </font><font size=\"36\" color=\"#ffff0000\">\\uff01</loc></b><br> </font><font size=\"12\" color=\"#ffffffff\">spamming is the local smack equivalent of shitting your pants for attention<br><br></font><font size=\"36\" color=\"#ffff0000\"><loc><b> </font><font size=\"36\" color=\"#ff94ccff\"><a href=\"helpPointer:unique_UI_undockBtn\">Undock Button</a></font><font size=\"36\" color=\"#ffff0000\"> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font><font size=\"14\" color=\"#ffff0000\">  </loc></b></font>'",
+          "description_state": "value",
+          "corporation_id": "98185110",
+          "source": "https://esi.evetech.net/latest/characters/2113934441/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98446928.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113934441/"
+      ]
+    },
+    "2114024141": {
+      "id": "2114024141",
+      "names": [
+        "1HONG1 DT"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "星河",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98562360",
+          "source": "https://esi.evetech.net/latest/characters/2114024141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98585972.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114024141/"
+      ]
+    },
     "2114111141": {
       "id": "2114111141",
       "names": [
@@ -545,7 +1127,7 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "名字已解析；身份未查",
@@ -556,6 +1138,11 @@
             "note": "头衔与完整简介已读；头衔“大翔☆科尔斯司马，加中书舍人集贤校理”；简介为总览／弹药／广播等配置；外号待社区对应，无职责或故事依据",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98652614.json#图万神殿历史榜第51至100名头衔核读2026-11-01"
+          },
+          {
+            "note": "2026-11-13扩展头衔核读（zhong-ma）：头衔“大翔☆科尔斯司马，加中书舍人集贤校理”只在其他单词、编号、官衔、作品名或修饰语中包含“司马”，不是该角色自署zhong-ma的完整个人名字；排除此子串误匹配。",
+            "source": "docs/corporations/notes/member-research/98652614.json#图万神殿历史榜第51至100名头衔核读2026-11-01",
+            "not_alt_of": "zhong-ma"
           }
         ],
         "next_steps": []
@@ -693,6 +1280,35 @@
         "docs/corporations/notes/member-research/98576141.json"
       ]
     },
+    "2114775241": {
+      "id": "2114775241",
+      "names": [
+        "Sword K"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "刄",
+          "title_state": "value",
+          "description": "u'<font size=\"12\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:5b6f3c690a9323d354b4c749e5363b12b59a2add//1\">\\u603b\\u89c8</a></font><font size=\"12\" color=\"#fff7931e\"> <br><br>MAY light With You \\u613f\\u5723\\u5149\\u4e0e\\u4f60\\u540c\\u5728<br>        \\u3000\\u3000\\u3000\\u3000\\uff5c\\u3000\\u3000\\u6297\\u6027\\u3000\\u3000\\u3000\\uff5c \\u6253\\u51fb <br><br><br>\\u53e4\\u65af\\u5854\\u65af\\u6d77\\u76d7\\u3000\\uff5c\\u52a8\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u52a8\\u3000\\u70ed <br>\\u5929\\u4f7f\\u8054\\u5408\\u4f01\\u4e1a\\u3000\\uff5c\\u7206\\u3000\\u70ed\\u3000\\u7535\\u3000\\u52a8\\uff5c\\u7206\\u3000\\u52a8 <br>\\u8840\\u88ad\\u3000\\u827e\\u739b\\u3000\\u3000\\uff5c\\u7535\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u7535\\u3000\\u70ed <br>\\u8428\\u6c99\\u3000\\u827e\\u739b\\u3000\\u3000\\uff5c\\u7535\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u7535\\u3000\\u70ed <br>\\u5929\\u86c7\\u3000\\u76d6\\u4f26\\u7279\\u3000\\uff5c\\u70ed\\u3000\\u52a8\\u3000\\u3000\\u3000\\u3000\\uff5c\\u52a8\\u3000\\u70ed <br>\\u5361\\u5c3c\\u8fea\\u3000\\u827e\\u739b\\u3000\\uff5c\\u7535\\u3000\\u70ed\\u3000\\u52a8\\u3000\\u3000\\uff5c\\u7535\\u3000\\u70ed <br>\\u83ab\\u5fb7\\u56e2\\u3000\\u52a0\\u8fbe\\u91cc\\uff5c\\u52a8\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u52a8\\u3000\\u70ed <br>\\u827e\\u739b\\u6d77\\u519b\\u3000\\u3000\\u3000\\uff5c\\u7535\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u70ed <br>\\u52a0\\u8fbe\\u91cc\\u6d77\\u519b\\u3000\\u3000\\uff5c\\u52a8\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u52a8 <br>\\u76d6\\u4f26\\u7279\\u6d77\\u519b\\u3000\\u3000\\uff5c\\u70ed\\u3000\\u52a8\\u3000\\u3000\\u3000\\u3000\\uff5c\\u70ed <br>\\u7c73\\u739b\\u5854\\u5c14\\u3000\\u3000\\u3000\\uff5c\\u52a8\\u3000\\u70ed\\u3000\\u3000\\u3000\\u3000\\uff5c\\u7206 <br>\\u56fe\\u514b\\u5c14\\u90e8\\u843d\\u3000\\u3000\\uff5c\\u7206\\u3000\\u52a8\\u3000\\u70ed\\u3000\\u3000\\uff5c\\u70ed <br>\\u81ea\\u7531\\u65e0\\u4eba\\u673a\\u3000\\u3000\\uff5c\\u7206\\u3000\\u52a8\\u3000\\u70ed\\u3000\\u7535\\uff5c\\u7535\\u3000\\u70ed <br>\\u514b\\u59c6\\u5c3c\\u3000\\u3000\\u3000\\u3000\\uff5c\\u70ed\\u3000\\u52a8\\u3000\\u3000\\u3000\\u3000\\uff5c\\u70ed <br><br>\\uff0d\\uff0d\\uff0d\\uff0d\\uff0d\\uff0d\\uff0d\\uff0d\\uff0d <br>NPC\\u6d77\\u76d7\\u8f83\\u4f4e\\u7684\\u6297\\u6027\\uff1a <br>\\u53e4\\u65af\\u5854\\u65af\\u6d77\\u76d7\\uff08\\u52a0\\u8fbe\\u91cc\\uff09 \\u2014\\u2014 \\u52a8\\u80fd/\\u70ed\\u80fd <br>\\u5929\\u4f7f\\u8054\\u5408\\u4f01\\u4e1a\\uff08\\u7c73\\u739b\\u5854\\u5c14\\uff09 \\u2014\\u2014 \\u7206\\u70b8/\\u52a8\\u80fd <br>\\u8840\\u88ad\\u8005\\u540c\\u76df\\uff08\\u827e\\u739b\\uff09 \\u2014\\u2014 \\u7535\\u78c1/\\u70ed\\u80fd <br>\\u8428\\u6c99\\u5171\\u548c\\u56fd\\uff08\\u827e\\u739b\\uff09 \\u2014\\u2014 \\u7535\\u78c1/\\u70ed\\u80fd <br>\\u5929\\u86c7\\uff08\\u76d6\\u4f26\\u7279\\uff09 \\u2014\\u2014 \\u52a8\\u80fd/\\u70ed\\u80fd <br>EOM \\u52a8\\u80fd/\\u70ed\\u80fd <br>\\u65e0\\u4eba\\u673a \\u7535\\u78c1\\u5361\\u5c3c\\u8fea\\u738b\\u56fd\\uff08\\u827e\\u739b\\uff09 \\u2014\\u2014 \\u7535\\u78c1\\u4f24\\u5bb3/\\u70ed\\u80fd\\u4f24\\u5bb3 <br>\\u83ab\\u5fb7\\u56e2\\uff08\\u52a0\\u8fbe\\u91cc\\uff09 \\u2014\\u2014 \\u70ed\\u80fd/\\u52a8\\u80fd<br><br>\\u653b\\u51fbNPC\\u5e94\\u5f53\\u4f7f\\u7528\\u7684\\u4f24\\u5bb3\\u7c7b\\u578b\\uff1a <br>\\u53e4\\u65af\\u5854\\u65af\\u6d77\\u76d7 - \\u52a8\\u80fd\\u4f24\\u5bb3 <br>\\u5929\\u86c7 - \\u52a8\\u80fd\\u4f24\\u5bb3 <br>\\u8840\\u88ad\\u8005\\u540c\\u76df - \\u7535\\u78c1\\u4f24\\u5bb3 <br>\\u8428\\u6c99\\u5171\\u548c\\u56fd - \\u7535\\u78c1\\u4f24\\u5bb3 <br>\\u5929\\u4f7f\\u8054\\u5408\\u4f01\\u4e1a - \\u7206\\u70b8\\u4f24\\u5bb3 <br>\\u96c7\\u4f63\\u5175 - \\u70ed\\u80fd\\u4f24\\u5bb3 <br>\\u79d1\\u6ce2\\u59c6 - \\u7535\\u78c1\\u548c\\u70ed\\u80fd\\u4f24\\u5bb3 <br>\\u5409\\u65af\\u7279 - \\u7206\\u70b8\\u4f24\\u5bb3 <br>\\u83ab\\u5fb7\\u56e2 - \\u70ed\\u80fd\\u548c\\u52a8\\u80fd\\u4f24\\u5bb3 <br><br>--------------------------------------------------------------------------------- <br><br>NPC\\u6d77\\u76d7\\u7684\\u653b\\u51fb\\u7c7b\\u578b\\uff1a <br>\\u53e4\\u65af\\u5854\\u65af\\u6d77\\u76d7\\uff08\\u52a0\\u8fbe\\u91cc\\uff09 \\u2014\\u2014 \\u52a8\\u80fd/\\u70ed\\u80fd <br>\\u5929\\u4f7f\\u8054\\u5408\\u4f01\\u4e1a\\uff08\\u7c73\\u739b\\u5854\\u5c14\\uff09 \\u2014\\u2014\\u7206\\u70b8/\\u70ed\\u80fd <br>\\u8840\\u88ad\\u8005\\u540c\\u76df\\uff08\\u827e\\u739b\\uff09 \\u2014\\u2014 \\u7535\\u78c1/\\u70ed\\u80fd <br>\\u8428\\u6c99\\u5171\\u548c\\u56fd\\uff08\\u827e\\u739b\\uff09 \\u2014\\u2014 \\u7535\\u78c1/\\u70ed\\u80fd <br>\\u5929\\u86c7\\uff08\\u76d6\\u4f26\\u7279\\uff09 \\u2014\\u2014 \\u70ed\\u80fd/\\u52a8\\u80fd <br>\\u83ab\\u5fb7\\u56e2\\uff08\\u52a0\\u8fbe\\u91cc\\uff09 \\u2014\\u2014 \\u52a8\\u80fd/\\u70ed\\u80fd <br>\\u56fe\\u514b\\u5c14\\u90e8\\u843d \\u2014\\u2014 \\u7206\\u70b8/\\u52a8\\u80fd/\\u70ed\\u80fd <br>\\u81ea\\u7531\\u65e0\\u4eba\\u673a \\u2014\\u2014 \\u7206\\u70b8/\\u52a8\\u80fd/\\u70ed\\u80fd/\\u7535\\u78c1 <br>\\u514b\\u59c6\\u5c3c \\u2014\\u2014 \\u70ed\\u80fd/\\u52a8\\u80fd <br>EOM \\u52a8/\\u70ed</font>'",
+          "description_state": "value",
+          "corporation_id": "98583462",
+          "source": "https://esi.evetech.net/latest/characters/2114775241/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98583462.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114775241/"
+      ]
+    },
     "2114819741": {
       "id": "2114819741",
       "names": [
@@ -723,6 +1339,35 @@
         "docs/corporations/notes/member-research/98540583.json#特执前50头衔增量2026-10-14"
       ]
     },
+    "2114882441": {
+      "id": "2114882441",
+      "names": [
+        "Ephemera Winter"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "蜉蝣",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98588509",
+          "source": "https://esi.evetech.net/latest/characters/2114882441/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98588509.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114882441/"
+      ]
+    },
     "2114921441": {
       "id": "2114921441",
       "names": [
@@ -751,6 +1396,93 @@
       "evidence": [
         "docs/corporations/notes/member-research/98588384.json",
         "docs/corporations/notes/member-research/98588384.json#叶落星海前50头衔增量2026-10-15"
+      ]
+    },
+    "2114980341": {
+      "id": "2114980341",
+      "names": [
+        "AKINA mountain03"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98615098",
+          "source": "https://esi.evetech.net/latest/characters/2114980341/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98615098.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114980341/"
+      ]
+    },
+    "2115087541": {
+      "id": "2115087541",
+      "names": [
+        "WK05 Oramara"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "记者",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98583462",
+          "source": "https://esi.evetech.net/latest/characters/2115087541/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98583462.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115087541/"
+      ]
+    },
+    "2115131441": {
+      "id": "2115131441",
+      "names": [
+        "DroisJF"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffFF3333><b>夏星 Z</color></b>",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"><br></font><font size=\"13\" color=\"#ffd98d00\"><a href=\"showinfo:1373//2115131441\">DroisJF</a></font><font size=\"13\" color=\"#99ffffff\"> Claudia \\u2013 Regosa<br><br>Age: 24       Birthday: September 27<br>Height 177 cm<br><br><br>Captain of The frigate Zhenhai,         hull number: 0052<br><br>Person NUMBER 034800590086<br> <br>Position: Lieutenant Commander, Republic Fleet<br><br><br><br>Unit: North Naval Combat Support Brigade, main ship detachment 4<br><br>Command ship model: CX794-class aircraft carrier type 11<br><br><br><br>\\u5929\\u610f\\u832b\\u832b\\u672a\\u53ef\\u7aa5\\uff0c\\u60a0\\u60a0\\u4e16\\u4e8b\\u66f4\\u96be\\u77e5\\u3002<br>\\u5e73\\u751f\\u6b9a\\u529b\\u552f\\u5fe0\\u5584\\uff0c\\u5982\\u6b64\\u6536\\u573a\\u4ea6\\u592a\\u60b2\\u3002<br>\\u4e94\\u5341\\u4e03\\u5e74\\u4e00\\u68a6\\u4e2d\\uff0c\\u58f0\\u540d\\u5fd7\\u4e1a\\u603b\\u6210\\u7a7a\\u3002<br>\\u51ed\\u5c06\\u4e00\\u63ac\\u4e39\\u5fc3\\u5728\\uff0c\\u6cc9\\u4e0b\\u5dee\\u582a\\u5bf9\\u6211\\u7fc1\\u3002<br><br><br><br></font><font size=\"13\" color=\"#ffd98d00\"><a href=\"showinfo:34436//1017013401279\">The Friend Ship</a></font><font size=\"13\" color=\"#99ffffff\"> <br></font><font size=\"13\" color=\"#ffd98d00\"><a href=\"showinfo:34436//1017013401279\">The Friend Ship</a></font><font size=\"13\" color=\"#99ffffff\"> <br>\\u662f\\u975e\\u6210\\u8d25\\u51e0\\u56de\\u7a7a\\uff0c\\u9752\\u5c71\\u4f9d\\u65e7\\u5728\\uff0c\\u51e0\\u5ea6\\u5915\\u9633\\u7ea2</font>'",
+          "description_state": "value",
+          "corporation_id": "98601277",
+          "source": "https://esi.evetech.net/latest/characters/2115131441/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98635855.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115131441/"
       ]
     },
     "2115136141": {
@@ -792,6 +1524,35 @@
       "evidence": [
         "docs/corporations/notes/member-research.json",
         "docs/corporations/notes/member-research/98599315.json#bkb历史榜前100头衔核读2026-11-01"
+      ]
+    },
+    "2115198741": {
+      "id": "2115198741",
+      "names": [
+        "SkyendlessBB"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "斯凯、面壁者、高手货舰驾驶员、团最大SPY",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98600350",
+          "source": "https://esi.evetech.net/latest/characters/2115198741/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98600350.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115198741/"
       ]
     },
     "2115246941": {
@@ -863,6 +1624,35 @@
       },
       "evidence": []
     },
+    "2115735141": {
+      "id": "2115735141",
+      "names": [
+        "SaberYang G"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffffa0cf>#1848 影天<color> <color=0xffFF3333>青松远黛无锦绣，却是人间有谪仙<color>",
+          "title_state": "value",
+          "description": "<font size=\"14\" color=\"#bfffffff\"></font><font size=\"18\" color=\"#ffd98d00\"> <a href=\"killReport:105983018:d75572c7d73148de04728667ec72b29c358a81af\">Kill: Bloody Panda (Naglfar)</a> <br><br><a href=\"showinfo:10225\"> </a><a href=\"killReport:86860241:bf39696a9d43126fdade5fa215e2f880c83a0805\">Kill: Tredsan Anzomi (Moa)</a><a href=\"showinfo:10225\"> <br> </a><a href=\"killReport:86860247:be1d3bf8c1349078f1e9ba1565ea9995fdf75a79\">Kill: Duvismo Castro (Capsule)</a><a href=\"showinfo:10225\"> </a></font>",
+          "description_state": "value",
+          "corporation_id": "98608055",
+          "source": "https://esi.evetech.net/latest/characters/2115735141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98608055.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115735141/"
+      ]
+    },
     "2115770141": {
       "id": "2115770141",
       "names": [
@@ -881,6 +1671,16 @@
           "title": "",
           "corporation_id": "1000167",
           "source": "docs/corporations/notes/member-research/98556933.json#avdot历史榜前100头衔核读2026-11-01"
+        },
+        {
+          "as_of": "2026-11-13",
+          "title": "烟雨",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98770326",
+          "source": "https://esi.evetech.net/latest/characters/2115770141/",
+          "source_key": "esi-current:2026-11-13"
         }
       ],
       "review": {
@@ -901,7 +1701,66 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research.json",
-        "docs/corporations/notes/member-research/98556933.json#avdot历史榜前100头衔核读2026-11-01"
+        "docs/corporations/notes/member-research/98556933.json#avdot历史榜前100头衔核读2026-11-01",
+        "https://esi.evetech.net/latest/characters/2115770141/"
+      ]
+    },
+    "2115855741": {
+      "id": "2115855741",
+      "names": [
+        "IN Shadow"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "香饽饽",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1931//60013045\">\\u6b27\\u8d1d VI - \\u536b\\u661f 2 - DED \\u6d4b\\u8bd5\\u8bbe\\u65bd</a></font><font size=\"12\" color=\"#bfffffff\">  \\u8d4f\\u91d1\\u4ea4\\u6613\\u70b9 </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:3865//60013144\">\\u6c83\\u65af\\u57fa\\u5965 III - \\u683c\\u9c81\\u6c40\\u96c6\\u56e2 \\u751f\\u5316\\u79d1\\u6280\\u4ea7\\u54c1*</a></font><font size=\"12\" color=\"#bfffffff\"> \\u65e5\\u5fd7\\u4ea4\\u6613 </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1529//60004465\">\\u4e4c\\u67e5\\u4ec0 X - \\u536b\\u661f 11 - \\u79d1\\u5b66\\u53ca\\u8d38\\u6613\\u5b66\\u4f1a \\u5b66\\u6821*</a></font><font size=\"12\" color=\"#bfffffff\">  \\u4e66\\u5e97<br><br>\\u51ac\\u7720\\u4ea7\\u51fa\\u4ea4\\u6613  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1529//60014056\">X-7OMU II - \\u536b\\u661f 7 - \\u907f\\u96be\\u4f1a \\u5b66\\u6821*</a></font><font size=\"12\" color=\"#bfffffff\">  <br><br>\\u65e0\\u4eba\\u673a\\u8fed\\u4ee3  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:1529//60002269\">\\u57c3\\u5409\\u4f26 V - \\u536b\\u661f 3 - \\u83b1\\u6234\\u96c6\\u56e2 \\u5de5\\u5382*</a><br><br><br><br><br><br></font><font size=\"12\" color=\"#bfffffff\">  \\u9614\\u5200\\u914d\\u7f6e \\u65b0\\u836f  \\u8df3\\u8d27\\u6280\\u80fd\\u4e66 <br><br><br><br></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:a0f8052e800e6a8717556a1acac78dd2cf17ce10//1\">PLA\\u603b\\u89c82.6 pt4 </a></font><font size=\"12\" color=\"#bfffffff\"> <br><br><br> 5ZXX \\u6d77\\u519b\\u724c\\u5b50<br><br><br>50\\u63a8\\u5b50  \\u8d85\\u7a7a\\u95f4\\u7a7f\\u63d2T2    \\u5f00\\u6807</font>'",
+          "description_state": "value",
+          "corporation_id": "1097611545",
+          "source": "https://esi.evetech.net/latest/characters/2115855741/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/1097611545.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115855741/"
+      ]
+    },
+    "2115957341": {
+      "id": "2115957341",
+      "names": [
+        "Zhen son"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "404",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98772842",
+          "source": "https://esi.evetech.net/latest/characters/2115957341/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98703426.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115957341/"
       ]
     },
     "2115976141": {
@@ -948,6 +1807,35 @@
       },
       "evidence": []
     },
+    "2116277841": {
+      "id": "2116277841",
+      "names": [
+        "cai Kunkun"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "CXK 3giao死敌(赫尔形态)",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"fitting:22208:2048;1:14240;1:26436;1:13943;2:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:17559;1:3550;1:13945;2:3546;1:4347;2:14236;1:15806;2:33681;500::\">\\u8001\\u5bcc\\u5a46 </a><a href=\"fitting:22208:2048;1:14240;1:15806;2:26436;1:14236;1:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:13943;2:13945;2:3546;1:4347;2:17559;1:3550;1:33681;500::\">\\u5931\\u8db3\\u5987\\u5973</a><a href=\"fitting:22208:2048;1:14240;1:26436;1:13943;2:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:17559;1:3550;1:13945;2:3546;1:4347;2:14236;1:15806;2:33681;500::\">   </a></font><font size=\"12\" color=\"#bfffffff\"> </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"fitting:22208:2048;1:14240;1:26436;1:13943;2:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:17559;1:3550;1:13945;2:3546;1:4347;2:14236;1:15806;2:33681;500::\"> </a><a href=\"showinfo:13603//9001843243000281878\">\\u57c3\\u65af\\u5854\\u6885\\u5c14\\xb7\\u7279\\u5c14</a><a href=\"fitting:22208:2048;1:14240;1:26436;1:13943;2:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:17559;1:3550;1:13945;2:3546;1:4347;2:14236;1:15806;2:33681;500::\">    </a></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:f4377760c5fc406ba3981ba6b10febe255155905//1\">\\u56fd\\u670d\\u642c\\u6765\\u7684\\u901a\\u7528\\u603b\\u89c88.0</a></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"fitting:22208:2048;1:14240;1:26436;1:13943;2:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:17559;1:3550;1:13945;2:3546;1:4347;2:14236;1:15806;2:33681;500::\"> </a><br></font><font size=\"18\" color=\"#ffbfbfbf\">\\u6211\\u770b\\u8c01\\u5bb3\\u6562\\u6740\\u6211\\u72c2\\u6012  </font><font size=\"18\" color=\"#ffd98d00\"><a href=\"killReport:106683581:d95f173f72faf87bf9654616a994fece831d4b99\">\\u51fb\\u6740\\uff1acai Kunkun (\\u72c2\\u6012\\u8005\\u7ea7*)</a></font><font size=\"18\" color=\"#ffbfbfbf\">  </font><font size=\"18\" color=\"#ffd98d00\"><a href=\"killReport:106685705:8e5ff0ab30cfb30e9719a7e3d3dabd9879c0e993\">\\u51fb\\u6740\\uff1aozuca (\\u83ab\\u6d1b\\u7ea7*)</a></font><font size=\"18\" color=\"#ffbfbfbf\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:3c6742dbbddaf9c8542e4c4986aac55fb88f96bb//1\">\\u5927\\u822a\\u5321\\u9501\\u5b9a\\u603b\\u89c8</a></font><font size=\"18\" color=\"#ffbfbfbf\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98562360",
+          "source": "https://esi.evetech.net/latest/characters/2116277841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98562360.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2116277841/"
+      ]
+    },
     "2116447141": {
       "id": "2116447141",
       "names": [
@@ -987,6 +1875,35 @@
       "evidence": [
         "docs/corporations/notes/member-research.json",
         "docs/corporations/notes/member-research/98049623.json#frcc历史榜前100头衔核读2026-11-01"
+      ]
+    },
+    "2116619441": {
+      "id": "2116619441",
+      "names": [
+        "Wesker Alberlt"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "冬战",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"24\" color=\"#ffffff00\">\\u4e0d\\u60d1<br><br></font><font size=\"12\" color=\"#bfffffff\">1\\u3001\\u4e00\\u7ea7\\u866b\\u6d1e\\uff1aH121 P060 Q317 V301 Y790 Z647 Z971<br>2\\u3001\\u4e8c\\u7ea7\\u866b\\u6d1e\\uff1aC125 D364 D382 G024 I182 N766 R943<br>3\\u3001\\u4e09\\u7ea7\\u866b\\u6d1e\\uff1aC247 L477 M267 N968 O477 O883 X702<br>4\\u3001\\u56db\\u7ea7\\u866b\\u6d1e\\uff1aE175 M609 O128 T405 X877 Y683 Z457<br>5\\u3001\\u4e94\\u7ea7\\u866b\\u6d1e\\uff1aH296 H900 L614 M555 N062 N432 N770 V911<br>6\\u3001\\u516d\\u7ea7\\u866b\\u6d1e\\uff1aA982 B041 R474 S804 U319 U574 V753 W237<br>7\\u3001\\u901a\\u5f80\\u9ad8\\u5b89\\uff1aA641 B274 B449 B520 D792 D845 N110 S047<br>8\\u3001\\u901a\\u5f80\\u4f4e\\u5b89\\uff1aA239 C140 C391 J244 N290 N944 R051 U210<br>9\\u3001\\u901a\\u5f800.0\\uff1aC248 E545 K329 K346 S199 V283 Z060 Z142<br>10\\u3001\\u866b\\u6d1e\\u5f7c\\u7aef\\u7684\\u5bf9\\u5e94\\u51fa\\u53e3\\uff1aK162<br><br></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:a4ca29da2b06b87966c0265a393ea4e69b2a84ec//1\">\\u56fd\\u670d\\u642c\\u6765\\u7684\\u901a\\u7528\\u603b\\u89c88.0</a></font><font size=\"12\" color=\"#bfffffff\"> <br></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"sharedSetting:2a633509771a57eb92524d52851a2fab3131741c//1//3\">\\u706b\\u529b1.0</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ff00a99d\"><a href=\"sharedSetting:4fc175a2b6a3db67cab180c221e97d287e7f15ad//1//3\">\\u540e\\u52e4</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:89452535:2475059a16d4645889eaa678351319a73c4ec631\">\\u51fb\\u6bc1\\uff1aEsoteria Stain (\\u52d2\\u7ef4\\u4e9a\\u5766\\u7ea7*)</a></font><font size=\"12\" color=\"#bfffffff\"> <br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:102120445:a0721f00545c75c5f764b100dc0cd3894a6b79a1\">\\u51fb\\u6bc1\\uff1aHY (\\u62c9\\u683c\\u7eb3\\u6d1b\\u514b\\u7ea7)</a></font><font size=\"12\" color=\"#bfffffff\"> <br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:82896811:5463eaabec1385cb85af109559cc7cd716ac5c19\">Kill: HY IIPuBeT PoGaneC (Hel)</a></font><font size=\"12\" color=\"#bfffffff\"> <br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:139046684:337d66d2e33150db1b82c9bb68db0cacefcafbb9\">Kill: Kalayavan Medellin (Vanquisher)</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br>12 + 10 = Gleam<br>25 + 10 = Multi<br>37 + 10 = Xray<br>50 + 10 = Standard<br>70 + 10 = Microwave<br>80 + 10 = Radio<br>90 + 10  = Aurora<br><br><br>Antimatter: 25 / 40<br>Uranium: 35 / 45<br>Thorium: 40 / 55<br>Iridium: 60 / 75<br>Iron: 80 / 95<br>Spike: 90 / 105</font>'",
+          "description_state": "value",
+          "corporation_id": "98538099",
+          "source": "https://esi.evetech.net/latest/characters/2116619441/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98538099.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2116619441/"
       ]
     },
     "2116787741": {
@@ -1123,7 +2040,11 @@
           "as_of": "2026-10-14",
           "title": "유지민",
           "corporation_id": "98799349",
-          "source": "docs/corporations/notes/member-research/98550682.json#星尘前50头衔增量2026-10-14"
+          "source": "https://esi.evetech.net/latest/characters/2117438241/",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:121918172:d4ee5bb95685f1a28cc4d1fd1b93c4b8ad3674aa\">\\u51fb\\u6740\\uff1aCCP Zelus (\\u6d1b\\u57fa\\u7ea7)</a><a href=\"fitting:52361:31952;3:52227;1:49734;3:21096;1:52240;5:19282;1:41459;3:19284;1:41493;1:31798;3:40633;1:4347;2:16126;1::\"> </a><br><a href=\"killReport:121918179:2d83c5313c9c024039ad64debfebb593a7f857e1\">\\u51fb\\u6740\\uff1aCCP Zelus (\\u592a\\u7a7a\\u8231)</a><a href=\"fitting:52361:31952;3:52227;1:49734;3:21096;1:52240;5:19282;1:41459;3:19284;1:41493;1:31798;3:40633;1:4347;2:16126;1::\"> </a><br><a href=\"killReport:132527614:fe6bb4d54d75b3e330a32240f2b1ea817f35a8a5\">\\u51fb\\u6740\\uff1aYob Moorhsum (\\u5f52\\u9b42\\u8005\\u7ea7*)</a><a href=\"fitting:52361:31952;3:52227;1:49734;3:21096;1:52240;5:19282;1:41459;3:19284;1:41493;1:31798;3:40633;1:4347;2:16126;1::\"> </a><br><a href=\"killReport:132074614:8b178becdb15b1376d9c74b4cd9fec888e81825c\">\\u51fb\\u6740\\uff1aspecter Haginen (\\u5965\\u9e1f\\u7ea7*)</a><a href=\"fitting:52361:31952;3:52227;1:49734;3:21096;1:52240;5:19282;1:41459;3:19284;1:41493;1:31798;3:40633;1:4347;2:16126;1::\"> </a><br><a href=\"killReport:87126767:269062035c684570bdf431042d714854243161a9\">\\u51fb\\u6740\\uff1aJohnRamboPT (\\u957f\\u987b\\u9cb8\\u7ea7)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:131909925:99391f5251d5f29281d5c9e786b1699ac1fbb0c0\">\\u51fb\\u6740\\uff1aRicktus (\\u7eb3\\u8fe6\\u6cd5\\u7ea7*)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:118279249:5224ee9f57b68494689685889e3a195863d24934\">\\u51fb\\u6740\\uff1aOneHandMedic (\\u4f7f\\u5f92\\u7ea7)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:122270451:494a74661d31965cfa7bedc212d2f7152e892546\">\\u51fb\\u6740\\uff1aFarnheim Pava (\\u5e15\\u62c9\\u4e01\\u7ea7*)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:120002854:c22d7e02eac3b9308ba029db2f0503de74dc4b0b\">\\u51fb\\u6740\\uff1aSpeedRa1m (\\u9b54\\u50cf\\u7ea7)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:125719632:8f7b54bdbde8d7b1ad6d7d041713ccdbf5aa4c99\">\\u51fb\\u6740\\uff1aFeather Dragon (\\u52d2\\u6c99\\u514b\\u7ea7*)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:118718642:427df1fa6bb8d816144d5c5ddb51a44e86447161\">\\u51fb\\u6740\\uff1aTorlin Valric (\\u6e21\\u9e26\\u7ea7)</a></font><font size=\"14\" color=\"#ff00ffff\"> <br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:122011474:a461d86f4f2f8f51fd4340de0617ebc9ffc3adbb\">\\u51fb\\u6740\\uff1aPannoinen Katelo (\\u72d0\\u9f2c\\u7ea7)</a></font><font size=\"14\" color=\"#ff00ffff\"> </font>'",
+          "description_state": "value",
+          "source_key": "esi-history:2026-10-14"
         }
       ],
       "review": {
@@ -1139,7 +2060,8 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research/98550682.json",
-        "docs/corporations/notes/member-research/98550682.json#星尘前50头衔增量2026-10-14"
+        "docs/corporations/notes/member-research/98550682.json#星尘前50头衔增量2026-10-14",
+        "https://esi.evetech.net/latest/characters/2117438241/"
       ]
     },
     "2117721841": {
@@ -1227,6 +2149,35 @@
         "docs/corporations/notes/member-research/98598483.json#scg历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2118314041": {
+      "id": "2118314041",
+      "names": [
+        "Amarr Citizen 0019962807"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffFF3399><b><i>脚风",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"18\" color=\"#ff999999\"> </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"sharedSetting:2a633509771a57eb92524d52851a2fab3131741c//1//3\"> \\u706b\\u529b1.0</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"sharedSetting:a2b6e59cc0291d3c1a93864968ac18ecb3c17f1a//1//3\">\\u540e\\u52e41.0</a></font><font size=\"18\" color=\"#ff999999\"> <br>  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:682eb35842aa8b97ce80b0bf33974e7a676216b4//1\">\\u51db\\u51ac\\u603b\\u89c8\\u6838\\u5fc3\\uff08\\u65b0\\uff09</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:131da61a66cca3b42578a0ee87bf8fdb078317c3//1\">\\u51db\\u51ac\\u603b\\u89c8\\u4f5c\\u6218\\u5305\\uff08\\u65b0\\uff09</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:199295d61ebc31b919c097c39c43cfd804734ca1//1\">\\u51db\\u51ac\\u603b\\u89c8\\u751f\\u4ea7\\u5305\\uff08\\u65b0\\uff09</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:cf037c91d40c4e0264710eb4a47654ead3823d88//1\">\\u51db\\u51ac\\u603b\\u89c8\\u53cb\\u519b\\u5305\\uff08\\u65b0\\uff09</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:4b78e65e69391e8f6fa7885c2d5306f9c6f760eb//1\">\\u51db\\u51ac\\u603b\\u89c8\\u76ee\\u6807\\u5305\\uff08\\u65b0\\uff09</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:dcbb8f889a7c20d93baa7695fdc66f222e57fad3//1\">\\u51db\\u51ac\\u603b\\u89c8\\u6846\\u67b6-\\u95ea\\u70c1\\uff08\\u65b0\\uff09</a></font><font size=\"18\" color=\"#ff999999\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:11349446704d790aa150dfe10262c7e022f59a7a//1\">\\u51db\\u51ac\\u603b\\u89c8\\u6846\\u67b6-\\u4f1a\\u6218 v1.6</a></font><font size=\"18\" color=\"#ff999999\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98731219",
+          "source": "https://esi.evetech.net/latest/characters/2118314041/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98731219.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2118314041/"
+      ]
+    },
     "2118494341": {
       "id": "2118494341",
       "names": [
@@ -1285,6 +2236,35 @@
       "evidence": [
         "docs/corporations/notes/member-research/98648061-98825044.json",
         "docs/corporations/notes/member-research/98645589-98648061.json#兔飞第2750名"
+      ]
+    },
+    "2119271341": {
+      "id": "2119271341",
+      "names": [
+        "Hihtamon Endashi"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "Intrepid explorers from the Science and Trade Institute have a reputation for fearlessness in the face of the unknown. ",
+          "description_state": "value",
+          "corporation_id": "1000045",
+          "source": "https://esi.evetech.net/latest/characters/2119271341/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98600350.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2119271341/"
       ]
     },
     "2119292241": {
@@ -1363,6 +2343,35 @@
         "docs/corporations/notes/member-research/98599181.json#aocal历史榜第21至100名头衔核读2026-11-01"
       ]
     },
+    "2119424041": {
+      "id": "2119424041",
+      "names": [
+        "fubuki 030"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "阿福",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98799349",
+          "source": "https://esi.evetech.net/latest/characters/2119424041/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98799349.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2119424041/"
+      ]
+    },
     "2119436141": {
       "id": "2119436141",
       "names": [
@@ -1422,6 +2431,16 @@
           "title": "一口芝士",
           "corporation_id": "98540583",
           "source": "docs/corporations/notes/member-research/98540583.json#特执历史榜第51至100名头衔核读2026-11-01"
+        },
+        {
+          "as_of": "2026-11-13",
+          "title": " 一口芝士 #56181",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"14\" color=\"#ff00a99d\"><a href=\"sharedSetting:0d7d6a101533c428559d99d4a9a4c3cb24dc1ce3//1//3\">\\u706b\\u529b\\u5e7f\\u64ad\\u8bbe\\u7f6e</a></font><font size=\"14\" color=\"#ffbfbfbf\">  </font><font size=\"14\" color=\"#ff00a99d\"><a href=\"sharedSetting:acdc74ec69f1fdacfc6165f44331b2968724132b//1//3\">\\u540e\\u52e4\\u5e7f\\u64ad\\u8bbe\\u7f6e</a><br></font><font size=\"14\" color=\"#ff94ccff\"> </font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:119593771:acc77db7cd044fe83145ea215c113dddb0d1105a\">\\u51fb\\u6740\\uff1a10seconds (\\u5c0f\\u9e70\\u7ea7)<br> </a><a href=\"killReport:122110728:eecf87c900571cbdee009d208c07d492065ca9b7\">\\u51fb\\u6740\\uff1aGM Goat (\\u591a\\u7c73\\u5c3c\\u514b\\u65af\\u7ea7)</a><a href=\"killReport:119593771:acc77db7cd044fe83145ea215c113dddb0d1105a\"> </a></font>'",
+          "description_state": "value",
+          "corporation_id": "98540583",
+          "source": "https://esi.evetech.net/latest/characters/2119727741/",
+          "source_key": "esi-current:2026-11-13"
         }
       ],
       "review": {
@@ -1442,7 +2461,8 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research/98540583.json",
-        "docs/corporations/notes/member-research/98540583.json#特执历史榜第51至100名头衔核读2026-11-01"
+        "docs/corporations/notes/member-research/98540583.json#特执历史榜第51至100名头衔核读2026-11-01",
+        "https://esi.evetech.net/latest/characters/2119727741/"
       ]
     },
     "2119777441": {
@@ -1486,6 +2506,35 @@
         "docs/corporations/notes/member-research/98626494.json#采星者历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "2119859041": {
+      "id": "2119859041",
+      "names": [
+        "arsdragonfly"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "Students of Pator Tech School's Industry Division are well-regarded for their multi-pronged approach to commerce and manufacturing.",
+          "description_state": "value",
+          "corporation_id": "98813744",
+          "source": "https://esi.evetech.net/latest/characters/2119859041/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98813744.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2119859041/"
+      ]
+    },
     "2119893441": {
       "id": "2119893441",
       "names": [
@@ -1506,7 +2555,18 @@
         "Mr--fish"
       ],
       "labels": [],
-      "profiles": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffff0000>御神</color> <color=0xffffff00>总监</color> ",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"13\" color=\"#ffff0000\">\\u5fa1\\u795e\\u7684\\u5fa1 \\u5fa1\\u795e\\u7684\\u9c7c<br>\\u5e74\\u5c11\\u4e0d\\u77e5\\u6fc0\\u5149\\u597d\\uff0c\\u9519\\u628a\\u5bfc\\u5f39\\u5f53\\u6210\\u5b9d<br></font><font size=\"13\" color=\"#ff00ff00\">\\u53cd\\u4e70\\u8717\\u725b  \\u522b\\u5885\\u9760\\u6d77<br></font><font size=\"13\" color=\"#ffffff00\">\\u7f51\\u7ad9\\u5927\\u5168:  </font><font size=\"13\" color=\"#ffffe400\"><a href=\"https://www.ceve-market.org/tq/\">\\u5409\\u4ed6\\u5e02\\u573a\\u4ef7\\u683c\\u67e5\\u8be2</a></font><font size=\"13\" color=\"#ffffff00\">  </font><font size=\"13\" color=\"#ffffe400\"><a href=\"https://janice.e-351.com/\">\\u88c5\\u5907\\u4f30\\u4ef7\\u7edf\\u8ba1</a></font><font size=\"13\" color=\"#ffffff00\">  </font><font size=\"13\" color=\"#ffffe400\"><a href=\"http://eve-lp.com/\">LP\\u5151\\u6362\\u67e5\\u8be2</a></font><font size=\"13\" color=\"#ffffff00\">  </font><font size=\"13\" color=\"#ffffe400\"><a href=\"https://zhpatch2.evemodx.com/#delay\">\\u6c49\\u5316\\u4e0b\\u8f7d</a></font><font size=\"13\" color=\"#ffffff00\">  </font><font size=\"13\" color=\"#ffffe400\"><a href=\"https://mutaplasmid.space/\">\\u6df1\\u6e0a\\u4f30\\u4ef7\\u7f51\\u7ad9</a></font><font size=\"13\" color=\"#ffffff00\">  </font><font size=\"13\" color=\"#ffffe400\"><a href=\"https://zkillboard.com/\">KB\\u8bb0\\u5f55</a></font><font size=\"13\" color=\"#ffffff00\"> <br>  </font><font size=\"13\" color=\"#ff00a99d\"><a href=\"bookmarkFolder:5883032\">EVE-Scout \\\\\\\\ Thera</a></font><font size=\"13\" color=\"#ffffff00\"> <br></font><font size=\"13\" color=\"#ffd98d00\"><a href=\"killReport:108246203:9903a8dd536f90b9373d0a34bbe371ec02c57245\">\\u51fb\\u6740\\uff1aMr--fish (\\u5ba1\\u5224\\u8005\\u7ea7*)</a></font><font size=\"13\" color=\"#ffffff00\"> <br>(\\u01a0\\u3145\\u01a0)         <br>/ \\u3065  \\u3065 ~ \\u2661  <br>VENI VIDI VICI             <br></font><font size=\"13\" color=\"#ffd98d00\"><a href=\"killReport:90434298:56123e8bdf94bdfb738a03fa2380b06f26d14a02\">\\u51fb\\u6740\\uff1aCCP Aurora (\\u5524\\u98ce\\u7ea7*)</a></font><font size=\"13\" color=\"#ffffff00\"> <br></font><font size=\"13\" color=\"#ff94ccff\"><a href=\"helpPointer:unique_UI_SafetyButton\">Safety</a></font><font size=\"13\" color=\"#ff00a99d\"><a href=\"sharedSetting:0c547ea669857c49c9ca19cbb437c9a5427a9b71//1//3\">  </a><a href=\"sharedSetting:d3863b5159fc1c03119b7a53d68bfdb528ac1f87//1//3\">\\u540e\\u52e4\\u7238\\u7238\\u7684\\u8230\\u961f\\u5e7f\\u64ad\\u8bbe\\u7f6e</a><a href=\"sharedSetting:0c547ea669857c49c9ca19cbb437c9a5427a9b71//1//3\"> </a><br><a href=\"sharedSetting:1e19c0d2a8fa38b7d6bb15032561963abbbb865a//1//3\">\\u706b\\u529b\\u72d7\\u7684\\u8230\\u961f\\u5e7f\\u64ad\\u8bbe\\u7f6e</a><a href=\"sharedSetting:0c547ea669857c49c9ca19cbb437c9a5427a9b71//1//3\">  </a><a href=\"sharedSetting:1e19c0d2a8fa38b7d6bb15032561963abbbb865a//1//3\">\\u706b\\u529b\\u72d7\\u7684\\u8230\\u961f\\u5e7f\\u64ad\\u8bbe\\u7f6e</a><a href=\"sharedSetting:0c547ea669857c49c9ca19cbb437c9a5427a9b71//1//3\"> </a></font>'",
+          "description_state": "value",
+          "corporation_id": "98817310",
+          "source": "https://esi.evetech.net/latest/characters/2119904941/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
       "review": {
         "state": "legacy",
         "findings": [
@@ -1521,7 +2581,8 @@
         ]
       },
       "evidence": [
-        "docs/corporations/notes/dc-goons-monthly.json"
+        "docs/corporations/notes/dc-goons-monthly.json",
+        "https://esi.evetech.net/latest/characters/2119904941/"
       ]
     },
     "2120239541": {
@@ -1579,6 +2640,35 @@
         "docs/corporations/notes/member-research/98769610.json#cosmic-wanderers历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "2120555541": {
+      "id": "2120555541",
+      "names": [
+        "stalker zone"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "小灰马",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98608055",
+          "source": "https://esi.evetech.net/latest/characters/2120555541/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98608055.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2120555541/"
+      ]
+    },
     "2120633541": {
       "id": "2120633541",
       "names": [
@@ -1633,6 +2723,35 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2120890841": {
+      "id": "2120890841",
+      "names": [
+        "Keyii"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "和风 只能开后勤",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"><br></font><font size=\"36\" color=\"#ffd98d00\"><a href=\"showinfo:1373//2118314041\">Amarr Citizen 0019962807</a></font><font size=\"36\" color=\"#bfffffff\"> <br><br><br></font><font size=\"18\" color=\"#ff00a99d\"><a href=\"sharedSetting:2a633509771a57eb92524d52851a2fab3131741c//1//3\">\\u706b\\u529b1.0</a></font><font size=\"18\" color=\"#ff00ff00\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"sharedSetting:a2b6e59cc0291d3c1a93864968ac18ecb3c17f1a//1//3\">\\u540e\\u52e41.0</a></font><font size=\"18\" color=\"#ff00ff00\">  </font><font size=\"18\" color=\"#ff00a99d\"><a href=\"overviewPreset:bd464643a20970fb7d6de4ee639926e14329af67//1\">\\u5e38\\u89c4</a></font><font size=\"18\" color=\"#ff00ff00\"> <br></font><font size=\"10\" color=\"#bfffffff\"> </font><font size=\"10\" color=\"#ff00ff00\">\\u2502\\uff3c\\uff3f\\uff3f\\u256d\\u256d\\u256d\\u256d\\u256d\\uff3f\\uff3f\\uff0f\\u2502 <br>\\u2502\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u2502\\u3000\\u3000\\u3000 <br>\\u2502\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u2502\\u3000\\u3000\\u3000 <br>\\u2502\\u3000\\u25cf\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u25cf\\u3000\\u2502 <br>\\u2502\\u2261\\u3000\\u3000\\u2570\\u252c\\u252c\\u252c\\u256f\\u3000\\u3000\\u2261\\u2502 <br>\\u2502\\u3000\\u3000\\u3000\\u3000\\u2570\\u2014\\u256f\\u3000\\u3000\\u3000\\u3000\\u2502\\u3000 <br>\\u2570\\u2014\\u2014\\u252c\\uff2f\\u2014\\u2014\\u2014\\uff2f\\u252c\\u2014\\u2014\\u256f <br>    \\u256d\\u2014\\uff3e\\uff3f\\uff3f\\uff3e\\u2014\\u256e<br>     \\u2502\\u3008=\\uff0d\\ufe4f\\uff0d=\\u3009\\u2502 <br>  \\u256d\\u2550\\uff2f\\u2550\\u2550\\u2550\\u2550\\uff2f\\u2550\\u256e <br>  \\u2502\\uff0a\\u3000\\u3000\\u3000\\uff0a\\u3000\\u3000\\uff0a\\u2502 <br>  \\u2502\\u3000\\u3000\\u3000\\uff0a\\u3000\\u3000\\u3000\\u3000\\u2502 <br>  \\u2502\\u3000\\uff0a\\u3000\\u3000\\u3000\\u3000\\uff0a\\u3000\\u2502 <br>  \\u2570\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u256f<br></font><font size=\"13\" color=\"#ff00a99d\"><a href=\"overviewPreset:68c4dc39cf51e64d0302c4a438ed2c5f2e6acaf3//1\">\\u51db\\u51ac\\u603b\\u89c8\\u6846\\u67b6-\\u4f1a\\u6218 v1.1</a><br><a href=\"overviewPreset:2dc74efa3c7d58a6f4d6037849ab6e22cee45d61//1\">\\u51db\\u51ac\\u603b\\u89c8\\u6846\\u67b6-\\u95ea\\u70c1\\uff08\\u65b0\\uff09</a></font><font size=\"13\" color=\"#ff00ff00\"> <br></font><font size=\"13\" color=\"#ffd98d00\"><a href=\"showinfo:1529//60004477\">\\u7eb3\\u74e6\\u62c9 IV - \\u536b\\u661f 1 - \\u96f7\\u7535\\u88d4\\u6f14\\u5316\\u679d \\u8bd5\\u70bc\\u590d\\u5408\\u4f53</a></font><font size=\"13\" color=\"#ff00ff00\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98731219",
+          "source": "https://esi.evetech.net/latest/characters/2120890841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98633272.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2120890841/"
+      ]
     },
     "2121123441": {
       "id": "2121123441",
@@ -1760,6 +2879,35 @@
         "docs/corporations/notes/member-research/98808817.json#kzu前50头衔增量2026-10-14"
       ]
     },
+    "2121437141": {
+      "id": "2121437141",
+      "names": [
+        "Omonoi Tsero"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"15\" color=\"#ff00ff00\">\\u4eba\\u6709\\u751f\\u6b7b\\uff0c\\u56fd\\u6709\\u5174\\u4ea1\\uff0c\\u800c\\u610f\\u5fd7\\u957f\\u5b58\\u3002</font>'",
+          "description_state": "value",
+          "corporation_id": "98831820",
+          "source": "https://esi.evetech.net/latest/characters/2121437141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98710383.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2121437141/"
+      ]
+    },
     "2121547841": {
       "id": "2121547841",
       "names": [
@@ -1801,6 +2949,35 @@
         "docs/corporations/notes/member-research/98817783.json#silent-sojourner历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2121562741": {
+      "id": "2121562741",
+      "names": [
+        "JiangBoYue"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "姜伯约",
+          "title_state": "value",
+          "description": "Industry-minded alumni of the Center for Advanced Studies contribute their extensive knowledge of research and development processes to New Eden's bustling economy. ",
+          "description_state": "value",
+          "corporation_id": "98825299",
+          "source": "https://esi.evetech.net/latest/characters/2121562741/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98825299.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2121562741/"
+      ]
+    },
     "2122020641": {
       "id": "2122020641",
       "names": [
@@ -1814,6 +2991,35 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2122164741": {
+      "id": "2122164741",
+      "names": [
+        "wtlangzi"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xFF00FF00><b>浪子哥</b></color>",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98779710",
+          "source": "https://esi.evetech.net/latest/characters/2122164741/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98779710.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2122164741/"
+      ]
     },
     "2122187241": {
       "id": "2122187241",
@@ -1996,6 +3202,35 @@
         "docs/corporations/notes/member-research/98772842.json#光点学院历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2122472641": {
+      "id": "2122472641",
+      "names": [
+        "ZQH123456"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98775430",
+          "source": "https://esi.evetech.net/latest/characters/2122472641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98775430.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2122472641/"
+      ]
+    },
     "2122531841": {
       "id": "2122531841",
       "names": [
@@ -2122,6 +3357,35 @@
       },
       "evidence": []
     },
+    "2123405641": {
+      "id": "2123405641",
+      "names": [
+        "Verellin Asaras"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "起飞",
+          "title_state": "value",
+          "description": "Students of the University of Caille's School of Exploration are known for their inquisitive minds and sharp critical thinking skills. ",
+          "description_state": "value",
+          "corporation_id": "98799349",
+          "source": "https://esi.evetech.net/latest/characters/2123405641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98799349.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2123405641/"
+      ]
+    },
     "2123625241": {
       "id": "2123625241",
       "names": [
@@ -2136,6 +3400,35 @@
       },
       "evidence": []
     },
+    "2123748841": {
+      "id": "2123748841",
+      "names": [
+        "nanf2 c"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "<font size=\"15\" color=\"#bfffffff\"></font><font size=\"15\" color=\"#ffffe400\">hello ~</font>",
+          "description_state": "value",
+          "corporation_id": "98573431",
+          "source": "https://esi.evetech.net/latest/characters/2123748841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98761581.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2123748841/"
+      ]
+    },
     "2123758741": {
       "id": "2123758741",
       "names": [
@@ -2149,6 +3442,64 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2123787341": {
+      "id": "2123787341",
+      "names": [
+        "van 012"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "Graduates of the State War Academy's Combat Pilot Center are known for their quick thinking and finely honed reflexes. ",
+          "description_state": "value",
+          "corporation_id": "98761593",
+          "source": "https://esi.evetech.net/latest/characters/2123787341/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98807451.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2123787341/"
+      ]
+    },
+    "2123800841": {
+      "id": "2123800841",
+      "names": [
+        "zxz boss"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffF0E68C>#009 地空</color>",
+          "title_state": "value",
+          "description": "Alumni from the The School of Applied Knowledge are considered to be some of the savviest industrialists in the cluster.",
+          "description_state": "value",
+          "corporation_id": "98833956",
+          "source": "https://esi.evetech.net/latest/characters/2123800841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98833956.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2123800841/"
+      ]
     },
     "2123914741": {
       "id": "2123914741",
@@ -2234,6 +3585,71 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2124060341": {
+      "id": "2124060341",
+      "names": [
+        "Stellar eye"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "叶殇 #4462",
+          "title_state": "value",
+          "description": "Graduates of the State War Academy's Combat Pilot Center are known for their quick thinking and finely honed reflexes. ",
+          "description_state": "value",
+          "corporation_id": "98761581",
+          "source": "https://esi.evetech.net/latest/characters/2124060341/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98761581.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124060341/"
+      ]
+    },
+    "2124078641": {
+      "id": "2124078641",
+      "names": [
+        "JICHEQY"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "天启",
+          "title_state": "value",
+          "description": "Pilots from the Republic Military School's Center for Combat Studies are known for their creative approach to battle tactics. ",
+          "description_state": "value",
+          "corporation_id": "98746392",
+          "source": "https://esi.evetech.net/latest/characters/2124078641/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "partial",
+        "findings": [
+          {
+            "note": "2026-11-13导入角色身份复核（tianqi-aqi）：头衔匹配，但完整名片未提供本人角色互链；当前／历史势力桥不足，暂不归并。",
+            "source": "https://esi.evetech.net/latest/characters/2124078641/"
+          }
+        ],
+        "next_steps": [
+          "头衔对应待核 tianqi-aqi：头衔匹配，但完整名片未提供本人角色互链；当前／历史势力桥不足，暂不归并。 下一步核完整个人署名、主号自报、角色互链及同步任职时间。"
+        ]
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98746392.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124078641/"
+      ]
     },
     "2124096641": {
       "id": "2124096641",
@@ -2342,6 +3758,35 @@
         "docs/corporations/notes/member-research/98817783.json#silent-sojourner历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2124234041": {
+      "id": "2124234041",
+      "names": [
+        "Abigmango"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "大O",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:138141370:04f60904bfea61254128f55d60cc010e5c66eef9\">\\u51fb\\u6740\\uff1aKC Minerbot 3 (\\u51e4\\u51f0\\u7ea7*)</a></font><font size=\"15\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98825299",
+          "source": "https://esi.evetech.net/latest/characters/2124234041/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98825299.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124234041/"
+      ]
+    },
     "2124274941": {
       "id": "2124274941",
       "names": [
@@ -2386,6 +3831,35 @@
         "docs/corporations/notes/member-research/98808817.json#kzu前50头衔增量2026-10-14"
       ]
     },
+    "2124333141": {
+      "id": "2124333141",
+      "names": [
+        "HoneyB Lovely"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=yellow>蜂蜜</color>",
+          "title_state": "value",
+          "description": "Graduates of the State War Academy's Combat Pilot Center are known for their quick thinking and finely honed reflexes. ",
+          "description_state": "value",
+          "corporation_id": "98825114",
+          "source": "https://esi.evetech.net/latest/characters/2124333141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98825114.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124333141/"
+      ]
+    },
     "2124337141": {
       "id": "2124337141",
       "names": [
@@ -2427,6 +3901,35 @@
         "docs/corporations/notes/member-research/98707431.json#cxmm历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2124412841": {
+      "id": "2124412841",
+      "names": [
+        "Heartache9"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffff6699>So they say that time,will take away the pain</color>",
+          "title_state": "value",
+          "description": "Graduates of the State War Academy's Combat Pilot Center are known for their quick thinking and finely honed reflexes. ",
+          "description_state": "value",
+          "corporation_id": "98833956",
+          "source": "https://esi.evetech.net/latest/characters/2124412841/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98833956.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124412841/"
+      ]
+    },
     "2124413341": {
       "id": "2124413341",
       "names": [
@@ -2440,6 +3943,35 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2124560141": {
+      "id": "2124560141",
+      "names": [
+        "baochong03"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": " 懒崇",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98761581",
+          "source": "https://esi.evetech.net/latest/characters/2124560141/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98761581.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124560141/"
+      ]
     },
     "2124593741": {
       "id": "2124593741",

@@ -27,7 +27,7 @@ test('旧人物不显示六维；六维齐全时提供阶位信息与等价元�
   const result = personRadar(rating);
   assert.equal(result.axes.length, 6);
   assert.equal(result.complete, true);
-  assert.equal(result.axes[0].label, '神人');
+  assert.equal(result.axes[0].label, '神力');
   assert.ok(result.axes.every(axis => axis.tierLabel === 'C'));
   assert.deepEqual(rating, before);
 });

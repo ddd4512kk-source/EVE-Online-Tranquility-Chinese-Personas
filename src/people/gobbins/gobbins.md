@@ -1,5 +1,5 @@
 
-哥布林（Gobbins），2025 年 11 月以后华人圈改叫他戈尔巴乔夫。2006 年建号，在 Pandemic Legion 混过好几年，2015 年 4 月转进新成立的 Pandemic Horde（PH），从此当了十年盟主。角色头衔至今写着 Pandemic Horde Alliance Leader，简介让人有事别发邮件，找 Discord：gobbins1。简介末尾还拿 Admiral “muh medals” Goberius 开了个玩笑，听起来像小号声明，实际是这位盟主的自嘲。
+哥布林（Gobbins），2025 年 11 月以后华人圈改叫他戈尔巴乔夫。2006 年建号，在 Pandemic Legion 混过好几年，2015 年 4 月转进新成立的 Pandemic Horde（PH），从此当了十年盟主。简介让人有事别发邮件，找 Discord：gobbins1。简介末尾还拿 Admiral “muh medals” Goberius 开了个玩笑，听起来像小号声明，实际是这位盟主的自嘲。
 
 PH 起家时是 PL 的附庸，据吧里 2018 年的[科普帖](https://tieba.baidu.com/p/5933546387)，本意是给 PL 的超旗队补足“F1 狗”，“你是马甲我也收”。哥布林把这个收容所越做越大，最盛时名册上有四万八千多人、四百多个主权星系，联盟群 PanFam 和蜜蜂、FRT 三分天下。华人这边叫 PH “章鱼”。
 

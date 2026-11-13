@@ -1,0 +1,76 @@
+{
+  "status": "reviewed",
+  "note": "仅改星系与建筑译名，结论不变",
+  "evidence": [
+    "src/people/dragons-yik/materials-dragons-yik.json",
+    "src/people/dragons-yik/dragons-yik.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "zKB 总览约 1770 杀、295 损、1.24T，1593 杀在 FRT 名下，集中 2021-05 与 2022 至 2024 年；正文战绩红料写的缪宁级、大队参战与月度峰值和总览相符。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/materials-dragons-yik.json",
+          "heading": "## zKB 战绩"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "Yik trade 与 21-dragons 无击杀记录，仅登记为小号；同人依据是贴吧自报“yik trade（本人）”、同日换团与共建 Mordu，不按小号补战绩。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/materials-dragons-yik.json",
+          "heading": "## 小号对应"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "峰值月份（2021-05、2023-02、2024-03）与大额击杀（Nalvula、Heydieles、T-945F、JE-D5U）来自 zKB 统计，正文只作大队参战叙述，未写成指挥或主攻。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/materials-dragons-yik.json",
+          "heading": "## zKB 战绩"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "X47L-Q 之战名册含 2116881943，在 FRT 一侧，正文链接并只写到场；其余大额击杀未写成独立战役。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/materials-dragons-yik.json",
+          "heading": "## zKB 战绩"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后紧跟独立战绩红料块，写到缪宁级、Nalvula、X47L-Q、JE-D5U 与点评，战绩没有散落在其他料块。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/dragons-yik.md",
+          "contains": "最常开的是缪宁级"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/dragons-yik/2116881943-id.json",
+    "src/people/dragons-yik/dragons-yik.md",
+    "src/people/dragons-yik/materials-dragons-yik.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json"
+  ],
+  "inputs": "b7badad3836655741cc72168e8761085d0bab0a3d3819757fc2806e9baa271bb",
+  "inputParts": {
+    "src/people/dragons-yik/2116881943-id.json": "83d684967ccddafd4e119eb47c5580bcadad47f1c757816cc32c75bb8aee4dab",
+    "src/people/dragons-yik/dragons-yik.md": "4ea9a117917d1e7409b84bd81b9c98fa1361b6c6d81165f28f888db72abe9357",
+    "src/people/dragons-yik/materials-dragons-yik.json": "894220b222f03bdc907c7507ec8afa8165e3d0bf75e4ed809dced123f5b4dd93",
+    "battle:x47l-q-2023": "f4a1b816be9719ccd426d451020056cddfaebb93f2066e983d439c72fa872db6"
+  },
+  "level": 1
+}

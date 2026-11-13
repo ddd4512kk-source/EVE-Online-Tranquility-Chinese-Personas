@@ -1,0 +1,142 @@
+{
+  "status": "reviewed",
+  "note": "事件骨架有出处，无重料，料块篇幅充分",
+  "evidence": [
+    "src/people/lizard-k/materials-lizard-k.json",
+    "src/people/lizard-k/lizard-k.md",
+    "src/people/d-manson/materials-d-manson.json"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "事件骨架均有出处：赔款5B（d-manson素材第28楼）、贴吧两帖引语与时间、M2-XFE/欧米斯特等名单、KB数字与雇佣记录；简介、头衔不作料，已删。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "## 2026-11-14：贴吧 OSY／图万相关帖"
+        },
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "## 2026-11-14：雇佣记录与图万军团榜"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "无超出普通分量的重料；赔款、战友情分、老面孔各为一块完整小故事。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/lizard-k.md",
+          "contains": "2020 年贴吧那篇[《"
+        }
+      ],
+      "items": [
+        {
+          "title": "堡垒赔款5B",
+          "weight": "ordinary",
+          "reason": "第三方帖楼代述，本人未出面，数额明确但经过单薄。",
+          "source": {
+            "file": "src/people/d-manson/materials-d-manson.json",
+            "contains": "月矿堡送人后追款"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lizard-k/lizard-k.md",
+            "contains": "后来 S-E 的堡垒被打"
+          },
+          "verdict": "sufficient",
+          "note": "叙述加落点，篇幅充分。"
+        },
+        {
+          "title": "友军待遇之争",
+          "weight": "ordinary",
+          "reason": "舵主与老住户吵架，LK 仅被点名。",
+          "source": {
+            "file": "src/people/lizard-k/materials-lizard-k.json",
+            "contains": "现在osy那边还有华人在做任务吗"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lizard-k/lizard-k.md",
+            "contains": "那位老住户的账更细"
+          },
+          "verdict": "sufficient",
+          "note": "原话照引，明确LK未发言。"
+        },
+        {
+          "title": "吧里问起图万是谁的势力",
+          "weight": "light",
+          "reason": "一帖小插曲。",
+          "source": {
+            "file": "src/people/lizard-k/materials-lizard-k.json",
+            "contains": "现在osy是哪个势力啊"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/lizard-k/lizard-k.md",
+            "contains": "LIZARD MK 是 LK 的另一个号"
+          },
+          "verdict": "sufficient",
+          "note": "够用。"
+        }
+      ],
+      "noHeavyReason": "本人无重黑料，主要是KB战绩与几条第三方帖的侧写，均按普通事件写足。"
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "KB战绩居首，赔款与吵架居中，评语收束全篇；无重料被压缩，较旧稿未缩短。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/lizard-k.md",
+          "contains": "LK 是华人圈里少数从熊"
+        },
+        {
+          "file": "src/people/lizard-k/lizard-k.md",
+          "contains": "2025 年 5 月，有"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "src/people/d-manson/materials-d-manson.json",
+    "src/people/lizard-k/983162808-id.json",
+    "src/people/lizard-k/lizard-k.md",
+    "src/people/lizard-k/materials-lizard-k.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.json",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.json"
+  ],
+  "inputs": "b03a9895560590860d981e79d0c15032ffe1cf69d7f13279887731951c4e1791",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "src/people/d-manson/materials-d-manson.json": "077ea6c22a43ed8d48d4e1616c34bdee1752936ccd856df113e2071dac3da39d",
+    "src/people/lizard-k/983162808-id.json": "9d9c561a9944655593733bac0fc6ddd91281492665ec10444e3ab0a942bbb269",
+    "src/people/lizard-k/lizard-k.md": "297838ced6db16c0e7f22610709823f05c33757718cd464a7bf4a5af92b11679",
+    "src/people/lizard-k/materials-lizard-k.json": "68801fe858ea41951b0e7ff1a95a4e5c664fea30d476f86d6410e3f51fbd319e",
+    "battle:lj-ysw-2024": "37215de17a2d517a4196101422bfa4e82f3c8160318b40567c558901855860b8",
+    "battle:m2-xfe-2020": "965af53dd4d00e520f8734cd3767ecbae4929184107d46420df07022c5f671da",
+    "battle:m2-xfe-breakout-2021": "e81b45d5c00dd6d15c9ec39938242dfa96ee827b6099a636f7a8a67b1e085126",
+    "battle:omist-2023": "d52687e94db393a1e51d363c5ca2caed9e0b8fbc1ccc62b13e585d688e026231"
+  },
+  "level": 1
+}

@@ -1,5 +1,5 @@
 
-史考特，游戏名 ScottChen，头衔“CEO-史考特”，福尔摩沙研究中心（Formosa Research Center，FRCC）的 CEO。2010 年 6 月建号，是这批人里最老的角色；2011 年 10 月进 FRCC，十五年没换过公司。FRCC 的创办人是 Hazuki Hsieh，军团简介里写得清楚：“[ Founder ] Hazuki Hsieh / [ CEO ] ScottChen”。
+史考特，游戏名 ScottChen，是福尔摩沙研究中心（Formosa Research Center，FRCC）的 CEO。2010 年 6 月建号，是这批人里最老的角色；2011 年 10 月进 FRCC，十五年没换过公司。FRCC 的创办人是 Hazuki Hsieh，军团简介里写得清楚：“[ Founder ] Hazuki Hsieh / [ CEO ] ScottChen”。
 
 FRCC 2011 年先在 CareBear Union，2013 年在 Apocalypse Now.，2013 年 9 月进 FRT，从此没挪过。
 

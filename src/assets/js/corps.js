@@ -19,7 +19,6 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
   const input = document.getElementById('filter');
   const shuffleBtn = document.getElementById('shuffle');
   const status = document.getElementById('filter-status');
-  const full = document.querySelector('.toolbar-full');
   const stateChips = [...document.querySelectorAll('[data-state]')];
   const sortChips = [...document.querySelectorAll('[data-sort]')];
   const zoneChips = [...document.querySelectorAll('.corp-filters [data-zone]')];
@@ -68,13 +67,6 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
     const note = stateChips.find(b => b.dataset.state === state)?.dataset.note;
     status.hidden = false;
     status.textContent = shown ? `${note ? `${note}，` : ''}共 ${shown} 家。` : '目录里没有匹配的军团。试试全文搜索？';
-
-    if (full) {
-      const u = new URL(full.href, location.href);
-      if (text) u.searchParams.set('q', text);
-      else u.searchParams.delete('q');
-      full.href = u.toString();
-    }
     syncUrl(text);
   }
 

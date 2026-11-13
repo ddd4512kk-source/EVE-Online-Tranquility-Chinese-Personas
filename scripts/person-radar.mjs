@@ -2,7 +2,7 @@
 export const RADAR_TIERS = ['EX', 'S', 'A', 'B', 'C', 'D', 'E'];
 
 export const RADAR_AXES = [
-  { key: 'shenren', label: '神人', fullLabel: '神人值' },
+  { key: 'shenren', label: '神力', fullLabel: '神力' },
   { key: 'combat', label: '战力', fullLabel: '战斗力' },
   { key: 'command', label: '统御', fullLabel: '统御力' },
   { key: 'charisma', label: '魅力', fullLabel: '魅力' },
@@ -33,7 +33,7 @@ const point = (index, ratio) => {
 };
 
 const LABEL_COORDS = [
-  { x: 115, y: 20, anchor: 'middle' },   // 0: 神人 (Top)
+  { x: 115, y: 20, anchor: 'middle' },   // 0: 神力 (Top)
   { x: 170, y: 74, anchor: 'start' },    // 1: 战力 (Top-Right)
   { x: 170, y: 136, anchor: 'start' },   // 2: 统御 (Bottom-Right)
   { x: 115, y: 192, anchor: 'middle' },  // 3: 魅力 (Bottom)
@@ -128,5 +128,7 @@ export function personRadar(radar) {
     rings,
     polygon: complete ? axes.map(a => `${a.point.x},${a.point.y}`).join(' ') : null,
     reviewedDate: radar.reviewedAt.slice(0, 10),
+    // 目录排序用：EX=7 … E=1，待考=0
+    ranks: Object.fromEntries(axes.map(a => [a.key, a.known ? RADAR_TIERS.length - RADAR_TIERS.indexOf(a.tier) : 0])),
   };
 }

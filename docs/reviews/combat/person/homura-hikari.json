@@ -1,0 +1,162 @@
+{
+  "status": "reviewed",
+  "note": "战绩独立成块，数字与档案相符；新增名单与口头禅属带队名声，未换算场次",
+  "evidence": [
+    "src/people/homura-hikari/materials-homura-hikari.json",
+    "src/people/homura-hikari/homura-hikari.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "id 档案 zkb 9095 杀、参与击杀约 11.4 万亿，与正文“九千来个击杀、十一万亿上下”相符；本次补写的 FC 名单和口头禅是带队名声，未把 KM 数换算成带队场次，标签著名FC 改 FC 与此相称。",
+      "evidence": [
+        {
+          "file": "src/people/homura-hikari/homura-hikari.md",
+          "contains": "冷剑的 KB 是一本超旗"
+        },
+        {
+          "file": "src/people/homura-hikari/materials-homura-hikari.json",
+          "heading": "## 2026-11-09：zKillboard 与 Monitor 统计快照"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "HikariHomura 与 Hikari Homura 两小号已在素材和 id 档案中确认，正文按同一人两个号写，未另起料块、未逐号补船型。",
+      "evidence": [
+        {
+          "file": "src/people/homura-hikari/materials-homura-hikari.json",
+          "heading": "## 冷剑 / Homura Hikari"
+        },
+        {
+          "file": "src/people/homura-hikari/homura-hikari.md",
+          "contains": "冷剑的 KB 是一本超旗"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "本次新增内容不涉及具体月份峰值或代表 KM 问题；既有战役与 KM 事件已有素材节支撑。",
+      "evidence": [
+        {
+          "file": "src/people/homura-hikari/materials-homura-hikari.json",
+          "heading": "## 2026-11-09：zKillboard 与 Monitor 统计快照"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "A1-AUH、1N-FJ8、兰多恩、4-H 北方大战均有素材节对应，正文写明本人及小号角色与阵营变化；本次补写不新增战役。",
+      "evidence": [
+        {
+          "file": "src/people/homura-hikari/materials-homura-hikari.json",
+          "heading": "## 已对应小号的战役复查（2026-10-11）"
+        },
+        {
+          "file": "src/people/homura-hikari/materials-homura-hikari.json",
+          "heading": "## 2026-04-25 北方大型战役"
+        },
+        {
+          "file": "src/people/homura-hikari/homura-hikari.md",
+          "contains": "最有意思的是 2026 年 4 月 25 日"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩集中在独立红料块“KB：九千杀，十一万亿”，另有“FBC 的带队人”写带队身份，1N-FJ8 黑料块写万亿损失，末尾有综合点评；本次新增两段是 FC 名单与口头禅，位置在带队人块内，无需另立战绩块。",
+      "evidence": [
+        {
+          "file": "src/people/homura-hikari/homura-hikari.md",
+          "contains": "冷剑的 KB 是一本超旗"
+        },
+        {
+          "file": "src/people/homura-hikari/homura-hikari.md",
+          "contains": "冷剑的舰队履历、教程和贵"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/leads/tieba-sk-questions-replies.json",
+    "docs/sources/4h-local-dispute.json",
+    "docs/sources/cacx-tuxedoee-expulsion-2025.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
+    "docs/sources/sgcn-dread-discipline-2026.json",
+    "src/people/homura-hikari/2114027991-id.json",
+    "src/people/homura-hikari/homura-hikari.md",
+    "src/people/homura-hikari/materials-homura-hikari.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.json",
+    "src/battles/otsasai-2021/otsasai-2021.json",
+    "src/battles/otsasai-2021/otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.json"
+  ],
+  "inputs": "6f1e18df7823a635cdc2a4bb8e4933c0e57db7587321c005b96ecc6e43b383a5",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/leads/tieba-sk-questions-replies.json": "ddf1cfca0ff40a7fd9a697ef6db19664acbacfeb9f6173556e101bbaaa8e7c08",
+    "docs/sources/4h-local-dispute.json": "620c24e96ed67962dc83e6ba3ee6927cbdb9b4c0b0a936f9dcbf031c3681ab6b",
+    "docs/sources/cacx-tuxedoee-expulsion-2025.json": "8c0bab214e3650b6d9a2150d9a7ebf650e3bf187b4583e06422c12bb288e8274",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "docs/sources/sgcn-dread-discipline-2026.json": "18eff19a6f61b5b955f9945a596230b376c8d548f110eea3e7ba65e6540f4aee",
+    "src/people/homura-hikari/2114027991-id.json": "d4c7b0a8148a2bcdceb06e10eaafa6d42e5208d2449907b8f07cf545503dc556",
+    "src/people/homura-hikari/homura-hikari.md": "aa2902f9c69c82232697f6b452d4e9ae45c4bde8972abff3c2cd91ea2b17ec64",
+    "src/people/homura-hikari/materials-homura-hikari.json": "e59d06d11bcc0e28b0ae52045002ad5d3af247cfbb123046402019c9f844e202",
+    "battle:1n-fj8-2024": "79e453176141328c6cbeab0ed930a3a6faa407e30e40c9f575772d231c348ca1",
+    "battle:4-hwwf-8tpx-n-2026": "b63ffe6990085a5b7455c426d9cdede8b61eec3e38861bfaa6553f304612c48f",
+    "battle:a1-auh-2021": "a08579ce90260e29a44b51762b4cab320aa5047ea0dcfd0a36392a8d148961e0",
+    "battle:ahbazon-2024": "a2b2399144d09c01740cc4c1bacdbae9ce100792cf2e2a76b51387d9d4c78d6e",
+    "battle:akkio-2026": "c6b4d326cf4c85d471f7a30d1b169980d43a2f98df24a9de0b803640d0d5ce20",
+    "battle:lantorn-2025": "8348daa7fd41314a5f398bd723886cbd25d66a256cd18cf0fbe56e8f2a640ec4",
+    "battle:lj-ysw-2024": "5550e0683a1fabdab96226a32b4965f68ea9c1486a158e62b2f2868a40c1b18c",
+    "battle:obe-2026": "8eab466d8d6d222bf4d9d9ab38407d5d1b38af32cc97047fe5c15b3d07534f45",
+    "battle:otsasai-2021": "8abc02e0f94826ddd830ba3740f0f8a48cd9be1f3a7683ce5df45bfe2d3b0a3c",
+    "battle:turnur-2023": "a85475b7d5e9eea997270e37d6d7e30432b35f2975bada6142e7b3100a9b075a",
+    "battle:x47l-q-2023": "1bf80072402d85686da8077f7e47d0e6d62cb6e3b12f81dfccd3564fb1a70465",
+    "battle:zz-zwc-2026": "01b215743149501639a41acb702c68456bc9fb9b9053f2bcfbab94f4f742978d"
+  },
+  "level": 1
+}

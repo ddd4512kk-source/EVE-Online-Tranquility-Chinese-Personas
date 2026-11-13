@@ -22,7 +22,7 @@ zKillboard 上，他生涯击杀 **9854**，打掉约 6.6 万亿 ISK，单杀 93
 > 危险等级：极高
 > ……拒绝访问，如需更多信息，请持 7 级及以上权限（...Access denied, please seek lvl 7 or above clearance for further information...）
 
-安全等级 -8.8，头衔只有一个字母：N。
+安全等级 -8.8。
 :::
 
 ::: 黑料 进团当天，杀团友

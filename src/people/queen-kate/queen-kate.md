@@ -1,5 +1,5 @@
 
-Queen Kate，人称凯特，QQ 群里叫“Dispredestination 凯特”，简称 KT。游戏头衔写的是：
+Queen Kate，人称凯特，QQ 群里叫“Dispredestination 凯特”，简称 KT。她这样介绍自己：
 
 > 凯特女王陛下
 

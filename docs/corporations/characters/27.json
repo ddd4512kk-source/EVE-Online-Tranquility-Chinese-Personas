@@ -28,6 +28,16 @@
           "title": "机票",
           "corporation_id": "98606029",
           "source": "docs/corporations/notes/member-research/98606029.json#dc历史榜前100头衔核读2026-11-01"
+        },
+        {
+          "as_of": "2026-11-13",
+          "title": "机票",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"24\" color=\"#ff00ffff\">once u own a super it owns you<br></font><font size=\"24\" color=\"#ff94ccff\"><a href=\"helpPointer:neocom.quitGame\">\\u5982\\u4f55\\u8ba9\\u751f\\u6d3b\\u66f4\\u7f8e\\u597d</a></font><font size=\"24\" color=\"#ff00ffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98606029",
+          "source": "https://esi.evetech.net/latest/characters/90757727/",
+          "source_key": "esi-current:2026-11-13"
         }
       ],
       "review": {
@@ -90,6 +100,35 @@
         "docs/corporations/notes/member-research/98755298.json#fox前50头衔增量2026-10-15"
       ]
     },
+    "95994627": {
+      "id": "95994627",
+      "names": [
+        "Ms China"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000072",
+          "source": "https://esi.evetech.net/latest/characters/95994627/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98178881.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/95994627/"
+      ]
+    },
     "97116527": {
       "id": "97116527",
       "names": [
@@ -145,6 +184,93 @@
         "docs/corporations/notes/member-research/98049623.json#frcc历史榜前100头衔核读2026-11-01"
       ]
     },
+    "178969427": {
+      "id": "178969427",
+      "names": [
+        "FawKa"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "鸡波",
+          "title_state": "value",
+          "description": "<font size=\"15\" color=\"#bfffffff\"></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:77930067:7f2e3b960d2e74818cc1e4b9b64d3d9d427593d4\">Kill: Lasyra Efineh (Leviathan)</a></font><font size=\"14\" color=\"#ff999999\">  </font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:77930067:7f2e3b960d2e74818cc1e4b9b64d3d9d427593d4\">Kill: Lasyra Efineh (Leviathan)</a></font><font size=\"14\" color=\"#ff999999\"> <br><br>EZ</font>",
+          "description_state": "value",
+          "corporation_id": "98568863",
+          "source": "https://esi.evetech.net/latest/characters/178969427/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98568863.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/178969427/"
+      ]
+    },
+    "1490224727": {
+      "id": "1490224727",
+      "names": [
+        "Brumaster"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "辣椒酱",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1097611545",
+          "source": "https://esi.evetech.net/latest/characters/1490224727/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/1097611545.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/1490224727/"
+      ]
+    },
+    "2112465927": {
+      "id": "2112465927",
+      "names": [
+        "Black angle Earth"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000107",
+          "source": "https://esi.evetech.net/latest/characters/2112465927/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98529628.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2112465927/"
+      ]
+    },
     "2112521027": {
       "id": "2112521027",
       "names": [
@@ -166,7 +292,7 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "名字已解析；身份未查",
@@ -177,6 +303,19 @@
             "note": "头衔与完整简介已读；头衔“神话”；简介为总览／弹药／广播等配置；外号待社区对应，无职责或故事依据",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+          },
+          {
+            "note": "2026-11-13头衔身份清查（vagabond-z）：现有名片头衔与神话的名字／外号相同，但未取得共同军团、同步经历或本人简介互链。下一步核本号完整头衔署名、本人互链与收录号历史军团，区分同名人物。",
+            "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+          },
+          {
+            "note": "2026-11-13公开ESI完整雇佣史核读，非NPC军团ID：98185110、98537981、98542381。与本轮待核人物档案的既有非NPC军团无交集；仅记录当前证据缺口，不据此断言两号必属不同真人。",
+            "source": "https://esi.evetech.net/latest/characters/2112521027/corporationhistory/"
+          },
+          {
+            "note": "2026-11-13敌对势力同名补查（vagabond-z）：2026-11-01名片署“神话”，军团98185110；与收录人物分属DC和FRT敌对势力。现有对应仅为同名／外号片段，没有本人自报、角色互链或可核实的转团时间链，按规则排除本次小号候选。此结论不是全生涯无关联的断言，出现更强身份依据后可重开。",
+            "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01",
+            "not_alt_of": "vagabond-z"
           }
         ],
         "next_steps": []
@@ -184,6 +323,122 @@
       "evidence": [
         "docs/corporations/notes/member-research/98185110.json",
         "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+      ]
+    },
+    "2112533427": {
+      "id": "2112533427",
+      "names": [
+        "bulanbulan Dadunur"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ff00a99d\">   </font><font size=\"24\" color=\"#ffff0000\">\\u4f60\\u5f2f\\u4e0b\\u8170\\u6765\\u6361\\u8d77\\u4e00\\u53ea\\u8d1d\\u58f3\\uff0c\\u8fd8\\u4e0d\\u5982\\u4e00\\u9897\\u7ebd\\u6263\\u5927\\uff0c\\u767d\\u8272\\uff0c\\u6709\\u7f3a\\u53e3\\uff0c\\u5f62\\u72b6\\u50cf\\u5fc3\\u3002<br>   <br>  \\u201c\\u8fd9\\u662f\\u7ed9\\u4f60\\u7684\\u201d \\u4f60\\u8bf4\\u3002<br><br>    \\u6211\\u628a\\u5b83\\u653e\\u5230\\u6211\\u5939\\u514b\\u7684\\u53e3\\u888b\\u91cc\\uff0c\\u62c9\\u4e0a\\u62c9\\u94fe\\uff0c\\u5fc3\\u60f3\\u4e5f\\u8bb8\\u5e76\\u4e0d\\u662f\\u4ec0\\u4e48\\u90fd\\u4e22\\u4e86<br></font><font size=\"12\" color=\"#ffff0000\"> </font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:196073fba0af2e94d7af5946edd851ae066c2487//1\">\\u81ea\\u7528\\u7684\\u603b\\u89c8</a></font><font size=\"12\" color=\"#ffff0000\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98780269",
+          "source": "https://esi.evetech.net/latest/characters/2112533427/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98710383.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2112533427/"
+      ]
+    },
+    "2112686727": {
+      "id": "2112686727",
+      "names": [
+        "Horas Hue"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xffFF0000 fontsize=40>穷逼✰<b>大H",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\">\\u957f\\u671f\\u6536\\u535595\\u6536p1\\u6302\\u62110\\u4ef7\\u5408\\u540c \\u4e00\\u5929\\u5185\\u6838\\u4ef7\\u6253\\u6b3e<br>\\u6536\\u8d2d\\u661f\\u7cfb\\uff1a </font><font size=\"15\" color=\"#ffd98d00\"><a href=\"showinfo:5//30004691\">O4T-Z5</a></font><font size=\"15\" color=\"#bfffffff\">  </font><font size=\"15\" color=\"#ffd98d00\"><a href=\"showinfo:5//30004681\">8Q-UYU</a></font><font size=\"15\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98738067",
+          "source": "https://esi.evetech.net/latest/characters/2112686727/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98738067.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2112686727/"
+      ]
+    },
+    "2113170627": {
+      "id": "2113170627",
+      "names": [
+        "Ninesnow"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"18\" color=\"#ffffff00\">\\u6211\\u8fa3\\u4e48\\u53ef\\u7231\\uff01\\u4e0d\\u8981\\u6253\\u6211\\u53ef\\u4ee5\\u54a9owo</font>'",
+          "description_state": "value",
+          "corporation_id": "1000168",
+          "source": "https://esi.evetech.net/latest/characters/2113170627/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98568863.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113170627/"
+      ]
+    },
+    "2113226827": {
+      "id": "2113226827",
+      "names": [
+        "sola night"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98505151",
+          "source": "https://esi.evetech.net/latest/characters/2113226827/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98505151.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113226827/"
       ]
     },
     "2113323827": {
@@ -257,6 +512,35 @@
         "docs/corporations/notes/member-research/98588384.json#叶落星海历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "2113633327": {
+      "id": "2113633327",
+      "names": [
+        "liu robo"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "萝卜main",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98221842",
+          "source": "https://esi.evetech.net/latest/characters/2113633327/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98221842.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2113633327/"
+      ]
+    },
     "2113709827": {
       "id": "2113709827",
       "names": [
@@ -269,6 +553,16 @@
           "title": "坦克",
           "corporation_id": "98588384",
           "source": "docs/corporations/notes/member-research/98588384.json#叶落星海前50头衔增量2026-10-15"
+        },
+        {
+          "as_of": "2026-10-14",
+          "title": "坦克",
+          "title_state": "value",
+          "description": "i like pve !",
+          "description_state": "value",
+          "corporation_id": "98588384",
+          "source": "https://esi.evetech.net/latest/characters/2113709827/",
+          "source_key": "esi-history:2026-10-14"
         }
       ],
       "review": {
@@ -284,7 +578,8 @@
       },
       "evidence": [
         "docs/corporations/notes/member-research/98588384.json",
-        "docs/corporations/notes/member-research/98588384.json#叶落星海前50头衔增量2026-10-15"
+        "docs/corporations/notes/member-research/98588384.json#叶落星海前50头衔增量2026-10-15",
+        "https://esi.evetech.net/latest/characters/2113709827/"
       ]
     },
     "2113775627": {
@@ -319,10 +614,20 @@
           "title": "流年",
           "corporation_id": "98185110",
           "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+        },
+        {
+          "as_of": "2026-11-13",
+          "title": "流年",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98185110",
+          "source": "https://esi.evetech.net/latest/characters/2113787827/",
+          "source_key": "esi-current:2026-11-13"
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "名字已解析；身份未查",
@@ -333,13 +638,27 @@
             "note": "头衔与完整简介已读；头衔“流年”；简介空；外号待社区对应，无职责或故事依据",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+          },
+          {
+            "note": "2026-11-13头衔身份清查（caijiliunian）：现有名片头衔与流年的名字／外号相同，但未取得共同军团、同步经历或本人简介互链。下一步核本号完整头衔署名、本人互链与收录号历史军团，区分同名人物。",
+            "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+          },
+          {
+            "note": "2026-11-13公开ESI完整雇佣史核读，非NPC军团ID：98185110、98633272、98588384。与本轮待核人物档案的既有非NPC军团无交集；仅记录当前证据缺口，不据此断言两号必属不同真人。",
+            "source": "https://esi.evetech.net/latest/characters/2113787827/corporationhistory/"
+          },
+          {
+            "note": "2026-11-13敌对势力同名补查（caijiliunian）：2026-11-01名片署“流年”，军团98185110；与收录人物分属DC和FRT敌对势力。现有对应仅为同名／外号片段，没有本人自报、角色互链或可核实的转团时间链，按规则排除本次小号候选。此结论不是全生涯无关联的断言，出现更强身份依据后可重开。",
+            "source": "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01",
+            "not_alt_of": "caijiliunian"
           }
         ],
         "next_steps": []
       },
       "evidence": [
         "docs/corporations/notes/member-research/98185110.json",
-        "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01"
+        "docs/corporations/notes/member-research/98185110.json#伏羲历史榜第51至100名头衔核读2026-11-01",
+        "https://esi.evetech.net/latest/characters/2113787827/"
       ]
     },
     "2114098127": {
@@ -424,6 +743,64 @@
         "docs/corporations/notes/member-research/98538918.json#foredawn历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2114223327": {
+      "id": "2114223327",
+      "names": [
+        "EF MoShenChongSheng"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000167",
+          "source": "https://esi.evetech.net/latest/characters/2114223327/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98570132.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114223327/"
+      ]
+    },
+    "2114237827": {
+      "id": "2114237827",
+      "names": [
+        "hei Dxiao"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"12\" color=\"#bfffffff\"></font><font size=\"24\" color=\"#ffff0000\"> </font><font size=\"24\" color=\"#ffffff00\">\\u3078  \\u3000\\u3000\\u3000\\u3000\\uff0f|<br>\\u3000\\u3000/\\uff3c7\\u3000\\u3000\\u2220\\uff3f/<br>\\u3000 /\\u3000\\u2502\\u3000\\u3000 \\uff0f\\u3000\\uff0f<br>\\u3000\\u2502\\u3000Z \\uff3f,\\uff1c\\u3000\\uff0f\\u3000\\u3000 /`\\u30fd<br>\\u3000\\u2502\\u3000\\u3000\\u3000\\u3000\\u3000\\u30fd\\u3000\\u3000 /\\u3000\\u3000\\u3009<br>\\u3000 Y\\u3000\\u3000\\u3000\\u3000\\u3000`\\u3000 /\\u3000\\u3000/<br>\\u3000\\uff72\\u25cf\\u3000\\uff64\\u3000\\u25cf\\u3000\\u3000\\u2282\\u2283\\u3008\\u3000\\u3000/<br>\\u3000()\\u3000 \\u3078\\u3000\\u3000\\u3000\\u3000|\\u3000\\uff3c\\u3008<br>\\u3000\\u3000&gt;\\uff70 \\uff64_\\u3000 \\u30a3\\u3000 \\u2502 \\uff0f\\uff0f<br>\\u3000 / \\u3078\\u3000\\u3000 /\\u3000\\uff89\\uff1c| \\uff3c\\uff3c<br>\\u3000 \\u30fd_\\uff89\\u3000\\u3000(_\\uff0f\\u3000 \\u2502\\uff0f\\uff0f<br>\\u3000\\u30007\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000|\\uff0f<br>\\u3000\\u3000\\uff1e\\u2015r\\uffe3\\uffe3`\\uff70\\u2015\\uff3f</font>'",
+          "description_state": "value",
+          "corporation_id": "1000014",
+          "source": "https://esi.evetech.net/latest/characters/2114237827/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98552685.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114237827/"
+      ]
+    },
     "2114438127": {
       "id": "2114438127",
       "names": [
@@ -463,6 +840,35 @@
       "evidence": [
         "docs/corporations/notes/member-research/98640194.json",
         "docs/corporations/notes/member-research/98640194.json#咸鱼历史榜第51至100名头衔核读2026-11-01"
+      ]
+    },
+    "2114623727": {
+      "id": "2114623727",
+      "names": [
+        "sky firmament night"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "墨离",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#bfffffff\">\\u4eba\\u751f\\u4e2d\\u7b2c\\u4e00\\u4e2a\\u65d7\\u8230km </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:78933686:1dff2ec3a41995a7bd3e5f0164eee117e21e327f\">\\u51fb\\u6bc1\\uff1aJian Tsu (\\u957f\\u987b\\u9cb8\\u7ea7*)</a></font><font size=\"12\" color=\"#bfffffff\">  <br>\\u81ea\\u5df1\\u6700\\u9709\\u7684\\u65f6\\u523b\\uff0c\\u4f60\\u8981\\u95ee\\u6709\\u591a\\u9709\\uff1f\\uff0c\\u8fc7\\u95e8\\u79bb\\u654c\\u4eba500m\\u76f4\\u63a5\\u73b0\\u5f62\\u88ab\\u6293\\u6389\\u4e2a\\u5b98\\u5458\\u63a8 </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:76807624:696d089439c186804e5caf30b30be5c69bb1d4b1\">\\u51fb\\u6bc1\\uff1asky firmament night (\\u91d1\\u9e4f\\u7ea7*)</a></font><font size=\"12\" color=\"#bfffffff\"> \\u963f\\u95e8<br>\\u91cd\\u521b\\u66fc\\u72d7\\u6ed1\\u7a3dJPG. </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:77761082:b463eebdd7590891db39d145fd127043283f8b89\">\\u51fb\\u6bc1\\uff1a0---------CEO---------0 (\\u6bd2\\u8725\\u7ea7*)</a></font><font size=\"12\" color=\"#bfffffff\"> <br>\\u7b2c\\u4e00\\u4e2a\\u94c1\\u58c1\\uff0c\\u611f\\u8c22\\u53f0\\u98ce\\u963f\\u59e8 </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:81855740:36e0e1bb539fb3117ada44c677dda7a99bff75d0\">\\u51fb\\u6bc1\\uff1a\\u94c1\\u58c1*</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:103532930:c0ec8d2d6546e8092fc009f52ac70787558906ae\">\\u51fb\\u6bc1\\uff1aShirikov (\\u592a\\u7a7a\\u8231)</a></font><font size=\"12\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98702000",
+          "source": "https://esi.evetech.net/latest/characters/2114623727/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98702000.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114623727/"
       ]
     },
     "2114679927": {
@@ -534,6 +940,35 @@
       "evidence": [
         "docs/corporations/notes/member-research/98588384.json",
         "docs/corporations/notes/member-research/98588384.json#叶落星海前50头衔增量2026-10-15"
+      ]
+    },
+    "2114936227": {
+      "id": "2114936227",
+      "names": [
+        "BuBu Aaron"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"36\" color=\"#ff00ff00\">\\u5965\\u82cf\\u65af\\uff01\\uff01\\uff01<br>\\u5c11\\u5973 \\u53f3\\u4f7f \\u4fa6\\u67e5  \\u9057\\u8ff9<br>\\u590d\\u4ec7\\u96f7\\u8fbe\\uff0c\\u6218\\u9e70\\u5f15\\u529b\\uff0c\\u6069\\u5c24\\u78c1\\u529b\\uff0c\\u7f8e\\u6d32\\u864e\\u5149\\u96f7\\u8fbe\\u3002</font>'",
+          "description_state": "value",
+          "corporation_id": "1000168",
+          "source": "https://esi.evetech.net/latest/characters/2114936227/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98589755.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2114936227/"
       ]
     },
     "2115013927": {
@@ -629,10 +1064,15 @@
           {
             "note": "2026-10-30 UTC头衔与完整简介实读：头衔“皮卡—赵”，简介为空；当前军团98547771／DC。仅取得角色对应中文称呼，不因历史月榜名次收录列传。",
             "source": "https://esi.evetech.net/latest/characters/2115190027/"
+          },
+          {
+            "note": "2026-11-13扩展头衔核读（kerrum-pithy）：头衔“皮卡—赵”含皮卡，属于扩展称呼线索；尚缺与kerrum-pithy的角色互链、个人署名或同时期军团对应。下一步核双方完整个人署名与雇佣时段，不由昵称片段直接认人。",
+            "source": "https://esi.evetech.net/latest/characters/2115190027/"
           }
         ],
         "next_steps": [
-          "保留已有中文称呼与身份线索；有具体社区事件、作品或职责入口时再展开，不为补齐榜单追加逐张KM。"
+          "保留已有中文称呼与身份线索；有具体社区事件、作品或职责入口时再展开，不为补齐榜单追加逐张KM。",
+          "头衔对应待核 kerrum-pithy：补本人角色互链、完整署名与同时期雇佣关系。"
         ]
       },
       "evidence": [
@@ -728,6 +1168,35 @@
         "docs/corporations/notes/member-research/98725089.json#arknights.历史榜前100头衔核读2026-11-01"
       ]
     },
+    "2115404127": {
+      "id": "2115404127",
+      "names": [
+        "Z BlackSun"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "厂长",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98755298",
+          "source": "https://esi.evetech.net/latest/characters/2115404127/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98618014.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115404127/"
+      ]
+    },
     "2115570527": {
       "id": "2115570527",
       "names": [
@@ -785,6 +1254,35 @@
         "docs/corporations/notes/member-research/98547771.json#bop历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "2115624527": {
+      "id": "2115624527",
+      "names": [
+        "king12138 sleeping"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "睡王",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98588509",
+          "source": "https://esi.evetech.net/latest/characters/2115624527/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98588509.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115624527/"
+      ]
+    },
     "2115678427": {
       "id": "2115678427",
       "names": [
@@ -837,13 +1335,26 @@
         "yiyi Chen"
       ],
       "labels": [],
-      "profiles": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "P子",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"fitting:22208:2048;1:14240;1:26436;1:14236;1:3559;1:3561;1:26442;1:3563;1:3565;1:26448;1:3571;1:3573;1:13943;2:3550;1:13945;2:3546;1:4347;2:17559;1:15806;2:33681;500::\">\\u5931\\u8db3\\u5987\\u5973</a></font><font size=\"12\" color=\"#ffff0000\"> <br></font><font size=\"12\" color=\"#ffffffff\">\\u7b2c\\u4e00\\u4e2aKM\\uff1a </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:81157287:1b243db412797d7f7ea49729ca73255057141cfe\">\\u51fb\\u6bc1\\uff1aKatherine van-Xzar (\\u5723\\u5352\\u7ea7)</a></font><font size=\"12\" color=\"#ffffffff\"> <br><br></font><font size=\"12\" color=\"#ff00ff00\">\\u5893\\u5fd7\\u94ed\\u592a\\u957f\\uff0c\\u8981\\u5199\\u7684\\u592a\\u5c11<br><br></font><font size=\"12\" color=\"#ff0000ff\">\\u591c\\u91cc\\u7684\\u7247\\u6bb5\\u8bb0\\u5fc6\\u5982\\u98ce\\uff0c\\u60f3\\u4f38\\u624b\\u6293\\u4f4f\\u5374\\u4e00\\u628a\\u7a7a<br><br></font><font size=\"12\" color=\"#ff00ffff\">\\u71c3\\u70e7\\u7684\\u661f\\u661f\\u4e5f\\u4f1a\\u7184\\u706d\\uff0c\\u591c\\u8def\\u7684\\u5f52\\u4eba\\u7ec8\\u4f1a\\u56de\\u5bb6<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"bookmarkFolder:5883032\">EVE-Scout \\\\\\\\ Thera</a></font><font size=\"12\" color=\"#ff00ffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98817310",
+          "source": "https://esi.evetech.net/latest/characters/2115765627/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
       "review": {
         "state": "legacy",
         "findings": [],
         "next_steps": []
       },
-      "evidence": []
+      "evidence": [
+        "https://esi.evetech.net/latest/characters/2115765627/"
+      ]
     },
     "2115773827": {
       "id": "2115773827",
@@ -900,6 +1411,35 @@
         "docs/corporations/notes/member-research/98825941.json#昆仑历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "2115856227": {
+      "id": "2115856227",
+      "names": [
+        "SUKE SU"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000166",
+          "source": "https://esi.evetech.net/latest/characters/2115856227/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98542815.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2115856227/"
+      ]
+    },
     "2116194527": {
       "id": "2116194527",
       "names": [
@@ -928,6 +1468,64 @@
       "evidence": [
         "docs/corporations/notes/member-research/98626494.json",
         "docs/corporations/notes/member-research/98626494.json#采星者前50头衔增量2026-10-14"
+      ]
+    },
+    "2116281527": {
+      "id": "2116281527",
+      "names": [
+        "Eternity Fallx"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "雨枫",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffffff00\">\\u304f__,.\\u30d8\\u30fd.\\u3000\\u3000\\u3000\\u3000/\\u3000,\\u30fc\\uff64 \\u3009   <br>\\u3000\\u3000\\u3000\\u3000\\u3000\\uff3c \\', !-\\u2500\\u2010-i\\u3000/\\u3000/\\xb4 <br>\\u3000\\u3000\\u3000 \\u3000 \\uff0f\\uff40\\uff70\\'\\u3000\\u3000\\u3000 L/\\uff0f\\uff40\\u30fd\\uff64 <br>\\u3000\\u3000 \\u3000 /\\u3000 \\uff0f,\\u3000 /|\\u3000 ,\\u3000 ,\\u3000\\u3000\\u3000 \\', <br>\\u3000\\u3000\\u3000\\uff72 \\u3000/ /-\\u2010/\\u3000\\uff49\\u3000L_ \\uff8a \\u30fd!\\u3000 i <br>\\u3000\\u3000\\u3000 \\uff9a \\uff8d 7\\uff72\\uff40\\uff84\\u3000 \\uff9a\\'\\uff67-\\uff84\\uff64!\\u30cf|\\u3000 | <br>\\u3000\\u3000\\u3000\\u3000 !,/7 \\'0\\'\\u3000\\u3000 \\xb40i\\u30bd| \\u3000 |\\u3000\\u3000\\u3000 <br>\\u3000\\u3000\\u3000\\u3000 |.\\u4ece\"\\u3000\\u3000_\\u3000\\u3000 ,,,, / |./ \\u3000 |        <br>\\u3000\\u3000\\u3000\\u3000 \\uff9a\\'| i\\uff1e.\\uff64,,__\\u3000_,.\\u30a4 / \\u3000.i \\u3000| <br>\\u3000\\u3000\\u3000\\u3000\\u3000 \\uff9a\\'| | / k_\\uff17_/\\uff9a\\'\\u30fd,\\u3000\\uff8a.\\u3000| <br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 | |/i \\u3008|/\\u3000 i\\u3000,.\\uff8d |\\u3000i\\u3000| <br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000.|/ /\\u3000\\uff49\\uff1a \\u3000 \\uff8d!\\u3000\\u3000\\uff3c\\u3000| <br>\\u3000\\u3000\\u3000 \\u3000 \\u3000 k\\u30fd&gt;\\uff64\\uff8a \\u3000 _,.\\uff8d\\uff64 \\u3000 /\\uff64! <br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 !\\'\\u3008//\\uff40\\uff34\\xb4\\', \\uff3c \\uff40\\'7\\'\\uff70r\\' <br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 \\uff9a\\'\\u30fdL__|___i,___,\\u30f3\\uff9a|\\u30ce <br>\\u3000\\u3000\\u3000\\u3000\\u3000 \\u3000\\u3000\\u3000\\uff84-,/\\u3000|___./ <br>\\u3000\\u3000\\u3000\\u3000\\u3000 \\u3000\\u3000\\u3000\\'\\uff70\\'\\u3000\\u3000!_,.:<br><br><br></font><font size=\"12\" color=\"#ff7f7f00\">     __..,,__\\u3000\\u3000\\u3000,.\\uff61=\\'`1<br>\\u3000\\u3000\\u3000\\u3000 .,,..;~`\\'\\'\\'\\'\\u3000\\u3000\\u3000\\u3000`\\'\\'\\'\\'\\uff1c``\\u5f61\\u3000}<br>\\u3000 _...:=,`\\'\\u3000\\u3000 \\u3000\\ufe35\\u3000 \\u0442\\u3000\\ufe35\\u3000\\u3000X\\u5f61-J<br>\\uff1c`\\u3000\\u5f61 /\\u3000\\u3000\\u30df\\u3000\\u3000,_\\u4eba_.\\u3000\\uff0a\\u5f61\\u3000`~<br>\\u3000 `~=::\\u3000\\u3000\\u3000 \\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 \\u3000\\u3000\\u3000Y<br>\\u3000\\u3000 \\u3000i.\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000 .:<br>\\u3000\\u3000\\u3000.\\\\\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000,\\uff61---.,,\\u3000\\u3000./<br>\\u3000\\u3000\\u3000\\u3000\\u30fd\\u3000\\uff0f\\uff9e\\'\\'```\\\\;.{\\u3000\\u3000\\u3000 \\uff3c\\uff0f<br>\\u3000\\u3000\\u3000\\u3000\\u3000Y\\u3000\\u3000\\u3000`)..(_.\\u5f73\\u3000 \\u3000|<br>\\u3000\\u3000\\u3000\\u3000\\u3000{\\u3000\\u3000\\u3000``\\u3000\\u3000`\\u3000\\u3000\\u3000i<br>\\u3000\\u3000\\u3000\\u3000\\u3000\\\\\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\uff3c\\u3000\\u3000\\u3000..\\ufe35\\ufe35.<br>\\u3000\\u3000\\u3000\\u3000\\u3000`\\uff3c\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000``\\u309e.,/` oQ o`)<br>\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000`i,\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000Y\\u3000 \\u03c9\\u3000/<br>\\u3000\\u3000\\u3000\\u3000 \\u3000\\u3000`i,\\u3000\\u3000\\u3000 \\u3000\\u3000.\\u3000\\u3000\\u3000\\u3000\"\\u3000\\u3000\\u3000/<br>\\u3000\\u3000\\u3000\\u3000 \\u3000\\u3000`i\\u30df\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000,,\\u30ce<br>\\u3000\\u3000\\u3000\\u3000 \\u3000 \\ufe35Y..\\ufe35.,,\\u3000\\u3000\\u3000\\u3000\\u3000,,+..__\\u30ce``<br>\\u3000\\u3000\\u3000\\u3000\\u3000(,`, \\u0417 \\u043e\\u3000\\u3000\\u3000\\u3000,.\\u30ce\\u5ddd\\u5f61\\u309e\\u5f61\\u3000\\u3000\\uff0a<br>\\u3000\\u3000\\u3000\\u3000\\u3000 \\u309e_,,,....\\u5f61\\u5f61~\\u3000\\u3000\\u3000`+\\u0425\\u5f61\\u5f61\\u5f61\\u5f61+<br> </font><font size=\"12\" color=\"#ffffffff\">\\xb0 \\u3000\\xb8. * \\u25cf \\xb8 .\\u3000\\u3000\\xb0 \\u263e \\xb0 \\u3000\\xb8. \\u25cf \\xb8 .\\u3000\\u3000\\u2605\\u3000\\xb0 :.\\u3000 . \\u2022  \\xb0 \\u3000 .\\u3000 *\\u3000 \\xb8  . \\u25cf \\xb8  \\u3000\\u3000\\u3000 \\u2605\\u3000\\u3000\\u2605  \\u263e  \\xb0\\u2605 . \\u3000\\u3000.\\u3000 \\xb0\\u2606  \\u3000. \\u25cf \\xb8 .\\u3000\\u3000\\u3000\\u2605\\u3000\\xb0 .\\u3000 \\u2022 \\u25cb \\xb0 \\u2605\\u3000  .\\u3000 \\u263e \\u3000 \\u3000.\\u2605 \\u3000\\xb0  .\\u3000  \\u2022  \\u25cb .\\u3000\\u3000\\u3000*\\u3000.  \\u3000 \\u263e \\xb0  \\u3000\\xb8. * \\u25cf \\xb8 \\u3000\\u3000\\u3000\\u3000\\xb0 \\u263e \\xb0\\u2606 \\u3000. * \\xb8.\\u3000\\u3000\\u3000\\u2605\\u3000\\u2605 \\xb0 .  .\\u3000\\u3000\\u3000\\u3000.\\u3000 \\u263e \\xb0\\u2606  \\u3000.  *   \\u25cf  \\xb8 .\\u3000  \\u3000\\u3000\\u2605\\u3000\\xb0 :   .\\u3000  . \\u2022 \\u25cb \\xb0 \\u2605 \\u3000 .\\u3000 *\\u3000.\\u3000\\u3000\\u3000\\u3000\\u3000\\u3000. \\u3000 \\xb0 \\u3000. \\u25cf .\\u3000\\u3000 \\u3000\\u3000\\xb0 \\u263e \\xb0\\u2606  \\u3000 \\u3000\\u3000\\u2605 \\u3000 \\u3000 \\u2605 \\xb0 \\u263e  \\u2606 \\xb8. \\xb8 \\u3000\\u2605 \\u3000 : . \\u3000   . \\u2022 \\u25cb   \\xb0 \\u2605\\u3000 . \\u3000 *\\u3000.\\u3000.\\u3000\\u3000\\xb8 .\\u3000\\u3000 \\xb0 \\u3000\\xb8. * \\u25cf \\u2605 \\xb8 .\\u3000.\\u3000\\xb0 \\u263e\\u3000  \\u2605 \\xb0 . .\\u3000  \\u3000\\u3000\\u3000.\\u3000 \\xb0  \\u3000. * \\u25cf \\xb8 .\\u3000 \\u3000\\u3000\\u2605\\u3000\\xb0 :  .\\u3000 . \\u2022 \\u25cb \\xb0  \\u2605\\u3000  .\\u3000 *\\u3000.\\u3000\\u3000\\u263e\\u3000\\u3000\\u3000\\u3000. \\u3000 \\xb0 \\u3000. \\u25cf .\\u3000\\u3000 \\u3000 \\xb0 \\u263e \\xb0\\u2606 \\u3000\\xb8.\\u25cf .\\u3000\\u3000 \\u2605\\u3000\\u3000\\u2605 \\xb0 \\u263e  \\u2606 \\xb8. \\xb8 \\u3000\\u2605\\u3000 :  .\\u3000 . \\u2022 \\u25cb \\xb0  \\u2605\\u3000 . \\u3000 *\\u3000.\\u3000.\\u3000\\u3000\\xb8 .\\u3000\\u3000 \\xb0 \\u3000\\xb8.  * \\u25cf   \\xb8 .\\u3000\\u3000\\u3000\\u3000\\xb0  \\u263e  \\xb0 \\u2605 \\u3000\\u3000\\u2605 \\xb0 \\u263e \\u2606 \\xb8. \\xb8 \\u3000\\u2605\\u3000 :.\\u3000\\u3000\\xb8. \\u25cf \\xb8 .\\u3000\\u3000\\u2605\\u3000\\xb0 :  .  \\u3000 . \\u2022 \\xb0 \\u3000  .\\u3000 * \\u3000:.\\u3000 .\\u3000\\xb8  . \\u25cf \\xb8 \\u3000\\u3000\\u3000\\u2605\\u3000\\u3000\\u2605  \\u263e \\xb0\\u2605 . \\u3000\\u3000\\u2605 \\xb0 . .\\u3000\\u3000\\u3000\\u3000.  \\u3000\\u263e \\xb0\\u2606  \\u3000. * \\u25cf \\xb8 .\\u3000\\u3000\\u3000 \\u2605\\u3000\\xb0  :  .\\u3000 . \\u2022 \\u25cb   \\xb0 \\u2605  \\u3000 .\\u3000 *\\u3000.\\u3000\\u3000 \\u3000\\u3000. \\u3000 \\xb0\\u2605 \\u3000\\u3000\\u2605 \\xb0 \\u263e \\u2606 \\xb8. \\xb8 \\u3000\\u2605\\u3000 :.\\u3000 . \\u2022 \\u25cb \\xb0 \\u2605  \\u3000 . \\u3000 * \\u3000. \\u3000.\\u3000\\u3000  \\xb8 .\\u3000\\u3000 \\xb0 \\u3000\\xb8. * \\u25cf \\xb8 .\\u3000\\u3000\\u3000\\u3000\\xb0 \\u263e \\xb0 \\u3000\\xb8.  \\u25cf  \\xb8 .\\u3000\\u3000\\u2605\\u3000\\xb0 :.\\u3000 . \\u2022  \\xb0  \\u3000 .\\u3000 *\\u3000:.\\u3000.\\u3000\\xb8 . \\u25cf \\xb8 \\u3000\\u3000\\u3000\\u2605\\u3000\\u3000\\u2605\\u263e  \\u2022. \\xb0\\u2605  .  \\u3000 \\u2605 \\u3000\\u3000\\u2605 \\xb0 \\u263e </font>'",
+          "description_state": "value",
+          "corporation_id": "98592004",
+          "source": "https://esi.evetech.net/latest/characters/2116281527/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98592004.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2116281527/"
+      ]
+    },
+    "2116328027": {
+      "id": "2116328027",
+      "names": [
+        "Mandygrally"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "#1403 曼森 <color=0xffffe0ef>现在我回来了，我比你自己更了解你。我会征服你的恐惧，把你的肉体化为尘埃</color>",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffff0000\"> </font><font size=\"12\" color=\"#ffffffff\"> \\u2584\\u258c  \\u2592\\u2584    \\u2591 \\u2590\\u2584\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c<br> \\u2590\\u2588\\u2584\\u258c \\u2590\\u2588\\u258c   \\u2592 \\u2588\\u2588\\u2588\\u2580\\u2584\\u2588\\u2588\\u2588\\u2588 \\u2591<br>  \\u2588\\u2588\\u2588\\u2584 \\u2588\\u2588   \\u2593\\u258c\\u2590\\u2588\\u258c\\u2590\\u2588\\u2588\\u2588\\u2588\\u258c\\u2590\\u2593\\u2584<br>  \\u2590\\u2588\\u2588\\u2580\\u2584 \\u2593\\u2588  \\u2590\\u2588\\u2584\\u2588 \\u2588\\u2588\\u2588\\u2588\\u2593 \\u2588\\u2593\\u2588\\u2588\\u2584\\u2584<br> \\u2590\\u2584\\u2588\\u2588\\u2588 \\u2588\\u2588\\u2592\\u2588\\u2584 \\u2588\\u2588\\u2593 \\u2588\\u2588\\u2588\\u2588\\u2593 \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2584 </font><font size=\"12\" color=\"#ffff0000\">\\u2584<br></font><font size=\"12\" color=\"#ffffffff\"> \\u2588\\u2588\\u2588\\u2588\\u258c  \\u2588\\u2588\\u2591\\u2588\\u258c\\u2590\\u2588\\u2593 \\u2588\\u2588\\u2588\\u2588\\u2593 \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593   <br> \\u2588\\u2588\\u2588\\u2588    \\u2588\\u258c\\u2590\\u2584\\u2588\\u2588\\u2593 \\u2590\\u2588\\u2588\\u2588\\u2588 \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c <br> \\u2588\\u2588\\u2588\\u2588    \\u2590\\u2588 \\u2588\\u2588\\u2588\\u2588\\u258c\\u2591\\u2580\\u2593\\u2588\\u2588\\u258c\\u2590\\u2588\\u2580\\u2588\\u2588\\u2588\\u2588\\u2588\\u2580<br> \\u2588\\u2588\\u2588\\u2588     \\u2590\\u2588 \\u2588\\u2588\\u2588\\u2588\\u2588 \\u2593\\u2584\\u2580\\u2588\\u2588 \\u2588\\u2588\\u2584\\u2580\\u2580 <br> \\u2588\\u2588\\u2588\\u2588\\u258c   \\u2590\\u2588 \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588 \\u2588\\u2588\\u2588\\u2588\\u258c\\u2590\\u2593 <br> \\u2590\\u2588\\u2588\\u2588\\u2588   \\u2588\\u258c\\u2590\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c\\u2590\\u2588\\u2588\\u2588\\u2588\\u2592   <br>  \\u2588\\u2588\\u2588\\u2580 \\u2584\\u2588\\u2580\\u2584\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2584\\u2588\\u2588\\u2588\\u2588\\u258c   <br>   \\u2580 \\u2584\\u2580\\u2593\\u2588\\u2588\\u2580\\u2580\\u2591\\u2584\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2588\\u2588\\u2588\\u2588 <br>   \\u2584\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c\\u2590\\u2588\\u2588\\u2588\\u258c<br>  \\u2588\\u2588\\u2588\\u2588\\u2580\\u2584\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c \\u2588\\u2588\\u2588\\u2588 <br> \\u2588\\u2588\\u2588\\u2588\\u258c\\u2590\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c  \\u2580\\u2588\\u2588\\u258c<br>\\u2590\\u2588\\u2588\\u2588\\u2588 \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591 \\u2590\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588 \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2584 \\u2588\\u2588\\u2588\\u258c <br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c\\u2590\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588 \\u2580\\u2588\\u2588   <br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2584\\u2580\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u258c \\u2584\\u2580  <br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2584 \\u2580\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2580 \\u2588\\u2588\\u2580\\u2584 <br>\\u2590\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2580  \\u2580\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2580 \\u2584\\u2588\\u2580 \\u2584\\u2588\\u2588\\u2584 <br> \\u2580\\u2593\\u2588\\u2588\\u2588\\u2584\\u2584\\u2584\\u2584   \\u2580\\u2588\\u2588\\u2588\\u2580\\u2580 \\u2584\\u2584\\u2588\\u2580 \\u2584\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2584<br>\\u0421\\u0443\\u043a\\u0430\\u0431\\u043b\\u044f\\u0442\\u044c<br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:83646953:131ccb307aa3ad2c6eb48ce05118f4a788033713\">Kill: Merkatori </a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:83646936:ad71debc03dbe876fec1861f52d7aae37621c742\">kill\\uff1aPakostb  </a><a href=\"killReport:83810106:e4a9bafa7cb948bd1157f7f31264c456f1dfc09c\">kill\\uff1aPbatt  </a><a href=\"killReport:83810415:da5db76ab5624bf3dfb98b139d3526ff5f9e81fd\">kill\\uff1aEchelonNot </a><a href=\"killReport:84017521:5f8e28904a1cad3b1c0cc077023c13026f7b1b9d\">kill\\uff1aJason Knight Knight  </a><a href=\"killReport:84408988:9fe206173a8fb084376f671992e0914a6eeb0e65\">Kill\\uff1aAnimal Human Hybrids  </a><a href=\"killReport:86183230:81765186f962524f2bd2256f9989cab999e71a85\">Kill\\uff1arobot 12138 </a><a href=\"killReport:84408988:9fe206173a8fb084376f671992e0914a6eeb0e65\"> </a><br><a href=\"showinfo:32959//9001630897000725515\">D-34343</a><a href=\"killReport:84408988:9fe206173a8fb084376f671992e0914a6eeb0e65\">  </a><a href=\"showinfo:32960//9001632595000763403\">F-435454</a><a href=\"killReport:84408988:9fe206173a8fb084376f671992e0914a6eeb0e65\">  </a><a href=\"showinfo:32961//9001635097000790553\">P-343554</a><a href=\"killReport:84408988:9fe206173a8fb084376f671992e0914a6eeb0e65\">  </a><a href=\"showinfo:32962//9001655005000908598\">W-634</a></font>'",
+          "description_state": "value",
+          "corporation_id": "98608055",
+          "source": "https://esi.evetech.net/latest/characters/2116328027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98608055.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2116328027/"
       ]
     },
     "2116398427": {
@@ -971,6 +1569,64 @@
         "docs/corporations/notes/member-research/98588384.json#叶落星海历史榜第51至100名头衔核读2026-11-01"
       ]
     },
+    "2116640127": {
+      "id": "2116640127",
+      "names": [
+        "Date T"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "u'<font size=\"13\" color=\"#ff999999\"></font><font size=\"12\" color=\"#bfffffff\"> </font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:6f1579fb1b2122e8a11deed0c4054f2eec30895d//1\">\\u5237\\u602a\\u603b\\u89c8</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:ffb5381baf065fe18915c39fc7e6ef2630fa99fe//1\">\\u7f85\\u535cAAK\\u603b\\u89c8</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"showinfo:5//30004994\">\\u963f\\u5189\\u7279</a></font><font size=\"12\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "1000181",
+          "source": "https://esi.evetech.net/latest/characters/2116640127/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98585972.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2116640127/"
+      ]
+    },
+    "2116829027": {
+      "id": "2116829027",
+      "names": [
+        "Pramana"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "麦尬 ",
+          "title_state": "value",
+          "description": "u\"We're friendly miners, dont shoot.<br>(''') \\u043e___\\u043e (''')<br>_\\\\ '( \\u043e_\\u043e )' / <br>--\\\\ \\\\_\\u0428_/ / <br>---l . . . . l <br>--/ ./---\\\\. \\\\<br>(\\u201e\\u201e\\u201e)____(\\u201e\\u201e\\u201e)<br>              \\uff3f\\uff3f<br>\\u3000\\u3000\\u3000\\u3000\\u3000\\uff0f\\uff1e\\u3000\\u3000\\u30d5<br>\\u3000\\u3000\\u3000\\u3000\\u3000| \\u3000_\\u3000 _ l<br>\\u3000 \\u3000\\u3000\\u3000\\uff0f` \\u30df\\uff3fx\\u30ce<br>\\u3000\\u3000 \\u3000 /\\u3000\\u3000\\u3000 \\u3000 |<br>\\u3000\\u3000\\u3000 /\\u3000 \\u30fd\\u3000\\u3000 \\uff89<br>\\u3000 \\u3000 \\u2502\\u3000\\u3000|\\u3000|\\u3000|<br>\\u3000\\uff0f\\uffe3|\\u3000\\u3000 |\\u3000|\\u3000|<br>\\u3000| (\\uffe3\\u30fd\\uff3f_\\u30fd_)__)<br>\\u3000\\uff3c\\u4e8c\\u3064<br><br>\\u3000\\uff0fl\\u3001  <br>\\uff08\\uff9f\\uff64 \\u3002 \\uff17 <br> \\u3000l\\u3001 ~\\u30fd <br>\\u3000\\u3058\\u3057f_, )\\u30ce<br><br>   \\u2227\\uff3f\\u2227<br>\\uff08\\uff61\\uff65\\u03c9\\uff65\\uff61)\\u3064\\u2501\\u2606\\u30fb*\\u3002<br>\\u2282\\u3000\\u3000 \\u30ce \\u3000\\u3000\\u3000\\u30fb\\u309c+.<br>\\u3000\\u3057\\u30fc\\uff2a\\u3000\\u3000\\u3000\\xb0\\u3002+ *\\xb4\\xa8)<br>\\u3000\\u3000\\u3000 \\u3000\\u3000.\\xb7 \\xb4\\xb8.\\xb7*\\xb4\\xa8) \\xb8.\\xb7*\\xa8)<br> \\u3000                (\\xb8.\\xb7\\xb4 (\\xb8.\\xb7\\u2019*<br>  <br>                    \\u20ac  - \\u738b -^<br>                   | \\u3000 _  _  l<br>\\u3000 \\u3000        \\u3000\\u3000\\uff0f  \\u30df\\uff3fx \\u30ce<br>        \\u3000\\u3000 \\u3000 /\\u3000\\u3000       )<br>       \\u3000\\u3000\\u3000 /\\u3000 \\u30fd\\u3000  \\u3000 \\uff89<br>       \\u3000 \\u3000 \\u2502\\u3000   \\u3000|\\u3000|\\u3000|<br>          \\u3000\\uff0f\\uffe3|\\u3000\\u3000 |\\u3000|\\u3000|<br>\\u3000          | (\\uffe3\\u30fd\\uff3f_\\u30fd_)__)<br>          \\u3000\\uff3c\\u4e8c\\u3064<br><br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2592\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593<br>\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2588\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588<br>\\u2588\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2588\\u2588\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593<br>\\u2588\\u2593\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2592\\u2593\\u2588\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593<br>\\u2588\\u2588\\u2588\\u2592\\u2592\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2588\\u2588\\u2588\\u2588\\u2592\\u2593\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2593\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2592\\u2592\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2593\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2592\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2593\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2593\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2591\\u2592\\u2592\\u2591\\u2591\\u2588\\u2588\\u2588\\u2593\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2593\\u2593\\u2592\\u2591\\u2591\\u2592\\u2592\\u2588\\u2588\\u2588\\u2593\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2588\\u2591\\u2591\\u2591\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2593\\u2593\\u2591\\u2591\\u2591\\u2592\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2592\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2593\\u2588\\u2593\\u2592\\u2591\\u2591\\u2592\\u2592\\u2592\\u2593\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591<br>\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591<br>\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2593\\u2593\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591<br>\\u2592\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2592\\u2593\\u2588\\u2592\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2592<br>\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2593\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2593\\u2588<br>\\u2588\\u2588\\u2592\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591<br>\\u2592\\u2591\\u2591\\u2591\\u2591\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591<br>\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591<br>\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2593\\u2593\\u2592\\u2593\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588<br>\\u2593\\u2593\\u2592\\u2592\\u2593\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2588\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2591\\u2593\\u2588\\u2588\\u2588\\u2593\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2593\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2593<br>\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2592\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2593\\u2592\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2593\\u2588\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588<br>\\u2588\\u2588\\u2588\\u2592\\u2591\\u2592\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2593\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2591\\u2593\\u2593\\u2591\\u2593\\u2588\\u2593\\u2593\\u2593\\u2592\\u2591\\u2591\\u2591\\u2591\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2592\\u2592\\u2592\\u2592\\u2592\\u2591\\u2592\\u2592\\u2592\\u2592\\u2592\\u2591\\u2592\\u2592\\u2591\\u2592\\u2592\\u2591\\u2593\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2593\\u2591\\u2593\\u2588<br>\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2592\\u2592\\u2592\\u2592\\u2592\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2591\\u2592\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588<br>\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2593\\u2588\\u2588\\u2588\\u2593\\u2588<br>\\u2588\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2592\\u2591\\u2591\\u2588\\u2588\\u2588\\u2588\\u2593\\u2591\\u2591\\u2591\\u2591\\u2588\\u2588\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\\u2588\\u2593\"",
+          "description_state": "value",
+          "corporation_id": "98562360",
+          "source": "https://esi.evetech.net/latest/characters/2116829027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98562360.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2116829027/"
+      ]
+    },
     "2116924627": {
       "id": "2116924627",
       "names": [
@@ -999,6 +1655,64 @@
       "evidence": [
         "docs/corporations/notes/member-research/98764551.json",
         "docs/corporations/notes/member-research/98764551.json#pla-fleet历史榜前100头衔核读2026-11-01"
+      ]
+    },
+    "2117017927": {
+      "id": "2117017927",
+      "names": [
+        "YorumiRena"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000044",
+          "source": "https://esi.evetech.net/latest/characters/2117017927/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98632312.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2117017927/"
+      ]
+    },
+    "2117181527": {
+      "id": "2117181527",
+      "names": [
+        "E117-S32"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xFFFFFF00> 欧塔轮椅驾驶员 - Otsasai Wheelchair Driver </color>",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"></font><font size=\"11\" color=\"#ff00ff00\">\\u6750\\u6599\\u5b66II \\u7406\\u8bba\\u529b\\u5b66I \\u666e\\u901a\\u5316\\u5b66I \\u9ad8\\u7b49\\u6570\\u5b66I \\u666e\\u901a\\u5316\\u5b66II \\u7535\\u6c14\\u5de5\\u7a0b\\u57fa\\u7840IV \\u57fa\\u5efa\\u7406\\u8bbaVI<br></font><font size=\"12\" color=\"#ffb2b2b2\">\\u53d1\\u7535\\u4e0e\\u5efa\\u7b51\\u5185\\u6784\\u7535\\u6c14\\u5de5\\u7a0b\\u5e08 </font><font size=\"12\" color=\"#ffff0000\">\\u7c73\\u739b\\u5854\\u5c14\\u592a\\u9633\\u80fd\\u5149\\u677f\\u5b89\\u88c5\\u7406\\u8bbaIV<br></font><font size=\"18\" color=\"#ffff0000\">\\u5de6\\u624b\\u7d27\\u63e1\\u52c7\\u6c14\\uff0c\\u53f3\\u624b\\u9ad8\\u4e3e\\u5e0c\\u671b\\u3002\\u5316\\u4e3a\\u70c8\\u7130\\uff0c\\u6d12\\u5411\\u9700\\u8981\\u5149\\u4e0e\\u4fe1\\u4ef0\\u7684\\u5730\\u65b9\\u3002o\\u262d<br></font><font size=\"14\" color=\"#ffd98d00\"><a href=\"killReport:96272176:433758cd5f01e18e0b76c0f81422d2d76738163c\">\\u51fb\\u6bc1\\uff1agamecheif11 (\\u7edd\\u5ff5\\u7ea7)</a><br><a href=\"killReport:100646340:28d1b392016cdbbbe19f874f14e5ab7214a868f6\">\\u51fb\\u6bc1\\uff1aLinda Belinda (\\u82ac\\u5229\\u5384\\u7ea7*)</a><br><a href=\"killReport:103690765:2fd0bdc439599e5fd2e8457fc378836c49590b02\">\\u51fb\\u6bc1\\uff1aArazbek Tokkinen (\\u52d2\\u6c99\\u514b\\u7ea7)</a><br><a href=\"killReport:109038314:2a6f27e4e9f8478466edc6c5dfb34a9dda9a801c\">\\u51fb\\u6740\\uff1aArtych Kanjus (\\u6d85\\u65af\\u6258\\u7ea7*)</a><br><a href=\"killReport:104255692:41dc3e0fa3e55506c42ac0a907acb0569c890920\">\\u51fb\\u6740\\uff1aKatzenlord (\\u6d1b\\u57fa\\u7ea7*)</a><br><a href=\"killReport:96971727:edfe63be04cb55d52c22693b943df992aeabdd74\">\\u51fb\\u6740\\uff1aDok Top (\\u4e4c\\u9e26\\u7ea7\\u6d77\\u519b\\u578b*)</a><br><a href=\"killReport:102435490:7912c5bc721d3e0f14626dd86245e9289c605635\">\\u51fb\\u6740\\uff1aDux Amens (\\u4e4c\\u9e26\\u7ea7\\u6d77\\u519b\\u578b*)</a><br><a href=\"killReport:104405352:a93e642dfeee0307a6fa33f2a125f4e743b0a5c9\">\\u51fb\\u6740\\uff1aHarley Koraka (\\u6bd2\\u874e\\u7ea7\\u6d77\\u519b\\u578b*)</a><br><a href=\"killReport:96223825:9f7b957c8d1b8aa9d210e7c1376c259e89f41513\">\\u51fb\\u6740\\uff1aBargy (\\u9b54\\u50cf\\u7ea7*)</a><br><a href=\"killReport:109132988:a346e75421ebb952f16c4014d456499657a3107e\">\\u51fb\\u6740\\uff1ahearnoevil (\\u91d1\\u9e4f\\u7ea7*)</a><br><a href=\"killReport:95337903:c2bd43eb45266692025d75d0528235b8c4f481a5\">\\u51fb\\u6740\\uff1aChadyote (\\u6267\\u6cd5\\u8005\\u7ea7*)</a><br><a href=\"killReport:95222207:98b28d0471b4e19282a107f0f88220f8f2ec03bf\">\\u51fb\\u6740\\uff1aChristopher Ebert (\\u65af\\u7279\\u4fee\\u65af\\u7ea7*)</a><br><a href=\"killReport:111267165:9cdf9cf8d19f511ddbea5911acd617c5fd31a993\">\\u51fb\\u6740\\uff1aNiko Chase (\\u5965\\u82cf\\u65af\\u7ea7*)</a><a href=\"killReport:95222207:98b28d0471b4e19282a107f0f88220f8f2ec03bf\"> </a><br><a href=\"killReport:95222212:f687aad805613f17ebcfa123583b5535cb4410f9\">\\u51fb\\u6740\\uff1aChristopher Ebert (\\u592a\\u7a7a\\u8231*)</a><br><a href=\"killReport:108993849:4a6f940e4de2487a878cafad47b81345ab08917e\">\\u51fb\\u6740\\uff1aCOCO MILK (\\u592a\\u7a7a\\u8231 - \\u683c\\u9c81\\u6c40 \\u66d9\\u5149 197-\\u884d\\u751f\\u578b*)</a><br><a href=\"killReport:97386550:1c609c8e3c95df069c1b7eac20ec26c72096ab5f\">\\u51fb\\u6740\\uff1aUnseen Onzo (\\u592a\\u7a7a\\u8231 - \\u683c\\u9c81\\u6c40 \\u66d9\\u5149 197-\\u884d\\u751f\\u578b*) </a><br><a href=\"killReport:111729204:4c4eadc3329fbf874ed72d6d675530f76b33fa92\">\\u51fb\\u6740\\uff1aThingymawotzit (\\u6076\\u72fc\\u7ea7*)</a><a href=\"killReport:97386550:1c609c8e3c95df069c1b7eac20ec26c72096ab5f\"> </a></font>'",
+          "description_state": "value",
+          "corporation_id": "98185110",
+          "source": "https://esi.evetech.net/latest/characters/2117181527/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98633272.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2117181527/"
       ]
     },
     "2117192927": {
@@ -1040,6 +1754,35 @@
       "evidence": [
         "docs/corporations/notes/member-research.json",
         "docs/corporations/notes/member-research/98575144.json#phoenix-city历史榜前100头衔核读2026-11-01"
+      ]
+    },
+    "2117277827": {
+      "id": "2117277827",
+      "names": [
+        "Pekarghad Rova"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "遗忘 #673926555",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"></font><font size=\"12\" color=\"#ffffe400\"><a href=\"http://vision.qiyemh.com/\">http://vision.qiyemh.com/</a></font><font size=\"12\" color=\"#bfffffff\"> \\u519b\\u56e2\\u5ba3\\u4f20\\u7f51\\u7ad9<br></font><font size=\"12\" color=\"#ffffe400\"><a href=\"http://dscan.info/\">http://dscan.info/</a></font><font size=\"12\" color=\"#bfffffff\">       \\u626b\\u63cf\\u7f51\\u7ad9<br></font><font size=\"12\" color=\"#ffffe400\"><a href=\"http://eve-lp.com/\">http://eve-lp.com/</a></font><font size=\"12\" color=\"#bfffffff\"> lp\\u5151\\u6362bi <br></font><font size=\"12\" color=\"#ff00a99d\"><a href=\"overviewPreset:966b6b60f3c6abe4c715bec53a8dc5cc0143275f//1\">\\u5357\\u5317\\u6d3e\\u603b\\u89c8</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:94591186:dbfa5b714615523335a0c70a5bb20e9a9d03f9a4\">\\u51fb\\u6bc1\\uff1a\\u94c1\\u58c1</a></font><font size=\"12\" color=\"#bfffffff\"> <br></font><font size=\"12\" color=\"#ff6868e1\"><a href=\"joinChannel:player_-87667843//None//None\">\\u5357\\u5317\\u6d3e\\u4e13\\u5bb6\\u7ec4</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ff6868e1\"><a href=\"joinChannel:player_84a35b70cd3111e8bfa59abe94f5a43f//None//None\">\\u9ad8\\u5b89\\u6b7b\\u4ea1\\u4ea4\\u6613\\u4ea4\\u6d41</a></font><font size=\"12\" color=\"#bfffffff\">  </font><font size=\"12\" color=\"#ff6868e1\"><a href=\"joinChannel:player_2e5e6f61dc8611e99d669abe94f5b483\">\\u603b\\u89c8\\u6536\\u96c6\\u9891\\u9053</a></font><font size=\"12\" color=\"#bfffffff\"> <br><br><br></font><font size=\"12\" color=\"#ffd98d00\"><a href=\"killReport:95304542:783962a58e19b4b420a108e64b69ab9bd4432d8a\">\\u51fb\\u6bc1\\uff1a\\u661f\\u57ce</a></font><font size=\"12\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98703426",
+          "source": "https://esi.evetech.net/latest/characters/2117277827/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98703426.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2117277827/"
       ]
     },
     "2117561427": {
@@ -1374,6 +2117,35 @@
       },
       "evidence": []
     },
+    "2119951027": {
+      "id": "2119951027",
+      "names": [
+        "Indi Aquila"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98651050",
+          "source": "https://esi.evetech.net/latest/characters/2119951027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98650314.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2119951027/"
+      ]
+    },
     "2120227727": {
       "id": "2120227727",
       "names": [
@@ -1388,6 +2160,93 @@
       },
       "evidence": []
     },
+    "2120893127": {
+      "id": "2120893127",
+      "names": [
+        "Isase"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "洛文",
+          "title_state": "value",
+          "description": "u'<font size=\"15\" color=\"#bfffffff\"> </font><font size=\"15\" color=\"#ffd98d00\"><a href=\"killReport:137496458:6757afbc74787f257be3fc19cda492d823470635\">\\u51fb\\u6740\\uff1aJammster (\\u592a\\u7a7a\\u8231*)</a></font><font size=\"15\" color=\"#bfffffff\"> </font>'",
+          "description_state": "value",
+          "corporation_id": "98702000",
+          "source": "https://esi.evetech.net/latest/characters/2120893127/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98702000.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2120893127/"
+      ]
+    },
+    "2121461527": {
+      "id": "2121461527",
+      "names": [
+        "Anin Rin"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "麥芽糖",
+          "title_state": "value",
+          "description": "Graduates of the State War Academy's Combat Pilot Center are known for their quick thinking and finely honed reflexes. ",
+          "description_state": "value",
+          "corporation_id": "1097611545",
+          "source": "https://esi.evetech.net/latest/characters/2121461527/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/1097611545.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2121461527/"
+      ]
+    },
+    "2121492327": {
+      "id": "2121492327",
+      "names": [
+        "WEIyunzhao"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<b><color=0xFFFF0000>神圣魏凤皇庭女帝陛下-竹叶青</color></b>",
+          "title_state": "value",
+          "description": "u'<font size=\"14\" color=\"#bfffffff\"><br></font><font size=\"36\" color=\"#ffff0000\"><b>\\u8d5e\\u7f8e\\u5d07\\u9ad8\\u7684\\u5949\\u732e,\\u6b63\\u56e0\\u4e3a\\u6b7b\\u4ea1\\u7ed9\\u4e88\\u5e73\\u51e1\\u7684\\u751f\\u547d\\u5b9d\\u8d35\\u7684\\u610f\\u4e49,\\u75db\\u996e\\u6b63\\u4e49\\u727a\\u7272\\u8005\\u7684\\u9c9c\\u8840,\\u5982\\u6b64,\\u4e3b\\u7684\\u5149\\u660e\\u53ef\\u7167\\u8000\\u4f60.\\u4f7f\\u543e\\u7b49\\u51fa\\u4f17\\u7684,\\u5e76\\u975e\\u4e8e\\u9634\\u5f71\\u4e2d\\u6c89\\u6ca6,\\u4ea6\\u975e\\u4f34\\u5149\\u660e\\u5347\\u8d77,\\u6b63\\u662f\\u4e8e\\u8fd9\\u4e24\\u8005\\u95f4\\u7684\\u65e0\\u5c3d\\u6323\\u624e\\u624d\\u662f\\u4f1f\\u5927\\u54c1\\u683c\\u4e4b\\u6240\\u5728,\\u6211\\u4eec\\u7ecf\\u53d7\\u8003\\u9a8c,\\u800c\\u6211\\u4eec\\u5e76\\u672a\\u5d29\\u6e83,\\u6211\\u4eec\\u6c38\\u4e0d\\u5815\\u843d!<br>He is a man, and u will praise to him as such!<br>Without sacrifice,there is no victory.<br>Armoured in faith, shielded by devotion and armed with purity of purpose.<br><br>Only in death dose duty end?Infinity war!<br>I am the wrath of the Emperor himself!<br>Holy Emporor,lord of humanity,master of Mankind,who protects and watches over all,GodEmperor,light of the Imperium,give unto me your strenth,lend me your patience,forgive my weakness and grant me your mercy.<br>\\u4eba\\u7c7b\\u4e0d\\u7ecf\\u5386\\u7c7b\\u4f3c\\u7684\\u82e6\\u96be\\u5c31\\u65e0\\u6cd5\\u5171\\u60c5\\uff0c\\u552f\\u6709\\u5fcd\\u8010\\u540c\\u4e00\\u79cd\\u7c7b\\u538b\\u8feb\\u548c\\u51cc\\u8650\\u624d\\u53ef\\u80fd\\u89c9\\u9192\\u81ea\\u5df1\\u9636\\u7ea7\\u6027\\uff0c\\u56e0\\u6b64\\u4f20\\u64ad\\u82e6\\u96be\\u662f\\u4e00\\u79cd\\u7f8e\\u5fb7\\uff0c\\u5723\\u5f92\\u5e26\\u6765\\u6551\\u8d4e\\uff0c\\u5fcf\\u6094\\uff0c\\u590d\\u4ec7\\uff0c\\u6b7b\\u4ea1\\u3002</b><br><br>(\\u25e3\\u2227\\u25e2)</font><font size=\"36\" color=\"#ffffffff\"><b>\\u6765\\u7ed9\\u6211\\u5f53\\u661f\\u6012\\uff0c\\u5988\\u5988\\u5305\\u75bc\\u4f60\\u7231\\u4f60\\u7684\\uff0c\\u65f6\\u4e0d\\u65f6\\u7ed9\\u672c\\u5bab\\u4e0a\\u8d21\\u4e00\\u4e0b\\uff0c\\u5e26\\u4f60\\u5403\\u8089\\u3002</b><br></font><font size=\"24\" color=\"#bfffffff\">\\u039e\\u03bd\\u039e \\u0398\\u03a0L\\u0406\\u03a0\\u039e   1000000\\u6280\\u80fd\\u70b9/one million skillpoint------ </font><font size=\"24\" color=\"#ffffe400\"><a href=\"https://www.eveonline.com/zh/signup?invc=751ca022-9751-40f8-9b12-1500a607f8f4\">https://www.eveonline.com/zh/signup?invc=751ca022-9751-40f8-9b12-1500a607f8f4</a></font>'",
+          "description_state": "value",
+          "corporation_id": "98813744",
+          "source": "https://esi.evetech.net/latest/characters/2121492327/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98813744.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2121492327/"
+      ]
+    },
     "2122018427": {
       "id": "2122018427",
       "names": [
@@ -1401,6 +2260,35 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2122055027": {
+      "id": "2122055027",
+      "names": [
+        "Nelkonoi Kumamato"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "FIGHTING       SHOOT THIS        RESISTS TO HAVE<br>Angel Cartel    Explode/Kinetic     Explode(62%)/Kinetic(22%)<br>Blood Raiders   EM/Thermal        EM(50%)/Thermal(48%) <br>CONCORD       Kinetic/Thermal     %30 of each<br>Equ of Mankind  Kinetic            Kinetic (74%) / Thermal (26%)<br>Guristas        Kinetic/Thermal     Kinetic(79%)/Thermal(18%) <br>Khanid          EM/Thermal        Thermal/EM       <br>Mercenaries     Kinetic/Thermal     All types<br>Mordu's Legion  Kinetic/EM          Kinetic(70%)/Thermal(30%) <br>Rogue Drones   EM/Thermal        All types<br>Sansha         EM/Thermal        EM(53%)/Thermal(47%) <br>Serpentis       Kinetic/Thermal     Thermal(55%)/Kinetic(45%) <br>Sleepers        omni              omni<br>Triglavian (inv)   Explosive/Thermal  omni<br>Triglavian(abyss) Explosive/Thermal  Thermal (60%) / Explosive (40%)    <br><br>Amarr          EM/Thermal       EM(47%)/Thermal(42%)<br>Caldari         Kinetic/Thermal    Kinetic(51%)/Thermal(48%) <br>Gallente        Kinetic/Thermal    Kinetic(60%)/Thermal(39%) <br>Minmatar       Explode/Kinetic    Explode(50%)/Kinetic(31%) <br><br>Eve Market Hubs<br>Jita I Rens I Hek I Amarr I Dodixie I Oursulaert I Perimeter",
+          "description_state": "value",
+          "corporation_id": "98769388",
+          "source": "https://esi.evetech.net/latest/characters/2122055027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98650314.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2122055027/"
+      ]
     },
     "2122125627": {
       "id": "2122125627",
@@ -1636,6 +2524,35 @@
       },
       "evidence": []
     },
+    "2122677027": {
+      "id": "2122677027",
+      "names": [
+        "ranshaozhe zhishiji"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "<color=0xFF00FF00><b>燃烧者</b></color>",
+          "title_state": "value",
+          "description": "Alumni of the Royal Amarr Institute are known for their business acumen and economic prowess.",
+          "description_state": "value",
+          "corporation_id": "98779710",
+          "source": "https://esi.evetech.net/latest/characters/2122677027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98779710.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2122677027/"
+      ]
+    },
     "2122699127": {
       "id": "2122699127",
       "names": [
@@ -1849,6 +2766,35 @@
         "docs/corporations/notes/member-research/98642382.json#红楼前50头衔增量2026-10-15"
       ]
     },
+    "2123850527": {
+      "id": "2123850527",
+      "names": [
+        "DJIT10000"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "大龙",
+          "title_state": "value",
+          "description": "Intrepid explorers from the Science and Trade Institute have a reputation for fearlessness in the face of the unknown. ",
+          "description_state": "value",
+          "corporation_id": "98617920",
+          "source": "https://esi.evetech.net/latest/characters/2123850527/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98617920.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2123850527/"
+      ]
+    },
     "2123888527": {
       "id": "2123888527",
       "names": [
@@ -1914,13 +2860,26 @@
         "RedSpiderluo"
       ],
       "labels": [],
-      "profiles": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "断念",
+          "title_state": "value",
+          "description": "Alumni from the The School of Applied Knowledge are considered to be some of the savviest industrialists in the cluster.",
+          "description_state": "value",
+          "corporation_id": "98645589",
+          "source": "https://esi.evetech.net/latest/characters/2123942027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
       "review": {
         "state": "legacy",
         "findings": [],
         "next_steps": []
       },
-      "evidence": []
+      "evidence": [
+        "https://esi.evetech.net/latest/characters/2123942027/"
+      ]
     },
     "2124025427": {
       "id": "2124025427",
@@ -1949,6 +2908,35 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2124046027": {
+      "id": "2124046027",
+      "names": [
+        "Donggua02"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": "冬瓜",
+          "title_state": "value",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "98761581",
+          "source": "https://esi.evetech.net/latest/characters/2124046027/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98761581.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124046027/"
+      ]
     },
     "2124073727": {
       "id": "2124073727",
@@ -2073,6 +3061,35 @@
         "next_steps": []
       },
       "evidence": []
+    },
+    "2124536427": {
+      "id": "2124536427",
+      "names": [
+        "mirage-banana"
+      ],
+      "labels": [],
+      "profiles": [
+        {
+          "as_of": "2026-11-13",
+          "title": null,
+          "title_state": "absent",
+          "description": "",
+          "description_state": "empty",
+          "corporation_id": "1000045",
+          "source": "https://esi.evetech.net/latest/characters/2124536427/",
+          "source_key": "esi-current:2026-11-13"
+        }
+      ],
+      "review": {
+        "state": "unread",
+        "findings": [],
+        "next_steps": []
+      },
+      "evidence": [
+        "docs/corporations/notes/member-research/98825299.json",
+        "https://esi.evetech.net/latest/universe/names/",
+        "https://esi.evetech.net/latest/characters/2124536427/"
+      ]
     },
     "2124543127": {
       "id": "2124543127",

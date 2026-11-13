@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "thread_id": "2022556917",
+  "url": "https://tieba.baidu.com/p/2022556917",
+  "references": [
+    "src/people/shou-xin/materials-shou-xin.json"
+  ],
+  "legacy_records": [],
+  "title": "冰封手心爆料,其实睾丸神马的只是为了帮星联出货!",
+  "published_date": "2012-12-02",
+  "discovery": [
+    "匿名客户端关键词检索：冰封手心 eve"
+  ],
+  "review": {
+    "status": "text-read",
+    "read_at": "2026-11-12T03:26:59Z",
+    "notes": [
+      "5条可见主楼及#1聊天截图已核读。截图小字有辨识边界；仅存战争出货调侃，不认定故意送船。署名来自转贴，未核原始帖子。"
+    ],
+    "evidence": [
+      "src/people/shou-xin/materials-shou-xin.json#国服指挥嘲讽与收费培训"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/shouxin-2022556917.json",
+    "fetched_at": "2026-11-12T03:21:51.601Z",
+    "main_posts": 5,
+    "subposts": 0,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

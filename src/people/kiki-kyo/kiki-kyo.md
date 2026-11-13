@@ -1,8 +1,8 @@
 
-大林，主号 **Alasker**，另一个常用角色 Kiki Kyo 的头衔是“大林Allen”。他用 Kiki Kyo 担任 F1 Monkey. 的 CEO、创建 Esports Petopia（华人比赛联盟），也带过华人虫洞联盟 War and Wormhole（WAW）。
+大林，主号 **Alasker**，另一个常用角色 Kiki Kyo 也叫“大林Allen”。他用 Kiki Kyo 担任 F1 Monkey. 的 CEO、创建 Esports Petopia（华人比赛联盟），也带过华人虫洞联盟 War and Wormhole（WAW）。
 
 ::: 红料 华人第一个虫洞联盟，和一个比赛联盟
-2022 年 Alasker 参选第 17 届 CSM，[竞选帖](https://forums.eveonline.com/t/alasker-for-csm17/363516)自我介绍：2009 年在晨曦服入坑，2017 年来宁静服；2018 年建了“第一个华人虫洞联盟 War and Wormhole”，2019 年又建了专打小队战和比赛的 Esports Petopia；2021 年和 CCP Aurora 合办了面向澳洲和中国时区的夏季锦标赛；当时还挂着 DC（Dracarys.）“首席舰队指挥”的头衔。
+2022 年 Alasker 参选第 17 届 CSM，[竞选帖](https://forums.eveonline.com/t/alasker-for-csm17/363516)自我介绍：2009 年在晨曦服入坑，2017 年来宁静服；2018 年建了“第一个华人虫洞联盟 War and Wormhole”，2019 年又建了专打小队战和比赛的 Esports Petopia；2021 年和 CCP Aurora 合办了面向澳洲和中国时区的夏季锦标赛；当时还担任 DC（Dracarys.）首席舰队指挥。
 
 后来拿下 AT19 冠军的那批人——[黑莲](../2115433044/)、[拉面林](../91309503/)、[斑鸠](../2113386745/)、[青衣](../2114736322/)——不少人是从他的 F1 Monkey. 和 Esports Petopia 出来的。
 :::

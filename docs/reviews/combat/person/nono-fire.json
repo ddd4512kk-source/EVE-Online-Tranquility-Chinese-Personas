@@ -1,0 +1,122 @@
+{
+  "status": "reviewed",
+  "note": "总结",
+  "evidence": [
+    "src/people/nono-fire/materials-nono-fire.json",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
+    "src/people/nono-fire/nono-fire.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号与确认小号的战斗统计显示长期参与旗舰战；正文把人物主线放在剪辑创作，只写具体莫洛参战与损失，没有把舰队击杀归为个人战功。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/materials-nono-fire.json",
+          "heading": "## 2026-11-09：zKillboard 与 Monitor 统计快照"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "两名确认小号均有来源和统计，正文未混写小号战果；战役材料按角色 ID 单列。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/materials-nono-fire.json",
+          "heading": "## 2026-11-09：zKillboard 与 Monitor 统计快照"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "本次补写未依赖高值月份、代表击杀或指挥战绩；具体 KM 只用于核对本人莫洛战损。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/materials-nono-fire.json",
+          "heading": "### 2024-11-29 1N-FJ8 黑色星期五 / 角色 2113426221"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "1N-FJ8 关联角色、日期与代表 KM 对上本人及战役材料；卡片中的其他战役关联没有被扩写为未经核实的职责。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/materials-nono-fire.json",
+          "heading": "### 2024-11-29 1N-FJ8 黑色星期五 / 角色 2113426221"
+        },
+        {
+          "file": "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
+          "contains": "NoNoOwO／2113426221"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "正文有独立 1N-FJ8 战斗叙事块，区分创作与个人驾驶、损失，并回扣其战报作者身份；未将泰坦战果记在他名下。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/nono-fire.md",
+          "contains": "2024 年 11 月的 [1N-FJ8 黑色星期五]"
+        },
+        {
+          "file": "src/people/nono-fire/nono-fire.md",
+          "contains": "AVDOT 的战报连着发了多年"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/729015.json",
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/bilibili-news-collaboration-2026.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/kheshig-removal-debate-2025.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/qihei-siling-titan-intel-2025.json",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
+    "src/people/nono-fire/2113426221-id.json",
+    "src/people/nono-fire/materials-nono-fire.json",
+    "src/people/nono-fire/nono-fire.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.json",
+    "src/battles/turnur-2026/turnur-2026.json",
+    "src/battles/turnur-2026/turnur-2026.md",
+    "src/battles/turnur-2026/materials-turnur-2026.json"
+  ],
+  "inputs": "c1d6ae077cc8e83d07928787b0fe369f6750756866b00fb070622045d2e8ae74",
+  "inputParts": {
+    "docs/bilibili/729015.json": "f59730d5524d97bc3628e90a1eb023631c0fe61b5150da4234c0dcfb70c26eff",
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/bilibili-news-collaboration-2026.json": "70b9babd5beaaf197c3e83b338027362b8c405bb47ca38fd7a0b338a2be7ff96",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/kheshig-removal-debate-2025.json": "d6bbc214e478bfe4d8cbe2e266ceb703615618375281e1399040674319b83c33",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/qihei-siling-titan-intel-2025.json": "4023be364c9c16f6ee24ef7dd472d1660612a946b44b18aba8ed53ee95244034",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json": "907987b702c3812a4249bb874bd7b57d91974864d26543254c201107003df7df",
+    "src/people/nono-fire/2113426221-id.json": "ebd418f46d04e566e386824c73e268a8a00335b5eb897c4bd6fb6d0b33ef8ae8",
+    "src/people/nono-fire/materials-nono-fire.json": "2427f15b83953085f34ff7700cae82e16b0c645abf6aedec519dd5f60109f82d",
+    "src/people/nono-fire/nono-fire.md": "bd7887e9828888d84af8b4edfe19c22d81e3286d6c80c15c99e565ce02daf4fb",
+    "battle:1n-fj8-2024": "93302bf5e67a09036cb8629f5691446029cff2227b441dbda952fff5bbb816d9",
+    "battle:319-3d-2020": "5ce3cf4e0d2a351bb4d7d7d96cb4543ab341e4122a078bafb62b1a224c628da5",
+    "battle:fwst-8-2020": "3f76987dfa193b871d83583b4953058bfdf6298c0b7e336dabc5d76fe0d69f17",
+    "battle:taff-2026": "ef93e9b3fdc66831af4d1c39586ec4aa894a037d9ac90d33eba84d9ea1fcf7d5",
+    "battle:turnur-2026": "8a6119a996f015f369e720a617097b4ad0c13c18e9bd405fc460b0aa72a305c2"
+  },
+  "level": 1
+}

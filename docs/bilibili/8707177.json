@@ -36,16 +36,16 @@
     },
     "coverage": {
       "latest": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-10-15T13:18:38.131Z",
+        "scope": "已存空间首屏候选链接；已读入文战役相关作品BV1ca41147aR作品页。",
+        "evidence": "https://space.bilibili.com/8707177"
       },
       "popular": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定已有覆盖；先读identity.material与prior_notes，不因字段待核重新联网。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-10-15T13:18:38.131Z",
+        "scope": "已存空间首屏候选链接；按已有播放量排序。",
+        "evidence": "https://space.bilibili.com/8707177"
       },
       "series": {
         "state": "unknown",
@@ -309,9 +309,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
-        "digest": "标题指名J-TPTA千人旗舰战。"
+        "state": "digested",
+        "scope": "作品页标题、简介与J-TPTA战役素材对应；未看全片影像音轨。",
+        "reviewed_at": "2026-11-12",
+        "digest": "2022-03-31投稿，对应2022年J-TPTA千人旗舰会战（无UI纯享版），播放逾两千。简介自述“不知道有fax死的有点快了”，从PMA视角记录旗舰战损与交战实况。"
       },
       "usage": {
         "body": false,

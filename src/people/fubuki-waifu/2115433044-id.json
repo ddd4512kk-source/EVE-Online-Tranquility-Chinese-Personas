@@ -138,6 +138,15 @@
           "last_active": "2025-06",
           "as_of": "2026-11-02"
         }
+      },
+      {
+        "id": 2118389924,
+        "name": "Skylee Aurieux",
+        "basis": "完整公开名片署“黑莲 wc话痨王者”，军团98178881也在本人历史雇佣记录中，归入本人。",
+        "sources": [
+          "materials-fubuki-waifu.json#军团名片身份对应",
+          "https://esi.evetech.net/latest/characters/2118389924/"
+        ]
       }
     ],
     "accounts": {},
@@ -160,66 +169,74 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T14:30:00Z",
-      "verdict": "FRT夺得AT19世界冠军的核心队长，单杀近五百次、坦荡撰写复盘自认指挥失误的世界级名将。",
+      "reviewedAt": "2026-11-12T03:24:54Z",
+      "verdict": "把队伍从零比二带到冠军，复盘时也把自己的锅端上来。",
       "axes": {
         "shenren": {
           "tier": "D",
-          "reason": "极具竞技精神与坦荡风度的冠军领袖，零丑闻零低俗闹剧，常人基准。",
+          "reason": "简介晒损失、二次元自嘲与决赛指挥失误均属正常游戏经历；认领失误也不自动评成理性典范，按常人基准。",
           "sources": [
             {
-              "label": "AT19 冠军复盘",
+              "label": "AT19冠军复盘",
               "url": "https://fubukiwaifu.top/archives/1704426912155"
             }
           ]
         },
         "combat": {
           "tier": "S",
-          "reason": "AT19冠军队长兼核心主力，单杀476次、击杀超1.2万，恶狼与顶尖巡洋操作出神入化。",
+          "reason": "AT19冠军队长且两号分场打满全队九场；主号一万二千余击杀、476次单杀，小号另有828次单杀，竞技成绩与长期实战共同支撑顶尖档，不将两号数字当去重战果。",
           "sources": [
             {
-              "label": "Fubuki Waifu zKillboard",
+              "label": "AT19冠军复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
+            },
+            {
+              "label": "Fubuki Waifu 战斗记录",
               "url": "https://zkillboard.com/character/2115433044/"
+            },
+            {
+              "label": "Yogg Saronn 战斗记录",
+              "url": "https://zkillboard.com/character/96125442/"
             }
           ]
         },
         "command": {
           "tier": "S",
-          "reason": "AT世界冠军总指挥，组织全队战术配合、BP博弈与临场调度，登顶世界竞技巅峰。",
+          "reason": "AT18失利后重组队伍，担任AT19冠军队长并实际临场指挥，复盘亲述决赛第二局目标选择错误；S依据是顶级赛事指挥成绩，不冒称千人联军总指挥。",
           "sources": [
             {
-              "label": "AT19 冠军复盘",
+              "label": "AT19冠军复盘",
               "url": "https://fubukiwaifu.top/archives/1704426912155"
             }
           ]
         },
         "charisma": {
-          "tier": "S",
-          "reason": "重挫后不弃，带队登顶世界冠军；亲写复盘主动认领失误，广受全社区玩家尊重。",
+          "tier": "A",
+          "reason": "失利后仍能把老队友和多支比赛队的选手重新聚齐，带队夺冠并公开认锅，比赛圈号召与华人社区声望突出；尚不足据此推成全服精神图腾。",
           "sources": [
             {
-              "label": "AT19 冠军复盘",
+              "label": "AT19冠军复盘",
               "url": "https://fubukiwaifu.top/archives/1704426912155"
             }
           ]
         },
         "politics": {
           "tier": "B",
-          "reason": "在蜜蜂与FRT两大势力间流转，主导FRT比赛团队建设，为联盟赢得顶级荣誉。",
+          "reason": "主导重组FRT比赛队，跨队招募、筛选与维系备战班底，组织经营突出；换过联盟本身不算政治成果，冠军也不自动换算联盟执政地位。",
           "sources": [
             {
-              "label": "Fubuki Waifu 雇佣记录",
-              "url": "https://zkillboard.com/character/2115433044/"
+              "label": "AT19组队复盘",
+              "url": "https://fubukiwaifu.top/archives/1704426912155"
             }
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "坐拥AT冠军赛船与巨额赛事奖金池，拥有顶配战备机库。",
+          "tier": "A",
+          "reason": "公开简介列有奥苏斯、Laelaps等AT赛船收藏，支持高价值个人资产A档；全队奖金池与冠军奖励不能全算给队长，现有材料不支持S。",
           "sources": [
             {
-              "label": "Fubuki Waifu zKillboard",
-              "url": "https://zkillboard.com/character/2115433044/"
+              "label": "Fubuki Waifu 公开角色简介",
+              "url": "https://esi.evetech.net/latest/characters/2115433044/"
             }
           ]
         }

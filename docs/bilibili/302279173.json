@@ -5,13 +5,18 @@
   "url": "https://space.bilibili.com/302279173/",
   "identity": {
     "state": "confirmed",
-    "person": "duomi",
-    "material": "src/people/duomi/materials-duomi.json",
-    "label": "多米",
+    "person": "jj-soulmate",
+    "material": "src/people/jj-soulmate/materials-jj-soulmate.json",
+    "label": "汉兰达",
     "evidence": [
-      "已归本人；PHCN会议记录"
+      "魔丸和多米（UID302279173）对应汉兰达／JJ SoulMate；不能按账号昵称或上传PHCN会议归给多米。"
     ],
-    "related": []
+    "related": [
+      {
+        "material": "src/people/duomi/materials-duomi.json",
+        "reason": "旧档误归多米，已撤销账号对应；PHCN会议上传不证明上传者是多米或录音中的发言人。"
+      }
+    ]
   },
   "channel": {
     "profile": {},
@@ -136,12 +141,13 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "2026-11-12读取B站作品页标题、上传者与完整简介，并打开简介所附BR读取日期窗口、地点、分队、概要及JJ SoulMate条目。未观看影像、未听音轨、未读评论。页面owner只确认UID302279173上传；未核原始拍摄／制作署名。",
+        "digest": "作品标题写10月4日“北军噩梦反剧本地滑”，简介只附BR。BR记录的是LX-ZOJ交战：窗口11:00–14:00 UTC，交火12:50–13:02，18.5B、306名角色、94条损失；FRT及友军对Goonswarm Federation。汉兰达驾驶Monitor在FRT一侧，支持其在北军指挥位。这个战报对应北军与蜜蜂的交战，不是同日17:15–19:26 UTC、约1.814T的8F-TK3无畏战。视频本身及拍摄者未核，不推演画面、镜头或具体指挥过程。"
       },
       "usage": {
-        "body": false,
-        "selected": true
+        "body": true,
+        "selected": false
       }
     },
     {
@@ -161,8 +167,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品元数据、公开简介及全部可见主评论；未看全片影像音轨，拍摄／制作署名未核。",
+        "reviewed_at": "2026-11-12",
+        "digest": "魔丸和多米（汉兰达，UID 302279173）2026-05-31 投稿，时长 5:19，播放约 810、评论 5。简介与标题同为“静寂谷日常反收割”，无战报。可见评论指出内容为“大航钓鱼”反收割（无所极：“还就那个大航钓鱼”；M1ki1y：“直钩饵咸”；好粤来粤：“钓鱼”）。未听原音，不推测具体击杀与参战驾驶员。"
       },
       "usage": {
         "body": false,
@@ -186,13 +194,13 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
-        "digest": "标题把两边舰队规模和主力船型摆在一起，是频道日常舰队战题材的一条直观入口。"
+        "state": "digested",
+        "scope": "2026-11-12读取B站作品页标题、上传者、简介、标签和计数；打开简介所附YouTube原片并读其标题、频道名、说明和原片简介；读取简介所附BR的概要、组织分队与战损条目。未播放影像、未听音轨、未读取评论；B站页为转载或同步发布，原片频道名Gothikia，具体剪辑／制作分工未说明。",
+        "digest": "作品页标题称“90 Napoc 对 130 Raven”，并链接YouTube原片与BR。原片由Gothikia频道发布，说明称Winter Coalition在Pure Blind集结防守Skyhook，最后取胜；标题和说明所附战报记录298条损失、806名角色、约99.9B损失，3小时4分战斗，FRT及盟友对The Initiative.。战报列汉兰达驾驶Monitor、在FRT一侧。标题的90对130是作品标题口径，BR是全场298条损失／806角色，不能视为同一人数统计。未看视频本身，不据此补写具体镜头、驾驶员表现或指挥过程。"
       },
       "usage": {
-        "body": false,
-        "selected": true
+        "body": true,
+        "selected": false
       }
     },
     {
@@ -212,13 +220,13 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "state": "digested",
+        "scope": "2026-10-17读取公开简介（“-”）及5个已加载主评论线程；未展开楼中楼，未听会议、读字幕或转录。评论记录在本篇digest，只摘要评论者对会议的反应，不当作会议发言内容。上传者为UID302279173，未确认会议发言人。",
         "digest": "1045播放、7评论。5个主线程多为催第三段／故事、问军团名字，商见曜灬质问加入深水与下铁壁的关系，缺被回应人的明确身份和原话，不推断多米真实决策。\n\n会议记录把视线从战场转到组织内部；与第一段连读，可以补上FC频道之外的管理场景。"
       },
       "usage": {
         "body": false,
-        "selected": true
+        "selected": false
       }
     },
     {
@@ -238,12 +246,12 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。",
+        "state": "digested",
+        "scope": "2026-10-17读取公开简介（“-”）及10个已加载主评论线程；未展开楼中楼，未听会议、读字幕或转录。评论记录在本篇digest，只摘要评论者对会议的反应，不当作会议发言内容。上传者为UID302279173，未确认会议发言人。",
         "digest": "1648播放、16评论、2弹幕，上传者魔丸和多米。绝对力量X、龙哥哥哥哥哥哥z把它叫跑路／散伙动员，商见曜灬讥讽只打顺风战，筱橘ORG质疑PHCN内部活跃与内斗。其他回复谈远程桌面／QQ检查，但没有点明谁实施，不能写成多米本人提出或下令，不把不明主语的隐私指控归到他身上。"
       },
       "usage": {
-        "body": true,
+        "body": false,
         "selected": false
       }
     }

@@ -52,22 +52,26 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
-      "verdict": "军团半小时开成，欠款一年半未平。",
+      "reviewedAt": "2026-11-12T03:24:54Z",
+      "verdict": "军团半小时开成，欠款一年半才由团友拿船收尾。",
       "axes": {
         "shenren": {
           "tier": "A",
-          "reason": "泰坦定金久拖、把辱骂与退款挂钩，属于严重管理失当。",
+          "reason": "本人承诺退定金后久拖未结，FOX一方又以债主公开批评解释拒还，最后由团友供船收尾；属严重管理失当，不据此推定合谋骗款。",
           "sources": [
             {
-              "label": "贴吧关于抵抗之狐定金公案讨论帖",
-              "url": "https://tieba.baidu.com/p/8742601380"
+              "label": "泰坦定金本人回应",
+              "url": "https://tieba.baidu.com/p/10970443928"
+            },
+            {
+              "label": "FOX欠款最终解释",
+              "url": "https://tieba.baidu.com/p/10971963891"
             }
           ]
         },
         "combat": {
           "tier": "C",
-          "reason": "数百击杀与既有泰坦驾驶经历，按已见熟练职责评。",
+          "reason": "已存快照约四百八十次参与击杀、三十六次单杀，常开猎狼等小船；按熟练实战评，不因CEO或曾驾驶泰坦直接升精锐。",
           "sources": [
             {
               "label": "Renard42 战斗记录",
@@ -77,45 +81,45 @@
         },
         "command": {
           "tier": "B",
-          "reason": "官网明确特种、小队及中等主权战FC。",
+          "reason": "本人署名招募帖明确任WC、NC的FC，负责特种、小队与中等规模主权战，支持稳定带队档；尚不按大联盟主力总指挥评。",
           "sources": [
             {
-              "label": "Fox of Resistance 官网历史",
-              "url": "https://foxor.cc/about/"
+              "label": "抵抗之狐具名招募",
+              "url": "https://forum.gamer.com.tw/Co.php?bPage=0&bsn=9457&sn=6546&subbsn=4"
             }
           ]
         },
         "charisma": {
-          "tier": "C",
-          "reason": "官网、招新及视频形成团内稳定影响。",
+          "tier": "B",
+          "reason": "长期经营约四百角色的军团，官号七十余投稿并持续制作战报、招新和护卫评级，已有圈内受众与组织号召；欠款争议不抹去真实追随。",
           "sources": [
             {
-              "label": "抵抗之狐官方 B站主页",
-              "url": "https://space.bilibili.com/3493129424472519"
+              "label": "抵抗之狐官方频道",
+              "url": "https://space.bilibili.com/3546639406991863"
             },
             {
-              "label": "Fox of Resistance 官网",
+              "label": "抵抗之狐历史",
               "url": "https://foxor.cc/about/"
             }
           ]
         },
         "politics": {
           "tier": "A",
-          "reason": "长期经营四百角色FOX并制定权责制度，属大团主官。",
+          "reason": "抵抗之狐创始人及长期CEO，带团历经PH、NC并制定决策与战术分工；按大团主官履职评，不能把下属全部工作都算给他。",
           "sources": [
             {
-              "label": "Fox of Resistance 官网历史",
-              "url": "https://foxor.cc/about/"
+              "label": "抵抗之狐核心团队",
+              "url": "https://foxor.cc/team/"
             }
           ]
         },
         "wealth": {
           "tier": "B",
-          "reason": "本人曾驾驶泰坦，具高价值战备；代垫承诺不冒充已付。",
+          "reason": "本人曾驾驶泰坦，已有高价值战备门槛；军团免费发船、税收与他人供夜神不算他的个人资产，也不把口头兜底当成已经付款。",
           "sources": [
             {
-              "label": "Fox of Resistance 军团资产记录",
-              "url": "https://zkillboard.com/corporation/98755298/"
+              "label": "泰坦定金本人回应与合同",
+              "url": "https://tieba.baidu.com/p/10970443928"
             }
           ]
         }

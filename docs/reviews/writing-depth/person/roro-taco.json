@@ -1,0 +1,80 @@
+{
+  "status": "reviewed",
+  "note": "核对职责线索、战绩和战役采用，短篇与材料范围相称；无独立重事件。",
+  "evidence": [
+    "src/people/roro-taco/materials-roro-taco.json",
+    "src/people/roro-taco/roro-taco.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "The body uses the coalition CN internal diplomacy role, diplomacy team, Director titles, CN/EN arbitrator title, stats and two battles. No independent dispute or major event in the materials is omitted. Bio collections are details, not attributed kills.",
+      "evidence": [
+        {
+          "file": "src/people/roro-taco/materials-roro-taco.json",
+          "heading": "## 身份与联盟职责"
+        },
+        {
+          "file": "src/people/roro-taco/materials-roro-taco.json",
+          "heading": "## 战绩与已有战役核对"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "This short coalition-management biography has no sourced independent major event; it develops the role and bio contrast without presenting an imagined arbitration process as an actual event.",
+      "evidence": [
+        {
+          "file": "src/people/roro-taco/roro-taco.md",
+          "contains": "挂着中英文仲裁的头衔，接的活天然比“翻译一下”麻烦"
+        }
+      ],
+      "items": [],
+      "noHeavyReason": "Available materials record coalition diplomacy, character titles, game statistics, and ordinary battle appearances, with no specific dispute process or major management event. The short biography does not promote ordinary participation into a major story."
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "The opening establishes coalition-management identity; combat follows immediately; later prose returns to bilingual arbitration and bio detail. Length fits the lightweight sources without combat logs obscuring the role.",
+      "evidence": [
+        {
+          "file": "src/people/roro-taco/roro-taco.md",
+          "contains": "小Q，游戏名 RoroTaco，2022 年建号"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/leads/lancetlot-outamon.json",
+    "docs/leads/shi-yuan-yu.json",
+    "docs/leads/ster-sing.json",
+    "docs/leads/winterco-leadership-2026.json",
+    "docs/sources/frt-offtimezone-quotes-2025.json",
+    "docs/sources/winterco-communications-review-2026-10-13.json",
+    "docs/sources/winterco-leadership-2026.json",
+    "src/people/roro-taco/2119613659-id.json",
+    "src/people/roro-taco/materials-roro-taco.json",
+    "src/people/roro-taco/roro-taco.md",
+    "src/battles/h-5gui-2026/h-5gui-2026.json",
+    "src/battles/h-5gui-2026/h-5gui-2026.md",
+    "src/battles/h-5gui-2026/materials-h-5gui-2026.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json"
+  ],
+  "inputs": "9cb1d576491cb47f7349037bb4299ef1fb9f0de1ab90a7a012afcd54f14ebfb0",
+  "inputParts": {
+    "docs/leads/lancetlot-outamon.json": "c580df1dc4a91e53ff9ce3c1711cab8b62567c1997f4af04f1374a0fe96de059",
+    "docs/leads/shi-yuan-yu.json": "bb8df348d28cc39f9f71f079ce6dcd87f93be4384bbf43c9d1068d2b257a0720",
+    "docs/leads/ster-sing.json": "cb7cc3f133c66fa47567b2b8625ccf0c888d8d6cfdf4cf759fc6fc84f261cb19",
+    "docs/leads/winterco-leadership-2026.json": "6dbd56e70c9b30c9a4fab15a5e11428ac0a6908414efadb9c3c8b2a327d6e5d7",
+    "docs/sources/frt-offtimezone-quotes-2025.json": "d6380e478f4b4fbc0b16c03959b7bf78cbe76f84b1ba293397bbeca10a257357",
+    "docs/sources/winterco-communications-review-2026-10-13.json": "888e495d28636c67f996507ffef734f247fb4a2e609d57dd8f11095679f05d1f",
+    "docs/sources/winterco-leadership-2026.json": "416b8b8df01f7c5e0ceafe2cd6bee53e8fe8100330e00329007962b7c3b98f61",
+    "src/people/roro-taco/2119613659-id.json": "ca2a2be79978465246a2a5989950efd6c11908f04d8dc36771d72eb3a561b459",
+    "src/people/roro-taco/materials-roro-taco.json": "e1f47f9f541e2e83327c194c2a2ed06b45a19b099b60dfefd7726d561be76b85",
+    "src/people/roro-taco/roro-taco.md": "dc8021b285412253232ac7da070ad56759bad6f0c30e5a14fdd75f5d38894cf3",
+    "battle:h-5gui-2026": "9b253cc5092908000c7aa50fe9a7936ce6e5e0a2748017d46f32f75eec848d9b",
+    "battle:x47l-q-2023": "67592c20aacb79cecbde3a4947ac7f651ef99d09f2507e3426067911cdd223d1"
+  },
+  "level": 1
+}

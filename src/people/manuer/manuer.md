@@ -1,5 +1,5 @@
 
-Enterprise Tadaruwa，头衔“♚ 曼努尔 ♚”，B 站 UP 主 [EVE曼努尔](https://space.bilibili.com/172859920)。2017 年秋天建号，年底进伏羲（Fuxi Legion）入了 FRT，2019 年起落脚 FBC（Foredawn Business Corporation），一待就是七年多，再没挪过窝。角色简介不写身世也不写格言，整页都是自家视频目录，打头一句“B站关注EVE曼努尔”。
+Enterprise Tadaruwa，曼努尔，国王棋子开道的派头，B 站 UP 主 [EVE曼努尔](https://space.bilibili.com/172859920)。2017 年秋天建号，年底进伏羲（Fuxi Legion）入了 FRT，2019 年起落脚 FBC（Foredawn Business Corporation），一待就是七年多，再没挪过窝。角色简介不写身世也不写格言，整页都是自家视频目录，打头一句“B站关注EVE曼努尔”。
 
 他在宁静混出名，靠的是录像机积下的七十多条投稿。七十来个投稿里，标题带“N老板”的占了一大截：泰坦怎么没的，五毛钱怎么丢的，FC 怎么喊的，都由他剪好、配上 KM 链接、挂上 B 站。FRT 的老板写战报，他替老板写起居注，记的偏偏是老板不太想留档的那几页。
 

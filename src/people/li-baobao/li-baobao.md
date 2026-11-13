@@ -1,8 +1,8 @@
 
-李宝宝，游戏名 Li BaoBao，头衔“梦魇”，2018 年底建号。2019 年在北极星（PMA）的 Thunder Mercenary Army 待过大半年，同年 10 月转进 FRT 的 Thunders Claw Fleet，一住就是五年多。2025 年 3 月，[帝国新闻社的爆料](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)把他钉在了 AT 冠军船现金交易的买家席上。
+李宝宝，游戏名 Li BaoBao，也叫梦魇，2018 年底建号。2019 年在北极星（PMA）的 Thunder Mercenary Army 待过大半年，同年 10 月转进 FRT 的 Thunders Claw Fleet，一住就是五年多。2025 年 3 月，[帝国新闻社的爆料](https://forum.pla-eve.com/topic/248-frt-member-rmt-at-champions-ship/)把他钉在了 AT 冠军船现金交易的买家席上。
 
 ::: 红料 无畏舰上的梦魇
-李宝宝的 [zKillboard](https://zkillboard.com/character/2114801659/) 是一份典型的旗舰舰队后排账：参与击杀一百多次，七千亿上下，八成多开的是神示无畏舰，自己赔进去的不过十几条、四百来亿。单杀是零，头衔却叫“梦魇”，名字放在对手的无畏舰队面前，听着比战绩吓人。
+李宝宝的 [zKillboard](https://zkillboard.com/character/2114801659/) 是一份典型的旗舰舰队后排账：参与击杀一百多次，七千亿上下，八成多开的是神示无畏舰，自己赔进去的不过十几条、四百来亿。单杀是零，却顶着梦魇这个名字；名字放在对手的无畏舰队面前，听着比战绩吓人。
 
 他的账几乎全押在一个月上。2023 年 8 月，[4-ABS8 的无畏会战](../../battles/4-abs8-2023/)打成一个星系里的重炮对轰，他的神示 KM 几乎全落在那一个地方，那个月一口气进账五千多亿，占了整个生涯的大头。无畏舰的日子大多这样：几个月不见动静，一场会战下来，全年的 KB 都在这一晚发了。
 

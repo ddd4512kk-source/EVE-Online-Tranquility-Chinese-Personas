@@ -1,0 +1,363 @@
+{
+  "status": "reviewed",
+  "note": "总结",
+  "evidence": [
+    "src/people/nono-fire/materials-nono-fire.json",
+    "src/people/nono-fire/nono-fire.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "正文中的创作、公开互动、争议和战斗事件均可在本人材料或其指向的来源中找到骨架；没有将标题战果或小号经历归为本人行动。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/materials-nono-fire.json",
+          "heading": "## 北方战争：向 Asher 递送内部舰队统计"
+        },
+        {
+          "file": "src/people/nono-fire/materials-nono-fire.json",
+          "contains": "简介称多开时临时选操作最少的号录像"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "南华洗库争议与递送情报两件重事展开了情境、反差及评论反应；其余作品和参战按普通或轻料处理。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/nono-fire.md",
+          "contains": "2023 年蜜蜂北上介入 Brave、B2 与 FRT 的战争"
+        }
+      ],
+      "items": [
+        {
+          "title": "1N-FJ8 参战及莫洛损失",
+          "weight": "ordinary",
+          "reason": "代表 KM 可核，属于普通个人参战补充。",
+          "source": {
+            "file": "src/people/nono-fire/materials-nono-fire.json",
+            "heading": "### 2024-11-29 1N-FJ8 黑色星期五 / 角色 2113426221"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nono-fire/nono-fire.md",
+            "contains": "NoNoOwO 的黑色星期五录像把剪辑和参战两条线接到了一起。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "代表 KM 锚定 NoNoFire 驾驶莫洛参战。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "NoNoFire 驾驶莫洛"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "剪辑者同时进入战报，记录个人损失和开火失误。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "最后那条船还是被打掉"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "评论回复具体承认凤凰开火晚、后续标枪未中。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "后续标枪没打到目标。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "没有把舰队标题中的泰坦战果算作个人输出。"
+        },
+        {
+          "title": "南华大学洗库争议",
+          "weight": "heavy",
+          "reason": "公开帖子点名 NoNoFire 参与洗库并引发账号权限争论，是重要黑历史。",
+          "source": {
+            "file": "src/people/nono-fire/materials-nono-fire.json",
+            "contains": "《【纪录司快讯】帝国永远的敌人，南华大学完蛋了》5907087483"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nono-fire/nono-fire.md",
+            "contains": "2018 年 10 月 8 日，"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代事件时尚未加入 AVDOT。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "那会儿他还没进 AVDOT"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "帝国宣传稿将其包装成毁灭联盟的壮举，评论却嫌所得不够买大航。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "“严密的运作”运作出一百五十亿"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "宣传稿称联盟被消灭，评论却围绕仅 150e 的规模起哄。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "吧友的关注点很快跑偏"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "评论进一步质疑是盗号或共享账号。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "这不叫洗机库，这是盗号或者共享账号。"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "宣传口吻和评论区算账形成反差。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "“严密的运作”运作出一百五十亿"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "金额和评论争议均有材料出处。"
+        },
+        {
+          "title": "向 Asher 递送内部舰队统计",
+          "weight": "heavy",
+          "reason": "私下递送多家编制并要求保密，对话后来公开，引发社区评价。",
+          "source": {
+            "file": "src/people/nono-fire/materials-nono-fire.json",
+            "heading": "## 北方战争：向 Asher 递送内部舰队统计"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nono-fire/nono-fire.md",
+            "contains": "2023 年蜜蜂北上介入 Brave、B2 与 FRT 的战争"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "想让内线消息帮蜜蜂争胜并成为秘密联系人。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "他是想让这份内线消息帮蜜蜂赢一把"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "开头要求保密，流传出来的偏偏是这段交涉。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "NoNo 开口求绝密，流传出来的偏偏就是这段保密交涉。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "阿舍的简短回复和贴吧批评写出冷淡反应。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "先“thank you”，再“ok thanks”"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "结尾落在送情报的人自己成了公开情报。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "送情报的人倒先成了公开情报。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "没有声称交易或具体战果。"
+        },
+        {
+          "title": "拾泰坦作品与 RMT 质疑",
+          "weight": "ordinary",
+          "reason": "作品与 UP 回复可证，交易传闻指向 ACR，不能算作 NoNo 本人交易。",
+          "source": {
+            "file": "src/people/nono-fire/materials-nono-fire.json",
+            "heading": "## 泰坦片团队、作者回应与具体补选（2026-10-19）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nono-fire/nono-fire.md",
+            "contains": "2026 年 8 月 27 日，NoNo 投稿"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "把被质疑的泰坦来路包成拾得战利品。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "这支视频，正好替那条泰坦补了一个“捡来的”出身。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "观众质疑 RMT，作者回应欢迎举报。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "评论区有人问：“这不是 rmt 吗？”"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "连续的“欢迎”回应成为收束。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "主持词倒只剩一串“欢迎”。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "保留争议归属，没有把 RMT 写成 NoNo 的已证行为。"
+        },
+        {
+          "title": "塔夫“十国联军”反串与同行拆台",
+          "weight": "ordinary",
+          "reason": "作品包装和评论区反驳构成独立创作互动。",
+          "source": {
+            "file": "src/people/nono-fire/materials-nono-fire.json",
+            "heading": "## 2026-10-14：Taff投稿与评论续查"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nono-fire/nono-fire.md",
+            "contains": "2026 年 2 月，NoNo发了塔夫会战"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "标题装作捧场，实际是反串。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "这套架势是反串嘲讽"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "同行说实际只数到六国。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "“哪来的十国联军，我数了半天就6国”"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "评论区替标题裁掉四国演员。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "评论区先替他裁掉四国演员。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "未用观众复述细化未核战局。"
+        },
+        {
+          "title": "装甲排视频自评反面教材",
+          "weight": "light",
+          "reason": "轻量自嘲，辅助人物画像，不单独拔高。",
+          "source": {
+            "file": "src/people/nono-fire/materials-nono-fire.json",
+            "contains": "**自嘲线索**"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/nono-fire/nono-fire.md",
+            "contains": "2019 年装甲排视频的简介先自报家门"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "公开录像留名，也公开卡炮和设置错误。",
+              "evidence": {
+                "file": "src/people/nono-fire/nono-fire.md",
+                "contains": "硬是顺手把自己的卡炮现场和错误设置也存了档"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "轻料篇幅适中，自述可查。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "剪辑创作是人物主线；洗库争议和递送情报两件重事已形成正文主要黑料，后续作品与互动未淹没它们；评语回扣其既记录别人也成为公开材料的反差。",
+      "evidence": [
+        {
+          "file": "src/people/nono-fire/nono-fire.md",
+          "contains": "翻译成人话：南华刚建的 SKQ 联盟"
+        },
+        {
+          "file": "src/people/nono-fire/nono-fire.md",
+          "contains": "NoNoOwO 的战报有战损、有采访"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/729015.json",
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/bilibili-news-collaboration-2026.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/kheshig-removal-debate-2025.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/qihei-siling-titan-intel-2025.json",
+    "src/people/nono-fire/2113426221-id.json",
+    "src/people/nono-fire/materials-nono-fire.json",
+    "src/people/nono-fire/nono-fire.md",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.json",
+    "src/battles/turnur-2026/turnur-2026.json",
+    "src/battles/turnur-2026/turnur-2026.md",
+    "src/battles/turnur-2026/materials-turnur-2026.json"
+  ],
+  "inputs": "be60b7bcc11eda227e6703e907379527c0265a81f4c57ed131259471aff6fdd2",
+  "inputParts": {
+    "docs/bilibili/729015.json": "f59730d5524d97bc3628e90a1eb023631c0fe61b5150da4234c0dcfb70c26eff",
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/bilibili-news-collaboration-2026.json": "70b9babd5beaaf197c3e83b338027362b8c405bb47ca38fd7a0b338a2be7ff96",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/kheshig-removal-debate-2025.json": "d6bbc214e478bfe4d8cbe2e266ceb703615618375281e1399040674319b83c33",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/qihei-siling-titan-intel-2025.json": "4023be364c9c16f6ee24ef7dd472d1660612a946b44b18aba8ed53ee95244034",
+    "src/people/nono-fire/2113426221-id.json": "ebd418f46d04e566e386824c73e268a8a00335b5eb897c4bd6fb6d0b33ef8ae8",
+    "src/people/nono-fire/materials-nono-fire.json": "2427f15b83953085f34ff7700cae82e16b0c645abf6aedec519dd5f60109f82d",
+    "src/people/nono-fire/nono-fire.md": "bd7887e9828888d84af8b4edfe19c22d81e3286d6c80c15c99e565ce02daf4fb",
+    "battle:1n-fj8-2024": "93302bf5e67a09036cb8629f5691446029cff2227b441dbda952fff5bbb816d9",
+    "battle:319-3d-2020": "5ce3cf4e0d2a351bb4d7d7d96cb4543ab341e4122a078bafb62b1a224c628da5",
+    "battle:fwst-8-2020": "3f76987dfa193b871d83583b4953058bfdf6298c0b7e336dabc5d76fe0d69f17",
+    "battle:taff-2026": "ef93e9b3fdc66831af4d1c39586ec4aa894a037d9ac90d33eba84d9ea1fcf7d5",
+    "battle:turnur-2026": "8a6119a996f015f369e720a617097b4ad0c13c18e9bd405fc460b0aa72a305c2"
+  },
+  "level": 1
+}

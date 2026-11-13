@@ -1,179 +1,194 @@
 {
   "status": "reviewed",
-  "note": "完整正文素材核读，教学战例与CEO主线保留；八杀并块、错误阵营去除后通读生成页。",
+  "note": "独立核对完整正文及新增AG7材料，重料展开有出处，比赛成绩归因明确，主线平衡。",
   "evidence": [
-    "src/people/fley-den/materials-fley-den.md",
+    "src/people/fley-den/materials-fley-den.json",
     "src/people/fley-den/fley-den.md"
   ],
   "assessment": {
     "coverage": {
       "status": "reviewed",
-      "note": "完整正文及素材已读，主号/小号与冠军队员边界保留；新增11344拆招与原同一战例并块，未采用未核赛程队名或未读外链视频作新故事。",
+      "note": "正文覆盖入坑和第一桶金、论坛教学、2021年4-H无双、神农裔宣传、盾抗旗舰募捐梗、贴吧争执、AT冠军与新增AG7七人赛；重点事件均在素材找到来源。",
       "evidence": [
         {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "heading": "### 料与来源"
+          "file": "src/people/fley-den/materials-fley-den.json",
+          "heading": "### AG7七人赛视频简介"
         }
       ]
     },
     "events": {
       "status": "reviewed",
-      "note": "逐件核对事件边界和采用分量，未检出本次遗漏的重事。",
+      "note": "重料展开到处境、分量与反差；八杀打法写清自述过程，AG7成绩和带队按视频简介限定归因；盾抗梗保留来源不确定性。",
       "evidence": [
         {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "他在[《无双概论》]"
+        },
+        {
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "七对七的 AG7 比赛"
         }
       ],
       "items": [
         {
-          "title": "小队到旗舰战的作战画像及高价巴戈龙损失",
-          "weight": "ordinary",
-          "reason": "累计KB与代表战斗组合成人物点评，单次昂贵舰损不当独立黑料",
+          "title": "4-H伊什塔献祭完成响尾蛇八杀",
+          "weight": "heavy",
+          "reason": "具体高风险战术和明确击杀结果构成人物标志性战斗经历。",
           "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
-            "contains": "zKillboard 旧版正文取数："
-          },
-          "treatment": "expanded",
-          "body": {
-            "file": "src/people/fley-den/fley-den.md",
-            "contains": "乌鸦王的 [KB]"
-          },
-          "note": "主小号画像、2025高峰和损失、Atioth与4-H代表座位集中独立综合块，保留CEO教学之外实际作战经历。"
-        },
-        {
-          "title": "咸鱼回忆录首桶金",
-          "weight": "ordinary",
-          "reason": "新人自述与读者催更构成成长小故事",
-          "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
-            "heading": "### 料与来源"
-          },
-          "treatment": "expanded",
-          "body": {
-            "file": "src/people/fley-den/fley-den.md",
-            "contains": "2018 年他在贴吧"
-          },
-          "note": "保留群星入坑、灵感4-10、三个亿与太监，未添后续盈利。"
-        },
-        {
-          "title": "教学专栏持续创作",
-          "weight": "ordinary",
-          "reason": "具体系列作品构成教学作者独立故事",
-          "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
-            "heading": "### 料与来源"
-          },
-          "treatment": "expanded",
-          "body": {
-            "file": "src/people/fley-den/fley-den.md",
-            "contains": "在核爆所在的凛冬联盟"
-          },
-          "note": "教程到PVP发展理论形成作者画像，本次海送葬/行星作品仍归本人而非回帖索達。"
-        },
-        {
-          "title": "4-H响尾蛇八杀与伊什塔献祭",
-          "weight": "ordinary",
-          "reason": "完整本人复盘的教学战例，不是独立核实的大型战役",
-          "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
+            "file": "src/people/fley-den/materials-fley-den.json",
             "heading": "## 凛冬固定清单核读补充（2026-10-30）"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/fley-den/fley-den.md",
-            "contains": "2021 年，他在 4-H 献祭一艘伊什塔"
+            "contains": "他在[《无双概论》]"
           },
-          "note": "旧威胁与水帖原因、新拆队/装填/卖血合为一块；不写威胁者身份或虚构BR。"
+          "development": [
+            {
+              "angle": "处境",
+              "note": "先写门前面对七艘启示和敌方主队即将过门。",
+              "evidence": {
+                "file": "src/people/fley-den/fley-den.md",
+                "contains": "伊什塔在门前撞上七艘启示"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "把八杀与主动付出的伊什塔成本并置。",
+              "evidence": {
+                "file": "src/people/fley-den/fley-den.md",
+                "contains": "献祭伊什塔是成本，八杀是他给出的结果"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "将被当作诱饵的损失与最终击杀结果形成反差。",
+              "evidence": {
+                "file": "src/people/fley-den/fley-den.md",
+                "contains": "自己的伊什塔便成了送到嘴边的诱饵"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "两段分别写战果背景和自述打法，展开满足重料要求。"
         },
         {
-          "title": "神农裔招新祖训与AT板凳梗",
+          "title": "AG7七人赛战队成绩与M RUSH带队",
           "weight": "ordinary",
-          "reason": "CEO军团广告与已证实冠军队员身份的反差",
+          "reason": "补足其比赛带队经历，依据为本人账号简介中的赛事说明。",
           "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
-            "heading": "### 军团简介（2026-10-10 ESI 快照）"
+            "file": "src/people/fley-den/materials-fley-den.json",
+            "heading": "### AG7七人赛视频简介"
           },
           "treatment": "expanded",
           "body": {
             "file": "src/people/fley-den/fley-den.md",
-            "contains": "神农裔的军团简介开篇"
+            "contains": "到了七对七的 AG7 比赛"
           },
-          "note": "补损承诺、入团红包、板凳饮水机保留；评语明确队长黑莲不把广告率领当履历。"
-        },
-        {
-          "title": "盾抗旗舰被踢群募捐梗",
-          "weight": "ordinary",
-          "reason": "未核是否冒名的游戏群回帖，不能提升为管理滥权",
-          "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
-            "heading": "### 检索记录与缺口"
-          },
-          "treatment": "expanded",
-          "body": {
-            "file": "src/people/fley-den/fley-den.md",
-            "contains": "2019 年 2 月，FRT 凤凰城"
-          },
-          "note": "本人或冒名边界保留，文字笑点没有新增受害/处罚事实。"
-        },
-        {
-          "title": "群内阴阳怪气争执",
-          "weight": "ordinary",
-          "reason": "孤立且身份仍有缺口的单方抱怨，无严重后果",
-          "source": {
-            "file": "src/people/fley-den/materials-fley-den.md",
-            "heading": "### 料与来源"
-          },
-          "treatment": "expanded",
-          "body": {
-            "file": "src/people/fley-den/fley-den.md",
-            "contains": "2026 年 4 月，贴吧有人发帖"
-          },
-          "note": "保留原单方口角，未编群内双方胜负或具体辱骂。"
+          "development": [
+            {
+              "angle": "处境",
+              "note": "从AT广告的板凳笑话转入七人赛队伍。",
+              "evidence": {
+                "file": "src/people/fley-den/fley-den.md",
+                "contains": "另一份战术履历"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "写出击败Volta、Tusker及止步八强的范围。",
+              "evidence": {
+                "file": "src/people/fley-den/fley-den.md",
+                "contains": "先后击败 Volta 和两届 AT 冠军 Tusker"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "广告中的饮水机梗与正式带队成绩形成对照。",
+              "evidence": {
+                "file": "src/people/fley-den/fley-den.md",
+                "contains": "军团广告拿板凳和饮水机开玩笑"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "所有赛果和带队职责明确归因于视频简介，八强与M RUSH全胜没有混写。"
         }
-      ],
-      "noHeavyReason": "读完现存材料，主要是CEO招新、持续教学、个人成长、游戏战例与群内玩笑；两则争执分别身份未核和单方口角，未见封禁、骗款、重大内讧等重事。高价船损和冠军广告均不自动按重料抬高。"
+      ]
     },
     "balance": {
       "status": "reviewed",
-      "note": "综合战绩在前，教学/CEO与咸鱼自嘲相互勾连；八杀较长但有具体操控与取舍，群口角没有被扩成严重控诉，冠军广告与实际队长区别保留。",
+      "note": "正文重心仍在早年经历和八杀战术；新增比赛段作为较短的竞技履历补充，并与已有AT宣传评语互相照应，没有挤掉主线。",
       "evidence": [
         {
           "file": "src/people/fley-den/fley-den.md",
-          "contains": "乌鸦王的 [KB]"
+          "contains": "::: 红料 从饮水机到七人赛"
+        },
+        {
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "::: 评"
         }
       ]
     }
   },
   "dependencies": [
-    "docs/sources/capital-battles-2026-10-11.md",
-    "docs/sources/large-battles-2026-10-11.md",
-    "docs/sources/northern-battles-2026-04-25.md",
+    "docs/bilibili/11414533.json",
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
     "src/people/fley-den/2113213717-id.json",
     "src/people/fley-den/fley-den.md",
-    "src/people/fley-den/materials-fley-den.md",
+    "src/people/fley-den/materials-fley-den.json",
     "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
     "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
-    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
     "src/battles/ahbazon-2024/ahbazon-2024.json",
     "src/battles/ahbazon-2024/ahbazon-2024.md",
-    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
     "src/battles/akkio-2026/akkio-2026.json",
     "src/battles/akkio-2026/akkio-2026.md",
-    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
     "src/battles/atioth-2026/atioth-2026.json",
     "src/battles/atioth-2026/atioth-2026.md",
-    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
     "src/battles/lj-ysw-2024/lj-ysw-2024.json",
     "src/battles/lj-ysw-2024/lj-ysw-2024.md",
-    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
     "src/battles/otsasai-2021/otsasai-2021.json",
     "src/battles/otsasai-2021/otsasai-2021.md",
-    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.json",
     "src/battles/x47l-q-2023/x47l-q-2023.json",
     "src/battles/x47l-q-2023/x47l-q-2023.md",
-    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.md",
+    "src/battles/x47l-q-2023-03/materials-x47l-q-2023-03.json"
   ],
-  "inputs": "082813678197832f4d0a7c9fa3375894a10d92814958ec01d22ca1bf51262e6b",
+  "inputs": "aaa10d26d67f6e02fc2ff4299a45e08b70daeb004be2618a6f4b0c00ef2f58f2",
+  "inputParts": {
+    "docs/bilibili/11414533.json": "8bada2c2315aceeaff89e10566ad7956e8d2f330291aa9aecf2e9006f9f102c5",
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "src/people/fley-den/2113213717-id.json": "04122ce5cce0fe0e8b9c4a9cbc20b3675daac3f65df2d7800a7b021a96579efb",
+    "src/people/fley-den/fley-den.md": "fd1225227e1c622743596889cee808e988c1900375f054e972ea916b3c899733",
+    "src/people/fley-den/materials-fley-den.json": "e663c4892b3763a2c2a46e50f3babd2b6979f1852a5003b30e7cfe44cce7c885",
+    "battle:4-hwwf-8tpx-n-2026": "d17f76a86e616cbea75e217cf46434511c6ab0d0fcf64c8479d4c392bfc3dcf9",
+    "battle:ahbazon-2024": "b83383de04f52e741c2bc3c166576623831c86b49f08e01fbbe0a26f2cbb82f0",
+    "battle:akkio-2026": "c240c36a28bfeac22f5c772183861cf589c1fed114db654c7cc7e1f1aa823ce0",
+    "battle:atioth-2026": "96b931c9b6b33b2abff90ae751d89add22fb84eb4f1b6d2a47e1ec20de8e4429",
+    "battle:lj-ysw-2024": "3d280afcaa72d12959826d48a94c1d101c6d88d32bda28bd2230f613a55c79f5",
+    "battle:otsasai-2021": "ead0b3f094e02093ebd3f3cd7e017ab0d7b6284564aff0a8510233a37b16aa94",
+    "battle:x47l-q-2023": "505a3fa55d9b6953bf42a534d3df439b48a74b43d8a87a8457c4efd5166ae9ea",
+    "battle:x47l-q-2023-03": "583c1bdfb349da95544b4092ef514396ad325254f7c0a5b9ac684baec6b98176"
+  },
   "level": 1
 }

@@ -1,5 +1,5 @@
 
-山竹，游戏名 Mangosteen Steve，头衔“山竹 Main”，Advanced Weapon Supplement League 的 CEO。这家公司的缩写是 **AWSL**——网络用语“啊我死了”。军团简介两行：“AWSL.Inc / INVITE ONLY”。
+山竹，游戏名 Mangosteen Steve，Advanced Weapon Supplement League 的 CEO。这家公司的缩写是 **AWSL**——网络用语“啊我死了”。军团简介两行：“AWSL.Inc / INVITE ONLY”。
 
 2017 年 7 月建号，在 FRT 的几家军团转了两个月，9 月进了[橘子](../2114324589/)他们的老采星者（STARCHASER Inc.），2020 年 1 月转进 AWSL，随后跟着挂进 FRT。
 

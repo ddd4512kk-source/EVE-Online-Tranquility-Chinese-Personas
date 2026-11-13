@@ -1,0 +1,152 @@
+{
+  "status": "reviewed",
+  "note": "仅改星系与建筑译名，结论不变",
+  "evidence": [
+    "src/people/dragons-yik/materials-dragons-yik.json",
+    "src/people/dragons-yik/dragons-yik.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "素材里的贴吧发家帖、月卡对赌帖、FRT 帖、两张 KM、Mordu、zKB 战绩均已入文；未采用的只有无关的超网致富帖（素材已标明不入文）和未读的 2 个贴吧帖。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/materials-dragons-yik.json",
+          "heading": "## 检索覆盖与待核"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "发家豪赌为 heavy 并充分展开；其余为 ordinary，各写成完整小故事。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/materials-dragons-yik.json",
+          "heading": "## 发家帖：一个小时100个点"
+        }
+      ],
+      "items": [
+        {
+          "title": "160B 蓝图超网豪赌",
+          "weight": "heavy",
+          "reason": "本人唯一的重头发家故事：借 30B 收蓝图，与老A合力卖出超网，最后庄家自己中奖。",
+          "source": {
+            "file": "src/people/dragons-yik/materials-dragons-yik.json",
+            "heading": "## 发家帖：一个小时100个点"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/dragons-yik/dragons-yik.md",
+            "contains": "他自己心里也虚，觉得贵了，怕流拍。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "借来 30B、手里只有一张蓝图，标价 160B 怕流拍。",
+              "evidence": {
+                "file": "src/people/dragons-yik/dragons-yik.md",
+                "contains": "他自己心里也虚，觉得贵了，怕流拍。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "对老A撒谎说卖出一半就稳了，自己其实也慌。",
+              "evidence": {
+                "file": "src/people/dragons-yik/dragons-yik.md",
+                "contains": "老A听完把自己的份额加到了 100 个点。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "开奖手抖，中奖者竟是庄家自己，事后发福利、鸣谢。",
+              "evidence": {
+                "file": "src/people/dragons-yik/dragons-yik.md",
+                "contains": "结果中奖的是他自己，蓝图回到了他手里"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "叙事完整，有处境、反差与后果。"
+        },
+        {
+          "title": "月卡对赌实证帖",
+          "weight": "ordinary",
+          "reason": "劝人别赌却自己是输家，楼里全是赌过的人。",
+          "source": {
+            "file": "src/people/dragons-yik/materials-dragons-yik.json",
+            "heading": "## 月卡对赌与早年"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/dragons-yik/dragons-yik.md",
+            "contains": "一个劝人别赌的帖子，下面全是赌过的人在对账。"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "完整小故事，含楼内对话与落点。"
+        },
+        {
+          "title": "曝光 FRT 帖",
+          "weight": "ordinary",
+          "reason": "标题称曝光 FRT，实则自己是打 MTU 的一方。",
+          "source": {
+            "file": "src/people/dragons-yik/materials-dragons-yik.json",
+            "heading": "## 月卡对赌与早年"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/dragons-yik/dragons-yik.md",
+            "contains": "标题里写的是“FRT 的坏事”，正文里的坏人是他自己。"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "含反差与吧友反应。"
+        },
+        {
+          "title": "简介里的两张 KM",
+          "weight": "light",
+          "reason": "自问自答式简介，挂 Obe 两张 KM。",
+          "source": {
+            "file": "src/people/dragons-yik/materials-dragons-yik.json",
+            "heading": "## 简介挂的两张 KM：“Where is my DED 6-10?”"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/dragons-yik/dragons-yik.md",
+            "contains": "DED 6-10 是 DED 的高等级站点"
+          },
+          "development": [],
+          "verdict": "sufficient",
+          "note": "轻量事件，写成短段。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "发家豪赌占正文最大篇幅并有评语呼应；战绩块居前，其余黑料为陪衬，评语收束为两种日子。",
+      "evidence": [
+        {
+          "file": "src/people/dragons-yik/dragons-yik.md",
+          "contains": "dragons Yik 把 EVE 过成了两种日子"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "src/people/dragons-yik/2116881943-id.json",
+    "src/people/dragons-yik/dragons-yik.md",
+    "src/people/dragons-yik/materials-dragons-yik.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json"
+  ],
+  "inputs": "b7badad3836655741cc72168e8761085d0bab0a3d3819757fc2806e9baa271bb",
+  "inputParts": {
+    "src/people/dragons-yik/2116881943-id.json": "83d684967ccddafd4e119eb47c5580bcadad47f1c757816cc32c75bb8aee4dab",
+    "src/people/dragons-yik/dragons-yik.md": "4ea9a117917d1e7409b84bd81b9c98fa1361b6c6d81165f28f888db72abe9357",
+    "src/people/dragons-yik/materials-dragons-yik.json": "894220b222f03bdc907c7507ec8afa8165e3d0bf75e4ed809dced123f5b4dd93",
+    "battle:x47l-q-2023": "f4a1b816be9719ccd426d451020056cddfaebb93f2066e983d439c72fa872db6"
+  },
+  "level": 1
+}

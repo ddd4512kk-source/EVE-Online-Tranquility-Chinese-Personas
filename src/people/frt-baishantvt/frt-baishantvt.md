@@ -1,5 +1,5 @@
 
-白杉，游戏名 FRT BaishanTvT，头衔就两个字“白杉”。2019 年 12 月建号，第一站是凛冬的高安阿尔法小号军团 holy moly.，2022 年自己开了一家军团，8 月进了创世（ChuangShi），一直待到现在——2026 年 2 月创世离开 FRT，他也跟着去了 Wings Freedom.。
+白杉，游戏名 FRT BaishanTvT。2019 年 12 月建号，第一站是凛冬的高安阿尔法小号军团 holy moly.，2022 年自己开了一家军团，8 月进了创世（ChuangShi），一直待到现在——2026 年 2 月创世离开 FRT，他也跟着去了 Wings Freedom.。
 
 游戏里，他的 zKillboard 生涯击杀是 **1**。游戏外，他是 B 站 UP 主[“舰长白杉”](https://space.bilibili.com/27285042)，五万多粉丝、四百多条投稿，挂着“优质游戏鉴赏家”的认证——欧服华人圈最有名的历史 UP 之一。
 

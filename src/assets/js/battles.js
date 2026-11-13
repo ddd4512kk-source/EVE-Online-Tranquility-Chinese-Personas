@@ -9,33 +9,18 @@ import { initTagCollapse, shuffled } from './directory-utils.js';
   const yearHeads = new Map([...list.querySelectorAll('.battle-year')].map(h => [h.dataset.year, h]));
   const searchInput = document.getElementById('b-search');
   const orderBtn = document.getElementById('b-order');
-  const lossBtn = document.getElementById('b-loss');
   const shuffleBtn = document.getElementById('shuffle');
-  const filterBtn = document.getElementById('b-filter');
-  const drawer = document.getElementById('battle-filters');
   const status = document.getElementById('filter-status');
-  const fullLink = document.querySelector('.toolbar-full');
-  const tagButtons = [...document.querySelectorAll('[data-tag]')];
-  const quickTags = new Set([...document.querySelectorAll('.battle-quick-bar [data-tag]')].map(b => b.dataset.tag));
+  const tagButtons = [...document.querySelectorAll('.battle-filters [data-tag]')];
 
   let mode = 'date';
   let newestFirst = true;
-  let activeTag = '';
-  let drawerInit = false;
+  const activeTags = new Map(); // 维度 → 标签；不同维度取交集，同一维度单选
 
   function setMode(nextMode) {
     mode = nextMode;
-    for (const [btn, on] of [[orderBtn, mode === 'date'], [lossBtn, mode === 'loss']]) {
-      btn.classList.toggle('is-active', on);
-      btn.setAttribute('aria-pressed', String(on));
-    }
-  }
-
-  function syncFilterBtn() {
-    const hasDrawerTag = activeTag && !quickTags.has(activeTag);
-    filterBtn.textContent = `${hasDrawerTag ? `筛选：${activeTag}` : '更多筛选'} ${drawer.hidden ? '▾' : '▴'}`;
-    filterBtn.classList.toggle('is-active', Boolean(hasDrawerTag));
-    filterBtn.setAttribute('aria-expanded', String(!drawer.hidden));
+    orderBtn.classList.toggle('is-active', mode === 'date');
+    orderBtn.setAttribute('aria-pressed', String(mode === 'date'));
   }
 
   function syncGridBalance() {
@@ -95,40 +80,32 @@ import { initTagCollapse, shuffled } from './directory-utils.js';
     const terms = text.toLowerCase().split(/\s+/).filter(Boolean);
 
     for (const b of tagButtons) {
-      const on = b.dataset.tag === activeTag;
+      const on = (activeTags.get(b.dataset.group) ?? '') === b.dataset.tag;
       b.classList.toggle('is-active', on);
       b.setAttribute('aria-pressed', String(on));
     }
-    syncFilterBtn();
 
     let shown = 0;
     for (const r of rows) {
-      r.hidden = !((!activeTag || r.dataset.tags.includes(`|${activeTag}|`))
+      r.hidden = !([...activeTags.values()].every(t => r.dataset.tags.includes(`|${t}|`))
         && terms.every(t => r.dataset.key.includes(t)));
       if (!r.hidden) shown++;
     }
     syncGridBalance();
 
-    if (activeTag || terms.length) {
+    if (activeTags.size || terms.length) {
       status.hidden = false;
       const parts = [];
-      if (activeTag) parts.push(`标签「${activeTag}」`);
+      if (activeTags.size) parts.push(`标签「${[...activeTags.values()].join('」「')}」`);
       if (text) parts.push(`检索“${text}”`);
       status.textContent = shown ? `${parts.join(' · ')}：共 ${shown} 场。` : '目录里没有匹配的战役。试试全文搜索？';
     } else {
       status.hidden = true;
     }
 
-    if (fullLink) {
-      const fu = new URL(fullLink.href, location.href);
-      if (text) fu.searchParams.set('q', text);
-      else fu.searchParams.delete('q');
-      fullLink.href = fu.toString();
-    }
-
     const u = new URL(location.href);
-    if (activeTag) u.searchParams.set('t', activeTag);
-    else u.searchParams.delete('t');
+    u.searchParams.delete('t');
+    for (const t of activeTags.values()) u.searchParams.append('t', t);
     if (text) u.searchParams.set('f', text);
     else u.searchParams.delete('f');
     history.replaceState(history.state, '', u);
@@ -140,37 +117,30 @@ import { initTagCollapse, shuffled } from './directory-utils.js';
     orderBtn.textContent = newestFirst ? '时间 ↓' : '时间 ↑';
     place(newestFirst ? rows : [...rows].reverse());
   });
-  lossBtn.addEventListener('click', () => {
-    setMode('loss');
-    place([...rows].sort((a, b) => Number(b.dataset.loss) - Number(a.dataset.loss)));
-  });
   shuffleBtn.addEventListener('click', () => {
     setMode('shuffle');
     place(shuffled(rows));
   });
 
-  filterBtn.addEventListener('click', () => {
-    drawer.hidden = !drawer.hidden;
-    syncFilterBtn();
-    if (drawerInit || drawer.hidden) return;
-    drawerInit = true;
-    drawer.querySelectorAll('.tag-wrap').forEach(initTagCollapse);
-  });
+  document.querySelectorAll('.battle-filters .tag-wrap').forEach(initTagCollapse);
 
   document.addEventListener('click', e => {
-    const b = e.target.closest('button[data-tag]');
+    const b = e.target.closest('.battle-filters button[data-tag]');
     if (!b) return;
-    activeTag = b.dataset.tag === activeTag ? '' : b.dataset.tag;
+    const { tag, group } = b.dataset;
+    if (tag === '' || activeTags.get(group) === tag) activeTags.delete(group);
+    else activeTags.set(group, tag);
     applyFilter();
   });
   searchInput.addEventListener('input', applyFilter);
 
   const params = new URLSearchParams(location.search);
   const initialText = params.get('f') ?? '';
-  const initialTag = params.get('t') ?? '';
   if (initialText) searchInput.value = initialText;
-  if (initialTag && (tagButtons.some(b => b.dataset.tag === initialTag) || rows.some(r => r.dataset.tags.includes(`|${initialTag}|`)))) {
-    activeTag = initialTag;
+  for (const t of params.getAll('t')) {
+    const btn = t && tagButtons.find(b => b.dataset.tag === t);
+    if (btn) activeTags.set(btn.dataset.group, t);
+    else if (t && rows.some(r => r.dataset.tags.includes(`|${t}|`))) activeTags.set(`其他:${t}`, t);
   }
-  if (initialText || activeTag) applyFilter();
+  if (initialText || activeTags.size) applyFilter();
 })();

@@ -35,6 +35,13 @@
   --tycoon-bright: #ffe299;
   --shenren: #c678ff;
   --upzhu: #fb7299;
+  /* 列传六维排序胶囊各一色 */
+  --axis-shenren: #c678ff;
+  --axis-combat: #f0675a;
+  --axis-command: #6aa8ff;
+  --axis-charisma: #ff9d57;
+  --axis-politics: #45cbd6;
+  --axis-wealth: #e6c15a;
   --bili-pink: #fb7299;
   /* 氛围层：天幕辉光、星点、面板立体感、标题墨色、数字微光 */
   --glow-zhu: rgba(224, 85, 74, 0.11);
@@ -101,100 +108,14 @@
   color-scheme: dark;
 }
 
-/* 浅色：跟随系统，或页眉按钮手动选定（html[data-theme]，存 localStorage）。
-   两段取值必须一致：手动选浅色时用下面这段。 */
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    --bg: #f4efe4;
-    --bg-raised: #fbf8f1;
-    --bg-sunk: #ebe4d5;
-    --line: #d6ccb8;
-    --line-soft: #e4dccb;
-    --text: #2a2621;
-    --text-dim: #5f574b;
-    --text-faint: #8a8172;
-    --gold: #8a6a2f;
-    --gold-dim: #b39a68;
-    --shuffle-bg: #b8302a;
-    --shuffle-hover: #a12822;
-    --shuffle-active: #82201b;
-    --shuffle-edge: rgba(90, 20, 15, 0.45);
-    --zhu: #b0322a;
-    --zhu-bg: rgba(176, 50, 42, 0.06);
-    --emblem-blue: #2f5f96;
-    --emblem-plate: #101520;
-    --live: #1c8a4e;
-    --live-glow: rgba(28, 138, 78, 0.35);
-    --live-solid: #1c7f49;
-    --recruit: #1f6fc4;
-    --recruit-solid: #1f66b8;
-    --ash: rgba(255, 252, 244, 0.4);
-    --fame-sweep: rgba(190, 145, 60, 0.2);
-    --tycoon: #8c5612;
-    --tycoon-bright: #d4952a;
-    --shenren: #7a29b8;
-    --upzhu: #d6366c;
-    --bili-pink: #f25d8e;
-    --glow-zhu: rgba(176, 50, 42, 0.07);
-    --glow-blue: rgba(47, 95, 150, 0.06);
-    --stars: 0;
-    --surface: linear-gradient(180deg, #fdfbf6, #f8f3e8);
-    --panel-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 10px 26px -18px rgba(90, 65, 30, 0.45);
-    --title-ink: linear-gradient(180deg, #2a2621 30%, #6e5223 120%);
-    --num-glow: 0%;
-    --paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .33 0 0 0 0 .2 .32 0 0 0 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    --link: #7b5a1e;
-    --term-link: #175a92;
-    --focus: #2563eb;
-    --hong: #b52d24;
-    --hong-bg: rgba(181, 45, 36, 0.05);
-    --hei: #1c1a17;
-    --hei-fg: #f4efe4;
-    --hei-bg: rgba(28, 26, 23, 0.05);
-    --hei-edge: #1c1a17;
-    --meter-pvp-a: #b82c22;
-    --meter-pvp-b: #e07b1c;
-    --meter-pvp-ink: #a83c14;
-    --meter-shenren-a: #6a21b8;
-    --meter-shenren-b: #c9266d;
-    --meter-shenren-ink: #9e1b56;
-    --meter-inf-a: #1664ab;
-    --meter-inf-b: #1c9e72;
-    --meter-inf-ink: #156e52;
-    --meter-track: rgba(60, 46, 26, 0.13);
-    --meter-tick: rgba(255, 252, 245, 0.7);
-    --style-tycoon-1: #966b14;
-    --style-tycoon-2: #b88a28;
-    --style-warlord-1: #b8281e;
-    --style-warlord-2: #b56512;
-    --style-syndicate-1: #166c80;
-    --style-syndicate-2: #9c5b14;
-    --style-neon-1: #a61e84;
-    --style-neon-2: #127c96;
-    --style-dynasty-1: #a8241b;
-    --style-dynasty-2: #9c6f18;
-    --style-phantom-1: #6234b8;
-    --style-phantom-2: #158264;
-    --style-forge-1: #b0521a;
-    --style-forge-2: #4f5e6c;
-    --style-abyss-1: #3348c4;
-    --style-abyss-2: #8a2fb8;
-    --style-academy-1: #23803a;
-    --style-academy-2: #8a6b0e;
-    --style-corsair-1: #0f7a63;
-    --style-corsair-2: #7a6624;
-    --style-nebula-1: #b8325a;
-    --style-nebula-2: #9a6a10;
-    --corp-plate-mix: 88%;
-    color-scheme: light;
-  }
-}
+/* 浅色：默认关灯（深色），页眉按钮手动选浅色时用下面这段（html[data-theme]，存 localStorage）。
+   浅色取旧宣纸色，底色与卡片都压暗一档，避免大片近白刺眼。 */
 :root[data-theme="light"] {
-  --bg: #f4efe4;
-  --bg-raised: #fbf8f1;
-  --bg-sunk: #ebe4d5;
-  --line: #d6ccb8;
-  --line-soft: #e4dccb;
+  --bg: #e6dece;
+  --bg-raised: #efe9dc;
+  --bg-sunk: #dbd2bf;
+  --line: #c8bca4;
+  --line-soft: #d6ccb8;
   --text: #2a2621;
   --text-dim: #5f574b;
   --text-faint: #8a8172;
@@ -219,12 +140,18 @@
   --tycoon-bright: #d4952a;
   --shenren: #7a29b8;
   --upzhu: #d6366c;
+  --axis-shenren: #7a29b8;
+  --axis-combat: #b0322a;
+  --axis-command: #1f5fb0;
+  --axis-charisma: #b8540f;
+  --axis-politics: #0f7280;
+  --axis-wealth: #8a6a0a;
   --bili-pink: #f25d8e;
   --glow-zhu: rgba(176, 50, 42, 0.07);
   --glow-blue: rgba(47, 95, 150, 0.06);
   --stars: 0;
-  --surface: linear-gradient(180deg, #fdfbf6, #f8f3e8);
-  --panel-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 10px 26px -18px rgba(90, 65, 30, 0.45);
+  --surface: linear-gradient(180deg, #f2ece0, #ebe4d5);
+  --panel-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 10px 26px -18px rgba(90, 65, 30, 0.5);
   --title-ink: linear-gradient(180deg, #2a2621 30%, #6e5223 120%);
   --num-glow: 0%;
   --paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .33 0 0 0 0 .2 .32 0 0 0 -.12'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
@@ -349,10 +276,6 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .theme-toggle .i-moon,
 :root[data-theme="light"] .theme-toggle .i-sun { display: none; }
 :root[data-theme="light"] .theme-toggle .i-moon { display: block; }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .theme-toggle .i-sun { display: none; }
-  :root:not([data-theme="dark"]) .theme-toggle .i-moon { display: block; }
-}
 /* 访问计数徽章：窄屏只隐藏不移除，图片照常加载计数 */
 .hits { height: 20px; margin-left: auto; }
 
@@ -448,13 +371,12 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
   transform: translateY(1px);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
 }
-.toolbar-full { align-self: center; font-size: .9rem; }
-/* 手机上保持一行：随机按钮只留“随机”，全文搜索靠导航栏的“搜索” */
+/* 手机上：随机按钮只留“随机” */
 @media (max-width: 560px) {
   .toolbar { gap: .4rem; }
   .toolbar button { padding-left: .6rem; padding-right: .6rem; }
   .toolbar #shuffle { letter-spacing: .06em; padding-left: .6rem; padding-right: .7rem; }
-  .shuffle-more, .toolbar-full { display: none; }
+  .shuffle-more { display: none; }
 }
 .filter-status { color: var(--text-dim); font-size: .9rem; margin: .25rem 0; }
 
@@ -477,7 +399,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .tag-bar .chip.is-active small { color: inherit; opacity: .75; }
 
 /* 目录是一整块连续网格 */
-.cards.roster { margin-top: 1.5rem; }
+.cards.roster { margin-top: 1rem; } /* 与筛选区上方留白一致 */
 .card { position: relative; }
 
 .cards {
@@ -703,7 +625,16 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .chip-upzhu:not(.is-active) { color: var(--upzhu); border-color: var(--upzhu); }
 .chip-recruit:not(.is-active) { color: var(--recruit); border-color: var(--recruit); }
 .chip-pvp:not(.is-active) { color: var(--meter-pvp-ink); border-color: color-mix(in srgb, var(--meter-pvp-ink) 55%, transparent); }
-.chip-shenren:not(.is-active) { color: var(--meter-shenren-ink); border-color: color-mix(in srgb, var(--meter-shenren-ink) 55%, transparent); }
+#corp-sorts .chip-shenren:not(.is-active) { color: var(--meter-shenren-ink); border-color: color-mix(in srgb, var(--meter-shenren-ink) 55%, transparent); }
+/* 列传六维排序：未选时字与边框用本维颜色，选中时整枚填色 */
+.chip-axis:not(.is-active) { color: var(--axis); border-color: color-mix(in srgb, var(--axis) 55%, transparent); }
+.tag-bar .chip-axis.is-active { background: var(--axis); border-color: var(--axis); color: var(--bg); }
+.chip-axis-shenren { --axis: var(--axis-shenren); }
+.chip-axis-combat { --axis: var(--axis-combat); }
+.chip-axis-command { --axis: var(--axis-command); }
+.chip-axis-charisma { --axis: var(--axis-charisma); }
+.chip-axis-politics { --axis: var(--axis-politics); }
+.chip-axis-wealth { --axis: var(--axis-wealth); }
 .chip-influence:not(.is-active) { color: var(--meter-inf-ink); border-color: color-mix(in srgb, var(--meter-inf-ink) 55%, transparent); }
 
 /* ---------- 军团目录与军团页：浮夸商业招商风格 × 六大流派 ---------- */
@@ -794,13 +725,28 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .corp-filter-row .corp-filter-group {
   flex: 0 1 auto;
 }
+/* 筛选／排序组标题：朱砂短竖线 + 正文色粗体，与淡色标签拉开层级 */
 .corp-filter-heading {
   flex: none;
-  color: var(--text-dim);
-  font-size: .85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--text);
+  font-size: .92rem;
+  font-weight: 700;
+  letter-spacing: .06em;
   line-height: 1.9rem;
 }
+.corp-filter-heading::before {
+  content: "";
+  width: 3px;
+  height: .95em;
+  border-radius: 2px;
+  background: var(--zhu);
+}
 .corp-filter-group .tag-wrap { flex: 1; min-width: 0; margin-top: 0; }
+.roster-filters .corp-filter-row .toolbar { flex: 1 1 15rem; }
+.roster-filters .corp-filter-row { gap: .45rem 1.1rem; }
 .page-corps .filter-status {
   font-size: .82rem;
   color: var(--text-dim);
@@ -811,7 +757,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 
 /* 目录网格：招商名片。顶上一块实色招牌门头，流派靠门头下沿的大轮廓与战徽框形状区分；正文素底，不铺纹样 */
 .cards.corp-cards {
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   gap: 1.1rem .9rem;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 19.5rem), 1fr));
 }
@@ -918,6 +864,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 }
 .corp-style-forge .corp-crest-sm {
   --hex: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  width: calc(64px * .866); /* 正六边形宽高比 √3:2，方盒会把它撑扁 */
   border: 0; border-radius: 0; padding: 2px;
   background: linear-gradient(180deg, var(--corp-c2), color-mix(in srgb, var(--corp-c2) 45%, var(--bg-sunk)));
   clip-path: var(--hex);
@@ -944,7 +891,7 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .corp-style-academy .corp-crest-sm { border: 3px double var(--corp-c1); border-radius: 14px; padding: 2px; }
 .corp-style-academy .corp-crest-sm img { border-radius: 9px; }
 
-/* 海盗：私掠旗——门头下沿一排大锯齿，盾形战徽框 */
+/* 海盗：私掠旗——门头下沿一排大锯齿，四角内凹的票券战徽框（上下左右对称，不裁徽标） */
 .corp-style-corsair .corp-card-ribbon {
   -webkit-mask:
     linear-gradient(#000, #000) top / 100% calc(100% - var(--edge)) no-repeat,
@@ -953,13 +900,20 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
     linear-gradient(#000, #000) top / 100% calc(100% - var(--edge)) no-repeat,
     conic-gradient(from -45deg at 50% 100%, #000 90deg, transparent 0) bottom left / calc(var(--edge) * 2) var(--edge) repeat-x;
 }
-.corp-style-corsair .corp-crest-sm {
-  --shield: polygon(0 0, 100% 0, 100% 62%, 50% 100%, 0 62%);
-  border: 0; border-radius: 0; padding: 2px 2px 4px;
-  background: linear-gradient(180deg, var(--corp-c2), var(--corp-c1));
-  clip-path: var(--shield);
+.corp-style-corsair .corp-crest-sm,
+.corp-style-corsair .corp-crest-sm img {
+  --scoop: radial-gradient(circle at 0 0, #0000 var(--r), #000 calc(var(--r) + .5px)) top left / 51% 51% no-repeat,
+    radial-gradient(circle at 100% 0, #0000 var(--r), #000 calc(var(--r) + .5px)) top right / 51% 51% no-repeat,
+    radial-gradient(circle at 0 100%, #0000 var(--r), #000 calc(var(--r) + .5px)) bottom left / 51% 51% no-repeat,
+    radial-gradient(circle at 100% 100%, #0000 var(--r), #000 calc(var(--r) + .5px)) bottom right / 51% 51% no-repeat;
+  -webkit-mask: var(--scoop); mask: var(--scoop);
 }
-.corp-style-corsair .corp-crest-sm img { border-radius: 0; clip-path: var(--shield); background: var(--bg-sunk); }
+.corp-style-corsair .corp-crest-sm {
+  --r: 11px;
+  border: 0; border-radius: 0; padding: 3px;
+  background: linear-gradient(180deg, var(--corp-c2), var(--corp-c1));
+}
+.corp-style-corsair .corp-crest-sm img { --r: 8px; border-radius: 0; background: var(--bg-sunk); }
 
 /* 星云：天穹——门头下沿鼓成一道圆弧，带卫星的轨道战徽框 */
 .corp-style-nebula .corp-card-link { border-radius: 14px; }
@@ -1675,39 +1629,26 @@ a.tier-large:hover { color: var(--bg); }
 .tier-medium { border: 1px solid var(--line); color: var(--text-dim); background: color-mix(in srgb, var(--bg-sunk) 55%, transparent); }
 a.tier-medium:hover { border-color: var(--gold-dim); color: var(--gold); }
 
-/* ---------- 战役目录：快筛栏、筛选抽屉、年份章头与杂志 Bento 网格 ---------- */
-.battle-quick-bar {
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .45rem .75rem;
-  margin-top: .45rem;
-}
-.battle-tier-chips { flex: 1 1 auto; padding: .15rem 0; }
-.battle-filter-toggle {
-  flex: none; height: 1.9rem; padding: 0 .8rem; border-radius: 999px;
-  font: inherit; font-size: .86rem; color: var(--text-dim); background: var(--bg-raised);
-  border: 1px solid var(--line); cursor: pointer; white-space: nowrap;
-}
-.battle-filter-toggle:hover { border-color: var(--gold-dim); color: var(--gold); }
-.battle-filter-toggle.is-active, .battle-filter-toggle[aria-expanded="true"] {
-  border-color: var(--gold); color: var(--gold);
-  background: color-mix(in srgb, var(--gold) 12%, var(--bg-raised));
-}
-.battle-tag-filters {
-  margin-top: .55rem; padding: .65rem .9rem .75rem; border-radius: 8px;
-  background: color-mix(in srgb, var(--bg-raised) 85%, transparent);
-  border: 1px solid var(--line-soft); box-shadow: var(--panel-shadow);
-}
-.battle-tag-group { display: flex; align-items: baseline; gap: .75rem; margin-top: .4rem; }
-.battle-tag-group:first-child { margin-top: 0; }
-.battle-tag-heading { flex: 0 0 4.2em; color: var(--text-dim); font-size: .85rem; font-weight: 600; }
-.battle-tag-group .tag-wrap { flex: 1; min-width: 0; margin-top: 0; }
-.battle-taxonomy-note { margin: .55rem 0 0; padding-top: .45rem; border-top: 1px dashed var(--line-soft); font-size: .8rem; color: var(--text-faint); }
-@media (max-width: 520px) {
-  .battle-tag-group { flex-direction: column; gap: .15rem; }
-  .battle-tag-heading { flex-basis: auto; }
-}
+/* 规模与战斗类型筛选标签带色：未选为色字色边，选中为实底；规模色与徽记一致 */
+.tag-bar .chip-hue:not(.is-active) { color: var(--hue); border-color: color-mix(in srgb, var(--hue) 55%, transparent); background: color-mix(in srgb, var(--hue) 8%, transparent); }
+.tag-bar .chip-hue:not(.is-active):hover { border-color: var(--hue); }
+.tag-bar .chip-hue:not(.is-active) small { color: inherit; opacity: .7; }
+.tag-bar .chip-hue.is-active { background: var(--hue); border-color: var(--hue); color: var(--bg); }
+.chip-tier-1 { --hue: var(--zhu); }
+.chip-tier-2 { --hue: var(--gold); }
+.chip-tier-3 { --hue: var(--text-dim); }
+.chip-kind-1 { --hue: var(--shenren); }
+.chip-kind-2 { --hue: var(--axis-command); }
+.chip-kind-3 { --hue: var(--axis-politics); }
+
+/* ---------- 战役目录：筛选说明、年份章头与杂志 Bento 网格 ---------- */
+/* 筛选区沿用军团目录的 .corp-filters 分组行；首行搜索框与排序、规模同排，搜索框让出宽度 */
+.battle-filters .corp-filter-row .toolbar { flex: 1 1 15rem; }
+.battle-filters .corp-filter-row:first-child { gap: .45rem 1.1rem; }
+.battle-taxonomy-note { margin: 0; font-size: .78rem; line-height: 1.5; color: var(--text-faint); }
 
 .battle-rows {
-  margin: 1.15rem 0 0; display: grid; gap: 1rem;
+  margin: 1rem 0 0; display: grid; gap: 1rem;
   grid-template-columns: minmax(0, 1fr);
 }
 @media (min-width: 820px) {
@@ -1719,7 +1660,7 @@ a.tier-medium:hover { border-color: var(--gold-dim); color: var(--gold); }
   margin: .75rem 0 -.15rem; font-family: var(--serif); font-size: 1.35rem; font-weight: 900;
   letter-spacing: .08em; color: var(--gold); line-height: 1.2;
 }
-.battle-year:first-child { margin-top: .1rem; }
+.battle-year:first-child { margin-top: 0; }
 .battle-year::after {
   content: ""; flex: 1; height: 1px; order: 1;
   background: linear-gradient(90deg, color-mix(in srgb, var(--gold-dim) 55%, transparent), var(--line-soft) 70%, transparent);

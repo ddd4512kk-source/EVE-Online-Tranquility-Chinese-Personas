@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "thread_id": "2210056627",
+  "url": "https://tieba.baidu.com/p/2210056627",
+  "references": [
+    "src/people/shou-xin/materials-shou-xin.json"
+  ],
+  "legacy_records": [],
+  "title": "OF睾丸冰封手心即将加入PIBC指导战斗！！！有图有J8!!!",
+  "published_date": "2013-03-13",
+  "discovery": [
+    "匿名客户端关键词检索：冰封手心 eve"
+  ],
+  "review": {
+    "status": "partial",
+    "read_at": "2026-11-12T03:26:59Z",
+    "notes": [
+      "可见13主楼、1楼中楼与#2邮件截图已核读；#4楼中楼元数据异常，删楼不可恢复。截图支持欧服手心拟借号回国服及军团欢迎消息；讥讽不当实际战败事实，国服借用号不登记成宁静服小号。"
+    ],
+    "evidence": [
+      "src/people/shou-xin/materials-shou-xin.json#国服指挥嘲讽与收费培训"
+    ]
+  },
+  "acquisition": {
+    "cache": ".cache/shouxin-2210056627.json",
+    "fetched_at": "2026-11-12T03:21:25.888Z",
+    "main_posts": 13,
+    "subposts": 1,
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      14,
+      15
+    ],
+    "orders": {
+      "forward": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      },
+      "reverse": {
+        "pages": 1,
+        "complete": true,
+        "page_numbers": [
+          1
+        ],
+        "total_pages": 1
+      }
+    },
+    "subpost_gaps": [],
+    "errors": []
+  }
+}

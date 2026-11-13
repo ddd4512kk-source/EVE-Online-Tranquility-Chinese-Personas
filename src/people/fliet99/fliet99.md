@@ -1,5 +1,5 @@
 
-舵主，游戏名 fliet99，头衔“舵主☆黑PA”。他是 OSY 军团 **Temple of Tuvan Orth**（图万·奥斯神殿，ticker OSYTM）的 CEO，军团四百五十人，是 Guardians of Tranquility 联盟的执政军团；他自己也是 OSY 的核心 FC 之一，守门、封锁、出征常由他带队。早年在 FRT 的伏羲待了三年半，2020 年转到北极星的佛系军团 Buddha Like，同年 8 月接手图万·奥斯神殿。
+舵主，游戏名 fliet99，是 OSY 军团 **Temple of Tuvan Orth**（图万·奥斯神殿，ticker OSYTM）的 CEO。军团四百五十人，是 Guardians of Tranquility 联盟的执政军团；他也是 OSY 的核心 FC 之一，守门、封锁、出征常由他带队。早年在 FRT 的伏羲待了三年半，2020 年转到北极星的佛系军团 Buddha Like，同年 8 月接手图万·奥斯神殿。
 
 ::: 红料 坐镇 OSY 的大军团
 FRT 主力 2019 年撤离底特、北上之后，OSY 成了凛冬的边缘地带。2020 年有人发帖[《关于 OSY 战区近况》](https://forums.winterco.org/t/topic/6371)：俄国人堵空间站、扬言把 OSY 化为焦土，“我们仍然在 OSY 屹立不倒……We are the Curse from the Curse”。同年 8 月成立的图万·奥斯神殿，就是坚守 OSY 的那批人的大本营；舵主当它的 CEO 至今，[LK](../983162808/) 也在这里。

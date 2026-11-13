@@ -1,0 +1,413 @@
+{
+  "status": "reviewed",
+  "note": "重料按自述和争议来源分清，展开了处境、反差及后果；人物主线和篇幅层次完整。",
+  "evidence": [
+    "src/people/freakdog-otto/materials-freakdog-otto.json",
+    "src/people/freakdog-otto/freakdog-otto.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "完整对照正文与人物素材：主线、投资及-78B争议、同步器自述、文章连载、删帖与R4争论均有来源；新补的损失和封禁限于本人首楼自述，图片与未读楼未转成新事实。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "contains": "首楼新补：奥托自述建立20号同步器队"
+        },
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "二十个号，拿来开炸弹战列、黑隐、无畏"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "重料均按自述或争议归属展开，补足处境、动机、分量、反差、后果和落点；普通连载、删帖与自嘲处理到位。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+          "contains": "长帖首楼补漏（2026-11-13）"
+        },
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "奥托，游戏名 Freakdog Otto"
+        }
+      ],
+      "items": [
+        {
+          "title": "二十号同步器队、十五条海军型神示与封号一周",
+          "weight": "heavy",
+          "reason": "本人自述以同步器多开组织舰队，兼有大量船只与脑插损失及账号处罚，是有明确后果的违规事件。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "首楼新补：奥托自述建立20号同步器队"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "二十个号，拿来开炸弹战列、黑隐、无畏"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "写出单人维持二十个角色并按目标切换船队的操作处境。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "别人缺人得拉群喊集结，他把集结表塞进自己的电脑"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "将成规模的火力和单人点鼠标的人员落差并置。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "背后的人数却十分节省。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "关联对方截取整齐开炮时间、提交CCP与部分账号停封一周。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "部分账号因此被封了一周。"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "回到改为手动操作仍想驾驶二十条泰坦的执念。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "违规的办法换了，想把一支舰队装进自己电脑的念头倒没变。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "自述边界清楚，操作、损失、处罚和人物执念形成完整展开。"
+        },
+        {
+          "title": "约七万PLEX的龙骑投资",
+          "weight": "heavy",
+          "reason": "长期投入、卖船和赠船自述是其金主身份的核心主张，且原数值口径有本次明确更正。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "不算建筑插件与个人奖品约 7 万 PLEX 投资"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "在 FRT 时攒的家底都掏空了"
+          },
+          "development": [
+            {
+              "angle": "分量",
+              "note": "量化自述投入，并列举军团战斗建制、生产、投送和星城等发展目标。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "合计约值 7 万 PLEX。"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "呈现他以PVE税收作比较、试图说明投入规模的论证方式。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "我给的钱，按 8% 税率算，要多少人 PVE 多久能刷出来。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "从战略投资叙述转到卖掉四条全装大航、并赠船补偿队友的具体账目。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "为了给龙骑凑各种钱，我卖了 4 条全装大航"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "指出投入金额没有独立核对，外界争论转向其人品。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "这几笔账没人出来核对"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "更正排除项后，正文仍保留自述口径和未经核实的边界，并以具体账目与质疑方式展开。"
+        },
+        {
+          "title": "红名钱包 -78B 及资金来源争议",
+          "weight": "heavy",
+          "reason": "RMT指控、卖船资金解释和CCP追扣链条直接构成奥托与红名冲突的核心争议。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "对 78B 的解释（卖两条大航给 PH 买家，资金有问题，CCP 追扣链条"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "一个说自己是卖船卖到了脏钱，一个说他就是 RMT。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代烈冰玄武所发三句话帖及其RMT资金指控。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "第一句就是：奥托用 RMT 的钱向"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "对照双方对资金来源与责任的不同版本。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "奥托的版本是：钱是他卖两条大航凑的"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "展开奥托所述CCP扣款转账链和16条泽尼塔赔损说法。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "CCP 就把 ISK 从红名钱包扣走、转到他的号"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "结尾保留版本冲突，落在实际挂着负余额的是红名钱包。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "最后挂着 -78B 的都是红名的钱包。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "对立说法均有归属，没有替有争议的资金来源作事实裁决。"
+        },
+        {
+          "title": "萨托加斯星城毁灭与龙骑路线分歧",
+          "weight": "heavy",
+          "reason": "星城被毁及龙骑对FRT路线的分歧解释了人物离团和后续舆论冲突，是传记主线。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "龙骑（Silver Fog Dragon Ride / Dragon Riders Legion）前管理、战略投资者；2026-01-13 龙骑萨托加斯星城被帝国系与深水等摧毁"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "2026 年 1 月 13 日，帝国系联手深水等几家低安联盟，在萨托加斯炸掉了龙骑的星城。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "用时间、参与阵营和星城被毁建立冲突现场。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "帝国系联手深水等几家低安联盟"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "交代奥托主张把龙骑建设为FRT正牌低安团、下星城是路线一环。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "他主张的路线是把龙骑做成 FRT 的“正牌低安团”"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "对照奥托要将龙骑纳入正规低安路线与吧友认为团内并不愿意投靠FRT的分歧。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "但是这个团的晁盖还没死，下面人也不想诏安。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "引用捐款、投靠FRT等吧友批评，呈现团内外对路线的分歧。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "下星城捐款的时候我就只想看烟花"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "以宋江比喻和奥托援引韩非子收束路线冲突，不把争论写成单方定论。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "奥托回韩非子：“国小而不处卑"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "事件、路线动机、外界反应与人物回应俱在，证据和评论归属清楚。"
+        },
+        {
+          "title": "高安R4方案、政变指控与对红名的批评",
+          "weight": "heavy",
+          "reason": "方案可行性、离团过程与权力指控互相冲突，属于主要人际争议。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "事实纠正：7万PLEX明确不含建筑插与个人奖品；“拢权不做事”是奥托批红名"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "烈冰玄武的另外两句是：奥托提出用高安挖矿和制造每月给军团输血"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "列明高安R4挖矿制造提案及管理层关于收益亏损的反对。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "管理讨论后算出来甚至亏钱"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "以烈冰玄武的反问对照奥托的经营方案，呈现两方对矿业收益的判断冲突。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "你那破高安 R4 能赚钱？做什么梦呢？"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "还原奥托用在线新人多开与低安矿冰矿分工作辩护的方案逻辑。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "把隔壁高安 31 个空闲 R4 安排给在线时间较多的新人多开挖"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "并列烈冰玄武洗钱、夺权的指控及奥托称被架空后回采星的版本。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "烈冰玄武答：“团里 R64 都没人挖"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "明确“拢权不做事”是奥托对红名的批评，最后落到双方把对方的方案与批评互相否定。",
+              "evidence": {
+                "file": "src/people/freakdog-otto/freakdog-otto.md",
+                "contains": "“被架空”和“拢权不做事”都是奥托在控诉龙骑管理"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "说话者归属已纠正，方案、批评、反驳与离团叙述均分清来源。"
+        },
+        {
+          "title": "低安兵法连载与文章风格",
+          "weight": "ordinary",
+          "reason": "连载呈现奥托的理论化写作与自我包装，属于人物性格侧写。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "存在舰队理论 10400955904"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "第二期[《存在舰队理论的讲解说明和实证分析》]"
+          },
+          "note": "概括主要论述并以统一开头、头衔和吧友两极评价展开，没有把承诺中的第四期写成已刊发。"
+        },
+        {
+          "title": "删帖重发与“照顾不该牵涉的人”",
+          "weight": "ordinary",
+          "reason": "帖子争论体现奥托如何解释删改，属于社区表达事件。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "“照顾一些不该牵涉到的人”；对红名“懒政又摆烂”的批评"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "回忆录发出来后，龙骑的人在楼里说他“又发一遍，把对自己不利的发言全删了，真有你的”。"
+          },
+          "note": "并列吧友质疑与奥托解释，未断言删帖动机超出其自述。"
+        },
+        {
+          "title": "马谡、赵括自嘲",
+          "weight": "ordinary",
+          "reason": "贴吧原话将历史名将梗转成自嘲，是简短但鲜明的性格材料。",
+          "source": {
+            "file": "src/people/freakdog-otto/materials-freakdog-otto.json",
+            "contains": "#15 “我就是马谡、赵括的秽土转生”。"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/freakdog-otto/freakdog-otto.md",
+            "contains": "奥托用小号回：“你猜对了，我就是马谡、赵括的秽土转生。”"
+          },
+          "note": "正文接上后来他人再称赵括的回声，篇幅适度。"
+        }
+      ]
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "星城路线、投资争议及违规多开构成主干；实战战绩独立成块，连载和贴吧互动作侧写，结尾回扣其自嘲与去向，篇幅层次与主线相称。",
+      "evidence": [
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "奥托有钱，有理论，有《海权论》和韩非子"
+        },
+        {
+          "file": "src/people/freakdog-otto/freakdog-otto.md",
+          "contains": "回采星，接着写第四期。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/corporations/notes/member-research/98613748.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
+    "src/people/freakdog-otto/97259613-id.json",
+    "src/people/freakdog-otto/freakdog-otto.md",
+    "src/people/freakdog-otto/materials-freakdog-otto.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
+    "src/battles/arnher-2026/arnher-2026.json",
+    "src/battles/arnher-2026/arnher-2026.md",
+    "src/battles/arnher-2026/materials-arnher-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.json",
+    "src/battles/sahtogas-2026/sahtogas-2026.md",
+    "src/battles/sahtogas-2026/materials-sahtogas-2026.json"
+  ],
+  "inputs": "90434d66a428585a7ea28d104a327f04832e78301fd38bdf6d7bb846e8510fae",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/corporations/notes/member-research/98613748.json": "9af436bc247a2f3b29cc8a3f6ade7adc2ab4a2be480eb7bfcff22e00c9d95971",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "280eef9eb1d0f7d5d3711d524055d7b5d6aae1a842a69458c659599b1de5dbec",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "src/people/freakdog-otto/97259613-id.json": "e70a6ef26cc760be23440dac5857507a3255e00bfcb5cf5c9fb933fa0322bd83",
+    "src/people/freakdog-otto/freakdog-otto.md": "443c52a848048a5a4a0bb7afbfb87dfeb0323f79c780d6b53dc3bc5cd5831486",
+    "src/people/freakdog-otto/materials-freakdog-otto.json": "490b12c560e691f02586f23420dcf22fae8864eb12e55805130454c650ff7ed9",
+    "battle:4-hwwf-8tpx-n-2026": "5969928ee296e24c3e691ca518157de92691797d18c2e30df6ce6fc0bfaf0f8c",
+    "battle:arnher-2026": "08bd4be86a590e922dbb68dc449372fde0f46b578f34f4f09d47029d1e26eccd",
+    "battle:atioth-2026": "05b470dd0bf8905417b4e9c66eac50ba43b45c10b63e1ff922edc4a8b2c60fc9",
+    "battle:egmar-2025-02-23": "48a36d87b054e75f3fa1b25b4872c2e238c2137ceb8ef61fdb24f405967c82b8",
+    "battle:sahtogas-2026": "df6d7c57460cfacbfbbe61f5aee3e9df4ca0339df51e6b7ee547dc9450fc2523"
+  },
+  "level": 1
+}

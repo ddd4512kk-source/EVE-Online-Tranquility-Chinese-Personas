@@ -1,112 +1,132 @@
 {
   "status": "reviewed",
-  "note": "独立核主小号总览、七场战役与11344作者复盘；综合战绩前移、八杀并块后通过。",
+  "note": "独立核对战绩口径、小号归属、代表战斗与战绩段，统计未混算。",
   "evidence": [
-    "src/people/fley-den/materials-fley-den.md",
-    "src/people/fley-den/2113213717-id.json",
+    "src/people/fley-den/materials-fley-den.json",
     "src/people/fley-den/fley-den.md"
   ],
   "assessment": {
     "profile": {
       "status": "reviewed",
-      "note": "已核主号stats8948杀、578损、3.436T及素材674单杀，常用洛基/缪宁/银鹰/马克瑞，支持小队与大队兼顾的战斗玩法；评语旧三千亿已修正三万多亿。",
+      "note": "主号总览为8948杀、578损、3.436T参与击毁值，正文以量级概述并写常用船和独狼/大队玩法；战绩口径相符。",
       "evidence": [
         {
-          "file": "src/people/fley-den/2113213717-id.json",
-          "contains": "\"kills\": 8948"
+          "file": "src/people/fley-den/materials-fley-den.json",
+          "heading": "### AG7七人赛视频简介"
         },
         {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "contains": "画像 / KB："
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "乌鸦王的 [KB]"
         }
       ]
     },
     "alts": {
       "status": "reviewed",
-      "note": "Den Like Raven为已确认同头衔/同人小号；已存stats3483杀、362损、1.272T，材料保留跨星系样本不属于Atioth的排除，累计不加总，4-H多号一场合并。",
+      "note": "Den Like Raven以共同头衔及同团历史归为已确认小号，材料记3483杀、362损；正文没有错误合并小号战绩。",
       "evidence": [
         {
-          "file": "src/people/fley-den/2113213717-id.json",
-          "contains": "\"kills\": 8948"
-        },
-        {
-          "file": "src/people/fley-den/materials-fley-den.md",
+          "file": "src/people/fley-den/materials-fley-den.json",
           "heading": "## 已对应小号的战役复查（2026-10-11）"
         }
       ]
     },
     "peaks": {
       "status": "reviewed",
-      "note": "已核素材2025-03约234.8B、2025-10约219.9B及926亿巴戈龙损失，八杀新段由11344第6楼自述复盘支持，不冒充独立BR；没有新待查月份。",
+      "note": "核对2025年3月高峰、2025年10月巴戈龙损失及代表性4-H/艾蒂斯战斗，正文以量级和代表场景概述，未把整场战损算作个人战果。",
       "evidence": [
         {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "contains": "zKillboard 旧版正文取数："
+          "file": "src/people/fley-den/materials-fley-den.json",
+          "heading": "### 检索记录与缺口"
         },
         {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "heading": "## 凛冬固定清单核读补充（2026-10-30）"
+          "file": "src/people/fley-den/materials-fley-den.json",
+          "heading": "## 2026-04-25 北方大型战役"
         }
       ]
     },
     "battles": {
       "status": "reviewed",
-      "note": "核现有七场：4-H、Ahbazon、Akkio、Atioth、LJ-YSW、Otsasai、X47；主小号按人合并，4-H土狼和Atioth凤凰海军的代表KM对应本人材料，未把小号4-H记录误挪Atioth，未因比赛广告称率队。",
+      "note": "卡片列出的8个关联战役均与主号或已确认小号相关；正文采用4-H、艾蒂斯等代表场景，没有把普通参战扩写为指挥或个人总战果。",
       "evidence": [
         {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "heading": "## 2026-04-25 北方大型战役"
-        },
-        {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "heading": "## 2026-10-11：1T 大战核对"
-        },
-        {
-          "file": "src/people/fley-den/materials-fley-den.md",
-          "heading": "## 2026-06-21 Akkio参战（2026-10-20补档）"
+          "file": "src/people/fley-den/materials-fley-den.json",
+          "heading": "### AG7七人赛视频简介"
         }
       ]
     },
     "narrative": {
       "status": "reviewed",
-      "note": "综合KB块现紧接开篇，以独狼/大队并行和高价损失点评人物，代表战斗在块内；原八杀与新增拆招已合一事件，未拆普通KM凑料。",
+      "note": "综合战绩独立成块并用于串联早年咸鱼与现役玩法；另有具体八杀打法及大规模战役代表场景，点评没有用普通统计替代人物特征。",
       "evidence": [
         {
           "file": "src/people/fley-den/fley-den.md",
           "contains": "乌鸦王的 [KB]"
+        },
+        {
+          "file": "src/people/fley-den/fley-den.md",
+          "contains": "早年他就是在这个地方献祭伊什塔"
         }
       ]
     }
   },
   "dependencies": [
-    "docs/sources/capital-battles-2026-10-11.md",
-    "docs/sources/large-battles-2026-10-11.md",
-    "docs/sources/northern-battles-2026-04-25.md",
+    "docs/bilibili/11414533.json",
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
     "src/people/fley-den/2113213717-id.json",
     "src/people/fley-den/fley-den.md",
-    "src/people/fley-den/materials-fley-den.md",
+    "src/people/fley-den/materials-fley-den.json",
     "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
     "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
-    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
     "src/battles/ahbazon-2024/ahbazon-2024.json",
     "src/battles/ahbazon-2024/ahbazon-2024.md",
-    "src/battles/ahbazon-2024/materials-ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
     "src/battles/akkio-2026/akkio-2026.json",
     "src/battles/akkio-2026/akkio-2026.md",
-    "src/battles/akkio-2026/materials-akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
     "src/battles/atioth-2026/atioth-2026.json",
     "src/battles/atioth-2026/atioth-2026.md",
-    "src/battles/atioth-2026/materials-atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
     "src/battles/lj-ysw-2024/lj-ysw-2024.json",
     "src/battles/lj-ysw-2024/lj-ysw-2024.md",
-    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
     "src/battles/otsasai-2021/otsasai-2021.json",
     "src/battles/otsasai-2021/otsasai-2021.md",
-    "src/battles/otsasai-2021/materials-otsasai-2021.md",
+    "src/battles/otsasai-2021/materials-otsasai-2021.json",
     "src/battles/x47l-q-2023/x47l-q-2023.json",
     "src/battles/x47l-q-2023/x47l-q-2023.md",
-    "src/battles/x47l-q-2023/materials-x47l-q-2023.md"
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.md",
+    "src/battles/x47l-q-2023-03/materials-x47l-q-2023-03.json"
   ],
-  "inputs": "082813678197832f4d0a7c9fa3375894a10d92814958ec01d22ca1bf51262e6b",
+  "inputs": "aaa10d26d67f6e02fc2ff4299a45e08b70daeb004be2618a6f4b0c00ef2f58f2",
+  "inputParts": {
+    "docs/bilibili/11414533.json": "8bada2c2315aceeaff89e10566ad7956e8d2f330291aa9aecf2e9006f9f102c5",
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "src/people/fley-den/2113213717-id.json": "04122ce5cce0fe0e8b9c4a9cbc20b3675daac3f65df2d7800a7b021a96579efb",
+    "src/people/fley-den/fley-den.md": "fd1225227e1c622743596889cee808e988c1900375f054e972ea916b3c899733",
+    "src/people/fley-den/materials-fley-den.json": "e663c4892b3763a2c2a46e50f3babd2b6979f1852a5003b30e7cfe44cce7c885",
+    "battle:4-hwwf-8tpx-n-2026": "d17f76a86e616cbea75e217cf46434511c6ab0d0fcf64c8479d4c392bfc3dcf9",
+    "battle:ahbazon-2024": "b83383de04f52e741c2bc3c166576623831c86b49f08e01fbbe0a26f2cbb82f0",
+    "battle:akkio-2026": "c240c36a28bfeac22f5c772183861cf589c1fed114db654c7cc7e1f1aa823ce0",
+    "battle:atioth-2026": "96b931c9b6b33b2abff90ae751d89add22fb84eb4f1b6d2a47e1ec20de8e4429",
+    "battle:lj-ysw-2024": "3d280afcaa72d12959826d48a94c1d101c6d88d32bda28bd2230f613a55c79f5",
+    "battle:otsasai-2021": "ead0b3f094e02093ebd3f3cd7e017ab0d7b6284564aff0a8510233a37b16aa94",
+    "battle:x47l-q-2023": "505a3fa55d9b6953bf42a534d3df439b48a74b43d8a87a8457c4efd5166ae9ea",
+    "battle:x47l-q-2023-03": "583c1bdfb349da95544b4092ef514396ad325254f7c0a5b9ac684baec6b98176"
+  },
   "level": 1
 }

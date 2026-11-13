@@ -1,5 +1,5 @@
 
-极冰，B 站 UP 主“极冰丶779”。游戏里他不是一个人，是一串号：本号 jibing779 之外，还有 G1、G2、2、3、4、C1、D1、D2、Y1、Y2、Y4，名字全是 jibing779 开头，头衔基本都写着“极冰”。本号 2020 年 3 月建号，当天进了 FRT 的星空舰队（Starry Sky Fleet）；真正杀人的两个号 G1、G2，2021 年进了 FRT 大学旗下的三体军事学院（Trisolaris Military Academy），2024 年 9 月一起转进伏羲（Fuxi Legion）。
+极冰，B 站 UP 主“极冰丶779”。游戏里他不是一个人，是一串号：本号 jibing779 之外，还有 G1、G2、2、3、4、C1、D1、D2、Y1、Y2、Y4，名字全是 jibing779 开头，也都叫“极冰”。本号 2020 年 3 月建号，当天进了 FRT 的星空舰队（Starry Sky Fleet）；真正杀人的两个号 G1、G2，2021 年进了 FRT 大学旗下的三体军事学院（Trisolaris Military Academy），2024 年 9 月一起转进伏羲（Fuxi Legion）。
 
 B 站频道大半是《秘密实验室》，最火的一条七万多播放；EVE 只占一小块，但标题都很有性格。本号简介三行，第一行是一个任务名：
 

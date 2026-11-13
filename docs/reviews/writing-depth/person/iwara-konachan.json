@@ -1,0 +1,95 @@
+{
+  "status": "reviewed",
+  "note": "复核组织名称后，覆盖、事件和全文重心结论仍成立",
+  "evidence": [
+    "src/people/iwara-konachan/materials-iwara-konachan.json",
+    "docs/corporations/98588509.json",
+    "src/people/iwara-konachan/iwara-konachan.md"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "通读全文并对照两节人物素材及联盟名单。联盟内部外交／外交组职责、角色头衔、数学简介原梗、战绩总览和两项战役均有对应来源；没有未采用的独立重料。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/materials-iwara-konachan.json",
+          "heading": "## 身份与联盟职责"
+        },
+        {
+          "file": "src/people/iwara-konachan/materials-iwara-konachan.json",
+          "heading": "## 战绩与已有战役核对"
+        },
+        {
+          "file": "docs/corporations/98588509.json",
+          "contains": "    \"菜鸟事务所\""
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "正文没有应独立展开的重料事件。联盟任职达到短传门槛，作为简介处境入文；长篇伽罗瓦自述是名片趣味而非独立冲突。战绩与战役作一块总结性画像，均未膨胀成独立重料。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/materials-iwara-konachan.json",
+          "heading": "## 身份与联盟职责"
+        },
+        {
+          "file": "src/people/iwara-konachan/iwara-konachan.md",
+          "contains": "这位联络官的简介，开头却是"
+        }
+      ],
+      "items": [],
+      "noHeavyReason": "完整素材只有联盟名单职责、角色名片中的数学梗、战绩总览及两项普通战役命中；未发现应以独立重料展开的争议事件。数学简介作为人物趣味融入职责叙述。"
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "短传重心放在联盟职责及最有辨识度的数学简介；战绩紧接开篇，参战细节简写，收尾回扣职责与名片梗。没有重料被普通参战淹没。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/iwara-konachan.md",
+          "contains": "::: 红料 外交官也交战损"
+        },
+        {
+          "file": "src/people/iwara-konachan/iwara-konachan.md",
+          "contains": "凛冬把他放进外交组，他把伽罗瓦理论放进简介。"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/98588509.json",
+    "docs/leads/lancetlot-outamon.json",
+    "docs/leads/shi-yuan-yu.json",
+    "docs/leads/ster-sing.json",
+    "docs/leads/winterco-leadership-2026.json",
+    "docs/sources/frt-offtimezone-quotes-2025.json",
+    "docs/sources/winterco-communications-review-2026-10-13.json",
+    "docs/sources/winterco-leadership-2026.json",
+    "src/people/iwara-konachan/2114866599-id.json",
+    "src/people/iwara-konachan/iwara-konachan.md",
+    "src/people/iwara-konachan/materials-iwara-konachan.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json"
+  ],
+  "inputs": "75366f1f96c9da8a9c8d4fe89f69ac56c9259a1bd24d04ef190cc0d7fcda805a",
+  "inputParts": {
+    "docs/corporations/98588509.json": "4ccc54ca3510ba78076ac3babb51b7070bf87d83d918387b2b3fa014176e5bda",
+    "docs/leads/lancetlot-outamon.json": "c580df1dc4a91e53ff9ce3c1711cab8b62567c1997f4af04f1374a0fe96de059",
+    "docs/leads/shi-yuan-yu.json": "bb8df348d28cc39f9f71f079ce6dcd87f93be4384bbf43c9d1068d2b257a0720",
+    "docs/leads/ster-sing.json": "cb7cc3f133c66fa47567b2b8625ccf0c888d8d6cfdf4cf759fc6fc84f261cb19",
+    "docs/leads/winterco-leadership-2026.json": "6dbd56e70c9b30c9a4fab15a5e11428ac0a6908414efadb9c3c8b2a327d6e5d7",
+    "docs/sources/frt-offtimezone-quotes-2025.json": "d6380e478f4b4fbc0b16c03959b7bf78cbe76f84b1ba293397bbeca10a257357",
+    "docs/sources/winterco-communications-review-2026-10-13.json": "888e495d28636c67f996507ffef734f247fb4a2e609d57dd8f11095679f05d1f",
+    "docs/sources/winterco-leadership-2026.json": "416b8b8df01f7c5e0ceafe2cd6bee53e8fe8100330e00329007962b7c3b98f61",
+    "src/people/iwara-konachan/2114866599-id.json": "bd355c3560b5530a548ee2b16a2c4c7e6812732eb8c733935706504c8e51c2d3",
+    "src/people/iwara-konachan/iwara-konachan.md": "215e906421b110f637ce4572172cb3b4070e82e3ae7137494d734d133f461bc3",
+    "src/people/iwara-konachan/materials-iwara-konachan.json": "fe9b708c1070949f5e4506fa0d3c2539be07d4d36a10c55ae1bd02bcd11d10d4",
+    "battle:a1-auh-2021": "a5f3e1b852c00bc3a31ffaa50ba0c24da473b910d7c1c82ae68930c55ec98237",
+    "battle:atioth-2026": "8c13d26c349cf742c40fd02654a052f9f800faa53b9e3f735142e3a8fd3b362e"
+  },
+  "level": 1
+}

@@ -1,7 +1,7 @@
 {#- 目录卡片。传入 p（列传页面对象）。 -#}
 {%- set d = p.data -%}
 {%- set char = d.char -%}
-<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}" data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
+<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}"{% if d.radarPanel %} data-radar="{{ d.radarPanel.ranks | dump }}"{% endif %} data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
   <a href="{{ p.url | url }}">
     {%- if d.famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ d.famous }}">名</span>{% endif %}
     <span class="status-frame status-{{ d.activity.state }}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}"{% if d.activityLabel %} title="{{ d.activityLabel }}"{% endif %}>

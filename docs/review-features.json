@@ -42,7 +42,7 @@
     },
     "strictness": {
       "level": 1,
-      "rules": "f581693e1734285ea8e60525d4971382d699008ad846d44353d4526b56e8fff4"
+      "rules": "6f291aba621e17f6dbfaff6a7e761dd6dada8fdfde3602f534c5b3c936f84536"
     }
   },
   "battle-attribution": {
@@ -62,7 +62,7 @@
     ],
     "strictness": {
       "level": 2,
-      "rules": "42c1bd30c2fac7465aa5f3363f697a0f114f1027e5925f90e5837a5dc2bb2ed9"
+      "rules": "94f252164805823658669f5c0c6c2133e19195f060a537aa343251e2d32a5e2a"
     }
   },
   "battle-videos": {
@@ -77,7 +77,7 @@
     "rules": [
       {
         "file": "docs/rules-battle.md",
-        "contains": "**相关视频**"
+        "heading": "### 相关视频"
       },
       {
         "file": "docs/research-battle.md",
@@ -102,7 +102,7 @@
     ],
     "strictness": {
       "level": 1,
-      "rules": "0347d905ba4b5486f8632bf60024783e04d34f76b970bef6c8bb6efbbc9ea27b"
+      "rules": "3acbf4b2d3ec794881c52fcd4c3f3bc295a15df997ff8f5bcfa16c455c90654f"
     }
   },
   "persona-tags": {
@@ -121,7 +121,7 @@
     ],
     "strictness": {
       "level": 1,
-      "rules": "3591d5f396a5ddc176fbb9164dd44ed8f5c6feb527e1432b85ba858b23ef4faa"
+      "rules": "f989041d38770243c97396c6e326708ac3416a290986d78cdb6ed21a5c681b3d"
     }
   },
   "famous-fc": {
@@ -142,7 +142,7 @@
     ],
     "strictness": {
       "level": 1,
-      "rules": "28176ef3770372b69c5e75d5668f5a9229f552cce3559178831b92e3c00bc25d"
+      "rules": "5df936654455f1eb1aba6d6facc424f5b9042737053367932bdf8d44ae63c7b8"
     }
   },
   "writing-depth": {

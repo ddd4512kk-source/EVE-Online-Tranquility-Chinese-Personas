@@ -1,0 +1,174 @@
+{
+  "status": "reviewed",
+  "note": "战绩独立成块，数据与正文相符",
+  "evidence": [
+    "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+    "src/people/gelanchuan-erata/gelanchuan-erata.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "stats 总览：击杀约 7288、损失 662、击毁约 6.75 万亿，缪宁 1289 次、月刃 460；正文“七千多击杀、缪宁上千次、六万多亿、损失六百多次约五百多亿”与之相符（损失合计约 59.2B）。重突老 FC 的定位与数据一致。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-11-09：zKillboard 与 Monitor 统计快照"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "格兰川的 KB 是一本重突人的账"
+        }
+      ]
+    },
+    "alts": {
+      "status": "not-applicable",
+      "note": "身份摘要 alts 与 accounts 均为空，无已确认小号，统计只含主号 2115478949；别名“格蓝重组队”只是外号，不涉及另一账号。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 格兰川 / GeLanChuan Erata"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "唯一需解释的峰值是 2020 年 2、3 月约 1.78T：素材核出其中七条泰坦尾盘（各 100+ 攻击者，四条 1000+）合计约 1.36T，正文明确写为联盟集体战果的署名、不当个人战功，处理得当。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-11-14：3V 起家、2020 年泰坦尾盘与 M2-XFE"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "2020 年 2、3 月是他 KB 最肥"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "正文涉及 2026-04-25 北方大型战役（FRT 一方，Monitor 参与指挥，KM 135002374，各方损失约 969B，正文“近万亿”相符）、2026-02-22 塔夫（鱼鹰级海军型，攻击与被击毁 KM 均在窗口内）、2026-06 埃加奥（灾难级海军型被击毁 KM 136438469，typeID 17726）、2020-12-31 M2-XFE（缪宁，PAPI 一方，KM 89614397）及 2022 纳瓦拉战后总结。Monitor 匹配不等于带队场次，正文只写“带队守家/开麦”的叙述，未换算场次，可接受。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-04-25 北方大型战役"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-10-11：Taff 大型战役"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+          "heading": "## 2026-06-21 Akkio参战（2026-10-20补档）"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "他也不是只会坐在指挥位上"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩集中在独立红料块“缪宁队的老 FC”，含 KB 总账、缪宁数量、北方、塔夫、埃加奥；2020 峰值与 M2-XFE 另有专块，末尾“评”有综合点评。战绩并未散落在开篇。",
+      "evidence": [
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "格兰川的 KB 是一本重突人的账"
+        },
+        {
+          "file": "src/people/gelanchuan-erata/gelanchuan-erata.md",
+          "contains": "格兰川是混沌仲裁的老牌缪"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/corporations/notes/member-research/98524084.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/chersea.json",
+    "docs/leads/cute-catttt.json",
+    "docs/leads/esther-annabelle.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/man-in-rainy.json",
+    "docs/leads/mikoyan-anzomi.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/fushui-zhiluan-2026-05.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "docs/sources/northern-battles-2026-04-25.json",
+    "src/people/gelanchuan-erata/2115478949-id.json",
+    "src/people/gelanchuan-erata/gelanchuan-erata.md",
+    "src/people/gelanchuan-erata/materials-gelanchuan-erata.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.json",
+    "src/battles/4-hwwf-8tpx-n-2026/4-hwwf-8tpx-n-2026.md",
+    "src/battles/4-hwwf-8tpx-n-2026/materials-4-hwwf-8tpx-n-2026.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
+    "src/battles/akkio-2026/akkio-2026.json",
+    "src/battles/akkio-2026/akkio-2026.md",
+    "src/battles/akkio-2026/materials-akkio-2026.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
+    "src/battles/m-md31-2026/m-md31-2026.json",
+    "src/battles/m-md31-2026/m-md31-2026.md",
+    "src/battles/m-md31-2026/materials-m-md31-2026.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.json",
+    "src/battles/taff-2026/taff-2026.json",
+    "src/battles/taff-2026/taff-2026.md",
+    "src/battles/taff-2026/materials-taff-2026.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.json",
+    "src/battles/todifrauan-2025/todifrauan-2025.md",
+    "src/battles/todifrauan-2025/materials-todifrauan-2025.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.json",
+    "src/battles/x47l-q-2023/x47l-q-2023.md",
+    "src/battles/x47l-q-2023/materials-x47l-q-2023.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.md",
+    "src/battles/x47l-q-2023-03/materials-x47l-q-2023-03.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.json",
+    "src/battles/zz-zwc-2026/zz-zwc-2026.md",
+    "src/battles/zz-zwc-2026/materials-zz-zwc-2026.json"
+  ],
+  "inputs": "395ce4296352036b065bea5f22e2dbcb7755c83e200e12fefb9237dce9fb14fd",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/corporations/notes/member-research/98524084.json": "b8c3fc4de4c29c2613eaa2407ce4c61b00a59542e996b350f17f56adee7aefd6",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/chersea.json": "77b16913a937fb2703fb7525f1af3189c66690f817ea82e7fd7fd4d3e099fb72",
+    "docs/leads/cute-catttt.json": "455ee927e0bb988daaaa6ec81d510569f33dc263966ebdabdaedf84f8c92dd5b",
+    "docs/leads/esther-annabelle.json": "da6f06bea4fc0f1072d4bfdc8620557c3ab2eb9a678343907752e64c277642b8",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/man-in-rainy.json": "5e5da9e37e08f0ca360d934b1ff3f5de2cba7ee251013c08e525df0c43b0830c",
+    "docs/leads/mikoyan-anzomi.json": "dac0d9f48e7d4ecdc8b3eb51c674a269bc7b2256bc3e61abba0d24efd17dd0f7",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/fushui-zhiluan-2026-05.json": "79eba2c1f8d98832d832de3e5766b1860afd450f280cd22c0d2c101fc27dcdf6",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "docs/sources/northern-battles-2026-04-25.json": "20d23d0c45172904deaed1c8110c763ba94dbe65154c950ac196871585d9adc0",
+    "src/people/gelanchuan-erata/2115478949-id.json": "8b7331366b871a1f4fd73331f771b292974822d90a2574ec02f980cf3234cb7c",
+    "src/people/gelanchuan-erata/gelanchuan-erata.md": "604a2a4f0d9b0471bf2b9a72ca44528d17de0eb9c4b7bf7e89fee24bb178e144",
+    "src/people/gelanchuan-erata/materials-gelanchuan-erata.json": "70cf9bbb67fb2a6cb288fffec9ddb6c574eced126c1dd7083272c439d0af3870",
+    "battle:4-hwwf-8tpx-n-2026": "c359c5037dd7f2e609758655816e108f10d28f61c00629ab3efcc60043782139",
+    "battle:ahbazon-2024": "0d62ad077ddd63645ed4d62a9d1c06ecc94bd2f95e6f06bddcf3139eb0a1b994",
+    "battle:akkio-2026": "db39869c172bada34d4ad4268b9faf726e2ed99422244e8456a2ec2a0d32be44",
+    "battle:atioth-2026": "6d86684bb99026b1c0abe5d6c15b504b0c1d65c7cefbce4c29a5f997a50f40ce",
+    "battle:fwst-8-2020": "c63c6d54ad3da0e0e60a82753d06f0f3ac0b1da356faf82ec500c00e1d12517a",
+    "battle:m-md31-2026": "dd66d391555e1731751cb5f55a5ac1cc08e6f638624967f8c06da8fe042c53cb",
+    "battle:m2-xfe-2020": "bc9ffe5bf2db133230e53e5ecc39fae46e5e0fe9d3ca0ced7bc7d3daca7665ff",
+    "battle:m2-xfe-breakout-2021": "5abc7a3183fb9589272264f4e3f75ccf6959373998f96466f5de74726c00a17c",
+    "battle:taff-2026": "fc6f6c5525436ed194e6d7d6d8dcb8b4bebd8e72b9c4c20e7b31339feb04e312",
+    "battle:todifrauan-2025": "7d718c3ddd1f39188a74dd8e0e374538c064587df386968f531880a171f03d1f",
+    "battle:x47l-q-2023": "f57b7de7fb5f3524f160df3268078e2e45915457edb01f1cc5982b1c55ea3f2f",
+    "battle:x47l-q-2023-03": "ce53a50ba018003d5515fb3133562964b96902a9be25a2fcc43d05282f4b6586",
+    "battle:zz-zwc-2026": "fce3a089ee250b9123f1f2d13e4bbac6fe4ea91e140a69f47b4089e7adc9bc47"
+  },
+  "level": 1
+}

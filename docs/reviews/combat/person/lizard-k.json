@@ -1,0 +1,112 @@
+{
+  "status": "reviewed",
+  "note": "战绩、小号、战役对照均与素材一致，独立战绩块成立",
+  "evidence": [
+    "src/people/lizard-k/materials-lizard-k.json",
+    "src/people/lizard-k/lizard-k.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "zKB 总览击杀14118、损失1063、击毁约5.45T、单杀382、灵感最多、OSY-UD/H-ADOC，与正文战绩块一致；军团榜第5/5933杀与素材一致。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "## 2026-11-14：雇佣记录与图万军团榜"
+        },
+        {
+          "file": "src/people/lizard-k/lizard-k.md",
+          "contains": "LK 的 KB 是这页最"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "LIZARD MK 为 LK 小号，独立 KB 2091杀/266损，不与本号相加，正文只在老面孔块作身份澄清，未另开小号战绩。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "## 2026-10-11：LIZARD MK 小号对应"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "无须细查的具体月份或代表KM问题，正文不写高峰月份或指挥战果。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "## 2026-10-11：1T 大战核对"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "M2-XFE第二战为短剑、6条攻击者名单、本条伤害0，正文只称挤进战场；欧米斯特、突围战、LJ-YSW只写名单出现与图万旗，不写阵营与职责，与素材一致。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "### 2021-01-03 M2-XFE 第二战 / 角色 983162808"
+        },
+        {
+          "file": "src/people/lizard-k/materials-lizard-k.json",
+          "heading": "### 欧米斯特八月攻防（2023）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立红料块「KB：一万四千杀」集中战绩，另有战役露面块与评；战绩不散在开篇。",
+      "evidence": [
+        {
+          "file": "src/people/lizard-k/lizard-k.md",
+          "contains": "LK 的 KB 是这页最"
+        },
+        {
+          "file": "src/people/lizard-k/lizard-k.md",
+          "contains": "OSY 的日子是低安星门"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/corporations/notes/aom-2021-09.json",
+    "docs/leads/caldari-girl-norei.json",
+    "docs/leads/hai-ge-ge.json",
+    "docs/leads/ps-rogen.json",
+    "docs/sources/capital-battles-2026-10-11.json",
+    "docs/sources/large-battles-2026-10-11.json",
+    "src/people/lizard-k/983162808-id.json",
+    "src/people/lizard-k/lizard-k.md",
+    "src/people/lizard-k/materials-lizard-k.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.json",
+    "src/battles/lj-ysw-2024/lj-ysw-2024.md",
+    "src/battles/lj-ysw-2024/materials-lj-ysw-2024.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.json",
+    "src/battles/m2-xfe-2020/m2-xfe-2020.md",
+    "src/battles/m2-xfe-2020/materials-m2-xfe-2020.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.json",
+    "src/battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md",
+    "src/battles/m2-xfe-breakout-2021/materials-m2-xfe-breakout-2021.json",
+    "src/battles/omist-2023/omist-2023.json",
+    "src/battles/omist-2023/omist-2023.md",
+    "src/battles/omist-2023/materials-omist-2023.json"
+  ],
+  "inputs": "4cd543b2967f4a5fd4eae704c635b3d90372f89930c11ac96b9bfa6a525a9ae1",
+  "inputParts": {
+    "docs/corporations/notes/aom-2021-09.json": "f165d5b3c4af4a1c54435cccf314ff8872b55388fcb0b757127202a69a63263c",
+    "docs/leads/caldari-girl-norei.json": "dd59da8c49bf320e67839dbb60d45c5df00869f0f447df37678ccbcc9e1a9503",
+    "docs/leads/hai-ge-ge.json": "bbfafdeecde58c290a57214c4b8d7ef706421672a3c6f50d2ca713897c67fe85",
+    "docs/leads/ps-rogen.json": "26aede0bab79eb22f84e73a2caae3b7b17b73d5bfb02e38b69c386577776e137",
+    "docs/sources/capital-battles-2026-10-11.json": "95ffc9efed27b2d0fa84bf8c8e8299dd24d786f621b86a52394214fcbf168d92",
+    "docs/sources/large-battles-2026-10-11.json": "8a5b8f67f18f002b5e62e89380f6f457bb18486780ade84a038c8aa0c3d23a0f",
+    "src/people/lizard-k/983162808-id.json": "9d9c561a9944655593733bac0fc6ddd91281492665ec10444e3ab0a942bbb269",
+    "src/people/lizard-k/lizard-k.md": "297838ced6db16c0e7f22610709823f05c33757718cd464a7bf4a5af92b11679",
+    "src/people/lizard-k/materials-lizard-k.json": "68801fe858ea41951b0e7ff1a95a4e5c664fea30d476f86d6410e3f51fbd319e",
+    "battle:lj-ysw-2024": "37215de17a2d517a4196101422bfa4e82f3c8160318b40567c558901855860b8",
+    "battle:m2-xfe-2020": "965af53dd4d00e520f8734cd3767ecbae4929184107d46420df07022c5f671da",
+    "battle:m2-xfe-breakout-2021": "e81b45d5c00dd6d15c9ec39938242dfa96ee827b6099a636f7a8a67b1e085126",
+    "battle:omist-2023": "d52687e94db393a1e51d363c5ca2caed9e0b8fbc1ccc62b13e585d688e026231"
+  },
+  "level": 1
+}

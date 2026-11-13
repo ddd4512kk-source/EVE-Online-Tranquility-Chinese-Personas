@@ -1,5 +1,5 @@
 
-亮神，游戏名 lightgod，2024 年 2 月建号，头衔就是“亮神”。贴吧叫“亮神3”，B 站叫“亮神惊天战神”。他是 [GGA F](../2116449124/) 名下铁道军团（TieDao）的总监，带着高安分团 TieDaoXingChen；早先在 KFC Crazy Thursday 联盟的 North Shore Ghost Army 待了一年多，还在 49 City. 待过一个月。
+亮神，游戏名 lightgod，2024 年 2 月建号。贴吧叫“亮神3”，B 站叫“亮神惊天战神”。他是 [GGA F](../2116449124/) 名下铁道军团（TieDao）的总监，带着高安分团 TieDaoXingChen；早先在 KFC Crazy Thursday 联盟的 North Shore Ghost Army 待了一年多，还在 49 City. 待过一个月。
 
 他的角色简介是一本工具书：好几套总览预设、一个“出门黄历”网站链接、两张击杀报告，最底下是四个种族的新手奖励物品链接。别人的简介挂战绩挂口号，亮神的简介挂的是“怎么把总览调好”——这位总监的气质，一开始就不像海盗。
 

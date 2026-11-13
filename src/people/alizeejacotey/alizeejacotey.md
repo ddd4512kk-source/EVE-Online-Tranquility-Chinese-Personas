@@ -5,7 +5,7 @@
 :::
 
 ::: 红料 别人的团进出五回，最后自己建一家
-斯特 2020 年 10 月进 Faceless.，一待就是三年，那几年 zKB 上只有零星几条。2023 年 11 月去了 Stay Cool And Calm Down，2025 年 6 月转 PANTHEON'S，10 月又回 Stay Cool And Calm Down，11 月再去 Fuente Vacio，2026 年 3 月索性退回 NPC 学院，挂了五个月。8 月 10 日他建起 Deadspace Spearhead，第二天军团就进了 Celestial Palace.；10 月 27 日离开，隔天转进 Weapons Of Mass Production.。三个月不到，登记角色已经两百出头，招新和权限交给了[表哥](../2116943455/)，头衔一路写着招新官、总监、POS 权限。前六年在别人的团里打零工，一当上 CEO 就有了总监、招新官和每月一两百条击杀，在别人的团里进出五回的人，最后发现最合适的东家是自己。
+斯特 2020 年 10 月进 Faceless.，一待就是三年，那几年 zKB 上只有零星几条。2023 年 11 月去了 Stay Cool And Calm Down，2025 年 6 月转 PANTHEON'S，10 月又回 Stay Cool And Calm Down，11 月再去 Fuente Vacio，2026 年 3 月索性退回 NPC 学院，挂了五个月。8 月 10 日他建起 Deadspace Spearhead，第二天军团就进了 Celestial Palace.；10 月 27 日离开，隔天转进 Weapons Of Mass Production.。三个月不到，登记角色已经两百出头，招新和权限交给了[表哥](../2116943455/)，让他兼着招新官、总监和 POS 权限。前六年在别人的团里打零工，一当上 CEO 就有了总监、招新官和每月一两百条击杀，在别人的团里进出五回的人，最后发现最合适的东家是自己。
 :::
 
 ::: 评

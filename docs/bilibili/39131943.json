@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "uid": "39131943",
+  "name": "kenkjia",
+  "url": "https://space.bilibili.com/39131943/",
+  "identity": {
+    "state": "confirmed",
+    "person": "kenkjia",
+    "material": "src/people/kenkjia/materials-kenkjia.json",
+    "label": "kenkjia",
+    "evidence": [
+      "BV1Pb4y1i7fZ 作品页公开上传者为 kenkjia（UID 39131943），与已收录角色 kenkjia／铁头对应；身份与读取边界见本人素材。"
+    ],
+    "related": []
+  },
+  "channel": {
+    "profile": {},
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-11-12T00:00:00.000Z",
+        "scope": "已核公开上传者与作品元数据；未播放影像，未核收益操作。",
+        "evidence": "src/people/kenkjia/materials-kenkjia.json"
+      },
+      "popular": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定覆盖；登记时只见到仓库链接或作品页。",
+        "evidence": null
+      }
+    },
+    "prior_notes": []
+  },
+  "videos": [
+    {
+      "bvid": "BV1Pb4y1i7fZ",
+      "title": "EVE欧服 尤尔冰雪节活动 高安一小时10b收入",
+      "url": "https://www.bilibili.com/video/BV1Pb4y1i7fZ/",
+      "owner_uid": "39131943",
+      "published_at": "2021-12-25T21:27:00.000Z",
+      "captured_at": "2026-11-12T03:29:59.250Z",
+      "description": "o/\nmusic: LORN-REMNANT (full album)\n感谢吊哥，1A ，百事",
+      "stats": {
+        "views": 6547,
+        "replies": 11
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "scope": "已读作品公开简介、评论或既有素材考据记录；未观看视频画面，不评价未读视听内容。",
+        "digest": "B站同名账号 kenkjia（UID **39131943**）对应铁头／收录角色 kenkjia。2026-11-12 已核 [BV1Pb4y1i7fZ](https://www.bilibili.com/video/BV1Pb4y1i7fZ/) 的公开上传者为 kenkjia、UID 39131943；账号关系与作品元数据统一见 [B站档案](../../../docs/bilibili/39131943.json)。该对应不涉及前述“雲倾东梧”账号，后者仍不合并。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

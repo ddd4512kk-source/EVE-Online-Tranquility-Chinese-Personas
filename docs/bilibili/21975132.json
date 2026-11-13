@@ -34,16 +34,16 @@
     "profile": {},
     "coverage": {
       "latest": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定频道覆盖；仅因战役相关视频登记。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-10-22T09:12:04.291Z",
+        "scope": "公开投稿列表全部18条已存channel.listings；全部18篇作品页公开简介与首屏评论已读完。",
+        "evidence": "https://space.bilibili.com/21975132/upload/video"
       },
       "popular": {
-        "state": "unknown",
-        "observed_at": null,
-        "scope": "尚未核定频道覆盖；仅因战役相关视频登记。",
-        "evidence": null
+        "state": "captured",
+        "observed_at": "2026-10-22T09:12:04.291Z",
+        "scope": "公开投稿全列表（含播放量）已存channel.listings；按全量列表播放数排序代替。",
+        "evidence": "https://space.bilibili.com/21975132/upload/video"
       },
       "series": {
         "state": "unknown",
@@ -303,8 +303,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2021-03投稿，记录美国时区PS-星系ihub保卫战实况。简介注明非旗舰、常规交火，无本人独立事件。"
       },
       "usage": {
         "body": false,
@@ -355,8 +357,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2020-11投稿，记录主权战小希VS谬宁原音无加速实战，无本人独立事件。"
       },
       "usage": {
         "body": false,
@@ -434,8 +438,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2020-08投稿，记录美国时区Catch星域入口4-0星系万王VS谬宁常规交火，原音无加速录像。"
       },
       "usage": {
         "body": false,
@@ -486,8 +492,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2020-08投稿，记录源泉入口500人中型会战。简介注明INIT旗舰撤出源泉与帝国“旗舰不过河”态势。"
       },
       "usage": {
         "body": false,
@@ -511,8 +519,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2020-08投稿，记录球瑞斯星域随机小队战随手录，无本人独立事件。"
       },
       "usage": {
         "body": false,
@@ -536,8 +546,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2020-07投稿，记录源泉星域MN5N中型会战实况录像。"
       },
       "usage": {
         "body": false,
@@ -615,8 +627,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2018-02早期投稿，记录DT后开寒鸦级（Jackdaw）捕鱼实录。"
       },
       "usage": {
         "body": false,
@@ -667,8 +681,10 @@
         "team": []
       },
       "reading": {
-        "state": "material_linked",
-        "scope": "标题、简介及计数已保存；未据取得状态推定已精读。评论摘要须另入人物素材。"
+        "state": "digested",
+        "scope": "作品页标题、简介与评论；未看全片影像音轨。",
+        "reviewed_at": "2026-10-22",
+        "digest": "2018-01早期投稿，Goons与FRT小队战，寒鸦对战台风级。"
       },
       "usage": {
         "body": false,

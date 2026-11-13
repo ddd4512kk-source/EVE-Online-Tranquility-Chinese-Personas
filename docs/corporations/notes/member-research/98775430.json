@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "type": "material",
+  "title": "Poseidon Infrastructure Investment Bank历史Top100取得记录",
+  "sections": [
+    {
+      "id": "historical-top100-acquisition",
+      "heading": "历史Top100取得与范围",
+      "level": 2,
+      "content": "\n\n2026-11-13取得记录：取得 stats 返回的 topAllTime 角色榜 100 项；完整覆盖Top100。 来源：Poseidon Infrastructure Investment Bank，军团ID 98775430，https://zkillboard.com/api/stats/corporationID/98775430/kills/。此次只核对接口返回结构与榜单条目；逐号头衔、简介尚未核读。原始响应暂存于忽略目录 .cache/corporation-top100/98775430-response.json。\n\n榜单范围内的共享角色名片缺项由ESI universe/names批量解析后登记为unread；既有角色记录沿用本地姓名。该步骤只登记显示名，不等于头衔、简介或身份核读。"
+    },
+    {
+      "id": "top100-public-profile-acquisition",
+      "heading": "榜单角色头衔与简介获取范围",
+      "level": 2,
+      "content": "\n\n2026-11-13：本团all-time榜涉及100个不同角色；其中100份公开ESI名片（包括复用的历史完整缓存）已保存至共享角色分片，0个接口返回HTTP 404。完整头衔与简介只在对应角色记录的profiles字段维护，按角色ID末两位定位characters/<末两位>.json；来源为https://esi.evetech.net/latest/characters/<角色ID>/。校验器另列出0条头衔词与已收录人物名称匹配的候选，关系尚未逐条核实。以上仅记录取得与待核线索，不等于本团全部角色已人工通读或完成身份、故事核查。"
+    }
+  ]
+}

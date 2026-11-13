@@ -1,0 +1,102 @@
+{
+  "status": "reviewed",
+  "note": "核对了联盟名称小修；战斗画像五项仍适用于现稿",
+  "evidence": [
+    "src/people/iwara-konachan/materials-iwara-konachan.json",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/people/iwara-konachan/iwara-konachan.md"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "已核角色号总览：1556击杀、209损失、约1.725T参与击毁估值、124次单杀，活跃月份201901—202607；正文用量级概括，不写成个人财富或单人输出。未见FC标签，正文按战斗参与者写。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/materials-iwara-konachan.json",
+          "heading": "## 战绩与已有战役核对"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "身份摘要显示没有已确认主力小号；小号列表为空，不作同名角色归并。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/materials-iwara-konachan.json",
+          "heading": "## 身份与联盟职责"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "not-applicable",
+      "note": "总览足以支持这篇联盟外交管理短传；没有需要解释的具体月份峰值、代表KM或指挥职责，不需展开船型、月份细目。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/materials-iwara-konachan.json",
+          "heading": "## 战绩与已有战役核对"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "复核两项角色ID命中：A1-AUH 2021为pilot及loss，艾蒂斯2026为pilot。正文只概述跨期参战与一项损失，不推断舰型、指挥或胜负责任。",
+      "evidence": [
+        {
+          "file": "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+          "heading": "## 已核人物"
+        },
+        {
+          "file": "src/battles/atioth-2026/materials-atioth-2026.json",
+          "heading": "## 已核人物"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "独立战绩红料紧接开篇，概括战绩并采用A1-AUH及艾蒂斯两项已有战役；未把联络官头衔写成FC职责。",
+      "evidence": [
+        {
+          "file": "src/people/iwara-konachan/iwara-konachan.md",
+          "contains": "::: 红料 外交官也交战损"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/leads/lancetlot-outamon.json",
+    "docs/leads/shi-yuan-yu.json",
+    "docs/leads/ster-sing.json",
+    "docs/leads/winterco-leadership-2026.json",
+    "docs/sources/frt-offtimezone-quotes-2025.json",
+    "docs/sources/winterco-communications-review-2026-10-13.json",
+    "docs/sources/winterco-leadership-2026.json",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/people/iwara-konachan/2114866599-id.json",
+    "src/people/iwara-konachan/iwara-konachan.md",
+    "src/people/iwara-konachan/materials-iwara-konachan.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md"
+  ],
+  "inputs": "000bd2c81f85fb4db2a9e05f22874919e39fd9a08cae1a13327fb28a1e74a547",
+  "inputParts": {
+    "docs/leads/lancetlot-outamon.json": "c580df1dc4a91e53ff9ce3c1711cab8b62567c1997f4af04f1374a0fe96de059",
+    "docs/leads/shi-yuan-yu.json": "bb8df348d28cc39f9f71f079ce6dcd87f93be4384bbf43c9d1068d2b257a0720",
+    "docs/leads/ster-sing.json": "cb7cc3f133c66fa47567b2b8625ccf0c888d8d6cfdf4cf759fc6fc84f261cb19",
+    "docs/leads/winterco-leadership-2026.json": "6dbd56e70c9b30c9a4fab15a5e11428ac0a6908414efadb9c3c8b2a327d6e5d7",
+    "docs/sources/frt-offtimezone-quotes-2025.json": "d6380e478f4b4fbc0b16c03959b7bf78cbe76f84b1ba293397bbeca10a257357",
+    "docs/sources/winterco-communications-review-2026-10-13.json": "888e495d28636c67f996507ffef734f247fb4a2e609d57dd8f11095679f05d1f",
+    "docs/sources/winterco-leadership-2026.json": "416b8b8df01f7c5e0ceafe2cd6bee53e8fe8100330e00329007962b7c3b98f61",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json": "dce6c468b31d6f5d6613b74f3fb91a7b20b6b0fc6b3e668e806734a4718419c7",
+    "src/battles/atioth-2026/materials-atioth-2026.json": "0e7485b5a16088eeec738ff29c8751822814f6609de52f7982a0606549f9e061",
+    "src/people/iwara-konachan/2114866599-id.json": "bd355c3560b5530a548ee2b16a2c4c7e6812732eb8c733935706504c8e51c2d3",
+    "src/people/iwara-konachan/iwara-konachan.md": "215e906421b110f637ce4572172cb3b4070e82e3ae7137494d734d133f461bc3",
+    "src/people/iwara-konachan/materials-iwara-konachan.json": "fe9b708c1070949f5e4506fa0d3c2539be07d4d36a10c55ae1bd02bcd11d10d4",
+    "battle:a1-auh-2021": "a5f3e1b852c00bc3a31ffaa50ba0c24da473b910d7c1c82ae68930c55ec98237",
+    "battle:atioth-2026": "8c13d26c349cf742c40fd02654a052f9f800faa53b9e3f735142e3a8fd3b362e"
+  },
+  "level": 1
+}
