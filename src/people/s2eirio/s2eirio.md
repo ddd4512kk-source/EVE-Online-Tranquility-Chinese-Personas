@@ -1,9 +1,5 @@
 
-E姐，游戏名 s2eirio，混沌仲裁者（Chaos arbiter，CACX）的 CEO。游戏头衔写得很冲：
-
-> #2057，混沌-E姐，看清楚了，18年建的号
-
-“看清楚了”是在回应谁，没查到。号确实是 2018 年 10 月建的：建号第一个月先进了 Goonswarm 旗下的 NINE Continent，待到年底；2019 年 10 月进混沌，至今没挪过窝。混沌 2019 年先挂 VENI VIDI VICI.，2021 年 11 月转进 FRT。
+E姐，游戏名 s2eirio，混沌仲裁者（Chaos arbiter，CACX）的 CEO。她的账号建于 2018 年 10 月：建号第一个月先进了 Goonswarm 旗下的 NINE Continent，待到年底；2019 年 10 月进混沌，至今没挪过窝。混沌 2019 年先挂 VENI VIDI VICI.，2021 年 11 月转进 FRT。
 
 她另用 EIRIO Uchonela 管混沌的新人团晨曦卖萌学院。老团迎客，新人团筛人，都是同一套门房里的账。
 

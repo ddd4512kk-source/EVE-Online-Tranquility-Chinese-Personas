@@ -1,101 +1,15 @@
 {
-  "id": 2116092520,
-  "name": "kazuha shirai",
-  "birthday": "2019-12-26T01:52:15Z",
-  "corporation_id": 1000171,
+  "id": 2121710850,
+  "name": "Leiming D3vilback",
+  "birthday": "2023-10-20T02:51:10Z",
+  "corporation_id": 98725234,
   "affiliation": {
-    "corporation_id": 98651999,
-    "alliance_id": 99011168,
-    "left_at": "2023-04-30T12:46:00Z"
+    "corporation_id": 98725234,
+    "alliance_id": 1900696668,
+    "left_at": null
   },
-  "history": [
-    {
-      "corporation_id": 1000171,
-      "start": "2019-12-26T01:52:00Z",
-      "end": "2019-12-26T02:51:00Z"
-    },
-    {
-      "corporation_id": 98564864,
-      "start": "2019-12-26T02:51:00Z",
-      "end": "2019-12-28T17:04:00Z"
-    },
-    {
-      "corporation_id": 1000046,
-      "start": "2019-12-28T17:04:00Z",
-      "end": "2019-12-28T17:04:00Z"
-    },
-    {
-      "corporation_id": 1000180,
-      "start": "2019-12-28T17:04:00Z",
-      "end": "2020-01-06T17:37:00Z"
-    },
-    {
-      "corporation_id": 98614214,
-      "start": "2020-01-06T17:37:00Z",
-      "end": "2020-08-04T11:52:00Z"
-    },
-    {
-      "corporation_id": 1000046,
-      "start": "2020-08-04T11:52:00Z",
-      "end": "2020-08-04T11:53:00Z"
-    },
-    {
-      "corporation_id": 98651999,
-      "start": "2020-08-04T11:53:00Z",
-      "end": "2020-12-23T15:17:00Z"
-    },
-    {
-      "corporation_id": 1000171,
-      "start": "2020-12-23T15:17:00Z",
-      "end": "2020-12-23T15:18:00Z"
-    },
-    {
-      "corporation_id": 98667804,
-      "start": "2020-12-23T15:18:00Z",
-      "end": "2020-12-24T07:53:00Z"
-    },
-    {
-      "corporation_id": 1000171,
-      "start": "2020-12-24T07:53:00Z",
-      "end": "2020-12-24T07:53:00Z"
-    },
-    {
-      "corporation_id": 98614214,
-      "start": "2020-12-24T07:53:00Z",
-      "end": "2021-01-03T05:49:00Z"
-    },
-    {
-      "corporation_id": 1000171,
-      "start": "2021-01-03T05:49:00Z",
-      "end": "2021-01-03T05:49:00Z"
-    },
-    {
-      "corporation_id": 98651999,
-      "start": "2021-01-03T05:49:00Z",
-      "end": "2021-01-22T10:18:00Z"
-    },
-    {
-      "corporation_id": 1000171,
-      "start": "2021-01-22T10:18:00Z",
-      "end": "2021-01-22T10:19:00Z"
-    },
-    {
-      "corporation_id": 98535868,
-      "start": "2021-01-22T10:19:00Z",
-      "end": "2021-03-13T07:59:00Z"
-    },
-    {
-      "corporation_id": 98651999,
-      "start": "2021-03-13T07:59:00Z",
-      "end": "2023-04-30T12:46:00Z"
-    },
-    {
-      "corporation_id": 1000171,
-      "start": "2023-04-30T12:46:00Z",
-      "end": null
-    }
-  ],
-  "fetched_at": "2026-11-01",
+  "history": [],
+  "fetched_at": "2026-10-14",
   "person": {
     "cn_name": "白井",
     "aliases": [
@@ -104,6 +18,7 @@
     "epithet": "九州 CEO 换了号，RMT 永封没换人。",
     "tags": [
       "00区",
+      "INIT.",
       "CEO",
       "RMT",
       "FC"
@@ -221,15 +136,23 @@
           "last_active": "2019-07",
           "as_of": "2026-10-23"
         }
+      },
+      {
+        "id": 2116092520,
+        "name": "kazuha shirai",
+        "basis": "原收录号，已封禁；2026-11-13按封禁号不作主号规则改收Leiming D3vilback。封禁原因和日期未补核，不与lucy lilith的RMT封禁混写。",
+        "sources": [
+          "materials-jita-ezra.json#leiming-d3vilback身份与主号候选"
+        ],
+        "zkb": {
+          "kills": 620,
+          "lost": 89,
+          "isk_destroyed": 674881477470,
+          "last_active": "2021-04",
+          "as_of": "2026-10-23"
+        }
       }
-    ],
-    "zkb": {
-      "kills": 620,
-      "lost": 89,
-      "isk_destroyed": 674881477470,
-      "last_active": "2021-04",
-      "as_of": "2026-10-23"
-    }
+    ]
   },
   "related_snapshots": [
     {
@@ -270,6 +193,105 @@
         }
       ],
       "fetched_at": "2026-10-09"
+    },
+    {
+      "id": 2116092520,
+      "name": "kazuha shirai",
+      "birthday": "2019-12-26T01:52:15Z",
+      "corporation_id": 1000171,
+      "affiliation": {
+        "corporation_id": 98651999,
+        "alliance_id": 99011168,
+        "left_at": "2023-04-30T12:46:00Z"
+      },
+      "history": [
+        {
+          "corporation_id": 1000171,
+          "start": "2019-12-26T01:52:00Z",
+          "end": "2019-12-26T02:51:00Z"
+        },
+        {
+          "corporation_id": 98564864,
+          "start": "2019-12-26T02:51:00Z",
+          "end": "2019-12-28T17:04:00Z"
+        },
+        {
+          "corporation_id": 1000046,
+          "start": "2019-12-28T17:04:00Z",
+          "end": "2019-12-28T17:04:00Z"
+        },
+        {
+          "corporation_id": 1000180,
+          "start": "2019-12-28T17:04:00Z",
+          "end": "2020-01-06T17:37:00Z"
+        },
+        {
+          "corporation_id": 98614214,
+          "start": "2020-01-06T17:37:00Z",
+          "end": "2020-08-04T11:52:00Z"
+        },
+        {
+          "corporation_id": 1000046,
+          "start": "2020-08-04T11:52:00Z",
+          "end": "2020-08-04T11:53:00Z"
+        },
+        {
+          "corporation_id": 98651999,
+          "start": "2020-08-04T11:53:00Z",
+          "end": "2020-12-23T15:17:00Z"
+        },
+        {
+          "corporation_id": 1000171,
+          "start": "2020-12-23T15:17:00Z",
+          "end": "2020-12-23T15:18:00Z"
+        },
+        {
+          "corporation_id": 98667804,
+          "start": "2020-12-23T15:18:00Z",
+          "end": "2020-12-24T07:53:00Z"
+        },
+        {
+          "corporation_id": 1000171,
+          "start": "2020-12-24T07:53:00Z",
+          "end": "2020-12-24T07:53:00Z"
+        },
+        {
+          "corporation_id": 98614214,
+          "start": "2020-12-24T07:53:00Z",
+          "end": "2021-01-03T05:49:00Z"
+        },
+        {
+          "corporation_id": 1000171,
+          "start": "2021-01-03T05:49:00Z",
+          "end": "2021-01-03T05:49:00Z"
+        },
+        {
+          "corporation_id": 98651999,
+          "start": "2021-01-03T05:49:00Z",
+          "end": "2021-01-22T10:18:00Z"
+        },
+        {
+          "corporation_id": 1000171,
+          "start": "2021-01-22T10:18:00Z",
+          "end": "2021-01-22T10:19:00Z"
+        },
+        {
+          "corporation_id": 98535868,
+          "start": "2021-01-22T10:19:00Z",
+          "end": "2021-03-13T07:59:00Z"
+        },
+        {
+          "corporation_id": 98651999,
+          "start": "2021-03-13T07:59:00Z",
+          "end": "2023-04-30T12:46:00Z"
+        },
+        {
+          "corporation_id": 1000171,
+          "start": "2023-04-30T12:46:00Z",
+          "end": null
+        }
+      ],
+      "fetched_at": "2026-11-01"
     }
   ]
 }

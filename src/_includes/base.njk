@@ -48,7 +48,7 @@
       var btn = document.getElementById('theme-toggle'), root = document.documentElement;
       btn.hidden = false;
       btn.addEventListener('click', function () {
-        var dark = root.dataset.theme ? root.dataset.theme === 'dark' : !matchMedia('(prefers-color-scheme: light)').matches;
+        var dark = root.dataset.theme !== 'light';
         root.dataset.theme = dark ? 'light' : 'dark';
         try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
       });

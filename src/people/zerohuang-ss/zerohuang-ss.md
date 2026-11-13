@@ -1,5 +1,5 @@
 
-Zero煌，游戏名 ZeroHuang SS，头衔“Zero煌”，角色简介只挂了一个 B 站主页——UP 主 [Zero煌](https://space.bilibili.com/8370281)。2017 年 11 月建号，2019 年 1 月才进 RR，三个月后转进[嗜血](../2113483277/)的 Special law enforcement department（SARD.），跟着它从 RR 到 The Therapists，2019 年 11 月进 FRT，一待就是七年，再没换过军团。
+Zero煌，游戏名 ZeroHuang SS，角色简介只挂了一个 B 站主页——UP 主 [Zero煌](https://space.bilibili.com/8370281)。2017 年 11 月建号，2019 年 1 月才进 RR，三个月后转进[嗜血](../2113483277/)的 Special law enforcement department（SARD.），跟着它从 RR 到 The Therapists，2019 年 11 月进 FRT，一待就是七年，再没换过军团。
 
 他是 FRT 的旗舰驾驶员，泰坦、无畏都开；2021 到 2022 年还在国服南联那边四开无畏打铁壁战。B 站一百九十多个视频，EVE 只占一半，剩下是 300 英雄、诛仙世界、三角洲行动、原神，还有一只矮脚曼基康。贴吧 ID 原名“剑的天成”，现在显示为“元気😺布偶零ლ”。
 

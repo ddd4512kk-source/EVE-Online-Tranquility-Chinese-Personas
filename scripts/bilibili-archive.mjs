@@ -350,15 +350,18 @@ function newProfile(uid, name, mentions, tokens) {
     videos: [] };
 }
 
-async function unregisteredErrors(root, profiles) {
+async function unregisteredWarnings(root, profiles) {
   const known = new Set();
-  const unavailable = JSON.parse(await fs.readFile(path.join(root, ARCHIVE, 'unavailable.json'), 'utf8').catch(error => {
-    if (error.code === 'ENOENT') return '{}';
-    throw error;
-  }));
-  for (const [token, reason] of Object.entries(unavailable)) {
-    if (!(BV.test(token) || UID.test(token)) || !String(reason).trim()) throw new Error(`${ARCHIVE}/unavailable.json：${token}缺少有效编号或原因`);
-    known.add(token);
+  // unavailable.json: dead works/accounts; ignored.json: checked and unrelated to EVE. Both are "编号: 原因".
+  for (const name of ['unavailable.json', 'ignored.json']) {
+    const list = JSON.parse(await fs.readFile(path.join(root, ARCHIVE, name), 'utf8').catch(error => {
+      if (error.code === 'ENOENT') return '{}';
+      throw error;
+    }));
+    for (const [token, reason] of Object.entries(list)) {
+      if (!(BV.test(token) || UID.test(token)) || !String(reason).trim()) throw new Error(`${ARCHIVE}/${name}：${token}缺少有效编号或原因`);
+      known.add(token);
+    }
   }
   for (const { data: p } of profiles) {
     known.add(p.uid);
@@ -368,10 +371,10 @@ async function unregisteredErrors(root, profiles) {
   const missing = [...await repoMentions(root)].filter(([token]) => !known.has(token));
   if (!missing.length) return [];
   const bvs = missing.filter(([t]) => t.startsWith('BV')).map(([t]) => t), uids = missing.filter(([t]) => !t.startsWith('BV')).map(([t]) => t);
-  return [`B站档案未登记${missing.length}项：`, ...missing.map(([t, files]) => `  ${t}：${[...files][0]}`),
+  return [`警告：B站档案未登记${missing.length}项：`, ...missing.map(([t, files]) => `  ${t}：${[...files][0]}`),
     ...(bvs.length ? [`视频：node scripts/research/bilibili.mjs capture ${bvs.join(',')} .cache/bilibili-capture，再 node scripts/bilibili-archive.mjs import .cache/bilibili-capture`] : []),
     ...(uids.length ? ['UP：node scripts/bilibili-archive.mjs register <UID> <账号名>'] : []),
-    `已失效的作品或账号写入${ARCHIVE}/unavailable.json（编号: 原因）；之后运行npm run bilibili:sync。`];
+    `已失效的作品或账号写入${ARCHIVE}/unavailable.json，核过与EVE无关的写入${ARCHIVE}/ignored.json（编号: 原因）；之后运行npm run bilibili:sync。`];
 }
 
 export async function run(root, command, input, bvid) {
@@ -494,9 +497,10 @@ export async function run(root, command, input, bvid) {
     } else if (JSON.stringify(fresh) !== JSON.stringify(entry.data)) errors.push(`${entry.file}状态过期，运行npm run bilibili:sync`);
     errors.push(...await validateProfile(root, entry.file, entry.data));
   }
-  if (command === 'check') errors.push(...await unregisteredErrors(root, profiles));
-  if (errors.length) throw new Error(errors.join('\n'));
-  return [`B站档案通过：${profiles.length}个UID、${profiles.reduce((n, p) => n + p.data.videos.length, 0)}个视频、${profiles.reduce((n, p) => n + (p.data.posts?.length ?? 0), 0)}篇图文；仅离线校验。`];
+  // Unregistered mentions only warn; they do not fail check.
+  const warnings = command === 'check' ? await unregisteredWarnings(root, profiles) : [];
+  if (errors.length) throw new Error([...errors, ...warnings].join('\n'));
+  return [...warnings, `B站档案通过：${profiles.length}个UID、${profiles.reduce((n, p) => n + p.data.videos.length, 0)}个视频、${profiles.reduce((n, p) => n + (p.data.posts?.length ?? 0), 0)}篇图文；仅离线校验。`];
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

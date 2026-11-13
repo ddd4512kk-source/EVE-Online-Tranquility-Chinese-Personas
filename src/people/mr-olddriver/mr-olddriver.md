@@ -1,5 +1,5 @@
 
-老司机，游戏名 M'r olddriver，头衔“老司机 Emperor”。2019 年 5 月建号，6 月进了 **Fuente Vacio**（FV.），之后七年没换过军团，如今是这家一百七十多人军团的 CEO。军团简介只有两个词：
+老司机，游戏名 M'r olddriver，也叫“老司机 Emperor”。2019 年 5 月建号，6 月进了 **Fuente Vacio**（FV.），之后七年没换过军团，如今是这家一百七十多人军团的 CEO。军团简介只有两个词：
 
 > No Panic
 

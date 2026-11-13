@@ -23,7 +23,17 @@
   "fetched_at": "2026-10-06",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 1323808190,
+        "name": "slave damsel",
+        "basis": "完整公开名片头衔“内森”对应内森，军团1097611545与本人当前／历史军团吻合。",
+        "sources": [
+          "materials-neisonhammer.json#军团名片身份对应",
+          "https://esi.evetech.net/latest/characters/1323808190/"
+        ]
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 2485,
@@ -112,6 +122,7 @@
           ]
         }
       }
-    }
+    },
+    "aliases": []
   }
 }

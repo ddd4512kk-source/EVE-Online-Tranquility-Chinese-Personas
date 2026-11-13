@@ -1,5 +1,5 @@
 
-竹叶青，游戏名 WEIyunzhao，2023 年 8 月建号，头衔是一整句尊号：“神圣魏凤皇庭女帝-竹叶青”。贴吧账号叫“丝袜茶叶”，2026 年复出时自己开帖报了家门：“我竹叶青，复活了”。
+竹叶青，游戏名 WEIyunzhao，2023 年 8 月建号。贴吧账号叫“丝袜茶叶”，2026 年复出时自己开帖报了家门：“我竹叶青，复活了”。
 
 角色简介前半是战锤 40K 的祷词，“我乃帝皇之怒！”（I am the wrath of the Emperor himself!）；后半画风一转：
 
@@ -115,7 +115,7 @@
 
 有新人问哪些算“恶臭大军团”，答：PLA 所有人、荣耀、脑浆、女 spy；SNUFF 所有人，“全员诈骗，我也是受害者”；FRT 则“针对全体中高层”。
 
-“受害者”三个字，钱包流水里有账。2025 年 7 月，竹叶青要跟 Snuffed Out 谈外交，钱先付。7 月 26 日凌晨，一笔 250 亿打进 Snuffed Out 旗下军团 One Risky Click 的账户，转完余额只剩五十多亿；五天后又是 150 亿，收款人 Bryan Yakinov，Snuffed Out 的人，头衔“低安之王”（King of Lowsec），转完余额一亿出头。两笔加起来四百亿，几乎是整个钱包。One Risky Click 的军团简介写着招新开放，“给这帮白痴发 EVE 邮件”（Eve-Mail these Idiots）；Bryan Yakinov 的个人简介里有一行“如何在 EVE 里取胜”（How to Win at EvE），下面是本人的心得：
+“受害者”三个字，钱包流水里有账。2025 年 7 月，竹叶青要跟 Snuffed Out 谈外交，钱先付。7 月 26 日凌晨，一笔 250 亿打进 Snuffed Out 旗下军团 One Risky Click 的账户，转完余额只剩五十多亿；五天后又是 150 亿，收款人 Bryan Yakinov，Snuffed Out 的低安之王（King of Lowsec），转完余额一亿出头。两笔加起来四百亿，几乎是整个钱包。One Risky Click 的军团简介写着招新开放，“给这帮白痴发 EVE 邮件”（Eve-Mail these Idiots）；Bryan Yakinov 的个人简介里有一行“如何在 EVE 里取胜”（How to Win at EvE），下面是本人的心得：
 
 > 脸往键盘上一拍，顺着一划拉，划到那堆玩意儿全死光为止
 

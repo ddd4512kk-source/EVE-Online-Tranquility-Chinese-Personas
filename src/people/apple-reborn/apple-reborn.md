@@ -1,7 +1,5 @@
 
-苹二，也就是 DC 执行军团 SummerHall 里的苹果，收录角色是 Apple Reborn，另有 solitarymax encounter。他是 B.O.P Supplication For Glorious（BOP）的 CEO。Apple Reborn 的头衔：
-
-> 苹二,锅大王,甲级战犯
+苹二，也就是 DC 执行军团 SummerHall 里的苹果，收录角色是 Apple Reborn，另有 solitarymax encounter。他是 B.O.P Supplication For Glorious（BOP）的 CEO，苹二、锅大王、甲级战犯几种形象都落在他身上。
 
 2018 年 2 月建号，当天就进了三天前刚成立的 BOP，此后再没离开过。BOP 2018 年挂在 RR（Ranger Regiment，游骑兵），2020 年 2 月转进 DC（Dracarys.）。[飞飞](../2116369488/)也在 BOP 待过一年半。
 

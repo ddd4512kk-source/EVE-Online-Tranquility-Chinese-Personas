@@ -1,5 +1,5 @@
 
-厚黑，游戏名 Jion Kautsuo，头衔“厚黑”。2013 年 4 月建号，第一站是盘古大学里的伏羲，接着进了 TCF、行星之光（Light of the moon）——2013 年 8 月 FRT 从盘古分家时，他就在 LOTM，等于跟着 FRT 一起出生。
+厚黑，游戏名 Jion Kautsuo。2013 年 4 月建号，第一站是盘古大学里的伏羲，接着进了 TCF、行星之光（Light of the moon）——2013 年 8 月 FRT 从盘古分家时，他就在 LOTM，等于跟着 FRT 一起出生。
 
 之后十几年，他把凛冬华人圈的老军团几乎走了一遍：TCF、伏羲、女武神、ENPL、黄埔军校（Huangpu Military Academy）……2018 年进了 [N老板](../1618197191/)的女娲（Nuwa Foundation），断断续续待到 2025 年底，又回到了 LOTM。
 

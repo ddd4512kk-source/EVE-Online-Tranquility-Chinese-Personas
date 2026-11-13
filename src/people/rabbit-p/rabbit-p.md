@@ -1,5 +1,5 @@
 
-兔仔猪，游戏头衔写作“兔宰猪”，游戏名 Rabbit P，2012 年建号。盘古时期在 Die Valkyrja、大花的 23rd Tier Overseer's Personal Effects，2014 年 4 月进女娲，十二年没挪窝。他和[羊叔](../92484561/)是凛冬多年的版本更新翻译。
+兔仔猪，游戏里又叫“兔宰猪”，游戏名 Rabbit P，2012 年建号。盘古时期在 Die Valkyrja、大花的 23rd Tier Overseer's Personal Effects，2014 年 4 月进女娲，十二年没挪窝。他和[羊叔](../92484561/)是凛冬多年的版本更新翻译。
 
 ::: 红料 二百九十篇版本翻译与全服维基
 兔仔猪在凛冬论坛开了 **290 个主题**，几乎全是 CCP 开发日志和版本更新的中文翻译：从 Crucible、Inferno、审判者一路翻到 Ascension、Into The Abyss，还有一个总目录帖《╰(^∀^ )/ EVE 歷來版本更新摘要總薈ヽ( ^∀^)ﾉ》。后来这些整理成了[凛冬百科的版本更新翻译站](https://wiki.winterco.org/zh/dev_blog_and_patchnote/start)，2020 年联盟会议纪要还点名他自愿协助移植、维护 Wiki。

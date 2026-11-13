@@ -1,11 +1,9 @@
 
-非法，LSP. 的当家，起家号 Illegal-ChenYi Mist——英文名翻过来就是“非法”；另一个号干脆叫 FeiFa-ChenYi，拼音也是“非法”。头衔：
-
-> #96420 非法丨宸怡
+非法，LSP. 的当家，主要角色是 Illegal-ChenYi Mist，另有一个 FeiFa-ChenYi。
 
 起家号 2019 年 7 月建号，进了挂在 3V（VENI VIDI VICI.）下面的 Mist Forever；2022 年 4 月转进 FRT 的 **Light Spot Poacher**，简称 **LSP.**。贴吧里一句话就把底交了：“当时3v的mifo 也就是现在的lsp”，换的是门牌，不是人。安全等级 -7.9，角色简介是一整只字符画皮卡丘，底下一行“bi~ ka~bi~~Ka~~”。
 
-军团的 CEO 座位上坐的是他另一个号 Naoxina，头衔“#31996 薇拉/非法”。2017 年 12 月建号，安全等级 -8.5，履历几乎把欧服华人圈的阵营走了一遍：先在 RR 的 Sacred Order Empire；2019 年 5 月去了 AOM 的 Special Strategic Weapon Research Troop；7 月转进 Mist Forever；2022 年 2 月进 LSP.，如今是这家六百多人军团的 CEO。
+军团的 CEO 座位上坐的是他另一个号 Naoxina。2017 年 12 月建号，安全等级 -8.5，履历几乎把欧服华人圈的阵营走了一遍：先在 RR 的 Sacred Order Empire；2019 年 5 月去了 AOM 的 Special Strategic Weapon Research Troop；7 月转进 Mist Forever；2022 年 2 月进 LSP.，如今是这家六百多人军团的 CEO。
 
 B站上有个账号也叫“非法丨宸怡”，一个视频没发，一个粉丝。
 
@@ -40,7 +38,7 @@ LSP. 的军团简介，写成了一份舰船属性表：
 :::
 
 ::: 黑料 慕容家十姐妹
-军团名册里，头衔和起家号一样挂着 **#96420** 的，除了 FeiFa-ChenYi，还有一整个后宫：
+军团名册里，除了 FeiFa-ChenYi，还有一整个后宫：
 
 - 【Super-Mist】四个号：BiYue、XiuHua、ChenYu、LuoYan——闭月、羞花、沉鱼、落雁；
 - 【Shadow-Mist】一个 GuoSe-TianXiang（国色天香），外加十个“慕容”：MuRong-QingCheng、MuRong-QingGuo（倾城、倾国），还有东莲、楚楚、风华、雨桐、雪雁、酒酒、关关……
@@ -61,5 +59,5 @@ LSP. 的军团简介，写成了一份舰船属性表：
 ::: 评
 非法是那种在 RR、AOM、3V、FRT 之间都留过名字的老玩家，最后落脚的军团，起了一个谁都能读懂的简称。别的军团简介写福利，LSP. 写的是“虐杀兴奋度加成”和“异性吸引力抗性”。
 
-名字也起得省事：英文叫 Illegal，拼音叫 FeiFa，头衔再写一遍“非法”，生怕谁没看出来。真正不合法的是那个 #96420：四大美人、倾国倾城、十个慕容，一个人把一座后宫搬进了自家军团的名册。“异性吸引力抗性”加成 25%，看来是随机掉落给了别人。谁要是想再加一位？可以提。
+这几个名字都围着一个意思打转。真正不合法的是那个 #96420：四大美人、倾国倾城、十个慕容，一个人把一座后宫搬进了自家军团的名册。“异性吸引力抗性”加成 25%，看来是随机掉落给了别人。谁要是想再加一位？可以提。
 :::

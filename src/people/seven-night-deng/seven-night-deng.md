@@ -4,7 +4,7 @@
 主号 2013 年底进 LOTM，2015 年 4 月 12 日转入太极——太极 4 月 9 日才成立，他是第三天就到的。此后十一年没挪过窝，从老成员一路坐到 CEO。Elizabeth Seven 比主号早五天离开 LOTM，2015 年 4 月 7 日进了女娲，也是一住十一年。
 
 ::: 红料 女娲的“Fake CEO”
-Elizabeth Seven 的头衔第一句就是“Fake CEO”。可 ESI 上[女娲的 CEO](https://esi.evetech.net/latest/corporations/98178881/) 写的正是这个号，两百多人的老牌华人团，真家当在“假”CEO 手里。头衔后面还挂着一段绕口令：“Nyx 抓了个 nyx，结果 Nyx 损了个 sabre，Nyx 的 sabre 死了以后 nyx 就跑了，Nyx 也不开心了。”谁抓了谁、谁丢了什么，读三遍也理不清，只有当事人自己心里有数。
+Elizabeth Seven 自嘲“Fake CEO”。可 ESI 上[女娲的 CEO](https://esi.evetech.net/latest/corporations/98178881/) 写的正是这个号，两百多人的老牌华人团，真家当在“假”CEO 手里。后面还跟着一段绕口令：“Nyx 抓了个 nyx，结果 Nyx 损了个 sabre，Nyx 的 sabre 死了以后 nyx 就跑了，Nyx 也不开心了。”谁抓了谁、谁丢了什么，读三遍也理不清，只有当事人自己心里有数。
 
 他治下的军团简介写得像一张讨债公告：
 

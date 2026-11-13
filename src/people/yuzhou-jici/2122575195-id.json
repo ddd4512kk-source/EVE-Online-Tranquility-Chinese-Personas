@@ -40,12 +40,70 @@
       "reviewedAt": "2026-11-09T10:57:33Z",
       "verdict": "简介空着，战报里倒是有舰船；AT22亚军名册也替他留了位置，只是十九场比赛都没上。",
       "axes": {
-        "shenren": { "tier": "C", "reason": "平日有上千次舰队出勤，AT22却挂名亚军、十九场一场未上；名册荣誉与赛场空白形成轻微反差。", "sources": [{ "label": "AT22官方队伍介绍", "url": "https://www.eveonline.com/alliance-tournament/dracarys" }] },
-        "combat": { "tier": "C", "reason": "两年多有上千次击杀和稳定出勤，驾驶海军神示与幼龙级海军型参与交战，属于熟练舰队打手。", "sources": [{ "label": "Yuzhou Jici zKillboard", "url": "https://zkillboard.com/character/2122575195/" }, { "label": "M-MD31海军神示战损", "url": "https://zkillboard.com/kill/134739275/" }] },
-        "command": { "tier": "D", "reason": "现有列传没有FC、带队或调度经历；AT22名册成员身份不代表实际参赛或指挥，按常规舰队成员记D。", "sources": [{ "label": "AT22官方队伍介绍", "url": "https://www.eveonline.com/alliance-tournament/dracarys" }] },
-        "charisma": { "tier": "D", "reason": "赛事名册记载了队伍身份，但没有显示追随者、粉丝或个人号召力，按常人基准记D。", "sources": [{ "label": "AT22官方队伍介绍", "url": "https://www.eveonline.com/alliance-tournament/dracarys" }] },
-        "politics": { "tier": "D", "reason": "故事聚焦舰队出勤与比赛名册，没有外交斡旋、组织管理或阵营经营记录，按常人基准记D。", "sources": [{ "label": "Yuzhou Jici zKillboard", "url": "https://zkillboard.com/character/2122575195/" }] },
-        "wealth": { "tier": "D", "reason": "海军无畏等舰船出勤不等于个人资产，现有材料未记录个人产业或筹资能力，按常人基准记D。", "sources": [{ "label": "M-MD31海军神示战损", "url": "https://zkillboard.com/kill/134739275/" }] }
+        "shenren": {
+          "tier": "C",
+          "reason": "平日有上千次舰队出勤，AT22却挂名亚军、十九场一场未上；名册荣誉与赛场空白形成轻微反差。",
+          "sources": [
+            {
+              "label": "AT22官方队伍介绍",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "两年多有上千次击杀和稳定出勤，驾驶海军神示与幼龙级海军型参与交战，属于熟练舰队打手。",
+          "sources": [
+            {
+              "label": "Yuzhou Jici zKillboard",
+              "url": "https://zkillboard.com/character/2122575195/"
+            },
+            {
+              "label": "M-MD31海军神示战损",
+              "url": "https://zkillboard.com/kill/134739275/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "现有列传没有FC、带队或调度经历；AT22名册成员身份不代表实际参赛或指挥，按常规舰队成员记D。",
+          "sources": [
+            {
+              "label": "AT22官方队伍介绍",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "赛事名册记载了队伍身份，但没有显示追随者、粉丝或个人号召力，按常人基准记D。",
+          "sources": [
+            {
+              "label": "AT22官方队伍介绍",
+              "url": "https://www.eveonline.com/alliance-tournament/dracarys"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "故事聚焦舰队出勤与比赛名册，没有外交斡旋、组织管理或阵营经营记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "Yuzhou Jici zKillboard",
+              "url": "https://zkillboard.com/character/2122575195/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "海军无畏等舰船出勤不等于个人资产，现有材料未记录个人产业或筹资能力，按常人基准记D。",
+          "sources": [
+            {
+              "label": "M-MD31海军神示战损",
+              "url": "https://zkillboard.com/kill/134739275/"
+            }
+          ]
+        }
       }
     }
   },
@@ -66,6 +124,15 @@
           "last_active": "2026-09",
           "as_of": "2026-11-02"
         }
+      },
+      {
+        "id": 2123040885,
+        "name": "Yuzhou Alpha",
+        "basis": "完整公开名片头衔“余舟”对应余舟，军团98749162与本人当前／历史军团吻合。",
+        "sources": [
+          "materials-yuzhou-jici.json#军团名片身份对应",
+          "https://esi.evetech.net/latest/characters/2123040885/"
+        ]
       }
     ],
     "accounts": {},

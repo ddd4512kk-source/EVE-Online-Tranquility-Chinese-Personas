@@ -296,17 +296,16 @@ test('图文再导入保留旧文字与范围、署名及已消化状态', () =>
   assert.throws(() => mergePost(original, { ...newer, owner_uid: '999' }), /冲突/);
 });
 
-test('仓库提到未登记的BV或UP主页时校验失败，并给出登记命令', async t => {
+test('仓库提到未登记的BV或UP主页时校验警告但通过，并给出登记命令', async t => {
   const { root } = await fixture(t), other = 'BV1zzzzzzzzz';
   const material = path.join(root, 'src/people/demo/materials-demo.md');
   await fs.appendFile(material, `\n${other} https://space.bilibili.com/456\n`);
   await run(root, 'sync');
-  await assert.rejects(run(root, 'check'), error => {
-    assert.match(error.message, new RegExp(`未登记2项[\\s\\S]*${other}：src/people/demo/materials-demo\\.md`));
-    assert.match(error.message, /capture BV1zzzzzzzzz/);
-    assert.match(error.message, /register <UID>/);
-    return true;
-  });
+  const warned = (await run(root, 'check')).join('\n');
+  assert.match(warned, new RegExp(`警告：B站档案未登记2项[\\s\\S]*${other}：src/people/demo/materials-demo\\.md`));
+  assert.match(warned, /capture BV1zzzzzzzzz/);
+  assert.match(warned, /register <UID>/);
+  assert.match(warned, /B站档案通过/);
   await fs.writeFile(path.join(root, 'docs/bilibili/unavailable.json'), JSON.stringify({ [other]: '稿件不可见' }));
   await run(root, 'register', '456', '另一个UP');
   await assert.rejects(run(root, 'register', '456', '另一个UP'), /不覆盖/);
@@ -315,7 +314,7 @@ test('仓库提到未登记的BV或UP主页时校验失败，并给出登记命�
   assert.equal(registered.identity.person, null);
   assert.deepEqual(registered.identity.related.map(r => r.material), ['src/people/demo/materials-demo.md']);
   await run(root, 'sync');
-  await run(root, 'check');
+  assert.doesNotMatch((await run(root, 'check')).join('\n'), /未登记/);
   await fs.writeFile(path.join(root, 'docs/bilibili/unavailable.json'), JSON.stringify({ [other]: ' ' }));
   await assert.rejects(run(root, 'check'), /缺少有效编号或原因/);
 });
@@ -325,7 +324,11 @@ test('频道目录候选算已登记；导入目录时未知作者只按candidat
   p.channel.listings = [{ candidates: [{ bvid: listed, title: '目录候选' }] }];
   await fs.writeFile(path.join(root, 'docs/bilibili/123.json'), JSON.stringify(p));
   await fs.appendFile(path.join(root, 'src/people/demo/materials-demo.md'), `\n${listed} ${unknown}\n`);
-  await assert.rejects(run(root, 'check'), /未登记1项/);
+  await run(root, 'sync');
+  assert.match((await run(root, 'check')).join('\n'), /未登记1项/);
+  await fs.writeFile(path.join(root, 'docs/bilibili/ignored.json'), JSON.stringify({ [unknown]: '与EVE无关' }));
+  assert.doesNotMatch((await run(root, 'check')).join('\n'), /未登记/);
+  await fs.rm(path.join(root, 'docs/bilibili/ignored.json'));
   const dir = path.join(root, 'captures');
   await fs.mkdir(dir);
   await fs.writeFile(path.join(dir, `${unknown}.json`), JSON.stringify(capture({ source: `https://www.bilibili.com/video/${unknown}/`,

@@ -1,5 +1,5 @@
 
-小黄人，贴吧“天上之山º”，FRT 那边的人叫他“脚黄”——取自他的号 Jiao-Huang。他手里另有 Xiao HuangRen、Xiao Huang Fight、KK Huang 等号；Jiao-Huang和Xiao HuangRen头衔都是“教皇”，几次换军团的时间也紧紧挨着，Fight号则同头衔、同在CO.WA。2021 年 12 月，Jiao-Huang 建号当天就开了 Central Royal Force（C.R.F，皇家战斗部队），先后挂在 STAR TRAILS、Star Flame，2024 年进了 FRT 一侧的东风。同年 4 月，Cosmic-Wanderers（CO.WA，宇宙流浪者）成立，建团的是他半年前新开的 KK Huang，这个号至今坐着 CEO 位，第二天就把军团带进了东风；2025 年初，小黄人两个号搬进 CO.WA，军团简介上的联系人写的就是 Xiao HuangRen。
+小黄人，贴吧“天上之山º”，FRT 那边的人叫他“脚黄”——取自他的号 Jiao-Huang。他手里另有 Xiao HuangRen、Xiao Huang Fight、KK Huang 等号；Jiao-Huang 和 Xiao HuangRen 都是教皇，几次换军团的时间也紧紧挨着；Fight 号也是教皇，和他们同在 CO.WA。2021 年 12 月，Jiao-Huang 建号当天就开了 Central Royal Force（C.R.F，皇家战斗部队），先后挂在 STAR TRAILS、Star Flame，2024 年进了 FRT 一侧的东风。同年 4 月，Cosmic-Wanderers（CO.WA，宇宙流浪者）成立，建团的是他半年前新开的 KK Huang，这个号至今坐着 CEO 位，第二天就把军团带进了东风；2025 年初，小黄人两个号搬进 CO.WA，军团简介上的联系人写的就是 Xiao HuangRen。
 
 他管自己的军团叫“黄色闪电”，也叫“草蛙”，因为“军团英文 CO.WA，读起来就类似草蛙”。至于本人在团里干什么，他自己说：“作为军团FC兼职后勤偶尔搞搞。”从贴吧看，招新、发福利、带队、写战报、跟人对线，也都是他。
 

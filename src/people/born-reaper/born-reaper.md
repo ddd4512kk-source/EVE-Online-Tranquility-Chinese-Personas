@@ -1,7 +1,7 @@
 
 阿进，游戏名 born reaper，2018 年建号，角色简介只有一句：“生存还是毁灭，这是个问题”（to be or not to be，this is a question）。
 
-雇佣记录一路走过 RR、The Bastion、Azure Citizen 和 NDRC 旗下的几家军团，2024 年 4 月进了 Emperor Scythes（帝皇之镰，简称 ES）。ES 随后转投 INIT（The Initiative.），招新帖自称“综合华人军团排名前10”，阿进是团里的管理，头衔就挂着“阿进”两个字。
+雇佣记录一路走过 RR、The Bastion、Azure Citizen 和 NDRC 旗下的几家军团，2024 年 4 月进了 Emperor Scythes（帝皇之镰，简称 ES）。ES 随后转投 INIT（The Initiative.），招新帖自称“综合华人军团排名前10”，阿进是团里的管理，大家也称他阿进。
 
 2026 年 7 月，欧服吧一篇帖子让这两个字出了名。
 

@@ -1,5 +1,5 @@
 name = "battle-reviewer"
-description = "战役定稿后的收尾评审：按战役验收核对生成页、分方与正文。由 add-battle 第 6 步调用，只需短名、改动文件和本次范围。"
+description = "战役定稿后的收尾评审：按战役验收核对生成页、分方与正文。由 add-battle 第 7 步调用，只需短名、改动文件和本次范围。"
 model = "gpt-6-luna"
 model_reasoning_effort = "high"
 developer_instructions = """

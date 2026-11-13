@@ -1,5 +1,5 @@
 
-肉丝，游戏名 roseattack，也叫 ROSE，头衔就一个词：“ROSE”。2009 年建号，Cappuccino Cafe 的当家人，盘古联盟的发起人之一。后来在 FRT 的 Iron Prestige 待了将近八年，2021 年进创世，2022 年停了两年半，2025 年 4 月又回了创世。
+肉丝，游戏名 roseattack。2009 年建号，Cappuccino Cafe 的当家人，盘古联盟的发起人之一。后来在 FRT 的 Iron Prestige 待了将近八年，2021 年进创世，2022 年停了两年半，2025 年 4 月又回了创世。
 
 ::: 红料 盘古的发起人之一
 [蜜蜂的回忆](https://forums.winterco.org/t/topic/13924)写盘古的成立：Wind、AAA 的[火星](../1384619695/)、“租地公司 cappuccino cafe 的 roseattack”、SOCM 的 [runers](../752658252/)，还有老悟空的所思，“商量成立华人联盟”。盘古开张时的几大主力里，就有肉丝的 Cappuccino Cafe。

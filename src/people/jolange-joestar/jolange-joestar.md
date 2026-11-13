@@ -1,7 +1,7 @@
 
 瓜瓜，游戏名 Jolange Jogua，另有 Jolange Joestar、Jolange Joguaguagua、Jolange jojogua 一串同名号。据他 2025 年的 [CSM 竞选帖](https://forums.eveonline.com/t/jolange-jogua-for-csm-20-make-nullsec-life-better/498771)自述：FRT 联盟总监、Arknights. 军团 CEO、FC，兼大工业玩家，2020 年入坑。
 
-游戏头衔是“Green-Light Man”，角色简介只有四个字：
+角色简介只有四个字：
 
 > 想要科莫多
 

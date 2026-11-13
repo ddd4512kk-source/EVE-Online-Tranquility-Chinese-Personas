@@ -1,5 +1,5 @@
 
-飞袖李，人称老李，游戏名 FACT IN，头衔“飞袖李 MAIN”。2017 年 12 月建号，进欧服前是国服商业联盟 FDK 的军事指挥；到了 FRT，先后待过 Foredawn Business Corporation、吃瓜（Chi Gua），也去 OSY 的[图万·奥斯神殿](../91254848/)和[冰轩](../2114130095/)的星尘守护（Stardust-Guardian）住过，2026 年 4 月又回了吃瓜。
+飞袖李，人称老李，游戏名 FACT IN。2017 年 12 月建号，进欧服前是国服商业联盟 FDK 的军事指挥；到了 FRT，先后待过 Foredawn Business Corporation、吃瓜（Chi Gua），也去 OSY 的[图万·奥斯神殿](../91254848/)和[冰轩](../2114130095/)的星尘守护（Stardust-Guardian）住过，2026 年 4 月又回了吃瓜。
 
 在凛冬，他的身份是“FRT 散打指挥 lao li”。在整个华人 EVE 圈，他的身份是一个梗：**遥修老李的蛋**。
 

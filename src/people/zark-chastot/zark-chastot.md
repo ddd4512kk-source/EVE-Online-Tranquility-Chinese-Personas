@@ -1,5 +1,5 @@
 
-Zark Chastot，2018 年 6 月建号，头衔“后勤总管 军团担保运输”，角色简介只有一行：
+Zark Chastot，2018 年 6 月建号，负责后勤与军团担保运输，角色简介只有一行：
 
 > 船 齐 霸 业
 > 新伊甸舰队收藏（New Eden Fleet Collection）

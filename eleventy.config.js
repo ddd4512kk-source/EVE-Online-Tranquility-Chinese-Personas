@@ -6,6 +6,7 @@ import { glossaryEntries, glossaryLinks } from './scripts/glossary.mjs';
 import { corpAlliance, corpAllianceChips, corpBattles, corpKey, corpMembers, corpsOfPerson, corpUnwritten, corpZoneChips, groupCorps, killCount, statusChips } from './scripts/activity.mjs';
 import { formatIsk } from './scripts/battles.mjs';
 import { identityNames } from './scripts/person-identity.mjs';
+import { RADAR_AXES } from './scripts/person-radar.mjs';
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = n => String(n).padStart(2, '0');
@@ -13,6 +14,7 @@ const utc = iso => (iso ? new Date(iso) : null);
 
 export default function (eleventyConfig) {
   eleventyConfig.addGlobalData('glossaryEntries', glossaryEntries);
+  eleventyConfig.addGlobalData('radarAxes', RADAR_AXES); // 首页六维排序按钮
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' }, {
     filter: ['**/*', '!**/AGENTS.md', '!**/CLAUDE.md'],
   });

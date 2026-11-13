@@ -1,5 +1,5 @@
 
-TC，PLA 的 TweakCuke，也用 TweakCukess。这两个号同团、同头衔，都带过队；2026 年九月 Goons 拆 FRT 铁壁时，他把两个号一起带进了舰队。
+TC，PLA 的 TweakCuke，也用 TweakCukess。这两个号同团、都叫 TC，也都带过队；2026 年九月 Goons 拆 FRT 铁壁时，他把两个号一起带进了舰队。
 
 ::: 红料 HB-5L3 拆堡，两号同场
 9 月 11 日，Goons 在 HB-5L3 击毁 Glory Navy／FRT 的[铁壁](https://zkillboard.com/kill/138365432/)。571 名驾驶员参与这次拆堡，TC 的两个号均在 PLA 一侧，都在带队。

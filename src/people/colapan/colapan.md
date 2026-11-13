@@ -18,7 +18,7 @@
 :::
 
 ::: 黑料 礼部尚书，两边都有门牌
-可乐锅另一个号 ColaGuo，头衔挂“礼部尚书”，2026 年 3 月 26 日进了 Goons 的 Mindstar Technology；主号 ColaPan 则已经在蓝章鱼的 KZU。7 月 17 日，另一个新号 ColaPanna 又建起 TianGong Custodes，中文叫天宫，简介写“蓝章鱼华人社区旗下军团”。
+可乐锅另一个号 ColaGuo 叫“礼部尚书”，2026 年 3 月 26 日进了 Goons 的 Mindstar Technology；主号 ColaPan 则已经在蓝章鱼的 KZU。7 月 17 日，另一个新号 ColaPanna 又建起 TianGong Custodes，中文叫天宫，简介写“蓝章鱼华人社区旗下军团”。
 
 [台风专栏](https://www.bilibili.com/opus/1252576776087928835)称 KZU 两边都放了马甲团，Goons 那家后来被清退。可乐锅一边把号放在 Goons 军团，另一边又在蓝章鱼开了天宫，两头都给自己安了门牌；9 月 24 日，ColaGuo 从 Mindstar 转进天宫，正赶上 Goons 关闭共享、KZU 全团百税这段时间。礼部尚书掌外交，门牌倒先备了两套，哪边门关了，另一边还留着名字。
 :::

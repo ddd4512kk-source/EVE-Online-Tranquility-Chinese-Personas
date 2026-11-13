@@ -118,7 +118,25 @@
   "fetched_at": "2026-10-06",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2118634916,
+        "name": "zhuda chang",
+        "basis": "既有名片头衔“汉兰达”对应汉兰达；角色军团98725089与本人当前／历史军团吻合。",
+        "sources": [
+          "materials-jj-soulmate.json#头衔小号查漏-2026-11-13",
+          "https://esi.evetech.net/latest/characters/2118634916/"
+        ],
+        "zkb": {
+          "kills": 902,
+          "lost": 136,
+          "isk_destroyed": 187591937128,
+          "last_active": "2025-12",
+          "as_of": "2026-11-13",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 10093,
@@ -139,7 +157,8 @@
       "00区",
       "FRT",
       "著名FC",
-      "江湖恩怨"
+      "江湖恩怨",
+      "B站"
     ],
     "radar": {
       "version": 1,

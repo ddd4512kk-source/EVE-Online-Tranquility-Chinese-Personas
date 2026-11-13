@@ -1,0 +1,146 @@
+{
+  "id": 2114866599,
+  "name": "Iwara konachan",
+  "birthday": "2019-01-14T19:53:50Z",
+  "corporation_id": 566825158,
+  "affiliation": {
+    "corporation_id": 566825158,
+    "alliance_id": 99003581,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "start": "2019-01-14T19:54:00Z",
+      "end": "2019-01-20T21:54:00Z"
+    },
+    {
+      "corporation_id": 98044079,
+      "start": "2019-01-20T21:54:00Z",
+      "end": "2020-04-25T02:03:00Z"
+    },
+    {
+      "corporation_id": 98611162,
+      "start": "2020-04-25T02:03:00Z",
+      "end": "2021-08-30T17:17:00Z"
+    },
+    {
+      "corporation_id": 1000045,
+      "start": "2021-08-30T17:17:00Z",
+      "end": "2021-08-30T17:18:00Z"
+    },
+    {
+      "corporation_id": 98588509,
+      "start": "2021-08-30T17:18:00Z",
+      "end": "2024-08-05T07:22:00Z"
+    },
+    {
+      "corporation_id": 566825158,
+      "start": "2024-08-05T07:22:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-13",
+  "person": {
+    "cn_name": "Iwara",
+    "aliases": [],
+    "epithet": "国际联络官，简介先考伽罗瓦。",
+    "tags": [
+      "00区",
+      "FRT",
+      "联盟管理"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-13T14:22:32Z",
+      "verdict": "国际联络官先递伽罗瓦攻略，谈判桌外还有百余次单杀。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "把伽罗瓦理论写成恋爱攻略是简介整活，数学梗不作出格行为，按常人基准评。",
+          "sources": [
+            {
+              "label": "角色公开名片",
+              "url": "https://esi.evetech.net/latest/characters/2114866599/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "一千五百余击杀、百余次单杀，并跨年参加大型战役；兼有独立交战与大队实战的资深战斗员。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2114866599/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "现有战役记录支持本人参战，未提供FC或实际带队依据；国际联络岗位不折算舰队指挥。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2114866599/"
+            },
+            {
+              "label": "凛冬管理名单",
+              "url": "https://wiki.winterco.org/zh/coalition/leadership"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "有国际联络工作与鲜明简介，但岗位和数学梗尚不等于稳定粉丝或追随者，按正常社交评。",
+          "sources": [
+            {
+              "label": "凛冬管理名单",
+              "url": "https://wiki.winterco.org/zh/coalition/leadership"
+            },
+            {
+              "label": "角色公开名片",
+              "url": "https://esi.evetech.net/latest/characters/2114866599/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "A",
+          "reason": "凛冬管理名单列入内部外交及外交组，名片写国际联络官，符合实际履职的联盟外交管理底线。",
+          "sources": [
+            {
+              "label": "凛冬管理名单",
+              "url": "https://wiki.winterco.org/zh/coalition/leadership"
+            },
+            {
+              "label": "角色公开名片",
+              "url": "https://esi.evetech.net/latest/characters/2114866599/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有记录可见长期出勤与日常船损，按常规战备自给评；万亿级参与击毁价值不当作个人家产。",
+          "sources": [
+            {
+              "label": "角色 zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2114866599/"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "identity": {
+    "version": 1,
+    "alts": [],
+    "accounts": {},
+    "zkb": {
+      "kills": 1556,
+      "lost": 209,
+      "isk_destroyed": 1724932858650,
+      "last_active": "2026-07",
+      "as_of": "2026-11-13",
+      "fc": null
+    }
+  }
+}

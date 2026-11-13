@@ -1,5 +1,5 @@
 
-彗星，论坛上自称 Red comet31，现在的角色叫 Rosina，头衔“彗星”。2020 年就在凛冬论坛活跃，如今这个角色 2023 年建号，在混沌、FRCC、Cyclonic Torpedo Team、SARD 之间转过，2026 年 6 月去了 Salted Fish Inc——咸鱼公司。KB 上只有六个击杀。
+论坛上叫 Red comet31 的老玩家，如今用角色 Rosina。2020 年就在凛冬论坛活跃，如今这个角色 2023 年建号，在混沌、FRCC、Cyclonic Torpedo Team、SARD 之间转过，2026 年 6 月去了 Salted Fish Inc——咸鱼公司。KB 上只有六个击杀。
 
 他在凛冬出名，是因为办过一场比赛。
 
