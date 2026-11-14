@@ -20,6 +20,14 @@ const TIER_SCALE = {
   E: 0.12,
 };
 
+const SHENREN_RED_TIERS = new Set(['EX', 'S', 'A', 'B']);
+
+function shenrenDotColor(tier) {
+  if (SHENREN_RED_TIERS.has(tier)) return 'red';
+  if (tier === 'E') return 'blue';
+  return null;
+}
+
 const CENTER_X = 115;
 const CENTER_Y = 102;
 const RADIUS = 56;
@@ -127,6 +135,7 @@ export function personRadar(radar) {
     complete,
     rings,
     polygon: complete ? axes.map(a => `${a.point.x},${a.point.y}`).join(' ') : null,
+    shenrenDot: shenrenDotColor(axes[0].tier),
     reviewedDate: radar.reviewedAt.slice(0, 10),
     // 目录排序用：EX=7 … E=1，待考=0
     ranks: Object.fromEntries(axes.map(a => [a.key, a.known ? RADAR_TIERS.length - RADAR_TIERS.indexOf(a.tier) : 0])),

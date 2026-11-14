@@ -1,0 +1,135 @@
+{
+  "status": "reviewed",
+  "note": "主号与全部 17 条已确认小号（含早于主号创立的 sunrain Kouvo 2114912270，重复条目已修复）zKB 总览、FC 依据、三个高值月份、10 场站内匹配战役（含 bwf-zz-2025 小号实践级参战与 oijanen-2026 八小号出战/六毒蝎遭友军误击）、雷达不跨号相加口径及首块独立战绩点评均已核对完毕。",
+  "evidence": [
+    "src/people/zhao-jian-guo/zhao-jian-guo.md",
+    "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+    "src/people/zhao-jian-guo/2115652382-id.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号 Zhao-Jian-Guo (2115652382) zKB 总览已核：4183 击杀（2755.0B）、958 损失（363.8B）、816 单杀，活跃 59 个月（2019-09 至 2026-11）。高频 Praxis 858、Loki 416、Panther 363、Tengu 227、Rokh 217、Muninn 212、Golem 93 及 60 次大舰队、21 次指挥舰与 FC(low) 标（配合带宝马小队伏击 60B 依据）均与正文一致，且未把各号统计相加。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "## zKillboard 总览与 FC 核查（2026-11-14）"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "单看主号 `Zhao-Jian-Guo`"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已确认全部 17 条小号并核各自 zKB stats 与归因边界：除先前已核的 16 条（BIack Annis 682 杀/471.0B、zama Jovakko 97 杀/159.3B、zhang-cui-hua、gkd-Li-Na、Soardnur Otull Oskold、Aulard Skord、Liu-Kang-Mei、Oitoh Zama、Wang-Cui-Hua、sunrain Uitoh、Horri Rain Hinken、Rietanaisen Akkuo Yatolila、Ylta Okanata、Yohsi Amakh Boma、Omonoi Tsero、Gonakairos Uta）外，sunrain Kouvo (2114912270，566 杀/621.6B) 系其建主号前更早创立的本人小号并已并入 identity.alts（并同步修复了 2115652382-id.json 中 sunrain Kouvo 的重复条目），素材完整保留其早年 -Y.W-/P.L.A、2025 与 peace3251/peace3253 同飞及 04-30 击杀主号海神级等履历细节。正文与雷达均分开表述不跨号相加。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "## 身份与小号对应"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "两个主要作战小号也各有各的忙法"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核三个高值月份与代表 KM：2022-09（512.4B，其中 482.7B 来自 09-05 高安尤拉千人围观处决违规超旗）、2025-06（324.0B，低安卡维因黑隐连吃三条泽尼塔及丹图米莫洛级海军型）、2026-05（312.0B，Chesiette 参与 Erebus 与两条 Nyx 围杀），另逐一核对 2025-11-09 塔瑟提 254.45B 穿梭机 KM、7 条长须鲸级损失 KM（含佩恩 7 泰坦上榜）及多笔无畏战损，均与正文相符。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "### 高值月份（Peaks）明细"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "## 宝马哥隐投小组互动与战损"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "站内自动匹配的 10 场战役均已逐场核对窗口、参战号、阵营、舰型与时间：主号随 D.C/联盟参战 x47l-q-2023-03（丢洛基）、ahbazon-2024（丢金鹏）、tn25-j-2025（丢 8.856B 莫洛级海军型）及 1-smeb-2026（出莫洛级海军型无损）；bwf-zz-2025 已实证 Liu-Kang-Mei 于 15:03:40Z 驾实践级出战星城会战被 PH 尾刀击毁（KM 126081306，333.68M）；oijanen-2026 已核实 8 条已确认小号全部参战（BIack Annis 与 Rietanaisen 无损，sunrain Uitoh、Horri、Ylta、Yohsi、gkd-Li-Na、Aulard Skord 六条同款毒蝎于 09:43—09:47Z 被蜜蜂、Fanatic Legion. 与 D.C 鹏鲲等友军击毁）；zama Jovakko 于 turnur-2023、lantorn-2025、ignoitton-2026、amamake-2026 四场低安混战驾巨象级拾荒阵亡，10 场全部已在正文首块互链点评。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "### 站内 10 场匹配战役逐场核对"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "从六千人挤进星城网格的 [X47L-Q]"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "开篇后紧接独立战绩红料块（随龙骑打会战还蹲门八百单杀，一炮轰出全服第二穿梭机），兼顾 00 区 D.C 主力与无畏会战、十七条已确认小号多开编队（含 BWF-ZZ 星城混战实践级阵亡与欧加仑八小号参战、六毒蝎遭友军误击）、低安实践级蹲门、塔瑟提天价穿梭机及宝马哥黑隐反钓主线，不念总账本、各号统计分开写，全面且符合人物反差。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "单看主号 `Zhao-Jian-Guo`"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "蹲门之余，他在高安频道泡熟了 宝马哥"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/7218831.json",
+    "src/people/zhao-jian-guo/2115652382-id.json",
+    "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+    "src/people/zhao-jian-guo/zhao-jian-guo.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.md",
+    "src/battles/ignoitton-2026/materials-ignoitton-2026.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.json",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.md",
+    "src/battles/x47l-q-2023-03/materials-x47l-q-2023-03.json"
+  ],
+  "inputs": "6c2514dcc033e619d309b7949911f0560016dae73399822fd448387ef63284bb",
+  "inputParts": {
+    "docs/bilibili/7218831.json": "73e82d2b30dc346289dbcaedb5c4c29aeb0cb8ccbee4b30f978d6508906d8605",
+    "src/people/zhao-jian-guo/2115652382-id.json": "f51d0c05389f19a961c15318905d16bdfe41b7786d4220e478efba2bda3d4d28",
+    "src/people/zhao-jian-guo/materials-zhao-jian-guo.json": "d5953c0cec75778c15621d55c7924ca540182e8a82ac97170184d6cf391ee02b",
+    "src/people/zhao-jian-guo/zhao-jian-guo.md": "6c6609224688d22543a7c27de8d4a48446a486d1d1016afcdaca451115ae459c",
+    "battle:1-smeb-2026": "d2e5af97283a92379e82abb751a87f9fe09abb1b09bdeb951c4532e8df745dc2",
+    "battle:ahbazon-2024": "ef7b48e00f1b24cdf125bf916466b6ade188d100da65dd6e26d24c590b30f0c4",
+    "battle:amamake-2026": "5f2829ad4048008158ba5dc745682706c06ff2a9f6b25045be825f571d2d4105",
+    "battle:bwf-zz-2025": "967996a3ac5f6cda6d5d7f3d79277d8f533a638a7cca49931b470723dc9112f3",
+    "battle:ignoitton-2026": "6aaee7848f987334574bfbe01b92d0b4efb1fddaf8e9b44a6911823905fbb8e2",
+    "battle:lantorn-2025": "1a232f698357bf62a162ae398bb707d37cc04b1d07ad8e494b1682c3d126822d",
+    "battle:oijanen-2026": "b1cb38ccb4db607ba76fa816740c6c259553605e1861b9211fb4abd6be7a7962",
+    "battle:tn25-j-2025": "d03399a8430abd669922cc75149a98b7f43ef1a2b3a29c51efc7b3b6fd11da25",
+    "battle:turnur-2023": "89d3dc3db6262c8227c0041f0761583d71ac5e58acaf152dce9c3aa307f0b4a7",
+    "battle:x47l-q-2023-03": "284245535be82e2dfc37f589d8b7d632b56ea132111e852ab88867c57721cec8"
+  },
+  "level": 1
+}

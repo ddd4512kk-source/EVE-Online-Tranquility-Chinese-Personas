@@ -116,7 +116,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:05:00Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "带队打旗舰战的著名FC，在星尘开军团银行吃利息，结果银行号先被封停。",
       "axes": {
         "shenren": {
@@ -175,11 +175,19 @@
         },
         "wealth": {
           "tier": "S",
-          "reason": "不仅操办军团银行运作庞大资本，更具备超旗与新型派系旗舰（如首批天使无畏）工业制造能力，名下自备泰坦旗舰，达到顶尖搞钱能力 S 级。",
+          "reason": "具备超旗制造能力与产线运营（A 基准），叠加小号 Fujed Cericy 驾勒维亚坦出勤并在欧贝实损 149.38B（B）、首批萨拉希尔级与百余条 T2 缪宁制造（B）及军团有息银行（B），多项独立强项相加升 S。",
           "sources": [
             {
               "label": "少侠天使无畏交付实况",
               "url": "https://www.bilibili.com/video/BV1oTT8zyE4z/"
+            },
+            {
+              "label": "欧贝勒维亚坦战损 KM",
+              "url": "https://zkillboard.com/kill/139047145/"
+            },
+            {
+              "label": "星尘军团银行风波",
+              "url": "https://forum.pla-eve.com/topic/250-frt-sgcn-corp-bank-banned-by-ccp/"
             },
             {
               "label": "Cheryl Astelir zKillboard",
@@ -188,6 +196,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "CN",
+      "note": "既写教程带队造新无畏，又拿军团银行账号卡BUG被封，留下一笔糊涂账。"
     }
   }
 }

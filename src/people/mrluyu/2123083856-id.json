@@ -104,40 +104,86 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T08:00:00Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "一句“自己建团灭灯”，隔年先变成了自己八十层的申诉帖。",
       "axes": {
         "shenren": {
           "tier": "C",
           "reason": "旧话“自己建团灭灯”撞上被限时退团，他坦承这是回旋镖；属于戏剧性争议，未到恶劣丑闻。",
-          "sources": [{ "label": "混沌仲裁者最近被劝退的牢陆", "url": "https://tieba.baidu.com/p/10482607135" }]
+          "sources": [
+            {
+              "label": "混沌仲裁者最近被劝退的牢陆",
+              "url": "https://tieba.baidu.com/p/10482607135"
+            }
+          ]
         },
         "combat": {
           "tier": "D",
           "reason": "曾以战隼参加大型低安交战，多号也有稳定击杀记录；现有材料没有突出单兵表现，评常规随队档 D。",
-          "sources": [{ "label": "Arzad 战隼损失记录", "url": "https://zkillboard.com/kill/128512737/" }, { "label": "Mrluyu zKillboard", "url": "https://zkillboard.com/character/2123083856/" }]
+          "sources": [
+            {
+              "label": "Arzad 战隼损失记录",
+              "url": "https://zkillboard.com/kill/128512737/"
+            },
+            {
+              "label": "Mrluyu zKillboard",
+              "url": "https://zkillboard.com/character/2123083856/"
+            }
+          ]
         },
         "command": {
           "tier": "D",
           "reason": "zKillboard 未见 FC 认证，材料也没有带队记录；属于正常随队成员，统御评 D。",
-          "sources": [{ "label": "Mrluyu zKillboard", "url": "https://zkillboard.com/character/2123083856/" }, { "label": "Arzad 战役素材", "url": "https://br.evetools.org/br/687430c687003700128d7017" }]
+          "sources": [
+            {
+              "label": "Mrluyu zKillboard",
+              "url": "https://zkillboard.com/character/2123083856/"
+            },
+            {
+              "label": "Arzad 战役素材",
+              "url": "https://br.evetools.org/br/687430c687003700128d7017"
+            }
+          ]
         },
         "charisma": {
           "tier": "D",
           "reason": "长帖引来多方回应，但这是冲突围观，不等于支持或追随；现有材料没有稳定拥趸，评 D。",
-          "sources": [{ "label": "混沌仲裁者最近被劝退的牢陆", "url": "https://tieba.baidu.com/p/10482607135" }]
+          "sources": [
+            {
+              "label": "混沌仲裁者最近被劝退的牢陆",
+              "url": "https://tieba.baidu.com/p/10482607135"
+            }
+          ]
         },
         "politics": {
           "tier": "D",
           "reason": "这段经历涉及个人退团争议，没有承担基层管理或联盟外交；不因被踢额外降档，评常人基准 D。",
-          "sources": [{ "label": "混沌仲裁者最近被劝退的牢陆", "url": "https://tieba.baidu.com/p/10482607135" }]
+          "sources": [
+            {
+              "label": "混沌仲裁者最近被劝退的牢陆",
+              "url": "https://tieba.baidu.com/p/10482607135"
+            }
+          ]
         },
         "wealth": {
           "tier": "D",
           "reason": "材料提到正在补小航、FAX 技能和一次战损，但没有个人资产规模、经营或筹资记录，评自给基准 D。",
-          "sources": [{ "label": "Mrluyu zKillboard", "url": "https://zkillboard.com/character/2123083856/" }, { "label": "混沌仲裁者最近被劝退的牢陆", "url": "https://tieba.baidu.com/p/10482607135" }]
+          "sources": [
+            {
+              "label": "Mrluyu zKillboard",
+              "url": "https://zkillboard.com/character/2123083856/"
+            },
+            {
+              "label": "混沌仲裁者最近被劝退的牢陆",
+              "url": "https://tieba.baidu.com/p/10482607135"
+            }
+          ]
         }
       }
+    },
+    "alignment": {
+      "code": "CN",
+      "note": "嘴上护团结果自己被踢，认下回旋镖后换个新团继续玩，也不报复旧东家。"
     }
   }
 }

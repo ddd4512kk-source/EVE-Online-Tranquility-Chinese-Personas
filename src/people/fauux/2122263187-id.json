@@ -183,7 +183,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T11:12:03Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "每添一条超旗，就拿自家旗舰装满烟花来剪彩；名片还兼任战报展柜。",
       "axes": {
         "shenren": {
@@ -237,16 +237,24 @@
           ]
         },
         "wealth": {
-          "tier": "B",
-          "reason": "材料记录其拥有并驾驶多艘泰坦与超级航母，已体现显著个人资产；不据此推定其全部经济实力。",
+          "tier": "S",
+          "reason": "通过自证名片与 KM 核实本人拥有并驾驶 3 艘泰坦（阿扎里尔、摩洛克两艘势力混血泰坦及科莫多）与 2 艘混血超航（仇恨、归魂者），在低安 5 次连爆自配无畏作下水献祭仪式并高价落地摩洛克，由 B 校准升 S。",
           "sources": [
             {
-              "label": "Fauux 战斗记录与旗舰名册",
+              "label": "Fauux zKillboard 战斗名册",
               "url": "https://zkillboard.com/character/2122263187/"
+            },
+            {
+              "label": "官方论坛莫洛克拍卖叫价帖",
+              "url": "https://forums.eveonline.com/t/wts-molok-ship-and-2-avata-bpo-7me-12te/493531"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "替重组后的昆仑向Goons讲规矩，每添一条超旗就炸条自家旗舰放烟花剪彩。"
     }
   }
 }

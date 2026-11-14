@@ -184,7 +184,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T08:00:00Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "笔下是《N子兵法》，战壕里是唱歌动员；仇人可以拉蓝，账本绝不拉红。",
       "axes": {
         "shenren": {
@@ -251,15 +251,31 @@
         },
         "wealth": {
           "tier": "EX",
-          "reason": "执掌整个 Winter Coalition 财政与补损中枢，调动数百 T 战争资金，一手打造顶级战争机器与工业流水线。",
+          "reason": "有确凿记录以个人真金白银／氪金购金补贴联盟补损（非公款职务，属于 EX 特殊超规格证据），叠加本人小号损毁归魂者混血超航（108.31B）、装有神使 BPO 等旗舰原图小船（107.54B）及勒维亚坦（95.07B），合评 EX。",
           "sources": [
             {
-              "label": "艾蒂斯战役战后公告",
-              "url": "https://winterco.org/2026/04/09/749/ji-lu-ai-di-si-xing-cheng-zhan-ji-qi-hou-xu/"
+              "label": "知乎：现金补贴联盟补损讨论",
+              "url": "https://www.zhihu.com/question/422728628"
+            },
+            {
+              "label": "贴吧：刷卡补损讨论",
+              "url": "https://tieba.baidu.com/p/6607634534"
+            },
+            {
+              "label": "神使原图爆船 KM",
+              "url": "https://zkillboard.com/kill/69997390/"
+            },
+            {
+              "label": "勒维亚坦损单 KM",
+              "url": "https://zkillboard.com/kill/89452535/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "把FRT经营成北方霸主、连错都写进战报，主号永封也要换小号继续当老板。"
     }
   }
 }

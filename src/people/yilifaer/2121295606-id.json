@@ -51,7 +51,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T22:38:38Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "预警频道严禁中文痛斥丢人现眼，竞选CSM高呼代表中文玩家；四十颗电池当战略物资审问。",
       "axes": {
         "shenren": {
@@ -113,16 +113,24 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "自建三百人军团，能承担常规旗舰与重型战备投入，资产自给充裕。",
+          "tier": "B",
+          "reason": "保有个人泰坦并发布第一视角开泰坦实录（至少 B），另自建 Your Ex's（315 人）任实际掌舵、个人赔付“40 大电池”纠纷 10B 并长期驾监视者与常规战列作战，评 B。",
           "sources": [
             {
-              "label": "Your Ex's 军团资产与数据",
+              "label": "Your Ex's 军团档案",
               "url": "https://evewho.com/corporation/98806948"
+            },
+            {
+              "label": "伊利法尔 B站《[EVE]第一视角开tt》",
+              "url": "https://www.bilibili.com/video/BV1NDGN6oEWn/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "管外交时训人说中文丢人现眼，竞选时又立牌子替中文社区发声。"
     }
   },
   "identity": {

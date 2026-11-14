@@ -520,11 +520,19 @@
       "labels": [],
       "profiles": [],
       "review": {
-        "state": "legacy",
-        "findings": [],
+        "state": "reviewed",
+        "findings": [
+          {
+            "note": "已对应三个葱六号组（简介与 Tukee 完全一致，与 bloodine snake、OscarBravo、Angelic Succubus、fax san-ge-cong 同号主）；因无知名社区故事且缺 CEO／FC 依据，只记线索不列传",
+            "material_hint": "docs/leads/san-ge-cong.json",
+            "source": "docs/leads/san-ge-cong.json#同号主六账号与同步依据"
+          }
+        ],
         "next_steps": []
       },
-      "evidence": []
+      "evidence": [
+        "docs/leads/san-ge-cong.json"
+      ]
     },
     "2112360190": {
       "id": "2112360190",

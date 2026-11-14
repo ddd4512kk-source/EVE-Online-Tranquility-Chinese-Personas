@@ -540,7 +540,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "嘴上又菜又抠，船厂和矿堡却没闲着。",
       "axes": {
         "shenren": {
@@ -598,16 +598,24 @@
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "大亨名单确认成体系旗舰制造、长须鲸供给与跳货专线，达到工业核心A。",
+          "tier": "C",
+          "reason": "现有材料中未见个人私有超旗制造或大宗商业流水实证，原引用的低价舰船/大鱼供给与快递出自吃瓜军团（525 人）招新帖的团务组织服务；剥离团务福利后依 50–999 人军团创始人保底 C，由 A 校准至 C。",
           "sources": [
             {
               "label": "吃瓜军团招新干货帖",
               "url": "https://forums.winterco.org/t/topic/14129"
+            },
+            {
+              "label": "Rebirth EVE zKillboard",
+              "url": "https://zkillboard.com/character/93209504/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "NG",
+      "note": "十三年老兵创吃瓜放开新人机库，最大黑历史不过2013年抢过一船打捞。"
     }
   }
 }

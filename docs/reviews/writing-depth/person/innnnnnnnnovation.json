@@ -1,0 +1,268 @@
+{
+  "status": "reviewed",
+  "note": "已逐件核对事件骨架出处、重料发挥方向及全篇叙事平衡：战绩红料已压缩为总结性点评，2019 高安卖卡与 2026 DC 前线翻车已拆分独立成块，引语已补全原文，全篇重料充分且重心平衡。",
+  "evidence": [
+    "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+    "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+    "docs/bilibili/14115152.json"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "对照完整正文、materials-innnnnnnnnovation.json 与 docs/bilibili/14115152.json，2019-12 高安卖卡贴吧挂人（6401608929）、2020-03 夜神下水与评论区爆料（BV1eE411x7mQ）、2020-06《以爹之名》（BV1t54y1B7vj）、2026 年 DC 前线双开翻车（BV1YxhN6UE6X）、喊话汉兰达（BV1hRsG6nEq3）及 5 条 B 站精选均已入文，事件骨架、数字、原话与互链皆有出处；翔子视频下 4 字留言属轻料略去，合理。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## 2019-12 贴吧《这里是EVE，不是星际2》高安卖卡乌龙"
+        },
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## B 站创作、夜神下水、《以爹之名》与 DC 前线日常（2020–2026）"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "三件重料（2019 高安卖卡贴吧风波、2020 夜神下水与芒果踢人爆料、2020《以爹之名》周年庆流出）及 2026 DC 前线自黑黑料、B 站 5 条精选均已分块展开，且每件重料具备处境/分量、反差与反应与后果三个以上发挥方向。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+          "contains": "早在入驻芒果之前，吕布先凭一桩鸡毛蒜皮的高安卖卡乌龙上了贴吧"
+        },
+        {
+          "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+          "contains": "到了 2026 年在 D.C 复出后，吕布的视频简介干脆成了连续翻车检讨书"
+        }
+      ],
+      "items": [
+        {
+          "title": "2019-12 高安卖卡吃官司上贴吧",
+          "weight": "heavy",
+          "reason": "本人唯一直接涉事的贴吧挂人纠纷，并直接引出“上代吕布”与星际2 ID 外号群嘲。",
+          "source": {
+            "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+            "heading": "## 2019-12 贴吧《这里是EVE，不是星际2》高安卖卡乌龙"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+            "contains": "早在入驻芒果之前，吕布先凭一桩鸡毛蒜皮的高安卖卡乌龙上了贴吧"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代入驻芒果前用小号在高安本地频道出卡被买家指控坐地起价。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "2019 年 12 月 19 日，他的八 N 小号在高安本地频道打出"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "本人只用三句干脆回话打发路人，结果被挂上贴吧当作星际2“上代吕布”团建群嘲。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "吕布回话干脆得像打发路边广告"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "路人 Steins' Gate 作证无误后买家仍发六张图挂贴吧，楼里把争议歪成星际二老梗团建。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "可买家转头还是把六张频道截图搬上 eve欧服吧"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "独立成块，引语已补全原文“你叫innovation还不让星际二粉丝凑过来？”。"
+        },
+        {
+          "title": "2020-03 夜神下水与评论区爆料芒果救大航踢人",
+          "weight": "heavy",
+          "reason": "频道早期 1.3 万播放热门代表作，评论区带出芒果救大航后反手踢人的社区名场面。",
+          "source": {
+            "file": "docs/bilibili/14115152.json",
+            "contains": "2020-03-05 发布的芒果时期名场面"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+            "contains": "2020 年 3 月 5 日，创号刚满三个多月的吕布就在 B 站交出"
+          },
+          "development": [
+            {
+              "angle": "分量",
+              "note": "交代创号三个多月便备好夜神级并在同年打出十余次击杀，视频收获 1.3 万播放。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "2020 年 3 月 5 日，创号刚满三个多月的吕布就在 B 站交出"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "简介客气称“萌新溜一圈”，评论区顺嘴兜出指挥凌晨五点救完大航转头踢人的内幕。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "更热闹的是他在评论区顺嘴兜出来的芒果内幕"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "评论区另一名同款遭遇的难兄难弟立刻赶来认亲，坐实故事传播效果。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "话音未落，楼里另一位有过相同遭遇的难兄难弟立刻赶来认亲"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "经过、反差与评论区互动齐全。"
+        },
+        {
+          "title": "2020-06 存档《PIBC主席馒头亲自演唱《以爹之名》》",
+          "weight": "heavy",
+          "reason": "全频道 EVE 类最高播放作品（1.5 万），确立其跨团整活与社区传播地位。",
+          "source": {
+            "file": "docs/bilibili/14115152.json",
+            "contains": "2020-06-01 发布的 PIBC 主席军用馒头"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+            "contains": "三个月后的 6 月 1 日，他上传了至今仍是全频道 EVE 类最高播放的作品"
+          },
+          "development": [
+            {
+              "angle": "分量",
+              "note": "标明全频道 EVE 类最高播放（1.5 万）及观众反复考古的入坑索引地位。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "三个月后的 6 月 1 日，他上传了至今仍是全频道 EVE 类最高播放的作品"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "顶着人族名将招牌替老对手军团的主席存档周年庆翻车高歌，画质码率残缺还自黑“我 翻 唱 我 自 己”。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "头顶人族名将招牌，替老对手军团的主席存档高歌名场面"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "观众纳闷翻唱标签并追问来历，本人坦白出自军团周年庆并形成长期考古现场。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "这期周年庆流出的翻车现场码率感人"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "原话梗点与反差俱全。"
+        },
+        {
+          "title": "2026 年 D.C 前线双开翻车与喊话汉兰达",
+          "weight": "ordinary",
+          "reason": "展现其 2026 年 DC 时期“前线记者”连载风格与评论区对线互动。",
+          "source": {
+            "file": "docs/bilibili/14115152.json",
+            "contains": "2026-08-24 发布的 DC 联盟旗舰战切片"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+            "contains": "到了 2026 年在 D.C 复出后，吕布的视频简介干脆成了连续翻车检讨书"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "自称“前线记者”却在简介逐条坦白飞燕 BUG、剑齿虎只带三根泡泡和无畏没电等双开事故。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "到了 2026 年在 D.C 复出后，吕布的视频简介干脆成了连续翻车检讨书"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "输了大鱼冲着 FRT 指挥汉兰达喊话后，被评论区观众补刀“至少有国籍”“游戏打赢了还追到别人视频里杀”。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "两个多月后的 11 月 14 日，他在"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "已独立成黑料块，叙事集中。"
+        },
+        {
+          "title": "2026 年 D.C 系列 B 站作品精选 5 条",
+          "weight": "ordinary",
+          "reason": "支撑 B 站 UP 身份的近作代表清单。",
+          "source": {
+            "file": "docs/bilibili/14115152.json",
+            "contains": "2026-09-20 发布的 DC 联盟切片"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+            "contains": "- [【DC联盟】叔叔你别RE了，我害怕]"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "通过“电焊师傅”“说好轻拦结果舔残骸 160M”“没开诅咒伏笔”“收徒”等细节强化人物自黑底色。",
+              "evidence": {
+                "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+                "contains": "- [【DC联盟】外地的无畏太不礼貌了]"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "精选 5 条不与正文重复，均基于简介与评论实际内容。"
+        },
+        {
+          "title": "在翔子视频下留言“俄式救援！”",
+          "weight": "light",
+          "reason": "他人视频下的四字围观留言，无独立情节。",
+          "source": {
+            "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+            "heading": "## B 站创作、夜神下水、《以爹之名》与 DC 前线日常（2020–2026）"
+          },
+          "treatment": "omitted",
+          "verdict": "sufficient",
+          "note": "轻料按规则略去，留存素材。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全篇结构与重心分布得当：开篇点出“安静祈祷签名 vs 游戏内前线自黑连载”的核心反差；战绩红料精简为两段定位点评，不再被转团年表与 zKB 账本淹没；2019 高安卖卡、2020 夜神下水与《以爹之名》、2026 DC 前线翻车及 B 站精选各自独立成块、前后呼应；收尾评语准确收束“前线小兵+自黑 UP”的群像落点。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+          "contains": "从芒果时期到转进 HuaXa、落脚 Dracarys."
+        },
+        {
+          "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+          "contains": "顶着“吕布”名头在新伊甸滚过七年"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/14115152.json",
+    "src/people/innnnnnnnnovation/2115969831-id.json",
+    "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+    "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json"
+  ],
+  "inputs": "835ebe4404f6fdcd242688f2fa179097597f630925ad9f25a0485da54cf13521",
+  "inputParts": {
+    "docs/bilibili/14115152.json": "73cc45bd28b3dbfb3cbd05e9096f6478e916430dad1178291c048caa5a55b026",
+    "src/people/innnnnnnnnovation/2115969831-id.json": "cccfca1f39965bfdae469fff6b0ce0b28ad7447d0ae00d73ee90dd5460d197c4",
+    "src/people/innnnnnnnnovation/innnnnnnnnovation.md": "2370bd652d06794ef1660c2a2b0cc41e5591b89186cf86341df9999812b247ce",
+    "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json": "a540d382f11caff5d9bac4324d8fb490084883a9a37c1d29fb85210a86d007e7"
+  },
+  "level": 1
+}

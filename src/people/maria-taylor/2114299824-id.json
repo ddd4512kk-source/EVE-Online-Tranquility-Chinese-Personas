@@ -48,8 +48,8 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T13:01:25Z",
-      "verdict": "首位当选全服CSM的华人议员，坦白补丁推动官方简中落地，功标新伊甸史册的玛利亚。",
+      "reviewedAt": "2026-11-14T08:02:48Z",
+      "verdict": "FRT 网管兼论坛版主，靠联盟推举成首位华人 CSM 并推动官方简中，吵架先亮“这规则是我写的”。",
       "axes": {
         "shenren": {
           "tier": "D",
@@ -82,9 +82,13 @@
           ]
         },
         "charisma": {
-          "tier": "S",
-          "reason": "首位华人CSM议员，为全宇宙全体华人玩家争得官方中文支持，功标青史，受全华语圈万众敬仰。",
+          "tier": "C",
+          "reason": "凛冬论坛发帖最多的网管兼版主，在联盟内部有熟脸圈与“舔狗小组”玩梗互动，但鲜少混迹贴吧、圈外知名度有限，当选 CSM 主要靠 FRT 组织推举而非个人跨圈号召力。",
           "sources": [
+            {
+              "label": "《关于 CSM15 部分争议的说明》",
+              "url": "https://forums.winterco.org/t/topic/6050"
+            },
             {
               "label": "恭喜华人入选eve csm议会帖",
               "url": "https://tieba.baidu.com/p/6745525170"
@@ -92,18 +96,22 @@
           ]
         },
         "politics": {
-          "tier": "S",
-          "reason": "当选全服CSM最高玩家议会议员，直接与CCP开发团队交涉促成官方中文化政策落地，华人地缘政治天花板。",
+          "tier": "A",
+          "reason": "长期担负 FRT 全套 IT、论坛治理及联盟规则起草，并经 FRT 推举出任第十五届 CSM 议员向 CCP 传达中文社区诉求；属大型联盟核心治理与对外代表履职，并非靠个人政治手腕或派系操盘登顶，评 A。",
           "sources": [
             {
               "label": "Maria Taylor 参选第十五届 CSM 宣言",
               "url": "https://forums.eveonline.com/t/maria-taylor-for-csm-15-the-chinese-community/240878"
+            },
+            {
+              "label": "《喜迎官方中文，给大家拜个早年啦！》",
+              "url": "https://tieba.baidu.com/p/8211875722"
             }
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "掌控全盟IT服务与核心公共资产枢纽，个人与团队后勤资金储备充足富足。",
+          "tier": "D",
+          "reason": "联盟 IT 与论坛运维属公职，不计个人财力；单号随队驾驶缪宁、休津、狂怒者、死亡漩涡等常规主力舰，未见小号、旗舰或个人产业记录，按普通日常自给评 D。",
           "sources": [
             {
               "label": "Maria Taylor zKillboard",
@@ -112,6 +120,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "管着FRT整套IT、推动官方简中的首位华人CSM，吵架先亮规则是我写的。"
     }
   }
 }

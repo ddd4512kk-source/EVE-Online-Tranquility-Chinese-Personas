@@ -1,7 +1,8 @@
 import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js';
 
 // 首页名录：文字筛选 ∧ 标签多选（同时满足所选全部标签；“全部”= 清空），
-// 排序：创号、更新、六维、随机，再点当前排序切换方向。同步 ?f= ?t=（可多个）?sort= ?rev=。无 JS 时页面照常可读。
+// 九宫格阵营：单格 CE／整列 L*／整行 *E，与文字、标签取交集。
+// 排序：创号、更新、六维、随机，再点当前排序切换方向。同步 ?f= ?t=（可多个）?al= ?sort= ?rev=。无 JS 时页面照常可读。
 (() => {
   const roster = document.getElementById('roster');
   if (!roster) return;
@@ -11,6 +12,12 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
   const tagChips = [...document.querySelectorAll('#tag-bar [data-tag]')];
   const sortChips = [...document.querySelectorAll('#roster-sorts [data-sort]')];
   const activeTags = new Set();
+  const alignGroup = document.querySelector('.align-filter');
+  const alignChips = [...document.querySelectorAll('.align-pick [data-al]')];
+  const alignCurrent = document.getElementById('align-current');
+  let alignSel = '';
+  if (alignGroup) alignGroup.hidden = false;
+  const alignOk = code => !alignSel || (!!code && [0, 1].every(i => alignSel[i] === '*' || alignSel[i] === code[i]));
 
   const cards = [...roster.querySelectorAll('.card')]; // 构建时已按创号升序
   pauseOffscreen(cards);
@@ -52,7 +59,7 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
   function syncUrl() {
     const u = new URL(location.href);
     const sort = mode === 'birth' && !reversed ? '' : mode === 'shuffle' ? '' : mode;
-    for (const [key, value] of [['f', input.value.trim()], ['sort', sort], ['rev', sort && reversed ? '1' : '']]) {
+    for (const [key, value] of [['f', input.value.trim()], ['al', alignSel], ['sort', sort], ['rev', sort && reversed ? '1' : '']]) {
       if (value) u.searchParams.set(key, value);
       else u.searchParams.delete(key);
     }
@@ -65,15 +72,23 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
     const terms = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const tags = [...activeTags];
     press(tagChips, b => (b.dataset.tag ? activeTags.has(b.dataset.tag) : !tags.length));
+    const alignChip = alignChips.find(b => b.dataset.al === alignSel);
+    for (const b of alignChips) {
+      b.classList.toggle('is-on', b === alignChip);
+      b.setAttribute('aria-pressed', String(b === alignChip));
+    }
+    if (alignCurrent) alignCurrent.textContent = alignChip?.dataset.label ?? '全部';
+    alignGroup?.classList.toggle('is-filtered', !!alignSel);
     let shown = 0;
     for (const c of cards) {
-      const ok = terms.every(t => c.dataset.key.includes(t)) && tags.every(t => c.dataset.tags.includes(`|${t}|`));
+      const ok = terms.every(t => c.dataset.key.includes(t)) && tags.every(t => c.dataset.tags.includes(`|${t}|`)) && alignOk(c.dataset.align);
       c.hidden = !ok;
       if (ok) shown++;
     }
-    status.hidden = !terms.length && !tags.length;
+    status.hidden = !terms.length && !tags.length && !alignSel;
+    const conds = [alignSel && `阵营「${alignChip.dataset.label}」`, tags.length && `标签${tags.map(t => `「${t}」`).join('+')}`].filter(Boolean);
     status.textContent = shown
-      ? `${tags.length ? `标签${tags.map(t => `「${t}」`).join('+')}：` : ''}找到 ${shown} 人。`
+      ? `${conds.length ? `${conds.join('，')}：` : ''}找到 ${shown} 人。`
       : '名录里没有匹配的人。试试全文搜索？';
     syncUrl();
   }
@@ -113,11 +128,21 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
     });
   }
 
+  for (const b of alignChips) {
+    b.addEventListener('click', () => {
+      alignSel = b.dataset.al;
+      b.closest('details').open = false;
+      applyFilter();
+    });
+  }
+
   const params = new URLSearchParams(location.search);
   input.value = params.get('f') ?? '';
   for (const t of params.getAll('t')) if (tagChips.some(b => b.dataset.tag === t)) activeTags.add(t);
+  const al = params.get('al');
+  if (alignChips.some(b => b.dataset.al && b.dataset.al === al)) alignSel = al;
   const sort = params.get('sort');
   if (sort in sorters) sortBy(sort, params.get('rev') === '1');
-  if (input.value || activeTags.size) applyFilter();
+  if (input.value || activeTags.size || alignSel) applyFilter();
   document.querySelectorAll('.roster-filters .tag-wrap').forEach(initTagCollapse);
 })();

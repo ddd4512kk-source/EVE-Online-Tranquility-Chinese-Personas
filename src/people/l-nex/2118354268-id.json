@@ -91,7 +91,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:08:00Z",
+      "reviewedAt": "2026-11-14T19:20:00Z",
       "verdict": "欧服出色的电影级战地记录者与泰坦驾驶员，以一句谦逊坦荡的“Involved”在万亿战火中书写史诗。",
       "axes": {
         "shenren": {
@@ -157,20 +157,24 @@
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "坐拥个人俄洛巴斯泰坦、神示级海军型，更能配置并玩转首批天使无畏（萨拉希尔级）等顶尖混血旗舰，个人战略资产极其雄厚，评 S。",
+          "tier": "A",
+          "reason": "本人名下保有大量制造产业规模（B/A 工业实绩），叠加小号 L-Zarek 于欧贝损失俄洛巴斯级泰坦（149.7B，B）；独立制造产业与泰坦实战相加升 A（神示级海军型不作资产计入，已排除致谢他人船只）。",
           "sources": [
             {
-              "label": "泰坦装配与战损估值",
+              "label": "欧贝俄洛巴斯泰坦战损 KM",
               "url": "https://zkillboard.com/kill/139046897/"
             },
             {
-              "label": "少侠天使无畏交付实况",
-              "url": "https://www.bilibili.com/video/BV1oTT8zyE4z/"
+              "label": "L-Nex 战斗与旗舰 KM",
+              "url": "https://zkillboard.com/kill/139047726/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "战功墙老实只标在场，去了敌对还不忘替旧东家剪几部战报大片。"
     }
   }
 }

@@ -339,7 +339,7 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "reviewed",
         "findings": [
           {
             "note": "名字已解析；身份未查",
@@ -350,13 +350,19 @@
             "note": "头衔与完整简介已读；无头衔；简介为英文低俗玩笑，不录原文；当前已不在本团，待故事",
             "material_hint": "",
             "source": "docs/corporations/notes/member-research/98715582.json#帝皇之镰历史榜第51至100名头衔核读2026-11-01"
+          },
+          {
+            "note": "已对应三个葱六号组（与 bloodine snake、Bigh8rboi、OscarBravo、Angelic Succubus、fax san-ge-cong 同号主）；因无知名社区故事且缺 CEO／FC 依据，只记线索不列传",
+            "material_hint": "docs/leads/san-ge-cong.json",
+            "source": "docs/leads/san-ge-cong.json#同号主六账号与同步依据"
           }
         ],
         "next_steps": []
       },
       "evidence": [
         "docs/corporations/notes/member-research/98715582.json",
-        "docs/corporations/notes/member-research/98715582.json#帝皇之镰历史榜第51至100名头衔核读2026-11-01"
+        "docs/corporations/notes/member-research/98715582.json#帝皇之镰历史榜第51至100名头衔核读2026-11-01",
+        "docs/leads/san-ge-cong.json"
       ]
     },
     "1096662979": {

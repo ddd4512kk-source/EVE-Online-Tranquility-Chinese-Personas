@@ -3,7 +3,7 @@ import test from 'node:test';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { checkMaterials, materialPath, materialReferences, materialSection, materialText, parseMaterial, planMaterialMigration, projectMaterial, readMaterial, serializeMaterial, validateMaterial } from './material-document.mjs';
+import { checkMaterials, maintainerProcessErrors, materialPath, materialReferences, materialSection, materialText, parseMaterial, planMaterialMigration, projectMaterial, readMaterial, serializeMaterial, validateMaterial } from './material-document.mjs';
 import { applyMigration, run as runMigration } from './migrate-materials.mjs';
 
 function fixture(t) {
@@ -181,4 +181,15 @@ test('HED-GP 来源素材让位给既有战役 JSON 快照', t => {
   const plan = planMaterialMigration(root);
   assert.equal(plan.conflicts.length, 0);
   assert.equal(plan.entries[0].target, path.join(root, 'docs/sources/hed-gp-incident-2023-material.json'));
+});
+
+test('材料校验拒绝维护者确认／指认等对话过程，放行游戏工具维护者语境', () => {
+  for (const text of ['维护者确认本人小号', '由维护者指认', '2026-11-10 维护者补正：内容', '按维护者明确指示不予合并']) {
+    assert.equal(maintainerProcessErrors(text).length, 1);
+  }
+  for (const text of ['运费计算器维护者与教学译者', '不是 SeAT 维护者任职证据', '隐秘诱导小号与踢团指控及维护者回应已归档']) {
+    assert.equal(maintainerProcessErrors(text).length, 0);
+  }
+  const errors = validateMaterial(parseMaterial('# 标题\n\n维护者确认同人。\n'), 'demo.json');
+  assert.match(errors.join('\n'), /不得记录“维护者确认”/);
 });

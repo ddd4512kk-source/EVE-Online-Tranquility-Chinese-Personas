@@ -62,7 +62,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "五国语言识别区，不如一句集合管用。",
       "axes": {
         "shenren": {
@@ -116,8 +116,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "常年重突战备与战损投入，按资产充裕评。",
+          "tier": "B",
+          "reason": "已核实 30 个 Monitor 日期及 2022 诺瓦拉等大型会战缪宁指挥记录（cmd=A），按著名 FC 默认持有个人泰坦保底评 B；纯保底不叠加重突常规战备升 A。",
           "sources": [
             {
               "label": "gelanchuan Erata zKillboard",
@@ -126,6 +126,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "在混沌仲裁带了多年缪宁队，群里吵架劝“先别急”，偶尔也带满编跳错。"
     }
   }
 }

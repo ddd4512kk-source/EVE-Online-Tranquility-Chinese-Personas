@@ -137,7 +137,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T08:00:00Z",
+      "reviewedAt": "2026-11-14T19:20:00Z",
       "verdict": "激情咆哮响彻全宇宙，率万人联军围攻 1DQ；虽未登顶封神，战史千秋抹不去姓名。",
       "axes": {
         "shenren": {
@@ -191,8 +191,8 @@
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "顶级联盟总指挥官，享有全服最高规格的联盟战备与补损支撑，底蕴充沛。",
+          "tier": "B",
+          "reason": "著名 FC 与联军统帅（著名FC 默认泰坦保底 B，仅作保底不叠加 C 升 A），千船战斗损耗与 HyperNet 代为操盘挂拍稀有船均不构成独立非保底 B 资产，按保底评 B。",
           "sources": [
             {
               "label": "PAPI 战役舰队补损说明",
@@ -201,6 +201,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "带着Legacy打完FRT又联手打帝国，最后自己直接进了Goonswarm。"
     }
   },
   "identity": {

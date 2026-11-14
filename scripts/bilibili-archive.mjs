@@ -4,7 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 import { brApiUrl } from './battle-report.mjs';
-import { readMaterial } from './material-document.mjs';
+import { maintainerProcessErrors, readMaterial } from './material-document.mjs';
 
 export const ARCHIVE = 'docs/bilibili';
 const UID = /^\d+$/;
@@ -268,12 +268,15 @@ export async function validateProfile(root, file, p) {
   if (p.version !== 2 || !UID.test(p.uid ?? '') || path.basename(file) !== `${p.uid}.json`) fail('版本／UID／文件名不一致（UID档案须为version 2）');
   if (!p.name || p.url !== `https://space.bilibili.com/${p.uid}/`) fail('缺少账号名或规范主页');
   if (!STATES.has(p.identity?.state)) fail('身份状态无效');
+  for (const item of p.identity?.evidence ?? []) for (const message of maintainerProcessErrors(item, 'identity.evidence ')) fail(message);
+  for (const note of p.channel?.prior_notes ?? []) for (const message of maintainerProcessErrors(note, 'channel.prior_notes ')) fail(message);
   for (const ref of [p.identity?.material, ...(p.identity?.related ?? []).map(r => r.material)].filter(Boolean)) {
     try { await safeFile(root, ref); } catch { fail(`素材链接无效：${ref}`); }
   }
   for (const key of ['latest', 'popular', 'series', 'opus']) {
     const c = p.channel?.coverage?.[key] ?? (key === 'opus' ? opusCoverage() : null);
     if (!c || !COVERAGE.has(c.state) || !c.scope) fail(`${key}覆盖状态／范围缺失`);
+    for (const message of maintainerProcessErrors(c?.scope, `${key}.scope `)) fail(message);
     if (c?.state !== 'unknown' && !c?.evidence) fail(`${key}已取得状态缺少依据`);
     if (c?.evidence && !/^https?:\/\//.test(c.evidence)) {
       try { await safeFile(root, c.evidence); } catch { fail(`${key}覆盖依据路径无效：${c.evidence}`); }

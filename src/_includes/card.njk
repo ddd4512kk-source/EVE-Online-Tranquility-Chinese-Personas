@@ -1,9 +1,11 @@
 {#- 目录卡片。传入 p（列传页面对象）。 -#}
+{%- from "person-alignment.njk" import alignTab -%}
 {%- set d = p.data -%}
 {%- set char = d.char -%}
-<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}"{% if d.radarPanel %} data-radar="{{ d.radarPanel.ranks | dump }}"{% endif %} data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
+<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}"{% if d.radarPanel %} data-radar="{{ d.radarPanel.ranks | dump }}"{% endif %}{% if d.alignment %} data-align="{{ d.alignment.code }}"{% endif %} data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
   <a href="{{ p.url | url }}">
     {%- if d.famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ d.famous }}">名</span>{% endif %}
+    {%- if d.alignment %}{{ alignTab(d.alignment) }}{% endif %}
     <span class="status-frame status-{{ d.activity.state }}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}"{% if d.activityLabel %} title="{{ d.activityLabel }}"{% endif %}>
       <img class="portrait" src="{{ ('/portraits/' + d.character_id + '.jpg') | url }}" alt="" width="72" height="72" loading="lazy" decoding="async">
       {%- set markTycoon = d.tycoon %}{% set markShenren = d.shenren -%}
@@ -39,8 +41,8 @@
         {%- endif %}
         {%- endfor %}
         {%- endif %}
-        {%- if radar.axes[0].point %}
-        <circle cx="{{ radar.axes[0].point.x }}" cy="{{ radar.axes[0].point.y }}" r="6" class="card-radar-shenren"/>
+        {%- if radar.axes[0].point and radar.shenrenDot %}
+        <circle cx="{{ radar.axes[0].point.x }}" cy="{{ radar.axes[0].point.y }}" r="6" class="card-radar-shenren is-{{ radar.shenrenDot }}"/>
         {%- endif %}
       </svg>
     </span>

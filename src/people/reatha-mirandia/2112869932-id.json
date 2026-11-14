@@ -67,16 +67,20 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "自己站队列，也催别人把战报写清楚。",
       "axes": {
         "shenren": {
-          "tier": "D",
-          "reason": "规劝写战报与催总结不算恶行。",
+          "tier": "E",
+          "reason": "撰写《凛冬论坛使用指南》与百科条目范式，参与建议论坛标签分级及汉化eve-o-preview并推动战术复盘，温和理性，无真实黑料。",
           "sources": [
             {
-              "label": "Reatha Mirandia 角色名片与简介",
-              "url": "https://zkillboard.com/character/2112869932/"
+              "label": "《凛冬论坛使用指南》",
+              "url": "https://forums.winterco.org/t/topic/447"
+            },
+            {
+              "label": "论坛复盘与基建相关记录",
+              "url": "https://forums.winterco.org/t/topic/3493"
             }
           ]
         },
@@ -121,8 +125,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "持续重突战备，按资产有余，不拿工具翻译算收入。",
+          "tier": "D",
+          "reason": "单号随队驾驶狂暴、塞纳波、银鹰等常规主力舰（累计 166 次损失仅约 119 亿 ISK），工具汉化与论坛指南不算个人收入，未见多开、超旗或个人产业记录，按普通日常自给评 D。",
           "sources": [
             {
               "label": "Reatha Mirandia zKillboard",
@@ -131,6 +135,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "写了论坛说明书又汉化多开工具，连FC不写战后总结都要开帖催作业。"
     }
   }
 }

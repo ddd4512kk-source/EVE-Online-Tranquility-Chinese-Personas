@@ -25,6 +25,24 @@ bodyClass: page-index
         </nav>
       </div>
     </div>
+    {#- 阵营筛选默认收起；无 JS 时保持 hidden，全站无阵营时不输出 -#}
+    {%- set al = people | alignmentCounts %}
+    {%- if al.total %}
+    <div class="corp-filter-group align-filter" hidden>
+      <span class="corp-filter-heading" id="roster-align-heading">阵营</span>
+      <details class="align-dd">
+        <summary class="chip" aria-describedby="roster-align-heading"><span id="align-current">全部</span> ▾</summary>
+        <div class="align-pick" role="group" aria-labelledby="roster-align-heading">
+          <button type="button" class="ap-all is-on" data-al="" data-label="全部" aria-pressed="true">全部<small>{{ al.total }}</small></button>
+          {%- for l in al.laws %}<button type="button" class="ap-col" data-al="{{ l.selection }}" data-label="{{ l.label }}" aria-pressed="false" title="{{ l.label }}整列 {{ l.count }} 人">{{ l.label }}</button>{% endfor %}
+          {%- for m in al.morals %}
+          <button type="button" class="ap-row" data-m="{{ m.key }}" data-al="{{ m.selection }}" data-label="{{ m.label }}" aria-pressed="false" title="{{ m.label }}整行 {{ m.count }} 人">{{ m.label }}</button>
+          {%- for c in al.cells %}{% if c.moral == m.key %}<button type="button" class="ap-cell" data-m="{{ c.moral }}" data-al="{{ c.code }}" data-label="{{ c.label }}" aria-pressed="false" title="{{ c.label }} {{ c.count }} 人"{% if not c.count %} disabled{% endif %}>{{ c.short }}<small>{{ c.count }}</small></button>{% endif %}{% endfor %}
+          {%- endfor %}
+        </div>
+      </details>
+    </div>
+    {%- endif %}
   </div>
   {%- if collections.tagMap.length %}
   <div class="corp-filter-group">

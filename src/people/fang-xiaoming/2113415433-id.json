@@ -127,7 +127,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T13:01:25Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "笔下把盟主写成匪首、通告敌军彻底完蛋的真理部主笔，炮火响处也能开泽尼塔围泰坦。",
       "axes": {
         "shenren": {
@@ -145,8 +145,12 @@
           "reason": "主号 156 次击杀、击毁近一万亿，十八个月有出勤，战列、无畏、后勤都开过；单杀为零，战绩全在大舰队里，不算顶尖，评 B。",
           "sources": [
             {
-              "label": "欧贝会战战损记录",
-              "url": "https://zkillboard.com/kill/139047423/"
+              "label": "欧贝会战泽尼塔参战 KM 139047354",
+              "url": "https://zkillboard.com/kill/139047354/"
+            },
+            {
+              "label": "zcrazybaby zKillboard",
+              "url": "https://zkillboard.com/character/2113415433/"
             }
           ]
         },
@@ -181,16 +185,28 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "自备泽尼塔这类高价值重船上前线，属可自立、随手换船的 C，没有更大规模的资源运作；评 C。",
+          "tier": "D",
+          "reason": "原评定依赖的“自备泽尼塔级无畏”已按全局规则不计入个人资产，全账下未见泰坦、超航、三开以上多开或五十人以上军团 CEO 实证，调回常人基线 D。",
           "sources": [
             {
-              "label": "欧贝会战战损记录",
-              "url": "https://zkillboard.com/kill/139047423/"
+              "label": "欧贝会战泽尼塔参战 KM 139047354",
+              "url": "https://zkillboard.com/kill/139047354/"
+            },
+            {
+              "label": "欧贝会战泽尼塔参战 KM 139047676",
+              "url": "https://zkillboard.com/kill/139047676/"
+            },
+            {
+              "label": "zcrazybaby zKillboard",
+              "url": "https://zkillboard.com/character/2113415433/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "CE",
+      "note": "披对手马甲喊大屠杀栽赃，顺手把自家九州军团会议录音挂上网盘。"
     }
   }
 }

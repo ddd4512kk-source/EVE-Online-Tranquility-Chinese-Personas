@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "type": "material",
+  "title": "M2-XFE 挤牙膏，幽灵泰坦上战报：素材",
+  "sections": [
+    {
+      "id": "m2-xfe-2021-素材",
+      "heading": "M2-XFE 挤牙膏，幽灵泰坦上战报：素材",
+      "level": 1,
+      "content": "\n"
+    },
+    {
+      "id": "战报与口径说明",
+      "heading": "战报与口径说明（2026-11-15）",
+      "level": 2,
+      "content": "\n- 快照战报来源（合并三段 related）：`https://br.evetools.org/related/30004773/202101030100`、`https://br.evetools.org/related/30004773/202101030400`、`https://br.evetools.org/related/30004773/202101030700`，配合窗口 `[\"2021-01-02 22:00\", \"2021-01-03 11:00\"]`（UTC）。\n- 星系与地带：M2-XFE（30004773，Delve / 绝地，0.0），地带标签取 `00区`。\n- 战斗类型依据：`超旗战`——帝国提前在 M2-XFE 星城布防数百条泰坦与超级航母，PAPI 泰坦群诱导进场正面交锋，KM 统计泰坦击杀 171 条；按双方超旗投入规模定为 `超旗战`。\n- 战损口径限制（幽灵泰坦）：[CCP 新闻《The Massacre of M2-XFE》](https://www.eveonline.com/news/view/the-massacre-of-m2-xfe)明确说明第二战因服务器崩溃导致 KM 不可靠，未纳入官方图表。br.evetools 合并快照总计 5554 人、3638 条损失、13407.58B（含 171 条 PAPI 泰坦 KM）；因其中包含部分客户端与服务器不同步产生的“幽灵泰坦”（KM 记损但船体实际留在 T5ZI-S 或另端存活），本总额仅代表 BR/KM 记录账面值，不作精确实际销毁定论。\n- 分方依据：沿用 [M2-XFE 首战](../../battles/m2-xfe-2020/materials-m2-xfe-2020.json) 帝国对 PAPI 的联盟划分，并用本场 `hits` 核对小联盟：Guardians of Tranquility（99010517，hitImp=58/hitPapi=15）、UNREAL Alliance（99008469，hitImp=32/hitPapi=0）、Optimistic Wasteland（99009399，hitImp=50/hitPapi=0）、Intrepid Crossing（673381830，hitImp=48/hitPapi=2）均归 PAPI；French ConneXion.（99007916，hitPapi=45/hitImp=1）归帝国。Ranger Regiment 本场历史联盟 ID 为 `99007362`。\n\n"
+    },
+    {
+      "id": "社区复盘与人物检索",
+      "heading": "社区复盘与人物检索（2026-11-15）",
+      "level": 2,
+      "content": "\n- 贴吧主复盘：[星城结构退增强，欧服世界大战M2-XFE超旗决战第二轮爆发。](https://tieba.baidu.com/p/7178411209)（`紫翼-萨伦`，2021-01-03）：\n  - 首战维护后联军选择不上线，用两天继续从后方调运旗舰；1 月 3 日帝国抢先控场，本地 5000+ 人打到服务器负载上限。\n  - 联军泰坦诱导进场时陷入加载“冲马桶”与掉线，以挤牙膏方式出现，在帝国视野里呈零速零抗，出一条被吃一条。\n  - 出现大量“空船 KB”的泰坦且部分随后“复活”（船体仍在 T5ZI-S 星城），被称为“幽灵泰坦”。\n  - 星城维修时间不按时间膨胀计算，联军未及暂停维修，星城自动修好；联军随后让 400+ 泰坦原地下线，形成“M2 超旗监狱”。\n- 参战人物列传与素材检索：\n  - [阿舍 / Asher Elias](../../people/asher-elias/asher-elias.md)：KM [89684764](https://zkillboard.com/kill/89684764/)（2021-01-03T03:07:13Z），驾驶监视者参与指挥，所属 Goonswarm Federation（1354830081）。\n  - [夺米台风 / DomiTyphoon](../../people/domityphoon/domityphoon.md)：KM [89687354](https://zkillboard.com/kill/89687354/)（2021-01-03T05:00:24Z），驾驶冥府，所属 Ranger Regiment（99007362）。\n  - [幻象 / Nany 1419](../../people/nany-1419/nany-1419.md)：本场驾驶冥府，所属 Ranger Regiment（99007362）。\n  - [LK / LIZARD K](../../people/lizard-k/lizard-k.md)：KM [89683597](https://zkillboard.com/kill/89683597/)（2021-01-03T02:15:46Z），驾驶短剑，所属 Guardians of Tranquility（99010517，PAPI）。\n  - 其余快照命中人物：帝国方七喜（Goons）、Elo Knight（Goons）、于思（Goons）、猪皮（DC）、奇亚黑（DC）、白菜（DC）；PAPI 方令狐聪（FRT）、扎卡里（FRT）、大黑（芒果）。\n- 相关视频（2026-11-15 读取页面简介、元数据与前几条主评论，未观看画面）：馒狗 [BV1Kz4y167yU](https://www.bilibili.com/video/BV1Kz4y167yU/)（2021-01-03 UTC+8 录屏，简介称“垃圾服务器”“心疼早进的超旗”）；夺米台风 [BV1EV41187SQ](https://www.bilibili.com/video/BV1EV41187SQ/)（2021-01-03 投稿，4P）；YouTube [Galaxier《M2-XFE CINEMATIC》](https://www.youtube.com/watch?v=LicIe_YwfO8)（2021-01-04，头图出处，原图英文字已抹去改写）。未用：kurafy 搬运版 BV1LV4y1t71E（原片即 Galaxier）、A Higher Perspective `4EspDIuxXK4`、Talking in Stations 现场连线 `ARIl0t0jUO0`/`semL8PdrQCY`（备选，未入页）。\n- 相邻战役：[M2-XFE 大屠杀](../../battles/m2-xfe-2020/m2-xfe-2020.md)（2020-12-30）与 [M2-XFE 突围](../../battles/m2-xfe-breakout-2021/m2-xfe-breakout-2021.md)（2021-01-27）。\n\n"
+    }
+  ]
+}

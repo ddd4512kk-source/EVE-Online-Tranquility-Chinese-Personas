@@ -44,40 +44,82 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T08:00:00Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "让观众滚去学习，课件和后续舰队录像却一份没少。",
       "axes": {
         "shenren": {
           "tier": "D",
           "reason": "签名催人滚去学习，频道里却持续发教程和实战录像；招牌鲜明但不属出格事件，评常人基准 D。",
-          "sources": [{ "label": "翔子在此 B 站空间", "url": "https://space.bilibili.com/441373876" }]
+          "sources": [
+            {
+              "label": "翔子在此 B 站空间",
+              "url": "https://space.bilibili.com/441373876"
+            }
+          ]
         },
         "combat": {
           "tier": "C",
           "reason": "Vedmak、审判者等中小船长期出勤，也跟大队使用乌鸦；熟练驾驶多种战术船并稳定出勤，评 C。",
-          "sources": [{ "label": "xiangzi is here zKillboard", "url": "https://zkillboard.com/character/2123451407/" }]
+          "sources": [
+            {
+              "label": "xiangzi is here zKillboard",
+              "url": "https://zkillboard.com/character/2123451407/"
+            }
+          ]
         },
         "command": {
           "tier": "D",
           "reason": "长期随队并记录行动，但没有 FC 认证或指挥经历；本人也说还需沉淀，统御评常人基准 D。",
-          "sources": [{ "label": "xiangzi is here zKillboard", "url": "https://zkillboard.com/character/2123451407/" }, { "label": "飞行地板录像", "url": "https://www.bilibili.com/video/BV11rpQ61EVp/" }]
+          "sources": [
+            {
+              "label": "xiangzi is here zKillboard",
+              "url": "https://zkillboard.com/character/2123451407/"
+            },
+            {
+              "label": "飞行地板录像",
+              "url": "https://www.bilibili.com/video/BV11rpQ61EVp/"
+            }
+          ]
         },
         "charisma": {
           "tier": "C",
           "reason": "持续做新手教程，观众反馈照着视频学会刷 6-10，并会点名催他带队；已有小圈层拥趸，评 C。",
-          "sources": [{ "label": "丐版毒蜥打兔子 6-10 教程", "url": "https://www.bilibili.com/video/BV1G6wazAEPo/" }]
+          "sources": [
+            {
+              "label": "丐版毒蜥打兔子 6-10 教程",
+              "url": "https://www.bilibili.com/video/BV1G6wazAEPo/"
+            }
+          ]
         },
         "politics": {
           "tier": "D",
           "reason": "现有故事写的是教学、舰队参与和内容创作，没有基层管理或联盟外交，评专注自身事务的 D。",
-          "sources": [{ "label": "翔子在此 B 站空间", "url": "https://space.bilibili.com/441373876" }]
+          "sources": [
+            {
+              "label": "翔子在此 B 站空间",
+              "url": "https://space.bilibili.com/441373876"
+            }
+          ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "有刷钱教学和持续参战记录，但集体击杀价值不等于个人资产；没有个人产业或资产依据，评自给基准 D。",
-          "sources": [{ "label": "丐版毒蜥打兔子 6-10 教程", "url": "https://www.bilibili.com/video/BV1G6wazAEPo/" }, { "label": "xiangzi is here zKillboard", "url": "https://zkillboard.com/character/2123451407/" }]
+          "tier": "C",
+          "reason": "B 站已公开发布《单人单开炸集会》《丐版毒蜥打兔子 6-10》等复数差异化刷怪收益教学视频，且游戏内累计逾千次击杀实战，按复数刷钱教学门槛由 D 升 C。",
+          "sources": [
+            {
+              "label": "丐版毒蜥打兔子 6-10 教程",
+              "url": "https://www.bilibili.com/video/BV1G6wazAEPo/"
+            },
+            {
+              "label": "xiangzi is here zKillboard",
+              "url": "https://zkillboard.com/character/2123451407/"
+            }
+          ]
         }
       }
+    },
+    "alignment": {
+      "code": "NG",
+      "note": "嘴上喊滚去学习，手头把丐版刷钱教程和翻译工具都备好了。"
     }
   },
   "identity": {

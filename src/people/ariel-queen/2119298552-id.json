@@ -61,7 +61,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "月矿账算得细，万古仍欢迎捐。",
       "axes": {
         "shenren": {
@@ -119,16 +119,24 @@
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "大亨名单确认月矿引爆、回购与税收经营。",
+          "tier": "B",
+          "reason": "实际担任寂静谷莲花月矿管理并具备长须鲸级（大鱼）挖矿能力（按新规至少 B）；尚无个人商业流水、大型制造产线或超旗集群实证，由 A 校准至 B。",
           "sources": [
             {
-              "label": "月矿回购与税收机制",
+              "label": "寂静谷莲花月矿管理条例",
               "url": "https://forums.winterco.org/t/topic/22437"
+            },
+            {
+              "label": "Ariel Queen zKillboard",
+              "url": "https://zkillboard.com/character/2119298552/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "给混沌写禁止酒驾的月矿条例，顺手在简介里众筹万古级。"
     }
   }
 }

@@ -49,7 +49,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T08:00:00Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "四条元帅当反面教材，反手挂出队友六分钟全席。",
       "axes": {
         "shenren": {
@@ -108,15 +108,27 @@
         },
         "wealth": {
           "tier": "A",
-          "reason": "连续损失四条造价高昂的元帅级依然随手能换巴盖斯跟队，底蕴深厚的资深富哥打手。",
+          "reason": "主号 2025 年亲自驾驶巨蟒级（AT 无畏，≥ A）与贝斯特拉、蛇鹈号、猎獒、西布勒四款 AT 赛船及凤凰级海军型出击，并有 4,877 次元帅杀伤与 4 次元帅战损记录，持续投入厚重，维持 A。",
           "sources": [
             {
-              "label": "元帅损失记录与出勤船单",
+              "label": "主号 zKillboard 与元帅战损",
               "url": "https://zkillboard.com/character/2118623409/"
+            },
+            {
+              "label": "巨蟒级 AT 无畏参战 KM",
+              "url": "https://zkillboard.com/kill/129154514/"
+            },
+            {
+              "label": "凤凰海军型无畏 KM",
+              "url": "https://zkillboard.com/kill/132076355/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "NN",
+      "note": "简介和队友互相挂开席战报，转头照样同开巴盖斯跟队出门。"
     }
   }
 }

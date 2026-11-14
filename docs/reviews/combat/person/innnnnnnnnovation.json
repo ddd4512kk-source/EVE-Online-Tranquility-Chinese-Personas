@@ -1,0 +1,82 @@
+{
+  "status": "reviewed",
+  "note": "已核查主号 2115969831 与 5 个小号（FRX99 Rafe、INNNNNnoVation、INNNNNNNnoVation、INNNNNNNNnoVation LVBU、M6 Bushnell）stats、高值月份拆建筑记录及 0 战役命中；战绩红料已改写为自然人视角的总结性点评，核验通过。",
+  "evidence": [
+    "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+    "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json"
+  ],
+  "assessment": {
+    "profile": {
+      "status": "reviewed",
+      "note": "主号 2115969831（INNNNNNNNnoVation）累计 691 击杀（800.6B）、208 损失（11.4B）、35 单杀，2020-01 至 2026-11 活跃 19 个月，主力船型为剑齿虎、弯刀、暴风、缪宁等轻拦抓捕与巡洋/驱逐跟队船型，与正文定位一致。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## zKillboard 战绩与高值月份核查（2026-11-14）"
+        }
+      ]
+    },
+    "alts": {
+      "status": "reviewed",
+      "note": "已核 5 个小号：FRX99 Rafe（2123294453，542 杀/251.1B，主力幼龙级海军型双开跟队）、INNNNNnoVation（2115702483，143 杀/55.8B，含 2020 年芒果时期 17 条夜神级与 3 条绝念级击杀，且已记录 2022-12 后转团售号待核边界）、INNNNNNNnoVation（2115811657，1 杀/53 损）、INNNNNNNNnoVation LVBU（2113956969，0 杀/0 损）与 M6 Bushnell（2122505414，10 杀/0.9B）。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## 身份与小号对应"
+        },
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## 待核与补充范围"
+        }
+      ]
+    },
+    "peaks": {
+      "status": "reviewed",
+      "note": "已核查主号两个高值月份（2026-04 BWF-ZZ 星城 134904307 与索迪约 134906351 共 318.6B；2026-08 B6-XE8 星城 138004024 占 243.3B）及小号 INNNNNnoVation 2020-05—08 芒果时期夜神级 KM，确认八千亿账面主要由千人围拆大型建筑抬高。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## zKillboard 战绩与高值月份核查（2026-11-14）"
+        }
+      ]
+    },
+    "battles": {
+      "status": "reviewed",
+      "note": "已对照全站已收录战役，6 个角色 ID 均未命中任何已收录战役页面，无需额外补充参战叙事。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json",
+          "heading": "## zKillboard 战绩与高值月份核查（2026-11-14）"
+        }
+      ]
+    },
+    "narrative": {
+      "status": "reviewed",
+      "note": "战绩红料独立成块紧接开篇（第 3–7 行），以自然人为主语压缩为两段总结性点评：概括轻拦抓捕与海幼龙/暴风双开补火力的日常定位，点出八千亿账面主要来自 BWF-ZZ、B6-XE8 围拆大型建筑分账及早期芒果夜神/绝念出勤旧账，不再逐号写转团月日履历、不再直接旁白头衔字段或罗列 zKB 精确计数。",
+      "evidence": [
+        {
+          "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+          "contains": "从芒果时期到转进 HuaXa、落脚 Dracarys."
+        },
+        {
+          "file": "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+          "contains": "主号账面上八千亿级别的击杀总额看着唬人"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/14115152.json",
+    "src/people/innnnnnnnnovation/2115969831-id.json",
+    "src/people/innnnnnnnnovation/innnnnnnnnovation.md",
+    "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json"
+  ],
+  "inputs": "835ebe4404f6fdcd242688f2fa179097597f630925ad9f25a0485da54cf13521",
+  "inputParts": {
+    "docs/bilibili/14115152.json": "73cc45bd28b3dbfb3cbd05e9096f6478e916430dad1178291c048caa5a55b026",
+    "src/people/innnnnnnnnovation/2115969831-id.json": "cccfca1f39965bfdae469fff6b0ce0b28ad7447d0ae00d73ee90dd5460d197c4",
+    "src/people/innnnnnnnnovation/innnnnnnnnovation.md": "2370bd652d06794ef1660c2a2b0cc41e5591b89186cf86341df9999812b247ce",
+    "src/people/innnnnnnnnovation/materials-innnnnnnnnovation.json": "a540d382f11caff5d9bac4324d8fb490084883a9a37c1d29fb85210a86d007e7"
+  },
+  "level": 1
+}

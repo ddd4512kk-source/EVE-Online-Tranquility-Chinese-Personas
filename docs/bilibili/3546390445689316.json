@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "uid": "3546390445689316",
+  "name": "超亚2005",
+  "url": "https://space.bilibili.com/3546390445689316/",
+  "identity": {
+    "state": "candidate",
+    "person": null,
+    "material": "docs/leads/zhang-chaoya.json",
+    "label": "张超亚（本人线索）",
+    "evidence": [
+      "UP名超亚2005、视频BV1qGWZ6XEE5简介所指Chaos arbiter与游戏角色Zhang Chaoya（2123734165，头衔#5292,张超亚，混沌军团及2026-11神使级泰坦记录）相合；暂未达立传门槛，先归本人线索"
+    ],
+    "related": [
+      {
+        "material": "src/people/nono-fire/materials-nono-fire.json",
+        "label": "评论区互动提及超亚2005（非作者）"
+      },
+      {
+        "material": "src/people/acr-impact/materials-acr-impact.json",
+        "label": "评论区互动提及超亚2005（非作者）"
+      }
+    ]
+  },
+  "channel": {
+    "profile": {
+      "captured_at": "2026-11-14T05:07:30.000Z",
+      "signature": "",
+      "counters": {
+        "followers": "29",
+        "videos": "1"
+      },
+      "source": "https://space.bilibili.com/3546390445689316/"
+    },
+    "coverage": {
+      "latest": {
+        "state": "captured",
+        "observed_at": "2026-11-14T05:07:30.000Z",
+        "scope": "2026-11-14经公开投稿检索接口取得全部1条投稿候选（共1条，取到1条），并核过近期动态仅此1条视频动态；未访问网页端排序页。",
+        "evidence": "https://space.bilibili.com/3546390445689316/"
+      },
+      "popular": {
+        "state": "captured",
+        "observed_at": "2026-11-14T05:07:30.000Z",
+        "scope": "频道当前仅1条公开视频，按全量投稿列表直接覆盖最多播放候选；未访问网页端排序页。",
+        "evidence": "https://space.bilibili.com/3546390445689316/"
+      },
+      "series": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未核定合集／系列页。",
+        "evidence": null
+      },
+      "opus": {
+        "state": "unknown",
+        "observed_at": null,
+        "scope": "尚未读取/upload/opus图文列表。",
+        "evidence": null
+      }
+    },
+    "prior_notes": [],
+    "listings": [
+      {
+        "sort": "all",
+        "captured_at": "2026-11-14T05:07:30.000Z",
+        "source": "https://space.bilibili.com/3546390445689316/",
+        "scope": "公开投稿接口全量列表共1条（2026-11-14）。",
+        "candidates": [
+          {
+            "bvid": "BV1qGWZ6XEE5",
+            "title": "EVE欧服第一条泰坦下水",
+            "url": "https://www.bilibili.com/video/BV1qGWZ6XEE5/",
+            "published": "2026-11-12",
+            "views": 453
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "bvid": "BV1qGWZ6XEE5",
+      "title": "EVE欧服第一条泰坦下水",
+      "url": "https://www.bilibili.com/video/BV1qGWZ6XEE5/",
+      "owner_uid": "3546390445689316",
+      "published_at": "2026-11-12T14:19:55.000Z",
+      "captured_at": "2026-11-14T05:06:08.960Z",
+      "description": "",
+      "stats": {
+        "views": 453,
+        "replies": 7
+      },
+      "credit": {
+        "state": "unreviewed",
+        "team": []
+      },
+      "reading": {
+        "state": "digested",
+        "reviewed_at": "2026-11-14",
+        "scope": "已读作品页公开元数据、原始简介（招新联系方式已按规则清理）及评论接口第1页返回的3条主评论；总评论计7条，其余4条未单独展开；未观看视频画面与弹幕。",
+        "digest": "2026-11-12发布，57秒，截止2026-11-14为453播放、7评论、10赞、8投币。原始简介写“eve欧服第一条泰坦下水，eve欧服第一华人团Chaos arbiter持续招新”并附招新群号（归档已清理联系方式）。评论区第1页可见3条主评论（均无展开子回复）：哈哈的威（11-12）发鼓掌表情；吴-磊磊（11-13）回“和我的俄洛巴斯说去吧”；夜鸣夜语（11-14）回“连刷两个给你拿下了”。对照2026-11 zKB记录，对应角色Zhang Chaoya（2123734165）确实在4-HWWF驾驶神使级泰坦用末日击毁自己小号Zhang Chaoya1的神示级无畏（KM 139711741）。"
+      },
+      "usage": {
+        "body": false,
+        "selected": false
+      }
+    }
+  ]
+}

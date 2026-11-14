@@ -66,7 +66,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T14:13:26Z",
+      "reviewedAt": "2026-11-14T08:46:00Z",
       "verdict": "美西带队的老FC，把战损元帅挂上简介，复仇宣言照喊，舰队照开。",
       "axes": {
         "shenren": {
@@ -120,16 +120,24 @@
           ]
         },
         "wealth": {
-          "tier": "B",
-          "reason": "实际投入并损失元帅，配合长期高价值作战，支持大额个人战备。",
+          "tier": "A",
+          "reason": "主号累计 24,079 杀、约 18.98 万亿 ISK 击毁与 765 次战损约 3,808 亿 ISK，并实打实投入损失元帅级黑隐战列舰（高频高价值重船战斗投入非保底 B），叠加已核实的个人泰坦持有（保底 B），B+B 升格为 A。",
           "sources": [
             {
               "label": "元帅级战损 KM",
               "url": "https://zkillboard.com/kill/103325981/"
+            },
+            {
+              "label": "旧人揪心 zKillboard",
+              "url": "https://zkillboard.com/character/2115677996/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "美西带队的老FC，丢掉元帅后把“血债血偿”和一排超旗战利品挂满名片。"
     }
   }
 }

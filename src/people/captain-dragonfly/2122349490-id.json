@@ -32,7 +32,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "社交占九成九，院长负责把人留下。",
       "axes": {
         "shenren": {
@@ -86,8 +86,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "团内制造商的资产不能归给院长本人。",
+          "tier": "C",
+          "reason": "ESI 与军团档案证实担任 362 角色规模 NELPC 军团 CEO（50–999 人 CEO 保底 C），缺多开或个人高阶超旗记录，由 D 升 C。",
           "sources": [
             {
               "label": "新伊甸光点学院招募信息",
@@ -96,6 +96,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "NG",
+      "note": "开学院搭后勤讲开心就好，劝人别赌博旁边却挂着超网订单。"
     }
   },
   "identity": {

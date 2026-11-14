@@ -118,6 +118,7 @@
 | 鹊桥蜜柠 | CuteCatttt／2122867833，本人简介直贴直播间8857671 | 角色与本人直播入口已对上；UP UID、作品文字和具体互动待读，未看影像，不将直播间号当UID | [个人线索](leads/cute-catttt.json) |
 | pugb双号 | pugb／2119144215、pugb 2／2119305945 | 同词根、同Family Guy归本人组；RHG旧招新残留不认作者或管理，具体职责／独立故事待查 | [人物线索](corporations/characters/15.json) |
 | 酒云／酒云喵 | Elize Einzbern／2116470606 | 本人游戏内教学频道及通用总览入口已核，当前Dusk；教学内容／持续活动、职责待读 | [人物线索](corporations/characters/06.json) |
+| 张超亚／超亚2005 | Zhang Chaoya（2123734165）、Zhang Chaoya1—4等；B站超亚2005（UID 3546390445689316） | 2025-09建号入混沌，开神使级泰坦并用末日击毁自己小号无畏；B站仅1条下水视频及NoNo视频评论区一句质疑；缺持续投稿、职责或独立事件。待持续作品或独立风波再立传 | [本人线索](leads/zhang-chaoya.json) |
 | 686双号 | GE ZONG／2115337208、Wayne 686／2116927240 | 同头衔同Infinity Avenger归本人组；现仅自嘲与收藏，事件／职责待查 | [同人线索](corporations/characters/08.json) |
 | 星光双号 | hmy6／2119292241、hmy6-2／2119666440 | 同词根编号、同历史CO.WA归本人；主号将军头衔不单独认FC，第38编号号完整名片及同头衔已补，职责／故事待补 | [同人线索](corporations/characters/41.json) |
 | 豆芽双号 | ruiruia／2120308783、ruiruian／2119606084 | 同词根、同头衔、同Deadspace Spearhead归本人，独立故事／职责待补 | [同人线索](corporations/characters/83.json) |
@@ -154,8 +155,9 @@
 | 丁大炮 | 2118510270 | 永灭普通参战；船型不等于参与指挥；待办：暂撤列传；补具体人物故事或FC依据 | [单人线索](leads/dingdapao001.json) |
 | 导演 | 272243056 | 负责人名牌、AT出场与普通赛果；无具体管理故事或FC依据；待办：暂撤列传；补具体人物故事或FC依据 | [单人线索](leads/lemmily.json) |
 | 幽竹 | 2118767266 | 通用招募与福利承诺；无具体事件或FC依据；待办：暂撤列传；补具体人物故事或FC依据 | [单人线索](leads/ls-somber.json) |
-| 赵建国 | Zhao-Jian-Guo / 2115652382 | 胖虎巨蟒赴约故事的讲述消息；待办：补本人事迹；不将胖虎战损算到讲述者名下 | [人物素材](leads/zhao-jian-guo.json) |
 | Fel／咫尺 | 陌然回忆录低安线：刀哥woaidao 2（2119125805）、扎枪ZhaQiang（2118780937）、卡卡CodeBoss（2116587934）已收录；Fel、咫尺完整角色名仍待对应 | 完整角色名待对应 | [线索](leads/mrpro-lowsec-accounts.json) |
+| 奶龙 / NushenLuLu | 2123890894 | Dusk dreadnought. 头衔“nailong king/奶龙”，95 次 Monitor 驾驶记录（含 2026-04 艾蒂斯、2026-11-12 RF-K9W、2026-11-14 YRV-MZ）；11-14 与多米同场双 Monitor，已排除是多米。待办：核对是独立 FC 还是其他已知 FC 小号，并补社区故事 | [单人线索](leads/nushenlulu.json) |
+| 三个葱 | Tukee（755410779）、bloodine snake（2112500455）、Bigh8rboi（1980978790）、OscarBravo（2116637620）、Angelic Succubus（2119213292）、fax san-ge-cong（2113985369） | 已确认的拉格纳洛克级泰坦驾驶员及六号同步多开组，已排除呆始皇、华等同团人物；因社区无知名事迹且缺 CEO／FC 依据，只记录不列传 | [人物线索](leads/san-ge-cong.json) |
 
 ## 四、军团榜与战报续查队列
 

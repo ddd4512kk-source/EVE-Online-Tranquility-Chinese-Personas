@@ -83,7 +83,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T10:54:52Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "洛基绕一圈把火力绕没了，他还顺手认错；等旗舰大战真开打，又赶回电脑开泰坦。",
       "axes": {
         "shenren": {
@@ -141,16 +141,24 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "参与击毁泰坦的舰队战果不归为个人资产，未见个人工业、产业或资源经营记录，按常人基准记D。",
+          "tier": "B",
+          "reason": "2026-10-10 欧贝超旗会战 KM 139046717、139047582 等证实本人实际驾驶拉格纳洛克级泰坦出战，按普通泰坦实战保底评 B；B站攻略与小团带队不使单一普通泰坦突破至 A。",
           "sources": [
             {
               "label": "Ryan Claire zKillboard",
               "url": "https://zkillboard.com/character/2122641296/"
+            },
+            {
+              "label": "欧贝战役拉格纳洛克参战 KM 139046717",
+              "url": "https://zkillboard.com/kill/139046717/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "自称普通玩家把家门口剪成反收割连续剧，欧贝响集结百米冲刺回去开泰坦。"
     }
   }
 }

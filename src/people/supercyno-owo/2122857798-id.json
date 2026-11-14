@@ -38,14 +38,39 @@
   "fetched_at": "2026-10-10",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2123255523,
+        "name": "SuperTaitan",
+        "basis": "ESI公开头衔“此方”，与收录号同属STARCHASER Inc.且2026-01-28同日转团；泰坦号",
+        "sources": [
+          "materials-supercyno-owo.json"
+        ],
+        "zkb": {
+          "kills": 73,
+          "lost": 0,
+          "isk_destroyed": 2262657222183,
+          "last_active": "2026-11",
+          "as_of": "2026-11-14",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
-      "kills": 3705,
-      "lost": 98,
-      "isk_destroyed": 4471771050346,
-      "last_active": "2026-10",
-      "as_of": "2026-10-23"
+      "kills": 3755,
+      "lost": 105,
+      "isk_destroyed": 4548253842298,
+      "last_active": "2026-11",
+      "as_of": "2026-11-14",
+      "fc": {
+        "tag": "FC(HIGH)",
+        "level": "high",
+        "score": 160,
+        "monitor": 393,
+        "command_ship": 222,
+        "large_fleet": 1401
+      }
     }
   },
   "person": {
@@ -63,7 +88,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T10:51:07Z",
+      "reviewedAt": "2026-11-14T08:14:00Z",
       "verdict": "名片说他是诱导，真正要集合、分后勤、带人进大战时，频道都等着苏帕开麦。",
       "axes": {
         "shenren": {
@@ -121,16 +146,20 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "战场击杀总值不等于个人资产；现有故事没有个人工业、经营或筹资材料，按常人基准记D。",
+          "tier": "B",
+          "reason": "实控并驾驶拉格纳洛克级泰坦（SuperTaitan）实战且兼任知名 FC（单泰坦与“著名 FC”均属纯保底 B 且互不叠加），维持 B。",
           "sources": [
             {
-              "label": "此方 zKillboard",
-              "url": "https://zkillboard.com/character/2122857798/"
+              "label": "SuperTaitan zKillboard",
+              "url": "https://zkillboard.com/character/2123255523/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "名字挂着诱导却在频道催人上语音分后勤，按队伍需要换船出战。"
     }
   }
 }

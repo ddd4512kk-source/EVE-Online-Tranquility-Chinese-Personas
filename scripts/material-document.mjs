@@ -6,6 +6,13 @@ import { fileURLToPath } from 'node:url';
 const HEADING = /^( {0,3})(#{1,6})[ \t]+(.+?)[ \t]*#*[ \t]*(?:\r?\n|$)/;
 const ANCHOR = /<a\s+id=["']([^"']+)["'][^>]*>\s*<\/a>/i;
 const FENCE = /^ {0,3}(`{3,}|~{3,})/;
+const MAINTAINER_PROCESS_MENTION = /(?:由|按|经)?维护者(?:核对|明确|亦)?(?:确认|指认|补正|指示|拍板|选择|提供|要求|指定)/u;
+
+export function maintainerProcessErrors(text, label = '') {
+  if (typeof text !== 'string') return [];
+  const match = text.match(MAINTAINER_PROCESS_MENTION);
+  return match ? [`${label}不得记录“${match[0]}”等维护者对话或裁定过程`] : [];
+}
 
 function slugify(value) {
   return value.normalize('NFKC').toLowerCase().trim()
@@ -25,6 +32,7 @@ export function validateMaterial(document, file = '<material>') {
     if (document.version !== 1) errors.push('version 必须为 1');
     if (document.type !== 'material') errors.push('type 必须为 material');
     if (typeof document.title !== 'string') errors.push('title 必须为字符串');
+    else errors.push(...maintainerProcessErrors(document.title, 'title '));
     if (!Array.isArray(document.sections)) errors.push('sections 必须为数组');
     else {
       const ids = new Set();
@@ -38,8 +46,10 @@ export function validateMaterial(document, file = '<material>') {
         else if (ids.has(section.id)) errors.push(`${where}.id 重复：${section.id}`);
         else ids.add(section.id);
         if (typeof section.heading !== 'string') errors.push(`${where}.heading 必须为字符串`);
+        else errors.push(...maintainerProcessErrors(section.heading, `${where}.heading `));
         if (!Number.isInteger(section.level) || section.level < 0 || section.level > 6) errors.push(`${where}.level 必须为 0 到 6 的整数`);
         if (typeof section.content !== 'string') errors.push(`${where}.content 必须为字符串`);
+        else errors.push(...maintainerProcessErrors(section.content, `${where}.content `));
         if (section.heading_line !== undefined) {
           if (typeof section.heading_line !== 'string' || !section.heading_line) errors.push(`${where}.heading_line 必须为非空字符串`);
           else {
@@ -202,6 +212,12 @@ export function checkMaterials(root) {
       checked++;
       errors.push(...validateMaterial(document, path.relative(root, file)));
     }
+  }
+  for (const file of walkJson(path.join(root, 'docs', 'reviews'))) {
+    let raw;
+    try { raw = fs.readFileSync(file, 'utf8'); }
+    catch { continue; }
+    errors.push(...maintainerProcessErrors(raw, `${path.relative(root, file)} `));
   }
   return { checked, errors };
 }

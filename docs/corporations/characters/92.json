@@ -1328,7 +1328,9 @@
       "names": [
         "Alan froster"
       ],
-      "labels": [],
+      "labels": [
+        "阿兰"
+      ],
       "profiles": [
         {
           "as_of": "2026-10-14",
@@ -1338,19 +1340,26 @@
         }
       ],
       "review": {
-        "state": "legacy",
+        "state": "partial",
         "findings": [
           {
             "note": "头衔与简介文字已读；人物续查",
             "material_hint": "docs/corporations/notes/member-research.json",
             "source": "docs/corporations/notes/member-research/98808817.json#kzu前50头衔增量2026-10-14"
+          },
+          {
+            "note": "2026-11-10 以“阿兰/Alan froster”宣布接任 KZU CEO 并主持资产清理与战备代卖；截至 2026-11-15 游戏内 ESI 的 KZU ceo_id 仍挂 chitian（2120421439）",
+            "source": "src/people/chitian/materials-chitian.json#2026-11-10-ceo换届与资产清理"
           }
         ],
-        "next_steps": []
+        "next_steps": [
+          "待游戏内 ESI 确认 CEO 移交完成或补充更多本人故事后评估立传"
+        ]
       },
       "evidence": [
         "docs/corporations/notes/member-research/98808817.json",
-        "docs/corporations/notes/member-research/98808817.json#kzu前50头衔增量2026-10-14"
+        "docs/corporations/notes/member-research/98808817.json#kzu前50头衔增量2026-10-14",
+        "src/people/chitian/materials-chitian.json#2026-11-10-ceo换届与资产清理"
       ]
     },
     "2115162292": {

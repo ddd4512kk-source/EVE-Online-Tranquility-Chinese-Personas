@@ -50,7 +50,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T15:00:00Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "吃瓜D-Line Force小队领袖，三开斯雷普尼硬刚AT冠军散打队，汉化联盟总览与旗舰安全手册的纯粹学者。",
       "axes": {
         "shenren": {
@@ -104,16 +104,32 @@
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "夜神超旗与多套小队神装战备自备，三开主力随队，财力扎实优渥。",
+          "tier": "B",
+          "reason": "夜神级 297 杀（C）、三开斯雷普尼级 907 杀（C）及汉化运维凛冬总览包与旗舰安全指南（C）；多项独立 C 级依据相加升 B。",
           "sources": [
             {
               "label": "Amethyst Shock zKillboard",
               "url": "https://zkillboard.com/character/2115496754/"
+            },
+            {
+              "label": "与AT赛冠军联盟的小队战复盘帖",
+              "url": "https://forums.winterco.org/t/topic/4363"
+            },
+            {
+              "label": "凛冬联盟总览发布帖",
+              "url": "https://forums.winterco.org/t/topic/3071"
+            },
+            {
+              "label": "《WC凛冬旗舰安全生产指南》",
+              "url": "https://forums.winterco.org/t/topic/1780"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "三开打小队，顺手把联盟总览汉化包和旗舰安全指南都写了。"
     }
   }
 }

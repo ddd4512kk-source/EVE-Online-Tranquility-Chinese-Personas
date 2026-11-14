@@ -120,7 +120,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "创团者删号了，接班人还在出勤。",
       "axes": {
         "shenren": {
@@ -178,8 +178,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "现有常规战备只能支持自给。",
+          "tier": "C",
+          "reason": "ESI 与军团档案证实长期担任 263 角色规模 SN CF 军团实际 CEO（50–999 人 CEO 保底 C），叠加两百余次常规战损未及 B 级标准，由 D 升 C。",
           "sources": [
             {
               "label": "主力战舰损失与装配档案",
@@ -188,6 +188,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "NN",
+      "note": "前四年连跳五六家团，接手无主军团后反而在蜂群越打越勤。"
     }
   },
   "identity": {

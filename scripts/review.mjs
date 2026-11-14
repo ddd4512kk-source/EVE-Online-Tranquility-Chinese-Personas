@@ -5,7 +5,7 @@ import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
-import { materialPath, materialReferences, readMaterial } from './material-document.mjs';
+import { maintainerProcessErrors, materialPath, materialReferences, readMaterial } from './material-document.mjs';
 
 const REGISTRY = 'docs/review-features.json';
 const RECEIPTS = 'docs/reviews';
@@ -238,16 +238,21 @@ const CONSTRAINTS = {
   ],
 };
 const pendingError = feature => new Error(`${feature.name} 的规则或实现已改动但未声明：收紧用 accept --feature ${feature.name} --change tighten（旧结论失效），放宽或措辞调整用 --change relax`);
+// 六维与阵营是独立展示组件，改动不使人物复审记录过期。
+export const PERSON_DISPLAY_FIELDS = ['radar', 'alignment'];
 function inputValue(root, record, file) {
   if (record.scopedFiles?.[file]) return record.scopedFiles[file];
   if (!exists(root, file)) return null;
   const text = read(root, file);
   if (!file.endsWith('.json')) return text;
   const data = JSON.parse(text);
-  if (file === record.archiveFile && record.kind === 'person') delete data.fetched_at;
+  if (file === record.archiveFile && record.kind === 'person') {
+    delete data.fetched_at;
+    for (const field of PERSON_DISPLAY_FIELDS) delete data.person?.[field];
+  }
   return data;
 }
-function inputs(root, record, evidence = []) {
+export function inputs(root, record, evidence = []) {
   const files = unique([record.body, record.archiveFile, ...record.sources, ...Object.keys(record.scopedFiles ?? {}), ...(record.kind === 'battle' && record.material ? [record.material] : []), ...evidence.map(file => safeFile(root, file))]);
   const values = files.sort().map(file => [file, inputValue(root, record, file)]), battles = record.battles.map(({ key, fingerprint }) => [key, fingerprint]);
   // Per-part hashes only tell a re-review where to look; the whole fingerprint still decides staleness.
@@ -415,7 +420,13 @@ export function run(root, args, suppliedRecords) {
     for (const name of Object.keys(JSON.parse(read(root, REGISTRY)))) {
       const feature = loadFeature(root, name);
       if (feature.pending) problems.push(pendingError(feature).message);
-      for (const key of Object.keys(feature.receipts)) if (!keys.has(key)) problems.push(`对象已不存在，删除 ${receiptFile(name, key)}`);
+      for (const [key, receipt] of Object.entries(feature.receipts)) {
+        if (!keys.has(key)) problems.push(`对象已不存在，删除 ${receiptFile(name, key)}`);
+        for (const message of maintainerProcessErrors(receipt?.note, `${receiptFile(name, key)} note `)) problems.push(message);
+        for (const [item, entry] of Object.entries(receipt?.assessment ?? {})) {
+          for (const message of maintainerProcessErrors(entry?.note, `${receiptFile(name, key)} assessment.${item}.note `)) problems.push(message);
+        }
+      }
     }
     if (problems.length) throw new Error(problems.join('\n'));
     return { valid: true };

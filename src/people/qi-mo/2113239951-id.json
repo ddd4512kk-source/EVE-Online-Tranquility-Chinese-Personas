@@ -84,7 +84,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "换了门牌，仍有人记得门口接待的人。",
       "axes": {
         "shenren": {
@@ -138,8 +138,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "接待职务不能折算个人产业，按日常自给。",
+          "tier": "C",
+          "reason": "军团与角色对应证实通过小号 MOSS 550W 实际创办并执掌 864 角色规模 Navigators' Union 军团（50–999 人 CEO 保底 C），未见个人泰坦或独立多开产线，由 D 升 C。",
           "sources": [
             {
               "label": "Qi Mo zKillboard 旗舰与活动记录",
@@ -152,6 +152,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "替创世守多年招新窗口，退团长文都单夸他人好，反对现金买币也不含糊。"
     }
   }
 }

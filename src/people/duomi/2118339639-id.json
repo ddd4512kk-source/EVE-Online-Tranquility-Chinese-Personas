@@ -166,7 +166,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T22:38:00Z",
+      "reviewedAt": "2026-11-14T19:20:00Z",
       "verdict": "叱咤PH与DC两朝的“多米大元帅”，集无畏统帅之武略与军团治理于一身，雷厉风行的大舰队核心指挥官。",
       "axes": {
         "shenren": {
@@ -220,16 +220,32 @@
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "统领700多角色大军团税收金库，坐拥庞大旗舰舰队与顶级战略资源。",
+          "tier": "B",
+          "reason": "保有个人泰坦记录（单泰坦保底 B），叠加已确认小号 Tantami duominx 驾驶冥府级、夜神级超航及主号 867 人军团 CEO（C），依单泰坦纯保底评 B（凤凰级海军型、团金库与公款补损不计）。",
           "sources": [
             {
-              "label": "军团补助政策与战备资产",
+              "label": "Tantami duominx 凤凰级海军型 KM",
+              "url": "https://zkillboard.com/kill/138910883/"
+            },
+            {
+              "label": "Tantami duominx 冥府级 KM",
+              "url": "https://zkillboard.com/kill/108625294/"
+            },
+            {
+              "label": "Dusk dreadnought. 军团资料",
               "url": "https://esi.evetech.net/latest/corporations/98817310/"
+            },
+            {
+              "label": "Duomi D03 角色资料",
+              "url": "https://evewho.com/character/2118339639"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "严抓出勤被挂暴政，告状踢过同僚，PH散场先跑还给自家的“民主”留了座。"
     }
   }
 }

@@ -13,7 +13,7 @@ bodyClass: page-battles
   <p>新伊甸历次大战，按各方总损失分档：100B 至不足 400B 为中型，400B 至不足 1T 为大型，1T 及以上为史诗。共收 <strong>{{ battles.length }}</strong> 场，其中 <strong>{{ videoBattleCount }}</strong> 场附第一视角或复盘视频。</p>
 </section>
 {% if battles.length %}
-{%- set typeNotes = { '超旗战': '交战双方同一阶段各投入至少 10 条泰坦或超级航母', '旗舰战': '成规模无畏、航母交锋', '常规战': '少量旗舰或无旗舰' } -%}
+{%- set typeNotes = { '超旗战': '双方各自投入 20 条以上泰坦或超级航母', '旗舰战': '未达超旗战门槛且双方各自投入 20 条以上旗舰', '常规战': '未达双方各 20 条旗舰（含单方出旗舰或不足数）' } -%}
 {%- macro tagGroup(group, idx, total, typeNotes) %}
     <div class="corp-filter-group">
       <span class="corp-filter-heading" id="battle-tag-heading-{{ idx }}">{{ group.name }}</span>
@@ -46,7 +46,7 @@ bodyClass: page-battles
     {%- for group in collections.battleTagGroups %}{% if group.name != "规模" and group.name != "参战联盟" %}{{ tagGroup(group, loop.index, battles.length, typeNotes) }}{% endif %}{% endfor %}
   </div>
   {%- for group in collections.battleTagGroups %}{% if group.name == "参战联盟" %}{{ tagGroup(group, loop.index, battles.length, typeNotes) }}{% endif %}{% endfor %}
-  <p class="battle-taxonomy-note">超旗战：交战双方同一阶段各投入至少 10 条泰坦或超级航母；旗舰战：成规模无畏、航母交锋；常规战：少量旗舰或无旗舰。联盟标签只给占本方参战角色三成及以上的联盟。</p>
+  <p class="battle-taxonomy-note">超旗战：双方各自投入 20 条以上泰坦或超级航母；旗舰战：未达超旗战门槛且双方各自投入 20 条以上旗舰；常规战：未达双方各 20 条旗舰（含单方出旗舰或不足数）。联盟标签只给占本方参战角色三成及以上的联盟。</p>
 </div>
 <p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
 

@@ -1,0 +1,14 @@
+{#- 九宫格阵营：挂牌（卡片与列传页头部）和资料行。传入 personAlignment() 的展示模型。 -#}
+{%- macro alignTab(al) -%}
+<span class="align-tab" title="{{ al.title }}" data-pagefind-ignore><svg viewBox="0 0 11 11" aria-hidden="true" focusable="false">
+{%- for cell in al.cells %}<rect x="{{ (loop.index0 % 3) * 4 }}" y="{{ (loop.index0 // 3) * 4 }}" width="3" height="3"{% if cell.on %} class="on"{% endif %}/>{% endfor -%}
+</svg><span>{{ al.label }}</span></span>
+{%- endmacro -%}
+{%- macro alignFact(al) -%}
+<div class="align-fact" data-align="{{ al.code }}"><dt>阵营</dt><dd>
+  <span class="align-matrix" role="img" aria-label="九宫格阵营：{{ al.label }}">
+  {%- for cell in al.cells %}<span data-m="{{ cell.moral }}"{% if cell.on %} class="on"{% endif %}>{{ cell.short }}</span>{% endfor -%}
+  </span>
+  <span class="align-verdict"><strong>{{ al.label }}</strong>{% if al.note %}<span class="align-note">{{ al.note }}</span>{% endif %}</span>
+</dd></div>
+{%- endmacro -%}

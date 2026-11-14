@@ -1,0 +1,340 @@
+{
+  "status": "reviewed",
+  "note": "已核对三号合并后的完整正文、本人素材与B站归档317731958.json：新补2121324610依据与三号合计数据准确无误，6件独立事件（含2件heavy重料）骨架明确、展开充分、主线与尾评均衡。",
+  "evidence": [
+    "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+    "src/people/bieshazhen-bc/bieshazhen-bc.md",
+    "docs/bilibili/317731958.json"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "已对照完整正文、本人素材（含新补 Trumps Bloobthirst Feynman／2121324610 核对依据与三号合计 11501 杀、1373 损、约 6.01 万亿数据）及 B 站归档 317731958.json 核对全部事件骨架与数字引语。新补 2121324610 恶搞 ID 小号与双开短剑级/毒蜥级点抓依据、三号合计战绩及此前各处事件均出处明确，无遗漏重料。",
+      "evidence": [
+        {
+          "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+          "heading": "## 人物对应与收录依据"
+        },
+        {
+          "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+          "heading": "## 战功核对与参战记录（2026-11-14）"
+        },
+        {
+          "file": "docs/bilibili/317731958.json",
+          "contains": "\"uid\": \"317731958\""
+        },
+        {
+          "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+          "contains": "看战斗账本，别杀朕不是只逛论坛的嘴把式。"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核对六件独立事件（两件重料、三件常料、一件轻料），战绩常料已同步三号数据及恶搞 ID 小号双开点抓事实且与“调侃嗜血”全篇线索呼应，两件重料展开充分、方向齐全。",
+      "evidence": [
+        {
+          "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+          "contains": "2024 年六月，他接连在三个贝斯特拉卖帖里出价。"
+        },
+        {
+          "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+          "contains": "2025 年，他接连在 SARD 旗号下剪出四期《PH 首都隔壁的骗局》"
+        }
+      ],
+      "items": [
+        {
+          "title": "贝斯特拉连环砍价、双泰坦刷6-10自述2400e购船与一年后围杀贝斯特拉",
+          "weight": "heavy",
+          "reason": "集跨帖数百亿竞价、B站晒双泰坦开箱自报价格与后来反手猎杀同类稀有船于一体，集中体现人物核心性格与交易/战斗双面反差。",
+          "source": {
+            "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+            "heading": "## 官方论坛文字故事"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+            "contains": "2024 年六月，他接连在三个贝斯特拉卖帖里出价。"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "在吉他、欧贝等三帖误把候价拍卖当固定价追着要求开合同、被卖家晾在一边。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "2024 年六月，他接连在三个贝斯特拉卖帖里出价。"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "既肯花两千多亿买稀有船又非要一亿两亿地磨差价、催卖家定夺。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "肯花大钱，也要磨小差价；别杀朕这份购物热情，靠砍价一点点升温。"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "三个月后开两条泰坦刷 6-10 并在评论区自报“六月买的吧 2400e”、得意晒出箱子出“贝贝”，一年后 2025-06 开诅咒参与十五人队围杀别人的贝斯特拉。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "三个月后，他在 B 站放出一期"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "稀有船在他手下既当商品又当目标，自己开泰坦开箱，转头又去别人贝斯特拉 KM 上签名。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "一年后，他换了个位置。2025 年 6 月，他开着诅咒"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "四向展开充足，论坛砍价、B站2400e后续与2025年围杀环环相扣。"
+        },
+        {
+          "title": "B站“青柠薯片”猫猫人设、SARD电信诈骗系列、停播与莫洛克整活/PVP配装评述",
+          "weight": "heavy",
+          "reason": "支撑其新补“B站”标签与社区创作者形象，涵盖多年投稿转型、战损算账、停播波折与硬核单浪配装拆解。",
+          "source": {
+            "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+            "heading": "## B站空间覆盖与人物取材（2026-11-14）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+            "contains": "别杀朕在 B 站攒下六十多条 EVE 投稿"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "五百粉档多题材频道在 2025-05 因B站限制五千粉以下主播推流只准用直播姬 1080p 而发图文宣布停播。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "2025 年，他接连在 SARD 旗号下剪出四期《PH 首都隔壁的骗局》"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "签名卖萌自称“猫猫”“青柠味薯片”，把反诱敌剪成“电信诈骗”，莫洛克蓝图标题党被揭穿甩锅皮套人，转头又能细致拆解双钢板续航、高水蛇蛋与玻色信号半径。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "到了 2026 年，他的频道一边发"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "在三弹评论区遭质疑龙卷风全灭亏战损比时当场算清“1.3e保险5000w对面一条马能买20条”，在《DC 龙龙鸟鸟的骗局》置顶戏称“敦刻尔克大撤退”；《不要和别杀狗叫》评论区签名被熟人编成“猫砂盒 17”排队复读。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "2025 年，他接连在 SARD 旗号下剪出四期《PH 首都隔壁的骗局》"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "独立构成其“主权打手之外以轻喜剧包装硬核配装与伏击”的频道主线，另有五条不重复精选作收尾。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "别杀朕在 B 站攒下六十多条 EVE 投稿"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "四向展开充足，出处对应精确。"
+        },
+        {
+          "title": "2019 年官方论坛卖后勤航母号遭买家辅导填表",
+          "weight": "ordinary",
+          "reason": "反映早年语言障碍与交易生疏，与日后熟练砍百亿级稀有船形成时间反差。",
+          "source": {
+            "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+            "heading": "## 官方论坛文字故事"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+            "contains": "2019 年，他在[角色市场]"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "英文靠百度翻译发卖帖，漏角色本人确认、WTS 标题和钱包资料，被中英文回复者现场辅导。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "2019 年，他在[角色市场]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "日后能和人争几百 B 船价，当年卖帖却得先补完表格。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "从报出角色链接到写齐卖帖，他先接受了一轮买家辅导。"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "保留原块骨架与反差收束，完整。"
+        },
+        {
+          "title": "游戏简介与 B 站跨年联动的“嗜血陛下万岁／快杀他”剧场",
+          "weight": "ordinary",
+          "reason": "展现其游戏简介收藏墙与 B 站视频简介/评论区跨五年一贯的自嘲与调侃团长风格。",
+          "source": {
+            "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+            "heading": "## 简介与原始KM"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+            "contains": "别杀朕的简介一边喊“SARD 万岁”“嗜血陛下万岁”"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "同一面简介与频道既喊“陛下万岁”、找观众“艾特嗜血讨要工资”，又贴奇奇莫拉催“快杀他”，并在海神损失旁哭“一天号抓我”。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "别杀朕的简介一边喊“SARD 万岁”“嗜血陛下万岁”"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "2020 招新/吃鱼到 2025 反钓鱼切片评论区，老观众顺着梗起哄“什么时候娶嗜血为妻”。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "他还在自己的[海神损失]"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "新补 2020 B站视频与 2025 评论区呼应后剧场感更完整。"
+        },
+        {
+          "title": "三号万杀战绩（含恶搞嗜血 ID 小号双开点抓）与八场站内大型战役出勤",
+          "weight": "ordinary",
+          "reason": "把战绩独立成块并补齐两小号与八场匹配战役，既确立破六万亿打手底色，又自然接续其恶搞嗜血的日常风格。",
+          "source": {
+            "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+            "heading": "## 战功核对与参战记录（2026-11-14）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+            "contains": "看战斗账本，别杀朕不是只逛论坛的嘴把式。"
+          },
+          "development": [
+            {
+              "angle": "分量",
+              "note": "主号加 BC1 及恶搞 ID 小号 Trumps Bloobthirst Feynman 三号合计 11501 杀、1373 损、突破六万亿摧毁，八场大战在列。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "看战斗账本，别杀朕不是只逛论坛的嘴把式。"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "花两千多亿买船的买家，开恶搞团长 ID 小号专司短剑级/毒蜥级双开点抓，大场次在艾格玛尔开咒灭跟在嗜血手下、在艾蒂斯双号各送平价船做零件。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "站内八场战报都能数出他跟着大队进场的脚印："
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "三号数字与小号用途交待清晰且不落入流水账。"
+        },
+        {
+          "title": "2020 年官方论坛求助主号几十万 LP 丢失",
+          "weight": "light",
+          "reason": "单帖短问短答，无后续原因与恢复结果，适合放在开篇作名字与门面的引子。",
+          "source": {
+            "file": "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+            "heading": "## 官方论坛文字故事"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+            "contains": "2020 年，他还在[论坛求助]"
+          },
+          "development": [
+            {
+              "angle": "反差",
+              "note": "游戏里喊“别杀朕”，论坛里求助丢 LP 照样得先去客服柜台开单。",
+              "evidence": {
+                "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+                "contains": "2020 年，他还在[论坛求助]"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "轻料收在开篇，比例得当。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全篇重心落在“买贵船爱砍价又反手去打”“大场次做平价零件、双开恶搞 ID 小号点抓的 SARD 老打手”“B站猫猫/青柠薯片轻喜剧创作者与配装评述者”三条支柱上；三号战绩段落篇幅克制、未喧宾夺主，尾评收束全篇。",
+      "evidence": [
+        {
+          "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+          "contains": "别杀朕，BieShazhen BC，特别执法部 SARD 的成员"
+        },
+        {
+          "file": "src/people/bieshazhen-bc/bieshazhen-bc.md",
+          "contains": "别杀朕不是只会喊别杀：昂贵的船，他愿意买，也会跟队打"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/317731958.json",
+    "docs/corporations/notes/member-research/98540583.json",
+    "src/people/bieshazhen-bc/2114367701-id.json",
+    "src/people/bieshazhen-bc/bieshazhen-bc.md",
+    "src/people/bieshazhen-bc/materials-bieshazhen-bc.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.json",
+    "src/battles/1n-fj8-2024/1n-fj8-2024.md",
+    "src/battles/1n-fj8-2024/materials-1n-fj8-2024.json",
+    "src/battles/319-3d-2020/319-3d-2020.json",
+    "src/battles/319-3d-2020/319-3d-2020.md",
+    "src/battles/319-3d-2020/materials-319-3d-2020.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.json",
+    "src/battles/a1-auh-2021/a1-auh-2021.md",
+    "src/battles/a1-auh-2021/materials-a1-auh-2021.json",
+    "src/battles/atioth-2026/atioth-2026.json",
+    "src/battles/atioth-2026/atioth-2026.md",
+    "src/battles/atioth-2026/materials-atioth-2026.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.json",
+    "src/battles/egmar-2025-02-23/egmar-2025-02-23.md",
+    "src/battles/egmar-2025-02-23/materials-egmar-2025-02-23.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.json",
+    "src/battles/fwst-8-2020/fwst-8-2020.md",
+    "src/battles/fwst-8-2020/materials-fwst-8-2020.json",
+    "src/battles/haras-2023/haras-2023.json",
+    "src/battles/haras-2023/haras-2023.md",
+    "src/battles/haras-2023/materials-haras-2023.json",
+    "src/battles/obe-2026/obe-2026.json",
+    "src/battles/obe-2026/obe-2026.md",
+    "src/battles/obe-2026/materials-obe-2026.json"
+  ],
+  "inputs": "3c14c3e6f0aefca33603aef45a20213244b86665f2d06ef8e4ba7957a0375b4d",
+  "inputParts": {
+    "docs/bilibili/317731958.json": "a785909272298557bc6b3273d73f9ec92178891596f94da9f06c431891dd7678",
+    "docs/corporations/notes/member-research/98540583.json": "82ea79bc1edbfa1651a9a67ff9621cbc54a395ce4c290be9fd310c39a0606c08",
+    "src/people/bieshazhen-bc/2114367701-id.json": "dc65ca47d68aba0445075e3b3d7f21c4adff06a4291ebbc737b6642698be2fac",
+    "src/people/bieshazhen-bc/bieshazhen-bc.md": "eafa3a8646a3426eab94364193b1055b35303706a720a31da4c17301db6edbe7",
+    "src/people/bieshazhen-bc/materials-bieshazhen-bc.json": "6cd09a2070f3780d1cc93334a352346bb1a04f08b12864935af5027449be3725",
+    "battle:1n-fj8-2024": "ec22d50fc96f4d4bcb01a7f6db2ca17612e542ef1c2b4c52790461ffd609d2a7",
+    "battle:319-3d-2020": "2c4c4678868cb590e1958272bbd551b406a4921a00737f09ecb4b10c6f9c44e5",
+    "battle:a1-auh-2021": "99a7469d5cad46060220080cd9a139a3a51d3a503433b2a8c27f34dd30bd0c7b",
+    "battle:atioth-2026": "785306a0223f51f5ee1161ac5bfa56a3dc478c3f7b81c2d02ecc3310fcde1181",
+    "battle:egmar-2025-02-23": "d71c91292a517105545511a6437927efd9723468a5f7e815c5bc75e7671fab2b",
+    "battle:fwst-8-2020": "1ec1e619a141a432fde5b0f40feb9f516a660e5fc2d816bf399c1082de3141bd",
+    "battle:haras-2023": "ff68c83a030303ad9e1bd5bb677866dd550e61a75bef22901d6803076e71a063",
+    "battle:obe-2026": "b3ab3a59cf5690f86fb486b12878d2d0a2feb312ae372baee545518e18bf8841"
+  },
+  "level": 1
+}

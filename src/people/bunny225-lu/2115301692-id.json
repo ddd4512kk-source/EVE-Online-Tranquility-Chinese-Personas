@@ -77,7 +77,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T13:01:25Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "名震欧服的北境女王，脑子一热买下主权联盟，晒出海量充值记录，账号密码任由馒头登录借壳的传奇金主。",
       "axes": {
         "shenren": {
@@ -132,15 +132,23 @@
         },
         "wealth": {
           "tier": "EX",
-          "reason": "天花板级真金白银现金金主，晒出惊人信用卡充值账单，被外媒直接报道“买下整个主权联盟”。",
+          "reason": "核定确为支持游骑兵团（RR）的金主并投入大量真金白银现金，外媒报道斥巨资收购 RR 军团控制权，可调动财力大幅超越一般 S 级玩家（不收私账明细与现实隐私），维持 EX。",
           "sources": [
             {
-              "label": "Talking in Stations 兔小姐收购游骑兵团节目",
+              "label": "Talking in Stations 兔小姐收购RR节目",
               "url": "https://www.talkinginstations.com/2019/10/miss-rabbit-buys-ranger-regiment/"
+            },
+            {
+              "label": "Bunny225 Lu zKillboard",
+              "url": "https://zkillboard.com/character/2115301692/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "CN",
+      "note": "一觉醒来当上 RR 掌门，后来借壳风波里连 CEO 账号钥匙都在别人手里。"
     }
   }
 }

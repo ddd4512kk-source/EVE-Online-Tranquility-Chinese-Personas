@@ -1,0 +1,439 @@
+{
+  "status": "reviewed",
+  "note": "已逐项核读最新正文、素材及 B 站 7218831 档案：全部 5 件重料均充分展开且含反差与分量/后果，17 条已确认小号多开编队、bwf-zz-2025 实践级参战与 oijanen-2026 友军误击六毒蝎实证入文，新增 B 站作品精选块 5 条均避开正文重复并严格基于已读事实，全篇轻重得宜。",
+  "evidence": [
+    "src/people/zhao-jian-guo/zhao-jian-guo.md",
+    "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+    "docs/bilibili/7218831.json"
+  ],
+  "assessment": {
+    "coverage": {
+      "status": "reviewed",
+      "note": "已对照全文、materials-zhao-jian-guo.json 及 B 站档案 docs/bilibili/7218831.json：全部重料（塔瑟提第二穿梭机、00 会战与低安蹲门战绩、零电魔像五级任务与半个徒弟、十开大鱼招来 BBC 泰坦、2019 离线睡成执行团 CEO、奥索被泰兰天使吓停一月）及丹图米钓 BBC 翻车均已完整入文；17 条已确认小号（含更早创立的 sunrain Kouvo 2114912270）多开编队、bwf-zz-2025 实践级阵亡及欧加仑八小号参战/六毒蝎误击均已准确并入战绩综述；文末并新增 `::: 红料 B站作品精选` 块，从未在正文展开的 7 条《EVE五级任务》实战录像中精选 5 条（BV1Sh4y1E79i、BV1LM4y1h7Bd、BV1Ta4y1G7KY、BV1Ra4y1372X、BV1QM411G72J），推荐理由均严格基于已核标题、简介、时长与评论事实且已跑通 bilibili:sync/check；仅他人故事（胖虎跳诱导）与零散拾荒小损按规则略去或简笔。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "## 2026-11-14：自传投稿与核心事件核查"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+          "heading": "## 身份与小号对应"
+        },
+        {
+          "file": "docs/bilibili/7218831.json",
+          "contains": "9条EVE均系2023-05-02—03盖伦特5级无解说实录"
+        }
+      ]
+    },
+    "events": {
+      "status": "reviewed",
+      "note": "逐件核定分量与发挥：5 件重料全部充分展开并从处境、动机、分量、反差、反应与后果等多方向推进，所有事件骨架均有 ESI/zKB/B 站/群聊出处，新增 B 站作品精选块与正文其余段落不重复且不编造未看视听评价，全篇不加护身词或免责收尾。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "2025 年 11 月 9 日，蜜蜂与 PH 的大战刚走到尾声"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "想明白了这笔账，他果断收工停矿"
+        }
+      ],
+      "items": [
+        {
+          "title": "00区随龙骑会战、低安实践级蹲门与黑隐反钓战绩综述",
+          "weight": "ordinary",
+          "reason": "反映其长期战斗多面性与阵营分量，但属多场战斗及长期玩法的综合点评，非单一爆炸性核心事件。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## zKillboard 总览与 FC 核查（2026-11-14）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "单看主号 `Zhao-Jian-Guo`"
+          },
+          "verdict": "sufficient",
+          "note": "清晰区分主号与各小号统计，串起 00 会战、无畏损耗、十七条已确认小号多开编队、BWF-ZZ 星城混战小号实践级阵亡、欧加仑八小号参战与六毒蝎进友军击杀榜、欧加仑与 BWF-ZZ 实践级蹲门及跟宝马哥练黑隐反钓 60B。"
+        },
+        {
+          "title": "塔瑟提一炮轰出全服历史第二高价穿梭机",
+          "weight": "heavy",
+          "reason": "单发炸出 249 项泰坦与旗舰研究原图、zKB 估价 2544 亿、位列欧服历史穿梭机击杀榜第二，是人物最具传播度的代表战果。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 2026-11-14：自传投稿与核心事件核查"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "2025 年 11 月 9 日，蜜蜂与 PH 的大战刚走到尾声"
+          },
+          "development": [
+            {
+              "angle": "动机",
+              "note": "在欧加仑堵门看久了过门穿梭机，落下总有一天炸到满载泰坦研究原图货船的念头并留作战备。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "可在主号所有常用船里，排第一的却是条滑溜溜的 实践级"
+              }
+            },
+            {
+              "angle": "处境",
+              "note": "写明蜜蜂与 PH 大战尾声领地崩塌、撤退航线挤满穿梭机，以及趁宝马哥钓鱼空档开小号战备船上门碰运气。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "2025 年 11 月 9 日，蜜蜂与 PH 的大战刚走到尾声"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "点明 249 项蓝图明细、zKB 2544 亿估值、面板 700 亿掉落与逾 1500 亿实际到手，以及全服历史第二名地位。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "货舱里码着两百四十九项蓝图原图"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "常用船第一是滑溜溜的实践级而非旗舰，后面又把“赵建国是块傻肉”的旧印象反过来做成反钓 600 亿的局。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "蹲门之余，他在高安频道泡熟了 宝马哥"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "前因、时机、货舱细节与历史排位全部用足，且紧接反钓老海盗收束。"
+        },
+        {
+          "title": "零电魔像硬莽五级任务，全服传了半个徒弟",
+          "weight": "heavy",
+          "reason": "集突变质粒翻百倍暴富、自研省钱零电魔像损 15 条仍暴赚、B 站连发九条教学视频却只传出半个徒弟于一体，极具个人特色。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 2026-11-14：自传投稿与核心事件核查"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "在 兔子肥 靠刷萨沙 6-10 攒下一百亿启动资金时"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "交代刷萨沙攒百亿又逢损伤控制突变质粒翻百倍得两百亿家底，转往低安五级并被抓爆十五条魔像。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "在 兔子肥 靠刷萨沙 6-10 攒下一百亿启动资金时"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "厌倦枯燥 00 异常、看不上昂贵主流配装，自研 T2 注盾鱼雷零电方案并在 B 站连发九条实战视频试图传开流派。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "2023 年 5 月，他在 B 站账号"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "融入 B 站评论区“高水/高九”口误互动与《堡垒》才拒接的实战门槛，及 1:1000 LP 时薪六到八亿的收益回报。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "在[《EVE 自由3 一亿一跳》]"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "连发九条视频一心传道，结果全服只有自己坚持开，唯一徒弟 peace3253 甚至嫌掠夺舰太贵改出更省事的 T1 乌鸦。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "只是几年过去，这套零电 魔像"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "口误“高水/高九”已按 B 站原评论核实改写生动，四方向展开扎实。"
+        },
+        {
+          "title": "十开大鱼月入千亿，把 BBC 泰坦招进矿点",
+          "weight": "heavy",
+          "reason": "低安罕见十开长须鲸级月入千亿，随后连爆七条大鱼并引出 BBC 十几条泰坦（KM 记 7 条）且全部挂进本人简介，是核心红料与名片来源。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 2026-11-14：自传投稿与核心事件核查"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "在低安把老海盗打服、站稳东八区时段后"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "点明在低安打服老海盗站稳东八区时段、十开挖矿月入千亿后心气飘了直接停到 BBC 家门口。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "生意越顺手心气越飘，他最后把 长须鲸级 直接停到了"
+              }
+            },
+            {
+              "angle": "分量",
+              "note": "交代罕见低安十开矿队首月滚进千亿、几个月连躺七条大鱼，以及佩恩一战 BBC 扔进十几条泰坦（KM 记七条）与大批旗舰。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "在低安把老海盗打服、站稳东八区时段后"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "起初不服气盘算反吃对方，见排山倒海泰坦阵后才顿悟自己其实是被拿来钓盟友救援舰队的活饵。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "起初他还不服气，盘算着叫上盟友"
+              }
+            },
+            {
+              "angle": "落点",
+              "note": "果断停矿并把七张大鱼战损全挂进简介警醒自身，与开篇角色简介形成前后勾连。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "想明白了这笔账，他果断收工停矿"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "完整串起赚钱膨胀、被抓醒悟与简介挂七条大鱼战损的伏笔回收。"
+        },
+        {
+          "title": "进脚本团离线半年，睡成联盟执行团 CEO",
+          "weight": "heavy",
+          "reason": "入坑极具荒诞感的起家黑历史：全团十六在线号十五个脚本、离线半年逃过清封而白捡执行团 CEO 名头，奠定其非典型剧本底色。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 2026-11-14：自传投稿与核心事件核查"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "2019 年顶着国服难民身份刚踏进欧服时"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "2019 年国服难民入欧服只想安稳刷萨沙，偏偏一头扎进十六号里有十五个同一人脚本的小团及脚本扎堆联盟。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "2019 年顶着国服难民身份刚踏进欧服时"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "写明他既懒得跟着沾边脚本，也懒得去写举报信，干脆离线歇了半年避嫌。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "他觉得实在无趣，既懒得跟着沾边"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "别人争权夺利都费尽心思，他靠半年离线躺过封号潮，活人散尽后阴差阳错顶上执行团 CEO 名头。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "等半年后重新上线一看，半个联盟"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "费一番周折从空壳执行团抽身，正式转入兔子肥重新开局（并把组织名疑点与不加 CEO 标签依据妥善留素材）。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "费了一番周折从那个空壳执行团"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "直叙故事不写考据免责句，各方向扎实。"
+        },
+        {
+          "title": "奥索遇上泰兰天使，老海盗被萌新吓停一个月",
+          "weight": "heavy",
+          "reason": "跨人物高传播搞笑黑料：一炮能吃两千五百亿的资深低安海盗，竟被开开拓者的贴吧零氪萌新吓停大船整整一个月。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 2026-11-08：奥索遇泰兰天使（被吓一个月不敢开大船）"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "2026 年 9 月，赵建国新买了一艘"
+          },
+          "development": [
+            {
+              "angle": "处境",
+              "note": "新买破坏者在宁静之域十字路口奥索打劫，撞见一条天天晃悠还把基地安在本地的开拓者。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "2026 年 9 月，赵建国新买了一艘"
+              }
+            },
+            {
+              "angle": "动机",
+              "note": "因对方顶着红名不走误判成大势力超级眼睛，哪怕识破机翻英语露馅也疑心虚虚实实。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "没过几天，那艘 开拓者 主动弹来"
+              }
+            },
+            {
+              "angle": "反差",
+              "note": "前脚还在喝问对面是哪个混蛋的小号，后脚却被对面连贴四遍开拓者的路数吓得一个月不敢开大船。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "钱自然没给成，但老海盗反倒被"
+              }
+            },
+            {
+              "angle": "反应与后果",
+              "note": "直到泰兰天使在贴吧五天要五亿喊出“我这不是讨饭是要”把全吧看傻，老海盗才拍大腿回过味来。",
+              "evidence": {
+                "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+                "contains": "直到后来那位在贴吧五天要来五亿"
+              }
+            }
+          ],
+          "verdict": "sufficient",
+          "note": "与泰兰天使列传形成绝妙互文，反差强烈。"
+        },
+        {
+          "title": "丹图米高喊钓 BBC，两分钟后和宝马哥一起进了菜单",
+          "weight": "ordinary",
+          "reason": "与宝马哥同场被 Snuffed Out 反吃的低安翻车实录，凸显隐投组常态与钓鱼反成鱼获的黑色幽默。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 宝马哥隐投小组互动与战损"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "在低安跟着 宝马哥 混久了"
+          },
+          "verdict": "sufficient",
+          "note": "对照宝马哥视频标题与两分钟连爆时间差，收尾精炼有力。"
+        },
+        {
+          "title": "B站作品精选（五条未在正文展开的《EVE五级任务》实战录像）",
+          "weight": "ordinary",
+          "reason": "按 B站 UP 精选规范挑出与正文五级任务块不重复的 5 条投稿（含评论区“宁静”互答及 30 秒/91 秒效率刷切片），完善人物 B 站创作者侧写。",
+          "source": {
+            "file": "docs/bilibili/7218831.json",
+            "contains": "盖伦特5级任务《地点第一步》实操投稿"
+          },
+          "treatment": "expanded",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "[《盖伦特5级 斩龙行动》](https://www.bilibili.com/video/BV1Sh4y1E79i/)"
+          },
+          "verdict": "sufficient",
+          "note": "五条精选均避开正文已展开的 BV1i14y1Z7eX 与 BV17k4y1E7Kq，评语仅用已核标题、时长与评论事实，无视听臆测。"
+        },
+        {
+          "title": "小号 zama Jovakko 低安战后驾巨象拾荒连爆",
+          "weight": "light",
+          "reason": "日常拾荒损运输舰属轻料，但跨图尔鲁尔、兰多恩、伊格诺伊顿与埃玛马克四场低安混战反复上演，适合作战绩反差简笔。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 2026-11-06：小号 zama Jovakko 收垃圾被击毁"
+          },
+          "treatment": "brief",
+          "body": {
+            "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+            "contains": "单看主号 `Zhao-Jian-Guo`"
+          },
+          "verdict": "sufficient",
+          "note": "在战绩块末尾简练带出四场混战拾荒爆巨象的反差，未过度注水。"
+        },
+        {
+          "title": "转述胖虎跳 BBC 诱导被击毁故事",
+          "weight": "light",
+          "reason": "赵建国在此条仅作群聊讲述者，事件主角与战损归属胖虎，不应记入本人列传经历。",
+          "source": {
+            "file": "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+            "heading": "## 胖虎故事讲述者与角色简介自嘲"
+          },
+          "treatment": "omitted",
+          "note": "属他人故事转述，正文正确略去。"
+        }
+      ],
+      "noHeavyReason": ""
+    },
+    "balance": {
+      "status": "reviewed",
+      "note": "全文重心完全落在赵建国最具辨识度的五件重料上：开篇与简介三句台词立起悬殊反差，首块稳住 00 会战与低安蹲门/天价穿梭机主线，随后五级任务、十开大鱼招泰坦、离线睡成 CEO 与奥索被萌新吓停依次展开，文末 B 站作品精选补充非重复五级任务实战切片并与五级任务块呼应，评语收拢全部反差并对应三选一台词，轻重得宜、节奏连贯。",
+      "evidence": [
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "刚进欧服能靠“不碰脚本、离线半年”睡成执行团 CEO"
+        },
+        {
+          "file": "src/people/zhao-jian-guo/zhao-jian-guo.md",
+          "contains": "偏偏这么个见过大场面的海盗"
+        }
+      ]
+    }
+  },
+  "dependencies": [
+    "docs/bilibili/7218831.json",
+    "src/people/zhao-jian-guo/2115652382-id.json",
+    "src/people/zhao-jian-guo/materials-zhao-jian-guo.json",
+    "src/people/zhao-jian-guo/zhao-jian-guo.md",
+    "src/battles/1-smeb-2026/1-smeb-2026.json",
+    "src/battles/1-smeb-2026/1-smeb-2026.md",
+    "src/battles/1-smeb-2026/materials-1-smeb-2026.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.json",
+    "src/battles/ahbazon-2024/ahbazon-2024.md",
+    "src/battles/ahbazon-2024/materials-ahbazon-2024.json",
+    "src/battles/amamake-2026/amamake-2026.json",
+    "src/battles/amamake-2026/amamake-2026.md",
+    "src/battles/amamake-2026/materials-amamake-2026.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.json",
+    "src/battles/bwf-zz-2025/bwf-zz-2025.md",
+    "src/battles/bwf-zz-2025/materials-bwf-zz-2025.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.json",
+    "src/battles/ignoitton-2026/ignoitton-2026.md",
+    "src/battles/ignoitton-2026/materials-ignoitton-2026.json",
+    "src/battles/lantorn-2025/lantorn-2025.json",
+    "src/battles/lantorn-2025/lantorn-2025.md",
+    "src/battles/lantorn-2025/materials-lantorn-2025.json",
+    "src/battles/oijanen-2026/oijanen-2026.json",
+    "src/battles/oijanen-2026/oijanen-2026.md",
+    "src/battles/oijanen-2026/materials-oijanen-2026.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.json",
+    "src/battles/tn25-j-2025/tn25-j-2025.md",
+    "src/battles/tn25-j-2025/materials-tn25-j-2025.json",
+    "src/battles/turnur-2023/turnur-2023.json",
+    "src/battles/turnur-2023/turnur-2023.md",
+    "src/battles/turnur-2023/materials-turnur-2023.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.json",
+    "src/battles/x47l-q-2023-03/x47l-q-2023-03.md",
+    "src/battles/x47l-q-2023-03/materials-x47l-q-2023-03.json"
+  ],
+  "inputs": "6c2514dcc033e619d309b7949911f0560016dae73399822fd448387ef63284bb",
+  "inputParts": {
+    "docs/bilibili/7218831.json": "73e82d2b30dc346289dbcaedb5c4c29aeb0cb8ccbee4b30f978d6508906d8605",
+    "src/people/zhao-jian-guo/2115652382-id.json": "f51d0c05389f19a961c15318905d16bdfe41b7786d4220e478efba2bda3d4d28",
+    "src/people/zhao-jian-guo/materials-zhao-jian-guo.json": "d5953c0cec75778c15621d55c7924ca540182e8a82ac97170184d6cf391ee02b",
+    "src/people/zhao-jian-guo/zhao-jian-guo.md": "6c6609224688d22543a7c27de8d4a48446a486d1d1016afcdaca451115ae459c",
+    "battle:1-smeb-2026": "d2e5af97283a92379e82abb751a87f9fe09abb1b09bdeb951c4532e8df745dc2",
+    "battle:ahbazon-2024": "ef7b48e00f1b24cdf125bf916466b6ade188d100da65dd6e26d24c590b30f0c4",
+    "battle:amamake-2026": "5f2829ad4048008158ba5dc745682706c06ff2a9f6b25045be825f571d2d4105",
+    "battle:bwf-zz-2025": "967996a3ac5f6cda6d5d7f3d79277d8f533a638a7cca49931b470723dc9112f3",
+    "battle:ignoitton-2026": "6aaee7848f987334574bfbe01b92d0b4efb1fddaf8e9b44a6911823905fbb8e2",
+    "battle:lantorn-2025": "1a232f698357bf62a162ae398bb707d37cc04b1d07ad8e494b1682c3d126822d",
+    "battle:oijanen-2026": "b1cb38ccb4db607ba76fa816740c6c259553605e1861b9211fb4abd6be7a7962",
+    "battle:tn25-j-2025": "d03399a8430abd669922cc75149a98b7f43ef1a2b3a29c51efc7b3b6fd11da25",
+    "battle:turnur-2023": "89d3dc3db6262c8227c0041f0761583d71ac5e58acaf152dce9c3aa307f0b4a7",
+    "battle:x47l-q-2023-03": "284245535be82e2dfc37f589d8b7d632b56ea132111e852ab88867c57721cec8"
+  },
+  "level": 1
+}

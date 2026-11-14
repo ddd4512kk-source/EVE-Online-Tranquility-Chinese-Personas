@@ -152,16 +152,20 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T10:25:00Z",
+      "reviewedAt": "2026-11-14T08:15:05Z",
       "verdict": "便宜深渊毒蜥不包活的耿直UP主，手搓EVE-NAV导航插件造福大众的硬核程序员。",
       "axes": {
         "shenren": {
-          "tier": "D",
-          "reason": "理性克制的技术宅风格，评论区直言‘便宜不包活，修盾得加钱’，言行讲究客观逻辑，鲜少出格。",
+          "tier": "E",
+          "reason": "2016年写虫洞指南、2025年持续制作深渊教学并开源维护EVE-NAV星图导航工具，评论区客观提示风险与费用边界，言行理性严谨且零黑料。",
           "sources": [
             {
-              "label": "便宜毒蜥打伽马五级深渊视频",
+              "label": "便宜毒蜥打伽马五级深渊教学",
               "url": "https://www.bilibili.com/video/BV18rVszBErZ/"
+            },
+            {
+              "label": "EVE-NAV开源导航工具介绍",
+              "url": "https://www.bilibili.com/video/BV1nETbzEE4W/"
             }
           ]
         },
@@ -206,16 +210,24 @@
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "深渊视频系列，低价深渊是他的招牌之一；深渊能手至少 S。",
+          "tier": "A",
+          "reason": "低配毒蜥单刷 T5 伽马深渊与 C3 虫洞高风险玩法长期实践与系列教学（B），叠加独立开发维护社区导航工具 EVE-NAV（B），两项独立强项相加升至 A。",
           "sources": [
             {
-              "label": "便宜毒蜥打伽马五级深渊视频",
+              "label": "便宜毒蜥五级伽马深渊视频",
               "url": "https://www.bilibili.com/video/BV18rVszBErZ/"
+            },
+            {
+              "label": "EVE-NAV 导航工具发布",
+              "url": "https://www.bilibili.com/video/BV1gFjr6GEHU/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "嘴上把复出推到鸡啄完米，手里却老实给大家修好导航路网。"
     }
   }
 }

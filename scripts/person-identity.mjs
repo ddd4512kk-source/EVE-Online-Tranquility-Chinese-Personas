@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { characterFile } from './character-snapshot.mjs';
+import { maintainerProcessErrors } from './material-document.mjs';
 import { readPersonDocument } from './person-document.mjs';
 
 const isId = id => Number.isSafeInteger(id) && id > 0;
@@ -78,6 +79,7 @@ export function readIdentity(directory, characterId) {
     if (!object(alt)) { fail('alts 每项必须是对象'); continue; }
     keys(alt, ['id', 'name', 'sources', 'basis', 'zkb'], '小号');
     if (alt.basis !== undefined && !text(alt.basis)) fail(`小号 ${alt.id} basis 必须是非空字符串`);
+    for (const message of maintainerProcessErrors(alt.basis, `小号 ${alt.id} basis `)) fail(message);
     if (alt.zkb !== undefined) zkb(alt.zkb, `小号 ${alt.id} `);
     if (!isId(alt.id)) fail('小号 id 必须是正整数');
     if (!text(alt.name)) fail('小号 name 必填，必须是实际角色名');

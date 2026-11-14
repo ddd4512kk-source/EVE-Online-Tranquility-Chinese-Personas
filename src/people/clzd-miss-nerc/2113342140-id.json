@@ -64,7 +64,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "联盟指定的泰坦，楼下照样砍价。",
       "axes": {
         "shenren": {
@@ -72,8 +72,8 @@
           "reason": "高价售船与半夜推销属于交易争议，不直接算恶行。",
           "sources": [
             {
-              "label": "RR高价泰坦争议讨论帖",
-              "url": "https://tieba.baidu.com/p/6334647382"
+              "label": "贴吧《关于希尔的瓜》6365706129",
+              "url": "https://tieba.baidu.com/p/6365706129"
             }
           ]
         },
@@ -92,8 +92,8 @@
           "reason": "制造与联盟指定供货不等于舰队指挥。",
           "sources": [
             {
-              "label": "RR高价泰坦争议讨论帖",
-              "url": "https://tieba.baidu.com/p/6334647382"
+              "label": "贴吧《关于希尔的瓜》6365706129",
+              "url": "https://tieba.baidu.com/p/6365706129"
             }
           ]
         },
@@ -102,8 +102,8 @@
           "reason": "长期RR供货商，有固定圈内客户和辨识度。",
           "sources": [
             {
-              "label": "RR高价泰坦争议讨论帖",
-              "url": "https://tieba.baidu.com/p/6334647382"
+              "label": "贴吧《关于希尔的瓜》6365706129",
+              "url": "https://tieba.baidu.com/p/6365706129"
             }
           ]
         },
@@ -112,22 +112,30 @@
           "reason": "承担联盟超旗供给与收矿协调，属核心产业部门。",
           "sources": [
             {
-              "label": "RR高价泰坦争议讨论帖",
-              "url": "https://tieba.baidu.com/p/6334647382"
+              "label": "贴吧《关于希尔的瓜》6365706129",
+              "url": "https://tieba.baidu.com/p/6365706129"
             }
           ]
         },
         "wealth": {
           "tier": "A",
-          "reason": "大亨名单确认长期包办RR泰坦生产，评产业核心A。",
+          "reason": "长期承建 RR 泰坦生产，以 85% 市价大宗回购矿物并按 450–580B 区间成批交付制造泰坦（超旗制造 ≥ A），本人亦驾夜神超航实战；注记贴吧存在关于联盟采购利差的争议，缺少私人多线现货库，维持 A。",
           "sources": [
             {
-              "label": "RR高价泰坦争议讨论帖",
-              "url": "https://tieba.baidu.com/p/6334647382"
+              "label": "贴吧《关于希尔的瓜》6365706129",
+              "url": "https://tieba.baidu.com/p/6365706129"
+            },
+            {
+              "label": "贴吧希尔泰坦与商业线后续 6476222933",
+              "url": "https://tieba.baidu.com/p/6476222933"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LE",
+      "note": "背靠联盟指定牌子垄断造泰坦，矿八五折收、船五百八卖，半夜还追着推销。"
     }
   }
 }
