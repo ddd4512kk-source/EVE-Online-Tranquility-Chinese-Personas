@@ -448,6 +448,8 @@ main.wrap { flex: 1; padding-top: 1.5rem; padding-bottom: 3rem; }
 .card-radar-area { fill: var(--gold); fill-opacity: .38; stroke: var(--gold); stroke-width: 1.4; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .card-radar-segment { stroke: var(--gold); stroke-width: 1.4; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 .card-radar-shenren { fill: var(--zhu); }
+.card-radar-shenren.is-red { fill: var(--zhu); }
+.card-radar-shenren.is-blue { fill: var(--recruit); }
 .card a:hover .card-radar-plate { stroke-opacity: .9; }
 
 /* ---------- 动态状态：活跃、沉寂、招新、著名 ---------- */
@@ -1325,6 +1327,8 @@ a.corp-aff-tag:hover { border-color: var(--corp-c1); filter: brightness(1.1); }
   stroke-linejoin: round; filter: drop-shadow(0 0 5px rgba(200, 165, 96, .45));
 }
 .radar-vertex { fill: var(--gold); stroke: var(--surface); stroke-width: 1.5; }
+.radar-vertex.is-red { fill: var(--zhu); }
+.radar-vertex.is-blue { fill: var(--recruit); }
 .radar-vertex.tier-ex { fill: #ff5252; stroke: #fff; }
 .radar-axis-text { font-family: var(--serif); font-size: 13.5px; fill: var(--text); }
 .axis-txt-name { font-weight: 700; letter-spacing: .02em; }
@@ -2176,6 +2180,139 @@ a.tier-medium:hover { border-color: var(--gold-dim); color: var(--gold); }
 }
 .page-search .pagefind-ui__result-link { color: var(--link); font-family: var(--serif); }
 .page-search .pagefind-ui__result-excerpt mark { background: var(--zhu-bg); color: var(--zhu); }
+
+/* ===== 九宫格阵营（规则见 docs/person-alignment.md）=====
+   颜色分善恶（青蓝／银灰／玫红），角标形状分守序／中立／混乱；没有阵营的卡片不受影响。 */
+:root { --al-good: #7cc4e4; --al-neutral: #a3a9b4; --al-evil: #e0588f; }
+:root[data-theme="light"] { --al-good: #2a6d93; --al-neutral: #6c6860; --al-evil: #a8325f; }
+[data-align] { --al: var(--al-neutral); }
+[data-align$="G"] { --al: var(--al-good); }
+[data-align$="E"] { --al: var(--al-evil); }
+[data-m="G"] { --m: var(--al-good); }
+[data-m="N"] { --m: var(--al-neutral); }
+[data-m="E"] { --m: var(--al-evil); }
+
+/* 列传网格放宽，给外凸的角标和挂牌留位；军团网格不变 */
+.cards:not(.corp-cards) { gap: 1.35rem .9rem; }
+
+/* 卡片外框：阵营色接管边框，名人金边与外发光让路（方印、斜扫保留），战神左缘朱线保留 */
+.card[data-align] a { position: relative; border-color: color-mix(in srgb, var(--al) 42%, var(--line-soft)); }
+.card.is-famous[data-align] a { box-shadow: var(--panel-shadow); }
+.card.is-wargod[data-align] a { border-left-color: var(--zhu); }
+.card[data-align] a:hover {
+  border-color: color-mix(in srgb, var(--al) 75%, transparent);
+  box-shadow: var(--panel-shadow), 0 0 0 1px color-mix(in srgb, var(--al) 55%, transparent), 0 8px 28px -14px color-mix(in srgb, var(--al) 50%, transparent);
+}
+.card.is-wargod[data-align] a:hover { border-left-color: var(--zhu); }
+
+/* 角标：四角 L 形，画在边框外，不压内容 */
+.card[data-align] a::after, .al-frame[data-align]::after {
+  content: ""; position: absolute; z-index: 1; pointer-events: none;
+  inset: var(--al-inset, -5px); border-radius: 2px;
+  --arm: 15px; --t: 2px; --k: linear-gradient(var(--al) 0 0);
+  background:
+    var(--k) left top / var(--arm) var(--t), var(--k) left top / var(--t) var(--arm),
+    var(--k) right top / var(--arm) var(--t), var(--k) right top / var(--t) var(--arm),
+    var(--k) left bottom / var(--arm) var(--t), var(--k) left bottom / var(--t) var(--arm),
+    var(--k) right bottom / var(--arm) var(--t), var(--k) right bottom / var(--t) var(--arm);
+  background-repeat: no-repeat;
+}
+/* 守序：四角齐全，外加一道细线 */
+.card[data-align^="L"] a::after, .al-frame[data-align^="L"]::after {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--al) 32%, transparent);
+}
+/* 中立：只留左上、右下两只 */
+.card[data-align^="N"] a::after, .al-frame[data-align^="N"]::after {
+  background:
+    var(--k) left top / var(--arm) var(--t), var(--k) left top / var(--t) var(--arm),
+    var(--k) right bottom / var(--arm) var(--t), var(--k) right bottom / var(--t) var(--arm);
+  background-repeat: no-repeat;
+}
+/* 混乱：断角、长短不一、略歪（静态），卡片边线改虚线；战神左缘保持实线 */
+.card[data-align^="C"] a { border-style: dashed; }
+.card.is-wargod[data-align^="C"] a { border-left-style: solid; }
+.card[data-align^="C"] a::after, .al-frame[data-align^="C"]::after {
+  background:
+    var(--k) left top / calc(var(--arm) * 2.1) var(--t), var(--k) left top / var(--t) calc(var(--arm) * .45),
+    var(--k) right 9px top / calc(var(--arm) * .55) var(--t),
+    var(--k) right bottom / calc(var(--arm) * .5) var(--t), var(--k) right bottom / var(--t) calc(var(--arm) * 1.8),
+    var(--k) left bottom 6px / var(--t) calc(var(--arm) * .8);
+  background-repeat: no-repeat;
+  transform: rotate(var(--tilt, -1.1deg));
+}
+
+/* 上沿挂牌：小九宫格 + 全称，“名”字印右侧固定留位 */
+.align-tab {
+  position: absolute; z-index: 3; top: -.66rem; right: 2.25rem;
+  display: inline-flex; align-items: center; gap: .3rem;
+  height: 1.25rem; padding: 0 .32rem 0 .3rem;
+  border: 1px solid var(--al); border-radius: 3px;
+  background: var(--bg); color: var(--al);
+  font-family: var(--serif); font-weight: 700; font-size: .74rem; line-height: 1; letter-spacing: .08em;
+  white-space: nowrap;
+}
+.align-tab > span { margin-right: -.08em; }
+.align-tab svg { flex: none; width: .74rem; height: .74rem; }
+.align-tab rect { fill: currentColor; opacity: .26; }
+.align-tab rect.on { opacity: 1; }
+[data-align^="L"] > .align-tab, [data-align^="L"] a > .align-tab { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px color-mix(in srgb, var(--al) 40%, transparent); }
+[data-align^="C"] > .align-tab, [data-align^="C"] a > .align-tab { transform: rotate(-4deg); }
+
+/* 列传页：头部整块装框，挂牌在右上 */
+.bio-head.al-frame { position: relative; margin: 1.9rem 0 2rem; --al-inset: -13px -15px; }
+.bio-head.al-frame::after { --arm: 26px; --tilt: -.45deg; }
+.bio-head.al-frame > .align-tab { top: calc(-13px - .7rem); right: 1.4rem; height: 1.4rem; font-size: .84rem; }
+@media (max-width: 520px) {
+  .bio-head.al-frame { --al-inset: -10px -10px; }
+  .bio-head.al-frame > .align-tab { top: calc(-10px - .7rem); right: .8rem; }
+}
+
+/* 列传页资料栏：阵营一行 */
+.bio-facts > .align-fact { align-items: center; }
+.align-fact dd { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem 1rem; }
+.align-matrix {
+  display: inline-grid; grid-template-columns: repeat(3, 2.05rem); gap: 2px; padding: 3px;
+  border: 1px solid var(--line); border-radius: 4px; background: var(--bg-sunk);
+}
+.align-matrix > span {
+  display: grid; place-items: center; height: 1.35rem; border-radius: 2px;
+  font-size: .68rem; line-height: 1; letter-spacing: .04em;
+  color: color-mix(in srgb, var(--m) 65%, var(--text-faint));
+  background: color-mix(in srgb, var(--m) 9%, transparent);
+}
+.align-matrix > .on { background: var(--al); color: var(--bg); font-weight: 700; }
+.align-verdict { display: flex; flex-direction: column; gap: .05rem; min-width: 0; }
+.align-verdict strong { font-family: var(--serif); font-size: 1.08rem; letter-spacing: .12em; color: var(--al); }
+.align-note { color: var(--text-dim); }
+
+/* 首页阵营筛选：默认收起；宽屏面板浮在入口下方，窄屏进入文档流 */
+.align-dd { position: relative; }
+.align-dd > summary { list-style: none; cursor: pointer; }
+.align-dd > summary::-webkit-details-marker { display: none; }
+.align-filter.is-filtered .align-dd > summary { border-color: var(--gold-dim); color: var(--text); }
+.align-pick {
+  position: absolute; z-index: 20; top: calc(100% + .35rem); left: 0;
+  display: grid; grid-template-columns: auto repeat(3, 3.1rem); gap: 3px; padding: 4px;
+  border: 1px solid var(--line-soft); border-radius: var(--radius); background: var(--bg-raised);
+  box-shadow: var(--panel-shadow);
+}
+.align-pick button {
+  font: inherit; font-size: .8rem; line-height: 1; height: 1.9rem; padding: 0 .45rem;
+  border: 1px solid transparent; border-radius: 3px; background: transparent; color: var(--text-dim); cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: .2rem; white-space: nowrap;
+}
+.align-pick small { font-size: .68rem; opacity: .75; }
+.align-pick .ap-cell { color: color-mix(in srgb, var(--m) 75%, var(--text-faint)); background: color-mix(in srgb, var(--m) 10%, transparent); font-family: var(--serif); font-weight: 700; }
+.align-pick .ap-row { color: var(--m); font-family: var(--serif); justify-content: flex-end; }
+.align-pick .ap-col { font-family: var(--serif); }
+.align-pick button:hover:not(:disabled) { border-color: var(--line); }
+.align-pick button:disabled { opacity: .4; cursor: default; }
+.align-pick .is-on { border-color: var(--gold-dim); color: var(--text); }
+.align-pick .ap-cell.is-on { background: var(--m); color: var(--bg); border-color: var(--m); }
+@media (max-width: 640px) {
+  .align-filter { flex-wrap: wrap; }
+  .align-pick { position: static; margin-top: .4rem; box-shadow: none; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }

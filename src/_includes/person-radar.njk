@@ -35,7 +35,7 @@
       <!-- 各维度顶点圆点与端点文本 -->
       {% for axis in radarPanel.axes %}
       {% if axis.point %}
-      <circle cx="{{ axis.point.x }}" cy="{{ axis.point.y }}" r="3.5" class="radar-vertex {{ axis.tierClass }}"/>
+      <circle cx="{{ axis.point.x }}" cy="{{ axis.point.y }}" r="3.5" class="radar-vertex axis-{{ axis.key }} {{ axis.tierClass }}{% if axis.key == 'shenren' and radarPanel.shenrenDot %} is-{{ radarPanel.shenrenDot }}{% endif %}"/>
       {% endif %}
       <text x="{{ axis.labelCoord.x }}" y="{{ axis.labelCoord.y }}" text-anchor="{{ axis.labelCoord.anchor }}" class="radar-axis-text {{ axis.tierClass }}">
         <tspan class="axis-txt-name">{{ axis.label }}</tspan>

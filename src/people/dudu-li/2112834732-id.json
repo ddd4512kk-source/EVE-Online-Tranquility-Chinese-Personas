@@ -47,7 +47,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T10:45:00Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "采星九年老CEO执掌六百余人，5C敌大航进场敢拍板下无畏砸场的工业巨擘。",
       "axes": {
         "shenren": {
@@ -101,16 +101,24 @@
           ]
         },
         "wealth": {
-          "tier": "EX",
-          "reason": "执掌数座自有星城、势力铁壁与庞大月矿堡垒群，垄断天量月矿与军备产出，新伊甸顶峰工业巨鳄。",
+          "tier": "A",
+          "reason": "2017 年起担任工业主力军团采星工业（STARCHASER Inc.，687 人）CEO 九年，以工业生产撑起联盟税收与矿物供给；剥离招新帖中的集体建筑资产后，依工业主力军团 CEO 至少 A 规则由 EX 校准至 A。",
           "sources": [
             {
-              "label": "采星者联盟招募公告",
+              "label": "2017 年天使区采星介绍",
+              "url": "https://forums.winterco.org/t/topic/14294"
+            },
+            {
+              "label": "采星者军团招募公告",
               "url": "https://forums.winterco.org/t/topic/25878"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "九年只守采星一个团，平日管矿物进库，敌大航进场敢喊无畏出站。"
     }
   }
 }

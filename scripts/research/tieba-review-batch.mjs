@@ -1,4 +1,4 @@
-// 顺序补全冻结清单的正倒序/楼中楼；首尾缓存可做起点。只抓取，不代替人工阅读。
+// 顺序补全冻结清单的正倒序/楼中楼；首尾缓存可做起点。只抓取，不改阅读状态。
 // node scripts/research/tieba-review-batch.mjs <缓存目录> [本轮最多帖数，默认 1]
 // 原始回复可能含现实隐私，请用忽略的临时目录；403/429 整批停止。
 import { readFile, writeFile } from 'node:fs/promises';
@@ -50,4 +50,4 @@ for (const {item,edge} of work) {
  if(status && !result) { console.error('未生成覆盖记录，停止，避免掩盖程序故障。');process.exitCode=2;break; }
  await pause(1500);
 }
-console.log(`本轮请求 ${requested} 帖；跳过已完成可见分页 ${skipped} 帖、已记录不可读 ${unavailable} 帖。人工是否已读请另记。`);
+console.log(`本轮请求 ${requested} 帖；跳过已完成可见分页 ${skipped} 帖、已记录不可读 ${unavailable} 帖。只抓取；用 tieba-client-dump.mjs 读帖时自动登记已读。`);

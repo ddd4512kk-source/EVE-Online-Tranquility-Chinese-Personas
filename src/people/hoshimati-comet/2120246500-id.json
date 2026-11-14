@@ -41,7 +41,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T11:52:44Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "Hoshimati Comet：普通表现以 D 为起点，突出项按已有列传记录上调。",
       "axes": {
         "shenren": {
@@ -95,16 +95,27 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "列传未见超出日常配船的经营或资源运作，按常人基准 D。",
+          "tier": "A",
+          "reason": "代表 Dracarys. 出战 AT22 亚军全 19 场比赛（含 5 场决赛并驾驶沙帕什级奖励船，独立非保底 B），叠加名下双号（Hoshimati Comet 3,631 杀/220 损/2.69 万亿、F-4EJ Kai 434 杀/150 损/750B）长期高频 PVP 损耗投入（C），B+C→A。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",
               "url": "https://zkillboard.com/character/2120246500/"
+            },
+            {
+              "label": "AT22 Dracarys. 全赛程出战档案",
+              "url": "https://www.eveonline.com/news/view/alliance-tournament-xx-recap"
+            },
+            {
+              "label": "F-4EJ Kai zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2122666957/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "NN"
     }
   },
   "identity": {

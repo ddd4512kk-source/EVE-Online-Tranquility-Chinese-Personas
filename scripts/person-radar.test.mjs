@@ -115,3 +115,55 @@ test('实际阶位雷达图渲染六维与考据，外部文字转义且出处�
   assert.doesNotMatch(partial, /class="radar-area"/);
   assert.match(partial, /统御力：待考/);
 });
+
+test('神力顶点颜色按档位区分：B 及以上红点、E 蓝点、C/D 与待考不着特殊色', () => {
+  const environment = new nunjucks.Environment(new nunjucks.FileSystemLoader(path.resolve(import.meta.dirname, '../src/_includes')), { autoescape: true });
+  environment.addFilter('url', value => value);
+  environment.addFilter('searchKey', () => 'sample');
+  environment.addFilter('ymd', value => String(value).slice(0, 10));
+
+  const renderCard = tier => {
+    const rating = fixture();
+    rating.axes.shenren.tier = tier;
+    if (tier === null) rating.axes.shenren.sources = [];
+    const radarPanel = personRadar(rating);
+    const page = {
+      url: '/p/42/',
+      data: {
+        character_id: 42,
+        displayName: '样例',
+        char: { name: 'Sample', birthday: '2020-01-01T00:00:00Z' },
+        activity: { state: 'live' },
+        liao: { hong: 0, hei: 0 },
+        labels: [],
+        statusTags: [],
+        updated: '2026-11-09T02:44:45Z',
+        radarPanel,
+      },
+    };
+    return {
+      radarPanel,
+      detailHtml: environment.render('person-radar.njk', { displayName: '样例', radarPanel }),
+      cardHtml: environment.render('card.njk', { p: page }),
+    };
+  };
+
+  for (const tier of ['EX', 'S', 'A', 'B']) {
+    const { radarPanel, detailHtml, cardHtml } = renderCard(tier);
+    assert.equal(radarPanel.shenrenDot, 'red');
+    assert.match(detailHtml, /class="radar-vertex axis-shenren tier-[a-z]+ is-red"/);
+    assert.match(cardHtml, /class="card-radar-shenren is-red"/);
+  }
+  for (const tier of ['C', 'D', null]) {
+    const { radarPanel, detailHtml, cardHtml } = renderCard(tier);
+    assert.equal(radarPanel.shenrenDot, null);
+    assert.doesNotMatch(detailHtml, /axis-shenren[^"]*\bis-(red|blue)\b/);
+    assert.doesNotMatch(cardHtml, /card-radar-shenren/);
+  }
+  {
+    const { radarPanel, detailHtml, cardHtml } = renderCard('E');
+    assert.equal(radarPanel.shenrenDot, 'blue');
+    assert.match(detailHtml, /class="radar-vertex axis-shenren tier-e is-blue"/);
+    assert.match(cardHtml, /class="card-radar-shenren is-blue"/);
+  }
+});

@@ -293,7 +293,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T22:42:00Z",
+      "reviewedAt": "2026-11-14T09:15:00Z",
       "verdict": "低安十万亿战果的顶级海盗恶煞“胡汉三”，进出三回越战越勇，既有莽跳黑隐被反杀的黑历史，也有围杀超旗泰坦的赫赫战功。",
       "axes": {
         "shenren": {
@@ -359,16 +359,28 @@
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "十万亿海盗掠夺战果，常备神示海军、救世黑隐、泽尼塔无畏舰队。",
+          "tier": "B",
+          "reason": "双号在低安高频驾驶克洛诺斯、黑豹及救世级（主号扣除外无畏约 150.2B 常规/黑隐损耗 + 小号 275 次救世出勤，C）叠加 B 站“青馆love”制作 11 期黑隐与会战导演剪辑（C），C+C→B；神示海与泽尼塔不作个人资产且原称“出资200亿资助军团”无材料依据。",
           "sources": [
             {
-              "label": "旗舰损失与装配档案",
+              "label": "Taishang Laojun zKillboard",
               "url": "https://zkillboard.com/character/2119107966/"
+            },
+            {
+              "label": "TaiBaiJinXIng zKillboard",
+              "url": "https://zkillboard.com/character/2119449883/"
+            },
+            {
+              "label": "青馆love B站频道",
+              "url": "https://space.bilibili.com/15019228"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "CN",
+      "note": "在各家低安团三进三出，爱在塔玛蹲门还常莽跳黑隐送人头。"
     }
   }
 }

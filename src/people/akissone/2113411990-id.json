@@ -46,7 +46,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "八年不挪窝，缺什么船就补什么位。",
       "axes": {
         "shenren": {
@@ -100,16 +100,24 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "现有经历以常规战备自给为主。",
+          "tier": "C",
+          "reason": "KM 81709054 证实曾亲自驾驶并战损价值约 26B ISK 的个人冥府级超级航母（普通单超航保底 C），缺个人泰坦、多开或大型军团 CEO 实证，由 D 升 C。",
           "sources": [
             {
               "label": "akissone zKillboard",
               "url": "https://zkillboard.com/character/2113411990/"
+            },
+            {
+              "label": "冥府级超航战损 KM 81709054",
+              "url": "https://zkillboard.com/kill/81709054/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "在 BOP 补位八年，招新先把自家老板挂上靶子。"
     }
   }
 }

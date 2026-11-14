@@ -51,48 +51,89 @@
         "sources": [
           "materials-bieshazhen-bc.json#头衔小号查漏-2026-11-13",
           "https://esi.evetech.net/latest/characters/2114557867/"
-        ]
+        ],
+        "zkb": {
+          "kills": 2146,
+          "lost": 532,
+          "isk_destroyed": 757481814760,
+          "last_active": "2026-11",
+          "as_of": "2026-11-14",
+          "fc": null
+        }
+      },
+      {
+        "id": 2121324610,
+        "name": "Trumps Bloobthirst Feynman",
+        "basis": "同属SARD.(98540583)；虽恶搞模仿嗜血名片，但203杀与嗜血双号0重叠，却与主号2114367701共战87杀、BC1共战34杀（含15+次双开点抓与1DH-SX同分损船），且与主号简介追星自嘲习惯相合。",
+        "sources": [
+          "materials-bieshazhen-bc.json#人物对应与收录依据",
+          "https://esi.evetech.net/latest/characters/2121324610/",
+          "https://evewho.com/character/2121324610"
+        ],
+        "zkb": {
+          "kills": 203,
+          "lost": 42,
+          "isk_destroyed": 35435212870,
+          "last_active": "2026-11",
+          "as_of": "2026-11-14",
+          "fc": null
+        }
       }
     ],
     "accounts": {},
     "zkb": {
-      "kills": 8332,
-      "lost": 782,
-      "isk_destroyed": 5028320001028,
-      "last_active": "2026-10",
-      "as_of": "2026-10-23"
+      "kills": 9152,
+      "lost": 799,
+      "isk_destroyed": 5220509524315,
+      "last_active": "2026-11",
+      "as_of": "2026-11-14",
+      "fc": null
     }
   },
   "person": {
     "cn_name": "别杀朕",
     "aliases": [
       "别杀",
-      "BieShazhen_BC"
+      "BieShazhen_BC",
+      "呆呆跃迁扰断器"
     ],
-    "epithet": "买船砍价，卖号靠百度翻译。",
+    "epithet": "论坛砍价买稀有船，B站端着青柠薯片喊别杀。",
     "tags": [
       "00区",
-      "FRT"
+      "FRT",
+      "B站"
     ],
+    "alignment": {
+      "code": "CN",
+      "note": "口呼陛下却催人快杀他，一边砍价买船一边拍伏击整活，随性出勤兼差讲段子。"
+    },
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T12:30:00Z",
-      "verdict": "名字求饶别杀朕，购物车里塞满两百亿稀有船，反手开诅咒围剿贝斯特拉的低调买家。",
+      "reviewedAt": "2026-11-14T12:55:00Z",
+      "verdict": "名字求饶别杀朕，小号也照嗜血名片反串，B站啃薯片解说，三号一万一杀兼两千亿现款买贝斯特拉转头又围杀。",
       "axes": {
         "shenren": {
           "tier": "D",
-          "reason": "名字求饶喊别杀朕，丢了LP论坛求救，转头两百多亿现款收购多条贝斯特拉稀有赛船，反手开诅咒围杀别人的贝斯特拉，戏剧喜感纯正。；常规社区交流、论坛口水或军团内务分歧，未涉及恶性人肉造谣或现实骚扰，属普通玩家互动与摩擦，按常人基准评 D。",
+          "reason": "名字与头衔求饶喊“别杀朕”，B站发《不要和别杀狗叫》耍宝，还另起小号“Trumps Bloobthirst Feynman”只改一字并原样照抄嗜血简介自嘲追星；虽因买贝斯特拉与群聊整活带喜感，但无造谣、坑蒙或现实越界记录，按常人基准评 D。",
           "sources": [
             {
               "label": "官方论坛收购贝斯特拉帖子",
               "url": "https://forums.eveonline.com/t/wts-my-bestla/451909"
+            },
+            {
+              "label": "呆呆跃迁扰断器 B站主页",
+              "url": "https://space.bilibili.com/317731958/"
             }
           ]
         },
         "combat": {
-          "tier": "B",
-          "reason": "开诅咒级特种电子战侦察舰参与15人小队围杀价值数千亿的贝斯特拉稀有战舰，一线实战素质精良。",
+          "tier": "A",
+          "reason": "主号 BieShazhen BC 与已确认小号 Biesahzhen BC1、Trumps Bloobthirst Feynman 三号合计 11,501 次击杀、逾 6.01 万亿 ISK 摧毁（含 588 次单杀），兼具常态双开短剑点抓配主力、诅咒级围杀贝斯特拉及八场站内大战全勤积累，属多项优势支撑的精锐，评 A。",
           "sources": [
+            {
+              "label": "BieShazhen BC 战绩档案",
+              "url": "https://zkillboard.com/character/2114367701/"
+            },
             {
               "label": "贝斯特拉击毁战报",
               "url": "https://zkillboard.com/kill/127809541/"
@@ -100,8 +141,8 @@
           ]
         },
         "command": {
-          "tier": "C",
-          "reason": "SARD精锐小队出勤打手，跟随突击队设伏出击，未见大舰队独立带队指挥。",
+          "tier": "D",
+          "reason": "主号及两小号均无 zKB FC 资质与监视者出勤记录，艾格玛尔与欧贝等大战皆随嗜血及 SARD 队伍跟队出勤，未见独立带队履历，按标准归为普通随队队员评 D。",
           "sources": [
             {
               "label": "BieShazhen BC 角色档案",
@@ -111,8 +152,12 @@
         },
         "charisma": {
           "tier": "B",
-          "reason": "论坛求购砍价风趣耿直，在SARD核心特种打手群内人缘活络，讲义气吃得开。",
+          "reason": "实名运营 B 站频道“呆呆跃迁扰断器”（529 粉、6753 赞），2020 年起持续产出 63 条 EVE 原创战报剪辑与欧服小队解说，其中 12 条高播破三千（最高 2.5 万播）；叠加官方论坛买贝斯特拉侃价梗，在 SARD 与华语 PVP 圈具有辨识度与稳定观众缘，评 B。",
           "sources": [
+            {
+              "label": "呆呆跃迁扰断器 B站空间",
+              "url": "https://space.bilibili.com/317731958/"
+            },
             {
               "label": "官方论坛收购贝斯特拉帖子",
               "url": "https://forums.eveonline.com/t/wts-my-bestla/451909"
@@ -121,7 +166,7 @@
         },
         "politics": {
           "tier": "D",
-          "reason": "专心高阶稀有船收集与特种抓单打架，不参与联盟权力政局角逐，常人基准。",
+          "reason": "专心收集稀有赛船、三号高频打架与 B 站做视频，未担任军团或联盟管理、外交职务，不参与权力角逐，常人基准评 D。",
           "sources": [
             {
               "label": "BieShazhen BC 雇佣档案",
@@ -130,12 +175,16 @@
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "动辄出资两百多亿现款连续竞标收购贝斯特拉稀有赛船，个人机库天价资产储备极其雄厚。",
+          "tier": "A",
+          "reason": "官方论坛自述以 2050 亿 ISK 现款购入贝斯特拉级联盟锦标赛赛船并继续出价 2080 亿竞购第二条，B 站亦回应“2400e”购船及“两条泰坦刷 6-10”录像，叠加三号长期高频战损与稀有巡洋配置承受力，具备高额流动资金与赛船资产，评 A。",
           "sources": [
             {
               "label": "官方论坛收购贝斯特拉帖子",
               "url": "https://forums.eveonline.com/t/wts-my-bestla/451909"
+            },
+            {
+              "label": "呆呆跃迁扰断器 双泰坦刷6-10投稿",
+              "url": "https://www.bilibili.com/video/BV1TUxieTEBp/"
             }
           ]
         }

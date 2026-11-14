@@ -64,7 +64,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T14:13:26Z",
+      "reviewedAt": "2026-11-14T08:04:18Z",
       "verdict": "早期 FRT 掌管后勤与军纪的核心灭火队长，不替整家公司扣锅的讲理大管家。",
       "axes": {
         "shenren": {
@@ -118,9 +118,13 @@
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "执掌联盟后勤补给大盘，统筹分发庞大战备资产，后勤实力雄厚。",
+          "tier": "D",
+          "reason": "早期 FRT 后勤管理属联盟公务，不计个人财力；个人单号常年驾驶曲剑、奥内罗斯、守卫等常规后勤巡洋舰（生涯仅 78 次船损），未见多开、超旗或个人产业记录，按普通日常自给评 D。",
           "sources": [
+            {
+              "label": "Heavy chest zKillboard",
+              "url": "https://zkillboard.com/character/90851508/"
+            },
             {
               "label": "蜜蜂回忆录",
               "url": "https://forums.winterco.org/t/topic/13924"
@@ -128,6 +132,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "早期管后勤兼开奶船，查事不连坐整团，劝架时定下“回嘴同罪”一起闭麦。"
     }
   }
 }

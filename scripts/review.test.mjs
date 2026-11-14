@@ -252,6 +252,17 @@ test('JSON formatting, key order and fetch date alone do not trigger another rev
   assert.equal(call('card', 'person:demo').state, 'reviewed');
 });
 
+test('radar and alignment edits do not stale person receipts; other person fields do', t => {
+  const { put, call, mark } = fixture(t);
+  mark();
+  const axis = { tier: null, reason: '待考', sources: [] };
+  const radar = { version: 1, reviewedAt: '2026-11-14T00:00:00Z', verdict: '评语。', axes: Object.fromEntries(['shenren', 'combat', 'command', 'charisma', 'politics', 'wealth'].map(key => [key, axis])) };
+  put('src/people/demo/42-id.json', JSON.stringify({ id: 42, name: '甲', fetched_at: '2026-10-24', identity: { alts: [{ name: '小号', id: 43 }] }, person: { radar, alignment: { code: 'CE', note: '判词' } } }));
+  assert.equal(call('card', 'person:demo').state, 'reviewed');
+  put('src/people/demo/42-id.json', JSON.stringify({ id: 42, name: '甲', identity: { alts: [{ name: '小号', id: 43 }] }, person: { tags: ['FC'], alignment: { code: 'LG' } } }));
+  assert.equal(call('card', 'person:demo').state, 'stale');
+});
+
 function combatChecks(setup) {
   const registry = JSON.parse(fs.readFileSync(path.join(setup.root, 'docs/review-features.json')));
   registry.combat.checks = Object.fromEntries(['profile', 'alts', 'peaks', 'battles', 'narrative'].map(key => [key, key]));

@@ -142,16 +142,74 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T11:12:03Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "三十亿罚单在群里谈成，联盟裁决下来又改口；水哥的管理活不只在会议里。",
       "axes": {
-        "shenren": {"tier":"B","reason":"围绕友军事故索取 30B、又在联盟裁决后退回多收部分，争议规模大且公开记录完整；不把单方指控当定论。","sources":[{"label":"30B 罚单争议整理","url":"https://tieba.baidu.com/p/10960868156"}]},
-        "combat": {"tier":"C","reason":"有千余次击杀和长期堵门、随队作战经历，战斗经验高于普通起点。","sources":[{"label":"shikongsa 战斗记录","url":"https://zkillboard.com/character/2122252155/"}]},
-        "command": {"tier":"C","reason":"宁静服有 FC (LOW) 认证，且担任军团管理层；达到具备小队指挥经历的档位。","sources":[{"label":"shikongsa zKillboard 认证","url":"https://zkillboard.com/character/2122252155/"}]},
-        "charisma": {"tier":"D","reason":"材料体现的是职务职责和公开争议，没有稳定追随者或独立号召力证据。","sources":[{"label":"30B 罚单争议整理","url":"https://tieba.baidu.com/p/10960868156"}]},
-        "politics": {"tier":"B","reason":"作为 KZU 管理成员参与联盟层面的处罚协商与成员沟通，承担明显的组织协调职责。","sources":[{"label":"30B 罚单争议整理","url":"https://tieba.baidu.com/p/10960868156"}]},
-        "wealth": {"tier":"D","reason":"争议中的赔款不是个人资产证明，材料没有可靠的个人产业或财富规模记录。","sources":[{"label":"30B 罚单争议整理","url":"https://tieba.baidu.com/p/10960868156"}]}
+        "shenren": {
+          "tier": "B",
+          "reason": "围绕友军事故索取 30B、又在联盟裁决后退回多收部分，争议规模大且公开记录完整；不把单方指控当定论。",
+          "sources": [
+            {
+              "label": "30B 罚单争议整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "有千余次击杀和长期堵门、随队作战经历，战斗经验高于普通起点。",
+          "sources": [
+            {
+              "label": "shikongsa 战斗记录",
+              "url": "https://zkillboard.com/character/2122252155/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "宁静服有 FC (LOW) 认证，且担任军团管理层；达到具备小队指挥经历的档位。",
+          "sources": [
+            {
+              "label": "shikongsa zKillboard 认证",
+              "url": "https://zkillboard.com/character/2122252155/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "材料体现的是职务职责和公开争议，没有稳定追随者或独立号召力证据。",
+          "sources": [
+            {
+              "label": "30B 罚单争议整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "作为 KZU 管理成员参与联盟层面的处罚协商与成员沟通，承担明显的组织协调职责。",
+          "sources": [
+            {
+              "label": "30B 罚单争议整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "争议中的赔款不是个人资产证明，材料没有可靠的个人产业或财富规模记录。",
+          "sources": [
+            {
+              "label": "30B 罚单争议整理",
+              "url": "https://tieba.baidu.com/p/10960868156"
+            }
+          ]
+        }
       }
+    },
+    "alignment": {
+      "code": "NE",
+      "note": "借初判向友军强索三十倍赔款，被联盟翻案改聊天气，转头又找低安低头求搬家。"
     }
   }
 }

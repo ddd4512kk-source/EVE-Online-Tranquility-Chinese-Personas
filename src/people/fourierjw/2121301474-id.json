@@ -1,0 +1,176 @@
+{
+  "id": 2121301474,
+  "name": "FourierJW",
+  "birthday": "2023-06-09T12:31:10Z",
+  "corporation_id": 98772842,
+  "affiliation": {
+    "corporation_id": 98772842,
+    "alliance_id": 99003581,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "start": "2023-06-09T12:31:00Z",
+      "end": "2024-01-25T12:18:00Z"
+    },
+    {
+      "corporation_id": 98696463,
+      "start": "2024-01-25T12:18:00Z",
+      "end": "2024-05-23T11:45:00Z"
+    },
+    {
+      "corporation_id": 98772842,
+      "start": "2024-05-23T11:45:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-14",
+  "person": {
+    "cn_name": "傅里叶",
+    "aliases": [
+      "傅老板",
+      "叶大将",
+      "小傅"
+    ],
+    "epithet": "把招生群从曙光背到欧服，打架五开也记得催人穿秋裤。",
+    "tags": [
+      "00区",
+      "FRT",
+      "FC",
+      "B站"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-14T14:05:00Z",
+      "verdict": "前排带队兼五开下场，自己开上泰坦还不忘在B站替光点招生催秋裤。",
+      "axes": {
+        "shenren": {
+          "tier": "D",
+          "reason": "偶有“老毕登”自嘲、拍片催穿秋裤，及在小号简介沿用向威廉院长甩锅的团内玩梗，整体言行守序无出格争议。",
+          "sources": [
+            {
+              "label": "傅里叶JW B站频道",
+              "url": "https://space.bilibili.com/354497784/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主号与两只已确认小号合计七千六百余次击杀、近五万亿 ISK 击毁，曾五开火力巡洋实战并在艾蒂斯多开重创对耗，具高活跃资深实战积累。",
+          "sources": [
+            {
+              "label": "FourierJW zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121301474/"
+            },
+            {
+              "label": "老毕登5开火力狂热戴莫斯队第一视角",
+              "url": "https://www.bilibili.com/video/BV1piehzfEGd/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "zKB 标有 FC(HIGH)，2026 年 4 月至 11 月连续留下七十余条监视者出勤记录并长期驾驶指挥舰随百人至两百人以上主力编队参战，属稳定指挥骨干。",
+          "sources": [
+            {
+              "label": "FourierJW zKillboard 战绩",
+              "url": "https://zkillboard.com/character/2121301474/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "B站“傅里叶JW”积累稳定观众缘，评论区熟人互叫“傅老板”“叶大将”，且从曙光到欧服一直作为光点学院招新窗口对接新人。",
+          "sources": [
+            {
+              "label": "纪念自己在欧服第一条泰坦同时庆祝光点欧服成立1周年",
+              "url": "https://www.bilibili.com/video/BV1W9JzzEEAT/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "C",
+          "reason": "自 2023 年曙光光环联盟时期起持续承担光点学院招新联系并带队迁往欧服 FRT，多名团员暂A或托管账号直接指定其为联系人。",
+          "sources": [
+            {
+              "label": "傅里叶JW B站频道",
+              "url": "https://space.bilibili.com/354497784/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "A",
+          "reason": "B站公开视频实录欧服第一条个人泰坦并参与泰坦超旗舰队拆迁星城（纯保底 B），叠加“老毕登5开火力狂热戴莫斯队”独立五开 PVP 实操与多号常规高频损耗（独立非保底 B），依 B 保底＋独立非保底 B 相加评 A。",
+          "sources": [
+            {
+              "label": "纪念自己在欧服第一条泰坦同时庆祝光点欧服成立1周年",
+              "url": "https://www.bilibili.com/video/BV1W9JzzEEAT/"
+            },
+            {
+              "label": "老毕登5开火力狂热戴莫斯队第一视角",
+              "url": "https://www.bilibili.com/video/BV1piehzfEGd/"
+            }
+          ]
+        }
+      }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "带大队、搞招新、替暂A团友看号，小号简介还不忘把一切行为甩锅给威廉院长。"
+    }
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2122305510,
+        "name": "JW001",
+        "basis": "2024-05-05 建号，与主号 FourierJW 同样先后加入 Light Spot Poacher 与 New Eden Light Point College，军团头衔直书“傅里叶”，号名带 JW 后缀。",
+        "sources": [
+          "materials-fourierjw.json#identity-and-alts"
+        ],
+        "zkb": {
+          "kills": 2348,
+          "lost": 240,
+          "isk_destroyed": 2142232199069,
+          "last_active": "2026-11",
+          "as_of": "2026-11-14",
+          "fc": null
+        }
+      },
+      {
+        "id": 2123399331,
+        "name": "Vanquisher Avatar Komodo",
+        "basis": "2025-05-04 在光点一周年暨主号第一条泰坦发片前两周建号，军团头衔直书“傅里叶”且无代管标记，仅入团于 New Eden Light Point College。",
+        "sources": [
+          "materials-fourierjw.json#identity-and-alts"
+        ],
+        "zkb": {
+          "kills": 844,
+          "lost": 15,
+          "isk_destroyed": 247020554735,
+          "last_active": "2026-11",
+          "as_of": "2026-11-14",
+          "fc": null
+        }
+      }
+    ],
+    "accounts": {},
+    "zkb": {
+      "kills": 4483,
+      "lost": 144,
+      "isk_destroyed": 2564793745303,
+      "last_active": "2026-11",
+      "as_of": "2026-11-14",
+      "fc": {
+        "tag": "FC(HIGH)",
+        "level": "high",
+        "score": 160,
+        "monitor": 13,
+        "command_ship": 213,
+        "large_fleet": 685
+      }
+    }
+  }
+}

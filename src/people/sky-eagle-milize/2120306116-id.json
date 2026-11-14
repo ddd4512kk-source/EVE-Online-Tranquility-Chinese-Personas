@@ -55,16 +55,20 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "教人认路，堵门队却不肯让路。",
       "axes": {
         "shenren": {
-          "tier": "C",
-          "reason": "带队撞堵门是轻度糗事，教学本身不加神人分。",
+          "tier": "E",
+          "reason": "在B站系统制作五期PVP入门教程并专门提醒新人防范陌生邀请骗局，答疑时引向EVE大学词条且坦诚自身认知盲区；常规带队撞堵门属正常实战而非黑料或整活。",
           "sources": [
             {
-              "label": "列传相关资料",
-              "url": "https://www.bilibili.com/video/BV1G8eN6oEXz/"
+              "label": "PVP入门系列第一期",
+              "url": "https://www.bilibili.com/video/BV1CXeD6BEvp/"
+            },
+            {
+              "label": "请不要使用陌生人注册链接防骗指南",
+              "url": "https://www.bilibili.com/video/BV1Tzas6vE1Y/"
             }
           ]
         },
@@ -119,6 +123,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "长期跟大队出勤，还做免费 PVP 入门课、带队撞门也照实认。"
     }
   }
 }

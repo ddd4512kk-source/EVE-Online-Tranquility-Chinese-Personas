@@ -42,7 +42,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "旧团沉船九小时，新团先挂起招牌。",
       "axes": {
         "shenren": {
@@ -100,16 +100,24 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "团队福利与双号投入有余，未见雄厚个人产业。",
+          "tier": "A",
+          "reason": "zKB stats（2118729398）证实其实际驾驶长须鲸级“大鱼”工业主力舰出勤（独立 B）并驾驶过冥府级超级航母（C），叠加创办执掌 855 角色昆仑军团 CEO（C）与双号 4,143 杀/576 损投入（C），B+C→A。",
           "sources": [
             {
               "label": "军团福利与金库储备",
               "url": "https://esi.evetech.net/latest/characters/2119032128/"
+            },
+            {
+              "label": "YAGAHA zKillboard 常用船统计",
+              "url": "https://zkillboard.com/character/2118729398/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "星华翻船九小时后拉起昆仑扛住八百人，给新人发启动钱还按规则打官司。"
     }
   },
   "identity": {

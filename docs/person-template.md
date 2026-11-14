@@ -21,7 +21,7 @@
 
 别称与小号分别维护：`person.aliases` 是外号，`identity.alts` 每项必须带 ID、实际角色名和来源，不重复填写。字段和平台账号见 [人物身份数据](person-identity.md)。更新时间由正文 Git 历史自动计算。
 
-雷达图属于[独立组件](person-radar.md#组件边界)，不在本模板或人物档案中录入评分，不作为列传写作与验收要求。
+雷达图与九宫格阵营属于独立组件，分别按[六维品评](person-radar.md#组件边界)和[九宫格阵营](person-alignment.md)写入档案 `person.radar`、`person.alignment`，不在本正文模板中录入，也不作为正文验收要求。
 
 ## 正文示例
 

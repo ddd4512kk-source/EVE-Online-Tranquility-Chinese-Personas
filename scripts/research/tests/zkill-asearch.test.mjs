@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildFilters, parseInput, focusMatcher } from '../zkill-asearch.mjs';
+import { buildFilters, parseInput, focusMatcher, parseTopList } from '../zkill-asearch.mjs';
 
 test('网址 # 后的筛选原样译成查询参数，不漏船型项', () => {
   const hash = parseInput('https://zkillboard.com/asearch/#' + encodeURIComponent(JSON.stringify({
@@ -13,8 +13,16 @@ test('网址 # 后的筛选原样译成查询参数，不漏船型项', () => {
   assert.deepEqual(filters.labels, ['ganked', 'attackers-aand', 'items-and']);
   assert.equal(filters.epochbtn, 'custom');
   assert.deepEqual(filters.epoch, { start: '2020-01-01T21:19', end: '2023-09-08T21:19' });
-  assert.deepEqual(filters.radios, { sort: { sortBy: 'isk', sortDir: 'asc' } });
+  assert.deepEqual(filters.radios, { sort: { sortBy: 'isk', sortDir: 'asc' }, 'group-agg-type': 'victims only' });
   assert.equal(filters.includeAssociates, true);
+  assert.deepEqual(buildFilters({ buttons: ['alltime'] }).radios, { sort: { sortBy: 'date', sortDir: 'desc' } });
+});
+
+test('侧栏排行 HTML 解析出 ID、名字与次数，跳过头像行', () => {
+  const row = (id, name, count) => `<tr class="grouping-character"><td class="deepfilter"><input class="topfilter" type="checkbox" data-filter-type="character" data-filter-id="${id}" /></td><td><a class="wrapplease" href="/character/${id}/">${name}</a></td><td style="text-align: right;" raw="${count}">${count}</td></tr>`;
+  const html = '<table><tr><td colspan="3"><a href="/character/1/"><img alt="A" /></a></td></tr>' + row(1, 'Alpha', 27) + row(2, 'I don&#039;t eat', 3) + '</table>';
+  assert.deepEqual(parseTopList(html), [{ rank: 1, id: 1, name: 'Alpha', count: 27 }, { rank: 2, id: 2, name: "I don't eat", count: 3 }]);
+  assert.deepEqual(parseTopList('<div>Top Characters</div>'), []);
 });
 
 test('时间预设换算成 UTC 起止，未选时同网页默认 7 天', () => {

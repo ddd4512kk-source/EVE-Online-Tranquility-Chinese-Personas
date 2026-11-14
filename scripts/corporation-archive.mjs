@@ -8,7 +8,10 @@ import { materialPath } from './material-document.mjs';
 
 export const DIRECTORY = 'docs/corporations';
 const ID = /^[1-9]\d*$/;
-const SCOPES = ['all-time', 'recent', 'monthly', 'monitor-monthly'];
+const SCOPES = ['all-time', 'recent', 'monthly', 'monitor-monthly', 'titan-all-time'];
+// 驾驶员名单：一次取全，不设Top 100，可按需重跑；上限同 zKillboard 侧栏排行的500行。
+export const ROSTER_SCOPES = ['titan-all-time'];
+export const ROSTER_LIMIT = 500;
 const fold = value => String(value).normalize('NFKC').toLowerCase();
 const files = (root, directory) => fs.existsSync(path.join(root, directory)) ? fs.readdirSync(path.join(root, directory)).sort() : [];
 const load = (root, file) => {
@@ -25,9 +28,9 @@ const HELP = `离线查询军团档案、固定历史 Top 100 与共享角色调
   source <来源key>         分页读取历史原表，未定军团ID也保留原行
   check                    校验结构、关联、来源和本地引用；全程离线
 
-选项：--scope monthly / all-time / recent / monitor-monthly，--period YYYY-MM，
+选项：--scope monthly / all-time / recent / monitor-monthly / titan-all-time，--period YYYY-MM，
       --limit 10（最多100），--offset 0，--alliance（仅 show / members）
-榜单目标固定 Top 100；limit 只控制查询分页，不改变调查范围。
+榜单目标固定 Top 100（titan-all-time 是全时段泰坦驾驶员全名单，不限100）；limit 只控制查询分页，不改变调查范围。
 已有 all-time 只作固定 hint，不刷新；缺失档案与第51—100名调查留待另行处理。
 取得、名片记录、身份、故事、归档与入文不互相推定；旧结论不覆盖正式人物身份。
 
@@ -223,10 +226,12 @@ export function checkArchive(root) {
       const key = `${organization.kind}:${organization.id}:${ranking.scope}:${ranking.period}`;
       if (seen.has(key)) fail(`${label}：榜单重复 ${key}`);
       seen.add(key);
-      if (!SCOPES.includes(ranking.scope) || ranking.target !== 100 || ranking.refresh !== 'never' || ranking.purpose !== 'hint') fail(`${label}：榜单口径、Top 100或固定hint约束错误`);
+      const roster = ROSTER_SCOPES.includes(ranking.scope), cap = roster ? ROSTER_LIMIT : 100;
+      if (!SCOPES.includes(ranking.scope) || (roster ? ranking.target !== null || ranking.refresh !== 'on-demand' || ranking.purpose !== 'roster'
+        : ranking.target !== 100 || ranking.refresh !== 'never' || ranking.purpose !== 'hint')) fail(`${label}：榜单口径、Top 100／全名单或固定hint约束错误`);
       const monthly = ranking.scope.includes('monthly');
       if (monthly ? !/^\d{4}-(0[1-9]|1[0-2])$/.test(ranking.period ?? '') : ranking.period !== null) fail(`${label}：月份口径错误`);
-      if (!Array.isArray(ranking.entries) || ranking.entries.length > 100) fail(`${label}：榜单须为至多100条的数组`);
+      if (!Array.isArray(ranking.entries) || ranking.entries.length > cap) fail(`${label}：榜单须为至多${cap}条的数组`);
       if (!ranking.acquisition || !['captured', 'partial', 'unknown'].includes(ranking.acquisition.state)) fail(`${label}：取得状态错误`);
       const available = ranking.acquisition.available_count;
       if (available !== null && (!Number.isSafeInteger(available) || available < ranking.entries.length)) fail(`${label}：来源数量错误`);
@@ -234,7 +239,7 @@ export function checkArchive(root) {
       if (!Array.isArray(ranking.references)) fail(`${label}：榜单引用须为数组`);
       const ranks = new Set(), ids = new Set();
       for (const entry of ranking.entries) {
-        if (!Number.isSafeInteger(entry.rank) || entry.rank < 1 || entry.rank > 100 || ranks.has(entry.rank) || ids.has(entry.character_id)) fail(`${label}：名次或角色重复／越界`);
+        if (!Number.isSafeInteger(entry.rank) || entry.rank < 1 || entry.rank > cap || ranks.has(entry.rank) || ids.has(entry.character_id)) fail(`${label}：名次或角色重复／越界`);
         if (typeof entry.character_id !== 'string' || !characters[entry.character_id]) fail(`${label}：角色 ${entry.character_id} 无共享记录`);
         if (typeof entry.kills !== 'string' || (entry.isk !== null && typeof entry.isk !== 'string')) fail(`${label}：历史数值须保留原始字符串`);
         ranks.add(entry.rank); ids.add(entry.character_id); entries++;

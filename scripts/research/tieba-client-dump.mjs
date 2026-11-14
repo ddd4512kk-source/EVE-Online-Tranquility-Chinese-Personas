@@ -4,8 +4,11 @@ import { researchFetch } from "./request-guard.mjs";
 // 加 --images <最多楼层> <输出目录> 时，同时下载前若干楼的原图，供人工看截图（截图常有角色名、聊天记录和雇佣记录）。
 // 文末汇总正文里贴出的游戏聊天记录（[ 2025.02.28 13:44:48 ] 某某 > ……）的发言人，作者自己的角色名常在其中。
 // 输出可能含现实隐私，只在临时目录使用，整理后再归档。
+// 输出正文后自动把该帖在 docs/tieba/ 登记为已读（未建档的顺带建档）。
 import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
+import path from "node:path";
+import { recordRead } from "../tieba-archive.mjs";
 
 const args = process.argv.slice(2);
 const file = args[0];
@@ -60,6 +63,11 @@ if (speakers.size) {
   console.log("\n## 正文贴出的聊天记录发言人（核对作者角色名）");
   for (const [name, floors] of speakers) console.log(`- ${name}：${floors.map((floor) => `#${floor}`).join(" ")}`);
 }
+try {
+  // TIEBA_ARCHIVE_DIR 供测试指向临时档案目录。
+  const marked = await recordRead(path.resolve(file), process.env.TIEBA_ARCHIVE_DIR ? { directory: process.env.TIEBA_ARCHIVE_DIR } : {});
+  console.error(`贴吧档案 ${marked.thread_id}：${marked.created ? "新建并" : ""}标为已读`);
+} catch (error) { console.error(`贴吧档案未更新：${error.message}`); process.exitCode = 2; }
 
 if (imageIndex >= 0) {
   const maxFloor = Number(args[imageIndex + 1]);

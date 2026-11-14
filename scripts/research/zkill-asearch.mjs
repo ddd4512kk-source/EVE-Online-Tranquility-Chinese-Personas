@@ -1,8 +1,10 @@
 // 跑一条 zKillboard 高级搜索（asearch），取全部击杀 ID，再用 zKB API + ESI 补全最新 N 张 KM。
 // node scripts/research/zkill-asearch.mjs <asearch URL 或 # 后的 JSON> <.cache/输出前缀> [--details N=100] [--ids-only] [--pages N]
+// node scripts/research/zkill-asearch.mjs <同上> <.cache/输出前缀> --top character   （只取网页侧栏排行，一次请求）
 // 网页上调好的链接可原样使用：脚本按站点 asearch.js 的规则把 # 后的 JSON 直接译成查询参数，
 // 浏览器只用来通过 Cloudflare（页面自身异步载入筛选项，读它的状态会漏项）。
-// 输出 <前缀>.json（筛选条件、ID、逐张 KM）与 <前缀>.tsv（一行一张，含筛选点名者当时所开船）。
+// 输出 <前缀>.json（筛选条件、ID、逐张 KM）与 <前缀>.tsv（一行一张，含筛选点名者当时所开船）；
+// --top 时输出侧栏排行（一行一个角色／军团等，次数为命中 KM 张数）。
 import fs from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { zkillUrl, cachePrefix, connectZkillChrome, openZkillPage, waitZkillReady } from './zkill-chrome.mjs';
@@ -29,10 +31,25 @@ export function buildFilters(hash, now = new Date()) {
   let epoch = { start: hash.dtstart || '', end: hash.dtend || '' };
   if (ranges[epochbtn]) { epoch = { start: fmt(ranges[epochbtn][0]), end: fmt(ranges[epochbtn][1]) }; epochbtn = 'custom'; }
   const list = key => (hash[key] || []).map(({ type, id }) => ({ type, id: Number(id) }));
+  // 侧栏排行只算攻击方／受害者；不影响击杀列表。
+  const agg = buttons.includes('attackersonly') ? 'attackers only' : buttons.includes('victimsonly') ? 'victims only' : '';
   return {
     location: list('location'), attackers: list('attackers'), neutrals: list('neutrals'), victims: list('victims'), items: list('items'),
-    labels, epochbtn, epoch, radios: { sort: { sortBy, sortDir } }, includeAssociates: hash.includeAssociates === true,
+    labels, epochbtn, epoch, radios: { sort: { sortBy, sortDir }, ...(agg && { 'group-agg-type': agg }) }, includeAssociates: hash.includeAssociates === true,
   };
+}
+
+// 侧栏排行的分组（同站点 asearch.js 的 types）。
+export const TOP_TYPES = ['character', 'corporation', 'alliance', 'faction', 'shipType', 'group', 'location', 'solarSystem', 'region'];
+export const TOP_LIMIT = 500; // 服务器每个排行最多返回 500 行。
+
+// 解析 queryType=groups 返回的排行 HTML：每行一个勾选框（带 ID）、一个名字链接、一个次数。
+export function parseTopList(html) {
+  const decode = text => text.replace(/&#0*39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  return html.split('<tr class="grouping-').slice(1).map(row => {
+    const id = row.match(/data-filter-id="(\d+)"/), name = row.match(/class="wrapplease"[^>]*>([^<]*)</), count = row.match(/raw="(\d+)"/);
+    return id && count ? { id: Number(id[1]), name: decode(name?.[1] || '').trim(), count: Number(count[1]) } : null;
+  }).filter(Boolean).map((row, index) => ({ rank: index + 1, ...row }));
 }
 
 export function parseInput(input) {
@@ -134,6 +151,26 @@ async function queryKills(page, filters, pages) {
   return { ids: [...ids].sort((a, b) => b - a), truncatedWindows, requests };
 }
 
+// 侧栏排行：服务器整段聚合，一次请求拿全体命中者，不必逐张补全 KM。
+export async function queryTop(page, filters, groupType) {
+  const data = { ...filters, queryType: 'groups', groupType };
+  for (let attempt = 0; attempt < 40; attempt++) {
+    const result = await page.evaluate(async data => {
+      const response = await fetch('/asearchquery/?' + $.param(data));
+      return { status: response.status, body: response.status === 200 ? await response.text() : '' };
+    }, data, 90000);
+    if (result.status === 202) { await sleep(3000); continue; }
+    if (result.status !== 200) throw new Error(`asearchquery groups ${result.status}`);
+    if (result.body.trim().startsWith('{')) {
+      const json = JSON.parse(result.body);
+      if (json.timedOut) return { timedOut: true, rows: [] };
+      throw new Error(`asearchquery groups 返回意外内容：${result.body.slice(0, 200)}`);
+    }
+    return { timedOut: false, rows: parseTopList(result.body) };
+  }
+  throw new Error('asearchquery groups 排队超时');
+}
+
 async function main(argv) {
   const args = [...argv];
   const flag = name => { const i = args.indexOf(name); return i < 0 ? undefined : args.splice(i, 2)[1]; };
@@ -141,9 +178,10 @@ async function main(argv) {
   const maxPages = Math.max(1, Math.min(10, Number(flag('--pages') || 10)));
   // 每张 KM 补全要两次请求；命中太多说明筛选不够精确，先收紧筛选，而不是全量补全。
   const maxDetails = Math.max(0, Number(flag('--details') ?? 100));
+  const top = flag('--top');
   const [input, output] = args;
-  if (!input || !output) {
-    console.error('用法：node scripts/research/zkill-asearch.mjs <asearch URL 或 # 后的 JSON> <.cache/输出前缀> [--details N=100] [--ids-only] [--pages N]');
+  if (!input || !output || (top !== undefined && !TOP_TYPES.includes(top))) {
+    console.error('用法：node scripts/research/zkill-asearch.mjs <asearch URL 或 # 后的 JSON> <.cache/输出前缀> [--details N=100] [--ids-only] [--pages N] [--top ' + TOP_TYPES.join('|') + ']');
     process.exit(1);
   }
   const hash = parseInput(input);
@@ -155,8 +193,9 @@ async function main(argv) {
   let query, page;
   try {
     page = await openZkillPage(context, 'https://zkillboard.com/asearch/');
-    if (await waitZkillReady(page, page => page.evaluate(() => typeof $ === 'function' && typeof $.param === 'function'))) query = await queryKills(page, filters, maxPages);
-    else await page.screenshot({ path: `${prefix}-blocked.png` }).catch(() => {});
+    if (await waitZkillReady(page, page => page.evaluate(() => typeof $ === 'function' && typeof $.param === 'function'))) {
+      query = top ? await queryTop(page, filters, top) : await queryKills(page, filters, maxPages);
+    } else await page.screenshot({ path: `${prefix}-blocked.png` }).catch(() => {});
   } finally {
     // 关掉本次标签并断开 CDP，保留独立 Chrome 窗口及 profile。
     await page?.close().catch(() => {});
@@ -165,6 +204,20 @@ async function main(argv) {
   if (!query) {
     console.error('浏览器验证尚未通过，停止；未取得结果，不刷新或切换出口。');
     process.exitCode = 2;
+    return;
+  }
+  if (top) {
+    if (query.timedOut) {
+      console.error('服务器聚合超时，未取得排行；收紧筛选或加时间段（custom + dtstart/dtend）后再跑。');
+      process.exitCode = 3;
+      return;
+    }
+    const truncated = query.rows.length >= TOP_LIMIT;
+    fs.writeFileSync(`${prefix}.json`, JSON.stringify({ source, fetched_at: new Date().toISOString(), filters, top, truncated, rows: query.rows }, null, 2));
+    fs.writeFileSync(`${prefix}.tsv`, [['rank', 'id', 'name', 'count'], ...query.rows.map(row => [row.rank, row.id, row.name, row.count])].map(row => row.join('\t')).join('\n') + '\n');
+    console.log(`排行 ${query.rows.length} 条${truncated ? `（已到 ${TOP_LIMIT} 条上限，结果不全）` : ''}；保存 ${output}.tsv`);
+    // 含关联者时，排行算的是命中 KM 上的全部参与者，不只是筛选点名的人。
+    if (filters.includeAssociates) console.log('注意：includeAssociates 为真，排行含命中 KM 上的全部参与者；要“谁开了这船”去掉它');
     return;
   }
   const result = { source, fetched_at: new Date().toISOString(), filters, truncated_windows: query.truncatedWindows, ids: query.ids, kills: [], failed: [] };

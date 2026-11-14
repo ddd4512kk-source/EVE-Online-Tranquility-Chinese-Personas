@@ -162,7 +162,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "队伍一场接一场，觉还得找时间补。",
       "axes": {
         "shenren": {
@@ -216,8 +216,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "长期承担主力舰队战损，未见支撑巨额个人产业的材料。",
+          "tier": "B",
+          "reason": "已核实 346 个 Monitor 日期与 8 场主要会战带队记录（cmd=S），按著名 FC 默认持有个人泰坦保底评 B；未见大型工业或独立个人产业实证，不叠加升 A。",
           "sources": [
             {
               "label": "JJ SoulMate zKillboard",
@@ -226,6 +226,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "CE",
+      "note": "带队勤快到睡不着，转走面基好友军团的两座铁壁也不手软。"
     }
   }
 }

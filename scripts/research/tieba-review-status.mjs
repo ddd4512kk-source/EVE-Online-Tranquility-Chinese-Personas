@@ -23,5 +23,5 @@ try {
     await writeFile(file, JSON.stringify(merged, null, 2) + '\n');
     synced++;
   }
-  console.log(JSON.stringify({ synced, unregistered, note: '只同步取得范围；未登记帖须先建正式档案，人工结论未修改' }));
+  console.log(JSON.stringify({ synced, unregistered, note: '只同步取得范围，阅读状态未修改；未登记帖读过后用 mark-read 建档' }));
 } catch (error) { console.error(error.message); process.exitCode = 1; }

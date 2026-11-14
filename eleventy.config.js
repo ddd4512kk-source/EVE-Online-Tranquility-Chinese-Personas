@@ -7,6 +7,7 @@ import { corpAlliance, corpAllianceChips, corpBattles, corpKey, corpMembers, cor
 import { formatIsk } from './scripts/battles.mjs';
 import { identityNames } from './scripts/person-identity.mjs';
 import { RADAR_AXES } from './scripts/person-radar.mjs';
+import { alignmentCounts } from './scripts/person-alignment.mjs';
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = n => String(n).padStart(2, '0');
@@ -190,6 +191,7 @@ export default function (eleventyConfig) {
     people.find(p => p.data.character_id === Number(id)),
   );
   eleventyConfig.addFilter('statusChips', statusChips);
+  eleventyConfig.addFilter('alignmentCounts', people => alignmentCounts(people.map(p => p.data.alignment?.code))); // 首页阵营筛选人数
   eleventyConfig.addFilter('groupCorps', groupCorps);
   eleventyConfig.addFilter('corpAlliance', corpAlliance);
   eleventyConfig.addFilter('corpAllianceChips', corpAllianceChips);

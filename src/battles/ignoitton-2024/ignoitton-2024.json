@@ -178,7 +178,18 @@
         "author": "NoNoOwO",
         "description": "标题把这场概括为“16亿的月矿矿机引发的2万亿惨案”。"
       }
-    ]
+    ],
+    "cover": "https://www.youtube.com/watch?v=n4_YmGOFdYo",
+    "coverEdit": {
+      "erase": [
+        [20, 18, 860, 62],
+        [20, 82, 740, 56]
+      ],
+      "lines": [
+        { "text": "月面诱导瞬间亮起", "size": 56, "x": 32, "y": 78 },
+        { "text": "几十条无畏铺满整片网格", "size": 34, "x": 32, "y": 128 }
+      ]
+    }
   },
   "br": {
     "sources": ["https://br.evetools.org/related/30002647/202407142000"],

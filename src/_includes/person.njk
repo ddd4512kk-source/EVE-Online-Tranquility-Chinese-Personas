@@ -5,10 +5,12 @@ bodyClass: page-person
 {%- set prev = collections.people | getPreviousCollectionItem(page) -%}
 {%- set next = collections.people | getNextCollectionItem(page) -%}
 {%- set battles = collections.battles | battlesOf(character_id, content) -%}
+{%- from "person-alignment.njk" import alignTab, alignFact -%}
 {%- set backHref = '/' %}{% set backLabel = '返回目录' %}
 {% include "back.njk" %}
 <article class="bio" data-pagefind-body{% if collections.battles.length %} data-pagefind-filter="板块:列传"{% endif %}>
-  <header class="bio-head">
+  <header class="bio-head{% if alignment %} al-frame{% endif %}"{% if alignment %} data-align="{{ alignment.code }}"{% endif %}>
+    {%- if alignment %}{{ alignTab(alignment) }}{% endif %}
     <span class="status-frame status-frame-lg status-{{ activity.state }}{% if famous %} is-famous{% endif %}{% if tycoon %} is-tycoon{% endif %}{% if shenren %} is-shenren{% endif %}{% if upzhu %} is-upzhu{% endif %}"{% if activityLabel %} title="{{ activityLabel }}"{% endif %}>
       <img class="portrait portrait-lg" src="{{ ('/portraits/' + character_id + '.jpg') | url }}" alt="{{ char.name }} 的头像" width="160" height="160" data-pagefind-meta="image[src]">
       {%- if famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ famous }}">名</span>{% endif %}
@@ -38,6 +40,7 @@ bodyClass: page-person
       {%- if shenren %}{% if sep %} · {% endif %}<span class="status-text status-text-shenren">神人：{{ shenren }}</span>{% set sep = true %}{% endif -%}
       {%- if upzhu %}{% if sep %} · {% endif %}<span class="status-text status-text-upzhu">{{ upzhuLabel }}</span>{% endif -%}
     </dd></div>{% endif %}
+    {% if alignment %}{{ alignFact(alignment) }}{% endif %}
     {% if labels.length %}<div><dt>标签</dt><dd class="chips">{% for t in labels %}<a class="chip" href="{{ ('/tags/' + t + '/') | url }}">{{ t }}</a>{% endfor %}</dd></div>{% endif %}
     {% if battles.length %}<div><dt>战役</dt><dd class="battle-list-wrap person-battles">
       <ul class="battle-list" id="person-battles">{% for b in battles %}<li><a class="chip" href="{{ b.url | url }}"><span>{{ b.data.title }}</span><small>{{ b.data.tier.name }}</small></a></li>{% endfor %}</ul>

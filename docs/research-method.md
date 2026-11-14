@@ -46,7 +46,7 @@
 - 明确国服且无独立欧服交集的标【国服排除】，撤出待收录队列，留简短来源摘要防止重复误收。
 - 服务器不明的标【服务器待核】，不直接转为欧服故事；找不到欧服角色时，不把国服 ID 当中文外号。
 
-正式处理状态统一在[贴吧档案](tieba/README.md)：每帖一个JSON，扫描范围记`scans.json`。先用`npm run tieba -- list`或`show <帖号>`查询，读后更新人工范围、图片缺口、归档与下一步；不另建日期命名的Markdown／TSV队列。
+正式处理状态统一在[贴吧档案](tieba/README.md)：每帖一个JSON，扫描范围记`scans.json`。先用`npm run tieba -- list`或`show <帖号>`查询，跳过已读帖。`tieba-client-dump.mjs`读帖时自动登记为已读；不经 dump 读的帖子，读完跑`npm run tieba -- mark-read <缓存.json>`。不另建日期命名的Markdown／TSV队列。
 
 首选匿名客户端工具，不弹验证码（批量回查与续跑见[工具细节](research-tools.md#贴吧批量回查)）：
 

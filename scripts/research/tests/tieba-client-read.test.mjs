@@ -67,7 +67,7 @@ test('倒序从真正末页开始，页数限制保留缺口',async()=>{
 test('正倒序跨全部页，楼中楼超过30条继续翻页并去重',async()=>{
  const r=await run(['all','--both']);try{
   assert.equal(r.failure,undefined);assert.deepEqual(r.data.coverage.orders.reverse.page_numbers,[3,2,1]);assert.equal(r.data.complete,true);assert.equal(r.data.coverage.main_posts,3);assert.equal(r.data.coverage.subposts_fetched,31);
-  const printed=await exec(process.execPath,[dump,r.output]);assert.equal((printed.stdout.match(/#3 pid=/g)||[]).length,1);assert.match(printed.stdout,/楼中楼30/);assert.match(printed.stdout,/uid 99/);
+  const printed=await exec(process.execPath,[dump,r.output],{env:{...process.env,TIEBA_ARCHIVE_DIR:r.dir}});assert.equal((printed.stdout.match(/#3 pid=/g)||[]).length,1);assert.match(printed.stdout,/楼中楼30/);assert.match(printed.stdout,/uid 99/);
  }finally{await rm(r.dir,{recursive:true,force:true});}
 });
 test('接口宣称数高于可见楼中楼时不得标记完整',async()=>{

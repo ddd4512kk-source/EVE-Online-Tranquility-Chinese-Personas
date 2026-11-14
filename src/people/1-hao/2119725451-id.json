@@ -74,7 +74,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T03:25:00Z",
       "verdict": "资本家的招牌很响，客服还是自己当。",
       "axes": {
         "shenren": {
@@ -128,16 +128,20 @@
           ]
         },
         "wealth": {
-          "tier": "S",
-          "reason": "五级任务与燃烧任务教学，能按小时核算高额收益。",
+          "tier": "C",
+          "reason": "拥有三号并组织耶舒尔五级任务合作社，发布五级、燃烧及势力战争系列攻略；实操与教学同类基准不叠加，无高风险 PVP 损船、大鱼或工业实证，封顶 C。",
           "sources": [
             {
-              "label": "列传相关资料",
+              "label": "五级与燃烧任务教学资料",
               "url": "https://www.bilibili.com/video/BV1hPzfYXEFF/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "把五级任务做成合作社，资本家招牌下还得自己当新人客服。"
     }
   }
 }

@@ -48,7 +48,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T15:30:00Z",
+      "reviewedAt": "2026-11-14T18:30:00Z",
       "verdict": "FRT Holding法人CEO，撰写凛冬编年史，随手禁言24小时误删投诉帖喜提台风同道姐妹诗的女王陛下。",
       "axes": {
         "shenren": {
@@ -102,8 +102,8 @@
           ]
         },
         "wealth": {
-          "tier": "A",
-          "reason": "执掌联盟执政军团行政资源与资产盘子。",
+          "tier": "B",
+          "reason": "长期担任凛冬执政军团 FRT Holding 的挂名 CEO 与联盟群务管理，具备执政公司管理保底（B），但无个人旗舰、多开或工业经营记录支撑 A 档。",
           "sources": [
             {
               "label": "Fraternity Holding 军团档案",
@@ -112,6 +112,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "执掌执政团还兼修凛冬编年史，只是管起群来懒得解释直接禁言一天。"
     }
   }
 }

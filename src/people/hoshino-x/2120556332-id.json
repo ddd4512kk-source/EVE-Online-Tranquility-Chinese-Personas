@@ -61,7 +61,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T15:39:02Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "星烨：普通表现以 D 为起点，突出项按已有列传记录上调。",
       "axes": {
         "shenren": {
@@ -115,8 +115,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "列传未见超出日常配船的经营或资源运作，按常人基准 D。",
+          "tier": "C",
+          "reason": "ESI 与列传证实实际接手运营 599 角色规模 Emperor Scythes 军团 CEO（50–999 人 CEO 保底 C）并负责退役成员资产交接，未见高阶个人产业，由 D 升 C。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",
@@ -125,6 +125,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "自称摆烂王，真到军团分家时照样接下资产交接和前线出勤的差事。"
     }
   }
 }

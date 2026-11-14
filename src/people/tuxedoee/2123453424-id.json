@@ -56,40 +56,82 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T08:00:00Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "两百万 LP 准备换月卡，最后交了五天的新手社交学费。",
       "axes": {
         "shenren": {
           "tier": "D",
           "reason": "把警告当作当场纠正，错频道、懒换船和处罚争论都属常见新人误会，评平淡常人档 D。",
-          "sources": [{ "label": "混沌反招新帖", "url": "https://tieba.baidu.com/p/9745245593" }]
+          "sources": [
+            {
+              "label": "混沌反招新帖",
+              "url": "https://tieba.baidu.com/p/9745245593"
+            }
+          ]
         },
         "combat": {
           "tier": "D",
           "reason": "十人杆子用驱逐代替要求的巡洋舰，自己承认图省事；这是有记录的基础执行失误，战绩仅两杀。",
-          "sources": [{ "label": "混沌反招新帖", "url": "https://tieba.baidu.com/p/9745245593" }, { "label": "tuxedoee zKillboard", "url": "https://zkillboard.com/character/2123453424/" }]
+          "sources": [
+            {
+              "label": "混沌反招新帖",
+              "url": "https://tieba.baidu.com/p/9745245593"
+            },
+            {
+              "label": "tuxedoee zKillboard",
+              "url": "https://zkillboard.com/character/2123453424/"
+            }
+          ]
         },
         "command": {
           "tier": "D",
           "reason": "五天新人团员，曾切错语音频道且没认出 FC；zKillboard 无 FC 认证，有基础舰队协同经历但仍在新手级。",
-          "sources": [{ "label": "tuxedoee zKillboard", "url": "https://zkillboard.com/character/2123453424/" }, { "label": "混沌反招新帖", "url": "https://tieba.baidu.com/p/9745245593" }]
+          "sources": [
+            {
+              "label": "tuxedoee zKillboard",
+              "url": "https://zkillboard.com/character/2123453424/"
+            },
+            {
+              "label": "混沌反招新帖",
+              "url": "https://tieba.baidu.com/p/9745245593"
+            }
+          ]
         },
         "charisma": {
           "tier": "D",
           "reason": "帖子引来评理者，但围观热度不是拥趸；现有材料未见稳定追随，评常人基准 D。",
-          "sources": [{ "label": "混沌反招新帖", "url": "https://tieba.baidu.com/p/9745245593" }]
+          "sources": [
+            {
+              "label": "混沌反招新帖",
+              "url": "https://tieba.baidu.com/p/9745245593"
+            }
+          ]
         },
         "politics": {
           "tier": "D",
           "reason": "与管理层只有一次处罚争议，双方说法并列；没有参与协调管理，按常人基准 D，不因被踢额外降档。",
-          "sources": [{ "label": "混沌反招新帖", "url": "https://tieba.baidu.com/p/9745245593" }]
+          "sources": [
+            {
+              "label": "混沌反招新帖",
+              "url": "https://tieba.baidu.com/p/9745245593"
+            }
+          ]
         },
         "wealth": {
           "tier": "D",
           "reason": "三天攒两百万 LP 为本人自述，计划兑换月卡；没有资产或经营记录，按自给基准 D。",
-          "sources": [{ "label": "混沌反招新帖", "url": "https://tieba.baidu.com/p/9745245593" }]
+          "sources": [
+            {
+              "label": "混沌反招新帖",
+              "url": "https://tieba.baidu.com/p/9745245593"
+            }
+          ]
         }
       }
+    },
+    "alignment": {
+      "code": "CN",
+      "note": "入坑三天懒得换船被踢，贴吧喊卸载三天后转头进了 PLA。"
     }
   }
 }

@@ -121,16 +121,78 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T10:51:07Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "总监能招新、传话、打CCP船，还能在楼里顶黑米；公事私事都放在同一张名片上。",
       "axes": {
-        "shenren": { "tier": "C", "reason": "招新帖里连发“顶黑米”，又和黑米互相顶帖、互相放狠话；是熟人整活，不是恶性丑闻。", "sources": [{ "label": "Profane Proverb 2026招新", "url": "https://tieba.baidu.com/p/11012494512" }] },
-        "combat": { "tier": "C", "reason": "稳定驾驶送葬者海军型参战，留下击杀CCP人员舰船的醒目战绩；战斗活跃，但未见持续顶尖单兵表现。", "sources": [{ "label": "RoxyMG zKillboard", "url": "https://zkillboard.com/character/2123019905/" }, { "label": "击杀CCP Jotunn的毒蜥", "url": "https://zkillboard.com/kill/127850250/" }] },
-        "command": { "tier": "B", "reason": "zKillboard标有FC (MEDIUM)资质，符合中型战术舰队指挥档。", "sources": [{ "label": "RoxyMG zKillboard", "url": "https://zkillboard.com/character/2123019905/" }] },
-        "charisma": { "tier": "D", "reason": "他在招新帖和军团内有鲜明熟人互动，但现有材料未显示稳定拥趸或跨团队号召力，按常人基准记D。", "sources": [{ "label": "Profane Proverb 2026招新", "url": "https://tieba.baidu.com/p/11012494512" }] },
-        "politics": { "tier": "B", "reason": "作为PP总监负责招新答疑，并传达军团间雇佣与报仇委托等交涉信息，承担军团核心管理和协调职责。", "sources": [{ "label": "Profane Proverb 2026招新", "url": "https://tieba.baidu.com/p/11012494512" }] },
-        "wealth": { "tier": "D", "reason": "现有材料显示舰队出勤和舰船损失，没有个人产业、资产规模或筹资证据，按常人基准记D。", "sources": [{ "label": "RoxyMG zKillboard", "url": "https://zkillboard.com/character/2123019905/" }] }
+        "shenren": {
+          "tier": "C",
+          "reason": "招新帖里连发“顶黑米”，又和黑米互相顶帖、互相放狠话；是熟人整活，不是恶性丑闻。",
+          "sources": [
+            {
+              "label": "Profane Proverb 2026招新",
+              "url": "https://tieba.baidu.com/p/11012494512"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "C",
+          "reason": "稳定驾驶送葬者海军型参战，留下击杀CCP人员舰船的醒目战绩；战斗活跃，但未见持续顶尖单兵表现。",
+          "sources": [
+            {
+              "label": "RoxyMG zKillboard",
+              "url": "https://zkillboard.com/character/2123019905/"
+            },
+            {
+              "label": "击杀CCP Jotunn的毒蜥",
+              "url": "https://zkillboard.com/kill/127850250/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "B",
+          "reason": "zKillboard标有FC (MEDIUM)资质，符合中型战术舰队指挥档。",
+          "sources": [
+            {
+              "label": "RoxyMG zKillboard",
+              "url": "https://zkillboard.com/character/2123019905/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "D",
+          "reason": "他在招新帖和军团内有鲜明熟人互动，但现有材料未显示稳定拥趸或跨团队号召力，按常人基准记D。",
+          "sources": [
+            {
+              "label": "Profane Proverb 2026招新",
+              "url": "https://tieba.baidu.com/p/11012494512"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "作为PP总监负责招新答疑，并传达军团间雇佣与报仇委托等交涉信息，承担军团核心管理和协调职责。",
+          "sources": [
+            {
+              "label": "Profane Proverb 2026招新",
+              "url": "https://tieba.baidu.com/p/11012494512"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "现有材料显示舰队出勤和舰船损失，没有个人产业、资产规模或筹资证据，按常人基准记D。",
+          "sources": [
+            {
+              "label": "RoxyMG zKillboard",
+              "url": "https://zkillboard.com/character/2123019905/"
+            }
+          ]
+        }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "PP总监招新答疑一手包办，六十层招新帖里二十三层都在喊“顶黑米”。"
     }
   }
 }

@@ -122,15 +122,19 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T23:24:11Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "混沌仲裁者核心政工总监，B站深耕两年招新教程引流；头衔挂打过长江去解放全中国。",
       "axes": {
         "shenren": {
-          "tier": "D",
-          "reason": "为人处世正派温和，热心指导新人，无恶俗出格黑料，守序常人。",
+          "tier": "E",
+          "reason": "在B站连续两年制作系统化欧服新手入坑教程并耐心答疑，芙水之乱期间客观查证核实谣言，无本人真实黑料与恶意整活。",
           "sources": [
             {
-              "label": "ACE-008 人物简介与档案",
+              "label": "B站欧服新手入门教程",
+              "url": "https://www.bilibili.com/video/BV1HEKizBEx9"
+            },
+            {
+              "label": "ACE-008 角色档案与简介",
               "url": "https://zkillboard.com/character/2121669020/"
             }
           ]
@@ -190,6 +194,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LG",
+      "note": "连做两年新手教程和招新客服，广告词每月换着花样喊最大。"
     }
   }
 }

@@ -3,11 +3,26 @@ import assert from 'node:assert/strict';
 import { mkdtemp, writeFile, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { mergeCache, queryArchive, validateThread, run } from './tieba-archive.mjs';
+import { markRead, mergeCache, queryArchive, validateThread, run } from './tieba-archive.mjs';
 
 function record() {
-  return { schema_version: 1, thread_id: '123', url: 'https://tieba.baidu.com/p/123', title: '旧帖', references: [], legacy_records: [{ note: '图片未读' }], review: { status: 'partial', notes: ['只读首尾'] } };
+  return { schema_version: 1, thread_id: '123', url: 'https://tieba.baidu.com/p/123', title: '旧帖', references: [], legacy_records: [{ note: '图片未读' }], review: { status: 'read', notes: ['只读首尾'] } };
 }
+
+test('读帖登记：未建档的按缓存建档，已有档案保留引用与说明', () => {
+  const data = { source: 'https://tieba.baidu.com/p/789', fetched_at: '2026-11-15T00:00:00Z', pages: [{ thread: { title: '新帖', create_time: '1609637494' }, post_list: [] }] };
+  const created = markRead(null, '789', data, '.cache/789.json', '2026-11-15');
+  assert.equal(created.title, '新帖');
+  assert.equal(created.published_date, '2021-01-03');
+  assert.deepEqual(created.review, { status: 'read', notes: [], read_at: '2026-11-15' });
+  assert.equal(validateThread(created, '789.json').thread_id, '789');
+  const prior = { ...record(), review: { status: 'unread', notes: ['旧说明'] }, references: ['src/people/x.md'] };
+  const updated = markRead(prior, '123', { ...data, source: prior.url }, '.cache/123.json', '2026-11-15');
+  assert.equal(updated.title, '旧帖');
+  assert.deepEqual(updated.references, prior.references);
+  assert.deepEqual(updated.review.notes, ['旧说明']);
+  assert.equal(updated.review.status, 'read');
+});
 
 test('刷新缓存保留人工结论、旧缺口与计数差，不把成功取得升级为已读', () => {
   const prior = record();
@@ -31,14 +46,14 @@ test('旧缓存不能覆盖新取得范围，筛选分页不改变阅读状态',
   const unread = { ...record(), thread_id: '456', review: { status: 'unread', notes: [] } };
   assert.equal(queryArchive([prior, unread], { status: 'unread' }).records[0].thread_id, '456');
   assert.equal(queryArchive([prior, unread], { query: '图片未读', limit: 1, offset: 1 }).total, 2);
-  assert.throws(() => queryArchive([prior], { status: 'complete' }), /未知人工状态/);
+  assert.throws(() => queryArchive([prior], { status: 'partial' }), /未知阅读状态/);
   assert.throws(() => queryArchive([prior], { limit: 0 }), /limit/);
 });
 
-test('拒绝错帖号、无范围的人工结论和不合法档案', () => {
+test('拒绝错帖号、旧多级状态和不合法档案', () => {
   assert.equal(validateThread(record(), '123.json').thread_id, '123');
   assert.throws(() => validateThread(record(), '456.json'), /文件名/);
-  assert.throws(() => validateThread({ ...record(), review: { status: 'reviewed', notes: [] } }, '123.json'), /范围或理由/);
+  assert.throws(() => validateThread({ ...record(), review: { status: 'reviewed', notes: [] } }, '123.json'), /unread或read/);
 });
 
 test('正式目录离线校验与同步，拒绝引用不存在的帖号并保留磁盘人工状态', async () => {
@@ -54,9 +69,12 @@ test('正式目录离线校验与同步，拒绝引用不存在的帖号并保�
     const saved = JSON.parse(await readFile(path.join(directory, '123.json'), 'utf8'));
     assert.deepEqual(saved.review, record().review);
     assert.deepEqual(saved.legacy_records, record().legacy_records);
-    scans.scans[0].thread_ids.push('456');
+    await writeFile(path.join(directory, 'new.json'), JSON.stringify({ source: 'https://tieba.baidu.com/p/456', fetched_at: '2026-11-15T00:00:00Z', pages: [] }));
+    assert.equal((await run(['mark-read', 'new.json'], context)).created, true);
+    assert.equal(JSON.parse(await readFile(path.join(directory, '456.json'), 'utf8')).review.status, 'read');
+    scans.scans[0].thread_ids.push('999');
     await writeFile(path.join(directory, 'scans.json'), JSON.stringify(scans));
-    await assert.rejects(run(['check'], context), /缺少帖子档案456/);
+    await assert.rejects(run(['check'], context), /缺少帖子档案999/);
     await assert.rejects(run(['list', '--limit'], context), /缺少参数/);
   } finally { await rm(directory, { recursive: true, force: true }); }
 });

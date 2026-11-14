@@ -140,7 +140,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "传说有千艘泰坦，实战爱开小船。",
       "axes": {
         "shenren": {
@@ -148,8 +148,12 @@
           "reason": "AI封元帅是玩笑，正常打蓝与玩法不加神人分。",
           "sources": [
             {
-              "label": "圣诞节轰爆自家奇美拉航母战报",
-              "url": "https://zkillboard.com/kill/123380226/"
+              "label": "圣诞节轰爆自家奇美拉 KM 123497049",
+              "url": "https://zkillboard.com/kill/123497049/"
+            },
+            {
+              "label": "AI 元帅整活帖 9278340528",
+              "url": "https://tieba.baidu.com/p/9278340528"
             }
           ]
         },
@@ -195,15 +199,27 @@
         },
         "wealth": {
           "tier": "C",
-          "reason": "双号舰队战备有余，未见雄厚个人产业。",
+          "reason": "名下四名确认活跃角色合计 1,567 次击毁损耗（累计四百余亿常规护卫/巡洋战备消耗），未见五十人以上在任 CEO、五开同时产线或 B 站系统攻略产出，维持 C；奇美拉小航已排除。",
           "sources": [
             {
-              "label": "圣诞节轰爆自家奇美拉航母战报",
-              "url": "https://zkillboard.com/kill/123380226/"
+              "label": "fafnfaab fan zKillboard",
+              "url": "https://zkillboard.com/character/2115916938/"
+            },
+            {
+              "label": "FallNight1 zKillboard",
+              "url": "https://zkillboard.com/character/2122596283/"
+            },
+            {
+              "label": "圣诞节奇美拉战损 KM 123497049",
+              "url": "https://zkillboard.com/kill/123497049/"
             }
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "CN",
+      "note": "被 AI 封成永久元帅，自己开阿特龙死一千回，过节还炸自家航母放烟花。"
     }
   }
 }

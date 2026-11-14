@@ -84,7 +84,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-10T00:46:18Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "当了老板，才开始认真上班。",
       "axes": {
         "shenren": {
@@ -138,8 +138,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "短剑与巡洋出勤只能支撑自给判断。",
+          "tier": "C",
+          "reason": "ESI 与军团档案证实担任 237 角色规模 Deadspace Spearhead 军团实际 CEO（50–999 人军团 CEO 保底 C），未见个人泰坦、超航或工业大单，由 D 升 C。",
           "sources": [
             {
               "label": "作战装配与损失明细",
@@ -148,6 +148,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "NN",
+      "note": "别人团里进出五回几乎隐身，自己当上 CEO 立马开着短剑上班。"
     }
   },
   "identity": {

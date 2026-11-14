@@ -1,20 +1,48 @@
-// 贴吧正式档案的离线查询与缓存覆盖同步；抓取永远不能提升人工阅读状态。
+// 贴吧正式档案的离线查询与缓存同步；dump 读帖时自动登记为已读，单纯抓取不改阅读状态。
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIRECTORY = path.join(ROOT, 'docs/tieba');
-const STATES = new Set(['unread', 'legacy', 'partial', 'text-read', 'reviewed', 'excluded']);
+const STATES = new Set(['unread', 'read']);
 
 export function validateThread(record, filename) {
   const id = String(record.thread_id || '');
   if (!/^\d+$/.test(id) || filename !== `${id}.json`) throw new Error(`${filename}：帖号与文件名不一致`);
   if (record.schema_version !== 1 || record.url !== `https://tieba.baidu.com/p/${id}`) throw new Error(`${filename}：版本或来源网址无效`);
-  if (!STATES.has(record.review?.status) || !Array.isArray(record.review.notes)) throw new Error(`${filename}：缺少有效人工状态或说明`);
+  if (!STATES.has(record.review?.status) || !Array.isArray(record.review.notes)) throw new Error(`${filename}：阅读状态须为unread或read，notes须为数组`);
   if (!Array.isArray(record.references) || !Array.isArray(record.legacy_records)) throw new Error(`${filename}：缺少来源引用或迁移记录`);
-  if (['partial', 'text-read', 'reviewed', 'excluded'].includes(record.review.status) && !record.review.notes.length) throw new Error(`${filename}：人工结论必须说明范围或理由`);
   return record;
+}
+
+// 读过即登记：未建档的帖子按缓存补标题和发帖日期；已有引用、旧记录与说明原样保留。
+export function markRead(record, id, data, cachePath, readAt) {
+  const thread = (data.pages?.[0] || data.reverse_pages?.[0])?.thread;
+  const created = Number(thread?.create_time);
+  const base = record ? structuredClone(record) : {
+    schema_version: 1, thread_id: id, url: `https://tieba.baidu.com/p/${id}`,
+    ...(thread?.title ? { title: thread.title } : {}),
+    ...(created > 0 ? { published_date: new Date(created * 1000).toISOString().slice(0, 10) } : {}),
+    references: [], legacy_records: [], review: { status: 'unread', notes: [] },
+  };
+  const merged = mergeCache(base, data, cachePath);
+  merged.review = { ...merged.review, status: 'read', read_at: readAt };
+  return merged;
+}
+
+export async function recordRead(cacheFile, { root = ROOT, directory = DIRECTORY, readAt = new Date().toISOString().slice(0, 10) } = {}) {
+  const cache = path.resolve(root, cacheFile);
+  const data = JSON.parse(await readFile(cache, 'utf8'));
+  const id = String(data.source || '').match(/\/p\/(\d+)/)?.[1];
+  if (!id) throw new Error(`${cacheFile}：缓存缺少贴吧来源网址`);
+  const name = `${id}.json`, file = path.join(directory, name);
+  let record = null;
+  try { record = validateThread(JSON.parse(await readFile(file, 'utf8')), name); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const merged = markRead(record, id, data, path.relative(root, cache).replaceAll(path.sep, '/'), readAt);
+  await writeFile(file, JSON.stringify(merged, null, 2) + '\n');
+  return { thread_id: id, created: !record, status: merged.review.status };
 }
 
 export function summarizeCache(data, cachePath) {
@@ -62,7 +90,7 @@ export async function readArchive(directory = DIRECTORY) {
 
 export function queryArchive(records, { query = '', status, limit = 10, offset = 0 } = {}) {
   if (!Number.isSafeInteger(limit) || limit < 1 || limit > 50 || !Number.isSafeInteger(offset) || offset < 0) throw new Error('limit须为1—50，offset须为非负整数');
-  if (status && !STATES.has(status)) throw new Error(`未知人工状态：${status}`);
+  if (status && !STATES.has(status)) throw new Error(`未知阅读状态：${status}`);
   const needle = query.toLowerCase();
   const selected = records.filter(record => (!status || record.review.status === status) && (!needle || JSON.stringify(record).toLowerCase().includes(needle)));
   return { total: selected.length, offset, limit, records: selected.slice(offset, offset + limit).map(record => ({
@@ -78,9 +106,10 @@ const HELP = `贴吧统一档案，所有命令均离线。
   node scripts/tieba-archive.mjs show <帖号>
   node scripts/tieba-archive.mjs scans
   node scripts/tieba-archive.mjs sync-cache <帖号> <缓存.json>
+  node scripts/tieba-archive.mjs mark-read <缓存.json>
   node scripts/tieba-archive.mjs check
-状态：unread、legacy（旧人工记录待对照）、partial、text-read、reviewed、excluded。
-sync-cache只更新取得范围，不修改人工结论；新帖先在docs/tieba/<帖号>.json登记。`;
+状态：unread（没读过）、read（读过）。tieba-client-dump.mjs读帖时自动mark-read，未建档的帖子顺带建档。
+sync-cache只更新取得范围，不改阅读状态。`;
 
 export async function run(args, { root = ROOT, directory = DIRECTORY } = {}) {
   const [command, ...rest] = args;
@@ -98,6 +127,7 @@ export async function run(args, { root = ROOT, directory = DIRECTORY } = {}) {
     await writeFile(file, JSON.stringify(merged, null, 2) + '\n');
     return { thread_id: rest[0], status: merged.review.status, acquisition: merged.acquisition };
   }
+  if (command === 'mark-read' && rest.length === 1) return recordRead(rest[0], { root, directory });
   if (command === 'check' && !rest.length) {
     const records = await readArchive(directory);
     const scans = JSON.parse(await readFile(path.join(directory, 'scans.json'), 'utf8'));

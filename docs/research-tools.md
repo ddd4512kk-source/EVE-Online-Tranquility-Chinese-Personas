@@ -21,8 +21,8 @@
 | --- | --- |
 | 建立回查清单 | `node scripts/research/tieba-review-inventory.mjs <临时目录>`；加 `--probe` 续跑首楼/末页抽查，初筛不算全文阅读 |
 | 断点续跑全文 | 原命令加 `--resume`，按同一 JSON 的覆盖记录跳过已完成主楼页和楼中楼，保留旧错误历史；帖号与顺序须与原文件一致 |
-| 更新取得范围 | `node scripts/tieba-archive.mjs sync-cache <帖号> <临时.json>`；批量用 `node scripts/research/tieba-review-status.mjs <临时目录>`，只同步取得范围，不修改人工阅读结论 |
-| 按冻结清单补全文 | `node scripts/research/tieba-review-batch.mjs <临时目录> [本轮最多帖数]`，顺序跑，复用首尾与已完成全文，保留计数差，限流整批停止；抓取完成不代表人工通读 |
+| 更新取得范围 | `node scripts/tieba-archive.mjs sync-cache <帖号> <临时.json>`；批量用 `node scripts/research/tieba-review-status.mjs <临时目录>`，只同步取得范围，不改阅读状态；读帖后的登记见[贴吧档案](tieba/README.md#读帖即登记) |
+| 按冻结清单补全文 | `node scripts/research/tieba-review-batch.mjs <临时目录> [本轮最多帖数]`，顺序跑，复用首尾与已完成全文，保留计数差，限流整批停止；只抓取，读帖用 dump |
 
 ## B站细则
 
@@ -93,11 +93,19 @@
 
 ## zKillboard 高级搜索（asearch）
 
-stats 回答不了、又确实需要 KM 名单时才用，例如“某军团谁开过 Monitor”，或为某个说法找几张代表 KM；只问“多不多”先看 stats。一个问题一条精确筛选，默认 `--ids-only` 或 `--details` 十张以内；不按年、月、船型、小号循环跑，不全量补全：
+stats 回答不了、又确实需要 KM 或驾驶员名单时才用，例如“某军团谁开过泰坦”，或为某个说法找几张代表 KM；只问“多不多”先看 stats。一个问题一条精确筛选；不按年、月、船型、小号循环跑，不全量补全。
+
+**问“谁开过某船／某类船”用侧栏排行，一次请求拿全名单**：
+
+`node scripts/research/zkill-asearch.mjs <asearch网址或#后的JSON> <.cache/输出前缀> --top character`
+
+服务器对整段时间聚合，tsv 一行一个角色，`count` 是此人满足筛选的 KM 张数（不是击杀数）；`--top` 也可换 `corporation`、`alliance`、`shipType` 等。同一栏选 In，把军团／联盟与船型或舰船分组放在一起，加 `attackersonly`。**不得带 `includeAssociates: true`**：网页默认勾选“Include Associates”，带上后排行算的是命中 KM 上的全部参与者（实测某团泰坦筛选：关掉 19 人，打开 500 人，混进同场开其他船的人和外团），脚本遇到会提示。超过 500 行会截断，服务器聚合超时则退出码 3，加时间段或收紧筛选再跑。华人军团的泰坦驾驶员不临时跑，用 `node scripts/research/titan-roster.mjs --all`（或列军团ID）写进[军团档案](corporations/README.md)的 `titan-all-time` 名单，已有的跳过，`--refresh` 重取；非 200 即停，重跑接着取。
+
+**要看具体 KM 时取击杀列表**，默认 `--ids-only` 或 `--details` 十张以内：
 
 `node scripts/research/zkill-asearch.mjs <asearch网址或#后的JSON> <.cache/输出前缀> [--details N] [--ids-only]`
 
-脚本把 `#` 后的筛选条件译成查询参数，在独立 Chrome 里分页取全部击杀 ID（浏览器只用来过 Cloudflare），再用 zKB API 与 ESI 补全最新 N 张（默认 100），输出 `.json` 与 `.tsv`。tsv 的 `focus_side_ships` 列记录筛选点名者在每张 KM 上的身份与船型，用来核对查到的是不是想要的；提示“没找到筛选点名的参与者”时先查筛选写法。
+脚本把 `#` 后的筛选条件译成查询参数，在独立 Chrome 里分页取全部击杀 ID（浏览器只用来过 Cloudflare），再用 zKB API 与 ESI 补全最新 N 张（默认 100），输出 `.json` 与 `.tsv`。tsv 的 `focus_side_ships` 列记录筛选点名者在每张 KM 上的身份与船型，用来核对查到的是不是想要的；提示“没找到筛选点名的参与者”时先查筛选写法。这一列不识别 `groupID`，按分组筛选时会列出全部同团参与者，查驾驶员改用 `--top`。
 
 **先想清楚要回答的问题，再写精确筛选。** 下面的写法和例子帮助理解工具，不是固定配方：只放回答问题必需的条件，不相干的条件（如查强暴时限定攻击方船型）会漏掉真实记录。服务器每页 100 张、最多 10 页；时间段满额时脚本对半拆段重查，这只是兜底——命中成百上千、要拆段，通常说明筛选写宽了。**零结果先用一个已知会命中的同类筛选对照**（同一人换一条常开的船），服务器超时也会回空列表。筛选 JSON 写法：
 
@@ -105,8 +113,8 @@ stats 回答不了、又确实需要 KM 名单时才用，例如“某军团谁�
 - **连接方式**（`buttons` 里的 `<栏位>-and`／`-aand`／`-or`，Either 栏写 `either-…`）：And 是每项各自匹配任意一名参与者；Or 是任一项匹配；**In（`aand`）要求同一名参与者同时满足全部项**。“某人开某船”必须把角色和船型放进同一栏并选 In；角色放攻击方、船型放 Either，查到的是“他在场且有人开这船”，舰队战里会混进大量别人开的船。
 - **标签**（`buttons` 里写 `label-<标签>`；同组任一，跨组同时满足）：`ganked`（高安强暴：攻击方随后在同星系被 CONCORD 击毁；不含太空舱、战争、awox 与 100 万 ISK 以下，且只标 2018 年 2 月底以后的 KM，更早的强暴改用 `loc:highsec` 加时段另查）、`awox`、`solo`、`#:1`／`#:2+`…`#:1000+`（参与人数）、`loc:highsec`／`lowsec`／`nullsec`／`w-space`、`isk:1b+`／`10b+`／`100b+`／`1t+`、`capital`／`super`／`titan`／`capinv`（有旗舰参与）、`tz:au`、`cat:6`（只看舰船）、`pvp`、`npc`。
 - **时间**：`buttons` 含 `custom` 并写 `dtstart`、`dtend`（UTC，`2020-01-01T00:00`）；全时段写 `alltime`。排序 `sort-date`、`sort-desc`。
-- `victimsonly`／`attackersonly` 按钮与 `includeAssociates` 只影响网页侧栏的排行汇总，不改变击杀列表。
-- 船型等 ID 用 ESI `POST /universe/ids/` 或 `/universe/names/` 核对，不凭记忆写。
+- `victimsonly`／`attackersonly` 按钮与 `includeAssociates` 不改变击杀列表，只决定侧栏排行算谁（见上文 `--top`）。
+- **舰船分组**（`groupID`，已用 ESI 核对）：泰坦 30、超级航母 659、无畏舰 485、枪骑兵无畏舰 4594、航空母舰 547、战力辅助舰 1538；Monitor 用 `shipID` 45534（它是旗舰巡洋舰分组 1972 的唯一船型）。其他船型与分组用 ESI `POST /universe/ids/`、`/universe/groups/<ID>/` 核对，不凭记忆写。
 
 例：
 
@@ -115,8 +123,10 @@ stats 回答不了、又确实需要 KM 名单时才用，例如“某军团谁�
 {"buttons":["alltime","attackers-aand","sort-date","sort-desc"],"attackers":[{"type":"characterID","id":<角色ID>},{"type":"shipID","id":45534}]}
 某人参与的高安强暴（不限攻击方船型）
 {"buttons":["alltime","label-ganked","sort-date","sort-desc"],"attackers":[{"type":"characterID","id":<角色ID>}]}
-某联盟谁开过 Monitor（tsv 的 focus_side_ships 即驾驶员名单）
-{"buttons":["alltime","attackers-aand","sort-date","sort-desc"],"attackers":[{"type":"allianceID","id":<联盟ID>},{"type":"shipID","id":45534}]}
+某军团谁开过泰坦（配 --top character；超级航母把 30 换成 659）
+{"buttons":["alltime","attackers-aand","attackersonly"],"attackers":[{"type":"corporationID","id":<军团ID>},{"type":"groupID","id":30}]}
+某联盟谁开过 Monitor（配 --top character）
+{"buttons":["alltime","attackers-aand","attackersonly"],"attackers":[{"type":"allianceID","id":<联盟ID>},{"type":"shipID","id":45534}]}
 ```
 
 一次脚本运行计 1 次 zKillboard 搜索。拿到的 KM 与驾驶员仍按取材规则核对身份、归属与红黑分类；KM 上有名字只说明参与。

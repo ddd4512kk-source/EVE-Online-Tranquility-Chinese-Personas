@@ -55,7 +55,9 @@ async function edit({ erase = [], lines = [] }) {
   for (const [x0, y0, w, h] of erase) {
     for (let y = y0; y < Math.min(H, y0 + h); y++) for (let x = x0; x < Math.min(W, x0 + w); x++) {
       const i = (y * W + x) * 4;
-      if (0.299 * d[i] + 0.587 * d[i + 1] + 0.114 * d[i + 2] > 130) mask[y * W + x] = 1;
+      const bright = 0.299 * d[i] + 0.587 * d[i + 1] + 0.114 * d[i + 2] > 130;
+      const redOutline = d[i] > 150 && d[i + 1] < 100 && d[i + 2] < 100; // 红色描边字
+      if (bright || redOutline) mask[y * W + x] = 1;
     }
   }
   for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (mask[y * W + x]) {

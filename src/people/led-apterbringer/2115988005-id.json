@@ -38,14 +38,39 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 93555898,
+        "name": "pirate Ellecon",
+        "basis": "2020-01-08入KDS（主号次日），高频截击侦察与主号Monitor/侦察舰多场同框（2026-10-30至11-13交叉5战及2023-04-09同日7分钟内双开惩罚者阵亡）。",
+        "sources": [
+          "materials-led-apterbringer.json#身份与小号核对"
+        ],
+        "zkb": {
+          "kills": 3216,
+          "lost": 1490,
+          "isk_destroyed": 1887005153519,
+          "last_active": "2026-11",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
-      "kills": 10492,
-      "lost": 1070,
-      "isk_destroyed": 6717079049750,
-      "last_active": "2026-10",
-      "as_of": "2026-10-23"
+      "kills": 10714,
+      "lost": 1074,
+      "isk_destroyed": 6783868370332,
+      "last_active": "2026-11",
+      "as_of": "2026-11-15",
+      "fc": {
+        "tag": "FC(HIGH)",
+        "level": "high",
+        "score": 160,
+        "monitor": 324,
+        "command_ship": 93,
+        "large_fleet": 961
+      }
     }
   },
   "person": {
@@ -58,11 +83,14 @@
       "00区",
       "D.C",
       "CEO",
-      "著名FC"
+      "著名FC",
+      "B站",
+      "新人教官",
+      "江湖恩怨"
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T15:39:02Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "宽带山CEO，万杀六万亿战果，在4-H与塔夫开麦带队，简介刻满整排FRT星城墓碑写着我带走你母星的狂人。",
       "axes": {
         "shenren": {
@@ -116,8 +144,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "长期维持抓人、侦察和重船战备，未用团长身份推定庞大私产。",
+          "tier": "B",
+          "reason": "已核实 126 个 Monitor 日期与 8 场大型会战带队（著名 FC 保底 B），同时担任 1,054 角色 KDS 军团 CEO（千人常规团保底 B）；两项纯保底身份不互叠，按 B 级评定。",
           "sources": [
             {
               "label": "LED Apterbringer zKillboard",
@@ -126,6 +154,10 @@
           ]
         }
       }
+    },
+    "alignment": {
+      "code": "LN",
+      "note": "十年老团长稳守大队，只在简介里给对手星城立了一排墓碑。"
     }
   }
 }

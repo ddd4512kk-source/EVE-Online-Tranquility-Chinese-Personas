@@ -58,16 +58,78 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T10:54:52Z",
+      "reviewedAt": "2026-11-14T09:05:00Z",
       "verdict": "舰队换了频道，四个联盟的表情包还从他手里出；官方表扬收得意外，创作者投票倒是自己吵着拉。",
       "axes": {
-        "shenren": { "tier": "C", "reason": "四个联盟的吉祥物都出自他手，别人说是“盗版”也没停工；趣味浓、辨识度高，是日常创作梗。", "sources": [{ "label": "PH的QQ表情上架啦", "url": "https://tieba.baidu.com/p/9523897499" }] },
-        "combat": { "tier": "D", "reason": "有稳定舰队出勤，现有击杀记录约两百七十次，主要是普通队员随队参战，按常人基准记D。", "sources": [{ "label": "Khezu knight zKillboard", "url": "https://zkillboard.com/character/2122750675/" }] },
-        "command": { "tier": "D", "reason": "列传写的是跟队出勤与独立创作，没有实质带队或调度记录，按常规舰队成员基准记D。", "sources": [{ "label": "Khezu knight zKillboard", "url": "https://zkillboard.com/character/2122750675/" }] },
-        "charisma": { "tier": "C", "reason": "表情包、刺绣和玩偶在多个联盟与社区流传，反复有人求购、求图，形成稳定的创作者拥趸。", "sources": [{ "label": "最近边挖矿边缝小章鱼", "url": "https://tieba.baidu.com/p/9525709273" }, { "label": "舰船皮肤DIY教程", "url": "https://www.bilibili.com/video/BV1548qzsEPD/" }] },
-        "politics": { "tier": "D", "reason": "公开故事集中在手工创作和随队出勤，没有基层管理或联盟交涉事迹，按常人基准记D。", "sources": [{ "label": "Khezu knight zKillboard", "url": "https://zkillboard.com/character/2122750675/" }] },
-        "wealth": { "tier": "D", "reason": "接过少量舰船皮肤定制并经营作品小店，未见大额资源运作或高价值重船自给记录，按常人基准记D。", "sources": [{ "label": "舰船皮肤DIY教程", "url": "https://www.bilibili.com/video/BV1548qzsEPD/" }] }
+        "shenren": {
+          "tier": "C",
+          "reason": "四个联盟的吉祥物都出自他手，别人说是“盗版”也没停工；趣味浓、辨识度高，是日常创作梗。",
+          "sources": [
+            {
+              "label": "PH的QQ表情上架啦",
+              "url": "https://tieba.baidu.com/p/9523897499"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "D",
+          "reason": "有稳定舰队出勤，现有击杀记录约两百七十次，主要是普通队员随队参战，按常人基准记D。",
+          "sources": [
+            {
+              "label": "Khezu knight zKillboard",
+              "url": "https://zkillboard.com/character/2122750675/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "列传写的是跟队出勤与独立创作，没有实质带队或调度记录，按常规舰队成员基准记D。",
+          "sources": [
+            {
+              "label": "Khezu knight zKillboard",
+              "url": "https://zkillboard.com/character/2122750675/"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "表情包、刺绣和玩偶在多个联盟与社区流传，反复有人求购、求图，形成稳定的创作者拥趸。",
+          "sources": [
+            {
+              "label": "最近边挖矿边缝小章鱼",
+              "url": "https://tieba.baidu.com/p/9525709273"
+            },
+            {
+              "label": "舰船皮肤DIY教程",
+              "url": "https://www.bilibili.com/video/BV1548qzsEPD/"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "公开故事集中在手工创作和随队出勤，没有基层管理或联盟交涉事迹，按常人基准记D。",
+          "sources": [
+            {
+              "label": "Khezu knight zKillboard",
+              "url": "https://zkillboard.com/character/2122750675/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "D",
+          "reason": "接过少量舰船皮肤定制并经营作品小店，未见大额资源运作或高价值重船自给记录，按常人基准记D。",
+          "sources": [
+            {
+              "label": "舰船皮肤DIY教程",
+              "url": "https://www.bilibili.com/video/BV1548qzsEPD/"
+            }
+          ]
+        }
       }
+    },
+    "alignment": {
+      "code": "NG",
+      "note": "战场上各听各的频道，下了船四个联盟的表情包全由他一人画。"
     }
   }
 }
