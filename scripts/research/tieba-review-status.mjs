@@ -3,6 +3,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { mergeCache, validateThread } from '../tieba-archive.mjs';
+import { requireKb, resolve } from '../workspace.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const [cache, extra] = process.argv.slice(2);
@@ -12,9 +13,10 @@ if (!cache || extra) {
 }
 let synced = 0, unregistered = 0;
 try {
+  requireKb(root);
   for (const name of (await readdir(path.resolve(root, cache))).sort()) {
     if (!/^\d+\.json$/.test(name)) continue;
-    const file = path.join(root, 'docs/tieba', name);
+    const file = resolve(root, `docs/tieba/${name}`);
     let record;
     try { record = validateThread(JSON.parse(await readFile(file, 'utf8')), name); }
     catch (error) { if (error.code !== 'ENOENT') throw error; unregistered++; continue; }

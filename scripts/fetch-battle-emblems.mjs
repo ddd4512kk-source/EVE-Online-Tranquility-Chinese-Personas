@@ -1,39 +1,49 @@
-import { readdir, readFile, mkdir, writeFile, rename } from "node:fs/promises";
-import path from "node:path";
-import { readBattleDocument } from "./battle-archive.mjs";
-import { emblemSides } from "./battle-emblem.mjs";
-import { createRequestGuard } from "./research/request-guard.mjs";
+import { readdir, readFile, mkdir, writeFile, rename } from 'node:fs/promises';
+import path from 'node:path';
+import { readBattleDocument } from './battle-archive.mjs';
+import { emblemSides } from './battle-emblem.mjs';
+import { expandSnapshot, readNames, readStoredCharacters } from './character-snapshot.mjs';
+import { createRequestGuard } from './research/request-guard.mjs';
 
-const root = path.resolve(import.meta.dirname, "..");
-const names = JSON.parse(await readFile(path.join(root, "src/_data/entityNames.json"), "utf8"));
+const root = path.resolve(import.meta.dirname, '..');
+const names = JSON.parse(await readFile(path.join(root, 'src/_data/entityNames.json'), 'utf8'));
+const characterNames = readNames(root);
 const logos = new Map();
-for (const dir of await readdir(path.join(root, "src/battles"), { withFileTypes: true })) {
-  if (!dir.isDirectory() || dir.name.startsWith("_")) continue;
-  const data = readBattleDocument(path.join(root, "src/battles", dir.name, `${dir.name}.md`)).data;
+for (const dir of await readdir(path.join(root, 'src/battles'), { withFileTypes: true })) {
+  if (!dir.isDirectory() || dir.name.startsWith('_')) continue;
+  const data = readBattleDocument(path.join(root, 'src/battles', dir.name, `${dir.name}.md`)).data;
   const sides = (data.sides ?? []).map(s => ({ ...s, emblemOrganization: s.emblem ? {
-    id: s.emblem, kind: names.alliances[s.emblem] ? "alliance" : "corporation",
+    id: s.emblem, kind: names.alliances[s.emblem] ? 'alliance' : 'corporation',
   } : null }));
   for (const side of emblemSides(sides)) for (const logo of side.logos) logos.set(logo.src, logo);
 }
 // 军团篇的徽标与战徽同一目录、同一命名，共用这一批缓存。
 for (const dir of await readdir(path.join(root, 'src/corps'), { withFileTypes: true })) {
   if (!dir.isDirectory()) continue;
-  const { id } = JSON.parse(await readFile(path.join(root, 'src/corps', dir.name, `${dir.name}.json`), 'utf8')).corp;
+  const { corp: { id }, esi } = JSON.parse(await readFile(path.join(root, 'src/corps', dir.name, `${dir.name}.json`), 'utf8'));
   const src = `/assets/emblems/corporation-${id}.png`;
   logos.set(src, { src, id, kind: 'corporation' });
+  const alliance = esi?.alliance?.id;
+  if (alliance) logos.set(`/assets/emblems/alliance-${alliance}.png`, { src: `/assets/emblems/alliance-${alliance}.png`, id: alliance, kind: 'alliance' });
+}
+// 人物卡片的联盟底图也用这批缓存：只取仍在联盟里的最近归属。
+for (const [, character] of readStoredCharacters(path.join(root, 'src/people'))) {
+  const { affiliation } = expandSnapshot(character, characterNames);
+  const alliance = affiliation?.left_at ? null : affiliation?.alliance?.id;
+  if (alliance) logos.set(`/assets/emblems/alliance-${alliance}.png`, { src: `/assets/emblems/alliance-${alliance}.png`, id: alliance, kind: 'alliance' });
 }
 // 每批至多 60 枚，只取缺失图标；遇拦截停止，已缓存图标不联网。
 const request = createRequestGuard({ limit: 60 });
-const signature = Buffer.from("89504e470d0a1a0a", "hex");
+const signature = Buffer.from('89504e470d0a1a0a', 'hex');
 let fetched = 0;
 for (const logo of logos.values()) {
-  const file = path.join(root, "src", logo.src);
+  const file = path.join(root, 'src', logo.src);
   try {
     const cached = await readFile(file);
     if (!cached.subarray(0, 8).equals(signature)) throw new Error(`图标不是 PNG：${file}`);
     continue;
-  } catch (error) { if (error.code !== "ENOENT") throw error; }
-  const url = `https://images.evetech.net/${logo.kind === "alliance" ? "alliances" : "corporations"}/${logo.id}/logo?size=128`;
+  } catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const url = `https://images.evetech.net/${logo.kind === 'alliance' ? 'alliances' : 'corporations'}/${logo.id}/logo?size=128`;
   const response = await request(url);
   if (!response.ok) throw new Error(`图标获取失败：HTTP ${response.status} ${url}`);
   const bytes = Buffer.from(await response.arrayBuffer());

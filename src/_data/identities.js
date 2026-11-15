@@ -1,6 +1,6 @@
 import path from "node:path";
-import { readAllIdentities } from "../../scripts/person-identity.mjs";
+import { readSiteIdentities } from "../../scripts/person-identity.mjs";
 
 export default function () {
-  return Object.fromEntries(readAllIdentities(path.resolve(import.meta.dirname, "../..")));
+  return Object.fromEntries(readSiteIdentities(path.resolve(import.meta.dirname, "../..")));
 }

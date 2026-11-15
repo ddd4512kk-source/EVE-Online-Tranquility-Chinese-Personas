@@ -52,8 +52,8 @@ bodyClass: page-corp
       </div>
       <div class="corp-kpi">
         <span class="kpi-label">zKB 排位</span>
-        <strong class="kpi-val">{% if zkb.rank_recent %}#{{ zkb.rank_recent }}<small>近期榜</small>{% elif zkb.rank %}#{{ zkb.rank }}<small>总榜</small>{% else %}未上榜{% endif %}</strong>
-        <span class="kpi-sub">{% if zkb.rank and zkb.rank_recent %}历史总榜 #{{ zkb.rank }}{% elif status.lastActive %}最近击杀 {{ status.lastActive }}{% else %}暂无排位{% endif %}</span>
+        <strong class="kpi-val">{% if zkb.rank_recent %}第 {{ zkb.rank_recent }} 名<small>近 90 天</small>{% elif zkb.rank %}第 {{ zkb.rank }} 名<small>历史总榜</small>{% else %}未上榜{% endif %}</strong>
+        <span class="kpi-sub">{% if zkb.rank and zkb.rank_recent %}历史总榜第 {{ zkb.rank }} 名{% elif status.lastActive %}最近击杀 {{ status.lastActive }}{% else %}暂无排位{% endif %}</span>
       </div>
       <div class="corp-kpi">
         <span class="kpi-label">常驻区域</span>
@@ -77,7 +77,7 @@ bodyClass: page-corp
     <div class="corp-cta{% if status.recruiting %} is-open{% endif %}" data-pagefind-ignore>
       <div class="corp-cta-main">
         <span class="corp-cta-badge">{% if status.recruiting %}招新开放中{% else %}往期招新记录{% endif %}</span>
-        <span class="corp-cta-text">{% if recruitQq %}招新 QQ 群：<strong>{{ recruitQq }}</strong>{% elif status.recruiting %}详见游戏内军团简介招募说明{% else %}当前未见公开招新群号{% endif %}</span>
+        <span class="corp-cta-text">{% if recruitQq %}招新 QQ 群：<strong>{{ recruitQq }}</strong> <button type="button" class="corp-qq" data-copy="{{ recruitQq }}" title="复制招新 QQ 群号" hidden><span class="corp-qq-act">复制</span></button>{% elif status.recruiting %}详见游戏内军团简介招募说明{% else %}当前未见公开招新群号{% endif %}</span>
       </div>
       {% if recruitment %}<a class="corp-cta-btn" href="{{ recruitment.source }}" target="_blank" rel="noopener noreferrer">查看 {{ recruitment.last_seen }} 招新帖 →</a>{% endif %}
     </div>
@@ -107,6 +107,7 @@ bodyClass: page-corp
 </article>
 
 {% include "glossary-dialog.njk" %}
+{% if recruitQq %}<script type="module" src="{{ '/assets/js/copy-qq.js' | url }}?v={{ site.build }}"></script>{% endif %}
 
 <nav class="pager corp-pager" aria-label="按创立时间翻页" data-pagefind-ignore>
   {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>更早创立</small>{{ prev.data.displayName }}</a>{% else %}<span></span>{% endif %}

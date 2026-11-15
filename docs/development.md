@@ -36,10 +36,19 @@
 
 Eleventy 3（Nunjucks + Markdown）+ Pagefind 全文搜索，GitHub Actions 部署（PR 只构建）。
 
+### 私有资料库 `kb/`
+
+写作用的原始资料存放在私有库，克隆到本仓库根目录下被忽略的 `kb/` 中，目录平放（去掉开头的 `docs/`、`src/`）：各对象旁的 `materials-*`，以及 `docs/` 下的 `leads/`、`sources/`、`tieba/`、`bilibili/`、`corporations/`、`reviews/`、`combat-statistics/` 和待查名单、排除表、复审登记等。清单以 `scripts/workspace.mjs` 的 `PRIVATE_DIRS`、`PRIVATE_FILES`、`PRIVATE_PATTERN` 为准；`.gitignore` 只忽略整个 `kb/`，不再逐项列私有路径。
+
+- 工具通过 `scripts/workspace.mjs` 的 `resolve`／`readdir` 读写，私有路径自动落到 `kb/`；文档和命令里写的仍是原相对路径，如 `docs/leads/`，实际文件在 `kb/leads/`；`src/people/a/materials-a.json` 在 `kb/people/a/`。新脚本读写私有路径时也走这个模块，不拼 `kb/`。
+- 网站构建与 CI 不读私有资料。网站要展示的 B站账号与 UP 主统计由 `npm run bilibili:public` 生成到 `src/_data/bilibili-public.json`，与公开仓库一起提交；`bilibili:sync` 会自动重新生成。
+- 两个仓库分别查看状态、分别提交，授权规则相同。私有文件不得进入公开仓库，`doctor` 发现公开仓库跟踪了私有路径会报错。
+- 新机器先克隆公开仓库，再把私有库克隆到 `kb/`；缺少 `kb/` 时资料类命令会报错退出，构建不受影响。
+
 ```
-src/people/<短名>/           列传、素材、快照、头像
+src/people/<短名>/           列传、快照、头像（素材在 kb/people/<短名>/）
 src/people/people.11tydata.js 列传计算字段
-src/battles/<短名>/          战役正文、素材、同名 JSON（battle 配置 + br 快照）
+src/battles/<短名>/          战役正文、同名 JSON（battle 配置 + br 快照）；素材在 kb/battles/<短名>/
 src/battles/battles.11tydata.js 战役计算字段（网址、分档、标签、分方统计）
 src/_data/site.js           站名等
 src/_data/sections.js       板块登记与导航
@@ -61,7 +70,9 @@ scripts/make-fonts.mjs      重新生成衬线字体切片（一次性，不接�
 scripts/make-battle-covers.mjs 把视频封面裁成战役头图（npm run covers，不接入构建）
 scripts/research/           取材工具（不接入构建）
 eleventy.config.js          集合、红黑评块、过滤器
-docs/                       模板、术语表、找料方法、结构化档案、备忘录、线索
+scripts/workspace.mjs       私有路径清单与 kb/ 定位
+docs/                       规则、模板、术语表、找料方法（线索、来源、档案平放在 kb/）
+kb/                         私有资料库克隆（不进公开仓库）
 ```
 
 | 命令 | 作用 |
@@ -70,7 +81,9 @@ docs/                       模板、术语表、找料方法、结构化档案�
 | `npm test` | 离线脚本回归验证 |
 | `npm run find -- "名字"` | 查角色 ID |
 | `npm run materials -- "关键词"` | 离线定位材料；无关键词时只报数量 |
-| `npm run materials:check` | 校验内部叙述材料 JSON，构建与全仓检查共用 |
+| `npm run materials:check` | 校验内部叙述材料 JSON（`kb:check` 的一部分） |
+| `npm run kb:check` | 校验私有库：材料、B站、贴吧、军团档案、复审登记，并核对公开 B站派生文件是否最新；`check` 末尾调用，构建不调用 |
+| `npm run bilibili:public` | 从私有库 B站档案重新生成网站用的 `src/_data/bilibili-public.json` |
 | `npm run corporations -- --help` | 离线查询军团、历史Top 100与跨团角色调查，不刷新榜单 |
 | `npm run corporations:check` | 校验军团档案、共享角色、来源与本地引用 |
 | `npm run corps -- --help` | 军团篇工作台：列候选、开页、汇全仓线索、查门槛与流水账 |

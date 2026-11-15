@@ -1,6 +1,23 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { coverCrop, coverSrc, emblemSides } from './battle-emblem.mjs';
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+import { allianceBackdrop, coverCrop, coverSrc, emblemSides } from './battle-emblem.mjs';
+
+test('联盟底图只给已缓存的自定义徽标', () => {
+  const dir = mkdtempSync(path.join(tmpdir(), 'backdrop-'));
+  try {
+    writeFileSync(path.join(dir, 'alliance-1.png'), 'custom');
+    assert.equal(allianceBackdrop(1, dir), '/assets/emblems/alliance-1.png');
+    assert.equal(allianceBackdrop(2, dir), null);
+    assert.equal(allianceBackdrop(null, dir), null);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+  // 仓库里 99013541 联盟用的是默认金星图。
+  assert.equal(allianceBackdrop(99013541), null);
+});
 
 test('封面从正中裁成最大的 16:9', () => {
   assert.equal(coverSrc('obe-2026'), '/assets/emblems/cover-obe-2026.webp');

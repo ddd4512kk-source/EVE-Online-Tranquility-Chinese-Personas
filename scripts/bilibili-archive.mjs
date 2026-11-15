@@ -5,6 +5,11 @@ import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 import { brApiUrl } from './battle-report.mjs';
 import { maintainerProcessErrors, readMaterial } from './material-document.mjs';
+import { readdir, requireKb, resolve } from './workspace.mjs';
+
+// 合并视图下递归列出目录内文件，返回规范相对路径。
+const walkFiles = (root, dir) => readdir(root, dir).flatMap(entry =>
+  entry.isDirectory() ? walkFiles(root, `${dir}/${entry.name}`) : [`${dir}/${entry.name}`]);
 
 export const ARCHIVE = 'docs/bilibili';
 const UID = /^\d+$/;
@@ -191,7 +196,7 @@ const contentToken = item => item.bvid ?? item.url;
 export const opusCoverage = () => ({ state: 'unknown', scope: '尚未核定图文列表覆盖；视频排序与动态首页不能替代图文列表。' });
 
 async function safeFile(root, relative) {
-  let full = path.resolve(root, relative.split('#')[0]);
+  let full = resolve(root, path.posix.normalize(relative.split('#')[0]));
   if (!(await fs.access(full).then(() => true, () => false)) && /\.md$/.test(full)) {
     for (const json of [full.replace(/\.md$/, '.json'), full.replace(/\.md$/, '-material.json')]) {
       if (!(await fs.access(json).then(() => true, () => false))) continue;
@@ -219,7 +224,7 @@ const readingSummary = reading => {
 };
 
 export async function readProfiles(root) {
-  const dir = path.join(root, ARCHIVE);
+  const dir = resolve(root, ARCHIVE);
   const names = (await fs.readdir(dir)).filter(n => /^\d+\.json$/.test(n));
   const profiles = await Promise.all(names.map(async name => ({ file: `${ARCHIVE}/${name}`, data: JSON.parse(await fs.readFile(path.join(dir, name), 'utf8')) })));
   return profiles.sort((a, b) => BigInt(a.data.uid) < BigInt(b.data.uid) ? -1 : 1);
@@ -318,13 +323,8 @@ const BV_MENTION = /\bBV1[1-9A-HJ-NP-Za-km-z]{9}\b/g, UID_MENTION = /space\.bili
 export async function repoMentions(root) {
   const mentions = new Map(), materialFiles = new Set();
   for (const dir of MENTION_DIRS) {
-    const names = await fs.readdir(path.join(root, dir), { recursive: true }).catch(error => {
-      if (error.code === 'ENOENT') return [];
-      throw error;
-    });
-    for (const name of names.filter(n => /\.(?:md|json)$/.test(n))) {
-      const file = path.posix.join(dir, name.replaceAll('\\', '/'));
-      const full = path.join(root, file), raw = await fs.readFile(full, 'utf8');
+    for (const file of walkFiles(root, dir).filter(n => /\.(?:md|json)$/.test(n))) {
+      const full = resolve(root, file), raw = await fs.readFile(full, 'utf8');
       const isMaterialArea = /^src\/(?:people|battles)\/[^/]+\/materials-[^/]+\.json$/.test(file)
         || /^docs\/(?:sources|leads|corporations\/notes)\/.+\.json$/.test(file);
       let text = raw;
@@ -357,7 +357,7 @@ async function unregisteredWarnings(root, profiles) {
   const known = new Set();
   // unavailable.json: dead works/accounts; ignored.json: checked and unrelated to EVE. Both are "编号: 原因".
   for (const name of ['unavailable.json', 'ignored.json']) {
-    const list = JSON.parse(await fs.readFile(path.join(root, ARCHIVE, name), 'utf8').catch(error => {
+    const list = JSON.parse(await fs.readFile(resolve(root, `${ARCHIVE}/${name}`), 'utf8').catch(error => {
       if (error.code === 'ENOENT') return '{}';
       throw error;
     }));
@@ -418,11 +418,11 @@ export async function run(root, command, input, bvid) {
       const legacyMaterial = `src/battles/${dir.name}/materials-${dir.name}.md`;
       let text = '';
       let usedMaterial = material;
-      try { text = readMaterial(path.join(root, material)); }
+      try { text = readMaterial(resolve(root, material)); }
       catch (error) {
         if (error.code !== 'ENOENT' && !/ENOENT/.test(error.message)) throw error;
         usedMaterial = legacyMaterial;
-        try { text = readMaterial(path.join(root, legacyMaterial)); }
+        try { text = readMaterial(resolve(root, legacyMaterial)); }
         catch (legacyError) { if (legacyError.code !== 'ENOENT' && !/ENOENT/.test(legacyError.message)) throw legacyError; }
       }
       battles.push({ file, material: usedMaterial, text, sources: [battle.loss_source].flat().filter(Boolean) });
@@ -442,11 +442,11 @@ export async function run(root, command, input, bvid) {
       scope: '仅查已存简介及旧版本；链接相同或素材提及不代表已核读、同一窗口或分方正确。不同BR仍须人工核对，未匹配不代表应新增战役。' }, null, 2)];
   }
   if (command === 'scans') {
-    return [JSON.stringify(JSON.parse(await fs.readFile(path.join(root, ARCHIVE, 'scans.json'), 'utf8')), null, 2)];
+    return [JSON.stringify(JSON.parse(await fs.readFile(resolve(root, `${ARCHIVE}/scans.json`), 'utf8')), null, 2)];
   }
   if (command === 'show') {
     if (!UID.test(input ?? '')) throw new Error('show需要确切UID');
-    const p = JSON.parse(await fs.readFile(path.join(root, ARCHIVE, `${input}.json`), 'utf8'));
+    const p = JSON.parse(await fs.readFile(resolve(root, `${ARCHIVE}/${input}.json`), 'utf8'));
     if (bvid) {
       const v = p.videos.find(v => v.bvid === bvid) ?? (p.posts ?? []).find(v => v.key === bvid);
       if (!v) throw new Error('此UID没有该BV／图文key的作品页档案；先查channel.listings是否仅有候选。');
@@ -462,7 +462,7 @@ export async function run(root, command, input, bvid) {
   }
   if (command === 'register') {
     if (!UID.test(input ?? '') || !bvid?.trim()) throw new Error('register需要确切UID和账号名');
-    const file = path.join(root, ARCHIVE, `${input}.json`);
+    const file = resolve(root, `${ARCHIVE}/${input}.json`);
     if (await fs.access(file).then(() => true, () => false)) throw new Error(`${input}已有档案，不覆盖`);
     await fs.writeFile(file, JSON.stringify(newProfile(input, bvid.trim(), await repoMentions(root), [input]), null, 2) + '\n');
     return [`${input}已按candidate登记，未核对应人物。运行sync更新索引。`];
@@ -474,7 +474,7 @@ export async function run(root, command, input, bvid) {
     for (const one of inputs) {
       const captured = JSON.parse(await fs.readFile(one, 'utf8'));
       const isPost = ['opus', 'article'].includes(captured.metadata?.kind);
-      const v = isPost ? postFromCapture(captured) : videoFromCapture(captured), file = path.join(root, ARCHIVE, `${v.owner_uid}.json`);
+      const v = isPost ? postFromCapture(captured) : videoFromCapture(captured), file = resolve(root, `${ARCHIVE}/${v.owner_uid}.json`);
       // An unknown owner is registered only as a candidate; identity stays a manual call.
       const owner = captured.metadata?.owner?.name ?? captured.owner?.name;
       const p = await fs.readFile(file, 'utf8').then(JSON.parse, error => {
@@ -496,7 +496,7 @@ export async function run(root, command, input, bvid) {
     const fresh = await syncProfile(root, entry.data);
     if (command === 'sync') {
       entry.data = fresh;
-      await fs.writeFile(path.join(root, entry.file), JSON.stringify(fresh, null, 2) + '\n');
+      await fs.writeFile(resolve(root, entry.file), JSON.stringify(fresh, null, 2) + '\n');
     } else if (JSON.stringify(fresh) !== JSON.stringify(entry.data)) errors.push(`${entry.file}状态过期，运行npm run bilibili:sync`);
     errors.push(...await validateProfile(root, entry.file, entry.data));
   }
@@ -509,6 +509,7 @@ export async function run(root, command, input, bvid) {
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
     const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+    requireKb(root);
     for (const line of await run(root, process.argv[2] ?? 'check', process.argv[3], process.argv[4])) console.log(line);
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

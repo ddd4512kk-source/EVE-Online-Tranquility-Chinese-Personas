@@ -15,7 +15,7 @@ import { readPersonDocument } from "./person-document.mjs";
 import { validateCorporationTags } from "./corporation-tags.mjs";
 import { bodyLineOffset, validateBlocks } from "./blocks.mjs";
 import { characterFile, compactSnapshot, expandSnapshot, isNpcCorp, mergeCharacterRecord, mergeNames, readNames, writeNames } from "./character-snapshot.mjs";
-import { readAllIdentities } from "./person-identity.mjs";
+import { readSiteIdentities } from "./person-identity.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
@@ -242,7 +242,7 @@ async function readPeople() {
     seen.set(id, file);
     people.push({ file, id, directory, tags: data.tags ?? [] });
   }
-  try { readAllIdentities(ROOT); } catch (error) { errors.push(error.message); }
+  try { readSiteIdentities(ROOT); } catch (error) { errors.push(error.message); }
   return { people, errors };
 }
 

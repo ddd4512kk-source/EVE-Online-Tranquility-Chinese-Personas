@@ -2,7 +2,7 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
 
 // 首页名录：文字筛选 ∧ 标签多选（同时满足所选全部标签；“全部”= 清空），
 // 九宫格阵营：单格 CE／整列 L*／整行 *E，与文字、标签取交集。
-// 排序：创号、更新、六维、随机，再点当前排序切换方向。同步 ?f= ?t=（可多个）?al= ?sort= ?rev=。无 JS 时页面照常可读。
+// 排序：更新（默认）、创号、六维、随机，再点当前排序切换方向。同步 ?f= ?t=（可多个）?al= ?sort= ?rev=。无 JS 时页面照常可读。
 (() => {
   const roster = document.getElementById('roster');
   if (!roster) return;
@@ -19,17 +19,18 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
   if (alignGroup) alignGroup.hidden = false;
   const alignOk = code => !alignSel || (!!code && [0, 1].every(i => alignSel[i] === '*' || alignSel[i] === code[i]));
 
-  const cards = [...roster.querySelectorAll('.card')]; // 构建时已按创号升序
+  const cards = [...roster.querySelectorAll('.card')]; // 构建时已按更新倒序，同日按创号
   pauseOffscreen(cards);
-  const birth = new Map(cards.map((c, i) => [c, i]));
+  const byBirth = [...cards].sort((a, b) => Date.parse(a.dataset.born) - Date.parse(b.dataset.born) || a.dataset.id - b.dataset.id);
+  const birth = new Map(byBirth.map((c, i) => [c, i]));
   // 阶位 EX=7 … E=1，待考=0；未评六维的人整卡视为待考
   const ranks = new Map(cards.map(c => [c, c.dataset.radar ? JSON.parse(c.dataset.radar) : {}]));
   const total = new Map(cards.map(c => [c, Object.values(ranks.get(c)).reduce((s, r) => s + r, 0)]));
 
   // 各排序的默认方向（首点）；reversed 表示再点后的反方向
   const sorters = {
-    birth: () => cards,
-    recent: () => [...cards].sort((a, b) => Date.parse(b.dataset.updated) - Date.parse(a.dataset.updated)),
+    birth: () => byBirth,
+    recent: () => cards,
   };
   // 六维：同档先比其余五维之和，再按创号；待考的不论方向都排最后
   for (const b of sortChips) {
@@ -46,7 +47,7 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
   const birthArrow = rev => (rev ? '↓' : '↑');
   const otherArrow = rev => (rev ? '↑' : '↓');
 
-  let mode = 'birth';
+  let mode = 'recent';
   let reversed = false;
 
   const press = (chips, isOn) => {
@@ -58,7 +59,7 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
 
   function syncUrl() {
     const u = new URL(location.href);
-    const sort = mode === 'birth' && !reversed ? '' : mode === 'shuffle' ? '' : mode;
+    const sort = mode === 'recent' && !reversed ? '' : mode === 'shuffle' ? '' : mode;
     for (const [key, value] of [['f', input.value.trim()], ['al', alignSel], ['sort', sort], ['rev', sort && reversed ? '1' : '']]) {
       if (value) u.searchParams.set(key, value);
       else u.searchParams.delete(key);
@@ -96,7 +97,7 @@ import { initTagCollapse, pauseOffscreen, shuffled } from './directory-utils.js'
   function sortBy(key, rev) {
     mode = key;
     reversed = rev;
-    roster.classList.toggle('is-shuffled', !(key === 'birth' && !rev));
+    roster.classList.toggle('is-shuffled', !(key === 'recent' && !rev));
     if (key === 'shuffle') roster.append(...shuffled(cards));
     else {
       const list = sorters[key](rev);

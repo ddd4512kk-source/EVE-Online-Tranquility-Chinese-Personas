@@ -74,4 +74,4 @@
 
 先对照收录号、aliases 与素材中的历史小号，再查公开中文头衔、简介、同词根及当前／历史军团。明确对应的并入原人物；有独立故事且角色对得上的直接立传；未对应的在 `docs/leads` 备案并登记 pending-characters，至少写角色 ID、代表 KM、时间、战时军团／联盟、已查项和缺口。监视者说明参与指挥，不直接证明总指挥，也不能单凭同船型或同联盟合并真人。高值抽样未命中不当作没有驾驶记录。
 
-按军团／联盟查驾驶员先跑[高级搜索](research-tools.md#zkillboard-高级搜索asearch)的侧栏排行（`--top character`），一次取得全时段名单，不逐月读月榜、不逐张补全 KM；月榜读取见[工具细节](research-tools.md#系统-chrome-月榜读取)。华人军团的泰坦驾驶员一律备案：`node scripts/research/titan-roster.mjs --all` 把每团全时段名单写进[军团档案](corporations/README.md)的 `titan-all-time`，用 `npm run corporations -- members <军团ID> --scope titan-all-time` 查。对上已收录人物或其小号的，按同人核对并入并记作财力依据；对不上的只留档案记录，没有独立故事不登记 pending-characters。超级航母名单按需用侧栏排行临时取，不备案。
+按军团／联盟查驾驶员先跑[高级搜索](research-tools.md#zkillboard-高级搜索asearch)的侧栏排行（`--top character`），一次取得全时段名单，不逐月读月榜、不逐张补全 KM；月榜读取见[工具细节](research-tools.md#系统-chrome-月榜读取)。华人军团的泰坦、超级航母驾驶员一律备案：`node scripts/research/capital-roster.mjs --ship titan|super --all` 把每团全时段名单写进[军团档案](corporations/README.md)的 `titan-all-time`／`super-all-time`，用 `npm run corporations -- members <军团ID> --scope titan-all-time`（或 `super-all-time`）查。对上已收录人物或其小号的，按同人核对并入并记作财力依据；对不上的只留档案记录，没有独立故事不登记 pending-characters。

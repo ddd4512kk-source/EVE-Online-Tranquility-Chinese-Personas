@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CORP_PLACEHOLDER as PLACEHOLDER, corpHasEnoughMembers, corpMembers, corpStatus } from './activity.mjs';
 import { materialPath, readMaterial } from './material-document.mjs';
+import { kbPath, readdir, requireKb, resolve } from './workspace.mjs';
 
 const CORPS = 'src/corps';
 const NAMES = 'src/_data/entityNames.json';
@@ -40,7 +41,7 @@ export function loadCorps(root) {
     slug,
     archive: readJson(path.join(base, slug, `${slug}.json`)),
     body: fs.readFileSync(path.join(base, slug, `${slug}.md`), 'utf8'),
-    hasMaterials: fs.existsSync(materialPath(path.join(base, slug), slug)),
+    hasMaterials: fs.existsSync(materialPath(kbPath(root, `${CORPS}/${slug}`), slug)),
   }));
 }
 
@@ -64,7 +65,7 @@ export function loadPeople(root) {
 }
 
 const readExcluded = root => {
-  const file = path.join(root, EXCLUDED);
+  const file = resolve(root, EXCLUDED);
   return fs.existsSync(file) ? readJson(file) : {};
 };
 
@@ -126,7 +127,9 @@ export function openCorp(root, id) {
     corp: { id, cn_name: name, epithet: '待定', style: 'tycoon', ratings: { pvp: 50, shenren: 20, influence: 30 } },
   });
   fs.writeFileSync(path.join(dir, `${slug}.md`), `${PLACEHOLDER}\n`);
-  fs.writeFileSync(path.join(dir, `materials-${slug}.json`), JSON.stringify({
+  const materialDir = kbPath(root, `${CORPS}/${slug}`);
+  fs.mkdirSync(materialDir, { recursive: true });
+  fs.writeFileSync(path.join(materialDir, `materials-${slug}.json`), JSON.stringify({
     version: 1, type: 'material', title: name,
     sections: [{ id: 'overview', heading: name, level: 1, content: `军团 ID ${id}。快照见同名 JSON。\n` }],
   }, null, 2) + '\n');
@@ -137,12 +140,12 @@ export function openCorp(root, id) {
 
 function collectCorpus(root) {
   const texts = new Map();
+  // 公开库与 kb/ 合并遍历，键用规范相对路径。
   const walk = (dir, pattern) => {
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      const file = path.join(dir, entry.name);
-      if (entry.isDirectory()) walk(file, pattern);
+    for (const entry of readdir(root, dir)) {
+      const relative = `${dir}/${entry.name}`, file = resolve(root, relative);
+      if (entry.isDirectory()) walk(relative, pattern);
       else if (pattern.test(entry.name)) {
-        const relative = path.relative(root, file).replaceAll('\\', '/');
         const materialArea = /^src\/(?:people|battles)\/[^/]+\/materials-[^/]+\.json$/.test(relative)
           || /^docs\/(?:leads|sources|corporations\/notes)\/.+\.json$/.test(relative);
         if (materialArea) {
@@ -156,7 +159,7 @@ function collectCorpus(root) {
       }
     }
   };
-  for (const [dir, pattern] of CORPUS) if (fs.existsSync(path.join(root, dir))) walk(path.join(root, dir), pattern);
+  for (const [dir, pattern] of CORPUS) walk(dir, pattern);
   return texts;
 }
 
@@ -166,7 +169,7 @@ function cluePatterns(root, { corp, esi }, also = []) {
   const terms = new Set([...(esi?.name?.length >= 5 ? [esi.name] : []), ...also]);
   // cn_name 开页时默认抄英文名，起了中文名才多一个搜索词。
   if (/\p{Script=Han}/u.test(corp.cn_name ?? '')) terms.add(corp.cn_name);
-  const archive = path.join(root, 'docs/corporations', `${corp.id}.json`);
+  const archive = resolve(root, `docs/corporations/${corp.id}.json`);
   if (fs.existsSync(archive)) {
     for (const name of readJson(archive).names ?? []) if (name.length >= 2 && !/^[A-Za-z0-9. ]{1,3}$/.test(name)) terms.add(name);
   }
@@ -299,7 +302,9 @@ export function run(root, args) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    const { output, failed } = run(path.resolve(import.meta.dirname, '..'), process.argv.slice(2));
+    const root = path.resolve(import.meta.dirname, '..');
+    if (process.argv[2] && process.argv[2] !== '--help') requireKb(root);
+    const { output, failed } = run(root, process.argv.slice(2));
     console.log(output);
     if (failed) process.exitCode = 1;
   }

@@ -2,8 +2,10 @@
 {%- from "person-alignment.njk" import alignTab -%}
 {%- set d = p.data -%}
 {%- set char = d.char -%}
-<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}"{% if d.radarPanel %} data-radar="{{ d.radarPanel.ranks | dump }}"{% endif %}{% if d.alignment %} data-align="{{ d.alignment.code }}"{% endif %} data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
+<li class="card{% if d.radarPanel %} has-radar{% endif %}{% if d.famous %} is-famous{% endif %}{% if d.wargod %} is-wargod{% endif %}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}" data-key="{{ d | searchKey }}" data-updated="{{ d.updated }}" data-born="{{ char.birthday }}" data-id="{{ d.character_id }}"{% if d.radarPanel %} data-radar="{{ d.radarPanel.ranks | dump }}"{% endif %}{% if d.alignment %} data-align="{{ d.alignment.code }}"{% endif %} data-tags="|{{ d.labels.concat(d.statusTags) | join('|') }}|">
   <a href="{{ p.url | url }}">
+    {%- set backdrop = (char.affiliation.alliance.id | allianceBackdrop) if (char.affiliation and char.affiliation.alliance and not char.affiliation.left_at) else null %}
+    {%- if backdrop %}<span class="card-al-backdrop"><img src="{{ backdrop | url }}" alt="" width="128" height="128" loading="lazy" decoding="async"></span>{% endif %}
     {%- if d.famous %}<span class="fame-sweep" aria-hidden="true"></span><span class="fame-seal" title="名人：{{ d.famous }}">名</span>{% endif %}
     {%- if d.alignment %}{{ alignTab(d.alignment) }}{% endif %}
     <span class="status-frame status-{{ d.activity.state }}{% if d.tycoon %} is-tycoon{% endif %}{% if d.shenren %} is-shenren{% endif %}{% if d.upzhu %} is-upzhu{% endif %}"{% if d.activityLabel %} title="{{ d.activityLabel }}"{% endif %}>
@@ -18,7 +20,7 @@
       {% if d.epithet %}<span class="card-epithet">{{ d.epithet }}</span>{% endif %}
       <span class="card-meta">
         {%- if d.liao.hong or d.liao.hei %}<span class="liao-count">{% if d.liao.hong %}<span class="lc-hong" title="红料 {{ d.liao.hong }} 条">红 {{ d.liao.hong }}</span>{% endif %}{% if d.liao.hei %}<span class="lc-hei" title="黑料 {{ d.liao.hei }} 条">黑 {{ d.liao.hei }}</span>{% endif %}</span>{% endif -%}
-        {% include "affiliation.njk" %}
+        {% set affCompact = true %}{% include "affiliation.njk" %}
         <span class="card-updated">更新于 <time datetime="{{ d.updated }}">{{ d.updated | ymd }}</time></span>
       </span>
     </span>

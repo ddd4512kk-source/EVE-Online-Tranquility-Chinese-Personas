@@ -1,24 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { personUpzhu, upzhuText } from '../../scripts/activity.mjs';
+import { upzhuText } from '../../scripts/activity.mjs';
 
-// 从 docs/bilibili/*.json 汇总已确认人物的高播 EVE 视频数量，判定是否挂 UP 主标记。
+// UP 主标记读公开派生文件 bilibili-public.json（由 scripts/bilibili-public.mjs 从私有 B站档案生成）。
 export default function () {
-  const dir = path.resolve(import.meta.dirname, '../../docs/bilibili');
-  if (!fs.existsSync(dir)) return {};
-  const byPerson = new Map();
-  for (const file of fs.readdirSync(dir)) {
-    if (!/^\d+\.json$/.test(file)) continue;
-    const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
-    const slug = data?.identity?.state === 'confirmed' ? data.identity.person : '';
-    if (!slug) continue;
-    if (!byPerson.has(slug)) byPerson.set(slug, []);
-    byPerson.get(slug).push(data);
-  }
+  const file = path.resolve(import.meta.dirname, 'bilibili-public.json');
+  if (!fs.existsSync(file)) return {};
   const result = {};
-  for (const [slug, profiles] of byPerson) {
-    const up = personUpzhu(profiles, slug);
-    if (up.upzhu) result[slug] = { ...up, label: upzhuText(up) };
+  for (const [slug, entry] of Object.entries(JSON.parse(fs.readFileSync(file, 'utf8')))) {
+    if (!entry.upzhu) continue;
+    const up = { upzhu: true, count: entry.upzhu };
+    result[slug] = { ...up, label: upzhuText(up) };
   }
   return result;
 }

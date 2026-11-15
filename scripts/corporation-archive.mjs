@@ -5,17 +5,18 @@ import { fileURLToPath } from 'node:url';
 import { readAllIdentities } from './person-identity.mjs';
 import { readPersonDocument } from './person-document.mjs';
 import { materialPath } from './material-document.mjs';
+import { kbPath, readdir, relativeOf, requireKb, resolve } from './workspace.mjs';
 
 export const DIRECTORY = 'docs/corporations';
 const ID = /^[1-9]\d*$/;
-const SCOPES = ['all-time', 'recent', 'monthly', 'monitor-monthly', 'titan-all-time'];
+const SCOPES = ['all-time', 'recent', 'monthly', 'monitor-monthly', 'titan-all-time', 'super-all-time'];
 // 驾驶员名单：一次取全，不设Top 100，可按需重跑；上限同 zKillboard 侧栏排行的500行。
-export const ROSTER_SCOPES = ['titan-all-time'];
+export const ROSTER_SCOPES = ['titan-all-time', 'super-all-time'];
 export const ROSTER_LIMIT = 500;
 const fold = value => String(value).normalize('NFKC').toLowerCase();
-const files = (root, directory) => fs.existsSync(path.join(root, directory)) ? fs.readdirSync(path.join(root, directory)).sort() : [];
+const files = (root, directory) => readdir(root, directory).map(entry => entry.name);
 const load = (root, file) => {
-  try { return JSON.parse(fs.readFileSync(path.join(root, file), 'utf8')); }
+  try { return JSON.parse(fs.readFileSync(resolve(root, file), 'utf8')); }
   catch (error) { throw new Error(`${file}：${error.message}`); }
 };
 const HELP = `离线查询军团档案、固定历史 Top 100 与共享角色调查记录。
@@ -28,9 +29,9 @@ const HELP = `离线查询军团档案、固定历史 Top 100 与共享角色调
   source <来源key>         分页读取历史原表，未定军团ID也保留原行
   check                    校验结构、关联、来源和本地引用；全程离线
 
-选项：--scope monthly / all-time / recent / monitor-monthly / titan-all-time，--period YYYY-MM，
+选项：--scope monthly / all-time / recent / monitor-monthly / titan-all-time / super-all-time，--period YYYY-MM，
       --limit 10（最多100），--offset 0，--alliance（仅 show / members）
-榜单目标固定 Top 100（titan-all-time 是全时段泰坦驾驶员全名单，不限100）；limit 只控制查询分页，不改变调查范围。
+榜单目标固定 Top 100（titan-all-time／super-all-time 是全时段泰坦／超级航母驾驶员全名单，不限100）；limit 只控制查询分页，不改变调查范围。
 已有 all-time 只作固定 hint，不刷新；缺失档案与第51—100名调查留待另行处理。
 取得、名片记录、身份、故事、归档与入文不互相推定；旧结论不覆盖正式人物身份。
 
@@ -63,7 +64,7 @@ export function characterArchivePath(id) {
 export function readCharacters(root, ids) {
   const directory = `${DIRECTORY}/characters`;
   const selected = ids === undefined ? files(root, directory).filter(file => file.endsWith('.json')).map(file => `${directory}/${file}`)
-    : [...new Set(ids.map(characterArchivePath))].filter(file => fs.existsSync(path.join(root, file)));
+    : [...new Set(ids.map(characterArchivePath))].filter(file => fs.existsSync(resolve(root, file)));
   const records = {};
   for (const file of selected) {
     if (!/^\d{2}\.json$/.test(path.basename(file))) throw new Error(`${file}：角色分片文件名须为00—99`);
@@ -84,8 +85,8 @@ function identityIndex(root) {
     for (const id of [person.character_id, ...person.alts.map(alt => alt.id)]) {
       identities.set(String(id), { person: person.slug, character_id: person.character_id,
         material: (() => {
-          const file = materialPath(path.join(root, 'src/people', person.slug), person.slug);
-          return fs.existsSync(file) ? path.relative(root, file).replaceAll('\\', '/') : null;
+          const file = materialPath(kbPath(root, `src/people/${person.slug}`), person.slug);
+          return fs.existsSync(file) ? relativeOf(root, file) : null;
         })() });
     }
   }
@@ -189,12 +190,12 @@ function localReference(root, value) {
   if (typeof value !== 'string' || !value) throw new Error('来源引用须为非空字符串');
   if (/^https:\/\//.test(value)) return;
   let file = value.split('#')[0];
-  let absolute = path.resolve(root, file);
+  let absolute = resolve(root, file);
   if (!file.startsWith('docs/') && !file.startsWith('src/')) throw new Error(`本地引用须从仓库根目录起算：${value}`);
   if (!absolute.startsWith(path.resolve(root) + path.sep)) throw new Error(`本地引用不存在：${value}`);
   if (!fs.existsSync(absolute) && /\.md$/.test(file)) {
     for (const candidate of [file.replace(/\.md$/, '.json'), file.replace(/\.md$/, '-material.json')]) {
-      const resolved = path.resolve(root, candidate);
+      const resolved = resolve(root, candidate);
       if (!resolved.startsWith(path.resolve(root) + path.sep) || !fs.existsSync(resolved)) continue;
       try {
         if (JSON.parse(fs.readFileSync(resolved, 'utf8')).type === 'material') { file = candidate; absolute = resolved; break; }
@@ -205,7 +206,7 @@ function localReference(root, value) {
 }
 
 export function checkArchive(root) {
-  if (fs.existsSync(path.join(root, `${DIRECTORY}/characters.json`))) throw new Error('旧角色总表 characters.json 已停用，请迁入 characters/00—99.json 分片');
+  if (fs.existsSync(resolve(root, `${DIRECTORY}/characters.json`))) throw new Error('旧角色总表 characters.json 已停用，请迁入 characters/00—99.json 分片');
   const organizations = [...readOrganizations(root), ...readOrganizations(root, { alliance: true })];
   const characters = readCharacters(root), seen = new Set();
   let entries = 0;
@@ -320,7 +321,9 @@ export function run(root, args) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    const result = run(path.resolve(import.meta.dirname, '..'), process.argv.slice(2));
+    const root = path.resolve(import.meta.dirname, '..');
+    if (!process.argv.includes('--help')) requireKb(root);
+    const result = run(root, process.argv.slice(2));
     console.log(typeof result === 'string' ? result : JSON.stringify(result, null, 2));
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

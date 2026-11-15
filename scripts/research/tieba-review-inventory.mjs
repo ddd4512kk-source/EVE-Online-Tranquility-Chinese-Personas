@@ -9,7 +9,7 @@ const files = new Map();
 async function walk(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
     const file = path.join(dir, entry.name);
-    if (entry.isDirectory()) await walk(file);
+    if (entry.isDirectory()) { if (entry.name !== '.git') await walk(file); }
     else if (entry.name.endsWith('.md')) {
       for (const [, tid] of (await readFile(file, 'utf8')).matchAll(/tieba\.baidu\.com\/p\/(\d+)/g)) {
         if (!files.has(tid)) files.set(tid, new Set());
@@ -25,7 +25,10 @@ if (flag) {
   try { inventory = JSON.parse(await readFile(path.join(out, 'inventory.json'), 'utf8')); } catch {}
 }
 if (!inventory) {
-  await walk('src/people'); await walk('docs');
+  // 私有资料库克隆在 kb/（平放：素材在 kb/people，docs 私有目录在 kb 根下）。
+  for (const dir of ['src/people', 'docs', 'kb']) {
+    if (await readdir(dir).then(() => true, () => false)) await walk(dir);
+  }
   inventory = [...files].map(([tid, refs]) => ({ tid, files: [...refs].sort() })).sort((a,b) => a.tid.localeCompare(b.tid));
   await writeFile(path.join(out, 'inventory.json'), JSON.stringify(inventory, null, 2));
 }

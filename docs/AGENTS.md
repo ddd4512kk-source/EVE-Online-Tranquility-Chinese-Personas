@@ -6,7 +6,7 @@
 
 - 列传、战役、军团各有一套规则、模板和验收：`rules-person.md`／`person-template.md`／`person-review.md`，`rules-battle.md`／`battle-template.md`／`battle-review.md`，`rules-corp.md`／`corp-template.md`／`corp-review.md`，互不引用写作标准，也不合并。
 - 三类唯一共用的规则文件是 `terminology.md`（专名写中文）。列传与线索的归档在 `materials-person.md`，战役、军团的素材要求写在各自规则里；联网方法在 `research-method.md`（人物、战役专项在 `research-person.md`、`research-battle.md`，工具语法、B站细则与少用入口在附录 `research-tools.md`）；视觉在 `site-design.md`。其他入口只引用，不复制整段。
-- `sources/` 存共享来源，`leads/` 存待查线索，`bilibili/` 与 `corporations/` 按自身 README 维护结构化档案，`reviews/` 按[增量复查](review-workflow.md)保存功能结论。已归人的素材进本人目录；改人物／战役文件须另读对应技能与目录指令。
+- `sources/` 存共享来源，`leads/` 存待查线索，`bilibili/` 与 `corporations/` 按自身 README 维护结构化档案，`reviews/` 按[增量复查](review-workflow.md)保存功能结论。已归人的素材进本人目录；改人物／战役文件须另读对应技能与目录指令。这些目录、各对象的 `materials-*` 及待查名单等私有资料实际平放在私有库 `kb/`（去掉开头的 `docs/`、`src/`），文中仍写原相对路径，结构见[开发与验证](development.md#私有资料库-kb)；私有文件不得写进公开仓库。
 
 ## 规则文档：写给代理读
 

@@ -67,11 +67,6 @@
       "count": 22
     }
   },
-  "scripts/fetch-battle-emblems.mjs": {
-    "@stylistic/quotes": {
-      "count": 20
-    }
-  },
   "scripts/fetch-characters.mjs": {
     "@stylistic/arrow-parens": {
       "count": 20
@@ -209,17 +204,6 @@
     },
     "@stylistic/quotes": {
       "count": 22
-    }
-  },
-  "scripts/research/tieba-client-dump.mjs": {
-    "@stylistic/arrow-parens": {
-      "count": 8
-    },
-    "@stylistic/indent": {
-      "count": 13
-    },
-    "@stylistic/quotes": {
-      "count": 20
     }
   },
   "scripts/research/tieba-client-forum.mjs": {

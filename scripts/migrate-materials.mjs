@@ -3,14 +3,14 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { parseMaterial, planMaterialMigration, projectMaterial, serializeMaterial, validateMaterial } from './material-document.mjs';
+import { relativeOf } from './workspace.mjs';
 
 const TEXT_EXTENSIONS = new Set(['.md', '.json', '.mjs', '.js', '.njk', '.html', '.yml', '.yaml', '.txt']);
 const SKIP_DIRECTORIES = new Set(['.git', '.cache', 'node_modules', '_site', 'tests', 'test']);
 const hash = content => crypto.createHash('sha256').update(content).digest('hex');
 
-function normalized(root, file) {
-  return path.relative(root, file).split(path.sep).join('/');
-}
+// kb/ 内文件也按规范相对路径处理，引用改写与迁移前一致。
+const normalized = relativeOf;
 
 function eligibleTextFiles(root, directory = root) {
   if (!fs.existsSync(directory)) return [];

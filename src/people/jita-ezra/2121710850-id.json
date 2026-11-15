@@ -20,6 +20,7 @@
       "00区",
       "INIT.",
       "CEO",
+      "军团管理",
       "RMT",
       "FC"
     ],
@@ -110,7 +111,8 @@
           "lost": 6,
           "isk_destroyed": 243030634441,
           "last_active": "2020-06",
-          "as_of": "2026-10-23"
+          "as_of": "2026-11-15",
+          "fc": null
         }
       },
       {
@@ -124,7 +126,8 @@
           "lost": 12,
           "isk_destroyed": 0,
           "last_active": "2020-02",
-          "as_of": "2026-10-23"
+          "as_of": "2026-11-15",
+          "fc": null
         }
       },
       {
@@ -138,7 +141,8 @@
           "lost": 3,
           "isk_destroyed": 0,
           "last_active": "2019-07",
-          "as_of": "2026-10-23"
+          "as_of": "2026-11-15",
+          "fc": null
         }
       },
       {
@@ -153,10 +157,99 @@
           "lost": 89,
           "isk_destroyed": 674881477470,
           "last_active": "2021-04",
-          "as_of": "2026-10-23"
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2117201849,
+        "name": "masayoshi shirai",
+        "basis": "白井同姓氏小号；2020-07-31 创立马甲军团 Violent Star Reviewers（NCT-V，98651999）并任初任 CEO，2023-04-29T03:10:00Z 与 jita ezra 同分钟退团。",
+        "sources": [
+          "materials-jita-ezra.json#nct-v小号与待定候选"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2117547821,
+        "name": "xxbai buy",
+        "basis": "命名对应“小小白”采购号，2023-11-20 起接任白井马甲军团 Violent Star Reviewers（NCT-V，98651999）现任 CEO。",
+        "sources": [
+          "materials-jita-ezra.json#nct-v小号与待定候选"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2118988034,
+        "name": "shirai OU",
+        "basis": "白井同姓氏 PvP 主力号；瑶光（98725234）团内头衔明写 shirai，早在 2024-06 尚在 PH 未入瑶光时即与 Leiming D3vilback 同小队双开配合，2026-10 13 杀中 9 场同 KM，战区（PH/INIT）、高频星系（BWF-ZZ）与隐轰船型高度重合。虽 988 杀略高于 Leiming D3vilback 的 824 杀，但未超三成，且“白井 Director”头衔在 Leiming D3vilback 名下，主号仍留 Leiming D3vilback。",
+        "sources": [
+          "materials-jita-ezra.json#nct-v小号与待定候选"
+        ],
+        "zkb": {
+          "kills": 988,
+          "lost": 102,
+          "isk_destroyed": 956876693969,
+          "last_active": "2026-10",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2115776777,
+        "name": "Slick Salas",
+        "basis": "白井主力战斗小号，2020-2021 多次与 kazuha shirai、Ezra Kylo 同分钟同步切换 NCT-V、ChuangShi 等军团，并沿用 xxbai buy 同一转团路径；曾以 NCT-V 参战 Y-2ANO 与 FWST-8。",
+        "sources": [
+          "materials-jita-ezra.json#2026-11-15-slick-salas与ezra-kylo小号补录"
+        ],
+        "zkb": {
+          "kills": 764,
+          "lost": 106,
+          "isk_destroyed": 936566085496,
+          "last_active": "2021-05",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2113115656,
+        "name": "Ezra Kylo",
+        "basis": "白井早期主力与泰坦/无畏号（2017-08 建号，同带 Ezra 命名）；历经 PLA、兔窝 Violent Rabbit Hutch、九州一世与二世，2020-08-05T02:22Z 与 jita ezra 同分钟转入 NCT-V，曾驾驶神使级、勒维亚坦级与神示级参战 319-3D。",
+        "sources": [
+          "materials-jita-ezra.json#2026-11-15-slick-salas与ezra-kylo小号补录"
+        ],
+        "zkb": {
+          "kills": 345,
+          "lost": 20,
+          "isk_destroyed": 1061242730031,
+          "last_active": "2021-04",
+          "as_of": "2026-11-15",
+          "fc": null
         }
       }
-    ]
+    ],
+    "zkb": {
+      "kills": 824,
+      "lost": 97,
+      "isk_destroyed": 628229453490,
+      "last_active": "2026-11",
+      "as_of": "2026-11-15",
+      "fc": null
+    }
   },
   "related_snapshots": [
     {

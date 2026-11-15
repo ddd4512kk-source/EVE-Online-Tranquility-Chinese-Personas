@@ -7,6 +7,7 @@ import { readPersonDocument } from './person-document.mjs';
 import { personCombat } from './activity.mjs';
 import { CAPITAL_GROUPS } from './person-radar-data.mjs';
 import { createRequestGuard } from './research/request-guard.mjs';
+import { requireKb, resolve } from './workspace.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const API = 'https://zkillboard.com/api/stats/characterID/';
@@ -232,7 +233,8 @@ async function main(args) {
   if (!['seed', 'collect', 'report'].includes(command) || args.length > 1) {
     throw new Error('用法：node scripts/person-combat-data.mjs seed|collect|report');
   }
-  const file = path.join(ROOT, DATA);
+  requireKb(ROOT);
+  const file = resolve(ROOT, DATA);
   const roster = combatRoster(ROOT);
   const database = fs.existsSync(file) ? readJson(file) : { version: 1, characters: {} };
   if (command === 'seed') {

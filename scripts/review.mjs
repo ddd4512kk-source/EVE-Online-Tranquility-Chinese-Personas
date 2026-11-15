@@ -6,6 +6,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 import { maintainerProcessErrors, materialPath, materialReferences, readMaterial } from './material-document.mjs';
+import { kbPath, readdir, relativeOf, requireKb, resolve } from './workspace.mjs';
 
 const REGISTRY = 'docs/review-features.json';
 const RECEIPTS = 'docs/reviews';
@@ -23,7 +24,7 @@ const HELP = `离线增量复查；无参数只报数量，不输出全站正文
   npm run review -- check
 list：--kind person|battle --signal 信号 --state unreviewed|stale|reviewed|needs-work|blocked
       --recent N（首次加入历史，未提交新篇优先） --max-blocks N --limit 1..20 --offset N
-impact：--since Git引用（含已暂存、未暂存和未跟踪文件），或重复 --files 相对路径；可按 --state 筛选
+impact：--since Git引用（公开库与 kb/ 各取一次，含已暂存、未暂存和未跟踪文件），或重复 --files 相对路径；可按 --state 筛选
 card：只返回结构、命中摘录与证据入口；read 单次最多80行，不自动读取视频或联网。
 mark：仅在人工核读后使用；--evidence 可重复。配置必查项的feature逐项登记，默认读取 template 草稿并在登记后删除，另存的用 --assessment 仓库内JSON路径。
 template：生成状态留空的 assessment 草稿、校验约束与可用证据锚点；锚点默认只列本人正文和素材，--sources yes 另列共享来源，--anchors no 不列锚点（同一人第二项复用第一项的）。有旧结论时沿用说明，列出失效证据和登记后变动的输入。草稿已存在时不覆盖，只重报说明；--force yes 重新生成。输出须完整读取。
@@ -32,19 +33,19 @@ accept：规则或实现改动后声明；tighten 提升严格度并使旧结论
 check：核对全部功能的规则声明及已删对象的残留记录。
 详情：docs/review-workflow.md。信号不是漏项定论，互链和构建通过不是调查完成。
 `;
-const read = (root, file) => fs.readFileSync(path.join(root, file), 'utf8');
+const read = (root, file) => fs.readFileSync(resolve(root, file), 'utf8');
 const materialCandidate = file => /(?:^|\/)materials-[^/]+\.json$/.test(file)
  || /^docs\/(?:sources|leads|corporations\/notes)\/.+\.json$/.test(file);
 const isMaterialFile = (root, file) => {
   if (!materialCandidate(file) || !exists(root, file)) return false;
   const document = JSON.parse(read(root, file));
   if (document?.type !== 'material') return false;
-  readMaterial(path.join(root, file));
+  readMaterial(resolve(root, file));
   return true;
 };
-const documentText = (root, file) => isMaterialFile(root, file) ? readMaterial(path.join(root, file)) : read(root, file);
-const exists = (root, file) => fs.existsSync(path.join(root, file));
-const dirs = (root, dir) => exists(root, dir) ? fs.readdirSync(path.join(root, dir)).sort() : [];
+const documentText = (root, file) => isMaterialFile(root, file) ? readMaterial(resolve(root, file)) : read(root, file);
+const exists = (root, file) => fs.existsSync(resolve(root, file));
+const dirs = (root, dir) => readdir(root, dir).map(entry => entry.name);
 const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object' ? Object.fromEntries(Object.entries(value).sort(([a], [b]) => a.localeCompare(b)).map(([key, item]) => [key, canonical(item)])) : value;
 const hash = value => createHash('sha256').update(JSON.stringify(canonical(value))).digest('hex');
 const posix = file => file.split(path.sep).join('/');
@@ -56,7 +57,7 @@ function safeFile(root, file) {
     const relative = posix(path.relative(root, candidate));
     if (!relative || relative.startsWith('../') || path.isAbsolute(relative)) throw new Error(`路径必须在仓库内：${file}`);
     if (exists(root, relative)) {
-      const real = path.relative(fs.realpathSync(root), fs.realpathSync(path.join(root, relative)));
+      const real = path.relative(fs.realpathSync(root), fs.realpathSync(resolve(root, relative)));
       if (real.startsWith('..') || path.isAbsolute(real)) throw new Error(`路径不能指向仓库外：${file}`);
     }
     return relative;
@@ -143,10 +144,10 @@ export function inventory(root) {
       const folder = `${directory}/${slug}`, body = `${folder}/${slug}.md`;
       if (!exists(root, body)) continue;
       let archive, archiveFile;
-      if (kind === 'person') ({ archive, archiveFile } = readPersonDocument(path.join(root, body)));
-      else { archiveFile = path.join(root, `${folder}/${slug}.json`); archive = JSON.parse(fs.readFileSync(archiveFile, 'utf8')); }
-      const selectedMaterial = materialPath(path.join(root, folder), slug);
-      const materialPathRelative = posix(path.relative(root, selectedMaterial));
+      if (kind === 'person') ({ archive, archiveFile } = readPersonDocument(resolve(root, body)));
+      else { archiveFile = resolve(root, `${folder}/${slug}.json`); archive = JSON.parse(fs.readFileSync(archiveFile, 'utf8')); }
+      const selectedMaterial = materialPath(kbPath(root, folder), slug);
+      const materialPathRelative = relativeOf(root, selectedMaterial);
       const material = exists(root, materialPathRelative) ? materialPathRelative : null;
       const text = read(root, body), record = {
         key: `${kind}:${slug}`, kind, slug, title: kind === 'person' ? archive.person.cn_name || archive.name : archive.battle.title,
@@ -411,7 +412,7 @@ export function run(root, args, suppliedRecords) {
     if (!feature.pending) throw new Error(`${feature.name} 的规则未改动，无须声明`);
     const level = feature.level + (options.change === 'tighten' ? 1 : 0);
     registry[feature.name].strictness = { level, rules: feature.ruleHash };
-    fs.writeFileSync(path.join(root, REGISTRY), JSON.stringify(registry, null, 2) + '\n');
+    fs.writeFileSync(resolve(root, REGISTRY), JSON.stringify(registry, null, 2) + '\n');
     return { feature: feature.name, change: options.change, level };
   }
   const records = suppliedRecords ?? inventory(root);
@@ -471,11 +472,11 @@ export function run(root, args, suppliedRecords) {
     const receipt = { status: options.status, note: options.note, evidence, ...(assessment ? { assessment } : {}),
       dependencies: unique([...source.files, ...record.battles.flatMap(b => [b.archive, b.body, b.material]).filter(Boolean)]),
       inputs: source.fingerprint, inputParts: source.parts, level: feature.level };
-    const file = path.join(root, receiptFile(feature.name, record.key));
+    const file = resolve(root, receiptFile(feature.name, record.key));
     fs.mkdirSync(path.dirname(file), { recursive: true });
     fs.writeFileSync(file, JSON.stringify(receipt, null, 2) + '\n');
     // The default draft is spent once its judgments are saved; the next template restarts from the receipt.
-    if (assessmentFile === draft && options.status === 'reviewed') fs.rmSync(path.join(root, draft));
+    if (assessmentFile === draft && options.status === 'reviewed') fs.rmSync(resolve(root, draft));
     return { key: record.key, feature: feature.name, state: options.status };
   }
   if (command === 'template') {
@@ -491,8 +492,8 @@ export function run(root, args, suppliedRecords) {
     // Earlier notes are kept as a starting point, but every status must be set again after rereading.
     const assessment = existing ? JSON.parse(read(root, out)) : Object.fromEntries(checks.map(key => [key, previous?.[key] ? { ...previous[key], status: '' } : blank(key)]));
     if (!existing) {
-      fs.mkdirSync(path.dirname(path.join(root, out)), { recursive: true });
-      fs.writeFileSync(path.join(root, out), JSON.stringify(assessment, null, 2) + '\n');
+      fs.mkdirSync(path.dirname(resolve(root, out)), { recursive: true });
+      fs.writeFileSync(resolve(root, out), JSON.stringify(assessment, null, 2) + '\n');
     }
     // Short guidance comes first and anchors last, so a clipped read still shows the rules.
     return { file: out, ...(existing ? { existing: true, hint: '草稿已存在，未覆盖；直接编辑，或加 --force yes 从现有结论重新生成' } : {}), reused: Boolean(previous),
@@ -524,9 +525,12 @@ export function run(root, args, suppliedRecords) {
   if (command === 'impact') {
     let files = options.files ?? [];
     if (options.since) {
-      const output = execFileSync('git', ['diff', '--name-only', '-z', options.since, '--'], { cwd: root, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
-      const untracked = execFileSync('git', ['ls-files', '--others', '--exclude-standard', '-z'], { cwd: root, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
-      files = [...files, ...output.split('\0').filter(Boolean), ...untracked.split('\0').filter(Boolean)];
+      // 公开库与 kb/ 各是一个 Git 仓库，同一引用分别取差异；kb/ 内平放的路径还原为逻辑路径。
+      for (const cwd of unique([root, kbPath(root)])) {
+        const git = args => execFileSync('git', args, { cwd, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 }).split('\0').filter(Boolean);
+        const changed = [...git(['diff', '--name-only', '-z', options.since, '--']), ...git(['ls-files', '--others', '--exclude-standard', '-z'])];
+        files = [...files, ...(cwd === root ? changed : changed.map(file => relativeOf(root, path.join(cwd, file))))];
+      }
     }
     if (!files.length) throw new Error('impact 须指定 --since 或 --files');
     files = unique(files.map(file => safeFile(root, file)));
@@ -562,6 +566,9 @@ export function run(root, args, suppliedRecords) {
   return { feature: feature.name, total: rows.length, offset, limit, records: rows.slice(offset, offset + limit), warning: '关键词命中与快照关联仅是线索；未登记人工结论的一律 unreviewed。' };
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  try { const result = run(path.resolve(import.meta.dirname, '..'), process.argv.slice(2)); console.log(typeof result === 'string' ? result : JSON.stringify(result)); }
+  try {
+    const root = path.resolve(import.meta.dirname, '..');
+    if (process.argv[2] && process.argv[2] !== '--help') requireKb(root);
+    const result = run(root, process.argv.slice(2)); console.log(typeof result === 'string' ? result : JSON.stringify(result)); }
   catch (error) { console.error(error.message); process.exitCode = 1; }
 }

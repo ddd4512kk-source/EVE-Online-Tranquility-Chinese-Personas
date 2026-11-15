@@ -28,42 +28,116 @@
   "fetched_at": "2026-10-14",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2120091891,
+        "name": "WhyYouSoSB",
+        "basis": "同词根命名，2022年6月建号入创世，2026年2月25日随主号转入神农裔。",
+        "sources": [
+          "materials-why-you-so-fw.json"
+        ],
+        "zkb": {
+          "kills": 188,
+          "lost": 278,
+          "isk_destroyed": 27395410918,
+          "last_active": "2023-06",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2123613128,
+        "name": "WhyYouSoNB",
+        "basis": "同词根命名，2025年7月建号入创世，2026年2月14日紧接主号次日转入神农裔。",
+        "sources": [
+          "materials-why-you-so-fw.json"
+        ],
+        "zkb": {
+          "kills": 34,
+          "lost": 41,
+          "isk_destroyed": 8945402068,
+          "last_active": "2026-03",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2121133046,
+        "name": "WhyYouSoGAY",
+        "basis": "同词根命名，创世学院军团头衔为“东门”，2026年2月24日转入神农工业。",
+        "sources": [
+          "materials-why-you-so-fw.json"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 1,
+          "isk_destroyed": 0,
+          "last_active": "2025-09",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      },
+      {
+        "id": 2121248867,
+        "name": "WhyYouSoZZ",
+        "basis": "同词根命名，2023年5月建号入玩梗军团 U Fly Like Noraus。",
+        "sources": [
+          "materials-why-you-so-fw.json"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-15",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
-      "kills": 11049,
-      "lost": 1444,
-      "isk_destroyed": 6254656550304,
-      "last_active": "2026-10",
-      "as_of": "2026-10-23"
+      "kills": 11314,
+      "lost": 1489,
+      "isk_destroyed": 6600730069931,
+      "last_active": "2026-11",
+      "as_of": "2026-11-15",
+      "fc": {
+        "tag": "FC(HIGH)",
+        "level": "high",
+        "score": 140,
+        "monitor": 36,
+        "command_ship": 10,
+        "large_fleet": 372
+      }
     }
   },
   "person": {
     "cn_name": "出其东门",
     "aliases": [],
-    "epithet": "远征被写成了配装反面教材。",
+    "epithet": "一线指挥满场喊，偏被老团长写进简介当配装教材。",
     "tags": [
       "00区",
-      "FRT"
+      "FRT",
+      "FC"
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
-      "verdict": "出其东门：普通表现以 D 为起点，突出项按已有列传记录上调。",
+      "reviewedAt": "2026-11-15T11:00:00Z",
+      "verdict": "手握高阶指挥资质、常开元帅级满场打大仗的一线 FC，名字却被老团长写进简介当成反面教材。",
       "axes": {
         "shenren": {
           "tier": "D",
-          "reason": "列传未见超出日常整活的出格事迹，按常人基准 D。",
+          "reason": "本人未见出格言行，仅被两千在公开简介写进配装段子调侃，按常人基准 D。",
           "sources": [
             {
-              "label": "列传相关资料",
+              "label": "两千角色公开简介",
               "url": "https://esi.evetech.net/latest/characters/2114301554/"
             }
           ]
         },
         "combat": {
-          "tier": "B",
-          "reason": "列传记录高强度实战与核心作战职责，评 B。",
+          "tier": "A",
+          "reason": "主小号合计击杀逾一万一千次、破坏额约六点六四万亿、单杀四百四十余次，常驾恶狼级与元帅级跨十余场大战参战，评 A。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",
@@ -72,11 +146,11 @@
           ]
         },
         "command": {
-          "tier": "D",
-          "reason": "列传未见实质带队调度，按普通随队者基准 D。",
+          "tier": "B",
+          "reason": "持有 zKillboard 高阶 FC 资质并在萨托加斯等战役担任指挥位带队进场，属稳定带队的一线指挥骨干，评 B。",
           "sources": [
             {
-              "label": "角色 zKillboard 战绩",
+              "label": "zKillboard 指挥资质与战绩",
               "url": "https://zkillboard.com/character/2120025597/"
             }
           ]
@@ -93,7 +167,7 @@
         },
         "politics": {
           "tier": "D",
-          "reason": "列传未见高层利益协调或组织管理，按常人基准 D。",
+          "reason": "未见军团或联盟管理任职与组织运作记录，按常人基准 D。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",
@@ -102,8 +176,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "列传未见超出日常配船的经营或资源运作，按常人基准 D。",
+          "tier": "B",
+          "reason": "高频驾驶统合部元帅级黑隐战列舰与恶狼级出勤并承担千余条舰船损耗，按元帅级实战基准评 B。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",
@@ -115,7 +189,7 @@
     },
     "alignment": {
       "code": "NN",
-      "note": "远征配错装被写进别人简介，自己照常上线打仗挂收藏墙。"
+      "note": "日常带队打满大战，名字却被老团长写进简介当配装反面教材。"
     }
   }
 }

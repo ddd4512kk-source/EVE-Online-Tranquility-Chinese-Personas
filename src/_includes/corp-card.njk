@@ -6,8 +6,9 @@
 {%- set ratingFull = false -%}
 <li class="card corp-card corp-style-{{ d.styleKey }}" data-group="{{ status.group }}" data-rank="{{ d.zkb.rank_recent }}" data-pvp="{{ ratings.pvp }}" data-shenren="{{ ratings.shenren }}" data-tank="{{ (d.zkb.lost / d.zkb.kills) if d.zkb.kills else 0 }}" data-alliance="{{ d.esi | corpAlliance }}" data-zones="{% for z in d.zones %}{{ z.key }} {% endfor %}" data-key="{{ d | corpKey }}">
   <a class="corp-card-link" href="{{ c.url | url }}">
+    {%- if d.allianceBackdrop %}<img class="corp-al-backdrop" src="{{ d.allianceBackdrop | url }}" alt="" width="128" height="128" loading="lazy" decoding="async">{% endif %}
     <span class="corp-card-ribbon">
-      <span class="corp-card-meta">{% if d.esi.alliance %}<strong>{{ d.esi.alliance.ticker }}</strong>{% else %}独立军团{% endif %}{% for z in d.zones %} · {{ z.name }}{% endfor %}</span>
+      <span class="corp-card-meta">{% if d.esi.alliance %}<strong title="{{ d.esi.alliance.name }}">{{ d.esi.alliance.ticker }}</strong>{% else %}独立军团{% endif %}{% for z in d.zones %} · {{ z.name }}{% endfor %}</span>
       <span class="corp-card-pills">
         {%- if status.state == "active" %}<span class="corp-pill pill-live">活跃</span>{% else %}<span class="corp-pill pill-ash">沉寂</span>{% endif %}
         {%- if status.recruiting %}<span class="corp-pill pill-recruit">招新</span>{% endif -%}
@@ -28,7 +29,6 @@
       <span>{{ d.esi.date_founded | truncate(4, true, '') }} 创立</span>
       <span><strong>{{ d.esi.member_count }}</strong> 人</span>
       <span><strong>{{ d.zkb.kills | killCount }}</strong> 杀</span>
-      {%- if d.zkb.rank_recent %}<span class="corp-rank-chip">近期 #{{ d.zkb.rank_recent }}</span>{% endif %}
+      {%- if d.zkb.rank_recent %}<span class="corp-rank-chip" title="zKillboard 全服军团排名，按近 90 天战绩计算">zKB 近期第 {{ d.zkb.rank_recent }} 名</span>{% endif %}
     </span>
-  </a>
-</li>
+  </a></li>

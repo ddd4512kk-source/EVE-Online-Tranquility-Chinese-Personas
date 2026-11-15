@@ -3,10 +3,15 @@ import { createRequire } from 'node:module';
 import { access } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { checkInstructions } from './check-instructions.mjs';
+import { trackedPrivateFiles } from './workspace.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const require = createRequire(new URL('../package.json', import.meta.url));
 const errors = await checkInstructions(root);
+const leaked = trackedPrivateFiles(root);
+if (leaked.length) {
+  errors.push(`公开仓库跟踪了 ${leaked.length} 个私有资料文件（应在 kb/ 私有库）：${leaked.slice(0, 5).join('、')}${leaked.length > 5 ? ' 等' : ''}`);
+}
 for (const name of ['@11ty/eleventy', 'gray-matter', 'markdown-it-container']) {
   try { require.resolve(name); }
   catch { errors.push(`缺少依赖 ${name}：请先由代理运行 npm ci。`); }

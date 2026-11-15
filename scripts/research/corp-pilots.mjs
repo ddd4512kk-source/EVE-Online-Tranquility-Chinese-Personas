@@ -3,6 +3,7 @@
 // 先看 docs/corporations 里存的今年月榜，榜上超过 10 人就不联网。其余 zKillboard 每家最多 2 次：统计 1 次，击杀最多的 1 个月 1 次；人头从 ESI 的 KM 数，数够就停。
 import fs from 'node:fs';
 import path from 'node:path';
+import { resolve } from '../workspace.mjs';
 import { fileURLToPath } from 'node:url';
 import { corpRecruitQq, RECRUIT_MIN_PILOTS } from '../activity.mjs';
 import { createRequestGuard } from './request-guard.mjs';
@@ -59,7 +60,7 @@ export function localMonthlyPeak(dir, corpId, year) {
     .reduce((best, item) => (item.peak > best.peak ? item : best), { peak: 0, month: '' });
 }
 
-const corpsRoot = path.resolve(import.meta.dirname, '../../docs/corporations');
+const corpsRoot = resolve(path.resolve(import.meta.dirname, '../..'), 'docs/corporations');
 
 async function main() {
   const root = path.resolve(import.meta.dirname, '../../src/corps');

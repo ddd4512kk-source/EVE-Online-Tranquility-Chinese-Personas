@@ -2,10 +2,10 @@
 layout: base.njk
 bodyClass: page-index
 ---
-{%- set people = collections.people -%}
+{%- set people = collections.people | byUpdated -%}
 <section class="intro">
   <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}按主角色创号先后为序，共收 <strong>{{ people.length }}</strong> 人。</p>
+  <p>{{ site.description }}按最近更新先后为序，共收 <strong>{{ people.length }}</strong> 人。</p>
 </section>
 
 {#- 筛选区沿用军团目录的 .corp-filters 分组行：首行搜索与随机、排序组，次行标签组 -#}
@@ -19,8 +19,8 @@ bodyClass: page-index
       <span class="corp-filter-heading" id="roster-sort-heading">排序</span>
       <div class="tag-wrap">
         <nav class="tag-bar" id="roster-sorts" aria-labelledby="roster-sort-heading">
-          <button type="button" class="chip is-active" data-sort="birth" aria-pressed="true" title="按创号时间，老号在前；再点切换">创号 ↑</button>
-          <button type="button" class="chip" data-sort="recent" aria-pressed="false" title="按更新时间，最近更新的在前；再点切换">更新 ↓</button>
+          <button type="button" class="chip is-active" data-sort="recent" aria-pressed="true" title="按更新时间，最近更新的在前；再点切换">更新 ↓</button>
+          <button type="button" class="chip" data-sort="birth" aria-pressed="false" title="按创号时间，老号在前；再点切换">创号 ↑</button>
           {%- for a in radarAxes %}<button type="button" class="chip chip-axis chip-axis-{{ a.key }}" data-sort="{{ a.key }}" aria-pressed="false" title="按{{ a.fullLabel }}由高到低；再点切换由低到高">{{ a.label }} ↓</button>{% endfor %}
         </nav>
       </div>

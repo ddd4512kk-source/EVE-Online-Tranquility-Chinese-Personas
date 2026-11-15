@@ -6,3 +6,7 @@ _site/
 Thumbs.db
 .playwright-mcp/
 /openspec
+/scratch/
+
+# 私有资料库克隆在 kb/，整个目录不进本库；清单见 scripts/workspace.mjs。
+/kb/

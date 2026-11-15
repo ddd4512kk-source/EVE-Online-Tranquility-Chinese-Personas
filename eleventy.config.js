@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { glossaryEntries, glossaryLinks } from './scripts/glossary.mjs';
 import { corpAlliance, corpAllianceChips, corpBattles, corpKey, corpMembers, corpsOfPerson, corpUnwritten, corpZoneChips, groupCorps, killCount, statusChips } from './scripts/activity.mjs';
+import { allianceBackdrop } from './scripts/battle-emblem.mjs';
 import { formatIsk } from './scripts/battles.mjs';
 import { identityNames } from './scripts/person-identity.mjs';
 import { RADAR_AXES } from './scripts/person-radar.mjs';
@@ -107,6 +108,9 @@ export default function (eleventyConfig) {
     );
   });
 
+  // 首页默认按更新时间倒序；同日更新保留创号先后。
+  eleventyConfig.addFilter('byUpdated', people => [...people].sort((a, b) => Date.parse(b.data.updated) - Date.parse(a.data.updated)));
+
   // 战役集合：按开打日期倒序（最近的在前）
   eleventyConfig.addCollection('battles', api =>
     api
@@ -192,6 +196,7 @@ export default function (eleventyConfig) {
   );
   eleventyConfig.addFilter('statusChips', statusChips);
   eleventyConfig.addFilter('alignmentCounts', people => alignmentCounts(people.map(p => p.data.alignment?.code))); // 首页阵营筛选人数
+  eleventyConfig.addFilter('allianceBackdrop', allianceBackdrop); // 人物卡片的联盟底图，规则同军团卡片
   eleventyConfig.addFilter('groupCorps', groupCorps);
   eleventyConfig.addFilter('corpAlliance', corpAlliance);
   eleventyConfig.addFilter('corpAllianceChips', corpAllianceChips);

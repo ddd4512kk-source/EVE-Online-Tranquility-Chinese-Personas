@@ -6,6 +6,9 @@ import { fileURLToPath } from 'node:url';
 import { characterFile } from './character-snapshot.mjs';
 import { maintainerProcessErrors } from './material-document.mjs';
 import { readPersonDocument } from './person-document.mjs';
+import { KB, isPrivate, relativeOf, resolve } from './workspace.mjs';
+
+export const BILIBILI_PUBLIC = 'src/_data/bilibili-public.json';
 
 const isId = id => Number.isSafeInteger(id) && id > 0;
 const isUid = uid => typeof uid === 'string' && /^[1-9]\d*$/.test(uid);
@@ -42,9 +45,11 @@ export function readIdentity(directory, characterId) {
         continue;
       }
       const local = path.resolve(directory, source.split('#')[0]);
-      if (!local.startsWith(path.resolve(directory) + path.sep) || !fs.existsSync(local) || !fs.statSync(local).isFile()) {
-        fail(`${label}素材来源不存在或越出人物目录：${source}`);
-      }
+      if (!local.startsWith(path.resolve(directory) + path.sep)) { fail(`${label}素材来源越出人物目录：${source}`); continue; }
+      // 素材在私有库 kb/；只有公开仓库时无从核对，交给 kb:check。
+      const root = path.resolve(directory, '../../..'), rel = relativeOf(root, local);
+      const found = [local, resolve(root, rel)].some(file => fs.existsSync(file) && fs.statSync(file).isFile());
+      if (!found && !(isPrivate(rel) && !fs.existsSync(path.join(root, KB)))) fail(`${label}素材来源不存在：${source}`);
     }
   };
   if (!object(identity)) throw new Error(`${file}：必须是 JSON 对象`);
@@ -103,7 +108,8 @@ export function readIdentity(directory, characterId) {
 }
 
 // 同一个收录号、小号或确定 UID 只能归一人；昵称不作为跨人去重键。
-export function readIdentityDirectory(peopleDir, { bilibiliDir } = {}) {
+// bilibiliDir：私有 B站档案目录（写作工具）；bilibiliAccounts：公开派生文件里的 { 短名: { accounts: [账号名] } }（网站）。
+export function readIdentityDirectory(peopleDir, { bilibiliDir, bilibiliAccounts } = {}) {
   const records = new Map(), ids = new Map(), tieba = new Map();
   const claim = (table, key, slug, label) => {
     if (table.has(key)) throw new Error(`${slug}：${label} ${key} 重复归属（已在 ${table.get(key)}）`);
@@ -137,6 +143,11 @@ export function readIdentityDirectory(peopleDir, { bilibiliDir } = {}) {
       });
     }
   }
+  for (const [slug, entry] of Object.entries(bilibiliAccounts ?? {})) {
+    const person = records.get(slug);
+    if (!person) throw new Error(`${BILIBILI_PUBLIC}：B站已对应人物不存在：${slug}`);
+    if ((entry.accounts ?? []).length) person.accounts.bilibili = entry.accounts.map(name => ({ name }));
+  }
   return records;
 }
 
@@ -153,7 +164,14 @@ export function identityNames(identity) {
 
 // 工具与网站都从此入口按人物取得跨平台身份，不生成另一份需手改的名单。
 export function readAllIdentities(root) {
-  return readIdentityDirectory(path.join(root, 'src/people'), { bilibiliDir: path.join(root, 'docs/bilibili') });
+  return readIdentityDirectory(path.join(root, 'src/people'), { bilibiliDir: resolve(root, 'docs/bilibili') });
+}
+
+// 网站构建只读公开派生文件，不碰私有 B站档案；派生文件由 bilibili-public.mjs 生成。
+export function readSiteIdentities(root) {
+  const file = path.join(root, BILIBILI_PUBLIC);
+  const bilibiliAccounts = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
+  return readIdentityDirectory(path.join(root, 'src/people'), { bilibiliAccounts });
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

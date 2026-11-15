@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { readPersonDocument } from './person-document.mjs';
 import { readOrganizations, readCharacters, characterArchivePath } from './corporation-archive.mjs';
 import { materialPath, readMaterial, validateMaterial } from './material-document.mjs';
+import { kbPath, readdir, relativeOf, requireKb, resolve } from './workspace.mjs';
 
 export const HISTORY = 'docs/sources/material-index-legacy-2026-10-22.jsonl';
 const KINDS = ['person', 'battle', 'source', 'lead', 'bilibili', 'corporation', 'character'];
@@ -40,31 +41,31 @@ B站取 docs/bilibili/<UID>.json；军团与共享角色取 docs/corporations/�
 只在追溯旧备注／别名时按词查询，再回正式文件核对；不要整份加载或续写完成日志。
 冻结旧状态不能覆盖当前身份、收录或阅读状态。
 `;
-const read = (root, file) => fs.readFileSync(path.join(root, file), 'utf8');
-const exists = (root, file) => fs.existsSync(path.join(root, file));
-const names = (root, dir) => exists(root, dir) ? fs.readdirSync(path.join(root, dir)).sort() : [];
+const read = (root, file) => fs.readFileSync(resolve(root, file), 'utf8');
+const exists = (root, file) => fs.existsSync(resolve(root, file));
+const names = (root, dir) => readdir(root, dir).map(entry => entry.name);
 const fold = value => String(value).normalize('NFKC').toLowerCase();
 const title = text => text.match(/^#{1,6}\s+(.+)$/m)?.[1] ?? '';
 const markdownFiles = (root, directory) => names(root, directory).flatMap(name => {
   const file = `${directory}/${name}`;
-  if (fs.statSync(path.join(root, file)).isDirectory()) return markdownFiles(root, file);
+  if (fs.statSync(resolve(root, file)).isDirectory()) return markdownFiles(root, file);
   if (file.endsWith('.md')) return [file];
   if (!file.endsWith('.json')) return [];
   const data = JSON.parse(read(root, file));
   if (data?.type !== 'material') {
-    if (/materials-[^/]+\.json$/.test(file)) readMaterial(path.join(root, file));
+    if (/materials-[^/]+\.json$/.test(file)) readMaterial(resolve(root, file));
     return [];
   }
   const errors = validateMaterial(data, file);
-  if (errors.length) readMaterial(path.join(root, file));
+  if (errors.length) readMaterial(resolve(root, file));
   return [file];
 });
 
 const materialExists = (root, directory, slug) => {
-  const absolute = materialPath(path.join(root, directory), slug);
-  return fs.existsSync(absolute) ? path.relative(root, absolute).split(path.sep).join('/') : null;
+  const absolute = materialPath(kbPath(root, directory), slug);
+  return fs.existsSync(absolute) ? relativeOf(root, absolute) : null;
 };
-const materialTitle = (root, file) => file.endsWith('.json') ? JSON.parse(read(root, file)).title : title(readMaterial(path.join(root, file)));
+const materialTitle = (root, file) => file.endsWith('.json') ? JSON.parse(read(root, file)).title : title(readMaterial(resolve(root, file)));
 
 export function collectMaterials(root) {
   const records = [];
@@ -170,7 +171,7 @@ export function searchMaterials(root, { query = '', kind, fullText = false, hist
       if (found) { record.match = found; return true; }
     }
     if (!fullText || !record.material || !exists(root, record.material)) return false;
-    const text = readMaterial(path.join(root, record.material)), lines = text.split('\n');
+    const text = readMaterial(resolve(root, record.material)), lines = text.split('\n');
     const at = lines.findIndex(line => fold(line).includes(needle));
     if (at >= 0) {
       record.match = { line: at + 1, excerpt: excerpt(lines[at], needle) };
@@ -211,7 +212,9 @@ export function run(root, args) {
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    const result = run(path.resolve(import.meta.dirname, '..'), process.argv.slice(2));
+    const root = path.resolve(import.meta.dirname, '..');
+    if (!process.argv.includes('--help')) requireKb(root);
+    const result = run(root, process.argv.slice(2));
     console.log(typeof result === 'string' ? result : JSON.stringify(result, null, 2));
   }
   catch (error) { console.error(error.message); process.exitCode = 1; }

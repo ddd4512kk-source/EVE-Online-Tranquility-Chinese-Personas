@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { readdir, relativeOf, resolve } from './workspace.mjs';
 
 const HEADING = /^( {0,3})(#{1,6})[ \t]+(.+?)[ \t]*#*[ \t]*(?:\r?\n|$)/;
 const ANCHOR = /<a\s+id=["']([^"']+)["'][^>]*>\s*<\/a>/i;
@@ -160,11 +161,11 @@ export function serializeMaterial(document, file = '<material>') {
   return `${JSON.stringify(document, null, 2)}\n`;
 }
 
-function markdownFiles(directory, accept) {
-  if (!fs.existsSync(directory)) return [];
-  return fs.readdirSync(directory, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name)).flatMap(entry => {
-    const file = path.join(directory, entry.name);
-    if (entry.isDirectory()) return markdownFiles(file, accept);
+// 按仓库相对目录遍历公开库与 kb/ 的合并视图，返回绝对路径。
+function markdownFiles(root, directory, accept) {
+  return readdir(root, directory).flatMap(entry => {
+    const rel = `${directory}/${entry.name}`, file = resolve(root, rel);
+    if (entry.isDirectory()) return markdownFiles(root, rel, accept);
     return entry.isFile() && accept(file) ? [file] : [];
   });
 }
@@ -172,10 +173,10 @@ function markdownFiles(directory, accept) {
 function migrationSources(root) {
   const files = [];
   for (const section of ['people', 'battles', 'corps']) {
-    files.push(...markdownFiles(path.join(root, 'src', section), file => /^materials-.+\.md$/i.test(path.basename(file))));
+    files.push(...markdownFiles(root, `src/${section}`, file => /^materials-.+\.md$/i.test(path.basename(file))));
   }
   for (const section of ['sources', 'leads', 'corporations/notes']) {
-    files.push(...markdownFiles(path.join(root, 'docs', section), file =>
+    files.push(...markdownFiles(root, `docs/${section}`, file =>
       file.toLowerCase().endsWith('.md') && !/^(readme|agents|claude)\.md$/i.test(path.basename(file))
       && path.basename(file).toLowerCase() !== 'low-credibility-sources.md'));
   }
@@ -186,38 +187,35 @@ function hash(value) {
   return crypto.createHash('sha256').update(value, 'utf8').digest('hex');
 }
 
-function walkJson(directory) {
-  return markdownFiles(directory, file => file.toLowerCase().endsWith('.json'));
+function walkJson(root, directory) {
+  return markdownFiles(root, directory, file => file.toLowerCase().endsWith('.json'));
 }
 
 export function checkMaterials(root) {
-  const targets = [
-    path.join(root, 'src', 'people'), path.join(root, 'src', 'battles'), path.join(root, 'src', 'corps'),
-    path.join(root, 'docs', 'sources'), path.join(root, 'docs', 'leads'), path.join(root, 'docs', 'corporations', 'notes'),
-  ];
+  const targets = ['src/people', 'src/battles', 'src/corps', 'docs/sources', 'docs/leads', 'docs/corporations/notes'];
   const errors = [];
-  for (const file of migrationSources(root)) errors.push(`${path.relative(root, file)}：叙述材料使用 JSON，请迁移后移除旧 Markdown 材料`);
+  for (const file of migrationSources(root)) errors.push(`${relativeOf(root, file)}：叙述材料使用 JSON，请迁移后移除旧 Markdown 材料`);
   let checked = 0;
   for (const directory of targets) {
-    for (const file of walkJson(directory)) {
+    for (const file of walkJson(root, directory)) {
       let document;
       const isMaterialPath = /^materials-.+\.json$/i.test(path.basename(file));
       try { document = JSON.parse(fs.readFileSync(file, 'utf8')); }
       catch (error) {
-        errors.push(`${path.relative(root, file)}：JSON 解析失败：${error.message}`);
+        errors.push(`${relativeOf(root, file)}：JSON 解析失败：${error.message}`);
         continue;
       }
-      const inCorporationNotes = file.toLowerCase().includes(`${path.join('docs', 'corporations', 'notes')}${path.sep}`.toLowerCase());
+      const inCorporationNotes = relativeOf(root, file).toLowerCase().startsWith('docs/corporations/notes/');
       if (!isMaterialPath && !inCorporationNotes && document?.type !== 'material' && !Object.hasOwn(document ?? {}, 'sections')) continue;
       checked++;
-      errors.push(...validateMaterial(document, path.relative(root, file)));
+      errors.push(...validateMaterial(document, relativeOf(root, file)));
     }
   }
-  for (const file of walkJson(path.join(root, 'docs', 'reviews'))) {
+  for (const file of walkJson(root, 'docs/reviews')) {
     let raw;
     try { raw = fs.readFileSync(file, 'utf8'); }
     catch { continue; }
-    errors.push(...maintainerProcessErrors(raw, `${path.relative(root, file)} `));
+    errors.push(...maintainerProcessErrors(raw, `${relativeOf(root, file)} `));
   }
   return { checked, errors };
 }
@@ -226,30 +224,29 @@ export function planMaterialMigration(root) {
   const errors = [];
   const entries = migrationSources(root).flatMap(source => {
     const markdown = fs.readFileSync(source, 'utf8');
-    const relative = path.relative(root, source).split(path.sep).join('/');
+    const relative = relativeOf(root, source);
     const target = relative === 'docs/sources/hed-gp-incident-2023.md'
       ? path.join(path.dirname(source), 'hed-gp-incident-2023-material.json')
       : source.replace(/\.md$/i, '.json');
     try {
       const document = parseMaterial(markdown);
       if (!document.title) document.title = path.basename(source, path.extname(source));
-      const json = serializeMaterial(document, path.relative(root, target));
+      const json = serializeMaterial(document, relativeOf(root, target));
       if (projectMaterial(JSON.parse(json), target) !== markdown) throw new Error('素材往返校验不一致');
       return [{ source, target, bytes: Buffer.byteLength(markdown), sha256: hash(markdown), json }];
     } catch (error) {
-      errors.push({ source: path.relative(root, source).split(path.sep).join('/'), message: error.message });
+      errors.push({ source: relativeOf(root, source), message: error.message });
       return [];
     }
   });
   const targets = new Set();
   const conflicts = entries.flatMap(entry => {
-    const relative = path.relative(root, entry.target).split(path.sep).join('/');
+    const relative = relativeOf(root, entry.target);
     const duplicate = targets.has(relative);
     targets.add(relative);
     return duplicate || fs.existsSync(entry.target) ? [relative] : [];
   });
-  const notes = path.join(root, 'docs', 'corporations', 'notes');
-  const corporationsNotes = markdownFiles(notes, file => file.toLowerCase().endsWith('.md') && !/^(readme|agents|claude)\.md$/i.test(path.basename(file))).length;
+  const corporationsNotes = markdownFiles(root, 'docs/corporations/notes', file => file.toLowerCase().endsWith('.md') && !/^(readme|agents|claude)\.md$/i.test(path.basename(file))).length;
   return { entries, corporationsNotes, conflicts: [...new Set(conflicts)], errors };
 }
 
@@ -262,7 +259,7 @@ function runCli(args, root) {
     return `通过：已校验 ${result.checked} 份素材 JSON。`;
   }
   if (command === 'show' && file) {
-    const absolute = path.resolve(root, file);
+    const absolute = resolve(root, path.relative(root, path.resolve(root, file)));
     const document = JSON.parse(fs.readFileSync(absolute, 'utf8'));
     const errors = validateMaterial(document, file);
     if (errors.length) throw new Error(errors.join('\n'));
@@ -273,7 +270,7 @@ function runCli(args, root) {
   if (command === 'migrate' && !file) {
     const { entries, corporationsNotes, conflicts, errors } = planMaterialMigration(root);
     return JSON.stringify({ mode: 'dry-run', count: entries.length, corporationsNotes, conflicts, errors,
-      entries: entries.map(({ source, target, bytes, sha256 }) => ({ source: path.relative(root, source).split(path.sep).join('/'), target: path.relative(root, target).split(path.sep).join('/'), bytes, sha256 })) }, null, 2);
+      entries: entries.map(({ source, target, bytes, sha256 }) => ({ source: relativeOf(root, source), target: relativeOf(root, target), bytes, sha256 })) }, null, 2);
   }
   throw new Error('用法：node scripts/material-document.mjs check | show <path> [section-id] | migrate');
 }

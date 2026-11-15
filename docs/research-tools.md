@@ -21,7 +21,7 @@
 | --- | --- |
 | 建立回查清单 | `node scripts/research/tieba-review-inventory.mjs <临时目录>`；加 `--probe` 续跑首楼/末页抽查，初筛不算全文阅读 |
 | 断点续跑全文 | 原命令加 `--resume`，按同一 JSON 的覆盖记录跳过已完成主楼页和楼中楼，保留旧错误历史；帖号与顺序须与原文件一致 |
-| 更新取得范围 | `node scripts/tieba-archive.mjs sync-cache <帖号> <临时.json>`；批量用 `node scripts/research/tieba-review-status.mjs <临时目录>`，只同步取得范围，不改阅读状态；读帖后的登记见[贴吧档案](tieba/README.md#读帖即登记) |
+| 更新取得范围 | `node scripts/tieba-archive.mjs sync-cache <帖号> <临时.json>`；批量用 `node scripts/research/tieba-review-status.mjs <临时目录>`，只同步取得范围，不改阅读状态；读帖后的登记与摘要见[贴吧档案](tieba/README.md#读帖即登记) |
 | 按冻结清单补全文 | `node scripts/research/tieba-review-batch.mjs <临时目录> [本轮最多帖数]`，顺序跑，复用首尾与已完成全文，保留计数差，限流整批停止；只抓取，读帖用 dump |
 
 ## B站细则
@@ -99,7 +99,7 @@ stats 回答不了、又确实需要 KM 或驾驶员名单时才用，例如“�
 
 `node scripts/research/zkill-asearch.mjs <asearch网址或#后的JSON> <.cache/输出前缀> --top character`
 
-服务器对整段时间聚合，tsv 一行一个角色，`count` 是此人满足筛选的 KM 张数（不是击杀数）；`--top` 也可换 `corporation`、`alliance`、`shipType` 等。同一栏选 In，把军团／联盟与船型或舰船分组放在一起，加 `attackersonly`。**不得带 `includeAssociates: true`**：网页默认勾选“Include Associates”，带上后排行算的是命中 KM 上的全部参与者（实测某团泰坦筛选：关掉 19 人，打开 500 人，混进同场开其他船的人和外团），脚本遇到会提示。超过 500 行会截断，服务器聚合超时则退出码 3，加时间段或收紧筛选再跑。华人军团的泰坦驾驶员不临时跑，用 `node scripts/research/titan-roster.mjs --all`（或列军团ID）写进[军团档案](corporations/README.md)的 `titan-all-time` 名单，已有的跳过，`--refresh` 重取；非 200 即停，重跑接着取。
+服务器对整段时间聚合，tsv 一行一个角色，`count` 是此人满足筛选的 KM 张数（不是击杀数）；`--top` 也可换 `corporation`、`alliance`、`shipType` 等。同一栏选 In，把军团／联盟与船型或舰船分组放在一起，加 `attackersonly`。**不得带 `includeAssociates: true`**：网页默认勾选“Include Associates”，带上后排行算的是命中 KM 上的全部参与者（实测某团泰坦筛选：关掉 19 人，打开 500 人，混进同场开其他船的人和外团），脚本遇到会提示。超过 500 行会截断，服务器聚合超时则退出码 3，加时间段或收紧筛选再跑。华人军团的泰坦、超级航母驾驶员不临时跑，用 `node scripts/research/capital-roster.mjs --ship titan|super --all`（或列军团ID）写进[军团档案](corporations/README.md)的 `titan-all-time`／`super-all-time` 名单；筛过的军团（含空名单）记在 `capital-scans.json`，再跑跳过，`--refresh` 重取；超时不记，非 200 即停，重跑接着取。
 
 **要看具体 KM 时取击杀列表**，默认 `--ids-only` 或 `--details` 十张以内：
 
