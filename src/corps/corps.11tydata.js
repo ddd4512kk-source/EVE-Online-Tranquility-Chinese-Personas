@@ -12,8 +12,8 @@ export default {
     pageDescription: d => d.corp?.epithet,
     styleKey: d => d.corp?.style ?? 'tycoon',
     ratingDimensions: () => CORP_RATING_DIMENSIONS,
-    status: d => corpStatus({ zkb: d.zkb, recruitment: d.recruitment, esi: d.esi, pilots: d.pilots }),
-    recruitQq: d => corpRecruitQq({ zkb: d.zkb, recruitment: d.recruitment, esi: d.esi }),
+    status: d => corpStatus(d),
+    recruitQq: d => corpRecruitQq(d),
     zones: d => corpZones({ corp: d.corp, zkb: d.zkb }),
     // 正文点名的人物，小号也认，归到本人交给 corpMembers。
     linkedPeople: d => [...String(d.page?.rawInput ?? '').matchAll(/\/p\/(\d+)\//g)].map(m => Number(m[1])),

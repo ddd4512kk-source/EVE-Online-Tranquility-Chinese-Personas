@@ -56,7 +56,39 @@
         "sources": [
           "materials-wllng.json#头衔小号查漏-2026-11-13",
           "https://esi.evetech.net/latest/characters/2122268421/"
-        ]
+        ],
+        "zkb": {
+          "kills": 683,
+          "lost": 76,
+          "isk_destroyed": 3889541381284,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2122759626,
+        "name": "WLing super",
+        "basis": "同军团（98598862(Chaos arbiter)、98755298(Fox of Resistance)），游戏内头衔“清水”（超级航母驾驶员）",
+        "sources": [
+          "materials-wllng.json",
+          "https://evewho.com/character/2122759626"
+        ],
+        "zkb": {
+          "kills": 608,
+          "lost": 43,
+          "isk_destroyed": 375260437390,
+          "last_active": "2026-08",
+          "as_of": "2026-11-18",
+          "fc": {
+            "tag": "FC(MEDIUM)",
+            "level": "medium",
+            "score": 60,
+            "monitor": 0,
+            "command_ship": 93,
+            "large_fleet": 195
+          }
+        }
       }
     ],
     "accounts": {},
@@ -83,7 +115,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T19:20:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "等不到期货，转身自己搓泰坦。",
       "axes": {
         "shenren": {
@@ -107,8 +139,8 @@
           ]
         },
         "command": {
-          "tier": "D",
-          "reason": "追债、制造与参战未见舰队带领。",
+          "tier": "B",
+          "reason": "确认超级航母小号 WLing super 在 zKillboard 获 FC(MEDIUM) 指挥标注，按硬底线由 D 升 B。",
           "sources": [
             {
               "label": "WLlng 战斗记录",

@@ -13,7 +13,7 @@ export const CAPITAL_GROUPS = {
 };
 
 const API_ROOT = 'https://zkillboard.com/api';
-const USER_AGENT = 'EVE-Online-Tranquility-Chinese-Personas/1.0 (https://github.com/ddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas)';
+const USER_AGENT = 'CEVE-History/1.0 (https://github.com/mrd-e/CEVE-History)';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DEFAULT_CACHE = path.join(ROOT, '.cache', 'person-radar');
 const PAGE_SIZE = 200;

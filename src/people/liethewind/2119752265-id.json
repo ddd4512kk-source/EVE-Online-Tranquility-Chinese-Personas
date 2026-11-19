@@ -101,7 +101,15 @@
         "sources": [
           "materials-liethewind.json#军团名片身份对应",
           "https://esi.evetech.net/latest/characters/2119760805/"
-        ]
+        ],
+        "zkb": {
+          "kills": 1138,
+          "lost": 389,
+          "isk_destroyed": 889566025038,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
       },
       {
         "id": 2122912945,
@@ -110,7 +118,39 @@
         "sources": [
           "materials-liethewind.json#军团名片身份对应",
           "https://esi.evetech.net/latest/characters/2122912945/"
-        ]
+        ],
+        "zkb": {
+          "kills": 916,
+          "lost": 82,
+          "isk_destroyed": 1046228454459,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": {
+            "tag": "FC(MEDIUM)",
+            "level": "medium",
+            "score": 60,
+            "monitor": 0,
+            "command_ship": 183,
+            "large_fleet": 302
+          }
+        }
+      },
+      {
+        "id": 2122912944,
+        "name": "LieTheWind22",
+        "basis": "同军团（98779710(Tactical Trauma Team)），游戏内头衔“成风”（泰坦驾驶员）",
+        "sources": [
+          "materials-liethewind.json",
+          "https://evewho.com/character/2122912944"
+        ],
+        "zkb": {
+          "kills": 17,
+          "lost": 3,
+          "isk_destroyed": 263043474344,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
       }
     ],
     "accounts": {},
@@ -133,7 +173,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "急救队长自己也得把船开出门。",
       "axes": {
         "shenren": {
@@ -187,8 +227,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "持续重突战列战备，支持资产充裕。",
+          "tier": "B",
+          "reason": "名下确认拥有泰坦小号 LieTheWind22 参战，按单泰坦参战保底由 C 升 B。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",

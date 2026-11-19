@@ -1,0 +1,469 @@
+{
+  "id": 2124788909,
+  "name": "JG52 xuese",
+  "birthday": "2026-10-18T09:03:35Z",
+  "corporation_id": 98832971,
+  "affiliation": {
+    "corporation_id": 98832971,
+    "alliance_id": 99009163,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000045,
+      "start": "2026-10-18T09:04:00Z",
+      "end": "2026-10-18T09:06:00Z"
+    },
+    {
+      "corporation_id": 98832971,
+      "start": "2026-10-18T09:06:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-19",
+  "person": {
+    "cn_name": "血色",
+    "aliases": [
+      "血色荣耀",
+      "JG52血色"
+    ],
+    "epithet": "拒绝脚本刷子的海盗头子，栽在了RMT上。",
+    "tags": [
+      "CEO",
+      "00区",
+      "低安",
+      "RMT",
+      "江湖恩怨",
+      "D.C"
+    ],
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-18T00:00:00Z",
+      "verdict": "钉人钉了七年，最后被CCP一把钉死。",
+      "axes": {
+        "shenren": {
+          "tier": "A",
+          "reason": "国服两度跳反、本地骂娘；宁静招新许诺可以RMT，重组新团半年后因RMT全团永封，封号后立刻重建同名号。",
+          "sources": [
+            {
+              "label": "JG52大量RMT证据帖",
+              "url": "https://tieba.baidu.com/p/7264713835"
+            },
+            {
+              "label": "Khorne Fleet zKillboard",
+              "url": "https://zkillboard.com/corporation/98832971/"
+            }
+          ]
+        },
+        "combat": {
+          "tier": "B",
+          "reason": "主号一千五百余击杀，四成开拉克希斯拉人，另有曲剑与多米尼克斯，单杀很少，是稳定的团队型骨干。",
+          "sources": [
+            {
+              "label": "JG52 zKillboard",
+              "url": "https://zkillboard.com/character/2114266054/"
+            }
+          ]
+        },
+        "command": {
+          "tier": "D",
+          "reason": "长期当军团老板，但未见本人带队指挥的记录。",
+          "sources": [
+            {
+              "label": "JG52招新帖",
+              "url": "https://tieba.baidu.com/p/7263619408"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "两服扛JG52番号十余年，2026年重组一周人数翻倍、拉到两百余人，贴吧对喷也常露面。",
+          "sources": [
+            {
+              "label": "Khorne Fleet招新帖",
+              "url": "https://tieba.baidu.com/p/10707683921"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "B",
+          "reason": "国服起经营JG52，宁静在RR旗下挂了五年多，2026年重组两百余人新团；最终全团因RMT被封，按长期基本盘保留CEO档。",
+          "sources": [
+            {
+              "label": "eve Jagdgeschwader52 zKillboard",
+              "url": "https://zkillboard.com/corporation/98606832/"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "两百余人军团CEO保底；军团高额补损与KB返现的钱源不明，不计个人财力。",
+          "sources": [
+            {
+              "label": "Khorne Fleet招新帖",
+              "url": "https://tieba.baidu.com/p/10707683921"
+            }
+          ]
+        }
+      }
+    },
+    "alignment": {
+      "code": "NE",
+      "note": "招牌写着拒绝脚本刷子，账上记着淘宝五块钱一亿。"
+    }
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2114266054,
+        "name": "JG52",
+        "basis": "原收录号，已被 CCP 以 RMT 封禁；2026-11-20 按封禁号不作主号规则改收封号后新建的 JG52 xuese。",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 1519,
+          "lost": 252,
+          "isk_destroyed": 1499729789363,
+          "last_active": "2024-05",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2114287102,
+        "name": "JG53",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 2,
+          "isk_destroyed": 0,
+          "last_active": "2022-02",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2124328107,
+        "name": "JG52xuese",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 164,
+          "lost": 48,
+          "isk_destroyed": 40442611489,
+          "last_active": "2026-09",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2124209014,
+        "name": "550A",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 41,
+          "lost": 18,
+          "isk_destroyed": 7889457170,
+          "last_active": "2026-09",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2124817930,
+        "name": "JG52-xuese1",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 2,
+          "isk_destroyed": 0,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2124817934,
+        "name": "JG52-xuese2",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 14,
+          "lost": 5,
+          "isk_destroyed": 1779114164,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2124817935,
+        "name": "JG52-xuese3",
+        "sources": [
+          "materials-jg52-xuese.json"
+        ],
+        "zkb": {
+          "kills": 10,
+          "lost": 2,
+          "isk_destroyed": 1235998979,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
+    "accounts": {
+      "tieba": [
+        {
+          "uid": "611910747",
+          "name": "JG52血色🌈",
+          "aliases": [
+            "劲劲胖"
+          ],
+          "sources": [
+            "materials-jg52-xuese.json"
+          ]
+        }
+      ]
+    },
+    "zkb": {
+      "kills": 11,
+      "lost": 21,
+      "isk_destroyed": 1890249381,
+      "last_active": "2026-11",
+      "as_of": "2026-11-18",
+      "fc": null
+    }
+  },
+  "related_snapshots": [
+    {
+      "id": 2114266054,
+      "name": "JG52",
+      "birthday": "2018-07-02T11:14:36Z",
+      "corporation_id": 98606832,
+      "affiliation": {
+        "corporation_id": 98606832,
+        "alliance_id": null,
+        "left_at": null
+      },
+      "history": [
+        {
+          "corporation_id": 1000172,
+          "start": "2018-07-02T11:15:00Z",
+          "end": "2018-07-02T14:49:00Z"
+        },
+        {
+          "corporation_id": 98540691,
+          "start": "2018-07-02T14:49:00Z",
+          "end": "2018-07-21T09:13:00Z"
+        },
+        {
+          "corporation_id": 1000060,
+          "start": "2018-07-21T09:13:00Z",
+          "end": "2018-07-21T12:55:00Z"
+        },
+        {
+          "corporation_id": 98556973,
+          "start": "2018-07-21T12:55:00Z",
+          "end": "2018-08-02T11:31:00Z"
+        },
+        {
+          "corporation_id": 1000060,
+          "start": "2018-08-02T11:31:00Z",
+          "end": "2018-08-02T11:45:00Z"
+        },
+        {
+          "corporation_id": 98540691,
+          "start": "2018-08-02T11:45:00Z",
+          "end": "2018-08-02T14:50:00Z"
+        },
+        {
+          "corporation_id": 98475877,
+          "start": "2018-08-02T14:50:00Z",
+          "end": "2018-10-12T07:03:00Z"
+        },
+        {
+          "corporation_id": 1000060,
+          "start": "2018-10-12T07:03:00Z",
+          "end": "2018-10-17T11:52:00Z"
+        },
+        {
+          "corporation_id": 98540691,
+          "start": "2018-10-17T11:52:00Z",
+          "end": "2018-12-17T15:46:00Z"
+        },
+        {
+          "corporation_id": 1000060,
+          "start": "2018-12-17T15:46:00Z",
+          "end": "2018-12-25T06:26:00Z"
+        },
+        {
+          "corporation_id": 98540691,
+          "start": "2018-12-25T06:26:00Z",
+          "end": "2019-05-05T05:24:00Z"
+        },
+        {
+          "corporation_id": 1000060,
+          "start": "2019-05-05T05:24:00Z",
+          "end": "2019-07-06T20:40:00Z"
+        },
+        {
+          "corporation_id": 98606832,
+          "start": "2019-07-06T20:40:00Z",
+          "end": "2020-12-26T09:13:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2020-12-26T09:13:00Z",
+          "end": "2020-12-26T09:14:00Z"
+        },
+        {
+          "corporation_id": 98668217,
+          "start": "2020-12-26T09:14:00Z",
+          "end": "2021-03-05T12:05:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2021-03-05T12:05:00Z",
+          "end": "2021-03-05T12:05:00Z"
+        },
+        {
+          "corporation_id": 98606832,
+          "start": "2021-03-05T12:05:00Z",
+          "end": "2021-06-01T09:56:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2021-06-01T09:56:00Z",
+          "end": "2021-06-01T10:00:00Z"
+        },
+        {
+          "corporation_id": 98668217,
+          "start": "2021-06-01T10:00:00Z",
+          "end": "2021-07-24T12:18:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2021-07-24T12:18:00Z",
+          "end": "2021-07-24T12:18:00Z"
+        },
+        {
+          "corporation_id": 98606832,
+          "start": "2021-07-24T12:18:00Z",
+          "end": "2021-08-09T06:08:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2021-08-09T06:08:00Z",
+          "end": "2021-08-09T06:08:00Z"
+        },
+        {
+          "corporation_id": 98690218,
+          "start": "2021-08-09T06:08:00Z",
+          "end": "2022-01-18T06:38:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2022-01-18T06:38:00Z",
+          "end": "2022-01-28T10:22:00Z"
+        },
+        {
+          "corporation_id": 98693015,
+          "start": "2022-01-28T10:22:00Z",
+          "end": "2022-02-02T06:18:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2022-02-02T06:18:00Z",
+          "end": "2022-02-05T02:29:00Z"
+        },
+        {
+          "corporation_id": 98535868,
+          "start": "2022-02-05T02:29:00Z",
+          "end": "2022-02-05T03:04:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2022-02-05T03:04:00Z",
+          "end": "2022-02-05T06:29:00Z"
+        },
+        {
+          "corporation_id": 98562360,
+          "start": "2022-02-05T06:29:00Z",
+          "end": "2022-02-08T07:08:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2022-02-08T07:08:00Z",
+          "end": "2022-02-16T03:31:00Z"
+        },
+        {
+          "corporation_id": 98706577,
+          "start": "2022-02-16T03:31:00Z",
+          "end": "2022-02-16T03:40:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2022-02-16T03:40:00Z",
+          "end": "2022-06-27T01:04:00Z"
+        },
+        {
+          "corporation_id": 98631093,
+          "start": "2022-06-27T01:04:00Z",
+          "end": "2022-07-10T06:49:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2022-07-10T06:49:00Z",
+          "end": "2022-07-10T06:49:00Z"
+        },
+        {
+          "corporation_id": 98717349,
+          "start": "2022-07-10T06:49:00Z",
+          "end": "2024-02-20T01:44:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2024-02-20T01:44:00Z",
+          "end": "2024-02-20T01:50:00Z"
+        },
+        {
+          "corporation_id": 98754476,
+          "start": "2024-02-20T01:50:00Z",
+          "end": "2024-05-24T15:10:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2024-05-24T15:10:00Z",
+          "end": "2024-05-24T15:10:00Z"
+        },
+        {
+          "corporation_id": 98703703,
+          "start": "2024-05-24T15:10:00Z",
+          "end": "2024-06-26T10:13:00Z"
+        },
+        {
+          "corporation_id": 1000172,
+          "start": "2024-06-26T10:13:00Z",
+          "end": "2024-06-26T10:15:00Z"
+        },
+        {
+          "corporation_id": 98606832,
+          "start": "2024-06-26T10:15:00Z",
+          "end": null
+        }
+      ],
+      "fetched_at": "2026-11-18"
+    }
+  ]
+}

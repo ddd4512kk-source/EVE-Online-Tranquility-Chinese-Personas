@@ -9,6 +9,8 @@ import { formatIsk } from './scripts/battles.mjs';
 import { identityNames } from './scripts/person-identity.mjs';
 import { RADAR_AXES } from './scripts/person-radar.mjs';
 import { alignmentCounts } from './scripts/person-alignment.mjs';
+import { ctfImage, NEWS_CATEGORIES, newsCards, newsDayAnchors } from './scripts/news.mjs';
+import { articleContainers, prepareArticle } from './scripts/article-prose.mjs';
 
 // 所有日期按 EVE 时间（UTC）显示
 const pad = n => String(n).padStart(2, '0');
@@ -72,7 +74,19 @@ export default function (eleventyConfig) {
         },
       });
     }
+    md.use(articleContainers);
     md.use(glossaryLinks);
+    // 正文图片懒加载；官网图床（Contentful）按阅读宽度缩小并转 WebP
+    const defaultImage = md.renderer.rules.image;
+    md.renderer.rules.image = function (tokens, idx, options, env, self) {
+      const token = tokens[idx];
+      const src = token.attrGet('src') ?? '';
+      token.attrSet('src', ctfImage(src, 1400));
+      token.attrSet('loading', 'lazy');
+      token.attrSet('decoding', 'async');
+      if (/^https?:\/\//i.test(src)) token.attrSet('referrerpolicy', 'no-referrer');
+      return defaultImage(tokens, idx, options, env, self);
+    };
     // 任何导向外部的链接，均在新窗口或新标签页打开
     const defaultLinkOpen = md.renderer.rules.link_open || function (tokens, idx, options, env, self) {
       return self.renderToken(tokens, idx, options);
@@ -125,6 +139,20 @@ export default function (eleventyConfig) {
       .filter(item => !corpUnwritten(item.rawInput))
       .sort((a, b) => a.data.esi.date_founded.localeCompare(b.data.esi.date_founded)),
   );
+
+  // 天书集合：按官网发布日期倒序，同日按短名
+  eleventyConfig.addCollection('news', api =>
+    api
+      .getFilteredByGlob('src/news/*.md')
+      .sort((a, b) => String(b.data.published).localeCompare(String(a.data.published)) || a.page.fileSlug.localeCompare(b.page.fileSlug)),
+  );
+  // 目录卡片：合辑式补丁说明按天拆卡，链到同页锚点
+  eleventyConfig.addCollection('newsCards', api => newsCards(api.getFilteredByGlob('src/news/*.md')));
+  eleventyConfig.addGlobalData('newsCategories', NEWS_CATEGORIES);
+  eleventyConfig.addFilter('ctfImage', ctfImage);
+  eleventyConfig.addFilter('newsDayAnchors', newsDayAnchors);
+  eleventyConfig.addFilter('prepareArticle', prepareArticle);
+  eleventyConfig.addFilter('newsCount', (cards, key) => (cards ?? []).filter(c => c.cat?.key === key).length);
 
   // 四个分类独立展示，联盟含本场全部参战记录。
   eleventyConfig.addCollection('battleTagGroups', api => groupBattleTags(api.getFilteredByGlob('src/battles/*/*.md')));

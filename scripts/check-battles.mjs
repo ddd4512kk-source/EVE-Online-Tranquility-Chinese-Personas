@@ -8,7 +8,7 @@ import { brApiUrl, brSources, buildSnapshot } from "./battle-report.mjs";
 
 const ESI = "https://esi.evetech.net/latest";
 const USER_AGENT =
-  "EVE-Online-Tranquility-Chinese-Personas (+https://github.com/ddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas)";
+  'CEVE-History (+https://github.com/mrd-e/CEVE-History)';
 
 async function getJson(url, init = {}) {
   const res = await fetch(url, {

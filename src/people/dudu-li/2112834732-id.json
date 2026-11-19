@@ -23,7 +23,25 @@
   "fetched_at": "2026-10-06",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2112234756,
+        "name": "| Hotnut",
+        "basis": "历史同军团，游戏内头衔“豆豆”（超级航母驾驶员）",
+        "sources": [
+          "materials-dudu-li.json",
+          "https://evewho.com/character/2112234756"
+        ],
+        "zkb": {
+          "kills": 8,
+          "lost": 4,
+          "isk_destroyed": 9567451391,
+          "last_active": "2018-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 1,
@@ -47,7 +65,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T03:25:00Z",
+      "reviewedAt": "2026-11-19T12:04:37Z",
       "verdict": "采星九年老CEO执掌六百余人，5C敌大航进场敢拍板下无畏砸场的工业巨擘。",
       "axes": {
         "shenren": {
@@ -71,12 +89,16 @@
           ]
         },
         "command": {
-          "tier": "D",
-          "reason": "采星者盟主、六百多人工业军团的老板，管的是组织和生产，没有带队记录；军团管理不算舰队指挥，D。",
+          "tier": "B",
+          "reason": "2018年1月5日凛冬千人会战《点亮星空》战报明确列为狂暴2队FC（与一队灭绝、旗舰N老板同场）；5C战斗中亦拍板投入无畏并喊无畏出站、配合轻拦击毁夜神。有明确骨干带队履历，无长期监视者或多次大战主FC记录，按指挥骨干评B。",
           "sources": [
             {
-              "label": "采星者联盟招募公告",
-              "url": "https://forums.winterco.org/t/topic/25878"
+              "label": "令狐聪《点亮星空》战报",
+              "url": "https://forums.winterco.org/t/topic/14395"
+            },
+            {
+              "label": "老杨轻拦回忆录（5C战斗）",
+              "url": "https://forums.winterco.org/t/topic/14393"
             }
           ]
         },

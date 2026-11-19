@@ -4,7 +4,7 @@
 
 EVE Online 宁静服（Tranquility）华人社区名人群像列传：讥讽、黑历史与锐评。
 
-**网址**：https://ddd4512kk-source.github.io/EVE-Online-Tranquility-Chinese-Personas/
+**网址**：https://mrd-e.github.io/CEVE-History/
 
 ## 这个仓库是做什么的
 
@@ -45,7 +45,7 @@ EVE Online 及相关名称、图像为 CCP Games 所有。本项目与 CCP Games
 
 A satirical collection of biographies of notable Chinese-speaking players on EVE Online's Tranquility server: roasts, embarrassing histories and sharp-tongued verdicts. The site content is written in Chinese.
 
-**Website**: https://ddd4512kk-source.github.io/EVE-Online-Tranquility-Chinese-Personas/
+**Website**: https://mrd-e.github.io/CEVE-History/
 
 ## What this repository is for
 

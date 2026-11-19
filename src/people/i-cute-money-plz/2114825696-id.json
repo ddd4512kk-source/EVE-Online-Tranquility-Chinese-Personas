@@ -55,7 +55,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T19:00:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "平时翻公告，有天被公告点了名。",
       "axes": {
         "shenren": {
@@ -69,8 +69,8 @@
           ]
         },
         "combat": {
-          "tier": "B",
-          "reason": "确认主战号近六千击杀、一百六十八Solo，战斗积累扎实。",
+          "tier": "A",
+          "reason": "主号与确认超旗／常规小号累计 9,151 杀、参与击杀总值 11.28 万亿 ISK 突破十万亿战神线，升 A。",
           "sources": [
             {
               "label": "BOOOOM BOM zKillboard",
@@ -360,7 +360,32 @@
         "sources": [
           "materials-i-cute-money-plz.json#头衔小号查漏-2026-11-13",
           "https://esi.evetech.net/latest/characters/2112640257/"
-        ]
+        ],
+        "zkb": {
+          "kills": 3142,
+          "lost": 82,
+          "isk_destroyed": 5930804823499,
+          "last_active": "2026-09",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2114195402,
+        "name": "Chao Qi",
+        "basis": "同军团（98626494(STARCHASER Inc)、98221842(STARCHASER Inc.)），游戏内头衔“炒鸡”（超级航母驾驶员）",
+        "sources": [
+          "materials-i-cute-money-plz.json",
+          "https://evewho.com/character/2114195402"
+        ],
+        "zkb": {
+          "kills": 118,
+          "lost": 51,
+          "isk_destroyed": 277416184434,
+          "last_active": "2026-04",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
       }
     ],
     "zkb": {

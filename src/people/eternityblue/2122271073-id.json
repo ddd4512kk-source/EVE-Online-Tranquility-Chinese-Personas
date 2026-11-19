@@ -23,7 +23,42 @@
   "fetched_at": "2026-10-19",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2122320914,
+        "name": "Eternityblue x",
+        "basis": "同军团（98631475(Profane Proverb)），游戏内头衔“Director 超绝”（泰坦驾驶员）",
+        "sources": [
+          "materials-eternityblue.json",
+          "https://evewho.com/character/2122320914"
+        ],
+        "zkb": {
+          "kills": 254,
+          "lost": 60,
+          "isk_destroyed": 297979204930,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2122519767,
+        "name": "Eternityblue s",
+        "basis": "同军团（98631475(Profane Proverb)），游戏内头衔“Director 超绝”（超级航母驾驶员）",
+        "sources": [
+          "materials-eternityblue.json",
+          "https://evewho.com/character/2122519767"
+        ],
+        "zkb": {
+          "kills": 50,
+          "lost": 36,
+          "isk_destroyed": 108869700880,
+          "last_active": "2026-09",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 2080,
@@ -44,7 +79,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "总监能加粗，指挥还得亲自喊。",
       "axes": {
         "shenren": {
@@ -98,8 +133,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "可承担数百亿战损，按资产充裕，未见产业雄厚。",
+          "tier": "B",
+          "reason": "名下确认拥有泰坦小号 Eternityblue x 与超航小号 Eternityblue s，按单泰坦参战保底由 C 升 B。",
           "sources": [
             {
               "label": "Eternityblue zKillboard 角色资料",

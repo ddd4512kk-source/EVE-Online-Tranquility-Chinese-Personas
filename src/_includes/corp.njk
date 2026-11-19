@@ -6,9 +6,11 @@ bodyClass: page-corp
 {%- set next = collections.corps | getNextCollectionItem(page) -%}
 {%- set members = collections.people | corpMembers(corp.id, esi.ceo.id, linkedPeople) -%}
 {%- set fought = collections.battles | corpBattles(corp.id) -%}
+{%- set art = content | prepareArticle({ kind: 'corp', toc: toc, tocDepth: tocDepth }) -%}
+<div class="article-frame{% if art.hasToc %} has-toc{% endif %}">
 {%- set backHref = '/corps/' %}{% set backLabel = '返回军团目录' %}
 {% include "back.njk" %}
-<article class="bio corp corp-style-{{ styleKey }}" data-pagefind-body data-pagefind-filter="板块:军团">
+<article class="bio corp corp-style-{{ styleKey }}{% if art.hasToc %} has-toc{% endif %}" data-pagefind-body data-pagefind-filter="板块:军团">
   <section class="corp-billboard">
     <img class="corp-watermark" src="{{ emblemSrc | url }}" alt="" width="256" height="256" aria-hidden="true" data-pagefind-ignore>
     <div class="corp-marquee" data-pagefind-ignore>
@@ -18,7 +20,7 @@ bodyClass: page-corp
       </div>
       <div class="corp-marquee-right">
         {%- if status.state == "active" %}<span class="corp-pill pill-live">活跃</span>{% else %}<span class="corp-pill pill-ash">沉寂</span>{% endif %}
-        {%- if status.recruiting %}<span class="corp-pill pill-recruit">招新中</span>{% elif esi.invite_only %}<span class="corp-pill pill-invite">仅限邀请</span>{% endif -%}
+        {%- if status.recruiting %}<span class="corp-pill pill-recruit">招新中</span>{% elif esi.invite_only and not corp.recruitment_closed %}<span class="corp-pill pill-invite">仅限邀请</span>{% endif -%}
       </div>
     </div>
 
@@ -73,7 +75,7 @@ bodyClass: page-corp
       {% include "corp-ratings.njk" %}
     </div>
 
-    {% if status.recruiting or recruitQq or recruitment %}
+    {% if not corp.recruitment_closed and (status.recruiting or recruitQq or recruitment) %}
     <div class="corp-cta{% if status.recruiting %} is-open{% endif %}" data-pagefind-ignore>
       <div class="corp-cta-main">
         <span class="corp-cta-badge">{% if status.recruiting %}招新开放中{% else %}往期招新记录{% endif %}</span>
@@ -92,8 +94,10 @@ bodyClass: page-corp
   </details>
   {% endif %}
 
+  {% include "article-toc.njk" %}
+
   <div class="prose corp-prose">
-    {{ content | safe }}
+    {{ art.html | safe }}
   </div>
 
   {% if fought.length %}
@@ -114,3 +118,5 @@ bodyClass: page-corp
   <a class="pager-random" href="{{ '/corps/' | url }}">军团目录</a>
   {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>更晚创立</small>{{ next.data.displayName }}</a>{% else %}<span></span>{% endif %}
 </nav>
+</div>
+{% if art.hasToc or art.hasTabs %}<script src="{{ '/assets/js/article-ui.js' | url }}?v={{ site.build }}" defer></script>{% endif %}

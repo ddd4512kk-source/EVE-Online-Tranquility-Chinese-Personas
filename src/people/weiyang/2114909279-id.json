@@ -329,7 +329,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T03:25:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "少打一个零造就九卡联盟名梗，手速逆天抢回丝血建筑，贴吧背诵民法典的戏剧性商人。",
       "axes": {
         "shenren": {
@@ -343,8 +343,8 @@
           ]
         },
         "combat": {
-          "tier": "D",
-          "reason": "以商业贸易与低安驻站为主，极少直接开火打仗，但曾手速抢回丝血骗子建筑，常人基准。",
+          "tier": "B",
+          "reason": "名下确认四只泰坦与超级航母小号（Minoces Mineros 916 杀、NukkaColaa 等）合计 4,111 杀、3.89 万亿 ISK 击毁，具备多号超旗与泰坦实战，由 D 升 B。",
           "sources": [
             {
               "label": "贴吧丝血抢回脑浆脱身帖 7788939003",
@@ -439,7 +439,83 @@
         "sources": [
           "materials-weiyang.json#军团名片身份对应",
           "https://esi.evetech.net/latest/characters/2115022390/"
-        ]
+        ],
+        "zkb": {
+          "kills": 1861,
+          "lost": 167,
+          "isk_destroyed": 1150448267682,
+          "last_active": "2025-09",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2113326843,
+        "name": "weiyangX Yang",
+        "basis": "同军团（98598862(Chaos arbiter)），游戏内头衔“未央”（泰坦驾驶员）",
+        "sources": [
+          "materials-weiyang.json",
+          "https://evewho.com/character/2113326843"
+        ],
+        "zkb": {
+          "kills": 110,
+          "lost": 120,
+          "isk_destroyed": 533563199561,
+          "last_active": "2025-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2120029724,
+        "name": "NukkaColaa",
+        "basis": "同军团（98598862(Chaos arbiter)），游戏内头衔“未央”（超级航母驾驶员）",
+        "sources": [
+          "materials-weiyang.json",
+          "https://evewho.com/character/2120029724"
+        ],
+        "zkb": {
+          "kills": 198,
+          "lost": 77,
+          "isk_destroyed": 369893452207,
+          "last_active": "2025-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 1485638721,
+        "name": "| Minoces Mineros",
+        "basis": "历史同军团，游戏内头衔“未央”（泰坦驾驶员）",
+        "sources": [
+          "materials-weiyang.json",
+          "https://evewho.com/character/1485638721"
+        ],
+        "zkb": {
+          "kills": 916,
+          "lost": 174,
+          "isk_destroyed": 988064016591,
+          "last_active": "2025-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2115142677,
+        "name": "| cc cixin",
+        "basis": "历史同军团，游戏内头衔“未央”（超级航母驾驶员）",
+        "sources": [
+          "materials-weiyang.json",
+          "https://evewho.com/character/2115142677"
+        ],
+        "zkb": {
+          "kills": 55,
+          "lost": 30,
+          "isk_destroyed": 165240779650,
+          "last_active": "2025-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
       }
     ],
     "zkb": {

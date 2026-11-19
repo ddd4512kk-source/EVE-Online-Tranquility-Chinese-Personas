@@ -23,7 +23,25 @@
   "fetched_at": "2026-10-09",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2114297902,
+        "name": "Ree Yaken",
+        "basis": "同军团（98750570(Jade Cloud Corporation)），游戏内头衔“小号 夜鹿”（超级航母驾驶员）",
+        "sources": [
+          "materials-ba-yun.json",
+          "https://evewho.com/character/2114297902"
+        ],
+        "zkb": {
+          "kills": 265,
+          "lost": 28,
+          "isk_destroyed": 599039169145,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 0,
@@ -45,7 +63,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "八云：普通表现以 D 为起点，突出项按已有列传记录上调。",
       "axes": {
         "shenren": {
@@ -59,8 +77,8 @@
           ]
         },
         "combat": {
-          "tier": "D",
-          "reason": "现有记录属于常规战斗职责或普通随队出勤，按常人基准 D。",
+          "tier": "C",
+          "reason": "确认超级航母小号 Ree Yaken（265 杀、0.60 万亿 ISK 毁伤），具备超旗实战积累，由 D 升 C。",
           "sources": [
             {
               "label": "角色 zKillboard 战绩",
@@ -99,8 +117,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "列传未见超出日常配船的经营或资源运作，按常人基准 D。",
+          "tier": "C",
+          "reason": "确认名下拥有超级航母小号 Ree Yaken 参战，按单艘超级航母参战保底升 C。",
           "sources": [
             {
               "label": "列传相关资料",

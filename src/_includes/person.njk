@@ -5,10 +5,12 @@ bodyClass: page-person
 {%- set prev = collections.people | getPreviousCollectionItem(page) -%}
 {%- set next = collections.people | getNextCollectionItem(page) -%}
 {%- set battles = collections.battles | battlesOf(character_id, content) -%}
+{%- set art = content | prepareArticle({ kind: 'person' }) -%}
 {%- from "person-alignment.njk" import alignTab, alignFact -%}
+<div class="article-frame{% if art.hasToc %} has-toc{% endif %}">
 {%- set backHref = '/' %}{% set backLabel = '返回目录' %}
 {% include "back.njk" %}
-<article class="bio" data-pagefind-body{% if collections.battles.length %} data-pagefind-filter="板块:列传"{% endif %}>
+<article class="bio{% if art.hasToc %} has-toc{% endif %}" data-pagefind-body{% if collections.battles.length %} data-pagefind-filter="板块:列传"{% endif %}>
   <header class="bio-head{% if alignment %} al-frame{% endif %}"{% if alignment %} data-align="{{ alignment.code }}"{% endif %}>
     {%- if alignment %}{{ alignTab(alignment) }}{% endif %}
     <span class="status-frame status-frame-lg status-{{ activity.state }}{% if famous %} is-famous{% endif %}{% if tycoon %} is-tycoon{% endif %}{% if shenren %} is-shenren{% endif %}{% if upzhu %} is-upzhu{% endif %}"{% if activityLabel %} title="{{ activityLabel }}"{% endif %}>
@@ -48,8 +50,10 @@ bodyClass: page-person
     </dd></div>{% endif %}
   </dl>
 
+  {% include "article-toc.njk" %}
+
   <div class="prose">
-    {{ content | safe }}
+    {{ art.html | safe }}
   </div>
 
   <details class="employment" data-pagefind-ignore>
@@ -73,6 +77,8 @@ bodyClass: page-person
   <a class="pager-random" href="{{ '/random/' | url }}">随机</a>
   {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>后一位</small>{{ next.data.displayName }}</a>{% else %}<span></span>{% endif %}
 </nav>
+</div>
 
 <script src="{{ "/assets/js/battle-lists.js" | url }}?v={{ site.build }}" defer></script>
 {% if identity.alts.length %}<script src="{{ "/assets/js/bio-alts.js" | url }}?v={{ site.build }}" defer></script>{% endif %}
+{% if art.hasToc or art.hasTabs %}<script src="{{ '/assets/js/article-ui.js' | url }}?v={{ site.build }}" defer></script>{% endif %}

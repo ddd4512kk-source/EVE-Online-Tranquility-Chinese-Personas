@@ -23,7 +23,25 @@
   "fetched_at": "2026-10-14",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2122639564,
+        "name": "Lovely Honey Bee",
+        "basis": "同军团（98755298(Fox of Resistance)），游戏内头衔“无梦”（超级航母驾驶员）",
+        "sources": [
+          "materials-nyxcv.json",
+          "https://evewho.com/character/2122639564"
+        ],
+        "zkb": {
+          "kills": 42,
+          "lost": 14,
+          "isk_destroyed": 5397845578,
+          "last_active": "2025-03",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 5289,
@@ -44,7 +62,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "前线带队、后方管技术，公开岗位和战斗记录互相对得上。",
       "axes": {
         "shenren": {
@@ -102,8 +120,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "击杀价值不等于个人净资产，材料没有可靠的个人财富或产业记录。",
+          "tier": "C",
+          "reason": "名下确认拥有超级航母小号 Lovely Honey Bee 参战，按单艘超级航母参战保底由 D 升 C。",
           "sources": [
             {
               "label": "NyxCV 战斗记录",

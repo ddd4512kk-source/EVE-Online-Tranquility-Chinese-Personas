@@ -23,7 +23,25 @@
   "fetched_at": "2026-10-21",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2122381492,
+        "name": "SYC3",
+        "basis": "同军团（98715582(Emperor Scythes)），游戏内头衔“七喜”（超级航母驾驶员）",
+        "sources": [
+          "materials-genshin-impart.json",
+          "https://evewho.com/character/2122381492"
+        ],
+        "zkb": {
+          "kills": 75,
+          "lost": 27,
+          "isk_destroyed": 103576671426,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 2683,
@@ -46,7 +64,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "黑隐和泰坦大战都留下了记录，电池也总有办法从敌方旗舰上补。",
       "axes": {
         "shenren": {
@@ -104,8 +122,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "总击杀价值不能直接代表个人财富，材料没有可靠的资产或生产记录。",
+          "tier": "C",
+          "reason": "名下确认拥有超级航母小号 SYC3 参战，按单艘超级航母参战保底由 D 升 C。",
           "sources": [
             {
               "label": "GENSHIN IMPART 战斗记录",

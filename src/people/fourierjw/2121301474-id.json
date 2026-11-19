@@ -42,7 +42,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-15T10:53:27Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "前排带队兼五开下场，自己开上泰坦还不忘在B站替光点招生催秋裤。",
       "axes": {
         "shenren": {
@@ -56,8 +56,8 @@
           ]
         },
         "combat": {
-          "tier": "B",
-          "reason": "主号与两只已确认小号合计七千六百余次击杀、近五万亿 ISK 击毁，曾五开火力巡洋实战并在艾蒂斯多开重创对耗，具高活跃资深实战积累。",
+          "tier": "A",
+          "reason": "主号与多只确认小号（含新归入的高活跃超旗号 MSSS2）累计 10,977 杀、年均参与击杀达 2.00 万亿 ISK 达到战神门槛，兼五开巡洋与超旗大战实战，升 A。",
           "sources": [
             {
               "label": "FourierJW zKillboard 战绩",
@@ -152,6 +152,23 @@
           "isk_destroyed": 247020554735,
           "last_active": "2026-11",
           "as_of": "2026-11-14",
+          "fc": null
+        }
+      },
+      {
+        "id": 2116766249,
+        "name": "MSSS2",
+        "basis": "同军团（98772842(New Eden Light Point College)），游戏内头衔“凡小生（傅里叶）”（超级航母驾驶员）",
+        "sources": [
+          "materials-fourierjw.json",
+          "https://evewho.com/character/2116766249"
+        ],
+        "zkb": {
+          "kills": 3302,
+          "lost": 125,
+          "isk_destroyed": 1884280681624,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
           "fc": null
         }
       }

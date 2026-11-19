@@ -10,7 +10,7 @@ import { createRequestGuard } from './request-guard.mjs';
 
 const MONTHS_TO_CHECK = 1;
 const MAILS_PER_MONTH = 40;
-const headers = { 'User-Agent': 'EVE-Online-Tranquility-Chinese-Personas research' };
+const headers = { 'User-Agent': 'CEVE-History research' };
 
 // 今年击杀加损失最多的几个月，多的在前。
 export const busiestMonths = (months, year, limit = MONTHS_TO_CHECK) => Object.entries(months ?? {})

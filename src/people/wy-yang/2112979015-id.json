@@ -38,7 +38,25 @@
   "fetched_at": "2026-10-06",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2113023652,
+        "name": "yang wy",
+        "basis": "同军团（98108175(Thunders Claw Fleet)），游戏内头衔“老杨”（超级航母驾驶员）",
+        "sources": [
+          "materials-wy-yang.json",
+          "https://evewho.com/character/2113023652"
+        ],
+        "zkb": {
+          "kills": 714,
+          "lost": 189,
+          "isk_destroyed": 1053074223391,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 3545,
@@ -57,7 +75,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "缺什么就学什么，轻拦也值得单独立传。",
       "axes": {
         "shenren": {
@@ -111,8 +129,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "轻拦库存与战备自给，不等同产业雄厚。",
+          "tier": "C",
+          "reason": "名下确认拥有超级航母小号 yang wy 参战，按单艘超级航母参战保底由 D 升 C。",
           "sources": [
             {
               "label": "wy yang zKillboard",

@@ -8,7 +8,7 @@
 2. **按用户要看的交付物划定范围**。趣味评分、人物面板、独立组件与样例展示任务不扩成历史考据、整篇列传复审或旧资料补齐；“先看一个效果”就先交付一个可看的样例。按本次改动范围验证，不因并行工作的无关改动反复跑全仓检查或构建；不得删目录、弱化校验或扩大豁免掩盖本次故障。执行边界见[开发与验证](docs/development.md)。
 3. **未经当前任务明确要求，不提交、不推送，也不问要不要提交。** 修改、修复或完成任务不代表提交授权；只授权提交时不推送，不扩大到其他改动。
 4. 列传、战役、军团是三个独立板块，规则、模板、流程和验收各有一套，互不通用：列传读[列传规则](docs/rules-person.md)，战役读[战役规则](docs/rules-battle.md)，军团读[军团规则](docs/rules-corp.md)。全站共用的规则：不收现实隐私、歧视内容和未成年人；舰船、建筑、星系、星域写中文，见[术语用法](docs/terminology.md)；正文、素材、档案与任何仓库文件只写事实、说法和来源，不记录素材提供者身份或对话过程，不写“维护者确认／决定／原话”之类；任何导向外部的链接一律以新窗口或新标签页打开（带 `target="_blank" rel="noopener noreferrer"`），不得顶掉当前页面。
-5. 改 `src/people/` 下任何文件先读 `add-person`；改 `src/battles/` 下任何文件先读 `add-battle`，含只登记小号、补一行素材；改 `src/corps/` 下任何文件先读 `add-corp`。批量找人、战役／贴吧查漏用 `research-community`。Codex 读 `.agents/skills/<技能>/SKILL.md`，Claude Code 读对应 `.claude/skills/` 副本。
+5. 改 `src/people/` 下任何文件先读 `add-person`；改 `src/battles/` 下任何文件先读 `add-battle`，含只登记小号、补一行素材；改 `src/corps/` 下任何文件先读 `add-corp`；改 `src/news/`（天书，官方新闻中文版，不收原创）下任何文件先读 `add-news`。批量找人、战役／贴吧查漏用 `research-community`。Codex 读 `.agents/skills/<技能>/SKILL.md`，Claude Code 读对应 `.claude/skills/` 副本。
 
 ## 1. 项目与共同标准
 
@@ -28,6 +28,7 @@
 | 人物收录、身份、素材与正文 | [列传指令](src/people/AGENTS.md)；[列传规则](docs/rules-person.md)、[术语用法](docs/terminology.md)、[列传素材归档](docs/materials-person.md)；[人物模板](docs/person-template.md)、[列传验收](docs/person-review.md) |
 | 战役收录、分方、统计与正文 | [战役指令](src/battles/AGENTS.md)；[战役规则](docs/rules-battle.md)、[术语用法](docs/terminology.md)；[战役模板](docs/battle-template.md)、[战役验收](docs/battle-review.md) |
 | 军团收录与正文 | `add-corp` 技能；[军团指令](src/corps/AGENTS.md)；[军团规则](docs/rules-corp.md)、[术语用法](docs/terminology.md)；[军团志模板](docs/corp-template.md)、[军团验收](docs/corp-review.md) |
+| 天书：官方新闻照录与翻译 | `add-news` 技能；[天书指令](src/news/AGENTS.md)；翻译按 `translator/.agents/skills/translate-article/SKILL.md` |
 | 批量调查、联网取材 | `research-community` 技能；[取材手册](docs/research-method.md)对应入口，含联网条件、预算和停止规则；查人另读[人物取材](docs/research-person.md)，查战役另读[战役取材](docs/research-battle.md)；已有材料先用 `npm run materials` 查询 |
 | 跨人物／战役查漏与规则变更复查 | [增量复查](docs/review-workflow.md)，先筛候选，再读相关段落，保存人工结论和失效依据 |
 | 站点、布局、样式、交互 | [源码指令](src/AGENTS.md)及对应下级指令；可见变化必读[网站设计](docs/site-design.md) |

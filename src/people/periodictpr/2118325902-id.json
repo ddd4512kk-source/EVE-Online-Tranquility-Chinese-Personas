@@ -63,14 +63,39 @@
   "fetched_at": "2026-10-19",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2118321563,
+        "name": "Periodic Tpr",
+        "basis": "2021-02-20 建号，比主号早一天且角色 ID 相邻，同词根加空格、同属 University of Caille（0 击杀未出校的初始号）。",
+        "sources": [
+          "materials-periodictpr.json#2026-11-19-alt-dig"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-19",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 8312,
       "lost": 1016,
-      "isk_destroyed": 6215481842201,
+      "isk_destroyed": 6215481842204,
       "last_active": "2026-07",
-      "as_of": "2026-10-23"
+      "as_of": "2026-11-19",
+      "fc": {
+        "tag": "FC(HIGH)",
+        "level": "high",
+        "score": 103,
+        "monitor": 5,
+        "command_ship": 0,
+        "large_fleet": 16
+      }
     }
   },
   "person": {

@@ -6,6 +6,7 @@ bodyClass: page-battle
 {%- from "battle-emblem.njk" import battleEmblem -%}
 {%- set prev = collections.battles | getPreviousCollectionItem(page) -%}
 {%- set next = collections.battles | getNextCollectionItem(page) -%}
+{%- set art = content | prepareArticle({ kind: 'battle', toc: toc, tocDepth: tocDepth }) -%}
 {%- macro videoCard(video, idx, featured = false) -%}
 {%- set isYt = "youtube.com" in video.url -%}
 <article class="pov-card{% if featured %} pov-card-lead{% endif %}">
@@ -166,8 +167,11 @@ bodyClass: page-battle
   </section>
   {% endif %}
 
-  <div class="prose battle-prose">
-    {{ content | safe }}
+  <div class="battle-body{% if art.hasToc %} has-toc{% endif %}">
+    {% include "article-toc.njk" %}
+    <div class="prose battle-prose">
+      {{ art.html | safe }}
+    </div>
   </div>
 </article>
 
@@ -180,3 +184,4 @@ bodyClass: page-battle
 </nav>
 
 <script src="{{ '/assets/js/battle-lists.js' | url }}?v={{ site.build }}" defer></script>
+{% if art.hasToc or art.hasTabs %}<script src="{{ '/assets/js/article-ui.js' | url }}?v={{ site.build }}" defer></script>{% endif %}

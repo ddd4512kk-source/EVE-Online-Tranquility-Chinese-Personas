@@ -44,7 +44,6 @@
   "person": {
     "cn_name": "随风",
     "aliases": [
-      "北宅",
       "xiaolandz"
     ],
     "epithet": "守着帝国东大门，进不了蜜蜂家刷怪。",
@@ -52,17 +51,16 @@
       "00区",
       "D.C",
       "联盟管理",
-      "CEO",
-      "AT22亚军"
+      "CEO"
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-09T23:24:11Z",
-      "verdict": "龙焰联盟DC最高盟主，全套权游粉，死守卡彻七个月、与蜜蜂结盟并打造AT亚军队的华人顶级霸主。",
+      "reviewedAt": "2026-11-21T04:10:00Z",
+      "verdict": "龙焰联盟DC最高盟主，全套权游粉，死守卡彻、稳居帝国东线并手握一排马甲后勤与建筑团的华人顶级霸主。",
       "axes": {
         "shenren": {
           "tier": "D",
-          "reason": "追剧狂魔给联盟所有军团起权游名字，贴吧复读七遍“不是北萌是北方的联盟”，在N老板战报里多年客串“恐惧与短板”。；常规社区交流、论坛口水或军团内务分歧，未涉及恶性人肉造谣或现实骚扰，属普通玩家互动与摩擦，按常人基准评 D。",
+          "reason": "追剧狂魔给联盟与附属军团起满权游名字，贴吧复读七遍“不是北萌是北方的联盟”，招新招牌和建筑号反复拼错英文，属普通玩家互动与摩擦，按常人基准评 D。",
           "sources": [
             {
               "label": "龙焰DC建盟招新帖",
@@ -72,7 +70,7 @@
         },
         "combat": {
           "tier": "A",
-          "reason": "本人名下主力号与多小号累计消灭超 13.1 万亿 ISK，突破十万亿战神线；多号常年投身联盟防守与主权决战一线，支撑 A 档战力。",
+          "reason": "主力号 Fadek Windy、Baba s Gandurasa 与 Gone With Windy 合计参与击杀超六千五百次、目标价值近十万亿星币，亲驾神使级泰坦与多艘无畏舰参与 M2-XFE 突围、H-PA29、塔夫与北方大战，长期奋战前线支撑 A 档战力。",
           "sources": [
             {
               "label": "Fadek Windy zKillboard",
@@ -82,7 +80,7 @@
         },
         "command": {
           "tier": "A",
-          "reason": "DC 联盟的军事负责人，自己也说把绝地当作练 FC 的平台；联盟重要 FC，A。",
+          "reason": "DC 联盟的军事与执政负责人，长期统筹联盟作战，2026 年 6 月亦有驾驶监视者出勤记录，联盟重要统筹核心评 A。",
           "sources": [
             {
               "label": "Dracarys. 联盟战争记录",
@@ -112,11 +110,11 @@
         },
         "wealth": {
           "tier": "S",
-          "reason": "作为 DC 联盟执政者，个人持有并驾驶神使级泰坦及多艘泽尼塔级、神示级海军型无畏舰参战，且手里握有大量退坑成员遗产与多个泰坦小号，多项重资产叠加评 S。",
+          "reason": "作为 DC 联盟执政者，个人持有并驾驶神使级泰坦及多艘泽尼塔级、神示级海军型无畏舰参战，名下掌管物流、月矿税、建筑与控股等十余个附属马甲军团与退坑遗产，多项重资产叠加评 S。",
           "sources": [
             {
-              "label": "ATXXII 总决赛战报",
-              "url": "https://open.eve-nt.uk/portal/tournaments/ATXXII"
+              "label": "M2-XFE 神使级泰坦出勤记录",
+              "url": "https://zkillboard.com/kill/90264548/"
             }
           ]
         }
@@ -139,11 +137,12 @@
         "zkb": {
           "kills": 64,
           "lost": 96,
-          "isk_destroyed": 963421758326,
+          "isk_destroyed": 963421758328,
           "last_active": "2026-06",
-          "as_of": "2026-10-23"
+          "as_of": "2026-11-21",
+          "fc": null
         },
-        "basis": "原收录号；换号前的列传主号"
+        "basis": "原收录号；DC 盟主号、SummerHall CEO，简介直链 Fadek Windy"
       },
       {
         "id": 93882790,
@@ -152,50 +151,270 @@
           "materials-gone-with-windy.json"
         ],
         "zkb": {
-          "kills": 1671,
-          "lost": 293,
-          "isk_destroyed": 3910130048434,
+          "kills": 1674,
+          "lost": 294,
+          "isk_destroyed": 3910724538994,
           "last_active": "2026-10",
-          "as_of": "2026-10-23"
+          "as_of": "2026-11-21",
+          "fc": {
+            "tag": "FC(MEDIUM)",
+            "level": "medium",
+            "score": 60,
+            "monitor": 0,
+            "command_ship": 208,
+            "large_fleet": 468
+          }
+        },
+        "basis": "头衔“随风 GWW”，同在 SummerHall（98601548），泰坦驾驶员"
+      },
+      {
+        "id": 2115325539,
+        "name": "Gone With Windy1",
+        "basis": "2019-06-05T17:10:22Z 建号（距 Gone With Windy 12 分钟），Humpback Whale Logistic CEO，创建 D.C Wing Holding、GWW Corporation 等多团，与 Windy2 同四分钟互换两物流团 CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 1,
+          "lost": 3,
+          "isk_destroyed": 412852717,
+          "last_active": "2024-06",
+          "as_of": "2026-11-21",
+          "fc": null
         }
       },
       {
-        "id": 2113100728,
-        "name": "Natalies Haginen",
+        "id": 2115325572,
+        "name": "Gone With Windy2",
+        "basis": "2019-06-05T17:17:06Z 建号（距 Gone With Windy 19 分钟），D.C Logistics CEO，创建 Faceless.（98645589）、Dracarys Industry、Double Faceless. 等多团",
         "sources": [
-          "https://evewho.com/character/2113100728"
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
         ],
         "zkb": {
-          "kills": 1385,
-          "lost": 336,
-          "isk_destroyed": 1799560298156,
-          "last_active": "2026-06",
-          "as_of": "2026-10-23"
-        },
-        "basis": "ESI：2017-08-13 建号，头衔“北宅（随风）”；与 Gone With Windy 共有军团：SummerHall"
+          "kills": 0,
+          "lost": 2,
+          "isk_destroyed": 0,
+          "last_active": "2020-02",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
       },
       {
-        "id": 2114271701,
-        "name": "Tyrande Itovuo",
+        "id": 2123586474,
+        "name": "Gone With Windy5",
+        "basis": "2025-07-05 建号，同词根编号，创建并任 DC 旗下 Windy is Watching（98835705）CEO，创建 D.C Supplies（98833988）",
         "sources": [
-          "materials-gone-with-windy.json#tyrande-itovuo"
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
         ],
         "zkb": {
-          "kills": 381,
-          "lost": 186,
-          "isk_destroyed": 1567503878888,
-          "last_active": "2026-07",
-          "as_of": "2026-11-02"
-        },
-        "basis": "头衔“北宅”，与头衔“北宅（随风）”的Natalies Haginen、头衔“随风”的收录号同在Faceless（98645589）；同一玩家。"
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2115244498,
+        "name": "Gone With Wind",
+        "basis": "2019-05-15T15:57:23Z 建号，5 分钟后入 GWUEC（98593069，与 Gone With Windy1 出生即入同一团）",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2115244527,
+        "name": "Gone With Wind2",
+        "basis": "2019-05-15T16:11:21Z 建号（距 Gone With Wind 14 分钟），6 分钟后入 Fade Construction Bank（98594902，与 Gone With Windy2 出生即入同一团）",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2116839803,
+        "name": "Stucture Windy",
+        "basis": "2020-05-05 建号，同词根且沿用“Stucture”拼写，任 Fadek Windy 首个玩家团 FaDek Stuctures Control Center（98596916）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2119067527,
+        "name": "Structure Windy",
+        "basis": "2021-09-06 建号，同词根，任 CorpControl3 Windy 所建 D.C MOON TAX（98742135，DC）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2119041902,
+        "name": "Rich Windy",
+        "basis": "2021-08-29 建号，同词根，任 Gone With Windy1 所建 D.C Wing Holding（98776601）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2118026574,
+        "name": "CorpControl1 Windy",
+        "basis": "2020-12-26 建号，CorpControl* Windy 系列，任 Lang Jiang Hu Elite（98631370）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2118073239,
+        "name": "CorpControl2 Windy",
+        "basis": "2021-01-05 建号，头衔“随风”，任 Gone With Windy2 所建 Double Faceless.（98666732）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2118287132,
+        "name": "CorpControl3 Windy",
+        "basis": "2021-02-14 建号，CorpControl* Windy 系列，创建 DC IHub Contol（98673880）与 D.C MOON TAX（98742135，DC）",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2118995929,
+        "name": "CorpControl4 Windy",
+        "basis": "2021-08-14 建号，CorpControl* Windy 系列，现属 DC 旗下 The Wrong Turn（98447094）",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2119566532,
+        "name": "CorpControl5 Windy",
+        "basis": "2022-01-09 建号，CorpControl* Windy 系列，任 Gone With Windy1 所建 Dragon Stone.（98652088）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2117007299,
+        "name": "Dracarys Industrier",
+        "basis": "2020-06-04T11:45:11Z 建号，13 分钟后 Gone With Windy2 退团，由本号接任 Dracarys Industry（98634639）CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
+      },
+      {
+        "id": 2115249646,
+        "name": "Princess Dragonstone",
+        "basis": "2019-05-17T14:05:59Z 建号，52 分钟后创建执政军团 SummerHall（98601548），后交 Gone With Windy 任 CEO",
+        "sources": [
+          "materials-gone-with-windy.json#2026-11-21-小号深挖与身份拆分"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 0,
+          "isk_destroyed": 0,
+          "last_active": "",
+          "as_of": "2026-11-21",
+          "fc": null
+        }
       }
     ],
     "zkb": {
-      "kills": 4731,
-      "lost": 442,
-      "isk_destroyed": 4912749887274,
-      "last_active": "2026-10",
-      "as_of": "2026-10-23"
+      "kills": 4785,
+      "lost": 447,
+      "isk_destroyed": 4947058116910,
+      "last_active": "2026-11",
+      "as_of": "2026-11-21",
+      "fc": null
     }
   }
 }

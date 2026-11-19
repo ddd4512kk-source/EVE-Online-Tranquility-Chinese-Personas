@@ -33,7 +33,25 @@
   "fetched_at": "2026-10-21",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2120636698,
+        "name": "SkyEagleDani",
+        "basis": "同军团（98725089(Arknights.)、98715582(Emperor Scythes)），游戏内头衔“天鹰”（泰坦驾驶员／超级航母驾驶员）",
+        "sources": [
+          "materials-sky-eagle-milize.json",
+          "https://evewho.com/character/2120636698"
+        ],
+        "zkb": {
+          "kills": 174,
+          "lost": 32,
+          "isk_destroyed": 756522808520,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 6889,
@@ -55,7 +73,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "教人认路，堵门队却不肯让路。",
       "axes": {
         "shenren": {
@@ -73,8 +91,8 @@
           ]
         },
         "combat": {
-          "tier": "B",
-          "reason": "近七千击杀、五万亿级战果，资深实战。",
+          "tier": "A",
+          "reason": "主小号合计 7,063 杀、年均参与击杀 1.52 万亿 ISK 达到战神门槛，并有双泰坦与超航实战积累，升 A。",
           "sources": [
             {
               "label": "列传相关资料",
@@ -113,8 +131,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "常规PVP教学不等于高收益产业。",
+          "tier": "A",
+          "reason": "名下确认拥有双泰坦（主号及小号 SkyEagleDani）及超级航母驾驶员记录，按复数泰坦保底例外升 A。",
           "sources": [
             {
               "label": "列传相关资料",

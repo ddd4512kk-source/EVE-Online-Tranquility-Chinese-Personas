@@ -26,6 +26,7 @@ export function validateCorpArchive(archive, slug) {
     if (!isScore(corp?.ratings?.[key])) fail(`corp.ratings.${key} 必须是 0–100 的整数`);
   }
   if (corp?.zones?.some(zone => !ZONE_KEYS.includes(zone))) fail(`corp.zones 只能是 ${ZONE_KEYS.join('、')}`);
+  if (corp?.recruitment_closed !== undefined && typeof corp.recruitment_closed !== 'boolean') fail('corp.recruitment_closed 必须是布尔值');
   if (!esi?.name || !esi?.ticker) fail('缺 ESI 快照，先运行 corp-snapshot');
   if (!DATE.test(esi?.as_of ?? '')) fail('esi.as_of 必须是 YYYY-MM-DD');
   if (!DATE.test(zkb?.as_of ?? '')) fail('zkb.as_of 必须是 YYYY-MM-DD');

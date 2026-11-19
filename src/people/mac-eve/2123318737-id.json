@@ -1,0 +1,240 @@
+{
+  "id": 2123318737,
+  "name": "MacEVE",
+  "birthday": "2025-04-05T12:38:02Z",
+  "corporation_id": 98811414,
+  "affiliation": {
+    "corporation_id": 98811414,
+    "alliance_id": null,
+    "left_at": null
+  },
+  "history": [
+    {
+      "corporation_id": 1000170,
+      "start": "2025-04-05T12:38:00Z",
+      "end": "2025-04-05T12:59:00Z"
+    },
+    {
+      "corporation_id": 98742573,
+      "start": "2025-04-05T12:59:00Z",
+      "end": "2025-04-27T12:22:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "start": "2025-04-27T12:22:00Z",
+      "end": "2025-04-27T15:07:00Z"
+    },
+    {
+      "corporation_id": 98802542,
+      "start": "2025-04-27T15:07:00Z",
+      "end": "2025-05-06T17:20:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "start": "2025-05-06T17:20:00Z",
+      "end": "2025-05-06T17:21:00Z"
+    },
+    {
+      "corporation_id": 98803245,
+      "start": "2025-05-06T17:21:00Z",
+      "end": "2025-05-07T12:11:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "start": "2025-05-07T12:11:00Z",
+      "end": "2025-05-07T17:28:00Z"
+    },
+    {
+      "corporation_id": 98742573,
+      "start": "2025-05-07T17:28:00Z",
+      "end": "2025-05-15T14:42:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "start": "2025-05-15T14:42:00Z",
+      "end": "2025-05-16T15:37:00Z"
+    },
+    {
+      "corporation_id": 98803245,
+      "start": "2025-05-16T15:37:00Z",
+      "end": "2025-06-25T16:29:00Z"
+    },
+    {
+      "corporation_id": 1000170,
+      "start": "2025-06-25T16:29:00Z",
+      "end": "2025-06-25T16:53:00Z"
+    },
+    {
+      "corporation_id": 98807415,
+      "start": "2025-06-25T16:53:00Z",
+      "end": "2025-08-19T13:45:00Z"
+    },
+    {
+      "corporation_id": 98803245,
+      "start": "2025-08-19T13:45:00Z",
+      "end": "2025-08-28T14:34:00Z"
+    },
+    {
+      "corporation_id": 98811414,
+      "start": "2025-08-28T14:34:00Z",
+      "end": null
+    }
+  ],
+  "fetched_at": "2026-11-18",
+  "person": {
+    "cn_name": "麦克EVE",
+    "aliases": [
+      "麦克"
+    ],
+    "epithet": "创业计划每天更新，老板电量逐日见底。",
+    "tags": [
+      "CEO",
+      "低安",
+      "00区",
+      "FC"
+    ],
+    "alignment": {
+      "code": "NG",
+      "note": "想让新人轻松玩，自己先把创业的苦吃满。"
+    },
+    "radar": {
+      "version": 1,
+      "reviewedAt": "2026-11-18T10:43:17Z",
+      "verdict": "教新人绕杆子，教自己别把话说死。",
+      "axes": {
+        "combat": {
+          "tier": "C",
+          "reason": "低安小船积累176次击杀、58次单杀，后来小号参加零安战斗。",
+          "sources": [
+            {
+              "label": "建团日记",
+              "url": "https://tieba.baidu.com/p/9697528989"
+            }
+          ]
+        },
+        "command": {
+          "tier": "C",
+          "reason": "亲自组织小队活动，日记记有首次泡泡堵门等带队尝试。",
+          "sources": [
+            {
+              "label": "建团日记",
+              "url": "https://tieba.baidu.com/p/9697528989"
+            }
+          ]
+        },
+        "charisma": {
+          "tier": "C",
+          "reason": "从一人招募出团队，持续写建团日记并与新人互动。",
+          "sources": [
+            {
+              "label": "建团日记",
+              "url": "https://tieba.baidu.com/p/9697528989"
+            }
+          ]
+        },
+        "politics": {
+          "tier": "D",
+          "reason": "分流骨干的方案使五月班底只剩一人，教官制度失败，后续仍建立了能自行运作的分工。",
+          "sources": [
+            {
+              "label": "建团日记",
+              "url": "https://tieba.baidu.com/p/9697528989"
+            }
+          ]
+        },
+        "wealth": {
+          "tier": "C",
+          "reason": "从卫队生产与LP收购经营起步，后期Maco1x有持续零安出勤和较高个人战损记录。",
+          "sources": [
+            {
+              "label": "Maco1x战绩总览",
+              "url": "https://zkillboard.com/character/2123699782/stats/"
+            }
+          ]
+        },
+        "shenren": {
+          "tier": "C",
+          "reason": "零利润两天改口，不去零安多轮反复，公开复盘自己的管理失误。",
+          "sources": [
+            {
+              "label": "建团日记",
+              "url": "https://tieba.baidu.com/p/9697528989"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "identity": {
+    "version": 1,
+    "alts": [
+      {
+        "id": 2123288502,
+        "name": "MacPlus",
+        "basis": "Mac同词根、创团当日同团；MacPlus随后进入MacEVE创建的Mac Corp。",
+        "sources": [
+          "materials-mac-eve.json"
+        ],
+        "zkb": {
+          "kills": 44,
+          "lost": 34,
+          "isk_destroyed": 2480000000,
+          "last_active": "2025-09",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2123215040,
+        "name": "MacPhone",
+        "basis": "Mac同词根，创建的小团由MacEVE和MacPlus先后加入，二月建号吻合运输号自述。",
+        "sources": [
+          "materials-mac-eve.json"
+        ],
+        "zkb": {
+          "kills": 0,
+          "lost": 2,
+          "isk_destroyed": 0,
+          "last_active": "2025-04",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2123699782,
+        "name": "Maco1x",
+        "basis": "Mac同词根，曾与MacEVE同属古斯塔斯舰队及Guri-Fleet。",
+        "sources": [
+          "materials-mac-eve.json"
+        ],
+        "zkb": {
+          "kills": 103,
+          "lost": 62,
+          "isk_destroyed": 63950000000,
+          "last_active": "2026-06",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
+    "accounts": {
+      "tieba": [
+        {
+          "uid": "6797798064",
+          "name": "麦克EVE",
+          "sources": [
+            "materials-mac-eve.json"
+          ]
+        }
+      ]
+    },
+    "zkb": {
+      "kills": 176,
+      "lost": 88,
+      "isk_destroyed": 7590000000,
+      "last_active": "2025-08",
+      "as_of": "2026-11-18",
+      "fc": null
+    }
+  }
+}

@@ -236,6 +236,7 @@ const CONSTRAINTS = {
     'source 不能指向本人正文；treatment 非 omitted 时 body 须指向本人正文',
     '事件的 source、body 和发挥证据须命中正文句子，不能只命中 ## 标题或 ::: 块标题行；anchors 中的 contains 可直接用',
     `heavy 事件须 treatment=expanded、verdict=sufficient；development 至少三个不同方向，取自 ${ANGLES.join('、')}，含反差及分量或反应与后果，每条 evidence 指向本人正文`,
+    'heavy 事件须在 invented 登记至少两处素材里没有、为本块编出的经过、场面、台词或心思，各定位一句不同的正文；原样出现在素材里的句子不算；正文只有素材转述加点评时记 needs-work',
   ],
 };
 const pendingError = feature => new Error(`${feature.name} 的规则或实现已改动但未声明：收紧用 accept --feature ${feature.name} --change tighten（旧结论失效），放宽或措辞调整用 --change relax`);
@@ -331,6 +332,17 @@ function validateWriting(root, record, assessment) {
       anchor(item.evidence, true, `${where}.development[${j}].evidence`);
     });
     if (angles.size < 3 || !angles.has('反差') || !(angles.has('分量') || angles.has('反应与后果'))) throw new Error(`${where}：重料须至少三个发挥方向，含反差及分量或反应与后果`);
+    // Invented detail is the point of a heavy block; a sentence found verbatim in the sources is retelling, not invention.
+    const invented = event.invented, sourceText = [event.source.file, record.material].filter(Boolean).map(file => documentText(root, safeFile(root, file))).join('\n'), seen = new Set();
+    if (!Array.isArray(invented) || invented.length < 2) throw new Error(`${where}：重料须在 invented 登记至少两处素材里没有、为本块编出的经过、场面、台词或心思；找不出就是没发挥，记 needs-work`);
+    invented.forEach((item, j) => {
+      const at = `${where}.invented[${j}]`;
+      if (!nonempty(item?.note) || !nonempty(item?.evidence?.contains)) throw new Error(`${at}：须写明编了什么，并用 contains 定位正文句子`);
+      if (seen.has(item.evidence.contains)) throw new Error(`${at}：编出的细节不能重复登记同一句`);
+      seen.add(item.evidence.contains);
+      anchor(item.evidence, true, `${at}.evidence`);
+      if (sourceText.includes(item.evidence.contains.trim())) throw new Error(`${at}：这句在素材或来源里原样出现，是转述不是编写`);
+    });
   });
   return files;
 }
@@ -501,7 +513,7 @@ export function run(root, args, suppliedRecords) {
       ...(receipt && receipt.level < feature.level ? { ruleTightened: true } : {}),
       brokenEvidence: previous || existing ? brokenEvidence(root, assessment) : [],
       constraints: [...CONSTRAINTS.common, ...(feature.eventReview ? CONSTRAINTS.writing : CONSTRAINTS.checks)], checks: feature.checks,
-      ...(feature.eventReview ? { eventShape: { title: '', weight: 'heavy|ordinary|light', reason: '', source: { file: '素材或来源', heading: '或 contains' }, treatment: 'expanded|brief|omitted', body: { file: record.body, contains: '' }, development: [{ angle: ANGLES.join('|'), note: '', evidence: { file: record.body, contains: '' } }], verdict: 'sufficient', note: '' } } : {}),
+      ...(feature.eventReview ? { eventShape: { title: '', weight: 'heavy|ordinary|light', reason: '', source: { file: '素材或来源', heading: '或 contains' }, treatment: 'expanded|brief|omitted', body: { file: record.body, contains: '' }, development: [{ angle: ANGLES.join('|'), note: '', evidence: { file: record.body, contains: '' } }], invented: [{ note: '编了什么', evidence: { file: record.body, contains: '' } }], verdict: 'sufficient', note: '' } } : {}),
       next: `npm run review -- mark ${record.key} --feature ${feature.name} --status reviewed --note 总结 --evidence ${record.material ?? record.body}${out === draftFile(feature, record) ? '' : ` --assessment ${out}`}`,
       warning: '状态已清空；逐项核读后填写。锚点只保证能定位，不代表已核读或可直接采用。',
       ...(options.anchors === 'no' ? {} : { sharedSources: record.sources.filter(file => file !== record.material),

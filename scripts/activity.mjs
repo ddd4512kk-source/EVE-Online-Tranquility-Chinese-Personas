@@ -165,22 +165,25 @@ export const corpUnwritten = body => String(body ?? '').trim() === CORP_PLACEHOL
 const within = (date, asOf, months) => Boolean(date && asOf) && monthsBetween(date, asOf) <= months;
 
 // 招新群号：简介、三年内招新帖，或已核实归属的 B 站 EVE 视频简介／回复。
-export const corpRecruitQq = ({ zkb, recruitment, esi } = {}) => esi?.qq
-  || (within(recruitment?.last_seen, zkb?.as_of, RECRUIT_POST_MONTHS) && recruitment?.qq)
-  || '';
+export const corpRecruitQq = ({ corp, zkb, recruitment, esi } = {}) => {
+  if (corp?.recruitment_closed) return '';
+  return esi?.qq
+    || (within(recruitment?.last_seen, zkb?.as_of, RECRUIT_POST_MONTHS) && recruitment?.qq)
+    || '';
+};
 
 // 军团：招新活动或 zKB 任一近期有动静即活跃；一年内发布或有人回复的招新帖直接算招新；旧证据则需有招新群号，且今年某月上 KB 的驾驶员超过 10 人。last_seen 包括招新帖近期回复或带该团群号的 B 站视频简介／回复日期；ESI 在册人数不超过 20 的军团，KB 不算活跃（活人太少视同沉寂）。
 export const corpHasEnoughMembers = esi => !(esi?.member_count < CORP_MIN_MEMBERS);
 
-export function corpStatus({ zkb, recruitment, esi, pilots } = {}) {
+export function corpStatus({ corp, zkb, recruitment, esi, pilots } = {}) {
   const lastActive = zkb?.last_active ?? '';
   const asOf = zkb?.as_of ?? '';
   const lastSeen = recruitment?.last_seen ?? '';
   const kbActive = within(lastActive, asOf, ACTIVE_MONTHS) && corpHasEnoughMembers(esi);
   const pilotsThisYear = pilots?.year === Number(asOf.slice(0, 4)) && pilots.peak > RECRUIT_MIN_PILOTS;
   const freshPost = within(lastSeen, asOf, RECRUIT_FRESH_POST_MONTHS);
-  const recruiting = Boolean(corpRecruitQq({ zkb, recruitment, esi })) && (freshPost || pilotsThisYear);
-  const active = recruiting || kbActive || within(lastSeen, asOf, ACTIVE_MONTHS);
+  const recruiting = Boolean(corpRecruitQq({ corp, zkb, recruitment, esi })) && (freshPost || pilotsThisYear);
+  const active = recruiting || kbActive || (!corp?.recruitment_closed && within(lastSeen, asOf, ACTIVE_MONTHS));
   return {
     state: active ? 'active' : 'dormant',
     recruiting,

@@ -29,6 +29,8 @@
 | `npm run instructions:check` | 递归核对目录指令、技能副本、本地引用和体积 |
 | `npm run instructions:sync` | 从 AGENTS 与 .agents 技能源生成对应副本，不删除多余文件 |
 | `npm run lint` | 全仓 JavaScript 检查，冻结的旧格式差异按基线处理 |
+| `npm run news -- <official\|add\|import\|check>` | 天书：照录官网中文版、写入本站译文、批量导入或校验 `src/news/`；流程见 `add-news` 技能 |
+| GitHub Actions「天书每小时收录」 | 订阅新闻、增量翻译补丁说明并发布，配置见[天书自动收录](news-automation.md) |
 
 刷新全部数据耗时较长，执行前先说明；定点刷新用 `npm run fetch -- --refresh <ID>`。
 

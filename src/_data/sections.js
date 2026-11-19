@@ -4,4 +4,5 @@ export default [
   { name: '列传', url: '/', collection: 'people', accent: 'gold' },
   { name: '战役', url: '/battles/', collection: 'battles', accent: 'blue' },
   { name: '军团', url: '/corps/', collection: 'corps', accent: 'zhu' },
+  { name: '天书', url: '/news/', collection: 'news', accent: 'tianshu' },
 ];

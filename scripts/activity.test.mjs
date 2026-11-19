@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { activityText, combatText, corpAllianceChips, corpBattles, corpKey, corpMembers, corpStatus, corpZoneChips, corpZones, corpsOfPerson, decodeCorpDescription, describesInviteOnly, qqGroupFromDescription, describesRecruiting, groupCorps, killCount, personActivity, personCombat, personStatusTags, personUpzhu, statusChips, upzhuText, zoneKeysFromLabels } from './activity.mjs';
+import { activityText, combatText, corpAllianceChips, corpBattles, corpKey, corpMembers, corpRecruitQq, corpStatus, corpZoneChips, corpZones, corpsOfPerson, decodeCorpDescription, describesInviteOnly, qqGroupFromDescription, describesRecruiting, groupCorps, killCount, personActivity, personCombat, personStatusTags, personUpzhu, statusChips, upzhuText, zoneKeysFromLabels } from './activity.mjs';
 
 const zkb = (last_active, as_of = '2026-11-05') => ({ kills: 1, lost: 1, isk_destroyed: 1, last_active, as_of });
 
@@ -106,6 +106,18 @@ test('招新要有群号；一年内的帖子直接算，更老的帖子还要�
   assert.equal(describesInviteOnly('Recruitment: Vouch Only'), true);
   assert.equal(describesInviteOnly('[CN OPEN] | [EN Vouch only]'), false);
   assert.equal(describesInviteOnly('常年招新'), false);
+});
+
+test('停招后旧帖子、群号和驾驶员记录不再触发招新', () => {
+  const archive = {
+    corp: { recruitment_closed: true },
+    esi: { open_recruiting: true, qq: '123456' },
+    recruitment: { last_seen: '2026-11-01', qq: '654321' },
+    pilots: { year: 2026, peak: 50 },
+  };
+  assert.equal(corpStatus({ ...archive, zkb: zkb('2026-11') }).group, 'active');
+  assert.equal(corpStatus({ ...archive, zkb: zkb('2025-11') }).group, 'dormant');
+  assert.equal(corpRecruitQq({ ...archive, zkb: zkb('2026-11') }), '');
 });
 
 test('没有招新条件时按 KB 与新帖判断活跃', () => {

@@ -70,11 +70,11 @@ const readExcluded = root => {
 };
 
 // 门槛：有招新帖、有现任列传人物且活人够、活跃，占一条即可写；一条都没有不写。曾在团的人不算。
-export function gateReasons({ recruitment, zkb, esi }, currentPeople) {
+export function gateReasons({ corp, recruitment, zkb, esi }, currentPeople) {
   const reasons = [];
   if (recruitment) reasons.push('招新帖');
   if (currentPeople > 0 && corpHasEnoughMembers(esi)) reasons.push('现任列传人物');
-  if (corpStatus({ zkb, recruitment, esi }).state === 'active') reasons.push('活跃');
+  if (corpStatus({ corp, zkb, recruitment, esi }).state === 'active') reasons.push('活跃');
   return reasons;
 }
 

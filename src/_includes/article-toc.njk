@@ -1,0 +1,19 @@
+{% if art and art.hasToc %}
+<aside class="article-toc" aria-label="本文目录" data-pagefind-ignore>
+  <details class="toc-box">
+    <summary class="toc-summary">
+      <span class="toc-title">目录</span>
+      <span class="toc-count">{{ art.toc.length }} 节</span>
+    </summary>
+    <nav class="toc-nav" aria-label="章节导航">
+      <ol class="toc-list">
+        {%- for item in art.toc %}
+        <li class="toc-item{% if item.indent %} is-sub{% endif %}{% if item.badge %} toc-badge-{{ item.badge }}{% endif %}">
+          <a href="#{{ item.id }}">{% if item.badge %}<span class="toc-dot" aria-hidden="true"></span>{% endif %}<span>{{ item.text }}</span></a>
+        </li>
+        {%- endfor %}
+      </ol>
+    </nav>
+  </details>
+</aside>
+{% endif %}

@@ -75,7 +75,7 @@ export function focusMatcher(filters) {
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function getJson(href, init) {
   for (let attempt = 0; attempt < 4; attempt++) {
-    const response = await fetch(href, { ...init, headers: { 'User-Agent': 'EVE-Online-Tranquility-Chinese-Personas research', 'Accept-Encoding': 'gzip', ...init?.headers }, signal: AbortSignal.timeout(30000) });
+    const response = await fetch(href, { ...init, headers: { 'User-Agent': 'CEVE-History research', 'Accept-Encoding': 'gzip', ...init?.headers }, signal: AbortSignal.timeout(30000) });
     if (response.ok) return response.json();
     if (response.status !== 429 && response.status < 500) throw new Error(`${href} ${response.status}`);
     await sleep(2000 * (attempt + 1));

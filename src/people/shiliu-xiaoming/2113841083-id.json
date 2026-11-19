@@ -83,22 +83,57 @@
   "fetched_at": "2026-10-08",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2115492705,
+        "name": "16 Puhkastu",
+        "basis": "名片头衔“16”、命名含“16”，且当前与收录号同属 Infinity Avenger（98556933）及 Snuffed Out 联盟。",
+        "sources": [
+          "materials-shiliu-xiaoming.json",
+          "https://esi.evetech.net/latest/characters/2115492705/",
+          "https://evewho.com/character/2115492705"
+        ],
+        "zkb": {
+          "kills": 184,
+          "lost": 13,
+          "isk_destroyed": 4476674671911,
+          "last_active": "2025-06",
+          "as_of": "2026-11-19",
+          "fc": null
+        }
+      },
+      {
+        "id": 2113840779,
+        "name": "sixteen lu",
+        "basis": "与收录号同日（2018-02-24）建号、共享军团履历（98527922、98578820、98556933），且命名含“sixteen”。",
+        "sources": [
+          "materials-shiliu-xiaoming.json",
+          "https://esi.evetech.net/latest/characters/2113840779/",
+          "https://evewho.com/character/2113840779"
+        ],
+        "zkb": {
+          "kills": 385,
+          "lost": 30,
+          "isk_destroyed": 2331232123423,
+          "last_active": "2024-06",
+          "as_of": "2026-11-19",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 7301,
       "lost": 227,
-      "isk_destroyed": 13943817918662,
+      "isk_destroyed": 13943817918675,
       "last_active": "2026-06",
-      "as_of": "2026-10-23"
+      "as_of": "2026-11-19",
+      "fc": null
     }
   },
   "person": {
     "cn_name": "十六",
-    "aliases": [
-      "16 Puhkastu",
-      "sixteen lu"
-    ],
+    "aliases": [],
     "epithet": "简介先放狠话，战绩倒是真不少。",
     "tags": [
       "低安",

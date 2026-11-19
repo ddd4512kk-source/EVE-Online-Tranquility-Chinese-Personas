@@ -24,7 +24,7 @@ const ESI = "https://esi.evetech.net/latest";
 const EVEWHO = "https://evewho.com/api";
 const IMAGES = "https://images.evetech.net";
 const USER_AGENT =
-  "EVE-Online-Tranquility-Chinese-Personas (+https://github.com/ddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas)";
+  'CEVE-History (+https://github.com/mrd-e/CEVE-History)';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

@@ -14,6 +14,7 @@
 | `src/people/` | [列传](../src/people/AGENTS.md)：人物档案与写作入口 |
 | `src/battles/` | [战役](../src/battles/AGENTS.md)：战役归档与分方入口 |
 | `src/corps/` | [军团](../src/corps/AGENTS.md)：军团正面历史与快照入口；流程在 `add-corp` 技能 |
+| `src/news/` | [天书](../src/news/AGENTS.md)：官方新闻中文版；流程在 `add-news` 技能 |
 | `src/_data/` | [公共数据](../src/_data/AGENTS.md)：名称、身份与全局计算 |
 | `src/_includes/` | [模板](../src/_includes/AGENTS.md)：共享呈现与互链 |
 | `src/assets/` | [前端资源](../src/assets/AGENTS.md)：样式、交互与生成资产 |

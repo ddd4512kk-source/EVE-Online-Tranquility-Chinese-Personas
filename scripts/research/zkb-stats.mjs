@@ -16,7 +16,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function stats(id) {
   for (let t = 0; t < 3; t++) {
     try {
-      const r = await fetch(`https://zkillboard.com/api/stats/characterID/${id}/`, { headers: { 'User-Agent': 'EVE-Online-Tranquility-Chinese-Personas research' }, redirect: 'follow' });
+      const r = await fetch(`https://zkillboard.com/api/stats/characterID/${id}/`, { headers: { 'User-Agent': 'CEVE-History research' }, redirect: 'follow' });
       const s = JSON.parse(await r.text());
       const months = Object.keys(s?.months ?? {}).sort();
       const fc = s?.fc ? {

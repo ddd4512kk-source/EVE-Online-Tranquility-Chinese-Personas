@@ -33,7 +33,42 @@
   "fetched_at": "2026-10-12",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 2116383090,
+        "name": "Yoluhaluka G",
+        "basis": "同军团（98550682(Stardust-Guardian)），游戏内头衔“GA逍遥”（超级航母驾驶员）",
+        "sources": [
+          "materials-yoluhaluka-ga.json",
+          "https://evewho.com/character/2116383090"
+        ],
+        "zkb": {
+          "kills": 539,
+          "lost": 48,
+          "isk_destroyed": 938696017319,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2118985460,
+        "name": "Yoluhaluka DT",
+        "basis": "同军团（98550682(Stardust-Guardian)），游戏内头衔“GA逍遥”（泰坦驾驶员）",
+        "sources": [
+          "materials-yoluhaluka-ga.json",
+          "https://evewho.com/character/2118985460"
+        ],
+        "zkb": {
+          "kills": 82,
+          "lost": 6,
+          "isk_destroyed": 3007668665906,
+          "last_active": "2026-10",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 3993,
@@ -53,7 +88,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-15T10:53:27Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "纲领写得很齐，盟主还想知道谁喊的跳。",
       "axes": {
         "shenren": {
@@ -67,8 +102,8 @@
           ]
         },
         "combat": {
-          "tier": "B",
-          "reason": "近四千击杀、恶狼与多种常规职责稳定。",
+          "tier": "A",
+          "reason": "主小号累计 4,614 杀、9.26 万亿 ISK 击毁，包含确认泰坦号 Yoluhaluka DT（3.01 万亿）与超航号 Yoluhaluka G 实战，由 B 升 A。",
           "sources": [
             {
               "label": "Yoluhaluka GA zKillboard",
@@ -107,8 +142,8 @@
           ]
         },
         "wealth": {
-          "tier": "D",
-          "reason": "常规出勤战备不能从纪律口号推成产业。",
+          "tier": "B",
+          "reason": "名下确认拥有泰坦小号 Yoluhaluka DT 及超级航母小号 Yoluhaluka G，按泰坦参战保底由 D 升 B。",
           "sources": [
             {
               "label": "Yoluhaluka GA zKillboard",

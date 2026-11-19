@@ -83,7 +83,25 @@
   "fetched_at": "2026-10-08",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 91601911,
+        "name": "Panda chn",
+        "basis": "同军团（98575144(Phoenix City)），游戏内头衔“连山”（泰坦驾驶员）",
+        "sources": [
+          "materials-sword-sun.json",
+          "https://evewho.com/character/91601911"
+        ],
+        "zkb": {
+          "kills": 162,
+          "lost": 14,
+          "isk_destroyed": 2994638637627,
+          "last_active": "2026-04",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 3824,
@@ -107,7 +125,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "修史记千秋兴亡，立规管眼前是非。",
       "axes": {
         "shenren": {
@@ -169,8 +187,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "自备主力与重巡战备充裕，未入大亨名单或运营高门槛产业，史官与吧主身份不计入搞钱。",
+          "tier": "B",
+          "reason": "名下确认拥有泰坦小号 Panda chn 参战（2.99 万亿 ISK 毁伤），按单泰坦保底由 C 升 B。",
           "sources": [
             {
               "label": "Sword Sun zKillboard",

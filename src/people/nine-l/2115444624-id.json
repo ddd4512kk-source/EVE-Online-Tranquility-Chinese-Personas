@@ -116,7 +116,15 @@
         "sources": [
           "materials-nine-l.json#头衔小号查漏-2026-11-13",
           "https://esi.evetech.net/latest/characters/2121803366/"
-        ]
+        ],
+        "zkb": {
+          "kills": 858,
+          "lost": 175,
+          "isk_destroyed": 1538127431111,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
       },
       {
         "id": 2121803423,
@@ -125,7 +133,49 @@
         "sources": [
           "materials-nine-l.json#头衔小号查漏-2026-11-13",
           "https://esi.evetech.net/latest/characters/2121803423/"
-        ]
+        ],
+        "zkb": {
+          "kills": 387,
+          "lost": 25,
+          "isk_destroyed": 555396689584,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2119980180,
+        "name": "Nine -Le",
+        "basis": "同军团（98524084(Chi Gua)），游戏内头衔“老九 ALT”（超级航母驾驶员）",
+        "sources": [
+          "materials-nine-l.json",
+          "https://evewho.com/character/2119980180"
+        ],
+        "zkb": {
+          "kills": 3,
+          "lost": 28,
+          "isk_destroyed": 6444154460,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      },
+      {
+        "id": 2121803120,
+        "name": "Nine -1",
+        "basis": "同军团（98524084(Chi Gua)），游戏内头衔“老九 ALT”（泰坦驾驶员）",
+        "sources": [
+          "materials-nine-l.json",
+          "https://evewho.com/character/2121803120"
+        ],
+        "zkb": {
+          "kills": 353,
+          "lost": 23,
+          "isk_destroyed": 2486601388081,
+          "last_active": "2026-11",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
       }
     ],
     "accounts": {},
@@ -149,7 +199,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T09:05:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "泡泡留人，规矩也想把人留住。",
       "axes": {
         "shenren": {
@@ -203,8 +253,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "现有常规战备与管理记录只支持资源有余。",
+          "tier": "B",
+          "reason": "名下确认拥有泰坦小号 Nine -1 与超航小号 Nine -Le 参战，按单泰坦保底由 C 升 B。",
           "sources": [
             {
               "label": "Nine L zKillboard",

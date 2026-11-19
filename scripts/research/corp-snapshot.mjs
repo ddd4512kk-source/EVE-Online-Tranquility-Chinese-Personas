@@ -20,7 +20,7 @@ const slugs = args.includes('--all')
 const today = new Date().toISOString().slice(0, 10);
 // 每家最多 4 次请求：军团、CEO、联盟、zKB。
 const request = createRequestGuard({ limit: slugs.length * 4 });
-const headers = { 'User-Agent': 'EVE-Online-Tranquility-Chinese-Personas research' };
+const headers = { 'User-Agent': 'CEVE-History research' };
 
 async function json(url) {
   const response = await request(url, { headers });

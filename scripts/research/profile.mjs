@@ -20,7 +20,7 @@ if (!id) {
   console.error("用法：node scripts/research/profile.mjs <角色ID> [论坛用户名]");
   process.exit(1);
 }
-const UA = { "User-Agent": "eve-personas-research (github.com/ddd4512kk-source)" };
+const UA = { 'User-Agent': 'eve-personas-research (github.com/mrd-e/CEVE-History)' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const responseCache = new Map();
 async function json(url, opts = {}) {

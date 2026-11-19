@@ -1,0 +1,42 @@
+---
+layout: base.njk
+bodyClass: page-news
+---
+{%- set prev = collections.news | getPreviousCollectionItem(page) -%}
+{%- set next = collections.news | getNextCollectionItem(page) -%}
+{%- set rendered = content | newsDayAnchors -%}
+{%- set art = rendered | prepareArticle({ kind: 'news', toc: toc, tocDepth: tocDepth }) -%}
+<div class="article-frame{% if art.hasToc %} has-toc{% endif %}">
+  {% set backHref = "/news/" %}{% set backLabel = "天书" %}{% include "back.njk" %}
+
+  <article class="bio news{% if art.hasToc %} has-toc{% endif %}" data-pagefind-body data-pagefind-filter="板块:天书">
+    <header class="news-head">
+      <p class="news-meta">
+        <a class="news-cat news-cat-{{ newsCat.key }}" href="{{ '/news/' | url }}?t={{ newsCat.key }}" title="{{ newsCat.hint }}">{{ newsCat.name }}</a>
+        <time datetime="{{ published }}">{{ published }}</time>
+        <span class="news-origin">{{ translationLabel }}</span>
+      </p>
+      <h1 class="news-title">{{ title }}</h1>
+      <p class="news-title-en" lang="en">{{ titleEn }}</p>
+      <p class="news-links" data-pagefind-ignore>
+        <a href="{{ source }}" target="_blank" rel="noopener noreferrer">官网英文原文 ↗</a>
+        {%- if sourceZh %} · <a href="{{ sourceZh }}" target="_blank" rel="noopener noreferrer">官网中文版 ↗</a>{% endif %}
+      </p>
+    </header>
+
+    {% include "article-toc.njk" %}
+
+    <div class="prose news-prose">
+      {{ art.html | safe }}
+    </div>
+
+    <p class="news-credit" data-pagefind-ignore>原文与图片版权归 CCP Games 所有。{% if translation == "official" %}本页转载自官网中文版。{% else %}本页由本站据英文原文翻译，以官网英文原文为准。{% endif %}</p>
+  </article>
+
+  <nav class="pager" aria-label="按发布时间翻页" data-pagefind-ignore>
+    {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>较新一卷</small>{{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+    <a class="pager-random" href="{{ '/news/' | url }}">目录</a>
+    {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>较早一卷</small>{{ next.data.title }}</a>{% else %}<span></span>{% endif %}
+  </nav>
+</div>
+{% if art.hasToc or art.hasTabs %}<script src="{{ '/assets/js/article-ui.js' | url }}?v={{ site.build }}" defer></script>{% endif %}

@@ -38,7 +38,25 @@
   "fetched_at": "2026-10-07",
   "identity": {
     "version": 1,
-    "alts": [],
+    "alts": [
+      {
+        "id": 96170789,
+        "name": "Meta Totient",
+        "basis": "同军团（98556933(Infinity Avenger)、98389944(Tai-Chi)），游戏内头衔“储葛亮”（泰坦驾驶员）",
+        "sources": [
+          "materials-veritas-totient.json",
+          "https://evewho.com/character/96170789"
+        ],
+        "zkb": {
+          "kills": 552,
+          "lost": 20,
+          "isk_destroyed": 4376978050025,
+          "last_active": "2026-04",
+          "as_of": "2026-11-18",
+          "fc": null
+        }
+      }
+    ],
     "accounts": {},
     "zkb": {
       "kills": 6602,
@@ -59,7 +77,7 @@
     ],
     "radar": {
       "version": 1,
-      "reviewedAt": "2026-11-14T08:14:00Z",
+      "reviewedAt": "2026-11-18T12:20:00Z",
       "verdict": "论坛和语音先搭好，低安海盗掌生杀；九万亿战果，以德服人。",
       "axes": {
         "shenren": {
@@ -113,8 +131,8 @@
           ]
         },
         "wealth": {
-          "tier": "C",
-          "reason": "仅单一角色在 AVDOT 驾驶马克瑞等战列巡洋累计 6,600 余杀但十年总损失仅约 250 亿 ISK；AVDOT 核心总监（曾垫资借款后已收回）及早年坛友 CDN/翻译属组织公职非巨额私产，降为 C。",
+          "tier": "B",
+          "reason": "名下确认拥有泰坦小号 Meta Totient 参战（4.38 万亿 ISK 毁伤），按单泰坦保底由 C 升 B。",
           "sources": [
             {
               "label": "Veritas Totient zKillboard",

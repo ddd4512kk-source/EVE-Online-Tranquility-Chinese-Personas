@@ -1,0 +1,61 @@
+---
+layout: base.njk
+permalink: /news/
+pageTitle: 天书
+pageDescription: EVE Online 官方新闻中文版：补丁说明、资料片前瞻、游戏内活动与商城促销。
+bodyClass: page-news-index
+---
+{%- set items = collections.newsCards -%}
+<section class="intro news-intro">
+  <h1>天书</h1>
+  <p>冰岛 CCP 降下的天书，宁静服克隆飞行员捧在手里也未必读得懂。补丁说明、资料片前瞻、游戏内活动、商城告示一并收录：官网有中文版的照录，没有的本站代译。共 <strong>{{ items.length }}</strong> 卷。</p>
+</section>
+
+<div class="news-layout">
+  <aside class="news-side" aria-label="筛选">
+    <div class="toolbar" role="search">
+      <input id="filter" type="search" placeholder="搜索新闻" autocomplete="off" aria-label="按中英文标题或摘要筛选新闻">
+    </div>
+    <div class="news-side-group">
+      <span class="news-side-heading" id="news-cat-heading">分类<small>点击取消或恢复</small></span>
+      <nav class="tag-bar" id="news-cats" aria-labelledby="news-cat-heading">
+        {%- for c in newsCategories %}
+        <button type="button" class="chip is-active news-chip-{{ c.key }}" data-cat="{{ c.key }}" title="{{ c.hint }}" aria-pressed="true">{{ c.name }}<small>{{ items | newsCount(c.key) }}</small></button>
+        {%- endfor %}
+      </nav>
+    </div>
+    <nav class="news-side-group news-years" aria-labelledby="news-year-heading">
+      <span class="news-side-heading" id="news-year-heading">年份</span>
+      <span class="news-year-links">
+        {%- for y, group in items | groupby("year") | dictsort | reverse %}
+        <a href="#y{{ y }}" data-year="{{ y }}">{{ y }}<small>{{ group.length }}</small></a>
+        {%- endfor %}
+      </span>
+    </nav>
+    <p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
+  </aside>
+
+  <div id="news-list" class="news-feed">
+  {%- set lastMonth = "" -%}{%- set lastYear = "" -%}
+  {%- for n in items %}
+    {%- if n.month != lastMonth %}{% set lastMonth = n.month %}
+    <h2 class="news-month" data-month="{{ n.month }}"{% if n.year != lastYear %}{% set lastYear = n.year %} id="y{{ n.year }}"{% endif %}><span class="news-month-n">{{ n.month.slice(5) | int }}月</span><span class="news-month-y">{{ n.year }}</span></h2>
+    {%- endif %}
+    <a class="news-entry news-cat-{{ n.cat.key }} {{ 'news-entry-day' if n.day else 'news-entry-feature' }}" href="{{ n.url | url }}" data-cat="{{ n.cat.key }}" data-month="{{ n.month }}" data-key="{{ n.key }}">
+      <time class="news-when" datetime="{{ n.date }}">{{ n.date.slice(8) }}</time>
+      <span class="news-entry-box">
+        {%- if n.cover %}
+        <img class="news-entry-cover" src="{{ n.cover | ctfImage(480) }}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+        {%- endif %}
+        <span class="news-entry-body">
+          <strong class="news-entry-title">{{ n.title }}</strong>
+          {%- if not n.day %}<span class="news-entry-en" lang="en">{{ n.titleEn }}</span>{% endif %}
+          {%- if n.excerpt %}<span class="news-entry-excerpt">{{ n.excerpt }}</span>{% endif %}
+        </span>
+      </span>
+    </a>
+  {%- endfor %}
+  </div>
+</div>
+
+<script type="module" src="{{ '/assets/js/news.js' | url }}?v={{ site.build }}"></script>

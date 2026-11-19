@@ -209,7 +209,7 @@ export async function collectCombat(root, roster, database, { request, save, now
     const url = `${API}${id}/`;
     try {
       requested++;
-      const response = await request(url, { headers: { 'User-Agent': 'EVE-Online-Tranquility-Chinese-Personas/1.0 research', 'Accept-Encoding': 'gzip' }, signal: AbortSignal.timeout(30000) });
+      const response = await request(url, { headers: { 'User-Agent': 'CEVE-History/1.0 research', 'Accept-Encoding': 'gzip' }, signal: AbortSignal.timeout(30000) });
       if (!response.ok) throw new Error(`HTTP ${response.status}：${url}`);
       const raw = await response.json();
       const stats = normalizeCombatStats(raw, id);

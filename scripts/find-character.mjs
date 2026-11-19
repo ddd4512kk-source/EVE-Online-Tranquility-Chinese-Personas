@@ -12,7 +12,7 @@ import { readPersonDocument } from "./person-document.mjs";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PEOPLE_DIR = path.join(ROOT, "src/people");
 const USER_AGENT =
-  "EVE-Online-Tranquility-Chinese-Personas (+https://github.com/ddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas)";
+  'CEVE-History (+https://github.com/mrd-e/CEVE-History)';
 
 const input = process.argv.slice(2).join(" ").trim();
 if (!input) {

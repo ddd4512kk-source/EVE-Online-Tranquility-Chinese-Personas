@@ -351,6 +351,7 @@ function writingChecks(t) {
     events: { status: 'reviewed', note: '逐事件对照', evidence: [{ file: body, contains: '原本带队' }], items: [{
       title: '封号取消活动', weight: 'heavy', reason: '改变总监带队能力', source: { file: 'docs/sources/extra.md', heading: '## 通知' }, treatment: 'expanded', body: { file: body, contains: '原本带队' },
       development: [['处境', '原本带队'], ['反差', '好战的名片'], ['反应与后果', '群员追问']].map(([angle, contains]) => ({ angle, note: `展开${angle}`, evidence: { file: body, contains } })),
+      invented: [['名片与账号的对照', '好战的名片'], ['群员追问的场面', '群员追问']].map(([note, contains]) => ({ note, evidence: { file: body, contains } })),
       verdict: 'sufficient', note: '通知到反差再到群员反应，各段有推进，无剩余关键情节',
     }] },
     balance: { status: 'reviewed', note: '重事成为正文主线', evidence: [{ file: body, contains: '好战的名片' }] },
@@ -369,6 +370,21 @@ test('writing review is independent of combat and cannot pass on word count or a
   s.put(s.body, '很长的文章。'.repeat(2000));
   assert.throws(() => s.call('mark', 'person:demo', '--feature', 'writing-depth', '--status', 'reviewed', '--note', '写了很多字', '--evidence', s.material), /缺少已完成的复查项/);
   assert.equal(s.call('list', '--feature', 'writing-depth', '--signal', 'heavy-story-candidate').records[0].key, 'person:demo');
+});
+
+test('heavy events must register invented detail that is not a verbatim retelling of the sources', t => {
+  const s = writingChecks(t), event = s.assessment.events.items[0], invented = event.invented;
+  delete event.invented;
+  assert.throws(s.mark, /invented/);
+  event.invented = [invented[0]];
+  assert.throws(s.mark, /至少两处/);
+  event.invented = [invented[0], invented[0]];
+  assert.throws(s.mark, /重复/);
+  s.put(s.body, '::: 黑料 封号\n原本带队的总监宣布活动取消。\n好战的名片对上进不去游戏的账号。\n群员追问军团未来。\n今晚活动取消\n:::\n');
+  event.invented = [invented[0], { note: '照抄通知', evidence: { file: s.body, contains: '今晚活动取消' } }];
+  assert.throws(s.mark, /原样出现/);
+  event.invented = invented;
+  s.mark();
 });
 
 test('writing review rejects missing inventory, brief or omitted heavy events, and repeated development', t => {

@@ -1,0 +1,68 @@
+name: 天书每小时收录
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_translation:
+        description: '仅用一段样文测试订阅、翻译与独立复核'
+        type: boolean
+        default: false
+
+concurrency:
+  group: news-hourly
+  cancel-in-progress: false
+
+jobs:
+  news:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/checkout@v4
+        with:
+          repository: mrd-e/EVE-Online-Translation-Framework
+          ref: 889bea642d0729cfc4eafcec3c614cd3afebac7b
+          token: ${{ secrets.TRANSLATOR_READ_TOKEN }}
+          persist-credentials: false
+          path: translator
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 检查订阅并保存待办
+        id: scan
+        if: inputs.test_translation != true
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/ci-news/sync.py scan
+          echo "pending=$(python -c 'import json; print(len(json.load(open(".github/news-state.json"))["pending"]))')" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v4
+        if: steps.scan.outcome == 'success' && steps.scan.outputs.pending != '0'
+        with:
+          node-version: 22
+          cache: npm
+      - if: steps.scan.outcome == 'success' && steps.scan.outputs.pending != '0'
+        run: npm ci
+      - name: 翻译、独立复核并推送成稿
+        if: steps.scan.outcome == 'success' && steps.scan.outputs.pending != '0'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python scripts/ci-news/sync.py publish
+      - name: 测试订阅与翻译复核
+        if: inputs.test_translation == true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python scripts/ci-news/sync.py smoke
+      - name: 发布已推送的文章
+        if: always() && steps.scan.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/ci-news/sync.py deploy
