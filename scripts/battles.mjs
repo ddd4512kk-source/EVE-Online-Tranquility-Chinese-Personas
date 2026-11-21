@@ -266,7 +266,7 @@ export const FIELDS = {
   title: '必填，战役名',
   aliases: '可选，别名列表',
   videos: '可选，最多 8 个相关 B站／YouTube 视频，每项 { title, url, author, description }',
-  cover: '可选，战役头图取哪个视频的封面：videos 中的网址；头图存 src/assets/emblems/cover-<短名>.webp',
+  cover: '有 videos 时必填，战役头图取哪个视频的封面：videos 中的网址；头图存 src/assets/emblems/cover-<短名>.webp',
   coverEdit: '可选，需有 cover：抹掉封面原有大字并写入自己的文字，{ erase: [[x,y,宽,高]…]（原图像素）, lines: [{ text, size, x, y }…] }；图内文字不得重复页面标题和副标题',
   epithet: '可选，一句话锐评',
   start: '必填，开打日期（UTC），YYYY-MM-DD',
@@ -350,6 +350,7 @@ export function validateBattle(data, body, lineOffset, people) {
   }
 
   if (data.coverEdit != null) errs.push(...coverEditErrors(data));
+  if (Array.isArray(data.videos) && data.videos.length > 0 && data.cover == null) errs.push('有 videos 的战役必须配置 cover（取自本场 videos 中的网址）');
   if (data.cover != null && !(Array.isArray(data.videos) && data.videos.some(v => v?.url === data.cover))) errs.push('cover 必须是本场 videos 中的网址');
 
   const start = toYmd(data.start);

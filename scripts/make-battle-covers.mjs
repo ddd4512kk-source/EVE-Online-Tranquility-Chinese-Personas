@@ -19,8 +19,25 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 const videoIdOf = url => url.match(/BV[0-9A-Za-z]{10}/)?.[0] ?? new URL(url).searchParams.get('v');
 
+async function cachedBilibiliPic(id) {
+  const dir = path.join(root, '.cache/bilibili');
+  let entries;
+  try { entries = await readdir(dir); } catch { return null; }
+  for (const name of entries) {
+    if (!name.endsWith('.json')) continue;
+    let data;
+    try { data = JSON.parse(await readFile(path.join(dir, name), 'utf8')); } catch { continue; }
+    if (data?.bvid === id && data?.pic) return data.pic;
+    const hit = data?.archives?.find?.(a => a?.bvid === id && a?.pic);
+    if (hit) return hit.pic;
+  }
+  return null;
+}
+
 async function coverUrls(id) {
   if (!id.startsWith('BV')) return [`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`, `https://i.ytimg.com/vi/${id}/hqdefault.jpg`];
+  const cached = await cachedBilibiliPic(id);
+  if (cached) return [cached.replace(/^http:/, 'https:')];
   const res = await request(`https://api.bilibili.com/x/web-interface/view?bvid=${id}`, { headers: { 'User-Agent': UA } });
   const body = await res.json();
   if (body.code !== 0) throw new Error(`B站视频信息获取失败：${id} 接口返回 ${body.code} ${body.message ?? ''}`);
@@ -112,8 +129,9 @@ if (unknown.length) {
 
 const todo = [];
 for (const slug of named.length ? named : slugs) {
-  const { cover, coverEdit } = readBattleDocument(path.join(root, 'src/battles', slug, `${slug}.md`)).data;
+  const { videos, cover, coverEdit } = readBattleDocument(path.join(root, 'src/battles', slug, `${slug}.md`)).data;
   if (!cover) {
+    if (Array.isArray(videos) && videos.length > 0) throw new Error(`${slug} 有 videos 但未配置 battle.cover`);
     if (named.length) throw new Error(`${slug} 未配置 battle.cover`);
     continue;
   }

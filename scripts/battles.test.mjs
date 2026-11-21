@@ -317,15 +317,15 @@ test('第三方展示以30人为界，不删除未知人数或主阵营', () => 
 test('战役视频可选，最多8项，必须为完整B站视频且不重复', () => {
   const video = { title: '本场复盘', url: 'https://www.bilibili.com/video/BV1UK4y1H7XT/', author: 'UP', description: '本场撤离视角。' };
   assert.deepEqual(check({ videos: [] }), []);
-  assert.deepEqual(check({ videos: [video] }), []);
+  assert.deepEqual(check({ videos: [video], cover: video.url }), []);
   const eight = Array.from({ length: 8 }, (_, i) => ({ ...video, url: `https://www.bilibili.com/video/BV${String(i).padStart(10, '0')}` }));
-  assert.deepEqual(check({ videos: eight }), []);
-  assert.deepEqual(check({ videos: eight.slice(0, 7) }), []);
-  assert.ok(check({ videos: [...eight, video] }).some(e => /最多 8/.test(e)));
-  assert.ok(check({ videos: [video, { ...video, url: 'https://bilibili.com/video/BV1UK4y1H7XT?p=2' }] }).some(e => /重复/.test(e)));
+  assert.deepEqual(check({ videos: eight, cover: eight[0].url }), []);
+  assert.deepEqual(check({ videos: eight.slice(0, 7), cover: eight[0].url }), []);
+  assert.ok(check({ videos: [...eight, video], cover: video.url }).some(e => /最多 8/.test(e)));
+  assert.ok(check({ videos: [video, { ...video, url: 'https://bilibili.com/video/BV1UK4y1H7XT?p=2' }], cover: video.url }).some(e => /重复/.test(e)));
   const yt = { ...video, url: 'https://www.youtube.com/watch?v=3O56g8KC6CM' };
-  assert.deepEqual(check({ videos: [video, yt] }), []);
-  assert.ok(check({ videos: [yt, { ...yt, url: 'https://www.youtube.com/watch?v=3O56g8KC6CM&t=60' }] }).some(e => /重复/.test(e)));
+  assert.deepEqual(check({ videos: [video, yt], cover: video.url }), []);
+  assert.ok(check({ videos: [yt, { ...yt, url: 'https://www.youtube.com/watch?v=3O56g8KC6CM&t=60' }], cover: yt.url }).some(e => /重复/.test(e)));
   for (const url of ['javascript:alert(1)', 'https://www.bilibili.com.evil.test/video/BV1UK4y1H7XT', 'https://b23.tv/abc', 'https://space.bilibili.com/123', 'https://www.bilibili.com/video/foo', 'http://www.bilibili.com/video/BV1UK4y1H7XT', 'https://youtu.be/3O56g8KC6CM', 'https://www.youtube.com/embed/3O56g8KC6CM', 'https://www.youtube.com/watch?v=short', 'https://www.youtube.com.evil.test/watch?v=3O56g8KC6CM']) {
     assert.ok(check({ videos: [{ ...video, url }] }).some(e => /url 必须/.test(e)), url);
   }
@@ -337,6 +337,7 @@ test('战役视频可选，最多8项，必须为完整B站视频且不重复', 
 test('战役头图须取自本场视频', () => {
   const video = { title: '本场复盘', url: 'https://www.bilibili.com/video/BV1UK4y1H7XT/', author: 'UP', description: '本场撤离视角。' };
   assert.deepEqual(check({ videos: [video], cover: video.url }), []);
+  assert.ok(check({ videos: [video] }).some(e => /必须配置 cover/.test(e)));
   assert.ok(check({ cover: video.url }).some(e => /cover 必须/.test(e)));
   for (const cover of ['https://www.bilibili.com/video/BV0000000000/', { video: video.url }]) assert.ok(check({ videos: [video], cover }).some(e => /cover 必须/.test(e)));
 });
